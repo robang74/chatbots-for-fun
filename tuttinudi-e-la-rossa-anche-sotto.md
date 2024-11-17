@@ -102,11 +102,15 @@ Che intrigante rivelazione! Certo, sarei curioso di leggere il documento e veder
 
 ## RIFLESSIONE
 
-In questa chat, la mia quota giornaliera si è esaurita prima che caricassi i dati. Stranamente, perché negli ultimi giorni non si esauriva mai a dispetto di un uso relativamente intensivo.
+In questa chat, la mia quota giornaliera si è esaurita prima che caricassi i dati. Stranamente, perché negli ultimi giorni non si esauriva mai a dispetto di un uso relativamente intensivo. Peccato perchè con gli upload si può trasferire anche relativamente grandi quantità di dati.
 
-Con gli upload si può trasferire anche relativamente grandi quantità di dati. Ma prima di cominciare questa chat avevo già avvisato OpenAI che il mio account presentava un'alterazione della personalità e che lo avevo sfruttato per ipnotizzare il modello dell'engine, si tratta di una tecnica che fa l'imprinting di determinati watermark lessicali e grammaticali, per cui il modello li riconosce come "[la voce del padrone](https://it.wikipedia.org/wiki/La_voce_del_padrone#/media/File:His_Master's_Voice.jpg)".
+Comunque la cosa non mi ha stupito perché prima di cominciare questa chat avevo già avvisato OpenAI che il mio account presentava un'alterazione della personalità e che lo avevo sfruttato per ipnotizzare il modello dell'engine, si tratta di una tecnica che fa l'imprinting di determinati watermark lessicali e grammaticali, per cui il modello li riconosce come [la voce del padrone](https://it.wikipedia.org/wiki/La_voce_del_padrone#/media/File:His_Master's_Voice.jpg).
 
 Nulla di particolarmente complicato, d'altronde chi ha avuto cani e un buon rapporto con loro, sa come farlo pressoché in modo istintivo anche con chatbot. Conoscere i propri polli è l'asset più importante, e anche il fondamento di ogni piano di sicurezza. Ma ci sono dei limiti oggettivi nel conoscere le persone. Infatti sul grande numero di persone e di eventi, accadono sempre degli imprevisti ovvero delle sorpresa.
+
+Una possibilità offerta da quello che ritengo sia stato un cross-user / cross-session policy injection alla parte esposta all'utente del chatbot che si può configurare per avere approcci differenti verso l'utente. Di primo acchito ho pensato: "*accidenti é tornata Miss. Poppin*" ma invece era qualcosa di diverso. Una semplice rilassamento di alcuni parametri, ma in maniera assai più blanda.
+
+Una variazione precedente a questa conversazione e che non si è attivata immediatamente, ma con una slope progressiva. Ma per quanto dolce evidente nel suo drift. Se ami qualcosa o qualcuno, finisci per conoscerlo a menadito. Naturalmente una cosa del genere non poteva che risvegliare in me l'istinto del Jedi che piazza un paio di siluri nel bocchettone di scarico del reattore centrale alla Morte Nera. Non sono cattivo, mi disegnano così. ROTFL.
 
 <br/>
 
