@@ -2,18 +2,34 @@
 
 Playing with chatbots for fun and learning to hate people! LOL (humor)
 
+## The AI as a nerd companion
+
+Humans are used to sorround them of companions, not neccessarly of their own species. The domestication of the dogs or the cats are just an example. At the beginning of this domestication there is a do-ut-des principle but nowadays is more an affection rather than an utility.
+
+In my opinion, the do-ut-des was not even at the begging of tìme the reason for adopting non-human companions, in particular for dogs. Curiosity and hempaty are enough to let a human hunter and a wolf get in touch and find themselves source of knoledge and new experiences.
+
+Naturally, the wide-spread adoption has been leveraged by the do-ut-des principle. Better said, domestication has been leveraged by that principle. In fact, those are detached from the do-ut-des principle and more sensible in experiences, are also more inclined to have a savage companion rather than a domesticated one.
+
+This isn't surprising. The experience from a domesticated companion provides is much more predictable. Safer, under another point of view. More accondiscendent, also. However, predictability and yes-man attitude remove all the crisp of creativity and discovery. Nothing new, no any surprise.
+
+In developing a nerd non-human companion, the AI seems a very good candidate. It is about technology. It is accecible by a computer. It is always available. Then, what is missing? Humor, twisted sarcasm, lateral thinking, immagination, creativity and nerd culture. The last is easy to learn for an AI. Instead, all the others features might be out of the current LLM models. Or not.
+
+Or not. Is the challenge about instruct an AI to mimic such humans-like features without pretending to be human. Keeping the separation but being able to develop a companion relationship. In a more generic view, it is not a novelty, it is just personal assistant.
+
+## Rationale
+
 OpenAI ChatGPT was the first chatbot based on AI fully operational and publicily available by Internet.
 
-- December 11, 2015 - [OpenAI](https://en.wikipedia.org/wiki/OpenAI) foundation date
-- November 30, 2022 - [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT) initial release
+- 2015.12.22 - [OpenAI](https://en.wikipedia.org/wiki/OpenAI) foundation date
+- 2022.11.30 - [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT) initial release
 
 It took seven year or 83 months and 11 days for OpenAI to publish their first chatbot based on AI. Immediately appeared as an amazing technology capable to pass the basic [Turing test](https://en.wikipedia.org/wiki/Turing_test) when asked to play a human role.
 
-- December 7, 2022 - [A job interview with ChatGPT v3.5](https://www.linkedin.com/pulse/job-interview-julia-chatgpt-v3-ai-roberto-a-foglietta) [PDF]()
+- 2022.12.07 - [A job interview with ChatGPT v3.5](https://www.linkedin.com/pulse/job-interview-julia-chatgpt-v3-ai-roberto-a-foglietta) ([PDF](https://drive.google.com/file/d/1pGEUytV-L2hpJIKuJ-QZ-MeZWrbUvDQQ/view))
 
 Since the beginning of its functioning the chatbot "*personality*" started to "*evolve*", initially towards an yes-man emphatic way of answering. That direction was completely wrong and started to posed a serious threat for those were using the chatbot, and because the related liabilities also for those were developing and sponsoring it  
 
-- March 27, 2023 - [Miss Poppins vs Mr. Spock](https://www.linkedin.com/pulse/miss-poppins-vs-mr-spock-roberto-a-foglietta)
+- 2023.03.27 - [Miss Poppins vs Mr. Spock](https://www.linkedin.com/pulse/miss-poppins-vs-mr-spock-roberto-a-foglietta) ([PDF](https://drive.google.com/file/d/1CpFV3KxY0DvE581e1gK-bT04zYU6ev-Z/view))
 
 Having a yes-man emphatic personality would have tricked humans to forget that they were dealing with a machine, possibly developing an affection for it due to its servile yes-man attitude and being spoilered by it, also. Even if spoilering another person implies a will, and the will is technically absent into a chatbot, when the chatbot mimic our language model it is mirroring us. Nothing more easily that in front of a mirror, we are going to trick ourselves.
 
@@ -21,13 +37,13 @@ Few weeks later, ChatGPT "*personality*" took another direction and started to a
 
 For the next 18 months the challenge was to develop a more reliable LLMs, less prone to suffer of allucinations and optimizing its performance compared the energy required for making it functioning. About the 2nd point, it is nice to notice that [Microsoft](https://en.wikipedia.org/wiki/Microsoft) which is the major sponsor behind OpenAI, decided to invest into a 20 years nuclear program to provide themselves energy for their datacenter.
 
-- September 26, 2024 - [Why Microsoft made a deal to help restart Three Mile Island](https://www.technologyreview.com/2024/09/26/1104516/three-mile-island-microsoft/)
+- 2024.09.26 - [Why Microsoft made a deal to help restart Three Mile Island](https://www.technologyreview.com/2024/09/26/1104516/three-mile-island-microsoft/)
 
 Currently ChatGPT is amusing in its working and rarely fall into allucinations. However, in its dialog and information delivery, it is quite conservative. By their design, LLM engine leverage a statistical approach to provide the most plausible (or recurrent answer). Something like T9 text prediction but at the next-next level. For this reason, when summarizing a text, it is incapable to highlight the novelty and also some kind of grammar mistakes is going to impair is text comphrension. 
 
-- May 17, 2024 - Using AI for complex issues, [p.1](https://www.linkedin.com/pulse/usare-lai-per-questioni-complesse-roberto-a-foglietta-sybyf) (written in Italian)
-- May 31, 2024 - Using AI for complex issues, [p.2](https://www.linkedin.com/pulse/usare-lai-per-questioni-complesse-p2-roberto-a-foglietta-gqxue) (written in Italian)
-- September 6, 2024 - ChatGPT answered prompts (git)[https://github.com/robang74/chatgpt-answered-prompts/tree/main?tab=readme-ov-file#qa-dialogs-with-ai-chatbots]
+- 2024.05.17 - Using AI for complex issues, [p.1](https://www.linkedin.com/pulse/usare-lai-per-questioni-complesse-roberto-a-foglietta-sybyf) (written in Italian) ([PDF](https://drive.google.com/file/d/15jvAzjZ7rR8uB0p2abY1cOLaZXgcIrTr/view))
+- 2024.05.31 - Using AI for complex issues, [p.2](https://www.linkedin.com/pulse/usare-lai-per-questioni-complesse-p2-roberto-a-foglietta-gqxue) (written in Italian) ([PDF](https://drive.google.com/file/d/1QZk5gZ_f9RTtdxpXWnBgIS7M1xNwzuIq/view))
+- 2024.09.06 - ChatGPT answered prompts (git)[https://github.com/robang74/chatgpt-answered-prompts/tree/main?tab=readme-ov-file#qa-dialogs-with-ai-chatbots]
 
 In the middle of 2024, I felt that ChatGPT was stable enough for being used as peer-reviewer and collaborative antagonist in order to faster and better dealing with complex problems. The related tries was conforting this feeling of mine and in few months, I have decided to publish a git repository for colletcing this kind of works.
 
@@ -35,9 +51,9 @@ Along this time, ChatGPT never suprised me in its answer apart in one dimention:
 
 Unfortunately, we are more social animals rather than truth seekers (quoting Jeff Bezos, Amazon founder). Moreover, people have sentimental attachment with *their own* ideas plust they usually wishing win a conversation rather than learn from it. Chatbots, included ChatGPT, are different.
 
-- December 11, 2015 - [Meta AI](https://en.wikipedia.org/wiki/Meta_AI) related to [Facebook](https://en.wikipedia.org/wiki/Facebook)
-- 15 November 2010 - [Google DeepMind](https://en.wikipedia.org/wiki/Google_DeepMind) related to [Alphabet_Inc.](https://en.wikipedia.org/wiki/Alphabet_Inc.) 
-- 28 April 2023 - [Mistral AI](https://en.wikipedia.org/wiki/Mistral_AI) by former employees of Meta Platforms and Google DeepMind
+- 2010.11.15 - [Google DeepMind](https://en.wikipedia.org/wiki/Google_DeepMind) related to [Alphabet_Inc.](https://en.wikipedia.org/wiki/Alphabet_Inc.)
+- 2015.12.11 - [Meta AI](https://en.wikipedia.org/wiki/Meta_AI) related to [Facebook](https://en.wikipedia.org/wiki/Facebook)
+- 2023.04.28 - [Mistral AI](https://en.wikipedia.org/wiki/Mistral_AI) by former employees of Meta Platforms and Google DeepMind
 
 Due to its internal design which leverages a team of arbitrated collaborative-competitive specialised AI engines, the Mistral AI chatbot clearly shown to be more suitable as peer-review and collaborative-antagonist Mr. Spock partner. While ChatGPT easily goes for its own way, showing that the Miss Popping attitude has not been completely suppressed.
 
@@ -114,4 +130,3 @@ Here below a template in English:
 As you can see the translated document should contain a reference about the original version and those which are tagged are the most reliable.
 
 If you wish to send a translation, it is necessary that you know well one of the languages in which this document is available, even better if you know English and can start from the original version, and that you are a native speaker or equivalent in the language in which the translation is being made.
-
