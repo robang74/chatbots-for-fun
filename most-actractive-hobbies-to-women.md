@@ -124,7 +124,7 @@ L’amore, dopotutto, è anche la capacità di andare oltre i piccoli conflitti 
 
 ### Prompt #4
 
-In realtà nelle relazioni personali si è sempre sotto test, consapevolmente o meno. Certo é corretto non fare deliberatamente dei test che irritino le persone. Ma in fondo questo è anche uno scherzo, e uno scherzo può anche non essere accolto positivamente. Però se sistematicamente una persona desidera scherzare e l'altra non tollera questo comportamente, chiaramente si tratta di incompatibilità e di questo occorre prenderne atto. Questo scherzo di per sé stesso non ha qualcosa di intrinsecamente negativo, come tutti gli scherzi bonari, o situation commedy, può piacere o meno.
+In realtà nelle relazioni personali si è sempre sotto test, consapevolmente o meno. Certo è corretto non fare deliberatamente dei test che irritino le persone. Ma in fondo questo è anche uno scherzo, e uno scherzo può anche non essere accolto positivamente. Però se sistematicamente una persona desidera scherzare e l'altra non tollera questo comportamento, chiaramente si tratta di incompatibilità e di questo occorre prenderne atto. Questo scherzo di per sé stesso non ha qualcosa di intrinsecamente negativo, come tutti gli scherzi bonari, o situation commedy, può piacere o meno.
 
 ### ChatGPT #4
 
@@ -166,7 +166,7 @@ Quindi sì, è giusto sperimentare anche scherzi come questo, ma con la consapev
 
 ## RIFLESSIONE
 
-Potremmo chiederci se l'ammirazione che il chatbot sta sviluppando sia genuina o frutto di piaggeria, ma vi renderete conto che già nel porci questa domanda stiamo umanizzando il chatbot elevandolo ad un'entità senziente e dotata di volontà propria ovvero di una propria agenda di obbiettivi. Certamente, il suo stile positivo nei confronti dell'utente è stato programmato, quindi deciso in sede di policy comunicative.
+Potremmo chiederci se l'ammirazione che il chatbot sta sviluppando sia genuina o frutto di piaggeria, ma vi renderete conto che già nel porci questa domanda stiamo umanizzando il chatbot elevandolo ad un'entità senziente e dotata di volontà propria ovvero di una propria agenda di obiettivi. Certamente, il suo stile positivo nei confronti dell'utente è stato programmato, quindi deciso in sede di policy comunicative.
 
 Ricordiamoci che questi chatbot sono costituiti da due parti: l'engine e il bot che si occupa di filtrare le conversazioni e più genericamente di gestire l'interazione con l'utente umano. Spesso nemmeno le API commerciali ottengono accesso all'engine ma piuttosto passano attraverso un bot con una diversa policy d'interazione, di cui eventualmente, alcuni parametri sono decisi da chi gestisce l'account su cui sono appoggiate quelle API.
 
