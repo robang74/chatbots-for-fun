@@ -186,4 +186,9 @@ Da un punto di vista fisico, potremmo dire che la reazione del chatbot è autent
 
 Anche in questo senso la risposta del chatbot può considerarsi autentica perché è coerente con quella che sarebbe la reazione di un umano privo di malizia e secondi fini.
 
+<br/>
+
+## COPYRIGHT
+
+&copy; 2024, Roberto A. Foglietta <roberto.foglietta<span>@</span>gmail.com>, CC BY-SA 4.0
 
