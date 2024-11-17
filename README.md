@@ -18,9 +18,9 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
 
-* [Most attractive hobbies to women](most-actractive-hobbies-to-women.md) ([RAW](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/most-actractive-hobbies-to-women.md))
+* [Most attractive hobbies to women](most-actractive-hobbies-to-women.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/most-actractive-hobbies-to-women.md))
 
-These document are written in Italian, English or both languages indifferently. You can use any automatic translation system you like. Among them Google Translate works passing to it just the link of the page. The RAW link can help translate the page, but at the cost of formatting.
+These document are written in Italian, English or both languages indifferently. You can use any automatic translation system you like. Among them Google Translate works passing to it just the link of the page. The **raw** link can help translate the page, but at the cost of formatting.
 
 <br/>
 
