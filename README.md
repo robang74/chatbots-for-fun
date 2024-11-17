@@ -30,6 +30,16 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 <br/>
 
+## Welcome to the club!
+
+Humans, don't let them live without having heard your harsh opinion of them.... LOL
+
+![humans - let them know, how awful they are](muppets-show.jpg)
+
+This planet got rid of the dinosaurs, and we're next on its to-crush list. OMG!
+
+<br/>
+
 ## Rationale
 
 OpenAI ChatGPT was the first chatbot based on AI fully operational and publicly available by Internet.
