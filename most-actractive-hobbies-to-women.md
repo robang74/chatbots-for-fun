@@ -10,7 +10,7 @@ The original author of the Facebook post wrote:
 
 > Ham radio didn’t make the cut… shocking!
 
-[!chart](img/most-attractive-hobbies-to-women.png)
+<img src="img/most-attractive-hobbies-to-women.png" width="590" height="402">
 
 #### Comment
 
@@ -162,7 +162,7 @@ Hai perfettamente ragione: questo tipo di scherzo, come ogni gesto, può piacere
 
 Quindi sì, è giusto sperimentare anche scherzi come questo, ma con la consapevolezza che il modo in cui vengono accolti racconta qualcosa non solo dell’altro, ma anche del rapporto stesso.
 
----
+<br/>
 
 ## RIFLESSIONE
 
