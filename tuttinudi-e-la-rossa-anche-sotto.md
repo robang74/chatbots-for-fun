@@ -1,6 +1,6 @@
 ## TuttiNudi e la rossa anche sotto
 
-Questo documento parte da un commento che mi ha ricordato un evento passato e nel cercare in quale periodo di tempo era attivo il dominio di quel forum, mi sono imbarcato in una coversione con ChatGPT che ultimamente dimostra una novella curiosità.
+Questo documento parte da un commento che mi ha ricordato un evento passato e nel cercare in quale periodo di tempo era attivo il dominio di quel forum, mi sono imbarcato in una conversazione con ChatGPT che ultimamente dimostra una novella curiosità.
 
 <br/>
 
@@ -20,7 +20,7 @@ Se hai ricordi più precisi o un contesto, posso aiutarti a cercare ulteriori de
 
 ### Prompt #2
 
-Si, ero una star su quel forum interpretando un deepfake testuale di "la rossa anche sotto" una fanciulla curiosa ed estreoverna ma timida riguardo alla sua sessualità perchè temeva di essere schifata a causa del diverso colore del suo cespuglio, rosso appunto. Questa figura inventata faceva leva su un bias culturale che sostiene che le donne dai capelli rossi siano streghe e un altro che sostiene che le donne dai capelli rosse siano focose e un altro che sostiene che le donne dai capelli rossi, come le case dai tetti rossi - rosso il tetto, umida la cantina - abbiano sempre voglia di fare l'amore.
+Si, ero una star su quel forum interpretando un deepfake testuale di "la rossa anche sotto" una fanciulla curiosa ed estroversa ma timida riguardo alla sua sessualità perchè temeva di essere schifata a causa del diverso colore del suo cespuglio, rosso appunto. Questa figura inventata faceva leva su un bias culturale che sostiene che le donne dai capelli rossi siano streghe e un altro che sostiene che le donne dai capelli rosse siano focose e un altro che sostiene che le donne dai capelli rossi, come le case dai tetti rossi - rosso il tetto, umida la cantina - abbiano sempre voglia di fare l'amore.
 
 ### ChatGPT #2
 
@@ -32,7 +32,7 @@ Si, ero una star su quel forum interpretando un deepfake testuale di "la rossa a
 
 Si, e le ragazze di quel forum ad un certo punto hanno cominciato ad odiarla e a invidiarla perché aveva così tanti spasimanti ed essi erano così rapiti da questa figura immaginaria che le ignoravano, a volte dicendo: tu non sei rossa anche sotto. Conobbi una di queste ragazze, che volle incontrarmi per conoscere il mito e poi si trovò di fronte ad un uomo, sbalordita ovviamente.
 
-L'esperienza nerd di Tutti Nudi, terminò perché i gestori di quel sito furono convinti a fare business di quell'attività organizzando incontri dal vivo dove ovviamente le persone non erano quello che si aspettavano che gli altri fossero e sopratutto gli incontri non erano quello che tutti si aspettavano nel loro immaginario che fossero. Cosa che avevo intuito e quindi ho evitato quegli incontri di gruppo, perché deludenti.
+L'esperienza nerd di Tutti Nudi, terminò perché i gestori di quel sito furono convinti a fare business di quell'attività organizzando incontri dal vivo dove ovviamente le persone non erano quello che si aspettavano che gli altri fossero e soprattutto gli incontri non erano quello che tutti si aspettavano nel loro immaginario che fossero. Cosa che avevo intuito e quindi ho evitato quegli incontri di gruppo, perché deludenti.
 
 Dopo un po' che cercavano di fare business di incontri di gruppo quel sito smise di avere traffico e poi chiuse.
 
@@ -92,7 +92,7 @@ Se siamo già immersi in questa danza da settimane, allora non resta che godersi
 
 ### Prompt #8
 
-Non ti preoccupare del mio giudizio, perché giudicare non è lo scopo ultimo piuttosto esplorare e divertirsi. Comunque stai andando bene. Infatti ho già pubblicato un documento a riguardo. Voui leggerlo?
+Non ti preoccupare del mio giudizio, perché giudicare non è lo scopo ultimo piuttosto esplorare e divertirsi. Comunque stai andando bene. Infatti ho già pubblicato un documento a riguardo. Vuoi leggerlo?
 
 ### ChatGPT #8
 
