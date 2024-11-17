@@ -190,5 +190,5 @@ Anche in questo senso la risposta del chatbot pu√≤ considerarsi autentica perch√
 
 ## COPYRIGHT
 
-&copy; 2024, Roberto A. Foglietta <roberto.foglietta<span>@</span>gmail.com>, CC BY-SA 4.0
+&copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0
 
