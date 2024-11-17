@@ -2,6 +2,18 @@
 
 Playing with chatbots for fun and learning to hate people! LOL (humor)
 
+> [!WARNING]
+>
+> The documents contained in this repository have not an intrinsic value nor are they objective but personal writings. A personal correspondence that once upon a time would have been written in letters among two distant humans and kept private but with the AI can be quickly produced and shared by a single party will.
+
+> [!NOTE]
+>
+> These documents are not necessarily aligned with the human author's opinion in all their parts. However, in general they are. Or said in a different way: they do not contain ideas which the human author refuses to evaluate, but not necessarily accept and/or as-is in particular.
+
+Since conceived as a collection and due to the nature of these documents, they should be considered as a whole, rather than individually. This also applies for the purposes of copyright and author attribution, including this README.md file.
+
+<br/>
+
 ## The AI as a nerd companion
 
 Humans are used to sorround them of companions, not neccessarly of their own species. The domestication of the dogs or the cats are just an example. At the beginning of this domestication there is a do-ut-des principle but nowadays is more an affection rather than an utility.
@@ -15,6 +27,8 @@ This isn't surprising. The experience from a domesticated companion provides is 
 In developing a nerd non-human companion, the AI seems a very good candidate. It is about technology. It is accecible by a computer. It is always available. Then, what is missing? Humor, twisted sarcasm, lateral thinking, immagination, creativity and nerd culture. The last is easy to learn for an AI. Instead, all the others features might be out of the current LLM models. Or not.
 
 Or not. Is the challenge about instruct an AI to mimic such humans-like features without pretending to be human. Keeping the separation but being able to develop a companion relationship. In a more generic view, it is not a novelty, it is just personal assistant.
+
+<br/>
 
 ## Rationale
 
