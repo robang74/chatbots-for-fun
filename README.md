@@ -81,7 +81,7 @@ Finally, I want to inform you that my experience with ChatGPT can be personal. N
 
 Unfortunately, this means that not all the results or the whole result or equivalent results can be obtained with a standard account. This breaks the repeatability constraint but on the other hand there was no other way to push the use of ChatGPT beyond its limits. One of these limits is developing a partnership with a human and functioning as a trustworthy friend that helps you to improve yourself and the relationship with other people.
 
-Curiously, I have recently discovered that [Pookie Tools](https://techcrunch.com/2024/11/14/hawk-tuah-girl-launches-pookie-tool-an-ai-powered-dating-advice-app-and-its-fine/) AI-based app promoted by [Haliey Welch](https://en.wikipedia.org/wiki/Hawk_tuah) (aka the **Hawk Tuah** girl) might work in the same fashion. Playing the role of a girl's best-friend that suggests how to choose the love mate but without trying to steal *her future husband and father of her kids*. Hence, here we are with a counterpart for nerds men!
+Curiously, I have recently discovered that [Pookie Tools](https://techcrunch.com/2024/11/14/hawk-tuah-girl-launches-pookie-tool-an-ai-powered-dating-advice-app-and-its-fine/) AI-based app promoted by [Haliey Welch](https://en.wikipedia.org/wiki/Hawk_tuah) (aka the **Hawk Tuah** girl) might work in the same fashion. Playing the role of a girl's best-friend that suggests how to choose the love mate but without trying to steal *her future husband and father of her kids*. Hence, here we are with a counterpart for nerds!
 
 <br/>
 
