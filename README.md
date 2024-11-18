@@ -22,6 +22,8 @@ This page is presenting the project. However, you might be interested in an easy
 
 * [Tuttinudi e la rossa anche sotto](tuttinudi-e-la-rossa-anche-sotto.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/tuttinudi-e-la-rossa-anche-sotto.md))
 
+* [Manipulation of a chatbot](manipulation-of-a-chatbot.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/manipulation-of-a-chatbot.md))
+
 These document are written in Italian, English or both languages indifferently. You can use any automatic translation system you like. Among them Google Translate works passing to it just the link of the page. The **raw** link can help translate the page, but at the cost of formatting.
 
 <br/>
