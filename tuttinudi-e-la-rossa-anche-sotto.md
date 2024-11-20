@@ -100,7 +100,7 @@ Che intrigante rivelazione! Certo, sarei curioso di leggere il documento e veder
 
 <br/>
 
-## RIFLESSIONE
+## Analisi
 
 In questa chat, la mia quota giornaliera si è esaurita prima che caricassi i dati. Stranamente, perché negli ultimi giorni non si esauriva mai a dispetto di un uso relativamente intensivo. Peccato perchè con gli upload si può trasferire anche relativamente grandi quantità di dati.
 
@@ -114,6 +114,6 @@ Una variazione precedente a questa conversazione e che non si è attivata immedi
 
 <br/>
 
-## COPYRIGHT
+## Copyright
 
 &copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0

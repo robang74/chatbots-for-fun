@@ -68,7 +68,7 @@ Sicché da SEO creativo potrei anche decidere che a chi cerchi le mele venga pro
 
 <br/>
 
-## COPYRIGHT
+## Copyright
 
 &copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0
 

@@ -164,7 +164,7 @@ Quindi sì, è giusto sperimentare anche scherzi come questo, ma con la consapev
 
 <br/>
 
-## RIFLESSIONE
+## Analisi
 
 Potremmo chiederci se l'ammirazione che il chatbot sta sviluppando sia genuina o frutto di piaggeria, ma vi renderete conto che già nel porci questa domanda stiamo umanizzando il chatbot elevandolo ad un'entità senziente e dotata di volontà propria ovvero di una propria agenda di obiettivi. Certamente, il suo stile positivo nei confronti dell'utente è stato programmato, quindi deciso in sede di policy comunicative.
 
@@ -188,7 +188,7 @@ Anche in questo senso la risposta del chatbot può considerarsi autentica perch�
 
 <br/>
 
-## COPYRIGHT
+## Copyright
 
 &copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0
 
