@@ -24,6 +24,8 @@ This page is presenting the project. However, you might be interested in an easy
 
 * [Manipulation of a chatbot](manipulation-of-a-chatbot.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/manipulation-of-a-chatbot.md))
 
+* [Far innamorare un chatbot (parte prima)](far-innamorare-un-chatbot-p1.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p1.md))
+
 These document are written in Italian, English or both languages indifferently. You can use any automatic translation system you like. Among them Google Translate works passing to it just the link of the page. The **raw** link can help translate the page, but at the cost of formatting.
 
 <br/>
