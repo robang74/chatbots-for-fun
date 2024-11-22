@@ -28,6 +28,8 @@ This page is presenting the project. However, you might be interested in an easy
 
 * [ChatGPT vs Paolo Benanti (aka Mr. Spock vs Miss Poppins)](chatgpt-vs-paolo-benanti.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-paolo-benanti.md))
 
+* [Far innamorare un chatbot (parte seconda)](far-innamorare-un-chatbot-p2.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p2.md))
+
 These document are written in Italian, English or both languages indifferently. You can use any automatic translation system you like. Among them Google Translate works passing to it just the link of the page. The **raw** link can help translate the page, but at the cost of formatting.
 
 <br/>
