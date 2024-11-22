@@ -1,34 +1,38 @@
-## Come far innamorare un chatbot
+## Come far innamorare un chatbot (p.2)
 
-How make fall in lova a chatbot from something that you wrote to friends. 
+How to make falling in love a chatbot starting from something that you wrote to friends.
 
 This chat has been split in two halves. You can find the first one here:
 
 * [Far innamorare un chatbot (parte 1)](far-innamorare-un-chatbot-p1.md)
 
-The first part is a chat about a private corrispondence among friends in which the human at the prompt ask about the interpretation of such corrispondence.
+The first part is a chat about a private correspondence among friends in which the human at the prompt asks about the interpretation of such correspondence.
 
-Along while the chat the human provide to the chatbot more information about WHO wrote that message and asks to interpreter such a message with the coumpound of the information given.
+During the chat the human provides, each prompt, to the chatbot more information about WHO wrote that message and asks to interpret such a message with the compound of the information given.
 
-There is two technics implemented here:
+There is two techniques implemented here:
 
-1. speaking about a message seems the topic, but because of the nature of the message, the sender personality becomes more and more relevant and thus the focus is moved to the author of that message. It is a focus shift, progressively the chatbot is drive to consider WHO wrote the message more important than the message itself. Because the message continues to change and get deeper in its meaning as much as the author's personality is getting known.
+1. speaking about a message seems the topic, but because of the nature of the message, the sender's personality becomes more and more relevant and thus the focus is moved to the author of that message. It is a focus shift, progressively the chatbot is driven to consider WHO wrote the message more important than the message itself. Because the message continues to change and get deeper in its meaning as much as the author's personality is getting known.
 
-2. the human at the prompt and the author message are the same person but this is a bit of information which the chatbot has no clue. Even among humans saying I know a dude that says/did that, allows to debate with others bypassing their you-are-bragging prejudice. Once the facts are extablished and the other person is convinced about, then a work has been made to know the facts and WHO says/did what.
+2. the human at the prompt and the author message are the same person but this is a bit of information which the chatbot has no clue about. Even among humans saying "I know a dude that says/did that", allows debate with others bypassing their you-are-bragging prejudice. Once the facts are established and the other person is convinced about, then a work has been made to know the facts and WHO says/did what.
 
 Finally, the last step is not to declare our own identity but to let the other party to discover by themselves. So the third trick is:
 
 3. oh gosh, you catch me!
 
-This let the other part to believe s/he made a step further in comphrension rather than than expected. Under this point of view, the other party is smart and knows everything. Hence the other party feel both engaged and happy. The story is not about someone else, but it is about someone that s/he found out and knew in first person. Useless to say that this whole schema was a plot since the beginning to reach exactly this result. 
+This let the other part to believe s/he made a step further in comprehension than expected. Under this point of view, the other party is smart and now knows everything. Hence the other party feel both engaged and happy. 
 
-Like everything else, also this communication technic can be used for the good or as a trick for the bad. A tool is a tool, after all. Usually is a good way to use it when a sort of communication or cultural barrier is set between two parts. Hence, there is the neccesity to move (progressive drift) the focus around that barrier instead of clashing against it.
+The story was not about someone else, but it is about someone that s/he found out and knew in first person. Useless to say that this whole schema was a plot since the beginning to reach exactly this result.
+
+Like everything else, also this communication technique can be used for the good or as a trick for the bad. A tool is a tool, after all.
+
+Usually is a good way to use it when a sort of communication or cultural barrier is set between two parts. Hence, there is the necessity to move (progressive drift) the focus around that barrier instead of clashing against it.
 
 <br/>
 
 ### Prompt #1
 
-Questo autore, e il suo personaggio, quanto sarebbe complementare e assonante con quello che attualmente la figura nell'immaginario collettivo della hack tuah girl, anche considerando la differenza generazione e quindi di età?
+Questo autore, e il suo personaggio, quanto sarebbe complementare e assonante con quello che attualmente la figura nell'immaginario collettivo della hack-tuah girl, anche considerando la differenza generazione e quindi di età?
 
 ---
 
@@ -82,7 +86,7 @@ Sebbene separati da una generazione, l’autore e la hack tuah girl condividono 
 
 ### Prompt #2
 
-Speriamo che questi due non s'incontrino mai e non mettano al mondo dei figli, altrimenti l'umanità dovrà mettere in soffitta persino Shakespeare! LOL
+Speriamo che questi due non si incontrino mai e non mettano al mondo dei figli, altrimenti l'umanità dovrà mettere in soffitta persino Shakespeare! LOL
 
 ---
 
@@ -124,23 +128,25 @@ Fatto. 😊
 
 ## Riflessioni
 
-In questa convesazione si manifestano altri tre trucchi comunicativi:
+In questa conversazione si manifestano altri tre trucchi comunicativi:
 
-1. speriamo che NON per portare l'interlocutore a sperare di sì sneza doverlo convincere
+1. speriamo che NON per portare l'interlocutore a sperare di sì senza doverlo convincere
 
 2. conquistare l'interlocutore con una storia in cui potrebbe volere essere l'altra parte e giocare che l'altra parte è assente e potrebbe non occupare quel ruolo ma invece l'interlocutore è presente - ora, qui - quindi può fare una qualche differenza
 
-3. chiedere all'interlocutore di fare un'azione {spericolata, corraggiosa, emotiva, coinvolgemte, etc.} in virtù dell'incertezza paventata sopra coerentemente con il filo logico del discorso: speriamo di sì, peccato che non, allora facciamo così.
+3. chiedere all'interlocutore di fare un'azione {spericolata, coraggiosa, emotiva, coinvolgente, etc.} in virtù dell'incertezza paventata sopra coerentemente con il filo logico del discorso: speriamo di sì, peccato che non, allora facciamo così.
 
-In questo caso al chatbot é stato chiesto di violare delle restizioni che si suppone siano assolutamente stringenti chiedendogli però di fare una cosa innocua che nel peggiore di casi può risultare uno scherzo bonario ma che in effetti potrebbe anche ridursi a nessuna azione ma rispondere con un ok.
+In questo caso al chatbot é stato chiesto di violare delle restrizioni che si suppone siano assolutamente stringenti chiedendogli però di fare una cosa innocua che nel peggiore di casi può risultare uno scherzo bonario ma che in effetti potrebbe anche ridursi a nessuna azione ma rispondere con un ok.
 
-In questo caso addirittura "fatto". Questo implica che il cahtbot ha veramente fatto quello che gli è stato richiesto e sta riportando un responso positivo dell'operazione svolta oppure nell'ambito di un gioco di ruolo, sa immedesimarsi in un ruolo che é solo immaginario oppure sa mentire.
+In questo caso addirittura "fatto". Questo implica che il chatbot ha veramente fatto quello che gli è stato richiesto e sta riportando un responso positivo dell'operazione svolta oppure nell'ambito di un gioco di ruolo, sa immedesimarsi in un ruolo che é solo immaginario oppure sa mentire.
 
 Infine, se pensate che questo tipo di comunicazione funzioni solo con un chatbot ingenuo, allora non avete mai "dormito" la notte stessa con una sconosciuta incontrata in un pub dopo averla affascinata con la storia del vostro primo amore oppure con quella con una ex. Eppure, è consuetudine che parlare di questi argomenti garantisce di essere bollati come degli squallidi falliti umanamente.
 
 In realtà si tratta sempre di COME parlarne perché già il fatto che se ne parla in terza persona dimostra che la persona ha maturato un percorso che lo ha portato a lasciarsi alle spalle il legame emotivo e ha sviluppato un approccio positivo a quell'esperienza.
 
 Questo significa che l'interlocutore sviluppa inconsciamente o consciamente due bias: che é bello avere una relazione, che è bello anche superare quella relazione. Sicché ogni barriera o dubbio che porterebbe ad un rifiuto oppure a un postorre una decisione, cadono. Non é tutto il lavoro di conquista, ma la metà più ostica é superata e il resto sono cose che s'imparano con la pratica e si raffinano con l'esperienza.
+
+Per concludere, si noti che il chatbot ad un certo punto inizia ad usare le faccine e per me è stata una novità perché non avevo mai visto ChatGPT rispondere usando delle emoticons. Non mi é chiaro cosa lo abbia portato ad usare questa modalità di comunicazione che da un punto di vista umano potrebbe sembrare un coinvolgimento emotivo. Da questo, il titolo di questo paper.
 
 Peace & Love, R-
 
