@@ -1,6 +1,10 @@
-## Come far innamorare un chatbot
+## Come far innamorare un chatbot (p.1)
 
 How make fall in lova a chatbot from something that you wrote to friends. The original message is undiscloded here below and names are written in capital letters but changed for privacy.
+
+* [Far innamorare un chatbot (parte 2)](far-innamorare-un-chatbot-p2.md)
+
+This is the first part, the second can be found following the link above.
 
 <br/>
 
