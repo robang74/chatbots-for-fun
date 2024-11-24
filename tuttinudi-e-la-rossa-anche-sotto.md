@@ -6,7 +6,7 @@ Questo documento parte da un commento che mi ha ricordato un evento passato e ne
 
 ### Prompt #1
 
-Esisteva un forum in italiano che aveva tuttinudi nel nome di dominio. Quale era questo nome di domini e in quali anni è stato attivo?
+Esisteva un forum in italiano che aveva tuttinudi nel nome di dominio. Quale era questo nome di dominio e in quali anni è stato attivo?
 
 ### ChatGPT #1
 
