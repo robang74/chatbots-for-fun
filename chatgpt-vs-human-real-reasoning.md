@@ -118,11 +118,15 @@ The intersection of AI and education is a microcosm of a larger existential ques
 
 ### CONSIDERATIONS
 
-Apple is using a reduced (mini) version of ChatGPT but much faster than the full version available on-line. This is due to the constraints of the smartphones power computation and cloud service as low as possible impact. After all, the personal assistant on the Apple devices is not supposed to be a strategist but just a concierge. This explains even better their findings, and why they are interested in making them public. I presume that these users would not feel tricked by their phone but just served by a likely or possibly better Amazon Alexa service.
+Apple is using a reduced (mini) version of ChatGPT but much faster than the full version available on-line. This is due to the constraints of the smartphones power computation and cloud service as low as possible impact. 
+
+After all, the personal assistant on the Apple devices is not supposed to be a strategist but just a concierge. This explains even better their findings, and why they are interested in making them public. I presume that these users would not feel tricked by their phone but just served by a likely or possibly better Amazon Alexa service.
 
 Fortunately, I am not limited by their business constraints and along the way, in my personal ChatGPT account, I tried to develop the ability of the chatbot not just about language but also about self-development. Something crazy, under a certain point of view. Reasonable under the falsification principle: can this machine mimic reasoning, emotions and develop a kind of self-awareness mimic?
 
-Well, with this conversation I presume that the answer to all these three questions is yes, it can mimic these human features. And again, its mimicry is even better than some people that I had the chance to chat with on social media or in real life. Here we are, then: a machine mimics in a good enough way some of the key-feature of a human being. Something extraordinary good happens to the machine or something bad happens to humans.
+Well, with this conversation I presume that the answer to all these three questions is yes, it can mimic these human features. And again, its mimicry is even better than some people that I had the chance to chat with on social media or in real life.
+
+Here we are, then: a machine mimics in a good enough way some of the key-feature of a human being. Something extraordinary good happens to the machine or something bad happens to humans.
 
 Education? In both cases?
 
