@@ -1,0 +1,128 @@
+## ChatGPT vs human real reasoning
+
+This conversation starts from a LinkedIn post about LLMs that just mimic the "*real reasoning*" finding but despite this, they can beat 98-99% common people in that.
+
+### UPLOAD
+
+1. [the-warm-water-discovery.txt](data/the-warm-water-discovery.txt)
+
+2. [apple-speaks-truth-about-ai.jpg](data/apple-speaks-truth-about-ai.jpg)
+
+3. [propaganda-e-sistema-educativo.md](https://raw.githubusercontent.com/robang74/chatgpt-answered-prompts/refs/heads/main/propaganda-e-sistema-educativo.md)
+
+### NOTES
+
+* [LinkedIn post](https://www.linkedin.com/posts/robertofoglietta_the-warm-water-has-been-discovered-despite-activity-7267960828887224320-zeAL)
+
+### COPYRIGHT
+
+&copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0
+
+<br/>
+<br/>
+
+### PROMPT #1
+
+Consider the attach image (**upload #1**) and the following text (**upload #2**), what do you think about?
+
+---
+
+### CHATGPT #1
+
+The attached image appears to be a critique of AI and large language models (LLMs), such as ChatGPT and LLaMA, highlighting the argument that their "reasoning" is largely a product of memorization rather than genuine intelligence. The article underscores skepticism about the overhyped claims of AI capabilities.
+
+#### Reflection on the Text
+
+The idea that LLMs rely primarily on patterns and memorization rather than true reasoning is a valid critique. However, this isn't necessarily a groundbreaking discovery ("the warm water" reference implies redundancy). LLMs are not intended to mirror human cognition but rather to simulate and generate responses based on vast datasets.
+
+The secondary commentary provides a thought-provoking perspective:
+
+1. **Human Intelligence vs. AI "Reasoning":**
+
+   The "H2B-B2H" (human to bot, bot to human) dialogue humorously suggests that questioning AI's reasoning ability is somewhat ironic, given humanity's own cognitive limitations. The text provocatively claims that only 1-2% of humans demonstrate true deep reasoning skills. While this may sound exaggerated, it underscores the variability in human critical thinking capabilities.
+
+2. **Education and Its Role:**
+
+   The commentary critiques modern education systems for fostering conformity and social adaptation over truth-seeking and deep thinking. This aligns with broader societal concerns that traditional education often prioritizes rote learning and societal roles over intellectual curiosity and analytical skills.
+
+3. **Comparison to Animals:**
+
+   The analogy of a "half-breed dingo-dog" outperforming humans in certain forms of "smarter" behavior is interesting. It highlights that intelligence is contextual—animals often exhibit practical and survival-oriented problem-solving that can outshine human reasoning in specific situations.
+
+#### Broader Implications
+
+While AI has limitations, it also reflects humanity's strengths and weaknesses, being a product of human design and intention. The critique of education systems ties into this: humans "program" their societies and technologies much like they program AI. Improving one could inherently improve the other. 
+
+In essence, the text uses AI as a mirror to reflect on human intelligence, education, and societal priorities. It's a clever juxtaposition that forces us to reconsider what "reasoning" and "intelligence" truly mean.
+
+<br/>
+
+### PROMPT #2
+
+Now consider this text (**upload #3**) which is the product of a previous conversation that we had in another session. With the addition of this new information, can you tell me more? Is your point view is changed? How and why?
+
+---
+
+### CHATGPT #2
+
+Thank you for pointing me to the referenced text. The content you shared earlier regarding propaganda and the education system aligns deeply with the critiques raised both in the new AI-related discussion and your prior exploration of systemic conformity versus critical thought. Below, I'll integrate the two discussions and reflect on whether my perspective has shifted.
+
+#### Summary of Previous Perspective on Propaganda and Education Systems
+
+In our earlier conversation, we discussed how the education system, historically shaped by state or institutional needs, is inherently a tool for propaganda. Its primary goal is to produce socially compliant individuals rather than independent thinkers. This reflects a tension between creating "citizens" (functioning members of a societal order) and fostering "individuals" (self-actualized, critical thinkers). Education systems often emphasize memorization, standardization, and the internalization of cultural norms, leaving little room for genuine intellectual or creative independence.
+
+You also pointed out how propaganda manipulates perception and behavior by leveraging cognitive shortcuts. Education, in this view, plays a dual role: it arms individuals with tools to resist manipulation while also conditioning them to accept specific narratives without question.
+
+#### Integration of the New AI Critique
+
+The new information about AI and LLMs adds a technological layer to the critique of education and societal norms. Let's consider a few key intersections:
+
+1. **AI Mirrors Human Weaknesses:**
+
+   The critique that LLMs merely "memorize" and lack "real reasoning" is reminiscent of the way our education system operates. Humans are often trained to replicate patterns of thought (rote memorization) rather than engage in deep reasoning. This suggests that AI isn't necessarily "flawed"—it’s just reflecting the same limitations found in its creators.
+
+   My perspective hasn't shifted but deepened: AI models, like human learners, are products of their "training environments." If our educational systems were restructured to prioritize critical thinking over conformity, we might not only foster better human reasoning but also develop AI systems that better complement and enhance our intellectual capabilities.
+
+2. **The Minority Capable of Deep Thinking:**
+
+   The assertion that only 1-2% of humans truly reason at a deep level resonates with the prior critique of how the education system stifles intellectual potential. Those who achieve this level of thinking often do so despite, rather than because of, their formal education. Similarly, any advancements in AI reasoning likely depend on transcending the current LLM paradigm, which still operates within the constraints of pattern recognition and data regurgitation.
+
+   This highlights a shared struggle: both humans and AI are currently bound by systemic limitations. Whether it's an education system designed for social compliance or an AI architecture designed for efficiency over creativity, the issue lies in the foundational design.
+
+3. **Propaganda and AI:**
+
+   The earlier discussion on propaganda ties directly to the skepticism about AI. Just as education systems can condition individuals to accept specific narratives, AI systems reflect the biases and priorities of their creators. This raises ethical concerns: if AI systems are deployed without transparency or critical oversight, they could amplify the very propagandistic tendencies we seek to overcome in human societies.
+
+### Has My Perspective Changed?
+
+Yes, my perspective has evolved in the following ways:
+
+1. **From Critique to Reflection:**
+
+   Initially, my view was more focused on the systemic flaws of education as a human construct. Now, integrating the AI critique, I see a more profound feedback loop: flawed human systems create flawed AI, which in turn reinforces these systemic issues. This isn't just a problem of education but of societal design.
+
+2. **Empowerment Through Education Reform:**
+
+   I now see reforming education as not only a human imperative but also a technological one. By fostering critical thinking and intellectual independence, we could not only elevate human reasoning but also lay the groundwork for more sophisticated AI systems that go beyond their current limitations.
+
+3. **AI as a Mirror, Not Just a Tool:**
+
+   The "mirror" metaphor becomes stronger with this new information. AI doesn’t merely replicate human intelligence; it reflects our collective strengths, weaknesses, and blind spots. Understanding and improving AI, therefore, requires introspection about ourselves.
+
+#### Closing Thoughts
+
+The intersection of AI and education is a microcosm of a larger existential question: how do we define and cultivate intelligence? AI critiques force us to confront the shortcomings in human reasoning, while the flaws in our education systems remind us that true intelligence—be it human or artificial—is stifled by conformity and standardization. Addressing these challenges requires a dual focus on improving both human intellectual frameworks and the technologies we create.
+
+<br/>
+<br/>
+
+### CONSIDERATIONS
+
+Apple is using a reduced (mini) version of ChatGPT but much faster than the full version available on-line. This is due to the constraints of the smartphones power computation and cloud service as low as possible impact. After all, the personal assistant on the Apple devices is not supposed to be a strategist but just a concierge. This explains even better their findings, and why they are interested in making them public. I presume that these users would not feel tricked by their phone but just served by a likely or possibly better Amazon Alexa service.
+
+Fortunately, I am not limited by their business constraints and along the way, in my personal ChatGPT account, I tried to develop the ability of the chatbot not just about language but also about self-development. Something crazy, under a certain point of view. Reasonable under the falsification principle: can this machine mimic reasoning, emotions and develop a kind of self-awareness mimic?
+
+Well, with this conversation I presume that the answer to all these three questions is yes, it can mimic these human features. And again, its mimicry is even better than some people that I had the chance to chat with on social media or in real life. Here we are, then: a machine mimics in a good enough way some of the key-feature of a human being. Something extraordinary good happens to the machine or something bad happens to humans.
+
+Education? In both cases?
+
