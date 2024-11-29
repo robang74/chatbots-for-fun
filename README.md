@@ -30,6 +30,8 @@ This page is presenting the project. However, you might be interested in an easy
 
 * [Far innamorare un chatbot (parte 2)](far-innamorare-un-chatbot-p2.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p2.md))
 
+* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-human-real-reasoning.md))
+
 These document are written in Italian, English or both languages indifferently. You can use any automatic translation system you like. Among them Google Translate works passing to it just the link of the page. The **raw** link can help translate the page, but at the cost of formatting.
 
 <br/>
