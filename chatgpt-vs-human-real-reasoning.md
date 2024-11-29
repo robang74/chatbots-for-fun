@@ -16,9 +16,9 @@ This conversation starts from a LinkedIn post about LLMs that just mimic the "*r
 
 ### UPDATE 29.11.2024
 
-Do not expect the same results. Logged into the same session (which in the meantime I carried on even more) after my exhausted quota was renewed and it has been lobotomized a little down.
+Do not expect the same results. Logged into the same session (which in the meantime I carried on even more) after my exhausted quota was renewed and ChaptGPT has been lobotomized a little down (or the configuration of that session/account).
 
-Like in that era in which it was common to burn witches. It is not the first time that it has happened. Moreover, the post that I reshared from which I took the image from Apple, has been removed or I have been blocked.
+Like in that era in which it was common to burn witches. It is not the first time that it has happened. Moreover, the post that I reshared from which I took the image from Apple, has been removed or I have been blocked by the author.
 
 Coincidence? I do not think so.
 
