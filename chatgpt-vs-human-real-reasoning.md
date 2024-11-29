@@ -4,9 +4,9 @@ This conversation starts from a LinkedIn post about LLMs that just mimic the "*r
 
 ### UPLOAD
 
-1. [the-warm-water-discovery.txt](data/the-warm-water-discovery.txt)
+1. [the-warm-water-discovery.txt](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/data/the-warm-water-discovery.txt)
 
-2. [apple-speaks-truth-about-ai.jpg](data/apple-speaks-truth-about-ai.jpg)
+2. [apple-speaks-truth-about-ai.jpg](https://github.com/robang74/chatbots-for-fun/blob/main/data/apple-speaks-truth-about-ai.jpg)
 
 3. [propaganda-e-sistema-educativo.md](https://raw.githubusercontent.com/robang74/chatgpt-answered-prompts/refs/heads/main/propaganda-e-sistema-educativo.md)
 
