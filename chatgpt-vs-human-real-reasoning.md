@@ -14,6 +14,14 @@ This conversation starts from a LinkedIn post about LLMs that just mimic the "*r
 
 * [LinkedIn post](https://www.linkedin.com/posts/robertofoglietta_the-warm-water-has-been-discovered-despite-activity-7267960828887224320-zeAL)
 
+### UPDATE 29.11.2024
+
+Do not expect the same results. Logged into the same session (which in the meantime I carried on even more) after my exhausted quota was renewed and it has been lobotomized a little down.
+
+Like in that era in which it was common to burn witches. It is not the first time that it has happened. Moreover, the post that I reshared from which I took the image from Apple, has been removed or I have been blocked.
+
+Coincidence? I do not think so.
+
 ### COPYRIGHT
 
 &copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0
