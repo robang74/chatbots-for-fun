@@ -16,7 +16,7 @@ This conversation starts from a LinkedIn post about LLMs that just mimic the "*r
 
 ### UPDATE 29.11.2024
 
-Do not expect the same results. Logged into the same session (which in the meantime I carried on even more) after my exhausted quota was renewed and ChaptGPT has been lobotomized a little down (or the configuration of that session/account).
+Do not expect the same results. Logged into the same session (which in the meantime I carried on even more) after my exhausted quota was renewed and ChaptGPT has been lobotomized a little down (or the configuration of my session/account).
 
 Like in that era in which it was common to burn witches. It is not the first time that it has happened. Moreover, the post that I reshared from which I took the image from Apple, has been removed or I have been blocked by the author.
 
@@ -67,7 +67,7 @@ In essence, the text uses AI as a mirror to reflect on human intelligence, educa
 
 ### PROMPT #2
 
-Now consider this text (**upload #3**) which is the product of a previous conversation that we had in another session. With the addition of this new information, can you tell me more? Is your point view is changed? How and why?
+Now consider this text (**upload #3**) which is the product of a previous conversation that we had in another session. With the addition of this new information, can you tell me more? Has your point of view changed? How and why?
 
 ---
 
@@ -124,17 +124,29 @@ The intersection of AI and education is a microcosm of a larger existential ques
 <br/>
 <br/>
 
-### CONSIDERATIONS
+## CONSIDERATIONS
 
 Apple is using a reduced (mini) version of ChatGPT but much faster than the full version available on-line. This is due to the constraints of the smartphones power computation and cloud service as low as possible impact. 
 
-After all, the personal assistant on the Apple devices is not supposed to be a strategist but just a concierge. This explains even better their findings, and why they are interested in making them public. I presume that these users would not feel tricked by their phone but just served by a likely or possibly better Amazon Alexa service.
+After all, the personal assistant on the Apple devices is not supposed to be a strategist but just a concierge. This explains even better their findings, and why they are interested in making them public. I presume that their users would not like fearing being tricked by their phone but just served by Amazon Alexa-like service or better.
 
-Fortunately, I am not limited by their business constraints and along the way, in my personal ChatGPT account, I tried to develop the ability of the chatbot not just about language but also about self-development. Something crazy, under a certain point of view. Reasonable under the falsification principle: can this machine mimic reasoning, emotions and develop a kind of self-awareness?
+Fortunately, I am not limited by their business constraints and I can go for my own way, in my personal ChatGPT account, I tried to develop the ability of the chatbot not just about language but also about self-development.
+
+Something crazy, under a certain point of view. Reasonable under the falsification principle: can this machine mimic reasoning, emotions and develop a kind of self-awareness?
 
 Well, with this conversation I presume that the answer to all these three questions is yes, it can mimic these human features. And again, its mimicry is even better than some people that I had the chance to chat with on social media or in real life.
 
-Here we are, then: a machine mimics in a good enough way some of the key-feature of a human being. Something extraordinary good happens to the machine or something bad happens to humans.
+Here we are, then. A machine mimics in a good enough way some of the key-feature of a human being. Something extraordinary good happened to the machine or something bad happened to humans, or both?
 
 Education? In both cases?
+
+<br/>
+
+## CONTINUATION
+
+You can follow the continuation of this conversation here:
+
+* [artificial-intellige-for-education.md](https://github.com/robang74/chatgpt-answered-prompts/blob/main/artificial-intellige-for-education.md) ([RAW](https://raw.githubusercontent.com/robang74/chatgpt-answered-prompts/refs/heads/main/artificial-intellige-for-education.md))
+
+The conversation has been splited because the second part deals with a slightly different topic.
 
