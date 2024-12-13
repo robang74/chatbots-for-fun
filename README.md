@@ -32,6 +32,8 @@ This page is presenting the project. However, you might be interested in an easy
 
 * [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-human-real-reasoning.md))
 
+* [Il problema sei tu, non l'AI](https://github.com/robang74/chatbots-for-fun/blob/main/il-problema-sei-tu-non-l-AI.md) ([RAW](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-problema-sei-tu-non-l-AI.md))
+
 These document are written in Italian, English or both languages indifferently. You can use any automatic translation system you like. Among them Google Translate works passing to it just the link of the page. The **raw** link can help translate the page, but at the cost of formatting.
 
 <br/>
