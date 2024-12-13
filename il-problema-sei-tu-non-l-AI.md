@@ -4,13 +4,13 @@ Tizio scrive: "anche questa ricerca di riscontro nella AI è una catechesi dei t
 
 Intanto perché questo commento indica CHIARAMENTE che non si è compreso che l'AI è uno strumento - solo uno strumento, come Word - che in più di word ha la capacità di ragionamento lessicale.
 
-Questo perché un LLM sufficientemente ampio in termini di parametri e addizionato ad altri sottosistemi di regolamentazione (logica, aritmetica, etc.) con determinate architetture (eg. mistral) riesce a produrre un ragionamento lessicale.
+Questo perché un LLM sufficientemente ampio in termini di parametri e combinato ad altri sottosistemi di regolamentazione (logica, aritmetica, etc.) con determinate architetture (eg. mistral) riesce a produrre un ragionamento lessicale.
 
 Sorprendente ma rimane MOLTO diverso dal'essere intelligente e anche MOLTO diverso dal pensiero profondo.
 
 Se le AI riescono a battere nel ragionamento lessicale il 98-99% degli umani pur essendo STUPIDE significa che le persone sono state educate per essere utili idioti mentre alle AI è stato dato il meglio dell'educazione.
 
-Quindi - il riscontro nella AI - non una nuova forma di catechesi. Si tratta di usare Word invece del calamaio oppure Excel per verificare un modello invece delle tabelline su carta. L'AI per sviluppare un ragionamento che abbia un confronto con (o un supporto di) un ragionamento lessicale, con l'obiettivo di spingersi oltre al mero ragionamento lessicale.
+Quindi - il riscontro nella AI - non è una nuova forma di catechesi. Si tratta di usare Word invece del calamaio oppure Excel per verificare un modello invece delle tabelline su carta. L'AI per sviluppare un ragionamento che abbia un confronto con (o un supporto di) un ragionamento lessicale, con l'obiettivo di spingersi oltre al mero ragionamento lessicale.
 
 Se nella testa ti hanno inculcato la religione come principio universale, allora per te tutto è religione. Quindi sei tu il problema, non l'AI.
 
