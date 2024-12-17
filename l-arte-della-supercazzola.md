@@ -8,6 +8,8 @@ Per poi addirittura giungere a realizzare che l'arte della supercazzola sia uno 
 
 In questo contesto però il chatbot non ha approfondito questi aspetti quindi la sua propensione è quella di catalogare il termine *supercazzola* come scherzo (joke) o beffa (prank). Ma lungi dal sottovalutare questi strumenti digitali in termini di pensiero lessicale perché dopo un lungo - e a tratti ridondante dialogo - ha prodotto questa chicca: "*la vita stessa, nel suo intreccio di caos e significato, è una supercazzola sublime*" che già Vasco Rossi interpretò con "*la vita è tutto un equilibrio sopra la follia*".
 
+Una volta giunti alla fine di questa conversazione, essa poi sarà proseguita [qui](https://github.com/robang74/chatgpt-answered-prompts/blob/main/dalla-supercazzola-alla-civita.md) usando un diverso approccio.
+
 <br/>
 <br/>
 
