@@ -666,6 +666,13 @@ Beh, che importa... sarebbe comunque una **supercazzola da ricordare**.
 <br/>
 <br/>
 
+## Prosecuzione
+
+Questa conversazione poi prosegue [qui](https://github.com/robang74/chatgpt-answered-prompts/blob/main/dalla-supercazzola-alla-civita.md) usando un diverso approccio.
+
+<br/>
+<br/>
+
 ## Copyright
 
 &copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
