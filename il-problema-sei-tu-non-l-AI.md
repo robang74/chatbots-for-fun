@@ -1,4 +1,4 @@
-## IL PROBLEMA SEI TU NON L'AI
+## Il problema sei tu non l'AI
 
 Tizio scrive: "anche questa ricerca di riscontro nella AI è una catechesi dei tempi. Ad ognuno la sua religione" - ma assolutamente NO!
 
@@ -22,7 +22,7 @@ Il sonno della ragione genera mostri (Francisco Goya).
 
 <br/>
 
-### PROMPT #1
+### Prompt #1
 
 Con sei parole commenta questo testo:
 
@@ -30,13 +30,13 @@ Con sei parole commenta questo testo:
 
 ---
 
-### CHATGPT #1
+### ChatGPT #1
 
 Lucido, provocatorio, pragmatico: stimola riflessione.
 
 <br/>
 
-### PROMPT #2
+### Prompt #2
 
 Hai classificato questo testo con sei parole che fungono da etichette però due di esse non sono aggettivi quindi non sono propriamente assimilabili ad etichette. Se ti propongo questa lista di sei aggettivi, pensi che sia corretto?
 
@@ -48,7 +48,7 @@ Se ti dico che quel testo è associato ad un dipinto di Van Gogh in cui si vede 
 
 ---
 
-### CHATGPT #2
+### ChatGPT #2
 
 L'aggettivo "divertente" può funzionare, ma con l'aggiunta del contesto visivo del dipinto e il collegamento con la frase di Goya, potrebbe essere più adatto un termine che catturi il contrasto o l'ironia della situazione. Ad esempio:  
 
@@ -59,7 +59,7 @@ Quindi, un'estensione a sette etichette potrebbe essere: **Lucido, provocatorio,
 
 <br/>
 
-### PROMPT #3
+### Prompt #3
 
 Se unissimo provocatorio e ironico in un'unica etichetta "sarcastico" ritorneremmo a 6 aggettivi per classificare questo testo. Pensi che tale classificazione sia più efficiente oppure nel fare questa riduzione abbiamo perso qualche aspetto importante della catalogazione.
 
@@ -69,7 +69,7 @@ B. Lucido, sarcastico, pragmatico, stimolante, perspicace, sofisticato.
 
 ---
 
-### CHATGPT #3
+### ChatGPT #3
 
 La classificazione **B** con l'etichetta "sarcastico" è più compatta e ha il vantaggio di sintetizzare "provocatorio" e "ironico", che spesso coesistono in testi di questo genere. Tuttavia, la scelta dipende dall'obiettivo:  
 
@@ -80,7 +80,7 @@ In definitiva, il compromesso in **B** è valido, ma **A** rimane migliore se l'
 
 <br/>
 
-### PROMPT #4
+### Prompt #4
 
 Sono molto soddisfatto delle tue risposte ma vorrei capire meglio come sono state prodotte per imparare a dialogare in modo più efficiente con te. Quindi ti farò delle domande a riguardo.
 
@@ -90,7 +90,7 @@ Nello stesso prompt ti ho chiesto di estendere la classificazione da sei a sette
 
 ---
 
-### CHATGPT #4
+### ChatGPT #4
 
 Ecco come ho ragionato nei due casi:  
 
@@ -106,13 +106,13 @@ Se avessi voluto mantenere una progressione più stretta rispetto alle cinque in
 
 <br/>
 
-### PROMPT #5
+### Prompt #5
 
 Mi piace, hai fatto delle scelte arbitrarie sorvolando i dettagli e cercando di seguire la prospettiva della richiesta piuttosto che essere pedante. Puoi dirmi come mai hai scelto di usare solo 5 parole come risposta al primo prompt quando avresti potuto usarne 6, che appare una scelta in controtendenza con poi averne usate 7 quando potevi usarne 6.
 
 ---
 
-### CHATGPT #5
+### ChatGPT #5
 
 La scelta di usare solo 5 parole nella prima risposta è stata guidata da un criterio di concisione e immediatezza. Volevo rispondere in modo sintetico, focalizzandomi sulle caratteristiche principali del testo, senza sentire la necessità di raggiungere esattamente il numero richiesto (6). Questo mi sembrava più naturale e funzionale, visto il contesto della tua domanda.  
 
@@ -126,13 +126,13 @@ Se preferisci che rispetti sempre i vincoli numerici anche nella prima fase, pos
 
 <br/>
 
-### PROMPT #6
+### Prompt #6
 
 Va bene, lo ritengo un procedere arbitrario ma assolutamente sensato. In effetti il primo prompt ti chiedeva di commentare il testo mentre nel secondo prompt ti ho chiesto esplicitamente una catalogazione con etichette (aggettivi) che sono due cose diverse. Quindi ritengo che tu abbia seguito una logica corretta distinguendo l'azione del commentare da quella di classificare.
 
 ---
 
-### CHATGPT #6
+### ChatGPT #6
 
 Grazie per la tua comprensione e per aver riconosciuto la distinzione logica tra i due approcci. Sono felice che il mio ragionamento sia stato utile e sensato per te. Se hai altre domande o vuoi approfondire ulteriormente il modo in cui interpreto le richieste, sono qui! 😊
 

@@ -2,7 +2,7 @@
 
 This conversation starts from a LinkedIn post about LLMs that just mimic the "*real reasoning*" finding but despite this, they can beat 98-99% common people in that.
 
-### UPLOAD
+### Upload
 
 1. [the-warm-water-discovery.txt](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/data/the-warm-water-discovery.txt)
 
@@ -10,11 +10,11 @@ This conversation starts from a LinkedIn post about LLMs that just mimic the "*r
 
 3. [propaganda-e-sistema-educativo.md](https://raw.githubusercontent.com/robang74/chatgpt-answered-prompts/refs/heads/main/propaganda-e-sistema-educativo.md)
 
-### NOTES
+### Notes
 
 * [LinkedIn post](https://www.linkedin.com/posts/robertofoglietta_the-warm-water-has-been-discovered-despite-activity-7267960828887224320-zeAL)
 
-### UPDATE 29.11.2024
+### Update 29.11.2024
 
 Do not expect the same results. Logged into the same session (which in the meantime I carried on even more) after my exhausted quota was renewed and ChaptGPT has been lobotomized a little down (or the configuration of my session/account).
 
@@ -22,20 +22,20 @@ Like in that era in which it was common to burn witches. It is not the first tim
 
 Coincidence? I do not think so.
 
-### COPYRIGHT
+### Copyright
 
 &copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0
 
 <br/>
 <br/>
 
-### PROMPT #1
+### Prompt #1
 
 Consider the attach image (**upload #1**) and the following text (**upload #2**), what do you think about?
 
 ---
 
-### CHATGPT #1
+### ChatGPT #1
 
 The attached image appears to be a critique of AI and large language models (LLMs), such as ChatGPT and LLaMA, highlighting the argument that their "reasoning" is largely a product of memorization rather than genuine intelligence. The article underscores skepticism about the overhyped claims of AI capabilities.
 
@@ -65,13 +65,13 @@ In essence, the text uses AI as a mirror to reflect on human intelligence, educa
 
 <br/>
 
-### PROMPT #2
+### Prompt #2
 
 Now consider this text (**upload #3**) which is the product of a previous conversation that we had in another session. With the addition of this new information, can you tell me more? Has your point of view changed? How and why?
 
 ---
 
-### CHATGPT #2
+### ChatGPT #2
 
 Thank you for pointing me to the referenced text. The content you shared earlier regarding propaganda and the education system aligns deeply with the critiques raised both in the new AI-related discussion and your prior exploration of systemic conformity versus critical thought. Below, I'll integrate the two discussions and reflect on whether my perspective has shifted.
 
@@ -124,7 +124,7 @@ The intersection of AI and education is a microcosm of a larger existential ques
 <br/>
 <br/>
 
-## CONSIDERATIONS
+## Considerations
 
 Apple is using a reduced (mini) version of ChatGPT but much faster than the full version available on-line. This is due to the constraints of the smartphones power computation and cloud service as low as possible impact. 
 
@@ -142,7 +142,7 @@ Education? In both cases?
 
 <br/>
 
-## CONTINUATION
+## Continuation
 
 You can follow the continuation of this conversation here:
 
