@@ -121,6 +121,20 @@ Curiously, I have recently discovered that [Pookie Tools](https://techcrunch.com
 
 <br/>
 
+## AI chatbots
+
+* [chatgpt.com](https://chatgpt.com/) - lessical reasoning (!!)
+
+* [gemini.google.com](https://gemini.google.com/) - language and search
+
+* [claude.ai](https://claude.ai/) - coding and data analisys
+
+* [perplexity.ai](https://www.perplexity.ai/) - search for information
+
+* [chat.mistral.ai](https://chat.mistral.ai/) - mistral architecture
+
+<br>
+
 ## Copyright
 
 &copy; 2024, **Roberto A. Foglietta** \<roberto.foglietta<span>@</span>gmail.com\>
