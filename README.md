@@ -129,6 +129,8 @@ Curiously, I have recently discovered that [Pookie Tools](https://techcrunch.com
 
 * [claude.ai](https://claude.ai/) - coding and data analisys
 
+* [github copilot](https://github.com/copilot) - coding support
+
 * [perplexity.ai](https://www.perplexity.ai/) - search for information
 
 * [chat.mistral.ai](https://chat.mistral.ai/) - mistral architecture
