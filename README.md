@@ -123,7 +123,7 @@ Curiously, I have recently discovered that [Pookie Tools](https://techcrunch.com
 
 ## AI chatbots
 
-* [chatgpt.com](https://chatgpt.com/) - lessical reasoning (!!)
+* [chatgpt.com](https://chatgpt.com/) - lessical reasoning (**!!**)
 
 * [gemini.google.com](https://gemini.google.com/) - language and search
 
