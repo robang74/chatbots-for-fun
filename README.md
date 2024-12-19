@@ -127,7 +127,7 @@ Curiously, I have recently discovered that [Pookie Tools](https://techcrunch.com
 
 * [gemini.google.com](https://gemini.google.com/) - language and search
 
-* [character.ai](https://character.ai/) - role playing & entertaiment
+* [character.ai](https://character.ai/) - role playing & entertainment
 
 * [perplexity.ai](https://www.perplexity.ai/) - search for information
 
@@ -135,7 +135,7 @@ Curiously, I have recently discovered that [Pookie Tools](https://techcrunch.com
 
 * [github.com/copilot](https://github.com/copilot) - coding support
 
-* [claude.ai](https://claude.ai/) - coding and data analisys
+* [claude.ai](https://claude.ai/) - coding and data analysis
 
 <br>
 
