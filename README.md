@@ -127,7 +127,7 @@ Curiously, I have recently discovered that [Pookie Tools](https://techcrunch.com
 
 * [gemini.google.com](https://gemini.google.com/) - language and search
 
-* [character.ai](https://character.ai/) - role playing & entertainment
+* [character.ai](https://character.ai/) - role playing & entertainment (*bah*...)
 
 * [perplexity.ai](https://www.perplexity.ai/) - search for information
 
