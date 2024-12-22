@@ -2,7 +2,7 @@
 
 ## Alla ricerca del gatto che non c'è
 
-Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a sinistra) suggerendo che la ricerca sia così difficie che richieda fin'anche quattro ore.
+Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a sinistra) suggerendo che la ricerca sia così difficile che richieda fin'anche quattro ore.
 
 <br/><div align="center">
 
