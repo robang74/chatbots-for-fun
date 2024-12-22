@@ -18,7 +18,7 @@ Come utilizzare l'intelligenza artificiale per scrivere testi che mantengano pre
 
 7. costruire una mappa degli argomenti (link fra loro);
 
-8. verificiare con il chatbot la chiarezza dell'esposizione;
+8. verificare con il chatbot la chiarezza dell'esposizione;
 
 9. eventualmente anche la correttezza e il collocamento.
 
