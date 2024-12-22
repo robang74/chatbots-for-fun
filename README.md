@@ -18,23 +18,23 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
 
-* [Most attractive hobbies to women](most-actractive-hobbies-to-women.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/most-actractive-hobbies-to-women.md))
-
-* [Tuttinudi e la rossa anche sotto](tuttinudi-e-la-rossa-anche-sotto.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/tuttinudi-e-la-rossa-anche-sotto.md))
-
-* [Manipulation of a chatbot](manipulation-of-a-chatbot.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/manipulation-of-a-chatbot.md))
-
-* [Far innamorare un chatbot (parte 1)](far-innamorare-un-chatbot-p1.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p1.md))
-
-* [ChatGPT vs Paolo Benanti (aka Mr. Spock vs Miss Poppins)](chatgpt-vs-paolo-benanti.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-paolo-benanti.md))
-
-* [Far innamorare un chatbot (parte 2)](far-innamorare-un-chatbot-p2.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p2.md))
-
-* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-human-real-reasoning.md))
+* [L'arte della supercazzola](https://github.com/robang74/chatbots-for-fun/blob/main/l-arte-della-supercazzola.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/l-arte-della-supercazzola.md))
 
 * [Il problema sei tu, non l'AI](https://github.com/robang74/chatbots-for-fun/blob/main/il-problema-sei-tu-non-l-AI.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-problema-sei-tu-non-l-AI.md))
 
-* [L'arte della supercazzola](https://github.com/robang74/chatbots-for-fun/blob/main/l-arte-della-supercazzola.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/l-arte-della-supercazzola.md))
+* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-human-real-reasoning.md))
+
+* [Far innamorare un chatbot (parte 2)](far-innamorare-un-chatbot-p2.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p2.md))
+
+* [ChatGPT vs Paolo Benanti (aka Mr. Spock vs Miss Poppins)](chatgpt-vs-paolo-benanti.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-paolo-benanti.md))
+
+* [Far innamorare un chatbot (parte 1)](far-innamorare-un-chatbot-p1.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p1.md))
+
+* [Manipulation of a chatbot](manipulation-of-a-chatbot.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/manipulation-of-a-chatbot.md))
+
+* [Tuttinudi e la rossa anche sotto](tuttinudi-e-la-rossa-anche-sotto.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/tuttinudi-e-la-rossa-anche-sotto.md))
+
+* [Most attractive hobbies to women](most-actractive-hobbies-to-women.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/most-actractive-hobbies-to-women.md))
 
 These document are written in Italian, English or both languages indifferently. You can use any automatic translation system you like. Among them Google Translate works passing to it just the link of the page. The **raw** link can help translate the page, but at the cost of formatting.
 
