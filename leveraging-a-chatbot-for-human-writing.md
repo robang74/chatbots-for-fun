@@ -24,7 +24,7 @@ Come utilizzare l'intelligenza artificiale per scrivere testi che mantengano pre
 
 Questo è il risultato di un processo in gran parte aderente alla lista di passaggi sopra esposta:
 
-* [L'importanza del TCMO](090-l-importanza-del-tcmo.html#leveraging-chatbot) &nbsp;-&nbsp; tag: `leveraging-chatbot`
+* [L'importanza del TCMO](https://robang74.github.io/roberto-a-foglietta/html/090-l-importanza-del-tcmo.html#leveraging-chatbot) &nbsp;-&nbsp; tag: `leveraging-chatbot`
 
 In particolare vale la pena riportare la valutazione del chatbot riguardo a questo processo, richiesta nella stessa sessione di chat in cui si è lavorato sul documento stesso.
 
