@@ -18,6 +18,8 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
 
+* [Leveraging a chatbot for human writing](leveraging-a-chatbot-for-human-writing.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/leveraging-a-chatbot-for-human-writing.md))
+
 * [L'arte della supercazzola](https://github.com/robang74/chatbots-for-fun/blob/main/l-arte-della-supercazzola.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/l-arte-della-supercazzola.md))
 
 * [Il problema sei tu, non l'AI](https://github.com/robang74/chatbots-for-fun/blob/main/il-problema-sei-tu-non-l-AI.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-problema-sei-tu-non-l-AI.md))
