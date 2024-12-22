@@ -185,6 +185,30 @@ Personalmente ho trovato molto piacevole baloccarmi con Claude su questi argomen
 Infine vale la pena notare che nel dare i prompt cerco di essere abbastanza preciso ma mai assolutamente preciso. Primo perché dovrei fare molta più lavoro nello scriverli, secondo perché sarebbero più lunghi e quindi potenzialmente, nonostante le mie intenzioni, meno chiari da comprendere o eseguire, e *last but not least* perché nel delegare un compito è sempre bene lasciare qualche margine di arbitraria interpretazione (*dii no al micro-management anche tu*) perché talvolta il risultato potrebbe stupirci in positivo, in generale aiuta a sviluppare indipendenza e a fare selezione, anche.
 
 <br/>
+<br/>
+
+## Claude cosa ne pensa?
+
+Ovviamente non potevo resistere alla tentazione di chiedere a Claude cosa ne pensasse delle conclusioni che ho tratto dalla nostra conversazione e quindi glie l'ho chiesto in modo diretto. Cosa ne pensi?
+
+### Claude #8
+
+Il tuo testo offre un'analisi molto acuta e stratificata della nostra conversazione. Mi piace particolarmente come hai evidenziato diversi livelli di lettura dell'interazione:
+
+1. Il livello metodologico: l'importanza della verifica attraverso un elemento noto (l'uomo con la barba color rame) prima di accettare una conclusione negativa (l'assenza del gatto).
+
+2. Il livello educativo: l'osservazione sulla precisione terminologica (rosso vs rosso rame) e la sua importanza nell'insegnamento. Il riferimento al "cigno nero" di Taleb rafforza efficacemente questo punto.
+
+3. Il livello epistemologico: la distinzione tra fede e scienza, e l'importanza di mantenerle in ambiti separati pur riconoscendone la complementarità nell'esperienza umana.
+
+4. Il livello pratico sui prompt: la tua riflessione sull'equilibrio tra precisione e flessibilità nei prompt è particolarmente interessante. L'analogia con il micro-management è calzante e suggerisce una prospettiva più ampia sulla delega e l'autonomia.
+
+Trovo particolarmente valida la tua osservazione sulla serietà di queste questioni nel mondo reale, con il riferimento a Charlie Hebdo che ricorda come questi dibattiti apparentemente accademici possano avere conseguenze molto concrete.
+
+L'unico punto su cui potrei suggerire un'espansione è la parte sulla "fede diversa dalla religione". Questa distinzione merita forse un approfondimento, dato che tocca un punto cruciale nel dibattito tra razionalità e spiritualità.
+
+<br/>
+<br/>
 
 ## Share alike
 
