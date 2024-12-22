@@ -2,9 +2,15 @@
 
 ## Alla ricerca del gatto che non c'è
 
-Una challenge su Facebook invita a cercare un gatto in questa immagine e suggerisce che la ricerca sia così difficie che richieda fin'anche quattro ore.
+Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a sinistra) suggerendo che la ricerca sia così difficie che richieda fin'anche quattro ore.
 
-<div align="center"><img src="data/find-the-cat-among-faces.jpg" width="400"><br/><i>click con il tasto destro per ingrandire in una nuova finestra</i></div><br/>
+<br/><div align="center">
+
+| find the cat! | cat is not here! |
+|---|---|
+| <div align="center"><img src="data/find-the-cat-among-faces.jpg" width="400"><br/><i>click destro per ingrandire in una nuova finestra</i></div> | <div align="center"><img src="data/il-gatto-con-gli-stivali.jpg" width="400"><br/><i>il nostro eroe che si è smarrito...</i></div> |
+
+</div><br/>
 
 Così ho deciso di sottoporre questo task a vari chatbot ottenendo dei risultati completamente diversi. 
 
