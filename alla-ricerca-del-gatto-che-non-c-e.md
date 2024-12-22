@@ -4,7 +4,7 @@
 
 Una challenge su Facebook invita a cercare un gatto in questa immagine e suggerisce che la ricerca sia così difficie che richieda fin'anche quattro ore.
 
-<div align="center"><img src="data/find-the-cat-among-faces.jpg" width="800"><br/></div>
+<div align="center"><img src="data/find-the-cat-among-faces.jpg" width="400"><br/><i>click con il tasto destro per ingrandire in una nuova finestra</i></div><br/>
 
 Così ho deciso di sottoporre questo task a vari chatbot ottenendo dei risultati completamente diversi. 
 
@@ -162,17 +162,17 @@ Detto questo, mantengo la mia posizione di non prendere posizioni definitive su 
 
 ## Considerazioni
 
-Prima di tutto occorre notare che la risposta "non c'è il gatto" non può essere accettata come tale. Infatti, potrebbe esserci ma Claude potrebbe non averlo trovato. Quindi è corretto chiedere a Claude di trovare nell'immagine qualcosa che esiste, che sappiamo definire, che sappiamo definire univocamente e che possiamo controllare che lo abbia trovato dove si trova effettivamente.
+Prima di tutto occorre notare che la risposta "*non c'è il gatto*" non può essere accettata come tale, così com'è. Infatti, il gatto potrebbe esserci ma Claude potrebbe non averlo trovato. Quindi è corretto chiedere a Claude di trovare nell'immagine qualcosa che esiste, che sappiamo definire, che sappiamo definire univocamente e che possiamo controllare che lo abbia trovato dove si trova effettivamente.
 
 In questo caso è stato usato l'uomo dalla barba lunga e rossa che porta gli occhiali da sole. Anche perché nel caso della barba, il rosso è un aggettivo non esattamente il colore. Infatti, Claude correttamente indica che il colore della barba è rosso rame. Per noi umani è un distinguo superfluo visto il contesto ma correttamente il chatbot lo esplicita.
 
-Queesto fatto di esplicitare informazioni che per noi sono banali è estramente importante nell'insegnamento dei bambini perché per un bambino piccolo non è ovvio che la barba rossa non sia rossa Ferrari ma rossa rame.
+Questo fatto di esplicitare informazioni che per noi sono banali è esternamente importante nell'insegnamento dei bambini perché per un bambino piccolo non è ovvio che la barba rossa non sia rossa Ferrari ma rossa rame.
 
 Potreste pensare che sia una questione dialettica o infantile eppure basta citare l'esempio del cigno nero (fenomeno inatteso, mai visto prima) e considerare il bias relativo per capire che invece è un argomento che ha meritato un intero libro, almeno.
 
-* The Black Swan: The Impact of the Highly Improbable - [Il cigno nero](https://it.wikipedia.org/wiki/Il_cigno_nero_(saggio)) di Nassim Nicholas Taleb (2007)
+* **The Black Swan: The Impact of the Highly Improbable** - [Il cigno nero](https://it.wikipedia.org/wiki/Il_cigno_nero_(saggio)) di Nassim Nicholas Taleb (2007)
 
-Una volta che Claude ha dimostrato di saper trovare l'uomo dalla barba color rame, possiamo ragionevolmente fidarci della sua risposta di non aver trovato il gatto. Questo non è del tutto vero, ma è accettabile in questo contesto anche se non sufficientemente rigorosa come controverifica nell'ambito della ricerca scientifica. Però se non avesse trovato nemmeno l'uomo dalla barba color rame, avremmo potuto serenamente rigettare anche la prima risposta.
+Una volta che Claude ha dimostrato di saper trovare l'uomo dalla barba color rame, possiamo ragionevolmente fidarci della sua risposta di non aver trovato il gatto. Questo non è del tutto vero, ma è accettabile in questo contesto anche se non sufficientemente rigorosa come contro-verifica nell'ambito della ricerca scientifica. Però se non avesse trovato nemmeno l'uomo dalla barba color rame, avremmo potuto serenamente rigettare anche la prima risposta.
 
 La seconda parte della conversazione - quella che riguarda della ricerca di dio (volutamente minuscolo, non avendo definito quale dio) nel proprio cuore - segue fondamentalmente lo stesso processo logico-razionale o metodo scientifico se vogliamo tirarcela da sballo.
 
@@ -181,6 +181,8 @@ La conclusione del chatbot può sembrare ingenua ed ad alcuni pure preconfeziona
 In realtà la risposta del chatbot è anche profonda. Nel senso che la fede (che è una cosa diversa dalla religione) e la scienza sono due dimensioni umane complementari ma distinte. Questa netta distinzione dovrebbe portarci ad accettare e persino ad pretendere che vi sia una netta separazione fra religione e scienza. Perché altrimenti si ritorna a ripetere il processo a Galilei Galileo che per altro la stessa Chiesa ha perdonato postumo.
 
 Personalmente ho trovato molto piacevole baloccarmi con Claude su questi argomenti. Però teniamo presente che ancora oggi nel 2024 vi sono persone disposte a morire e persino ad uccidere per "dire la loro" su questi argomenti qui, proprio questi qui. Se poi invece del gatto, scegliessimo di cercare il porco in stile Charly Ebdo allora è già successo, [due volte](https://it.wikipedia.org/wiki/Charlie_Hebdo#Attentati_subiti), per la precisione.
+
+Infine vale la pena notare che nel dare i prompt cerco di essere abbastanza preciso ma mai assolutamente preciso. Primo perché dovrei fare molta più lavoro nello scriverli, secondo perché sarebbero più lunghi e quindi potenzialmente, nonostante le mie intenzioni, meno chiari da comprendere o eseguire, e *last but not least* perché nel delegare un compito è sempre bene lasciare qualche margine di arbitraria interpretazione (*dii no al micro-management anche tu*) perché talvolta il risultato potrebbe stupirci in positivo, in generale aiuta a sviluppare indipendenza e a fare selezione, anche.
 
 <br/>
 
