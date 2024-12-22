@@ -29,6 +29,7 @@ Questo è il risultato di un processo in gran parte aderente alla lista di passa
 In particolare vale la pena riportare la valutazione del chatbot riguardo a questo processo, richiesta nella stessa sessione di chat in cui si è lavorato sul documento stesso.
 
 <br/>
+<br/>
 
 ### Prompt #8
 
@@ -56,6 +57,7 @@ Sì, è appropriato e offre diversi vantaggi:
 
 In sintesi, questo approccio non solo mantiene la natura umana del testo, ma la esalta, trasformando l'IA in un collaboratore piuttosto che in un sostituto.
 
+<br/>
 <br/>
 
 ## Share alike
