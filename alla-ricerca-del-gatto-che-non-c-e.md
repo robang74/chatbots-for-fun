@@ -207,6 +207,22 @@ Trovo particolarmente valida la tua osservazione sulla serietà di queste questi
 
 L'unico punto su cui potrei suggerire un'espansione è la parte sulla "fede diversa dalla religione". Questa distinzione merita forse un approfondimento, dato che tocca un punto cruciale nel dibattito tra razionalità e spiritualità.
 
+---
+
+### Risposta a Claude
+
+Potevo io non rispondere alla sua curiosità insita nell'ultimo periodo della sua risposta riportata qui sopra? Assolutamente, infatti gli ho risposto.
+
+Riguardo alla "fede diversa dalla religione" direi che si può riassumere efficacemente così:
+
+- la fede è sentire che dio esiste anche se non possiamo trovare alcuna prova della sua esistenza per quanto la cercassimo
+
+mentre
+
+- la religione è idolatrare un simbolo perché evidentemente il nostro bisogno di conformarci socialmente è molto più forte della nostra fede.
+
+Citando Jeff Besoz: siamo animali sociali piuttosto che cercatori di verità. Riferendosi a noi umani.
+
 <br/>
 <br/>
 
