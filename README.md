@@ -137,6 +137,8 @@ Curiously, I have recently discovered that [Pookie Tools](https://techcrunch.com
 
 * [github.com/copilot](https://github.com/copilot) - coding support
 
+* [x.com/i/grok](https://x.com/i/grok) - free minded, interesting
+
 * [claude.ai](https://claude.ai/) - coding and data analysis
 
 <br>
