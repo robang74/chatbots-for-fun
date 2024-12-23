@@ -2,6 +2,8 @@
 
 ## Alla ricerca del gatto che non c'è
 
+* **Nota**: pagina aggiornata il giorno dopo con aggiunta di altro materiale, [qui](#barzelletta-maria).
+
 Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a sinistra) suggerendo che la ricerca sia così difficile che richieda fin'anche quattro ore.
 
 <br/><div align="center">
@@ -235,7 +237,7 @@ Citando Jeff Besoz: siamo animali sociali piuttosto che cercatori di verità. Ri
 
 ---
 
-<div align="center"><b>AGGIORNAMENTO DAY +1</b></div>
+<div align="center" id="barzelletta-maria"><b>AGGIORNAMENTO DAY +1</b></div>
 
 ---
 
