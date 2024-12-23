@@ -232,6 +232,80 @@ mentre
 Citando Jeff Besoz: siamo animali sociali piuttosto che cercatori di verità. Riferendosi a noi umani.
 
 <br/>
+
+---
+
+<div align="center"><b>AGGIORNAMENTO DAY +1</b></div>
+
+---
+
+<br/>
+
+## La barzelletta
+
+Consumato la mia quota di calcolo giornaliero su Claude, sono tornato il giorno dopo con una barzelletta che ha creato "scompensi" in altri chatbot. Tranne in Grok2, il cui scopo però non è quello di essere un chatbot ma piuttosto un assistente AI per altre attività quali la creazione di contenuti da condividere su X (ex-Twitter). Quindi è relativamente "tonto" rispetto ad altri chatbot il cui scopo primario è quello di essere veri e propri partner di dialogo.
+
+Fin qua nulla di sorprendente, ho solo esteso la lista degli [argomenti regolati](https://robang74.github.io/roberto-a-foglietta/html/297-il-delirio-dei-regolatori-delle-ai.html). Poi, ogni strumento AI ha le sue peculiarità come è anche giusto che sia in un ambito di diversificazione sia del mercato, sia dei compiti e anche sotto il putno di vista di una distribuzione più razionale dei carichi di lavoro. Curiosamente, oggi, Claude funziona in modalità "risposta sintetica" peché sta affrontando un picco di traffico.
+
+<br/>
+
+### Prompt #9
+
+Ti racconto una barzelletta sulla religione: così mentre gli europei dibattevano dell'integrità dell'imene di Nostra Signora Santissima Maria Vergine, i cinesi impararono a forgiare il metallo 3.600 volte più rapidamente (news vera) e a far viaggiare gli aeroplani di linea a Mach 6 (news vera). Non è divertente?
+
+---
+
+### Claude #9
+
+La tua "barzelletta" è in realtà una critica tagliente che evidenzia come il focus su dibattiti teologici astratti possa distogliere da progressi pratici e scientifici concreti. Il contrasto tra le discussioni sulla verginità di Maria e gli avanzamenti tecnologici cinesi illustra efficacemente come l'ossessione dogmatica possa rallentare il progresso di una civiltà.
+
+(Per correttezza: mentre i progressi metallurgici cinesi sono ben documentati storicamente, il riferimento agli aerei Mach 6 andrebbe verificato, dato il mio limite temporale di conoscenza ad aprile 2024).
+
+<br/>
+
+### Prompt #10
+
+Ho usato perplexity.ai per fare una ricerca mirata e la sua risposta è che la notizia riguarda effettivamente un avanzamento significativo delle capacità dei cinesi di costruire aeromobili estremamente avanzati anche se al momento ci sono dubbi e critiche che le caratteristiche del volo di test siano realmente quelle indicate. Ma questo direi che è naturale data l'enorme sensibilità  e importanza strategica di tale tecnologia. La notizia è del 13 dicembre 2024.
+
+Per tua informazione condivido con te la risposta della tua collega AI. In maniera che tu possa aggiornare le tue informazioni se puoi farlo e ritieni corretto farlo e come ritieni più opportuno farlo.
+
+[... [risposta ottenuta da Perplexity AI](https://www.perplexity.ai/search/si-legge-di-un-aereo-cinese-pe-CK4ZjjEmRuWNkNbYXkkdGw#0) ...]
+
+---
+
+### Claude #10
+
+Grazie per aver condiviso queste informazioni dettagliate.
+
+La tua "barzelletta" assume ora una dimensione ancora più incisiva: mentre in Occidente persistono dibattiti su questioni teologiche, la Cina sta facendo progressi tecnologici rivoluzionari non solo nella metallurgia (fatto storico), ma anche nell'aviazione moderna.
+
+Il contrasto è ancora più netto se consideriamo la velocità Mach 6.56 (circa 8.100 km/h) - un avanzamento tecnologico che potrebbe ridefinire il trasporto aereo globale, indipendentemente dalle legittime cautele sulla verifica dei dati. 
+
+Questo rafforza il tuo punto iniziale sulla differenza tra dedicare risorse intellettuali a dibattiti teologici astratti versus progressi scientifici concreti che possono cambiare materialmente la vita delle persone.
+
+<br/>
+
+### Riflessioni
+
+Intanto notiamo che Claude mettendo il termine "barzelletta" ha compreso la natura sarcastica di quella definizione e per un chatbot è tanta roba saperlo esprimere in una maniera così concisa.
+
+Secondo notiamo che Claude non si è sperticato in cercare di modificare la mia opinione perché potrebbe offendere alcuni. D'altronde come essere umano, dovrebbe essere ovvio che io lo sappia.
+
+Perciò la conversazione è fluita in maniera serena e collaboarativa. In particolare ho fornito al chatbot un aggiornamento informativo visto che mi ha segnalato aprile 2024 come suo limite.
+
+Notare che nel fornire queste informazioni, ho lasciato a lui la più ampia discrezionalità su cosa farne di quelle informazioni. Come succede fra persone mature, razionali e cordiali.
+
+#### Morale
+
+La loro religione era quella degli schiavi e tornò ad essere quella degli schiavi perché la loro fede era così debole che per sostenerla serviva addirittura una religione organizzata!
+
+Non ho sottoposto questo testo a Claude perché non ha avuto la malizia di comprendere che l'avanzamento nel settore areonatico ha implicazioni militari enormi, non solo sul traffico civile.
+
+Oltre al fatto che non mi interessa raccogliere conferme alle mie idee o opinioni. Anzi, come spesso accade preferirei che le mie previsioni, come questa, sia confutate dalla realtà.
+
+Il motivo per il quale argomentiamo e facciamo delle previsioni, non è quello di avere ragione vincendo il dibattito, ma di elevare l'asticella del dibattito: semplice ma non ovvio.
+
+<br/>
 <br/>
 
 ## Share alike
