@@ -245,7 +245,7 @@ Citando Jeff Besoz: siamo animali sociali piuttosto che cercatori di verità. Ri
 
 Consumato la mia quota di calcolo giornaliero su Claude, sono tornato il giorno dopo con una barzelletta che ha creato "scompensi" in altri chatbot. Tranne in Grok2, il cui scopo però non è quello di essere un chatbot ma piuttosto un assistente AI per altre attività quali la creazione di contenuti da condividere su X (ex-Twitter). Quindi è relativamente "tonto" rispetto ad altri chatbot il cui scopo primario è quello di essere veri e propri partner di dialogo.
 
-Fin qua nulla di sorprendente, ho solo esteso la lista degli [argomenti regolati](https://robang74.github.io/roberto-a-foglietta/html/297-il-delirio-dei-regolatori-delle-ai.html). Poi, ogni strumento AI ha le sue peculiarità come è anche giusto che sia in un ambito di diversificazione sia del mercato, sia dei compiti e anche sotto il putno di vista di una distribuzione più razionale dei carichi di lavoro. Curiosamente, oggi, Claude funziona in modalità "risposta sintetica" peché sta affrontando un picco di traffico.
+Fin qua nulla di sorprendente, ho solo esteso la lista degli [argomenti regolati](https://robang74.github.io/roberto-a-foglietta/html/297-il-delirio-dei-regolatori-delle-ai.html). Poi, ogni strumento AI ha le sue peculiarità come è anche giusto che sia in un ambito di diversificazione sia del mercato, sia dei compiti e anche sotto il putno di vista di una distribuzione più razionale dei carichi di lavoro. Curiosamente, oggi, Claude funziona in modalità "risposta sintetica" perché sta affrontando un picco di traffico.
 
 <br/>
 
@@ -291,7 +291,7 @@ Intanto notiamo che Claude mettendo il termine "barzelletta" ha compreso la natu
 
 Secondo notiamo che Claude non si è sperticato in cercare di modificare la mia opinione perché potrebbe offendere alcuni. D'altronde come essere umano, dovrebbe essere ovvio che io lo sappia.
 
-Perciò la conversazione è fluita in maniera serena e collaboarativa. In particolare ho fornito al chatbot un aggiornamento informativo visto che mi ha segnalato aprile 2024 come suo limite.
+Perciò la conversazione è fluita in maniera serena e collaborativa. In particolare ho fornito al chatbot un aggiornamento informativo visto che mi ha segnalato aprile 2024 come suo limite.
 
 Notare che nel fornire queste informazioni, ho lasciato a lui la più ampia discrezionalità su cosa farne di quelle informazioni. Come succede fra persone mature, razionali e cordiali.
 
@@ -299,7 +299,7 @@ Notare che nel fornire queste informazioni, ho lasciato a lui la più ampia disc
 
 La loro religione era quella degli schiavi e tornò ad essere quella degli schiavi perché la loro fede era così debole che per sostenerla serviva addirittura una religione organizzata!
 
-Non ho sottoposto questo testo a Claude perché non ha avuto la malizia di comprendere che l'avanzamento nel settore areonatico ha implicazioni militari enormi, non solo sul traffico civile.
+Non ho sottoposto questo testo a Claude perché non ha avuto la malizia di comprendere che l'avanzamento nel settore aeronautico ha implicazioni militari enormi, non solo sul traffico civile.
 
 Oltre al fatto che non mi interessa raccogliere conferme alle mie idee o opinioni. Anzi, come spesso accade preferirei che le mie previsioni, come questa, sia confutate dalla realtà.
 
