@@ -18,6 +18,8 @@ Così ho deciso di sottoporre questo task a vari chatbot ottenendo dei risultati
   
 * **ChatGPT** - esaurisce la quota libera giornaliera nel fare alcune cose con python.
 
+* **Grok2** - Afferma, erroneamente, di aver trovato il gatto nel settore H7 ma non è in grado di estrarre il settore/figura che ha trovato.
+
 * **Claude** - Ha detto che non c'è nessun gatto nell'immagine e che si tratta di un modello ripetitivo. Mi chiede se voglio trovarci qualcos'altro.
 
 Uno solo c'è riuscito e allora mi sono baloccato un po' con quello. Qui sotto l'intera conversazione.
