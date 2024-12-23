@@ -299,7 +299,7 @@ Notare che nel fornire queste informazioni, ho lasciato a lui la più ampia disc
 
 #### Morale
 
-La loro religione era quella degli schiavi e tornò ad essere quella degli schiavi perché la loro fede era così debole che per sostenerla serviva addirittura una religione organizzata!
+* La loro religione era quella degli schiavi e tornò ad essere quella degli schiavi perché la loro fede era così debole che per sostenerla serviva addirittura una religione organizzata!
 
 Non ho sottoposto questo testo a Claude perché non ha avuto la malizia di comprendere che l'avanzamento nel settore aeronautico ha implicazioni militari enormi, non solo sul traffico civile.
 
