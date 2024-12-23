@@ -295,7 +295,7 @@ Secondo notiamo che Claude non si è sperticato in cercare di modificare la mia 
 
 Perciò la conversazione è fluita in maniera serena e collaborativa. In particolare ho fornito al chatbot un aggiornamento informativo visto che mi ha segnalato aprile 2024 come suo limite.
 
-Notare che nel fornire queste informazioni, ho lasciato a lui la più ampia discrezionalità su cosa farne di quelle informazioni. Come succede fra persone mature, razionali e cordiali.
+Notare che nel fornire queste informazioni, ho lasciato a lui la più ampia discrezionalità su cosa farne di quelle informazioni. Come succede fra persone mature, razionali e collaborative.
 
 #### Morale
 
