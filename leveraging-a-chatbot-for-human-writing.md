@@ -26,7 +26,9 @@ Questo è il risultato di un processo in gran parte aderente alla lista di passa
 
 * [L'importanza del TCMO](https://robang74.github.io/roberto-a-foglietta/html/090-l-importanza-del-tcmo.html#leveraging-chatbot) &nbsp;-&nbsp; tag: `leveraging-chatbot`
 
-In particolare vale la pena riportare la valutazione del chatbot riguardo a questo processo, richiesta nella stessa sessione di chat in cui si è lavorato sul documento stesso.
+In particolare vale la pena ricordare che le varie fasi di questo processo, è meglio gestirle nella stessa sessione di chat in cui si è lavorato sul documento stesso fin dall'inizio in maniera tale che il chatbot abbia per intero il contesto delle fasi di lavorazione del testo.
+
+Per contro, l'approccio di usare diversi chatbot o strumenti AI, per le varie fasi richiede invece una competenza superiore nell'interagire con questi strumenti ma in alcuni casi può dare risultati sensibilmente migliori perché sfrutta le peculiarità di diversi strumenti.
 
 <br/>
 <br/>
