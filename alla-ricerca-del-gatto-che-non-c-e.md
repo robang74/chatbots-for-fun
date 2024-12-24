@@ -2,7 +2,11 @@
 
 ## Alla ricerca del gatto che non c'è
 
-* **Nota**: pagina aggiornata il giorno dopo con aggiunta di altro materiale, [qui](#barzelletta-maria).
+* **Nota #1**: pagina aggiornata il giorno dopo con aggiunta di altro materiale, [qui](#barzelletta-maria) in fondo.
+
+* **Nota #2**: pagina aggiornata 2 giorni dopo con una migliore edizione delle [considerazioni](#considerazioni) e delle [riflessioni](riflessioni).
+
+---
 
 Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a sinistra) suggerendo che la ricerca sia così difficile che richieda fin'anche quattro ore.
 
@@ -168,31 +172,61 @@ La tua analogia del gatto è stata particolarmente efficace proprio perché ha e
 Detto questo, mantengo la mia posizione di non prendere posizioni definitive su questioni metafisiche, pur apprezzando molto questo scambio stimolante!
 
 <br/>
-<br/>
+<br id="considerazioni" />
 
 ## Considerazioni
 
-Prima di tutto occorre notare che la risposta "*non c'è il gatto*" non può essere accettata come tale, così com'è. Infatti, il gatto potrebbe esserci ma Claude potrebbe non averlo trovato. Quindi è corretto chiedere a Claude di trovare nell'immagine qualcosa che esiste, che sappiamo definire, che sappiamo definire univocamente e che possiamo controllare che lo abbia trovato dove si trova effettivamente.
+Prima di tutto occorre notare che la risposta "*non c'è il gatto*" non può essere accettata come tale, così com'è.
 
-In questo caso è stato usato l'uomo dalla barba lunga e rossa che porta gli occhiali da sole. Anche perché nel caso della barba, il rosso è un aggettivo non esattamente il colore. Infatti, Claude correttamente indica che il colore della barba è rosso rame. Per noi umani è un distinguo superfluo visto il contesto ma correttamente il chatbot lo esplicita.
+Infatti, il gatto potrebbe esserci ma Claude potrebbe non averlo trovato. Quindi è corretto chiedere a Claude di trovare nell'immagine qualcosa che esiste, che sappiamo definire, che sappiamo definire univocamente e che possiamo controllare che lo abbia trovato dove si trova effettivamente.
+
+In questo caso è stato usato l'uomo dalla barba lunga e rossa che porta gli occhiali da sole come FoF-pattern. 
+
+Una volta che Claude ha dimostrato di saper trovare l'uomo con la barba, possiamo ragionevolmente fidarci della sua risposta di non aver trovato il gatto. Questo non è del tutto vero, ma è accettabile in questo contesto anche se non sufficientemente rigorosa come contro-verifica nell'ambito della ricerca scientifica.
+
+Invece, se non avesse trovato nemmeno l'uomo dalla barba, avremmo dovuto rigettare anche la sua prima risposta.
+
+---
+
+### I dettagli contano
+
+Si noti, inoltre, che nel caso della barba, il rosso è un aggettivo ma non esattamente il colore della barba. Infatti, Claude correttamente indica che il colore della barba è rosso rame. Per noi umani adulti è un distinguo superfluo visto il contesto ma correttamente il chatbot lo esplicita avendo fornitogli una descrizione di cosa cercare e quello che ha trovato non è del tutto aderente ad una descrizione letterale.
 
 Questo fatto di esplicitare informazioni che per noi sono banali è esternamente importante nell'insegnamento dei bambini perché per un bambino piccolo non è ovvio che la barba rossa non sia rossa Ferrari ma rossa rame.
 
-Potreste pensare che sia una questione dialettica o infantile eppure basta citare l'esempio del cigno nero (fenomeno inatteso, mai visto prima) e considerare il bias relativo per capire che invece è un argomento che ha meritato un intero libro, almeno.
+---
+
+### L'ignoto e l'imprevisto
+
+Potreste pensare che sia una finezza dialettica o di ingenuità infantile eppure basta citare l'esempio del cigno nero (fenomeno inatteso, mai visto prima) e considerare il bias relativo per capire che invece è un argomento che ha meritato un intero libro, almeno.
 
 * **The Black Swan: The Impact of the Highly Improbable** - [Il cigno nero](https://it.wikipedia.org/wiki/Il_cigno_nero_(saggio)) di Nassim Nicholas Taleb (2007)
 
-Una volta che Claude ha dimostrato di saper trovare l'uomo dalla barba color rame, possiamo ragionevolmente fidarci della sua risposta di non aver trovato il gatto. Questo non è del tutto vero, ma è accettabile in questo contesto anche se non sufficientemente rigorosa come contro-verifica nell'ambito della ricerca scientifica. Però se non avesse trovato nemmeno l'uomo dalla barba color rame, avremmo potuto serenamente rigettare anche la prima risposta.
+La questione del cigno nero è estramente importante nello stabilire quanto l'ignoto giochi un ruolo essenziale nell'ambito dell'imprevidibilità.
+
+Citando un ex-direttore della CIA sulla questione: *sappiamo ciò che sappiamo, sappiamo ciò che non sappiamo ma non possiamo sapere ciò che non sappiamo di non sapere*.
+
+---
+
+### La profondità percepita
 
 La seconda parte della conversazione - quella che riguarda della ricerca di dio (volutamente minuscolo, non avendo definito quale dio) nel proprio cuore - segue fondamentalmente lo stesso processo logico-razionale o metodo scientifico se vogliamo tirarcela da sballo.
 
 La conclusione del chatbot può sembrare ingenua ed ad alcuni pure preconfezionata. Perché alla fine di cosa parliamo se non siamo nemmeno in grado di dare definizioni precise e quando, invece, scegliamo una definizione precisa essa risulta falsa?
 
-In realtà la risposta del chatbot è anche profonda. Nel senso che la fede (che è una cosa diversa dalla religione) e la scienza sono due dimensioni umane complementari ma distinte. Questa netta distinzione dovrebbe portarci ad accettare e persino ad pretendere che vi sia una netta separazione fra religione e scienza. Perché altrimenti si ritorna a ripetere il processo a Galilei Galileo che per altro la stessa Chiesa ha perdonato postumo.
+Nella risposta del chatbot, si può anche intendere un'elevata profondità di comprensione, se si è capaci percepire una tale profondità. Nel senso che la fede (che è una cosa diversa dalla religione) e la scienza sono due dimensioni umane complementari ma distinte. 
 
-Personalmente ho trovato molto piacevole baloccarmi con Claude su questi argomenti. Però teniamo presente che ancora oggi nel 2024 vi sono persone disposte a morire e persino ad uccidere per "dire la loro" su questi argomenti qui, proprio questi qui. Se poi invece del gatto, scegliessimo di cercare il porco in stile Charlie Hebdo allora è già successo, [due volte](https://it.wikipedia.org/wiki/Charlie_Hebdo#Attentati_subiti), per la precisione.
+Questa netta distinzione dovrebbe portarci ad accettare e persino ad pretendere che vi sia una netta separazione fra religione e scienza. Perché altrimenti si ritorna a ripetere il processo a Galilei Galileo che per altro la stessa Chiesa ha perdonato postumo.
 
-Infine vale la pena notare che nel dare i prompt cerco di essere abbastanza preciso ma mai assolutamente preciso. Primo perché dovrei fare molta più lavoro nello scriverli, secondo perché sarebbero più lunghi e quindi potenzialmente, nonostante le mie intenzioni, meno chiari da comprendere o eseguire, e *last but not least* perché nel delegare un compito è sempre bene lasciare qualche margine di arbitraria interpretazione (*dii no al micro-management anche tu*) perché talvolta il risultato potrebbe stupirci in positivo, in generale aiuta a sviluppare indipendenza e a fare selezione, anche.
+---
+
+### Rimanere umani, sempre!
+
+Personalmente ho trovato molto piacevole baloccarmi con Claude su questi argomenti. Però teniamo presente che ancora oggi nel 2024 vi sono persone disposte a morire e persino ad uccidere per "dire la loro" su questi argomenti, proprio questi qui. Se poi invece del gatto, scegliessimo di cercare il porco in stile Charlie Hebdo allora è già successo, [due volte](https://it.wikipedia.org/wiki/Charlie_Hebdo#Attentati_subiti), per la precisione.
+
+Infine vale la pena notare che nel dare i prompt cerco di essere abbastanza preciso ma mai assolutamente preciso. 
+
+Primo perché dovrei fare molta più lavoro nello scriverli, secondo perché sarebbero più lunghi e quindi potenzialmente, nonostante le mie intenzioni, meno chiari da comprendere o eseguire, e *last but not least* perché nel delegare un compito è sempre bene lasciare qualche margine di arbitraria interpretazione (*dii no al micro-management anche tu*) perché talvolta il risultato potrebbe stupirci in positivo e in generale aiuta a sviluppare l'indipendenza del collaboratore oppure a farne selezione, anche.
 
 <br/>
 <br/>
@@ -286,8 +320,9 @@ Il contrasto è ancora più netto se consideriamo la velocità Mach 6.56 (circa 
 Questo rafforza il tuo punto iniziale sulla differenza tra dedicare risorse intellettuali a dibattiti teologici astratti versus progressi scientifici concreti che possono cambiare materialmente la vita delle persone.
 
 <br/>
+<br/>
 
-### Riflessioni
+## Riflessioni
 
 Intanto notiamo che Claude mettendo il termine "barzelletta" ha compreso la natura sarcastica di quella definizione e per un chatbot è tanta roba saperlo esprimere in una maniera così concisa.
 
@@ -299,7 +334,9 @@ Perciò la conversazione è fluita in maniera serena e collaborativa. In partico
 
 Notare che nel fornire queste informazioni, ho lasciato a lui la più ampia discrezionalità su cosa farne di quelle informazioni. Come succede fra persone mature, razionali e collaborative.
 
-#### Morale
+---
+
+### Morale
 
 * La loro religione era quella degli schiavi e tornò ad essere quella degli schiavi perché la loro fede era così debole che per sostenerla serviva addirittura una religione organizzata!
 
@@ -307,7 +344,9 @@ Non ho sottoposto questo testo a Claude perché non ha avuto la malizia di compr
 
 Oltre al fatto che non mi interessa raccogliere conferme alle mie idee o opinioni. Anzi, talvolta preferirei che le mie previsioni, negative come questa, siano confutate dalla realtà.
 
-#### Previsioni
+---
+
+### Previsioni
 
 Il motivo per il quale argomentiamo e facciamo delle previsioni, non è quello di avere ragione vincendo il dibattito, ma di elevare l'asticella del dibattito: semplice ma non ovvio.
 
@@ -315,7 +354,9 @@ In particolare, le previsioni servono a dare un'idea di dove si vada a parare se
 
 La cautela di usare il termine "previsione" riguarda il fatto che la mappa non è statica ma evolve nel tempo e che la via potrebbe cambiare per fattori esterni impredicibili.
 
-#### Continuità
+---
+
+### Continuità
 
 Ciò però non implica nemmeno che "TAC" d'improvviso si possa tornare al punto di partenza o trovarsi completamente in un'altra parte della mappa, così per magia.
 
@@ -323,7 +364,9 @@ Non perché esiste un'intrinseca tendenza alla continuità in termini di leggi n
 
 In generale, quindi, quando la continuità viene meno - nella realtà - non si ha un miglioramento improvviso della situazione ma letteralmente un disastro.
 
-#### Politica
+---
+
+### Politica
 
 Perché le previsioni sono importanti ed è estremamente importante che siano fattuali piuttosto che ideologiche? Perché la politica per sua natura è un inganno (cfr. [Machiavelli](https://it.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli)).
 
