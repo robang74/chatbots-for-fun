@@ -360,7 +360,7 @@ La cautela di usare il termine "previsione" riguarda il fatto che la mappa non �
 
 Ciò però non implica nemmeno che "TAC" d'improvviso si possa tornare al punto di partenza o trovarsi completamente in un'altra parte della mappa, così per magia.
 
-Non perché esiste un'intrinseca tendenza alla continuità in termini di leggi naturali ma piuttosto perché alcuni fenomeni sono cumulativi e quindi fragili intrinsecamente.
+Non perché esiste un'intrinseca tendenza alla continuità in termini di leggi naturali ma piuttosto perché alcuni fenomeni sono [cumulativi](https://robang74.github.io/roberto-a-foglietta/html/090-l-importanza-del-tcmo.html) e quindi fragili intrinsecamente.
 
 In generale, quindi, quando la continuità viene meno - nella realtà - non si ha un miglioramento improvviso della situazione ma letteralmente un disastro.
 
