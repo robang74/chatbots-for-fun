@@ -323,6 +323,16 @@ Non perché esiste un'intrinseca tendenza alla continuità in termini di leggi n
 
 In generale, quindi, quando la continuità viene meno - nella realtà - non si ha un miglioramento improvviso della situazione ma letteralmente un disastro.
 
+#### La politica
+
+Perché le previsioni sono importanti ed è estremamente importante che siano fattuali piuttosto che ideologiche? Perché la politica per sua natura è un inganno (cfr. Macchiavelli).
+
+La buona politica è quella che in funzione di previsioni fattuali inganna i cittadini, vincendo la loro resistenza ad investire qualcosa oggi per avere un futuro migliore domani.
+
+La cattiva politica gioca il ruolo esattamente opposto, concede una caramella oggi per convincere il popolino a seguire una strada di miseria e rimorso per le occasioni perdute.
+
+La pessima politica, addirittura, usa le ideologie per manipolare le persone e gettarle nel baratro di battaglie prive di qualsiasi utilità per loro, quindi svendendoli come bestiame.
+
 <br/>
 <br/>
 
