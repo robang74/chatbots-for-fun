@@ -291,7 +291,9 @@ Questo rafforza il tuo punto iniziale sulla differenza tra dedicare risorse inte
 
 Intanto notiamo che Claude mettendo il termine "barzelletta" ha compreso la natura sarcastica di quella definizione e per un chatbot è tanta roba saperlo esprimere in una maniera così concisa.
 
-Secondo notiamo che Claude non si è sperticato in cercare di modificare la mia opinione perché potrebbe offendere alcuni. D'altronde come essere umano, dovrebbe essere ovvio che io lo sappia.
+Secondo notiamo che Claude non si è sperticato in cercare di modificare la mia opinione perché potrebbe offendere alcuni. D'altronde per un essere umano (profiling), dovrebbe essere ovvio saperlo.
+
+Si noti che in quella parola "profiling" c'è già tutto che detto in termini umani: appreso con chi sto parlando - le sue capacità di ragionamento - non ho bisogno di affrontare certi aspetti.
 
 Perciò la conversazione è fluita in maniera serena e collaborativa. In particolare ho fornito al chatbot un aggiornamento informativo visto che mi ha segnalato aprile 2024 come suo limite.
 
@@ -303,9 +305,23 @@ Notare che nel fornire queste informazioni, ho lasciato a lui la più ampia disc
 
 Non ho sottoposto questo testo a Claude perché non ha avuto la malizia di comprendere che l'avanzamento nel settore aeronautico ha implicazioni militari enormi, non solo sul traffico civile.
 
-Oltre al fatto che non mi interessa raccogliere conferme alle mie idee o opinioni. Anzi, come spesso accade preferirei che le mie previsioni, come questa, sia confutate dalla realtà.
+Oltre al fatto che non mi interessa raccogliere conferme alle mie idee o opinioni. Anzi, talvolta preferirei che le mie previsioni, negative come questa, siano confutate dalla realtà.
+
+#### Previsioni
 
 Il motivo per il quale argomentiamo e facciamo delle previsioni, non è quello di avere ragione vincendo il dibattito, ma di elevare l'asticella del dibattito: semplice ma non ovvio.
+
+In particolare, le previsioni servono a dare un'idea di dove si vada a parare seguendo una certa strada. Data la mappa (realtà), data la via, anche la destinazione è certa.
+
+La cautela di usare il termine "previsione" riguarda il fatto che la mappa non è statica ma evolve nel tempo e che la via potrebbe cambiare per fattori esterni impredicibili.
+
+#### Continuità
+
+Ciò però non implica nemmeno che "TAC" d'improvviso si possa tornare al punto di partenza o trovarsi completamente in un'altra parte della mappa, così per magia.
+
+Non perché esiste un'intrinseca tendenza alla continuità in termini di leggi naturali ma piuttosto perché alcuni fenomeni sono cumulativi e quindi fragili intrinsecamente.
+
+In generale, quindi, quando la continuità viene meno - nella realtà - non si ha un miglioramento improvviso della situazione ma letteralmente un disastro.
 
 <br/>
 <br/>
