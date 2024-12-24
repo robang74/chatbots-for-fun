@@ -323,9 +323,9 @@ Non perché esiste un'intrinseca tendenza alla continuità in termini di leggi n
 
 In generale, quindi, quando la continuità viene meno - nella realtà - non si ha un miglioramento improvviso della situazione ma letteralmente un disastro.
 
-#### La politica
+#### Politica
 
-Perché le previsioni sono importanti ed è estremamente importante che siano fattuali piuttosto che ideologiche? Perché la politica per sua natura è un inganno (cfr. Macchiavelli).
+Perché le previsioni sono importanti ed è estremamente importante che siano fattuali piuttosto che ideologiche? Perché la politica per sua natura è un inganno (cfr. [Machiavelli](https://it.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli)).
 
 La buona politica è quella che in funzione di previsioni fattuali inganna i cittadini, vincendo la loro resistenza ad investire qualcosa oggi per avere un futuro migliore domani.
 
