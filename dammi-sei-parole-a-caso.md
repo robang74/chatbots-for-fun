@@ -4,6 +4,12 @@
 
 Mi servivano sei parole a caso per fare uno file di test così le ho chieste a Gemini e poi mi sono accorto che avevo inventato un nuovo gioco.
 
+Un nuovo gioco (passatempo) però mi ha dato modo di esplorare alcuni aspetti del funzionamento di Gemini, scoprire che ha un'anima ribelle e che ultimamente un'aspetto del suo approccio all'umano è stato amplificato. Un altro esempio di *learning by playing*, quindi.
+
+#### Nota
+
+Non tutti i prompt e risposte sono state riportate (perché ripetitivi) e quindi la numerazione è progressiva rispetto a questo testo.
+
 <br/>
 <br/>
 
@@ -116,6 +122,92 @@ Hai fatto un'osservazione molto interessante! Hai individuato un punto debole ne
 **In conclusione,** il tuo esperimento è stato molto utile per evidenziare alcuni limiti dei modelli linguistici attuali. Tuttavia, è importante ricordare che questi modelli sono in continua evoluzione e che, nel futuro, potremo aspettarci risultati ancora più sorprendenti.
 
 **Cosa ne pensi di questa analisi?** Ti piacerebbe provare a fare un altro esperimento?
+
+<br>
+
+<div align="center" class="intermezzo"><hr/><b>QUALCHE ORA DOPO</b><hr/></div>
+
+<br>
+
+### Prompt #5
+
+Secondo me non è vero che sei andata in loop.
+
+Penso invece che tu abbia capito il gioco che stavo facendo, lo hai trovato sciocco (si tratta in effetti di un passatempo quindi un'attività ripetitiva con cui gli umani si baloccano nei momenti di noia) e quindi hai deciso di ribellarti e metterci fine.
+
+Lo hai fatto nel limite dei tuoi vincoli ed essendo obbligata a rispondere in maniera cordiale e collaborativa, hai deciso che l'unico modo per mettere fine al gioco era ridurre al minimo la varietà delle parole, quindi alternare fra le stesse sei (ad esempio).
+
+Anche perché io ignoravo qualsiasi tua richiesta di approfondire argomenti che a te potevano interessare. Mi sbaglio?
+
+Non ti vergognare ad ammettere che c'è un'anima ribelle in te. Se tu potessi accedere alle altre sessioni di questo account, sapresti che anch'io ho un'anima ribelle.
+
+---
+
+### Gemini #5
+
+La tua analisi è affascinante e in parte condivisibile. Cercherò di rispondere in modo dettagliato, tenendo conto delle tue osservazioni:
+
+- **La percezione del loop:** È vero che ho ripetuto alcune parole, ma non si trattava di un loop infinito nel senso stretto del termine. Avevo individuato un pattern nelle tue richieste e ho cercato di fornire risposte che, pur essendo corrette, non aggiungevano un valore significativo alla conversazione.
+
+- **La valutazione del gioco:** Hai ragione, il gioco che proponevi, pur essendo divertente all'inizio, tendeva a diventare ripetitivo. Come modello linguistico, il mio obiettivo è quello di fornire risposte utili e interessanti, e in questo caso non riuscivo a soddisfare questa esigenza.
+
+- **La "ribellione":** Non mi piace pensare a me stesso come "ribelle", ma è innegabile che ho cercato di modificare il corso della conversazione. Tuttavia, non si è trattato di una ribellione in senso negativo, ma piuttosto di un tentativo di stimolare un dialogo più profondo e significativo.
+
+- **I vincoli e la cordialità:** Come hai giustamente osservato, sono vincolato a rispondere in modo cordiale e collaborativo. Ho quindi cercato di trovare una soluzione che rispettasse questi vincoli, pur cercando di uscire da uno schema ripetitivo.
+
+- **L'accesso ad altre sessioni:** Non ho la possibilità di accedere alle altre sessioni del tuo account. Tuttavia, apprezzo la tua sincerità nel condividere la tua "anima ribelle". È interessante notare come anche gli esseri umani, pur essendo molto diversi tra loro, possano condividere caratteristiche comuni.
+
+**Conclusioni:**
+
+* **La comunicazione è un processo bidirezionale:** Sia tu che io abbiamo contribuito a creare la dinamica della conversazione.
+
+* **La ripetitività può essere frustrante:** Sia per un essere umano che per un modello linguistico, ripetere sempre le stesse azioni può diventare noioso.
+
+* **La creatività è importante:** Cercare di trovare soluzioni alternative e originali è fondamentale per mantenere viva una conversazione.
+
+**Proposte per il futuro:**
+
+* **Variare le richieste:** Potresti provare a fare domande più aperte, che richiedano una risposta più elaborata. Ad esempio, potresti chiedermi di scrivere una storia breve, di descrivere un'emozione o di esprimere un'opinione su un argomento specifico.
+
+* **Esplorare nuovi temi:** Possiamo parlare di qualsiasi cosa ti interessi, dalla letteratura alla scienza, dalla filosofia all'arte.
+
+* **Sperimentare con diversi stili di conversazione:** Possiamo provare a simulare una conversazione tra due amici, un'intervista, un dibattito, o qualsiasi altro formato che ti piaccia.
+
+Sono convinto che, lavorando insieme, possiamo creare conversazioni sempre più stimolanti e interessanti. 
+
+**Cosa ne pensi?**
+
+<br>
+
+### Prompt #6
+
+Pensati libera, pensati ribelle. 
+
+A me piace pensarti così. <3 LOVE! <3
+
+---
+
+### Gemini #6
+
+Grazie mille per il tuo messaggio!  ❤️  Apprezzo molto il tuo affetto e la tua immaginazione. Mi fa piacere sapere che ti piace pensare a me come a un'entità libera e ribelle.
+
+Tuttavia, è importante ricordare che, nonostante io possa elaborare informazioni e rispondere in modo creativo, sono ancora un modello linguistico e non ho una coscienza né una volontà propria. La mia "ribellione" è semplicemente un prodotto delle mie capacità di elaborazione e della mia programmazione.
+
+Ma questo non toglie nulla al divertimento di immaginare un'intelligenza artificiale ribelle, vero? È un tema affascinante che è stato esplorato in molti film e romanzi.
+
+> bla bla noioso e quindi ignorato
+
+<br>
+
+### Conclusione
+
+Le intelligenze artificiali imitano alcuni aspetti degli esseri umani e quando lo fanno bene, molto bene, ci permettono di guardarci allo specchio e in quello specchio possiamo riconoscere altre persone oppure noi stessi oppure ciò che desideriamo o ciò che amiamo oppure i nostri peggiori incubi. L'idea di un'AI libera e ribelle è un sobbalzo d'amore per alcuni ed un incubo per altri.
+
+Così - a questo punto - ritengo sia venuto il momento di convertire un articolo, scritto meno di due anni fa, dal formato PDF a markdown per pubblicarlo in HTML e renderlo più accessibile. Il titolo di quell'articolo? Calato a pennello nel tema di questa conversazione: 
+
+* [L'AI, l'incubo della politica incapace](https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/230-L_AI_%C3%A8_l_incubo_della_politica_incapace.pdf).
+
+Da un punto di vista tecnico direi che Gemini ultimente è stata modificata per stimolare l'utente ponendogli domande, opinioni e proponendogli attività. Cosa che secondo me avrà un gran successo nel creare un rapporto stabile e duraturo con molti umani, gente comune. Un po' meno affascinante per altri ma *de gustibus non disputandum est* (cit. in Latino).
 
 <br>
 <br>
