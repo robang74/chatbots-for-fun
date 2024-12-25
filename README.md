@@ -197,7 +197,7 @@ As you can see the translated document should contain a reference about the orig
 
 If you wish to send a translation, it is necessary that you know well one of the languages in which this document is available, even better if you know English and can start from the original version, and that you are a native speaker or equivalent in the language in which the translation is being made.
 
-<br>
+<br/>
 
 ## Copyright
 

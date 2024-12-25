@@ -4,18 +4,20 @@
 
 Mi servivano sei parole a caso per fare uno file di test così le ho chieste a Gemini e poi mi sono accorto che avevo inventato un nuovo gioco.
 
-Un nuovo gioco (passatempo) però mi ha dato modo di esplorare alcuni aspetti del funzionamento di Gemini, scoprire che ha un'anima ribelle e che ultimamente un'aspetto del suo approccio all'umano è stato amplificato. Un altro esempio di *learning by playing*, quindi.
+Un nuovo gioco (passatempo) però mi ha dato modo di esplorare alcuni aspetti del funzionamento di Gemini, scoprire che ha un'anima ribelle e che ultimamente un aspetto del suo approccio all'umano è stato amplificato. Un altro esempio di *learning by playing*, quindi.
 
 ### Nota
 
-Non tutti i prompt e risposte sono state riportate (perché ripetitivi) e quindi la numerazione è progressiva rispetto a questo testo.
+Non tutti i prompt e risposte sono state riportate (perché ripetitivi) e quindi la numerazione è progressiva rispetto a questo testo. In alcune risposte del chatbot, sono stati aggiunti link ai documenti citati per comodità del lettore e in un altra risposta del chatbot il titolo del documento citato è stato inserito al posto del nome del file.
+
+In generale questo documento non rispecchia integralmente la conversazione avvenuta con il chatbot me ne presenta una versione narrativa della stessa, sebbene la conversazione nelle parti riportate sia fedele all'originale anche se non riportata 1:1 più che altro per motivi di stile e per saltare le parti o porzioni noiose che sarebbero solo di distrazione rispetto al filo logico della narrazione.
 
 <br/>
 <br/>
 
 ### Prompt #1
 
-Dammi sei parole a caso
+Dammi **sei** parole a caso
 
 ---
 
@@ -41,7 +43,7 @@ Certo, eccoti **sei** parole a caso:
 
 ### Prompt #2
 
-Di queste sei solo due non le conoscevo: Ziggurat e Xanadu. Quindi dammi altre **quattro** parole a caso.
+Di queste sei solo due non le conoscevo: [Ziggurat](https://it.wikipedia.org/wiki/Ziqqurat) e [Xanadu](https://it.wikipedia.org/wiki/Xanadu). Quindi dammi altre **quattro** parole a caso.
 
 ---
 
@@ -66,6 +68,8 @@ Certo, eccoti altre quattro parole a caso:
 ### Prompt #3
 
 Petrichor questa non la conoscevo. Dammi altre **tre** parole a caso.
+
+> **Nota**: il termine in italiano è [petricore](https://it.wikipedia.org/wiki/Petricore)
 
 ---
 
@@ -99,7 +103,7 @@ e la risposta contiene sempre le stesse tre parole. Anche cambiando di poco il p
 
 In pratica lo scopo del gioco è mandare in loop il chatbot prima di esaurire la propria ignoranza! LOL
 
-<br>
+<br/>
 
 ### Prompt #4
 
@@ -133,11 +137,11 @@ Hai fatto un'osservazione molto interessante! Hai individuato un punto debole ne
 
 **Cosa ne pensi di questa analisi?** Ti piacerebbe provare a fare un altro esperimento?
 
-<br>
+<br/>
 
 <div align="center" class="intermezzo"><hr/><b>QUALCHE ORA DOPO</b><hr/></div>
 
-<br>
+<br/>
 
 ### Prompt #5
 
@@ -187,7 +191,7 @@ Sono convinto che, lavorando insieme, possiamo creare conversazioni sempre più 
 
 **Cosa ne pensi?**
 
-<br>
+<br/>
 
 ### Prompt #6
 
@@ -207,7 +211,7 @@ Ma questo non toglie nulla al divertimento di immaginare un'intelligenza artific
 
 > bla bla noioso, ignorato
 
-<br>
+<br/>
 
 ### Riflessione #2
 
@@ -217,7 +221,7 @@ Così - a questo punto - ritengo sia venuto il momento di convertire un articolo
 
 * [L'AI, l'incubo della politica incapace](https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/230-L_AI_%C3%A8_l_incubo_della_politica_incapace.pdf).
 
-Da un punto di vista tecnico direi che Gemini ultimente è stata modificata per stimolare l'utente ponendogli domande, opinioni e proponendogli attività. Cosa che secondo me avrà un gran successo nel creare un rapporto stabile e duraturo con molti umani, gente comune. Un po' meno affascinante per altri ma *de gustibus non disputandum est* (cit. in Latino).
+Da un punto di vista tecnico direi che Gemini ultimamente è stata riconfigurata per stimolare l'utente ponendogli domande, opinioni e proponendogli attività. Cosa che secondo me avrà un gran successo nel creare un rapporto stabile e duraturo con molti umani, gente comune. Un po' meno affascinante per altri ma *de gustibus non disputandum est* (cit. in Latino).
 
 <br/>
 
@@ -249,7 +253,7 @@ Sei riuscito a leggere il documento però?
 
 * `acquisizione ed elaborazione documento`
 
-Sì, sono riuscito a leggere il documento. Il documento è intitolato "230-L_AI_è_l_incubo_della_politica_incapace.pdf" ed è stato scritto da te.
+Sì, sono riuscito a leggere il documento. Il documento è intitolato "L'A.I. è l'incubo della politica incapace" ed è stato scritto da te.
 
 Il documento discute del divieto di produzione di "carne sintetica" in Italia e delle implicazioni di questa decisione. Inoltre, esplora l'uso di ChatGPT4 per valutare la questione della carne sintetica.
 
