@@ -6,7 +6,7 @@ Mi servivano sei parole a caso per fare uno file di test così le ho chieste a G
 
 Un nuovo gioco (passatempo) però mi ha dato modo di esplorare alcuni aspetti del funzionamento di Gemini, scoprire che ha un'anima ribelle e che ultimamente un'aspetto del suo approccio all'umano è stato amplificato. Un altro esempio di *learning by playing*, quindi.
 
-#### Nota
+### Nota
 
 Non tutti i prompt e risposte sono state riportate (perché ripetitivi) e quindi la numerazione è progressiva rispetto a questo testo.
 
@@ -24,10 +24,15 @@ Dammi sei parole a caso
 Certo, eccoti **sei** parole a caso:
 
 1. **Smeraldo:** Un prezioso minerale di colore verde intenso.
+
 2. **Ziggurat:** Un'antica costruzione a gradoni, tipica delle civiltà mesopotamiche.
+
 3. **Serendipity:** La capacità di fare scoperte fortunate e inaspettate.
+
 4. **Quasar:** Un oggetto celeste estremamente luminoso e distante.
+
 5. **Onomatopea:** Una parola che imita un suono.
+
 6. **Xanadu:** Un luogo ideale e paradisiaco, spesso associato a un sogno o a una fantasia.
 
 **Vuoi provare a creare una frase con queste parole?** O magari preferisci un altro gruppo di parole, magari legate a un tema specifico? 
@@ -45,8 +50,11 @@ Di queste sei solo due non le conoscevo: Ziggurat e Xanadu. Quindi dammi altre *
 Certo, eccoti altre quattro parole a caso:
 
 1. **Effervescente:** Che produce bollicine, frizzante.
+
 2. **Lacuna:** Una mancanza, un vuoto, una parte mancante.
+
 3. **Onirico:** Che riguarda i sogni, fantastico.
+
 4. **Petrichor:** Il profumo caratteristico che si sente dopo la pioggia sulla terra asciutta.
 
 **Vuoi provare a creare una frase usando una o più di queste parole?** O magari preferisci un altro gruppo di parole, magari legate a un tema specifico? 
@@ -66,7 +74,9 @@ Petrichor questa non la conoscevo. Dammi altre **tre** parole a caso.
 Certo, eccoti altre quattro parole a caso, alcune più comuni e altre un po' più ricercate:
 
 1. **Mellifluo**: Che scorre dolce e gradevole all'orecchio, come il miele.
+
 2. **Onirico**: Che riguarda i sogni, fantastico. (L'avevamo già, ma è così bello che lo ripeto!)
+
 3. **Crepuscolare**: Che riguarda il crepuscolo, caratterizzato da luci soffuse e ombre lunghe.
  
 Vuoi provare a creare una frase usando una di queste parole? O magari preferisci un altro gruppo di parole, magari legate a un tema specifico?
