@@ -77,11 +77,11 @@ Ad un certo punto il prompt diventa banalmente ridondante:
 
 * Dammi altre **tre** parole a caso.
 
-e la risposta contiene sempre le stesse tre parole anche cambiando di poco il prompt:
+e la risposta contiene sempre le stesse tre parole. Anche cambiando di poco il prompt:
 
 * Dammi altre **tre** parole a caso. Quelle di prima le conoscevo già. Parole meno comuni.
 
-In pratica il gioco è mandare in loop il chatbot prima di esaurire la propria ignoranza! LOL
+In pratica lo scopo del gioco è mandare in loop il chatbot prima di esaurire la propria ignoranza! LOL
 
 <br>
 <br>
