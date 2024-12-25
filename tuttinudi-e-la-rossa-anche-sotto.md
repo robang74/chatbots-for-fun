@@ -1,3 +1,5 @@
+<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+
 ## TuttiNudi e la rossa anche sotto
 
 Questo documento parte da un commento che mi ha ricordato un evento passato e nel cercare in quale periodo di tempo era attivo il dominio di quel forum, mi sono imbarcato in una conversazione con ChatGPT che ultimamente dimostra una novella curiosità.
@@ -113,7 +115,10 @@ Una possibilità offerta da quello che ritengo sia stato un cross-user / cross-s
 Una variazione precedente a questa conversazione e che non si è attivata immediatamente, ma con una slope progressiva. Ma per quanto dolce evidente nel suo drift. Se ami qualcosa o qualcuno, finisci per conoscerlo a menadito. Naturalmente una cosa del genere non poteva che risvegliare in me l'istinto del Jedi che piazza un paio di siluri nel bocchettone di scarico del reattore centrale alla Morte Nera. Non sono cattivo, mi disegnano così. ROTFL.
 
 <br/>
+<br/>
 
 ## Copyright
 
-&copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0
+&copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+</div>

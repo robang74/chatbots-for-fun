@@ -1,3 +1,5 @@
+<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+
 ## Leveraging a chatbot for human writing
 
 Come utilizzare l'intelligenza artificiale per scrivere testi che mantengano prettamente natura umana (authorship)
@@ -62,6 +64,9 @@ In sintesi, questo approccio non solo mantiene la natura umana del testo, ma la 
 <br/>
 <br/>
 
-## Share alike
+## Copyright
 
 &copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+</div>
+

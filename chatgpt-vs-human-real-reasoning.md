@@ -1,3 +1,5 @@
+<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+
 ## ChatGPT vs human real reasoning
 
 This conversation starts from a LinkedIn post about LLMs that just mimic the "*real reasoning*" finding but despite this, they can beat 98-99% common people in that.
@@ -6,9 +8,25 @@ This conversation starts from a LinkedIn post about LLMs that just mimic the "*r
 
 1. [the-warm-water-discovery.txt](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/data/the-warm-water-discovery.txt)
 
-2. [apple-speaks-truth-about-ai.jpg](https://github.com/robang74/chatbots-for-fun/blob/main/data/apple-speaks-truth-about-ai.jpg)
+2. [propaganda-e-sistema-educativo.md](https://raw.githubusercontent.com/robang74/chatgpt-answered-prompts/refs/heads/main/propaganda-e-sistema-educativo.md)
 
-3. [propaganda-e-sistema-educativo.md](https://raw.githubusercontent.com/robang74/chatgpt-answered-prompts/refs/heads/main/propaganda-e-sistema-educativo.md)
+3. [apple-speaks-truth-about-ai.jpg](https://github.com/robang74/chatbots-for-fun/blob/main/data/apple-speaks-truth-about-ai.jpg) (text in the image presented below)
+
+---
+
+### Apple Speaks the Truth About AI.
+
+**It's Not Good. Are We Being Lied To?**
+
+*by Ignacio de Gregorio, Oct 23, 2024*
+
+A group of Apple researchers has published a paper claiming that large language models (LLMs), the backbone of some of AI's most popular products today, like ChatGPT or Llama, can't genuinely reason, meaning their intelligence claims are highly overstated (or from a cynical perspective, that we are being lied to).
+
+> Through a series of tests, they prove that their capacity to reason is most often or totally a factor of memorization and not real intelligence.
+
+This adds to the growing trend of disillusionment around LLMs, which could cause a massive shift in investment and directly impact the future of many multi-billion-dollar start-ups. Naturally, it also seriously questions Big Tech's billion-dollar Al expenditures and frontier AI labs' future, who are dependent on this precise vision being true. So, what is the base of these strong adversarial claims against LLMs?
+
+---
 
 ### Notes
 
@@ -21,10 +39,6 @@ Do not expect the same results. Logged into the same session (which in the meant
 Like in that era in which it was common to burn witches. It is not the first time that it has happened. Moreover, the post that I reshared from which I took the image from Apple, has been removed or I have been blocked by the author.
 
 Coincidence? I do not think so.
-
-### Copyright
-
-&copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0
 
 <br/>
 <br/>
@@ -150,3 +164,11 @@ You can follow the continuation of this conversation here:
 
 The conversation has been splited because the second part deals with a slightly different topic.
 
+<br/>
+<br/>
+
+## Copyright
+
+&copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+</div>

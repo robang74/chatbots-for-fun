@@ -1,3 +1,5 @@
+<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+
 ## L'arte della supercazzola
 
 La [supercazzola](https://it.wikipedia.org/wiki/Supercazzola) è un'espressione lessicale entrata in auge nella lingua italiana popolare a causa di un trittico di film [Amici Miei](https://it.wikipedia.org/wiki/Amici_miei) e una possibile traduzione in Inglese sarebbe "*razzle-dazzle trolling joke*" ma senza un intento politico o utilitaristico. 
@@ -8,7 +10,7 @@ Per poi addirittura giungere a realizzare che l'arte della supercazzola sia uno 
 
 In questo contesto però il chatbot non ha approfondito questi aspetti quindi la sua propensione è quella di catalogare il termine *supercazzola* come scherzo (joke) o beffa (prank). Ma lungi dal sottovalutare questi strumenti digitali in termini di pensiero lessicale perché dopo un lungo - e a tratti ridondante dialogo - ha prodotto questa chicca: "*la vita stessa, nel suo intreccio di caos e significato, è una supercazzola sublime*" che già Vasco Rossi interpretò con "*la vita è tutto un equilibrio sopra la follia*".
 
-Una volta giunti alla fine di questa conversazione, essa poi sarà proseguita [qui](https://github.com/robang74/chatgpt-answered-prompts/blob/main/dalla-supercazzola-alla-civita.md) usando un diverso approccio.
+Una volta giunti alla fine di questa conversazione, essa poi sarà proseguita [qui](https://robang74.github.io/chatgpt-answered-prompts/html/dalla-supercazzola-alla-civita.html) usando un diverso approccio.
 
 <br/>
 <br/>
@@ -670,7 +672,7 @@ Beh, che importa... sarebbe comunque una **supercazzola da ricordare**.
 
 ## Prosecuzione
 
-Questa conversazione poi prosegue [qui](https://github.com/robang74/chatgpt-answered-prompts/blob/main/dalla-supercazzola-alla-civita.md) usando un diverso approccio.
+Questa conversazione poi prosegue [qui](https://robang74.github.io/chatgpt-answered-prompts/html/dalla-supercazzola-alla-civita.html) usando un diverso approccio.
 
 <br/>
 <br/>
@@ -678,3 +680,5 @@ Questa conversazione poi prosegue [qui](https://github.com/robang74/chatgpt-answ
 ## Copyright
 
 &copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+</div>

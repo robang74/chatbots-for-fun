@@ -1,4 +1,6 @@
-<br><div align="center"><img src="img/muppets-show.jpg"><br/></div>
+<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+
+<div align="center"><img src="img/muppets-show.jpg" width="800"><br/></div>
 
 ## Chatbots for fun
 
@@ -24,9 +26,9 @@ This page is presenting the project. However, you might be interested in an easy
 
 * [Leveraging a chatbot for human writing](leveraging-a-chatbot-for-human-writing.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/leveraging-a-chatbot-for-human-writing.md))
 
-* [L'arte della supercazzola](https://github.com/robang74/chatbots-for-fun/blob/main/l-arte-della-supercazzola.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/l-arte-della-supercazzola.md))
+* [L'arte della supercazzola](l-arte-della-supercazzola.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/l-arte-della-supercazzola.md))
 
-* [Il problema sei tu, non l'AI](https://github.com/robang74/chatbots-for-fun/blob/main/il-problema-sei-tu-non-l-AI.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-problema-sei-tu-non-l-AI.md))
+* [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-problema-sei-tu-non-l-AI.md))
 
 * [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-human-real-reasoning.md))
 
@@ -62,25 +64,25 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 ### Related
 
-* [robang74.github.io/chatgpt-answered-prompts](https://robang74.github.io/chatgpt-answered-prompts)
-
 * [Roberto A. Foglietta (blog)](https://robang74.github.io/roberto-a-foglietta) source on [github](https://github.com/robang74/roberto-a-foglietta) (2024-12-14)
+
+* [ChatGPT Answered Prompts](https://robang74.github.io/chatgpt-answered-prompts) source on [github](https://github.com/robang74/chatgpt-answered-prompts) (2024-09-06)
 
 ### Chatbots
 
-* [chatgpt.com](https://chatgpt.com/) - lessical reasoning (**!!**)
+* [chatgpt.com](https://chatgpt.com) - lessical reasoning (**!!**)
 
-* [gemini.google.com](https://gemini.google.com/) - language and search
+* [gemini.google.com](https://gemini.google.com) - language and search
 
-* [perplexity.ai](https://www.perplexity.ai/) - search for information
+* [perplexity.ai](https://www.perplexity.ai) - search for information
 
-* [chat.mistral.ai](https://chat.mistral.ai/) - mistral architecture
+* [chat.mistral.ai](https://chat.mistral.ai) - mistral architecture
 
 * [github.com/copilot](https://github.com/copilot) - coding support
 
 * [x.com/i/grok](https://x.com/i/grok) - free minded but dumb
 
-* [claude.ai](https://claude.ai/) - coding and data analysis
+* [claude.ai](https://claude.ai) - coding and data analysis
 
 <br/>
 
@@ -193,9 +195,10 @@ If you wish to send a translation, it is necessary that you know well one of the
 
 ## Copyright
 
-&copy; 2024, **Roberto A. Foglietta** \<roberto.foglietta<span>@</span>gmail.com\>
+&copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;
 
 All the files in this gihub repository are published *Creative Commons Attribution Non-Commercial No-Derivatives 4.0 International* license terms ([CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)), unless states differently or not applicable due to a different and previous authorship.
 
 Moreover, if a version of a document included in this repository exists or has existed under different licence terms, the licence terms of the latest version available on `github/robang74` [repository](https://github.com/robang74/chatgpt-answered-prompts/) apply. Even when the new licence terms are more restrictive, because permissions for any free content may be revoked at any time at the will of the author, and updating a licence to be more restrictive explicitly implies this will.
 
+</div>

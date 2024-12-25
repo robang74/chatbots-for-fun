@@ -1,3 +1,5 @@
+<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+
 ## ChatGPT vs Paolo Benanti
 
 Questo documento documento faceva parte della raccolta [chatgpt-answered-prompts](https://github.com/robang74/chatgpt-answered-prompts/blob/main/ChatGPT-vs-Paolo-Benanti-01.md) presso la quale esiste l'intera cronologia delle modifiche in git. Considerato che tratta di un tema specifico, invece, di questa raccolta ovvero la relazione fra umani e intelligenze artificiali, è stato spostato qui.
@@ -6,17 +8,9 @@ Questo documento documento faceva parte della raccolta [chatgpt-answered-prompts
 
 Il testo dell'articolo di Paolo Benanti intitolato "*intelligenza artificiale e relazioni pericolose*" del 4 settembre 2024:
 
-* https://lnkd.in/dWFf6JBq
-
-oppure
-
-* https://lnkd.in/dkNvBEB6
+* [lnkd.in/dWFf6JBq](https://lnkd.in/dWFf6JBq) oppure [lnkd.in/dkNvBEB6](lnkd.in/dkNvBEB6)
 
 La seconda immagine di uno o dell'altro di questi due post.
-
-### Copyright
-
-&copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0
 
 <br/>
 <br/>
@@ -635,7 +629,15 @@ Potrebbe stupirci e speriamo anche che lo faccia.
 
 ## Benvenuto fra noi
 
-<img src="img/mr-spock-star-trek.jpg" alt="Mr. Spock" width="900" height="450">
+<div align="center"><img src="img/mr-spock-star-trek.jpg" alt="Mr. Spock" width="800"><br/></div>
 
 Dedicato a tutte le donne come Ahoo Daryaei con l'augurio che il vostro eroico sacrificio non sia stato vano.
 
+<br/>
+<br/>
+
+## Copyright
+
+&copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+</div>

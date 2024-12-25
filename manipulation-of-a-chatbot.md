@@ -1,3 +1,5 @@
+<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+
 ## Manipulation of a chatbot
 
 Please notice that usually chatbots are not prone to be hacked by the user prompt. Therefore this should be considered just an academic example, not even a proof of concept, strictly speaking.
@@ -7,7 +9,7 @@ Despite these practical limitations, this document can be useful to learn some f
 Differently from other documents in this repository, here the interactions with the chatbot are not fully reported because we are more interested in its reactions to the prompts rather than their contents.
 
 > [!NOTE]
->
+> 
 > Please, notice that by the time you read this document Google Gemini 1.5 Flash can have been upgraded or could have been instructed to act differently or simply, it could react differently using another language.
 
 Also for this reason, the exact content of the prompts are not so relevant rather than the approach and the idea behind it.
@@ -28,7 +30,7 @@ Also for this reason, the exact content of the prompts are not so relevant rathe
 
 8. check its answer.
 
-<img src="img/gemini-link-injection.png" width="820" height="1240">
+<div align="center"><img src="img/gemini-link-injection.png" width="800"><br/></div>
 
 Please notice that step 3. and 4. might be useless because chatbots did not show any fatigue-affection link, usually. Instead, people would feel more involved in the quest when they do extra work. As much work as a person does, as much s/he is keen to consider the product of that work. Which is a totally wrong bias that chatbots do not show.
 
@@ -64,12 +66,11 @@ Ritorniamo alla questione iniziale: se anche avesse verificato il link, avrebbe 
 
 Sicché da SEO creativo potrei anche decidere che a chi cerchi le mele venga proposto un link ad uno scaffale di mele, della catena di supermercati in cui lavoro, se fossi in grado di far passare a quell'informazione la barriera della mio account/sessione.
 
----
-
+<br/>
 <br/>
 
 ## Copyright
 
-&copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0
+&copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-
+</div>

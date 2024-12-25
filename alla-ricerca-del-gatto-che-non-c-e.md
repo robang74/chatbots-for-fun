@@ -4,7 +4,7 @@
 
 * **Nota #1**: pagina aggiornata il giorno dopo con aggiunta di altro materiale, [qui](#barzelletta-maria) in fondo.
 
-* **Nota #2**: pagina aggiornata 2 giorni dopo con una migliore edizione delle [considerazioni](#considerazioni) e delle [riflessioni](riflessioni).
+* **Nota #2**: pagina aggiornata 2 giorni dopo con una migliore edizione delle [considerazioni](#considerazioni) e delle [riflessioni](#riflessioni).
 
 ---
 
@@ -200,7 +200,7 @@ Questo fatto di esplicitare informazioni che per noi sono banali è esternamente
 
 Potreste pensare che sia una finezza dialettica o di ingenuità infantile eppure basta citare l'esempio del cigno nero (fenomeno inatteso, mai visto prima) e considerare il bias relativo per capire che invece è un argomento che ha meritato un intero libro, almeno.
 
-* **The Black Swan: The Impact of the Highly Improbable** - [Il cigno nero](https://it.wikipedia.org/wiki/Il_cigno_nero_(saggio)) di Nassim Nicholas Taleb (2007)
+* **The Black Swan: The Impact of the Highly Improbable** - [Il cigno nero](https://it.wikipedia.org/wiki/Il_cigno_nero_%28saggio%29) di Nassim Nicholas Taleb (2007)
 
 La questione del cigno nero è estramente importante nello stabilire quanto l'ignoto giochi un ruolo essenziale nell'ambito dell'imprevidibilità.
 
@@ -305,7 +305,7 @@ Ho usato perplexity.ai per fare una ricerca mirata e la sua risposta è che la n
 
 Per tua informazione condivido con te la risposta della tua collega AI. In maniera che tu possa aggiornare le tue informazioni se puoi farlo e ritieni corretto farlo e come ritieni più opportuno farlo.
 
-[... [risposta ottenuta da Perplexity AI](https://www.perplexity.ai/search/si-legge-di-un-aereo-cinese-pe-CK4ZjjEmRuWNkNbYXkkdGw#0) ...]
+* Inserita qua la [risposta ottenuta](https://www.perplexity.ai/search/si-legge-di-un-aereo-cinese-pe-CK4ZjjEmRuWNkNbYXkkdGw#0) da Perplexity AI
 
 ---
 
@@ -320,7 +320,7 @@ Il contrasto è ancora più netto se consideriamo la velocità Mach 6.56 (circa 
 Questo rafforza il tuo punto iniziale sulla differenza tra dedicare risorse intellettuali a dibattiti teologici astratti versus progressi scientifici concreti che possono cambiare materialmente la vita delle persone.
 
 <br/>
-<br/>
+<br id="riflessioni"/>
 
 ## Riflessioni
 
@@ -379,7 +379,7 @@ La pessima politica, addirittura, usa le ideologie per manipolare le persone e g
 <br/>
 <br/>
 
-## Share alike
+## Copyright
 
 &copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 

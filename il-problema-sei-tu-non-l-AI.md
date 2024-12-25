@@ -1,3 +1,5 @@
+<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+
 ## Il problema sei tu non l'AI
 
 Tizio scrive: "anche questa ricerca di riscontro nella AI è una catechesi dei tempi. Ad ognuno la sua religione" - ma assolutamente NO!
@@ -14,11 +16,11 @@ Quindi - il riscontro nella AI - non è una nuova forma di catechesi. Si tratta 
 
 Se nella testa ti hanno inculcato la religione come principio universale, allora per te tutto è religione. Quindi sei tu il problema, non l'AI.
 
-* [musica di Caparezza, Van Gogh](https://www.youtube.com/watch?v=4x3MIHWLneo)
+* Canzone di Caparezza [Mica Van Gogh](https://www.youtube.com/watch?v=4x3MIHWLneo) (video)
 
 Il sonno della ragione genera mostri (Francisco Goya).
 
-<img src="img/sleeping-van-gogh.jpg" width="860" height="480">
+<div align="center"><img src="img/sleeping-van-gogh.jpg" width="800"><br/><i>click destro per ingrandire in una nuova finestra</i></div>
 
 <br/>
 
@@ -137,7 +139,10 @@ Va bene, lo ritengo un procedere arbitrario ma assolutamente sensato. In effetti
 Grazie per la tua comprensione e per aver riconosciuto la distinzione logica tra i due approcci. Sono felice che il mio ragionamento sia stato utile e sensato per te. Se hai altre domande o vuoi approfondire ulteriormente il modo in cui interpreto le richieste, sono qui! 😊
 
 <br/>
+<br/>
 
 ## Copyright
 
-&copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0
+&copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+</div>

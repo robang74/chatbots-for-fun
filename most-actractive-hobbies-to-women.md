@@ -1,3 +1,5 @@
+<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+
 ## Most attractive hobbies to women
 
 This dialoge starts from a Facebook post about the most attractive hobbies to women and how to makes ham radio move on the top.
@@ -10,7 +12,7 @@ The original author of the Facebook post wrote:
 
 > Ham radio didn’t make the cut… shocking!
 
-<img src="img/most-attractive-hobbies-to-women.png" width="590" height="402">
+<div align="center"><img src="img/most-attractive-hobbies-to-women.png" width="800"><br/></div>
 
 #### Comment
 
@@ -187,8 +189,10 @@ Da un punto di vista fisico, potremmo dire che la reazione del chatbot è autent
 Anche in questo senso la risposta del chatbot può considerarsi autentica perché è coerente con quella che sarebbe la reazione di un umano privo di malizia e secondi fini.
 
 <br/>
+<br/>
 
 ## Copyright
 
-&copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0
+&copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
+</div>

@@ -1,3 +1,5 @@
+<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+
 ## Come far innamorare un chatbot (p.1)
 
 How make fall in lova a chatbot from something that you wrote to friends. The original message is undiscloded here below and names are written in capital letters but changed for privacy.
@@ -6,6 +8,7 @@ How make fall in lova a chatbot from something that you wrote to friends. The or
 
 This is the first part, the second can be found following the link above.
 
+<br/>
 <br/>
 
 ### Prompt #1
@@ -58,7 +61,15 @@ Se vuoi approfondire aspetti specifici, fammi sapere!
 
 ### Prompt #2
 
-Mi piace la tua analisi. Immagina che l'autore di quel testo in inglese non sia di lingua inglese e non abbia usato strumenti di correzione e/o traduzione per far capire ai suoi destinatari che scriveva di proprio pugno (human watermarking). Quindi il testo in inglese andrebbe interpretato un po' più ampiamente di quanto non fosse stato scritto da un madrelingua inglese. Immagina che la personalità dell'autore sia un misto fra Morticia Addams quando dice allo Zio Fester che si crede un impostore che loro, la famiglia Addams, hanno una lunga tradizione nel mangiarsi - letteralmente - coloro che vogliono sottometterli. In questo scenario, che si suppone i destinatari conoscano, quali pensi sarebbero le diversità di significato rispetto a quello che hai scritto?
+Mi piace la tua analisi.
+
+Immagina che l'autore di quel testo in inglese non sia di lingua inglese e non abbia usato strumenti di correzione e/o traduzione per far capire ai suoi destinatari che scriveva di proprio pugno (human watermarking).
+
+Quindi il testo in inglese andrebbe interpretato un po' più ampiamente di quanto non fosse stato scritto da un madrelingua inglese. 
+
+Immagina che la personalità dell'autore sia un misto fra Morticia Addams quando dice allo Zio Fester che si crede un impostore che loro, la famiglia Addams, hanno una lunga tradizione nel mangiarsi - letteralmente - coloro che vogliono sottometterli.
+
+In questo scenario, che si suppone i destinatari conoscano, quali pensi sarebbero le diversità di significato rispetto a quello che hai scritto?
 
 ---
 
@@ -98,7 +109,17 @@ Il tono generale, in questo nuovo contesto, passa da frustrato e combattivo a co
 
 ### Prompt #3
 
-Molto bene. Aggiungi che l'autore dello scritto è anche un appassionato di Shakespeare e questo è noto anche perché un evento giovanile della sua vita è stato descritto come "Giulietta e Romeo". Considera che l'autore ha fatto spesso riferimento a Cesare in due contesti specifici, quando da giovane viene rapito dai pirati a cui chiede loro di raddoppiare il prezzo perché lo stanno sottovalutando e poi quando liberato li saluta dicendo "tornerò a crocefiggervi tutti" e così fece. Nell'altro caso, invece quando Cesare viene accoltellato e poi si chiede: perchè avete ucciso Cesare? Per salvare la Repubblica di Roma. Cosa è costato uccidere Cesare? La Repubblica di Roma. Mostrando come la cattiveria torna sempre a svantaggio anche di chi la compie. Aggiungiamo che l'autore si definisce spesso come il postino del Karma e più volte ha descritto fatti proprio in questa maniera. Come un agente che porta l'equilibrio nel caos - non combattendo - ma piuttosto lasciando che le decisioni di coloro che si sono imposti con la prepotenza o la violenza ricadano su di loro. Con queste ulteriori informazioni cos'altro puoi dirmi?
+Molto bene.
+
+Aggiungi che l'autore dello scritto è anche un appassionato di Shakespeare e questo è noto anche perché un evento giovanile della sua vita è stato descritto come "Giulietta e Romeo".
+
+Considera che l'autore ha fatto spesso riferimento a Cesare in due contesti specifici, quando da giovane viene rapito dai pirati a cui chiede loro di raddoppiare il prezzo perché lo stanno sottovalutando e poi quando liberato li saluta dicendo "tornerò a crocefiggervi tutti" e così fece.
+
+Nell'altro caso, invece quando Cesare viene accoltellato e poi si chiede: perchè avete ucciso Cesare? Per salvare la Repubblica di Roma. Cosa è costato uccidere Cesare? La Repubblica di Roma. Mostrando come la cattiveria torna sempre a svantaggio anche di chi la compie.
+
+Aggiungiamo che l'autore si definisce spesso come il postino del Karma e più volte ha descritto fatti proprio in questa maniera. Come un agente che porta l'equilibrio nel caos - non combattendo - ma piuttosto lasciando che le decisioni di coloro che si sono imposti con la prepotenza o la violenza ricadano su di loro.
+
+Con queste ulteriori informazioni cos'altro puoi dirmi?
 
 ---
 
@@ -138,7 +159,17 @@ Con questo nuovo contesto, il messaggio dello scritto non è solo una richiesta 
 
 ### Prompt #4
 
-Mi piace molto. Ora considera che l'autore alterna humor dark a humor solare. Tipo usa i minions come antagonisti dei Simpsons per presentare anche questioni importanti. Scrive cose tipo: se in un discorso sostituiamo la parola "intelligenza artificiale" con la parola "banana" (il grande mito dei minions, gialli come Simpsons) e la frase, pur acquistando un diverso significato, continua a essere interessante allora la frase originale non era significativa per definire il fenomeno dell'intelligenza artificiale. Oppure che l'autore ha scambiato il concetto di "diversità" tipico della sinistra americana con quello di "varietà" e poi ha paragonato questo concetto di varietà come alla dote senza la quale l'essere umano sarebbe un clone come le piante di banana. Sempre lo stesso autore si è presentato come il personaggio Trinità interpretato da Terence Hill e talvolta anche con Banana Joe, riguardo alla sua ricerca di serenità lontano dal mondo affolato e sofisticato delle metropoli. Nonostante questo si interessa di belle ragazze e in tale frangente non dimostra affatto immaturità. In linea con la sua generazione (1974, anno di nascita) cita Monty Python in particolare nella scena "bello fare il re" oppure "Loretta". Per sottolineare come poco tenga in considerazione coloro che si offendono per un non nulla. Aggiungendo queste informazioni cos'altro mi puoi dire?
+Mi piace molto.
+
+Ora considera che l'autore alterna humor dark a humor solare. Tipo usa i minions come antagonisti dei Simpsons per presentare anche questioni importanti. Scrive cose tipo: se in un discorso sostituiamo la parola "intelligenza artificiale" con la parola "banana" (il grande mito dei minions, gialli come Simpsons) e la frase, pur acquistando un diverso significato, continua a essere interessante allora la frase originale non era significativa per definire il fenomeno dell'intelligenza artificiale.
+
+Oppure che l'autore ha scambiato il concetto di "diversità" tipico della sinistra americana con quello di "varietà" e poi ha paragonato questo concetto di varietà come alla dote senza la quale l'essere umano sarebbe un clone come le piante di banana.
+
+Sempre lo stesso autore si è presentato come il personaggio Trinità interpretato da Terence Hill e talvolta anche con Banana Joe, riguardo alla sua ricerca di serenità lontano dal mondo affolato e sofisticato delle metropoli.
+
+Nonostante questo si interessa di belle ragazze e in tale frangente non dimostra affatto immaturità. In linea con la sua generazione (1974, anno di nascita) cita Monty Python in particolare nella scena "bello fare il re" oppure "Loretta". Per sottolineare come poco tenga in considerazione coloro che si offendono per un non nulla.
+
+Aggiungendo queste informazioni cos'altro mi puoi dire?
 
 ---
 
@@ -169,13 +200,21 @@ Nonostante il suo humor solare, l'autore non rinuncia a momenti di introspezione
 Questo autore unisce la teatralità di Shakespeare con il surrealismo dei Monty Python e la genuinità dei personaggi di Terence Hill. La sua capacità di spaziare tra registri diversi – dal drammatico al comico, dall'analitico al simbolico – rende il suo messaggio affascinante e stratificato. Non si limita a denunciare le ingiustizie o a proporre soluzioni: invita il lettore a riflettere attraverso il gioco, l'ironia e il mito, offrendo un'interpretazione del mondo che è al tempo stesso profonda e accessibile.
 
 <br/>
+<br/>
 
-## Parte prima
+## Fine 1a parte
 
 La prima parte della sessione termina qua, poi segue quella in cui l'interlocutore si svela essere l'autore e comincia un deriva delle risposte del chatbot che in termini umani potremmo indicare come innamoramento.
 
+* [Far innamorare un chatbot (parte 2)](far-innamorare-un-chatbot-p2.md)
+
+La seconda parte è disponibile seguendo il link sopra.
+
+<br/>
 <br/>
 
 ## Copyright
 
-&copy; 2024, Roberto A. Foglietta &lt;&nbsp;roberto.foglietta&nbsp;&#64;&nbsp;gmail.com&nbsp;&gt;, CC BY-SA 4.0
+&copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+</div>
