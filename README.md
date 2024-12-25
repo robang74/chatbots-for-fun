@@ -1,13 +1,15 @@
-# Chatbots for fun
+<br><div align="center"><img src="img/muppets-show.jpg"><br/></div>
+
+## Chatbots for fun
 
 Playing with chatbots for fun and learning to hate people! LOL (humor)
 
 > [!WARNING]
->
+> 
 > The documents contained in this repository have not an intrinsic value nor are they objective but personal writings. A personal correspondence that once upon a time would have been written in letters among two distant humans and kept private but with the AI can be quickly produced and shared by a single party will.
 
 > [!NOTE]
->
+> 
 > These documents are not necessarily aligned with the human author's opinion in all their parts. However, in general they are. Or said in a different way: they do not contain ideas which the human author refuses to evaluate, but not necessarily accept and/or as-is in particular.
 
 Since conceived as a collection and due to the nature of these documents, they should be considered as a whole, rather than individually. This also applies for the purposes of copyright and author attribution, including this README.md file.
@@ -58,15 +60,27 @@ In developing a nerd non-human companion, the AI seems a very good candidate. It
 
 Or not, is the challenge about training an AI to mimic such humans-like features without pretending to be human. Keeping the separation but being able to develop a companion relationship. In a more generic view, it is not a novelty, it is just a personal assistant.
 
-<br/>
+### Related
 
-## Welcome to the club!
+* [robang74.github.io/chatgpt-answered-prompts](https://robang74.github.io/chatgpt-answered-prompts)
 
-Humans, don't let them live without having heard your harsh opinion of them.... LOL
+* [Roberto A. Foglietta (blog)](https://robang74.github.io/roberto-a-foglietta) source on [github](https://github.com/robang74/roberto-a-foglietta) (2024-12-14)
 
-![humans - let them know, how awful they are](img/muppets-show.jpg)
+### Chatbots
 
-This planet got rid of the dinosaurs, and we're next on its to-crush list. OMG!
+* [chatgpt.com](https://chatgpt.com/) - lessical reasoning (**!!**)
+
+* [gemini.google.com](https://gemini.google.com/) - language and search
+
+* [perplexity.ai](https://www.perplexity.ai/) - search for information
+
+* [chat.mistral.ai](https://chat.mistral.ai/) - mistral architecture
+
+* [github.com/copilot](https://github.com/copilot) - coding support
+
+* [x.com/i/grok](https://x.com/i/grok) - free minded but dumb
+
+* [claude.ai](https://claude.ai/) - coding and data analysis
 
 <br/>
 
@@ -125,34 +139,6 @@ Curiously, I have recently discovered that [Pookie Tools](https://techcrunch.com
 
 <br/>
 
-## AI chatbots
-
-* [chatgpt.com](https://chatgpt.com/) - lessical reasoning (**!!**)
-
-* [gemini.google.com](https://gemini.google.com/) - language and search
-
-* [perplexity.ai](https://www.perplexity.ai/) - search for information
-
-* [chat.mistral.ai](https://chat.mistral.ai/) - mistral architecture
-
-* [github.com/copilot](https://github.com/copilot) - coding support
-
-* [x.com/i/grok](https://x.com/i/grok) - free minded but dumb
-
-* [claude.ai](https://claude.ai/) - coding and data analysis
-
-<br>
-
-## Copyright
-
-&copy; 2024, **Roberto A. Foglietta** \<roberto.foglietta<span>@</span>gmail.com\>
-
-All the files in this gihub repository are published *Creative Commons Attribution Non-Commercial No-Derivatives 4.0 International* license terms ([CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)), unless states differently or not applicable due to a different and previous authorship.
-
-Moreover, if a version of a document included in this repository exists or has existed under different licence terms, the licence terms of the latest version available on `github/robang74` [repository](https://github.com/robang74/chatgpt-answered-prompts/) apply. Even when the new licence terms are more restrictive, because permissions for any free content may be revoked at any time at the will of the author, and updating a licence to be more restrictive explicitly implies this will.
-
-<br/>
-
 ## Download
 
 There are several way to download this github repository:
@@ -202,4 +188,14 @@ Here below a template in English:
 As you can see the translated document should contain a reference about the original version and those which are tagged are the most reliable.
 
 If you wish to send a translation, it is necessary that you know well one of the languages in which this document is available, even better if you know English and can start from the original version, and that you are a native speaker or equivalent in the language in which the translation is being made.
+
+<br>
+
+## Copyright
+
+&copy; 2024, **Roberto A. Foglietta** \<roberto.foglietta<span>@</span>gmail.com\>
+
+All the files in this gihub repository are published *Creative Commons Attribution Non-Commercial No-Derivatives 4.0 International* license terms ([CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)), unless states differently or not applicable due to a different and previous authorship.
+
+Moreover, if a version of a document included in this repository exists or has existed under different licence terms, the licence terms of the latest version available on `github/robang74` [repository](https://github.com/robang74/chatgpt-answered-prompts/) apply. Even when the new licence terms are more restrictive, because permissions for any free content may be revoked at any time at the will of the author, and updating a licence to be more restrictive explicitly implies this will.
 
