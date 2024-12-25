@@ -16,6 +16,16 @@ Playing with chatbots for fun and learning to hate people! LOL (humor)
 
 Since conceived as a collection and due to the nature of these documents, they should be considered as a whole, rather than individually. This also applies for the purposes of copyright and author attribution, including this README.md file.
 
+### Website
+
+* [robang74.github.io/chatbots-for-fun](https://robang74.github.io/chatbots-for-fun) 
+
+### Related
+
+* [Roberto A. Foglietta (blog)](https://robang74.github.io/roberto-a-foglietta) source on [github](https://github.com/robang74/roberto-a-foglietta) (2024-12-14)
+
+* [ChatGPT Answered Prompts](https://robang74.github.io/chatgpt-answered-prompts) source on [github](https://github.com/robang74/chatgpt-answered-prompts) (2024-09-06)
+
 <br/>
 
 ## Index
@@ -61,12 +71,6 @@ This isn't surprising. The experience from a domesticated companion is much more
 In developing a nerd non-human companion, the AI seems a very good candidate. It is about technology. It is accessible by a computer. It is always available. Then, what is missing? Humor, twisted sarcasm, lateral thinking, imagination, creativity and nerd culture. The last is easy to learn for an AI. Instead, all the other features might be out of the current LLM models. Or not.
 
 Or not, is the challenge about training an AI to mimic such humans-like features without pretending to be human. Keeping the separation but being able to develop a companion relationship. In a more generic view, it is not a novelty, it is just a personal assistant.
-
-### Related
-
-* [Roberto A. Foglietta (blog)](https://robang74.github.io/roberto-a-foglietta) source on [github](https://github.com/robang74/roberto-a-foglietta) (2024-12-14)
-
-* [ChatGPT Answered Prompts](https://robang74.github.io/chatgpt-answered-prompts) source on [github](https://github.com/robang74/chatgpt-answered-prompts) (2024-09-06)
 
 ### Chatbots
 
