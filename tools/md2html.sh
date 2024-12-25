@@ -142,9 +142,9 @@ done
 echo
 echo "redirecting html links ..."
 for j in $list; do
-    for i in img/*.png img/*.jpg *.png *.jpg; do
-        sed -e "s,\(href=.\)$i>$i,\\1../$i>$i,g" \
-            -e "s,\(src=.\)$i>$i,\\1../$i>$i,g" -i $j
+    for i in $(ls -1 img/*.png img/*.jpg *.png *.jpg 2>/dev/null); do
+        sed -e "s,\(href=.\)$i,\\1../$i,g" \
+            -e "s,\(src=.\)$i,\\1../$i,g" -i $j
     done
     for i in *.md; do
         sed -e "s,\(href=.\)$i\">$i,\\1${i%.md}.html\">${i%.md}.html,g" -i $j
@@ -171,46 +171,4 @@ if [ "$zip" == "1" ]; then
     echo
 fi
 
-fi; exit #######################################################################
-#
-# PDF creation is ignored
-#
-################################################################################
-
-mkdir -p pdf
-
-echo
-for i in *.md; do
-    if [ "$i" == "README.md" ]; then
-        continue
-    fi
-    echo "converting $i in pdf ..."
-    cp -f $i pdf/$i.tmp
-    for k in *.png *.md; do
-        sed -i "s,\[.*\]($k),$k,g" pdf/$i.tmp
-    done
-    md2pdf pdf/$i.tmp pdf/${i%.md}.pdf
-    rm -f pdf/$i.tmp
-done
-
-echo
-echo "all done."
-echo
-exit
-
-echo
-echo "redirecting pdf link ..."
-
-for i in *.png; do
-    for j in pdf/*.pdf; do
-        echo "reworking $j ..."
-        rm -f $j.tmp
-        pdftk $j output $j.tmp uncompress
-        sed -i "s,\(/URI (file://\).*/$i,\\1../$i,g" $j.tmp
-        pdftk $j.tmp output $j compress
-        rm -f $j.tmp
-    done
-done
-
-fi #############################################################################
-
+fi
