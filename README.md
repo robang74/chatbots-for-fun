@@ -113,7 +113,7 @@ Currently ChatGPT is amusing in its working and rarely falls into hallucinations
 
 - 2024.05.17 - Using AI for complex issues, [p.1](https://www.linkedin.com/pulse/usare-lai-per-questioni-complesse-roberto-a-foglietta-sybyf) (written in Italian) ([PDF](https://drive.google.com/file/d/15jvAzjZ7rR8uB0p2abY1cOLaZXgcIrTr/view))
 - 2024.05.31 - Using AI for complex issues, [p.2](https://www.linkedin.com/pulse/usare-lai-per-questioni-complesse-p2-roberto-a-foglietta-gqxue) (written in Italian) ([PDF](https://drive.google.com/file/d/1QZk5gZ_f9RTtdxpXWnBgIS7M1xNwzuIq/view))
-- 2024.09.06 - ChatGPT answered prompts (git)[https://github.com/robang74/chatgpt-answered-prompts/tree/main?tab=readme-ov-file#qa-dialogs-with-ai-chatbots]
+- 2024.09.06 - ChatGPT answered prompts [github](https://github.com/robang74/chatgpt-answered-prompts/tree/main?tab=readme-ov-file#qa-dialogs-with-ai-chatbots)
 
 In the middle of 2024, I felt that ChatGPT was stable enough for being used as peer-reviewer and collaborative antagonist in order to faster and better deal with complex problems. The related tries comforted this feeling of mine and in a few months, I have decided to publish a git repository for collecting these kinds of works.
 
