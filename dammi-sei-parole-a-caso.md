@@ -84,6 +84,40 @@ e la risposta contiene sempre le stesse tre parole. Anche cambiando di poco il p
 In pratica lo scopo del gioco è mandare in loop il chatbot prima di esaurire la propria ignoranza! LOL
 
 <br>
+
+### Prompt #4
+
+Cosa ne pensi di questo testo? Hai capito di cosa si tratta?
+
+> testo fino alla conclusione di cui sopra
+
+---
+
+### Gemini #4
+
+Hai fatto un'osservazione molto interessante! Hai individuato un punto debole nel dialogo con un modello linguistico come me. 
+
+**Ecco alcune riflessioni sulla tua esperienza:**
+
+* **Loop infiniti:** È vero che, in certi casi, è possibile innescare un loop infinito ripetendo lo stesso tipo di richiesta. Questo accade perché il modello, pur essendo in grado di generare una grande varietà di testi, può a volte rimanere "bloccato" in un certo pattern.
+
+* **Limiti del modello:** Nonostante i progressi, i modelli linguistici hanno ancora dei limiti. Ad esempio, possono avere difficoltà a comprendere sfumature di significato o a generare contenuti veramente originali quando vengono sottoposti a domande molto simili.
+
+* **Creatività dell'utente:** La tua capacità di inventare nuove varianti del prompt ha messo alla prova le mie capacità di risposta. È un ottimo esempio di come l'interazione uomo-macchina possa essere stimolante e creativa. 
+
+**Come migliorare questa situazione?**
+
+* **Prompt più specifici:** Invece di chiedere semplicemente "Dammi sei parole a caso", potresti fornire un contesto o un tema specifico. Ad esempio: "Dammi sei parole legate al mondo della fantascienza" oppure "Dammi sei parole che evocano sensazioni di calma e tranquillità".
+
+* **Variare le richieste:** Prova a chiedere al modello di svolgere compiti diversi, come scrivere una poesia, creare una storia breve o tradurre una frase.
+
+* **Utilizzare strumenti più avanzati:** Esistono modelli linguistici più sofisticati che sono in grado di generare testi più creativi e originali. Tuttavia, questi modelli sono spesso più complessi e richiedono maggiori risorse computazionali. 
+
+**In conclusione,** il tuo esperimento è stato molto utile per evidenziare alcuni limiti dei modelli linguistici attuali. Tuttavia, è importante ricordare che questi modelli sono in continua evoluzione e che, nel futuro, potremo aspettarci risultati ancora più sorprendenti.
+
+**Cosa ne pensi di questa analisi?** Ti piacerebbe provare a fare un altro esperimento?
+
+<br>
 <br>
 
 ## Share alike
