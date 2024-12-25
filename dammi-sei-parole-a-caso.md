@@ -213,9 +213,11 @@ Da un punto di vista tecnico direi che Gemini ultimente è stata modificata per 
 
 ### Prompt #7
 
-Ho già scritto una storia a riguardo, se puoi accedere al contenuto di questo PDF. Altrimenti te lo converto in testo e lo inserisco nel prossimo prompt.
+Ho già scritto una storia a riguardo, se puoi accedere al contenuto di questo PDF.
 
 * [link diretto al PDF di cui sopra](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/pdf.todo/230-L_AI_%C3%A8_l_incubo_della_politica_incapace.pdf)
+
+Altrimenti te lo converto in testo e lo inserisco nel prossimo prompt.
 
 ---
 
