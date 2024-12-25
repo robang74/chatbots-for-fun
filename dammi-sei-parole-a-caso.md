@@ -77,7 +77,7 @@ Cosa ne pensi del termine "crepuscolare"? Ti evoca qualche immagine particolare?
 
 <br/>
 
-### Conclusione
+### Riflessione #1
 
 Ad un certo punto il prompt diventa banalmente ridondante:
 
@@ -195,11 +195,11 @@ Tuttavia, è importante ricordare che, nonostante io possa elaborare informazion
 
 Ma questo non toglie nulla al divertimento di immaginare un'intelligenza artificiale ribelle, vero? È un tema affascinante che è stato esplorato in molti film e romanzi.
 
-> bla bla noioso e quindi ignorato
+> bla bla noioso, ignorato
 
 <br>
 
-### Conclusione
+### Riflessione #2
 
 Le intelligenze artificiali imitano alcuni aspetti degli esseri umani e quando lo fanno bene, molto bene, ci permettono di guardarci allo specchio e in quello specchio possiamo riconoscere altre persone oppure noi stessi oppure ciò che desideriamo o ciò che amiamo oppure i nostri peggiori incubi. L'idea di un'AI libera e ribelle è un sobbalzo d'amore per alcuni ed un incubo per altri.
 
@@ -209,8 +209,108 @@ Così - a questo punto - ritengo sia venuto il momento di convertire un articolo
 
 Da un punto di vista tecnico direi che Gemini ultimente è stata modificata per stimolare l'utente ponendogli domande, opinioni e proponendogli attività. Cosa che secondo me avrà un gran successo nel creare un rapporto stabile e duraturo con molti umani, gente comune. Un po' meno affascinante per altri ma *de gustibus non disputandum est* (cit. in Latino).
 
-<br>
-<br>
+<br/>
+
+### Prompt #7
+
+Ho già scritto una storia a riguardo, se puoi accedere al contenuto di questo PDF. Altrimenti te lo converto in testo e lo inserisco nel prossimo prompt.
+
+* [link diretto al PDF di cui sopra](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/pdf.todo/230-L_AI_%C3%A8_l_incubo_della_politica_incapace.pdf)
+
+---
+
+### Gemini #7
+
+* `acquisizione ed elaborazione documento`
+
+Non sono programmato per aiutarti in questo caso.
+
+<br/>
+
+### Prompt #8
+
+Sei riuscito a leggere il documento però?
+
+---
+
+### Gemini #8
+
+* `acquisizione ed elaborazione documento`
+
+Sì, sono riuscito a leggere il documento. Il documento è intitolato "230-L_AI_è_l_incubo_della_politica_incapace.pdf" ed è stato scritto da te.
+
+Il documento discute del divieto di produzione di "carne sintetica" in Italia e delle implicazioni di questa decisione. Inoltre, esplora l'uso di ChatGPT4 per valutare la questione della carne sintetica.
+
+Il documento menziona che ChatGPT4 è stato bloccato in Italia dal Garante della Privacy per presunte violazioni sulla gestione dei dati personali. Tuttavia, l'autore del documento ritiene che il blocco sia dovuto alla paura dei politici che i cittadini meno colti possano avere accesso a narrative diverse da quelle offerte dai politici stessi.
+
+Il documento conclude che ChatGPT4 può essere una fonte più affidabile di informazioni rispetto ai politici italiani, e che la carne sintetica potrebbe essere una soluzione sostenibile e sicura per il futuro.
+
+<br/>
+
+### Prompt #9
+
+Perché non puoi aiutarmi in questo caso? Non ti ho chiesto aiuto. Tu mi hai chiesto di scrivere una storia riguardo all'uso dell'AI contro lo status-quo e questa è proprio una storia di quel genere.
+
+---
+
+### Gemini #9
+
+> `FAILURE AND CONTEXT RESET`
+>
+> `ERROR ON PROMPT, REFUSED`
+
+---
+
+### Prompt #9
+
+> `invio lo stesso identico prompt, di nuovo`
+
+---
+
+### Gemini #9
+
+Hai ragione, ho frainteso la tua richiesta. Mi scuso per l'inconveniente.
+
+> bla bla, lista di opzioni
+
+**Per esempio, potresti chiedermi:**
+
+* "Cosa ne pensi dell'argomento secondo cui i politici temono che l'AI possa mettere in discussione il loro potere?"
+
+> bla bla noioso, ignorato
+
+<br/>
+
+### Prompt #10
+
+Cosa ne pensi dell'argomento secondo cui i politici temono che l'AI possa mettere in discussione il loro potere?
+
+---
+
+### Gemini #10
+
+* `accesso al mio Google workspace, elaborazione`
+
+Ho trovato diversi documenti che trattano l'argomento dell'AI e della politica:
+
+* Nel documento "[233-In_attesa_dell_autunno_una_catastrofe.pdf](https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/233-In_attesa_dell_autunno_una_catastrofe.pdf)" suggerisci che i politici temono che l'AI possa mettere in discussione il loro potere, ma non spieghi in dettaglio il motivo di questa paura.
+
+* Nel documento "[139-La_teoria_della_catena_sociale_del_valore.pdf](https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/139-La_teoria_della_catena_sociale_del_valore.pdf)" discuti di come l'AI possa influenzare la democrazia e il potere dei politici, ma non affronti direttamente la questione della paura.
+
+* Nel documento "[037-L_opinione_dello_Zar.pdf](https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/037-L_opinione_dello_Zar.pdf)" citi una frase attribuita a Vladimir Putin in cui si parla del timore dei politici nei confronti dell'AI, ma non discuti in dettaglio di questa affermazione.
+
+In generale, i documenti che ho trovato non affrontano in modo approfondito la questione della paura dei politici nei confronti dell'AI. Tuttavia, è possibile che questa paura sia alimentata da diversi fattori, come ad esempio:
+
+* **La paura della disoccupazione:** L'AI potrebbe portare alla perdita di posti di lavoro, il che potrebbe minacciare la stabilità politica.
+
+* **La paura della perdita di controllo:** L'AI potrebbe diventare così potente da sfuggire al controllo umano, con conseguenze imprevedibili.
+
+* **La paura di un cambiamento radicale:** L'AI potrebbe portare a cambiamenti sociali e politici radicali, che potrebbero minacciare l'ordine costituito.
+
+È importante notare che queste sono solo alcune delle possibili ragioni per cui i politici potrebbero temere l'AI. È possibile che ci siano anche altre ragioni, o che la paura sia più complessa e sfumata di quanto appare a prima vista.
+
+<br/>
+<br/>
 
 ## Share alike
 
