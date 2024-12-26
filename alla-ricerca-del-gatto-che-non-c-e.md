@@ -14,7 +14,7 @@ Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a
 
 | find the cat! | cat is not here! |
 |---|---|
-| <div align="center"><img src="data/find-the-cat-among-faces.jpg" width="400"><br/><i>click destro per ingrandire in una nuova finestra</i></div> | <div align="center"><img src="data/il-gatto-con-gli-stivali.jpg" width="400"><br/><i>il nostro eroe che si è smarrito...</i></div> |
+| <div align="center"><img src="data/find-the-cat-among-faces.jpg" width="400"><br/><i>click destro per ingrandire in una nuova finestra</i></div> | <div align="center"><img src="img/il-gatto-con-gli-stivali.jpg" width="400"><br/><i>il nostro eroe che si è smarrito...</i></div> |
 
 </div><br/>
 
@@ -375,6 +375,22 @@ La buona politica è quella che in funzione di previsioni fattuali inganna i cit
 La cattiva politica gioca il ruolo esattamente opposto, concede una caramella oggi per convincere il popolino a seguire una strada di miseria e rimorso per le occasioni perdute.
 
 La pessima politica, addirittura, usa le ideologie per manipolare le persone e gettarle nel baratro di battaglie prive di qualsiasi utilità per loro, quindi svendendoli come bestiame.
+
+---
+
+### Citazione
+
+Per concludere questo articolo penso sia corretto presentare una citazione di [Bertrand Russell](https://en.wikipedia.org/wiki/Bertrand_Russell#Freedom_of_opinion_and_expression) che cade proprio a pennello:
+
+> **Se un filosofo è un uomo cieco, in una stanza buia, che cerca un gatto nero che non c’è, un teologo è l’uomo che riesce a trovare quel gatto.**
+
+Russell è stato un filosofo contemporaneo (1872-1870) che argomentò (e non completamente a torto) contro tutte le religioni organizzate (perché ne esistono di diverso tipo?) in quanto foriere di ignoranza, superstizione e fondamentalmente orientate alla schiavitù della gente.
+
+Inutile dire che fu molto contrastato in vita e che ebbe seri problemi ad essere riconosciuto come un portatore di valori alternativi a quelli religiosi (ad. es. [valori civili](https://en.wikipedia.org/wiki/Bertrand_Russell#Society), [etica laica](https://en.wikipedia.org/wiki/Philosophical_views_of_Bertrand_Russell#Ethics)) e quindi fu ostacolato anche nella sua [carriera di insegnante](https://en.wikipedia.org/wiki/The_Bertrand_Russell_Case), ovviamente.
+
+Insomma, il classico tipo che la sapeva lunga e per questo ha osato mettere in discussione l'esclusiva della morale religiosa nel dettare l'etica alla società. Non stupisce quindi che gli abbiano fatto la guerra per tutta la sua vita. D'altronde alcune delle sue posizioni ci possono sembrare un po' estreme ma in fondo, a posteriori, possiamo dire che erano solo frutto dell'esperienza.
+
+Però qui lo ricordiamo per il suo senso dell'ironia, al limite del sarcasmo, racchiuso nella citazione del gatto che non c'è. Per onorare la sua sagacia, il gatto l'ho messo a lato, pure arancione e pirata!
 
 <br/>
 <br/>
