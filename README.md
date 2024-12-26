@@ -20,6 +20,10 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 * [robang74.github.io/chatbots-for-fun](https://robang74.github.io/chatbots-for-fun) 
 
+### Forum
+
+* [open discussions forum](https://github.com/robang74/roberto-a-foglietta/discussions)
+
 ### Related
 
 * [Roberto A. Foglietta (blog)](https://robang74.github.io/roberto-a-foglietta) source on [github](https://github.com/robang74/roberto-a-foglietta) (2024-12-14)
