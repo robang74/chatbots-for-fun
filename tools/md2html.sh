@@ -10,8 +10,8 @@ declare -i start_t=$(date +%s%N)
 
 li_A="<li style='list-style-type: none;'><b>"
 #li_B=".</b><span>\&nbsp;\&nbsp;\&nbsp;</span>"
-li_B=".<span style='visibility: hidden;'>_</span></b>"
-#li_B=".<span style='visibility: hidden;'>--</span></b>"
+#li_B=".<span style='visibility: hidden;'>_</span></b>"
+li_B=".<span style='visibility: hidden;'>--</span></b>"
 
 ul_A="<ul class='dqt'><li class='dqt'><blockquote class='dqt'>"
 ul_B="</blockquote></li></ul>"
