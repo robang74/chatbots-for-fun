@@ -18,7 +18,7 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 ### Website
 
-* [robang74.github.io/chatbots-for-fun](https://robang74.github.io/chatbots-for-fun) 
+* [robang74.github.io/chatbots-for-fun](https://robang74.github.io/chatbots-for-fun) by/with the author.
 
 ### Forum
 
