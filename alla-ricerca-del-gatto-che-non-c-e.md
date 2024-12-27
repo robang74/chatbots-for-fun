@@ -16,7 +16,7 @@ Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a
 
 | find the cat! | cat is not here! |
 |---|---|
-| <div align="center"><img src="data/find-the-cat-among-faces.jpg" width="400"><br/><i>click destro per ingrandire in una nuova finestra</i></div> | <div align="center"><img src="img/il-gatto-con-gli-stivali.jpg" width="400"><br/><i>il nostro eroe che si è smarrito...</i></div> |
+| <div align="center"><img src="data/find-the-cat-among-faces.jpg" width="400"><br/><i>click destro per ingrandire in una nuova finestra</i></div> | <div align="center"><img src="img/il-gatto-con-gli-stivali.jpg" width="360"><br/><i>il nostro eroe che si è smarrito...</i></div> |
 
 </div>
 
