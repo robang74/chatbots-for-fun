@@ -6,8 +6,9 @@
 
 gitusr="robang74"
 gitprj="${PWD##*/}"
-gtlink="https://${gitusr}-github-io.translate.goog/${gitprj}"
 weburl="https://${gitusr}.github.io"
+gtlink="${weburl//./-}.translate.goog/${gitprj}"
+
 
 LINE_SHADE="darkwarm"
 TEXT_SHADE="darktext"
@@ -39,12 +40,6 @@ done
 GOTO_LINKS[1,1]="../index.html"
 GOTO_LINKS[1,2]=".&#x27F0;."
 
-IT_LANG_LINK=""
-EN_LANG_LINK=""
-DE_LANG_LINK=""
-FR_LANG_LINK=""
-ES_LANG_LINK=""
-
 function pprint_transl_from_to() { #############################################
 
 echo "${gtlink}/${1}?_x_tr_sl=${2}&_x_tr_tl=${3}&_x_tr_hl=${3}-${4}&_x_tr_pto=wapp"
@@ -52,6 +47,8 @@ echo "${gtlink}/${1}?_x_tr_sl=${2}&_x_tr_tl=${3}&_x_tr_hl=${3}-${4}&_x_tr_pto=wa
 } ##############################################################################
 
 function print_topbar() { ######################################################
+
+declare -A LANG_LINKS
 
 LINE_SHADE="${1}${2}"
 TEXT_SHADE="${1}text"
@@ -65,26 +62,23 @@ if [ -n "$PUBLISH_SOURCE" ]; then
 " href='${PUBLISH_LINK}'>${PUBLISH_SOURCE}</a>"
 fi
 
+TRNSL_STRN=""
 if [ -n "${6:-}" ]; then
-    test "$7" != "it" && \
-        IT_LANG_LINK="$(pprint_transl_from_to "$6" $7 it IT)"
-    test "$7" != "en" && \
-        EN_LANG_LINK="$(pprint_transl_from_to "$6" $7 en EN)"
-    test "$7" != "de" && \
-        DE_LANG_LINK="$(pprint_transl_from_to "$6" $7 de DE)"
-    test "$7" != "fr" && \
-        FR_LANG_LINK="$(pprint_transl_from_to "$6" $7 fr FR)"
-    test "$7" != "es" && \
-        ES_LANG_LINK="$(pprint_transl_from_to "$6" $7 es ES)"
+    for LG in IT EN DE FR ES; do
+        lg=${LG,,}
+        if [ "$7" != "$lg" ]; then
+            TRNSL_STRN+="<b id='lang-${LG}'><tt><a class='${LINE_SHADE}' "
+            TRNSL_STRN+="href='$(pprint_transl_from_to "$6" $7 $lg $LG)'>"
+            TRNSL_STRN+="${LG}</a></tt> ${LANG_DASH} </b>"
+        fi
+    done
 fi
+TRNSL_STRN="${TRNSL_STRN%</tt>*}</tt></b>"
 
 TOPBAR_STRING="<br/><div class='topbar ${LINE_SHADE} ${TEXT_SHADE}'>&nbsp;"\
 "${LINE_MARK} ${LINE_DASH} published:&nbsp; <b>${PUBLISH_UNIVDATE}</b>"\
-"${REVISION_STRING}${ORIGIN_CODE} ${LINE_DASH} translate:&nbsp; "
-TOPBAR_STRING+=$(for LG in IT EN DE FR ES; do
-    if ! eval test -n \"\${${LG}_LANG_LINK}\"; then continue; fi
-    printf '<b id="lang-%s"><tt><a class="${LINE_SHADE}" href="${%s_LANG_LINK}">'\
-'%s</a></tt> ${LANG_DASH} </b>' $LG $LG $LG; done | tr \" \')
+"${REVISION_STRING}${ORIGIN_CODE} ${LINE_DASH} translate:&nbsp; ${TRNSL_STRN}"
+
 if [ "${6:-}" != "index.html" ]; then
     TOPBAR_STRING+=" ${LINE_DASH} goto:&nbsp;"\
 " <a class='${LINE_SHADE}' href='${GOTO_LINKS[1,1]}'>${GOTO_LINKS[1,2]}</a>"\
@@ -93,10 +87,8 @@ if [ "${6:-}" != "index.html" ]; then
 " ${LANG_DASH}"\
 " <a class='${LINE_SHADE}' href='${GOTO_LINKS[3,1]}'>${GOTO_LINKS[3,2]}</a>"
 fi
-TOPBAR_STRING+="&nbsp;</div>"
-eval echo \"$TOPBAR_STRING\" | sed \
-    -e "s, *${LANG_DASH} *\([^;]*${LINE_DASH} *goto\),\\1," \
-    -e "s, *${LANG_DASH} *\(</b> *&nbsp;</div>\)\$,\\1,"
+
+echo "${TOPBAR_STRING}&nbsp;</div>"
 
 } ##############################################################################
 
