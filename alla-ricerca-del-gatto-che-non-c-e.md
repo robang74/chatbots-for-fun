@@ -1,18 +1,14 @@
-<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
-
 ## Alla ricerca del gatto che non c'è
 
----
+> [!NOTE]
+> 
+>   **#1** - pagina aggiornata il giorno dopo con aggiunta di altro materiale, [qui](#barzelletta-maria) in fondo.
+> 
+>   **#2** - aggiornata due giorni dopo con una migliore edizione delle [considerazioni](#considerazioni) e delle [riflessioni](#riflessioni).
+> 
+>   **#3** - aggiornata ancora, aggiungendo una [citazione](#citazione-gatto) di Bertrand Russell, quella sul gatto nero.
 
-[!INFO]
-
-   1. pagina aggiornata il giorno dopo con aggiunta di altro materiale, [qui](#barzelletta-maria) in fondo.
-
-   2. aggiornata due giorni dopo con una migliore edizione delle [considerazioni](#considerazioni) e delle [riflessioni](#riflessioni).
-
-   3. aggiornata ancora, aggiungendo una [citazione](#citazione-gatto) di Bertrand Russell, quella sul gatto nero.
-
----
+<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
 Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a sinistra) suggerendo che la ricerca sia così difficile che richieda fin'anche quattro ore.
 
