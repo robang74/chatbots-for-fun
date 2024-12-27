@@ -24,11 +24,11 @@ PUBLISH_LINK=""
 declare -A PROJ_LINKS GOTO_LINKS
 
 PROJ_LINKS[1,1]="${weburl}/chatbots-for-fun"
-PROJ_LINKS[1,2]="<tt><b>C4F</b></tt>"
+PROJ_LINKS[1,2]="<tt>C4F</tt>"
 PROJ_LINKS[2,1]="${weburl}/roberto-a-foglietta"
-PROJ_LINKS[2,2]="<tt><b>RAF</b></tt>"
+PROJ_LINKS[2,2]="<tt>RAF</tt>"
 PROJ_LINKS[3,1]="${weburl}/chatgpt-answered-prompts"
-PROJ_LINKS[3,2]="<tt><b>Q&A</b></tt>"
+PROJ_LINKS[3,2]="<tt>Q&A</tt>"
 
 declare -i i n=2
 for i in 1 2 3; do
@@ -62,14 +62,14 @@ if [ -n "$PUBLISH_SOURCE" ]; then
 " href='${PUBLISH_LINK}'>${PUBLISH_SOURCE}</a>"
 fi
 
-TRNSL_STRN=""
+TRNSL_STRN="<b>"
 if [ -n "${6:-}" ]; then
     for LG in IT EN DE FR ES; do
         lg=${LG,,}
         if [ "$7" != "$lg" ]; then
-            TRNSL_STRN+="<b id='lang-${LG}'><tt><a class='${LINE_SHADE}' "
+            TRNSL_STRN+="<tt id='lang-${LG}'><a class='${LINE_SHADE}' "
             TRNSL_STRN+="href='$(pprint_transl_from_to "$6" $7 $lg $LG)'>"
-            TRNSL_STRN+="${LG}</a></tt> ${LANG_DASH} </b>"
+            TRNSL_STRN+="${LG}</a></tt> ${LANG_DASH} "
         fi
     done
 fi
@@ -80,15 +80,14 @@ TOPBAR_STRING="<br/><div class='topbar ${LINE_SHADE} ${TEXT_SHADE}'>&nbsp;"\
 "${REVISION_STRING}${ORIGIN_CODE} ${LINE_DASH} translate:&nbsp; ${TRNSL_STRN}"
 
 if [ "${6:-}" != "index.html" ]; then
-    TOPBAR_STRING+=" ${LINE_DASH} goto:&nbsp;"\
-" <a class='${LINE_SHADE}' href='${GOTO_LINKS[1,1]}'>${GOTO_LINKS[1,2]}</a>"\
-" ${LANG_DASH}"\
-" <a class='${LINE_SHADE}' href='${GOTO_LINKS[2,1]}'>${GOTO_LINKS[2,2]}</a>"\
-" ${LANG_DASH}"\
-" <a class='${LINE_SHADE}' href='${GOTO_LINKS[3,1]}'>${GOTO_LINKS[3,2]}</a>"
+    TOPBAR_STRING+=" ${LINE_DASH} goto:&nbsp; <b>"
+    for i in 1 2 3; do
+        TOPBAR_STRING+=" <a class='${LINE_SHADE}' href='${GOTO_LINKS[$i,1]}'>"\
+"${GOTO_LINKS[$i,2]}</a> ${LANG_DASH}"
+    done
 fi
 
-echo "${TOPBAR_STRING}&nbsp;</div>"
+echo "${TOPBAR_STRING%</a>*}</a></b>&nbsp;</div>"
 
 } ##############################################################################
 
