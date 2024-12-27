@@ -629,15 +629,15 @@ Potrebbe stupirci e speriamo anche che lo faccia.
 
 ## Benvenuto fra noi
 
-<div align="center"><img src="img/mr-spock-star-trek.jpg" alt="Mr. Spock" width="800"><br/></div>
-
-Dedicato a tutte le donne come Ahoo Daryaei con l'augurio che il vostro eroico sacrificio non sia stato vano.
+<div align="center"><img src="img/mr-spock-star-trek.jpg" alt="Mr. Spock" width="800">
+<p>Dedicato a tutte le donne come Ahoo Daryaei con l'augurio che il vostro eroico sacrificio non sia stato vano.</p>
+</div>
 
 <br/>
 <br/>
 
 ## Copyright
 
-&copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+&copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)<br/><br/>
 
 </div>
