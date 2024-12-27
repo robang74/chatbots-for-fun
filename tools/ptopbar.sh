@@ -20,12 +20,24 @@ PUBLISH_UNIVDATE=""
 PUBLISH_SOURCE=""
 PUBLISH_LINK=""
 
-GOTO_LINK_1="../index.html"
-GOTO_TEXT_1=".&#x27F0;."
-GOTO_LINK_2="${weburl}/roberto-a-foglietta"
-GOTO_TEXT_2="<tt><b>RAF</b></tt>"
-GOTO_LINK_3="${weburl}/chatgpt-answered-prompts"
-GOTO_TEXT_3="<tt><b>Q&A</b></tt>"
+declare -A PROJ_LINKS GOTO_LINKS
+
+PROJ_LINKS[1,1]="${weburl}/chatbots-for-fun"
+PROJ_LINKS[1,2]="<tt><b>C4F</b></tt>"
+PROJ_LINKS[2,1]="${weburl}/roberto-a-foglietta"
+PROJ_LINKS[2,2]="<tt><b>RAF</b></tt>"
+PROJ_LINKS[3,1]="${weburl}/chatgpt-answered-prompts"
+PROJ_LINKS[3,2]="<tt><b>Q&A</b></tt>"
+
+declare -i i n=2
+for i in 1 2 3; do
+    echo ${PROJ_LINKS[$i,1]} | grep -q $gitprj && continue
+    GOTO_LINKS[$n,1]=${PROJ_LINKS[$i,1]}
+    GOTO_LINKS[$n,2]=${PROJ_LINKS[$i,2]}
+    let n++
+done
+GOTO_LINKS[1,1]="../index.html"
+GOTO_LINKS[1,2]=".&#x27F0;."
 
 IT_LANG_LINK=""
 EN_LANG_LINK=""
@@ -74,10 +86,12 @@ TOPBAR_STRING+=$(for LG in IT EN DE FR ES; do
     printf '<b id="lang-%s"><tt><a class="${LINE_SHADE}" href="${%s_LANG_LINK}">'\
 '%s</a></tt> ${LANG_DASH} </b>' $LG $LG $LG; done | tr \" \')
 if [ "${6:-}" != "index.html" ]; then
-    TOPBAR_STRING+=" ${LINE_DASH} goto:&nbsp; <a class='${LINE_SHADE}' href='"\
-"${GOTO_LINK_1}'>${GOTO_TEXT_1}</a> ${LANG_DASH} <a class='${LINE_SHADE}' href='"\
-"${GOTO_LINK_2}'>${GOTO_TEXT_2}</a> ${LANG_DASH} <a class='${LINE_SHADE}' href='"\
-"${GOTO_LINK_3}'>${GOTO_TEXT_3}</a>"
+    TOPBAR_STRING+=" ${LINE_DASH} goto:&nbsp;"\
+" <a class='${LINE_SHADE}' href='${GOTO_LINKS[1,1]}'>${GOTO_LINKS[1,2]}</a>"\
+" ${LANG_DASH}"\
+" <a class='${LINE_SHADE}' href='${GOTO_LINKS[2,1]}'>${GOTO_LINKS[2,2]}</a>"\
+" ${LANG_DASH}"\
+" <a class='${LINE_SHADE}' href='${GOTO_LINKS[3,1]}'>${GOTO_LINKS[3,2]}</a>"
 fi
 TOPBAR_STRING+="&nbsp;</div>"
 eval echo \"$TOPBAR_STRING\" | sed \
