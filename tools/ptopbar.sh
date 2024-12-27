@@ -58,36 +58,40 @@ ORIGIN_CODE=""
 PUBLISH_SOURCE="${4:-}"
 if [ -n "$PUBLISH_SOURCE" ]; then
     PUBLISH_LINK="${5:-}"
-    ORIGIN_CODE=" ${LINE_DASH} origin:&nbsp; <a class='${LINE_SHADE}'"\
-" href='${PUBLISH_LINK}'>${PUBLISH_SOURCE}</a>"
+    ORIGIN_CODE=" ${LINE_DASH} origin:&nbsp; <b class='tpbrbold'>
+<a class='${LINE_SHADE}' href='${PUBLISH_LINK}'>${PUBLISH_SOURCE}</a></b>"
 fi
 
-TRNSL_STRN="<b>"
 if [ -n "${6:-}" ]; then
+    TRNSL_STRN="<b class='tpbrlang tpbrbold'>"
     for LG in IT EN DE FR ES; do
         lg=${LG,,}
         if [ "$7" != "$lg" ]; then
-            TRNSL_STRN+="<tt id='lang-${LG}'><a class='${LINE_SHADE}' "
+            TRNSL_STRN+="<tt class='tpbrlang'><a class='${LINE_SHADE}' "
             TRNSL_STRN+="href='$(pprint_transl_from_to "$6" $7 $lg $LG)'>"
-            TRNSL_STRN+="${LG}</a></tt> ${LANG_DASH} "
+            TRNSL_STRN+="${LG}</a></tt>"
+            if [ "$LG" != "ES" ]; then TRNSL_STRN+=" ${LANG_DASH} "; fi
         fi
     done
+    TRNSL_STRN+="</b>"
+    #TRNSL_STRN="${TRNSL_STRN%</tt>*}</tt></b>"
 fi
-TRNSL_STRN="${TRNSL_STRN%</tt>*}</tt></b>"
 
 TOPBAR_STRING="<br/><div class='topbar ${LINE_SHADE} ${TEXT_SHADE}'>&nbsp;"\
 "${LINE_MARK} ${LINE_DASH} published:&nbsp; <b>${PUBLISH_UNIVDATE}</b>"\
 "${REVISION_STRING}${ORIGIN_CODE} ${LINE_DASH} translate:&nbsp; ${TRNSL_STRN}"
 
 if [ "${6:-}" != "index.html" ]; then
-    TOPBAR_STRING+=" ${LINE_DASH} goto:&nbsp; <b>"
+    TOPBAR_STRING+=" ${LINE_DASH} goto:&nbsp; <b class='tpbrbold'>"
     for i in 1 2 3; do
         TOPBAR_STRING+=" <a class='${LINE_SHADE}' href='${GOTO_LINKS[$i,1]}'>"\
-"${GOTO_LINKS[$i,2]}</a> ${LANG_DASH}"
+"${GOTO_LINKS[$i,2]}</a>"
+        if [ $i -lt 3 ]; then TOPBAR_STRING+=" ${LANG_DASH}"; fi
     done
+    TOPBAR_STRING+=" </b>"
 fi
 
-echo "${TOPBAR_STRING%</a>*}</a></b>&nbsp;</div>"
+echo "${TOPBAR_STRING}&nbsp;</div>"
 
 } ##############################################################################
 
@@ -99,7 +103,7 @@ test -r "$file" || exit 1
 
 declare -i revnun=$(git log --format=format:'%h' $1 | wc -l)
 if [ $revnun -gt 0 ]; then
-    REVISION_STRING=" ${LINE_DASH} revision: <b>${revnun}</b>"
+    REVISION_STRING=" ${LINE_DASH} revision: <b class='tpbrbold'>${revnun}</b>"
 fi 2>/dev/null
 
 set -- $(sed -ne "s,<.* created=[\"']\([^\"']*\).*,\\1,p" $file | tr ':' ' ')
