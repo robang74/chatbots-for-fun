@@ -58,12 +58,12 @@ ORIGIN_CODE=""
 PUBLISH_SOURCE="${4:-}"
 if [ -n "$PUBLISH_SOURCE" ]; then
     PUBLISH_LINK="${5:-}"
-    ORIGIN_CODE=" ${LINE_DASH} origin:&nbsp; <b class='tpbrbold'>
+    ORIGIN_CODE=" ${LINE_DASH} origin:&nbsp; <b class='tpbrbold tpbrlink'>
 <a class='${LINE_SHADE}' href='${PUBLISH_LINK}'>${PUBLISH_SOURCE}</a></b>"
 fi
 
 if [ -n "${6:-}" ]; then
-    TRNSL_STRN="<b class='tpbrlang tpbrbold'>"
+    TRNSL_STRN="<b class='tpbrlang tpbrbold tpbrlink'>"
     for LG in IT EN DE FR ES; do
         lg=${LG,,}
         if [ "$7" != "$lg" ]; then
@@ -78,11 +78,12 @@ if [ -n "${6:-}" ]; then
 fi
 
 TOPBAR_STRING="<br/><div class='topbar ${LINE_SHADE} ${TEXT_SHADE}'>&nbsp;"\
-"${LINE_MARK} ${LINE_DASH} published:&nbsp; <b>${PUBLISH_UNIVDATE}</b>"\
-"${REVISION_STRING}${ORIGIN_CODE} ${LINE_DASH} translate:&nbsp; ${TRNSL_STRN}"
+"${LINE_MARK} ${LINE_DASH} published:&nbsp; <b class='tpbrbold'>"\
+"${PUBLISH_UNIVDATE}</b>${REVISION_STRING}${ORIGIN_CODE} ${LINE_DASH}"\
+" translate:&nbsp; ${TRNSL_STRN}"
 
 if [ "${6:-}" != "index.html" ]; then
-    TOPBAR_STRING+=" ${LINE_DASH} goto:&nbsp; <b class='tpbrbold'>"
+    TOPBAR_STRING+=" ${LINE_DASH} goto:&nbsp; <b class='tpbrbold tpbrlink'>"
     for i in 1 2 3; do
         TOPBAR_STRING+=" <a class='${LINE_SHADE}' href='${GOTO_LINKS[$i,1]}'>"\
 "${GOTO_LINKS[$i,2]}</a>"
