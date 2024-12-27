@@ -7,6 +7,7 @@
 gitusr="robang74"
 gitprj="${PWD##*/}"
 gtlink="https://${gitusr}-github-io.translate.goog/${gitprj}"
+weburl="https://${gitusr}.github.io"
 
 LINE_SHADE="darkwarm"
 TEXT_SHADE="darktext"
@@ -18,8 +19,12 @@ PUBLISH_UNIVDATE=""
 PUBLISH_SOURCE=""
 PUBLISH_LINK=""
 
-GOTO_LINK="../index.html"
-GOTO_TEXT="home"
+GOTO_LINK_1="../index.html"
+GOTO_TEXT_1=".&#x27F0;."
+GOTO_LINK_2="${weburl}/roberto-a-foglietta"
+GOTO_TEXT_2="<tt><b>RAF</b></tt>"
+GOTO_LINK_3="${weburl}/chatgpt-answered-prompts"
+GOTO_TEXT_3="<tt><b>Q&A</b></tt>"
 
 IT_LANG_LINK=""
 EN_LANG_LINK=""
@@ -69,12 +74,14 @@ TOPBAR_STRING+=$(for LG in IT EN DE FR ES; do
 '%s</a></tt> ${LANG_DASH} </b>' $LG $LG $LG; done | tr \" \')
 if [ "${6:-}" != "index.html" ]; then
     TOPBAR_STRING+=" ${LINE_DASH} goto:&nbsp; <a class='${LINE_SHADE}' href='"\
-"${GOTO_LINK}'>${GOTO_TEXT}</a>"
+"${GOTO_LINK_1}'>${GOTO_TEXT_1}</a> ${LANG_DASH} <a class='${LINE_SHADE}' href='"\
+"${GOTO_LINK_2}'>${GOTO_TEXT_2}</a> ${LANG_DASH} <a class='${LINE_SHADE}' href='"\
+"${GOTO_LINK_3}'>${GOTO_TEXT_3}</a>"
 fi
 TOPBAR_STRING+="&nbsp;</div>"
 eval echo \"$TOPBAR_STRING\" | sed \
     -e "s, *${LANG_DASH} *\([^;]*${LINE_DASH} *goto\),\\1," \
-    -e "s, *${LANG_DASH} *\([^;]*&nbsp;</div>\)\$,\\1,"
+    -e "s, *${LANG_DASH} *\(</b> *&nbsp;</div>\)\$,\\1,"
 
 } ##############################################################################
 
