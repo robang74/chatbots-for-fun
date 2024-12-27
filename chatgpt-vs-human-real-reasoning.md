@@ -10,7 +10,9 @@ This conversation starts from a LinkedIn post about LLMs that just mimic the "*r
 
 2. [propaganda-e-sistema-educativo.md](https://raw.githubusercontent.com/robang74/chatgpt-answered-prompts/refs/heads/main/propaganda-e-sistema-educativo.md)
 
-3. [apple-speaks-truth-about-ai.jpg](https://github.com/robang74/chatbots-for-fun/blob/main/data/apple-speaks-truth-about-ai.jpg) (text in the image presented below)
+3. [apple-speaks-truth-about-ai.jpg](https://github.com/robang74/chatbots-for-fun/blob/main/data/apple-speaks-truth-about-ai.jpg)
+
+The text in this image is presented below:
 
 ---
 
@@ -160,7 +162,7 @@ Education? In both cases?
 
 You can follow the continuation of this conversation here:
 
-* [artificial-intellige-for-education.md](https://github.com/robang74/chatgpt-answered-prompts/blob/main/artificial-intellige-for-education.md) ([RAW](https://raw.githubusercontent.com/robang74/chatgpt-answered-prompts/refs/heads/main/artificial-intellige-for-education.md))
+* [Artificial Intelligence for education](https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html) source on [[**`github`**](https://github.com/robang74/chatgpt-answered-prompts/blob/main/artificial-intellige-for-education.md)] in [[**`raw`**](https://raw.githubusercontent.com/robang74/chatgpt-answered-prompts/refs/heads/main/artificial-intellige-for-education.md)] and in [[**`pdf`**](https://github.com/robang74/chatgpt-answered-prompts/blob/main/pdf/artificial-intellige-for-education.pdf)]
 
 The conversation has been splited because the second part deals with a slightly different topic.
 
