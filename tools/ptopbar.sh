@@ -15,6 +15,7 @@ LINE_MARK="&#9783;&nbsp;<b>&Ropf;</b>"
 LINE_DASH="&nbsp;&mdash;&nbsp;"
 LANG_DASH="&middot;"
 
+REVISION_STRING=""
 PUBLISH_UNIVDATE=""
 PUBLISH_SOURCE=""
 PUBLISH_LINK=""
@@ -67,7 +68,7 @@ fi
 
 TOPBAR_STRING="<br/><div class='topbar ${LINE_SHADE} ${TEXT_SHADE}'>&nbsp;"\
 "${LINE_MARK} ${LINE_DASH} published:&nbsp; <b>${PUBLISH_UNIVDATE}</b>"\
-"${ORIGIN_CODE} ${LINE_DASH} translate:&nbsp; "
+"${REVISION_STRING}${ORIGIN_CODE} ${LINE_DASH} translate:&nbsp; "
 TOPBAR_STRING+=$(for LG in IT EN DE FR ES; do
     if ! eval test -n \"\${${LG}_LANG_LINK}\"; then continue; fi
     printf '<b id="lang-%s"><tt><a class="${LINE_SHADE}" href="${%s_LANG_LINK}">'\
@@ -90,12 +91,19 @@ eval echo \"$TOPBAR_STRING\" | sed \
 
 file="$1"
 test -r "$file" || exit 1
+
+declare -i revnun=$(git log --format=format:'%h' $1 | wc -l)
+if [ $revnun -gt 0 ]; then
+    REVISION_STRING=" ${LINE_DASH} revision: <b>${revnun}</b>"
+fi 2>/dev/null
+
 set -- $(sed -ne "s,<.* created=[\"']\([^\"']*\).*,\\1,p" $file | tr ':' ' ')
 if [ "$file" == "README.md" ]; then
     file="index.html"
 else
     file="html/${file%.md}"
 fi
+
 #echo "date: $1, lang: $2, file: $file" >&2
 print_topbar "dark" "warm" "$1" "" "" "$file" "${2,,}"
 
