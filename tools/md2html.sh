@@ -61,6 +61,7 @@ function md2htmlfunc() {
     </head>
     <body>
 " >$2
+    source tools/ptopbar.sh $1 >> $2
     if [ "$str" = "index" ]; then
         sed -e "s, - (\[...raw...\]([^)]*\.md)) , - ," $1
     else

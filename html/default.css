@@ -117,3 +117,25 @@ svg.infoicon {
     fill: lightblue;
 }
 
+
+div.topbar {
+    font-family: ubuntu condensed;
+    border-radius: 8px;
+    padding: 12px;
+}
+div.fairtext { color: white; }
+div.darktext { color: lightgray; }
+div.fairblue { background-color: blue; }
+div.darkblue { background-color: darkblue; }
+div.fairgren { background-color: green; }
+div.darkgren { background-color: darkgreen; }
+div.fairwarm { background-color: brown; }
+div.darkwarm { background-color: maroon; }
+
+a.fairblue { color: cyan; }
+a.darkblue { color: lightblue; }
+a.fairgren { color: lime; }
+a.darkgren { color: lightgreen; }
+a.fairwarm { color: yellow; }
+a.darkwarm { color: orange; }
+
