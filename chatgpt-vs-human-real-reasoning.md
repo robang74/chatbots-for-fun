@@ -1,4 +1,4 @@
-<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created="2024-11-28:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
 ## ChatGPT vs human real reasoning
 

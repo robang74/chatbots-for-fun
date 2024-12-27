@@ -8,7 +8,7 @@
 > 
 >   **#3** - aggiornata ancora, aggiungendo una [citazione](#citazione-gatto) di Bertrand Russell, quella sul gatto nero.
 
-<div id="firstdiv" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created="2024-12-22:IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
 Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a sinistra) suggerendo che la ricerca sia così difficile che richieda fin'anche quattro ore.
 
