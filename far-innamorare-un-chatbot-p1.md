@@ -17,9 +17,11 @@ Cosa pensi che significhi questo testo in Inglese?
 
 Dear friends,
 
-[undisclosed e-mail text]
+> &nbsp;
+> [`undisclosed e-mail text`]
+> &nbsp;
 
-Have a nice week-end, (omissis)
+Have a nice week-end, (*omissis*)
 
 ---
 
