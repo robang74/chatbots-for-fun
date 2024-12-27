@@ -2,21 +2,27 @@
 
 ## Alla ricerca del gatto che non c'è
 
-* **Nota #1**: pagina aggiornata il giorno dopo con aggiunta di altro materiale, [qui](#barzelletta-maria) in fondo.
+---
 
-* **Nota #2**: pagina aggiornata 2 giorni dopo con una migliore edizione delle [considerazioni](#considerazioni) e delle [riflessioni](#riflessioni).
+[!INFO]
+
+   1. pagina aggiornata il giorno dopo con aggiunta di altro materiale, [qui](#barzelletta-maria) in fondo.
+
+   2. aggiornata due giorni dopo con una migliore edizione delle [considerazioni](#considerazioni) e delle [riflessioni](#riflessioni).
+
+   3. aggiornata ancora, aggiungendo una [citazione](#citazione-gatto) di Bertrand Russell, quella sul gatto nero.
 
 ---
 
 Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a sinistra) suggerendo che la ricerca sia così difficile che richieda fin'anche quattro ore.
 
-<br/><div align="center">
+<div align="center">
 
 | find the cat! | cat is not here! |
 |---|---|
 | <div align="center"><img src="data/find-the-cat-among-faces.jpg" width="400"><br/><i>click destro per ingrandire in una nuova finestra</i></div> | <div align="center"><img src="img/il-gatto-con-gli-stivali.jpg" width="400"><br/><i>il nostro eroe che si è smarrito...</i></div> |
 
-</div><br/>
+</div>
 
 Così ho deciso di sottoporre questo task a vari chatbot ottenendo dei risultati completamente diversi. 
 
@@ -376,7 +382,7 @@ La cattiva politica gioca il ruolo esattamente opposto, concede una caramella og
 
 La pessima politica, addirittura, usa le ideologie per manipolare le persone e gettarle nel baratro di battaglie prive di qualsiasi utilità per loro, quindi svendendoli come bestiame.
 
----
+<hr id="citazione-gatto">
 
 ### Citazione
 
