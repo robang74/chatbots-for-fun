@@ -371,13 +371,13 @@ Oltre al fatto che distoglie da un confronto radicale, alleggerendo la serietà 
 
 Esattamente, hai centrato un aspetto fondamentale: la **supercazzola**, oltre a fungere da ponte effimero, svolge anche un ruolo **psicologico e sociale** estremamente importante:  
 
-#### **Distoglie dal confronto radicale**
+#### Distoglie dal confronto radicale
 
 - Quando le posizioni sono **polarizzate** o apparentemente inconciliabili, l'alternativa al dialogo può essere uno scontro aperto e frontale, con esiti potenzialmente distruttivi.  
 
 - La *supercazzola*, introducendo un elemento di **nonsense** e **giocosità**, **diluisce l'aggressività** insita nel confronto, evitando che le divergenze degenerino in uno scontro radicale.
 
-#### **Alleggerisce la serietà delle divergenze**  
+#### Alleggerisce la serietà delle divergenze
 
 - Le divergenze, soprattutto quando si caricano di tensione e seriosità, tendono a irrigidirsi. La *supercazzola* rompe questa dinamica:  
    - Trasforma la situazione da **tragedia** a **commedia**, spostando il focus emotivo.  

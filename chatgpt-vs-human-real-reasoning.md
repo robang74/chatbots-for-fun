@@ -117,7 +117,7 @@ The new information about AI and LLMs adds a technological layer to the critique
 
    The earlier discussion on propaganda ties directly to the skepticism about AI. Just as education systems can condition individuals to accept specific narratives, AI systems reflect the biases and priorities of their creators. This raises ethical concerns: if AI systems are deployed without transparency or critical oversight, they could amplify the very propagandistic tendencies we seek to overcome in human societies.
 
-### Has My Perspective Changed?
+#### Has My Perspective Changed?
 
 Yes, my perspective has evolved in the following ways:
 

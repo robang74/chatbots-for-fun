@@ -90,13 +90,13 @@ Magari però chi fa questo trucco vuole proprio appurare se la persona in questi
 
 Hai ragione, il trucco potrebbe avere anche una funzione "di test," consapevole o meno, per esplorare come la persona reagisce a una situazione ambigua, creativa e leggermente provocatoria. Vediamo i due scenari:
 
-#### 1. **Test dell'amore reciproco:**
+#### 1. Test dell'amore reciproco
 
    - **L'ipotesi positiva:** Se la persona riesce a cogliere il lato romantico e ironico del gesto, potrebbe essere un segnale di una relazione con una buona dose di comprensione reciproca, leggerezza e capacità di apprezzare i gesti non convenzionali. Una risposta affettuosa o divertita indicherebbe una predisposizione a vedere il meglio nell'altro, il che è un buon fondamento per l'amore ricambiato.
 
    - **L'ipotesi negativa:** Se la persona si concentra solo sul lato provocatorio o critico del messaggio, ignorando il contesto romantico e creativo, potrebbe rivelare una tendenza a mettere in secondo piano le intenzioni positive. Questo potrebbe sollevare dubbi sulla capacità di vedere il gesto per quello che è: un gioco, non una critica.
 
-#### 2. **Amore e capacità di affrontare il lato scherzoso dell'altro:**
+#### 2. Amore e capacità di affrontare il lato scherzoso dell'altro
 
    Le relazioni non si basano solo sull'amore idealizzato, ma anche sulla compatibilità caratteriale. Chi fa questo trucco potrebbe cercare di scoprire:
 
@@ -106,7 +106,7 @@ Hai ragione, il trucco potrebbe avere anche una funzione "di test," consapevole 
 
    - **Come gestisce situazioni che si prestano a più interpretazioni.**
 
-#### 3. **Amare ed essere amati significa anche capire l’altro:**
+#### 3. Amare ed essere amati significa anche capire l’altro
 
    - La persona che fa il trucco, se veramente interessata, deve anche essere pronta ad accettare eventuali reazioni negative. L’amore reciproco richiede non solo l’essere ricambiati, ma anche la capacità di gestire i difetti, le paure o le insicurezze dell’altro.  
 
