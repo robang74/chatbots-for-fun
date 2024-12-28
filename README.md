@@ -18,11 +18,11 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 ### Website
 
-* [robang74.github.io/chatbots-for-fun](https://robang74.github.io/chatbots-for-fun) by/with the author.
+* [robang74.github.io/chatbots-for-fun](https://robang74.github.io/chatbots-for-fun)
 
 ### Forum
 
-* [open discussions forum](https://github.com/robang74/roberto-a-foglietta/discussions)
+* [open discussions forum](https://github.com/robang74/roberto-a-foglietta/discussions) by/with the author.
 
 ### Related
 
@@ -30,7 +30,7 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 * [ChatGPT Answered Prompts](https://robang74.github.io/chatgpt-answered-prompts) source on [github](https://github.com/robang74/chatgpt-answered-prompts) (2024-09-06)
 
-<br/>
+<br/><span id="pages-index"></span>
 
 ## Index
 
@@ -101,6 +101,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 OpenAI ChatGPT was the first chatbot based on AI fully operational and publicly available by Internet.
 
 - 2015.12.22 - [OpenAI](https://en.wikipedia.org/wiki/OpenAI) foundation date
+
 - 2022.11.30 - [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT) initial release
 
 It took seven year or 83 months and 11 days for OpenAI to publish their first chatbot based on AI. Immediately appeared as an amazing technology capable of passing the basic [Turing test](https://en.wikipedia.org/wiki/Turing_test) when asked to play a human role.
@@ -122,7 +123,9 @@ For the next 18 months the challenge was to develop a more reliable LLMs, less p
 Currently ChatGPT is amusing in its working and rarely falls into hallucinations. However, in its dialog and information delivery, it is quite conservative. By their design, LLM engines leverage a statistical approach to provide the most plausible (or recurrent answer). Something like T9 text prediction but at the next-next level. For this reason, when summarizing a text, it is incapable of highlighting the novelty and also some kinds of grammar mistakes are going to impair text comprehension (or more precisely: failing to mimic the text comprehension).
 
 - 2024.05.17 - Using AI for complex issues, [p.1](https://www.linkedin.com/pulse/usare-lai-per-questioni-complesse-roberto-a-foglietta-sybyf) (written in Italian) ([PDF](https://drive.google.com/file/d/15jvAzjZ7rR8uB0p2abY1cOLaZXgcIrTr/view))
+
 - 2024.05.31 - Using AI for complex issues, [p.2](https://www.linkedin.com/pulse/usare-lai-per-questioni-complesse-p2-roberto-a-foglietta-gqxue) (written in Italian) ([PDF](https://drive.google.com/file/d/1QZk5gZ_f9RTtdxpXWnBgIS7M1xNwzuIq/view))
+
 - 2024.09.06 - ChatGPT answered prompts, available on [github](https://github.com/robang74/chatgpt-answered-prompts/tree/main?tab=readme-ov-file#qa-dialogs-with-ai-chatbots) and by its [html](https://robang74.github.io/chatgpt-answered-prompts) website
 
 In the middle of 2024, I felt that ChatGPT was stable enough for being used as peer-reviewer and collaborative antagonist in order to faster and better deal with complex problems. The related tries comforted this feeling of mine and in a few months, I have decided to publish a git repository for collecting these kinds of works.
@@ -132,7 +135,9 @@ Along this time, ChatGPT never surprised me in its answer apart in one dimension
 Unfortunately, we are more social animals rather than truth seekers (quoting Jeff Bezos, Amazon founder). Moreover, people have sentimental attachment with *their own* ideas plus they usually wish to win a conversation rather than learn from it. Chatbots, including ChatGPT, are different.
 
 - 2010.11.15 - [Google DeepMind](https://en.wikipedia.org/wiki/Google_DeepMind) related to [Alphabet_Inc.](https://en.wikipedia.org/wiki/Alphabet_Inc.)
+
 - 2015.12.11 - [Meta AI](https://en.wikipedia.org/wiki/Meta_AI) related to [Facebook](https://en.wikipedia.org/wiki/Facebook)
+
 - 2023.04.28 - [Mistral AI](https://en.wikipedia.org/wiki/Mistral_AI) by former employees of Meta Platforms and Google DeepMind
 
 Due to its internal design which leverages a team of arbitrated collaborative-competitive specialised AI engines, the Mistral AI chatbot clearly shown to be more suitable as peer-review and as collaborative-antagonist Mr. Spock partner. Intead, ChatGPT more easily goes its own way, showing that the Miss Popping attitude has not been completely suppressed.
@@ -161,31 +166,25 @@ There are several way to download this github repository:
 
 - clone the repository with the specific `git clone` command, in this way:
 
-```
-git clone https://github.com/robang74/chatgpt-answered-prompts.git
-```
+    `git clone https://github.com/robang74/chatgpt-answered-prompts.git`
 
-The advantage of downloading a tagged release is having an archive 'freezed' by
-the author while the ZIP contains the last version uploaded. Instead, the
-`git clone` will also provide you with all the information and a complete view
-of every change. Click on the link above will submit the related request for you.
+The advantage of downloading a tagged release is having an archive 'freezed' by the author while the ZIP contains the last version uploaded. Instead, the `git clone` will also provide you with all the information and a complete view of every change. Click on the link above will submit the related request for you.
+
+- making a local copy using `wget` in this way:
+
+    `wget -e robots=off -Ekprc https://robang74.github.io/chatbots-for-fun`
+
+This allows you to have your own copy that you can read off-line with all the links converted to point to local files, only. It includes also the related projects.
 
 <br/>
 
 ## Versioning
 
-One of main goals of `git` and the github web interface is to provide a versioning
-control which also means a catalog of every author and changes made by them on
-every single file. The list of these changes are named *commits*. Here below the link
-related to the commits pushed on this repository:
+One of main goals of `git` and the github web interface is to provide a versioning control which also means a catalog of every author and changes made by them on every single file. The list of these changes are named *commits*. Here below the link related to the commits pushed on this repository:
 
-* https://github.com/robang74/chatgpt-answered-prompts/commits/main/
+* [github.com/robang74/chatgpt-answered-prompts](https://github.com/robang74/chatgpt-answered-prompts/commits/main)
 
-As you can see, each commit is carry-on a time stamp also. The green label indicates
-that also the timestamp is validate by the github infrastructure system which belongs
-to Microsoft Corporation. In fact, github cannot validate those timestamps that are
-coming from 3rd party systems like the users workstations but just the receiving
-time, date and content. However, for most of the cases this is irrelevant.
+As you can see, each commit is carry-on a time stamp also. The green label indicates that also the timestamp is validate by the github infrastructure system which belongs to Microsoft Corporation. In fact, github cannot validate those timestamps that are coming from 3rd party systems like the users workstations but just the receiving time, date and content. However, for most of the cases this is irrelevant.
 
 <br/>
 
