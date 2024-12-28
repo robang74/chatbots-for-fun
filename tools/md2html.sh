@@ -37,6 +37,13 @@ info_A=$(echo "$info_A" | sed -e "s,\,,\\\,g" -e "s,\&,\\\&,g")
 
 ################################################################################
 
+function get_html_item_str() {
+    if [ -r "$1" ]; then
+        str=$(cat "$1" | tr \" \')
+        eval echo \"$str\"
+    fi
+}
+
 function mini_mdlinkconv() {
     sed -e "s,\([ []*\)\[\([^][]*\)\]\([^(]\),\\1\&lbrack;\\2\&rbrack;\\3,g;" \
         -e "s,\!\[\([^[]*\)](\([^)]*\)),<img src=\"\\2\" alt=\"\\1\">,g" \
@@ -48,13 +55,15 @@ function full_mdlinkconv() {
 }
 
 function md2htmlfunc() {
-    local a b c i str=$(basename ${2%.html}) dir=""
+    local a b c i str=$(basename ${2%.html}) title dir=""
     test "$str" == "index" && dir="html/"
+    title=${str/index/${PWD##*/}};
+    #title=${str//-/ };
 
     echo -n "<!DOCTYPE html>
 <html>
     <head>
-        <title>${str//-/ }</title>
+        <title>${title}</title>
         <meta charset='UTF-8'>
         <link rel='stylesheet' href='${dir}default.css'>
         <link rel='stylesheet' href='${dir}custom.css'>
@@ -117,6 +126,9 @@ function md2htmlfunc() {
         -e 's,<blockquote>\(@*\)</blockquote>,<br/>,g' -i $tf
     cat $tf | tr '@' '\n' >$2
     rm  $tf
+
+    TOPLINK=$(get_html_item_str html/items/toplink.htm)
+    get_html_item_str html/items/footnote.htm >> $2
 
     echo "<br/>
     </body>
