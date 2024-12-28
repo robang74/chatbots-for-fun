@@ -50,7 +50,7 @@ img {
 }
 
 li {
-    margin-left:  25px;
+    margin-left:  40px;
     text-indent: -25px;
 }
 li.dqt {
@@ -117,7 +117,6 @@ svg.infoicon {
     fill: lightblue;
 }
 
-
 div.topbar {
     font-family: ubuntu condensed;
     border-radius: 8px;
@@ -142,5 +141,4 @@ a.darkwarm { color: orange; }
 .tpbrlang { }
 .tpbrlink { }
 .tpbrbold { }
-
 
