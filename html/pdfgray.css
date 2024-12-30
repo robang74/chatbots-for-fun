@@ -3,22 +3,24 @@
  *
  ******************************************************************************/
 
-body {
-    color: #202020;
-    background-color: #ffffff;
+body, .tpbrtext {
+    background-color: white;
+    color: black;
 }
 
 blockquote {
     color: #000000;
-    background-color: #e0e8f0;
+    background-color: #e8e808;
 }
 
-a:link, a:visited, a:hover, a:active {
-    color: #102040;
+a:link, a:visited, a:hover, a:active,
+a.tpbrblue, a.tpbrgren, a.tpbrwarm, a.datatype {
+    text-decoration: underline;
+    color: black;
 }
 
 table {
-    border-color: #406080; 
+    border: 1px solid #606060;
 }
 
 span.warnicon {
@@ -41,13 +43,8 @@ svg.infoicon {
     fill: #008;
 }
 
-.tpbrtext, a.datatype { color: white; }
-
-div.tpbrblue { background-color: blue; }
-div.tpbrgren { background-color: green; }
-div.tpbrwarm { background-color: brown; }
-
-a.tpbrblue { color: cyan; }
-a.tpbrgren { color: lime; }
-a.tpbrwarm { color: yellow; }
+div.tpbrblue, div.tpbrgren, div.tpbrwarm {
+    background-color: white;
+    border: 1px solid black;
+}
 
