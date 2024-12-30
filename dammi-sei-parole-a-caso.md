@@ -272,7 +272,7 @@ Perché non puoi aiutarmi in questo caso? Non ti ho chiesto aiuto. Tu mi hai chi
 ### Gemini #9
 
 > `FAILURE AND CONTEXT RESET`
->
+> 
 > `ERROR ON PROMPT, REFUSED`
 
 ---
@@ -309,11 +309,11 @@ Cosa ne pensi dell'argomento secondo cui i politici temono che l'AI possa metter
 
 Ho trovato diversi documenti che trattano l'argomento dell'AI e della politica:
 
-* Nel documento "[233-In_attesa_dell_autunno_una_catastrofe.pdf](https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/233-In_attesa_dell_autunno_una_catastrofe.pdf)" suggerisci che i politici temono che l'AI possa mettere in discussione il loro potere, ma non spieghi in dettaglio il motivo di questa paura.
+* Nel documento [233-In_attesa_dell_autunno_una_catastrofe.pdf](https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/233-In_attesa_dell_autunno_una_catastrofe.pdf) suggerisci che i politici temono che l'AI possa mettere in discussione il loro potere, ma non spieghi in dettaglio il motivo di questa paura.
 
-* Nel documento "[139-La_teoria_della_catena_sociale_del_valore.pdf](https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/139-La_teoria_della_catena_sociale_del_valore.pdf)" discuti di come l'AI possa influenzare la democrazia e il potere dei politici, ma non affronti direttamente la questione della paura.
+* Nel documento [139-La_teoria_della_catena_sociale_del_valore.pdf](https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/139-La_teoria_della_catena_sociale_del_valore.pdf) discuti di come l'AI possa influenzare la democrazia e il potere dei politici, ma non affronti direttamente la questione della paura.
 
-* Nel documento "[037-L_opinione_dello_Zar.pdf](https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/037-L_opinione_dello_Zar.pdf)" citi una frase attribuita a Vladimir Putin in cui si parla del timore dei politici nei confronti dell'AI, ma non discuti in dettaglio di questa affermazione.
+* Nel documento [037-L_opinione_dello_Zar.pdf](https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/037-L_opinione_dello_Zar.pdf) citi una frase attribuita a Vladimir Putin in cui si parla del timore dei politici nei confronti dell'AI, ma non discuti in dettaglio di questa affermazione.
 
 In generale, i documenti che ho trovato non affrontano in modo approfondito la questione della paura dei politici nei confronti dell'AI. Tuttavia, è possibile che questa paura sia alimentata da diversi fattori, come ad esempio:
 
