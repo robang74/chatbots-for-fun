@@ -144,6 +144,12 @@ function get_html_item_str() {
     fi
 }
 
+file="${1:-}"
+if [ "$file" == "test-page.md" ]; then
+    ln -sf tools/test-page.md .
+fi
+test -r "$file" || exit 1
+
 date1st=""
 declare -i DATETYPE=1 revnum=0
 gitlog=$(command git log --follow --format=format:'%ci' \
