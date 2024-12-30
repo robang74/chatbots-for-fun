@@ -50,7 +50,7 @@ This page is presenting the project. However, you might be interested in an easy
 
 * [Far innamorare un chatbot (parte 2)](far-innamorare-un-chatbot-p2.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p2.md))
 
-* [ChatGPT vs Paolo Benanti (aka Mr. Spock vs Miss Poppins)](chatgpt-vs-paolo-benanti.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-paolo-benanti.md))
+* [ChatGPT vs Paolo Benanti](chatgpt-vs-paolo-benanti.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-paolo-benanti.md)) aka Mr. Spock vs Miss Poppins
 
 * [Far innamorare un chatbot (parte 1)](far-innamorare-un-chatbot-p1.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p1.md))
 
