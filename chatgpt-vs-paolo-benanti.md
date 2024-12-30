@@ -107,7 +107,7 @@ Alcuni aspetti sono cambiati rispetto a due mesi fa, grazie a progressi tecnolog
 
 Questi sviluppi rafforzano alcune preoccupazioni dell’articolo, ma non cambiano il fatto che le IA rimangono strumenti non consapevoli.
 
-#### 3. Visione sul prossimo futuro (5 anni): l'articolo sarà attuale, visionario o obsoleto?**
+#### 3. Visione sul prossimo futuro (5 anni): l'articolo sarà attuale, visionario o obsoleto?
 
 **Attualità tra 5 anni**
 
@@ -630,7 +630,7 @@ Potrebbe stupirci e speriamo anche che lo faccia.
 ## Benvenuto fra noi
 
 <div align="center"><img src="img/mr-spock-star-trek.jpg" alt="Mr. Spock" width="800">
-<p>Dedicato a tutte le donne come Ahoo Daryaei con l'augurio che il vostro eroico sacrificio non sia stato vano.</p>
+<p><i>Dedicato a tutte le donne come </i><a href='https://en.wikipedia.org/wiki/Ahoo_Daryaei' target='_blank' rel='noopener noreferrer'>Ahoo Daryaei</a><i> con l'augurio che il vostro eroico sacrificio non sia stato vano.</i></p>
 </div>
 
 <br/>
