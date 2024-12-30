@@ -160,13 +160,13 @@ Curiously, I have recently discovered that [Pookie Tools](https://techcrunch.com
 
 There are several way to download this github repository:
 
-- using the green button in its homepage and download the [last ZIP archive](https://github.com/robang74/chatgpt-answered-prompts/archive/refs/heads/main.zip)
+- using the green button in its homepage and download the [last archive](https://github.com/robang74/chatbots-for-fun/archive/refs/heads/main.zip)
 
-- choose a tagged release among [those available](https://github.com/robang74/chatgpt-answered-prompts/tags) and download the archive
+- choose a tagged release among [those available](https://github.com/robang74/chatbots-for-fun/tags) and download the archive
 
 - clone the repository with the specific `git clone` command, in this way:
 
-    `git clone https://github.com/robang74/chatgpt-answered-prompts.git`
+    `git clone https://github.com/robang74/chatbots-for-fun.git`
 
 The advantage of downloading a tagged release is having an archive 'freezed' by the author while the ZIP contains the last version uploaded. Instead, the `git clone` will also provide you with all the information and a complete view of every change. Click on the link above will submit the related request for you.
 
@@ -182,7 +182,7 @@ This allows you to have your own copy that you can read off-line with all the li
 
 One of main goals of `git` and the github web interface is to provide a versioning control which also means a catalog of every author and changes made by them on every single file. The list of these changes are named *commits*. Here below the link related to the commits pushed on this repository:
 
-* [github.com/robang74/chatgpt-answered-prompts](https://github.com/robang74/chatgpt-answered-prompts/commits/main)
+* [github.com/robang74/chatbots-for-fun](https://github.com/robang74/chatbots-for-fun/commits/main)
 
 As you can see, each commit is carry-on a time stamp also. The green label indicates that also the timestamp is validate by the github infrastructure system which belongs to Microsoft Corporation. In fact, github cannot validate those timestamps that are coming from 3rd party systems like the users workstations but just the receiving time, date and content. However, for most of the cases this is irrelevant.
 
@@ -208,6 +208,6 @@ If you wish to send a translation, it is necessary that you know well one of the
 
 All the files in this gihub repository are published *Creative Commons Attribution Non-Commercial No-Derivatives 4.0 International* license terms ([CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)), unless states differently or not applicable due to a different and previous authorship.
 
-Moreover, if a version of a document included in this repository exists or has existed under different licence terms, the licence terms of the latest version available on `github/robang74` [repository](https://github.com/robang74/chatgpt-answered-prompts/) apply. Even when the new licence terms are more restrictive, because permissions for any free content may be revoked at any time at the will of the author, and updating a licence to be more restrictive explicitly implies this will.
+Moreover, if a version of a document included in this repository exists or has existed under different licence terms, the licence terms of the latest version available on `github/robang74` [repository](https://github.com/robang74/chatbots-for-fun/) apply. Even when the new licence terms are more restrictive, because permissions for any free content may be revoked at any time at the will of the author, and updating a licence to be more restrictive explicitly implies this will.
 
 </div>
