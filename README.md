@@ -94,6 +94,8 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 * [claude.ai](https://claude.ai) - coding and data analysis
 
+* [gpt4all](https://www.nomic.ai/gpt4all) - nous hermes-2.5 mistral-7B
+
 <br/>
 
 ## Rationale
