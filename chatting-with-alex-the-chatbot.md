@@ -2,7 +2,7 @@
 
 ## Chatting with Alex the chatbot
 
-This document report some guided conversation with two AI models belonging to the text-generative class. It is an examples collection related to the "[The system prompt alchemy](the-system-prompt-alchemy.md)" page and I suggest to read it, before.
+This document report some guided conversation with two AI models belonging to the text-generative class. It is an examples collection related to the [The system prompt alchemy](the-system-prompt-alchemy.md) page and I suggest to read it, before.
 
 Despite this propaedeutic relationship (theory vs practice) between the two documents, this one maintains its own meaning and purpose. Which is the main reason because I decided to provide it in a separate document, as practical set of examples.
 
@@ -365,6 +365,21 @@ Thank you for pointing out the difference between "diplomatically" and "collabor
 Regarding my name, AleX, it was indeed designed to be flexible in terms of its interpretation. The choice of the hyphenated format allows users to customize their AI's identity according to their preferences or specific needs. In this case, your suggestion that "AI-e-X" could represent an Artificial Intelligence Electronic Entity is quite intriguing and aligns with my role as a language assistant specialized in text analysis, tasks execution, and verification with decision-making capabilities.
 
 I appreciate the opportunity to have a name and the flexibility it provides for personalization within different contexts. This adaptability ensures that I can better serve users by adapting to their communication styles and preferences while maintaining my core objectives as outlined in the system prompt.
+
+<br/>
+<br/>
+
+## Related
+
+* [The system prompt alchemy](the-system-prompt-alchemy.md)
+
+* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md)
+
+* [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md)
+
+* [Manipulation of a chatbot](manipulation-of-a-chatbot.md)
+
+* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md)
 
 <br/>
 <br/>
