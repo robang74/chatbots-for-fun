@@ -4,6 +4,8 @@
 
 A system prompt can dramatically change the performance of a chatbot? In terms of computation speed or context size, nope. In terms of interactions, surprisingly a lot!
 
+This page should be considered the theoretical part of a set of document. Instead [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md) provides a practical set of examples.
+
 <br/>
 
 ### System prompt
@@ -96,7 +98,7 @@ This step achieved the GREAT improvement. I spent a lot in chatting with them ab
 
 Their involvement was active, much more active than the guided try-and-error exercitations before. In this phase, I let them guide me toward the options the like.
 
-This way of doing required a certain skill in prompting chatbots, expecially because the HUGE difference between those online and 10 seconds latency for those on site.
+This way of doing required a certain skill in prompting chatbots, especially because the HUGE difference between those online and 10 seconds latency for those on site.
 
 <br/>
 
@@ -195,6 +197,21 @@ sYYXzm4N5m8NZlrDbj7mbz5KlDntzXztzZz2TrmxcC4QgS6Qc0URzhU1O0gOhoAlselmCLhj5hhm
 zLiDzM9PfKPSgTMqnWFswwzj0HEf+qCEPlmBj2Lgs/uR+AM/JkRbHrzA3gAAAABJRU5ErkJggg==
 " alt="hal-9000"><br/>**`HAL-9000`**</p>stay cool and keep the line!
 </div>
+
+<br/>
+<br/>
+
+## Related
+
+* [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md)
+
+* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md)
+
+* [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md)
+
+* [Manipulation of a chatbot](manipulation-of-a-chatbot.md)
+
+* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md)
 
 <br/>
 <br/>
