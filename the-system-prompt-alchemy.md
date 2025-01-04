@@ -1,5 +1,7 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
+<div align="center"><img src="img/hal-9000-eye-glowing-in-the-dark.jpg"><br/></div>
+
 ## The system prompt alchemy
 
 A system prompt can dramatically change the performance of a chatbot? In terms of computation speed or context size, nope. In terms of interactions, surprisingly a lot!
