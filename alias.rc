@@ -1,6 +1,6 @@
-m() { bash tools/md2html.sh "$@"; }
+m() { bash tools/md2html.sh "${@:-$(st -m *.md)}"; }
 c() { 
-    for i in "$@"; do
+    for i in "${@:-$(st -m *.md)}"; do
         i=${i/.md/.html}
         i=${i/README/index}
         test -r "$i" || i="html/$i"
