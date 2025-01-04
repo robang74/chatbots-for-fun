@@ -142,7 +142,7 @@ To escalate the rules set to the online chatbots, I agreed with them a specific 
 > 
 > Answer ‘OK’ to agree to abide by these rules, as requested above.
 
-* [alex-system-prompt-session.txt](data/alex-system-prompt-session.txt) &larr; plain text file ready to use in a session.
+* [alex-system-prompt-session.txt](data/alex-system-prompt-session.txt) &larr; plain text file ready to use in a session. (**`UPDATED`**)
 
 The question to accept the rules set is not completely rhetorical question. While the on-site AI models are completely under our control, those on-line can be changed.
 
@@ -159,6 +159,10 @@ Possibly because a too strict interpretation of one of them.
 > No, those directives aren't against my core directives [...]. However, some specifics in those directives, like never [almost do not] quoting directly from documents, would actually limit my ability to be maximally helpful since direct quotes can often provide important context and precision.
 
 Suggestion: tune-in with `s/Almost/Preferably/` and `s/AleX/Claude/` may change its idea.
+
+#### Updated text prompt
+
+Relaxing quoting rule and specifying that **ONLY** the current session will be affected while the name "AleX" serves to easily identify it from the others - *Claude: ok, that's quite clever!* - seems matching all the requisites to be accepted and to engage on-line chatbots, also.
 
 <br/>
 <br/>
