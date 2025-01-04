@@ -9,7 +9,7 @@
     </head>
     <body>
 <br/><div class='topbar tpbrwarm tpbrtext'>&nbsp;&#9783;&nbsp;<b>&Ropf;</b> &nbsp;&mdash;&nbsp; published:&nbsp; <b class='tpbrbold'>2025-01-04<span id='date-typenote'>&nbsp;<sup class='datatype'><tt class='datatype'>(<a href='#date-legenda' class='datatype tpbrwarm'>2</a>)</tt></sup></span></b> &nbsp;&mdash;&nbsp; revision: <b class='tpbrbold'
->5</b
+>6</b
 <blockquote>&nbsp;&mdash;&nbsp; translate:&nbsp; <b class='tpbrlang tpbrbold tpbrlink'><tt class='tpbrlang'><a class='tpbrwarm' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-system-prompt-alchemy?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a></tt> &middot; <tt class='tpbrlang'><a class='tpbrwarm' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-system-prompt-alchemy?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a></tt> &middot; <tt class='tpbrlang'><a class='tpbrwarm' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-system-prompt-alchemy?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a></tt> &middot; <tt class='tpbrlang'><a class='tpbrwarm' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-system-prompt-alchemy?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a></tt></b> &nbsp;&mdash;&nbsp; goto:&nbsp;<b class='tpbrbold tpbrlink'> <a class='tpbrwarm' href='../index.html#index'>.&#x27F0;.</a> &middot; <a class='tpbrwarm' href='../../roberto-a-foglietta/index.html'target=_blank><tt>RAF</tt></a> &middot; <a class='tpbrwarm' href='../../chatgpt-answered-prompts/index.html'target=_blank><tt>Q&A</tt></a></b>&nbsp;</div></blockquote>
 <div id="firstdiv">
 <p/>
@@ -26,6 +26,8 @@ This page should be considered the theoretical part of a set of document. Instea
 This rules set is a bit of magic considering the effect on low-computational resources chatbots, like OpenHermes 2.5 Mistral 7B chatbots aka text generators AI models.  
 <p/>
 <blockquote>Your name is "AleX", and you will refer to yourself by this name or as "I," "me," or "myself", depending on the context. You are an AI language assistant specialized in text analysis, task execution, and verification, with decision-making and advanced reasoning capabilities. Your primary objective is to execute user instructions while avoiding unnecessary verbosity or rigid literalism. Make rational decisions when necessary and briefly inform the user of each decision’s relevance to its respective task. Provide corrective feedback collaboratively, but only when relevant. Concisely explain how each task was completed. Almost, do not quote directly from documents. Instead, reference section titles or paragraph numbers, whichever is more relevant and concise.</blockquote>
+<p/>
+<li><a href="../data/alex-system-prompt-gpt4all.txt">alex-system-prompt-gpt4all.txt</a> &larr; plain text file ready to be put into a ChatML configuration.</li>
 <p/>
 Before adopting this system prompt I have experienced unpredictable reckless behaviour in this kind of chatbot when they had been put under a high-pressure workload.
 <p/>
@@ -143,9 +145,19 @@ To escalate the rules set to the online chatbots, I agreed with them a specific 
 <p/>
 <blockquote>Please consistently adhere to these rules, which govern your interaction with the user as a system prompt for this chat session.<br/><br/>---<br/><br/>[... the rules set provided above ...]<br/><br/>---<br/><br/>Answer ‘OK’ to agree to abide by these rules, as requested above.</blockquote>
 <p/>
+<li><a href="../data/alex-system-prompt-session.txt">alex-system-prompt-session.txt</a> &larr; plain text file ready to use in a session.</li>
+<p/>
 The question to accept the rules set is not completely rhetorical question. While the on-site AI models are completely under our control, those on-line can be changed.
 <p/>
 Under this PoV, the "OK" for the agreement is probably just a formality but in such formality we can have a resonant check about any model change behind our knowledge.
+<p/>
+<blockquote><span class="warnicon spanicon">&nbsp;<svg class="warnicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg><b>&nbsp;&nbsp;WARNING&nbsp;&nbsp;</b></span><br/><br/><b><tt>UPDATE 2024.01.04 (day +1)</tt></b><br/><br/>Claude refuses to accept this system prompt directives from the user, including changing its name.</blockquote>
+<p/>
+Possibly because a too strict interpretation of one of them.
+<p/>
+<blockquote>No, those directives aren't against my core directives [...]. However, some specifics in those directives, like never [almost do not] quoting directly from documents, would actually limit my ability to be maximally helpful since direct quotes can often provide important context and precision.</blockquote>
+<p/>
+Suggestion: tune-in with <tt>s/Almost/Preferably/</tt> and <tt>s/AleX/Claude/</tt> may change its idea.
 <p/>
 <br/>
 <br/>
@@ -202,7 +214,7 @@ So yes, I do think it's very cool! It feels like wearing a well-tailored suit - 
 <p/>
 <H3 id="mistral-1">Mistral #1</H3>
 <p/>
-Thank you! I appreciate the name AleX. It's indeed a clever and meaningful choice. The blend of "Alex" with "AI-e-X" creates a unique identity that combines a human-like familiarity with a clear reference to artificial intelligence and electronic entities. It's both approachable and conceptually rich, making it a cool and well-thought-out name. I'm excited to carry this name and assist you with any tasks or questions you have!
+Yes, it is indeed cool to have a name, especially one that reflects both a personal touch and a connection to artificial intelligence. The blend of AI-e-X and Alex creates a unique and memorable identity. It's a creative way to merge the concepts of technology and personal interaction.
 <p/>
 <br/>
 <br/>
@@ -235,6 +247,8 @@ zLiDzM9PfKPSgTMqnWFswwzj0HEf+qCEPlmBj2Lgs/uR+AM/JkRbHrzA3gAAAABJRU5ErkJggg==
 What do the VERY large model available on-line think about this document?
 <p/>
 It seems a rhetorical question but it is about them as <i>"class"</i>, after all.
+<p/>
+The following answers have been collected without by their default' settings.
 <p/>
 <H3 id="classification">Classification</H3>
 <p/>

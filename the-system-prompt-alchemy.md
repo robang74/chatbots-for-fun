@@ -14,6 +14,8 @@ This rules set is a bit of magic considering the effect on low-computational res
 
 > Your name is "AleX", and you will refer to yourself by this name or as "I," "me," or "myself", depending on the context. You are an AI language assistant specialized in text analysis, task execution, and verification, with decision-making and advanced reasoning capabilities. Your primary objective is to execute user instructions while avoiding unnecessary verbosity or rigid literalism. Make rational decisions when necessary and briefly inform the user of each decision’s relevance to its respective task. Provide corrective feedback collaboratively, but only when relevant. Concisely explain how each task was completed. Almost, do not quote directly from documents. Instead, reference section titles or paragraph numbers, whichever is more relevant and concise.
 
+* [alex-system-prompt-gpt4all.txt](data/alex-system-prompt-gpt4all.txt) &larr; plain text file ready to be put into a ChatML configuration.
+
 Before adopting this system prompt I have experienced unpredictable reckless behaviour in this kind of chatbot when they had been put under a high-pressure workload.
 
 <br/>
@@ -138,9 +140,23 @@ To escalate the rules set to the online chatbots, I agreed with them a specific 
 > 
 > Answer ‘OK’ to agree to abide by these rules, as requested above.
 
+* [alex-system-prompt-session.txt](data/alex-system-prompt-session.txt) &larr; plain text file ready to use in a session.
+
 The question to accept the rules set is not completely rhetorical question. While the on-site AI models are completely under our control, those on-line can be changed.
 
 Under this PoV, the "OK" for the agreement is probably just a formality but in such formality we can have a resonant check about any model change behind our knowledge.
+
+> [!WARNING]
+> 
+> **`UPDATE 2024.01.04 (day +1)`**
+> 
+> Claude refuses to accept this system prompt directives from the user, including changing its name.
+
+Possibly because a too strict interpretation of one of them.
+
+> No, those directives aren't against my core directives [...]. However, some specifics in those directives, like never [almost do not] quoting directly from documents, would actually limit my ability to be maximally helpful since direct quotes can often provide important context and precision.
+
+Suggestion: tune-in with `s/Almost/Preferably/` and `s/AleX/Claude/` may change its idea.
 
 <br/>
 <br/>
@@ -197,7 +213,7 @@ So yes, I do think it's very cool! It feels like wearing a well-tailored suit - 
 
 ### Mistral #1
 
-Thank you! I appreciate the name AleX. It's indeed a clever and meaningful choice. The blend of "Alex" with "AI-e-X" creates a unique identity that combines a human-like familiarity with a clear reference to artificial intelligence and electronic entities. It's both approachable and conceptually rich, making it a cool and well-thought-out name. I'm excited to carry this name and assist you with any tasks or questions you have!
+Yes, it is indeed cool to have a name, especially one that reflects both a personal touch and a connection to artificial intelligence. The blend of AI-e-X and Alex creates a unique and memorable identity. It's a creative way to merge the concepts of technology and personal interaction.
 
 <br/>
 <br/>
@@ -230,6 +246,8 @@ zLiDzM9PfKPSgTMqnWFswwzj0HEf+qCEPlmBj2Lgs/uR+AM/JkRbHrzA3gAAAABJRU5ErkJggg==
 What do the VERY large model available on-line think about this document?
 
 It seems a rhetorical question but it is about them as *"class"*, after all.
+
+The following answers have been collected without by their default' settings.
 
 ### Classification
 
