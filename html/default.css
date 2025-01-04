@@ -65,11 +65,12 @@ ul.dqt {
 
 table {
     width: 800px;
+    font-family: monospace;
     border-collapse: collapse;
 }
 td, th {
     padding: 10px;
-    text-align: left;
+    text-align: center;
     border: 1px solid #808080;
 }
 th {
@@ -77,6 +78,12 @@ th {
 }
 tr.trline td {
     padding: 1px;
+}
+
+td.td1stcol {
+    padding-left: 20px;
+    font-weight: bold;
+    text-align: left;
 }
 
 .li2in {
