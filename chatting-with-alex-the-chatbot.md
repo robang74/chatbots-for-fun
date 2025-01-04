@@ -1,5 +1,7 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
+<div align="center"><img src="img/hal-9000-eye-blueing-in-the-dark.jpg"><br/></div>
+
 ## Chatting with Alex the chatbot
 
 This document report some guided conversation with two AI models belonging to the text-generative class. It is an examples collection related to the [The system prompt alchemy](the-system-prompt-alchemy.md) page and I suggest to read it, before.
