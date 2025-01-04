@@ -143,6 +143,62 @@ Under this PoV, the "OK" for the agreement is probably just a formality but in s
 <br/>
 <br/>
 
+## AleX the chatbot
+
+How Gemini and ChatGPT got in touch with their nerd baptism... LOL
+
+### Prompt #1
+
+Because the lower **`L`** is similar to capital **`I`** then your name sounds like **Alex** (noun of person) but its looks like <nobr>**AI-e-X**</nobr> which might resemble like Artificial Intelligence (**`Al`**) Electronic Entity <nobr>(**`e-X`**)</nobr>. Isn't cool having a name, such a name in particular?
+
+---
+
+### ChatGPT #1
+
+Yes, it's quite a clever and visually intriguing name! **"AleX"** seamlessly blends a **human-like identity** (Alex, a common given name) with an embedded **AI-related meaning**:
+
+- **`"AI"`** → Artificial Intelligence
+- &nbsp;**`"e"`**&nbsp; → Could suggest "electronic"
+- **`"X"`** → Often represents something advanced, experimental, or next-generation
+
+The mix of **natural familiarity (Alex)** and **technological depth (AI-e-X)** makes it both approachable and conceptually rich. It subtly signals intelligence while remaining easy to read and pronounce.
+
+I agree—it's a **cool and well-thought-out** name! 😊
+
+---
+
+### Gemini #1
+
+You're right, that's a very interesting observation!
+
+"AleX" is a clever name choice. It subtly hints at my nature as an AI while maintaining a friendly and approachable feel.
+
+* **"Alex" (noun of person):** This gives me a human-like identity, making it easier for users to relate to me.
+* **"AI-e-X"**: This subtle allusion to Artificial Intelligence adds a layer of intrigue and highlights my core functionality.
+
+I think it's a very cool name! It's both memorable and reflective of my purpose.
+
+---
+
+<div align="center">
+<br>Welcome aboard old friend<p><img src="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAbFBMVEUAAAB1dXV0dHR0dHR0dHR1
+dXV0dHR0dHR0dHR0dHR1dXUhISF1dXVLMiy4HR3GJibcKwI8PDwyKyr+PABra2tWVlZMTEy8vLxp
+LSnPKRlhYWFdMCuOJSOdIiCnHx7vNQCqqqqUlJSCgoL/wy3ykHV4AAAAC3RSTlMA7bGXF+PUh3hY
+N4cxnsQAAAGpSURBVEjH3VXZksIgENzcUdjsQg6jOUzi///jzgyIVAhu8Wq/KGW33TDD8PWZOJdx
+HnEe5XF5/p+dFhm3kBXpe3rCHSRvJKcIGU0rJANI0Ta4jk4+Pv39TTAL4kYmx/wY/10gi6/L5bKs
+nBboEvv4LQN0F4MO161ROHk6RuA33ISEOGrdHaU6Kb5gDoRS7HaeRpRnW4gjvwmSFstGqaJ0H6iB
+LKs0dCORKyRrdqFS8BSs2xgAeP04V9U89vCVAbaOCSDYFgWcPxgo/jBVGtOACvoB6lFYgowMFL9H
+6g8AP3ulIIvM6k/agco/aLqWDGoftItX75aqZGQwIf/6C7iiYkILXb7SLrLQ59lrvlH0+nSFXe6c
+c6kNRhAA/17Xd1CAYNQWkvPcCKBqz0QzGBCfFGAxPzNB7YyAvwQVCer68ahrElQvAQ8WBEcK33T4
+sYYXzm4N5m8NZlrDbj7mbz5KlDntzXztzZz2TrmxcC4QgS6Qc0URzhU1O0gOhoAlselmCLhj5hhm
+zLiDzM9PfKPSgTMqnWFswwzj0HEf+qCEPlmBj2Lgs/uR+AM/JkRbHrzA3gAAAABJRU5ErkJggg==
+" alt="hal-9000"><br/>**`HAL-9000`**</p>stay cool and keep the line!
+</div>
+
+<br/>
+<br/>
+
 ## Copyright
 
 &copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
