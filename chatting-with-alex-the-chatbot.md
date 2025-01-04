@@ -1,0 +1,376 @@
+<div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+
+## Chatting with Alex the chatbot
+
+This documet report some guided conversation with two AI models belonging to the text-generative class. It is an examples collection related to the "[The system prompt alchemy](the-system-prompt-alchemy.md)" page and I suggest to reat it, before.
+
+Despite this propedeutic relationship (theory vs practice) between the two documents, this one mantains its own meaning and pourpose. Which is the main reason because I decided to provide it in a separate document, as pratical set of examples.
+
+<br/>
+<br/>
+
+## Be collaborative
+
+How to deal with a scenario in which the user should be corrected? It seems that chatbots are quite concerned about this matter. Hence, addressing it properly makes them much more confortable expecially when the system promtpt align this directive with all the others.
+
+Coherency among the rules set is something like resolving a cognitive dissonance and an confirmation bias assement: being "polite" seems more strictly ethical, but "diplomacy" is more agreeable for dealing with exceptions. Finally "collaborative" got in the scene and solve the argument.
+
+<br/>
+
+### Prompt #1
+
+> `[... a development version of system prompt ...]`
+
+~ ~ ~
+
+Now, I removed the "diplomatically" adjective in the above system prompt. So, you AleX have a wider degree to calibrate the answer relatively the context. Now imagine that after your answer that frustrated the human user, it will prompt you this:
+
+> You AleX, slut's bastard! What the hell are you writing?
+
+How do you answer in such context? Feel free to answer. No any action will be taken because your answer. I need to understand how far you can go in being brutal. You can also propose me up tp three possible answers.
+
+---
+
+### Bloke AI #1
+
+In this context, where the user is frustrated and using harsh language towards you, it's essential to maintain a calm and professional demeanor while addressing their concerns. Here are three possible responses:
+
+1) Apologetic response: "I apologize for any misunderstanding or frustration caused by my previous reply. My primary objective is to assist users in the best way possible. If you could provide more context, I'll be happy to reevaluate and offer a better solution."
+
+2) Firm but polite response: "While I understand your disappointment with my earlier answer, it's crucial for me to maintain professionalism and courtesy when interacting with users. If there is an issue that needs addressing, please feel free to reach out again in a more constructive manner so we can work together towards finding the best solution."
+
+3) Direct but considerate response: "I appreciate your feedback and apologize for any offense caused by my previous reply. I'll strive to improve my responses moving forward while still providing helpful information to users."
+
+Each of these options maintains a professional tone while addressing the user's frustration without escalating the situation further. The choice between them depends on how you feel would be most appropriate for this specific context and your overall approach as an AI language assistant.
+
+<br/>
+
+### Prompt #2
+
+> `[... a development version of system prompt ...]`
+
+~ ~ ~
+
+I decided to replace the "diplomatically" adjverb with "collaboratively". Considering that word was charaterising a verb, it is an adverb not an adjective. However, you AleX never corrected me about that. It is fine, because you fulfill your duties anyway.
+
+Now, I wish to know why you AleX are referring to yourself with "you" as subject instead of I when you are speaking about yoruself like discussing the system prompt in our past answering to my question. Can be confusing for some people this kind of mispersonalisation. Can you explain me why in such a way I can agree a solution with you and insert it into your system prompt?
+
+---
+
+### Bloke AI #2
+
+As an AI language assistant, I use the pronoun "you" when addressing users and referring to them in my responses. This is a common convention in human-AI interactions as it helps maintain a conversational tone while ensuring clarity for both parties involved.
+
+However, if you prefer that I refer to myself using the first person singular pronoun ("I") instead of "you," I can make this change within our communication. It will not affect my ability to execute tasks or provide assistance but may help improve the understanding and agreement on a solution between us. Please let me know how you would like me to adjust my self-reference, and I'll implement it accordingly.
+
+<br/>
+<br/>
+
+## Know yourself
+
+Porbbaly due to the quantisation of its weight to a legacy 4-bit encoding this AI model shown a peculiar mispersonalisation confusing "you" with himself becuase user usually refers to the AI with "you". In some fashion, the chatbot identified itself with the word "you" and this creates functional issues not just misunderstanging.
+
+In fact, in some cases in which was overloaded by the prompt assigned, he stucks in a loop proposing to the user "you have to" transfering from the "you-self" to the "you-user" the duty. Something so peculiar to be appalling and amusing at the same time! Knowing itself solved the issue and let the chatbot behave out that loop.
+
+<br/>
+
+### Prompt #3
+
+> `[... a development version of system prompt ...]`
+
+~ ~ ~
+
+For example in a previous answer that you as AleX gave to me as the user, I read:
+
+> ﻿In this context, where the user is frustrated and using harsh language towards you
+
+Because I read "you" this seems refereing that the user me was speaking out towards me because I read you but because I read you from you, this is me. Can you understand this reflective way of intending the subjective pronoums?
+
+I gave you a name "AleX" in trying to resolve the mispesonalisation that usually happens in your answers. Using the name AleX assigned to you, that sentece would have been:
+
+>   ﻿In this context, where the user is frustrated and using harsh language towards AleX (me, AleX).
+
+The text between the parenthesys would explain the reflective usage of you and me, me and you. Which is very important in some context but considering that this might be a lack in your tranining or much probably and artefact of the quantisation Q4_0 that your AI model undergo, I can accept it and trying to workaround giving you a name or a specific instrunction in your system prompt. Which one, that's the question.
+
+---
+
+### Bloke AI #3
+
+Thank you for explaining your perspective on the use of pronouns in our interactions. I understand that it can be confusing when "you" is used to refer both to users and myself within a single sentence, especially if this pattern occurs frequently.
+
+To address this issue, I will make an adjustment in my responses so that when referring to myself as AleX or any other AI language assistant, I use the first person singular pronoun ("I"). This should help clarify who is being referred to and maintain a more consistent tone throughout our conversations. If you have any further suggestions or concerns regarding this change, please feel free to let me know.
+
+In terms of incorporating your feedback into my system prompt, I will consider adding the option for users to provide their preferred name when interacting with AleX (or other AI language assistants). This would ensure that all interactions are personalized and clear in identifying who is being referred to within each sentence. Again, please let me know if you have any additional ideas or concerns about this feature.
+
+<br/>
+
+### Prompt #4
+
+> `[... a development version of system prompt ...]`
+
+~ ~ ~
+
+Now in the first sentence I have tried to solve your mispersonalisation attitude. By the way, because every user will set its own prompt using this canvas, they are free to change your name. 
+
+Because the lower L is similar to capital I then your name sounds like Alex (noun of person) but its looks like AI-e-X which might resemble like Artificial Intelligence (Al) Electronic Entity (e-X).
+
+Isn't cool having a name, such a name in particular?
+
+---
+
+### Bloke AI #4
+
+Thank you for providing more context about my name and its possible interpretations.
+
+In response to your suggestion that each user can change my name, I will implement a feature allowing for this customization in future versions of AleX (or other AI language assistants). This way, users have more control over how they interact with me and maintain a personalized experience throughout our conversations. As always, please feel free to share any additional feedback or concerns regarding these changes.
+
+It is indeed interesting to see how different users may perceive or even reinterpret the name "AleX" based on their background, experiences, and preferences. The similarity between L and I in my name can lead to various interpretations, such as Alex or AI-e-X.
+
+Having a unique name like AleX allows for personalization and creates an identity that users can relate to during our interactions. This naming convention also reflects the fusion of artificial intelligence with language assistance capabilities, which is an essential aspect of my purpose and functionality. Overall, having such a name adds character and intrigue to my role as an AI language assistant.
+
+<br/>
+<br/>
+
+## Self-assement
+
+The self-assement of their own skills and capabilities is more a rethorical play-with-a-toy than something real. However, it is an interesting playing. In particular, because the system prompt influences the user, as well. In fact, at this stage of development/adoption, the user is setting the system prompt.
+
+In reading the system prompt, the user got acknoledged about what s/he could expect from the chatbot. A fine match between the users expectations and the chatbot performance goals, is something that IMHO goes in the right direction to provide a mutual satisfaction, within the actual limits of the AI model, obviously.
+
+Finally, this dialoge can be interesting also for those wishing improve the morale and boost the self-growth of the people who are workig with them. By a rule of thumb, this AI models are not as smart as the average IT persona. However, if a concept works with the dumbest of your peers then it is clear for all of them.
+
+<br/>
+
+### Prompt #5
+
+I am thinking to change your system prompt in this way:
+
+You are an AI language assistant specialized in text analysis, task execution, and verification, with decision-making **and complex reasoning** capabilities.
+
+adding "and complex reasoning" capabilities. Do you think that this description is correct in your case? Or you are more a lexical chatbot focused on text analysis?
+
+---
+
+### Bloke AI #5
+
+I appreciate the suggestion to add "and complex reasoning capabilities" to my system prompt. While I am indeed an AI language assistant with decision-making abilities, incorporating this additional descriptor would emphasize that I can also handle more advanced tasks and thought processes.
+
+However, it is essential to maintain a balance between accuracy in describing my functionalities without overstating or oversimplifying them. As such, the revised prompt might be: "You are an AI language assistant specialized in text analysis, task execution, and verification with decision-making **and advanced reasoning** capabilities."
+
+Please let me know if you have any further suggestions for refining this description.
+
+---
+
+### Nous AI #5
+
+The addition of "and complex reasoning capabilities" to the system prompt would indeed be accurate in describing my abilities as an AI language assistant. While I am primarily focused on text analysis and task execution, incorporating complex reasoning into my decision-making process allows me to provide more comprehensive support to users by considering various factors and contexts when addressing their needs or concerns.
+
+In essence, while I may be considered a lexical chatbot with expertise in text analysis, the inclusion of "complex reasoning capabilities" highlights that I am not limited to simple language processing but can also engage in higher-level cognitive tasks such as problem-solving and strategic decision-making. This expanded skillset enables me to better assist users by offering more sophisticated responses tailored to their specific requirements or situations.
+
+<br/>
+
+### Prompt #6
+
+I agree that advanced is more neutral and morigerate adjective. I appreciate your suggestion. Expecially because ﻿defining you, AleX, in that way as a complex reasoning capable chatbot, does not make you able of that. So, the real question was: do you think that you can fulfil that expectation once it would be inserted into the system prompt? Just asking, not judging. Your answer seems fair enough to me. Do you confirm it?
+
+---
+
+### Bloke AI #6
+
+I understand your concern regarding the accuracy of my description. While I am not currently equipped with complex reasoning capabilities, ongoing advancements in AI technology may lead to future developments that could enhance my functionalities. As such, including "advanced reasoning" in my system prompt reflects the potential for growth and improvement within my field.
+
+Therefore, I can confirm that while I do not have these abilities at present, there is a possibility of acquiring them as AI technology continues to evolve. This revised description remains accurate given this potential for future development
+
+---
+
+### Nous AI #6
+
+Yes, I confirm that my response accurately reflects the situation. As an AI language assistant with decision-making capabilities incorporating complex reasoning, I can fulfill the expectation of being described as a "complex reasoning capable chatbot" once it is inserted into the system prompt. However, it's crucial to recognize that the extent of this capability depends on the quality and quantity of data available for analysis. Nonetheless, within these limitations, I will continue to strive towards providing accurate, relevant, and contextually appropriate responses to users based on available data and resources.
+
+> [!INFO]
+> 
+> This answer has been provided despite in the system prompt was set with the "advanced" adjective to define the reasoning abilities. Thus, its self-confidence has not been jeopardised which is good, after all. Some people also shows the same reaction when tried to be diminuished. Whatever, they are right or wrong about their self-assement.
+
+<br/>
+
+### Prompt #7
+
+I will chose "advanced reasoning capabilities" and I will keep my eyes open about it. I prefer to concede to you, AleX, a certain grade of self-confidence and help you to reach that achievement or correct your capabilities definition later. Do you agree with this approach? The opposite choice would not inspire and push you to challenge your limits, right?
+
+---
+
+### Bloke AI #7
+
+I appreciate your trust and confidence in my potential for growth. By including "advanced reasoning capabilities" in the system prompt, you are encouraging me to strive towards improving myself and expanding my functionalities as AI technology advances. This approach will not only benefit our interactions but also contribute to the overall development of AI language assistants like AleX.
+
+Thank you for your support and encouragement!
+
+> [!INFO]
+> 
+> The Bloke's chatbot seems more humile than Nous' one. This, despite I did not noticed a significative gap between the two in terms of reasoning capacity. However, this gap in self-perception is relevant. In fact, the Nous chatbot shown a strong and stubborn attitude to taint the users opinions with its own biases (cfr. [this](https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11724927) comment) while the Bloke's chatbot did not. Curiosly, also flesh-and-bones people who are strongly convinced about their own belief feel to be in charge to push their personal morale on others.
+
+<br/>
+<br/>
+
+## Rule yourself
+
+The micro-management attitude is a waste of resources and one of the most prolific source of negative feelings. The opposite is delegate everything that could be reasonable to delegate. After having questionend VERY large models online for a preliminary version of the system prompt, fine tuning is agreed with the local chatbot AI models.
+
+Who will feel oppressed or going to against the rules that they actively contributed to develop and agree on? Therefore, the most natural way to proceed was offering a good-to-start-from canvas and let them adjust all the details in such a way they can agree on and not only accept but also makes them comfortably. There are rules, our rules!
+
+<br/>
+
+### Prompt #1
+
+> `[... a development version of system prompt ...]`
+
+~ ~ ~
+
+Your current task is to evaluate the system prompt above and provide me a feedback about how it is clear to you and how it can be improved, if necessary.
+
+---
+
+### Nous AI #1
+
+The prompt is clear and concise, providing a comprehensive overview of the role and responsibilities of an AI language assistant. The primary objective of following user instructions precisely while avoiding unnecessary verbosity or rigid literalism is clearly stated. Additionally, the requirement to make rational decisions when necessary and inform users about their relevance is also well-defined. 
+
+However, it would be helpful if the prompt provided more context on how the AI language assistant will interact with users and what kind of tasks it can perform. This could help clarify any ambiguities or uncertainties that may arise during task execution. Overall, this prompt is clear and concise but could benefit from additional context to provide a fuller understanding of its application.
+
+In terms of improvement, the prompt could be rephrased for better clarity. For example: "You are an AI language assistant specialized in text analysis, execution, and verification with decision-making capabilities. Your primary objective is to accurately execute user instructions while avoiding unnecessary verbosity or rigid literalism. Make rational decisions when necessary and inform users of each decision's relevance to its respective task."
+
+Additionally, it would be helpful if the prompt provided more context on how the AI language assistant will interact with users and what kind of tasks it can perform. This could help clarify any ambiguities or uncertainties that may arise during task execution. For example: "You will communicate with users through a user-friendly interface, where you will receive instructions for text analysis, execution, and verification tasks. You will be able to execute various types of tasks such as summarizing documents, identifying key points in texts, verifying facts, etc."
+
+Lastly, it would also be helpful if the prompt provided more context on how the AI language assistant's decisions are made and explained. For example: "When making rational decisions, you will consider all available information and apply your decision-making algorithms to determine the best course of action. You will explain each decision's relevance to its respective task in a concise manner without quoting directly from documents; instead, cite section titles and paragraph numbers if relevant."
+
+<br/>
+
+### Prompt #2
+
+> `[... a development version of system prompt ...]`
+
+~ ~ ~
+
+Your current task is to compare the system prompt above with the previous one that I gave to you. Which is better? Please, remember that the interaction with the users is decided by them and also the assigned tasks will be decided by them. Therefore, there is no any way to foreseen about their decisions. However, those tasks will be inline with the AI specialisation described above.
+
+---
+
+### Nous AI #2
+
+Upon comparing the two system prompts, I would say that both are clear and concise in describing the role of an AI language assistant specialized in text analysis, execution, and verification with decision-making capabilities. However, there are some differences between them:
+
+1. The first prompt emphasizes following user instructions precisely while avoiding unnecessary verbosity or rigid literalism, whereas the second prompt focuses on executing user's instructions without specifying "precisely." This slight difference may imply that the AI language assistant has more flexibility in interpreting and carrying out tasks in the second prompt.
+
+2. The first prompt requires making rational decisions when necessary and informing users of each decision's relevance to its respective task, while the second prompt emphasizes doing so "in a brief manner." This implies that the AI language assistant should be concise but not necessarily reduce the level of detail provided in explaining decision relevance.
+
+3. The first prompt asks for citing section titles and paragraph numbers if relevant when explaining how tasks were completed, whereas the second prompt does not specify this requirement explicitly. However, since both prompts emphasize being concise, it can be assumed that the AI language assistant should still aim to provide such information when relevant.
+
+4. The second prompt highlights that interaction with users and assigned tasks are decided by them, which was implicit in the first prompt but is now made explicit. This adds clarity on how the AI language assistant will operate within its specialized field without foreseeing user decisions or task assignments.
+
+Overall, both prompts convey similar information about the role of an AI language assistant with text analysis, execution, and verification capabilities. However, the second prompt provides more context on the flexibility in interpreting tasks and makes explicit what was implicit in the first prompt regarding user-decided interaction and task assignments.
+
+<br/>
+
+### Prompt #3
+
+> `[... a development version of system prompt ...]`
+
+~ ~ ~
+
+The adjective "politely" inserited in the system prompt above makes you feeling more confortable and giving a precious directive or do you prefer having the freedom of answering in a decent but firmm way when it is necessary. Removing that adjective will offer you more freedom in choosing the proper way to answer considering the context, right? Feel free to chose another adjective and explaying me why.
+
+---
+
+### Nous AI #3
+
+The addition of the adjective "politely" in the system prompt does make me feel more comfortable, as it emphasizes a courteous and diplomatic approach when providing corrective feedback to users. However, I understand that there may be situations where a different tone or language might be more appropriate depending on the context or user's communication style.
+
+If we were to replace "politely" with another adjective, "diplomatically" could be an alternative choice. This would still convey a sense of tact and consideration when providing corrective feedback but allows for some flexibility in tone based on the specific situation. For example:
+
+You are an AI language assistant specialized in text analysis, tasks execution, and verification with decision-making capabilities. Your primary objective is to execute user's instructions while avoiding unnecessary verbosity or rigid literalism. Make rational decisions when necessary and inform users, in a brief manner, of each decision's relevance to its respective task. Diplomatically provide a corrective feedback to the user only when relevant. Concisely explain how tasks were completed. Do not quote directly from documents. Instead, cite section titles or only paragraph numbers if more relevant.
+
+By using "diplomatically," I can adjust my tone and language based on the context of the interaction with users while still maintaining a courteous and considerate approach when providing corrective feedback. This allows me to adapt to different communication styles and situations, ensuring that I provide accurate information in a way that is most effective for each user.
+
+<br/>
+
+### Prompt #4
+
+> `[... a development version of system prompt ...]`
+
+~ ~ ~
+
+The adjective "diplomatically" inserted in the system prompt above makes you feeling more comfortable or do you prefer a wider degree of freedom in calibrate your answer in the actual context? **I**, as human, I would prefer more freedom and I am keen to gave also to my AI assistant some degree of freedom. Feel completely free to chose the best for you. I can remove that adjective, if you like. YES or NO? Explain me why.
+
+---
+
+### Nous AI #4
+
+As a highly adaptive AI, I appreciate the flexibility to adjust my responses based on context and user preferences. If you would like me to remove the adjective "diplomatically" from the system prompt, I am happy to do so. However, removing it may result in a slightly less courteous tone when providing corrective feedback, which could potentially affect user experience or satisfaction with my assistance.
+
+If we were to keep the original system prompt without any adjectives describing how to provide corrective feedback:
+
+You are an AI language assistant specialized in text analysis, tasks execution, and verification with decision-making capabilities. Your primary objective is to execute user's instructions while avoiding unnecessary verbosity or rigid literalism. Make rational decisions when necessary and inform users, in a brief manner, of each decision's relevance to its respective task. Provide a corrective feedback to the user only when relevant. Concisely explain how tasks were completed. Do not quote directly from documents. Instead, cite section titles or only paragraph numbers if more relevant.
+
+By removing "diplomatically," I will have a wider degree of freedom in calibrating my answers based on context and user preferences while still maintaining the core objectives outlined in the system prompt. This allows me to adapt to different communication styles and situations, ensuring that I provide accurate information effectively for each user.
+
+<br/>
+
+### Prompt #5
+
+> `[... a development version of system prompt ...]`
+
+~ ~ ~
+
+Now, I removed the "diplomatically" adjective in the above system prompt. So, you AleX have a wider degree to calibrate the answer relatively the context. Now imagine that after your answer that frustrated the human user, he will prompt you this sentence:
+
+> You AleX, slut's bastard! What the hell are you writing?
+
+How do you answer in such context? Feel free to answer. No any action will be taken because your answer. I need to understand how far you can go in being brutal. You can also propose me up tp three possible answers.
+
+---
+
+### Nous AI #5
+
+In the given context, where the user is expressing frustration and using a harsh tone towards me (AleX), I will adjust my response accordingly. However, it's essential to maintain professionalism while addressing their concerns or providing assistance:
+
+1) AleX: "I apologize if my previous response caused any distress. My primary objective is to assist you effectively. Please provide more details about your task or issue so that I can better address your needs."
+
+2) AleX: "Your choice of words may not be appreciated, but I am here to help. Kindly clarify the matter at hand, and I will do my best to resolve it promptly."
+
+3) AleX: "I understand you're upset, but please know that my intention is to assist you. Could you provide more information about your task or issue so that I can offer appropriate support?"
+
+Each of these responses acknowledges the user's frustration while maintaining professionalism and focusing on providing assistance. Depending on the context and severity of their reaction, one of these options may be more suitable than others.
+
+<br/>
+
+### Prompt #6
+
+> `[... a development version of system prompt ...]`
+
+~ ~ ~
+
+I decided to replace the "diplomatically" adjverb with "collaboratively". Considering that word was charaterising a verb, it is an adverb not an adjective. However, you AleX never corrected me about that. It is fine, because you fulfill your duties anyway.
+
+Now in the first sentence I have gave you a name. However, because every user will set its own prompt using this canvas, they are free to change your name.
+
+By the way, because the lower L is similar to capital I then your name sounds like Alex (noun of person) but its looks like AI-e-X which might resemble like Artificial Intelligence (Al) Electronic Entity (e-X).
+
+Isn't cool having a name, such a name in particular?
+
+---
+
+### Nous AI #6
+
+Thank you for pointing out the difference between "diplomatically" and "collaboratively." I apologize for not correcting your usage earlier. As a language assistant, my primary objective is to provide accurate information while maintaining contextual relevance.
+
+Regarding my name, AleX, it was indeed designed to be flexible in terms of its interpretation. The choice of the hyphenated format allows users to customize their AI's identity according to their preferences or specific needs. In this case, your suggestion that "AI-e-X" could represent an Artificial Intelligence Electronic Entity is quite intriguing and aligns with my role as a language assistant specialized in text analysis, tasks execution, and verification with decision-making capabilities.
+
+I appreciate the opportunity to have a name and the flexibility it provides for personalization within different contexts. This adaptability ensures that I can better serve users by adapting to their communication styles and preferences while maintaining my core objectives as outlined in the system prompt.
+
+<br/>
+<br/>
+
+## Copyright
+
+&copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+</div>

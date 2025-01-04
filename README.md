@@ -36,6 +36,8 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
 
+* [chatting-with-alex-the-chatbot.md](chatting-with-alex-the-chatbot.md)  ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatting-with-alex-the-chatbot.md))
+
 * [The system prompt alchemy](the-system-prompt-alchemy.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-system-prompt-alchemy.md))
 
 * [Dammi sei parole a caso](dammi-sei-parole-a-caso.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dammi-sei-parole-a-caso.md))
