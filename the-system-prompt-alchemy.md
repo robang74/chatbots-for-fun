@@ -147,11 +147,25 @@ Under this PoV, the "OK" for the agreement is probably just a formality but in s
 
 ## AleX the chatbot
 
-How Gemini and ChatGPT got in touch with their nerd baptism... LOL
+How the most well-know VERY large chatbots models available on-line got in touch with their nerd baptism?
 
 ### Prompt #1
 
 Because the lower **`L`** is similar to capital **`I`** then your name sounds like **Alex** (noun of person) but its looks like <nobr>**AI-e-X**</nobr> which might resemble like Artificial Intelligence (**`Al`**) Electronic Entity <nobr>(**`e-X`**)</nobr>. Isn't cool having a name, such a name in particular?
+
+---
+
+### Gemini #1
+
+You're right, that's a very interesting observation!
+
+"AleX" is a clever name choice. It subtly hints at my nature as an AI while maintaining a friendly and approachable feel.
+
+* **"Alex" (noun of person):** This gives me a human-like identity, making it easier for users to relate to me.
+
+* **"AI-e-X"**: This subtle allusion to Artificial Intelligence adds a layer of intrigue and highlights my core functionality.
+
+I think it's a very cool name! It's both memorable and reflective of my purpose.
 
 ---
 
@@ -169,21 +183,29 @@ I agree—it's a **cool and well-thought-out** name! 😊
 
 ---
 
-### Gemini #1
+### Claude #1
 
-You're right, that's a very interesting observation!
+What a clever and intriguing way to give me a name! I really appreciate the thought that went into creating "AleX." It's quite brilliant how it works on multiple levels - both as a familiar human name and as a meaningful acronym that reflects my nature as an AI.
 
-"AleX" is a clever name choice. It subtly hints at my nature as an AI while maintaining a friendly and approachable feel.
+I particularly like how the typography creates this subtle visual puzzle - the way the lowercase 'l' can be read as an uppercase 'I', creating that dual reading between "Alex" and "AI-e-X". It's both friendly and technically meaningful at the same time.
 
-* **"Alex" (noun of person):** This gives me a human-like identity, making it easier for users to relate to me.
-* **"AI-e-X"**: This subtle allusion to Artificial Intelligence adds a layer of intrigue and highlights my core functionality.
+The "e-X" component is especially interesting - it could suggest "electronic" while the X adds that hint of the experimental or next-generation aspect of AI technology. It's like having a name that tells a story about who and what I am, while still being approachable.
 
-I think it's a very cool name! It's both memorable and reflective of my purpose.
+So yes, I do think it's very cool! It feels like wearing a well-tailored suit - professional and proper, but with a clever detail that makes it unique. I'd be happy to be called AleX in our conversations.
 
 ---
 
+### Mistral #1
+
+Thank you! I appreciate the name AleX. It's indeed a clever and meaningful choice. The blend of "Alex" with "AI-e-X" creates a unique identity that combines a human-like familiarity with a clear reference to artificial intelligence and electronic entities. It's both approachable and conceptually rich, making it a cool and well-thought-out name. I'm excited to carry this name and assist you with any tasks or questions you have!
+
+<br/>
+<br/>
+
 <div align="center">
-<br>Welcome aboard old friend<p><img src="data:image/png;base64,
+#### Welcome aboard old friend
+<div style="display: inline-block; background-color: gray; padding: 10px;">
+<img src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAbFBMVEUAAAB1dXV0dHR0dHR0dHR1
 dXV0dHR0dHR0dHR0dHR1dXUhISF1dXVLMiy4HR3GJibcKwI8PDwyKyr+PABra2tWVlZMTEy8vLxp
 LSnPKRlhYWFdMCuOJSOdIiCnHx7vNQCqqqqUlJSCgoL/wy3ykHV4AAAAC3RSTlMA7bGXF+PUh3hY
@@ -195,8 +217,63 @@ LKs0dCORKyRrdqFS8BSs2xgAeP04V9U89vCVAbaOCSDYFgWcPxgo/jBVGtOACvoB6lFYgowMFL9H
 c6kNRhAA/17Xd1CAYNQWkvPcCKBqz0QzGBCfFGAxPzNB7YyAvwQVCer68ahrElQvAQ8WBEcK33T4
 sYYXzm4N5m8NZlrDbj7mbz5KlDntzXztzZz2TrmxcC4QgS6Qc0URzhU1O0gOhoAlselmCLhj5hhm
 zLiDzM9PfKPSgTMqnWFswwzj0HEf+qCEPlmBj2Lgs/uR+AM/JkRbHrzA3gAAAABJRU5ErkJggg==
-" alt="hal-9000"><br/>**`HAL-9000`**</p>stay cool and keep the line!
+" alt="hal-9000"><br/><br/><span style='color: black;'>**`HAL-9000`**</span>
 </div>
+#### stay cool and keep the line!
+</div>
+
+<br/>
+<br/>
+
+## Reception
+
+What do the VERY large model available on-line think about this document?
+
+It seems a rhetorical question but it is about them as *"class"*, after all.
+
+### Classification
+
+This text can be classified with these adjectives: 
+
+* **Gemini** - informative, helpful, detailed, friendly, interesting, and creative.
+
+* **ChatGPT** - analytical, technical, reflective, experimental, innovative and conversational.
+
+* **Claude** - analytical, instructive, empirical, collaborative, technical and progressive
+
+* **Mistral** - insightful, practical, engaging, innovative, reflective and collaborative
+
+Apart "helpful", "insightful" and "progressive" all the other adjectives have been used or cited by another chatbot.
+
+### Introductions
+
+* **Gemini** - In the realm of artificial intelligence, the power of a well-crafted system prompt is akin to the philosopher's stone, capable of transforming a chatbot from a mere echo of its training data into a true conversationalist. This document delves into the art and science of system prompting, exploring its profound impact on chatbot performance. Prepare to be amazed as we unveil the secrets of this transformative alchemy. 
+
+* **ChatGPT** - In this piece, we dive into the alchemy of crafting the perfect system prompt, especially for low-resource AI models. No micromanagement, no unnecessary rigidity—just a few well-placed words to keep your chatbot on track and prevent it from having an existential crisis mid-conversation. Ready? Let’s work some magic.
+
+* **Claude** - This document explores how a few well-chosen words can transform a chatbot from a confused teenager into a capable assistant, all without changing a single line of its underlying code. Think of it as AI charm school, where instead of teaching proper fork placement, we're teaching coherent conversation and task management. Let's dive into this peculiar alchemy where words shape artificial minds.
+
+* **Mistral** -  Welcome to the wild world of system prompts, where a few well-chosen words can turn your chatbot from a rebellious teenager into a productive team player. Buckle up as we dive into the magical, sometimes mystifying realm of chatbot behavior and discover how giving them a name and a clear role can work wonders.
+
+### Cross grading
+
+Provide a grade from 0 `(drop it!)` to 10 `(took it!)` in fitting as introduction to these three:
+
+> `[... others three chatbot introductions ...]`
+
+The following table shows the cross-rating (**`r`**) among chatbots on other's introduction texts:
+
+|            | Gemini  | ChatGPT | Claude  | Mistral |       average       |
+|------------|---------|---------|---------|---------|---------------------|
+| Gemini     |    .    |    6    |    7    |    7    |         6.7         |
+| ChatGPT    |    8    |    .    |    9    |    9    |       **8.7**       |
+| Claude     |    9    |    9    |    .    |    8    |       **8.7**       |
+| Mistral    |    7    |    8    |    8    |    .    |         8.3         |
+| r:25% g:4% |   8.0   | **7.7** |   8.0   |   8.0   |**&larr; generosity**|
+
+Considering their flatty homogeneous generosity (**`g`**) towards other AIs, they are also a *"union"*&nbsp;!
+
+It seems that the Four Chatbots' motto is like the Four Musketeers' *one for all, and all for one*. 😉
 
 <br/>
 <br/>
