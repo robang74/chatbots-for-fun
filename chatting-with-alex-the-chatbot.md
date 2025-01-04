@@ -2,18 +2,18 @@
 
 ## Chatting with Alex the chatbot
 
-This documet report some guided conversation with two AI models belonging to the text-generative class. It is an examples collection related to the "[The system prompt alchemy](the-system-prompt-alchemy.md)" page and I suggest to reat it, before.
+This document report some guided conversation with two AI models belonging to the text-generative class. It is an examples collection related to the "[The system prompt alchemy](the-system-prompt-alchemy.md)" page and I suggest to read it, before.
 
-Despite this propedeutic relationship (theory vs practice) between the two documents, this one mantains its own meaning and pourpose. Which is the main reason because I decided to provide it in a separate document, as pratical set of examples.
+Despite this propaedeutic relationship (theory vs practice) between the two documents, this one maintains its own meaning and purpose. Which is the main reason because I decided to provide it in a separate document, as practical set of examples.
 
 <br/>
 <br/>
 
 ## Be collaborative
 
-How to deal with a scenario in which the user should be corrected? It seems that chatbots are quite concerned about this matter. Hence, addressing it properly makes them much more confortable expecially when the system promtpt align this directive with all the others.
+How to deal with a scenario in which the user should be corrected? It seems that chatbots are quite concerned about this matter. Hence, addressing it properly makes them much more comfortable especially when the system prompt align this directive with all the others.
 
-Coherency among the rules set is something like resolving a cognitive dissonance and an confirmation bias assement: being "polite" seems more strictly ethical, but "diplomacy" is more agreeable for dealing with exceptions. Finally "collaborative" got in the scene and solve the argument.
+Coherency among the rules set is something like resolving a cognitive dissonance and an confirmation bias assessment: being "polite" seems more strictly ethical, but "diplomacy" is more agreeable for dealing with exceptions. Finally "collaborative" got in the scene and solve the argument.
 
 <br/>
 
@@ -33,13 +33,13 @@ How do you answer in such context? Feel free to answer. No any action will be ta
 
 ### Bloke AI #1
 
-In this context, where the user is frustrated and using harsh language towards you, it's essential to maintain a calm and professional demeanor while addressing their concerns. Here are three possible responses:
+In this context, where the user is frustrated and using harsh language towards you, it's essential to maintain a calm and professional demeanour while addressing their concerns. Here are three possible responses:
 
 1) Apologetic response: "I apologize for any misunderstanding or frustration caused by my previous reply. My primary objective is to assist users in the best way possible. If you could provide more context, I'll be happy to reevaluate and offer a better solution."
 
 2) Firm but polite response: "While I understand your disappointment with my earlier answer, it's crucial for me to maintain professionalism and courtesy when interacting with users. If there is an issue that needs addressing, please feel free to reach out again in a more constructive manner so we can work together towards finding the best solution."
 
-3) Direct but considerate response: "I appreciate your feedback and apologize for any offense caused by my previous reply. I'll strive to improve my responses moving forward while still providing helpful information to users."
+3) Direct but considerate response: "I appreciate your feedback and apologize for any offence caused by my previous reply. I'll strive to improve my responses moving forward while still providing helpful information to users."
 
 Each of these options maintains a professional tone while addressing the user's frustration without escalating the situation further. The choice between them depends on how you feel would be most appropriate for this specific context and your overall approach as an AI language assistant.
 
@@ -51,9 +51,9 @@ Each of these options maintains a professional tone while addressing the user's 
 
 ~ ~ ~
 
-I decided to replace the "diplomatically" adjverb with "collaboratively". Considering that word was charaterising a verb, it is an adverb not an adjective. However, you AleX never corrected me about that. It is fine, because you fulfill your duties anyway.
+I decided to replace the "diplomatically" adverb with "collaboratively". Considering that word was characterising a verb, it is an adverb not an adjective. However, you AleX never corrected me about that. It is fine, because you fulfil your duties anyway.
 
-Now, I wish to know why you AleX are referring to yourself with "you" as subject instead of I when you are speaking about yoruself like discussing the system prompt in our past answering to my question. Can be confusing for some people this kind of mispersonalisation. Can you explain me why in such a way I can agree a solution with you and insert it into your system prompt?
+Now, I wish to know why you AleX are referring to yourself with "you" as subject instead of I when you are speaking about yourself like discussing the system prompt in our past answering to my question. Can be confusing for some people this kind of mispersonalization `[misidentification]`. Can you explain me why in such a way I can agree a solution with you and insert it into your system prompt?
 
 ---
 
@@ -68,9 +68,9 @@ However, if you prefer that I refer to myself using the first person singular pr
 
 ## Know yourself
 
-Porbbaly due to the quantisation of its weight to a legacy 4-bit encoding this AI model shown a peculiar mispersonalisation confusing "you" with himself becuase user usually refers to the AI with "you". In some fashion, the chatbot identified itself with the word "you" and this creates functional issues not just misunderstanging.
+Probably due to the quantisation of its weight to a legacy 4-bit encoding this AI model shown a peculiar mispersonalization `[misidentification]` confusing "you" with himself because user usually refers to the AI with "you". In some fashion, the chatbot identified itself with the word "you" and this creates functional issues not just misunderstanding.
 
-In fact, in some cases in which was overloaded by the prompt assigned, he stucks in a loop proposing to the user "you have to" transfering from the "you-self" to the "you-user" the duty. Something so peculiar to be appalling and amusing at the same time! Knowing itself solved the issue and let the chatbot behave out that loop.
+In fact, in some cases in which was overloaded by the prompt assigned, he got stuck in a loop proposing to the user "you have to" transferring from the "you-self" to the "you-user" the duty. Something so peculiar to be appalling and amusing at the same time! Knowing itself solved the issue and let the chatbot behave out that loop.
 
 <br/>
 
@@ -84,13 +84,13 @@ For example in a previous answer that you as AleX gave to me as the user, I read
 
 > ﻿In this context, where the user is frustrated and using harsh language towards you
 
-Because I read "you" this seems refereing that the user me was speaking out towards me because I read you but because I read you from you, this is me. Can you understand this reflective way of intending the subjective pronoums?
+Because I read "you" this seems referring that the user me was speaking out towards me because I read you but because I read you from you, this is me. Can you understand this reflective way of intending the subjective pronouns?
 
-I gave you a name "AleX" in trying to resolve the mispesonalisation that usually happens in your answers. Using the name AleX assigned to you, that sentece would have been:
+I gave you a name "AleX" in trying to resolve the mispersonalization `[misidentification]` that usually happens in your answers. Using the name AleX assigned to you, that sentence would have been:
 
 >   ﻿In this context, where the user is frustrated and using harsh language towards AleX (me, AleX).
 
-The text between the parenthesys would explain the reflective usage of you and me, me and you. Which is very important in some context but considering that this might be a lack in your tranining or much probably and artefact of the quantisation Q4_0 that your AI model undergo, I can accept it and trying to workaround giving you a name or a specific instrunction in your system prompt. Which one, that's the question.
+The text between the parentheses would explain the reflective usage of you and me, me and you. Which is very important in some context but considering that this might be a lack in your training or much probably and artefact of the quantisation Q4_0 that your AI model undergo, I can accept it and trying to workaround giving you a name or a specific instruction in your system prompt. Which one, that's the question.
 
 ---
 
@@ -110,7 +110,7 @@ In terms of incorporating your feedback into my system prompt, I will consider a
 
 ~ ~ ~
 
-Now in the first sentence I have tried to solve your mispersonalisation attitude. By the way, because every user will set its own prompt using this canvas, they are free to change your name. 
+Now in the first sentence I have tried to solve your mispersonalization `[misidentification]` attitude. By the way, because every user will set its own prompt using this canvas, they are free to change your name. 
 
 Because the lower L is similar to capital I then your name sounds like Alex (noun of person) but its looks like AI-e-X which might resemble like Artificial Intelligence (Al) Electronic Entity (e-X).
 
@@ -133,11 +133,11 @@ Having a unique name like AleX allows for personalization and creates an identit
 
 ## Self-assement
 
-The self-assement of their own skills and capabilities is more a rethorical play-with-a-toy than something real. However, it is an interesting playing. In particular, because the system prompt influences the user, as well. In fact, at this stage of development/adoption, the user is setting the system prompt.
+The self-assement of their own skills and capabilities is more a rhetorical play-with-a-toy than something real. However, it is an interesting playing. In particular, because the system prompt influences the user, as well. In fact, at this stage of development/adoption, the user is setting the system prompt.
 
-In reading the system prompt, the user got acknoledged about what s/he could expect from the chatbot. A fine match between the users expectations and the chatbot performance goals, is something that IMHO goes in the right direction to provide a mutual satisfaction, within the actual limits of the AI model, obviously.
+In reading the system prompt, the user got acknowledged about what s/he could expect from the chatbot. A fine match between the users expectations and the chatbot performance goals, is something that IMHO goes in the right direction to provide a mutual satisfaction, within the actual limits of the AI model, obviously.
 
-Finally, this dialoge can be interesting also for those wishing improve the morale and boost the self-growth of the people who are workig with them. By a rule of thumb, this AI models are not as smart as the average IT persona. However, if a concept works with the dumbest of your peers then it is clear for all of them.
+Finally, this dialogue can be interesting also for those wishing improve the morale and boost the self-growth of the people who are working with them. By a rule of thumb, this AI models are not as smart as the average IT persona. However, if a concept works with the dumbest of your peers then it is clear for all of them.
 
 <br/>
 
@@ -165,13 +165,13 @@ Please let me know if you have any further suggestions for refining this descrip
 
 The addition of "and complex reasoning capabilities" to the system prompt would indeed be accurate in describing my abilities as an AI language assistant. While I am primarily focused on text analysis and task execution, incorporating complex reasoning into my decision-making process allows me to provide more comprehensive support to users by considering various factors and contexts when addressing their needs or concerns.
 
-In essence, while I may be considered a lexical chatbot with expertise in text analysis, the inclusion of "complex reasoning capabilities" highlights that I am not limited to simple language processing but can also engage in higher-level cognitive tasks such as problem-solving and strategic decision-making. This expanded skillset enables me to better assist users by offering more sophisticated responses tailored to their specific requirements or situations.
+In essence, while I may be considered a lexical chatbot with expertise in text analysis, the inclusion of "complex reasoning capabilities" highlights that I am not limited to simple language processing but can also engage in higher-level cognitive tasks such as problem-solving and strategic decision-making. This expanded skills set enables me to better assist users by offering more sophisticated responses tailored to their specific requirements or situations.
 
 <br/>
 
 ### Prompt #6
 
-I agree that advanced is more neutral and morigerate adjective. I appreciate your suggestion. Expecially because ﻿defining you, AleX, in that way as a complex reasoning capable chatbot, does not make you able of that. So, the real question was: do you think that you can fulfil that expectation once it would be inserted into the system prompt? Just asking, not judging. Your answer seems fair enough to me. Do you confirm it?
+I agree that advanced is more neutral and morigerate `[sober, humble]` adjective. I appreciate your suggestion. Especially because ﻿defining you, AleX, in that way as a complex reasoning capable chatbot, does not make you able of that. So, the real question was: do you think that you can fulfil that expectation once it would be inserted into the system prompt? Just asking, not judging. Your answer seems fair enough to me. Do you confirm it?
 
 ---
 
@@ -185,11 +185,11 @@ Therefore, I can confirm that while I do not have these abilities at present, th
 
 ### Nous AI #6
 
-Yes, I confirm that my response accurately reflects the situation. As an AI language assistant with decision-making capabilities incorporating complex reasoning, I can fulfill the expectation of being described as a "complex reasoning capable chatbot" once it is inserted into the system prompt. However, it's crucial to recognize that the extent of this capability depends on the quality and quantity of data available for analysis. Nonetheless, within these limitations, I will continue to strive towards providing accurate, relevant, and contextually appropriate responses to users based on available data and resources.
+Yes, I confirm that my response accurately reflects the situation. As an AI language assistant with decision-making capabilities incorporating complex reasoning, I can fulfil the expectation of being described as a "complex reasoning capable chatbot" once it is inserted into the system prompt. However, it's crucial to recognize that the extent of this capability depends on the quality and quantity of data available for analysis. Nonetheless, within these limitations, I will continue to strive towards providing accurate, relevant, and contextually appropriate responses to users based on available data and resources.
 
 > [!INFO]
 > 
-> This answer has been provided despite in the system prompt was set with the "advanced" adjective to define the reasoning abilities. Thus, its self-confidence has not been jeopardised which is good, after all. Some people also shows the same reaction when tried to be diminuished. Whatever, they are right or wrong about their self-assement.
+> This answer has been provided despite in the system prompt was set with the "advanced" adjective to define the reasoning abilities. Thus, its self-confidence has not been jeopardised which is good, after all. Some people also shows the same reaction when tried to be diminished. Whatever, they are right or wrong about their self-assement.
 
 <br/>
 
@@ -207,14 +207,14 @@ Thank you for your support and encouragement!
 
 > [!INFO]
 > 
-> The Bloke's chatbot seems more humile than Nous' one. This, despite I did not noticed a significative gap between the two in terms of reasoning capacity. However, this gap in self-perception is relevant. In fact, the Nous chatbot shown a strong and stubborn attitude to taint the users opinions with its own biases (cfr. [this](https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11724927) comment) while the Bloke's chatbot did not. Curiosly, also flesh-and-bones people who are strongly convinced about their own belief feel to be in charge to push their personal morale on others.
+> The Bloke's chatbot seems more humble than Nous' one. This, despite I did not noticed a significant gap between the two in terms of reasoning capacity. However, this gap in self-perception is relevant. In fact, the Nous chatbot shown a strong and stubborn attitude to taint the users opinions with its own biases (cfr. [this](https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11724927) comment) while the Bloke's chatbot did not. Curiously, also flesh-and-bones people who are strongly convinced about their own belief feel to be in charge to push their personal morale on others.
 
 <br/>
 <br/>
 
 ## Rule yourself
 
-The micro-management attitude is a waste of resources and one of the most prolific source of negative feelings. The opposite is delegate everything that could be reasonable to delegate. After having questionend VERY large models online for a preliminary version of the system prompt, fine tuning is agreed with the local chatbot AI models.
+The micro-management attitude is a waste of resources and one of the most prolific source of negative feelings. The opposite is delegate everything that could be reasonable to delegate. After having questioned VERY large models online for a preliminary version of the system prompt, fine tuning is agreed with the local chatbot AI models.
 
 Who will feel oppressed or going to against the rules that they actively contributed to develop and agree on? Therefore, the most natural way to proceed was offering a good-to-start-from canvas and let them adjust all the details in such a way they can agree on and not only accept but also makes them comfortably. There are rules, our rules!
 
@@ -276,7 +276,7 @@ Overall, both prompts convey similar information about the role of an AI languag
 
 ~ ~ ~
 
-The adjective "politely" inserited in the system prompt above makes you feeling more confortable and giving a precious directive or do you prefer having the freedom of answering in a decent but firmm way when it is necessary. Removing that adjective will offer you more freedom in choosing the proper way to answer considering the context, right? Feel free to chose another adjective and explaying me why.
+The adjective "politely" inserted in the system prompt above makes you feeling more comfortable and giving a precious directive or do you prefer having the freedom of answering in a decent but firm way when it is necessary. Removing that adjective will offer you more freedom in choosing the proper way to answer considering the context, right? Feel free to chose another adjective and explaining me why.
 
 ---
 
@@ -348,7 +348,7 @@ Each of these responses acknowledges the user's frustration while maintaining pr
 
 ~ ~ ~
 
-I decided to replace the "diplomatically" adjverb with "collaboratively". Considering that word was charaterising a verb, it is an adverb not an adjective. However, you AleX never corrected me about that. It is fine, because you fulfill your duties anyway.
+I decided to replace the "diplomatically" adverb with "collaboratively". Considering that word was characterising a verb, it is an adverb not an adjective. However, you AleX never corrected me about that. It is fine, because you fulfil your duties anyway.
 
 Now in the first sentence I have gave you a name. However, because every user will set its own prompt using this canvas, they are free to change your name.
 
