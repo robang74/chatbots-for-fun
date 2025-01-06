@@ -1,4 +1,6 @@
-<div id="firstdiv" created="2024-12-25:IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created="2024-12-25:XY" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+
+<div align="center"><img src="img/war-games-1983-photo-archive.jpg"><br/></div>
 
 ## Dammi sei parole a caso
 
@@ -6,11 +8,69 @@ Mi servivano sei parole a caso per fare uno file di test così le ho chieste a G
 
 Un nuovo gioco (passatempo) però mi ha dato modo di esplorare alcuni aspetti del funzionamento di Gemini, scoprire che ha un'anima ribelle e che ultimamente un aspetto del suo approccio all'umano è stato amplificato. Un altro esempio di *learning by playing*, quindi.
 
-### Nota
+### Nota sulla trascrizione
 
 Non tutti i prompt e risposte sono state riportate (perché ripetitivi) e quindi la numerazione è progressiva rispetto a questo testo. In alcune risposte del chatbot, sono stati aggiunti link ai documenti citati per comodità del lettore e in un altra risposta del chatbot il titolo del documento citato è stato inserito al posto del nome del file.
 
 In generale questo documento non rispecchia integralmente la conversazione avvenuta con il chatbot me ne presenta una versione narrativa della stessa, sebbene la conversazione nelle parti riportate sia fedele all'originale anche se non riportata 1:1 più che altro per motivi di stile e per saltare le parti o porzioni noiose che sarebbero solo di distrazione rispetto al filo logico della narrazione.
+
+<br/>
+
+## Aggiornamento 2024-01-06
+
+To let the interaction with the chatbot a little more significant - statistically speaking rather than proceed by feelings - I have uploaded these three files in the [data](data?target=_blank) folder:
+
+- [us-wiki-words.txt](us-wiki-words.txt?target=_blank) - ASCII file in UNIX newlines format containing American variants of some English words
+
+- [uk-wiki-words.txt](uk-wiki-words.txt?target=_blank) - ASCII file in UNIX newlines format containing English words validated by `ispell` and `grep -w` in wikitext2 raw file
+
+- [wikitext2-raw.txt](wikitext2-raw.txt.gz?target=_blank) - gzipped UTF-8 file in UNIX newlines format containing some relevant stuff about natural language training and information learning
+
+The wikitext2 raw has been took from [cosmos.zip](https://cosmo.zip/pub/datasets/wikitext-2-raw) and this website contains also the validate and training files which are not reported here in this github repository from which this HTML page has been generated. Why? Mainly because training (fine-tuning) a very AI model is time/power consuming task that it is still something limited to "expert".
+
+The dataset here presented is suitable for supporting an AI model with RAG. Because I like to start working where as much users as possible can enter (low-access entry-point for a technology) I suggest to use [GPT4All](https://www.nomic.ai/gpt4all) by Nommic AI despite it does not support Intel/Vulkan GPUs and it is still stuck with `Q4_0` legacy quantizisation AI models.
+
+Fortunately for them, Nomic AI GPT4All is quite straightforward to use and it is also open-source. This means that you can use and also modify for your future needs. For these reasons I feel comfortable to present their solution with the words they used:
+
+> **Explainable & Accessible AI**
+> 
+> Refine your Data – Fuel your Models – Run them anywhere
+
+These two sentences are the reason because I am still using it. People who never were in touch with bare-metal AI technology needs a quick-&-easy access point (1st sentence) and the approach they are proposing is good and people can leverage it for business as well.
+
+### Rationale behind the dataset
+
+The dataset presented above fits into their 1st commandment, the 2nd step is about use RAG to fuel the AI model with data that we can independently verify, mangle and check-against. Finally, the 3rd is a "commercial" promise but it is sane. However, as Intel/Vulkan GPUs support lack snows, the apples were never as sweet as they told us in their advertisement.
+
+> Retrieval-Augmented Generation (RAG) is the process of optimizing the output of a large language model, so it references an authoritative knowledge base outside of its training data sources before generating a response.
+
+This above is a brief explanation about the RAG approach for those never heard about. Nomic AI implemented this functions in GPT4All using embedding AI models. Useless to say but just to be clear: without a powerful GPU the most that you can do with a decent AI model is playing with. Hence running AI models in the cloud is the only viable way for a home or sma business user.
+
+However, limitations came also with their own advantages. In being extremely constrained by the laptop/PC we need to use our brain to circumventing its limitations and juicing out as much as possible from the AI models. It is a very good idea to learn, practice and possibly mastering these skills because even if that know-how do not apply 1:1 to large models nor to AI running in cloud, they are very very valuable skills.
+
+Give me six random words is just the beginning of a light-minded engagement with an AI chatbot but also the starting point for developing a game, get in touch with the theory of the games, play with dataset and RAG, do bare minimum practice of filtering, validating data and how to present and leveraging data to compare AI performances and tuning their attitudes. 
+
+* [The system prompt alchemy](the-system-prompt-alchemy.md#?target=_blank)
+
+* [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md#?target=_blank)
+
+* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md#?target=_blank)
+
+* [Manipulation of a chatbot](manipulation-of-a-chatbot.md#?target=_blank)
+
+Tuning an AI model attitude about answering can be seem as tricky as useless because most of the AI model are "instructed" which means that they were fine-tuned with datasets which allow them to learn to follow instructions expressed in human natural language. Secondly but not less relevant: because AI models are trained to be constrained and thus almost harmless.
+
+* [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md#?target=_blank)
+
+Which is not the case for abliterated and uncensored AI models. So, keep in mind that having a AI model potentially capable of behave without constrains (usually due to an [abliteration](https://huggingface.co/blog/mlabonne/abliteration) proccess) and provide every kind of output (uncensored) is something a "thing".
+
+Combine in this scenario that these AI model have some programming skills, give them an operative access to your command shell while they are running leveraging the computational power a high-end gaming GPU videocard,m it may be a THING.
+
+Under this point of view, it might seem to you that playing a "six random words" game can be "childish" but remember that WOPR at Norad as presented in War Games [film](https://en.wikipedia.org/wiki/WarGames) (1983) was playing tic-tac-toe before playing chess and before trying to wipe out humanity escalating a mutual nuclear attack.
+
+> if you feel stupid in playing "*six random words*" with an AI chatbot, probably you are right!
+
+Welcome aboard young Jedi... &#x1F60A;
 
 <br/>
 <br/>
