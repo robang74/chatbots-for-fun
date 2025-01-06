@@ -59,7 +59,7 @@ for i in 1 2 3; do
     let n++
 done
 GOTO_LINKS[1,1]="index.html#pages-index"
-GOTO_LINKS[1,2]="&#x2799;&hairsp;&#8505;&thinsp;&equiv;"
+GOTO_LINKS[1,2]="&#x21b4;&hairsp;&#8505;&thinsp;&equiv;"
 #GOTO_LINKS[1,2]="&#x2798;&hairsp;&#8505;&thinsp;&equiv;"
 
 if grep -qie "^#\{1,3\} *index *$" README.md 2>/dev/null; then
