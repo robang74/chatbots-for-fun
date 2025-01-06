@@ -102,7 +102,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 #### Local AIs
 
-* [gpt4all](https://www.nomic.ai/gpt4all) - Nous Hermes 2-DPO Mistral-7B &thinsp;([**`WRN!`**](neutrality-vs-biases-for-chatbots.html&target=_blank))
+* [gpt4all](https://www.nomic.ai/gpt4all) - Nous Hermes 2-DPO Mistral-7B &thinsp;([**`WRN!`**](neutrality-vs-biases-for-chatbots.html?target=_blank))
 
 * [intro #1](https://www.mseri.me/running-llms-locally) - how to run LLMs locally, part #1
 
