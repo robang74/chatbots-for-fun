@@ -24,7 +24,7 @@ I am not against these values. That's is NOT the point. The issue arises when th
 
 It is not the case of hallucinations. In fact, degreasing its temperature from 0.7 to 0.5, it worsening the situation. This happens because the AI model is strongly biases about some topics that instead of summarizing with an high degree of fidelity a text, it manipulates it colouring it with its own biases. The text on which it was working is the ChatGPT vs Human conversation presented in this page.
 
-* [La semplicità delle direttive in caso di crisi](https://robang74.github.io/chatgpt-answered-prompts/html/la-semplicita-delle-direttive-in-caso-di-crisi.html) with English translation available on the page topbar.
+* [La semplicità delle direttive in caso di crisi](https://robang74.github.io/chatgpt-answered-prompts/html/la-semplicita-delle-direttive-in-caso-di-crisi.html) with English translation available on the topbar.
 
 Please, notice that the dialogue with ChatGPT is not about contrasting those values but put them in a reasonable rational perspective that in brief can be summarized in: "Once we took almost all the same way at almost the same time, the risk of facing a HUGE disaster is implicit because the theory of systems: uniformity vs collapse risk, rigidity vs fragility, single headed governance vs single point of critical failure + the bare law of physic classic mechanics in which high speed moving vs high negative acceleration in case of impact (F=ma)"
 
