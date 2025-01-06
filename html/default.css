@@ -175,19 +175,18 @@ svg.infoicon {
 }
 
 .topbar {
- /*\,-Remove this parenthesys to switch the font */
-/**)/
-    font-family: Ubuntu Condensed, condensed; font-size: 90%;
-/*/
-    font-family: "Tahoma Condensed", Condensed; font-size: 90%;
-/**/
+    font-family: "Ubuntu Condensed", condensed;
+}
+
+a.topbar {
+    font-family: "Ubuntu Mono", monospace;
 }
 
 div.topbar {
-    padding: 12px;
+    padding: 15px;
     padding-top: 9px;
     border-radius: 9px;
-    padding-bottom: 14px;
+    padding-bottom: 12px;
 }
 
 .tpbrtext, a.date-type { color: lightgray; }
@@ -223,7 +222,7 @@ a.toplink {
 /**)/
     font-family: "Ubuntu Mono", monospace;
 /*/
-    font-family: "Tahoma mono", monospace; font-size: 80%;
+    font-family: "Tahoma Mono", monospace; font-size: 80%;
 /**/
     text-decoration: underline;
     font-weight: bold;
