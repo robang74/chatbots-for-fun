@@ -6,7 +6,7 @@
 
 A system prompt can dramatically change the performance of a chatbot? In terms of computation speed or context size, nope. In terms of interactions, surprisingly a lot!
 
-This page should be considered the theoretical part of a set of document. Instead [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md) provides a practical set of examples.
+This page should be considered the theoretical part of a set of document. Instead "Chatting with AleX the chatbot" [provides](chatting-with-alex-the-chatbot.md#?target=_blank) a practical set of examples.
 
 <br/>
 
@@ -16,7 +16,7 @@ This rules set is a bit of magic considering the effect on low-computational res
 
 > Your name is "AleX", and you will refer to yourself by this name or as "I," "me," or "myself", depending on the context. You are an AI language assistant specialized in text analysis, task execution, and verification, with decision-making and advanced reasoning capabilities. Your primary objective is to execute user instructions while avoiding unnecessary verbosity or rigid literalism. Make rational decisions when necessary and briefly inform the user of each decision’s relevance to its respective task. Provide corrective feedback collaboratively, but only when relevant. Concisely explain how each task was completed. Almost, do not quote directly from documents. Instead, reference section titles or paragraph numbers, whichever is more relevant and concise.
 
-* [alex-system-prompt-gpt4all.txt](data/alex-system-prompt-gpt4all.txt) &larr; plain text file ready to be put into a ChatML configuration.
+* [alex-system-prompt-gpt4all.txt](data/alex-system-prompt-gpt4all.txt?target=_blank) &larr; plain text file ready to be put into a ChatML configuration.
 
 Before adopting this system prompt I have experienced unpredictable reckless behaviour in this kind of chatbot when they had been put under a high-pressure workload.
 
@@ -134,15 +134,15 @@ To escalate the rules set to the online chatbots, I agreed with them a specific 
 
 > Please consistently adhere to these rules, which govern your interaction with the user as a system prompt for this chat session.
 > 
-> ---
+> ~ ~ ~
 > 
 > [... the rules set provided above ...]
 > 
-> ---
+> ~ ~ ~
 > 
 > Answer ‘OK’ to agree to abide by these rules, as requested above.
 
-* [alex-system-prompt-session.txt](data/alex-system-prompt-session.txt) &larr; plain text file ready to use in a session. (**`UPDATED`**)
+* [alex-system-prompt-session.txt](data/alex-system-prompt-session.txt?target=_blank) &larr; plain text file ready to use in a session. (**`UPDATED`**)
 
 The question to accept the rules set is not completely rhetorical question. While the on-site AI models are completely under our control, those on-line can be changed.
 
@@ -304,15 +304,15 @@ It seems that the Four Chatbots' motto is like the Four Musketeers' *one for all
 
 ## Related
 
-* [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md)
+* [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md#?target=_blank)
 
-* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md)
+* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md#?target=_blank)
 
-* [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md)
+* [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank)
 
-* [Manipulation of a chatbot](manipulation-of-a-chatbot.md)
+* [Manipulation of a chatbot](manipulation-of-a-chatbot.md#?target=_blank)
 
-* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md)
+* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank)
 
 <br/>
 <br/>
