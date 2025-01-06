@@ -86,7 +86,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 ### Chatbots
 
-* [chatgpt.com](https://chatgpt.com) - lessical reasoning (&thinsp;**`WOW!`**&hairsp;)
+* [chatgpt.com](https://chatgpt.com) - lessical reasoning &thinsp;(&hairsp;**`WOW!`**)
 
 * [gemini.google.com](https://gemini.google.com) - language and search
 
@@ -100,7 +100,13 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 * [claude.ai](https://claude.ai) - coding and data analysis
 
-* [gpt4all](https://www.nomic.ai/gpt4all) - nous hermes-2.5 mistral-7B (&thinsp;**`[WRN](https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11724927)!`**&hairsp;)
+#### Local AIs
+
+* [gpt4all](https://www.nomic.ai/gpt4all) - Nous Hermes 2-DPO Mistral-7B &thinsp;([**`WRN!`**](neutrality-vs-biases-for-chatbots.html&target=_blank))
+
+* [intro #1](https://www.mseri.me/running-llms-locally) - how to run LLMs locally, part #1
+
+* [intro #2](https://www.mseri.me/running-llms-locally-with-ollama) - how to run LLMs locally, part #2
 
 <br/>
 
