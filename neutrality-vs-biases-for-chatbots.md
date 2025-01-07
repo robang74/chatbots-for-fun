@@ -4,7 +4,11 @@
 
 ## Neutrality vs biases for chatbots
 
-* This paper is about the Nous Hermes 2 Mistral DPO [AI model's issues](https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF) and - after being updated at its 2nd edition (since rev.4) about which is [the best AI model](#update-2025-01-07) to choose to be used with Nomic AI gpt4all GUI application.
+* This paper is about the Nous Hermes 2 Mistral DPO [AI model's issues](https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF) and - after being updated at its 2nd edition (since rev.4) about which is the best AI model to choose to be used with Nomic AI gpt4all GUI application.
+
+* This paper content evolved since its publication up to the update revision received on [2025-01-07](#update-2025-01-07) also in the parts which were written before the update, reaching its full second edition in time (since rev.11).
+
+* Along with the various initial revisions and the update, during which most of the content's changes were made, this paper maintained conceptually the same PoV while deepening its argumentations, providing examples, comparisons in other areas of knowledge and [presenting data](img/llma-3-vs-2-quantisation-fork-gap.png?target=_blank) collected by a 3rd party to support the initial PoV.
 
 ---
 
