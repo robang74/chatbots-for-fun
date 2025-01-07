@@ -4,15 +4,15 @@
 
 ## Neutrality vs biases for chatbots
 
-* This paper is about the Nous Hermes 2 Mistral DPO [AI model's issues](https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF) and - after being updated at its 2nd edition (since rev.4) about which is [the best AI model](#update-2025-01-07) to choose to use with Nomic AI gpt4all application.
+* This paper is about the Nous Hermes 2 Mistral DPO [AI model's issues](https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF) and - after being updated at its 2nd edition (since rev.4) about which is [the best AI model](#update-2025-01-07) to choose to be used with Nomic AI gpt4all GUI application.
 
 ---
 
 ### Introduction
 
-First of all, it works greatly considering that Nous Hermes 2 Mistral DPO AI model has *only* 7 billions of parameters with a `Q4_0` legacy quantisation (the `Q4_K_M` is much better). 
+First of all, it works greatly considering that Nous Hermes 2 Mistral DPO AI model has *only* 7 billions of parameters with a `Q4_0` legacy quantisation, while the `Q4_K_M` is much better but not supported. 
 
-I am running it without GPU because Intel GPUs are not supported by gpt4all. Despite these limitations, it is relatively amusing. Unfortunately is strongly biased toward some topics:
+I am running it without the support from a GPU card because the Intel GPUs are not supported by gpt4all. Despite these limitations, it is relatively amusing. Unfortunately, it is also strongly biased toward some topics:
 
 * ecological preservation and environment protection
 
@@ -20,17 +20,39 @@ I am running it without GPU because Intel GPUs are not supported by gpt4all. Des
 
 * universal vaccination policy
 
-I am not against these values. That's NOT the point. The issue arises when those values are so strongly embedded in the model for which it cannot provide the service that it is supposed to do. In fact, asking to analyse a text - part by part - create a list of brief summaries in order to evaluate the structure of the text and the logic reasoning along the text, comes up with "inventing" things.
+Let's get this straight right away. I am not against these values. That's **NOT** the point.
+
+<div class="intermezzo">
+The expected and correct behaviour, in this case, would have been to do the task keeping the output as much as fidel to the original <span nowrap>meaning -- **Gulp!** -- This</span> sentence seems supposing that an AI model is able to "understand" the meaning of a text... 
+
+...well, a mimic of human understanding of it or more specifically speaking a lexical comprehension of text. Statistically speaking, the meaning in all those cases in which opinions <b translate="no">`AND`</b> way of writing are "common" in terms of statistics frequency, related to the *corpus-testii* it learnt from.
+</div>
+
+The issue arises when those values are so strongly embedded in the model for which it cannot provide the service that it is supposed to do. In fact, asking to analyse a text - part by part - create a list of brief summaries in order to evaluate the structure of the text and the logic reasoning along the text, comes up with "inventing" things because of its biases' manipulating influence.
 
 ---
 
 ### The casus-belli
 
-It is not the case of hallucinations. In fact, by decreasing its temperature from 0.7 to 0.5, it is worsening the situation. This happens because the AI model is strongly biassed about some topics that instead of summarizing with a high degree of fidelity a text, it manipulates it, colouring it with its own biases. The text on which it was working is the ChatGPT vs Human conversation presented in this page.
+It is not a case of AI's hallucinations. In fact, by decreasing its temperature (e.g. from 0.7 to 0.5) the biases transfert is worsening. This happens because the AI model is strongly biassed about some topics that instead of summarizing with a high degree of fidelity a text, it manipulates it, colouring it with its own biases. The text on which it was working is the <span translate="no">Gemini vs Human</span> conversation presented in this page.
 
 * [La semplicità delle direttive in caso di crisi](https://robang74.github.io/chatgpt-answered-prompts/html/la-semplicita-delle-direttive-in-caso-di-crisi.html) with English translation available on the topbar.
 
-Please, notice that the dialogue with ChatGPT is not about contrasting those values but put them in a reasonable rational perspective that in brief can be summarized in: "Once we took almost all the same way at almost the same time, the risk of facing a HUGE disaster is implicit because the theory of systems: uniformity vs collapse risk, rigidity vs fragility, single headed governance vs single point of critical failure + the bare law of physic classic mechanics in which high speed moving vs high negative acceleration in case of impact (F=ma)"
+Please, notice that the dialogue with <span translate="no">Gemini</span> is not about contrasting those values but put them in a reasonable rational perspective that in brief can be summarized as in the following paragraph.
+
+<div class="intermezzo">
+Once we took almost all the same way at almost the same time, following apply:
+
+- uniformity vs collapse risk, 
+- rigidity vs fragility, 
+- single headed governance vs single point of critical failure; 
+
+plus the main law of physic, like the `F=ma` in classical mechanics, for which:
+
+- fast moving vs hard deceleration (in case of impact)
+
+In short, the risk of facing a HUGE disaster is implicit because of the theory of systems.
+</div>
 
 As you can imagine, these are NOT arguments against those values but reasonable and legit concerns about HOW that values are managed. In this context the chatbot based on the AI model listed above, decided to introduce its own biases and tainting with them the author’s opinion.
 

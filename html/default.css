@@ -30,6 +30,22 @@ body {
     margin: auto;
 }
 
+hr.intermezzo {
+    border: 0px;
+    height: 0px;
+    border-top: 1px dashed gray;
+    background-color: transparent;
+}
+
+div.intermezzo {
+    border-radius: 10px;
+    border: 1px dashed gray;
+    padding: 20px 30px 10px 30px;
+    background-color: transparent;
+    position: relative;
+
+}
+
 blockquote {
     color: #fff8f0;
     font-size: 110%;

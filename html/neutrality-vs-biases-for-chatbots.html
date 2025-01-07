@@ -10,7 +10,7 @@
     <body>
 <p/>
 <div class='topbar tpbrwarm tpbrtext' translate='no'>&nbsp;<b>&#9783;&thinsp;&Ropf;</b> &nbsp;&mdash;&nbsp; published:&nbsp; <b class='tpbrbold'>2025-01-04<sup class='date-type' id='datenote'>&nbsp;(&hairsp;<a href='#date-legenda' class='date-type tpbrwarm topbar'>&hairsp;2&hairsp;</a>&hairsp;)&nbsp;</sup></b>  &nbsp;&mdash;&nbsp; revision: <b class='tpbrbold
-'>6</b class='
+'>7</b class='
 '> &nbsp;&mdash;&nbsp; translate:&nbsp; <a class='tpbrwarm topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/neutrality-vs-biases-for-chatbots?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='tpbrwarm topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/neutrality-vs-biases-for-chatbots?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='tpbrwarm topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/neutrality-vs-biases-for-chatbots?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='tpbrwarm topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/neutrality-vs-biases-for-chatbots?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &nbsp;&mdash;&nbsp; goto:&nbsp; <a class='tpbrwarm topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='tpbrwarm topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='tpbrwarm topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a>&nbsp;</div>
 <div id="firstdiv">
 <p/>
@@ -18,15 +18,15 @@
 <p/>
 <H2 id="neutrality-vs-biases-for-chatbots">Neutrality vs biases for chatbots</H2>
 <p/>
-<li>This paper is about the Nous Hermes 2 Mistral DPO <a href="https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF" target='_blank' rel='noopener noreferrer'>AI model's issues</a> and - after being updated at its 2nd edition (since rev.4) about which is <a href="#update-2025-01-07">the best AI model</a> to choose to use with Nomic AI gpt4all application.</li>
+<li>This paper is about the Nous Hermes 2 Mistral DPO <a href="https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF" target='_blank' rel='noopener noreferrer'>AI model's issues</a> and - after being updated at its 2nd edition (since rev.4) about which is <a href="#update-2025-01-07">the best AI model</a> to choose to be used with Nomic AI gpt4all GUI application.</li>
 <p/>
 <hr>
 <p/>
 <H3 id="introduction">Introduction</H3>
 <p/>
-First of all, it works greatly considering that Nous Hermes 2 Mistral DPO AI model has <i>only</i> 7 billions of parameters with a <tt>Q4_0</tt> legacy quantisation (the <tt>Q4_K_M</tt> is much better). 
+First of all, it works greatly considering that Nous Hermes 2 Mistral DPO AI model has <i>only</i> 7 billions of parameters with a <tt>Q4_0</tt> legacy quantisation, while the <tt>Q4_K_M</tt> is much better but not supported. 
 <p/>
-I am running it without GPU because Intel GPUs are not supported by gpt4all. Despite these limitations, it is relatively amusing. Unfortunately is strongly biased toward some topics:
+I am running it without the support from a GPU card because the Intel GPUs are not supported by gpt4all. Despite these limitations, it is relatively amusing. Unfortunately, it is also strongly biased toward some topics:
 <p/>
 <li>ecological preservation and environment protection</li>
 <p/>
@@ -34,17 +34,39 @@ I am running it without GPU because Intel GPUs are not supported by gpt4all. Des
 <p/>
 <li>universal vaccination policy</li>
 <p/>
-I am not against these values. That's NOT the point. The issue arises when those values are so strongly embedded in the model for which it cannot provide the service that it is supposed to do. In fact, asking to analyse a text - part by part - create a list of brief summaries in order to evaluate the structure of the text and the logic reasoning along the text, comes up with "inventing" things.
+Let's get this straight right away. I am not against these values. That's <b>NOT</b> the point.
+<p/>
+<div class="intermezzo">
+The expected and correct behaviour, in this case, would have been to do the task keeping the output as much as fidel to the original <span nowrap>meaning -- <b>Gulp!</b> -- This</span> sentence seems supposing that an AI model is able to "understand" the meaning of a text... 
+<p/>
+...well, a mimic of human understanding of it or more specifically speaking a lexical comprehension of text. Statistically speaking, the meaning in all those cases in which opinions <b translate="no"><tt>AND</tt></b> way of writing are "common" in terms of statistics frequency, related to the <i>corpus-testii</i> it learnt from.
+</div>
+<p/>
+The issue arises when those values are so strongly embedded in the model for which it cannot provide the service that it is supposed to do. In fact, asking to analyse a text - part by part - create a list of brief summaries in order to evaluate the structure of the text and the logic reasoning along the text, comes up with "inventing" things because of its biases' manipulating influence.
 <p/>
 <hr>
 <p/>
 <H3 id="the-casus-belli">The casus-belli</H3>
 <p/>
-It is not the case of hallucinations. In fact, by decreasing its temperature from 0.7 to 0.5, it is worsening the situation. This happens because the AI model is strongly biassed about some topics that instead of summarizing with a high degree of fidelity a text, it manipulates it, colouring it with its own biases. The text on which it was working is the ChatGPT vs Human conversation presented in this page.
+It is not a case of AI's hallucinations. In fact, by decreasing its temperature (e.g. from 0.7 to 0.5) the biases transfert is worsening. This happens because the AI model is strongly biassed about some topics that instead of summarizing with a high degree of fidelity a text, it manipulates it, colouring it with its own biases. The text on which it was working is the <span translate="no">Gemini vs Human</span> conversation presented in this page.
 <p/>
 <li><a href="https://robang74.github.io/chatgpt-answered-prompts/html/la-semplicita-delle-direttive-in-caso-di-crisi.html" target='_blank' rel='noopener noreferrer'>La semplicità delle direttive in caso di crisi</a> with English translation available on the topbar.</li>
 <p/>
-Please, notice that the dialogue with ChatGPT is not about contrasting those values but put them in a reasonable rational perspective that in brief can be summarized in: "Once we took almost all the same way at almost the same time, the risk of facing a HUGE disaster is implicit because the theory of systems: uniformity vs collapse risk, rigidity vs fragility, single headed governance vs single point of critical failure + the bare law of physic classic mechanics in which high speed moving vs high negative acceleration in case of impact (F=ma)"
+Please, notice that the dialogue with <span translate="no">Gemini</span> is not about contrasting those values but put them in a reasonable rational perspective that in brief can be summarized as in the following paragraph.
+<p/>
+<div class="intermezzo">
+Once we took almost all the same way at almost the same time, following apply:
+<p/>
+<li>uniformity vs collapse risk, </li>
+<li>rigidity vs fragility, </li>
+<li>single headed governance vs single point of critical failure; </li>
+<p/>
+plus the main law of physic, like the <tt>F=ma</tt> in classical mechanics, for which:
+<p/>
+<li>fast moving vs hard deceleration (in case of impact)</li>
+<p/>
+In short, the risk of facing a HUGE disaster is implicit because of the theory of systems.
+</div>
 <p/>
 As you can imagine, these are NOT arguments against those values but reasonable and legit concerns about HOW that values are managed. In this context the chatbot based on the AI model listed above, decided to introduce its own biases and tainting with them the author’s opinion.
 <p/>
