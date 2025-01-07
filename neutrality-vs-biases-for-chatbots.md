@@ -146,21 +146,24 @@ So, we got a grasp about AI models' quantisation pros and cons, the immediate st
 
 ### A legacy system
 
-First of all we have to notice that `Q4_0` quantisation is considered a legacy technology which works "better" with legacy AI models, unsurprisingly. People who developed this technology were not dumb and they chose a good way to achieve a good result in dealing with the AI model they had available at that time: `Q4_0` with `LLMA-2`.
+First of all we have to notice that `Q4_0` quantisation is considered a legacy technology which works "better" with legacy AI models, unsurprisingly. People who developed this technology were smart and they chose a good way to achieve a good result in dealing with the AI model they had available at that time: `Q4_0` with `LLMA-2`.
 
 In the meantime, technologies advanced on both fronts and now LLMA-3 is better than LLMA-2 while `Q4_K_M` is better than `Q4_0`. Unsurprisingly, from this plain straight consideration emerges an evergreen: a specific job requires a specific tool, and both should be aligned. So, how can we cast this in practice?
 
-Using LLMA-3 with `Q4_K_M` seems the most obvious solution, in general. However, those who are using gpt4all cannot go for something else than `Q4_0 GUFF` format. For this reason Nomic AI who drive the gpt4all application development and chooses/finetunes those AI models which are offering the best compatibility, should go for gpt-3 + llma-2 merge in proposing AI models as chatbot (text-creation class).
+Using LLMA-3 with `Q4_K_M` seems the most obvious solution, in general. However, those who are using gpt4all cannot go for something other than `Q4_0 GUFF` format. For this reason Nomic AI who drive the gpt4all application development and chooses to fine-tune those AI models which are offering the best compatibility, should go for gpt-3 + llma-2 merge in proposing AI models as chatbot (text-creation class).
 
-However, a second stage of adaptation is strongly required to cope with "legacy" technology supported by gpt4all. In fact, running an AI model on a consumer laptop/PC is something seriously limiting. Which is also good because we need to leverage our brains to squeeze as much juice as possible with the minimum requirements and effort (efficiency).
+However, a second stage of adaptation is strongly required to cope with "legacy" technology, the only one supported by the open-source version of gpt4all. In fact, running an AI model on a consumer laptop/PC is something seriously limiting. Which is also good because we need to leverage our brains to squeeze as much juice as possible with the minimum requirements and effort (efficiency).
 
 In order to improve efficiency it is necessary to provide guidance lines in the system prompt. This [paper](https://robang74.github.io/chatbots-for-fun/html/the-system-prompt-alchemy.html) about system prompt alchemy goes deeper in this topic. Unfortunately, an advanced system prompt requires that the AI model is able to follow instructions and understand how rules (general guidelines, *what*) became instructions (contextual application, *how*).
 
+
 ---
 
-### The legacy receipt
+### The legacy recipe
 
-To fulfil the requirements above - the best candidates are text-generative AI models (chat + llm) with 7 billions of parameters "instructed" and knowledgeable because when context matters, knowledge matters as well. After all, without knowledge, there is no context at all. Hence, lesser the knowledge smaller the context and vice-versa more knowledge broader the context. So, how to match these requirements. Here the receipt:
+To fulfil the requirements above - the best candidates are text-generative AI models (chat + llm) with 7 billions of parameters "instructed" and knowledgeable because when context matters, knowledge matters as well.
+
+After all, without knowledge, there is no context at all. Hence, lesser the knowledge smaller the context and vice-versa more knowledge broader the context. So, how to match these requirements. Here the recipe:
 
 1. a chatbot AI engine, like OpenAI GPT-3 or Intel Neural Chat, etc.;
 
@@ -178,27 +181,27 @@ The standard way of doing that is quite straightforward seeing what is most freq
 
 3. fine tuning with a relatively smaller dataset about how to follow instruction from the user prompt;
 
-4. quantisation `Q4_0` when legacy is required and packaging with `GUFF` this is compulsory.
+4. quantisation, using `Q4_0` when this legacy algorithm is required and packaging with the `GUFF` format when it is compulsory or useful.
 
-Looking from the perspective of a data scientist with some knowledge about human psychology, considering that AI is mirroring the human traits, then this receipt is straightforward and clear. 
+Looking from the perspective of a data scientist with some knowledge about human psychology, considering that AI is mirroring the human traits, then this recipe is straightforward and clear.
 
 ---
 
 ### Is there anybody out there?
 
-Therefore, even including that the adoption of LLMA-3 was a marketing choice, why is there not into gpt4all AI models catalogue a GPT-3 (Slerp) LLMA-2 fine tuned OH 2.5 slim instruct? The most probable answer is:
+Therefore, even including that the adoption of LLMA-3 was a marketing choice, why is there not, into gpt4all catalogue, **any** of a GPT-3 [Slerp](https://en.wikipedia.org/wiki/Slerp) merged LLMA-2 fine tuned on OH 2.5 and OO slim instruct AI models? The most probable answer is:
 
 - because such training is "uncommon"
 
-   - because Hermes and Orca are competing for the weights which are limited
+   - because Hermes and Orca trainings are competing for setting the matrixes weights which are limited
 
-   - hence their dataset designed to be alternative rather than complementary
+   - hence those datasets were designed to be alternative rather than complementary
 
 - because it is an "anti-marketing" choice
 
    - gpt4all is a open-source applications which amateurs download pay nothing
    
-   - amateurs wishes to try the most trending AI models, not a geniette-in-a-box
+   - amateurs wishes to try the most trending AI models, not a "geniette-in-a-box"
 
 - because those who use CLI-only tools have no such restrictions
 
@@ -206,13 +209,15 @@ Therefore, even including that the adoption of LLMA-3 was a marketing choice, wh
 
    - which is the best scenario for a nerdish divulgation oriented incursion.
 
-Finally, what is missing? The user base (aka market niche).
+So, what is missing? The user base (aka market niche).
 
 ---
 
 ### Conclusions
 
-In summary, who has the skills to provide such a AI model leveraging cloud platform and distributed pay-for-compute plans, they are also skilled enough for using a CLI-only approach which allows them to use newest models quantised with newest algorithms and packaged using the newest formats. The others are proudly cheering in watching a trendy chatbot running on their consumer hardware while few are smiling at this article... &#128522;
+In summary, who has the skills to provide such a AI model leveraging cloud platform and distributed pay-for-compute plans, they are also skilled enough for using a CLI-only approach which allows them to use newest models quantised with newest algorithms and packaged using the newest formats.
+
+The others are proudly cheering in watching a trendy chatbot running on their consumer hardware while few are smiling at this article... &#128522;
 
 <br/>
 
