@@ -4,7 +4,7 @@
 
 ## Neutrality vs biases for chatbots
 
-* This paper is about the [AI model](https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF) Nous Hermes 2 Mistral DPO's issue and - after being updated at its 2nd edition (since rev.4) about which is the [best AI](#update-2025-01-07) model to chose to use with Nomic AI gpt4all application.
+* This paper is about the Nous Hermes 2 Mistral DPO [AI model's issues](https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF) and - after being updated at its 2nd edition (since rev.4) about which is [the best AI model](#update-2025-01-07) to choose to use with Nomic AI gpt4all application.
 
 ---
 
@@ -20,29 +20,29 @@ I am running it without GPU because Intel GPUs are not supported by gpt4all. Des
 
 * universal vaccination policy
 
-I am not against these values. That's is NOT the point. The issue arises when those values are so strongly embedded in the model for which it cannot provide the service that it supposed to do. In fact, asking to analyse a text - part by part - create a list of brief summaries in order to evaluate the structure of the text and the logic reasoning along the text, it comes up "inventing" things.
+I am not against these values. That's NOT the point. The issue arises when those values are so strongly embedded in the model for which it cannot provide the service that it is supposed to do. In fact, asking to analyse a text - part by part - create a list of brief summaries in order to evaluate the structure of the text and the logic reasoning along the text, comes up with "inventing" things.
 
 ---
 
 ### The casus-belli
 
-It is not the case of hallucinations. In fact, degreasing its temperature from 0.7 to 0.5, it worsening the situation. This happens because the AI model is strongly biases about some topics that instead of summarizing with an high degree of fidelity a text, it manipulates it colouring it with its own biases. The text on which it was working is the ChatGPT vs Human conversation presented in this page.
+It is not the case of hallucinations. In fact, by decreasing its temperature from 0.7 to 0.5, it is worsening the situation. This happens because the AI model is strongly biassed about some topics that instead of summarizing with a high degree of fidelity a text, it manipulates it, colouring it with its own biases. The text on which it was working is the ChatGPT vs Human conversation presented in this page.
 
 * [La semplicità delle direttive in caso di crisi](https://robang74.github.io/chatgpt-answered-prompts/html/la-semplicita-delle-direttive-in-caso-di-crisi.html) with English translation available on the topbar.
 
 Please, notice that the dialogue with ChatGPT is not about contrasting those values but put them in a reasonable rational perspective that in brief can be summarized in: "Once we took almost all the same way at almost the same time, the risk of facing a HUGE disaster is implicit because the theory of systems: uniformity vs collapse risk, rigidity vs fragility, single headed governance vs single point of critical failure + the bare law of physic classic mechanics in which high speed moving vs high negative acceleration in case of impact (F=ma)"
 
-As you can imagine, these are NOT arguments against those values but reasonable and legit concerns about HOW that values are managed. In this context the chatbot based on the AI model listed above, decided to introduce its own biases tainting with them the author’s opinion.
+As you can imagine, these are NOT arguments against those values but reasonable and legit concerns about HOW that values are managed. In this context the chatbot based on the AI model listed above, decided to introduce its own biases and tainting with them the author’s opinion.
 
-The best part was when I asked to it why it invented those things. Surprisingly, it provided to me a relatively long answer in which the first part was about "literature about that topics should be also considered not just the author opinion" and in the second part trying to convince me that it was doing good in reporting rather than inventing. So, I answered that I was sure about it was inventing thing because I was "the author" of that text, **BOOM**. &#x1F604;
+The best part was when I asked why it invented those things. Surprisingly, it provided me with a relatively long answer in which the first part was about "literature about those topics should be also considered not just the author's opinion" and in the second part trying to convince me that it was doing good in reporting rather than inventing. So, I answered that I was sure about it was inventing thing because I was "the author" of that text, **BOOM**. &#x1F604;
 
 ---
 
 ### One extra mile
 
-Finally, it is noticeable that it has a quite interesting mild bias - but not particularly strong, at least in this test - about ethic. In fact, this biases do not allows it to correctly differentiate the "ethic" and the "moral hazard". I mean, ethic is about doing the right thing - like proposing vaccination - the moral hazard is HOW the right thing is enforced or managed.
+Finally, it is noticeable that it has a quite interesting mild bias - but not particularly strong, at least in this test - about ethics. In fact, this bias does not allow it to correctly differentiate the "ethic" and the "moral hazard". I mean, ethics is about doing the right thing - like proposing vaccination - the moral hazard is HOW the right thing is enforced or managed.
 
-IMHO, this distinction is pretty clear into that dialogue because explaining it is the reason for which Gemini decided to agree with me. Once, Gemini correctly identified my position to be NOT against its value but trying to put their management into a rational framework, accept to agree with me despite in some previous prompt show pathetic censorship and strongly biases about those topic.
+IMHO, this distinction is pretty clear in that dialogue because explaining it is the reason for which Gemini decided to agree with me. Once, Gemini correctly identified my position to be NOT against its value but trying to put their management into a rational framework, accepting to agree with me despite some previous prompts showing pathetic censorship and strong biases about those topics.
 
 I have to admit that the process of prompting / engaging the AI model was purposely a bit malicious in order to trick the model to expose its own biases. Where "a bit malicious" means something reasonable like in a decent human conversation: in asking you to execute a task, I give you the feeling that you can introduce "your own stuff" in it. However, because I know my own stuff, I get informed about your stuff (biases).
 
@@ -84,11 +84,11 @@ In my humble opinion (IMHO) the term "probably" is just a *memento* for saying t
 
 ### Humans similarity
 
-Explaining this phenomenon with a human example - after all, the AI models are mirrors of humans - can be achieved comparing a brilliant and highly educated person (**Tizio**) with a person (**Caio**) on which the mass education system enforced a irrational way of thinking. Imagine that both these two person developed or accepted strong biases about some topics, the same topics both. 
+Explaining this phenomenon with a human example - after all, the AI models are mirrors of humans - can be achieved comparing a brilliant and highly educated person (**Tizio**) with a person (**Caio**) on which the mass education system enforced an irrational way of thinking. Imagine that both these two persons developed or accepted strong biases about some topics, the same topics both.
 
-- While **Tizio** perceive a lot of details about his own biases, despite his strong convictions do not try to enforce them to others people and based on context can decide how to handle a confrontation among different opinions. Moreover, his arguments is rational and highly educated, therefore he is not willing to impose his own PoV over others. Because he knows that what is good for him can be not good enough for others. Moreover, even if others can improve their own situation adapting his PoV, he knows that people has their own life path and unless they are in an imminent danger or a danger imminent for others, they have the full right to go for their own way. Live and let others living. With this open-mind attitude, he is prone to enlarge and diversify his sets of friends, peers, interest, ideas, etc.
+- While **Tizio** perceive a lot of details about his own biases, despite his strong convictions do not try to enforce them on other people and based on context can decide how to handle a confrontation among different opinions. Moreover, his arguments are rational and highly educated, therefore he is not willing to impose his own PoV over others. Because he knows that what is good for him can not be good enough for others. Moreover, even if others can improve their own situation by adapting his PoV, he knows that people have their own life path and unless they are in an imminent danger or a danger imminent for others, they have the full right to go their own way. Live and let others live. With this open-mind attitude, he is prone to enlarge and diversify his sets of friends, peers, interest, ideas, etc.
 
-- Instead, **Caio** do not have such fine-grained distinction about details plus he received a kind of education that made him incapable of rational high-level reasoning. Therefore, he tends to oversimplify concepts usually in just two categories {yes/no, good/bad, me/you, white/black, ...}. Because this oversimplification (quantisation from `f32` to `Q4_0`) the strong biases crystallised in his mind becoming compulsive while fine-grain details faded away. Therefore, many misbehaviour attitude will emerge like trying to impose to others their own biases also when the context might suggest another milder approach (listening, learning, etc.) and/or he has problems in differentiate himself from others (social addiction, closed circle of friends or peers) creating a vicious loop of unfactual self-assement.
+- Instead, **Caio** do not have such fine-grained distinction about details plus he received a kind of education that made him incapable of rational high-level reasoning. Therefore, he tends to oversimplify concepts usually in just two categories {yes/no, good/bad, me/you, white/black, ...}. Because of this oversimplification (quantisation from `f32` to `Q4_0`) the strong biases crystallised in his mind becoming compulsive while fine-grain details faded away. Therefore, many misbehaviour attitude will emerge like trying to impose to others their own biases also when the context might suggest another milder approach (listening, learning, etc.) and/or he has problems in differentiate himself from others (social addiction, closed circle of friends or peers) creating a vicious loop of unfactual self-assessment.
 
 Now, imagine that Caio is the "*reduced*" version of Tizio and you have got with a single shot two target:
 
@@ -96,27 +96,27 @@ Now, imagine that Caio is the "*reduced*" version of Tizio and you have got with
 
 2. now that we know about how and how much the "*quantisation*" impacts on AI models, we can effectively try to work-around in order to avoid the issue which buys for us more time to solve the problem more in general, **possibly** also for humans. This [paper](https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html) about the AI involvement into a restructuring plan to drive the mass education system out of the 1800's Industrial Revolution paradigms goes deeper in this topic.
 
-So, not that we got a grasp about AI models quantisation pros and cons, the immediate step is to avoid as much as possible the cons while leveraging the benefits.
+So, not that we got a grasp about AI models' quantisation pros and cons, the immediate step is to avoid as much as possible the cons while leveraging the benefits.
 
 ---
 
 ### A legacy system
 
-First of all we have to notice that `Q4_0` quantisation is considered a legacy technology which works "better" with legacy AI models, unsurprisingly. People who developed this technology were not dumb and they choose a good way of doing to achieve a good result in dealing with the AI model they had available at that time: `Q4_0` with `LLMA-2`.
+First of all we have to notice that `Q4_0` quantisation is considered a legacy technology which works "better" with legacy AI models, unsurprisingly. People who developed this technology were not dumb and they chose a good way to achieve a good result in dealing with the AI model they had available at that time: `Q4_0` with `LLMA-2`.
 
-In the meantime, technologies advanced on both the fronts and now LLMA-3 is better than LLMA-2 while `Q4_K_M` is better than `Q4_0`. Unsurprisingly, from this plain straight consideration emerges an evergreen: a specific job requires a specific tool, and both should be aligned. So, how we can cast this in practice?
+In the meantime, technologies advanced on both fronts and now LLMA-3 is better than LLMA-2 while `Q4_K_M` is better than `Q4_0`. Unsurprisingly, from this plain straight consideration emerges an evergreen: a specific job requires a specific tool, and both should be aligned. So, how can we cast this in practice?
 
-Using LLMA-3 with Q4_K_M seems the most obvious solution, in general. However, those many are using gpt4all cannot go for something else than `Q4_0 GUFF` format. For this reason Nomic AI who drive the gpt4all application development and chooses/finetunes those AI models which are offering the best compatibility, should go for gpt-3 + llma-2 merge in proposing AI models as chatbot (text-creation class).
+Using LLMA-3 with Q4_K_M seems the most obvious solution, in general. However, those who are using gpt4all cannot go for something else than `Q4_0 GUFF` format. For this reason Nomic AI who drive the gpt4all application development and chooses/finetunes those AI models which are offering the best compatibility, should go for gpt-3 + llma-2 merge in proposing AI models as chatbot (text-creation class).
 
 However, a second stage of adaptation is strongly required to cope with "legacy" technology supported by gpt4all. In fact, running an AI model on a consumer laptop/PC is something seriously limiting. Which is also good because we need to leverage our brains to squeeze as much juice as possible with the minimum requirements and effort (efficiency).
 
-In order to improve efficiency is necessary to provide guidance lines in the system prompt. This [paper](https://robang74.github.io/chatbots-for-fun/html/the-system-prompt-alchemy.html) about system prompt alchemy goes deeper in this topic. Unfortunately, an advanced system prompt requires that the AI model is able to follow instructions and understand how rules (general guidelines, *what*) became instructions (contextual application, *how*).
+In order to improve efficiency it is necessary to provide guidance lines in the system prompt. This [paper](https://robang74.github.io/chatbots-for-fun/html/the-system-prompt-alchemy.html) about system prompt alchemy goes deeper in this topic. Unfortunately, an advanced system prompt requires that the AI model is able to follow instructions and understand how rules (general guidelines, *what*) became instructions (contextual application, *how*).
 
 ---
 
 ### The legacy receipt
 
-To fulfil the requirements above - the best candidates are text-generative AI models (chat + llm) with 7 billions of parameters "instructed" and knowledgeable because when context matters, knowledge matters as well. After all, without knowledge, there is not context at all. Hence, lesser the knowledge smaller the context and vice-versa more knowledge broader the context. So, how to match these requirement. Here the receipt:
+To fulfil the requirements above - the best candidates are text-generative AI models (chat + llm) with 7 billions of parameters "instructed" and knowledgeable because when context matters, knowledge matters as well. After all, without knowledge, there is no context at all. Hence, lesser the knowledge smaller the context and vice-versa more knowledge broader the context. So, how to match these requirements. Here the receipt:
 
 1. a chatbot AI engine, like OpenAI GPT-3 or Intel Neural Chat, etc.;
 
@@ -136,13 +136,13 @@ The standard way of doing that is quite straightforward seeing what is most freq
 
 4. quantisation `Q4_0` when legacy is required and packaging with `GUFF` this is compulsory.
 
-Looking from the perspective of a data scientist with some knowledge about human psychology, considering that AI are mirroring the humans traits, then this receipt is straightforward clear. 
+Looking from the perspective of a data scientist with some knowledge about human psychology, considering that AI is mirroring the human traits, then this receipt is straightforward and clear. 
 
 ---
 
 ### Is there anybody out there?
 
-Therefore, even including that the adoption of LLMA-3 was a marketing choice, why there is not into gpt4all AI models catalogue a GPT-3 (Slerp) LLMA-2 fine tuned OH 2.5 slim instruct? The most probable answer is:
+Therefore, even including that the adoption of LLMA-3 was a marketing choice, why is there not into gpt4all AI models catalogue a GPT-3 (Slerp) LLMA-2 fine tuned OH 2.5 slim instruct? The most probable answer is:
 
 - because such training is "uncommon"
 
@@ -162,13 +162,13 @@ Therefore, even including that the adoption of LLMA-3 was a marketing choice, wh
 
    - which is the best scenario for a nerdish divulgation oriented incursion.
 
-Finally, what is missing? The users base (aka market niche).
+Finally, what is missing? The user base (aka market niche).
 
 ---
 
 ### Conclusions
 
-In summary, who has the skills to provide such a AI model leveraging cloud platform and distributed pay-for-compute plans, they are also enough skilled for using a CLI-only approach which allows them to use newest models quantised with newest algorithms and packaged using the newest formats. The others are proudly cheering in watching a trendy chatbot running on their consumer hardware while few are smiling at this article... &#128522;
+In summary, who has the skills to provide such a AI model leveraging cloud platform and distributed pay-for-compute plans, they are also skilled enough for using a CLI-only approach which allows them to use newest models quantised with newest algorithms and packaged using the newest formats. The others are proudly cheering in watching a trendy chatbot running on their consumer hardware while few are smiling at this article... &#128522;
 
 <br/>
 
@@ -193,3 +193,4 @@ In summary, who has the skills to provide such a AI model leveraging cloud platf
 &copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
+
