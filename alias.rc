@@ -4,7 +4,7 @@ c() {
         i=${i/.md/.html}
         i=${i/README/index}
         test -r "$i" || i="html/$i"
-        bash -c "chromium-browser $i >/dev/null" &
+        bash -c "nohup chromium-browser $i >/dev/null 2>&1 &"
     done
     echo
 }
