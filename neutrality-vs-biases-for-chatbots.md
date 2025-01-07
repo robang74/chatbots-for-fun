@@ -106,7 +106,7 @@ Please, notice that the bias neutrality of an AI model is way more **IMPORTANT**
 
 ## Update 2025-01-07
 
-This image below from [r/localLLaMA](https://www.reddit.com/r/LocalLLaMA/) depicts the main reason because the `Q4_0` quantisation of the LLMA-3 models can create artefacts like biases tainting attitude.
+The following image, taken from [r/localLLaMA](https://www.reddit.com/r/LocalLLaMA/), illustrates the main reason why the quantisation of LLMA-3 models can create artefacts in the neural network weights, which induce distortions in the quantised AI model, such as bias reinforcement or increased bias compared to the original floating-point-encoded AI model.
 
 > Llama 3 degrades more than Llama 2 when quantized.
 > 
@@ -116,25 +116,31 @@ This image below from [r/localLLaMA](https://www.reddit.com/r/LocalLLaMA/) depic
 
 <div align="center"><img src="img/llma-3-vs-2-quantisation-fork-gap.png" width="800"><br/></div>
 
-In my humble opinion (IMHO) the term "probably" is just a *memento* for saying that 8 months ago that claim was not verified out of any scientific reasonable scepticism.
+<sup class="sup-note">Right click to enlarge the image in a new window.</sup>
+
+In brief, the quantized model can loose relevant details about a concept it has learnt as much as it has leveraged every single bit of information stored in the floating-point weight matrixes (to be precise, each layer has its own matrix) to learn it.
+
+Moreover, in that sentence, the term "probably" is just a *memento* to highlight that 8 months ago this statement was not yet verified against every reasonable scientific sceptic critic.
 
 ---
 
 ### Humans similarity
 
-Explaining this phenomenon with a human example - after all, the AI models are mirrors of humans - can be achieved comparing a brilliant and highly educated person (**Tizio**) with a person (**Caio**) on which the mass education system enforced an irrational way of thinking. Imagine that both these two persons developed or accepted strong biases about some topics, the same topics both.
+Explaining this phenomenon with a human example - after all, the AI models are mirrors of humans - can be achieved comparing a brilliant and highly educated person (**Tizio**) with a person (**Caio**) on which the mass education system enforced an irrational way of thinking.
 
-- While **Tizio** perceive a lot of details about his own biases, despite his strong convictions do not try to enforce them on other people and based on context can decide how to handle a confrontation among different opinions. Moreover, his arguments are rational and highly educated, therefore he is not willing to impose his own PoV over others. Because he knows that what is good for him can not be good enough for others. Moreover, even if others can improve their own situation by adapting his PoV, he knows that people have their own life path and unless they are in an imminent danger or a danger imminent for others, they have the full right to go their own way. Live and let others live. With this open-mind attitude, he is prone to enlarge and diversify his sets of friends, peers, interest, ideas, etc.
+Imagine that both these two persons developed or accepted strong biases about some topics, the same topics both.
 
-- Instead, **Caio** do not have such fine-grained distinction about details plus he received a kind of education that made him incapable of rational high-level reasoning. Therefore, he tends to oversimplify concepts usually in just two categories {yes/no, good/bad, me/you, white/black, ...}. Because of this oversimplification (quantisation from `f32` to `Q4_0`) the strong biases crystallised in his mind becoming compulsive while fine-grain details faded away. Therefore, many misbehaviour attitude will emerge like trying to impose to others their own biases also when the context might suggest another milder approach (listening, learning, etc.) and/or he has problems in differentiate himself from others (social addiction, closed circle of friends or peers) creating a vicious loop of unfactual self-assessment.
+- While **Tizio** perceive a lot of details about his own biases, despite his strong convictions do not try to enforce them on other people and based on context can decide how to handle a confrontation among different opinions. Plus, his arguments are rational and highly educated, therefore he is not willing to impose his own PoV over others. Because he knows that what is good for him may not be good enough for others. Moreover, even if others can improve their own situation by adapting his PoV, he knows that people have their own life path and unless they are in an imminent danger or putting others in an imminent danger, they have the full right to go their own way. Live and let others live. With this open-mind attitude, he is prone to enlarge and diversify his sets of friends, peers, interests, ideas, etc.
 
-Now, imagine that Caio is the "*reduced*" version of Tizio and you have got with a single shot two target:
+- Instead, **Caio** do not have such fine-grained distinction about its own biases' details plus he received a kind of education that made him incapable of rational high-level reasoning. Therefore, he tends to oversimplify concepts usually in just two categories {yes/no, good/bad, me/you, white/black, ...}. Because of this oversimplification (quantisation from `fp32` to `Q4_0`) the strong biases crystallised in his mind becoming compulsive while fine-grain details faded away. Therefore, many misbehaviour attitude will emerge like trying to impose to others their own biases also when the context might suggest a milder approach (listening, learning, etc.) and/or he has problems in differentiate himself from others (social addiction, closed circle of friends or colleagues) creating a vicious loop of unfactual self-assessment.
 
-1. the mass education system operates to provide society with useful idiots, like Caio because they still are productive but are less demanding in terms of living-space and payroll-costs even if they rarely contribute positively to the society apart produce (a little), consume (a little) and fade away (oblivion). This [paper](https://robang74.github.io/chatgpt-answered-prompts/html/propaganda-e-sistema-educativo.html) about the relationship between mass education system and propaganda goes deeper in this topic.
+Now, imagine that Caio is the "*reduced*" version of Tizio. With this concept we have got two targets with a single shot.
 
-2. now that we know about how and how much the "*quantisation*" impacts on AI models, we can effectively try to work-around in order to avoid the issue which buys for us more time to solve the problem more in general, **possibly** also for humans. This [paper](https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html) about the AI involvement into a restructuring plan to drive the mass education system out of the 1800's Industrial Revolution paradigms goes deeper in this topic.
+1. the mass education system operates to provide society with useful idiots, like Caio because they still are productive but are less demanding in terms of living-space and payroll-costs plus they lack the fundamentals skills to bring innovation into the society but they are limited to produce (a little), to consume (a little) and fading away (oblivion). This [paper](https://robang74.github.io/chatgpt-answered-prompts/html/propaganda-e-sistema-educativo.html) about the relationship between mass education system and propaganda goes deeper in this specific topic.
 
-So, not that we got a grasp about AI models' quantisation pros and cons, the immediate step is to avoid as much as possible the cons while leveraging the benefits.
+2. now that we know about how and how much the "*quantisation*" impacts on AI models, we can effectively try to work-around in order to avoid the issue which buys for us more time to solve the problem more in general, **possibly** also for humans. This [paper](https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html) about the AI involvement into a restructuring plan to drive the mass education system out of the 1800's Industrial Revolution paradigms goes deeper in this specific topic.
+
+So, we got a grasp about AI models' quantisation pros and cons, the immediate step is to avoid as much as possible the cons while continuing to leverage the benefits.
 
 ---
 
@@ -144,7 +150,7 @@ First of all we have to notice that `Q4_0` quantisation is considered a legacy t
 
 In the meantime, technologies advanced on both fronts and now LLMA-3 is better than LLMA-2 while `Q4_K_M` is better than `Q4_0`. Unsurprisingly, from this plain straight consideration emerges an evergreen: a specific job requires a specific tool, and both should be aligned. So, how can we cast this in practice?
 
-Using LLMA-3 with Q4_K_M seems the most obvious solution, in general. However, those who are using gpt4all cannot go for something else than `Q4_0 GUFF` format. For this reason Nomic AI who drive the gpt4all application development and chooses/finetunes those AI models which are offering the best compatibility, should go for gpt-3 + llma-2 merge in proposing AI models as chatbot (text-creation class).
+Using LLMA-3 with `Q4_K_M` seems the most obvious solution, in general. However, those who are using gpt4all cannot go for something else than `Q4_0 GUFF` format. For this reason Nomic AI who drive the gpt4all application development and chooses/finetunes those AI models which are offering the best compatibility, should go for gpt-3 + llma-2 merge in proposing AI models as chatbot (text-creation class).
 
 However, a second stage of adaptation is strongly required to cope with "legacy" technology supported by gpt4all. In fact, running an AI model on a consumer laptop/PC is something seriously limiting. Which is also good because we need to leverage our brains to squeeze as much juice as possible with the minimum requirements and effort (efficiency).
 
