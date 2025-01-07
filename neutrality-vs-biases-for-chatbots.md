@@ -22,7 +22,7 @@ I am running it without the support from a GPU card because the Intel GPUs are n
 
 Let's get this straight right away. I am not against these values. That's **NOT** the point.
 
-<div class="intermezzo">
+<div class="post-it"><b class="post-it">&#9432;</b>
 The expected and correct behaviour, in this case, would have been to do the task keeping the output as much as fidel to the original <span nowrap>meaning -- **Gulp!** -- This</span> sentence seems supposing that an AI model is able to "understand" the meaning of a text... 
 
 ...well, a mimic of human understanding of it or more specifically speaking a lexical comprehension of text. Statistically speaking, the meaning in all those cases in which opinions <b translate="no">`AND`</b> way of writing are "common" in terms of statistics frequency, related to the *corpus-testii* it learnt from.
@@ -40,7 +40,7 @@ It is not a case of AI's hallucinations. In fact, by decreasing its temperature 
 
 Please, notice that the dialogue with <span translate="no">Gemini</span> is not about contrasting those values but put them in a reasonable rational perspective that in brief can be summarized as in the following paragraph.
 
-<div class="intermezzo">
+<div class="post-it"><b class="post-it">&#9432;</b>
 Once we took almost all the same way at almost the same time, following apply:
 
 - uniformity vs collapse risk, 

@@ -30,20 +30,37 @@ body {
     margin: auto;
 }
 
-hr.intermezzo {
+hr.post-it {
     border: 0px;
     height: 0px;
     border-top: 1px dashed gray;
     background-color: transparent;
 }
 
-div.intermezzo {
-    border-radius: 10px;
+div.post-it {
+/*  color: gray; */
+    border-radius: 16px;
     border: 1px dashed gray;
-    padding: 20px 30px 10px 30px;
+    padding: 20px 40px 5px 40px;
     background-color: transparent;
+    font-family: "Comic Sans", cursive;
     position: relative;
+ /*\,-Remove this parenthesys to reverse the side */
+/**)/
+    left: 10px;
+/**/
+}
 
+b.post-it {
+    float: left;
+    position: absolute;
+ /*\,-Remove this parenthesys to reverse the side */
+/**)/
+    left: -9px; top: -15px;
+/*/
+    left: 6px; top: 3px;
+/**/
+    color: gray;
 }
 
 blockquote {
