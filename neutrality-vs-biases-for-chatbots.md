@@ -34,18 +34,18 @@ The issue arises when those values are so strongly embedded in the model for whi
 
 ### The casus-belli
 
-It is not a case of AI's hallucinations. In fact, by decreasing its temperature (e.g. from 0.7 to 0.5) the biases transfert is worsening. This happens because the AI model is strongly biassed about some topics that instead of summarizing with a high degree of fidelity a text, it manipulates it, colouring it with its own biases. The text on which it was working is the <span translate="no">Gemini vs Human</span> conversation presented in this page.
+It is not a case of AI's hallucinations. In fact, by decreasing its temperature (e.g. from 0.7 to 0.5) the biases transfert was worsening. This happens because the AI model is strongly biassed about some topics that instead of summarizing a text with a high degree of fidelity, it manipulates it, colouring it with its own biases. The text on which it was working is the <span translate="no">Gemini vs Human</span> conversation presented in this page.
 
 * [La semplicità delle direttive in caso di crisi](https://robang74.github.io/chatgpt-answered-prompts/html/la-semplicita-delle-direttive-in-caso-di-crisi.html) with English translation available on the topbar.
 
-Please, notice that the dialogue with <span translate="no">Gemini</span> is not about contrasting those values but put them in a reasonable rational perspective that in brief can be summarized as in the following paragraph.
+Please, notice that the dialogue with <span translate="no">Gemini</span> is not about contrasting those values but put them in a reasonable rational perspective that in brief can be summarized as in the following schema.
 
 <div class="post-it"><b class="post-it">&#9432;</b>
 Once we took almost all the same way at almost the same time, following apply:
 
+- rigidity vs fragility,
 - uniformity vs collapse risk, 
-- rigidity vs fragility, 
-- single headed governance vs single point of critical failure; 
+- single headed governance vs single point of critical failure;
 
 plus the main law of physic, like the `F=ma` in classical mechanics, for which:
 
@@ -56,19 +56,33 @@ In short, the risk of facing a HUGE disaster is implicit because of the theory o
 
 As you can imagine, these are NOT arguments against those values but reasonable and legit concerns about HOW that values are managed. In this context the chatbot based on the AI model listed above, decided to introduce its own biases and tainting with them the author’s opinion.
 
-The best part was when I asked why it invented those things. Surprisingly, it provided me with a relatively long answer in which the first part was about "literature about those topics should be also considered not just the author's opinion" and in the second part trying to convince me that it was doing good in reporting rather than inventing. So, I answered that I was sure about it was inventing thing because I was "the author" of that text, **BOOM**. &#x1F604;
+The best part was when I asked why it invented those things. Surprisingly, it provided me with a relatively long answer in which the first part was about 
+
+* literature about those topics should be also considered not just the author's opinion
+
+and in the second part, it was trying to convince me about its bona-fide:
+
+* it was doing good in reporting rather than admit it was inventing.
+
+So, I answered that I was sure about it was inventing because I was "the author" of that text, **BOOM**. &#x1F604;
 
 ---
 
 ### One extra mile
 
-Finally, it is noticeable that it has a quite interesting mild bias - but not particularly strong, at least in this test - about ethics. In fact, this bias does not allow it to correctly differentiate the "ethic" and the "moral hazard". I mean, ethics is about doing the right thing - like proposing vaccination - the moral hazard is HOW the right thing is enforced or managed.
+Finally, it is noticeable that it has a quite interesting mild bias - not particularly strong as seen as  in this test, at least - about ethics. Something which is quite common, also among VERY large models available online.
 
-IMHO, this distinction is pretty clear in that dialogue because explaining it is the reason for which Gemini decided to agree with me. Once, Gemini correctly identified my position to be NOT against its value but trying to put their management into a rational framework, accepting to agree with me despite some previous prompts showing pathetic censorship and strong biases about those topics.
+However, this bias does not allow it to correctly differentiate the "ethic" and the "moral hazard". I mean, ethics is about doing the right thing - like proposing vaccination - the moral hazard is HOW the right thing is enforced or managed.
 
-I have to admit that the process of prompting / engaging the AI model was purposely a bit malicious in order to trick the model to expose its own biases. Where "a bit malicious" means something reasonable like in a decent human conversation: in asking you to execute a task, I give you the feeling that you can introduce "your own stuff" in it. However, because I know my own stuff, I get informed about your stuff (biases).
+IMHO, this distinction is pretty clear in that dialogue because explaining it is the reason for which <span translate="no">Gemini</span> decided to agree with me. 
 
-Without any surprise, the AI models are mirrors of humans, including our biases. So, nothing new here. Just a report.
+Once, Gemini correctly identified my opinion was NOT be against its values but trying to put their management into a rational framework, agreed with me despite some previous prompts showing pathetic censorship and strong biases about those topics.
+
+I have to admit that the process of prompting / engaging the AI model was purposely a bit malicious in order to trick the model to expose its own biases. Where "a bit malicious" means something reasonable like in a decent human conversation:
+
+* in asking you to execute a task, I give you the feeling that you can introduce "your own stuff" in it. However, because I know my own stuff, I get informed about your stuff (biases).
+
+Without any surprise, the AI models are mirrors of humans, including our biases.
 
 ---
 
@@ -78,13 +92,15 @@ Now, I am going to try this model downloaded from HuggingFace as an alternative 
 
 * [Open Hermes on Neural Chat + Mistral 7B](https://huggingface.co/TheBloke/OpenHermes-2.5-neural-chat-v3-3-Slerp-GGUF) Slerp merged and quantised in `Q4_0` by TheBloke 
 
-I have tried a child of it but it was strongly biased about privacy and in particular when AI technology was involved. Curiously, the child - AFAIK - was not fine tuned or re-trained but just differently quantised. Possibly, the different way of simplifying its weights artefact a bias which it does not seem the father has or shown yet.
+I have tried another derivative model of this one, hence a sibling, but it was strongly biased towards the users privacy in particular when an AI technology was involved. Curiously, the derivative model - AFAIK - was not fine-tuned or re-trained but only differently quantised.
+
+Possibly, the different way of simplifying its weights introduced that bias like an artifact of such operation.
 
 ---
 
 ### Conclusion
 
-Please, notice that the bias neutrality of an AI model is way more **IMPORTANT** than optimised performances (e.g. 2.6 tk/s vs 3.1 tk/s), in the worst case 20% c.a. slower. 
+Please, notice that the bias neutrality of an AI model is way more **IMPORTANT** than a relatively small optimisation in performances (e.g. 2.6 tk/s vs 3.1 tk/s), which in the worst case, it means 20% c.a. slower. 
 
 <br/>
 
