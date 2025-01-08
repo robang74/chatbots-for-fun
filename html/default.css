@@ -5,6 +5,13 @@
  *
  ******************************************************************************/
 
+#menu {
+    cursor: pointer;
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none;  /* Safari */
+    -ms-user-select: none;  /* IE 10 & 11 */
+}
+
 html {
  /*\,-Remove this parenthesys to switch the zoom */
 /**)/

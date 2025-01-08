@@ -97,9 +97,9 @@ gitprj="${PWD##*/}"
 weburl="https://${gitusr}.github.io"
 gtlink="${weburl//./-}.translate.goog/${gitprj}"
 
-LINE_MARK="<b>&#9783;&thinsp;&Ropf;</b>"
-LINE_DASH="&nbsp;&mdash;&nbsp;"
 MDOT_DASH="&nbsp;<b>&middot;</b>&nbsp;"
+LINE_MARK="<b><span id='menu' onClick='nextStylesheet()'>&#9783;</span>&thinsp;&Ropf;</b>"
+LINE_DASH="&nbsp;&mdash;&nbsp;"
 
 REVISION_STRING=""
 PUBLISH_UNIVDATE=""
@@ -171,4 +171,3 @@ fi
 date1st+=$(get_html_item_str html/items/datetype.htm)
 
 print_topbar "" "" "$date1st" "" "" "$file" ${2:-}
-
