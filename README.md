@@ -208,7 +208,7 @@ The aim is to provide translations of these .md files in different languages. Th
 
 Here below a template in English:
 
-> This document (tag: `$tagstring` or hash: `$hashstring`) has been translated from English into `$language` by a native `$language` speaker who knows English and with the support of `$automatic-tool` to speed up the translation task.
+> This document (tag: `$tagstring` or hash: `$hashstring`) has been translated from English into `$language` by a native `$language` speaker who knows English, and where applicable, with the support of <nobr>`$automatic-tool`</nobr> to speed up the translation task.
 
 As you can see the translated document should contain a reference about the original version and those which are tagged are the most reliable.
 
