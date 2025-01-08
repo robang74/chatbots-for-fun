@@ -1,0 +1,47 @@
+/* 
+ * Cascading Style Sheet for fair theming html pages converted from markdown
+ *
+ * (C) 2024-5, Roberto A. Foglietta <roberto.foglietta@gmail.com>, 3-clause BSD
+ *
+ ******************************************************************************/
+
+body { color: black; background-color: white; }
+ 
+div.topbar { border: 1px solid black; }
+
+table { border-color: black; }
+
+a { color: black; }
+
+a:link {  text-decoration: none; border-bottom: 3px double; }
+
+a:hover { border-bottom: none; text-decoration: underline; }
+
+a:active, a:visited { }
+
+a.topbar { border-bottom: none; }
+
+
+span.warnicon {
+    padding: 2px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+
+svg.warnicon {
+    fill: black;
+}
+
+span.infoicon {
+    padding: 2px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+
+svg.infoicon {
+    fill: black;
+}
+
+

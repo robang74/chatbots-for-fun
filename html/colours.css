@@ -4,33 +4,23 @@
  * (C) 2025, Roberto A. Foglietta <roberto.foglietta@gmail.com> - 3-clause BSD
  *
  ******************************************************************************/
- 
-body { color: #f8f4f0; background-color: #181410; }
-
-blockquote { color: #fff0e8; background-color: #300000; }
 
 div.post-it { border: 1px dashed orange; }
-b.post-it { color: orange; }
 
-a, a:link { color: orange; }
+a, a:link, b.post-it { color: orange; }
+
 .sup-note, a:visited, a:active { color: bisque; }
 
-td, th { border: 1px solid gray; }
+body { color: #f8f4f0; background-color: #181410; }
 
-/* -------------------------------------------------------------------------- */
+td, th { border: 1px solid #888078; }
 
-.tpbrtext, a.date-type { color: lightgray; }
+blockquote { background-color: #300000; color: #fff0e8; }
 
-div.tpbrblue { background-color: darkblue; }
-div.tpbrgren { background-color: darkgreen; }
-div.tpbrwarm { background-color: maroon; }
+div.topbar { background-color: maroon; border-bottom: 1px solid #c08000; }
 
-a.tpbrblue { color: aqua; }
-a.tpbrgren { color: lightgreen; }
-a.tpbrwarm { color: orange; }
+div.topbar { color: lightgray; } /* #e0e0e8 */
 
-/* -------------------------------------------------------------------------- */
+span.warnicon { background-color: #603010; }
 
-div.tpbrblue, div.tpbrgren, div.tpbrwarm {
-    border-bottom: 1px solid dimgray;
-}
+span.infoicon { background-color: #603010; }

@@ -1,25 +1,27 @@
 /* 
- * void Cascading Style Sheet for overriding or customise default.css
+ * Cascading Style Sheet for fair theming html pages converted from markdown
+ *
+ * (C) 2024-5, Roberto A. Foglietta <roberto.foglietta@gmail.com>, 3-clause BSD
  *
  ******************************************************************************/
 
-body {
-    color: #202020;
-    background-color: #ffffff;
-}
+body { color: #182028; background-color: white; }
 
-blockquote {
-    color: #000000;
-    background-color: #e0e8f0;
-}
+blockquote { color: #001040; background-color: azure; }
 
-a:link, a:visited, a:hover, a:active {
-    color: #102040;
-}
+div.topbar { background-color: azure; border-bottom: 1px solid #0080c0; }
 
-table {
-    border-color: #406080; 
-}
+table { border-color: #406080; }
+
+
+a:link { color: darkblue; }
+
+a:hover { background-color: azure; }
+
+a:active, a:visited { color: #102060; }
+
+a.topbar { color: #002080; }
+
 
 span.warnicon {
     background-color: yellow;
@@ -40,14 +42,4 @@ span.infoicon {
 svg.infoicon {
     fill: #008;
 }
-
-.tpbrtext, a.datatype { color: white; }
-
-div.tpbrblue { background-color: blue; }
-div.tpbrgren { background-color: green; }
-div.tpbrwarm { background-color: brown; }
-
-a.tpbrblue { color: cyan; }
-a.tpbrgren { color: lime; }
-a.tpbrwarm { color: yellow; }
 
