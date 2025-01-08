@@ -68,7 +68,9 @@ function md2htmlfunc() {
     title=${str/index/${PWD##*/}};
     #title=${str//-/ };
 
-    txt=$(head -n12 html/items/pagebody.htm)
+    txt="html/items/pagebody.htm"
+    declare -i n=$(grep -n "BODY_CONTENT" $txt | cut -d: -f1)
+    txt=$(head -n$[n-1] $txt)
     eval "echo \"$txt\" >$2"
     source tools/ptopbar.sh $1 >>$2
     if [ "$str" = "index" ]; then

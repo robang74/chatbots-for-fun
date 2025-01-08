@@ -6,8 +6,11 @@
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <link rel='shortcut icon' type='image/x-icon' href='${dir}favicon.ico?'>
         <link rel='stylesheet' href='${dir}default.css'>
+        <!-- here begins the Javascript... why for the hell I got here? //-->
+        <meta http-equiv='Content-Script-Type' content='text/javascript'>
+        <script>const cssdir='${dir}';</script>
         <link rel='stylesheet' href='${dir}ucustom.css' id='customStylesheet'>
-        <script>const stylesheets = ['${dir}colours.css', '${dir}webdark.css', '${dir}pureblk.css', '${dir}bwprint.css', '${dir}pdfgray.css', '${dir}pdfcool.css', '${dir}pdfwarm.css']; let currentIndex = 0; function nextStylesheet() { currentIndex = (currentIndex + 1) % stylesheets.length; document.getElementById('customStylesheet').setAttribute('href', stylesheets[currentIndex]); }</script>
+        <script src='${dir}css-style-changer.js' defer></script>
     </head>
     <body>
     ${BODY_CONTENT}
