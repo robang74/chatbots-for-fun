@@ -5,29 +5,38 @@
  *
  * * list: #5
  * * name: pale-regular
- * * desc: project specific & colorfull like 'regular' but w/ light background
+ * * desc: project specific & colorfull like 'regular' but w/ light background 
  *
  ******************************************************************************/
  
 img.fairinv { filter: invert(100%); }
 
 
-div.post-it { border: 2px dashed #300000; } /* = */
+body { color: #181008; background-color: white; }
+
+blockquote { background-color: seashell; color: #300000; }
+
+div.topbar { color: dimgray; background-color: bisque; border-bottom: 1px solid #c08000; }
+
+table { border-color: #300000; }
+
+td, th { border: 1px solid #300000; } /* = */
+
+
+div.post-it { border: 2px dashed #300000; }
 
 b.post-it { color: #300000; }
 
-a, a:link { color: maroon; }
+
+a, a:link { color: brown; }
+
+a:link { text-decoration: none; border-bottom: 3px double; }
+
+a:hover { background-color: seashell; border: none; text-decoration: underline; }
 
 .sup-note, a:visited, a:active, a.topbar { color: #300000; }
 
-
-body { color: #181410; background-color: #f8f4f0; }
-
-td, th { border: 1px solid #888078; } /* = */
-
-blockquote { background-color: #fff0e8; color: #300000; }
-
-div.topbar { color: dimgray; background-color: bisque; border-bottom: 1px solid #c08000; } /* maroon -> seashell, lightgray -> dimgray */
+a.topbar { border: none; }
  
 
 span.warnicon, svg.warnicon { color: tomato; fill: tomato; background-color: transparent; }
