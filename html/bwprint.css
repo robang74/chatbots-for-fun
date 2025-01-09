@@ -3,18 +3,24 @@
  *
  * (C) 2024-5, Roberto A. Foglietta <roberto.foglietta@gmail.com>, 3-clause BSD
  *
+ * CSS AIM: project agnostic, high-contrast white-theme with almost-bw images
+ *
  ******************************************************************************/
 
-img.fairinv { filter: invert(100%) grayscale(100%) contrast(10); }
+img.fairinv { filter: invert(100%) grayscale(100%) contrast(2); }
 
-img { filter: grayscale(100%) contrast(10); }
+img.wbsketch { filter: invert(100%) grayscale(100%) contrast(8); }
+
+img.bwsketch { filter: grayscale(100%) contrast(8); }
+
+img { filter: grayscale(100%) contrast(2); }
 
 
 body { color: black; background-color: white; }
- 
-div.topbar { border: 1px solid black; }
 
-table { border-color: black; }
+div.topbar { border: 1px solid; }
+
+div.post-it { border: 1px dashed; }
 
 
 a { color: black; }
@@ -22,8 +28,6 @@ a { color: black; }
 a:link {  text-decoration: none; border-bottom: 3px double; }
 
 a:hover { border-bottom: none; text-decoration: underline; }
-
-a:active, a:visited { }
 
 a.topbar { border-bottom: none; }
 

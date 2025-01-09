@@ -3,6 +3,8 @@
  *
  * (C) 2024-5, Roberto A. Foglietta <roberto.foglietta@gmail.com>, 3-clause BSD
  *
+ * CSS AIM: project agnostic, high-contrast dark-theme with colors images
+ *
  ******************************************************************************/
 
 img.darkinv { filter: invert(100%) contrast(1.50) brightness(0.75); }
@@ -11,12 +13,12 @@ img { filter: contrast(1.50) brightness(0.75); }
 
 
 body { color: #f0f0f0; background-color: black; }
- 
-blockquote { color: #e0e0e0; background-color: #101010; }
-
-div.topbar { background-color: #101010; border: 1px solid #f0f0f0; }
 
 table { border-color: #a0a0a0; }
+
+div.topbar { border: 1px solid; }
+
+div.post-it { border: 1px dashed; }
 
 
 a:link { color: #e0e0e0; text-decoration: none; border-bottom: 3px double; }
