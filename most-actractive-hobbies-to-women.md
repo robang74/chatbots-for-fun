@@ -12,7 +12,7 @@ The original author of the Facebook post wrote:
 
 > Ham radio didn’t make the cut… shocking!
 
-<div align="center"><img src="img/most-attractive-hobbies-to-women.png" width="800"><br/></div>
+<div align="center"><img src="img/most-attractive-hobbies-to-women.png" width="800" class="darkinv"><br/></div>
 
 #### Comment
 

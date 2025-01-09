@@ -20,7 +20,7 @@ Se nella testa ti hanno inculcato la religione come principio universale, allora
 
 Il sonno della ragione genera mostri (Francisco Goya).
 
-<div align="center"><img src="img/sleeping-van-gogh.jpg" width="800"><br/><i>click destro per ingrandire in una nuova finestra</i></div>
+<div align="center"><img src="img/sleeping-van-gogh.jpg" width="800" class="wbsketch"><br/><i>click destro per ingrandire in una nuova finestra</i></div>
 
 <br/>
 

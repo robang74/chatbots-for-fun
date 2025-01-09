@@ -629,7 +629,7 @@ Potrebbe stupirci e speriamo anche che lo faccia.
 
 ## Benvenuto fra noi
 
-<div align="center"><img src="img/mr-spock-star-trek.jpg" alt="Mr. Spock" width="800">
+<div align="center"><img src="img/mr-spock-star-trek.jpg" alt="Mr. Spock" width="800" class="wbsketch">
 <p><i>Dedicato a tutte le donne come </i><a href='https://en.wikipedia.org/wiki/Ahoo_Daryaei' target='_blank' rel='noopener noreferrer'>Ahoo Daryaei</a><i> con l'augurio che il vostro eroico sacrificio non sia stato vano.</i></p>
 </div>
 
