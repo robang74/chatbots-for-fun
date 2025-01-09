@@ -14,7 +14,7 @@ img.darkinv { filter: invert(100%); }
 
 body { color: #f8f4f0; background-color: #181410; }
 
-blockquote { background-color: #300000; color: #fff0e8; }
+blockquote { background-color: #281818; color: #fff0e8; }
 
 div.topbar { color: lightgray; background-color: maroon; border-bottom: 1px solid #c08000; }
 
@@ -28,7 +28,7 @@ a, a:link, b.post-it { color: orange; }
 .sup-note, a:visited, a:active { color: bisque; }
 
 
-.warnicon, .infoicon { background-color: #400; }
+.warnicon, .infoicon { background-color: transparent; }
 
 span.warnicon, svg.warnicon { color: orange; fill: orange; }
 
