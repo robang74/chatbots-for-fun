@@ -22,9 +22,9 @@ body { color: black; background-color: white; }
 
 div.topbar { border: 1px solid; }
 
-div.post-it { border: 2px dashed; }
+div.post-it { border: 2px; }
 
-b.hal9k { color: ghostwhite; }
+b.hal9k { color: white; }
 
 
 a { color: black; }
@@ -37,7 +37,7 @@ a.topbar { border-bottom: none; }
 
 
 span.warnicon, svg.warnicon, span.infoicon, svg.infoicon {
-    color: black; fill: black; background-color: transparent;
+    color: black; fill: black;
 }
 
 span.warnicon, span.infoicon { border-color: black; }

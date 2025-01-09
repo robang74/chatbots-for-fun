@@ -22,8 +22,6 @@ body { color: white; background-color: black; }
 
 div.topbar { border: 1px solid; }
 
-div.post-it { border: 1px dashed; }
-
 
 a { color: white; }
 
@@ -34,25 +32,9 @@ a:hover { border-bottom: none; text-decoration: underline; }
 a.topbar { border-bottom: none; }
 
 
-span.warnicon {
-    padding: 2px;
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
+span.warnicon, svg.warnicon, span.infoicon, svg.infoicon {
+    color: white; fill: white;
 }
 
-svg.warnicon {
-    fill: white;
-}
-
-span.infoicon {
-    padding: 2px;
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-}
-
-svg.infoicon {
-    fill: white;
-}
+span.warnicon, span.infoicon { border: white; }
 

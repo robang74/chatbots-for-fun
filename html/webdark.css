@@ -16,11 +16,9 @@ img { filter: contrast(1.50) brightness(0.75); }
 
 body { color: #f0f0f0; background-color: black; }
 
-table { border-color: #a0a0a0; }
-
 div.topbar { border: 1px solid; }
 
-div.post-it { border: 1px dashed; }
+table, td, th { border-color: #a0a0a0; }
 
 
 a:link { color: #e0e0e0; text-decoration: none; border-bottom: 3px double; }
@@ -32,26 +30,9 @@ a:active, a:visited { color: #c0c0c0; }
 a.topbar { color: #c0c0c0; border: none; }
 
 
-span.warnicon {
-    padding: 2px;
-    background-color: transparent;
-    border: 2px solid white;
-    color: #ddd;
+span.warnicon, svg.warnicon, span.infoicon, svg.infoicon {
+    color: #ddd; fill: #ddd;
 }
 
-svg.warnicon {
-    fill: #ddd;
-}
-
-span.infoicon {
-    padding: 2px;
-    background-color: transparent;
-    border: 2px solid white;
-    color: #ddd;
-}
-
-svg.infoicon {
-    fill: #ddd;
-}
-
+span.warnicon, span.infoicon { border: white; }
 
