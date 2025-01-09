@@ -21,6 +21,8 @@ div.topbar { color: dimgray; background-color: bisque; border-bottom: 1px solid 
 table, td, th { border-color: #300000; }
 
 
+hr { border-top: 2px solid dimgray; }
+
 div.post-it { border: 2px dashed #300000; }
 
 b.post-it { color: #300000; }
@@ -39,11 +41,11 @@ a:hover { background-color: seashell; border: none; text-decoration: underline; 
 a.topbar { border: none; }
  
 
-span.warnicon, svg.warnicon { color: tomato; fill: tomato; background-color: transparent; }
+span.warnicon, svg.warnicon { color: tomato; fill: tomato; }
 
 span.warnicon { border-color: tomato; }
 
-span.infoicon, svg.infoicon { color: dodgerblue; fill: dodgerblue; background-color: transparent; }
+span.infoicon, svg.infoicon { color: dodgerblue; fill: dodgerblue; }
 
 span.infoicon { border-color: dodgerblue; }
 

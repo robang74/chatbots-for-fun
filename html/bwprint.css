@@ -20,16 +20,18 @@ img { filter: grayscale(100%) contrast(2); }
 
 body { color: black; background-color: white; }
 
+hr { border-top: 2px solid dimgray; }
+
 div.topbar { border: 1px solid; }
 
-div.post-it { border: 2px; }
+div.post-it { border: 2px dashed; }
 
 b.hal9k { color: white; }
 
 
 a { color: black; }
 
-a:link {  text-decoration: none; border-bottom: 3px double; }
+a:link {  text-decoration: none; border-bottom: 2px double; }
 
 a:hover { border-bottom: none; text-decoration: underline; }
 

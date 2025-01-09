@@ -38,7 +38,7 @@ body {
 }
 
 hr.post-it {
-    border: none;
+    border: transparent;
     border-top: 1px dashed gray;
     background-color: transparent;
 }
