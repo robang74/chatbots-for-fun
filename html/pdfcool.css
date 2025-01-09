@@ -11,13 +11,15 @@ img {
     filter: opacity(0.67) contrast(1.5) hue-rotate(180deg);
 }
 
-body { color: #182028; background-color: white; }
+body { color: #182028; background-color: #f0f4f8; }
 
 blockquote { color: #001040; background-color: azure; }
 
 div.topbar { background-color: azure; border-bottom: 1px solid #0080c0; }
 
 table { border-color: #406080; }
+
+b.hal9k { color: ghostwhite; }
 
 
 a:link { color: darkblue; }

@@ -22,7 +22,9 @@ body { color: black; background-color: white; }
 
 div.topbar { border: 1px solid; }
 
-div.post-it { border: 1px dashed; }
+div.post-it { border: 2px dashed; }
+
+b.hal9k { color: ghostwhite; }
 
 
 a { color: black; }
@@ -34,26 +36,9 @@ a:hover { border-bottom: none; text-decoration: underline; }
 a.topbar { border-bottom: none; }
 
 
-span.warnicon {
-    padding: 2px;
-    background-color: transparent;
-    border: 2px solid black;
-    color: black;
+span.warnicon, svg.warnicon, span.infoicon, svg.infoicon {
+    color: black; fill: black; background-color: transparent;
 }
 
-svg.warnicon {
-    fill: black;
-}
-
-span.infoicon {
-    padding: 2px;
-    background-color: transparent;
-    border: 2px solid black;
-    color: black;
-}
-
-svg.infoicon {
-    fill: black;
-}
-
+span.warnicon, span.infoicon { border-color: black; }
 

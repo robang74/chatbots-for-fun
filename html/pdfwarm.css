@@ -11,13 +11,16 @@ img {
     filter: opacity(0.67)  contrast(1.25) sepia(0.8);
 }
 
-body { color: #282018; background-color: white; }
+body { color: #181410; background-color: #f8f4f0; }
+
 
 blockquote { color: #401000; background-color: seashell; }
 
 div.topbar { background-color: seashell; border-bottom: 1px solid #c08000; }
 
 table { border-color: #806040; }
+
+b.hal9k { color: ghostwhite; }
 
 
 a:link { color: maroon; }

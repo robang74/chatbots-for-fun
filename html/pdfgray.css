@@ -16,6 +16,8 @@ div.topbar { background-color: #f0f0f0; border-bottom: 1px solid gray; }
 
 table { border-color: #606060; }
 
+b.hal9k { color: ghostwhite; }
+
 
 a:link { color: black; text-decoration: none; border-bottom: 3px double; }
 

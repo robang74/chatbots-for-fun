@@ -12,23 +12,23 @@
 img.fairinv { filter: invert(100%); }
 
 
-body { color: #181008; background-color: white; }
+body { color: #181008; background-color: #fffcfc; }
 
 blockquote { background-color: seashell; color: #300000; }
 
 div.topbar { color: dimgray; background-color: bisque; border-bottom: 1px solid #c08000; }
 
-table { border-color: #300000; }
-
-td, th { border: 1px solid #300000; } /* = */
+table, td, th { border-color: #300000; }
 
 
 div.post-it { border: 2px dashed #300000; }
 
 b.post-it { color: #300000; }
 
+b.hal9k { color: ghostwhite; }
 
-a, a:link { color: brown; }
+
+a { color: brown; }
 
 a:link { text-decoration: none; border-bottom: 3px double; }
 
