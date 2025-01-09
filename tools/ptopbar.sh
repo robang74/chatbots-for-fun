@@ -98,7 +98,7 @@ weburl="https://${gitusr}.github.io"
 gtlink="${weburl//./-}.translate.goog/${gitprj}"
 
 MDOT_DASH="&nbsp;<b>&middot;</b>&nbsp;"
-LINE_MARK="<b><span id='menu' onClick='nextStylesheet()'>&#9783;</span>&thinsp;&Ropf;</b>"
+LINE_MARK="<b id='menu' onClick='nextStylesheet()'>&#9783;&thinsp;&Ropf;</b>"
 LINE_DASH="&nbsp;&mdash;&nbsp;"
 
 REVISION_STRING=""

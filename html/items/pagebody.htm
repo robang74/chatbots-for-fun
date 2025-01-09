@@ -8,12 +8,12 @@
         <link rel='stylesheet' href='${dir}default.css'>
         <!-- here begins the Javascript... why for the hell I got here? //-->
         <meta http-equiv='Content-Script-Type' content='text/javascript'>
-        <script>const cssdir='${dir}';</script>
         <link rel='stylesheet' href='${dir}ucustom.css' id='customStylesheet'>
+        <script>const cssdir='${dir}';</script note='global variable'>
         <script src='${dir}css-style-changer.js' defer></script>
     </head>
     <body>
-    ${BODY_CONTENT}
+${BODY_CONTENT}
     <br/>
     </body>
 </html>

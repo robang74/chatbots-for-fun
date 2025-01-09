@@ -5,7 +5,7 @@
  *
  ******************************************************************************/
 
-img { filter: grayscale(100%) contrast(1.25) brightness(1.25); }
+img { filter: grayscale(100%) contrast(1.25) brightness(1.25) invert(100%); }
 
 body { color: #202020; background-color: white; }
  

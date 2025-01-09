@@ -4,12 +4,15 @@
  * (C) 2024-5, Roberto A. Foglietta <roberto.foglietta@gmail.com>, 3-clause BSD
  *
  ******************************************************************************/
+ 
+img { filter: grayscale(100%) contrast(10); }
 
 body { color: white; background-color: black; }
  
 div.topbar { border: 1px solid white; }
 
 table { border-color: white; }
+
 
 a { color: white; }
 
@@ -43,5 +46,4 @@ span.infoicon {
 svg.infoicon {
     fill: white;
 }
-
 

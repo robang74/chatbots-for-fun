@@ -5,6 +5,8 @@
  *
  ******************************************************************************/
 
+img { filter: contrast(1.50) brightness(0.75); }
+
 body { color: #f0f0f0; background-color: black; }
  
 blockquote { color: #e0e0e0; background-color: #101010; }

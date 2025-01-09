@@ -4,6 +4,8 @@
  * (C) 2024-5, Roberto A. Foglietta <roberto.foglietta@gmail.com>, 3-clause BSD
  *
  ******************************************************************************/
+ 
+img { filter: grayscale(100%) contrast(10) invert(100%); }
 
 body { color: black; background-color: white; }
  

@@ -5,6 +5,12 @@
  *
  ******************************************************************************/
 
+img {
+    display: inline-block;
+    background-color: blue;
+    filter: opacity(0.67) contrast(1.5) hue-rotate(180deg);
+}
+
 body { color: #182028; background-color: white; }
 
 blockquote { color: #001040; background-color: azure; }
