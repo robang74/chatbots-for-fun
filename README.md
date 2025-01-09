@@ -1,4 +1,4 @@
-<br/><div align="center"><img src="img/muppets-show.jpg" width="800"><br/></div>
+<br/><div align="center"><img class="wbsketch" src="img/muppets-show.jpg" width="800"><br/></div>
 
 ## Chatbots for fun
 
