@@ -5,15 +5,16 @@
  *
  * * list: #7
  * * name: pale-cool
- * * desc: project agnostic,
+ * * desc: project agnostic, pale theme w/ a lavish shift in azure (boyish)
  *
  ******************************************************************************/
 
-img {
-    display: inline-block;
+img:not(.hal9k) {
+    display: inline-block; 
     background-color: blue;
     filter: opacity(0.67) contrast(1.5) hue-rotate(180deg);
 }
+
 
 body { color: #182028; background-color: #f0f4f8; }
 
@@ -21,37 +22,34 @@ blockquote { color: #001040; background-color: azure; }
 
 div.topbar { background-color: azure; border-bottom: 1px solid #0080c0; }
 
-table { border-color: #406080; }
+table, td, th { border-color: #406080; }
+
+
+hr { border-top: 2px solid gray; }
+
+div.post-it { border: 2px dashed #406080; }
+
+b.post-it { color: #406080; }
 
 b.hal9k { color: ghostwhite; }
 
 
-a:link { color: darkblue; }
+a { color: darkblue; }
 
-a:hover { background-color: azure; }
+a:link { text-decoration: none; border-bottom: 3px double; }
 
-a:active, a:visited { color: #102060; }
+a:hover { border: none; text-decoration: underline; background-color: azure; }
 
-a.topbar { color: #002080; }
+a:active, a:visited { color: midnightblue; }
+
+a.topbar { border: none;  color: midnightblue; }
 
 
-span.warnicon {
-    background-color: yellow;
-    border: 2px solid yellow;
-    color: #800;
-}
+span.warnicon, svg.warnicon { color: #800; fill: #800; }
 
-svg.warnicon {
-    fill: #800;
-}
+span.warnicon { border-color: #FC0; background-color: #FC0; }
 
-span.infoicon {
-    background-color: aqua;
-    border: 2px solid aqua;
-    color: #008;
-}
+span.infoicon, svg.infoicon { color: #008; fill: #008; }
 
-svg.infoicon {
-    fill: #008;
-}
+span.infoicon { border-color: #0CF; background-color: #0CF; }
 
