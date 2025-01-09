@@ -1,6 +1,6 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
-<div align="center"><img src="img/hal-9000-eye-greening-in-the-dark.jpg"><br/></div>
+<div align="center"><img class="wbsketch" src="img/hal-9000-eye-greening-in-the-dark.jpg"><br/></div>
 
 ## Neutrality vs biases for chatbots
 
@@ -118,7 +118,7 @@ The following image, taken from [r/localLLaMA](https://www.reddit.com/r/LocalLLa
 > 
 > Making it more sensitive to quantization degradation.
 
-<div align="center"><img src="img/llma-3-vs-2-quantisation-fork-gap.png" width="800"><br/></div>
+<div align="center"><img class="darkinv" src="img/llma-3-vs-2-quantisation-fork-gap.png" width="800"><br/></div>
 
 <sup class="sup-note">Right click to enlarge the image in a new window.</sup>
 
