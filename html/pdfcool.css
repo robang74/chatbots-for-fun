@@ -15,6 +15,8 @@ img:not(.hal9k) {
     filter: opacity(0.67) contrast(1.5) hue-rotate(180deg);
 }
 
+img.fairinv { filter: invert(100%) grayscale(100%) contrast(2); }
+
 
 body { color: #182028; background-color: #f0f4f8; }
 
