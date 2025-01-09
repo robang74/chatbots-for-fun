@@ -11,18 +11,30 @@
 
 img.darkinv { filter: invert(100%); }
 
-div.post-it { border: 1px dashed orange; }
-
-a, a:link, b.post-it { color: orange; }
-
-.sup-note, a:visited, a:active { color: bisque; }
 
 body { color: #f8f4f0; background-color: #181410; }
-
-td, th { border: 1px solid #888078; }
 
 blockquote { background-color: #300000; color: #fff0e8; }
 
 div.topbar { color: lightgray; background-color: maroon; border-bottom: 1px solid #c08000; }
 
-span.warnicon, span.infoicon { background-color: #603010; }
+table, td, th { border-color: #888078; }
+
+
+div.post-it { border-color: orange; }
+
+a, a:link, b.post-it { color: orange; }
+
+.sup-note, a:visited, a:active { color: bisque; }
+
+
+.warnicon, .infoicon { background-color: #400; }
+
+span.warnicon, svg.warnicon { color: orange; fill: orange; }
+
+span.warnicon { border-color: orange; }
+
+span.infoicon, svg.infoicon { color: lightblue; fill: lightblue; }
+
+span.infoicon { border-color: lightblue; }
+

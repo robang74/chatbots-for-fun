@@ -46,6 +46,7 @@ hr.post-it {
 div.post-it {
 /*  color: gray; */
     border-radius: 16px;
+    border: 1px dashed;
 /*  border: 1px dashed gray; */
     padding: 20px 40px 5px 40px;
     background-color: transparent;
@@ -196,6 +197,7 @@ td.td1stcol {
     border-radius: 12px;
     background-color: none;
     border: 2px solid transparent;
+    padding: 4px 0px 4px 4px;
     position: relative;
     left: -2px;
     top: 8px;
@@ -206,26 +208,12 @@ td.td1stcol {
     top: 2px;
 }
 
-span.warnicon {
+span.warnicon, span.infoicon {
     @extend .spanicon;
-    padding: 4px 0px 4px 4px;
-    color: orange;
 }
 
-svg.warnicon {
+svg.warnicon, svg.infoicon {
     @extend .svgicon;
-    fill: orange;
-}
-
-span.infoicon {
-    @extend .spanicon;
-    padding: 4px 0px 4px 4px;
-    color: lightblue;
-}
-
-svg.infoicon {
-    @extend .svgicon;
-    fill: lightblue;
 }
 
 .alerts { font-family: "Monaco", monospace; font-weight: bold; }
