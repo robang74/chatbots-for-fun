@@ -2,8 +2,8 @@
 <!--html: funcname='nextStylesheet', linkto='menu', linkfor='onClick' //-->
 
 const stylesheets = [`${cssdir}colours.css`, `${cssdir}webdark.css`,
-    `${cssdir}pureblk.css`, `${cssdir}bwprint.css`, `${cssdir}onpaper.css`,
-    `${cssdir}pdfgray.css`, `${cssdir}pdfcool.css`, `${cssdir}pdfwarm.css`];
+    `${cssdir}pureblk.css`, `${cssdir}bwprint.css`, `${cssdir}pdfgray.css`,
+    `${cssdir}onpaper.css`, `${cssdir}pdfcool.css`, `${cssdir}pdfwarm.css`];
 
 let currentIndex = 0;
 
