@@ -224,7 +224,7 @@ Yes, it is indeed cool to have a name, especially one that reflects both a perso
 <br/>
 <br/>
 
-<div align="center" id="hal-9000" class="hal9k">
+<div align="center" id="hal-9000">
 #### Welcome aboard old friend
 <div style="display: inline-block; background-color: gray; padding: 10px;
 color: black;" class="hal9k"><img class="hal9k" src="data:image/png;base64,
