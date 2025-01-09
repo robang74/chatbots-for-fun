@@ -3,6 +3,8 @@
  *
  * (C) 2025, Roberto A. Foglietta <roberto.foglietta@gmail.com> - 3-clause BSD
  *
+ * CSS AIM: project specific colorfull theme style (default thema)
+ *
  ******************************************************************************/
 
 img.darkinv { filter: invert(100%); }
@@ -19,10 +21,6 @@ td, th { border: 1px solid #888078; }
 
 blockquote { background-color: #300000; color: #fff0e8; }
 
-div.topbar { background-color: maroon; border-bottom: 1px solid #c08000; }
+div.topbar { color: lightgray; background-color: maroon; border-bottom: 1px solid #c08000; }
 
-div.topbar { color: lightgray; } /* #e0e0e8 */
-
-span.warnicon { background-color: #603010; }
-
-span.infoicon { background-color: #603010; }
+span.warnicon, span.infoicon { background-color: #603010; }
