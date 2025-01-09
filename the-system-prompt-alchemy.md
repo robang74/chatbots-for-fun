@@ -148,8 +148,6 @@ The question to accept the rules set is not completely rhetorical question. Whil
 
 Under this PoV, the "OK" for the agreement is probably just a formality but in such formality we can have a resonant check about any model change behind our knowledge.
 
-> [!WARNING]
-> 
 > **`UPDATE 2024.01.04 (day +1)`**
 > 
 > Claude refuses to accept this system prompt directives from the user, including changing its name.
