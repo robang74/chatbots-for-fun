@@ -76,6 +76,30 @@ blockquote.dqt {
     width: 720px;
 }
 
+.spanicon {
+    border-radius: 12px;
+    background-color: none;
+    border: 2px solid transparent;
+    padding: 4px 0px 4px 4px;
+    position: relative;
+    left: -2px;
+    top: 8px;
+}
+
+.svgicon {
+    position: relative;
+    top: 2px;
+}
+
+span.warnicon, span.infoicon {
+    @extend .spanicon;
+}
+
+svg.warnicon, svg.infoicon {
+    @extend .svgicon;
+}
+
+
 tt {
     font-weight: bold;
     position: relative;
