@@ -5,7 +5,10 @@
  *
  ******************************************************************************/
  
+img.darkinv { filter: invert(100%) grayscale(100%) contrast(10); }
+
 img { filter: grayscale(100%) contrast(10); }
+
 
 body { color: white; background-color: black; }
  

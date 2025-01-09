@@ -5,7 +5,10 @@
  *
  ******************************************************************************/
 
-img { filter: grayscale(100%) contrast(1.25) brightness(1.25) invert(100%); }
+img.fairinv { filter: grayscale(100%) contrast(1.25) brightness(1.25) invert(100%); }
+
+img { filter: grayscale(100%) contrast(1.25) brightness(1.25); }
+
 
 body { color: #202020; background-color: white; }
  

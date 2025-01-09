@@ -5,6 +5,8 @@
  *
  ******************************************************************************/
 
+img.darkinv { filter: invert(100%); }
+
 div.post-it { border: 1px dashed orange; }
 
 a, a:link, b.post-it { color: orange; }
