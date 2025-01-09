@@ -30,5 +30,5 @@ span.warnicon, svg.warnicon, span.infoicon, svg.infoicon {
     color: #ddd; fill: #ddd;
 }
 
-span.warnicon, span.infoicon { border: white; }
+span.warnicon, span.infoicon { border-color: white; }
 

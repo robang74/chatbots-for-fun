@@ -20,6 +20,7 @@ img { filter: grayscale(100%) contrast(2); }
 
 body { color: white; background-color: black; }
 
+div.topbar { border: 1px solid; }
 
 a, a:link, b.post-it { color: #e0e0e0; }
 
@@ -30,5 +31,5 @@ span.warnicon, svg.warnicon, span.infoicon, svg.infoicon {
     color: white; fill: white;
 }
 
-span.warnicon, span.infoicon { border: white; }
+span.warnicon, span.infoicon { border-color: white; }
 

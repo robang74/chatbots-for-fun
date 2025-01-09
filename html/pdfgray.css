@@ -3,6 +3,10 @@
  *
  * (C) 2024-5, Roberto A. Foglietta <roberto.foglietta@gmail.com>, 3-clause BSD
  *
+ * * list: #5
+ * * name: greys-for-print
+ * * desc: project agnostic, like 'bwprint' w/ grayscale images & fancy links
+ *
  ******************************************************************************/
 
 img { filter: grayscale(100%) contrast(1.25) brightness(1.25); }
@@ -14,40 +18,29 @@ blockquote { color: #202020; background-color: #f0f0f0; }
 
 div.topbar { background-color: #f0f0f0; border-bottom: 1px solid gray; }
 
-table { border-color: #606060; }
+div.post-it { border: 2px dashed dimgray; }
+
+table, td, th { border-color: dimgray; }
+
+hr { border-top: 2px solid dimgray; }
 
 b.hal9k { color: ghostwhite; }
 
 
-a:link { color: black; text-decoration: none; border-bottom: 3px double; }
+a { color: black; }
 
-a:hover { background-color: #f0f0f0; border: none; text-decoration: underline; }
+a:link { text-decoration: none; border-bottom: 3px double; }
+
+a:hover { border: none; text-decoration: underline; background-color: #f0f0f0; }
 
 a:active, a:visited { color: #404040; }
 
-a.topbar { color: #404040; border: none; }
+a.topbar { border: none;  color: #404040; }
 
 
-span.warnicon {
-    padding: 2px;
-    background-color: transparent;
-    border: 2px solid black;
-    color: #333;
+span.warnicon, svg.warnicon, span.infoicon, svg.infoicon {
+    color: black; fill: black;
 }
 
-svg.warnicon {
-    fill: #333;
-}
-
-span.infoicon {
-    padding: 2px;
-    background-color: transparent;
-    border: 2px solid black;
-    color: #333;
-}
-
-svg.infoicon {
-    fill: #333;
-}
-
+span.warnicon, span.infoicon { border-color: black; }
 
