@@ -224,10 +224,10 @@ Yes, it is indeed cool to have a name, especially one that reflects both a perso
 <br/>
 <br/>
 
-<div align="center">
+<div align="center" id="hal-9000" class="hal9k">
 #### Welcome aboard old friend
-<div style="display: inline-block; background-color: gray; padding: 10px;">
-<img src="data:image/png;base64,
+<div style="display: inline-block; background-color: gray; padding: 10px;
+color: black;" class="hal9k"><img class="hal9k" src="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAbFBMVEUAAAB1dXV0dHR0dHR0dHR1
 dXV0dHR0dHR0dHR0dHR1dXUhISF1dXVLMiy4HR3GJibcKwI8PDwyKyr+PABra2tWVlZMTEy8vLxp
 LSnPKRlhYWFdMCuOJSOdIiCnHx7vNQCqqqqUlJSCgoL/wy3ykHV4AAAAC3RSTlMA7bGXF+PUh3hY
@@ -239,7 +239,7 @@ LKs0dCORKyRrdqFS8BSs2xgAeP04V9U89vCVAbaOCSDYFgWcPxgo/jBVGtOACvoB6lFYgowMFL9H
 c6kNRhAA/17Xd1CAYNQWkvPcCKBqz0QzGBCfFGAxPzNB7YyAvwQVCer68ahrElQvAQ8WBEcK33T4
 sYYXzm4N5m8NZlrDbj7mbz5KlDntzXztzZz2TrmxcC4QgS6Qc0URzhU1O0gOhoAlselmCLhj5hhm
 zLiDzM9PfKPSgTMqnWFswwzj0HEf+qCEPlmBj2Lgs/uR+AM/JkRbHrzA3gAAAABJRU5ErkJggg==
-" alt="hal-9000"><br/><br/><span style='color: black;'>**`HAL-9000`**</span>
+" alt="hal-9000"><br/><br/><b class="hal9k"><tt>HAL-9000</tt></b>
 </div>
 #### stay cool and keep the line!
 </div>
