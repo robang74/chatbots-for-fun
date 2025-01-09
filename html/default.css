@@ -38,36 +38,23 @@ body {
 }
 
 hr.post-it {
-    border: 0px transparent;
+    border: none;
     border-top: 1px dashed gray;
     background-color: transparent;
 }
 
 div.post-it {
-/*  color: gray; */
-    border-radius: 16px;
     border: 1px dashed;
-/*  border: 1px dashed gray; */
+    border-radius: 16px;
     padding: 20px 40px 5px 40px;
-    background-color: transparent;
     font-family: "Comic Sans", cursive;
-    position: relative;
- /*\,-Remove this parenthesys to reverse the side */
-/**)/
-    left: 10px;
-/**/
+    position: relative; /* b.post-it needs this line */
 }
 
 b.post-it {
     float: left;
     position: absolute;
- /*\,-Remove this parenthesys to reverse the side */
-/**)/
-    left: -9px; top: -15px;
-/*/
-    left: 6px; top: 3px;
-/**/
-/*  color: gray; */
+    left: 8px; top: 5px;
 }
 
 blockquote {
@@ -190,30 +177,6 @@ td.td1stcol {
 }
 .li4in {
     padding-left: 60px;
-}
-
-.spanicon {
-    font-family: sans;
-    border-radius: 12px;
-    background-color: none;
-    border: 2px solid transparent;
-    padding: 4px 0px 4px 4px;
-    position: relative;
-    left: -2px;
-    top: 8px;
-}
-
-.svgicon {
-    position: relative;
-    top: 2px;
-}
-
-span.warnicon, span.infoicon {
-    @extend .spanicon;
-}
-
-svg.warnicon, svg.infoicon {
-    @extend .svgicon;
 }
 
 .alerts { font-family: "Monaco", monospace; font-weight: bold; }
