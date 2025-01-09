@@ -3,51 +3,38 @@
  *
  * (C) 2024-5, Roberto A. Foglietta <roberto.foglietta@gmail.com>, 3-clause BSD
  *
+ * * list: #5
+ * * name: pale-regular
+ * * desc: project specific & colorfull like 'regular' but w/ light background
+ *
  ******************************************************************************/
-
-img.fairinv { filter: grayscale(100%) contrast(1.25) brightness(1.25) invert(100%); }
-
-img { filter: grayscale(100%) contrast(1.25) brightness(1.25); }
-
-
-body { color: #202020; background-color: white; }
  
-blockquote { color: #202020; background-color: #f0f0f0; }
-
-div.topbar { background-color: #f0f0f0; border-bottom: 1px solid gray; }
-
-table { border-color: #606060; }
+img.fairinv { filter: invert(100%); }
 
 
-a:link { color: black; text-decoration: none; border-bottom: 3px double; }
+div.post-it { border: 2px dashed #300000; } /* = */
 
-a:hover { background-color: #f0f0f0; border: none; text-decoration: underline; }
+b.post-it { color: #300000; }
 
-a:active, a:visited { color: #404040; }
+a, a:link { color: maroon; }
 
-a.topbar { color: #404040; border: none; }
+.sup-note, a:visited, a:active, a.topbar { color: #300000; }
 
 
-span.warnicon {
-    padding: 2px;
-    background-color: transparent;
-    border: 2px solid black;
-    color: #333;
-}
+body { color: #181410; background-color: #f8f4f0; }
 
-svg.warnicon {
-    fill: #333;
-}
+td, th { border: 1px solid #888078; } /* = */
 
-span.infoicon {
-    padding: 2px;
-    background-color: transparent;
-    border: 2px solid black;
-    color: #333;
-}
+blockquote { background-color: #fff0e8; color: #300000; }
 
-svg.infoicon {
-    fill: #333;
-}
+div.topbar { color: dimgray; background-color: bisque; border-bottom: 1px solid #c08000; } /* maroon -> seashell, lightgray -> dimgray */
+ 
 
+span.warnicon, svg.warnicon { color: tomato; fill: tomato; background-color: transparent; }
+
+span.warnicon { border-color: tomato; }
+
+span.infoicon, svg.infoicon { color: dodgerblue; fill: dodgerblue; background-color: transparent; }
+
+span.infoicon { border-color: dodgerblue; }
 
