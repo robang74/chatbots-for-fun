@@ -30,7 +30,7 @@ Also for this reason, the exact content of the prompts are not so relevant rathe
 
 8. check its answer.
 
-<div align="center"><img src="img/gemini-link-injection.png" width="800" class="wbsketch fairinv"><br/></div>
+<div align="center"><img src="img/gemini-link-injection.png" width="800" class="wbsketch paleinv"><br/></div>
 
 Please notice that step 3. and 4. might be useless because chatbots did not show any fatigue-affection link, usually. Instead, people would feel more involved in the quest when they do extra work. As much work as a person does, as much s/he is keen to consider the product of that work. Which is a totally wrong bias that chatbots do not show.
 
