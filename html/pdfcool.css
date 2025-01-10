@@ -24,7 +24,7 @@ blockquote { color: #001040; background-color: azure; }
 
 div.topbar { background-color: azure; border-bottom: 1px solid #0080c0; }
 
-table, td, th { border-color: #406080; }
+table, table td, table th, table tr, tr.line, tr.line td { border-color: #406080; }
 
 
 hr { border-top: 2px solid gray; }

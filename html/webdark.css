@@ -18,7 +18,7 @@ body { color: #f0f0f0; background-color: black; }
 
 div.topbar { border: 1px solid; }
 
-table, td, th { border-color: #a0a0a0; }
+table, table td, table th, table tr, tr.line, tr.line td { border-color: #a0a0a0; }
 
 
 a, a:link, b.post-it { color: #e0e0e0; }

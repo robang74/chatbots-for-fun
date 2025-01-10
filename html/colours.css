@@ -18,7 +18,7 @@ blockquote { background-color: #281818; color: #fff0e8; }
 
 div.topbar { color: lightgray; background-color: maroon; border-bottom: 1px solid #c08000; }
 
-table, td, th { border-color: #888078; }
+table, table td, table th, table tr, tr.line, tr.line td { border-color: #888078; }
 
 
 div.post-it { border-color: orange; }

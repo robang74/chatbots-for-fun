@@ -24,7 +24,7 @@ div.topbar { background-color: #f0f0f0; border-bottom: 1px solid gray; }
 
 div.post-it { border: 2px dashed dimgray; }
 
-table, td, th { border-color: dimgray; }
+table, table td, table th, table tr, tr.line, tr.line td { border-color: dimgray; }
 
 hr { border-top: 2px solid dimgray; }
 
