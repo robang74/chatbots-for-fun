@@ -46,7 +46,7 @@ hr.post-it {
 div.post-it {
     border: 1px dashed;
     border-radius: 16px;
-    padding: 20px 40px 5px 40px;
+    padding: 5px 40px 5px 40px;
     font-family: "Comic Sans", cursive;
     position: relative; /* b.post-it needs this line */
 }
@@ -192,8 +192,9 @@ td.td1stcol {
     text-align: left;
 }
 
-table.framebox, table.framebox tr, table.framebox th, table.framebox td {
+div.framebox table, div.framebox tr, div.framebox th, div.framebox td {
     border: 0px transparent;
+    text-align: center;
     padding: 0px;
 }
 
@@ -218,6 +219,7 @@ div.topbar {
     padding-top: 9px;
     border-radius: 9px;
     padding-bottom: 12px;
+    border-bottom: 1px solid;
 }
 
 sup.date-type {

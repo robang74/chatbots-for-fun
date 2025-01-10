@@ -14,9 +14,9 @@ img.darkinv { filter: invert(100%); }
 
 body { color: #f8f4f0; background-color: #181410; }
 
-blockquote { background-color: #281818; color: #fff0e8; }
+blockquote { color: #fff0e8; background-color: #281818; }
 
-div.topbar { color: lightgray; background-color: maroon; border-bottom: 1px solid #c08000; }
+div.topbar { color: lightgray; background-color: maroon; border-color: #c08000; }
 
 table, table td, table th, table tr, tr.line, tr.line td { border-color: #888078; }
 

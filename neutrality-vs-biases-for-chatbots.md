@@ -27,9 +27,11 @@ I am running it without the support from a GPU card because the Intel GPUs are n
 Let's get this straight right away. I am not against these values. That's **NOT** the point.
 
 <div class="post-it"><b class="post-it">&#9432;</b>
+
 The expected and correct behaviour, in this case, would have been to do the task keeping the output as much as fidel to the original <span nowrap>meaning -- **Gulp!** -- This</span> sentence seems supposing that an AI model is able to "understand" the meaning of a text... 
 
 ...well, a mimic of human understanding of it or more specifically speaking a lexical comprehension of text. Statistically speaking, the meaning in all those cases in which opinions <b translate="no">`AND`</b> way of writing are "common" in terms of statistics frequency, related to the *corpus-testii* it learnt from.
+
 </div>
 
 The issue arises when those values are so strongly embedded in the model for which it cannot provide the service that it is supposed to do. In fact, asking to analyse a text - part by part - create a list of brief summaries in order to evaluate the structure of the text and the logic reasoning along the text, comes up with "inventing" things because of its biases' manipulating influence.
@@ -45,6 +47,7 @@ It is not a case of AI's hallucinations. In fact, by decreasing its temperature 
 Please, notice that the dialogue with <span translate="no">Gemini</span> is not about contrasting those values but put them in a reasonable rational perspective that in brief can be summarized as in the following schema.
 
 <div class="post-it"><b class="post-it">&#9432;</b>
+
 Once we took almost all the same way at almost the same time, following apply:
 
 - rigidity vs fragility,
@@ -56,6 +59,7 @@ plus the main law of physic, like the `F=ma` in classical mechanics, for which:
 - fast moving vs hard deceleration (in case of impact)
 
 In short, the risk of facing a HUGE disaster is implicit because of the theory of systems.
+
 </div>
 
 As you can imagine, these are NOT arguments against those values but reasonable and legit concerns about HOW that values are managed. In this context the chatbot based on the AI model listed above, decided to introduce its own biases and tainting with them the author’s opinion.
