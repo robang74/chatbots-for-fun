@@ -1,4 +1,4 @@
-<div id="firstdiv" created="2024-11-22:IE" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created="2024-11-22:AUTO" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
 ## Come far innamorare un chatbot (p.2)
 

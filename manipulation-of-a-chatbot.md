@@ -1,4 +1,4 @@
-<div id="firstdiv" created="2024-11-18:IE" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created="2024-11-18:AUTO" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
 ## Manipulation of a chatbot
 
