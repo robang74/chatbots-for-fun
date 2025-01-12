@@ -1,6 +1,6 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
-<div align="center"><img src="img/hal-9000-eye-blueing-in-the-dark.jpg"><br/></div>
+<div align="center"><img class="wbsketch" src="img/hal-9000-eye-blueing-in-the-dark.jpg"><br/></div>
 
 ## Chatting with Alex the chatbot
 
