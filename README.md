@@ -38,11 +38,11 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
 
-* [come-leggere-una-chat-con-un-ai.md](come-leggere-una-chat-con-un-ai.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/come-leggere-una-chat-con-un-ai.md))
+* [Come leggere una chat con un AI](come-leggere-una-chat-con-un-ai.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/come-leggere-una-chat-con-un-ai.md))
 
-* [neutrality-vs-biases-for-chatbots.md](neutrality-vs-biases-for-chatbots.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/neutrality-vs-biases-for-chatbots.md))
+* [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/neutrality-vs-biases-for-chatbots.md))
 
-* [chatting-with-alex-the-chatbot.md](chatting-with-alex-the-chatbot.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatting-with-alex-the-chatbot.md))
+* [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatting-with-alex-the-chatbot.md))
 
 * [The system prompt alchemy](the-system-prompt-alchemy.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-system-prompt-alchemy.md))
 
