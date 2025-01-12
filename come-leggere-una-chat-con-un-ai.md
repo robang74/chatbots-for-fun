@@ -2,6 +2,20 @@
 
 ## Come leggere una chat con un AI
 
+I documenti che riportano dialoghi con chatbot sono un genere emergentee  possono essere letti in maniera più agevole e piacevole seguendo poche regole.
+
+1. cominciare dal fondo e risalire, 
+
+2. leggere prima tutti i prompt (umano),
+
+3. eventualmente le risposte del chatbot.
+
+Infatti, una best-practice per il prompting è riportare in quello successivo i punti critici della risposta precedente per discuterli ulteriormente.
+
+<br/>
+
+### Introduzione
+
 La tecnologia dei chatbot attuali è relativamente recente e risale al dicembre 2022 quando OpenAI mise online ChatGPT 3.5.
 
 * [A job interview with ChatGPT v3.5](https://robang74.github.io/roberto-a-foglietta/pdf.todo/226-A_job_interview_with_ChatGPT_v35.pdf) (2022-12-07, EN, PDF)
@@ -62,9 +76,30 @@ In altri casi ho usato il dialogo con il chatbot per fare peer-review alle mie i
 
 * [The system prompt alchemy - rules set escalation](https://robang74.github.io/chatbots-for-fun/html/the-system-prompt-alchemy.html#rules-set-escalation)
 
-Generalmente mi piace scrivere ma non mettermi in cattedra, però ogni tanto qualcuno mi ci tira per la giacchetta... e chi diavolo sono io per non accontentarli? Mi piace l'odore di prima mattina di altri "clienti" ben serviti secondo dovere e merito. LOL
+Generalmente mi piace scrivere ma non mettermi in cattedra, però ogni tanto qualcuno mi ci tira per la giacchetta... e chi diavolo sono io per non accontentarli?
 
-<br/>
+Mi piace l'odore di prima mattina di altri "clienti" ben serviti secondo dovere e merito. LOL
+
+---
+
+### Ricezione da parte ChatGPT
+
+Il chatbot è stato inizializzato con il prompt di sistema di cui sopra il link e poi gli è stato posto questo quesito riguardo alla parte sopra di questo documento. 
+
+Qui viene riportata sola la conclusione, reperire il resto della risposta lo si lascia per esercizio al lettore.
+
+> **Prompt**: ignora i link in questo documento (attachment) e proponi un'analisi, in particolare riguardo al "modello di letteratura emergente" citato e all'utilità e chiarezza dei consigli forniti.
+
+`[... omissis ...]`
+
+#### Conclusione
+
+Il documento fornisce **una guida chiara e utile** per approcciare la lettura dei testi basati su interazioni con chatbot, proponendo un metodo pratico per evitare dispersioni e focalizzarsi sui contenuti più rilevanti.  
+
+Il concetto di **"letteratura emergente"** è ben argomentato e colloca il formato dei dialoghi IA all'interno di un'evoluzione naturale dei modelli di lettura e scrittura.  
+
+L'integrazione della **peer-review con IA** apre infine uno spunto interessante su come questi strumenti possano essere utilizzati anche per il miglioramento della comunicazione e della riflessione personale.
+
 <br/>
 
 ## Copyright
