@@ -4,7 +4,7 @@
 
 ## AI system prompting to leverage RAG
 
-In this paper based on a comment that I wrote on the discussion board on the GitHub Nomic AI gpt4all project. It is aim is to document my personal experiments in system prompting a local running AI model for efficiently optimise the ratio between computational time and meanfullness of the answer. In particular considering the typical constrains of that AI models running on consumer hardware.
+In this paper based on a [comment](https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11817710) that I wrote on the discussion board on the GitHub Nomic AI gpt4all project. It is aim is to document my personal experiments in system prompting a local running AI model for efficiently optimise the ratio between computational time and meanfullness of the answer. In particular considering the typical constrains of that AI models running on consumer hardware.
 
 <br/>
 
@@ -150,13 +150,13 @@ Definetely too early to jump at any conclusion. The topic is as wide as the far-
 
 ## Related articles
 
-- tanta roba 
+* [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md#?target=_blank) (2025-01-04)
 
-- tanta roba 
+* [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md#?target=_blank) (2025-01-04)
 
-- tanta roba 
+* [The system prompt alchemy](the-system-prompt-alchemy.md#?target=_blank) (2025-01-04)
 
-- tanta roba 
+* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank) (2024-12-25)
 
 <br/>
 
