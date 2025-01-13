@@ -1,5 +1,7 @@
 <div id="firstdiv" created="2025-01-13:EN:+1" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
+<div align="center"><img class="wbsketch paleinv" src="img/ai-capricciose-come-minions.png"><br/></div>
+
 ## AI system prompting to leverage RAG
 
 In this paper based on a comment that I wrote on the discussion board on the GitHub Nomic AI gpt4all project. It is aim is to document my personal experiments in system prompting a local running AI model for efficiently optimise the ratio between computational time and meanfullness of the answer. In particular considering the typical constrains of that AI models running on consumer hardware.
