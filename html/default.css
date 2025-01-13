@@ -27,7 +27,7 @@ body {
     font-family: "Ubuntu", sans-serif;
 /**/
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1.75;
  /*\,-Remove this parenthesys to set the font size */
 /*)/font-size: 16px;                               /* <- HERE! font base size */
 
@@ -60,7 +60,7 @@ b.post-it {
 blockquote {
 /*  color: darkwhite; */
     font-size: 110%;
-    line-height: 1.25;
+    line-height: 1.5;
     text-align: justify;
     font-family: "Garamond", serif;
 
