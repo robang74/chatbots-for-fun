@@ -5,13 +5,13 @@
 Playing with chatbots for fun and learning to hate people! LOL (humor)
 
 > [!WARNING]
->
+> 
 > The documents contained in this repository have not an intrinsic value nor are they objective but personal writings. A personal correspondence that once upon a time would have been written in letters among two distant humans and kept private but with the AI can be quickly produced and shared by a single party will.
 
 Since conceived as a collection and due to the nature of these documents, they should be considered as a whole, rather than individually. This also applies for the purposes of copyright and author attribution, including this README.md file.
 
 > [!NOTE]
->
+> 
 > These documents are not necessarily aligned with the human author's opinion in all their parts. However, in general they are. Or said in a different way: they do not contain ideas which the human author refuses to evaluate, but not necessarily accept and/or as-is in particular.
 
 <div id="firstdiv" created="2024-11-17:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
