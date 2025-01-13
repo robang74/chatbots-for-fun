@@ -57,6 +57,8 @@ which is the bare minum that I found which can work with gpt4all.
 
 The first prompt derive from a previous experiment in order to solve some issue in following user's directive by chatbot trained with the Open Hermes 2.5 dataset which is the best for text analisys but it does not include any "instructive" training about following the user's directives.
 
+* [data/system-prompts.txt](data/system-prompts.txt#?target=_blank) &nbsp;&larr;&nbsp; for an easy copy-&-paste way to go.
+
 Moreover, some AI model suffer of a quite broad spectrum of "attitudes" which are quite interesting but also annoying. These misbahaviourl habits can be related to the quantisitation process they undergo for being suitable to run within the gpt4all framework and more in general on consumer hardware.
 
 
@@ -89,6 +91,8 @@ chars (not spaces): 334
 ### RAG WISE SYSTEM PROMPT
 
 The next step after having an instructive system prompt in place, is to complete it with another part specifically designed to leverage the retrieval-augmented generation (RAG) which is a technique for enhancing the accuracy and reliability of generative AI models with facts fetched from external sources.
+
+* [data/knowledge-savy.txt](data/knowledge-savy.txt#?target=_blank) &nbsp;&larr;&nbsp; for an easy copy-&-paste way to go.
 
 Which can easily be our documents, whatever they are a priviledged source of consolidated facts, a collection of information to further elaborate or even a text/information which need to go under a peer-review or a certain kind of analisys and we do not feel confortable in sharing using on-line services.
 
