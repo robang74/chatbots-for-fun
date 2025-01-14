@@ -10,17 +10,16 @@
  ******************************************************************************/
 
 img.paleinv { filter: invert(100%); }
-/*
+
 div.pagehead {
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("../img/muppets-show-inv.jpg");
+    background-image: url("../img/muppets-show-pale.jpg");
 }
 
 div.pagehead img {
     visibility: hidden;
 }
-*/
 
 
 body { color: #181008; background-color: #fffcfc; }
@@ -49,7 +48,7 @@ a:hover { background-color: seashell; border: none; text-decoration: underline; 
 
 .sup-note, a:visited, a:active, a.topbar { color: #600; }
 
-div.pagehead h1, div.pagehead hr { color: #006; border-color: #006; }
+h1.title, hr.title { color: #600; border-color: #600; }
 
 a.topbar { border: none; }
  

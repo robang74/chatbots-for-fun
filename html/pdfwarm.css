@@ -18,6 +18,20 @@ img:not(.hal9k) {
 
 img.paleinv { filter: invert(100%) grayscale(100%) contrast(2); }
 
+div.pagehead {
+    height: 350px;
+    display: inline-block; 
+    background-color: red;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../img/muppets-show-pale.jpg");
+    filter: opacity(0.67)  contrast(1.25) sepia(0.8);
+}
+
+div.pagehead img {
+    visibility: hidden;
+}
+
 
 body { color: #181410; background-color: #f8f4f0; }
 
@@ -46,6 +60,8 @@ a:hover { border: none; text-decoration: underline; background-color: seashell; 
 a:active, a:visited { color: #602010; }
 
 a.topbar { border: none;  color: brown; }
+
+h1.title, hr.title { color: brown; border-color: brown; }
 
 
 span.warnicon, svg.warnicon { color: #800; fill: #800; }

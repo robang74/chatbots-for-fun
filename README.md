@@ -1,10 +1,8 @@
 <div id="firstdiv" created="2024-11-17:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
-<div align="center"><img class="wbsketch" src="img/muppets-show.jpg" width="800"><br/>
+<div class="pagehead" align="center"><img class="wbsketch" src="img/muppets-show.jpg" width="800"></div>
 
-<h1>Chatbots for fun</h1><hr>
-
-</div>
+<h1 class="title">Chatbots for fun</h1><hr class="title">
 
 Playing with chatbots for fun and learning to hate people! LOL (humor)
 

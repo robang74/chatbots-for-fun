@@ -16,7 +16,7 @@ body { color: #f8f4f0; background-color: #181410; }
 
 blockquote { color: #fff0e8; background-color: #281818; }
 
-div.topbar { color: lightgray; background-color: maroon; border-color: #c08000; }
+div.topbar { color: lightgray; background-color: maroon; border-bottom-color: #c08000; }
 
 table, table td, table th, table tr, tr.line, tr.line td { border-color: #888078; }
 
@@ -27,7 +27,7 @@ a, a:link, b.post-it { color: orange; }
 
 .sup-note, a:visited, a:active, a.topbar { color: bisque; }
 
-div.pagehead h1, div.pagehead hr { color: bisque; border-color: bisque; }
+h1.title, hr.title { color: bisque; border-color: bisque; }
 
 
 .warnicon, .infoicon { background-color: transparent; }
