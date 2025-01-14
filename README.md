@@ -1,6 +1,10 @@
-<br/><div align="center"><img class="wbsketch" src="img/muppets-show.jpg" width="800"><br/></div>
+<div id="firstdiv" created="2024-11-17:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
-## Chatbots for fun
+<div align="center"><img class="wbsketch" src="img/muppets-show.jpg" width="800"><br/>
+
+<h1>Chatbots for fun</h1><hr>
+
+</div>
 
 Playing with chatbots for fun and learning to hate people! LOL (humor)
 
@@ -13,8 +17,6 @@ Since conceived as a collection and due to the nature of these documents, they s
 > [!NOTE]
 > 
 > These documents are not necessarily aligned with the human author's opinion in all their parts. However, in general they are. Or said in a different way: they do not contain ideas which the human author refuses to evaluate, but not necessarily accept and/or as-is in particular.
-
-<div id="firstdiv" created="2024-11-17:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
 <br/>
 
