@@ -92,7 +92,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 ### Chatbots
 
-* [chatgpt.com](https://chatgpt.com) - lessical reasoning &thinsp;(&hairsp;**`WOW!`**)
+* [chatgpt.com](https://chatgpt.com) - lessical thinking &thinsp;(&hairsp;**`WOW!`**)
 
 * [gemini.google.com](https://gemini.google.com) - language and search
 
@@ -105,6 +105,8 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 * [x.com/i/grok](https://x.com/i/grok) - free minded but dumb
 
 * [claude.ai](https://claude.ai) - coding and data analysis
+
+* [deepseek.com](https://deepseek.com) - math & rational reasoning
 
 #### Local AIs
 
