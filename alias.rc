@@ -10,12 +10,13 @@ c() {
         test -r "$i" || i="html/$i"
         test "$i" == "html/" && i="index.html"
         printf "\n> browse file: $i\n"
-        bash -c "nohup chromium-browser ${i:-index.html} >/dev/null 2>&1 &"
+        bash -c "nohup chromium-browser ${i:-index.html} >/dev/null 2>&1" &
         for i in $(seq 1 5); do sleep 0.1; raisewapp Chromium; done
     done
     echo
 }
 gptchat() {
     QT_QPA_PLATFORM="xcb" XDG_SESSION_TYPE="xcb" xxdiff . ~/b/${PWD##*/} ;
-    bash ~/gpt4all/bin/chat.sh 2>&1 | grep -q jsafaljfòkjflòDFSÒLKJDSFSD &
+    bash ~/gpt4all/bin/chat.sh 2>&1 | grep -q . &
 }
+ge() { gedit "$@" & }
