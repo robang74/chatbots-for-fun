@@ -1,6 +1,6 @@
 <div id="firstdiv" created="2025-01-21:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
-<div align="center"><img class="bwsketch" src="img/peer-review.png"><br/></div>
+<div align="center"><img class="wbsketch inksave" src="img/peer-review.png"><br/></div>
 
 ## The peer-review session prompt
 
