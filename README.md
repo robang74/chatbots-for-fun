@@ -38,41 +38,41 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
 
-* [AI peer-review pormpt with RAG](ai-peer-review-prompt-with-rag.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md))
+* 2025-01-21  - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md)`**] - [AI peer-review pormpt with RAG](ai-peer-review-prompt-with-rag.md)
 
-* [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-system-prompting-to-leverage-rag.md))
+* 2025-01-13 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-system-prompting-to-leverage-rag.md)`**] - [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md)
 
-* [Come leggere una chat con un AI](come-leggere-una-chat-con-un-ai.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/come-leggere-una-chat-con-un-ai.md))
+* 2025-01-12 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/come-leggere-una-chat-con-un-ai.md)`**] - [Come leggere una chat con un AI](come-leggere-una-chat-con-un-ai.md)
 
-* [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/neutrality-vs-biases-for-chatbots.md))
+* 2025-01-04 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/neutrality-vs-biases-for-chatbots.md)`**] - [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md)
 
-* [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatting-with-alex-the-chatbot.md))
+* 2025-01-04 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatting-with-alex-the-chatbot.md)`**] - [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md)
 
-* [The system prompt alchemy](the-system-prompt-alchemy.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-system-prompt-alchemy.md))
+* 2025-01-04 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-system-prompt-alchemy.md)`**] - [The system prompt alchemy](the-system-prompt-alchemy.md)
 
-* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dammi-sei-parole-a-caso.md))
+* 2024-12-25 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dammi-sei-parole-a-caso.md)`**] - [Dammi sei parole a caso](dammi-sei-parole-a-caso.md)
 
-* [Alla ricerca del gatto che non c'è](alla-ricerca-del-gatto-che-non-c-e.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/alla-ricerca-del-gatto-che-non-c-e.md))
+* 2024-12-22 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/alla-ricerca-del-gatto-che-non-c-e.md)`**] - [Alla ricerca del gatto che non c'è](alla-ricerca-del-gatto-che-non-c-e.md)
 
-* [Leveraging a chatbot for human writing](leveraging-a-chatbot-for-human-writing.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/leveraging-a-chatbot-for-human-writing.md))
+* 2024-12-22 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/leveraging-a-chatbot-for-human-writing.md)`**] - [Leveraging a chatbot for human writing](leveraging-a-chatbot-for-human-writing.md)
 
-* [L'arte della supercazzola](l-arte-della-supercazzola.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/l-arte-della-supercazzola.md))
+* 2024-12-17 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/l-arte-della-supercazzola.md)`**] - [L'arte della supercazzola](l-arte-della-supercazzola.md)
 
-* [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-problema-sei-tu-non-l-AI.md))
+* 2024-12-13 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-problema-sei-tu-non-l-AI.md)`**] - [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md)
 
-* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-human-real-reasoning.md))
+* 2024-11-28 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-human-real-reasoning.md)`**] - [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md)
 
-* [Far innamorare un chatbot (parte 2)](far-innamorare-un-chatbot-p2.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p2.md))
+* 2024-11-22 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p2.md)`**] - [Far innamorare un chatbot (parte 2)](far-innamorare-un-chatbot-p2.md)
 
-* [ChatGPT vs Paolo Benanti](chatgpt-vs-paolo-benanti.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-paolo-benanti.md)) aka Mr. Spock vs Miss Poppins
+* 2024-11-21 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-paolo-benanti.md)`**] - [ChatGPT vs Paolo Benanti](chatgpt-vs-paolo-benanti.md) aka Mr. Spock vs Miss Poppins
 
-* [Far innamorare un chatbot (parte 1)](far-innamorare-un-chatbot-p1.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p1.md))
+* 2024-11-20 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p1.md)`**] - [Far innamorare un chatbot (parte 1)](far-innamorare-un-chatbot-p1.md)
 
-* [Manipulation of a chatbot](manipulation-of-a-chatbot.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/manipulation-of-a-chatbot.md))
+* 2024-11-18 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/manipulation-of-a-chatbot.md)`**] - [Manipulation of a chatbot](manipulation-of-a-chatbot.md)
 
-* [Tuttinudi e la rossa anche sotto](tuttinudi-e-la-rossa-anche-sotto.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/tuttinudi-e-la-rossa-anche-sotto.md))
+* 2024-11-17 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/tuttinudi-e-la-rossa-anche-sotto.md)`**] - [Tuttinudi e la rossa anche sotto](tuttinudi-e-la-rossa-anche-sotto.md)
 
-* [Most attractive hobbies to women](most-actractive-hobbies-to-women.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/most-actractive-hobbies-to-women.md))
+* 2024-11-17 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/most-actractive-hobbies-to-women.md)`**] - [Most attractive hobbies to women](most-actractive-hobbies-to-women.md)
 
 These document are written in Italian, English or both languages indifferently. You can use any automatic translation system you like. Among them Google Translate works passing to it just the link of the page. The **raw** link can help translate the page, but at the cost of formatting.
 
