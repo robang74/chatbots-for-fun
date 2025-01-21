@@ -256,9 +256,9 @@ After providing the claims, assumptions, and constraints, conduct a coherence ch
 
 ## Interesting critics
 
-Claude AI objections deserve a section for their own because they are quite interesting. Expecially because the most "insighful" helps came from those AI models that tends to be over-critics and makes few more mistakes than others. Because of this, interacting with them is more demanding but also more interesting and fruitful. The price to pay is the risk to be tricked but their good-will cleverness.
+Claude AI objections deserve a section for their own because they are quite interesting. Expecially because the most "insighful" helps came from those AI models that tends to be over-critics and makes few more mistakes than others.
 
-The following conversation is also important about customising the prompt above. It SHOULD not be used as-is but customised removing those parts that do not apply or are not interesting (e.g.: peer-review, RAG support, etc.) and, by contrary, fulfil those parts that requires a specific indication that the prompt template are presented as ${variable}s.
+Because of this, interacting with them is more demanding but also more interesting and fruitful. The price to pay is the risk to be tricked but their good-will cleverness. The following conversation is also important about customising the prompt.
 
 ---
 
@@ -319,6 +319,8 @@ Would you like me to revise my earlier analysis with these corrections in mind?
 ## The peer-review prompt with RAG support
 
 * [alex-peer-review-with-rag.txt](../data/alex-peer-review-with-rag.txt?target=_blank) &nbsp;&larr;&nbsp; for an easy copy-&-paste way to go.
+
+It SHOULD not be used as-is but customised removing those parts that do not apply or are not interesting (e.g.: peer-review, RAG support, etc.) and, by contrary, fulfil those parts that requires a specific indication that the prompt template are presented as ${variable}s.
 
 ---
 
