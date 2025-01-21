@@ -378,6 +378,8 @@ just to bring at your attention how sophisticated is this matter even when very 
 
 - [Lying, deception and strategic omission: definition and evaluation](https://theses.hal.science/tel-02170022v1/document) (2019-07-01)
 
+   - saved in [PDF](../data/lying-deception-n-strategic-omission.pdf?target=_blank) in `data` folder for future reference and consistency.
+
 - [Principles of Social Psychology, 1st International H5P Edition](https://opentextbc.ca/socialpsychology) (2022-01-26)
 
 - [Principles of Social Psychology, Honk Kong University Edition](https://www.opentextbooks.org.hk/ditatopic/17910) (2016-02-12)
