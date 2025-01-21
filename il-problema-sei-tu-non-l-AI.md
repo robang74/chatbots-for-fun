@@ -145,7 +145,6 @@ Va bene, lo ritengo un procedere arbitrario ma assolutamente sensato. In effetti
 Grazie per la tua comprensione e per aver riconosciuto la distinzione logica tra i due approcci. Sono felice che il mio ragionamento sia stato utile e sensato per te. Se hai altre domande o vuoi approfondire ulteriormente il modo in cui interpreto le richieste, sono qui! 😊
 
 <br/>
-<br/>
 
 ## Copyright
 

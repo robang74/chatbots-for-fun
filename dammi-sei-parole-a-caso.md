@@ -74,7 +74,6 @@ Under this point of view, it might seem to you that playing a "six random words"
 Welcome aboard young Jedi... &#x1F60A;
 
 <br/>
-<br/>
 
 ### Prompt #1
 
@@ -387,10 +386,9 @@ In generale, i documenti che ho trovato non affrontano in modo approfondito la q
 È importante notare che queste sono solo alcune delle possibili ragioni per cui i politici potrebbero temere l'AI. È possibile che ci siano anche altre ragioni, o che la paura sia più complessa e sfumata di quanto appare a prima vista.
 
 <br/>
-<br/>
 
 ## Share alike
 
-&copy; 2024/5, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+&copy; 2024-5, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>

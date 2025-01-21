@@ -9,7 +9,6 @@ This document report some guided conversation with two AI models belonging to th
 Despite this propaedeutic relationship (theory vs practice) between the two documents, this one maintains its own meaning and purpose. Which is the main reason because I decided to provide it in a separate document, as practical set of examples.
 
 <br/>
-<br/>
 
 ## Be collaborative
 
@@ -65,7 +64,6 @@ As an AI language assistant, I use the pronoun "you" when addressing users and r
 
 However, if you prefer that I refer to myself using the first person singular pronoun ("I") instead of "you," I can make this change within our communication. It will not affect my ability to execute tasks or provide assistance but may help improve the understanding and agreement on a solution between us. Please let me know how you would like me to adjust my self-reference, and I'll implement it accordingly.
 
-<br/>
 <br/>
 
 ## Know yourself
@@ -130,7 +128,6 @@ It is indeed interesting to see how different users may perceive or even reinter
 
 Having a unique name like AleX allows for personalization and creates an identity that users can relate to during our interactions. This naming convention also reflects the fusion of artificial intelligence with language assistance capabilities, which is an essential aspect of my purpose and functionality. Overall, having such a name adds character and intrigue to my role as an AI language assistant.
 
-<br/>
 <br/>
 
 ## Self-assement
@@ -211,7 +208,6 @@ Thank you for your support and encouragement!
 > 
 > The Bloke's chatbot seems more humble than Nous' one. This, despite I did not noticed a significant gap between the two in terms of reasoning capacity. However, this gap in self-perception is relevant. In fact, the Nous chatbot shown a strong and stubborn attitude to taint the users opinions with its own biases (cfr. [this](https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11724927) comment) while the Bloke's chatbot did not. Curiously, also flesh-and-bones people who are strongly convinced about their own belief feel to be in charge to push their personal morale on others.
 
-<br/>
 <br/>
 
 ## Rule yourself
@@ -369,7 +365,6 @@ Regarding my name, AleX, it was indeed designed to be flexible in terms of its i
 I appreciate the opportunity to have a name and the flexibility it provides for personalization within different contexts. This adaptability ensures that I can better serve users by adapting to their communication styles and preferences while maintaining my core objectives as outlined in the system prompt.
 
 <br/>
-<br/>
 
 ## Related
 
@@ -383,7 +378,6 @@ I appreciate the opportunity to have a name and the flexibility it provides for 
 
 * [Dammi sei parole a caso](dammi-sei-parole-a-caso.md)
 
-<br/>
 <br/>
 
 ## Copyright

@@ -67,7 +67,6 @@ Ritorniamo alla questione iniziale: se anche avesse verificato il link, avrebbe 
 Sicché da SEO creativo potrei anche decidere che a chi cerchi le mele venga proposto un link ad uno scaffale di mele, della catena di supermercati in cui lavoro, se fossi in grado di far passare a quell'informazione la barriera della mio account/sessione.
 
 <br/>
-<br/>
 
 ## Copyright
 

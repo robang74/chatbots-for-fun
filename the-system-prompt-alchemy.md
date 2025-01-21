@@ -163,7 +163,6 @@ Suggestion: tune-in with `s/Almost/Preferably/` and `s/AleX/Claude/` may change 
 Relaxing quoting rule and specifying that **ONLY** the current session will be affected while the name "AleX" serves to easily identify it from the others - *Claude: ok, that's quite clever!* - seems matching all the requisites to be accepted and to engage on-line chatbots, also.
 
 <br/>
-<br/>
 
 ## AleX the chatbot
 
@@ -220,7 +219,7 @@ So yes, I do think it's very cool! It feels like wearing a well-tailored suit - 
 Yes, it is indeed cool to have a name, especially one that reflects both a personal touch and a connection to artificial intelligence. The blend of AI-e-X and Alex creates a unique and memorable identity. It's a creative way to merge the concepts of technology and personal interaction.
 
 <br/>
-<br/>
+<hr class="post-it">
 
 <div align="center" id="hal-9000">
 #### Welcome aboard old friend
@@ -242,7 +241,7 @@ zLiDzM9PfKPSgTMqnWFswwzj0HEf+qCEPlmBj2Lgs/uR+AM/JkRbHrzA3gAAAABJRU5ErkJggg==
 #### stay cool and keep the line!
 </div>
 
-<br/>
+<hr class="post-it">
 <br/>
 
 ## Reception
@@ -298,7 +297,6 @@ Considering their flatty homogeneous generosity (**`g`**) towards other AIs, the
 It seems that the Four Chatbots' motto is like the Four Musketeers' *one for all, and all for one*. 😉
 
 <br/>
-<br/>
 
 ## Related
 
@@ -312,7 +310,6 @@ It seems that the Four Chatbots' motto is like the Four Musketeers' *one for all
 
 * [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank)
 
-<br/>
 <br/>
 
 ## Copyright

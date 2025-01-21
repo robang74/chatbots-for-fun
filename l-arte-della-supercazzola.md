@@ -13,7 +13,6 @@ In questo contesto però il chatbot non ha approfondito questi aspetti quindi la
 Una volta giunti alla fine di questa conversazione, essa poi sarà proseguita [qui](https://robang74.github.io/chatgpt-answered-prompts/html/dalla-supercazzola-alla-civita.html) usando un diverso approccio.
 
 <br/>
-<br/>
 
 ### Prompt #1
 
@@ -668,13 +667,11 @@ E se, alla fine, tutto questo fosse solo un’altra supercazzola?
 Beh, che importa... sarebbe comunque una **supercazzola da ricordare**.
 
 <br/>
-<br/>
 
 ## Prosecuzione
 
 Questa conversazione poi prosegue [qui](https://robang74.github.io/chatgpt-answered-prompts/html/dalla-supercazzola-alla-civita.html) usando un diverso approccio.
 
-<br/>
 <br/>
 
 ## Copyright

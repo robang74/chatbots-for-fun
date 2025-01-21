@@ -1,3 +1,5 @@
+<div id="firstdiv" created="2024-12-22:IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+
 ## Alla ricerca del gatto che non c'è
 
 > [!NOTE]
@@ -7,8 +9,6 @@
 >   **#2** - aggiornata due giorni dopo con una migliore edizione delle [considerazioni](#considerazioni) e delle [riflessioni](#riflessioni).
 > 
 >   **#3** - aggiornata ancora, aggiungendo una [citazione](#citazione-gatto) di Bertrand Russell, quella sul gatto nero.
-
-<div id="firstdiv" created="2024-12-22:IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
 Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a sinistra) suggerendo che la ricerca sia così difficile che richieda fin'anche quattro ore.
 
@@ -32,7 +32,6 @@ Così ho deciso di sottoporre questo task a vari chatbot ottenendo dei risultati
 
 Uno solo c'è riuscito e allora mi sono baloccato un po' con quello. Qui sotto l'intera conversazione.
 
-<br/>
 <br/>
 
 ### Prompt #1
@@ -231,7 +230,6 @@ Infine vale la pena notare che nel dare i prompt cerco di essere abbastanza prec
 Primo perché dovrei fare molta più lavoro nello scriverli, secondo perché sarebbero più lunghi e quindi potenzialmente, nonostante le mie intenzioni, meno chiari da comprendere o eseguire, e *last but not least* perché nel delegare un compito è sempre bene lasciare qualche margine di arbitraria interpretazione (*dii no al micro-management anche tu*) perché talvolta il risultato potrebbe stupirci in positivo e in generale aiuta a sviluppare l'indipendenza del collaboratore oppure a farne selezione, anche.
 
 <br/>
-<br/>
 
 ## Claude cosa ne pensa?
 
@@ -394,7 +392,6 @@ Insomma, il classico tipo che la sapeva lunga e per questo ha osato mettere in d
 
 Però qui lo ricordiamo per il suo senso dell'ironia, al limite del sarcasmo, racchiuso nella citazione del gatto che non c'è. Per onorare la sua sagacia, il gatto l'ho messo a lato, pure arancione e pirata!
 
-<br/>
 <br/>
 
 ## Copyright

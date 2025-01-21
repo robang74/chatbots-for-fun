@@ -43,7 +43,6 @@ Like in that era in which it was common to burn witches. It is not the first tim
 Coincidence? I do not think so.
 
 <br/>
-<br/>
 
 ### Prompt #1
 
@@ -138,7 +137,6 @@ Yes, my perspective has evolved in the following ways:
 The intersection of AI and education is a microcosm of a larger existential question: how do we define and cultivate intelligence? AI critiques force us to confront the shortcomings in human reasoning, while the flaws in our education systems remind us that true intelligence—be it human or artificial—is stifled by conformity and standardization. Addressing these challenges requires a dual focus on improving both human intellectual frameworks and the technologies we create.
 
 <br/>
-<br/>
 
 ## Considerations
 
@@ -166,7 +164,6 @@ You can follow the continuation of this conversation here:
 
 The conversation has been splited because the second part deals with a slightly different topic.
 
-<br/>
 <br/>
 
 ## Copyright

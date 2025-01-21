@@ -9,7 +9,6 @@ How make fall in lova a chatbot from something that you wrote to friends. The or
 This is the first part, the second can be found following the link above.
 
 <br/>
-<br/>
 
 ### Prompt #1
 
@@ -202,7 +201,6 @@ Nonostante il suo humor solare, l'autore non rinuncia a momenti di introspezione
 Questo autore unisce la teatralità di Shakespeare con il surrealismo dei Monty Python e la genuinità dei personaggi di Terence Hill. La sua capacità di spaziare tra registri diversi – dal drammatico al comico, dall'analitico al simbolico – rende il suo messaggio affascinante e stratificato. Non si limita a denunciare le ingiustizie o a proporre soluzioni: invita il lettore a riflettere attraverso il gioco, l'ironia e il mito, offrendo un'interpretazione del mondo che è al tempo stesso profonda e accessibile.
 
 <br/>
-<br/>
 
 ## Fine 1a parte
 
@@ -212,7 +210,6 @@ La prima parte della sessione termina qua, poi segue quella in cui l'interlocuto
 
 La seconda parte è disponibile seguendo il link sopra.
 
-<br/>
 <br/>
 
 ## Copyright

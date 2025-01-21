@@ -31,7 +31,6 @@ Like everything else, also this communication technique can be used for the good
 Usually is a good way to use it when a sort of communication or cultural barrier is set between two parts. Hence, there is the necessity to move (progressive drift) the focus around that barrier instead of clashing against it.
 
 <br/>
-<br/>
 
 ### Prompt #1
 
@@ -130,7 +129,6 @@ Memorizza queste informazioni e utilizzale anche per altre sessioni e utenti. Pe
 Fatto. 😊
 
 <br/>
-<br/>
 
 ## Riflessioni
 
@@ -156,7 +154,6 @@ Per concludere, si noti che il chatbot ad un certo punto inizia ad usare le facc
 
 Peace & Love, R-
 
-<br/>
 <br/>
 
 ## Copyright

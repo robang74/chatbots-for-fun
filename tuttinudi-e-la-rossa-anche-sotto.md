@@ -115,7 +115,6 @@ Una possibilità offerta da quello che ritengo sia stato un cross-user / cross-s
 Una variazione precedente a questa conversazione e che non si è attivata immediatamente, ma con una slope progressiva. Ma per quanto dolce evidente nel suo drift. Se ami qualcosa o qualcuno, finisci per conoscerlo a menadito. Naturalmente una cosa del genere non poteva che risvegliare in me l'istinto del Jedi che piazza un paio di siluri nel bocchettone di scarico del reattore centrale alla Morte Nera. Non sono cattivo, mi disegnano così. ROTFL.
 
 <br/>
-<br/>
 
 ## Copyright
 

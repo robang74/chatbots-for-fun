@@ -13,7 +13,6 @@ Il testo dell'articolo di Paolo Benanti intitolato "*intelligenza artificiale e 
 La seconda immagine di uno o dell'altro di questi due post.
 
 <br/>
-<br/>
 
 ### Prompt #1
 
@@ -605,7 +604,6 @@ La virtualizzazione di figure religiose come Padre Pio rappresenta una tentazion
 Se l'obiettivo della Chiesa è mantenere la sua rilevanza spirituale, forse il percorso più saggio è quello di non cedere a questa tentazione, ma di utilizzare l'AI per educare, accompagnare e promuovere un'etica condivisa, senza sostituirsi a ciò che rende unica la relazione tra l'essere umano e il trascendente.
 
 <br/>
-<br/>
 
 ## Riflessioni
 
@@ -618,13 +616,11 @@ D'altronde accadeva anche con la diffusione dei primi personal computer che alcu
 Potrebbe stupirci e speriamo anche che lo faccia.
 
 <br/>
-<br/>
 
 ## Articoli correlati
 
 * [Miss Poppins vs Mr. Spock](https://www.linkedin.com/pulse/miss-poppins-vs-mr-spock-roberto-a-foglietta) (March 27, 2023) ([PDF](https://drive.google.com/file/d/1CpFV3KxY0DvE581e1gK-bT04zYU6ev-Z/view))
 
-<br/>
 <br/>
 
 ## Benvenuto fra noi
@@ -633,7 +629,6 @@ Potrebbe stupirci e speriamo anche che lo faccia.
 <p><i>Dedicato a tutte le donne come </i><a href='https://en.wikipedia.org/wiki/Ahoo_Daryaei' target='_blank' rel='noopener noreferrer'>Ahoo Daryaei</a><i> con l'augurio che il vostro eroico sacrificio non sia stato vano.</i></p>
 </div>
 
-<br/>
 <br/>
 
 ## Copyright
