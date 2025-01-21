@@ -352,6 +352,8 @@ Imagine, it would be quite annoying that a Wikipedia or a dictionary page refuse
 
 ---
 
+<span id="the-game-theory-s-ethics"></span>
+
 ### The game theory's ethics
 
 This is a very broad topic and for giving to it a nice start, I suggest this video:
