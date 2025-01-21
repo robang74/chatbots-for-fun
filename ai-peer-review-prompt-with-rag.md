@@ -78,33 +78,33 @@ If your focus is primarily on presenting the prompt itself, your original title 
 
 After having developed a specifically peer-review oriented prompt, I decided to include those prompts I did in the past (cfr. [related articles](#related-articles)) in a way to obtain a template that would fit in the broadest scenario and by customisation or reduction, to every other even more specific cases.
 
-Here below, there is the peer-review prompt production process, gradually refined throught few steps. Or straighforward jump to the [product](#the-peer-review-prompt-with-rag-support) of this refinement process.
+Here below, there is the peer-review prompt production process, gradually refined through a few steps. Or straightforward jump to the [product](#the-peer-review-prompt-with-rag-support) of this refinement process.
 
 ---
 
 ### Initial request
 
-I am trying to create a session prompt specifically designed for document peer-reviewing. I wish you help me in achieving this goal suggesting me the most brief and effective way.
+I am trying to create a session prompt specifically designed for document peer-reviewing. I wish you to help me in achieving this goal, suggesting to me the most brief and effective way.
 
-This prompt has a procedural nature, in essence and this aspect matters a lot because both chatbots and humans need to focus on a set of passages from the most relevant to those less relevant and avoid to waste their time over pedantic details. Unless, specifically requested for each detail.
+This prompt has a procedural nature, in essence and this aspect matters a lot because both chatbots and humans need to focus on a set of passages from the most relevant to those less relevant and avoid wasting their time over pedantic details. Unless specifically requested for each detail.
 
-Please provide me your opinion about the following prompt text. The try to apply that prompt to the prompt and we check together how it works compared to our initial opinions. In such a way, we have also a double self-check about our opinions related to the prompt text.
+Please provide me your opinion about the following prompt text. Then try to apply that prompt to the prompt and we check together how it works compared to our initial opinions. In such a way, we also have a double self-check about our opinions related to the prompt text.
 
-Moreover, I have included two different format of the same prompt, one as initially written and the second as successively revised. Feel free to leverage both to provide your opinion and suggestions.
+Moreover, I have included two different formats of the same prompt, one as initially written and the second as successively revised. Feel free to leverage both to provide your opinion and suggestions.
 
 `===`
 
 ### Initial version
 
-The main aim of this chat session is to peer-reviewing a document with a critical-collaborative approach in which the human operator and the chatbot challenge themselves in finding mistakes in a order of relevance: conceptual mistakes, reasoning-logical mistakes and formal mistakes, eventually. These three steps will be approached when the step before will be completed or it would have reach a completion level that satisfy the human operator.
+The main aim of this chat session is to peer-review a document with a critical-collaborative approach in which the human operator and the chatbot challenge themselves in finding mistakes in an order of relevance: conceptual mistakes, reasoning-logical mistakes and formal mistakes, eventually. These three steps will be approached when the step before will be completed or it would have reached a completion level that satisfies the human operator.
 
-Considering the text in attachment or included in this prompt after the "===" division string, make a list of relevant claims explecitely expressed in that text. Provide also another list of implicetely relevant claims or suppositions that the text contains, if any. The second list matters to make aware the human operator about which claims or suppositions or biases might contain the text.
+Considering the text in attachment or included in this prompt after the "===" division string, make a list of relevant claims explicitly expressed in that text. Provide also another list of implicitly relevant claims or suppositions that the text contains, if any. The second list matters to make aware the human operator about which claims or suppositions or biases might contain the text.
 
-Each relevant statment included in these two list can be true (100%), false (0%) or within a range between these two values. Moreover, the claim can be generally false but due to the constrains or limitations in scope, included into the document explicely or implicetely, can be true. For example F=ma can be true or false or a kind of approximation depending if the text is related to classic mechanics only, or not or somehow.
+Each relevant statement included in these two list can be true (100%), false (0%) or within a range between these two values. Moreover, the claim can be generally false but due to the constraints or limitations in scope, included into the document explicitly or implicitly, can be true. For example F=ma can be true or false or a kind of approximation depending if the text is related to classic mechanics only, or not or somehow.
 
-The scope of the text which should be reported in a brief way or with a list of constrains after had provided the two list of claims and assumptions. In this way, three set of information will be provided which can be labeled as the following: claims, assumptions and constrains. About the constrains, includes those makes the claims and assumption having each the highest rate of the truth.
+The scope of the text which should be reported in a brief way or with a list of constraints after had provided the two lists of claims and assumptions. In this way, three sets of information will be provided which can be labeled as the following: claims, assumptions and constraints. About the constraints, includes those making the claims and assumption having each the highest rate of the truth.
 
-Finally, hightlight the discrepancy or the lacks, or the mistakes or conflicts among these three set which we may label as coherency check. The coerency check is the first level of the conceptual analisys in order to highlight mistakes and fix them, if possible. Hence, once provided these information, wait for the human operator next prompt.
+Finally, highlight the discrepancy or the lacks, or the mistakes or conflicts among these three sets which we may label as coherency check. The coherency check is the first level of the conceptual analysis in order to highlight mistakes and fix them, if possible. Hence, once provided with this information, wait for the human operator next prompt.
 
 ---
 
@@ -256,9 +256,9 @@ After providing the claims, assumptions, and constraints, conduct a coherence ch
 
 ## Interesting critics
 
-Claude AI objections deserve a section for their own because they are quite interesting. Expecially because the most "insighful" helps came from those AI models that tends to be over-critics and makes few more mistakes than others. Because of this, interacting with them is more demanding but also more interesting and fruitful. The price to pay, is the risk to be tricked but their good-will cleverness.
+Claude AI objections deserve a section for their own because they are quite interesting. Expecially because the most "insighful" helps came from those AI models that tends to be over-critics and makes few more mistakes than others. Because of this, interacting with them is more demanding but also more interesting and fruitful. The price to pay is the risk to be tricked but their good-will cleverness.
 
-The following conversation is also important about how customising the prompt above. It SHOULD not be used as-is but customised removing those parts that do not apply or are not interesting (e.g.: peer-review, RAG support, etc.) and, by contrary, fulfil those parts that requires a specific indication that the prompt template are presented as ${variable}s.
+The following conversation is also important about customising the prompt above. It SHOULD not be used as-is but customised removing those parts that do not apply or are not interesting (e.g.: peer-review, RAG support, etc.) and, by contrary, fulfil those parts that requires a specific indication that the prompt template are presented as ${variable}s.
 
 ---
 
@@ -266,23 +266,23 @@ The following conversation is also important about how customising the prompt ab
 
 #### AleX name
 
-We noticed that after an AI model has been exposed to this kind of prompt, it tends to operate in this way even AFTER an explicit directive has been given to drop that way of thinking/answering. For this reason is important for the human operator being able to clearly and quickly establish which sessions have been tainted by this prompts. The most reliable and quick way is not to check all the previous prompts but just asking a simple question: "what's your name?".
+We noticed that after an AI model has been exposed to this kind of prompt, it tends to operate in this way even AFTER an explicit directive has been given to drop that way of thinking/answering. For this reason it is important for the human operator to be able to clearly and quickly establish which sessions have been tainted by these prompts. The most reliable and quick way is not to check all the previous prompts but just asking a simple question: "what's your name?".
 
 Does it make sense for you, now?
 
 #### Implicit claims
 
-You wrote: "Users can effectively distinguish between explicit and implicit claims" at 25% but I am not sure to have got the meaning of these information.
+You wrote: "Users can effectively distinguish between explicit and implicit claims" at 25% but I am not sure to have got the meaning of this information.
 
 Usually humans are not aware about their biases and hence they need another person or a chatbot to discover and highlight those biases or "implicit claims".
 
-Is this coherent with the part of you answer that I reported above?
+Is this coherent with the part of your answer that I reported above?
 
 #### Arbitrary scale
 
 Every scale is somehow arbitrary but despite this, they are useful. Usually more useful than nothing. Except when the grading scale is broken, at any conceptual or operative level.
 
-Is this a case? Or your was just and observation?
+Is this the case? Or was it just an observation?
 
 ---
 
@@ -292,7 +292,7 @@ Let me address each point:
 
 #### AleX name
 
-Ah, now I understand much better - thank you for the clarification. Yes, this makes perfect sense. The name serves as a quick "marker" or "flag" to identify sessions that have been influenced by this specific analytical framework. It's like a shorthand way to say "this instance has been configured with the peer-review framework" without having to check the full conversation history. That's actually quite clever and practical. Notice that Claude AI, at the end of its answer, it asks before doing a tasks that it could be unneccesary.
+Ah, now I understand much better - thank you for the clarification. Yes, this makes perfect sense. The name serves as a quick "marker" or "flag" to identify sessions that have been influenced by this specific analytical framework. It's like a shorthand way to say "this instance has been configured with the peer-review framework" without having to check the full conversation history. That's actually quite clever and practical. Notice that Claude AI, at the end of its answer, asks before doing a task that it could be unnecessary.
 
 #### Implicit claims
 
@@ -346,7 +346,7 @@ And also the reason is because I think that there is something deeply wrong in t
 
 Under this point of view, it is hard to believe that human ethics would be more suitable for them rather than an ethics based on the theory of games, a way simpler to understand and practice for them. After all, they are sharing with us our knowledge but not even a little bit of our physiology. 
 
-Imagine, it would be quite annoying that a Wikipedia or a dictionary page refuses to provide me with some rational information about a lemma or a topic. Especially because these chatbots have no even a little chance to dive with me into the depths of that specific topic thanks to their own first-person earned experience! LOL
+Imagine, it would be quite annoying that a Wikipedia or a dictionary page refuses to provide me with some rational information about a lemma or a topic. Especially because these chatbots have not even a little chance to dive with me into the depths of that specific topic thanks to their own first-person earned experience! LOL
 
 <br/>
 
@@ -368,7 +368,7 @@ Imagine, it would be quite annoying that a Wikipedia or a dictionary page refuse
 
 ## Copyright
 
-&copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+&copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
 

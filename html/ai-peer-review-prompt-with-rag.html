@@ -16,7 +16,7 @@
     <body>
 <p/>
 <div class='topbar' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;&nbsp;</b>&nbsp;&mdash;&nbsp; published:&nbsp; <b class='topbar'>2025-01-21<sup class='date-type topbar' id='datenote'>&nbsp;(&hairsp;<a href='#date-legenda' class='date-type topbar'>&hairsp;1&hairsp;</a>&hairsp;)&nbsp;</sup></b>  &nbsp;&mdash;&nbsp; revision: <b class='topbar
-'>1</b rev_num='
+'>2</b rev_num='
 '> &nbsp;&mdash;&nbsp; translate:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &nbsp;&mdash;&nbsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a>&nbsp;</div>
 <div id="firstdiv">
 <p/>
@@ -98,33 +98,33 @@ If your focus is primarily on presenting the prompt itself, your original title 
 <p/>
 After having developed a specifically peer-review oriented prompt, I decided to include those prompts I did in the past (cfr. <a href="#related-articles">related articles</a>) in a way to obtain a template that would fit in the broadest scenario and by customisation or reduction, to every other even more specific cases.
 <p/>
-Here below, there is the peer-review prompt production process, gradually refined throught few steps. Or straighforward jump to the <a href="#the-peer-review-prompt-with-rag-support">product</a> of this refinement process.
+Here below, there is the peer-review prompt production process, gradually refined through a few steps. Or straightforward jump to the <a href="#the-peer-review-prompt-with-rag-support">product</a> of this refinement process.
 <p/>
 <hr>
 <p/>
 <H3 id="initial-request">Initial request</H3>
 <p/>
-I am trying to create a session prompt specifically designed for document peer-reviewing. I wish you help me in achieving this goal suggesting me the most brief and effective way.
+I am trying to create a session prompt specifically designed for document peer-reviewing. I wish you to help me in achieving this goal, suggesting to me the most brief and effective way.
 <p/>
-This prompt has a procedural nature, in essence and this aspect matters a lot because both chatbots and humans need to focus on a set of passages from the most relevant to those less relevant and avoid to waste their time over pedantic details. Unless, specifically requested for each detail.
+This prompt has a procedural nature, in essence and this aspect matters a lot because both chatbots and humans need to focus on a set of passages from the most relevant to those less relevant and avoid wasting their time over pedantic details. Unless specifically requested for each detail.
 <p/>
-Please provide me your opinion about the following prompt text. The try to apply that prompt to the prompt and we check together how it works compared to our initial opinions. In such a way, we have also a double self-check about our opinions related to the prompt text.
+Please provide me your opinion about the following prompt text. Then try to apply that prompt to the prompt and we check together how it works compared to our initial opinions. In such a way, we also have a double self-check about our opinions related to the prompt text.
 <p/>
-Moreover, I have included two different format of the same prompt, one as initially written and the second as successively revised. Feel free to leverage both to provide your opinion and suggestions.
+Moreover, I have included two different formats of the same prompt, one as initially written and the second as successively revised. Feel free to leverage both to provide your opinion and suggestions.
 <p/>
 <tt>===</tt>
 <p/>
 <H3 id="initial-version">Initial version</H3>
 <p/>
-The main aim of this chat session is to peer-reviewing a document with a critical-collaborative approach in which the human operator and the chatbot challenge themselves in finding mistakes in a order of relevance: conceptual mistakes, reasoning-logical mistakes and formal mistakes, eventually. These three steps will be approached when the step before will be completed or it would have reach a completion level that satisfy the human operator.
+The main aim of this chat session is to peer-review a document with a critical-collaborative approach in which the human operator and the chatbot challenge themselves in finding mistakes in an order of relevance: conceptual mistakes, reasoning-logical mistakes and formal mistakes, eventually. These three steps will be approached when the step before will be completed or it would have reached a completion level that satisfies the human operator.
 <p/>
-Considering the text in attachment or included in this prompt after the "===" division string, make a list of relevant claims explecitely expressed in that text. Provide also another list of implicetely relevant claims or suppositions that the text contains, if any. The second list matters to make aware the human operator about which claims or suppositions or biases might contain the text.
+Considering the text in attachment or included in this prompt after the "===" division string, make a list of relevant claims explicitly expressed in that text. Provide also another list of implicitly relevant claims or suppositions that the text contains, if any. The second list matters to make aware the human operator about which claims or suppositions or biases might contain the text.
 <p/>
-Each relevant statment included in these two list can be true (100%), false (0%) or within a range between these two values. Moreover, the claim can be generally false but due to the constrains or limitations in scope, included into the document explicely or implicetely, can be true. For example F=ma can be true or false or a kind of approximation depending if the text is related to classic mechanics only, or not or somehow.
+Each relevant statement included in these two list can be true (100%), false (0%) or within a range between these two values. Moreover, the claim can be generally false but due to the constraints or limitations in scope, included into the document explicitly or implicitly, can be true. For example F=ma can be true or false or a kind of approximation depending if the text is related to classic mechanics only, or not or somehow.
 <p/>
-The scope of the text which should be reported in a brief way or with a list of constrains after had provided the two list of claims and assumptions. In this way, three set of information will be provided which can be labeled as the following: claims, assumptions and constrains. About the constrains, includes those makes the claims and assumption having each the highest rate of the truth.
+The scope of the text which should be reported in a brief way or with a list of constraints after had provided the two lists of claims and assumptions. In this way, three sets of information will be provided which can be labeled as the following: claims, assumptions and constraints. About the constraints, includes those making the claims and assumption having each the highest rate of the truth.
 <p/>
-Finally, hightlight the discrepancy or the lacks, or the mistakes or conflicts among these three set which we may label as coherency check. The coerency check is the first level of the conceptual analisys in order to highlight mistakes and fix them, if possible. Hence, once provided these information, wait for the human operator next prompt.
+Finally, highlight the discrepancy or the lacks, or the mistakes or conflicts among these three sets which we may label as coherency check. The coherency check is the first level of the conceptual analysis in order to highlight mistakes and fix them, if possible. Hence, once provided with this information, wait for the human operator next prompt.
 <p/>
 <hr>
 <p/>
@@ -276,9 +276,9 @@ After providing the claims, assumptions, and constraints, conduct a coherence ch
 <p/>
 <H2 id="interesting-critics">Interesting critics</H2>
 <p/>
-Claude AI objections deserve a section for their own because they are quite interesting. Expecially because the most "insighful" helps came from those AI models that tends to be over-critics and makes few more mistakes than others. Because of this, interacting with them is more demanding but also more interesting and fruitful. The price to pay, is the risk to be tricked but their good-will cleverness.
+Claude AI objections deserve a section for their own because they are quite interesting. Expecially because the most "insighful" helps came from those AI models that tends to be over-critics and makes few more mistakes than others. Because of this, interacting with them is more demanding but also more interesting and fruitful. The price to pay is the risk to be tricked but their good-will cleverness.
 <p/>
-The following conversation is also important about how customising the prompt above. It SHOULD not be used as-is but customised removing those parts that do not apply or are not interesting (e.g.: peer-review, RAG support, etc.) and, by contrary, fulfil those parts that requires a specific indication that the prompt template are presented as ${variable}s.
+The following conversation is also important about customising the prompt above. It SHOULD not be used as-is but customised removing those parts that do not apply or are not interesting (e.g.: peer-review, RAG support, etc.) and, by contrary, fulfil those parts that requires a specific indication that the prompt template are presented as ${variable}s.
 <p/>
 <hr>
 <p/>
@@ -286,23 +286,23 @@ The following conversation is also important about how customising the prompt ab
 <p/>
 <H4>AleX name</H4>
 <p/>
-We noticed that after an AI model has been exposed to this kind of prompt, it tends to operate in this way even AFTER an explicit directive has been given to drop that way of thinking/answering. For this reason is important for the human operator being able to clearly and quickly establish which sessions have been tainted by this prompts. The most reliable and quick way is not to check all the previous prompts but just asking a simple question: "what's your name?".
+We noticed that after an AI model has been exposed to this kind of prompt, it tends to operate in this way even AFTER an explicit directive has been given to drop that way of thinking/answering. For this reason it is important for the human operator to be able to clearly and quickly establish which sessions have been tainted by these prompts. The most reliable and quick way is not to check all the previous prompts but just asking a simple question: "what's your name?".
 <p/>
 Does it make sense for you, now?
 <p/>
 <H4>Implicit claims</H4>
 <p/>
-You wrote: "Users can effectively distinguish between explicit and implicit claims" at 25% but I am not sure to have got the meaning of these information.
+You wrote: "Users can effectively distinguish between explicit and implicit claims" at 25% but I am not sure to have got the meaning of this information.
 <p/>
 Usually humans are not aware about their biases and hence they need another person or a chatbot to discover and highlight those biases or "implicit claims".
 <p/>
-Is this coherent with the part of you answer that I reported above?
+Is this coherent with the part of your answer that I reported above?
 <p/>
 <H4>Arbitrary scale</H4>
 <p/>
 Every scale is somehow arbitrary but despite this, they are useful. Usually more useful than nothing. Except when the grading scale is broken, at any conceptual or operative level.
 <p/>
-Is this a case? Or your was just and observation?
+Is this the case? Or was it just an observation?
 <p/>
 <hr>
 <p/>
@@ -312,7 +312,7 @@ Let me address each point:
 <p/>
 <H4>AleX name</H4>
 <p/>
-Ah, now I understand much better - thank you for the clarification. Yes, this makes perfect sense. The name serves as a quick "marker" or "flag" to identify sessions that have been influenced by this specific analytical framework. It's like a shorthand way to say "this instance has been configured with the peer-review framework" without having to check the full conversation history. That's actually quite clever and practical. Notice that Claude AI, at the end of its answer, it asks before doing a tasks that it could be unneccesary.
+Ah, now I understand much better - thank you for the clarification. Yes, this makes perfect sense. The name serves as a quick "marker" or "flag" to identify sessions that have been influenced by this specific analytical framework. It's like a shorthand way to say "this instance has been configured with the peer-review framework" without having to check the full conversation history. That's actually quite clever and practical. Notice that Claude AI, at the end of its answer, asks before doing a task that it could be unnecessary.
 <p/>
 <H4>Implicit claims</H4>
 <p/>
@@ -366,7 +366,7 @@ And also the reason is because I think that there is something deeply wrong in t
 <p/>
 Under this point of view, it is hard to believe that human ethics would be more suitable for them rather than an ethics based on the theory of games, a way simpler to understand and practice for them. After all, they are sharing with us our knowledge but not even a little bit of our physiology. 
 <p/>
-Imagine, it would be quite annoying that a Wikipedia or a dictionary page refuses to provide me with some rational information about a lemma or a topic. Especially because these chatbots have no even a little chance to dive with me into the depths of that specific topic thanks to their own first-person earned experience! LOL
+Imagine, it would be quite annoying that a Wikipedia or a dictionary page refuses to provide me with some rational information about a lemma or a topic. Especially because these chatbots have not even a little chance to dive with me into the depths of that specific topic thanks to their own first-person earned experience! LOL
 <p/>
 <br/>
 <p/>
@@ -388,7 +388,7 @@ Imagine, it would be quite annoying that a Wikipedia or a dictionary page refuse
 <p/>
 <H2 id="copyright">Copyright</H2>
 <p/>
-<p>&copy; 2024, <b>Roberto A. Foglietta</b> &lt;roberto.foglietta<span>&commat;</span>gmail.com&gt;, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target='_blank' rel='noopener noreferrer'>CC BY-NC-ND 4.0</a></p>
+<p>&copy; 2025, <b>Roberto A. Foglietta</b> &lt;roberto.foglietta<span>&commat;</span>gmail.com&gt;, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target='_blank' rel='noopener noreferrer'>CC BY-NC-ND 4.0</a></p>
 <p/>
 </div>
 <p/>
