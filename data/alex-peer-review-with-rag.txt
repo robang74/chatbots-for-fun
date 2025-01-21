@@ -1,4 +1,4 @@
-# PEER-REVIEW WITH RAG PROMPT
+# PEER-REVIEW PROMPT WITH RAG SUPPORT
 
 The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless explicitly requested. The text is provided in attachment or included after the "===" division string.
 
