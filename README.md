@@ -38,6 +38,8 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
 
+* [AI peer-review pormpt with RAG](ai-peer-review-prompt-with-rag.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md))
+
 * [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-system-prompting-to-leverage-rag.md))
 
 * [Come leggere una chat con un AI](come-leggere-una-chat-con-un-ai.md) ([raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/come-leggere-una-chat-con-un-ai.md))
