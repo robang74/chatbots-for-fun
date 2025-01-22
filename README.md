@@ -38,7 +38,7 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
 
-* 2025-01-21  - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md)`**] - [AI peer-review pormpt with RAG](ai-peer-review-prompt-with-rag.md)
+* 2025-01-21  - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md)`**] - [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md)
 
 * 2025-01-13 - [**`[raw](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-system-prompting-to-leverage-rag.md)`**] - [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md)
 
