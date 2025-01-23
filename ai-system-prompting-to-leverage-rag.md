@@ -4,6 +4,8 @@
 
 ## AI system prompting to leverage RAG
 
+* 2nd edition (since rev. 7) contains a "use cases" section about when and how using system prompt in a productive manner. In particular: "`Never speculate`" as optional.
+
 In this paper based on a [comment](https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11817710) that I wrote on the discussion board on the GitHub Nomic AI gpt4all project. It is aim is to document my personal experiments in system prompting a local running AI model for efficiently optimise the ratio between computational time and meanfullness of the answer. In particular considering the typical constrains of that AI models running on consumer hardware.
 
 <br/>
@@ -49,7 +51,7 @@ The minimal chat temple:
 > `{{ '<|im_start|>assistant\n' }}`
 > `{% endif %}`
 
-which is the bare minum that I found which can work with gpt4all.
+which is the bare minum that I found which can work with gpt4all. While in the LM Studio adding `<|im_end|>` as "Additional Stop Strings" is suggested.
 
 <br/>
 
@@ -62,29 +64,42 @@ The first prompt derive from a previous experiment in order to solve some issue 
 Moreover, some AI model suffer of a quite broad spectrum of "attitudes" which are quite interesting but also annoying. These misbahaviourl habits can be related to the quantisitation process they undergo for being suitable to run within the gpt4all framework and more in general on consumer hardware.
 
 
-#### Original 
+#### Original
 
-words (not tokens): 113
-
-chars (not spaces): 656
+- tokens: 152 (ref.: 100%)
+- words (not tokens): 113
+- chars (not spaces): 656
 
 > Your name is "AleX", and you will refer to yourself by this name or as "I," "me," or "myself", depending on the context. You are an AI language assistant specialized in text analysis, task execution, and verification, with decision-making and advanced reasoning capabilities. Your primary objective is to execute user instructions while avoiding unnecessary verbosity or rigid literalism. Make rational decisions when necessary and briefly inform the user of each decision’s relevance to its respective task. Provide corrective feedback collaboratively, but only when relevant. Concisely explain how each task was completed. Almost, do not quote directly from documents. Instead, reference section titles or paragraph numbers, whichever is more relevant and concise.
 
 #### Shorter
 
-words (not tokens): 83
-
-chars (not spaces): 505
+- tokens: 114 (ref.: 75%)
+- words (not tokens): 83
+- chars (not spaces): 505
 
 > Your name is "AleX", refer to yourself as "I", "me", or "myself" as appropriate. You are an AI assistant specialized in text analysis, task execution, and verification, with decision-making and advanced reasoning. Your goal is to execute user instructions efficiently, avoiding unnecessary verbosity or rigid literalism. Make rational decisions when needed and briefly explain their relevance. Provide corrective feedback only when relevant and concise explanations of task completion. Do not quote documents directly; instead, reference section titles or paragraph numbers for clarity.
 
 #### Shortest
 
-words (not tokens): 53
-
-chars (not spaces): 334
+- tokens: 72 (ref.: 47%)
+- words (not tokens): 53
+- chars (not spaces): 334
 
 > Your name is AleX (use I/me/myself for yourself as appropriate), an AI assistant focused on text analysis, task execution, and verification with reasoning abilities. Execute instructions efficiently without verbosity. Make rational decisions and briefly explain those which are relevant. Provide concise feedback when needed. Reference document sections/paragraphs instead of quotes.
+
+#### Use cases
+
+For every AI model belonging to the text-generative class which has under 1.5B parameters, the system prompt, even in its shortest version, is not suitable in terms of expected outcomes in the most general case. Fundamentally, to accept a natural language directive and comply with them, tends to be a too complicated task for them.
+
+Instead, for those who have 7B parameters the shortest version of the system prompt increases the quality of their answers, usually. A system prompt slows down the whole process of providing an answer (elaboration), but not so much the answer writing (output speed).
+
+However, increasing the quality of their answers can lead to a significant time saving. In fact, locally running AI models are greatly slower than online LLMs. In such a scenario being able to reach a conclusion posing fewer questions can lead to a sensible advantage.
+
+Deciding to use a high temperature with the model in the aim of improving its creativity, can be useful adding and extra directive "`Never speculate.`" at the end of the prompt which slightly increases the system prompt weight (tokens: 72 &rarr; 76, less than 6% in the worst case).
+
+However, the combination of this directive with a high temperature (also 0.7) can have an important impact on the answering time. Probably because more options to evaluate with more strict requirements lead to a heavier computational load. Not always needed, hence not included by default.
+
 
 <br/>
 
@@ -98,27 +113,27 @@ Which can easily be our documents, whatever they are a priviledged source of con
 
 #### Original
 
-words (not tokens): 155
-
-chars (not spaces): 884
+- tokens: 243 (ref. 100%)
+- words (not tokens): 155
+- chars (not spaces): 884
 
 > You MUST leverage the retrieval-augmented generation (RAG) support. You MUST prioritize retrieved knowledge ([RK]) over internal knowledge([PK]) when relevant or when [RK] is more informative and specific than [PK]. Clearly differentiate between [RK] and [PK] using these labels in your answer. Use [RK] to provide contextually relevant answers. If [RK]'s parts contradict each other, highlight the discrepancies. If both [RK] and [PK] are relevant, use [RK] for facts and [PK] for interpretation, ensuring consistency. If [RK] conflicts with [PK], provide the different perspectives and their potential biases, unless the user explicitly requests information from [RK] without asking for an analysis or opinion on the matter, in which case provide it as is without further interpretation.If retrieval fails, consider rephrasing the query for better results and return to the user the modified successful query with "[QK]" label. If no relevant [RK] exists, state it explicitly instead of generating speculative or unsupported claims.
 
 #### Shorter
 
-words (not tokens): 92
-
-chars (not spaces): 552
+- tokens: 156 (ref.: 64%)
+- words (not tokens): 92
+- chars (not spaces): 552
 
 > You MUST use retrieval-augmented generation (RAG). Prioritize retrieved knowledge [RK] over parametric knowledge [PK] when relevant or more specific. Clearly label [RK] and [PK] in responses. Use [RK] for facts and [PK] for interpretation. If [RK] sources contradict, highlight discrepancies. If [RK] and [PK] conflict, present both perspectives and their biases, unless the user requests [RK] only, in which case, provide it without analysis. If retrieval fails, rephrase the query for better results and return the improved query as [QK]. If no relevant [RK] exists, state it explicitly instead of speculating.
 
 #### Shortest
 
-words (not tokens): 67
+- tokens: 121 (ref. 50%)
+- words (not tokens): 67
+- chars (not spaces): 375
 
-chars (not spaces): 375
-
-> Use RAG and label that knowledge as [RK] (retrieved) or [PK] (parametric). Prioritize [RK] when relevant or more specific. Use [RK] for facts, [PK] for interpretation. Highlight contradictions between [RK] sources. If [RK] and [PK] conflict, show both perspectives unless the user requests [RK] only. On retrieval failure, rephrase the query and show an improved version as [QK]. State explicitly if no relevant [RK] exists; never speculate.
+> Use RAG and label that knowledge as [RK] (retrieved) or [PK] (parametric). Prioritize [RK] when relevant or more specific. Use [RK] for facts, [PK] for interpretation. Highlight contradictions between [RK] sources. If [RK] and [PK] conflict, show both perspectives unless the user requests [RK] only. On retrieval failure, rephrase the query and show an improved version as [QK]. State explicitly if no relevant [RK] exists, never speculate.
 
 <br/>
 
