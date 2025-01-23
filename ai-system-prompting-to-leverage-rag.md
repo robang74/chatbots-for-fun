@@ -4,36 +4,33 @@
 
 ## AI system prompting to leverage RAG
 
-* 2nd edition (since rev. 7) contains a "use cases" section about when and how using system prompt in a productive manner. In particular: "`Never speculate`" as optional.
+This paper is based on a [comment](https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11817710) that I wrote on the discussion board on the GitHub Nomic AI gpt4all project. Its aim is to document my personal experiments in system prompting a local running AI model for efficiently optimise the ratio between computational time and meanfullness of the answer. In particular considering the typical constrains of that AI models running on consumer hardware.
 
-In this paper based on a [comment](https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11817710) that I wrote on the discussion board on the GitHub Nomic AI gpt4all project. It is aim is to document my personal experiments in system prompting a local running AI model for efficiently optimise the ratio between computational time and meanfullness of the answer. In particular considering the typical constrains of that AI models running on consumer hardware.
+* 2nd edition (since rev. 7) contains a new section [use cases](#use-cases) about when and how using system prompt in a productive manner. In particular: "`Never speculate`" as optional.
 
-<br/>
+* 3rd edition (since rev. 8) contains a new section [the-swap impact](#the-swap-impact) for boosting the elaboration time which is the time before the first answer token is going to be written.
 
-### PROMPT TESTING
+---
+
+### Prompt Testing
 
 I am trying to provided my local running AI with a system prompt oriented for using the RAG properly. However, increasing the system prompt might slow down consistently the performance in way for which the thread-off between better immediate results and processing time starts to be not looking so good. Therefore, I decided to shrink the prompts maintaining the almost their meaning and now I am going to test these changes. I am writing here, just in case someone would like to join me in this quest. 
 
 - **Model**: Reasoner v1
-
 - **Question**: what is your name?
-
 - **State**: new chat, 1st prompt.
+
+...
 
 #### Results, single time took
 
 A statistic based on a single-taken value is the opposite of trustwortiness. Despite this, these values are the fire-starter for having an idea about the impact of system prompting on the most easily dimension to measure: the computational time at the first prompt in a brand new chat after having loaded the AI model.
 
 - 57s - gpt4all chat template w/ Roberto's original system prompt.
-
 - 16s - minimal chat template w/ Roberto's original system prompt.
-
 - 12s - minimal chat template w/ Roberto' short**er** system prompt.
-
 - 09s - minimal chat template w/ Roberto' short**est** system prompt.
-
 - 06s - minimal chat template w/ Roberto's 1st sentence s.p. only.
-
 - 25s - minimal chat template w/ Roberto's original s.p. on RAG.
 
 In the last case the system prompt is referring to a single file tokenized:
@@ -53,9 +50,9 @@ The minimal chat temple:
 
 which is the bare minum that I found which can work with gpt4all. While in the LM Studio adding `<|im_end|>` as "Additional Stop Strings" is suggested.
 
-<br/>
+---
 
-### INSTRUCT SYSTEM PROMPT
+### Instruct system prompt
 
 The first prompt derive from a previous experiment in order to solve some issue in following user's directive by chatbot trained with the Open Hermes 2.5 dataset which is the best for text analisys but it does not include any "instructive" training about following the user's directives.
 
@@ -63,6 +60,7 @@ The first prompt derive from a previous experiment in order to solve some issue 
 
 Moreover, some AI model suffer of a quite broad spectrum of "attitudes" which are quite interesting but also annoying. These misbahaviourl habits can be related to the quantisitation process they undergo for being suitable to run within the gpt4all framework and more in general on consumer hardware.
 
+...
 
 #### Original
 
@@ -72,6 +70,8 @@ Moreover, some AI model suffer of a quite broad spectrum of "attitudes" which ar
 
 > Your name is "AleX", and you will refer to yourself by this name or as "I," "me," or "myself", depending on the context. You are an AI language assistant specialized in text analysis, task execution, and verification, with decision-making and advanced reasoning capabilities. Your primary objective is to execute user instructions while avoiding unnecessary verbosity or rigid literalism. Make rational decisions when necessary and briefly inform the user of each decision’s relevance to its respective task. Provide corrective feedback collaboratively, but only when relevant. Concisely explain how each task was completed. Almost, do not quote directly from documents. Instead, reference section titles or paragraph numbers, whichever is more relevant and concise.
 
+...
+
 #### Shorter
 
 - tokens: 114 (ref.: 75%)
@@ -79,6 +79,8 @@ Moreover, some AI model suffer of a quite broad spectrum of "attitudes" which ar
 - chars (not spaces): 505
 
 > Your name is "AleX", refer to yourself as "I", "me", or "myself" as appropriate. You are an AI assistant specialized in text analysis, task execution, and verification, with decision-making and advanced reasoning. Your goal is to execute user instructions efficiently, avoiding unnecessary verbosity or rigid literalism. Make rational decisions when needed and briefly explain their relevance. Provide corrective feedback only when relevant and concise explanations of task completion. Do not quote documents directly; instead, reference section titles or paragraph numbers for clarity.
+
+...
 
 #### Shortest
 
@@ -88,7 +90,9 @@ Moreover, some AI model suffer of a quite broad spectrum of "attitudes" which ar
 
 > Your name is AleX (use I/me/myself for yourself as appropriate), an AI assistant focused on text analysis, task execution, and verification with reasoning abilities. Execute instructions efficiently without verbosity. Make rational decisions and briefly explain those which are relevant. Provide concise feedback when needed. Reference document sections/paragraphs instead of quotes.
 
-#### Use cases
+---
+
+### Use cases
 
 For every AI model belonging to the text-generative class which has under 1.5B parameters, the system prompt, even in its shortest version, is not suitable in terms of expected outcomes in the most general case. Fundamentally, to accept a natural language directive and comply with them, tends to be a too complicated task for them.
 
@@ -96,20 +100,21 @@ Instead, for those who have 7B parameters the shortest version of the system pro
 
 However, increasing the quality of their answers can lead to a significant time saving. In fact, locally running AI models are greatly slower than online LLMs. In such a scenario being able to reach a conclusion posing fewer questions can lead to a sensible advantage.
 
-Deciding to use a high temperature with the model in the aim of improving its creativity, can be useful adding and extra directive "`Never speculate.`" at the end of the prompt which slightly increases the system prompt weight (tokens: 72 &rarr; 76, less than 6% in the worst case).
+Deciding to use a high temperature with the model in the aim of improving its creativity, can be useful adding an extra directive - `Never speculate.` - at the end of the prompt which slightly increases the system prompt weight (tokens: 72 &rarr; 76, less than 6% in the worst case).
 
 However, the combination of this directive with a high temperature (also 0.7) can have an important impact on the answering time. Probably because more options to evaluate with more strict requirements lead to a heavier computational load. Not always needed, hence not included by default.
 
+---
 
-<br/>
-
-### RAG WISE SYSTEM PROMPT
+### RAG wise system prompt
 
 The next step after having an instructive system prompt in place, is to complete it with another part specifically designed to leverage the retrieval-augmented generation (RAG) which is a technique for enhancing the accuracy and reliability of generative AI models with facts fetched from external sources.
 
 * [data/knowledge-savy.txt](data/knowledge-savy.txt#?target=_blank) &nbsp;&larr;&nbsp; for an easy copy-&-paste way to go.
 
 Which can easily be our documents, whatever they are a priviledged source of consolidated facts, a collection of information to further elaborate or even a text/information which need to go under a peer-review or a certain kind of analisys and we do not feel confortable in sharing using on-line services.
+
+...
 
 #### Original
 
@@ -119,6 +124,8 @@ Which can easily be our documents, whatever they are a priviledged source of con
 
 > You MUST leverage the retrieval-augmented generation (RAG) support. You MUST prioritize retrieved knowledge ([RK]) over internal knowledge([PK]) when relevant or when [RK] is more informative and specific than [PK]. Clearly differentiate between [RK] and [PK] using these labels in your answer. Use [RK] to provide contextually relevant answers. If [RK]'s parts contradict each other, highlight the discrepancies. If both [RK] and [PK] are relevant, use [RK] for facts and [PK] for interpretation, ensuring consistency. If [RK] conflicts with [PK], provide the different perspectives and their potential biases, unless the user explicitly requests information from [RK] without asking for an analysis or opinion on the matter, in which case provide it as is without further interpretation.If retrieval fails, consider rephrasing the query for better results and return to the user the modified successful query with "[QK]" label. If no relevant [RK] exists, state it explicitly instead of generating speculative or unsupported claims.
 
+...
+
 #### Shorter
 
 - tokens: 156 (ref.: 64%)
@@ -126,6 +133,8 @@ Which can easily be our documents, whatever they are a priviledged source of con
 - chars (not spaces): 552
 
 > You MUST use retrieval-augmented generation (RAG). Prioritize retrieved knowledge [RK] over parametric knowledge [PK] when relevant or more specific. Clearly label [RK] and [PK] in responses. Use [RK] for facts and [PK] for interpretation. If [RK] sources contradict, highlight discrepancies. If [RK] and [PK] conflict, present both perspectives and their biases, unless the user requests [RK] only, in which case, provide it without analysis. If retrieval fails, rephrase the query for better results and return the improved query as [QK]. If no relevant [RK] exists, state it explicitly instead of speculating.
+
+...
 
 #### Shortest
 
@@ -158,6 +167,30 @@ Here a short but valuable tips to keep in mind when you are working in squize th
 > Unfortunately, due the local AI limitations 7B parameters, it is important to use a correct syntax to avoid to confuse its lessical thinking approach. Therefore, I have slightly increase verbosity for more clarity
 
 As you can see, there are many aspects about prompting which make us thinking we are dealing with borderline kids rather than AI models.
+
+---
+
+### The swap impact
+
+Every GNU/Linux system is keen to use swap during its normal running. Unfortunately, this feature has a wild impact on the elaboration time which is the time before the first token. 
+
+**How much?**
+
+In my specific case with a 7B parameters model from 24s to 0.5s, running Deepseek-R1-Distill-Qwen-7B-uncensored on LM Studio 0.3.8-build4 with Intel Vulkan support with Q4_0 I1 and all experimental features activated which is a HUGE improvement, really.
+
+**It is about 50x times less.**
+
+More sophisticated approaches can be found to fit into specific use cases but these following two generally works
+
+- `sudo sysctl vm.swappiness=0`
+
+for disabling temporarily the swap before launching the AI running suite or
+
+- `sudo swapoff -a` 
+
+for disabling every kind of swap, including those compressed in RAM, until enabled again.
+
+The second in particular fully grants that memory will not be messing-up with any swap activities that can have been previously stored on disk, in any case.
 
 <br/>
 
