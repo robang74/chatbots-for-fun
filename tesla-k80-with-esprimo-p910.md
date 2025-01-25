@@ -84,6 +84,14 @@ Unfortunately, life is not always so easy and what I am wondering about that 2-p
 
 If you like to participate in this challenge, feel free to drop me an email, a comment, a message, for suggestions and questions.
 
+---
+
+### Continuation
+
+This article continue here:
+
+* [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-e910.md) (20125-01-25)
+
 <br/>
 
 ## Share alike
