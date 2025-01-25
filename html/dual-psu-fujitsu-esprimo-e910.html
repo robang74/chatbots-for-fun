@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dual-psu-fujitsu-esprimo-e910</title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='shortcut icon' type='image/x-icon' href='favicon.ico?'>
+        <link rel='stylesheet' href='default.css'>
+        <link rel='stylesheet' href='../intl/intlflg.css'>
+        <!-- here begins the Javascript... why for the hell I got here? //-->
+        <meta http-equiv='Content-Script-Type' content='text/javascript'>
+        <link rel='stylesheet' href='ucustom.css' id='customStylesheet'>
+        <script>const cssdir='';</script note='global variable'>
+        <script src='css-style-changer.js' defer></script>
+    </head>
+    <body>
+<p/>
+<div class='topbar' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;&nbsp;</b>&nbsp;&mdash;&nbsp; published:&nbsp; <b class='topbar'>20125-01-25<sup class='date-type topbar' id='datenote'>&nbsp;(&hairsp;<a href='#date-legenda' class='date-type topbar'>&hairsp;1&hairsp;</a>&hairsp;)&nbsp;</sup></b>  &nbsp;&mdash;&nbsp; revision: <b class='topbar
+'>1</b rev_num='
+'> &nbsp;&mdash;&nbsp; translate:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dual-psu-fujitsu-esprimo-e910?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dual-psu-fujitsu-esprimo-e910?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dual-psu-fujitsu-esprimo-e910?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dual-psu-fujitsu-esprimo-e910?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &nbsp;&mdash;&nbsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a>&nbsp;</div>
+<div id="firstdiv">
+<p/>
+<div align="center"><img class="bwsketch" src="../img/dual-psu-fujutsu-esprimo-e910.jpg" width="800"><br/></div>
+<p/>
+<H2 id="dual-psu-for-fujistsu-esprimo-e910">Dual PSU for Fujistsu Esprimo E910</H2>
+<p/>
+In the previous article I presented the project of adapting a Nvidia Tesla K80 for being used within a PC/Desktop in particular for locally running an AI model.
+<p/>
+<li><a href="tesla-k80-with-esprimo-p910.html#" target='_blank' rel='noopener noreferrer'>Tesla K80 with Esprimo P910</a></li>
+<p/>
+This paper is going to present the way in which I decided to provide that system with a secondary 350W power supply unit in order to sustain the K80 consumption.
+<p/>
+<hr>
+<p/>
+<H3 id="introduction">Introduction</H3>
+<p/>
+Among the main issues one in particular was related to the Fujitsu Esprimo P910 which like many others slim-tower with Zero-Watt technology includes a customised power supply unit which has a single connection to the mainboard with a 16-pin connector and cannot be replaced with any standard ATX PSU also because its own way of being fixed to the case.
+<p/>
+Well - <i>cannot be replaced</i> - in the sense of a spare part becuase mechanical changes to the case in order to fit a standard PSU supply as well as providing a cable for adpat the standard 20/24-pins ATX connector to the motherboard 16-pin one, is always possible.
+<p/>
+However, as you can imagine some mods outcome are way impredictable compared to assembly commercially available parts. In particular when 220V power supply is involved.
+<p/>
+<hr>
+<p/>
+<H3 id="the-dvd-bay">The DVD bay</H3>
+<p/>
+A place in which a secondary PSU can be installed in the Esprimo P910 case is the DVD reader bay, and there are two. I am not going to use that device, hence both available.
+<p/>
+Despite this the two bays are separated with a frame that also provide a substantial distancing to the front side unless the PSU would have a size compareble with a DVD reader.
+<p/>
+After a search on Internet, I have decided that ATX PSU built for PoS devices which has a standard size of 1U = 1 rack Unit can fit into that area replacing the DVD reader.
+<p/>
+<hr>
+<p/>
+<H3 id="powering-up">Powering up</H3>
+<p/>
+Once decided where to place the 2nd PSU there are two more task to face:
+<p/>
+<li style='list-style-type: none;'><b>1.<span style='visibility: hidden;'>--</span></b>let the two PSUs have the same GND (N-line, ground) to avoid dangerous fluctiations;</li>
+<p/>
+<li style='list-style-type: none;'><b>2.<span style='visibility: hidden;'>--</span></b>let the 2nd PSU powering-up the system when the first sees grounded the PSU-ON line.</li>
+<p/>
+To solve at once these two issues, I have decided to use an adaptor, specifically designed. Which is a piece of hardware very common.
+<p/>
+To be precise, I have found three kind of these adaptors plus their different versions. Two seems very similar and are equally cheap, one have a on/off switch for disabling the secondary PSU when it is not in use. While the third offer a more options and features. In this specific case, the simplest ATX 24-pins with SATA dual connectors is enough.
+<p/>
+<hr>
+<p/>
+<H3 id="psu-cabling-">PSU cabling </H3>
+<p/>
+The Nvidia Tesla K80 is quite old and it requires a basic 8-pin CPU male connector to be powered. Unfortunately, the 1U PSU that I have chose has not such connector but the older 4-pin CPU male connector. Fortunately, the 8-pin connectors is nothing else than a power and ground lines duplication compared the 4-pin and an adapting cable is very cheap and easy to buy.
+<p/>
+The Fujitsu 250W PSU has the sole connection with the motherboard and everything else is conneted to the motherboard. For this reason is quite improbable that it offers a 4-pin molex connector to join the dual-PSU manager board. For this reason, I chose the version with the SATA connection. Therefore, the common ground will be shared by the motherbord wiring, as well as the PSU-ON signal.
+<p/>
+While the Tesla K80 will receive the full powwer from the 2nd PSU by the 4-pin CPU connector converted into an 8-pin CPU male. A very simple and straightforward connetions schema. A sort of anomaly will appear on the external front side of the case. In fact, a standard 3-poles cable will connect the 2nd PSU with the public 220V network.
+<p/>
+As soon as I will received the new PSU, I will check for a 90° 3-poles PC plug in order to avoid any stress to the cable and agevolate as much as possible its redirection on the back where the second 3-poles cable powers the 1st PSU, as usual.
+<p/>
+<hr>
+<p/>
+<H3 id="conclusion">Conclusion</H3>
+<p/>
+This dual PSU configuration should face the proof of the time but this also depends on the choices I did. Instead, the approch in general seems valid because do not imply any particular mod that would be forbid into a common PC shop or PC hardware support center, or reparation. In fact, all these parts are available on different e-market, from different sellers and producers.
+<p/>
+Compared with the mods that I have seen shared on Reddit and other similar forum. This is a quite simple, comfortable, standard and safe way to go. Despite this, it is not for everyone because assembly or modify a personal computer hardare configuration requires some skills, and experience. A low entry barrier but still not for everyone.
+<p/>
+<br/>
+<p/>
+<H2 id="share-alike">Share alike</H2>
+<p/>
+<p>&copy; 2025, <b>Roberto A. Foglietta</b> &lt;roberto.foglietta<span>&commat;</span>gmail.com&gt;, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target='_blank' rel='noopener noreferrer'>CC BY-NC-ND 4.0</a></p>
+<p/>
+</div>
+<div id='date-legenda' align='center' translate='no'><sub><hr></sub><sub><b>date legenda</b>: &#x2776; first draft publishing date or &#x2777; creation date in git, otherwise &#x2778; html creation page date. <u>&mapstoup;<a href='#' class='toplink' translate='no'>top</a>&mapstoup;</u></sub></div>
+<br/>
+    </body>
+</html>
