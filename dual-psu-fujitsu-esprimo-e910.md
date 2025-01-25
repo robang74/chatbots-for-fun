@@ -6,7 +6,7 @@
 
 In the previous article I presented the project of adapting a Nvidia Tesla K80 for being used within a PC/Desktop in particular for locally running an AI model.
 
-* [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md#?target=_blank)
+* [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md#?target=_blank) (20125-01-24)
 
 This paper is going to present the way in which I decided to provide that system with a secondary 350W power supply unit in order to sustain the K80 consumption.
 

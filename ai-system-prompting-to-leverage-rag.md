@@ -10,6 +10,10 @@ This paper is based on a [comment](https://github.com/nomic-ai/gpt4all/discussio
 
 * 3rd edition (since rev. 8) contains a new section [the-swap impact](#the-swap-impact) for boosting the elaboration time which is the time before the first answer token is going to be written.
 
+This article is the prosecution of this previous article:
+
+* [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md#?target=_blank) (2025-01-04)
+
 ---
 
 ### Prompt Testing

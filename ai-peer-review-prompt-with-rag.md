@@ -4,6 +4,14 @@
 
 ## The peer-review session prompt
 
+This article is the prosecution of this previous article:
+
+* [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md#?target=_blank) (2025-01-13)
+
+---
+
+### Introduction
+
 How to introduce this article? Asking about choosing the title, I got a pretty good answer:
 
 > **AI** &mdash; Given the content and scope of our discussion, I think the current title "The peer-review session prompt" might be a bit narrow. The prompt we discussed is more versatile than just peer-review - it's a framework for systematic document analysis that can be customized for different levels of scrutiny.
