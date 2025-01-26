@@ -42,11 +42,15 @@ Once decided where to place the 2nd PSU there are two more task to face:
 
 2. switch on the 2nd PSU when the PWR button is pressed and the 1st PSU sees grounded the PSU-ON line
 
-To solve at once these two issues, I have decided to use an adaptor, specifically designed. Which is a quite common piece of hardware.
+To solve these two issues at once, I have decided to use an adaptor, specifically designed for dealing with a dual-PSU configuration. Which is a quite common piece of hardware.
 
-To be precise, I have found three kinds of these adaptors plus their different versions. Two seem very similar and are equally cheap, one has an on/off switch for disabling the secondary PSU when it is not in use. While the third offers more options and features. 
+To be precise, I have found three kinds of these adaptors plus their different versions. 
 
-In this specific case, the simplest ATX 24-pins with SATA dual connectors is enough.
+<div align="center"><img class="bwsketch" src="img/dual-psu-sync-boards.jpg" width="800"><br/></div>
+
+Two seem very similar and are equally cheap, one has an on/off switch for disabling the secondary PSU when it is not in use. While the third offers more options and features. 
+
+In this specific case, the simplest ATX 24-pins with SATA dual connectors is enough, but I choose the one with the on/off switch which has the SATA female attached to a 4-pins connector.
 
 ---
 
