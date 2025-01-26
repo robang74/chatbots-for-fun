@@ -2,7 +2,7 @@
 
 <div align="center"><img class="bwsketch" src="img/dual-psu-fujutsu-esprimo-e910.jpg" width="800"><br/></div>
 
-## Dual PSU for Fujitsu Esprimo E910
+## Dual PSU for Fujitsu Esprimo P910
 
 In the previous article I presented the project of adapting a Nvidia Tesla K80 for being used within a PC/Desktop in particular for locally running an AI model.
 
@@ -60,9 +60,13 @@ Soon, I will check for a 90° 3-poles PC plug in order to avoid any stress to th
 
 ### Conclusion
 
-This dual PSU configuration should face the proof of the time but this also depends on the choices I made. Instead, the approach in general seems valid because it does not imply any particular mod that would be forbidden into a common PC shop or PC hardware support center, or reparation. In fact, all these parts are available on different e-market, from different sellers and producers.
+Yet, this dual-PSU configuration has to face the proof of the time but this also depends on the choices I made.Instead, the approach in general seems valid because it does not imply any particular mod that would be forbidden into a common PC shop or PC hardware support center, or reparation.
 
-Compared with the mods that I have seen shared on Reddit and other similar forums. This is a quite simple, comfortable, standard and safe way to go. Despite this, it is not for everyone because assembly or modification of a personal computer hardware configuration requires some skills, and experience. A low entry barrier but still not for everyone.
+In fact, it is a matter of just assembling some spare parts and all these parts are available on different e-market, from different sellers and producers.
+
+Making a comparison - with the mods that I have seen shared on Reddit and other similar forums, but some are 4 years old - this is a quite simple, comfortable, standard and safe way to go. Despite this, it is not for everyone because assembly or modification of a personal computer hardware configuration requires manual dexterity to use tools, and a little experience.
+
+In short this project has a low entry barrier but still not for everyone.
 
 <br/>
 
