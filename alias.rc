@@ -2,9 +2,9 @@ raisewapp() {
     local appn=$(wmctrl -l | sed -ne "s/.*$(hostname) \(.* - $1\)$/\\1/p")
     test -n "$appn" && wmctrl -R $appn
 }
-m() { bash tools/md2html.sh "${@:-$(st -m *.md)}"; }
+m() { bash tools/md2html.sh ${@:-$(st -m *.md)}; }
 c() {
-    for i in "${@:-$(st -m *.md)}"; do
+    for i in ${@:-$(st -m *.md)}; do
         i=${i/.md/.html}
         i=${i/README/index}
         test -r "$i" || i="html/$i"

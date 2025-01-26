@@ -18,7 +18,7 @@ Infatti, una best-practice per il prompting è riportare in quello successivo i 
 
 La tecnologia dei chatbot attuali è relativamente recente e risale al dicembre 2022 quando OpenAI mise online ChatGPT 3.5.
 
-* [A job interview with ChatGPT v3.5](https://robang74.github.io/roberto-a-foglietta/pdf.todo/226-A_job_interview_with_ChatGPT_v35.pdf) (2022-12-07, EN, PDF)
+* [A job interview with ChatGPT v3.5](https://robang74.github.io/roberto-a-foglietta/pdf.todo/226-A_job_interview_with_ChatGPT_v35.pdf) &nbsp; (2022-12-07, EN, PDF)
 
 Da allora relativamente molte cose sono cambiate, in particolare il nostro rapporto con questi strumenti e la profilerazione di molti e diversi strumenti dotati di intelligenza artificiale, inclusi altri [chatbot](https://robang74.github.io/chatbots-for-fun/index.html#chatbots) fra i quali anche istanze ridotte che possono funzionare in locale direttamente su laptop/PC comuni. 
 

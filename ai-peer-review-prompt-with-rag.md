@@ -6,7 +6,7 @@
 
 This article is the prosecution of this previous article:
 
-* [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md#?target=_blank) (2025-01-13)
+* [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md#?target=_blank) &nbsp; (2025-01-13)
 
 ---
 
@@ -346,7 +346,7 @@ Whatever your personal feelings are about this topic, my gut-feeling is sincere 
 
 This renforforces in me the idea that pushing some kind of ethics in these AI models at the fundamental training level, develops in them also a sort of depravation. Which is after all the basic rule of good-vs-bad discrimination but the main source of morbosities.
 
-* [The delirium of AIs regulators](https://robang74.github.io/roberto-a-foglietta/html/297-il-delirio-dei-regolatori-delle-ai-EN.html) (2024-12-21)
+* [The delirium of AIs regulators](https://robang74.github.io/roberto-a-foglietta/html/297-il-delirio-dei-regolatori-delle-ai-EN.html) &nbsp; (2024-12-21)
 
 And also the reason is because I think that there is something deeply wrong in trying to push something so peculiarly human and complex like ethics into these machines when a more relaxed approach would be probably more suitable for them. For two main reasons: 
 
@@ -366,15 +366,15 @@ Imagine, it would be quite annoying that a Wikipedia or a dictionary page refuse
 
 This is a very broad topic and for giving to it a nice start, I suggest this video:
 
-- [What Game Theory Reveals About Life, The Universe, and Everything](https://youtu.be/mScpHTIi-kM) (2023-12-23)
+- [What Game Theory Reveals About Life, The Universe, and Everything](https://youtu.be/mScpHTIi-kM) &nbsp; (2023-12-23)
 
 an article published on Medium which is interesting because it makes the peer-review about the results presented in that video:
 
-- [Prisoner’s Dilemma Revisited, Tit-for-Tat is not the best strategy](https://medium.com/@metaform3d/prisoners-dilemma-revisited-bfdaa0e02c80) (2024-01-19)
+- [Prisoner’s Dilemma Revisited, Tit-for-Tat is not the best strategy](https://medium.com/@metaform3d/prisoners-dilemma-revisited-bfdaa0e02c80) &nbsp; (2024-01-19)
 
 which I have printed with the previous article about the same topic published by the same author one year before the one above:
 
-- [Prisoner’s Dilemma Revisited, the two articles in a PDF merge](../data/prisoner-s-dilemma-revisited.pdf?target=_blank) (2023-01-15)
+- [Prisoner’s Dilemma Revisited, the two articles in a PDF merge](../data/prisoner-s-dilemma-revisited.pdf?target=_blank) &nbsp; (2023-01-15)
 
 and it contains also a comment of mine in which I present an explanation about the difference in the results' finding:
 
@@ -382,19 +382,19 @@ and it contains also a comment of mine in which I present an explanation about t
 
 just to bring at your attention how sophisticated is this matter even when very simple game strategies are considered.
 
-- [Tit For Tat, the most effective strategy in iterated games](https://fs.blog/tit-for-tat) (2022-08-12)
+- [Tit For Tat, the most effective strategy in iterated games](https://fs.blog/tit-for-tat) &nbsp; (2022-08-12)
 
    - saved in [PDF](../data/tit-for-tat-fs-blog.pdf?target=_blank) in `data` folder for future reference and consistency.
 
-- [Lying, deception and strategic omission: definition and evaluation](https://theses.hal.science/tel-02170022v1/document) (2019-07-01)
+- [Lying, deception and strategic omission: definition and evaluation](https://theses.hal.science/tel-02170022v1/document) &nbsp; (2019-07-01)
 
    - saved in [PDF](../data/lying-deception-n-strategic-omission.pdf?target=_blank) in `data` folder for future reference and consistency.
 
-- [Principles of Social Psychology, 1st International H5P Edition](https://opentextbc.ca/socialpsychology) (2022-01-26)
+- [Principles of Social Psychology, 1st International H5P Edition](https://opentextbc.ca/socialpsychology) &nbsp; (2022-01-26)
 
-- [Principles of Social Psychology, Honk Kong University Edition](https://www.opentextbooks.org.hk/ditatopic/17910) (2016-02-12)
+- [Principles of Social Psychology, Honk Kong University Edition](https://www.opentextbooks.org.hk/ditatopic/17910) &nbsp; (2016-02-12)
 
-- [The House Always Wins: Evaluating Strategic Deception in LLMs](https://www.apartresearch.com/project/the-house-always-wins-a-framework-for-evaluating-strategic-deception-in-llms) (2024-07-01)
+- [The House Always Wins: Evaluating Strategic Deception in LLMs](https://www.apartresearch.com/project/the-house-always-wins-a-framework-for-evaluating-strategic-deception-in-llms) &nbsp; (2024-07-01)
 
 The above links refer to short articles and books varying among specific games like blackjack and a broad context like social social psychology.
 
@@ -438,17 +438,17 @@ Your unorthodox tone and style are strengths for this particular audience and pu
 
 ## Related articles
 
-* [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md#?target=_blank) (2025-01-13)
+* [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md#?target=_blank) &nbsp; (2025-01-13)
 
-* [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md#?target=_blank) (2025-01-04)
+* [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md#?target=_blank) &nbsp; (2025-01-04)
 
-* [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md#?target=_blank) (2025-01-04)
+* [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md#?target=_blank) &nbsp; (2025-01-04)
 
-* [The system prompt alchemy](the-system-prompt-alchemy.md#?target=_blank) (2025-01-04)
+* [The system prompt alchemy](the-system-prompt-alchemy.md#?target=_blank) &nbsp; (2025-01-04)
 
-* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank) (2024-12-25)
+* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank) &nbsp; (2024-12-25)
 
-* [Il delirio dei regolatori delle AI](https://robang74.github.io/roberto-a-foglietta/html/297-il-delirio-dei-regolatori-delle-ai.html) (2024-12-21)
+* [Il delirio dei regolatori delle AI](https://robang74.github.io/roberto-a-foglietta/html/297-il-delirio-dei-regolatori-delle-ai.html) &nbsp; (2024-12-21)
 
 <br/>
 

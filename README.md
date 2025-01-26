@@ -28,9 +28,9 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 ### Related
 
-* [Roberto A. Foglietta (blog)](https://robang74.github.io/roberto-a-foglietta) source on [github](https://github.com/robang74/roberto-a-foglietta) (2024-12-14)
+* [Roberto A. Foglietta (blog)](https://robang74.github.io/roberto-a-foglietta) source on [github](https://github.com/robang74/roberto-a-foglietta) &nbsp; (2024-12-14)
 
-* [ChatGPT Answered Prompts](https://robang74.github.io/chatgpt-answered-prompts) source on [github](https://github.com/robang74/chatgpt-answered-prompts) (2024-09-06)
+* [ChatGPT Answered Prompts](https://robang74.github.io/chatgpt-answered-prompts) source on [github](https://github.com/robang74/chatgpt-answered-prompts) &nbsp; (2024-09-06)
 
 <br/><span id="pages-index"></span>
 
@@ -38,7 +38,7 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
 
-* 2025-13-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/dual-psu-fujitsu-esprimo-e910.md)] - [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-e910.md)
+* 2025-13-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/dual-psu-fujitsu-esprimo-p910.md)] - [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md)
 
 * 2025-13-24 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/tesla-k80-with-esprimo-p910.md)] - [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md)
 
