@@ -16,7 +16,7 @@
     <body>
 <p/>
 <div class='topbar' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;&nbsp;</b>&nbsp;&mdash;&nbsp; published:&nbsp; <b class='topbar'>20125-01-25<sup class='date-type topbar' id='datenote'>&nbsp;(&hairsp;<a href='#date-legenda' class='date-type topbar'>&hairsp;1&hairsp;</a>&hairsp;)&nbsp;</sup></b>  &nbsp;&mdash;&nbsp; revision: <b class='topbar
-'>1</b rev_num='
+'>6</b rev_num='
 '> &nbsp;&mdash;&nbsp; translate:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dual-psu-fujitsu-esprimo-p910?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dual-psu-fujitsu-esprimo-p910?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dual-psu-fujitsu-esprimo-p910?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dual-psu-fujitsu-esprimo-p910?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &nbsp;&mdash;&nbsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a>&nbsp;</div>
 <div id="firstdiv">
 <p/>
@@ -28,7 +28,9 @@ In the previous article I presented the project of adapting a Nvidia Tesla K80 f
 <p/>
 <li><a href="tesla-k80-with-esprimo-p910.html#" target='_blank' rel='noopener noreferrer'>Tesla K80 with Esprimo P910</a> &nbsp; (20125-01-24)</li>
 <p/>
-This paper is going to present the way in which I decided to provide that system with a secondary 350W power supply unit in order to sustain the K80 consumption.
+While, this paper is going to present the way in which I decided to provide that system with a secondary 350W power supply unit in order to sustain the K80 consumption.
+<p/>
+The 2nd edition (since rev. 6) includes the <a href="#external-sources">external sources</a> session and a more comprehensible English language.
 <p/>
 <hr>
 <p/>
@@ -36,7 +38,7 @@ This paper is going to present the way in which I decided to provide that system
 <p/>
 Among the main issues one in particular was related to the Fujitsu Esprimo P910 which like many others slim-tower with Zero-Watt technology includes a customised power supply unit which has a single connection to the mainboard with a 16-pin connector and cannot be replaced with any standard ATX PSU also because its own way of being fixed to the case.
 <p/>
-Well - <i>cannot be replaced</i> - in the sense of a spare part because mechanical changes to the case in order to fit a standard PSU supply as well as providing a cable for adapt the standard 20/24-pins ATX connector to the motherboard 16-pin one, is always possible.
+Well - <i>cannot be replaced</i> - in the sense of a spare part because mechanical changes to the case in order to fit a standard PSU supply as well as providing a cable for adapting the standard 20/24-pins ATX connector to the motherboard 16-pin one, is always possible.
 <p/>
 However, as you can imagine some mods' outcomes are way unpredictable compared to assembly of commercially available parts. In particular when 220V power supply is involved.
 <p/>
@@ -48,7 +50,7 @@ A place in which a secondary PSU can be installed in the Esprimo P910 case is th
 <p/>
 Despite this the two bays are separated with a frame that also provides a substantial distancing to the front side unless the PSU would have a size comparable with a DVD reader.
 <p/>
-After a search on the Internet, I have decided that an ATX PSU built for PoS devices which has a standard size of 1U = 1 rack Unit can fit into that area replacing the DVD reader.
+After a search on the Internet, I have found that an ATX PSU built for PoS devices which has a standard size of 1U = 1 rack Unit can fit into that area replacing the DVD reader.
 <p/>
 <hr>
 <p/>
@@ -56,23 +58,29 @@ After a search on the Internet, I have decided that an ATX PSU built for PoS dev
 <p/>
 Once decided where to place the 2nd PSU there are two more task to face:
 <p/>
-<li style='list-style-type: none;'><b>1.<span style='visibility: hidden;'>--</span></b>let the two PSUs have the same GND (N-line, ground) to avoid dangerous fluctuations;</li>
+<li style='list-style-type: none;'><b>1.<span style='visibility: hidden;'>--</span></b>make sure the two PSUs share the same ground line to avoid dangerous voltage fluctuations;</li>
 <p/>
-<li style='list-style-type: none;'><b>2.<span style='visibility: hidden;'>--</span></b>let the 2nd PSU powering-up the system when the first sees grounded the PSU-ON line.</li>
+<li style='list-style-type: none;'><b>2.<span style='visibility: hidden;'>--</span></b>switch on the 2nd PSU when the PWR button is pressed and the 1st PSU sees grounded the PSU-ON line</li>
 <p/>
-To solve at once these two issues, I have decided to use an adaptor, specifically designed. Which is a very common piece of hardware.
+To solve at once these two issues, I have decided to use an adaptor, specifically designed. Which is a quite common piece of hardware.
 <p/>
-To be precise, I have found three kinds of these adaptors plus their different versions. Two seem very similar and are equally cheap, one has an on/off switch for disabling the secondary PSU when it is not in use. While the third offers more options and features. In this specific case, the simplest ATX 24-pins with SATA dual connectors is enough.
+To be precise, I have found three kinds of these adaptors plus their different versions. Two seem very similar and are equally cheap, one has an on/off switch for disabling the secondary PSU when it is not in use. While the third offers more options and features. 
+<p/>
+In this specific case, the simplest ATX 24-pins with SATA dual connectors is enough.
 <p/>
 <hr>
 <p/>
 <H3 id="psu-cabling-">PSU cabling </H3>
 <p/>
-The Nvidia Tesla K80 is quite old and it requires a basic 8-pin CPU male connector to be powered. Unfortunately, the 1U PSU that I have chosen has no such connector but the older 4-pin CPU male connector. Fortunately, the 8-pin connector is nothing else than a power and ground lines duplication compared to the 4-pin and an adapting cable is very cheap and easy to buy.
+The Nvidia Tesla K80 is quite old and it requires a basic 8-pin CPU male connector to be powered. Unfortunately, the 1U PSU that I have chosen has no such connector but the older 4-pin CPU male connector.
 <p/>
-The Fujitsu 250W PSU has the sole connection with the motherboard and everything else is connected to the motherboard. For this reason it is quite improbable that it offers a 4-pin molex connector to join the dual-PSU manager board. For this reason, I chose the version with the SATA connection. Therefore, the common ground will be shared by the motherboard wiring, as well as the PSU-ON signal.
+Fortunately, the 8-pin connector is nothing else than a power and ground lines duplication compared to the 4-pin and an adapting cable is very cheap and easy to buy.
 <p/>
-While the Tesla K80 will receive the full power from the 2nd PSU by the 4-pin CPU connector converted into an 8-pin CPU male. A very simple and straightforward connections schema. A sort of anomaly will appear on the external front side of the case. In fact, a standard 3-poles cable will connect the 2nd PSU with the public 220V network.
+The Fujitsu 250W PSU has the sole connection with the motherboard and everything else is connected to the motherboard and it does not offer a 4-pin molex connector to join the dual-PSU manager board.
+<p/>
+For this reason, regarding the dual-PSU sync board, I chose the version with the SATA connection. Therefore, the common ground will be shared by the motherboard wiring, as well as the PSU-ON signal. While the Tesla K80 will receive the full power from the 2nd PSU by the 4-pin CPU connector converted into an 8-pin CPU male.
+<p/>
+A very simple and straightforward connections schema for which the 220V socket will appear on the external front side of the case: a standard 3-poles cable will connect the 2nd PSU with the public 220V network.
 <p/>
 Soon, I will check for a 90° 3-poles PC plug in order to avoid any stress to the cable and facilitate as much as possible its redirection on the back where the second 3-poles cable powers the 1st PSU, as usual.
 <p/>
@@ -87,6 +95,20 @@ In fact, it is a matter of just assembling some spare parts and all these parts 
 Making a comparison - with the mods that I have seen shared on Reddit and other similar forums, but some are 4 years old - this is a quite simple, comfortable, standard and safe way to go. Despite this, it is not for everyone because assembly or modification of a personal computer hardware configuration requires manual dexterity to use tools, and a little experience.
 <p/>
 In short this project has a low entry barrier but still not for everyone.
+<p/>
+<br/>
+<p/>
+<H2 id="external-sources">External sources</H2>
+<p/>
+In the first  link there is a practical example using the <tt>nvidia-smi</tt> command to cap the maximum power consumption in order to prevent overheating problems
+<p/>
+<li><a href="https://blog.thomasjungblut.com/random/running-tesla-k80" target='_blank' rel='noopener noreferrer'>Running a Nvidia Tesla K80 at home</a> &nbsp; (2021-05-26)</li>
+<p/>
+<li><a href="https://www.reddit.com/r/pcmods/comments/nhfwh7/guide_using_an_nvidia_tesla_k80_datacenter_gpu" target='_blank' rel='noopener noreferrer'>Using an Nvidia Tesla K80 for gaming</a> &nbsp; (2021-05-20)</li>
+<p/>
+<li><a href="https://linustechtips.com/topic/1058561-simple-tutorial-ish-for-kepler-and-probably-maxwell-ii-bios-tweaker" target='_blank' rel='noopener noreferrer'>Kepler overclock, how to tweak the BIOS</a> &nbsp; (2019-04-19)</li>
+<p/>
+at the opposite, in the last link there is the opposite: how to increase the voltage and the working frequency in order to squeeze all its computation power.
 <p/>
 <br/>
 <p/>
