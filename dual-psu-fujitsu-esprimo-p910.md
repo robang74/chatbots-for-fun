@@ -16,6 +16,8 @@ While, this paper is going to present the way in which I decided to provide that
 
 - The **4th** edition (since rev. 9) includes two rendering about how the final Tesla K80 installation and the [cooling](#cooling-rendering) air flow is expected will look like 
 
+- The **5th** edition (since rev. 10) includes the [bricolage](#bricolage) image parade and instructions to change the internal cooling system's air-flow.
+
 ---
 
 ### Introduction
@@ -113,6 +115,36 @@ For this reason, I will soon evaluate to move the fan toward the center of the c
 <div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-cooling-preview.jpg" width="800"><br/><sub>right click menu to enlarge the image in a new tab</sub></div>
 
 This image shows two renderings about how the final Tesla K80 installation would look and how it is expected the internal cooling system will manage the airflow.
+
+---
+
+### Bricolage
+
+In order to replace the cooling fan, I decided to use four skewer woodsticks to find the suitable holes to use to fix the fan.
+
+<div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-fan-new-position-p1.jpg"><br/></div>
+
+The best position that I found matches three holes almost perfectly and the fourth not precisely enough. I think that with a proper set of rubber spacers all the four holes are suitable for fixing the fan with screws.
+
+<div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-fan-new-position-p2.jpg"><br/></div>
+
+The yellow square is the original fixing place, while the blue is the original but translated and rotated accordingly with the holes found and the purple is the actual positioning.
+
+As you can see the difference is sensitive in just one hole and noticing that the purple square has been skewed, it means that the fan is not perfectly planar with the case because the distancing was changed and properly compensated.
+
+However, I fixed that hole with two auto-gripping plastic strips plus I inserted a skewer wood-stick, fixed it with heat shrink tubing and used it to position the new air flow deflector. Which has been made of cardboard, packing tape and electrical tape.
+
+<div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-changed-air-flow.jpg" width="800"><br/><sub>right click menu to enlarge the image in a new tab</sub></div>
+
+These two photos show the actual result and we can compare them with the two renderings on which the modification has been planned. In the image, the light blue lines indicate, starting from the left: the line at the center of the 12 cm fan, the new deflector air-flow direction and the original deflector air-flow direction.
+
+#### New deflector
+
+The new deflector is quite simple: a plane bent at 45° c.a. which pushes on the corner of the case and leans on the passing-by-the-fan wood-stick by a horizontal cut. Another wood-stick is embedded vertically on the bended edge that matches and gets stuck behind the original air-flow deflector. The vertical wood-stick keeps the new deflector steady and rigidly vertical while a 90° bent side pushing against the case corner provides the second steady vertical line.
+
+Is that a professional piece of hand-work? Obviously not.
+
+However, it is a pretty good try to start with designing a 3D printable additional air-flow. Until, we consider the cost and the labour related to 3D printing. Including that PLA is more flammable than cardboard and wood-sticks. That it has a higher energy density to sustain a fire. Then, we may agree that once properly covered by insulating silver strong-duct tape, the cardboard deflector would look much more professional.
 
 ---
 
