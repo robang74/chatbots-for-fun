@@ -14,6 +14,8 @@ While, this paper is going to present the way in which I decided to provide that
 
 - The **3rd** edition (since rev. 8) includes two new sections about addressing the [P910 issues](#p910-issues) with K80 and its [cooling system](#cooling-the-k80).
 
+- The **4th** edition (since rev. 9) includes two rendering about how the final Tesla K80 installation and the [cooling](#cooling-rendering) air flow is expected will look like 
+
 ---
 
 ### Introduction
@@ -107,6 +109,10 @@ The splitter is a wise way to keep ventilated both the internal of the case and 
 Installing a 300W TDP GPU in that case in which two PSU and a CPU with a passive cooling system are installed, it is not a good idea to fulfil that space of storage units. Instead, considering that as higher is the working temperature as shortre the SSD/HDD life average time is, the best is to dedicate this tower for computational purposes and leverage ethernet and USB 3.0 for exchange data in packets or in large chunks.
 
 For this reason, I will soon evaluate to move the fan toward the center of the case, and closing the splitter, redirecting the bottom half of the air flow into the Tesla 80, while the top bottom of the air flow will remain available for cooling the CPU and better support the dual-PSU venting system, each one by its own fan.
+
+<div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-cooling-preview.jpg" width="800"><br/><sub>right click menu to enlarge the image in a new tab</sub></div>
+
+This image shows two renderings about how the final Tesla K80 installation would look and how it is expected the internal cooling system will manage the airflow.
 
 ---
 
