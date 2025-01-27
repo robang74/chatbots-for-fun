@@ -10,7 +10,9 @@ In the previous article I presented the project of adapting a Nvidia Tesla K80 f
 
 While, this paper is going to present the way in which I decided to provide that system with a secondary 350W power supply unit in order to sustain the K80 consumption.
 
-The 2nd edition (since rev. 6) includes the [external sources](#external-sources) session and a more comprehensible English language.
+- The **2nd** edition (since rev. 6) includes the [external sources](#external-sources) session and a more comprehensible English language.
+
+- The **3rd** edition (since rev. 8) includes two new sections about addressing the [P910 issues](#p910-issues) with K80 and its [cooling system](#cooling-the-k80).
 
 ---
 
@@ -44,9 +46,9 @@ Once decided where to place the 2nd PSU there are two more task to face:
 
 To solve these two issues at once, I have decided to use an adaptor, specifically designed for dealing with a dual-PSU configuration. Which is a quite common piece of hardware.
 
-To be precise, I have found three kinds of these adaptors plus their different versions. 
+To be precise, I have found three kinds of these adaptors plus their different versions.
 
-<div align="center"><img class="bwsketch" src="img/dual-psu-sync-boards.jpg" width="800"><br/></div>
+<div align="center"><img class="wbsketch inksave" src="img/dual-psu-sync-boards.jpg" width="800"><br/></div>
 
 Two seem very similar and are equally cheap, one has an on/off switch for disabling the secondary PSU when it is not in use. While the third offers more options and features. 
 
@@ -67,6 +69,44 @@ For this reason, regarding the dual-PSU sync board, I chose the version with the
 A very simple and straightforward connections schema for which the 220V socket will appear on the external front side of the case: a standard 3-poles cable will connect the 2nd PSU with the public 220V network.
 
 Soon, I will check for a 90° 3-poles PC plug in order to avoid any stress to the cable and facilitate as much as possible its redirection on the back where the second 3-poles cable powers the 1st PSU, as usual.
+
+---
+
+### P910 issues
+
+The first problem in installing the Nvidia Tesla K80 into a Fujitsu Esprimo P910 is related to the high of the USB 3.0 male connector which prevents the GPU card to be installed into the only PCI express 3.0 x16 because the one near the CPU is mechanically a x16 long but it is a PCIe 2.0 x4.
+
+<div align="center"><img class="wbsketch inksave" src="img/esprimo-p910-vs-tesla-k80.jpg" width="800"><br/><sub>right click menu to enlarge the image in a new tab</sub></div>
+
+Fortunately, I have found an adapter that turns the USB 3.0 20-pins connector by 90° within 15mm above the motherboard surface which is the altitude of the cooler fan 12 cm connector which did not prevent the Tesla K80 to be temporarily installed into the first PCIe slot. Wrong, but an useful try,
+
+While, in this image the interior of a Fujitsu Esprimo P910 E85+ is shown with the troubling areas highlighted in different colors.
+
+<div align="center"><img class="wbsketch inksave" src="img/esprimo-p910-cabling-howto.jpg" width="800"><br/><sub>right click menu to enlarge the image in a new tab</sub></div>
+
+The colors chosen do not indicate the seriousness or the importance of the problem. Here below the list of the areas and their relevance.
+
+- The yellow area is about the SATA cabling which is better to move into the SATA slots near the edge of the motherboard to free as much space as possible for the K80.
+
+- The orange area is about the Fujitsu customised power supply and in green the DVD ROM reader bay in which it will be installed the secondary 1U rack PSU for supporting the K80.
+
+- The red area is about the USB 3.0 connector which is used to export 2x USB 3.0 in the front size of the case. The P910 has 2x USB 3.0 ports exposed in the backside also.
+
+Considering that 2x USB 2.0 ports remain available on the front, and 2x USB 3.0 in the back, we might have sacrificed the other 2x USB 3.0 but it is not so simple.
+
+---
+
+### Cooling the K80
+
+Giving the USB 3.0 connector a proper altitude like the cooler FAN power connector has - which is 15 mm - allows the K80 to sit on top of that 90° flat adapter. This will stabilise the K80 and we can use it as anchor for grip of the K80 with a long, self-locking knurled plastic strip. Which will be also useful to create a link with the internal front side of the case to install a fan deflector. Because, as soon as the Tesla K80 will have passed the basic tests, it will be necessary to provide it enough cooling to work at its factory TDP.
+
+- The blue area shows the cooling 12 cm fan and a metal deflector which splits the air flow in two halves.
+
+The splitter is a wise way to keep ventilated both the internal of the case and the sata hard-disk rack that is available at the bottom of the case in three bays. A lot of space for potentially a lot of data storage that make this tower a candidate for an advanced NAS for local caching - hybrid cloud - the daily data of a middle-size office without clogging the internet connection during the working hours.
+
+Installing a 300W TDP GPU in that case in which two PSU and a CPU with a passive cooling system are installed, it is not a good idea to fulfil that space of storage units. Instead, considering that as higher is the working temperature as shortre the SSD/HDD life average time is, the best is to dedicate this tower for computational purposes and leverage ethernet and USB 3.0 for exchange data in packets or in large chunks.
+
+For this reason, I will soon evaluate to move the fan toward the center of the case, and closing the splitter, redirecting the bottom half of the air flow into the Tesla 80, while the top bottom of the air flow will remain available for cooling the CPU and better support the dual-PSU venting system, each one by its own fan.
 
 ---
 
