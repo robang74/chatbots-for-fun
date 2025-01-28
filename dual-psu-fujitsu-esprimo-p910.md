@@ -1,5 +1,5 @@
 <div id="firstdiv" created="2025-01-25:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
-<style>@page { size: legal; }; @media print { html { zoom: 100%; } }; </style>
+<style>@page { size: legal; }; @media print { html { zoom: 100%; }; };</style>
 
 <div align="center"><img class="bwsketch" src="img/dual-psu-fujutsu-esprimo-p910.jpg" width="800"><br/></div>
 
