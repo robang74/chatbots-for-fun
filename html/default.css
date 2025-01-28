@@ -12,6 +12,16 @@
     -ms-user-select: none;  /* IE 10 & 11 */
 }
 
+@media print {
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+    .hidden, hr.pagebreak, div.pagebreak hr {
+        display: none!important;
+    }
+}
+
 html {
  /*\,-Remove this parenthesys to switch the zoom */
 /**)/
@@ -20,6 +30,7 @@ html {
 }
 
 body {
+    float: none;
  /*\,-Remove this parenthesys to switch the font */
 /**)/
     font-family: "Tahoma mono", sans-serif;
