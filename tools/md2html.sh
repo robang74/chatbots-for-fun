@@ -84,11 +84,9 @@ function md2htmlfunc() {
     title=${str/index/${PWD##*/}};
     #title=${str//-/ };
 
-    if [ "$str" = "index" ]; then
-        sed -e "s, - (\[...raw...\]([^)]*\.md)) , - ," $1
-    else
-        cat $1
-    fi | full_mdlinkconv >$2
+    grep -ve "^<style>" $1 | { if [ "$str" = "index" ]; then
+        sed -e "s, - (\[...raw...\]([^)]*\.md)) , - ,"; else
+        cat - ; fi ; } | full_mdlinkconv >$2
 
     cmd="sed -i $2"
     for a in "IT" "EN" "DE" "FR" "ES"; do
@@ -118,10 +116,11 @@ function md2htmlfunc() {
 -e "s,^\( *\)\([0-9]*\)\. \(.*\),\\1${li_A}\\2${li_B}\\3</li>," \
 -e "s,\\\<\(.*\)\\\>,\&lt;\\1\&gt;,g" \
 -e 's,^+\{4\,\} *$,<div class="pagebreak"><br/></div>,' \
+-e 's,^\~\{4\,\} *$,<div class="pagebreak"><hr class="hidden"></div>,' \
 -e 's,^\.\{4\,\} *$,<div class="pagebreak"><hr class="post-it"></div>,' \
 -e 's,^\=\{4\,\} *$,<div class="pagebreak"><br/><hr><br/></div>,' \
 -e 's,^\-\{4\,\} *$,<div class="pagebreak"><hr></div>,' \
--e 's,^\~\{3\} *$,<hr class="pagebreak">,' \
+-e 's,^\~\{3\} *$,<hr class="hidden">,' \
 -e 's,^\.\{3\} *$,<hr class="post-it">,' \
 -e "s,^\=\{3\} *$,<br/><hr><br/>," \
 -e "s,^\-\{3\} *$,<hr>," \
@@ -170,6 +169,7 @@ function md2htmlfunc() {
     declare -i n=$(grep -n "BODY_CONTENT" $txt | cut -d: -f1)
     txt=$(head -n$[n-1] $txt)
     eval "echo \"$txt\" >$2"
+    grep -e "^<style>" $1 >>$2
     source tools/ptopbar.sh $1 >>$2
 
     cat $tf | tr '@' '\n' >>$2; rm  $tf

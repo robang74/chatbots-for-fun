@@ -11,9 +11,40 @@
         clear: both;
         page-break-after: always;
     }
-    .hidden, hr.pagebreak, div.pagebreak hr {
-        display: none!important;
+    hr.pagebreak, div.pagebreak hr, div.pagebreak {
+        display: none;
+        overflow: hidden;
+        visibility: hidden;
+        border-color: transparent;
+        color: transparent;
+        height: 0px;
+        width: 0px;
     }
+    .hidden, hr.hidden, div.hidden hr, div.pagebreak hr.hidden {
+        overflow: hidden;
+        visibility: hidden;
+        display: inline-block;
+        border-color: transparent;
+        color: transparent;
+    }
+/*
+    hr.pagebreak, div.pagebreak hr {
+        overflow: hidden;
+        visibility: hidden;
+        display: inline-block;
+        border-color: transparent;
+        color: transparent;
+    }
+    .hidden, div.pagebreak hr.hidden {
+        display: none;
+        overflow: hidden;
+        visibility: hidden;
+        border-color: transparent;
+        color: transparent;
+        height: 0px;
+        width: 0px;
+    }
+*/
     * {
         -webkit-print-color-adjust: exact !important;   /* Chrome, Safari 6 – 15.3, Edge */
         print-color-adjust: exact !important;           /* Firefox 97+, Safari 15.4+ */
