@@ -1,0 +1,33 @@
+/* 
+ * void Cascading Style Sheet for overriding or customise default.css
+ *
+ * Use this to import the html to pdf warm CSS for printing on paper
+ *
+ */
+@import url('onpaper.css');
+
+@media print {
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+    .hidden, hr.pagebreak, div.pagebreak hr {
+        display: none!important;
+    }
+    * {
+        -webkit-print-color-adjust: exact !important;   /* Chrome, Safari 6 – 15.3, Edge */
+        print-color-adjust: exact !important;           /* Firefox 97+, Safari 15.4+ */
+        color-adjust: exact !important;                 /* Firefox 48 – 96 */
+    }
+}
+
+/*
+ * This should be set within the HTML page in order to customise each one
+ */
+/*
+
+@page { size: A4; } 
+
+@media print { html { zoom: 100%; } }
+
+*/
