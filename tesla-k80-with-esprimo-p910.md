@@ -90,7 +90,7 @@ If you like to participate in this challenge, feel free to drop me an email, a c
 
 This article continue here:
 
-* [Dual PSU for Fujitsu Esprimo P910](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (20125-01-25)
+* [Dual PSU for Fujitsu Esprimo P910](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (2025-01-25)
 
 <br/>
 
