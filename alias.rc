@@ -4,7 +4,9 @@ raisewapp() {
 }
 m() { bash tools/md2html.sh ${@:-$(st -m *.md)}; }
 c() {
-    for i in ${@:-$(st -m *.md)}; do
+    test -n "${1:-}" || set -- $(st -m *.md)
+    test -n "${1:-}" || set index.html
+    for i in "$@"; do
         i=${i/.md/.html}
         i=${i/README/index}
         test -r "$i" || i="html/$i"
