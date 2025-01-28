@@ -117,6 +117,7 @@ function md2htmlfunc() {
 -e 's,^\.\{4\,\} *$,<div class="pagebreak"><hr class="post-it"></div>,' \
 -e 's,^\=\{4\,\} *$,<div class="pagebreak"><br/><hr><br/></div>,' \
 -e 's,^\-\{4\,\} *$,<div class="pagebreak"><hr></div>,' \
+-e 's,^\~\{3\} *$,<hr class="pagebreak">,' \
 -e 's,^\.\{3\} *$,<hr class="post-it">,' \
 -e "s,^\=\{3\} *$,<br/><hr><br/>," \
 -e "s,^\-\{3\} *$,<hr>," \
