@@ -69,22 +69,26 @@ function full_mdlinkconv() {
     mini_mdlinkconv -e "s,\&lbrack;,[,g" -e "s,\&rbrack;,],g" "$@"
 }
 
+function title_tags_add() {
+    local i strn find file=$1; shift
+    for i in "$@"; do
+        find=$(echo "$i" | sed -e 's/\([",$*()]\)/\\\1/g')
+        strn=$(echo "$i" | tr 'A-Z ' 'a-z-' | tr -dc '0-9a-z-')
+        sed -e "s,\(<H[1-3] id=.\)$find\(.>.*\),\\1$strn\\2," -i $file
+    done
+}
+
 function md2htmlfunc() {
     local a b c i str=$(basename ${2%.html}) dir="" title txt cmd
     test "$str" == "index" && dir="html/"
     title=${str/index/${PWD##*/}};
     #title=${str//-/ };
 
-    txt="html/items/pagebody.htm"
-    declare -i n=$(grep -n "BODY_CONTENT" $txt | cut -d: -f1)
-    txt=$(head -n$[n-1] $txt)
-    eval "echo \"$txt\" >$2"
-    source tools/ptopbar.sh $1 >>$2
     if [ "$str" = "index" ]; then
         sed -e "s, - (\[...raw...\]([^)]*\.md)) , - ," $1
     else
         cat $1
-    fi | full_mdlinkconv >>$2
+    fi | full_mdlinkconv >$2
 
     cmd="sed -i $2"
     for a in "IT" "EN" "DE" "FR" "ES"; do
@@ -123,16 +127,7 @@ function md2htmlfunc() {
 -e "s,^\-\{3\} *$,<hr>," \
 -e "s,^ *$,<p/>,"
 
-function fx() {
-    local i strn find file=$1; shift
-    for i in "$@"; do
-        find=$(echo "$i" | sed -e 's/\([",$*()]\)/\\\1/g')
-        strn=$(echo "$i" | tr 'A-Z ' 'a-z-' | tr -dc '0-9a-z-')
-        sed -e "s,\(<H[1-3] id=.\)$find\(.>.*\),\\1$strn\\2," -i $file
-    done
-}
-    eval fx "$2" $(sed -ne 's,<H[1-3] id=.\([^>]*\).>.*,"\1",p' $2)
-    #echo "$2" >&2
+    eval title_tags_add "$2" $(sed -ne 's,<H[1-3] id=.\([^>]*\).>.*,"\1",p' $2)
 
     tf=$2.tmp
     cat $2 | tr '\n' '@' >$tf
@@ -170,8 +165,14 @@ function fx() {
     done
     sed -e 's,</blockquote>\(@*\)<blockquote>,<br/>,g' \
         -e 's,<blockquote>\(@*\)</blockquote>,<br/>,g' -i $tf
-    cat $tf | tr '@' '\n' >$2
-    rm  $tf
+
+    txt="html/items/pagebody.htm"
+    declare -i n=$(grep -n "BODY_CONTENT" $txt | cut -d: -f1)
+    txt=$(head -n$[n-1] $txt)
+    eval "echo \"$txt\" >$2"
+    source tools/ptopbar.sh $1 >>$2
+
+    cat $tf | tr '@' '\n' >>$2; rm  $tf
 
     TOPLINK=$(get_html_item_str html/items/toplink.htm)
     get_html_item_str html/items/footnote.htm >> $2
