@@ -38,25 +38,25 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
 
-* 2025-13-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/dual-psu-fujitsu-esprimo-p910.md)] - [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md)
+* 2025-13-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/dual-psu-fujitsu-esprimo-p910.md)] - [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (5th edt.)
 
 * 2025-13-24 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/tesla-k80-with-esprimo-p910.md)] - [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md)
 
 * 2025-01-21  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md)] - [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md)
 
-* 2025-01-13 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-system-prompting-to-leverage-rag.md)] - [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md)
+* 2025-01-13 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-system-prompting-to-leverage-rag.md)] - [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md) &nbsp; (3rd edt.)
 
 * 2025-01-12 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/come-leggere-una-chat-con-un-ai.md)] - [Come leggere una chat con un AI](come-leggere-una-chat-con-un-ai.md)
 
-* 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/neutrality-vs-biases-for-chatbots.md)] - [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md)
+* 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/neutrality-vs-biases-for-chatbots.md)] - [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md) &nbsp; (2nd edt.)
 
 * 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatting-with-alex-the-chatbot.md)] - [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md)
 
 * 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-system-prompt-alchemy.md)] - [The system prompt alchemy](the-system-prompt-alchemy.md)
 
-* 2024-12-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dammi-sei-parole-a-caso.md)] - [Dammi sei parole a caso](dammi-sei-parole-a-caso.md)
+* 2024-12-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dammi-sei-parole-a-caso.md)] - [Dammi sei parole a caso](dammi-sei-parole-a-caso.md) &nbsp; (2nd edt.)
 
-* 2024-12-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/alla-ricerca-del-gatto-che-non-c-e.md)] - [Alla ricerca del gatto che non c'è](alla-ricerca-del-gatto-che-non-c-e.md)
+* 2024-12-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/alla-ricerca-del-gatto-che-non-c-e.md)] - [Alla ricerca del gatto che non c'è](alla-ricerca-del-gatto-che-non-c-e.md) &nbsp; (3rd edt.)
 
 * 2024-12-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/leveraging-a-chatbot-for-human-writing.md)] - [Leveraging a chatbot for human writing](leveraging-a-chatbot-for-human-writing.md)
 
