@@ -11,7 +11,11 @@
         clear: both;
         page-break-after: always;
     }
-    hr.pagebreak, div.pagebreak hr, div.pagebreak {
+    div.pagebreak {
+        height: 0px;
+        width: 0px;    
+    }
+    hr.pagebreak, div.pagebreak hr, div.pagebreak br {
         display: none;
         overflow: hidden;
         visibility: hidden;
