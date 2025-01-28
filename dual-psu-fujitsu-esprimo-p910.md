@@ -1,4 +1,5 @@
 <div id="firstdiv" created="2025-01-25:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>@page { size: legal; }; @media print { html { zoom: 100%; } }; </style>
 
 <div align="center"><img class="bwsketch" src="img/dual-psu-fujutsu-esprimo-p910.jpg" width="800"><br/></div>
 
@@ -88,6 +89,8 @@ While, in this image the interior of a Fujitsu Esprimo P910 E85+ is shown with t
 
 <div align="center"><img class="wbsketch inksave" src="img/esprimo-p910-cabling-howto.jpg" width="800"><br/><sub>right click menu to enlarge the image in a new tab</sub></div>
 
+++++
+
 The colors chosen do not indicate the seriousness or the importance of the problem. Here below the list of the areas and their relevance.
 
 - The yellow area is about the SATA cabling which is better to move into the SATA slots near the edge of the motherboard to free as much space as possible for the K80.
@@ -96,21 +99,29 @@ The colors chosen do not indicate the seriousness or the importance of the probl
 
 - The red area is about the USB 3.0 connector which is used to export 2x USB 3.0 in the front size of the case. The P910 has 2x USB 3.0 ports exposed in the backside also.
 
+- The blue area shows the cooling 12 cm fan and a metal deflector which splits the air flow in two halves.
+
 Considering that 2x USB 2.0 ports remain available on the front, and 2x USB 3.0 in the back, we might have sacrificed the other 2x USB 3.0 but it is not so simple.
+
+Giving the USB 3.0 connector a proper altitude like the cooler FAN power connector has - which is 15 mm - allows the K80 to sit on top of that 90° flat adapter. This will stabilise the K80 and we can use it as anchor for grip of the K80 with a long, self-locking knurled plastic strip.
+
+Which will be also useful to create a link with the internal front side of the case to install a fan deflector. Because, as soon as the Tesla K80 will have passed the basic tests, it will be necessary to provide it enough cooling to work at its factory TDP.
 
 ---
 
 ### Cooling the K80
 
-Giving the USB 3.0 connector a proper altitude like the cooler FAN power connector has - which is 15 mm - allows the K80 to sit on top of that 90° flat adapter. This will stabilise the K80 and we can use it as anchor for grip of the K80 with a long, self-locking knurled plastic strip. Which will be also useful to create a link with the internal front side of the case to install a fan deflector. Because, as soon as the Tesla K80 will have passed the basic tests, it will be necessary to provide it enough cooling to work at its factory TDP.
+The original air-flow splitting is a good way to keep ventilated both the internal of the case and the SATA hard-disk rack that is available at the bottom of the case in three bays. A lot of physical space for installing a lot of data storage units makes this tower PC a good candidate for an advanced NAS for local caching.
 
-- The blue area shows the cooling 12 cm fan and a metal deflector which splits the air flow in two halves.
+In fact, within a basic hybrid cloud paradigm, it would collect the daily data of a middle-size office to upload/sync it during the night in order to prevent clogging the internet connection during the working hours.
 
-The splitter is a wise way to keep ventilated both the internal of the case and the sata hard-disk rack that is available at the bottom of the case in three bays. A lot of space for potentially a lot of data storage that make this tower a candidate for an advanced NAS for local caching - hybrid cloud - the daily data of a middle-size office without clogging the internet connection during the working hours.
+Considering that as high is the working temperature as short the SSD/HDD life average time is, installing many storage units is not a great idea. The best is to dedicate this PC tower for computational purposes and leverage ethernet and USB 3.0 for exchanging data in packets and in large chunks.
 
-Installing a 300W TDP GPU in that case in which two PSU and a CPU with a passive cooling system are installed, it is not a good idea to fulfil that space of storage units. Instead, considering that as higher is the working temperature as shortre the SSD/HDD life average time is, the best is to dedicate this tower for computational purposes and leverage ethernet and USB 3.0 for exchange data in packets or in large chunks.
+In fact, on the top of the original hardware configuration, there is also a 225W TDP GPU card and an extra 350W PSU. However, the choice to mount the extra PSU on the highest DVD ROM bay creates a safe distancing between the other two major sources of heat.
 
-For this reason, I will soon evaluate to move the fan toward the center of the case, and closing the splitter, redirecting the bottom half of the air flow into the Tesla 80, while the top bottom of the air flow will remain available for cooling the CPU and better support the dual-PSU venting system, each one by its own fan.
+Moreover, because the extra PSU is at the same level of the original PSU, both PSUs are sucking warm air from the top of the case and pushing it out. Which keeps the CPU and the GPU safer but potentially puts the PSUs at higher risk of overheating due to a potentially lack of fresh air to cool down themselves.
+
+For this reason, I am evaluating moving the main cooling 12cm fan toward the center of the case, and closing the splitter, redirecting the bottom half of the air flow into the Tesla K80. While the top bottom of the air flow will remain available for cooling the CPU and better support the PSUs venting systems, each one by its own internal fan.
 
 <div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-cooling-preview.jpg" width="800"><br/><sub>right click menu to enlarge the image in a new tab</sub></div>
 
@@ -118,7 +129,7 @@ This image shows two renderings about how the final Tesla K80 installation would
 
 ---
 
-### Bricolage
+### Bricolage for the fan
 
 In order to replace the cooling fan, I decided to use four skewer woodsticks to find the suitable holes to use to fix the fan.
 
@@ -138,7 +149,9 @@ However, I fixed that hole with two auto-gripping plastic strips plus I inserted
 
 These two photos show the actual result and we can compare them with the two renderings on which the modification has been planned. In the image, the light blue lines indicate, starting from the left: the line at the center of the 12 cm fan, the new deflector air-flow direction and the original deflector air-flow direction.
 
-#### New deflector
+---
+
+### A hands-craft baffle
 
 The new deflector is quite simple: a plane bent at 45° c.a. which pushes on the corner of the case and leans on the passing-by-the-fan wood-stick by a horizontal cut. Another wood-stick is embedded vertically on the bended edge that matches and gets stuck behind the original air-flow deflector. The vertical wood-stick keeps the new deflector steady and rigidly vertical while a 90° bent side pushing against the case corner provides the second steady vertical line.
 
@@ -148,7 +161,7 @@ However, it is a pretty good try to start with designing a 3D printable addition
 
 ---
 
-### Conclusion
+### Conclusions
 
 Yet, this dual-PSU configuration has to face the proof of the time but this also depends on the choices I made.Instead, the approach in general seems valid because it does not imply any particular mod that would be forbidden into a common PC shop or PC hardware support center, or reparation.
 

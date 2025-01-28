@@ -1,8 +1,7 @@
 <div id="firstdiv" created="2025-01-28:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>@page { size: letter; }; @media print { html { zoom: 100%; } };</style>
 
-<div align="center">
-
-<br/>
+<div align="center"><br/>
 
 # Installing Nvidia Tesla K80 <br/>into a Fujitsu Esprimo P910<br/>with U1 rack size dual-PSU
 
@@ -30,15 +29,15 @@
 
 - **Purpose**: Education, mainly
 
-- **Composition**: presentation + 2 articles collation
+- **Composition**: this presentation + 2 articles collation
 
-   - Tesla K80 with Esprimo P910 (2025-01-24)
+   1. Tesla K80 with Esprimo P910 &nbsp; (2025-01-24)
 
-   - Dual PSU for Fujitsu Esprimo P910 (2025-01-25)
+   2. Dual PSU for Fujitsu Esprimo P910 &nbsp; (2025-01-25)
 
 </div>
 
-======
+====
 
 ## Constraints <br/><sup style='font-family:condensed; font-size:60%;'> of the related project </sup>
 
@@ -66,7 +65,7 @@ This document is for you! Dive into the fascinating journey of adapting a Nvidia
 
 Join the author as they explore the world of custom cooling, dual PSU setups, and innovative airfow management — all while keeping things accessible for the average tech tinkerer. Let’s get started!
 
-======
+====
 
 ## Structure <br/><sup style='font-family:condensed; font-size:60%;'> written by DeepSeek v3 </sup>
 
@@ -84,7 +83,7 @@ The author introduces the project of installing a Tesla K80 into a Fujitsu Espri
 
 - **Looking Forward** - The author outlines the next steps, including addressing thermal management issues and exploring the possibility of powering a fan directly from the Tesla K80 using a 2-pin connector.
 
-++++++
+++++
 
 ### Dual PSU for Fujitsu Esprimo P910
 
