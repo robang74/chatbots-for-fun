@@ -168,6 +168,10 @@ ul.dqt {
     left: -30px;
 }
 
+.tabcenter {
+    text-align: center;
+}
+
 table {
     width: 800px;
  /*\,-Remove this parenthesys to switch the font */
