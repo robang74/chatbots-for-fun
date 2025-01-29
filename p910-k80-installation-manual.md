@@ -1,7 +1,9 @@
 <div id="firstdiv" created="2025-01-28:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>@page { size: letter; }; @media print { html { zoom: 100%; }; };</style>
 
-<div align="center"><br>
++
+
+|x|>
 
 # Installing Nvidia Tesla K80 <br>into a Fujitsu Esprimo P910<br>with U1 rack size dual-PSU
 
@@ -11,9 +13,10 @@
 
 ===
 
-</div>
+<|x|
 
-<div style='position: relative; left: 20%;'>
+>>>|
+>>>|
 
 - **Revision date**: 2024-01-28
 
@@ -35,7 +38,8 @@
 
    2. Dual PSU for Fujitsu Esprimo P910 &nbsp; (2025-01-25)
 
-</div>
+|<<<
+|<<<
 
 ====
 
