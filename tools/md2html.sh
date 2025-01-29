@@ -132,7 +132,7 @@ function md2htmlfunc() {
     eval title_tags_add "$2" $(sed -ne 's,<H[1-3] id=.\([^>]*\).>.*,"\1",p' $2)
 
     tf=$2.tmp
-    cat $2 | tr '\n' '@' >$tf
+    cat $2 | tr '\n' '@' | sed -e "s,<p/>,<p class='topbar' />," >$tf
     while true; do
         str=$(sed -ne 's,__,<u>,' -e 's,__,</u>,p' $tf);
         if [ -n "$str" ]; then
