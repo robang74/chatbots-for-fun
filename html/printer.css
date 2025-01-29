@@ -43,7 +43,7 @@
         color: transparent;
     }
     .topbar, div.topbar, a.topbar { color: black; background-color: white; }
-    div.topbar { border: 1px solid; }
+    div.topbar { border: 2px solid; }
     a.topbar { border: none; }
     * {
         -webkit-print-color-adjust: exact !important;   /* Chrome, Safari 6 – 15.3, Edge */

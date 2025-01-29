@@ -45,7 +45,7 @@ I am not the first one that took in consideration this option to provide power t
 
 People who are using Apple desktop might face the same problem and in fact the first example of this approach that I found, was made by an Apple customer who decided to take his own personal way for video editing with AI support. Trying to mix the best available without asking for a loan.
 
-~~~~
+----
 
 ### The challenge level
 
