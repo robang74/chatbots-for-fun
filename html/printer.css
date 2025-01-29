@@ -15,7 +15,7 @@
         height: 0px;
         width: 0px;    
     }
-    hr.pagebreak, div.pagebreak hr, div.pagebreak br {
+    hr.pagebreak, div.pagebreak hr, div.pagebreak br, br.pagebreak {
         display: none;
         overflow: hidden;
         visibility: hidden;

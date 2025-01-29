@@ -115,7 +115,9 @@ function md2htmlfunc() {
 -e "s,^\( *\)[-+\*] \(.*\),\\1<li>\\2</li>," \
 -e "s,^\( *\)\([0-9]*\)\. \(.*\),\\1${li_A}\\2${li_B}\\3</li>," \
 -e "s,\\\<\(.*\)\\\>,\&lt;\\1\&gt;,g" \
--e 's,^+\{4\,\} *$,<div class="pagebreak"></div>,' \
+-e 's,^+\{6\,\} *$,<div class="pagebreak"><br/></div>,' \
+-e 's,^+\{5\} *$,<br class="pagebreak">,' \
+-e 's,^+\{4\} *$,<div class="pagebreak"></div>,' \
 -e 's,^\.\{4\,\} *$,<div class="pagebreak"><hr class="post-it"></div>,' \
 -e 's,^\=\{4\,\} *$,<div class="pagebreak"><br/><hr><br/></div>,' \
 -e 's,^\-\{4\,\} *$,<div class="pagebreak"><hr></div>,' \
@@ -124,7 +126,7 @@ function md2htmlfunc() {
 -e 's,^\.\{3\} *$,<hr class="post-it">,' \
 -e "s,^\=\{3\} *$,<br/><hr><br/>," \
 -e "s,^\-\{3\} *$,<hr>," \
--e 's,^+\{3\} *$,<br/>,' \
+-e "s,^+++ *$,<br/><br/><br/>," -e "s,^++ *$,<br/><br/>," -e "s,^+ *$,<br/>," \
 -e "s,^ *$,<p/>,"
 
     eval title_tags_add "$2" $(sed -ne 's,<H[1-3] id=.\([^>]*\).>.*,"\1",p' $2)
