@@ -1,6 +1,7 @@
 <div id="firstdiv" created="2024-11-17:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>@page { size: legal; }; @media print { html { zoom: 100%; }; };</style>
 
-<div class="pagehead" align="center"><img class="wbsketch" src="img/muppets-show.jpg" width="800"></div>
+<div align="center"><img class="wbsketch" src="img/muppets-show.jpg" width="800"></div>
 
 <h1 class="title">Chatbots for fun</h1><hr class="title">
 
@@ -16,7 +17,7 @@ Since conceived as a collection and due to the nature of these documents, they s
 > 
 > These documents are not necessarily aligned with the human author's opinion in all their parts. However, in general they are. Or said in a different way: they do not contain ideas which the human author refuses to evaluate, but not necessarily accept and/or as-is in particular.
 
-<br/>
++
 
 ### Website
 
@@ -26,14 +27,16 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 * [open discussions forum](https://github.com/robang74/roberto-a-foglietta/discussions) by/with the author.
 
+++++
+
 ### Related
 
 * [Roberto A. Foglietta (blog)](https://robang74.github.io/roberto-a-foglietta) source on [github](https://github.com/robang74/roberto-a-foglietta) &nbsp; (2024-12-14)
 
 * [ChatGPT Answered Prompts](https://robang74.github.io/chatgpt-answered-prompts) source on [github](https://github.com/robang74/chatgpt-answered-prompts) &nbsp; (2024-09-06)
 
-<br/><span id="pages-index"></span>
-
++
+<span id="pages-index"></span>
 ## Index
 
 This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
@@ -80,7 +83,7 @@ This page is presenting the project. However, you might be interested in an easy
 
 These document are written in Italian, English or both languages indifferently. You can use any automatic translation system you like. Among them Google Translate works passing to it just the link of the page. The **raw** link can help translate the page, but at the cost of formatting.
 
-<br/>
+++++++
 
 ## The AI as a nerd companion
 
@@ -124,7 +127,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 * [intro #2](https://www.mseri.me/running-llms-locally-with-ollama) - how to run LLMs locally, part #2
 
-<br/>
++
 
 ## Rationale
 
@@ -184,7 +187,7 @@ Unfortunately, this means that not all the results or the whole result or equiva
 
 Curiously, I have recently discovered that [Pookie Tools](https://techcrunch.com/2024/11/14/hawk-tuah-girl-launches-pookie-tool-an-ai-powered-dating-advice-app-and-its-fine/) AI-based app promoted by [Haliey Welch](https://en.wikipedia.org/wiki/Hawk_tuah) (aka the **Hawk Tuah** girl) might work in the same fashion. Playing the role of a girl's best-friend that suggests how to choose the love mate but without trying to steal *her future husband and father of her kids*. Hence, here we are with a counterpart for nerds!
 
-<br/>
++
 
 ## Download
 
@@ -206,7 +209,7 @@ The advantage of downloading a tagged release is having an archive 'freezed' by 
 
 This allows you to have your own copy that you can read off-line with all the links converted to point to local files, only. It includes also the related projects.
 
-<br/>
++
 
 ## Versioning
 
@@ -216,7 +219,7 @@ One of main goals of `git` and the github web interface is to provide a versioni
 
 As you can see, each commit is carry-on a time stamp also. The green label indicates that also the timestamp is validate by the github infrastructure system which belongs to Microsoft Corporation. In fact, github cannot validate those timestamps that are coming from 3rd party systems like the users workstations but just the receiving time, date and content. However, for most of the cases this is irrelevant.
 
-<br/>
++
 
 ## Translations
 
@@ -230,7 +233,7 @@ As you can see the translated document should contain a reference about the orig
 
 If you wish to send a translation, it is necessary that you know well one of the languages in which this document is available, even better if you know English and can start from the original version, and that you are a native speaker or equivalent in the language in which the translation is being made.
 
-<br/>
++
 
 ## Copyright
 
