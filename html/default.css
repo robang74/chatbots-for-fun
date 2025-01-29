@@ -157,10 +157,25 @@ img {
 }
 
 li {
-    margin-left:  40px;
-    text-indent: -25px;
+  position: relative;
+  padding-left: 20px; /* Adjust as needed */
+  list-style: none; /* Remove the default bullet */
+  margin-left: 0px; /* Explicitly reset any default list margins */
 }
+
+li::before {
+  content: "\2022"; /* Bullet point character */
+  position: absolute;
+  left: 0px;
+}
+
+.li2in::before, .li3in::before, .li4in::before { content: none; }
+.li2in { padding-left: 20px; }
+.li3in { padding-left: 40px; }
+.li4in { padding-left: 60px; }
+
 li.dqt {
+    position: relative;
     text-indent: 0px;
 }
 ul.dqt {
@@ -203,16 +218,6 @@ div.framebox table, div.framebox tr, div.framebox th, div.framebox td {
     border: 0px transparent;
     text-align: center;
     padding: 0px;
-}
-
-.li2in {
-    padding-left: 20px;
-}
-.li3in {
-    padding-left: 40px;
-}
-.li4in {
-    padding-left: 60px;
 }
 
 .alerts { font-family: "Monaco", monospace; font-weight: bold; }
