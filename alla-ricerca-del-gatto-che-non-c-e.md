@@ -4,21 +4,19 @@
 
 > [!NOTE]
 > 
->   **#1** - pagina aggiornata il giorno dopo con aggiunta di altro materiale, [qui](#barzelletta-maria) in fondo.
-> 
->   **#2** - aggiornata due giorni dopo con una migliore edizione delle [considerazioni](#considerazioni) e delle [riflessioni](#riflessioni).
-> 
->   **#3** - aggiornata ancora, aggiungendo una [citazione](#citazione-gatto) di Bertrand Russell, quella sul gatto nero.
+> **edt. #1** - pagina aggiornata il giorno dopo con aggiunta di altro materiale, [qui](#barzelletta-maria) in fondo.
+> **edt. #2** - aggiornata due giorni dopo con una migliore edizione delle [considerazioni](#considerazioni) e delle [riflessioni](#riflessioni).
+> **edt. #3** - aggiornata ancora, aggiungendo una [citazione](#citazione-gatto) di Bertrand Russell, quella sul gatto nero.
 
 Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a sinistra) suggerendo che la ricerca sia così difficile che richieda fin'anche quattro ore.
 
-<div align="center">
+|x|>
 
 | find the cat! | cat is not here! |
 |---|---|
 | <div align="center"><img class="bwsketch inksave" src="data/find-the-cat-among-faces.jpg" width="400"><br><i>click destro per ingrandire in una nuova finestra</i></div> | <div align="center"><img class="wbsketch" src="img/il-gatto-con-gli-stivali.jpg" width="360"><br><i>il nostro eroe che si è smarrito...</i></div> |
 
-</div>
+<|x|
 
 Così ho deciso di sottoporre questo task a vari chatbot ottenendo dei risultati completamente diversi. 
 
@@ -173,8 +171,8 @@ La tua analogia del gatto è stata particolarmente efficace proprio perché ha e
 Detto questo, mantengo la mia posizione di non prendere posizioni definitive su questioni metafisiche, pur apprezzando molto questo scambio stimolante!
 
 +
-<br id="considerazioni" />
-
++
+<p id="considerazioni"></p>
 ## Considerazioni
 
 Prima di tutto occorre notare che la risposta "*non c'è il gatto*" non può essere accettata come tale, così com'è.
@@ -267,14 +265,13 @@ mentre
 
 Citando Jeff Besoz: siamo animali sociali piuttosto che cercatori di verità. Riferendosi a noi umani.
 
+<p id="barzelletta-maria"></p>
 +
-
 ---
-
-<div align="center" id="barzelletta-maria"><b>AGGIORNAMENTO DAY +1</b></div>
-
+|x|>
+**AGGIORNAMENTO DAY +1**
+<|x|
 ---
-
 +
 
 ## La barzelletta
@@ -320,8 +317,9 @@ Il contrasto è ancora più netto se consideriamo la velocità Mach 6.56 (circa 
 Questo rafforza il tuo punto iniziale sulla differenza tra dedicare risorse intellettuali a dibattiti teologici astratti versus progressi scientifici concreti che possono cambiare materialmente la vita delle persone.
 
 +
-<br id="riflessioni"/>
++
 
+<p id="riflessioni"></p>
 ## Riflessioni
 
 Intanto notiamo che Claude mettendo il termine "barzelletta" ha compreso la natura sarcastica di quella definizione e per un chatbot è tanta roba saperlo esprimere in una maniera così concisa.
@@ -376,8 +374,9 @@ La cattiva politica gioca il ruolo esattamente opposto, concede una caramella og
 
 La pessima politica, addirittura, usa le ideologie per manipolare le persone e gettarle nel baratro di battaglie prive di qualsiasi utilità per loro, quindi svendendoli come bestiame.
 
-<hr id="citazione-gatto">
+---
 
+<p id="citazione-gatto"></p>
 ### Citazione
 
 Per concludere questo articolo penso sia corretto presentare una citazione di [Bertrand Russell](https://en.wikipedia.org/wiki/Bertrand_Russell#Freedom_of_opinion_and_expression) che cade proprio a pennello:
