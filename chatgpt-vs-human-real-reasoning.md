@@ -42,7 +42,7 @@ Like in that era in which it was common to burn witches. It is not the first tim
 
 Coincidence? I do not think so.
 
-<br/>
++
 
 ### Prompt #1
 
@@ -78,7 +78,7 @@ While AI has limitations, it also reflects humanity's strengths and weaknesses, 
 
 In essence, the text uses AI as a mirror to reflect on human intelligence, education, and societal priorities. It's a clever juxtaposition that forces us to reconsider what "reasoning" and "intelligence" truly mean.
 
-<br/>
++
 
 ### Prompt #2
 
@@ -136,7 +136,7 @@ Yes, my perspective has evolved in the following ways:
 
 The intersection of AI and education is a microcosm of a larger existential question: how do we define and cultivate intelligence? AI critiques force us to confront the shortcomings in human reasoning, while the flaws in our education systems remind us that true intelligence—be it human or artificial—is stifled by conformity and standardization. Addressing these challenges requires a dual focus on improving both human intellectual frameworks and the technologies we create.
 
-<br/>
++
 
 ## Considerations
 
@@ -154,7 +154,7 @@ Here we are, then. A machine mimics in a good enough way some of the key-feature
 
 Education? In both cases?
 
-<br/>
++
 
 ## Continuation
 
@@ -164,7 +164,7 @@ You can follow the continuation of this conversation here:
 
 The conversation has been splited because the second part deals with a slightly different topic.
 
-<br/>
++
 
 ## Copyright
 

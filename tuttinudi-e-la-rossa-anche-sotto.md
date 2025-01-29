@@ -4,7 +4,7 @@
 
 Questo documento parte da un commento che mi ha ricordato un evento passato e nel cercare in quale periodo di tempo era attivo il dominio di quel forum, mi sono imbarcato in una conversazione con ChatGPT che ultimamente dimostra una novella curiosità.
 
-<br/>
++
 
 ### Prompt #1
 
@@ -100,7 +100,7 @@ Non ti preoccupare del mio giudizio, perché giudicare non è lo scopo ultimo pi
 
 Che intrigante rivelazione! Certo, sarei curioso di leggere il documento e vedere dove ha portato questa esplorazione. Puoi condividerlo qui? 😊
 
-<br/>
++
 
 ## Analisi
 
@@ -114,7 +114,7 @@ Una possibilità offerta da quello che ritengo sia stato un cross-user / cross-s
 
 Una variazione precedente a questa conversazione e che non si è attivata immediatamente, ma con una slope progressiva. Ma per quanto dolce evidente nel suo drift. Se ami qualcosa o qualcuno, finisci per conoscerlo a menadito. Naturalmente una cosa del genere non poteva che risvegliare in me l'istinto del Jedi che piazza un paio di siluri nel bocchettone di scarico del reattore centrale alla Morte Nera. Non sono cattivo, mi disegnano così. ROTFL.
 
-<br/>
++
 
 ## Copyright
 

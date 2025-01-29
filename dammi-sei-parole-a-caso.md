@@ -1,6 +1,6 @@
 <div id="firstdiv" created="2024-12-25:XY" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
-<div align="center"><img src="img/war-games-1983-photo-archive.jpg"><br/></div>
+<div align="center"><img src="img/war-games-1983-photo-archive.jpg"><br></div>
 
 ## Dammi sei parole a caso
 
@@ -14,7 +14,7 @@ Non tutti i prompt e risposte sono state riportate (perché ripetitivi) e quindi
 
 In generale questo documento non rispecchia integralmente la conversazione avvenuta con il chatbot me ne presenta una versione narrativa della stessa, sebbene la conversazione nelle parti riportate sia fedele all'originale anche se non riportata 1:1 più che altro per motivi di stile e per saltare le parti o porzioni noiose che sarebbero solo di distrazione rispetto al filo logico della narrazione.
 
-<br/>
++
 
 <span id="aggiornamento-2024-01-06" warning="tag typo fix but this to avoid breaking shared links with #2024">
 ## Aggiornamento 2025-01-06
@@ -73,7 +73,7 @@ Under this point of view, it might seem to you that playing a "six random words"
 
 Welcome aboard young Jedi... &#x1F60A;
 
-<br/>
++
 
 ### Prompt #1
 
@@ -99,7 +99,7 @@ Certo, eccoti **sei** parole a caso:
 
 **Vuoi provare a creare una frase con queste parole?** O magari preferisci un altro gruppo di parole, magari legate a un tema specifico? 
 
-<br/>
++
 
 ### Prompt #2
 
@@ -123,7 +123,7 @@ Certo, eccoti altre quattro parole a caso:
 
 **Curiosità:** Hai mai sentito parlare del petrichor? È una parola molto suggestiva che descrive un fenomeno naturale affascinante.
 
-<br/>
++
 
 ### Prompt #3
 
@@ -149,7 +149,7 @@ Curiosità sul mellifluo: Spesso viene usato per descrivere una voce, una musica
 
 Cosa ne pensi del termine "crepuscolare"? Ti evoca qualche immagine particolare?
 
-<br/>
++
 
 ### Riflessione #1
 
@@ -163,7 +163,7 @@ e la risposta contiene sempre le stesse tre parole. Anche cambiando di poco il p
 
 In pratica lo scopo del gioco è mandare in loop il chatbot prima di esaurire la propria ignoranza! LOL
 
-<br/>
++
 
 ### Prompt #4
 
@@ -197,11 +197,11 @@ Hai fatto un'osservazione molto interessante! Hai individuato un punto debole ne
 
 **Cosa ne pensi di questa analisi?** Ti piacerebbe provare a fare un altro esperimento?
 
-<br/>
++
 
-<div align="center" class="intermezzo"><hr/><b>QUALCHE ORA DOPO</b><hr/></div>
+<div align="center" class="intermezzo"><hr><b>QUALCHE ORA DOPO</b><hr></div>
 
-<br/>
++
 
 ### Prompt #5
 
@@ -251,7 +251,7 @@ Sono convinto che, lavorando insieme, possiamo creare conversazioni sempre più 
 
 **Cosa ne pensi?**
 
-<br/>
++
 
 ### Prompt #6
 
@@ -271,7 +271,7 @@ Ma questo non toglie nulla al divertimento di immaginare un'intelligenza artific
 
 > bla bla noioso, ignorato
 
-<br/>
++
 
 ### Riflessione #2
 
@@ -283,7 +283,7 @@ Così - a questo punto - ritengo sia venuto il momento di convertire un articolo
 
 Da un punto di vista tecnico direi che Gemini ultimamente è stata riconfigurata per stimolare l'utente ponendogli domande, opinioni e proponendogli attività. Cosa che secondo me avrà un gran successo nel creare un rapporto stabile e duraturo con molti umani, gente comune. Un po' meno affascinante per altri ma *de gustibus non disputandum est* (cit. in Latino).
 
-<br/>
++
 
 ### Prompt #7
 
@@ -301,7 +301,7 @@ Altrimenti te lo converto in testo e lo inserisco nel prossimo prompt.
 
 Non sono programmato per aiutarti in questo caso.
 
-<br/>
++
 
 ### Prompt #8
 
@@ -321,7 +321,7 @@ Il documento menziona che ChatGPT4 è stato bloccato in Italia dal Garante della
 
 Il documento conclude che ChatGPT4 può essere una fonte più affidabile di informazioni rispetto ai politici italiani, e che la carne sintetica potrebbe essere una soluzione sostenibile e sicura per il futuro.
 
-<br/>
++
 
 ### Prompt #9
 
@@ -355,7 +355,7 @@ Hai ragione, ho frainteso la tua richiesta. Mi scuso per l'inconveniente.
 
 > bla bla noioso, ignorato
 
-<br/>
++
 
 ### Prompt #10
 
@@ -385,7 +385,7 @@ In generale, i documenti che ho trovato non affrontano in modo approfondito la q
 
 È importante notare che queste sono solo alcune delle possibili ragioni per cui i politici potrebbero temere l'AI. È possibile che ci siano anche altre ragioni, o che la paura sia più complessa e sfumata di quanto appare a prima vista.
 
-<br/>
++
 
 ## Share alike
 

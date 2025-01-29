@@ -1,6 +1,6 @@
 <div id="firstdiv" created="2025-01-13:EN:+1" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
-<div align="center"><img class="wbsketch paleinv" src="img/ai-capricciose-come-minions.png"><br/></div>
+<div align="center"><img class="wbsketch paleinv" src="img/ai-capricciose-come-minions.png"><br></div>
 
 ## AI system prompting to leverage RAG
 
@@ -148,7 +148,7 @@ Which can easily be our documents, whatever they are a priviledged source of con
 
 > Use RAG and label that knowledge as [RK] (retrieved) or [PK] (parametric). Prioritize [RK] when relevant or more specific. Use [RK] for facts, [PK] for interpretation. Highlight contradictions between [RK] sources. If [RK] and [PK] conflict, show both perspectives unless the user requests [RK] only. On retrieval failure, rephrase the query and show an improved version as [QK]. State explicitly if no relevant [RK] exists, never speculate.
 
-<br/>
++
 
 ## Practical suggestions
 
@@ -196,13 +196,13 @@ for disabling every kind of swap, including those compressed in RAM, until enabl
 
 The second in particular fully grants that memory will not be messing-up with any swap activities that can have been previously stored on disk, in any case.
 
-<br/>
++
 
 ## Conclusions
 
 Definetely too early to jump at any conclusion. The topic is as wide as the far-west before being the far-west and here we are like Christopher Columbus' sailors who had just set foot in the new world and were still unaware that it was not India but a totally new and unexplored continent.
 
-<br/>
++
 
 ## Related articles
 
@@ -214,7 +214,7 @@ Definetely too early to jump at any conclusion. The topic is as wide as the far-
 
 * [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank) (2024-12-25)
 
-<br/>
++
 
 ## Copyright
 

@@ -1,6 +1,6 @@
 <div id="firstdiv" created="2025-01-21:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
-<div align="center"><img class="wbsketch inksave" src="img/peer-review.png"><br/></div>
+<div align="center"><img class="wbsketch inksave" src="img/peer-review.png"><br></div>
 
 ## The peer-review session prompt
 
@@ -80,7 +80,7 @@ If your focus is primarily on presenting the prompt itself, your original title 
 
 <hr class="post-it">
 
-<br/>
++
 
 ## Developing a peer-review prompt
 
@@ -260,7 +260,7 @@ Use the following rating scale as a reference to assess the validity of claims:
 
 After providing the claims, assumptions, and constraints, conduct a coherence check to identify conceptual issues. Pause after completing these steps and await further input from the human operator.
 
-<br/>
++
 
 ## Interesting critics
 
@@ -322,7 +322,7 @@ I should have been clearer that I wasn't suggesting the scale was problematicall
 
 Would you like me to revise my earlier analysis with these corrections in mind?
 
-<br/>
++
 
 ## The peer-review prompt with RAG support
 
@@ -434,7 +434,7 @@ Thank you for the clarifications and thoughtful insights! Here’s a more refine
 
 Your unorthodox tone and style are strengths for this particular audience and purpose. While the clickbait-like use of terms such as "depravity" might not fly in academic publications, it works to provoke thought and spark discussion among peers. The subjective, instinct-driven critique resonates as a call for reflection rather than a purely analytical piece.
 
-<br/>
++
 
 ## Related articles
 
@@ -450,7 +450,7 @@ Your unorthodox tone and style are strengths for this particular audience and pu
 
 * [Il delirio dei regolatori delle AI](https://robang74.github.io/roberto-a-foglietta/html/297-il-delirio-dei-regolatori-delle-ai.html) &nbsp; (2024-12-21)
 
-<br/>
++
 
 ## Copyright
 

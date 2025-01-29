@@ -12,7 +12,7 @@ I documenti che riportano dialoghi con chatbot sono un genere emergentee  posson
 
 Infatti, una best-practice per il prompting è riportare in quello successivo i punti critici della risposta precedente per discuterli ulteriormente.
 
-<br/>
++
 
 ### Introduzione
 
@@ -100,7 +100,7 @@ Il concetto di **"letteratura emergente"** è ben argomentato e colloca il forma
 
 L'integrazione della **peer-review con IA** apre infine uno spunto interessante su come questi strumenti possano essere utilizzati anche per il miglioramento della comunicazione e della riflessione personale.
 
-<br/>
++
 
 ## Copyright
 

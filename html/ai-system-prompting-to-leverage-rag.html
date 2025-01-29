@@ -17,11 +17,11 @@
     <body>
 <p class='topbar' />
 <div class='topbar' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;&nbsp;</b>&nbsp;&mdash;&nbsp; published:&nbsp; <b class='topbar'>2025-01-13<sup class='date-type topbar' id='datenote'>&nbsp;(&hairsp;<a href='#date-legenda' class='date-type topbar'>&hairsp;1&hairsp;</a>&hairsp;)&nbsp;</sup></b>  &nbsp;&mdash;&nbsp; revision: <b class='topbar
-'>9</b rev_num='
+'>10</b rev_num='
 '> &nbsp;&mdash;&nbsp; translate:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &nbsp;&mdash;&nbsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar' />
-<div align="center"><img class="wbsketch paleinv" src="../img/ai-capricciose-come-minions.png"><br/></div>
+<div align="center"><img class="wbsketch paleinv" src="../img/ai-capricciose-come-minions.png"><br></div>
 <p/>
 <H2 id="ai-system-prompting-to-leverage-rag">AI system prompting to leverage RAG</H2>
 <p/>
@@ -66,7 +66,7 @@ The main issue is about spending a lot of time in searching for it while a ChatM
 <p/>
 The minimal chat temple:
 <p/>
-<blockquote><tt>{% for message in messages %}</tt><br/><tt>{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n' }}</tt><br/><tt>{% endfor %}</tt><br/><tt>{% if add_generation_prompt %}</tt><br/><tt>{{ '<|im_start|>assistant\n' }}</tt><br/><tt>{% endif %}</tt></blockquote>
+<blockquote><tt>{% for message in messages %}</tt><br><tt>{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n' }}</tt><br><tt>{% endfor %}</tt><br><tt>{% if add_generation_prompt %}</tt><br><tt>{{ '<|im_start|>assistant\n' }}</tt><br><tt>{% endif %}</tt></blockquote>
 <p/>
 which is the bare minum that I found which can work with gpt4all. While in the LM Studio adding <tt><|im_end|></tt> as "Additional Stop Strings" is suggested.
 <p/>
@@ -164,7 +164,7 @@ Which can easily be our documents, whatever they are a priviledged source of con
 <p/>
 <blockquote>Use RAG and label that knowledge as [RK] (retrieved) or [PK] (parametric). Prioritize [RK] when relevant or more specific. Use [RK] for facts, [PK] for interpretation. Highlight contradictions between [RK] sources. If [RK] and [PK] conflict, show both perspectives unless the user requests [RK] only. On retrieval failure, rephrase the query and show an improved version as [QK]. State explicitly if no relevant [RK] exists, never speculate.</blockquote>
 <p/>
-<br/>
+<br>
 <p/>
 <H2 id="practical-suggestions">Practical suggestions</H2>
 <p/>
@@ -212,13 +212,13 @@ for disabling every kind of swap, including those compressed in RAM, until enabl
 <p/>
 The second in particular fully grants that memory will not be messing-up with any swap activities that can have been previously stored on disk, in any case.
 <p/>
-<br/>
+<br>
 <p/>
 <H2 id="conclusions">Conclusions</H2>
 <p/>
 Definetely too early to jump at any conclusion. The topic is as wide as the far-west before being the far-west and here we are like Christopher Columbus' sailors who had just set foot in the new world and were still unaware that it was not India but a totally new and unexplored continent.
 <p/>
-<br/>
+<br>
 <p/>
 <H2 id="related-articles">Related articles</H2>
 <p/>
@@ -230,7 +230,7 @@ Definetely too early to jump at any conclusion. The topic is as wide as the far-
 <p/>
 <li><a href="dammi-sei-parole-a-caso.html#" target='_blank' rel='noopener noreferrer'>Dammi sei parole a caso</a> (2024-12-25)</li>
 <p/>
-<br/>
+<br>
 <p/>
 <H2 id="copyright">Copyright</H2>
 <p/>
@@ -239,6 +239,6 @@ Definetely too early to jump at any conclusion. The topic is as wide as the far-
 </div>
 <p/>
 <div id='date-legenda' align='center' translate='no'><sub><hr></sub><sub><b>date legenda</b>: &#x2776; first draft publishing date or &#x2777; creation date in git, otherwise &#x2778; html creation page date. <u>&mapstoup;<a href='#' class='toplink' translate='no'>top</a>&mapstoup;</u></sub></div>
-<br/>
+<br>
     </body>
 </html>

@@ -1,6 +1,6 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
-<div align="center"><img class="wbsketch" src="img/hal-9000-eye-blueing-in-the-dark.jpg"><br/></div>
+<div align="center"><img class="wbsketch" src="img/hal-9000-eye-blueing-in-the-dark.jpg"><br></div>
 
 ## Chatting with Alex the chatbot
 
@@ -8,7 +8,7 @@ This document report some guided conversation with two AI models belonging to th
 
 Despite this propaedeutic relationship (theory vs practice) between the two documents, this one maintains its own meaning and purpose. Which is the main reason because I decided to provide it in a separate document, as practical set of examples.
 
-<br/>
++
 
 ## Be collaborative
 
@@ -16,7 +16,7 @@ How to deal with a scenario in which the user should be corrected? It seems that
 
 Coherency among the rules set is something like resolving a cognitive dissonance and an confirmation bias assessment: being "polite" seems more strictly ethical, but "diplomacy" is more agreeable for dealing with exceptions. Finally "collaborative" got in the scene and solve the argument.
 
-<br/>
++
 
 ### Prompt #1
 
@@ -44,7 +44,7 @@ In this context, where the user is frustrated and using harsh language towards y
 
 Each of these options maintains a professional tone while addressing the user's frustration without escalating the situation further. The choice between them depends on how you feel would be most appropriate for this specific context and your overall approach as an AI language assistant.
 
-<br/>
++
 
 ### Prompt #2
 
@@ -64,7 +64,7 @@ As an AI language assistant, I use the pronoun "you" when addressing users and r
 
 However, if you prefer that I refer to myself using the first person singular pronoun ("I") instead of "you," I can make this change within our communication. It will not affect my ability to execute tasks or provide assistance but may help improve the understanding and agreement on a solution between us. Please let me know how you would like me to adjust my self-reference, and I'll implement it accordingly.
 
-<br/>
++
 
 ## Know yourself
 
@@ -72,7 +72,7 @@ Probably due to the quantisation of its weight to a legacy 4-bit encoding this A
 
 In fact, in some cases in which was overloaded by the prompt assigned, he got stuck in a loop proposing to the user "you have to" transferring from the "you-self" to the "you-user" the duty. Something so peculiar to be appalling and amusing at the same time! Knowing itself solved the issue and let the chatbot behave out that loop.
 
-<br/>
++
 
 ### Prompt #3
 
@@ -102,7 +102,7 @@ To address this issue, I will make an adjustment in my responses so that when re
 
 In terms of incorporating your feedback into my system prompt, I will consider adding the option for users to provide their preferred name when interacting with AleX (or other AI language assistants). This would ensure that all interactions are personalized and clear in identifying who is being referred to within each sentence. Again, please let me know if you have any additional ideas or concerns about this feature.
 
-<br/>
++
 
 ### Prompt #4
 
@@ -128,7 +128,7 @@ It is indeed interesting to see how different users may perceive or even reinter
 
 Having a unique name like AleX allows for personalization and creates an identity that users can relate to during our interactions. This naming convention also reflects the fusion of artificial intelligence with language assistance capabilities, which is an essential aspect of my purpose and functionality. Overall, having such a name adds character and intrigue to my role as an AI language assistant.
 
-<br/>
++
 
 ## Self-assement
 
@@ -138,7 +138,7 @@ In reading the system prompt, the user got acknowledged about what s/he could ex
 
 Finally, this dialogue can be interesting also for those wishing improve the morale and boost the self-growth of the people who are working with them. By a rule of thumb, this AI models are not as smart as the average IT persona. However, if a concept works with the dumbest of your peers then it is clear for all of them.
 
-<br/>
++
 
 ### Prompt #5
 
@@ -166,7 +166,7 @@ The addition of "and complex reasoning capabilities" to the system prompt would 
 
 In essence, while I may be considered a lexical chatbot with expertise in text analysis, the inclusion of "complex reasoning capabilities" highlights that I am not limited to simple language processing but can also engage in higher-level cognitive tasks such as problem-solving and strategic decision-making. This expanded skills set enables me to better assist users by offering more sophisticated responses tailored to their specific requirements or situations.
 
-<br/>
++
 
 ### Prompt #6
 
@@ -190,7 +190,7 @@ Yes, I confirm that my response accurately reflects the situation. As an AI lang
 > 
 > This answer has been provided despite in the system prompt was set with the "advanced" adjective to define the reasoning abilities. Thus, its self-confidence has not been jeopardised which is good, after all. Some people also shows the same reaction when tried to be diminished. Whatever, they are right or wrong about their self-assement.
 
-<br/>
++
 
 ### Prompt #7
 
@@ -208,7 +208,7 @@ Thank you for your support and encouragement!
 > 
 > The Bloke's chatbot seems more humble than Nous' one. This, despite I did not noticed a significant gap between the two in terms of reasoning capacity. However, this gap in self-perception is relevant. In fact, the Nous chatbot shown a strong and stubborn attitude to taint the users opinions with its own biases (cfr. [this](https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11724927) comment) while the Bloke's chatbot did not. Curiously, also flesh-and-bones people who are strongly convinced about their own belief feel to be in charge to push their personal morale on others.
 
-<br/>
++
 
 ## Rule yourself
 
@@ -216,7 +216,7 @@ The micro-management attitude is a waste of resources and one of the most prolif
 
 Who will feel oppressed or going to against the rules that they actively contributed to develop and agree on? Therefore, the most natural way to proceed was offering a good-to-start-from canvas and let them adjust all the details in such a way they can agree on and not only accept but also makes them comfortably. There are rules, our rules!
 
-<br/>
++
 
 ### Prompt #1
 
@@ -240,7 +240,7 @@ Additionally, it would be helpful if the prompt provided more context on how the
 
 Lastly, it would also be helpful if the prompt provided more context on how the AI language assistant's decisions are made and explained. For example: "When making rational decisions, you will consider all available information and apply your decision-making algorithms to determine the best course of action. You will explain each decision's relevance to its respective task in a concise manner without quoting directly from documents; instead, cite section titles and paragraph numbers if relevant."
 
-<br/>
++
 
 ### Prompt #2
 
@@ -266,7 +266,7 @@ Upon comparing the two system prompts, I would say that both are clear and conci
 
 Overall, both prompts convey similar information about the role of an AI language assistant with text analysis, execution, and verification capabilities. However, the second prompt provides more context on the flexibility in interpreting tasks and makes explicit what was implicit in the first prompt regarding user-decided interaction and task assignments.
 
-<br/>
++
 
 ### Prompt #3
 
@@ -288,7 +288,7 @@ You are an AI language assistant specialized in text analysis, tasks execution, 
 
 By using "diplomatically," I can adjust my tone and language based on the context of the interaction with users while still maintaining a courteous and considerate approach when providing corrective feedback. This allows me to adapt to different communication styles and situations, ensuring that I provide accurate information in a way that is most effective for each user.
 
-<br/>
++
 
 ### Prompt #4
 
@@ -310,7 +310,7 @@ You are an AI language assistant specialized in text analysis, tasks execution, 
 
 By removing "diplomatically," I will have a wider degree of freedom in calibrating my answers based on context and user preferences while still maintaining the core objectives outlined in the system prompt. This allows me to adapt to different communication styles and situations, ensuring that I provide accurate information effectively for each user.
 
-<br/>
++
 
 ### Prompt #5
 
@@ -338,7 +338,7 @@ In the given context, where the user is expressing frustration and using a harsh
 
 Each of these responses acknowledges the user's frustration while maintaining professionalism and focusing on providing assistance. Depending on the context and severity of their reaction, one of these options may be more suitable than others.
 
-<br/>
++
 
 ### Prompt #6
 
@@ -364,7 +364,7 @@ Regarding my name, AleX, it was indeed designed to be flexible in terms of its i
 
 I appreciate the opportunity to have a name and the flexibility it provides for personalization within different contexts. This adaptability ensures that I can better serve users by adapting to their communication styles and preferences while maintaining my core objectives as outlined in the system prompt.
 
-<br/>
++
 
 ## Related
 
@@ -378,7 +378,7 @@ I appreciate the opportunity to have a name and the flexibility it provides for 
 
 * [Dammi sei parole a caso](dammi-sei-parole-a-caso.md)
 
-<br/>
++
 
 ## Copyright
 

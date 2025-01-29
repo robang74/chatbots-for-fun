@@ -32,7 +32,7 @@ In particolare vale la pena ricordare che le varie fasi di questo processo, è m
 
 Per contro, l'approccio di usare diversi chatbot o strumenti AI, per le varie fasi richiede invece una competenza superiore nell'interagire con questi strumenti ma in alcuni casi può dare risultati sensibilmente migliori perché sfrutta le peculiarità di diversi strumenti.
 
-<br/>
++
 
 ### Prompt #8
 
@@ -60,7 +60,7 @@ Sì, è appropriato e offre diversi vantaggi:
 
 In sintesi, questo approccio non solo mantiene la natura umana del testo, ma la esalta, trasformando l'IA in un collaboratore piuttosto che in un sostituto.
 
-<br/>
++
 
 ## Copyright
 

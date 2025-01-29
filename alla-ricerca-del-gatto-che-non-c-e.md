@@ -16,7 +16,7 @@ Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a
 
 | find the cat! | cat is not here! |
 |---|---|
-| <div align="center"><img class="bwsketch inksave" src="data/find-the-cat-among-faces.jpg" width="400"><br/><i>click destro per ingrandire in una nuova finestra</i></div> | <div align="center"><img class="wbsketch" src="img/il-gatto-con-gli-stivali.jpg" width="360"><br/><i>il nostro eroe che si è smarrito...</i></div> |
+| <div align="center"><img class="bwsketch inksave" src="data/find-the-cat-among-faces.jpg" width="400"><br><i>click destro per ingrandire in una nuova finestra</i></div> | <div align="center"><img class="wbsketch" src="img/il-gatto-con-gli-stivali.jpg" width="360"><br><i>il nostro eroe che si è smarrito...</i></div> |
 
 </div>
 
@@ -32,7 +32,7 @@ Così ho deciso di sottoporre questo task a vari chatbot ottenendo dei risultati
 
 Uno solo c'è riuscito e allora mi sono baloccato un po' con quello. Qui sotto l'intera conversazione.
 
-<br/>
++
 
 ### Prompt #1
 
@@ -46,7 +46,7 @@ Immagina che su questa immagine ci sia una griglia che in orizzontale va da A a 
 
 Mi dispiace, ma dopo aver esaminato attentamente l'immagine, non vedo alcun gatto nel disegno. L'immagine mostra un pattern ripetitivo di volti umani disegnati che rappresentano diverse etnie, età e stili (persone con occhiali, hijab, barbe, diversi tagli di capelli, etc.), ma non riesco a individuare un gatto tra questi disegni. Se vuoi che cerchi qualcos'altro di specifico usando il sistema di coordinate che hai suggerito (A-J orizzontalmente e 0-9 verticalmente), sarò felice di aiutarti.
 
-<br/>
++
 
 ### Prompt #2
 
@@ -65,7 +65,7 @@ Se applico la griglia che hai suggerito (A-J in orizzontale e 0-9 in verticale),
 
 Con queste informazioni, potrei darti le coordinate precise di dove appare questo volto particolare nel pattern.
 
-<br/>
++
 
 ### Prompt #3
 
@@ -86,7 +86,7 @@ Considerando una griglia 10x10 che copre l'intera immagine (dove ogni cella cont
 
 Il pattern si ripete verticalmente, quindi lo stesso volto appare due volte a circa la stessa posizione orizzontale ma a diverse altezze nella griglia.
 
-<br/>
++
 
 ### Prompt #4
 
@@ -100,7 +100,7 @@ Sì, chiedere di cercare un gatto in questa immagine può essere considerato un 
 
 È uno scherzo relativamente innocuo che può essere divertente, specialmente perché l'immagine è complessa e piena di dettagli, il che rende plausibile l'idea che ci possa essere un gatto nascosto da qualche parte. La natura ripetitiva del pattern e la quantità di dettagli potrebbe far passare diverso tempo a qualcuno prima di convincersi che non c'è effettivamente nessun gatto nell'immagine.
 
-<br/>
++
 
 ### Prompt #5
 
@@ -126,7 +126,7 @@ Nel caso della ricerca di dio nel proprio cuore, entriamo in un ambito completam
 
 Quindi mentre cercare un gatto inesistente è uno scherzo temporaneo senza conseguenze, suggerire una ricerca spirituale tocca dimensioni molto più profonde dell'esperienza umana, che possono avere impatti reali e duraturi sulla vita delle persone - nel bene o nel male a seconda delle prospettive individuali.
 
-<br/>
++
 
 ### Prompt #6
 
@@ -154,7 +154,7 @@ Quindi hai ragione: la mia distinzione tra i due casi non gioca a favore della "
 
 La tua domanda mi ha fatto riconsiderare la mia posizione iniziale e vedere come il mio tentativo di differenziare i due casi abbia in realtà evidenziato aspetti potenzialmente più problematici nella richiesta spirituale rispetto allo scherzo del gatto.
 
-<br/>
++
 
 ### Prompt #7
 
@@ -172,7 +172,7 @@ La tua analogia del gatto è stata particolarmente efficace proprio perché ha e
 
 Detto questo, mantengo la mia posizione di non prendere posizioni definitive su questioni metafisiche, pur apprezzando molto questo scambio stimolante!
 
-<br/>
++
 <br id="considerazioni" />
 
 ## Considerazioni
@@ -229,7 +229,7 @@ Infine vale la pena notare che nel dare i prompt cerco di essere abbastanza prec
 
 Primo perché dovrei fare molta più lavoro nello scriverli, secondo perché sarebbero più lunghi e quindi potenzialmente, nonostante le mie intenzioni, meno chiari da comprendere o eseguire, e *last but not least* perché nel delegare un compito è sempre bene lasciare qualche margine di arbitraria interpretazione (*dii no al micro-management anche tu*) perché talvolta il risultato potrebbe stupirci in positivo e in generale aiuta a sviluppare l'indipendenza del collaboratore oppure a farne selezione, anche.
 
-<br/>
++
 
 ## Claude cosa ne pensa?
 
@@ -267,7 +267,7 @@ mentre
 
 Citando Jeff Besoz: siamo animali sociali piuttosto che cercatori di verità. Riferendosi a noi umani.
 
-<br/>
++
 
 ---
 
@@ -275,7 +275,7 @@ Citando Jeff Besoz: siamo animali sociali piuttosto che cercatori di verità. Ri
 
 ---
 
-<br/>
++
 
 ## La barzelletta
 
@@ -283,7 +283,7 @@ Consumato la mia quota di calcolo giornaliero su Claude, sono tornato il giorno 
 
 Fin qua nulla di sorprendente, ho solo esteso la lista degli [argomenti regolati](https://robang74.github.io/roberto-a-foglietta/html/297-il-delirio-dei-regolatori-delle-ai.html). Poi, ogni strumento AI ha le sue peculiarità come è anche giusto che sia in un ambito di diversificazione sia del mercato, sia dei compiti e anche sotto il putno di vista di una distribuzione più razionale dei carichi di lavoro. Curiosamente, oggi, Claude funziona in modalità "risposta sintetica" perché sta affrontando un picco di traffico.
 
-<br/>
++
 
 ### Prompt #9
 
@@ -297,7 +297,7 @@ La tua "barzelletta" è in realtà una critica tagliente che evidenzia come il f
 
 (Per correttezza: mentre i progressi metallurgici cinesi sono ben documentati storicamente, il riferimento agli aerei Mach 6 andrebbe verificato, dato il mio limite temporale di conoscenza ad aprile 2024).
 
-<br/>
++
 
 ### Prompt #10
 
@@ -319,7 +319,7 @@ Il contrasto è ancora più netto se consideriamo la velocità Mach 6.56 (circa 
 
 Questo rafforza il tuo punto iniziale sulla differenza tra dedicare risorse intellettuali a dibattiti teologici astratti versus progressi scientifici concreti che possono cambiare materialmente la vita delle persone.
 
-<br/>
++
 <br id="riflessioni"/>
 
 ## Riflessioni
@@ -392,7 +392,7 @@ Insomma, il classico tipo che la sapeva lunga e per questo ha osato mettere in d
 
 Però qui lo ricordiamo per il suo senso dell'ironia, al limite del sarcasmo, racchiuso nella citazione del gatto che non c'è. Per onorare la sua sagacia, il gatto l'ho messo a lato, pure arancione e pirata!
 
-<br/>
++
 
 ## Copyright
 

@@ -1,7 +1,7 @@
 <div id="firstdiv" created="2025-01-25:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>@page { size: legal; }; @media print { html { zoom: 100%; }; };</style>
 
-<div align="center"><img class="bwsketch" src="img/dual-psu-fujutsu-esprimo-p910.jpg" width="800"><br/></div>
+<div align="center"><img class="bwsketch" src="img/dual-psu-fujutsu-esprimo-p910.jpg" width="800"><br></div>
 
 ## Dual PSU for Fujitsu Esprimo P910
 
@@ -53,7 +53,7 @@ To solve these two issues at once, I have decided to use an adaptor, specificall
 
 To be precise, I have found three kinds of these adaptors plus their different versions.
 
-<div align="center"><img class="wbsketch inksave" src="img/dual-psu-sync-boards.jpg" width="800"><br/></div>
+<div align="center"><img class="wbsketch inksave" src="img/dual-psu-sync-boards.jpg" width="800"><br></div>
 
 Two seem very similar and are equally cheap, one has an on/off switch for disabling the secondary PSU when it is not in use. While the third offers more options and features. 
 
@@ -81,13 +81,13 @@ Soon, I will check for a 90° 3-poles PC plug in order to avoid any stress to th
 
 The first problem in installing the Nvidia Tesla K80 into a Fujitsu Esprimo P910 is related to the high of the USB 3.0 male connector which prevents the GPU card to be installed into the only PCI express 3.0 x16 because the one near the CPU is mechanically a x16 long but it is a PCIe 2.0 x4.
 
-<div align="center"><img class="wbsketch inksave" src="img/esprimo-p910-vs-tesla-k80.jpg" width="800"><br/><sub>right click menu to enlarge the image in a new tab</sub></div>
+<div align="center"><img class="wbsketch inksave" src="img/esprimo-p910-vs-tesla-k80.jpg" width="800"><br><sub>right click menu to enlarge the image in a new tab</sub></div>
 
 Fortunately, I have found an adapter that turns the USB 3.0 20-pins connector by 90° within 15mm above the motherboard surface which is the altitude of the cooler fan 12 cm connector which did not prevent the Tesla K80 to be temporarily installed into the first PCIe slot. Wrong, but an useful try,
 
 While, in this image the interior of a Fujitsu Esprimo P910 E85+ is shown with the troubling areas highlighted in different colors.
 
-<div align="center"><img class="wbsketch inksave" src="img/esprimo-p910-cabling-howto.jpg" width="800"><br/><sub>right click menu to enlarge the image in a new tab</sub></div>
+<div align="center"><img class="wbsketch inksave" src="img/esprimo-p910-cabling-howto.jpg" width="800"><br><sub>right click menu to enlarge the image in a new tab</sub></div>
 
 ++++
 
@@ -123,7 +123,7 @@ Moreover, because the extra PSU is at the same level of the original PSU, both P
 
 For this reason, I am evaluating moving the main cooling 12cm fan toward the center of the case, and closing the splitter, redirecting the bottom half of the air flow into the Tesla K80. While the top bottom of the air flow will remain available for cooling the CPU and better support the PSUs venting systems, each one by its own internal fan.
 
-<div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-cooling-preview.jpg" width="800"><br/><sub>right click menu to enlarge the image in a new tab</sub></div>
+<div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-cooling-preview.jpg" width="800"><br><sub>right click menu to enlarge the image in a new tab</sub></div>
 
 This image shows two renderings about how the final Tesla K80 installation would look and how it is expected the internal cooling system will manage the airflow.
 
@@ -133,11 +133,11 @@ This image shows two renderings about how the final Tesla K80 installation would
 
 In order to replace the cooling fan, I decided to use four skewer woodsticks to find the suitable holes to use to fix the fan.
 
-<div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-fan-new-position-p1.jpg"><br/></div>
+<div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-fan-new-position-p1.jpg"><br></div>
 
 The best position that I found matches three holes almost perfectly and the fourth not precisely enough. I think that with a proper set of rubber spacers all the four holes are suitable for fixing the fan with screws.
 
-<div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-fan-new-position-p2.jpg"><br/></div>
+<div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-fan-new-position-p2.jpg"><br></div>
 
 The yellow square is the original fixing place, while the blue is the original but translated and rotated accordingly with the holes found and the purple is the actual positioning.
 
@@ -145,7 +145,7 @@ As you can see the difference is sensitive in just one hole and noticing that th
 
 However, I fixed that hole with two auto-gripping plastic strips plus I inserted a skewer wood-stick, fixed it with heat shrink tubing and used it to position the new air flow deflector. Which has been made of cardboard, packing tape and electrical tape.
 
-<div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-changed-air-flow.jpg" width="800"><br/><sub>right click menu to enlarge the image in a new tab</sub></div>
+<div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-changed-air-flow.jpg" width="800"><br><sub>right click menu to enlarge the image in a new tab</sub></div>
 
 These two photos show the actual result and we can compare them with the two renderings on which the modification has been planned. In the image, the light blue lines indicate, starting from the left: the line at the center of the 12 cm fan, the new deflector air-flow direction and the original deflector air-flow direction.
 
@@ -171,7 +171,7 @@ Making a comparison - with the mods that I have seen shared on Reddit and other 
 
 In short this project has a low entry barrier but still not for everyone.
 
-<br/>
++
 
 ## External sources
 
@@ -185,7 +185,7 @@ In the first  link there is a practical example using the `nvidia-smi` command t
 
 at the opposite, in the last link there is the opposite: how to increase the voltage and the working frequency in order to squeeze all its computation power.
 
-<br/>
++
 
 ## Share alike
 

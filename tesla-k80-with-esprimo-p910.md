@@ -1,7 +1,7 @@
 <div id="firstdiv" created="2025-01-24:EN:+2" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>@page { size: letter; }; @media print { html { zoom: 100%; }; };</style>
 
-<div align="center"><img class="bwsketch" src="img/k80-installed-in-wrong-slot.jpg" width="800"><br/></div>
+<div align="center"><img class="bwsketch" src="img/k80-installed-in-wrong-slot.jpg" width="800"><br></div>
 
 ## Tesla K80 with Esprimo P910
 
@@ -93,7 +93,7 @@ This article continue here:
 
 * [Dual PSU for Fujitsu Esprimo P910](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (2025-01-25)
 
-<br/>
++
 
 ## Share alike
 

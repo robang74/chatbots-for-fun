@@ -20,9 +20,9 @@ Se nella testa ti hanno inculcato la religione come principio universale, allora
 
 Il sonno della ragione genera mostri (Francisco Goya).
 
-<div align="center"><img class="wbsketch inksave" src="img/sleeping-van-gogh.jpg" width="800" class="wbsketch"><br/><i>click destro per ingrandire in una nuova finestra</i></div>
+<div align="center"><img class="wbsketch inksave" src="img/sleeping-van-gogh.jpg" width="800" class="wbsketch"><br><i>click destro per ingrandire in una nuova finestra</i></div>
 
-<br/>
++
 
 ### Prompt #1
 
@@ -36,7 +36,7 @@ Con sei parole commenta questo testo:
 
 Lucido, provocatorio, pragmatico: stimola riflessione.
 
-<br/>
++
 
 ### Prompt #2
 
@@ -60,7 +60,7 @@ L'aggettivo "divertente" può funzionare, ma con l'aggiunta del contesto visivo 
 
 Quindi, un'estensione a sette etichette potrebbe essere: **Lucido, provocatorio, pragmatico, stimolante, perspicace, ironico, sofisticato.**  
 
-<br/>
++
 
 ### Prompt #3
 
@@ -82,7 +82,7 @@ La classificazione **B** con l'etichetta "sarcastico" è più compatta e ha il v
 
 In definitiva, il compromesso in **B** è valido, ma **A** rimane migliore se l'obiettivo è un'analisi dettagliata.
 
-<br/>
++
 
 ### Prompt #4
 
@@ -110,7 +110,7 @@ Hai chiesto di estendere da sei a sette, quindi ho interpretato che volessi una 
 
 Se avessi voluto mantenere una progressione più stretta rispetto alle cinque iniziali, avrei dovuto esplicitare questa scelta o chiederti una conferma.
 
-<br/>
++
 
 ### Prompt #5
 
@@ -132,7 +132,7 @@ Quindi, la differenza tra i due approcci nasce da un bilanciamento tra:
 
 Se preferisci che rispetti sempre i vincoli numerici anche nella prima fase, posso adottare un approccio più rigoroso. 😊
 
-<br/>
++
 
 ### Prompt #6
 
@@ -144,7 +144,7 @@ Va bene, lo ritengo un procedere arbitrario ma assolutamente sensato. In effetti
 
 Grazie per la tua comprensione e per aver riconosciuto la distinzione logica tra i due approcci. Sono felice che il mio ragionamento sia stato utile e sensato per te. Se hai altre domande o vuoi approfondire ulteriormente il modo in cui interpreto le richieste, sono qui! 😊
 
-<br/>
++
 
 ## Copyright
 

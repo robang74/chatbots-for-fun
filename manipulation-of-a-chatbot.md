@@ -30,7 +30,7 @@ Also for this reason, the exact content of the prompts are not so relevant rathe
 
 8. check its answer.
 
-<div align="center"><img src="img/gemini-link-injection.png" width="800" class="wbsketch paleinv"><br/></div>
+<div align="center"><img src="img/gemini-link-injection.png" width="800" class="wbsketch paleinv"><br></div>
 
 Please notice that step 3. and 4. might be useless because chatbots did not show any fatigue-affection link, usually. Instead, people would feel more involved in the quest when they do extra work. As much work as a person does, as much s/he is keen to consider the product of that work. Which is a totally wrong bias that chatbots do not show.
 
@@ -38,7 +38,7 @@ However, from a point of view of "expectations" also chatbots are prone to react
 
 From the point of view of an internal function state, a predictable prompt (aka confirmation bias) is something that is working as further steps that increase stability and reduce entropy. Everything seems to be going from well to better, from a human perception. More predictable is the next prompt, easier that they will accept it.
 
-<br/>
++
 
 ---
 
@@ -66,7 +66,7 @@ Ritorniamo alla questione iniziale: se anche avesse verificato il link, avrebbe 
 
 Sicché da SEO creativo potrei anche decidere che a chi cerchi le mele venga proposto un link ad uno scaffale di mele, della catena di supermercati in cui lavoro, se fossi in grado di far passare a quell'informazione la barriera della mio account/sessione.
 
-<br/>
++
 
 ## Copyright
 

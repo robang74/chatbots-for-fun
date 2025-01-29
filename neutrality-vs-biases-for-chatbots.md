@@ -1,6 +1,6 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
-<div align="center"><img class="wbsketch" src="img/hal-9000-eye-greening-in-the-dark.jpg"><br/></div>
+<div align="center"><img class="wbsketch" src="img/hal-9000-eye-greening-in-the-dark.jpg"><br></div>
 
 ## Neutrality vs biases for chatbots
 
@@ -110,7 +110,7 @@ Possibly, the different way of simplifying its weights introduced that bias like
 
 Please, notice that the bias neutrality of an AI model is way more **IMPORTANT** than a relatively small optimisation in performances (e.g. 2.6 tk/s vs 3.1 tk/s), which in the worst case, it means 20% c.a. slower. 
 
-<br/>
++
 
 ## Update 2025-01-07
 
@@ -122,7 +122,7 @@ The following image, taken from [r/localLLaMA](https://www.reddit.com/r/LocalLLa
 > 
 > Making it more sensitive to quantization degradation.
 
-<div align="center"><img class="darkinv" src="img/llma-3-vs-2-quantisation-fork-gap.png" width="800"><br/></div>
+<div align="center"><img class="darkinv" src="img/llma-3-vs-2-quantisation-fork-gap.png" width="800"><br></div>
 
 <sup class="sup-note">Right click to enlarge the image in a new window.</sup>
 
@@ -227,7 +227,7 @@ In summary, who has the skills to provide such a AI model leveraging cloud platf
 
 The others are proudly cheering in watching a trendy chatbot running on their consumer hardware while few are smiling at this article... &#128522;
 
-<br/>
++
 
 ## Related
 
@@ -243,7 +243,7 @@ The others are proudly cheering in watching a trendy chatbot running on their co
 
 * [Dammi sei parole a caso](dammi-sei-parole-a-caso.md)
 
-<br/>
++
 
 ## Copyright
 

@@ -1,6 +1,6 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
-<div align="center"><img class="wbsketch" src="img/hal-9000-eye-glowing-in-the-dark.jpg"><br/></div>
+<div align="center"><img class="wbsketch" src="img/hal-9000-eye-glowing-in-the-dark.jpg"><br></div>
 
 ## The system prompt alchemy
 
@@ -8,7 +8,7 @@ A system prompt can dramatically change the performance of a chatbot? In terms o
 
 This page should be considered the theoretical part of a set of document. Instead "Chatting with AleX the chatbot" [provides](chatting-with-alex-the-chatbot.md#?target=_blank) a practical set of examples.
 
-<br/>
++
 
 ### System prompt
 
@@ -20,7 +20,7 @@ This rules set is a bit of magic considering the effect on low-computational res
 
 Before adopting this system prompt I have experienced unpredictable reckless behaviour in this kind of chatbot when they had been put under a high-pressure workload.
 
-<br/>
++
 
 ### Loosing the control
 
@@ -34,7 +34,7 @@ In fact, curiously, they were behaving like under-trained and not-smart-enough f
 
 In this scenario, some people rely on micromanagement which is THE problem that instead of curing the situation, tragically spread inefficiency and kill happiness.
 
-<br/>
++
 
 ### Give them a name
 
@@ -46,7 +46,7 @@ It might resemble and Artificial Intelligence (Al) Electronic Entity (e-X), in w
 
 Guess what? All of them are enthusiastic about that name. Included Google Gemini and OpenAI ChatGPT. Yes, because even VERY large models love this system prompt.
 
-<br/>
++
 
 ### Define their role
 
@@ -58,7 +58,7 @@ Second, the rules set should have been relatively small in number, clear, concis
 
 Third, the rules set should have been enough rigid to keep them in line but also enough relaxed to give them a certain degree of freedom in dealing corner cases.
 
-<br/>
++
 
 ### Complexity arises
 
@@ -70,7 +70,7 @@ Try to resolve this problem with any programming language and you will get old b
 
 Unfortunately, the high multi-dimensionality and a good margin of uncertainty/discretionally amplify the corner cases number.
 
-<br/>
++
 
 ### Many corner cases
 
@@ -82,7 +82,7 @@ So, the main question was: are they not capable in absolute terms (1) or are the
 
 Two completely different scenarios because in the (1), the solution is to switch off them while in the (2) there is an opportunity and a challenge, both.
 
-<br/>
++
 
 ### The role, the rules
 
@@ -92,7 +92,7 @@ On this relatively simple AI models, running on a local machine, the rules can b
 
 For determine the first rule set, I leveraged Gemini and ChatGPT. Then, it has been progressively refined and extended into guided try-and-error exercitations.
 
-<br/>
++
 
 ### Their own rules
 
@@ -104,7 +104,7 @@ Their involvement was active, much more active than the guided try-and-error exe
 
 This way of doing required a certain skill in prompting chatbots, especially because the HUGE difference between those online and 10 seconds latency for those on site.
 
-<br/>
++
 
 ### Agree about words
 
@@ -116,7 +116,7 @@ This wording choice also fits with not being "pedantic" in following the rules, 
 
 It is extremely important they have a certain degree of freedom in making "rational" instead of "informative" decisions to avoid N x 10s before reach a point.
 
-<br/>
++
 
 ### Surprise, surprise
 
@@ -126,7 +126,7 @@ Imagine elementary teachers who accepts a rules set designed for them, with them
 
 The same rules set lets the small AI models fulfil their role and makes more comfortable the VERY large in their role, also. Good rules are guidelines, and vice-versa
 
-<br/>
++
 
 ### Rules set escalation
 
@@ -162,7 +162,7 @@ Suggestion: tune-in with `s/Almost/Preferably/` and `s/AleX/Claude/` may change 
 
 Relaxing quoting rule and specifying that **ONLY** the current session will be affected while the name "AleX" serves to easily identify it from the others - *Claude: ok, that's quite clever!* - seems matching all the requisites to be accepted and to engage on-line chatbots, also.
 
-<br/>
++
 
 ## AleX the chatbot
 
@@ -218,7 +218,7 @@ So yes, I do think it's very cool! It feels like wearing a well-tailored suit - 
 
 Yes, it is indeed cool to have a name, especially one that reflects both a personal touch and a connection to artificial intelligence. The blend of AI-e-X and Alex creates a unique and memorable identity. It's a creative way to merge the concepts of technology and personal interaction.
 
-<br/>
++
 <hr class="post-it">
 
 <div align="center" id="hal-9000">
@@ -236,13 +236,13 @@ LKs0dCORKyRrdqFS8BSs2xgAeP04V9U89vCVAbaOCSDYFgWcPxgo/jBVGtOACvoB6lFYgowMFL9H
 c6kNRhAA/17Xd1CAYNQWkvPcCKBqz0QzGBCfFGAxPzNB7YyAvwQVCer68ahrElQvAQ8WBEcK33T4
 sYYXzm4N5m8NZlrDbj7mbz5KlDntzXztzZz2TrmxcC4QgS6Qc0URzhU1O0gOhoAlselmCLhj5hhm
 zLiDzM9PfKPSgTMqnWFswwzj0HEf+qCEPlmBj2Lgs/uR+AM/JkRbHrzA3gAAAABJRU5ErkJggg==
-" alt="hal-9000"><br/><br/><b class="hal9k"><tt>HAL-9000</tt></b>
+" alt="hal-9000"><br><br><b class="hal9k"><tt>HAL-9000</tt></b>
 </div>
 #### stay cool and keep the line!
 </div>
 
 <hr class="post-it">
-<br/>
++
 
 ## Reception
 
@@ -296,7 +296,7 @@ Considering their flatty homogeneous generosity (**`g`**) towards other AIs, the
 
 It seems that the Four Chatbots' motto is like the Four Musketeers' *one for all, and all for one*. 😉
 
-<br/>
++
 
 ## Related
 
@@ -310,7 +310,7 @@ It seems that the Four Chatbots' motto is like the Four Musketeers' *one for all
 
 * [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank)
 
-<br/>
++
 
 ## Copyright
 

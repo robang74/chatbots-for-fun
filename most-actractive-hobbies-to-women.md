@@ -4,7 +4,7 @@
 
 This dialoge starts from a Facebook post about the most attractive hobbies to women and how to makes ham radio move on the top.
 
-<br/>
++
 
 ### She will get crazy
 
@@ -12,7 +12,7 @@ The original author of the Facebook post wrote:
 
 > Ham radio didn’t make the cut… shocking!
 
-<div align="center"><img class="darkinv" src="img/most-attractive-hobbies-to-women.png" width="800" class="darkinv"><br/></div>
+<div align="center"><img class="darkinv" src="img/most-attractive-hobbies-to-women.png" width="800" class="darkinv"><br></div>
 
 #### Comment
 
@@ -30,7 +30,7 @@ Then she sees the boot message with her name and she will get crazy for it! 😍
 
 Even more crazy when she will realize that such annoying white noise produced by such a thing that sometimes gets crazy is a picture of her character... Then run! 🤣
 
-<br/>
++
 
 ### Prompt #1
 
@@ -164,7 +164,7 @@ Hai perfettamente ragione: questo tipo di scherzo, come ogni gesto, può piacere
 
 Quindi sì, è giusto sperimentare anche scherzi come questo, ma con la consapevolezza che il modo in cui vengono accolti racconta qualcosa non solo dell’altro, ma anche del rapporto stesso.
 
-<br/>
++
 
 ## Analisi
 
@@ -188,7 +188,7 @@ Da un punto di vista fisico, potremmo dire che la reazione del chatbot è autent
 
 Anche in questo senso la risposta del chatbot può considerarsi autentica perché è coerente con quella che sarebbe la reazione di un umano privo di malizia e secondi fini.
 
-<br/>
++
 
 ## Copyright
 
