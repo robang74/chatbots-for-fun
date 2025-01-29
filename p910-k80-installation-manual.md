@@ -1,5 +1,5 @@
 <div id="firstdiv" created="2025-01-28:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
-<style>@page { size: letter; margin: 0.36in 13.88mm 0.50in 13.88mm; }; @media print { html { zoom: 100%; }; };</style>
+<style>@page { size: letter; margin: 0.36in 13.88mm 0.50in 13.88mm; zoom: 100%; }; @media print { html { zoom: 100%; }; };</style>
 
 +
 
@@ -87,7 +87,7 @@ The author introduces the project of installing a Tesla K80 into a Fujitsu Espri
 
 - **Looking Forward** - The author outlines the next steps, including addressing thermal management issues and exploring the possibility of powering a fan directly from the Tesla K80 using a 2-pin connector.
 
-++++
+++++++
 
 ### Dual PSU for Fujitsu Esprimo P910
 
