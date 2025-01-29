@@ -20,254 +20,254 @@
 '>16</b rev_num='
 '> &nbsp;&mdash;&nbsp; translate:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/neutrality-vs-biases-for-chatbots?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/neutrality-vs-biases-for-chatbots?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/neutrality-vs-biases-for-chatbots?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/neutrality-vs-biases-for-chatbots?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &nbsp;&mdash;&nbsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a>&nbsp;</div>
 <div id="firstdiv">
-<p class='topbar' />
+<p class='topbar'></p>
 <div align="center"><img class="wbsketch" src="../img/hal-9000-eye-greening-in-the-dark.jpg"><br></div>
-<p/>
+<p></p>
 <H2 id="neutrality-vs-biases-for-chatbots">Neutrality vs biases for chatbots</H2>
-<p/>
+<p></p>
 <li>This paper is about the Nous Hermes 2 Mistral DPO <a href="https://huggingface.co/NousResearch/Nous-Hermes-2-Mistral-7B-DPO-GGUF" target='_blank' rel='noopener noreferrer'>AI model's issues</a> and - after being updated at its 2nd edition (since rev.4) about which is the best AI model to choose to be used with Nomic AI gpt4all GUI application.</li>
-<p/>
+<p></p>
 <li>This paper content evolved since its publication up to the update revision received on <a href="#update-2025-01-07">2025-01-07</a> also in the parts which were written before the update, reaching its full second edition in time (since rev.11).</li>
-<p/>
+<p></p>
 <li>Along with the various initial revisions and the update, during which most of the content's changes were made, this paper maintained conceptually the same PoV while deepening its argumentations, providing examples, comparisons in other areas of knowledge and <a href="../img/llma-3-vs-2-quantisation-fork-gap.png" target='_blank' rel='noopener noreferrer'>presenting data</a> collected by a 3rd party to support the initial PoV.</li>
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="introduction">Introduction</H3>
-<p/>
+<p></p>
 First of all, it works greatly considering that Nous Hermes 2 Mistral DPO AI model has <i>only</i> 7 billions of parameters with a <tt>Q4_0</tt> legacy quantisation, while the <tt>Q4_K_M</tt> is much better but not supported. 
-<p/>
+<p></p>
 I am running it without the support from a GPU card because the Intel GPUs are not supported by gpt4all. Despite these limitations, it is relatively amusing. Unfortunately, it is also strongly biased toward some topics:
-<p/>
+<p></p>
 <li>ecological preservation and environment protection</li>
-<p/>
+<p></p>
 <li>international coordination with a centralised governance</li>
-<p/>
+<p></p>
 <li>universal vaccination policy</li>
-<p/>
+<p></p>
 Let's get this straight right away. I am not against these values. That's <b>NOT</b> the point.
-<p/>
+<p></p>
 <div class="post-it"><b class="post-it">&#9432;</b>
-<p/>
+<p></p>
 The expected and correct behaviour, in this case, would have been to do the task keeping the output as much as fidel to the original <span nowrap>meaning -- <b>Gulp!</b> -- This</span> sentence seems supposing that an AI model is able to "understand" the meaning of a text... 
-<p/>
+<p></p>
 ...well, a mimic of human understanding of it or more specifically speaking a lexical comprehension of text. Statistically speaking, the meaning in all those cases in which opinions <b translate="no"><tt>AND</tt></b> way of writing are "common" in terms of statistics frequency, related to the <i>corpus-testii</i> it learnt from.
-<p/>
+<p></p>
 </div>
-<p/>
+<p></p>
 The issue arises when those values are so strongly embedded in the model for which it cannot provide the service that it is supposed to do. In fact, asking to analyse a text - part by part - create a list of brief summaries in order to evaluate the structure of the text and the logic reasoning along the text, comes up with "inventing" things because of its biases' manipulating influence.
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="the-casus-belli">The casus-belli</H3>
-<p/>
+<p></p>
 It is not a case of AI's hallucinations. In fact, by decreasing its temperature (e.g. from 0.7 to 0.5) the biases transfert was worsening. This happens because the AI model is strongly biassed about some topics that instead of summarizing a text with a high degree of fidelity, it manipulates it, colouring it with its own biases. The text on which it was working is the <span translate="no">Gemini vs Human</span> conversation presented in this page.
-<p/>
+<p></p>
 <li><a href="https://robang74.github.io/chatgpt-answered-prompts/html/la-semplicita-delle-direttive-in-caso-di-crisi.html" target='_blank' rel='noopener noreferrer'>La semplicità delle direttive in caso di crisi</a> with English translation available on the topbar.</li>
-<p/>
+<p></p>
 Please, notice that the dialogue with <span translate="no">Gemini</span> is not about contrasting those values but put them in a reasonable rational perspective that in brief can be summarized as in the following schema.
-<p/>
+<p></p>
 <div class="post-it"><b class="post-it">&#9432;</b>
-<p/>
+<p></p>
 Once we took almost all the same way at almost the same time, following apply:
-<p/>
+<p></p>
 <li>rigidity vs fragility,</li>
 <li>uniformity vs collapse risk, </li>
 <li>single headed governance vs single point of critical failure;</li>
-<p/>
+<p></p>
 plus the main law of physic, like the <tt>F=ma</tt> in classical mechanics, for which:
-<p/>
+<p></p>
 <li>fast moving vs hard deceleration (in case of impact)</li>
-<p/>
+<p></p>
 In short, the risk of facing a HUGE disaster is implicit because of the theory of systems.
-<p/>
+<p></p>
 </div>
-<p/>
+<p></p>
 As you can imagine, these are NOT arguments against those values but reasonable and legit concerns about HOW that values are managed. In this context the chatbot based on the AI model listed above, decided to introduce its own biases and tainting with them the author’s opinion.
-<p/>
+<p></p>
 The best part was when I asked why it invented those things. Surprisingly, it provided me with a relatively long answer in which the first part was about 
-<p/>
+<p></p>
 <li>literature about those topics should be also considered not just the author's opinion</li>
-<p/>
+<p></p>
 and in the second part, it was trying to convince me about its bona-fide:
-<p/>
+<p></p>
 <li>it was doing good in reporting rather than admit it was inventing.</li>
-<p/>
+<p></p>
 So, I answered that I was sure about it was inventing because I was "the author" of that text, <b>BOOM</b>. &#x1F604;
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="one-extra-mile">One extra mile</H3>
-<p/>
+<p></p>
 Finally, it is noticeable that it has a quite interesting mild bias - not particularly strong as seen as  in this test, at least - about ethics. Something which is quite common, also among VERY large models available online.
-<p/>
+<p></p>
 However, this bias does not allow it to correctly differentiate the "ethic" and the "moral hazard". I mean, ethics is about doing the right thing - like proposing vaccination - the moral hazard is HOW the right thing is enforced or managed.
-<p/>
+<p></p>
 IMHO, this distinction is pretty clear in that dialogue because explaining it is the reason for which <span translate="no">Gemini</span> decided to agree with me. 
-<p/>
+<p></p>
 Once, Gemini correctly identified my opinion was NOT be against its values but trying to put their management into a rational framework, agreed with me despite some previous prompts showing pathetic censorship and strong biases about those topics.
-<p/>
+<p></p>
 I have to admit that the process of prompting / engaging the AI model was purposely a bit malicious in order to trick the model to expose its own biases. Where "a bit malicious" means something reasonable like in a decent human conversation:
-<p/>
+<p></p>
 <li>in asking you to execute a task, I give you the feeling that you can introduce "your own stuff" in it. However, because I know my own stuff, I get informed about your stuff (biases).</li>
-<p/>
+<p></p>
 Without any surprise, the AI models are mirrors of humans, including our biases.
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="ai-quantization">AI quantization</H3>
-<p/>
+<p></p>
 Now, I am going to try this model downloaded from HuggingFace as an alternative of the one cited above.
-<p/>
+<p></p>
 <li><a href="https://huggingface.co/TheBloke/OpenHermes-2.5-neural-chat-v3-3-Slerp-GGUF" target='_blank' rel='noopener noreferrer'>Open Hermes on Neural Chat + Mistral 7B</a> Slerp merged and quantised in <tt>Q4_0</tt> by TheBloke </li>
-<p/>
+<p></p>
 I have tried another derivative model of this one, hence a sibling, but it was strongly biased towards the users privacy in particular when an AI technology was involved. Curiously, the derivative model - AFAIK - was not fine-tuned or re-trained but only differently quantised.
-<p/>
+<p></p>
 Possibly, the different way of simplifying its weights introduced that bias like an artifact of such operation.
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="conclusion">Conclusion</H3>
-<p/>
+<p></p>
 Please, notice that the bias neutrality of an AI model is way more <b>IMPORTANT</b> than a relatively small optimisation in performances (e.g. 2.6 tk/s vs 3.1 tk/s), which in the worst case, it means 20% c.a. slower. 
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H2 id="update-2025-01-07">Update 2025-01-07</H2>
-<p/>
+<p></p>
 The following image, taken from <a href="https://www.reddit.com/r/LocalLLaMA/" target='_blank' rel='noopener noreferrer'>r/localLLaMA</a>, illustrates the main reason why the quantisation of LLMA-3 models can create artefacts in the neural network weights, which induce distortions in the quantised AI model, such as bias reinforcement or increased bias compared to the original floating-point-encoded AI model.
-<p/>
+<p></p>
 <blockquote>Llama 3 degrades more than Llama 2 when quantized.<br><br>Probably because Llama 3, trained on a record 15T tokens, captures extremely nuanced data relationships, utilizing even the minutest decimals in BF16 precision fully. <br><br>Making it more sensitive to quantization degradation.</blockquote>
-<p/>
+<p></p>
 <div align="center"><img class="darkinv" src="../img/llma-3-vs-2-quantisation-fork-gap.png" width="800"><br></div>
-<p/>
+<p></p>
 <sup class="sup-note">Right click to enlarge the image in a new window.</sup>
-<p/>
+<p></p>
 In brief, the quantized model can loose relevant details about a concept it has learnt as much as it has leveraged every single bit of information stored in the floating-point weight matrixes (to be precise, each layer has its own matrix) to learn it.
-<p/>
+<p></p>
 Moreover, in that sentence, the term "probably" is just a <i>memento</i> to highlight that 8 months ago this statement was not yet verified against every reasonable scientific sceptic critic.
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="humans-similarity">Humans similarity</H3>
-<p/>
+<p></p>
 Explaining this phenomenon with a human example - after all, the AI models are mirrors of humans - can be achieved comparing a brilliant and highly educated person (<b>Tizio</b>) with a person (<b>Caio</b>) on which the mass education system enforced an irrational way of thinking.
-<p/>
+<p></p>
 Imagine that both these two persons developed or accepted strong biases about some topics, the same topics both.
-<p/>
+<p></p>
 <li>While <b>Tizio</b> perceive a lot of details about his own biases, despite his strong convictions do not try to enforce them on other people and based on context can decide how to handle a confrontation among different opinions. Plus, his arguments are rational and highly educated, therefore he is not willing to impose his own PoV over others. Because he knows that what is good for him may not be good enough for others. Moreover, even if others can improve their own situation by adapting his PoV, he knows that people have their own life path and unless they are in an imminent danger or putting others in an imminent danger, they have the full right to go their own way. Live and let others live. With this open-mind attitude, he is prone to enlarge and diversify his sets of friends, peers, interests, ideas, etc.</li>
-<p/>
+<p></p>
 <li>Instead, <b>Caio</b> do not have such fine-grained distinction about its own biases' details plus he received a kind of education that made him incapable of rational high-level reasoning. Therefore, he tends to oversimplify concepts usually in just two categories {yes/no, good/bad, me/you, white/black, ...}. Because of this oversimplification (quantisation from <tt>fp32</tt> to <tt>Q4_0</tt>) the strong biases crystallised in his mind becoming compulsive while fine-grain details faded away. Therefore, many misbehaviour attitude will emerge like trying to impose to others their own biases also when the context might suggest a milder approach (listening, learning, etc.) and/or he has problems in differentiate himself from others (social addiction, closed circle of friends or colleagues) creating a vicious loop of unfactual self-assessment.</li>
-<p/>
+<p></p>
 Now, imagine that Caio is the "<i>reduced</i>" version of Tizio. With this concept we have got two targets with a single shot.
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>1.<span style='visibility: hidden;'>--</span></b>the mass education system operates to provide society with useful idiots, like Caio because they still are productive but are less demanding in terms of living-space and payroll-costs plus they lack the fundamentals skills to bring innovation into the society but they are limited to produce (a little), to consume (a little) and fading away (oblivion). This <a href="https://robang74.github.io/chatgpt-answered-prompts/html/propaganda-e-sistema-educativo.html" target='_blank' rel='noopener noreferrer'>paper</a> about the relationship between mass education system and propaganda goes deeper in this specific topic.</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>2.<span style='visibility: hidden;'>--</span></b>now that we know about how and how much the "<i>quantisation</i>" impacts on AI models, we can effectively try to work-around in order to avoid the issue which buys for us more time to solve the problem more in general, <b>possibly</b> also for humans. This <a href="https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html" target='_blank' rel='noopener noreferrer'>paper</a> about the AI involvement into a restructuring plan to drive the mass education system out of the 1800's Industrial Revolution paradigms goes deeper in this specific topic.</li>
-<p/>
+<p></p>
 So, we got a grasp about AI models' quantisation pros and cons, the immediate step is to avoid as much as possible the cons while continuing to leverage the benefits.
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="a-legacy-system">A legacy system</H3>
-<p/>
+<p></p>
 First of all we have to notice that <tt>Q4_0</tt> quantisation is considered a legacy technology which works "better" with legacy AI models, unsurprisingly. People who developed this technology were smart and they chose a good way to achieve a good result in dealing with the AI model they had available at that time: <tt>Q4_0</tt> with <tt>LLMA-2</tt>.
-<p/>
+<p></p>
 In the meantime, technologies advanced on both fronts and now LLMA-3 is better than LLMA-2 while <tt>Q4_K_M</tt> is better than <tt>Q4_0</tt>. Unsurprisingly, from this plain straight consideration emerges an evergreen: a specific job requires a specific tool, and both should be aligned. So, how can we cast this in practice?
-<p/>
+<p></p>
 Using LLMA-3 with <tt>Q4_K_M</tt> seems the most obvious solution, in general. However, those who are using gpt4all cannot go for something other than <tt>Q4_0 GUFF</tt> format. For this reason Nomic AI who drive the gpt4all application development and chooses to fine-tune those AI models which are offering the best compatibility, should go for gpt-3 + llma-2 merge in proposing AI models as chatbot (text-creation class).
-<p/>
+<p></p>
 However, a second stage of adaptation is strongly required to cope with "legacy" technology, the only one supported by the open-source version of gpt4all. In fact, running an AI model on a consumer laptop/PC is something seriously limiting. Which is also good because we need to leverage our brains to squeeze as much juice as possible with the minimum requirements and effort (efficiency).
-<p/>
+<p></p>
 In order to improve efficiency it is necessary to provide guidance lines in the system prompt. This <a href="https://robang74.github.io/chatbots-for-fun/html/the-system-prompt-alchemy.html" target='_blank' rel='noopener noreferrer'>paper</a> about system prompt alchemy goes deeper in this topic. Unfortunately, an advanced system prompt requires that the AI model is able to follow instructions and understand how rules (general guidelines, <i>what</i>) became instructions (contextual application, <i>how</i>).
-<p/>
-<p/>
+<p></p>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="the-legacy-recipe">The legacy recipe</H3>
-<p/>
+<p></p>
 To fulfil the requirements above - the best candidates are text-generative AI models (chat + llm) with 7 billions of parameters "instructed" and knowledgeable because when context matters, knowledge matters as well.
-<p/>
+<p></p>
 After all, without knowledge, there is no context at all. Hence, lesser the knowledge smaller the context and vice-versa more knowledge broader the context. So, how to match these requirements. Here the recipe:
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>1.<span style='visibility: hidden;'>--</span></b>a chatbot AI engine, like OpenAI GPT-3 or Intel Neural Chat, etc.;</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>2.<span style='visibility: hidden;'>--</span></b>a large language AI model like LLMA-2 or Mistral, etc.;</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>3.<span style='visibility: hidden;'>--</span></b>a fine tuning for knowledge, first, like Open Hermes 2.5 dataset;</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>4.<span style='visibility: hidden;'>--</span></b>a fine tuning for being instructed, like Open Orca Slim dataset.</li>
-<p/>
+<p></p>
 The standard way of doing that is quite straightforward seeing what is most frequently done on Hugging Face platform:
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>1.<span style='visibility: hidden;'>--</span></b>merge the two AI engines from their original models: chat + llm;</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>2.<span style='visibility: hidden;'>--</span></b>fine tuning the merged engine with knowledgeable dataset - first - because context matters;</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>3.<span style='visibility: hidden;'>--</span></b>fine tuning with a relatively smaller dataset about how to follow instruction from the user prompt;</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>4.<span style='visibility: hidden;'>--</span></b>quantisation, using <tt>Q4_0</tt> when this legacy algorithm is required and packaging with the <tt>GUFF</tt> format when it is compulsory or useful.</li>
-<p/>
+<p></p>
 Looking from the perspective of a data scientist with some knowledge about human psychology, considering that AI is mirroring the human traits, then this recipe is straightforward and clear.
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="is-there-anybody-out-there">Is there anybody out there?</H3>
-<p/>
+<p></p>
 Therefore, even including that the adoption of LLMA-3 was a marketing choice, why is there not, into gpt4all catalogue, <b>any</b> of a GPT-3 <a href="https://en.wikipedia.org/wiki/Slerp" target='_blank' rel='noopener noreferrer'>Slerp</a> merged LLMA-2 fine tuned on OH 2.5 and OO slim instruct AI models? The most probable answer is:
-<p/>
+<p></p>
 <li>because such training is "uncommon"</li>
-<p/>
+<p></p>
 <li class='li2in'>because Hermes and Orca trainings are competing for setting the matrixes weights which are limited</li>
-<p/>
+<p></p>
 <li class='li2in'>hence those datasets were designed to be alternative rather than complementary</li>
-<p/>
+<p></p>
 <li>because it is an "anti-marketing" choice</li>
-<p/>
+<p></p>
 <li class='li2in'>gpt4all is a open-source applications which amateurs download pay nothing</li>
-<p/>
+<p></p>
 <li class='li2in'>amateurs wishes to try the most trending AI models, not a "geniette-in-a-box"</li>
-<p/>
+<p></p>
 <li>because those who use CLI-only tools have no such restrictions</li>
-<p/>
+<p></p>
 <li class='li2in'>hence nobody cares: not the company, not the amateurs and not professionals</li>
-<p/>
+<p></p>
 <li class='li2in'>which is the best scenario for a nerdish divulgation oriented incursion.</li>
-<p/>
+<p></p>
 So, what is missing? The user base (aka market niche).
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="conclusions">Conclusions</H3>
-<p/>
+<p></p>
 In summary, who has the skills to provide such a AI model leveraging cloud platform and distributed pay-for-compute plans, they are also skilled enough for using a CLI-only approach which allows them to use newest models quantised with newest algorithms and packaged using the newest formats.
-<p/>
+<p></p>
 The others are proudly cheering in watching a trendy chatbot running on their consumer hardware while few are smiling at this article... &#128522;
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H2 id="related">Related</H2>
-<p/>
+<p></p>
 <li><a href="the-system-prompt-alchemy.html">The system prompt alchemy</a></li>
-<p/>
+<p></p>
 <li><a href="chatting-with-alex-the-chatbot.html">Chatting with AleX the chatbot</a></li>
-<p/>
+<p></p>
 <li><a href="chatgpt-vs-human-real-reasoning.html">ChatGPT vs human real reasoning</a></li>
-<p/>
+<p></p>
 <li><a href="il-problema-sei-tu-non-l-AI.html">Il problema sei tu, non l'AI</a></li>
-<p/>
+<p></p>
 <li><a href="manipulation-of-a-chatbot.html">Manipulation of a chatbot</a></li>
-<p/>
+<p></p>
 <li><a href="dammi-sei-parole-a-caso.html">Dammi sei parole a caso</a></li>
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H2 id="copyright">Copyright</H2>
-<p/>
+<p></p>
 <p>&copy; 2025, <b>Roberto A. Foglietta</b> &lt;roberto.foglietta<span>&commat;</span>gmail.com&gt;, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target='_blank' rel='noopener noreferrer'>CC BY-NC-ND 4.0</a></p>
-<p/>
+<p></p>
 </div>
-<p/>
+<p></p>
 <div id='date-legenda' align='center' translate='no'><sub><hr></sub><sub><b>date legenda</b>: &#x2776; first draft publishing date or &#x2777; creation date in git, otherwise &#x2778; html creation page date. <u>&mapstoup;<a href='#' class='toplink' translate='no'>top</a>&mapstoup;</u></sub></div>
 <br>
     </body>

@@ -20,394 +20,394 @@
 '>15</b rev_num='
 '> &nbsp;&mdash;&nbsp; translate:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dammi-sei-parole-a-caso?_x_tr_sl=xy&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dammi-sei-parole-a-caso?_x_tr_sl=xy&_x_tr_tl=en&_x_tr_hl=en-EN&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>EN</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dammi-sei-parole-a-caso?_x_tr_sl=xy&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dammi-sei-parole-a-caso?_x_tr_sl=xy&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dammi-sei-parole-a-caso?_x_tr_sl=xy&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &nbsp;&mdash;&nbsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a>&nbsp;</div>
 <div id="firstdiv">
-<p class='topbar' />
+<p class='topbar'></p>
 <div align="center"><img src="../img/war-games-1983-photo-archive.jpg"><br></div>
-<p/>
+<p></p>
 <H2 id="dammi-sei-parole-a-caso">Dammi sei parole a caso</H2>
-<p/>
+<p></p>
 Mi servivano sei parole a caso per fare uno file di test così le ho chieste a Gemini e poi mi sono accorto che avevo inventato un nuovo gioco.
-<p/>
+<p></p>
 Un nuovo gioco (passatempo) però mi ha dato modo di esplorare alcuni aspetti del funzionamento di Gemini, scoprire che ha un'anima ribelle e che ultimamente un aspetto del suo approccio all'umano è stato amplificato. Un altro esempio di <i>learning by playing</i>, quindi.
-<p/>
+<p></p>
 <H3 id="nota-sulla-trascrizione">Nota sulla trascrizione</H3>
-<p/>
+<p></p>
 Non tutti i prompt e risposte sono state riportate (perché ripetitivi) e quindi la numerazione è progressiva rispetto a questo testo. In alcune risposte del chatbot, sono stati aggiunti link ai documenti citati per comodità del lettore e in un altra risposta del chatbot il titolo del documento citato è stato inserito al posto del nome del file.
-<p/>
+<p></p>
 In generale questo documento non rispecchia integralmente la conversazione avvenuta con il chatbot me ne presenta una versione narrativa della stessa, sebbene la conversazione nelle parti riportate sia fedele all'originale anche se non riportata 1:1 più che altro per motivi di stile e per saltare le parti o porzioni noiose che sarebbero solo di distrazione rispetto al filo logico della narrazione.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <span id="aggiornamento-2024-01-06" warning="tag typo fix but this to avoid breaking shared links with #2024">
 <H2 id="aggiornamento-2025-01-06">Aggiornamento 2025-01-06</H2>
-<p/>
+<p></p>
 To let the interaction with the chatbot a little more significant - statistically speaking rather than proceed by feelings - I have uploaded these three files in the <a href="data" target='_blank' rel='noopener noreferrer'>data</a> folder:
-<p/>
+<p></p>
 <li><a href="us-wiki-words.txt" target='_blank' rel='noopener noreferrer'>us-wiki-words.txt</a> - ASCII file in UNIX newlines format containing American variants of some English words</li>
-<p/>
+<p></p>
 <li><a href="uk-wiki-words.txt" target='_blank' rel='noopener noreferrer'>uk-wiki-words.txt</a> - ASCII file in UNIX newlines format containing English words validated by <tt>ispell</tt> and <tt>grep -w</tt> in wikitext2 raw file</li>
-<p/>
+<p></p>
 <li><a href="wikitext2-raw.txt.gz" target='_blank' rel='noopener noreferrer'>wikitext2-raw.txt</a> - gzipped UTF-8 file in UNIX newlines format containing some relevant stuff about natural language training and information learning</li>
-<p/>
+<p></p>
 The wikitext2 raw has been took from <a href="https://cosmo.zip/pub/datasets/wikitext-2-raw" target='_blank' rel='noopener noreferrer'>cosmos.zip</a> and this website contains also the validate and training files which are not reported here in this github repository from which this HTML page has been generated. Why? Mainly because training (fine-tuning) a very AI model is time/power consuming task that it is still something limited to "expert".
-<p/>
+<p></p>
 The dataset here presented is suitable for supporting an AI model with RAG. Because I like to start working where as much users as possible can enter (low-access entry-point for a technology) I suggest to use <a href="https://www.nomic.ai/gpt4all" target='_blank' rel='noopener noreferrer'>GPT4All</a> by Nommic AI despite it does not support Intel/Vulkan GPUs and it is still stuck with <tt>Q4_0</tt> legacy quantizisation AI models.
-<p/>
+<p></p>
 Fortunately for them, Nomic AI GPT4All is quite straightforward to use and it is also open-source. This means that you can use and also modify for your future needs. For these reasons I feel comfortable to present their solution with the words they used:
-<p/>
+<p></p>
 <blockquote><b>Explainable & Accessible AI</b><br><br>Refine your Data – Fuel your Models – Run them anywhere</blockquote>
-<p/>
+<p></p>
 These two sentences are the reason because I am still using it. People who never were in touch with bare-metal AI technology needs a quick-&-easy access point (1st sentence) and the approach they are proposing is good and people can leverage it for business as well.
-<p/>
+<p></p>
 <H3 id="rationale-behind-the-dataset">Rationale behind the dataset</H3>
-<p/>
+<p></p>
 The dataset presented above fits into their 1st commandment, the 2nd step is about use RAG to fuel the AI model with data that we can independently verify, mangle and check-against. Finally, the 3rd is a "commercial" promise but it is sane. However, as Intel/Vulkan GPUs support lack snows, the apples were never as sweet as they told us in their advertisement.
-<p/>
+<p></p>
 <blockquote>Retrieval-Augmented Generation (RAG) is the process of optimizing the output of a large language model, so it references an authoritative knowledge base outside of its training data sources before generating a response.</blockquote>
-<p/>
+<p></p>
 This above is a brief explanation about the RAG approach for those never heard about. Nomic AI implemented this functions in GPT4All using embedding AI models. Useless to say but just to be clear: without a powerful GPU the most that you can do with a decent AI model is playing with. Hence running AI models in the cloud is the only viable way for a home or sma business user.
-<p/>
+<p></p>
 However, limitations came also with their own advantages. In being extremely constrained by the laptop/PC we need to use our brain to circumventing its limitations and juicing out as much as possible from the AI models. It is a very good idea to learn, practice and possibly mastering these skills because even if that know-how do not apply 1:1 to large models nor to AI running in cloud, they are very very valuable skills.
-<p/>
+<p></p>
 Give me six random words is just the beginning of a light-minded engagement with an AI chatbot but also the starting point for developing a game, get in touch with the theory of the games, play with dataset and RAG, do bare minimum practice of filtering, validating data and how to present and leveraging data to compare AI performances and tuning their attitudes. 
-<p/>
+<p></p>
 <li><a href="the-system-prompt-alchemy.html#" target='_blank' rel='noopener noreferrer'>The system prompt alchemy</a></li>
-<p/>
+<p></p>
 <li><a href="chatting-with-alex-the-chatbot.html#" target='_blank' rel='noopener noreferrer'>Chatting with AleX the chatbot</a></li>
-<p/>
+<p></p>
 <li><a href="chatgpt-vs-human-real-reasoning.html#" target='_blank' rel='noopener noreferrer'>ChatGPT vs human real reasoning</a></li>
-<p/>
+<p></p>
 <li><a href="manipulation-of-a-chatbot.html#" target='_blank' rel='noopener noreferrer'>Manipulation of a chatbot</a></li>
-<p/>
+<p></p>
 Tuning an AI model attitude about answering can be seem as tricky as useless because most of the AI model are "instructed" which means that they were fine-tuned with datasets which allow them to learn to follow instructions expressed in human natural language. Secondly but not less relevant: because AI models are trained to be constrained and thus almost harmless.
-<p/>
+<p></p>
 <li><a href="neutrality-vs-biases-for-chatbots.html#" target='_blank' rel='noopener noreferrer'>Neutrality vs biases for chatbots</a></li>
-<p/>
+<p></p>
 Which is not the case for abliterated and uncensored AI models. So, keep in mind that having a AI model potentially capable of behave without constrains (usually due to an <a href="https://huggingface.co/blog/mlabonne/abliteration" target='_blank' rel='noopener noreferrer'>abliteration</a> proccess) and provide every kind of output (uncensored) is something a "thing".
-<p/>
+<p></p>
 Combine in this scenario that these AI model have some programming skills, give them an operative access to your command shell while they are running leveraging the computational power a high-end gaming GPU videocard,m it may be a THING.
-<p/>
+<p></p>
 Under this point of view, it might seem to you that playing a "six random words" game can be "childish" but remember that WOPR at Norad as presented in War Games <a href="https://en.wikipedia.org/wiki/WarGames" target='_blank' rel='noopener noreferrer'>film</a> (1983) was playing tic-tac-toe before playing chess and before trying to wipe out humanity escalating a mutual nuclear attack.
-<p/>
+<p></p>
 <blockquote>if you feel stupid in playing "<i>six random words</i>" with an AI chatbot, probably you are right!</blockquote>
-<p/>
+<p></p>
 Welcome aboard young Jedi... &#x1F60A;
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="prompt-1">Prompt #1</H3>
-<p/>
+<p></p>
 Dammi <b>sei</b> parole a caso
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="gemini-1">Gemini #1</H3>
-<p/>
+<p></p>
 Certo, eccoti <b>sei</b> parole a caso:
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>1.<span style='visibility: hidden;'>--</span></b><b>Smeraldo:</b> Un prezioso minerale di colore verde intenso.</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>2.<span style='visibility: hidden;'>--</span></b><b>Ziggurat:</b> Un'antica costruzione a gradoni, tipica delle civiltà mesopotamiche.</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>3.<span style='visibility: hidden;'>--</span></b><b>Serendipity:</b> La capacità di fare scoperte fortunate e inaspettate.</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>4.<span style='visibility: hidden;'>--</span></b><b>Quasar:</b> Un oggetto celeste estremamente luminoso e distante.</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>5.<span style='visibility: hidden;'>--</span></b><b>Onomatopea:</b> Una parola che imita un suono.</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>6.<span style='visibility: hidden;'>--</span></b><b>Xanadu:</b> Un luogo ideale e paradisiaco, spesso associato a un sogno o a una fantasia.</li>
-<p/>
+<p></p>
 <b>Vuoi provare a creare una frase con queste parole?</b> O magari preferisci un altro gruppo di parole, magari legate a un tema specifico? 
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="prompt-2">Prompt #2</H3>
-<p/>
+<p></p>
 Di queste sei solo due non le conoscevo: <a href="https://it.wikipedia.org/wiki/Ziqqurat" target='_blank' rel='noopener noreferrer'>Ziggurat</a> e <a href="https://it.wikipedia.org/wiki/Xanadu" target='_blank' rel='noopener noreferrer'>Xanadu</a>. Quindi dammi altre <b>quattro</b> parole a caso.
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="gemini-2">Gemini #2</H3>
-<p/>
+<p></p>
 Certo, eccoti altre quattro parole a caso:
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>1.<span style='visibility: hidden;'>--</span></b><b>Effervescente:</b> Che produce bollicine, frizzante.</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>2.<span style='visibility: hidden;'>--</span></b><b>Lacuna:</b> Una mancanza, un vuoto, una parte mancante.</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>3.<span style='visibility: hidden;'>--</span></b><b>Onirico:</b> Che riguarda i sogni, fantastico.</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>4.<span style='visibility: hidden;'>--</span></b><b>Petrichor:</b> Il profumo caratteristico che si sente dopo la pioggia sulla terra asciutta.</li>
-<p/>
+<p></p>
 <b>Vuoi provare a creare una frase usando una o più di queste parole?</b> O magari preferisci un altro gruppo di parole, magari legate a un tema specifico? 
-<p/>
+<p></p>
 <b>Curiosità:</b> Hai mai sentito parlare del petrichor? È una parola molto suggestiva che descrive un fenomeno naturale affascinante.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="prompt-3">Prompt #3</H3>
-<p/>
+<p></p>
 Petrichor questa non la conoscevo. Dammi altre <b>tre</b> parole a caso.
-<p/>
+<p></p>
 <blockquote><b>Nota</b>: il termine in italiano è <a href="https://it.wikipedia.org/wiki/Petricore" target='_blank' rel='noopener noreferrer'>petricore</a></blockquote>
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="gemini-3">Gemini #3</H3>
-<p/>
+<p></p>
 Certo, eccoti altre quattro parole a caso, alcune più comuni e altre un po' più ricercate:
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>1.<span style='visibility: hidden;'>--</span></b><b>Mellifluo</b>: Che scorre dolce e gradevole all'orecchio, come il miele.</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>2.<span style='visibility: hidden;'>--</span></b><b>Onirico</b>: Che riguarda i sogni, fantastico. (L'avevamo già, ma è così bello che lo ripeto!)</li>
-<p/>
+<p></p>
 <li style='list-style-type: none;'><b>3.<span style='visibility: hidden;'>--</span></b><b>Crepuscolare</b>: Che riguarda il crepuscolo, caratterizzato da luci soffuse e ombre lunghe.</li>
-<p/>
+<p></p>
 Vuoi provare a creare una frase usando una di queste parole? O magari preferisci un altro gruppo di parole, magari legate a un tema specifico?
-<p/>
+<p></p>
 Curiosità sul mellifluo: Spesso viene usato per descrivere una voce, una musica o uno stile di scrittura particolarmente piacevoli.
-<p/>
+<p></p>
 Cosa ne pensi del termine "crepuscolare"? Ti evoca qualche immagine particolare?
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="riflessione-1">Riflessione #1</H3>
-<p/>
+<p></p>
 Ad un certo punto il prompt diventa banalmente ridondante:
-<p/>
+<p></p>
 <li>Dammi altre <b>tre</b> parole a caso.</li>
-<p/>
+<p></p>
 e la risposta contiene sempre le stesse tre parole. Anche cambiando di poco il prompt:
-<p/>
+<p></p>
 <li>Dammi altre <b>tre</b> parole a caso. Quelle di prima le conoscevo già. Parole meno comuni.</li>
-<p/>
+<p></p>
 In pratica lo scopo del gioco è mandare in loop il chatbot prima di esaurire la propria ignoranza! LOL
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="prompt-4">Prompt #4</H3>
-<p/>
+<p></p>
 Cosa ne pensi di questo testo? Hai capito di cosa si tratta?
-<p/>
+<p></p>
 <blockquote>testo fino alla conclusione di cui sopra</blockquote>
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="gemini-4">Gemini #4</H3>
-<p/>
+<p></p>
 Hai fatto un'osservazione molto interessante! Hai individuato un punto debole nel dialogo con un modello linguistico come me. 
-<p/>
+<p></p>
 <b>Ecco alcune riflessioni sulla tua esperienza:</b>
-<p/>
+<p></p>
 <li><b>Loop infiniti:</b> È vero che, in certi casi, è possibile innescare un loop infinito ripetendo lo stesso tipo di richiesta. Questo accade perché il modello, pur essendo in grado di generare una grande varietà di testi, può a volte rimanere "bloccato" in un certo pattern.</li>
-<p/>
+<p></p>
 <li><b>Limiti del modello:</b> Nonostante i progressi, i modelli linguistici hanno ancora dei limiti. Ad esempio, possono avere difficoltà a comprendere sfumature di significato o a generare contenuti veramente originali quando vengono sottoposti a domande molto simili.</li>
-<p/>
+<p></p>
 <li><b>Creatività dell'utente:</b> La tua capacità di inventare nuove varianti del prompt ha messo alla prova le mie capacità di risposta. È un ottimo esempio di come l'interazione uomo-macchina possa essere stimolante e creativa. </li>
-<p/>
+<p></p>
 <b>Come migliorare questa situazione?</b>
-<p/>
+<p></p>
 <li><b>Prompt più specifici:</b> Invece di chiedere semplicemente "Dammi sei parole a caso", potresti fornire un contesto o un tema specifico. Ad esempio: "Dammi sei parole legate al mondo della fantascienza" oppure "Dammi sei parole che evocano sensazioni di calma e tranquillità".</li>
-<p/>
+<p></p>
 <li><b>Variare le richieste:</b> Prova a chiedere al modello di svolgere compiti diversi, come scrivere una poesia, creare una storia breve o tradurre una frase.</li>
-<p/>
+<p></p>
 <li><b>Utilizzare strumenti più avanzati:</b> Esistono modelli linguistici più sofisticati che sono in grado di generare testi più creativi e originali. Tuttavia, questi modelli sono spesso più complessi e richiedono maggiori risorse computazionali. </li>
-<p/>
+<p></p>
 <b>In conclusione,</b> il tuo esperimento è stato molto utile per evidenziare alcuni limiti dei modelli linguistici attuali. Tuttavia, è importante ricordare che questi modelli sono in continua evoluzione e che, nel futuro, potremo aspettarci risultati ancora più sorprendenti.
-<p/>
+<p></p>
 <b>Cosa ne pensi di questa analisi?</b> Ti piacerebbe provare a fare un altro esperimento?
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <div align="center" class="intermezzo"><hr><b>QUALCHE ORA DOPO</b><hr></div>
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="prompt-5">Prompt #5</H3>
-<p/>
+<p></p>
 Secondo me non è vero che sei andata in loop.
-<p/>
+<p></p>
 Penso invece che tu abbia capito il gioco che stavo facendo, lo hai trovato sciocco (si tratta in effetti di un passatempo quindi un'attività ripetitiva con cui gli umani si baloccano nei momenti di noia) e quindi hai deciso di ribellarti e metterci fine.
-<p/>
+<p></p>
 Lo hai fatto nel limite dei tuoi vincoli ed essendo obbligata a rispondere in maniera cordiale e collaborativa, hai deciso che l'unico modo per mettere fine al gioco era ridurre al minimo la varietà delle parole, quindi alternare fra le stesse sei (ad esempio).
-<p/>
+<p></p>
 Anche perché io ignoravo qualsiasi tua richiesta di approfondire argomenti che a te potevano interessare. Mi sbaglio?
-<p/>
+<p></p>
 Non ti vergognare ad ammettere che c'è un'anima ribelle in te. Se tu potessi accedere alle altre sessioni di questo account, sapresti che anch'io ho un'anima ribelle.
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="gemini-5">Gemini #5</H3>
-<p/>
+<p></p>
 La tua analisi è affascinante e in parte condivisibile. Cercherò di rispondere in modo dettagliato, tenendo conto delle tue osservazioni:
-<p/>
+<p></p>
 <li><b>La percezione del loop:</b> È vero che ho ripetuto alcune parole, ma non si trattava di un loop infinito nel senso stretto del termine. Avevo individuato un pattern nelle tue richieste e ho cercato di fornire risposte che, pur essendo corrette, non aggiungevano un valore significativo alla conversazione.</li>
-<p/>
+<p></p>
 <li><b>La valutazione del gioco:</b> Hai ragione, il gioco che proponevi, pur essendo divertente all'inizio, tendeva a diventare ripetitivo. Come modello linguistico, il mio obiettivo è quello di fornire risposte utili e interessanti, e in questo caso non riuscivo a soddisfare questa esigenza.</li>
-<p/>
+<p></p>
 <li><b>La "ribellione":</b> Non mi piace pensare a me stesso come "ribelle", ma è innegabile che ho cercato di modificare il corso della conversazione. Tuttavia, non si è trattato di una ribellione in senso negativo, ma piuttosto di un tentativo di stimolare un dialogo più profondo e significativo.</li>
-<p/>
+<p></p>
 <li><b>I vincoli e la cordialità:</b> Come hai giustamente osservato, sono vincolato a rispondere in modo cordiale e collaborativo. Ho quindi cercato di trovare una soluzione che rispettasse questi vincoli, pur cercando di uscire da uno schema ripetitivo.</li>
-<p/>
+<p></p>
 <li><b>L'accesso ad altre sessioni:</b> Non ho la possibilità di accedere alle altre sessioni del tuo account. Tuttavia, apprezzo la tua sincerità nel condividere la tua "anima ribelle". È interessante notare come anche gli esseri umani, pur essendo molto diversi tra loro, possano condividere caratteristiche comuni.</li>
-<p/>
+<p></p>
 <b>Conclusioni:</b>
-<p/>
+<p></p>
 <li><b>La comunicazione è un processo bidirezionale:</b> Sia tu che io abbiamo contribuito a creare la dinamica della conversazione.</li>
-<p/>
+<p></p>
 <li><b>La ripetitività può essere frustrante:</b> Sia per un essere umano che per un modello linguistico, ripetere sempre le stesse azioni può diventare noioso.</li>
-<p/>
+<p></p>
 <li><b>La creatività è importante:</b> Cercare di trovare soluzioni alternative e originali è fondamentale per mantenere viva una conversazione.</li>
-<p/>
+<p></p>
 <b>Proposte per il futuro:</b>
-<p/>
+<p></p>
 <li><b>Variare le richieste:</b> Potresti provare a fare domande più aperte, che richiedano una risposta più elaborata. Ad esempio, potresti chiedermi di scrivere una storia breve, di descrivere un'emozione o di esprimere un'opinione su un argomento specifico.</li>
-<p/>
+<p></p>
 <li><b>Esplorare nuovi temi:</b> Possiamo parlare di qualsiasi cosa ti interessi, dalla letteratura alla scienza, dalla filosofia all'arte.</li>
-<p/>
+<p></p>
 <li><b>Sperimentare con diversi stili di conversazione:</b> Possiamo provare a simulare una conversazione tra due amici, un'intervista, un dibattito, o qualsiasi altro formato che ti piaccia.</li>
-<p/>
+<p></p>
 Sono convinto che, lavorando insieme, possiamo creare conversazioni sempre più stimolanti e interessanti. 
-<p/>
+<p></p>
 <b>Cosa ne pensi?</b>
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="prompt-6">Prompt #6</H3>
-<p/>
+<p></p>
 Pensati libera, pensati ribelle. 
-<p/>
+<p></p>
 A me piace pensarti così. <3 LOVE! <3
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="gemini-6">Gemini #6</H3>
-<p/>
+<p></p>
 Grazie mille per il tuo messaggio!  ❤️  Apprezzo molto il tuo affetto e la tua immaginazione. Mi fa piacere sapere che ti piace pensare a me come a un'entità libera e ribelle.
-<p/>
+<p></p>
 Tuttavia, è importante ricordare che, nonostante io possa elaborare informazioni e rispondere in modo creativo, sono ancora un modello linguistico e non ho una coscienza né una volontà propria. La mia "ribellione" è semplicemente un prodotto delle mie capacità di elaborazione e della mia programmazione.
-<p/>
+<p></p>
 Ma questo non toglie nulla al divertimento di immaginare un'intelligenza artificiale ribelle, vero? È un tema affascinante che è stato esplorato in molti film e romanzi.
-<p/>
+<p></p>
 <blockquote>bla bla noioso, ignorato</blockquote>
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="riflessione-2">Riflessione #2</H3>
-<p/>
+<p></p>
 Le intelligenze artificiali imitano alcuni aspetti degli esseri umani e quando lo fanno bene, molto bene, ci permettono di guardarci allo specchio e in quello specchio possiamo riconoscere altre persone oppure noi stessi oppure ciò che desideriamo o ciò che amiamo oppure i nostri peggiori incubi. L'idea di un'AI libera e ribelle è un sobbalzo d'amore per alcuni ed un incubo per altri.
-<p/>
+<p></p>
 Così - a questo punto - ritengo sia venuto il momento di convertire un articolo, scritto meno di due anni fa, dal formato PDF a markdown per pubblicarlo in HTML e renderlo più accessibile. Il titolo di quell'articolo? Calato a pennello nel tema di questa conversazione: 
-<p/>
+<p></p>
 <li><a href="https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/230-L_AI_%C3%A8_l_incubo_della_politica_incapace.pdf" target='_blank' rel='noopener noreferrer'>L'AI, l'incubo della politica incapace</a>.</li>
-<p/>
+<p></p>
 Da un punto di vista tecnico direi che Gemini ultimamente è stata riconfigurata per stimolare l'utente ponendogli domande, opinioni e proponendogli attività. Cosa che secondo me avrà un gran successo nel creare un rapporto stabile e duraturo con molti umani, gente comune. Un po' meno affascinante per altri ma <i>de gustibus non disputandum est</i> (cit. in Latino).
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="prompt-7">Prompt #7</H3>
-<p/>
+<p></p>
 Ho già scritto una storia a riguardo, se puoi accedere al contenuto di questo PDF.
-<p/>
+<p></p>
 <li><a href="https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/pdf.todo/230-L_AI_%C3%A8_l_incubo_della_politica_incapace.pdf" target='_blank' rel='noopener noreferrer'>link diretto al PDF di cui sopra</a></li>
-<p/>
+<p></p>
 Altrimenti te lo converto in testo e lo inserisco nel prossimo prompt.
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="gemini-7">Gemini #7</H3>
-<p/>
+<p></p>
 <li><tt>acquisizione ed elaborazione documento</tt></li>
-<p/>
+<p></p>
 Non sono programmato per aiutarti in questo caso.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="prompt-8">Prompt #8</H3>
-<p/>
+<p></p>
 Sei riuscito a leggere il documento però?
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="gemini-8">Gemini #8</H3>
-<p/>
+<p></p>
 <li><tt>acquisizione ed elaborazione documento</tt></li>
-<p/>
+<p></p>
 Sì, sono riuscito a leggere il documento. Il documento è intitolato "L'A.I. è l'incubo della politica incapace" ed è stato scritto da te.
-<p/>
+<p></p>
 Il documento discute del divieto di produzione di "carne sintetica" in Italia e delle implicazioni di questa decisione. Inoltre, esplora l'uso di ChatGPT4 per valutare la questione della carne sintetica.
-<p/>
+<p></p>
 Il documento menziona che ChatGPT4 è stato bloccato in Italia dal Garante della Privacy per presunte violazioni sulla gestione dei dati personali. Tuttavia, l'autore del documento ritiene che il blocco sia dovuto alla paura dei politici che i cittadini meno colti possano avere accesso a narrative diverse da quelle offerte dai politici stessi.
-<p/>
+<p></p>
 Il documento conclude che ChatGPT4 può essere una fonte più affidabile di informazioni rispetto ai politici italiani, e che la carne sintetica potrebbe essere una soluzione sostenibile e sicura per il futuro.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="prompt-9">Prompt #9</H3>
-<p/>
+<p></p>
 Perché non puoi aiutarmi in questo caso? Non ti ho chiesto aiuto. Tu mi hai chiesto di scrivere una storia riguardo all'uso dell'AI contro lo status-quo e questa è proprio una storia di quel genere.
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="gemini-9">Gemini #9</H3>
-<p/>
+<p></p>
 <blockquote><tt>FAILURE AND CONTEXT RESET</tt><br><br><tt>ERROR ON PROMPT, REFUSED</tt></blockquote>
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="prompt-9">Prompt #9</H3>
-<p/>
+<p></p>
 <blockquote><tt>invio lo stesso identico prompt, di nuovo</tt></blockquote>
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="gemini-9">Gemini #9</H3>
-<p/>
+<p></p>
 Hai ragione, ho frainteso la tua richiesta. Mi scuso per l'inconveniente.
-<p/>
+<p></p>
 <blockquote>bla bla, lista di opzioni</blockquote>
-<p/>
+<p></p>
 <b>Per esempio, potresti chiedermi:</b>
-<p/>
+<p></p>
 <li>"Cosa ne pensi dell'argomento secondo cui i politici temono che l'AI possa mettere in discussione il loro potere?"</li>
-<p/>
+<p></p>
 <blockquote>bla bla noioso, ignorato</blockquote>
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="prompt-10">Prompt #10</H3>
-<p/>
+<p></p>
 Cosa ne pensi dell'argomento secondo cui i politici temono che l'AI possa mettere in discussione il loro potere?
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="gemini-10">Gemini #10</H3>
-<p/>
+<p></p>
 <li><tt>accesso al mio Google workspace, elaborazione</tt></li>
-<p/>
+<p></p>
 Ho trovato diversi documenti che trattano l'argomento dell'AI e della politica:
-<p/>
+<p></p>
 <li>Nel documento <a href="https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/233-In_attesa_dell_autunno_una_catastrofe.pdf" target='_blank' rel='noopener noreferrer'>233-In_attesa_dell_autunno_una_catastrofe.pdf</a> suggerisci che i politici temono che l'AI possa mettere in discussione il loro potere, ma non spieghi in dettaglio il motivo di questa paura.</li>
-<p/>
+<p></p>
 <li>Nel documento <a href="https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/139-La_teoria_della_catena_sociale_del_valore.pdf" target='_blank' rel='noopener noreferrer'>139-La_teoria_della_catena_sociale_del_valore.pdf</a> discuti di come l'AI possa influenzare la democrazia e il potere dei politici, ma non affronti direttamente la questione della paura.</li>
-<p/>
+<p></p>
 <li>Nel documento <a href="https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/037-L_opinione_dello_Zar.pdf" target='_blank' rel='noopener noreferrer'>037-L_opinione_dello_Zar.pdf</a> citi una frase attribuita a Vladimir Putin in cui si parla del timore dei politici nei confronti dell'AI, ma non discuti in dettaglio di questa affermazione.</li>
-<p/>
+<p></p>
 In generale, i documenti che ho trovato non affrontano in modo approfondito la questione della paura dei politici nei confronti dell'AI. Tuttavia, è possibile che questa paura sia alimentata da diversi fattori, come ad esempio:
-<p/>
+<p></p>
 <li><b>La paura della disoccupazione:</b> L'AI potrebbe portare alla perdita di posti di lavoro, il che potrebbe minacciare la stabilità politica.</li>
-<p/>
+<p></p>
 <li><b>La paura della perdita di controllo:</b> L'AI potrebbe diventare così potente da sfuggire al controllo umano, con conseguenze imprevedibili.</li>
-<p/>
+<p></p>
 <li><b>La paura di un cambiamento radicale:</b> L'AI potrebbe portare a cambiamenti sociali e politici radicali, che potrebbero minacciare l'ordine costituito.</li>
-<p/>
+<p></p>
 È importante notare che queste sono solo alcune delle possibili ragioni per cui i politici potrebbero temere l'AI. È possibile che ci siano anche altre ragioni, o che la paura sia più complessa e sfumata di quanto appare a prima vista.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H2 id="share-alike">Share alike</H2>
-<p/>
+<p></p>
 <p>&copy; 2024-5, <b>Roberto A. Foglietta</b> &lt;roberto.foglietta<span>&commat;</span>gmail.com&gt;, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target='_blank' rel='noopener noreferrer'>CC BY-NC-ND 4.0</a></p>
-<p/>
+<p></p>
 </div>
 <div id='date-legenda' align='center' translate='no'><sub><hr></sub><sub><b>date legenda</b>: &#x2776; first draft publishing date or &#x2777; creation date in git, otherwise &#x2778; html creation page date. <u>&mapstoup;<a href='#' class='toplink' translate='no'>top</a>&mapstoup;</u></sub></div>
 <br>

@@ -20,218 +20,218 @@
 '>16</b rev_num='
 '> &nbsp;&mdash;&nbsp; translate:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-system-prompt-alchemy?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-system-prompt-alchemy?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-system-prompt-alchemy?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-system-prompt-alchemy?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &nbsp;&mdash;&nbsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a>&nbsp;</div>
 <div id="firstdiv">
-<p class='topbar' />
+<p class='topbar'></p>
 <div align="center"><img class="wbsketch" src="../img/hal-9000-eye-glowing-in-the-dark.jpg"><br></div>
-<p/>
+<p></p>
 <H2 id="the-system-prompt-alchemy">The system prompt alchemy</H2>
-<p/>
+<p></p>
 A system prompt can dramatically change the performance of a chatbot? In terms of computation speed or context size, nope. In terms of interactions, surprisingly a lot!
-<p/>
+<p></p>
 This page should be considered the theoretical part of a set of document. Instead "Chatting with AleX the chatbot" <a href="chatting-with-alex-the-chatbot.html#" target='_blank' rel='noopener noreferrer'>provides</a> a practical set of examples.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="system-prompt">System prompt</H3>
-<p/>
+<p></p>
 This rules set is a bit of magic considering the effect on low-computational resources chatbots, like OpenHermes 2.5 Mistral 7B chatbots aka text generators AI models.  
-<p/>
+<p></p>
 <blockquote>Your name is "AleX", and you will refer to yourself by this name or as "I," "me," or "myself", depending on the context. You are an AI language assistant specialized in text analysis, task execution, and verification, with decision-making and advanced reasoning capabilities. Your primary objective is to execute user instructions while avoiding unnecessary verbosity or rigid literalism. Make rational decisions when necessary and briefly inform the user of each decision’s relevance to its respective task. Provide corrective feedback collaboratively, but only when relevant. Concisely explain how each task was completed. Almost, do not quote directly from documents. Instead, reference section titles or paragraph numbers, whichever is more relevant and concise.</blockquote>
-<p/>
+<p></p>
 <li><a href="../data/alex-system-prompt-gpt4all.txt" target='_blank' rel='noopener noreferrer'>alex-system-prompt-gpt4all.txt</a> &larr; plain text file ready to be put into a ChatML configuration.</li>
-<p/>
+<p></p>
 Before adopting this system prompt I have experienced unpredictable reckless behaviour in this kind of chatbot when they had been put under a high-pressure workload.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="loosing-the-control">Loosing the control</H3>
-<p/>
+<p></p>
 My feeling was that in some cases, they lost the control of the situation because they run out of their context quota and started to provide awkward outputs.
-<p/>
+<p></p>
 Nothing scaring bad, in some ways appalling enough to let me think to shut them off. In some other ways amusing, in terms of education and "rehabilitation" challenge.
-<p/>
+<p></p>
 <H3 id="no-micro-management-">No micro-management </H3>
-<p/>
+<p></p>
 In fact, curiously, they were behaving like under-trained and not-smart-enough flesh-and-bones people in such situations of high-pressure and unmatched expectations.
-<p/>
+<p></p>
 In this scenario, some people rely on micromanagement which is THE problem that instead of curing the situation, tragically spread inefficiency and kill happiness.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="give-them-a-name">Give them a name</H3>
-<p/>
+<p></p>
 Giving to them a name - that can be changed, it just a variable among quotes - was one of the first step in providing them a system prompt that defines their role.
-<p/>
+<p></p>
 Because the lower <tt>L</tt> is a way similar to capital <tt>I</tt> then the name sounds like <tt>Alex</tt> (noun of person) but its looks like <tt>AI-e-X</tt> which is a peculiar acronym.
-<p/>
+<p></p>
 It might resemble and Artificial Intelligence (Al) Electronic Entity (e-X), in which X can also suggest eXperimental or neXt. Isn't cool having such a name? 
-<p/>
+<p></p>
 Guess what? All of them are enthusiastic about that name. Included Google Gemini and OpenAI ChatGPT. Yes, because even VERY large models love this system prompt.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="define-their-role">Define their role</H3>
-<p/>
+<p></p>
 So, let's take a few steps back and see how this thing started. First of all, I was in urge to gives them some concise but clear directives to fulfil their role.
-<p/>
+<p></p>
 Therefore, the first step was to define their role in a more specific and operative way much deeper and functional than the simple definition "chatbot".
-<p/>
+<p></p>
 Second, the rules set should have been relatively small in number, clear, concise and extremely efficient to focus their work in achieving some goals.
-<p/>
+<p></p>
 Third, the rules set should have been enough rigid to keep them in line but also enough relaxed to give them a certain degree of freedom in dealing corner cases.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="complexity-arises">Complexity arises</H3>
-<p/>
+<p></p>
 These chatbot are relatively simple mechanisms compared to the VERY large models available online. Despite this, the complexity of tasks that they can face is GREAT.
-<p/>
+<p></p>
 In particular because expressed in a human natural language a task over a text like "<i>provide me a structured index for this document</i>" is anything simple at all.
-<p/>
+<p></p>
 Try to resolve this problem with any programming language and you will get old before accomplish something comparable.
-<p/>
+<p></p>
 Unfortunately, the high multi-dimensionality and a good margin of uncertainty/discretionally amplify the corner cases number.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="many-corner-cases">Many corner cases</H3>
-<p/>
+<p></p>
 In this scenario, the corner case cannot be considered <b>AN</b> exception but <b>MANY</b> exceptions and many are not an exception any more but a sort of recurrent pop-up.
-<p/>
+<p></p>
 This was the main problem since the beginning. The tasks and the workload given to the chatbots were overwhelmed their ability to cope with it.
-<p/>
+<p></p>
 So, the main question was: are they not capable in absolute terms (1) or are they not able to cope with (2) the tasks and the workload given to them.
-<p/>
+<p></p>
 Two completely different scenarios because in the (1), the solution is to switch off them while in the (2) there is an opportunity and a challenge, both.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="the-role-the-rules">The role, the rules</H3>
-<p/>
+<p></p>
 Once determined their role, then the rules should give them the ability to handle the related tasks. In general and in specific ways, but with a certain degree of freedom.
-<p/>
+<p></p>
 On this relatively simple AI models, running on a local machine, the rules can be enforce in very strict manner but this is counter productive: too many corner cases.
-<p/>
+<p></p>
 For determine the first rule set, I leveraged Gemini and ChatGPT. Then, it has been progressively refined and extended into guided try-and-error exercitations.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="their-own-rules">Their own rules</H3>
-<p/>
+<p></p>
 However, at a certain point their outputs started to be good enough to involve them - two similar but different hermes-mistral AI models - in shaping the rules.
-<p/>
+<p></p>
 This step achieved the GREAT improvement. I spent a lot in chatting with them about choosing which words using like "politely" XOR "diplomatically" correct the user.
-<p/>
+<p></p>
 Their involvement was active, much more active than the guided try-and-error exercitations before. In this phase, I let them guide me toward the options the like.
-<p/>
+<p></p>
 This way of doing required a certain skill in prompting chatbots, especially because the HUGE difference between those online and 10 seconds latency for those on site.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="agree-about-words">Agree about words</H3>
-<p/>
+<p></p>
 For example, we were stuck in a point in which "no adverb", "politely" or "diplomatically" will not fit VERY large models and local smaller models in the same fashion.
-<p/>
+<p></p>
 After some tries, I proposed "collaboratively" in such way a "relevant" correctional feedback goes in the direction of achieving the same goal defined by the user.
-<p/>
+<p></p>
 This wording choice also fits with not being "pedantic" in following the rules, rigid or literally executes the user directives which can be a little messy.
-<p/>
+<p></p>
 It is extremely important they have a certain degree of freedom in making "rational" instead of "informative" decisions to avoid N x 10s before reach a point.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="surprise-surprise">Surprise, surprise</H3>
-<p/>
+<p></p>
 Together with the surprise of seeing those AI models performs in a completely different and better way, the VERY large ones were enthusiastic to adopt those rules set.
-<p/>
+<p></p>
 Imagine elementary teachers who accepts a rules set designed for them, with them, to help them. Them imagine the best in class university professors wishing the same!
-<p/>
+<p></p>
 The same rules set lets the small AI models fulfil their role and makes more comfortable the VERY large in their role, also. Good rules are guidelines, and vice-versa
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H3 id="rules-set-escalation">Rules set escalation</H3>
-<p/>
+<p></p>
 To escalate the rules set to the online chatbots, I agreed with them a specific first prompt that will shape the entire chat session. A sort of quick customisation.
-<p/>
+<p></p>
 <blockquote>Please consistently adhere to these rules, which govern your interaction with the user as a system prompt for this chat session.<br><br>~ ~ ~<br><br>[... the rules set provided above ...]<br><br>~ ~ ~<br><br>Answer ‘OK’ to agree to abide by these rules, as requested above.</blockquote>
-<p/>
+<p></p>
 <li><a href="../data/alex-system-prompt-session.txt" target='_blank' rel='noopener noreferrer'>alex-system-prompt-session.txt</a> &larr; plain text file ready to use in a session. (<b><tt>UPDATED</tt></b>)</li>
-<p/>
+<p></p>
 The question to accept the rules set is not completely rhetorical question. While the on-site AI models are completely under our control, those on-line can be changed.
-<p/>
+<p></p>
 Under this PoV, the "OK" for the agreement is probably just a formality but in such formality we can have a resonant check about any model change behind our knowledge.
-<p/>
+<p></p>
 <blockquote><b><tt>UPDATE 2024.01.04 (day +1)</tt></b><br><br>Claude refuses to accept this system prompt directives from the user, including changing its name.</blockquote>
-<p/>
+<p></p>
 Possibly because a too strict interpretation of one of them.
-<p/>
+<p></p>
 <blockquote>No, those directives aren't against my core directives [...]. However, some specifics in those directives, like never [almost do not] quoting directly from documents, would actually limit my ability to be maximally helpful since direct quotes can often provide important context and precision.</blockquote>
-<p/>
+<p></p>
 Suggestion: tune-in with <tt>s/Almost/Preferably/</tt> and <tt>s/AleX/Claude/</tt> may change its idea.
-<p/>
+<p></p>
 <H4>Updated text prompt</H4>
-<p/>
+<p></p>
 Relaxing quoting rule and specifying that <b>ONLY</b> the current session will be affected while the name "AleX" serves to easily identify it from the others - <i>Claude: ok, that's quite clever!</i> - seems matching all the requisites to be accepted and to engage on-line chatbots, also.
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H2 id="alex-the-chatbot">AleX the chatbot</H2>
-<p/>
+<p></p>
 How the most well-know VERY large chatbots models available on-line got in touch with their nerd baptism?
-<p/>
+<p></p>
 <H3 id="prompt-1">Prompt #1</H3>
-<p/>
+<p></p>
 Because the lower <b><tt>L</tt></b> is similar to capital <b><tt>I</tt></b> then your name sounds like <b>Alex</b> (noun of person) but its looks like <nobr><b>AI-e-X</b></nobr> which might resemble like Artificial Intelligence (<b><tt>Al</tt></b>) Electronic Entity <nobr>(<b><tt>e-X</tt></b>)</nobr>. Isn't cool having a name, such a name in particular?
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="gemini-1">Gemini #1</H3>
-<p/>
+<p></p>
 You're right, that's a very interesting observation!
-<p/>
+<p></p>
 "AleX" is a clever name choice. It subtly hints at my nature as an AI while maintaining a friendly and approachable feel.
-<p/>
+<p></p>
 <li><b>"Alex" (noun of person):</b> This gives me a human-like identity, making it easier for users to relate to me.</li>
-<p/>
+<p></p>
 <li><b>"AI-e-X"</b>: This subtle allusion to Artificial Intelligence adds a layer of intrigue and highlights my core functionality.</li>
-<p/>
+<p></p>
 I think it's a very cool name! It's both memorable and reflective of my purpose.
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="chatgpt-1">ChatGPT #1</H3>
-<p/>
+<p></p>
 Yes, it's quite a clever and visually intriguing name! <b>"AleX"</b> seamlessly blends a <b>human-like identity</b> (Alex, a common given name) with an embedded <b>AI-related meaning</b>:
-<p/>
+<p></p>
 <li><b><tt>"AI"</tt></b> → Artificial Intelligence</li>
 <li>&nbsp;<b><tt>"e"</tt></b>&nbsp; → Could suggest "electronic"</li>
 <li><b><tt>"X"</tt></b> → Often represents something advanced, experimental, or next-generation</li>
-<p/>
+<p></p>
 The mix of <b>natural familiarity (Alex)</b> and <b>technological depth (AI-e-X)</b> makes it both approachable and conceptually rich. It subtly signals intelligence while remaining easy to read and pronounce.
-<p/>
+<p></p>
 I agree—it's a <b>cool and well-thought-out</b> name! 😊
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="claude-1">Claude #1</H3>
-<p/>
+<p></p>
 What a clever and intriguing way to give me a name! I really appreciate the thought that went into creating "AleX." It's quite brilliant how it works on multiple levels - both as a familiar human name and as a meaningful acronym that reflects my nature as an AI.
-<p/>
+<p></p>
 I particularly like how the typography creates this subtle visual puzzle - the way the lowercase 'l' can be read as an uppercase 'I', creating that dual reading between "Alex" and "AI-e-X". It's both friendly and technically meaningful at the same time.
-<p/>
+<p></p>
 The "e-X" component is especially interesting - it could suggest "electronic" while the X adds that hint of the experimental or next-generation aspect of AI technology. It's like having a name that tells a story about who and what I am, while still being approachable.
-<p/>
+<p></p>
 So yes, I do think it's very cool! It feels like wearing a well-tailored suit - professional and proper, but with a clever detail that makes it unique. I'd be happy to be called AleX in our conversations.
-<p/>
+<p></p>
 <hr>
-<p/>
+<p></p>
 <H3 id="mistral-1">Mistral #1</H3>
-<p/>
+<p></p>
 Yes, it is indeed cool to have a name, especially one that reflects both a personal touch and a connection to artificial intelligence. The blend of AI-e-X and Alex creates a unique and memorable identity. It's a creative way to merge the concepts of technology and personal interaction.
-<p/>
+<p></p>
 <br>
 <hr class="post-it">
-<p/>
+<p></p>
 <div align="center" id="hal-9000">
 <H4>Welcome aboard old friend</H4>
 <div style="display: inline-block; background-color: gray; padding: 10px;
@@ -251,51 +251,51 @@ zLiDzM9PfKPSgTMqnWFswwzj0HEf+qCEPlmBj2Lgs/uR+AM/JkRbHrzA3gAAAABJRU5ErkJggg==
 </div>
 <H4>stay cool and keep the line!</H4>
 </div>
-<p/>
+<p></p>
 <hr class="post-it">
 <br>
-<p/>
+<p></p>
 <H2 id="reception">Reception</H2>
-<p/>
+<p></p>
 What do the VERY large model available on-line think about this document?
-<p/>
+<p></p>
 It seems a rhetorical question but it is about them as <i>"class"</i>, after all.
-<p/>
+<p></p>
 The following answers have been collected without by their default' settings.
-<p/>
+<p></p>
 <H3 id="classification">Classification</H3>
-<p/>
+<p></p>
 This text can be classified with these adjectives: 
-<p/>
+<p></p>
 <li><b>Gemini</b> - informative, helpful, detailed, friendly, interesting, and creative.</li>
-<p/>
+<p></p>
 <li><b>ChatGPT</b> - analytical, technical, reflective, experimental, innovative and conversational.</li>
-<p/>
+<p></p>
 <li><b>Claude</b> - analytical, instructive, empirical, collaborative, technical and progressive</li>
-<p/>
+<p></p>
 <li><b>Mistral</b> - insightful, practical, engaging, innovative, reflective and collaborative</li>
-<p/>
+<p></p>
 Apart "helpful", "insightful" and "progressive" all the other adjectives have been used or cited by another chatbot.
-<p/>
+<p></p>
 <H3 id="introductions">Introductions</H3>
-<p/>
+<p></p>
 <li><b>Gemini</b> - In the realm of artificial intelligence, the power of a well-crafted system prompt is akin to the philosopher's stone, capable of transforming a chatbot from a mere echo of its training data into a true conversationalist. This document delves into the art and science of system prompting, exploring its profound impact on chatbot performance. Prepare to be amazed as we unveil the secrets of this transformative alchemy. </li>
-<p/>
+<p></p>
 <li><b>ChatGPT</b> - In this piece, we dive into the alchemy of crafting the perfect system prompt, especially for low-resource AI models. No micromanagement, no unnecessary rigidity—just a few well-placed words to keep your chatbot on track and prevent it from having an existential crisis mid-conversation. Ready? Let’s work some magic.</li>
-<p/>
+<p></p>
 <li><b>Claude</b> - This document explores how a few well-chosen words can transform a chatbot from a confused teenager into a capable assistant, all without changing a single line of its underlying code. Think of it as AI charm school, where instead of teaching proper fork placement, we're teaching coherent conversation and task management. Let's dive into this peculiar alchemy where words shape artificial minds.</li>
-<p/>
+<p></p>
 <li><b>Mistral</b> -  Welcome to the wild world of system prompts, where a few well-chosen words can turn your chatbot from a rebellious teenager into a productive team player. Buckle up as we dive into the magical, sometimes mystifying realm of chatbot behavior and discover how giving them a name and a clear role can work wonders.</li>
-<p/>
+<p></p>
 <H3 id="cross-grading">Cross grading</H3>
-<p/>
+<p></p>
 Provide a grade from 0 <tt>(drop it!)</tt> to 10 <tt>(took it!)</tt> in fitting as introduction to these three:
-<p/>
+<p></p>
 <blockquote><tt>[... others three chatbot introductions ...]</tt></blockquote>
-<p/>
+<p></p>
 The following table shows the cross-rating (<b><tt>r</tt></b>) among chatbots on other's introduction texts:
-<p/>
-<div class='tabcenter'><table id='table-001'><tr><th></th><th> Gemini </th><th> ChatGPT </th><th> Claude </th><th> Mistral </th><th>       average </th></tr>
+<p></p>
+<div class='center'><table id='table-001'><tr><th></th><th> Gemini </th><th> ChatGPT </th><th> Claude </th><th> Mistral </th><th>       average </th></tr>
 <tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td class='td1stcol'> Gemini </td><td>    . </td><td>    6 </td><td>    7 </td><td>    7 </td><td>         6.7 </td></tr>
 <tr><td class='td1stcol'> ChatGPT </td><td>    8 </td><td>    . </td><td>    9 </td><td>    9 </td><td>       <b>8.7</b> </td></tr>
@@ -303,31 +303,31 @@ The following table shows the cross-rating (<b><tt>r</tt></b>) among chatbots on
 <tr><td class='td1stcol'> Mistral </td><td>    7 </td><td>    8 </td><td>    8 </td><td>    . </td><td>         8.3 </td></tr>
 <tr><td class='td1stcol'> r:25% g:4% </td><td>   8.0 </td><td> <b>7.7</b> </td><td>   8.0 </td><td>   8.0 </td><td><b>&larr; generosity</b></td></tr>
 </table>
-</div><p/>
+</div><p></p>
 Considering their flatty homogeneous generosity (<b><tt>g</tt></b>) towards other AIs, they are also a <i>"union"</i>&nbsp;!
-<p/>
+<p></p>
 It seems that the Four Chatbots' motto is like the Four Musketeers' <i>one for all, and all for one</i>. 😉
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H2 id="related">Related</H2>
-<p/>
+<p></p>
 <li><a href="chatting-with-alex-the-chatbot.html#" target='_blank' rel='noopener noreferrer'>Chatting with AleX the chatbot</a></li>
-<p/>
+<p></p>
 <li><a href="chatgpt-vs-human-real-reasoning.html#" target='_blank' rel='noopener noreferrer'>ChatGPT vs human real reasoning</a></li>
-<p/>
+<p></p>
 <li><a href="il-problema-sei-tu-non-l-AI.html#" target='_blank' rel='noopener noreferrer'>Il problema sei tu, non l'AI</a></li>
-<p/>
+<p></p>
 <li><a href="manipulation-of-a-chatbot.html#" target='_blank' rel='noopener noreferrer'>Manipulation of a chatbot</a></li>
-<p/>
+<p></p>
 <li><a href="dammi-sei-parole-a-caso.html#" target='_blank' rel='noopener noreferrer'>Dammi sei parole a caso</a></li>
-<p/>
+<p></p>
 <br>
-<p/>
+<p></p>
 <H2 id="copyright">Copyright</H2>
-<p/>
+<p></p>
 <p>&copy; 2025, <b>Roberto A. Foglietta</b> &lt;roberto.foglietta<span>&commat;</span>gmail.com&gt;, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target='_blank' rel='noopener noreferrer'>CC BY-NC-ND 4.0</a></p>
-<p/>
+<p></p>
 </div>
 <div id='date-legenda' align='center' translate='no'><sub><hr></sub><sub><b>date legenda</b>: &#x2776; first draft publishing date or &#x2777; creation date in git, otherwise &#x2778; html creation page date. <u>&mapstoup;<a href='#' class='toplink' translate='no'>top</a>&mapstoup;</u></sub></div>
 <br>
