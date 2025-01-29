@@ -1,5 +1,5 @@
 <div id="firstdiv" created="2025-01-25:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
-<style>@page { size: legal; }; @media print { html { zoom: 100%; }; };</style>
+<style>@page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; }; @media print { html { zoom: 100%; }; };</style>
 
 <div align="center"><img class="bwsketch" src="img/dual-psu-fujutsu-esprimo-p910.jpg" width="800"><br></div>
 
@@ -29,7 +29,7 @@ Well - *cannot be replaced* - in the sense of a spare part because mechanical ch
 
 However, as you can imagine some mods' outcomes are way unpredictable compared to assembly of commercially available parts. In particular when 220V power supply is involved.
 
----
+~~~
 
 ### The DVD bay
 
