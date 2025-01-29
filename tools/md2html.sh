@@ -102,7 +102,7 @@ function md2htmlfunc() {
 -e "s,^\[\!INFO\],$info_A," -e "s,^\[/INFO\],$info_B," \
 -e "s,m\*rda,m\&astr;rda,g" -e "s,sh\*t,sh\&astr;t,g" \
 -e "s,c\*zzo,c\&astr;zzo,g" -e "s,d\*ck,d\&astr;ck,g" \
--e 's,^ *!\[\([^]]*\)\](\([^)]*\)) *$,<center><img src="\2"><br/>\1</center>,' \
+-e 's,^ *!\[\([^]]*\)\](\([^)]*\)) *$,<center><img src="\2"><br>\1</center>,' \
 -e 's,!\[\([^]]*\)\](\([^)]*\)),<img src="\2" alt="\1">,g' \
 -e 's,^# \([^<]*\)\(.*\),<H1 id="\1">\1\2</H1>,' \
 -e 's,^## \([^<]*\)\(.*\),<H2 id="\1">\1\2</H2>,' \
@@ -115,18 +115,18 @@ function md2htmlfunc() {
 -e "s,^\( *\)[-+\*] \(.*\),\\1<li>\\2</li>," \
 -e "s,^\( *\)\([0-9]*\)\. \(.*\),\\1${li_A}\\2${li_B}\\3</li>," \
 -e "s,\\\<\(.*\)\\\>,\&lt;\\1\&gt;,g" \
--e 's,^+\{6\,\} *$,<div class="pagebreak"><br/></div>,' \
+-e 's,^+\{6\,\} *$,<div class="pagebreak"><br></div>,' \
 -e 's,^+\{5\} *$,<br class="pagebreak">,' \
 -e 's,^+\{4\} *$,<div class="pagebreak"></div>,' \
 -e 's,^\.\{4\,\} *$,<div class="pagebreak"><hr class="post-it"></div>,' \
--e 's,^\=\{4\,\} *$,<div class="pagebreak"><br/><hr><br/></div>,' \
+-e 's,^\=\{4\,\} *$,<div class="pagebreak"><br><hr><br></div>,' \
 -e 's,^\-\{4\,\} *$,<div class="pagebreak"><hr></div>,' \
 -e 's,^\~\{4\,\} *$,<hr class="pagebreak">,' \
 -e 's,^\~\{3\} *$,<hr class="hidden">,' \
 -e 's,^\.\{3\} *$,<hr class="post-it">,' \
--e "s,^\=\{3\} *$,<br/><hr><br/>," \
+-e "s,^\=\{3\} *$,<br><hr><br>," \
 -e "s,^\-\{3\} *$,<hr>," \
--e "s,^+++ *$,<br/><br/><br/>," -e "s,^++ *$,<br/><br/>," -e "s,^+ *$,<br/>," \
+-e "s,^+++ *$,<br><br><br>," -e "s,^++ *$,<br><br>," -e "s,^+ *$,<br>," \
 -e "s,^ *$,<p/>,"
 
     eval title_tags_add "$2" $(sed -ne 's,<H[1-3] id=.\([^>]*\).>.*,"\1",p' $2)
@@ -165,8 +165,8 @@ function md2htmlfunc() {
             break
         fi
     done
-    sed -e 's,</blockquote>\(@*\)<blockquote>,<br/>,g' \
-        -e 's,<blockquote>\(@*\)</blockquote>,<br/>,g' -i $tf
+    sed -e 's,</blockquote>\(@*\)<blockquote>,<br>,g' \
+        -e 's,<blockquote>\(@*\)</blockquote>,<br>,g' -i $tf
 
     txt="html/items/pagebody.htm"
     declare -i n=$(grep -n "BODY_CONTENT" $txt | cut -d: -f1)
@@ -180,7 +180,7 @@ function md2htmlfunc() {
     TOPLINK=$(get_html_item_str html/items/toplink.htm)
     get_html_item_str html/items/footnote.htm >> $2
 
-    echo "<br/>
+    echo "<br>
     </body>
 </html>" >> $2
 
