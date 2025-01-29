@@ -45,6 +45,8 @@ info_B='</div>'
 cite_A='<blockquote class="cite">'
 cite_B='</blockquote>'
 
+p_line="<p></p>"
+
 TARGET_BLANK="target='_blank' rel='noopener noreferrer'"
 
 ################################################################################
@@ -127,12 +129,14 @@ function md2htmlfunc() {
 -e "s,^\=\{3\} *$,<br><hr><br>," \
 -e "s,^\-\{3\} *$,<hr>," \
 -e "s,^+++ *$,<br><br><br>," -e "s,^++ *$,<br><br>," -e "s,^+ *$,<br>," \
--e "s,^ *$,<p/>,"
+-e "s,^>>>| *$,<div class='indent'>," -e "s,^|<<< *$,</div>," \
+-e "s,^|x|> *$,<div class='center'>," -e "s,^<|x| *$,</div>," \
+-e "s,^ *$,$p_line,"
 
     eval title_tags_add "$2" $(sed -ne 's,<H[1-3] id=.\([^>]*\).>.*,"\1",p' $2)
 
     tf=$2.tmp
-    cat $2 | tr '\n' '@' | sed -e "s,<p/>,<p class='topbar' />," >$tf
+    cat $2 | tr '\n' '@' | sed -e "s,$p_line,<p class='topbar'></p>," >$tf
     while true; do
         str=$(sed -ne 's,__,<u>,' -e 's,__,</u>,p' $tf);
         if [ -n "$str" ]; then

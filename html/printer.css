@@ -16,21 +16,24 @@
         width: 0px;    
     }
     hr.pagebreak, div.pagebreak hr, div.pagebreak br, br.pagebreak {
-        display: none;
-        overflow: hidden;
-        visibility: hidden;
+        display: none !important;
+        overflow: hidden !important;
+        visibility: hidden !important;
         border-color: transparent;
         color: transparent;
         height: 0px;
         width: 0px;
     }
     .hidden, hr.hidden, div.hidden hr, div.pagebreak hr.hidden {
-        overflow: hidden;
-        visibility: hidden;
         display: inline-block;
+        overflow: hidden !important;
+        visibility: hidden !important;
         border-color: transparent;
         color: transparent;
     }
+    .topbar, div.topbar, a.topbar { color: black; background-color: white; }
+    div.topbar { border: 1px solid; }
+    a.topbar { border: none; }
     * {
         -webkit-print-color-adjust: exact !important;   /* Chrome, Safari 6 – 15.3, Edge */
         print-color-adjust: exact !important;           /* Firefox 97+, Safari 15.4+ */

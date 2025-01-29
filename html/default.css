@@ -168,9 +168,9 @@ ul.dqt {
     left: -30px;
 }
 
-.tabcenter {
-    text-align: center;
-}
+.center { text-align: center; }
+
+.indent { position: relative; left: 10%; }
 
 table {
     width: 800px;
