@@ -5,7 +5,7 @@
  *
  * Suggested fonts:
  *
- * - Serif: Roboto Serif, Noto Serif
+ * - Serif: Roboto Serif, Noto Serif, PT Serif
  * - Sans-Serif: Roboto, Noto Sans, Ubuntu
  * - Monospaced: Roboto Mono, Noto Sans Mono, Ubuntu Mono
  * - Condensed: Roboto Condensed, Ubuntu Condensed
@@ -14,7 +14,15 @@
  *
  * ATTENTION - every font change may distript the printing template
  *
+ * W3C HTML safe fonts:
+ * - https://www.w3schools.com/cssref/css_websafe_fonts.php
+ *
+ * Default PDF 14 fonts:
+ * - https://www.ibm.com/docs/en/cmofi/7.3.0?topic=indexer-pdf-fonts-output-file-size
+ *
  ******************************************************************************/
+
+@import url('ubuntu.css');
 
 #menu {
     cursor: pointer;
@@ -43,6 +51,7 @@ body {
 /*/
     font-family: "Ubuntu", sans-serif;
 /**/
+    font-size: 16px;
     text-align: justify;
     line-height: 1.75;
  /*\,-Remove this parenthesys to set the font size */
@@ -66,7 +75,7 @@ div.post-it {
     border: 1px dashed;
     border-radius: 16px;
     padding: 5px 40px 5px 40px;
-    font-family: "Comic Neue", cursive;
+    font-family: "Brush Script MT", cursive;
     position: relative; /* b.post-it needs this line */
 }
 
@@ -78,10 +87,10 @@ b.post-it {
 
 blockquote {
 /*  color: darkwhite; */
-    font-size: 100%;
+    font-size: 16px;
     line-height: 1.5;
     text-align: justify;
-    font-family: "Noto Serif", serif;
+    font-family: "Times Roman", "Times New Roman", serif;
 
     width: 760px;
 /*  background-color: #383838; */
@@ -126,7 +135,7 @@ tt {
 /**)/
     font-family: "Roboto Mono", monospace; font-size: 90%; top: -0.5px;
 /*/
-    font-family: "Ubuntu mono", monospace;
+    font-family: "Ubuntu Mono", monospace;
 /**/
     padding-left: 0.25em;
     padding-right: 0.25em;
@@ -249,6 +258,7 @@ div.topbar {
     padding-bottom: 12px;
     border-bottom: 1px solid;
     border: 1px solid transparent;
+    text-align: center;
 }
 
 sup.date-type {

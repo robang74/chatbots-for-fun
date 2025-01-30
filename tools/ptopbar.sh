@@ -74,7 +74,7 @@ function print_topbar() {
         TRNSL_STRN=""
     fi
 
-    TOPBAR_STRING="<p class='topbar' />
+    TOPBAR_STRING="<p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'>"\
 "${LINE_MENU} ${LINE_DASH} &#8543;&#8239;release: <b class='topbar'>"\
 "${PUBLISH_UNIVDATE}</b> ${REVISION_STRING}${ORIGIN_CODE}${TRNSL_STRN}"
@@ -91,7 +91,7 @@ function print_topbar() {
 "$(test $i -ne 1 && printf target='_blank')>${GOTO_LINKS[$i,2]}</a>"
         if [ $i -lt 3 ]; then TOPBAR_STRING+=" ${MDOT_DASH}"; fi
     done
-    echo "${TOPBAR_STRING}${PRINT_LNK}&nbsp;</div></p>"
+    echo "${TOPBAR_STRING}${PRINT_LNK}&nbsp;</div>"
 
 }
 

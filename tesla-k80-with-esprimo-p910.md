@@ -21,7 +21,7 @@ Unfortunately the K80 has not been designed for PC/Desktop use and therefore it 
 
 The first one, is a specific problem in trying to use the K80 installed in a PC/Desktop instead of a server designed to specifically host this kind of cards. Another alternative is using an external rack similar to those used for crypto-mining but smaller.
 
-~~~
+----
 
 ### Fitting into the case
 

@@ -27,15 +27,13 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 * [open discussions forum](https://github.com/robang74/roberto-a-foglietta/discussions) by/with the author.
 
-++++
-
 ### Related
 
 * [Roberto A. Foglietta (blog)](https://robang74.github.io/roberto-a-foglietta) source on [github](https://github.com/robang74/roberto-a-foglietta) &nbsp; (2024-12-14)
 
 * [ChatGPT Answered Prompts](https://robang74.github.io/chatgpt-answered-prompts) source on [github](https://github.com/robang74/chatgpt-answered-prompts) &nbsp; (2024-09-06)
 
-+
++++++
 <span id="pages-index"></span>
 ## Index
 
