@@ -4,6 +4,8 @@
 #
 ################################################################################
 
+export pdfres=216
+
 export gsopts="-q 
 -dBATCH
 -dNOPAUSE
@@ -16,12 +18,34 @@ export gsopts="-q
 -dDetectDuplicateImages
 -dColorConversionStrategy=/sRGB
 -dColorImageDownsampleType=/Bicubic
+-dColorImageDownsampleThreshold=1.0
+-dGrayImageDownsampleThreshold=1.0
+-dMonoImageDownsampleThreshold=1.0
 -dPreserveOverprintSettings=false
 -dPreserveOPIComments=false 
 -dPreserveEPSInfo=false
 -dUCRandBGInfo=/Remove
 -dFitPage
--r216
+-r$pdfres
+"
+
+origimg="
+-dDownsampleColorImages=false
+-dDownsampleGrayImages=false
+-dDownsampleMonoImages=false
+-dAutoFilterGrayImages=false
+"
+
+sameres="
+-dDownsampleColorImages=true
+-dDownsampleGrayImages=true
+-dDownsampleMonoImages=true
+-dColorImageResolution=$pdfres
+-dGrayImageResolution=$pdfres
+-dMonoImageResolution=$pdfres
+-dColorImageDownsampleThreshold=1.0
+-dGrayImageDownsampleThreshold=1.0
+-dMonoImageDownsampleThreshold=1.0
 "
 
 pdf_shrink_ltr() { pdf_shrink "letter" "$@"; }
