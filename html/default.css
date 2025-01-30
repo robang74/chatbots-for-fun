@@ -3,6 +3,17 @@
  *
  * (C) 2024-5, Roberto A. Foglietta <roberto.foglietta@gmail.com>, 3-clause BSD
  *
+ * Suggested fonts:
+ *
+ * - Serif: Roboto Serif, Noto Serif
+ * - Sans-Serif: Roboto, Noto Sans, Ubuntu
+ * - Monospaced: Roboto Mono, Noto Sans Mono, Ubuntu Mono
+ * - Condensed: Roboto Condensed, Ubuntu Condensed
+ * - Handwritte: Pacifico, Shadows Into Light, Indie Flower
+ * - Comic: Comic Neue
+ *
+ * ATTENTION - every font change may distript the printing template
+ *
  ******************************************************************************/
 
 #menu {
@@ -12,6 +23,8 @@
     -ms-user-select: none;  /* IE 10 & 11 */
 }
 
+#printlink { display: none; };
+
 html {
  /*\,-Remove this parenthesys to switch the zoom */
 /**)/
@@ -20,6 +33,9 @@ html {
 }
 
 body {
+
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Vertically align items */
     float: none;
  /*\,-Remove this parenthesys to switch the font */
 /**)/
@@ -50,7 +66,7 @@ div.post-it {
     border: 1px dashed;
     border-radius: 16px;
     padding: 5px 40px 5px 40px;
-    font-family: "Comic Sans", cursive;
+    font-family: "Comic Neue", cursive;
     position: relative; /* b.post-it needs this line */
 }
 
@@ -62,10 +78,10 @@ b.post-it {
 
 blockquote {
 /*  color: darkwhite; */
-    font-size: 110%;
+    font-size: 100%;
     line-height: 1.5;
     text-align: justify;
-    font-family: "Garamond", serif;
+    font-family: "Noto Serif", serif;
 
     width: 760px;
 /*  background-color: #383838; */
@@ -108,12 +124,12 @@ tt {
     position: relative;
  /*\,-Remove this parenthesys to switch the font */
 /**)/
-    font-family: "Ubuntu mono", monospace; top: -1px;
+    font-family: "Roboto Mono", monospace; font-size: 90%; top: -0.5px;
 /*/
-    font-family: "Tahoma mono", monospace; font-size: 80%; top: -0.5px;
+    font-family: "Ubuntu mono", monospace;
 /**/
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
 }
 
 #firstdiv { /* removed in md->html conversion */ }
@@ -125,7 +141,7 @@ a {
 /**)/
     font-family: "Ubuntu Condensed", condensed; font-size: 110%;
 /*/
-    font-family: "Tahoma", sans-serif;
+    font-family: "Ubuntu", sans-serif;
 /**/
     text-decoration: none;
     border-bottom: 1px double;
@@ -193,7 +209,7 @@ table {
 /**)/
     font-family: "Ubuntu Mono", monospace;
 /*/
-    font-family: "Tahoma mono", monospace; font-size: 80%;
+    font-family: "Ubuntu Mono", monospace; font-size: 80%;
 /**/
     border-collapse: collapse;
     text-align: center;
@@ -220,16 +236,16 @@ div.framebox table, div.framebox tr, div.framebox th, div.framebox td {
     padding: 0px;
 }
 
-.alerts { font-family: "Monaco", monospace; font-weight: bold; }
+.alerts  { font-family: "Ubuntu Mono", monospace; font-weight: bold; }
 
-.topbar { font-family: "Ubuntu Condensed", condensed; }
+.topbar  { font-family: "Ubuntu Condensed", condensed; }
 
 a.topbar { font-family: "Ubuntu Mono", monospace; }
 
 div.topbar {
     padding: 15px;
     padding-top: 9px;
-    border-radius: 9px;
+    border-radius: 16px;
     padding-bottom: 12px;
     border-bottom: 1px solid;
     border: 1px solid transparent;
@@ -255,7 +271,7 @@ a.toplink {
 /**)/
     font-family: "Ubuntu Mono", monospace;
 /*/
-    font-family: "Tahoma Mono", monospace; font-size: 80%;
+    font-family: "Ubuntu Mono", monospace; font-size: 80%;
 /**/
     text-decoration: underline;
     font-weight: bold;
