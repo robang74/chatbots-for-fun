@@ -66,10 +66,12 @@ pdf_shrink()
         test -r "$1" || return 1;
         echo -n "PDF shrinking '$(basename "$1")' from $(du -ks "$1" | cut -f1) Kb to ...";
         f=${1//.ps/.pdf};
-        ps2pdf14 "$1" "tmp.$f"
-        echo -n " $(du -ks tmp.$f | cut -f1) Kb ...";
+        tmpf=/tmp/${f##*/}
+        ps2pdf14 "$1" "$tmpf"
+        echo -n " $(du -ks "$tmpf" | cut -f1) Kb ...";
         ff=${f//.pdf/-shrinked.pdf};
-        ps2pdf14 -sPAPERSIZE=${sz} $gsopts "tmp.$f" "$ff";
+        ps2pdf14 -sPAPERSIZE=${sz} $gsopts "$tmpf" "$ff";
+        rm -f "$tmpf"
         if true; then
             echo " $(du -ks "$ff" | cut -f1) Kb";
         else
@@ -78,7 +80,6 @@ pdf_shrink()
             ps2pdf14 "$ff" "$fff"
             echo " $(du -ks "$fff" | cut -f1) Kb";
         fi
-        rm -f "tmp.$f"
         shift
     done
     echo
