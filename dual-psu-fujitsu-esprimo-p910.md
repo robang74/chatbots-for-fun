@@ -163,13 +163,11 @@ However, it is a pretty good try to start with designing a 3D printable addition
 
 ### Conclusions
 
-Yet, this dual-PSU configuration has to face the proof of the time but this also depends on the choices I made.Instead, the approach in general seems valid because it does not imply any particular mod that would be forbidden into a common PC shop or PC hardware support center, or reparation.
+Yet, this dual-PSU configuration has to face the proof of the time but this also depends on the choices I made. Instead, the approach in general seems valid because it does not imply any particular mod that would be forbidden into a common PC shop or PC hardware support center, or reparation.
 
-In fact, it is a matter of just assembling some spare parts and all these parts are available on different e-market, from different sellers and producers.
+In fact, it is a matter of just assembling some spare parts and all these parts are available on different e-market, from different sellers and producers. Making a comparison - with the mods that I have seen shared on Reddit and other similar forums, but some are 4 years old - this is a quite simple, comfortable, standard and safe way to go.
 
-Making a comparison - with the mods that I have seen shared on Reddit and other similar forums, but some are 4 years old - this is a quite simple, comfortable, standard and safe way to go. Despite this, it is not for everyone because assembly or modification of a personal computer hardware configuration requires manual dexterity to use tools, and a little experience.
-
-In short this project has a low entry barrier but still not for everyone.
+Despite this, it is not for everyone because assembly or modification of a personal computer hardware configuration requires manual dexterity to use tools, and a little experience.
 
 +
 
