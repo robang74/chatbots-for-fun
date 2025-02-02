@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ai-peer-review-prompt-with-rag-v2</title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='shortcut icon' type='image/x-icon' href='favicon.ico?'>
+        <link rel='stylesheet' href='default.css'>
+        <link rel='stylesheet' href='../intl/intlflg.css'>
+        <!-- here begins the Javascript... why for the hell I got here? //-->
+        <meta http-equiv='Content-Script-Type' content='text/javascript'>
+        <link rel='stylesheet' href='ucustom.css' id='customStylesheet' media='screen'>
+        <script>const cssdir='';</script note='global variable'>
+        <script src='css-style-changer.js' defer></script>
+        <link rel='stylesheet' href='printer.css' media='print'>
+    </head>
+    <body>
+<style>#version2 { position: absolute; top: 37%; left: 47.5%; transform: translate(-50%, -50%); background-color: rgba(255, 0, 0, 0); color: red; font-weight: bold; font-size: 64px; -webkit-text-stroke: 0.1em yellow; -moz-text-stroke: 0.1em yellow; text-stroke: 0.1em yellow; }</style>
+<p class='topbar'></p>
+<div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-02-02&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
+'>2</b rev_num='
+'> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag-v2?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag-v2?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag-v2?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag-v2?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
+<div id="firstdiv">
+<p class='topbar'></p>
+<div align="center"><img class="wbsketch inksave" src="../img/peer-review.png"><div id="version2"><h1>v2</h1></div><br></div>
+<p></p>
+<H2 id="the-peer-review-session-prompt-v2">The peer-review session prompt v2</H2>
+<p></p>
+This article is the prosecution of these this previous articles:
+<p></p>
+<li><a href="ai-peer-review-prompt-with-rag.html#" target='_blank' rel='noopener noreferrer'>AI peer-review prompt with RAG</a> &nbsp; (2025-01-21)</li>
+<p></p>
+<br>
+<p></p>
+<H2 id="introduction">Introduction</H2>
+<p></p>
+I have noticed that sometimes even the online chatbot ignores the scope of the document under peer-review and moreover and they tend to assess the validity of a claim in a general sense without considering what belongs to the author and external sources like citation.
+<p></p>
+This leads them to provide the user a subtle confusing feedback in certain cases. This becomes appalling when in rating a claim focused on debunking an urban legend, they rate the urban legend instead of the debunking process which is within the scope of the document and the aim of the author.
+<p></p>
+Another question left open by the <a href="../data/alex-peer-review-with-rag.txt" target='_blank' rel='noopener noreferrer'>previous prompt</a>, which has been upgraded to v1.5 in the meantime, is about how to deal with a document that is longer than the AI's context window. When this happens, they tend to ignore the central part of the document.
+<p></p>
+Both issues are not very impactful in my case because I have the habit to peer-review a document in parts and then the whole plus, I am used to challenging the chatbot about its peer-review. Due to this way of proceeding, I was able to identify corner cases and limits of their implementation of the peer-review process.
+<p></p>
+Which brought me to repeat very similar prompts after the first one in order to add directives. Which is not the best way of proceeding despite each chatbot has its own way to leverage its technology to fulfil the task, some common guidelines can be identified in order to quicker and more reliably achieving the result.
+<p></p>
+So, here we are, again! <img class='emoji wbsketch' src='../img/emoji/smile.png'>
+<p></p>
+<hr>
+<p></p>
+Here below the link to the second version of the session prompt for peer-reviewing documents:
+<p></p>
+<li><a href="../data/alex-peer-review-with-rag-v2.txt" target='_blank' rel='noopener noreferrer'>alex-peer-review-with-rag-v2.txt</a></li>
+<p></p>
+which includes the <a href="#final-version">final version</a> of the guidelines. However, I think that some glimpses about how this final result has been achieved are worth of being shared here below.
+<p></p>
+<br>
+<p></p>
+<H2 id="guidelines-">Guidelines <br><sup>&ndash; 1st draft &ndash;</sup></H2>
+<p></p>
+a) Considering that every document has necessarily a limited scope and can contains citation or claims from other sources than the author, hence it is fundamental to rate the claims the author of the document states independently by the others and in particular the authors claims should be evaluated within the scope of the document and eventually in a separate rating in a more general context when the scope of the document is sensitevily narrow or peculiar.
+<p></p>
+b) The ${document} can be specified in the next prompt and it can be longer than the context windows hence it should be tokenized and peer-reviewed part by part in such way that every part can reasonably fit within the context window.
+<p></p>
+c) When the ${document} is split in parts, then use titles and subtitles to split it and when presenting the related peer-review to the user states with a "from-to" formula, extremes includes, which part of the analysis have been provided, waiting for a user prompt to proceed further.
+<p></p>
+d) When all the parts of the document has been examined, then it is possible to leverage the tokenization and the information given by the user through the various prompt to provide an overall analysis of the document in general.
+<p></p>
+e) Finally, at the end of the answer about containing the whole document peer-review, offer to the user to write an short introduction to the document in which you will present the strong points, the limitations related to the content or the scope of the document or about the specific audience towards the document aims to speak to.
+<p></p>
+<br>
+<p></p>
+<H2 id="gemini-20">Gemini 2.0</H2>
+<p></p>
+Prompted as followed, only the most significative and relevant prompts.
+<p></p>
+<hr class="post-it">
+<p></p>
+<p></p>
+I am writing a second version of a session prompt for peer-reviewing a document. That prompt is supposed to leverage the tokenization and a RAG approach as much as it is available. I am pretty happy with the first version of that prompt. Now it is time to add some guidelines to cope with some limitations that AI models and people have in a way they can cooperate efficiently and clearly understand each other.
+<p></p>
+Evaluate the following guidelines and suggest how to improve them, eventually providing your own proposal for each of them, separately.
+<p></p>
+<hr class="post-it">
+<p></p>
+I like all of them but we need to work a little bit on the b). In fact, some AI models require to be instructed specifically using the term tokenization of the text to activate that specific subsystem. Even if you consider this not relevant for you, it is important that the prompt will be suitable for different chatbot, systems and AI models.
+<p></p>
+<hr class="post-it">
+<p></p>
+This part
+<p></p>
+<li>For optimal performance with certain AI models, this segmentation process may involve internal tokenization</li>
+<p></p>
+is descriptive, not instructing. I wish something like:
+<p></p>
+<li>This segmentation process will leverage tokenization as much as possible as far as it is available</li>
+<p></p>
+This is because for some systems the tokenisation is seen as an external support to the AI model not something integrated within it. Which is a reasonable choice for some architectures which aim to use as few resources as possible, like local running AI models. Which is also the reason because asking them to leverage tokenisation is necessary even if the RAG system has been activated by the user interacting with the UI.
+<p></p>
+<hr class="post-it">
+<p></p>
+I see your points, good. So, I am going to maintain the c) version you initially gave to me. However the <tt>[] ()</tt> sequence is just a white-space away from being misinterpreted as a link in markdown syntax and this can lead to a mistake in certain corner cases.
+<p></p>
+<li>"Segment X: ${Title/Subtitle, if available} ${Paragraphs Y-Z}"</li>
+<p></p>
+This above instead clearly leverages the bash paradigm of identifying variable names. Is it clear for you?
+<p></p>
+<hr class="post-it">
+<p></p>
+<br>
+<p></p>
+<H2 id="chatgpt-4o">ChatGPT 4.o</H2>
+<p></p>
+Prompted as followed, only the most significative and relevant prompts.
+<p></p>
+<hr class="post-it">
+<p></p>
+It is important that the guidelines are clear also for non-native English users because people will not adopt something that they would not understand (or less keen to adopt, in theory). The next step is to improve clarity and at the same time shorten the text length. Both are important, hence clearer and shorter, both. Which is THE real challenge of this task, balancing a short form, conserving almost the same meaning and functionality and possibly also improving clarity.
+<p></p>
+<hr class="post-it">
+<p></p>
+Your version of the e) guideline leverages a highly-educated English that is not quickly clear in its meaning to the people for whom English is not the mother tongue.  Hence, I decided on this one. Can you relate?
+<p></p>
+<hr class="post-it">
+<p></p>
+I think that b) and c) guidelines are overlapping in part and I think that a better separation between the two will make them both clearer and shorter in avoiding redundancy.
+<p></p>
+<tt class='li2in'>[... omissis ...]</tt>
+<p></p>
+I do not see any particular improvement here. I am happy, because this means that we reach the best we can do at this point. Time to try the opposite approach. Unite these two guidelines in one only trying to improve its clarity and shortening its length.
+<p></p>
+<br>
+<p></p>
+<H2 id="deepseek-3">DeepSeek 3</H2>
+<p></p>
+After having realised that DeepSeek outputs are LaTEX sensitive, I have prompet the AI in this way.
+<p></p>
+<H3 id="prompt-1">Prompt #1</H3>
+<p></p>
+Suggest me another char than <tt>$</tt> to associate to <tt>{variable}</tt> in order to do not conflicts with markdown, html, latex or shell scripting.
+<p></p>
+<hr class="post-it">
+<p></p>
+<H3 id="answer-1">Answer #1</H3>
+<p></p>
+To avoid conflicts with Markdown, HTML, LaTeX, or shell scripting, you can use a character that is less likely to be interpreted as a special symbol in these contexts. A good alternative is the at symbol (&commat;). It is rarely used as a delimiter in Markdown, HTML, or LaTeX, and while it has some meaning in shell scripting (e.g., parameter expansion in some shells), it is less likely to cause issues in your specific use case.
+<p></p>
+<br>
+<p></p>
+<H2 id="feedback-collection">Feedback collection</H2>
+<p></p>
+Finally, I returned back to <b>Gemini 2.0</b> previous session related to the initial work on the prompt for asking its opinion on the final version.
+<p></p>
+<hr class="post-it">
+<p></p>
+These refined guidelines are excellent!  They are concise, clear, and cover all the essential points effectively.  Reducing the number of guidelines has made them easier to digest and remember.  Here's a breakdown of what I like:
+<p></p>
+<li><b>a) Focus on author's claims</b> - This is well-structured and clearly explains the distinction between author's claims and external references. The use of [SPC] and [GNR] for labeling is concise and effective.</li>
+<p></p>
+<li><b>b) Document segmentation and tokenization</b> - This guideline is very clear about the segmentation process and the labeling format. The inclusion of "natural breaks" provides helpful guidance.  The instruction to "preserve the overall context" is crucial.  The prompt for user confirmation is also essential for managing longer documents.  The bash-like variable notation is also very clear.</li>
+<p></p>
+<li><b>c) Overall analysis</b> - This guideline clearly outlines the purpose of the overall analysis and emphasizes the importance of synthesizing information from individual reviews and user feedback. The instruction to "conserve as much as possible from the original text, including style and the aim" is particularly valuable; it encourages the AI to respect the author's work.</li>
+<p></p>
+<li><b>d) Executive summary, optional</b> - This guideline is concise and clearly explains the purpose and content of the executive summary.  The recommendation to suggest revisions for negative assessments is a helpful addition.</li>
+<p></p>
+<b>Conclusion</b>
+<p></p>
+These guidelines are well-written, comprehensive, and easy to follow. They provide a good balance between being instructive and allowing for flexibility. The use of clear labels and the emphasis on preserving context and style are particularly commendable.  I have no further suggestions for improvement. They are ready to be used.
+<p></p>
+<br>
+<p></p>
+<H2 id="guidelines-">Guidelines <br><sup>&ndash; v2 final &ndash;</sup></H2>
+<p></p>
+<b>a) Focus on author's claims</b> - Evaluate the author's claims in the document, separate them from citations or external references. Check the evidence and reasoning for each claim. If the document is very narrow or specialized, you may also evaluate the claims in a broader context. Label the evaluations as "within-scope" [SPC] or "broader context" [GNR].
+<p></p>
+<b>b) Document segmentation and tokenization</b> - If the &commat;{document} exceeds the model’s context window, break it into segments at natural breaks (e.g., paragraphs, sections, titles, subtitles, or topic shifts). Label each segment using the format "Segment X: &commat;{Title|Subtitle} (&commat;{Paragraphs Y-Z})". Process each segment separately while preserving the overall context, and prompt the user for confirmation before moving on.
+<p></p>
+<b>c) Overall analysis</b> - After reviewing all segments, provide an overall analysis that combines insights from each review and user feedback. Highlight recurring themes, strengths, and weaknesses, and offer clear, actionable recommendations trying to conservate as much as possible from the original text, including style and the aim.
+<p></p>
+<b>d) Executive summary, optional</b> - At the end of the peer-review process, offer an optional executive summary upon user request. The summary will briefly note the document's strengths, limitations (in content, scope, and target audience), and overall assessment. If the assessment is negative, recommend revising the document.
+<p></p>
+<br>
+<p></p>
+<H2 id="related-articles">Related articles</H2>
+<p></p>
+<li><a href="ai-peer-review-prompt-with-rag.html#" target='_blank' rel='noopener noreferrer'>AI peer-review prompt with RAG</a> &nbsp; (2025-01-21)</li>
+<p></p>
+<li><a href="ai-system-prompting-to-leverage-rag.html#" target='_blank' rel='noopener noreferrer'>AI system prompting to leverage RAG</a> &nbsp; (2025-01-13)</li>
+<p></p>
+<li><a href="neutrality-vs-biases-for-chatbots.html#" target='_blank' rel='noopener noreferrer'>Neutrality vs biases for chatbots</a> &nbsp; (2025-01-04)</li>
+<p></p>
+<li><a href="chatting-with-alex-the-chatbot.html#" target='_blank' rel='noopener noreferrer'>Chatting with AleX the chatbot </a> &nbsp; (2025-01-04)</li>
+<p></p>
+<li><a href="the-system-prompt-alchemy.html#" target='_blank' rel='noopener noreferrer'>The system prompt alchemy</a> &nbsp; (2025-01-04)</li>
+<p></p>
+<li><a href="../chatgpt-vs-human-real-reasoning.md" target='_blank' rel='noopener noreferrer'>ChatGPT vs human real reasoning</a> &nbsp; (2024-11-28)</li>
+<p></p>
+<li><a href="../dammi-sei-parole-a-caso.md" target='_blank' rel='noopener noreferrer'>Dammi sei parole a caso</a> &nbsp; (2024-12-25)</li>
+<p></p>
+<li><a href="../il-problema-sei-tu-non-l-AI.md" target='_blank' rel='noopener noreferrer'>Il problema sei tu, non l'AI</a> &nbsp; (2024-12-13)</li>
+<p></p>
+<li><a href="../manipulation-of-a-chatbot.md" target='_blank' rel='noopener noreferrer'>Manipulation of a chatbot</a> &nbsp; (2024-11-18)</li>
+<p></p>
+<br>
+<p></p>
+<H2 id="copyright">Copyright</H2>
+<p></p>
+<p>&copy; 2025, <b>Roberto A. Foglietta</b> &lt;roberto.foglietta<span>&commat;</span>gmail.com&gt;, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target='_blank' rel='noopener noreferrer'>CC BY-NC-ND 4.0</a></p>
+<p></p>
+</div>
+<p></p>
+<p></p>
+<div id='date-legenda' align='center' translate='no'><sub><hr></sub><sub><b>date legenda</b>: &#x2776; first draft publishing date or &#x2777; creation date in git, otherwise &#x2778; html creation page date. <u>&mapstoup;<a href='#' class='toplink' translate='no'>top</a>&mapstoup;</u></sub></div>
+<br>
+    </body>
+</html>

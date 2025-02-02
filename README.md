@@ -39,11 +39,13 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
 
+* 2025-02-02  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag-v2.md)] - [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md)
+
 * 2025-13-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/dual-psu-fujitsu-esprimo-p910.md)] - [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (5th edt.)
 
 * 2025-13-24 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/tesla-k80-with-esprimo-p910.md)] - [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md)
 
-* 2025-01-21  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md)] - [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md)
+* 2025-01-21  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md)] - [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md) &nbsp; (2nd edt.)
 
 * 2025-01-13 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-system-prompting-to-leverage-rag.md)] - [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md) &nbsp; (3rd edt.)
 
@@ -113,7 +115,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 * [claude.ai](https://claude.ai) - coding and data analysis
 
-* [deepseek.com](https://deepseek.com) - math & rational reasoning
+* [deepseek.com](https://chat.deepseek.com) - math & rational reasoning
 
 * [qwenlm.ai](https://chat.qwenlm.ai) - powerful multi-modal chatbot
 
@@ -223,7 +225,7 @@ One of main goals of `git` and the github web interface is to provide a versioni
 
 As you can see, each commit is carry-on a time stamp also. The green label indicates that also the timestamp is validate by the github infrastructure system which belongs to Microsoft Corporation. In fact, github cannot validate those timestamps that are coming from 3rd party systems like the users workstations but just the receiving time, date and content. However, for most of the cases this is irrelevant.
 
-+
+++++++
 
 ## Translations
 
