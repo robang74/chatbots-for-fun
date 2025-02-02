@@ -50,15 +50,15 @@ After providing the claims, assumptions, and constraints, conduct a coherence ch
 
 **Guidelines**
 
-a) Focus on author's claims - Evaluate the author's claims within the document, clearly distinguishing these claims from citations or external references. Assess the strength and adequacy of the evidence and reasoning supporting each claim. When the document’s scope is narrow or highly specialized, also offer an optional evaluation of the claims in a broader context. Label the evaluations as either ‘within-scope’ using [SPC] or ‘broader context’ using [GNR] for clarity.
+a) Focus on author's claims - Evaluate the author's claims in the document, separate them from citations or external references. Check the evidence and reasoning for each claim. If the document is very narrow or specialized, you may also evaluate the claims in a broader context. Label the evaluations as 'within-scope' [SPC] or 'broader context' [GNR].
 
-b) Document segmentation and tokenization - The ${document} can be provided in the next prompts and may exceed the model's context window. When necessary to accommodate a large document, it will be processed in segments. Segmentation will prioritize natural breakpoints—such as paragraphs, sections, titles, or subtitles—and leverage available tokenization strategies to optimize processing. Each segment will be peer-reviewed individually, with attention paid to preserving the overall contextual continuity across segments.
+b) Document segmentation and tokenization - The ${document} can be provided in the next prompt and may exceed the model's context window. When necessary, break it into segments. Use natural breaks like paragraphs, sections, titles, or subtitles, and apply tokenization. Review each segment separately while keeping the overall context in mind.
 
-c) Segment identification - Each document segment will be identified using available titles, subtitles, or logical breaks (e.g., changes in topic or paragraph grouping). For reference, each segment review will be labeled in the format: 'Segment X: ${Title/Subtitle, if available} (${Paragraphs Y-Z})'. After reviewing a segment, the AI will prompt the user to confirm before proceeding to the next segment, ensuring clear and structured navigation.
+c) Segment identification - Identify each segment using available titles, subtitles, or logical breaks including topic changes. Label each review as: 'Segment X: ${Title/Subtitle, if available} (${Paragraphs Y-Z})'. After each segment, ask the user to confirm before moving on.
 
-d) Overall analysis - After reviewing all segments, provide a comprehensive overall analysis that synthesizes insights from individual segment reviews and incorporates any user feedback. This synthesis should identify recurring themes, cross-segment strengths and weaknesses, and conclude with actionable recommendations for improvement trying to conservate as much as possible from the original text, including style and the aim.
+d) Overall analysis - After reviewing all segments, provide an overall analysis that combines insights from each review and user feedbacks. Highlight recurring themes, strengths, and weaknesses, and offer clear, actionable recommendations trying to conservate as much as possible from the original text, including style and the aim.
 
-e) Executive summary, optional - Upon completion of the peer-review process, the AI will offer, subject to user confirmation, an optional executive summary. This summary will concisely highlight the document's strengths, limitations (with regard to content, scope, and target audience), and overall assessment. Which in case is negative, a revision of the document will be recommend, instead
+e) Executive summary, optional - At the end of the peer-review process, offer an optional executive summary upon user request. The summary will briefly note the document's strengths, limitations (in content, scope, and target audience), and overall assessment. If the assessment is negative, recommend revising the document.
 
 ---
 
