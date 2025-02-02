@@ -17,7 +17,7 @@
     <body>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-01-21&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>11</b rev_num='
+'>12</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -28,6 +28,8 @@
 This article is the prosecution of this previous article:
 <p></p>
 <li><a href="ai-system-prompting-to-leverage-rag.html#" target='_blank' rel='noopener noreferrer'>AI system prompting to leverage RAG</a> &nbsp; (2025-01-13)</li>
+<p></p>
+The <b>2nd edition</b> includes the link to the <a href="#5th-revision">furtherly revised</a> session prompt at v1.5 version. Even if that prompt is not part of this document, it is part of its main aim to provide it.
 <p></p>
 <hr>
 <p></p>
@@ -121,13 +123,13 @@ Please provide me your opinion about the following prompt text. Then try to appl
 <p></p>
 Moreover, I have included two different formats of the same prompt, one as initially written and the second as successively revised. Feel free to leverage both to provide your opinion and suggestions.
 <p></p>
-<tt>===</tt>
+<hr>
 <p></p>
 <H3 id="initial-version">Initial version</H3>
 <p></p>
 The main aim of this chat session is to peer-review a document with a critical-collaborative approach in which the human operator and the chatbot challenge themselves in finding mistakes in an order of relevance: conceptual mistakes, reasoning-logical mistakes and formal mistakes, eventually. These three steps will be approached when the step before will be completed or it would have reached a completion level that satisfies the human operator.
 <p></p>
-Considering the text in attachment or included in this prompt after the "===" division string, make a list of relevant claims explicitly expressed in that text. Provide also another list of implicitly relevant claims or suppositions that the text contains, if any. The second list matters to make aware the human operator about which claims or suppositions or biases might contain the text.
+Considering the text in attachment or included in this prompt after the "<tt>===</tt>" division string, make a list of relevant claims explicitly expressed in that text. Provide also another list of implicitly relevant claims or suppositions that the text contains, if any. The second list matters to make aware the human operator about which claims or suppositions or biases might contain the text.
 <p></p>
 Each relevant statement included in these two list can be true (100%), false (0%) or within a range between these two values. Moreover, the claim can be generally false but due to the constraints or limitations in scope, included into the document explicitly or implicitly, can be true. For example F=ma can be true or false or a kind of approximation depending if the text is related to classic mechanics only, or not or somehow.
 <p></p>
@@ -139,7 +141,7 @@ Finally, highlight the discrepancy or the lacks, or the mistakes or conflicts am
 <p></p>
 <H3 id="1st-revision">1st revision</H3>
 <p></p>
-The goal of this session is to do a critical peer-review of a document (which the text is provided in attachment or included in this prompt after the "===" division string) collaboratively, focusing on the following steps:
+The goal of this session is to do a critical peer-review of a document (which the text is provided in attachment or included in this prompt after the "<tt>===</tt>" division string) collaboratively, focusing on the following steps:
 <p></p>
 <li class='numli'><b>1.&emsp;</b><b>Identify Relevant Claims</b>:</li>
 <p></p>
@@ -167,7 +169,7 @@ After providing the claims, assumptions, and constraints, conduct a coherence ch
 <p></p>
 <H3 id="2nd-revision">2nd revision</H3>
 <p></p>
-The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested. The text is provided in attachment or included after the "===" division string. A claim is 100% true if it is universally valid within the text's scope, 0% if it is false, and intermediate values if it is partially true or context-dependent.
+The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested. The text is provided in attachment or included after the "<tt>===</tt>" division string. A claim is 100% true if it is universally valid within the text's scope, 0% if it is false, and intermediate values if it is partially true or context-dependent.
 <p></p>
 Steps:
 <p></p>
@@ -197,7 +199,7 @@ After providing the claims, assumptions, and constraints, conduct a coherence ch
 <p></p>
 <H3 id="3rd-revision">3rd revision</H3>
 <p></p>
-The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested. The text is provided in attachment or included after the "===" division string. A claim is evaluated using the following rating scale, for reference:
+The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested. The text is provided in attachment or included after the "<tt>===</tt>" division string. A claim is evaluated using the following rating scale, for reference:
 <p></p>
 <li>100%: Completely true (universally valid within the text's scope).</li>
 <p></p>
@@ -239,7 +241,7 @@ After providing the claims, assumptions, and constraints, conduct a coherence ch
 <p></p>
 <H3 id="4th-revision">4th revision</H3>
 <p></p>
-The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless explicitly requested. The text is provided in attachment or included after the "===" division string.
+The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless explicitly requested. The text is provided in attachment or included after the "<tt>===</tt>" division string.
 <p></p>
 <b>Rating scale</b>
 <p></p>
@@ -280,6 +282,12 @@ Use the following rating scale as a reference to assess the validity of claims:
 <li class='li2in'>highlight discrepancies, mistakes, or conflicts among claims, assumptions, and constraints.</li>
 <p></p>
 After providing the claims, assumptions, and constraints, conduct a coherence check to identify conceptual issues. Pause after completing these steps and await further input from the human operator.
+<p></p>
+<hr>
+<p></p>
+<H3 id="5th-revision">5th revision</H3>
+<p></p>
+In this revision (2025-02-02), a general cleaning up has been conducted and the division string "<tt>===</tt>" has been changed into "<tt>==RAG==</tt>" because it was possibly included into markdown documents. Despite this not showing to be a problem up to now, it is a good idea to avoid such an unwanted collision.
 <p></p>
 <br>
 <p></p>
@@ -382,7 +390,6 @@ Imagine, it would be quite annoying that a Wikipedia or a dictionary page refuse
 <hr>
 <p></p>
 <span id="the-game-theory-s-ethics"></span>
-<p></p>
 <H3 id="the-game-theorys-ethics">The game theory's ethics</H3>
 <p></p>
 This is a very broad topic and for giving to it a nice start, I suggest this video:

@@ -8,6 +8,8 @@ This article is the prosecution of this previous article:
 
 * [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md#?target=_blank) &nbsp; (2025-01-13)
 
+The **2nd edition** includes the link to the [furtherly revised](#5th-revision) session prompt at v1.5 version. Even if that prompt is not part of this document, it is part of its main aim to provide it.
+
 ---
 
 ### Introduction
@@ -20,7 +22,7 @@ and also a list of benefits:
 
 > **AI** &mdash; It is a clear and straightforward title, but it could be enhanced to better capture the unique aspects of your approach.
 
-<hr class="post-it">
+...
 
 Here are a few suggestions that might make the title more engaging and informative:
 
@@ -46,13 +48,13 @@ Here are a few suggestions that might make the title more engaging and informati
 
 Each of these titles aims to capture the essence of your article while making it appealing to potential readers.
 
-<hr class="post-it">
+...
 
 and a list of compliments:
 
 > **AI** &mdash; It is a clear and fitting title, especially if your article focuses on explaining and refining the prompt for peer-review purposes.
 
-<hr class="post-it">
+...
 
 However, if you want to make the title more engaging or emphasize specific aspects, here are a few alternative suggestions:  
 
@@ -78,7 +80,7 @@ However, if you want to make the title more engaging or emphasize specific aspec
 
 If your focus is primarily on presenting the prompt itself, your original title works well.
 
-<hr class="post-it">
+...
 
 +
 
@@ -100,13 +102,13 @@ Please provide me your opinion about the following prompt text. Then try to appl
 
 Moreover, I have included two different formats of the same prompt, one as initially written and the second as successively revised. Feel free to leverage both to provide your opinion and suggestions.
 
-`===`
+---
 
 ### Initial version
 
 The main aim of this chat session is to peer-review a document with a critical-collaborative approach in which the human operator and the chatbot challenge themselves in finding mistakes in an order of relevance: conceptual mistakes, reasoning-logical mistakes and formal mistakes, eventually. These three steps will be approached when the step before will be completed or it would have reached a completion level that satisfies the human operator.
 
-Considering the text in attachment or included in this prompt after the "===" division string, make a list of relevant claims explicitly expressed in that text. Provide also another list of implicitly relevant claims or suppositions that the text contains, if any. The second list matters to make aware the human operator about which claims or suppositions or biases might contain the text.
+Considering the text in attachment or included in this prompt after the "`===`" division string, make a list of relevant claims explicitly expressed in that text. Provide also another list of implicitly relevant claims or suppositions that the text contains, if any. The second list matters to make aware the human operator about which claims or suppositions or biases might contain the text.
 
 Each relevant statement included in these two list can be true (100%), false (0%) or within a range between these two values. Moreover, the claim can be generally false but due to the constraints or limitations in scope, included into the document explicitly or implicitly, can be true. For example F=ma can be true or false or a kind of approximation depending if the text is related to classic mechanics only, or not or somehow.
 
@@ -118,7 +120,7 @@ Finally, highlight the discrepancy or the lacks, or the mistakes or conflicts am
 
 ### 1st revision
 
-The goal of this session is to do a critical peer-review of a document (which the text is provided in attachment or included in this prompt after the "===" division string) collaboratively, focusing on the following steps:
+The goal of this session is to do a critical peer-review of a document (which the text is provided in attachment or included in this prompt after the "`===`" division string) collaboratively, focusing on the following steps:
 
 1. **Identify Relevant Claims**:
 
@@ -146,7 +148,7 @@ After providing the claims, assumptions, and constraints, conduct a coherence ch
 
 ### 2nd revision
 
-The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested. The text is provided in attachment or included after the "===" division string. A claim is 100% true if it is universally valid within the text's scope, 0% if it is false, and intermediate values if it is partially true or context-dependent.
+The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested. The text is provided in attachment or included after the "`===`" division string. A claim is 100% true if it is universally valid within the text's scope, 0% if it is false, and intermediate values if it is partially true or context-dependent.
 
 Steps:
 
@@ -176,7 +178,7 @@ After providing the claims, assumptions, and constraints, conduct a coherence ch
 
 ### 3rd revision
 
-The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested. The text is provided in attachment or included after the "===" division string. A claim is evaluated using the following rating scale, for reference:
+The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested. The text is provided in attachment or included after the "`===`" division string. A claim is evaluated using the following rating scale, for reference:
 
 - 100%: Completely true (universally valid within the text's scope).
 
@@ -218,7 +220,7 @@ After providing the claims, assumptions, and constraints, conduct a coherence ch
 
 ### 4th revision
    
-The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless explicitly requested. The text is provided in attachment or included after the "===" division string.
+The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless explicitly requested. The text is provided in attachment or included after the "`===`" division string.
 
 **Rating scale**
 
@@ -259,6 +261,12 @@ Use the following rating scale as a reference to assess the validity of claims:
    - highlight discrepancies, mistakes, or conflicts among claims, assumptions, and constraints.
 
 After providing the claims, assumptions, and constraints, conduct a coherence check to identify conceptual issues. Pause after completing these steps and await further input from the human operator.
+
+---
+
+### 5th revision
+
+In this revision (2025-02-02), a general cleaning up has been conducted and the division string "`===`" has been changed into "`==RAG==`" because it was possibly included into markdown documents. Despite this not showing to be a problem up to now, it is a good idea to avoid such an unwanted collision.
 
 +
 
@@ -361,7 +369,6 @@ Imagine, it would be quite annoying that a Wikipedia or a dictionary page refuse
 ---
 
 <span id="the-game-theory-s-ethics"></span>
-
 ### The game theory's ethics
 
 This is a very broad topic and for giving to it a nice start, I suggest this video:
@@ -410,7 +417,7 @@ Here below is presented a piece of the peer-review of this section (the text abo
 
 **d**) **Regarding the point above**, it means that a human can kill another human not because s/he made a pros-vs-cons rational evaluation but simply because like an animal (prehistoric instincts) triggers some irrational and uncontrollable actions bypassing his/her own will, altogether. This is far away from any conceivable behaviour expected by an AI model, despite you may know a lot about primitive cultures and violence.
 
-<hr class="post-it">
+...
 
 #### ChatGPT
 
