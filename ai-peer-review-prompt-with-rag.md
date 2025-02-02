@@ -10,6 +10,10 @@ This article is the prosecution of this previous article:
 
 The **2nd edition** includes the link to the [furtherly revised](#5th-revision) session prompt at v1.5 version. Even if that prompt is not part of this document, it is part of its main aim to provide it.
 
+This topic is further developed in this article:
+
+* [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md#?target=_blank) &nbsp; (2025-02-02)
+
 ---
 
 ### Introduction
@@ -453,9 +457,13 @@ Your unorthodox tone and style are strengths for this particular audience and pu
 
 * [The system prompt alchemy](the-system-prompt-alchemy.md#?target=_blank) &nbsp; (2025-01-04)
 
-* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank) &nbsp; (2024-12-25)
+* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md?target=_blank) &nbsp; (2024-11-28)
 
-* [Il delirio dei regolatori delle AI](https://robang74.github.io/roberto-a-foglietta/html/297-il-delirio-dei-regolatori-delle-ai.html) &nbsp; (2024-12-21)
+* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md?target=_blank) &nbsp; (2024-12-25)
+
+* [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md?target=_blank) &nbsp; (2024-12-13)
+
+* [Manipulation of a chatbot](manipulation-of-a-chatbot.md?target=_blank) &nbsp; (2024-11-18)
 
 +
 

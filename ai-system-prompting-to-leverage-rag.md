@@ -12,7 +12,11 @@ This paper is based on a [comment](https://github.com/nomic-ai/gpt4all/discussio
 
 This article is the prosecution of this previous article:
 
-* [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md#?target=_blank) (2025-01-04)
+* [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md#?target=_blank) &nbsp; (2025-01-04)
+
+and this topic is further developed in this article:
+
+* [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md#?target=_blank) &nbsp; (2025-01-21)
 
 ---
 
@@ -206,13 +210,19 @@ Definetely too early to jump at any conclusion. The topic is as wide as the far-
 
 ## Related articles
 
-* [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md#?target=_blank) (2025-01-04)
+* [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md#?target=_blank) &nbsp; (2025-01-04)
 
-* [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md#?target=_blank) (2025-01-04)
+* [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md#?target=_blank) &nbsp; (2025-01-04)
 
-* [The system prompt alchemy](the-system-prompt-alchemy.md#?target=_blank) (2025-01-04)
+* [The system prompt alchemy](the-system-prompt-alchemy.md#?target=_blank) &nbsp; (2025-01-04)
 
-* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank) (2024-12-25)
+* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md?target=_blank) &nbsp; (2024-11-28)
+
+* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md?target=_blank) &nbsp; (2024-12-25)
+
+* [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md?target=_blank) &nbsp; (2024-12-13)
+
+* [Manipulation of a chatbot](manipulation-of-a-chatbot.md?target=_blank) &nbsp; (2024-11-18)
 
 +
 

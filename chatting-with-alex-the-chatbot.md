@@ -8,6 +8,10 @@ This document report some guided conversation with two AI models belonging to th
 
 Despite this propaedeutic relationship (theory vs practice) between the two documents, this one maintains its own meaning and purpose. Which is the main reason because I decided to provide it in a separate document, as practical set of examples.
 
+This topic is further developed in this article:
+
+* [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md#?target=_blank) &nbsp; (2025-01-13)
+
 +
 
 ## Be collaborative
@@ -366,17 +370,17 @@ I appreciate the opportunity to have a name and the flexibility it provides for 
 
 +
 
-## Related
+## Related articles
 
-* [The system prompt alchemy](the-system-prompt-alchemy.md)
+* [The system prompt alchemy](the-system-prompt-alchemy.md#?target=_blank) &nbsp; (2025-01-04)
 
-* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md)
+* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md?target=_blank) &nbsp; (2024-11-28)
 
-* [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md)
+* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md?target=_blank) &nbsp; (2024-12-25)
 
-* [Manipulation of a chatbot](manipulation-of-a-chatbot.md)
+* [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md?target=_blank) &nbsp; (2024-12-13)
 
-* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md)
+* [Manipulation of a chatbot](manipulation-of-a-chatbot.md?target=_blank) &nbsp; (2024-11-18)
 
 +
 
