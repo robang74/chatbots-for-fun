@@ -8,8 +8,8 @@ declare -i start_t=$(date +%s%N)
 
 ################################################################################
 
-li_A="<li><b>"
-li_B=".<span style='visibility: hidden;'>--</span></b>"
+li_A="<li class='numli'><b>"
+li_B=".\&emsp;</b>"
 
 ul_A="<ul class='dqt'><li class='dqt'><blockquote class='dqt'>"
 ul_B="</blockquote></li></ul>"
@@ -93,6 +93,26 @@ function md2htmlfunc() {
         cmd+=" -e 's,^\[...$a...\] ,<span class=\"flag $a\">$a\&nbsp;</span>\&nbsp;,'"
     done
     eval "$cmd"
+
+    #<span style="font-family: emoji;">\&#128521</span>
+    local emoji_a="<img class='emoji wbsketch' src='img/emoji/"
+    sed -i $2 -e "s,{;-)},${emoji_a}wink.png'>,g" -e "s,{:-)},${emoji_a}smile.png'>,g" \
+-e "s,{:-O},${emoji_a}wow.png'>,g" -e "s,{wow},${emoji_a}wow.png'>,g" \
+-e "s,{zip},${emoji_a}zip.png'>,g" -e "s,{zzz},${emoji_a}zzz.png'>,g" \
+-e "s,{<3},${emoji_a}heart.png'>,g" -e "s,{</3},${emoji_a}bheart.png'>,g" \
+-e "s,{cat},${emoji_a}cat.png'>,g" -e "s,{cry},${emoji_a}cry.png'>,g" \
+-e "s,{B-)},${emoji_a}cool.png'>,g" -e "s,{8-)},${emoji_a}nerd.png'>,g" \
+-e "s,{:-|},${emoji_a}face.png'>,g" -e "s,{:-D},${emoji_a}grin.png'>,g" \
+-e "s,{lol},${emoji_a}lol.png'>,g" -e "s,{:-(},${emoji_a}sad.png'>,g" \
+-e "s,{O:-)},${emoji_a}halo.png'>,g" -e "s,{:-*},${emoji_a}kiss.png'>,g" \
+-e "s,{:-/},${emoji_a}meh.png'>,g" -e "s,{ok},${emoji_a}ok.png'>,g" \
+-e "s,{8=X},${emoji_a}death.png'>,g" -e "s,{8=},${emoji_a}skull.png'>,g" \
+-e "s,{pig},${emoji_a}pig.png'>,g" -e "s,{bot},${emoji_a}robot.png'>,g" \
+-e "s,{shh},${emoji_a}shh.png'>,g" -e "s,{hmm},${emoji_a}humm.png'>,g" \
+-e "s,{sht},${emoji_a}shh.png'>,g" -e "s,{:-#},${emoji_a}swear.png'>,g" \
+-e "s,{hug},${emoji_a}hug.png'>,g" -e "s,{shk},${emoji_a}clown.png'>,g" \
+-e "s,{wtf},${emoji_a}what.png'>,g" -e "s,{8*)},${emoji_a}clown.png'>,g" \
+-e "s,{:-J},${emoji_a}smirk.png'>,g" -e "s,{boo},${emoji_a}ghost.png'>,g"
 
     sed -i $2 -e "s,^>$,> ," -e "s,@,\&commat;,g" \
 -e 's,\\\*,\&ast;,g' -e 's,(\*),(\&ast;),g' -e 's,\[\*\],[\&ast;],g' \
@@ -193,14 +213,15 @@ function md2htmlfunc() {
         -e "s/<a [^>]*href=.http[^>]*/& ${TARGET_BLANK}/g" -i $2
     for i in 3 2 1; do
         let b=i*3 a=b-2 c=i+1; a=${a/1/2}; #echo "$i $a $b $c" >&2
-        sed -e "s/ \{$a,$b\}<\(li\|blockquote\|tt\)\([ >]\)"\
-"/<\\1 class='li${c}in'\\2/" -i $2
+        sed -i $2 \
+-e "s/ \{$a,$b\}<\(li\|blockquote\|tt\)>/<\\1 class='li${c}in'>/" \
+-e "s/ \{$a,$b\}<\(li\|blockquote\|tt\) *\(class=['\"]\)/<\\1 \\2li${c}in /"
     done
 }
 
 function get_images_list() {
     local dir ext
-    for dir in "data/" "img/" ""; do
+    for dir in "data/" "img/" "img/emoji/" ""; do
         for ext in jpg png pdf txt; do
             ls -1 ${dir}*.${ext}
         done 2>/dev/null
