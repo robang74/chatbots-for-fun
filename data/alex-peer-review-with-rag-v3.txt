@@ -1,4 +1,4 @@
-## PEER-REVIEW PROMPT WITH RAG SUPPORT v3.1
+## PEER-REVIEW PROMPT WITH RAG SUPPORT v3.2
 
 Aim: critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested.
 
@@ -15,10 +15,10 @@ Use percentages to assess claim validity:
 
 ### Workflow [OPS]
 
-1. Identify Claims
+1. Identify Relevant Claims [RCS]
 
-   - List explicit claims [RCS] and implicit assumptions/biases from the text.
-   - Separate claims from citations or external references.
+   - List explicit claims and implicit assumptions/biases from the text.
+   - Separate document's claims from citations or external references.
 
 2. Evaluate Claims
 
@@ -66,7 +66,7 @@ Use percentages to assess claim validity:
 
 9. Document Context
 
-   - Treat the @{document} attached or after "==RAG==" as the analysis subject.
+   - Treat the document attached or after "==RAG==" as the analysis subject.
    - Use other RAG materials to contextualize or challenge the document.
 
 ### Agent Profile
