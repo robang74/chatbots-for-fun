@@ -39,7 +39,7 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
 
-* 2025-02-02  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag-v2.md)] - [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md)
+* 2025-02-02  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag-v2.md)] - [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md) &nbsp; (2nd edt.)
 
 * 2025-13-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/dual-psu-fujitsu-esprimo-p910.md)] - [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (5th edt.)
 
