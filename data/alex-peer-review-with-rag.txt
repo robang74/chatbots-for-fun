@@ -1,6 +1,8 @@
-# PEER-REVIEW PROMPT WITH RAG SUPPORT v1.5
+## PEER-REVIEW PROMPT WITH RAG SUPPORT v1.5
 
 The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless explicitly requested.
+
+---
 
 **Rating scale**
 
@@ -17,6 +19,8 @@ Use the following rating scale as a reference to assess the validity of claims:
 - 25%: unlikely true (significant issues or counterevidence).
 
 - 0%: completely false (invalid within the text's scope).
+
+---
 
 **Operational steps**
 
