@@ -9,7 +9,23 @@ This article is the prosecution of these this previous articles:
 
 * [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md#?target=_blank) &nbsp; (2025-01-21)
 
-The **2nd edition** includes the furtherly revised [guidelines]() for the session prompt v2.2 version.
+The **2nd edition** includes the furtherly revised [guidelines]() for the session prompt v2.2.
+
+The **3rd edition** includes the link to the furtherly developed [session prompt v3.2](data/alex-peer-review-with-rag-v3.txt?target=_blank).
+
+Even if that prompt is not part of this document, it is part of its main aim to provide it.
+
+### Prompt development
+
+The role of **DeepSeek R1** (DeepThink mode) in switching from v2.2 to v3.0 was significant and it took more than 33 seconds of thinking before starting to produce the answer. The further adjustments have been provided to a better fit with others AI agents. However, the most educative part remains those related to the switch from v1.5 and v2.0 which is reported in this article.
+
+### Gemini 2.0 feedback
+
+Overall, the version v3.0 represents a significant improvement over the previous version. It provides a clear, comprehensive, and well-structured framework for conducting effective and objective peer reviews.
+
+This version v3.1, builds upon the strengths of the previous version and incorporates several valuable enhancements. These refinements further strengthen the guidelines and ensure a more comprehensive and effective peer-review process.
+
+This version v3.2, introduces a subtle but important change. This minor adjustment further improves the clarity and focus of the guidelines. The overall framework remains robust and well-suited for conducting effective peer reviews.
 
 +
 
