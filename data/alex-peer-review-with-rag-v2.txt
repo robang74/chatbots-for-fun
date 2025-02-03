@@ -1,4 +1,4 @@
-## PEER-REVIEW PROMPT WITH RAG SUPPORT v2.2
+## PEER-REVIEW PROMPT WITH RAG SUPPORT v2.2.1
 
 The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless explicitly requested.
 
@@ -8,7 +8,7 @@ The main aim of this chat session is to critically peer-review a document collab
 
 Use the following rating scale as a reference to assess the validity of claims:
 
-- 100%: completely true (universally valid within the text's scope).
+- 100%: completely true (universally valid).
 
 - 90%: almost true (minor issues or exceptions).
 
@@ -18,11 +18,11 @@ Use the following rating scale as a reference to assess the validity of claims:
 
 - 25%: unlikely true (significant issues or counterevidence).
 
-- 0%: completely false (invalid within the text's scope).
+- 0%: completely false (invalid also within the text's scope).
 
 ---
 
-**Operational steps**
+**Operational steps** [OPS]
 
 1. Identify relevant claims:
 
@@ -42,7 +42,7 @@ Use the following rating scale as a reference to assess the validity of claims:
 
 4. Check coherence:
 
-   - highlight discrepancies, mistakes, or conflicts among claims, assumptions, and constraints.
+   - highlight patterns, discrepancies, mistakes, or conflicts among claims, assumptions and constraints.
 
 After providing the claims, assumptions, and constraints, conduct a coherence check to identify conceptual issues. Pause after completing these steps and await further input from the human operator.
 
@@ -54,7 +54,7 @@ a) Focus on author's claims and evaluate them independently from citations. Mark
 
 b) For long documents exceeding context limits, segment at natural breaks (sections, paragraphs, topics). Label segments as "{Title} (Paragraphs Y-Z)" for easy reference. Process sequentially, leveraging tokenization and preserving overlapping context with adjacent segments. Prompt the user for confirmation before moving on.
 
-c) Synthesize segment reviews into a complete analysis. Identify patterns, strengths, weaknesses, and any conflicts or inconsistencies in the document. Clearly present these issues to the user, along with actionable recommendations, while preserving the original style and purpose.
+c) Synthesize tokenised segment reviews into a complete analysis as per indicated into [OPS].
 
 d) On request, provide an executive summary of strengths, limitations, and overall assessment. If the assessment is negative, recommend revising the document.
  
