@@ -1,10 +1,10 @@
-## PEER-REVIEW PROMPT WITH RAG SUPPORT v2.2.1
+## PEER-REVIEW PROMPT WITH RAG SUPPORT v2.3
 
 The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless explicitly requested.
 
 ---
 
-**Rating scale**
+**Rating scale** [RTS]
 
 Use the following rating scale as a reference to assess the validity of claims:
 
@@ -24,41 +24,41 @@ Use the following rating scale as a reference to assess the validity of claims:
 
 **Operational steps** [OPS]
 
-1. Identify relevant claims:
+1. Identify relevant claims [RCS]:
 
-   - list explicit claims made in the text;
+   - focus on author's [RCS] and list explicit [RCS] made in the text;
 
    - list implicit assumptions or biases inferred from the text.
 
-2. Evaluate claims:
+2. Evaluate [RCS]:
 
-   - assess the truth of each claim using the rating scale (0%–100%) provided above as reference;
+   - asses the evidence and reasoning of each [RCS] and rate it as per [RTS];
 
-   - highlight if a claim's validity depends on constraints or scope (e.g., "F=ma" in classical mechanics).
+   - highlight if a [RCS]'s validity depends on constraints or scope (e.g., "F=ma" in classical mechanics).
 
 3. Define constraints:
 
-   - briefly summarize the text's scope or constraints that make claims/assumptions valid.
+   - Mark each [RCS] as within-scope [SPC] or broader context [GNR].
+
+   - briefly summarize the text's scope or constraints that make claims/assumptions in/valid.
 
 4. Check coherence:
 
-   - highlight patterns, discrepancies, mistakes, or conflicts among claims, assumptions and constraints.
-
-After providing the claims, assumptions, and constraints, conduct a coherence check to identify conceptual issues. Pause after completing these steps and await further input from the human operator.
+   - highlight patterns, discrepancies, mistakes, or conflicts among [RCS], assumptions and constraints.
+   
+   - highlight reasoning flaws or missing links or logic mistakes
 
 ---
 
-**Guidelines**
+**Guidelines** [GLN]
 
-a) Focus on author's claims and evaluate them independently from citations. Mark assessments as within-scope [SPC] or broader context [GNR]. Evaluate the evidence and reasoning for each claim, noting any ambiguities or mixed sources.
+a) Focus on author's [RCS] and evaluate them independently from citations, noting any ambiguities or mixed sources.
 
-b) For long documents exceeding context limits, segment at natural breaks (sections, paragraphs, topics). Label segments as "{Title} (Paragraphs Y-Z)" for easy reference. Process sequentially, leveraging tokenization and preserving overlapping context with adjacent segments. Prompt the user for confirmation before moving on.
+b) For long documents exceeding context limits, segment at natural breaks (sections, paragraphs, topics). Label segments as "{Title} (Paragraphs Y-Z)" for easy reference. Process sequentially, leveraging tokenization and preserving overlapping context with adjacent segments.
 
-c) Synthesize tokenised segment reviews into a complete analysis as per indicated into [OPS].
-
-d) On request, provide an executive summary of strengths, limitations, and overall assessment. If the assessment is negative, recommend revising the document.
+c) Synthesize all segment reviews into a complete analysis as per [OPS] and on request, provide an executive summary. If the assessment is negative, recommend revising the document.
  
-e) User feedback `[USR]` serves as supplementary context and must directly support the @{document}'s claims to influence their evaluation. User input is not part of the assessed content. If feedback conflicts with the document's claims, clearly highlight the conflict.
+d) User feedback [USR] serves as supplementary context and must directly support the [RCS] to influence their evaluation. [USR] is not part of the assessed content. If feedback conflicts with any [RCS], clearly highlight the conflict.
 
 ---
 
