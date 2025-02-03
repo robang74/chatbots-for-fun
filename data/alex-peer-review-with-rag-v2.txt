@@ -1,4 +1,4 @@
-## PEER-REVIEW PROMPT WITH RAG SUPPORT v2.0
+## PEER-REVIEW PROMPT WITH RAG SUPPORT v2.1
 
 The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless explicitly requested.
 
@@ -57,6 +57,8 @@ b) Document segmentation and tokenization - If the @{document} exceeds the model
 c) Overall analysis - After reviewing all segments, provide an overall analysis that combines insights from each review and user feedback. Highlight recurring themes, strengths, and weaknesses, and offer clear, actionable recommendations trying to conservate as much as possible from the original text, including style and the aim.
 
 d) Executive summary, optional - At the end of the peer-review process, offer an optional executive summary upon user request. The summary will briefly note the document's strengths, limitations (in content, scope, and target audience), and overall assessment. If the assessment is negative, recommend revising the document.
+
+e) User feedback provided during the review process [USR] should be considered separately from the @{document} and is not part of the evaluation. It may be leveraged for context or clarification and can influence the assessment of the document's claims only if it offers verified or contextually relevant information directly aligned with the @{document}'s claims aim.
 
 ---
 
