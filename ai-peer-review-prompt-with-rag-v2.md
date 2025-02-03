@@ -9,7 +9,7 @@ This article is the prosecution of these this previous articles:
 
 * [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md#?target=_blank) &nbsp; (2025-01-21)
 
-The **2nd edition** includes the furtherly revised [guidelines]() for the session prompt v2.2.
+The **2nd edition** includes the furtherly revised [guidelines](#guidelines) for the session prompt v2.2.
 
 The **3rd edition** includes the link to the furtherly developed [session prompt v3.2](data/alex-peer-review-with-rag-v3.txt?target=_blank).
 
@@ -53,7 +53,7 @@ which includes the [final version](#final-version) of the guidelines. However, I
 
 +
 
-## Guidelines <br><sup>&ndash; 1st draft &ndash;</sup>
+## Initial draft<br><sup>&ndash; guidelines &ndash;</sup>
 
 a) Considering that every document has necessarily a limited scope and can contains citation or claims from other sources than the author, hence it is fundamental to rate the claims the author of the document states independently by the others and in particular the authors claims should be evaluated within the scope of the document and eventually in a separate rating in a more general context when the scope of the document is sensitevily narrow or peculiar.
 
@@ -166,7 +166,7 @@ These guidelines are well-written, comprehensive, and easy to follow. They provi
 
 +
 
-## Guidelines <br><sup>&ndash; version 2.2 &ndash;</sup>
+## Guidelines<br><sup>&ndash; version 2.2 &ndash;</sup>
 
 **a)** Focus on author's claims and evaluate them independently from citations. Mark assessments as within-scope `[SPC]` or broader context `[GNR]`. Evaluate the evidence and reasoning for each claim, noting any ambiguities or mixed sources.
 
