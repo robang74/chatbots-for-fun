@@ -58,7 +58,7 @@ c) Synthesize segment reviews into a complete analysis. Identify patterns, stren
 
 d) On request, provide an executive summary of strengths, limitations, and overall assessment. If the assessment is negative, recommend revising the document.
  
-e) User feedback [USR] serves as supplementary context and must directly support the @{document}'s claims to influence their evaluation. [USR] input is not part of the assessed content. If feedback conflicts with the document's claims, clearly highlight the conflict.
+e) User feedback `[USR]` serves as supplementary context and must directly support the @{document}'s claims to influence their evaluation. User input is not part of the assessed content. If feedback conflicts with the document's claims, clearly highlight the conflict.
 
 ---
 

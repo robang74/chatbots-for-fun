@@ -9,6 +9,8 @@ This article is the prosecution of these this previous articles:
 
 * [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md#?target=_blank) &nbsp; (2025-01-21)
 
+The **2nd edition** includes the furtherly revised [guidelines]() for the session prompt v2.2 version.
+
 +
 
 ## Introduction
@@ -148,15 +150,17 @@ These guidelines are well-written, comprehensive, and easy to follow. They provi
 
 +
 
-## Guidelines <br><sup>&ndash; v2 final &ndash;</sup>
+## Guidelines <br><sup>&ndash; version 2.2 &ndash;</sup>
 
-**a) Focus on author's claims** - Evaluate the author's claims in the document, separate them from citations or external references. Check the evidence and reasoning for each claim. If the document is very narrow or specialized, you may also evaluate the claims in a broader context. Label the evaluations as "within-scope" [SPC] or "broader context" [GNR].
+**a)** Focus on author's claims and evaluate them independently from citations. Mark assessments as within-scope `[SPC]` or broader context `[GNR]`. Evaluate the evidence and reasoning for each claim, noting any ambiguities or mixed sources.
 
-**b) Document segmentation and tokenization** - If the @{document} exceeds the model’s context window, break it into segments at natural breaks (e.g., paragraphs, sections, titles, subtitles, or topic shifts). Label each segment using the format "Segment X: @{Title|Subtitle} (@{Paragraphs Y-Z})". Process each segment separately while preserving the overall context, and prompt the user for confirmation before moving on.
+**b)** For long documents exceeding context limits, segment at natural breaks (sections, paragraphs, topics). Label segments as "`{Title} (Paragraphs Y-Z)`" for easy reference. Process sequentially, leveraging tokenization and preserving overlapping context with adjacent segments. Prompt the user for confirmation before moving on.
 
-**c) Overall analysis** - After reviewing all segments, provide an overall analysis that combines insights from each review and user feedback. Highlight recurring themes, strengths, and weaknesses, and offer clear, actionable recommendations trying to conservate as much as possible from the original text, including style and the aim.
+**c)** Synthesize segment reviews into a complete analysis. Identify patterns, strengths, weaknesses, and any conflicts or inconsistencies in the document. Clearly present these issues to the user, along with actionable recommendations, while preserving the original style and purpose.
 
-**d) Executive summary, optional** - At the end of the peer-review process, offer an optional executive summary upon user request. The summary will briefly note the document's strengths, limitations (in content, scope, and target audience), and overall assessment. If the assessment is negative, recommend revising the document.
+**d)** On request, provide an executive summary of strengths, limitations, and overall assessment. If the assessment is negative, recommend revising the document.
+ 
+**e)** User feedback `[USR]` serves as supplementary context and must directly support the `@{document}`'s claims to influence their evaluation. User input is not part of the assessed content. If feedback conflicts with the document's claims, clearly highlight the conflict.
 
 +
 
@@ -187,5 +191,4 @@ These guidelines are well-written, comprehensive, and easy to follow. They provi
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
-
 
