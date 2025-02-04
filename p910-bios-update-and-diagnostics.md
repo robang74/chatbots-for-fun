@@ -1,9 +1,11 @@
 <div id="firstdiv" created="2025-02-04:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
-<style>#printlink { display: inline; } @page { size: a4; margin: 0.36in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 <div align="center"><img class="wbsketch inksave" src="img/fujitsu-p910-e85plus-bios-screen-2s.jpg"><br></div>
 
 ## Fujistus P910 E85+ BIOS update & diagnostics
+
+This document show
 
 ---
 
@@ -17,13 +19,17 @@
 
    - **source**: [FreeDOS 1.3 Lite USB](https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.3/official/FD13-LiteUSB.zip)
 
-   - wget; unzip; dd; gparted:resize:63MiB; mount:usbdisk1
+   - wget&nbsp;:&nbsp;$archive
+   - unzip&nbsp;:&nbsp;$archive
+   - dd&nbsp;:&nbsp;$image&nbsp;:&nbsp;$usbdisk
+   - gparted&nbsp;:&nbsp;$usbdisk&nbsp;:&nbsp;resize&nbsp;:&nbsp;63MiB
+   - mount&nbsp;:&nbsp;$usbdisk1&nbsp;:&nbsp;$usb1dir
 
 ...
 
 ### 3. Fujitsu support
 
-   - **source**: [Quick search](https://support.ts.fujitsu.com/IndexQuickSearchResult.asp) keyword: D3162-A1x
+   - **source**: [Quick search](https://support.ts.fujitsu.com/IndexQuickSearchResult.asp) &nbsp;&ndash;&nbsp; **keyword**: D3162-A1x
 
 ...
 
@@ -45,7 +51,7 @@ SHA256: 32EF5E94C820745C19323BC039186E253D7C2153C2F783667C9D8F17C6857D86
 
    - **source**: [FTS System Diagnostics DOS USB Stick](https://support.ts.fujitsu.com/IndexDownload.asp?SoftwareGuid=DCC1A861-C236-4D84-ADBA-FC78E0B51D7E)
 
-   - wget; unzip; cp:unzip/&ast;/data/&ast;:usb1dir; mkdir:usb1dir/temp;
+   - download&nbsp;:&nbsp;$archive&nbsp;; &nbsp; unzip&nbsp;:&nbsp;$archive&nbsp;; &nbsp; cp&nbsp;:&nbsp;$unzipdir/&ast;/data/&ast;&nbsp;:&nbsp;$usb1dir
 
 [!CODE]
 usb1=[usb1 mount-point path]
@@ -83,8 +89,10 @@ SHA256: 25832921C80C0FEFD8E92574F7138C0CBFFDC11DA0DD5F3FAFF1DCDED49BD881
 
    - **source**: [FTS D3162A1x Admin package](https://support.ts.fujitsu.com/IndexDownload.asp?SoftwareGuid=38A1936D-6452-44EC-A10C-A42039C6F5A2)
 
-   - wget; unzip; cp:unzip/DOS/&ast;:usb1dir
-   - umount:usb1dir
+   - download&nbsp;:&nbsp;$archive&nbsp;;
+   - unzip&nbsp;:&nbsp;$archive&nbsp;; 
+   - cp&nbsp;:&nbsp;$unzipdir/DOS/&ast;&nbsp;:&nbsp;$usb1dir
+   - umount&nbsp;:&nbsp;$usb1dir
 
 ...
 
@@ -102,19 +110,21 @@ sectors=[usb disk p1 size in 512 byte sectors, biggest number]
 dd if=${usbdisk} count=${sectors} | pigz - >${img}.gz
 [/CODE]
 
-....
+...
 
 ### 7. Post archiving image modding (optional, not required)
 
 [!CODE]
+img="fdos-p910-bios-diag.img"
+
 pigz -dc ${img}.gz > ${img}; losetup -Pf ${img}
 
 [do whatever you like on loop device 1st partition]
 
-losetup -l | grep ${img}; losetup -D ${loop}
+losetup -D $(losetup -l | grep ${img} | cut -d' ' -f)
 [/CODE]
 
-...
+....
 
 ### 8. Usage
 
