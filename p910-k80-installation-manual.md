@@ -18,9 +18,9 @@
 >>>|
 >>>|
 
-- **Revision date**: 2024-01-29 (rev. 7)
+- **Revision date**: 2024-02-05 (rev. 10)
 
-- **State**: working in progress, 2 of 4 parts
+- **State**: working in progress, 3 of 5 parts
 
 - **Source**: robang74.github.io/chatbots-for-fun
 
@@ -32,11 +32,13 @@
 
 - **Purpose**: Education, mainly
 
-- **Composition**: this presentation + 2 articles collation
+- **Composition**: this presentation + 3 articles collation
 
    1. Tesla K80 with Esprimo P910 &nbsp; (2025-01-24)
 
    2. Dual PSU for Fujitsu Esprimo P910 &nbsp; (2025-01-25)
+   
+   3. Fujistus P910 E85+ BIOS update & diagnostics &nbsp; (2025-02-04)
 
 |<<<
 |<<<
