@@ -40,6 +40,12 @@ note_A=$(echo "$note_A" | sed -e "s,\,,\\\,g" -e "s,\&,\\\&,g")
 info_A='<div class="post-it"><b class="post-it">\&#9432;</b>'
 info_B='</div>'
 
+code_A='<div class="codeblock">'
+code_B='</div>'
+
+code_A='<blockquote class="code"><code><tt>'
+code_B='</tt></code></blockquote>'
+
 cite_A='<blockquote class="cite">'
 cite_B='</blockquote>'
 
@@ -126,6 +132,7 @@ function md2htmlfunc() {
 -e "s,>  *\[\!INFO\],> $note_A," \
 -e "s,^\[\!CITE\],$cite_A," -e "s,^\[/CITE\],$cite_B," \
 -e "s,^\[\!INFO\],$info_A," -e "s,^\[/INFO\],$info_B," \
+-e "s,^\[\!CODE\],$code_A," -e "s,^\[/CODE\],$code_B," \
 -e "s,m\*rda,m\&ast;rda,g" -e "s,sh\*t,sh\&ast;t,g" \
 -e "s,c\*zzo,c\&ast;zzo,g" -e "s,\([fd]\)\*ck,\\1\&ast;ck,g" \
 -e 's,^ *!\[\([^]]*\)\](\([^)]*\)) *$,<center><img src="\2"><br>\1</center>,' \
