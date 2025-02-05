@@ -125,7 +125,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 #### Local AIs
 
-* [gpt4all](https://www.nomic.ai/gpt4all) - Nous Hermes 2-DPO Mistral-7B &thinsp;([**`WRN!`**](neutrality-vs-biases-for-chatbots.html?target=_blank))
+* [gpt4all](https://www.nomic.ai/gpt4all) - Nous Hermes 2-DPO Mistral-7B &thinsp;([**`WRN!`**](neutrality-vs-biases-for-chatbots.md#?target=_blank))
 
 * [reorprj](https://www.reorproject.org) - Ollama w/RAG + Intel/Vulkan support &thinsp;(&hairsp;**`WOW!`**)
 
