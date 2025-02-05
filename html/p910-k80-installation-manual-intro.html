@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>p910-k80-installation-manual-intro</title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='shortcut icon' type='image/x-icon' href='favicon.ico?'>
+        <link rel='stylesheet' href='default.css'>
+        <link rel='stylesheet' href='../intl/intlflg.css'>
+        <!-- here begins the Javascript... why for the hell I got here? //-->
+        <meta http-equiv='Content-Script-Type' content='text/javascript'>
+        <link rel='stylesheet' href='ucustom.css' id='customStylesheet' media='screen'>
+        <script>const cssdir='';</script note='global variable'>
+        <script src='css-style-changer.js' defer></script>
+        <link rel='stylesheet' href='printer.css' media='print'>
+    </head>
+    <body>
+<style>#printlink { display: inline; } @page { size: letter; margin: 0.36in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+<p class='topbar'></p>
+<div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-01-28&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
+'>13</b rev_num='
+'> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-installation-manual-intro?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-installation-manual-intro?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-installation-manual-intro?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-installation-manual-intro?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
+<div id="firstdiv">
+<p class='topbar'></p>
+<br>
+<p></p>
+<div class='center'>
+<p></p>
+<H1 id="installing-nvidia-tesla-k80-">Installing Nvidia Tesla K80 <br>into a Fujitsu Esprimo P910<br>with U1 rack size dual-PSU</H1>
+<p></p>
+<br><hr><br>
+<p></p>
+<H1 id="manual-">MANUAL <br><img class="darkinv" src="../img/cc-by-nd-nc-icons.png" width="160px"><br></H1>
+<p></p>
+<br><hr><br>
+<p></p>
+</div>
+<p></p>
+<div class='indent'>
+<div class='indent'>
+<p></p>
+<li><b>Revision date</b>: 2024-02-05 (rev. 12)</li>
+<p></p>
+<li><b>State</b>: working in progress, 3 of 5 parts</li>
+<p></p>
+<li><b>Source</b>: robang74.github.io/chatbots-for-fun</li>
+<p></p>
+<li><b>Author</b>: Roberto A. Foglietta &lt;roberto.foglietta&commat;gmail.com&gt;</li>
+<p></p>
+<li><b>License</b>: Creative Common BY-NC-ND 4.0</li>
+<p></p>
+<li><b>Audience</b>: PC hardware middle skilled techs</li>
+<p></p>
+<li><b>Purpose</b>: Education, mainly</li>
+<p></p>
+<li><b>Composition</b>: this presentation + 3 articles collation</li>
+<p></p>
+<li class='li2in numli'><b>1.&emsp;</b>Tesla K80 with Esprimo P910 &nbsp; (2025-01-24)</li>
+<p></p>
+<li class='li2in numli'><b>2.&emsp;</b>Dual PSU for Fujitsu Esprimo P910 &nbsp; (2025-01-25)</li>
+<p></p>
+<li class='li2in numli'><b>3.&emsp;</b>Fujistus P910 E85+ BIOS update & diagnostics &nbsp; (2025-02-04)</li>
+<p></p>
+</div>
+</div>
+<p></p>
+<div class="pagebreak"><br><hr><br></div>
+<p></p>
+<H2 id="constraints-">Constraints <br><sup class='sub-hash'>of the related project</sup></H2>
+<p></p>
+This manual's sole purpose is educational, owing to the peculiar constraints adopted:
+<p></p>
+<li>extreme budget management, but no any particular time limit</li>
+<p></p>
+<li>commercial available hardware components assembly, only</li>
+<p></p>
+<li>no mechanical nor electrics mods allowed but 3D printing</li>
+<p></p>
+<li>non commercial and non derivative license terms.</li>
+<p></p>
+The choice of Esprimo P910 is part of the challenge, not the most suitable platform.
+<p></p>
+<br><hr><br>
+<p></p>
+<H2 id="introduction-">Introduction <br><sup class='sub-hash'>written by DeepSeek 3</sup></H2>
+<p></p>
+The document is about the process of installing and adapting a Nvidia Tesla K80 dual-GPU accelerator card into a Fujitsu Esprimo P910 E85+ desktop computer. It focuses on overcoming challenges such as thermal management, physical ft, and power supply requirements, particularly in a non-standard desktop environment. The author also discusses the use of a secondary power supply unit (PSU) to meet the power demands of the Tesla K80and explores cooling solutions to manage the heat generated by the GPU.
+<p></p>
+Are you a tech enthusiast or hobbyist looking to push the limits of older hardware?
+<p></p>
+This document is for you! Dive into the fascinating journey of adapting a Nvidia Tesla K80, a powerful dual-GPU accelerator with 4992 CUDA cores and 24GB of DDR5 RAM, into a Fujitsu Esprimo P910 E85+ desktop. Discover how to tackle challenges like thermal management, physical ft, and power supply in a non-standard desktop environment. Whether you're interested in running AI models, experimenting with GPU acceleration, or simply love a good hardware mod, this guide ofers practical insights, DIY solutions, and creative workarounds to make the most of your hardware. 
+<p></p>
+Join the author as they explore the world of custom cooling, dual PSU setups, and innovative airfow management — all while keeping things accessible for the average tech tinkerer. Let’s get started!
+<p></p>
+<div class="pagebreak"><br><hr><br></div>
+<p></p>
+<H2 id="structure-">Structure <br><sup class='sub-hash'>written by DeepSeek 3</sup></H2>
+<p></p>
+<H3 id="tesla-k80-with-esprimo-p910">Tesla K80 with Esprimo P910</H3>
+<p></p>
+The author introduces the project of installing a Tesla K80 into a Fujitsu Esprimo P910,highlighting the challenges of thermal management, physical ft, and power supply. The document explains how the K80 is not designed for desktop use, requiring modifcations to ft and power the card properly.
+<p></p>
+<li><b>Fitting into the Case</b> - This section details the physical modifcations needed to ft the Tesla K80 into the desktop case, including reshaping the rack grid and using plastic strips and insulating tape to secure the card and isolate nearby components.</li>
+<p></p>
+<li><b>Providing Enough Power</b> - The author discusses the power supply challenges posed by the Fujitsu Esprimo P910's custom PSU and proposes using a secondary ATX PSU installed in the DVD bay to power the Tesla K80. The section also explores the idea of a DVD-sized PSU as a niche market solution.</li>
+<p></p>
+<li><b>The Challenge Level</b> - This part refects on the broader challenge of leveraging older hardware for modern tasks, such as running AI models, and how this project aims to make such modifcations accessible to hobbyists with limited budgets.</li>
+<p></p>
+<li><b>Nvidia Forum Post</b> - The author shares a proposal posted on the Nvidia forum,requesting support for a DVD-sized PSU solution to power GPU cards like the Tesla K80.The post highlights the need for niche solutions for non-standard desktop confgurations.</li>
+<p></p>
+<li><b>Looking Forward</b> - The author outlines the next steps, including addressing thermal management issues and exploring the possibility of powering a fan directly from the Tesla K80 using a 2-pin connector.</li>
+<p></p>
+<div class="pagebreak"><br></div>
+<p></p>
+<H3 id="dual-psu-for-fujitsu-esprimo-p910">Dual PSU for Fujitsu Esprimo P910</H3>
+<p></p>
+This second article delves into the technical details of installing a secondary PSU in the DVD bay, including grounding and synchronization issues between the two PSUs. The author also discusses the cabling required to power the Tesla K80.
+<p></p>
+<li><b>P910 Issues</b> - The author identifes specifc issues with the Fujitsu Esprimo P910, such as the USB 3.0 connector interfering with the Tesla K80 installation and proposes solutions, including a 90-degree adapter for the USB connector.</li>
+<p></p>
+<li><b>Cooling the K80</b> - This section focuses on cooling solutions for the Tesla K80, including modifying the internal airfow with a custom defector and repositioning the cooling fan to manage the heat generated by the GPU and other components.</li>
+<p></p>
+<li><b>Bricolage</b> - The author describes the DIY approach taken to modify the cooling system,including using wood sticks, cardboard, and tape to create a new air defector. The section highlights the trial-and-error process of fnding the best confguration.</li>
+<p></p>
+<li><b>Conclusion</b> - The author concludes that the dual-PSU confguration is a viable solution for powering the Tesla K80 in a non-standard desktop case. The project is described as accessible to hobbyists with some technical skills but not suitable for everyone.</li>
+<p></p>
+<li><b>External Sources</b> - The document references external resources related to power management, overclocking, and using the Tesla K80 for gaming and AI tasks.</li>
+<p></p>
+<div class="pagebreak"><br><hr><br></div>
+<p></p>
+<H2 id="Parts list (BoM)">Parts list (BoM)</H2>
+<p></p>
+The bill of material with the price paid on the consumer market, including the cost of expedition.
+<p></p>
+<div class='center'><table id='table-001'><tr><th> Part description </th><th> e-market </th><th> paid(€) </th></tr>
+<tr class='trline'><td></td><td></td><td></td></tr>
+<tr><td class='td1stcol'> Nvidia Tesla K80, 24GB </td><td> amazon.it </td><td> &nbsp;89.00 EUR </td></tr>
+<tr><td class='td1stcol'> Fujitsu Esprimo P910 E85+, 16GB, i5-3470 </td><td> amso.eu </td><td> &nbsp;57.09 EUR </td></tr>
+<tr><td class='td1stcol'> 220V 1U 350W Flex PSU + 3 adapters </td><td> aliexpress.it </td><td> &nbsp;26.19 EUR </td></tr>
+<tr><td class='td1stcol'> - CPU 4-pins to CPU 8-pins adapter </td><td></td><td> &nbsp; 1.59 EUR </td></tr>
+<tr><td class='td1stcol'> - dual-PSU ATX/SATA router with 0/1 sw </td><td></td><td> &nbsp; 2.15 EUR </td></tr>
+<tr><td class='td1stcol'> - DVI to VGA adapter </td><td></td><td> &nbsp; 1.85 EUR </td></tr>
+<tr><td class='td1stcol'> USB 3.0 h:15mm 20-pins 90° adapter </td><td> amazon.it </td><td> &nbsp; 1.78 EUR </td></tr>
+<tr><td class='td1stcol'> 10 fans 4-pin PWM hub w/SATA powering </td><td> aliexpress.it </td><td> &nbsp; 2.33 EUR </td></tr>
+<tr><td class='td1stcol'> - PCI slot size grid for 1-3x 9-12cm fans </td><td></td><td> &nbsp; 3.27 EUR </td></tr>
+<tr><td class='td1stcol'> - Powering cable C14F w/C13M down angle </td><td></td><td> &nbsp; 4.61 EUR </td></tr>
+<tr><td class='td1stcol'> A kit of 2 fan 12cm 12V 4-pin &commat;12dB </td><td> amazon.it </td><td> &nbsp; 8.90 EUR </td></tr>
+<tr class='trline'><td></td><td></td><td></td></tr>
+<tr><td class='td1stcol'></td><td></td><td>  <b>198.76 EUR</b> </td></tr>
+</table>
+</div><p></p>
+The following is the list of material consumed or wasted, which contributed to the product unit cost.
+<p></p>
+<div class='center'><table id='table-002'><tr><th> Spare description </th><th> q.ty </th><th> used </th><th> paid(€) </th><th> % </th><th>  cost(€/100) </th></tr>
+<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class='td1stcol'> Heat shrinkage cable Protection </td><td>      127 </td><td>   4 </td><td>  0.93 </td><td> 3.15 </td><td>  &nbsp;2.93 €ENT </td></tr>
+<tr><td class='td1stcol'> Hot Melt Glue Gun Stick, 7mm </td><td> &nbsp;20 </td><td> 0.5 </td><td>  1.58 </td><td> 2.50 </td><td>  &nbsp;3.95 €ENT </td></tr>
+<tr><td class='td1stcol'> Black Electrical Plastic Tape </td><td> &nbsp;10 </td><td>   3 </td><td>  2.66 </td><td> 10.0 </td><td>       26.60 €ENT </td></tr>
+<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class='td1stcol'></td><td></td><td></td><td></td><td></td><td>   <b>33.48 €ENT</b> </td></tr>
+</table>
+</div><p></p>
+As you can imagine also noticing the contrast with the first table, this above is just for the sake of professionalism. And for the sake of completeness, I would also add the list of the tools used and their amortisation as middle-term consumable assets. I hope you will excuse me for not comply with this best practice, in this case... <img class='emoji wbsketch' src='../img/emoji/smile.png'>
+<p></p>
+<br>
+<p></p>
+<H2 id="white-page-for-notes">WHITE PAGE FOR NOTES</H2>
+<p></p>
+Only for paper printed version of the manual.
+<p></p>
+</div>
+<div id='date-legenda' align='center' translate='no'><sub><hr></sub><sub><b>date legenda</b>: &#x2776; first draft publishing date or &#x2777; creation date in git, otherwise &#x2778; html creation page date. <u>&mapstoup;<a href='#' class='toplink' translate='no'>top</a>&mapstoup;</u></sub></div>
+<br>
+    </body>
+</html>
