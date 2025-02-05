@@ -143,14 +143,19 @@ It is worth noticing that once solved the venting question, the home made deflec
 
 ### Tools list
 
+Here below is a list of almost all tools I have used, some reported in full specs and prices because they have been useful and nearly indispensable.
 
-- 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm 0.88 (temu.it)
+- 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm - paid price €0.88 on temu.it
 
-- Mini Cleaning Brush, Crevice Cleaning Soft Brush, Keyboard Cleaner, Keyboard Cl 0.37 (temu.it)
+- Mini Cleaning Soft Brush, Crevice and Keyboard Cleaner - paid price  €0.37 on temu.it
 
-- Set Cacciaviti di Precisione Kit Cacciaviti 115 Multifunzione 7,99 (amazon.it)
+- Set di 115 Cacciaviti di Precisione, Kit Multifunzione - paid price  €7.99 amazon.it
 
-- Forbici, cutter, pinza.
+- Scissors, cutter knife, pliers, hot-glue pistol, electrician cutting cutters, ...
+
+When a K80 card is bought used, a good idea is to clean their metallic radiators enclosed into the plastic case. To remove the plastic case it is required to unscrew the 8 torx #6 in my case. The soft brush listed above is hardly replaceable in its functionality by anything else to remove dust and cotton fluffy balls.
+
+As you can imagine an operation which is quite important considering that cumulating dirty inside the channel and spaces between fins can seriously affect the performance of the thermal radiators when not also obstructing or partially obstructing the air-flow channel. An important operation that usually people forget.
 
 +
 
