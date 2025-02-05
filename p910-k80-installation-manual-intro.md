@@ -107,6 +107,7 @@ This second article delves into the technical details of installing a secondary 
 
 ====
 
+<span id="bom"></span>
 ## Parts list (BoM)
 
 The bill of material with the price paid on the consumer market, including the cost of expedition.
