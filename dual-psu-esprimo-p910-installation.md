@@ -11,15 +11,17 @@ This document is still working in progress and it is the natural prosecution of 
 
 While the bill of material (BoM) has been added into the Manual 6-pages introduction.
 
-Due to the budget constraints, this project is progressing quite slowly because each batch of material is ordered when a step is completed and it takes about two weeks to arrive from China. However, some stuff has been bought from Amazon Italy or around Europe. Under this point of view, it is - in its small scale - an example of how the supply-chain impacts both on the time of production and on the final cost of the single unit.
+Due to the budget constraints, this project is progressing quite slowly because each batch of material is ordered when a step is completed and it takes about two weeks to arrive from China.
+
+However, some stuff has been bought from Amazon Italy or around Europe. Under this point of view, it is - in its small scale - an example of how the supply-chain impacts both on the time of production and on the final cost of the single unit.
 
 - [The bill of material (BoM))](p910-k80-installation-manual-intro.md#bom?target=_blank) &nbsp; (2025-02-05)
 
-In the meantime, I worked on prompt engineering in parallel and soon after the DVI-adapter, which I miss to order with the Esprimo P910, I created a manual for diagnose the hardware and update the BIOS
+In the meantime, I worked on the "prompt for peer-review with RAG support" engineering in parallel, and soon after the DVI-adapter arrived, which I missed to order with the Esprimo P910, I created a manual for diagnosing the hardware and updating the BIOS.
 
 - [P910 E85+ BIOS update & diagnostics](p910-bios-update-and-diagnostics.md) &nbsp; (2025-02-04)
 
-It is specifically tailored for Esprimo P910 E85+ but it can be used as a canvas for every other PC/laptop for which DOS tools are available.
+It is specifically tailored for Esprimo P910 E85+ but it can be used as a canvas for every other PC/laptop for which tools running on DOS are available.
 
 ---
 
@@ -29,11 +31,11 @@ Just to recap, the main problem of providing 225W TDP, 300W peak to the Nvidia T
 
 Therefore an industrial 1U standard rack PSU has been chosen, which has been designed and built to power the ATX PC-based automated point of sales (PoS). For this reason it is particularly small, compared to the standard ATX power supply unit and cheap, compared with the PC-gaming market segment.
 
-This PSU's height is almost the same, a little less, than a standard DVD-ROM reader, shorter and less wide (150mm x 82mm x 41 mm). Plus it does not have the standard holes to receive the plate used into P910 to lock the DVD-ROM in its place. For a confrontation, the hosted DVD-ROM was 150mm x 165mm x 42mm.
+This PSU's height is almost the same as a standard DVD-ROM reader, shorter and less wide (82 x 150 x 41 mm). Plus it does not have the standard holes to receive the plate used into P910 to lock the DVD-ROM in its place. For a confrontation, the hosted DVD-ROM was 150 x 165 x 42 mm.
 
-Moreover, once it replaces the DVD-DOM, it offers the 3 pole male plug on the front side of the case which is not particularly comfortable, safe but the cable is much more at risk of being accidentally unplugged and aesthetically pleasant.
+Moreover, once it replaces the DVD-DOM, it offers the 3 pole male plug on the front side of the case which is not particularly comfortable, safe but the cable is much more at risk of being accidentally unplugged and aesthetically unpleasant.
 
-For these reasons, in creating a custom adapter, I built it in a way in which it will be easy in the near future to move the 3 pole C14F plug on the back of the tower case.
+For these reasons, in creating a custom frame adapter, I built it in a way in which it will be easy in the near future to move the 3 pole C14F plug on the back of the tower case.
 
 |x|>
 <img class="bwsketch" src="img/fujitsu-p910-dual-psu-front-back.jpg" width="400">
@@ -41,13 +43,15 @@ For these reasons, in creating a custom adapter, I built it in a way in which it
 <sup>right click menu to enlarge (x4) the image</sup>
 <|x|
 
-Replacing the cable with a straight C13M plug with another one providing a down angle C13M plug, the length exposed will be much shorter. While the power cable will extend in a way that it would be perfectly safe to turn into the tower case for exposing it at its back. Moreover, moving back the new PSU by 15mm, it will get deep in the case as much as the old DVD-ROM driver keeping the plug protected.
+Replacing the cable with a straight C13M plug with another one providing a down angle C13M plug, the length exposed will be much shorter. While the power cable will extend in a way that it would be perfectly safe to turn into the tower case for being brought in the back.
+
+Moreover, moving back the new PSU by 15mm, it will get deep in the case as much as the old DVD-ROM driver keeping the plug protected within the bay. At that point the bay can be partially closed, separating the 220V stage from the fan air-corridor and levelling at the case front face with an air-flow anti-dust grid fan guard, this last mainly for aesthetic reasons.
 
 ---
 
 ### Venting system
 
-About the venting system, I was considering to use 2 fan 5020 or 5015 to place outside the back of the case, in front of the 2 PCI slots engaged by the Tesla K80 for sucking air trought its airflow tunnel, while the main fan into the case would push air into it, as show here.
+About the venting system, I was considering to use 2 fan 5020 or 5015 to place outside the back of the case, in front of the 2 PCI slots engaged by the Tesla K80 for sucking air through its airflow tunnel, as per its factory design, while the main fan into the case would push air into it, as show here below in the image.
 
 |x|>
 <img class="bwsketch" src="img/esprimo-p910-changed-air-flow.jpg" width="400">
@@ -57,21 +61,21 @@ About the venting system, I was considering to use 2 fan 5020 or 5015 to place o
 
 The area to cover in such a scenario is not larger than 11 x 5 cm, for this reason the best is using 2 fan 5 x 5cm which seems optimal because the remaining area is essentially covered by the metal of the case or the PCI slot vertical locking mechanism.
 
-Unfortunately, the 5010 are not very powerful while the 5020+ are rare. Instead, among the 5015 as the only viable option, most of them are not going to offer any PWM control (2-pin, or 3-pin at the best) because they are designed mainly for 3D printers.
+Unfortunately, the 5010 fans are not very powerful while the 5020+ are rare. Instead, among the 5015s as the only viable option, most of them are not going to offer any PWM control (connection by 2-pin cable, or 3-pin at the best) because they are designed mainly for 3D printers.
 
-The few remaining that may have a chance to fulfill the role are as costly as the 12 cm fans, noisier and way less powerful than them. Which should not surprise us because the gaming market pushes forward the competition and keeps the warehouses well-assorted.
+The few remaining that may have a chance to fulfill the role are as costly as the 12 cm fans, noisier and way less powerful than them. Which should not surprise us because the gaming market pushes forward the competition and keeps the warehouses well-assorted for the 12cm fans.
 
 ---
 
 ### New challenges
 
-Enlarging the image above and looking at the right side of the Nvidia K80 card, we can be assured that fitting a couple of 12cn fans overthere, in that narrow and messy space, will be not easy but requires some kind of cabling rearrangement, at least. If it is possible.
+Enlarging the image above and looking at the right side of the Nvidia K80 card, we can be assured that fitting a couple of 12cm fans overthere, in that narrow and messy space, will be not easy but requires some kind of cabling rearrangement, at least. If it is possible.
 
-The second challenge arises looking at that same image but on the opposite side of the case. Considering the length of the cable ordered as the next material batch, it is quick to determine that it is not long enough to reach the diametrical opposite side of the case.
+The second challenge arises looking at that same image but on the opposite side of the case. Considering the length of the cable that I have ordered within the next material batch, it is quick to determine that it is not long enough to reach the diametrical opposite side of the case.
 
-In fact, the cable ordered is 60cm long while to reach the ending point shown in the second image of this paper, it needs 100cm. In this case, the availability or the price are not the major driver of this choice, but noticing that with 60cm, it can reach the grid below the Fujitsu original PSU.
+In fact, the cable ordered is 60cm long while to reach the ending point shown in the second image of this paper, it needs about 100cm. In this case, the availability or the price have not been the major driver of this choice, but noticing that with 60cm, it can reach the grid below the Fujitsu original PSU.
 
-Despite the relatively simplicity of the P910 model and the Fujitsu attitude to maniacally lock the cables in position, within the case, there are many cables. For sure more cables than available or free points for locking a relatively big cable like a power one.
+Despite the relatively simplicity of the P910 model and the Fujitsu attitude to maniacally lock the cables in position, within the case, there are many cables. For sure there are more cables than available locking-grips or tieing points, especially for a relatively big cable like a power one.
 
 While in the top of the case there is an almost lack of cabling and reaching the first grid available for hosting a C14F plug is quite straightforward. There are not any locking points for the cable, but a nice 3M duct-tape will be enough to win the gravity.
 
@@ -81,9 +85,9 @@ While in the top of the case there is an almost lack of cabling and reaching the
 <sup>right click menu to enlarge (x4) the image</sup>
 <|x|
 
-In this image above, the lime-green bordered blue lines indicate where the power cabling, from the front of the newly installed PSU, is going to find its way to end back in the rear of the tower case.
+In this image above, the lime-green bordered blue lines indicate where the power cabling, from the front of the newly installed PSU, is turning back and going to find its way to end back in the rear of the tower case.
 
-Too nice and easy to be true... In fact, compared with opening a hole at the end of data storage bays row, going to tackle metal grid over there and possibly spread conductive crumbs which might go around for the circuitry in a brisky mood... is not the most appealing scenario.
+Too nice and easy to be true... In fact, compared with opening a hole at the end of data storage bays row, going to tackle to cut the metal grid up over there and possibly spread conductive crumbs which might go around for the circuitry in a brisky mood... is not the most appealing scenario.
 
 |x|>
 <img class="bwsketch" src="img/power-cabling-easy-to-deploy.png" width="400">
@@ -91,11 +95,24 @@ Too nice and easy to be true... In fact, compared with opening a hole at the end
 <sup>right click menu to enlarge (x4) the image</sup>
 <|x|
 
-For those wish to sleep well during the night or are more keen to take a short-cut, in the above image is protraited a cable which [Amazon Italia](https://www.amazon.it/gp/product/B07P7WHQZD) offers for €9.11 Prime delivery included.
+For those wish to sleep well during the night or are more keen to take a short-cut, in the above image is portrayed a cable which [Amazon Italia](https://www.amazon.it/gp/product/B07P7WHQZD) offers for €9.11 Prime delivery included.
 
 Spoiler - pushing the power plug through the PCI slot opening, the closest one to the CPU, that 1.8mt cable will reach his destination to be connected with the public power network without the need to create new holes in the tower case.
 
-This will cost you a PCI-express x4 mechanically x16, and the day someone will pull the power cord in a strong manner likely stumbling rather than walking over it, possibly also the CPU or the RAM will leave this world for a better one. {;-)}
+This will cost you a PCI-express x4 mechanically x16, and the day someone will pull the power cord in a strong manner, likely stumbling rather than walking over it, possibly also the CPU or the RAM will leave the motherboard for a better place in the trash. {;-)}
+
+[!INFO]
+
+For those who have a professional practice of 220V electric cabling, and the related authorisations and certifications to operate on that lines, the most customised solution is about wiring a C14F, usually protected by a 10A-220V fuse and at cheap price €1.39 also including a on/off led-lighted button. This might be done without even modding the grid but leveraging its reasonably large hexagonal pattern to pass through the cables to wire and fixing the plug externally to the grid.
+
+In this scenario, a knot before the grid and another one after will fix the cable to the grid in a way it will not be able to be pulled by one side or another. Obviously having had the care to extra protect the cable insulating sleeve towards accidental straps or frictions against the metall grid. Heating shrinking guaina can provide a reasonable isolation in the wiring points while an electric plastic box will protect everything and hide the fixing bolts.
+
+In Italy, respecting CEI-UNI normatives and standards, a light point made by a professional electrician, is priced between €25 and €40 each plus the cost of the electric material, on average, many to few the average price arises. So, we can reasonably assume that such a mod will cost around 50 bucks. More bucks than I have paid the whole P100 with 16GB but without any data storage, including expedition.
+
+[/INFO]
+
+If you conclude, by all of these, that it is better for you to go to work as an electrician instead of IT guys, well... that's another story! {;-)}
+
 
 +
 
