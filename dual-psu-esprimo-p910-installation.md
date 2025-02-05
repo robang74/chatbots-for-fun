@@ -75,15 +75,33 @@ Despite the relatively simplicity of the P910 model and the Fujitsu attitude to 
 
 While in the top of the case there is an almost lack of cabling and reaching the first grid available for hosting a C14F plug is quite straightforward. There are not any locking points for the cable, but a nice 3M duct-tape will be enough to win the gravity.
 
-Too nice and easy to be true... In fact, compared with opening a hole at the end of storage bays row, going to tackle metals and possibly spread conductive crumbs which would go around for the circuitry in a brisky mood... is not the most appealing scenario.
+|x|>
+<img class="bwsketch" src="img/esprimo-p910-cooling-preview.jpg" width="400">
++
+<sup>right click menu to enlarge (x4) the image</sup>
+<|x|
+
+In this image above, the lime-green bordered blue lines indicate where the power cabling, from the front of the newly installed PSU, is going to find its way to end back in the rear of the tower case.
+
+Too nice and easy to be true... In fact, compared with opening a hole at the end of data storage bays row, going to tackle metal grid over there and possibly spread conductive crumbs which might go around for the circuitry in a brisky mood... is not the most appealing scenario.
+
+|x|>
+<img class="bwsketch" src="img/power-cabling-easy-to-deploy.png" width="400">
++
+<sup>right click menu to enlarge (x4) the image</sup>
+<|x|
+
+For those wish to sleep well during the night or are more keen to take a short-cut, in the above image is protraited a cable which [Amazon Italia](https://www.amazon.it/gp/product/B07P7WHQZD) offers for €9.11 Prime delivery included.
+
+Spoiler - pushing the power plug through the PCI slot opening, the closest one to the CPU, that 1.8mt cable will reach his destination to be connected with the public power network without the need to create new holes in the tower case.
+
+This will cost you a PCI-express x4 mechanically x16, and the day someone will pull the power cord in a strong manner likely stumbling rather than walking over it, possibly also the CPU or the RAM will leave this world for a better one. {;-)}
 
 +
 
 `[... continuing ...]`
 
 +
-
----
 
 ## Share alike
 
