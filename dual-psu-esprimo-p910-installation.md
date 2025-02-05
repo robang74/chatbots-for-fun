@@ -113,6 +113,44 @@ In Italy, respecting CEI-UNI normatives and standards, a light point made by a p
 
 If you conclude, by all of these, that it is better for you to go to work as an electrician instead of IT guys, well... that's another story! {;-)}
 
+---
+
+### Preparing for installation
+
+The two 12cm fan height is 25mm too much to fit between the 2nd floor of the case and the K80 that should necessarily be installed in the second PCI-express slot because the other is functionally a 4x instead of a 16x. Moreover, a 12 cm fan is not fit also in the middle data storage bay but a 10 cm could, given that the openings in that bay can vehiculate enough air-flow.
+
+|x|>
+<img class="bwsketch" src="img/coolink-k80-cardboard-model-preview.jpg" width="800">
++
+<sup>right click menu to enlarge (x2) the image</sup>
+<|x|
+
+Under such a negative estimation, another solution is necessary. Given that the two fans mounted on the new PCI frame can be installed into the first PCI-express slot, then they are cooling the CPU and the dual power supply units. Under that condition, it is possible to converge all the main 12cm fan air-flow into the K80 and leveraging its design by factory cooling channel.
+
+Engaging the PCI-express first slot is not a great idea because it will be lost. However, considering that this is a dedicated system, such limitation does not seem so impactful. Unless, someone wishes to use the PCI-e 4x to leverage a non-SATA storage device with a PCI-e adapter. Which usually happens when a spare part from a previous machine is available for free and it is worth "recycling" it.
+
+Considering that a 512GB SATA3 SSD can be bought for €28 on Amazon Italia with Prime expedition included, it does not seem to compromise the overall value. Moreover, an alternative to keep free the case after redirecting the 12cm main fan, can be installing fan(s) on the rear grid in order to push the fresh air into the case, cooling the CPU and then being sucked out by the two PSUs.
+
+The rear upper grid can internally host a 8cm fan or two 6cm fans. I am confident that for the 8cm fan market segment the range of choice will be comparable with the 12cm fan market one, or a little less. I cannot say the same for the 6cm but I did not explore that option yet.
+
+In one way or another, it sounds reasonable that the main fan will be converted for cooling the K80 instead of the CPU and the system in general. Which brings to the need to supply the lost air-flow with another venting system.
+
+For all these reasons, the venting system is still an open question and it might be integrated with a couple of 5cm fans to suck hot air from the K80 front while the main 12cm fan is pushing fresh air diverted into it.
+
+It is worth noticing that once solved the venting question, the home made deflector/concentrator can be used to prototype the first 3D printed version and hopefully with few further refinement to let it fit perfectly in place and doing its job.
+
+---
+
+### Tools list
+
+
+- 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm 0.88 (temu.it)
+
+- Mini Cleaning Brush, Crevice Cleaning Soft Brush, Keyboard Cleaner, Keyboard Cl 0.37 (temu.it)
+
+- Set Cacciaviti di Precisione Kit Cacciaviti 115 Multifunzione 7,99 (amazon.it)
+
+- Forbici, cutter, pinza.
 
 +
 
