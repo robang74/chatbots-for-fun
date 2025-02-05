@@ -18,7 +18,7 @@
 >>>|
 >>>|
 
-- **Revision date**: 2024-02-05 (rev. 10)
+- **Revision date**: 2024-02-05 (rev. 11)
 
 - **State**: working in progress, 3 of 5 parts
 
@@ -105,6 +105,43 @@ This second article delves into the technical details of installing a secondary 
 
 - **External Sources** - The document references external resources related to power management, overclocking, and using the Tesla K80 for gaming and AI tasks.
 
+====
+
+## Parts list (BoM)
+
+The bill of material with the price paid on the consumer market, including the cost of expedition.
+
+| Part description                          | e-market      | paid(€)      |
+| ------------------------------------------|---------------|--------------|
+| Nvidia Tesla K80, 24GB                    | amazon.it     | &nbsp;89 EUR |
+| Fujitsu Esprimo P910 E85+, 16GB, i5-3470  | amso.eu       | &nbsp;59 EUR |
+| 220V 1U 350W Flex PSU + 3 adapters        | aliexpress.it | &nbsp;32 EUR |
+| - CPU 4-pins to CPU 8-pins adapter        |               |              |
+| - dual-PSU ATX/SATA router with 0/1 sw    |               |              |
+| - DVI to VGA adapter                      |               |              |
+| USB 3.0 h:15mm 20-pins 90° adapter        | amazon.it     | &nbsp; 2 EUR |
+| 10 fans 4-pin PWM hub w/SATA powering     | aliexpress.it | &nbsp;10 EUR |
+| - PCI slot size grid for 1-3x 9-12cm fans |               |              |
+| - Powering cable C14F w/C13M down angle   |               |              |
+|                                           |               |              |
+|                                           |               |  **192 EUR** |
+
+The following is the list of material consumed or wasted, which contributed to the product unit cost.
+
+| Spare description                | q.ty     | used | paid(€) | %    |  cost(€/100)     |
+| ---------------------------------|----------|------|---------|------|------------------|
+| Heat shrinkage cable Protection  |      127 |   4  |  0.93   | 3.15 |  &nbsp;2.93 €ENT |
+| Hot Melt Glue Gun Stick, 7mm     | &nbsp;20 | 0.5  |  1.58   | 2.50 |  &nbsp;3.95 €ENT |
+| Black Electrical Plastic Tape    | &nbsp;10 |   3  |  2.66   | 10.0 |       26.60 €ENT |
+|                                  |          |      |         |      |                  |
+|                                  |          |      |         |      |   **33.48 €ENT** |
+
+As you can imagine also noticing the contrast with the first table, this above is just for the sake of professionalism. And for the sake of completeness, I would also add the list of the tools used and their amortisation as middle-term consumable assets. I hope you will excuse me for not comply with this best practice, in this case... {:-)}
+
 +
+
+## WHITE PAGE FOR NOTES
+
+Only for paper printed version of the manual.
 
 </div>
