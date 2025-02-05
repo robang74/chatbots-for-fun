@@ -103,6 +103,22 @@ This will cost you a PCI-express x4 mechanically x16, and the day someone will p
 
 +
 
+## External sources
+
+Power limiting a GPU using the Linux systemd and Nvidia smi
+
+- [Quad RTX3090 power limiting](https://www.pugetsystems.com/labs/hpc/Quad-RTX3090-GPU-Power-Limiting-with-Systemd-and-Nvidia-smi-1983)
+
+Few interesting video about power supply 1U units and quiet fan
+
+- [TF400 350W](https://youtu.be/Z5QblIG1ca4) - Full Modular 1U Mini Flex PC-ATX PSU 350W
+
+- [TF600 550W](https://youtu.be/kABIUwzTaBw) - Skywindint TF600 flex ATX PSU from AliExpress
+
+- [Quiet fan](https://youtu.be/dH-_UA8sVwg) - Noisy flex ATX PSU fix (if you dare to...)
+
++
+
 ## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
