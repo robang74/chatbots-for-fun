@@ -27,7 +27,7 @@ In the meantime, I worked on the "prompt for peer-review with RAG support" engin
 
 It is specifically tailored for Esprimo P910 E85+ but it can be used as a canvas for every other PC/laptop for which tools running on DOS are available.
 
-----
+---
 
 ### Dual PSU installation
 
@@ -63,7 +63,7 @@ Replacing the cable with a straight C13M plug with another one providing a down 
 
 Moreover, moving back the new PSU by 15mm, it will get deep in the case as much as the old DVD-ROM driver keeping the plug protected within the bay. At that point the bay can be partially closed, separating the 220V stage from the fan air-corridor and levelling at the case front face with an air-flow anti-dust grid fan guard, this last mainly for aesthetic reasons.
 
-----
+---
 
 ### Venting system
 
@@ -128,7 +128,7 @@ In Italy, respecting CEI-UNI normatives and standards, a light point made by a p
 
 If you conclude, by all of these, that it is better for you to go to work as an electrician instead of IT guys, well... that's another story! {;-)}
 
-----
+---
 
 ### Preparing for installation
 
@@ -146,7 +146,9 @@ For all these reasons, the venting system is still an open question and it might
 
 It is worth noticing that once solved the venting question, the home made deflector/concentrator can be used to prototype the first 3D printed version and hopefully with few further refinement to let it fit perfectly in place and doing its job.
 
-#### About PCI-e slot lost
+---
+
+### About PCI-e slot lost
 
 Engaging the PCI-express first slot is not a great idea because it will be lost. However, considering that this is a dedicated system, such limitation does not seem so impactful. Unless, someone wishes to use the PCI-e 4x to leverage a non-SATA storage device with a PCI-e adapter. Which usually happens when a spare part from a previous machine is available for free and it is worth reusing it.
 
@@ -158,7 +160,7 @@ The rear upper grid can internally host two 6cm fans, as an alternative. I am co
 
 In one way or another, it sounds reasonable that the main fan will be converted for cooling the K80 instead of the CPU and the system in general. Which brings to the need to supply the lost air-flow with another venting system.
 
----
+----
 
 ### Tools list
 
@@ -169,9 +171,7 @@ Here below is a list of almost all tools I have used, some reported in full spec
 <|x|
 
 - Mini Cleaning Soft Brush, Crevice and Keyboard Cleaner - paid price  €0.37 on temu.it
-
 - Set di 115 Cacciaviti di Precisione, Kit Multifunzione - paid price  €7.99 amazon.it
-
 - 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm - paid price €0.88 on temu.it
 
 - Scissors, cutter knife, pliers, hot-glue pistol, electrician cutting cutters, ...
@@ -184,12 +184,6 @@ As you can imagine, cleaning the thermal radiators is an operation which is quit
 
 [/INFO]
 
-+
----
-|x|>
-**WORKING IN PROGRESS - YET TO BE COMPLETED**
-<|x|
----
 +
 
 ## External sources
