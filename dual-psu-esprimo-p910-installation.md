@@ -37,13 +37,13 @@ Therefore an industrial Flex size PSU has been chosen, which has been designed a
 
 [!INFO]
 
-The new PSU flex ATX provides 2 molexes and 1 CPU 4-pin connectors. Hence, it offers two ways of powring the 225W TDP (peak 300W) Tesla K80 card, each one with a different adapater. 
+The new PSU flex ATX provides 2 molexes and 1 CPU 4-pin connectors. Hence, it offers two ways of powering the 225W TDP (peak 300W) Tesla K80 card, each one with a different adapter. 
 
 - Each molex brings a 12V line supporting up to 11A for a total of 264W of constant current flow, hence a TDP figure. Which is 85% of the K80's TDP and 114% of the peak load.
 
-- Fortunately, the CPU 4-pin connector is cabled with two yellow (12V) and two blacks (GND) wires which means it offers two separate lines for 22A in total, hence 264W of TDP.
+- Fortunately, the CPU 4-pin connector is cabled with two yellow (12V) and two black (GND) wires which means it offers two separate lines for 22A in total, hence 264W of TDP.
 
-In case a single 2mm line, only 12V x 11A = 132W would be available, like using a single molex when two are required. In that case the K80's TDP board should be limited accordingly, using the **`nvidia-smi`** tool. Cut by half the TDP is not a bad idea for a system that should undergo a whole test including the venting system, after all.
+In case of a single 2mm line, only 12V x 11A = 132W would be available, like using a single molex when two are required. In that case the K80's TDP should be limited accordingly, using the **`nvidia-smi`** tool. Cutting by half the TDP is not a bad idea for a system that should undergo a whole test including the venting system, after all.
 
 [/INFO]
 
@@ -185,7 +185,7 @@ From the above, the arrows indicate the following point of interest:
 - the on/off switch for the 2nd PSU power-on signal on the board;
 - the velcro strip grouping the unused 2nd PSU cables among them.
 
-Obviously, the dual-PSU manager board is isolated by the case external metallic shield by an insulating polyurethane foam plate which is fixed to the board with 4 tie wraps. The dual-PSU board is locked to the case with two bamboo sticks which are struck into the board holes and are pressing it against the PSU side by pressing on the case internal border. This mechanism allows the board to move horizontally and potentially quitting from this lock when moving on the right. A tie wrap prevents the slippage fixing it by hooking the PSU.
+Obviously, the dual-PSU manager board is isolated by the case external metallic shield by an insulating polyurethane foam plate which is fixed to the board with 4 tie wraps. The dual-PSU board is locked to the case with two bamboo sticks which are struck into the board holes and are pressing it against the PSU side by pressing on the case internal border. This mechanism allows the board to move horizontally and potentially quitting from this lock when moving on the right. A tie wrap prevents the slippage by fixing it by hooking the PSU.
 
 ~~~~
 
@@ -197,8 +197,8 @@ Here below is a list of almost all tools I have used, some reported in full spec
 <img class="bwsketch darkinv" src="img/cheap-but-useful-tools.jpg" width="800">
 <|x|
 
-- Mini Cleaning Soft Brush, Crevice and Keyboard Cleaner - paid price  €0.37 on temu.it
-- Set di 115 Cacciaviti di Precisione, Kit Multifunzione - paid price  €7.99 amazon.it
+- Mini Cleaning Soft Brush, Crevice and Keyboard Cleaner - paid price  €0.37 on temu.it
+- Set di 115 Cacciaviti di Precisione, Kit Multifunzione - paid price  €7.99 amazon.it
 - 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm - paid price €0.88 on temu.it
 
 - Scissors, cutter knife, pliers, hot-glue pistol, electrician cutting cutters, ...
