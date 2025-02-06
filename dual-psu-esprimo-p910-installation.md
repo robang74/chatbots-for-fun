@@ -27,7 +27,7 @@ In the meantime, I worked on the "prompt for peer-review with RAG support" engin
 
 It is specifically tailored for Esprimo P910 E85+ but it can be used as a canvas for every other PC/laptop for which tools running on DOS are available.
 
-----
+---
 
 ### Dual PSU installation
 
@@ -41,9 +41,9 @@ The new PSU flex ATX provides 2 molexes and 1 CPU 4-pin connectors. Hence, it of
 
 - Each molex brings a 12V line supporting up to 11A for a total of 264W of constant current flow, hence a TDP figure. Which is 85% of the K80's TDP and 114% of the peak load.
 
-- The CPU 4-pin cable is made by the same 2mm diameter (including the sleeve) wires used for the molexes. Hence, the supported power with this solution is 132W, a half.
+- Fortunately, the CPU 4-pin connector is cabled with two yellow (12V) and two blacks (GND) wires which means it offers two separate lines for 22A in total, hence 264W of TDP.
 
-In the last case, the K80's TDP board should limited accordingly, using the **`nvidia-smi`** tool.
+In case a single 2mm line, only 12V x 11A = 132W would be available, like using a single molex when two are required. In that case the K80's TDP board should be limited accordingly, using the **`nvidia-smi`** tool. Cut by half the TDP is not a bad idea for a system that should undergo a whole test including the venting system, after all.
 
 [/INFO]
 
@@ -164,7 +164,7 @@ In one way or another, it sounds reasonable that the main fan will be converted 
 
 ### Second PSU cabling
 
-Because it is fine to test the venting system at reduced GPU power to avoid any nasty and irrecoverable surprise and make it running at half the nominal power seems reasonable, I decided to go with the 4-pin/8-pin CPU configuration that I chose.
+I decided to go with the 4-pin/8-pin CPU configuration because such adapter is easier to find and cheaper to buy compared with the 2-molexes adapter.
 
 |x|>
 <img class="wbsketch" src="img/p910-dual-psu-cabling.jpg" width="800">

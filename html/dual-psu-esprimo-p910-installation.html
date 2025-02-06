@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-02-05&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>15</b rev_num='
+'>16</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dual-psu-esprimo-p910-installation?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dual-psu-esprimo-p910-installation?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dual-psu-esprimo-p910-installation?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/dual-psu-esprimo-p910-installation?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -46,7 +46,7 @@ In the meantime, I worked on the "prompt for peer-review with RAG support" engin
 <p></p>
 It is specifically tailored for Esprimo P910 E85+ but it can be used as a canvas for every other PC/laptop for which tools running on DOS are available.
 <p></p>
-<div class="pagebreak"><hr></div>
+<hr>
 <p></p>
 <H3 id="dual-psu-installation">Dual PSU installation</H3>
 <p></p>
@@ -60,9 +60,9 @@ The new PSU flex ATX provides 2 molexes and 1 CPU 4-pin connectors. Hence, it of
 <p></p>
 <li>Each molex brings a 12V line supporting up to 11A for a total of 264W of constant current flow, hence a TDP figure. Which is 85% of the K80's TDP and 114% of the peak load.</li>
 <p></p>
-<li>The CPU 4-pin cable is made by the same 2mm diameter (including the sleeve) wires used for the molexes. Hence, the supported power with this solution is 132W, a half.</li>
+<li>Fortunately, the CPU 4-pin connector is cabled with two yellow (12V) and two blacks (GND) wires which means it offers two separate lines for 22A in total, hence 264W of TDP.</li>
 <p></p>
-In the last case, the K80's TDP board should limited accordingly, using the <b><tt>nvidia-smi</tt></b> tool.
+In case a single 2mm line, only 12V x 11A = 132W would be available, like using a single molex when two are required. In that case the K80's TDP board should be limited accordingly, using the <b><tt>nvidia-smi</tt></b> tool. Cut by half the TDP is not a bad idea for a system that should undergo a whole test including the venting system, after all.
 <p></p>
 </div>
 <p></p>
@@ -183,7 +183,7 @@ In one way or another, it sounds reasonable that the main fan will be converted 
 <p></p>
 <H3 id="second-psu-cabling">Second PSU cabling</H3>
 <p></p>
-Because it is fine to test the venting system at reduced GPU power to avoid any nasty and irrecoverable surprise and make it running at half the nominal power seems reasonable, I decided to go with the 4-pin/8-pin CPU configuration that I chose.
+I decided to go with the 4-pin/8-pin CPU configuration because such adapter is easier to find and cheaper to buy compared with the 2-molexes adapter.
 <p></p>
 <div class='center'>
 <img class="wbsketch" src="../img/p910-dual-psu-cabling.jpg" width="800">
