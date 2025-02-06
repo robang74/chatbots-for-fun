@@ -63,7 +63,7 @@ Replacing the cable with a straight C13M plug with another one providing a down 
 
 Moreover, moving back the new PSU by 15mm, it will get deep in the case as much as the old DVD-ROM driver keeping the plug protected within the bay. At that point the bay can be partially closed, separating the 220V stage from the fan air-corridor and levelling at the case front face with an air-flow anti-dust grid fan guard, this last mainly for aesthetic reasons.
 
----
+----
 
 ### Venting system
 
@@ -128,7 +128,7 @@ In Italy, respecting CEI-UNI normatives and standards, a light point made by a p
 
 If you conclude, by all of these, that it is better for you to go to work as an electrician instead of IT guys, well... that's another story! {;-)}
 
----
+----
 
 ### Preparing for installation
 

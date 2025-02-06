@@ -105,7 +105,7 @@ While, in this image the interior of a Fujitsu Esprimo P910 E85+ is shown with t
 
 <div align="center"><img class="wbsketch inksave" src="img/esprimo-p910-cabling-howto.jpg" width="800"><br><sub>right click menu to enlarge the image in a new tab</sub></div>
 
-++++
+---
 
 The colors chosen do not indicate the seriousness or the importance of the problem. Here below the list of the areas and their relevance.
 
@@ -165,7 +165,7 @@ However, I fixed that hole with two auto-gripping plastic strips plus I inserted
 
 These two photos show the actual result and we can compare them with the two renderings on which the modification has been planned. In the image, the light blue lines indicate, starting from the left: the line at the center of the 12 cm fan, the new deflector air-flow direction and the original deflector air-flow direction.
 
----
+----
 
 ### A hands-craft baffle
 
