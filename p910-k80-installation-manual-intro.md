@@ -18,9 +18,7 @@
 >>>|
 >>>|
 
-- **Revision date**: 2024-02-05 (rev. 12)
-
-- **State**: working in progress, 3 of 5 parts
+- **State**: working in progress, 4 of 5 parts
 
 - **Source**: robang74.github.io/chatbots-for-fun
 
@@ -34,11 +32,13 @@
 
 - **Composition**: this presentation + 3 articles collation
 
-   1. Tesla K80 with Esprimo P910 &nbsp; (2025-01-24)
+   1. [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-24)
 
-   2. Dual PSU for Fujitsu Esprimo P910 &nbsp; (2025-01-25)
+   2. [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-25)
    
-   3. Fujistus P910 E85+ BIOS update & diagnostics &nbsp; (2025-02-04)
+   3. [Fujistus P910 E85+ BIOS update & diagnostics](p910-bios-update-and-diagnostics.md#?target=_blank) &nbsp; (2025-02-04)
+
+   4. [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md#?target=_blank) &nbsp; (2025-01-25,**`WIP!`**)
 
 |<<<
 |<<<
