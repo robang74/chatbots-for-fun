@@ -37,55 +37,77 @@ Since conceived as a collection and due to the nature of these documents, they s
 <span id="pages-index"></span>
 ## Index
 
-This page is presenting the project. However, you might be interested in an easy access to the documents collected here. Hence, the index has been put here right below.
+A grouped by topic and others articles are listed here below.
 
-* 2025-02-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-bios-update-and-diagnostics.md)] - [Fujistus P910 E85+ BIOS update & diagnostics](p910-bios-update-and-diagnostics.md)
+...
 
-* 2025-02-02  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag-v2.md)] - [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md) &nbsp; (3rd edt.)
+* **Fujitsu Esprimo P910 E85+ w/ Nvidia Tesla K80 installation** &nbsp; (5 pz.)
 
-* 2025-01-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/dual-psu-fujitsu-esprimo-p910.md)] - [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (5th edt.)
+   - 2025-02-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dual-psu-esprimo-p910-installation.md)] - [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md) &nbsp; (**`WIP!`**)
 
-* 2025-01-24 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/tesla-k80-with-esprimo-p910.md)] - [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md)
+   - 2025-02-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-bios-update-and-diagnostics.md)] - [Fujistus P910 E85+ BIOS update & diagnostics](p910-bios-update-and-diagnostics.md)
 
-* 2025-01-21  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md)] - [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md) &nbsp; (2nd edt.)
+   - 2025-01-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/p910-k80-installation-manual-intro.md)] - [Tesla K80 with Esprimo P910](p910-k80-installation-manual-intro.md) &nbsp; (**`WIP!`**)
 
-* 2025-01-13 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-system-prompting-to-leverage-rag.md)] - [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md) &nbsp; (3rd edt.)
+   - 2025-01-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/dual-psu-fujitsu-esprimo-p910.md)] - [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (5th edt.)
 
-* 2025-01-12 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/come-leggere-una-chat-con-un-ai.md)] - [Come leggere una chat con un AI](come-leggere-una-chat-con-un-ai.md)
+   - 2025-01-24 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/tesla-k80-with-esprimo-p910.md)] - [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md)
+   
+...
 
-* 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/neutrality-vs-biases-for-chatbots.md)] - [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md) &nbsp; (2nd edt.)
+* **Prompt engineering for peer-reviewing with RAG support** &nbsp; (5 pz.)
 
-* 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatting-with-alex-the-chatbot.md)] - [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md)
+   - 2025-02-02  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag-v2.md)] - [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md) &nbsp; (3rd edt.)
 
-* 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-system-prompt-alchemy.md)] - [The system prompt alchemy](the-system-prompt-alchemy.md)
+   - 2025-01-21  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md)] - [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md) &nbsp; (2nd edt.)
 
-* 2024-12-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dammi-sei-parole-a-caso.md)] - [Dammi sei parole a caso](dammi-sei-parole-a-caso.md) &nbsp; (2nd edt.)
+   - 2025-01-13 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-system-prompting-to-leverage-rag.md)] - [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md) &nbsp; (3rd edt.)
 
-* 2024-12-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/alla-ricerca-del-gatto-che-non-c-e.md)] - [Alla ricerca del gatto che non c'è](alla-ricerca-del-gatto-che-non-c-e.md) &nbsp; (3rd edt.)
+   - 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-system-prompt-alchemy.md)] - [The system prompt alchemy](the-system-prompt-alchemy.md)
 
-* 2024-12-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/leveraging-a-chatbot-for-human-writing.md)] - [Leveraging a chatbot for human writing](leveraging-a-chatbot-for-human-writing.md)
+   - 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatting-with-alex-the-chatbot.md)] - [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md)
 
-* 2024-12-17 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/l-arte-della-supercazzola.md)] - [L'arte della supercazzola](l-arte-della-supercazzola.md)
+...
 
-* 2024-12-13 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-problema-sei-tu-non-l-AI.md)] - [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md)
+* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (6 pz.)
 
-* 2024-11-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-human-real-reasoning.md)] - [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md)
+   - 2025-01-12 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/come-leggere-una-chat-con-un-ai.md)] - [Come leggere una chat con un AI](come-leggere-una-chat-con-un-ai.md)
 
-* 2024-11-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p2.md)] - [Far innamorare un chatbot (parte 2)](far-innamorare-un-chatbot-p2.md)
+   - 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/neutrality-vs-biases-for-chatbots.md)] - [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md) &nbsp; (2nd edt.)
 
-* 2024-11-21 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-paolo-benanti.md)] - [ChatGPT vs Paolo Benanti](chatgpt-vs-paolo-benanti.md) aka Mr. Spock vs Miss Poppins
+   - 2024-12-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dammi-sei-parole-a-caso.md)] - [Dammi sei parole a caso](dammi-sei-parole-a-caso.md) &nbsp; (2nd edt.)
 
-* 2024-11-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p1.md)] - [Far innamorare un chatbot (parte 1)](far-innamorare-un-chatbot-p1.md)
+   - 2024-12-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/leveraging-a-chatbot-for-human-writing.md)] - [Leveraging a chatbot for human writing](leveraging-a-chatbot-for-human-writing.md)
 
-* 2024-11-18 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/manipulation-of-a-chatbot.md)] - [Manipulation of a chatbot](manipulation-of-a-chatbot.md)
+   - 2024-11-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-human-real-reasoning.md)] - [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md)
 
-* 2024-11-17 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/tuttinudi-e-la-rossa-anche-sotto.md)] - [Tuttinudi e la rossa anche sotto](tuttinudi-e-la-rossa-anche-sotto.md)
+   - 2024-11-18 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/manipulation-of-a-chatbot.md)] - [Manipulation of a chatbot](manipulation-of-a-chatbot.md)
 
-* 2024-11-17 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/most-actractive-hobbies-to-women.md)] - [Most attractive hobbies to women](most-actractive-hobbies-to-women.md)
+...
 
-These document are written in Italian, English or both languages indifferently. You can use any automatic translation system you like. Among them Google Translate works passing to it just the link of the page. The **raw** link can help translate the page, but at the cost of formatting.
+* **Yet uncategorised articles** &nbsp; (8 pz.)
 
-++++++
+   - 2024-12-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/alla-ricerca-del-gatto-che-non-c-e.md)] - [Alla ricerca del gatto che non c'è](alla-ricerca-del-gatto-che-non-c-e.md) &nbsp; (3rd edt.)
+
+   - 2024-12-17 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/l-arte-della-supercazzola.md)] - [L'arte della supercazzola](l-arte-della-supercazzola.md)
+
+   - 2024-12-13 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-problema-sei-tu-non-l-AI.md)] - [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md)
+
+   - 2024-11-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p2.md)] - [Far innamorare un chatbot (parte 2)](far-innamorare-un-chatbot-p2.md)
+
+   - 2024-11-21 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-paolo-benanti.md)] - [ChatGPT vs Paolo Benanti](chatgpt-vs-paolo-benanti.md) aka Mr. Spock vs Miss Poppins
+
+   - 2024-11-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p1.md)] - [Far innamorare un chatbot (parte 1)](far-innamorare-un-chatbot-p1.md)
+
+   - 2024-11-17 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/tuttinudi-e-la-rossa-anche-sotto.md)] - [Tuttinudi e la rossa anche sotto](tuttinudi-e-la-rossa-anche-sotto.md)
+
+   - 2024-11-17 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/most-actractive-hobbies-to-women.md)] - [Most attractive hobbies to women](most-actractive-hobbies-to-women.md)
+
+...
+
+These documents are written in Italian, English or both languages indifferently. Some pages have been translated and for the others a Google Translate version is offered in the top bar. Or you can use your own prefered translating tool. In this case **raw** version may be better for translation, but at the cost of the HTML formatting lost.
+
++
 
 ## The AI as a nerd companion
 
