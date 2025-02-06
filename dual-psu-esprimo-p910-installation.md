@@ -5,10 +5,6 @@
 
 ## Dual PSU for Esprimo P910 installation
 
-> [!WARN]
->
-> **This document is working in progress.**
-
 This article is the natural prosecution of the previous one.
 
 - [Dual PSU for Fujitsu Esprimo P910](dual-psu-fujitsu-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-25)
@@ -63,7 +59,7 @@ Replacing the cable with a straight C13M plug with another one providing a down 
 
 Moreover, moving back the new PSU by 15mm, it will get deep in the case as much as the old DVD-ROM driver keeping the plug protected within the bay. At that point the bay can be partially closed, separating the 220V stage from the fan air-corridor and levelling at the case front face with an air-flow anti-dust grid fan guard, this last mainly for aesthetic reasons.
 
-----
+---
 
 ### Venting system
 
@@ -128,7 +124,7 @@ In Italy, respecting CEI-UNI normatives and standards, a light point made by a p
 
 If you conclude, by all of these, that it is better for you to go to work as an electrician instead of IT guys, well... that's another story! {;-)}
 
-----
+---
 
 ### Preparing for installation
 
@@ -187,7 +183,7 @@ From the above, the arrows indicate the following point of interest:
 
 Obviously, the dual-PSU manager board is isolated by the case external metallic shield by an insulating polyurethane foam plate which is fixed to the board with 4 tie wraps. The dual-PSU board is locked to the case with two bamboo sticks which are struck into the board holes and are pressing it against the PSU side by pressing on the case internal border. This mechanism allows the board to move horizontally and potentially quitting from this lock when moving on the right. A tie wrap prevents the slippage by fixing it by hooking the PSU.
 
-~~~~
+---
 
 ### Tools list
 

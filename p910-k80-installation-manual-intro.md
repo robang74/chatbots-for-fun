@@ -38,7 +38,7 @@
    
    3. [Fujistus P910 E85+ BIOS update & diagnostics](p910-bios-update-and-diagnostics.md#?target=_blank) &nbsp; (2025-02-04)
 
-   4. [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md#?target=_blank) &nbsp; (2025-01-25,**`WIP!`**)
+   4. [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md#?target=_blank) &nbsp; (2025-02-05)
 
 |<<<
 |<<<
