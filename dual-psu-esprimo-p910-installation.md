@@ -197,9 +197,9 @@ Here below is a list of almost all tools I have used, some reported in full spec
 <img class="bwsketch darkinv" src="img/cheap-but-useful-tools.jpg" width="800">
 <|x|
 
-- Mini Cleaning Soft Brush, Crevice and Keyboard Cleaner - paid price  €0.37 on temu.it
+- Mini Cleaning Soft Brush, Crevice and Keyboard Cleaner - paid price  €0.37 on temu.com
 - Set di 115 Cacciaviti di Precisione, Kit Multifunzione - paid price  €7.99 amazon.it
-- 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm - paid price €0.88 on temu.it
+- 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm - paid price €0.88 on temu.com
 
 - Scissors, cutter knife, pliers, hot-glue pistol, electrician cutting cutters, ...
 
