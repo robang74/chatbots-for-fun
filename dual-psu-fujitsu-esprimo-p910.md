@@ -19,6 +19,8 @@ While, this paper is going to present the way in which I decided to provide that
 
 - The **5th** edition (since rev. 10) includes the [bricolage](#bricolage) image parade and instructions to change the internal cooling system's air-flow.
 
+- The **6th** edition (since rev. 19) includes the 2-molexs vs 4-pin CPU [cabling](#psu-cabling) options confrontation to powering the K80 card.
+
 ---
 
 ### Introduction
@@ -61,7 +63,7 @@ In this specific case, the simplest ATX 24-pins with SATA dual connectors is eno
 
 ---
 
-### PSU cabling 
+### PSU cabling
 
 The Nvidia Tesla K80 is quite old and it requires a basic 8-pin CPU male connector to be powered. Unfortunately, the 1U PSU that I have chosen has no such connector but the older 4-pin CPU male connector.
 
@@ -70,6 +72,20 @@ Fortunately, the 8-pin connector is nothing else than a power and ground lines d
 The Fujitsu 250W PSU has the sole connection with the motherboard and everything else is connected to the motherboard and it does not offer a 4-pin molex connector to join the dual-PSU manager board.
 
 For this reason, regarding the dual-PSU sync board, I chose the version with the SATA connection. Therefore, the common ground will be shared by the motherboard wiring, as well as the PSU-ON signal. While the Tesla K80 will receive the full power from the 2nd PSU by the 4-pin CPU connector converted into an 8-pin CPU male.
+
+[!INFO]
+
+**UPDATE 2025-02-06**
+
+The new PSU flex ATX provides 2 molexes and 1 CPU 4-pin connectors. Hence, it offers two ways of powring the 225W TDP (peak 300W) Tesla K80 card, each one with a different adapater. 
+
+- Each molex brings a 12V line supporting up to 11A for a total of 264W of constant current flow, hence a TDP figure. Which is 85% of the K80's TDP and 114% of the peak load.
+
+- The CPU 4-pin cable is made by the same 2mm diameter (including the sleeve) wires used for the molexes. Hence, the supported power with this solution is 132W, a half.
+
+In the last case, the K80's TDP board should limited accordingly, using the **`nvidia-smi`** tool.
+
+[/INFO]
 
 A very simple and straightforward connections schema for which the 220V socket will appear on the external front side of the case: a standard 3-poles cable will connect the 2nd PSU with the public 220V network.
 

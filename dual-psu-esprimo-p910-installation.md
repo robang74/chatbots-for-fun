@@ -35,6 +35,18 @@ Just to recap, the main problem of providing 225W TDP, 300W peak to the Nvidia T
 
 Therefore an industrial Flex size PSU has been chosen, which has been designed and built to power the ATX PC-based automated point of sales (PoS). For this reason it is particularly small, compared to the standard ATX power supply unit and cheap, compared with the PC-gaming market segment.
 
+[!INFO]
+
+The new PSU flex ATX provides 2 molexes and 1 CPU 4-pin connectors. Hence, it offers two ways of powring the 225W TDP (peak 300W) Tesla K80 card, each one with a different adapater. 
+
+- Each molex brings a 12V line supporting up to 11A for a total of 264W of constant current flow, hence a TDP figure. Which is 85% of the K80's TDP and 114% of the peak load.
+
+- The CPU 4-pin cable is made by the same 2mm diameter (including the sleeve) wires used for the molexes. Hence, the supported power with this solution is 132W, a half.
+
+In the last case, the K80's TDP board should limited accordingly, using the **`nvidia-smi`** tool.
+
+[/INFO]
+
 This PSU's height is almost the same as a standard DVD-ROM reader, shorter and less wide (82 x 150 x 41 mm). For a confrontation, the hosted DVD-ROM was 150 x 165 x 42 mm. Plus it does not have the standard holes to receive the plate used into P910 to lock the DVD-ROM in its place.
 
 Moreover, once this PSU replaces the DVD-DOM, it offers the 3 pole male plug on the front side of the case which is not particularly comfortable. It is safe but the cable is much more exposed to a risk of being accidentally unplugged and aesthetically unpleasant.
