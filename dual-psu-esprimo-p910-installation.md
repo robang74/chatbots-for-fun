@@ -27,7 +27,7 @@ In the meantime, I worked on the "prompt for peer-review with RAG support" engin
 
 It is specifically tailored for Esprimo P910 E85+ but it can be used as a canvas for every other PC/laptop for which tools running on DOS are available.
 
----
+----
 
 ### Dual PSU installation
 
@@ -63,7 +63,7 @@ Replacing the cable with a straight C13M plug with another one providing a down 
 
 Moreover, moving back the new PSU by 15mm, it will get deep in the case as much as the old DVD-ROM driver keeping the plug protected within the bay. At that point the bay can be partially closed, separating the 220V stage from the fan air-corridor and levelling at the case front face with an air-flow anti-dust grid fan guard, this last mainly for aesthetic reasons.
 
----
+----
 
 ### Venting system
 
@@ -128,7 +128,7 @@ In Italy, respecting CEI-UNI normatives and standards, a light point made by a p
 
 If you conclude, by all of these, that it is better for you to go to work as an electrician instead of IT guys, well... that's another story! {;-)}
 
----
+----
 
 ### Preparing for installation
 
@@ -160,7 +160,34 @@ The rear upper grid can internally host two 6cm fans, as an alternative. I am co
 
 In one way or another, it sounds reasonable that the main fan will be converted for cooling the K80 instead of the CPU and the system in general. Which brings to the need to supply the lost air-flow with another venting system.
 
-----
+---
+
+### Second PSU cabling
+
+Because it is fine to test the venting system at reduced GPU power to avoid any nasty and irrecoverable surprise and make it running at half the nominal power seems reasonable, I decided to go with the 4-pin/8-pin CPU configuration that I chose.
+
+|x|>
+<img class="wbsketch" src="img/p910-dual-psu-cabling.jpg" width="800">
++
+<sup>right click menu to enlarge (x2) the image</sup>
+<|x|
+
+From the left to the right and proceeding clockwise, this is the list of the highlighted points/area:
+
+- the strip link between the original PSU the dual-PSU manager board;
+- the dual-PSU manager board fixed to the case over the original PSU;
+- the velcro strip fixing the unused 2nd PSU cables and the tower case;
+- the SATA powering cable offering a free plug for one of 2.5" bays;
+- the CPU 8-pin connected to the Nvidia Tesla K80, free cable yet.
+
+From the above, the arrows indicate the following point of interest:
+
+- the on/off switch for the 2nd PSU power-on signal on the board;
+- the velcro strip grouping the unused 2nd PSU cables among them.
+
+Obviously, the dual-PSU manager board is isolated by the case external metallic shield by an insulating polyurethane foam plate which is fixed to the board with 4 tie wraps. The dual-PSU board is locked to the case with two bamboo sticks which are struck into the board holes and are pressing it against the PSU side by pressing on the case internal border. This mechanism allows the board to move horizontally and potentially quitting from this lock when moving on the right. A tie wrap prevents the slippage fixing it by hooking the PSU.
+
+~~~~
 
 ### Tools list
 
