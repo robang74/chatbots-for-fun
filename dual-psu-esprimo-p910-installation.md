@@ -172,13 +172,13 @@ As you can imagine, cleaning the thermal radiators is an operation which is quit
 
 [/INFO]
 
++
 ---
 |x|>
-**WORKING IN PROGRESS
-+
-YET TO BE COMPLETED**
+**WORKING IN PROGRESS - YET TO BE COMPLETED**
 <|x|
 ---
++
 
 ## External sources
 
