@@ -5,7 +5,11 @@
 
 ## Dual PSU for Esprimo P910 installation
 
-This document is still working in progress and it is the natural prosecution of the previous one.
+> [!WARN]
+> 
+> This document is still working in progress.
+
+This article is the natural prosecution of the previous one.
 
 - [Dual PSU for Fujitsu Esprimo P910](dual-psu-fujitsu-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-25)
 
@@ -23,7 +27,7 @@ In the meantime, I worked on the "prompt for peer-review with RAG support" engin
 
 It is specifically tailored for Esprimo P910 E85+ but it can be used as a canvas for every other PC/laptop for which tools running on DOS are available.
 
----
+----
 
 ### Dual PSU installation
 
@@ -38,9 +42,9 @@ Moreover, once it replaces the DVD-DOM, it offers the 3 pole male plug on the fr
 For these reasons, in creating a custom frame adapter, I built it in a way in which it will be easy in the near future to move the 3 pole C14F plug on the back of the tower case.
 
 |x|>
-<img class="bwsketch" src="img/fujitsu-p910-dual-psu-front-back.jpg" width="400">
+<img class="bwsketch" src="img/fujitsu-p910-dual-psu-front-back.jpg" width="800">
 +
-<sup>right click menu to enlarge (x4) the image</sup>
+<sup>right click menu to enlarge (x2) the image</sup>
 <|x|
 
 Replacing the cable with a straight C13M plug with another one providing a down angle C13M plug, the length exposed will be much shorter. While the power cable will extend in a way that it would be perfectly safe to turn into the tower case for being brought in the back.
@@ -89,13 +93,11 @@ In this image above, the lime-green bordered blue lines indicate where the power
 
 Too nice and easy to be true... In fact, compared with opening a hole at the end of data storage bays row, going to tackle to cut the metal grid up over there and possibly spread conductive crumbs which might go around for the circuitry in a brisky mood... is not the most appealing scenario.
 
+For those wish to sleep well during the night or are more keen to take a short-cut, in the image below is portrayed a cable which [Amazon Italia](https://www.amazon.it/gp/product/B07P7WHQZD) offers for €9.11 Prime delivery included.
+
 |x|>
 <img class="bwsketch" src="img/power-cabling-easy-to-deploy.png" width="400">
-+
-<sup>right click menu to enlarge (x4) the image</sup>
 <|x|
-
-For those wish to sleep well during the night or are more keen to take a short-cut, in the above image is portrayed a cable which [Amazon Italia](https://www.amazon.it/gp/product/B07P7WHQZD) offers for €9.11 Prime delivery included.
 
 Spoiler - pushing the power plug through the PCI slot opening, the closest one to the CPU, that 1.8mt cable will reach his destination to be connected with the public power network without the need to create new holes in the tower case.
 
@@ -119,13 +121,13 @@ If you conclude, by all of these, that it is better for you to go to work as an 
 
 The two 12cm fan height is 25mm too much to fit between the 2nd floor of the case and the K80 that should necessarily be installed in the second PCI-express slot because the other is functionally a 4x instead of a 16x. Moreover, a 12 cm fan is not fit also in the middle data storage bay but a 10 cm could, given that the openings in that bay can vehiculate enough air-flow.
 
+Under such a negative estimation, another solution is necessary. Given that the two fans mounted on the new PCI frame can be installed into the first PCI-express slot, then they are cooling the CPU and the dual power supply units. Under that condition, it is possible to converge all the main 12cm fan air-flow into the K80 and leveraging its design by factory cooling channel.
+
 |x|>
-<img class="bwsketch" src="img/coolink-k80-cardboard-model-preview.jpg" width="800">
+<img class="bwsketch" src="img/cooling-k80-cardboard-model-preview.jpg" width="800">
 +
 <sup>right click menu to enlarge (x2) the image</sup>
 <|x|
-
-Under such a negative estimation, another solution is necessary. Given that the two fans mounted on the new PCI frame can be installed into the first PCI-express slot, then they are cooling the CPU and the dual power supply units. Under that condition, it is possible to converge all the main 12cm fan air-flow into the K80 and leveraging its design by factory cooling channel.
 
 Engaging the PCI-express first slot is not a great idea because it will be lost. However, considering that this is a dedicated system, such limitation does not seem so impactful. Unless, someone wishes to use the PCI-e 4x to leverage a non-SATA storage device with a PCI-e adapter. Which usually happens when a spare part from a previous machine is available for free and it is worth "recycling" it.
 
@@ -143,25 +145,35 @@ It is worth noticing that once solved the venting question, the home made deflec
 
 ### Tools list
 
-Here below is a list of almost all tools I have used, some reported in full specs and prices because they have been useful and nearly indispensable.
-
-- 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm - paid price €0.88 on temu.it
+Here below is a list of almost all tools I have used, some reported in full specs and prices because they have been as **useful** as nearly indispensable.
 
 - Mini Cleaning Soft Brush, Crevice and Keyboard Cleaner - paid price  €0.37 on temu.it
 
 - Set di 115 Cacciaviti di Precisione, Kit Multifunzione - paid price  €7.99 amazon.it
 
+- 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm - paid price €0.88 on temu.it
+
 - Scissors, cutter knife, pliers, hot-glue pistol, electrician cutting cutters, ...
+
+|x|>
+<img class="bwsketch darkinv" src="img/cheap-but-useful-tools.jpg" width="800">
+<|x|
 
 When a K80 card is bought used, a good idea is to clean their metallic radiators enclosed into the plastic case. To remove the plastic case it is required to unscrew the 8 torx #6 in my case. The soft brush listed above is hardly replaceable in its functionality by anything else to remove dust and cotton fluffy balls.
 
-As you can imagine an operation which is quite important considering that cumulating dirty inside the channel and spaces between fins can seriously affect the performance of the thermal radiators when not also obstructing or partially obstructing the air-flow channel. An important operation that usually people forget.
+[!INFO]
 
+As you can imagine, cleaning the thermal radiators, is an operation which is quite important considering that cumulating dirty inside the channel and spaces between fins can seriously affect the performance of the thermal radiators when not also obstructing or partially obstructing the air-flow channel. An important operation that usually people forget.
+
+[/INFO]
+
+===
+|x|>
+**WORKING IN PROGRESS
 +
-
-`[... continuing ...]`
-
-+
+YET TO BE COMPLETED**
+<|x|
+===
 
 ## External sources
 
