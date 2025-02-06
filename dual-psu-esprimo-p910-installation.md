@@ -152,6 +152,10 @@ In one way or another, it sounds reasonable that the main fan will be converted 
 
 Here below is a list of almost all tools I have used, some reported in full specs and prices because they have been as **useful** as nearly indispensable.
 
+|x|>
+<img class="bwsketch darkinv" src="img/cheap-but-useful-tools.jpg" width="800">
+<|x|
+
 - Mini Cleaning Soft Brush, Crevice and Keyboard Cleaner - paid price  €0.37 on temu.it
 
 - Set di 115 Cacciaviti di Precisione, Kit Multifunzione - paid price  €7.99 amazon.it
@@ -159,10 +163,6 @@ Here below is a list of almost all tools I have used, some reported in full spec
 - 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm - paid price €0.88 on temu.it
 
 - Scissors, cutter knife, pliers, hot-glue pistol, electrician cutting cutters, ...
-
-|x|>
-<img class="bwsketch darkinv" src="img/cheap-but-useful-tools.jpg" width="800">
-<|x|
 
 When a K80 card is bought on the used or refurbished market, a good idea is to clean their metallic radiators enclosed into the plastic case. To remove the plastic case it is required to unscrew the 8 torx, size #6 in my case. The soft brush listed above is hardly replaceable in its functionality by anything else to remove stratified dust and dust balls.
 
@@ -172,13 +172,13 @@ As you can imagine, cleaning the thermal radiators is an operation which is quit
 
 [/INFO]
 
-===
+---
 |x|>
 **WORKING IN PROGRESS
 +
 YET TO BE COMPLETED**
 <|x|
-===
+---
 
 ## External sources
 
