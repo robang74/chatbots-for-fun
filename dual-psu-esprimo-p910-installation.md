@@ -42,7 +42,7 @@ Moreover, once it replaces the DVD-DOM, it offers the 3 pole male plug on the fr
 For these reasons, in creating a custom frame adapter, I built it in a way in which it will be easy in the near future to move the 3 pole C14F plug on the back of the tower case.
 
 |x|>
-<img class="bwsketch" src="img/fujitsu-p910-dual-psu-front-back.jpg" width="800">
+<img class="awsketch" src="img/fujitsu-p910-dual-psu-front-back.jpg" width="800">
 +
 <sup>right click menu to enlarge (x2) the image</sup>
 <|x|
@@ -58,7 +58,7 @@ Moreover, moving back the new PSU by 15mm, it will get deep in the case as much 
 About the venting system, I was considering to use 2 fan 5020 or 5015 to place outside the back of the case, in front of the 2 PCI slots engaged by the Tesla K80 for sucking air through its airflow tunnel, as per its factory design, while the main fan into the case would push air into it, as show here below in the image.
 
 |x|>
-<img class="bwsketch" src="img/esprimo-p910-changed-air-flow.jpg" width="400">
+<img class="wbsketch" src="img/esprimo-p910-changed-air-flow.jpg" width="400">
 +
 <sup>right click menu to enlarge (x4) the image</sup>
 <|x|
@@ -84,7 +84,7 @@ Despite the relatively simplicity of the P910 model and the Fujitsu attitude to 
 While in the top of the case there is an almost lack of cabling and reaching the first grid available for hosting a C14F plug is quite straightforward. There are not any locking points for the cable, but a nice 3M duct-tape will be enough to win the gravity.
 
 |x|>
-<img class="bwsketch" src="img/esprimo-p910-cooling-preview.jpg" width="400">
+<img class="wbsketch" src="img/esprimo-p910-cooling-preview.jpg" width="400">
 +
 <sup>right click menu to enlarge (x4) the image</sup>
 <|x|
@@ -96,7 +96,7 @@ Too nice and easy to be true... In fact, compared with opening a hole at the end
 For those wish to sleep well during the night or are more keen to take a short-cut, in the image below is portrayed a cable which [Amazon Italia](https://www.amazon.it/gp/product/B07P7WHQZD) offers for €9.11 Prime delivery included.
 
 |x|>
-<img class="bwsketch" src="img/power-cabling-easy-to-deploy.png" width="400">
+<img class="wbsketch" src="img/power-cabling-easy-to-deploy.png" width="400">
 <|x|
 
 Spoiler - pushing the power plug through the PCI slot opening, the closest one to the CPU, that 1.8mt cable will reach his destination to be connected with the public power network without the need to create new holes in the tower case.
@@ -124,7 +124,7 @@ The two 12cm fan height is 25mm too much to fit between the 2nd floor of the cas
 Under such a negative estimation, another solution is necessary. Given that the two fans mounted on the new PCI frame can be installed into the first PCI-express slot, then they are cooling the CPU and the dual power supply units. Under that condition, it is possible to converge all the main 12cm fan air-flow into the K80 and leveraging its design by factory cooling channel.
 
 |x|>
-<img class="bwsketch" src="img/cooling-k80-cardboard-model-preview.jpg" width="800">
+<img class="wbsketch" src="img/cooling-k80-cardboard-model-preview.jpg" width="800">
 +
 <sup>right click menu to enlarge (x2) the image</sup>
 <|x|
