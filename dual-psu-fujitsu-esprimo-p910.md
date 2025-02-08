@@ -177,6 +177,14 @@ In fact, it is a matter of just assembling some spare parts and all these parts 
 
 Despite this, it is not for everyone because assembly or modification of a personal computer hardware configuration requires manual dexterity to use tools, and a little experience.
 
+---
+
+### Continuation
+
+This article continue here:
+
+* [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md#?target=_blank) &nbsp; (2025-02-05)
+
 +
 
 ## External sources

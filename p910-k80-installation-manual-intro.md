@@ -32,11 +32,11 @@
 
 - **Composition**: this presentation + 3 articles collation
 
-   1. [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-24)
+   1. [Fujistus P910 E85+ BIOS update & diagnostics](p910-bios-update-and-diagnostics.md#?target=_blank) &nbsp; (2025-02-04)
 
-   2. [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-25)
+   2. [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-24)
    
-   3. [Fujistus P910 E85+ BIOS update & diagnostics](p910-bios-update-and-diagnostics.md#?target=_blank) &nbsp; (2025-02-04)
+   3. [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-25)   
 
    4. [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md#?target=_blank) &nbsp; (2025-02-05)
 
