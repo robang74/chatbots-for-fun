@@ -163,7 +163,7 @@ However, it is a pretty good try to start with designing a 3D printable addition
 
 > [!INFO]
 >
-> Before going for this way, consider to give a try to the 9cm fan **least-effort option presented** into "*About PCI-e slot lost*" section of this manual or [here](dual-psu-esprimo-p910-installation.md#about-pci-e-slot-lost?target=_blank) in a related web page. Later, the way presented in the sections above, just in case.
+> Before going for this way, consider to give a try to the 9cm fan **least-effort option presented** into "*Preparing for installation*" section of this manual or [here](dual-psu-esprimo-p910-installation.md#least-effort-cooling-system?target=_blank) in a related web page. Later, the way presented in the sections above, just in case.
 
 +
 
