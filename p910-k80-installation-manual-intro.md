@@ -24,7 +24,7 @@
 
 - **Author**: Roberto A. Foglietta &lt;roberto.foglietta@gmail.com&gt;
 
-- **License**: Creative Common BY-NC-ND 4.0
+- **License**: Creative Common [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 - **Audience**: PC hardware middle skilled techs
 

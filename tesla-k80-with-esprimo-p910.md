@@ -29,7 +29,7 @@ The second one, is a common issue among large Nvidia cards but in this case is a
 
 The white and black part of the image shows how to reshape the rack grid in such a way it can fit within a PC/Desktop. In this specific case, I used a few auto-gripping plastic strips and a tubular gum to fix the card to the case on the top side. Instead of using its original screw that does not fit in. Plus, I have isolated the nearby ethernet module because I had the sensation that it was too near and a piece of insulating tape is a quite safe option to go with.
 
-As you can notice checking the motherboard diagrams, the card is currently installed into the wrong slot (PCIe 2.0 4x) while it should go installed in the nearby (PCIe 3.0 16x). Unfortunately, this can possibly lead to detaching the USB 3.0 cable toward the front ports, unless I will find a flat wire that increases the height of tha part as little as possible and will not obstacolate the card installation. However, this aspect is still under investigation and it might be resolved without any particular effort but a little adjustment like rearranging the cables, like I just did but not tested yet.
+As you can notice checking the motherboard diagrams, the card is currently installed into the wrong slot (PCIe 2.0 4x) while it should go installed in the nearby (PCIe 3.0 16x). Unfortunately, this can possibly lead to detaching the USB 3.0 cable toward the front ports, unless I will find a flat wire that increases the height of tha part as little as possible and will not obstruct the card installation. However, this aspect is still under investigation and it might be resolved without any particular effort but a little adjustment like rearranging the cables, like I just did but not tested yet.
 
 ---
 

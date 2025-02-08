@@ -3,7 +3,7 @@
 
 <div align="center"><img class="wbsketch paleinv inksave" src="img/fujitsu-p910-e85plus-bios-screen-2s.jpg"><br></div>
 
-## Fujistus P910 E85+ BIOS update & diagnostics
+## Fujitsu P910 E85+ BIOS update & diagnostics
 
 This document explain how to create an USB 64MB bootable stick based on FreeDOS that can provide BIOS update, diagnostic and flasher tools.
 It is specifically tailored for Esprimo P910 E85+ but it can be used as canvas for every other PC/laptop for which DOS tools are available.
