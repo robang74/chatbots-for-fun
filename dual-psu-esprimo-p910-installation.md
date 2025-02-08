@@ -9,7 +9,7 @@ This article is the natural prosecution of the previous one.
 
 - [Dual PSU for Fujitsu Esprimo P910](dual-psu-fujitsu-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-25)
 
-While the bill of material (BoM) has been added into the Manual 6-pages introduction.
+While the bill of material (BoM) has been added after the Manual introduction and structure.
 
 - [The bill of material (BoM)](p910-k80-installation-manual-intro.md#bom?target=_blank) &nbsp; (2025-02-05)
 
