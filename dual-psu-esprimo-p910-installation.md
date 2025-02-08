@@ -150,13 +150,17 @@ Engaging the PCI-express first slot is not a great idea because it will be lost.
 
 Considering that a 128GB or a 512GB SATA3 SSD can be bought for €11 or €28 on Amazon Italia with Prime expedition included, the sacrifice of the 4x PCI-e slot with the fans does not seem to compromise the overall value of the final system configuration. Moreover, the USB 3.0 data transfer is 500 Mb/s while the SATA offers 600 MB/s but the USB 3.1+ and 3.2 much more.
 
-However, an alternative to keep free the case after redirecting the 12cm main fan, can be installing fan(s) on the rear grid in order to push the fresh air into the case, cooling the CPU and then being sucked out by the two PSUs. A 92mm fan, which is the largest size that can be fixed on that grid, costs the same price of the two 12cm fans that I have ordered.
-
 The rear upper grid can internally host two 6cm fans, as an alternative. I am confident that for the 8+cm fan market segment the range of choice will be comparable with the 12cm fan market one, or a little less. I am not sure about saying the same for the 6cm but I did not explore that option in depth, yet.
+
+[!INFO]
+
+A least-effort option to give a try, is to keep the 12cm main fan in its original position, do not add any extra deflector but remove the plastic case from the Tesla K80 leaving exposed the radiators, install a 90/92 x 25mm 4-pin fan into the middle data-storage bay and connect it in a way both will work togheter with the PWM tuned on the hotest CPU/GPU component.
+
+[/INFO]
 
 In one way or another, it sounds reasonable that the main fan will be converted for cooling the K80 instead of the CPU and the system in general. Which brings to the need to supply the lost air-flow with another venting system.
 
----
+~~~~
 
 ### Second PSU cabling
 
@@ -189,15 +193,14 @@ Obviously, the dual-PSU manager board is isolated by the case external metallic 
 
 Here below is a list of almost all tools I have used, some reported in full specs and prices because they have been as **useful** as nearly indispensable.
 
-|x|>
-<img class="bwsketch darkinv" src="img/cheap-but-useful-tools.jpg" width="800">
-<|x|
-
 - Mini Cleaning Soft Brush, Crevice and Keyboard Cleaner - paid price  €0.37 on temu.com
 - Set di 115 Cacciaviti di Precisione, Kit Multifunzione - paid price  €7.99 amazon.it
 - 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm - paid price €0.88 on temu.com
+- Scissors, cutter knife, pliers, hot-glue pistol, electrician cutting cutters, etc.
 
-- Scissors, cutter knife, pliers, hot-glue pistol, electrician cutting cutters, ...
+|x|>
+<img class="bwsketch darkinv" src="img/cheap-but-useful-tools.jpg" width="800">
+<|x|
 
 When a K80 card is bought on the used or refurbished market, a good idea is to clean their metallic radiators enclosed into the plastic case. To remove the plastic case it is required to unscrew the 8 torx, size #6 in my case. The soft brush listed above is hardly replaceable in its functionality by anything else to remove stratified dust and dust balls.
 
@@ -222,6 +225,16 @@ Few interesting video about power supply 1U units and quiet fan
 - [TF600 550W](https://youtu.be/kABIUwzTaBw) - Skywindint TF600 flex ATX PSU from AliExpress
 
 - [Quiet fan](https://youtu.be/dH-_UA8sVwg) - Noisy flex ATX PSU fix (if you dare to...)
+
+Nvidia Tesla K80 cooling adapters & adaptable fans system
+
+- [Ventola di scarico per camper, 25W 12V](img/ventola-per-camper-tesla-k80.png?target=_blank) on [Amazon Italia](https://www.amazon.it/Ventilatore-Laterale-Scarico-Ventilazione-Rimorchio/dp/B0C86HGQRQ/)
+
+- [Nvidia Tesla K80 duct for Dell Optiplex blower](https://www.thingiverse.com/thing:6038375) on ThingiVerse with 32 likes
+- [Nvidia Tesla K80 duct for 7530 12V bearing blower](https://www.thingiverse.com/thing:3689165) on ThingiVerse with 25 likes
+- [A 90° fan shroud for the Nvidia Tesla K80 GPU](https://www.thingiverse.com/thing:4602916) on ThingiVerse with 9 likes
+
+Despite these solutions are interesting or noticeable, none of them can fit into P910 towercase, IMHO.
 
 +
 
