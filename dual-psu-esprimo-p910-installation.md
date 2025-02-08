@@ -154,7 +154,7 @@ The rear upper grid can internally host two 6cm fans, as an alternative. I am co
 
 [!INFO]
 
-A least-effort option to give a try, is to keep the 12cm main fan in its original position, do not add any extra deflector but remove the plastic case from the Tesla K80 leaving exposed the radiators, install a 90/92 x 25mm 4-pin fan into the middle data-storage bay and connect it in a way both will work togheter with the PWM tuned on the hotest CPU/GPU component.
+A **least-effort option** to give a try, is to keep the 12cm main fan in its original position, do not add any extra deflector but remove the plastic case from the Tesla K80 leaving exposed the radiators, install a 90/92 x 25mm 4-pin fan into the middle data-storage bay and connect it in a way both will work togheter with the PWM tuned on the hotest CPU/GPU component.
 
 [/INFO]
 

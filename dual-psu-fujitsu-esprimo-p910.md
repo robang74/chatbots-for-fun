@@ -89,8 +89,6 @@ While, in this image the interior of a Fujitsu Esprimo P910 E85+ is shown with t
 
 <div align="center"><img class="wbsketch inksave" src="img/esprimo-p910-cabling-howto.jpg" width="800"><br><sub>right click menu to enlarge the image in a new tab</sub></div>
 
-++++
-
 The colors chosen do not indicate the seriousness or the importance of the problem. Here below the list of the areas and their relevance.
 
 - The yellow area is about the SATA cabling which is better to move into the SATA slots near the edge of the motherboard to free as much space as possible for the K80.
@@ -121,9 +119,9 @@ In fact, on the top of the original hardware configuration, there is also a 225W
 
 Moreover, because the extra PSU is at the same level of the original PSU, both PSUs are sucking warm air from the top of the case and pushing it out. Which keeps the CPU and the GPU safer but potentially puts the PSUs at higher risk of overheating due to a potentially lack of fresh air to cool down themselves.
 
-For this reason, I am evaluating moving the main cooling 12cm fan toward the center of the case, and closing the splitter, redirecting the bottom half of the air flow into the Tesla K80. While the top bottom of the air flow will remain available for cooling the CPU and better support the PSUs venting systems, each one by its own internal fan.
-
 <div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-cooling-preview.jpg" width="800"><br><sub>right click menu to enlarge the image in a new tab</sub></div>
+
+For this reason, I am evaluating moving the main cooling 12cm fan toward the center of the case, and closing the splitter, redirecting the bottom half of the air flow into the Tesla K80. While the top bottom of the air flow will remain available for cooling the CPU and better support the PSUs venting systems, each one by its own internal fan.
 
 This image shows two renderings about how the final Tesla K80 installation would look and how it is expected the internal cooling system will manage the airflow.
 
@@ -161,7 +159,17 @@ However, it is a pretty good try to start with designing a 3D printable addition
 
 ---
 
-### Conclusions
++
+
+> [!INFO]
+> 
+> Before going for this way, consider to give a try to the 9cm fan **least-effort option presented** into "*About PCI-e slot lost*" section of this manual or [here](dual-psu-esprimo-p910-installation.md#about-pci-e-slot-lost?target=_blank) in related web page. Later, the way presented in the sections above, just in case.
+
++
+
+----
+
+## Conclusions
 
 Yet, this dual-PSU configuration has to face the proof of the time but this also depends on the choices I made. Instead, the approach in general seems valid because it does not imply any particular mod that would be forbidden into a common PC shop or PC hardware support center, or reparation.
 
