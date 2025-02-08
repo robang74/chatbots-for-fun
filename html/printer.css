@@ -51,11 +51,13 @@
         print-color-adjust: exact !important;           /* Firefox 97+, Safari 15.4+ */
         color-adjust: exact !important;                 /* Firefox 48 – 96 */
     }
+    a { color: #400; }
     a:link, a:hover, a:visited, a:active {
+        color: #400;
         padding-bottom: 1px;
         border-bottom: 1px solid;
     }
-    a.topbar { border: none; }
+    a.topbar { color: #400; border: none; }
 
 /*
  * This should be set within the HTML page in order to customise each one
