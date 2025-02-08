@@ -154,7 +154,7 @@ The rear upper grid can internally host two 6cm fans, as an alternative. I am co
 
 [!INFO]
 
-A **least-effort option** to give a try, is to keep the 12cm main fan in its original position, do not add any extra deflector but remove the plastic case from the Tesla K80 leaving exposed the radiators, install a 90/92 x 25mm 4-pin fan into the middle data-storage bay and connect it in a way both will work togheter with the PWM tuned on the hotest CPU/GPU component.
+A **least-effort option** to give a try, is to keep the 12cm main fan in its original position, do not add any extra deflector but remove the plastic case from the Tesla K80 leaving exposed the radiators, install a 90/92 x 25mm 4-pin fan into the middle data-storage bay and connect it in a way both will work together with the PWM tuned on the hottest CPU/GPU component.
 
 [/INFO]
 
@@ -234,7 +234,7 @@ Nvidia Tesla K80 cooling adapters & adaptable fans system
 - [Nvidia Tesla K80 duct for 7530 12V bearing blower](https://www.thingiverse.com/thing:3689165) on ThingiVerse with 25 likes
 - [A 90° fan shroud for the Nvidia Tesla K80 GPU](https://www.thingiverse.com/thing:4602916) on ThingiVerse with 9 likes
 
-Despite these solutions are interesting or noticeable, none of them can fit into P910 towercase, IMHO.
+Despite these solutions being interesting or noticeable, none of them can fit into the P910 tower case, IMHO.
 
 +
 

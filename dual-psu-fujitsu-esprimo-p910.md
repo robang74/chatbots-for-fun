@@ -9,13 +9,13 @@ In the previous article I presented the project of adapting a Nvidia Tesla K80 f
 
 * [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-24)
 
-While, this paper is going to present the way in which I decided to provide that system with a secondary 350W power supply unit in order to sustain the K80 consumption.
+While this paper is going to present the way in which I decided to provide that system with a secondary 350W power supply unit in order to sustain the K80 consumption.
 
 - The **2nd** edition (since rev. 6) includes the [external sources](#external-sources) session and a more comprehensible English language.
 
 - The **3rd** edition (since rev. 8) includes two new sections about addressing the [P910 issues](#p910-issues) with K80 and its [cooling system](#cooling-the-k80).
 
-- The **4th** edition (since rev. 9) includes two rendering about how the final Tesla K80 installation and the [cooling](#cooling-rendering) air flow is expected will look like 
+- The **4th** edition (since rev. 9) includes two rendering about how the final Tesla K80 installation and the [cooling](#cooling-rendering) air flow is expected will look like
 
 - The **5th** edition (since rev. 10) includes the [bricolage](#bricolage) image parade and instructions to change the internal cooling system's air-flow.
 
@@ -55,23 +55,23 @@ To be precise, I have found three kinds of these adaptors plus their different v
 
 <div align="center"><img class="wbsketch inksave" src="img/dual-psu-sync-boards.jpg" width="800"><br></div>
 
-Two seem very similar and are equally cheap, one has an on/off switch for disabling the secondary PSU when it is not in use. While the third offers more options and features. 
+Two seem very similar and are equally cheap, one has an on/off switch for disabling the secondary PSU when it is not in use. While the third offers more options and features.
 
 In this specific case, the simplest ATX 24-pins with SATA dual connectors is enough, but I choose the one with the on/off switch which has the SATA female attached to a 4-pins connector.
 
 ---
 
-### PSU cabling 
+### PSU cabling
 
 The Nvidia Tesla K80 is quite old and it requires a basic 8-pin CPU male connector to be powered. Unfortunately, the 1U PSU that I have chosen has no such connector but the older 4-pin CPU male connector.
 
-Fortunately, the 8-pin connector is nothing else than a power and ground lines duplication compared to the 4-pin and an adapting cable is very cheap and easy to buy.
+Fortunately, the 8-pin connector is nothing else than a power and ground line duplication compared to the 4-pin and an adapting cable is very cheap and easy to buy.
 
 The Fujitsu 250W PSU has the sole connection with the motherboard and everything else is connected to the motherboard and it does not offer a 4-pin molex connector to join the dual-PSU manager board.
 
 For this reason, regarding the dual-PSU sync board, I chose the version with the SATA connection. Therefore, the common ground will be shared by the motherboard wiring, as well as the PSU-ON signal. While the Tesla K80 will receive the full power from the 2nd PSU by the 4-pin CPU connector converted into an 8-pin CPU male.
 
-A very simple and straightforward connections schema for which the 220V socket will appear on the external front side of the case: a standard 3-poles cable will connect the 2nd PSU with the public 220V network.
+A very simple and straightforward connection schema for which the 220V socket will appear on the external front side of the case: a standard 3-poles cable will connect the 2nd PSU with the public 220V network.
 
 Soon, I will check for a 90° 3-poles PC plug in order to avoid any stress to the cable and facilitate as much as possible its redirection on the back where the second 3-poles cable powers the 1st PSU, as usual.
 
@@ -162,8 +162,8 @@ However, it is a pretty good try to start with designing a 3D printable addition
 +
 
 > [!INFO]
-> 
-> Before going for this way, consider to give a try to the 9cm fan **least-effort option presented** into "*About PCI-e slot lost*" section of this manual or [here](dual-psu-esprimo-p910-installation.md#about-pci-e-slot-lost?target=_blank) in related web page. Later, the way presented in the sections above, just in case.
+>
+> Before going for this way, consider to give a try to the 9cm fan **least-effort option presented** into "*About PCI-e slot lost*" section of this manual or [here](dual-psu-esprimo-p910-installation.md#about-pci-e-slot-lost?target=_blank) in a related web page. Later, the way presented in the sections above, just in case.
 
 +
 
@@ -206,4 +206,3 @@ at the opposite, in the last link there is the opposite: how to increase the vol
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
-

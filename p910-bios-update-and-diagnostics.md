@@ -5,8 +5,7 @@
 
 ## Fujitsu P910 E85+ BIOS update & diagnostics
 
-This document explain how to create an USB 64MB bootable stick based on FreeDOS that can provide BIOS update, diagnostic and flasher tools.
-It is specifically tailored for Esprimo P910 E85+ but it can be used as canvas for every other PC/laptop for which DOS tools are available.
+This document explains how to create an USB 64MB bootable stick based on FreeDOS that can provide BIOS update, diagnostic and flasher tools. It is specifically tailored for Esprimo P910 E85+ but it can be used as a canvas for every other PC/laptop for which DOS tools are available.
 
 ---
 
@@ -20,11 +19,11 @@ It is specifically tailored for Esprimo P910 E85+ but it can be used as canvas f
 
 - **Source**: [FreeDOS 1.3 Lite USB](https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.3/official/FD13-LiteUSB.zip)
 
-   - wget&nbsp;:&nbsp;$archive
-   - unzip&nbsp;:&nbsp;$archive
-   - dd&nbsp;:&nbsp;$image&nbsp;:&nbsp;$usbdisk
-   - gparted&nbsp;:&nbsp;$usbdisk&nbsp;:&nbsp;resize&nbsp;:&nbsp;63MiB
-   - mount&nbsp;:&nbsp;$usbdisk1&nbsp;:&nbsp;$usb1dir
+   - wget : $archive
+   - unzip : $archive
+   - dd : $image : $usbdisk
+   - gparted : $usbdisk : resize : 63MiB
+   - mount : $usbdisk1 : $usb1dir
 
 ...
 
@@ -34,7 +33,7 @@ It is specifically tailored for Esprimo P910 E85+ but it can be used as canvas f
 
 ...
 
-### 4. Lastest diagnostic tools available
+### 4. Latest diagnostic tools available
 
 [!INFO]
 
@@ -48,8 +47,8 @@ SHA256: 32EF5E94C820745C19323BC039186E253D7C2153C2F783667C9D8F17C6857D86
 
 - **Source**: [FTS System Diagnostics DOS USB Stick](https://support.ts.fujitsu.com/IndexDownload.asp?SoftwareGuid=DCC1A861-C236-4D84-ADBA-FC78E0B51D7E)
 
-   - download&nbsp;:&nbsp;$archive&nbsp;
-   - unzip&nbsp;:&nbsp;$archive&nbsp;:&nbsp;./diag/
+   - download : $archive
+   - unzip : $archive : ./diag/
 
 [!CODE]
 dst &lt;= [usb1 mount-point path]
@@ -65,7 +64,7 @@ mv ${dst}/AUTOEXEC.BAT ${dst}/diag.bat
 
 ...
 
-### 5. Lastest BIOS available admin package
+### 5. Latest BIOS available admin package
 
 [!INFO]
 
@@ -79,8 +78,8 @@ SHA256: 25832921C80C0FEFD8E92574F7138C0CBFFDC11DA0DD5F3FAFF1DCDED49BD881
 
 - **Source**: [FTS D3162A1x Admin package](https://support.ts.fujitsu.com/IndexDownload.asp?SoftwareGuid=38A1936D-6452-44EC-A10C-A42039C6F5A2)
 
-   - download&nbsp;:&nbsp;$archive&nbsp;
-   - unzip&nbsp;:&nbsp;$archive&nbsp;:&nbsp;./bios/
+   - download : $archive
+   - unzip : $archive : ./bios/
 
 [!CODE]
 dst &lt;= [usb1 mount-point path]
@@ -124,13 +123,13 @@ losetup -D $(losetup -l | grep ${image} | cut -d' ' -f1)
 
 > [!WARN]
 > 
-> It is strongly suggested a cold reboot between HW diagnosys and BIOS update.
+> It strongly suggested a cold reboot between HW diagnosys and BIOS update.
 
-   - **keyb it** - for the italian keyboard
+   - **keyb it** - for the italian keyboard
 
-   - **diag.bat** - for hardware diagnosys
+   - **diag.bat** - for hardware diagnosys
 
-   - **dosflash.bat** - for the bios update
+   - **dosflash.bat** - for the bios update
 
 +
 
