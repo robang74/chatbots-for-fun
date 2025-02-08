@@ -50,6 +50,7 @@ SHA256: 32EF5E94C820745C19323BC039186E253D7C2153C2F783667C9D8F17C6857D86
    - download : $archive
    - unzip : $archive : ./diag/
 
+++++
 [!CODE]
 dst &lt;= [usb1 mount-point path]
 
