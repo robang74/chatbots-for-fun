@@ -151,8 +151,9 @@ function md2htmlfunc() {
 -e 's,^+\{6\,\} *$,<div class="pagebreak"><br></div>,' \
 -e 's,^+\{5\} *$,<br class="pagebreak">,' \
 -e 's,^+\{4\} *$,<div class="pagebreak"></div>,' \
+-e 's,^\=\{5\,\} *$,<div class="ghosted"><br><hr><br></div>,' \
+-e 's,^\=\{4\} *$,<div class="pagebreak"><br><hr><br></div>,' \
 -e 's,^\.\{4\,\} *$,<div class="pagebreak"><hr class="post-it"></div>,' \
--e 's,^\=\{4\,\} *$,<div class="pagebreak"><br><hr><br></div>,' \
 -e 's,^\-\{4\,\} *$,<div class="pagebreak"><hr></div>,' \
 -e 's,^\~\{4\,\} *$,<hr class="pagebreak">,' \
 -e 's,^\~\{3\} *$,<hr class="hidden">,' \
