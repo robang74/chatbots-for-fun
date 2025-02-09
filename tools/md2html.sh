@@ -159,7 +159,8 @@ function md2htmlfunc() {
 -e 's,^\.\{3\} *$,<hr class="post-it">,' \
 -e "s,^\=\{3\} *$,<br><hr><br>," \
 -e "s,^\-\{3\} *$,<hr>," \
--e "s,^+++ *$,<br><br><br>," -e "s,^++ *$,<br><br>," -e "s,^+ *$,<br>," \
+-e 's,^\+\{3\} *$,<hr class="hidden post-it">,' \
+-e "s,^++ *$,<p><br></p>," -e "s,^+ *$,<br>," \
 -e "s,^>>>| *$,<div class='indent'>," -e "s,^|<<< *$,</div>," \
 -e "s,^|x|> *$,<div class='center'>," -e "s,^<|x| *$,</div>," \
 -e "s,^ *$,$p_line,"
