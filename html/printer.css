@@ -18,15 +18,17 @@
         margin: 0.36in 13.88mm 0.50in 13.88mm;
 */
     }
+
     .pagebreak {
         clear: both;
         page-break-after: always;
     }
     div.pagebreak {
         height: 0px;
-        width: 0px;    
+        width: 0px;
     }
-    hr.pagebreak, div.pagebreak hr, div.pagebreak br, br.pagebreak {
+
+    .ghosted{
         display: none !important;
         overflow: hidden !important;
         visibility: hidden !important;
@@ -35,6 +37,16 @@
         height: 0px;
         width: 0px;
     }
+    hr.pagebreak     { @extend .ghosted; }
+    br.pagebreak     { @extend .ghosted; }
+    div.pagebreak hr { @extend .ghosted; }
+    div.pagebreak br { @extend .ghosted; }
+    /* The following pre-processing Sass/Less syntax because of Chrome */
+    hr.pagebreak:extend(.ghosted)
+    br.pagebreak:extend(.ghosted)
+    div.pagebreak hr:extend(.ghosted)
+    div.pagebreak br:extend(.ghosted)
+
     .hidden, hr.hidden, div.hidden hr, div.pagebreak hr.hidden {
         display: inline-block;
         overflow: hidden !important;
