@@ -141,6 +141,6 @@ As you can imagine noticing the contrast with the first table, this above is jus
 
 This "Linux Thinkpad e altri gadget" ([PDF](https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/290-Linux_Thinkpad_e_altri_gadget-v2.pdf)) written in Italian can be helpful to setup a low-cost and Linux-friendly 3D printing home-lab, starting from zero, as well. Undisputedly, a completely dedicated 3D-printing lab is not the ideal resource allocation for many, therefore "from zero" means "from the beginning".
 
-+
++++++
 
 </div>
