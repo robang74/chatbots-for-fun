@@ -18,7 +18,7 @@
 <style>#version2 { position: absolute; top: 37%; left: 47.5%; transform: translate(-50%, -50%); background-color: rgba(255, 0, 0, 0); color: red; font-weight: bold; font-size: 64px; -webkit-text-stroke: 0.1em yellow; -moz-text-stroke: 0.1em yellow; text-stroke: 0.1em yellow; }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-02-02&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>5</b rev_num='
+'>6</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag-v2?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag-v2?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag-v2?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-peer-review-prompt-with-rag-v2?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -30,15 +30,15 @@ This article is the prosecution of these this previous articles:
 <p></p>
 <li><a href="ai-peer-review-prompt-with-rag.html#" target='_blank' rel='noopener noreferrer'>AI peer-review prompt with RAG</a> &nbsp; (2025-01-21)</li>
 <p></p>
-The <b>2nd edition</b> includes the furtherly revised <a href="#guidelines">guidelines</a> for the session prompt v2.2.
+The <b>2nd edition</b> includes the furtherly revised <a href="#guidelines">guidelines</a> for the session prompt v2.2 which was furtherly developed <a href="../data/alex-peer-review-with-rag-v3.txt" target='_blank' rel='noopener noreferrer'>session prompt v3.3</a>. Even if the v3.x prompt is not part of this document, it is part of its main aim to provide it.
 <p></p>
-The <b>3rd edition</b> includes the link to the furtherly developed <a href="../data/alex-peer-review-with-rag-v3.txt" target='_blank' rel='noopener noreferrer'>session prompt v3.2</a>.
-<p></p>
-Even if that prompt is not part of this document, it is part of its main aim to provide it.
+<hr>
 <p></p>
 <H3 id="prompt-development">Prompt development</H3>
 <p></p>
 The role of <b>DeepSeek R1</b> (DeepThink mode) in switching from v2.2 to v3.0 was significant and it took more than 33 seconds of thinking before starting to produce the answer. The further adjustments have been provided to a better fit with others AI agents. However, the most educative part remains those related to the switch from v1.5 and v2.0 which is reported in this article.
+<p></p>
+<hr>
 <p></p>
 <H3 id="gemini-20-feedback">Gemini 2.0 feedback</H3>
 <p></p>
@@ -64,7 +64,7 @@ Which brought me to repeat very similar prompts after the first one in order to 
 <p></p>
 So, here we are, again! <img class='emoji wbsketch' src='../img/emoji/smile.png'>
 <p></p>
-<hr>
+<hr class="post-it">
 <p></p>
 Here below the link to the second version of the session prompt for peer-reviewing documents:
 <p></p>
@@ -76,15 +76,15 @@ which includes the <a href="#final-version">final version</a> of the guidelines.
 <p></p>
 <H2 id="initial-draft">Initial draft<br><sup>&ndash; guidelines &ndash;</sup></H2>
 <p></p>
-a) Considering that every document has necessarily a limited scope and can contains citation or claims from other sources than the author, hence it is fundamental to rate the claims the author of the document states independently by the others and in particular the authors claims should be evaluated within the scope of the document and eventually in a separate rating in a more general context when the scope of the document is sensitevily narrow or peculiar.
+<b>a)</b> Considering that every document has necessarily a limited scope and can contains citation or claims from other sources than the author, hence it is fundamental to rate the claims the author of the document states independently by the others and in particular the authors claims should be evaluated within the scope of the document and eventually in a separate rating in a more general context when the scope of the document is sensitevily narrow or peculiar.
 <p></p>
-b) The ${document} can be specified in the next prompt and it can be longer than the context windows hence it should be tokenized and peer-reviewed part by part in such way that every part can reasonably fit within the context window.
+<b>b)</b> The ${document} can be specified in the next prompt and it can be longer than the context windows hence it should be tokenized and peer-reviewed part by part in such way that every part can reasonably fit within the context window.
 <p></p>
-c) When the ${document} is split in parts, then use titles and subtitles to split it and when presenting the related peer-review to the user states with a "from-to" formula, extremes includes, which part of the analysis have been provided, waiting for a user prompt to proceed further.
+<b>c)</b> When the ${document} is split in parts, then use titles and subtitles to split it and when presenting the related peer-review to the user states with a "from-to" formula, extremes includes, which part of the analysis have been provided, waiting for a user prompt to proceed further.
 <p></p>
-d) When all the parts of the document has been examined, then it is possible to leverage the tokenization and the information given by the user through the various prompt to provide an overall analysis of the document in general.
+<b>d)</b> When all the parts of the document has been examined, then it is possible to leverage the tokenization and the information given by the user through the various prompt to provide an overall analysis of the document in general.
 <p></p>
-e) Finally, at the end of the answer about containing the whole document peer-review, offer to the user to write an short introduction to the document in which you will present the strong points, the limitations related to the content or the scope of the document or about the specific audience towards the document aims to speak to.
+<b>e)</b> Finally, at the end of the answer about containing the whole document peer-review, offer to the user to write an short introduction to the document in which you will present the strong points, the limitations related to the content or the scope of the document or about the specific audience towards the document aims to speak to.
 <p></p>
 <br>
 <p></p>
@@ -93,17 +93,19 @@ e) Finally, at the end of the answer about containing the whole document peer-re
 Prompted as followed, only the most significative and relevant prompts.
 <p></p>
 <hr class="post-it">
-<p></p>
+<H4><tt>HU</tt></H4>
 <p></p>
 I am writing a second version of a session prompt for peer-reviewing a document. That prompt is supposed to leverage the tokenization and a RAG approach as much as it is available. I am pretty happy with the first version of that prompt. Now it is time to add some guidelines to cope with some limitations that AI models and people have in a way they can cooperate efficiently and clearly understand each other.
 <p></p>
 Evaluate the following guidelines and suggest how to improve them, eventually providing your own proposal for each of them, separately.
 <p></p>
 <hr class="post-it">
+<H4><tt>HU</tt></H4>
 <p></p>
 I like all of them but we need to work a little bit on the b). In fact, some AI models require to be instructed specifically using the term tokenization of the text to activate that specific subsystem. Even if you consider this not relevant for you, it is important that the prompt will be suitable for different chatbot, systems and AI models.
 <p></p>
 <hr class="post-it">
+<H4><tt>HU</tt></H4>
 <p></p>
 This part
 <p></p>
@@ -116,14 +118,13 @@ is descriptive, not instructing. I wish something like:
 This is because for some systems the tokenisation is seen as an external support to the AI model not something integrated within it. Which is a reasonable choice for some architectures which aim to use as few resources as possible, like local running AI models. Which is also the reason because asking them to leverage tokenisation is necessary even if the RAG system has been activated by the user interacting with the UI.
 <p></p>
 <hr class="post-it">
+<H4><tt>HU</tt></H4>
 <p></p>
 I see your points, good. So, I am going to maintain the c) version you initially gave to me. However the <tt>[] ()</tt> sequence is just a white-space away from being misinterpreted as a link in markdown syntax and this can lead to a mistake in certain corner cases.
 <p></p>
 <li>"Segment X: ${Title/Subtitle, if available} ${Paragraphs Y-Z}"</li>
 <p></p>
 This above instead clearly leverages the bash paradigm of identifying variable names. Is it clear for you?
-<p></p>
-<hr class="post-it">
 <p></p>
 <br>
 <p></p>
@@ -132,14 +133,17 @@ This above instead clearly leverages the bash paradigm of identifying variable n
 Prompted as followed, only the most significative and relevant prompts.
 <p></p>
 <hr class="post-it">
+<H4><tt>HU</tt></H4>
 <p></p>
 It is important that the guidelines are clear also for non-native English users because people will not adopt something that they would not understand (or less keen to adopt, in theory). The next step is to improve clarity and at the same time shorten the text length. Both are important, hence clearer and shorter, both. Which is THE real challenge of this task, balancing a short form, conserving almost the same meaning and functionality and possibly also improving clarity.
 <p></p>
 <hr class="post-it">
+<H4><tt>HU</tt></H4>
 <p></p>
-Your version of the e) guideline leverages a highly-educated English that is not quickly clear in its meaning to the people for whom English is not the mother tongue.  Hence, I decided on this one. Can you relate?
+Your version of the e) guideline leverages a highly-educated English that is not quickly clear in its meaning to the people for whom English is not the mother tongue. Hence, I decided on this one. Can you relate?
 <p></p>
 <hr class="post-it">
+<H4><tt>HU</tt></H4>
 <p></p>
 I think that b) and c) guidelines are overlapping in part and I think that a better separation between the two will make them both clearer and shorter in avoiding redundancy.
 <p></p>
@@ -153,13 +157,13 @@ I do not see any particular improvement here. I am happy, because this means tha
 <p></p>
 After having realised that DeepSeek outputs are LaTEX sensitive, I have prompet the AI in this way.
 <p></p>
-<H3 id="prompt-1">Prompt #1</H3>
+<hr class="post-it">
+<H4><tt>HU</tt></H4>
 <p></p>
 Suggest me another char than <tt>$</tt> to associate to <tt>{variable}</tt> in order to do not conflicts with markdown, html, latex or shell scripting.
 <p></p>
 <hr class="post-it">
-<p></p>
-<H3 id="answer-1">Answer #1</H3>
+<H4><tt>AI</tt></H4>
 <p></p>
 To avoid conflicts with Markdown, HTML, LaTeX, or shell scripting, you can use a character that is less likely to be interpreted as a special symbol in these contexts. A good alternative is the at symbol (&commat;). It is rarely used as a delimiter in Markdown, HTML, or LaTeX, and while it has some meaning in shell scripting (e.g., parameter expansion in some shells), it is less likely to cause issues in your specific use case.
 <p></p>
@@ -170,6 +174,7 @@ To avoid conflicts with Markdown, HTML, LaTeX, or shell scripting, you can use a
 Finally, I returned back to <b>Gemini 2.0</b> previous session related to the initial work on the prompt for asking its opinion on the final version.
 <p></p>
 <hr class="post-it">
+<H4><tt>AI</tt></H4>
 <p></p>
 These refined guidelines are excellent!  They are concise, clear, and cover all the essential points effectively.  Reducing the number of guidelines has made them easier to digest and remember.  Here's a breakdown of what I like:
 <p></p>

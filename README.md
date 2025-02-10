@@ -57,7 +57,7 @@ A grouped by topic and others articles are listed here below.
 
 * **Prompt engineering for peer-reviewing with RAG support** &nbsp; (5 pz.)
 
-   - 2025-02-02  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag-v2.md)] - [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md) &nbsp; (3rd edt.)
+   - 2025-02-02  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag-v2.md)] - [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md) &nbsp; (2nd edt.)
 
    - 2025-01-21  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md)] - [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md) &nbsp; (2nd edt.)
 

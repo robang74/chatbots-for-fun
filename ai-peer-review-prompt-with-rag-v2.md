@@ -9,15 +9,15 @@ This article is the prosecution of these this previous articles:
 
 * [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md#?target=_blank) &nbsp; (2025-01-21)
 
-The **2nd edition** includes the furtherly revised [guidelines](#guidelines) for the session prompt v2.2.
+The **2nd edition** includes the furtherly revised [guidelines](#guidelines) for the session prompt v2.2 which was furtherly developed [session prompt v3.3](data/alex-peer-review-with-rag-v3.txt?target=_blank). Even if the v3.x prompt is not part of this document, it is part of its main aim to provide it.
 
-The **3rd edition** includes the link to the furtherly developed [session prompt v3.2](data/alex-peer-review-with-rag-v3.txt?target=_blank).
-
-Even if that prompt is not part of this document, it is part of its main aim to provide it.
+---
 
 ### Prompt development
 
 The role of **DeepSeek R1** (DeepThink mode) in switching from v2.2 to v3.0 was significant and it took more than 33 seconds of thinking before starting to produce the answer. The further adjustments have been provided to a better fit with others AI agents. However, the most educative part remains those related to the switch from v1.5 and v2.0 which is reported in this article.
+
+---
 
 ### Gemini 2.0 feedback
 
@@ -43,7 +43,7 @@ Which brought me to repeat very similar prompts after the first one in order to 
 
 So, here we are, again! {:-)}
 
----
+...
 
 Here below the link to the second version of the session prompt for peer-reviewing documents:
 
@@ -55,15 +55,15 @@ which includes the [final version](#final-version) of the guidelines. However, I
 
 ## Initial draft<br><sup>&ndash; guidelines &ndash;</sup>
 
-a) Considering that every document has necessarily a limited scope and can contains citation or claims from other sources than the author, hence it is fundamental to rate the claims the author of the document states independently by the others and in particular the authors claims should be evaluated within the scope of the document and eventually in a separate rating in a more general context when the scope of the document is sensitevily narrow or peculiar.
+**a)** Considering that every document has necessarily a limited scope and can contains citation or claims from other sources than the author, hence it is fundamental to rate the claims the author of the document states independently by the others and in particular the authors claims should be evaluated within the scope of the document and eventually in a separate rating in a more general context when the scope of the document is sensitevily narrow or peculiar.
 
-b) The ${document} can be specified in the next prompt and it can be longer than the context windows hence it should be tokenized and peer-reviewed part by part in such way that every part can reasonably fit within the context window.
+**b)** The ${document} can be specified in the next prompt and it can be longer than the context windows hence it should be tokenized and peer-reviewed part by part in such way that every part can reasonably fit within the context window.
 
-c) When the ${document} is split in parts, then use titles and subtitles to split it and when presenting the related peer-review to the user states with a "from-to" formula, extremes includes, which part of the analysis have been provided, waiting for a user prompt to proceed further.
+**c)** When the ${document} is split in parts, then use titles and subtitles to split it and when presenting the related peer-review to the user states with a "from-to" formula, extremes includes, which part of the analysis have been provided, waiting for a user prompt to proceed further.
 
-d) When all the parts of the document has been examined, then it is possible to leverage the tokenization and the information given by the user through the various prompt to provide an overall analysis of the document in general.
+**d)** When all the parts of the document has been examined, then it is possible to leverage the tokenization and the information given by the user through the various prompt to provide an overall analysis of the document in general.
 
-e) Finally, at the end of the answer about containing the whole document peer-review, offer to the user to write an short introduction to the document in which you will present the strong points, the limitations related to the content or the scope of the document or about the specific audience towards the document aims to speak to.
+**e)** Finally, at the end of the answer about containing the whole document peer-review, offer to the user to write an short introduction to the document in which you will present the strong points, the limitations related to the content or the scope of the document or about the specific audience towards the document aims to speak to.
 
 +
 
@@ -72,17 +72,19 @@ e) Finally, at the end of the answer about containing the whole document peer-re
 Prompted as followed, only the most significative and relevant prompts.
 
 ...
-
+#### `HU`
 
 I am writing a second version of a session prompt for peer-reviewing a document. That prompt is supposed to leverage the tokenization and a RAG approach as much as it is available. I am pretty happy with the first version of that prompt. Now it is time to add some guidelines to cope with some limitations that AI models and people have in a way they can cooperate efficiently and clearly understand each other.
 
 Evaluate the following guidelines and suggest how to improve them, eventually providing your own proposal for each of them, separately.
 
 ...
+#### `HU`
 
 I like all of them but we need to work a little bit on the b). In fact, some AI models require to be instructed specifically using the term tokenization of the text to activate that specific subsystem. Even if you consider this not relevant for you, it is important that the prompt will be suitable for different chatbot, systems and AI models.
 
 ...
+#### `HU`
 
 This part
 
@@ -95,14 +97,13 @@ is descriptive, not instructing. I wish something like:
 This is because for some systems the tokenisation is seen as an external support to the AI model not something integrated within it. Which is a reasonable choice for some architectures which aim to use as few resources as possible, like local running AI models. Which is also the reason because asking them to leverage tokenisation is necessary even if the RAG system has been activated by the user interacting with the UI.
 
 ...
+#### `HU`
 
 I see your points, good. So, I am going to maintain the c) version you initially gave to me. However the `[] ()` sequence is just a white-space away from being misinterpreted as a link in markdown syntax and this can lead to a mistake in certain corner cases.
 
 - "Segment X: ${Title/Subtitle, if available} ${Paragraphs Y-Z}"
 
 This above instead clearly leverages the bash paradigm of identifying variable names. Is it clear for you?
-
-...
 
 +
 
@@ -111,14 +112,17 @@ This above instead clearly leverages the bash paradigm of identifying variable n
 Prompted as followed, only the most significative and relevant prompts.
 
 ...
+#### `HU`
 
 It is important that the guidelines are clear also for non-native English users because people will not adopt something that they would not understand (or less keen to adopt, in theory). The next step is to improve clarity and at the same time shorten the text length. Both are important, hence clearer and shorter, both. Which is THE real challenge of this task, balancing a short form, conserving almost the same meaning and functionality and possibly also improving clarity.
 
 ...
+#### `HU`
 
-Your version of the e) guideline leverages a highly-educated English that is not quickly clear in its meaning to the people for whom English is not the mother tongue.  Hence, I decided on this one. Can you relate?
+Your version of the e) guideline leverages a highly-educated English that is not quickly clear in its meaning to the people for whom English is not the mother tongue. Hence, I decided on this one. Can you relate?
 
 ...
+#### `HU`
 
 I think that b) and c) guidelines are overlapping in part and I think that a better separation between the two will make them both clearer and shorter in avoiding redundancy.
 
@@ -132,13 +136,13 @@ I do not see any particular improvement here. I am happy, because this means tha
 
 After having realised that DeepSeek outputs are LaTEX sensitive, I have prompet the AI in this way.
 
-### Prompt #1
+...
+#### `HU`
 
 Suggest me another char than `$` to associate to `{variable}` in order to do not conflicts with markdown, html, latex or shell scripting.
 
 ...
-
-### Answer #1
+#### `AI`
 
 To avoid conflicts with Markdown, HTML, LaTeX, or shell scripting, you can use a character that is less likely to be interpreted as a special symbol in these contexts. A good alternative is the at symbol (@). It is rarely used as a delimiter in Markdown, HTML, or LaTeX, and while it has some meaning in shell scripting (e.g., parameter expansion in some shells), it is less likely to cause issues in your specific use case.
 
@@ -149,6 +153,7 @@ To avoid conflicts with Markdown, HTML, LaTeX, or shell scripting, you can use a
 Finally, I returned back to **Gemini 2.0** previous session related to the initial work on the prompt for asking its opinion on the final version.
 
 ...
+#### `AI`
 
 These refined guidelines are excellent!  They are concise, clear, and cover all the essential points effectively.  Reducing the number of guidelines has made them easier to digest and remember.  Here's a breakdown of what I like:
 
