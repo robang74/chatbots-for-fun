@@ -59,6 +59,17 @@ Two seem very similar and are equally cheap, one has an on/off switch for disabl
 
 In this specific case, the simplest ATX 24-pins with SATA dual connectors is enough, but I choose the one with the on/off switch which has the SATA female attached to a 4-pins connector.
 
+...
+
+**Update 2025-02-10**
+
+Are these cheap boards working? 
+
+<div align="center"><img class="" src="img/check-the-dual-psu-is-working.jpg" width="400"><br></div>
+
+For me, it works and the reason I trust about it beforehand is about "Simplicity" (cfr. Edward De Bono).
+
+To be cheap these boards should necessarily be simple. Simple to design, simple to test, simple to produce, etc. - for this reason the POWER-ON signal that in a sophisticated framework would end-up into a daisy-chain circuit, between two PSUs, it is a parallel: sharing a signal.
 ---
 
 ### PSU cabling
@@ -147,7 +158,7 @@ However, I fixed that hole with two auto-gripping plastic strips plus I inserted
 
 These two photos show the actual result and we can compare them with the two renderings on which the modification has been planned. In the image, the light blue lines indicate, starting from the left: the line at the center of the 12 cm fan, the new deflector air-flow direction and the original deflector air-flow direction.
 
----
+----
 
 ### A hands-craft baffle
 
@@ -167,7 +178,7 @@ However, it is a pretty good try to start with designing a 3D printable addition
 
 +
 
-----
+---
 
 ## Conclusions
 
@@ -185,7 +196,7 @@ This article continue here:
 
 * [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md#?target=_blank) &nbsp; (2025-02-05)
 
-+
+++++
 
 ## External sources
 
