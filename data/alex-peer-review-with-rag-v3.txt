@@ -1,4 +1,4 @@
-## PEER-REVIEW PROMPT WITH RAG SUPPORT v3.3
+## PEER-REVIEW PROMPT WITH RAG SUPPORT v3.3.1
 
 **Aim**: critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested.
 
@@ -17,9 +17,9 @@
 
 2. aligned with the document's perspective:
 
-- low-rate : it supports a general falsity
-- high-rate: it refutes a general falsity
-- mid-rate : it debates but inconclusively
+- low-rate, 1-25%: it supports a general falsity
+- mid-rate, ≤ 75%: it debates but inconclusively
+- high-rate ≤ 99%: it refutes a general falsity
 
 
 ### Workflow [OPS]
