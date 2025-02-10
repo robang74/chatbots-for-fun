@@ -9,7 +9,7 @@ This article is the prosecution of these this previous articles:
 
 * [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md#?target=_blank) &nbsp; (2025-01-21)
 
-The **2nd edition** includes the furtherly revised [guidelines](#guidelines) for the session prompt v2.2 which was furtherly developed [session prompt v3.3](data/alex-peer-review-with-rag-v3.txt?target=_blank). Even if the v3.x prompt is not part of this document, it is part of its main aim to provide it.
+The **2nd edition** includes the furtherly revised [guidelines](#guidelines) for the session prompt v2.2 which was furtherly developed [session prompt v3.3.1](data/alex-peer-review-with-rag-v3.txt?target=_blank). Even if the v3.x prompt is not part of this document, it is part of its main aim to provide it.
 
 ---
 
