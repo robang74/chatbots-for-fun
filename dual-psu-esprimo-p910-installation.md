@@ -153,11 +153,15 @@ It is worth noticing that once solved the venting question, the home made deflec
 
 ---
 
-### About PCI-e slot lost
+### About the PCI-e slot lost
 
-Engaging the PCI-express first slot is not a great idea because it will be lost. However, considering that this is a dedicated system, such limitation does not seem so impactful. Unless, someone wishes to use the PCI-e 4x to leverage a non-SATA storage device with a PCI-e adapter. Which usually happens when a spare part from a previous machine is available for free and it is worth reusing it.
+Engaging the PCI-express first slot is not a great idea because it will be lost. However, considering that this is a dedicated system, such limitation does not seem so impactful. Unless, someone wishes to use the PCI-e 4x to leverage a non-SATA storage device with a PCI-e adapter.
 
-Considering that a 128GB or a 512GB SATA3 SSD can be bought for €11 or €28 on Amazon Italia with Prime expedition included, the sacrifice of the 4x PCI-e slot with the fans does not seem to compromise the overall value of the final system configuration. Moreover, the USB 3.0 data transfer is 500 Mb/s while the SATA offers 600 MB/s but the USB 3.1+ and 3.2 much more.
+Which usually happens when a spare part from a previous machine is available for free and it is worth reusing it. Considering that a 128GB or a 512GB SATA3 SSD can be bought for €11 or €28 on Amazon Italia with Prime expedition included, the sacrifice of the 4x PCI-e slot with the fans.
+
+After all, it does not seem to compromise the overall value of the final system configuration. The USB 3.0 data transfer is 500 Mb/s while the SATA offers 600 MB/s but the USB 3.1+ and 3.2 much more. Let's check how really fast USB3 can be on P910 E85+.
+
+Booting with a TinyCore w/Linux 5.15.10 on a Netac US9 USB 3.2, R/W 40MB/s on USB3 and 32MB/s. For comparison The US9 on a Thinkpad X390, it does 818MB/s. Instead, an Hitachi HTS72323 2.5" HDD SATA 3Gbit/s R/W 80-90MB/s. Hence a SSD SATA3 is suggested.
 
 ~~~~
 
@@ -231,6 +235,12 @@ Nvidia Tesla K80 cooling adapters & adaptable fans system
 - [A 90° fan shroud for the Nvidia Tesla K80 GPU](https://www.thingiverse.com/thing:4602916) on ThingiVerse with 9 likes
 
 Despite these solutions being interesting or noticeable, none of them can fit into the P910 tower case, IMHO.
+
++
+
+## Blank page for notes
+
+Available only with the printed on paper format. {;-)}
 
 +
 
