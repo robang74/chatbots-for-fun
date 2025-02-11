@@ -238,13 +238,27 @@ Despite these solutions being interesting or noticeable, none of them can fit in
 
 +
 
-## Blank page for notes
+## About the connections with/in P910<br><sup>collecting here to move on the next artible</sup>
 
-Available only with the printed on paper format. {;-)}
+Notes about connection with/in the P910 which are working in progress and lately moved on the next article.
 
+---
+
+### Front USB 3.0 ports
+
+The Nvidia Tesla K80 is so long that it goes over the USB 3.0 connector but it is too high. In order to keep the two USB 3.0 front ports, a 90° adapter can be used. There are two similar adapters quite similar and I took the one with 15 mm height which it seems to fit in place but the other which is 1 mm lower, I think it fits even better.
+
+|x|>
+<img class="bwsketch darkinv" src="img/two-kind-of-connectors.png" width="400">
 +
+<sup>right click menu to enlarge (x2) the image</sup>
+<|x|
 
-## Networking<br><sup>notes for the next chapter</sup>
+Because the front USB 3.0 ports are working at 40 MB/s - while those in the back at 450 MB/s - can be fine living only with 2x USB 2.0 at 30 MB/s on the front panel. Therefore, this adapter should be considered an optional. It is better to buy an USB 3.0 extension cable and leave it connected to one of the ports on the back of the case.
+
+---
+
+### Networking
 
 The Wi-Fi dongle is NOT an alternative to the cabled network for transferring data to the GPU server. Because configuring the Wi-Fi in a way that clients over that network can see each other is NOT a good idea, in terms of security nor data privacy.
 
@@ -255,7 +269,13 @@ Providing the GPU server with an independent connection to the Internet, which c
 Please note that within the RTL8188 family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi home work is working only at 5GHz, instead. Moreover, 150 Mbit/s is 15 MB/s of data transfer which is relatively too slow but 300 Mbits/s, at least.
 
 +
+<!--
+## Blank page for notes
 
+Available only with the printed on paper format. {;-)}
+
++
+//-->
 ## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
