@@ -65,15 +65,15 @@ Moreover, moving back the new PSU by 15mm, it will get deep in the case as much 
 
 About the venting system, I was considering to use 2 fan 5020 or 5015 to place outside the back of the case, in front of the 2 PCI slots engaged by the Tesla K80 for sucking air through its airflow tunnel, as per its factory design, while the main fan into the case would push air into it, as show here below in the image.
 
+The area to cover in such a scenario is not larger than 11 x 5 cm, for this reason the best is using 2 fan 5 x 5cm which seems optimal because the remaining area is essentially covered by the metal of the case or the PCI slot vertical locking mechanism.
+
+Unfortunately, the 5010 fans are not very powerful while the 5020+ are rare. Instead, among the 5015s as the only viable option, most of them do not offer any PWM control (connection by 2-pin cable, or 3-pin at the best) because they are designed mainly for 3D printers.
+
 |x|>
 <img class="wbsketch" src="img/esprimo-p910-changed-air-flow.jpg" width="400">
 +
 <sup>right click menu to enlarge (x4) the image</sup>
 <|x|
-
-The area to cover in such a scenario is not larger than 11 x 5 cm, for this reason the best is using 2 fan 5 x 5cm which seems optimal because the remaining area is essentially covered by the metal of the case or the PCI slot vertical locking mechanism.
-
-Unfortunately, the 5010 fans are not very powerful while the 5020+ are rare. Instead, among the 5015s as the only viable option, most of them do not offer any PWM control (connection by 2-pin cable, or 3-pin at the best) because they are designed mainly for 3D printers.
 
 The few remaining options that may have a chance to fulfill the role are as costly as the 12 cm fans, noisier and way less powerful than them. Which should not surprise us because the gaming market pushes hard on the competition and keeps the warehouses well-assorted for the 12cm fans.
 
@@ -108,7 +108,7 @@ For those wish to sleep well during the night or are more keen to take a short-c
 <img class="wbsketch" src="img/power-cabling-easy-to-deploy.png" width="400">
 <|x|
 
-- **Spoiler** - pushing the power plug through the PCI slot opening, the closest one to the CPU, that 1.8mt cable will reach his destination to be connected with the public power network without the need to create new holes in the tower case.
+**Spoiler**: pushing the power plug through the PCI slot opening, the closest one to the CPU, that 1.8mt cable will reach his destination to be connected with the public power network without the need to create new holes in the tower case.
 
 This will cost you a PCI-express x4 mechanically x16, and the day someone will pull the power cord in a strong manner, likely stumbling rather than walking over it, possibly also the CPU or the RAM will leave the motherboard for a better place in the trash. {;-)}
 
@@ -159,11 +159,11 @@ Engaging the PCI-express first slot is not a great idea because it will be lost.
 
 Which usually happens when a spare part from a previous machine is available for free and it is worth reusing it. Considering that a 128GB or a 512GB SATA3 SSD can be bought for €11 or €28 on Amazon Italia with Prime expedition included, the sacrifice of the 4x PCI-e slot with the fans.
 
-After all, it does not seem to compromise the overall value of the final system configuration. The USB 3.0 data transfer is 500 Mb/s while the SATA offers 600 MB/s but the USB 3.1+ and 3.2 much more. Let's check how really fast USB3 can be on P910 E85+.
+After all, it does not seem to compromise the overall value of the final system configuration. The USB 3.0 data transfer is 500 Mb/s while the SATA offers 600 MB/s but the USB 3.1+ and 3.2 much more. Let's check how fast USB3 can be on the P910 E85+, really.
 
-Booting with a TinyCore w/Linux 5.15.10 on a Netac US9 USB 3.2, R/W 40MB/s on USB3 and 32MB/s. For comparison The US9 on a Thinkpad X390, it does 818MB/s. Instead, an Hitachi HTS72323 2.5" HDD SATA 3Gbit/s R/W 80-90MB/s. Hence a SSD SATA3 is suggested.
+Booting with a TinyCore w/Linux 5.15.10 on a Netac US9 USB 3.2, R/W at 40 MB/s on USB3 and 32 MB/s. Instead, a Hitachi HTS72323 2.5" SATA 3Gbit/s HDD R/W at 80-90MB/s. For comparison The US9 on a Thinkpad x390, does 818 MB/s. When the same USB stick is connected to the P910's blue ports on the back, it does 450 MB/s.
 
-~~~~
+---
 
 ### Second PSU cabling
 
@@ -190,7 +190,7 @@ From the above, the arrows indicate the following point of interest:
 
 Obviously, the dual-PSU manager board is isolated by the case external metallic shield by an insulating polyurethane foam plate which is fixed to the board with 4 tie wraps. The dual-PSU board is locked to the case with two bamboo sticks which are struck into the board holes and are pressing it against the PSU side by pressing on the case internal border. This mechanism allows the board to move horizontally and potentially quitting from this lock when moving on the right. A tie wrap prevents the slippage by fixing it by hooking the PSU.
 
----
+----
 
 ### Tools list
 
@@ -241,6 +241,18 @@ Despite these solutions being interesting or noticeable, none of them can fit in
 ## Blank page for notes
 
 Available only with the printed on paper format. {;-)}
+
++
+
+## Networking<br><sup>notes for the next chapter</sup>
+
+The Wi-Fi dongle is NOT an alternative to the cabled network for transferring data to the GPU server. Because configuring the Wi-Fi in a way that clients over that network can see each other is NOT a good idea, in terms of security nor data privacy.
+
+On the other hand, connecting the GPU server in a cabled network requires a proxy/firewall for reaching the Internet which can be useful for maintenance, updates and downloads. In a home network the Wi-Fi usually provides Internet access.
+
+Providing the GPU server with an independent connection to the Internet, which can physically disable removing the USB dongle, allows us to downsize the RJ45 cabled network to a single link point-to-point with our workstation without configuring it as Internet proxy as well.
+
+Please note that within the RTL8188 family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi home work is working only at 5GHz, instead. Moreover, 150 Mbit/s is 15 MB/s of data transfer which is relatively too slow but 300 Mbits/s, at least.
 
 +
 
