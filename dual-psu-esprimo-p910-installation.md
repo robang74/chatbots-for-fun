@@ -258,7 +258,7 @@ Because the front USB 3.0 ports are working at 40 MB/s - while those in the back
 
 ---
 
-### Networking
+### Wi-Fi/LAN networking
 
 The Wi-Fi dongle is NOT an alternative to the cabled network for transferring data to the GPU server. Because configuring the Wi-Fi in a way that clients over that network can see each other is NOT a good idea, in terms of security nor data privacy.
 
@@ -266,7 +266,7 @@ On the other hand, connecting the GPU server in a cabled network requires a prox
 
 Providing the GPU server with an independent connection to the Internet, which can physically disable removing the USB dongle, allows us to downsize the RJ45 cabled network to a single link point-to-point with our workstation without configuring it as Internet proxy as well.
 
-Please note that within the RTL8188 family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi home work is working only at 5GHz, instead. Moreover, 150 Mbit/s is 15 MB/s of data transfer which is relatively too slow but 300 Mbits/s, at least.
+Please note that within the RTL8188 family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi network is working only at 5GHz, instead. Moreover, it will result relatively slow to leverage a full-fledged optic fiber Internet connection.
 
 +
 <!--
