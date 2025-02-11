@@ -100,23 +100,23 @@ This manual is your ultimate guide to installing a **Nvidia Tesla K80** — a po
 
 The bill of material with the price paid on the consumer market, including the cost of expedition.
 
-| Part description                                 | e-market       | paid(€)       |
-| -------------------------------------------------|----------------|---------------|
-| Nvidia Tesla K80, 24GB                           | amazon.it      | &nbsp;€ 89.00 |
-| Fujitsu Esprimo P910 E85+, 16GB, i5-3470         | amso.eu        | &nbsp;€ 57.09 |
-| 220V 1U 350W Flex PSU + 3 adapters               | aliexpress.it  | &nbsp;€ 26.19 |
-| - CPU 4-pins to CPU 8-pins adapter               |                | &nbsp; € 1.59 |
-| - dual-PSU ATX/SATA router with 0/1 sw           |                | &nbsp; € 2.15 |
-| - DVI to VGA adapter                             |                | &nbsp; € 1.85 |
-| USB 3.0 h:15mm 20-pins 90° adapter               | amazon.it      | &nbsp; € 1.78 |
-| 10 fans 4-pin PWM hub w/SATA powering            | aliexpress.it  | &nbsp; € 2.33 |
-| - PCI slot size grid for 1-3x 9-12cm fans        |                | &nbsp; € 3.27 |
-| - Power cable C14F w/ C13M down angle (optional) |                | &nbsp; € 4.61 |
-| - Wi-Fi USB RTL8188 300Mb/s (optional)           |                | &nbsp; € 2.28 |
-| A kit of 2 fan 12cm 12V 4-pin @12dB              | amazon.it      | &nbsp; € 8.90 |
-|                                                  |                |               |
-|                              | <div align="right">**Total**</div> |  **€ 194.15** |
-|                           | <div align="right">w/ optionals</div> |  **€ 201.04** |
+| Part description                                   | e-market       | paid(€)       |
+| ---------------------------------------------------|----------------|---------------|
+| Nvidia Tesla K80, 24GB                             | amazon.it      | &nbsp;€ 89.00 |
+| Fujitsu Esprimo P910 E85+, 16GB, i5-3470           | amso.eu        | &nbsp;€ 57.09 |
+| 220V 1U 350W Flex PSU + 3 adapters                 | aliexpress.it  | &nbsp;€ 26.19 |
+| - CPU 4-pins to CPU 8-pins adapter                 |                | &nbsp; € 1.59 |
+| - dual-PSU ATX/SATA router with 0/1 switch         |                | &nbsp; € 2.15 |
+| - DVI to VGA adapter (*optional*)                  |                | &nbsp; € 1.85 |
+| USB 3.0 h:15mm 20-pins 90° adapter (*optional*)    | amazon.it      | &nbsp; € 1.78 |
+| Hub for 10 fans 4-pin PWM hub w/SATA powering      | aliexpress.it  | &nbsp; € 2.33 |
+| - PCI slot size grid for 1-3x 9-12cm fans          |                | &nbsp; € 3.27 |
+| - Power cable C14F w/ C13M down angle (*optional*) |                | &nbsp; € 4.61 |
+| - Wi-Fi USB RTL8188 300Mb/s (*optional*)           |                | &nbsp; € 2.28 |
+| A kit of 2 fans 12cm 12V 4-pin @12dB               | amazon.it      | &nbsp; € 8.90 |
+|                                                    |                |               |
+|                                | <div align="right">**Total**</div> |  **€ 190.52** |
+|                           | <div align="right">w/ *optionals*</div> |  **€ 201.04** |
 
 The following is the list of material consumed or wasted, which contributed to the product unit cost.
 
