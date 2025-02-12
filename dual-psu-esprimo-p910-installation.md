@@ -323,7 +323,7 @@ Please, note that this is NOT the proper way to go with a system in "production"
 Let start from the basics, here below some line commands for Ubuntu just for starting with the P910 before even installing the Tesla K80 within:
 
 [!CODE]
-sudo apt install lm-sensors fancontrol 
+sudo apt install lm-sensors fancontrol read-edid i2c-tools python3-smbus
 
 yes | sudo sensors-detect
 
@@ -335,6 +335,10 @@ sudo pwmconfig
 [/CODE]
 
 Moreover, the application [gkrellm](https://gkrellm.srcbox.net/) even if it is not particularly well integrated in Ubuntu can help us keep the system under careful supervision.
+
+> `Package id 0:  +44.0°C`
+
+Which is the highest temperature seen up to now, with the case open and laying on its closed side. Which makes the CPU radiator operate in a sub-optimal way, as per its factory design. Without the support of an active device like a fan, it relies on the "hot-air is lighter" physics principle that lets the air flow bottom-up through its fins for natural convection. But in that position, laying down 90° tilted, the air tends to remain trapped among its fins instead of flowing and the main fan - with the case open - is too far to bring a sensitive benefit before its flow spreads around unguided.
 
 +
 <!--
