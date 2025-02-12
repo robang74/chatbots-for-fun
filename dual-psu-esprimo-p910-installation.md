@@ -266,7 +266,73 @@ On the other hand, connecting the GPU server in a cabled network requires a prox
 
 Providing the GPU server with an independent connection to the Internet, which can physically disable removing the USB dongle, allows us to downsize the RJ45 cabled network to a single link point-to-point with our workstation without configuring it as Internet proxy as well.
 
-Please note that within the RTL8188 family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi network is working only at 5GHz, instead. Moreover, it will result relatively slow to leverage a full-fledged optic fiber Internet connection.
+Please note that within the **RTL8188** family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi network is working only at 5GHz, instead. Moreover, it will result relatively slow to leverage a full-fledged optic fiber Internet connection.
+
+----
+
+### Ethernet configuration
+
+First of all we need to set up the Ethernet network link between the workstation and the GPU server.
+
+| Hostname | IPv4   | IPv6    | IP address | Netmask       | Gateway | DNS | Route     | Name    |
+|----------|--------|---------|------------|---------------|---------|-----|-----------|---------|
+| X390     | manual | disable | 10.10.10.1 | 255.255.255.0 |         | off | automatic | usbeth0 |
+| P100     | manual | disable | 10.10.10.2 | 255.255.255.0 |         | off | automatic | pcieth0 |
+
+These configuration settings are provided to be used with the Ubuntu Network Manager. Please note that installing Ubuntu 24.04.x LTS is not mandatory but for lowering the entry barrier for those users who are not used to operating as system administrators.
+
+[!INFO]
+
+For those prefer to use Microsoft Windows, please notice that I strongly doubt that a 2014 system will be support by Windows 11 and hence you will be forced to be stick with Windows 10 at the little extra cost $30/year support plus the a license than you might provide yourself buying a refurbished OEM sata disk/system. However, if you decide to go with Windows 10 and pay for its support, then refer to those you are paying to give you support! {;-)}
+
+[/INFO]
+
+Before everything else, note that the Esprimo P910 has 100 Mbit/s network and this is almost the best you can achieve from it:
+
+[!CODE]
+k80user@p910:~$ nc -l 1111 > /dev/null
+
+roberto@x390:~$ dd if=/dev/zero bs=1500 count=16K | nc -N 10.10.10.2 1111<br>
+16384+0 records in<br>
+16384+0 records out<br>
+24576000 bytes (25 MB, 23 MiB) copied, 2.01924 s, 12.2 MB/s
+[/CODE]
+
+Which suggests that a cheap 100 MB/s USB-Ethernet (fast Ethernet) is enough, and it makes us wonder how to leverage one of the 5 Gbits/s USB3 rear port for connecting the GPUserver to our workstation as it were a USB storage device to quickly transfer huge chunk of data.
+
+---
+
+### Remote control
+
+In order to avoid to waste our time switching between our laptop/PC and the GPU server:
+
+- `Settings --> System --> Remote Desktop --> Desktop Sharing --> Remote Control --> ON` 
+
+we can activate the remote control and for a smoother experience disabling the screen lock:
+
+- `Settings --> Privacy & Security --> Blank Screen Delay --> NEVER`
+
+in order to be always able to access the remote desktop, as a quick & easy way to configure the system.
+
+Please, note that this is NOT the proper way to go with a system in "production" but a setup shortcut.
+
+----
+
+### Thermal control
+
+Let start from the basics, here below some line commands for Ubuntu just for starting with the P910 before even installing the Tesla K80 within:
+
+[!CODE]
+sudo apt install lm-sensors fancontrol 
+
+yes | sudo sensors-detect
+
+sudo service kmod start
+
+sudo sensors
+
+sudo pwmconfig
+[/CODE]
 
 +
 <!--
