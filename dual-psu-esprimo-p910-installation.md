@@ -366,6 +366,10 @@ At 75°C the main 12 cm fan starts to be loud, working at almost the full thrott
 
 While acoustic management has an impact on "auto" and "enhanced" fans control modes, it has not on "disabled" for which all the fans are running at their full throttle.
 
+---
+
+### Spinning the whirlybird
+
 In order to have a quantitative idea about the noise figure, I have installed this Android application on my smartphone and put it on the tower case.
 
 - **Sound meter** : SPL & dB meter by **KTW Apps**, 4.8* on [Google Play](https://play.google.com/store/apps/details?id=com.ktwapps.soundmeter&hl=en)
