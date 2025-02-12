@@ -238,9 +238,9 @@ Despite these solutions being interesting or noticeable, none of them can fit in
 
 +
 
-## About the connections with/in P910<br><sup>collecting here to move on the next artible</sup>
+## About the connections with/in P910<br><sup>collecting here to move on the next article</sup>
 
-Notes about connection with/in the P910 which are working in progress and lately moved on the next article.
+Notes about connection with/in the P910 which are working in progress and lately moved on to the next article.
 
 ---
 
@@ -306,7 +306,7 @@ Which suggests that a cheap 100 MB/s USB-Ethernet (fast Ethernet) is enough, and
 
 In order to avoid to waste our time switching between our laptop/PC and the GPU server:
 
-- `Settings --> System --> Remote Desktop --> Desktop Sharing --> Remote Control --> ON` 
+- `Settings --> System --> Remote Desktop --> Desktop Sharing --> Remote Control --> ON`
 
 we can activate the remote control and for a smoother experience disabling the screen lock:
 
@@ -323,7 +323,7 @@ Please, note that this is NOT the proper way to go with a system in "production"
 Let start from the basics, here below some line commands for Ubuntu just for starting with the P910 before even installing the Tesla K80 within:
 
 [!CODE]
-sudo apt install lm-sensors fancontrol read-edid i2c-tools python3-smbus
+sudo apt install lm-sensors fancontrol read-edid i2c-tools python3-smbus pigz
 
 yes | sudo sensors-detect
 
@@ -336,9 +336,51 @@ sudo pwmconfig
 
 Moreover, the application [gkrellm](https://gkrellm.srcbox.net/) even if it is not particularly well integrated in Ubuntu can help us keep the system under careful supervision.
 
-> `Package id 0:  +44.0°C`
+> `Package id 0:  +44.0°C  (high = +85.0°C, crit = +105.0°C)`
 
 Which is the highest temperature seen up to now, with the case open and laying on its closed side. Which makes the CPU radiator operate in a sub-optimal way, as per its factory design. Without the support of an active device like a fan, it relies on the "hot-air is lighter" physics principle that lets the air flow bottom-up through its fins for natural convection. But in that position, laying down 90° tilted, the air tends to remain trapped among its fins instead of flowing and the main fan - with the case open - is too far to bring a sensitive benefit before its flow spreads around unguided.
+
+---
+
+### Noise control
+
+Time to close the tower case and raise it on its feet again.
+
+[!CODE]
+dd if=/dev/zero bs=1M | pigz -11 -p4 - >/dev/null &
+
+for i in $(seq 1 40); do sensors | grep Package;
+
+sleep 1; done & sleep 30; killall pigz;
+[/CODE]
+
+Running this code for two times in a row, lead to warm up the CPU core:
+
+> `Package id 0:  +77.0°C  (high = +85.0°C, crit = +105.0°C)`
+
+At 75°C the main 12 cm fan starts to be loud, working at almost the full throttle. This is because the default BIOS configuration is tuned to be silent as much as possible. However, these settings could be changed and the difference is very sensitive.
+
+- `F2 --> BIOS --> Advanced --> Acoustic Management --> Acoustic Management --> 0/1`
+
+- `F2 --> BIOS --> Advanced --> System Monitoring --> Fans control --> auto, enanched, disabled`
+
+While acoustic management has an impact on "auto" and "enhanced" fans control modes, it has not on "disabled" for which all the fans are running at their full throttle.
+
+In order to have a quantitative idea about the noise figure, I have installed this Android application on my smartphone and put it on the tower case.
+
+- **Sound meter** : SPL & dB meter by **KTW Apps**, 4.8* on [Google Play](https://play.google.com/store/apps/details?id=com.ktwapps.soundmeter&hl=en)
+
+Between the case and the smartphone I put a mouse pad, just to absorb those low-frequencies which are below the human ability to hear but a capacitor microphone may catch. Usually, this kind of measures should be done after a calibration and reading the value at a standard distance (usually 1 mt) from the geometric center of the noise source.
+
+Instead, I took the value on an arbitrary and generic mouse pad with an uncalibrated app because I am interested in the relative metric, not in the absolute. In fact, a quiet room is about 40 dB while the keyboard beep scales at 62 dB. My studio in the night is as quiet as 25 db while the modded P910 with its 12 cm fan at full throttle showed a steady 64 db figure, the double of the most silent BIOS configuration.
+
+| Acoustic Management | Fans Control | Noise (RdB) | Noise (R%) |
+|---------------------|--------------|-------------|------------|
+| enabled             | auto         | 32          | 1.00       |
+| enabled             | enhanced     | 40          | 1.25       |
+| irrelevant          | disabled     | 64          | 2.00       |
+
+This table shows that the original system can potentially be quieter than a quiet room in the night but also annoying like the keyboard beep when a key is kept pressed down, but at lower frequency. Once completed the system software configuration, the GPU card will be installed and tested. Prudently, we will test the system in its initial stages of configuration by unleashing its "wanna-be an helicopter" character... LOL
 
 +
 <!--
