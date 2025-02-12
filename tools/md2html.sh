@@ -40,11 +40,11 @@ note_A=$(echo "$note_A" | sed -e "s,\,,\\\,g" -e "s,\&,\\\&,g")
 info_A='<div class="post-it"><b class="post-it">\&#9432;</b>'
 info_B='</div>'
 
-code_A='<div class="codeblock">'
-code_B='</div>'
+#code_A='<div class="codeblock">'
+#code_B='</div>'
 
-code_A='<blockquote class="code"><code><tt>'
-code_B='</tt></code></blockquote>'
+code_A='<blockquote class="code"><code>'
+code_B='</code></blockquote>'
 
 cite_A='<blockquote class="cite">'
 cite_B='</blockquote>'
