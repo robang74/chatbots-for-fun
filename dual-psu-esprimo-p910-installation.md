@@ -334,6 +334,8 @@ sudo sensors
 sudo pwmconfig
 [/CODE]
 
+Moreover, the application [gkrellm](https://gkrellm.srcbox.net/) even if it is not particularly well integrated in Ubuntu can help us keep the system under careful supervision.
+
 +
 <!--
 ## Blank page for notes
