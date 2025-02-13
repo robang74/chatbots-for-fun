@@ -192,18 +192,44 @@ Obviously, the dual-PSU manager board is isolated by the case external metallic 
 
 ----
 
+### Fans kit and USB elbow
+
+The cooling kit is made by assembling two 4-pin PWM 12 cm fans into a PCI slot support. For this task a solid screwdriver is required and a little bit of oil or cream to lubricate the screws. This trick will greatly help in tightening the screws, otherwise particularly hard to turn into the fan holes for the first time.
+
+|x|>
+<img class="wbsketch" src="img/cooling-kit-fan2-usb-angle-cpu-fan1.jpg" width="800">
++
+<sup>right click menu to enlarge (x3) the image</sup>
+<|x|
+
+In the left part of the image, we can see the 90° angled USB 3.0 adapter which prevents the cable from rising more than 15 mm above the motherboard level and thus prevents the GPU card from fitting into the PCI-express slot. Nearby the USB 9-pin socket, there is the 4-pin socket for the original 12 cm fan. Which is labeled as FAN2 on the motherboard.
+
+This suggests to us that somewhere else there is another 4-pin socket dedicated for the CPU fan. In fact, we can find it near the CPU with a 3-pin socket which suggests that we might have mounted on the frame just one single 12 cm fan with a 3-pin cable. This would have saved us to buy the hub fan manager and to add €6.34 (+3.4%) on the BoM mandatory parts list.
+
+[!INFO]
+
+At this point the project progression, 28 days after purchasing the Tesla K80 and several batches of material received, the slight suspicion arises that perhaps it was better to deeper investigate the hardware specifications in details rather than buy intriguing stuff online at a bargain price and then try to make it work together...
+
+...but **we can't beat having fun!**
+
+[/INFO]
+
+Moreover, looking at the picture on the right side of the image above, it is not immediately clear if below the black plastic cover there is a little fan or instead the 4-pin cable is just providing the thermal sensor data to the 4-pin motherboard wiring. The BIOS indicates that the FAN1 is OK, as well as the FAN2.
+
+---
+
 ### Tools list
 
 Here below is a list of almost all tools I have used, some reported in full specs and prices because they have been as **useful** as nearly indispensable.
+
+|x|>
+<img class="bwsketch darkinv" src="img/cheap-but-useful-tools.jpg" width="800">
+<|x|
 
 - Mini Cleaning Soft Brush, Crevice and Keyboard Cleaner - paid price  €0.37 on temu.com
 - Set di 115 Cacciaviti di Precisione, Kit Multifunzione - paid price  €7.99 amazon.it
 - 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm - paid price €0.88 on temu.com
 - Scissors, cutter knife, pliers, hot-glue pistol, electrician cutting cutters, etc.
-
-|x|>
-<img class="bwsketch darkinv" src="img/cheap-but-useful-tools.jpg" width="800">
-<|x|
 
 When a K80 card is bought on the used or refurbished market, a good idea is to clean their metallic radiators enclosed into the plastic case. To remove the plastic case it is required to unscrew the 8 torx, size #6 in my case. The soft brush listed above is hardly replaceable in its functionality by anything else to remove stratified dust and dust balls.
 
@@ -235,12 +261,6 @@ Nvidia Tesla K80 cooling adapters & adaptable fans system
 - [A 90° fan shroud for the Nvidia Tesla K80 GPU](https://www.thingiverse.com/thing:4602916) on ThingiVerse with 9 likes
 
 Despite these solutions being interesting or noticeable, none of them can fit into the P910 tower case, IMHO.
-
-+
-
-## Blank page for notes
-
-Available only with the printed on paper format. {;-)}
 
 +
 
