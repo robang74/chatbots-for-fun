@@ -72,7 +72,7 @@ SHA256: 32EF5E94C820745C19323BC039186E253D7C2153C2F783667C9D8F17C6857D86
    - unzip : $archive : ./diag/
 <p></p>
 <div class="pagebreak"></div>
-<blockquote class="code"><code><tt>
+<blockquote class="code"><code>
 dst &lt;= [usb1 mount-point path]
 <p></p>
 cp -arf ./diag/&ast;/data/&ast; ${dst}/<br>
@@ -82,7 +82,7 @@ sed -e 's,\(SET DOSDIR=\).&ast;,\1\\FDOS,I' -e 's,\(%dosdir%\)\\bin,\1,gI' -i ${
 sed -e "s/%[bram]\{0,3\}DRV%://gI" -e "s,%1:[%\\],,g" -i $(find ${dst} -iname \&ast;.bat)<br>
 sed -e "s/bat %DRV%/bat ''/" -i ${dst}/TOOLS/BASE/me.bat<br>
 mv ${dst}/AUTOEXEC.BAT ${dst}/diag.bat
-</tt></code></blockquote>
+</code></blockquote>
 <p></p>
 <hr class="post-it">
 <p></p>
@@ -103,18 +103,18 @@ SHA256: 25832921C80C0FEFD8E92574F7138C0CBFFDC11DA0DD5F3FAFF1DCDED49BD881
    - download : $archive
    - unzip : $archive : ./bios/
 <p></p>
-<blockquote class="code"><code><tt>
+<blockquote class="code"><code>
 dst &lt;= [usb1 mount-point path]
 <p></p>
 cp -arf ./bios/DOS/&ast; ${dst}/<br>
 umount ${dst}/
-</tt></code></blockquote>
+</code></blockquote>
 <p></p>
 <hr class="post-it">
 <p></p>
 <H3 id="6. Customised bootable image backup (optional)">6. Customised bootable image backup (optional)</H3>
 <p></p>
-<blockquote class="code"><code><tt>
+<blockquote class="code"><code>
 usbdisk &lt;= [usb disk device]
 <p></p>
 umount ${usbdisk}&ast;<br>
@@ -124,20 +124,20 @@ sectors &lt;= [usb disk p1 size in 512 byte sectors, biggest number]
 <p></p>
 image="fdos-p910-bios-diag.img"<br>
 dd if=${usbdisk} count=${sectors} | pigz - >${image}.gz
-</tt></code></blockquote>
+</code></blockquote>
 <p></p>
 <hr class="post-it">
 <p></p>
 <H3 id="7. Post archiving image modding (optional, not required)">7. Post archiving image modding (optional, not required)</H3>
 <p></p>
-<blockquote class="code"><code><tt>
+<blockquote class="code"><code>
 image="fdos-p910-bios-diag.img"<br>
 pigz -dc ${image}.gz > ${image}; losetup -Pf ${image}
 <p></p>
 [do whatever you like on loop device 1st partition]
 <p></p>
 losetup -D $(losetup -l | grep ${image} | cut -d' ' -f1)
-</tt></code></blockquote>
+</code></blockquote>
 <p></p>
 <div class="pagebreak"><hr class="post-it"></div>
 <p></p>

@@ -21,7 +21,7 @@ The Nvidia Tesla K80 is so long that it goes over the USB 3.0 connector but it i
 
 Because the front USB 3.0 ports are working at 40 MB/s - while those in the back at 450 MB/s - can be fine living only with 2x USB 2.0 at 30 MB/s on the front panel. Therefore, this adapter should be considered an optional. It is better to buy an USB 3.0 extension cable and leave it connected to one of the ports on the back of the case.
 
----
+~~~~
 
 ### Wi-Fi/LAN networking
 
@@ -33,7 +33,7 @@ Providing the GPU server with an independent connection to the Internet, which c
 
 Please note that within the **RTL8188** family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi network is working only at 5GHz, instead. Moreover, it will result relatively slow to leverage a full-fledged optic fiber Internet connection.
 
-----
+---
 
 ### Ethernet configuration
 
@@ -65,7 +65,7 @@ roberto@x390:~$ dd if=/dev/zero bs=1500 count=16K | nc -N 10.10.10.2 1111<br>
 
 Which suggests that a cheap 100 MB/s USB-Ethernet (fast Ethernet) is enough, and it makes us wonder how to leverage one of the 5 Gbits/s USB3 rear port for connecting the GPUserver to our workstation as it were a USB storage device to quickly transfer huge chunk of data.
 
----
+----
 
 ### Remote control
 
@@ -81,7 +81,7 @@ in order to be always able to access the remote desktop, as a quick & easy way t
 
 Please, note that this is NOT the proper way to go with a system in "production" but a setup shortcut.
 
-----
+---
 
 ### Thermal control
 
@@ -131,7 +131,7 @@ At 75°C the main 12 cm fan starts to be loud, working at almost the full thrott
 
 While acoustic management has an impact on "auto" and "enhanced" fan control modes, it has not on "disabled" for which all the fans are running at their full throttle.
 
-----
+---
 
 ### Cooling noise tests
 
@@ -172,6 +172,18 @@ The table presented in the previous section, shows that the original system can 
 - [P910's full throttle fan noise](../data/p910-full-throttle-fan-noise.m4a) six seconds of recording.
 
 Prudently, we will test the system in its initial stages of configuration by unleashing its "wanna-be an helicopter" character... LOL
+
+---
+
+### DVI to VGA adapter
+
+The Esprimo P910 comes with a DVI port, and in case you plan to couple with an old VGA monitor like I did, then expect that a cheap DVI-VGA adapter will limit the monitor resolution to 1024x768 despite being advertised differently. Which is enough for doing the preliminary stuff and remoting the desktop. Unfortunately, this will also affect the resolution of the shared desktop as long as we are using the quick & easy way described here.
+
+In order to mitigate this trouble it is worth installing the gnome tweaks application and also synaptic will be useful for a more advance package installation and management:
+
+- `sudo apt install gnome-tweaks synaptic`
+
+With the gnome tweaks we can change the font and icon sizes, plus reducing the zoom at 80% which will give us a visualisation area equivalent to a 1280x960 monitor but at lower DPI resolution. Instead, trying to use `cvt` and `xrandr` will not help, nor within Xorg or before it would start. However, I did not investigate this deeper because in the long run the aim is to use another remote control approach not affected by the HW resolution.
 
 +
 

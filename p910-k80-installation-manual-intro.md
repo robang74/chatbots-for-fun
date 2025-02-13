@@ -18,7 +18,7 @@
 >>>|
 >>>|
 
-- **State**: working in progress, 4 of 5 parts
+- **State**: working in progress, 5 of 6 parts
 
 - **Source**: robang74.github.io/chatbots-for-fun
 
@@ -33,12 +33,14 @@
 - **Composition**: this presentation + 3 articles collation
 
    1. [Fujitsu P910 E85+ BIOS update & diagnostics](p910-bios-update-and-diagnostics.md#?target=_blank) &nbsp; (2025-02-04)
-
-   2. [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-24)
    
-   3. [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-25)   
+   2. [Ubuntu early configuration for P910 w/K80](p910-k80-ubuntu-early-configuration.md#?target=_blank) &nbsp; (2025-02-11)
 
-   4. [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md#?target=_blank) &nbsp; (2025-02-05)
+   3. [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-24)
+   
+   4. [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-25)   
+
+   5. [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md#?target=_blank) &nbsp; (2025-02-05)
 
 |<<<
 |<<<
