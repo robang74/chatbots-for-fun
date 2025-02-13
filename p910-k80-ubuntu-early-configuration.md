@@ -39,7 +39,7 @@ Please note that within the **RTL8188** family there are adapters which support 
 
 First of all we need to set up the Ethernet network link between the workstation and the GPU server.
 
-| Hostname | IPv4   | IPv6    | IP address | Netmask       | Gateway | DNS | Route     | Name    |
+| Hostname | IPv4   | IPv6    | IP address | Netmask       | Gateway | DNS | Route     | Device  |
 |----------|--------|---------|------------|---------------|---------|-----|-----------|---------|
 | X390     | manual | disable | 10.10.10.1 | 255.255.255.0 |         | off | automatic | usbeth0 |
 | P100     | manual | disable | 10.10.10.2 | 255.255.255.0 |         | off | automatic | pcieth0 |
