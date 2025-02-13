@@ -25,6 +25,7 @@ manfn="p910-k80-installation-manual"
 files="
 p910-k80-installation-manual-intro
 p910-bios-update-and-diagnostics
+p910-k80-ubuntu-early-configuration
 tesla-k80-with-esprimo-p910
 dual-psu-fujitsu-esprimo-p910
 dual-psu-esprimo-p910-installation
@@ -38,7 +39,7 @@ for i in $files; do
     fi
     #chrprint html/$i.html pdf/$i.pdf
     #pdfshrink pdf/$i.pdf | grep --color=never .
-    if [ "x$1" == "x-a" -o "x$1" == "x-h" ]; then
+    if [ "x$1" == "x-m" -o "x$1" == "x-h" ]; then
         bash tools/html2pdf.sh html/$i.html | \
             grep --color=never . | grep -v "pdf folder size"
         echo
