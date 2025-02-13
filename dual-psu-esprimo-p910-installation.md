@@ -362,13 +362,13 @@ At 75°C the main 12 cm fan starts to be loud, working at almost the full thrott
 
 - `F2 --> BIOS --> Advanced --> Acoustic Management --> Acoustic Management --> 0/1`
 
-- `F2 --> BIOS --> Advanced --> System Monitoring --> Fans control --> auto, enanched, disabled`
+- `F2 --> BIOS --> Advanced --> System Monitoring --> Fan Control --> auto, enanched, disabled`
 
-While acoustic management has an impact on "auto" and "enhanced" fans control modes, it has not on "disabled" for which all the fans are running at their full throttle.
+While acoustic management has an impact on "auto" and "enhanced" fan control modes, it has not on "disabled" for which all the fans are running at their full throttle.
 
----
+----
 
-### Spinning the whirlybird
+### Cooling noise tests
 
 In order to have a quantitative idea about the noise figure, I have installed this Android application on my smartphone and put it on the tower case.
 
@@ -378,13 +378,35 @@ Between the case and the smartphone I put a mouse pad, just to absorb those low-
 
 Instead, I took the value on an arbitrary and generic mouse pad with an uncalibrated app because I am interested in the relative metric, not in the absolute. In fact, a quiet room is about 40 dB while the keyboard beep scales at 62 dB. My studio in the night is as quiet as 25 db while the modded P910 with its 12 cm fan at full throttle showed a steady 64 db figure, the double of the most silent BIOS configuration.
 
-| Acoustic Management | Fans Control | Noise (RdB) | Noise (R%) |
-|---------------------|--------------|-------------|------------|
-| enabled             | auto         | 32          | 1.00       |
-| enabled             | enhanced     | 40          | 1.25       |
-| irrelevant          | disabled     | 64          | 2.00       |
+Using this [script](data/cpu-temp-test.sh?target=_blank) saved in `data`, this table can be completed with some temperature ranges, just to provide a quick and basic reference.
 
-This table shows that the original system can potentially be quieter than a quiet room in the night but also annoying like the keyboard beep when a key is kept pressed down, but at lower frequency. Once completed the system software configuration, the GPU card will be installed and tested. Prudently, we will test the system in its initial stages of configuration by unleashing its "wanna-be an helicopter" character... LOL
+| Acoustic Management | Fan Control | Noise (RdB) | Noise (R%) | Start   | Highest | Ending  | T-Gap |
+|---------------------|-------------|-------------|------------|---------|---------|---------|-------|
+| enabled             | auto        | 32          | 1.00       | 49-61°C | 67-74°C | 51-57°C | 83%   | 
+| enabled             | enhanced    | 40          | 1.25       | 42-48°C | 60-63°C | 42-45°C | 66%   |
+| irrelevant          | disabled    | 64          | 2.00       | 32-34°C | 46-48°C | 28-38°C | 43%   |
+
+For sake of completeness, these temperatures have been measured in a 20°C room temperature. Sometimes, the ending temperature is lower than the starting temperature but this should not surprise us because in the meantime the fan started to cool down the CPU and the ending temperature is taken after 15 seconds the 30s job is completed.
+
+[!INFO]
+
+In the final version of the manual, this part will end up after the BIOS upgrade chapter, so before every hardware change. Instead, the temperatures above reported, have been taken after having modified the Esprimo P910 moving its main 12cm fan and installing the handcraft baffle to increase the case air-flow. At the time of the measures, the two middle PCI slot covers were removed. Hence, it could be possible to find different values with the original hardware configuration.
+
+[/INFO]
+
+----
+
+### Spinning the whirlybird
+
+Unsurprisingly, noisier it gets, cooler it ends up. How much? The absolute temperature scale is graded in Kelvin but its zero is too far away. However, neither Celsius nor Fahrenheit are good in providing a relative reference. The main point is the same: setting the zero, but in this case the zero is the environment temperature which is 20°C, our reference zero. 
+
+While 85°C is our "boiling water" point which is a reference temperature for the CPU that has been indicated by the CPU foundry process. For comparison, the GPU incorporated into the Tesla K80 card, has 88°C has alarming temperature trigger. Under this PoV, 43% is 43°R, while the room temperature is 0°R and 100°R is the warning temperature.
+
+The table presented in the previous section, shows that the original system can potentially be quieter than a quiet room in the night but also annoying like the keyboard beep when a key is kept pressed down, but at lower frequency. Once completed the system software configuration, the GPU card will be installed and tested.
+
+- [P910's full throttle fan noise](p910-full-throttle-fan-noise.m4a) six seconds of recording.
+
+Prudently, we will test the system in its initial stages of configuration by unleashing its "wanna-be an helicopter" character... LOL
 
 +
 <!--
