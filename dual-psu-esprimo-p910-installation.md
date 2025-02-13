@@ -323,7 +323,7 @@ Please, note that this is NOT the proper way to go with a system in "production"
 Let start from the basics, here below some line commands for Ubuntu just for starting with the P910 before even installing the Tesla K80 within:
 
 [!CODE]
-sudo apt install lm-sensors fancontrol read-edid i2c-tools python3-smbus pigz
+sudo apt install lm-sensors fancontrol read-edid i2c-tools python3-smbus pigz wget
 
 yes | sudo sensors-detect
 
@@ -351,7 +351,7 @@ dd if=/dev/zero bs=1M | pigz -11 -p4 - >/dev/null &
 
 for i in $(seq 1 40); do sensors | grep Package;
 
-sleep 1; done & sleep 30; killall pigz;
+sleep 1; done & sleep 30; killall pigz; echo;
 [/CODE]
 
 Running this code for two times in a row, lead to warm up the CPU core:
