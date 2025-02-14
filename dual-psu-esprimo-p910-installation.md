@@ -213,7 +213,7 @@ Moreover, looking at the picture on the right side of the image above, it is not
 
 [!INFO]
 
-At this point in the project progression, 28 days after purchasing the Tesla K80 and several batches of material received, the slight suspicion arises that perhaps it was better to deeper investigate the hardware specifications in detail rather than buy intriguing stuff online at a bargain price and then try to make it work together but... we can't beat having fun!
+At this point in the project progression, 28 days after purchasing the Tesla K80 and several batches of material received, the slight suspicion arises that perhaps it was better to deeper investigate the hardware specifications in detail rather than buy intriguing stuff online at a bargain price and then try to make it work together but... **we can't beat having fun!**
 
 [/INFO]
 
