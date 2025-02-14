@@ -254,9 +254,11 @@ The advantage of this hardware configuration is its simplicity while the drawbac
 
 Moreover, there are good reasons to believe that this solution is under performat compared to its maths because larger is the channel, slower is the airflow plus there are many ways in which the fresh air can escape without hitting the radiators while the hot air will be trapped into the K80 radiators fins because its natural tendency to raise but the K80 is up-side-down when the tower stands on its feet.
 
-These considerations suggest that it is important to be prudent and search for a compensation and an alternative solution, possibly more performant or with a larger blowing power.
+These considerations suggest that it is important to be prudent and search for a compensation and an alternative solution, possibly more performant or with a larger blowing power. However, considering a 1/2 factor of underperformance compared to the math above, this solution is still above the smallest working-enough solution I saw around the Internet.
 
-----
+In theory, but in practice it's another pair of gloves... and here we are again! {:-)}
+
+~~~~
 
 ### Tools list
 
