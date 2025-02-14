@@ -92,7 +92,13 @@ Enlarging the image below and looking at the right side of the Nvidia K80 card, 
 
 The second challenge arises looking at that same image but on the opposite side of the tower case. Considering the length of the cable that I have ordered within the next material batch, it is quick to determine that it is not long enough to reach the diametrical opposite side of the tower case.
 
-In fact, the cable ordered is 60cm long while to reach the ending point on the rear right bottom corner, it needs about 100cm. About the power cable, the availability or the price have not been the major driver of this choice, but noticing that with 60cm it can reach the grid below the Fujitsu original PSU.
+|x|>
+<img class="wbsketch" src="img/power-cable-turning-to-the-back-preview.jpg" width="400">
++
+<sup>right click menu to enlarge (x4) the image</sup>
+<|x|
+
+In fact, the cable ordered is 60 cm long while to reach the ending point on the rear right bottom corner, it needs about 100cm. About the power cable, the availability or the price have not been the major driver of this choice, but noticing that with 60 cm it can (**barely**) reach the grid below the Fujitsu original PSU.
 
 Despite the relatively simplicity of the P910 model and the Fujitsu maniacal attitude to lock the cables in position, within the case, there are many cables. For sure there are more cables than available locking-grips or tieing points, especially for a relatively big cable like a power one.
 
@@ -178,24 +184,19 @@ I decided to go with the 4-pin/8-pin CPU configuration because such adapter is e
 From the left to the right and proceeding clockwise, this is the list of the highlighted points/area:
 
 - the strip link between the original PSU the dual-PSU manager board;
-
 - the dual-PSU manager board fixed to the case over the original PSU;
-
 - the velcro strip fixing the unused 2nd PSU cables and the tower case;
-
 - the SATA powering cable offering a free plug for one of 2.5" bays;
-
 - the CPU 8-pin connected to the Nvidia Tesla K80, free cable yet.
 
 From the above, the arrows indicate the following point of interest:
 
 - the on/off switch for the 2nd PSU power-on signal on the board;
-
 - the velcro strip grouping the unused 2nd PSU cables among them.
 
 Obviously, the dual-PSU manager board is isolated by the case external metallic shield by an insulating polyurethane foam plate which is fixed to the board with 4 tie wraps. The dual-PSU board is locked to the case with two bamboo sticks which are struck into the board holes and are pressing it against the PSU side by pressing on the case internal border. This mechanism allows the board to move horizontally and potentially quitting from this lock when moving on the right. A tie wrap prevents the slippage by fixing it by hooking the PSU.
 
-----
+~~~~
 
 ### Fans kit and USB elbow
 
