@@ -228,9 +228,37 @@ The main problem with the dual-fan cooling-kit is quite clear looking at this ph
 
 Adopting a widely used solution for cooling a GPU card is not viable with the Esprimo P910 E85+ because its motherboard has a 4x PCI-express 2.0 slot where we would like to have the 16x, instead. Or, seen from another PoV, because its tower case's metal frame - designed for hosting data storage units - is mainly made of solid plates, cannot be removed and neither its internal divisions.
 
-+++
+----
 
-## Tools list
+### Going with the wind
+
+At this point, it is time to give a try to the Tesla K80 and the only viable way is to split the main 12cm fan between it and the CPU, at its maximum speed always running. Which is a clearly suboptimal condition but at least the most safe among those available. Then, after a few preliminary tests and configuration, it will be possible to find a more acceptable setting.
+
+|x|>
+<img class="wbsketch" src="img/main-fan-splitter-between-k80-and-cpu.jpg" width="800">
++
+<sup>right click menu to enlarge (x2) the image</sup>
+<|x|
+
+The rationale behind this choice is quite simple. Some people managed to keep the K80 heat dissipation under control with two 40x40x25 mm fans. The largest setting is two 60x60x25 mm because 12 cm is the maximum size that could reasonably fit in a standard tower case. Without more detailed information we can consider that the maximum airflow that a fan can blow is directly proportional to its volume. Therefore:
+
+- `2 x 40 x 40 x 25 =  &nbsp;80.000`
+
+- `2 x 60 x 60 x 25 = 180.000`
+
+- `120 x 120 x 25/2 = 180.000`
+
+The proposed solution is theoretically equivalent to the largest cooling 3D-printed blower fans setting. In my case the airflow is not blown into the K80 channel between its plastic cover and the radiators but in the PCI slot adiacent which has been opened at the end and its radiators are exposed to the flow.
+
+The advantage of this hardware configuration is its simplicity while the drawback is about the noise which is expected very loudly also because of the diaphragm vibration, especially when the main 12cm fan will blow at its maximum speed and thus moving its largest amount of air.
+
+Moreover, there are good reasons to believe that this solution is under performat compared to its maths because larger is the channel, slower is the airflow plus there are many ways in which the fresh air can escape without hitting the radiators while the hot air will be trapped into the K80 radiators fins because its natural tendency to raise but the K80 is up-side-down when the tower stands on its feet.
+
+These considerations suggest that it is important to be prudent and search for a compensation and an alternative solution, possibly more performant or with a larger blowing power.
+
+----
+
+### Tools list
 
 Here below is a list of almost all tools I have used, some reported in full specs and prices because they have been as **useful** as nearly indispensable. Right click menu to enlarge (2x) the image below.
 

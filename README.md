@@ -32,7 +32,6 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 * [ChatGPT Answered Prompts](https://robang74.github.io/chatgpt-answered-prompts) source on [github](https://github.com/robang74/chatgpt-answered-prompts) &nbsp; (2024-09-06)
 
-+++++
 <span id="pages-index"></span>
 ## Index
 
@@ -144,8 +143,6 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 * [qwenlm.ai](https://chat.qwenlm.ai) - powerful multi-modal chatbot
 
-++++
-
 #### Local AIs
 
 * [gpt4all](https://www.nomic.ai/gpt4all) - Nous Hermes 2-DPO Mistral-7B &thinsp;([**`WRN!`**](neutrality-vs-biases-for-chatbots.md#?target=_blank))
@@ -250,7 +247,7 @@ One of main goals of `git` and the github web interface is to provide a versioni
 
 As you can see, each commit is carry-on a time stamp also. The green label indicates that also the timestamp is validate by the github infrastructure system which belongs to Microsoft Corporation. In fact, github cannot validate those timestamps that are coming from 3rd party systems like the users workstations but just the receiving time, date and content. However, for most of the cases this is irrelevant.
 
-++++++
++
 
 ## Translations
 
