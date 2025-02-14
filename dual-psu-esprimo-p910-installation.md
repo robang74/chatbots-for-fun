@@ -231,7 +231,7 @@ Adopting a widely used solution for cooling a GPU card is not viable with the Es
 
 ## Tools list
 
-Here below is a list of almost all tools I have used, some reported in full specs and prices because they have been as **useful** as nearly indispensable.
+Here below is a list of almost all tools I have used, some reported in full specs and prices because they have been as **useful** as nearly indispensable. Right click menu to enlarge (2x) the image below.
 
 |x|>
 <img class="bwsketch darkinv" src="img/cheap-but-useful-tools.jpg" width="400">
