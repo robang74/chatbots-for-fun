@@ -178,14 +178,19 @@ I decided to go with the 4-pin/8-pin CPU configuration because such adapter is e
 From the left to the right and proceeding clockwise, this is the list of the highlighted points/area:
 
 - the strip link between the original PSU the dual-PSU manager board;
+
 - the dual-PSU manager board fixed to the case over the original PSU;
+
 - the velcro strip fixing the unused 2nd PSU cables and the tower case;
+
 - the SATA powering cable offering a free plug for one of 2.5" bays;
+
 - the CPU 8-pin connected to the Nvidia Tesla K80, free cable yet.
 
 From the above, the arrows indicate the following point of interest:
 
 - the on/off switch for the 2nd PSU power-on signal on the board;
+
 - the velcro strip grouping the unused 2nd PSU cables among them.
 
 Obviously, the dual-PSU manager board is isolated by the case external metallic shield by an insulating polyurethane foam plate which is fixed to the board with 4 tie wraps. The dual-PSU board is locked to the case with two bamboo sticks which are struck into the board holes and are pressing it against the PSU side by pressing on the case internal border. This mechanism allows the board to move horizontally and potentially quitting from this lock when moving on the right. A tie wrap prevents the slippage by fixing it by hooking the PSU.
@@ -202,28 +207,34 @@ The cooling kit is made by assembling two 4-pin PWM 12 cm fans into a PCI slot s
 <sup>right click menu to enlarge (x3) the image</sup>
 <|x|
 
-In the left part of the image, we can see the 90° angled USB 3.0 adapter which prevents the cable from rising more than 15 mm above the motherboard level and thus prevents the GPU card from fitting into the PCI-express slot. Nearby the USB 9-pin socket, there is the 4-pin socket for the original 12 cm fan. Which is labeled as FAN2 on the motherboard.
+In the left part of the image, we can see the 90° angled USB 3.0 adapter which prevents the cable from rising more than 15 mm above the motherboard level and thus prevents the GPU card from fitting into the PCI-express slot. Nearby the USB 9-pin socket, there is the 4-pin socket for the original 12 cm fan. Which is labeled as FAN2 on the motherboard. This suggests that somewhere else there is another 4-pin socket dedicated for the CPU fan. In fact, we can find it near the CPU, while the 3-pin INTA is for intrusion detection.
 
-This suggests to us that somewhere else there is another 4-pin socket dedicated for the CPU fan. In fact, we can find it near the CPU with a 3-pin socket which suggests that we might have mounted on the frame just one single 12 cm fan with a 3-pin cable. This would have saved us to buy the hub fan manager and to add €6.34 (+3.4%) on the BoM mandatory parts list.
+Moreover, looking at the picture on the right side of the image above, it is not immediately clear if below the black plastic cover there is a little fan or instead the 4-pin cable is just providing the thermal sensor data to the 4-pin motherboard wiring. The BIOS indicates that the FAN1 is OK, as well as the FAN2. While the FAN3 connectors have no pins, hence it is unavailable unless a soldering modding.
 
 [!INFO]
 
-At this point the project progression, 28 days after purchasing the Tesla K80 and several batches of material received, the slight suspicion arises that perhaps it was better to deeper investigate the hardware specifications in details rather than buy intriguing stuff online at a bargain price and then try to make it work together...
-
-...but **we can't beat having fun!**
+At this point in the project progression, 28 days after purchasing the Tesla K80 and several batches of material received, the slight suspicion arises that perhaps it was better to deeper investigate the hardware specifications in detail rather than buy intriguing stuff online at a bargain price and then try to make it work together but... we can't beat having fun!
 
 [/INFO]
 
-Moreover, looking at the picture on the right side of the image above, it is not immediately clear if below the black plastic cover there is a little fan or instead the 4-pin cable is just providing the thermal sensor data to the 4-pin motherboard wiring. The BIOS indicates that the FAN1 is OK, as well as the FAN2.
+The main problem with the dual-fan cooling-kit is quite clear looking at this photo. It cannot be placed in the 4th slot, it fits well in the 3rd but the K80 takes 2 slots and unfortunately cannot be installed into the 1st slot.
 
----
+|x|>
+<img class="wbsketch" src="img/fans-kit-installation-example.jpg" width="400">
++
+<sup>right click menu to enlarge (x3) the image</sup>
+<|x|
 
-### Tools list
+Adopting a widely used solution for cooling a GPU card is not viable with the Esprimo P910 E85+ because its motherboard has a 4x PCI-express 2.0 slot where we would like to have the 16x, instead. Or, seen from another PoV, because its tower case's metal frame - designed for hosting data storage units - is mainly made of solid plates, cannot be removed and neither its internal divisions.
+
++++
+
+## Tools list
 
 Here below is a list of almost all tools I have used, some reported in full specs and prices because they have been as **useful** as nearly indispensable.
 
 |x|>
-<img class="bwsketch darkinv" src="img/cheap-but-useful-tools.jpg" width="800">
+<img class="bwsketch darkinv" src="img/cheap-but-useful-tools.jpg" width="400">
 <|x|
 
 - Mini Cleaning Soft Brush, Crevice and Keyboard Cleaner - paid price  €0.37 on temu.com
@@ -231,7 +242,7 @@ Here below is a list of almost all tools I have used, some reported in full spec
 - 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm - paid price €0.88 on temu.com
 - Scissors, cutter knife, pliers, hot-glue pistol, electrician cutting cutters, etc.
 
-When a K80 card is bought on the used or refurbished market, a good idea is to clean their metallic radiators enclosed into the plastic case. To remove the plastic case it is required to unscrew the 8 torx, size #6 in my case. The soft brush listed above is hardly replaceable in its functionality by anything else to remove stratified dust and dust balls.
+When a K80 card is bought on the used or refurbished market, a good idea is to clean their metallic radiators enclosed into the plastic case. To remove the plastic case it is required to unscrew the 8 torx, size #6 in my case. The soft brush listed above is greatly helpful in removing the stratified dust and dust balls.
 
 [!INFO]
 
@@ -253,14 +264,12 @@ Few interesting video about power supply 1U units and quiet fan
 - [TF600 550W](https://youtu.be/kABIUwzTaBw) - Skywindint TF600 flex ATX PSU from AliExpress
 - [Quiet fan](https://youtu.be/dH-_UA8sVwg) - Noisy flex ATX PSU fix (if you dare to...)
 
-Nvidia Tesla K80 cooling adapters & adaptable fans system
+Nvidia Tesla K80 cooling adapters & adaptable cooling systems, interesting but unsuitable for the P910.
 
 - [Ventola di scarico per camper, 25W 12V](img/ventola-per-camper-tesla-k80.png?target=_blank) on [Amazon Italia](https://www.amazon.it/Ventilatore-Laterale-Scarico-Ventilazione-Rimorchio/dp/B0C86HGQRQ/)
 - [Nvidia Tesla K80 duct for Dell Optiplex blower](https://www.thingiverse.com/thing:6038375) on ThingiVerse with 32 likes
 - [Nvidia Tesla K80 duct for 7530 12V bearing blower](https://www.thingiverse.com/thing:3689165) on ThingiVerse with 25 likes
 - [A 90° fan shroud for the Nvidia Tesla K80 GPU](https://www.thingiverse.com/thing:4602916) on ThingiVerse with 9 likes
-
-Despite these solutions being interesting or noticeable, none of them can fit into the P910 tower case, IMHO.
 
 +
 
