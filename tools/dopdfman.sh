@@ -49,3 +49,6 @@ done
 echo "pdfunite in man/$manfn.pdf ..."
 pdfunite $list man/$manfn.pdf 2>&1 | uniq
 pdfshrink man/$manfn.pdf
+exiftool -Title="Esprimo P910 with Tesla K80 Installation Manual" man/$manfn.pdf
+rm -f man/$manfn.pdf_original; echo; du -k man/$manfn.pdf; echo
+
