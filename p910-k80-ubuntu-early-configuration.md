@@ -73,7 +73,7 @@ In order to avoid to waste our time switching between our laptop/PC and the GPU 
 
 - `Settings --> System --> Remote Desktop --> Desktop Sharing --> Remote Control --> ON`
 
-we can activate the remote control and for a smoother experience disabling the screen lock:
+- `Settings --> System --> Users --> Unlock --> Automatic Login --> OFF`
 
 - `Settings --> Privacy & Security --> Blank Screen Delay --> NEVER`
 
