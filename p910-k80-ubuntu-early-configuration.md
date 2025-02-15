@@ -75,9 +75,11 @@ In order to avoid to waste our time switching between our laptop/PC and the GPU 
 
 - `Settings --> System --> Users --> Unlock --> Automatic Login --> OFF`
 
+- `Settings --> System --> Secure Shell --> ON`
+
 - `Settings --> Privacy & Security --> Blank Screen Delay --> NEVER`
 
-in order to be always able to access the remote desktop, as a quick & easy way to configure the system.
+these settings will allow us to access the GPU server with Remmina and any SSH client.
 
 Please, note that this is NOT the proper way to go with a system in "production" but a setup shortcut.
 
