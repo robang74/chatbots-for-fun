@@ -67,7 +67,7 @@ Are these cheap boards working?
 
 <div align="center"><img class="" src="img/check-the-dual-psu-is-working.jpg" width="400"><br></div>
 
-For me, it works and the reason I trust about it beforehand is about "Simplicity" (cfr. Edward De Bono).
+For me, it works and the reason I trust it beforehand is about "Simplicity" (cfr. Edward De Bono).
 
 To be cheap these boards should necessarily be simple. Simple to design, simple to test, simple to produce, etc. - for this reason the POWER-ON signal that in a sophisticated framework would end-up into a daisy-chain circuit, between two PSUs, it is a parallel: sharing a signal.
 ---
@@ -140,7 +140,7 @@ This image shows two renderings about how the final Tesla K80 installation would
 
 ### Bricolage for the fan
 
-In order to replace the cooling fan, I decided to use four skewer woodsticks to find the suitable holes to use to fix the fan.
+In order to replace the cooling fan, I decided to use four skewer wood sticks to find the suitable holes to use to fix the fan.
 
 <div align="center" id="cooling-rendering"><img class="wbsketch inksave" src="img/esprimo-p910-fan-new-position-p1.jpg"><br></div>
 
@@ -217,3 +217,4 @@ at the opposite, in the last link there is the opposite: how to increase the vol
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
+

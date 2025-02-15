@@ -122,7 +122,7 @@ This will cost you a PCI-express x4 mechanically x16, and the day someone will p
 
 For those who have a professional practice of 220V electric cabling, and the related authorisations and certifications to operate on that lines, the most customised solution is about wiring a C14F, usually protected by a 10A-220V fuse and at cheap price €1.39 also including a on/off led-lighted button. This might be done without even modding the grid but leveraging its reasonably large hexagonal pattern to pass through the cables to wire and fixing the plug externally to the grid.
 
-In this scenario, a knot before the grid and another one after will fix the cable to the grid in a way it will not be able to be pulled by one side or another. Obviously, having the care to add an extra protection to the cable insulating sleeve towards damages by accidental pulls or frictions against the metall grid. Some heating shrinking guaina can provide a reasonable isolation in the wiring plug/switch pins while an electric plastic box will protect everything and hide the fixing bolts.
+In this scenario, a knot before the grid and another one after will fix the cable to the grid in a way it will not be able to be pulled by one side or another. Obviously, having the care to add an extra protection to the cable insulating sleeve towards damages by accidental pulls or frictions against the metall grid. Some heat shrink tubing can provide a reasonable isolation in the wiring plug/switch pins while an electric plastic box will protect everything and hide the fixing bolts.
 
 In Italy, respecting CEI-UNI normatives and standards, a light point made by a professional electrician is priced between €25 and €40 each plus the cost of the electric material, on average. From many light points to few the average unitary price increases. So, we can reasonably assume that such a mod will cost around 50 bucks. As much as bucks, I have paid the whole P910 with 16GB but without any data storage and expedition apart.
 
@@ -173,7 +173,7 @@ Booting with a TinyCore w/Linux 5.15.10 on a Netac US9 USB 3.2, R/W at 40 MB/s o
 
 ### Second PSU cabling
 
-I decided to go with the 4-pin/8-pin CPU configuration because such adapter is easier to find and cheaper to buy compared with the 2-molexes adapter.
+I decided to go with the 4-pin/8-pin CPU configuration because such an adapter is easier to find and cheaper to buy compared with the 2-molexes adapter.
 
 |x|>
 <img class="wbsketch" src="img/p910-dual-psu-cabling.jpg" width="800">
@@ -250,7 +250,7 @@ The rationale behind this choice is quite simple. Some people managed to keep th
 
 - `120 x 120 x 25/2 x RPM = 180.000 mm³ x RPM = 3.000 mm³ ¼π rot/s`
 
-The proposed solution is theoretically equivalent to the largest cooling 3D-printed blower fans setting. In my case the airflow is not blown into the K80 channel between its plastic cover and the radiators but in the PCI slot adiacent which has been opened at the end and its radiators are exposed to the flow.
+The proposed solution is theoretically equivalent to the largest cooling 3D-printed blower fans setting. In my case the airflow is not blown into the K80 channel between its plastic cover and the radiators but in the adjacent PCI slot which has been opened at the end and its radiators are exposed to the flow.
 
 The advantage of this hardware configuration is its simplicity while the drawback is about the noise which is expected very loudly also because of the diaphragm vibration, especially when the main 12cm fan will blow at its maximum speed and thus moving its largest amount of air.
 
@@ -270,12 +270,12 @@ Here below is a list of almost all tools I have used, some reported in full spec
 <img class="bwsketch darkinv" src="img/cheap-but-useful-tools.jpg" width="400">
 <|x|
 
-- Mini Cleaning Soft Brush, Crevice and Keyboard Cleaner - paid price  €0.37 on temu.com
-- Set di 115 Cacciaviti di Precisione, Kit Multifunzione - paid price  €7.99 amazon.it
+- Mini Cleaning Soft Brush, Crevice and Keyboard Cleaner - paid price  €0.37 on temu.com
+- Set di 115 Cacciaviti di Precisione, Kit Multifunzione - paid price  €7.99 amazon.it
 - 15cm Carbon Fiber Dial Vernier Caliper Gauge Microm - paid price €0.88 on temu.com
 - Scissors, cutter knife, pliers, hot-glue pistol, electrician cutting cutters, etc.
 
-When a K80 card is bought on the used or refurbished market, a good idea is to clean their metallic radiators enclosed into the plastic case. To remove the plastic case it is required to unscrew the 8 torx, size #6 in my case. The soft brush listed above is greatly helpful in removing the stratified dust and dust balls.
+When a K80 card is bought on the used or refurbished market, a good idea is to clean their metallic radiators enclosed into the plastic case. To remove the plastic case it is required to unscrew the 8 Torx, size #6 in my case. The soft brush listed above is greatly helpful in removing the stratified dust and dust balls.
 
 [!INFO]
 
@@ -287,7 +287,7 @@ As you can imagine, cleaning the thermal radiators is an operation which is quit
 
 ## External sources
 
-Power limiting a GPU using the Linux systemd and Nvidia smi
+Power limiting a GPU using the Linux `systemd` and `nvidia-smi`
 
 - [Quad RTX3090 power limiting](https://www.pugetsystems.com/labs/hpc/Quad-RTX3090-GPU-Power-Limiting-with-Systemd-and-Nvidia-smi-1983)
 
@@ -311,3 +311,4 @@ Nvidia Tesla K80 cooling adapters & adaptable cooling systems, interesting but u
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
+

@@ -9,7 +9,7 @@
 
 ---
 
-At this moment I am working on installing a Nvidia Tesla K80 acceleration card (2x GPU with 24GB of DDRAM5) on a Fujitsu Esprimo P910 E85+ with 16GB DDRAM3 and Intel I5 quad-core CPU. A quite old configuration, but enough powerful to locally run a decent size AI model with hopefully at a decent speed.
+At this moment I am working on installing a Nvidia Tesla K80 acceleration card (2x GPU with 24GB of DDRAM5) on a Fujitsu Esprimo P910 E85+ with 16GB DDR3 and Intel I5 quad-core CPU. A quite old configuration, but enough powerful to locally run a decent size AI model with hopefully at a decent speed.
 
 Unfortunately the K80 has not been designed for PC/Desktop use and therefore it lacks many "features" that make it immediately suitable for an installation within a desktop case in a proper manner. The most problematic issues are:
 
@@ -100,3 +100,4 @@ This article continue here:
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
+

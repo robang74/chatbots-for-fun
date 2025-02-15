@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-02-11&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>3</b rev_num='
+'>4</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-ubuntu-early-configuration?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-ubuntu-early-configuration?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-ubuntu-early-configuration?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-ubuntu-early-configuration?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -26,7 +26,7 @@
 <p></p>
 <H2 id="ubuntu-early-configuration-for-p910-wk80">Ubuntu early configuration for P910 w/K80</H2>
 <p></p>
-This article is related to the set up the connections with/in the Fujitsu Esprimo P910 E85+, early Ubuntu 24.04.1 LTS configuration and do tests in preparation of installing the Nvidia Tesla K80 accelerator board. This article has been <a href="https://github.com/robang74/chatbots-for-fun/commit/5683e51d567316ff5697d33ae8a73984ad9cd2ca#diff-4a04ab3a2a8e7cac526767d6944357316edfd4dd0efbec75f21edf5db893325dR247" target='_blank' rel='noopener noreferrer'>created</a> starting from the <a href="https://github.com/robang74/chatbots-for-fun/blob/1f13c17ca981785e56c576fe9308a93a22841bf4/dual-psu-esprimo-p910-installation.md#about-the-connections-within-p910collecting-here-to-move-on-the-next-article" target='_blank' rel='noopener noreferrer'>notes</a> taken at the end of the article about dual PSU installation, in the final version of the manual which is going to collect all the contribution, this article will be incorporated at the following chapter after the P910's BIOS upgrade and hardware diagnostic tests.
+This article is related to the setup of the connections with/in the Fujitsu Esprimo P910 E85+, early Ubuntu 24.04.1 LTS configuration and to do some tests in preparation of installing the Nvidia Tesla K80 accelerator board. This article has been <a href="https://github.com/robang74/chatbots-for-fun/commit/5683e51d567316ff5697d33ae8a73984ad9cd2ca#diff-4a04ab3a2a8e7cac526767d6944357316edfd4dd0efbec75f21edf5db893325dR247" target='_blank' rel='noopener noreferrer'>created</a> starting from the <a href="https://github.com/robang74/chatbots-for-fun/blob/1f13c17ca981785e56c576fe9308a93a22841bf4/dual-psu-esprimo-p910-installation.md#about-the-connections-within-p910collecting-here-to-move-on-the-next-article" target='_blank' rel='noopener noreferrer'>notes</a> taken at the end of the article about dual PSU installation, in the final version of the manual which is going to collect all the contribution, this article will be incorporated at the following chapter after the P910's BIOS upgrade and hardware diagnostic tests.
 <p></p>
 <hr>
 <p></p>
@@ -52,7 +52,7 @@ On the other hand, connecting the GPU server in a cabled network requires a prox
 <p></p>
 Providing the GPU server with an independent connection to the Internet, which can physically disable removing the USB dongle, allows us to downsize the RJ45 cabled network to a single link point-to-point with our workstation without configuring it as Internet proxy as well.
 <p></p>
-Please note that within the <b>RTL8188</b> family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi network is working only at 5GHz, instead. Moreover, it will result relatively slow to leverage a full-fledged optic fiber Internet connection.
+Please note that within the <b>RTL8188</b>’s family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi network is working only at 5GHz, instead. Moreover, it will result relatively slow to leverage a full-fledged optic fiber Internet connection.
 <p></p>
 <hr>
 <p></p>
@@ -85,7 +85,7 @@ roberto&commat;x390:~$ dd if=/dev/zero bs=1500 count=16K | nc -N 10.10.10.2 1111
 24576000 bytes (25 MB, 23 MiB) copied, 2.01924 s, 12.2 MB/s
 </code></blockquote>
 <p></p>
-Which suggests that a cheap 100 MB/s USB-Ethernet (fast Ethernet) is enough, and it makes us wonder how to leverage one of the 5 Gbits/s USB3 rear port for connecting the GPUserver to our workstation as it were a USB storage device to quickly transfer huge chunk of data.
+Which suggests that a cheap 100 MB/s USB-Ethernet (fast Ethernet) is enough, and it makes us wonder how to leverage one of the 5 Gbits/s USB3 rear port for connecting the GPU server to our workstation as it were a USB storage device to quickly transfer huge chunk of data.
 <p></p>
 <div class="pagebreak"><hr></div>
 <p></p>
@@ -149,7 +149,7 @@ At 75°C the main 12 cm fan starts to be loud, working at almost the full thrott
 <p></p>
 <li><tt>F2 &rarr; BIOS &rarr; Advanced &rarr; Acoustic Management &rarr; Acoustic Management &rarr; 0/1</tt></li>
 <p></p>
-<li><tt>F2 &rarr; BIOS &rarr; Advanced &rarr; System Monitoring &rarr; Fan Control &rarr; auto, enanched, disabled</tt></li>
+<li><tt>F2 &rarr; BIOS &rarr; Advanced &rarr; System Monitoring &rarr; Fan Control &rarr; auto, enhanced, disabled</tt></li>
 <p></p>
 While acoustic management has an impact on "auto" and "enhanced" fan control modes, it has not on "disabled" for which all the fans are running at their full throttle.
 <p></p>
@@ -186,11 +186,11 @@ In the final version of the manual, this part will end up after the BIOS upgrade
 <p></p>
 <H3 id="spinning-the-whirlybird">Spinning the whirlybird</H3>
 <p></p>
-Unsurprisingly, noisier it gets, cooler it ends up. How much? The absolute temperature scale is graded in Kelvin but its zero is too far away. However, neither Celsius nor Fahrenheit are good in providing a relative reference. The main point is the same: setting the zero, but in this case the zero is the environment temperature which is 20°C, our reference zero. 
+Unsurprisingly, noisier it gets, cooler it ends up. How much? The absolute temperature scale is graded in Kelvin but its zero is too far away. However, neither Celsius nor Fahrenheit are good in providing a relative reference. The main point is the same: setting the zero, but in this case the zero is the environment temperature which is 20°C, our reference zero.
 <p></p>
-While 85°C is our "boiling water" point which is a reference temperature for the CPU that has been indicated by the CPU foundry process. For comparison, the GPU incorporated into the Tesla K80 card, has 88°C has alarming temperature trigger. Under this PoV, 43% is 43°R, while the room temperature is 0°R and 100°R is the warning temperature.
+While 85°C is our "boiling water" point which is a reference temperature for the CPU that has been indicated by the CPU foundry process. For comparison, the GPU incorporated into the Tesla K80 card, has an 88°C alarming temperature trigger. Under this PoV, 43% is 43°R, while the room temperature is 0°R and 100°R is the warning temperature.
 <p></p>
-The table presented in the previous section, shows that the original system can potentially be quieter than a quiet room in the night but also annoying like the keyboard beep when a key is kept pressed down, but at lower frequency. Once completed the system software configuration, the GPU card will be installed and tested.
+The table presented in the previous section shows that the original system can potentially be quieter than a quiet room in the night but also annoying like the keyboard beep when a key is kept pressed down, but at lower frequency. Once completed the system software configuration, the GPU card will be installed and tested.
 <p></p>
 <li><a href="../data/p910-full-throttle-fan-noise.m4a">P910's full throttle fan noise</a> six seconds of recording.</li>
 <p></p>
@@ -215,6 +215,7 @@ With the gnome tweaks we can change the font and icon sizes, plus reducing the z
 <p>&copy; 2025, <b>Roberto A. Foglietta</b> &lt;roberto.foglietta<span>&commat;</span>gmail.com&gt;, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target='_blank' rel='noopener noreferrer'>CC BY-NC-ND 4.0</a></p>
 <p></p>
 </div>
+<p></p>
 <div id='date-legenda' align='center' translate='no'><sub><hr></sub><sub><b>date legenda</b>: &#x2776; first draft publishing date or &#x2777; creation date in git, otherwise &#x2778; html creation page date. <u>&mapstoup;<a href='#' class='toplink' translate='no'>top</a>&mapstoup;</u></sub></div>
 <br>
     </body>

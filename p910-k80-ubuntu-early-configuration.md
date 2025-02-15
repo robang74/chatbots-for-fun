@@ -5,7 +5,7 @@
 
 ## Ubuntu early configuration for P910 w/K80
 
-This article is related to the set up the connections with/in the Fujitsu Esprimo P910 E85+, early Ubuntu 24.04.1 LTS configuration and do tests in preparation of installing the Nvidia Tesla K80 accelerator board. This article has been [created](https://github.com/robang74/chatbots-for-fun/commit/5683e51d567316ff5697d33ae8a73984ad9cd2ca#diff-4a04ab3a2a8e7cac526767d6944357316edfd4dd0efbec75f21edf5db893325dR247) starting from the [notes](https://github.com/robang74/chatbots-for-fun/blob/1f13c17ca981785e56c576fe9308a93a22841bf4/dual-psu-esprimo-p910-installation.md#about-the-connections-within-p910collecting-here-to-move-on-the-next-article) taken at the end of the article about dual PSU installation, in the final version of the manual which is going to collect all the contribution, this article will be incorporated at the following chapter after the P910's BIOS upgrade and hardware diagnostic tests.
+This article is related to the setup of the connections with/in the Fujitsu Esprimo P910 E85+, early Ubuntu 24.04.1 LTS configuration and to do some tests in preparation of installing the Nvidia Tesla K80 accelerator board. This article has been [created](https://github.com/robang74/chatbots-for-fun/commit/5683e51d567316ff5697d33ae8a73984ad9cd2ca#diff-4a04ab3a2a8e7cac526767d6944357316edfd4dd0efbec75f21edf5db893325dR247) starting from the [notes](https://github.com/robang74/chatbots-for-fun/blob/1f13c17ca981785e56c576fe9308a93a22841bf4/dual-psu-esprimo-p910-installation.md#about-the-connections-within-p910collecting-here-to-move-on-the-next-article) taken at the end of the article about dual PSU installation, in the final version of the manual which is going to collect all the contribution, this article will be incorporated at the following chapter after the P910's BIOS upgrade and hardware diagnostic tests.
 
 ---
 
@@ -31,7 +31,7 @@ On the other hand, connecting the GPU server in a cabled network requires a prox
 
 Providing the GPU server with an independent connection to the Internet, which can physically disable removing the USB dongle, allows us to downsize the RJ45 cabled network to a single link point-to-point with our workstation without configuring it as Internet proxy as well.
 
-Please note that within the **RTL8188** family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi network is working only at 5GHz, instead. Moreover, it will result relatively slow to leverage a full-fledged optic fiber Internet connection.
+Please note that within the **RTL8188**’s family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi network is working only at 5GHz, instead. Moreover, it will result relatively slow to leverage a full-fledged optic fiber Internet connection.
 
 ---
 
@@ -63,7 +63,7 @@ roberto@x390:~$ dd if=/dev/zero bs=1500 count=16K | nc -N 10.10.10.2 1111<br>
 24576000 bytes (25 MB, 23 MiB) copied, 2.01924 s, 12.2 MB/s
 [/CODE]
 
-Which suggests that a cheap 100 MB/s USB-Ethernet (fast Ethernet) is enough, and it makes us wonder how to leverage one of the 5 Gbits/s USB3 rear port for connecting the GPUserver to our workstation as it were a USB storage device to quickly transfer huge chunk of data.
+Which suggests that a cheap 100 MB/s USB-Ethernet (fast Ethernet) is enough, and it makes us wonder how to leverage one of the 5 Gbits/s USB3 rear port for connecting the GPU server to our workstation as it were a USB storage device to quickly transfer huge chunk of data.
 
 ----
 
@@ -127,7 +127,7 @@ At 75°C the main 12 cm fan starts to be loud, working at almost the full thrott
 
 - `F2 --> BIOS --> Advanced --> Acoustic Management --> Acoustic Management --> 0/1`
 
-- `F2 --> BIOS --> Advanced --> System Monitoring --> Fan Control --> auto, enanched, disabled`
+- `F2 --> BIOS --> Advanced --> System Monitoring --> Fan Control --> auto, enhanced, disabled`
 
 While acoustic management has an impact on "auto" and "enhanced" fan control modes, it has not on "disabled" for which all the fans are running at their full throttle.
 
@@ -147,7 +147,7 @@ Using this [script](https://raw.githubusercontent.com/robang74/chatbots-for-fun/
 
 | Acoustic Management | Fan Control | Noise (RdB) | Noise (R%) | Start   | Highest | Ending  | T-Gap |
 |---------------------|-------------|-------------|------------|---------|---------|---------|-------|
-| enabled             | auto        | 32          | 1.00       | 49-61°C | 67-74°C | 51-57°C | 83%   | 
+| enabled             | auto        | 32          | 1.00       | 49-61°C | 67-74°C | 51-57°C | 83%   |
 | enabled             | enhanced    | 40          | 1.25       | 42-48°C | 60-63°C | 42-45°C | 66%   |
 | irrelevant          | disabled    | 64          | 2.00       | 32-34°C | 46-48°C | 28-38°C | 43%   |
 
@@ -163,11 +163,11 @@ In the final version of the manual, this part will end up after the BIOS upgrade
 
 ### Spinning the whirlybird
 
-Unsurprisingly, noisier it gets, cooler it ends up. How much? The absolute temperature scale is graded in Kelvin but its zero is too far away. However, neither Celsius nor Fahrenheit are good in providing a relative reference. The main point is the same: setting the zero, but in this case the zero is the environment temperature which is 20°C, our reference zero. 
+Unsurprisingly, noisier it gets, cooler it ends up. How much? The absolute temperature scale is graded in Kelvin but its zero is too far away. However, neither Celsius nor Fahrenheit are good in providing a relative reference. The main point is the same: setting the zero, but in this case the zero is the environment temperature which is 20°C, our reference zero.
 
-While 85°C is our "boiling water" point which is a reference temperature for the CPU that has been indicated by the CPU foundry process. For comparison, the GPU incorporated into the Tesla K80 card, has 88°C has alarming temperature trigger. Under this PoV, 43% is 43°R, while the room temperature is 0°R and 100°R is the warning temperature.
+While 85°C is our "boiling water" point which is a reference temperature for the CPU that has been indicated by the CPU foundry process. For comparison, the GPU incorporated into the Tesla K80 card, has an 88°C alarming temperature trigger. Under this PoV, 43% is 43°R, while the room temperature is 0°R and 100°R is the warning temperature.
 
-The table presented in the previous section, shows that the original system can potentially be quieter than a quiet room in the night but also annoying like the keyboard beep when a key is kept pressed down, but at lower frequency. Once completed the system software configuration, the GPU card will be installed and tested.
+The table presented in the previous section shows that the original system can potentially be quieter than a quiet room in the night but also annoying like the keyboard beep when a key is kept pressed down, but at lower frequency. Once completed the system software configuration, the GPU card will be installed and tested.
 
 - [P910's full throttle fan noise](../data/p910-full-throttle-fan-noise.m4a) six seconds of recording.
 
@@ -192,3 +192,4 @@ With the gnome tweaks we can change the font and icon sizes, plus reducing the z
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
+
