@@ -1,5 +1,5 @@
 <div id="firstdiv" created="2025-01-24:EN:+2" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
-<style>#printlink { display: inline; } @page { size: letter; margin: 0.36in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 <div align="center"><img class="bwsketch" src="img/k80-installed-in-wrong-slot.jpg" width="800"><br></div>
 
@@ -21,7 +21,7 @@ Unfortunately the K80 has not been designed for PC/Desktop use and therefore it 
 
 The first one, is a specific problem in trying to use the K80 installed in a PC/Desktop instead of a server designed to specifically host this kind of cards. Another alternative is using an external rack similar to those used for crypto-mining but smaller.
 
-----
+---
 
 ### Fitting into the case
 
@@ -45,7 +45,7 @@ I am not the first one that took in consideration this option to provide power t
 
 People who are using Apple desktop might face the same problem and in fact the first example of this approach that I found, was made by an Apple customer who decided to take his own personal way for video editing with AI support. Trying to mix the best available without asking for a loan.
 
-----
+---
 
 ### The challenge level
 
@@ -73,7 +73,7 @@ In the second case an adaptor for the ATX 24-pin connector to convey the PSU-ON 
 
 Do you have any better ideas? Has anyone faced and solved this challenge before?
 
-~~~~
+---
 
 ### Looking forward
 
