@@ -5,7 +5,7 @@
 
 |x|>
 
-# Installing Nvidia Tesla K80 <br>into a Fujitsu Esprimo P910<br>with U1 rack size dual-PSU
+# Installing Nvidia Tesla K80 <br>into a Fujitsu Esprimo P910<br>with a U1 flex ATX 2nd PSU
 
 ===
 
