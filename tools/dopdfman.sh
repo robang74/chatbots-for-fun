@@ -33,6 +33,7 @@ dual-psu-esprimo-p910-installation
 
 echo
 list=""
+rm -f man/man.md
 for i in $files; do
     if [ "x$1" == "x-m" ]; then
         m $i.md | grep --color=never .
@@ -45,6 +46,7 @@ for i in $files; do
         echo
     fi
     list="$list pdf/$i.pdf"
+    cat $i.md >> man/man.md
 done
 echo "pdfunite in man/$manfn.pdf ..."
 pdfunite $list man/$manfn.pdf 2>&1 | uniq
