@@ -228,7 +228,9 @@ The main problem with the dual-fan cooling-kit is quite clear looking at this ph
 
 Adopting a widely used solution for cooling a GPU card is not viable with the Esprimo P910 E85+ because its motherboard has a 4x PCI-express 2.0 slot where we would like to have the 16x, instead. Or, seen from another PoV, because its tower case's metal frame - designed for hosting data storage units - is mainly made of solid plates, cannot be removed and neither its internal divisions.
 
-----
+**Spoiler**: this teaches us that even solely ignoring or overlooking a single key detail like which one of the two PCI-express is providing the 3.0 x16 data-logic despite being mechanically identical, optimistically assuming the best, leads us to consider a completely unviable hardware configuration.
+
+~~~~
 
 ### Going with the wind
 
