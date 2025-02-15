@@ -78,6 +78,8 @@ This manual is your ultimate guide to installing a **Nvidia Tesla K80** — a po
 
 - **Fujitsu P910 E85+ BIOS Update & Diagnostics** - This section explains how to create a bootable USB stick with FreeDOS for updating the BIOS and running diagnostic tools on the Fujitsu Esprimo P910. It includes step-by-step instructions and links to necessary files.
 
+- **Ubuntu Early Configuration for P910 w/K80** - This section covers the initial setup of Ubuntu 24.04.1 LTS on the Esprimo P910, focusing on configuring network connections, remote control, and thermal management in preparation for installing the Tesla K80 accelerator board.
+
 - **Tesla K80 with Esprimo P910** - The author details the process of installing the Tesla K80 into the Fujitsu Esprimo P910, focusing on the challenges of fitting the card into the case, providing enough power, and managing thermal issues.
 
 - **Dual PSU for Fujitsu Esprimo P910** - This section explores the installation of a secondary power supply unit (PSU) to power the Tesla K80. It discusses the technical details of grounding, synchronization, and cabling, as well as the challenges of fitting the PSU into the DVD bay.
