@@ -244,11 +244,11 @@ At this point, it is time to give a try to the Tesla K80 and the only viable way
 
 The rationale behind this choice is quite simple. Some people managed to keep the K80 heat dissipation under control with two 40x40x25 mm fans. The largest setting is two 60x60x25 mm because 12 cm is the maximum size that could reasonably fit in a standard tower case. Without more detailed information we can consider that the maximum airflow that a fan can blow is directly proportional to its volume. Therefore:
 
-- `2 x 40 x 40 x 25 =  &nbsp;80.000`
+- `2 x 40 x 40 x 25 x RPM =  &nbsp;80.000 mm³ x RPM = 1.333 mm³ ¼π rot/s`
 
-- `2 x 60 x 60 x 25 = 180.000`
+- `2 x 60 x 60 x 25 x RPM = 180.000 mm³ x RPM = 3.000 mm³ ¼π rot/s`
 
-- `120 x 120 x 25/2 = 180.000`
+- `120 x 120 x 25/2 x RPM = 180.000 mm³ x RPM = 3.000 mm³ ¼π rot/s`
 
 The proposed solution is theoretically equivalent to the largest cooling 3D-printed blower fans setting. In my case the airflow is not blown into the K80 channel between its plastic cover and the radiators but in the PCI slot adiacent which has been opened at the end and its radiators are exposed to the flow.
 
