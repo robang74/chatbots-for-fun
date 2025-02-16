@@ -94,7 +94,10 @@ apt install lm-sensors fancontrol hardinfo i2c-tools python3-smbus pigz acpi \<b
  &nbsp; &nbsp; kmod cpufrequtils wget read-edid hwinfo htop unzip synaptic gedit acpid \<br>
  &nbsp; &nbsp; acpitool gkrellm gkrellm-cpufreq gkrellm-x86info gkrellmwireless gkrelltop
 
-service kmod start; sensors-detect --auto; sensors; pwmconfig
+modprobe coretemp cpuid<br>
+echo "cpuid" >>/etc/modules<br>
+service kmod start; sensors-detect --auto<br>
+systemctl enable fancontrol; sensors; pwmconfig
 [/CODE]
 
 Moreover, the application [gkrellm](https://gkrellm.srcbox.net/) - even if it is not particularly well integrated in Ubuntu - can help us keep the system under careful supervision. Here [github.com/robang74/gkrellm2-config](https://github.com/robang74/gkrellm2-config#readme) a suggested way to configure and theming it
