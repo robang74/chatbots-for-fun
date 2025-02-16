@@ -87,21 +87,17 @@ Please, note that this is NOT the proper way to go with a system in "production"
 
 ### Thermal control
 
-Let start from the basics, here below some line commands for Ubuntu just for starting with the P910 before even installing the Tesla K80 within:
+Let start from the basics, here below some line commands for Ubuntu just for starting with the P910 before even installing the Tesla K80 within, with `sudo -s` root priviledges:
 
 [!CODE]
-sudo apt install lm-sensors fancontrol read-edid i2c-tools python3-smbus pigz wget
+apt install lm-sensors fancontrol read-edid i2c-tools python3-smbus pigz \<br>
+ &nbsp; &nbsp; gkrellm gkrellm-cpufreq gkrellm-x86info gkrellmwireless gkrelltop \<br>
+ &nbsp; &nbsp; kmod cpufrequtils wget hardinfo hwinfo htop unzip
 
-yes | sudo sensors-detect
-
-sudo service kmod start
-
-sudo sensors
-
-sudo pwmconfig
+service kmod start; yes | sensors-detect; sensors; pwmconfig
 [/CODE]
 
-Moreover, the application [gkrellm](https://gkrellm.srcbox.net/) even if it is not particularly well integrated in Ubuntu can help us keep the system under careful supervision.
+Moreover, the application [gkrellm](https://gkrellm.srcbox.net/) - even if it is not particularly well integrated in Ubuntu - can help us keep the system under careful supervision. Here [github.com/robang74/gkrellm2-config](https://github.com/robang74/gkrellm2-config#readme) a suggested way to configure and theming it
 
 > `Package id 0:  +44.0°C  (high = +85.0°C, crit = +105.0°C)`
 
