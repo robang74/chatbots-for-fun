@@ -141,7 +141,7 @@ Between the case and the smartphone I put a mouse pad, just to absorb those low-
 
 Instead, I took the value on an arbitrary and generic mouse pad with an uncalibrated app because I am interested in the relative metric, not in the absolute. In fact, a quiet room is about 40 dB while the keyboard beep scales at 62 dB. My studio in the night is as quiet as 25 db while the modded P910 with its 12 cm fan at full throttle showed a steady 64 db figure, the double of the most silent BIOS configuration.
 
-Using this [script](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/data/cpu-temp-test.sh) saved in `data`, this table can be completed with some temperature ranges, just to provide a quick and basic reference.
+Using this [script](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/data/cpu-temp-test.sh) saved in `data`, this table can be completed with some temperature ranges, just to provide a quick and basic reference.<span id="fan-noise"></span>
 
 | Acoustic Management | Fan Control | Noise (RdB) | Noise (R%) | Start   | Highest | Ending  | T-Gap |
 |---------------------|-------------|-------------|------------|---------|---------|---------|-------|

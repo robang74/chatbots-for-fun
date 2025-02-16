@@ -19,7 +19,7 @@ However, some stuff has been bought from Amazon Italy or around Europe. Under th
 
 In the meantime, I worked on the "prompt for peer-review with RAG support" engineering in parallel, and soon after the DVI-adapter arrived, which I missed to order with the Esprimo P910, I created a manual for diagnosing the hardware and updating the BIOS.
 
-- [P910 E85+ BIOS update & diagnostics](p910-bios-update-and-diagnostics.md) &nbsp; (2025-02-04)
+- [P910 E85+ BIOS update & diagnostics](p910-bios-update-and-diagnostics.md#?target=_blank) &nbsp; (2025-02-04)
 
 It is specifically tailored for Esprimo P910 E85+ but it can be used as a canvas for every other PC/laptop for which tools running on DOS are available.
 
@@ -252,7 +252,7 @@ The rationale behind this choice is quite simple. Some people managed to keep th
 
 The proposed solution is theoretically equivalent to the largest cooling 3D-printed blower fans setting. In my case the airflow is not blown into the K80 channel between its plastic cover and the radiators but in the adjacent PCI slot which has been opened at the end and its radiators are exposed to the flow.
 
-The advantage of this hardware configuration is its simplicity while the drawback is about the noise which is expected very loudly also because of the diaphragm vibration, especially when the main 12cm fan will blow at its maximum speed and thus moving its largest amount of air.
+The advantage of this hardware configuration is its simplicity while the drawback is about the noise (70db, 2.18, ref. [here](p910-k80-ubuntu-early-configuration.md#fan-noise?target=_blank)) which is expected even louder also because of the diaphragm vibration, especially when the main 12cm fan will blow at its maximum speed and thus moving its largest amount of air. 
 
 Moreover, there are good reasons to believe that this solution is under performat compared to its maths because larger is the channel, slower is the airflow plus there are many ways in which the fresh air can escape without hitting the radiators while the hot air will be trapped into the K80 radiators fins because its natural tendency to raise but the K80 is up-side-down when the tower stands on its feet.
 
