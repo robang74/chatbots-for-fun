@@ -20,7 +20,9 @@ function m() {
     bash tools/md2html.sh $1
 }
 
+url="https://robang74.github.io/chatbots-for-fun/html"
 manfn="p910-k80-installation-manual"
+
 
 files="
 p910-k80-installation-manual-intro
@@ -38,8 +40,11 @@ for i in $files; do
     if [ "x$1" == "x-m" ]; then
         m $i.md | grep --color=never .
     fi
-    #chrprint html/$i.html pdf/$i.pdf
-    #pdfshrink pdf/$i.pdf | grep --color=never .
+    if [ "x$1" == "x-w" ]; then
+        echo "Chromium printing $url/$i.html ..."
+        chrprint $url/$i.html pdf/$i.pdf
+        pdfshrink pdf/$i.pdf | grep --color=never .
+    fi
     if [ "x$1" == "x-m" -o "x$1" == "x-h" ]; then
         bash tools/html2pdf.sh html/$i.html | \
             grep --color=never . | grep -v "pdf folder size"
