@@ -90,11 +90,11 @@ Please, note that this is NOT the proper way to go with a system in "production"
 Let start from the basics, here below some line commands for Ubuntu just for starting with the P910 before even installing the Tesla K80 within, with `sudo -s` root priviledges:
 
 [!CODE]
-apt install lm-sensors fancontrol read-edid i2c-tools python3-smbus pigz \<br>
- &nbsp; &nbsp; gkrellm gkrellm-cpufreq gkrellm-x86info gkrellmwireless gkrelltop \<br>
- &nbsp; &nbsp; kmod cpufrequtils wget hardinfo hwinfo htop unzip synaptic gedit
+apt install lm-sensors fancontrol hardinfo i2c-tools python3-smbus pigz acpi \<br>
+ &nbsp; &nbsp; kmod cpufrequtils wget read-edid hwinfo htop unzip synaptic gedit acpid \<br>
+ &nbsp; &nbsp; acpitool gkrellm gkrellm-cpufreq gkrellm-x86info gkrellmwireless gkrelltop
 
-service kmod start; yes | sensors-detect; sensors; pwmconfig
+service kmod start; sensors-detect --auto; sensors; pwmconfig
 [/CODE]
 
 Moreover, the application [gkrellm](https://gkrellm.srcbox.net/) - even if it is not particularly well integrated in Ubuntu - can help us keep the system under careful supervision. Here [github.com/robang74/gkrellm2-config](https://github.com/robang74/gkrellm2-config#readme) a suggested way to configure and theming it
