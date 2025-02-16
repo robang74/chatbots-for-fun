@@ -92,7 +92,7 @@ Let start from the basics, here below some line commands for Ubuntu just for sta
 [!CODE]
 apt install lm-sensors fancontrol read-edid i2c-tools python3-smbus pigz \<br>
  &nbsp; &nbsp; gkrellm gkrellm-cpufreq gkrellm-x86info gkrellmwireless gkrelltop \<br>
- &nbsp; &nbsp; kmod cpufrequtils wget hardinfo hwinfo htop unzip
+ &nbsp; &nbsp; kmod cpufrequtils wget hardinfo hwinfo htop unzip synaptic
 
 service kmod start; yes | sensors-detect; sensors; pwmconfig
 [/CODE]
@@ -175,13 +175,24 @@ Prudently, we will test the system in its initial stages of configuration by unl
 
 ### DVI to VGA adapter
 
-The Esprimo P910 comes with a DVI port, and in case you plan to couple with an old VGA monitor like I did, then expect that a cheap DVI-VGA adapter will limit the monitor resolution to 1024x768 despite being advertised differently. Which is enough for doing the preliminary stuff and remoting the desktop. Unfortunately, this will also affect the resolution of the shared desktop as long as we are using the quick & easy way described here.
+The Esprimo P910 comes with a DVI port, and in case you plan to couple with an old VGA monitor like I did, then expect that a cheap DVI-VGA adapter will limit the monitor resolution to 1024x768 despite being advertised differently. Which is enough for doing the preliminary stuff and remoting the desktop.
 
-In order to mitigate this trouble it is worth installing the gnome tweaks application and also synaptic will be useful for a more advance package installation and management:
+Unfortunately, it also affects the resolution of the shared desktop by Gnome RDP. In order to mitigate this limitation, it is worth installing the Gnome tweaks and injecting a new resolution from a Gnome terminal:
 
-- `sudo apt install gnome-tweaks synaptic`
+[!CODE]
+sudo apt install gnome-tweaks
 
-With the gnome tweaks we can change the font and icon sizes, plus reducing the zoom at 80% which will give us a visualisation area equivalent to a 1280x960 monitor but at lower DPI resolution. Instead, trying to use `cvt` and `xrandr` will not help, nor within Xorg or before it would start. However, I did not investigate this deeper because in the long run the aim is to use another remote control approach not affected by the HW resolution.
+mcvt=$(cvt 1280 960 60 | tail -n1 | cut -d\" -f3-)<br>
+echo "#\!/bin/bash<br>
+xrandr --newmode 1280x960 $mcvt<br>
+xrandr --addmode VGA-1 1280x960<br>
+xrandr --output VGA-1 --mode 1280x960<br>
+" > ~/.xinitrc; chmod +x ~/.xinitrc
+
+gnome-session-properties # to add the .xinitrc script
+[/CODE]
+
+With Gnome tweaks we can change the fonts and icons sizes, plus setting the zoom at 75%. Which combined with the maximum resolution supported by the monitor (e.g. 1280x960) provides a display equivalent area (e.g. 1700x1280) enlarged by 78% but at lower 96 --> 72 DPI resolution. Not bad at all, for an old piece of trashware! {;-)}
 
 +
 
