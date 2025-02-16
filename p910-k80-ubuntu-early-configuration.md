@@ -92,7 +92,7 @@ Let start from the basics, here below some line commands for Ubuntu just for sta
 [!CODE]
 apt install lm-sensors fancontrol read-edid i2c-tools python3-smbus pigz \<br>
  &nbsp; &nbsp; gkrellm gkrellm-cpufreq gkrellm-x86info gkrellmwireless gkrelltop \<br>
- &nbsp; &nbsp; kmod cpufrequtils wget hardinfo hwinfo htop unzip synaptic
+ &nbsp; &nbsp; kmod cpufrequtils wget hardinfo hwinfo htop unzip synaptic gedit
 
 service kmod start; yes | sensors-detect; sensors; pwmconfig
 [/CODE]
@@ -182,17 +182,17 @@ Unfortunately, it also affects the resolution of the shared desktop by Gnome RDP
 [!CODE]
 sudo apt install gnome-tweaks
 
-mcvt=$(cvt 1280 960 60 | tail -n1 | cut -d\" -f3-)<br>
-echo "#\!/bin/bash<br>
-xrandr --newmode 1280x960 $mcvt<br>
-xrandr --addmode VGA-1 1280x960<br>
-xrandr --output VGA-1 --mode 1280x960<br>
+mcvt='$(cvt 1280 1024 75 | tail -n1 | cut -d\" -f3-)'<br>
+echo '#!/bin/bash'"<br>
+xrandr --newmode 1280x1024 $mcvt<br>
+xrandr --addmode VGA-1 1280x1024<br>
+xrandr --output VGA-1 --mode 1280x1024<br>
 " > ~/.xinitrc; chmod +x ~/.xinitrc
 
 gnome-session-properties # to add the .xinitrc script
 [/CODE]
 
-With Gnome tweaks we can change the fonts and icons sizes, plus setting the zoom at 75%. Which combined with the maximum resolution supported by the monitor (e.g. 1280x960) provides a display equivalent area (e.g. 1700x1280) enlarged by 78% but at lower 96 --> 72 DPI resolution. Not bad at all, for an old piece of trashware! {;-)}
+With Gnome tweaks we can change the fonts and icons sizes, plus setting the zoom at 75%. Which combined with the maximum resolution supported by the monitor (e.g. 1280x1024, 5:4) provides a display equivalent area (e.g. 1700x1366) enlarged by 78% (and 3x than the 1024x768 given by the adapter) but at lower 96 --> 72 DPI resolution. Not bad at all, for an old piece of trashware! {;-)}
 
 +
 
