@@ -217,7 +217,7 @@ function md2htmlfunc() {
     TOPLINK=$(get_html_item_str html/items/toplink.htm)
     get_html_item_str html/items/footnote.htm >> $2
 
-    echo "<br>
+    echo "<br class='pagebreak'>
     </body>
 </html>" >> $2
 
