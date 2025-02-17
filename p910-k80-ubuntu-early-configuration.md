@@ -220,7 +220,7 @@ In the final version of the manual, this part will end up after the BIOS upgrade
 
 [/INFO]
 
-When the Fan Control and the Acoustic Management are both disabled, and an air-flow splitter is added to cooling down the Tesla K80, then because of the hand-crafted splitter the noise increases by a six decibels compared when the Tesla K80 nor the splitter were installed.
+When the Fan Control and the Acoustic Management are both disabled, and an [air-flow splitter](img/main-fan-splitter-between-k80-and-cpu.jpg?target=_blank) is added to [cooling down](dual-psu-esprimo-p910-installation.html#going-with-the-wind?target=_blank) the Tesla K80, then because of the hand-crafted splitter the noise increases by a six decibels compared when the Tesla K80 nor the splitter were installed.
 
 However, the reference noise level is 40 dB, when the GPU heating additive contribute reasonably requires an enhanced cooling policy but instead we force the fan at its full throtling with the air-flow splitter as per iper-prudence initial testing policy. Also, the splitter does not reduce sensitively the CPU cooling efficiency.
 
