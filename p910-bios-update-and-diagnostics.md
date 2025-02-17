@@ -132,6 +132,20 @@ losetup -D $(losetup -l | grep ${image} | cut -d' ' -f1)
 
    - **dosflash.bat** - for the bios update
 
+...
+
+### 9. Defaults
+
+At the first boot, enter in the BIOS with **`F2`** and reset the setting to its optimal default.
+
+|x|>
+<img class="bwsketch darkinv inksave" src="img/p910-system-bios-screenshot.png" width="800">
++
+<sub>right click menu to enlarge (x2) the image</sub>
+<|x|
+
+When the P910 is newly bought, then enable the password-less unconfiguration of the ATM system.
+
 +
 
 ## Copyright
