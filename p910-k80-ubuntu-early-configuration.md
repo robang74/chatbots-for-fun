@@ -23,6 +23,29 @@ Because the front USB 3.0 ports are working at 40 MB/s - while those in the back
 
 ~~~~
 
+### DVI to VGA adapter
+
+The Esprimo P910 comes with a DVI port, and in case you plan to couple with an old VGA monitor like I did, then expect that a cheap DVI-VGA adapter will limit the monitor resolution to 1024x768 despite being advertised differently. Which is enough for doing the preliminary stuff and remoting the desktop.
+
+Unfortunately, it also affects the resolution of the shared desktop by Gnome RDP. In order to mitigate this limitation, it is worth installing the Gnome tweaks and injecting a new resolution from a Gnome terminal:
+
+[!CODE]
+sudo apt install gnome-tweaks
+
+mcvt='$(cvt 1280 1024 75 | tail -n1 | cut -d\" -f3-)'<br>
+echo '#!/bin/bash'"<br>
+xrandr --newmode 1280x1024 $mcvt<br>
+xrandr --addmode VGA-1 1280x1024<br>
+xrandr --output VGA-1 --mode 1280x1024<br>
+" > ~/.xinitrc; chmod +x ~/.xinitrc
+
+gnome-session-properties # to add the .xinitrc script
+[/CODE]
+
+With Gnome tweaks we can change the fonts and icons sizes, plus setting the zoom at 75%. Which combined with the maximum resolution supported by the monitor (e.g. 1280x1024, 5:4) provides a display equivalent area (e.g. 1700x1366) enlarged by 78% (and 3x than the 1024x768 given by the adapter) but at lower 96 --> 72 DPI resolution. Not bad at all, for an old piece of trashware! {;-)}
+
+---
+
 ### Wi-Fi/LAN networking
 
 The Wi-Fi dongle is NOT an alternative to the cabled network for transferring data to the GPU server. Because configuring the Wi-Fi in a way that clients over that network can see each other is NOT a good idea, in terms of security nor data privacy.
@@ -65,7 +88,7 @@ roberto@x390:~$ dd if=/dev/zero bs=1500 count=16K | nc -N 10.10.10.2 1111<br>
 
 Which suggests that a cheap 100 MB/s USB-Ethernet (fast Ethernet) is enough, and it makes us wonder how to leverage one of the 5 Gbits/s USB3 rear port for connecting the GPU server to our workstation as it were a USB storage device to quickly transfer huge chunk of data.
 
-----
+---
 
 ### Remote control
 
@@ -79,9 +102,41 @@ In order to avoid to waste our time switching between our laptop/PC and the GPU 
 
 - `Settings --> Privacy & Security --> Blank Screen Delay --> NEVER`
 
-these settings will allow us to access the GPU server with Remmina and any SSH client.
+These settings will allow us to access the GPU server with Remmina and any SSH client.
 
-Please, note that this is NOT the proper way to go with a system in "production" but a setup shortcut.
+> [!WARN]
+> 
+> Please, note that this is NOT the proper way to go with a system in "production" but a setup shortcut.
+
+#### Root SSH password-less login
+
+We are lazy and we are proud of it, especially when repetitive tasks are at stake. This includes password digitization for frequent accesses. One in particular is the root access to a remote host using SSH without entering the password. Moreover, by the password is a way of login that usually is disabled by default for the `root` user, at least.
+
+[!CODE]
+ # On the client side
+
+ssh-keygen -t rsa<br>
+ssh-copy-id k80usr@10.10.10.2<br>
+ssh k80usr@10.10.10.2<br>
+
+ # On the server side
+
+sudo -s<br>
+mkdir -p /root/.ssh<br>
+cat /home/k80usr/.ssh/authorized_keys >>/root/.ssh/authorized_keys<br>
+chmod go-wrx -R /root/.ssh<br>
+exit<br>
+exit<br>
+
+ # On the client side
+
+echo "rl() { ssh root@10.10.10.2; }" >> ~/.bashrc<br>
+echo "ul() { ssh k80usr@10.10.10.2; }" >> ~/.bashrc<br>
+bash<br>
+rl<br>
+[/CODE]
+
+Appending two functions at the `.bashrc` file, in every new `bash` shell we can just digit `ul` or `rl` for user or root login on our GPU server.
 
 ---
 
@@ -119,8 +174,6 @@ for i in $(seq 1 40); do sensors | grep Package;
 
 sleep 1; done & sleep 30; killall pigz; echo;
 [/CODE]
-
-++++
 
 Running this code for two times in a row, lead to warm up the CPU core:
 
@@ -187,28 +240,42 @@ The table presented in the previous section shows that the original system can p
 
 Prudently, we will test the system in its initial stages of configuration by unleashing its "wanna-be an helicopter" character... {:-D}
 
-----
+---
 
-### DVI to VGA adapter
+### Kernel cmdline
 
-The Esprimo P910 comes with a DVI port, and in case you plan to couple with an old VGA monitor like I did, then expect that a cheap DVI-VGA adapter will limit the monitor resolution to 1024x768 despite being advertised differently. Which is enough for doing the preliminary stuff and remoting the desktop.
+These options are the suggested for the Linux kernel command line:
 
-Unfortunately, it also affects the resolution of the shared desktop by Gnome RDP. In order to mitigate this limitation, it is worth installing the Gnome tweaks and injecting a new resolution from a Gnome terminal:
+- `modprobe.blacklist=nouveau nouveau.modeset=0`
+   - blacklist the generic driver for nvidia video graphic boards
 
-[!CODE]
-sudo apt install gnome-tweaks
+- `mtrr_gran_size=8M mtrr_chunk_size=64M`
+   - to solve the issue about MTRR losing 230 MB of RAM mitigated to 6 MB
 
-mcvt='$(cvt 1280 1024 75 | tail -n1 | cut -d\" -f3-)'<br>
-echo '#!/bin/bash'"<br>
-xrandr --newmode 1280x1024 $mcvt<br>
-xrandr --addmode VGA-1 1280x1024<br>
-xrandr --output VGA-1 --mode 1280x1024<br>
-" > ~/.xinitrc; chmod +x ~/.xinitrc
+- `pcie_aspm=off mem_encrypt=off`
+   - for improving the performances of the Tesla K80, but it consumes more energy
 
-gnome-session-properties # to add the .xinitrc script
-[/CODE]
+The above parameters should go into the `GRUB_CMDLINE_LINUX_DEFAULT` variable which is recorded into the `/etc/default/grub` file. Then `sudo update-grub` to write the change in the grub's boot record, then `reboot` to let the system restart with the new settings. Finally, `cat /proc/cmdline` to check.
 
-With Gnome tweaks we can change the fonts and icons sizes, plus setting the zoom at 75%. Which combined with the maximum resolution supported by the monitor (e.g. 1280x1024, 5:4) provides a display equivalent area (e.g. 1700x1366) enlarged by 78% (and 3x than the 1024x768 given by the adapter) but at lower 96 --> 72 DPI resolution. Not bad at all, for an old piece of trashware! {;-)}
+---
+
+### BIOS settings
+
+First of all, reset the BIOS settings to its optimal default and then on the top of that settings we can make some adjustments:
+
+- Intel TXT support: **Enabled**
+- PCIe ASPM support: **Disabled**
+- Power-On source: **ACPI**
+- Power failure recovery: **Disabled**
+
+Avoid possibly conflicts by legacy support from BIOS, optional:
+
+- Legacy USB support: **Disabled**
+- Serial and parallel ports: **Disabled**
+- CSM launch: **Disabled**
+- Fast boot: **Enabled**
+
+Enabling the "Secure Boot" requires the CSM disabled while the USB legacy supports is requested by non-UEFI bootable devices. However, none of these changes as a sensitive impact on the `dmesg` output which means that 6.x Linux kernel is not affected by.
 
 +
 
