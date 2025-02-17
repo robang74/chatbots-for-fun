@@ -119,7 +119,7 @@ for i in $(seq 1 40); do sensors | grep Package;
 
 sleep 1; done & sleep 30; killall pigz; echo;
 [/CODE]
-
+++++
 Running this code for two times in a row, lead to warm up the CPU core:
 
 > `Package id 0:  +77.0°C  (high = +85.0°C, crit = +105.0°C)`
@@ -146,21 +146,30 @@ Instead, I took the value on an arbitrary and generic mouse pad with an uncalibr
 
 Using this [script](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/data/cpu-temp-test.sh) saved in `data`, this table can be completed with some temperature ranges, just to provide a quick and basic reference.<span id="fan-noise"></span>
 
-| Acoustic Management | Fan Control | Noise (RdB) | Noise (R%) | Start   | Highest | Ending  | T-Gap |
-|---------------------|-------------|-------------|------------|---------|---------|---------|-------|
-| enabled             | auto        | 32          | 1.00       | 49-61°C | 67-74°C | 51-57°C | 83%   |
-| enabled             | enhanced    | 40          | 1.25       | 42-48°C | 60-63°C | 42-45°C | 66%   |
-| irrelevant          | disabled    | 64          | 2.00       | 32-34°C | 46-48°C | 28-38°C | 43%   |
+| Acoustic Management | Fan Control | Noise R(dB) | Noise R(A²) | Start   | Highest | Ending  | T-Gap |
+|---------------------|-------------|-------------|-------------|---------|---------|---------|-------|
+| enabled             | auto        | 32          | 1.00 x      | 49-61°C | 67-74°C | 51-57°C | 83%   |
+| enabled             | enhanced    | 40          | 6.31 x      | 42-48°C | 60-63°C | 42-45°C | 66%   |
+| irrelevant          | disabled    | 64          | 1585 x      | 32-34°C | 46-48°C | 28-38°C | 43%   |
+| fan w/ splitter     | disabled    | 70          | 6310 x      |         |         |         |       |
+
+Notice that decibel are a logarithmic way of measuring the ratio between two sound intensities, alike human hearing are working. Hence considering a referencing intensity (32 dB) then the difference with another value gives us the absolute ratio between the two related intensities despite the scale was not standardly calibrated.
 
 For sake of completeness, these temperatures have been measured in a 20°C room temperature. Sometimes, the ending temperature is lower than the starting temperature but this should not surprise us because in the meantime the fan started to cool down the CPU and the ending temperature is taken after 15 seconds the 30s job is completed.
-
+++++
 [!INFO]
 
 In the final version of the manual, this part will end up after the BIOS upgrade chapter, so before every hardware change. Instead, the temperatures above reported, have been taken after having modified the Esprimo P910 moving its main 12cm fan and installing the handcraft baffle to increase the case air-flow. At the time of the measures, the two middle PCI slot covers were removed. Hence, it could be possible to find different values with the original hardware configuration.
 
 [/INFO]
 
-----
+When the Fan Control and the Acoustic Management are both disabled, and an air-flow splitter is added to cooling down the Tesla K80, then because of the hand-crafted splitter the noise increases by a six decibels compared when the Tesla K80 nor the splitter were installed.
+
+However, the reference noise level is 40 dB, when the GPU heating additive contribute reasonably requires an enhanced cooling policy but instead we force the fan at its full throtling with the air-flow splitter as per iper-prudence initial testing policy.
+
+Just to have an idea, using the inverse square law and ISO 9613-1:1996 calculator (440Hz, 50%, 1atm, 20°C) having 40 dB at 20 cm is equivalent to 70 dB at 5 mt. Considering 40 dB noise level as a "quiet room in daylight hours", then others house's rooms are not sensitively impacted by the GPU server in terms of noise.
+
+---
 
 ### Spinning the whirlybird
 
@@ -172,9 +181,9 @@ The table presented in the previous section shows that the original system can p
 
 - [P910's full throttle fan noise](../data/p910-full-throttle-fan-noise.m4a) six seconds of recording.
 
-Prudently, we will test the system in its initial stages of configuration by unleashing its "wanna-be an helicopter" character... LOL
+Prudently, we will test the system in its initial stages of configuration by unleashing its "wanna-be an helicopter" character... {:-D}
 
----
+----
 
 ### DVI to VGA adapter
 

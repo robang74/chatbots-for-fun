@@ -252,7 +252,7 @@ The rationale behind this choice is quite simple. Some people managed to keep th
 
 The proposed solution is theoretically equivalent to the largest cooling 3D-printed blower fans setting. In my case the airflow is not blown into the K80 channel between its plastic cover and the radiators but in the adjacent PCI slot which has been opened at the end and its radiators are exposed to the flow.
 
-The advantage of this hardware configuration is its simplicity while the drawback is about the noise (70db, 2.18, ref. [here](p910-k80-ubuntu-early-configuration.md#fan-noise?target=_blank)) which is expected even louder also because of the diaphragm vibration, especially when the main 12cm fan will blow at its maximum speed and thus moving its largest amount of air. 
+The advantage of this hardware configuration is its simplicity while the drawback is about the noise (+6dB, ref. [here](p910-k80-ubuntu-early-configuration.md#fan-noise?target=_blank)) which is expected even louder also because of the diaphragm vibration, especially when the main 12cm fan will blow at its maximum speed and thus moving its largest amount of air.
 
 Moreover, there are good reasons to believe that this solution is under performat compared to its maths because larger is the channel, slower is the airflow plus there are many ways in which the fresh air can escape without hitting the radiators while the hot air will be trapped into the K80 radiators fins because its natural tendency to raise but the K80 is up-side-down when the tower stands on its feet.
 
