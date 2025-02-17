@@ -44,6 +44,7 @@ for i in $files; do
         echo "Chromium printing $url/$i.html ..."
         chrprint $url/$i.html pdf/$i.pdf
         pdfshrink pdf/$i.pdf | grep --color=never .
+        echo
     fi
     if [ "x$1" == "x-m" -o "x$1" == "x-h" ]; then
         bash tools/html2pdf.sh html/$i.html | \
