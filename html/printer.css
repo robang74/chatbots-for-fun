@@ -50,6 +50,8 @@
         border-color: transparent;
         color: transparent;
     }
+    
+    .printline { display: block; }
 
     .topbar, div.topbar, a.topbar { color: black; background-color: white; }
     div.topbar { border: 0px solid transparent; }

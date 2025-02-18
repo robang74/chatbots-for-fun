@@ -31,7 +31,7 @@
     -ms-user-select: none;  /* IE 10 & 11 */
 }
 
-#printlink { display: none; };
+#printlink, .printline { display: none; };
 
 html {
  /*\,-Remove this parenthesys to switch the zoom */
