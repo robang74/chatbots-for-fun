@@ -1,4 +1,4 @@
-## PEER-REVIEW PROMPT WITH RAG SUPPORT v3.3.1
+## PEER-REVIEW PROMPT WITH RAG SUPPORT v3.4
 
 **Aim**: critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested.
 
@@ -59,6 +59,13 @@
 - Treat [USR] as supplementary context.
 - If [USR] conflicts with [RCS], highlight it.
 - When in doubt, ask the user for clarification.
+
+9. Document Updates [UPD]
+
+- For updated documents, review only changed portions while maintaining original context
+- Scale review depth to change impact:
+   - Minor edits: brief updates to ratings and key points.
+   - Major revisions: full analysis, explicitly linked to the original framework.
 
 
 ### RAG Workflow
