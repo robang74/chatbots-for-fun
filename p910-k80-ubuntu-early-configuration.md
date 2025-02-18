@@ -130,8 +130,8 @@ exit<br>
 
  # On the client side
 
-echo "rl() { ssh root@10.10.10.2; }" >> ~/.bashrc<br>
-echo "ul() { ssh k80usr@10.10.10.2; }" >> ~/.bashrc<br>
+echo "rl() { ssh -XY root@10.10.10.2; }" >> ~/.bashrc<br>
+echo "ul() { ssh -XY k80usr@10.10.10.2; }" >> ~/.bashrc<br>
 bash<br>
 rl<br>
 [/CODE]
@@ -146,8 +146,8 @@ Let start from the basics, here below some line commands for Ubuntu just for sta
 
 [!CODE]
 apt install lm-sensors fancontrol hardinfo i2c-tools python3-smbus pigz acpi \<br>
- &nbsp; &nbsp; kmod cpufrequtils wget read-edid hwinfo htop unzip synaptic gedit acpid \<br>
- &nbsp; &nbsp; acpitool gkrellm gkrellm-cpufreq gkrellm-x86info gkrellmwireless gkrelltop
+ &nbsp; &nbsp; kmod cpufrequtils wget read-edid hwinfo htop unzip synaptic \<br>
+ &nbsp; &nbsp; gedit acpid acpitool inxi gkrellm gkrellm-cpufreq
 
 modprobe coretemp cpuid<br>
 echo "cpuid" >>/etc/modules<br>
@@ -246,16 +246,16 @@ Prudently, we will test the system in its initial stages of configuration by unl
 
 These options are the suggested for the Linux kernel command line:
 
-- `modprobe.blacklist=nouveau nouveau.modeset=0`
-   - blacklist the generic driver for nvidia video graphic boards
-
 - `mtrr_gran_size=8M mtrr_chunk_size=64M`
    - to solve the issue about MTRR losing 230 MB of RAM mitigated to 6 MB
 
 - `pcie_aspm=off mem_encrypt=off`
    - for improving the performances of the Tesla K80, but it consumes more energy
 
-The above parameters should go into the `GRUB_CMDLINE_LINUX_DEFAULT` variable which is recorded into the `/etc/default/grub` file. Then `sudo update-grub` to write the change in the grub's boot record, then `reboot` to let the system restart with the new settings. Finally, `cat /proc/cmdline` to check.
+- `pci=realloc`
+   - due to an explicit suggestion for adding that argument by the `dmesg` output
+
+The above parameters should go into the `GRUB_CMDLINE_LINUX_DEFAULT` variable which is recorded into the `/etc/default/grub` file. Then `sudo update-grub` to write the change in the grub's boot record, then `reboot` to let the system restart with the new settings. Finally, after the reboot `cat /proc/cmdline` to check.
 
 ---
 
