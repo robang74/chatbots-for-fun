@@ -265,7 +265,7 @@ If you wish to send a translation, it is necessary that you know well one of the
 
 ## Copyright
 
-&copy; 2024-5, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;
+&copy; 2024-2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;
 
 All the files in this gihub repository are published *Creative Commons Attribution Non-Commercial No-Derivatives 4.0 International* license terms ([CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)), unless states differently or not applicable due to a different and previous authorship.
 
