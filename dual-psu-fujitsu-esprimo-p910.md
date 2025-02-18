@@ -63,14 +63,13 @@ In this specific case, the simplest ATX 24-pins with SATA dual connectors is eno
 
 **Update 2025-02-10**
 
-Are these cheap boards working? 
+Are these cheap boards working? For me, it works and the reason I trust it beforehand is about "Simplicity" (cfr. Edward De Bono).
 
 <div align="center"><img class="" src="img/check-the-dual-psu-is-working.jpg" width="400"><br></div>
 
-For me, it works and the reason I trust it beforehand is about "Simplicity" (cfr. Edward De Bono).
-
 To be cheap these boards should necessarily be simple. Simple to design, simple to test, simple to produce, etc. - for this reason the POWER-ON signal that in a sophisticated framework would end-up into a daisy-chain circuit, between two PSUs, it is a parallel: sharing a signal.
----
+
+~~~~
 
 ### PSU cabling
 
