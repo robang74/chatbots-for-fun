@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-01-25&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>5</b rev_num='
+'>6</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -91,6 +91,14 @@ The next step to take is adding <tt>nouveau.modeset=0</tt> to the kernel command
 <p></p>
 With this change in place, we are ready to engage the Nvidia driver and CUDA software stack installation.
 <p></p>
+<H4>CUDA suppport</H4>
+<p></p>
+The command <tt>nvcc --version</tt> will display the version of CUDA installed. The Tesla K80 has CUDA compute capability 3.7 which is deprecated but still supported, while Kepler architecture was supported until CUDA version 11.8.
+<p></p>
+<blockquote>While some elements might function, relying on CUDA 11.8 for full Kepler support is incorrect. It's safer to say CUDA 11.4 is the practical and fully supported limit. Based on Nvidia documentation, for that driver series, the 11.4 is the most stable and reliable version to use. &mdash; Gemini 2</blockquote>
+<p></p>
+Ubuntu 22.04 and 24.04 LTS are offering CUDA 11.5 with the 470 driver series which reasonably suggests that the system can work but is not certifiable under Nvidia's recommendations. Therefore, the K80 is the most powerful among old deprecated but still supported GPU cards by upstream sources.
+<p></p>
 <br>
 <br><hr><br>
 <p></p>
@@ -100,6 +108,65 @@ With this change in place, we are ready to engage the Nvidia driver and CUDA sof
 <p></p>
 <br><hr><br>
 <br>
+<p></p>
+<H2 id="pcie-30-gpu-cards">PCIe 3.0 GPU cards</H2>
+<p></p>
+<div class='center'><table id='table-001'><tr><th> model </th><th> arch. </th><th> GPU(s) </th><th> CUDA </th><th> cores </th><th> RAM size/type </th><th> market </th><th> PWR </th><th> PCIe </th><th> Alim.</th><th> W. </th></tr>
+<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class='td1stcol'> Quadro RTX 2070 </td><td> Turing </td><td> 1x TU104 </td><td> 7.5 </td><td> 1x 1920 </td><td> 1x _6GB GDDR6 </td><td> PC </td><td> 160W </td><td> 3.0 16x </td><td> 8p </td><td> 1x </td></tr>
+<tr><td class='td1stcol'> Quadro RTX 2070S </td><td> Turing </td><td> 1x TU104 </td><td> 7.5 </td><td> 1x 2560 </td><td> 1x _8GB GDDR6 </td><td> PC </td><td> 215W </td><td> 3.0 16x </td><td> 6+8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Quadro RTX 2080 </td><td> Turing </td><td> 1x TU104 </td><td> 7.5 </td><td> 1x 2944 </td><td> 1x _8GB GDDR6 </td><td> PC </td><td> 215W </td><td> 3.0 16x </td><td> 6+8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Quadro RTX 4000 </td><td> Turing </td><td> 1x TU104 </td><td> 7.5 </td><td> 1x 2304 </td><td> 1x _8GB GDDR6 </td><td> PC </td><td> 160W </td><td> 3.0 16x </td><td> 8p </td><td> 1x </td></tr>
+<tr><td class='td1stcol'> Quadro RTX 5000 </td><td> Turing </td><td> 1x TU104 </td><td> 7.5 </td><td> 1x 3072 </td><td> 1x 16GB GDDR6 </td><td> PC </td><td> 230W </td><td> 3.0 16x </td><td> 6+8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Tesla T4 </td><td> Turing </td><td> 1x TU104 </td><td> 7.5 </td><td> 1x 2560 </td><td> 1x 16GB GDDR6 </td><td> DC </td><td> _70W </td><td> 3.0 16x </td><td> no </td><td> 1x </td></tr>
+<tr><td class='td1stcol'> Titan V </td><td> Volta </td><td> 1x GV100 </td><td> 7.0 </td><td> 1x 5120 </td><td> 1x 12GB HBM2 </td><td> PC </td><td> 250W </td><td> 3.0 16x </td><td> 6+8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Titan V 32GB </td><td> Volta </td><td> 1x GV100 </td><td> 7.0 </td><td> 1x 5120 </td><td> 1x 32GB HBM2 </td><td> PC </td><td> 250W </td><td> 3.0 16x </td><td> 6+8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Tesla V100 </td><td> Volta </td><td> 1x GV100 </td><td> 7.0 </td><td> 1x 5120 </td><td> 1x 16GB HBM2 </td><td> DC </td><td> 300W </td><td> 3.0 16x </td><td> 2x8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Tesla V100 32GB </td><td> Volta </td><td> 1x GV100 </td><td> 7.0 </td><td> 1x 5120 </td><td> 1x 32GB HBM2 </td><td> DC </td><td> 250W </td><td> 3.0 16x </td><td> 2x8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Quadro GP100 </td><td> Pascal </td><td> 1x GP100 </td><td> 6.0 </td><td> 1x 3584 </td><td> 1x 16GB HBM2 </td><td> PC </td><td> 235W </td><td> 3.0 16x </td><td> 8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Tesla P100 </td><td> Pascal </td><td> 1x GP100 </td><td> 6.0 </td><td> 1x 3584 </td><td> 1x 12GB HBM2 </td><td> DC </td><td> 250W </td><td> 3.0 16x </td><td> 8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Tesla P100 16GB </td><td> Pascal </td><td> 1x GP100 </td><td> 6.0 </td><td> 1x 3584 </td><td> 1x 16GB HBM2 </td><td> DC </td><td> 250W </td><td> 3.0 16x </td><td> 8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Tesla P40 </td><td> Pascal </td><td> 1x GP102 </td><td> 6.1 </td><td> 1x 2560 </td><td> 1x 24GB GDDR5 </td><td> DC </td><td> 250W </td><td> 3.0 16x </td><td> 8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> GeFrc GTX 1060 </td><td> Pascal </td><td> 1x GP102 </td><td> 6.1 </td><td> 1x 1280 </td><td> 1x _8GB GDDR5 </td><td> PC </td><td> 120W </td><td> 3.0 16x </td><td> 6p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> GeFrc GTX 1070 </td><td> Pascal </td><td> 1x GP102 </td><td> 6.1 </td><td> 1x 1920 </td><td> 1x _8GB GDDR5 </td><td> PC </td><td> 150W </td><td> 3.0 16x </td><td> 8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> GeFrc GTX 1080 </td><td> Pascal </td><td> 1x GP102 </td><td> 6.1 </td><td> 1x 2560 </td><td> 1x _8GB GDDR5 </td><td> PC </td><td> 180W </td><td> 3.0 16x </td><td> 8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Quadro P4000 </td><td> Pascal </td><td> 1x GP104 </td><td> 6.1 </td><td> 1x 1792 </td><td> 1x _8GB GDDR5 </td><td> PC </td><td> 105W </td><td> 3.0 16x </td><td> 6p </td><td> 1x </td></tr>
+<tr><td class='td1stcol'> Quadro P5000 </td><td> Pascal </td><td> 1x GP104 </td><td> 6.1 </td><td> 1x 2560 </td><td> 1x 16GB GDDR5 </td><td> PC </td><td> 180W </td><td> 3.0 16x </td><td> 8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Tesla P4 </td><td> Pascal </td><td> 1x GP104 </td><td> 6.1 </td><td> 1x 2560 </td><td> 1x _8GB GDDR5 </td><td> DC </td><td> _75W </td><td> 3.0 16x </td><td> no </td><td> 1x </td></tr>
+<tr><td class='td1stcol'> Quadro M4000 </td><td> Maxwell2 </td><td> 1x GM204 </td><td> 5.2 </td><td> 1x 1664 </td><td> 1x _8GB GDDR5 </td><td> PC </td><td> 120W </td><td> 3.0 16x </td><td> 6p </td><td> 1x </td></tr>
+<tr><td class='td1stcol'> Quadro M5000 </td><td> Maxwell2 </td><td> 1x GM204 </td><td> 5.2 </td><td> 1x 2048 </td><td> 1x _8GB GDDR5 </td><td> PC </td><td> 150W </td><td> 3.0 16x </td><td> 6p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Tesla M60 </td><td> Maxwell2 </td><td> 2x GM204 </td><td> 5.2 </td><td> 2x 2048 </td><td> 2x _8GB GDDR5 </td><td> DC </td><td> 300W </td><td> 3.0 16x </td><td> 8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> GeFrc GTX 980 Ti </td><td> Maxwell2 </td><td> 1x GM200 </td><td> 5.2 </td><td> 1x 2816 </td><td> 1x _6GB GDDR5 </td><td> PC </td><td> 250W </td><td> 3.0 16x </td><td> 6+8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> GeFrc GTX Titan X </td><td> Maxwell2 </td><td> 1x GM200 </td><td> 5.2 </td><td> 1x 3072 </td><td> 1x 12GB GDDR5 </td><td> PC </td><td> 250W </td><td> 3.0 16x </td><td> 6+8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Quadro M6000 24GB </td><td> Maxwell2 </td><td> 1x GM200 </td><td> 5.2 </td><td> 1x 3072 </td><td> 1x 24GB GDDR5 </td><td> PC </td><td> 250W </td><td> 3.0 16x </td><td> 8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Quadro M6000 </td><td> Maxwell2 </td><td> 1x GM200 </td><td> 5.2 </td><td> 1x 3072 </td><td> 1x 12GB GDDR5 </td><td> PC </td><td> 250W </td><td> 3.0 16x </td><td> 8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Tesla M40 24GB </td><td> Maxwell2 </td><td> 1x GM200 </td><td> 5.2 </td><td> 1x 3072 </td><td> 1x 24GB GDDR5 </td><td> DC </td><td> 250W </td><td> 3.0 16x </td><td> 8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Tesla M40 </td><td> Maxwell2 </td><td> 1x GM200 </td><td> 5.2 </td><td> 1x 3072 </td><td> 1x 12GB GDDR5 </td><td> DC </td><td> 250W </td><td> 3.0 16x </td><td> 8p </td><td> 2x </td></tr>
+<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class='td1stcol'> Tesla K80 </td><td> Kepler </td><td> 2x GK210 </td><td> 3.7 </td><td> 2x 2496 </td><td> 2x 12GB GDDR5 </td><td> WS/DC </td><td> 300W </td><td> 3.0 16x </td><td> 8p </td><td> 2x </td></tr>
+<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class='td1stcol'> Tesla K40c </td><td> Kepler </td><td> 1x GK180 </td><td> 3.5 </td><td> 1x 2880 </td><td> 1x 12GB GDDR5 </td><td> WS/DC </td><td> 245W </td><td> 3.0 16x </td><td> 6+8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Quadro K6000 SDI </td><td> Kepler </td><td> 1x GK110 </td><td> 3.5 </td><td> 1x 2880 </td><td> 1x 12GB GDDR5 </td><td> PC </td><td> 239W </td><td> 3.0 16x </td><td> 2x6p </td><td> 3x </td></tr>
+<tr><td class='td1stcol'> GeFrc GTX Titan </td><td> Kepler </td><td> 1x GK110 </td><td> 3.5 </td><td> 1x 2880 </td><td> 1x _6GB GDDR5 </td><td> PC </td><td> 250W </td><td> 3.0 16x </td><td> 6+8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Tesla K20X/Xm </td><td> Kepler </td><td> 1x GK110 </td><td> 3.5 </td><td> 1x 2688 </td><td> 1x _6GB GDDR5 </td><td> WS/DC </td><td> 235W </td><td> 3.0 16x </td><td> 6+8p </td><td> 2x </td></tr>
+<tr><td class='td1stcol'> Tesla K20c/m/s </td><td> Kepler </td><td> 1x GK110 </td><td> 3.5 </td><td> 1x 2496 </td><td> 1x _5GB GDDR5 </td><td> WS/DC </td><td> 225W </td><td> 2.0 16x </td><td> 6+8p </td><td> 2x </td></tr>
+</table>
+</div><p></p>
+The CUDA support for compute capability 3.5 can be obtained via thridy party support (crf. ext. resources). 
+<p></p>
+<H4>Data sources</H4>
+<p></p>
+<li><a href="https://www.techpowerup.com/gpu-specs" target='_blank' rel='noopener noreferrer'>www.techpowerup.com</a></li>
+<li><a href="https://developer.nvidia.com/cuda-gpus" target='_blank' rel='noopener noreferrer'>developer.nvidia.com</a></li>
+<p></p>
+<br>
+<p></p>
+<H2 id="external-resources">External resources</H2>
+<p></p>
+<li><a href="https://blog.nelsonliu.me/2020/10/13/newer-pytorch-binaries-for-older-gpus" target='_blank' rel='noopener noreferrer'>Newer PyTorch Binaries for Older GPUs</a> (October 13, 2020)</li>
+<li class='li2in'><a href="https://github.com/nelson-liu/pytorch-manylinux-binaries/releases" target='_blank' rel='noopener noreferrer'>Nvidia K40 GPUs PyTorch v1.13.1</a></li>
+<p></p>
+<li><a href="https://www.techpowerup.com/vgabios" target='_blank' rel='noopener noreferrer'>techpowerup vgabios</a></li>
 <p></p>
 <H2 id="share-alike">Share alike</H2>
 <p></p>

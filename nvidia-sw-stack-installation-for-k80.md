@@ -74,6 +74,14 @@ The next step to take is adding `nouveau.modeset=0` to the kernel command line b
 
 With this change in place, we are ready to engage the Nvidia driver and CUDA software stack installation.
 
+#### CUDA suppport
+
+The command `nvcc --version` will display the version of CUDA installed. The Tesla K80 has CUDA compute capability 3.7 which is deprecated but still supported, while Kepler architecture was supported until CUDA version 11.8.
+
+> While some elements might function, relying on CUDA 11.8 for full Kepler support is incorrect. It's safer to say CUDA 11.4 is the practical and fully supported limit. Based on Nvidia documentation, for that driver series, the 11.4 is the most stable and reliable version to use. -- Gemini 2
+
+Ubuntu 22.04 and 24.04 LTS are offering CUDA 11.5 with the 470 driver series which reasonably suggests that the system can work but is not certifiable under Nvidia's recommendations. Therefore, the K80 is the most powerful among old deprecated but still supported GPU cards by upstream sources.
+
 +
 ===
 
@@ -83,6 +91,64 @@ With this change in place, we are ready to engage the Nvidia driver and CUDA sof
 
 ===
 +
+
+## PCIe 3.0 GPU cards
+
+| model             | arch.    | GPU(s)   | CUDA | cores   | RAM size/type | market | PWR  | PCIe    | Alim.| W. |
+|-------------------|----------|----------|------|---------|---------------|--------|------|---------|------|----|
+| Quadro RTX 2070   | Turing   | 1x TU104 | 7.5  | 1x 1920 | 1x _6GB GDDR6 | PC     | 160W | 3.0 16x | 8p   | 1x |
+| Quadro RTX 2070S  | Turing   | 1x TU104 | 7.5  | 1x 2560 | 1x _8GB GDDR6 | PC     | 215W | 3.0 16x | 6+8p | 2x |
+| Quadro RTX 2080   | Turing   | 1x TU104 | 7.5  | 1x 2944 | 1x _8GB GDDR6 | PC     | 215W | 3.0 16x | 6+8p | 2x |
+| Quadro RTX 4000   | Turing   | 1x TU104 | 7.5  | 1x 2304 | 1x _8GB GDDR6 | PC     | 160W | 3.0 16x | 8p   | 1x |
+| Quadro RTX 5000   | Turing   | 1x TU104 | 7.5  | 1x 3072 | 1x 16GB GDDR6 | PC     | 230W | 3.0 16x | 6+8p | 2x |
+| Tesla T4          | Turing   | 1x TU104 | 7.5  | 1x 2560 | 1x 16GB GDDR6 | DC     | _70W | 3.0 16x | no   | 1x |
+| Titan V           | Volta    | 1x GV100 | 7.0  | 1x 5120 | 1x 12GB HBM2  | PC     | 250W | 3.0 16x | 6+8p | 2x |
+| Titan V 32GB      | Volta    | 1x GV100 | 7.0  | 1x 5120 | 1x 32GB HBM2  | PC     | 250W | 3.0 16x | 6+8p | 2x |
+| Tesla V100        | Volta    | 1x GV100 | 7.0  | 1x 5120 | 1x 16GB HBM2  | DC     | 300W | 3.0 16x | 2x8p | 2x |
+| Tesla V100 32GB   | Volta    | 1x GV100 | 7.0  | 1x 5120 | 1x 32GB HBM2  | DC     | 250W | 3.0 16x | 2x8p | 2x |
+| Quadro GP100      | Pascal   | 1x GP100 | 6.0  | 1x 3584 | 1x 16GB HBM2  | PC     | 235W | 3.0 16x | 8p   | 2x |
+| Tesla P100        | Pascal   | 1x GP100 | 6.0  | 1x 3584 | 1x 12GB HBM2  | DC     | 250W | 3.0 16x | 8p   | 2x |
+| Tesla P100 16GB   | Pascal   | 1x GP100 | 6.0  | 1x 3584 | 1x 16GB HBM2  | DC     | 250W | 3.0 16x | 8p   | 2x |
+| Tesla P40         | Pascal   | 1x GP102 | 6.1  | 1x 2560 | 1x 24GB GDDR5 | DC     | 250W | 3.0 16x | 8p   | 2x |
+| GeFrc GTX 1060    | Pascal   | 1x GP102 | 6.1  | 1x 1280 | 1x _8GB GDDR5 | PC     | 120W | 3.0 16x | 6p   | 2x |
+| GeFrc GTX 1070    | Pascal   | 1x GP102 | 6.1  | 1x 1920 | 1x _8GB GDDR5 | PC     | 150W | 3.0 16x | 8p   | 2x |
+| GeFrc GTX 1080    | Pascal   | 1x GP102 | 6.1  | 1x 2560 | 1x _8GB GDDR5 | PC     | 180W | 3.0 16x | 8p   | 2x |
+| Quadro P4000      | Pascal   | 1x GP104 | 6.1  | 1x 1792 | 1x _8GB GDDR5 | PC     | 105W | 3.0 16x | 6p   | 1x |
+| Quadro P5000      | Pascal   | 1x GP104 | 6.1  | 1x 2560 | 1x 16GB GDDR5 | PC     | 180W | 3.0 16x | 8p   | 2x |
+| Tesla P4          | Pascal   | 1x GP104 | 6.1  | 1x 2560 | 1x _8GB GDDR5 | DC     | _75W | 3.0 16x | no   | 1x |
+| Quadro M4000      | Maxwell2 | 1x GM204 | 5.2  | 1x 1664 | 1x _8GB GDDR5 | PC     | 120W | 3.0 16x | 6p   | 1x |
+| Quadro M5000      | Maxwell2 | 1x GM204 | 5.2  | 1x 2048 | 1x _8GB GDDR5 | PC     | 150W | 3.0 16x | 6p   | 2x |
+| Tesla M60         | Maxwell2 | 2x GM204 | 5.2  | 2x 2048 | 2x _8GB GDDR5 | DC     | 300W | 3.0 16x | 8p   | 2x |
+| GeFrc GTX 980 Ti  | Maxwell2 | 1x GM200 | 5.2  | 1x 2816 | 1x _6GB GDDR5 | PC     | 250W | 3.0 16x | 6+8p | 2x |   
+| GeFrc GTX Titan X | Maxwell2 | 1x GM200 | 5.2  | 1x 3072 | 1x 12GB GDDR5 | PC     | 250W | 3.0 16x | 6+8p | 2x |   
+| Quadro M6000 24GB | Maxwell2 | 1x GM200 | 5.2  | 1x 3072 | 1x 24GB GDDR5 | PC     | 250W | 3.0 16x | 8p   | 2x |
+| Quadro M6000      | Maxwell2 | 1x GM200 | 5.2  | 1x 3072 | 1x 12GB GDDR5 | PC     | 250W | 3.0 16x | 8p   | 2x |
+| Tesla M40 24GB    | Maxwell2 | 1x GM200 | 5.2  | 1x 3072 | 1x 24GB GDDR5 | DC     | 250W | 3.0 16x | 8p   | 2x |
+| Tesla M40         | Maxwell2 | 1x GM200 | 5.2  | 1x 3072 | 1x 12GB GDDR5 | DC     | 250W | 3.0 16x | 8p   | 2x |
+|                   |          |          |      |         |               |        |      |         |      |    |
+| Tesla K80         | Kepler   | 2x GK210 | 3.7  | 2x 2496 | 2x 12GB GDDR5 | WS/DC  | 300W | 3.0 16x | 8p   | 2x |
+|                   |          |          |      |         |               |        |      |         |      |    |
+| Tesla K40c        | Kepler   | 1x GK180 | 3.5  | 1x 2880 | 1x 12GB GDDR5 | WS/DC  | 245W | 3.0 16x | 6+8p | 2x |
+| Quadro K6000 SDI  | Kepler   | 1x GK110 | 3.5  | 1x 2880 | 1x 12GB GDDR5 | PC     | 239W | 3.0 16x | 2x6p | 3x |
+| GeFrc GTX Titan   | Kepler   | 1x GK110 | 3.5  | 1x 2880 | 1x _6GB GDDR5 | PC     | 250W | 3.0 16x | 6+8p | 2x |
+| Tesla K20X/Xm     | Kepler   | 1x GK110 | 3.5  | 1x 2688 | 1x _6GB GDDR5 | WS/DC  | 235W | 3.0 16x | 6+8p | 2x |
+| Tesla K20c/m/s    | Kepler   | 1x GK110 | 3.5  | 1x 2496 | 1x _5GB GDDR5 | WS/DC  | 225W | 2.0 16x | 6+8p | 2x |
+
+The CUDA support for compute capability 3.5 can be obtained via thridy party support (crf. ext. resources). 
+
+#### Data sources
+
+- [www.techpowerup.com](https://www.techpowerup.com/gpu-specs)
+- [developer.nvidia.com](https://developer.nvidia.com/cuda-gpus)
+
++
+
+## External resources
+
+- [Newer PyTorch Binaries for Older GPUs](https://blog.nelsonliu.me/2020/10/13/newer-pytorch-binaries-for-older-gpus) (October 13, 2020)
+  - [Nvidia K40 GPUs PyTorch v1.13.1](https://github.com/nelson-liu/pytorch-manylinux-binaries/releases)
+
+- [techpowerup vgabios](https://www.techpowerup.com/vgabios)
 
 ## Share alike
 
