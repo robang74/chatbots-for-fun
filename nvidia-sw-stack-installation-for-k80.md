@@ -41,7 +41,7 @@ Therefore a competitive alternative to the Tesla K80/K40 is the Quadro M6000 wit
 
 Ubuntu Linux is a well-known widely-spread GNU/Linux distribution which has the vastest hardware support and an user-friendly eye-candy looking graphical user interface. Despite all its whistle and bells, it still pretty usable with old hardware even 10yo architectures and on top of this, it is a solid, full-fledged UNIX/Posix operating system with all the benefits of an Open-Source Software Libre solution included a relatively large user-base and commercial support for enterprises including server, data-center and cloud applications, also.
 
-#### dmesg verification
+#### Checking the boot
 
 After having installed the Tesla K80, provided to it the necessary power with a dual-PSU cheap solution and a reasonable cooling system at least for the early testing, it is the right time for checking the `dmesg -l err,warn,crit` output in search of troubles. Troubles, the kind of flowers that bloom in every season! {;-)}
 
@@ -61,6 +61,8 @@ pnp 00:06: disabling [mem 0x20000000-0x201fffff disabled] because it overlaps<br
 
 In fact, these strings do not promise anything good or easy to cope with. However, similar strings are present also on my Thinkpad x390 and everything is working fine. Unfortunately, `lspci -vt` confirms that `03:00.0` and `04:00.0` are related to the Tesla K80. Fortunately, the `dmesg -l err,crit` output is void which means that they are warnings.
 
+++++
+
 #### Disabling nouveau
 
 The next step to take is adding `nouveau.modeset=0` to the kernel command line because nouveau is the generic open-source driver for Nvidia graphic cards, we do not want it because we need to rely on the Nvidia driver to leverage the CUDA software stack plus the Tesla K80 is headless, it has no video monitor support, which means `modeset=0` anyway. For the same reaon we do not need also nvidia_drm and nvidia_modeset modules because they are related to graphic functioning while in our case is compute-only installation.
@@ -72,8 +74,14 @@ The next step to take is adding `nouveau.modeset=0` to the kernel command line b
 
 With this change in place, we are ready to engage the Nvidia driver and CUDA software stack installation.
 
----
++
+===
 
+|x|>
+## WORKING IN PROGRESS
+<|x|
+
+===
 +
 
 ## Share alike
