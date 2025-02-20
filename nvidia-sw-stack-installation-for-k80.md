@@ -5,6 +5,8 @@
 
 ## Nvidia Tesla K80 installation
 
+- This paper is part of the [Fujitsu P910 w/ Tesla K80 installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
+
 Let me introduce the Nvidia Tesla K80 accelerator board, which is not a graphic card for the consumer market but an accelerator for data centers.
 
 - 4992 NVIDIA CUDA cores with dual GPU design each with 12Gb of RAM
@@ -61,7 +63,7 @@ pnp 00:06: disabling [mem 0x20000000-0x201fffff disabled] because it overlaps<br
 
 In fact, these strings do not promise anything good or easy to cope with. However, similar strings are present also on my Thinkpad x390 and everything is working fine. Unfortunately, `lspci -vt` confirms that `03:00.0` and `04:00.0` are related to the Tesla K80. Fortunately, the `dmesg -l err,crit` output is void which means that they are warnings.
 
-++++
+----
 
 #### Disabling nouveau
 
@@ -86,11 +88,7 @@ Ubuntu 22.04 and 24.04 LTS are offering CUDA 11.5 with the 470 driver series whi
 
 ### Ubuntu Nvidia SW installation
 
-First of all, some basic information about installing Nvidia SW stack and drivers:
-
-...
-
-Nvidia drivers releases comes in two packages types:
+First of all, some basic information about installing Nvidia SW stack and drivers which releases comes in two packages types:
 
 - UDA (Unified Driver Architecture) drivers which are recommended for the generic desktop use, and it is available here: [nvidia.com about unix drivers](https://www.nvidia.com/en-us/drivers/unix/)
 
@@ -104,8 +102,6 @@ The recommended way to install on Ubuntu is to leverage its tools:
 - The ubuntu-drivers tool is recommended if Secure Boot is in use, since it always tries to install signed drivers which are known to work with it.
 
 Check the available drivers for the hardware with `sudo ubuntu-drivers list` and use the `--gpgpu` for the server version. To install the drivers: `sudo ubuntu-drivers install` which allows us to specify the version `nvidia:470` and the `--gpgpu` server edition. To check the version of the currently running driver: `cat /proc/driver/nvidia/version`.
-
-...
 
 Following the most straightforward installation procedure, plus adding some useful tools:
 
@@ -201,6 +197,11 @@ Device Minor: 1<br>
 GPU Excluded: No<br>
 [/CODE]
 
+---
+
+<span id="is-eol-green"></span>
+### P910 E85+ PCIe support 4GB only
+
 This is **VERY BAD** because indicates a hardware incompatibility with the motherboard or its BIOS. Considering that the Esprimo P910 has its own Fujitsu ATX power unit with a custom 16-pin connector, changing the motherboard is furtherly complicated by the challenge to find one within the P910 family by Fujitsu. Otherwise, it is easier to change the whole P910 for something else, completely.
 
 [!CODE]
@@ -235,7 +236,6 @@ Which is **WAY** different than the expected output, which should be something l
 
 In fact, the problem is that BAR1 and BAR2, both 64-bit prefetchable, are missing for both devices which means that the PCIe is 4GB addressable but not beyond that limit.
 
-+
 ===
 
 |x|>
@@ -243,7 +243,6 @@ In fact, the problem is that BAR1 and BAR2, both 64-bit prefetchable, are missin
 <|x|
 
 ===
-+
 
 ## PCIe 3.0 GPU cards
 
