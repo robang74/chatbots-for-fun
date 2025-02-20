@@ -23,7 +23,7 @@
 >>>|
 >>>|
 
-- **State**: working in progress, 5 of 6 parts
+- **State**: working in progress, 6 of 6 parts
 - **Source**: [robang74.github.io/chatbots-for-fun](https://robang74.github.io/chatbots-for-fun)
 - **Download**: [tinyurl.com/24ryr6tu](https://tinyurl.com/24ryr6tu) (PDF on Google Drive)
 - **Author**: Roberto A. Foglietta &lt;roberto.foglietta@gmail.com&gt;
@@ -39,6 +39,7 @@
 3. [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-24)
 4. [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-25)   
 5. [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md#?target=_blank) &nbsp; (2025-02-05)
+6. [Nvidia Tesla K80 installation](nvidia-sw-stack-installation-for-k80.md#?target=_blank) &nbsp; (2025-02-18, **`WIP!`**)
 
 |<<<
 |<<<

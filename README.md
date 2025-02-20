@@ -39,22 +39,6 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
-* **Fujitsu Esprimo P910 E85+ w/ Nvidia Tesla K80 installation** &nbsp; (5 pz.)
-
-   - 2025-02-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-k80-ubuntu-early-configuration.md)] - [Ubuntu early configuration for P910 w/K80](p910-k80-ubuntu-early-configuration.md) &nbsp; (2nd edt.)
-
-   - 2025-02-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dual-psu-esprimo-p910-installation.md)] - [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md) &nbsp; (2nd edt.)
-
-   - 2025-02-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-bios-update-and-diagnostics.md)] - [Fujistus P910 E85+ BIOS update & diagnostics](p910-bios-update-and-diagnostics.md)
-
-   - 2025-01-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/p910-k80-installation-manual-intro.md)] - [Tesla K80 with Esprimo P910](p910-k80-installation-manual-intro.md) &nbsp; (**`WIP!`**)
-
-   - 2025-01-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/dual-psu-fujitsu-esprimo-p910.md)] - [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (5th edt.)
-
-   - 2025-01-24 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/tesla-k80-with-esprimo-p910.md)] - [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md)
-   
-...
-
 * **Prompt engineering for peer-reviewing with RAG support** &nbsp; (5 pz.)
 
    - 2025-02-02  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag-v2.md)] - [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md) &nbsp; (2nd edt.)
@@ -66,6 +50,24 @@ A grouped by topic and others articles are listed here below.
    - 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-system-prompt-alchemy.md)] - [The system prompt alchemy](the-system-prompt-alchemy.md)
 
    - 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatting-with-alex-the-chatbot.md)] - [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md)
+
+...
+
+* **Fujitsu Esprimo P910 E85+ w/ Nvidia Tesla K80 installation** &nbsp; (7 pz.)
+
+   - 2025-02-18 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/nvidia-sw-stack-installation-for-k80.md)] - [Nvidia Tesla K80 installation](nvidia-sw-stack-installation-for-k80.md) (**`WIP!`**)
+
+   - 2025-02-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-k80-ubuntu-early-configuration.md)] - [Ubuntu early configuration for P910 w/K80](p910-k80-ubuntu-early-configuration.md) &nbsp; (2nd edt.)
+
+   - 2025-02-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dual-psu-esprimo-p910-installation.md)] - [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md) &nbsp; (2nd edt.)
+
+   - 2025-02-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-bios-update-and-diagnostics.md)] - [Fujistus P910 E85+ BIOS update & diagnostics](p910-bios-update-and-diagnostics.md)
+
+   - 2025-01-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/p910-k80-installation-manual-intro.md)] - [Tesla K80 with Esprimo P910](p910-k80-installation-manual-intro.md)
+
+   - 2025-01-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/dual-psu-fujitsu-esprimo-p910.md)] - [Dual PSU for Fujitsu Esprimo E910](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (5th edt.)
+
+   - 2025-01-24 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/tesla-k80-with-esprimo-p910.md)] - [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md)
 
 ...
 
