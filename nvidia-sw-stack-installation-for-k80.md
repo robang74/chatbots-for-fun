@@ -236,6 +236,33 @@ Which is **WAY** different than the expected output, which should be something l
 
 In fact, the problem is that BAR1 and BAR2, both 64-bit prefetchable, are missing for both devices which means that the PCIe is 4GB addressable but not beyond that limit.
 
+----
+
+<span id="bios-as-fw"></span>
+### Why PC still have a FW?
+
+The BIOS (Basic Input Output System) is a firmware stored in a separate chip, but why does a modern Personal Computer still have a troubles-maker firmware for booting?
+
+Even an ARM system requires some kind of hardware initialisation at boot time, but why put such a thing into a separate chip instead of into UEFI (Unified Extensible Firmware Interface)?
+
+> The 80286 was released in early 1982. The IBM PC AT, which used it, was released in late 1984.
+
+This is the reason why we still have a BIOS on PC architecture in 2024, to be "back-compatible" with a design from 1981 as powerful as a modern $5-priced college "scientific" calculator made in China. Which is NOT the funniest part of the story, obviously. {;-)}
+
+Fujitsu developed a 0-Watt ATX solution which is included into Esprimo P910 E85+ but has not provided a BIOS update for that model since 2014 and it lacks "Above 4GB decoding" to leverage PCIe 64-bit addressing. Saving energy is green but what about EoSL?
+
+> The system model in question has reached EoSL (End of Support Life) status since 2021. Hence all available support and information regarding this model beyond what is provided in the FTS Support site for this model, is no longer available. -- Specialisti Fujitsu di 2nd Level.
+
+Please notice that the last BIOS release for the P910 E85+ model is dated back in 2014, seven years before the EoSL. It is bold from their side to provide such a kind of answer! 
+
+Especially because the Nvidia Tesla K80 was designed for the workstation and data-center markets, which fits perfectly in the definition of Fujitsu P910 platform: a workstation.
+
+> The Tesla K80 was a professional graphics card by NVIDIA, launched on November 17th, 2014.
+
+Despite this, and despite not being the only 4GB+ PCIe 3.0 device on the market at that time, seven years - let me underline this number saying 2500+ days - have passed away without someone addressing this limitation which is not even publicised into the product specifications. We have to discover it by ourselves!
+
+Are we sharing the same feeling about putting an end to the BIOS-as-FW paradigm?
+
 ===
 
 |x|>
@@ -243,6 +270,7 @@ In fact, the problem is that BAR1 and BAR2, both 64-bit prefetchable, are missin
 <|x|
 
 ===
+++++
 
 ## PCIe 3.0 GPU cards
 
