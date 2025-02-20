@@ -257,7 +257,7 @@ All the GPU cards listed below are
 
 All the GPU cards listed below have
 
-- more than 4GB of on board RAM , require "Above 4G Decoding" support by mobo/BIOS;
+- more than 4GB of on board RAM , require "Above 4GB Decoding" support by mobo/BIOS;
 - GDDR5 bandwidth range is 190-350 GB/s, dual-GPU aggregate range is 320-480 GB/s;
 - GDDR6 bandwidth range is 320-450 GB/s. HBM2 bandwidth range is 450-900 GB/s.
 
