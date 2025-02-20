@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-01-25&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>8</b rev_num='
+'>9</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -99,6 +99,158 @@ The command <tt>nvcc --version</tt> will display the version of CUDA installed. 
 <p></p>
 Ubuntu 22.04 and 24.04 LTS are offering CUDA 11.5 with the 470 driver series which reasonably suggests that the system can work but is not certifiable under Nvidia's recommendations. Therefore, the K80 is the most powerful among old deprecated but still supported GPU cards by upstream sources.
 <p></p>
+<hr>
+<p></p>
+<H3 id="ubuntu-nvidia-sw-installation">Ubuntu Nvidia SW installation</H3>
+<p></p>
+First of all, some basic information about installing Nvidia SW stack and drivers:
+<p></p>
+<hr class="post-it">
+<p></p>
+Nvidia drivers releases comes in two packages types:
+<p></p>
+<li>UDA (Unified Driver Architecture) drivers which are recommended for the generic desktop use, and it is available here: <a href="https://www.nvidia.com/en-us/drivers/unix/" target='_blank' rel='noopener noreferrer'>nvidia.com about unix drivers</a></li>
+<p></p>
+<li>ERD (Enterprise Ready Drivers) which are recommended on servers, and for computing tasks. Their packages can be recognised by the <tt>-server</tt> suffix. More information about</li>
+these drivers are available here: <a href="https://docs.nvidia.com/datacenter/tesla/index.html" target='_blank' rel='noopener noreferrer'>docs.nvidia.com about tesla</a>
+<p></p>
+The recommended way to install on Ubuntu is to leverage its tools:
+<p></p>
+<li>The ubuntu-drivers tool relies on the same logic as the "Additional Drivers" graphical tool, and allows more flexibility on desktops and on servers.</li>
+<p></p>
+<li>The ubuntu-drivers tool is recommended if Secure Boot is in use, since it always tries to install signed drivers which are known to work with it.</li>
+<p></p>
+Check the available drivers for the hardware with <tt>sudo ubuntu-drivers list</tt> and use the <tt>--gpgpu</tt> for the server version. To install the drivers: <tt>sudo ubuntu-drivers install</tt> which allows us to specify the version <tt>nvidia:470</tt> and the <tt>--gpgpu</tt> server edition. To check the version of the currently running driver: <tt>cat /proc/driver/nvidia/version</tt>.
+<p></p>
+<hr class="post-it">
+<p></p>
+Following the most straightforward installation procedure, plus adding some useful tools:
+<p></p>
+<blockquote class="code"><code>
+root&commat;p910:~# update-pciids<br>
+<p></p>
+root&commat;p910:~# ubuntu-drivers list<br>
+nvidia-driver-470-server, (linux-modules-nvidia-470-server-generic-hwe-24.04)<br>
+nvidia-driver-470, (linux-modules-nvidia-470-generic-hwe-24.04)<br>
+<p></p>
+root&commat;p910:~# ubuntu-drivers install<br>
+ ...<br>
+done<br>
+<p></p>
+root&commat;p910:~# add-apt-repository ppa:danielrichter2007/grub-customizer -y<br>
+root&commat;p910:~# apt-get install grub-customizer modprobe-nvidia nvtop -y<br>
+</code></blockquote>
+<p></p>
+and before rebooting the system, adding a kernel command line parameters <tt>modprobe.blacklist=nouveau</tt> in <tt>/etc/default/grub</tt> file to prevent nvidia generic driver mess up things, then update the initramfs and the grub boot record, as shown here below:
+<p></p>
+<blockquote class="code"><code>
+echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
+<p></p>
+root&commat;p910:~# update-initramfs -u<br>
+update-initramfs: Generating /boot/initrd.img-6.11.0-17-generic<br>
+<p></p>
+root&commat;p910:~# update-grub<br>
+ ...<br>
+done<br>
+</code></blockquote>
+<p></p>
+After the reboot:
+<p></p>
+<blockquote class="code"><code>
+root&commat;p910:~# cat /proc/driver/nvidia/version<br>
+NVRM version: NVIDIA UNIX x86_64 Kernel Module 470.256.02 Thu May  2 14:37:44 UTC 2024<br>
+<p></p>
+root&commat;p910:~# nvidia-smi<br>
+No devices were found<br>
+<p></p>
+root&commat;p910:~# dmesg -l err,crit<br>
+<p></p>
+root&commat;p910:~# dmesg -l err,warn,crit  | grep NV | cut -d] -f2-<br>
+ nvidia: module license 'NVIDIA' taints kernel.<br>
+ NVRM: loading NVIDIA UNIX x86_64 Kernel Module  470.256.02 Thu May  2 14:37:44 UTC 2024<br>
+ NVRM: GPU 0000:03:00.0: RmInitAdapter failed! (0x22:0xffff:667)<br>
+ NVRM: GPU 0000:03:00.0: rm_init_adapter failed, device minor number 0<br>
+ ...<br>
+ NVRM: GPU 0000:04:00.0: RmInitAdapter failed! (0x22:0xffff:667)<br>
+ NVRM: GPU 0000:04:00.0: rm_init_adapter failed, device minor number 1<br>
+</code></blockquote>
+<p></p>
+Trying with a manual installation does not help:
+<p></p>
+<blockquote class="code"><code>
+root&commat;p910:~# apt list --installed | grep nvidia | cut -d, -f1<br>
+libnvidia-cfg1-470/noble-updates<br>
+libnvidia-common-470/noble-updates<br>
+libnvidia-compute-470/noble-updates<br>
+libnvidia-extra-470/noble-updates<br>
+linux-modules-nvidia-470-6.11.0-17-generic/noble-updates<br>
+linux-modules-nvidia-470-generic-hwe-24.04/noble-updates<br>
+linux-objects-nvidia-470-6.11.0-17-generic/noble-updates<br>
+linux-signatures-nvidia-6.11.0-17-generic/noble-updates<br>
+nvidia-compute-utils-470/noble-updates<br>
+nvidia-kernel-common-470/noble-updates<br>
+nvidia-utils-470/noble-updates<br>
+</code></blockquote>
+<p></p>
+Which is not good at all, but the following is even worse:
+<p></p>
+<blockquote class="code"><code>
+root&commat;p910:~# cat /proc/driver/nvidia/gpus/*/information<br>
+Model: Tesla K80<br>
+IRQ:    39<br>
+GPU UUID: GPU-????????-????-????-????-????????????<br>
+Video BIOS: ??.??.??.??.??<br>
+Bus Type: PCIe<br>
+DMA Size: 36 bits<br>
+DMA Mask: 0xfffffffff<br>
+Bus Location: 0000:03:00.0<br>
+Device Minor: 0<br>
+GPU Excluded: No<br>
+Model: Tesla K80<br>
+IRQ:    39<br>
+GPU UUID: GPU-????????-????-????-????-????????????<br>
+Video BIOS: ??.??.??.??.??<br>
+Bus Type: PCIe<br>
+DMA Size: 36 bits<br>
+DMA Mask: 0xfffffffff<br>
+Bus Location: 0000:04:00.0<br>
+Device Minor: 1<br>
+GPU Excluded: No<br>
+</code></blockquote>
+<p></p>
+This is <b>VERY BAD</b> because indicates a hardware incompatibility with the motherboard or its BIOS. Considering that the Esprimo P910 has its own Fujitsu ATX power unit with a custom 16-pin connector, changing the motherboard is furtherly complicated by the challenge to find one within the P910 family by Fujitsu. Otherwise, it is easier to change the whole P910 for something else, completely.
+<p></p>
+<blockquote class="code"><code>
+root&commat;p910:~# mokutil --sb-state<br>
+SecureBoot disabled<br>
+<p></p>
+root&commat;p910:~# lsmod | grep -e video -e nvidia<br>
+nvidia_uvm           1437696  0<br>
+nvidia_drm             77824  2<br>
+nvidia_modeset       1212416  1 nvidia_drm<br>
+nvidia              35643392  2 nvidia_uvm,nvidia_modeset<br>
+video                  73728  2 i915,nvidia_modeset<br>
+wmi                    28672  1 video<br>
+<p></p>
+root&commat;p910:~# systemctl status nvidia-persistenced | grep active<br>
+ &nbsp; Active: active (running) since Thu 2025-02-20 05:10:08 CET; 10min ago<br>
+<p></p>
+root&commat;p910:~# lspci -vvv |grep -iA 20 nvidia|grep -ie region -ie lnkcap:<br>
+ &nbsp; Region 0: Memory at f0000000 (32-bit, non-prefetchable) [size=16M]<br>
+ &nbsp; &nbsp; LnkCap: Port #8, Speed 8GT/s, Width x16, ASPM not supported<br>
+ &nbsp; Region 0: Memory at f1000000 (32-bit, non-prefetchable) [size=16M]<br>
+ &nbsp; &nbsp; LnkCap: Port #16, Speed 8GT/s, Width x16, ASPM not supported<br>
+</code></blockquote>
+<p></p>
+Which is <b>WAY</b> different than the expected output, which should be something like this:
+<p></p>
+<blockquote class="code"><code>
+ &nbsp; Region 0: Memory at f8000000 (32-bit, non-prefetchable)<br>
+ &nbsp; Region 1: Memory at d8000000 (64-bit, prefetchable)<br>
+ &nbsp; Region 3: Memory at d4000000 (64-bit, prefetchable)<br>
+</code></blockquote>
+<p></p>
+In fact, the problem is that BAR1 and BAR2, both 64-bit prefetchable, are missing for both devices which means that the PCIe is 4GB addressable but not beyond that limit.
 <p></p>
 <br>
 <br><hr><br>

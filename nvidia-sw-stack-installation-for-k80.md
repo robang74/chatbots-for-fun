@@ -82,6 +82,158 @@ The command `nvcc --version` will display the version of CUDA installed. The Tes
 
 Ubuntu 22.04 and 24.04 LTS are offering CUDA 11.5 with the 470 driver series which reasonably suggests that the system can work but is not certifiable under Nvidia's recommendations. Therefore, the K80 is the most powerful among old deprecated but still supported GPU cards by upstream sources.
 
+---
+
+### Ubuntu Nvidia SW installation
+
+First of all, some basic information about installing Nvidia SW stack and drivers:
+
+...
+
+Nvidia drivers releases comes in two packages types:
+
+- UDA (Unified Driver Architecture) drivers which are recommended for the generic desktop use, and it is available here: [nvidia.com about unix drivers](https://www.nvidia.com/en-us/drivers/unix/)
+
+- ERD (Enterprise Ready Drivers) which are recommended on servers, and for computing tasks. Their packages can be recognised by the `-server` suffix. More information about
+these drivers are available here: [docs.nvidia.com about tesla](https://docs.nvidia.com/datacenter/tesla/index.html)
+
+The recommended way to install on Ubuntu is to leverage its tools:
+
+- The ubuntu-drivers tool relies on the same logic as the "Additional Drivers" graphical tool, and allows more flexibility on desktops and on servers.
+
+- The ubuntu-drivers tool is recommended if Secure Boot is in use, since it always tries to install signed drivers which are known to work with it.
+
+Check the available drivers for the hardware with `sudo ubuntu-drivers list` and use the `--gpgpu` for the server version. To install the drivers: `sudo ubuntu-drivers install` which allows us to specify the version `nvidia:470` and the `--gpgpu` server edition. To check the version of the currently running driver: `cat /proc/driver/nvidia/version`.
+
+...
+
+Following the most straightforward installation procedure, plus adding some useful tools:
+
+[!CODE]
+root@p910:~# update-pciids<br>
+
+root@p910:~# ubuntu-drivers list<br>
+nvidia-driver-470-server, (linux-modules-nvidia-470-server-generic-hwe-24.04)<br>
+nvidia-driver-470, (linux-modules-nvidia-470-generic-hwe-24.04)<br>
+
+root@p910:~# ubuntu-drivers install<br>
+ ...<br>
+done<br>
+
+root@p910:~# add-apt-repository ppa:danielrichter2007/grub-customizer -y<br>
+root@p910:~# apt-get install grub-customizer modprobe-nvidia nvtop -y<br>
+[/CODE]
+
+and before rebooting the system, adding a kernel command line parameters `modprobe.blacklist=nouveau` in `/etc/default/grub` file to prevent nvidia generic driver mess up things, then update the initramfs and the grub boot record, as shown here below:
+
+[!CODE]
+echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
+
+root@p910:~# update-initramfs -u<br>
+update-initramfs: Generating /boot/initrd.img-6.11.0-17-generic<br>
+
+root@p910:~# update-grub<br>
+ ...<br>
+done<br>
+[/CODE]
+
+After the reboot:
+
+[!CODE]
+root@p910:~# cat /proc/driver/nvidia/version<br>
+NVRM version: NVIDIA UNIX x86_64 Kernel Module 470.256.02 Thu May  2 14:37:44 UTC 2024<br>
+
+root@p910:~# nvidia-smi<br>
+No devices were found<br>
+
+root@p910:~# dmesg -l err,crit<br>
+
+root@p910:~# dmesg -l err,warn,crit  | grep NV | cut -d] -f2-<br>
+ nvidia: module license 'NVIDIA' taints kernel.<br>
+ NVRM: loading NVIDIA UNIX x86_64 Kernel Module  470.256.02 Thu May  2 14:37:44 UTC 2024<br>
+ NVRM: GPU 0000:03:00.0: RmInitAdapter failed! (0x22:0xffff:667)<br>
+ NVRM: GPU 0000:03:00.0: rm_init_adapter failed, device minor number 0<br>
+ ...<br>
+ NVRM: GPU 0000:04:00.0: RmInitAdapter failed! (0x22:0xffff:667)<br>
+ NVRM: GPU 0000:04:00.0: rm_init_adapter failed, device minor number 1<br>
+[/CODE]
+
+Trying with a manual installation does not help:
+
+[!CODE]
+root@p910:~# apt list --installed | grep nvidia | cut -d, -f1<br>
+libnvidia-cfg1-470/noble-updates<br>
+libnvidia-common-470/noble-updates<br>
+libnvidia-compute-470/noble-updates<br>
+libnvidia-extra-470/noble-updates<br>
+linux-modules-nvidia-470-6.11.0-17-generic/noble-updates<br>
+linux-modules-nvidia-470-generic-hwe-24.04/noble-updates<br>
+linux-objects-nvidia-470-6.11.0-17-generic/noble-updates<br>
+linux-signatures-nvidia-6.11.0-17-generic/noble-updates<br>
+nvidia-compute-utils-470/noble-updates<br>
+nvidia-kernel-common-470/noble-updates<br>
+nvidia-utils-470/noble-updates<br>
+[/CODE]
+
+Which is not good at all, but the following is even worse:
+
+[!CODE]
+root@p910:~# cat /proc/driver/nvidia/gpus/*/information<br>
+Model: Tesla K80<br>
+IRQ:    39<br>
+GPU UUID: GPU-????????-????-????-????-????????????<br>
+Video BIOS: ??.??.??.??.??<br>
+Bus Type: PCIe<br>
+DMA Size: 36 bits<br>
+DMA Mask: 0xfffffffff<br>
+Bus Location: 0000:03:00.0<br>
+Device Minor: 0<br>
+GPU Excluded: No<br>
+Model: Tesla K80<br>
+IRQ:    39<br>
+GPU UUID: GPU-????????-????-????-????-????????????<br>
+Video BIOS: ??.??.??.??.??<br>
+Bus Type: PCIe<br>
+DMA Size: 36 bits<br>
+DMA Mask: 0xfffffffff<br>
+Bus Location: 0000:04:00.0<br>
+Device Minor: 1<br>
+GPU Excluded: No<br>
+[/CODE]
+
+This is **VERY BAD** because indicates a hardware incompatibility with the motherboard or its BIOS. Considering that the Esprimo P910 has its own Fujitsu ATX power unit with a custom 16-pin connector, changing the motherboard is furtherly complicated by the challenge to find one within the P910 family by Fujitsu. Otherwise, it is easier to change the whole P910 for something else, completely.
+
+[!CODE]
+root@p910:~# mokutil --sb-state<br>
+SecureBoot disabled<br>
+
+root@p910:~# lsmod | grep -e video -e nvidia<br>
+nvidia_uvm           1437696  0<br>
+nvidia_drm             77824  2<br>
+nvidia_modeset       1212416  1 nvidia_drm<br>
+nvidia              35643392  2 nvidia_uvm,nvidia_modeset<br>
+video                  73728  2 i915,nvidia_modeset<br>
+wmi                    28672  1 video<br>
+
+root@p910:~# systemctl status nvidia-persistenced | grep active<br>
+ &nbsp; Active: active (running) since Thu 2025-02-20 05:10:08 CET; 10min ago<br>
+
+root@p910:~# lspci -vvv |grep -iA 20 nvidia|grep -ie region -ie lnkcap:<br>
+ &nbsp; Region 0: Memory at f0000000 (32-bit, non-prefetchable) [size=16M]<br>
+ &nbsp; &nbsp; LnkCap: Port #8, Speed 8GT/s, Width x16, ASPM not supported<br>
+ &nbsp; Region 0: Memory at f1000000 (32-bit, non-prefetchable) [size=16M]<br>
+ &nbsp; &nbsp; LnkCap: Port #16, Speed 8GT/s, Width x16, ASPM not supported<br>
+[/CODE]
+
+Which is **WAY** different than the expected output, which should be something like this:
+
+[!CODE]
+ &nbsp; Region 0: Memory at f8000000 (32-bit, non-prefetchable)<br>
+ &nbsp; Region 1: Memory at d8000000 (64-bit, prefetchable)<br>
+ &nbsp; Region 3: Memory at d4000000 (64-bit, prefetchable)<br>
+[/CODE]
+
+In fact, the problem is that BAR1 and BAR2, both 64-bit prefetchable, are missing for both devices which means that the PCIe is 4GB addressable but not beyond that limit.
 
 +
 ===
