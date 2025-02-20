@@ -239,7 +239,7 @@ In fact, the problem is that BAR1 and BAR2, both 64-bit prefetchable, are missin
 ----
 
 <span id="bios-as-fw"></span>
-### Why PC still have a BIOS?
+### Why do PCs still have a BIOS?
 
 The BIOS (Basic Input Output System) is a firmware stored in a separate chip, but why does a modern Personal Computer still have a troubles-maker firmware for booting?
 
