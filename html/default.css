@@ -89,7 +89,7 @@ b.post-it {
 
 blockquote {
 /*  color: darkwhite; */
-    font-size: 16px;
+/*  font-size: 16px; */
     line-height: 1.5;
     text-align: justify;
     font-family: "Times Roman", "Times New Roman", serif;
@@ -101,6 +101,8 @@ blockquote {
     position: relative;
     left: -40px;
 }
+
+.code { font-size: 80% }
 
 blockquote.dqt {
     width: 720px;
