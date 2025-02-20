@@ -5,11 +5,9 @@
 
 ## Dual PSU for Fujitsu Esprimo P910
 
-In the previous article I presented the project of adapting a Nvidia Tesla K80 for being used within a PC/Desktop in particular for locally running an AI model.
+- This paper is part of the [Fujitsu P910 w/ Tesla K80 installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
 
-* [Tesla K80 with Esprimo P910](tesla-k80-with-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-24)
-
-While this paper is going to present the way in which I decided to provide that system with a secondary 350W power supply unit in order to sustain the K80 consumption.
+In the previous article I presented the project of adapting a Nvidia Tesla K80 for being used within a PC/Desktop in particular for locally running an AI model. While this paper is going to present the way in which I decided to provide that system with a secondary 350W power supply unit in order to sustain the K80 consumption.
 
 - The **2nd** edition (since rev. 6) includes the [external sources](#external-sources) session and a more comprehensible English language.
 

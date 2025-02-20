@@ -5,6 +5,8 @@
 
 ## Fujitsu P910 E85+ BIOS update & diagnostics
 
+- This paper is part of the [Fujitsu P910 w/ Tesla K80 installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
+
 This document explains how to create an USB 64MB bootable stick based on FreeDOS that can provide BIOS update, diagnostic and flasher tools. It is specifically tailored for Esprimo P910 E85+ but it can be used as a canvas for every other PC/laptop for which DOS tools are available.
 
 ---

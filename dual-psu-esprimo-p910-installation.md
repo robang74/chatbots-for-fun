@@ -5,13 +5,7 @@
 
 ## Dual PSU for Esprimo P910 installation
 
-This article is the natural prosecution of the previous one.
-
-- [Dual PSU for Fujitsu Esprimo P910](dual-psu-fujitsu-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-25)
-
-While the bill of material (BoM) has been added after the Manual introduction and structure.
-
-- [The bill of material (BoM)](p910-k80-installation-manual-intro.md#bom?target=_blank) &nbsp; (2025-02-05)
+- This paper is part of the [Fujitsu P910 w/ Tesla K80 installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
 
 Due to the budget constraints, this project is progressing quite slowly because each batch of material is ordered when a step is completed and it takes about two weeks to arrive from China.
 
@@ -30,6 +24,8 @@ It is specifically tailored for Esprimo P910 E85+ but it can be used as a canvas
 Just to recap, the main problem of providing 225W TDP, 300W peak to the Nvidia Tesla K80 was mainly related with the proprietary power system embedded into the Fujitsu Esprimo P910 and therefore too hard to change without doing a bricolage that would far beyond the educational scope of this project.
 
 Therefore an industrial Flex size PSU has been chosen, which has been designed and built to power the ATX PC-based automated point of sales (PoS). For this reason it is particularly small, compared to the standard ATX power supply unit and cheap, compared with the PC-gaming market segment.
+
+++++
 
 [!INFO]
 

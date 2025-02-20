@@ -5,9 +5,7 @@
 
 ## Tesla K80 with Esprimo P910
 
-* Published Jan 24, 2025 - origin [Facebook](https://www.facebook.com/photo?fbid=10161403849723736)
-
----
+- This paper is part of the [Fujitsu P910 w/ Tesla K80 installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
 
 At this moment I am working on installing a Nvidia Tesla K80 acceleration card (2x GPU with 24GB of DDRAM5) on a Fujitsu Esprimo P910 E85+ with 16GB DDR3 and Intel I5 quad-core CPU. A quite old configuration, but enough powerful to locally run a decent size AI model with hopefully at a decent speed.
 
@@ -84,14 +82,6 @@ It is worth saying that there is a 2-pins connector visible and accessible in fr
 Unfortunately, life is not always so easy and what I am wondering about that 2-pins connector can be totally wrong. Especially because I did not find any documentation about it.
 
 If you like to participate in this challenge, feel free to drop me an email, a comment, a message, for suggestions and questions.
-
----
-
-### Continuation
-
-This article continue here:
-
-* [Dual PSU for Fujitsu Esprimo P910](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (2025-01-25)
 
 +
 
