@@ -266,7 +266,7 @@ Are we sharing the same feeling about putting an end to the BIOS-as-FW paradigm?
 ===
 
 |x|>
-## WORKING IN PROGRESS
+## WORK IN PROGRESS
 <|x|
 
 ===
