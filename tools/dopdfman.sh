@@ -31,6 +31,7 @@ p910-k80-ubuntu-early-configuration
 tesla-k80-with-esprimo-p910
 dual-psu-fujitsu-esprimo-p910
 dual-psu-esprimo-p910-installation
+nvidia-sw-stack-installation-for-k80
 "
 
 echo
