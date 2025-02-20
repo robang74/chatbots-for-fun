@@ -125,7 +125,9 @@ sudo -s<br>
 mkdir -p /root/.ssh<br>
 cat /home/k80usr/.ssh/authorized_keys >>/root/.ssh/authorized_keys<br>
 chmod go-wrx -R /root/.ssh<br>
+echo "tput cvvis" >> ~/.bashrc<br>
 exit<br>
+echo "tput cvvis" >> ~/.bashrc<br>
 exit<br>
 
  # On the client side
@@ -211,8 +213,6 @@ Using this [script](https://raw.githubusercontent.com/robang74/chatbots-for-fun/
 Notice that decibel are a logarithmic way of measuring the ratio between two sound intensities, alike human hearing are working. Hence considering a referencing intensity (32 dB) then the difference with another value gives us the absolute ratio between the two related intensities despite the scale was not standardly calibrated.
 
 For sake of completeness, these temperatures have been measured in a 20°C room temperature. Sometimes, the ending temperature is lower than the starting temperature but this should not surprise us because in the meantime the fan started to cool down the CPU and the ending temperature is taken after 15 seconds the 30s job is completed.
-
-++++
 
 [!INFO]
 
