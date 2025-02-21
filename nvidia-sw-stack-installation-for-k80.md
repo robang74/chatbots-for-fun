@@ -43,7 +43,7 @@ Therefore a competitive alternative to the Tesla K80/K40 is the Quadro M6000 wit
 
 Ubuntu Linux is a well-known widely-spread GNU/Linux distribution which has the vastest hardware support and an user-friendly eye-candy looking graphical user interface. Despite all its whistle and bells, it still pretty usable with old hardware even 10yo architectures and on top of this, it is a solid, full-fledged UNIX/Posix operating system with all the benefits of an Open-Source Software Libre solution included a relatively large user-base and commercial support for enterprises including server, data-center and cloud applications, also.
 
-Ubuntu can be installed from a [bootable USB drive](https://help.ubuntu.com/stable/ubuntu-help/addremove-creator.html.en) or even directly onto one as a system disk. I recommend the SanDisk Ultra USB 3.1 (130 MB/s) in 64GB or 128GB as a reasonably priced, entry-level option as portable installation device. However, SATA3 6Gbit/s SSDs are faster and more convenient.
+Ubuntu can be installed from a [bootable USB drive](https://help.ubuntu.com/stable/ubuntu-help/addremove-creator.html.en) or even directly onto one as a system disk. Based on my experience, I recommend the SanDisk Ultra USB 3.1 (130 MB/s) in 64GB or 128GB as a reasonably priced, entry-level option for a portable installation. However, SATA3 6Gbit/s SSDs are faster and more convenient.
 
 #### Checking the boot
 
