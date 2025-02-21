@@ -59,54 +59,61 @@ Which is good-enough for a reactive GUI remote control but relatively slow to tr
 
 ### Remote control
 
+> [!WARN]
+> 
+> Please, note that this is NOT the proper way to go with a system in "production" but a setup shortcut.
+
 In order to avoid to waste our time switching between our laptop/PC and the GPU server:
+
+- login into Gnome GUI session with the k80usr's password (e.g. no autologin session)
 
 - `Settings --> System --> Remote Desktop --> Desktop Sharing --> Remote Control --> ON`
 
 - `Settings --> System --> Users --> Unlock --> Automatic Login --> OFF`
 
 - `Settings --> System --> Secure Shell --> ON`
+  - `sudo apt install openssh-server -y`  <-- *in whatever rather than Ubuntu 24.04*
 
 - `Settings --> Privacy & Security --> Blank Screen Delay --> NEVER`
 
 These settings will allow us to access the GPU server with Remmina and any SSH client.
 
-> [!WARN]
-> 
-> Please, note that this is NOT the proper way to go with a system in "production" but a setup shortcut.
-
+++++
 
 #### Root SSH password-less login
 
 We are lazy and we are proud of it, especially when repetitive tasks are at stake. This includes password digitization for frequent accesses. One in particular is the root access to a remote host using SSH without entering the password. Moreover, by the password is a way of login that usually is disabled by default for the `root` user, at least.
 
 [!CODE]
- # On the client side
+**# On the client side**
 
 ssh-keygen -t rsa<br>
 ssh-copy-id k80usr@10.10.10.2<br>
 ssh k80usr@10.10.10.2<br>
 
- # On the server side
+**# On the server side**
 
 sudo -s<br>
 mkdir -p /root/.ssh<br>
 cat /home/k80usr/.ssh/authorized_keys >>/root/.ssh/authorized_keys<br>
 chmod go-wrx -R /root/.ssh<br>
 echo "tput cvvis" >> ~/.bashrc<br>
+echo "set nocompatible" >> ~/.vimrc<br>
+touch ~/.Xauthority<br>
 exit<br>
 echo "tput cvvis" >> ~/.bashrc<br>
+echo "set nocompatible" >> ~/.vimrc<br>
+touch ~/.Xauthority<br>
 exit<br>
 
- # On the client side
+**# On the client side**
 
-echo "rl() { ssh -XY root@10.10.10.2; }" >> ~/.bashrc<br>
-echo "ul() { ssh -XY k80usr@10.10.10.2; }" >> ~/.bashrc<br>
-bash<br>
-rl<br>
+printf "\nrl() { ssh -XY root@10.10.10.2; }\n" >> ~/.bashrc<br>
+printf "sl() { ssh -XY k80usr@10.10.10.2; }\n" >> ~/.bashrc<br>
+bash; rl<br>
 [/CODE]
 
-Appending two functions at the `.bashrc` file, in every new `bash` shell we can just digit `ul` or `rl` for user or root login on our GPU server.
+Appending two functions at the `.bashrc` file, in every new `bash` shell we can just digit `sl` or `rl` for user or root login on our GPU server.
 
 ---
 
@@ -117,7 +124,7 @@ The Esprimo P910 comes with a DVI port, and in case you plan to couple with an o
 Unfortunately, it also affects the resolution of the shared desktop by Gnome RDP. In order to mitigate this limitation, it is worth installing the Gnome tweaks and injecting a new resolution from a Gnome terminal:
 
 [!CODE]
-sudo apt install gnome-tweaks
+sudo apt install gnome-tweaks -y
 
 mcvt='$(cvt 1280 1024 75 | tail -n1 | cut -d\" -f3-)'<br>
 echo '#!/bin/bash'"<br>
@@ -131,7 +138,7 @@ gnome-session-properties # to add the .xinitrc script
 
 With Gnome tweaks we can change the fonts and icons sizes, plus setting the zoom at 75%. Which combined with the maximum resolution supported by the monitor (e.g. 1280x1024, 5:4) provides a display equivalent area (e.g. 1700x1366) enlarged by 78% (and 3x than the 1024x768 given by the adapter) but at lower 96 --> 72 DPI resolution. Not bad at all, for an old piece of trashware! {;-)}
 
----
+~~~~
 
 ### Wi-Fi/LAN networking
 
@@ -152,7 +159,7 @@ Let start from the basics, here below some line commands for Ubuntu just for sta
 [!CODE]
 apt install lm-sensors fancontrol hardinfo i2c-tools python3-smbus pigz acpi \<br>
  &nbsp; &nbsp; kmod cpufrequtils wget read-edid hwinfo htop unzip synaptic \<br>
- &nbsp; &nbsp; gedit acpid acpitool inxi gkrellm gkrellm-cpufreq
+ &nbsp; &nbsp; gedit acpid acpitool inxi gkrellm gkrellm-cpufreq -y
 
 modprobe coretemp cpuid<br>
 echo "cpuid" >>/etc/modules<br>
@@ -173,10 +180,8 @@ Which is the highest temperature seen up to now, with the case open and laying o
 Time to close the tower case and raise it on its feet again.
 
 [!CODE]
-dd if=/dev/zero bs=1M | pigz -11 -p4 - >/dev/null &
-
-for i in $(seq 1 40); do sensors | grep Package;
-
+dd if=/dev/zero bs=1M | pigz -11 -p4 - >/dev/null &<br>
+for i in $(seq 1 40); do sensors | grep Package;<br>
 sleep 1; done & sleep 30; killall pigz; echo;
 [/CODE]
 
@@ -260,7 +265,7 @@ These options are the suggested for the Linux kernel command line:
 
 The above parameters should go into the `GRUB_CMDLINE_LINUX_DEFAULT` variable which is recorded into the `/etc/default/grub` file. Then `sudo update-grub` to write the change in the grub's boot record, then `reboot` to let the system restart with the new settings. Finally, after the reboot `cat /proc/cmdline` to check.
 
-~~~~
+---
 
 ### BIOS settings
 

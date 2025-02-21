@@ -57,7 +57,7 @@ A grouped by topic and others articles are listed here below.
 
    - 2025-02-18 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/nvidia-sw-stack-installation-for-k80.md)] - [Nvidia Tesla K80 installation](nvidia-sw-stack-installation-for-k80.md) (**`WIP!`**)
 
-   - 2025-02-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-k80-ubuntu-early-configuration.md)] - [Ubuntu early configuration for P910 w/K80](p910-k80-ubuntu-early-configuration.md) &nbsp; (2nd edt.)
+   - 2025-02-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-k80-ubuntu-early-configuration.md)] - [Ubuntu early configuration for P910 w/K80](p910-k80-ubuntu-early-configuration.md) &nbsp; (3rd edt.)
 
    - 2025-02-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dual-psu-esprimo-p910-installation.md)] - [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md) &nbsp; (2nd edt.)
 
