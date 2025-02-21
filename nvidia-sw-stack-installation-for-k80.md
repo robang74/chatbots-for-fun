@@ -238,7 +238,48 @@ Which is **WAY** different than the expected output, which should be something l
 
 In fact, the problem is that BAR1 and BAR2, both 64-bit prefetchable, are missing for both devices which means that the PCIe is 4GB addressable but not beyond that limit.
 
-----
+#### Ubuntu 20.04.6 LTS
+
+I gave a try with Ubuntu 20.04.6 LTS which is running, after the update, with a Linux 5.15.0-131-generic and installed by default the Nvidia driver 470 serie.
+
+[!CODE]
+root@P910:~# lspci -vvv |grep -iA 20 nvidia|grep -ie region -ie lnkcap:<br>
+ &nbsp; Region 0: Memory at f0000000 (32-bit, non-prefetchable) [size=16M]<br>
+ &nbsp; Region 1: Memory at <unassigned> (64-bit, prefetchable)<br>
+ &nbsp; Region 3: Memory at <unassigned> (64-bit, prefetchable)<br>
+ &nbsp; &nbsp; LnkCap:	Port #8, Speed 8GT/s, Width x16, ASPM not supported<br>
+ &nbsp; Region 0: Memory at f1000000 (32-bit, non-prefetchable) [size=16M]<br>
+ &nbsp; Region 1: Memory at <unassigned> (64-bit, prefetchable)<br>
+ &nbsp; Region 3: Memory at <unassigned> (64-bit, prefetchable)<br>
+ &nbsp; &nbsp; LnkCap:	Port #16, Speed 8GT/s, Width x16, ASPM not supported<br>
+
+root@P910:~# lspci -vvv | grep -i -e nvidia -e PLX<br>
+01:00.0 PCI bridge: PLX Technology, Inc. PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s)<br>
+\_Switch (rev ca) (prog-if 00 [Normal decode])<br>
+ ...<br>
+02:08.0 PCI bridge: PLX Technology, Inc. PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s)<br>
+\_Switch (rev ca) (prog-if 00 [Normal decode])<br>
+ ...<br>
+02:10.0 PCI bridge: PLX Technology, Inc. PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s)<br>
+\_Switch (rev ca) (prog-if 00 [Normal decode])<br>
+ ...<br>
+03:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)<br>
+ ...<br>
+04:00.0 3D controller: NVIDIA Corporation GK210GL [Tesla K80] (rev a1)<br>
+ ...<br>
+[/CODE]
+
+The output is much more comforting because all the memory BARs are present but still not assigned. While the warnings in the kernel log remained alike the same.
+
++
+===
+
+|x|>
+## WORK IN PROGRESS
+<|x|
+
+===
++
 
 <span id="bios-as-fw"></span>
 ### Why do PCs still have a BIOS?
@@ -265,14 +306,7 @@ Despite this, and despite not being the only 4GB+ PCIe 3.0 device on the market 
 
 Are we sharing the same feeling about putting an end to the BIOS-as-FW paradigm?
 
-===
-
-|x|>
-## WORK IN PROGRESS
-<|x|
-
-===
-++++
++
 
 ## PCIe 3.0 GPU cards
 
@@ -308,55 +342,60 @@ For local AI workloads, among the listed GPU cards:
 
 This list may contain inaccuracies. Always rely on official manufacturer documentation before making any purchasing or configuration decisions.
 
-| model              | arch.    | GPU      | CUDA | cores   | RAM           | use    | W-max| alim.|size|
-|--------------------|----------|----------|------|---------|---------------|--------|------|------|----|
-| RTX 2060           | Turing   | TU106    | 7.5  | 1920    | 6 GB GDDR6    | PC     | 160W | 8p   |    |
-| RTX 2060 12GB      | Turing   | TU106    | 7.5  | 2176    | 12GB GDDR6    | PC     | 184W | 8p   |    |
-| Quadro RTX 2070    | Turing   | TU106    | 7.5  | 2304    | 8 GB GDDR6    | PC     | 175W | 8p   |    |
-| Quadro RTX 2070S   | Turing   | TU104    | 7.5  | 2560    | 8 GB GDDR6    | PC     | 215W | 6+8p |    |
-| Quadro RTX 2080    | Turing   | TU104    | 7.5  | 2944    | 8 GB GDDR6    | PC     | 215W | 6+8p |    |
-| Quadro RTX 4000    | Turing   | TU104    | 7.5  | 2304    | 8 GB GDDR6    | PC     | 160W | 8p   | 1x |
-| Quadro RTX 5000    | Turing   | TU104    | 7.5  | 3072    | 16GB GDDR6    | PC     | 230W | 6+8p |    |
-| Tesla T4/G         | Turing   | TU104    | 7.5  | 2560    | 16GB GDDR6    |        | 75 W |      | 1x |
-| CMP 50HX           | Turing   | TU102    | 7.5  | 3584    | 10GB GDDR6    |        | 250W | 2x8p |    |
-| RTX 2080 Ti        | Turing   | TU102    | 7.5  | 4352    | 11GB GDDR6    | PC     | 250W | 6+8p |    |
-| RTX 2080 Ti 12 GB  | Turing   | TU102    | 7.5  | 4608    | 12GB GDDR6    | PC     | 260W | 6+8p |    |
-| Tesla T10 16 GB    | Turing   | TU102    | 7.5  | 3072    | 16GB GDDR6    |        | 150W | 1x8p |    |
-| Tesla T40 24 GB    | Turing   | TU102    | 7.5  | 4608    | 24GB GDDR6    |        | 260W | 6+8p |    |
-| Titan RTX          | Turing   | TU102    | 7.5  | 4608    | 24GB GDDR6    | PC     | 280W | 2x8p |    |
-| Quadro RTX 6000    | Turing   | TU102    | 7.5  | 4608    | 24GB GDDR6    | PC     | 260W | 6+8p |    |
-| Quadro RTX 8000    | Turing   | TU102    | 7.5  | 4608    | 48GB GDDR6    | PC     | 260W | 6+8p |    |
-| Titan V            | Volta    | GV100    | 7.0  | 5120    | 12GB HBM2     | PC     | 250W | 6+8p |    |
-| Titan V 32GB       | Volta    | GV100    | 7.0  | 5120    | 32GB HBM2     | PC     | 250W | 6+8p |    |
-| Tesla V100         | Volta    | GV100    | 7.0  | 5120    | 16GB HBM2     |        | 250W | 2x8p |    |
-| Tesla V100 32GB    | Volta    | GV100    | 7.0  | 5120    | 32GB HBM2     |        | 250W | 2x8p |    |
-| Quadro GP100       | Pascal   | GP100    | 6.0  | 3584    | 16GB HBM2     | PC     | 235W | 8p   |    |
-| Tesla P100         | Pascal   | GP100    | 6.0  | 3584    | 12GB HBM2     |        | 250W | 8p   |    |
-| Tesla P100 16GB    | Pascal   | GP100    | 6.0  | 3584    | 16GB HBM2     |        | 250W | 8p   |    |
-| Tesla P40          | Pascal   | GP102    | 6.1  | 3840    | 24GB GDDR5    |        | 250W | 8p   |    |
-| GTX 1060           | Pascal   | GP106    | 6.1  | 1280    | 8 GB GDDR5    | PC     | 120W | 6p   |    |
-| GTX 1070           | Pascal   | GP104    | 6.1  | 1920    | 8 GB GDDR5    | PC     | 150W | 8p   |    |
-| GTX 1080           | Pascal   | GP104    | 6.1  | 2560    | 8 GB GDDR5X   | PC     | 180W | 8p   |    |
-| Quadro P4000       | Pascal   | GP104    | 6.1  | 1792    | 8 GB GDDR5    | PC     | 105W | 6p   | 1x |
-| Quadro P5000       | Pascal   | GP104    | 6.1  | 2560    | 16GB GDDR5    | PC     | 180W | 8p   |    |
-| Tesla P4           | Pascal   | GP104    | 6.1  | 2560    | 8 GB GDDR5    |        | 75 W |      | 1x |
-| Quadro M4000       | Maxwell2 | GM204    | 5.2  | 1664    | 8 GB GDDR5    | PC     | 120W | 6p   | 1x |
-| Quadro M5000       | Maxwell2 | GM204    | 5.2  | 2048    | 8 GB GDDR5    | PC     | 150W | 6p   |    |
-| Tesla M60          | Maxwell2 | 2x GM204 | 5.2  | 2x 2048 | 2x 8GB GDDR5  |        | 300W | 8p   |    |
-| GTX 980 Ti         | Maxwell2 | GM200    | 5.2  | 2816    | 6 GB GDDR5    | PC     | 250W | 6+8p |    |   
-| GTX Titan X        | Maxwell2 | GM200    | 5.2  | 3072    | 12GB GDDR5    | PC     | 250W | 6+8p |    |   
-| Quadro M6000 24GB  | Maxwell2 | GM200    | 5.2  | 3072    | 24GB GDDR5    | PC     | 250W | 8p   |    |
-| Quadro M6000       | Maxwell2 | GM200    | 5.2  | 3072    | 12GB GDDR5    | PC     | 250W | 8p   |    |
-| Tesla M40 24GB     | Maxwell2 | GM200    | 5.2  | 3072    | 24GB GDDR5    |        | 250W | 8p   |    |
-| Tesla M40          | Maxwell2 | GM200    | 5.2  | 3072    | 12GB GDDR5    |        | 250W | 8p   |    |
-|                    |          |          |      |         |               |        |      |      |    |
-| Tesla K80          | Kepler   | 2x GK210 | 3.7  | 2x 2496 | 2x 12GB GDDR5 |        | 300W | 8p   |    |
-|                    |          |          |      |         |               |        |      |      |    |
-| Tesla K40c         | Kepler   | GK180    | 3.5  | 2880    | 12GB GDDR5    |        | 245W | 6+8p |    |
-| Quadro K6000 SDI   | Kepler   | GK110    | 3.5  | 2880    | 12GB GDDR5    | PC     | 239W | 2x6p |    |
-| GTX Titan          | Kepler   | GK110    | 3.5  | 2880    | 6 GB GDDR5    | PC     | 250W | 6+8p |    |
-| Tesla K20X/Xm      | Kepler   | GK110    | 3.5  | 2688    | 6 GB GDDR5    |        | 235W | 6+8p |    |
-| Tesla K20c/m/s     | Kepler   | GK110    | 3.5  | 2496    | 5 GB GDDR5    |        | 225W | 6+8p |    |
+++++
+
+| model             | arch.    | GPU      | CUDA | cores   | RAM           | use | W-max| alim.|size|
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
+| RTX 2060          | Turing   | TU106    | 7.5  | 1920    | 6 GB GDDR6    | PC  | 160W | 8p   |    |
+| RTX 2060 12GB     | Turing   | TU106    | 7.5  | 2176    | 12GB GDDR6    | PC  | 184W | 8p   |    |
+| Quadro RTX 2070   | Turing   | TU106    | 7.5  | 2304    | 8 GB GDDR6    | PC  | 175W | 8p   |    |
+| Quadro RTX 2070S  | Turing   | TU104    | 7.5  | 2560    | 8 GB GDDR6    | PC  | 215W | 6+8p |    |
+| Quadro RTX 2080   | Turing   | TU104    | 7.5  | 2944    | 8 GB GDDR6    | PC  | 215W | 6+8p |    |
+| Quadro RTX 4000   | Turing   | TU104    | 7.5  | 2304    | 8 GB GDDR6    | PC  | 160W | 8p   | 1x |
+| Quadro RTX 5000   | Turing   | TU104    | 7.5  | 3072    | 16GB GDDR6    | PC  | 230W | 6+8p |    |
+| Tesla T4/G        | Turing   | TU104    | 7.5  | 2560    | 16GB GDDR6    |     | 75 W |      | 1x |
+| CMP 50HX          | Turing   | TU102    | 7.5  | 3584    | 10GB GDDR6    |     | 250W | 2x8p |    |
+| RTX 2080 Ti       | Turing   | TU102    | 7.5  | 4352    | 11GB GDDR6    | PC  | 250W | 6+8p |    |
+| RTX 2080 Ti 12 GB | Turing   | TU102    | 7.5  | 4608    | 12GB GDDR6    | PC  | 260W | 6+8p |    |
+| Tesla T10 16 GB   | Turing   | TU102    | 7.5  | 3072    | 16GB GDDR6    |     | 150W | 1x8p |    |
+| Tesla T40 24 GB   | Turing   | TU102    | 7.5  | 4608    | 24GB GDDR6    |     | 260W | 6+8p |    |
+| Titan RTX         | Turing   | TU102    | 7.5  | 4608    | 24GB GDDR6    | PC  | 280W | 2x8p |    |
+| Quadro RTX 6000   | Turing   | TU102    | 7.5  | 4608    | 24GB GDDR6    | PC  | 260W | 6+8p |    |
+| Quadro RTX 8000   | Turing   | TU102    | 7.5  | 4608    | 48GB GDDR6    | PC  | 260W | 6+8p |    |
+| Titan V           | Volta    | GV100    | 7.0  | 5120    | 12GB HBM2     | PC  | 250W | 6+8p |    |
+| Titan V 32GB      | Volta    | GV100    | 7.0  | 5120    | 32GB HBM2     | PC  | 250W | 6+8p |    |
+| Tesla V100        | Volta    | GV100    | 7.0  | 5120    | 16GB HBM2     |     | 250W | 2x8p |    |
+| Tesla V100 32GB   | Volta    | GV100    | 7.0  | 5120    | 32GB HBM2     |     | 250W | 2x8p |    |
+| Quadro GP100      | Pascal   | GP100    | 6.0  | 3584    | 16GB HBM2     | PC  | 235W | 8p   |    |
+| Tesla P100        | Pascal   | GP100    | 6.0  | 3584    | 12GB HBM2     |     | 250W | 8p   |    |
+| Tesla P100 16GB   | Pascal   | GP100    | 6.0  | 3584    | 16GB HBM2     |     | 250W | 8p   |    |
+| Tesla P40         | Pascal   | GP102    | 6.1  | 3840    | 24GB GDDR5    |     | 250W | 8p   |    |
+| GTX 1060          | Pascal   | GP106    | 6.1  | 1280    | 8 GB GDDR5    | PC  | 120W | 6p   |    |
+| GTX 1070          | Pascal   | GP104    | 6.1  | 1920    | 8 GB GDDR5    | PC  | 150W | 8p   |    |
+| GTX 1080          | Pascal   | GP104    | 6.1  | 2560    | 8 GB GDDR5X   | PC  | 180W | 8p   |    |
+| Quadro P4000      | Pascal   | GP104    | 6.1  | 1792    | 8 GB GDDR5    | PC  | 105W | 6p   | 1x |
+| Quadro P5000      | Pascal   | GP104    | 6.1  | 2560    | 16GB GDDR5    | PC  | 180W | 8p   |    |
+| Tesla P4          | Pascal   | GP104    | 6.1  | 2560    | 8 GB GDDR5    |     | 75 W |      | 1x |
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
+| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
+| Quadro M4000      | Maxwell2 | GM204    | 5.2  | 1664    | 8 GB GDDR5    | PC  | 120W | 6p   | 1x |
+| Quadro M5000      | Maxwell2 | GM204    | 5.2  | 2048    | 8 GB GDDR5    | PC  | 150W | 6p   |    |
+| Tesla M60         | Maxwell2 | 2x GM204 | 5.2  | 2x 2048 | 2x 8GB GDDR5  |     | 300W | 8p   |    |
+| GTX 980 Ti        | Maxwell2 | GM200    | 5.2  | 2816    | 6 GB GDDR5    | PC  | 250W | 6+8p |    |   
+| GTX Titan X       | Maxwell2 | GM200    | 5.2  | 3072    | 12GB GDDR5    | PC  | 250W | 6+8p |    |   
+| Quadro M6000 24GB | Maxwell2 | GM200    | 5.2  | 3072    | 24GB GDDR5    | PC  | 250W | 8p   |    |
+| Quadro M6000      | Maxwell2 | GM200    | 5.2  | 3072    | 12GB GDDR5    | PC  | 250W | 8p   |    |
+| Tesla M40 24GB    | Maxwell2 | GM200    | 5.2  | 3072    | 24GB GDDR5    |     | 250W | 8p   |    |
+| Tesla M40         | Maxwell2 | GM200    | 5.2  | 3072    | 12GB GDDR5    |     | 250W | 8p   |    |
+|                   |          |          |      |         |               |     |      |      |    |
+| Tesla K80         | Kepler   | 2x GK210 | 3.7  | 2x 2496 | 2x 12GB GDDR5 |     | 300W | 8p   |    |
+|                   |          |          |      |         |               |     |      |      |    |
+| Tesla K40c        | Kepler   | GK180    | 3.5  | 2880    | 12GB GDDR5    |     | 245W | 6+8p |    |
+| Quadro K6000 SDI  | Kepler   | GK110    | 3.5  | 2880    | 12GB GDDR5    | PC  | 239W | 2x6p |    |
+| GTX Titan         | Kepler   | GK110    | 3.5  | 2880    | 6 GB GDDR5    | PC  | 250W | 6+8p |    |
+| Tesla K20X/Xm     | Kepler   | GK110    | 3.5  | 2688    | 6 GB GDDR5    |     | 235W | 6+8p |    |
+| Tesla K20c/m/s    | Kepler   | GK110    | 3.5  | 2496    | 5 GB GDDR5    |     | 225W | 6+8p |    |
 
 The CUDA support for compute capability 3.5 can be obtained via third party support for PyTorch, also.
 
