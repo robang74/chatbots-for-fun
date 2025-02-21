@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-02-11&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>19</b rev_num='
+'>20</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-ubuntu-early-configuration?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-ubuntu-early-configuration?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-ubuntu-early-configuration?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-ubuntu-early-configuration?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -45,6 +45,90 @@ The Tesla K80 is so long that it goes over the USB 3.0 connector but it is too h
 Because the front USB 3.0 ports are working at 40 MB/s - while those in the back at 450 MB/s - can be fine living only with 2x USB 2.0 at 30 MB/s on the front panel. Therefore, this adapter should be considered an optional. It is better to buy an USB 3.0 extension cable and leave it connected to one of the ports on the back of the case.
 <p></p>
 <hr class="pagebreak">
+<p></p>
+<H3 id="ethernet-configuration">Ethernet configuration</H3>
+<p></p>
+First of all we need to set up the Ethernet network link between the workstation and the GPU server.
+<p></p>
+<div class='center'><table id='table-001'><tr><th> Hostname </th><th> IPv4 </th><th> IPv6 </th><th> IP address </th><th> Netmask </th><th> Gateway </th><th> DNS </th><th> Route </th><th> Device </th></tr>
+<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class='td1stcol'> X390 </td><td> manual </td><td> disable </td><td> 10.10.10.1 </td><td> 255.255.255.0 </td><td></td><td> off </td><td> automatic </td><td> usbeth0 </td></tr>
+<tr><td class='td1stcol'> P100 </td><td> manual </td><td> disable </td><td> 10.10.10.2 </td><td> 255.255.255.0 </td><td></td><td> off </td><td> automatic </td><td> pcieth0 </td></tr>
+</table>
+</div><p></p>
+These configuration settings are provided to be used with the Ubuntu Network Manager. Please note that installing Ubuntu 24.04.1 LTS is not mandatory but for lowering the entry barrier for those users who are not used to operating as system administrators.
+<p></p>
+<div class="post-it"><b class="post-it">&#9432;</b>
+<p></p>
+For those prefer to use Microsoft Windows, please notice that I strongly doubt that a 2014 system will be support by Windows 11 and hence you will be forced to be stick with Windows 10 at the little extra cost $30/year support plus the a license than you might provide yourself buying a refurbished OEM sata disk/system. However, if you decide to go with Windows 10 and pay for its support, then refer to those you are paying to give you support! <img class='emoji wbsketch' src='../img/emoji/wink.png'>
+<p></p>
+</div>
+<p></p>
+Esprimo P910 has an Intel PRO/1000 Gigabit ethernet which linked with a cheap USB FastEthernet 100 Mbit/s network adapter will provide such performace below:
+<p></p>
+<blockquote class="code"><code>
+k80user&commat;p910:~$ nc -l 1111 > /dev/null
+<p></p>
+roberto&commat;x390:~$ dd if=/dev/zero bs=1500 count=16K | nc -N 10.10.10.2 1111<br>
+16384+0 records in<br>
+16384+0 records out<br>
+24576000 bytes (25 MB, 23 MiB) copied, 2.01924 s, 12.2 MB/s
+</code></blockquote>
+<p></p>
+Which is good-enough for a reactive GUI remote control but relatively slow to transfer large amount of data. So, a Gigabit USB adapter is worth its 2x price.
+<p></p>
+<hr>
+<p></p>
+<H3 id="remote-control">Remote control</H3>
+<p></p>
+In order to avoid to waste our time switching between our laptop/PC and the GPU server:
+<p></p>
+<li><tt>Settings &rarr; System &rarr; Remote Desktop &rarr; Desktop Sharing &rarr; Remote Control &rarr; ON</tt></li>
+<p></p>
+<li><tt>Settings &rarr; System &rarr; Users &rarr; Unlock &rarr; Automatic Login &rarr; OFF</tt></li>
+<p></p>
+<li><tt>Settings &rarr; System &rarr; Secure Shell &rarr; ON</tt></li>
+<p></p>
+<li><tt>Settings &rarr; Privacy & Security &rarr; Blank Screen Delay &rarr; NEVER</tt></li>
+<p></p>
+These settings will allow us to access the GPU server with Remmina and any SSH client.
+<p></p>
+<blockquote><span class="warnicon spanicon">&nbsp;<svg class="warnicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;WARNING!&nbsp;&nbsp;</nobr></span><br><br>Please, note that this is NOT the proper way to go with a system in "production" but a setup shortcut.</blockquote>
+<p></p>
+<p></p>
+<H4>Root SSH password-less login</H4>
+<p></p>
+We are lazy and we are proud of it, especially when repetitive tasks are at stake. This includes password digitization for frequent accesses. One in particular is the root access to a remote host using SSH without entering the password. Moreover, by the password is a way of login that usually is disabled by default for the <tt>root</tt> user, at least.
+<p></p>
+<blockquote class="code"><code>
+ # On the client side
+<p></p>
+ssh-keygen -t rsa<br>
+ssh-copy-id k80usr&commat;10.10.10.2<br>
+ssh k80usr&commat;10.10.10.2<br>
+<p></p>
+ # On the server side
+<p></p>
+sudo -s<br>
+mkdir -p /root/.ssh<br>
+cat /home/k80usr/.ssh/authorized_keys >>/root/.ssh/authorized_keys<br>
+chmod go-wrx -R /root/.ssh<br>
+echo "tput cvvis" >> ~/.bashrc<br>
+exit<br>
+echo "tput cvvis" >> ~/.bashrc<br>
+exit<br>
+<p></p>
+ # On the client side
+<p></p>
+echo "rl() { ssh -XY root&commat;10.10.10.2; }" >> ~/.bashrc<br>
+echo "ul() { ssh -XY k80usr&commat;10.10.10.2; }" >> ~/.bashrc<br>
+bash<br>
+rl<br>
+</code></blockquote>
+<p></p>
+Appending two functions at the <tt>.bashrc</tt> file, in every new <tt>bash</tt> shell we can just digit <tt>ul</tt> or <tt>rl</tt> for user or root login on our GPU server.
+<p></p>
+<hr>
 <p></p>
 <H3 id="dvi-to-vga-adapter">DVI to VGA adapter</H3>
 <p></p>
@@ -78,89 +162,6 @@ On the other hand, connecting the GPU server in a cabled network requires a prox
 Providing the GPU server with an independent connection to the Internet, which can physically disable removing the USB dongle, allows us to downsize the RJ45 cabled network to a single link point-to-point with our workstation without configuring it as Internet proxy as well.
 <p></p>
 Please note that within the <b>RTL8188</b>’s family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi network is working only at 5GHz, instead. Moreover, it will result relatively slow to leverage a full-fledged optic fiber Internet connection.
-<p></p>
-<hr>
-<p></p>
-<H3 id="ethernet-configuration">Ethernet configuration</H3>
-<p></p>
-First of all we need to set up the Ethernet network link between the workstation and the GPU server.
-<p></p>
-<div class='center'><table id='table-001'><tr><th> Hostname </th><th> IPv4 </th><th> IPv6 </th><th> IP address </th><th> Netmask </th><th> Gateway </th><th> DNS </th><th> Route </th><th> Device </th></tr>
-<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class='td1stcol'> X390 </td><td> manual </td><td> disable </td><td> 10.10.10.1 </td><td> 255.255.255.0 </td><td></td><td> off </td><td> automatic </td><td> usbeth0 </td></tr>
-<tr><td class='td1stcol'> P100 </td><td> manual </td><td> disable </td><td> 10.10.10.2 </td><td> 255.255.255.0 </td><td></td><td> off </td><td> automatic </td><td> pcieth0 </td></tr>
-</table>
-</div><p></p>
-These configuration settings are provided to be used with the Ubuntu Network Manager. Please note that installing Ubuntu 24.04.1 LTS is not mandatory but for lowering the entry barrier for those users who are not used to operating as system administrators.
-<p></p>
-<div class="post-it"><b class="post-it">&#9432;</b>
-<p></p>
-For those prefer to use Microsoft Windows, please notice that I strongly doubt that a 2014 system will be support by Windows 11 and hence you will be forced to be stick with Windows 10 at the little extra cost $30/year support plus the a license than you might provide yourself buying a refurbished OEM sata disk/system. However, if you decide to go with Windows 10 and pay for its support, then refer to those you are paying to give you support! <img class='emoji wbsketch' src='../img/emoji/wink.png'>
-<p></p>
-</div>
-<p></p>
-Before everything else, note that the Esprimo P910 has 100 Mbit/s network and this is almost the best you can achieve from it:
-<p></p>
-<blockquote class="code"><code>
-k80user&commat;p910:~$ nc -l 1111 > /dev/null
-<p></p>
-roberto&commat;x390:~$ dd if=/dev/zero bs=1500 count=16K | nc -N 10.10.10.2 1111<br>
-16384+0 records in<br>
-16384+0 records out<br>
-24576000 bytes (25 MB, 23 MiB) copied, 2.01924 s, 12.2 MB/s
-</code></blockquote>
-<p></p>
-Which suggests that a cheap 100 MB/s USB-Ethernet (fast Ethernet) is enough, and it makes us wonder how to leverage one of the 5 Gbits/s USB3 rear port for connecting the GPU server to our workstation as it were a USB storage device to quickly transfer huge chunk of data.
-<p></p>
-<hr>
-<p></p>
-<H3 id="remote-control">Remote control</H3>
-<p></p>
-In order to avoid to waste our time switching between our laptop/PC and the GPU server:
-<p></p>
-<li><tt>Settings &rarr; System &rarr; Remote Desktop &rarr; Desktop Sharing &rarr; Remote Control &rarr; ON</tt></li>
-<p></p>
-<li><tt>Settings &rarr; System &rarr; Users &rarr; Unlock &rarr; Automatic Login &rarr; OFF</tt></li>
-<p></p>
-<li><tt>Settings &rarr; System &rarr; Secure Shell &rarr; ON</tt></li>
-<p></p>
-<li><tt>Settings &rarr; Privacy & Security &rarr; Blank Screen Delay &rarr; NEVER</tt></li>
-<p></p>
-These settings will allow us to access the GPU server with Remmina and any SSH client.
-<p></p>
-<blockquote><span class="warnicon spanicon">&nbsp;<svg class="warnicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;WARNING!&nbsp;&nbsp;</nobr></span><br><br>Please, note that this is NOT the proper way to go with a system in "production" but a setup shortcut.</blockquote>
-<p></p>
-<H4>Root SSH password-less login</H4>
-<p></p>
-We are lazy and we are proud of it, especially when repetitive tasks are at stake. This includes password digitization for frequent accesses. One in particular is the root access to a remote host using SSH without entering the password. Moreover, by the password is a way of login that usually is disabled by default for the <tt>root</tt> user, at least.
-<p></p>
-<blockquote class="code"><code>
- # On the client side
-<p></p>
-ssh-keygen -t rsa<br>
-ssh-copy-id k80usr&commat;10.10.10.2<br>
-ssh k80usr&commat;10.10.10.2<br>
-<p></p>
- # On the server side
-<p></p>
-sudo -s<br>
-mkdir -p /root/.ssh<br>
-cat /home/k80usr/.ssh/authorized_keys >>/root/.ssh/authorized_keys<br>
-chmod go-wrx -R /root/.ssh<br>
-echo "tput cvvis" >> ~/.bashrc<br>
-exit<br>
-echo "tput cvvis" >> ~/.bashrc<br>
-exit<br>
-<p></p>
- # On the client side
-<p></p>
-echo "rl() { ssh -XY root&commat;10.10.10.2; }" >> ~/.bashrc<br>
-echo "ul() { ssh -XY k80usr&commat;10.10.10.2; }" >> ~/.bashrc<br>
-bash<br>
-rl<br>
-</code></blockquote>
-<p></p>
-Appending two functions at the <tt>.bashrc</tt> file, in every new <tt>bash</tt> shell we can just digit <tt>ul</tt> or <tt>rl</tt> for user or root login on our GPU server.
 <p></p>
 <hr>
 <p></p>
@@ -235,13 +236,13 @@ Using this <a href="https://raw.githubusercontent.com/robang74/chatbots-for-fun/
 </div><p></p>
 Notice that decibel are a logarithmic way of measuring the ratio between two sound intensities, alike human hearing are working. Hence considering a referencing intensity (32 dB) then the difference with another value gives us the absolute ratio between the two related intensities despite the scale was not standardly calibrated.
 <p></p>
-For sake of completeness, these temperatures have been measured in a 20°C room temperature. Sometimes, the ending temperature is lower than the starting temperature but this should not surprise us because in the meantime the fan started to cool down the CPU and the ending temperature is taken after 15 seconds the 30s job is completed.
-<p></p>
 <div class="post-it"><b class="post-it">&#9432;</b>
 <p></p>
 In the final version of the manual, this part will end up after the BIOS upgrade chapter, so before every hardware change. Instead, the temperatures above reported, have been taken after having modified the Esprimo P910 moving its main 12cm fan and installing the handcraft baffle to increase the case air-flow. At the time of the measures, the two middle PCI slot covers were removed. Hence, it could be possible to find different values with the original hardware configuration.
 <p></p>
 </div>
+<p></p>
+For sake of completeness, these temperatures have been measured in a 20°C room temperature. Sometimes, the ending temperature is lower than the starting temperature but this should not surprise us because in the meantime the fan started to cool down the CPU and the ending temperature is taken after 15 seconds the 30s job is completed.
 <p></p>
 When the Fan Control and the Acoustic Management are both disabled, and an <a href="../img/main-fan-splitter-between-k80-and-cpu.jpg" target='_blank' rel='noopener noreferrer'>air-flow splitter</a> is added to <a href="dual-psu-esprimo-p910-installation.html#going-with-the-wind" target='_blank' rel='noopener noreferrer'>cooling down</a> the Tesla K80, then because of the hand-crafted splitter the noise increases by a six decibels compared when the Tesla K80 nor the splitter were installed.
 <p></p>
@@ -280,7 +281,7 @@ These options are the suggested for the Linux kernel command line:
 <p></p>
 The above parameters should go into the <tt>GRUB_CMDLINE_LINUX_DEFAULT</tt> variable which is recorded into the <tt>/etc/default/grub</tt> file. Then <tt>sudo update-grub</tt> to write the change in the grub's boot record, then <tt>reboot</tt> to let the system restart with the new settings. Finally, after the reboot <tt>cat /proc/cmdline</tt> to check.
 <p></p>
-<hr>
+<hr class="pagebreak">
 <p></p>
 <H3 id="bios-settings">BIOS settings</H3>
 <p></p>

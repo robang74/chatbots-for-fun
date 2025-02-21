@@ -25,41 +25,6 @@ Because the front USB 3.0 ports are working at 40 MB/s - while those in the back
 
 ~~~~
 
-### DVI to VGA adapter
-
-The Esprimo P910 comes with a DVI port, and in case you plan to couple with an old VGA monitor like I did, then expect that a cheap DVI-VGA adapter will limit the monitor resolution to 1024x768 despite being advertised differently. Which is enough for doing the preliminary stuff and remoting the desktop.
-
-Unfortunately, it also affects the resolution of the shared desktop by Gnome RDP. In order to mitigate this limitation, it is worth installing the Gnome tweaks and injecting a new resolution from a Gnome terminal:
-
-[!CODE]
-sudo apt install gnome-tweaks
-
-mcvt='$(cvt 1280 1024 75 | tail -n1 | cut -d\" -f3-)'<br>
-echo '#!/bin/bash'"<br>
-xrandr --newmode 1280x1024 $mcvt<br>
-xrandr --addmode VGA-1 1280x1024<br>
-xrandr --output VGA-1 --mode 1280x1024<br>
-" > ~/.xinitrc; chmod +x ~/.xinitrc
-
-gnome-session-properties # to add the .xinitrc script
-[/CODE]
-
-With Gnome tweaks we can change the fonts and icons sizes, plus setting the zoom at 75%. Which combined with the maximum resolution supported by the monitor (e.g. 1280x1024, 5:4) provides a display equivalent area (e.g. 1700x1366) enlarged by 78% (and 3x than the 1024x768 given by the adapter) but at lower 96 --> 72 DPI resolution. Not bad at all, for an old piece of trashware! {;-)}
-
----
-
-### Wi-Fi/LAN networking
-
-The Wi-Fi dongle is NOT an alternative to the cabled network for transferring data to the GPU server. Because configuring the Wi-Fi in a way that clients over that network can see each other is NOT a good idea, in terms of security nor data privacy.
-
-On the other hand, connecting the GPU server in a cabled network requires a proxy/firewall for reaching the Internet which can be useful for maintenance, updates and downloads. In a home network the Wi-Fi usually provides Internet access.
-
-Providing the GPU server with an independent connection to the Internet, which can physically disable removing the USB dongle, allows us to downsize the RJ45 cabled network to a single link point-to-point with our workstation without configuring it as Internet proxy as well.
-
-Please note that within the **RTL8188**’s family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi network is working only at 5GHz, instead. Moreover, it will result relatively slow to leverage a full-fledged optic fiber Internet connection.
-
----
-
 ### Ethernet configuration
 
 First of all we need to set up the Ethernet network link between the workstation and the GPU server.
@@ -77,7 +42,7 @@ For those prefer to use Microsoft Windows, please notice that I strongly doubt t
 
 [/INFO]
 
-Before everything else, note that the Esprimo P910 has 100 Mbit/s network and this is almost the best you can achieve from it:
+Esprimo P910 has an Intel PRO/1000 Gigabit ethernet which linked with a cheap USB FastEthernet 100 Mbit/s network adapter will provide such performace below:
 
 [!CODE]
 k80user@p910:~$ nc -l 1111 > /dev/null
@@ -88,7 +53,7 @@ roberto@x390:~$ dd if=/dev/zero bs=1500 count=16K | nc -N 10.10.10.2 1111<br>
 24576000 bytes (25 MB, 23 MiB) copied, 2.01924 s, 12.2 MB/s
 [/CODE]
 
-Which suggests that a cheap 100 MB/s USB-Ethernet (fast Ethernet) is enough, and it makes us wonder how to leverage one of the 5 Gbits/s USB3 rear port for connecting the GPU server to our workstation as it were a USB storage device to quickly transfer huge chunk of data.
+Which is good-enough for a reactive GUI remote control but relatively slow to transfer large amount of data. So, a Gigabit USB adapter is worth its 2x price.
 
 ---
 
@@ -109,6 +74,7 @@ These settings will allow us to access the GPU server with Remmina and any SSH c
 > [!WARN]
 > 
 > Please, note that this is NOT the proper way to go with a system in "production" but a setup shortcut.
+
 
 #### Root SSH password-less login
 
@@ -141,6 +107,41 @@ rl<br>
 [/CODE]
 
 Appending two functions at the `.bashrc` file, in every new `bash` shell we can just digit `ul` or `rl` for user or root login on our GPU server.
+
+---
+
+### DVI to VGA adapter
+
+The Esprimo P910 comes with a DVI port, and in case you plan to couple with an old VGA monitor like I did, then expect that a cheap DVI-VGA adapter will limit the monitor resolution to 1024x768 despite being advertised differently. Which is enough for doing the preliminary stuff and remoting the desktop.
+
+Unfortunately, it also affects the resolution of the shared desktop by Gnome RDP. In order to mitigate this limitation, it is worth installing the Gnome tweaks and injecting a new resolution from a Gnome terminal:
+
+[!CODE]
+sudo apt install gnome-tweaks
+
+mcvt='$(cvt 1280 1024 75 | tail -n1 | cut -d\" -f3-)'<br>
+echo '#!/bin/bash'"<br>
+xrandr --newmode 1280x1024 $mcvt<br>
+xrandr --addmode VGA-1 1280x1024<br>
+xrandr --output VGA-1 --mode 1280x1024<br>
+" > ~/.xinitrc; chmod +x ~/.xinitrc
+
+gnome-session-properties # to add the .xinitrc script
+[/CODE]
+
+With Gnome tweaks we can change the fonts and icons sizes, plus setting the zoom at 75%. Which combined with the maximum resolution supported by the monitor (e.g. 1280x1024, 5:4) provides a display equivalent area (e.g. 1700x1366) enlarged by 78% (and 3x than the 1024x768 given by the adapter) but at lower 96 --> 72 DPI resolution. Not bad at all, for an old piece of trashware! {;-)}
+
+---
+
+### Wi-Fi/LAN networking
+
+The Wi-Fi dongle is NOT an alternative to the cabled network for transferring data to the GPU server. Because configuring the Wi-Fi in a way that clients over that network can see each other is NOT a good idea, in terms of security nor data privacy.
+
+On the other hand, connecting the GPU server in a cabled network requires a proxy/firewall for reaching the Internet which can be useful for maintenance, updates and downloads. In a home network the Wi-Fi usually provides Internet access.
+
+Providing the GPU server with an independent connection to the Internet, which can physically disable removing the USB dongle, allows us to downsize the RJ45 cabled network to a single link point-to-point with our workstation without configuring it as Internet proxy as well.
+
+Please note that within the **RTL8188**’s family there are adapters which support 2.4GHz at 150 Mbit/s, only. Just in case your Wi-Fi network is working only at 5GHz, instead. Moreover, it will result relatively slow to leverage a full-fledged optic fiber Internet connection.
 
 ---
 
@@ -214,13 +215,13 @@ Using this [script](https://raw.githubusercontent.com/robang74/chatbots-for-fun/
 
 Notice that decibel are a logarithmic way of measuring the ratio between two sound intensities, alike human hearing are working. Hence considering a referencing intensity (32 dB) then the difference with another value gives us the absolute ratio between the two related intensities despite the scale was not standardly calibrated.
 
-For sake of completeness, these temperatures have been measured in a 20°C room temperature. Sometimes, the ending temperature is lower than the starting temperature but this should not surprise us because in the meantime the fan started to cool down the CPU and the ending temperature is taken after 15 seconds the 30s job is completed.
-
 [!INFO]
 
 In the final version of the manual, this part will end up after the BIOS upgrade chapter, so before every hardware change. Instead, the temperatures above reported, have been taken after having modified the Esprimo P910 moving its main 12cm fan and installing the handcraft baffle to increase the case air-flow. At the time of the measures, the two middle PCI slot covers were removed. Hence, it could be possible to find different values with the original hardware configuration.
 
 [/INFO]
+
+For sake of completeness, these temperatures have been measured in a 20°C room temperature. Sometimes, the ending temperature is lower than the starting temperature but this should not surprise us because in the meantime the fan started to cool down the CPU and the ending temperature is taken after 15 seconds the 30s job is completed.
 
 When the Fan Control and the Acoustic Management are both disabled, and an [air-flow splitter](img/main-fan-splitter-between-k80-and-cpu.jpg?target=_blank) is added to [cooling down](dual-psu-esprimo-p910-installation.html#going-with-the-wind?target=_blank) the Tesla K80, then because of the hand-crafted splitter the noise increases by a six decibels compared when the Tesla K80 nor the splitter were installed.
 
@@ -259,7 +260,7 @@ These options are the suggested for the Linux kernel command line:
 
 The above parameters should go into the `GRUB_CMDLINE_LINUX_DEFAULT` variable which is recorded into the `/etc/default/grub` file. Then `sudo update-grub` to write the change in the grub's boot record, then `reboot` to let the system restart with the new settings. Finally, after the reboot `cat /proc/cmdline` to check.
 
----
+~~~~
 
 ### BIOS settings
 
