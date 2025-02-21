@@ -271,6 +271,31 @@ root@P910:~# lspci -vvv | grep -i -e nvidia -e PLX<br>
 
 The output is much more comforting because all the memory BARs are present but still not assigned. While the warnings in the kernel log remained alike the same.
 
+<!--
+
+root@P910:~# apt list --installed  | grep -i nvidia | cut -d/ -f1
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+libnvidia-common-470
+libnvidia-compute-470
+libnvidia-extra-470
+linux-modules-nvidia-470-5.15.0-131-generic
+linux-modules-nvidia-470-5.15.0-67-generic
+linux-modules-nvidia-470-generic-hwe-20.04
+linux-objects-nvidia-470-5.15.0-131-generic
+linux-objects-nvidia-470-5.15.0-67-generic
+linux-signatures-nvidia-5.15.0-131-generic
+linux-signatures-nvidia-5.15.0-67-generic
+nvidia-compute-utils-470
+nvidia-kernel-common-470
+nvidia-kernel-source-470
+nvidia-modprobe
+nvidia-prime
+
+
+//-->
+
 +
 ===
 
