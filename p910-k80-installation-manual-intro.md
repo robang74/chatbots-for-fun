@@ -62,7 +62,7 @@ This manual's sole purpose is educational, owing to the peculiar constraints ado
 
 The choice of Esprimo P910 is part of the challenge, not the most suitable platform.
 
-+++
+...
 
 > [!INFO]
 > 
@@ -84,7 +84,7 @@ This manual is your ultimate guide to installing a **Nvidia Tesla K80** — a po
 
 This "Linux Thinkpad e altri gadget" ([PDF](https://github.com/robang74/roberto-a-foglietta/blob/main/pdf.todo/290-Linux_Thinkpad_e_altri_gadget-v2.pdf)) written in Italian can be helpful to setup a low-cost and Linux-friendly 3D printing home-lab, starting from zero, as well. Undisputedly, a completely dedicated 3D-printing lab is not the ideal resource allocation for many, therefore "from zero" means "from the beginning".
 
-=====
+====
 
 ## Structure <br><sup class='sub-hash'>written by DeepSeek 3</sup>
 
