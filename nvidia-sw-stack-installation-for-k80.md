@@ -178,7 +178,7 @@ nvidia-utils-470/noble-updates<br>
 Which is not good at all, but the following is even worse:
 
 [!CODE]
-root@p910:~# cat /proc/driver/nvidia/gpus/*/information<br>
+root@p910:~# cat /proc/driver/nvidia/gpus/&ast;/information<br>
 Model: Tesla K80<br>
 IRQ:    39<br>
 GPU UUID: GPU-????????-????-????-????-????????????<br>
@@ -301,8 +301,101 @@ I purged some stuff from the Nvidia SW stack to avoid clogging the Xorg and beca
 ===
 ++++++
 
+<span id="old-but-fast"></span>
+## Speed-up system boot
+
+While Ubuntu 24.04 LTS serie are tailored for more recent hardware, Esprimo P910 is performing enough well in running it, in combination with a **very fast** SATA3 or USB SSD drive, only. For example Netac US9 512GB can provide 450Mb/s when attached with one of the two the rear USB 3.x ports while a fast SATA3 SSD can provide up to 6Gbits/s c.a. 600MB/s.
+
+Instead, using a 10 years old 2.5" 7200RPM old HDD from an upgraded Thinkpad, the reading performance will be around 100MB/s, like a Sandisk Ultra USB 3.1 stick. In this scenario it is way better to start the system in `init=3` mode, which offers the network services like SSH but no any graphic interface.
+
+[!CODE]
+sudo systemctl set-default multi-user.target
+[/CODE]
+
+However, the SSH connectivity, in combination with the X-forwarding enabled, allows us to use graphical applications running on the host but displayed on the client. In this scenario, a snap-free system will be faster in reaching the multi.users target.
+
+> [!WARN]
+> 
+> This procedure will also delete all the user data created by the application which were installed with snap!
+
+In order to get your system rid off snap completely, for all the packages in `snap list` do `snap remove $package` leaving at the ending `core` and `snapd` for the last.
+
+[!CODE]
+sudo init 3<br>
+sudo apt purge snap snapd gnome-software-plugin-snap<br>
+
+sudo rm -rf /snap /var/snap /var/lib/snapd<br>
+sudo rm -rf /root/snap /home/&ast;/snap<br>
+
+sudo apt install gnome-session gdm3<br>
+sudo init 5<br>
+[/CODE]
+
+After having removed snap completely, it is possible to choose the graphical environment based on .deb package installation. Which can be Gnome3 but whatever else, also.
+
+[!CODE]
+root@P910:~# hdparm -t /dev/sda | tail -n1<br>
+ Timing buffered disk reads: 310 MB in  3.02 seconds = 102.78 MB/sec<br>
+
+**# Before boot optimisation**
+
+root@P910:~# systemd-analyze<br>
+Startup finished in 5.198s (firmware) + 4.839s (loader) + 4.473s (kernel)<br>
+\_ + 37.858s (userspace) = 52.369s<br>
+graphical.target reached after 37.744s in userspace
+
+**# After boot optimisation**
+
+root@P910:~# sed -ne '/ed OpenBSD\|0\] Linux/I s,\(.\{60\,76\}\).&ast;,\1,p' /var/log/syslog|tail -n2<br>
+Feb 22 15:16:20 P910 kernel: [    0.000000] Linux version 5.15.0-131-generic<br>
+Feb 22 15:16:24 P910 systemd[1]: Started OpenBSD Secure Shell server.<br>
+
+root@P910:~# systemd-analyze<br>
+Startup finished in 5.147s (firmware) + 4.865s (loader) + 3.209s (kernel)<br>
+\_ + 21.452s (userspace) = 34.674s<br>
+multi-user.target reached after 21.441s in userspace<br>
+[/CODE]
+
+This means that the whole booting process has been cut by 33% while a SSH connection can speed-up reaching a root prompt by 4x times, allowing us to be operative in about 14s. 
+
+In fact, since firmware and loader taking 10s to hand control to the kernel, and SSH service is ready 4s after the kernel's initial log entry, a waiting client can connect immediately leveraging key-based root login. In contrast, Gnome autologin can automatically open a graphic terminal console but users must move the mouse, activate the window, and digit `sudo -s` and their password.
+
+All of this using hardware and software from 10 years ago! {;-)}
+
+#### Are these timings real?
+
+Unfortunately the timings picture is darker than above presented because BIOS start-up took its own time:
+
+[!CODE]
+**# Function definitions**
+
+rb() { rl reboot; read -p "press ENTER when the fan ramps down-up"; date +%s.%N; }<br>
+wt() { time ping -i 0.1 10.10.10.2 -w 60 | sed -ne "/time=/ s,.*,&,p;q"; }<br>
+ex() { wt 2>&1 | grep real; date +%s.%N; rl exit; date +%s.%N; }<br>
+sp() { sleep 20; date +%s.%N; }<br>
+
+**# Boot timing measure**
+
+roberto@x280[2]:~$ rb; sp; ex; echo "2nd SSH test"; ex;<br>
+Connection to 10.10.10.2 closed by remote host.<br>
+press ENTER when the fan ramps down-up<br>
+1740244339.068141004<br>
+1740244359.081832047<br>
+real	0m14.262s<br>
+1740244373.346845741<br>
+1740244375.059336898<br>
+2nd SSH test<br>
+real	0m0.123s<br>
+1740244375.192925718<br>
+1740244375.532527654<br>
+[/CODE]
+
+The `ping` wait introduces an irrelevant delay, the SSH connection is ready after 34s the hardware ignition and ready for the user after 36s due to environment preparation delay. In practice 20s are lost anyway before any optimisation can take place. Hence, the SSH passwordless root login speed-up by 2x factor the access rather than 4x times.
+
++
+
 <span id="bios-as-fw"></span>
-### Why do PCs still have a BIOS?
+## Why do PCs still have a BIOS?
 
 The BIOS (Basic Input Output System) is a firmware stored in a separate chip, but why does a modern Personal Computer still have a troubles-maker firmware for booting?
 
@@ -384,9 +477,6 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 | Titan V 32GB      | Volta    | GV100    | 7.0  | 5120    | 32GB HBM2     | PC  | 250W | 6+8p |    |
 | Tesla V100        | Volta    | GV100    | 7.0  | 5120    | 16GB HBM2     |     | 250W | 2x8p |    |
 | Tesla V100 32GB   | Volta    | GV100    | 7.0  | 5120    | 32GB HBM2     |     | 250W | 2x8p |    |
-|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
-| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
-|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | Quadro GP100      | Pascal   | GP100    | 6.0  | 3584    | 16GB HBM2     | PC  | 235W | 8p   |    |
 | Tesla P100        | Pascal   | GP100    | 6.0  | 3584    | 12GB HBM2     |     | 250W | 8p   |    |
 | Tesla P100 16GB   | Pascal   | GP100    | 6.0  | 3584    | 16GB HBM2     |     | 250W | 8p   |    |
@@ -398,6 +488,9 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 | Quadro P5000      | Pascal   | GP104    | 6.1  | 2560    | 16GB GDDR5    | PC  | 180W | 8p   |    |
 | Tesla P4          | Pascal   | GP104    | 6.1  | 2560    | 8 GB GDDR5    |     | 75 W |      | 1x |
 | Quadro M4000      | Maxwell2 | GM204    | 5.2  | 1664    | 8 GB GDDR5    | PC  | 120W | 6p   | 1x |
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
+| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | Quadro M5000      | Maxwell2 | GM204    | 5.2  | 2048    | 8 GB GDDR5    | PC  | 150W | 6p   |    |
 | Tesla M60         | Maxwell2 | 2x GM204 | 5.2  | 2x 2048 | 2x 8GB GDDR5  |     | 300W | 8p   |    |
 | GTX 980 Ti        | Maxwell2 | GM200    | 5.2  | 2816    | 6 GB GDDR5    | PC  | 250W | 6+8p |    |   
