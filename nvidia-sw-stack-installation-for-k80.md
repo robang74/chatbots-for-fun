@@ -390,7 +390,7 @@ real	0m0.123s<br>
 1740244375.532527654<br>
 [/CODE]
 
-The `ping` wait introduces an irrelevant delay, the SSH connection is ready after 34s the hardware ignition and ready for the user after 36s due to environment preparation delay. In practice 20s are lost anyway before any optimisation can take place. Hence, the SSH passwordless root login speed-up by 2x factor the access rather than 4x times.
+The `ping` wait introduces an irrelevant delay, the SSH connection is ready after 34s the hardware ignition and ready for the user after 36s due to environment preparation delay. In practice 20s are lost anyway before any optimisation can take place. Hence, the SSH passwordless root login speed-up by 2x factor the access rather than 4x times. However, adopting a fast SATA3 SSD for about €20 can radically shorten the timings.
 
 +
 
