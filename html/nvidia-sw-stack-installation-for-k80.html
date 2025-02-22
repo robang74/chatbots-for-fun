@@ -303,7 +303,6 @@ linux-signatures-nvidia-5.15.0-131-generic<br>
 linux-signatures-nvidia-5.15.0-67-generic<br>
 nvidia-kernel-common-470<br>
 nvidia-modprobe<br>
-nvidia-prime<br>
 </code></blockquote>
 <p></p>
 I purged some stuff from the Nvidia SW stack to avoid clogging the Xorg and because the Tesla K80 is not supposed to function as a graphic accelerator at this stage, at least.
@@ -377,7 +376,9 @@ In fact, since firmware and loader taking 10s to hand control to the kernel, and
 <p></p>
 All of this using hardware and software from 10 years ago! <img class='emoji wbsketch' src='../img/emoji/wink.png'>
 <p></p>
-<H4>Are these timings real?</H4>
+<hr>
+<p></p>
+<H3 id="are-these-timings-real">Are these timings real?</H3>
 <p></p>
 Unfortunately the timings picture is darker than above presented because BIOS start-up took its own time:
 <p></p>
@@ -407,7 +408,22 @@ real	0m0.123s<br>
 <p></p>
 The <tt>ping</tt> wait introduces an irrelevant delay, the SSH connection is ready after 34s the hardware ignition and ready for the user after 36s due to environment preparation delay. In practice 20s are lost anyway before any optimisation can take place. Hence, the SSH passwordless root login speed-up by 2x factor the access rather than 4x times. However, adopting a fast SATA3 SSD for about €20 can radically shorten the timings.
 <p></p>
-<br>
+<hr>
+<p></p>
+<H3 id="advanced-optimisation">Advanced optimisation</H3>
+<p></p>
+Those systems that are still using a HDD can leverage <a href="https://e4rat.sourceforge.net" target='_blank' rel='noopener noreferrer'>e4rat</a> for <a href="https://www.howtogeek.com/69753/how-to-cut-your-linux-pcs-boot-time-in-half-with-e4rat/" target='_blank' rel='noopener noreferrer'>boot optimisation</a>. While checking with <tt>systemd-analyze critical-chain</tt> it is possible to resolve bottle-necks in the boot process. Instead, <tt>preload</tt> is a long-term optimiser.
+<p></p>
+<blockquote class="code"><code>
+root&commat;P910:~# systemd-analyze<br>
+Startup finished in 4.811s (firmware) + 4.579s (loader) + 5.157s (kernel)<br>
+\_ + 14.309s (userspace) = 28.858s<br>
+multi-user.target reached after 14.300s in userspace<br>
+</code></blockquote>
+<p></p>
+In this way, I managed to cut off about 7s from the previous optimization which means another 33% reduction in userspace. However, this had a minor impact in having a SSH root session ready to use 32.5s instead of 36s, about 10% less.
+<p></p>
+<div class="pagebreak"><br></div>
 <p></p>
 <span id="bios-as-fw"></span>
 <H2 id="why-do-pcs-still-have-a-bios">Why do PCs still have a BIOS?</H2>
@@ -434,7 +450,7 @@ Despite this, and despite not being the only 4GB+ PCIe 3.0 device on the market 
 <p></p>
 Are we sharing the same feeling about putting an end to the BIOS-as-FW paradigm?
 <p></p>
-<br>
+<div class="pagebreak"><br></div>
 <p></p>
 <H2 id="pcie-30-gpu-cards">PCIe 3.0 GPU cards</H2>
 <p></p>
@@ -482,6 +498,9 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 <tr><td class='td1stcol'> Tesla T4/G </td><td> Turing </td><td> TU104 </td><td> 7.5 </td><td> 2560 </td><td> 16GB GDDR6 </td><td></td><td> 75 W </td><td></td><td> 1x </td></tr>
 <tr><td class='td1stcol'> CMP 50HX </td><td> Turing </td><td> TU102 </td><td> 7.5 </td><td> 3584 </td><td> 10GB GDDR6 </td><td></td><td> 250W </td><td> 2x8p </td><td></td></tr>
 <tr><td class='td1stcol'> RTX 2080 Ti </td><td> Turing </td><td> TU102 </td><td> 7.5 </td><td> 4352 </td><td> 11GB GDDR6 </td><td> PC </td><td> 250W </td><td> 6+8p </td><td></td></tr>
+<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class='td1stcol'> <b>model</b> </td><td><b>arch.</b></td><td><b>GPU</b></td><td><b>CUDA</b></td><td><b>cores</b></td><td><b>RAM</b></td><td><b>use</b></td><td><b>W-max</b></td><td><b>alim.</b></td><td><b>size</b></td></tr>
+<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td class='td1stcol'> RTX 2080 Ti 12 GB </td><td> Turing </td><td> TU102 </td><td> 7.5 </td><td> 4608 </td><td> 12GB GDDR6 </td><td> PC </td><td> 260W </td><td> 6+8p </td><td></td></tr>
 <tr><td class='td1stcol'> Tesla T10 16 GB </td><td> Turing </td><td> TU102 </td><td> 7.5 </td><td> 3072 </td><td> 16GB GDDR6 </td><td></td><td> 150W </td><td> 1x8p </td><td></td></tr>
 <tr><td class='td1stcol'> Tesla T40 24 GB </td><td> Turing </td><td> TU102 </td><td> 7.5 </td><td> 4608 </td><td> 24GB GDDR6 </td><td></td><td> 260W </td><td> 6+8p </td><td></td></tr>
@@ -503,9 +522,6 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 <tr><td class='td1stcol'> Quadro P5000 </td><td> Pascal </td><td> GP104 </td><td> 6.1 </td><td> 2560 </td><td> 16GB GDDR5 </td><td> PC </td><td> 180W </td><td> 8p </td><td></td></tr>
 <tr><td class='td1stcol'> Tesla P4 </td><td> Pascal </td><td> GP104 </td><td> 6.1 </td><td> 2560 </td><td> 8 GB GDDR5 </td><td></td><td> 75 W </td><td></td><td> 1x </td></tr>
 <tr><td class='td1stcol'> Quadro M4000 </td><td> Maxwell2 </td><td> GM204 </td><td> 5.2 </td><td> 1664 </td><td> 8 GB GDDR5 </td><td> PC </td><td> 120W </td><td> 6p </td><td> 1x </td></tr>
-<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class='td1stcol'> <b>model</b> </td><td><b>arch.</b></td><td><b>GPU</b></td><td><b>CUDA</b></td><td><b>cores</b></td><td><b>RAM</b></td><td><b>use</b></td><td><b>W-max</b></td><td><b>alim.</b></td><td><b>size</b></td></tr>
-<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td class='td1stcol'> Quadro M5000 </td><td> Maxwell2 </td><td> GM204 </td><td> 5.2 </td><td> 2048 </td><td> 8 GB GDDR5 </td><td> PC </td><td> 150W </td><td> 6p </td><td></td></tr>
 <tr><td class='td1stcol'> Tesla M60 </td><td> Maxwell2 </td><td> 2x GM204 </td><td> 5.2 </td><td> 2x 2048 </td><td> 2x 8GB GDDR5 </td><td></td><td> 300W </td><td> 8p </td><td></td></tr>
 <tr><td class='td1stcol'> GTX 980 Ti </td><td> Maxwell2 </td><td> GM200 </td><td> 5.2 </td><td> 2816 </td><td> 6 GB GDDR5 </td><td> PC </td><td> 250W </td><td> 6+8p </td><td></td></tr>
@@ -518,6 +534,9 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 <tr><td class='td1stcol'> Tesla K80 </td><td> Kepler </td><td> 2x GK210 </td><td> 3.7 </td><td> 2x 2496 </td><td> 2x 12GB GDDR5 </td><td></td><td> 300W </td><td> 8p </td><td></td></tr>
 <tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td class='td1stcol'> Tesla K40c </td><td> Kepler </td><td> GK180 </td><td> 3.5 </td><td> 2880 </td><td> 12GB GDDR5 </td><td></td><td> 245W </td><td> 6+8p </td><td></td></tr>
+<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class='td1stcol'> <b>model</b> </td><td><b>arch.</b></td><td><b>GPU</b></td><td><b>CUDA</b></td><td><b>cores</b></td><td><b>RAM</b></td><td><b>use</b></td><td><b>W-max</b></td><td><b>alim.</b></td><td><b>size</b></td></tr>
+<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td class='td1stcol'> Quadro K6000 SDI </td><td> Kepler </td><td> GK110 </td><td> 3.5 </td><td> 2880 </td><td> 12GB GDDR5 </td><td> PC </td><td> 239W </td><td> 2x6p </td><td></td></tr>
 <tr><td class='td1stcol'> GTX Titan </td><td> Kepler </td><td> GK110 </td><td> 3.5 </td><td> 2880 </td><td> 6 GB GDDR5 </td><td> PC </td><td> 250W </td><td> 6+8p </td><td></td></tr>
 <tr><td class='td1stcol'> Tesla K20X/Xm </td><td> Kepler </td><td> GK110 </td><td> 3.5 </td><td> 2688 </td><td> 6 GB GDDR5 </td><td></td><td> 235W </td><td> 6+8p </td><td></td></tr>

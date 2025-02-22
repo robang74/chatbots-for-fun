@@ -286,7 +286,6 @@ linux-signatures-nvidia-5.15.0-131-generic<br>
 linux-signatures-nvidia-5.15.0-67-generic<br>
 nvidia-kernel-common-470<br>
 nvidia-modprobe<br>
-nvidia-prime<br>
 [/CODE]
 
 I purged some stuff from the Nvidia SW stack to avoid clogging the Xorg and because the Tesla K80 is not supposed to function as a graphic accelerator at this stage, at least.
@@ -362,7 +361,9 @@ In fact, since firmware and loader taking 10s to hand control to the kernel, and
 
 All of this using hardware and software from 10 years ago! {;-)}
 
-#### Are these timings real?
+---
+
+### Are these timings real?
 
 Unfortunately the timings picture is darker than above presented because BIOS start-up took its own time:
 
@@ -392,7 +393,22 @@ real	0m0.123s<br>
 
 The `ping` wait introduces an irrelevant delay, the SSH connection is ready after 34s the hardware ignition and ready for the user after 36s due to environment preparation delay. In practice 20s are lost anyway before any optimisation can take place. Hence, the SSH passwordless root login speed-up by 2x factor the access rather than 4x times. However, adopting a fast SATA3 SSD for about €20 can radically shorten the timings.
 
-+
+---
+
+### Advanced optimisation
+
+Those systems that are still using a HDD can leverage [e4rat](https://e4rat.sourceforge.net) for [boot optimisation](https://www.howtogeek.com/69753/how-to-cut-your-linux-pcs-boot-time-in-half-with-e4rat/). While checking with `systemd-analyze critical-chain` it is possible to resolve bottle-necks in the boot process. Instead, `preload` is a long-term optimiser.
+
+[!CODE]
+root@P910:~# systemd-analyze<br>
+Startup finished in 4.811s (firmware) + 4.579s (loader) + 5.157s (kernel)<br>
+\_ + 14.309s (userspace) = 28.858s<br>
+multi-user.target reached after 14.300s in userspace<br>
+[/CODE]
+
+In this way, I managed to cut off about 7s from the previous optimization which means another 33% reduction in userspace. However, this had a minor impact in having a SSH root session ready to use 32.5s instead of 36s, about 10% less.
+
+++++++
 
 <span id="bios-as-fw"></span>
 ## Why do PCs still have a BIOS?
@@ -419,7 +435,7 @@ Despite this, and despite not being the only 4GB+ PCIe 3.0 device on the market 
 
 Are we sharing the same feeling about putting an end to the BIOS-as-FW paradigm?
 
-+
+++++++
 
 ## PCIe 3.0 GPU cards
 
@@ -467,6 +483,9 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 | Tesla T4/G        | Turing   | TU104    | 7.5  | 2560    | 16GB GDDR6    |     | 75 W |      | 1x |
 | CMP 50HX          | Turing   | TU102    | 7.5  | 3584    | 10GB GDDR6    |     | 250W | 2x8p |    |
 | RTX 2080 Ti       | Turing   | TU102    | 7.5  | 4352    | 11GB GDDR6    | PC  | 250W | 6+8p |    |
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
+| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | RTX 2080 Ti 12 GB | Turing   | TU102    | 7.5  | 4608    | 12GB GDDR6    | PC  | 260W | 6+8p |    |
 | Tesla T10 16 GB   | Turing   | TU102    | 7.5  | 3072    | 16GB GDDR6    |     | 150W | 1x8p |    |
 | Tesla T40 24 GB   | Turing   | TU102    | 7.5  | 4608    | 24GB GDDR6    |     | 260W | 6+8p |    |
@@ -488,9 +507,6 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 | Quadro P5000      | Pascal   | GP104    | 6.1  | 2560    | 16GB GDDR5    | PC  | 180W | 8p   |    |
 | Tesla P4          | Pascal   | GP104    | 6.1  | 2560    | 8 GB GDDR5    |     | 75 W |      | 1x |
 | Quadro M4000      | Maxwell2 | GM204    | 5.2  | 1664    | 8 GB GDDR5    | PC  | 120W | 6p   | 1x |
-|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
-| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
-|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | Quadro M5000      | Maxwell2 | GM204    | 5.2  | 2048    | 8 GB GDDR5    | PC  | 150W | 6p   |    |
 | Tesla M60         | Maxwell2 | 2x GM204 | 5.2  | 2x 2048 | 2x 8GB GDDR5  |     | 300W | 8p   |    |
 | GTX 980 Ti        | Maxwell2 | GM200    | 5.2  | 2816    | 6 GB GDDR5    | PC  | 250W | 6+8p |    |   
@@ -503,6 +519,9 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 | Tesla K80         | Kepler   | 2x GK210 | 3.7  | 2x 2496 | 2x 12GB GDDR5 |     | 300W | 8p   |    |
 |                   |          |          |      |         |               |     |      |      |    |
 | Tesla K40c        | Kepler   | GK180    | 3.5  | 2880    | 12GB GDDR5    |     | 245W | 6+8p |    |
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
+| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | Quadro K6000 SDI  | Kepler   | GK110    | 3.5  | 2880    | 12GB GDDR5    | PC  | 239W | 2x6p |    |
 | GTX Titan         | Kepler   | GK110    | 3.5  | 2880    | 6 GB GDDR5    | PC  | 250W | 6+8p |    |
 | Tesla K20X/Xm     | Kepler   | GK110    | 3.5  | 2688    | 6 GB GDDR5    |     | 235W | 6+8p |    |
