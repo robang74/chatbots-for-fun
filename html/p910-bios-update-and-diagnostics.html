@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-02-04&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>8</b rev_num='
+'>9</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-bios-update-and-diagnostics?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-bios-update-and-diagnostics?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-bios-update-and-diagnostics?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-bios-update-and-diagnostics?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -28,7 +28,7 @@
 <p></p>
 <li>This paper is part of the <a href="p910-k80-installation-manual-intro.html#" target='_blank' rel='noopener noreferrer'>Fujitsu P910 w/ Tesla K80 installation manual</a> serie.</li>
 <p></p>
-This document explains how to create an USB 64MB bootable stick based on FreeDOS that can provide BIOS update, diagnostic and flasher tools. It is specifically tailored for Esprimo P910 E85+ but it can be used as a canvas for every other PC/laptop for which DOS tools are available.
+This document provides a guide for creating a bootable FreeDOS USB 64MB drive for BIOS updates and hardware diagnostics. It is specifically tailored for Esprimo P910 E85+ but it can be used as a canvas for every other PC/laptop for which DOS tools are available.
 <p></p>
 <hr>
 <p></p>
@@ -42,11 +42,11 @@ This document explains how to create an USB 64MB bootable stick based on FreeDOS
 <p></p>
 <li><b>Source</b>: <a href="https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.3/official/FD13-LiteUSB.zip" target='_blank' rel='noopener noreferrer'>FreeDOS 1.3 Lite USB</a></li>
 <p></p>
-   - wget : $archive
-   - unzip : $archive
-   - dd : $image : $usbdisk
-   - gparted : $usbdisk : resize : 63MiB
-   - mount : $usbdisk1 : $usb1dir
+<li class='li2in'>wget : $archive</li>
+<li class='li2in'>unzip : $archive</li>
+<li class='li2in'>dd : $image : $usbdisk</li>
+<li class='li2in'>gparted : $usbdisk : resize : 63MiB</li>
+<li class='li2in'>mount : $usbdisk1 : $usb1dir</li>
 <p></p>
 <hr class="post-it">
 <p></p>
@@ -70,10 +70,9 @@ SHA256: 32EF5E94C820745C19323BC039186E253D7C2153C2F783667C9D8F17C6857D86
 <p></p>
 <li><b>Source</b>: <a href="https://support.ts.fujitsu.com/IndexDownload.asp?SoftwareGuid=DCC1A861-C236-4D84-ADBA-FC78E0B51D7E" target='_blank' rel='noopener noreferrer'>FTS System Diagnostics DOS USB Stick</a></li>
 <p></p>
-   - download : $archive
-   - unzip : $archive : ./diag/
+<li class='li2in'>download : $archive</li>
+<li class='li2in'>unzip : $archive : ./diag/</li>
 <p></p>
-<div class="pagebreak"></div>
 <blockquote class="code"><code>
 dst &lt;= [usb1 mount-point path]
 <p></p>
@@ -102,8 +101,8 @@ SHA256: 25832921C80C0FEFD8E92574F7138C0CBFFDC11DA0DD5F3FAFF1DCDED49BD881
 <p></p>
 <li><b>Source</b>: <a href="https://support.ts.fujitsu.com/IndexDownload.asp?SoftwareGuid=38A1936D-6452-44EC-A10C-A42039C6F5A2" target='_blank' rel='noopener noreferrer'>FTS D3162A1x Admin package</a></li>
 <p></p>
-   - download : $archive
-   - unzip : $archive : ./bios/
+<li class='li2in'>download : $archive</li>
+<li class='li2in'>unzip : $archive : ./bios/</li>
 <p></p>
 <blockquote class="code"><code>
 dst &lt;= [usb1 mount-point path]
@@ -115,6 +114,8 @@ umount ${dst}/
 <hr class="post-it">
 <p></p>
 <H3 id="6. Customised bootable image backup (optional)">6. Customised bootable image backup (optional)</H3>
+<p></p>
+The command <tt>gzip</tt> can be replaced to <tt>pigz</tt> which is parallel - hence faster - counterpart.
 <p></p>
 <blockquote class="code"><code>
 usbdisk &lt;= [usb disk device]
@@ -128,9 +129,11 @@ image="fdos-p910-bios-diag.img"<br>
 dd if=${usbdisk} count=${sectors} | pigz - >${image}.gz
 </code></blockquote>
 <p></p>
+This action is not strictly needed for an once-a-time BIOS update process. It is important for having a long-lasting archive of the bootable FreeDOS image. This archive serves also as a forensic-like record of the exact environment used.
+<p></p>
 <hr class="post-it">
 <p></p>
-<H3 id="7. Post archiving image modding (optional, not required)">7. Post archiving image modding (optional, not required)</H3>
+<H3 id="7. Post archiving image deployment (optional)">7. Post archiving image deployment (optional)</H3>
 <p></p>
 <blockquote class="code"><code>
 image="fdos-p910-bios-diag.img"<br>
@@ -141,31 +144,55 @@ pigz -dc ${image}.gz > ${image}; losetup -Pf ${image}
 losetup -D $(losetup -l | grep ${image} | cut -d' ' -f1)
 </code></blockquote>
 <p></p>
-<div class="pagebreak"><hr class="post-it"></div>
+<hr class="post-it pagebreak">
 <p></p>
-<H3 id="8-usage">8. Usage</H3>
+<H3 id="8-bootable-usb-drive-usage">8. Bootable USB drive usage</H3>
 <p></p>
 <blockquote><span class="warnicon spanicon">&nbsp;<svg class="warnicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;WARNING!&nbsp;&nbsp;</nobr></span><br><br>It strongly suggested a cold reboot between HW diagnosys and BIOS update.</blockquote>
 <p></p>
-   - <b>keyb it</b> - for the italian keyboard
-<p></p>
-   - <b>diag.bat</b> - for hardware diagnosys
-<p></p>
-   - <b>dosflash.bat</b> - for the bios update
+<li><b>keyb it</b> - for the italian keyboard</li>
+<li><b>diag.bat</b> - for hardware diagnosys</li>
+<li><b>dosflash.bat</b> - for the bios update</li>
 <p></p>
 <hr class="post-it">
 <p></p>
-<H3 id="9-defaults">9. Defaults</H3>
+<H3 id="9-default-settings">9. Default settings</H3>
 <p></p>
-At the first boot, enter in the BIOS with <b><tt>F2</tt></b> and reset the setting to its optimal default.
+At the first boot, enter in the BIOS with <b><tt>F2</tt></b> and reset the setting to its optimal default. It should be considered a best-practice starting from the default settings proposed by the manufacturer to apply our settings changes and note them.
 <p></p>
 <div class='center'>
 <img class="bwsketch darkinv inksave" src="../img/p910-system-bios-screenshot.png" width="800">
 <br>
-<sub>right click menu to enlarge (x2) the image</sub>
+<sub><i>right click menu to 2x-enlarge the image</i></sub>
 </div>
 <p></p>
-When the P910 is newly bought, then enable the password-less unconfiguration of the ATM system.
+<H4>About AMT settings</H4>
+<p></p>
+Suggestion &mdash; when the P910 is newly bought, then enable the password-less unconfiguration of the <a href="https://www.intel.com/content/www/us/en/support/articles/000091667/technologies/intel-active-management-technology-intel-amt.html#primary-content" target='_blank' rel='noopener noreferrer'>ATM</a> sub-system which <tt>admin</tt> is default password, usually.
+<p></p>
+<blockquote><span class="infoicon spanicon">&nbsp;<svg class="infoicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;&middot;NOTICE&middot;&nbsp;&nbsp;</nobr></span><br><br>Intel Active Management Technology (AMT) is a hardware-based remote management system that allows IT administrators to monitor, maintain, and repair computers, even when they are powered off or the operating system is unresponsive.</blockquote>
+<p></p>
+</div>
+<p></p>
+<div class="pagebreak"></div>
+<p></p>
+<H4>Corner case settings</H4>
+<p></p>
+Suggestion &mdash; provide yourself with an headless remotable alternative way to access the BIOS or to the system, as soon as possible.
+<p></p>
+<blockquote><span class="warnicon spanicon">&nbsp;<svg class="warnicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;WARNING!&nbsp;&nbsp;</nobr></span><br><br>Selecting <tt>IDG</tt> as a graphic card and disabling it, makes the system lose the monitor output. Moreover, removing the <tt>CMOS</tt> battery even for a long time, does not reset the BIOS configuration. To recover from that situation, I blindly tried sequences of <tt>ESC</tt>, <tt>F3</tt>, <tt>F4</tt> and <tt>ENTER</tt> key pressing and <tt>CTRL-ALT-DEL</tt> to reboot.</blockquote>
+<p></p>
+<hr class="post-it">
+<p></p>
+<H3 id="10-serial-console">10. Serial console</H3>
+<p></p>
+The Esprimo P910’s BIOS allows to enable a serial console redirection which can provide - as expected - an headless and remotable access to the BIOS configuration. However, it requires a serial connection or an USB serial adapter and the related software like <tt>minicom</tt> to access it. 
+<p></p>
+Moreover, while the Fujitsu Esprimo P910 E85+ is considered a Workstation rather than an user-end Personal Computer, its motherboard is considered an industrial-grade hardware and it is largely adopted for Point-of-Sales machinery or for remote control edge-point for electric systems like shopping mall lighting or fire-fighting systems.
+<p></p>
+These two aspects, give us a reasonable hope about finding more fine-grained or extra-values BIOS settings accessing from the serial console, as professional system administration or engineers would do rather than end-users, which might include also enabling the "Above 4GB decoding" option which is needed for Tesla K80.
+<p></p>
+Unfortunately, this part is still under investigation because of the lack of a USB serial adapter, so it should be considered entirely speculative.
 <p></p>
 <br>
 <p></p>
