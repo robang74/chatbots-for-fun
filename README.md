@@ -137,7 +137,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 * [github.com/copilot](https://github.com/copilot) - coding support
 
-* [x.com/i/grok](https://x.com/i/grok) - free minded but dumb
+* [x.com/i/grok](https://x.com/i/grok) - helpful for peer-reviews (v3)
 
 * [claude.ai](https://claude.ai) - coding and data analysis
 
