@@ -250,20 +250,33 @@ Prudently, we will test the system in its initial stages of configuration by unl
 
 ---
 
-### Kernel cmdline
+### Kernel boot config
 
 These options are the suggested for the Linux kernel command line:
 
 - `mtrr_gran_size=8M mtrr_chunk_size=64M`
    - to solve the issue about MTRR losing 230 MB of RAM mitigated to 6 MB
 
-- `pcie_aspm=off mem_encrypt=off`
+- `pcie_aspm=off mem_encrypt=off` and `nouveau.modeset=0`
    - for improving the performances of the Tesla K80, but it consumes more energy
+   - to prevent the generic open-source nvidia cards driver to be loaded on boot
 
-- `pci=realloc`
+++++
+
+- `pci=realloc` --> `pci=realloc,assign-busses,use_crs`
    - due to an explicit suggestion for adding that argument by the `dmesg` output
+   - more parameters about the PCI/e subsystem for the sake of Nvidia K80 board
 
-The above parameters should go into the `GRUB_CMDLINE_LINUX_DEFAULT` variable which is recorded into the `/etc/default/grub` file. Then `sudo update-grub` to write the change in the grub's boot record, then `reboot` to let the system restart with the new settings. Finally, after the reboot `cat /proc/cmdline` to check.
+The above parameters should go into the `GRUB_CMDLINE_LINUX_DEFAULT` variable which is recorded into the `/etc/default/grub` file. Then `sudo update-grub` to write the change in the grub's boot record. Moreover, blacklisting these two kernel modules and rebuild all the initramfs files, is a good idea:
+
+[!CODE]
+(echo;echo "blacklist chromeos_pstore";echo "blacklist nouveau") | sudo tee -a \<br>
+ &nbsp; /etc/modprobe.d/blacklist.conf<br>
+
+sudo update-initramfs -u -k all<br>
+[/CODE]
+
+Then `reboot` to let the system restart with the new settings. Finally, after the reboot `cat /proc/cmdline` and `lsmod` to check.
 
 ---
 
@@ -271,19 +284,24 @@ The above parameters should go into the `GRUB_CMDLINE_LINUX_DEFAULT` variable wh
 
 First of all, reset the BIOS settings to its optimal default and then on the top of that settings we can make some adjustments:
 
-- Intel TXT support: **Enabled**
 - PCIe ASPM support: **Disabled**
-- Power-On source: **ACPI**
-- Power failure recovery: **Disabled**
+- Intel TXT support: **Disabled**
+- Secure Boot: **Disabled**
 
-Avoid possibly conflicts by legacy support from BIOS, optional:
+It is better to disable executing code isolation and secure boot options until the system is correctly configured. Moreover, in order to avoid possible conflicts by legacy support from BIOS, also:
 
 - Legacy USB support: **Disabled**
 - Serial and parallel ports: **Disabled**
 - CSM launch: **Disabled**
-- Fast boot: **Enabled**
 
-Enabling the "Secure Boot" requires the CSM disabled while the USB legacy supports is requested by non-UEFI bootable devices. However, none of these changes as a sensitive impact on the `dmesg` output which means that 6.x Linux kernel is not affected by.
+Because the 2nd PSU installed, we might want use a multi-plug extender with 0/1 switch, in that case these make our life easier:
+
+- Power-On source: **ACPI**
+- Power failure recovery: **Disabled**
+
+Enabling the "Secure Boot" requires the CSM disabled while the USB legacy support is requested by non-UEFI bootable devices.
+
+However, none of these changes has a sensitive impact on the `dmesg` output which means that the 6.x Linux kernel is not affected by. Despite this, it is better to start with a BIOS configuration as much friendly as possible and then when we know that the system is working correctly, make changes that matter for our specific user case.
 
 +
 

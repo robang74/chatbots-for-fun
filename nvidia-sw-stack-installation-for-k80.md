@@ -173,6 +173,8 @@ nvidia-kernel-common-470/noble-updates<br>
 nvidia-utils-470/noble-updates<br>
 [/CODE]
 
+++++
+
 Which is not good at all, but the following is even worse:
 
 [!CODE]
@@ -238,6 +240,8 @@ Which is **WAY** different than the expected output, which should be something l
 
 In fact, the problem is that BAR1 and BAR2, both 64-bit prefetchable, are missing for both devices which means that the PCIe is 4GB addressable but not beyond that limit.
 
+++++
+
 #### Ubuntu 20.04.6 LTS
 
 I gave a try with Ubuntu 20.04.6 LTS which is running, after the update, with a Linux 5.15.0-131-generic and installed by default the Nvidia driver 470 serie.
@@ -271,30 +275,21 @@ root@P910:~# lspci -vvv | grep -i -e nvidia -e PLX<br>
 
 The output is much more comforting because all the memory BARs are present but still not assigned. While the warnings in the kernel log remained alike the same.
 
-<!--
+[!CODE]
+root@P910:~# apt list --installed  2>/dev/null | grep -i nvidia | cut -d/ -f1<br>
+linux-modules-nvidia-470-5.15.0-131-generic<br>
+linux-modules-nvidia-470-5.15.0-67-generic<br>
+linux-modules-nvidia-470-generic-hwe-20.04<br>
+linux-objects-nvidia-470-5.15.0-131-generic<br>
+linux-objects-nvidia-470-5.15.0-67-generic<br>
+linux-signatures-nvidia-5.15.0-131-generic<br>
+linux-signatures-nvidia-5.15.0-67-generic<br>
+nvidia-kernel-common-470<br>
+nvidia-modprobe<br>
+nvidia-prime<br>
+[/CODE]
 
-root@P910:~# apt list --installed  | grep -i nvidia | cut -d/ -f1
-
-WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
-
-libnvidia-common-470
-libnvidia-compute-470
-libnvidia-extra-470
-linux-modules-nvidia-470-5.15.0-131-generic
-linux-modules-nvidia-470-5.15.0-67-generic
-linux-modules-nvidia-470-generic-hwe-20.04
-linux-objects-nvidia-470-5.15.0-131-generic
-linux-objects-nvidia-470-5.15.0-67-generic
-linux-signatures-nvidia-5.15.0-131-generic
-linux-signatures-nvidia-5.15.0-67-generic
-nvidia-compute-utils-470
-nvidia-kernel-common-470
-nvidia-kernel-source-470
-nvidia-modprobe
-nvidia-prime
-
-
-//-->
+I purged some stuff from the Nvidia SW stack to avoid clogging the Xorg and because the Tesla K80 is not supposed to function as a graphic accelerator at this stage, at least.
 
 +
 ===
@@ -304,7 +299,7 @@ nvidia-prime
 <|x|
 
 ===
-+
+++++++
 
 <span id="bios-as-fw"></span>
 ### Why do PCs still have a BIOS?
@@ -367,8 +362,6 @@ For local AI workloads, among the listed GPU cards:
 
 This list may contain inaccuracies. Always rely on official manufacturer documentation before making any purchasing or configuration decisions.
 
-++++
-
 | model             | arch.    | GPU      | CUDA | cores   | RAM           | use | W-max| alim.|size|
 |-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | RTX 2060          | Turing   | TU106    | 7.5  | 1920    | 6 GB GDDR6    | PC  | 160W | 8p   |    |
@@ -391,6 +384,9 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 | Titan V 32GB      | Volta    | GV100    | 7.0  | 5120    | 32GB HBM2     | PC  | 250W | 6+8p |    |
 | Tesla V100        | Volta    | GV100    | 7.0  | 5120    | 16GB HBM2     |     | 250W | 2x8p |    |
 | Tesla V100 32GB   | Volta    | GV100    | 7.0  | 5120    | 32GB HBM2     |     | 250W | 2x8p |    |
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
+| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | Quadro GP100      | Pascal   | GP100    | 6.0  | 3584    | 16GB HBM2     | PC  | 235W | 8p   |    |
 | Tesla P100        | Pascal   | GP100    | 6.0  | 3584    | 12GB HBM2     |     | 250W | 8p   |    |
 | Tesla P100 16GB   | Pascal   | GP100    | 6.0  | 3584    | 16GB HBM2     |     | 250W | 8p   |    |
@@ -401,9 +397,6 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 | Quadro P4000      | Pascal   | GP104    | 6.1  | 1792    | 8 GB GDDR5    | PC  | 105W | 6p   | 1x |
 | Quadro P5000      | Pascal   | GP104    | 6.1  | 2560    | 16GB GDDR5    | PC  | 180W | 8p   |    |
 | Tesla P4          | Pascal   | GP104    | 6.1  | 2560    | 8 GB GDDR5    |     | 75 W |      | 1x |
-|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
-| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
-|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | Quadro M4000      | Maxwell2 | GM204    | 5.2  | 1664    | 8 GB GDDR5    | PC  | 120W | 6p   | 1x |
 | Quadro M5000      | Maxwell2 | GM204    | 5.2  | 2048    | 8 GB GDDR5    | PC  | 150W | 6p   |    |
 | Tesla M60         | Maxwell2 | 2x GM204 | 5.2  | 2x 2048 | 2x 8GB GDDR5  |     | 300W | 8p   |    |
