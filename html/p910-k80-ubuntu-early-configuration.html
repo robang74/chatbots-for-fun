@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-02-11&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>23</b rev_num='
+'>24</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-ubuntu-early-configuration?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-ubuntu-early-configuration?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-ubuntu-early-configuration?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-k80-ubuntu-early-configuration?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -223,7 +223,7 @@ While acoustic management has an impact on "auto" and "enhanced" fan control mod
 <p></p>
 In order to have a quantitative idea about the noise figure, I have installed this Android application on my smartphone and put it on the tower case.
 <p></p>
-<li><b>Sound meter</b> : SPL & dB meter by <b>KTW Apps</b>, 4.8* on <a href="https://play.google.com/store/apps/details?id=com.ktwapps.soundmeter&hl=en" target='_blank' rel='noopener noreferrer'>Google Play</a></li>
+<li><b>Sound meter</b> : SPL & dB meter by <b>KTW Apps</b>, 4.8&ast; on <a href="https://play.google.com/store/apps/details?id=com.ktwapps.soundmeter&hl=en" target='_blank' rel='noopener noreferrer'>Google Play</a></li>
 <p></p>
 Between the case and the smartphone I put a mouse pad, just to absorb those low-frequencies which are below the human ability to hear but a capacitor microphone may catch. Usually, this kind of measures should be done after a calibration and reading the value at a standard distance (usually 1 mt) from the geometric center of the noise source.
 <p></p>
@@ -278,9 +278,10 @@ These options are the suggested for the Linux kernel command line:
 <li><tt>mtrr_gran_size=8M mtrr_chunk_size=64M</tt></li>
 <li class='li2in'>to solve the issue about MTRR losing 230 MB of RAM mitigated to 6 MB</li>
 <p></p>
-<li><tt>pcie_aspm=off mem_encrypt=off</tt> and <tt>nouveau.modeset=0</tt></li>
+<li><tt>pcie_aspm=off mem_encrypt=off</tt>, <tt>nouveau.modeset=0</tt> and <tt>blacklist=chromeos_pstore</tt></li>
 <li class='li2in'>for improving the performances of the Tesla K80, but it consumes more energy</li>
 <li class='li2in'>to prevent the generic open-source nvidia cards driver to be loaded on boot</li>
+<li class='li2in'>avoid kernel load the Chrome OS related module because P910 hardware specs</li>
 <p></p>
 <div class="pagebreak"></div>
 <p></p>
@@ -291,8 +292,8 @@ These options are the suggested for the Linux kernel command line:
 The above parameters should go into the <tt>GRUB_CMDLINE_LINUX_DEFAULT</tt> variable which is recorded into the <tt>/etc/default/grub</tt> file. Then <tt>sudo update-grub</tt> to write the change in the grub's boot record. Moreover, blacklisting these two kernel modules and rebuild all the initramfs files, is a good idea:
 <p></p>
 <blockquote class="code"><code>
-(echo;echo "blacklist chromeos_pstore";echo "blacklist nouveau") | sudo tee -a \<br>
- &nbsp; /etc/modprobe.d/blacklist.conf<br>
+(echo;echo "blacklist chromeos_pstore";echo "blacklist nouveau") |\<br>
+ &nbsp; sudo tee -a /etc/modprobe.d/blacklist.conf<br>
 <p></p>
 sudo update-initramfs -u -k all<br>
 </code></blockquote>

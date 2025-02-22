@@ -203,7 +203,7 @@ While acoustic management has an impact on "auto" and "enhanced" fan control mod
 
 In order to have a quantitative idea about the noise figure, I have installed this Android application on my smartphone and put it on the tower case.
 
-- **Sound meter** : SPL & dB meter by **KTW Apps**, 4.8* on [Google Play](https://play.google.com/store/apps/details?id=com.ktwapps.soundmeter&hl=en)
+- **Sound meter** : SPL & dB meter by **KTW Apps**, 4.8&ast; on [Google Play](https://play.google.com/store/apps/details?id=com.ktwapps.soundmeter&hl=en)
 
 Between the case and the smartphone I put a mouse pad, just to absorb those low-frequencies which are below the human ability to hear but a capacitor microphone may catch. Usually, this kind of measures should be done after a calibration and reading the value at a standard distance (usually 1 mt) from the geometric center of the noise source.
 
@@ -257,9 +257,10 @@ These options are the suggested for the Linux kernel command line:
 - `mtrr_gran_size=8M mtrr_chunk_size=64M`
    - to solve the issue about MTRR losing 230 MB of RAM mitigated to 6 MB
 
-- `pcie_aspm=off mem_encrypt=off` and `nouveau.modeset=0`
+- `pcie_aspm=off mem_encrypt=off`, `nouveau.modeset=0` and `blacklist=chromeos_pstore`
    - for improving the performances of the Tesla K80, but it consumes more energy
    - to prevent the generic open-source nvidia cards driver to be loaded on boot
+   - avoid kernel load the Chrome OS related module because P910 hardware specs
 
 ++++
 
@@ -270,8 +271,8 @@ These options are the suggested for the Linux kernel command line:
 The above parameters should go into the `GRUB_CMDLINE_LINUX_DEFAULT` variable which is recorded into the `/etc/default/grub` file. Then `sudo update-grub` to write the change in the grub's boot record. Moreover, blacklisting these two kernel modules and rebuild all the initramfs files, is a good idea:
 
 [!CODE]
-(echo;echo "blacklist chromeos_pstore";echo "blacklist nouveau") | sudo tee -a \<br>
- &nbsp; /etc/modprobe.d/blacklist.conf<br>
+(echo;echo "blacklist chromeos_pstore";echo "blacklist nouveau") |\<br>
+ &nbsp; sudo tee -a /etc/modprobe.d/blacklist.conf<br>
 
 sudo update-initramfs -u -k all<br>
 [/CODE]
