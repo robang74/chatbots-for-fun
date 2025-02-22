@@ -150,6 +150,7 @@ function md2htmlfunc() {
 -e "s,\\\<\(.*\)\\\>,\&lt;\\1\&gt;,g" \
 -e 's,^+\{6\,\} *$,<div class="pagebreak"><br></div>,' \
 -e 's,^+\{5\} *$,<br class="pagebreak">,' \
+-e 's,^\.\{5\,\} *$,<hr class="post-it pagebreak">,' \
 -e 's,^+\{4\} *$,<div class="pagebreak"></div>,' \
 -e 's,^\=\{5\,\} *$,<div class="ghosted"><br><hr><br></div>,' \
 -e 's,^\=\{4\} *$,<div class="pagebreak"><br><hr><br></div>,' \
@@ -160,7 +161,7 @@ function md2htmlfunc() {
 -e 's,^\.\{3\} *$,<hr class="post-it">,' \
 -e "s,^\=\{3\} *$,<br><hr><br>," \
 -e "s,^\-\{3\} *$,<hr>," \
--e 's,^\+\{3\} *$,<hr class="hidden post-it">,' \
+-e 's,^\+\{3\} *$,<hr class="pagebreak">,' \
 -e 's,^++ *$,<p class="printline"><br></p>,' -e "s,^+ *$,<br>," \
 -e "s,^>>>| *$,<div class='indent'>," -e "s,^|<<< *$,</div>," \
 -e "s,^|x|> *$,<div class='center'>," -e "s,^<|x| *$,</div>," \
