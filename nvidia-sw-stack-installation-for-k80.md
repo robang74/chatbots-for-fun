@@ -3,7 +3,7 @@
 
 <div align="center"><img class="bwsketch" src="img/nvidia-tesla-k80.jpg" width="800"><br></div>
 
-## Nvidia Tesla K80 installation
+## Nvidia Tesla K80 SW stack installation
 
 - This paper is part of the [Fujitsu P910 w/ Tesla K80 installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
 

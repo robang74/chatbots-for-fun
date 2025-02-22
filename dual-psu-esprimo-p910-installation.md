@@ -3,7 +3,7 @@
 
 <div align="center"><img class="bwsketch" src="img/p910-materiale-per-installazione.jpg" width="800"><br></div>
 
-## Dual PSU for Esprimo P910 installation
+## Dual PSU installation for Esprimo P910
 
 - This paper is part of the [Fujitsu P910 w/ Tesla K80 installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
 

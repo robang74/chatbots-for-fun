@@ -3,7 +3,7 @@
 
 <div align="center"><img class="bwsketch" src="img/k80-installed-in-wrong-slot.jpg" width="800"><br></div>
 
-## Tesla K80 with Esprimo P910
+## Tesla K80 with P910 installation challenges
 
 - This paper is part of the [Fujitsu P910 w/ Tesla K80 installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
 

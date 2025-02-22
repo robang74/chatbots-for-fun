@@ -3,7 +3,7 @@
 
 <div align="center"><img class="bwsketch" src="img/p910-ubuntu-early-configuration.jpg" width="800"><br></div>
 
-## Ubuntu early configuration for P910 w/K80
+## Ubuntu early configuration for P910 with K80
 
 - This paper is part of the [Fujitsu P910 w/ Tesla K80 installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
 

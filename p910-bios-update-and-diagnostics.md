@@ -3,7 +3,7 @@
 
 <div align="center"><img class="wbsketch paleinv inksave" src="img/fujitsu-p910-e85plus-bios-screen-2s.jpg"><br></div>
 
-## Fujitsu P910 E85+ BIOS update & diagnostics
+## Fujitsu P910 E85+ BIOS update & HW diagnostics
 
 - This paper is part of the [Fujitsu P910 w/ Tesla K80 installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
 
