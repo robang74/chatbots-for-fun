@@ -522,9 +522,9 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 |-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
 |-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
-| Quadro K6000 SDI  | Kepler   | GK110    | 3.5  | 2880    | 12GB GDDR5    | PC  | 239W | 2x6p |    |
-| GTX Titan         | Kepler   | GK110    | 3.5  | 2880    | 6 GB GDDR5    | PC  | 250W | 6+8p |    |
-| Tesla K20X/Xm     | Kepler   | GK110    | 3.5  | 2688    | 6 GB GDDR5    |     | 235W | 6+8p |    |
+| Quadro K6000 SDI  | Kepler   | GK110    | 3.5  | 2880    | 12GB GDDR5    | PC  | 225W | 2x6p |    |
+| GTX Titan         | Kepler   | GK110    | 3.5  | 2688    | 6 GB GDDR5    | PC  | 250W | 6+8p |    |
+| Tesla K20X/Xm     | Kepler   | GK110    | 3.5  | 2668    | 6 GB GDDR5    |     | 235W | 6+8p |    |
 | Tesla K20c/m/s    | Kepler   | GK110    | 3.5  | 2496    | 5 GB GDDR5    |     | 225W | 6+8p |    |
 
 The CUDA support for compute capability 3.5 can be obtained via third party support for PyTorch, also.
