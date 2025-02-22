@@ -3,23 +3,17 @@
 
 <div align="center"><img class="bwsketch" src="img/dual-psu-fujutsu-esprimo-p910.jpg" width="800"><br></div>
 
-## Dual PSU for Fujitsu Esprimo P910
+## Esprimo P910 dual-PSU approach evaluation
 
 - This paper is part of the [Fujitsu P910 w/ Tesla K80 installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
 
-In the previous article I presented the project of adapting a Nvidia Tesla K80 for being used within a PC/Desktop in particular for locally running an AI model. While this paper is going to present the way in which I decided to provide that system with a secondary 350W power supply unit in order to sustain the K80 consumption.
-
-- The **2nd** edition (since rev. 6) includes the [external sources](#external-sources) session and a more comprehensible English language.
-
-- The **3rd** edition (since rev. 8) includes two new sections about addressing the [P910 issues](#p910-issues) with K80 and its [cooling system](#cooling-the-k80).
-
-- The **4th** edition (since rev. 9) includes two rendering about how the final Tesla K80 installation and the [cooling](#cooling-rendering) air flow is expected will look like
-
-- The **5th** edition (since rev. 10) includes the [bricolage](#bricolage) image parade and instructions to change the internal cooling system's air-flow.
+The **2nd** edition (since rev. 6) includes the [external sources](#external-sources) session and a more comprehensible English language. The **3rd** edition (since rev. 8) includes two new sections about addressing the [P910 issues](#p910-issues) with K80 and its [cooling system](#cooling-the-k80). The **4th** edition (since rev. 9) includes two rendering about how the final Tesla K80 installation and the [cooling](#cooling-rendering) air flow is expected will look like. The **5th** edition (since rev. 10) includes the [bricolage](#bricolage) image parade and instructions to change the internal cooling system's air-flow.
 
 ---
 
 ### Introduction
+
+This paper is going to present the way in which I decided to provide that system with a secondary 350W power supply unit in order to sustain the K80 consumption.
 
 Among the main issues one in particular was related to the Fujitsu Esprimo P910 which like many others slim-tower with Zero-Watt technology includes a customised power supply unit which has a single connection to the mainboard with a 16-pin connector and cannot be replaced with any standard ATX PSU also because its own way of being fixed to the case.
 
@@ -27,7 +21,7 @@ Well - *cannot be replaced* - in the sense of a spare part because mechanical ch
 
 However, as you can imagine some mods' outcomes are way unpredictable compared to assembly of commercially available parts. In particular when 220V power supply is involved.
 
-~~~~
+---
 
 ### The DVD bay
 
@@ -44,7 +38,6 @@ After a search on the Internet, I have found that an ATX PSU built for PoS devic
 Once decided where to place the 2nd PSU there are two more task to face:
 
 1. make sure the two PSUs share the same ground line to avoid dangerous voltage fluctuations;
-
 2. switch on the 2nd PSU when the PWR button is pressed and the 1st PSU sees grounded the PSU-ON line
 
 To solve these two issues at once, I have decided to use an adaptor, specifically designed for dealing with a dual-PSU configuration. Which is a quite common piece of hardware.
@@ -57,19 +50,17 @@ Two seem very similar and are equally cheap, one has an on/off switch for disabl
 
 In this specific case, the simplest ATX 24-pins with SATA dual connectors is enough, but I choose the one with the on/off switch which has the SATA female attached to a 4-pins connector.
 
-...
+#### Update 2025-02-10
 
-**Update 2025-02-10**
-
-Are these cheap boards working? For me, it works and the reason I trust it beforehand is about "Simplicity" (cfr. Edward De Bono).
+Are these cheap boards working?
 
 <div align="center"><img class="" src="img/check-the-dual-psu-is-working.jpg" width="400"><br></div>
 
-To be cheap these boards should necessarily be simple. Simple to design, simple to test, simple to produce, etc. - for this reason the POWER-ON signal that in a sophisticated framework would end-up into a daisy-chain circuit, between two PSUs, it is a parallel: sharing a signal.
+For me, it works and the reason I trust it beforehand is about "Simplicity" (cfr. Edward De Bono). To be cheap these boards should necessarily be simple. Simple to design, simple to test, simple to produce, etc. - for this reason the POWER-ON signal that in a sophisticated framework would end-up into a daisy-chain circuit, between two PSUs, it is a parallel: sharing a signal.
 
-~~~~
+---
 
-### PSU cabling
+### 2nd-ry PSU cabling
 
 The Nvidia Tesla K80 is quite old and it requires a basic 8-pin CPU male connector to be powered. Unfortunately, the 1U PSU that I have chosen has no such connector but the older 4-pin CPU male connector.
 
@@ -93,11 +84,9 @@ The first problem in installing the Nvidia Tesla K80 into a Fujitsu Esprimo P910
 
 Fortunately, I have found an adapter that turns the USB 3.0 20-pins connector by 90° within 15mm above the motherboard surface which is the altitude of the cooler fan 12 cm connector which did not prevent the Tesla K80 to be temporarily installed into the first PCIe slot. Wrong, but an useful try,
 
-While, in this image the interior of a Fujitsu Esprimo P910 E85+ is shown with the troubling areas highlighted in different colors.
-
 <div align="center"><img class="wbsketch inksave" src="img/esprimo-p910-cabling-howto.jpg" width="800"><br><sub>right click menu to enlarge the image in a new tab</sub></div>
 
-The colors chosen do not indicate the seriousness or the importance of the problem. Here below the list of the areas and their relevance.
+While, in this image the interior of a Fujitsu Esprimo P910 E85+ is shown with the troubling areas highlighted in different colors. The colors chosen do not indicate the seriousness or the importance of the problem. Here below the list of the areas and their relevance.
 
 - The yellow area is about the SATA cabling which is better to move into the SATA slots near the edge of the motherboard to free as much space as possible for the K80.
 
@@ -155,54 +144,36 @@ However, I fixed that hole with two auto-gripping plastic strips plus I inserted
 
 These two photos show the actual result and we can compare them with the two renderings on which the modification has been planned. In the image, the light blue lines indicate, starting from the left: the line at the center of the 12 cm fan, the new deflector air-flow direction and the original deflector air-flow direction.
 
-----
+---
 
 ### A hands-craft baffle
 
 The new deflector is quite simple: a plane bent at 45° c.a. which pushes on the corner of the case and leans on the passing-by-the-fan wood-stick by a horizontal cut. Another wood-stick is embedded vertically on the bended edge that matches and gets stuck behind the original air-flow deflector. The vertical wood-stick keeps the new deflector steady and rigidly vertical while a 90° bent side pushing against the case corner provides the second steady vertical line.
 
-Is that a professional piece of hand-work? Obviously not.
+#### Is that a professional piece of hand-work? Obviously not.
 
 However, it is a pretty good try to start with designing a 3D printable additional air-flow. Until, we consider the cost and the labour related to 3D printing. Including that PLA is more flammable than cardboard and wood-sticks. That it has a higher energy density to sustain a fire. Then, we may agree that once properly covered by insulating silver strong-duct tape, the cardboard deflector would look much more professional.
 
----
-
 +
-
-> [!INFO]
->
-> Before going for this way, consider to give a try to the 9cm fan **least-effort option presented** into "*Preparing for installation*" section of this manual or [here](dual-psu-esprimo-p910-installation.md#least-effort-cooling-system?target=_blank) in a related web page. Later, the way presented in the sections above, just in case.
-
-+
-
----
 
 ## Conclusions
 
-Yet, this dual-PSU configuration has to face the proof of the time but this also depends on the choices I made. Instead, the approach in general seems valid because it does not imply any particular mod that would be forbidden into a common PC shop or PC hardware support center, or reparation.
+> [!INFO]
+> 
+> Before going for this way presented in the above sections, consider to give a try to the 9cm fan **least-effort option presented** into "*Preparing for installation*" section of this manual or [here](dual-psu-esprimo-p910-installation.md#least-effort-cooling-system?target=_blank) in a related web page. Later, the way presented in the sections above, just in case.
 
-In fact, it is a matter of just assembling some spare parts and all these parts are available on different e-market, from different sellers and producers. Making a comparison - with the mods that I have seen shared on Reddit and other similar forums, but some are 4 years old - this is a quite simple, comfortable, standard and safe way to go.
+Yet, this dual-PSU configuration has to face the proof of the time but this also depends on the choices I made. Instead, the approach in general seems valid because it does not imply any particular mod that would be forbidden into a common PC shop or PC hardware support center, or reparation. In fact, it is a matter of just assembling some spare parts and all these parts are available on different e-market, from different sellers and producers. 
 
-Despite this, it is not for everyone because assembly or modification of a personal computer hardware configuration requires manual dexterity to use tools, and a little experience.
+Making a comparison with the mods that I have seen shared on Reddit and other similar forums - but some are 4 years old - this is a quite simple, comfortable, standard and safe way to go. Despite this, it is not for everyone because assembly or modification of a personal computer hardware configuration requires manual dexterity to use tools, and a little experience.
 
----
-
-### Continuation
-
-This article continue here:
-
-* [Dual PSU Esprimo P910 installation](dual-psu-esprimo-p910-installation.md#?target=_blank) &nbsp; (2025-02-05)
-
-++++
++
 
 ## External sources
 
 In the first  link there is a practical example using the `nvidia-smi` command to cap the maximum power consumption in order to prevent overheating problems
 
 * [Running a Nvidia Tesla K80 at home](https://blog.thomasjungblut.com/random/running-tesla-k80) &nbsp; (2021-05-26)
-
 * [Using an Nvidia Tesla K80 for gaming](https://www.reddit.com/r/pcmods/comments/nhfwh7/guide_using_an_nvidia_tesla_k80_datacenter_gpu) &nbsp; (2021-05-20)
-
 * [Kepler overclock, how to tweak the BIOS](https://linustechtips.com/topic/1058561-simple-tutorial-ish-for-kepler-and-probably-maxwell-ii-bios-tweaker) &nbsp; (2019-04-19)
 
 at the opposite, in the last link there is the opposite: how to increase the voltage and the working frequency in order to squeeze all its computation power.
