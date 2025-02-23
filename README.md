@@ -53,7 +53,9 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
-* **Fujitsu Esprimo P910 E85+ w/ Nvidia Tesla K80 installation** &nbsp; (7 pz.)
+* **Fujitsu Esprimo P910 E85+ w/ Nvidia Tesla K80 installation** &nbsp; (8 pz.)
+
+   - 2025-02-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-comparison-table-for-education.md)] - [P910 with K80 comparative analysis by Grok3](grok3-comparison-table-for-education.md)
 
    - 2025-02-18 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/nvidia-sw-stack-installation-for-k80.md)] - [Nvidia Tesla K80 SW stack installation](nvidia-sw-stack-installation-for-k80.md) (**`WIP!`**)
 
@@ -63,7 +65,7 @@ A grouped by topic and others articles are listed here below.
 
    - 2025-02-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-bios-update-and-diagnostics.md)] - [Fujitsu P910 E85+ BIOS update & HW diagnostics](p910-bios-update-and-diagnostics.md) &nbsp; (2nd edt.)
 
-   - 2025-01-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/p910-k80-installation-manual-intro.md)] - [Esprimo P910 with Tesla K80 manual intro](p910-k80-installation-manual-intro.md)
+   - 2025-01-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/p910-k80-installation-manual-intro.md)] - [Esprimo P910 with Tesla K80 manual intro](p910-k80-installation-manual-intro.md) &nbsp; (2nd edt.)
 
    - 2025-01-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/dual-psu-fujitsu-esprimo-p910.md)] - [Esprimo P910 dual-PSU approach evaluation](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (5th edt.)
 

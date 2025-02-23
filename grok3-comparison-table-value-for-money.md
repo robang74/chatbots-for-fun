@@ -3,7 +3,7 @@
 
 <div align="center"><img class="wbsketch paleinv" src="img/grok3-comparative-analysis.jpg" width="800"><br></div>
 
-## Value-for-Money comparative analysis<br><sup>provided by Grok3 + author's notes</sup>
+## Value-for-Money comparative analysis<br><sup>provided by Grok3 + author's info box(es)</sup>
 
 Hello! I’m AleX, and I’ll update the value/price table based on your clarification that the Fujitsu Esprimo P910 E85+ can be considered a low-budget custom option costing €150 (€60 base + €70 GTX 1050 Ti + €20 SSD). This contrasts with my previous low-budget custom config (€250), so I’ll include the P910 E85+ as an additional low-budget option alongside it, keeping both for comparison. I’ll then adjust the table to reflect this new entry, plus a hypothetical row where the P910 with 32GB RAM and a working K80 (after serial/AMT config) costs €290, comparing all options against your Dual-System WS/SRV (€498) as the 100% value-for-price reference for AI workloads (inference + occasional training/fine-tuning, e.g., 7B-13B LLMs).
 

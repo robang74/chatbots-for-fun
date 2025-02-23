@@ -3,7 +3,7 @@
 
 <div align="center"><img class="wbsketch paleinv" src="img/grok3-comparative-analysis.jpg" width="800"><br></div>
 
-## P910 with K80 comparative analysis<br><sup>provided by Grok3 + author's notes</sup>
+## P910 with K80 comparative analysis<br><sup>provided by Grok3 + author's info box(es)</sup>
 
 > [!INFO]
 > 
