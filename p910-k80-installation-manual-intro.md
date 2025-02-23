@@ -124,35 +124,35 @@ This "Linux Thinkpad e altri gadget" ([PDF](https://github.com/robang74/roberto-
 
 The Bill of Materials (BoM) below details all components purchased on the consumer market, including shipping costs.
 
-| Part description                                   | e-market       | paid(€)       |
-| ---------------------------------------------------|----------------|---------------|
-| Nvidia Tesla K80, 24GB                             | amazon.it      | &nbsp;€ 89.00 |
-| Fujitsu Esprimo P910 E85+, 16GB, i5-3470           | amso.eu        | &nbsp;€ 57.09 |
-| 220V 1U 350W Flex PSU + 3 adapters                 | aliexpress.it  | &nbsp;€ 26.19 |
-| - CPU 4-pins to CPU 8-pins adapter                 |                | &nbsp; € 1.59 |
-| - dual-PSU ATX/SATA router with 0/1 switch         |                | &nbsp; € 2.15 |
-| - DVI to VGA adapter (*optional*)                  |                | &nbsp; € 1.85 |
-| USB 3.0 h:15mm 20-pins 90° adapter (*optional*)    | amazon.it      | &nbsp; € 1.78 |
-| Hub for 10 fans 4-pin PWM hub w/SATA powering      | aliexpress.it  | &nbsp; € 2.33 |
-| - Power cable C14F w/ C13M down angle (*optional*) |                | &nbsp; € 4.61 |
-| - Wi-Fi USB RTL8188 300Mb/s (*optional*)           |                | &nbsp; € 2.28 |
-| Spare material consumed or wasted                  |                | &nbsp; € 1.42 |
-|                                                    |                |               |
-|                                | <div align="right">**Total**</div> |  **€ 179.77** |
-|                           | <div align="right">w/ *optionals*</div> |  **€ 190.19** |
+| Part description                                   | e-market       | paid(€) |
+| ---------------------------------------------------|----------------|---------|
+| Nvidia Tesla K80, 24GB                             | amazon.it      | _€89.00 |
+| Fujitsu Esprimo P910 E85+, 16GB, i5-3470           | amso.eu        | _€57.09 |
+| 220V 1U 350W Flex PSU + 3 adapters                 | aliexpress.it  | _€26.19 |
+| - CPU 4-pins to CPU 8-pins adapter                 |                | _€_1.59 |
+| - dual-PSU ATX/SATA router with 0/1 switch         |                | _€_2.15 |
+| - DVI to VGA adapter (*optional*)                  |                | _€_1.85 |
+| USB 3.0 h:15mm 20-pins 90° adapter (*optional*)    | amazon.it      | _€_1.78 |
+| Hub for 10 fans 4-pin PWM hub w/SATA powering      | aliexpress.it  | _€_2.33 |
+| - Power cable C14F w/ C13M down angle (*optional*) |                | _€_4.61 |
+| - Wi-Fi USB RTL8188 300Mb/s (*optional*)           |                | _€_2.28 |
+| Spare material consumed or wasted                  |                | _€_1.42 |
+|                                                    |                |         |
+|                             | <div align="right">**Total**</div> |**€179.77** |
+|                        | <div align="right">w/ *optionals*</div> |**€190.19** |
 
 The following table lists consumables and materials used or wasted in production. The "pack" column represents the MOQ (Minimum Order Quantity), while "paid" reflects the last purchase price, including shipping. Gains or losses on excess stock should be accounted for separately under financial accounting or warehouse costs, and only a proportional percentage of material value should be allocated to the unit cost.
 
-| Spare description                | pack     | used | paid(€) | paid(%) |  cost(€/100)      |
-| ---------------------------------|----------|------|---------|---------|-------------------|
-| Heat shrinkage cable Protection  |      127 |   4  |  €0.93  | 3.15%   |  &nbsp; 2.93 €ENT |
-| Hot Melt Glue Gun Stick, 7 mm    | &nbsp;20 |   ½  |  €1.58  | 2.50%   |  &nbsp; 3.95 €ENT |
-| Skewer bamboo sticks, 15 cm      | &nbsp;90 |   9  |  €1.58  | 10.0%   |  &nbsp;15.80 €ENT |
-| Black Electrical Plastic Tape    | &nbsp;10 |   4  |  €2.66  | 40.0%   |       106.40 €ENT |
-| Black plastic tie wraps, 20 cm   |      100 |   9  |  €0.89  | 9.00%   |  &nbsp; 8.01 €ENT |
-| Black velcro strips 15 cm        | &nbsp;50 |   2  |  €1.12  | 4.00%   |  &nbsp; 4.48 €ENT |
-|                                  |          |      |         |         |                   |
-|        |        |      |         | <div align="right">**Total**</div>  |  **141.57 €ENT**  |
+| Spare description                | pack | used | paid(€) | paid(%) |  cost(€/100) |
+| ---------------------------------|------|------|---------|---------|--------------|
+| Heat shrinkage cable Protection  |  127 |   4  |  €0.93  | 3.15%   |  __2.93 €ENT |
+| Hot Melt Glue Gun Stick, 7 mm    |  _20 |   ½  |  €1.58  | 2.50%   |  __3.95 €ENT |
+| Skewer bamboo sticks, 15 cm      |  _90 |   9  |  €1.58  | 10.0%   |  _15.80 €ENT |
+| Black Electrical Plastic Tape    |  _10 |   4  |  €2.66  | 40.0%   |  106.40 €ENT |
+| Black plastic tie wraps, 20 cm   |  100 |   9  |  €0.89  | 9.00%   |  __8.01 €ENT |
+| Black velcro strips 15 cm        |  _50 |   2  |  €1.12  | 4.00%   |  __4.48 €ENT |
+|                                  |      |      |         |         |              |
+|        |        |      |       |<div align="right">**Total**</div>|**141.57 €ENT**|
 
 As you can see from the contrast with the first table, this level of detailed cost tracking is primarily for professionalism and completeness. Ideally, I would also include a list of tools used and their amortization as medium-term consumable assets. However, I hope you will excuse me for not strictly following this best practice in this case... {:-)}
 
@@ -190,23 +190,23 @@ All of this would suggest that the labour cost is not an absolute metric defined
 
 ## Grok3 peer-review
 
-Images and links confirm, validate and reinforce claims, updated ratings [SPC] are presented below:
+Images and links confirm, validate and reinforce claims, updated ratings are presented below:
 
-| Section                                        | Rating | Description                                                           |
-|------------------------------------------------|--------|-----------------------------------------------------------------------|
-| Manual Introduction                            |   _90% | <div align='left'>__solid educational intent</div>                    |
-| Fujitsu P910 E85+ BIOS Update & HW Diagnostics |   _95% | <div align='left'>__steps confirmed, AMT/serial WIP [USR]</div>       |
-| Ubuntu Early Configuration for P910 with K80   |   100% | <div align='left'>__USB/noise validated, both [USR]</div>             |
-| Tesla K80 with P910 Installation Challenges    |   _95% | <div align='left'>__fit w/ USB elbow & powered by 2nd PSU [USR]</div> |
-| Esprimo P910 Dual-PSU Approach Evaluation      |   _95% | <div align='left'>__safety confirmed [USR]</div>                      |
-| Dual PSU Installation for Esprimo P910         |   _95% | <div align='left'>__parts/cooling validated, venting WIP [USR]</div>  |
-| Nvidia Tesla K80 SW Stack Installation         |   _95% | <div align='left'>__specs/list confirmed, SW int. WIP [USR]</div>     |
+| Section                                        | Rating | Description                                                     |
+|------------------------------------------------|--------|-----------------------------------------------------------------|
+| Manual Introduction                            |   _90% | <div align='left'>__solid educational intent</div>              |
+| Fujitsu P910 E85+ BIOS Update & HW Diagnostics |   _95% | <div align='left'>__steps confirmed, AMT/serial WIP</div>       |
+| Ubuntu Early Configuration for P910 with K80   |   100% | <div align='left'>__USB/noise validated, both</div>             |
+| Tesla K80 with P910 Installation Challenges    |   _95% | <div align='left'>__fit w/ USB elbow & powered by 2nd PSU</div> |
+| Esprimo P910 Dual-PSU Approach Evaluation      |   _95% | <div align='left'>__safety confirmed</div>                      |
+| Dual PSU Installation for Esprimo P910         |   _95% | <div align='left'>__parts/cooling validated, venting WIP</div>  |
+| Nvidia Tesla K80 SW Stack Installation         |   _95% | <div align='left'>__specs/list confirmed, SW int. WIP</div>     |
 
 #### Notes
 
-- **Ratings**: most sections improved up to 95%-100% [SPC] due to visual/hyperlink validation [USR].
-- **WIP Gaps**: serial/AMT (BIOS), venting (Installation), Nvidia SW stack installation -- WIP [USR].
-- **Audience Fit**: mid-skilled audience 90% fits [USR] -- images/links enhance DIY appeal [USR].
+- **Ratings**: most sections improved up to 95%-100% due to visual/hyperlink validation.
+- **WIP Gaps**: serial/AMT (BIOS), venting (Installation), Nvidia SW stack installation -- WIP.
+- **Audience Fit**: mid-skilled audience 90% fits -- images/links enhance DIY appeal.
 
 ...
 
