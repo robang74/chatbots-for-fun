@@ -1,4 +1,4 @@
-<div id="firstdiv" created="2025-01-24:EN:+2" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created=":EN:+2" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 <div align="center"><img class="bwsketch" src="img/k80-installed-in-wrong-slot.jpg" width="800"><br></div>
