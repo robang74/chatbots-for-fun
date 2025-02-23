@@ -427,7 +427,7 @@ Fujitsu developed a 0-Watt ATX solution which is included into Esprimo P910 E85+
 
 Please notice that the last BIOS release for the P910 E85+ model is dated back in 2014, seven years before the EoSL. It is bold from their side to provide such a kind of answer! 
 
-Especially because the Nvidia Tesla K80 was designed for the workstation and data-center markets, which fits perfectly in the definition of Fujitsu P910 platform: a workstation.
+Especially because the Nvidia Tesla K80 was designed for the workstation and data-center markets, which fits in to the definition of Fujitsu P910 platform: a workstation.
 
 > The Tesla K80 was a professional graphics card by NVIDIA, launched on November 17th, 2014.
 
