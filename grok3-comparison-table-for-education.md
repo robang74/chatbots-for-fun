@@ -132,7 +132,7 @@ Analysis of the various options as alternatives
 - **Others**: Shield/Xbox flounder (no CUDA, low RAM [USR]),
   - refurbs lag (costly, less memory/core power).
 
-#### Broader Impact
+### Broader Impact
 
 - **Educational**: 90% [SPC] - mid-skilled goldmine: Linux, AI, refurbished, tech-tweaks [USR].
 
