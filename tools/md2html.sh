@@ -88,6 +88,54 @@ function title_tags_add() {
     done
 }
 
+function boldconv() {
+    local str
+    while true; do
+        str=$(sed -ne 's,\*\*,<b>,' -e 's,\*\*,</b>,p' $1);
+        if [ -n "$str" ]; then
+            sed -e 's,\*\*,<b>,' -e 's,\*\*,</b>,' -i $1
+        else
+            break
+        fi
+    done
+}
+
+function italconv() {
+    local str
+    while true; do
+        str=$(sed -ne 's,\*,<i>,' -e 's,\*,</i>,p' $1);
+        if [ -n "$str" ]; then
+            sed -e 's,\*,<i>,' -e 's,\*,</i>,' -i $1
+        else
+            break
+        fi
+    done
+}
+
+function undlconv() {
+    local str
+    while true; do
+        str=$(sed -ne 's,__,<u>,' -e 's,__,</u>,p' $1);
+        if [ -n "$str" ]; then
+            sed -e 's,__,<u>,' -e 's,__,</u>,' -i $1
+        else
+            break
+        fi
+    done
+}
+
+function mnspconv() {
+    local str
+    while true; do
+        str=$(sed -ne 's,`,<tt>,' -e 's,`,</tt>,p' $1);
+        if [ -n "$str" ]; then
+            sed -e 's,`,<tt>,' -e 's,`,</tt>,' -i $1
+        else
+            break
+        fi
+    done
+}
+
 function md2htmlfunc() {
     local a b c i str=$(basename ${2%.html}) dir="" title txt cmd
     test "$str" == "index" && dir="html/"
@@ -124,12 +172,12 @@ function md2htmlfunc() {
 -e "s,{:-J},${emoji_a}smirk.png'>,g" -e "s,{boo},${emoji_a}ghost.png'>,g"
 
     sed -i $2 -e "s,^>$,> ," -e "s,@,\&commat;,g" \
--e 's,\\\*,\&ast;,g' -e 's,(\*),(\&ast;),g' -e 's,\[\*\],[\&ast;],g' \
+-e 's,\(>\)\{0\,1\} -- ,\1 \&mdash; ,g' -e 's,\\\*,\&ast;,g' \
 -e 's,\([^!/]\)-->,\1\&rarr;,g' -e 's,<--,\&larr;,g' \
--e 's,\(>\)\{0\,1\} -- ,\1 \&mdash; ,g' \
+-e 's,(\*),(\&ast;),g' -e 's,\[\*\],[\&ast;],g' \
+-e "s,>  *\[\!INFO\],> $note_A," \
 -e "s,>  *\[\!WARN\],> $warn_A," -e "s,>  *\[\!WARNING\],> $warn_A," \
 -e "s,>  *\[\!NOTE\],> $note_A," -e "s,>  *\[\!NOTICE\],> $note_A," \
--e "s,>  *\[\!INFO\],> $note_A," \
 -e "s,^\[\!CITE\],$cite_A," -e "s,^\[/CITE\],$cite_B," \
 -e "s,^\[\!INFO\],$info_A," -e "s,^\[/INFO\],$info_B," \
 -e "s,^\[\!CODE\],$code_A," -e "s,^\[/CODE\],$code_B," \
@@ -171,38 +219,7 @@ function md2htmlfunc() {
 
     tf=$2.tmp
     cat $2 | tr '\n' '@' | sed -e "s,$p_line,<p class='topbar'></p>," >$tf
-    while true; do
-        str=$(sed -ne 's,__,<u>,' -e 's,__,</u>,p' $tf);
-        if [ -n "$str" ]; then
-            sed -e 's,__,<u>,' -e 's,__,</u>,' -i $tf
-        else
-            break
-        fi
-    done
-    while true; do
-        str=$(sed -ne 's,\*\*,<b>,' -e 's,\*\*,</b>,p' $tf);
-        if [ -n "$str" ]; then
-            sed -e 's,\*\*,<b>,' -e 's,\*\*,</b>,' -i $tf
-        else
-            break
-        fi
-    done
-    while true; do
-        str=$(sed -ne 's,\*,<i>,' -e 's,\*,</i>,p' $tf);
-        if [ -n "$str" ]; then
-            sed -e 's,\*,<i>,' -e 's,\*,</i>,' -i $tf
-        else
-            break
-        fi
-    done
-    while true; do
-        str=$(sed -ne 's,`,<tt>,' -e 's,`,</tt>,p' $tf);
-        if [ -n "$str" ]; then
-            sed -e 's,`,<tt>,' -e 's,`,</tt>,' -i $tf
-        else
-            break
-        fi
-    done
+
     sed -e 's,</blockquote>\(@*\)<blockquote>,<br>,g' \
         -e 's,<blockquote>\(@*\)</blockquote>,<br>,g' -i $tf
 
@@ -224,6 +241,7 @@ function md2htmlfunc() {
 
     sed -e 's,^\&copy; 202[4-9].*Roberto A. Foglietta.*\&lt;.*,<p>&</p>,' \
         -e "s/<a [^>]*href=.http[^>]*/& ${TARGET_BLANK}/g" -i $2
+    mnspconv $2
     for i in 3 2 1; do
         let b=i*3 a=b-2 c=i+1; a=${a/1/2}; #echo "$i $a $b $c" >&2
         sed -i $2 \
@@ -325,8 +343,13 @@ function main_md2html() {
 
     printf "$a"
     #echo "list: $list" >&2
-    test -n "$list" && \
-        source tools/tabl2html.sh $list 2>/dev/null >&2
+    test $index -ne 0 && list+=" index.html"
+    for f in $list; do
+        boldconv "$f"
+        italconv "$f"
+        source tools/tabl2html.sh "$f" >/dev/null 2>&1
+        undlconv "$f"
+    done
     printf "$b" #4
 }
 
