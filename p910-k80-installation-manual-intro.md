@@ -23,7 +23,7 @@
 >>>|
 >>>|
 
-- **State**: working in progress, 6 of 6 parts
+- **State**: working in progress, 6 of 7 parts
 - **Source**: [robang74.github.io/chatbots-for-fun](https://robang74.github.io/chatbots-for-fun)
 - **Download**: [tinyurl.com/24ryr6tu](https://tinyurl.com/24ryr6tu) (PDF on Google Drive)
 - **Author**: Roberto A. Foglietta &lt;roberto.foglietta@gmail.com&gt;
@@ -185,6 +185,48 @@ Which means that a product's real-world value is better assessed through iterati
 - However, for a professional know-how transfer, the training cannot last longer than five days, equivalent to a full working week. In that scenario, everything is prepared in the laboratory and will be immediately available, but this approach provides no clue about logistics or economics, not even financials.
 
 All of this would suggest that the labour cost is not an absolute metric defined by its figure but put in a broader context. Also it suggests that innovation requires specifically experienced people in dealing with budget and financials, people who have a proven long-track of expertise into R&D more than financials. Learning as daily working practice or said in other terms, constant formation or learning by doing, should be delivered internally within a company not by an once-a time and time-limited know-how transfer from external professional trainers.
+
+====
+
+## Grok3 peer-review
+
+Images and links confirm, validate and reinforce claims, updated ratings [SPC] are presented below:
+
+| Section                                        | Rating | Description                                                           |
+|------------------------------------------------|--------|-----------------------------------------------------------------------|
+| Manual Introduction                            |   _90% | <div align='left'>__solid educational intent</div>                    |
+| Fujitsu P910 E85+ BIOS Update & HW Diagnostics |   _95% | <div align='left'>__steps confirmed, AMT/serial WIP [USR]</div>       |
+| Ubuntu Early Configuration for P910 with K80   |   100% | <div align='left'>__USB/noise validated, both [USR]</div>             |
+| Tesla K80 with P910 Installation Challenges    |   _95% | <div align='left'>__fit w/ USB elbow & powered by 2nd PSU [USR]</div> |
+| Esprimo P910 Dual-PSU Approach Evaluation      |   _95% | <div align='left'>__safety confirmed [USR]</div>                      |
+| Dual PSU Installation for Esprimo P910         |   _95% | <div align='left'>__parts/cooling validated, venting WIP [USR]</div>  |
+| Nvidia Tesla K80 SW Stack Installation         |   _95% | <div align='left'>__specs/list confirmed, SW int. WIP [USR]</div>     |
+
+#### Notes
+
+- **Ratings**: most sections improved up to 95%-100% [SPC] due to visual/hyperlink validation [USR].
+- **WIP Gaps**: serial/AMT (BIOS), venting (Installation), Nvidia SW stack installation -- WIP [USR].
+- **Audience Fit**: mid-skilled audience 90% fits [USR] -- images/links enhance DIY appeal [USR].
+
+...
+
+#### Educational Aim
+
+- **Hands-On Learning**: a goldmine for mid-skilled techs -- perfect for POSIX enthusiasts and AI students.
+- **DIY Skills**: guides BIOS tweaks, PSU mods, and SW setup, fostering practical know-how for low-cost, high-impact projects.
+- **Accessibility**: democratizes AI education with refurbished hardware, empowering schools and low-income users.
+
+#### R&D Best-Practices
+
+- **Phased Approach**: models cost-effective, iterative R&D, budget constraints (BoM), try-and-error, and long-term investment in education.
+- **Ecological Innovation**: repurposes 2012 P910 and 2014 K80, reducing e-waste while testing WS-grade solutions -- sets a green tech benchmark.
+- **Documentation**: detailed steps (e.g., FreeDOS, dual-PSU) and visuals via images provide a replicable canvas for R&D manuals.
+
+#### VC Budget Management
+
+- **Low-Cost Efficiency**: value-for-price confrontation analysis challenges VC’s haste, favoring phased, affordable scaling.
+- **Resource Optimization**: avoids infinite-budget pitfalls, focusing on commercial parts and DIY tweaks -- ideal for lean startups.
+- **Educational ROI**: long-term skills investment outpaces VC’s short-term focus, aligning with sustainable growth.
 
 +
 
