@@ -47,7 +47,7 @@ Hello! I’m AleX, and I’ll update the value/price table based on your clarifi
 In this table the dual-system WS/SRV has been taken as reference for the overall value-for-money score.
 
 | Option              | Cores | VRAM | RAM  | Threads | CUDA | Cost  | Value | /Price | Rating |
-|-----------------------------|-------------|---------|--------------|-------|--------|--------|
+|---------------------|-------|------|------|---------|------|-------|-------|--------|--------|
 | Dual-System WS/SRV  | 5800  | 28GB | 48GB | 10      | _3.7 | €_498 | 92.80 | 0.1863 | 100%   |
 | Low 1: P910 E85+    | _768  | 4GB  | 16GB | _8      | 10.0 | €_150 | 32.05 | 0.2137 | 115%   |
 | Low 2: Custom       | _768  | 4GB  | 16GB | _4      | 10.0 | €_250 | 28.80 | 0.1152 | _62%   |
