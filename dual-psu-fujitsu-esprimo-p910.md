@@ -5,7 +5,7 @@
 
 ## Esprimo P910 dual-PSU approach evaluation
 
-- This paper is part of the [Fujitsu P910 w/ Tesla K80 installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
+- This paper is part of the Esprimo P910 w/ Tesla K80 [installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
 
 The **2nd** edition (since rev. 6) includes the [external sources](#external-sources) session and a more comprehensible English language. The **3rd** edition (since rev. 8) includes two new sections about addressing the [P910 issues](#p910-issues) with K80 and its [cooling system](#cooling-the-k80). The **4th** edition (since rev. 9) includes two rendering about how the final Tesla K80 installation and the [cooling](#cooling-rendering) air flow is expected will look like. The **5th** edition (since rev. 10) includes the [bricolage](#bricolage) image parade and instructions to change the internal cooling system's air-flow.
 

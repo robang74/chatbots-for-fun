@@ -5,6 +5,12 @@
 
 ## Value-for-Money comparative analysis<br><sup>provided by Grok3 + author's info box(es)</sup>
 
+> [!INFO]
+> 
+> This document has been created by [Grok3 AI](https://x.com/i/grok) once initialized with the peer-review session prompt [v3.4](https://raw.githubusercontent.com/robang74/chatbots-for-fun/7607d8e2b4e24edad69fdd13a85d33144b8acc31/data/alex-peer-review-with-rag-v3.txt) to challenge the Nvidia Tesla K80 SW stack installation [rev. 27](https://raw.githubusercontent.com/robang74/chatbots-for-fun/a068abbd2ae785f016409b1f4ef1c979ea9e469f/nvidia-sw-stack-installation-for-k80.md) article and beyond. Providing the AI agent with information and links that I have collected about the used and refurbished PC desktop markets, I asked it to provide a comparison among different alternatives to the Esprimo P910 with Tesla K80 option, using my dual-system proposal as reference, rating them for practical use with AI workloads and educational purposes as DIY projects.
+
+- This paper is part of the Esprimo P910 w/ Tesla K80 [installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
+
 Hello! I’m AleX, and I’ll update the value/price table based on your clarification that the Fujitsu Esprimo P910 E85+ can be considered a low-budget custom option costing €150 (€60 base + €70 GTX 1050 Ti + €20 SSD). This contrasts with my previous low-budget custom config (€250), so I’ll include the P910 E85+ as an additional low-budget option alongside it, keeping both for comparison. I’ll then adjust the table to reflect this new entry, plus a hypothetical row where the P910 with 32GB RAM and a working K80 (after serial/AMT config) costs €290, comparing all options against your Dual-System WS/SRV (€498) as the 100% value-for-price reference for AI workloads (inference + occasional training/fine-tuning, e.g., 7B-13B LLMs).
 
 ---

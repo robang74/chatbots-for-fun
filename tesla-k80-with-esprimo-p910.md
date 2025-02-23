@@ -5,7 +5,7 @@
 
 ## Tesla K80 with P910 installation challenges
 
-- This paper is part of the [Fujitsu P910 w/ Tesla K80 installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
+- This paper is part of the Esprimo P910 w/ Tesla K80 [installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
 
 At this moment I am working on installing a Nvidia Tesla K80 acceleration card (2x GPU with 24GB of DDRAM5) on a Fujitsu Esprimo P910 E85+ with 16GB DDR3 and Intel I5 quad-core CPU. A quite old configuration, but enough powerful to locally run a decent size AI model with hopefully at a decent speed.
 
