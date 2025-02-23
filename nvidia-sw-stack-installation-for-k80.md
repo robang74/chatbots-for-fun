@@ -543,6 +543,8 @@ The CUDA support for compute capability 3.5 can be obtained via third party supp
 
 - [techpowerup vgabios](https://www.techpowerup.com/vgabios)
 
++
+
 ## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
