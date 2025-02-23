@@ -13,13 +13,13 @@ The **2nd** edition (since rev. 6) includes the [external sources](#external-sou
 
 ### Introduction
 
-This paper is going to present the way in which I decided to provide that system with a secondary 350W power supply unit in order to sustain the K80 consumption.
+This paper is going to present the way in which I decided to provide that system with a secondary 350W power supply unit in order to sustain the K80 consumption and aid venting for properly cooling the GPU card.
 
 Among the main issues one in particular was related to the Fujitsu Esprimo P910 which like many others slim-tower with Zero-Watt technology includes a customised power supply unit which has a single connection to the mainboard with a 16-pin connector and cannot be replaced with any standard ATX PSU also because its own way of being fixed to the case.
 
 Well - *cannot be replaced* - in the sense of a spare part because mechanical changes to the case in order to fit a standard PSU supply as well as providing a cable for adapting the standard 20/24-pins ATX connector to the motherboard 16-pin one, is always possible.
 
-However, as you can imagine some mods' outcomes are way unpredictable compared to assembly of commercially available parts. In particular when 220V power supply is involved.
+However, as you can imagine some mods' outcomes are less predictable than assembling commercially available parts. In particular, when 220V power supply is involved.
 
 ---
 
@@ -162,7 +162,7 @@ However, it is a pretty good try to start with designing a 3D printable addition
 > 
 > Before going for this way presented in the above sections, consider to give a try to the 9cm fan **least-effort option presented** into "*Preparing for installation*" section of this manual or [here](dual-psu-esprimo-p910-installation.md#least-effort-cooling-system?target=_blank) in a related web page. Later, the way presented in the sections above, just in case.
 
-Yet, this dual-PSU configuration has to face the proof of the time but this also depends on the choices I made. Instead, the approach in general seems valid because it does not imply any particular mod that would be forbidden into a common PC shop or PC hardware support center, or reparation. In fact, it is a matter of just assembling some spare parts and all these parts are available on different e-market, from different sellers and producers. 
+Yet, this dual-PSU configuration has to face the proof of the time but this also depends on the choices I made. Instead, the approach in general seems valid because it does not imply any particular mod that would be forbidden into a common PC shop or PC hardware support center, or reparation. In fact, it is a matter of just assembling some common spare parts and all these parts are available on different e-markets, from different sellers and producers.
 
 Making a comparison with the mods that I have seen shared on Reddit and other similar forums - but some are 4 years old - this is a quite simple, comfortable, standard and safe way to go. Despite this, it is not for everyone because assembly or modification of a personal computer hardware configuration requires manual dexterity to use tools, and a little experience.
 
