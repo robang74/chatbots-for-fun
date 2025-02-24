@@ -201,7 +201,7 @@ The cooling kit is made by assembling two 4-pin PWM 12 cm fans into a PCI slot s
 |x|>
 <img class="wbsketch" src="img/cooling-kit-fan2-usb-angle-cpu-fan1.jpg" width="800">
 +
-<sup>right click menu to enlarge (x3) the image</sup>
+<sup>right click menu to enlarge (x2) the image</sup>
 <|x|
 
 In the left part of the image, we can see the 90° angled USB 3.0 adapter which prevents the cable from rising more than 15 mm above the motherboard level and thus prevents the GPU card from fitting into the PCI-express slot. Nearby the USB 9-pin socket, there is the 4-pin socket for the original 12 cm fan. Which is labeled as FAN2 on the motherboard. This suggests that somewhere else there is another 4-pin socket dedicated for the CPU fan. In fact, we can find it near the CPU, while the 3-pin INTA is for intrusion detection.
