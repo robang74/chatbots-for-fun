@@ -408,6 +408,12 @@ multi-user.target reached after 14.300s in userspace<br>
 
 In this way, I managed to cut off about 7s from the previous optimization which means another 33% reduction in userspace. However, this had a minor impact in having a SSH root session ready to use 32.5s instead of 36s, about 10% less.
 
+---
+
+### SATA3 ports
+
+Looking at this [photo](img/cooling-kit-fan2-usb-angle-cpu-fan1.jpg?target=_blank) there are four SATA2 @3Gbps (orange) ports and two SATA3 @6Gbs (white). However, it does not matter being attached to one or another when using an 10y old SATA2 harddisk.
+
 ++++++
 
 <span id="bios-as-fw"></span>
