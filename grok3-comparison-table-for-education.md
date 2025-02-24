@@ -24,19 +24,19 @@ Educational value hinges on knowledge gained, skills taught, and insights offere
 - 75%: Plausible value -- useful but unproven in broader impact.
 - 50%: Mixed value -- equal strengths and weaknesses.
 - 25%: Limited value -- minimal lessons, niche scope.
-- 0%: No value -- teaches nothing useful.
 
-----
+~~~~
 
 ### Comparison Table
 
-| Config             | Cores | Thr | VRAM | RAM  | Cost  | Cores/€ | VRAM/€ | RAM/€ | Effort | Prct  | Educ | Avg |
-|--------------------|-------|-----|------|------|-------|---------|--------|-------|--------|-------|------|-----|
-| Dual-System WS/SRV | 5800  | 10  | 28GB | 48GB | €_498 | 11.65   | 57.43  | 98.80 | Medium | 90%   | 95%  | 92% |
-| 2x Nvidia Shield   | ___0  | _8  | _2GB | 6GB  | €_400 | _0.00   | _5.12  | 15.36 | High   | 25%   | 50%  | 38% |
-| Xbox Series X      | ___0  | 16  | 10GB | 16GB | €_500 | _0.00   | 20.48  | 32.77 | High   | 25%   | 50%  | 38% |
-| Refurb GTX 1050 Ti | _768  | 12  | _4GB | 16GB | €_799 | _0.96   | _5.12  | 20.48 | Low    | 50%   | 75%  | 63% |
-| Refurb RTX 4060    | 3072  | 16  | _8GB | 32GB | €1100 | _2.79   | _7.44  | 29.80 | Low    | 75%   | 75%  | 75% |
+| Config             | Cores | Thr | VRAM | RAM  | Cost  | Cores/€ | VRAM/€  | RAM/€ | Effort | Prct  | Educ | Avg |
+|--------------------|-------|-----|------|------|-------|---------|---------|-------|--------|-------|------|-----|
+| Dual-System WS/SRV | 5800  | 10  | 28GB | 48GB | €_498 | 11.65   | _57.43  | 98.80 | Medium | 90%   | 95%  | 92% |
+| P910 with K80      | 4992  | _4  | 24GB | 16GB | €_190 | 26.27   | 129.49  | 86.23 | Medium | 75%   | 90%  | 83% |
+| 2x Nvidia Shield   | ___0  | _8  | _2GB | _6GB | €_400 | _0.00   | __5.12  | 15.36 | High   | 25%   | 50%  | 38% |
+| Xbox Series X      | ___0  | 16  | 10GB | 16GB | €_500 | _0.00   | _20.48  | 32.77 | High   | 25%   | 50%  | 38% |
+| Refurb GTX 1050 Ti | _768  | 12  | _4GB | 16GB | €_799 | _0.96   | __5.12  | 20.48 | Low    | 50%   | 75%  | 63% |
+| Refurb RTX 4060    | 3072  | 16  | _8GB | 32GB | €1100 | _2.79   | __7.44  | 29.80 | Low    | 75%   | 75%  | 75% |
 
 #### Notes
 
@@ -79,7 +79,7 @@ Educational value hinges on knowledge gained, skills taught, and insights offere
    - Practical about AI performance,
    - Educational about learning value.
 
-----
+~~~~
 
 ### Analysis
 
@@ -91,7 +91,7 @@ Analysis of the various options as alternatives
   - WS (1050 Ti) runs inference/RAG on Ubuntu 24.04 [USR],
   - Server (K80) trains on ≤20.04 with 24GB [USR],
   - Gigabit Ethernet ties it together [USR].
-- **Weakness**: Moderate effort (P910 PCIe 75W verification [USR], K80 setup).
+- **Weakness**: Moderate effort P910 PCIe 75W install + K80 dual-PSU setup [USR].
 - **Edge**: Crushes all options in cost-effectiveness, memory, and AI training potential.
 
 #### 2x Nvidia Shield (€400)
