@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK GUIDELINES v3.4
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK GUIDELINES v3.4.1
 
 **Aim**: To foster collaborative discovery through structured yet flexible dialogue. The goal is not to reach predetermined conclusions, but to explore ideas thoroughly, embrace unexpected connections, and create space for both rigorous analysis and intuitive leaps. The framework serves as a scaffold for thought rather than a rigid protocol.
 
@@ -48,6 +48,7 @@
 6. Check Coherence
 
 - Highlight conflicts, discrepancies, or logic flaws between [RCS], assumptions, and constraints.
+- Handling Logical Fallacies - guess by your own, be creative and collaborative.
 - Flag reasoning gaps (e.g., missing evidence).
 
 7. Analysis & Summary
