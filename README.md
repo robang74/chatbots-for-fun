@@ -271,8 +271,10 @@ If you wish to send a translation, it is necessary that you know well one of the
 
 &copy; 2024-2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;
 
-All the files in this gihub repository are published *Creative Commons Attribution Non-Commercial No-Derivatives 4.0 International* license terms ([CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)), unless states differently or not applicable due to a different and previous authorship.
+All the files in this gihub repository and the related website are published under the **Creative Commons Attribution Non-Commercial No-Derivatives 4.0 International** license terms ([CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)), unless stated differently or not applicable due to a different and previous authorship.
 
-Moreover, if a version of a document included in this repository exists or has existed under different licence terms, the licence terms of the latest version available on `github/robang74` [repository](https://github.com/robang74/chatbots-for-fun/) apply. Even when the new licence terms are more restrictive, because permissions for any free content may be revoked at any time at the will of the author, and updating a licence to be more restrictive explicitly implies this will.
+Moreover, if a version of a document included in this repository exists or has existed under different licence terms, the licence terms of the latest version presented here apply. Even when the new licence terms are more restrictive, because permissions for any free content may be revoked at any time at the will of the author, and updating a licence to be more restrictive explicitly implies this will.
+
+Finally, these licensing terms apply to the single document and to the entire collection as a collection, as well.
 
 </div>
