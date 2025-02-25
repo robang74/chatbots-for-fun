@@ -23,7 +23,7 @@
 >>>|
 >>>|
 
-- **State**: working in progress, 6 of 7 parts
+- **State**: working in progress, 6 of 8 parts
 - **Source**: [robang74.github.io/chatbots-for-fun](https://robang74.github.io/chatbots-for-fun)
 - **Download**: [tinyurl.com/24ryr6tu](https://tinyurl.com/24ryr6tu) (PDF on Google Drive)
 - **Author**: Roberto A. Foglietta &lt;roberto.foglietta@gmail.com&gt;
@@ -40,6 +40,8 @@
 4. [Esprimo P910 dual-PSU approach evaluation](dual-psu-fujitsu-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-25)   
 5. [Dual PSU installation for Esprimo P910](dual-psu-esprimo-p910-installation.md#?target=_blank) &nbsp; (2025-02-05)
 6. [Nvidia Tesla K80 SW stack installation](nvidia-sw-stack-installation-for-k80.md#?target=_blank) &nbsp; (2025-02-18, **`WIP!`**)
+7. [Comparative analysis for educational](grok3-comparison-table-for-education.md) by Grok3 (&nbsp; 2025-02-23)
+8. [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md) by Grok3 &nbsp; (2025-02-23)
 
 |<<<
 |<<<

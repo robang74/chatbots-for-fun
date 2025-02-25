@@ -32,6 +32,8 @@ tesla-k80-with-esprimo-p910
 dual-psu-fujitsu-esprimo-p910
 dual-psu-esprimo-p910-installation
 nvidia-sw-stack-installation-for-k80
+grok3-comparison-table-for-education
+grok3-comparison-table-value-for-money
 "
 
 echo
