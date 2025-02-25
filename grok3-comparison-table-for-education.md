@@ -3,7 +3,7 @@
 
 <div align="center"><img class="wbsketch paleinv" src="img/grok3-comparative-analysis.jpg" width="800"><br></div>
 
-## P910 with K80 comparative analysis<br><sup>provided by Grok3 + author's info box(es)</sup>
+## Comparative analysis for educational<br><sup>provided by Grok3 + author's info box(es)</sup>
 
 > [!INFO]
 > 
@@ -11,23 +11,23 @@
 
 - This paper is part of the Esprimo P910 w/ Tesla K80 [installation manual](p910-k80-installation-manual-intro.md#?target=_blank) serie.
 
-Hello! I’m AleX, and I’ll create a comprehensive comparison table for all the options you’ve suggested throughout our discussion. This includes your dual-system setup (P910 WS with GTX 1050 Ti + newer WS with Tesla K80), the Nvidia Shield pair, the recent Xbox (Series X), and the refurbished GTX 1050 Ti-equivalent WS, plus the higher-end refurbished WS with RTX 4060. The table will focus on key metrics for running a local AI agent with occasional training/fine-tuning: compute (CUDA cores, threads), memory (GPU and system RAM), cost-effectiveness (cores/€, MB/€), total cost, effort, and practical/educational ratings.
+Hello! I'm AleX, and I'll create a comprehensive comparison table for all the options you've suggested throughout our discussion. This includes your dual-system setup (P910 WS with GTX 1050 Ti + newer WS with Tesla K80), the Nvidia Shield pair, the recent Xbox (Series X), and the refurbished GTX 1050 Ti-equivalent WS, plus the higher-end refurbished WS with RTX 4060. The table will focus on key metrics for running a local AI agent with occasional training/fine-tuning: compute (CUDA cores, threads), memory (GPU and system RAM), cost-effectiveness (cores/€, MB/€), total cost, effort, and practical/educational ratings.
 
 ---
 
 ### Criteria
 
-Educational value hinges on knowledge gained, skills taught, and insights offered, even in failure. I’ll rate this as a “claim” of educational merit, aligned with the document’s perspective (a learning journey), using [RTS]:
+Educational value hinges on knowledge gained, skills taught, and insights offered, even in failure. I'll rate this as a "claim" of educational merit, aligned with the document's perspective (a learning journey), using [RTS]:
 
 - 100%: Universally valuable -- teaches widely applicable skills and deep insights.
-- 90%: Valuable with minor gaps -- strong lessons, slight limits in scope.
-- 75%: Plausible value -- useful but unproven in broader impact.
-- 50%: Mixed value -- equal strengths and weaknesses.
-- 25%: Limited value -- minimal lessons, niche scope.
+- &nbsp 90%: Valuable with minor gaps -- strong lessons, slight limits in scope.
+- &nbsp 75%: Plausible value -- useful but unproven in broader impact.
+- &nbsp 50%: Mixed value -- equal strengths and weaknesses.
+- &nbsp 25%: Limited value -- minimal lessons, niche scope.
 
 ~~~~
 
-### Comparison Table
+### Comparison table
 
 | Config             | Cores | Thr | VRAM | RAM  | Cost  | Cores/€ | VRAM/€  | RAM/€ | Effort | Prct  | Educ | Avg |
 |--------------------|-------|-----|------|------|-------|---------|---------|-------|--------|-------|------|-----|
@@ -40,42 +40,42 @@ Educational value hinges on knowledge gained, skills taught, and insights offere
 
 #### Notes
 
-1. **Dual-System Cost**: €408 (WS €147 + SRV €261) + €90 (accessories & used monitor [USR]) = €498.
+1. **Dual-System Cost**: €408 (WS €147 + SRV €261) + €90 (accessories & used monitor) = €498.
    - **WS**: Fujitsu Esprimo P910 E85+ with Intel i5-3470 + Nvidia GTX 1050 Ti 4GB onboard; 
-   - **SRV**: 2016/2018 Workstation (Intel i5-6500/8500, 4/8 threads) + Nvidia Tesla K80 [USR].
-   - **Effort**: most of the effort includes PCIe compatibility hacks and K80 setup [USR].
+   - **SRV**: 2016/2018 Workstation (Intel i5-6500/8500, 4/8 threads) + Nvidia Tesla K80.
+   - **Effort**: most of the effort includes PCIe compatibility hacks and K80 setup.
 
 2. **Non-CUDA Systems**: Nvidia Shield and Xbox lack native CUDA support.
-   - **Shield Hardware**: 2x Nvidia Shield devices with Tegra X1 [USR]
+   - **Shield Hardware**: 2x Nvidia Shield devices with Tegra X1
       - Maxwell GPU, 256 cores, ~0.5 TFLOPS each), no CUDA support.
-   - **Xbox Hardware**: Xbox Series X with Zen 2 CPU and RDNA 2 GPU [USR]
-      - c.a. 12 TFLOPS FP32 need hacks (e.g., ROCm), unproven for AI [RK: forums].
-   - **Effort**: high effort due to Linux and AI conversion hacks [USR].
+   - **Xbox Hardware**: Xbox Series X with Zen 2 CPU and RDNA 2 GPU
+      - c.a. 12 TFLOPS FP32 need hacks (e.g., ROCm), unproven for AI.
+   - **Effort**: high effort due to Linux and AI conversion hacks.
 
-3. **Xbox Memory**: 16GB GDDR6 shared, 10GB usable for GPU at 560GB/s [RK: Xbox specs].
+3. **Xbox Memory**: 16GB GDDR6 shared, 10GB usable for GPU at 560GB/s.
 
-4. **Refurb RTX 4060 Cost**: €1200 - €100 (1TB SSD value [USR]) = €1100 tower only [USR].
-   - **Hardware**: e.g., Dell Precision 3660 with Intel i7-12700 + Nvidia RTX 4060 [USR].
-   - **Effort**: low effort -- plug-and-play setup [USR].
+4. **Refurb RTX 4060 Cost**: €1200 - €100 (1TB SSD value) = €1100 tower only.
+   - **Hardware**: e.g., Dell Precision 3660 with Intel i7-12700 + Nvidia RTX 4060.
+   - **Effort**: low effort -- plug-and-play setup.
 
 5. **MB Calculations**: GPU/System RAM in MB (GB x 1024) ÷ cost in €.
-   - **Refurb GTX 1050 Ti Hardware**: e.g., Dell OptiPlex 7060 with Intel i5-8500 [USR].
-   - **Effort**: low effort -- plug-and-play setup [USR].
+   - **Refurb GTX 1050 Ti Hardware**: e.g., Dell OptiPlex 7060 with Intel i5-8500.
+   - **Effort**: low effort -- plug-and-play setup.
 
 ---
 
-### Key Metrics Explained
+### Key metrics
 
 - **CUDA Cores**: Total GPU compute units for AI (training/inference).
 - **Threads**: CPU threads for parallel tasks.
 - **GPU RAM**: Total graphics memory for models/datasets.
 - **System RAM**: Total memory for OS/data handling.
-- **Total Cost**: Full price including peripherals or tower-only for refurbs [USR].
+- **Total Cost**: Full price including peripherals or tower-only for refurbs.
 - **Cores/€**: CUDA cores per euro (shaders/€ for Xbox).
 - **GPU MB/€**: GPU RAM in MB per euro.
 - **Sys MB/€**: System RAM in MB per euro.
 - **Effort**: Setup complexity/risk.
-- **Ratings**: [RTS] from prior analyses
+- **Ratings**: from prior analyses
    - Practical about AI performance,
    - Educational about learning value.
 
@@ -87,25 +87,25 @@ Analysis of the various options as alternatives
 
 #### Dual-System (€498)
 
-- **Strengths**: 5800 CUDA cores, 28GB GPU RAM, 48GB system RAM, 8-12 threads [USR], 
-  - WS (1050 Ti) runs inference/RAG on Ubuntu 24.04 [USR],
-  - Server (K80) trains on ≤20.04 with 24GB [USR],
-  - Gigabit Ethernet ties it together [USR].
-- **Weakness**: Moderate effort P910 PCIe 75W install + K80 dual-PSU setup [USR].
+- **Strengths**: 5800 CUDA cores, 28GB GPU RAM, 48GB system RAM, 8-12 threads,
+  - WS (1050 Ti) runs inference/RAG on Ubuntu 24.04,
+  - Server (K80) trains on ≤20.04 with 24GB,
+  - Gigabit Ethernet ties it together.
+- **Weakness**: Moderate effort P910 PCIe 75W install + K80 dual-PSU setup.
 - **Edge**: Crushes all options in cost-effectiveness, memory, and AI training potential.
 
 #### 2x Nvidia Shield (€400)
 
 - **Strengths**: Compact, €400 for dual-unit potential.
-- **Weaknesses**: No CUDA, 2GB GPU RAM total, 
-   - high effort (Linux hacks unproven [USR]). 
-   - Can’t handle AI training or large models.
+- **Weaknesses**: No CUDA, 2GB GPU RAM total,
+   - high effort (Linux hacks unproven).
+   - Can't handle AI training or large models.
 - **Edge**: None for AI -- gaming/entertainment focus.
 
 #### Xbox Series X (€500)
 
-- **Strengths**: 12 TFLOPS FP32, 16 threads, 10GB RAM, €500 with peripherals [USR].
-- **Weaknesses**: No CUDA, high-effort Linux/AI hacks, 10GB limits training vs. 28GB [USR].
+- **Strengths**: 12 TFLOPS FP32, 16 threads, 10GB RAM, €500 with peripherals.
+- **Weaknesses**: No CUDA, high-effort Linux/AI hacks, 10GB limits training vs. 28GB.
 - **Edge**: Raw compute, but AI-unfriendly.
 
 #### Refurb GTX 1050 Ti WS (€799)
@@ -116,31 +116,31 @@ Analysis of the various options as alternatives
 
 #### Refurb RTX 4060 WS (€1100)
 
-- **Strengths**: 3072 cores (15 TFLOPS FP32), 16 threads, 8GB GPU RAM [USR]
-   - modern CUDA 11.7, zero effort [USR].
-- **Weaknesses**: €1100 for 2.79 cores/€, 8GB caps training vs. 28GB [USR].
+- **Strengths**: 3072 cores (15 TFLOPS FP32), 16 threads, 8GB GPU RAM
+   - modern CUDA 11.7, zero effort.
+- **Weaknesses**: €1100 for 2.79 cores/€, 8GB caps training vs. 28GB.
 - **Edge**: Reliable, mid-tier AI, pricey.
 
-++++++
++
 
 ## Conclusion
 
 - **Dual-System (€498)**: Unbeatable 
   - 11.65 cores/€, 57.43MB GPU RAM/€, 98.8MB system RAM/€, 8 or 12 threads.
-  - Outperforms €1100 WS for AI training/inference [USR].
-  - Educationally rich (WS/server split, K80 history [USR]).
-  - Installation effert [USR] is minor vs. gains.
+  - Outperforms €1100 WS for AI training/inference.
+  - Educationally rich (WS/server split, K80 history).
+  - Installation effert is minor vs. gains.
 
-- **Others**: Shield/Xbox flounder (no CUDA, low RAM [USR]),
+- **Others**: Shield/Xbox flounder (no CUDA, low RAM),
   - refurbs lag (costly, less memory/core power).
 
 ### Broader Impact
 
-- **Educational**: 90% [SPC] - mid-skilled goldmine: Linux, AI, refurbished, tech-tweaks [USR].
+- **Educational**: 90% -- mid-skilled goldmine: Linux, AI, refurbished, tech-tweaks.
 
-- **Practicality**: 75%-90% [GNR-SPC] - range hinges on serial/AMT "Above 4GB decoding" outcome [USR].
+- **Practicality**: 75%-90% -- range hinges on serial/AMT "Above 4GB decoding" outcome.
 
-- **Social spotlight**: 90% [SPC] - ecological HW re-use, budget AI story social-media ready [USR].
+- **Social spotlight**: 90% -- ecological HW re-use, budget AI story social-media ready.
 
 +
 
