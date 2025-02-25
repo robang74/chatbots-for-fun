@@ -299,9 +299,9 @@ nvidia-smi 2>/dev/null; lsmod | grep -e video -e nvidia<br>
 dmesg -l err,crit,warn; dmesg | grep -i iommu<br>
 lspci -vvv | grep -i -e nvidia -e PLX<br>
 
-for d in /sys/kernel/iommu_groups/&ast;/devices/&ast; do<br>
+for d in /sys/kernel/iommu_groups/&ast;/devices/&ast;; do<br>
 n=${d#&ast;/iommu_groups/&ast;}; n=${n%%/&ast;}; printf 'IOMMU group %s: ' "$n"<br>
-lspci -nns "${d##&ast;/}";done<br>
+lspci -nns "${d##&ast;/}"; done; systemd-analyze<br>
 [/CODE]
 
 +
