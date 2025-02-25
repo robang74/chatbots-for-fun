@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-02-18&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>32</b rev_num='
+'>33</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -294,6 +294,7 @@ The output is much more comforting because all the memory BARs are present but s
 <p></p>
 <blockquote class="code"><code>
 root&commat;P910:~# apt list --installed  2>/dev/null | grep -i nvidia | cut -d/ -f1<br>
+libnvidia-compute-470<br>
 linux-modules-nvidia-470-5.15.0-131-generic<br>
 linux-modules-nvidia-470-5.15.0-67-generic<br>
 linux-modules-nvidia-470-generic-hwe-20.04<br>
@@ -302,10 +303,23 @@ linux-objects-nvidia-470-5.15.0-67-generic<br>
 linux-signatures-nvidia-5.15.0-131-generic<br>
 linux-signatures-nvidia-5.15.0-67-generic<br>
 nvidia-kernel-common-470<br>
+nvidia-utils-470<br>
 nvidia-modprobe<br>
 </code></blockquote>
 <p></p>
-I purged some stuff from the Nvidia SW stack to avoid clogging the Xorg and because the Tesla K80 is not supposed to function as a graphic accelerator at this stage, at least.
+I purged some stuff from the Nvidia SW stack to avoid clogging the Xorg and because the Tesla K80 is not supposed to function as a graphic accelerator at this stage, at least. Anyway, completely removing the Nvidia SW stack is a good way to keep the system/boot light and avoid hassles when trying to workaround by kernel options/mods the 36-bit limitation. After all, before resolving or working around the 36-bit limitation, there is no hope to use the Nvidia SW stack, in any way. Checks collection, in short here below:
+<p></p>
+<blockquote class="code"><code>
+cat /proc/cmdline /proc/driver/nvidia/gpus/&ast;/information 2>/dev/null<br>
+lspci -vvv | grep -iA 20 nvidia|grep -ie region -ie lnkcap:<br>
+nvidia-smi 2>/dev/null; lsmod | grep -e video -e nvidia<br>
+dmesg -l err,crit,warn; dmesg | grep -i iommu<br>
+lspci -vvv | grep -i -e nvidia -e PLX<br>
+<p></p>
+for d in /sys/kernel/iommu_groups/&ast;/devices/&ast; do<br>
+n=${d#&ast;/iommu_groups/&ast;}; n=${n%%/&ast;}; printf 'IOMMU group %s: ' "$n"<br>
+lspci -nns "${d##&ast;/}";done<br>
+</code></blockquote>
 <p></p>
 <br>
 <br><hr><br>

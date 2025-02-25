@@ -277,6 +277,7 @@ The output is much more comforting because all the memory BARs are present but s
 
 [!CODE]
 root@P910:~# apt list --installed  2>/dev/null | grep -i nvidia | cut -d/ -f1<br>
+libnvidia-compute-470<br>
 linux-modules-nvidia-470-5.15.0-131-generic<br>
 linux-modules-nvidia-470-5.15.0-67-generic<br>
 linux-modules-nvidia-470-generic-hwe-20.04<br>
@@ -285,10 +286,23 @@ linux-objects-nvidia-470-5.15.0-67-generic<br>
 linux-signatures-nvidia-5.15.0-131-generic<br>
 linux-signatures-nvidia-5.15.0-67-generic<br>
 nvidia-kernel-common-470<br>
+nvidia-utils-470<br>
 nvidia-modprobe<br>
 [/CODE]
 
-I purged some stuff from the Nvidia SW stack to avoid clogging the Xorg and because the Tesla K80 is not supposed to function as a graphic accelerator at this stage, at least.
+I purged some stuff from the Nvidia SW stack to avoid clogging the Xorg and because the Tesla K80 is not supposed to function as a graphic accelerator at this stage, at least. Anyway, completely removing the Nvidia SW stack is a good way to keep the system/boot light and avoid hassles when trying to workaround by kernel options/mods the 36-bit limitation. After all, before resolving or working around the 36-bit limitation, there is no hope to use the Nvidia SW stack, in any way. Checks collection, in short here below:
+
+[!CODE]
+cat /proc/cmdline /proc/driver/nvidia/gpus/&ast;/information 2>/dev/null<br>
+lspci -vvv | grep -iA 20 nvidia|grep -ie region -ie lnkcap:<br>
+nvidia-smi 2>/dev/null; lsmod | grep -e video -e nvidia<br>
+dmesg -l err,crit,warn; dmesg | grep -i iommu<br>
+lspci -vvv | grep -i -e nvidia -e PLX<br>
+
+for d in /sys/kernel/iommu_groups/&ast;/devices/&ast; do<br>
+n=${d#&ast;/iommu_groups/&ast;}; n=${n%%/&ast;}; printf 'IOMMU group %s: ' "$n"<br>
+lspci -nns "${d##&ast;/}";done<br>
+[/CODE]
 
 +
 ===
