@@ -53,9 +53,11 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
-* **Fujitsu Esprimo P910 E85+ w/ Nvidia Tesla K80 installation** &nbsp; (8 pz.)
+* **Fujitsu Esprimo P910 E85+ w/ Nvidia Tesla K80 installation** &nbsp; (9 pz.)
 
-   - 2025-02-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-comparison-table-for-education.md)] - [P910 with K80 comparative analysis by Grok3](grok3-comparison-table-for-education.md)
+   - 2025-02-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-comparison-table-value-for-money.md)] - [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md) by Grok3
+
+   - 2025-02-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-comparison-table-for-education.md)] - [Comparative analysis for educational](grok3-comparison-table-for-education.md) by Grok3
 
    - 2025-02-18 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/nvidia-sw-stack-installation-for-k80.md)] - [Nvidia Tesla K80 SW stack installation](nvidia-sw-stack-installation-for-k80.md) (**`WIP!`**)
 
