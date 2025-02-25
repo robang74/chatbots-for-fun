@@ -24,7 +24,7 @@ Hello! I'm AleX, and I'll update the value/price table based on our agreed metri
    - P910 with K80 assumes serial/iAMT enables "Above 4GB Decoding";
    - eevery system among AS-IS from AfB shop excludes user's DIY HW upgrades.
 
----
+----
 
 ### Configurations
 
@@ -73,6 +73,8 @@ In this table the dual-system WS/SRV has been taken as reference for the overall
 | Mid 2: MSI Infinite  | 3072  | _8GB | 16GB | 16  | 11.7 | €_949 | 103.21 | 0.1087 | _28%   |
 | High: Lnv Legion T5  | 5888  | 12GB | 32GB | 16  | 12.0 | €1399 | 142.50 | 0.1019 | _26%   |
 
+++++
+
 [!INFO]
 
 The more a solution is ready-to-go and gaming-oriented, the more its price is overrated compared to a similar computational-only solution. In the same way, the educational value tends to increase as the configuration is know-how & skills intensive to be prepared and set up for working. In both scenarios, those solutions that face adversities about gambling-on-specs and DIY-tweaks bricolage, are lower priced and also end-users' market overlooked.
@@ -119,6 +121,8 @@ Here below is explained how the values and related ratings has been calculated.
 - **Low Custom**: (50x0.143) + (20x0.133) + (15x0.333) + (10x0.25) + (5x0.833) =
    - = 7.14 + 2.67 + 5 + 2.5 + 4.165 = **46.67**.
 
+++++
+
 #### Value/Price Index
 
 - **WS/SRV**: 194.56 / 498 = **0.3906** (100%, reference).
@@ -160,7 +164,7 @@ Here below is explained how the values and related ratings has been calculated.
 - **High: Lenovo Legion T5 26ARA8 (€1399)**: 26%
    - 5888 cores, 12GB GPU RAM, modern CUDA, but costly vs. WS/SRV's efficiency.
 
-+
+++++++
 
 ## Conclusion
 
@@ -184,7 +188,7 @@ This project is a gem -- serial/iAMT worst case outcome (100%) is a 2x power win
 
 - **Social Media Spotlight**: absolutely, this project shines -- whether it's a 100% fallback or 150% triumph, it's a narrative goldmine. "Reviving a €150 relic to outgun €749 rigs for AI" hooks Ubuntu fans, AI enthusiasts, and eco-warriors. The mix of technical grit, budget wizardry, and societal impact (education/low-income access) could go viral on platforms like X or Reddit -- especially once the serial/iAMT journey will be properly documented.
 
-+
+++++++
 
 ## Explanation for metrics change
 
