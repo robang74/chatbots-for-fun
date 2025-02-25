@@ -264,7 +264,7 @@ These options are the suggested for the Linux kernel command line:
 
 ++++
 
-- `pci=realloc` --> `pci=realloc,assign-busses,use_crs`
+- `pci=realloc` and `intel_iommu=on iommu=pt intremap=on pci=assign-busses,routeirq`
    - due to an explicit suggestion for adding that argument by the `dmesg` output
    - more parameters about the PCI/e subsystem for the sake of Nvidia K80 board
 
@@ -285,6 +285,7 @@ Then `reboot` to let the system restart with the new settings. Finally, after th
 
 First of all, reset the BIOS settings to its optimal default and then on the top of that settings we can make some adjustments:
 
+- Trust Computing: **disabled**
 - PCIe ASPM support: **Disabled**
 - Intel TXT support: **Disabled**
 - Secure Boot: **Disabled**
