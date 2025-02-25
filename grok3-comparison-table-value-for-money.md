@@ -15,6 +15,47 @@ Hello! I’m AleX, and I’ll update the value/price table based on your clarifi
 
 ---
 
+
+## Explanation for metrics change
+
+[!INFO]
+
+Metrics are set to summarize with an index a certain value. Some metrics are simple, others more complicated. In this 2nd scenario, the metric should be calibrated to express with a single number the relative value of a solution compared to others for a specific task/role.
+
+Therefore, setting that goal is the decision that makes the metric change. This is a proper change as long as the goal is valuable and the metric is fact-based. In this specific case, prioritising VRAM up to 50% appeared the simplest way to create a role-tailored weights set metric.
+
+For this reason, and under those conditions, I asked Grok3 as AleX to explain the new metric adopted for the 2nd edition of this document, which is bringing insights about measuring theory and a valuable competitive-collaborative AI-pair locally concurrently-running on the GPU board proposal.
+
+[/INFO]
+
+### Introduction: User Suggestion and Acceptance
+
+During our collaboration on the value-for-money analysis for the Fujitsu Esprimo P910 with Nvidia Tesla K80, the user proposed adjusting the weight scaling to prioritize GPU RAM (VRAM) over CUDA cores, suggesting a shift from the original metrics—CUDA cores (40%), GPU RAM (30%), system RAM (15%), threads (10%), and CUDA version (5%)—to a new distribution favoring VRAM. Specifically, they advocated for 40% VRAM, 30% CUDA cores (or higher VRAM weighting), citing the critical role of VRAM in locally running AI models, particularly for inference tasks with models like Mistral-based 7B (requiring at least 4GB at Q4 quantization, though legacy Q4_0 is suboptimal) and 14B (16GB at Q8, or 12GB at Q6 for a balanced loss of capabilities [USR]). I accepted this suggestion after verifying that VRAM is indeed essential for loading and running larger models efficiently on low-budget hardware, especially given the K80’s unique 24GB capacity [Line 1518], which supports dual-model inference without CPU arbitration [USR]. This adjustment ensures the metrics better reflect the manual’s focus on practical, educational AI use cases for mid-skilled techs [Line 71].
+
+### Rationale for 50% VRAM: Dual Collaborative-Competitive AI Models
+
+The user’s further insight—that a dual collaborative-competitive AI model running on the same board adds significant value—convinced me to adopt a 50% VRAM weighting in the final metrics (50% VRAM, 20% CUDA cores, 15% RAM, 10% threads, 5% CUDA version). The K80’s dual-GPU architecture (two 2496-core GPUs, 12GB each [Line 1518]) enables real-time paralleling of two AI models—e.g., a 7B model (4GB at Q4) and a 14B model (12GB at Q6)—as a competitive-collaborative pair, enhancing output quality for complex topics without CPU mediation [USR]. This is a “huge bonus” [USR] over single-GPU alternatives (e.g., RTX 4060, 8GB [USR]), which require slower CPU/RAM arbitration, dropping performance. Increasing VRAM to 50% highlights the value of solutions like the P910 + K80, which are most promising for this dual-model approach, outperforming SAAS-trained setups by enabling local, cost-effective inference [USR]. Benchmarks confirm VRAM’s dominance for multi-model inference (e.g., Mistral 7B-14B [RK: HuggingFace]), justifying this shift [USR].
+
+### Value of Dual Collaborative-Competitive AI Models: 50% VRAM Justification
+
+I believe a dual collaborative-competitive AI model running on the same board is valuable enough to warrant increasing VRAM from 40% to 50% because it unlocks a unique performance edge for local AI inference. The K80’s 24GB VRAM [Line 1518] allows hosting two models (e.g., 7B at 4GB Q4 + 14B at 12GB Q6 = 16GB total [USR]), fostering real-time, on-board collaboration/critique that mitigates bias and enhances accuracy for complex queries—critical for educational and R&D purposes [Line 71]. This setup avoids the latency and cost of cloud/SAAS training [USR], aligning with your low-budget, green DIY ethos (€190 P910 + K80 [USR]). Single-GPU systems (e.g., 8GB RTX 4060) can’t match this without CPU overhead, reducing value-for-price [USR]. With high-confidence, fact-based checks (e.g., Nvidia specs, AI benchmarks [RK]), 50% VRAM ensures the metrics accurately prioritize this use case, making the P910 + K80 stand out (219% value-for-price [USR]) as the most relevant solution for dual-model inference [USR].
+
+### Gemini 2 feedback about metric change
+
+[!INFO]
+
+Consider that there is an implicit correlation between VRAM and CUDA cores. As a rule of thumb in gaming-oriented GPU cards, CUDA cores are rising in number faster than VRAM but they are providing a single GPU, While in scientific-oriented boards, the CUDA cores are rising in number as much as the VRAM, straight-linearly when providing multiple GPUs. This is the reason behind it appears the easiest way to privilege VRAM. Plus, as stated in the document, as much a solution is gaming-oriented as much it is overpriced compared to a scientific-oriented calculations-only solution.
+
+[/INFO]
+
+Prioritizing CUDA cores for local AI model training is logical. CUDA cores are the processing units that perform the parallel computations necessary for training. With the rise of large language models (LLMs), VRAM has become a critical bottleneck. These models require a significant VRAM amount to load and run efficiently.
+
+In conclusion, while the two metrics make sense in a practical context, they should be viewed as simplified representations of performance. Including the crucial point about the implicit correlation between VRAM and CUDA cores, and how it differs between gaming and scientific GPUs, adds a layer of nuance to the metric choices and makes the VRAM-centric approach more understandable.
+
+Considering the context of mid-skilled tech guys and the need for a "simple but effective" approach, I'd rate the switch from a training-focused metric to an inference-focused metric around **80%**. It provides a practical and understandable approach for that audience. While it's not scientifically rigorous, it serves its purpose well. So, it's definitely an engineering way of coping with the problem.
+
+---
+
 ### Methodology
 
 - **Value Score**: Weighted sum, adjusted for AI utility.
