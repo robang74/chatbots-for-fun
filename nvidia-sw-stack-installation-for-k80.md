@@ -119,7 +119,7 @@ root@p910:~# ubuntu-drivers install<br>
 done<br>
 
 root@p910:~# add-apt-repository ppa:danielrichter2007/grub-customizer -y<br>
-root@p910:~# apt-get install grub-customizer modprobe-nvidia nvtop -y<br>
+root@p910:~# apt-get install grub-customizer modprobe-nvidia nvtop mtools -y<br>
 [/CODE]
 
 and before rebooting the system, adding a kernel command line parameters `modprobe.blacklist=nouveau` in `/etc/default/grub` file to prevent nvidia generic driver mess up things, then update the initramfs and the grub boot record, as shown here below:
