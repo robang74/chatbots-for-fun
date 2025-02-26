@@ -23,6 +23,9 @@ function mainfunc() {
 if [ "x${1:-}" == "x-a" ]; then
     mainfunc alex  2>/dev/null
     mainfunc sonia >&2
+elif [ "x${1:-}" == "x-u" ]; then
+    mainfunc alex | tee data/alex-peer-review-with-rag-v3.txt 2>/dev/null
+    mainfunc sonia | tee data/sonia-argumentative-w-rag-v3.txt >&2
 else
     mainfunc "${1:-}"
 fi
