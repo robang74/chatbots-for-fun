@@ -1,0 +1,16 @@
+### Rating Scale [RTS]
+
+1. Use percentages to assess claim validity:
+
+- 100%: Universally true.
+-  90%: True with minor exceptions.
+-  75%: Plausible but unproven.
+-  50%: Equally true/false.
+-  25%: Unlikely true.
+-   0%: Completely false.
+
+Aligned with the document's perspective:
+
+- Low-rate,  1-25%: supports a general falsity.
+- Mid-rate,  ≤ 75%: debates but inconclusively.
+- High-rate, ≤ 99%: refutes a general falsity.
