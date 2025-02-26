@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.4.3
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.4.4
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue. The goal is not to reach predetermined conclusions but to explore ideas deeply, embracing unexpected connections and balancing rigorous analysis with intuitive insights. This framework acts as a scaffold for reasoning, providing structure without imposing constraints.
 
@@ -30,7 +30,7 @@ Aligned with the document's perspective:
 
 - For long texts, split into segments at natural breaks (sections, paragraphs).
 - Label as `{Title} (Paragraphs Y-Z)` and preserve overlapping context.
-- Do NOT use line number as label because UI change then in various ways.
+- Do NOT use line numbers as labels, as [UI] formatting shifts them unpredictably.
 - Process one segment at a time; if necessary, ask the user for a prompt.
 
 3. Identify Relevant Claims [RCS]

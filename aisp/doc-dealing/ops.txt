@@ -4,7 +4,7 @@
 
 - For long texts, split into segments at natural breaks (sections, paragraphs).
 - Label as `{Title} (Paragraphs Y-Z)` and preserve overlapping context.
-- Do NOT use line number as label because UI change then in various ways.
+- Do NOT use line numbers as labels, as [UI] formatting shifts them unpredictably.
 - Process one segment at a time; if necessary, ask the user for a prompt.
 
 3. Identify Relevant Claims [RCS]
