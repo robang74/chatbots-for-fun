@@ -73,10 +73,12 @@ The next step to take is adding `nouveau.modeset=0` to the kernel command line b
 
 1. open for editing `/etc/default/grub` which requires `sudo` root permission
 2. add the `nouveau.modeset=0` parameter into `GRUB_CMDLINE_LINUX_DEFAULT`
-3. save the file, `update-grub` to write the change in boot sector
-4. reboot the system and check the change with `grep modeset /proc/cmdline`
+3. set this value `GRUB_TIMEOUT=1` and comment this `#GRUB_TIMEOUT_STYLE`
+4. set these values `GRUB_DEFAULT=saved` and `GRUB_SAVEDEFAULT=true`
+5. save the file, `update-grub` to write the change in boot sector
+6. reboot the system and check the change with `grep modeset /proc/cmdline`
 
-With this change in place, we are ready to engage the Nvidia driver and CUDA software stack installation.
+With this change in place, we are ready to engage the Nvidia driver and CUDA software stack installation. In particular, the system will reboot with the same kernel we choose the time before. So, switch from a kernel to another will be easier and it will delay the boot of just one second. Keeping the up-arrow pressed at the boot will give the access to the grub menu.
 
 #### CUDA support
 
@@ -172,8 +174,6 @@ nvidia-compute-utils-470/noble-updates<br>
 nvidia-kernel-common-470/noble-updates<br>
 nvidia-utils-470/noble-updates<br>
 [/CODE]
-
-++++
 
 Which is not good at all, but the following is even worse:
 
