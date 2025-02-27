@@ -314,6 +314,16 @@ lspci -nns "${d##&ast;/}"; done; systemd-analyze<br>
 ===
 ++++++
 
+## About the ACPI warnings
+
+Despite being branded as warning is quite annoying having conflicts in the ACPI subsystem especially for a WS which will face limited-in-time but heavy workloads.
+
+- [fujitsu-esprimo-p910-d3162-a1x-dsdt-opregion-conflicts](https://github.com/robang74/chatbots-for-fun/tree/main/data/dsdt#fujitsu-esprimo-p910-d3162-a1x-dsdt-opregion-conflicts)
+
+In this folder of the related github project, I put some useful information, data and external sources to start copying with the issue, for a future reference.
+
++
+
 <span id="old-but-fast"></span>
 ## Speed-up system boot
 
@@ -428,7 +438,7 @@ In this way, I managed to cut off about 7s from the previous optimization which 
 
 Looking at this [photo](img/cooling-kit-fan2-usb-angle-cpu-fan1.jpg?target=_blank) there are four SATA2 @3Gbps (orange) ports and two SATA3 @6Gbs (white). However, it does not matter being attached to one or another when using an 10y old SATA2 harddisk.
 
-++++++
++
 
 <span id="bios-as-fw"></span>
 ## Why do PCs still have a BIOS?

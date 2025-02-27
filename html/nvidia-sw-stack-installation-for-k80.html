@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-02-18&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>37</b rev_num='
+'>39</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -331,6 +331,16 @@ lspci -nns "${d##&ast;/}"; done; systemd-analyze<br>
 <br><hr><br>
 <div class="pagebreak"><br></div>
 <p></p>
+<H2 id="about-the-acpi-warnings">About the ACPI warnings</H2>
+<p></p>
+Despite being branded as warning is quite annoying having conflicts in the ACPI subsystem especially for a WS which will face limited-in-time but heavy workloads.
+<p></p>
+<li><a href="https://github.com/robang74/chatbots-for-fun/tree/main/data/dsdt#fujitsu-esprimo-p910-d3162-a1x-dsdt-opregion-conflicts" target='_blank' rel='noopener noreferrer'>fujitsu-esprimo-p910-d3162-a1x-dsdt-opregion-conflicts</a></li>
+<p></p>
+In this folder of the related github project, I put some useful information, data and external sources to start copying with the issue, for a future reference.
+<p></p>
+<br>
+<p></p>
 <span id="old-but-fast"></span>
 <H2 id="speed-up-system-boot">Speed-up system boot</H2>
 <p></p>
@@ -443,7 +453,7 @@ In this way, I managed to cut off about 7s from the previous optimization which 
 <p></p>
 Looking at this <a href="../img/cooling-kit-fan2-usb-angle-cpu-fan1.jpg" target='_blank' rel='noopener noreferrer'>photo</a> there are four SATA2 &commat;3Gbps (orange) ports and two SATA3 &commat;6Gbs (white). However, it does not matter being attached to one or another when using an 10y old SATA2 harddisk.
 <p></p>
-<div class="pagebreak"><br></div>
+<br>
 <p></p>
 <span id="bios-as-fw"></span>
 <H2 id="why-do-pcs-still-have-a-bios">Why do PCs still have a BIOS?</H2>
