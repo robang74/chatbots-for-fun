@@ -11,11 +11,19 @@ ACPI Warning: SystemIO range 0x0000000000000530-0x000000000000053F conflicts wit
 ACPI Warning: SystemIO range 0x0000000000000500-0x000000000000052F conflicts with OpRegion 0x0000000000000500-0x0000000000000563 (\GPIO) (20210730/utaddress-204)
 ```
 
+To check if the running kernel has the ACPI table upgrade capability enabled:
+
+```
+grep ACPI_TABLE_UPGRADE /lib/modules/$(uname -r)/build/.config
+```
+
 <br>
 
 ### Dumped data
 
-- [D3162-A1x DSDT](p910-d3162-a1x-dsdt-aml.gz) gzip archive
+- [D3162-A1x DSDT](p910-d3162-a1x-dsdt-aml.gz) single file gzipped
+
+- [/sys/firmware/acpi/tables](sys-firmware-acpi-tables.tar.gz) tarball archive
 
 <br>
 
