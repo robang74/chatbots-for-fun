@@ -223,7 +223,7 @@ wmi                    28672  1 video<br>
 root@p910:~# systemctl status nvidia-persistenced | grep active<br>
  &nbsp; Active: active (running) since Thu 2025-02-20 05:10:08 CET; 10min ago<br>
 
-root@p910:~# lspci -vvv |grep -iA 20 nvidia|grep -ie region -ie lnkcap:<br>
+root@p910:~# lspci -vvv | grep -iA 20 nvidia | grep -i -e region -ie lnkcap:<br>
  &nbsp; Region 0: Memory at f0000000 (32-bit, non-prefetchable) [size=16M]<br>
  &nbsp; &nbsp; LnkCap: Port #8, Speed 8GT/s, Width x16, ASPM not supported<br>
  &nbsp; Region 0: Memory at f1000000 (32-bit, non-prefetchable) [size=16M]<br>
@@ -247,7 +247,7 @@ In fact, the problem is that BAR1 and BAR2, both 64-bit prefetchable, are missin
 I gave a try with Ubuntu 20.04.6 LTS which is running, after the update, with a Linux 5.15.0-131-generic and installed by default the Nvidia driver 470 serie.
 
 [!CODE]
-root@P910:~# lspci -vvv |grep -iA 20 nvidia|grep -ie region -ie lnkcap:<br>
+root@P910:~# lspci -vvv | grep -iA 20 nvidia | grep -i -e region -e lnkcap:<br>
  &nbsp; Region 0: Memory at f0000000 (32-bit, non-prefetchable) [size=16M]<br>
  &nbsp; Region 1: Memory at <unassigned> (64-bit, prefetchable)<br>
  &nbsp; Region 3: Memory at <unassigned> (64-bit, prefetchable)<br>
@@ -294,7 +294,7 @@ I purged some stuff from the Nvidia SW stack to avoid clogging the Xorg and beca
 
 [!CODE]
 cat /proc/cmdline /proc/driver/nvidia/gpus/&ast;/information 2>/dev/null<br>
-lspci -vvv | grep -iA 20 nvidia|grep -ie region -ie lnkcap:<br>
+lspci -vvv | grep -iA 20 nvidia | grep -i -e region -ie lnkcap:<br>
 nvidia-smi 2>/dev/null; lsmod | grep -e video -e nvidia<br>
 dmesg -l err,crit,warn; dmesg | grep -i iommu<br>
 lspci -vvv | grep -i -e nvidia -e PLX<br>
@@ -302,6 +302,7 @@ lspci -vvv | grep -i -e nvidia -e PLX<br>
 for d in /sys/kernel/iommu_groups/&ast;/devices/&ast;; do<br>
 n=${d#&ast;/iommu_groups/&ast;}; n=${n%%/&ast;}; printf 'IOMMU group %s: ' "$n"<br>
 lspci -nns "${d##&ast;/}"; done; systemd-analyze<br>
+lspci -knn | grep -A1 -i nvidia; lspci -vt<br>
 [/CODE]
 
 +
