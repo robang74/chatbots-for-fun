@@ -271,8 +271,8 @@ These options are the suggested for the Linux kernel command line:
 The above parameters should go into the `GRUB_CMDLINE_LINUX_DEFAULT` variable which is recorded into the `/etc/default/grub` file. Then `sudo update-grub` to write the change in the grub's boot record. Moreover, blacklisting these two kernel modules and rebuild all the initramfs files, is a good idea:
 
 [!CODE]
-(echo;echo "blacklist chromeos_pstore";echo "blacklist nouveau") |\<br>
- &nbsp; sudo tee -a /etc/modprobe.d/blacklist.conf<br>
+( echo; echo "blacklist chromeos_pstore"; echo "blacklist nvidiafb";<br>
+ &nbsp; echo "blacklist nouveau" )| sudo tee -a /etc/modprobe.d/blacklist.conf<br>
 
 sudo update-initramfs -u -k all<br>
 [/CODE]
