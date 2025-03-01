@@ -95,29 +95,31 @@ Which is the reason because in a rigorous peer-review, we prefer a conventional 
 
 ### Two different roles
 
-Finally, a fair question why we need to different roles and hence characters. Imagine that we are wishing to put on the market a new product or service. 
+Finally, a fair question why we need different roles and hence characters. Imagine that we are wishing to put on the market a new product or service. 
 
 1. The first phase is about brain-storming and collecting ideas, as much as possible.
-2. Then we need to proceed througout a funneling process which discard unviable ideas.
-3. Finally with a very few remaining ideas, or just one, make an assment/presentation.
-4. The presentation (or assement paper) need to be peer-reviewd before being proposed.
+2. Then we need to proceed throughout a funneling process which discards unviable ideas.
+3. Finally with a very few remaining ideas, or just one, make an assessment/presentation.
+4. The presentation (or assessment paper) needs to be peer-reviewed before being proposed.
 5. Get into the funding phase which regards project's dead-lined, business plan, etc.
 6. The R&D phase in which from the idea we are going to achieve a working prototype.
-7. The pre-production tests, in which the candidate relase is challenged for real.
-8. The production which all the quality and costs controls, supply-chain plan, etc.
+7. The pre-production tests, in which the candidate release is challenged for real.
+8. The production with all its quality and cost controls, supply-chain plan, etc.
 9. The implementation of the marketing strategies prepared in the meantime.
 
-This chain of events - nameing it as "the process" - does not end with putting the product or service on the market because further phases are involved but they are much more consolidated that all those listed above because customer service and post-selling support is as old as human nature, or the first commercial exchange, at least.
+This chain of events - naming it as "the process" - does not end with putting the product or service on the market because further phases are involved but they are much more consolidated that all those listed above because customer service and post-selling support is as old as human nature, or the first commercial exchange, at least.
 
-For the sake of clarity, we are going to focus only on the first three phases listed above. The first is the domain of SoNia by its design while the third, conversely, is the domain of Alex by its design. Instead, nor Alex and not SoNia can fulfill in the second phase, nor a combined use of them. Why? Let me straight transparent about that: I am not going to tell.
+For the sake of clarity, we are going to focus only on the first three phases listed above. The first is the domain of SoNia by its design while the third, conversely, is the domain of Alex by its design. Instead, neither Alex and not SoNia can fulfill in the second phase, nor a combined use of them. Why? Let me be transparent about that: I am not going to tell.
 
-Nor SoNia, nor Alex and nor a combination of these two can fit into the funnelign process because it is WHERE the real magic happens and WHERE the most of the value can be created. Using those prompt as their designs, implies get stuck in "common" option despite SoNia is aiming to foster creativity, etc. - By the "common", I mean the central part of the Bell distribution: discarding the well-known not-working options and those are too innovative to be understood in full.
+Nor SoNia, nor Alex and nor a combination of these two can fit into the funnelign process because it is WHERE the real magic happens and WHERE the most of the value can be created. Using those prompts as their designs, implies getting stuck in "common" options despite SoNia is aiming to foster creativity, etc. - By the "common", I mean the central part of the Bell distribution: discarding the well-known not-working options and those are too innovative to be understood in full.
 
-In the long tails of the Bell distribution co-exist the most-valuable but higher-risk options in which usually visionary innovative project relays on, despite innovation is much more about integration rather than invention. Neverless, innovation should twist a well-spread paradigm to be a game-changer which is the same to say "breaking the rules" but not anyone fo the physic real-world rules.
+In the long tails of the Bell distribution co-exist the most-valuable and the higher-risk options in which usually visionary innovative project relays on, despite innovation is much more about integration rather than invention. Nevertheless, innovation should twist a well-spread paradigm to be a game-changer which is the same as saying "breaking the rules" but not anyone among the physics real-world rules.
 
-Some other kind of AI can be used to invent new things, and they shown being able to design mechanics and electronics solutions with great performances, but defying the human comphresion. Which is NOT what SoNia nor AleX have been designed to do but helps the human comphrension. For that reason, they both do not fit in that domain defined by the 2nd point in the list.
+- *The Long Tail: Why the Future of Business Is Selling Less of More* by Chris Anderson (2006-07-11)
 
-In considering others points, we will face more-or-less the same schema. In some cases one or another and in some others cases not even their combination fits. Instead considering communications, then SoNia can helps in many ways in starting while AleX can support the final revision assessment. Anyway, an AI is useful when supporting a skilled professionist in achieving a goal within his/her domwain of expertise but it risks to be misleading in any other cases.
+Some other kinds of AI can be used to invent new things, and they are shown being able to design mechanics and electronics solutions with great performances, but defying human comprehension. Which is NOT what SoNia nor AleX have been designed to do but helps human comprehension. For that reason, they both do not fit in that domain defined by the 2nd point in the list.
+
+In considering others points, we will face more-or-less the same schema. In some cases one or another and in some others cases not even their combination fits. Instead considering communications, then SoNia can helps in many ways in starting while AleX can support the final revision assessment. Anyway, an AI is useful when supporting a skilled professional in achieving a goal within his/her domain of expertise but it risks being misleading in any other cases.
 
 +
 
