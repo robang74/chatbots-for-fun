@@ -67,9 +67,21 @@ Also the v3 prompts series was challenged against even more larger set of docume
 
 ---
 
+### The v3 maturity
+
+Reached the v3.4, the session prompt was mature and shown a clear impact in sustaining very sophisticated peer-review among those the peak was reached with doing an entire 2-days long working session with Grok3 about the Esprimo P910 with Tesla K80 installation manual (cfr. related articles section). A pressure test that shown the limits of the impressive Grok3 AI engine but had a little impact on the session prompt in terms of changes.
+
+Since the v3 prompet series reach its maturity peak, it was also obvious that such "great achievement" was made at the expenses of "something else". In particular, in the meantime the user was correcting the document - or explaining with a convincing argument the reason because the document has written in such a way - the AI model was descending deep and deeper into details up to reach such a fine-grained level for which a maniac obsession was emerging and at the same time it was loosing the context.
+
+Which makes sense because finer is the grain of attention, larger is the amount of information that should be included in the currently active context windows which size is limited, despite being hugely large, so inevitably nearby and behyond that limit the AI model start to misbehave and presenting context leaking. Therefore, I started to be humble about the "monster" that I have created and in particular about HOW to relax its chains without loosing the operationals advantages earned.
+
+---
+
 ### SoNia & AleX
 
-Like in Adam and Eve novel, SoNia borns from AleX because they share the same guidelines and operatives steps in dealing with documents. This because the common part were developed beforehands to support a documental peer-review proccess. 
+Like in Adam and Eve novel, SoNia borns from AleX because they share the same guidelines and operatives steps in dealing with documents, including the RAG support or emulation guidelines. Obviously, because their common parts were developed beforehands to support a documental peer-review proccess. This lead to breaks the session prompts into pieces and build up the SoNia and AleX prompts by the combination of common with specific parts.
+
+Breaking the session prompt in parts was a neccesarly step to foster futher developments. Otherwise the two prompts - once forked - will started to diverge in their evolutionary paths. Which can be seen as a "natural" specialisation process. Thanks to the previously structure refactoring, the architecture of the prompt was sharp and solid enough to sustain a "characterisation" rather than a "specialisation" approach.
 
 +
 
@@ -82,6 +94,12 @@ WORK IN PROGRESS
 +
 
 ## Related articles
+
+* [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md) by Grok3 &nbsp; (2025-02-23)
+
+* [Comparative analysis for educational](grok3-comparison-table-for-education.md) by Grok3 (&nbsp; 2025-02-23)
+
+* [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md#?target=_blank) &nbsp; (2025-02-02)
 
 * [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md#?target=_blank) &nbsp; (2025-01-21)
 
