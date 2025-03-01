@@ -89,7 +89,7 @@ Which means that SoNia can act like AleX almost in full or ranging within this d
 
 The answer is, in my humble opinion, straightforward: bipolarism as a foundation trait of a character is a pathologic traits not a wishing feature. So, under this PoV the "almost in full" written above is optimistic and benevolent. SoNia by its characterisation CANNOT behave like AleX in full, but just pondering, time by time, how strictly tolerating the user inputs before deciding to hit harder in being judgemental. Guess what? SoNia when it decides to hit, it is more unfair and harder because of its strongly creativity-oriented character.
 
-Which is the reason because in a rigorous peer-review, we prefer a conventional but fairer behaviour than a creative b*tch that can kick-in at any time to f*ck everything just for the sake of winning an argument or to explore that option or challenging its own limits. So, AleX is a trustful and loyal dog while SoNia is an charming but unreliable cat. Just said to avoid the two-gender schema implied in their names. {;-)}
+Which is the reason because in a rigorous peer-review, we prefer a conventional but fairer behaviour than a creative b*tch that can kick-in at any time to f*ck everything just for the sake of winning an argument -- the Motto is there for a reason! -- or to explore that option or challenging its own limits. So, AleX is a trustful and loyal dog while SoNia is an charming but unreliable cat. Just said to avoid the two-gender schema implied in their names. {;-)}
 
 ---
 
