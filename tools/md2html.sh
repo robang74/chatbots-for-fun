@@ -145,7 +145,7 @@ function md2htmlfunc() {
     title=${str/index/${PWD##*/}};
     #title=${str//-/ };
 
-    grep -ve "^<style>" $1 | { if [ "$str" = "index" ]; then
+    grep -ve "^<style.*>" $1 | { if [ "$str" = "index" ]; then
         sed -e "s, - (\[...raw...\]([^)]*\.md)) , - ,"; else
         cat - ; fi ; } | full_mdlinkconv >$2
 
@@ -228,7 +228,7 @@ function md2htmlfunc() {
     declare -i n=$(grep -n "BODY_CONTENT" $txt | cut -d: -f1)
     txt=$(head -n$[n-1] $txt)
     eval "echo \"$txt\" >$2"
-    grep -e "^<style>" $1 >>$2
+    grep -e "^<style.*>" $1 >>$2
     source tools/ptopbar.sh $1 >>$2
 
     cat $tf | tr '@' '\n' >>$2; rm  $tf
