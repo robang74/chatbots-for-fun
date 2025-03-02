@@ -191,7 +191,7 @@ So, I decide to take over another time, again, against this maniacal obsession f
 
 2. How to use a hammer, responsibly? How to use a car responsibly? We - as humans - do that all the time, constantly. Where is the challenge?
 
-3. This is a fear-PoV from those who overrate the AI and at the same they aren't able to leverage the real potential of AIs. There is no way an AI can influence my cognitive process, a part providing to me something factually convincing or a maths truth (e.g. 1+1=2). Weaks mind will fall, anyway. Like people driving after drinking too much.
+3. This is a fearful-PoV from those who overrate the AI and at the same they aren't able to leverage the real potential of AIs. There is no way an AI can influence my cognitive process, a part providing to me something factually convincing or a maths truth (e.g. 1+1=2). Weaks mind will fall, anyway. Like people driving after drinking too much.
 
 4. Your opinion on this point is heavily biased. The discovery of America changed our culture much more than every book written, and the telescope made of Galileo Galilei did the same. While, not even the Church with its dogmas and 10 centuries of total control over the people prevented the rise of Illuminism. A chatbot would not make such a great difference, while the LLM technology can do it but in the same fashion as the American discovery or telescope: opening a window for a broader view which was closed before. That makes a change, not the AI-human chat-interaction di-per-se.
 
