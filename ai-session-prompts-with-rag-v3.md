@@ -149,9 +149,9 @@ By the way, at the first beginning SoNia was acting like AleX (the peer-review p
 
 In the next two days, Grok3 started to progressively give "a resonant heavier weight" to the set of rules that SoNia is sharing with AleX. Something that creates trouble for SoNia as it was designed for. At that time, AleX achievements obtained with Grok3 were published while SoNia was still an ASCII file text into a github account.
 
-- [Comparative analysis for educational](grok3-comparison-table-for-education.md) by Grok3 &nbsp; (2025-02-23)
+- [Comparative analysis for educational](grok3-comparison-table-for-education.md#?target=_blank) by Grok3 &nbsp; (2025-02-23)
 
-- [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md) by Grok3 &nbsp; (2025-02-23)
+- [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md#?target=_blank) by Grok3 &nbsp; (2025-02-23)
 
 Because Grok3 has been designed to assist X/Twitter users to produce "smarter" contents, it was the natural target for the SoNia prompt but also in desperate need of a kind of structure like the one provided by the common parts shared with AleX. So, v3.4.4 was balancing the two.
 
@@ -215,9 +215,9 @@ Usually in every fair boxing match 1-2-3 formula is a cliché as well as avoidin
 
 ## Related articles
 
-* [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md) by Grok3 &nbsp; (2025-02-23)
+* [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md#?target=_blank) by Grok3 &nbsp; (2025-02-23)
 
-* [Comparative analysis for educational](grok3-comparison-table-for-education.md) by Grok3 &nbsp; (2025-02-23)
+* [Comparative analysis for educational](grok3-comparison-table-for-education.md#?target=_blank) by Grok3 &nbsp; (2025-02-23)
 
 * [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md#?target=_blank) &nbsp; (2025-02-02)
 
