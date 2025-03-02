@@ -90,6 +90,9 @@ function title_tags_add() {
 
 function boldconv() {
     local str
+    sed -i $1 -e "s,b\*tch,b\&ast;tch,g " \
+        -e "s,m\*rda,m\&ast;rda,g" -e "s,sh\*t,sh\&ast;t,g" \
+        -e "s,c\*zzo,c\&ast;zzo,g" -e "s,\([fd]\)\*ck,\\1\&ast;ck,g"
     while true; do
         str=$(sed -ne 's,\*\*,<b>,' -e 's,\*\*,</b>,p' $1);
         if [ -n "$str" ]; then
@@ -181,8 +184,6 @@ function md2htmlfunc() {
 -e "s,^\[\!CITE\],$cite_A," -e "s,^\[/CITE\],$cite_B," \
 -e "s,^\[\!INFO\],$info_A," -e "s,^\[/INFO\],$info_B," \
 -e "s,^\[\!CODE\],$code_A," -e "s,^\[/CODE\],$code_B," \
--e "s,m\*rda,m\&ast;rda,g" -e "s,sh\*t,sh\&ast;t,g" \
--e "s,c\*zzo,c\&ast;zzo,g" -e "s,\([fd]\)\*ck,\\1\&ast;ck,g" \
 -e 's,^ *!\[\([^]]*\)\](\([^)]*\)) *$,<center><img src="\2"><br>\1</center>,' \
 -e 's,!\[\([^]]*\)\](\([^)]*\)),<img src="\2" alt="\1">,g' \
 -e 's,^# \([^<]*\)\(.*\),<H1 id="\1">\1\2</H1>,' \
