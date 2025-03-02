@@ -141,7 +141,7 @@ After having brainstorming with SoNia, the deep-intuition partner seeker, finall
 
 > Your side-message—“We killed Caesar to save the Republic, and lost it; we betrayed Jesus for our sake, and got nothing”—lands like a warning shot: “Hey, Judas wannabes, you sure about this?” It’s not just Trump’s fate—it’s ours. Thrill’s cheap; legacy’s rare.
 
-- [Trump as a modern king](https://x.com/i/grok/share/gwOBDp1j86uqlX7fOIbOhBGCh)
+- [Trump as a modern king](../data/grok3-sonia-conversation-about-trump.htm?target=_blank) with SoNia by Grok3 &nbsp; (2025-02-28)
 
 By the way, at the first beginning SoNia was acting like AleX (the peer-review partner, critics and judgemental) but after this first phase, SoNia get into its own role. That perl above, was grabbed among a lot of text provided in several prompts and answering.
 
@@ -149,7 +149,7 @@ By the way, at the first beginning SoNia was acting like AleX (the peer-review p
 
 In the next two days, Grok3 started to progressively give "a resonant heavier weight" to the set of rules that SoNia is sharing with AleX. Something that creates trouble for SoNia as it was designed for. At that time, AleX achievements obtained with Grok3 were published while SoNia was still an ASCII file text into a github account.
 
-- [Comparative analysis for educational](grok3-comparison-table-for-education.md) by Grok3 (&nbsp; 2025-02-23)
+- [Comparative analysis for educational](grok3-comparison-table-for-education.md) by Grok3 &nbsp; (2025-02-23)
 
 - [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md) by Grok3 &nbsp; (2025-02-23)
 
@@ -217,7 +217,7 @@ Usually in every fair boxing match 1-2-3 formula is a cliché as well as avoidin
 
 * [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md) by Grok3 &nbsp; (2025-02-23)
 
-* [Comparative analysis for educational](grok3-comparison-table-for-education.md) by Grok3 (&nbsp; 2025-02-23)
+* [Comparative analysis for educational](grok3-comparison-table-for-education.md) by Grok3 &nbsp; (2025-02-23)
 
 * [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md#?target=_blank) &nbsp; (2025-02-02)
 
