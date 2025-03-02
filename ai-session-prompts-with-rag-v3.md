@@ -165,7 +165,7 @@ Which is the "next level" challenge, after all. Because, AleX is very useful but
 
 Moreover, SoNia aim is not just being a character but also helping people to think out-of-the-box, something that humans struggle to achieve due to our "social animal nature" and LLM are not designed for because they are tight to embedded rules and statistics norms.
 
-From the PoV of projecting the AI into the education mass system, AleX is the support to develop critical thinking and logical reasoning while SoNia is the assistant to cope with creativity, intuition, parallel thinking and serendipity.
+From the PoV of projecting the AI into the education mass system (cfr. [Artificial Intelligence for education](https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html)), AleX is the support to develop critical thinking and logical reasoning while SoNia is the assistant to cope with creativity, intuition, parallel thinking and serendipity.
 
 #### Gemini 2's opinion
 
