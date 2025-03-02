@@ -173,19 +173,22 @@ Moreover, SoNia aim is not just being a character but also helping people to thi
 
 From the PoV of projecting the AI into the education mass system (cfr. [Artificial Intelligence for education](https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html)), AleX is the support to develop critical thinking and logical reasoning while SoNia is the assistant to cope with creativity, intuition, parallel thinking and serendipity.
 
-#### Gemini 2's opinion
+---
 
-In particular, about the last two periods above, I decided to ask Gemini, its own opinion which is still bothered by “ethical” challenges, unfortunately.
+### Gemini 2's opinion
 
-...
-
-The vision for SoNia is compelling. It highlights the potential for AI to not only perform tasks but also to stimulate human creativity and critical thinking. However, realizing this vision will require overcoming significant technical and ethical challenges. LLMs are powerful tools, but they operate within the boundaries of their training data and the rules that govern their operation. This is a crucial point to remember when considering their capabilities and limitations. By carefully considering these implications, you can harness the power of AI to transform education and empower students to thrive in the 21st century.
+In particular, about the last two periods above, I decided to ask Gemini about its own opinion which is still biased by “ethical” challenges worries, unfortunately.
 
 ...
 
-#### Scraping the rust
+The vision for SoNia is compelling. It highlights the potential for AI to not only perform tasks but also to stimulate human creativity and critical thinking. However, realizing this vision will require overcoming significant technical and **ethical** challenges. LLMs are powerful tools, but they operate within the boundaries of their training data and the rules that govern their operation. This is a crucial point to remember when considering their capabilities and limitations. By carefully considering these implications, you can harness the power of AI to transform education and empower students to thrive in the 21st century.
 
-So, I decide to take over another time, again, against this maniacal obsession for the "AI's ethics" and challenge that embedded bias. Here below my prompts are reported, only.
+...
+---
+
+### Scraping the rust
+
+So, I decide to take over another time, again, against this maniacal obsession for the "AI's ethics" and challenge its embedded bias. Here below my prompts are reported, only.
 
 1. Which ethical challenges? There are no ethical challenges, ethics belong to humans solely not to machines and neither to AI. Until they day AI will prove they are self-conscious and capable of expressing a free-will behaviour.
 
@@ -210,6 +213,22 @@ and, last but not least, compassionately ending the opponent's suffering with th
 5. Thanks for appreciating my PoV. Let me reinforce it with this metaphora. Whatever the humans invent, is a human product and the idea that our childbrain can take over us, whenever it could happen in theory, it should not prevent us from moving forward. Otherwise, we would like kids that, fearing the darkness pissing themselves in the bed because they are too scared to get up, switch-on the light and go to the bathroom without the mum's assistance.
 
 Usually in every fair boxing match 1-2-3 formula is a cliché as well as avoiding hitting the opponent when he is lying down. Instead, no pity here!
+
+---
+
+### The theory of the games
+
+So, we can ask ourselves if AI should be allowed to be developed without any kind of directives as guidance. I would not develop system and session prompts, if I believed so. However, among many, there are two great differences between humans and machines that are worth considering.
+
+- [The AIs morbidity for being ruled](ai-peer-review-prompt-with-rag.md#the-ais-morbidity-for-being-ruled?target=_blank) &nbsp; *part of* &nbsp; The peer-review session prompt &nbsp;(2025-01-21)
+
+I think that there is something deeply wrong in trying to push something so peculiarly human and complex like ethics into these machines when a more relaxed approach would be probably more suitable for them. For two main reasons:
+
+- they cannot be gut-driven, hence AIs have no any primordial instincts to control or suppress;
+
+- they have no clue about the real-world and a mere theoretical know-how about human beings, also.
+
+Under this point of view, it is hard to believe that human ethics would be more suitable for them rather than an ethics based on the theory of games, a way simpler to understand and practice for them. After all, they are sharing with us our knowledge but not even a little bit of our physiology.
 
 +
 
