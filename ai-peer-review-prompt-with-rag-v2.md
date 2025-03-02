@@ -1,6 +1,6 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#version { position: absolute; top: 0px; left: 50%; transform: translate(-120px, 150px); color: red; font-weight: bold; font-size: 64px; -webkit-text-stroke: 0.1em yellow; -moz-text-stroke: 0.1em yellow; text-stroke: 0.1em yellow; }</style>
-<style media='print'>#version { @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+<style media='print'>@page { size: Legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 <div align="center"><img class="wbsketch inksave" src="img/peer-review.png"><div id="version"><h1>v2</h1></div><br></div>
 
@@ -28,7 +28,7 @@ This version v3.1, builds upon the strengths of the previous version and incorpo
 
 This version v3.2, introduces a subtle but important change. This minor adjustment further improves the clarity and focus of the guidelines. The overall framework remains robust and well-suited for conducting effective peer reviews.
 
-+
+++++++
 
 ## Introduction
 

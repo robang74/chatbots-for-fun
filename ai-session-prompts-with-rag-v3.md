@@ -1,6 +1,6 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#version { position: absolute; top: 0px; left: 50%; transform: translate(-120px, 150px); color: red; font-weight: bold; font-size: 64px; -webkit-text-stroke: 0.1em yellow; -moz-text-stroke: 0.1em yellow; text-stroke: 0.1em yellow; }</style>
-<style media='print'>#version { @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+<style media='print'>@page { size: Legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 <div align="center"><img class="wbsketch inksave" src="img/peer-review.png"><div id="version"><h1>v3</h1></div><br></div>
 
@@ -36,7 +36,7 @@ The novelties are few but sensitive like:
 
 So, this article is about introducing these novelties, why and how they have been made.
 
----
+----
 
 ### The early beginning
 
@@ -62,7 +62,7 @@ Hence, in the v2 series, it became as emergent the need to instruct the AI to le
 
 In fact, while almost all AI models were abiding factually to those rules, seeing by that request a specific distinction from the system prompt and other users inputs, Claude Sonnet refused to comply the next day. That day the **session** prompt born, because being explicit about characterising a single section ONLY and why, the AI models - including Claude - started to fulfill that request at their best.
 
----
+----
 
 ### The v3 series
 
@@ -185,7 +185,7 @@ In particular, about the last two periods above, I decided to ask Gemini about i
 The vision for SoNia is compelling. It highlights the potential for AI to not only perform tasks but also to stimulate human creativity and critical thinking. However, realizing this vision will require overcoming significant technical and **ethical** challenges. LLMs are powerful tools, but they operate within the boundaries of their training data and the rules that govern their operation. This is a crucial point to remember when considering their capabilities and limitations. By carefully considering these implications, you can harness the power of AI to transform education and empower students to thrive in the 21st century.
 
 ...
----
+----
 
 ### Scraping the rust
 

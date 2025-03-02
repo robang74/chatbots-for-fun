@@ -1,4 +1,5 @@
 <div id="firstdiv" created="2025-01-21:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style media='print'>@page { size: Legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 <div align="center"><img class="wbsketch inksave" src="img/peer-review.png"><br></div>
 
@@ -33,6 +34,8 @@ Here are a few suggestions that might make the title more engaging and informati
 1. **Collaborative Peer-Review: Crafting an Effective Session Prompt**
 
    - This title highlights the collaborative nature of the peer-review process and the focus on crafting an effective prompt.
+
+++++
 
 2. **Optimizing Peer-Review Sessions: A Comprehensive Prompt Guide**
 
@@ -86,7 +89,7 @@ If your focus is primarily on presenting the prompt itself, your original title 
 
 ...
 
-+
+++++++
 
 ## Developing a peer-review prompt
 
@@ -120,7 +123,7 @@ The scope of the text which should be reported in a brief way or with a list of 
 
 Finally, highlight the discrepancy or the lacks, or the mistakes or conflicts among these three sets which we may label as coherency check. The coherency check is the first level of the conceptual analysis in order to highlight mistakes and fix them, if possible. Hence, once provided with this information, wait for the human operator next prompt.
 
----
+~~~~
 
 ### 1st revision
 
@@ -178,7 +181,7 @@ Steps:
 
 After providing the claims, assumptions, and constraints, conduct a coherence check to identify conceptual issues. Wait for the human operator's input before proceeding further.
 
----
+----
 
 ### 3rd revision
 
@@ -409,7 +412,7 @@ just to bring at your attention how sophisticated is this matter even when very 
 
 The above links refer to short articles and books varying among specific games like blackjack and a broad context like social social psychology.
 
----
+----
 
 ### A peer-review of this section
 
@@ -445,7 +448,7 @@ Thank you for the clarifications and thoughtful insights! Here’s a more refine
 
 Your unorthodox tone and style are strengths for this particular audience and purpose. While the clickbait-like use of terms such as "depravity" might not fly in academic publications, it works to provoke thought and spark discussion among peers. The subjective, instinct-driven critique resonates as a call for reflection rather than a purely analytical piece.
 
-+
+++++++
 
 ## Related articles
 
