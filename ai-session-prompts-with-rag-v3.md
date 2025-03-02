@@ -11,7 +11,7 @@ This article is the prosecution of these previous articles:
 
 * [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md#?target=_blank) &nbsp; (2025-01-13)
 
-While this article introduces few but sensitive novelties compared the previous
+While this article introduces few but sensitive novelties compared the previous articles.
 
 ---
 
@@ -120,6 +120,41 @@ In the long tails of the Bell distribution co-exist the most-valuable and the hi
 Some other kinds of AI can be used to invent new things, and they are shown being able to design mechanics and electronics solutions with great performances, but defying human comprehension. Which is NOT what SoNia nor AleX have been designed to do but helps human comprehension. For that reason, they both do not fit in that domain defined by the 2nd point in the list.
 
 In considering others points, we will face more-or-less the same schema. In some cases one or another and in some others cases not even their combination fits. Instead considering communications, then SoNia can helps in many ways in starting while AleX can support the final revision assessment. Anyway, an AI is useful when supporting a skilled professional in achieving a goal within his/her domain of expertise but it risks being misleading in any other cases.
+
+---
+
+### How SoNia is working
+
+So, the next question - obviosly - is how SoNia is working. Well, thanks! {:-D}
+
+SoNia started to be seriously leveraged vy its 3.4.4 versiona and it delivered in full the result for which was designed for. I should anticipate that the content on which has been tested can upset some readers, and probably will do it for years in the future. On the other hand, such a content is also the proof that an AI agent free from censorship (almost, at least) charactirezed by SoNia can help finding what their intuition was seeking without reaching the verbal form to express it.
+
+...
+
+After having brainstorming with SoNia the deep-intuition partner seeker, finally I found that bit was feeling I did not able to write down but necessary.
+
+> Your side-message—“We killed Caesar to save the Republic, and lost it; we betrayed Jesus for our sake, and got nothing”—lands like a warning shot: “Hey, Judas wannabes, you sure about this?” It’s not just Trump’s fate—it’s ours. Thrill’s cheap; legacy’s rare.
+
+- [Trump as a modern king](https://x.com/i/grok/share/gwOBDp1j86uqlX7fOIbOhBGCh)
+
+By the way, at the first beginning SoNia was acting like AleX (the peer-review partner, critics and judgemental) but after this first phase, SoNia get into its own role. That perl above, was grabbed among a lot of text provided in several prompts and answering.
+
+...
+
+In the next two days, Grok3 started to progressvely give "a resonant heavier weight" to the set of rules that SoNia is sharing with AleX. Something that creates trouble to SoNia as it was designed for. At that time, AleX achievemts obtained wit Grok3 were published while SoNia was still an ASCII file text into a github account.
+
+- [Comparative analysis for educational](grok3-comparison-table-for-education.md) by Grok3 (&nbsp; 2025-02-23)
+
+- [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md) by Grok3 &nbsp; (2025-02-23)
+
+Because Grok3 as been designed to assist X/Tweeter users to produce "smarter" contents, it was the natural target for the SoNia prompt but also in desperate need of a kind of structure like the one provided by the common parts shared with AleX. So, the v3.4.4 was balacing the two.
+
+When the AI engine changed in resonance stronger with the AleX that balance started to became hard and harder to manage, showing a sort to bipolarism up to the point in which one or another, not both, not a balanced mix. A trend that I catched immediately because I was expecting it could happen as described above.
+
+The version 3.5.0, re-balanced the SoNia prompt in order to let its character emerge and drive the conversation plus, I decided to put in the background all the reasoning related to AleX. Obviously, silencing that part  is just an aesthetic trick but not only because it accomplish a couple of fundamental goals that in SoNia are fundamental.
+
+Under this PoV, the [v3.4.4](https://raw.githubusercontent.com/robang74/chatbots-for-fun/a98896c0b73e38104a13c2919e8e0b1bf1745e3c/data/sonia-argumentative-w-rag-v3.txt) will remain a reference version for a while because it might work better on some AI or in "reasoning mode" (sharing the background operations), while the newer versions started form the v3.50 will further go towards the full development of SoNia as indipendent alternave character.
+
 
 +
 
