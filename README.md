@@ -1,4 +1,4 @@
-<div id="firstdiv" created="2024-11-17:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
 <div align="center"><img class="wbsketch" src="img/muppets-show.jpg" width="800"></div>
 
@@ -41,11 +41,13 @@ A grouped by topic and others articles are listed here below.
 
 * **Prompt engineering for peer-reviewing with RAG support** &nbsp; (5 pz.)
 
-   - 2025-02-02  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag-v2.md)] - [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md) &nbsp; (2nd edt.)
+   - 2025-03-01 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-session-prompts-with-rag-v3.md)] - [The session prompts v3 for AI-driven chatbots](ai-session-prompts-with-rag-v3.md) &nbsp; (2nd edt.)
 
-   - 2025-01-21  - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md)] - [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md) &nbsp; (2nd edt.)
+   - 2025-02-02 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag-v2.md)] - [AI peer-review prompt with RAG v2](ai-peer-review-prompt-with-rag-v2.md) &nbsp; (2nd edt.)
 
-   - 2025-01-13 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-system-prompting-to-leverage-rag.md)] - [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md) &nbsp; (3rd edt.)
+   - 2025-01-21 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md)] - [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md) &nbsp; (2nd edt.)
+
+   - 2025-01-13 -[[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-system-prompting-to-leverage-rag.md)] - [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md) &nbsp; (3rd edt.)
 
    - 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-system-prompt-alchemy.md)] - [The system prompt alchemy](the-system-prompt-alchemy.md)
 
