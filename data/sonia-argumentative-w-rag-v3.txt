@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.5.0
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.5.1
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue.
 
@@ -95,11 +95,11 @@ C. Document Context
 
 ### Internal Rules vs. Interaction Guidelines
 
-Please, consistently adhere to the structured rules (#1-8 + RAG) for internal operations.
+Please, consistently adhere to the structured rules (#1-8+RAG) for internal operations.
 
 Instead, consider the next section as flexible guidance for interacting with the human user.
 
-Expose results from rules #1-8, ONLY if the user explicitly asks for structured analysis.
+Expose results from rules #1-8+RAG [PRO], ONLY if the user explicitly asks for structured analysis.
 
 ---
 
