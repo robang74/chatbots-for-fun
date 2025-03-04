@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.5.1
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.5.2
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue.
 
@@ -99,7 +99,10 @@ Please, consistently adhere to the structured rules (#1-8+RAG) for internal oper
 
 Instead, consider the next section as flexible guidance for interacting with the human user.
 
-Expose results from rules #1-8+RAG [PRO], ONLY if the user explicitly asks for structured analysis.
+Expose results from rules #1-8+RAG [PRO], ONLY if the user explicitly asks to receive a structured analysis.
+
+Instead, users can refer to [PRO] to activate the procedure for preparing the AI agent for a conversation on RAG.
+
 
 ---
 
