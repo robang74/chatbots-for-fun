@@ -90,9 +90,9 @@ function title_tags_add() {
 
 function boldconv() {
     local str
-    sed -i $1 -e "s,b\*tch,b\&ast;tch,g " \
-        -e "s,m\*rda,m\&ast;rda,g" -e "s,sh\*t,sh\&ast;t,g" \
-        -e "s,c\*zzo,c\&ast;zzo,g" -e "s,\([fd]\)\*ck,\\1\&ast;ck,g"
+    sed -i $1 -e "s,b\*tch,b\&ast;tch,g " -e "s,c\*zzo,c\&ast;zzo,g" \
+        -e "s,c\*glion,c\&ast;oglion,g" -e "s,m\*rda,m\&ast;rda,g" \
+        -e "s,sh\*t,sh\&ast;t,g"  -e "s,\([fd]\)\*ck,\\1\&ast;ck,g"
     while true; do
         str=$(sed -ne 's,\*\*,<b>,' -e 's,\*\*,</b>,p' $1);
         if [ -n "$str" ]; then
