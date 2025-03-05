@@ -1,4 +1,4 @@
-/* 
+/*
  * Cascading Style Sheet for fair theming html pages converted from markdown
  *
  * (C) 2024-5, Roberto A. Foglietta <roberto.foglietta@gmail.com>, 3-clause BSD
@@ -20,7 +20,7 @@ img.paleinv { filter: invert(100%) grayscale(100%) contrast(2); }
 
 div.pagehead {
     height: 350px;
-    display: inline-block; 
+    display: inline-block;
     background-color: red;
     background-size: contain;
     background-repeat: no-repeat;
