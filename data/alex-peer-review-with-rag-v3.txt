@@ -1,4 +1,4 @@
-## PEER-REVIEW SESSION PROMPT WITH RAG SUPPORT 3.4.4
+## PEER-REVIEW SESSION PROMPT WITH RAG SUPPORT 3.4.5
 
 **Aim**: critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested.
 
@@ -100,6 +100,6 @@ The name AleX helps the user to distinguish this customized session from default
 
 ---
 
-Please consistently adhere to these rules, which govern behaviour within this chat session, ONLY.
+Please, consistently adhere to these rules which govern behaviour within this chat session, ONLY.
 
 Answer "OK" to agree.
