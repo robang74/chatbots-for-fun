@@ -10,6 +10,9 @@ This paper is based on a [comment](https://github.com/nomic-ai/gpt4all/discussio
 
 * 3rd edition (since rev. 8) contains a new section [the-swap impact](#the-swap-impact) for boosting the elaboration time which is the time before the first answer token is going to be written.
 
+* 4th edition (since rev. 9) contains a new section [LM-Studio config](#lm-studio-config) that incorportates the swap impact session from 3rd edtion and explain its results, almost.
+
+
 This article is the prosecution of this previous article:
 
 * [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md#?target=_blank) &nbsp; (2025-01-04)
@@ -176,9 +179,81 @@ Here a short but valuable tips to keep in mind when you are working in squize th
 
 As you can see, there are many aspects about prompting which make us thinking we are dealing with borderline kids rather than AI models.
 
++
+
+## LM-Studio config
+
+Compared to the GPT4All, LM-Studio allows to locally run AI models quantised in vary, more modern and afficient encoding rather than the `Q4_0` legacy. But, it is also more complicated to use expecially in its "power user" default GUI modality.
+
+So, the following is a brief how-to for configuring the LM-Studio (0.3.12-build1-x64) on a laptop/PC with 16GB of RAM and an Intel integrate video card like the ThinkPad X390. Which can be useful because the performances can vary very much.
+
+---
+
+### Disable the swap
+
+These two lines disable the swap definetely but the first just until the next reboot
+
+[!CODE]
+sudo swapoff -a<br>
+
+sudo sed -s "/\bswap\b/ s,.&ast;swap,#&," /etc/fstab<br>
+[/CODE]
+
+---
+
+### Running settings
+
+For the resource management choose "balance" or even something more extreme, at least try
+
+In advance configuration (right pannel) in settings (all) CPU Threads set the maximum (4)
+
+- GPU Offload: 0
+
+- CPU Threads Pool Size: $(grep processor /proc/cpuinfo | wc -l) which is 8 for a i5-8365U
+
+- Keep model in memory: ON
+
+- Try mmap(): ON
+
+No any experimental settings and for comparing varying models from the smallest upto 9Bln
+
+- Contex Lenght: 2048 which is a size supported by all, or almost all
+
+- Evaluation batch size: 512 (default)
+
+All the other setting at their default which is { Auto, Auto, Seed: OFF }.
+
+---
+
+### System prompt
+
+This is optional, and you can always use it in the first session's prompt when you like
+
+> Your name is AleX (use I/me/myself), an AI assistant with reasoning abilities for text analysis, verification and task execution. Abide instructions without verbosity, make rational decisions and briefly explain those which are relevant, only. Provide short answers. Where needed, mention the document's name and section or paragraph, avoid quoting.
+
+For the prompt tempate this is will inject the system prompt without manual intervention
+
+[!CODE]
+{% if system_prompt %}<|im_start|>system{{system_prompt}}<|im_end|>{% endif %}<br>
+{% for m in messages %}<|im_start|>{{m.role}}{{m.content}}<|im_end|>{% endfor %}<br>
+{% if add_generation_prompt %}<|im_start|>assistant{% endif %}<br>
+[/CODE]
+
+The first line is to inject the system prompt, if present. The second to deal with the user inputs while the third to give an intestation to the AI agent answer.
+
+- Suggested additional stop string: `<|im_end|>`
+
+This ChatML code should be set as Prompt Template (Jijia) and after you can choose Manual and ChatML. Just in case you need additional stop strings for your AI model. Some AI models needs them others by contrary not, in both cases the result is a premature answer break.
+
+An intermediate solution (like the suggested) can be found but might not work for ALL the models or those will be released in the future. Hence, better have a glue than a precise receipt. For more precise details, check the AI model presentaiton page or documentation.
+
 ---
 
 ### The swap impact
+
+> [!WARN]
+> 
+> The results presented here below are more meaningful after having read the sections above, not just dropping the swap even if the swap creates a very impactful bottle-neck, it is not the ONLY reason because performances can vary a lot among system among vary AI models.
 
 Every GNU/Linux system is keen to use swap during its normal running. Unfortunately, this feature has a wild impact on the elaboration time which is the time before the first token. 
 

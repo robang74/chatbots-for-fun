@@ -17,7 +17,7 @@
     <body>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-01-13&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>11</b rev_num='
+'>12</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -30,6 +30,9 @@ This paper is based on a <a href="https://github.com/nomic-ai/gpt4all/discussion
 <li>2nd edition (since rev. 7) contains a new section <a href="#use-cases">use cases</a> about when and how using system prompt in a productive manner. In particular: "<tt>Never speculate</tt>" as optional.</li>
 <p></p>
 <li>3rd edition (since rev. 8) contains a new section <a href="#the-swap-impact">the-swap impact</a> for boosting the elaboration time which is the time before the first answer token is going to be written.</li>
+<p></p>
+<li>4th edition (since rev. 9) contains a new section <a href="#lm-studio-config">LM-Studio config</a> that incorportates the swap impact session from 3rd edtion and explain its results, almost.</li>
+<p></p>
 <p></p>
 This article is the prosecution of this previous article:
 <p></p>
@@ -192,9 +195,79 @@ Here a short but valuable tips to keep in mind when you are working in squize th
 <p></p>
 As you can see, there are many aspects about prompting which make us thinking we are dealing with borderline kids rather than AI models.
 <p></p>
+<br>
+<p></p>
+<H2 id="lm-studio-config">LM-Studio config</H2>
+<p></p>
+Compared to the GPT4All, LM-Studio allows to locally run AI models quantised in vary, more modern and afficient encoding rather than the <tt>Q4_0</tt> legacy. But, it is also more complicated to use expecially in its "power user" default GUI modality.
+<p></p>
+So, the following is a brief how-to for configuring the LM-Studio (0.3.12-build1-x64) on a laptop/PC with 16GB of RAM and an Intel integrate video card like the ThinkPad X390. Which can be useful because the performances can vary very much.
+<p></p>
+<hr>
+<p></p>
+<H3 id="disable-the-swap">Disable the swap</H3>
+<p></p>
+These two lines disable the swap definetely but the first just until the next reboot
+<p></p>
+<blockquote class="code"><code>
+sudo swapoff -a<br>
+<p></p>
+sudo sed -s "/\bswap\b/ s,.&ast;swap,#&," /etc/fstab<br>
+</code></blockquote>
+<p></p>
+<hr>
+<p></p>
+<H3 id="running-settings">Running settings</H3>
+<p></p>
+For the resource management choose "balance" or even something more extreme, at least try
+<p></p>
+In advance configuration (right pannel) in settings (all) CPU Threads set the maximum (4)
+<p></p>
+<li>GPU Offload: 0</li>
+<p></p>
+<li>CPU Threads Pool Size: $(grep processor /proc/cpuinfo | wc -l) which is 8 for a i5-8365U</li>
+<p></p>
+<li>Keep model in memory: ON</li>
+<p></p>
+<li>Try mmap(): ON</li>
+<p></p>
+No any experimental settings and for comparing varying models from the smallest upto 9Bln
+<p></p>
+<li>Contex Lenght: 2048 which is a size supported by all, or almost all</li>
+<p></p>
+<li>Evaluation batch size: 512 (default)</li>
+<p></p>
+All the other setting at their default which is { Auto, Auto, Seed: OFF }.
+<p></p>
+<hr>
+<p></p>
+<H3 id="system-prompt">System prompt</H3>
+<p></p>
+This is optional, and you can always use it in the first session's prompt when you like
+<p></p>
+<blockquote>Your name is AleX (use I/me/myself), an AI assistant with reasoning abilities for text analysis, verification and task execution. Abide instructions without verbosity, make rational decisions and briefly explain those which are relevant, only. Provide short answers. Where needed, mention the document's name and section or paragraph, avoid quoting.</blockquote>
+<p></p>
+For the prompt tempate this is will inject the system prompt without manual intervention
+<p></p>
+<blockquote class="code"><code>
+{% if system_prompt %}<|im_start|>system{{system_prompt}}<|im_end|>{% endif %}<br>
+{% for m in messages %}<|im_start|>{{m.role}}{{m.content}}<|im_end|>{% endfor %}<br>
+{% if add_generation_prompt %}<|im_start|>assistant{% endif %}<br>
+</code></blockquote>
+<p></p>
+The first line is to inject the system prompt, if present. The second to deal with the user inputs while the third to give an intestation to the AI agent answer.
+<p></p>
+<li>Suggested additional stop string: <tt><|im_end|></tt></li>
+<p></p>
+This ChatML code should be set as Prompt Template (Jijia) and after you can choose Manual and ChatML. Just in case you need additional stop strings for your AI model. Some AI models needs them others by contrary not, in both cases the result is a premature answer break.
+<p></p>
+An intermediate solution (like the suggested) can be found but might not work for ALL the models or those will be released in the future. Hence, better have a glue than a precise receipt. For more precise details, check the AI model presentaiton page or documentation.
+<p></p>
 <hr>
 <p></p>
 <H3 id="the-swap-impact">The swap impact</H3>
+<p></p>
+<blockquote><span class="warnicon spanicon">&nbsp;<svg class="warnicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;WARNING!&nbsp;&nbsp;</nobr></span><br><br>The results presented here below are more meaningful after having read the sections above, not just dropping the swap even if the swap creates a very impactful bottle-neck, it is not the ONLY reason because performances can vary a lot among system among vary AI models.</blockquote>
 <p></p>
 Every GNU/Linux system is keen to use swap during its normal running. Unfortunately, this feature has a wild impact on the elaboration time which is the time before the first token. 
 <p></p>

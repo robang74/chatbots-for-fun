@@ -47,7 +47,7 @@ A grouped by topic and others articles are listed here below.
 
    - 2025-01-21 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-peer-review-prompt-with-rag.md)] - [AI peer-review prompt with RAG](ai-peer-review-prompt-with-rag.md) &nbsp; (2nd edt.)
 
-   - 2025-01-13 -[[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-system-prompting-to-leverage-rag.md)] - [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md) &nbsp; (3rd edt.)
+   - 2025-01-13 -[[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-system-prompting-to-leverage-rag.md)] - [AI system prompting to leverage RAG](ai-system-prompting-to-leverage-rag.md) &nbsp; (4th edt.)
 
    - 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-system-prompt-alchemy.md)] - [The system prompt alchemy](the-system-prompt-alchemy.md)
 
@@ -157,7 +157,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 * [reorprj](https://www.reorproject.org) - Ollama w/RAG + Intel/Vulkan support &thinsp;(&hairsp;**`WOW!`**)
 
-* [lmstudio](https://lmstudio.ai) - Q4_M_K + Intel/Vulkan support &thinsp;(&hairsp;**`FAST!`**)
+* [lmstudio](https://lmstudio.ai) - Q4_M_K + Intel/Vulkan support &thinsp;([**`FAST!`**](ai-system-prompting-to-leverage-rag.md#lm-studio-config?target=_blank))
 
 * [intro #1](https://www.mseri.me/running-llms-locally) - how to run LLMs locally, part #1
 
