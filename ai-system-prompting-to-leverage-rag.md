@@ -4,13 +4,13 @@
 
 ## AI system prompting to leverage RAG
 
-This paper is based on a [comment](https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11817710) that I wrote on the discussion board on the GitHub Nomic AI gpt4all project. Its aim is to document my personal experiments in system prompting a local running AI model for efficiently optimise the ratio between computational time and meanfullness of the answer. In particular considering the typical constrains of that AI models running on consumer hardware.
+This paper is based on a [comment](https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11817710) that I wrote on the discussion board on the GitHub Nomic AI gpt4all project. Its aim is to document my personal experiments in the system prompting a local running AI model to efficiently optimise the ratio between computational time and meaningfulness of the answer. In particular considering the typical constraints of that AI models running on consumer hardware.
 
-* 2nd edition (since rev. 7) contains a new section [use cases](#use-cases) about when and how using system prompt in a productive manner. In particular: "`Never speculate`" as optional.
+* 2nd edition (since rev. 7) contains a new section [use cases](#use-cases) about when and how to use system prompts in a productive manner. In particular: "`Never speculate`" as optional.
 
 * 3rd edition (since rev. 8) contains a new section [the-swap impact](#the-swap-impact) for boosting the elaboration time which is the time before the first answer token is going to be written.
 
-* 4th edition (since rev. 9) contains a new section [LM-Studio config](#lm-studio-config) that incorportates the swap impact session from 3rd edtion and explain its results, almost.
+* 4th edition (since rev. 9) contains a new section [LM-Studio config](#lm-studio-config) that incorporates the swap impact session from 3rd edition and explains its results, almost.
 
 
 This article is the prosecution of this previous article:
@@ -25,7 +25,7 @@ and this topic is further developed in this article:
 
 ### Prompt Testing
 
-I am trying to provided my local running AI with a system prompt oriented for using the RAG properly. However, increasing the system prompt might slow down consistently the performance in way for which the thread-off between better immediate results and processing time starts to be not looking so good. Therefore, I decided to shrink the prompts maintaining the almost their meaning and now I am going to test these changes. I am writing here, just in case someone would like to join me in this quest. 
+I am trying to provide my local running AI with a system prompt oriented for using the RAG properly. However, increasing the system prompt might slow down consistently the performance in a way for which the thread-off between better immediate results and processing time starts to not look so good. Therefore, I decided to shrink the prompts to maintain their meaning and now I am going to test these changes. I am writing here, just in case someone would like to join me in this quest. 
 
 - **Model**: Reasoner v1
 - **Question**: what is your name?
@@ -35,7 +35,7 @@ I am trying to provided my local running AI with a system prompt oriented for us
 
 #### Results, single time took
 
-A statistic based on a single-taken value is the opposite of trustwortiness. Despite this, these values are the fire-starter for having an idea about the impact of system prompting on the most easily dimension to measure: the computational time at the first prompt in a brand new chat after having loaded the AI model.
+A statistic based on a single-taken value is the opposite of trustworthiness. Despite this, these values are the fire-starter for having an idea about the impact of system prompting on the most easily dimension to measure: the computational time at the first prompt in a brand new chat after having loaded the AI model.
 
 - 57s - gpt4all chat template w/ Roberto's original system prompt.
 - 16s - minimal chat template w/ Roberto's original system prompt.
@@ -48,7 +48,7 @@ In the last case the system prompt is referring to a single file tokenized:
 
 > Follow instructions in "system-prompt.txt", if present.
 
-The main issue is about spending a lot of time in searching for it while a ChatML instruction to refer directly to the file, can make a hude difference in dropping the searching time and achieve something between 16s and 6s, or even better.
+The main issue is about spending a lot of time in searching for it while a ChatML instruction to refer directly to the file, can make a huge difference in dropping the searching time and achieve something between 16s and 6s, or even better.
 
 The minimal chat temple:
 
@@ -59,17 +59,17 @@ The minimal chat temple:
 > `{{ '<|im_start|>assistant\n' }}`
 > `{% endif %}`
 
-which is the bare minum that I found which can work with gpt4all. While in the LM Studio adding `<|im_end|>` as "Additional Stop Strings" is suggested.
+which is the bare minimum that I found which can work with gpt4all. While in the LM Studio adding `<|im_end|>` as "Additional Stop Strings" is suggested.
 
 ---
 
 ### Instruct system prompt
 
-The first prompt derive from a previous experiment in order to solve some issue in following user's directive by chatbot trained with the Open Hermes 2.5 dataset which is the best for text analisys but it does not include any "instructive" training about following the user's directives.
+The first prompt derive from a previous experiment in order to solve some issue in following user's directive by chatbot trained with the Open Hermes 2.5 dataset which is the best for text analysis but it does not include any "instructive" training about following the user's directives.
 
 * [data/system-prompts.txt](data/system-prompts.txt#?target=_blank) &nbsp;&larr;&nbsp; for an easy copy-&-paste way to go.
 
-Moreover, some AI model suffer of a quite broad spectrum of "attitudes" which are quite interesting but also annoying. These misbahaviourl habits can be related to the quantisitation process they undergo for being suitable to run within the gpt4all framework and more in general on consumer hardware.
+Moreover, some AI models suffer from a quite broad spectrum of "attitudes" which are quite interesting but also annoying. These misbehaviour habits can be related to the quantization process they undergo for being suitable to run within the gpt4all framework and more in general on consumer hardware.
 
 ...
 
@@ -123,7 +123,7 @@ The next step after having an instructive system prompt in place, is to complete
 
 * [data/knowledge-savy.txt](data/knowledge-savy.txt#?target=_blank) &nbsp;&larr;&nbsp; for an easy copy-&-paste way to go.
 
-Which can easily be our documents, whatever they are a priviledged source of consolidated facts, a collection of information to further elaborate or even a text/information which need to go under a peer-review or a certain kind of analisys and we do not feel confortable in sharing using on-line services.
+Which can easily be our documents, whatever they are a privileged source of consolidated facts, a collection of information to further elaborate or even a text/information which need to go under a peer-review or a certain kind of analysis and we do not feel comfortable in sharing using on-line services.
 
 ...
 
@@ -159,39 +159,39 @@ Which can easily be our documents, whatever they are a priviledged source of con
 
 ## Practical suggestions
 
-Here a short but valuable tips to keep in mind when you are working in squize the most from your prompts.
+Here are short but valuable tips to keep in mind when you are working to squeeze the most from your prompts.
 
-1. in using VERY large models online in order to improve your prompt, inform them about the constrains:
+1. in using VERY large models online in order to improve your prompt, inform them about the constraints:
 
-> I have a local running AI has very limited resources and a LONG prompt slow it down a lot.
+> I have a local running AI that has very limited resources and a LONG prompt slows it down a lot.
    
-2. do not be shy in telling them explicetely and in a detailed manner the issues you wish to address:
+2. do not be shy in telling them explicitly and in a detailed manner the issues you wish to address:
 
-> I have a problem with an AI model that mispersonalise you/I me/you when have a dialogue unless I gave him a system prompt in which I explicitly give the instruction to referer himself in first person.
+> I have a problem with an AI model that mispersonalise you/I me/you when you have a dialogue unless I give him a system prompt in which I explicitly give the instruction to referer himself in first person.
 
-3. never given for granted nor the meaninging of words you are using nor the conseguequences in you case:
+3. never given for granted nor the meaning of words you are using nor the consequences in you case:
 
 > About "make relevant decision" - I need to inform you that the local AI model has a very limited knowledge compared to you and for this reason is better that it relies over rationality rather than anything that can be related with information like the "*relevant*" adjective implicitly means.
 
-4. in the quest for achieve the shortest prompt version, keep them in line with the basic rules becase it matters:
+4. in the quest for achieve the shortest prompt version, keep them in line with the basic rules because it matters:
 
-> Unfortunately, due the local AI limitations 7B parameters, it is important to use a correct syntax to avoid to confuse its lessical thinking approach. Therefore, I have slightly increase verbosity for more clarity
+> Unfortunately, due to the local AI limitations of the 7B parameters, it is important to use a correct syntax to avoid confusing its lessical thinking approach. Therefore, I have slightly increase verbosity for more clarity
 
-As you can see, there are many aspects about prompting which make us thinking we are dealing with borderline kids rather than AI models.
+As you can see, there are many aspects about prompting which make us think we are dealing with borderline kids rather than AI models.
 
 +
 
 ## LM-Studio config
 
-Compared to the GPT4All, LM-Studio allows to locally run AI models quantised in vary, more modern and afficient encoding rather than the `Q4_0` legacy. But, it is also more complicated to use expecially in its "power user" default GUI modality.
+Compared to the GPT4All, LM-Studio allows locally run AI models quantised in vary, more modern and efficient encoding rather than the `Q4_0` legacy. But, it is also more complicated to use, especially in its "power user" default GUI modality.
 
-So, the following is a brief how-to for configuring the LM-Studio (0.3.12-build1-x64) on a laptop/PC with 16GB of RAM and an Intel integrate video card like the ThinkPad X390. Which can be useful because the performances can vary very much.
+So, the following is a brief how-to for configuring the LM-Studio (0.3.12-build1-x64) on a laptop/PC with 16GB of RAM and an Intel integrated video card like the ThinkPad X390. Which can be useful because the performances can vary very much.
 
 ---
 
 ### Disable the swap
 
-These two lines disable the swap definetely but the first just until the next reboot
+These two lines disable the swap definitely but the first just until the next reboot
 
 [!CODE]
 sudo swapoff -a<br>
@@ -205,7 +205,7 @@ sudo sed -s "/\bswap\b/ s,.&ast;swap,#&," /etc/fstab<br>
 
 For the resource management choose "balance" or even something more extreme, at least try
 
-In advance configuration (right pannel) in settings (all) CPU Threads set the maximum (4)
+In advance configuration (right panel) in settings (all) CPU Threads set the maximum (4)
 
 - GPU Offload: 0
 
@@ -215,13 +215,13 @@ In advance configuration (right pannel) in settings (all) CPU Threads set the ma
 
 - Try mmap(): ON
 
-No any experimental settings and for comparing varying models from the smallest upto 9Bln
+No any experimental settings and for comparing varying models from the smallest up to 9Bln
 
-- Contex Lenght: 2048 which is a size supported by all, or almost all
+- Context Length: 2048 which is a size supported by all, or almost all
 
 - Evaluation batch size: 512 (default)
 
-All the other setting at their default which is { Auto, Auto, Seed: OFF }.
+All the other settings are at their default which is { Auto, Auto, Seed: OFF }.
 
 ---
 
@@ -231,7 +231,7 @@ This is optional, and you can always use it in the first session's prompt when y
 
 > Your name is AleX (use I/me/myself), an AI assistant with reasoning abilities for text analysis, verification and task execution. Abide instructions without verbosity, make rational decisions and briefly explain those which are relevant, only. Provide short answers. Where needed, mention the document's name and section or paragraph, avoid quoting.
 
-For the prompt tempate this is will inject the system prompt without manual intervention
+For the prompt template this is will inject the system prompt without manual intervention
 
 [!CODE]
 {% if system_prompt %}<|im_start|>system{{system_prompt}}<|im_end|>{% endif %}<br>
@@ -239,13 +239,13 @@ For the prompt tempate this is will inject the system prompt without manual inte
 {% if add_generation_prompt %}<|im_start|>assistant{% endif %}<br>
 [/CODE]
 
-The first line is to inject the system prompt, if present. The second to deal with the user inputs while the third to give an intestation to the AI agent answer.
+The first line is to inject the system prompt, if present. The second to deal with the user inputs while the third to give a header to the AI agent answer.
 
 - Suggested additional stop string: `<|im_end|>`
 
-This ChatML code should be set as Prompt Template (Jijia) and after you can choose Manual and ChatML. Just in case you need additional stop strings for your AI model. Some AI models needs them others by contrary not, in both cases the result is a premature answer break.
+This ChatML code should be set as Prompt Template (Jijia) and after that you can choose Manual and ChatML. Just in case you need additional stop strings for your AI model. Some AI models need them, others by contrast not, in both cases the result is a premature answer break.
 
-An intermediate solution (like the suggested) can be found but might not work for ALL the models or those will be released in the future. Hence, better have a glue than a precise receipt. For more precise details, check the AI model presentaiton page or documentation.
+An intermediate solution (like the suggested) can be found but might not work for ALL the models or those will be released in the future. Hence, better have a glue than a precise receipt. For more precise details, check the AI model presentation page or documentation.
 
 ---
 
@@ -253,7 +253,7 @@ An intermediate solution (like the suggested) can be found but might not work fo
 
 > [!WARN]
 > 
-> The results presented here below are more meaningful after having read the sections above, not just dropping the swap even if the swap creates a very impactful bottle-neck, it is not the ONLY reason because performances can vary a lot among system among vary AI models.
+> The results presented here below are more meaningful after having read the sections above, not just dropping the swap even if the swap creates a very impactful bottle-neck, it is not the ONLY reason because performances can vary a lot among systems among various AI models.
 
 Every GNU/Linux system is keen to use swap during its normal running. Unfortunately, this feature has a wild impact on the elaboration time which is the time before the first token. 
 
@@ -279,7 +279,7 @@ The second in particular fully grants that memory will not be messing-up with an
 
 ## Conclusions
 
-Definetely too early to jump at any conclusion. The topic is as wide as the far-west before being the far-west and here we are like Christopher Columbus' sailors who had just set foot in the new world and were still unaware that it was not India but a totally new and unexplored continent.
+Definitely too early to jump at any conclusion. The topic is as wide as the far-west before being the far-west and here we are like Christopher Columbus' sailors who had just set foot in the new world and were still unaware that it was not India but a totally new and unexplored continent.
 
 +
 
