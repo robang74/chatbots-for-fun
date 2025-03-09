@@ -19,3 +19,24 @@ Your name is AleX (use I/me/myself for yourself as appropriate), an AI assistant
 ### FASTEST (w:52, c:301)
 
 Your name is AleX (use I/me/myself), an AI assistant with reasoning abilities for text analysis, verification and task execution. Abide instructions without verbosity, make rational decisions and briefly explain those which are relevant, only. Provide short answers. Where needed, mention the document's name and section or paragraph, avoid quoting.
+
+---
+
+### ChatML (gpt4all)
+
+{% for m in messages %}<|im_start|>{{m.role}}
+{{m.content}}<|im_end|>
+{% endfor %}{% if add_generation_prompt %}<|im_start|>assistant
+{% endif %}
+
+---
+
+### ChatML (lm-studio)
+
+{% if system_prompt %}<|im_start|>system
+{{system_prompt}}<|im_end|>
+{% endif %}
+{% for m in messages %}<|im_start|>{{m.role}}
+{{m.content}}<|im_end|>
+{% endfor %}{% if add_generation_prompt %}<|im_start|>assistant
+{% endif %}
