@@ -240,9 +240,9 @@ Which is **WAY** different than the expected output, which should be something l
 
 In fact, the problem is that BAR1 and BAR2, both 64-bit prefetchable, are missing for both devices which means that the PCIe is 4GB addressable but not beyond that limit.
 
-++++
+----
 
-#### Ubuntu 20.04.6 LTS
+### Ubuntu 20.04.6 LTS
 
 I gave a try with Ubuntu 20.04.6 LTS which is running, after the update, with a Linux 5.15.0-131-generic and installed by default the Nvidia driver 470 serie.
 
@@ -304,6 +304,56 @@ n=${d#&ast;/iommu_groups/&ast;}; n=${n%%/&ast;}; printf 'IOMMU group %s: ' "$n"<
 lspci -nns "${d##&ast;/}"; done; systemd-analyze<br>
 lspci -knn | grep -A1 -i nvidia; lspci -vt<br>
 [/CODE]
+
+----
+
+### GPU virtualisation
+
+In the quest of making the Tesla K80 working within Esprimo P910, I tried to play the card of virtualisation leveraging the Intel VT-d technology:
+
+[!CODE]
+root@P910:~# cat /proc/cpuinfo | grep -i -e "model name" -e "address sizes" | tail -n2<br>
+model name	: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz<br>
+address sizes	: 36 bits physical, 48 bits virtual<br>
+[/CODE]
+
+By chance I made the 2nd internal GPU virtualized but not the first one:
+
+[!CODE]
+<span style="font-size: 90%;">
+04:00.0 3D controller [0302]: NVIDIA Corporation GK210GL [Tesla K80] [10de:102d] (rev a1)<br>
+	Subsystem: NVIDIA Corporation GK210GL [Tesla K80] [10de:106c]<br>
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-<br>
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- &lt;TAbort- &lt;MAbort- >SERR- &lt;PERR- INTx-<br>
+	Interrupt: pin A routed to IRQ 255<br>
+	Region 0: Memory at f1000000 (32-bit, non-prefetchable) [virtual] [size=16M]<br>
+	Region 1: Memory at &lt;unassigned> (64-bit, prefetchable) [virtual]<br>
+	Region 3: Memory at &lt;unassigned> (64-bit, prefetchable) [virtual]<br>
+	Capabilities: &lt;access denied><br>
+	Kernel driver in use: vfio-pci<br>
+	Kernel modules: nvidiafb, nouveau<br>
+</span>
+[/CODE]
+
+Lately, I made the 1st internal GPU virtualized but not the second one:
+
+[!CODE]
+<p style="font-size: 90%;">
+03:00.0 3D controller [0302]: NVIDIA Corporation GK210GL [Tesla K80] [10de:102d] (rev a1)<br>
+	Subsystem: NVIDIA Corporation GK210GL [Tesla K80] [10de:106c]<br>
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-<br>
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- &lt;TAbort- &lt;MAbort- >SERR- &lt;PERR- INTx-<br>
+	Interrupt: pin A routed to IRQ 255<br>
+	Region 0: Memory at f0000000 (32-bit, non-prefetchable) [virtual] [size=16M]<br>
+	Region 1: Memory at &lt;unassigned> (64-bit, prefetchable) [virtual]<br>
+	Region 3: Memory at &lt;unassigned> (64-bit, prefetchable) [virtual]<br>
+	Capabilities: &lt;access denied><br>
+	Kernel driver in use: vfio-pci<br>
+	Kernel modules: nvidiafb, nouveau<br>
+</p>
+[/CODE]
+
+Using just half of the card would be nice as a starting point. Unfortunately, this configuration seems unstable in terms of reboot persistence. Which brings me to the conclusion that I probably have to replace some integrated hardware with external components. Hopefully, just the Ethernet card which by chance I have one that fits into the first PCIe slot.
 
 +
 ===
