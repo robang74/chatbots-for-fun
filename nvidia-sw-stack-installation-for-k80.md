@@ -355,6 +355,24 @@ Lately, I made the 1st internal GPU virtualized but not the second one:
 
 Using just half of the card would be nice as a starting point. Unfortunately, this configuration seems unstable in terms of reboot persistence. Which brings me to the conclusion that I probably have to replace some integrated hardware with external components. Hopefully, just the Ethernet card which by chance I have one that fits into the first PCIe slot.
 
+---
+
+### Client/Server approach
+
+Using just half of the card would be nice as a starting point. Unfortunately, this configuration seems unstable in terms of reboot persistence. Which brings me to the conclusion that I probably have to replace some integrated hardware with external components. Hopefully, just the Ethernet card which by chance I have one that fits into the first PCIe slot.
+
+So, the next question is how much will suck this virtualisation? Considering the tries I made, not so much. Fundamentally because the VT-d + passthrough provides a near real-hardware performance. At least, when the load is far away from the nominal limits, like my 10+yo 2.5" harddisk with 110Mb/s R/W limit on a SATA3 bus. In particular when the VM disk is not even a file but a partition on that disk which for large transfer is better but not necessarily in every condition. What's about a more performant SSD? DMA.
+
+Therefore the major loss is having two kernels running on the same physical machine and the RAM split between the physical and the virtual machine. In terms of RAM, a 2GB loss for the computational environment (virtual) in order to keep the host working as server (no-graphics) with a reasonably large buffer of RAM. While the CPU is completely shared among the two machines with 4 cores access for both. A perfect concurrent scenario letting the kernel scheduler (which can also be tuned) do its job.
+
+A more extreme proposal can be assigning the CPU #0 to the kernel, or better force the kernel running on the CPU #0, or both to provide a computational buffer for escalating quickly when concurrent processes will claim it. The same for the VM kernel and in this way two cores are gone but both kernels are stuck to a local high precision hardware timer. Which is not so bad idea considering that otherwise the time skew among cores let the kernel refuse to use it (dmesg docet).
+
+Can just be enough having two cores for AI inference? Well, not very much but at this point it is clear that we have to sacrifice the physic access and the graphical interface in favor of a gigabit Ethernet connection and rely on a laptop for having a more "challenging" system. But - wait - can a smaller AI running on a laptop do tokenization in place of another bigger running on a server?
+
+> AI systems can definitely communicate using tokenized data, offering significant advantages in efficiency and flexibility. While raw token transfer is possible, standardized communication protocols are crucial for building robust, interoperable, and secure distributed AI systems. -- Gemini 2.
+
+This would solve also the problem of running a GUI or installing user-land software on a highly customised server or into the virtual machine. Delegating to the laptop all the stuff that it can better deal with. Which is like having a laptop that query by API a remote AI server but both are located in your house/office. Despite Wi-Fi being intrinsically insecure as media for a network, a VPN which supports a strong cryptography (aka SSH tunnel) can be configured for AI-server WS-laptop communications.
+
 +
 ===
 
