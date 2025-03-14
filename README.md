@@ -69,7 +69,7 @@ A grouped by topic and others articles are listed here below.
 
    - 2025-02-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dual-psu-esprimo-p910-installation.md)] - [Dual PSU installation for Esprimo P910](dual-psu-esprimo-p910-installation.md) &nbsp; (2nd edt.)
 
-   - 2025-02-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-bios-update-and-diagnostics.md)] - [Fujitsu P910 E85+ BIOS update & HW diagnostics](p910-bios-update-and-diagnostics.md) &nbsp; (2nd edt.)
+   - 2025-02-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-bios-update-and-diagnostics.md)] - [Fujitsu P910 E85+ BIOS update & HW diagnostics](p910-bios-update-and-diagnostics.md) &nbsp; (3nd edt.)
 
    - 2025-01-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/p910-k80-installation-manual-intro.md)] - [Esprimo P910 with Tesla K80 manual intro](p910-k80-installation-manual-intro.md) &nbsp; (2nd edt.)
 

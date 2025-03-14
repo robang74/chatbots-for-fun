@@ -177,7 +177,17 @@ Moreover, while the Fujitsu Esprimo P910 E85+ is considered a Workstation rather
 
 These two aspects, give us a reasonable hope about finding more fine-grained or extra-values BIOS settings accessing from the serial console, as professional system administration or engineers would do rather than end-users, which might include also enabling the "Above 4GB decoding" option which is needed for Tesla K80.
 
-Unfortunately, this part is still under investigation because of the lack of a USB serial adapter, so it should be considered entirely speculative.
+#### UPDATE 2025-03-14
+
+Unfortunately, differently than HP and Lenovo workstations, it seems that Fujitsu workstations does not have hidden tricks
+
+|x|>
+<img class="bwsketch darkinv inksave" src="img/bios-and-intel-amt-remote-accesses.png" width="800">
++
+<sup>right click menu to enlarge (x2) the image</sup>
+<|x|
+
+These screenshoot shown the BIOS remote access by serial and the iAMT access by HTTP via 16992 port.
 
 +
 
