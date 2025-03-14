@@ -171,7 +171,7 @@ Suggestion -- provide yourself with an headless remotable alternative way to acc
 
 ### 10. Serial console
 
-The Esprimo P910’s BIOS allows to enable a serial console redirection which can provide - as expected - an headless and remotable access to the BIOS configuration. However, it requires a serial connection or an USB serial adapter and the related software like `minicom` to access it. 
+The Esprimo P910’s BIOS allows enabling a serial console redirection which can provide - as expected - an headless and remotable access to the BIOS configuration. However, it requires a serial connection or an USB serial adapter and the related software like `minicom` to access it. 
 
 Moreover, while the Fujitsu Esprimo P910 E85+ is considered a Workstation rather than an user-end Personal Computer, its motherboard is considered an industrial-grade hardware and it is largely adopted for Point-of-Sales machinery or for remote control edge-point for electric systems like shopping mall lighting or fire-fighting systems.
 
@@ -179,7 +179,7 @@ These two aspects, give us a reasonable hope about finding more fine-grained or 
 
 #### UPDATE 2025-03-14
 
-Unfortunately, differently than HP and Lenovo workstations, it seems that Fujitsu workstations does not have hidden tricks
+Unfortunately, differently than HP and Lenovo workstations, it seems that Fujitsu workstations do not have hidden settings:
 
 |x|>
 <img class="bwsketch darkinv inksave" src="img/bios-and-intel-amt-remote-accesses.png" width="800">
@@ -187,7 +187,7 @@ Unfortunately, differently than HP and Lenovo workstations, it seems that Fujits
 <sup>right click menu to enlarge (x2) the image</sup>
 <|x|
 
-These screenshoot shown the BIOS remote access by serial and the iAMT access by HTTP via 16992 port.
+These screenshots show the BIOS remote access by serial and the iAMT access by HTTP via 16992 port.
 
 +
 
@@ -196,3 +196,6 @@ These screenshoot shown the BIOS remote access by serial and the iAMT access by 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
+
+
+
