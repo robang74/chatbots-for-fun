@@ -2,20 +2,17 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 ++
-++
 |x|>
 
 +
 # Installing Nvidia Tesla K80 <br>into a Fujitsu Esprimo P910<br>with a U1 flex ATX 2nd PSU
 
 ++
-++
 ===
 
 # MANUAL <br><img class="darkinv" src="img/cc-by-nd-nc-icons.png" width="160px"><br>
 
 ===
-++
 ++
 
 <|x|
@@ -39,9 +36,11 @@
 3. [Tesla K80 with P910 installation challenges](tesla-k80-with-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-24)
 4. [Esprimo P910 dual-PSU approach evaluation](dual-psu-fujitsu-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-25)   
 5. [Dual PSU installation for Esprimo P910](dual-psu-esprimo-p910-installation.md#?target=_blank) &nbsp; (2025-02-05)
-6. [Nvidia Tesla K80 SW stack installation](nvidia-sw-stack-installation-for-k80.md#?target=_blank) &nbsp; (2025-02-18, **`WIP!`**)
-7. [Comparative analysis for educational](grok3-comparison-table-for-education.md#?target=_blank) by Grok3 &nbsp; (2025-02-23)
-8. [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md#?target=_blank) by Grok3 &nbsp; (2025-02-23)
+6. [P910 cooling system proposal for K80](p910-cooling-system-proposal-for-k80.md) &nbsp; (2025-03-14)
+7. [Nvidia Tesla K80 SW stack installation](nvidia-sw-stack-installation-for-k80.md#?target=_blank) &nbsp; (2025-02-18, **`WIP!`**)
+8. [Comparative analysis for educational](grok3-comparison-table-for-education.md#?target=_blank) by Grok3 &nbsp; (2025-02-23)
+9. [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md#?target=_blank) by Grok3 &nbsp; (2025-02-23)
+
 
 |<<<
 |<<<
