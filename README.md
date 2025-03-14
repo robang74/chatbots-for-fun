@@ -55,7 +55,9 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
-* **Fujitsu Esprimo P910 E85+ w/ Nvidia Tesla K80 installation** &nbsp; (9 pz.)
+* **Fujitsu Esprimo P910 E85+ w/ Nvidia Tesla K80 installation** &nbsp; (10 pz.)
+
+   - 2025-03-14 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-cooling-system-proposal-for-k80.md)] - [P910 cooling system for K80](p910-cooling-system-proposal-for-k80.md)
 
    - 2025-02-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-comparison-table-value-for-money.md)] - [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md) by Grok3
 
