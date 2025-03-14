@@ -20,7 +20,7 @@
 >>>|
 >>>|
 
-- **State**: working in progress, 7 of 8 parts done
+- **State**: working in progress, 8 of 9 parts done
 - **Source**: [robang74.github.io/chatbots-for-fun](https://robang74.github.io/chatbots-for-fun)
 - **Download**: [tinyurl.com/24ryr6tu](https://tinyurl.com/24ryr6tu) (PDF on Google Drive)
 - **Author**: Roberto A. Foglietta &lt;roberto.foglietta@gmail.com&gt;
