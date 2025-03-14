@@ -171,15 +171,21 @@ Suggestion -- provide yourself with an headless remotable alternative way to acc
 
 ### 10. Serial console
 
-The Esprimo P910’s BIOS allows enabling a serial console redirection which can provide - as expected - an headless and remotable access to the BIOS configuration. However, it requires a serial connection or an USB serial adapter and the related software like `minicom` to access it. 
+Fujitsu Esprimo P910 E85+ is considered a **Work Station** rather than a PC. The motherboard is an industrial-grade hardware and it is largely adopted for Point-of-Sales machinery or for remote control edge-point for electric systems like shopping mall lighting or fire-fighting systems.
 
-Moreover, while the Fujitsu Esprimo P910 E85+ is considered a Workstation rather than an user-end Personal Computer, its motherboard is considered an industrial-grade hardware and it is largely adopted for Point-of-Sales machinery or for remote control edge-point for electric systems like shopping mall lighting or fire-fighting systems.
+The BIOS allows enabling a serial console redirection which can provide headless access to the BIOS, also. However, it requires an USB serial adapter and a proper configuration. On the client side, `sudo minicom -s` to configure the serial port. On the server side, as root:
 
-These two aspects, give us a reasonable hope about finding more fine-grained or extra-values BIOS settings accessing from the serial console, as professional system administration or engineers would do rather than end-users, which might include also enabling the "Above 4GB decoding" option which is needed for Tesla K80.
+[!CODE]
+vi /etc/default/grub
 
-#### UPDATE 2025-03-14
+GRUB_TERMINAL="serial console"<br>
+GRUB_SERIAL_COMMAND="serial --unit=0 --speed=115200"<br>
+GRUB_CMDLINE_LINUX_DEFAULT="console=tty0 console=ttyS0,115200n8 [...omissis...]"<br>
 
-Unfortunately, differently than HP and Lenovo workstations, it seems that Fujitsu workstations do not have hidden settings:
+systemctl enable serial-getty@ttyS0.service && update-grub && reboot
+[/CODE]
+
+These screenshots above show the BIOS remote access by serial and the iAMT access by HTTP via 16992 port.
 
 |x|>
 <img class="bwsketch darkinv inksave" src="img/bios-and-intel-amt-remote-accesses.png" width="800">
@@ -187,7 +193,7 @@ Unfortunately, differently than HP and Lenovo workstations, it seems that Fujits
 <sup>right click menu to enlarge (x2) the image</sup>
 <|x|
 
-These screenshots show the BIOS remote access by serial and the iAMT access by HTTP via 16992 port.
+Unfortunately, differently than HP and Lenovo workstations, it seems that Fujitsu workstations do not have any hidden setting that can help supporting the Tesla K80.
 
 +
 
