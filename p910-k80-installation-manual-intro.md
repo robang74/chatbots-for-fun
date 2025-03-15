@@ -129,18 +129,19 @@ The Bill of Materials (BoM) below details all components purchased on the consum
 | ---------------------------------------------------|----------------|---------|
 | Nvidia Tesla K80, 24GB                             | amazon.it      | _€89.00 |
 | Fujitsu Esprimo P910 E85+, 16GB, i5-3470           | amso.eu        | _€57.09 |
-| 220V 1U 350W Flex PSU + 3 adapters                 | aliexpress.it  | _€26.19 |
+| Power supply 220V 350W Flex ATX                    | aliexpress.it  | _€26.19 |
 | - CPU 4-pins to CPU 8-pins adapter                 |                | _€_1.59 |
 | - dual-PSU ATX/SATA router with 0/1 switch         |                | _€_2.15 |
-| - DVI to VGA adapter (*optional*)                  |                | _€_1.85 |
 | USB 3.0 h:15mm 20-pins 90° adapter (*optional*)    | amazon.it      | _€_1.78 |
-| Hub for 10 fans 4-pin PWM hub w/SATA powering      | aliexpress.it  | _€_2.33 |
+| 2 x fans 4-pin 92mm H:25mm + 2x Y 4-pin cables     | aliexpress.it  | _€10.34 |
+| - USB-serial + USB2 cable + USB3 cable (*optional*)|                | _€_3.26 |
 | - Power cable C14F w/ C13M down angle (*optional*) |                | _€_4.61 |
 | - Wi-Fi USB RTL8188 300Mb/s (*optional*)           |                | _€_2.28 |
+| - DVI to VGA adapter (*optional*)                  |                | _€_1.85 |
 | Spare material consumed or wasted                  |                | _€_1.42 |
 |                                                    |                |         |
-|                             | <div align="right">**Total**</div> |**€179.77** |
-|                        | <div align="right">w/ *optionals*</div> |**€190.19** |
+|                             | <div align="right">**Total**</div> |**€187.78** |
+|                        | <div align="right">w/ *optionals*</div> |**€198.20** |
 
 The following table lists consumables and materials used or wasted in production. The "pack" column represents the MOQ (Minimum Order Quantity), while "paid" reflects the last purchase price, including shipping. Gains or losses on excess stock should be accounted for separately under financial accounting or warehouse costs, and only a proportional percentage of material value should be allocated to the unit cost.
 
