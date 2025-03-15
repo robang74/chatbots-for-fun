@@ -121,7 +121,7 @@ Analysis of the various options as alternatives
 - **Weaknesses**: €1100 for 2.79 cores/€, 8GB caps training vs. 28GB.
 - **Edge**: Reliable, mid-tier AI, pricey.
 
-+
+++++++
 
 ## Conclusion
 
