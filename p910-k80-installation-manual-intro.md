@@ -125,23 +125,23 @@ This "Linux Thinkpad e altri gadget" ([PDF](https://github.com/robang74/roberto-
 
 The Bill of Materials (BoM) below details all components purchased on the consumer market, including shipping costs.
 
-| Part description                                   | e-market       | paid(€) | optional |
-| ---------------------------------------------------|----------------|---------|----------|
-| Nvidia Tesla K80, 24GB                             | amazon.it      | _€89.00 |          |
-| - USB 3.0 h:15mm 20-pins 90° adapter               |                | _€_1.78 |          |
-| Fujitsu Esprimo P910 E85+, 16GB, i5-3470           | amso.eu        | _€57.09 |          |
-| - DVI to VGA adapter                               |                | _€_1.00 | yes      |
-| Power supply 220V 350W Flex ATX                    | aliexpress.it  | _€26.19 |          |
-| - CPU 4-pins to CPU 8-pins adapter                 |                | _€_1.59 |          |
-| - dual-PSU ATX/SATA router with 0/1 switch         |                | _€_2.15 |          |
-| - 2 x fans 4-pin 92mm H:25mm + 2x Y 4-pin cables   |                | _€10.34 |          |
-| - USB-serial + USB2 cable + USB3 5Gps cable        |                | _€_3.26 | yes      |
-| - Power cable C14F w/ C13M down angle              |                | _€_4.61 | yes      |
-| - Wi-Fi USB RTL8188 300Mb/s                        |                | _€_1.92 | yes      |
-| Spare material consumed or wasted                  |                | _€_1.42 |          |
-|                                                    |                |         |          |
-|                             | <div align="right">**Total**</div> |**€189.56** |**€10.79**|
-|                        | <div align="right">w/ *optionals*</div> |**€200.35** | +5.7%    |
+| Part description                                   | e-market        | paid(€) | optional |
+| ---------------------------------------------------|-----------------|---------|----------|
+| Nvidia Tesla K80, 24GB                             | amazon.it       | _€89.00 | 47.0%    |
+| - USB 3.0 h:15mm 20-pins 90° adapter               |                 | _€_1.78 | 0.94%    |
+| Fujitsu Esprimo P910 E85+, 16GB, i5-3470           | amso.eu         | _€57.09 | 30.1%    |
+| - DVI to VGA adapter                               |                 | _€_1.00 | _yes     |
+| Power supply 220V 350W Flex ATX                    | aliexpress.it   | _€26.19 | 13.8%    |
+| - CPU 4-pins to CPU 8-pins adapter                 |                 | _€_1.59 | 0.84%    |
+| - dual-PSU ATX/SATA router with 0/1 switch         |                 | _€_2.15 | 1.34%    |
+| - 2 x fans 4-pin 92mm H:25mm + 2x Y 4-pin cables   |                 | _€10.34 | 5.45%    |
+| - USB-serial + USB2 cable + USB3 5Gps cable        |                 | _€_3.26 | _yes     |
+| - Power cable C14F w/ C13M down angle              |                 | _€_4.61 | _yes     |
+| - Wi-Fi USB RTL8188 300Mb/s                        |                 | _€_1.92 | _yes     |
+| Spare material consumed or wasted                  | *warehouse*     | _€_1.42 | 0.75%    |
+|                                                    |                 |         |          |
+|                             | <div align="right">**Total**</div>  |**€189.56** |**€10.79**|
+|                        | <div align="right">w/ *optionals*</div>  |**€200.35** | +5.7%    |
 
 The following table lists consumables and materials used or wasted in production. The "pack" column represents the MOQ (Minimum Order Quantity), while "paid" reflects the last purchase price, including shipping. Gains or losses on excess stock should be accounted for separately under financial accounting or warehouse costs, and only a proportional percentage of material value should be allocated to the unit cost.
 
