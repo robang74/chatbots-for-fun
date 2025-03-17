@@ -22,7 +22,6 @@ The most straightforward and most widely used cooling solution does not apply wi
 After all, this project exists for the only reason to explore options within extremely strict constraints. Hence, here is presented another possible solution which is quite cheap:
 
 - 2 x fan 92x25 mm, priced €3.52 each = €7.04
-
 - 2 x fan 4-pin Y cable, priced €1.63 each = €3.26
 
 The advantage of this proposal is that it does not require moving the main fan but leaving it in its original position, untouched. In fact, a 92mm fan will be used to cool down the CPU and hence attached by the Y cable to the CPU fan 4-pin connector.
@@ -61,6 +60,23 @@ Instead, an aspect of this cooling proposal that I love is that it could work en
 
 ---
 
+### Card active cooling
+
+Another approach is focusing on the card instead of the chassis. In this case 2x or 3x fans can be attached to the Tesla K80. In this case the size of the frames can vary from 7010mm which are the most suitable to be integrated into the plastic frame with some holes, and 80x10mm, 80x15mm or 92x15mm to be attached on the top of the card radiators.
+
+- 20pz rubber rivet set, priced = €1.99
+- 4-pin Y2 + Y4 cables. priced €1.63 + €2.07 = €3.70
+- 1 x fan 92x25 mm + 3 x fan 80x15 mm, priced €3.52 + 3x(€3.69) = €14.59
+
+For a total of €20.28, which €10 more expensive than the above proposal, but like above dedicating the main 12 cm fan to cooling the bottom of the case and adds an additional fan for the CPU. For comparison:
+
+- RTX 2080Ti Founder Edition (`250W, P:83%`) colling 2x85x10mm (`C: 44%, P/C: 53%`)
+- RTX 2080Ti Asus ROG Strix (`280W, P:93%`) colling 3x90x15mm (`C:113%, P/C:120%`)
+
+To leverage the chassis and 12cm original fan combination, the central fan on the Tesla K80 can be installed to aspirate instead of blowing air. This is expected to reduce turbulence and increase the air mixing on the lower lane, the one dedicated to the storage devices.
+
+---
+
 ### Preparation stage
 
 The preparation stage for installing this proposal is common with all the others solutions evaluated before:
@@ -73,7 +89,7 @@ Clean the mess of cables in the data storage area, just in case you were so luck
 
 While audio I/O and the front-case USB port are not essential, the SATA3 data cable cannot be ignored, also for a future expansion. Otherwise the K80 card and its adapter should be removed just to connect that cable. Unless, using high-precision and strong-grip tools. Hence, do it once and forever.
 
-+
+++
 
 ## Share alike
 

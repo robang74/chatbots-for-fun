@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-03-14&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>2</b rev_num='
+'>3</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-cooling-system-proposal-for-k80?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-cooling-system-proposal-for-k80?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-cooling-system-proposal-for-k80?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/p910-cooling-system-proposal-for-k80?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -43,7 +43,6 @@ The most straightforward and most widely used cooling solution does not apply wi
 After all, this project exists for the only reason to explore options within extremely strict constraints. Hence, here is presented another possible solution which is quite cheap:
 <p></p>
 <li>2 x fan 92x25 mm, priced €3.52 each = €7.04</li>
-<p></p>
 <li>2 x fan 4-pin Y cable, priced €1.63 each = €3.26</li>
 <p></p>
 The advantage of this proposal is that it does not require moving the main fan but leaving it in its original position, untouched. In fact, a 92mm fan will be used to cool down the CPU and hence attached by the Y cable to the CPU fan 4-pin connector.
@@ -82,6 +81,23 @@ Instead, an aspect of this cooling proposal that I love is that it could work en
 <p></p>
 <hr>
 <p></p>
+<H3 id="card-active-cooling">Card active cooling</H3>
+<p></p>
+Another approach is focusing on the card instead of the chassis. In this case 2x or 3x fans can be attached to the Tesla K80. In this case the size of the frames can vary from 7010mm which are the most suitable to be integrated into the plastic frame with some holes, and 80x10mm, 80x15mm or 92x15mm to be attached on the top of the card radiators.
+<p></p>
+<li>20pz rubber rivet set, priced = €1.99</li>
+<li>4-pin Y2 + Y4 cables. priced €1.63 + €2.07 = €3.70</li>
+<li>1 x fan 92x25 mm + 3 x fan 80x15 mm, priced €3.52 + 3x(€3.69) = €14.59</li>
+<p></p>
+For a total of €20.28, which €10 more expensive than the above proposal, but like above dedicating the main 12 cm fan to cooling the bottom of the case and adds an additional fan for the CPU. For comparison:
+<p></p>
+<li>RTX 2080Ti Founder Edition (<tt>250W, P:83%</tt>) colling 2x85x10mm (<tt>C: 44%, P/C: 53%</tt>)</li>
+<li>RTX 2080Ti Asus ROG Strix (<tt>280W, P:93%</tt>) colling 3x90x15mm (<tt>C:113%, P/C:120%</tt>)</li>
+<p></p>
+To leverage the chassis and 12cm original fan combination, the central fan on the Tesla K80 can be installed to aspirate instead of blowing air. This is expected to reduce turbulence and increase the air mixing on the lower lane, the one dedicated to the storage devices.
+<p></p>
+<hr>
+<p></p>
 <H3 id="preparation-stage">Preparation stage</H3>
 <p></p>
 The preparation stage for installing this proposal is common with all the others solutions evaluated before:
@@ -94,7 +110,7 @@ Clean the mess of cables in the data storage area, just in case you were so luck
 <p></p>
 While audio I/O and the front-case USB port are not essential, the SATA3 data cable cannot be ignored, also for a future expansion. Otherwise the K80 card and its adapter should be removed just to connect that cable. Unless, using high-precision and strong-grip tools. Hence, do it once and forever.
 <p></p>
-<br>
+<p class="printline"><br></p>
 <p></p>
 <H2 id="share-alike">Share alike</H2>
 <p></p>
