@@ -124,8 +124,8 @@ The Esprimo P910 comes with a DVI port, and in case you plan to couple with an o
 Unfortunately, it also affects the resolution of the shared desktop by Gnome RDP. In order to mitigate this limitation, it is worth installing the Gnome tweaks and injecting a new resolution from a Gnome terminal:
 
 [!CODE]
-sudo apt install gnome-tweaks -y
-
+sudo apt install gnome-tweaks -y<br>
+echo WaylandEnable=false | sudo tee -a /etc/gdm3/custom.conf<br>
 mcvt='$(cvt 1280 1024 75 | tail -n1 | cut -d\" -f3-)'<br>
 echo '#!/bin/bash'"<br>
 xrandr --newmode 1280x1024 $mcvt<br>
