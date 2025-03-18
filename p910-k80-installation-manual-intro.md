@@ -132,6 +132,7 @@ The Bill of Materials (BoM) below details all components purchased on the consum
 | Fujitsu Esprimo P910 E85+, 16GB, i5-3470           | amso.eu         | _€57.09 | 30.1%    |
 | - DVI to VGA adapter                               |                 | _€_1.85 | _yes     |
 | Power supply 220V 350W Flex ATX                    | aliexpress.it   | _€26.19 | 13.8%    |
+| - GPU card gyroscopic support                      |                 | _€_1.60 | 0.84%    |
 | - CPU 4-pins to CPU 8-pins adapter                 |                 | _€_1.59 | 0.84%    |
 | - dual-PSU ATX/SATA router with 0/1 switch         |                 | _€_2.15 | 1.34%    |
 | - 2 x fans 4-pin 92mm H:25mm + 2x Y 4-pin cables   |                 | _€10.34 | 5.45%    |
@@ -140,8 +141,8 @@ The Bill of Materials (BoM) below details all components purchased on the consum
 | - Wi-Fi USB RTL8188 300Mb/s                        |                 | _€_1.92 | _yes     |
 | Spare material consumed or wasted                  | *warehouse*     | _€_1.42 | 0.75%    |
 |                                                    |                 |         |          |
-|                             | <div align="right">**Total**</div>  |**€189.56** |**€14.98**|
-|                        | <div align="right">w/ *optionals*</div>  |**€204.54** | +7.9%    |
+|                             | <div align="right">**Total**</div>  |**€191.16** |**€14.98**|
+|                        | <div align="right">w/ *optionals*</div>  |**€206.14** | +7.9%    |
 
 The following table lists consumables and materials used or wasted in production. The "pack" column represents the MOQ (Minimum Order Quantity), while "paid" reflects the last purchase price, including shipping. Gains or losses on excess stock should be accounted for separately under financial accounting or warehouse costs, and only a proportional percentage of material value should be allocated to the unit cost.
 
