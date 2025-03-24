@@ -462,7 +462,7 @@ Unfortunately the timings picture is darker than above presented because BIOS st
 **# Function definitions**
 
 rb() { rl reboot; read -p "press ENTER when the fan ramps down-up"; date +%s.%N; }<br>
-wt() { time ping -i 0.1 10.10.10.2 -w 60 | sed -ne "/time=/ s,.*,&,p;q"; }<br>
+wt() { time ping -i 0.1 10.10.10.2 -w 60 | sed -ne "/time=/ s,.&ast;,&,p;q"; }<br>
 ex() { wt 2>&1 | grep real; date +%s.%N; rl exit; date +%s.%N; }<br>
 sp() { sleep 20; date +%s.%N; }<br>
 
@@ -531,6 +531,42 @@ Especially because the Nvidia Tesla K80 was designed for the workstation and dat
 Despite this, and despite not being the only 4GB+ PCIe 3.0 device on the market at that time, seven years - let me underline this number saying 2500+ days - have passed away without someone addressing this limitation which is not even publicised into the product specifications. We have to discover it by ourselves!
 
 Are we sharing the same feeling about putting an end to the BIOS-as-FW paradigm?
+
+++++++
+
+## Too many unknowns to face
+
+Five days after the last update of this page, I decided to give a chance to another workstation. Today, two weeks after the last update, I received the order which I have to assemble and it is the starter-pack for a brand new chapter of this voyage.
+
+The HP Z440 is certified for Tesla K40 but not for the K80. Despite being very similar, the K80 requires more power and more air-flow. Some workstation HP Z440 come with a 700W PSU which is enough for the K80 and thus it remains to provide a more suitable air-cooling system. Certification, implies that the card can be installed and configured without any modding, instead.
+
+| Part description                                   | e-market        | paid(€) | optional |
+| ---------------------------------------------------|-----------------|---------|----------|
+| Nvidia Tesla K80, 24GB                             | amazon.it       | _€89.00 |          |
+| HP Z440, E5-1620v4 @3.5GHz, 32GB @68GB/s DDR4      | amso.eu         | €133.19 |          |
+| - Nvidia Quadro 600 (included)                     |                 |         |          |
+| - DVI to VGA adapter                               |                 | _€_1.00 | _yes     |
+| - SSD Micron 2200s da 256 GB NVMe PCIe 2280 M.2    |                 | _€14.90 | _yes     |
+| Adapter NVMe PCIe 2280 M.2 to SATA3                | (to buy, yet)   |         | _yes     |
+| - GPU card gyroscopic support                      |                 | _€_1.60 |          |
+| - 2 x fans 4-pin 120mm H:25mm + 2x Y 4-pin cables  |                 | _€12.16 |          |
+| - USB-serial + USB2 cable + USB3 5Gps cable        |                 | _€_6.60 | _yes     |
+| - Wi-Fi USB RTL8188 300Mb/s                        |                 | _€_1.92 | _yes     |
+|                                                    |                 |         |          |
+|                             | <div align="right">**Total**</div>  |**€---.--** |**--.--** |
+|                        | <div align="right">w/ *optionals*</div>  |**€260.37** | +-.-%    |
+
+This workstations switch brings a lot of good news. The HP Z440 has 2x more RAM and much faster DDR3 vs DDR$ plus 1 dual channels vs 2 x quad channels. The RAM bandwidth is a game changer in terms of the whole system performance and the HP is expected to be 8x faster. Both CPUs are 4 cores, but the HP's one scores +60% better in benchmarks even if it has near 2x TDP: 140W vs 77W. Not a problem for the PSU but the cooling system which should be improved.
+
+----
+
+### A lot of stuff from the pack
+
+Finally, included in the price there was an entry level graphic card from Nvidia with a 40W TDP. Which is a reasonable starting point for testing the Fujitsu capabilities in terms of AI workload. Let me clarify, that the Quadro 600 has only 96 CUDA cores. However, it fits with the graphic card certified for the P910 E85+.
+
+While the 256GB NVMe is a bet because it is used and I hope "not too much" when I will check with smart-tools. For being installed into the HPZ440, it requires an adapter which is reasonable cheap but it would be sacrificed on a SATA3 bus because is supposed to W/R at 1000 MB/s, hence is more likely a Netac US9 256GB at an half of its price once gave it an enclosure to use it as an USB 3.2 external drive.
+
+In fact, I have another 256GB SSD NVMe with its own enclosure but it is not so fast. So, I will switch them and put the slower on SATA3. Hopefully, another little toy to play with, However, the most amusing achievement would be obtaining a 2x more powerful system, working with the K80 for just €60 (+25%) more in the budget. After all, the P910 E85+ was not a viable solution because of the paramount amount of work required, even if the 4GB decoding limitation would have been work-arounded.
 
 ++++++
 
