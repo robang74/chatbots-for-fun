@@ -556,7 +556,7 @@ The HP Z440 is certified for Tesla K40 but not for the K80. Despite being very s
 |                             | <div align="right">**Total**</div>  |**€---.--** |**--.--** |
 |                        | <div align="right">w/ *optionals*</div>  |**€260.37** | +-.-%    |
 
-This workstations switch brings a lot of good news. The HP Z440 has 2x more RAM and much faster DDR3 vs DDR$ plus 1 dual channels vs 2 x quad channels. The RAM bandwidth is a game changer in terms of the whole system performance and the HP is expected to be 8x faster. Both CPUs are 4 cores, but the HP's one scores +60% better in benchmarks even if it has near 2x TDP: 140W vs 77W. Not a problem for the PSU but the cooling system which should be improved.
+This workstation switch brings a lot of good news. The HP Z440 has 2x more RAM and much faster DDR3 vs DDR$ plus 1 dual channels vs 2 x quad channels. The RAM bandwidth is a game changer in terms of the whole system performance and the HP is expected to be 3x faster (also considering the latencies as major bottleneck for real-case usage instead of massive data transfer). Both CPUs are 4 cores, but the HP's one scores +60% better in benchmarks even if it has near 2x TDP: 140W vs 77W. Not a problem for the PSU but the cooling system which should be improved.
 
 ----
 
@@ -566,7 +566,7 @@ Finally, included in the price there was an entry level graphic card from Nvidia
 
 While the 256GB NVMe is a bet because it is used and I hope "not too much" when I will check with smart-tools. For being installed into the HPZ440, it requires an adapter which is reasonable cheap but it would be sacrificed on a SATA3 bus because is supposed to W/R at 1000 MB/s, hence is more likely a Netac US9 256GB at an half of its price once gave it an enclosure to use it as an USB 3.2 external drive.
 
-In fact, I have another 256GB SSD NVMe with its own enclosure but it is not so fast. So, I will switch them and put the slower on SATA3. Hopefully, another little toy to play with, However, the most amusing achievement would be obtaining a 2x more powerful system, working with the K80 for just €60 (+25%) more in the budget. After all, the P910 E85+ was not a viable solution because of the paramount amount of work required, even if the 4GB decoding limitation would have been work-arounded.
+In fact, I have another 256GB SSD NVMe with its own enclosure but it is not so fast. So, I will switch them and put the slower on SATA3. Hopefully, another little gadget to play with, However, the most amusing achievement would be obtaining a 2x more powerful system, working with the K80 for just €60 (+25%) more in the budget. After all, the P910 E85+ was not a viable solution because of the paramount amount of work required, even if the 4GB decoding limitation would have been work-arounded.
 
 ++++++
 
