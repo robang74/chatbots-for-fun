@@ -538,8 +538,6 @@ Are we sharing the same feeling about putting an end to the BIOS-as-FW paradigm?
 
 Five days after the last update of this page, I decided to give a chance to another workstation. Today, two weeks after the last update, I received the order which I have to assemble and it is the starter-pack for a brand new chapter of this voyage.
 
-The HP Z440 is certified for Tesla K40 but not for the K80. Despite being very similar, the K80 requires more power and more air-flow. Some workstation HP Z440 come with a 700W PSU which is enough for the K80 and thus it remains to provide a more suitable air-cooling system. Certification, implies that the card can be installed and configured without any modding, instead.
-
 | Part description                                   | e-market        | paid(€) | optional |
 | ---------------------------------------------------|-----------------|---------|----------|
 | Nvidia Tesla K80, 24GB                             | amazon.it       | _€89.00 |          |
@@ -556,7 +554,15 @@ The HP Z440 is certified for Tesla K40 but not for the K80. Despite being very s
 |                             | <div align="right">**Total**</div>  |**€---.--** |**--.--** |
 |                        | <div align="right">w/ *optionals*</div>  |**€260.37** | +-.-%    |
 
-This workstation switch brings a lot of good news. The HP Z440 has 2x more RAM and much faster DDR3 vs DDR$ plus 1 dual channels vs 2 x quad channels. The RAM bandwidth is a game changer in terms of the whole system performance and the HP is expected to be 3x faster (also considering the latencies as major bottleneck for real-case usage instead of massive data transfer). Both CPUs are 4 cores, but the HP's one scores +60% better in benchmarks even if it has near 2x TDP: 140W vs 77W. Not a problem for the PSU but the cooling system which should be improved.
+The HP Z440 is certified for Tesla K40 but not for the K80. Despite being very similar, the K80 requires more power and more air-flow. Some workstation HP Z440 come with a 700W PSU which is enough for the K80 and thus it remains to provide a more suitable air-cooling system. Certification, implies that the card can be installed and configured without any modding, instead.
+
+---
+
+### All the juice to squeeze
+
+This workstation switch brings a lot of good news. The HP Z440 has 2x more RAM and much faster DDR3 vs DDR$ plus 1 dual channels vs 2 x quad channels. The RAM bandwidth is a game changer in terms of the whole system performance and the HP is expected to be 3x faster. Possibly 4x, also considering the latencies as major bottleneck for real-case usage instead of massive data transfer.
+
+Both CPUs are 4 cores, but the HP's one scores +60% better in benchmarks even if it has near 2x TDP: 140W vs 77W. Not a problem for the PSU but the cooling system which should be improved. However, while the P910 CPU was designed for desktops, the Z440's one is designed for servers. Therefore my first estimation of squeezing a 8x more in performance for AI workloads in combination with Tesla K80, does not sound so absurd [to Grok3](https://x.com/i/grok/share/Iz2rJO8X6fEaxVyskNZSQOqYl), after all.
 
 ----
 
