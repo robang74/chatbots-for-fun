@@ -542,17 +542,15 @@ Five days after the last update of this page, I decided to give a chance to anot
 | ---------------------------------------------------|-----------------|---------|----------|
 | Nvidia Tesla K80, 24GB                             | amazon.it       | _€89.00 |          |
 | HP Z440, E5-1620v4 @3.5GHz, 32GB @68GB/s DDR4      | amso.eu         | €133.19 |          |
-| - Nvidia Quadro 600 (included)                     |                 |         |          |
+| - Nvidia Quadro 600                                |                 | included|          |
 | - DVI to VGA adapter                               |                 | _€_1.00 | _yes     |
-| - SSD Micron 2200s da 256 GB NVMe PCIe 2280 M.2    |                 | _€14.90 | _yes     |
-| Adapter NVMe PCIe 2280 M.2 to SATA3                | (to buy, yet)   |         | _yes     |
-| - GPU card gyroscopic support                      |                 | _€_1.60 |          |
-| - 2 x fans 4-pin 120mm H:25mm + 2x Y 4-pin cables  |                 | _€12.16 |          |
-| - USB-serial + USB2 cable + USB3 5Gps cable        |                 | _€_6.60 | _yes     |
+| - SSD Micron 2200s da 256 GB NVMe PCIe 2280 M.2    |                 | _€14.90 |          |
+| Adapter NVMe PCIe 2280 M.2 to SATA3 w/heatsink     | aliexpres.it    | _€_4.99 |          |
+| - GPU card gyroscopic support                      |                 | _€_1.60 | _yes     |
 | - Wi-Fi USB RTL8188 300Mb/s                        |                 | _€_1.92 | _yes     |
 |                                                    |                 |         |          |
-|                             | <div align="right">**Total**</div>  |**€---.--** |**--.--** |
-|                        | <div align="right">w/ *optionals*</div>  |**€260.37** | +-.-%    |
+|                             | <div align="right">**Total**</div>  |**€242.37** |**€4.52** |
+|                        | <div align="right">w/ *optionals*</div>  |**€246.60** | +1.87%   |
 
 The HP Z440 is certified for Tesla K40 but not for the K80. Despite being very similar, the K80 requires more power and more air-flow. Some workstation HP Z440 come with a 700W PSU which is enough for the K80 and thus it remains to provide a more suitable air-cooling system. Certification, implies that the card can be installed and configured without any modding, instead.
 
@@ -562,7 +560,7 @@ The HP Z440 is certified for Tesla K40 but not for the K80. Despite being very s
 
 This workstation switch brings a lot of good news. The HP Z440 has 2x more RAM and much faster DDR3 vs DDR$ plus 1 dual channels vs 2 x quad channels. The RAM bandwidth is a game changer in terms of the whole system performance and the HP is expected to be 3x faster. Possibly 4x, also considering the latencies as major bottleneck for real-case usage instead of massive data transfer.
 
-Both CPUs are 4 cores, but the HP's one scores +60% better in benchmarks even if it has near 2x TDP: 140W vs 77W. Not a problem for the PSU but the cooling system which should be improved. However, while the P910 CPU was designed for desktops, the Z440's one is designed for servers. Therefore my first estimation of squeezing a 8x more in performance for AI workloads in combination with Tesla K80, does not sound so absurd [to Grok3](https://x.com/i/grok/share/Iz2rJO8X6fEaxVyskNZSQOqYl), after all.
+Both CPUs are 4 cores, but the HP's one has 8 threads and scores +60% better in benchmarks even if it has near 2x TDP: 140W vs 77W. Not a problem for the PSU but the cooling system which should be improved. However, while the P910 CPU was designed for desktops, the Z440's one is designed for servers. Therefore my first estimation of squeezing a 8x more in performance for AI workloads in combination with Tesla K80, does not sound so absurd [to Grok3](https://x.com/i/grok/share/Iz2rJO8X6fEaxVyskNZSQOqYl), after all.
 
 ----
 
@@ -572,7 +570,7 @@ Finally, included in the price there was an entry level graphic card from Nvidia
 
 While the 256GB NVMe is a bet because it is used and I hope "not too much" when I will check with smart-tools. For being installed into the HPZ440, it requires an adapter which is reasonable cheap but it would be sacrificed on a SATA3 bus because is supposed to W/R at 1000 MB/s, hence is more likely a Netac US9 256GB at an half of its price once gave it an enclosure to use it as an USB 3.2 external drive.
 
-In fact, I have another 256GB SSD NVMe with its own enclosure but it is not so fast. So, I will switch them and put the slower on SATA3. Hopefully, another little gadget to play with, However, the most amusing achievement would be obtaining a 2x more powerful system, working with the K80 for just €60 (+25%) more in the budget. After all, the P910 E85+ was not a viable solution because of the paramount amount of work required, even if the 4GB decoding limitation would have been work-arounded.
+In fact, I have another 256GB SSD NVMe with its own enclosure but it is not so fast. So, I will switch them and put the slower on SATA3. Hopefully, another little gadget to play with, However, the most amusing achievement would be obtaining a 2x more powerful system, working with the K80 for just €40 (+20%) more in the budget. After all, the P910 E85+ was not a viable solution because of the paramount amount of work required, even if the 4GB decoding limitation would have been work-arounded.
 
 ++++++
 
