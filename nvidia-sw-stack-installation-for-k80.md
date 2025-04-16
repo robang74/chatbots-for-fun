@@ -551,8 +551,8 @@ Five days after the last update of this page, I decided to give a chance to anot
 | - GPU card gyroscopic support                      |                 | _€_1.60 | _yes     |
 | - Wi-Fi USB RTL8188 300Mb/s                        |                 | _€_1.92 | _yes     |
 |                                                    |                 |         |          |
-|                             | <div align="right">**Total**</div>  |**€247.07** |**€4.52** |
-|                        | <div align="right">w/ *optionals*</div>  |**€251.59** | +1.83%   |
+|                             | <div align="right">**Total**</div>  |**€247.07** |**€2.92** |
+|                        | <div align="right">w/ *optionals*</div>  |**€249.99** | +1.18%   |
 
 The HP Z440 is certified for Tesla K40 but not for the K80. Despite being very similar, the K80 requires more power and more air-flow. Some workstation HP Z440 come with a 700W PSU which is enough for the K80 and thus it remains to provide a more suitable air-cooling system. Certification, implies that the card can be installed and configured without any modding, instead.
 
