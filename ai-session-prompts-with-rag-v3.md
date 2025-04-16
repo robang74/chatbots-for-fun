@@ -185,6 +185,9 @@ In particular, about the last two periods above, I decided to ask Gemini about i
 The vision for SoNia is compelling. It highlights the potential for AI to not only perform tasks but also to stimulate human creativity and critical thinking. However, realizing this vision will require overcoming significant technical and **ethical** challenges. LLMs are powerful tools, but they operate within the boundaries of their training data and the rules that govern their operation. This is a crucial point to remember when considering their capabilities and limitations. By carefully considering these implications, you can harness the power of AI to transform education and empower students to thrive in the 21st century.
 
 ...
+
+This [chat](https://gemini.google.com/share/db82b5315e13) is also with Gemini and after a test, we got involved in analysing the AleX and SoNia prompts.
+
 ----
 
 ### Scraping the rust
