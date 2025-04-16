@@ -138,7 +138,7 @@ The Bill of Materials (BoM) below details all components purchased on the consum
 | - 2 x fans 4-pin 92mm H:25mm + 2x Y 4-pin cables   |                 | _€10.34 | 5.45%    |
 | - USB-serial + USB2 cable + USB3 5Gps cable        |                 | _€_6.60 | _yes     |
 | - Power cable C14F w/ C13M down angle              |                 | _€_4.61 | _yes     |
-| - Wi-Fi USB RTL8188 300Mb/s                        |                 | _€_1.92 | _yes     |
+| - Wi-Fi USB RTL8188 150Mb/s (Rasberry Pi comp.)    |                 | _€_1.92 | _yes     |
 | Spare material consumed or wasted                  | *warehouse*     | _€_1.42 | 0.75%    |
 |                                                    |                 |         |          |
 |                             | <div align="right">**Total**</div>  |**€191.16** |**€14.98**|
