@@ -63,7 +63,7 @@ A grouped by topic and others articles are listed here below.
 
    - 2025-02-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-comparison-table-for-education.md)] - [Comparative analysis for educational](grok3-comparison-table-for-education.md) by Grok3
 
-   - 2025-02-18 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/nvidia-sw-stack-installation-for-k80.md)] - [Nvidia Tesla K80 SW stack installation](nvidia-sw-stack-installation-for-k80.md) (**`WIP!`**)
+   - 2025-02-18 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/nvidia-sw-stack-installation-for-k80.md)] - [Nvidia Tesla K80 SW stack installation](nvidia-sw-stack-installation-for-k80.md) &nbsp; (2nd edt.)
 
    - 2025-02-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-k80-ubuntu-early-configuration.md)] - [Ubuntu early configuration for P910 with K80](p910-k80-ubuntu-early-configuration.md) &nbsp; (3rd edt.)
 
