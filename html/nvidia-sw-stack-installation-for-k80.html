@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-02-18&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>48</b rev_num='
+'>49</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -389,14 +389,6 @@ Can just be enough having two cores for AI inference? Well, not very much but at
 This would solve also the problem of running a GUI or installing user-land software on a highly customised server or into the virtual machine. Delegating to the laptop all the stuff that it can better deal with. Which is like having a laptop that query by API a remote AI server but both are located in your house/office. Despite Wi-Fi being intrinsically insecure as media for a network, a VPN which supports a strong cryptography (aka SSH tunnel) can be configured for AI-server WS-laptop communications.
 <p></p>
 <br>
-<br><hr><br>
-<p></p>
-<div class='center'>
-<H2 id="work-in-progress">WORK IN PROGRESS</H2>
-</div>
-<p></p>
-<br><hr><br>
-<div class="pagebreak"><br></div>
 <p></p>
 <H2 id="about-the-acpi-warnings">About the ACPI warnings</H2>
 <p></p>
@@ -547,7 +539,7 @@ Despite this, and despite not being the only 4GB+ PCIe 3.0 device on the market 
 <p></p>
 Are we sharing the same feeling about putting an end to the BIOS-as-FW paradigm?
 <p></p>
-<div class="pagebreak"><br></div>
+<br>
 <p></p>
 <H2 id="too-many-unknowns-to-face">Too many unknowns to face</H2>
 <p></p>
@@ -564,7 +556,7 @@ Five days after the last update of this page, I decided to give a chance to anot
 <tr><td class='td1stcol'> - 2x PCIe 6-pin to PCIe 8-pin power cable </td><td></td><td> &nbsp;€&nbsp;1.89 </td><td></td></tr>
 <tr><td class='td1stcol'> - dual PCIe 8-pin to ESP-12V CPU 8-pin 18AWG cable </td><td></td><td> &nbsp;€&nbsp;2.81 </td><td></td></tr>
 <tr><td class='td1stcol'> - GPU card gyroscopic support </td><td></td><td> &nbsp;€&nbsp;1.60 </td><td> &nbsp;yes </td></tr>
-<tr><td class='td1stcol'> - Wi-Fi USB RTL8188 300Mb/s </td><td></td><td> &nbsp;€&nbsp;1.92 </td><td> &nbsp;yes </td></tr>
+<tr><td class='td1stcol'> - Wi-Fi USB RTL8188 150Mb/s (Rasberry Pi comp.) </td><td></td><td> &nbsp;€&nbsp;1.92 </td><td> &nbsp;yes </td></tr>
 <tr class='trline'><td></td><td></td><td></td><td></td></tr>
 <tr><td class='td1stcol'></td><td> <div align="right"><b>Total</b></div> </td><td><b>€247.07</b> </td><td><b>€2.92</b> </td></tr>
 <tr><td class='td1stcol'></td><td> <div align="right">w/ <i>optionals</i></div> </td><td><b>€249.99</b> </td><td> +1.18% </td></tr>
@@ -580,7 +572,7 @@ This workstation switch brings a lot of good news. The HP Z440 has 2x more RAM a
 <p></p>
 Both CPUs are 4 cores, but the HP's one has 8 threads and scores +60% better in benchmarks even if it has near 2x TDP: 140W vs 77W. Not a problem for the PSU but the cooling system which should be improved. However, while the P910 CPU was designed for desktops, the Z440's one is designed for servers. Therefore my first estimation of squeezing a 8x more in performance for AI workloads in combination with Tesla K80, does not sound so absurd <a href="https://x.com/i/grok/share/Iz2rJO8X6fEaxVyskNZSQOqYl" target='_blank' rel='noopener noreferrer'>to Grok3</a>, after all.
 <p></p>
-<div class="pagebreak"><hr></div>
+<hr>
 <p></p>
 <H3 id="a-lot-of-stuff-from-the-pack">A lot of stuff from the pack</H3>
 <p></p>
@@ -590,7 +582,68 @@ While the 256GB NVMe is a bet because it is used and I hope "not too much" when 
 <p></p>
 In fact, I have another 256GB SSD NVMe with its own enclosure but it is not so fast. So, I will switch them and put the slower on SATA3. Hopefully, another little gadget to play with, However, the most amusing achievement would be obtaining a 2x more powerful system, working with the K80 for just €50 (+25%) more in the budget. After all, the P910 E85+ was not a viable solution because of the paramount amount of work required, even if the 4GB decoding limitation would have been work-arounded.
 <p></p>
-<div class="pagebreak"><br></div>
+<hr>
+<p></p>
+<H3 id="quick-installation-and-test">Quick installation and test</H3>
+<p></p>
+<li class='numli'><b>0.&emsp;</b>update the system packages database:</li>
+<p></p>
+<li class='li2in'><tt>add-apt-repository ppa:apt-fast/stable && apt -y install apt-fast</tt></li>
+<li class='li3in'>select apt as default .deb manager for apt-fast</li>
+<li class='li2in'><tt>apt-fast -y update</tt></li>
+<p></p>
+<li class='numli'><b>1.&emsp;</b>install the SSH server to access from remote, and configure it with X forwarding:</li>
+<p></p>
+<li class='li2in'><tt>apt-fast -y install openssh-ser&ast;</tt></li>
+<p></p>
+<li class='numli'><b>2.&emsp;</b>configure the kernel arguments in <tt>/etc/default/grub</tt>:</li>
+<p></p>
+<li class='li2in'>kmap=it intel_iommu=on iommu=pt nvidia_modeset=0</li>
+<p></p>
+<li class='li3in'><tt>update-grub</tt></li>
+<p></p>
+<li class='numli'><b>3.&emsp;</b>install basic tools:</li>
+<p></p>
+<li class='li2in'><tt>apt-fast -y install synaptic htop btop iotop net-tools sensors</tt></li>
+<li class='li2in'><tt>apt-fast -y install lm-sensors fancontrol read-edid i2c-tools</tt></li>
+<p></p>
+<li class='numli'><b>4.&emsp;</b>take note of the current kernel and install the last kernel for nvidia and lowlatency:</li>
+<p></p>
+<li class='li2in'><tt>uname -ar >/root/kernel.txt</tt></li>
+<li class='li2in'><tt>apt-fast install --install-suggests -y linux-nvidia-hwe-22.04 linux-lowlatency-hwe-22.04</tt></li>
+<li class='li2in'><tt>for i in snapd-desktop-integration snap-store gtk-common-themes; do snap remove $i done</tt></li>
+<li class='li2in'><tt>for i in gnome-42-2204 firefox; core22 bare snapd; do snap remove $i; done</tt></li>
+<li class='li2in'><tt>apt -y purge snapd cups&ast; nvidia-&ast; && apt -y autoremove</tt></li>
+<li class='li2in'><tt>reboot</tt> (boot in nvidia kernel 6.8.x)</li>
+<p></p>
+<li class='numli'><b>5.&emsp;</b>remove the generic kernel (optional, but faster in the following):</li>
+<p></p>
+<li class='li2in'><tt>apt purge -y linux-generic-hwe-22.04 && apt -y autoremove</tt></li>
+<p></p>
+<li class='numli'><b>6.&emsp;</b>upgrade the system keeping the current release version, and install some essential stuff:</li>
+<p></p>
+<li class='li2in'><tt>apt-fast -y upgrade</tt></li>
+<li class='li2in'><tt>apt-fast install -y build-essential netsurf-gtk gpustat smartmontools libfuse2</tt></li>
+<p></p>
+<li class='numli'><b>7.&emsp;</b>download and install the nvidia drivers 470 and the runtime CUDA 11 libraries:</li>
+<p></p>
+<li class='li2in'><tt>apt-fast -y install nvidia-driver-470-server libcudart11&ast;</tt></li>
+<li class='li2in'><tt>apt-fast -y install vulkan-tools vulkan-validation&ast;</tt></li>
+<li class='li2in'><tt>nvidia-smi -pm 1; nvidia-smi -pl 100; nvidia-smi</tt></li>
+<p></p>
+<li class='numli'><b>8.&emsp;</b>configure the system to not enter in graphical mode, reduce the Tesla K80 TDP and reboot:</li>
+<p></p>
+<li class='li2in'><tt>printf '#!/bin/sh\n/usr/bin/nvidia-smi -pm 1\n' >/etc/rc.local</tt></li>
+<li class='li2in'><tt>printf '/usr/bin/nvidia-smi -pl 100 \n' >>>/etc/rc.local</tt></li>
+<li class='li2in'><tt>chmod a+x /etc/rc.local; systemctl set-default multi-user.target; reboot</tt></li>
+<p></p>
+<li class='numli'><b>9.&emsp;</b>download and start the LM Studio with or without sandbox (check for the best result):</li>
+<p></p>
+<li class='li2in'><tt>wget https://installers.lmstudio.ai/linux/x64/0.3.14-5/LM-Studio-0.3.14-5-x64.AppImage</tt></li>
+<li class='li2in'><tt>chmod a+x LM-Studio-0.3.14-5-x64.AppImage</tt></li>
+<li class='li2in'><tt>./LM-Studio-0.3.14-5-x64.AppImage --no-sandbox</tt></li>
+<p></p>
+<br>
 <p></p>
 <H2 id="pcie-30-gpu-cards">PCIe 3.0 GPU cards</H2>
 <p></p>
@@ -638,9 +691,6 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 <tr><td class='td1stcol'> Tesla T4/G </td><td> Turing </td><td> TU104 </td><td> 7.5 </td><td> 2560 </td><td> 16GB GDDR6 </td><td></td><td> 75 W </td><td></td><td> 1x </td></tr>
 <tr><td class='td1stcol'> CMP 50HX </td><td> Turing </td><td> TU102 </td><td> 7.5 </td><td> 3584 </td><td> 10GB GDDR6 </td><td></td><td> 250W </td><td> 2x8p </td><td></td></tr>
 <tr><td class='td1stcol'> RTX 2080 Ti </td><td> Turing </td><td> TU102 </td><td> 7.5 </td><td> 4352 </td><td> 11GB GDDR6 </td><td> PC </td><td> 250W </td><td> 6+8p </td><td></td></tr>
-<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class='td1stcol'> <b>model</b> </td><td><b>arch.</b></td><td><b>GPU</b></td><td><b>CUDA</b></td><td><b>cores</b></td><td><b>RAM</b></td><td><b>use</b></td><td><b>W-max</b></td><td><b>alim.</b></td><td><b>size</b></td></tr>
-<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td class='td1stcol'> RTX 2080 Ti 12 GB </td><td> Turing </td><td> TU102 </td><td> 7.5 </td><td> 4608 </td><td> 12GB GDDR6 </td><td> PC </td><td> 260W </td><td> 6+8p </td><td></td></tr>
 <tr><td class='td1stcol'> Tesla T10 16 GB </td><td> Turing </td><td> TU102 </td><td> 7.5 </td><td> 3072 </td><td> 16GB GDDR6 </td><td></td><td> 150W </td><td> 1x8p </td><td></td></tr>
 <tr><td class='td1stcol'> Tesla T40 24 GB </td><td> Turing </td><td> TU102 </td><td> 7.5 </td><td> 4608 </td><td> 24GB GDDR6 </td><td></td><td> 260W </td><td> 6+8p </td><td></td></tr>
@@ -654,6 +704,9 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 <tr><td class='td1stcol'> Quadro GP100 </td><td> Pascal </td><td> GP100 </td><td> 6.0 </td><td> 3584 </td><td> 16GB HBM2 </td><td> PC </td><td> 235W </td><td> 8p </td><td></td></tr>
 <tr><td class='td1stcol'> Tesla P100 </td><td> Pascal </td><td> GP100 </td><td> 6.0 </td><td> 3584 </td><td> 12GB HBM2 </td><td></td><td> 250W </td><td> 8p </td><td></td></tr>
 <tr><td class='td1stcol'> Tesla P100 16GB </td><td> Pascal </td><td> GP100 </td><td> 6.0 </td><td> 3584 </td><td> 16GB HBM2 </td><td></td><td> 250W </td><td> 8p </td><td></td></tr>
+<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td class='td1stcol'> <b>model</b> </td><td><b>arch.</b></td><td><b>GPU</b></td><td><b>CUDA</b></td><td><b>cores</b></td><td><b>RAM</b></td><td><b>use</b></td><td><b>W-max</b></td><td><b>alim.</b></td><td><b>size</b></td></tr>
+<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td class='td1stcol'> Tesla P40 </td><td> Pascal </td><td> GP102 </td><td> 6.1 </td><td> 3840 </td><td> 24GB GDDR5 </td><td></td><td> 250W </td><td> 8p </td><td></td></tr>
 <tr><td class='td1stcol'> GTX 1060 </td><td> Pascal </td><td> GP106 </td><td> 6.1 </td><td> 1280 </td><td> 8 GB GDDR5 </td><td> PC </td><td> 120W </td><td> 6p </td><td></td></tr>
 <tr><td class='td1stcol'> GTX 1070 </td><td> Pascal </td><td> GP104 </td><td> 6.1 </td><td> 1920 </td><td> 8 GB GDDR5 </td><td> PC </td><td> 150W </td><td> 8p </td><td></td></tr>
@@ -674,9 +727,6 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 <tr><td class='td1stcol'> Tesla K80 </td><td> Kepler </td><td> 2x GK210 </td><td> 3.7 </td><td> 2x 2496 </td><td> 2x 12GB GDDR5 </td><td></td><td> 300W </td><td> 8p </td><td></td></tr>
 <tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td class='td1stcol'> Tesla K40c </td><td> Kepler </td><td> GK180 </td><td> 3.5 </td><td> 2880 </td><td> 12GB GDDR5 </td><td></td><td> 245W </td><td> 6+8p </td><td></td></tr>
-<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td class='td1stcol'> <b>model</b> </td><td><b>arch.</b></td><td><b>GPU</b></td><td><b>CUDA</b></td><td><b>cores</b></td><td><b>RAM</b></td><td><b>use</b></td><td><b>W-max</b></td><td><b>alim.</b></td><td><b>size</b></td></tr>
-<tr class='trline'><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td class='td1stcol'> Quadro K6000 SDI </td><td> Kepler </td><td> GK110 </td><td> 3.5 </td><td> 2880 </td><td> 12GB GDDR5 </td><td> PC </td><td> 225W </td><td> 2x6p </td><td></td></tr>
 <tr><td class='td1stcol'> GTX Titan </td><td> Kepler </td><td> GK110 </td><td> 3.5 </td><td> 2688 </td><td> 6 GB GDDR5 </td><td> PC </td><td> 250W </td><td> 6+8p </td><td></td></tr>
 <tr><td class='td1stcol'> Tesla K20X/Xm </td><td> Kepler </td><td> GK110 </td><td> 3.5 </td><td> 2668 </td><td> 6 GB GDDR5 </td><td></td><td> 235W </td><td> 6+8p </td><td></td></tr>
@@ -685,19 +735,9 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 </div><p></p>
 The CUDA support for compute capability 3.5 can be obtained via third party support for PyTorch, also.
 <p></p>
-<H4>Data sources</H4>
+<b>Data sources</b>: <a href="https://www.techpowerup.com/gpu-specs" target='_blank' rel='noopener noreferrer'>www.techpowerup.com</a> and <a href="https://developer.nvidia.com/cuda-gpus" target='_blank' rel='noopener noreferrer'>developer.nvidia.com</a>.
 <p></p>
-<li><a href="https://www.techpowerup.com/gpu-specs" target='_blank' rel='noopener noreferrer'>www.techpowerup.com</a></li>
-<li><a href="https://developer.nvidia.com/cuda-gpus" target='_blank' rel='noopener noreferrer'>developer.nvidia.com</a></li>
-<p></p>
-<br>
-<p></p>
-<H2 id="external-resources">External resources</H2>
-<p></p>
-<li><a href="https://blog.nelsonliu.me/2020/10/13/newer-pytorch-binaries-for-older-gpus" target='_blank' rel='noopener noreferrer'>Newer PyTorch Binaries for Older GPUs</a> (October 13, 2020)</li>
-<li class='li2in'><a href="https://github.com/nelson-liu/pytorch-manylinux-binaries/releases" target='_blank' rel='noopener noreferrer'>Nvidia K40 GPUs PyTorch v1.13.1</a></li>
-<p></p>
-<li><a href="https://www.techpowerup.com/vgabios" target='_blank' rel='noopener noreferrer'>techpowerup vgabios</a></li>
+<b>Interesting links</b>: <a href="https://blog.nelsonliu.me/2020/10/13/newer-pytorch-binaries-for-older-gpus" target='_blank' rel='noopener noreferrer'>PyTorch for old GPUs</a>, <a href="https://github.com/nelson-liu/pytorch-manylinux-binaries/releases" target='_blank' rel='noopener noreferrer'>PyTorch v1.13.1 for K40</a> and <a href="https://www.techpowerup.com/vgabios" target='_blank' rel='noopener noreferrer'>TechPowerUp VgaBios</a>.
 <p></p>
 <br>
 <p></p>

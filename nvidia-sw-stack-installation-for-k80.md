@@ -372,14 +372,6 @@ Can just be enough having two cores for AI inference? Well, not very much but at
 This would solve also the problem of running a GUI or installing user-land software on a highly customised server or into the virtual machine. Delegating to the laptop all the stuff that it can better deal with. Which is like having a laptop that query by API a remote AI server but both are located in your house/office. Despite Wi-Fi being intrinsically insecure as media for a network, a VPN which supports a strong cryptography (aka SSH tunnel) can be configured for AI-server WS-laptop communications.
 
 +
-===
-
-|x|>
-## WORK IN PROGRESS
-<|x|
-
-===
-++++++
 
 ## About the ACPI warnings
 
@@ -532,7 +524,7 @@ Despite this, and despite not being the only 4GB+ PCIe 3.0 device on the market 
 
 Are we sharing the same feeling about putting an end to the BIOS-as-FW paradigm?
 
-++++++
++
 
 ## Too many unknowns to face
 
@@ -549,7 +541,7 @@ Five days after the last update of this page, I decided to give a chance to anot
 | - 2x PCIe 6-pin to PCIe 8-pin power cable          |                 | _€_1.89 |          |
 | - dual PCIe 8-pin to ESP-12V CPU 8-pin 18AWG cable |                 | _€_2.81 |          |
 | - GPU card gyroscopic support                      |                 | _€_1.60 | _yes     |
-| - Wi-Fi USB RTL8188 300Mb/s                        |                 | _€_1.92 | _yes     |
+| - Wi-Fi USB RTL8188 150Mb/s (Rasberry Pi comp.)    |                 | _€_1.92 | _yes     |
 |                                                    |                 |         |          |
 |                             | <div align="right">**Total**</div>  |**€247.07** |**€2.92** |
 |                        | <div align="right">w/ *optionals*</div>  |**€249.99** | +1.18%   |
@@ -564,7 +556,7 @@ This workstation switch brings a lot of good news. The HP Z440 has 2x more RAM a
 
 Both CPUs are 4 cores, but the HP's one has 8 threads and scores +60% better in benchmarks even if it has near 2x TDP: 140W vs 77W. Not a problem for the PSU but the cooling system which should be improved. However, while the P910 CPU was designed for desktops, the Z440's one is designed for servers. Therefore my first estimation of squeezing a 8x more in performance for AI workloads in combination with Tesla K80, does not sound so absurd [to Grok3](https://x.com/i/grok/share/Iz2rJO8X6fEaxVyskNZSQOqYl), after all.
 
-----
+---
 
 ### A lot of stuff from the pack
 
@@ -574,7 +566,68 @@ While the 256GB NVMe is a bet because it is used and I hope "not too much" when 
 
 In fact, I have another 256GB SSD NVMe with its own enclosure but it is not so fast. So, I will switch them and put the slower on SATA3. Hopefully, another little gadget to play with, However, the most amusing achievement would be obtaining a 2x more powerful system, working with the K80 for just €50 (+25%) more in the budget. After all, the P910 E85+ was not a viable solution because of the paramount amount of work required, even if the 4GB decoding limitation would have been work-arounded.
 
-++++++
+---
+
+### Quick installation and test
+
+0. update the system packages database:
+
+   - `add-apt-repository ppa:apt-fast/stable && apt -y install apt-fast`
+     - select apt as default .deb manager for apt-fast
+   - `apt-fast -y update`
+
+1. install the SSH server to access from remote, and configure it with X forwarding:
+
+   - `apt-fast -y install openssh-ser&ast;`
+
+2. configure the kernel arguments in `/etc/default/grub`:
+
+   - kmap=it intel_iommu=on iommu=pt nvidia_modeset=0
+
+     - `update-grub`
+
+3. install basic tools:
+
+   - `apt-fast -y install synaptic htop btop iotop net-tools sensors`
+   - `apt-fast -y install lm-sensors fancontrol read-edid i2c-tools`
+
+4. take note of the current kernel and install the last kernel for nvidia and lowlatency:
+
+   - `uname -ar >/root/kernel.txt`
+   - `apt-fast install --install-suggests -y linux-nvidia-hwe-22.04 linux-lowlatency-hwe-22.04`
+   - `for i in snapd-desktop-integration snap-store gtk-common-themes; do snap remove $i done`
+   - `for i in gnome-42-2204 firefox; core22 bare snapd; do snap remove $i; done`
+   - `apt -y purge snapd cups&ast; nvidia-&ast; && apt -y autoremove`
+   - `reboot` (boot in nvidia kernel 6.8.x)
+
+5. remove the generic kernel (optional, but faster in the following):
+
+   - `apt purge -y linux-generic-hwe-22.04 && apt -y autoremove`
+
+6. upgrade the system keeping the current release version, and install some essential stuff:
+
+   - `apt-fast -y upgrade`
+   - `apt-fast install -y build-essential netsurf-gtk gpustat smartmontools libfuse2`
+
+7. download and install the nvidia drivers 470 and the runtime CUDA 11 libraries:
+
+   - `apt-fast -y install nvidia-driver-470-server libcudart11&ast;`
+   - `apt-fast -y install vulkan-tools vulkan-validation&ast;`
+   - `nvidia-smi -pm 1; nvidia-smi -pl 100; nvidia-smi`
+
+8. configure the system to not enter in graphical mode, reduce the Tesla K80 TDP and reboot:
+
+   - `printf '#!/bin/sh\n/usr/bin/nvidia-smi -pm 1\n' >/etc/rc.local`
+   - `printf '/usr/bin/nvidia-smi -pl 100 \n' >>>/etc/rc.local`
+   - `chmod a+x /etc/rc.local; systemctl set-default multi-user.target; reboot`
+
+9. download and start the LM Studio with or without sandbox (check for the best result):
+
+   - `wget https://installers.lmstudio.ai/linux/x64/0.3.14-5/LM-Studio-0.3.14-5-x64.AppImage`
+   - `chmod a+x LM-Studio-0.3.14-5-x64.AppImage`
+   - `./LM-Studio-0.3.14-5-x64.AppImage --no-sandbox`
+
++
 
 ## PCIe 3.0 GPU cards
 
@@ -622,9 +675,6 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 | Tesla T4/G        | Turing   | TU104    | 7.5  | 2560    | 16GB GDDR6    |     | 75 W |      | 1x |
 | CMP 50HX          | Turing   | TU102    | 7.5  | 3584    | 10GB GDDR6    |     | 250W | 2x8p |    |
 | RTX 2080 Ti       | Turing   | TU102    | 7.5  | 4352    | 11GB GDDR6    | PC  | 250W | 6+8p |    |
-|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
-| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
-|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | RTX 2080 Ti 12 GB | Turing   | TU102    | 7.5  | 4608    | 12GB GDDR6    | PC  | 260W | 6+8p |    |
 | Tesla T10 16 GB   | Turing   | TU102    | 7.5  | 3072    | 16GB GDDR6    |     | 150W | 1x8p |    |
 | Tesla T40 24 GB   | Turing   | TU102    | 7.5  | 4608    | 24GB GDDR6    |     | 260W | 6+8p |    |
@@ -638,6 +688,9 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 | Quadro GP100      | Pascal   | GP100    | 6.0  | 3584    | 16GB HBM2     | PC  | 235W | 8p   |    |
 | Tesla P100        | Pascal   | GP100    | 6.0  | 3584    | 12GB HBM2     |     | 250W | 8p   |    |
 | Tesla P100 16GB   | Pascal   | GP100    | 6.0  | 3584    | 16GB HBM2     |     | 250W | 8p   |    |
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
+| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | Tesla P40         | Pascal   | GP102    | 6.1  | 3840    | 24GB GDDR5    |     | 250W | 8p   |    |
 | GTX 1060          | Pascal   | GP106    | 6.1  | 1280    | 8 GB GDDR5    | PC  | 120W | 6p   |    |
 | GTX 1070          | Pascal   | GP104    | 6.1  | 1920    | 8 GB GDDR5    | PC  | 150W | 8p   |    |
@@ -658,9 +711,6 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 | Tesla K80         | Kepler   | 2x GK210 | 3.7  | 2x 2496 | 2x 12GB GDDR5 |     | 300W | 8p   |    |
 |                   |          |          |      |         |               |     |      |      |    |
 | Tesla K40c        | Kepler   | GK180    | 3.5  | 2880    | 12GB GDDR5    |     | 245W | 6+8p |    |
-|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
-| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
-|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | Quadro K6000 SDI  | Kepler   | GK110    | 3.5  | 2880    | 12GB GDDR5    | PC  | 225W | 2x6p |    |
 | GTX Titan         | Kepler   | GK110    | 3.5  | 2688    | 6 GB GDDR5    | PC  | 250W | 6+8p |    |
 | Tesla K20X/Xm     | Kepler   | GK110    | 3.5  | 2668    | 6 GB GDDR5    |     | 235W | 6+8p |    |
@@ -668,19 +718,9 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 
 The CUDA support for compute capability 3.5 can be obtained via third party support for PyTorch, also.
 
-#### Data sources
+**Data sources**: [www.techpowerup.com](https://www.techpowerup.com/gpu-specs) and [developer.nvidia.com](https://developer.nvidia.com/cuda-gpus).
 
-- [www.techpowerup.com](https://www.techpowerup.com/gpu-specs)
-- [developer.nvidia.com](https://developer.nvidia.com/cuda-gpus)
-
-+
-
-## External resources
-
-- [Newer PyTorch Binaries for Older GPUs](https://blog.nelsonliu.me/2020/10/13/newer-pytorch-binaries-for-older-gpus) (October 13, 2020)
-  - [Nvidia K40 GPUs PyTorch v1.13.1](https://github.com/nelson-liu/pytorch-manylinux-binaries/releases)
-
-- [techpowerup vgabios](https://www.techpowerup.com/vgabios)
+**Interesting links**: [PyTorch for old GPUs](https://blog.nelsonliu.me/2020/10/13/newer-pytorch-binaries-for-older-gpus), [PyTorch v1.13.1 for K40](https://github.com/nelson-liu/pytorch-manylinux-binaries/releases) and [TechPowerUp VgaBios](https://www.techpowerup.com/vgabios).
 
 +
 
