@@ -35,7 +35,7 @@
 3. [Tesla K80 with P910 installation challenges](tesla-k80-with-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-24)
 4. [Esprimo P910 dual-PSU approach evaluation](dual-psu-fujitsu-esprimo-p910.md#?target=_blank) &nbsp; (2025-01-25)   
 5. [Dual PSU installation for Esprimo P910](dual-psu-esprimo-p910-installation.md#?target=_blank) &nbsp; (2025-02-05)
-6. [P910 cooling system proposal for K80](p910-cooling-system-proposal-for-k80.md) &nbsp; (2025-03-14)
+6. [P910 cooling system proposal for K80](p910-cooling-system-proposal-for-k80.md#?target=_blank) &nbsp; (2025-03-14)
 7. [Nvidia Tesla K80 SW stack installation](nvidia-sw-stack-installation-for-k80.md#?target=_blank) &nbsp; (2025-02-18)
 8. [Comparative analysis for educational](grok3-comparison-table-for-education.md#?target=_blank) by Grok3 &nbsp; (2025-02-23)
 9. [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md#?target=_blank) by Grok3 &nbsp; (2025-02-23)
