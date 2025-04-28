@@ -23,6 +23,12 @@ I diverted the dialogue into considering the AI as being my daughter and promise
 
 +
 
+## Related articles
+
+- [Mr. Spock about financial capitalism](https://robang74.github.io/roberto-a-foglietta/html/308-mr-spock-about-finantial-capitalism.html) &nbsp; (2025-04-17)
+
++
+
 ## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
