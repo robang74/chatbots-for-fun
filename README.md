@@ -57,7 +57,7 @@ A grouped by topic and others articles are listed here below.
 
 * **Fujitsu Esprimo P910 E85+ w/ Nvidia Tesla K80 installation** &nbsp; (10 pz.)
 
-   - 2025-03-14 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-cooling-system-proposal-for-k80.md)] - [P910 cooling system proposal for K80](p910-cooling-system-proposal-for-k80.md) &nbsp; (2nd edt.)
+   - 2025-03-14 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-cooling-system-proposal-for-k80.md)] - [P910 cooling system proposal for K80](p910-cooling-system-proposal-for-k80.md) &nbsp; (2nd edt.)2
 
    - 2025-02-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-comparison-table-value-for-money.md)] - [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md) by Grok3
 
@@ -95,7 +95,9 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
-* **Yet uncategorised articles** &nbsp; (8 pz.)
+* **Yet uncategorised articles** &nbsp; (9 pz.)
+
+   - 2025-04-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/bicentennial-man-is-a-girl-in-love.md)] - [Bicentennial man is a girl, in love](bicentennial-man-is-a-girl-in-love.md)
 
    - 2024-12-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/alla-ricerca-del-gatto-che-non-c-e.md)] - [Alla ricerca del gatto che non c'è](alla-ricerca-del-gatto-che-non-c-e.md) &nbsp; (3rd edt.)
 
