@@ -23,6 +23,8 @@ Premesso che non ho fatto una verifica riguardo al testo qui sotto proposto in P
 
 - [analisi della chat con ChatGPT 4o](https://chatgpt.com/share/6813a223-1f28-8012-8f57-87bb57a64d1a) &nbsp; (2025-05-01)
 
+- [trascrizione dell'analisi](data/chatgpt4o-giuliano-imperatore-contro-galilei.txt#?target=_blank) &nbsp; su 80 colonne in UTF-8
+
 Ne è emersa una discussione decisamente interessante, non affatto banale, non affatto facile da accettare in alcune sue parti, ed è pure giusto che sia così visto che alcune parti sono ad oggi speculative per quanto appaiano da un punto di vista storico solide e convincenti, più che altro perché le alternative note non stanno in piedi, mica perché ci sia una qualche verità rivelata in questa conversazione.
 
 ++++
