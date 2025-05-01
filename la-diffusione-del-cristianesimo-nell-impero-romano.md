@@ -17,13 +17,19 @@ Premesso che non ho fatto una verifica riguardo al testo qui sotto proposto in P
 
 - [chat con Gemini 2 nel ruolo di SoNia](https://g.co/gemini/share/dab32610f2bd) &nbsp; (2025-04-29)
 
+- [SoNia argumentative partner prompt](https://raw.githubusercontent.com/robang74/chatbots-for-fun/6faa3e859e01903a546c9eee813d1cc3f7b1ad10/data/alex-peer-review-with-rag-v3.txt) &nbsp; (2025-02-23, v3.4.4)
+
+- [trascrizione della chat in testo](data/la-diffusione-del-cristianesimo-nell-impero-romano.txt#?target=_blank) &nbsp; su 80 colonne w/ typo fixes
+
 Ne è emersa una discussione decisamente interessante, non affatto banale, non affatto facile da accettare in alcune sue parti, ed è pure giusto che sia così visto che alcune parti sono ad oggi speculative per quanto appaiano da un punto di vista storico solide e convincenti, più che altro perché le alternative note non stanno in piedi, mica perché ci sia una qualche verità rivelata in questa conversazione.
 
 #### Spoiler
 
-Gesù era figlio illegittimo di un legionario romano di relativamente alto rango ma ciò nulla toglie alla verità trascendente che i fedeli possono aspirare a raggiungere attraverso il messaggio evangelico. Ergo, basta non ripetere l'errore che commisero coloro che [giudicarono](https://it.wikipedia.org/wiki/Processo_a_Galileo_Galilei) Galileo Galilei e il problema non si pone, come per altro NON avrebbe MAI dovuto porsi.
+Gesù era figlio illegittimo di un legionario romano di relativamente alto rango ma ciò nulla toglie alla verità trascendente che i fedeli possono aspirare a raggiungere attraverso il messaggio evangelico.
 
-----
+Ergo, basta non ripetere l'errore che commisero coloro che [giudicarono](https://it.wikipedia.org/wiki/Processo_a_Galileo_Galilei) Galileo Galilei e il problema non si pone, come per altro NON avrebbe MAI dovuto porsi.
+
+---
 
 ### Against Witchcraft, in name of Jesus
 
