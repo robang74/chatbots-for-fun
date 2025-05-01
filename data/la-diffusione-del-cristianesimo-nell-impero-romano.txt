@@ -1,12 +1,14 @@
 Chat U2A: human operator prompt first, then AI agent answer. Width: 80 columns.
 
-****** SoNIa chat su l'imperatore Giuliano e il cristianesimo ******
+**** Gemini 2 come SoNIa chat su l'imperatore Giuliano e il cristianesimo ****
 
 https://g.co/gemini/share/dab32610f2bd
 
 Created with 2.0 Flash April 29, 2025 at 10:59 PM 
 Published April 30, 2025 at 01:32 AM
 Attachment: controigalilei.pdf (PDF)
+
+================================================================================
 
 Answer "OK" to agree. Abide within this chat session, ONLY.
 
