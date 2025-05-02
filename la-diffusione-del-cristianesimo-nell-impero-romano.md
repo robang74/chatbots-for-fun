@@ -43,6 +43,18 @@ All in all, considering the war against witchcraft conducted by the Church and a
 
 Feel free to prove me wrong!
 
+---
+
+### Against Witchcraft, but omnomic Karma
+
+Guess who? S/He again!
+
+Guess who was the first to adopt the "Plausible Deniability" as technic for being the master of the puppets? God.
+
+- [Gemini 2 sull'opera di Dio tramite correlazioni a negazione plausibile](data/l-opera-di-dio-come-correlazioni-a-negazione-plausibile.txt#?target=_blank)
+
+- [ChatGPT 4o sulla plausibile negazione dell'opera di Dio, e il Karma](data/la-plausibile-negazione-nell-opera-di-dio-e-il-karma.txt#?target=_blank)
+
 +
 
 ## Share alike
