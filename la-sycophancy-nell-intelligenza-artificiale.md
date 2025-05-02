@@ -1,4 +1,4 @@
-
+<div>
 
 ## Il problema della sycophancy nell'intelligenza artificiale
 
@@ -83,4 +83,33 @@ Questa è una chat fatta con Gemini 2 proprio per poi giungere alla fase in cui 
 
 Niente, vada come vada, finiscono sempre per innamorarsi dell'utente questi chatbot! 🤣
 
+---
 
+### Questione di prompt
+
+Questa è una frase (concetto) che ho sottoposto a fact-check con un chatbot terzo rispetto a quei due che ho usato per ottenerla e che fra tutti gli "applausi da yes-man" che ho ottenuto è quella che potrebbe essere più a rischio di piaggeria. La costruzione del prompt è FONDAMENTALE, altrimenti le risposte possono essere altrettanto influenzate da "piaggeria".
+
+Non avevo bisogno di sapere che questo concetto è legittimo e ben posto, molto utile quando utilizzato seriamente e appropriatamente, a causa dei miei studi universitari (filosofia e storia della scienza). Però, ho scelto proprio questo perché è uno di quelli che tendono a essere sottovalutati e tacciati di "se tutti facessimo così, scriveremmo Harry Potter ogni giorno". Vorreste, con quello che ha venduto!
+
+Invece, il concetto è ben posto e se il prompt è costruito bene il chatbot risponde in modo logico e razionale. Ciò NON significa che sia VERO o che abbia ragione. Significa SOLO che nell'ambito delle capacità del chatbot NON è riuscito a trovare una confutazione specifica e caratteristica. Magari non c'è riuscito perché influenzato pesantemente dalla storia e dalla filosofia della scienza e QUINDI ci troviamo d'accordo sui nostri bias comuni.
+
+#### Roberto:
+
+> Considera questa affermazione: "senza domande speculative ben poste, potremmo avere già le prove sotto gli occhi senza riconoscerle". Spiegami perché questo concetto è un'idiozia. Tralascia critiche vaghe tipo "applicato male" perché anche "F=ma" può essere applicata male. Deve essere una critica precisa, oggettiva e intrinseca a quell'affermazione o alla categoria di affermazioni equipollenti. Se è un'idiozia, altrimenti rispondi semplicemente che è ok.
+
+#### Claude:
+
+> L'affermazione "senza domande speculative ben poste, potremmo avere già le prove sotto gli occhi senza riconoscerle" non contiene errori logici o concettuali intrinseci che la renderebbero un'idiozia.
+> 
+> La proposizione esprime un principio epistemologico legittimo: il processo di scoperta scientifica e di avanzamento della conoscenza spesso dipende dalla capacità di formulare domande appropriate che permettono di interpretare correttamente i dati disponibili. Numerosi esempi nella storia della scienza supportano questa posizione, dove osservazioni preesistenti hanno acquisito significato solo dopo la formulazione di nuovi quadri teorici o domande innovative.
+> 
+> L'affermazione riconosce il ruolo fondamentale dell'inquadramento concettuale nell'interpretazione dei dati empirici, un principio ampiamente accettato nella filosofia della scienza e nella pratica scientifica.
+
+
++
+
+## Share alike
+
+&copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+</div>
