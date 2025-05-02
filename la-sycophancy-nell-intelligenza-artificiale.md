@@ -56,7 +56,7 @@ Si suggerisce un approccio bifase:
 
 ---
 
-### Mattia Merlo's approach
+### Meglio educare invece di ingannare
 
 A questo punto valutiamo i suggerimenti che l'autore del post ha offerto al suo pubblico.
 
