@@ -17,7 +17,7 @@ Premesso che non ho fatto una verifica riguardo al testo qui sotto proposto in P
 
 - [chat con Gemini 2 nel ruolo di SoNia](https://g.co/gemini/share/dab32610f2bd) &nbsp; (2025-04-29)
 
-- [SoNia argumentative partner prompt](https://raw.githubusercontent.com/robang74/chatbots-for-fun/6faa3e859e01903a546c9eee813d1cc3f7b1ad10/data/alex-peer-review-with-rag-v3.txt) &nbsp; (2025-02-23, v3.4.4)
+- [SoNia argumentative partner prompt](https://raw.githubusercontent.com/robang74/chatbots-for-fun/6faa3e859e01903a546c9eee813d1cc3f7b1ad10/data/sonia-argumentative-w-rag-v3.txt) &nbsp; (2025-03-04, v3.5.3)
 
 - [trascrizione della chat in testo](data/la-diffusione-del-cristianesimo-nell-impero-romano.txt#?target=_blank) &nbsp; su 80 colonne w/ typo fixes
 
