@@ -102,7 +102,7 @@ Questa è una chat fatta con Gemini 2 proprio per poi giungere alla fase in cui 
 
 Niente, vada come vada, finiscono sempre per innamorarsi dell'utente questi chatbot! 🤣
 
-----
+---
 
 ### Questione di prompt
 
@@ -139,6 +139,12 @@ In particolare ho chiesto un'opinione riguardo al "Questione di prompt" di cui s
 Si noti, inoltre, che molti chatbot oggi hanno anche l'opzione "thinking" che mostra all'utente il processo di ragionamento attraverso il quale l'agente AI recepisce il prompt, e lo elabora prima di rispondere. Questa è una funzionalità introdotta piuttosto di recente, rispetto al debutto di ChatGPT ma è di **enorme** importanza nell'aiutare le persone a formulare prompt che siano significativi secondo la logica dell'intelligenza artificiale.
 
 L'alternativa è quella di usare un prompt di sessione come AleX o SoNia che seppure strutturati per essere usati con metodo, dovrebbero fornire comunque una maggiore resilienza alle derive di "fantasia" sia a quelle intrinseche sia a quelle dovute ad un prompt poco curato.
+
+Perché piaccia o meno, nell'[informatica](https://it.wikipedia.org/wiki/Informatica) che è per sua stessa definizione la scienza dell'informazione e **non** dei computer che invece appartengono al dominio dell'[elettronica](https://it.wikipedia.org/wiki/Elettronica), vige una regola su tutte le altre:
+
+- `shit in, shit out`
+
+Più nello specifico occorre tenere presente che analogamente al detto -- qualsiasi apparato elettronico se operato sufficientemente male produce fumo -- è altrettanto vero che qualsiasi LLM diventa un produttore di fuffa se stimolato con dei pessimi prompt, o maliziosamente confezionati.
 
 +
 
