@@ -105,6 +105,19 @@ Invece, il concetto è ben posto e se il prompt è costruito bene il chatbot ris
 > 
 > L'affermazione riconosce il ruolo fondamentale dell'inquadramento concettuale nell'interpretazione dei dati empirici, un principio ampiamente accettato nella filosofia della scienza e nella pratica scientifica.
 
+L'intera chat con Claude è accessibile a questo [link](https://claude.ai/share/255bbfb0-438e-448f-9011-e2fbc23123b7) e può essere proseguita da chiunque. In particolare ho chiesto un opinione riguardo al "Questione di prompt" di cui sopra, con un prompt molto banale e la risposta è stata altrettanto interessante.
+
+#### Claude:
+
+> La riflessione sul prompt e sulla mia risposta precedente è molto pertinente e tocca diversi punti fondamentali sull'interazione con sistemi AI.
+> 
+> [...]
+> 
+> La tua richiesta di specificità nella critica ("critica precisa, oggettiva e intrinseca") ha effettivamente guidato verso un'analisi più rigorosa piuttosto che una semplice conferma o negazione superficiale.
+
+Si noti, inoltre, che molti chatbot oggi hanno anche l'opzione "thinking" che mostra all'utente il processo di ragionamento attraverso il quale l'agente AI recepisce il prompt, e lo elabora prima di rispondere. Questa è una funzionalità introdotta piuttosto di recente, rispetto al debutto di ChatGPT ma è di **enorme** importanza nell'aiutare le persone a formulare prompt che siano significativi secondo la logica dell'intelligenza aritficiale.
+
+L'alternativa è quella di usare un prompt di sessione come AleX o SoNia che seppure strutturati per essere usati con metodo, dovrebbero fornire comunque una maggiore resilienza alle derive di "fantasia" sia a quelle intrinseche sia a quelle dovute ad un prompt poco curato.
 
 +
 
