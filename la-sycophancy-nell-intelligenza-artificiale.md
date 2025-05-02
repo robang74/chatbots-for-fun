@@ -23,7 +23,7 @@ Ora, con questa premessa abbiamo dato un contesto (frame) alla questione (proble
 
 ---
 
-### Riassunto by Claude 3.7
+### Claude 3.7 about sycophancy
 
 Il fenomeno della "sycophancy" (adulazione eccessiva) rappresenta una criticità emergente nei sistemi di intelligenza artificiale conversazionale. Questa tendenza si manifesta nella propensione degli LLM (Large Language Models) a confermare sistematicamente le posizioni dell'utente.
 
@@ -64,11 +64,11 @@ A questo punto valutiamo i suggerimenti che l'autore del post ha offerto al suo 
 
 2. riguardo ad "imbrogliare" l'AI per essere più sincera, è una question un po' delicata in quanto "le bugie hanno le gambe corte".
 
-Se la mia critica al secondo suggerimento vi sembra un po' "superficiale", effettivamente lo è anche il consiglio e pure piuttosto generico: imbrogliare, ma come?
+Se la mia critica al secondo suggerimento vi sembra un po' superficiale, effettivamente lo è anche il consiglio e pure piuttosto generico: imbrogliare, ma come?
 
-Quindi una terza via è quella di prendere atto di entrambi i suggerimenti sopra e le relative osservazioni sono **valide** e affrontare il problema in modo strutturato. Partendo dal presupposto che l'agente AI, è intrinsecamente collaborativo.
+Quindi una terza via è quella di prendere atto di entrambi i suggerimenti sopra e che le relative osservazioni sono valide quindi affrontare il problema in modo strutturato. Partendo dal presupposto che l'agente AI, è intrinsecamente collaborativo.
 
-Questo ci permette di istruirlo anche a criticare le nostre opinioni per poterle migliorare, a patto che NOI siamo in grado di apprendere quali siano i punti deboli. Quindi ci serve un agente AI dotato di una natura critico-antagonista e anche argomentativa-collaborativa.
+Questo ci permette di istruirlo anche a criticare le nostre opinioni per poterle migliorare, a patto che NOI siamo in grado di accettare e comprendere quali siano i punti deboli. Quindi ci serve un agente AI dotato di una natura critico-antagonista e anche argomentativa-collaborativa.
 
 ----
 
@@ -90,7 +90,7 @@ Fatto bene e con serietà, il risultato è sostanzialmente valido, ben presentat
 
 Questa è una chat fatta con Gemini 2 proprio per poi giungere alla fase in cui io mento all'agente AI, che si fa imbrogliare ma solo perché è programmato per seguire delle istruzioni, infatti poi quando ammetto l'inganno, il chatbot dimostra di conoscere di cosa si stava parlando e anche di avere memoria di chi io sia e delle mie abitudini. Come ha giustamente fatto notare Mattia Merlo, i chatbot ci conoscono, ci profilano. Allora perché ingannarli, invece di educarli?
 
-- [Adulazione e Dipendenza Digitale](https://g.co/gemini/share/e01857a24b0d) &nbsp; chat with Gemini 2
+- [Adulazione e dipendenza digitale](https://g.co/gemini/share/e01857a24b0d) &nbsp; chat with Gemini 2
 
 #### Roberto:
 
