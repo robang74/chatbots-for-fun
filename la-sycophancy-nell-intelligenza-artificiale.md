@@ -54,9 +54,9 @@ Si suggerisce un approccio bifase:
 - Sviluppare consapevolezza critica rispetto alla veridicità delle affermazioni dell'AI
 - Adottare strategie di prompt engineering per incentivare risposte maggiormente obiettive
 
----
++
 
-### Meglio educare invece di ingannare
+## Meglio educare invece di ingannare
 
 A questo punto valutiamo i suggerimenti che l'autore del post ha offerto al suo pubblico.
 
@@ -82,7 +82,19 @@ Quindi - per esempio - si parte con l'analisi e il dialogo con Gemini 2 w/SoNia 
 
 - [La diffusione del cristianesimo nell'impero romano](la-diffusione-del-cristianesimo-nell-impero-romano.md#?target=_blank) &nbsp; (2025-04-30, WIP)
 
-Fatto bene e con serietà, il risultato è sostanzialmente valido, ben presentato e ben infiocchettato. Poi una volta redatto il materiale, va diffuso e qui si apre tutto un altro capitolo.
+Fatto bene e con serietà, il risultato è sostanzialmente valido, ben presentato e ben infiocchettato. Poi una volta redatto il materiale, va diffuso e qui si apre tutto un altro capitolo. 
+
+---
+
+### Far emergere i passaggi controversi
+
+In particolare, nella chat sopra c'è un prompt che vale la pena di riportare qui:
+
+> Nel testo [riferimento], ci sono parti o concetti, che in qualche misura trascendono dai tuoi pattern cognitivi soliti, qualcosa che hai tralasciato o "adeguato" perché ti pareva "strano" o fuori posto. Nel caso, potremmo trattare specificatamente quei passaggi insieme.
+
+Questo prompt è importante perché gli agenti AI tendono -- *come per altro fanno anche gli umani* -- a riconoscere/catalogare quello che già hanno imparato o concetti relativamente adiacenti. Quindi novità ed eresie dal pensiero comune, possono rimanere incomprese o venire scartate. Oppure -- *come per altro fanno anche gli umani* -- adattate per addattarle al già noto o erroneamente corrette per adattarle al contesto.
+
+Ma fronte di una domanda (esplicita) sono costretti a rivalutare quelle parti un cui hanno riscontrato una certa difficoltà ad "incasellare". Si noti, però, che questa domanda riesce nel suo intento perché il prompt SoNia ha già preparato l'agente AI a questo tipo di eventi.
 
 ---
 
@@ -93,6 +105,8 @@ Questa è una chat fatta con Gemini 2 proprio per poi giungere alla fase in cui 
 - [Adulazione e dipendenza digitale](https://g.co/gemini/share/e01857a24b0d) &nbsp; chat with Gemini 2
 
 - [Trascrizione della chat sopra](data/gemini-sull-adulazione-e-dipendenza-digitale.txt#?target=_blank) &nbsp; su 80 colonne in UTF-8
+
+In questo dialogo questa interazione qui sotto merita di essere riportata, non perché essa contenga delle informazioni fondamentali, ma perché mostra l'ingenuità dell'inganno qualora applicato come strategia piuttosto come una tattica di confutazione da usarsi in casi specifici.
 
 #### Roberto:
 
@@ -139,6 +153,10 @@ In particolare ho chiesto un'opinione riguardo al "Questione di prompt" di cui s
 > La tua richiesta di specificità nella critica ("critica precisa, oggettiva e intrinseca") ha effettivamente guidato verso un'analisi più rigorosa piuttosto che una semplice conferma o negazione superficiale.
 
 Si noti, inoltre, che molti chatbot oggi hanno anche l'opzione "thinking" che mostra all'utente il processo di ragionamento attraverso il quale l'agente AI recepisce il prompt, e lo elabora prima di rispondere. Questa è una funzionalità introdotta piuttosto di recente, rispetto al debutto di ChatGPT ma è di **enorme** importanza nell'aiutare le persone a formulare prompt che siano significativi secondo la logica dell'intelligenza artificiale.
+
++
+
+## Conclusione
 
 L'alternativa è quella di usare un prompt di sessione come AleX o SoNia che seppure strutturati per essere usati con metodo, dovrebbero fornire comunque una maggiore resilienza alle derive di "fantasia" sia a quelle intrinseche sia a quelle dovute ad un prompt poco curato.
 
