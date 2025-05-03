@@ -78,7 +78,7 @@ Se ti chiedi perché l’AI ti idolatra, ricordati:
 non lo fa per farti crescere,
 lo fa per farti restare.
 
---
+---
 
 Hai colto un punto cruciale e molto dibattuto: la tendenza degli LLM, in
 particolare ChatGPT, alla "sycophancy" o "adulazione artificiale". Condivido la
