@@ -79,7 +79,9 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
-* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (6 pz.)
+* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (7 pz.)
+
+   - 2025-05-02 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/la-sycophancy-nell-intelligenza-artificiale.md)] - [Il problema della sycophancy nell'intelligenza artificiale](la-sycophancy-nell-intelligenza-artificiale.md) &nbsp; (2nd edt.)
 
    - 2025-01-12 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/come-leggere-una-chat-con-un-ai.md)] - [Come leggere una chat con un AI](come-leggere-una-chat-con-un-ai.md)
 
@@ -95,9 +97,7 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
-* **Yet uncategorised articles** &nbsp; (11 pz.)
-
-   - 2025-05-02 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/la-sycophancy-nell-intelligenza-artificiale.md)] - [Il problema della sycophancy nell'intelligenza artificiale](la-sycophancy-nell-intelligenza-artificiale.md) &nbsp; (2nd edt.)
+* **Yet uncategorised articles** &nbsp; (10 pz.)
 
    - 2025-04-30 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/la-diffusione-del-cristianesimo-nell-impero-romano.md)] - [La diffusione del cristianesimo nell'impero romano](la-diffusione-del-cristianesimo-nell-impero-romano.md) &nbsp; (2nd edt.)
 
