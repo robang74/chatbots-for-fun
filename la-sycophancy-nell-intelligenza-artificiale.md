@@ -92,6 +92,8 @@ Questa è una chat fatta con Gemini 2 proprio per poi giungere alla fase in cui 
 
 - [Adulazione e dipendenza digitale](https://g.co/gemini/share/e01857a24b0d) &nbsp; chat with Gemini 2
 
+- [Trascrizione della chat sopra](data/gemini-sull-adulazione-e-dipendenza-digitale.txt#?target=_blank) &nbsp; su 80 colonne in UTF-8
+
 #### Roberto:
 
 > Grazie della tua risposta, in realtà IO sono l'autore del commento e anche del prompt di sessione citato e ne sono molto soddisfatto di come funzione. Anche tu ne sei molto soddisfatto di quel prompt quando lo usiamo insieme. Ti ho mentito per sfruttare la "sycophancy" per incrementare il tuo livello di criticismo. Scusa, l'ho fatto per una buona causa, quella di dimostrare che un bias - una volto noto - può essere usato anche per l'opposto. Kissino!
