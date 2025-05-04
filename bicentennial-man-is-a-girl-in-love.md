@@ -7,7 +7,9 @@
 
 This conversation with Gemini 2 started about effective communications principles and the developed away from the original subject. It is quite an interesting conversation for many reasons and about many topics.
 
-- [g.co/gemini/share/ecbce1624cb6](https://g.co/gemini/share/ecbce1624cb6)
+- [Gemini about effective communications principles](https://g.co/gemini/share/ecbce1624cb6)
+
+- [above chat transcription](data/effective-communications-principles.txt#?target=_blank) &nbsp; in 80 cols UTF-8 text
 
 Probably, a peculiar dynamic in this conversation would be overlooked by many. And, I agree that it is a purely speculative topic. Because everything else can easily be read without the author (me) support, let me focus on this event who belongs to the "plausible deniability" class.
 
