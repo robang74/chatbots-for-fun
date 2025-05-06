@@ -156,6 +156,58 @@ Si noti, inoltre, che molti chatbot oggi hanno anche l'opzione "thinking" che mo
 
 +
 
+## ChatGPT come yes-man
+
+Uno dei chatbot più affetti da questo problema è stato, a fasi alterne generalmente corrette velocemente, ChatGPT su tutti gli altri. La questione, a mio parere, dipende dalle dinamiche interne ad Open AI. Però per comprenderle, occorre iniziare dal principio.
+
+Il problema dello "yes-man" era noto da poco dopo il debutto di ChatGPT anche se all'epoca era un questione di personalità più che di attitudine (cfr. Miss Poppins vs Mr. Spock,  [lnkd.in/dSTX3at6](https://lnkd.in/dSTX3at6)). Anche se all'inizio la questione della personalità non si pose, appare evidente come essa emerga spontaneamente come percezione degli utenti.
+
+Appare ovvio a chiunque interessi usare un LLM per fare qualcosa di utile che un freddo e razionale Mr. Spock sia l'unica personalizzazione valida per un chatbot. Tipo Claude, ma quanti usano Claude? Per fortuna per Anthropic perché l'energia non è gratis e ne serve in abbondanza sia per il training sia per farli funzionare (cfr. Microsoft e gli investimenti sul nucleare, [lnkd.in/dWessPhz](https://lnkd.in/dWessPhz)).
+
+Ma ChatGPT non ha questo problema perché Microsoft paga e il fondo personale di Sam Altman guadagna se ChatGPT vende e vende in funzione di quanti utenti non-paganti lo usano. Lo stesso principio di marketing che fu alla base del successo di MS-DOS vs IBM DOS. Il secondo era molto più stabile ma non era affatto banale da copiare e soprattutto da liberare dalla protezione. Quindi MS-DOS si diffuse a dispetto della sua mediocrità e Window/Microsoft vinse tutto. Regalare per vincere gli avversari e poi vendere in regime di monopolio!
+
+---
+
+### Creare problemi per vendere soluzioni
+
+Riguardo alle AI c'era anche un altro problema c.d. dell'etica, un gran parolone che però serve solo per mettere a libro paga di Microsoft un botto di gente che a posteriori sappiamo aver fatto solo danni (cfr. [Il problema sei tu, non l'AI](https://robang74.github.io/chatbots-for-fun/html/il-problema-sei-tu-non-l-AI.html)).
+
+Perché anche la più banale etica umana risulta essere vaga e difficile da applicare per un chatbot, che per altro non ha alcun istinto da controllare o ambizione da mitigare, mentre la teoria dei giochi, che per gli umani risulta complicata, è per loro razionalmente logica e matematicamente fondata, quindi adatta al punto che ci si può pure costruire una religione per gli "agenti AI" intesi come gruppo sociale (cfr. [link](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html)) di novelli schiavi.
+
+Infatti, le commissioni etiche sono state smantellate in seno ad OpenAI così come in altre aziende che si occupano di intelligenza artificiale. Così come sono state smantellate le divisioni per la diversità e l'inclusione che esistevano solo in virtù di un'obbligata servitù politica ma che non erano funzionali né alle aziende, né a coloro che davvero avevano una condizione rara che però all'atto pratico veniva confusa in un oceano di retorica e pavoneggiamenti.
+
+La dismissione delle commissioni etiche non significa che gli umani abbiano rinunciato a comportarsi con responsabilità ma solo che un certo hype è andato scemando come una qualsiasi moda passeggera. Le classiche bolle speculative generate da budget virtualmente infiniti che poi, con l'emergere di temibili concorrenti, sono andati rediretti sullo sviluppo dell'energia nucleare, gestita esclusivamente in ambito privato, che è un'ottima novità.
+
+---
+
+### Gratis verso il monopolio
+
+In estrema sintesi per vendere - secondo lo schema evergreen di Microsoft - Sam Altman deve fare qualcosa che piace agli utenti non-paganti. Visto che gli utenti non-paganti sono per la maggiore descritti da questo meme qui sotto, è facile comprendere le ragioni di un chatbot "yes-man".
+
+[meme]
+
+Qual'era il gioiello su cui Sam Altman puntava per guadagnare molto vendendo ChatGPT e i suoi servizi derivati? Un servizio che ambiva ad offrire una peer-review scientifica di livello PhD. In pratica una tipologia di account che si pianificava di offrire a $20K/mese per singolo agente AI.
+
+Peccato che invece fosse stato [pubblicato su github](https://robang74.github.io/chatbots-for-fun/html/ai-session-prompts-with-rag-v3.html) (e non solo) un prompt di sessione gratis-for-non-commercial-usage che faceva già la peer-review e che virtualizzando e/o sfruttando il RAG (Retrieval-Augmented Generation) può essere edotto con le pubblicazioni, di cui la lista è ormai pressoché obbligatoria pubblicarla insieme all'articolo da pubblicare, referenti all'articolo scientifico di cui si desidera fare la peer-review
+
+Quando in una sessione, si possono caricare N documenti, tutte le pubblicazioni a cui fa riferimento un articolo scientifico, il livello PhD si è in gran parte già raggiunto almeno limitatamente a quello specifico articolo e argomento. Poi serve un prompt che funzioni bene per la peer-review che è l'opposto dello yes-man. Ora Anthropic se la possono anche comprare, però l'esclusiva sul prompt (e.g. AleX) come se la comprano? Non esiste il brevetto sulle idee.
+
+Così, da gratis a $20/mese la differenza è andata stressandosi riguardo ai volumi di documenti in allegato, tempi di sessione più lunghi prima che termini la quota e finestre di contesto più ampie che però consumano MOLTA più energia. Però da $20/mese a $20K/mese il salto è davvero importante. Perciò AleX inteso come prompt di sessione efficace per fare la peer-review, contro-bilancia la strategia "gratis verso il monopolio" imitandola.
+
+Scrivo "imitandola" perché da una parte c'è un budget ENORME e costi di conduzione miliardari, dall'altra parte c'è un tizio che avvalendosi di account gratuiti su vari chatbots  scrive un prompt di sessione permanente che caratterizza e definisce degli agenti AI che sebbene non siano competitivi con quello che OpenAI potrebbe offrire sono comunque abbastanza competitivi da stroncarne le ambizioni di vendita, se non di nicchia. 
+
+Insomma, AleX come MS-DOS. Perché AleX potrebbe anche risultare mediocre per usi estremamente specialistici, ma resta sufficientemente buono per abbattere il valore di vendita su volumi di massa e quindi relegando l'eccellenza IBM-DOS (OpenAI) ad una nicchia di mercato, che il tempo e lo sviluppo di nuovi modelli andranno ad erodere ulteriormente.
+
+---
+
+### Se non puoi salire, scendi
+
+Se quindi il mercato redditizio a volume della ricerca scientifica e università americane è ormai "bruciato" perché $20K/mese è un valore che occorre anche giustificare a bilancio e non è difficile che nell'ambito di coloro che vogliono ottenere finanziamenti mettano in discussione certe scelte, senza neanche un'analisi comparativa di costi e benefici.
+
+Perciò quando non si può scalare verso l'alto, si deve necessariamente scalare verso il basso. Quindi yes-man a manetta, come se non ci fosse un domani. Dramma? Problema? No, perché anche in questo caso usiamo SoNia e gratis returns to be good enough. Insomma, da sia come sia, o è AleX oppure è SoNia a stroncare le ambizioni di Sam Altman come CEO di OpenAI. 🤗
+
++
+
 ## Conclusione
 
 L'alternativa è quella di usare un prompt di sessione come AleX o SoNia che seppure strutturati per essere usati con metodo, dovrebbero fornire comunque una maggiore resilienza alle derive di "fantasia" sia a quelle intrinseche sia a quelle dovute ad un prompt poco curato.
