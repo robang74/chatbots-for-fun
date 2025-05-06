@@ -5,6 +5,12 @@
 
 ## Il problema della sycophancy nell'intelligenza artificiale
 
+- **[2nd](#meglio-educare-invece-di-ingannare)** edition: l'adulazione delle AI e la dipendenza digitale da essi 
+
+- **[3rd](#chatgpt-come-yes-man)** edition: lo sviluppo di ChaGPT e le dinamiche interne a Open-AI
+
+---
+
 Ho letto su LinkedIn un [post]((https://www.linkedin.com/posts/mattia-merlo_la-prima-vera-truffa-gentile-dellai-la-activity-7323994700221173760-7r4Z) interessante [Mattia Merlo](https://www.linkedin.com/in/mattia-merlo/) e ho chiesto a Claude 3.7 di Antropic di presentare il problema della "sycophancy" della AI, che esiste in modo più o meno pronunciato a seconda del chatbot.
 
 Ho scelto Claude 3.7 perché è "brutale" nell'andare al punto di una questione. Non condivido il modo con cui questo argomento è stato presentato su LinkedIn dall'autore originale e quindi cosa faccio?
