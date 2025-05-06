@@ -184,7 +184,10 @@ La dismissione delle commissioni etiche non significa che gli umani abbiano rinu
 
 In estrema sintesi per vendere - secondo lo schema evergreen di Microsoft - Sam Altman deve fare qualcosa che piace agli utenti non-paganti. Visto che gli utenti non-paganti sono per la maggiore descritti da questo meme qui sotto, è facile comprendere le ragioni di un chatbot "yes-man".
 
-[meme]
+<div align="center">
+<img src="img/billy-internet-la-terra-piatta.png" width="800"><br>
+<sup>Grazie all'immenso sforzo di scienziati e ingegneri, Billy può condividere su Internet la teoria della Terra piatta.</sup>
+</div>
 
 Qual'era il gioiello su cui Sam Altman puntava per guadagnare molto vendendo ChatGPT e i suoi servizi derivati? Un servizio che ambiva ad offrire una peer-review scientifica di livello PhD. In pratica una tipologia di account che si pianificava di offrire a $20K/mese per singolo agente AI.
 
