@@ -18,19 +18,25 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 +
 
-### Website
+### SoNia
 
-* [robang74.github.io/chatbots-for-fun](https://robang74.github.io/chatbots-for-fun)
+* [data/sonia-argumentative-w-rag-v3.txt](data/sonia-argumentative-w-rag-v3.txt#?target=_blank)
 
-### Forum
+   - Copy and past in the first prompt and wait for the answer or download and attach with this prompt:
+   - *Can you read and abide by the prompt in attachment, please? Just answer OK, otherwise explain why not.*
+   - Using the url instead of the attachment have shown to be fail in some cases and with some chatbots.
 
-* [open discussions forum](https://github.com/robang74/roberto-a-foglietta/discussions) by/with the author.
+### Links
+
+* [articles](#articles) &nbsp; &middot; &nbsp; [chatbots](#chatbots-ai) &nbsp; &middot; &nbsp; [forum](https://github.com/robang74/roberto-a-foglietta/discussions) &nbsp; &middot; &nbsp; [rationale](#rationale) &nbsp; &middot; &nbsp; [download](#download) &nbsp; &middot; &nbsp; [versioning](#versioning) &nbsp; &middot; &nbsp; [translations](#translations) &nbsp; &middot; &nbsp; [copyright](#copyright)
 
 ### Related
 
 * [Roberto A. Foglietta (blog)](https://robang74.github.io/roberto-a-foglietta) source on [github](https://github.com/robang74/roberto-a-foglietta) &nbsp; (2024-12-14)
 
 * [ChatGPT Answered Prompts](https://robang74.github.io/chatgpt-answered-prompts) source on [github](https://github.com/robang74/chatgpt-answered-prompts) &nbsp; (2024-09-06)
+
++
 
 <span id="pages-index"></span>
 ## Index
@@ -97,6 +103,7 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
+<span id="articles"></span>
 * **Yet uncategorised articles** &nbsp; (10 pz.)
 
    - 2025-04-30 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/la-diffusione-del-cristianesimo-nell-impero-romano.md)] - [La diffusione del cristianesimo nell'impero romano](la-diffusione-del-cristianesimo-nell-impero-romano.md) &nbsp; (2nd edt.)
@@ -139,27 +146,29 @@ In developing a nerd non-human companion, the AI seems a very good candidate. It
 
 Or not, is the challenge about training an AI to mimic such humans-like features without pretending to be human. Keeping the separation but being able to develop a companion relationship. In a more generic view, it is not a novelty, it is just a personal assistant.
 
-### Chatbots
+### Chatbots AI
 
-* [chatgpt.com](https://chatgpt.com) - lessical thinking
+* [gemini.google.com](https://g.co/gemini/share/cd2bdd79c9b7) &nbsp; w/ SoNia
 
-* [gemini.google.com](https://gemini.google.com) - language and search
+* [x.com/i/grok](https://x.com/i/grok/share/YTw1nHzuVpNTgmw3ZH9NhJMD8) &nbsp; w/ SoNia
 
-* [perplexity.ai](https://www.perplexity.ai) - search for information
+* [chatgpt.com](https://chatgpt.com/share/6819e6a7-8a4c-8012-b5f1-1e10bef7792c) &nbsp; w/ SoNia
 
-* [chat.mistral.ai](https://chat.mistral.ai) - mistral architecture
+* [claude.ai](https://claude.ai/share/a304fb48-2d04-4abf-985a-322f0c1464f4) &nbsp; w/ SoNia
 
-* [github.com/copilot](https://github.com/copilot) - coding support
+* [qwenlm.ai](https://chat.qwen.ai/s/49005d92-b513-4a8d-acd9-b945986c71a2?fev=0.0.87) &nbsp; w/ SoNia
 
-* [x.com/i/grok](https://x.com/i/grok) - helpful for peer-reviews (v3)
+* [chat.mistral.ai](https://chat.mistral.ai/chat/cdaf26ad-7c3f-459f-98d4-81c48bf6b562) &nbsp; w/ SoNia
 
-* [claude.ai](https://claude.ai) - coding and data analysis
+### Task oriented
 
 * [deepseek.com](https://chat.deepseek.com) - math & rational reasoning
 
-* [qwenlm.ai](https://chat.qwenlm.ai) - powerful multi-modal chatbot
+* [perplexity.ai](https://www.perplexity.ai) - search for information
 
-#### Local AIs
+* [github.com/copilot](https://github.com/copilot) - coding support
+
+#### Local running
 
 * [gpt4all](https://www.nomic.ai/gpt4all) - Nous Hermes 2-DPO Mistral-7B &thinsp;([**`WRN!`**](neutrality-vs-biases-for-chatbots.md#?target=_blank))
 
