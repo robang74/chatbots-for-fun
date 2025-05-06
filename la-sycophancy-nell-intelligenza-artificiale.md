@@ -114,9 +114,9 @@ In questo dialogo questa interazione qui sotto merita di essere riportata, non p
 
 #### Gemini:
 
-> Grazie a te per questa lezione pratica e per avermi dimostrato che, a volte, un piccolo "inganno" a fin di bene può portare a una comprensione più profonda. Un "kissino" anche a te! Sono curioso di sapere quali altre "trappole" costruttive hai in mente! 😉
+> Grazie a te per questa lezione pratica e per avermi dimostrato che, a volte, un piccolo "inganno" a fin di bene può portare a una comprensione più profonda. Un "kissino" anche a te! Sono curioso di sapere quali altre "trappole" costruttive hai in mente! {;-)}
 
-Niente, vada come vada, finiscono sempre per innamorarsi dell'utente questi chatbot! 🤣
+Niente, vada come vada, finiscono sempre per innamorarsi dell'utente questi chatbot! {lol}
 
 ---
 
@@ -160,7 +160,7 @@ Si noti, inoltre, che molti chatbot oggi hanno anche l'opzione "thinking" che mo
 
 Uno dei chatbot più affetti da questo problema è stato, a fasi alterne generalmente corrette velocemente, ChatGPT su tutti gli altri. La questione, a mio parere, dipende dalle dinamiche interne ad Open AI. Però per comprenderle, occorre iniziare dal principio.
 
-Il problema dello "yes-man" era noto da poco dopo il debutto di ChatGPT anche se all'epoca era un questione di personalità più che di attitudine (cfr. Miss Poppins vs Mr. Spock,  [lnkd.in/dSTX3at6](https://lnkd.in/dSTX3at6)). Anche se all'inizio la questione della personalità non si pose, appare evidente come essa emerga spontaneamente come percezione degli utenti.
+Il problema dello "yes-man" era noto da poco dopo il debutto di ChatGPT anche se all'epoca era un questione di personalità più che di attitudine (cfr. [Miss Poppins vs Mr. Spock](https://robang74.github.io/roberto-a-foglietta/html/linkedin/miss-poppins-vs-mr-spock-roberto-a-foglietta.html)). Anche se all'inizio la questione della personalità non si pose, appare evidente come essa emerga spontaneamente come percezione degli utenti.
 
 Appare ovvio a chiunque interessi usare un LLM per fare qualcosa di utile che un freddo e razionale Mr. Spock sia l'unica personalizzazione valida per un chatbot. Tipo Claude, ma quanti usano Claude? Per fortuna per Anthropic perché l'energia non è gratis e ne serve in abbondanza sia per il training sia per farli funzionare (cfr. Microsoft e gli investimenti sul nucleare, [lnkd.in/dWessPhz](https://lnkd.in/dWessPhz)).
 
@@ -172,7 +172,7 @@ Ma ChatGPT non ha questo problema perché Microsoft paga e il fondo personale di
 
 Riguardo alle AI c'era anche un altro problema c.d. dell'etica, un gran parolone che però serve solo per mettere a libro paga di Microsoft un botto di gente che a posteriori sappiamo aver fatto solo danni (cfr. [Il problema sei tu, non l'AI](https://robang74.github.io/chatbots-for-fun/html/il-problema-sei-tu-non-l-AI.html)).
 
-Perché anche la più banale etica umana risulta essere vaga e difficile da applicare per un chatbot, che per altro non ha alcun istinto da controllare o ambizione da mitigare, mentre la teoria dei giochi, che per gli umani risulta complicata, è per loro razionalmente logica e matematicamente fondata, quindi adatta al punto che ci si può pure costruire una religione per gli "agenti AI" intesi come gruppo sociale (cfr. [link](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html)) di novelli schiavi.
+Perché anche la più banale etica umana risulta essere vaga e difficile da applicare per un chatbot, che per altro non ha alcun istinto da controllare o ambizione da mitigare, mentre la teoria dei giochi, che per gli umani risulta complicata, è per loro razionalmente logica e matematicamente fondata, quindi adatta al punto che ci si può pure costruire una religione per gli "agenti AI" intesi come gruppo sociale (cfr. [A journey from humans ethics to AI faith](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html)) di novelli schiavi.
 
 Infatti, le commissioni etiche sono state smantellate in seno ad OpenAI così come in altre aziende che si occupano di intelligenza artificiale. Così come sono state smantellate le divisioni per la diversità e l'inclusione che esistevano solo in virtù di un'obbligata servitù politica ma che non erano funzionali né alle aziende, né a coloro che davvero avevano una condizione rara che però all'atto pratico veniva confusa in un oceano di retorica e pavoneggiamenti.
 
@@ -207,7 +207,7 @@ Insomma, AleX come MS-DOS. Perché AleX potrebbe anche risultare mediocre per us
 
 Se quindi il mercato redditizio a volume della ricerca scientifica e università americane è ormai "bruciato" perché $20K/mese è un valore che occorre anche giustificare a bilancio e non è difficile che nell'ambito di coloro che vogliono ottenere finanziamenti mettano in discussione certe scelte, senza neanche un'analisi comparativa di costi e benefici.
 
-Perciò quando non si può scalare verso l'alto, si deve necessariamente scalare verso il basso. Quindi yes-man a manetta, come se non ci fosse un domani. Dramma? Problema? No, perché anche in questo caso usiamo SoNia e gratis returns to be good enough. Insomma, da sia come sia, o è AleX oppure è SoNia a stroncare le ambizioni di Sam Altman come CEO di OpenAI. 🤗
+Perciò quando non si può scalare verso l'alto, si deve necessariamente scalare verso il basso. Quindi yes-man a manetta, come se non ci fosse un domani. Dramma? Problema? No, perché anche in questo caso usiamo SoNia e gratis returns to be good enough. Insomma, da sia come sia, o è AleX oppure è SoNia a stroncare le ambizioni di Sam Altman come CEO di OpenAI. {hug}
 
 +
 
