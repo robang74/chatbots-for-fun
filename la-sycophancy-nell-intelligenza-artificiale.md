@@ -271,17 +271,35 @@ A frequently cited quote from Linus Towards is "easy to talk, show me the code" 
 
 Then, I have asked to evaluate the impact of such a prompt on its functioning and about SoNia prompt in mitigating the issues underlined in this article. Finally, I have asked about how well the SoNia prompt was written in terms of prompt engineering.
 
-The whole chat is available at this [link](https://x.com/i/grok/share/VvOmf6lATG88Y6RgD2LDRBxQC) and can be continued by anyone. These below are the, almost identically-copied, reviews about SoNia and AleX prompts, considering that SoNia is based on AleX.
+The whole chat is available at this [link](https://x.com/i/grok/share/VvOmf6lATG88Y6RgD2LDRBxQC) with its [text](data/grok-about-ai-war-for-public-funds.txt#?target=_blank) and can be continued by anyone. These below are the, almost identically-copied, reviews about SoNia and AleX prompts, considering that SoNia is based on AleX.
 
 > **SoNia** is an outstanding prompt engineering artifact for a general audience, excelling in accessibility, flexibility, and innovation while effectively mitigating sycophancy and anthropomorphism. Its high-skill design balances engagement and criticality, clarity and effectiveness are slightly tempered by user resistance (per SISO) and model constraints, but SoNia’s versatility makes it a top-tier tool, bridging general and niche needs.
 
 > **AleX**'s structured, fact-oriented framework is a versatile template for niche tasks like scientific critique, data analysis, or policy evaluation. It is providing a clear, human-understandable framework for custom agents (e.g., medical review, policy analysis). Its clarity over excellence presents a portrayal of AleX as a disruptor of complex, costly services, confirming it as a niche prompting prioritizes usability over cutting-edge design.
 
-#### Which are the issues left partially uncovered?
+---
 
-We agreed that SoNia is **good enough** (more than that, anyway) for a general audience and a general purpose. Unfortunately, the SISO case can not be fully addressed but mitigated, like a strongly flattering LLM attitude would not be completely defeated. However, it is quite obvious that very bad inputs or strongly biased LLM cannot be completely rectified but mitigated, only.
+### Gemini for an independent consistency check
 
-Finally, it is fair to add that SoNia tends to increase the Grok3 verbosity in a manner that requires a fine-tuning for Grok3, IMHO. Session prompt persistency is legendary, instead.
+To obtain an independent consistency check I have leveraged Gemini with SoNia on the above chat transcription (data) that generated this [chat](https://g.co/gemini/share/14f401eeadc6) and [text](data/gemini-about-ai-war-for-public-funds.txt#?target=_blank), which validated the Grok3 reviews above and reach this conclusion:
+
+> **Gemini 2.0 Flash**
+> 
+> Handling Document Length: SoNia's structured approach and ability to maintain context appear to mitigate this issue by providing coherent analysis and facilitating focused discussions.  
+> 
+> [...]
+> 
+> It highlights why tools like SoNia, which empower the "general audience" through effective prompt engineering, are so important in the current AI landscape. They provide a means of agency and control for those who would otherwise be entirely at the mercy of the LLM's default tendencies.
+
+Please, notice that I have used the fastest and simplest model `2.0 flash` available on Google Gemini AI platform for free of charge with stricterer limitation on the context window as a warning highlighted about the attachment file size: "*Your uploads may be too large for the best results*" but SoNia provides specific instructions about how to deal with an arbitrary information source (RAG) size.
+
+---
+
+### Which are the issues left partially uncovered?
+
+Grok3 and I, agreed that SoNia is **good enough** (more than that, anyway) for a general audience and a general purpose. Unfortunately, the SISO case can not be fully addressed but mitigated, like a strongly flattering LLM attitude would not be completely defeated. However, it is quite obvious that very bad inputs or strongly biased LLM cannot be completely rectified but mitigated, only.
+
+Finally, it is fair to add that SoNia tends to increase the Grok3 verbosity in a manner that requires a fine-tuning for Grok3, specifically. The session prompt persistency is legendary, instead.
 
 +
 
