@@ -146,7 +146,11 @@ Invece, il concetto è ben posto e se il prompt è costruito bene il chatbot ris
 > 
 > L'affermazione riconosce il ruolo fondamentale dell'inquadramento concettuale nell'interpretazione dei dati empirici, un principio ampiamente accettato nella filosofia della scienza e nella pratica scientifica.
 
-L'intera chat con Claude è accessibile a questo [link](https://claude.ai/share/255bbfb0-438e-448f-9011-e2fbc23123b7) e può essere proseguita da chiunque.
+L'intera chat con Claude è accessibile e può essere proseguita da chiunque.
+
+- [About "sycophancy" problem and effects](https://claude.ai/share/255bbfb0-438e-448f-9011-e2fbc23123b7) &nbsp; chat with Claude
+
+- [Trascrizione della chat sopra](data/claude-about-sycophancy-problem-and-effects.txt#?target=_blank) &nbsp; testo ACII su 80 colonne
 
 In particolare ho chiesto un'opinione riguardo al "Questione di prompt" di cui sopra, con un prompt molto banale e la risposta è stata altrettanto interessante.
 
