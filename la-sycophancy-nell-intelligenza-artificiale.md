@@ -299,10 +299,9 @@ Please, notice that I have used the fastest and simplest model `2.0 flash` avail
 
 Grok3 and I, agreed that SoNia is **good enough** (more than that, anyway) for a general audience and a general purpose. Unfortunately, the SISO case can not be fully addressed but mitigated, like a strongly flattering LLM attitude would not be completely defeated.
 
-However, in general, it is obvious that very bad inputs or strongly biased LLM cannot be completely rectified but mitigated only. In that case, the only options are to rely on another AI chatbot service or better training it. This latter is out of the end-user capability.
+However, in general, it is obvious that very bad inputs or strongly biased LLM cannot be completely rectified but mitigated only. In that case, the only options are to rely on another AI chatbot service or better training it.
 
 Finally, it is fair to add that SoNia tends to increase the Grok3 verbosity in a manner that requires a fine-tuning for Grok3, specifically. The session prompt persistency is legendary, instead.
-
 +
 
 ## Share alike
