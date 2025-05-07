@@ -281,7 +281,7 @@ The whole chat is available at this [link](https://x.com/i/grok/share/VvOmf6lATG
 
 We agreed that SoNia is **good enough** (more than that, anyway) for a general audience and a general purpose. Unfortunately, the SISO case can not be fully addressed but mitigated, like a strongly flattering LLM attitude would not be completely defeated. However, it is quite obvious that very bad inputs or strongly biased LLM cannot be completely rectified but mitigated, only.
 
-Finally, it is fair to add that SoNia tends to increase the Grok3 verbosity in a manner that requires a fine-tuning for Grok3, IMHO.
+Finally, it is fair to add that SoNia tends to increase the Grok3 verbosity in a manner that requires a fine-tuning for Grok3, IMHO. Session prompt persistency is legendary, instead.
 
 +
 
