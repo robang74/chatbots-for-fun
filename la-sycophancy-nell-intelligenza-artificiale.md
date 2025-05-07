@@ -247,7 +247,7 @@ Come per altro anche [Market Watch](https://www.marketwatch.com/story/openai-say
 
 > Our for-profit LLC, which has been under the nonprofit since 2019, will transition to a Public Benefit Corporation (PBC)–a purpose-driven company structure that has to consider the interests of both shareholders and the mission.
 
-Citando una [lettera](https://openai.com/index/evolving-our-structure/) di Sam Altman del 5 maggio 2025 ai dipendenti, riguardo alla ristrutturazione appare chiaro il cambiamento, e che la nuova struttura si ponga come obbiettivo quello di attrarre fondi pubblici piuttosto che continuare le attività attraverso la vendita di servizi.
+Citando una [lettera](https://openai.com/index/evolving-our-structure/) di Sam Altman del 5 maggio 2025 ai dipendenti, riguardo alla ristrutturazione appare chiaro il cambiamento, e che la nuova struttura si ponga come obiettivo quello di attrarre fondi pubblici piuttosto che continuare le attività attraverso la vendita di servizi.
 
 Si è quindi ribaltato il rapporto: se prima era Microsoft/OpenAI a pagare per farsi dire dagli opinionisti come dovrebbe funzionare ChatGPT adesso è OpenAI/LLC a pretendere di essere pagata per farsi dire cosa il suo modello LLM deve considerare appropriato, legittimo e veritiero.
 
@@ -255,7 +255,7 @@ Si è quindi ribaltato il rapporto: se prima era Microsoft/OpenAI a pagare per f
 
 Alla fine della fiera, Sam Altman è diventato socialista perché senza il pubblico che paga per ChatGPT, non si magna con OpenAI. Vedremo come si porrà la questione con Elon Musk al DOGE impegnato nel taglio degli sprechi, e come quest'ultimo valuterà ChatGPT in termini di resa energetica versus value delivery, magari con [Grok3 w/SoNia](https://x.com/i/grok/share/YTw1nHzuVpNTgmw3ZH9NhJMD8) come riferimento prestazionale. {B-)}
 
-**Spoiler**: my educated guess is that there is a "group of people", in our world and living among us but differnt from us, that is not working in the proper {place, position role, way} as they should. Hopefully FedEx was already [aware about them](https://www.youtube.com/shorts/sZBM96zzb6U), and politely informed us in advance around 2014 circa because this would save us the effort to identify the scapegoat to blame for everything wrong.
+**Spoiler**: my educated guess is that there is a "group of people", in our world and living among us but different from us, that is not working in the proper {place, position role, way} as they should. Hopefully FedEx was already [aware about them](https://www.youtube.com/shorts/sZBM96zzb6U), and politely informed us in advance around 2014 circa because this would save us the effort to identify the scapegoat to blame for everything wrong.
 
 +
 
