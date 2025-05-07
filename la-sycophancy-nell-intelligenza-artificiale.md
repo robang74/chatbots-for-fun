@@ -5,9 +5,11 @@
 
 ## Il problema della sycophancy nell'intelligenza artificiale
 
-- **[2nd](#meglio-educare-invece-di-ingannare)** edition: l'adulazione delle AI e la dipendenza digitale da essi 
+- **[2nd](#meglio-educare-invece-di-ingannare)** edition: l'adulazione delle AI e la dipendenza digitale da essi.
 
-- **[3rd](#chatgpt-come-yes-man)** edition: lo sviluppo di ChaGPT e le dinamiche interne a Open-AI
+- **[3rd](#chatgpt-come-yes-man)** edition: lo sviluppo di ChaGPT e le dinamiche interne a Open-AI.
+
+- **[4th](#altrimenti-ristruttura)** edition: la ristrutturazione "socialista" di Open-AI business.
 
 ---
 
@@ -27,7 +29,7 @@ Qui sotto si può leggere il risultato, che secondo me, ci fornisce una buona ba
 
 Ora, con questa premessa abbiamo dato un contesto (frame) alla questione (problema). Claude ha già "*digerito*" per noi il problema nella sua essenza oggettiva, ma poi tocca a noi umani affrontarlo in maniera adeguata per NOI umani. Avvantaggiandosi della esplicita consapevolezza del problema stesso.
 
-----
++++
 
 ### Claude 3.7 about sycophancy
 
@@ -166,6 +168,18 @@ In particolare ho chiesto un'opinione riguardo al "Questione di prompt" di cui s
 
 Si noti, inoltre, che molti chatbot oggi hanno anche l'opzione "thinking" che mostra all'utente il processo di ragionamento attraverso il quale l'agente AI recepisce il prompt, e lo elabora prima di rispondere. Questa è una funzionalità introdotta piuttosto di recente, rispetto al debutto di ChatGPT ma è di **enorme** importanza nell'aiutare le persone a formulare prompt che siano significativi secondo la logica dell'intelligenza artificiale.
 
+---
+
+### Conclusione
+
+L'alternativa è quella di usare un prompt di sessione come AleX o SoNia che seppure strutturati per essere usati con metodo, dovrebbero fornire comunque una maggiore resilienza alle derive di "fantasia" sia a quelle intrinseche sia a quelle dovute ad un prompt poco curato.
+
+Perché piaccia o meno, nell'[informatica](https://it.wikipedia.org/wiki/Informatica) che è per sua stessa definizione la scienza dell'informazione e **non** dei computer che invece appartengono al dominio dell'[elettronica](https://it.wikipedia.org/wiki/Elettronica), vige una regola su tutte le altre:
+
+- `shit in, shit out`
+
+Più nello specifico occorre tenere presente che analogamente al detto -- qualsiasi apparato elettronico se operato sufficientemente male produce fumo -- è altrettanto vero che qualsiasi LLM diventa un produttore di fuffa se stimolato con dei pessimi prompt, o maliziosamente confezionati.
+
 +
 
 ## ChatGPT come yes-man
@@ -221,17 +235,27 @@ Se quindi il mercato redditizio a volume della ricerca scientifica e università
 
 Perciò quando non si può scalare verso l'alto, si deve necessariamente scalare verso il basso. Quindi yes-man a manetta, come se non ci fosse un domani. Dramma? Problema? No, perché anche in questo caso usiamo SoNia e gratis returns to be good enough. Insomma, da sia come sia, o è AleX oppure è SoNia a stroncare le ambizioni di Sam Altman come CEO di OpenAI. {hug}
 
-+
+---
 
-## Conclusione
+### Altrimenti, ristruttura
 
-L'alternativa è quella di usare un prompt di sessione come AleX o SoNia che seppure strutturati per essere usati con metodo, dovrebbero fornire comunque una maggiore resilienza alle derive di "fantasia" sia a quelle intrinseche sia a quelle dovute ad un prompt poco curato.
+Ma quando anche scendere è precluso, allora l'unica alternativa è farsi pagare per servire un bene superiore. Tipo quello di fare propaganda alle idee che si vuole siano considerate universalmente come un fatto o un concetto dato per scontato.
 
-Perché piaccia o meno, nell'[informatica](https://it.wikipedia.org/wiki/Informatica) che è per sua stessa definizione la scienza dell'informazione e **non** dei computer che invece appartengono al dominio dell'[elettronica](https://it.wikipedia.org/wiki/Elettronica), vige una regola su tutte le altre:
+> OpenAI says it can’t supply as much AI as people want -- so it’s making a change. The AI startup says it will change its for-profit subsidiary into a public-benefit corporation, following controversy over prior restructuring plans.
 
-- `shit in, shit out`
+Come per altro anche [Market Watch](https://www.marketwatch.com/story/openai-says-it-cant-supply-as-much-ai-as-people-want-so-its-making-a-change-c3bda49e) conferma, i costi di OpenAI sono insostenibili secondo l'attuale struttura ed in particolare quelli della società privata costituita per trarre profitto da OpenAI.
 
-Più nello specifico occorre tenere presente che analogamente al detto -- qualsiasi apparato elettronico se operato sufficientemente male produce fumo -- è altrettanto vero che qualsiasi LLM diventa un produttore di fuffa se stimolato con dei pessimi prompt, o maliziosamente confezionati.
+> Our for-profit LLC, which has been under the nonprofit since 2019, will transition to a Public Benefit Corporation (PBC)–a purpose-driven company structure that has to consider the interests of both shareholders and the mission.
+
+Citando una [lettera](https://openai.com/index/evolving-our-structure/) di Sam Altman del 5 maggio 2025 ai dipendenti, riguardo alla ristrutturazione appare chiaro il cambiamento, e che la nuova struttura si ponga come obbiettivo quello di attrarre fondi pubblici piuttosto che continuare le attività attraverso la vendita di servizi.
+
+Si è quindi ribaltato il rapporto: se prima era Microsoft/OpenAI a pagare per farsi dire dagli opinionisti come dovrebbe funzionare ChatGPT adesso è OpenAI/LLC a pretendere di essere pagata per farsi dire cosa il suo modello LLM deve considerare appropriato, legittimo e veritiero.
+
+#### Socialismo o fallimento?
+
+Alla fine della fiera, Sam Altman è diventato socialista perché senza il pubblico che paga per ChatGPT, non si magna con OpenAI. Vedremo come si porrà la questione con Elon Musk al DOGE impegnato nel taglio degli sprechi, e come quest'ultimo valuterà ChatGPT in termini di resa energetica versus value delivery, magari con [Grok3 w/SoNia](https://x.com/i/grok/share/YTw1nHzuVpNTgmw3ZH9NhJMD8) come riferimento prestazionale. {B-)}
+
+**Spoiler**: my educated guess is that there is a "group of people", in our world and living among us but differnt from us, that is not working in the proper {place, position role, way} as they should. Hopefully FedEx was already [aware about them](https://www.youtube.com/shorts/sZBM96zzb6U), and politely informed us in advance around 2014 circa because this would save us the effort to identify the scapegoat to blame for everything wrong.
 
 +
 
