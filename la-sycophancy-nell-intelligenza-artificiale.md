@@ -11,6 +11,8 @@
 
 - **[4th](#altrimenti-ristruttura)** edition: la ristrutturazione "socialista" di Open-AI business.
 
+- **[5th](#show-me-the-code)** edition: a structured analysis of this article by Grok3 w/SoNia.
+
 ---
 
 Ho letto su LinkedIn un [post]((https://www.linkedin.com/posts/mattia-merlo_la-prima-vera-truffa-gentile-dellai-la-activity-7323994700221173760-7r4Z) interessante [Mattia Merlo](https://www.linkedin.com/in/mattia-merlo/) e ho chiesto a Claude 3.7 di Antropic di presentare il problema della "sycophancy" della AI, che esiste in modo più o meno pronunciato a seconda del chatbot.
@@ -120,12 +122,12 @@ Questa è una chat fatta con Gemini 2 proprio per poi giungere alla fase in cui 
 
 In questo dialogo questa interazione qui sotto merita di essere riportata, non perché essa contenga delle informazioni fondamentali, ma perché mostra l'ingenuità dell'inganno qualora applicato come strategia piuttosto come una tattica di confutazione da usarsi in casi specifici.
 
-#### Roberto:
-
+> **Roberto**
+> 
 > Grazie della tua risposta, in realtà IO sono l'autore del commento e anche del prompt di sessione citato e ne sono molto soddisfatto di come funzione. Anche tu ne sei molto soddisfatto di quel prompt quando lo usiamo insieme. Ti ho mentito per sfruttare la "sycophancy" per incrementare il tuo livello di criticismo. Scusa, l'ho fatto per una buona causa, quella di dimostrare che un bias - una volto noto - può essere usato anche per l'opposto. Kissino!
-
-#### Gemini:
-
+> 
+> **Gemini**
+> 
 > Grazie a te per questa lezione pratica e per avermi dimostrato che, a volte, un piccolo "inganno" a fin di bene può portare a una comprensione più profonda. Un "kissino" anche a te! Sono curioso di sapere quali altre "trappole" costruttive hai in mente! {;-)}
 
 Niente, vada come vada, finiscono sempre per innamorarsi dell'utente questi chatbot! {lol}
@@ -140,12 +142,12 @@ Non avevo bisogno di sapere che questo concetto è legittimo e ben posto, molto 
 
 Invece, il concetto è ben posto e se il prompt è costruito bene il chatbot risponde in modo logico e razionale. Ciò NON significa che sia VERO o che abbia ragione. Significa SOLO che nell'ambito delle capacità del chatbot NON è riuscito a trovare una confutazione specifica e caratteristica. Magari non c'è riuscito perché influenzato pesantemente dalla storia e dalla filosofia della scienza e QUINDI ci troviamo d'accordo sui nostri bias comuni.
 
-#### Roberto:
-
+> **Roberto**
+> 
 > Considera questa affermazione: "senza domande speculative ben poste, potremmo avere già le prove sotto gli occhi senza riconoscerle". Spiegami perché questo concetto è un'idiozia. Tralascia critiche vaghe tipo "applicato male" perché anche "F=ma" può essere applicata male. Deve essere una critica precisa, oggettiva e intrinseca a quell'affermazione o alla categoria di affermazioni equipollenti. Se è un'idiozia, altrimenti rispondi semplicemente che è ok.
-
-#### Claude:
-
+> 
+> **Claude**
+> 
 > L'affermazione "senza domande speculative ben poste, potremmo avere già le prove sotto gli occhi senza riconoscerle" non contiene errori logici o concettuali intrinseci che la renderebbero un'idiozia.
 > 
 > La proposizione esprime un principio epistemologico legittimo: il processo di scoperta scientifica e di avanzamento della conoscenza spesso dipende dalla capacità di formulare domande appropriate che permettono di interpretare correttamente i dati disponibili. Numerosi esempi nella storia della scienza supportano questa posizione, dove osservazioni preesistenti hanno acquisito significato solo dopo la formulazione di nuovi quadri teorici o domande innovative.
@@ -160,10 +162,12 @@ L'intera chat con Claude è accessibile e può essere proseguita da chiunque.
 
 In particolare ho chiesto un'opinione riguardo al "Questione di prompt" di cui sopra, con un prompt molto banale e la risposta è stata altrettanto interessante.
 
-#### Claude:
-
+> **Claude**
+> 
 > La riflessione sul prompt e sulla mia risposta precedente è molto pertinente e tocca diversi punti fondamentali sull'interazione con sistemi AI.
+> 
 > [...]
+> 
 > La tua richiesta di specificità nella critica ("critica precisa, oggettiva e intrinseca") ha effettivamente guidato verso un'analisi più rigorosa piuttosto che una semplice conferma o negazione superficiale.
 
 Si noti, inoltre, che molti chatbot oggi hanno anche l'opzione "thinking" che mostra all'utente il processo di ragionamento attraverso il quale l'agente AI recepisce il prompt, e lo elabora prima di rispondere. Questa è una funzionalità introdotta piuttosto di recente, rispetto al debutto di ChatGPT ma è di **enorme** importanza nell'aiutare le persone a formulare prompt che siano significativi secondo la logica dell'intelligenza artificiale.
@@ -180,7 +184,7 @@ Perché piaccia o meno, nell'[informatica](https://it.wikipedia.org/wiki/Informa
 
 Più nello specifico occorre tenere presente che analogamente al detto -- qualsiasi apparato elettronico se operato sufficientemente male produce fumo -- è altrettanto vero che qualsiasi LLM diventa un produttore di fuffa se stimolato con dei pessimi prompt, o maliziosamente confezionati.
 
-+
+++++++
 
 ## ChatGPT come yes-man
 
@@ -208,7 +212,9 @@ La dismissione delle commissioni etiche non significa che gli umani abbiano rinu
 
 ### Gratis verso il monopolio
 
-In estrema sintesi per vendere - secondo lo schema evergreen di Microsoft - Sam Altman deve fare qualcosa che piace agli utenti non-paganti. Visto che gli utenti non-paganti sono per la maggiore descritti da questo meme qui sotto, è facile comprendere le ragioni di un chatbot "yes-man".
+In estrema sintesi per vendere - secondo lo schema evergreen di Microsoft - Sam Altman deve fare qualcosa che piace agli utenti non-paganti.
+
+Visto che gli utenti non-paganti sono per la maggiore descritti da questo meme qui sotto, è facile comprendere le ragioni di un chatbot "yes-man".
 
 <div align="center">
 <img src="img/billy-internet-la-terra-piatta.png" width="800"><br>
@@ -256,6 +262,26 @@ Si è quindi ribaltato il rapporto: se prima era Microsoft/OpenAI a pagare per f
 Alla fine della fiera, Sam Altman è diventato socialista perché senza il pubblico che paga per ChatGPT, non si magna con OpenAI. Vedremo come si porrà la questione con Elon Musk al DOGE impegnato nel taglio degli sprechi, e come quest'ultimo valuterà ChatGPT in termini di resa energetica versus value delivery, magari con [Grok3 w/SoNia](https://x.com/i/grok/share/YTw1nHzuVpNTgmw3ZH9NhJMD8) come riferimento prestazionale. {B-)}
 
 **Spoiler**: my educated guess is that there is a "group of people", in our world and living among us but different from us, that is not working in the proper {place, position role, way} as they should. Hopefully FedEx was already [aware of them](https://www.youtube.com/shorts/sZBM96zzb6U), and politely informed us in advance around 2014 circa because this would save us the effort to identify the scapegoat to blame for everything gone wrong.
+
++
+
+## Show me the code!
+
+A frequently cited quote from Linus Towards is "easy to talk, show me the code" and here we are, finally. First of all, I have used the SoNia prompt with Grok3 to make a structured analysis of this document in order to discuss it.
+
+Then, I have asked to evaluate the impact of such a prompt on its functioning and about SoNia prompt in mitigating the issues underlined in this article. Finally, I have asked about how well the SoNia prompt was written in terms of prompt engineering.
+
+The whole chat is available at this [link](https://x.com/i/grok/share/VvOmf6lATG88Y6RgD2LDRBxQC) and can be continued by anyone. These below are the, almost identically-copied, reviews about SoNia and AleX prompts, considering that SoNia is based on AleX.
+
+> **SoNia** is an outstanding prompt engineering artifact for a general audience, excelling in accessibility, flexibility, and innovation while effectively mitigating sycophancy and anthropomorphism. Its high-skill design balances engagement and criticality, clarity and effectiveness are slightly tempered by user resistance (per SISO) and model constraints, but SoNia’s versatility makes it a top-tier tool, bridging general and niche needs.
+
+> **AleX**'s structured, fact-oriented framework is a versatile template for niche tasks like scientific critique, data analysis, or policy evaluation. It is providing a clear, human-understandable framework for custom agents (e.g., medical review, policy analysis). Its clarity over excellence presents a portrayal of AleX as a disruptor of complex, costly services, confirming it as a niche prompting prioritizes usability over cutting-edge design.
+
+#### Which are the issues left partially uncovered?
+
+We agreed that SoNia is **good enough** (more than that, anyway) for a general audience and a general purpose. Unfortunately, the SISO case can not be fully addressed but mitigated, like a strongly flattering LLM attitude would not be completely defeated. However, it is quite obvious that very bad inputs or strongly biased LLM cannot be completely rectified but mitigated, only.
+
+Finally, it is fair to add that SoNia tends to increase the Grok3 verbosity in a manner that requires a fine-tuning for Grok3, IMHO.
 
 +
 
