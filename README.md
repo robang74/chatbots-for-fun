@@ -87,7 +87,7 @@ A grouped by topic and others articles are listed here below.
 
 * **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (7 pz.)
 
-   - 2025-05-02 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/la-sycophancy-nell-intelligenza-artificiale.md)] - [Il problema della sycophancy nell'intelligenza artificiale](la-sycophancy-nell-intelligenza-artificiale.md) &nbsp; (3rd edt.)
+   - 2025-05-02 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/la-sycophancy-nell-intelligenza-artificiale.md)] - [Il problema della sycophancy nell'intelligenza artificiale](la-sycophancy-nell-intelligenza-artificiale.md) &nbsp; (4th edt.)
 
    - 2025-01-12 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/come-leggere-una-chat-con-un-ai.md)] - [Come leggere una chat con un AI](come-leggere-una-chat-con-un-ai.md)
 
