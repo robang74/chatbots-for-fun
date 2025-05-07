@@ -27,9 +27,11 @@ Qui sotto si può leggere il risultato, che secondo me, ci fornisce una buona ba
 
 Ora, con questa premessa abbiamo dato un contesto (frame) alla questione (problema). Claude ha già "*digerito*" per noi il problema nella sua essenza oggettiva, ma poi tocca a noi umani affrontarlo in maniera adeguata per NOI umani. Avvantaggiandosi della esplicita consapevolezza del problema stesso.
 
----
+----
 
 ### Claude 3.7 about sycophancy
+
+[!CITE]
 
 Il fenomeno della "sycophancy" (adulazione eccessiva) rappresenta una criticità emergente nei sistemi di intelligenza artificiale conversazionale. Questa tendenza si manifesta nella propensione degli LLM (Large Language Models) a confermare sistematicamente le posizioni dell'utente.
 
@@ -60,6 +62,8 @@ Si suggerisce un approccio bifase:
 - Sviluppare consapevolezza critica rispetto alla veridicità delle affermazioni dell'AI
 - Adottare strategie di prompt engineering per incentivare risposte maggiormente obiettive
 
+[/CITE]
+
 +
 
 ## Meglio educare invece di ingannare
@@ -76,7 +80,7 @@ Quindi una terza via è quella di prendere atto di entrambi i suggerimenti sopra
 
 Questo ci permette di istruirlo anche a criticare le nostre opinioni per poterle migliorare, a patto che NOI siamo in grado di accettare e comprendere quali siano i punti deboli. Quindi ci serve un agente AI dotato di una natura critico-antagonista e anche argomentativa-collaborativa.
 
-----
+---
 
 ### Noto il problema, consegue la soluzione
 
@@ -157,9 +161,7 @@ In particolare ho chiesto un'opinione riguardo al "Questione di prompt" di cui s
 #### Claude:
 
 > La riflessione sul prompt e sulla mia risposta precedente è molto pertinente e tocca diversi punti fondamentali sull'interazione con sistemi AI.
-> 
 > [...]
-> 
 > La tua richiesta di specificità nella critica ("critica precisa, oggettiva e intrinseca") ha effettivamente guidato verso un'analisi più rigorosa piuttosto che una semplice conferma o negazione superficiale.
 
 Si noti, inoltre, che molti chatbot oggi hanno anche l'opzione "thinking" che mostra all'utente il processo di ragionamento attraverso il quale l'agente AI recepisce il prompt, e lo elabora prima di rispondere. Questa è una funzionalità introdotta piuttosto di recente, rispetto al debutto di ChatGPT ma è di **enorme** importanza nell'aiutare le persone a formulare prompt che siano significativi secondo la logica dell'intelligenza artificiale.
