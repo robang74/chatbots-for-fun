@@ -255,7 +255,7 @@ Si è quindi ribaltato il rapporto: se prima era Microsoft/OpenAI a pagare per f
 
 Alla fine della fiera, Sam Altman è diventato socialista perché senza il pubblico che paga per ChatGPT, non si magna con OpenAI. Vedremo come si porrà la questione con Elon Musk al DOGE impegnato nel taglio degli sprechi, e come quest'ultimo valuterà ChatGPT in termini di resa energetica versus value delivery, magari con [Grok3 w/SoNia](https://x.com/i/grok/share/YTw1nHzuVpNTgmw3ZH9NhJMD8) come riferimento prestazionale. {B-)}
 
-**Spoiler**: my educated guess is that there is a "group of people", in our world and living among us but different from us, that is not working in the proper {place, position role, way} as they should. Hopefully FedEx was already [aware about them](https://www.youtube.com/shorts/sZBM96zzb6U), and politely informed us in advance around 2014 circa because this would save us the effort to identify the scapegoat to blame for everything wrong.
+**Spoiler**: my educated guess is that there is a "group of people", in our world and living among us but different from us, that is not working in the proper {place, position role, way} as they should. Hopefully FedEx was already [aware of them](https://www.youtube.com/shorts/sZBM96zzb6U), and politely informed us in advance around 2014 circa because this would save us the effort to identify the scapegoat to blame for everything wrong.
 
 +
 
