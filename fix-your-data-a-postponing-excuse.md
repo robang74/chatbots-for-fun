@@ -63,9 +63,11 @@ Theory is a thing and practice is another, but an example is an example. We have
 
 - [Fixing your data with an AI agent](https://g.co/gemini/share/39699bbf6a12) &nbsp; an example by Gemini 2.0 Flash w/SoNia v3.5.3
 
+- [Transcription of the above conversation](data/gemini-fix-your-data-is-a-postponing-excuse.txt#?target=_blank) &nbsp; in 80 cols text and redundancy stripped.
+
 As we can read at the end of the conversation, the AI agent considers itself trained "good enough" to start its work on a subset of the data (papers collection) which will lead to a fine-tuning in the final data cleaning (or rectification) process.
 
-...
+....
 
 #### Rejection threshold
 
