@@ -47,15 +47,13 @@ As long as AI will evolve, it will be easier to include in this prompt higher-le
 
 ---
 
-### A playful PoC demo
+### Show me the code!
 
-SoNia -> lnkd.in/dtmE9WvZ
+Theory is a thing and practice is another, but an example is an example. We have a text (above this section), we have a session prompt (SoNia), and thus we can create an AI agent for classifying papers like this. Here below the result of this approach:
 
-Then start to inspect some data fragments. Check about "unordered or reversal order" inputs. Which gives us a bit of taste about what the AI agent will face and how to react. Them give a coherent, pre-elaborated sample as RAG and ask to define dimensions for classification and ratings. Finally, fine tuning it.
+- [https://g.co/gemini/share/c0b66270056b](https://g.co/gemini/share/c0b66270056b)
 
-Grok3 -> lnkd.in/dGWpRyxK
-
-An example is proposed above (link)
+As we can read at the end of the conversation, the AI agent consider itself trained "good enough" to start its work on a subset of the data (papers collection) which will lead to a fine-tuning in the finally data cleaning (or rectification) process.
 
 +
 
