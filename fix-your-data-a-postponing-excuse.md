@@ -5,9 +5,11 @@
 
 ## Fix your data is a postponing excuse
 
-I read a [post](https://www.linkedin.com/posts/ben-torben-nielsen_ai-data-somedatahasvalue-activity-7325021700885000193-cC5j) from [Ben Torben-Nielsen](https://www.linkedin.com/in/ben-torben-nielsen/) published on LinkedIn which caused me to write this short article with a playful demo as proof-of-concept.
+I read a [post](https://www.linkedin.com/posts/ben-torben-nielsen_ai-data-somedatahasvalue-activity-7325021700885000193-cC5j) titled "Two unpopular opinions about data in AI" from [Ben Torben-Nielsen](https://www.linkedin.com/in/ben-torben-nielsen/) published on LinkedIn which caused me to write this short article with a playful demo as proof-of-concept.
 
-I totally agree that "*fix your data, first*" is often a postponing excuse for adopting artificial intelligence. Because data could be a mess but more probable "*they are what they are*". Fortunately, one of the Ai's great advantages is its inherently predisposition to deal with data and even creating labels to categorise it and/or rate chunks of it.
+- I totally agree that "**fix your data, first**" is often a postponing excuse for adopting artificial intelligence.
+
+Because data could be a mess but more probable "**they are what they are**". Fortunately, one of the Ai's great advantages is its inherently predisposition to deal with data and even creating labels to categorise it and/or rate chunks of it.
 
 ---
 
@@ -41,13 +43,17 @@ We might continue including multiple points of view, which are essential to eval
 
 As long as AI will evolve, it will be easier to include in this prompt higher-level activity with a smaller effort than the time it has written. As long as someone is not going to pay for a smarter way, it is better to wait until the "many-people-doing-stuff" approach reach the "good enough" outcome to write a better version of the prompt. As simple as that.
 
----
+...
 
-### A couple of warnings
+#### Bias Amplification
 
-- **Bias Amplification**: while AI can identify biases, there's also a risk that it might inadvertently amplify existing biases in the data if not carefully designed and monitored.
+- while AI can identify biases, there's also a risk that it might inadvertently amplify existing biases in the data if not carefully designed and monitored.
 
-- **Resource Intensity**: an AI agent for restructuring the raw data and another AI agent to consume it. Two different tasks, two different AIs, two different systems. In general.
+#### Resource Intensity
+
+- an AI agent for restructuring the raw data and another AI agent to consume it. Two different tasks, two different AIs, two different systems. In general.
+
+Take note of these two as warnings will save precious resources in architectural design and the need of a further step of data cleaning in trying to cope with biases, which are also affecting numeric data when different scales or measure techniques are involved.
 
 ---
 
@@ -59,17 +65,27 @@ Theory is a thing and practice is another, but an example is an example. We have
 
 As we can read at the end of the conversation, the AI agent considers itself trained "good enough" to start its work on a subset of the data (papers collection) which will lead to a fine-tuning in the final data cleaning (or rectification) process.
 
-- an expected percentage of rejected items to increase its confidence in using that label
+...
 
-- a way to create the report about for each item that has been examined, with the scores
+#### Rejection threshold
+
+- set an expected percentage of rejected items to increase its confidence in using that label.
+
+#### Item-level report
+
+- define a way to create the report for each item that has been examined, with the scores table.
 
 These two further steps would significantly increase the value of the AI agent work. However, for an initially small subset, the first can be guessed among a reasonable value while the second can be postponed or left to the AI agent to determine how to create the report.
 
-- `fix your data, first`  &nbsp; -->  &nbsp; `fix your goal, first`
+---
+
+### Interactive approach wins
 
 In practice both can be achieved along the same process in which the AI agent learns from data under the guidance of the human operator, who does the training and decides which correctives are necessary to apply leveraging data science theory and practice.
 
-This interactive process that goes through different phases of progressively improvement in data cleaning and rectifying the rules, is similar to the SCRUM method but with an AI agent as a developing team and the human operator as the SCRUM master.
+- `fix your data, first`  &nbsp; -->  &nbsp; `fix your goal, first`
+
+This interactive process that goes through different phases of progressively improvement in data cleaning and rectifying the rules, is similar to the SCRUM but with an AI agent as a developing team and the human operator as the SCRUM master.
 
 +
 
