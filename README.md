@@ -85,7 +85,11 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
-* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (7 pz.)
+* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (8 pz.)
+
+
+
+   - 2025-05-08 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/fix-your-data-a-postponing-excuse.md)] - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md)
 
    - 2025-05-02 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/la-sycophancy-nell-intelligenza-artificiale.md)] - [Il problema della sycophancy nell'intelligenza artificiale](la-sycophancy-nell-intelligenza-artificiale.md) &nbsp; (4th edt.)
 
