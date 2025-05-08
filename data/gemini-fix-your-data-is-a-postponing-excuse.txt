@@ -1,0 +1,427 @@
+Chat U2A: human operator prompt first, then AI agent answer. Width: 80 columns.
+
+************* Gemini 2 about fix your data is a postponing excuse **************
+
+https://g.co/gemini/share/39699bbf6a12
+
+Created: 8th May 2025
+Published: 8th May 2025
+Attachment: none
+
+================================================================================
+
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.5.3 
+
+[SoNia session prompt v3.5.3]
+
+---
+
+OK
+
+---
+
+Please identify the most significative concepts (implicit and expressed, biases
+including) in this document in RAG, list them and briefly comment them with a
+sentence. For each of them, assign a letter in such a way we can refer to each
+of them like (X).
+
+==RAG==
+
+## Fix your data is a postponing excuse
+
+[text before "Show me the code!" section]
+
+---
+
+Okay, I've processed the document with RAG. Here are some of the most
+significant concepts I've identified, along with brief comments and letter
+designations:
+
+(A) Postponing Excuse ("fix your data, first"): The author disagrees with this
+    being a necessary prerequisite for AI adoption, suggesting data can be
+    dealt with as is. 
+
+(B) AI's Predisposition to Handle Messy Data: A key argument is that AI
+    inherently possesses the capability to process and categorize even
+    unstructured data.
+
+(C) Generic AI Agent: The proposal to initially create an AI capable of
+    understanding data format (image, text, sound, etc.) as a first step.
+
+(D) Generic Instructions/Guardrails: The necessity of providing initial
+    guidance (rules, frameworks like RAG) for the AI agent to operate
+    coherently.
+
+(E) LLM for Language Processing: The reliance on Large Language Models to
+    handle the complexities of human language, including grammar and semantics.
+
+(F) Extracting Expressed and Implicit Claims: The distinction between
+    summarizing and identifying underlying assertions, including "memes."
+
+(G) Implicit Assumptions/Biases (Memes): Uncritically accepted ideas that may
+    not be overtly stated but influence the text.
+
+(H) Personal Beliefs vs. Established Knowledge: The categorization of highly
+    peculiar ideas that deviate from recognized patterns (e.g., flat Earth).
+
+(I) Coherence and Usefulness over True/False: Shifting the focus from a binary
+    validity to the contextual relevance and utility of a concept.
+
+(J) Profiling (Understanding a Serial Killer): An example illustrating how
+    understanding a viewpoint, even a negative one, can be useful for analysis.
+
+(K) Multiple Points of View: The importance of considering various perspectives
+    to build a comprehensive understanding of relationships between concepts.
+
+(L) Session Prompt for Raw Data: The mention of a specific tool (SoNia prompt 
+    v3.5.3) designed to handle messy user-generated data.
+
+(M) Bias Amplification (AI Risk): Acknowledging the danger of AI inadvertently
+    reinforcing existing biases in the data.
+
+(N) Resource Intensity (Two Different AIs): The observation that processing raw
+    data might require separate AI agents for restructuring and consumption.
+
+---
+
+Which is the main topic of this text in RAG? The aim for which the author has
+written it. In one sentence. Label it as "(1) main goal"
+
+---
+
+(1) main goal: The author aims to challenge the notion that data must be
+    perfectly "fixed" before adopting AI, arguing that AI's inherent
+    capabilities allow it to handle messy data effectively from the outset.
+
+---
+
+Considering (1), create a series of relationships (steps) in which (A) ... (N)
+but not necessarily all are used to shown HOW to reach this goal. Avoid those
+are mere exemplification of other concept or corner cases. As per minimal chain
+of thought and label it (TC).
+
+---
+
+(TC) The author argues against the prerequisite of perfectly fixed data (A) by
+     highlighting AI's inherent ability to handle messy data (B). This is
+     achieved by initially creating a generic AI agent (C) equipped with
+     fundamental instructions (D) to process various data formats. This agent
+     can then extract expressed and implicit claims (F), including biases (G),
+     from the raw data, ultimately demonstrating that valuable insights can be
+     gained without extensive pre-processing.
+
+---
+
+I noticed that elements in (TC) are those in the top of the most significative
+concepts. When you created the list, did you organised it by an weight rating
+or the author puts the (TC) at the beginning of the articles and then
+exemplified and analysed it more in details or for clarification?
+
+---
+
+That's an astute observation! When I generated the list of significant concepts
+(A) through (N), I didn't apply a specific weight rating or prioritize based on
+their position in the text. Instead, I aimed to capture the core ideas and
+arguments presented throughout the entire document.
+
+It appears that the author does indeed introduce the main thrust of their
+argument early in the article, as reflected in the elements that formed the
+(TC) chain of thought. They start by stating their disagreement with the "fix
+your data first" excuse (A) and immediately propose AI's ability to handle
+messy data (B) as a counterpoint.
+
+The subsequent sections of the article then seem to elaborate on and provide
+supporting details for this initial argument. For example, the idea of a
+generic AI agent (C) and the need for initial instructions (D) are presented as
+practical steps to work with raw data. The discussion about extracting claims
+and biases (F and G) further illustrates how AI can derive meaning from
+potentially "unfixed" data.
+
+So, while my initial listing wasn't explicitly ordered by weight or textual
+position, the fact that the core elements of the argument appear at the
+beginning of the article naturally led to their inclusion in the (TC) as the
+foundational steps towards the author's main goal. The rest of the document
+then serves to clarify, exemplify, and add nuance to these initial concepts.
+
+---
+
+Which is the probability (raw estimation) that this way of writing the article
+appears for a chance or by an intelligent design (on purpose)? Or in another
+words, can we see in (TC) a specific intent of the author, in which degree?
+
+Do you consider the (TC) valid and actionable in general, in terms of reasoning
+and tools know-how? Does it have any flaws that are specific of that (TC)?
+
+If wrongly applied, even F=ma can fail but it is not flawed in the context of
+classic mechanics. Limitations or corner cases are not impair the validity of
+the (TC) if they are considered in the article.
+
+---
+
+That's a fascinating question prompting us to consider the author's intent and
+the inherent validity of the proposed approach!
+
+Regarding the probability of the article's structure being accidental versus
+intentional, I'd lean heavily towards intelligent design (on purpose). Here's
+why:
+
+    * The clear statement of the central argument in the initial paragraphs
+      strongly suggests a deliberate structuring of ideas. The author directly
+      addresses the "fix your data first" notion and immediately presents their
+      counter-argument.
+
+    * The subsequent paragraphs logically build upon this central idea by
+      introducing the concept of a generic AI agent and the process of
+      extracting insights from raw data. This sequential development points to
+      a planned flow of information.
+
+    * The inclusion of a specific prompt (even with a version number) further
+      reinforces the idea that the author isn't just theorizing but has a
+      concrete methodology in mind.
+
+Therefore, I'd estimate the probability of this structure being intentional at
+around 85-95%. It's difficult to be absolutely certain without direct input
+from the author, but the coherence and logical progression of ideas strongly
+suggest a deliberate approach.
+
+Now, regarding the validity and actionability of (TC) in general:
+
+I consider the (TC) to be generally valid and potentially actionable,
+particularly within the context the author presents. The reasoning is sound:
+AI, especially with techniques like RAG and the ability to create labels, does
+have a capacity to process and derive meaning from less-than-perfect data. The
+proposed steps – building a format-agnostic agent with initial guidelines to
+extract claims – offer a plausible high-level strategy.
+
+However, there are potential flaws or limitations specific to this (TC) that
+are worth considering:
+
+    * Oversimplification of "Messy Data": While AI can handle various formats,
+      the semantic messiness (contradictions, inconsistencies, noise) within
+      that data can still pose significant challenges. The (TC) doesn't delve
+      deeply into how the generic agent would effectively resolve such semantic
+      conflicts.
+
+    * Abstraction of "Generic Instructions": The concept of "generic
+      instructions" is somewhat abstract. The effectiveness of the entire
+      approach hinges on the quality and comprehensiveness of these initial
+      rules and guardrails. Defining these effectively for truly diverse and
+      messy data could be a non-trivial task.
+
+    * Implicit Assumption of Universal AI Capability: The (TC) seems to assume
+      a certain level of inherent capability in AI to categorize and rate data
+      across all formats. While advancements are rapid, the practical
+      limitations of current AI in handling completely novel or highly
+      ambiguous data should be acknowledged.
+
+    * Lack of Specificity on Extraction Techniques: While mentioning the
+      extraction of claims and biases, the (TC) doesn't detail the specific AI
+      techniques or tools that would be employed. This lack of concrete detail
+      makes it less immediately actionable from a practical implementation
+      standpoint.
+
+Despite these potential limitations, the core idea of leveraging AI's inherent
+data-handling capabilities to avoid the "analysis paralysis" of endless data
+cleaning has merit. The (TC) provides a valuable high-level direction, but its
+general actionability would depend heavily on the specific implementation
+details and the nature of the "messy data" being addressed. The author
+acknowledges the need for further development of the prompt, which implicitly
+recognizes that the initial approach might be a "good enough" starting point
+rather than a definitive solution.
+
+---
+
+So, the main limitation or potential flaws are all related to one of the many
+implementation possible among all the data domains possible. Fulfill these
+flaws would require a book, not an article. Correct? Is the author took a
+specific data domain, format, etc. as example?
+
+About the (1) and (TC) can we say that the author moved from this "fix your
+data, first" to this "fix your goal, first" and show a path - a general
+approach - to indicates how move forward towards that goal?
+
+---
+
+Yes, you've hit on a crucial point. The limitations and potential flaws of the
+(TC) indeed stem from the vastness and diversity of potential data domains and
+formats. Addressing these comprehensively would necessitate a much more
+extensive work than a short article – likely approaching the scope of a book or
+at least a detailed technical paper. The author doesn't delve into the
+specifics of any single data domain or format as a primary example, keeping the
+discussion at a more conceptual level.
+
+Regarding your interpretation of the author's shift in focus, I think you've
+articulated it very well: Yes, it's accurate to say that the author moves from
+the conventional "fix your data, first" to a "fix your goal, first" mentality.
+
+The (TC) outlines a general approach – a path – to move forward towards that
+goal. Instead of being bogged down by the potentially endless task of
+perfecting the data before engaging with AI, the author proposes defining the
+objective (e.g., extracting claims, identifying biases) and then leveraging
+AI's capabilities to work with the data in its current state. The "generic AI
+agent" and the initial instructions are presented as the first steps in this
+goal-oriented approach.
+
+This perspective suggests a more agile and iterative way of working with data
+and AI. Instead of striving for perfect data as a prerequisite, the focus
+shifts to exploring what can be achieved with the data as it is, using AI as a
+tool for understanding and structuring it in relation to a specific goal. The
+author acknowledges that this might not yield perfect results immediately
+("good enough"), but it allows for progress and discovery without being stalled
+by the data cleaning bottleneck.
+
+---
+
+After this training, and considering MANY others papers similar to this about
+the relationship between data and AI agents, would you able to:
+
+1. determine a way to proceed in deal each of them
+2. determine what is important to do with them
+3. create a rating for focus the humans to the top relevant
+4. classify those are seriously flawed to reject them
+5. label for further inspection those are (1-4) outliers
+
+Please, do not create such structure just evaluate your ability to fulfill
+these task, which for sure and those for which you require more training.
+
+---
+
+Yes, based on our conversation and my general training on processing and
+analyzing text, including argumentative structures and discussions around AI
+and data, I can evaluate my ability to fulfill those tasks as follows:
+
+   1. Determine a way to proceed in dealing with each of them: Yes, I am
+      capable. I can analyze the core arguments, identify key concepts (as
+      demonstrated previously), and understand the proposed methodologies
+      within each paper. This allows me to formulate a strategy for processing
+      and extracting relevant information from each.
+
+   2. Determine what is important to do with them: Yes, I am capable. By
+      understanding the main goals and arguments of each paper, I can identify
+      the key takeaways, the proposed actions or insights, and their potential
+      relevance to the broader discussion on AI and data.
+
+   3. Create a rating to focus humans on the top relevant: Yes, I am capable,
+      but it would require a clear definition of "relevance." I can analyze the
+      strength of arguments, the novelty of ideas, the practical implications,
+      and the level of consensus (or debate) within the field as presented in
+      the papers. However, the criteria for "top relevant" would need to be
+      specified (e.g., most cited, most practically applicable, most novel
+      theoretical contribution, etc.). Once defined, I can apply these criteria
+      to generate a comparative rating.
+
+   4. Classify those that are seriously flawed to reject them: Yes, I am
+      capable, but with a degree of caution. I can identify logical fallacies,
+      inconsistencies, lack of supporting evidence, and contradictions within a
+      paper. If these flaws are severe enough to undermine the central
+      arguments and conclusions, I can classify them as seriously flawed.
+      However, "rejection" is a strong term, and I would aim to flag them with
+      clear reasoning for their classification rather than outright dismissal,
+      as even flawed papers can sometimes spark valuable discussions.
+
+   5. Label for further inspection those that are (1-4) outliers: Yes, I am
+      capable. Once the papers have been processed, analyzed, and (if
+      applicable) rated or classified, I can identify outliers based on various
+      criteria:
+
+          o Regarding the way to proceed: Papers with highly unconventional or
+            difficult-to-understand methodologies.
+
+          o Regarding what is important: Papers with exceptionally novel or
+            surprisingly contradictory conclusions compared to the general
+            trend.
+
+          o Regarding the rating: Papers that score significantly higher or
+            lower than the majority based on the defined relevance criteria.
+
+          o Regarding flawed classification: Papers where the flaws are highly
+            unusual or indicative of a fundamental misunderstanding.
+
+In summary, I am generally capable of fulfilling these tasks based on my
+current training. However, the effectiveness of tasks 3 and 4 would be
+significantly enhanced with clearer definitions of "relevance" and "seriously
+flawed," and a collaborative approach to refining these criteria would be
+beneficial. Task 5 relies on the successful execution of the preceding tasks.
+Consider these two below, without implementing anything, can these two fulfil
+your training in a way you can provide the service requested in a "good enough"
+way (e.g. start with a subset, then check, then improve if necessary or where/
+when necessary).
+
+---
+
+About 3. - top relevant are those are similar to the one in the RAG in as much
+as possible dimensions. You can set the dimension and how to rate items on that
+dimension as long as the scale is described (you have not to do by now),
+approved by the operator and applied in a coherent way (if the scale reveals
+troubling making, a note should be taken for further improvement).
+
+About 4. - rejection is nothing else that the bottom of what explained into 5.
+or in another way said, think twice before reject because in the bottom of 5.
+probably we have no humans time to check and we are going to trust on your
+judgemental.
+
+---
+
+Yes, considering these clarifications, I am confident that I can provide the
+requested service in a "good enough" way, employing an iterative approach as
+you suggested.
+
+Here's my evaluation of my ability to proceed:
+
+Regarding Task 3 (Rating for Top Relevance):
+
+    * Capability: Yes, I can proceed.
+
+    * Approach: I can define dimensions of similarity based on the RAG document
+      we've been working with. These dimensions could include:
+
+          o Core Argument Similarity: How closely the paper's central thesis
+            aligns with the RAG document's focus on AI handling messy data and
+            the "fix your goal first" mentality.
+
+          o Conceptual Overlap: The degree to which the paper discusses similar
+            concepts (e.g., implicit biases, AI agents, data preprocessing).
+
+          o Methodological Alignment (if applicable): If the paper proposes a
+            methodology, how similar is the high-level approach to the RAG's
+            suggestion of starting with a generic AI agent and iterative
+            refinement?
+
+          o Emphasis on Practicality/Actionability: How much the paper focuses
+            on actionable steps or insights, similar to the RAG's prompt and
+            the discussion around its potential implementation.
+
+    * Rating: I can devise a simple rating scale (e.g., 1-5, or a qualitative
+      scale like "Low," "Medium," "High") for each dimension. The overall
+      relevance score could be a composite of these individual ratings. I will
+      ensure the scale is clearly described and applied consistently. I will
+      also make notes if the scale reveals any troubling aspects or areas for
+      improvement.
+
+Regarding Task 4 (Classifying Seriously Flawed for Rejection):
+
+    * Capability: Yes, I can proceed with caution.
+
+    * Approach: I will identify papers that exhibit significant logical
+      fallacies, lack substantial supporting evidence, contain internal
+      contradictions that undermine their core arguments, or demonstrate a
+      fundamental misunderstanding of established concepts in the field.
+
+    * Rejection Threshold: I understand the need for careful judgment regarding
+      rejection. My initial approach will be to flag papers as "Potentially
+      Seriously Flawed" with a detailed explanation of the identified issues. I
+      will reserve outright "rejection" for cases where the flaws are egregious
+      and clearly invalidate the paper's contribution. I will prioritize
+      placing borderline cases in the "outlier" category for further human
+      inspection, as per your guidance on the bottom of category 5.
+
+Overall Confidence:
+
+I believe I can start with a subset of papers, apply these initial frameworks
+for relevance rating and flaw identification, and then iteratively check and
+improve my approach based on the results and any feedback. The key will be to
+maintain transparency about the dimensions and scales used for rating and to
+provide clear justifications for classifying papers as potentially flawed. The
+"outlier" label will serve as a crucial safety net for cases requiring more
+nuanced human evaluation.
+
