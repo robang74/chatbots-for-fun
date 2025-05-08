@@ -53,7 +53,19 @@ Theory is a thing and practice is another, but an example is an example. We have
 
 - [https://g.co/gemini/share/c0b66270056b](https://g.co/gemini/share/c0b66270056b)
 
-As we can read at the end of the conversation, the AI agent consider itself trained "good enough" to start its work on a subset of the data (papers collection) which will lead to a fine-tuning in the finally data cleaning (or rectification) process.
+As we can read at the end of the conversation, the AI agent considers itself trained "good enough" to start its work on a subset of the data (papers collection) which will lead to a fine-tuning in the final data cleaning (or rectification) process.
+
+- an expected percentage of rejected items to increase its confidence in using that label
+
+- a way to create the report about for each item that has been examined, with the scores
+
+These two further steps would significantly increase the value of the AI agent work. However, for an initially small subset, the first can be guessed among a reasonable value while the second can be postponed or left to the AI agent to determine how to create the report.
+
+- from `fix your data, first` to `fix your goal, first`
+
+In practice both can be achieved along the same process in which the AI agent learns from data under the guidance of the human operator, who does the training and decides which correctives are necessary to apply leveraging data science theory and practice.
+
+This interactive process that goes through different phases of progressively improvement in data cleaning and rectifying the rules, is similar to the SCRUM method but with an AI agent as a developing team and the human operator as the SCRUM master.
 
 +
 
