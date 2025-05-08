@@ -9,6 +9,10 @@ I read a [post](https://www.linkedin.com/posts/ben-torben-nielsen_ai-data-someda
 
 I totally agree that "*fix your data, first*" is often a postponing excuse for adopting artificial intelligence. Because data could be a mess but more probable "*they are what they are*". Fortunately, one of the Ai's great advantages is its inherently predisposition to deal with data and even creating labels to categorise it and/or rate chunks of it.
 
+---
+
+### Pre-AI era users data collection
+
 For example, the most **mess** in terms of data is those coming from the users without any kind of post-processing. How to deal with that stuff? First of all, create a generic AI agent capable of dealing with that data format, just the format. Image? Text? Sounds? Voice? Music? Whatever.
 
 The first act of creating an AI agent is to provide a set of generic instructions, rules of thumb, guardrail, subsystem management and/or virtualisation like a RAG, workstream, and a framework to put all of this in a coherent way, etc.
@@ -33,17 +37,17 @@ This introduces us to another level, more mature and interesting than the true-f
 
 We might continue including multiple points of view, which are essential to evaluate the relationships among concepts and establish a coherent framework among them. For the scope of this article it is worth saying that a session prompt has been developed for dealing with in a "**good enough**" way this sort of raw data.
 
-- [SoNia argumentative collaborative session prompt](https://robang74.github.io/chatbots-for-fun/data/sonia-argumentative-w-rag-v3.txt) &nbsp; v3.5.3 but it can be updated, in the meantime.
+- [SoNia argumentative collaborative session prompt](data/sonia-argumentative-w-rag-v3.txt#?target=_blank) &nbsp; last version available.
 
 As long as AI will evolve, it will be easier to include in this prompt higher-level activity with a smaller effort than the time it has written. As long as someone is not going to pay for a smarter way, it is better to wait until the "many-people-doing-stuff" approach reach the "good enough" outcome to write a better version of the prompt. As simple as that.
 
-> [!WARN]
-> 
-> Bias Amplification: while AI can identify biases, there's also a risk that it might inadvertently amplify existing biases in the data if not carefully designed and monitored.
+---
 
-> [!INFO]
-> 
-> Resource Intensity: an AI agent for restructuring the raw data and another AI agent to consume it. Two different tasks, two different AIs, two different systems. In general.
+### A couple of warnings
+
+- **Bias Amplification**: while AI can identify biases, there's also a risk that it might inadvertently amplify existing biases in the data if not carefully designed and monitored.
+
+- **Resource Intensity**: an AI agent for restructuring the raw data and another AI agent to consume it. Two different tasks, two different AIs, two different systems. In general.
 
 ---
 
@@ -51,7 +55,7 @@ As long as AI will evolve, it will be easier to include in this prompt higher-le
 
 Theory is a thing and practice is another, but an example is an example. We have a text (above this section), we have a session prompt (SoNia), and thus we can create an AI agent for classifying papers like this. Here below the result of this approach:
 
-- [https://g.co/gemini/share/c0b66270056b](https://g.co/gemini/share/c0b66270056b)
+- [Fixing your data with an AI agent](https://g.co/gemini/share/39699bbf6a12) &nbsp; an example by Gemini 2.0 Flash w/SoNia v3.5.3
 
 As we can read at the end of the conversation, the AI agent considers itself trained "good enough" to start its work on a subset of the data (papers collection) which will lead to a fine-tuning in the final data cleaning (or rectification) process.
 
@@ -61,7 +65,7 @@ As we can read at the end of the conversation, the AI agent considers itself tra
 
 These two further steps would significantly increase the value of the AI agent work. However, for an initially small subset, the first can be guessed among a reasonable value while the second can be postponed or left to the AI agent to determine how to create the report.
 
-- from `fix your data, first` to `fix your goal, first`
+- `fix your data, first`  &nbsp; -->  &nbsp; `fix your goal, first`
 
 In practice both can be achieved along the same process in which the AI agent learns from data under the guidance of the human operator, who does the training and decides which correctives are necessary to apply leveraging data science theory and practice.
 
