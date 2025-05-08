@@ -96,8 +96,8 @@ written it. In one sentence. Label it as "(1) main goal"
 ---
 
 Considering (1), create a series of relationships (steps) in which (A) ... (N)
-but not necessarily all are used to shown HOW to reach this goal. Avoid those
-are mere exemplification of other concept or corner cases. As per minimal chain
+but not necessarily all are used to show HOW to reach this goal. Avoid those
+are mere exemplification of other concepts or corner cases. As per minimal chain
 of thought and label it (TC).
 
 ---
@@ -115,7 +115,7 @@ of thought and label it (TC).
 I noticed that elements in (TC) are those in the top of the most significative
 concepts. When you created the list, did you organised it by an weight rating
 or the author puts the (TC) at the beginning of the articles and then
-exemplified and analysed it more in details or for clarification?
+exemplified and analysed it in more details or for clarification?
 
 ---
 
@@ -150,7 +150,7 @@ appears for a chance or by an intelligent design (on purpose)? Or in another
 words, can we see in (TC) a specific intent of the author, in which degree?
 
 Do you consider the (TC) valid and actionable in general, in terms of reasoning
-and tools know-how? Does it have any flaws that are specific of that (TC)?
+and tools know-how? Does it have any flaws that are specific to that (TC)?
 
 If wrongly applied, even F=ma can fail but it is not flawed in the context of
 classic mechanics. Limitations or corner cases are not impair the validity of
@@ -234,11 +234,11 @@ rather than a definitive solution.
 So, the main limitation or potential flaws are all related to one of the many
 implementation possible among all the data domains possible. Fulfill these
 flaws would require a book, not an article. Correct? Is the author took a
-specific data domain, format, etc. as example?
+specific data domain, format, etc. as an example?
 
 About the (1) and (TC) can we say that the author moved from this "fix your
-data, first" to this "fix your goal, first" and show a path - a general
-approach - to indicates how move forward towards that goal?
+data, first" to "fix your goal, first" and show a path - a general
+approach - to indicate how to move forward towards that goal?
 
 ---
 
@@ -275,14 +275,14 @@ by the data cleaning bottleneck.
 After this training, and considering MANY others papers similar to this about
 the relationship between data and AI agents, would you able to:
 
-1. determine a way to proceed in deal each of them
+1. determine a way to proceed in dealing with each of them
 2. determine what is important to do with them
 3. create a rating for focus the humans to the top relevant
 4. classify those are seriously flawed to reject them
 5. label for further inspection those are (1-4) outliers
 
 Please, do not create such structure just evaluate your ability to fulfill
-these task, which for sure and those for which you require more training.
+these tasks, which for sure and those for which you require more training.
 
 ---
 
@@ -355,8 +355,8 @@ dimension as long as the scale is described (you have not to do by now),
 approved by the operator and applied in a coherent way (if the scale reveals
 troubling making, a note should be taken for further improvement).
 
-About 4. - rejection is nothing else that the bottom of what explained into 5.
-or in another way said, think twice before reject because in the bottom of 5.
+About 4. - rejection is nothing else than the bottom of what explained into (5)
+or in another way said, think twice before rejecting because at the bottom of (5)
 probably we have no humans time to check and we are going to trust on your
 judgemental.
 
