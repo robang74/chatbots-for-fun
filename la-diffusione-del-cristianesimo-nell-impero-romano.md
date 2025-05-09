@@ -61,8 +61,6 @@ Dalla questione della negazione plausibile sopra ne è nata una conversazione in
 
 - [Trascrizione della chat sopra](data/l-opera-di-dio-come-correlazioni-a-negazione-plausibile.txt#?target=_blank) &nbsp; su 80 colonne in UTF-8
 
-
-
 Quindi ho inserito quanto sopra, riprendendo la conversazione con ChatGPT 4o che già in precedente aveva ereditato il prompt SoNia.
 
 - [ChatGPT 4o sulla plausibile negazione dell'opera di Dio, e il Karma](https://chatgpt.com/share/68144f7c-52d0-8012-8aa3-7f19388191f9)
@@ -70,6 +68,10 @@ Quindi ho inserito quanto sopra, riprendendo la conversazione con ChatGPT 4o che
 - [Trascrizione della chat sopra](data/la-plausibile-negazione-nell-opera-di-dio-e-il-karma.txt#?target=_blank) &nbsp; su 80 colonne in UTF-8
 
 C'è però da notare che l'agente AI reagisce in modo più blando quando il prompt SoNia (o quello AleX) è fra gli user-data piuttosto che un prompt diretto a cui deve reagire specificatamente, accettare oppure rifiutare. Nel primo caso è un'informazione soggetta al contesto e come tale può usare secondo la sua discrezione.
+
+- [ChatGPT su Leone XIV vs Gesù legionario](chatgpt-su-leone-xiv-vs-gesu-legionario.md#?target=_blank) &nbsp; (2025-05-09)
+
+Questo argomento è ripreso nell'articolo sopra riportato che ne è la naturale prosecuzione.
 
 +
 

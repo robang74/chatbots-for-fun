@@ -3,7 +3,7 @@
 
 <div align="center"><img class="bwsketch" src="img/chatgpt-su-leone-xiv-vs-gesu-legionario.jpg" width="800"><br></div>
 
-## Leone XIV vs Gesù legionario
+## ChatGPT su Leone XIV vs Gesù legionario
 
 La domanda alla base di questo articolo è tanto banale quanto dirompente
 
