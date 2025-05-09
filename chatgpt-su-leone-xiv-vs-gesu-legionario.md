@@ -27,7 +27,9 @@ Per poter rispondere a questa domanda occorre procurarsi una qualche definizione
 
 In questo modo abbiamo ottenuto un'ipotesi (cambiamento), una domanda (reazione), un profilo (etichette) e quello che vorremmo ancora ottenere è una risposta (modello). L'ho chiesto a ChatGPT ed è stato interessante anche se quanto mi ha risposto non mi ha stupito e non ha introdotto particolare novità nelle mie aspettative e conoscenze pregresse.
 
-- [lnkd.in/d9vsxx-z](https://lnkd.in/d9vsxx-z)
+- [ChatGPT su Leone XIV vs Gesù Legionario](https://chatgpt.com/share/681dcd3c-ec44-8012-9229-a6a52f130331) &nbsp; (2025-05-09)
+
+- [Trascrizione della chat sopra](data/chatgpt-su-leone-xiv-vs-gesu-legionario.txt#?target=_blank) &nbsp; 80 cols text in UTF-8
 
 Peccato perché "stupirsi" avvrebbe significato imparare qualcosa di importante. Nonostante questo è sempre interessante notare come la forma dialettica degli stessi concetti possa essere diversamente rappresentata.
 
@@ -57,7 +59,11 @@ Inoltre, premesso che i concetti espressi fra doppi apici debbano necessariament
 
 - sei d'accordo che il documento in RAG ci fornisce una qualche indicazione, più precisamente una linea di riferimento, utile per valutare lo scostamento fra un'eventuale evoluzione della questione nella realtà rispetto ad un percorso logico-razionale di minima azione?
 
----
+...
+
+Provate a porle anche voi queste domande, magari usando SoNia su un qualche altro chatbot.
+
+----
 
 ### Limiti e utilità del modello
 
@@ -76,7 +82,9 @@ Senza entrare, per il momento, nello specifico dell'analisi dettagliata, si può
 
 #### Valutazione:
 
-> Sì, date le tue premesse, l'esito descritto nel documento è il più lineare e logicamente conseguente. Rappresenta un tentativo di coerenza massima tra il profilo intellettuale del Papa e la necessità di integrare informazioni dirompenti, il tutto in un ambiente "asettico" privo delle normali frizioni umane, ecclesiali e sociali. È un'operazione di "salvataggio" teologico condotta con gli strumenti specifici di quel Papa, mirando alla continuità del significato profondo al di là della lettera della tradizione.
+> **Gemini 2.5 pro w/SoNia**
+> 
+> Sì, date le tue premesse, l'esito descritto nel documento in RAG è il più lineare e logicamente conseguente. Rappresenta un tentativo di coerenza massima tra il profilo intellettuale del Papa e la necessità di integrare informazioni dirompenti, il tutto in un ambiente "asettico" privo delle normali frizioni umane, ecclesiali e sociali. È un'operazione di "salvataggio" teologico condotta con gli strumenti specifici di quel Papa, mirando alla continuità del significato profondo al di là della lettera della tradizione.
 
 #### Conclusione:
 
@@ -96,10 +104,9 @@ Certo, queste verifiche incrociate anche N strumenti indipendenti, NON mi permet
 
 In questo contesto ho riportato le informazioni contenute nella sezione "limiti e utilità del modello" a ChatGPT perché le esaminasse. La sua risposta si trova in fondo alla chat di cui sopra ho condiviso il link: sono allineati e coerenti.
 
++
 
----
-
-### Conclusione
+## Conclusione
 
 Date le premesse (oggettive, o addirittura quantificabili), dato un cambiamento (a piacere, comunque anch'esso oggettivo), quale sarebbe la procedura di minima azione per gestire tale cambiamento?
 
@@ -113,7 +120,7 @@ Una domanda molto retorica, in effetti. Che però ha il pregio di costringerci a
 
 Nella speranza che questo articolo e la relativa conversazione con il chatbot, che ho condiviso, ci porti a valutare i benefici di sfruttare in maniera corretta eticamente e metodologicamente una tecnologia così amazing.
 
-Per tutti gli altri -- Long story short: the AI will not replace you but your bullsh*t. 😘
+Per tutti gli altri -- Long story short: the AI will not replace you but your bullsh*t. {:-*}
 
 +
 
