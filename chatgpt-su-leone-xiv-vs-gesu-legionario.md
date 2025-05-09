@@ -47,7 +47,7 @@ Naturalmente non ho preso la risposta di ChatGPT come oro colato e quindi mi son
 
 Questo processo di verifica non è ancora terminato interamente ma i punti deboli evidenziati da Gemini 2.5 pro come SoNia appartengono tutti ad una determinata categoria che -- pur essendo solidi e ragionevoli da considerare -- si possono riassumere in questa serie di domande.
 
-...
+[!INFO]
 
 Premesso che l'esperimento concettuale descrive un meccanismo, più che la realtà umana nella sua interezza ovvero come andrebbe se il mondo fosse dominato dalla logica razionale piuttosto che dall'umana natura incline al dramma.
 
@@ -59,11 +59,11 @@ Inoltre, premesso che i concetti espressi fra doppi apici debbano necessariament
 
 - sei d'accordo che il documento in RAG ci fornisce una qualche indicazione, più precisamente una linea di riferimento, utile per valutare lo scostamento fra un'eventuale evoluzione della questione nella realtà rispetto ad un percorso logico-razionale di minima azione?
 
-...
+[/INFO]
 
 Provate a porle anche voi queste domande, magari usando SoNia su un qualche altro chatbot.
 
-----
++++++
 
 ### Limiti e utilità del modello
 
@@ -102,9 +102,9 @@ Quindi, io come autore di un articolo, ho bisogno e sono deontologicamente obbli
 
 Certo, queste verifiche incrociate anche N strumenti indipendenti, NON mi permettono di avere un'**assoluta certezza** della bontà dell'output. Ma non mi aspetto lontanamente un risultato del genere altrimenti avrei consultato un oracolo!
 
-In questo contesto ho riportato le informazioni contenute nella sezione "limiti e utilità del modello" a ChatGPT perché le esaminasse. La sua risposta si trova in fondo alla chat di cui sopra ho condiviso il link: sono allineati e coerenti.
+In questo contesto ho riportato le informazioni contenute nella sezione "limiti e utilità del modello" a ChatGPT perché le esaminasse. La sua risposta si trova in fondo alla chat e la mia valutazione è: sono allineati e coerenti.
 
-+
++++++
 
 ## Conclusione
 
