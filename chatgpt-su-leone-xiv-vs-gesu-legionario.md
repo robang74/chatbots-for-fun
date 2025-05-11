@@ -29,7 +29,7 @@ In questo modo abbiamo ottenuto un'ipotesi (cambiamento), una domanda (reazione)
 
 - [ChatGPT su Leone XIV vs Gesù Legionario](https://chatgpt.com/share/681dcd3c-ec44-8012-9229-a6a52f130331) &nbsp; (2025-05-09)
 
-- [Trascrizione della chat sopra](data/chatgpt-su-leone-xiv-vs-gesu-legionario.txt#?target=_blank) &nbsp; 80 cols text in UTF-8
+   - [Trascrizione della chat sopra](data/chatgpt-su-leone-xiv-vs-gesu-legionario.txt#?target=_blank) &nbsp; 80 cols text in UTF-8
 
 Peccato perché "stupirsi" avvrebbe significato imparare qualcosa di importante. Nonostante questo è sempre interessante notare come la forma dialettica degli stessi concetti possa essere diversamente rappresentata.
 
