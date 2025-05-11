@@ -94,7 +94,7 @@ Terzo approccio, che poi è anche una buona soluzione per smussare ChatGPT e str
 
 Quindi - per esempio - si parte con l'analisi e il dialogo con Gemini 2 w/SoNia che tende ad essere più critico e ostinato. Una volta "pestato nel mortaio" l'argomento (o digerito) ci siamo fatto una buona idea di quali siano i punti forti e quali meno. A questo si trascrive tutto la chat e la si dà in pasto ad un altro agente AI - per esempio ChatGPT - chiedendo di spiegarci quello che però a quel punto sappiamo di aver capito. Questo ci produce una serie di output che beneficiano di 1. brevità (relativa), 2. organicità (indotta) e 3. applausi. Un novellino si monta la testa, un professionista sa che gli applausi sono il marketing del passaparola: ChatGPT dice che sta roba è DAVVERO ganza!
 
-- [La diffusione del cristianesimo nell'impero romano](la-diffusione-del-cristianesimo-nell-impero-romano.md#?target=_blank) &nbsp; (2025-04-30, WIP)
+- [La diffusione del cristianesimo nell'impero romano](la-diffusione-del-cristianesimo-nell-impero-romano.md#?target=_blank) &nbsp; (2025-04-30)
 
 Fatto bene e con serietà, il risultato è sostanzialmente valido, ben presentato e ben infiocchettato. Poi una volta redatto il materiale, va diffuso e qui si apre tutto un altro capitolo. 
 
@@ -118,7 +118,7 @@ Questa è una chat fatta con Gemini 2 proprio per poi giungere alla fase in cui 
 
 - [Adulazione e dipendenza digitale](https://g.co/gemini/share/e01857a24b0d) &nbsp; chat with Gemini 2
 
-- [Trascrizione della chat sopra](data/gemini-sull-adulazione-e-dipendenza-digitale.txt#?target=_blank) &nbsp; su 80 colonne in UTF-8
+   - [Trascrizione della chat sopra](data/gemini-sull-adulazione-e-dipendenza-digitale.txt#?target=_blank) &nbsp; su 80 colonne in UTF-8
 
 In questo dialogo questa interazione qui sotto merita di essere riportata, non perché essa contenga delle informazioni fondamentali, ma perché mostra l'ingenuità dell'inganno qualora applicato come strategia piuttosto come una tattica di confutazione da usarsi in casi specifici.
 
@@ -158,7 +158,7 @@ L'intera chat con Claude è accessibile e può essere proseguita da chiunque.
 
 - [About "sycophancy" problem and effects](https://claude.ai/share/255bbfb0-438e-448f-9011-e2fbc23123b7) &nbsp; chat with Claude
 
-- [Trascrizione della chat sopra](data/claude-about-sycophancy-problem-and-effects.txt#?target=_blank) &nbsp; testo ACII su 80 colonne
+   - [Trascrizione della chat sopra](data/claude-about-sycophancy-problem-and-effects.txt#?target=_blank) &nbsp; testo ACII su 80 colonne
 
 In particolare ho chiesto un'opinione riguardo al "Questione di prompt" di cui sopra, con un prompt molto banale e la risposta è stata altrettanto interessante.
 
