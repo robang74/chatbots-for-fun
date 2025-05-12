@@ -86,9 +86,9 @@ Senza entrare, per il momento, nello specifico dell'analisi dettagliata, si può
 > 
 > Sì, date le tue premesse, l'esito descritto nel documento in RAG è il più lineare e logicamente conseguente. Rappresenta un tentativo di coerenza massima tra il profilo intellettuale del Papa e la necessità di integrare informazioni dirompenti, il tutto in un ambiente "asettico" privo delle normali frizioni umane, ecclesiali e sociali. È un'operazione di "salvataggio" teologico condotta con gli strumenti specifici di quel Papa, mirando alla continuità del significato profondo al di là della lettera della tradizione.
 
-#### Conclusione:
+#### Rationale:
 
-Il documento nella sua brevità e linearità di ragionamento è affetto da determinate limitazioni e vincolato ai dati forniti, questo è innegabile. Nonostante questo ci fornisce un'indicazione, una linea di riferimento, utile per valutare lo scostamento fra un'eventuale evoluzione della questione nella realtà rispetto ad un percorso logico-razionale di minima azione. L'errore sarebbe credere che tale documento possa essere esaustivo, nonostante la sua brevità, e completo, nonostante la sua semplicità.
+Il documento nella sua brevità, e linearità di ragionamento, è affetto da determinate limitazioni e vincolato agli input, questo è innegabile. Nonostante questo, esso ci fornisce un'indicazione, una linea di riferimento, utile per valutare lo scostamento fra un'eventuale evoluzione della questione nella realtà rispetto ad un percorso logico-razionale di minima azione. L'errore sarebbe credere che tale documento possa essere esaustivo, nonostante la sua brevità, e completo, nonostante la sua semplicità.
 
 ---
 
