@@ -28,7 +28,7 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 ### Links
 
-* [articles](#articles) &nbsp; &middot; &nbsp; [chatbots](#chatbots-ai) &nbsp; &middot; &nbsp; [forum](https://github.com/robang74/roberto-a-foglietta/discussions) &nbsp; &middot; &nbsp; [rationale](#rationale) &nbsp; &middot; &nbsp; [download](#download) &nbsp; &middot; &nbsp; [versioning](#versioning) &nbsp; &middot; &nbsp; [translations](#translations) &nbsp; &middot; &nbsp; [copyright](#copyright)
+* [spares](#articles) &nbsp;&middot;&nbsp; [buddy](#the-ai-as-a-nerd-companion) &nbsp;&middot;&nbsp; [chatbots](#chatbots-ai) &nbsp;&middot;&nbsp; [forum](https://github.com/robang74/roberto-a-foglietta/discussions) &nbsp;&middot;&nbsp; [rationale](#rationale) &nbsp;&middot;&nbsp; [download](#download) &nbsp;&middot;&nbsp; [versioning](#versioning) &nbsp;&middot;&nbsp; [translations](#translations) &nbsp;&middot;&nbsp; [copyright](#copyright)
 
 ### Related
 
@@ -143,6 +143,8 @@ Humans are used to surrounding themselves with companions, not necessarily of th
 In my opinion, the do-ut-des was not even at the beginning of the time the reason for adopting non-human companions, in particular for dogs. Curiosity and empathy are enough to let a human hunter and a wolf get in touch and look at each other as a source of knowledge and new experiences.
 
 Naturally, the wide-spread adoption has been leveraged by the do-ut-des principle. Better said, domestication has been leveraged by that principle. In fact, those who are detached from the do-ut-des principle and more sensible in experiences, are also more inclined to have a savage companion rather than a domesticated one.
+
+<div align="center"><img class="wbsketch" src="img/happy-chatbots-tea-party-with-you.jpg" width="800"></div>
 
 This isn't surprising. The experience from a domesticated companion is much more predictable. Hence safer, or perceived so. More condescending, also. However, predictability and yes-man attitude remove all the crispness of creativity and discovery: nothing new, no any surprise.
 
