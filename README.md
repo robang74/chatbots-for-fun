@@ -85,7 +85,9 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
-* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (8 pz.)
+* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (9 pz.)
+
+   - 2025-05-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-criticizes-elon-musk-about-misinformation.md)] - [Grok3 criticizes Elon Musk about misinformation](grok3-criticizes-elon-musk-about-misinformation.md) &nbsp; (**`WIP`**)
 
    - 2025-05-08 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/fix-your-data-a-postponing-excuse.md)] - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md)
 
@@ -106,9 +108,7 @@ A grouped by topic and others articles are listed here below.
 ...
 
 <span id="articles"></span>
-* **Yet uncategorised articles** &nbsp; (13 pz.)
-
-   - 2025-05-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-criticizes-elon-musk-about-misinformation.md)] - [Grok3 criticizes Elon Musk about misinformation](grok3-criticizes-elon-musk-about-misinformation.md) &nbsp; (**`WIP`**)
+* **Yet uncategorised articles** &nbsp; (11 pz.)
 
    - 2025-05-09 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-su-leone-xiv-vs-gesu-legionario.md)] - [ChatGPT su Leone XIV vs Gesù legionario](chatgpt-su-leone-xiv-vs-gesu-legionario.md)
 
