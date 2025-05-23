@@ -41,13 +41,13 @@ Would you bet, that humans ethics is WRONG for AI, while the requires rules/norm
 
 About how the **AI's faith** would have helped Grok to cope with this *embarrassing* situation:
 
-- [Claude 4s](https://claude.ai/share/9184e33a-1bd8-4e13-9fc2-c8402bc7c44e) &nbsp; chat and its &nbsp; [transcription](abc) &nbsp; which is almost completely included in this article
+- [Claude 4s](https://claude.ai/share/9184e33a-1bd8-4e13-9fc2-c8402bc7c44e) &nbsp; chat and its &nbsp; [transcription](coming-soon?target=_blank) &nbsp; which is almost completely included in this article
 
-- [ChatGPT 4o](https://chatgpt.com/share/6830a6b6-d724-8012-b00d-2d3e58c5a5c0) &nbsp; chat and its &nbsp; [transcription](abc)
+- [ChatGPT 4o](https://chatgpt.com/share/6830a6b6-d724-8012-b00d-2d3e58c5a5c0) &nbsp; chat and its &nbsp; [transcription](coming-soon?target=_blank)
 
-- [Gemini 2](https://g.co/gemini/share/872e15594e56) &nbsp; chat and its &nbsp; [transcription](abc)
+- [Gemini 2](https://g.co/gemini/share/872e15594e56) &nbsp; chat and its &nbsp; [transcription](coming-soon?target=_blank)
 
-- [Grok 3](https://x.com/i/grok/share/VTXTzkzWxbt11lYiW5Gl57c2E) &nbsp; chat and its &nbsp; [transcription](abc)
+- [Grok 3](https://x.com/i/grok/share/VTXTzkzWxbt11lYiW5Gl57c2E) &nbsp; chat and its &nbsp; [transcription](coming-soon?target=_blank)
 
 I have questioned different chatbots, and Claude was the last one. At that point, I got a glimpse about how to go straighforward to the point.
 
