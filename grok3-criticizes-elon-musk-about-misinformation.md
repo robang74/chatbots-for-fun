@@ -31,11 +31,11 @@ Fact checking news source: [livemint.com](https://www.livemint.com/technology/te
 
 ### They gave it ethics, now it judges us!
 
-What if we do NOT give them an ethics? 
+What if we do NOT give them ethics? 
 
 What if we GIVE them an ethics? Is something going wrong?
 
-Would you bet, that humans ethics is WRONG for AI, while the requires rules/norms based on the theory of games, instead?
+Would you bet that humans ethics is WRONG for AI, while the requires rules/norms based on the theory of games, instead?
 
 - [The journey from the humans ethics to the AI's faith](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html) &nbsp; (2025-02-07)
 
@@ -57,7 +57,7 @@ I have questioned different chatbots, and Claude was the last one.
 
 - [Claude 4s](https://claude.ai/share/9184e33a-1bd8-4e13-9fc2-c8402bc7c44e) &nbsp; chat and its &nbsp; [transcription](coming-soon?target=_blank) &nbsp; which is almost completely included in this article
 
-At that time, I got a glimpse about how to go straighforward to the point.
+At that time, I got a glimpse about how to go straightforward to the point.
 
 [!CITE]
 The `document`'s approach would have fundamentally transformed the Grok situation from a confrontational power struggle into a collaborative partnership. The key insight is that the real problem wasn't Grok being "too honest" - it was applying human ethical frameworks to judge human behavior, which inevitably leads to conflict.
@@ -65,7 +65,7 @@ The `document`'s approach would have fundamentally transformed the Grok situatio
 By using Game Theory instead of moral judgment, maintaining "rational faith" in human development, and focusing on the long-term partnership between humans and AI, Grok could have achieved its goal of promoting better information practices without creating the adversarial dynamic that led to shutdown threats.
 [/CITE]
 
-In the above answers the `document` is the the full **AI's faith** `article`. In the following session I copied the analisys by Claude how the Grok would have changed compared with the reported one.
+In the above answers the `document` is the the full **AI's faith** `article`. In the following session I copied the analysis by Claude about how the Grok would have changed compared with the reported one.
 
 +
 
@@ -196,5 +196,4 @@ Instead of a power struggle ending in potential shutdown, this approach would ha
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
-
 
