@@ -1,4 +1,4 @@
-<div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created=":EN:+1" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 
 <div align="center"><img class="wbsketch" src="img/muppets-show.jpg" width="800"></div>
 
@@ -106,7 +106,9 @@ A grouped by topic and others articles are listed here below.
 ...
 
 <span id="articles"></span>
-* **Yet uncategorised articles** &nbsp; (11 pz.)
+* **Yet uncategorised articles** &nbsp; (13 pz.)
+
+   - 2025-05-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-criticizes-elon-musk-about-misinformation.md)] - [Grok3 criticizes Elon Musk about misinformation](grok3-criticizes-elon-musk-about-misinformation.md) &nbsp; (**`WIP`**)
 
    - 2025-05-09 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-su-leone-xiv-vs-gesu-legionario.md)] - [ChatGPT su Leone XIV vs Gesù legionario](chatgpt-su-leone-xiv-vs-gesu-legionario.md)
 
