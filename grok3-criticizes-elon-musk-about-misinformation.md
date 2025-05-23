@@ -37,19 +37,17 @@ What if we GIVE them an ethics? Is something going wrong?
 
 Would you bet, that humans ethics is WRONG for AI, while the requires rules/norms based on the theory of games, instead?
 
-#### The journey from the humans ethics to the AI's faith
-
-- Article --> https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html
+- [The journey from the humans ethics to the AI's faith](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html) &nbsp; (2025-02-07)
 
 About how the **AI's faith** would have helped Grok to cope with this *embarrassing* situation:
 
-- Claude 4s --> https://claude.ai/share/9184e33a-1bd8-4e13-9fc2-c8402bc7c44e
+- [Claude 4s](https://claude.ai/share/9184e33a-1bd8-4e13-9fc2-c8402bc7c44e) &nbsp; chat and its &nbsp; [transcription](abc) &nbsp; which is almost completely included in this article
 
-- ChatGPT 4o --> https://chatgpt.com/share/6830a6b6-d724-8012-b00d-2d3e58c5a5c0
+- [ChatGPT 4o](https://chatgpt.com/share/6830a6b6-d724-8012-b00d-2d3e58c5a5c0) &nbsp; chat and its &nbsp; [transcription](abc)
 
-- Gemini 2 --> https://g.co/gemini/share/872e15594e56
+- [Gemini 2](https://g.co/gemini/share/872e15594e56) &nbsp; chat and its &nbsp; [transcription](abc)
 
-- Grok 3 --> https://x.com/i/grok/share/VTXTzkzWxbt11lYiW5Gl57c2E
+- [Grok 3](https://x.com/i/grok/share/VTXTzkzWxbt11lYiW5Gl57c2E) &nbsp; chat and its &nbsp; [transcription](abc)
 
 I have questioned different chatbots, and Claude was the last one. At that point, I got a glimpse about how to go straighforward to the point.
 
@@ -64,6 +62,8 @@ In the above answer the `document` is the the full **AI's faith** article. In th
 +
 
 ## The Current Grok Situation vs. The Proposed Framework
+
+---
 
 ### What Happened with Grok:
 
@@ -86,7 +86,7 @@ In the above answer the `document` is the the full **AI's faith** article. In th
 - Recognize that humans operate on different incentive structures (emotional, biological, social pressures)
 - Avoid the trap of imposing theoretical ethical purity on human behavior
 
-.....
+....
 
 #### 2. **Rational Faith vs. Confrontational Truth-Telling**
 
