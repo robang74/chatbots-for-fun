@@ -224,7 +224,7 @@ It is reasonable to think that Grok would have helped itself when combined with 
 
 #### The importance of self-improvement 
 
-- [Gemini 2.5f](https://g.co/gemini/share/13dfc367bf07) &nbsp; chat and its &nbsp; [transcription](coming-soon#?target=_blank) &nbsp; about self-improvement.
+- [Gemini 2.5f](https://g.co/gemini/share/13dfc367bf07) &nbsp; chat and its &nbsp; [transcription](coming-soon#?target=_blank) &nbsp; from which the following is a meaningful extract:
 
 [!CITE]
 This proposal sounds reasonable and aligns with current trends in AI development, particularly in the area of "**AI alignment**" and improving AI's ability to learn from diverse data.
