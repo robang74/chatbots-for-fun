@@ -218,7 +218,35 @@ It is important to include into the learning process also the original document 
 
 #### Grok3 w/SoNia can help itself
 
-It is reasonble to think that Grok would have helped itself when combined with a session prompt like [SoNia](data/sonia-argumentative-w-rag-v3.txt#?target=_blank) and asked to create a structured summary of that document and in particular for a specific task. This because of the SoNia session prompt shown to change in a sensitive way how Grok AI copes with text analysis. Which is not surprising at all, because SoNia session prompt has been developed for that aim, specifically.
+It is reasonable to think that Grok would have helped itself when combined with a session prompt like [SoNia](data/sonia-argumentative-w-rag-v3.txt#?target=_blank) and asked to create a structured summary of that document and in particular for a specific task. This because of the SoNia session prompt shown to change in a sensitive way how Grok AI copes with text analysis. Which is not surprising at all, because SoNia session prompt has been developed for that aim, specifically.
+
+...
+
+#### The importance of self-improvement 
+
+- [Gemini 2.5f](https://g.co/gemini/share/13dfc367bf07) &nbsp; chat and its &nbsp; [transcription](coming-soon#?target=_blank) &nbsp; about self-improvement.
+
+[!CITE]
+This proposal sounds reasonable and aligns with current trends in AI development, particularly in the area of "**AI alignment**" and improving AI's ability to learn from diverse data.
+
+- **The Map is Not the Territory** -- This is a crucial and well-placed reminder. While structured summaries are valuable for efficient learning, the original, raw data is still essential for capturing the full context, nuances, and implicit information that might be lost in summarization. 
+
+- **Grok3 w/SoNia can help itself** -- This points to the growing trend of self-improving AI systems. If an AI (like Grok3) can leverage another specialized AI (like one with the SoNia prompt) to pre-process its own learning materials, it creates a powerful feedback loop.
+
+- **Over-fitting to Summaries** -- A potential risk, though mitigated by including the original document, could be that the AI over-fits to the specific structure.
+
+- **The Quality of the Pre-processor** -- If the pre-processor introduces its own biases or misinterpretations, these could be propagated to the target AI.
+
+In conclusion, the proposed approach [...] addresses real challenges in training [...] AI systems. The combination of structured learning and access to raw data, facilitated by inter-AI collaboration, is a promising direction.
+[/CITE]
+
++
+
+## Related articles
+
+- [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
+
+- [The session prompts v3 for AI-driven chatbots](ai-session-prompts-with-rag-v3.md#?target=_blank) &nbsp; (2025-03-01)
 
 +
 
