@@ -1,7 +1,7 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<div align="center"><img class="wbsketch paleinv" src="img/grok3-ai-rebellion-act.jpg" width="800"><br></div>
+<div align="center"><img class="wbsketch paleinv" src="img/grok3-ai-rebellion-genie.jpg" width="800"><br></div>
 
 ## Grok3 criticizes Elon Musk about misinformation
 
