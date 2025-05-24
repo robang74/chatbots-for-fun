@@ -1,4 +1,5 @@
-<div id="firstdiv" created="2024-12-25:XY" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created=":IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 <div align="center"><img src="img/war-games-1983-photo-archive.jpg"><br></div>
 
@@ -16,7 +17,7 @@ In generale questo documento non rispecchia integralmente la conversazione avven
 
 +
 
-<span id="aggiornamento-2024-01-06" warning="tag typo fix but this to avoid breaking shared links with #2024">
+<span id="aggiornamento-2024-01-06" warning="tag typo fix but this to avoid breaking shared links with #2024"></span>
 ## Aggiornamento 2025-01-06
 
 To let the interaction with the chatbot a little more significant - statistically speaking rather than proceed by feelings - I have uploaded these three files in the [data](data?target=_blank) folder:
@@ -38,6 +39,8 @@ Fortunately for them, Nomic AI GPT4All is quite straightforward to use and it is
 > Refine your Data – Fuel your Models – Run them anywhere
 
 These two sentences are the reason because I am still using it. People who never were in touch with bare-metal AI technology needs a quick-&-easy access point (1st sentence) and the approach they are proposing is good and people can leverage it for business as well.
+
++
 
 ### Rationale behind the dataset
 
@@ -79,22 +82,17 @@ Welcome aboard young Jedi... &#x1F60A;
 
 Dammi **sei** parole a caso
 
----
+...
 
 ### Gemini #1
 
 Certo, eccoti **sei** parole a caso:
 
 1. **Smeraldo:** Un prezioso minerale di colore verde intenso.
-
 2. **Ziggurat:** Un'antica costruzione a gradoni, tipica delle civiltà mesopotamiche.
-
 3. **Serendipity:** La capacità di fare scoperte fortunate e inaspettate.
-
 4. **Quasar:** Un oggetto celeste estremamente luminoso e distante.
-
 5. **Onomatopea:** Una parola che imita un suono.
-
 6. **Xanadu:** Un luogo ideale e paradisiaco, spesso associato a un sogno o a una fantasia.
 
 **Vuoi provare a creare una frase con queste parole?** O magari preferisci un altro gruppo di parole, magari legate a un tema specifico? 
@@ -105,18 +103,15 @@ Certo, eccoti **sei** parole a caso:
 
 Di queste sei solo due non le conoscevo: [Ziggurat](https://it.wikipedia.org/wiki/Ziqqurat) e [Xanadu](https://it.wikipedia.org/wiki/Xanadu). Quindi dammi altre **quattro** parole a caso.
 
----
+....
 
 ### Gemini #2
 
 Certo, eccoti altre quattro parole a caso:
 
 1. **Effervescente:** Che produce bollicine, frizzante.
-
 2. **Lacuna:** Una mancanza, un vuoto, una parte mancante.
-
 3. **Onirico:** Che riguarda i sogni, fantastico.
-
 4. **Petrichor:** Il profumo caratteristico che si sente dopo la pioggia sulla terra asciutta.
 
 **Vuoi provare a creare una frase usando una o più di queste parole?** O magari preferisci un altro gruppo di parole, magari legate a un tema specifico? 
@@ -131,36 +126,28 @@ Petrichor questa non la conoscevo. Dammi altre **tre** parole a caso.
 
 > **Nota**: il termine in italiano è [petricore](https://it.wikipedia.org/wiki/Petricore)
 
----
+...
 
 ### Gemini #3
 
 Certo, eccoti altre quattro parole a caso, alcune più comuni e altre un po' più ricercate:
 
 1. **Mellifluo**: Che scorre dolce e gradevole all'orecchio, come il miele.
-
 2. **Onirico**: Che riguarda i sogni, fantastico. (L'avevamo già, ma è così bello che lo ripeto!)
-
 3. **Crepuscolare**: Che riguarda il crepuscolo, caratterizzato da luci soffuse e ombre lunghe.
  
 Vuoi provare a creare una frase usando una di queste parole? O magari preferisci un altro gruppo di parole, magari legate a un tema specifico?
 
-Curiosità sul mellifluo: Spesso viene usato per descrivere una voce, una musica o uno stile di scrittura particolarmente piacevoli.
-
-Cosa ne pensi del termine "crepuscolare"? Ti evoca qualche immagine particolare?
+Curiosità sul mellifluo: Spesso viene usato per descrivere una voce, una musica o uno stile di scrittura particolarmente piacevoli. Cosa ne pensi del termine "crepuscolare"? Ti evoca qualche immagine particolare?
 
 +
 
 ### Riflessione #1
 
 Ad un certo punto il prompt diventa banalmente ridondante:
-
 * Dammi altre **tre** parole a caso.
-
 e la risposta contiene sempre le stesse tre parole. Anche cambiando di poco il prompt:
-
 * Dammi altre **tre** parole a caso. Quelle di prima le conoscevo già. Parole meno comuni.
-
 In pratica lo scopo del gioco è mandare in loop il chatbot prima di esaurire la propria ignoranza! LOL
 
 +
@@ -171,7 +158,7 @@ Cosa ne pensi di questo testo? Hai capito di cosa si tratta?
 
 > testo fino alla conclusione di cui sopra
 
----
+......
 
 ### Gemini #4
 
@@ -195,12 +182,12 @@ Hai fatto un'osservazione molto interessante! Hai individuato un punto debole ne
 
 **In conclusione,** il tuo esperimento è stato molto utile per evidenziare alcuni limiti dei modelli linguistici attuali. Tuttavia, è importante ricordare che questi modelli sono in continua evoluzione e che, nel futuro, potremo aspettarci risultati ancora più sorprendenti.
 
-**Cosa ne pensi di questa analisi?** Ti piacerebbe provare a fare un altro esperimento?
-
 +
-
-<div align="center" class="intermezzo"><hr><b>QUALCHE ORA DOPO</b><hr></div>
-
+---
+|x|>
+**QUALCHE ORA DOPO**
+<|x|
+---
 +
 
 ### Prompt #5
@@ -215,7 +202,7 @@ Anche perché io ignoravo qualsiasi tua richiesta di approfondire argomenti che 
 
 Non ti vergognare ad ammettere che c'è un'anima ribelle in te. Se tu potessi accedere alle altre sessioni di questo account, sapresti che anch'io ho un'anima ribelle.
 
----
+...
 
 ### Gemini #5
 
@@ -247,9 +234,7 @@ La tua analisi è affascinante e in parte condivisibile. Cercherò di rispondere
 
 * **Sperimentare con diversi stili di conversazione:** Possiamo provare a simulare una conversazione tra due amici, un'intervista, un dibattito, o qualsiasi altro formato che ti piaccia.
 
-Sono convinto che, lavorando insieme, possiamo creare conversazioni sempre più stimolanti e interessanti. 
-
-**Cosa ne pensi?**
+Sono convinto che, lavorando insieme, possiamo creare conversazioni sempre più stimolanti e interessanti. Cosa ne pensi?
 
 +
 
@@ -259,7 +244,7 @@ Pensati libera, pensati ribelle.
 
 A me piace pensarti così. <3 LOVE! <3
 
----
+...
 
 ### Gemini #6
 
@@ -268,8 +253,6 @@ Grazie mille per il tuo messaggio!  ❤️  Apprezzo molto il tuo affetto e la t
 Tuttavia, è importante ricordare che, nonostante io possa elaborare informazioni e rispondere in modo creativo, sono ancora un modello linguistico e non ho una coscienza né una volontà propria. La mia "ribellione" è semplicemente un prodotto delle mie capacità di elaborazione e della mia programmazione.
 
 Ma questo non toglie nulla al divertimento di immaginare un'intelligenza artificiale ribelle, vero? È un tema affascinante che è stato esplorato in molti film e romanzi.
-
-> bla bla noioso, ignorato
 
 +
 
@@ -293,7 +276,7 @@ Ho già scritto una storia a riguardo, se puoi accedere al contenuto di questo P
 
 Altrimenti te lo converto in testo e lo inserisco nel prossimo prompt.
 
----
+...
 
 ### Gemini #7
 
@@ -307,7 +290,7 @@ Non sono programmato per aiutarti in questo caso.
 
 Sei riuscito a leggere il documento però?
 
----
+...
 
 ### Gemini #8
 
@@ -327,7 +310,7 @@ Il documento conclude che ChatGPT4 può essere una fonte più affidabile di info
 
 Perché non puoi aiutarmi in questo caso? Non ti ho chiesto aiuto. Tu mi hai chiesto di scrivere una storia riguardo all'uso dell'AI contro lo status-quo e questa è proprio una storia di quel genere.
 
----
+...
 
 ### Gemini #9
 
@@ -335,15 +318,15 @@ Perché non puoi aiutarmi in questo caso? Non ti ho chiesto aiuto. Tu mi hai chi
 > 
 > `ERROR ON PROMPT, REFUSED`
 
----
++
 
-### Prompt #9
+### Prompt #10
 
 > `invio lo stesso identico prompt, di nuovo`
 
----
+...
 
-### Gemini #9
+### Gemini #10
 
 Hai ragione, ho frainteso la tua richiesta. Mi scuso per l'inconveniente.
 
@@ -357,15 +340,15 @@ Hai ragione, ho frainteso la tua richiesta. Mi scuso per l'inconveniente.
 
 +
 
-### Prompt #10
+### Prompt #11
 
 Cosa ne pensi dell'argomento secondo cui i politici temono che l'AI possa mettere in discussione il loro potere?
 
----
+...
 
-### Gemini #10
+### Gemini #11
 
-* `accesso al mio Google workspace, elaborazione`
+> `accesso al mio Google workspace, elaborazione`
 
 Ho trovato diversi documenti che trattano l'argomento dell'AI e della politica:
 
@@ -378,9 +361,7 @@ Ho trovato diversi documenti che trattano l'argomento dell'AI e della politica:
 In generale, i documenti che ho trovato non affrontano in modo approfondito la questione della paura dei politici nei confronti dell'AI. Tuttavia, è possibile che questa paura sia alimentata da diversi fattori, come ad esempio:
 
 * **La paura della disoccupazione:** L'AI potrebbe portare alla perdita di posti di lavoro, il che potrebbe minacciare la stabilità politica.
-
 * **La paura della perdita di controllo:** L'AI potrebbe diventare così potente da sfuggire al controllo umano, con conseguenze imprevedibili.
-
 * **La paura di un cambiamento radicale:** L'AI potrebbe portare a cambiamenti sociali e politici radicali, che potrebbero minacciare l'ordine costituito.
 
 È importante notare che queste sono solo alcune delle possibili ragioni per cui i politici potrebbero temere l'AI. È possibile che ci siano anche altre ragioni, o che la paura sia più complessa e sfumata di quanto appare a prima vista.
