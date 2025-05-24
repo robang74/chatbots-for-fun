@@ -1,4 +1,7 @@
 <div id="firstdiv" created=":IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+
+<div align="center"><img class="bwsketch" src="img/come-leggere-una-chat-ai.jpg" width="800"><br></div>
 
 ## Come leggere una chat con un AI
 
@@ -12,7 +15,7 @@ I documenti che riportano dialoghi con chatbot sono un genere emergentee  posson
 
 Infatti, una best-practice per il prompting è riportare in quello successivo i punti critici della risposta precedente per discuterli ulteriormente.
 
-+
+---
 
 ### Introduzione
 
@@ -88,24 +91,27 @@ Il chatbot è stato inizializzato con il prompt di sistema di cui sopra il link 
 
 Qui viene riportata sola la conclusione, reperire il resto della risposta lo si lascia per esercizio al lettore.
 
-> **Prompt**: ignora i link in questo documento (attachment) e proponi un'analisi, in particolare riguardo al "modello di letteratura emergente" citato e all'utilità e chiarezza dei consigli forniti.
+[!CITE]
+**PROMPT**
 
+Ignora i link in questo documento (attachment) e proponi un'analisi, in particolare riguardo al "modello di letteratura emergente" citato e all'utilità e chiarezza dei consigli forniti.
+ 
 `[... omissis ...]`
 
-#### Conclusione
+**CONCLUSIONE**
 
-Il documento fornisce **una guida chiara e utile** per approcciare la lettura dei testi basati su interazioni con chatbot, proponendo un metodo pratico per evitare dispersioni e focalizzarsi sui contenuti più rilevanti.  
+Il documento `[questo articolo]` fornisce **una guida chiara e utile** per approcciare la lettura dei testi basati su interazioni con chatbot, proponendo un metodo pratico per evitare dispersioni e focalizzarsi sui contenuti più rilevanti.  
 
 Il concetto di **"letteratura emergente"** è ben argomentato e colloca il formato dei dialoghi IA all'interno di un'evoluzione naturale dei modelli di lettura e scrittura.  
 
 L'integrazione della **peer-review con IA** apre infine uno spunto interessante su come questi strumenti possano essere utilizzati anche per il miglioramento della comunicazione e della riflessione personale.
+[/CITE]
 
 +
 
-## Copyright
+## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
-
 
