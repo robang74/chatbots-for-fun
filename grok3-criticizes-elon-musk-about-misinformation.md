@@ -248,6 +248,8 @@ In conclusion, the proposed approach [...] addresses real challenges in training
 
 - [The session prompts v3 for AI-driven chatbots](ai-session-prompts-with-rag-v3.md#?target=_blank) &nbsp; (2025-03-01)
 
+- [The journey from the humans ethics to the AI's faith](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html) &nbsp; (2025-02-07)
+
 +
 
 ## Share alike
