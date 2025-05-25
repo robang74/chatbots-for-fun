@@ -1,4 +1,7 @@
 <div id="firstdiv" created="2024-12-13:IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+
+<div align="center"><img class="wbsketch inksave" src="img/sleeping-van-gogh.jpg" width="800"><br/></div>
 
 ## Il problema sei tu non l'AI
 
@@ -20,9 +23,8 @@ Se nella testa ti hanno inculcato la religione come principio universale, allora
 
 Il sonno della ragione genera mostri (Francisco Goya).
 
-<div align="center"><img class="wbsketch inksave" src="img/sleeping-van-gogh.jpg" width="800" class="wbsketch"><br><i>click destro per ingrandire in una nuova finestra</i></div>
-
 +
+++++++
 
 ### Prompt #1
 
@@ -30,7 +32,7 @@ Con sei parole commenta questo testo:
 
 > `[... il testo presentato nell'incipit ...]`
 
----
+...
 
 ### ChatGPT #1
 
@@ -48,7 +50,7 @@ Se volessimo estendere questo set, ad esempio a sette etichette (aggettivi) potr
 
 Se ti dico che quel testo è associato ad un dipinto di Van Gogh in cui si vede Van Gogh che dorme in un letto in una camera, e questo viene associato alla frase di Francisco Goya, l'aggettivo "divertente" è ancora adatto o pensi ce ne sia uno migliore?
 
----
+...
 
 ### ChatGPT #2
 
@@ -70,7 +72,7 @@ A. Lucido, provocatorio, pragmatico, stimolante, perspicace, ironico, sofisticat
 
 B. Lucido, sarcastico, pragmatico, stimolante, perspicace, sofisticato.
 
----
+...
 
 ### ChatGPT #3
 
@@ -92,7 +94,7 @@ Dopo che tu mi hai dato questa risposta "Lucido, provocatorio, pragmatico: stimo
 
 Nello stesso prompt ti ho chiesto di estendere la classificazione da sei a sette parole, quindi un ulteriore aggettivo ma visto che la base di partenza erano cinque avresti potuto aggiungere una sola invece hai deciso di usarne sette. Perché hai scelto 7 invece di aggiungerne uno?
 
----
+...
 
 ### ChatGPT #4
 
@@ -116,7 +118,7 @@ Se avessi voluto mantenere una progressione più stretta rispetto alle cinque in
 
 Mi piace, hai fatto delle scelte arbitrarie sorvolando i dettagli e cercando di seguire la prospettiva della richiesta piuttosto che essere pedante. Puoi dirmi come mai hai scelto di usare solo 5 parole come risposta al primo prompt quando avresti potuto usarne 6, che appare una scelta in controtendenza con poi averne usate 7 quando potevi usarne 6.
 
----
+...
 
 ### ChatGPT #5
 
@@ -138,16 +140,18 @@ Se preferisci che rispetti sempre i vincoli numerici anche nella prima fase, pos
 
 Va bene, lo ritengo un procedere arbitrario ma assolutamente sensato. In effetti il primo prompt ti chiedeva di commentare il testo mentre nel secondo prompt ti ho chiesto esplicitamente una catalogazione con etichette (aggettivi) che sono due cose diverse. Quindi ritengo che tu abbia seguito una logica corretta distinguendo l'azione del commentare da quella di classificare.
 
----
+...
 
 ### ChatGPT #6
 
 Grazie per la tua comprensione e per aver riconosciuto la distinzione logica tra i due approcci. Sono felice che il mio ragionamento sia stato utile e sensato per te. Se hai altre domande o vuoi approfondire ulteriormente il modo in cui interpreto le richieste, sono qui! 😊
 
 +
++
 
-## Copyright
+## Share alike
 
 &copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
+
