@@ -1,7 +1,7 @@
 <div id="firstdiv" created="2024-12-13:IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<div align="center"><img class="wbsketch inksave" src="img/sleeping-van-gogh.jpg" width="800"><br/></div>
+<div align="center"><img class="wbsketch inksave" src="img/sleeping-van-gogh.jpg" width="800"><br></div>
 
 ## Il problema sei tu non l'AI
 
