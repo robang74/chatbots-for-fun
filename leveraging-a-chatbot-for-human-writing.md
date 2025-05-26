@@ -1,4 +1,7 @@
 <div id="firstdiv" created="2024-12-22:IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+
+<div align="center"><img class="bwsketch" src="img/leveraging-a-chatbot-for-human-writing.jpg" width="800"><br></div>
 
 ## Leveraging a chatbot for human writing
 
