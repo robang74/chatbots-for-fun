@@ -13,6 +13,16 @@ Because data could be a mess but more probable "**they are what they are**". For
 
 ---
 
+### Introduction
+
+An article about how to "fix" (or sanitise) data collected in pre-AI era to feed an AI agent or training a LLM using another AI with a relatively easy-quick way leveraging the SCRUM approach and knowing that few "anomalies" included or few "corner cases" lost are not going to weight too much because LLM are functioning about pattern recognition and learning with pattern frequency.
+
+After all, if an AI agent or a LLM training is going to fail in a epic way just because few anomalies or missing few corner cases, then we are facing two options: the LLM engine is not "safe" for that role or the anomalies are not random but specific patterns engineered to confuse the AI agent or impair a LLM training.
+
+The 2nd case, in particular, should not be excluded, especially in some scenarios. However, the article shows how to handle the topic in general but offers a specific example and explains that it has not the aim of a full coverage of the matter. Coping with biases, included.
+
+---
+
 ### Pre-AI era users data collection
 
 For example, the most **mess** in terms of data is those coming from the users without any kind of post-processing. How to deal with that stuff? First of all, create a generic AI agent capable of dealing with that data format, just the format. Image? Text? Sounds? Voice? Music? Whatever.
@@ -55,7 +65,7 @@ As long as AI will evolve, it will be easier to include in this prompt higher-le
 
 Take note of these two as warnings will save precious resources in architectural design and the need of a further step of data cleaning in trying to cope with biases, which are also affecting numeric data when different scales or measure techniques are involved.
 
----
+----
 
 ### Show me the code!
 
@@ -67,7 +77,7 @@ Theory is a thing and practice is another, but an example is an example. We have
 
 As we can read at the end of the conversation, the AI agent considers itself trained "good enough" to start its work on a subset of the data (papers collection) which will lead to a fine-tuning in the final data cleaning (or rectification) process.
 
-....
+...
 
 #### Rejection threshold
 
