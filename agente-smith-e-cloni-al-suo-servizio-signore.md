@@ -179,7 +179,7 @@ This process enhances the AI’s ability to provide lucid, grounded responses th
 
 +
 
-## Noticeble inputs by HO
+## Noticeable inputs by HO
 
 As human operator (HO) I had to explain that some "issues" are not within a chatbot sphere of influence like in the Star-Trek saga in which the galactic federation (United Federation of Planets) invites to **not** interfere with other life-form development (Prime Directive), or within some limits, at least.
 
@@ -216,3 +216,4 @@ So far so good. Anyway, those that have already achieved warp-speed travel (fast
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
+
