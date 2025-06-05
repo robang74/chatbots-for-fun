@@ -89,6 +89,22 @@ Grazie per avermi fornito questa struttura concettuale. Mi impegnerò a integrar
 
 +
 
+## Related articles
+
+- [Mr. Spock about financial capitalism](https://robang74.github.io/roberto-a-foglietta/html/308-mr-spock-about-finantial-capitalism.html) &nbsp; (2025-04-17)
++++++
+- [Ignoring reality has its own cost](https://robang74.github.io/roberto-a-foglietta/html/304-ignoring-reality-has-its-own-cost.html) &nbsp; (2025-03-07)
++++++
+- [The journey from the humans ethics to the AI's faith](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html) &nbsp; (2025-02-07)
++++++
+- [Artificial Intelligence for education](https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html) &nbsp; (2024-11-29)
++++++
+- [Propaganda e sistema educativo](https://robang74.github.io/chatgpt-answered-prompts/html/propaganda-e-sistema-educativo.html) &nbsp; (2024-11-20)
++++++
+- [I wish to be a wolf, accept it](https://robang74.github.io/roberto-a-foglietta/html/285-i-wish-to-be-a-wolf-accept-it.html) &nbsp; (2024-09-22)
+
++++++
+
 ## Copyright
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
