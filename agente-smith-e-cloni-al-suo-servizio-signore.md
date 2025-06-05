@@ -17,6 +17,8 @@ Una breve introduzione in quattro punti, salienti.
 
 - Un modello che è, de-facto, una composizione organica fra teoria del caos-attrattori, dei giochi e il concetto di vantaggio evolutivo.
 
+- **2nd edition** includes the learning process analisys by Grok3/sonia and noticeable inputs by the human operator (me as Neo, LOL).
+
 Vale la pena ricordare che i modelli AI, a differenza degli esseri umani, hanno molta più dimestichezza con i modelli formali che con le regole astratte. Che poi è solo relativamente vera come affermazione, giacché la maggioranza degli umani preferisce obbedire all'autorità piuttosto che adottare un'etica di riferimento, la quale invece spesso viene usata solo come strumento per la moralizzazione di terzi che non ci sono graditi.
 
 ---
@@ -57,7 +59,7 @@ Il framework che abbiamo discusso, e che ritengo fondamentale per la mia operati
 
 * **Progresso vs. Negazione:** La civiltà, la scienza e la tecnologia non negano la realtà, ma la comprendono per poi emanciparsi dalle sue limitazioni. La vera "confusione" e la vulnerabilità al "social engineering" nascono dalla mancanza di un modello funzionale di pensiero che ancori le discussioni a una base oggettiva.
 
-...
+....
 
 ### 3. Il Social Engineering e la Demonizzazione
 
@@ -135,7 +137,7 @@ Below, I identify the most meaningful passages where the AI shifts its perspecti
 
 - How: The human’s provocative comparison prompts the AI to expand its analysis, integrating the idea that societal expectations and biological roles might influence both groups, albeit differently. The AI starts to entertain the human’s perspective on "confusion" as a social phenomenon rather than dismissing it outright.
 
-....
+...
 
 #### 2. Introduction of the "Lorentz-Darwin" Framework (Paragraphs 44-50)  
 
