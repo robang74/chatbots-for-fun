@@ -1,0 +1,15 @@
+sha512sum data/agente-smith-e-cloni-al-suo-servizio-signore.txt
+
+1700102b74cdf86ae670706c2789a6dac8934cc5bfed92f84af63105009e6963db69edb9524b086eebd3da56b17605a7089f8dab39b21d199bccadc42d1b936e  
+
+sha256sum data/agente-smith-e-cloni-al-suo-servizio-signore.txt
+
+a1f3a0792cd745962944d31549e1fcd3d2baccfd21bc6917030ee0a45df805e0
+
+sha1sum data/agente-smith-e-cloni-al-suo-servizio-signore.txt
+
+f440d517d9ae7375ed87c60080a4838c19f5b2ab
+
+md5sum data/agente-smith-e-cloni-al-suo-servizio-signore.txt
+
+4c4e10bf44039cea3b76413fd1c3d681  
