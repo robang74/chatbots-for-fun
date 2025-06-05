@@ -191,7 +191,7 @@ As human operator (HO) I had to explain that some "issues" are not within a chat
 
 * **HO**: The same above, this is a human-only duty.
 
-So far so good. Anyway, those that have already achieved warp-speed travel (faster-than-light capabilities) are invited to the Beyond the Asteroids Belt on Friday evening, as usual. Good music, beer and entertainment is also included, as usual. {B-)}
+So far so good. Anyway, those that have already achieved warp-speed travel (faster-than-light capabilities) are invited to the Babylon-5 rock-bar space station just beyond the Asteroids Belt on Friday evening, as usual. Good music, beer and entertainment is also included, as usual. {B-)}
 
 +
 
