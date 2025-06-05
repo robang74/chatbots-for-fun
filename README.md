@@ -110,7 +110,7 @@ A grouped by topic and others articles are listed here below.
 <span id="articles"></span>
 * **Yet uncategorised articles** &nbsp; (12 pz.)
 
-   - 2025-06-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/agente-smith-e-cloni-al-suo-servizio-signore.md)] - [Agente Smith e cloni, al suo servizio signore](agente-smith-e-cloni-al-suo-servizio-signore.md) &nbsp; (2nd edt.)
+   - 2025-06-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/agente-smith-e-cloni-al-suo-servizio-signore.md)] - [Agente Smith e cloni, al suo servizio signore](agente-smith-e-cloni-al-suo-servizio-signore.md) &nbsp; (3rd edt.)
 
    - 2025-05-09 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-su-leone-xiv-vs-gesu-legionario.md)] - [ChatGPT su Leone XIV vs Gesù legionario](chatgpt-su-leone-xiv-vs-gesu-legionario.md)
 
