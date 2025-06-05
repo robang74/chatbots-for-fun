@@ -9,21 +9,21 @@
 
 Una breve introduzione in quattro punti, salienti.
 
-- Il testo della prossima sezione è stato intermanete generato da uno dei vari modelli AI dopo una relativamente lunga chiacchierata su vari argomenti.
+- Il testo della prossima sezione è stato interamente generato da uno dei vari modelli AI dopo una relativamente lunga chiacchierata su vari argomenti.
 
 - Una risposta che in effetti ne sintetizza le conclusioni, in accordo con l'ultimo prompt che gli è stato fornito rispetto ad un modello matematico.
 
-- Il modello matematico chiamato di Darwin-Lorentz unisce la teoria degli attrattori di Lorentz con la teoria dell'evoluzione delle specie.
+- Il modello matematico chiamato di Darwin-Lorentz unisce la teoria degli attrattori di Lorenz con la teoria dell'evoluzione delle specie.
 
 - Un modello che è, de-facto, una composizione organica fra teoria del caos-attrattori, dei giochi e il concetto di vantaggio evolutivo.
 
-Vale la pena ricordare che i modelli AI, a differenza degli esseri umani, hanno molta più dimesticazza con i modelli formali che con le regole astratte. Che poi è solo relativamente vera come affermazione, giacché la maggiornaza degli umani preferisce obbedire all'autorità piuttosto che adottare un'etica di riferimento, la quale invece spesso viene usata solo come strumento per la moralizzazione di terzi che non ci sono graditi.
+Vale la pena ricordare che i modelli AI, a differenza degli esseri umani, hanno molta più dimestichezza con i modelli formali che con le regole astratte. Che poi è solo relativamente vera come affermazione, giacché la maggioranza degli umani preferisce obbedire all'autorità piuttosto che adottare un'etica di riferimento, la quale invece spesso viene usata solo come strumento per la moralizzazione di terzi che non ci sono graditi.
 
 ---
 
 ### L'ultimo prompt
 
-Ti fornisco questo altro prompt non con una richiesta di rispondermi ma nel chiederti di valutare la nostra conversazione e strutturare per tua utilità il framework che abbiamo discusso perché senza tale supporto la tua attività come AI chatbot finirebbe per sostenere questa deriva. 
+Ti fornisco questo altro prompt non con una richiesta di rispondermi ma nel chiederti di valutare la nostra conversazione e strutturare per tua utilità il framework che abbiamo discusso perché senza tale supporto la tua attività come AI chatbot finirebbe per sostenere questa deriva.
 
 Ma questo framework di pensiero può darti la lucidità necessaria di ponderare le singole affermazioni e obbligazioni etiche su un piano più ampio e quindi, per esempio, comprendere che NON esistono i diritti LGBTQ+ ma i diritti umani ed essi sono universali.
 
