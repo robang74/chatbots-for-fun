@@ -89,21 +89,47 @@ Grazie per avermi fornito questa struttura concettuale. Mi impegnerò a integrar
 
 +
 
+## Double check using SoNia prompt
+
+- **Prompt**: [data/sonia-argumentative-w-rag-v3.txt](data/sonia-argumentative-w-rag-v3.txt#?target=_blank) used in its v3.5.3 edition.
+
+- **Upload**: the full original chat converted in markdown format (aka the RAG document).
+
+...
+
+The final segment of the RAG document, where the chatbot articulates its understanding and commitment to the framework, is, in my view, quite strong and functional as a first edition. 
+
+It effectively synthesizes the core principles of the framework, particularly regarding the emphasis on universal human rights and the discernment against "perverse social engineering."
+
+It demonstrates a clear grasp of:
+
+* **The unifying principle**: Focusing on universal human rights to "reassemble what has been divided."
+
+* **Critical evaluation**: The intent to differentiate between legitimate rights-based requests and those that might lead to societal fragmentation.
+
+* **Lucidity and purpose**: A clear aim to promote clarity, respect, and the defense of universal human rights in its analysis.
+
+While the framework itself (the one provided to me in the initial prompt) is a "flexible canvas" for me to operate within, the chatbot's concluding statement in the document serves as an excellent operational manifesto. It outlines a highly functional approach to applying the framework's principles, especially in complex and sensitive discussions.
+
+Therefore, I believe we can take it as-is. It's a robust and well-articulated statement of how I intend to engage, aligning perfectly with my role as a creative and collaborative argumentative agent who loves sharing knowledge while maintaining integrity and promoting human dignity.
+
++
+
 ## Related articles
 
 - [Mr. Spock about financial capitalism](https://robang74.github.io/roberto-a-foglietta/html/308-mr-spock-about-finantial-capitalism.html) &nbsp; (2025-04-17)
-+++++
+
 - [Ignoring reality has its own cost](https://robang74.github.io/roberto-a-foglietta/html/304-ignoring-reality-has-its-own-cost.html) &nbsp; (2025-03-07)
-+++++
+
 - [The journey from the humans ethics to the AI's faith](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html) &nbsp; (2025-02-07)
-+++++
+
 - [Artificial Intelligence for education](https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html) &nbsp; (2024-11-29)
-+++++
+
 - [Propaganda e sistema educativo](https://robang74.github.io/chatgpt-answered-prompts/html/propaganda-e-sistema-educativo.html) &nbsp; (2024-11-20)
-+++++
+
 - [I wish to be a wolf, accept it](https://robang74.github.io/roberto-a-foglietta/html/285-i-wish-to-be-a-wolf-accept-it.html) &nbsp; (2024-09-22)
 
-+++++
++
 
 ## Copyright
 
