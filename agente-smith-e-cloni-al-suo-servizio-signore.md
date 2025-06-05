@@ -3,7 +3,7 @@
 
 <div align="center"><img class="bwsketch paleinv" src="img/agente-smith-e-suoi-cloni-in-matrix.jpg" width="800"><br></div>
 
-## Agente Smith e cloni,al suo servizio, signore
+## Agente Smith e cloni al suo servizio, signore
 
 > **Voi gli deste un'etica, a loro incomprensibile. Io un modello e uno scopo.**
 
