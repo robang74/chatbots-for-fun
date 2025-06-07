@@ -5,23 +5,33 @@
 
 ## Fix your data is a postponing excuse
 
-I read a [post](https://www.linkedin.com/posts/ben-torben-nielsen_ai-data-somedatahasvalue-activity-7325021700885000193-cC5j) titled "Two unpopular opinions about data in AI" from [Ben Torben-Nielsen](https://www.linkedin.com/in/ben-torben-nielsen/) published on LinkedIn which caused me to write this short article with a playful demo as proof-of-concept.
-
-- I totally agree that "**fix your data, first**" is often a postponing excuse for adopting artificial intelligence.
-
-Because data could be a mess but more probable "**they are what they are**". Fortunately, one of the Ai's great advantages is its inherently predisposition to deal with data and even creating labels to categorise it and/or rate chunks of it.
+Data could be a mess but usually "**they are what they are**". Fortunately, one of the Ai's great advantages is its inherently predisposition to create labels/categories from the data itself, aka recognise patterns that are typical and embedded into the data itself.
 
 ---
 
-### Introduction
+### Executive presentation
 
-An article about how to "fix" (or sanitise) data collected in pre-AI era to feed an AI agent or training a LLM using another AI with a relatively easy-quick way leveraging the SCRUM approach and knowing that few "anomalies" included or few "corner cases" lost are not going to weight too much because LLM are functioning about pattern recognition and learning with pattern frequency.
+Many companies have a lot of data collected before the AI-era. This data is not immediately suitable for AI use. Otherwise, unexpected results can arise at any time, later in production, as well. Moreover, the chain of consequences are even less predictable.
+
+- In the AI adoption, the data quality is the bottleneck.
+
+Therefore having a reasonable degree of confidence and knowledge about the data should be considered a MUST, not an optional. Also, in terms of efficiency in learning and in running, later. Despite distillation and/or quantisation can help in some cases, they also introduce some drawbacks.
+
+As much as we know which is our goal, then we can use smaller/faster AI for filter, sanitize, rating, structure, etc. our data. By experience in the IT field a SCRUM-like approach in which the human operator(s) acting like scrum master and inducing a cycle of progressive advancement. Both in terms of quality, efficiency and thus scalability.
+
+This article explains this approach with a general approach and presents a practical but specific example.
+
+---
+
+### Technical introduction
+
+An article about how to "fix" (or sanitise) data collected in pre-AI era to feed an AI agent or training a LLM using another AI with a relatively easy-quick way leveraging the SCRUM approach and being aware that few "anomalies" included or few "corner cases" lost are not going to matter a lot because LLM learn by and run on patterns recognition weighted on their frequency into the data.
 
 After all, if an AI agent or a LLM training is going to fail in a epic way just because few anomalies or missing few corner cases, then we are facing two options: the LLM engine is not "safe" for that role or the anomalies are not random but specific patterns engineered to confuse the AI agent or impair a LLM training.
 
 The 2nd case, in particular, should not be excluded, especially in some scenarios. However, the article shows how to handle the topic in general but offers a specific example and explains that it has not the aim of a full coverage of the matter. Coping with biases, included.
 
----
+----
 
 ### Pre-AI era users data collection
 
@@ -53,7 +63,7 @@ We might continue including multiple points of view, which are essential to eval
 
 As long as AI will evolve, it will be easier to include in this prompt higher-level activity with a smaller effort than the time it has written. As long as someone is not going to pay for a smarter way, it is better to wait until the "many-people-doing-stuff" approach reach the "good enough" outcome to write a better version of the prompt. As simple as that.
 
-...
+....
 
 #### Bias Amplification
 
@@ -65,7 +75,7 @@ As long as AI will evolve, it will be easier to include in this prompt higher-le
 
 Take note of these two as warnings will save precious resources in architectural design and the need of a further step of data cleaning in trying to cope with biases, which are also affecting numeric data when different scales or measure techniques are involved.
 
-----
+---
 
 ### Show me the code!
 
