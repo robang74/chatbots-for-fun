@@ -5,12 +5,6 @@
 
 ## Fix your data is a postponing excuse
 
-Data could be a mess but usually "**they are what they are**". Fortunately, one of the Ai's great advantages is its inherently predisposition to create labels/categories from the data itself, aka recognise patterns that are typical and embedded into the data itself.
-
----
-
-### Executive presentation
-
 Many companies have a lot of data collected before the AI-era. This data is not immediately suitable for AI use. Otherwise, unexpected results can arise at any time, later in production, as well. Moreover, the chain of consequences are even less predictable.
 
 - In the AI adoption, the data quality is the bottleneck.
@@ -19,11 +13,15 @@ Therefore having a reasonable degree of confidence and knowledge about the data 
 
 As much as we know which is our goal, then we can use smaller/faster AI for filter, sanitize, rating, structure, etc. our data. By experience in the IT field a SCRUM-like approach in which the human operator(s) acting like scrum master and inducing a cycle of progressive advancement. Both in terms of quality, efficiency and thus scalability.
 
+- Paradigma change: fix your data, first --> fix your goal, first
+
 This article explains this approach with a general approach and presents a practical but specific example.
 
 ---
 
 ### Technical introduction
+
+- Data could be a mess but usually they are what they are.
 
 An article about how to "fix" (or sanitise) data collected in pre-AI era to feed an AI agent or training a LLM using another AI with a relatively easy-quick way leveraging the SCRUM approach and being aware that few "anomalies" included or few "corner cases" lost are not going to matter a lot because LLM learn by and run on patterns recognition weighted on their frequency into the data.
 
@@ -63,7 +61,7 @@ We might continue including multiple points of view, which are essential to eval
 
 As long as AI will evolve, it will be easier to include in this prompt higher-level activity with a smaller effort than the time it has written. As long as someone is not going to pay for a smarter way, it is better to wait until the "many-people-doing-stuff" approach reach the "good enough" outcome to write a better version of the prompt. As simple as that.
 
-....
+.....
 
 #### Bias Amplification
 
@@ -82,7 +80,7 @@ Take note of these two as warnings will save precious resources in architectural
 Theory is a thing and practice is another, but an example is an example. We have a text (above this section), we have a session prompt (SoNia), and thus we can create an AI agent for classifying papers like this. Here below the result of this approach:
 
 - [Fixing your data with an AI agent](https://g.co/gemini/share/39699bbf6a12) &nbsp; an example by Gemini 2.0 Flash w/SoNia v3.5.3
-
++++++
 - [Transcription of the above conversation](data/gemini-fix-your-data-is-a-postponing-excuse.txt#?target=_blank) &nbsp; in 80 cols text and redundancy stripped.
 
 As we can read at the end of the conversation, the AI agent considers itself trained "good enough" to start its work on a subset of the data (papers collection) which will lead to a fine-tuning in the final data cleaning (or rectification) process.
@@ -105,11 +103,9 @@ These two further steps would significantly increase the value of the AI agent w
 
 In practice both can be achieved along the same process in which the AI agent learns from data under the guidance of the human operator, who does the training and decides which correctives are necessary to apply leveraging data science theory and practice.
 
-- `fix your data, first`  &nbsp; -->  &nbsp; `fix your goal, first`
-
 This interactive process that goes through different phases of progressively improvement in data cleaning and rectifying the rules, is similar to the SCRUM but with an AI agent as a developing team and the human operator as the SCRUM master.
 
-+
++++++
 
 ## Share alike
 
