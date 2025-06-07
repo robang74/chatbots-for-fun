@@ -87,9 +87,9 @@ A grouped by topic and others articles are listed here below.
 
 * **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (9 pz.)
 
-   - 2025-05-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-criticizes-elon-musk-about-misinformation.md)] - [Grok3 criticizes Elon Musk about misinformation](grok3-criticizes-elon-musk-about-misinformation.md) &nbsp; (**`WIP`**)
+   - 2025-05-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-criticizes-elon-musk-about-misinformation.md)] - [Grok3 criticizes Elon Musk about misinformation](grok3-criticizes-elon-musk-about-misinformation.md) 
 
-   - 2025-05-08 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/fix-your-data-a-postponing-excuse.md)] - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md)
+   - 2025-05-08 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/fix-your-data-a-postponing-excuse.md)] - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md) &nbsp; (2nd edt.)
 
    - 2025-05-02 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/la-sycophancy-nell-intelligenza-artificiale.md)] - [Il problema della sycophancy nell'intelligenza artificiale](la-sycophancy-nell-intelligenza-artificiale.md) &nbsp; (4th edt.)
 
