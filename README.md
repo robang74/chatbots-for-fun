@@ -108,7 +108,9 @@ A grouped by topic and others articles are listed here below.
 ...
 
 <span id="articles"></span>
-* **Yet uncategorised articles** &nbsp; (12 pz.)
+* **Yet uncategorised articles** &nbsp; (13 pz.)
+
+   - 2025-06-08 - [[**`raw`**](https://raw.githubusercontent.com/robang74/the-illusion-of-thinking.md)] - [The illusion of thinking](the-illusion-of-thinking.md)
 
    - 2025-06-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/agente-smith-e-cloni-al-suo-servizio-signore.md)] - [Agente Smith e cloni, al suo servizio signore](agente-smith-e-cloni-al-suo-servizio-signore.md) &nbsp; (3rd edt.)
 
