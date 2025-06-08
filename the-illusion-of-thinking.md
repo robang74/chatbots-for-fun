@@ -33,6 +33,14 @@ Finally, we can drop the bias for which high-IQ is related to being great in wri
 
 +
 
+## Related articles
+
+- [Ragionare non è come fare la cacca!](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) &nbsp; (2025-06-08)
+
+- [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md#?target=_blank) &nbsp; (2025-01-04)
+
++
+
 ## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
