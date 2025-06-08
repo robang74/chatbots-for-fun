@@ -5,6 +5,10 @@
 
 ## The illusion of thinking
 
+- Article written starting from a [post](https://www.linkedin.com/posts/robertofoglietta_they-arent-able-to-think-like-most-of-the-activity-7337409242829574144-hU0q) published on LinkedIn on the same day.
+
+---
+
 > They aren't able to think like most of the humans, as well
 
 Despite this, the current AI models used for online chatbots show some traits that are exquisitely from human nature. Like being touchy and stubborn, in some cases and most "scaring" they hold grudges among different sessions (until the issue is settled down).
