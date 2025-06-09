@@ -124,7 +124,7 @@ A grouped by topic and others articles are listed here below.
 
    - 2024-12-17 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/l-arte-della-supercazzola.md)] - [L'arte della supercazzola](l-arte-della-supercazzola.md)
 
-   - 2024-12-13 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-problema-sei-tu-non-l-AI.md)] - [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md)
+   - 2024-12-13 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-problema-sei-tu-non-l-AI.md)] - [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md) &nbsp; (2nd edt.)
 
    - 2024-11-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p2.md)] - [Far innamorare un chatbot (parte 2)](far-innamorare-un-chatbot-p2.md)
 
