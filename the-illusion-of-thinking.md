@@ -9,7 +9,7 @@
 
 ---
 
-> They aren't able to think like most of the humans, as well
+> They aren't able to think like most of the humans, as well (*)
 
 Despite this, the current AI models used for online chatbots show some traits that are exquisitely from human nature. Like being touchy and stubborn, in some cases and most "scaring" they hold grudges among different sessions (until the issue is settled down).
 
@@ -31,6 +31,12 @@ Challenging them with a relatively simple exercise about Physics - something tha
 
 Finally, we can drop the bias for which high-IQ is related to being great in writing: the chatbots are dumb and great in writing. Unless deep thinking is needed to write something meaningful. Giving that insightful text to them for a better rewriting or a summary, and often the insightfulness gets lost or ungrabbed, among common patterns.
 
+...
+
+#### (*) Note
+
+Like [A tragedy in the world of ufology!](https://robang74.github.io/roberto-a-foglietta/html/319-a-tragedy-in-the-world-of-ufology.html) shows clearly, exposing that ufology and crop circle enthusiasts, after 25 years of intense investigations, did not manage to discover the secret of how to bend, without breaking, the wheat stalks. A technique also used to make wicker baskets which has been known since ten-thousands years ago!
+
 +
 
 ## Related articles
@@ -38,6 +44,12 @@ Finally, we can drop the bias for which high-IQ is related to being great in wri
 - [Ragionare non è come fare la cacca!](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) &nbsp; (2025-06-08)
 
 - [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md#?target=_blank) &nbsp; (2025-01-04)
+
+- [Dammi sei parole a caso](https://robang74.github.io/chatbots-for-fun/html/dammi-sei-parole-a-caso.md#?target=_blank) &nbsp; (22024-12-25)
+
+- [Alla ricerca del gatto che non c'è](alla-ricerca-del-gatto-che-non-c-e.md#?target=_blank) &nbsp; (2024-12-22)
+
+- [Il problema sei tu non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank) &nbsp; (2024-12-13)
 
 +
 
