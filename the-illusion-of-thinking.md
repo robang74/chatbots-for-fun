@@ -39,6 +39,14 @@ Like [A tragedy in the world of ufology!](https://robang74.github.io/roberto-a-f
 
 +
 
+## Conclusion
+
+- A laughter will bury them all, but instead a loud burping!
+
+Fearmongers were pointing out that the AI evolution will soon reach the singularity, instead we [discovered](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) that we are still very far from AGI. While, essentially, we are chatting with an artificial version of our intestine but much more instructed, educated and rational than many humans therefore capable of doing various jobs which are [mediocrely](il-problema-sei-tu-non-l-AI.md#?target=_blank) performed by humans, nowadays.
+
++
+
 ## Related articles
 
 - [Ragionare non è come fare la cacca!](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) &nbsp; (2025-06-08)
