@@ -47,7 +47,7 @@ Fearmongers were pointing out that the AI evolution would have soon reached the 
 
 - [Gemini's opinion](https://g.co/gemini/share/8174298b52cd) about the artificial enteric intelligence.
 
-Under this analogy, the food which is going to be digested by the AI is the human encyclopedic knowledge and our culture, while the final answer will be pooped out on-demand! {lol}
+Under this analogy (Poop-as-a-Service), the food which is going to be digested by the AI is the human encyclopedic knowledge and our culture, while the final answer will be pooped out on-demand! {lol}
 
 +
 
