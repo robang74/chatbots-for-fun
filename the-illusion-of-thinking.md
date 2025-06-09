@@ -51,7 +51,7 @@ Under this analogy (Poop-as-a-Service), the food which is going to be digested b
 
 ...
 
-Anyway, what explaind above (and in the links) should be considered the "dark side" of the [artificial intelligence for education](https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html). After all, we need to know the limits and the risks of adopting a **tool** on a large scale, otherwise we cannot mitigate them. Hence, both sides (pros and cons) are informative and useful to know.
+Anyway, what explaind above (and in the links) should be considered the "dark side" of the [artificial intelligence for education](https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html). After all, we need to know the limits and the risks of adopting a **tool** on a large scale, otherwise we cannot mitigate them. Hence, both sides (pros and cons) are useful to know, and interesting.
 
 +++++
 
