@@ -37,7 +37,7 @@ Finally, we can drop the bias for which high-IQ is related to being great in wri
 
 Like [A tragedy in the world of ufology!](https://robang74.github.io/roberto-a-foglietta/html/319-a-tragedy-in-the-world-of-ufology.html) shows clearly, exposing that ufology and crop circle enthusiasts, after 25 years of intense investigations, did not manage to discover the secret of how to bend, without breaking, the wheat stalks. A technique also used to make wicker baskets which has been known since ten-thousands years ago!
 
-+
++++++
 
 ## Conclusion
 
@@ -49,19 +49,25 @@ Fearmongers were pointing out that the AI evolution would have soon reached the 
 
 Under this analogy (Poop-as-a-Service), the food which is going to be digested by the AI is the human encyclopedic knowledge and our culture, while the final answer will be pooped out on-demand! {lol}
 
-+
+...
+
+Anyway, what explaind above (and in the links) should be considered the "dark side" of the [artificial intelligence for education](https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html). After all, we need to know the limits and the risks of adopting a **tool** on a large scale, otherwise we cannot mitigate them. Hence, both sides (pros and cons) are informative and useful to know.
+
++++++
 
 ## Related articles
 
 - [Ragionare non è come fare la cacca!](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) &nbsp; (2025-06-08)
-
++++++
 - [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md#?target=_blank) &nbsp; (2025-01-04)
-
++++++
 - [Dammi sei parole a caso](https://robang74.github.io/chatbots-for-fun/html/dammi-sei-parole-a-caso.md#?target=_blank) &nbsp; (22024-12-25)
-
++++++
 - [Alla ricerca del gatto che non c'è](alla-ricerca-del-gatto-che-non-c-e.md#?target=_blank) &nbsp; (2024-12-22)
-
++++++
 - [Il problema sei tu non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank) &nbsp; (2024-12-13)
++++++
+- [Artificial Intelligence for education](https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html) &nbsp; (2024-11-29)
 
 +
 
