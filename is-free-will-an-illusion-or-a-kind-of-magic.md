@@ -25,11 +25,13 @@ Considering the above hypothesis, and reasoning by absurd:
 
 Read about asking it to ChatGPT, and ignite a debate, just for fun.
 
-- [ChatGPT about free-will](https://lnkd.in/dGKyjjME) &nbsp; (read the prompts, first)
+- [ChatGPT about free-will](https://chatgpt.com/share/6849aedd-1850-8012-9db4-842f5df77bcf) &nbsp; (read the prompts, first)
+
+- ChatGPT about free-will,&nbsp; chat [transcription](data/is-free-will-an-illusion-or-a-kind-of-magic-chatgpt.txt#?target=_blank) in 80 cols UTF-8 text.
 
 For exercise, try to repeat the chat but characterising the session with the SoNia second level argumentative prompt. 
 
-- [SoNia session prompt](https://lnkd.in/dtmE9WvZ) &nbsp; (v3.5.3, at the time of writing) 
+- [SoNia session prompt](https://robang74.github.io/chatbots-for-fun/data/sonia-argumentative-w-rag-v3.txt) &nbsp; (v3.5.3, at the time of writing) 
 
 Please, share and let me know the outcome, if any different, apart from the way in which the chatbot sustains the debate. This can be an example of free-will (different characters) who are facing the same challenge and inevitably end up to the same conclusion. If you like, challenge others chatbots, as well.
 
