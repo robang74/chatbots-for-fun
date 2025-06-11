@@ -108,7 +108,9 @@ A grouped by topic and others articles are listed here below.
 ...
 
 <span id="articles"></span>
-* **Yet uncategorised articles** &nbsp; (13 pz.)
+* **Yet uncategorised articles** &nbsp; (14 pz.)
+
+   - 2025-06-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/is-free-will-an-illusion-or-a-kind-of-magic.md)] - [Is free-will an illusion or a kind of magic?](is-free-will-an-illusion-or-a-kind-of-magic.md)
 
    - 2025-06-08 - [[**`raw`**](https://raw.githubusercontent.com/robang74/the-illusion-of-thinking.md)] - [The illusion of thinking](the-illusion-of-thinking.md) &nbsp; (2nd edt.)
 
