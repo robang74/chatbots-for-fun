@@ -29,9 +29,9 @@ Read about asking it to ChatGPT, and ignite a debate, just for fun.
 
 - ChatGPT about free-will,&nbsp; chat [transcription](data/is-free-will-an-illusion-or-a-kind-of-magic-chatgpt.txt#?target=_blank) in 80 cols UTF-8 text.
 
-For exercise, try to repeat the chat but characterising the session with the SoNia second level argumentative prompt. 
+For exercise, try to repeat the chat but characterising the session with the SoNia second level argumentative prompt.
 
-- [SoNia session prompt](https://robang74.github.io/chatbots-for-fun/data/sonia-argumentative-w-rag-v3.txt) &nbsp; (v3.5.3, at the time of writing) 
+- [SoNia session prompt](https://robang74.github.io/chatbots-for-fun/data/sonia-argumentative-w-rag-v3.txt) &nbsp; (v3.5.3, at the time of writing)
 
 Please, share and let me know the outcome, if any different, apart from the way in which the chatbot sustains the debate. This can be an example of free-will (different characters) who are facing the same challenge and inevitably end up to the same conclusion. If you like, challenge others chatbots, as well.
 
@@ -42,3 +42,4 @@ Please, share and let me know the outcome, if any different, apart from the way 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
+
