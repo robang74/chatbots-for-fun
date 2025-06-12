@@ -11,7 +11,9 @@
 
 ---
 
-Does free-will exist for real? What's about being just an illusion of choosing, instead? Let me explain.
+### Does free-will exist for real?
+
+What's about being just an illusion of choosing, instead? Let me explain.
 
 [!CITE]
 **HP** -- According to quantum physics, every time you have 2 options and you decide to choose to go with one of them, the universe splits into two parts, where you choose the other option in another universe.
@@ -38,7 +40,7 @@ For exercise, try to repeat the chat but characterising the session with the [So
 
 Please, share and let me know the outcome, if any different, apart from the way in which the chatbot sustains the debate. This can be an example of free-will (different characters) who are facing the same challenge and inevitably end up to the same conclusion. If you like, challenge others chatbots, as well.
 
-+++++
++
 
 ## Why phisicists speculates?
 
