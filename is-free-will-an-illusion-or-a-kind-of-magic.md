@@ -7,7 +7,7 @@
 
 - This article is written starting from a [post](https://www.linkedin.com/posts/robertofoglietta_reasoning-by-absurd-we-find-out-there-was-activity-7338603657879302146-A9Ei) that I have published on Linkedin on the same day.
 
-- **2nd** edition includes an explanation about why phisicists speculates and debate on interpretation of their theories. Spoiler: they are humans! Hence, how well the AI can play with this kind speculations?
+- **2nd** edition includes an explanation about why phisicists speculate and debate on interpretation of their theories. Spoiler: they are humans! Hence, how well the AI can play with this kind speculations?
 
 ---
 
@@ -42,7 +42,7 @@ Please, share and let me know the outcome, if any different, apart from the way 
 
 +
 
-## Why phisicists speculates?
+## Why phisicists speculate?
 
 Why physicists mess-up with interpretations? Because they are aware that a specifics formulation, and even Maths as whole, is just ONE of the possible way of modelize how the real-world is working. I wish to stress about this point: a formulation, in this case QCD, that is a human DESCRIPTION of reality. Actually the best wide accepted BUT not necessarily correct. 
 
