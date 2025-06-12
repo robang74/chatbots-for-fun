@@ -7,6 +7,8 @@
 
 - This article is written starting from a [post](https://www.linkedin.com/posts/robertofoglietta_reasoning-by-absurd-we-find-out-there-was-activity-7338603657879302146-A9Ei) that I have published on Linkedin on the same day.
 
+- **2nd** edition includes an explanation about why phisicists speculates and debate on interpretation of their theories. Spoiler: they are humans! Hence, how well the AI can play with this kind speculations?
+
 ---
 
 Does free-will exist for real? What's about being just an illusion of choosing, instead? Let me explain.
@@ -35,6 +37,16 @@ At the ending of conversation (prompts at rows: 1522, 1621, 1705, 1809), I have 
 For exercise, try to repeat the chat but characterising the session with the [SoNia](data/sonia-argumentative-w-rag-v3.txt#?target=_blank) (v3.5.3, at the time of writing) which is 2nd level argumentative session prompt, as explained [here](ai-session-prompts-with-rag-v3.md#?target=_blank).
 
 Please, share and let me know the outcome, if any different, apart from the way in which the chatbot sustains the debate. This can be an example of free-will (different characters) who are facing the same challenge and inevitably end up to the same conclusion. If you like, challenge others chatbots, as well.
+
++++++
+
+## Why phisicists speculates?
+
+Why physicists mess-up with interpretations? Because they are aware that a specifics formulation, and even Maths as whole, is just ONE of the possible way of modelize how the real-world is working. I wish to stress about this point: a formulation, in this case QCD, that is a human DESCRIPTION of reality. Actually the best wide accepted BUT not necessarily correct. 
+
+In trying to speculate about its meaning of that, we are seeking inspiration for another formulation that can equally or even better achieve the same goal: predictions. Without predictions, a model cannot be falsified and without falsification is not science in the stricts terms defined by Karl Popper.
+
+Said in another way: `F=ma` is not a law of the nature but a law of physics and in particular of the classic mechanics. How can we interpreter `F=ma` with `c=const` (speed of light) as maximum velocity? Noticing that v/t or dx/t² has a singularity in zero which is not compatible with a=limit. Hence m is the sum of the inertial mass and m(v²/¢²) allowing an arbitrary great energy transfer in an arbitrary small time (a->oo) be converted in mass, instead speed.
 
 +
 
