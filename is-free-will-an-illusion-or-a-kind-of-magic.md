@@ -44,11 +44,15 @@ Please, share and let me know the outcome, if any different, apart from the way 
 
 ## Why phisicists speculate?
 
-Why physicists mess-up with interpretations? Because they are aware that a specifics formulation, and even Maths as whole, is just ONE of the possible way of modelize how the real-world is working. I wish to stress about this point: a formulation, in this case QCD, that is a human DESCRIPTION of reality. Actually the best wide accepted BUT not necessarily correct. 
+Why physicists mess-up with interpretations? Because they are aware that a specifics formulation, and even Maths as whole, is just **one** of the possible way of modelize how the real-world is working. I wish to stress about this point: a formulation, in this case QCD, that is a human **description** of reality. Actually, the nost widely accepted **but** not necessarily fully correct. 
+
+Maths is wonderful but like every human-made tool, it has its own limitations. While Maths as a general and abstract concept might have no limitations, but **again** the human formulation of the Maths **has** its own limitations. Moreover, a formula is a formalisation of **one** description of reality. Stressing out on the word **description** is essential to not fall into the fallacy of confusing the map with the territory.
+
+For example, `F=ma` is not a law of the nature but a law of physics and in particular of the classic mechanics. How can we interpreter `F=ma` with `c=const` (speed of light) as maximum velocity? Noticing that v/t or dx/t² has a singularity in zero which is not compatible with a=limit. Hence m is the sum of the inertial mass and m(v²/c²) allowing an arbitrary great energy transfer in an arbitrary small time (a->oo) be converted in mass, instead speed.
 
 In trying to speculate about its meaning of that, we are seeking inspiration for another formulation that can equally or even better achieve the same goal: predictions. Without predictions, a model cannot be falsified and without falsification is not science in the stricts terms defined by Karl Popper.
 
-Said in another way: `F=ma` is not a law of the nature but a law of physics and in particular of the classic mechanics. How can we interpreter `F=ma` with `c=const` (speed of light) as maximum velocity? Noticing that v/t or dx/t² has a singularity in zero which is not compatible with a=limit. Hence m is the sum of the inertial mass and m(v²/¢²) allowing an arbitrary great energy transfer in an arbitrary small time (a->oo) be converted in mass, instead speed.
+For all these reasons, speculations and interpretations are nice that exist and like every other human activity, made with a correct and honest method is a valuable exercise. Because those speculations remind us that what we are dealing with is just a **description** of reality. Like Schrodinger's cat paradox or the Fermi's paradox are suggesting.
 
 +
 
