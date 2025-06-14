@@ -99,7 +99,7 @@ A grouped by topic and others articles are listed here below.
 
    - 2024-12-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dammi-sei-parole-a-caso.md)] - [Dammi sei parole a caso](dammi-sei-parole-a-caso.md) &nbsp; (2nd edt.)
 
-   - 2024-12-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/leveraging-a-chatbot-for-human-writing.md)] - [Leveraging a chatbot for human writing](leveraging-a-chatbot-for-human-writing.md)
+   - 2024-12-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/leveraging-a-chatbot-for-human-writing.md)] - [Leveraging a chatbot for human writing](leveraging-a-chatbot-for-human-writing.md) &nbsp; (2nd edt.)
 
    - 2024-11-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-human-real-reasoning.md)] - [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md)
 
