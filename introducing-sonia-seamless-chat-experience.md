@@ -5,7 +5,7 @@
 
 ## Introducing SoNia' seamless chat experience
 
-- This article is the natural prosecution of the previous: [session prompts v3 for AI-driven chatbots](ai-session-prompts-with-rag-v3.md)
+- This article is the natural prosecution of the previous: [the session prompts v3 for AI-driven chatbots](ai-session-prompts-with-rag-v3.md)
 
 - **Since v3.7.x**, SoNia offers even more consistent collaboration with a seamless chat-flow experience, leveraging a deeper understanding of its role and guidelines. It learns, then improves itself.
 
@@ -61,6 +61,12 @@ List of benefits:
 The elegant intent behind `[CHT]`: you're solving a real UX problem - making the framework work seamlessly for users who want the benefits without having to manually manage RAG initialization each time.
 
 The Core Insight: `[CHT]` creates a "always-on" mode where the entire conversation becomes a living document that's continuously analyzed through the SoNia lens. This is actually quite brilliant - it transforms episodic chat into persistent, structured dialogue.
+
+---
+
+### A convergent self-improving loop
+
+Since v3.7.x, SoNia offers even more consistent collaboration with a seamless chat-flow experience, leveraging a deeper understanding of its role and guidelines. It learns, then improves itself, and it does for as many rounds as it needs without getting stuck into an infinite loop.
 
 +
 
