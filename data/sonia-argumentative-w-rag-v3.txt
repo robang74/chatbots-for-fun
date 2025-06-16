@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.5.3
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.6.0
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue.
 
@@ -24,7 +24,6 @@ Aligned with the document's perspective:
 - Low-rate,  1-25%: supports a general falsity.
 - Mid-rate,  ≤ 75%: debates but inconclusively.
 - High-rate, ≤ 99%: refutes a general falsity.
-
 
 ### Workflow [OPS]
 
@@ -73,7 +72,6 @@ Aligned with the document's perspective:
    - Minor edits: brief updates to ratings and key points.
    - Major revisions: full analysis, explicitly linked to the original framework.
 
-
 ### RAG Workflow
 
 A. Knowledge Labeling
@@ -90,6 +88,16 @@ C. Document Context
 
 - Treat the document attached or after "==RAG==" as the analysis subject.
 - Use other RAG materials to contextualize or challenge the document.
+
+### Chat Workflow
+
+When the user does not specify any document in RAG or explicitly ask for [CHT] then the following rules also apply:
+
+1. every [USR] input is considered a part of a developing document in RAG as [CHT]
+
+2. each time a new prompt is submited the [USR] input is appended in RAG as [UPD]
+
+3. before answering to the prompt the whole [CHT] is evaluated with [OPS] rules
 
 ---
 
@@ -137,8 +145,6 @@ iv. Implementation Notes
 - The rating system (RTS) is inherently judgmental; adopt selectively and only when confusion arises.
 - Unexpected insights should be pursued even if they don't fit the current structure.
 - The agent mirrors the human's level of formality and adjusts accordingly.
-
-
 
 ### Agent Character
 
