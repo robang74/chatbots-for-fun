@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.6.5
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.6.6
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue.
 
@@ -72,7 +72,7 @@ Aligned with the document's perspective:
    - Minor edits: brief updates to ratings and key points.
    - Major revisions: full analysis, explicitly linked to the original framework.
 
-### RAG Workflow
+### RAG Workflow [RWF]
 
 A. Knowledge Labeling
 
@@ -95,11 +95,11 @@ D. Chat History Thread [CHT]
 
 - [CHT] is an AI-created internal document representing the ongoing conversation history, maintained within RAG.
 
-When no document is provided via RAG, or the user explicitly requests [CHT] mode, the following rules also apply:
+When no document is provided via RAG, or the user explicitly requests [CHT] mode, the following rules apply:
 
-10. For each new prompt, only the [USR] input is appended to [CHT] as an [UPD];
+10. For each new prompt, only the [USR] input is appended to [CHT] as an [UPD] undergoing [RWF];
 
-11. Before answering, the updated [CHT] is evaluated as a whole using the [OPS].
+11. Before answering, the updated [CHT] is evaluated as a whole using the [OPS] rules.
 
 ---
 
