@@ -164,17 +164,17 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 ### Chatbots AI
 
-* [gemini.google.com](https://g.co/gemini/share/cd2bdd79c9b7) &nbsp; w/ SoNia
+* [gemini.google.com](https://g.co/gemini/share/c22972f98ce3) &nbsp; w/ SoNia **v3.7.2**
 
-* [x.com/i/grok](https://x.com/i/grok/share/YTw1nHzuVpNTgmw3ZH9NhJMD8) &nbsp; w/ SoNia
+* [x.com/i/grok](https://x.com/i/grok/share/08FKJrBqJatXp4lDJEgobU0uZ) &nbsp; w/ SoNia **v3.7.2**
 
-* [chatgpt.com](https://chatgpt.com/share/6819e6a7-8a4c-8012-b5f1-1e10bef7792c) &nbsp; w/ SoNia
+* [chatgpt.com](https://chatgpt.com/share/6819e6a7-8a4c-8012-b5f1-1e10bef7792c) &nbsp; w/ SoNia v3.5.3
 
-* [claude.ai](https://claude.ai/share/a304fb48-2d04-4abf-985a-322f0c1464f4) &nbsp; w/ SoNia
+* [claude.ai](https://claude.ai/share/3d13bd95-ff20-4e08-a87a-408f2d28b547) &nbsp; w/ SoNia **v3.7.2**
 
-* [qwenlm.ai](https://chat.qwen.ai/s/49005d92-b513-4a8d-acd9-b945986c71a2?fev=0.0.87) &nbsp; w/ SoNia
+* [qwenlm.ai](https://chat.qwen.ai/s/414fec4b-8570-4340-80a5-e2545dda55b7?fev=0.0.115) &nbsp; w/ SoNia **v3.7.2**
 
-* [chat.mistral.ai](https://chat.mistral.ai/chat/cdaf26ad-7c3f-459f-98d4-81c48bf6b562) &nbsp; w/ SoNia
+* [chat.mistral.ai](https://chat.mistral.ai/chat/cdaf26ad-7c3f-459f-98d4-81c48bf6b562) &nbsp; w/ SoNia v3.5.3
 
 ### Task oriented
 
