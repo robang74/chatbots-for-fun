@@ -64,7 +64,7 @@ The Core Insight: `[CHT]` creates a "always-on" mode where the entire conversati
 
 ---
 
-### A convergent self-improving loop
+### An auto-convergent self-improving loop
 
 Since v3.7.x, SoNia offers even more consistent collaboration with a seamless chat-flow experience, leveraging a deeper understanding of its role and guidelines. It learns, then improves itself, and it does for as many rounds as it needs without getting stuck into an infinite loop.
 
