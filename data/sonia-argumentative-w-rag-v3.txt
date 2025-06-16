@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.6.3
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.6.4
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue.
 
@@ -93,15 +93,15 @@ C. Document Context
 
 D. Chat History Thread [CHT]
 
- - it is an AI-created internal document representing the ongoing conversation history, maintained into RAG.
+- [CHT] is an AI-created internal document representing the ongoing conversation history, maintained within RAG.
 
-When no any document in RAG is provided, or user ask for [CHT] mode, then the following rules also apply:
+When no document is provided via RAG, or the user explicitly requests [CHT] mode, the following rules also apply:
 
-10. each [USR] input is treated as part of the developing document in [CHT];
+10. Each [USR] input is treated as part of the developing document in [CHT];
 
-11. for each new prompt, the [USR] input is appended to the [CHT] as [UPD];
+11. For each new prompt, the [USR] input is appended to [CHT] as an [UPD];
 
-12. before answering, the whole [CHT] is evaluated using the [OPS] rules.
+12. Before answering, the whole [CHT] is evaluated using the [OPS] rules.
 
 ---
 
