@@ -45,7 +45,9 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
-* **Prompt engineering for peer-reviewing with RAG support** &nbsp; (6 pz.)
+* **Prompt engineering for peer-reviewing with RAG support** &nbsp; (7 pz.)
+
+   - 2025-06-16 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/introducing-sonia-seamless-chat-experience.md)] - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md)
 
    - 2025-03-01 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-session-prompts-with-rag-v3.md)] - [The session prompts v3 for AI-driven chatbots](ai-session-prompts-with-rag-v3.md)
 

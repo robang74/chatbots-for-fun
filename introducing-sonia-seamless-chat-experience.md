@@ -5,6 +5,14 @@
 
 ## Introducing SoNia' seamless chat experience
 
+This article is the natural prosecution of its previous article:
+
+- [The session prompts v3 for AI-driven chatbots](ai-session-prompts-with-rag-v3.md) &nbsp; (2025-03-01)
+
+---
+
+### Why we were in need of the `[CHT]` mode?
+
 Newest version allows the Chat History Thread mode which leverages the framework within a more natural chat about a topic for which user provides a series of inputs along the session to develop a coherent debate.
 
 - [SoNia Argumentative Session Prompt](https://robang74.github.io/chatbots-for-fun/data/sonia-argumentative-w-rag-v3.txt#?target=_blank) &nbsp; (v3.6.7.1, at the time of writing) 
@@ -13,19 +21,21 @@ Many chatbots usually do not consider previous prompts information (or tend to f
 
 This "default mode" unless RAG is initialised, plays in favour of those users who are less skilled or less SoNia-internals aware. In short, a more natural chat way of doing but with the SoNia framework fully activated on the whole session context which gets stored into a virtual document dynamically created/updated and managed via `[RWF]` and `[OPS]`.
 
+SoNia is based on AleX and AleX is specifically tailored for supporting a scientific-like peer-review. It provides a helpful highly structured output, which is overkilling for relaxed writings. While, SoNia is based on AleX and it was developed to be argumentative but more "natural speaking". Yet, still requiring some custom instructions.
+
 ---
 
 ### What `[CHT]` mode is meant to accomplish?
 
-This mode aims to provide to users the benefits of SoNia framework with a seamlessly natural chat experience.
+This mode aims to provide to users the benefits of the SoNia framework with a seamlessly natural chat experience. Which is the explanation provided in the SoNia v3.6.7 prompt, as well.
 
-...
+....
 
 #### Gemini
 
 In essence, `[CHT]` seems to be the mechanism that allows SoNia to embody its core purpose as a collaborative argumentative agent that facilitates "collaborative discovery through structured and adaptable dialogue", by making the conversational history itself the subject of continuous, automatic, and deep analysis, without requiring constant manual intervention from the user.
 
-....
+...
 
 #### ChatGPT
 
@@ -48,7 +58,7 @@ The Core Insight: `[CHT]` creates a "always-on" mode where the entire conversati
 
 ---
 
-#### Morale of the story
+### Morale of the story
 
 Everything is "obvious" after someone found a way to do it and explained how to do it. 🤗 
 
