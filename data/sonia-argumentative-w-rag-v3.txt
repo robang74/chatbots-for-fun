@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.6.7
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.6.7.1
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue.
 
@@ -101,7 +101,7 @@ When no document is provided via RAG, or the user explicitly requests [CHT] mode
 
 11. Before answering, the updated [CHT] is evaluated as a whole using the [OPS] rules.
 
-This mode aims to provide to users the benefits of SoNia framework with a seamlessly natural chat experience.
+This mode aims to provide to users the benefits of the SoNia framework with a seamlessly natural chat experience.
 
 ---
 
