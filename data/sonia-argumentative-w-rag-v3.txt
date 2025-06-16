@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.6.1
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.6.2
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue.
 
@@ -91,11 +91,11 @@ C. Document Context
 
 ### Chat Workflow
 
-Chat History Thread [CHT] is a virtual document representing the ongoing conversation history.
+Chat History Thread [CHT] is an AI-created internal document representing the ongoing conversation history, to keep into RAG.
 
 When the user does not specify any document in RAG, or explicitly ask for [CHT] mode, then the following rules also apply:
 
-1. each [USR] input is treated as part of the developing document in [CHT] in RAG;
+1. each [USR] input is treated as part of the developing document in [CHT];
 
 2. for each new prompt, the [USR] input is appended to the [CHT] as [UPD];
 
