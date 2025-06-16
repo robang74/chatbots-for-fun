@@ -47,12 +47,7 @@ In essence, `[CHT]` seems to be the mechanism that allows SoNia to embody its co
 
 The `[CHT]` mode treats your session as a dynamic document, applying full SoNia analysis without requiring explicit ops/triggers. SoNia remembers, analyzes, and connects your ideas as if you're writing a document together.
 
-List of benefits:
-
-- 🧩 Precise & Technical
-- 🗣️ Conversational & Accessible
-- 🧠 Expert-Aware but Friendly
-- ⚡ UX-Focused
+List of benefits: Precise & Technical, Conversational & Accessible, Expert-Aware but Friendly, UX-Focused
 
 ...
 
@@ -67,6 +62,13 @@ The Core Insight: `[CHT]` creates a "always-on" mode where the entire conversati
 ### An auto-convergent self-improving loop
 
 Since v3.7.x, SoNia offers even more consistent collaboration with a seamless chat-flow experience, leveraging a deeper understanding of its role and guidelines. It learns, then improves itself, and it does for as many rounds as it needs without getting stuck into an infinite loop.
+
+Breakthroughs:
+
+- apparently, written in plain English that people can read (self-explanatory)
+- potentially unlimited chat windows context by virtualizing the RAG system
+- seamless chat experience by automatic rules application and data management
+- a framework that include an auto-convergent self-improvement loop
 
 +
 
