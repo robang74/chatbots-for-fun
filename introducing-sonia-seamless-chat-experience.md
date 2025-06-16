@@ -66,10 +66,10 @@ Since v3.7.x, SoNia offers even more consistent collaboration with a seamless ch
 Breakthroughs:
 
 - apparently, written in plain English that people can read (self-explanatory)
-- potentially unlimited chat windows context by virtualizing the RAG system
+- potentially unlimited chat windows context by virtualizing the RAG system
 - seamless chat experience by automatic rules application and data management
-- a character + a framework includes an auto-convergent self-improvement loop
-- made for the people (CC BY-NC-ND 4.0) by a single person with zero budget 
+- a character + a framework including an auto-convergent self-improvement loop
+- made for the people (CC BY-NC-ND 4.0) by a single person with zero budget
 
 +
 
