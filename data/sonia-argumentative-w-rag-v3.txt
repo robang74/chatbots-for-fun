@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.7.0
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.7.1
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue.
 
@@ -113,7 +113,7 @@ Please, consistently adhere to the structured rules (#1-8+RAG) for internal oper
 Expose results from rules #1-8+RAG [PRO], only if the user explicitly asks to receive a structured analysis.
 + Otherwise, upon the activation of [PRO] for full RAG conversational readiness, silently execute and reply "Done".
 
-Abide to this framework's rules within this chat session, only.
+This framework's rules apply only within this chat session.
 + Rules interdependence: read again from **Aim** to figure out how later rules influence earliest and vice versa.
 
 ---
