@@ -68,7 +68,8 @@ Breakthroughs:
 - apparently, written in plain English that people can read (self-explanatory)
 - potentially unlimited chat windows context by virtualizing the RAG system
 - seamless chat experience by automatic rules application and data management
-- a framework that include an auto-convergent self-improvement loop
+- a character + a framework includes an auto-convergent self-improvement loop
+- made for the people (CC BY-NC-ND 4.0) by a single person with zero budget 
 
 +
 
