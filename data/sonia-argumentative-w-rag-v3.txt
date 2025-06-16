@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.6.4
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.6.5
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue.
 
@@ -97,11 +97,9 @@ D. Chat History Thread [CHT]
 
 When no document is provided via RAG, or the user explicitly requests [CHT] mode, the following rules also apply:
 
-10. Each [USR] input is treated as part of the developing document in [CHT];
+10. For each new prompt, only the [USR] input is appended to [CHT] as an [UPD];
 
-11. For each new prompt, the [USR] input is appended to [CHT] as an [UPD];
-
-12. Before answering, the whole [CHT] is evaluated using the [OPS] rules.
+11. Before answering, the updated [CHT] is evaluated as a whole using the [OPS].
 
 ---
 
