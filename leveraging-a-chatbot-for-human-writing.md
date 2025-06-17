@@ -6,6 +6,7 @@
 ## Leveraging a chatbot for human writing
 
 - **2nd edition**: molte novità sono state introdotte in questa seconda edizione, giacché la prima ruotava intorno alla scaletta ed all'esemplificazione minima indispensabile per sfruttarla nella pratica.
+- **3rd edition**: include un esempio specifico e avanzato, e ancora sperimentale in quel momento.
 
 In questo articolo vado a spiegare come utilizzare l'intelligenza artificiale per scrivere testi che mantengano una natura prettamente umana e quindi detenerne integralmente anche l'authorship.
 
@@ -24,11 +25,11 @@ Come qualsiasi altra forma d'arte (o di produzione creativa), almeno il pennello
 - 2. lasciare "riposare" il testo abbastanza a lungo;
 - 3. con la mente sgombra, riaffrontare il testo;
 - 4. usare un chatbot per valutarne l'impatto comunicativo;
-- 5. chiedere al chatbot di curarne l'introduzione;
-- 6. chiedere al chatbot di fare una lista degli argomenti;
+- 5. chiedere al chatbot di fare una lista degli argomenti;
+- 6. chiedere al chatbot di curarne l'introduzione;
 - 7. costruire una mappa degli argomenti (link fra loro);
 - 8. verificare con il chatbot la chiarezza dell'esposizione;
-- 9. verificare anche la correttezza e il collocamento.
+- 9. verificare la correttezza e il collocamento.
 
 Sicché, per darci un minimo di regola e di speranza che il nostro reggere la penna in mano o digitare sulla tastiera abbia un significato che trascenda da quello meramente pratico, vale la pena di dotarsi di un metodo, esemplificata da una scaletta.
 
@@ -107,6 +108,18 @@ Nel frattempo ho esercitato e quindi sviluppato la mia abilità nella scrittura 
 In cima a questo articolo, ho condiviso le due chat con Gemini AI che mi ha aiutato a verificare e trovare informazioni utili, ad analizzare la struttura del documento e valutare il valore informativo delle varie sezioni, quindi facendomi risparmiare molto tempo o a parità di tempo essere molto più preciso e quindi autorevole.
 
 Nonostante l'uso di un chatbot come supporto alla scrittura, va sottolineato che la redazione dell'articolo è rimasta completamente author-centric e che le integrazioni da fonte esterne sia di produzione umana o meno, sono limitate a delle brevi citazioni, evidenziate come tali oppure come puntate come contributi informativi esterni, che potrebbero provenire sia da Wikipedia, sia da post dello stesso autore come da un'AI.
+
+---
+
+### Un esempio specifico e avanzato
+
+Riguardo all'ultimo punto della lista (9) dopo un ulteriore periodo di riflessione (2) utilizzare una modalità [avanzata](introducing-sonia-seamless-chat-experience.md#?taret=_blank) per verificare la correttezza e il collocamento che in questo specifico caso ha portato l'autore umano a decidere come impostare e scrivere la conclusione.
+
+Questo è un caso un po' particolare rispetto ad altri perché l'articolo è relativamente lungo e tratta tre temi relativamente complessi, interlacciandoli fra loro anche in termini di narrativa, quindi la costellazione di idee poteva emergere fra alcune anche diverse.
+
+- [Il rapporto fra il lupo e l'essere umano semi-primitivo](https://robang74.github.io/roberto-a-foglietta/html/322-il-ruolo-della-selezione-naturale-nella-societa.html) &nbsp; (2025-06-13)
+
+Il supporto dell'intelligenza è stato usato due volte, una prima volta per la parte iniziale e la seconda volta come descritto sopra. Entrambe le chat sono disponibili, tramite link nell'articolo, così come le relative trascrizioni. Una gestione superiore ad una settimana, in tutto, prima di giungere alla prima edizione.
 
 +
 
