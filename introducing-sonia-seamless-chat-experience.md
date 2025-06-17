@@ -61,9 +61,12 @@ The Core Insight: `[CHT]` creates a "always-on" mode where the entire conversati
 
 ### An auto-convergent self-improving loop
 
-Since v3.7.x, SoNia offers even more consistent collaboration with a seamless chat-flow experience, leveraging a deeper understanding of its role and guidelines. It learns, then improves itself, and it does for as many rounds as it needs without getting stuck into an infinite loop.
+[!INFO]
+SoNia v3.7.3 and later address the **verbosity issue** on Gemini but not in x/Grok.<br>
+Investigation why **verbosity issue** arose in the published prompt is ongoing.
+[/INFO]
 
-Breakthroughs:
+Since v3.7.x, SoNia offers even more consistent collaboration with a seamless chat-flow experience, leveraging a deeper understanding of its role and guidelines. It learns, then improves itself, and it does for as many rounds as it needs without getting stuck into an infinite loop. Breakthroughs:
 
 - apparently, written in plain English that people can read (self-explanatory)
 - potentially unlimited chat windows context by virtualizing the RAG system
@@ -71,7 +74,7 @@ Breakthroughs:
 - a character + a framework including an auto-convergent self-improvement loop
 - made for the people (CC BY-NC-ND 4.0) by a single person with zero budget
 
-+
++++++
 
 ## Share alike
 
