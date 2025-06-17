@@ -5,20 +5,62 @@
 
 ## Leveraging a chatbot for human writing
 
-Come utilizzare l'intelligenza artificiale per scrivere testi che mantengano prettamente natura umana e quidi detenerne integralmente l'authorship, stante il fatto che i contributi AI sarebbero equivalenti a note informative o citazioni prese da altri testi come da tradizione consolidata a prescindere che il tipo di documento imponga o meno una sezione specifica per la biobliografia.
+- **2nd edition**: molte novità sono state introdotte in questa seconda edizione, giacché la prima ruotava intorno alla scaletta ed all'esemplificazione minima indispensabile per sfruttarla nella pratica.
 
-0. scrivere una bozza del testo, così di getto;
-1. dividere il testo in sezioni e curarne il lessico;
-2. lasciare "riposare" il testo abbastanza a lungo;
-3. con la mente sgombra, riaffrontare il testo;
-4. usare un chatbot per valutarne l'impatto comunicativo;
-5. chiedere al chatbot di curarne l'introduzione;
-6. chiedere al chatbot di fare una lista degli argomenti;
-7. costruire una mappa degli argomenti (link fra loro);
-8. verificare con il chatbot la chiarezza dell'esposizione;
-9. eventualmente anche la correttezza e il collocamento.
+In questo articolo vado a spiegare come utilizzare l'intelligenza artificiale per scrivere testi che mantengano una natura prettamente umana e quidi detenerne integralmente anche l'authorship.
 
-Questo è il risultato di un processo in gran parte aderente alla lista di passaggi sopra esposta:
+Salvo quei contributi AI che sarebbero equivalenti a note informative o citazioni prese da altri testi come da tradizione consolidata a prescindere che il tipo di documento imponga o meno una sezione specifica per la biobliografia.
+
+---
+
+### Una scaletta di azioni da seguire
+
+Premesso che come ogni processo creativo anche la scrittura, essa non può essere costretta dentro ad un qualche rigido registro, molti di noi non scrivono creativamente con l'ambizione di diventare Shackspeare ma almeno riuscire ad distinguersi come stile.
+
+Come qualsiasi altra forma d'arte (o di produzione creativa), almeno il pennello in mano bisogna saperlo fare se si vuole dipingere, anche se un certo tipo di arte moderna ha messo in discussione anche questo fondamentale, noi restiamo un po' tradizionali.
+
+- 0. scrivere una bozza del testo, così di getto, d'istinto;
+- 1. dividere il testo in sezioni e curarne il lessico;
+- 2. lasciare "riposare" il testo abbastanza a lungo;
+- 3. con la mente sgombra, riaffrontare il testo;
+- 4. usare un chatbot per valutarne l'impatto comunicativo;
+- 5. chiedere al chatbot di curarne l'introduzione;
+- 6. chiedere al chatbot di fare una lista degli argomenti;
+- 7. costruire una mappa degli argomenti (link fra loro);
+- 8. verificare con il chatbot la chiarezza dell'esposizione;
+- 9. verificare anche la correttezza e il collocamento.
+
+Sicché, per darci un minimo di regola e di speranza che il nostro reggere la penna in mano o digitare sulla tastiera abbia un significato che trascenda da quello meramente pratico, vale la pena di dotarsi di un metodo, esemplificata da una scaletta.
+
+---
+
+### Scrittura creativa: the slow-food paradigma
+
+Nella scaletta sopra presentato è incorporato un paradigma che è davvero molto simile a quello alla base della filosofia dello slow-food, anche se è probabile che affinché possiato notarlo, debba spiegarlo.
+
+- 0-3: ingredienti naturali e di buona qualità, come: creatività, istinto, padronanza del vocabolario, lievitazione e fermentazione notturne, approccio a mente calma, veloci nello scrivere se ci piace ma senza fretta;
+
+- 4-9: buone abitudini e pazienza, come: delegare il più possibile, ascoltare attivamente, cercare un'opinione critica, usare un chatbot come se fosse un'audiece generica, sfruttare l'AI per quello che sa fare meglio tipo riconoscere schemi noti.
+
+- 7: anche in questo, c'è una parte da tenere per sé ed è quella essenziale, come: avere ben chiari nella propria mente i collegamenti tra i concetti, la mappa mentale, in modo che attraverso il nostro scritto essi emergano nella mente dei lettori.
+
+Senza dubbio, lo slow-food come la scrittura ponderata non sono "prodotti" a basso costo perché il processo di produzione non è veloce, ne economico. Ma d'altronde, imparare non è gratis, occorre prestaere attenzione (cit.) altrimenti fast-food e banalità.
+
+---
+
+### Scrivere non è un'attività fine a se stessa
+
+Nello scrivere, guidiamo i nostri lettori alla scoperta di nuove interpretazioni -- *guarda, là c'è la costellazione del Grande Carro* -- se anche un chatbot riesce a vederla attraverso le nostre parole, allora il nostro scritto è abbastanza chiaro per essere accessibile a molti.
+
+Sia chiaro, la chiarezza è una necessità comunicativa in molti contesti ma non necessariamente tutti quelli che meritano di essere considerati. La corrente dell'Ermetismo si fonda proprio su questo paradigma. Le comunicazioni cifrate anche.
+
+Certamente è più soddisfacente, sia per chi scrive sia per chi legge, saper vedere e mostrare nuove costellazione piuttosto che scoprire (o inventare) nuove stelle che in mezzo alle tante non lucchinano certo come una super-nova.
+
+---
+
+### Un esempio, nemmeno uno dei migliori
+
+Questo è il risultato di un processo in gran parte aderente alla lista di passaggi sopra esposta, un esempio preso fra quelli disponibili quando la prima edizione di questo articolo è stata scritta, attualmente nemmeno uno dei migliori:
 
 * [L'importanza del TCMO](https://robang74.github.io/roberto-a-foglietta/html/090-l-importanza-del-tcmo.html#leveraging-chatbot) &nbsp;-&nbsp; tag: `leveraging-chatbot`
 
@@ -28,7 +70,7 @@ Per contro, l'approccio di usare diversi chatbot o strumenti AI, per le varie fa
 
 Nel proseguo un esempio banale di prompt, scritto in linguaggio prettamente naturale come fosse una conversazione, per ottenere sia un'opinione generica dal chatbot, sia una valutazione specifica allo scopo.
 
-----
+---
 
 ### Prompt #8
 
@@ -54,9 +96,11 @@ Sì, è appropriato e offre diversi vantaggi:
 
 In sintesi, questo approccio non solo mantiene la natura umana del testo, ma la esalta, trasformando l'IA in un collaboratore piuttosto che in un sostituto.
 
-+
+---
 
-## Esempio completo
+### Esempio completo e più recente
+
+Nel frattempo ho esercitato e quindi sviluppato la mia abilità nella scrittura creativa supportata da chatbot, quindi mi sembra giusto aggiungere un esempio più esteso ma anche più attuale rispetto a quello inserito nella prima versione, che comunque ho mantenuto.
 
 - [Il modello otto-novecentesco ha fallito](https://robang74.github.io/roberto-a-foglietta/html/324-il-modello-otto-novecentesco-ha-fallito.html) &nbsp; (2025-06-14)
 
