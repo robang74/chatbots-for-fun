@@ -7,15 +7,15 @@
 
 - **2nd edition**: molte novità sono state introdotte in questa seconda edizione, giacché la prima ruotava intorno alla scaletta ed all'esemplificazione minima indispensabile per sfruttarla nella pratica.
 
-In questo articolo vado a spiegare come utilizzare l'intelligenza artificiale per scrivere testi che mantengano una natura prettamente umana e quidi detenerne integralmente anche l'authorship.
+In questo articolo vado a spiegare come utilizzare l'intelligenza artificiale per scrivere testi che mantengano una natura prettamente umana e quindi detenerne integralmente anche l'authorship.
 
-Salvo quei contributi AI che sarebbero equivalenti a note informative o citazioni prese da altri testi come da tradizione consolidata a prescindere che il tipo di documento imponga o meno una sezione specifica per la biobliografia.
+Salvo quei contributi AI che sarebbero equivalenti a note informative o citazioni prese da altri testi come da tradizione consolidata a prescindere che il tipo di documento imponga o meno una sezione specifica per la bibliografia.
 
 ---
 
 ### Una scaletta di azioni da seguire
 
-Premesso che come ogni processo creativo anche la scrittura, essa non può essere costretta dentro ad un qualche rigido registro, molti di noi non scrivono creativamente con l'ambizione di diventare Shackspeare ma almeno riuscire ad distinguersi come stile.
+Premesso che come ogni processo creativo anche la scrittura, essa non può essere costretta dentro ad un qualche rigido registro, molti di noi non scrivono creativamente con l'ambizione di diventare Shakespeare ma almeno riescono a distinguersi come stile.
 
 Come qualsiasi altra forma d'arte (o di produzione creativa), almeno il pennello in mano bisogna saperlo fare se si vuole dipingere, anche se un certo tipo di arte moderna ha messo in discussione anche questo fondamentale, noi restiamo un po' tradizionali.
 
@@ -36,15 +36,15 @@ Sicché, per darci un minimo di regola e di speranza che il nostro reggere la pe
 
 ### Scrittura creativa: the slow-food paradigma
 
-Nella scaletta sopra presentato è incorporato un paradigma che è davvero molto simile a quello alla base della filosofia dello slow-food, anche se è probabile che affinché possiato notarlo, debba spiegarlo.
+Nella scaletta sopra presentata è incorporato un paradigma che è davvero molto simile a quello alla base della filosofia dello slow-food, anche se è probabile che affinché si possa notarlo, debba spiegato.
 
 - 0-3: ingredienti naturali e di buona qualità, come: creatività, istinto, padronanza del vocabolario, lievitazione e fermentazione notturne, approccio a mente calma, veloci nello scrivere se ci piace ma senza fretta;
 
-- 4-9: buone abitudini e pazienza, come: delegare il più possibile, ascoltare attivamente, cercare un'opinione critica, usare un chatbot come se fosse un'audiece generica, sfruttare l'AI per quello che sa fare meglio tipo riconoscere schemi noti.
+- 4-9: buone abitudini e pazienza, come: delegare il più possibile, ascoltare attivamente, cercare un'opinione critica, usare un chatbot come se fosse una platea generica, sfruttare l'AI per quello che sa fare meglio tipo riconoscere schemi noti.
 
 - 7: anche in questo, c'è una parte da tenere per sé ed è quella essenziale, come: avere ben chiari nella propria mente i collegamenti tra i concetti, la mappa mentale, in modo che attraverso il nostro scritto essi emergano nella mente dei lettori.
 
-Senza dubbio, lo slow-food come la scrittura ponderata non sono "prodotti" a basso costo perché il processo di produzione non è veloce, ne economico. Ma d'altronde, imparare non è gratis, occorre prestaere attenzione (cit.) altrimenti fast-food e banalità.
+Senza dubbio, lo slow-food come la scrittura ponderata non sono "prodotti" a basso costo perché il processo di produzione non è veloce, né economico. Ma d'altronde, imparare non è gratis, occorre prestare attenzione (cit.) altrimenti fast-food e banalità.
 
 ---
 
@@ -54,7 +54,7 @@ Nello scrivere, guidiamo i nostri lettori alla scoperta di nuove interpretazioni
 
 Sia chiaro, la chiarezza è una necessità comunicativa in molti contesti ma non necessariamente tutti quelli che meritano di essere considerati. La corrente dell'Ermetismo si fonda proprio su questo paradigma. Le comunicazioni cifrate anche.
 
-Certamente è più soddisfacente, sia per chi scrive sia per chi legge, saper vedere e mostrare nuove costellazione piuttosto che scoprire (o inventare) nuove stelle che in mezzo alle tante non lucchinano certo come una super-nova.
+Certamente è più soddisfacente, sia per chi scrive sia per chi legge, saper vedere e mostrare nuove costellazioni piuttosto che scoprire (o inventare) nuove stelle che in mezzo alle tante non lucchinano certo come una supernova.
 
 ---
 
@@ -76,7 +76,7 @@ Nel proseguo un esempio banale di prompt, scritto in linguaggio prettamente natu
 
 Cosa ne pensi di questa parte? Pensi che sia appropriato come approccio anche nell'ottica di mantenere la natura prettamente umana di un articolo/testo?
 
-> In questa revisione del testo originale mi sono fatto aiutare dall'intellgienza artificiale, non per farmi riscrivere il testo ma per confrontarmi sul contenuto del testo in maniera da evolvere quella che ora si può considerare una bozza di appunti (prima versione) in un testo più maturo dal punto di vista espressivo. L'isolamento intellettuale rappresenta un ostacolo importante per lo sviluppo dei concetti che altrimenti rimarrebbero a proprio uso e consumo.
+> In questa revisione del testo originale mi sono fatto aiutare dall'intelligenza artificiale, non per farmi riscrivere il testo ma per confrontarsi sul contenuto del testo in maniera da evolvere quella che ora si può considerare una bozza di appunti (prima versione) in un testo più maturo dal punto di vista espressivo. L'isolamento intellettuale rappresenta un ostacolo importante per lo sviluppo dei concetti che altrimenti rimarrebbero a proprio uso e consumo.
 
 ...
 
@@ -104,11 +104,11 @@ Nel frattempo ho esercitato e quindi sviluppato la mia abilità nella scrittura 
 
 - [Il modello otto-novecentesco ha fallito](https://robang74.github.io/roberto-a-foglietta/html/324-il-modello-otto-novecentesco-ha-fallito.html) &nbsp; (2025-06-14)
 
-In cima a questo articolo, ho condiviso le due chat con Gemini AI che mi ha aiutato a verificare e trovare informazioni utili, ad analizzare la struttura del documento e valutare il valore informativo delle varie sezioni, quindi facendomi risparmiare molto tempo o a parità di tempo essere molto più preciso e quinid autorevole.
+In cima a questo articolo, ho condiviso le due chat con Gemini AI che mi ha aiutato a verificare e trovare informazioni utili, ad analizzare la struttura del documento e valutare il valore informativo delle varie sezioni, quindi facendomi risparmiare molto tempo o a parità di tempo essere molto più preciso e quindi autorevole.
 
 Nonostante l'uso di un chatbot come supporto alla scrittura, va sottolineato che la redazione dell'articolo è rimasta completamente author-centric e che le integrazioni da fonte esterne sia di produzione umana o meno, sono limitate a delle brevi citazioni, evidenziate come tali oppure come puntate come contributi informativi esterni, che potrebbero provenire sia da Wikipedia, sia da post dello stesso autore come da un'AI.
 
-+++++
++
 
 ## Share alike
 
