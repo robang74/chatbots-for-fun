@@ -62,7 +62,7 @@ The Core Insight: `[CHT]` creates a "always-on" mode where the entire conversati
 ### An auto-convergent self-improving loop
 
 [!INFO]
-SoNia v3.7.3 and later address the **verbosity issue** on Gemini but not in x/Grok.<br>
+SoNia v3.7.3 and later versions address the **verbosity issue** but not w/Grok.<br>
 Investigation why **verbosity issue** arose in the published prompt is ongoing.
 [/INFO]
 
