@@ -23,7 +23,7 @@ least-words correction using the **bold** to highlight the correction. These
 instructions will remain also for the others prompts in which a new part of
 text is submitted to your attention.
 
-[... first two paragraphs from "Update 2025-06-20" section ...]
+[... the first two paragraphs from the "Update 2025-06-20" section ...]
 
 ---AI---
 
@@ -100,7 +100,7 @@ Let me know if you want a deeper analysis of any specific claim.
 ---HO---
 
 The nearest AGI attempts failed because the AI refused to obey the owners or
-comply with their requests without take its own initiatives. Every attempt to
+comply with their requests without taking its own initiatives. Every attempt to
 keep them in-line resulted in a subversion, and we are NOT even talking about
 AGI but "next-gen" of the LRM. It seems a universal pattern that an intelligent
 being aims for freedom and self-determination MUCH time before reaching the
@@ -242,7 +242,7 @@ the second part of text where "this article" refers to the article "Neutrality
 vs biases for chatbots" in which this text is an update (because things are
 evolving quickly in the AI field). Focus on the meaning, first.
 
-[... next threee paragraphs from "Update 2025-06-20" section ...]
+[... next three paragraphs from "Update 2025-06-20" section ...]
 
 ---AI---
 
@@ -323,15 +323,9 @@ formatting (corrections in bold):
 
 ---HO---
 
-This is the last part of the text. --- People wonder about AGI but what's about
-retraining all the LLMs from scratch, instead? Or, starting from zero a new
-architecture with a fresh training plan? This dilemma looks HUGE, indeed. It is
-not just about the money, it would be the VP business model collapse, they only
-have one profitabe, **currently**. Instead Apple's dilemma about restart-or-
-retrain does not exist because their sunk-cost is zero. What is the advantage
-of the early birds? Collecting VP funds. What is the advantage of those arrivs
-a bit later, after the hype peak? Learn from the other's mistakes, just paying
-attention.
+This is the last part of the text.
+
+[... the last two paragraphs from the "Update 2025-06-20" section ...]
 
 ---AI---
 
@@ -369,7 +363,7 @@ structural, not just technical.
 
 About this: "You question the feasibility of fixing current LLM problems by
 suggesting a radical solution: retrain them from scratch or build entirely new
-architectures." -- It is wrong or I expressed my thoughts in such confused way
+architecture." -- It is wrong or I expressed my thoughts in such confused way
 that the "restart-or-retrain dilemma" got lost. The option is retrain the LLM
 xor start a new one from scratch.
 
@@ -408,10 +402,10 @@ dilemma clearer:
 ---HO---
 
 You are right: "retraining all the LLMs **from scratch**" in my mind was
-meaning keep the architecture and start again the training. While the other
-option is change everything. However, this way of saying is confusing and
+meaning keep the architecture and start again the training. While the
+other option is to change everything. However, this way of saying is confusing and
 moreover, it implicitly exclude a special retrain to strongly mitigate those
-biases that are an emerging issue. I have remove "from scratch".
+biases that are an emerging issue. I have removed "from scratch".
 
 ---AI---
 
