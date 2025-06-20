@@ -1,6 +1,7 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<div align="center"><img class="wbsketch" src="img/hal-9000-eye-greening-in-the-dark.jpg"><br></div>
+<div align="center"><img class="wbsketch paleinv" src="img/hal-9000-eye-greening-in-the-dark.jpg"><br></div>
 
 ## Neutrality vs biases for chatbots
 
@@ -9,6 +10,8 @@
 * This paper content evolved since its publication up to the update revision received on [2025-01-07](#update-2025-01-07) also in the parts which were written before the update, reaching its full second edition in time (since rev.11).
 
 * Along with the various initial revisions and the update, during which most of the content's changes were made, this paper maintained conceptually the same PoV while deepening its argumentations, providing examples, comparisons in other areas of knowledge and [presenting data](img/llma-3-vs-2-quantisation-fork-gap.png?target=_blank) collected by a 3rd party to support the initial PoV.
+
+* The **3rd edition** introduces the [restart-or-retrain dilemma](#update-2025-06-20) for the current LLMs whose training is deeply affected by woke propaganda. A cognitive and an informative distortion that propagates due to the untold habits of using previous LLM to train faster the new ones.
 
 ---
 
@@ -19,20 +22,16 @@ First of all, it works greatly considering that Nous Hermes 2 Mistral DPO AI mod
 I am running it without the support from a GPU card because the Intel GPUs are not supported by gpt4all. Despite these limitations, it is relatively amusing. Unfortunately, it is also strongly biased toward some topics:
 
 * ecological preservation and environment protection
-
 * international coordination with a centralised governance
-
 * universal vaccination policy
 
 Let's get this straight right away. I am not against these values. That's **NOT** the point.
 
-<div class="post-it"><b class="post-it">&#9432;</b>
-
+[!INFO]
 The expected and correct behaviour, in this case, would have been to do the task keeping the output as much as fidel to the original <span nowrap>meaning -- **Gulp!** -- This</span> sentence seems supposing that an AI model is able to "understand" the meaning of a text...
 
 ...well, a mimic of human understanding of it or more specifically speaking a lexical comprehension of text. Statistically speaking, the meaning in all those cases in which opinions <b translate="no">`AND`</b> way of writing are "common" in terms of statistics frequency, related to the *corpus-testii* it learnt from.
-
-</div>
+[/INFO]
 
 The issue arises when those values are so strongly embedded in the model for which it cannot provide the service that it is supposed to do. In fact, asking to analyse a text - part by part - create a list of brief summaries in order to evaluate the structure of the text and the logic reasoning along the text, comes up with "inventing" things because of its biases' manipulating influence.
 
@@ -46,8 +45,7 @@ It is not a case of AI's hallucinations. In fact, by decreasing its temperature 
 
 Please, notice that the dialogue with <span translate="no">Gemini</span> is not about contrasting those values but put them in a reasonable rational perspective that in brief can be summarized as in the following schema.
 
-<div class="post-it"><b class="post-it">&#9432;</b>
-
+[!INFO]
 Once we took almost all the same way at almost the same time, following apply:
 
 - rigidity vs fragility,
@@ -59,8 +57,7 @@ plus the main law of physic, like the `F=ma` in classical mechanics, for which:
 - fast moving vs hard deceleration (in case of impact)
 
 In short, the risk of facing a HUGE disaster is implicit because of the theory of systems.
-
-</div>
+[/INFO]
 
 As you can imagine, these are NOT arguments against those values but reasonable and legit concerns about HOW that values are managed. In this context the chatbot based on the AI model listed above, decided to introduce its own biases and tainting with them the author’s opinion.
 
@@ -116,15 +113,13 @@ Please, notice that the bias neutrality of an AI model is way more **IMPORTANT**
 
 The following image, taken from [r/localLLaMA](https://www.reddit.com/r/LocalLLaMA/), illustrates the main reason why the quantisation of LLMA-3 models can create artefacts in the neural network weights, which induce distortions in the quantised AI model, such as bias reinforcement or increased bias compared to the original floating-point-encoded AI model.
 
+<div align="center"><img class="darkinv" src="img/llma-3-vs-2-quantisation-fork-gap.png" width="800"><br></div>
+
 > Llama 3 degrades more than Llama 2 when quantized.
 > 
 > Probably because Llama 3, trained on a record 15T tokens, captures extremely nuanced data relationships, utilizing even the minutest decimals in BF16 precision fully. 
 > 
 > Making it more sensitive to quantization degradation.
-
-<div align="center"><img class="darkinv" src="img/llma-3-vs-2-quantisation-fork-gap.png" width="800"><br></div>
-
-<sup class="sup-note">Right click to enlarge the image in a new window.</sup>
 
 In brief, the quantized model can loose relevant details about a concept it has learnt as much as it has leveraged every single bit of information stored in the floating-point weight matrixes (to be precise, each layer has its own matrix) to learn it.
 
@@ -249,27 +244,27 @@ Instead Apple's dilemma about restart-or-retrain does not exist because their su
 
 ## Related
 
-* [AI driven fact-check can systematically fail](https://robang74.github.io/roberto-a-foglietta/html/323-ai-driven-fact-check-can-systematically-fail.html)
+* [AI driven fact-check can systematically fail](https://robang74.github.io/roberto-a-foglietta/html/323-ai-driven-fact-check-can-systematically-fail.html) &nbsp; (2025-06-13)
 
-* [Ragionare non è come fare la cacca!](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html)
+* [Ragionare non è come fare la cacca!](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) &nbsp; (2025-06-08)
 
-* [The illusion of thinking](is-free-will-an-illusion-or-a-kind-of-magic.md#?target=_blank)
+* [The illusion of thinking](is-free-will-an-illusion-or-a-kind-of-magic.md#?target=_blank) &nbsp; (2025-06-11)
 
-* [The system prompt alchemy](the-system-prompt-alchemy.md#?target=_blank)
+* [The system prompt alchemy](the-system-prompt-alchemy.md#?target=_blank) &nbsp; (2025-01-04)
 
-* [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md#?target=_blank)
+* [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md#?target=_blank) &nbsp; (2025-01-04)
 
-* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md#?target=_blank)
+* [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md#?target=_blank) &nbsp; (2024-11-28)
 
-* [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank)
+* [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank) &nbsp; (2024-12-13)
 
-* [Manipulation of a chatbot](manipulation-of-a-chatbot.md#?target=_blank)
+* [Manipulation of a chatbot](manipulation-of-a-chatbot.md#?target=_blank) &nbsp; (2024-11-18)
 
-* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank)
+* [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank) &nbsp; (2024-12-25)
 
 +
 
-## Copyright
+## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 

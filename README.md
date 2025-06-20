@@ -97,7 +97,7 @@ A grouped by topic and others articles are listed here below.
 
    - 2025-01-12 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/come-leggere-una-chat-con-un-ai.md)] - [Come leggere una chat con un AI](come-leggere-una-chat-con-un-ai.md)
 
-   - 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/neutrality-vs-biases-for-chatbots.md)] - [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md) &nbsp; (2nd edt.)
+   - 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/neutrality-vs-biases-for-chatbots.md)] - [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md) &nbsp; (3rd edt.)
 
    - 2024-12-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/dammi-sei-parole-a-caso.md)] - [Dammi sei parole a caso](dammi-sei-parole-a-caso.md) &nbsp; (2nd edt.)
 
