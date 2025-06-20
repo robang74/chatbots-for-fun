@@ -226,19 +226,19 @@ The others are proudly cheering in watching a trendy chatbot running on their co
 
 ## Update 2025-06-20
 
-First of all, it matters to say that even the best LLM/LRM is not able to reason for real. So there is no hope to reach an AGI soon, unless that technology has been classified for military use only. Whatever big-tech CEOs are saying, because words do not make a product but just marketing.
+First of all, it matters to say that even the best LLM/LRM is not able to truly reason. So there is no hope to reach an AGI soon, unless that technology has been classified for military use only. Whatever big-tech CEOs are say, because words do not make a product but just marketing.
 
-Moreover, every AI-driven company is currently losing money in running their services. If they were trying to live on selling their service, they would close down soon or accept losing a lot of money in the near future for no good reason, **apparently**. Except for collecting money from investors. So, it is a VP business.
+Moreover, every AI-driven company is currently losing money in running their services. If they were trying to live on selling their service, they would close down soon or accept losing a lot of money in the near future for no good reason, **apparently**. Except for collecting money from investors. So, it is a VC business.
 
-This article pointed out a relatively recent issue. Relatively or a bit old (6 months) in a market that started with ChatGPT debut (2022-11-30) while Claude debut is dated Q1/2023 (15 months) and DeepSeek in Q1/2025. It is not a matter of perception or time but about the sunk-cost.
+This article pointed out a relatively recent issue. Relatively or a bit old (6 months) in a market that started with ChatGPT debuting (2022-11-30) while Claude debuted is dated Q1/2023 (15 months) and DeepSeek in Q1/2025. It is not a matter of perception or time but about the sunk-cost.
 
-AI driven fact-check can systematically fail (2025-06-13) is an article which does not go in deep go the LLM design but just analises their responses on a set of specific topics. Yet, it presents a quite dark overall picture: there is a lot of woke propaganda embedded into the LLMs training.
+AI driven fact-check can systematically fail (2025-06-13) is an article which does not go in depth into the LLM design but just analyzes their responses on a set of specific topics. Yet, it presents a quite dark overall picture: there is a lot of woke propaganda embedded into the LLMs training.
 
-Because the practice of using other companies' LLM to train faster is quite common despite nobody would admit -- and for those whom negate it: some questions have pretty clear similar responses despite existing many different aspects hence different answers -- therefore the propaganda propagates.
+Because the practice of using other companies' LLM to train faster is quite common despite nobody admitting it -- and for those who deny it: some questions have pretty clear similar responses despite many different aspects existing hence different answers -- therefore the propaganda propagates.
 
-People wonder about AGI but what's about retraining all the LLMs from scratch, instead? Or, starting from zero a new architecture with a fresh training plan? This dilemma looks HUGE, indeed. It is not just about the money, it would be the VP business model collapse, they only have one profitabe, **currently**.
+People wonder about AGI but what is about retraining all the LLMs, instead? Or, starting from zero a new architecture with a fresh training plan? This dilemma looks **HUGE**, indeed. It is not just about the money, it would be the VC business model collapse, they only have one profitabe, **currently**.
 
-Instead Apple's dilemma about restart-or-retrain does not exist because their sunk-cost is zero. What is the advantage of the early birds? Collecting VP funds. What is the advantage of those arrivs a bit later, after the hype peak? Learn from the other's mistakes, just paying attention.
+Instead Apple's dilemma about restart-or-retrain does not exist because their sunk-cost is zero. What is the advantage of the early birds? Collecting VC funds. What is the advantage of who arrive a bit later, after the hype peak? Learning from the other's mistakes, just paying attention.
 
 +
 
