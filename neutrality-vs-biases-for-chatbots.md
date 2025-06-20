@@ -240,6 +240,8 @@ People wonder about AGI but what is about retraining all the LLMs, instead? Or, 
 
 Instead Apple's dilemma about restart-or-retrain does not exist because their sunk-cost is zero. What is the advantage of the early birds? Collecting VC funds. What is the advantage of who arrive a bit later, after the hype peak? Learning from the other's mistakes, just paying attention.
 
+Continue in this [dialogue](https://chatgpt.com/share/6855995d-5dbc-8012-a43c-4805a84c6c0e) with ChatGPT or into its [transcription](data/neutrality-vs-biases-for-chatbots-update2-chatgpt.txt#?target=_blank) epurated by the suggested English corrections. 
+
 +
 
 ## Related
