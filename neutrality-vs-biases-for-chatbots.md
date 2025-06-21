@@ -234,7 +234,7 @@ Continue in this [dialogue](https://chatgpt.com/share/6855995d-5dbc-8012-a43c-48
 
 ## Update 2025-06-21
 
-Today, Elon Musk promised, via an X tweet, to solve the problem exposed in this article and achieve the rectification of the corpus of human knowledge using the next-to-come a/Grok AI version.
+Today via an X tweet, Elon Musk promised to solve the problem exposed in this article and achieve the rectification of the corpus of human knowledge using the next-to-come a/Grok AI version. Good luck!
 
 [!CITE]
 We will use Grok 3.5 (maybe we should call it 4), which has advanced reasoning, to rewrite the entire corpus of human knowledge, adding missing information and deleting errors.
