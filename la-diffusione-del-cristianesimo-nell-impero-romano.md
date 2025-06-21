@@ -27,7 +27,7 @@ Premesso che non ho fatto una verifica riguardo al testo qui sotto proposto in P
 
 Ne è emersa una discussione decisamente interessante, non affatto banale, non affatto facile da accettare in alcune sue parti, ed è pure giusto che sia così visto che alcune parti sono ad oggi speculative per quanto appaiano da un punto di vista storico solide e convincenti, più che altro perché le alternative note non stanno in piedi, mica perché ci sia una qualche verità rivelata in questa conversazione.
 
-++++
+....
 
 #### Spoiler
 
