@@ -169,21 +169,15 @@ To fulfil the requirements above - the best candidates are text-generative AI mo
 After all, without knowledge, there is no context at all. Hence, lesser the knowledge smaller the context and vice-versa more knowledge broader the context. So, how to match these requirements. Here the recipe:
 
 1. a chatbot AI engine, like OpenAI GPT-3 or Intel Neural Chat, etc.;
-
 2. a large language AI model like LLMA-2 or Mistral, etc.;
-
 3. a fine tuning for knowledge, first, like Open Hermes 2.5 dataset;
-
 4. a fine tuning for being instructed, like Open Orca Slim dataset.
 
 The standard way of doing that is quite straightforward seeing what is most frequently done on Hugging Face platform:
 
 1. merge the two AI engines from their original models: chat + llm;
-
 2. fine tuning the merged engine with knowledgeable dataset - first - because context matters;
-
 3. fine tuning with a relatively smaller dataset about how to follow instruction from the user prompt;
-
 4. quantisation, using `Q4_0` when this legacy algorithm is required and packaging with the `GUFF` format when it is compulsory or useful.
 
 Looking from the perspective of a data scientist with some knowledge about human psychology, considering that AI is mirroring the human traits, then this recipe is straightforward and clear.
@@ -195,21 +189,15 @@ Looking from the perspective of a data scientist with some knowledge about human
 Therefore, even including that the adoption of LLMA-3 was a marketing choice, why is there not, into gpt4all catalogue, **any** of a GPT-3 [Slerp](https://en.wikipedia.org/wiki/Slerp) merged LLMA-2 fine tuned on OH 2.5 and OO slim instruct AI models? The most probable answer is:
 
 - because such training is "uncommon"
-
    - because Hermes and Orca trainings are competing for setting the matrixes weights which are limited
-
    - hence those datasets were designed to be alternative rather than complementary
 
 - because it is an "anti-marketing" choice
-
    - gpt4all is a open-source applications which amateurs download pay nothing
-   
    - amateurs wishes to try the most trending AI models, not a "geniette-in-a-box"
 
 - because those who use CLI-only tools have no such restrictions
-
    - hence nobody cares: not the company, not the amateurs and not professionals
-
    - which is the best scenario for a nerdish divulgation oriented incursion.
 
 So, what is missing? The user base (aka market niche).
@@ -240,28 +228,44 @@ People wonder about AGI but what is about retraining all the LLMs, instead? Or, 
 
 Instead Apple's dilemma about restart-or-retrain does not exist because their sunk-cost is zero. What is the advantage of the early birds? Collecting VC funds. What is the advantage of who arrive a bit later, after the hype peak? Learning from the other's mistakes, just paying attention.
 
-Continue in this [dialogue](https://chatgpt.com/share/6855995d-5dbc-8012-a43c-4805a84c6c0e) with ChatGPT or into its [transcription](data/neutrality-vs-biases-for-chatbots-update2-chatgpt.txt#?target=_blank) epurated by the suggested English corrections. 
+Continue in this [dialogue](https://chatgpt.com/share/6855995d-5dbc-8012-a43c-4805a84c6c0e) with ChatGPT or into its [transcription](data/neutrality-vs-biases-for-chatbots-update2-chatgpt.txt#?target=_blank) epurated by the suggested English corrections.
 
 +
 
-## Related
+## Update 2025-06-21
+
+Today, Elon Musk promised, via an X tweet, to solve the problem exposed in this article and achieve the rectification of the corpus of human knowledge using the next-to-come a/Grok AI version.
+
+[!CITE]
+We will use Grok 3.5 (maybe we should call it 4), which has advanced reasoning, to rewrite the entire corpus of human knowledge, adding missing information and deleting errors.
+
+Then retrain on that.
+
+Far too much garbage in any foundation model trained on uncorrected data.
+[/CITE]
+
+- [Elon Musk's tweet](https://x.com/elonmusk/status/1936333964693885089) &nbsp; (2025-06-21, [screenshot](../../roberto-a-foglietta/img/323-ai-driven-fact-check-can-systematically-fail-elonmusk.png#?target=_blank) available)
+
++
+
+## Related articles
 
 * [AI driven fact-check can systematically fail](https://robang74.github.io/roberto-a-foglietta/html/323-ai-driven-fact-check-can-systematically-fail.html) &nbsp; (2025-06-13)
-
++++++
 * [Ragionare non è come fare la cacca!](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) &nbsp; (2025-06-08)
-
++++++
 * [The illusion of thinking](is-free-will-an-illusion-or-a-kind-of-magic.md#?target=_blank) &nbsp; (2025-06-11)
-
++++++
 * [The system prompt alchemy](the-system-prompt-alchemy.md#?target=_blank) &nbsp; (2025-01-04)
-
++++++
 * [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md#?target=_blank) &nbsp; (2025-01-04)
-
++++++
 * [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md#?target=_blank) &nbsp; (2024-11-28)
-
++++++
 * [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank) &nbsp; (2024-12-13)
-
++++++
 * [Manipulation of a chatbot](manipulation-of-a-chatbot.md#?target=_blank) &nbsp; (2024-11-18)
-
++++++
 * [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank) &nbsp; (2024-12-25)
 
 +
