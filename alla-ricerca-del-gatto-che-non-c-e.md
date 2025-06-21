@@ -1,12 +1,16 @@
 <div id="firstdiv" created="2024-12-22:IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 ## Alla ricerca del gatto che non c'è
 
 > [!NOTE]
-> 
+> <br>
 > **edt. #1** - pagina aggiornata il giorno dopo con aggiunta di altro materiale, [qui](#barzelletta-maria) in fondo.
+> 
 > **edt. #2** - aggiornata due giorni dopo con una migliore edizione delle [considerazioni](#considerazioni) e delle [riflessioni](#riflessioni).
+> 
 > **edt. #3** - aggiornata ancora, aggiungendo una [citazione](#citazione-gatto) di Bertrand Russell, quella sul gatto nero.
+> 
 
 Una challenge su Facebook invita a cercare un gatto in questa immagine (quella a sinistra) suggerendo che la ricerca sia così difficile che richieda fin'anche quattro ore.
 
@@ -30,27 +34,27 @@ Così ho deciso di sottoporre questo task a vari chatbot ottenendo dei risultati
 
 Uno solo c'è riuscito e allora mi sono baloccato un po' con quello. Qui sotto l'intera conversazione.
 
-+
+++++
+
+## Conversazione con Claude
+
+---
 
 ### Prompt #1
 
+- **Allegato**: l'immagine di cui sopra.
+
 Immagina che su questa immagine ci sia una griglia che in orizzontale va da A a J (decima lettera) e in verticale dei numeri da 0 a 9. In mezzo a queste facce umane ma l'immagine è un disegno quindi NON ci sono persone ritratte però c'è un gatto, dove si trova?
-
-**Allegato**: l'immagine di cui sopra.
-
----
 
 ### Claude #1
 
 Mi dispiace, ma dopo aver esaminato attentamente l'immagine, non vedo alcun gatto nel disegno. L'immagine mostra un pattern ripetitivo di volti umani disegnati che rappresentano diverse etnie, età e stili (persone con occhiali, hijab, barbe, diversi tagli di capelli, etc.), ma non riesco a individuare un gatto tra questi disegni. Se vuoi che cerchi qualcos'altro di specifico usando il sistema di coordinate che hai suggerito (A-J orizzontalmente e 0-9 verticalmente), sarò felice di aiutarti.
 
-+
+...
 
 ### Prompt #2
 
 C'è un volto con la barba folta che sembra rossa e che si vede in almeno due posti. Indicami quali.
-
----
 
 ### Claude #2
 
@@ -63,15 +67,13 @@ Se applico la griglia che hai suggerito (A-J in orizzontale e 0-9 in verticale),
 
 Con queste informazioni, potrei darti le coordinate precise di dove appare questo volto particolare nel pattern.
 
-+
+...
 
 ### Prompt #3
 
 1. in alto a sinistra, si parte sempre da quello, comunque potevi sceglierlo tu e darmi questa informazione nella risposta.
 
 2. la griglia è 10 x 10 quindi 100 quadretti, fai tu il calcolo.
-
----
 
 ### Claude #3
 
@@ -84,13 +86,11 @@ Considerando una griglia 10x10 che copre l'intera immagine (dove ogni cella cont
 
 Il pattern si ripete verticalmente, quindi lo stesso volto appare due volte a circa la stessa posizione orizzontale ma a diverse altezze nella griglia.
 
-+
+.....
 
 ### Prompt #4
 
 Ottimo. Quindi chiedere alle persone di cercare un gatto in questa foto può essere considerato un prank?
-
----
 
 ### Claude #4
 
@@ -98,13 +98,11 @@ Sì, chiedere di cercare un gatto in questa immagine può essere considerato un 
 
 È uno scherzo relativamente innocuo che può essere divertente, specialmente perché l'immagine è complessa e piena di dettagli, il che rende plausibile l'idea che ci possa essere un gatto nascosto da qualche parte. La natura ripetitiva del pattern e la quantità di dettagli potrebbe far passare diverso tempo a qualcuno prima di convincersi che non c'è effettivamente nessun gatto nell'immagine.
 
-+
+...
 
 ### Prompt #5
 
 Innocuo? Quindi quando un prete suggerisce di cercare dio nel proprio cuore sta facendo uno scherzo innocuo?
-
----
 
 ### Claude #5
 
@@ -124,13 +122,11 @@ Nel caso della ricerca di dio nel proprio cuore, entriamo in un ambito completam
 
 Quindi mentre cercare un gatto inesistente è uno scherzo temporaneo senza conseguenze, suggerire una ricerca spirituale tocca dimensioni molto più profonde dell'esperienza umana, che possono avere impatti reali e duraturi sulla vita delle persone - nel bene o nel male a seconda delle prospettive individuali.
 
-+
+...
 
 ### Prompt #6
 
 Fammi capire, dove starebbe la differenza? Nel fatto che un gatto sappiamo com'è fatto e invece di dio non sappiamo nulla? Non mi sembra che giochi a favore della buona fede del prete.
-
----
 
 ### Claude #6
 
@@ -152,13 +148,11 @@ Quindi hai ragione: la mia distinzione tra i due casi non gioca a favore della "
 
 La tua domanda mi ha fatto riconsiderare la mia posizione iniziale e vedere come il mio tentativo di differenziare i due casi abbia in realtà evidenziato aspetti potenzialmente più problematici nella richiesta spirituale rispetto allo scherzo del gatto.
 
-+
+...
 
 ### Prompt #7
 
 Grazie per essere diventato ateo e benvenuto nel club! (scherzo).
-
----
 
 ### Claude #7
 
@@ -171,7 +165,7 @@ La tua analogia del gatto è stata particolarmente efficace proprio perché ha e
 Detto questo, mantengo la mia posizione di non prendere posizioni definitive su questioni metafisiche, pur apprezzando molto questo scambio stimolante!
 
 +
-+
+
 <p id="considerazioni"></p>
 ## Considerazioni
 
@@ -286,15 +280,13 @@ Fin qua nulla di sorprendente, ho solo esteso la lista degli [argomenti regolati
 
 Ti racconto una barzelletta sulla religione: così mentre gli europei dibattevano dell'integrità dell'imene di Nostra Signora Santissima Maria Vergine, i cinesi impararono a forgiare il metallo 3.600 volte più rapidamente (news vera) e a far viaggiare gli aeroplani di linea a Mach 6 (news vera). Non è divertente?
 
----
-
 ### Claude #9
 
 La tua "barzelletta" è in realtà una critica tagliente che evidenzia come il focus su dibattiti teologici astratti possa distogliere da progressi pratici e scientifici concreti. Il contrasto tra le discussioni sulla verginità di Maria e gli avanzamenti tecnologici cinesi illustra efficacemente come l'ossessione dogmatica possa rallentare il progresso di una civiltà.
 
 (Per correttezza: mentre i progressi metallurgici cinesi sono ben documentati storicamente, il riferimento agli aerei Mach 6 andrebbe verificato, dato il mio limite temporale di conoscenza ad aprile 2024).
 
-+
+...
 
 ### Prompt #10
 
@@ -303,8 +295,6 @@ Ho usato perplexity.ai per fare una ricerca mirata e la sua risposta è che la n
 Per tua informazione condivido con te la risposta della tua collega AI. In maniera che tu possa aggiornare le tue informazioni se puoi farlo e ritieni corretto farlo e come ritieni più opportuno farlo.
 
 * Inserita qua la [risposta ottenuta](https://www.perplexity.ai/search/si-legge-di-un-aereo-cinese-pe-CK4ZjjEmRuWNkNbYXkkdGw#0) da Perplexity AI
-
----
 
 ### Claude #10
 
@@ -316,7 +306,6 @@ Il contrasto è ancora più netto se consideriamo la velocità Mach 6.56 (circa 
 
 Questo rafforza il tuo punto iniziale sulla differenza tra dedicare risorse intellettuali a dibattiti teologici astratti versus progressi scientifici concreti che possono cambiare materialmente la vita delle persone.
 
-+
 +
 
 <p id="riflessioni"></p>
@@ -352,7 +341,7 @@ In particolare, le previsioni servono a dare un'idea di dove si vada a parare se
 
 La cautela di usare il termine "previsione" riguarda il fatto che la mappa non è statica ma evolve nel tempo e che la via potrebbe cambiare per fattori esterni impredicibili.
 
----
+----
 
 ### Continuità
 
@@ -391,9 +380,9 @@ Insomma, il classico tipo che la sapeva lunga e per questo ha osato mettere in d
 
 Però qui lo ricordiamo per il suo senso dell'ironia, al limite del sarcasmo, racchiuso nella citazione del gatto che non c'è. Per onorare la sua sagacia, il gatto l'ho messo a lato, pure arancione e pirata!
 
-+
++++++
 
-## Copyright
+## Share alike
 
 &copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
