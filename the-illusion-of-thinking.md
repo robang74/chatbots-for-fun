@@ -61,6 +61,8 @@ Anyway, what explaind above (and in the links) should be considered the "dark si
 
 - [Ragionare non è come fare la cacca!](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) &nbsp; (2025-06-08)
 +++++
+- [Pensiero e opera nell'era dell'AI](310-pensiero-e-opera-nell-era-dell-ai.md#?target=_blank) &nbsp; (2025-04-29)
++++++
 - [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md#?target=_blank) &nbsp; (2025-01-04)
 +++++
 - [Dammi sei parole a caso](https://robang74.github.io/chatbots-for-fun/html/dammi-sei-parole-a-caso.md#?target=_blank) &nbsp; (22024-12-25)
