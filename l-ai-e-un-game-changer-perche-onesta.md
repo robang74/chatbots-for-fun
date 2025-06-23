@@ -63,7 +63,7 @@ In uno scenario di risorse abbondanti l'effetto può anche essere trascurabile q
 
 Senza contare che per il principio di pareto, è ragionevole pensare che l'80% di tutte le diagnosi inutili facciano capo ad un 20% di medici. Se questo fosse riconosciuto come un fatto emergente allora l'introduzione dell'AI anche come agente di analisi delle decisioni a posteriori potrebbe portare ad un profondo dilemma sia etico che giuridico:
 
-- se relativamente pochi medici -- ad esempio il 20%, ma per eccesso anche se improbabile, escludendo la corruzione, potrebbero essere il 5% -- dalle prescizioni cliniche facili, fossero responsabili di dimezzare l'efficienza della sanità, allora quale sarebbe la loro responsabilità personale?
+- se relativamente pochi medici -- ad esempio il 20%, ma per eccesso potrebbero essere il 5%, anche se improbabile a meno di fenomeni di corruzione-concussione paricolarmente accentrati -- dalle prescizioni cliniche facili, fossero responsabili di dimezzare l'efficienza della sanità, allora quale sarebbe la loro responsabilità personale?
 
 L'AI come agente onesto pone l'uomo di fronte a se stesso alla realtà, come Giordano Bruno e Galileo Galilei in una società in cui gli outsider (2% della popolazione, Land, 1992) sono generalmente considerati un problema.
 
