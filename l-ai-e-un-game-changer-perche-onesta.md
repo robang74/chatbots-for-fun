@@ -5,7 +5,9 @@
 
 ## L'AI è un game-changer perché è onesta
 
-- **3rd draft** - Articolo scritto a partire da un [post](https://www.linkedin.com/posts/robertofoglietta_quattro-prescrizioni-di-tac-e-risonanze-activity-7342726841666867200-tHqK) pubblicato su LinkedIn lo stesso giorno
+- Articolo scritto a partire da un [post](https://www.linkedin.com/posts/robertofoglietta_quattro-prescrizioni-di-tac-e-risonanze-activity-7342726841666867200-tHqK) pubblicato su LinkedIn lo stesso giorno.
+
+- La [notizia](https://www.ansa.it//canale_saluteebenessere/notizie/ospedali_italiani/2025/06/12/inappropriato-il-40-di-richieste-di-esami-in-sanita-lia-aiuta_2dc989ad-b80d-40a1-a0f6-a4a8a7fabc5b.html) a cui si fa riferimento, recentmente diventata virale, risale al 12 giugno 2025.
 
 ---
 
@@ -93,7 +95,7 @@ Eppur si muove! {:-D}
 
 ...
 
-- Approfondisci leggendo la [conversazione](https://g.co/gemini/share/992db7b6f9c2) con Gemini o la relativa [tracrizione](not-yet.txt#?target=_blank).
+- Approfondisci leggendo la [conversazione](https://g.co/gemini/share/933f37046ea1) con Gemini o la relativa [tracrizione](not-yet.txt#?target=_blank).
 
 +
 
