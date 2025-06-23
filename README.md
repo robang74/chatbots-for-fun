@@ -87,7 +87,9 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
-* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (9 pz.)
+* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (10 pz.)
+
+   - 2025-06-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/l-ai-e-un-game-changer-perche-onesta.md)] - [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md) 
 
    - 2025-05-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-criticizes-elon-musk-about-misinformation.md)] - [Grok3 criticizes Elon Musk about misinformation](grok3-criticizes-elon-musk-about-misinformation.md) 
 
