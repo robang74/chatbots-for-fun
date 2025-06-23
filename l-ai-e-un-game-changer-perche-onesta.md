@@ -69,7 +69,13 @@ L'AI come agente onesto pone l'uomo di fronte a se stesso alla realtà, come Gio
 
 Anche se apparentemente non vengono trattati come un tempo si era solito fare con le streghe e gli eretici ma solo perché l'odore acre e il fumo di un pubblico rogo non è conforme alle normative sul particolato fine nei centri urbani!
 
-- Continua in una [conversazione](https://g.co/gemini/share/71165e460d69) con Gemini e la relativa [tracrizione](not-yet.txt#?target=_blank)
+Appare evidente che non ci occorre l'AGI perché si creino le premesse per una rivoluzione, analoga a quella fra il sistema copernicano e quello galileiano che rimosse l'essere umano dal centro della Creazione, sicché dell'AI si dirà peste e corna.
+
+Eppure si muove! {:-D}
+
+...
+
+- Approfondisci leggendo la [conversazione](https://g.co/gemini/share/71165e460d69) con Gemini o la relativa [tracrizione](not-yet.txt#?target=_blank).
 
 +
 
