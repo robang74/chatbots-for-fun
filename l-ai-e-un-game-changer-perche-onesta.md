@@ -54,7 +54,7 @@ Possa Mr. Spock prendere a schiaffi chi ha scritto il titolo!
 
 ## Conclusione
 
-L'AI in questo studio dimostra l'ipocrisia dell'umana natura per la quale il singolo medico tende a prescrivere almeno un 40% in più di esami diagnostici anche complessi per evitare responsabilità personali ma in questo modo creando un disservizio pari al 40% in pià di tempi di attesa o del 40% in più di costi.
+L'AI in questo studio dimostra l'ipocrisia dell'umana natura per la quale il singolo medico tende a prescrivere almeno un 40% in più di esami diagnostici anche complessi per evitare responsabilità personali ma in questo modo creando un disservizio pari al 40% in più di tempi di attesa o del 40% in più di costi.
 
 In uno scenario di risorse abbondanti l'effetto può anche essere trascurabile qualora le richieste totali siano inferiori al massimo erogabile dal SSN. Mentre in uno scenario di risorse scarse questi due fattori si moltiplicano fra loro (1.40 x 1.140 = 1.96) e l'efficienza complessiva del sistema si dimezza.
 
@@ -62,7 +62,7 @@ In uno scenario di risorse abbondanti l'effetto può anche essere trascurabile q
 
 Senza contare che per il principio di pareto, è ragionevole pensare che l'80% di tutte le diagnosi inutili facciano capo ad un 20% di medici. Se questo fosse riconosciuto come un fatto emergente allora l'introduzione dell'AI anche come agente di analisi delle decisioni a posteriori potrebbe portare ad un profondo dilemma sia etico che giuridico:
 
-- se relativamente pochi medici -- ad esempio il 20%, ma per eccesso potrebbero essere il 5%, anche se improbabile a meno di fenomeni di corruzione-concussione paricolarmente accentrati -- dalle prescizioni cliniche facili, fossero responsabili di dimezzare l'efficienza della sanità, allora quale sarebbe la loro responsabilità personale?
+- se relativamente pochi medici -- ad esempio il 20%, ma per eccesso potrebbero essere il 5%, anche se improbabile a meno di fenomeni di corruzione-concussione particolarmente accentrati -- dalle prescrizioni cliniche facili, fossero responsabili di dimezzare l'efficienza della sanità, allora quale sarebbe la loro responsabilità personale?
 
 L'AI come agente onesto pone l'uomo di fronte a se stesso alla realtà, come Giordano Bruno e Galileo Galilei in una società in cui gli outsider (2% della popolazione, Land, 1992) sono generalmente considerati un problema.
 
@@ -72,11 +72,11 @@ Anche se apparentemente non vengono trattati come un tempo si era solito fare co
 
 Appare evidente che non ci occorre l'AGI perché si creino le premesse per una rivoluzione, analoga a quella fra il sistema copernicano e quello galileiano che rimosse l'essere umano dal centro della Creazione, sicché dell'AI si dirà peste e corna.
 
-Eppure si muove! {:-D}
+Eppur si muove! {:-D}
 
 ....
 
-- Approfondisci leggendo la [conversazione](https://g.co/gemini/share/71165e460d69) con Gemini o la relativa [tracrizione](not-yet.txt#?target=_blank).
+- Approfondisci leggendo la [conversazione](https://g.co/gemini/share/3c31d0f0f33d) con Gemini o la relativa [tracrizione](not-yet.txt#?target=_blank).
 
 +
 
