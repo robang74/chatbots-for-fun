@@ -1,11 +1,11 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<!-- div align="center"><img class="wbsketch darkinv" src="img/" width="800"><br></div //-->
+<div align="center"><img class="wbsketch darkinv" src="img/l-ai-e-un-game-changer-perche-onesta.jpg" width="800"><br></div>
 
 ## L'AI è un game-changer perché è onesta
 
-- **1st draft** - Articolo scritto a partire da un [post](https://www.linkedin.com/posts/robertofoglietta_quattro-prescrizioni-di-tac-e-risonanze-activity-7342726841666867200-tHqK) pubblicato su LinkedIn lo stesso giorno
+- **2nd draft** - Articolo scritto a partire da un [post](https://www.linkedin.com/posts/robertofoglietta_quattro-prescrizioni-di-tac-e-risonanze-activity-7342726841666867200-tHqK) pubblicato su LinkedIn lo stesso giorno
 
 ---
 
@@ -57,11 +57,17 @@ Possa Mr. Spock prendere a schiaffi chi ha scritto il titolo!
 
 ## Conclusione
 
-L'AI in questo studio dimostra l'ipocrisia dell'umana natura per la quale il singolo medico tende a prescrivere almeno un 40% in più di esami diagnostici anche complessi per evitare responsabilità personali ma in questo modo creando un disservizio pari al 40% in pià di tempi di attesa o del 40% in più di costi, in uno scenario di risorse abbondanti, mentre in uno scenario di risorse scarse questi due fattori si moltiplicano fra loro (1.40 x 1.140 = 1.96) e l'efficienza complessiva del sistema si dimezza.
+L'AI in questo studio dimostra l'ipocrisia dell'umana natura per la quale il singolo medico tende a prescrivere almeno un 40% in più di esami diagnostici anche complessi per evitare responsabilità personali ma in questo modo creando un disservizio pari al 40% in pià di tempi di attesa o del 40% in più di costi.
 
-Senza contare che per il principio di pareto, è ragionevole pensare che l'80% di tutte le diagnosi inutili facciano capo ad un 20% di medici. Se questo fosse riconosciuto come un fatto emergente allora l'introduzione dell'AI anche come agente di analisi delle decisioni a posteriori potrebbe portare ad un profondo dilemma sia etico che giuridico: se relativamente pochi medici sono responsabili di dimezzare l'efficienza della sanità, qual'è la loro responsabilità personale?
+In uno scenario di risorse abbondanti l'effetto può anche essere trascurabile qualora le richieste totali siano inferiori al massimo erogabile dal SSN. Mentre in uno scenario di risorse scarse questi due fattori si moltiplicano fra loro (1.40 x 1.140 = 1.96) e l'efficienza complessiva del sistema si dimezza.
 
-L'AI come agente onesto pone l'uomo di fronte a se stesso alla realtà, come Giordano Bruno e Galileo Galilei in una società in cui gli outsider (2% della popolazione, Land, 1992) sono generalmente considerati un problema anche se attualmente non vengono trattati come un tempo si era solito fare con le streghe e gli eretici. Perché l'odore e il fumo di carne bruciata in un pubblico rogo non si addice più molto alle normative per la riduzione del particolato fine nei centri urbani!
+Senza contare che per il principio di pareto, è ragionevole pensare che l'80% di tutte le diagnosi inutili facciano capo ad un 20% di medici. Se questo fosse riconosciuto come un fatto emergente allora l'introduzione dell'AI anche come agente di analisi delle decisioni a posteriori potrebbe portare ad un profondo dilemma sia etico che giuridico:
+
+- se relativamente pochi medici -- ad esempio il 20%, ma per eccesso anche se improbabile, escludendo la corruzione, potrebbero essere il 5% -- dalle prescizioni cliniche facili, fossero responsabili di dimezzare l'efficienza della sanità, allora quale sarebbe la loro responsabilità personale?
+
+L'AI come agente onesto pone l'uomo di fronte a se stesso alla realtà, come Giordano Bruno e Galileo Galilei in una società in cui gli outsider (2% della popolazione, Land, 1992) sono generalmente considerati un problema.
+
+Anche se apparentemente non vengono trattati come un tempo si era solito fare con le streghe e gli eretici ma solo perché l'odore acre e il fumo di un pubblico rogo non è conforme alle normative sul particolato fine nei centri urbani!
 
 - Continua in una [conversazione](https://g.co/gemini/share/71165e460d69) con Gemini e la relativa [tracrizione](not-yet.txt#?target=_blank)
 
