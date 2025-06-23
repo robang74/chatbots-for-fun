@@ -5,7 +5,7 @@
 
 ## L'AI è un game-changer perché è onesta
 
-- **2nd draft** - Articolo scritto a partire da un [post](https://www.linkedin.com/posts/robertofoglietta_quattro-prescrizioni-di-tac-e-risonanze-activity-7342726841666867200-tHqK) pubblicato su LinkedIn lo stesso giorno
+- **3rd draft** - Articolo scritto a partire da un [post](https://www.linkedin.com/posts/robertofoglietta_quattro-prescrizioni-di-tac-e-risonanze-activity-7342726841666867200-tHqK) pubblicato su LinkedIn lo stesso giorno
 
 ---
 
@@ -32,21 +32,32 @@ L'AI è molto veloce, ignora i watermark, però deve essere verificata a campion
 - 38,9% appropriate
 - 43% inappropriata
 
-Tolleranza massima stimata 3%, se il 40% nel titolo è un dato emergente dallo studio come il minore spreco che è ragionevolmente è possibile ridurre, piuttosto che una semplificazione di chi ha deciso il titolo.
+Tolleranza massima stimata 3%, se il 40% nel titolo è un dato emergente dallo studio come il minore spreco che è ragionevolmente e cautelativamente possibile ridurre, piuttosto che una un'approssimazione arbitraria di chi ha scritto il titolo.
 
-Ma allora doveva essere 60% piuttosto, visto che meno del 40% risultano appropriate oppure nel titolo doveva essere scritto «utile» ma allora manca un "solo" nella frase. Ecco, questo invece è ciò che le AI non sanno fare (o lo fanno molto peggio degli umani) fare speculazioni e decidere quale sia la cosa più probabile.
+D'altro canto, poteva essere 60%, visto che meno del 40% risultano "appropriate". Oppure nel titolo doveva essere scritto "utile" (fra apici, indicando una categoria così come emergente dallo studio) ma allora manca la parola "solo" in quella frase.
 
-Il valore 38.9% è preciso alla prima cifra decimale, senza ulteriori informazioni significherebbe che la precisione è 0.1% ma la tolleranza massima può essere diversa, tipo 38.9% ± 0.4%.
+Ecco, questo invece è ciò che le AI non sanno fare, o lo fanno molto peggio degli umani: fare speculazioni e intuire quale sia la cosa più probabile, conoscendo gli esseri umani ad un livello così profondo che è inaccessibile alle intelligenze artificiali.
 
-----
++
 
-### La statistica, che bella!
+## La statistica, che bella!
 
-Alcuni tecnici esperti di informatica e statistica hanno fatto uno studio che con una frase e 4 numeri ci dice tanto, anzi moltissimo sulle potenzialità dell'AI e sulle prescrizione.
+Alcuni tecnici esperti di informatica e statistica hanno fatto uno studio che con una frase e 4 numeri ci dice tanto, anzi moltissimo sulle potenzialità dell'AI e sulle prescrizioni.
 
-Chi ha scritto il titolo, nel caso migliore ha commesso un errore a mettere il virgolettato e avrebbe dovuto essere «il 40% degli esami è inutile» detto da chi ha fatto lo studio è equivalente ad una tolleranza del 3% massimo.
+Il valore 38.9% è preciso alla prima cifra decimale, senza ulteriori informazioni significherebbe che la precisione riguarda l'ultimo decimale anche perché in questo contesto si tratta di una frazione pura quindi un numero affetto solo dall'errore di arrotondamento ma la tolleranza sulla catalogazione può essere molto diversa: tipo 38.9% ± 0.4%.
 
-Secondo una regola di generale (1/√N), la tolleranza attesa su un campione di 17.000 elementi è del 2.3% da cui ho ricavato l'errore sulla percentuale ± 0.4% e ho inferito che quella dello studio fosse il 3% quindi solo il 42% è necessario, il 40% è inutile.
+Chi ha scritto il titolo, probabilmente ha commesso un errore a trascrivere la citazione che in origine era «il 40% degli esami è inutile» ma il giornalista o il titolista ha deciso che "inutile" era un concetto relativo. Non comprendendo che questo distinguo era già stato risolto nello studio: 
+
+- cautelativamente evitando di considerare "inutili" quel 18% di casi dubbi 
+- controverifica a campiono tramite professionisti, sui risultati dell'AI 
+
+Con queste due azioni, gli autori dello studio avevano già riportato l'etichetta "inutile" come categoria dell'AI ad un ragionevole, cautelativo e oggettivo "inutile" come un aggettivo di senso pratico e di concreta validità.
+
+Prendendo per ipotesi «il 40% degli esami è inutile» come citazione da parte degli autori dello studio, implica che essi abbiano stabilito un 3% di tolleranza massima nel sistema di catalogazione dell'AI e quindi abbiano cautelativamente sottratto quel 3% al 43% trovato.
+
+Infatti, secondo una regola generale (1/√N), la tolleranza attesa su un campione di 17.000 elementi è del 2.3%, un valore calcolato usando il tipico moltiplicatore 3x, da cui ho ricavato la tolleranza sulla percentuale del gruppo "inutili" in ±0.4%. 
+
+Inoltre è ragionevole pensare che gli autori dello studio abbiano determinato in un 3% la tolleranza in catalogazione per la quale solo il 42% degli esami clinici richiesti sarebbe stato strettamente necessario, salvo il caso di giovani medici che debbano imparare e quindi siano più propensi a chiedere analisi, mentre il 40% è oggettivamente inutile.
 
 Possa Mr. Spock prendere a schiaffi chi ha scritto il titolo!
 
@@ -57,7 +68,7 @@ Possa Mr. Spock prendere a schiaffi chi ha scritto il titolo!
 L'AI in questo studio dimostra l'ipocrisia dell'umana natura per la quale il singolo medico tende a prescrivere almeno un 40% in più di esami diagnostici anche complessi per evitare responsabilità personali ma in questo modo creando un disservizio pari al 40% in più di tempi di attesa o del 40% in più di costi.
 
 In uno scenario di risorse abbondanti l'effetto può anche essere trascurabile qualora le richieste totali siano inferiori al massimo erogabile dal SSN. Mentre in uno scenario di risorse scarse questi due fattori si moltiplicano fra loro (1.40 x 1.140 = 1.96) e l'efficienza complessiva del sistema si dimezza.
-
+++++
 #### Responsabilità civile
 
 Senza contare che per il principio di pareto, è ragionevole pensare che l'80% di tutte le diagnosi inutili facciano capo ad un 20% di medici. Se questo fosse riconosciuto come un fatto emergente allora l'introduzione dell'AI anche come agente di analisi delle decisioni a posteriori potrebbe portare ad un profondo dilemma sia etico che giuridico:
@@ -74,9 +85,9 @@ Appare evidente che non ci occorre l'AGI perché si creino le premesse per una r
 
 Eppur si muove! {:-D}
 
-....
+...
 
-- Approfondisci leggendo la [conversazione](https://g.co/gemini/share/3c31d0f0f33d) con Gemini o la relativa [tracrizione](not-yet.txt#?target=_blank).
+- Approfondisci leggendo la [conversazione](https://g.co/gemini/share/992db7b6f9c2) con Gemini o la relativa [tracrizione](not-yet.txt#?target=_blank).
 
 +
 
