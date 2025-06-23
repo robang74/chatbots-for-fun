@@ -61,6 +61,12 @@ Inoltre è ragionevole pensare che gli autori dello studio abbiano determinato i
 
 Possa Mr. Spock prendere a schiaffi chi ha scritto il titolo!
 
+---
+
+### Stima della tolleranza
+
+Il fattore `2x` sulla regola `1/√N` è generalmente usato in elettronica quando i componenti hanno tolleranze che non superano il 5% dei valori nominali -- e comunque vengono misurati ma quella tolleranza include anche la deriva termica -- mentre il `3x` viene usato nei laboratori di fisica. Infine il `4x` è ragionevole usarlo in medicina e nell'industria con alto grado di qualità in uscita: 6-sigmas theory, in realtà e 4.5 deviazioni standard.
+
 +
 
 ## Conclusione
@@ -68,7 +74,7 @@ Possa Mr. Spock prendere a schiaffi chi ha scritto il titolo!
 L'AI in questo studio dimostra l'ipocrisia dell'umana natura per la quale il singolo medico tende a prescrivere almeno un 40% in più di esami diagnostici anche complessi per evitare responsabilità personali ma in questo modo creando un disservizio pari al 40% in più di tempi di attesa o del 40% in più di costi.
 
 In uno scenario di risorse abbondanti l'effetto può anche essere trascurabile qualora le richieste totali siano inferiori al massimo erogabile dal SSN. Mentre in uno scenario di risorse scarse questi due fattori si moltiplicano fra loro (1.40 x 1.140 = 1.96) e l'efficienza complessiva del sistema si dimezza.
-++++
+
 #### Responsabilità civile
 
 Senza contare che per il principio di pareto, è ragionevole pensare che l'80% di tutte le diagnosi inutili facciano capo ad un 20% di medici. Se questo fosse riconosciuto come un fatto emergente allora l'introduzione dell'AI anche come agente di analisi delle decisioni a posteriori potrebbe portare ad un profondo dilemma sia etico che giuridico:
