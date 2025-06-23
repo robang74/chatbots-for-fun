@@ -95,7 +95,7 @@ Eppur si muove! {:-D}
 
 ...
 
-- Approfondisci leggendo la [conversazione](https://g.co/gemini/share/933f37046ea1) con Gemini o la relativa [tracrizione](not-yet.txt#?target=_blank).
+- Approfondisci leggendo la [conversazione](https://g.co/gemini/share/933f37046ea1) con Gemini o la relativa [tracrizione](data/l-ai-e-un-game-changer-perche-onesta-gemini.txt#?target=_blank).
 
 +
 
