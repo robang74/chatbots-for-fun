@@ -67,7 +67,7 @@ Possa Mr. Spock prendere a schiaffi chi ha scritto il titolo!
 
 ### Stima della tolleranza
 
-Il fattore `2x` sulla regola `1/√N` è generalmente usato in elettronica quando i componenti hanno tolleranze che non superano il 5% dei valori nominali -- e comunque vengono misurati ma quella tolleranza include anche la deriva termica -- mentre il `3x` viene usato nei laboratori di fisica. Infine il `4x` è ragionevole usarlo in medicina e nell'industria con alto grado di qualità in uscita: 6-sigmas theory, in realtà e 4.5 deviazioni standard.
+Il fattore `2x` sulla [regola `1/√N`](data/l-ai-e-un-game-changer-perche-onesta-gemini.txt#:~:text=Prosecuzione%20di%20una%20copia%20della%20conversazione%20iniziale?target=_blank) è generalmente usato in elettronica quando i componenti hanno tolleranze che non superano il 5% dei valori nominali -- e comunque vengono misurati ma quella tolleranza include anche la deriva termica -- mentre il `3x` viene usato nei laboratori di fisica. Infine il `4x` è ragionevole usarlo in medicina e nell'industria con alto grado di qualità in uscita: 6-sigmas theory, in realtà e 4.5 deviazioni standard.
 
 +
 
