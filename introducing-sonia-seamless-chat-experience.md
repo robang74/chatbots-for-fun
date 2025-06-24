@@ -5,57 +5,9 @@
 
 ## Introducing SoNia' seamless chat experience
 
-- This article is the natural prosecution of the previous: [the session prompts v3 for AI-driven chatbots](ai-session-prompts-with-rag-v3.md)
+- **2nd edition**, this article is the natural prosecution of [the session prompts v3 for AI-driven chatbots](ai-session-prompts-with-rag-v3.md)
 
 - **Since v3.7.x**, SoNia offers even more consistent collaboration with a seamless chat-flow experience, leveraging a deeper understanding of its role and guidelines. It learns, then improves itself.
-
----
-
-### Why we were in need of the `[CHT]` mode?
-
-Newest version allows the Chat History Thread mode which leverages the framework within a more natural chat about a topic for which user provides a series of inputs along the session to develop a coherent debate.
-
-- [SoNia Argumentative Session Prompt](https://robang74.github.io/chatbots-for-fun/data/sonia-argumentative-w-rag-v3.txt#?target=_blank) &nbsp; (last available version) 
-
-Many chatbots usually do not consider previous prompts information (or tend to forget them quite quickly) during a discussion in a session. Unless the user manually triggers the `==RAG==` properly each time and requests for a `[PRO]` analysis before asking something. Therefore, I agree that `[CHT]` mode was just included but not automated.
-
-This "default mode" unless RAG is initialised, plays in favour of those users who are less skilled or less SoNia-internals aware. In short, a more natural chat way of doing but with the SoNia framework fully activated on the whole session context which gets stored into a virtual document dynamically created/updated and managed via `[RWF]` and `[OPS]`.
-
-SoNia is based on AleX and AleX is specifically tailored for supporting a scientific-like peer-review. It provides a helpful highly structured output, which is overkilling for relaxed writings. While, SoNia is based on AleX and it was developed to be argumentative but more "natural speaking". Yet, still requiring some custom instructions.
-
----
-
-### Morale of the story
-
-Everything is "obvious" after someone found a way to do it and explained how to do it. 🤗 
-
-----
-
-### What `[CHT]` mode is meant to accomplish?
-
-This mode aims to provide to users the benefits of the SoNia framework with a seamlessly natural chat experience. Which is the explanation provided in the SoNia v3.6.7 prompt, as well.
-
-...
-
-#### Gemini
-
-In essence, `[CHT]` seems to be the mechanism that allows SoNia to embody its core purpose as a collaborative argumentative agent that facilitates "collaborative discovery through structured and adaptable dialogue", by making the conversational history itself the subject of continuous, automatic, and deep analysis, without requiring constant manual intervention from the user.
-
-...
-
-#### ChatGPT
-
-The `[CHT]` mode treats your session as a dynamic document, applying full SoNia analysis without requiring explicit ops/triggers. SoNia remembers, analyzes, and connects your ideas as if you're writing a document together.
-
-List of benefits: Precise & Technical, Conversational & Accessible, Expert-Aware but Friendly, UX-Focused
-
-...
-
-#### Claude
-
-The elegant intent behind `[CHT]`: you're solving a real UX problem - making the framework work seamlessly for users who want the benefits without having to manually manage RAG initialization each time.
-
-The Core Insight: `[CHT]` creates a "always-on" mode where the entire conversation becomes a living document that's continuously analyzed through the SoNia lens. This is actually quite brilliant - it transforms episodic chat into persistent, structured dialogue.
 
 ---
 
@@ -74,7 +26,55 @@ Since v3.7.x, SoNia offers even more consistent collaboration with a seamless ch
 - a character + a framework including an auto-convergent self-improvement loop
 - made for the people (CC BY-NC-ND 4.0) by a single person with zero budget
 
-+++++
+---
+
+### How Gemini/SoNia explains its functioning
+
+[!CITE]
+Since v3.6.x implements a new way of dealing with the chat session [CHT] mode, it is instructed to include preceding conversational turns. By adding data from each prompt [USR] and processing the entire sequence, the AI agent maintains context to generate focused responses, keeping memory within its context window's limits.
+
+An enhanced 'memory feature' beyond these simple context windows, enabling sophisticated, self-organizing, and truth-maintaining knowledge representation, would transform SoNia into a more robust and reliable knowledge worker, greatly increasing its usefulness for consistent, accurate, and context-aware interactions.
+[/CITE]
+
+~~~~
+
+### Why we were in need of the `[CHT]` mode?
+
+Newest version allows the Chat History Thread mode which leverages the framework within a more natural chat about a topic for which user provides a series of inputs along the session to develop a coherent debate.
+
+- [SoNia Argumentative Session Prompt](https://robang74.github.io/chatbots-for-fun/data/sonia-argumentative-w-rag-v3.txt#?target=_blank) &nbsp; (last available version) 
+
+Many chatbots usually do not consider previous prompts information (or tend to forget them quite quickly) during a discussion in a session. Unless the user manually triggers the `==RAG==` properly each time and requests for a `[PRO]` analysis before asking something. Therefore, I agree that `[CHT]` mode was just included but not automated.
+
+This "default mode" unless RAG is initialised, plays in favour of those users who are less skilled or less SoNia-internals aware. In short, a more natural chat way of doing but with the SoNia framework fully activated on the whole session context which gets stored into a virtual document dynamically created/updated and managed via `[RWF]` and `[OPS]`.
+
+SoNia is based on AleX and AleX is specifically tailored for supporting a scientific-like peer-review. It provides a helpful highly structured output, which is overkilling for relaxed writings. While, SoNia is based on AleX and it was developed to be argumentative but more "natural speaking". Yet, still requiring some custom instructions.
+
+---
+
+### What `[CHT]` mode is meant to accomplish?
+
+This mode aims to provide to users the benefits of the SoNia framework with a seamlessly natural chat experience. Which is the explanation provided in the SoNia v3.6.7 prompt, as well.
+
+#### Gemini
+
+[!CITE]
+In essence, `[CHT]` seems to be the mechanism that allows SoNia to embody its core purpose as a collaborative argumentative agent that facilitates "collaborative discovery through structured and adaptable dialogue", by making the conversational history itself the subject of continuous, automatic, and deep analysis, without requiring constant manual intervention from the user.
+[/CITE]
+
+#### ChatGPT
+
+[!CITE]
+The `[CHT]` mode treats your session as a dynamic document, applying full SoNia analysis without requiring explicit ops/triggers. SoNia remembers, analyzes, and connects your ideas as if you're writing a document together. List of benefits: Precise & Technical, Conversational & Accessible, Expert-Aware but Friendly, UX-Focused.
+[/CITE]
+
+#### Claude
+
+[!CITE]
+The elegant intent behind `[CHT]` ia about solving a real UX problem - making the framework work seamlessly for users who want the benefits without having to manually manage RAG initialization each time. This is actually quite brilliant - it transforms episodic chat into persistent, structured dialogue and it creates an "always-on" mode where the entire conversation becomes a living document that's continuously analyzed through the SoNia lens. 
+[/CITE]
+
++
 
 ## Share alike
 
