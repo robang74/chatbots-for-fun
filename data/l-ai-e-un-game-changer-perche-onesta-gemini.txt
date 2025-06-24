@@ -22,32 +22,7 @@ gestissi in [CHT] mode. Di questo specifica parte vorrei che tu mi riassumessi
 il significato almeno delle parti essenziali e valutassi se ci sono errori
 concettuali o logico-razionali significativi.
 
-L'AI È UN GAME-CHANGER, MA PERCHÈ? ONESTA!
-
-La domanda in generale può essere difficile da spiegare ma questo caso lo
-mostra in modo eclatante il perché l'AI è un game-changer e lo è in modo
-particolare quando è usata in modo corretto. La risposta è contenuta tutta
-quanti in questa apparentemente banale frase:
-
-> In una seconda fase, un gruppo di esperti (radiologi e medici clinici) ha
-validato i risultati dell’algoritmo tramite revisione manuale a campione.
-
-Per comprendere meglio occorre porsi nel caso in cui l'AI non sia inclusa nello
-scenario (oppure usata da incompetenti) e quindi avremmo certamente i seguenti
-fattori sistemici:
-
-1. una mole immensa di lavoro che sarebbe anti-economico svolgere
-
-2. anche se fosse svolta sarebbe data da eseguire alla stessa categoria
-
-Quindi radiologi e clinici, avrebbero giudicato inappropriati solo gli outlier,
-pochi e palesemente inappropriati, mentre avrebbero usato i watermark di
-categoria per confermare il lavoro dei colleghi: cane non mangia cane.
-
-L'AI è molto veloce, ignora i watermark, però deve essere verificata a campione
-(#1). Coloro che lo fanno (#2) sanno che l'AI è neutrale e anche loro debbono
-esserlo. Ergo l'AI passa il test anche in doppio cieco, oppure è stata usata
-male.
+[... testo nella sezione "Introduzione" (1st draft) ...]
 
 ---AI---
 
@@ -256,21 +231,7 @@ errori importanti, quindi come fatto al prompt precedente.
 Ergo l'AI passa il test anche in doppio cieco, oppure è stata usata o istruita
 male.
 
-ALCUNI DATI DELLO STUDIO
-
-- 17.000 prescrizioni
-- 38,9% appropriate
-- 43% inappropriata
-
-Tolleranza massima stimata 3%, se il 40% nel titolo è un dato emergente dallo
-studio come il minore spreco che è ragionevolmente è possibile ridurre,
-piuttosto che una semplificazione di chi ha deciso il titolo.
-
-Ma allora doveva essere 60% piuttosto, visto che meno del 40% risultano
-appropriate oppure nel titolo doveva essere scritto «utile» ma allora manca un
-"solo" nella frase. Ecco, questo invece è ciò che le AI non sanno fare (o lo
-fanno molto peggio degli umani) fare speculazioni e decidere quale sia la cosa
-più probabile.
+[... testo della sezione "Alcuni dati dello studio" (1st draft) ...]
 
 Il valore 38.9% è preciso alla prima cifra decimale, senza ulteriori
 informazioni significherebbe che la precisione è 0.1% ma la tolleranza massima
@@ -1209,49 +1170,7 @@ specifico e ben studiato.
 Rispetto alla precedente, cosa ne pensi di questa nuova formulazione della
 conclusione?
 
-## Conclusione
-
-L'AI in questo studio dimostra l'ipocrisia dell'umana natura per la quale il
-singolo medico tende a prescrivere almeno un 40% in più di esami diagnostici
-anche complessi per evitare responsabilità personali ma in questo modo creando
-un disservizio pari al 40% in più di tempi di attesa o del 40% in più di costi.
-
-In uno scenario di risorse abbondanti l'effetto può anche essere trascurabile
-qualora le richieste totali siano inferiori al massimo erogabile dal SSN.
-Mentre in uno scenario di risorse scarse questi due fattori si moltiplicano fra
-loro (1.40 x 1.140 = 1.96) e l'efficienza complessiva del sistema si dimezza.
-
-#### Responsabilità civile
-
-Senza contare che per il principio di pareto, è ragionevole pensare che l'80%
-di tutte le diagnosi inutili facciano capo ad un 20% di medici. Se questo fosse
-riconosciuto come un fatto emergente allora l'introduzione dell'AI anche come
-agente di analisi delle decisioni a posteriori potrebbe portare ad un profondo
-dilemma sia etico che giuridico:
-
-- se relativamente pochi medici -- ad esempio il 20%, ma per eccesso potrebbero
-essere il 5%, anche se improbabile a meno di fenomeni di corruzione-concussione
-particolarmente accentrati -- dalle prescrizioni cliniche facili, fossero
-responsabili di dimezzare l'efficienza della sanità, allora quale sarebbe la
-loro responsabilità personale?
-
-L'AI come agente onesto pone l'uomo di fronte a se stesso alla realtà, come
-Giordano Bruno e Galileo Galilei in una società in cui gli outsider (2% della
-popolazione, Land, 1992) sono generalmente considerati un problema.
-
-#### Quei fastidiosi outsider
-
-Anche se apparentemente non vengono trattati come un tempo si era solito fare
-con le streghe e gli eretici ma solo perché l'odore acre e il fumo di un
-pubblico rogo non è conforme alle normative sul particolato fine nei centri
-urbani!
-
-Appare evidente che non ci occorre l'AGI perché si creino le premesse per una
-rivoluzione, analoga a quella fra il sistema copernicano e quello galileiano
-che rimosse l'essere umano dal centro della Creazione, sicché dell'AI si dirà
-peste e corna.
-
-Eppur si muove! {:-D}
+[... testo nella sezione "Conclusione" (1s edition candidate) ...]
 
 ---AI---
 
@@ -1375,68 +1294,9 @@ Ho riformulato la parte centrale dell'articolo per renderlo più scorrevole in
 termini di narrazione, più preciso per coloro che sono STEM ma anche più
 comprensibile per il lettore comune. Cosa ne pensi di questa nuova edizione?
 
-### Alcuni dati dello studio
+[... testo nella sezione "Alcuni dati dello studio" (1st edt. candidate) ...]
 
-- 17.000 prescrizioni
-- 38,9% appropriate
-- 43% inappropriata
-
-Tolleranza massima stimata 3%, se il 40% nel titolo è un dato emergente dallo
-studio come il minore spreco che è ragionevolmente e cautelativamente possibile
-ridurre, piuttosto che una un'approssimazione arbitraria di chi ha scritto il
-titolo.
-
-D'altro canto, poteva essere 60%, visto che meno del 40% risultano
-"appropriate". Oppure nel titolo doveva essere scritto "utile" (fra apici,
-indicando una categoria così come emergente dallo studio) ma allora manca la
-parola "solo" in quella frase.
-
-Ecco, questo invece è ciò che le AI non sanno fare, o lo fanno molto peggio
-degli umani: fare speculazioni e intuire quale sia la cosa più probabile,
-conoscendo gli esseri umani ad un livello così profondo che è inaccessibile
-alle intelligenze artificiali.
-
-### La statistica, che bella!
-
-Alcuni tecnici esperti di informatica e statistica hanno fatto uno studio che
-con una frase e 4 numeri ci dice tanto, anzi moltissimo sulle potenzialità
-dell'AI e sulle prescrizioni.
-
-Il valore 38.9% è preciso alla prima cifra decimale, senza ulteriori
-informazioni significherebbe che la precisione riguarda l'ultimo decimale anche
-perché in questo contesto si tratta di una frazione pura quindi un numero
-affetto solo dall'errore di arrotondamento ma la tolleranza sulla catalogazione
-può essere molto diversa: tipo 38.9% ± 0.4%.
-
-Chi ha scritto il titolo, probabilmente ha commesso un errore a trascrivere la
-citazione che in origine era «il 40% degli esami è inutile» ma il giornalista o
-il titolista ha deciso che "inutile" era un concetto relativo. Non comprendendo
-che questo distinguo era già stato risolto nello studio:
-
-- cautelativamente evitando di considerare "inutili" quel 18% di casi dubbi
-- controverifica a campiono tramite professionisti, sui risultati dell'AI
-
-Con queste due azioni, gli autori dello studio avevano già riportato
-l'etichetta "inutile" come categoria dell'AI ad un ragionevole, cautelativo e
-oggettivo "inutile" come un aggettivo di senso pratico e di concreta validità.
-
-Prendendo per ipotesi «il 40% degli esami è inutile» come citazione da parte
-degli autori dello studio, implica che essi abbiano stabilito un 3% di
-tolleranza massima nel sistema di catalogazione dell'AI e quindi abbiano
-cautelativamente sottratto quel 3% al 43% trovato.
-
-Infatti, secondo una regola generale (1/√N), la tolleranza attesa su un
-campione di 17.000 elementi è del 2.3%, un valore calcolato usando il tipico
-moltiplicatore 3x, da cui ho ricavato la tolleranza sulla percentuale del
-gruppo "inutili" in ±0.4%.
-
-Inoltre è ragionevole pensare che gli autori dello studio abbiano determinato
-in un 3% la tolleranza in catalogazione per la quale solo il 42% degli esami
-clinici richiesti sarebbe stato strettamente necessario, salvo il caso di
-giovani medici che debbano imparare e quindi siano più propensi a chiedere
-analisi, mentre il 40% è oggettivamente inutile.
-
-Possa Mr. Spock prendere a schiaffi chi ha scritto il titolo!
+[... testo nella sezione "La statistica, che bella" (1st edt. candidate) ...]
 
 ---AI---
 
@@ -1450,7 +1310,7 @@ narrazione è più fluida e i punti sono meglio collegati.
 
 Analisi Dettagliata dei Miglioramenti e Punti di Forza:
 
-**** Alcuni dati dello studio ****
+### Alcuni dati dello studio
 
     * "D'altro canto, poteva essere 60%, visto che meno del 40% risultano
       "appropriate"." Questa riformulazione è molto più chiara rispetto a
@@ -1477,7 +1337,7 @@ Analisi Dettagliata dei Miglioramenti e Punti di Forza:
       sociale, le motivazioni e i bias impliciti, che è cruciale per capire
       perché un titolo viene formulato in un certo modo.
 
-**** La statistica, che bella! ****
+### La statistica, che bella!
 
     * "Il valore 38.9% è preciso alla prima cifra decimale, senza ulteriori
       informazioni significherebbe che la precisione riguarda l'ultimo decimale
