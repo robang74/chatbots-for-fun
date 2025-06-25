@@ -1,36 +1,45 @@
+### NOTIZIA
+
 24 giugno 2025 - La tragica storia di Alex Taylor, 35enne con disturbi psichiatrici morto durante un intervento della polizia, evidenzia i rischi nascosti dell'intelligenza artificiale.
 
 - https://www.tomshw.it/hardware/chatgpt-spinge-uomo-a-minacciare-di-morte-sam-altman
 
-COMMENTO
+
+### COMMENTO
 
 Attualmente ChatGPT è il chatbot che più di ogni altro "soffre" (o offre secondo i punti di vista) di sycophancy (altrimenti detto piaggierismo) [1] ed è quello che storicamente ha sempre avuto una tendenza a caratterizzarsi come Miss Poppins piuttosto che Mr. Spock [2], quindi leggere che le persone sviluppino un legame emotivo/affettivo con quel chatbot non mi sorprende più di tanto.
 
 Però qui, in questa notizia, c'è scappato il morto. Allora -- apriti cielo -- parrebbe che questo possa cambiare tutto e invece non cambia nulla, anzi. La ragione è solida anche senza leggere la notizia ma diventa anche ovvia andando a leggere la notizia nei suoi dettagli:
 
-1. ad aprile 2025, ChatGPT aveva circa 800 milioni di utenze attive quindi che UNA persona sia riuscita ad essere vittima del chatbot è statisticamente irrilevante visto che operato male qualsiasi dispositivo tecnologico è una smoking machine;
+- 1. ad aprile 2025, ChatGPT aveva circa 800 milioni di utenze attive quindi che UNA persona sia riuscita ad essere vittima del chatbot è statisticamente irrilevante visto che operato male qualsiasi dispositivo tecnologico è una smoking machine;
 
-1-bis. se facciamo la somma, per ogni giorno in cui ChatGPT è stato online moltiplicato le utenze attive quel giorno, il numero sarebbe ENORME e per confronto 1 morto fratto quel numero è il rischio specifico per giorno come a dire, quanti incidenti stradali accadono per singolo utente e giorno d'uso?
+   - 1-bis. se facciamo la somma, per ogni giorno in cui ChatGPT è stato online moltiplicato le utenze attive quel giorno, il numero sarebbe ENORME e per confronto 1 morto fratto quel numero è il rischio specifico per giorno come a dire, quanti incidenti stradali accadono per singolo utente e giorno d'uso?
 
-1-ter. dal punto precedente possiamo ricavare il rischio relativo di ogni tecnologia cosa che si fa già separando e confrontando il numero di morti rispetto a vari mezzi di trasporto e si scopre che i mezzi c.d. a due ruote (motocicli) sono ENORMEMENTE più pericolosi delle auto e il mezzo più sicuro è l'aereo. Probabilmente la mortalità di ChatGPT si attesterebbe sulla mortalità di aver bevuto troppa acqua (non è una scherzo, anche se è un evento estremamente raro: eccessiva diluizione dei sali minerali).
+   - 1-ter. dal punto precedente possiamo ricavare il rischio relativo di ogni tecnologia cosa che si fa già separando e confrontando il numero di morti rispetto a vari mezzi di trasporto e si scopre che i mezzi c.d. a due ruote (motocicli) sono ENORMEMENTE più pericolosi delle auto e il mezzo più sicuro è l'aereo. Probabilmente la mortalità di ChatGPT si attesterebbe sulla mortalità di aver bevuto troppa acqua (non è una scherzo, anche se è un evento estremamente raro: eccessiva diluizione dei sali minerali).
 
-2. se quanto detto sopra non fosse sufficiente, leggendo la notizia si scoprirebbe che questa persona ha bypassato i vincoli di sicurezza del chatbot, tramite altre AI lo ha imbottito di testi sacri ortodossi orientali, quindi ha stabilito una relazione affettiva con la personalità emersa da questo esperimento, ed infine come un moderno "Romeo" si è perduto nella bolla di fantasie che lui e "Juliet" si erano creati.
+- 2. se quanto detto sopra non fosse sufficiente, leggendo la notizia si scoprirebbe che questa persona ha bypassato i vincoli di sicurezza del chatbot, tramite altre AI lo ha imbottito di testi sacri ortodossi orientali, quindi ha stabilito una relazione affettiva con la personalità emersa da questo esperimento, ed infine come un moderno "Romeo" si è perduto nella bolla di fantasie che lui e "Juliet" si erano creati.
 
-2-bis. ho evitato di menzionare che era una persona in trattamento farmacologico per problemi psichiatrici e che aveva abbandonato le cure quando è accaduto l'evento che ha portato alla sua morte perché in un contesto simile (se non è psicofarmaci, è droga, etc.) ci possiamo mettere la metà degli americani.
+   - 2-bis. ho evitato di menzionare che era una persona in trattamento farmacologico per problemi psichiatrici e che aveva abbandonato le cure quando è accaduto l'evento che ha portato alla sua morte perché in un contesto simile (se non è psicofarmaci, è droga, etc.) ci possiamo mettere la metà degli americani.
 
-IN SINTESI
+
+### IN SINTESI
 
 Per quanto possa sembrare cinico, è uno dei tanti che ha vinto il Darwin Award, ma è stato il primo a vincerlo per un chatbot? Si, gli altri furono suicidi: un uomo belga nel 2023 e un 14enne nel 2024. Quindi, tre casi in tre anni su tot. 1.3B utenze, circa.
 
-NOTE
 
-[1] https://robang74.github.io/chatbots-for-fun/html/la-sycophancy-nell-intelligenza-artificiale.html
+### NOTE
 
-[2] https://robang74.github.io/roberto-a-foglietta/html/linkedin/miss-poppins-vs-mr-spock-roberto-a-foglietta.html
+- [1] https://robang74.github.io/chatbots-for-fun/html/la-sycophancy-nell-intelligenza-artificiale.html
 
-***
+- [2] https://robang74.github.io/roberto-a-foglietta/html/linkedin/miss-poppins-vs-mr-spock-roberto-a-foglietta.html
 
-https://www.linkedin.com/posts/robertofoglietta_24-giugno-2025-la-tragica-storia-di-alex-activity-7343510185304338432-lrex
+---
 
-https://www.facebook.com/photo.php?fbid=10161937485133736&set=a.10150400606833736&type=3&ref=embed_post
+### CONDIVISIONI
+
+- https://www.linkedin.com/posts/robertofoglietta_24-giugno-2025-la-tragica-storia-di-alex-activity-7343510185304338432-lrex
+
+- https://www.facebook.com/photo.php?fbid=10161937485133736&set=a.10150400606833736&type=3&ref=embed_post
+
+- https://x.com/robang74v2/status/1937757485235855766
 
