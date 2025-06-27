@@ -9,6 +9,8 @@
 
 - **2nd** edition includes an explanation about why phisicists speculate and debate on interpretation of their theories. Spoiler: they are humans! Hence, how well the AI can play with this kind speculations?
 
+- **3rd** edition includes a thought-provoking post published on LinkedIn and Facebook.
+
 ---
 
 ### Does free-will exist for real?
@@ -53,6 +55,34 @@ For example, `F=ma` is not a law of nature but a law of physics and in particula
 In trying to speculate about its meaning, we are seeking inspiration for another formulation that can equally or even better achieve the same goal: predictions. Without predictions, a model cannot be falsified and without falsification is not science in the stricts terms defined by Karl Popper.
 
 For all these reasons, speculations and interpretations are nice that exist and like every other human activity, made with a correct and honest method is a valuable exercise. Because those speculations remind us that what we are dealing with is just a **description** of reality. Like Schrodinger's cat paradox or the Fermi's paradox are suggesting.
+
++
+
+## Il libero arbitrio esiste veramente?
+
+...
+>>>|
+`Forse il libero arbitrio esiste`<br>
+`però il suo esercizio è limitato`<br>
+`solamente alle scelte stupide!`<br>
+|<<<
+...
+
+Noi diamo per assodato che in quanto esseri umani siamo dotati di libero arbitrio e che la sua esistenza sia assolutamente scontata e per convincercene maggiormente creiamo e supportiamo teorie per le quali la mente sia qualcosa di astratto dalla mera funzionalità del cervello materiale.
+
+Senza nemmeno considerare che tale astrazione potrebbe in realtà essere frutto solo di una certa quantità di chaos naturalmente presente nelle attività cerebrali. Sotto questo punto di vista sarebbe alquanto surreale per non dire ridicolo dare tanta importanza a qualcosa come la mente o il libero arbitrio che potrebbero esistere solo come delle marginalità introdotte dal caos.
+
+Non sto affermando che quanto scritto sopra sia vero. Sto affermando che a priori non possiamo escludere che quanto diamo per scontato sia effettivamente così concreto e assodato quanto pensiamo che sia e che forse ci sono molti aspetti che potremmo aver trascurato nell'arrivare alle conclusioni che desideriamo siano confermate (confirmation bias).
+
+Prendiamo per esempio il libero arbitrio. Potrei dire che il mio colore preferito sia il verde e nel dirlo potrei mentire quindi con questa affermazione ho esercitato ben due scelte grazie al mio libero arbitrio. Nel mentre che interiormente penso che il rosso sia il mio colore preferito.
+
+Quindi mentire sapendo di mentire appare ragionevolmente una libera scelta, se non altro perché contravviene al principio di un pensiero puramente meccanicistico in cui gli input e lo stato determinano il risultato.
+
+Invece sulla preferenza del rosso possiamo dire che essa sia il risultato di un certo stato del nostro cervello oppure una libera scelta? Intanto notiamo che il colore rosso non esiste oggettivamente se non nella forma di una frequenza che i nostri occhi percepiscono e la nostra mente interpreta sicché il colore rosso è una convenzione sociale. Coloro che hanno anomalie cromatiche della vista, lo possono confermare. Se un maschio si confronta con una femmina sul colore rosso potrebbe scoprire che non è un colore ma un range che va dal rosa-scuro al bordeaux.
+
+Quindi il nostro libero arbitrio potrebbe essere limitato solo a quelle scelte che sono una percezione arbitraria. Però potrei dire che il mio colore preferito sono i raggi X duri e farmene una bella dose quotidiana. Una libera scelta che porterebbe ad finale tragico. Paradossalmente, però con questa scelta inconsueta affermerei il mio libero arbitrio sulla ragione pure. 
+
+Perché, secondo Mr. Spock, il libero arbitrio potrebbe essere conoscere la realtà, e preferire la stupidità e più stupida è la scelta più forte è l'esercizio del libero arbitrio. Pecca forte se la tua fede è forte (cit.) quindi non avrei inventato nulla. Se poi la stupidità uccide, allora il nostro libero arbitrio si è espresso nella più profonda ed impattante delle modalità.
 
 +
 
