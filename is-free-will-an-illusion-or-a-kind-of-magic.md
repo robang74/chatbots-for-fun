@@ -74,15 +74,24 @@ Senza nemmeno considerare che tale astrazione potrebbe in realtà essere frutto 
 
 Non sto affermando che quanto scritto sopra sia vero. Sto affermando che a priori non possiamo escludere che quanto diamo per scontato sia effettivamente così concreto e assodato quanto pensiamo che sia e che forse ci sono molti aspetti che potremmo aver trascurato nell'arrivare alle conclusioni che desideriamo siano confermate (confirmation bias).
 
-Prendiamo per esempio il libero arbitrio. Potrei dire che il mio colore preferito sia il verde e nel dirlo potrei mentire quindi con questa affermazione ho esercitato ben due scelte grazie al mio libero arbitrio. Nel mentre che interiormente penso che il rosso sia il mio colore preferito.
+<table><tr><td>
+<img class="bwsketch darkinv" src="img/la-memte-astrale.png" width="360">
+
+Representation of consciousness from the 17th century by Robert Fludd, an English Paracelsian physician, [wikipedia](https://en.wikipedia.org/wiki/Consciousness).
+</td><td class="body">
+Potrei dire che il mio colore preferito sia il verde e nel dirlo potrei mentire quindi con questa affermazione ho esercitato ben due scelte grazie al libero arbitrio. Nel mentre che interiormente penso che il rosso sia il mio colore preferito. 
 
 Quindi mentire sapendo di mentire appare ragionevolmente una libera scelta, se non altro perché contravviene al principio di un pensiero puramente meccanicistico in cui gli input e lo stato determinano il risultato.
 
-Invece sulla preferenza del rosso possiamo dire che essa sia il risultato di un certo stato del nostro cervello oppure una libera scelta? Intanto notiamo che il colore rosso non esiste oggettivamente se non nella forma di una frequenza che i nostri occhi percepiscono e la nostra mente interpreta sicché il colore rosso è una convenzione sociale. Coloro che hanno anomalie cromatiche della vista, lo possono confermare. Se un maschio si confronta con una femmina sul colore rosso potrebbe scoprire che non è un colore ma un range che va dal rosa-scuro al bordeaux.
+Invece sulla preferenza del rosso possiamo dire che essa sia il risultato di un certo stato del nostro cervello oppure una libera scelta? Intanto notiamo che il colore rosso non esiste oggettivamente se non nella forma di una frequenza che i nostri occhi percepiscono e la nostra mente interpreta sicché il colore rosso è una convenzione sociale.
 
-Quindi il nostro libero arbitrio potrebbe essere limitato solo a quelle scelte che sono una percezione arbitraria. Però potrei dire che il mio colore preferito sono i raggi X duri e farmene una bella dose quotidiana. Una libera scelta che porterebbe ad finale tragico. Paradossalmente, però con questa scelta inconsueta affermerei il mio libero arbitrio sulla ragione pure. 
+Coloro che hanno anomalie cromatiche della vista, lo possono confermare. Se un maschio si confronta con una femmina sul colore rosso potrebbe scoprire che non è un colore ma un range che va dal rosa-scuro al bordeaux.
+</td></tr></table>
+
+Quindi il nostro libero arbitrio potrebbe essere limitato solo a quelle scelte che sono una percezione arbitraria. Però potrei dire che il mio colore preferito sono i raggi X duri e farmene una bella dose quotidiana. Una libera scelta che porterebbe ad finale tragico. Paradossalmente, però con questa scelta inconsueta affermerei il mio libero arbitrio sulla ragione pure.
 
 Perché, secondo Mr. Spock, il libero arbitrio potrebbe essere conoscere la realtà, e preferire la stupidità e più stupida è la scelta più forte è l'esercizio del libero arbitrio. Pecca forte se la tua fede è forte (cit.) quindi non avrei inventato nulla. Se poi la stupidità uccide, allora il nostro libero arbitrio si è espresso nella più profonda ed impattante delle modalità.
+
 
 +
 
