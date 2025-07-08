@@ -5,7 +5,7 @@
 
 ## Usare l'AI per divulgare notizie di finanza
 
-- **4th draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli.
+- **5th draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli.
 
 ---
 
@@ -79,6 +79,7 @@ Indicare l'autore del post, però, può fare una notevole differenza perché imp
 
 Questo secondo aspetto, nel prompt originale, è mitigato proprio da "ragionamento finanziario-economico" che in termini di connessione tra idee, invece specifica quale modello usare prioritariamente: quello scolastico presente in letteratura.
 
+<span id="small-ecofin-prompt-v2"></span>
 [!CITE]
 Questo è un post di finanza-economia, con le relative immagini allegate (se presenti). Vorrei che, adottando uno con stile professionale, mi riassumessi in un elenco puntato:
 
@@ -151,43 +152,47 @@ Ritengo che **flash** non sia il modello migliore per queste analisi in cui ogni
 
 Certo la versione **pro** è limitata oppure a pagamento ma anche considerando che i post su LinkedIn per loro natura sono limitati come quantità di testo e le immagini se contengono solo tabelle possono essere convertite con altri strumenti che sono altresì risorse abbondanti.
 
-+
 ---
-|x|>
-WORKING IN PROGRESS!
-<|x|
----
-+
 
 ### Approccio combinato
 
-In queste chat allegate c'è un'analisi sviluppata con la versione Gemini 2.5 Pro e una con 2.5 Flash. Quali pensi siano i vantaggi principali in termini di utilità per un essere umano (quindi anche formattazione del testo e narrativa) rispetto all'analisi prodotta dalla **2.5 Flash** rispetto a quella prodotta da **2.5 Pro**. Si tratta di una domanda importante perché tu hai un footprint energetico decisamente inferiore.
+Ritengo che la versione **2.5 Pro** abbia prodotto un'analisi nettamente più utile e più profonda. Ho chiesto a **2.5 flash** di comparare le due versioni e presentarmi pros-cons e la sua mi ha confermato questa sensazione perché i vantaggi della **2.5 Flash** sono ininfluenti o addirittura negativi (maggiore verbosità e/o didascalità) che però potrebbero essere utili per un neofita.
 
-Ritengo che data la materia piuttosto importanza (finanza-economia) la versione **2.5 Pro** abbia prodotto un'analisi nettamente più utile (più profonda) e la tua risposta mi ha confermato questa sensazione perché i vantaggi che hai presentato in favore della **2.5 Flash** sono ininfluenti o addirittura negativi (verbosità) per un umano mediamente preparato sulla materia però potrebbero essere utili per un principiante o un neofita.
-
-Quindi direi che questa sia una prima importante distinzione. Però ritengo che, anche per una persona mediamente preparata **2.5 Flash** possa essere utile se riceve i dati, il testo e ANCHE l'analisi già fatta dalla **2.5 Pro** in maniera da portare avanti una conversazione con l'utente che a questo punto si avvantaggerebbe di un modello più veloce e focalizzato alla risposta specifica MA comunque istruito come sarebbe un **2.5 Pro**. Che ne pensi?
+Anche per una persona mediamente preparata **2.5 Flash** possa essere utile se riceve i dati, il testo e **anche** l'analisi già prodotta dalla **2.5 Pro** in maniera da portare avanti una conversazione con l'utente che a questo punto si avvantaggerebbe di un modello più veloce e focalizzato alla risposta specifica **ma** comunque istruito riguardo alle connessioni dal modello **2.5 Pro**.
 
 [!CITE]
-La sua proposta di integrare Flash con l'analisi di Pro è estremamente interessante e strategica. Penso che sia un'ottima intuizione per massimizzare l'utilità di entrambi i modelli e rappresenta un approccio ibrido molto efficace.
+La sua proposta di integrare Flash con l'analisi di Pro è estremamente interessante e strategica. Penso che sia un'ottima intuizione per massimizzare l'utilità di entrambi i modelli e rappresenta un approccio ibrido molto efficace. -- [Gemini](https://g.co/gemini/share/5ecb97e32509)
 [/CITE]
 
-- https://g.co/gemini/share/5ecb97e32509
+---
+
+### Accesso ad Internet
+
+Infine, non dobbiamo trascurare la capacità del chatbot di fare ricerche su Internet. Un funzionalità presente in ChatGPT ma decisamente più limitata in Gemini 2.5 Flash. Non escludo però che Gemini possa accedere a Google Finance. Un'opzione che potrebbe essere legata al condividere con l'AI il workspace.
+
+Per lo scopo divulgativa e quello conversativo di approfondimento, ritengo che le due opzioni più utili siano ChatGPT 4o e Gemini 2.5 Pro. Anche per chi volesse imparare ad orientarsi in questo campo, avere un tutor anche un po' "più smart" è decisamente un vantaggio non marginale.
+
+Il top rimane l'interazione umana. Quindi chiedere a Mauro Bottarelli (o altro divulgatore e/o giornalista di finanza che seguite) di fare delle sessioni video-interattive a carattere divulgativo con la partecipazione simultanea di un numero di utenti che generalmente un tutor possa gestire.
+
+Un numero che varia anche in funzione dell'esperienza dei partecipanti -- e in generale -- anche dell'omogeneità della preparazione che quando è troppo distribuita rende difficile gestire ed alternare interventi altamente tecnici a quelli divulgativi ma che dipende anche dal tutor.
 
 +
 
-## Links da integrare
+## Link di riferimento
 
-https://www.linkedin.com/in/mauro-bottarelli-7093a155
+- Profilo su LinkedIn di [Mauro Bottarelli](https://www.linkedin.com/in/mauro-bottarelli-7093a155)
 
-https://www.linkedin.com/posts/mauro-bottarelli-7093a155_c%C3%A8-una-strategia-perversa-pericolosa-activity-7348043756211732480-Q-X7
+- Primo post su [Nikkei vs Yen](https://www.linkedin.com/posts/mauro-bottarelli-7093a155_c%C3%A8-una-strategia-perversa-pericolosa-activity-7348043756211732480-Q-X7) summer drama
 
-https://www.linkedin.com/posts/mauro-bottarelli-7093a155_servizio-sveglia-e-naturale-prosecuzione-activity-7348222231258234880-SkoJ
+- Secondo post di sveglia su [Nikkei vs Yen](https://www.linkedin.com/posts/mauro-bottarelli-7093a155_servizio-sveglia-e-naturale-prosecuzione-activity-7348222231258234880-SkoJ) summer drama
 
 +
 
 ## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+- Mauro Bottarelli è autorizzato ad usare **gratuitamente** il [prompt v2](#small-ecofin-prompt-v2) o una sua precedente versione per la sua attività di autopromozione e di divulgazione effettuata mediante il suo profilo personale su LinkedIn, **anche** se queste attività avessero natura commerciale diretta, indiretta o accessoria.
 
 </div>
 
