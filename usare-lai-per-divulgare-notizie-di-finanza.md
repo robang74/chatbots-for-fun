@@ -1,7 +1,7 @@
 <div id="firstdiv" created=":IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<div align="center"><img class="bwsketch" src="img/usare-l-ai-per-divulgare-notizie-di-finanza-img-001.jpg" width="800"><br></div>
+<div align="center"><img class="bwsketch darkinv" src="img/usare-l-ai-per-divulgare-notizie-di-finanza-img-001.jpg" width="800"><br></div>
 
 ## Usare l'AI per divulgare notizie di finanza
 
