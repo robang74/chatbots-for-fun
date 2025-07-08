@@ -2,7 +2,7 @@ Chat U2A: human operator prompt first, then AI agent answer. Width: 80 columns.
 
 **** data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-chatgpt.txt ****
 
-Chatbot: Gemini 2.5 Pro
+Chatbot: ChatGPT 4o
 Created: 8th July 2025
 Published 8th July 2025
 Attachment: three images about finantial data/indexes (US threasury missing)
