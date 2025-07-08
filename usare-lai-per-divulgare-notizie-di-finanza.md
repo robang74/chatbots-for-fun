@@ -97,13 +97,15 @@ Anche questo appare come un gioco di parole ma, specialmente per certe AI con te
 
 ### L'opinione di Gemini
 
-In questa [conversazione](https://g.co/gemini/share/e57eb9227a93) con Gemini o nella sua [trascrizione](not-yet.txt) si nota come ho preso la questione delle variazioni nei prompt "alla larga" presentandogli le prime quattro sezioni di questo articolo affinché si concentrasse sulla struttura e la solidità del ragionamento presentato.
+In questa [conversazione](https://g.co/gemini/share/5efedbdd28ba) con Gemini o nella sua [trascrizione](not-yet.txt) si nota come ho preso la questione delle variazioni nei prompt "alla larga" presentandogli le prime quattro sezioni di questo articolo affinché si concentrasse sulla struttura e la solidità del ragionamento presentato.
 
 Solo dopo sono andato dritto al punto e gli ho "sparato" la richiesta specifica ovvero se quanto avessi scritto circa le variazioni nei prompt, e le mie relative aspettative, coincidessero con quello che è il suo funzionamento interno e la sua percezione di quei testi. Filotto centrato in pieno, anche qui.
 
 Sia chiaro ed esplicito: l'opinione del chatbot riguardo al suo funzionamento interno o ad un prompt, sono fallibili. Non che essi mentano, ma tendono ad inventare e a compiacere, quindi occorre prudenza. Però è **utile** conoscere la loro "percezione" e loro "aspettative" sui prompt e relative variazioni.
 
-Infatti, riguardo alla formattazione ottica, Gemini risponde -- correttamente -- che tale formattazione altera la sequenza di token, può alterare la velocità di computazione (comprensione del prompt) e quindi **anche** il funzionamento, ma in **questo** caso però non è stato così.
+Infatti, riguardo alla formattazione ottica, Gemini risponde -- correttamente -- che tale formattazione altera la sequenza di token, può alterare la velocità di computazione (comprensione del prompt) e quindi **anche** il funzionamento, ma in **questo** caso però **non** è stato così.
+
+Si tenga però conto che l'esecuzione dello stesso identico prompt con gli stessi identici dati, incluso immagini allegate anche nella stessa identica sequenza, **non** genera **quasi** mai la stessa **identica** risposta e questo è dovuto alle fluttuazioni stocastiche, di ampiezza pre-determinata secondo la "temperatura" in esecuzione.
 
 *Know your chickens.*
 
