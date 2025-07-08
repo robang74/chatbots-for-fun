@@ -59,7 +59,7 @@ Dopo questa spiegazione appare chiaro che anche un prompt espresso in linguaggio
 
 In questo contesto, un prompt anche un un po' sgrammaticato al punto da indurre delle incertezze e che mescoli italiano ed inglese, potrebbe avere il medesimo effetto che se fosse stato scritto con più attenzione quando invece l'uso di un aggettivo potrebbe cambiare anche radicalmente la logica di processo.
 
-*It is a kind of magic*.
+*It is a kind of magic!*
 
 ---
 
@@ -85,6 +85,15 @@ Il prompt modificato come sopra sposta l'attenzione sul punto di vista dell'auto
 
 Anche questo appare come un gioco di parole ma, specialmente per certe AI con temperatura più elevata, cambia le regole del gioco perché dove non trovano solide connessioni, le inventano quindi colmano la lacuna mentre dovrebbe esporla e spiegarla.
 
+---
+
+### L'opinione di Gemini
+
+In questa [conversazione](https://g.co/gemini/share/9a233084d99c) con Gemini o nella sua [trascrizione](not-yet.txt) si nota come ho preso la questione delle variazioni nei prompt "alla larga" presentandogli le prime quattro sezioni di questo articolo affinché si concentrasse sulla struttura e la solidità del ragionamento presentato.
+
+Solo dopo sono andato dritto al punto e gli ho "sparato" la richiesta specifica ovvero se quanto avessi scritto circa le variazioni nei prompt, e le mie relative aspettative, coincidessero con quello che è il suo funzionamento interno e la sua percezione di quei testi. Filotto centrato in pieno, anche qui.
+
+*Know your chickens.*
 
 +
 ---
