@@ -3,7 +3,7 @@ Chat U2A: human operator prompt first, then AI agent answer. Width: 80 columns.
 ********* data/neutrality-vs-biases-for-chatbots-update2-chatgpt.txt ***********
 
 Chatbot: ChatGPT 4o
-Created: 20h June 2025
+Created: 20th June 2025
 Published 20th June 2025
 Attachment: sonia-argumentative-w-rag-v3.txt (v3.7.4)
 
