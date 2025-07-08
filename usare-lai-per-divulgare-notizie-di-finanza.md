@@ -47,6 +47,12 @@ Le cose che è importante notare riguardo al prompt sopra sono:
 
 6. definisce e indica come gestire le eccezioni: in #3 le affermazioni che altrimenti avrebbe ignorato e che invece dovendole catalogare sono già ricercate nell'analisi, e in #5 il perché ha fallito;
 
+Dopo questa spiegazione appare chiaro che anche un prompt espresso in liguaggio naturale (NLP), e quindi possa apparire ovvio a prima vista, sia in realtà una costruzione piuttosto elaborata che sottende delle compentenze circa il funzionamento interno delle AI, del tipo di dati che si va a trattare, del tipo di analisi che si vuole venga condotta, il risultato che si vuole ottenere sia in termini di formato sia in termini di obbiettivi.
+
+In questo contesto, un prompt anche un un po' sgrammaticato al punto da indurre delle incertezze e che mescoli italiano ed inglese, potrebbe avere il medesimo effetto che se fosse stato scritto con più attenzione quando invece l'uso di un aggettivo potrebbe cambiare anche radicalmente la logica di processo.
+
+*It is a kind of magic*.
+
 +
 ---
 |x|>
