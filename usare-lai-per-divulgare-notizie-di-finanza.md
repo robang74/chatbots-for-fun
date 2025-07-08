@@ -5,7 +5,7 @@
 
 ## Usare l'AI per divulgare notizie di finanza
 
-- **1st draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli.
+- **2nd draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli.
 
 ---
 
@@ -19,7 +19,15 @@ Per fortuna -- o intuizione -- l'esperimento è andato bene alla prima. Prima sc
 
 ---
 
-### Il prompt
+### Il pronpt v0
+
+[!CITE]
+Questo è un post (anzi due) di Mauro Bottarelli, con le relative immagini allegate. Vorrei che, senza usare icone e con stile professionale, mi riassumessi in una bullet list le affermazioni di maggiore importanza (a) incluse quelle implicite (b) e quelle "fuori dagli schemi" (c). Infine mi facessi un brevissimo riassunto di come queste affermazioni {a, b, c} si collegano fra loro in termini di ragionamento finanziario-economico, o se non si collegano fra loro anche il perché.
+[/CITE]
+
+---
+
+### Il prompt v1
 
 Rispetto al prompt utilizzato in origine, questo qui sotto presentato è stato generalizzato il minimo indispensabile e redatto con una forma un po' più strutturata, pur mantenendosi sintetica:
 
@@ -47,11 +55,36 @@ Le cose che è importante notare riguardo al prompt sopra sono:
 
 6. definisce e indica come gestire le eccezioni: in #3 le affermazioni che altrimenti avrebbe ignorato e che invece dovendole catalogare sono già ricercate nell'analisi, e in #5 il perché ha fallito;
 
-Dopo questa spiegazione appare chiaro che anche un prompt espresso in liguaggio naturale (NLP), e quindi possa apparire ovvio a prima vista, sia in realtà una costruzione piuttosto elaborata che sottende delle compentenze circa il funzionamento interno delle AI, del tipo di dati che si va a trattare, del tipo di analisi che si vuole venga condotta, il risultato che si vuole ottenere sia in termini di formato sia in termini di obbiettivi.
+Dopo questa spiegazione appare chiaro che anche un prompt espresso in linguaggio naturale (NLP), e quindi possa apparire ovvio a prima vista, sia in realtà una costruzione piuttosto elaborata che sottende delle competenze circa il funzionamento interno delle AI, del tipo di dati che si va a trattare, del tipo di analisi che si vuole venga condotta, il risultato che si vuole ottenere sia in termini di formato sia in termini di obiettivi.
 
 In questo contesto, un prompt anche un un po' sgrammaticato al punto da indurre delle incertezze e che mescoli italiano ed inglese, potrebbe avere il medesimo effetto che se fosse stato scritto con più attenzione quando invece l'uso di un aggettivo potrebbe cambiare anche radicalmente la logica di processo.
 
 *It is a kind of magic*.
+
+---
+
+### Il prompt v2
+
+Se confrontiamo il prompt originale consultabile nelle chat o relative trascrizioni, ci accorgiamo che in esso non è specificato #1 il settore d'interesse ma l'autore del post. Anche se poi nel prosieguo entrambi riportano "ragionamento finanziario-economico" quindi in realtà #1 è fissato, comunque.
+
+Indicare l'autore del post, però, può fare una notevole differenza perché implica che l'agente AI si concentrerà -- o si suppone che lo faccia -- sul punto di vista dell'autore sia in termini di estrazione delle affermazioni sia per stabilire il collegamento fra queste.
+
+Questo secondo aspetto, nel prompt originale, è mitigato proprio da "ragionamento finanziario-economico" che in termini di connessione tra idee, invece specifica quale modello usare prioritariamente: quello scolastico presente in letteratura.
+
+[!CITE]
+Questo è un post di finanza-economia, con le relative immagini allegate (se presenti). Vorrei che, adottando uno con stile professionale, mi riassumessi in un elenco puntato:
+
+- (a) le affermazioni di maggiore importanza,
+- (b) incluse quelle implicite, bias e
+- (c) quelle "fuori dagli schemi".
+
+Infine, vorrei mi facessi un breve riassunto di come queste affermazioni si collegano fra loro secondo il punto di vista dell'autore. Altrimenti spiegare le lacune relazionali.
+[/CITE]
+
+Il prompt modificato come sopra sposta l'attenzione sul punto di vista dell'autore, cosa importante quando ci stiamo avvicinando a testi prodotti da professionisti considerati outsider rispetto al mainstream, e rielabora i #5 e #6 in termini di lacune relazionali.
+
+Anche questo appare come un gioco di parole ma, specialmente per certe AI con temperatura più elevata, cambia le regole del gioco perché dove non trovano solide connessioni, le inventano quindi colmano la lacuna mentre dovrebbe esporla e spiegarla.
+
 
 +
 ---

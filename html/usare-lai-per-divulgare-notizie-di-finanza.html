@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-07-08&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>2</b rev_num='
+'>3</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/usare-lai-per-divulgare-notizie-di-finanza?_x_tr_sl=it&_x_tr_tl=en&_x_tr_hl=en-EN&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>EN</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/usare-lai-per-divulgare-notizie-di-finanza?_x_tr_sl=it&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/usare-lai-per-divulgare-notizie-di-finanza?_x_tr_sl=it&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/usare-lai-per-divulgare-notizie-di-finanza?_x_tr_sl=it&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -26,7 +26,7 @@
 <p></p>
 <H2 id="usare-lai-per-divulgare-notizie-di-finanza">Usare l'AI per divulgare notizie di finanza</H2>
 <p></p>
-<li><b>1st draft</b>, questo articolo nasce da due commenti a due post di Mauro Bottarelli.</li>
+<li><b>2nd draft</b>, questo articolo nasce da due commenti a due post di Mauro Bottarelli.</li>
 <p></p>
 <hr>
 <p></p>
@@ -40,7 +40,15 @@ Per fortuna &mdash; o intuizione &mdash; l'esperimento è andato bene alla prima
 <p></p>
 <hr>
 <p></p>
-<H3 id="il-prompt">Il prompt</H3>
+<H3 id="il-pronpt-v0">Il pronpt v0</H3>
+<p></p>
+<blockquote class="cite">
+Questo è un post (anzi due) di Mauro Bottarelli, con le relative immagini allegate. Vorrei che, senza usare icone e con stile professionale, mi riassumessi in una bullet list le affermazioni di maggiore importanza (a) incluse quelle implicite (b) e quelle "fuori dagli schemi" (c). Infine mi facessi un brevissimo riassunto di come queste affermazioni {a, b, c} si collegano fra loro in termini di ragionamento finanziario-economico, o se non si collegano fra loro anche il perché.
+</blockquote>
+<p></p>
+<hr>
+<p></p>
+<H3 id="il-prompt-v1">Il prompt v1</H3>
 <p></p>
 Rispetto al prompt utilizzato in origine, questo qui sotto presentato è stato generalizzato il minimo indispensabile e redatto con una forma un po' più strutturata, pur mantenendosi sintetica:
 <p></p>
@@ -68,11 +76,36 @@ Le cose che è importante notare riguardo al prompt sopra sono:
 <p></p>
 <li class='numli'><b>6.&emsp;</b>definisce e indica come gestire le eccezioni: in #3 le affermazioni che altrimenti avrebbe ignorato e che invece dovendole catalogare sono già ricercate nell'analisi, e in #5 il perché ha fallito;</li>
 <p></p>
-Dopo questa spiegazione appare chiaro che anche un prompt espresso in liguaggio naturale (NLP), e quindi possa apparire ovvio a prima vista, sia in realtà una costruzione piuttosto elaborata che sottende delle compentenze circa il funzionamento interno delle AI, del tipo di dati che si va a trattare, del tipo di analisi che si vuole venga condotta, il risultato che si vuole ottenere sia in termini di formato sia in termini di obbiettivi.
+Dopo questa spiegazione appare chiaro che anche un prompt espresso in linguaggio naturale (NLP), e quindi possa apparire ovvio a prima vista, sia in realtà una costruzione piuttosto elaborata che sottende delle competenze circa il funzionamento interno delle AI, del tipo di dati che si va a trattare, del tipo di analisi che si vuole venga condotta, il risultato che si vuole ottenere sia in termini di formato sia in termini di obiettivi.
 <p></p>
 In questo contesto, un prompt anche un un po' sgrammaticato al punto da indurre delle incertezze e che mescoli italiano ed inglese, potrebbe avere il medesimo effetto che se fosse stato scritto con più attenzione quando invece l'uso di un aggettivo potrebbe cambiare anche radicalmente la logica di processo.
 <p></p>
 <i>It is a kind of magic</i>.
+<p></p>
+<hr>
+<p></p>
+<H3 id="il-prompt-v2">Il prompt v2</H3>
+<p></p>
+Se confrontiamo il prompt originale consultabile nelle chat o relative trascrizioni, ci accorgiamo che in esso non è specificato #1 il settore d'interesse ma l'autore del post. Anche se poi nel prosieguo entrambi riportano "ragionamento finanziario-economico" quindi in realtà #1 è fissato, comunque.
+<p></p>
+Indicare l'autore del post, però, può fare una notevole differenza perché implica che l'agente AI si concentrerà &mdash; o si suppone che lo faccia &mdash; sul punto di vista dell'autore sia in termini di estrazione delle affermazioni sia per stabilire il collegamento fra queste.
+<p></p>
+Questo secondo aspetto, nel prompt originale, è mitigato proprio da "ragionamento finanziario-economico" che in termini di connessione tra idee, invece specifica quale modello usare prioritariamente: quello scolastico presente in letteratura.
+<p></p>
+<blockquote class="cite">
+Questo è un post di finanza-economia, con le relative immagini allegate (se presenti). Vorrei che, adottando uno con stile professionale, mi riassumessi in un elenco puntato:
+<p></p>
+<li>(a) le affermazioni di maggiore importanza,</li>
+<li>(b) incluse quelle implicite, bias e</li>
+<li>(c) quelle "fuori dagli schemi".</li>
+<p></p>
+Infine, vorrei mi facessi un breve riassunto di come queste affermazioni si collegano fra loro secondo il punto di vista dell'autore. Altrimenti spiegare le lacune relazionali.
+</blockquote>
+<p></p>
+Il prompt modificato come sopra sposta l'attenzione sul punto di vista dell'autore, cosa importante quando ci stiamo avvicinando a testi prodotti da professionisti considerati outsider rispetto al mainstream, e rielabora i #5 e #6 in termini di lacune relazionali.
+<p></p>
+Anche questo appare come un gioco di parole ma, specialmente per certe AI con temperatura più elevata, cambia le regole del gioco perché dove non trovano solide connessioni, le inventano quindi colmano la lacuna mentre dovrebbe esporla e spiegarla.
+<p></p>
 <p></p>
 <br>
 <hr>
