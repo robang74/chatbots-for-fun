@@ -5,7 +5,7 @@
 
 ## Usare l'AI per divulgare notizie di finanza
 
-- **2nd draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli.
+- **3rd draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli.
 
 ---
 
@@ -110,24 +110,26 @@ Si tenga però conto che l'esecuzione dello stesso identico prompt con gli stess
 *Know your chickens.*
 
 +
----
-|x|>
-WORKING IN PROGRESS!
-<|x|
----
-+
 
-Spero che questo possa aiutare i tuoi post a raggiungere un livello di divulgazione più ampio. Cioè a raggiungere anche quelle persone che non hanno grande dimestichezza con concetti finanziario/economici. Perché oggettivamente non è banale seguire i tuoi ragionamenti anche se lo stile è piacevole e intrigante da leggere.
+## Esempio pratico
 
-Si noti che nel prompt sono state separate le affermazioni fra quelle (a) importanti, quelle (b) implicite che sono utilissime alla divulgazione e (c) quelle "fuori dagli schemi" perché le AI di solito le ignorano e magari, invece, sono proprio quelle perle di eccellenza/intuizione che sono caratteristiche dell'essere umano. Quindi la richiesta di collegare questi elementi in passaggi logici oppure, di nuovo, spiegare quali sono gli eventuali collegamenti mancanti. Per esempio, salti di intuizione.
+A questo punto vale la pena di presentare l'esempio da cui questo articolo ha preso spunto, e assolvere allo scopo che si era inizialmente proposto. L'uso dell'intelligenza artificiale per facilitare la diffusione di informazioni finanziarie comprensibili anche ai non adetti ai lavori.
 
-Nonostante queste attenzioni nello scrivere la richiesta nel prompt, va sottolineato che l'AI tende in modo naturale e pervicace a ignorare ciò che non comprende o non collega mediante schemi tradizionali e/o a rettificare tutto quanto entro questi schemi. Quindi prima o dopo aver letto l'analisi dell'AI, occorre leggersi il testo dell'umano.
+...
 
-- https://chatgpt.com/s/t_686cc5931e84819187fc521892ee8e17
+#### ChatGPT 4o
 
----
+Procediamo in ordine cronologico e abbiamo un primo approccio con ChatGPT in questa [conversazione](https://chatgpt.com/share/686d419f-5634-8012-97d4-b7a54a97f124) o la relativa [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-chatgpt.txt#?target=_blank) in cui però ho dimenticato di allegare una delle quattro immagini, che poi ho recuperato al secondo prompt.
 
-Si noti invece che con Gemini 2.5 Pro -- e il "pro" è fondamentale in questo contesto -- sia riuscito ad intuire i ragionamenti standard dei due post di Mauro Bottarelli a partire dai soli dati (immagini) che nella loro selezione peculiare SONO già significativi.
+`    U.S. 10Y | 4.384 | 12:32:59 | US10YT=X | +0.068 (+1.58%)`
+
+Qui vale la pena notare che allegare immagini è comodo ma consuma molto più velocemente la quota di elaborazione, infatti nel secondo prompt i dati sono stati inseriti in stile CSV o simil-tabellare in Markdown, due formati che i chatbot riconoscono naturalmente, usando Google Lens.
+
+...
+
+#### Gemini 2.5 Pro
+
+Si noti che in questa [conversazione](https://g.co/gemini/share/cd48dc8c9d88) o [trascizione](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-chatgpt.txt#?target=_blank) con Gemini 2.5 Pro -- e il **Pro** è fondamentale in questo contesto -- sia riuscito ad intuire i ragionamenti *standard* dei due post a partire dai soli dati (immagini) che nella loro selezione peculiare *sono* già significativi.
 
 Attenzione quindi, a supporre che l'AI possa rimpiazzare l'essere umano, perché nella selezione delle immagini è già implicito il grosso (o almeno la metà) del lavoro dell'essere umano che ha "pescato" ma non a caso, scientemente, fra milioni di possibili insieme di dati, quello "significativo". 
 
@@ -135,7 +137,25 @@ Un lavoro che apparentemente le AI sono bravissime a fare (riconoscere pattern) 
 
 Questo è ancora, e a mio parere lo sarà per molto tempo, un appannaggio esclusivo degli esseri umani: l'intuizione guidata dall'esperienza e resa istantanea dalla pratica: il colpo d'occhio del maestro che ai novizi pare che "posso farlo anch'io, è banale".
 
-I fuochi d'artificio nella loro "banalità" dimostrano che molta gente perde dita, mani e occhi, nell'imitare "fare cose banali".
+I fuochi d'artificio nella loro "banalità" dimostrano in modo eclatante come molta gente perde dita, mani e occhi, nell'imitare il "fare cose banali". Studiare la tecnologia e fare pratica invece è decisamente una via d'azione più lenta ma anche migliore.
+
++
+---
+|x|>
+WORKING IN PROGRESS!
+<|x|
+---
++
+
+
+
+
+
+---
+
+
+
+
 
 https://g.co/gemini/share/f73e07bcce48
 

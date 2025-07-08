@@ -32,7 +32,7 @@ https://www.linkedin.com/posts/mauro-bottarelli-7093a155_servizio-sveglia-e-
 Ecco una sintesi professionale e strutturata delle affermazioni principali
 contenute nei due post di Mauro Bottarelli, alla luce delle immagini allegate:
 
-**** 📌 Punti chiave (affermazioni esplicite) – [a] ****
+### 📌 Punti chiave (affermazioni esplicite) – [a]
 
     * Strategia in corso: Si sta attuando una strategia “perversa e pericolosa”
       ma finalizzata, legata al rifinanziamento del debito USA (7 trilioni di
@@ -65,7 +65,7 @@ contenute nei due post di Mauro Bottarelli, alla luce delle immagini allegate:
       bassa liquidità, potrebbe essere teatro di eventi destabilizzanti
       (riferimento al “5 agosto 2024”).
 
-**** 🧠 Impliciti o sottintesi – [b] ****
+### 🧠 Impliciti o sottintesi – [b]
 
     * La FED è politicizzata: Powell è descritto come meno indipendente di
       quanto sembri, quindi soggetto a pressioni da Washington.
@@ -85,7 +85,7 @@ contenute nei due post di Mauro Bottarelli, alla luce delle immagini allegate:
       liquidità globale, pronta a fornire dollari contro collaterale anche in
       situazioni emergenziali.
 
-**** 🧨 Fuori dagli schemi – [c] ****
+### 🧨 Fuori dagli schemi – [c]
 
     * 5 agosto come data simbolica: Rievocazione del 5 agosto 2024 come evento
       spartiacque, metafora di una scossa di sistema o di un "semi-crash"
@@ -99,7 +99,7 @@ contenute nei due post di Mauro Bottarelli, alla luce delle immagini allegate:
       suggerisce una dipendenza strutturale e forse patologica dell’asset
       inflation americana dalla politica monetaria giapponese.
 
-**** 🔗 Sintesi del ragionamento economico-finanziario ****
+### 🔗 Sintesi del ragionamento economico-finanziario
 
 Tutti gli elementi esposti – dagli yield sovrani giapponesi e statunitensi, al
 crollo della lira turca, alla tensione sulle banche europee – si collegano nel
@@ -145,14 +145,14 @@ alcuni titoli di Stato USA (Treasury), aggiornati rispetto al contesto dei post
 di Bottarelli. Vediamo come si integrano e se modificano significativamente lo
 scenario delineato.
 
-**** 📈 Dati aggiornati (U.S. Treasuries) ****
+### 📈 Dati aggiornati (U.S. Treasuries)
 
 Maturità Yield (%) Variazione (%) Variazione (punti base)
 2 anni   3.886     +0.10%         +0.4 bps
 10 anni  4.384     +1.58%         +6.8 bps
 30 anni  4.914     +1.19%         +5.8 bps
 
-***** 🧭 Confronto con lo scenario Bottarelli *****
+### 🧭 Confronto con lo scenario Bottarelli
 
 Nei post, Bottarelli sottolineava un crollo repentino del rendimento del
 decennale USA da 4,50% a 4,24%, attribuendolo a un evento geopolitico (il
@@ -170,26 +170,28 @@ Ora invece vediamo un ritorno al rialzo, con rendimenti:
     * 2Y fermo sotto al 4% (3.886%): non si muove quasi, segno che il mercato
       non si aspetta a breve tagli FED drastici.
 
-***** 🔍 Differenze significative? *****
+### 🔍 Differenze significative?
 
-**** ✅ Sì, ci sono due differenze chiave: ****
+### ✅ Sì, ci sono due differenze chiave:
 
-**** 1. Fine dell'effetto “Teheran”? ****
+### 1. Fine dell'effetto “Teheran”?
 Il rimbalzo del 10Y e 30Y suggerisce che il “calo strategico” dei rendimenti
 potrebbe essere stato temporaneo. Se il Treasury decennale è risalito da 4.24%
 a 4.38%, significa che la finestra di rifinanziamento a tassi più bassi si sta
 chiudendo o non ha avuto l’effetto desiderato nel lungo periodo. Questo smonta
 in parte l’idea che la manovra sia stata risolutiva o efficace.
 
-**** 2. Steepening della curva (di nuovo) ****
+### 2. Steepening della curva (di nuovo)
 
 La curva si mostra ripidamente inclinata tra 2Y e 30Y:
+
     * 2Y: 3.886%
     * 30Y: 4.914%
 
 Differenziale: +102 bps
 
 → Questo è un classico segnale di:
+
     * Pressioni inflazionistiche di lungo periodo, o
     * Aspettative di crescita nominale più alta, oppure
     * Aumento del rischio fiscale e debito USA percepito sul lungo termine
@@ -198,17 +200,17 @@ Nel contesto di Bottarelli, questo dà forza alla sua tesi che il debito USA sta
 diventando più costoso da rifinanziare, e che i mercati richiedono premi al
 rischio maggiori sul lungo periodo.
 
-***** 📌 Conclusione sintetica *****
+### 📌 Conclusione sintetica
 
 ✔️ Differenze rilevanti: Sì, ci sono cambiamenti significativi nei rendimenti,
-soprattutto nel medio-lungo termine. Il “calo strategico” dei tassi USA si è
-almeno parzialmente riassorbito, suggerendo che la pressione sul debito USA
-resta forte, e che il mercato non ha comprato completamente la narrativa di
-rischio controllato.
+   soprattutto nel medio-lungo termine. Il “calo strategico” dei tassi USA si è
+   almeno parzialmente riassorbito, suggerendo che la pressione sul debito USA
+   resta forte, e che il mercato non ha comprato completamente la narrativa di
+   rischio controllato.
 
 ❗Questi dati rafforzano piuttosto che smentire l’ipotesi Bottarelli: anche con
-tentativi di manipolazione o gestione delle aspettative, il mercato torna a
-chiedere rendimenti alti per detenere debito USA.
+  tentativi di manipolazione o gestione delle aspettative, il mercato torna a
+  chiedere rendimenti alti per detenere debito USA.
 
 Se vuoi, posso aggiungere anche un grafico aggiornato della curva dei
 rendimenti, o elaborare un breve scenario di rischio per agosto sulla base di
