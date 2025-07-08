@@ -5,7 +5,7 @@
 
 ## Usare l'AI per divulgare notizie di finanza
 
-- **3rd draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli.
+- **4th draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli.
 
 ---
 
