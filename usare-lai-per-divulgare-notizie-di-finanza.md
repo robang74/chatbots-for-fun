@@ -97,7 +97,7 @@ Anche questo appare come un gioco di parole ma, specialmente per certe AI con te
 
 ### L'opinione di Gemini
 
-In questa [conversazione](https://g.co/gemini/share/5efedbdd28ba) con Gemini o nella sua [trascrizione](not-yet.txt) si nota come ho preso la questione delle variazioni nei prompt "alla larga" presentandogli le prime quattro sezioni di questo articolo affinché si concentrasse sulla struttura e la solidità del ragionamento presentato.
+In questa [conversazione](https://g.co/gemini/share/369306d76857) con Gemini o nella sua [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-foglietta-prompts.txt#?target=_blank) si nota come ho preso la questione delle variazioni nei prompt "alla larga" presentandogli le prime quattro sezioni di questo articolo affinché si concentrasse sulla struttura e la solidità del ragionamento presentato.
 
 Solo dopo sono andato dritto al punto e gli ho "sparato" la richiesta specifica ovvero se quanto avessi scritto circa le variazioni nei prompt, e le mie relative aspettative, coincidessero con quello che è il suo funzionamento interno e la sua percezione di quei testi. Filotto centrato in pieno, anche qui.
 
@@ -123,7 +123,7 @@ Si noti che nel prompt sono state separate le affermazioni fra quelle (a) import
 
 Nonostante queste attenzioni nello scrivere la richiesta nel prompt, va sottolineato che l'AI tende in modo naturale e pervicace a ignorare ciò che non comprende o non collega mediante schemi tradizionali e/o a rettificare tutto quanto entro questi schemi. Quindi prima o dopo aver letto l'analisi dell'AI, occorre leggersi il testo dell'umano.
 
-=-> lnkd.in/dsPsyahn
+- https://chatgpt.com/s/t_686cc5931e84819187fc521892ee8e17
 
 ---
 
@@ -139,13 +139,15 @@ I fuochi d'artificio nella loro "banalità" dimostrano che molta gente perde dit
 
 https://g.co/gemini/share/f73e07bcce48
 
----
 
-https://www.linkedin.com/posts/mauro-bottarelli-7093a155_c%C3%A8-una-strategia-perversa-pericolosa-activity-7348043756211732480-Q-X7
-
-https://www.linkedin.com/posts/mauro-bottarelli-7093a155_servizio-sveglia-e-naturale-prosecuzione-activity-7348222231258234880-SkoJ
 
 ---
+
+[trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli.txt#?target=_blank) (flash)
+
+https://g.co/gemini/share/cd48dc8c9d88 (pro)
+
+https://www.linkedin.com/in/mauro-bottarelli-7093a155
 
 https://www.linkedin.com/posts/mauro-bottarelli-7093a155_c%C3%A8-una-strategia-perversa-pericolosa-activity-7348043756211732480-Q-X7
 
