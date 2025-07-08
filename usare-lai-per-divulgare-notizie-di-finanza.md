@@ -21,8 +21,16 @@ Per fortuna -- o intuizione -- l'esperimento è andato bene alla prima. Prima sc
 
 ### Il pronpt v0
 
+Il prompt originale è stato scritto su un'unica linea perché -- è ragionevole pensare che -- la formattazione ottica non ha impatto sulla funzionalità del prompt. Però è utile a noi umani per osservarne la struttura.
+
 [!CITE]
-Questo è un post (anzi due) di Mauro Bottarelli, con le relative immagini allegate. Vorrei che, senza usare icone e con stile professionale, mi riassumessi in una bullet list le affermazioni di maggiore importanza (a) incluse quelle implicite (b) e quelle "fuori dagli schemi" (c). Infine mi facessi un brevissimo riassunto di come queste affermazioni {a, b, c} si collegano fra loro in termini di ragionamento finanziario-economico, o se non si collegano fra loro anche il perché.
+Questo è un post (anzi due) di Mauro Bottarelli, con le relative immagini allegate. Vorrei che, senza usare icone e con stile professionale, mi riassumessi in una bullet list 
+
+- le affermazioni di maggiore importanza (a) 
+- incluse quelle implicite (b) e
+- quelle "fuori dagli schemi" (c).
+
+Infine [vorrei] mi facessi un brevissimo riassunto di come queste affermazioni {a, b, c} si collegano fra loro in termini di ragionamento finanziario-economico, o se non si collegano fra loro anche il perché.
 [/CITE]
 
 ---
@@ -89,11 +97,13 @@ Anche questo appare come un gioco di parole ma, specialmente per certe AI con te
 
 ### L'opinione di Gemini
 
-In questa [conversazione](https://g.co/gemini/share/9a233084d99c) con Gemini o nella sua [trascrizione](not-yet.txt) si nota come ho preso la questione delle variazioni nei prompt "alla larga" presentandogli le prime quattro sezioni di questo articolo affinché si concentrasse sulla struttura e la solidità del ragionamento presentato.
+In questa [conversazione](https://g.co/gemini/share/e57eb9227a93) con Gemini o nella sua [trascrizione](not-yet.txt) si nota come ho preso la questione delle variazioni nei prompt "alla larga" presentandogli le prime quattro sezioni di questo articolo affinché si concentrasse sulla struttura e la solidità del ragionamento presentato.
 
 Solo dopo sono andato dritto al punto e gli ho "sparato" la richiesta specifica ovvero se quanto avessi scritto circa le variazioni nei prompt, e le mie relative aspettative, coincidessero con quello che è il suo funzionamento interno e la sua percezione di quei testi. Filotto centrato in pieno, anche qui.
 
 Sia chiaro ed esplicito: l'opinione del chatbot riguardo al suo funzionamento interno o ad un prompt, sono fallibili. Non che essi mentano, ma tendono ad inventare e a compiacere, quindi occorre prudenza. Però è **utile** conoscere la loro "percezione" e loro "aspettative" sui prompt e relative variazioni.
+
+Infatti, riguardo alla formattazione ottica, Gemini risponde -- correttamente -- che tale formattazione altera la sequenza di token, può alterare la velocità di computazione (comprensione del prompt) e quindi **anche** il funzionamento, ma in **questo** caso però non è stato così.
 
 *Know your chickens.*
 
