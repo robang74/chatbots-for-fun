@@ -113,7 +113,7 @@ Si tenga però conto che l'esecuzione dello stesso identico prompt con gli stess
 
 ## Esempio pratico
 
-A questo punto vale la pena di presentare l'esempio da cui questo articolo ha preso spunto, e assolvere allo scopo che si era inizialmente proposto. L'uso dell'intelligenza artificiale per facilitare la diffusione di informazioni finanziarie comprensibili anche ai non adetti ai lavori.
+A questo punto vale la pena di presentare l'esempio da cui questo articolo ha preso spunto, e assolvere allo scopo che si era inizialmente proposto. L'uso dell'intelligenza artificiale per facilitare la diffusione di informazioni finanziarie comprensibili anche ai non addetti ai lavori.
 
 ...
 
@@ -129,15 +129,27 @@ Qui vale la pena notare che allegare immagini è comodo ma consuma molto più ve
 
 #### Gemini 2.5 Pro
 
-Si noti che in questa [conversazione](https://g.co/gemini/share/cd48dc8c9d88) o [trascizione](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-chatgpt.txt#?target=_blank) con Gemini 2.5 Pro -- e il **Pro** è fondamentale in questo contesto -- sia riuscito ad intuire i ragionamenti *standard* dei due post a partire dai soli dati (immagini) che nella loro selezione peculiare *sono* già significativi.
+Si noti che in questa [conversazione](https://g.co/gemini/share/f73e07bcce48) o [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-geminpro.txt#?target=_blank) con Gemini 2.5 Pro -- e il **Pro** è fondamentale in questo contesto -- sia riuscito ad intuire i ragionamenti *standard* dei due post a partire dai soli dati (immagini) che nella loro selezione peculiare *sono* già significativi.
 
-Attenzione quindi, a supporre che l'AI possa rimpiazzare l'essere umano, perché nella selezione delle immagini è già implicito il grosso (o almeno la metà) del lavoro dell'essere umano che ha "pescato" ma non a caso, scientemente, fra milioni di possibili insieme di dati, quello "significativo". 
+Attenzione quindi, a supporre che l'AI possa rimpiazzare l'essere umano, perché nella selezione delle immagini è già implicito il grosso (o almeno la metà) del lavoro dell'essere umano che ha "pescato" ma non a caso, scientemente, fra milioni di possibili insieme di dati, quello "significativo".
 
-Un lavoro che apparentemente le AI sono bravissime a fare (riconoscere pattern) a patto che gli si insegni come e QUALI pattern selezionare (pesca). Perché di pattern interessanti (per loro) potrebbero tirarne fuori a bizzeffe. 
+Un lavoro che apparentemente le AI sono bravissime a fare (riconoscere pattern) a patto che gli si insegni come e QUALI pattern selezionare (pesca). Perché di pattern interessanti (per loro) potrebbero tirarne fuori a bizzeffe.
 
 Questo è ancora, e a mio parere lo sarà per molto tempo, un appannaggio esclusivo degli esseri umani: l'intuizione guidata dall'esperienza e resa istantanea dalla pratica: il colpo d'occhio del maestro che ai novizi pare che "posso farlo anch'io, è banale".
 
 I fuochi d'artificio nella loro "banalità" dimostrano in modo eclatante come molta gente perde dita, mani e occhi, nell'imitare il "fare cose banali". Studiare la tecnologia e fare pratica invece è decisamente una via d'azione più lenta ma anche migliore.
+
+...
+
+#### Gemini 2.5 Flash
+
+Questo chatbot è una versione leggera e più veloce della versione **2.5 Pro** con minori capacità di ragionamento -- impiega meno tempo ad elaborare la strategia di risposta a parità di prompt fornito -- una context-window meno ampia, e a sensazione direi anche che opera ad una temperatura inferiore, ma ha il vantaggio di essere abbondante come risorsa.
+
+- La [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-gemflash.txt#?target=_blank) della conversazione con Gemini 2.5 Flash, per confronto.
+
+Ritengo che **flash** non sia il modello migliore per queste analisi in cui ogni vantaggio anche marginale di "intelligenza" può portare ad un risultato di valore molto più importante anche considerato che si tratta di una materia delicata e ad alto valore in gioco (value-at-stake).
+
+Certo la versione **pro** è limitata oppure a pagamento ma anche considerando che i post su LinkedIn per loro natura sono limitati come quantità di testo e le immagini se contengono solo tabelle possono essere convertite con altri strumenti che sono altresì risorse abbondanti.
 
 +
 ---
@@ -147,25 +159,23 @@ WORKING IN PROGRESS!
 ---
 +
 
+### Approccio combinato
 
+In queste chat allegate c'è un'analisi sviluppata con la versione Gemini 2.5 Pro e una con 2.5 Flash. Quali pensi siano i vantaggi principali in termini di utilità per un essere umano (quindi anche formattazione del testo e narrativa) rispetto all'analisi prodotta dalla **2.5 Flash** rispetto a quella prodotta da **2.5 Pro**. Si tratta di una domanda importante perché tu hai un footprint energetico decisamente inferiore.
 
+Ritengo che data la materia piuttosto importanza (finanza-economia) la versione **2.5 Pro** abbia prodotto un'analisi nettamente più utile (più profonda) e la tua risposta mi ha confermato questa sensazione perché i vantaggi che hai presentato in favore della **2.5 Flash** sono ininfluenti o addirittura negativi (verbosità) per un umano mediamente preparato sulla materia però potrebbero essere utili per un principiante o un neofita.
 
+Quindi direi che questa sia una prima importante distinzione. Però ritengo che, anche per una persona mediamente preparata **2.5 Flash** possa essere utile se riceve i dati, il testo e ANCHE l'analisi già fatta dalla **2.5 Pro** in maniera da portare avanti una conversazione con l'utente che a questo punto si avvantaggerebbe di un modello più veloce e focalizzato alla risposta specifica MA comunque istruito come sarebbe un **2.5 Pro**. Che ne pensi?
 
----
+[!CITE]
+La sua proposta di integrare Flash con l'analisi di Pro è estremamente interessante e strategica. Penso che sia un'ottima intuizione per massimizzare l'utilità di entrambi i modelli e rappresenta un approccio ibrido molto efficace.
+[/CITE]
 
+- https://g.co/gemini/share/5ecb97e32509
 
++
 
-
-
-https://g.co/gemini/share/f73e07bcce48
-
-
-
----
-
-[trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli.txt#?target=_blank) (flash)
-
-https://g.co/gemini/share/cd48dc8c9d88 (pro)
+## Links da integrare
 
 https://www.linkedin.com/in/mauro-bottarelli-7093a155
 
