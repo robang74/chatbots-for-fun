@@ -93,7 +93,7 @@ In questa [conversazione](https://g.co/gemini/share/9a233084d99c) con Gemini o n
 
 Solo dopo sono andato dritto al punto e gli ho "sparato" la richiesta specifica ovvero se quanto avessi scritto circa le variazioni nei prompt, e le mie relative aspettative, coincidessero con quello che è il suo funzionamento interno e la sua percezione di quei testi. Filotto centrato in pieno, anche qui.
 
-Sia chiaro ed esplicito: l'opinione del chatbot riguardo al suo funzionamento e alle aspettative riguardo ad un prompt, sono fallibili. Non che essi mentano, ma tendono ad inventare e a compiacere, quindi occorre prudenza però è anche importante conoscere la loro "percezione" e loro "aspettative" sui prompt.
+Sia chiaro ed esplicito: l'opinione del chatbot riguardo al suo funzionamento interno o ad un prompt, sono fallibili. Non che essi mentano, ma tendono ad inventare e a compiacere, quindi occorre prudenza. Però è **utile** conoscere la loro "percezione" e loro "aspettative" sui prompt e relative variazioni.
 
 *Know your chickens.*
 
