@@ -1,6 +1,6 @@
 Chat U2A: human operator prompt first, then AI agent answer. Width: 80 columns.
 
-**** data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-gemflash.txt ***
+**** data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-geminpro.txt ***
 
 Chatbot: Gemini 2.5 Pro
 Created: 8th July 2025
