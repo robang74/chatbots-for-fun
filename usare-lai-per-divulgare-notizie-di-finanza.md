@@ -5,7 +5,10 @@
 
 ## Usare l'AI per divulgare notizie di finanza
 
-- **7th draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli.
+- **8th draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli, [profilo](https://www.linkedin.com/in/mauro-bottarelli-7093a155) LinkedIn.
+   - post #1 su [Nikkei vs Yen](https://www.linkedin.com/posts/mauro-bottarelli-7093a155_c%C3%A8-una-strategia-perversa-pericolosa-activity-7348043756211732480-Q-X7) summer drama
+   - post #2 di sveglia su [Nikkei vs Yen](https://www.linkedin.com/posts/mauro-bottarelli-7093a155_servizio-sveglia-e-naturale-prosecuzione-activity-7348222231258234880-SkoJ) summer drama
+   - Trascrizione post e dati estratti in formato [testo](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-postndata.txt#?target=_blank) semplice.
 
 ---
 
@@ -33,7 +36,7 @@ Questo è un post (anzi due) di Mauro Bottarelli, con le relative immagini alleg
 Infine [vorrei] mi facessi un brevissimo riassunto di come queste affermazioni {a, b, c} si collegano fra loro in termini di ragionamento finanziario-economico, o se non si collegano fra loro anche il perché.
 [/CITE]
 
----
+----
 
 ### Il prompt v1
 
@@ -111,6 +114,7 @@ Si tenga però conto che l'esecuzione dello stesso identico prompt con gli stess
 *Know your chickens.*
 
 +
+++++
 
 ## Esempio pratico
 
@@ -186,7 +190,7 @@ Ma la modalità "Think" (opzionale) presenta un costo computazionale importante 
 
 Quindi, paragonare Grok3 Think agli altri modelli non è una competizione equa, perché 99s sono un'enormità di tempo e anche un'enormità di risorse di calcolo rispetto agli altri LLM, in questo articolo esaminati in precedenza.
 
----
+----
 
 ### Il prompt v3
 
@@ -229,18 +233,6 @@ Per lo scopo divulgativa e quello conversativo di approfondimento, ritengo che l
 Il top rimane l'interazione umana. Quindi chiedere a Mauro Bottarelli (o altro divulgatore e/o giornalista di finanza che seguite) di fare delle sessioni video-interattive a carattere divulgativo con la partecipazione simultanea di un numero di utenti che generalmente un tutor possa gestire.
 
 Un numero che varia anche in funzione dell'esperienza dei partecipanti -- e in generale -- anche dell'omogeneità della preparazione che quando è troppo distribuita rende difficile gestire ed alternare interventi altamente tecnici a quelli divulgativi ma che dipende anche dal tutor.
-
-+
-
-## Link di riferimento
-
-- Profilo su LinkedIn di [Mauro Bottarelli](https://www.linkedin.com/in/mauro-bottarelli-7093a155)
-+++++
-- Primo post su [Nikkei vs Yen](https://www.linkedin.com/posts/mauro-bottarelli-7093a155_c%C3%A8-una-strategia-perversa-pericolosa-activity-7348043756211732480-Q-X7) summer drama
-+++++
-- Secondo post di sveglia su [Nikkei vs Yen](https://www.linkedin.com/posts/mauro-bottarelli-7093a155_servizio-sveglia-e-naturale-prosecuzione-activity-7348222231258234880-SkoJ) summer drama
-+++++
-- Trascrizione post e dati estratti in formato [testo](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-postndata.txt#?target=_blank) semplice.
 
 +
 
