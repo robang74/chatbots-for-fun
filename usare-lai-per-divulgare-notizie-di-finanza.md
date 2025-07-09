@@ -198,9 +198,7 @@ Aggiungendo questa nota in fondo al [prompt v2](#small-ecofin-prompt-v2) si è o
 
 `    prompt v0: 5635 chars (100%) -- prompt v2: 6971 (124%) -- prompt v3: 4782 (85%)`
 
-Fornendo una definizione operativa da associare ai concetti di brevità e sintesi, portando ad esempio un modello, la risposta è quasi di un terzo più breve, senza comprometterne la qualità della stessa.
-
-Anzi, probabilmente incrementandola, almeno in termini di percezione. D'altronde per un essere umano, meno fatica fa ad acquisire un'informazione, più la percezione di quella forma è preferita.
+Fornendo una definizione operativa da associare ai concetti di brevità e sintesi, portando ad esempio un modello, la risposta è quasi di un terzo (-31%) più breve, a parità di prompt, senza comprometterne la qualità della stessa. Anzi, probabilmente incrementandola, almeno in termini di percezione. D'altronde per un essere umano, meno fatica fa ad acquisire un'informazione, più la percezione di quella forma è preferita.
 
 ---
 
