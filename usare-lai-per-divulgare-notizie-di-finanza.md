@@ -19,9 +19,9 @@ Per fortuna -- o intuizione -- l'esperimento è andato bene alla prima. Prima sc
 
 ---
 
-### Il pronpt v0
+### Il prompt v0
 
-Il prompt originale è stato scritto su un'unica linea perché -- è ragionevole pensare che -- la formattazione ottica non ha impatto sulla funzionalità del prompt. Però è utile a noi umani per osservarne la struttura.
+Il prompt [originale](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-postndata.txt#?target=_blank) è stato scritto su un'unica linea perché -- è ragionevole pensare che -- la formattazione ottica non ha impatto sulla funzionalità del prompt. Però è utile a noi umani per osservarne la struttura.
 
 [!CITE]
 Questo è un post (anzi due) di Mauro Bottarelli, con le relative immagini allegate. Vorrei che, senza usare icone e con stile professionale, mi riassumessi in una bullet list 
