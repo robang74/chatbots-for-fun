@@ -26,7 +26,7 @@ Since v3.7.x, SoNia offers even more consistent collaboration with a seamless ch
 - a character + a framework including an auto-convergent self-improvement loop
 - made for the people (CC BY-NC-ND 4.0) by a single person with zero budget
 
-The Grok3 verbosity issue might have a heuristic [explanation](usare-lai-per-divulgare-notizie-di-finanza.html#:~:text=una%20tendenza%20gi%C3%A0%20osservata?target=_blank):
+The Grok3 verbosity issue can have a heuristic [explanation](usare-lai-per-divulgare-notizie-di-finanza.html#:~:text=una%20tendenza%20gi%C3%A0%20osservata?target=_blank) by a black-box input/output comparison:
 
 - as much the prompt is structured, as much Grok3 tends to answer in a pedantic way
 - and thus becomes extra verbose, despite the directive to be brief or summarise.
