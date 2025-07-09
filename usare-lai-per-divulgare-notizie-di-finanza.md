@@ -212,7 +212,7 @@ L'informazione è stata calcolata comprimendo il file di testo con `pigz -11` e 
 
 #### Linguaggio e pensiero
 
-In questa [conversazione](https://g.co/gemini/share/dd916bbcae45) con Gemini o nella sua [trascrizione](not-yet) è possibile leggere come l'idea si è andata sviluppandosi e approfondire il perché i risultati sopra sono stati presentati in così. Se questa conversazione, in particolare la prima parte, vi ha affascinato allora "Linguaggio e Pensiero" di [Lev Vygotskij](https://en.wikipedia.org/wiki/Lev_Vygotsky) è l'opera, pubblicata postuma (1934), che dovete leggere.
+In questa [conversazione](https://g.co/gemini/share/dd916bbcae45) con Gemini o nella sua [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-entropia.txt#?target=_blank) è possibile leggere come l'idea si è andata sviluppandosi e approfondire il perché i risultati sopra sono stati presentati in così. Se questa conversazione, in particolare la prima parte, vi ha affascinato allora "Linguaggio e Pensiero" di [Lev Vygotskij](https://en.wikipedia.org/wiki/Lev_Vygotsky) è l'opera, pubblicata postuma (1934), che dovete leggere.
 
 [!INFO]
 Lev Vygotskij esplora la relazione tra linguaggio e pensiero, sostenendo che il linguaggio, inizialmente esterno e sociale, diventa uno strumento interno per il pensiero, influenzando lo sviluppo cognitivo. Si contrappone alla visione di Piaget, che vedeva il linguaggio come derivato dal pensiero, affermando invece che linguaggio e pensiero hanno origini separate, ma si intrecciano nel corso dello sviluppo. 
