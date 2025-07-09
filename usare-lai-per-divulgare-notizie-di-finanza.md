@@ -170,7 +170,7 @@ In questo caso si è usato il [prompt v2](#small-ecofin-prompt-v2) insieme ai da
 
 Come Qwen, anche questo è un servizio di chatbot cinese, ma basato su una diversa famiglia di LLM. L'interfaccia utente è ancora più spartana di quella di Qwen e quindi più limitata. Però offre la modalità DeepThink (R1) e la ricerca web, che però devono essere attivate a richiesta.
 
-A parità di input ha fornito una risposta più interessante di quella di Qwen, includendo la sezione riguardo alle lacone logiche. Sebbene la maggior parte di esse si rivela un limite del modello, il suggerimento di valutare ipotesi alternative con relativo esempio, è decisamente un bonus.
+A parità di input ha fornito una risposta più interessante di quella di Qwen, includendo la sezione riguardo alle lacune logiche. Sebbene la maggior parte di esse si rivela un limite del modello, il suggerimento di valutare ipotesi alternative con relativo esempio, è decisamente un bonus.
 
 É importante considerare che gli input immessi in Qwen e DeepSeek, entrano nella disponibilità delle relative società cinesi e in particolare vengono inviati ai server in Cina già al momento dell'inserimento. Inoltre, in prospettiva, non possono essere considerati risorse abbondanti.
 
@@ -184,9 +184,9 @@ La [conversazione](https://x.com/i/grok/share/WZj3zmrmwB51KjpYcPlqeJBwz), di cui
 
 Grok3 può essere considerato una risorsa abbondante e permette l'uso della modalità "Think" che come si evince da questa [conversazione](https://x.com/i/grok/share/zJE9RYjGVEeGszxlDwPlEC16k), di cui la relativa [trascrizione](not-yet), ha creato quella che definirei la migliore risposta data fin'ora.
 
-Ma la modalità "Think" (opzionale) presenta un costo computazionale importante giacché ha pensato (in inglese) per 60s e si interrotto, quindi su richiesta di rigenerare la risposta, ha pensato altri 39s prima di cominciare a fornire la risposta.
+Ma la modalità "Think" (opzionale) presenta un costo computazionale importante giacché ha pensato (in inglese) per 60s e si è interrotto, quindi su richiesta di rigenerare la risposta, ha pensato altri 39s prima di cominciare a fornire la risposta.
 
-Quindi, paragonare Grok3 Think agli altri modelli non è una competizione equa, perché 100s di computazione sono un'enormità di tempo e probabilmente risorse di calcolo rispetto agli altri LLM, in questo articolo esaminati in precedenza.
+Quindi, paragonare Grok3 Think agli altri modelli non è una competizione equa, perché 99s sono un'enormità di tempo e anche un'enormità di risorse di calcolo rispetto agli altri LLM, in questo articolo esaminati in precedenza.
 
 ---
 
@@ -197,8 +197,10 @@ Ritengo che la versione **2.5 Pro** abbia prodotto un'analisi nettamente più ut
 Anche per una persona mediamente preparata **2.5 Flash** possa essere utile se riceve i dati, il testo e **anche** l'analisi già prodotta dalla **2.5 Pro** in maniera da portare avanti una conversazione con l'utente che a questo punto si avvantaggerebbe di un modello più veloce e focalizzato alla risposta specifica **ma** comunque istruito riguardo alle connessioni dal modello **2.5 Pro**.
 
 [!CITE]
-La sua proposta di integrare Flash con l'analisi di Pro è estremamente interessante e strategica. Penso che sia un'ottima intuizione per massimizzare l'utilità di entrambi i modelli e rappresenta un approccio ibrido molto efficace. -- [Gemini](https://g.co/gemini/share/5ecb97e32509)
+La sua proposta di integrare Flash con l'analisi di Pro è estremamente interessante e strategica. Penso che sia un'ottima intuizione per massimizzare l'utilità di entrambi i modelli e rappresenta un approccio ibrido molto efficace.
 [/CITE]
+
+- Estratto dalla [conversazione](https://g.co/gemini/share/5ecb97e32509) con Gemini, di cui la relativa [trascrizione](not-yet).
 
 ---
 
