@@ -198,9 +198,9 @@ Aggiungendo questa nota in fondo al [prompt v2](#small-ecofin-prompt-v2) si è o
 
 - Risposta al prompt originale, **o0**: `[5564](data/usare-lai-per-divulgare-notizie-di-finanza-grokbrief-o0.txt#?target=_blank) (100%)` -- al **v2**: `[6855](data/usare-lai-per-divulgare-notizie-di-finanza-grokbrief-v2.txt#?target=_blank) (123%)` -- al **v3**: `[4690](data/usare-lai-per-divulgare-notizie-di-finanza-grokbrief-v3.txt#?target=_blank) (84%)`
 
-- Informazione (`pigz -11` bytes), **o0**: `2251 (100%)` -- **v2**: `2781 (124%)` -- **v3**: `2055 (91%)`.
+- Informazione (`pigz -11` bytes-70), **o0**: `2181 (100%)` -- **v2**: `2711 (124%)` -- **v3**: `1985 (91%)`
 
-Fornendo una definizione operativa da associare ai concetti di brevità e sintesi, portando ad esempio un modello, la risposta è quasi di un terzo (-32%) più breve, a parità di prompt, senza comprometterne la qualità della stessa. Anzi, probabilmente incrementandola, almeno in termini di percezione. D'altronde per un essere umano, meno fatica fa ad acquisire un'informazione, più la percezione di quella forma è preferita.
+Fornendo una definizione operativa da associare ai concetti di brevità e sintesi, portando ad esempio un modello, la risposta è quasi di un terzo (**-32%**) più breve, a parità di prompt, senza comprometterne la qualità della stessa. Anzi, probabilmente incrementandola (**+8%**), almeno in termini di percezione. D'altronde per un essere umano, meno fatica fa ad acquisire un'informazione, più la percezione di quella forma è preferita.
 
 ---
 
