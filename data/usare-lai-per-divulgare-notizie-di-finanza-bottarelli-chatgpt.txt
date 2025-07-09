@@ -9,13 +9,10 @@ Attachment: three images about finantial data/indexes (US threasury missing)
 
 ================================================================================
 
-Questo è un post (anzi due) di Mauro Bottarelli, con le relative immagini
-allegate. Vorrei che, senza usare icone e con stile professionale, mi
-riassumessi in una bullet list le affermazioni di maggiore importanza (a)
-incluse quelle implicite (b) e quelle "fuori dagli schemi" (c). Infine mi
-facessi un brevissimo riassunto di come queste affermazioni {a, b, c} si
-collegano fra loro in termini di ragionamento finanziario-economico, o se non
-si collegano fra loro anche il perché.
+[... prompt originale ...]
+
+https://robang74.github.io/chatbots-for-fun/
+    data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-postndata.txt
 
 [... Mauro Bottarelli post sul Nikkei vs Yen del 7 luglio 2025 ...]
 
