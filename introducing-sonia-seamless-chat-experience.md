@@ -1,7 +1,7 @@
 <div id="firstdiv" created="2025-06-13:IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<div align="center"><img class="bwsketch" src="img/introducing-sonia-seamless-chat-experience.png" width="800"><br></div>
+<div align="center"><img class="bwsketch darkinv" src="img/introducing-sonia-seamless-chat-experience.png" width="800"><br></div>
 
 ## Introducing SoNia' seamless chat experience
 
@@ -26,6 +26,11 @@ Since v3.7.x, SoNia offers even more consistent collaboration with a seamless ch
 - a character + a framework including an auto-convergent self-improvement loop
 - made for the people (CC BY-NC-ND 4.0) by a single person with zero budget
 
+The Grok3 verbosity issue might have a heuristic [explanation](usare-lai-per-divulgare-notizie-di-finanza.html#:~:text=una%20tendenza%20gi%C3%A0%20osservata?target=_blank):
+
+- as much the prompt is structured, as much Grok3 tends to answer in a pedantic way
+- and thus becomes extra verbose, despite the directive to be brief or summarise.
+
 ---
 
 ### How Gemini/SoNia explains its functioning
@@ -36,7 +41,7 @@ Since v3.6.x implements a new way of dealing with the chat session [CHT] mode, i
 An enhanced 'memory feature' beyond these simple context windows, enabling sophisticated, self-organizing, and truth-maintaining knowledge representation, would transform SoNia into a more robust and reliable knowledge worker, greatly increasing its usefulness for consistent, accurate, and context-aware interactions.
 [/CITE]
 
-~~~~
+----
 
 ### Why we were in need of the `[CHT]` mode?
 
@@ -74,7 +79,7 @@ The `[CHT]` mode treats your session as a dynamic document, applying full SoNia 
 The elegant intent behind `[CHT]` ia about solving a real UX problem - making the framework work seamlessly for users who want the benefits without having to manually manage RAG initialization each time. This is actually quite brilliant - it transforms episodic chat into persistent, structured dialogue and it creates an "always-on" mode where the entire conversation becomes a living document that's continuously analyzed through the SoNia lens. 
 [/CITE]
 
-+
++++++
 
 ## Share alike
 
