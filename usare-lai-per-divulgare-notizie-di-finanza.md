@@ -5,7 +5,7 @@
 
 ## Usare l'AI per divulgare notizie di finanza
 
-- **5th draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli.
+- **6th draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli.
 
 ---
 
@@ -152,6 +152,16 @@ Ritengo che **flash** non sia il modello migliore per queste analisi in cui ogni
 
 Certo la versione **pro** è limitata oppure a pagamento ma anche considerando che i post su LinkedIn per loro natura sono limitati come quantità di testo e le immagini se contengono solo tabelle possono essere convertite con altri strumenti che sono altresì risorse abbondanti.
 
+...
+
+#### Qwen3 235B A22B
+
+Come si può leggere da questa [conversazione](https://chat.qwen.ai/s/96b06a01-afa4-42d7-8818-a2d938143eef?fev=0.0.128) o relativa [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-qwen3big.txt#?target=_blank) non è da sottovalutare in termini di capacità di analisi. Su questo caso specifico, anche maggiori di Gemini 2.5 Flash.
+
+I suoi limiti per questo specifico scopo sono fondamentalmente due: non accetta immagini (OCR) in allegato ed è relativamente lento, però compone la risposta in tempo reale quindi si può leggere prima che essa sia finita di essere scritta. Non lo rende più veloce, ma più usabile.
+
+In questo caso si è usato il [prompt v2](#small-ecofin-prompt-v2) insieme ai dati [estratti](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-postndata.txt#:~:text=POST%20DATA?target=_blank) dalle immagini.
+
 ---
 
 ### Approccio combinato
@@ -181,12 +191,14 @@ Un numero che varia anche in funzione dell'esperienza dei partecipanti -- e in g
 ## Link di riferimento
 
 - Profilo su LinkedIn di [Mauro Bottarelli](https://www.linkedin.com/in/mauro-bottarelli-7093a155)
-
++++++
 - Primo post su [Nikkei vs Yen](https://www.linkedin.com/posts/mauro-bottarelli-7093a155_c%C3%A8-una-strategia-perversa-pericolosa-activity-7348043756211732480-Q-X7) summer drama
-
++++++
 - Secondo post di sveglia su [Nikkei vs Yen](https://www.linkedin.com/posts/mauro-bottarelli-7093a155_servizio-sveglia-e-naturale-prosecuzione-activity-7348222231258234880-SkoJ) summer drama
++++++
+- Trascrizione post e dati estratti in formato [testo](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-postndata.txt#?target=_blank) semplice.
 
-+
++++++
 
 ## Share alike
 
