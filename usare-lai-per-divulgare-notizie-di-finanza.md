@@ -5,7 +5,7 @@
 
 ## Usare l'AI per divulgare notizie di finanza
 
-- **6th draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli.
+- **7th draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli.
 
 ---
 
@@ -170,9 +170,23 @@ In questo caso si è usato il [prompt v2](#small-ecofin-prompt-v2) insieme ai da
 
 Come Qwen, anche questo è un servizio di chatbot cinese, ma basato su una diversa famiglia di LLM. L'interfaccia utente è ancora più spartana di quella di Qwen e quindi più limitata. Però offre la modalità DeepThink (R1) e la ricerca web, che però devono essere attivate a richiesta.
 
-In questo caso ha fornito una risposta più interessante di quella di Qwen, includendo la sezione riguardo alle lacone logiche. Sebbene la maggior parte di esse si rivela un limite del modello, il suggerimento di valutare ipotesi alternative con relativo esempio, è decisamente un bonus.
+A parità di input ha fornito una risposta più interessante di quella di Qwen, includendo la sezione riguardo alle lacone logiche. Sebbene la maggior parte di esse si rivela un limite del modello, il suggerimento di valutare ipotesi alternative con relativo esempio, è decisamente un bonus.
 
 É importante considerare che gli input immessi in Qwen e DeepSeek, entrano nella disponibilità delle relative società cinesi e in particolare vengono inviati ai server in Cina già al momento dell'inserimento. Inoltre, in prospettiva, non possono essere considerati risorse abbondanti.
+
+...
+
+#### Grok3
+
+Questo modello ha dimostrato di rispondere in modo consistente sia con il prompt originale sia con la seconda versione con la quale però si è rivelato più verboso. Questa è una tendenza già osservata in altri casi: più è strutturato il prompt, più diventa pedante e quindi prolisso.
+
+La [conversazione](https://x.com/i/grok/share/WZj3zmrmwB51KjpYcPlqeJBwz), di cui la relativa [trascrizione](not-yet), mostra caratteristiche competitive con Gemini 2.5 Pro e ChatGPT. In più ha generato la sezione relativa alle lacune di ragionamento anche con il prompt originale.
+
+Grok3 può essere considerato una risorsa abbondante e permette l'uso della modalità "Think" che come si evince da questa [conversazione](https://x.com/i/grok/share/zJE9RYjGVEeGszxlDwPlEC16k), di cui la relativa [trascrizione](not-yet), ha creato quella che definirei la migliore risposta data fin'ora.
+
+Ma la modalità "Think" (opzionale) presenta un costo computazionale importante giacché ha pensato (in inglese) per 60s e si interrotto, quindi su richiesta di rigenerare la risposta, ha pensato altri 39s prima di cominciare a fornire la risposta.
+
+Quindi, paragonare Grok3 Think agli altri modelli non è una competizione equa, perché 100s di computazione sono un'enormità di tempo e probabilmente risorse di calcolo rispetto agli altri LLM, in questo articolo esaminati in precedenza.
 
 ---
 
