@@ -196,7 +196,7 @@ Grok3 ha dimostrato di rispondere in modo consistente sia con il prompt original
 
 Aggiungendo questa nota in fondo al [prompt v2](#small-ecofin-prompt-v2) si è ottenuto una risposta più breve e anche qualitativamente migliore anche rispetto a quello originale. Le lunghezze sono state calcolate in numero di caratteri al netto dei titoli principali (inutili), separazioni e dell'introduzione alla risposta vera e propria.
 
-`    prompt originale: 5635 chars (100%) -- prompt v2: 6971 (124%) -- prompt v3: 4782 (85%)`
+`    prompt originale: 5635 (100%) -- prompt v2: 6971 (124%) -- prompt v3: 4782 (85%)`
 
 Fornendo una definizione operativa da associare ai concetti di brevità e sintesi, portando ad esempio un modello, la risposta è quasi di un terzo (-31%) più breve, a parità di prompt, senza comprometterne la qualità della stessa. Anzi, probabilmente incrementandola, almeno in termini di percezione. D'altronde per un essere umano, meno fatica fa ad acquisire un'informazione, più la percezione di quella forma è preferita.
 
