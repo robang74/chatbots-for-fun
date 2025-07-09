@@ -1,27 +1,27 @@
-#### (a) Affermazioni di maggiore importanza
-- **Strategia dirompente in corso**: Bottarelli suggerisce l'esistenza di una strategia finanziaria "perversa e pericolosa" volta a destabilizzare i mercati, potenzialmente orchestrata da entità influenti, con l'obiettivo di gestire un debito globale di 7 trilioni da rifinanziare entro fine anno.
-- **Effetto dazi**: La proposta di nuovi dazi al 25% verso Giappone e Corea del Sud potrebbe innescare un caos finanziario, con ripercussioni sulla Federal Reserve (FED) e sui mercati globali, in particolare sul Giappone.
-- **Rischio di un "5 agosto 2.0"**: Un evento simile al crollo del 5 agosto 2024 è ipotizzato, con bassi volumi estivi, pressioni sullo yen e un possibile collasso del carry trade o del Nikkei.
-- **Esposizione finanziaria in Turchia**: Il cambio USD/TRY vicino a 40 segnala un rischio significativo per istituzioni finanziarie, specialmente europee e tedesche, con esposizioni nascoste che potrebbero non essere più occultabili.
-- **Tsunami VaR imminente**: Il secondo post avverte di un imminente shock di Value at Risk (VaR), con la Bank of Japan pronta a fornire collaterale in dollari per mitigare gli effetti, come già accaduto in passato.
+(a) Affermazioni di maggiore importanza
+- Strategia dirompente in corso: Bottarelli suggerisce l'esistenza di una strategia finanziaria "perversa e pericolosa" volta a destabilizzare i mercati, potenzialmente orchestrata da entità influenti, con l'obiettivo di gestire un debito globale di 7 trilioni da rifinanziare entro fine anno.
+- Effetto dazi: La proposta di nuovi dazi al 25% verso Giappone e Corea del Sud potrebbe innescare un caos finanziario, con ripercussioni sulla Federal Reserve (FED) e sui mercati globali, in particolare sul Giappone.
+- Rischio di un "5 agosto 2.0": Un evento simile al crollo del 5 agosto 2024 è ipotizzato, con bassi volumi estivi, pressioni sullo yen e un possibile collasso del carry trade o del Nikkei.
+- Esposizione finanziaria in Turchia: Il cambio USD/TRY vicino a 40 segnala un rischio significativo per istituzioni finanziarie, specialmente europee e tedesche, con esposizioni nascoste che potrebbero non essere più occultabili.
+- Tsunami VaR imminente: Il secondo post avverte di un imminente shock di Value at Risk (VaR), con la Bank of Japan pronta a fornire collaterale in dollari per mitigare gli effetti, come già accaduto in passato.
 
-#### (b) Affermazioni implicite e bias
-- **Bias geopolitico**: L'autore implica che la Casa Bianca stia deliberatamente utilizzando i dazi come arma per destabilizzare i mercati, suggerendo un conflitto di interessi tra politica e finanza, senza però fornire prove concrete di questa intenzionalità.
-- **Dipendenza dalla FED**: Si sottintende che Jerome Powell, pur percepito come indipendente, sia influenzato da decisioni politiche (es. dalla Casa Bianca), il che rappresenta un'accusa implicita di mancanza di autonomia della FED.
-- **Catastrofismo calcolato**: L'uso di termini come "bomba a mano", "tsunami VaR" e "incidente controllato" riflette un bias verso scenari estremi, enfatizzando il rischio sistemico per attirare attenzione, ma senza quantificare la probabilità di tali eventi.
-- **Esposizione europea sottovalutata**: L'autore implica che le istituzioni finanziarie europee, in particolare tedesche, siano vulnerabili a una crisi in Turchia, ma non fornisce dettagli su entità specifiche o dati quantitativi.
+(b) Affermazioni implicite e bias
+- Bias geopolitico: L'autore implica che la Casa Bianca stia deliberatamente utilizzando i dazi come arma per destabilizzare i mercati, suggerendo un conflitto di interessi tra politica e finanza, senza però fornire prove concrete di questa intenzionalità.
+- Dipendenza dalla FED: Si sottintende che Jerome Powell, pur percepito come indipendente, sia influenzato da decisioni politiche (es. dalla Casa Bianca), il che rappresenta un'accusa implicita di mancanza di autonomia della FED.
+- Catastrofismo calcolato: L'uso di termini come "bomba a mano", "tsunami VaR" e "incidente controllato" riflette un bias verso scenari estremi, enfatizzando il rischio sistemico per attirare attenzione, ma senza quantificare la probabilità di tali eventi.
+- Esposizione europea sottovalutata: L'autore implica che le istituzioni finanziarie europee, in particolare tedesche, siano vulnerabili a una crisi in Turchia, ma non fornisce dettagli su entità specifiche o dati quantitativi.
 
-#### (c) Affermazioni fuori dagli schemi
-- **"Incidente controllato"**: L'idea che un evento destabilizzante possa essere volutamente orchestrato per scopi non dichiarati (es. gestione del debito o influenza sui mercati) è una teoria non convenzionale, che sfida la narrazione tradizionale di mercati guidati da dinamiche economiche pure.
-- **Connessione Giappone-Turchia**: Collegare un potenziale crollo del carry trade giapponese a una crisi valutaria in Turchia come fattori di rischio sistemico è un'analisi non ortodossa, che raramente appare nei media finanziari mainstream.
-- **Critica alla narrazione ufficiale**: L'autore suggerisce che la stabilità del mercato dipenda da meccanismi opachi (es. il "mother's milk" di Wall Street legato a Tokyo), sfidando l'idea di un mercato trasparente e ben regolato.
+(c) Affermazioni fuori dagli schemi
+- "Incidente controllato": L'idea che un evento destabilizzante possa essere volutamente orchestrato per scopi non dichiarati (es. gestione del debito o influenza sui mercati) è una teoria non convenzionale, che sfida la narrazione tradizionale di mercati guidati da dinamiche economiche pure.
+- Connessione Giappone-Turchia: Collegare un potenziale crollo del carry trade giapponese a una crisi valutaria in Turchia come fattori di rischio sistemico è un'analisi non ortodossa, che raramente appare nei media finanziari mainstream.
+- Critica alla narrazione ufficiale: L'autore suggerisce che la stabilità del mercato dipenda da meccanismi opachi (es. il "mother's milk" di Wall Street legato a Tokyo), sfidando l'idea di un mercato trasparente e ben regolato.
 
-#### Collegamento delle affermazioni e lacune relazionali
-**Collegamento secondo l'autore**: Bottarelli costruisce una narrazione in cui la strategia di introdurre dazi, il rischio di un crollo del carry trade giapponese e la crisi valutaria turca sono interconnessi come parti di un disegno più ampio per gestire il debito globale e influenzare i mercati. La pressione sullo yen e il Nikkei, combinata con l'esposizione finanziaria in Turchia, potrebbe amplificare l'instabilità, con la FED e la Bank of Japan costrette a intervenire in un contesto di crescente rischio sistemico. L'autore vede questi eventi come un "incidente controllato" che potrebbe sfuggire di mano, richiedendo interventi straordinari.
+Collegamento delle affermazioni e lacune relazionali
+Collegamento secondo l'autore: Bottarelli costruisce una narrazione in cui la strategia di introdurre dazi, il rischio di un crollo del carry trade giapponese e la crisi valutaria turca sono interconnessi come parti di un disegno più ampio per gestire il debito globale e influenzare i mercati. La pressione sullo yen e il Nikkei, combinata con l'esposizione finanziaria in Turchia, potrebbe amplificare l'instabilità, con la FED e la Bank of Japan costrette a intervenire in un contesto di crescente rischio sistemico. L'autore vede questi eventi come un "incidente controllato" che potrebbe sfuggire di mano, richiedendo interventi straordinari.
 
-**Lacune relazionali**: 
-- **Mancanza di prove concrete**: Non vengono forniti dati specifici (es. volumi di esposizione in Turchia o dettagli sul carry trade) per supportare le affermazioni di rischio sistemico.
-- **Collegamenti causali deboli**: La relazione tra i dazi, la crisi turca e il Giappone non è chiarita in modo rigoroso; l'autore si affida a suggestioni senza un'analisi quantitativa o temporale precisa.
-- **Assenza di contesto alternativo**: Non vengono prese in considerazione spiegazioni alternative per l'aumento dei rendimenti obbligazionari o la volatilità valutaria, come fattori macroeconomici indipendenti dalle decisioni politiche.
+Lacune relazionali: 
+- Mancanza di prove concrete: Non vengono forniti dati specifici (es. volumi di esposizione in Turchia o dettagli sul carry trade) per supportare le affermazioni di rischio sistemico.
+- Collegamenti causali deboli: La relazione tra i dazi, la crisi turca e il Giappone non è chiarita in modo rigoroso; l'autore si affida a suggestioni senza un'analisi quantitativa o temporale precisa.
+- Assenza di contesto alternativo: Non vengono prese in considerazione spiegazioni alternative per l'aumento dei rendimenti obbligazionari o la volatilità valutaria, come fattori macroeconomici indipendenti dalle decisioni politiche.
 
-**Conclusione**: I post di Bottarelli presentano un quadro allarmistico ma intrigante, che collega eventi apparentemente disparati in una narrativa di rischio sistemico. Tuttavia, la mancanza di evidenze quantitative e la dipendenza da toni sensazionalistici limitano la solidità dell'analisi, lasciando spazio a interpretazioni speculative.
+Conclusione: I post di Bottarelli presentano un quadro allarmistico ma intrigante, che collega eventi apparentemente disparati in una narrativa di rischio sistemico. Tuttavia, la mancanza di evidenze quantitative e la dipendenza da toni sensazionalistici limitano la solidità dell'analisi, lasciando spazio a interpretazioni speculative.
