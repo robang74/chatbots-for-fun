@@ -5,7 +5,7 @@
 
 ## Usare l'AI per divulgare notizie di finanza
 
-- **8th draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli, [profilo](https://www.linkedin.com/in/mauro-bottarelli-7093a155) LinkedIn.
+- **9th draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli, [profilo](https://www.linkedin.com/in/mauro-bottarelli-7093a155) LinkedIn.
    - post #1 su [Nikkei vs Yen](https://www.linkedin.com/posts/mauro-bottarelli-7093a155_c%C3%A8-una-strategia-perversa-pericolosa-activity-7348043756211732480-Q-X7) summer drama
    - post #2 di sveglia su [Nikkei vs Yen](https://www.linkedin.com/posts/mauro-bottarelli-7093a155_servizio-sveglia-e-naturale-prosecuzione-activity-7348222231258234880-SkoJ) summer drama
    - Trascrizione post e dati estratti in formato [testo](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-postndata.txt#?target=_blank) semplice.
