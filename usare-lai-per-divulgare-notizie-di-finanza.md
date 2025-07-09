@@ -178,8 +178,6 @@ A parità di input ha fornito una risposta più interessante di quella di Qwen, 
 
 #### Grok3
 
-Questo modello ha dimostrato di rispondere in modo consistente sia con il prompt originale sia con la seconda versione con la quale però si è rivelato più verboso. Questa è una tendenza già osservata in altri casi: più è strutturato il prompt, più diventa pedante e quindi prolisso.
-
 La [conversazione](https://x.com/i/grok/share/WZj3zmrmwB51KjpYcPlqeJBwz), di cui la relativa [trascrizione](not-yet), mostra caratteristiche competitive con Gemini 2.5 Pro e ChatGPT. In più ha generato la sezione relativa alle lacune di ragionamento anche con il prompt originale.
 
 Grok3 può essere considerato una risorsa abbondante e permette l'uso della modalità "Think" che come si evince da questa [conversazione](https://x.com/i/grok/share/zJE9RYjGVEeGszxlDwPlEC16k), di cui la relativa [trascrizione](not-yet), ha creato quella che definirei la migliore risposta data fin'ora.
@@ -187,6 +185,22 @@ Grok3 può essere considerato una risorsa abbondante e permette l'uso della moda
 Ma la modalità "Think" (opzionale) presenta un costo computazionale importante giacché ha pensato (in inglese) per 60s e si è interrotto, quindi su richiesta di rigenerare la risposta, ha pensato altri 39s prima di cominciare a fornire la risposta.
 
 Quindi, paragonare Grok3 Think agli altri modelli non è una competizione equa, perché 99s sono un'enormità di tempo e anche un'enormità di risorse di calcolo rispetto agli altri LLM, in questo articolo esaminati in precedenza.
+
+---
+
+### Il prompt v3
+
+Grok3 ha dimostrato di rispondere in modo consistente sia con il prompt originale sia con la seconda versione con la quale però si è rivelato più verboso. Questa è una tendenza già osservata in altri casi: più è strutturato il prompt, più diventa pedante e quindi prolisso.
+
+> Nota: {breve, riassumere, professionale} significa creare una risposta per te stesso e poi riassumerla come fosse un parte di un executive-summary.
+
+Aggiungendo questa nota in fondo al [prompt v2](#small-ecofin-prompt-v2) si è ottenuto una risposta più breve e anche qualitativamente migliore anche rispetto a quello originale. Le lunghezze sono state calcolate in numero di caratteri al netto dei titoli principali (inutili), separazioni e dell'introduzione alla risposta vera e propria.
+
+`    prompt v0: 5635 chars (100%) -- prompt v2: 6971 (124%) -- prompt v3: 4782 (85%)`
+
+Fornendo una definizione operativa da associare ai concetti di brevità e sintesi, portando ad esempio un modello, la risposta è quasi di un terzo più breve, senza comprometterne la qualità della stessa.
+
+Anzi, probabilmente incrementandola, almeno in termini di percezione. D'altronde per un essere umano, meno fatica fa ad acquisire un'informazione, più la percezione di quella forma è preferita.
 
 ---
 
