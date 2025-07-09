@@ -208,6 +208,18 @@ Fornendo una definizione operativa da associare ai concetti di brevità e sintes
 
 L'informazione è stata calcolata comprimendo il file di testo con `pigz -11` e usando la dimensione senza header (bytes-70) del file compresso (rimozione di tutte le ridondanze, in teoria). Si noti però che nel terzo caso, presenta una densità di informazione più elevata del +8%, appunto.
 
+...
+
+#### Linguaggio e pensiero
+
+In questa [conversazione](https://g.co/gemini/share/dd916bbcae45) con Gemini o nella sua [trascrizione](not-yet) è possibile leggere come l'idea si è andata sviluppandosi e approfondire il perché i risultati sopra sono stati presentati in così. Se questa conversazione, in particolare la prima parte, vi ha affascinato allora "Linguaggio e Pensiero" di [Lev Vygotskij](https://en.wikipedia.org/wiki/Lev_Vygotsky) è l'opera, pubblicata postuma (1934), che dovete leggere.
+
+[!INFO]
+Lev Vygotskij esplora la relazione tra linguaggio e pensiero, sostenendo che il linguaggio, inizialmente esterno e sociale, diventa uno strumento interno per il pensiero, influenzando lo sviluppo cognitivo. Si contrappone alla visione di Piaget, che vedeva il linguaggio come derivato dal pensiero, affermando invece che linguaggio e pensiero hanno origini separate, ma si intrecciano nel corso dello sviluppo. 
+[/INFO]
+
+La seconda parte della conversazione, invece, riguarda la teoria dell'informazione e dell'entropia che sono trasversali a diversi campi di studio fra cui la matetica, la fisica, e l'informatica propriamente detta (scienza, non tecnica).
+
 ---
 
 ### Approccio combinato
@@ -221,7 +233,7 @@ La sua proposta di integrare Flash con l'analisi di Pro è estremamente interess
 [/INFO]
    - Estratto dalla [conversazione](https://g.co/gemini/share/5ecb97e32509) con Gemini, di cui la relativa [trascrizione](not-yet).
 
-Un'idea che nella sua astrazione più generale è stata adottata per ottenere il prompt v3 (nota) e una più profonda comprensione delle direttive contenute nel prompt di sessione SoNia dalle [v3.6.x](introducing-sonia-seamless-chat-experience.md#?target=_blank).
+Un'idea che nella sua astrazione più generale è stata adottata per ottenere il prompt v3 (nota) e una più profonda comprensione delle direttive contenute nel prompt di sessione SoNia dalle [v3.6.x](introducing-sonia-seamless-chat-experience.md#?target=_blank) (2025-06-13) e che si ritrova anche in [fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) (2025-05-08).
 
 ---
 
