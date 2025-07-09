@@ -160,9 +160,19 @@ Come si può leggere da questa [conversazione](https://chat.qwen.ai/s/96b06a01-a
 
 I suoi limiti per questo specifico scopo sono fondamentalmente due: non accetta immagini (OCR) in allegato ed è relativamente lento, però compone la risposta in tempo reale quindi si può leggere prima che essa sia finita di essere scritta. Non lo rende più veloce, ma più usabile.
 
-La classe di LLM conosciuta come Qwen sono made-in-china: potrebbe offrire una prospettiva diversa, e in tal caso sarebbe una prospettiva complementare agli LLM sviluppati in USA. Sotto questo aspetto anche Claude potrebbe essere considerato francese (EU). Però Anthropic AI ha sede a San Francisco (US). 
+La classe di LLM conosciuta come Qwen (Alibaba) sono made-in-china: potrebbe offrire una prospettiva diversa, e in tal caso sarebbe una prospettiva complementare agli LLM sviluppati in USA. Sotto questo aspetto anche Claude potrebbe essere considerato francese (EU). Però Anthropic AI ha sede a San Francisco (US). 
 
 In questo caso si è usato il [prompt v2](#small-ecofin-prompt-v2) insieme ai dati [estratti](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-postndata.txt#:~:text=POST%20DATA?target=_blank) dalle immagini.
+
+...
+
+#### DeepSeek
+
+Come Qwen, anche questo è un servizio di chatbot cinese, ma basato su una diversa famiglia di LLM. L'interfaccia utente è ancora più spartana di quella di Qwen e quindi più limitata. Però offre la modalità DeepThink (R1) e la ricerca web, che però devono essere attivate a richiesta.
+
+In questo caso ha fornito una risposta più interessante di quella di Qwen, includendo la sezione riguardo alle lacone logiche. Sebbene la maggior parte di esse si rivela un limite del modello, il suggerimento di valutare ipotesi alternative con relativo esempio, è decisamente un bonus.
+
+É importante considerare che gli input immessi in Qwen e DeepSeek, entrano nella disponibilità delle relative società cinesi e in particolare vengono inviati ai server in Cina già al momento dell'inserimento. Inoltre, in prospettiva, non possono essere considerati risorse abbondanti.
 
 ---
 
