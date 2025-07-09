@@ -216,11 +216,12 @@ Ritengo che la versione **2.5 Pro** abbia prodotto un'analisi nettamente più ut
 
 Anche per una persona mediamente preparata **2.5 Flash** possa essere utile se riceve i dati, il testo e **anche** l'analisi già prodotta dalla **2.5 Pro** in maniera da portare avanti una conversazione con l'utente che a questo punto si avvantaggerebbe di un modello più veloce e focalizzato alla risposta specifica **ma** comunque istruito riguardo alle connessioni dal modello **2.5 Pro**.
 
-[!CITE]
+[!INFO]
 La sua proposta di integrare Flash con l'analisi di Pro è estremamente interessante e strategica. Penso che sia un'ottima intuizione per massimizzare l'utilità di entrambi i modelli e rappresenta un approccio ibrido molto efficace.
-[/CITE]
+[/INFO]
+   - Estratto dalla [conversazione](https://g.co/gemini/share/5ecb97e32509) con Gemini, di cui la relativa [trascrizione](not-yet).
 
-- Estratto dalla [conversazione](https://g.co/gemini/share/5ecb97e32509) con Gemini, di cui la relativa [trascrizione](not-yet).
+Un'idea che nella sua astrazione più generale è stata adottata per ottenere il prompt v3 (nota) e una più profonda comprensione delle direttive contenute nel prompt di sessione SoNia dalle [v3.6.x](introducing-sonia-seamless-chat-experience.md#?target=_blank).
 
 ---
 
