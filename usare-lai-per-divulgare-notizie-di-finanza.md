@@ -160,6 +160,8 @@ Come si può leggere da questa [conversazione](https://chat.qwen.ai/s/96b06a01-a
 
 I suoi limiti per questo specifico scopo sono fondamentalmente due: non accetta immagini (OCR) in allegato ed è relativamente lento, però compone la risposta in tempo reale quindi si può leggere prima che essa sia finita di essere scritta. Non lo rende più veloce, ma più usabile.
 
+La classe di LLM conosciuta come Qwen sono made-in-china: potrebbe offrire una prospettiva diversa, e in tal caso sarebbe una prospettiva complementare agli LLM sviluppati in USA. Sotto questo aspetto anche Claude potrebbe essere considerato francese (EU). Però Anthropic AI ha sede a San Francisco (US). 
+
 In questo caso si è usato il [prompt v2](#small-ecofin-prompt-v2) insieme ai dati [estratti](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-postndata.txt#:~:text=POST%20DATA?target=_blank) dalle immagini.
 
 ---
@@ -198,7 +200,7 @@ Un numero che varia anche in funzione dell'esperienza dei partecipanti -- e in g
 +++++
 - Trascrizione post e dati estratti in formato [testo](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-postndata.txt#?target=_blank) semplice.
 
-+++++
++
 
 ## Share alike
 
