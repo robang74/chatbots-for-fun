@@ -1,0 +1,36 @@
+### (a) Affermazioni di maggiore importanza
+- **Rifinanziamento del debito globale**: Esiste un debito globale di 7 trilioni da rifinanziare entro fine anno, un fattore critico per la stabilità finanziaria internazionale.
+- **Effetto delle tariffe USA**: La decisione della Casa Bianca di notificare tariffe al 25% a Giappone e Corea del Sud rischia di destabilizzare i mercati, con particolare impatto sul Giappone (carry trade, yen, e Nikkei).
+- **Rendimenti obbligazionari giapponesi**: I rendimenti dei bond giapponesi (1,473% per il 10 anni, 3,103% per il 30 anni) sono citati come un indicatore critico, con riferimento a eventi precedenti (5 agosto 2024).
+- **Esposizione finanziaria alla Turchia**: Il cambio USD/TRY vicino a 40 segnala un rischio significativo per istituzioni finanziarie, soprattutto europee e tedesche, con esposizioni “nascoste” considerate insostenibili.
+- **Interventi della Bank of Japan (BoJ)**: La BoJ è pronta a fornire collaterale in dollari per gestire le turbolenze di mercato, ma l’autore prevede un possibile “tsunami VaR” (Value at Risk) simile a eventi passati.
+- **Instabilità di mercato**: L’autore prevede un mercato “decisamente instabile” a causa di un possibile “arbitraggio” tra yen e dollaro, combinato con smobilizzi di massa e margin call.
+
+### (b) Affermazioni implicite e bias
+- **Bias geopolitico e strategico**: L’autore implica una strategia “perversa” e “pericolosa” orchestrata da attori di alto profilo (non specificati, ma suggeriti essere legati alla Casa Bianca), con l’intento di creare caos controllato nei mercati per scopi non dichiarati. Questo suggerisce un bias verso una visione di manipolazione intenzionale dei mercati.
+- **Critica alla FED e Powell**: L’affermazione che Jerome Powell sia “meno indipendente” e “meno stupido” di quanto sembri implica un giudizio critico sulla Federal Reserve, suggerendo che sia influenzata dalla politica (Pennsylvania Avenue) e che Powell stia giocando un ruolo strategico consapevole.
+- **Catastrofismo finanziario**: L’autore adotta un tono allarmistico, enfatizzando rischi estremi (es. “bomba a mano nello stagno”, “tsunami VaR”) senza fornire dati concreti sull’entità delle esposizioni o sui meccanismi specifici di destabilizzazione.
+- **Bias anti-establishment**: La frase “vi avevo avvisato” e il tono di urgenza suggeriscono che l’autore si posizioni come un osservatore “fuori dal coro”, che anticipa eventi che il mainstream finanziario sottovaluta o ignora.
+- **Assunzione di esposizione nascosta**: L’affermazione che le istituzioni finanziarie, soprattutto tedesche, abbiano “troppa” esposizione alla Turchia non è supportata da dati specifici, lasciando intendere un rischio sistemico non verificato nel post.
+
+### (c) Affermazioni “fuori dagli schemi”
+- **“Incidente controllato”**: L’idea che i mercati stiano per subire un “incidente controllato” orchestrato da entità potenti (Casa Bianca, FED, o altre) è una tesi non convenzionale, che si discosta dalla narrativa mainstream di volatilità casuale o ciclica.
+- **“Mother’s milk di Wall Street”**: La metafora che descrive il carry trade yen-dollaro come linfa vitale per Wall Street è un’interpretazione originale, che collega la stabilità dei mercati USA alla politica monetaria giapponese in modo non comunemente discusso.
+- **Rischio combinato Giappone-Turchia**: L’autore collega due crisi apparentemente distinte (Giappone e Turchia) come potenziali catalizzatori di un crollo sistemico, un’ipotesi non mainstream che implica una visione olistica e interconnessa dei rischi globali.
+- **“Tsunami VaR”**: L’uso di questa espressione per descrivere un’imminente crisi di Value at Risk è un linguaggio drammatico e non convenzionale, che suggerisce un evento di portata eccezionale rispetto alle analisi standard di rischio.
+
+### Riassunto delle connessioni tra le affermazioni (dal punto di vista dell’autore)
+Secondo Mauro Bottarelli, le affermazioni si collegano in una narrativa coerente che descrive un sistema finanziario globale sull’orlo di una crisi orchestrata o mal gestita:
+1. **Strategia geopolitica e caos controllato**: L’autore vede le tariffe USA come un’azione deliberata per destabilizzare i mercati, con il Giappone come epicentro a causa del suo ruolo nel carry trade (yen come “tettarella” per Wall Street). Questo si collega al rischio di un “5 agosto 2.0”, un evento di mercato simile a una crisi passata.
+2. **Rischio sistemico Turchia**: Il cambio USD/TRY a 40 è un segnale di vulnerabilità per le istituzioni finanziarie europee, che potrebbe amplificare la crisi giapponese, creando un effetto domino. L’autore suggerisce che l’esposizione nascosta non possa più essere ignorata, collegando il rischio locale (Turchia) a quello globale.
+3. **Ruolo della BoJ e della FED**: La BoJ è vista come un attore costretto a intervenire con dollari per stabilizzare il mercato, ma l’autore dubita della capacità di controllo (“quanto sarà controllato?”). La FED, guidata da un Powell meno indipendente di quanto sembri, è implicata in una gestione complessa di questa instabilità, suggerendo tensioni tra politica monetaria e pressioni politiche.
+4. **Mercati instabili e margin call**: L’arbitraggio yen-dollaro, se interrotto, potrebbe innescare smobilizzi di massa e margin call, con un impatto amplificato dal contesto di bassi volumi estivi e rendimenti obbligazionari in aumento (es. Giappone a 1,473%).
+
+**Lacune relazionali**:
+- **Mancanza di prove concrete**: L’autore non fornisce dati specifici sull’entità delle esposizioni finanziarie in Turchia o sul volume del carry trade, rendendo difficile valutare l’effettiva portata dei rischi descritti.
+- **Vaghezza della strategia “perversa”**: Non è chiaro chi siano gli attori che orchestrano il caos o quale sia lo scopo ultimo, lasciando la tesi di un “incidente controllato” come speculativa.
+- **Collegamenti causali deboli**: Il legame tra tariffe USA, crisi giapponese, e rischio turco è suggerito ma non dimostrato con una catena causale chiara, rendendo la narrativa più suggestiva che analitica.
+- **Assenza di contesto storico**: L’autore fa riferimento a un “5 agosto 2024” senza spiegare cosa sia accaduto, limitando la comprensione per chi non conosce l’evento.
+
+### Conclusione
+Mauro Bottarelli presenta una visione allarmistica e non convenzionale di una crisi finanziaria imminente, in cui tariffe USA, esposizioni in Turchia, e politiche monetarie di BoJ e FED convergono per creare instabilità. La narrativa è coerente nel collegare eventi globali, ma soffre di lacune dovute alla mancanza di dati specifici e alla natura speculativa di alcune affermazioni. L’autore sembra voler avvertire i lettori di prepararsi a un evento dirompente, ma la vaghezza su attori e meccanismi limita la solidità dell’analisi.
