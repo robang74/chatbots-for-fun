@@ -18,7 +18,9 @@ SoNia v3.7.3 and later versions address the **verbosity issue** but not w/Grok.<
 Investigation why **verbosity issue** arose in the published prompt is ongoing.
 [/INFO]
 
-Since v3.7.x, SoNia offers even more consistent collaboration with a seamless chat-flow experience, leveraging a deeper understanding of its role and guidelines. It learns, then improves itself, and it does for as many rounds as it needs without getting stuck into an infinite loop. Breakthroughs:
+Since v3.7.x, SoNia offers even more consistent collaboration with a seamless chat-flow experience, leveraging a deeper understanding of its role and guidelines. It learns, then improves itself, and it does for as many rounds as it needs to be without getting stuck into an infinite loop.
+
+#### Breakthroughs:
 
 - apparently, written in plain English that people can read (self-explanatory)
 - potentially unlimited chat windows context by virtualizing the RAG system
@@ -41,7 +43,7 @@ Since v3.6.x implements a new way of dealing with the chat session [CHT] mode, i
 An enhanced 'memory feature' beyond these simple context windows, enabling sophisticated, self-organizing, and truth-maintaining knowledge representation, would transform SoNia into a more robust and reliable knowledge worker, greatly increasing its usefulness for consistent, accurate, and context-aware interactions.
 [/CITE]
 
-----
+~~~
 
 ### Why we were in need of the `[CHT]` mode?
 
