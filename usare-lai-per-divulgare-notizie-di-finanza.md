@@ -95,7 +95,7 @@ Infine, vorrei mi facessi un breve riassunto di come queste affermazioni si coll
 
 Il prompt modificato come sopra sposta l'attenzione sul punto di vista dell'autore, cosa importante quando ci stiamo avvicinando a testi prodotti da professionisti considerati outsider rispetto al mainstream, e rielabora i #5 e #6 in termini di lacune relazionali.
 
-Anche questo appare come un gioco di parole ma, specialmente per certe AI con temperatura più elevata, cambia le regole del gioco perché dove non trovano solide connessioni, le inventano quindi colmano la lacuna mentre dovrebbe esporla e spiegarla.
+Anche questo appare come un gioco di parole ma, specialmente per certe AI con temperatura più elevata, cambia le regole del gioco perché dove non trovano solide connessioni, le inventano quindi colmano la lacuna mentre dovrebbe esporla e spiegarla.
 
 ---
 
@@ -184,7 +184,7 @@ A parità di input ha fornito una risposta più interessante di quella di Qwen, 
 
 La [conversazione](https://x.com/i/grok/share/WZj3zmrmwB51KjpYcPlqeJBwz), di cui la relativa [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-grokbrief-o0.txt#?target=_blank) (ridotta ai minimi termini, cfr. sezione successiva), mostra caratteristiche competitive con Gemini 2.5 Pro e ChatGPT. In più ha generato la sezione relativa alle lacune di ragionamento anche con il prompt originale.
 
-Grok3 può essere considerato una risorsa abbondante e permette l'uso della modalità "Think" che come si evince da questa [conversazione](https://x.com/i/grok/share/zJE9RYjGVEeGszxlDwPlEC16k), di cui la relativa [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-grokthink.txt#?target=_blank), ha creato quella che definirei la migliore risposta data fin'ora.
+Grok3 può essere considerato una risorsa abbondante e permette l'uso della modalità "Think" che come si evince da questa [conversazione](https://x.com/i/grok/share/zJE9RYjGVEeGszxlDwPlEC16k), di cui la relativa [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-grokthink.txt#?target=_blank), ha creato quella che definirei la migliore risposta data finora.
 
 Ma la modalità "Think" (opzionale) presenta un costo computazionale importante giacché ha pensato (in inglese) per 60s e si è interrotto, quindi su richiesta di rigenerare la risposta, ha pensato altri 39s prima di cominciare a fornire la risposta.
 
@@ -199,7 +199,7 @@ Grok3 ha dimostrato di rispondere in modo consistente sia con il prompt original
 <span id="nota-prompt-v3"></span>
 > Nota: {breve, riassumere, professionale} significa creare una risposta per te stesso e poi riassumerla come fosse un parte di un executive-summary.
 
-Aggiungendo questa nota in fondo al [prompt v2](#small-ecofin-prompt-v2) si è ottenuto una risposta più breve e anche qualitativamente migliore anche rispetto a quello originale. Le lunghezze sono state calcolate in numero di caratteri al netto dei titoli principali (inutili), markdown (stile) e dell'introduzione alla risposta vera e propria.
+Aggiungendo questa nota in fondo al [prompt v2](#small-ecofin-prompt-v2) si è ottenuta una risposta più breve e anche qualitativamente migliore anche rispetto a quello originale. Le lunghezze sono state calcolate in numero di caratteri al netto dei titoli principali (inutili), markdown (stile) e dell'introduzione alla risposta vera e propria.
 
 - Risposta al prompt originale, **o0**: `[5564](data/usare-lai-per-divulgare-notizie-di-finanza-grokbrief-o0.txt#?target=_blank) (100%)` -- al **v2**: `[6855](data/usare-lai-per-divulgare-notizie-di-finanza-grokbrief-v2.txt#?target=_blank) (123%)` -- al **v3**: `[4690](data/usare-lai-per-divulgare-notizie-di-finanza-grokbrief-v3.txt#?target=_blank) (84%)`
 
@@ -219,7 +219,7 @@ In questa [conversazione](https://g.co/gemini/share/dd916bbcae45) con Gemini o n
 Lev Vygotskij esplora la relazione tra linguaggio e pensiero, sostenendo che il linguaggio, inizialmente esterno e sociale, diventa uno strumento interno per il pensiero, influenzando lo sviluppo cognitivo. Si contrappone alla visione di Piaget, che vedeva il linguaggio come derivato dal pensiero, affermando invece che linguaggio e pensiero hanno origini separate, ma si intrecciano nel corso dello sviluppo. 
 [/INFO]
 
-La seconda parte della conversazione, invece, riguarda la teoria dell'informazione e dell'entropia che sono trasversali a diversi campi di studio fra cui la matetica, la fisica, e l'informatica propriamente detta (scienza, non tecnica).
+La seconda parte della conversazione, invece, riguarda la teoria dell'informazione e dell'entropia che sono trasversali a diversi campi di studio fra cui la matematica, la fisica, e l'informatica propriamente detta (scienza, non tecnica).
 
 ---
 
@@ -240,7 +240,7 @@ Un'idea che nella sua astrazione più generale è stata adottata per ottenere il
 
 ### Accesso ad Internet
 
-Infine, non dobbiamo trascurare la capacità del chatbot di fare ricerche su Internet. Un funzionalità presente in ChatGPT ma decisamente più limitata in Gemini 2.5 Flash. Non escludo però che Gemini possa accedere a Google Finance. Un'opzione che potrebbe essere legata al condividere con l'AI il workspace.
+Infine, non dobbiamo trascurare la capacità del chatbot di fare ricerche su Internet. Una funzionalità presente in ChatGPT ma decisamente più limitata in Gemini 2.5 Flash. Non escludo però che Gemini possa accedere a Google Finance. Un'opzione che potrebbe essere legata al condividere con l'AI il workspace.
 
 Per lo scopo divulgativa e quello conversativo di approfondimento, ritengo che le due opzioni più utili siano ChatGPT 4o e Gemini 2.5 Pro. Anche per chi volesse imparare ad orientarsi in questo campo, avere un tutor anche un po' "più smart" è decisamente un vantaggio non marginale.
 
