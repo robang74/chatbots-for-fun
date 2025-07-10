@@ -4,8 +4,9 @@ Chat U2A: human operator prompt first, then AI agent answer. Width: 80 columns.
 
 Chatbot: Gemini 2.5 Pro
 Created: 8th July 2025
-Published 8th July 2025
+Published: 8th July 2025
 Attachment: four images about finantial data/indexes
+URL: g.co/gemini/share/f73e07bcce48
 
 ================================================================================
 

@@ -4,8 +4,9 @@ Chat U2A: human operator prompt first, then AI agent answer. Width: 80 columns.
 
 Chatbot: ChatGPT 4o
 Created: 8th July 2025
-Published 8th July 2025
+Published: 8th July 2025
 Attachment: three images about finantial data/indexes (US threasury missing)
+URL: chatgpt.com/share/686d419f-5634-8012-97d4-b7a54a97f124
 
 ================================================================================
 
