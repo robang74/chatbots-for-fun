@@ -196,6 +196,7 @@ Quindi, paragonare Grok3 Think agli altri modelli non è una competizione equa, 
 
 Grok3 ha dimostrato di rispondere in modo consistente sia con il prompt originale sia con la seconda versione con la quale però si è rivelato più verboso. Questa è una tendenza già osservata in altri casi: più è strutturato il prompt, più diventa pedante e quindi prolisso.
 
+<span id="nota-prompt-v3"></span>
 > Nota: {breve, riassumere, professionale} significa creare una risposta per te stesso e poi riassumerla come fosse un parte di un executive-summary.
 
 Aggiungendo questa nota in fondo al [prompt v2](#small-ecofin-prompt-v2) si è ottenuto una risposta più breve e anche qualitativamente migliore anche rispetto a quello originale. Le lunghezze sono state calcolate in numero di caratteri al netto dei titoli principali (inutili), markdown (stile) e dell'introduzione alla risposta vera e propria.
@@ -253,7 +254,7 @@ Un numero che varia anche in funzione dell'esperienza dei partecipanti -- e in g
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-- Mauro Bottarelli è autorizzato ad usare **gratuitamente** il [prompt v2](#small-ecofin-prompt-v2) o una sua precedente versione per la sua attività di autopromozione e di divulgazione effettuata mediante il suo profilo personale su LinkedIn, **anche** se queste attività avessero natura commerciale diretta, indiretta o accessoria.
+- Mauro Bottarelli è autorizzato ad usare **gratuitamente** il [prompt v2](#small-ecofin-prompt-v2) o una sua precedente versione, con o senza la [nota](#nota-prompt-v3) del prompt v3, per la sua attività di autopromozione e di divulgazione effettuata mediante il suo [profilo](https://www.linkedin.com/in/mauro-bottarelli-7093a155) su LinkedIn, qualora avessero natura commerciale diretta, indiretta o accessoria.
 
 </div>
 
