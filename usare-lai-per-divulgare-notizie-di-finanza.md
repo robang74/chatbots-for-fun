@@ -182,9 +182,9 @@ A parità di input ha fornito una risposta più interessante di quella di Qwen, 
 
 #### Grok3
 
-La [conversazione](https://x.com/i/grok/share/WZj3zmrmwB51KjpYcPlqeJBwz), di cui la relativa [trascrizione](not-yet), mostra caratteristiche competitive con Gemini 2.5 Pro e ChatGPT. In più ha generato la sezione relativa alle lacune di ragionamento anche con il prompt originale.
+La [conversazione](https://x.com/i/grok/share/WZj3zmrmwB51KjpYcPlqeJBwz), di cui la relativa [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-grokbrief-o0.txt#?target=_blank) (ridotta ai minimi termini, cfr. sezione successiva), mostra caratteristiche competitive con Gemini 2.5 Pro e ChatGPT. In più ha generato la sezione relativa alle lacune di ragionamento anche con il prompt originale.
 
-Grok3 può essere considerato una risorsa abbondante e permette l'uso della modalità "Think" che come si evince da questa [conversazione](https://x.com/i/grok/share/zJE9RYjGVEeGszxlDwPlEC16k), di cui la relativa [trascrizione](not-yet), ha creato quella che definirei la migliore risposta data fin'ora.
+Grok3 può essere considerato una risorsa abbondante e permette l'uso della modalità "Think" che come si evince da questa [conversazione](https://x.com/i/grok/share/zJE9RYjGVEeGszxlDwPlEC16k), di cui la relativa [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-grokthink.txt#?target=_blank), ha creato quella che definirei la migliore risposta data fin'ora.
 
 Ma la modalità "Think" (opzionale) presenta un costo computazionale importante giacché ha pensato (in inglese) per 60s e si è interrotto, quindi su richiesta di rigenerare la risposta, ha pensato altri 39s prima di cominciare a fornire la risposta.
 
