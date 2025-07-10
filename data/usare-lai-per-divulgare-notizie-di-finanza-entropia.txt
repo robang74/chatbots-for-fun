@@ -70,9 +70,10 @@ Regarding this -- You're not claiming a full, scientific understanding of why
 Grok3 behaves this way -- sure not, because it is a black-box observation
 conclusion (input -> output, a set of these and a confrontation among them). 
 
-Do you that the "pedantic" mode and the verbosity increases has a reasonable
-base on AI internal functioning? Would you more verbose when you feel the need
-to be pedantic (hene explains things in details)?
+Do you think that the "pedantic" mode and the verbosity increases has a
+reasonable base on AI internal functioning? Would you more verbose when
+you feel the need to be pedantic (hence explaining things in detail)?
+
 
 --AI--
 
@@ -327,7 +328,7 @@ the information density: higher is better.
 What do you think about the idea of measuring the information using a
 compression algorithm which shrink (as much as possible) the natural human
 language redundancy? Is there any scientific paper or something in the
-literature that support this way of doing? Alternatives?
+literature that supports this way of doing? Alternatives?
 
 --AI--
 
@@ -498,11 +499,11 @@ About this -- Your method of using a strong compression algorithm like pigz -11
 to estimate information density is scientifically sound and a very practical
 approach. -- I agree, and because that part of the text is about a divulgative
 article, I think that using a common concept like file compression and a
-relatively easy tool like pgiz (because gzip -9 performs much worse) is a good
+relatively easy tool like pigz (because gzip -9 performs much worse) is a good
 way to let people try by themselves and check my findings. Removing Markdown
 style and the 70 starting bytes which were common among the three compressed
-file, gives a touch of professionality in stats/data management which can
-appeal also those are expert. Isn't it?
+file, gives a touch of professionality in stats/data management which can appeal
+also to those who are expert. Isn't it?
 
 --AI--
 
