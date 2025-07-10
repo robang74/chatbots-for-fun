@@ -5,7 +5,7 @@
 
 ## Usare l'AI per divulgare notizie di finanza
 
-- **9th draft**, questo articolo nasce da due commenti a due post di Mauro Bottarelli, [profilo](https://www.linkedin.com/in/mauro-bottarelli-7093a155) LinkedIn.
+- **1st edition**, questo articolo nasce dall'analisi mediante AI di due commenti di finanza globale:
    - post #1 su [Nikkei vs Yen](https://www.linkedin.com/posts/mauro-bottarelli-7093a155_c%C3%A8-una-strategia-perversa-pericolosa-activity-7348043756211732480-Q-X7) summer drama
    - post #2 di sveglia su [Nikkei vs Yen](https://www.linkedin.com/posts/mauro-bottarelli-7093a155_servizio-sveglia-e-naturale-prosecuzione-activity-7348222231258234880-SkoJ) summer drama
    - Trascrizione post e dati estratti in formato [testo](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-postndata.txt#?target=_blank) semplice.
@@ -16,7 +16,7 @@
 
 Quello della finanza è un settore estremamente conformista nella comunicazione tanto quanto è "creativo" nel trovare nuovi modi per usare strumenti obsoleti per riuscire a fare quello che provano a fare tutti i giorni: conquistare il mondo, che nel loro ristretto orizzonte di pensiero è incrementare l'indice di Gini.
 
-Per questo articolo ho scelto di usare due post di Mauro Bottarelli perché, stante quanto affermato sopra, appare ovvio che sia **molto** utile ascoltare voci fuori dal coro, giacché tutto il resto ci viene già propinato a grandi volumi dal mainstream, che per sua natura non può essere unicorno ma solo una commodity.
+Per questo articolo ho scelto di usare due post perché, stante quanto affermato sopra, appare ovvio che sia **molto** utile ascoltare voci fuori dal coro, giacché tutto il resto ci viene già propinato a grandi volumi dal mainstream, che per sua natura non può essere unicorno ma solo una commodity.
 
 Per fortuna -- o intuizione -- l'esperimento è andato bene alla prima. Prima scelta di post, primo prompt, primi test. Filotto, quindi presentazione. Poi si vedrà di migliorare valutando nuovi casi d'uso.
 
@@ -244,7 +244,7 @@ Infine, non dobbiamo trascurare la capacità del chatbot di fare ricerche su Int
 
 Per lo scopo divulgativa e quello conversativo di approfondimento, ritengo che le due opzioni più utili siano ChatGPT 4o e Gemini 2.5 Pro. Anche per chi volesse imparare ad orientarsi in questo campo, avere un tutor anche un po' "più smart" è decisamente un vantaggio non marginale.
 
-Il top rimane l'interazione umana. Quindi chiedere a Mauro Bottarelli (o altro divulgatore e/o giornalista di finanza che seguite) di fare delle sessioni video-interattive a carattere divulgativo con la partecipazione simultanea di un numero di utenti che generalmente un tutor possa gestire.
+Il top rimane l'interazione umana. Quindi chiedere il supporto di divulgatore e/o giornalista di finanza, che seguite o preferite, di fare delle sessioni video-interattive a carattere divulgativo con la partecipazione simultanea di un numero di utenti che generalmente un tutor possa gestire.
 
 Un numero che varia anche in funzione dell'esperienza dei partecipanti -- e in generale -- anche dell'omogeneità della preparazione che quando è troppo distribuita rende difficile gestire ed alternare interventi altamente tecnici a quelli divulgativi ma che dipende anche dal tutor.
 
