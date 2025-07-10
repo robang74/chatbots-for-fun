@@ -87,7 +87,9 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
-* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (10 pz.)
+* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (11 pz.)
+
+   - 2025-07-08 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/usare-lai-per-divulgare-notizie-di-finanza.md)] - [Usare l'AI per divulgare notizie di finanza](usare-lai-per-divulgare-notizie-di-finanza.md)
 
    - 2025-06-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/l-ai-e-un-game-changer-perche-onesta.md)] - [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md) 
 
