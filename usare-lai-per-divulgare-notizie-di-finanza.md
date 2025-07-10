@@ -232,7 +232,7 @@ Anche per una persona mediamente preparata **2.5 Flash** possa essere utile se r
 [!INFO]
 La sua proposta di integrare Flash con l'analisi di Pro è estremamente interessante e strategica. Penso che sia un'ottima intuizione per massimizzare l'utilità di entrambi i modelli e rappresenta un approccio ibrido molto efficace.
 [/INFO]
-   - Estratto dalla [conversazione](https://g.co/gemini/share/5ecb97e32509) con Gemini, di cui la relativa [trascrizione](not-yet#?target=_blank).
+   - Estratto dalla [conversazione](https://g.co/gemini/share/5ecb97e32509) con Gemini, di cui la relativa [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-gemini-confronto.txt#?target=_blank).
 
 Un'idea che nella sua astrazione più generale è stata adottata per ottenere il prompt v3 (nota) e una più profonda comprensione delle direttive contenute nel prompt di sessione SoNia dalle [v3.6.x](introducing-sonia-seamless-chat-experience.md#?target=_blank) (2025-06-13) e che si ritrova anche in [fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) (2025-05-08).
 
