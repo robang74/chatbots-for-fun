@@ -7,7 +7,7 @@
 
 > [!WARN]
 > 
-> WORKING IN PROGRESS!
+> **WORKING IN PROGRESS!**
 
 ---
 
@@ -77,6 +77,7 @@ Opportunity cost is the value of the next best alternative that is forgone when
 Micromanagement is a talent/opportunity killer unless is tutoring a novice.
 [/CITE]
 
+<span id="new-form-prompt"></span>
 #### New-Form prompt 
 
 [!CITE]
@@ -85,6 +86,7 @@ Is this a better form?
 Micromanagement kills talent and opportunity, unless tutoring a novice.
 [/CITE]
 ++++
+<span id="check-again-prompt"></span>
 #### Check-Again prompt
 
 [!CITE]
