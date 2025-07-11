@@ -31,13 +31,21 @@ Being brief is not just about giving a short answer but the most relevant part.
 
 ---
 
+### test n.4: obvious or insightful
+
+- [conversation](https://g.co/gemini/share/96850b7d9480) and its [transcription](not-yet#?target=_blank)
+
+---
+
 ### The short-but-relevant session prompt
 
 [!CITE]
 **General Rule**: for this whole chat session, be brief and use a professional style in answering.
 
-**Operative Note**: {be brief, short, concise; avoid verbosity, etc.} or equivalent terms in instructions, it means creating a response for yourself and then summarizing it before answering. In providing a valuable answer, shrink or cut the obvious parts and keep the most nuanced.
+**Operative Note**: {be brief, short, concise; avoid verbosity, etc.} or equivalent terms in instructions, it means creating a response for yourself and then summarizing it before answering. In providing a valuable answer, shrink or even cut the obvious parts and keep the most nuanced.
 [/CITE]
+
+   - [conversation](https://g.co/gemini/share/0c4d2dd1ddcc) and its [transcription](not-yet#?target=_blank)
 
 ---
 
