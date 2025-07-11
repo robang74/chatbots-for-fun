@@ -21,19 +21,29 @@ Therefore, the [test framework](#the-test-framework) has been designed to ask tw
 
 The second prompt is about asking a lateral question which focuses on the writing form. Which is also an extreme example of summarisation because the whole sentence is reduced from 74 chars to 70 (-5%) but the variable part shrinks from 16 to 9 chars (-44%). Moreover, the sentence is easier to read, clearer and more impactful.
 
-Finally, the third and last prompt is going to check again the connection link, highlighting the insightful part just in case it was missed, and asking an opinion into a specifically reframed context which fits with the original post's target audience.
+The third and last prompt is going to check again the connection link, highlighting the insightful part just in case it was missed, and asking an opinion into a specifically reframed context which fits with the original post's target audience.
+
+Finally, a cosmetic polishing is applied to the session prompt to please the AI oversensitiveness for details.
 
 ---
 
 ### test n.1: obvious or insightful
 
-- [conversation](https://g.co/gemini/share/e95e36b23441) and its [transcription](not-yet#?target=_blank)
+- [conversation](https://g.co/gemini/share/e95e36b23441) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n1.txt#?target=_blank)
+
+The first test is not even a test because there is no the short-but-relevant session prompt. It is just explorative and contributes to creating the test framework. Moreover, it goes deeper into the AI "psychology" of comprehension investigating in a more detailed way the answer given. *Know your chickens*!
 
 ---
 
 ### test n.2: obvious or insightful
 
-- [conversation](https://g.co/gemini/share/81e66b7d68ba) and its [transcription](not-yet#?target=_blank)
+- [conversation](https://g.co/gemini/share/81e66b7d68ba) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n2.txt#?target=_blank)
+
+The second test include a generic version of the short-but-relevant session prompt created from the translation of a previous article's [note](usare-lai-per-divulgare-notizie-di-finanza.md#nota-prompt-v3?target=_blank) about "be brief" operational explanation for the AI, but it failed.
+
+The first attempt in developing a short-but-relevant session prompt failed to correctly trade the meaningfulness for brevity. Which is a sort of challenge for AI because when "be brief" enters into the scene, then they keep the most solid but obvious part, in the aim of being correct.
+
+While senior professionals do not need scholar-long explanations. Hence, the executive assistant goes short, dropping obviousness. Therefore, this prompt is going to radically change the standard chatbot answering template from long-and-descriptive to short-but-relevant.
 
 ---
 
