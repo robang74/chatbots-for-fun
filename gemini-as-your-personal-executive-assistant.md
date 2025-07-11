@@ -184,16 +184,16 @@ The answers to this new prompt inspired to me a new approach to reach a fully fl
 By a instive guess, the best prompt is the one used in test n.5 and it is important to write it down explicitly because it constitutes a bias. Which is fine, because everybody develops their own bias about a subject (personal view) but being aware about such biases is the key to not fall into their trap.
 
 [!CODE]
-mycat() { markdown $1 | html2text | tr -s ' ' | tr -d '\n'; }<br>
-for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers.txt;<br>
+mycat() { markdown $1 | html2text |  tr '\n' ' ' | tr -s ' '; }<br>
+for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<br>
  &nbsp; &nbsp; do echo "$(mycat $i | wc -c) \t $i"; done
 [/CODE]
 
-- test n.1: &nbsp; `5159 (100%)`
-- test n.2: &nbsp; `3076 ( 60%)`
-- test n.3: &nbsp; `1817 ( 35%)` <-- best answer and very short
-- test n.4: &nbsp; `1762 ( 34%)` <-- shortest but opinable answer
-- test n.5: &nbsp; `2122 ( 41%)` <-- good compromise info-vs-size
+- test n.1: &nbsp; `5197 (100%)`
+- test n.2: &nbsp; `3103 ( 60%)`
+- test n.3: &nbsp; `1835 ( 35%)` <-- best answer and very short
+- test n.4: &nbsp; `1782 ( 34%)` <-- shortest but opinable answer
+- test n.5: &nbsp; `2139 ( 41%)` <-- good compromise info-vs-size
 
 The stats indicates that my bias was wrong and the prompt n.3 is the best, instead. Unfortunately, in test n.3 the "be brief" is not matched into the subset terms and this is fundamental requirement. In fact, the session prompt should work with equivalent terms but a test is relevant when it matches, also.
 
@@ -208,10 +208,10 @@ Therefore, I add to find a different approch than playing with words. The follow
 
 - https://g.co/gemini/share/a5ba5ce6e9d5
 
-- size( `A,S,E` ): &nbsp;`1922` &nbsp;`(100%)` &nbsp; eq. to 37% of test n.1
-- size( `_,S,E` ): &nbsp;`1532` &nbsp;`( 80%)` &nbsp; analysis is redundant <-- best choice (eq. 30%)
-- size( `_,S,_` ): &nbsp;`1384` &nbsp;`( 72%)` &nbsp; summary is informative
-- size( `A,_,_` ): &nbsp;` 390` &nbsp;`( 20%)` &nbsp; evaluation is too short
+- size( `A,S,E` ): &nbsp;`1957` &nbsp;`(100%)` &nbsp; eq. to 38% of test n.1
+- size( `_,S,E` ): &nbsp;`1559` &nbsp;`( 80%)` &nbsp; analysis is redundant <-- best choice (eq. 30%)
+- size( `_,S,_` ): &nbsp;`1405` &nbsp;`( 72%)` &nbsp; summary is informative
+- size( `A,_,_` ): &nbsp;` 398` &nbsp;`( 20%)` &nbsp; evaluation is too short
 
 ---
 
@@ -225,29 +225,29 @@ for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<
 
 Ratio computed as size palin-text vs size compressed as explained [here](usare-lai-per-divulgare-notizie-di-finanza.md#il-prompt-v3?target=_blank), less is better:
 
-- `2258` &nbsp; ( `2.28` ) &nbsp;	test-n1-answers.txt
-- `1423` &nbsp; ( `2.16` ) &nbsp;	test-n2-answers.txt
-- ` 925` &nbsp; ( `1.96` ) &nbsp;	test-n3-answers.txt
-- ` 856` &nbsp; ( `2.06` ) &nbsp;	test-n4-answers.txt
-- `1032` &nbsp; ( `2.06` ) &nbsp;	test-n5-answers.txt
-- ` 831` &nbsp; ( `2.31` ) &nbsp;	test-n6-answers-ase.txt
-- ` 732` &nbsp; ( `2.09` ) &nbsp;	test-n6-answers-xse.txt <-- that choice
-- ` 692` &nbsp; ( `2.00` ) &nbsp;	test-n6-answers-xsx.txt
-- ` 219` &nbsp; ( `1.78` ) &nbsp;	test-n6-answers-axx.txt
+- `2253` &nbsp; ( `2.30` ) &nbsp;	test-n1-answers.txt
+- `1425` &nbsp; ( `2.18` ) &nbsp;	test-n2-answers.txt
+- ` 922` &nbsp; ( `1.99` ) &nbsp;	test-n3-answers.txt
+- ` 859` &nbsp; ( `2.07` ) &nbsp;	test-n4-answers.txt
+- `1035` &nbsp; ( `2.07` ) &nbsp;	test-n5-answers.txt
+- ` 831` &nbsp; ( `2.35` ) &nbsp;	test-n6-answers-ase.txt
+- ` 732` &nbsp; ( `2.13` ) &nbsp;	test-n6-answers-xse.txt <-- that choice
+- ` 692` &nbsp; ( `2.03` ) &nbsp;	test-n6-answers-xsx.txt
+- ` 219` &nbsp; ( `1.82` ) &nbsp;	test-n6-answers-axx.txt
 
 The section headers are optional and useless for when a subset of section is taken for the answer:
 
-- size( `A,S,E` ): &nbsp;`1613` &nbsp;`(100%)` &nbsp;|&nbsp; pigz: ` 749` &nbsp; ( `2.15` )
-- size( `_,S,E` ): &nbsp;`1356` &nbsp;`( 84%)` &nbsp;|&nbsp; pigz: ` 684` &nbsp; ( `1.98` ) <-- best choice (eq. 26%)
-- size( `_,S,_` ): &nbsp;`1274` &nbsp;`( 79%)` &nbsp;|&nbsp; pigz: ` 657` &nbsp; ( `1.94` )
-- size( `A,_,_` ): &nbsp;` 257` &nbsp;`( 16%)` &nbsp;|&nbsp; pigz: ` 180` &nbsp; ( `1.42` )
+- size( `A,S,E` ): &nbsp;`1687` &nbsp;`(100%)` &nbsp;|&nbsp; pigz: ` 764` &nbsp; ( `2.20` )
+- size( `_,S,E` ): &nbsp;`1409` &nbsp;`( 84%)` &nbsp;|&nbsp; pigz: ` 700` &nbsp; ( `2.01` ) <-- best choice (eq. 27%)
+- size( `_,S,_` ): &nbsp;`1312` &nbsp;`( 78%)` &nbsp;|&nbsp; pigz: ` 668` &nbsp; ( `1.96` )
+- size( `A,_,_` ): &nbsp;` 279` &nbsp;`( 17%)` &nbsp;|&nbsp; pigz: ` 191` &nbsp; ( `1.54` )
 
 However, the numbers are not changing to much. While the ratio 2.00 emerges as a golden value.
 
 To remove the headers from the size and pigz values computation, adding a `grep` is enough.
 
 [!CODE]
-mycat() { grep -v "^#" $i | html2text | tr -s ' ' | tr -d '\n'; }
+mycat() { grep -v "^#" $i | html2text |  tr '\n' ' ' | tr -s ' '; }
 [/CODE]
 
 +
