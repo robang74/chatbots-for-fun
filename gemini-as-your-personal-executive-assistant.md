@@ -26,11 +26,13 @@ Being brief is not just about giving a short answer but the most relevant part.
 
 ---
 
-### The brief-but-relevant session prompt
+### The short-but-relevant session prompt
 
+[!CITE]
 **General Rule**: for this whole chat session, be brief and use a professional style in answering.
 
-**Operative Note**: {short, concise, avoid verbosity, etc.} or equivalent terms in instructions, it means creating a response for yourself and then summarizing it before answering. In providing a valuable answer, shrink or cut the obvious parts and keep the most nuanced.
+**Operative Note**: {be brief, short, concise, avoid verbosity, etc.} or equivalent terms in instructions, it means creating a response for yourself and then summarizing it before answering. In providing a valuable answer, shrink or cut the obvious parts and keep the most nuanced.
+[/CITE]
 
 ---
 
