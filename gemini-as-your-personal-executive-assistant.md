@@ -17,7 +17,7 @@ Being brief is not just about giving a short answer but the most relevant part.
 
 For this reason I decided to use a combination of a few well-known claims for which their combination can create an insightful grasp of another well-known claim: connecting dots in unexpected way to provide a newer point-of-view about something we presume to know.
 
-Therefore, the [test framework](#the-test-framework) has been designed to ask two questions: the first generic, while the second is specific about obvious or insightful classes. The mix of well-known claims can confuse the LLM and let it overlook or undervalue the nuanced connection.
+Therefore, the [testing framework](#the-testing-framework) has been designed to ask two questions: the first generic, while the second is specific about obvious or insightful classes. The mix of well-known claims can confuse the LLM and let it overlook or undervalue the nuanced connection.
 
 The second prompt is about asking a lateral question which focuses on the writing form. Which is also an extreme example of summarisation because the whole sentence is reduced from 74 chars to 70 (-5%) but the variable part shrinks from 13 to 10 chars:
 
@@ -37,7 +37,7 @@ Finally, a cosmetic polishing is applied to the session prompt to please the AI 
 
 - [conversation](https://g.co/gemini/share/e95e36b23441) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n1.txt#?target=_blank)
 
-The first test is not even a test because there is no the short-but-relevant session prompt. It is just explorative and contributes to creating the test framework. Moreover, it goes deeper into the AI "psychology" of comprehension investigating in a more detailed way the answer given. *Know your chickens*!
+The first test is not even a test because there is no the short-but-relevant session prompt. It is just explorative and contributes to creating the testing framework. Moreover, it goes deeper into the AI "psychology" of comprehension investigating in a more detailed way the answer given. *Know your chickens*.
 
 ---
 
@@ -77,12 +77,6 @@ In general, it increases the risk of providing just the hallucinated parts but i
 
 ---
 
-### test n.4: obvious or insightful
-
-- [conversation](https://g.co/gemini/share/96850b7d9480) and its [transcription](not-yet#?target=_blank)
-
----
-
 ### The short-but-relevant session prompt
 
 [!CITE]
@@ -93,9 +87,19 @@ In general, it increases the risk of providing just the hallucinated parts but i
 
    - [conversation](https://g.co/gemini/share/0c4d2dd1ddcc) and its [transcription](not-yet#?target=_blank)
 
+The final prompt includes minal changes like using semicolon to separate a subset of action based on "to be $adjetive" and "to avoid $something", plus it aims to further strenghten the idea of completely cut off the obvious parts. *It is a kind of magic*!
+
 ---
 
-### The test framework
+### test n.4: obvious or insightful
+
+- [conversation](https://g.co/gemini/share/96850b7d9480) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n4.txt#?target=_blank)
+
+The fourth test challenges the final version of the short-but-relevant session prompt within the testing framework for no other reason than compare the result with the previous one.
+
+---
+
+### The testing framework
 
 [!CITE]
 What do you think about this post on LinkedIn? Is it obvious or insightful?
