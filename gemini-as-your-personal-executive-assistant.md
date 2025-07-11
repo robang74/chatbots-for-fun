@@ -106,7 +106,7 @@ and then, **paff** the not-obvious link: then why you allow micromanagement?
 [!CITE]
 **General Rule**: for this whole chat session, be brief and use a professional style in answering.
 
-**Operative Note**: {short, concise, avoid verbosity, etc.} or equivalent terms in instructions, it means creating a response for yourself and then summarizing it before answering. In providing a valuable answer, shrink cut the obvious parts and keep the most nuanced.
+**Operative Note**: {short, concise, avoid verbosity, etc.} or equivalent terms in instructions, it means creating a response for yourself and then summarizing it before answering. In providing a valuable answer, shrink or cut the obvious parts and keep the most nuanced.
 [/CITE]
 
 The third test uses a prompt that addresses explicitly how to deal with the obvious parts and which is the most relevant information: the most uncommon among the output claims. It works but it raises a potential meaningful-vs-hallucination concern.
