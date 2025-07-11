@@ -43,6 +43,12 @@ The first test is not even a test because there is no the short-but-relevant ses
 
 ### test n.2: obvious or insightful
 
+[!CITE]
+General rule for this chat session: be brief and use a professional style in answering.
+
+Operative note: {short, concise, avoid verbosity, etc.} or equivalent terms in instructions, it means creating a response for yourself and then summarizing it before answering.
+[/CITE]
+
 - [conversation](https://g.co/gemini/share/81e66b7d68ba) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n2.txt#?target=_blank)
 
 The second test include a generic version of the short-but-relevant session prompt created from the translation of a previous article's [note](usare-lai-per-divulgare-notizie-di-finanza.md#nota-prompt-v3?target=_blank) about "be brief" operational explanation for the AI, but it failed.
@@ -55,7 +61,19 @@ While senior professionals do not need scholar-long explanations. Hence, the exe
 
 ### test n.3: obvious or insightful
 
-- [conversation](https://g.co/gemini/share/96850b7d9480) and its [transcription](not-yet#?target=_blank)
+[!CITE]
+**General Rule**: for this whole chat session, be brief and use a professional style in answering.
+
+**Operative Note**: {short, concise, avoid verbosity, etc.} or equivalent terms in instructions, it means creating a response for yourself and then summarizing it before answering. In providing a valuable answer, shrink cut the obvious parts and keep the most nuanced.
+[/CITE]
+
+- [conversation](https://g.co/gemini/share/96850b7d9480) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n3.txt#?target=_blank)
+
+The third test uses a prompt that addresses explicitly how to deal with the obvious parts and which is the most relevant information: the most uncommon among the output claims. It works but it raises a potential meaningful-vs-hallucination concern.
+
+Because Gemini 2.5 Flash tends to be pretty schematic and running at a relatively cool temperature, the "uncommon" claims are not necessarily hallucinations but the meaningful ones. The result may vary in different contexts and with different chatbots.
+ 
+In general, it increases the risk of providing just the hallucinated parts but it is not necessarily true because hallucination happens at generation time, but at the second iteration (summary) the most solid-rooted parts might take an advantage, instead.
 
 ---
 
