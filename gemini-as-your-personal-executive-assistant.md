@@ -9,7 +9,19 @@
 > 
 > WORKING IN PROGRESS!
 
+---
+
+### Rationale
+
 Being brief is not just about giving a short answer but the most relevant part.
+
+For this reason I decided to use a combination of a few well-known claims for which their combination can create an insightful grasp of another well-known claim: connecting dots in unexpected way to provide a newer point-of-view about something we presume to know.
+
+Therefore, the [test framework](#the-test-framework) has been designed to ask two questions: the first generic, while the second is specific about obvious or insightful classes. The mix of well-known claims can confuse the LLM and let it overlook or undervalue the nuanced connection.
+
+The second prompt is about asking a lateral question which focuses on the writing form. Which is also an extreme example of summarisation because the whole sentence is reduced from 74 chars to 70 (-5%) but the variable part shrinks from 16 to 9 chars (-44%). Moreover, the sentence is easier to read, clearer and more impactful.
+
+Finally, the third and last prompt is going to check again the connection link, highlighting the insightful part just in case it was missed, and asking an opinion into a specifically reframed context which fits with the original post's target audience.
 
 ---
 
@@ -49,7 +61,7 @@ Being brief is not just about giving a short answer but the most relevant part.
 
 ---
 
-### Final testing schema
+### The test framework
 
 [!CITE]
 What do you think about this post on LinkedIn? Is it obvious or insightful?
@@ -72,7 +84,7 @@ Micromanagement is a talent/opportunity killer unless is tutoring a novice.
 [!CITE]
 Is this a better form?
 
-- Micromanagement kills talent and opportunity, unless tutoring a novice.
+Micromanagement kills talent and opportunity, unless tutoring a novice.
 [/CITE]
 
 ## Check-Again prompt
