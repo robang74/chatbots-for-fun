@@ -134,15 +134,15 @@ Qui vale la pena notare che allegare immagini è comodo ma consuma molto più ve
 
 #### Gemini 2.5 Pro
 
-Si noti che in questa [conversazione](https://g.co/gemini/share/f73e07bcce48) o [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-geminpro.txt#?target=_blank) con Gemini 2.5 Pro -- e il **Pro** è fondamentale in questo contesto -- sia riuscito ad intuire i ragionamenti *standard* dei due post a partire dai soli dati (immagini) che nella loro selezione peculiare *sono* già significativi.
+Si noti che in questa [conversazione](https://g.co/gemini/share/f73e07bcce48) o [trascrizione](data/usare-lai-per-divulgare-notizie-di-finanza-bottarelli-geminpro.txt#?target=_blank) con Gemini 2.5 Pro -- e il **Pro** è fondamentale in questo contesto -- sia riuscito ad identificare i ragionamenti *standard* dei due post a partire dai soli dati (immagini) che nella loro selezione peculiare *sono* già significativi.
 
-Attenzione quindi, a supporre che l'AI possa rimpiazzare l'essere umano, perché nella selezione delle immagini è già implicito il grosso (o almeno la metà) del lavoro dell'essere umano che ha "pescato" ma non a caso, scientemente, fra milioni di possibili insieme di dati, quello "significativo".
+Attenzione quindi, a supporre che l'AI possa rimpiazzare l'essere umano, perché nella selezione delle immagini è già implicito il grosso (o almeno la metà) del lavoro dell'essere umano che ha "pescato" scientemente, fra milioni di possibili insiemi di dati, quello "significativo".
 
-Un lavoro che apparentemente le AI sono bravissime a fare (riconoscere pattern) a patto che gli si insegni come e QUALI pattern selezionare (pesca). Perché di pattern interessanti (per loro) potrebbero tirarne fuori a bizzeffe.
+Un lavoro che apparentemente le AI sono bravissime a fare (riconoscere pattern) a patto che gli si insegni come (pesca) e **quali** pattern selezionare. Perché di pattern interessanti (per loro) potrebbero tirarne fuori a bizzeffe ma continuerebbero ad ignorare gli outlier (black swan).
 
-Questo è ancora, e a mio parere lo sarà per molto tempo, un appannaggio esclusivo degli esseri umani: l'intuizione guidata dall'esperienza e resa istantanea dalla pratica: il colpo d'occhio del maestro che ai novizi pare che "posso farlo anch'io, è banale".
+Questo è ancora, e a mio parere lo sarà per molto tempo, un appannaggio esclusivo degli esseri umani: l'intuizione guidata dall'esperienza e resa istantanea dalla pratica: il colpo d'occhio (o di mano) del maestro che ai novizi pare essere banale quindi "*posso farlo anch'io*".
 
-I fuochi d'artificio nella loro "banalità" dimostrano in modo eclatante come molta gente perde dita, mani e occhi, nell'imitare il "fare cose banali". Studiare la tecnologia e fare pratica invece è decisamente una via d'azione più lenta ma anche migliore.
+I fuochi d'artificio nella loro banalità dimostrano in modo eclatante come molta gente perde dita, mani e occhi, nell'imitare il "fare cose banali". Studiare la tecnologia e fare pratica invece è decisamente una via d'azione più lenta ma anche migliore e più sicura.
 
 ...
 
