@@ -220,7 +220,7 @@ for i in data/gemini-as-your-personal-executive-assistant-test-&ast;answers&ast;
  &nbsp; &nbsp; dd bs=1 of=/dev/null 2>&1 | grep bytes | cut -d' ' -f1)\t$i" ; done
 [/CODE]
 
-Ratio computed as size palin-text vs size compressed, less is better:
+Ratio computed as size palin-text vs size compressed as explained [here](usare-lai-per-divulgare-notizie-di-finanza.md#il-prompt-v3?target=_blank), less is better:
 
 - `2258` &nbsp; `2.28` &nbsp;	test-n1-answers.txt
 - `1423` &nbsp; `2.16` &nbsp;	test-n2-answers.txt
