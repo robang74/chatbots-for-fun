@@ -19,7 +19,13 @@ For this reason I decided to use a combination of a few well-known claims for wh
 
 Therefore, the [test framework](#the-test-framework) has been designed to ask two questions: the first generic, while the second is specific about obvious or insightful classes. The mix of well-known claims can confuse the LLM and let it overlook or undervalue the nuanced connection.
 
-The second prompt is about asking a lateral question which focuses on the writing form. Which is also an extreme example of summarisation because the whole sentence is reduced from 74 chars to 70 (-5%) but the variable part shrinks from 16 to 9 chars (-44%). Moreover, the sentence is easier to read, clearer and more impactful.
+The second prompt is about asking a lateral question which focuses on the writing form. Which is also an extreme example of summarisation because the whole sentence is reduced from 74 chars to 70 (-5%) but the variable part shrinks from 13 to 10 chars:
+
+- `$subject` is a `$object(/)` killer `$condition` is `$activity` --> `is_a` (4) + `killer` (6) + `is_` (3) --> 13
+
+- `$subject` kills `$object(and)`, `$condition` `$activity` --> `kills` (5) + `_and` (4) + `,` (1) --> 10 (-23%)
+
+The new sentence is easier to read, and more impactful because it moves from "to be" form to "to do" form.
 
 The third and last prompt is going to check again the connection link, highlighting the insightful part just in case it was missed, and asking an opinion into a specifically reframed context which fits with the original post's target audience.
 
