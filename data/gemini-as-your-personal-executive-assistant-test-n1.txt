@@ -10,22 +10,10 @@ URL: g.co/gemini/share/e95e36b23441
 
 ================================================================================
 
-What do you think about this post on LinkedIn? Is it obvious or insightful?
+[... The testing framework, first prompt ...]
 
-## Meme image
-
-There is too much talent trapped in poverty.
-
-## Post text
-
-OPPORTUNITY COST, A GOOD EXAMPLE
-
-Opportunity cost is the value of the next best alternative that is forgone when
-a choice is made. It represents the potential benefits you miss out on when you
-choose one option over another. Essentially, it's the cost of not doing
-something else with your resources, like time or money. -- Gemini
-
-Micromanagement is a talent/opportunity killer unless is tutoring a novice.
+https://robang74.github.io/chatbots-for-fun/html/
+    gemini-as-your-personal-executive-assistant.html#the-testing-framework
 
 --AI--
 

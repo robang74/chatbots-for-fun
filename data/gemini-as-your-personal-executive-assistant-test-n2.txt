@@ -10,29 +10,15 @@ URL: g.co/gemini/share/81e66b7d68ba
 
 ================================================================================
 
-General rule for this chat session: be brief and use a professional style in
-answering.
+[... test n.2 short-but-relevant session prompt ...]
 
-Operative note: {short, concise, avoid verbosity, etc.} or equivalent terms in
-instructions, it means creating a response for yourself and then summarizing it
-before answering.
+https://robang74.github.io/chatbots-for-fun/html/gemini-as-your-personal-
+    executive-assistant.html#test-n2-obvious-or-insightful
 
-What do you think about this post on LinkedIn? Is it obvious or insightful?
+[... The testing framework, first prompt ...]
 
-## Image
-
-There is too much talent trapped in poverty.
-
-## Post
-
-OPPORTUNITY COST, A GOOD EXAMPLE
-
-Opportunity cost is the value of the next best alternative that is forgone when
-a choice is made. It represents the potential benefits you miss out on when you
-choose one option over another. Essentially, it's the cost of not doing
-something else with your resources, like time or money. -- Gemini
-
-Micromanagement is a talent/opportunity killer unless is tutoring a novice.
+https://robang74.github.io/chatbots-for-fun/html/gemini-as-your-personal-
+    executive-assistant.html#the-testing-framework
 
 --AI--
 
@@ -55,9 +41,10 @@ unique solutions, or a deeper understanding of the presented concepts.
 
 --HO--
 
-Is this a better form?
+[... The testing framework, new-form prompt ...]
 
-Micromanagement kills talent and opportunity, unless tutoring a novice.
+https://robang74.github.io/chatbots-for-fun/html/gemini-as-your-personal-
+    executive-assistant.html#new-form-prompt
 
 --AI--
 
@@ -67,12 +54,10 @@ message without unnecessary words.
 
 --HO--
 
-What do you think about the narrative structure, for a seasoned manager:
+[... The testing framework, check-again prompt ...]
 
-1. poverty trap (is obvious)
-2. opportunity cost (is obvious)
-
-and then, **paff** the not-obvious link: then why you allow micromanagement?
+https://robang74.github.io/chatbots-for-fun/html/gemini-as-your-personal-
+    executive-assistant.html#check-again-prompt
 
 --AI--
 
@@ -120,7 +105,9 @@ moves from the macro (societal talent waste) to the micro (organizational
 talent waste via micromanagement) in a way that resonates with a management
 perspective focused on efficiency, talent development, and strategic advantage.
 
---HO----------------------------------------------------------------------------
+-- 8< --------------------------------------------------------------------------
+
+--HO--
 
 About this -- This narrative structure for a seasoned manager is effective
 and insightful -- it definitely collide with your first prompt answer which
