@@ -134,7 +134,7 @@ svg.warnicon, svg.infoicon {
 }
 
 
-tt {
+.mono tt {
     font-weight: bold;
     position: relative;
  /*\,-Remove this parenthesis to switch the font */
