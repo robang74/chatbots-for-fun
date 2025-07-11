@@ -184,8 +184,9 @@ The answers to this new prompt inspired to me a new approach to reach a fully fl
 By a instive guess, the best prompt is the one used in test n.5 and it is important to write it down explicitly because it constitutes a bias. Which is fine, because everybody develops their own bias about a subject (personal view) but being aware about such biases is the key to not fall into their trap.
 
 [!CODE]
+mycat() { markdown $1 | html2text | tr -s ' ' | tr -d '\n'; }<br>
 for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers.txt;<br>
- &nbsp; &nbsp; do echo "$(markdown $i | html2text | tr -s ' ' | tr -d '\n' | wc -c)\t$i"; done
+ &nbsp; &nbsp; do echo "$(mycat $i | wc -c) \t $i"; done
 [/CODE]
 
 - test n.1: &nbsp; `5159 (100%)`
@@ -217,38 +218,37 @@ Therefore, I add to find a different approch than playing with words. The follow
 ### Redundancy evaluation
 
 [!CODE]
-for i in data/gemini-as-your-personal-executive-assistant-test-&ast;answers&ast;.txt;<br>
- &nbsp; do echo "$(markdown $i | html2text | tr -s ' ' | tr -d '\n' | pigz -11c |\<br>
- &nbsp; &nbsp; dd bs=1 of=/dev/null 2>&1 | grep bytes | cut -d' ' -f1)\t$i" ; done
+mysze() { pigz -11c | dd bs=1 of=/dev/null 2>&1 | grep bytes | cut -d' ' -f1; }<br>
+for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<br>
+ &nbsp; &nbsp; do echo "$(mycat $i | mysze) \t $i"; done
 [/CODE]
 
 Ratio computed as size palin-text vs size compressed as explained [here](usare-lai-per-divulgare-notizie-di-finanza.md#il-prompt-v3?target=_blank), less is better:
 
-- `2258` &nbsp; `2.28` &nbsp;	test-n1-answers.txt
-- `1423` &nbsp; `2.16` &nbsp;	test-n2-answers.txt
-- ` 925` &nbsp; `1.96` &nbsp;	test-n3-answers.txt
-- ` 856` &nbsp; `2.06` &nbsp;	test-n4-answers.txt
-- `1032` &nbsp; `2.06` &nbsp;	test-n5-answers.txt
-- ` 831` &nbsp; `2.31` &nbsp;	test-n6-answers-ase.txt
-- ` 732` &nbsp; `2.09` &nbsp;	test-n6-answers-xse.txt <-- that choice
-- ` 692` &nbsp; `2.00` &nbsp;	test-n6-answers-xsx.txt
-- ` 219` &nbsp; `1.78` &nbsp;	test-n6-answers-axx.txt
+- `2258` &nbsp; ( `2.28` ) &nbsp;	test-n1-answers.txt
+- `1423` &nbsp; ( `2.16` ) &nbsp;	test-n2-answers.txt
+- ` 925` &nbsp; ( `1.96` ) &nbsp;	test-n3-answers.txt
+- ` 856` &nbsp; ( `2.06` ) &nbsp;	test-n4-answers.txt
+- `1032` &nbsp; ( `2.06` ) &nbsp;	test-n5-answers.txt
+- ` 831` &nbsp; ( `2.31` ) &nbsp;	test-n6-answers-ase.txt
+- ` 732` &nbsp; ( `2.09` ) &nbsp;	test-n6-answers-xse.txt <-- that choice
+- ` 692` &nbsp; ( `2.00` ) &nbsp;	test-n6-answers-xsx.txt
+- ` 219` &nbsp; ( `1.78` ) &nbsp;	test-n6-answers-axx.txt
 
 The section headers are optional and useless for when a subset of section is taken for the answer:
 
-- size( `A,S,E` ): &nbsp;`1613` &nbsp;`(100%)` &nbsp; without headers, optional
-- size( `_,S,E` ): &nbsp;`1356` &nbsp;`( 84%)` &nbsp; without headers, useless <-- best choice (eq. 26%)
-- size( `_,S,_` ): &nbsp;`1274` &nbsp;`( 79%)` &nbsp; without headers, useless
-- size( `A,_,_` ): &nbsp;` 257` &nbsp;`( 16%)` &nbsp; without headers, useless
-++++
-Redundancy evaluation, without headers:
-
-- ` 749` &nbsp; `2.15` &nbsp;	test-n6-answers-ase.txt
-- ` 684` &nbsp; `1.98` &nbsp;	test-n6-answers-xse.txt <-- that choice
-- ` 657` &nbsp; `1.94` &nbsp;	test-n6-answers-xsx.txt
-- ` 180` &nbsp; `1.42` &nbsp;	test-n6-answers-axx.txt
+- size( `A,S,E` ): &nbsp;`1613` &nbsp;`(100%)` &nbsp;|&nbsp; pigz: ` 749` &nbsp; ( `2.15` )
+- size( `_,S,E` ): &nbsp;`1356` &nbsp;`( 84%)` &nbsp;|&nbsp; pigz: ` 684` &nbsp; ( `1.98` ) <-- best choice (eq. 26%)
+- size( `_,S,_` ): &nbsp;`1274` &nbsp;`( 79%)` &nbsp;|&nbsp; pigz: ` 657` &nbsp; ( `1.94` )
+- size( `A,_,_` ): &nbsp;` 257` &nbsp;`( 16%)` &nbsp;|&nbsp; pigz: ` 180` &nbsp; ( `1.42` )
 
 However, the numbers are not changing to much. While the ratio 2.00 emerges as a golden value.
+
+To remove the headers from the size and pigz values computation, adding a `grep` is enough.
+
+[!CODE]
+mycat() { grep -v "^#" $i | html2text | tr -s ' ' | tr -d '\n'; }
+[/CODE]
 
 +
 
