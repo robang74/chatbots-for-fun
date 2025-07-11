@@ -206,12 +206,16 @@ Therefore, I add to find a different approch than playing with words. The follow
 **Operative Note**: {be brief, short, concise; avoid verbosity, etc.} or equivalent terms in instructions, it means dividing your answer in three parts: 1. highlights insightful links among concepts; 2. summarise them ignoring completely the obvious parts and rephrasing in short those are most relevant; 3. provide to the user that summary, only.
 [/CITE]
 
-- https://g.co/gemini/share/a5ba5ce6e9d5
+- [conversation](https://g.co/gemini/share/a5ba5ce6e9d5) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n6.txt#?target=_blank)
+
+This prompts produced a set of answer which are divided in three parts, and their subsets are valuable too:
 
 - size( `A,S,E` ): &nbsp;`1957` &nbsp;`(100%)` &nbsp; eq. to 38% of test n.1
 - size( `_,S,E` ): &nbsp;`1559` &nbsp;`( 80%)` &nbsp; analysis is redundant <-- best choice (eq. 30%)
 - size( `_,S,_` ): &nbsp;`1405` &nbsp;`( 72%)` &nbsp; summary is informative
 - size( `A,_,_` ): &nbsp;` 398` &nbsp;`( 20%)` &nbsp; evaluation is too short
+
+The best choise is to have a reasonably long explanation followed by an extremely short A/B evaluation.
 
 ---
 
@@ -235,7 +239,13 @@ Ratio computed as size palin-text vs size compressed as explained [here](usare-l
 - ` 692` &nbsp; ( `2.03` ) &nbsp;	test-n6-answers-xsx.txt
 - ` 219` &nbsp; ( `1.82` ) &nbsp;	test-n6-answers-axx.txt
 
-The section headers are optional and useless for when a subset of section is taken for the answer:
+To remove the headers from the size and pigz values computation, adding a `grep` is enough.
+
+[!CODE]
+mycat() { grep -v "^#" $i | html2text |  tr '\n' ' ' | tr -s ' '; }
+[/CODE]
+++++
+The section headers are optional and useless for when a subset of section is taken for the answer.
 
 - size( `A,S,E` ): &nbsp;`1687` &nbsp;`(100%)` &nbsp;|&nbsp; pigz: ` 764` &nbsp; ( `2.20` )
 - size( `_,S,E` ): &nbsp;`1409` &nbsp;`( 84%)` &nbsp;|&nbsp; pigz: ` 700` &nbsp; ( `2.01` ) <-- best choice (eq. 27%)
@@ -244,11 +254,6 @@ The section headers are optional and useless for when a subset of section is tak
 
 However, the numbers are not changing to much. While the ratio 2.00 emerges as a golden value.
 
-To remove the headers from the size and pigz values computation, adding a `grep` is enough.
-
-[!CODE]
-mycat() { grep -v "^#" $i | html2text |  tr '\n' ' ' | tr -s ' '; }
-[/CODE]
 
 +
 
