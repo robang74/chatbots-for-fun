@@ -208,11 +208,13 @@ Therefore, I add to find a different approch than playing with words. The follow
 - https://g.co/gemini/share/a5ba5ce6e9d5
 
 - size( `A,S,E` ): &nbsp;`1922` &nbsp;`(100%)` &nbsp; eq. to 37% of test n.1
-- size( `_,S,E` ): &nbsp;`1532` &nbsp;`( 80%)` &nbsp; analysis is redundant <-- best choice
+- size( `_,S,E` ): &nbsp;`1532` &nbsp;`( 80%)` &nbsp; analysis is redundant <-- best choice (eq. 30%)
 - size( `_,S,_` ): &nbsp;`1384` &nbsp;`( 72%)` &nbsp; summary is informative
 - size( `A,_,_` ): &nbsp;` 390` &nbsp;`( 20%)` &nbsp; evaluation is too short
 
-#### Redundancy evaluation
+---
+
+### Redundancy evaluation
 
 [!CODE]
 for i in data/gemini-as-your-personal-executive-assistant-test-&ast;answers&ast;.txt;<br>
@@ -232,9 +234,25 @@ Ratio computed as size palin-text vs size compressed as explained [here](usare-l
 - ` 692` &nbsp; `2.00` &nbsp;	test-n6-answers-xsx.txt
 - ` 219` &nbsp; `1.78` &nbsp;	test-n6-answers-axx.txt
 
+The section headers are optional and useless for when a subset of section is taken for the answer:
+
+- size( `A,S,E` ): &nbsp;`1613` &nbsp;`(100%)` &nbsp; without headers, optional
+- size( `_,S,E` ): &nbsp;`1356` &nbsp;`( 84%)` &nbsp; without headers, useless <-- best choice (eq. 26%)
+- size( `_,S,_` ): &nbsp;`1274` &nbsp;`( 79%)` &nbsp; without headers, useless
+- size( `A,_,_` ): &nbsp;` 257` &nbsp;`( 16%)` &nbsp; without headers, useless
+++++
+Redundancy evaluation, without headers:
+
+- ` 749` &nbsp; `2.15` &nbsp;	test-n6-answers-ase.txt
+- ` 684` &nbsp; `1.98` &nbsp;	test-n6-answers-xse.txt <-- that choice
+- ` 657` &nbsp; `1.94` &nbsp;	test-n6-answers-xsx.txt
+- ` 180` &nbsp; `1.42` &nbsp;	test-n6-answers-axx.txt
+
+However, the numbers are not changing to much. While the ratio 2.00 emerges as a golden value.
+
 +
 
-#### Links to integrate, yet
+## Links to integrate, yet
 
 - https://g.co/gemini/share/bbfa47f6e67c 
 
