@@ -1,5 +1,9 @@
 ## Gemini as your personal executive assistant
 
+> [!WARN]
+> 
+> WORKING IN PROGRESS!
+
 Being brief is not just about giving a short answer but the most relevant part.
 
 ---
@@ -32,9 +36,8 @@ Being brief is not just about giving a short answer but the most relevant part.
 
 ### Final testing schema
 
-What do you think about this post on LinkedIn? Is it obvious or insightful?
-
 [!CITE]
+What do you think about this post on LinkedIn? Is it obvious or insightful?
 
 #### Image
 
@@ -51,13 +54,15 @@ Micromanagement is a talent/opportunity killer unless is tutoring a novice.
 
 #### New-Form prompt 
 
+[!CITE]
 Is this a better form?
 
 - Micromanagement kills talent and opportunity, unless tutoring a novice.
-
+[/CITE]
 
 ## Check-Again prompt
 
+[!CITE]
 What do you think about the narrative structure, for a seasoned manager:
 
 1. poverty trap (is obvious)
@@ -65,3 +70,4 @@ What do you think about the narrative structure, for a seasoned manager:
 2. opportunity cost (is obvious)
 
 and then, **paff** the not-obvious link: then why you allow micromanagement?
+[/CITE]
