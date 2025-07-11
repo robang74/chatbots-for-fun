@@ -31,7 +31,7 @@ The third and last prompt is going to check again the connection link, highlight
 
 Finally, a cosmetic polishing is applied to the session prompt to please the AI oversensitiveness for details.
 
----
+----
 
 ### test n.1: obvious or insightful
 
@@ -84,14 +84,14 @@ Is this a better form?
 
 Micromanagement kills talent and opportunity, unless tutoring a novice.
 [/CITE]
-
+++++
 #### Check-Again prompt
 
 [!CITE]
 What do you think about the narrative structure, for a seasoned manager:
 
 1. poverty trap (is obvious)
-
++++++
 2. opportunity cost (is obvious)
 
 and then, **paff** the not-obvious link: then why you allow micromanagement?
@@ -181,7 +181,7 @@ The answers to this new prompt inspired to me a new approach to reach a fully fl
 ### The short-but-relevant session prompt
 
 By a instive guess, the [best prompt](#best-form-prompt) is the one used in test n.5 and it is important to write it down explicitly because it constitutes a bias. Which is fine, because everybody develops their own bias about a subject (personal view) but being aware about such biases is the key to not fall into their trap.
-
+++++
 #### Links to integrate, yet
 
 - https://g.co/gemini/share/bbfa47f6e67c 
