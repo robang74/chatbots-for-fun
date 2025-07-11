@@ -183,7 +183,20 @@ The answers to this new prompt inspired to me a new approach to reach a fully fl
 ### The short-but-relevant session prompt
 
 By a instive guess, the [best prompt](#best-form-prompt) is the one used in test n.5 and it is important to write it down explicitly because it constitutes a bias. Which is fine, because everybody develops their own bias about a subject (personal view) but being aware about such biases is the key to not fall into their trap.
-++++
+
+[!CODE]
+for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers.txt;<br>
+ &nbsp; &nbsp; do echo "$(markdown $i | html2text | tr -s ' ' | tr -d '\n' | wc -c)\t$i"; done
+[/CODE]
+
+- test n.1: &nbsp; `5159 (100%)`
+- test n.2: &nbsp; `3076 ( 60%)`
+- test n.3: &nbsp; `1817 ( 35%)`
+- test n.4: &nbsp; `1762 ( 34%)`
+- test n.5: &nbsp; `2122 ( 41%)`
+
++
+
 #### Links to integrate, yet
 
 - https://g.co/gemini/share/bbfa47f6e67c 
