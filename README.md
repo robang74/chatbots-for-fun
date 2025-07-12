@@ -170,7 +170,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 ### Chatbots AI
 
-* [gemini.google.com](https://g.co/gemini/share/a07f9356c251) &nbsp; w/ SoNia **v3.8.5**
+* [gemini.google.com](https://g.co/gemini/share/5e4019e3e961) &nbsp; w/ SoNia **v3.8.6**
 
 * [x.com/i/grok](https://x.com/i/grok/share/UCsu3UArFY11cPqR5bk0SSmNR) &nbsp; w/ SoNia v3.7.4
 
