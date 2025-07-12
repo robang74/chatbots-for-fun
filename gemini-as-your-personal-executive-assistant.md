@@ -232,7 +232,7 @@ for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<
  &nbsp; &nbsp; do echo "$(mycat $i | mysze) \t $i"; done
 [/CODE]
 ++++
-Ratio computed as size plain-text vs size compressed as explained [here](usare-lai-per-divulgare-notizie-di-finanza.md#il-prompt-v3?target=_blank), less is better:
+Ratio [computed](data/gemini-as-your-personal-executive-assistant-test-script.txt#?target=_blank) as size plain-text vs size compressed as explained [here](usare-lai-per-divulgare-notizie-di-finanza.md#il-prompt-v3?target=_blank), less is better:
 
 - `2253` &nbsp; ( `2.31` ) &nbsp;	test-n1-answers.txt
 - `1425` &nbsp; ( `2.18` ) &nbsp;	test-n2-answers.txt
@@ -257,7 +257,7 @@ The section headers are optional and useless for when a subset of section is tak
 - size( `_,S,_` ): &nbsp;`1292` &nbsp;`( 79%)` &nbsp;|&nbsp; pigz: ` 650` &nbsp; ( `1.99` )
 - size( `A,_,_` ): &nbsp;` 262` &nbsp;`( 16%)` &nbsp;|&nbsp; pigz: ` 180` &nbsp; ( `1.46` )
 
-The numbers are not changing to much. While the ratio 2.00 emerges as a golden ratio (cfr. [Shannon](../data/information-theory-entropy-of-english.htm#:~:text=Shannon%20initially%20estimated%20this%20value%20at%2050%20%25?target=_blank)).
+The [numbers](../data/gemini-as-your-personal-executive-assistant-test-excel.xls.gz) are not changing to much. While the ratio 2.00 emerges as a golden ratio (cfr. [Shannon](../data/information-theory-entropy-of-english.htm#:~:text=Shannon%20initially%20estimated%20this%20value%20at%2050%20%25?target=_blank)).
 
 ---
 
