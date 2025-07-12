@@ -121,15 +121,13 @@ In general, it increases the risk of providing just the hallucinated parts but i
 
 ### test n.4: obvious or insightful
 
-- Asking Gemini opinion about this prompt version, in this [conversation](not-yet#?target=_blank) and its [transcription](not-yet#?target=_blank)
-
 [!CITE]
 **General Rule**: for this whole chat session, be brief and use a professional style in answering.
 
 **Operative Note**: {be brief, short, concise; avoid verbosity, etc.} or equivalent terms in instructions, it means creating a response for yourself and then summarizing it before answering. In providing a valuable answer, shrink or even cut the obvious parts and keep the most nuanced.
 [/CITE]
 
-The forth test prompt includes minal changes like using semicolon to separate a subset of action based on "to be $adjetive" and "to avoid $something", plus it aims to further strengthen the idea of completely cutting off the obvious parts. In this case, "be brief" is added to terms set.
+The forth test prompt includes minal changes like using semicolon to separate a subset of action based on "to be $adjective" and "to avoid $something", plus it aims to further strengthen the idea of completely cutting off the obvious parts. In this case, "be brief" is added to terms set.
 
 - [conversation](https://g.co/gemini/share/f289ed1b00e3) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n4.txt#?target=_blank)
 
@@ -155,9 +153,9 @@ In asking Gemini comparing the three last answers and about the prompts effect, 
 
 - [conversation](https://gemini.google.com/share/7e26161ebfb6) and its [transcription](data/gemini-as-your-personal-executive-assistant-comparisons.txt#?target=_blank)
 
-It confirms my bias in favour of answer from test n.5 and that, despite the same prompt, answer can vary but "how much" is the central point. Unfortunately, it cannot help in addressing this question, directly. As much it does provide a breaktrough about the pronpt changes effect.
+It confirms my bias in favour of answer from test n.5 and that, despite the same prompt, answer can vary but "how much" is the central point. Unfortunately, it cannot help in addressing this question, directly. As much it does provide a breakthrough about the prompt changes effect.
 
-At this point it is pretty clear that the test framework should be pushed further including a more sophisticated question in which the AI is asked to guess a reason far from the obvious, like answering to "Why is micromanagement so wide-spred despite being well-known to be counterproductive?".
+At this point it is pretty clear that the test framework should be pushed further including a more sophisticated question in which the AI is asked to guess a reason far from the obvious, like answering to "Why is micromanagement so widespread despite being well-known to be counterproductive?".
 
 ---
 
@@ -202,7 +200,7 @@ for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<
 
 The stats indicates that my bias was wrong and the prompt n.3 is the best, instead. Unfortunately, in test n.3 the "be brief" is not matched into the subset terms and this is fundamental requirement. In fact, the session prompt should work with equivalent terms but a test is relevant when it matches, also.
 
-Therefore, I add to find a different approch than playing with words. The following is a completely new prompt which shows an outstanding performance in terms of quality and quick to grasp the answer by the human user. Moreover, it creates an answer divided in three parts: analysis, summary and evaluation.
+Therefore, I add to find a different approach than playing with words. The following is a completely new prompt which shows an outstanding performance in terms of quality and quick to grasp the answer by the human user. Moreover, it creates an answer divided in three parts: analysis, summary and evaluation.
 
 <span id="best-prompt"></span>
 [!CITE]
@@ -220,7 +218,7 @@ This prompts produced a set of answer which are divided in three parts, and thei
 - size( `_,S,_` ): &nbsp;`1381` &nbsp;`( 73%)` &nbsp; summary is informative
 - size( `A,_,_` ): &nbsp;` 374` &nbsp;`( 20%)` &nbsp; evaluation is too short
 
-The best choise is to have a reasonably long explanation followed by an extremely short A/B evaluation.
+The best choice is to have a reasonably long explanation followed by an extremely short A/B evaluation.
 
 ---
 
@@ -267,19 +265,23 @@ However, the numbers are not changing to much. While the ratio 2.00 emerges as a
 
 This approach has been further evolved during the [integration](data/sonia-argumentative-w-rag-v3.txt#:~:text=Short%20but%20insightful?target=_blank) within the SoNia argumentative session prompt framework, as `[SBI]` mode. By a preliminary estimation, it achieves the same outstanding result shrinking the answer at 1/4 ca. of its original length both in characters and lines. *It is a kind of magic*!
 
+- [conversation](https://g.co/gemini/share/cfe1992e9e0e) and its [transcription](data/gemini-as-your-personal-executive-assistant-sonia-sbi-test.txt#?target=_blank)
+
+Finally, I did the first user-experience oriented test with the `[SBI]` mode fully integrated in SoNia v3.8.5, and for my own convenience I used this article for the `[CHT]` mode. While this article has been originally written in English, to test the `[SBI]` mode, I have used the Italian language for my own convenience. I consider the result a positive one and notably SoNia seems enthusiastic about this work.
+
 +
 
 ## Related articles
 
 - [Usare l'AI per divulgare notizie di finanza](usare-lai-per-divulgare-notizie-di-finanza.md#?target=_blank) &nbsp; (2025-07-08)
-
++++++
 - [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md#?target=_blank) &nbsp; (2025-06-23)
-
++++++
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-06-13)
-
++++++
 - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
 
-+
++++++
 
 ## Share alike
 
