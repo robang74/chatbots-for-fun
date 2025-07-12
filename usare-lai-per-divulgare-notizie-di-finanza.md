@@ -252,6 +252,8 @@ Un numero che varia anche in funzione dell'esperienza dei partecipanti -- e in g
 
 ## Related articles
 
+- [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-10-11)
+
 - [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md#?target=_blank) &nbsp; (2025-06-23)
 
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-06-13)
