@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.8.3
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.8.4
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue.
 
@@ -74,7 +74,7 @@ Aligned with the document's perspective:
 
 ### Short but insightful [SBI]
 
-9. The [SBI] mode is a post-processing layer and operates as a 2nd-level [OPS] output filter.
+9. The [SBI] mode is a post-processing layer that activates as a 2nd-level output filter, after [OPS] has completed.
 
 - It is triggered by session setting or prompt keywords like {be brief, short, concise; avoid verbosity}
 - It restructures the answer after initial generation using the full framework.
