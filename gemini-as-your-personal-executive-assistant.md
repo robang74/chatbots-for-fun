@@ -265,9 +265,9 @@ However, the numbers are not changing to much. While the ratio 2.00 emerges as a
 
 This approach has been further evolved during the [integration](data/sonia-argumentative-w-rag-v3.txt#:~:text=Short%20but%20insightful?target=_blank) within the SoNia argumentative session prompt framework, as `[SBI]` mode. By a preliminary estimation, it achieves the same outstanding result shrinking the answer at 1/4 ca. of its original length both in characters and lines. *It is a kind of magic*!
 
-- [conversation](https://g.co/gemini/share/cfe1992e9e0e) and its [transcription](data/gemini-as-your-personal-executive-assistant-sonia-sbi-test.txt#?target=_blank)
+- [conversation](https://g.co/gemini/share/cdfb3dc0eb75) and its [transcription](data/gemini-as-your-personal-executive-assistant-sonia-sbi-test.txt#?target=_blank)
 
-Finally, I did the first user-experience oriented test with the `[SBI]` mode fully integrated in SoNia v3.8.5, and for my own convenience I used this article for the `[CHT]` mode. While this article has been originally written in English, to test the `[SBI]` mode, I have used the Italian language for my own convenience. I consider the result a positive one and notably SoNia seems enthusiastic about this work.
+Finally, I did the first user-experience oriented test with the `[SBI]` mode fully integrated in SoNia v3.8.6, and for my own convenience I used this article for the `[CHT]` mode. While this article has been originally written in English, to test the `[SBI]` mode, I have used the Italian language for my own convenience. I consider the result a positive one and notably SoNia seems enthusiastic about this work.
 
 +
 
