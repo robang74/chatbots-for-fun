@@ -187,7 +187,9 @@ The answers to this new prompt inspired to me a new approach to reach a fully fl
 By a instive guess, the best prompt is the one used in test n.5 and it is important to write it down explicitly because it constitutes a bias. Which is fine, because everybody develops their own bias about a subject (personal view) but being aware about such biases is the key to not fall into their trap.
 
 [!CODE]
-mycat() { markdown $1 | html2text |  tr '\n' ' ' | tr -s ' '; }<br>
+mytrs() { iconv -f UTF-8 -t ASCII//IGNORE "$1" | markdown | html2text; }<br>
+mytxt() { mytrs "$1" 2>&3 | sed -e 's,^==&ast;$,,' -ne '/./p'; }<br>
+mycat() { mytxt "$1" |  tr '\n' ' ' | tr -s '\# &ast;'; }<br>
 for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<br>
  &nbsp; &nbsp; do echo "$(mycat $i | wc -c) \t $i"; done
 [/CODE]
@@ -231,12 +233,6 @@ mysze() { pigz -11c | dd bs=1 of=/dev/null 2>&1 | grep bytes | cut -d' ' -f1; }<
 for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<br>
  &nbsp; &nbsp; do echo "$(mycat $i | mysze) \t $i"; done
 [/CODE]
-
-To remove the headers from the size and pigz values computation, adding a `grep` is enough:
-
-[!CODE]
-mycat() { grep -v "^#" $i | html2text |  tr '\n' ' ' | tr -s ' '; }
-[/CODE]
 ++++
 Ratio computed as size palin-text vs size compressed as explained [here](usare-lai-per-divulgare-notizie-di-finanza.md#il-prompt-v3?target=_blank), less is better:
 
@@ -250,6 +246,12 @@ Ratio computed as size palin-text vs size compressed as explained [here](usare-l
 - ` 692` &nbsp; ( `2.03` ) &nbsp;	test-n6-answers-xsx.txt
 - ` 219` &nbsp; ( `1.82` ) &nbsp;	test-n6-answers-axx.txt
 
+To remove the headers from the size and pigz values computation, adding a `grep` is enough:
+
+[!CODE]
+mytrs() { iconv -f UTF-8 -t ASCII//IGNORE "$1" | grep -v "^#" | markdown | html2text; }
+[/CODE]
+
 The section headers are optional and useless for when a subset of section is taken for the answer.
 
 - size( `A,S,E` ): &nbsp;`1687` &nbsp;`(100%)` &nbsp;|&nbsp; pigz: ` 764` &nbsp; ( `2.20` )
@@ -258,6 +260,16 @@ The section headers are optional and useless for when a subset of section is tak
 - size( `A,_,_` ): &nbsp;` 279` &nbsp;`( 17%)` &nbsp;|&nbsp; pigz: ` 191` &nbsp; ( `1.54` )
 
 However, the numbers are not changing to much. While the ratio 2.00 emerges as a golden value.
+
+> [!WARN]
+> 
+> The bash functions have been changed since the stats has been done, recalculation is need. To do, yet.
+
+---
+
+### SoNia 3.8.x integration
+
+This approach has been further evolved during the integration within the SoNia argumentative session prompt framework, as `[SBI]` mode. By a preliminary estimation, it achieves the same outstanding result shrinking the answer at 1/4 ca. of its original length both in characters and lines. *It is a kind of magic*!
 
 +
 
