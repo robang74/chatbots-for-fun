@@ -498,11 +498,9 @@ in questo articolo. Cosa ne pensi?
 
 ### SoNia 3.8.x integration
 
-This approach has been further evolved during the integration within the SoNia
-argumentative session prompt framework, as `[SBI]` mode. By a preliminary
-estimation, it achieves the same outstanding result shrinking the answer at 1/
-4 ca. of its original length both in characters and lines. *It is a kind of
-magic*!
+[... text from "SoNia 3.8.x integration" section, before conversation ...]
+
+*It is a kind of magic*!
 
 --AI--
 
