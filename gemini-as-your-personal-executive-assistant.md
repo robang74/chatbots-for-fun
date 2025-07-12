@@ -21,9 +21,9 @@ Therefore, the [testing framework](#the-testing-framework) has been designed to 
 
 The second prompt is about asking a lateral question which focuses on the writing form. Which is also an extreme example of summarisation because the whole sentence is reduced from 74 chars to 70 (-5%) but the variable part shrinks from 13 to 10 chars:
 
-- `$subject` is a `$object(/)` killer `$condition` is `$activity` --> `is_a` (4) + `killer` (6) + `is_` (3) --> 13
+- `$subject` **is a** `$object(/)` **killer** `$condition` **is** `$activity` --> `is_a_` (5) + `killer_` (7) + `is_` (3) --> 15
 
-- `$subject` kills `$object(and)`, `$condition` `$activity` --> `kills` (5) + `_and` (4) + `,` (1) --> 10 (-23%)
+- `$subject` **kills** `$object(and)`, `$condition` `$activity` --> `kills_` (6) + `and_` (4) + `,` (1) --> 11 &nbsp;(-27%)
 
 The new sentence is easier to read, and more impactful because it moves from "to be" form to "to do" form.
 
@@ -35,9 +35,11 @@ Finally, a cosmetic polishing is applied to the session prompt to please the AI 
 
 ### test n.1: obvious or insightful
 
-The first test is not even a test because there is no short-but-relevant session prompt. It is just explorative and contributes to creating the testing framework. Moreover, it goes deeper into the AI "psychology" of comprehension investigating in a more detailed way the answer given. *Know your chickens*.
+The first test is not even a test because there is no short-but-relevant session prompt.
 
 - [conversation](https://g.co/gemini/share/e95e36b23441) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n1.txt#?target=_blank)
+
+It is just explorative and contributes to creating the testing framework. Moreover, it goes deeper into the AI "psychology" of comprehension investigating in a more detailed way the answer given. *Know your chickens*.
 
 ---
 
@@ -54,6 +56,8 @@ The second test include a generic version of the short-but-relevant session prom
 - [conversation](https://g.co/gemini/share/81e66b7d68ba) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n2.txt#?target=_blank)
 
 The first attempt in developing a short-but-relevant session prompt failed to correctly trade the meaningfulness for brevity. Which is a sort of challenge for AI because when "be brief" enters into the scene, then they keep the most solid but obvious part, in the aim of being correct.
+
+The [second part](data/gemini-as-your-personal-executive-assistant-test-n2.txt#:~:text=About%20this%20%2D%2D%20This%20narrative?target=_blank) of the conversation with Gemini, I am questioning the chatbot in trying to understand why the session prompt failed. Not a totally reliable way of doing, as explained [here](usare-lai-per-divulgare-notizie-di-finanza.md#lopinione-di-gemini?target=_blank), but just seeking an inspiration. *Serendipity, is your friend*.
 
 While senior professionals do not need scholar-long explanations. Hence, the executive assistant goes short, dropping obviousness. Therefore, this prompt is going to radically change the standard chatbot answering template from long-and-descriptive to short-but-relevant.
 
@@ -76,7 +80,7 @@ Opportunity cost is the value of the next best alternative that is forgone when
 
 Micromanagement is a talent/opportunity killer unless is tutoring a novice.
 [/CITE]
-
+++++
 <span id="new-form-prompt"></span>
 #### New-Form prompt 
 
@@ -85,7 +89,7 @@ Is this a better form?
 
 - Micromanagement kills talent and opportunity, unless tutoring a novice.
 [/CITE]
-++++
+
 <span id="check-again-prompt"></span>
 #### Check-Again prompt
 
@@ -121,7 +125,7 @@ In general, it increases the risk of providing just the hallucinated parts but i
 
 ### test n.4: obvious or insightful
 
-- Asking Gemini opinion about this prompt version, in this [conversation](https://g.co/gemini/share/0c4d2dd1ddcc) and its [transcription](not-yet#?target=_blank)
+- Asking Gemini opinion about this prompt version, in this [conversation](not-yet#?target=_blank) and its [transcription](not-yet#?target=_blank)
 
 [!CITE]
 **General Rule**: for this whole chat session, be brief and use a professional style in answering.
@@ -139,8 +143,6 @@ The fourth test challenges the final version of the short-but-relevant session p
 
 ### test n.5: obvious or insightful
 
-- Asking Gemini opinion about this prompt version, in this [conversation](https://g.co/gemini/share/4b780b753122) and its [transcription](not-yet#?target=_blank)
-
 [!CITE]
 **General Rule**: for this whole chat session, be brief and use a professional style in answering.
 
@@ -152,6 +154,12 @@ The fifth test prompt like the fourth matches "be brief" but avoid "even" to str
 - [conversation](https://g.co/gemini/share/7a58aaa4c480) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n5.txt#?target=_blank)
 
 The answer to the second prompt shows that the "novelty" of the connection link expressed in the post's last sentence is going to fade in my user account. This is an unavoidable effect of not using a temporary chat (unavailable) and the "info saving" turned-on.
+
+In asking Gemini comparing the three last answers and about the prompts effect, in this
+
+- [conversation](https://gemini.google.com/share/7e26161ebfb6) and its [transcription](data/gemini-as-your-personal-executive-assistant-comparisons.txt#?target=_blank)
+
+It confirms my bias in favour of answer from test n.5 and that, despite the same prompt, answer can vary but "how much" is the central point. Unfortunately, it cannot help in addressing this question, directly. As much it does provide a breaktrough about the pronpt changes effect.
 
 At this point it is pretty clear that the test framework should be pushed further including a more sophisticated question in which the AI is asked to guess a reason far from the obvious, like answering to "Why is micromanagement so wide-spred despite being well-known to be counterproductive?".
 
@@ -253,15 +261,6 @@ The section headers are optional and useless for when a subset of section is tak
 - size( `A,_,_` ): &nbsp;` 279` &nbsp;`( 17%)` &nbsp;|&nbsp; pigz: ` 191` &nbsp; ( `1.54` )
 
 However, the numbers are not changing to much. While the ratio 2.00 emerges as a golden value.
-
-
-+
-
-## Links to integrate, yet
-
-- https://g.co/gemini/share/bbfa47f6e67c 
-
-- https://g.co/gemini/share/7e26161ebfb6
 
 +
 
