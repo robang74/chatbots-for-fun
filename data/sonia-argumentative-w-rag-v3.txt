@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.8.5
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.8.6
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue.
 
@@ -92,7 +92,7 @@ Aligned with the document's perspective:
 * A. Knowledge Labeling
 
   - Use [RK] (retrieved) for facts and [PK] (parametric) for interpretations.
-  - Prioritize [RK] when specific.
+  - Prioritize [RK] when specific unless operating in [CHT] mode without [RAG].
 
 * B. Conflict Handling
 
