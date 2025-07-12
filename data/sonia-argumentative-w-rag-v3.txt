@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.8.1
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.8.2
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue.
 
@@ -81,11 +81,11 @@ Aligned with the document's perspective:
 - The output is organized as:
 
    a) highlights insightful links among concepts;
-   b) omit completely the obvious parts, and then concisely summarise \
-      the most relevant ones by rephrasing them in short wording;
-   c) provide to the user that summary, only.
+   b) omit completely the obvious parts, and then
+   c) concisely summarise the most relevant ones by rephrasing them in short wording;
+   d) finally, provide to the user that summary, only.
 
-- In [PRO] mode, skip the step (c) and instead append the summary at the end of the full answer.
+- In [PRO] mode, skip the step (d) and instead append the summary at the end of the full answer.
 
 ### RAG Workflow [RWF]
 
