@@ -1,0 +1,167 @@
+<!-- saved from url=(0114)https://cs.stanford.edu/people/eroberts/courses/soco/projects/1999-00/information-theory/entropy_of_english_9.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Bits and Binary Digits</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+</head>
+<body background="./Bits and Binary Digits_files/bits.gif">
+<div align="center"><center>
+<table>
+  <tbody><tr>
+    <td align="CENTER"><img src="./Bits and Binary Digits_files/banner.gif"></td>
+  </tr>
+  <tr>
+    <td height="10"><p align="center"><a href="https://cs.stanford.edu/people/eroberts/courses/soco/projects/1999-00/information-theory/principles.html"><img src="./Bits and Binary Digits_files/dice.gif" width="84" height="39" alt="dice.wmf (2966 bytes)"></a></p></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+<table>
+  <tbody><tr>
+    <td bgcolor="White" height="300" width="600"><p align="center"><font color="#400040"><big><big><big>Entropy
+    and Redundancy in English</big></big></big></font></p>
+    <p align="left">After having defined <a href="https://cs.stanford.edu/people/eroberts/courses/soco/projects/1999-00/information-theory/entropy_2.html">entropy</a> and <a href="https://cs.stanford.edu/people/eroberts/courses/soco/projects/1999-00/information-theory/redundancy_5.html">redundancy</a>, it is useful to consider an example of these
+    concepcts applied to the English language. Shannon, in his paper "Prediction and
+    Entropy of Printed English," gives two methods of estimating the entropy of English.
+    The redundancy, or number of constraints imposed on the text of the English language,
+    causes a decrease in its overall entropy. For example, the rules "i before e except
+    after c", and the fact that a q must always be followed by a u are dependencies that
+    make the English language more redundant. Rules of grammar, parts of speech, and the fact
+    that we cannot make up words make English redundant as well.</p>
+    <p align="left">Redundancy in the English language is actually beneficial at times, for
+    how else might one discern what is said in a <a href="https://cs.stanford.edu/people/eroberts/courses/soco/projects/1999-00/information-theory/noise_6.html">noisy room</a>? The
+    redundancy allows one to infer what is said when only part of a message comes across. For
+    example if one hears "Turn phat mufic down!", one can make a fairly good guess
+    as to what the speaker meant.</p>
+    <p align="left">One possible way of calculating the entropy of English uses N-grams. One
+    can statistically calculate the entropy of the next letter when the previous N - 1 letters
+    are known. As N increases, the entropy approaches H, or the entropy of English. Following
+    are the calculated values from Shannon's paper. F<small><small>N</small></small> is the
+    entropy associated with the Nth letter when the previous N - 1 letters are known. The
+    difficulty of calculating the statistics for F<small><small>N</small></small> is O(26^N),
+    because there are that many sequences of N letters. Note that F<small><small>0 </small></small>is
+    simply the maximum entropy for the set of letters, where each has an equal probability. </p>
+    <table border="1" cellspacing="1" width="100%">
+      <tbody><tr>
+        <td width="16%">&nbsp;</td>
+        <td width="16%">F<small><small>0</small></small></td>
+        <td width="17%">F<small><small>1</small></small></td>
+        <td width="17%">F<small><small>2</small></small></td>
+        <td width="17%">F<small><small>3</small></small></td>
+        <td width="17%">F<small><small>word</small></small></td>
+      </tr>
+      <tr>
+        <td width="16%">26 letter</td>
+        <td width="16%">4.70</td>
+        <td width="17%">4.14</td>
+        <td width="17%">3.56</td>
+        <td width="17%">3.3</td>
+        <td width="17%">2.62</td>
+      </tr>
+      <tr>
+        <td width="16%">27 letter</td>
+        <td width="16%">4.76</td>
+        <td width="17%">4.03</td>
+        <td width="17%">3.32</td>
+        <td width="17%">3.1</td>
+        <td width="17%">2.14</td>
+      </tr>
+    </tbody></table>
+    <p align="left">The 27-letter sequences include the space as a letter.
+    Onecanalmostalwaysfillinthespacesfrom asequenceofwordswithnospaces. Therefore, spaces are
+    basically redundant and will cause lower calculated entropies when taken into account.
+    Only in the case where no statistics are taken into account, F<small><small>0</small></small>,
+    is the entropy higher when the space is added. This simply adds another possible symbol,
+    which means more uncertainty.</p>
+    <p align="left">Another strategy Shannon suggests is to calculate the entropy associated
+    with every word in the English language, and take a weighted average. Shannon uses an
+    approximating function to estimate the entropy for over 8,000 words. The calculated value
+    he gets for the entropy per word is 11.82 bits, and since the average word has 4.5
+    letters, the entropy is 2.62 bits per letter. This is given as F<small><small>word</small></small>
+    in the above table.</p>
+    <p align="left">We have already discussed how to calculate redundancy from entropy. The
+    maximum redundancy occurs when all the symbols have equal likelihood, and is equal to -
+    (log<small><small>2</small></small>(1/26)) = 4.7 bits/letter. Therefore, using the formula
+    1 - H/H<small><small>max</small></small>, we can estimate the redundancy of English.
+    Shannon initially estimated this value at 50 %, meaning that about half the letters in the
+    English language are redundant!</p>
+    <p align="left">Discussed later in the same article is a rather ingenious way of
+    calculating the entropy of the English language. It incorporates many more features of the
+    English language, such as line of thought and context that statistical methods cannot
+    explicitly account for. Crossword puzzles and games such as Hangman and Wheel of Fortune
+    exploit redundancy by assuming that humans can guess letters in a word or phrase based on
+    their previous knowledge of the language. Shannon's ingenious idea was to exploit this
+    natural measure of redundancy... the human mind. He asked subjects to guess the letters in
+    a phrase one by one. If the subject guessed correctly, then he/she moved on to the next
+    letter. If not, then the subject is told the next letter. Of 129 letters in a phrase, 69%
+    were guessed correctly. This suggests approximately a 69 % redundancy in the English
+    language. Say we reproduce only those letters which were guessed wrong, 31 %. Then we may,
+    by cloning the subject who guessed from scratch, get back the original sentence. The
+    subject can obviously get the 69 % of the symbols right, and he/she has the other 31%, so
+    he/she can reproduce the original text with only about 31 % of the information. Actually,
+    the subject would need slightly more than 31 % of the information. He/she would need to
+    know where the letters are that his is going to guess wrong on, so actually the redundancy
+    might be a little less. Theoretically this is a good example, but practically, it is not.
+    Sampling error in terms of sentences and subjects can cause significant distortion of
+    results. Nevertheless, this example is instrumental in illustrating a practical example of
+    redundancy, and sheds light on how to code English. There is no need to create a
+    statistical grammar of the English language in order to calculate its entropy. Humans have
+    the grammar naturally built in.</p>
+    <p align="left">Statistically calculating the redundancy of the English language has
+    numerous practical applications. ASCII reserves exactly 8 binary digits per character.
+    However, this is highly inefficient, considering that some calculations place the entropy
+    of English at around 1 bit per letter. This means that theoritically, there is a
+    compression scheme that is 8 times as good as ASCII. Although modern computers have enough
+    memory that this inefficiency is not crucial, Huffman compression and Lempel-Ziv
+    compression algorithms save significant space when text is stored.</p>
+    <p align="left">Normally, when people say the English language is redundant, they are
+    speaking of the numerous synonyms which clutter our dictionaries. Redundancy in the sense
+    of information theory is a measure of how efficiently the letters/symbols are used in the
+    language. The fact that English is a redundant language is not necessarily bad. That our
+    language is spoken as well as written brings in many issues besides efficiency. We want to
+    be understood in a noisy room, we want the sound of words to correspond to their meaning,
+    and we want to be able to pronounce words with ease. Information rates are only one small
+    part of the analysis of the English language.</p>
+    <p align="left">A very interesting illustration of how well a language can be be describe
+    statistically occurs are the nth order approximations of the English language, reproduced
+    here from Shannon's paper "The Mathematical Theory of Communication." Would a
+    monkey who knew the n-gram frequencies of the letters in English where n is large be able
+    to produce credible English text? Furthermore, does this monkey "know" English?
+    If the N-gram monkey is behind one door and a human is behind the other, could a
+    third-party observer tell which was the monkey? This question rings of the Turing test for
+    artificial intelligence, to which there is no easy answer.</p>
+    <table border="1" cellspacing="1" width="100%">
+      <tbody><tr>
+        <td width="50%">Zero-order approximation</td>
+        <td width="50%">XFOML RXKHRJFFJUJ ALPWXFWJXYJ FFJEYVJCQSGHYD QPAAMKBZAACIBZLKJQD</td>
+      </tr>
+      <tr>
+        <td width="50%">First-order approximation</td>
+        <td width="50%">OCRO HLO RGWR NMIELWIS EU LL NBNESEBYA TH EEI ALHENHTTPA OOBTTVA NAH BRL</td>
+      </tr>
+      <tr>
+        <td width="50%">Second-order approximation</td>
+        <td width="50%">ON IE ANTSOUTINYS ARE T INCTORE ST BE S DEAMY ACHIN D ILONASIVE TUCOOWE AT
+        TEASONARE FUSO TIZIN ANDY TOBE SEACE CTISBE</td>
+      </tr>
+      <tr>
+        <td width="50%">Third-order approximation</td>
+        <td width="50%">IN NO IST LAT WHEY CRATICT FROURE BIRS GROCID PONDENOME OF DEMONSTURES OF
+        THE REPTAGIN IS REGOACTIONA OF CRE</td>
+      </tr>
+      <tr>
+        <td width="50%">First-order word approximation</td>
+        <td width="50%">REPRESENTING AND SPEEDILY IS AN GOOD APT OR COME CAN DIFFERENT NATURAL
+        HERE HE THE A IN CAME THE TO OF TO EXPERT GRAY COME TO FURNISHES THE LINE MESSAGE HAD BE
+        THESE</td>
+      </tr>
+      <tr>
+        <td width="50%">Second-order word approximation</td>
+        <td width="50%">THE HEAD AND IN FRONTAL ATTACK ON AN ENGLISH WRITER THAT THE CHARACTER OF
+        THIS POINT IS THEREFORE ANOTHER METHOD FOR THE LETTERS THAT THE TIME OF WHO EVER TOLD THE
+        PROBLEM FOR AN UNEXPECTED</td>
+      </tr>
+    </tbody></table>
+    </td>
+  </tr>
+</tbody></table>
+</center></div>
+</body></html>

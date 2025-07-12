@@ -257,7 +257,7 @@ The section headers are optional and useless for when a subset of section is tak
 - size( `_,S,_` ): &nbsp;`1292` &nbsp;`( 79%)` &nbsp;|&nbsp; pigz: ` 650` &nbsp; ( `1.99` )
 - size( `A,_,_` ): &nbsp;` 262` &nbsp;`( 16%)` &nbsp;|&nbsp; pigz: ` 180` &nbsp; ( `1.46` )
 
-However, the numbers are not changing to much. While the ratio 2.00 emerges as a golden value.
+The numbers are not changing to much. While the ratio 2.00 emerges as a golden ratio (cfr. [Shannon](https://cs.stanford.edu/people/eroberts/courses/soco/projects/1999-00/information-theory/entropy_of_english_9.html#:~:text=Shannon%20initially%20estimated%20this%20value%20at%2050%20%25)).
 
 ---
 
