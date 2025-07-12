@@ -215,10 +215,10 @@ Therefore, I add to find a different approch than playing with words. The follow
 
 This prompts produced a set of answer which are divided in three parts, and their subsets are valuable too:
 
-- size( `A,S,E` ): &nbsp;`1957` &nbsp;`(100%)` &nbsp; eq. to **38%** of test **n.1**, and to **91%** of test **n.5**
-- size( `_,S,E` ): &nbsp;`1559` &nbsp;`( 80%)` &nbsp; analysis is redundant <-- best choice (eq. 30%, 73%)
-- size( `_,S,_` ): &nbsp;`1405` &nbsp;`( 72%)` &nbsp; summary is informative
-- size( `A,_,_` ): &nbsp;` 398` &nbsp;`( 20%)` &nbsp; evaluation is too short
+- size( `A,S,E` ): &nbsp;`1885` &nbsp;`(100%)` &nbsp; eq. to **36%** of test **n.1**, and to **88%** of test **n.5**
+- size( `_,S,E` ): &nbsp;`1511` &nbsp;`( 80%)` &nbsp; analysis is redundant <-- best choice (eq. 30%, 73%)
+- size( `_,S,_` ): &nbsp;`1381` &nbsp;`( 73%)` &nbsp; summary is informative
+- size( `A,_,_` ): &nbsp;` 374` &nbsp;`( 20%)` &nbsp; evaluation is too short
 
 The best choise is to have a reasonably long explanation followed by an extremely short A/B evaluation.
 
@@ -234,17 +234,17 @@ for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<
  &nbsp; &nbsp; do echo "$(mycat $i | mysze) \t $i"; done
 [/CODE]
 ++++
-Ratio computed as size palin-text vs size compressed as explained [here](usare-lai-per-divulgare-notizie-di-finanza.md#il-prompt-v3?target=_blank), less is better:
+Ratio computed as size plain-text vs size compressed as explained [here](usare-lai-per-divulgare-notizie-di-finanza.md#il-prompt-v3?target=_blank), less is better:
 
-- `2253` &nbsp; ( `2.30` ) &nbsp;	test-n1-answers.txt
+- `2253` &nbsp; ( `2.31` ) &nbsp;	test-n1-answers.txt
 - `1425` &nbsp; ( `2.18` ) &nbsp;	test-n2-answers.txt
 - ` 922` &nbsp; ( `1.99` ) &nbsp;	test-n3-answers.txt
 - ` 859` &nbsp; ( `2.07` ) &nbsp;	test-n4-answers.txt
 - `1035` &nbsp; ( `2.07` ) &nbsp;	test-n5-answers.txt
-- ` 831` &nbsp; ( `2.35` ) &nbsp;	test-n6-answers-ase.txt
-- ` 732` &nbsp; ( `2.13` ) &nbsp;	test-n6-answers-xse.txt <-- that choice
-- ` 692` &nbsp; ( `2.03` ) &nbsp;	test-n6-answers-xsx.txt
-- ` 219` &nbsp; ( `1.82` ) &nbsp;	test-n6-answers-axx.txt
+- ` 823` &nbsp; ( `2.29` ) &nbsp;	test-n6-answers-ase.txt
+- ` 731` &nbsp; ( `2.07` ) &nbsp;	test-n6-answers-xse.txt <-- that choice
+- ` 690` &nbsp; ( `2.00` ) &nbsp;	test-n6-answers-xsx.txt
+- ` 218` &nbsp; ( `1.72` ) &nbsp;	test-n6-answers-axx.txt
 
 To remove the headers from the size and pigz values computation, adding a `grep` is enough:
 
@@ -254,22 +254,18 @@ mytrs() { iconv -f UTF-8 -t ASCII//IGNORE "$1" | grep -v "^#" | markdown | html2
 
 The section headers are optional and useless for when a subset of section is taken for the answer.
 
-- size( `A,S,E` ): &nbsp;`1687` &nbsp;`(100%)` &nbsp;|&nbsp; pigz: ` 764` &nbsp; ( `2.20` )
-- size( `_,S,E` ): &nbsp;`1409` &nbsp;`( 84%)` &nbsp;|&nbsp; pigz: ` 700` &nbsp; ( `2.01` ) <-- best choice (eq. 27%, 66%)
-- size( `_,S,_` ): &nbsp;`1312` &nbsp;`( 78%)` &nbsp;|&nbsp; pigz: ` 668` &nbsp; ( `1.96` )
-- size( `A,_,_` ): &nbsp;` 279` &nbsp;`( 17%)` &nbsp;|&nbsp; pigz: ` 191` &nbsp; ( `1.54` )
+- size( `A,S,E` ): &nbsp;`1639` &nbsp;`(100%)` &nbsp;|&nbsp; pigz: ` 739` &nbsp; ( `2.22` )
+- size( `_,S,E` ): &nbsp;`1377` &nbsp;`( 84%)` &nbsp;|&nbsp; pigz: ` 679` &nbsp; ( `2.03` ) <-- best choice (eq. 26%, 64%)
+- size( `_,S,_` ): &nbsp;`1292` &nbsp;`( 79%)` &nbsp;|&nbsp; pigz: ` 650` &nbsp; ( `1.99` )
+- size( `A,_,_` ): &nbsp;` 262` &nbsp;`( 16%)` &nbsp;|&nbsp; pigz: ` 180` &nbsp; ( `1.46` )
 
 However, the numbers are not changing to much. While the ratio 2.00 emerges as a golden value.
-
-> [!WARN]
-> 
-> The bash functions have been changed since the stats has been done, recalculation is need. To do, yet.
 
 ---
 
 ### SoNia 3.8.x integration
 
-This approach has been further evolved during the integration within the SoNia argumentative session prompt framework, as `[SBI]` mode. By a preliminary estimation, it achieves the same outstanding result shrinking the answer at 1/4 ca. of its original length both in characters and lines. *It is a kind of magic*!
+This approach has been further evolved during the [integration](data/sonia-argumentative-w-rag-v3.txt#?target=_blank) within the SoNia argumentative session prompt framework, as `[SBI]` mode. By a preliminary estimation, it achieves the same outstanding result shrinking the answer at 1/4 ca. of its original length both in characters and lines. *It is a kind of magic*!
 
 +
 
