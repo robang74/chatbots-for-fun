@@ -265,7 +265,7 @@ However, the numbers are not changing to much. While the ratio 2.00 emerges as a
 
 ### SoNia 3.8.x integration
 
-This approach has been further evolved during the [integration](data/sonia-argumentative-w-rag-v3.txt#?target=_blank) within the SoNia argumentative session prompt framework, as `[SBI]` mode. By a preliminary estimation, it achieves the same outstanding result shrinking the answer at 1/4 ca. of its original length both in characters and lines. *It is a kind of magic*!
+This approach has been further evolved during the [integration](data/sonia-argumentative-w-rag-v3.txt#:~:text=Short%20but%20insightful?target=_blank) within the SoNia argumentative session prompt framework, as `[SBI]` mode. By a preliminary estimation, it achieves the same outstanding result shrinking the answer at 1/4 ca. of its original length both in characters and lines. *It is a kind of magic*!
 
 +
 
