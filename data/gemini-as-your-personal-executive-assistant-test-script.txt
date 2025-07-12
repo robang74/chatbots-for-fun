@@ -1,0 +1,33 @@
+#!/bin/bash
+
+echo
+echo "file size"
+du -b data/gemini-as-your-personal-executive-assistant-test-n?-answers*
+echo
+
+mytrs() { iconv -f UTF-8 -t ASCII//IGNORE "$1" | markdown | html2text; }
+mytxt() { mytrs "$1" 2>&3 | sed -e 's,^==*$,,' -ne '/./p'; }
+mycat() { mytxt "$1" |  tr '\n' ' ' | tr -s '\# *'; }
+
+echo "char size"
+for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers*;
+    do echo "$(mycat $i | wc -c) \t $i"; done
+echo
+
+echo "pigz size"
+mysze() { pigz -11c | dd bs=1 of=/dev/null 2>&1 | grep bytes | cut -d' ' -f1; }
+for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers*;
+    do echo "$(mycat $i | mysze) \t $i"; done
+echo
+
+mytrs() { iconv -f UTF-8 -t ASCII//IGNORE "$1" | grep -v "^#" | markdown | html2text; }
+
+echo "char size (headerless)"
+for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers*;
+    do echo "$(mycat $i | wc -c) \t $i"; done
+echo
+
+echo "pigz size (headerless)"
+for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers*;
+    do echo "$(mycat $i | mysze) \t $i"; done
+echo
