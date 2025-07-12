@@ -89,7 +89,7 @@ A grouped by topic and others articles are listed here below.
 
 * **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (12 pz.)
 
-   - 2025-07-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/gemini-as-your-personal-executive-assistant.md)] - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md) &nbsp; (**WIP**)
+   - 2025-07-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/gemini-as-your-personal-executive-assistant.md)] - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md)
 
    - 2025-07-08 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/usare-lai-per-divulgare-notizie-di-finanza.md)] - [Usare l'AI per divulgare notizie di finanza](usare-lai-per-divulgare-notizie-di-finanza.md)
 

@@ -5,9 +5,7 @@
 
 ## Gemini as your personal executive assistant
 
-> [!WARN]
-> 
-> **WORKING IN PROGRESS!**
+- **1st edition**, this article was inspired by checking one [po](https://www.linkedin.com/posts/robertofoglietta_opportunity-cost-a-good-example-opportunity-activity-7349267941307133952-borf)[st](https://www.facebook.com/roberto.a.foglietta/posts/10162042283363736) of mines against the Gemini's opinion.
 
 ---
 
@@ -35,11 +33,9 @@ Finally, a cosmetic polishing is applied to the session prompt to please the AI 
 
 ### test n.1: obvious or insightful
 
-The first test is not even a test because there is no short-but-relevant session prompt.
-
 - [conversation](https://g.co/gemini/share/e95e36b23441) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n1.txt#?target=_blank)
 
-It is just explorative and contributes to creating the testing framework. Moreover, it goes deeper into the AI "psychology" of comprehension investigating in a more detailed way the answer given. *Know your chickens*.
+The first test is not even a test because there is no short-but-relevant session prompt. It is just explorative and contributes to creating the testing framework. Moreover, it goes deeper into the AI "psychology" of comprehension investigating in a more detailed way the answer given. *Know your chickens*.
 
 ---
 
@@ -80,13 +76,13 @@ Opportunity cost is the value of the next best alternative that is forgone when
 
 Micromanagement is a talent/opportunity killer unless is tutoring a novice.
 [/CITE]
-++++
+
 <span id="new-form-prompt"></span>
 #### New-Form prompt 
 
 [!CITE]
 Is this a better form?
-
++++++
 - Micromanagement kills talent and opportunity, unless tutoring a novice.
 [/CITE]
 
@@ -139,7 +135,7 @@ The forth test prompt includes minal changes like using semicolon to separate a 
 
 The fourth test challenges the final version of the short-but-relevant session prompt within the testing framework for no other reason than to compare the result with the previous one.
 
----
+----
 
 ### test n.5: obvious or insightful
 
@@ -185,8 +181,7 @@ This prompt has been submitted at the end of test #5, test #4 and test #3 in thi
 
 The answers to this new prompt inspired to me a new approach to reach a fully flagged executive assistant session prompt. Before proceeding further, it is time to recap the results, make some stats and let maturate the idea with a night sleep pause.
 
----
-
+~~~
 ### The short-but-relevant session prompt
 
 By a instive guess, the best prompt is the one used in test n.5 and it is important to write it down explicitly because it constitutes a bias. Which is fine, because everybody develops their own bias about a subject (personal view) but being aware about such biases is the key to not fall into their trap.
@@ -218,8 +213,8 @@ Therefore, I add to find a different approch than playing with words. The follow
 
 This prompts produced a set of answer which are divided in three parts, and their subsets are valuable too:
 
-- size( `A,S,E` ): &nbsp;`1957` &nbsp;`(100%)` &nbsp; eq. to 38% of test n.1
-- size( `_,S,E` ): &nbsp;`1559` &nbsp;`( 80%)` &nbsp; analysis is redundant <-- best choice (eq. 30%)
+- size( `A,S,E` ): &nbsp;`1957` &nbsp;`(100%)` &nbsp; eq. to **38%** of test **n.1**, and to **91%** of test **n.5**
+- size( `_,S,E` ): &nbsp;`1559` &nbsp;`( 80%)` &nbsp; analysis is redundant <-- best choice (eq. 30%, 73%)
 - size( `_,S,_` ): &nbsp;`1405` &nbsp;`( 72%)` &nbsp; summary is informative
 - size( `A,_,_` ): &nbsp;` 398` &nbsp;`( 20%)` &nbsp; evaluation is too short
 
@@ -229,12 +224,20 @@ The best choise is to have a reasonably long explanation followed by an extremel
 
 ### Redundancy evaluation
 
+To check for the compressed size, replacing `wc -c` with a shell function is enough:
+
 [!CODE]
 mysze() { pigz -11c | dd bs=1 of=/dev/null 2>&1 | grep bytes | cut -d' ' -f1; }<br>
 for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<br>
  &nbsp; &nbsp; do echo "$(mycat $i | mysze) \t $i"; done
 [/CODE]
 
+To remove the headers from the size and pigz values computation, adding a `grep` is enough:
+
+[!CODE]
+mycat() { grep -v "^#" $i | html2text |  tr '\n' ' ' | tr -s ' '; }
+[/CODE]
+++++
 Ratio computed as size palin-text vs size compressed as explained [here](usare-lai-per-divulgare-notizie-di-finanza.md#il-prompt-v3?target=_blank), less is better:
 
 - `2253` &nbsp; ( `2.30` ) &nbsp;	test-n1-answers.txt
@@ -247,16 +250,10 @@ Ratio computed as size palin-text vs size compressed as explained [here](usare-l
 - ` 692` &nbsp; ( `2.03` ) &nbsp;	test-n6-answers-xsx.txt
 - ` 219` &nbsp; ( `1.82` ) &nbsp;	test-n6-answers-axx.txt
 
-To remove the headers from the size and pigz values computation, adding a `grep` is enough.
-
-[!CODE]
-mycat() { grep -v "^#" $i | html2text |  tr '\n' ' ' | tr -s ' '; }
-[/CODE]
-++++
 The section headers are optional and useless for when a subset of section is taken for the answer.
 
 - size( `A,S,E` ): &nbsp;`1687` &nbsp;`(100%)` &nbsp;|&nbsp; pigz: ` 764` &nbsp; ( `2.20` )
-- size( `_,S,E` ): &nbsp;`1409` &nbsp;`( 84%)` &nbsp;|&nbsp; pigz: ` 700` &nbsp; ( `2.01` ) <-- best choice (eq. 27%)
+- size( `_,S,E` ): &nbsp;`1409` &nbsp;`( 84%)` &nbsp;|&nbsp; pigz: ` 700` &nbsp; ( `2.01` ) <-- best choice (eq. 27%, 66%)
 - size( `_,S,_` ): &nbsp;`1312` &nbsp;`( 78%)` &nbsp;|&nbsp; pigz: ` 668` &nbsp; ( `1.96` )
 - size( `A,_,_` ): &nbsp;` 279` &nbsp;`( 17%)` &nbsp;|&nbsp; pigz: ` 191` &nbsp; ( `1.54` )
 
@@ -265,6 +262,8 @@ However, the numbers are not changing to much. While the ratio 2.00 emerges as a
 +
 
 ## Related articles
+
+- [Usare l'AI per divulgare notizie di finanza](usare-lai-per-divulgare-notizie-di-finanza.md#?target=_blank) &nbsp; (2025-07-08)
 
 - [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md#?target=_blank) &nbsp; (2025-06-23)
 
