@@ -20,7 +20,7 @@ Despite the promising results, the [prompt](data/juan-finance-economics-analysis
 
 ---
 
-### Prompt structure
+### The F&E prompt structure
 
 The following is the straightforward structure of the prompt which is divided in seven parts:
 
@@ -33,11 +33,11 @@ The following is the straightforward structure of the prompt which is divided in
   - 5.2: the `[SBI]` mode activation by default, overridable.
 - 6: `${section_title}` Finance & Economics `[F&E]`.
 - 7: The finance-and-economics `[F&E]` mode, operative definition.
-  - 7.1: name setting for the an agentic user experience
-  - 7.2: topic setting and data type definition
+  - 7.1: name setting for an agentic user experience
+  - 7.2: content focus and data type definitions
   - 7.3: task setting and `[SBI]` mode triggering
   - 7.4: the three parts schema: relevant claims, biases, and outliers.
-  - 7.5: check for the ideas, connections, from the author's PoV, and gaps.
+  - 7.5: extract ideas connections from the author's PoV, and gaps.
 
 ~~~~~
 
