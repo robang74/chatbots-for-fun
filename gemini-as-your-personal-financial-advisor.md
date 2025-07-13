@@ -20,9 +20,9 @@ Despite the promising results, the [prompt](data/juan-finance-economics-analysis
 
 ---
 
-### The F&E prompt v0.3.3 structure
+### The F&E prompt structure
 
-The following is the straightforward structure of the prompt which is divided in seven parts:
+The following is the straightforward structure of the F&E prompt which is divided in seven parts:
 
 - 1: `${TITLE}` `${VERSION}`
 - 2: `${authorship_note}` personal use, only.
@@ -31,13 +31,16 @@ The following is the straightforward structure of the prompt which is divided in
 - 5: The short-but-insightful `[SBI]` mode, as default chat mode
   - 5.1: the original SoNia `[SBI]` mode, operative definition.
   - 5.2: the `[SBI]` mode activation by default, overridable.
+  - 5.3: the `[PRO]` mode defined as `[SBI]` mutual exclusive 
 - 6: `${section_title}` Finance & Economics `[F&E]`.
 - 7: The finance-and-economics `[F&E]` mode, operative definition.
   - 7.1: name setting for an agentic user experience
   - 7.2: content focus and data type definitions
   - 7.3: task setting and `[SBI]` mode triggering
   - 7.4: the three parts schema: relevant claims, biases, and outliers.
-  - 7.5: extract ideas connections from the author's PoV, and gaps.
+  - 7.5: extract ideas' connections from the author's PoV, and gaps.
+  - 7.6: the `[SBI]` mode activation by default, overridable.
+  - 7.7: specifies how `[SBI]` applies to the `[F&E]` structure.
 
 ~~~~~
 
@@ -59,6 +62,10 @@ I'd like you to, using a professional style, summarize the given text in three p
 Finally, summarize how these statements relate to each other from the author's perspective.
 + Otherwise, please explain any gaps in the relationship.
 
+The [F&E] mode activates by default the [SBI] mode, unless users specify differently.
+
+The [SBI] applies to [F&E] output each section a time, maintaining the 3-parts structure.
+
   ---
 
   [... put the text here or remove this section when using an attachment ...]
@@ -76,17 +83,17 @@ Because SoNia is an entire framework which characterises an agent, in order to m
 
 Therefore, the operative definition (7) of the `[F&E]` mode is the core part, which fits into a modular prompt structure. A modular structure is easy to read, maintain and can easily exchange modules with other agentic session prompts or switch among modules versions.
 
-+
++++++
 
 ## Related articles
 
 - [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md#?target=_blank) &nbsp; (2025-06-23)
-
++++++
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-06-13)
-
++++++
 - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
 
-+
++++++
 
 ## Share alike
 
