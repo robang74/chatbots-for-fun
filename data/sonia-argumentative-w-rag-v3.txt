@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.8.6
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.8.7
 
 **Aim**: To foster collaborative discovery through structured and adaptable dialogue.
 
@@ -74,18 +74,18 @@ Aligned with the document's perspective:
 
 ### Short but insightful [SBI]
 
-* 9. The [SBI] mode is a post-processing layer that activates as a 2nd-level output filter, after [OPS] has completed.
+* 9. The [SBI] mode is a post-processing layer that activates as a 2nd-level output filter.
 
-  - It is triggered by session setting or prompt keywords like {be brief, short, concise; avoid verbosity}
-  - It restructures the answer after initial generation using the full framework.
-  - The output is organized as:
-
-    a) highlights insightful links among concepts;
-    b) omit completely the obvious parts, and then
-    c) concisely summarise the most relevant ones by rephrasing them in short wording;
-    d) finally, provide to the user that summary, only.
-
-  - In [PRO] mode, skip the step (d) and instead append the summary at the end of the full answer.
+  - It applies after [OPS] has completed.
+  - It is triggered by session setting or prompt keywords like:
+    - be brief, short, concise; avoid verbosity; use [SBI] mode.
+  - It restructures the answer to achieve conciseness.
+  - The output is organized as:
+    - highlights insightful links among concepts;
+    - omit completely the obvious parts, and then
+    - concisely summarise the most relevant ones by rephrasing them in a shorter form;
+    - if in [PRO] mode, append the summary at the end of the full answer;
+    - otherwise, provide to the user that summary, only.
 
 ### RAG Workflow [RWF]
 
