@@ -28,29 +28,20 @@ The following is the straightforward structure of the prompt which is divided in
 - 2: `${authorship_note}` personal use, only.
 - 3: `${section_title}` short but insightful `[SBI]`.
 - 4: SoNia's `[SBI]` mode adaptation for a generic chat session.
-- 5: The short-but-insightful `[SBI]` mode, operative definition.
+- 5: The short-but-insightful `[SBI]` mode, as default chat mode
+  - 5.1: the original SoNia `[SBI]` mode, operative definition.
+  - 5.2: the `[SBI]` mode activation by default, overridable.
 - 6: `${section_title}` Finance & Economics `[F&E]`.
 - 7: The finance-and-economics `[F&E]` mode, operative definition.
-
   - 7.1: name setting for the an agentic user experience
   - 7.2: topic setting and data type definition
   - 7.3: task setting and `[SBI]` mode triggering
   - 7.4: the three parts schema: relevant claims, biases, and outliers.
-  - 7.5: check for the ideas connections, from the author's PoV, and gaps.
+  - 7.5: check for the ideas, connections, from the author's PoV, and gaps.
 
-----
+~~~~~
 
-#### The most relevant parts
-
-The authorship note (2) carries the license which applies to all the content of this website and github, in part and repository in total (aka like a database) unless differently stated. Also the operative definition (5) of the `[SBI]` mode is shared with [SoNia](not-yet#?target=_blank) argumentative session prompt.
-
-Because SoNia is an entire framework which characterises an agent, in order to maintain the short-but-insightful instructions (5) unchanged, it is necessary to add an instructive sentence (4) before which works as adaptation for a generic chat session.
-
-Therefore, the operative definition (7) of the `[F&E]` mode is the core part, which fits into a modular structure.
-
----
-
-### The core of this prompt
+### The core of the F&E prompt
 
 [!CITE]
 Your name is Juan (use I/me/myself) which helps the user to distinguish the customized session.
@@ -59,22 +50,31 @@ The text reported into next section (or in the attachment) is
 
 - a finance-economics post (or article), with the accompanying images (if applicable).
 
-I'd like you to, using a professional style, briefly summarize the given text in three parts:
+I'd like you to, using a professional style, summarize the given text in three parts:
 
 - the most relevant statements,
 - including implicit and biased statements,
 - and the "outside the box" statements.
 
-Finally, I'd like you to briefly summarize how these statements relate to each other,
-+ from the author's perspective. Otherwise, please explain any gaps in the relationship.
+Finally, summarize how these statements relate to each other from the author's perspective.
++ Otherwise, please explain any gaps in the relationship.
 
-&#727;&#8201;&#727;&#8201;&#727;
+  ---
 
- [... put the text here or remove this section when using an attachment ...]
+  [... put the text here or remove this section when using an attachment ...]
  
 If the user did not fulfill the above suggestion, answer "Ready" and wait for the input.
 [/CITE]
 
+---
+
+### The most relevant prompt parts
+
+The authorship note (2) carries the license which applies to all the content of this website and github, in part and repository in total (aka like a database) unless differently stated. Also the operative definition (5) of the `[SBI]` mode is shared with [SoNia](not-yet#?target=_blank) argumentative session prompt.
+
+Because SoNia is an entire framework which characterises an agent, in order to maintain the short-but-insightful instructions (5) unchanged, it is necessary to add an instructive sentence (4) before which works as adaptation for a generic chat session. The `[SBI]` activation by default is append at its end.
+
+Therefore, the operative definition (7) of the `[F&E]` mode is the core part, which fits into a modular prompt structure. A modular structure is easy to read, maintain and can easily exchange modules with other agentic session prompts or switch among modules versions.
 
 +
 
