@@ -20,7 +20,7 @@ Despite the promising results, the [prompt](data/juan-finance-economics-analysis
 
 ---
 
-### The F&E prompt structure
+### The F&E prompt v0.3.3 structure
 
 The following is the straightforward structure of the prompt which is divided in seven parts:
 
