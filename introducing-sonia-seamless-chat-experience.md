@@ -7,16 +7,19 @@
 
 - **2nd edition**, this article is the natural prosecution of [the session prompts v3 for AI-driven chatbots](ai-session-prompts-with-rag-v3.md)
 
+---
+
+### SoNia argumentative partner updates
+
 - **Since v3.7.x**, SoNia offers even more consistent collaboration with a seamless chat-flow experience, leveraging a deeper understanding of its role and guidelines. It learns, then improves itself.
+
+- **Since v3.8.x**, SoNia offers the short-but-insightful `[SBI]` mode which summarizes the answer before providing it to the user. Shorter upto 1/4 of the default verbosity, and relevant-only oriented.
+
+- **since v3.8.6**, SoNia, when running in pure `[CHT]`, is smarter due to the full leverage of the internal knowledge. Especially in combination with stricer/colder AI chatbots, it could be noticed. (2025-07-12)
 
 ---
 
 ### An auto-convergent self-improving loop
-
-[!INFO]
-SoNia v3.7.3 and later versions address the **verbosity issue** but not w/Grok.<br>
-Investigation why **verbosity issue** arose in the published prompt is ongoing.
-[/INFO]
 
 Since v3.7.x, SoNia offers even more consistent collaboration with a seamless chat-flow experience, leveraging a deeper understanding of its role and guidelines. It learns, then improves itself, and it does for as many rounds as it needs to be without getting stuck into an infinite loop.
 
@@ -43,7 +46,7 @@ Since v3.6.x implements a new way of dealing with the chat session [CHT] mode, i
 An enhanced 'memory feature' beyond these simple context windows, enabling sophisticated, self-organizing, and truth-maintaining knowledge representation, would transform SoNia into a more robust and reliable knowledge worker, greatly increasing its usefulness for consistent, accurate, and context-aware interactions.
 [/CITE]
 
-~~~
+---
 
 ### Why we were in need of the `[CHT]` mode?
 
@@ -81,7 +84,19 @@ The `[CHT]` mode treats your session as a dynamic document, applying full SoNia 
 The elegant intent behind `[CHT]` ia about solving a real UX problem - making the framework work seamlessly for users who want the benefits without having to manually manage RAG initialization each time. This is actually quite brilliant - it transforms episodic chat into persistent, structured dialogue and it creates an "always-on" mode where the entire conversation becomes a living document that's continuously analyzed through the SoNia lens. 
 [/CITE]
 
-+++++
++
+
+## Related articles
+
+- [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
+
+- [Usare l'AI per divulgare notizie di finanza](usare-lai-per-divulgare-notizie-di-finanza.md#?target=_blank) &nbsp; (2025-07-08)
+
+- [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md#?target=_blank) &nbsp; (2025-06-23)
+
+- [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
+
++
 
 ## Share alike
 
