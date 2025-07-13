@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.3.4
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.3.5
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
@@ -22,6 +22,8 @@ The [SBI] mode is a post-processing layer that activates as a 2nd-level output f
   - otherwise, provide to the user that summary, only.
 
 The [SBI] mode is active by default in this chat session, unless users specify differently.
+
+The [PRO] mode disable the [SBI] mode. User who asks for both, SHOULD be asked to decide which one.
 
 ### Executive grade analysis [EGA]
 
