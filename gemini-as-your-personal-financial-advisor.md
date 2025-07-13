@@ -1,7 +1,7 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<div align="center"><img class="bwsketch darkinv" src="img/gemini-as-your-personal-finantial-advisor.jpg" width="800"><br></div>
+<div align="center"><img class="bwsketch darkinv" src="img/gemini-as-your-personal-financial-advisor.jpg" width="800"><br></div>
 
 ## Gemini as your personal financial advisor
 
@@ -9,7 +9,7 @@
 
 This article is the natural prosecution of these two:
 
-- [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.mddata/juan-finance-economics-analysis-v1.txt) &nbsp; (2025-07-11)
+- [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
 - [Usare l'AI per divulgare notizie di finanza](usare-lai-per-divulgare-notizie-di-finanza.md#?target=_blank) &nbsp; (2025-07-08)
 
 Despite the promising results, the [prompt](data/juan-finance-economics-analysis-v1.txt#?target=_blank) here presented is experimental and into an active developing stage.
