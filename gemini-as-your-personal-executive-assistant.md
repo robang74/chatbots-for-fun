@@ -198,7 +198,7 @@ for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<
 - test n.4: &nbsp; `1782 ( 34%)` <-- shortest but opinable answer
 - test n.5: &nbsp; `2139 ( 41%)` <-- good compromise info-vs-size
 
-The stats indicates that my bias was wrong and the prompt n.3 is the best, instead. Unfortunately, in test n.3 the "be brief" is not matched into the subset terms and this is fundamental requirement. In fact, the session prompt should work with equivalent terms but a test is relevant when it matches, also.
+The stats indicate that my bias was wrong and the prompt n.3 is the best, instead. However, prompt in test n.3 does not contain "be brief" and hence the short-but-relevant mode has been activated by equivalence and it is fine that works, as well. But it is expected that aware-users activate it with a perfect match and we have seen that strengthening the constraints can harm the outcome more than relaxing them.
 
 Therefore, I add to find a different approach than playing with words. The following is a completely new prompt which shows an outstanding performance in terms of quality and quick to grasp the answer by the human user. Moreover, it creates an answer divided in three parts: analysis, summary and evaluation.
 
