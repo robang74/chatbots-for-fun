@@ -70,7 +70,7 @@ If the user did not fulfill the above suggestion, answer "Ready" and wait for th
 
 ### The most relevant prompt parts
 
-The authorship note (2) carries the license which applies to all the content of this website and github, in part and repository in total (aka like a database) unless differently stated. Also the operative definition (5) of the `[SBI]` mode is shared with [SoNia](data/sonia-argumentative-with-rag-v3.txt#:~:text=Short%20but%20insightful) argumentative session prompt.
+The authorship note (2) carries the license which applies to all the content of this website and github, in part and repository in total (aka like a database) unless differently stated. Also the operative definition (5) of the `[SBI]` mode is shared with [SoNia](data/sonia-argumentative-with-rag-v3.txt#:~:text=Short%20but%20insightful?target=_blank) argumentative session prompt.
 
 Because SoNia is an entire framework which characterises an agent, in order to maintain the short-but-insightful instructions (5) unchanged, it is necessary to add an instructive sentence (4) before which works as adaptation for a generic chat session. The `[SBI]` activation by default is append at its end.
 
