@@ -73,7 +73,7 @@ SHA256: 32EF5E94C820745C19323BC039186E253D7C2153C2F783667C9D8F17C6857D86
 <li class='li2in'>download : $archive</li>
 <li class='li2in'>unzip : $archive : ./diag/</li>
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 dst &lt;= [usb1 mount-point path]
 <p></p>
 cp -arf ./diag/&ast;/data/&ast; ${dst}/<br>
@@ -104,7 +104,7 @@ SHA256: 25832921C80C0FEFD8E92574F7138C0CBFFDC11DA0DD5F3FAFF1DCDED49BD881
 <li class='li2in'>download : $archive</li>
 <li class='li2in'>unzip : $archive : ./bios/</li>
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 dst &lt;= [usb1 mount-point path]
 <p></p>
 cp -arf ./bios/DOS/&ast; ${dst}/<br>
@@ -117,7 +117,7 @@ umount ${dst}/
 <p></p>
 The command <tt>gzip</tt> can be replaced to <tt>pigz</tt> which is parallel - hence faster - counterpart.
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 usbdisk &lt;= [usb disk device]
 <p></p>
 umount ${usbdisk}&ast;<br>
@@ -135,7 +135,7 @@ This action is not strictly needed for an once-a-time BIOS update process. It is
 <p></p>
 <H3 id="7-post-archiving-image-deployment-optional">7. Post archiving image deployment (optional)</H3>
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 image="fdos-p910-bios-diag.img"<br>
 pigz -dc ${image}.gz > ${image}; losetup -Pf ${image}
 <p></p>
@@ -190,7 +190,7 @@ Fujitsu Esprimo P910 E85+ is considered a <b>Work Station</b> rather than a PC. 
 <p></p>
 The BIOS allows enabling a serial console redirection which can provide headless access to the BIOS, also. However, it requires an USB serial adapter and a proper configuration. On the client side, <tt>sudo minicom -s</tt> to configure the serial port. On the server side, as root:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 vi /etc/default/grub
 <p></p>
 GRUB_TERMINAL="serial console"<br>

@@ -95,7 +95,7 @@ Grazie per avermi fornito questa struttura concettuale. Mi impegnerò a integrar
 
 ## Self double-check using SoNia prompt
 
-- **Prompt**: [data/sonia-argumentative-w-rag-v3.txt](data/sonia-argumentative-w-rag-v3.txt#?target=_blank) used in its v3.5.3 edition.
+- **Prompt**: [SoNia argumentative partner with RAG v3](https://raw.githubusercontent.com/robang74/chatbots-for-fun/6faa3e859e01903a546c9eee813d1cc3f7b1ad10/data/sonia-argumentative-w-rag-v3.txt) used in its v3.5.3 edition.
 
 - **Upload**: the full original chat converted in markdown format (aka the RAG document).
 

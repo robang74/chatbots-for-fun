@@ -57,7 +57,7 @@ This introduces us to another level, more mature and interesting than the true-f
 
 We might continue including multiple points of view, which are essential to evaluate the relationships among concepts and establish a coherent framework among them. For the scope of this article it is worth saying that a session prompt has been developed for dealing with in a "**good enough**" way this sort of raw data.
 
-- [SoNia argumentative collaborative session prompt](data/sonia-argumentative-w-rag-v3.txt#?target=_blank) &nbsp; last version available.
+- [SoNia argumentative collaborative session prompt](data/sonia-argumentative-with-rag-v3.txt#?target=_blank) &nbsp; last version available.
 
 As long as AI will evolve, it will be easier to include in this prompt higher-level activity with a smaller effort than the time it has written. As long as someone is not going to pay for a smarter way, it is better to wait until the "many-people-doing-stuff" approach reach the "good enough" outcome to write a better version of the prompt. As simple as that.
 

@@ -209,7 +209,7 @@ So, the following is a brief how-to for configuring the LM-Studio (0.3.12-build1
 <p></p>
 These two lines disable the swap definitely but the first just until the next reboot
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 sudo swapoff -a<br>
 <p></p>
 sudo sed -s "/\bswap\b/ s,.&ast;swap,#&," /etc/fstab<br>
@@ -249,7 +249,7 @@ This is optional, and you can always use it in the first session's prompt when y
 <p></p>
 For the prompt template this is will inject the system prompt without manual intervention
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 {% if system_prompt %}<|im_start|>system{{system_prompt}}<|im_end|>{% endif %}<br>
 {% for m in messages %}<|im_start|>{{m.role}}{{m.content}}<|im_end|>{% endfor %}<br>
 {% if add_generation_prompt %}<|im_start|>assistant{% endif %}<br>

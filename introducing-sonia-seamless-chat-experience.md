@@ -49,7 +49,7 @@ An enhanced 'memory feature' beyond these simple context windows, enabling sophi
 
 Newest version allows the Chat History Thread mode which leverages the framework within a more natural chat about a topic for which user provides a series of inputs along the session to develop a coherent debate.
 
-- [SoNia Argumentative Session Prompt](https://robang74.github.io/chatbots-for-fun/data/sonia-argumentative-w-rag-v3.txt#?target=_blank) &nbsp; (last available version) 
+- [SoNia Argumentative Session Prompt](https://robang74.github.io/chatbots-for-fun/data/sonia-argumentative-with-rag-v3.txt#?target=_blank) &nbsp; (last available version)
 
 Many chatbots usually do not consider previous prompts information (or tend to forget them quite quickly) during a discussion in a session. Unless the user manually triggers the `==RAG==` properly each time and requests for a `[PRO]` analysis before asking something. Therefore, I agree that `[CHT]` mode was just included but not automated.
 

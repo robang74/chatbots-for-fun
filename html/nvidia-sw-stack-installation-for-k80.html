@@ -66,7 +66,7 @@ Ubuntu can be installed from a <a href="https://help.ubuntu.com/stable/ubuntu-he
 <p></p>
 After having installed the Tesla K80, provided to it the necessary power with a dual-PSU cheap solution and a reasonable cooling system at least for the early testing, it is the right time for checking the <tt>dmesg -l err,warn,crit</tt> output in search of troubles. Troubles, the kind of flowers that bloom in every season! <img class='emoji wbsketch' src='../img/emoji/wink.png'>
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 pnp 00:05: disabling [mem 0xfed1c000-0xfed1ffff disabled] because it overlaps<br>
 \_0000:04:00.0 BAR 1 [mem 0x00000000-0x3ffffffff 64bit pref]<br>
  ...<br>
@@ -126,7 +126,7 @@ Check the available drivers for the hardware with <tt>sudo ubuntu-drivers list</
 <p></p>
 Following the most straightforward installation procedure, plus adding some useful tools:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 root&commat;p910:~# update-pciids<br>
 <p></p>
 root&commat;p910:~# ubuntu-drivers list<br>
@@ -143,7 +143,7 @@ root&commat;p910:~# apt-get install grub-customizer modprobe-nvidia nvtop mtools
 <p></p>
 and before rebooting the system, adding a kernel command line parameters <tt>modprobe.blacklist=nouveau</tt> in <tt>/etc/default/grub</tt> file to prevent nvidia generic driver mess up things, then update the initramfs and the grub boot record, as shown here below:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
 <p></p>
 root&commat;p910:~# update-initramfs -u<br>
@@ -156,7 +156,7 @@ done<br>
 <p></p>
 After the reboot:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 root&commat;p910:~# cat /proc/driver/nvidia/version<br>
 NVRM version: NVIDIA UNIX x86_64 Kernel Module 470.256.02 Thu May  2 14:37:44 UTC 2024<br>
 <p></p>
@@ -177,7 +177,7 @@ root&commat;p910:~# dmesg -l err,warn,crit  | grep NV | cut -d] -f2-<br>
 <p></p>
 Trying with a manual installation does not help:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 root&commat;p910:~# apt list --installed | grep nvidia | cut -d, -f1<br>
 libnvidia-cfg1-470/noble-updates<br>
 libnvidia-common-470/noble-updates<br>
@@ -194,7 +194,7 @@ nvidia-utils-470/noble-updates<br>
 <p></p>
 Which is not good at all, but the following is even worse:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 root&commat;p910:~# cat /proc/driver/nvidia/gpus/&ast;/information<br>
 Model: Tesla K80<br>
 IRQ:    39<br>
@@ -225,7 +225,7 @@ GPU Excluded: No<br>
 <p></p>
 This is <b>VERY BAD</b> because indicates a hardware incompatibility with the motherboard or its BIOS. Considering that the Esprimo P910 has its own Fujitsu ATX power unit with a custom 16-pin connector, changing the motherboard is furtherly complicated by the challenge to find one within the P910 family by Fujitsu. Otherwise, it is easier to change the whole P910 for something else, completely.
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 root&commat;p910:~# mokutil --sb-state<br>
 SecureBoot disabled<br>
 <p></p>
@@ -249,7 +249,7 @@ root&commat;p910:~# lspci -vvv | grep -iA 20 nvidia | grep -i -e region -ie lnkc
 <p></p>
 Which is <b>WAY</b> different than the expected output, which should be something like this:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
  &nbsp; Region 0: Memory at f8000000 (32-bit, non-prefetchable)<br>
  &nbsp; Region 1: Memory at d8000000 (64-bit, prefetchable)<br>
  &nbsp; Region 3: Memory at d4000000 (64-bit, prefetchable)<br>
@@ -263,7 +263,7 @@ In fact, the problem is that BAR1 and BAR2, both 64-bit prefetchable, are missin
 <p></p>
 I gave a try with Ubuntu 20.04.6 LTS which is running, after the update, with a Linux 5.15.0-131-generic and installed by default the Nvidia driver 470 serie.
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 root&commat;P910:~# lspci -vvv | grep -iA 20 nvidia | grep -i -e region -e lnkcap:<br>
  &nbsp; Region 0: Memory at f0000000 (32-bit, non-prefetchable) [size=16M]<br>
  &nbsp; Region 1: Memory at <unassigned> (64-bit, prefetchable)<br>
@@ -292,7 +292,7 @@ root&commat;P910:~# lspci -vvv | grep -i -e nvidia -e PLX<br>
 <p></p>
 The output is much more comforting because all the memory BARs are present but still not assigned. While the warnings in the kernel log remained alike the same.
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 root&commat;P910:~# apt list --installed  2>/dev/null | grep -i nvidia | cut -d/ -f1<br>
 libnvidia-compute-470<br>
 linux-modules-nvidia-470-5.15.0-131-generic<br>
@@ -309,7 +309,7 @@ nvidia-modprobe<br>
 <p></p>
 I purged some stuff from the Nvidia SW stack to avoid clogging the Xorg and because the Tesla K80 is not supposed to function as a graphic accelerator at this stage, at least. Anyway, completely removing the Nvidia SW stack is a good way to keep the system/boot light and avoid hassles when trying to workaround by kernel options/mods the 36-bit limitation. After all, before resolving or working around the 36-bit limitation, there is no hope to use the Nvidia SW stack, in any way. Checks collection, in short here below:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 cat /proc/cmdline /proc/driver/nvidia/gpus/&ast;/information 2>/dev/null<br>
 lspci -vvv | grep -iA 20 nvidia | grep -i -e region -ie lnkcap:<br>
 nvidia-smi 2>/dev/null; lsmod | grep -e video -e nvidia<br>
@@ -328,7 +328,7 @@ lspci -knn | grep -A1 -i nvidia; lspci -vt<br>
 <p></p>
 In the quest of making the Tesla K80 working within Esprimo P910, I tried to play the card of virtualisation leveraging the Intel VT-d technology:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 root&commat;P910:~# cat /proc/cpuinfo | grep -i -e "model name" -e "address sizes" | tail -n2<br>
 model name	: Intel(R) Core(TM) i5-3470 CPU &commat; 3.20GHz<br>
 address sizes	: 36 bits physical, 48 bits virtual<br>
@@ -336,7 +336,7 @@ address sizes	: 36 bits physical, 48 bits virtual<br>
 <p></p>
 By chance I made the 2nd internal GPU virtualized but not the first one:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 <span style="font-size: 90%;">
 04:00.0 3D controller [0302]: NVIDIA Corporation GK210GL [Tesla K80] [10de:102d] (rev a1)<br>
 	Subsystem: NVIDIA Corporation GK210GL [Tesla K80] [10de:106c]<br>
@@ -354,7 +354,7 @@ By chance I made the 2nd internal GPU virtualized but not the first one:
 <p></p>
 Lately, I made the 1st internal GPU virtualized but not the second one:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 <p style="font-size: 90%;">
 03:00.0 3D controller [0302]: NVIDIA Corporation GK210GL [Tesla K80] [10de:102d] (rev a1)<br>
 	Subsystem: NVIDIA Corporation GK210GL [Tesla K80] [10de:106c]<br>
@@ -407,7 +407,7 @@ While Ubuntu 24.04 LTS serie are tailored for more recent hardware, Esprimo P910
 <p></p>
 Instead, using a 10 years old 2.5" 7200RPM old HDD from an upgraded Thinkpad, the reading performance will be around 100MB/s, like a Sandisk Ultra USB 3.1 stick. In this scenario it is way better to start the system in <tt>init=3</tt> mode, which offers the network services like SSH but no any graphic interface.
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 sudo systemctl set-default multi-user.target
 </code></blockquote>
 <p></p>
@@ -417,7 +417,7 @@ However, the SSH connectivity, in combination with the X-forwarding enabled, all
 <p></p>
 In order to get your system rid off snap completely, for all the packages in <tt>snap list</tt> do <tt>snap remove $package</tt> leaving at the ending <tt>core</tt> and <tt>snapd</tt> for the last.
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 sudo init 3<br>
 sudo apt purge snap snapd gnome-software-plugin-snap<br>
 <p></p>
@@ -430,7 +430,7 @@ sudo init 5<br>
 <p></p>
 After having removed snap completely, it is possible to choose the graphical environment based on .deb package installation. Which can be Gnome3 but whatever else, also.
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 root&commat;P910:~# hdparm -t /dev/sda | tail -n1<br>
  Timing buffered disk reads: 310 MB in  3.02 seconds = 102.78 MB/sec<br>
 <p></p>
@@ -465,7 +465,7 @@ All of this using hardware and software from 10 years ago! <img class='emoji wbs
 <p></p>
 Unfortunately the timings picture is darker than above presented because BIOS start-up took its own time:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 <b># Function definitions</b>
 <p></p>
 rb() { rl reboot; read -p "press ENTER when the fan ramps down-up"; date +%s.%N; }<br>
@@ -497,7 +497,7 @@ The <tt>ping</tt> wait introduces an irrelevant delay, the SSH connection is rea
 <p></p>
 Those systems that are still using a HDD can leverage <a href="https://e4rat.sourceforge.net" target='_blank' rel='noopener noreferrer'>e4rat</a> for <a href="https://www.howtogeek.com/69753/how-to-cut-your-linux-pcs-boot-time-in-half-with-e4rat/" target='_blank' rel='noopener noreferrer'>boot optimisation</a>. While checking with <tt>systemd-analyze critical-chain</tt> it is possible to resolve bottle-necks in the boot process. Instead, <tt>preload</tt> is a long-term optimiser.
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code mono"><code>
 root&commat;P910:~# systemd-analyze<br>
 Startup finished in 4.811s (firmware) + 4.579s (loader) + 5.157s (kernel)<br>
 \_ + 14.309s (userspace) = 28.858s<br>

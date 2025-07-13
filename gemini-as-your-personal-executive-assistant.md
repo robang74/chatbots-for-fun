@@ -263,7 +263,7 @@ The [numbers](../data/gemini-as-your-personal-executive-assistant-test-excel.xls
 
 ### SoNia 3.8.x integration
 
-This approach has been further evolved during the [integration](data/sonia-argumentative-w-rag-v3.txt#:~:text=Short%20but%20insightful?target=_blank) within the SoNia argumentative session prompt framework, as `[SBI]` mode. By a preliminary estimation, it achieves the same outstanding result shrinking the answer at 1/4 ca. of its original length both in characters and lines. *It is a kind of magic*!
+This approach has been further evolved during the [integration](data/sonia-argumentative-with-rag-v3.txt#:~:text=Short%20but%20insightful?target=_blank) within the SoNia argumentative session prompt framework, as `[SBI]` mode. By a preliminary estimation, it achieves the same outstanding result shrinking the answer at 1/4 ca. of its original length both in characters and lines. *It is a kind of magic*!
 
 - [conversation](https://g.co/gemini/share/cdfb3dc0eb75) and its [transcription](data/gemini-as-your-personal-executive-assistant-sonia-sbi-test.txt#?target=_blank)
 

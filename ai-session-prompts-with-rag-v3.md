@@ -14,7 +14,7 @@ This article is the prosecution of these previous articles:
 
 While this article introduces few but sensitive novelties compared the previous articles.
 
-- [SoNia argumentative partner w/RAG v3](../data/sonia-argumentative-w-rag-v3.txt?target=_blank) &nbsp; (2025-02-24)
+- [SoNia argumentative partner with RAG v3](../data/sonia-argumentative-with-rag-v3.txt?target=_blank) &nbsp; (2025-02-24)
 
 - [Alex peer-review with RAG v3](../data/alex-peer-review-with-rag-v3.txt?target=_blank) &nbsp; (2025-02-03)
 

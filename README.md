@@ -20,7 +20,7 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 ### SoNia
 
-* [data/sonia-argumentative-w-rag-v3.txt](data/sonia-argumentative-w-rag-v3.txt#?target=_blank)
+* [SoNia argumentative partner with RAG v3](data/sonia-argumentative-with-rag-v3.txt#?target=_blank)
 
    - Copy and past in the first prompt and wait for the answer or download and attach with this prompt:
    - *Can you read and abide by the prompt in attachment, please? Just answer OK, otherwise explain why not.*

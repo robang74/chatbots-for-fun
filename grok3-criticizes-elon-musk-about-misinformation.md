@@ -218,7 +218,7 @@ It is important to include into the learning process also the original document 
 
 #### Grok3 w/SoNia can help itself
 
-It is reasonable to think that Grok would have helped itself when combined with a session prompt like [SoNia](data/sonia-argumentative-w-rag-v3.txt#?target=_blank) and asked to create a structured summary of that document and in particular for a specific task. This because of the SoNia session prompt shown to change in a sensitive way how Grok AI copes with text analysis. Which is not surprising at all, because SoNia session prompt has been developed for that aim, specifically.
+It is reasonable to think that Grok would have helped itself when combined with a session prompt like [SoNia](data/sonia-argumentative-with-rag-v3.txt#?target=_blank) and asked to create a structured summary of that document and in particular for a specific task. This because of the SoNia session prompt shown to change in a sensitive way how Grok AI copes with text analysis. Which is not surprising at all, because SoNia session prompt has been developed for that aim, specifically.
 
 ...
 
