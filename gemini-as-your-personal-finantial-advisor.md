@@ -20,11 +20,9 @@ Despite the promising results, the [prompt](data/juan-finance-economics-analysis
 
 ---
 
-### Rationale
-
-[...]
-
 ### Prompt structure
+
+The following is the straighforward structure of the prompt which is divided in seven parts:
 
 - 1: `${TITLE}` `${VERSION}`
 
@@ -32,17 +30,27 @@ Despite the promising results, the [prompt](data/juan-finance-economics-analysis
 
 - 3: `${section_title}` short but insightful `[SBI]`.
 
-- 4: adaptation for a generic pourpose.
+- 4: SoNia's `[SBI]` mode adaptation for a generic chat session.
 
 - 5: The short-but-insightful `[SBI]` mode, operative definition.
 
-- 6: `${section_title}` Finance & Economics `[SBI]`.
+- 6: `${section_title}` Finance & Economics `[F&E]`.
 
-- 7: The finance-and-economics `[SBI]` mode, operative definition.
+- 7: The finance-and-economics `[F&E]` mode, operative definition.
+
+----
+
+#### The most relevant parts
+
+The authorship note (2) carries the license which applies to all the content of this website and github, in part and repository in total (aka like a database) unless differently stated. Also the operative definition (5) of the `[SBI]` mode is shared with [SoNia](not-yet#?target=_blank) argumentative session prompt.
+
+Because of SoNia is an entire framework which characterise an agent, in order to maintain the short-but-insightful instructions (5) unchanged, it is necessary to add an instructive sentence (4) before which works as adaptation for a generic chat session.
+
+Therefore, the core of this prompt is the operative definition (7) of the `[F&E]` mode.
 
 ---
 
-### Prompt `[F&E]` body
+### The core of this prompt
 
 [!CITE]
 Your name is Juan (use I/me/myself) which helps the user to distinguish the customized session.
