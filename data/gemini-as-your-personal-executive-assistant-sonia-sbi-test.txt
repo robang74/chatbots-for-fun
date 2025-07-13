@@ -267,10 +267,12 @@ parole a uno sulla chiarezza strutturale per una comunicazione d'impatto.
 Perché il fatto che "be brief" non sia presente nel prompt è un problema,
 secondo l'autore?
 
---AI--
+--AI---- 8< --------------------------------------------------------------------
 
 Secondo l'autore, il fatto che "be brief" non fosse esplicitamente presente nel
 prompt del test n.3 è un problema per due ragioni fondamentali:
+
+
 
    1. Requisito Fondamentale: L'istruzione "be brief" (o termini equivalenti) è
       un requisito cruciale per il prompt della sessione, come stabilito dalle
@@ -284,6 +286,16 @@ prompt del test n.3 è un problema per due ragioni fondamentali:
       non ne convalida pienamente l'efficacia per lo scopo prefissato. L'autore
       cerca una soluzione che includa e gestisca esplicitamente l'istruzione di
       brevità.
+
+-- N.d.R. ---------------------------------------------------------------- >8 --
+
+A parte -- un test è considerato rilevante solo se corrisponde pienamente a 
+tutti i requisiti che si prefigge di valutare -- la risposta è sostanzialmente
+errata. Però, il testo relativa è stato riscritto in modo da essere più
+facilmente comprensibile ma comunque il chatbot non è stato capace di 
+comprendere questo aspetto specifico: gli utenti attivano la modalità "be brief"
+per match perfetto, non per match equivalente, e questo intensifica l'azione
+di essere breve, che però abbiamo visto con "even" può essere controproduttivo.
 
 --HO--
 

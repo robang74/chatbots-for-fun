@@ -7,6 +7,8 @@
 
 - **1st edition**, this article was inspired by checking one [po](https://www.linkedin.com/posts/robertofoglietta_opportunity-cost-a-good-example-opportunity-activity-7349267941307133952-borf)[st](https://www.facebook.com/roberto.a.foglietta/posts/10162042283363736) of mines against the Gemini's opinion.
 
+This article is the natural prosecution of the [Usare l'AI per divulgare notizie di finanza](usare-lai-per-divulgare-notizie-di-finanza.md#?target=_blank) &nbsp; (2025-07-08)
+
 ---
 
 ### Rationale
@@ -133,7 +135,7 @@ The forth test prompt includes minal changes like using semicolon to separate a 
 
 The fourth test challenges the final version of the short-but-relevant session prompt within the testing framework for no other reason than to compare the result with the previous one.
 
-----
+---
 
 ### test n.5: obvious or insightful
 
@@ -143,7 +145,7 @@ The fourth test challenges the final version of the short-but-relevant session p
 **Operative Note**: {be brief, short, concise; avoid verbosity, etc.} or equivalent terms in instructions, it means creating a response for yourself and then summarizing it before answering. In providing a valuable answer, shrink or cut the obvious parts and keep the most nuanced.
 [/CITE]
 
-The fifth test prompt like the fourth matches "be brief" but avoid "even" to stress the cut. The result of the last prompt is much better than the previous and comparable, even more focused than the third. Unfortunately, another issue arises.
+The fifth test prompt like the fourth matches "be brief" but avoid "even" to stress the cut. The result of this prompt is much better than the previous and comparable, even more focused than the third. Unfortunately, another issue arises.
 
 - [conversation](https://g.co/gemini/share/7a58aaa4c480) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n5.txt#?target=_blank)
 
@@ -179,8 +181,9 @@ This prompt has been submitted at the end of test #5, test #4 and test #3 in thi
 
 The answers to this new prompt inspired to me a new approach to reach a fully flagged executive assistant session prompt. Before proceeding further, it is time to recap the results, make some stats and let maturate the idea with a night sleep pause.
 
-~~~
-### The short-but-relevant session prompt
+---
+
+### Using stats to find the best
 
 By a instive guess, the best prompt is the one used in test n.5 and it is important to write it down explicitly because it constitutes a bias. Which is fine, because everybody develops their own bias about a subject (personal view) but being aware about such biases is the key to not fall into their trap.
 
@@ -198,9 +201,13 @@ for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<
 - test n.4: &nbsp; `1782 ( 34%)` <-- shortest but opinable answer
 - test n.5: &nbsp; `2139 ( 41%)` <-- good compromise info-vs-size
 
-The stats indicate that my bias was wrong and the prompt n.3 is the best, instead. However, prompt in test n.3 does not contain "be brief" and hence the short-but-relevant mode has been activated by equivalence and it is fine that works, as well. But it is expected that aware-users activate it with a perfect match and we have seen that strengthening the constraints can harm the outcome more than relaxing them.
+The stats indicate that my bias was wrong and the prompt n.3 is the best, instead. However, prompt in test n.3 does not contain "be brief" and hence the short-but-relevant mode has been activated by equivalence and it is fine that works, as well.
 
-Therefore, I add to find a different approach than playing with words. The following is a completely new prompt which shows an outstanding performance in terms of quality and quick to grasp the answer by the human user. Moreover, it creates an answer divided in three parts: analysis, summary and evaluation.
+It is expected that aware-users activate it with a perfect match and we have seen that strengthening the constraints (cfr. "even" issue in test n.4 vs n.5) can harm the outcome more than relaxing them. Hence, a prompt cannot be chosen as the best, unless tested the perfect match, also.
+
+---
+
+### The short-but-relevant session prompt
 
 <span id="best-prompt"></span>
 [!CITE]
@@ -208,6 +215,8 @@ Therefore, I add to find a different approach than playing with words. The follo
 
 **Operative Note**: {be brief, short, concise; avoid verbosity, etc.} or equivalent terms in instructions, it means dividing your answer in three parts: 1. highlights insightful links among concepts; 2. summarise them ignoring completely the obvious parts and rephrasing in short those are most relevant; 3. provide to the user that summary, only.
 [/CITE]
+
+Therefore, I went for a different approach than playing with words. The following is a completely new prompt which shows an outstanding performance in terms of quality and it tends to provide an answer divided in three parts: analysis, summary and evaluation.
 
 - [conversation](https://g.co/gemini/share/a5ba5ce6e9d5) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n6.txt#?target=_blank)
 
@@ -231,7 +240,7 @@ mysze() { pigz -11c | dd bs=1 of=/dev/null 2>&1 | grep bytes | cut -d' ' -f1; }<
 for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<br>
  &nbsp; &nbsp; do echo "$(mycat $i | mysze) \t $i"; done
 [/CODE]
-++++
+
 Ratio [computed](data/gemini-as-your-personal-executive-assistant-test-script.txt#?target=_blank) as size plain-text vs size compressed as explained [here](usare-lai-per-divulgare-notizie-di-finanza.md#il-prompt-v3?target=_blank), less is better:
 
 - `2253` &nbsp; ( `2.31` ) &nbsp;	test-n1-answers.txt
@@ -273,15 +282,13 @@ Finally, I did the first user-experience oriented test with the `[SBI]` mode ful
 
 ## Related articles
 
-- [Usare l'AI per divulgare notizie di finanza](usare-lai-per-divulgare-notizie-di-finanza.md#?target=_blank) &nbsp; (2025-07-08)
-+++++
 - [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md#?target=_blank) &nbsp; (2025-06-23)
-+++++
+
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-06-13)
-+++++
+
 - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
 
-+++++
++
 
 ## Share alike
 
