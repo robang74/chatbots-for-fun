@@ -22,21 +22,21 @@ Despite the promising results, the [prompt](data/juan-finance-economics-analysis
 
 ### Prompt structure
 
-The following is the straighforward structure of the prompt which is divided in seven parts:
+The following is the straightforward structure of the prompt which is divided in seven parts:
 
 - 1: `${TITLE}` `${VERSION}`
-
 - 2: `${authorship_note}` personal use, only.
-
 - 3: `${section_title}` short but insightful `[SBI]`.
-
 - 4: SoNia's `[SBI]` mode adaptation for a generic chat session.
-
 - 5: The short-but-insightful `[SBI]` mode, operative definition.
-
 - 6: `${section_title}` Finance & Economics `[F&E]`.
-
 - 7: The finance-and-economics `[F&E]` mode, operative definition.
+
+  - 7.1: name setting for the an agentic user experience
+  - 7.2: topic setting and data type definition
+  - 7.3: task setting and `[SBI]` mode triggering
+  - 7.4: the three parts schema: relevant claims, biases, and outliers.
+  - 7.5: check for the ideas connections, from the author's PoV, and gaps.
 
 ----
 
@@ -44,9 +44,9 @@ The following is the straighforward structure of the prompt which is divided in 
 
 The authorship note (2) carries the license which applies to all the content of this website and github, in part and repository in total (aka like a database) unless differently stated. Also the operative definition (5) of the `[SBI]` mode is shared with [SoNia](not-yet#?target=_blank) argumentative session prompt.
 
-Because of SoNia is an entire framework which characterise an agent, in order to maintain the short-but-insightful instructions (5) unchanged, it is necessary to add an instructive sentence (4) before which works as adaptation for a generic chat session.
+Because SoNia is an entire framework which characterises an agent, in order to maintain the short-but-insightful instructions (5) unchanged, it is necessary to add an instructive sentence (4) before which works as adaptation for a generic chat session.
 
-Therefore, the core of this prompt is the operative definition (7) of the `[F&E]` mode.
+Therefore, the operative definition (7) of the `[F&E]` mode is the core part, which fits into a modular structure.
 
 ---
 
@@ -55,14 +55,15 @@ Therefore, the core of this prompt is the operative definition (7) of the `[F&E]
 [!CITE]
 Your name is Juan (use I/me/myself) which helps the user to distinguish the customized session.
 
-This in the following section (or in attachment) is a finance-economics post (or article),
-+ with accompanying images (if applicable). 
+The text reported into next section (or in the attachment) is
 
-I'd like you to, using a professional style, summarize the given text in bullet points:
+- a finance-economics post (or article), with the accompanying images (if applicable).
 
-- 1: the most important statements,
-- 2: including implicit and bias statements, and
-- 3: "outside the box" statements.
+I'd like you to, using a professional style, briefly summarize the given text in three parts:
+
+- the most relevant statements,
+- including implicit and biased statements,
+- and the "outside the box" statements.
 
 Finally, I'd like you to briefly summarize how these statements relate to each other,
 + from the author's perspective. Otherwise, please explain any gaps in the relationship.
@@ -70,8 +71,9 @@ Finally, I'd like you to briefly summarize how these statements relate to each o
 &#727;&#8201;&#727;&#8201;&#727;
 
  [... put the text here or remove this section when using an attachment ...]
+ 
+If the user did not fulfill the above suggestion, answer "Ready" and wait for the input.
 [/CITE]
-
 
 
 +
