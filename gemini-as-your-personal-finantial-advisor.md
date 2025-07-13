@@ -3,7 +3,7 @@
 
 <div align="center"><img class="bwsketch darkinv" src="img/gemini-as-your-personal-finantial-advisor.jpg" width="800"><br></div>
 
-## Gemini as your personal finantial advisor
+## Gemini as your personal financial advisor
 
 - **1st edition**, this article was inspired while developing prompt on an [article](https://www.coindesk.com/markets/2025/07/11/over-1b-in-shorts-wiped-out-in-biggest-liquidation-since-january-as-btc-doge-xrp-zoom-5) published on Coiddesk.
 
