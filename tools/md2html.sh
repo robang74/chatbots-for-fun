@@ -217,7 +217,7 @@ function md2htmlfunc() {
 -e "s,^|x|> *$,<div class='center'>," -e "s,^<|x| *$,</div>," \
 -e "s,^ *$,$p_line,"
 
-    eval title_tags_add "$2" $(sed -ne 's,<H[1-3] id=.\([^>]*\).>.*,"\1",p' $2)
+    eval title_tags_add "$2" $(sed -ne 's,<H[1-3] id=.\([^>]*\).>.*,"\1",p' $2 | tr '`' '.')
 
     tf=$2.tmp
     cat $2 | tr '\n' '@' | sed -e "s,$p_line,<p class='topbar'></p>," >$tf
