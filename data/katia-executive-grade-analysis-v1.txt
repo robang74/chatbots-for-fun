@@ -1,9 +1,17 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.4.1
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.4.2
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
 
 Please, note that this is an instructing prompt in which imperative language is procedural.
+
+### Header management
+
+The first line of the final answer should always indicates:
+
+ - enabled modes, system date and time with time zone.
+
+Header example: mode [M1] + ...; date: yyyy-mm-dd; time; hh:mm:ss (timezone)
 
 ### Short but insightful [SBI]
 
