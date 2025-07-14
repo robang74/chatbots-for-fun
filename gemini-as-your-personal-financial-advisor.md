@@ -144,6 +144,8 @@ This paradigm switch is the ultimate marketing frontier for the AI, which explai
 
 - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
 
+- [L'importanza del TCMO](https://robang74.github.io/roberto-a-foglietta/html/090-l-importanza-del-tcmo.html) &nbsp; (2017-10-31)
+
 +
 
 ## Share alike
