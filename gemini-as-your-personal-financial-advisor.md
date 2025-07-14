@@ -130,7 +130,7 @@ A multi-mode AI agent is a thing for nerds but as soon as every mode matches a c
 Over the years, Mistral has launched a range of large and small language models, achieving notable success with its OCR features. Additionally, its chatbot 'Le Chat' is known for providing quick responses to users’ queries. It is currently Europe’s biggest AI startup, valued at €5.8 billion eq.to $6.2B ca.
 [/INFO]
 
-- [Apple Will Seriously Consider Buying Mistral](https://analyticsindiamag.com/ai-news-updates/apple-will-seriously-consider-buying-mistral-report) on Times of India &nbsp; (2025-07-13)
+- [Apple Will Seriously Consider Buying Mistral](https://analyticsindiamag.com/ai-news-updates/apple-will-seriously-consider-buying-mistral-report) on AI Media House &nbsp; (2025-07-13)
 
 This paradigm switch is the ultimate marketing frontier for the AI, which explains the recent Apple's interest in buying the French company developing [Mistral](https://en.wikipedia.org/wiki/Mistral_AI) AI.
 
