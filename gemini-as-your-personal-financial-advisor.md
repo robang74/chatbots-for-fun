@@ -114,7 +114,7 @@ Therefore, the prompt (7.5) instructs the AI to search (implicit) and extract th
 
 Some of the concepts reported above are futherly developed in the conversion above. Moreover, the English-only conversation shows how to switch from a mode to another, and implicitly why the idea of having many modes available is good.
 
-- Testing Katia and modes switch: [conversation](https://g.co/gemini/share/5b6b245b7af8) with Gemini and its [transcription](not-yet#?target=_blank)
+- Testing Katia and modes switch: [conversation](https://g.co/gemini/share/5d0f673bbf8a) with Gemini and its [transcription](not-yet#?target=_blank)
 
 However, modes are for nerds while Juan, Katia, SoNia, and Alex are more people-oriented: a team at your service. Yes, it is damn marketing, so what? {:-D}.
 
