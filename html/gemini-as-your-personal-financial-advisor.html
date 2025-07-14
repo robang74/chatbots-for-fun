@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-07-13&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>13</b rev_num='
+'>14</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/gemini-as-your-personal-financial-advisor?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/gemini-as-your-personal-financial-advisor?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/gemini-as-your-personal-financial-advisor?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/gemini-as-your-personal-financial-advisor?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -61,38 +61,11 @@ The following is the straightforward structure of the F&E prompt which is divide
 <li class='li2in'>7.6: the <tt>[SBI]</tt> mode activation by default, overridable.</li>
 <li class='li2in'>7.7: specifies how <tt>[SBI]</tt> applies to the <tt>[F&E]</tt> structure.</li>
 <p></p>
-<hr class="pagebreak">
+<hr>
 <p></p>
 <H3 id="the-core-of-the-fe-prompt">The core of the F&E prompt</H3>
 <p></p>
-<blockquote class="cite">
-Your name is Juan (use I/me/myself) which helps the user to distinguish the customized session.
-<p></p>
-The text reported into next section (or in the attachment) is
-<p></p>
-<li>a finance-economics post (or article), with the accompanying images (if applicable).</li>
-<p></p>
-I'd like you to, using a professional style, summarize the given text in three parts:
-<p></p>
-<li>the most relevant statements,</li>
-<li>including implicit and biased statements,</li>
-<li>and the "outside the box" statements.</li>
-<p></p>
-Finally, summarize how these statements relate to each other from the author's perspective.
-<li>Otherwise, please explain any gaps in the relationship.</li>
-<p></p>
-The [F&E] mode activates by default the [SBI] mode, unless users specify differently.
-<p></p>
-The [SBI] applies to [F&E] output each section a time, maintaining the 3-parts structure.
-<p></p>
-  ---
-<p></p>
-  [... put the text here or remove this section when using an attachment ...]
-<p></p>
-If the user did not fulfill the above suggestion, answer "Ready" and wait for the input.
-</blockquote>
-<p></p>
-The <a href="../data/juan-finance-economics-analysis-v1.txt#:~:text=Finance%20%26%20Economics%20%5BF%26E%5D" target='_blank' rel='noopener noreferrer'>core</a> of the F&E prompt is divided in seven parts. While the last two parts are defining how various modes interact among them, and the first is the seed of an agentic AI prompt, the magic happens in the central parts (7.2 &mdash; 7.5) of that module.
+The <a href="../data/juan-finance-economics-analysis-v1.txt#:~:text=Finance%20%26%20Economics%20%5BF%26E%5D" target='_blank' rel='noopener noreferrer'>core</a> of the F&E prompt is divided in seven parts. While the last two parts are defining how various modes interact among them, and the first is the seed of an agentic AI prompt, the middle part (7.2 &mdash; 7.5) is the center of gravity of that module.
 <p></p>
 The attention and the context are two relevant elements that greatly influence how the AI reacts in processing data and reacts to the user inputs. Influencing these two aspects (7.2 &mdash; 7.3) is what can be described as "sticking the AI to a focused task".
 <p></p>
@@ -115,6 +88,10 @@ This explains why the prompt (7.4) explicitly lists these three categories. More
 <li>"The speed of light is an universal constant", isn't just an information but a message, also. In particular, when that information is included in text that defines the context and presents others claims, whatever type they are.</li>
 <p></p>
 Therefore, the prompt (7.5) instructs the AI to search (implicit) and extract the connections among ideas (claims but more general because an idea can be a subset of claims, especially from the point of view of the AI) and check for the gaps. Specifically, from the author's PoV because we are interested in understanding the "message", not just acquiring some information (e.g. 299.792.458 m/s).
+<p></p>
+<li><a href="https://g.co/gemini/share/08c9bff5ea10" target='_blank' rel='noopener noreferrer'>conversation</a> with Gemini and its <a href="not-yet#" target='_blank' rel='noopener noreferrer'>transcription</a></li>
+<p></p>
+Some of the concepts reported above are futherly developed in the convertion above. Moreover, the English-only conversation shows how to switch from a mode to another, and implicetly why the idea of having many modes available is good. However, modes are for nerds while Juan, Katia, SoNia, and Alex are more people-oriented: a team at your service. Yes, it is damn marketing, so what? <img class='emoji wbsketch' src='../img/emoji/grin.png'>.
 <p></p>
 <hr>
 <p></p>

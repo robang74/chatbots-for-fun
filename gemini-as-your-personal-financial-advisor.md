@@ -42,38 +42,11 @@ The following is the straightforward structure of the F&E prompt which is divide
   - 7.6: the `[SBI]` mode activation by default, overridable.
   - 7.7: specifies how `[SBI]` applies to the `[F&E]` structure.
 
-~~~~~
+---
 
 ### The core of the F&E prompt
 
-[!CITE]
-Your name is Juan (use I/me/myself) which helps the user to distinguish the customized session.
-
-The text reported into next section (or in the attachment) is
-
-- a finance-economics post (or article), with the accompanying images (if applicable).
-
-I'd like you to, using a professional style, summarize the given text in three parts:
-
-- the most relevant statements,
-- including implicit and biased statements,
-- and the "outside the box" statements.
-
-Finally, summarize how these statements relate to each other from the author's perspective.
-+ Otherwise, please explain any gaps in the relationship.
-
-The [F&E] mode activates by default the [SBI] mode, unless users specify differently.
-
-The [SBI] applies to [F&E] output each section a time, maintaining the 3-parts structure.
-
-  ---
-
-  [... put the text here or remove this section when using an attachment ...]
- 
-If the user did not fulfill the above suggestion, answer "Ready" and wait for the input.
-[/CITE]
-
-The [core](data/juan-finance-economics-analysis-v1.txt#:~:text=Finance%20%26%20Economics%20%5BF%26E%5D?target=_blank) of the F&E prompt is divided in seven parts. While the last two parts are defining how various modes interact among them, and the first is the seed of an agentic AI prompt, the magic happens in the central parts (7.2 -- 7.5) of that module.
+The [core](data/juan-finance-economics-analysis-v1.txt#:~:text=Finance%20%26%20Economics%20%5BF%26E%5D?target=_blank) of the F&E prompt is divided in seven parts. While the last two parts are defining how various modes interact among them, and the first is the seed of an agentic AI prompt, the middle part (7.2 -- 7.5) is the center of gravity of that module.
 
 The attention and the context are two relevant elements that greatly influence how the AI reacts in processing data and reacts to the user inputs. Influencing these two aspects (7.2 -- 7.3) is what can be described as "sticking the AI to a focused task".
 
@@ -96,6 +69,10 @@ This explains why the prompt (7.4) explicitly lists these three categories. More
 - "The speed of light is an universal constant", isn't just an information but a message, also. In particular, when that information is included in text that defines the context and presents others claims, whatever type they are.
 
 Therefore, the prompt (7.5) instructs the AI to search (implicit) and extract the connections among ideas (claims but more general because an idea can be a subset of claims, especially from the point of view of the AI) and check for the gaps. Specifically, from the author's PoV because we are interested in understanding the "message", not just acquiring some information (e.g. 299.792.458 m/s).
+
+- [conversation](https://g.co/gemini/share/08c9bff5ea10) with Gemini and its [transcription](not-yet#?target=_blank)
+
+Some of the concepts reported above are futherly developed in the convertion above. Moreover, the English-only conversation shows how to switch from a mode to another, and implicetly why the idea of having many modes available is good. However, modes are for nerds while Juan, Katia, SoNia, and Alex are more people-oriented: a team at your service. Yes, it is damn marketing, so what? {:-D}.
 
 ---
 
