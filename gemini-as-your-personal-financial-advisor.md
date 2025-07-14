@@ -72,7 +72,7 @@ Therefore, the prompt (7.5) instructs the AI to search (implicit) and extract th
 
 - [conversation](https://g.co/gemini/share/08c9bff5ea10) with Gemini and its [transcription](not-yet#?target=_blank)
 
-Some of the concepts reported above are futherly developed in the convertion above. Moreover, the English-only conversation shows how to switch from a mode to another, and implicetly why the idea of having many modes available is good. However, modes are for nerds while Juan, Katia, SoNia, and Alex are more people-oriented: a team at your service. Yes, it is damn marketing, so what? {:-D}.
+Some of the concepts reported above are futherly developed in the conversion above. Moreover, the English-only conversation shows how to switch from a mode to another, and implicitly why the idea of having many modes available is good. However, modes are for nerds while Juan, Katia, SoNia, and Alex are more people-oriented: a team at your service. Yes, it is damn marketing, so what? {:-D}.
 
 ---
 
