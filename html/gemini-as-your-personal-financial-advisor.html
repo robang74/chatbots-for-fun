@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-07-13&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>15</b rev_num='
+'>16</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/gemini-as-your-personal-financial-advisor?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/gemini-as-your-personal-financial-advisor?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/gemini-as-your-personal-financial-advisor?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/gemini-as-your-personal-financial-advisor?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -31,17 +31,14 @@
 This article is the natural prosecution of these two:
 <p></p>
 <li><a href="gemini-as-your-personal-executive-assistant.html#" target='_blank' rel='noopener noreferrer'>Gemini as your personal executive assistant</a> &nbsp; (2025-07-11)</li>
+<p></p>
 <li><a href="usare-lai-per-divulgare-notizie-di-finanza.html#" target='_blank' rel='noopener noreferrer'>Usare l'AI per divulgare notizie di finanza</a> &nbsp; (2025-07-08)</li>
 <p></p>
-Despite the promising results, the <a href="../data/juan-finance-economics-analysis-v1.txt#" target='_blank' rel='noopener noreferrer'>prompt</a> here presented is experimental and into an active developing stage.
-<p></p>
-<blockquote><span class="warnicon spanicon">&nbsp;<svg class="warnicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;WARNING!&nbsp;&nbsp;</nobr></span><br><br><b>WORKING IN PROGRESS</b></blockquote>
+Despite the promising results, the <a href="../data/juan-finance-economics-analysis-v1.txt#" target='_blank' rel='noopener noreferrer'>prompt</a> presented here is experimental and into an active developing stage. So, the explanations within this paper are also strictly related to a specific version, as noted.
 <p></p>
 <hr>
 <p></p>
-<H3 id="the-fe-prompt-structure">The F&E prompt structure</H3>
-<p></p>
-The following is the straightforward structure of the F&E prompt which is divided in seven parts:
+<H3 id="the-fe-v035-prompt-structure">The F&E v0.3.5 prompt structure</H3>
 <p></p>
 <li>1: <tt>${TITLE}</tt> <tt>${VERSION}</tt></li>
 <li>2: <tt>${authorship_note}</tt> personal use, only.</li>
@@ -61,19 +58,62 @@ The following is the straightforward structure of the F&E prompt which is divide
 <li class='li2in'>7.6: the <tt>[SBI]</tt> mode activation by default, overridable.</li>
 <li class='li2in'>7.7: specifies how <tt>[SBI]</tt> applies to the <tt>[F&E]</tt> structure.</li>
 <p></p>
+<div class="pagebreak"><hr></div>
+<p></p>
+<H3 id="the-most-relevant-prompt-parts">The most relevant prompt parts</H3>
+<p></p>
+The authorship note (2) carries the license which applies to all the content of this website and github, in part and repository in total (aka like a database) unless differently stated. Also the operative definition (5) of the <tt>[SBI]</tt> mode is shared with <a href="../data/sonia-argumentative-with-rag-v3.txt#:~:text=Short%20but%20insightful" target='_blank' rel='noopener noreferrer'>SoNia</a> argumentative session prompt.
+<p></p>
+Because SoNia is an entire framework which characterises an agent, in order to maintain the short-but-insightful instructions (5) unchanged, it is necessary to add an instructive sentence (4) before which works as adaptation for a generic chat session. The <tt>[SBI]</tt> activation by default is append at its end.
+<p></p>
+Therefore, the operative definition (7) of the <tt>[F&E]</tt> mode is the core part, which fits into a modular prompt structure. A modular structure is easy to read, maintain and can easily exchange modules with other agentic session prompts or switch among modules versions.
+<p></p>
 <hr>
 <p></p>
-<H3 id="the-core-of-the-fe-prompt">The core of the F&E prompt</H3>
+<H3 id="the-core-of-the-fe-v035-prompt">The core of the F&E v0.3.5 prompt</H3>
 <p></p>
-The <a href="../data/juan-finance-economics-analysis-v1.txt#:~:text=Finance%20%26%20Economics%20%5BF%26E%5D" target='_blank' rel='noopener noreferrer'>core</a> of the F&E prompt is divided in seven parts. While the last two parts are defining how various modes interact among them, and the first is the seed of an agentic AI prompt, the middle part (7.2 &mdash; 7.5) is the center of gravity of that module.
+<blockquote class="cite">
+Your name is Juan (use I/me/myself) which helps the user to distinguish the customized session.
+<p></p>
+The text reported into next section (or in the attachment) is
+<p></p>
+<li>a finance-economics post (or article), with the accompanying images (if applicable).</li>
+<p></p>
+I'd like you to, using a professional style, summarize the given text in three parts:
+<p></p>
+<li>the most relevant statements,</li>
+<li>including implicit and biased statements,</li>
+<li>and the "outside the box" statements.</li>
+<p></p>
+Finally, summarize how these statements relate to each other from the author's perspective.
+<li>Otherwise, please explain any gaps in the relationship.</li>
+<p></p>
+The [F&E] mode activates by default the [SBI] mode, unless users specify differently.
+<p></p>
+The [SBI] applies to [F&E] output each section a time, maintaining the 3-parts structure.
+<p></p>
+  ---
+<p></p>
+  [... put the text here or remove this section when using an attachment ...]
+<p></p>
+If the user did not fulfill the above suggestion, answer "Ready" and wait for the input.
+</blockquote>
+<p></p>
+<hr class="post-it">
+<p></p>
+The <a href="https://raw.githubusercontent.com/robang74/chatbots-for-fun/7a1c888ce3da8acce15b83001c8e7348a65c327c/data/juan-finance-economics-analysis-v1.txt#:~:text=Finance%20%26%20Economics%20%5BF%26E%5D" target='_blank' rel='noopener noreferrer' target='_blank' rel='noopener noreferrer'>core</a> of the F&E prompt is divided in seven parts. While the last two parts are defining how various modes interact among them, and the first is the seed of an agentic AI prompt, the middle part (7.2 &mdash; 7.5) is the center of gravity of that module.
 <p></p>
 The attention and the context are two relevant elements that greatly influence how the AI reacts in processing data and reacts to the user inputs. Influencing these two aspects (7.2 &mdash; 7.3) is what can be described as "sticking the AI to a focused task".
 <p></p>
 The keywords in the F&E module are just three: <tt>Juan</tt>, <tt>finance-economics</tt> and <tt>[F&E]</tt>. This might seem surprising but everything else can be used to obtain another kind of agent. As the <a href="../data/katia-executive-grade-analysis-v1.txt#" target='_blank' rel='noopener noreferrer'>Katia</a>, the executive grade analysis session prompt, shows.
 <p></p>
-<li>Developing Katia from Juan: <a href="https://g.co/gemini/share/3f7cdf0e1e79" target='_blank' rel='noopener noreferrer'>conversation</a> with Gemini and its <a href="">transcription</a>.</li>
+<div class="pagebreak"><hr></div>
+<p></p>
+<H3 id="a-bit-of-theory">A bit of theory</H3>
 <p></p>
 Despite during the conversation both English (for the prompt) and Italian (for the conversation) languages are used, this separation seems working pretty well and acknowledges that an English session prompt is an universal script-for-an-interpreter.
+<p></p>
+<li>Developing Katia from Juan: <a href="https://g.co/gemini/share/3f7cdf0e1e79" target='_blank' rel='noopener noreferrer'>conversation</a> with Gemini and its <a href="">transcription</a>.</li>
 <p></p>
 The theory of communication and public speaking teaches us that there are many aspects that deeply influences the information transmission, and hence influences the audience.
 <p></p>
@@ -89,19 +129,31 @@ This explains why the prompt (7.4) explicitly lists these three categories. More
 <p></p>
 Therefore, the prompt (7.5) instructs the AI to search (implicit) and extract the connections among ideas (claims but more general because an idea can be a subset of claims, especially from the point of view of the AI) and check for the gaps. Specifically, from the author's PoV because we are interested in understanding the "message", not just acquiring some information (e.g. 299.792.458 m/s).
 <p></p>
-<li><a href="https://g.co/gemini/share/08c9bff5ea10" target='_blank' rel='noopener noreferrer'>conversation</a> with Gemini and its <a href="not-yet#" target='_blank' rel='noopener noreferrer'>transcription</a></li>
+<hr>
 <p></p>
-Some of the concepts reported above are futherly developed in the conversion above. Moreover, the English-only conversation shows how to switch from a mode to another, and implicitly why the idea of having many modes available is good. However, modes are for nerds while Juan, Katia, SoNia, and Alex are more people-oriented: a team at your service. Yes, it is damn marketing, so what? <img class='emoji wbsketch' src='../img/emoji/grin.png'>.
+<H3 id="a-bit-of-testing">A bit of testing</H3>
+<p></p>
+Some of the concepts reported above are futherly developed in the conversion above. Moreover, the English-only conversation shows how to switch from a mode to another, and implicitly why the idea of having many modes available is good.
+<p></p>
+<li><a href="https://g.co/gemini/share/41bc3d25f583" target='_blank' rel='noopener noreferrer'>conversation</a> with Gemini and its <a href="not-yet#" target='_blank' rel='noopener noreferrer'>transcription</a></li>
+<p></p>
+However, modes are for nerds while Juan, Katia, SoNia, and Alex are more people-oriented: a team at your service. Yes, it is damn marketing, so what? <img class='emoji wbsketch' src='../img/emoji/grin.png'>.
 <p></p>
 <hr>
 <p></p>
-<H3 id="the-most-relevant-prompt-parts">The most relevant prompt parts</H3>
+<H3 id="conclusions">Conclusions</H3>
 <p></p>
-The authorship note (2) carries the license which applies to all the content of this website and github, in part and repository in total (aka like a database) unless differently stated. Also the operative definition (5) of the <tt>[SBI]</tt> mode is shared with <a href="../data/sonia-argumentative-with-rag-v3.txt#:~:text=Short%20but%20insightful" target='_blank' rel='noopener noreferrer'>SoNia</a> argumentative session prompt.
+Current chatbots available online are natural language interpreters, this may confuse people, who do not have a background in one of the traditional programming languages, at least. It is worth to say that these interpreters are a bit "fuzzy" compared with <tt>bash</tt> or <tt>python</tt> but stochastics and statistics are two branches of the science. So, prompt-engineering which is a technique can be reported in its fundamentals within the strict science framework.
 <p></p>
-Because SoNia is an entire framework which characterises an agent, in order to maintain the short-but-insightful instructions (5) unchanged, it is necessary to add an instructive sentence (4) before which works as adaptation for a generic chat session. The <tt>[SBI]</tt> activation by default is append at its end.
+A multi-mode AI agent is a thing for nerds but as soon as every mode matches a character and every character as a human-like name, then the multi-mode agentic operations can be easily exploited under the "a team at your service" paradigm. Which leverages the best from those chatbots running with an engine based on the mixture-of-expert (<a href="https://en.wikipedia.org/wiki/Mixture_of_experts" target='_blank' rel='noopener noreferrer'>MoE</a>) architecture.
 <p></p>
-Therefore, the operative definition (7) of the <tt>[F&E]</tt> mode is the core part, which fits into a modular prompt structure. A modular structure is easy to read, maintain and can easily exchange modules with other agentic session prompts or switch among modules versions.
+<div class="post-it"><b class="post-it">&#9432;</b>
+Over the years, Mistral has launched a range of large and small language models, achieving notable success with its OCR features. Additionally, its chatbot 'Le Chat' is known for providing quick responses to users’ queries. It is currently Europe’s biggest AI startup, valued at €5.8 billion eq.to $6.2B ca.
+</div>
+<p></p>
+<li><a href="https://analyticsindiamag.com/ai-news-updates/apple-will-seriously-consider-buying-mistral-report" target='_blank' rel='noopener noreferrer'>Apple Will Seriously Consider Buying Mistral</a> on Times of India &nbsp; (2025-07-13)</li>
+<p></p>
+This paradigm switch is the ultimate marketing frontier for the AI, which explains the recent Apple's interest in buying the French company developing <a href="https://en.wikipedia.org/wiki/Mistral_AI" target='_blank' rel='noopener noreferrer'>Mistral</a> AI.
 <p></p>
 <br>
 <p></p>

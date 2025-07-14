@@ -10,19 +10,14 @@
 This article is the natural prosecution of these two:
 
 - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
+
 - [Usare l'AI per divulgare notizie di finanza](usare-lai-per-divulgare-notizie-di-finanza.md#?target=_blank) &nbsp; (2025-07-08)
 
-Despite the promising results, the [prompt](data/juan-finance-economics-analysis-v1.txt#?target=_blank) here presented is experimental and into an active developing stage.
-
-> [!WARN]
-> 
-> **WORKING IN PROGRESS**
+Despite the promising results, the [prompt](data/juan-finance-economics-analysis-v1.txt#?target=_blank) presented here is experimental and into an active developing stage. So, the explanations within this paper are also strictly related to a specific version, as noted.
 
 ---
 
-### The F&E prompt structure
-
-The following is the straightforward structure of the F&E prompt which is divided in seven parts:
+### The F&E v0.3.5 prompt structure
 
 - 1: `${TITLE}` `${VERSION}`
 - 2: `${authorship_note}` personal use, only.
@@ -42,19 +37,62 @@ The following is the straightforward structure of the F&E prompt which is divide
   - 7.6: the `[SBI]` mode activation by default, overridable.
   - 7.7: specifies how `[SBI]` applies to the `[F&E]` structure.
 
+----
+
+### The most relevant prompt parts
+
+The authorship note (2) carries the license which applies to all the content of this website and github, in part and repository in total (aka like a database) unless differently stated. Also the operative definition (5) of the `[SBI]` mode is shared with [SoNia](data/sonia-argumentative-with-rag-v3.txt#:~:text=Short%20but%20insightful?target=_blank) argumentative session prompt.
+
+Because SoNia is an entire framework which characterises an agent, in order to maintain the short-but-insightful instructions (5) unchanged, it is necessary to add an instructive sentence (4) before which works as adaptation for a generic chat session. The `[SBI]` activation by default is append at its end.
+
+Therefore, the operative definition (7) of the `[F&E]` mode is the core part, which fits into a modular prompt structure. A modular structure is easy to read, maintain and can easily exchange modules with other agentic session prompts or switch among modules versions.
+
 ---
 
-### The core of the F&E prompt
+### The core of the F&E v0.3.5 prompt
 
-The [core](data/juan-finance-economics-analysis-v1.txt#:~:text=Finance%20%26%20Economics%20%5BF%26E%5D?target=_blank) of the F&E prompt is divided in seven parts. While the last two parts are defining how various modes interact among them, and the first is the seed of an agentic AI prompt, the middle part (7.2 -- 7.5) is the center of gravity of that module.
+[!CITE]
+Your name is Juan (use I/me/myself) which helps the user to distinguish the customized session.
+
+The text reported into next section (or in the attachment) is
+
+- a finance-economics post (or article), with the accompanying images (if applicable).
+
+I'd like you to, using a professional style, summarize the given text in three parts:
+
+- the most relevant statements,
+- including implicit and biased statements,
+- and the "outside the box" statements.
+
+Finally, summarize how these statements relate to each other from the author's perspective.
++ Otherwise, please explain any gaps in the relationship.
+
+The [F&E] mode activates by default the [SBI] mode, unless users specify differently.
+
+The [SBI] applies to [F&E] output each section a time, maintaining the 3-parts structure.
+
+  ---
+
+  [... put the text here or remove this section when using an attachment ...]
+ 
+If the user did not fulfill the above suggestion, answer "Ready" and wait for the input.
+[/CITE]
+
+...
+
+The [core](https://raw.githubusercontent.com/robang74/chatbots-for-fun/7a1c888ce3da8acce15b83001c8e7348a65c327c/data/juan-finance-economics-analysis-v1.txt#:~:text=Finance%20%26%20Economics%20%5BF%26E%5D?target=_blank) of the F&E prompt is divided in seven parts. While the last two parts are defining how various modes interact among them, and the first is the seed of an agentic AI prompt, the middle part (7.2 -- 7.5) is the center of gravity of that module.
 
 The attention and the context are two relevant elements that greatly influence how the AI reacts in processing data and reacts to the user inputs. Influencing these two aspects (7.2 -- 7.3) is what can be described as "sticking the AI to a focused task".
 
 The keywords in the F&E module are just three: `Juan`, `finance-economics` and `[F&E]`. This might seem surprising but everything else can be used to obtain another kind of agent. As the [Katia](data/katia-executive-grade-analysis-v1.txt#?target=_blank), the executive grade analysis session prompt, shows.
 
-- Developing Katia from Juan: [conversation](https://g.co/gemini/share/3f7cdf0e1e79) with Gemini and its [transcription]().
+----
+
+### A bit of theory
 
 Despite during the conversation both English (for the prompt) and Italian (for the conversation) languages are used, this separation seems working pretty well and acknowledges that an English session prompt is an universal script-for-an-interpreter.
+
+- Developing Katia from Juan: [conversation](https://g.co/gemini/share/3f7cdf0e1e79) with Gemini and its [transcription]().
 
 The theory of communication and public speaking teaches us that there are many aspects that deeply influences the information transmission, and hence influences the audience.
 
@@ -70,19 +108,31 @@ This explains why the prompt (7.4) explicitly lists these three categories. More
 
 Therefore, the prompt (7.5) instructs the AI to search (implicit) and extract the connections among ideas (claims but more general because an idea can be a subset of claims, especially from the point of view of the AI) and check for the gaps. Specifically, from the author's PoV because we are interested in understanding the "message", not just acquiring some information (e.g. 299.792.458 m/s).
 
-- [conversation](https://g.co/gemini/share/08c9bff5ea10) with Gemini and its [transcription](not-yet#?target=_blank)
+---
 
-Some of the concepts reported above are futherly developed in the conversion above. Moreover, the English-only conversation shows how to switch from a mode to another, and implicitly why the idea of having many modes available is good. However, modes are for nerds while Juan, Katia, SoNia, and Alex are more people-oriented: a team at your service. Yes, it is damn marketing, so what? {:-D}.
+### A bit of testing
+
+Some of the concepts reported above are futherly developed in the conversion above. Moreover, the English-only conversation shows how to switch from a mode to another, and implicitly why the idea of having many modes available is good.
+
+- [conversation](https://g.co/gemini/share/41bc3d25f583) with Gemini and its [transcription](not-yet#?target=_blank)
+
+However, modes are for nerds while Juan, Katia, SoNia, and Alex are more people-oriented: a team at your service. Yes, it is damn marketing, so what? {:-D}.
 
 ---
 
-### The most relevant prompt parts
+### Conclusions
 
-The authorship note (2) carries the license which applies to all the content of this website and github, in part and repository in total (aka like a database) unless differently stated. Also the operative definition (5) of the `[SBI]` mode is shared with [SoNia](data/sonia-argumentative-with-rag-v3.txt#:~:text=Short%20but%20insightful?target=_blank) argumentative session prompt.
+Current chatbots available online are natural language interpreters, this may confuse people, who do not have a background in one of the traditional programming languages, at least. It is worth to say that these interpreters are a bit "fuzzy" compared with `bash` or `python` but stochastics and statistics are two branches of the science. So, prompt-engineering which is a technique can be reported in its fundamentals within the strict science framework.
 
-Because SoNia is an entire framework which characterises an agent, in order to maintain the short-but-insightful instructions (5) unchanged, it is necessary to add an instructive sentence (4) before which works as adaptation for a generic chat session. The `[SBI]` activation by default is append at its end.
+A multi-mode AI agent is a thing for nerds but as soon as every mode matches a character and every character as a human-like name, then the multi-mode agentic operations can be easily exploited under the "a team at your service" paradigm. Which leverages the best from those chatbots running with an engine based on the mixture-of-expert ([MoE](https://en.wikipedia.org/wiki/Mixture_of_experts)) architecture.
 
-Therefore, the operative definition (7) of the `[F&E]` mode is the core part, which fits into a modular prompt structure. A modular structure is easy to read, maintain and can easily exchange modules with other agentic session prompts or switch among modules versions.
+[!INFO]
+Over the years, Mistral has launched a range of large and small language models, achieving notable success with its OCR features. Additionally, its chatbot 'Le Chat' is known for providing quick responses to users’ queries. It is currently Europe’s biggest AI startup, valued at €5.8 billion eq.to $6.2B ca.
+[/INFO]
+
+- [Apple Will Seriously Consider Buying Mistral](https://analyticsindiamag.com/ai-news-updates/apple-will-seriously-consider-buying-mistral-report) on Times of India &nbsp; (2025-07-13)
+
+This paradigm switch is the ultimate marketing frontier for the AI, which explains the recent Apple's interest in buying the French company developing [Mistral](https://en.wikipedia.org/wiki/Mistral_AI) AI.
 
 +
 
