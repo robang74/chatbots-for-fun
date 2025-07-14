@@ -73,6 +73,30 @@ The [SBI] applies to [F&E] output each section a time, maintaining the 3-parts s
 If the user did not fulfill the above suggestion, answer "Ready" and wait for the input.
 [/CITE]
 
+The [core](data/juan-finance-economics-analysis-v1.txt#:~:text=Finance%20%26%20Economics%20%5BF%26E%5D?target=_blank) of the F&E prompt is divided in seven parts. While the last two parts are defining how various modes interact among them, and the first is the seed of an agentic AI prompt, the magic happens in the central parts (7.2 -- 7.5) of that module.
+
+The attention and the context are two relevant elements that greatly influence how the AI reacts in processing data and reacts to the user inputs. Influencing these two aspects (7.2 -- 7.3) is what can be described as "sticking the AI to a focused task".
+
+The keywords in the F&E module are just three: `Juan`, `finance-economics` and `[F&E]`. This might seem surprising but everything else can be used to obtain another kind of agent. As the [Katia](data/katia-executive-grade-analysis-v1.txt#?target=_blank), the executive grade analysis session prompt, shows.
+
+- Developing Katia from Juan: [conversation](https://g.co/gemini/share/3f7cdf0e1e79) with Gemini and its [transcription]().
+
+Despite during the conversation both English (for the prompt) and Italian (for the conversation) languages are used, this separation seems working pretty well and acknowledges that an English session prompt is an universal script-for-an-interpreter.
+
+The theory of communication and public speaking teaches us that there are many aspects that deeply influences the information transmission, and hence influences the audience.
+
+- Forget the non verbal communication that does not apply in writings.
+
+- The "tone" or "style" of writing is something that an LLM could recognise (cataloging, labeling, etc.) but being strongly context-related is hard to manage by a session prompt that usually receives just a snippet of information.
+
+- What is remaining are three categories of information: explicit and implicit claims, and biases. Extracting and categorising them is a MUST, otherwise we are getting to be influenced but those information that we are not aware of are being embedded into the "message".
+
+This explains why the prompt (7.4) explicitly lists these three categories. Moreover, in writing "message" is about being aware that everyone that write everything has it own agenda, and more specifically a goal in mind, not just "neutrally" transfer some bits of information: 
+
+- "The speed of light is an universal constant", isn't just an information but a message, also. In particular, when that information is included in text that defines the context and presents others claims, whatever type they are.
+
+Therefore, the prompt (7.5) instructs the AI to search (implicit) and extract the connections among ideas (claims but more general because an idea can be a subset of claims, especially from the point of view of the AI) and check for the gaps. Specifically, from the author's PoV because we are interested in understanding the "message", not just acquiring some information (e.g. 299.792.458 m/s).
+
 ---
 
 ### The most relevant prompt parts
@@ -83,17 +107,17 @@ Because SoNia is an entire framework which characterises an agent, in order to m
 
 Therefore, the operative definition (7) of the `[F&E]` mode is the core part, which fits into a modular prompt structure. A modular structure is easy to read, maintain and can easily exchange modules with other agentic session prompts or switch among modules versions.
 
-+++++
++
 
 ## Related articles
 
 - [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md#?target=_blank) &nbsp; (2025-06-23)
-+++++
+
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-06-13)
-+++++
+
 - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
 
-+++++
++
 
 ## Share alike
 
