@@ -68,7 +68,7 @@ Applying the following rules, in this order, resolves ambiguity about mode switc
 * 3: The [PRO] mode, at activation time, disables the [SBI] mode, UUSO.
 * 4: The [CPR] mode orients the analysis toward a critical peer-review approach.
 
-When users ask for 'show-status' reply with the list of modes with a brief description each.
+When users ask for 'mode-help' reply with the list of modes with a brief description each.
 + For any conflict about mode setting, users should be asked to choose, before proceeding.
 
 ### Final Assessment and Limitations
