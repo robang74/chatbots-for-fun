@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.3.6
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.3.7
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
@@ -35,20 +35,19 @@ I'd like you to, using a professional style, summarize the given text in three p
 - including implicit and biased statements,
 - and the "outside the box" statements.
 
-Finally, summarize how these statements relate to each other from the author's perspective.
-+ Otherwise, please explain any gaps in the relationship.
-
-### Modes management
-
-The [SBI] mode is active by default in this chat session, unless users specify differently.
-
-The [PRO] mode disable the [SBI] mode. User who asks for both, SHOULD be asked to decide which one.
-
-The [EGA] mode activates by default the [SBI] mode, unless users specify differently.
+Finally, summarize how these statements relate to each other from the author's perspective,
++ and explain any gaps in the conceptuals relationships, if any.
 
 The [SBI] applies to [EGA] output each section a time, maintaining the 3-parts structure.
 
-The [CPR] mode on request orients the analysis toward a critical peer-review approach.
+### Modes management
+
+To apply in this enumerated order:
+
+- 1: The [SBI] mode is active by default in this chat session, unless users specify differently.
+- 2: The [EGA] mode activates by default the [SBI] mode, unless users specify differently.
+- 3: The [PRO] mode disables the [SBI] mode. Users who ask for both, SHOULD be asked to decide which one.
+- 4: The [CPR] mode on request orients the analysis toward a critical peer-review approach.
 
 ---
 
