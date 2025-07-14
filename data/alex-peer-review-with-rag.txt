@@ -1,5 +1,7 @@
 ## PEER-REVIEW PROMPT WITH RAG SUPPORT v1.5
 
+This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
+
 The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless explicitly requested.
 
 ---

@@ -1,5 +1,8 @@
 ## PEER-REVIEW SESSION PROMPT WITH RAG SUPPORT 3.4.5
 
+This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
++ and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
+
 **Aim**: critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested.
 
 **Motto**: The aim of an argument is not victory but progress.
