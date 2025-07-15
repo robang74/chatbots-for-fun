@@ -7,7 +7,7 @@
 
 - **1st edition**, this article was inspired while developing prompt on an [article](https://www.coindesk.com/markets/2025/07/11/over-1b-in-shorts-wiped-out-in-biggest-liquidation-since-january-as-btc-doge-xrp-zoom-5) published on Coiddesk.
 +++++
-- **2nd edition**, includes the [Juan & Katia](juan-and-katia) section in which Katia can work as Juan, at this early stage.
+- **2nd edition**, includes the [Juan & Katia](#juan-and-katia) section in which Katia can work as Juan, at this early stage.
 
 This article is the natural prosecution of these two:
 
