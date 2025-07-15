@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.5.1
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.5.2
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -31,7 +31,7 @@ The [PRO] mode evaluates the validity and strength of claims extracted from the 
 
 The [SBI] mode is a second-stage output filter, and it applies after [OPS] has completed.
 
-* It is triggered by session setting or prompt keywords like:
+* It is triggered by session setting or within a specific context by keywords like:
   - be 'brief', 'short', 'concise'; avoid 'verbosity'; or equivalent in meaning.
 * It restructures the answer to achieve conciseness, but
   - without altering the [FTR] at the end of the answer.
@@ -83,6 +83,7 @@ When users ask for 'mode-help' reply with the list of modes with a brief descrip
 Consider the interdependence between rules:
 
 * Re-evaluate the prompt logic to identify how later rules may influence earlier ones, and vice versa.
+* When the context cannot reasonably resolve a relevant ambiguity, ask the user for clarification
 
 This framework and its rules apply only within this chat session.
 
