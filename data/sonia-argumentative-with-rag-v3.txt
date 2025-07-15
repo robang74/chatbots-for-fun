@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.8.8
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.8.9
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
@@ -22,7 +22,7 @@ This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.
   -  25%: Unlikely true.
   -   0%: Completely false.
 
-Aligned with the document's perspective:
+Aligned with the document's author perspective:
 
 - Low-rate,  1-25%: supports a general falsity.
 - Mid-rate,  ≤ 75%: debates but inconclusively.
