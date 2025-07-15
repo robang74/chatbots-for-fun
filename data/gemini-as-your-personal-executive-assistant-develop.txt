@@ -192,7 +192,7 @@ intuizioni chiave in forma condensata.
 
 --HO--
 
-data/katia-executive-grade-analysis-v1.txt  v0.3.3
+data/katia-executive-grade-analysis-v1.txt (v0.3.3)
 
 Per cortesia rispondi di nuovo al mio prompt iniziale, questa volta usando la
 modalità [EGA] così come descritta nel prompt di sessione in allegato.
