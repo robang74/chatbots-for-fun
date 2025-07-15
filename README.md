@@ -172,17 +172,17 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 ### Chatbots AI
 
-* [gemini.google.com](https://g.co/gemini/share/5e4019e3e961) &nbsp; w/ SoNia **v3.8.6**
+* [gemini.google.com](https://gemini.google.com) &nbsp; w/ [SoNia **v3.8.6**](https://g.co/gemini/share/5e4019e3e961)
 
-* [x.com/i/grok](https://x.com/i/grok/share/UCsu3UArFY11cPqR5bk0SSmNR) &nbsp; w/ SoNia v3.7.4
+* [x.com/i/grok](https://x.com/i/grok) &nbsp; w/ [SoNia v3.7.4](https://x.com/i/grok/share/UCsu3UArFY11cPqR5bk0SSmNR)
 
-* [chatgpt.com](https://chatgpt.com/share/68558beb-9abc-8012-a757-42ee886629cb) &nbsp; w/ SoNia v3.7.4
+* [chatgpt.com](https://chatgpt.com) &nbsp; w/ [SoNia v3.7.4](https://chatgpt.com/share/68558beb-9abc-8012-a757-42ee886629cb)
 
-* [claude.ai](https://claude.ai/share/2b7d72ba-cc95-4585-b87d-303b262a7860) &nbsp; w/ SoNia v3.7.4
+* [claude.ai](https://claude.ai) &nbsp; w/ [SoNia v3.7.4](https://claude.ai/share/2b7d72ba-cc95-4585-b87d-303b262a7860)
 
-* [qwenlm.ai](https://chat.qwen.ai/s/7f979a3f-6a2b-4ef4-a726-3f6930c450a0?fev=0.0.115) &nbsp; w/ SoNia v3.7.4
+* [qwenlm.ai](https://qwenlm.ai) &nbsp; w/ [SoNia v3.7.4](https://chat.qwen.ai/s/7f979a3f-6a2b-4ef4-a726-3f6930c450a0?fev=0.0.115)
 
-* [chat.mistral.ai](https://chat.mistral.ai/chat/392ee07d-3882-4889-b779-8f560be739b2) &nbsp; w/ SoNia v3.7.4
+* [chat.mistral.ai](https://chat.mistral.ai) &nbsp; w/ [SoNia v3.7.4](https://chat.mistral.ai/chat/392ee07d-3882-4889-b779-8f560be739b2)
 
 ### Task oriented
 
