@@ -6,11 +6,13 @@
 ## Gemini as your personal financial advisor
 
 - **1st edition**, this article was inspired while developing prompt on an [article](https://www.coindesk.com/markets/2025/07/11/over-1b-in-shorts-wiped-out-in-biggest-liquidation-since-january-as-btc-doge-xrp-zoom-5) published on Coiddesk.
++++++
+- **2nd edition**, includes the [Juan & Katia](juan-and-katia) section in which Katia can work as Juan, at this early stage.
 
 This article is the natural prosecution of these two:
 
 - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
-
++++++
 - [Usare l'AI per divulgare notizie di finanza](usare-lai-per-divulgare-notizie-di-finanza.md#?target=_blank) &nbsp; (2025-07-08)
 
 Despite the promising results, the [prompt](data/juan-finance-economics-analysis-v1.txt#?target=_blank) presented here is experimental and into an active developing stage. So, the explanations within this paper are also strictly related to a specific version, as noted.
@@ -92,7 +94,7 @@ The keywords in the F&E module are just three: `Juan`, `finance-economics` and `
 
 Despite during the conversation both English (for the prompt) and Italian (for the conversation) languages are used, this separation seems working pretty well and acknowledges that an English session prompt is an universal script-for-an-interpreter.
 
-- Developing Katia from Juan: [conversation](https://g.co/gemini/share/3f7cdf0e1e79) with Gemini and its [transcription]().
+- Developing Katia from Juan: [conversation](https://g.co/gemini/share/3f7cdf0e1e79) with Gemini and its [transcription](not-yet#?target=_blank).
 
 The theory of communication and public speaking teaches us that there are many aspects that deeply influences the information transmission, and hence influences the audience.
 
@@ -133,6 +135,53 @@ Over the years, Mistral has launched a range of large and small language models,
 - [Apple Will Seriously Consider Buying Mistral](https://analyticsindiamag.com/ai-news-updates/apple-will-seriously-consider-buying-mistral-report) on AI Media House &nbsp; (2025-07-13)
 
 This paradigm switch is the ultimate marketing frontier for the AI, which explains the recent Apple's interest in buying the French company developing [Mistral](https://en.wikipedia.org/wiki/Mistral_AI) AI.
+
++
+
+## Juan and Katia
+
+At this point while Juan, the financial advisor, remained at its v0.3.5, another session prompt was developed from it. Katia is an executive assistant and considering Juan's early stage of development, Katia can work as Juan with a minal prompt setting. To prove it, a test with the same article has been done.
+
+- Katia as Juan on Coindesk article: [conversation](https://g.co/gemini/share/3e8282823ebe) with Gemini and its [transcription](data/gemini-as-your-personal-executive-assistant-3prompts.txt#?target=_blank), article [text](data/coindesk-article-about-bitcoin-failed-shorting.txt#?target=_blank) saved in data.
+
+The minimal prompt setting is here below reported. The first line is pleonastic but expliciting the obvious is a good idea when procedural behaviour is expected from the chatbot. the second and the third sets the context and the rules as Juan does. 
+
+[!CITE]
+The prompt is in attachment, the document as well.
+
+The document topic is financial-economics.
+
+Use [EGA] mode for the analysis, please.
+[/CITE]
+
+The result is not particularly impressive in terms of brevity but the [EGA] mode is a search-extract-explain by its own nature. In fact, the 2nd answer remains clearly longer than the 3rd which does not use the [EGA] mode.
+
+After all, we cannot expect to read about details and receive a short answer, when the text under analysis is not trivial. Instead, we can ask the analysis and then ask an executive summary that summarises it.
+
+Without the introduction to the answer "I am Katia, bla-bla" that people might naturally skip and the footer, the size of the answer is pretty different:
+
+
+| answer || words | ratio || chars | ratio || pigz-11 | ratio || bytes | redundancy || mode (combo)        |
+|--------||-------|-------||-------|-------||---------|-------||-------|------------||---------------------|
+| first  || 617   | 100%  || 3491  | 100%  || 1768    | 100%  || 4173  | 2.36       || EGA + SBI(&times;1) |
+| second || 318   | _52%  || 1855  | _53%  || 1055    | _60%  || 2161  | 2.05       || EGA + SBI(&times;2) |
+| third  || 142   | _23%  || _818  | _23%  || _818    | _31%  || _852  | 1.76       || SBI(&times;3)       |
+
+All the ratios are normalised on the first answer, while "chars" column refers to no-space characters counted. Taking 1-word = 1-space, and using words+chars does not change those ratios because when the text is long enough (100+ words) the average word length tends to be stable (fixed), thus the two ratios converge.
+
+It is worth to notice that the redundancy (4th col), ratio between text vs `pigz-11` byte sizes, does not fall as quick as the size and this indicates that the information density increases as much as summarisation is fiercer.
+
+- Those who continued Shannon's work, found that English language average redundancy is 69% (3.23)
+
+By a rule of thumb we can say that 4 is boring, around 3 is natural, near 2 is interesting, below 2 the reading time starts to increase because the information high-density took more time to be elaborated. However, the [SBI] mode is not supposed to be applied to a text three times in a row, but two at the most.
+
+### Conclusion
+
+What does -- Katia can work as Juan, at this early stage of development -- mean in human terms?
+
+The two prompts are not diversified enough, yet. Like two stagists for whom the training did not get deep into different subjects enough, so they are mutually exchangeable. Thus prompt-engineering is training AI, also.
+
+*That prompt is a Bignami book*!
 
 +
 
