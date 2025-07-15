@@ -1,0 +1,27 @@
+Bitcoin Rockets Past $118K, Leads to Over $1B Shorts Getting Liquidated. 
+
+Roughly 237,000 traders were liquidated in total, with the single largest hit being an $88.5 million BTC-USDT short on HTX.
+
+What to know:
+
+- Over $1.13 billion in crypto positions were liquidated in 24 hours, with $1.01 billion from short sellers.
+- Bitcoin futures led the liquidations with $590 million, followed by ether futures at $241 million.
+- The liquidations were concentrated on Bybit and HTX, with Bybit seeing $461 million in total liquidations.
+
+Bitcoin BTC $117,711.42  blew past $118,000, resulting in the biggest bloodbath of the year for leveraged bears.In the past 24 hours, over $1.13 billion in positions were liquidated, with a staggering $1.01 billion of that coming from short sellers, marking the largest short-side wipeout of 2025 so far.
+
+Open interest on BTC-tracked futures rose $2 billion in the past 4 hours with the long-short ratio skewed in favor of bullish bets at 52%, indicative of rising bets on further increases.
+
+The move was led by bitcoin BTC $117,711.42 futures, which triggered $590 million in liquidations, followed by ether futures at $241 million.
+
+Roughly 237,000 traders were liquidated in total, with the single largest hit being an $88.5 million BTC-USDT short on HTX. The scale and imbalance of liquidations — nearly 90% of all positions were shorts — indicate just how aggressively traders were betting against the rally.
+
+Most of the damage was absorbed by Bybit and HTX. Bybit alone saw $461 million in total liquidations, with over 93% of that on the short side. Binance and HTX followed, recording $204 million and $193 million, respectively.
+
+Short liquidations occur when traders borrow capital to bet against rising prices, only to get forcibly closed out when the market moves against them. These events are reflexive, meaning they not only lock in losses but often accelerate upward momentum as positions are force-sold into a rising market.
+
+The latest liquidation spike comes amid renewed optimism in crypto markets following signals of policy movement in the U.S. and strength in equities. Bitcoin set fresh all-time highs late Thursday, while XRP $2.7733, ether (ETH), dogecoin DOGE $0.1976 and Solana’s SOL (SOL) rose as much as 5% on varied narratives.
+
+Author: Shaurya Malwa, he is the Co-Leader of the CoinDesk tokens and data team in Asia with a focus on crypto derivatives, DeFi, market microstructure, and protocol analysis.
+
+Published Jul 11, 2025, on CoinDesk
