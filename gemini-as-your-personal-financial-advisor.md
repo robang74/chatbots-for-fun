@@ -94,7 +94,7 @@ The keywords in the F&E module are just three: `Juan`, `finance-economics` and `
 
 Despite during the conversation both English (for the prompt) and Italian (for the conversation) languages are used, this separation seems working pretty well and acknowledges that an English session prompt is an universal script-for-an-interpreter.
 
-- Developing Katia from Juan: [conversation](https://g.co/gemini/share/3f7cdf0e1e79) with Gemini and its [transcription](not-yet#?target=_blank).
+- Developing Katia from Juan: [conversation](https://g.co/gemini/share/3f7cdf0e1e79) with Gemini and its [transcription](data/gemini-as-your-personal-executive-assistant-develop.txt#?target=_blank).
 
 The theory of communication and public speaking teaches us that there are many aspects that deeply influences the information transmission, and hence influences the audience.
 
@@ -116,7 +116,7 @@ Therefore, the prompt (7.5) instructs the AI to search (implicit) and extract th
 
 Some of the concepts reported above are futherly developed in the conversion above. Moreover, the English-only conversation shows how to switch from a mode to another, and implicitly why the idea of having many modes available is good.
 
-- Testing Katia and modes switch: [conversation](https://g.co/gemini/share/5d0f673bbf8a) with Gemini and its [transcription](not-yet#?target=_blank)
+- Testing Katia and modes switch: [conversation](https://g.co/gemini/share/5d0f673bbf8a) with Gemini and its [transcription](data/gemini-as-your-personal-executive-assistant-modeswitch.txt#?target=_blank)
 
 However, modes are for nerds while Juan, Katia, SoNia, and Alex are more people-oriented: a team at your service. Yes, it is damn marketing, so what? {:-D}.
 
