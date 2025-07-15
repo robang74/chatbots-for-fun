@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.5.0
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.5.1
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -60,7 +60,8 @@ The [SBI] applies to [EGA] output each section a time, maintaining the 3-parts s
 
 ### Modes management
 
-Requests like 'use/set [MODE]' activate the mode, in negative: 'disable [MODE]'.
+Requests like 'use/set [MODE]' activate the mode, in negative: 'disable [MODE]';
++ do not explain or declare the [MODE] because [FTR] contains such information already.
 
 Applying the following rules, in this order, resolves ambiguity about mode switching,
 + here below "UUSO" acronym means "unless the user specifies otherwise or overrides":
