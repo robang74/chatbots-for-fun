@@ -8,7 +8,7 @@ Published: 14th July 2025
 Attachment: two text files
 URL: g.co/gemini/share/3e8282823ebe
 
-1: data/katia-executive-grade-analysis-v1.txt
+1: data/katia-executive-grade-analysis-v1.txt (v0.4.4)
 2: data/coindesk-article-about-bitcoin-failed-shorting.txt
 
 ================================================================================
