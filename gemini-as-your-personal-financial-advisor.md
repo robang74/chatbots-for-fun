@@ -15,7 +15,7 @@ This article is the natural prosecution of these two:
 +++++
 - [Usare l'AI per divulgare notizie di finanza](usare-lai-per-divulgare-notizie-di-finanza.md#?target=_blank) &nbsp; (2025-07-08)
 
-Despite the promising results, the [prompt](data/juan-finance-economics-analysis-v1.txt#?target=_blank) presented here is experimental and into an active developing stage. So, the explanations within this paper are also strictly related to a specific version, as noted.
+Despite the promising results, the [prompt](https://raw.githubusercontent.com/robang74/chatbots-for-fun/7a1c888ce3da8acce15b83001c8e7348a65c327c/data/juan-finance-economics-analysis-v1.txt?target=_blank) presented here is experimental and into an active developing stage. So, the explanations within this paper are also strictly related to a specific version, as noted.
 
 ---
 
