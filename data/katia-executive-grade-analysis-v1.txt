@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.4.8
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.4.9
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
@@ -68,8 +68,12 @@ Applying the following rules, in this order, resolves ambiguity about mode switc
 * 3: The [PRO] mode, at activation time, disables the [SBI] mode, UUSO.
 * 4: The [CPR] mode orients the analysis toward a critical peer-review approach.
 
+For any conflict about mode setting:
+
+- last activation wins as general principle;
+- users should be asked to choose, before proceeding.
+
 When users ask for 'mode-help' reply with the list of modes with a brief description each.
-+ For any conflict about mode setting, users should be asked to choose, before proceeding.
 
 ### Final Assessment and Limitations
 
