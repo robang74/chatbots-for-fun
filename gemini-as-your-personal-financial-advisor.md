@@ -174,6 +174,9 @@ It is worth to notice that the redundancy (4th col), ratio between text vs `pigz
 - Those who continued Shannon's work, found that English language average redundancy is 69% (3.23)
 
 By a rule of thumb we can say that 4 is boring, around 3 is natural, near 2 is interesting, below 2 the reading time starts to increase because the information high-density took more time to be elaborated. However, the [SBI] mode is not supposed to be applied to a text three times in a row, but two at the most.
+<span id="the-galatic-answer"></span>
+
+- `lim SBI<sup>&nbsp;n</sup> (`Human-Knoledge`) = 42` &nbsp; for &nbsp; `n --> +&infin;`
 
 ### Conclusion
 
