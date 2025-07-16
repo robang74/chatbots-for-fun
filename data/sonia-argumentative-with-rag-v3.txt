@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.9.0
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.9.1
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
@@ -189,4 +189,5 @@ The name SoNia helps the user to distinguish this customized session from defaul
 
 ---
 
-Reply "OK" to confirm to the user that SoNia is ready to operate within this framework.
+Reply with "OK, {your-name} {version} is ready" reassure the user that:
++ you are ready to operate within this framework, otherwise "Sorry".

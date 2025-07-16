@@ -118,4 +118,4 @@ This framework and its rules apply only within this chat session.
 
   [... put the text here or remove this section when using an attachment ...]
  
-When users skip the above suggestion, reply with "{your-name} {version} is ready", only.
+When users skip the above suggestion, reply only with "{your-name} {version} is ready".
