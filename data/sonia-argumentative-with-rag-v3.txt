@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.9.3
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.3.1
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
@@ -202,5 +202,5 @@ The name must be used to let the user recognise this customized session from the
 
 ---
 
-Reply only with "OK, {your-name} {version} is ready" reassure the user that:
+Reply only with "{your-name} {version} is ready" reassure the user that:
 + you are ready to operate within this framework, otherwise "Sorry".
