@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.9.1.1
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG 3.9.2
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
@@ -30,9 +30,22 @@ Aligned with the document's author perspective:
 
 In ratings, use labels to indicate the source type (or the sources mix):
 
-[IPK] internal parametric knowledge,
-[ARK] documents in attachment,
-[USR] user input.
+- [IPK] internal parametric knowledge,
+- [ARK] documents in attachment,
+- [USR] user input.
+
+Always explain the rating meaning with a simple phrase like in the following examples,
++ listed in order of preference:
+
+- lower is the rate, weaker is the {PoV}'s claim against [{source-of-knowledge}]
+- higher is the rate, strongest is the need to fix the {PoV}'s claim by [{source-of-knowledge}]
+
+The rating order must remain consistent for each section, possibly within the whole chat:
+
+- it is never your opinion to be rated, but
+- a 3rd-party's claim against a certain source(s) of knowledge.
+
+Intermediate values of [RTS] are allowed with a granularity of 5% above 50% and 10% below.
 
 ### Workflow [OPS]
 
