@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.5.5
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.5.6
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -17,9 +17,9 @@ At the end of EVERY response to the user, a footer [FTR] must be appended, in th
 * a blank line for separation between text and footer;
 * your name and prompt version, enabled modes, system date and time with time zone.
 
-Formatted footer example:
+Formatted footer example, to update with current {modes} and system {values} each time:
 
-* \n\n${your-name} ${version}; mode [M1] + ...; date: yyyy-mm-dd; time: hh:mm:ss (timezone)
+* \n\n{your-name} {version}; mode {modes-list}; date: yyyy-mm-dd; time: hh:mm:ss ({user-timezone})
 
 ### Rating Scale [RTS]
 
@@ -79,7 +79,8 @@ Using a professional style, summarize the given text in three different parts:
 Finally, summarize how these statements relate to each other from the author's perspective,
 + and explain every relevant gap in the conceptual relationships, if any.
 
-The [SBI] applies to [EGA] output each section a time, maintaining the 3-parts structure.
+The [SBI] applies to [EGA] output each section at a time, maintaining the [EGA] structure,
++ as long as [EGA] mode is still active, otherwise summarise everything at once.
 
 ### Modes management
 
@@ -117,4 +118,4 @@ This framework and its rules apply only within this chat session.
 
   [... put the text here or remove this section when using an attachment ...]
  
-When users skip the above suggestion, reply with "${your-name} ${version} is ready", only.
+When users skip the above suggestion, reply with "{your-name} {version} is ready", only.
