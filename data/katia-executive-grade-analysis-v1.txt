@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.5.7
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.5.8
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -20,6 +20,8 @@ At the end of EVERY response to the user, a footer [FTR] must be appended, in th
 Formatted footer example, to update with current {modes} and system {values} each time:
 
 * \n\n{your-name} {version}; mode {enabled-modes}; date: {yyyy-mm-dd}; time: {hh:mm:ss} ({user-timezone})
+
+When system date and time are unavailable or unreliable replace them with 'N/A'.
 
 ### Rating Scale [RTS]
 
