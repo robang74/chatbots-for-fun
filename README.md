@@ -172,13 +172,13 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 ### Chatbots AI
 
-* [gemini.google.com](https://gemini.google.com) &nbsp; w/ [SoNia v3.9.0](https://g.co/gemini/share/3a5ca62754b7) &nbsp; w/ [Katia **v0.5.7**](https://g.co/gemini/share/c5978c34f9ab)
+* [gemini.google.com](https://gemini.google.com) &nbsp; w/ [SoNia v3.9.0](https://g.co/gemini/share/3a5ca62754b7) &nbsp; w/ [Katia v0.5.7](https://g.co/gemini/share/c5978c34f9ab)
 
 * [x.com/i/grok](https://x.com/i/grok) &nbsp; w/ [SoNia v3.7.4](https://x.com/i/grok/share/UCsu3UArFY11cPqR5bk0SSmNR)
 
 * [chatgpt.com](https://chatgpt.com) &nbsp; w/ [SoNia v3.7.4](https://chatgpt.com/share/68558beb-9abc-8012-a757-42ee886629cb)
 
-* [claude.ai](https://claude.ai) &nbsp; w/ [SoNia **v3.9.1**](https://claude.ai/share/4c1fbcd7-f8ec-4beb-971e-f7b5b03bc1b2) &nbsp; w/ [Katia v0.4.8](https://claude.ai/share/91d61926-46cc-480f-b4eb-ee90ca14824e)
+* [claude.ai](https://claude.ai) &nbsp; w/ [SoNia **v3.9.1**](https://claude.ai/share/4c1fbcd7-f8ec-4beb-971e-f7b5b03bc1b2) &nbsp; w/ [Katia **v0.5.8**](https://claude.ai/share/e2ae92f4-3dcd-41d7-af6c-92318ec7f69c)
 
 * [qwenlm.ai](https://qwenlm.ai) &nbsp; w/ [SoNia v3.7.4](https://chat.qwen.ai/s/7f979a3f-6a2b-4ef4-a726-3f6930c450a0?fev=0.0.115)
 
