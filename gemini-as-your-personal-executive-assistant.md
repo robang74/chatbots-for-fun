@@ -296,7 +296,7 @@ or just jumping at the end, after the [EGA] mode was disabled:
 
 - **Katia**: Yes.
 
-In arguing with Katia in `[EGA]` mode, we would never have filled that gap while you were using the ega-mode. In that mode you aren't able to provide a reasoning but just an analysis. Which is the reason for which EGA is not enabled by default even if it resembles the framework title.
+In arguing with Katia in `[EGA]` mode, we would never have filled that gap while she was using the ega-mode. In that mode she isn't able to provide a reasoning but just an analysis. Which is the reason for which the `[EGA]` mode is not enabled by default even if it resembles the framework title.
 
 That's because Katia: in `[EGA]` mode, she is always right! {:-D}
 
