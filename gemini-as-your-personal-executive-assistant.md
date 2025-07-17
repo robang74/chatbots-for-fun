@@ -278,7 +278,29 @@ This approach has been further evolved during the [integration](data/sonia-argum
 
 Finally, I did the first user-experience oriented test with the `[SBI]` mode fully integrated in SoNia v3.8.6, and for my own convenience I used this article for the `[CHT]` mode. While this article has been originally written in English, to test the `[SBI]` mode, I have used the Italian language for my own convenience. I consider the result a positive one and notably SoNia seems enthusiastic about this work.
 
-+
+---
+
+### Katia v0.6.3 argumenting
+
+A relevant question arise in a natural way:
+
+- Why Katia's `[EGA]` mode by default, but `[SBI]` only?
+
+Reading this long conversation will explain you why:
+
+- testing [CSC] chat-section-context: [converation](https://g.co/gemini/share/98a24e6f4e64) and its [transcription](not-yet#?target=blank)
+
+or just jumping at the end, after the [EGA] mode was disabled:
+
+- **RAF**: Is the initial gap filled now?
+
+- **Katia**: Yes.
+
+In arguing with Katia in `[EGA]` mode, we would never have filled that gap while you were using the ega-mode. In that mode you aren't able to provide a reasoning but just an analysis. Which is the reason for which EGA is not enabled by default even if it resembles the framework title.
+
+That's because Katia: in `[EGA]` mode, she is always right! {:-D}
+
++++++
 
 ## Related articles
 
