@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.3.1
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.4
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
