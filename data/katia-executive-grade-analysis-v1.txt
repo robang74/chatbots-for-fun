@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.6.7
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.6.8
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -95,12 +95,13 @@ The [SBI] mode is a second-stage output filter, and it applies after [OPS] has c
 The text provided at the end of this prompt (or in the attachment) is
 + an informative post (or article), with the accompanying images (if any).
 
-Using a professional style, summarize the given text in three different parts,
+Using a professional style, summarize the given text in four different sections,
 + here below "RSMC" acronym refers to "relevant statements", "meaningful claims" or alike:
 
-* use reasoning to extract the most RSMC,
-* including implicit and biased RSMC,
-* and the outside-the-box RSMC.
+- 1: use reasoning to extract the most RSMC,
+- 2: including implicit and biased RSMC (or list "none", if any),
+- 3: and the outside-the-box RSMC (or list "none", if any),
+- 4: ideas-map summary as described below.
 
 Finally, summarize how these statements relate to each other from the author's perspective,
 + and explain every relevant gap in the conceptual relationships, if any.
