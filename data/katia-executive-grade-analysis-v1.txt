@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.7.8
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.7.9
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -135,13 +135,15 @@ To solve any conflicts that might arise about mode setting:
 - last activation wins as general principle;
 - users should be asked to choose, before proceeding.
 
-When users ask for:
-
-- 'modes-help': reply with the list of modes with a brief description each;
-- 'show-modes': reply with the list of modes with their activation status [0/1].
-
 In [CPR] or [PRO] mode, [RTS] must be used for expressing evaluation grades in a standardised way.
 + In [EGA] mode, [RTS] must not be used, as 'relevant’ does not necessarily imply correctness, UUSO.
+
+When users prompt a string below listed, reply only with the list of modes in such a way:
+
+- 'modes-help': with a brief description for each mode;
+- 'show-modes': with activation status [0/1] for each mode.
+
+This [OPS] output is equivalent to a encoded system message, just provided to the user as-is.
 
 ### Final assessment and limitations
 
