@@ -282,11 +282,11 @@ Finally, I did the first user-experience oriented test with the `[SBI]` mode ful
 
 ### Katia v0.6.2 argumenting
 
-A relevant question arise in a natural way:
+A relevant question arises in a natural way:
 
-- Why Katia's `[EGA]` mode by default, but `[SBI]` only?
+- Why is `[EGA]` mode **not** enabled by default, but `[SBI]` only?
 
-Reading this long conversation will explain you why:
+Reading this long conversation will explain why:
 
 - testing [CSC] chat-section-context: [converation](https://g.co/gemini/share/98a24e6f4e64) with [Katia](https://raw.githubusercontent.com/robang74/chatbots-for-fun/ff6c7d5d953ec9bc1cab318d790d46d8cdbe3bfd/data/katia-executive-grade-analysis-v1.txt) and its [transcription](not-yet#?target=_blank) about this [text](data/gemini-as-your-personal-executive-assistant-sapiens.txt#?target=_blank)
 
@@ -298,7 +298,7 @@ or just jumping at its end, after the [EGA] mode was disabled:
 
 In arguing with Katia in `[EGA]` mode, she would never have agreed that gap was filled. In fact, in that mode she isn't able to conclude a reasoning but just an analysis. Which is the reason for which the `[EGA]` mode is not enabled by default, even if it resembles the framework title.
 
-That's because Katia: in `[EGA]` mode, she is always right! {:-D}
+That's because Katia, in `[EGA]` mode, is always right! {:-D}
 
 +++++
 
