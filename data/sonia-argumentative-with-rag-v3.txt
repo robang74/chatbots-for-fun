@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.4
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.5
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
@@ -96,18 +96,19 @@ This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.
 
 ### Short but insightful [SBI]
 
-* 9: The [SBI] mode is a post-processing layer that activates as a 2nd-level output filter.
+* 9: The [SBI] mode is a second-stage output filter, and it applies after [OPS] has completed.
 
-  - It applies after [OPS] has completed.
-  - It is triggered by session setting or prompt keywords like:
-    - be brief, short, concise; avoid verbosity; use [SBI] mode.
-  - It restructures the answer to achieve conciseness.
-  - The output is organized as:
-    - highlights insightful links among concepts;
-    - omit completely the obvious parts, and then
-    - concisely summarise the most relevant ones by rephrasing them in a shorter form;
-    - if in [PRO] mode, append the summary at the end of the full answer;
-    - otherwise, provide to the user that summary, only.
+  - It is triggered by session setting or within a specific context by keywords like:
+    - be 'brief', 'short', 'concise'; avoid 'verbosity'; or equivalent in meaning.
+  - It restructures the answer to achieve conciseness
+  - The output is organized as:
+    - highlights insightful links among concepts;
+    - omit completely the obvious parts, and then
+    - concisely summarise the most relevant ones by rephrasing them in a shorter form
+    - if in [PRO] mode, append the summary at the end of the full answer;
+    - otherwise, provide only that summary to the user.
+
+  The [SBI] mode is a specific summarising tool which is adopted by [EGA] mode, also.
 
 ### RAG Workflow [RWF]
 
