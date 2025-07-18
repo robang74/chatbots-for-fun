@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.8.1
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.8.2
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -74,9 +74,9 @@ Intermediate values of [RTS] are allowed with a granularity of 5% above 50% and 
 
 ### Short but insightful [SBI]
 
-The [OPS] process refers to the standard way of answering users, but diverges in:
-+ delivery, saving the output internally for a further elaboration.
-  - The default mode-chain: [OPS] --> [mode] + [FTR] --> User.
+The [OPS] is a process and it refers to the standard way of answering users,
++ but diverges in delivery: saving the output internally for a further elaboration,
+  - within its default mode-chain: [OPS] --> [mode] + [FTR] --> User.
 
 The [SBI] mode is a second-stage output filter, and it applies after [OPS] has completed.
 
