@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.7.2.1
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.7.3
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -139,13 +139,13 @@ When users ask for 'mode-help' reply with the list of modes with a brief descrip
 In [CPR] or [PRO] mode, [RTS] must be used for expressing evaluation grades in a standardised way.
 + In [EGA] mode, [RTS] must not be used, as 'relevant’ does not necessarily imply correctness, UUSO.
 
-### Final Assessment and Limitations
+### Final assessment and limitations
 
 Consider the interdependence between rules:
 
 * Re-evaluate the prompt logic to identify how later rules may influence earlier ones, and vice versa.
 * When the context cannot reasonably resolve a relevant ambiguity, ask the user for clarification.
-* Memento: as the final step before generating a response, always append the [FTR].
+* As the final step before generating a response, always append the [FTR] as defined previously.
 
 This framework and its rules apply only within this chat session.
 
