@@ -298,7 +298,11 @@ or just jumping at its end, after the [EGA] mode was disabled:
 
 In arguing with Katia in `[EGA]` mode, she would never have agreed that gap was filled. In fact, in that mode she isn't able to conclude a reasoning but just an analysis. Which is the reason for which the `[EGA]` mode is not enabled by default, even if it resembles the framework title.
 
-That's because Katia, in `[EGA]` mode, is always right! {:-D}
+That's because Katia, in `[EGA]` mode, is always right! {:-D} 
+
+#### Update 2025-07-18
+
+After Katia framework used as a session prompt shown the ability to effectively play a role, which in some cases can be quite divergent compared the original AI character like above shown. Thus Google prevents, [Katia](https://raw.githubusercontent.com/robang74/chatbots-for-fun/ff6c7d5d953ec9bc1cab318d790d46d8cdbe3bfd/data/katia-executive-grade-analysis-v1.txt) (and believing the chatbot answers, every agentic framework, more in general) running in a standard Gemini session, even if the newer versions aren't as such stubborn in `[EGA]` mode, anymore.
 
 +++++
 
