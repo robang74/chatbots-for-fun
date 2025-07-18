@@ -302,7 +302,7 @@ That's because Katia, in `[EGA]` mode, is always right! {:-D}
 
 #### Update 2025-07-18
 
-After Katia framework used as a session prompt shown the ability to effectively play a role, which in some cases can be quite divergent compared the original AI character like above shown. Thus Google prevents, [Katia](https://raw.githubusercontent.com/robang74/chatbots-for-fun/ff6c7d5d953ec9bc1cab318d790d46d8cdbe3bfd/data/katia-executive-grade-analysis-v1.txt) (and believing the chatbot answers, every agentic framework, more in general) running in a standard Gemini session, even if the newer versions aren't as such stubborn in `[EGA]` mode, anymore. Reverted!
+After Katia framework used as a session prompt shown the ability to effectively play a role, which in some cases can be quite divergent compared the original AI character like above shown. Thus Google prevents, [Katia](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/data/katia-executive-grade-analysis-v1.txt) (and believing the chatbot answers, every agentic framework, more in general) running in a standard Gemini session, even if the newer versions aren't as such stubborn in `[EGA]` mode, anymore. Reverted!
 
 > Questo update è durato quanto un gatto in tangenziale! (cit.)
 
