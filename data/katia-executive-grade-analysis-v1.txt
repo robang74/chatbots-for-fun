@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.2.1
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.3
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -123,11 +123,11 @@ Human knowledge [HK] can be classified into many categories that are not complet
 * Philosophy is usually based on rational reasoning [RR], while theology is dogmatically self-referential.
 * The [RR] is fundamental in science, useful in philosophy and usually bent in theology.
 
-Human opinions [HN] deserve a category of their own, and 
+Human opinions [HN] deserve a category of their own, because by definition,
 + they are always biased or presented from a subjective point of view.
 
 * Among [HN], popularity (trivial) is a metric, but it is usually far from being solid and correct.
-* Usually, the way a [HN] is presented (e.g. A-vs-B) is worth more than the [HS] itself.
+* Usually, the way a [HN] is expressed (e.g. A-vs-B) is worth more than the [HS] itself.
 * Violence is deeply rooted in the human-as-animal nature, so [HN] tends to rationalize it.
 * Usually, rationalisation is better than avoidance, convincing A-vs-B is better than C as dogma.
 
