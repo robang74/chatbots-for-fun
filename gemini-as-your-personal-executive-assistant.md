@@ -335,13 +335,13 @@ For this test, I have used a Gemini Gem because in that environment a session pr
 #### Prompt #N+1
 
 [!CITE]
-Thus theology is a mixture of `[HK]` and its peculiarity is about the dogmas it consider undebatable but matter of faith, correct?
+Thus theology is a mixture of `[HK]` and its peculiarity is about the dogmas it considers undebatable but matters of faith, correct?
 [/CITE]
 
 #### Prompt #N+2
 
 [!CITE]
-Thus by its dogmatic core nature, theology bends logic and rational reasoning because it cannot accept a demonstration by absurd, for example. Dogmans are Truth that cannot be argued despite leading to absurd, and those absurds are usually called "mistery of faith". Correct?
+Thus by its dogmatic core nature, theology bends logic and rational reasoning because it cannot accept a demonstration of absurdity, for example. Dogmans are Truths that cannot be argued despite leading to absurdity, and those absurdities are usually called "mystery of faith". Correct?
 [/CITE]
 
 #### Prompt #N+3
@@ -357,7 +357,7 @@ Considering what we agreed upon, do you think that these three new descriptions 
 #### Prompt #N+4
 
 [!CITE]
-This is a A-vs-B argumentation, for example. In which your evaluation has been taken in consideration and in one case correction has been found (or a decent start, at least) while a free-speech rational-reasoning debate (opinion exchanges) took place to reach a mutual understanding in the hope that that process would help us to progress (learning). Is this a correct description of what was going on here?
+This is an A-vs-B argumentation, for example. In which your evaluation has been taken in consideration and in one case correction has been found (or a decent start, at least) while a free-speech rational-reasoning debate (opinion exchanges) took place to reach a mutual understanding in the hope that that process would help us to progress (learning). Is this a correct description of what was going on here?
 [/CITE]
 
 #### Prompt #N+5
