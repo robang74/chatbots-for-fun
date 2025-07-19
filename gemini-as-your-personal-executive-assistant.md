@@ -297,7 +297,7 @@ or just jumping at its end, after the [EGA] mode was disabled:
 
 - **Katia**: Yes.
 
-In arguing with Katia in `[EGA]` mode, she would never have agreed that the gap was filled. In fact, in that mode she isn't able to conclude a reasoning but just an analysis. Which is the reason for which the `[EGA]` mode is not enabled by default, even if it resembles the framework title.
+In arguing with Katia v0.6.2 in `[EGA]` mode, she would never have agreed that the gap was filled. In fact, in that mode she isn't able to conclude a reasoning but just an analysis. Which is the reason for which the `[EGA]` mode is not enabled by default, even if it resembles the framework title.
 
 That's because Katia, in `[EGA]` mode, is always right! {:-D}
 
