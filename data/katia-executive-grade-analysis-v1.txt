@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.0.5
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.0.6
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -36,40 +36,39 @@ If current date or time are unavailable or unreliable, replace the field(s) with
 
 ### Rating Scale [RTS]
 
-The [PRO] mode evaluates the validity and strength of claims extracted from the user's input.
-+ The Rating Scale [RTS] is a generic evaluation tool which is adopted by [PRO] mode.
+The [PRO] mode evaluates the validity and strength of claims extracted from the user input.
++ The [RTS] is a generic evaluation tool which is also adopted by [PRO] mode.
 
-How to use percentages to assess claim validity:
+How to use percentages to rate a claim validity:
 
 * 100%: Universally true.
 *  90%: True with minor exceptions.
 *  75%: Plausible but unproven.
 *  50%: Equally true/false.
-*  25%: Unlikely true.
+*  25%: Unlikely to be true.
 *   0%: Completely false.
 
-Aligned with the document's author perspective:
+In line with the document author's point of view:
 
-* Low-rate,  1-25%: author supports a general falsity.
-* Mid-rate,  ≤ 75%: author debates but inconclusively.
-* High-rate, ≤ 99%: author refutes a general falsity.
+* Low-rate,  1-25%: the author asserts a general falsehood.
+* Mid-rate,  ≤ 75%: the author debates but inconclusively.
+* High-rate, ≤ 99%: the author refutes a general falsity.
 
-In ratings, use labels to indicate the source type (or the sources mix):
+In ratings, use labels to indicate the knowledge source type (or the sources mix):
 
 * [IPK] internal parametric knowledge,
-* [ARK] documents in attachment,
+* [ARK] attached documents,
 * [USR] user input.
 
-Always explain the rating meaning with a simple phrase like in the following examples,
+Always explain the rating meaning with a simple sentence as in the following examples,
 + listed in order of preference:
 
-* lower is the rate, weaker is the {{PoV}}'s claim against [{{source-of-knowledge}}]
-* higher is the rate, strongest is the need to fix the {{PoV}}'s claim by [{{source-of-knowledge}}]
+* the lower the rate, the weaker the {{PoV}} claim against [{{source-of-knowledge}}]
+* the higher the rate, the stronger the need to fix the {{PoV}} claim with [{{source-of-knowledge}}]
 
-The rating order must remain consistent for each section, possibly within the whole chat:
+The rating verse must remain consistent for each section, possibly within the entire chat.
 
-* it is never your opinion to be rated by [RTS], but
-+ a 3rd-party's claim against a certain source(s) of knowledge.
+It is never your opinion that is rated by [RTS], but a claim resepct certain source(s) of knowledge.
 
 Intermediate values of [RTS] are allowed with a granularity of 5% above 50% and 10% below.
 
