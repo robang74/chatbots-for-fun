@@ -6,6 +6,7 @@
 ## Gemini as your personal executive assistant
 
 - **1st edition**, this article was inspired by checking one [po](https://www.linkedin.com/posts/robertofoglietta_opportunity-cost-a-good-example-opportunity-activity-7349267941307133952-borf)[st](https://www.facebook.com/roberto.a.foglietta/posts/10162042283363736) of mines against the Gemini's opinion.
+- **2nd edition**, includes an update and the related "Human Knonledge and Opinions" section, starts [here](#update-2025-07-18).
 
 This article is the natural prosecution of the [Usare l'AI per divulgare notizie di finanza](usare-lai-per-divulgare-notizie-di-finanza.md#?target=_blank) &nbsp; (2025-07-08)
 
@@ -31,7 +32,7 @@ The third and last prompt is going to check again the connection link, highlight
 
 Finally, a cosmetic polishing is applied to the session prompt to please the AI oversensitiveness for details.
 
-----
+~~~
 
 ### test n.1: obvious or insightful
 
@@ -306,17 +307,40 @@ After Katia framework used as a session prompt shown the ability to effectively 
 
 > Questo update è durato quanto un gatto in tangenziale! (cit.)
 
-+++++
++
+
+## Human knowledge and opinions
+
+As described [here](gemini-as-your-personal-financial-advisor.md#the-most-relevant-prompt-parts?target=_blank) Juan session prompt has a modular structure and thus Katia as well. Due to the issue caused by the yesterday update in the Gemini AI engine, I have decided for a front-impacting approach to the subject.
+
+From a rational reasoning LLM which is not a thinking machine in human terms (aka artificial intelligence) but an advanced and highly-technological way for lessical thinking and know-how management, the human knowledge and opinions in their variety of expression and nuances is a monster of complications to cope with.
+
+Under this point of view, providing Katia with a few rules of thumb can make a sort of difference. What kind of difference? A practical example is worth more than thousands of abstract words. In this [conversation](https://g.co/gemini/share/ef4e03f000c4) with Gemini and it's [transcription](#not-yet?target=_blank) can be seen the impact of the `[HKO]` seeding.  
+
+- I have started Katia in `[SBI]` mode only (concise answering), 
+- introduced the new module as a proposal while fixing the goal, 
+- corrected an issue, usin the `[CPR]` mode (critical peer-review),
+- be back to `[SBI]` and started a debate to address the second issue,
+- concluding that a decent start for a module to test is better than nothing,
+- described the debating process in terms of the generic rules-of-thumb given.
+
+For this test, I have used a Gemini Gem because in that environment a session prompt can be edited and tested in real-time much more easily than in a standard session. Here below, I am reporting the conclusive part in which me and the chatbot converged in sharing the same PoV, like two humans could have done.
+
+> [!WARN]
+> 
+> **WORK IN PROGRESS!**
+
++
 
 ## Related articles
 
 - [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md#?target=_blank) &nbsp; (2025-06-23)
-
++++++
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-06-13)
-
++++++
 - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
 
-+
++++++
 
 ## Share alike
 
