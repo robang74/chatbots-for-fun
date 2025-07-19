@@ -299,11 +299,14 @@ or just jumping at its end, after the [EGA] mode was disabled:
 
 In arguing with Katia in `[EGA]` mode, she would never have agreed that gap was filled. In fact, in that mode she isn't able to conclude a reasoning but just an analysis. Which is the reason for which the `[EGA]` mode is not enabled by default, even if it resembles the framework title.
 
-That's because Katia, in `[EGA]` mode, is always right! {:-D} 
+That's because Katia, in `[EGA]` mode, is always right! {:-D}
 
+.....
+
+<span id="update-2025-07-18"></span>
 #### Update 2025-07-18
 
-After Katia framework used as a session prompt shown the ability to effectively play a role, which in some cases can be quite divergent compared the original AI character like above shown. Thus Google prevents, [Katia](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/data/katia-executive-grade-analysis-v1.txt) (and believing the chatbot answers, every agentic framework, more in general) running in a standard Gemini session, even if the newer versions aren't as such stubborn in `[EGA]` mode, anymore. Reverted!
+After Katia framework used as a session prompt shown the ability to effectively play a role, which in some cases can be quite divergent compared the original AI character like above shown. Thus Google prevents, [Katia](data/katia-executive-grade-analysis-v1.txt#?target=_blank) (and believing the chatbot answers, every agentic framework, more in general) running in a standard Gemini session, even if the newer versions aren't as such stubborn in `[EGA]` mode, anymore. Reverted!
 
 > Questo update è durato quanto un gatto in tangenziale! (cit.)
 
@@ -368,9 +371,13 @@ Considering that `[HKO]` is an extremely ambitious attempt to let AI better cope
 
 ...
 
-The two main issues were related to philosophy and theology. Why, among many, I choose {science, philosophy and theology}? Because science and theology are the two extreme among `[HKO]` variety in terms of the dogma roles and methodology. While philosophy is an ancient way of thinking and convey opinions which is set a reasonable middle of the two opposite approaches. Moreover, Karl Popper the father of falsification principle as separation between science and non-science, was a philosopher, indeed.
+The two main issues were related to philosophy and theology. Why, among many, I choose {science, philosophy and theology}? Because science and theology are the two extreme among `[HKO]` variety in terms of the dogma roles and methodology.
 
-The "Human knowledge and opinions" framework, currently encapsulated into the `[HKO]` [module](not-yet.txt#?target=_blank), took 12 prompts to be refined after its first draft and the first testing version is 22 lines and 222 words length. We cannot expect that such a little piece of information makes a LLM/LRM engine an AGI, for sure. However, it would be wonderful that it makes it a reasonable and insightful conversational partner.
+While philosophy is an ancient way of thinking and convey opinions which is set a reasonable middle of the two opposite approaches. Moreover, Karl Popper the father of falsification principle as separation between science and non-science, was a philosopher, indeed.
+
+The "Human knowledge and opinions" framework, currently encapsulated into the `[HKO]` [module](data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20knowledge%20and%20opinions?target=_blank), took only 12 prompts to be refined after its first draft while the first testing version is 22 lines and 222 words length.
+
+We cannot expect that such a little piece of information makes a LLM/LRM engine an AGI, for sure. However, it would be wonderful that it makes it a reasonable and insightful conversational partner.
 
 +
 
@@ -378,6 +385,7 @@ The "Human knowledge and opinions" framework, currently encapsulated into the `[
 
 - [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md#?target=_blank) &nbsp; (2025-06-23)
 
+- [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-06-13)
 
 - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
 
