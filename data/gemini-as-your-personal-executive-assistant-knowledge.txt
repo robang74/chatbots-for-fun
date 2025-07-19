@@ -396,3 +396,28 @@ provide a solid basis for further development. I am ready to begin testing the
 
 Katia test v0.8.3; mode: SBI; date: 2025-07-19; time: 07:30:11 (CEST)
 
+-- 8< --------------------------------------------------------------------------
+
+URL: https://gemini.google.com/share/36bb37b39a4e
+                #:~:text=because%20by%20definition
+
+================================================================================
+
+--HO--
+
+Is this following a better rephrasing? It also includes a sort of definition.
+Does it make sense for you?
+
+Human opinions [HN] deserve a category of their own, because by definition,
++ they are always biased or presented from a subjective point of view.
+
+--AI--
+
+Yes, that is a better rephrasing. It makes perfect sense. The inclusion of
+"by definition" provides a clearer, more direct justification for treating
+human opinions as a separate category, which strengthens the logical
+structure of the module's rules.
+
+Katia test v0.8.3; mode: SBI; date: 2025-07-19; time: 07:45:40 (CEST)
+                WRONG TIME OF THE DAY, CORRECTION --> 14:45 circa.
+

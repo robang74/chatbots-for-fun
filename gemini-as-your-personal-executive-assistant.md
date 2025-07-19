@@ -320,7 +320,7 @@ From a rational reasoning LLM which is not a thinking machine in human terms (ak
 
 Under this point of view, providing Katia with a few rules of thumb can make a sort of difference. What kind of difference? A practical example is worth more than thousands of abstract words.
 
-In this [conversation](https://g.co/gemini/share/ef4e03f000c4) with Gemini and it's [transcription](data/gemini-as-your-personal-executive-assistant-knowledge.txt#?target=_blank) can be seen the impact of the `[HKO]` seeding: 
+In this [conversation](https://g.co/gemini/share/ef4e03f000c4) with Katia v0.8.3 and its [transcription](data/gemini-as-your-personal-executive-assistant-knowledge.txt#?target=_blank) can be seen the impact of the `[HKO]` seeding: 
 
 - I have started Katia v0.8.3 in `[SBI]` mode only (concise answering), 
 - introduced the new `[HKO]` module as a proposal while fixing the goal, 
@@ -373,7 +373,7 @@ The two main issues were related to philosophy and theology. Why, among many, I 
 
 While philosophy is an ancient way of thinking and conveying opinions which is set in the reasonable middle of the two opposite approaches. Moreover, Karl Popper, the father of the falsification principle as separation between science and non-science, was a philosopher, indeed.
 
-The "Human knowledge and opinions" framework, initially encapsulated into the Katia v0.9.0 `[HKO]` [module](https://github.com/robang74/chatbots-for-fun/blob/856f1458b02a9758e4781e26454f8a7454ac1cef/data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20knowledge%20and%20opinions?target=_blank), took only 12 prompts to be refined after its first draft while the first testing version is 22 lines and 222 words length. Later, one more prompt and one more line, summing-up for 241 words, including the section title.
+The "Human knowledge and opinions" framework, initially encapsulated into the Katia v0.9.0 `[HKO]` [module](https://github.com/robang74/chatbots-for-fun/blob/856f1458b02a9758e4781e26454f8a7454ac1cef/data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20knowledge%20and%20opinions), took only 12 prompts to be refined after its first draft while the first testing version is 22 lines and 222 words length. Later, one more [prompt](https://gemini.google.com/share/36bb37b39a4e#:~:text=because%20by%20definition) and one more [line](data/gemini-as-your-personal-executive-assistant-knowledge.txt#:~:text=because%20by%20definition?target=_blank), summing-up for 241 words, including the section title.
 
 #### Prompt #13
 
