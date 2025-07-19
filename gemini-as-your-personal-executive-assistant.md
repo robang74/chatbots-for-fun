@@ -326,10 +326,10 @@ Under this point of view, providing Katia with a few rules of thumb can make a s
 
 In this [conversation](https://g.co/gemini/share/ef4e03f000c4) with Gemini and it's [transcription](data/gemini-as-your-personal-executive-assistant-knowledge.txt#?target=_blank) can be seen the impact of the `[HKO]` seeding: 
 
-- I have started Katia in `[SBI]` mode only (concise answering), 
-- introduced the new module as a proposal while fixing the goal, 
-- corrected an issue, usin the `[CPR]` mode (critical peer-review),
-- be back to `[SBI]` and started a debate to address the second issue,
+- I have started Katia v0.8.3 in `[SBI]` mode only (concise answering), 
+- introduced the new `[HKO]` module as a proposal while fixing the goal, 
+- corrected an issue, leveraging the `[CPR]` mode (critical peer-review),
+- went back to `[SBI]` mode and started a debate to address the second issue,
 - described the debating process in terms of the generic rules-of-thumb given,
 - concluding that a decent start for a module to test is better than nothing.
 
@@ -377,7 +377,7 @@ The two main issues were related to philosophy and theology. Why, among many, I 
 
 While philosophy is an ancient way of thinking and convey opinions which is set a reasonable middle of the two opposite approaches. Moreover, Karl Popper the father of falsification principle as separation between science and non-science, was a philosopher, indeed.
 
-The "Human knowledge and opinions" framework, currently encapsulated into the `[HKO]` [module](data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20knowledge%20and%20opinions?target=_blank), took only 12 prompts to be refined after its first draft while the first testing version is 22 lines and 222 words length.
+The "Human knowledge and opinions" framework, currently encapsulated into the Katia v0.9.0 `[HKO]` [module](https://github.com/robang74/chatbots-for-fun/blob/856f1458b02a9758e4781e26454f8a7454ac1cef/data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20knowledge%20and%20opinions?target=_blank), took only 12 prompts to be refined after its first draft while the first testing version is 22 lines and 222 words length.
 
 We cannot expect that such a little piece of information makes a LLM/LRM engine an AGI, for sure. However, it would be wonderful that it makes it a reasonable, analitycal and insightful conversational partner.
 
