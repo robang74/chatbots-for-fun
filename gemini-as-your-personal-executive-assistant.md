@@ -314,10 +314,6 @@ After Katia framework used as a session prompt shown the ability to effectively 
 
 ## Human knowledge and opinions
 
-> [!WARN]
-> 
-> **WORK IN PROGRESS!**
-
 As described [here](gemini-as-your-personal-financial-advisor.md#the-most-relevant-prompt-parts?target=_blank) Juan session prompt has a modular structure and thus Katia as well. Due to the issue caused by the yesterday update in the Gemini AI engine, I have decided for a front-impacting approach to the subject.
 
 From a rational reasoning LLM which is not a thinking machine in human terms (aka artificial intelligence) but an advanced and highly-technological way for lessical thinking and know-how management, the human knowledge and opinions in their variety of expression and nuances is a monster of complications to cope with.
