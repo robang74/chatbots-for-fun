@@ -332,19 +332,19 @@ For this test, I have used a Gemini Gem because in that environment a session pr
 
 ...
 
-#### Prompt #N+1
+#### Prompt #8
 
 [!CITE]
 Thus theology is a mixture of `[HK]` and its peculiarity is about the dogmas it considers undebatable but matters of faith, correct?
 [/CITE]
 
-#### Prompt #N+2
+#### Prompt #9
 
 [!CITE]
 Thus by its dogmatic core nature, theology bends logic and rational reasoning because it cannot accept a demonstration of absurdity, for example. Dogmans are Truths that cannot be argued despite leading to absurdity, and those absurdities are usually called "mystery of faith". Correct?
 [/CITE]
 
-#### Prompt #N+3
+#### Prompt #10
 
 [!CITE]
 Considering what we agreed upon, do you think that these three new descriptions below are a better fit for the `[HKO]` module?
@@ -354,13 +354,13 @@ Considering what we agreed upon, do you think that these three new descriptions 
 * The `[RR]` is fundamental in science, useful in philosophy and usually bent in theology.
 [/CITE]
 
-#### Prompt #N+4
+#### Prompt #11
 
 [!CITE]
 This is an A-vs-B argumentation, for example. In which your evaluation has been taken in consideration and in one case correction has been found (or a decent start, at least) while a free-speech rational-reasoning debate (opinion exchanges) took place to reach a mutual understanding in the hope that that process would help us to progress (learning). Is this a correct description of what was going on here?
 [/CITE]
 
-#### Prompt #N+5
+#### Prompt #12
 
 [!CITE]
 Considering that `[HKO]` is an extremely ambitious attempt to let AI better cope with human knowledge and opinions especially considering the short length that a session prompt framework can concede to various modules, a decent start (all not less than 75%,for example) is better than nothing and improving might happen in future, testing the `[HKO]` module?
