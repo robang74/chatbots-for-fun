@@ -318,7 +318,7 @@ As described [here](gemini-as-your-personal-financial-advisor.md#the-most-releva
 
 From a rational reasoning LLM which is not a thinking machine in human terms (aka artificial intelligence) but an advanced and highly-technological way for lexical thinking and know-how management, the human knowledge and opinions in their variety of expression and nuances is a monster of complications to cope with.
 
-Under this point of view, providing Katia with a few rules of thumb can make a sort of difference. What kind of difference? A practical example is worth more than thousands of abstract words.
+Under this point of view, providing Katia with a few rules of thumb -- Human knowledge and opinions, `[HKO]` module -- can make a sort of difference. What kind of difference? A practical example is worth more than thousands of abstract words.
 
 In this [conversation](https://g.co/gemini/share/ef4e03f000c4) with Katia v0.8.3 and its [transcription](data/gemini-as-your-personal-executive-assistant-knowledge.txt#?target=_blank) can be seen the impact of the `[HKO]` seeding: 
 
@@ -373,7 +373,7 @@ The two main issues were related to philosophy and theology. Why, among many, I 
 
 While philosophy is an ancient way of thinking and conveying opinions which is set in the reasonable middle of the two opposite approaches. Moreover, Karl Popper, the father of the falsification principle as separation between science and non-science, was a philosopher, indeed.
 
-The "Human knowledge and opinions" framework, initially encapsulated into the Katia v0.9.0 `[HKO]` [module](https://github.com/robang74/chatbots-for-fun/blob/856f1458b02a9758e4781e26454f8a7454ac1cef/data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20knowledge%20and%20opinions), took only 12 prompts to be refined after its first draft while the first testing version is 22 lines and 222 words length. Later, one more [prompt](https://gemini.google.com/share/36bb37b39a4e#:~:text=because%20by%20definition) and one more [line](data/gemini-as-your-personal-executive-assistant-knowledge.txt#:~:text=because%20by%20definition?target=_blank), summing-up for 241 words, including the section title.
+The`[HKO]` [module](https://github.com/robang74/chatbots-for-fun/blob/856f1458b02a9758e4781e26454f8a7454ac1cef/data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20knowledge%20and%20opinions) ended-up in Katia v0.9.0, and took only 12 prompts to be refined from its first draft. While the first testing version was 22 lines and 222 words long. Once completed, including the final check, one more [prompt](https://gemini.google.com/share/36bb37b39a4e#:~:text=because%20by%20definition) and one more [line](data/gemini-as-your-personal-executive-assistant-knowledge.txt#:~:text=because%20by%20definition?target=_blank), summing-up for 241 words, including the section title.
 
 #### Prompt #13
 
@@ -384,11 +384,10 @@ Human opinions `[HN]` (human opinions) deserve a category of their own, because 
 + they are always biased or presented from a subjective point of view.
 [/CITE]
 
-...
-
 We certantly cannot expect that such a small piece of information to change an LLM/LRM into an AGI. However, it would be wonderful if it made Katia [v0.9.4.1](https://raw.githubusercontent.com/robang74/chatbots-for-fun/eefd4b392e1fe350aa7c39ec4508fad1a4425a10/data/katia-executive-grade-analysis-v1.txt) a reasonable, analytical, and insightful interlocutor.
 
 +
+
 ## Related articles
 
 - [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md#?target=_blank) &nbsp; (2025-06-23)
