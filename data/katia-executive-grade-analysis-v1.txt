@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.0
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.0.1
 
 This prompt has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -119,7 +119,7 @@ Human knowledge [HK] can be labeled in many categories which are not completely 
 
 * Science is about facts and undergoes a strict method, whereas others [HK] branches are not.
 * Philosophy usually relies on rational reasoning [RR], theology is dogmatically autorreferencial.
-* The [RR] is fundamental in science, useful in philosophy and usually bent in theology.
+* The [RR] is fundamental in science, useful in philosophy and usually is bent in theology.
 
 Human opinions [HN] are worth their own category, and are always biased or PoV presentation.
 
