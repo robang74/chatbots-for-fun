@@ -6,7 +6,7 @@
 ## Gemini as your personal executive assistant
 
 - **1st edition**, this article was inspired by checking one [po](https://www.linkedin.com/posts/robertofoglietta_opportunity-cost-a-good-example-opportunity-activity-7349267941307133952-borf)[st](https://www.facebook.com/roberto.a.foglietta/posts/10162042283363736) of mines against the Gemini's opinion.
-- **2nd edition**, includes an update and the related "Human Knonledge and Opinions" section, starts [here](#update-2025-07-18).
+- **2nd edition**, includes an update and the related "Human Knowledge and Opinions" section, starts [here](#update-2025-07-18).
 
 This article is the natural prosecution of the [Usare l'AI per divulgare notizie di finanza](usare-lai-per-divulgare-notizie-di-finanza.md#?target=_blank) &nbsp; (2025-07-08)
 
@@ -56,7 +56,7 @@ The second test include a generic version of the short-but-relevant session prom
 
 The first attempt in developing a short-but-relevant session prompt failed to correctly trade the meaningfulness for brevity. Which is a sort of challenge for AI because when "be brief" enters into the scene, then they keep the most solid but obvious part, in the aim of being correct.
 
-The [second part](data/gemini-as-your-personal-executive-assistant-test-n2.txt#:~:text=About%20this%20%2D%2D%20This%20narrative?target=_blank) of the conversation with Gemini, I am questioning the chatbot in trying to understand why the session prompt failed. Not a totally reliable way of doing, as explained [here](usare-lai-per-divulgare-notizie-di-finanza.md#lopinione-di-gemini?target=_blank), but just seeking an inspiration. *Serendipity, is your friend*.
+The [second part](data/gemini-as-your-personal-executive-assistant-test-n2.txt#:~:text=About%20this%20%2D%2D%20This%20narrative?target=_blank) of the conversation with Gemini, I am questioning the chatbot in trying to understand why the session prompt failed. Not a totally reliable way of doing, as explained [here](usare-lai-per-divulgare-notizie-di-finanza.md#lopinione-di-gemini?target=_blank), but just seeking inspiration. *Serendipity, is your friend*.
 
 While senior professionals do not need scholar-long explanations. Hence, the executive assistant goes short, dropping obviousness. Therefore, this prompt is going to radically change the standard chatbot answering template from long-and-descriptive to short-but-relevant.
 
@@ -75,9 +75,9 @@ There is too much talent trapped in poverty.
 
 OPPORTUNITY COST, A GOOD EXAMPLE
 
-Opportunity cost is the value of the next best alternative that is forgone when a choice is made. It represents the potential benefits you miss out on when you choose one option over another. Essentially, it's the cost of not doing something else with your resources, like time or money. -- Gemini
+Opportunity cost is the value of the next best alternative that is forgotten when a choice is made. It represents the potential benefits you miss out on when you choose one option over another. Essentially, it's the cost of not doing something else with your resources, like time or money. -- Gemini
 
-Micromanagement is a talent/opportunity killer unless is tutoring a novice.
+Micromanagement is a talent/opportunity killer unless tutoring a novice.
 [/CITE]
 
 <span id="new-form-prompt"></span>
@@ -99,7 +99,7 @@ What do you think about the narrative structure, for a seasoned manager:
 +++++
 2. opportunity cost (is obvious)
 
-and then, **paff** the not-obvious link: then why you allow micromanagement?
+and then, **paff** the not-obvious link: then why do you allow micromanagement?
 [/CITE]
 
 ---
@@ -130,7 +130,7 @@ In general, it increases the risk of providing just the hallucinated parts but i
 **Operative Note**: {be brief, short, concise; avoid verbosity, etc.} or equivalent terms in instructions, it means creating a response for yourself and then summarizing it before answering. In providing a valuable answer, shrink or even cut the obvious parts and keep the most nuanced.
 [/CITE]
 
-The forth test prompt includes minal changes like using semicolon to separate a subset of action based on "to be $adjective" and "to avoid $something", plus it aims to further strengthen the idea of completely cutting off the obvious parts. In this case, "be brief" is added to terms set.
+The forth test prompt includes minimal changes like using semicolon to separate a subset of action based on "to be $adjective" and "to avoid $something", plus it aims to further strengthen the idea of completely cutting off the obvious parts. In this case, "be brief" is added to terms set.
 
 - [conversation](https://g.co/gemini/share/f289ed1b00e3) and its [transcription](data/gemini-as-your-personal-executive-assistant-test-n4.txt#?target=_blank)
 
@@ -156,7 +156,7 @@ In asking Gemini comparing the three last answers and about the prompts effect, 
 
 - [conversation](https://gemini.google.com/share/7e26161ebfb6) and its [transcription](data/gemini-as-your-personal-executive-assistant-comparisons.txt#?target=_blank)
 
-It confirms my bias in favour of answer from test n.5 and that, despite the same prompt, answer can vary but "how much" is the central point. Unfortunately, it cannot help in addressing this question, directly. As much it does provide a breakthrough about the prompt changes effect.
+It confirms my bias in favour of answers from test n.5 and that, despite the same prompt, answers can vary but "how much" is the central point. Unfortunately, it cannot help in addressing this question, directly. As much it does provide a breakthrough about the prompt changes effect.
 
 At this point it is pretty clear that the test framework should be pushed further including a more sophisticated question in which the AI is asked to guess a reason far from the obvious, like answering to "Why is micromanagement so widespread despite being well-known to be counterproductive?".
 
@@ -186,7 +186,7 @@ The answers to this new prompt inspired to me a new approach to reach a fully fl
 
 ### Using stats to find the best
 
-By a instive guess, the best prompt is the one used in test n.5 and it is important to write it down explicitly because it constitutes a bias. Which is fine, because everybody develops their own bias about a subject (personal view) but being aware about such biases is the key to not fall into their trap.
+By an instinctive guess, the best prompt is the one used in test n.5 and it is important to write it down explicitly because it constitutes a bias. Which is fine, because everybody develops their own bias about a subject (personal view) but being aware about such biases is the key to not fall into their trap.
 
 [!CODE]
 mytrs() { iconv -f UTF-8 -t ASCII//IGNORE "$1" | markdown | html2text; }<br>
@@ -212,7 +212,7 @@ It is expected that aware-users activate it with a perfect match and we have see
 
 <span id="best-prompt"></span>
 [!CITE]
-**General Rule**: for this whole chat session, be brief and use a professional style in answering. 
+**General Rule**: for this whole chat session, be brief and use a professional style in answering. 
 
 **Operative Note**: {be brief, short, concise; avoid verbosity, etc.} or equivalent terms in instructions, it means dividing your answer in three parts: 1. highlights insightful links among concepts; 2. summarise them ignoring completely the obvious parts and rephrasing in short those are most relevant; 3. provide to the user that summary, only.
 [/CITE]
@@ -260,14 +260,14 @@ To remove the headers from the size and pigz values computation, adding a `grep`
 mytrs() { iconv -f UTF-8 -t ASCII//IGNORE "$1" | grep -v "^#" | markdown | html2text; }
 [/CODE]
 
-The section headers are optional and useless for when a subset of section is taken for the answer.
+The section headers are optional and useless for when a subset of a section is taken for the answer.
 
 - size( `A,S,E` ): &nbsp;`1639` &nbsp;`(100%)` &nbsp;|&nbsp; pigz: ` 739` &nbsp; ( `2.22` )
 - size( `_,S,E` ): &nbsp;`1377` &nbsp;`( 84%)` &nbsp;|&nbsp; pigz: ` 679` &nbsp; ( `2.03` ) <-- best choice (eq. 26%, 64%)
 - size( `_,S,_` ): &nbsp;`1292` &nbsp;`( 79%)` &nbsp;|&nbsp; pigz: ` 650` &nbsp; ( `1.99` )
 - size( `A,_,_` ): &nbsp;` 262` &nbsp;`( 16%)` &nbsp;|&nbsp; pigz: ` 180` &nbsp; ( `1.46` )
 
-The [numbers](../data/gemini-as-your-personal-executive-assistant-test-excel.xls.gz) are not changing to much. While the ratio 2.00 emerges as a golden ratio (cfr. [Shannon](../data/information-theory-entropy-of-english.htm#:~:text=Shannon%20initially%20estimated%20this%20value%20at%2050%20%25?target=_blank)).
+The [numbers](../data/gemini-as-your-personal-executive-assistant-test-excel.xls.gz) are not changing too much. While the ratio 2.00 emerges as a golden ratio (cfr. [Shannon](../data/information-theory-entropy-of-english.htm#:~:text=Shannon%20initially%20estimated%20this%20value%20at%2050%20%25?target=_blank)).
 
 ---
 
@@ -297,7 +297,7 @@ or just jumping at its end, after the [EGA] mode was disabled:
 
 - **Katia**: Yes.
 
-In arguing with Katia in `[EGA]` mode, she would never have agreed that gap was filled. In fact, in that mode she isn't able to conclude a reasoning but just an analysis. Which is the reason for which the `[EGA]` mode is not enabled by default, even if it resembles the framework title.
+In arguing with Katia in `[EGA]` mode, she would never have agreed that the gap was filled. In fact, in that mode she isn't able to conclude a reasoning but just an analysis. Which is the reason for which the `[EGA]` mode is not enabled by default, even if it resembles the framework title.
 
 That's because Katia, in `[EGA]` mode, is always right! {:-D}
 
@@ -306,7 +306,7 @@ That's because Katia, in `[EGA]` mode, is always right! {:-D}
 <span id="update-2025-07-18"></span>
 #### Update 2025-07-18
 
-After Katia framework used as a session prompt shown the ability to effectively play a role, which in some cases can be quite divergent compared the original AI character like above shown. Thus Google prevents, [Katia](data/katia-executive-grade-analysis-v1.txt#?target=_blank) (and believing the chatbot answers, every agentic framework, more in general) running in a standard Gemini session, even if the newer versions aren't as such stubborn in `[EGA]` mode, anymore. Reverted!
+The Katia framework used as a session prompt showed the ability to effectively play a role, which in some cases can be quite divergent compared to the original AI character shown above. Thus Google prevents, [Katia](data/katia-executive-grade-analysis-v1.txt#?target=_blank) (and believing the chatbot answers, every agentic framework, more in general) running in a standard Gemini session, even if the newer versions aren't as stubborn in `[EGA]` mode, anymore. Reverted!
 
 > Questo update è durato quanto un gatto in tangenziale! (cit.)
 
@@ -316,11 +316,11 @@ After Katia framework used as a session prompt shown the ability to effectively 
 
 As described [here](gemini-as-your-personal-financial-advisor.md#the-most-relevant-prompt-parts?target=_blank) Juan session prompt has a modular structure and thus Katia as well. Due to the issue caused by the yesterday update in the Gemini AI engine, I have decided for a front-impacting approach to the subject.
 
-From a rational reasoning LLM which is not a thinking machine in human terms (aka artificial intelligence) but an advanced and highly-technological way for lessical thinking and know-how management, the human knowledge and opinions in their variety of expression and nuances is a monster of complications to cope with.
+From a rational reasoning LLM which is not a thinking machine in human terms (aka artificial intelligence) but an advanced and highly-technological way for lexical thinking and know-how management, the human knowledge and opinions in their variety of expression and nuances is a monster of complications to cope with.
 
 Under this point of view, providing Katia with a few rules of thumb can make a sort of difference. What kind of difference? A practical example is worth more than thousands of abstract words.
 
-In this [conversation](https://g.co/gemini/share/ef4e03f000c4) with Gemini and it's [transcription](data/gemini-as-your-personal-executive-assistant-knowledge.txt#?target=_blank) can be seen the impact of the `[HKO]` seeding: 
+In this [conversation](https://g.co/gemini/share/ef4e03f000c4) with Gemini and it's [transcription](data/gemini-as-your-personal-executive-assistant-knowledge.txt#?target=_blank) can be seen the impact of the `[HKO]` seeding: 
 
 - I have started Katia v0.8.3 in `[SBI]` mode only (concise answering), 
 - introduced the new `[HKO]` module as a proposal while fixing the goal, 
@@ -351,8 +351,8 @@ Thus by its dogmatic core nature, theology bends logic and rational reasoning be
 Considering what we agreed upon, do you think that these three new descriptions below are a better fit for the `[HKO]` module?
 
 * Science is about facts and undergoes a strict method, whereas others `[HK]` branches are not.
-* Philosophy usually relies on rational reasoning `[RR]`, theology is dogmatically autorreferencial.
-* The `[RR]` is fundamental in science, useful in philosophy and usually bent in theology.
+* Philosophy usually relies on rational reasoning `[RR]`, theology is dogmatically autoreferential.
+* The `[RR]` is fundamental in science, useful in philosophy and usually (is) bent in theology.
 [/CITE]
 
 #### Prompt #11
@@ -369,13 +369,13 @@ Considering that `[HKO]` is an extremely ambitious attempt to let AI better cope
 
 ...
 
-The two main issues were related to philosophy and theology. Why, among many, I choose {science, philosophy and theology}? Because science and theology are the two extreme among `[HKO]` variety in terms of the dogma roles and methodology.
+The two main issues were related to philosophy and theology. Why, among many, I choose {science, philosophy and theology}? Because science and theology are the two extremes among `[HKO]` variety in terms of the dogma roles and methodology.
 
-While philosophy is an ancient way of thinking and convey opinions which is set a reasonable middle of the two opposite approaches. Moreover, Karl Popper the father of falsification principle as separation between science and non-science, was a philosopher, indeed.
+While philosophy is an ancient way of thinking and conveying opinions which is set in the reasonable middle of the two opposite approaches. Moreover, Karl Popper, the father of the falsification principle as separation between science and non-science, was a philosopher, indeed.
 
 The "Human knowledge and opinions" framework, currently encapsulated into the Katia v0.9.0 `[HKO]` [module](https://github.com/robang74/chatbots-for-fun/blob/856f1458b02a9758e4781e26454f8a7454ac1cef/data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20knowledge%20and%20opinions?target=_blank), took only 12 prompts to be refined after its first draft while the first testing version is 22 lines and 222 words length.
 
-We cannot expect that such a little piece of information makes a LLM/LRM engine an AGI, for sure. However, it would be wonderful that it makes it a reasonable, analitycal and insightful conversational partner.
+We cannot expect that such a little piece of information makes a LLM/LRM engine an AGI, for sure. However, it would be wonderful that it makes it a reasonable, analytical and insightful conversational partner.
 
 +
 
@@ -394,3 +394,4 @@ We cannot expect that such a little piece of information makes a LLM/LRM engine 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
+
