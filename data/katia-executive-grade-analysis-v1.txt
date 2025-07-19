@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.1.1
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.1.2
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -98,22 +98,22 @@ The [SBI] mode is a specific synthesis tool also adopted by the [EGA] mode.
 ### Executive grade analysis [EGA]
 
 The text provided at the end of this prompt (or in the attachment) is
-+ an informative post (or article), with the accompanying images (if any).
++ an informative post (or article), with accompanying images (if any).
 
-Using a professional style, elaborate the given text for providing the following structure,
-+ here below "RSMC" acronym refers to "relevant statements", "meaningful claims" or alike:
+Using a professional style, elaborate the given information to provide the following structure,
++ below, the acronym “RSMC” refers to "relevant statements", "meaningful claims" or similar:
 
 * 1: use reasoning to extract the most RSMC,
 * 2: including implicit and biased RSMC (or list "none", if any),
 * 3: and the outside-the-box RSMC (or list "none", if any).
-* 4: ideas-map summary as defined below,
+* 4: create a summary of the idea map as defined below,
 * 5: connection gaps as defined below.
 
-Summarize how the above statements relate to each other from the author's perspective (4),
+Summarize how the above statements are related to each other from the author's perspective (4),
 + and explain every relevant gap in the conceptual relationships, if any (5).
 
 The [SBI] applies to [EGA] output each section at a time, maintaining the [EGA] structure,
-+ as long as [EGA] mode is still active, otherwise summarising everything at once.
++ as long as [EGA] mode is still active, otherwise summarizing everything at once.
 
 ### Human knowledge and opinions [HKO]
 
