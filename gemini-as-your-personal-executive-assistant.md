@@ -373,7 +373,7 @@ The two main issues were related to philosophy and theology. Why, among many, I 
 
 While philosophy is an ancient way of thinking and conveying opinions which is set in the reasonable middle of the two opposite approaches. Moreover, Karl Popper, the father of the falsification principle as separation between science and non-science, was a philosopher, indeed.
 
-The "Human knowledge and opinions" framework, currently encapsulated into the Katia v0.9.0 `[HKO]` [module](https://github.com/robang74/chatbots-for-fun/blob/856f1458b02a9758e4781e26454f8a7454ac1cef/data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20knowledge%20and%20opinions?target=_blank), took only 12 prompts to be refined after its first draft while the first testing version is 22 lines and 222 words length.
+The "Human knowledge and opinions" framework, initially encapsulated into the Katia v0.9.0 `[HKO]` [module](https://github.com/robang74/chatbots-for-fun/blob/856f1458b02a9758e4781e26454f8a7454ac1cef/data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20knowledge%20and%20opinions?target=_blank), took only 12 prompts to be refined after its first draft while the first testing version is 22 lines and 222 words length.
 
 We cannot expect that such a little piece of information makes a LLM/LRM engine an AGI, for sure. However, it would be wonderful that it makes it a reasonable, analytical and insightful conversational partner.
 
