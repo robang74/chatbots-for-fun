@@ -311,6 +311,10 @@ After Katia framework used as a session prompt shown the ability to effectively 
 
 ## Human knowledge and opinions
 
+> [!WARN]
+> 
+> **WORK IN PROGRESS!**
+
 As described [here](gemini-as-your-personal-financial-advisor.md#the-most-relevant-prompt-parts?target=_blank) Juan session prompt has a modular structure and thus Katia as well. Due to the issue caused by the yesterday update in the Gemini AI engine, I have decided for a front-impacting approach to the subject.
 
 From a rational reasoning LLM which is not a thinking machine in human terms (aka artificial intelligence) but an advanced and highly-technological way for lessical thinking and know-how management, the human knowledge and opinions in their variety of expression and nuances is a monster of complications to cope with.
@@ -321,14 +325,50 @@ Under this point of view, providing Katia with a few rules of thumb can make a s
 - introduced the new module as a proposal while fixing the goal, 
 - corrected an issue, usin the `[CPR]` mode (critical peer-review),
 - be back to `[SBI]` and started a debate to address the second issue,
-- concluding that a decent start for a module to test is better than nothing,
-- described the debating process in terms of the generic rules-of-thumb given.
+- described the debating process in terms of the generic rules-of-thumb given,
+- concluding that a decent start for a module to test is better than nothing.
 
 For this test, I have used a Gemini Gem because in that environment a session prompt can be edited and tested in real-time much more easily than in a standard session. Here below, I am reporting the conclusive part in which me and the chatbot converged in sharing the same PoV, like two humans could have done.
 
-> [!WARN]
-> 
-> **WORK IN PROGRESS!**
+...
+
+#### Prompt #N+1
+
+[!CITE]
+Thus theology is a mixture of `[HK]` and its peculiarity is about the dogmas it consider undebatable but matter of faith, correct?
+[/CITE]
+
+#### Prompt #N+2
+
+[!CITE]
+Thus by its dogmatic core nature, theology bends logic and rational reasoning because it cannot accept a demonstration by absurd, for example. Dogmans are Truth that cannot be argued despite leading to absurd, and those absurds are usually called "mistery of faith". Correct?
+[/CITE]
+
+#### Prompt #N+3
+
+[!CITE]
+Considering what we agreed upon, do you think that these three new descriptions below are a better fit for the `[HKO]` module?
+
+* Science is about facts and undergoes a strict method, whereas others `[HK]` branches are not.
+* Philosophy usually relies on rational reasoning `[RR]`, theology is dogmatically autorreferencial.
+* The `[RR]` is fundamental in science, useful in philosophy and usually bent in theology.
+[/CITE]
+
+#### Prompt #N+4
+
+[!CITE]
+This is a A-vs-B argumentation, for example. In which your evaluation has been taken in consideration and in one case correction has been found (or a decent start, at least) while a free-speech rational-reasoning debate (opinion exchanges) took place to reach a mutual understanding in the hope that that process would help us to progress (learning). Is this a correct description of what was going on here?
+[/CITE]
+
+#### Prompt #N+5
+
+[!CITE]
+Considering that `[HKO]` is an extremely ambitious attempt to let AI better cope with human knowledge and opinions especially considering the short length that a session prompt framework can concede to various modules, a decent start (all not less than 75%,for example) is better than nothing and improving might happen in future, testing the `[HKO]` module?
+[/CITE]
+
+...
+
+The two main issues were related to philosophy and theology. Why, among many, I choose {science, philosophy and theology}? Because science and theology are the two extreme among `[HKO]` variety in terms of the dogma roles and methodology. While philosophy is an ancient way of thinking and convey opinions which is set a reasonable middle of the two opposite approaches. Moreover, Karl Popper the father of falsification principle as separation between science and non-science, was a philosopher, indeed.
 
 +
 
@@ -340,7 +380,7 @@ For this test, I have used a Gemini Gem because in that environment a session pr
 +++++
 - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
 
-+++++
++
 
 ## Share alike
 
