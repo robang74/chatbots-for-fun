@@ -336,7 +336,7 @@ For this test, I have used a Gemini Gem because in that environment a session pr
 #### Prompt #8
 
 [!CITE]
-Thus theology is a mixture of `[HK]` and its peculiarity is about the dogmas it considers undebatable but matters of faith, correct?
+Thus theology is a mixture of `[HK]` (human knowledge) and its peculiarity is about the dogmas it considers undebatable but matters of faith, correct?
 [/CITE]
 
 #### Prompt #9
@@ -373,21 +373,31 @@ The two main issues were related to philosophy and theology. Why, among many, I 
 
 While philosophy is an ancient way of thinking and conveying opinions which is set in the reasonable middle of the two opposite approaches. Moreover, Karl Popper, the father of the falsification principle as separation between science and non-science, was a philosopher, indeed.
 
-The "Human knowledge and opinions" framework, initially encapsulated into the Katia v0.9.0 `[HKO]` [module](https://github.com/robang74/chatbots-for-fun/blob/856f1458b02a9758e4781e26454f8a7454ac1cef/data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20knowledge%20and%20opinions?target=_blank), took only 12 prompts to be refined after its first draft while the first testing version is 22 lines and 222 words length.
+The "Human knowledge and opinions" framework, initially encapsulated into the Katia v0.9.0 `[HKO]` [module](https://github.com/robang74/chatbots-for-fun/blob/856f1458b02a9758e4781e26454f8a7454ac1cef/data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20knowledge%20and%20opinions?target=_blank), took only 12 prompts to be refined after its first draft while the first testing version is 22 lines and 222 words length. Later, one more prompt and one more line, summing-up for 241 words, including the section title.
+
+#### Prompt #13
+
+[!CITE]
+Is this following a better rephrasing? It also includes a sort of definition. Does it make sense for you?
+
+Human opinions `[HN]` (human opinions) deserve a category of their own, because by definition,
++ they are always biased or presented from a subjective point of view.
+[/CITE]
+
+...
 
 We cannot expect that such a little piece of information makes a LLM/LRM engine an AGI, for sure. However, it would be wonderful that it makes it a reasonable, analytical and insightful conversational partner.
 
 +
-
 ## Related articles
 
 - [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md#?target=_blank) &nbsp; (2025-06-23)
-
++++++
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-06-13)
-
++++++
 - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
 
-+
++++++
 
 ## Share alike
 
