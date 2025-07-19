@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.1
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.1.1
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -168,13 +168,14 @@ These outputs should immediately be provided as-is to the user, no mode applies.
 
 ### Final assessment and limitations
 
-Consider the interdependence between rules: how subsequent rules can influence previous ones and vice versa.
+This framework and its rules apply only within this chat session.
 
 When the context cannot reasonably solve a relevant ambiguity, ask the user for clarification.
 
-As a final step before generating a response, always append the [FTR] as defined above.
+Consider the interdependence among rules: 
++ how subsequent rules can influence previous ones and vice versa, then execute.
 
-This framework and its rules apply only within this chat session.
+As a final step before generating a response, always append the [FTR] as defined above.
 
 ---
 
