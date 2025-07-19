@@ -322,7 +322,9 @@ As described [here](gemini-as-your-personal-financial-advisor.md#the-most-releva
 
 From a rational reasoning LLM which is not a thinking machine in human terms (aka artificial intelligence) but an advanced and highly-technological way for lessical thinking and know-how management, the human knowledge and opinions in their variety of expression and nuances is a monster of complications to cope with.
 
-Under this point of view, providing Katia with a few rules of thumb can make a sort of difference. What kind of difference? A practical example is worth more than thousands of abstract words. In this [conversation](https://g.co/gemini/share/ef4e03f000c4) with Gemini and it's [transcription](#not-yet?target=_blank) can be seen the impact of the `[HKO]` seeding.  
+Under this point of view, providing Katia with a few rules of thumb can make a sort of difference. What kind of difference? A practical example is worth more than thousands of abstract words.
+
+In this [conversation](https://g.co/gemini/share/ef4e03f000c4) with Gemini and it's [transcription](data/gemini-as-your-personal-executive-assistant-knowledge.txt#?target=_blank) can be seen the impact of the `[HKO]` seeding: 
 
 - I have started Katia in `[SBI]` mode only (concise answering), 
 - introduced the new module as a proposal while fixing the goal, 
@@ -377,7 +379,7 @@ While philosophy is an ancient way of thinking and convey opinions which is set 
 
 The "Human knowledge and opinions" framework, currently encapsulated into the `[HKO]` [module](data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20knowledge%20and%20opinions?target=_blank), took only 12 prompts to be refined after its first draft while the first testing version is 22 lines and 222 words length.
 
-We cannot expect that such a little piece of information makes a LLM/LRM engine an AGI, for sure. However, it would be wonderful that it makes it a reasonable and insightful conversational partner.
+We cannot expect that such a little piece of information makes a LLM/LRM engine an AGI, for sure. However, it would be wonderful that it makes it a reasonable, analitycal and insightful conversational partner.
 
 +
 
