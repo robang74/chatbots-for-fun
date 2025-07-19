@@ -386,7 +386,7 @@ Human opinions `[HN]` (human opinions) deserve a category of their own, because 
 
 ...
 
-We cannot expect that such a little piece of information makes a LLM/LRM engine an AGI, for sure. However, it would be wonderful that it makes it a reasonable, analytical and insightful conversational partner.
+We certantly cannot expect that such a small piece of information to change an LLM/LRM into an AGI. However, it would be wonderful if it made Katia [v0.9.4.1](https://raw.githubusercontent.com/robang74/chatbots-for-fun/eefd4b392e1fe350aa7c39ec4508fad1a4425a10/data/katia-executive-grade-analysis-v1.txt) a reasonable, analytical, and insightful interlocutor.
 
 +
 ## Related articles
