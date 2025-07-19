@@ -370,14 +370,15 @@ Considering that `[HKO]` is an extremely ambitious attempt to let AI better cope
 
 The two main issues were related to philosophy and theology. Why, among many, I choose {science, philosophy and theology}? Because science and theology are the two extreme among `[HKO]` variety in terms of the dogma roles and methodology. While philosophy is an ancient way of thinking and convey opinions which is set a reasonable middle of the two opposite approaches. Moreover, Karl Popper the father of falsification principle as separation between science and non-science, was a philosopher, indeed.
 
+The "Human knowledge and opinions" framework, currently encapsulated into the `[HKO]` [module](not-yet.txt#?target=_blank), took 12 prompts to be refined after its first draft and the first testing version is 22 lines and 222 words length. We cannot expect that such a little piece of information makes a LLM/LRM engine an AGI, for sure. However, it would be wonderful that it makes it a reasonable and insightful conversational partner.
+
 +
 
 ## Related articles
 
 - [L'AI è un game-changer perché è onesta](l-ai-e-un-game-changer-perche-onesta.md#?target=_blank) &nbsp; (2025-06-23)
-+++++
-- [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-06-13)
-+++++
+
+
 - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
 
 +
