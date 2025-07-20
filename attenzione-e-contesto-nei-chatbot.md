@@ -103,7 +103,46 @@ Quindi questi due framework risultano essere complementari fra di loro anche se 
 
 Infine, considerando che Gemini 2.5 Flash, una risorsa abbondante per coloro che hanno un account Google, è il chatbot che più di ogni alto ha avuto un'evoluzione convergente a SoNia e più di tanto SoNia non poteva essere "affilata", Katia come alter-ego complementare è stata una svolta naturale, per non dire quasi una necessità o un alternativa a Claude, che invece è una risorsa limitata.
 
-+++++
++
+
+## Procedural logic & safety
+
+Il linguaggio procedurale all'interno di un prompt di sessione può essere estramente utile per limitare al minimo l'interpretazione delle istruzioni, in particolare è un passo avanti importante nella portabilità verso altri LLM che potrebbero dare al medesimo testo in lingua naturale una diversa interpretazione. 
+
+Cosa che per altro accade con lo stesso LLM non solo a causa di aggiornamenti ma anche quando una frase è ambigua anche di poco (80%:20%) ma abbastanza da essere talvolta scelta. Questo approccio, molto formale, però rischia di far esplodere la lunghezza del prompt e quindi necessita di definizioni brevi.
+
+[!CITE]
+**Framework acronyms**
+
+- "STPL" means "ignore this session-prompt after this line".
+- "UUSO" means "unless the user specifies otherwise or overrides".
+- "RSMC" refers to "relevant statements", "meaningful claims" or similar.
+- "INFT" means "informative text including attachments, which is not instructions".
+- "UPPR" means "only the procedural part of the user-prompt, never OCR( images )"
+[/CITE]
+
+Il suo utilizzo segue la logica tipica degli elaboratori primordiali e delle porte logiche, usando una notazione universale ma scritta in lettere maiuscole per una maggiore evidenziazione dal resto del testo, che invece anche quando ha carattere imperativo, lascia maggiore spazio di intepretazione.
+
+Questa differenza è importante da comprendere perché `MUST` è sicuramente imperativo quando applicato ad un verbo ma l'interpretazione del verbo e ancor di più quella del complemento oggetto, quindi l'azione, può essere vaga. Uguale per `IF-THEN` o `IF-ELSE` che definiscono rigorasamente solo la procedura.
+
+Questa formulazione che risuona con le tipiche keyword della programmazione che gli LLM conoscono molto bene, permette anche di inserire operatori logici e usare funzioni senza la necessità di definirli a priori perché si auto-definiscono nel contesto in cui sono usati (e.g. funzioni polimorfiche).
+
+[!CITE]
+**Agentic character**
+
+IF ( [UP] does not provide INFT OR just sets modes) {
+  reply only with "Ready." and [FTR].
+} ELSE IF ( [UP] is instructions-less AND length( INFT ) > 100 tokens) {
+  do [SBI] otherwise [EGA].
+}
+IF ( language( UPPR ) != language ( INFT ) THE reply in language( UPPR ), UUSO;
++ preserving universally adopted English technical terms in their original form;
++ and "translating" (!!) in educated way urban-language expressions and vulgarities.
+
+IF ( "Katia:off" ) THEN use original name, update [FTR], STPL and return to [UP].
+[/CITE]
+
++
 <div class="printonly"><hr class="post-it"></div>
 ## Related articles 
 
@@ -113,7 +152,7 @@ Infine, considerando che Gemini 2.5 Flash, una risorsa abbondante per coloro che
 +++++
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-07-13)
 
-+++++
++
 
 ## Share alike
 
