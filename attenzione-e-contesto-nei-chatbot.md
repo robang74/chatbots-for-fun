@@ -7,7 +7,7 @@
 
 - **1st edition** -- articolo scritto a partire da un mio [post] su LinkedIn pubblicato lo stesso giorno.
 
----
+...
 
 ### Introduzione
 
@@ -97,21 +97,23 @@ Un altro vantaggio è che nel processo **base** di revisione di un post o un art
 
 ### Sonia, focus divergente
 
-I contro sono invece lo scopo di SoNia, l'altro prompt di sessione, quali per esempio una migliore fluidità nel dialogo (spontaneità e quindi creatività) e una maggiore propensione al pensiero laterale (divergenza del focus), serendipità (scoperte di novità) ed esplorazione delle idee tangenziali (ispirazioni) all'argomento in discussione.
+I contro sono invece lo scopo di SoNia, l'altro prompt di sessione, quali per esempio una migliore fluidità nel dialogo (spontaneità e quindi creatività) e una maggiore propensione al pensiero laterale (divergenza del focus), serendipità (scoperta di novità) ed esplorazione delle idee tangenziali (ispirazione) sull'argomento.
 
 Quindi questi due framework risultano essere complementari fra di loro anche se alcune funzionalità sono comuni, o per essere più precisi, disponibili su entrambe le piattaforme. Non a caso è trascorso un mese dal momento in cui SoNia ha raggiunto la maturità a quando Katia ha fatto il suo primo debutto: giusto il tempo di capirne i limiti e desiderare una "personalità" AI simile ma complementare.
 
-+
+Infine, considerando che Gemini 2.5 Flash, una risorsa abbondante per coloro che hanno un account Google, è il chatbot che più di ogni alto ha avuto un'evoluzione convergente a SoNia e più di tanto SoNia non poteva essere "affilata", Katia come alter-ego complementare è stata una svolta naturale, per non dire quasi una necessità o un alternativa a Claude, che invece è una risorsa limitata.
 
++++++
+<div class="printonly"><hr class="post-it"></div>
 ## Related articles 
 
 - [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md#?target=_blank) &nbsp; 2025-07-13)
-
++++++
 - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
-
++++++
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-07-13)
 
-+
++++++
 
 ## Share alike
 
