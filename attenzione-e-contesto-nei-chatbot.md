@@ -85,7 +85,7 @@ Nelle due sezioni a seguire, i pro e i contro vengono presentati come aspetti co
 
 ---
 
-### Katia, focus profondo
+### Katia, focus concentrato
 
 Quando l'AI rivela un gap concettuale è ragionevole che almeno il 95% delle persone non sarà accompagnato dall'autore in quel passaggio di connessione fra idea e idea, solo un 5% lo noterà e solo il 2% sarà in grado di colmarlo autonomamente.
 
