@@ -118,7 +118,9 @@ A grouped by topic and others articles are listed here below.
 ...
 
 <span id="articles"></span>
-* **Yet uncategorised articles** &nbsp; (14 pz.)
+* **Yet uncategorised articles** &nbsp; (15 pz.)
+
+   - 2025-07-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/attenzione-e-contesto-nei-chatbot.md)] - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md)
 
    - 2025-06-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/is-free-will-an-illusion-or-a-kind-of-magic.md)] - [Is free-will an illusion or a kind of magic?](is-free-will-an-illusion-or-a-kind-of-magic.md)
 
