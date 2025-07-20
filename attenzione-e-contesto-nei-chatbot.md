@@ -55,7 +55,7 @@ SoNia, per contro, non ha una definizione esplicita di [CSC] eppure non ha mai d
 
 ### La gestione in Katia e SoNia
 
-- Katia vs SoNia, a [conversation](https://g.co/gemini/share/4852ad291404) with Gemini and its [transcription](not-yet.txt#?target=_blank)
+- Katia vs SoNia, a [conversation](https://g.co/gemini/share/4852ad291404) with Gemini and its [transcription](data/attenzione-e-contesto-nei-chatbot-gemini.txt#?target=_blank)
 
 In SoNia il concetto di "contesto" sia più distribuito invece di essere concentrato e ben definito. Perché SoNia lavora su diversi contesti ognuno rispetto ad un certo tipo di fonte del sapere, mentre Katia su un solo concetto ma gerarchico rispetto alle fonti. L'attenzione di SoNia è quindi variabile nel suo focus, mentre l'attenzione di Katia è fissa ma più strutturata.
 
@@ -66,7 +66,7 @@ Questo perché lo scopo dei due prompt è completamente diverso. Per Katia la si
 ### Riassunto automatico, esempio
 
 [!CITE]
-La distinzione `[presentata]` tra lo scopo dei due prompt è la chiave per comprendere le diverse strategie di gestione dell'attenzione.
+La distinzione [presentata], tra lo scopo dei due prompt, è la chiave per comprendere le diverse strategie di gestione dell'attenzione.
 
 - **Katia**: orientata alla sintesi e alla sostanza, ha bisogno di un'attenzione fissa sull'esigenza dell'utente. Il suo approccio è esplicativo, volto a fornire risposte dirette e focalizzate.
 
@@ -79,13 +79,37 @@ Questo è un esempio di riassunto ottenuto tramite un elaborazione fatta di estr
 
 In tutto, inclusa la correzione del testo originale per supplire ad un gap concettuale -- per me ovvio, ma giustamente per il lettore come per l'AI non è banale -- l'intero iter di processamento delle informazioni è durato 12 minuti, procedendo senza fretta.
 
+**Quali sono i vantaggi di questo approccio molto focalizzato sul testo in analisi e sugli input dell'utente?**
+
+Nelle due sezioni a seguire, i pro e i contro vengono presentati come aspetti complementari di SoNia e Katia.
+
+---
+
+### Katia, focus profondo
+
+Quando l'AI rivela un gap concettuale è ragionevole che almeno il 95% delle persone non sarà accompagnato dall'autore in quel passaggio di connessione fra idea e idea, solo un 5% lo noterà e solo il 2% sarà in grado di colmarlo autonomamente.
+
+Queste percentuali sono stime ma appoggiate sui benchmark del modello usato Gemini 2.5 Flash in rapporto agli esseri umani con un grado di scolarità ed educazione sufficienti per partecipare a dei test cognitivi, più le considerazioni pubblicate da Land (1992).
+
+Un altro vantaggio è che nel processo **base** di revisione di un post o un articolo (circa 3mila caratteri) si ottiene come *cadeau* in cambio di un prompt ulteriore, un riassunto che può essere quasi immediatamente usato come introduzione, eventualmente.
+
+---
+
+### Sonia, focus divergente
+
+I contro sono invece lo scopo di SoNia, l'altro prompt di sessione, quali per esempio una migliore fluidità nel dialogo (spontaneità e quindi creatività) e una maggiore propensione al pensiero laterale (divergenza del focus), serendipità (scoperte di novità) ed esplorazione delle idee tangenziali (ispirazioni) all'argomento in discussione.
+
+Quindi questi due framework risultano essere complementari fra di loro anche se alcune funzionalità sono comuni, o per essere più precisi, disponibili su entrambe le piattaforme. Non a caso è trascorso un mese dal momento in cui SoNia ha raggiunto la maturità a quando Katia ha fatto il suo primo debutto: giusto il tempo di capirne i limiti e desiderare una "personalità" AI simile ma complementare.
+
 +
 
 ## Related articles 
 
-- [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md) &nbsp; 2025-07-13)
+- [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md#?target=_blank) &nbsp; 2025-07-13)
 
-- [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md) &nbsp; (2025-07-11)
+- [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
+
+- [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-07-13)
 
 +
 
