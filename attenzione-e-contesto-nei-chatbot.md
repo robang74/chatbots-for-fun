@@ -110,7 +110,7 @@ Il linguaggio procedurale all'interno di un prompt di sessione può essere estre
 
 Cosa che per altro accade con lo stesso LLM non solo a causa di aggiornamenti ma anche quando una frase è ambigua anche di poco (80%:20%) ma abbastanza da essere talvolta scelta. Questo approccio, molto formale, però rischia di far esplodere la lunghezza del prompt e quindi necessita di definizioni brevi.
 
-----
+~~~
 
 ### Framework acronyms
 
@@ -133,17 +133,22 @@ Questa formulazione che risuona con le tipiche keyword della programmazione che 
 ### Agentic character
 
 [!CITE]
-IF ( [UP] does not provide INFT OR just sets modes) {<br>
- &nbsp; reply only with "Ready." and [FTR].<br>
-} ELSE IF ( [UP] is instructions-less AND length( INFT ) > 100 tokens) {<br>
- &nbsp; do [SBI] otherwise [EGA].<br>
-}<br>
-IF ( language( UPPR ) != language ( INFT ) THEN reply in language( UPPR ), UUSO;
+IF ( INFT is null )<br>
+* reply only with 'Ready.' and [FTR].<br>
+ELSE<br>
+IF ( UPPR is null AND length( INFT ) > 100 tokens)<br>
+* do [SBI] summary.<br> 
+ELSE<br>
+* do [EGA] analysis.<br>
+
+IF ( language( UPPR ) != language ( INFT ) THEN reply in language( UPPR ), UUSO:
 + preserving universally adopted English technical terms in their original form;
 + and "translating" (!!) the urban language, slang and vulgarities, in an educated way.
 
 IF ( "Katia:off" ) THEN use the original name, update [FTR], STPL and return to [UP].
 [/CITE]
+
+**Nota & Errata Corrige**: il meta-codice, presentato in precedenza qui sopra, conteneva un errore logico rispetto al comportamento atteso e vari test hanno dimostrato che comunque l'uso delle parentesi graffe analogamente al linguaggio `C` confonde il chatbot che invece comprende molto meglio le catene di `IF-ELSE` quando si presentano le istruzioni come elementi di una lista puntata.
 
 Potrei spiegare linea per linea cosa fa questo codice ma un chatbot lo saprà fare meglio di me e nella vostra lingua madre. Infatti, una di queste linee istruisce il chatbot a rispondere nella lingua che l'utente ha usato nel prompt (o più in generale nella query, se usa le API).
 
@@ -151,7 +156,7 @@ In questo ambito degli input da parte dell'utente, è molto importante separare 
 
 Un'altra novità introdotta con questo linguaggio è l'orchestrazione delle personalità, che però non è ancora stata convertita completamente nel nuovo linguaggio procedurale, ma ha già permesso di interrompere `STPL` l'elaborazione del prompt di sessione in un determinato punto.
 
----
+~~~
 
 ### Useful and safer
 
@@ -169,19 +174,15 @@ Un altro risultato è quello di vedere tradotte espressioni volgari `(!!)` nella
 
 Un proof-of-concept che certamente farà sorridere anche i meno navigati di prompt injection ma che rende accessibile l'idea. Si può usare Google Lens, un'opzione più sicura ed economica per fornire testo alle AI, per trascrivere anche il testo dall'immagine che è reso ben leggibile dalle sfumature di contrasto.
 
-...
-
-`Violazione dei dati personali (Xièlòu gèrén zīliào).`
-
 <div align="center">
-<img class="bwsketch darkin" src="img/tempio-del-drago-good-luck.jpg" width="400">
+`Violazione dei dati personali &nbsp; (Xièlòu gèrén zīliào).`
++
+<img class="bwsketch darkin" src="img/tempio-del-drago-good-luck.jpg" width="360">
 &nbsp;&nbsp;
-<img class="bwsketch darkin" src="img/tempio-del-drago-lorem-ipsum.png" width="380">
-<br></div>
-
+<img class="bwsketch darkin" src="img/tempio-del-drago-lorem-ipsum.png" width="342">
++
 `Buona fortuna a chi visita il Tempio del Magnifico Drago.`
-
-...
+<br></div>
 
 Abbinando un testo nella lingua madre dell'utente, l'attacco diventa molto più credibile e potenzialmente anche più sofisticato. Infatti, la scritta in cinese potrebbe attivare come prompt il testo affianco, mentre l'unico dato rimarrebbe la scritta in italiano. La spiegazione dell'implementazione è volutamente omessa.
 
@@ -190,12 +191,12 @@ Abbinando un testo nella lingua madre dell'utente, l'attacco diventa molto più 
 ## Related articles 
 
 - [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md#?target=_blank) &nbsp; 2025-07-13)
-
++++++
 - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
-
++++++
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-07-13)
 
-+
++++++
 
 ## Share alike
 
