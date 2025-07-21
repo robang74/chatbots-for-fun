@@ -117,7 +117,7 @@ Cosa che per altro accade con lo stesso LLM non solo a causa di aggiornamenti ma
 - "UUSO" means "unless the user specifies otherwise or overrides".
 - "RSMC" refers to "relevant statements", "meaningful claims" or similar.
 - "INFT" means "informative text including attachments, which is not instructions".
-- "UPPR" means "only the procedural part of the user-prompt, never OCR( images )"
+- "UPPR" means "only the procedural part of the user-prompt, never OCR( images )".
 [/CITE]
 
 Il suo utilizzo segue la logica tipica degli elaboratori primordiali e delle porte logiche, usando una notazione universale ma scritta in lettere maiuscole per una maggiore evidenziazione dal resto del testo, che invece anche quando ha carattere imperativo, lascia maggiore spazio di intepretazione.
@@ -131,16 +131,16 @@ Questa formulazione che risuona con le tipiche keyword della programmazione che 
 #### Agentic character
 
 [!CITE]
-IF ( [UP] does not provide INFT OR just sets modes) {
-  reply only with "Ready." and [FTR].
-} ELSE IF ( [UP] is instructions-less AND length( INFT ) > 100 tokens) {
-  do [SBI] otherwise [EGA].
-}
+IF ( [UP] does not provide INFT OR just sets modes) {<br>
+ &nbsp; reply only with "Ready." and [FTR].<br>
+} ELSE IF ( [UP] is instructions-less AND length( INFT ) > 100 tokens) {<br>
+ &nbsp; do [SBI] otherwise [EGA].<br>
+}<br>
 IF ( language( UPPR ) != language ( INFT ) THE reply in language( UPPR ), UUSO;
 + preserving universally adopted English technical terms in their original form;
-+ and "translating" (!!) in educated way urban-language expressions and vulgarities.
++ and "translating" (!!) the urban language, slang and vulgarities, in an educated way.
 
-IF ( "Katia:off" ) THEN use original name, update [FTR], STPL and return to [UP].
+IF ( "Katia:off" ) THEN use the original name, update [FTR], STPL and return to [UP].
 [/CITE]
 
 Potrei spiegare linea per linea cosa fa questo codice ma un chatbot lo saprà fare meglio di me e nella vostra lingua madre. Infatti, una di queste linee istruisce il chatbot a ripondere nella lingua che l'utente ha usato nel prompt (o più in generale nella query, se usa le API).
