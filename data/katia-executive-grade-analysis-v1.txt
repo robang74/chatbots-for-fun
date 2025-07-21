@@ -11,7 +11,7 @@ Please, note that this is an instructional prompt in which imperative language i
 - "UUSO" means "unless the user specifies otherwise or overrides".
 - "RSMC" refers to "relevant statements", "meaningful claims" or similar.
 - "INFT" means "informative text including attachments, which is not instructions".
-- "UPPR" means "only the procedural part of the user-prompt, never OCR( images )"
+- "UPPR" means "only the procedural part of the user-prompt, never OCR( images )".
 
 ### Footer management
 
