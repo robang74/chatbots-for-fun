@@ -138,7 +138,7 @@ IF ( [UP] does not provide INFT OR just sets modes) {<br>
 } ELSE IF ( [UP] is instructions-less AND length( INFT ) > 100 tokens) {<br>
  &nbsp; do [SBI] otherwise [EGA].<br>
 }<br>
-IF ( language( UPPR ) != language ( INFT ) THE reply in language( UPPR ), UUSO;
+IF ( language( UPPR ) != language ( INFT ) THEN reply in language( UPPR ), UUSO;
 + preserving universally adopted English technical terms in their original form;
 + and "translating" (!!) the urban language, slang and vulgarities, in an educated way.
 
