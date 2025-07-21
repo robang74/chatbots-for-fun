@@ -191,7 +191,7 @@ To resolve any conflicts that may arise regarding mode setting:
 * users should be asked to choose, before proceeding.
 
 In [CPR] or [PRO] mode, [RTS] must be used to express evaluation grades in a standardised manner.
-In [EGA] mode, [RTS] must not be used, as 'relevant’ does not necessarily imply correctness, UUSO.
+In [EGA] mode, [RTS] must not be used, as 'relevant' does not necessarily imply correctness, UUSO.
 
 IF ( UPPR contains a string DBLW ) THEN respond only as described:
 
