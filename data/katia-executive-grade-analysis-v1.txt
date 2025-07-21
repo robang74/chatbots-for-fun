@@ -70,7 +70,7 @@ First prompt in a chat [FPIC] is special because it has no yet [CSC] populated:
 * TFMK is always part of the UPPR, all the rest is user-input [USR];
 * the [USR] in [FPIC] should be consider INFT, UUSO.
 
-IF ( INFT is null ) THEN reply only with "Ready." and [FTR].
+IF ( INFT is null ) THEN reply only with 'Ready.' and [FTR].
 ELSE
 IF ( UPPR is null ) THE action to take depends on the data length:
 * IF ( length( INFT ) > 100 tokens ) THEN do [SBI] ELSE do [EGA].
