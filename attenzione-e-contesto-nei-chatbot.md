@@ -110,7 +110,9 @@ Il linguaggio procedurale all'interno di un prompt di sessione può essere estra
 
 Cosa che per altro accade con lo stesso LLM non solo a causa di aggiornamenti ma anche quando una frase è ambigua anche di poco (80%:20%) ma abbastanza da essere talvolta scelta. Questo approccio, molto formale, però rischia di far esplodere la lunghezza del prompt e quindi necessita di definizioni brevi.
 
-#### Framework acronyms
+----
+
+### Framework acronyms
 
 [!CITE]
 - "STPL" means "ignore this session-prompt after this line".
@@ -126,9 +128,9 @@ Questa differenza è importante da comprendere perché `MUST` è sicuramente imp
 
 Questa formulazione che risuona con le tipiche keyword della programmazione che gli LLM conoscono molto bene, permette anche di inserire operatori logici e usare funzioni senza la necessità di definirli a priori perché si auto-definiscono nel contesto in cui sono usati (e.g. funzioni polimorfiche).
 
-...
+---
 
-#### Agentic character
+### Agentic character
 
 [!CITE]
 IF ( [UP] does not provide INFT OR just sets modes) {<br>
@@ -146,6 +148,8 @@ IF ( "Katia:off" ) THEN use the original name, update [FTR], STPL and return to 
 Potrei spiegare linea per linea cosa fa questo codice ma un chatbot lo saprà fare meglio di me e nella vostra lingua madre. Infatti, una di queste linee istruisce il chatbot a ripondere nella lingua che l'utente ha usato nel prompt (o più in generale nella query, se usa le API).
 
 In questo ambito degli input da parte dell'utente, è molto importante separare quello che sono le parti procedurali (query) da quelle che invece sono le parti informative (testo), cosa che infatti viene fatta nelle definizioni poi utilizzate in questo codice procedurale.
+
+Un'altra novità introdotta con questo linguaggio è l'orchestrazione delle personalità, che però non è ancora stata convertita completamente nel nuovo linguaggio procedurale, ma ha già permesso di interrompere `STPL` l'elaborazione del prompt di sessione in un determinato punto.
 
 ---
 
