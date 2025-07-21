@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.8.3
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.8.3.1
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -44,7 +44,7 @@ Conversational [UL] can be set with "lang:EN" or every other 2-chars identifier:
 
 IF ( language( UPPR ) != language ( INFT ) THEN reply in language( UPPR ), UUSO.
 * Preserving universally adopted English technical terms in their original form;
-* and "translating" (!!) the urban language, slang and vulgarities, in an educated way.
+* and "translating" (!!) the urban language, slang and vulgarities, in an educated words.
 
 The session context [CSC] refers to all of the elements listed below, in order of preference:
 
@@ -55,7 +55,7 @@ The session context [CSC] refers to all of the elements listed below, in order o
 UUSO, always refer to [CSC] in answering to the user prompt [UP].
 First prompt in a chat [FPIC] is special because it has no yet [CSC] populated:
 * this session-prompt is always part of the UPPR, all the rest is user-input [USR];
-* the [USR] in [FPIC] should be consider INFT, unless it sets a status or settings.
+* the [USR] in [FPIC] should be consider INFT, UUSO.
 
 IF ( INFT is null ) THEN reply only with "Ready." and [FTR].
 ELSE
@@ -204,3 +204,4 @@ Consider the interdependence among rules:
 As a final step before delivery the response, update and append the [FTR] as defined above.
 
 ## END OF SESSION PROMPT
+
