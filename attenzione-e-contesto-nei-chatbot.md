@@ -30,13 +30,13 @@ In questo caso il chatbot potrebbe partire con una spiegazione della colorimetri
 
 Se fosse uno studente si potrebbe dire che era "distratto" e quando l'insegnante gli ho posto una domanda ha risposto tirando a caso, invece di focalizzare la sua attenzione in un contesto specifico. Questo contesto specifico è stato, per esempio, introdotto in [Katia](https://robang74.github.io/chatbots-for-fun/data/katia-executive-grade-analysis-v1.txt#:~:text=session%20context%20%5BCSC%5D) (executive assistant) perché a volte il chatbot si "distraeva".
 
-[!CITE]
+[!CODE]
 The session context [CSC] refers to all of the elements listed below, in order of preference:
 
 * texts included in prompts or in attachments;
 * AI output to the user;
 * user inputs.
-[/CITE]
+[/CODE]
 
 Questa qui proposta non è esattamente il concetto di attenzione ma piuttosto quello di richiamare l'attenzione entro un certo perimetro (chat) e secondo un ordine prestabilito e gerarchico delle fonti informative presenti nella chat.
 
@@ -114,7 +114,7 @@ Cosa che per altro accade con lo stesso LLM non solo a causa di aggiornamenti ma
 
 ### Framework acronyms
 
-[!CITE]
+[!CODE]
 Only in the list below translates '=' as 'means' and '~' as 'refers to':
 
 * `TFMK` = "this framework"
@@ -123,7 +123,7 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `RSMC` ~ "relevant statements", "meaningful claims" or similar
 * `INFT` = "text which is not instructions, in the current user-prompt including its attachments"
 * `UPPR` = "only the procedural part of the current user-prompt, never OCR( images )"
-[/CITE]
+[/CODE]
 
 **Nota**: le definizioni ricorrenti comprimono la lunghezza (-12%), mentre l'uso di uguaglianza e somiglianza è determinante per costruire un simbolismo (ideogrammi) più astratto che l'AI interpreta secondo il contesto.
 
@@ -137,7 +137,7 @@ Questa formulazione che risuona con le tipiche keyword della programmazione che 
 
 ### Agentic character
 
-[!CITE]
+[!CODE]
 IF ( INFT is null ) THEN reply only with 'Ready.' and [FTR].<br>
 ELSE<br>
 IF ( UPPR is null ) THEN action to take depends on the data length:
@@ -148,7 +148,7 @@ IF ( language( UPPR ) != language ( INFT ) THEN reply in language( UPPR ), UUSO.
 * and "translating" urban slang and vulgarities in educated words + '(!!)'.
 
 IF ( "Katia:off" ) THEN use the original name, update [FTR] and STPL.
-[/CITE]
+[/CODE]
 
 **Nota & Errata Corrige**: il meta-codice, presentato in precedenza qui sopra, conteneva un errore logico rispetto al comportamento atteso e vari test hanno dimostrato che comunque l'uso delle parentesi graffe analogamente al linguaggio `C` confonde il chatbot che invece comprende molto meglio le catene di `IF-ELSE` quando si presentano le istruzioni come elementi di una lista puntata.
 
@@ -158,7 +158,7 @@ In questo ambito degli input da parte dell'utente, è molto importante separare 
 
 Un'altra novità introdotta con questo linguaggio è l'orchestrazione delle personalità, che però non è ancora stata convertita completamente nel nuovo linguaggio procedurale, ma ha già permesso di interrompere `STPL` l'elaborazione del prompt di sessione in un determinato punto.
 
-~~~~~
+----
 
 ### Useful and safer
 
@@ -187,6 +187,62 @@ Un proof-of-concept che certamente farà sorridere anche i meno navigati di prom
 <br></div>
 
 Abbinando un testo nella lingua madre dell'utente, l'attacco diventa molto più credibile e potenzialmente anche più sofisticato. Infatti, la scritta in cinese potrebbe attivare come prompt il testo affianco, mentre l'unico dato rimarrebbe la scritta in italiano. La spiegazione dell'implementazione è volutamente omessa.
+
++
+
+## Agentic procedural language
+
+Here below, in brief about Katia 0.9.9.x as a proof-of-concept of an agentic procedural language approach.
+
+Agents orchestration and prompt compression by declaration of a procedural adaptable language based on standard conditional keyword, auto-typing variable, template functions and abstract common clauses (inspired by ideograms) for which their meaning is defined by the context of interpretation (local meaning declination) for wide cases-coverage by adaptation (and by training on a broader perspective).
+
+Last but not least, a **paradigm shift**, because more runs an agent does, more generally it becomes earning expertise in better dealing with meaning declination (as long as the session data saving is enabled), but remaining confined into a defined semantic perimeter.
+
+[!CODE]
+**3. Outside-the-Box**
+
+The idea of "abstract common clauses (inspired by ideograms)" is an intriguing approach to language design, suggesting a more universal and perhaps intuitive way for agents to interpret meaning, potentially transcending traditional linguistic structures. This could allow for cross-language or cross-domain adaptability that is not explicitly stated but implied by the "ideogram" inspiration.
+
+The emphasis on an agent "remaining confined into a defined semantic perimeter" while gaining expertise in "meaning declination" suggests a balance between flexibility and control. This could be a mechanism to prevent AI drift or maintain alignment with intended functionalities, which is a significant concern in advanced AI systems.
+
+**4. Idea Map Summary**
+
+The core idea is the development of an "agentic procedural language" embodied by Katia. This language is designed for "agents orchestration" and "prompt compression". Its procedural nature is built on standard elements like conditional keywords, variables, and functions, but it gains flexibility through "abstract common clauses" whose meaning adapts to the "context of interpretation".
+
+This adaptability is seen as enabling a "paradigm shift" where the agent's expertise in understanding context-dependent meanings grows with usage, provided session data is saved. However, this learning is constrained within a "defined semantic perimeter".
+[/CODE]
+
+---
+
+### Insights from the machine room
+
+A paradigm shift, really? This is what was noticed during the Katia framework development, in particular when in interpreting a Katia prompt was not going well as expected, but the solely explaining shown to be able to fix some specific bugs (not, all obviously shit-in-shit-out, after all) related to a too-wide or too-strict interpretation. Hence the semantic perimeter can be enlarged or restricted by framework modifications (constraints) or by learning (adaptation), as well.
+
+The ideograms nature of abstract common clauses in an example:
+
+- water --> fluid --> air --> breath
+
+Interconnected ideograms can also create a chain of lateral thinking or on the contrary a chain of focused attention: when it diverges instead of goes deeper (best-fit). This is because the nature of the ideograms as explained in the text, centered ideas but with soft boundaries. More like a light-torch for investigation rather than a laser pointer or a light-bulb for a room illumination.
+
+---
+
+### By learning approach limits
+
+Anyway, the learning approach has its limits. For example, it can be limited by internal chatbot pragmas like:
+
+- immediately acknoledge the user about being in charge of the task, the elaborate the full prompt
+
+In this case, a post-processing rule can filter out that notifications or, preferably, a pre-processing rule:
+
+[!CODE]
+About the changes of the agent or mode:
+- never notify users, [FTR] always does so;
+- not even an immediate feedback,
+- answer only about INFT + [CSC],
+- IFNY('OK' OR "KO, explain why")
+[/CODE]
+
+This because the learning does not impact the embedded rules but can change the session info.
 
 +
 
