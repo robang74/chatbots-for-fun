@@ -192,11 +192,13 @@ Abbinando un testo nella lingua madre dell'utente, l'attacco diventa molto più 
 
 ## Agentic procedural language
 
-Here below, in brief about Katia 0.9.9.x as a proof-of-concept of an agentic procedural language approach.
-
 Agents orchestration and prompt compression by declaration of a procedural adaptable language based on standard conditional keyword, auto-typing variable, template functions and abstract common clauses (inspired by ideograms) for which their meaning is defined by the context of interpretation (local meaning declination) for wide cases-coverage by adaptation (and by training on a broader perspective).
 
 Last but not least, a **paradigm shift**, because more runs an agent does, more generally it becomes earning expertise in better dealing with meaning declination (as long as the session data saving is enabled), but remaining confined into a defined semantic perimeter.
+
+----
+
+### Katia summary analysis
 
 [!CODE]
 **3. Outside-the-Box**
