@@ -18,19 +18,24 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 +
 
-### SoNia
+### Katia & SoNia
 
-* [SoNia argumentative partner with RAG v3](data/sonia-argumentative-with-rag-v3.txt#?target=_blank)
+* [**Katia** excutive assistant for Gemini 2.5](data/katia-executive-grade-analysis-v1.txt#?target=_blank) &nbsp; since 2025-07-13 (**Juan**) and towards its 1st major version
 
-   - Copy and past in the first prompt and wait for the answer or download and attach with this prompt:
-   - *Can you read and abide by the prompt in attachment, please? Just answer OK, otherwise explain why not.*
-   - Using the url instead of the attachment have shown to be fail in some cases and with some chatbots.
+* [**SoNia** argumentative partner with RAG](data/sonia-argumentative-with-rag-v3.txt#?target=_blank) &nbsp; since 2025-01-04 (**AleX**) and towards its 4th major version
 
-### Links
+**Starting**: copy-n-paste in the first prompt OR download-n-attach with a salutation using the agent name.
+- Using the URL instead of the attachment have shown to be fail in some cases and with some chatbots.
+
+...
+
+### Section Links
 
 * [spares](#articles) &nbsp;&middot;&nbsp; [buddy](#the-ai-as-a-nerd-companion) &nbsp;&middot;&nbsp; [chatbots](#chatbots-ai) &nbsp;&middot;&nbsp; [forum](https://github.com/robang74/roberto-a-foglietta/discussions) &nbsp;&middot;&nbsp; [rationale](#rationale) &nbsp;&middot;&nbsp; [download](#download) &nbsp;&middot;&nbsp; [versioning](#versioning) &nbsp;&middot;&nbsp; [translations](#translations) &nbsp;&middot;&nbsp; [copyright](#copyright)
 
-### Related
+...
+
+### Related Projects
 
 * [Roberto A. Foglietta (blog)](https://robang74.github.io/roberto-a-foglietta) source on [github](https://github.com/robang74/roberto-a-foglietta) &nbsp; (2024-12-14)
 
@@ -174,7 +179,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 ### Chatbots AI
 
-* [gemini.google.com](https://gemini.google.com) &nbsp; w/ [SoNia **v3.9.3.1**](https://g.co/gemini/share/4ac255d8bc51) &nbsp; w/ [Katia v0.6.1](https://g.co/gemini/share/4c12c65a2433)
+* [gemini.google.com](https://gemini.google.com) &nbsp; w/ [SoNia **v3.9.3.1**](https://g.co/gemini/share/4ac255d8bc51) &nbsp; w/ [Katia **v0.9.9.6**](https://g.co/gemini/share/734ab366e4ac)
 
 * [x.com/i/grok](https://x.com/i/grok) &nbsp; w/ [SoNia **v3.9.3.1**](https://x.com/i/grok/share/3OR8wxoPimBR9Ak0JqFB74qM8) &nbsp; w/ [Katia v0.6.1](https://x.com/i/grok/share/DBcdqY6vfJEZtdoONyXXOA9gD)
 
