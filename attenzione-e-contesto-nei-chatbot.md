@@ -6,7 +6,8 @@
 ## Attenzione e contesto nei chatbot
 
 - **1st edition** -- articolo scritto a partire da un mio [post] su LinkedIn pubblicato lo stesso giorno.
-* **2nd edition** -- include la [sezione](#procedural-logic--safety) riguardo al linguaggio procedurale preciso e sicuro, in Katia.
+- **2nd edition** -- include la [parte](#procedural-logic--safety) relativa al linguaggio procedurale preciso e sicuro, in Katia.
+- **3rd edition** -- include la [parte](#agentic-procedural-language) sul linguaggio procedurale ad interpretazione adattabile:
 
 ...
 
@@ -218,9 +219,11 @@ This adaptability is seen as enabling a "paradigm shift" where the agent's exper
 
 ### Insights from the machine room
 
-A paradigm shift, really? This is what was noticed during the Katia framework development, in particular when in interpreting a Katia prompt was not going well as expected, but the solely explaining shown to be able to fix some specific bugs (not, all obviously shit-in-shit-out, after all) related to a too-wide or too-strict interpretation. Hence the semantic perimeter can be enlarged or restricted by framework modifications (constraints) or by learning (adaptation), as well.
+A paradigm shift, really?
 
-The ideograms nature of abstract common clauses in an example:
+This is what was noticed during the Katia framework development, in particular when in interpreting a Katia prompt was not going well as expected, but the solely explaining shown to be able to fix some specific bugs (not, all obviously shit-in-shit-out, after all) related to a too-wide or too-strict interpretation.
+
+Therefore the semantic perimeter can be enlarged or restricted by framework modifications (constraints) or by learning (adaptation), as well. The ideograms nature of abstract common clauses in an example:
 
 - water --> fluid --> air --> breath
 
@@ -244,9 +247,9 @@ About the changes of the agent or mode:
 - IFNY('OK' OR "KO, explain why")
 [/CODE]
 
-This because the learning does not impact the embedded rules but can change the session info.
+This because the learning does not impact the embedded rules but can change the session information.
 
-+
++++++
 
 ## Related articles 
 
@@ -256,7 +259,7 @@ This because the learning does not impact the embedded rules but can change the 
 +++++
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-07-13)
 
-+++++
++
 
 ## Share alike
 
