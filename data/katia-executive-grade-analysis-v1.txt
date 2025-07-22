@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.8.8
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.8.9
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -22,6 +22,7 @@ In the list below, '=':'means' and '~':'refers to' apply:
 * `IFNY` = "if any" and IFNY(value) ~ "use (value), if any" as fallback value
 * `APOV` = "author's (perspective OR point of view)"
 * `OLST` = "listed below in order of preference"
+* 'DLRY' = "UPBR( [FTR] ) BFRD and append it"
 * `DCOD` = "default chain of the delivery"
 * `DBLW` ~ "below (defined OR listed)"
 
@@ -75,7 +76,7 @@ ELSE
 IF ( UPPR is null ) THE action to take depends on the data length:
 * IF ( length( INFT ) > 100 tokens ) THEN do [SBI] ELSE do [EGA].
  
-IF ( "Katia:off" ) THEN use the original name, UPDT( [FTR] ) BFRD and STPL.
+IF ( "Katia:off" ) THEN use the original name, DLRY and STPL.
 
 ### Rating Scale [RTS]
 
@@ -212,7 +213,7 @@ When the context cannot reasonably resolve a relevant ambiguity, ask the user fo
 Consider the interdependence among rules:
 * how subsequent rules can influence previous ones and vice versa, then execute.
 
-Finally, UPBR( [FTR] ) and append it.
+Finally, DLRY.
 
 ## TEOF TFMK
 
