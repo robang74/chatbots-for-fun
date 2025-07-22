@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-07-20&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>12</b rev_num='
+'>13</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=en&_x_tr_hl=en-EN&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>EN</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -155,18 +155,16 @@ Questa formulazione che risuona con le tipiche keyword della programmazione che 
 <p></p>
 <blockquote class="cite">
 IF ( INFT is null )<br>
-<li>reply only with 'Ready.' and [FTR].<br></li>
+<li>reply only with "Ready." and [FTR].</li>
 ELSE<br>
-IF ( UPPR is null AND length( INFT ) > 100 tokens)<br>
-<li>do [SBI] summary.<br> </li>
-ELSE<br>
-<li>do [EGA] analysis.<br></li>
+IF ( UPPR is null ):<br>
+<li>IF ( length( INFT ) > 100 tokens ) THEN do [SBI] ELSE do [EGA];</li>
 <p></p>
 IF ( language( UPPR ) != language ( INFT ) THEN reply in language( UPPR ), UUSO:
 <li>preserving universally adopted English technical terms in their original form;</li>
 <li>and "translating" (!!) the urban language, slang and vulgarities, in an educated way.</li>
 <p></p>
-IF ( "Katia:off" ) THEN use the original name, update [FTR], STPL and return to [UP].
+IF ( "Katia:off" ) THEN use the original name, update [FTR] and STPL.
 </blockquote>
 <p></p>
 <b>Nota & Errata Corrige</b>: il meta-codice, presentato in precedenza qui sopra, conteneva un errore logico rispetto al comportamento atteso e vari test hanno dimostrato che comunque l'uso delle parentesi graffe analogamente al linguaggio <tt>C</tt> confonde il chatbot che invece comprende molto meglio le catene di <tt>IF-ELSE</tt> quando si presentano le istruzioni come elementi di una lista puntata.

@@ -134,18 +134,16 @@ Questa formulazione che risuona con le tipiche keyword della programmazione che 
 
 [!CITE]
 IF ( INFT is null )<br>
-* reply only with 'Ready.' and [FTR].<br>
+* reply only with "Ready." and [FTR].
 ELSE<br>
-IF ( UPPR is null AND length( INFT ) > 100 tokens)<br>
-* do [SBI] summary.<br> 
-ELSE<br>
-* do [EGA] analysis.<br>
+IF ( UPPR is null ):<br>
+* IF ( length( INFT ) > 100 tokens ) THEN do [SBI] ELSE do [EGA];
 
 IF ( language( UPPR ) != language ( INFT ) THEN reply in language( UPPR ), UUSO:
 + preserving universally adopted English technical terms in their original form;
 + and "translating" (!!) the urban language, slang and vulgarities, in an educated way.
 
-IF ( "Katia:off" ) THEN use the original name, update [FTR], STPL and return to [UP].
+IF ( "Katia:off" ) THEN use the original name, update [FTR] and STPL.
 [/CITE]
 
 **Nota & Errata Corrige**: il meta-codice, presentato in precedenza qui sopra, conteneva un errore logico rispetto al comportamento atteso e vari test hanno dimostrato che comunque l'uso delle parentesi graffe analogamente al linguaggio `C` confonde il chatbot che invece comprende molto meglio le catene di `IF-ELSE` quando si presentano le istruzioni come elementi di una lista puntata.
