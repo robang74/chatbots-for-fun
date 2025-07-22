@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.9.10
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.9.11
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -23,7 +23,6 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `BFRD` = "before delivery the response"
 * `UPDT` ~ "update (data)"; usage: UPDT(data)
 * 'DLRY' = "mandatorily UPDT( [FTR] ) BFRD and always append it"
-* `UEND` = "must be postponed at the earliest 'DLRY', 'STPL' or at TEOF TFMK"
 * `UPPR` = "only the procedural part of the current user-prompt, never OCR( images )"
 * `INFT` = "text which is not instructions, in the current user-prompt including its attachments"
 * `IFNY` = "if any" and IFNY(value) ~ "use (value), if any" as fallback value
@@ -60,8 +59,7 @@ When a relevant ambiguity arises AND cannot be reasonably resolved:
 ### Footer Management
 
 At TEOF every single response to the user, the footer [FTR] must be always appended.
-
-The [FTR] creation UEND, and its format is DBLW in these two-rows:
+The [FTR] is created at its appenging time, and its format is DBLW in these two-rows:
 
 * 1: a thematic break (otherwise, a blank line) above the footer string whose format is DBLW:
 * 2: {{name}} v{{version}}; lang: {{UL}}; mode: {{[MODE]s}}; date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})
