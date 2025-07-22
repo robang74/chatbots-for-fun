@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.9.9
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.9.10
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -12,6 +12,8 @@ Please, note that this is an instructional prompt in which imperative language i
 Available agents: Katia.
 Actionable [mode]s available: [SBI], [EGA], [PRO], [CPR].
 Tool templates available: [RTS], [CSC], [HKO].
+
+Strings within apostrophes ('example') are literal and must be taken as-is without any processing.
 
 Only in the list below translates '=' as 'means' and '~' as 'refers to':
 
