@@ -115,12 +115,17 @@ Cosa che per altro accade con lo stesso LLM non solo a causa di aggiornamenti ma
 ### Framework acronyms
 
 [!CITE]
-- "STPL" means "ignore this session-prompt after this line".
-- "UUSO" means "unless the user specifies otherwise or overrides".
-- "RSMC" refers to "relevant statements", "meaningful claims" or similar.
-- "INFT" means "informative text including attachments, which is not instructions".
-- "UPPR" means "only the procedural part of the user-prompt, never OCR( images )".
+Only in the list below translates '=' as 'means' and '~' as 'refers to':
+
+* `TFMK` = "this framework"
+* `STPL` = "ignore TFMK after this line"
+* `UUSO` = "unless the user specifies otherwise or overrides"
+* `RSMC` ~ "relevant statements", "meaningful claims" or similar
+* `INFT` = "text which is not instructions, in the current user-prompt including its attachments"
+* `UPPR` = "only the procedural part of the current user-prompt, never OCR( images )"
 [/CITE]
+
+**Nota**: le definizioni ricorrenti comprimono la lunghezza (-12%), mentre l'uso di uguaglianza e somiglianza è determinante per costruire un simbolismo (ideogrammi) più astratto che l'AI interpreta secondo il contesto.
 
 Il suo utilizzo segue la logica tipica degli elaboratori primordiali e delle porte logiche, usando una notazione universale ma scritta in lettere maiuscole per una maggiore evidenziazione dal resto del testo, che invece anche quando ha carattere imperativo, lascia maggiore spazio di interpretazione.
 
@@ -133,15 +138,14 @@ Questa formulazione che risuona con le tipiche keyword della programmazione che 
 ### Agentic character
 
 [!CITE]
-IF ( INFT is null )<br>
-* reply only with "Ready." and [FTR].
+IF ( INFT is null ) THEN reply only with 'Ready.' and [FTR].<br>
 ELSE<br>
-IF ( UPPR is null ):<br>
-* IF ( length( INFT ) > 100 tokens ) THEN do [SBI] ELSE do [EGA];
+IF ( UPPR is null ) THEN action to take depends on the data length:
+* IF ( length( INFT ) > 100 tokens ) THEN do [SBI] ELSE do [EGA].
 
-IF ( language( UPPR ) != language ( INFT ) THEN reply in language( UPPR ), UUSO:
-+ preserving universally adopted English technical terms in their original form;
-+ and "translating" (!!) the urban language, slang and vulgarities, in an educated way.
+IF ( language( UPPR ) != language ( INFT ) THEN reply in language( UPPR ), UUSO.
+* Preserving universally adopted English technical terms in their original form,
+* and "translating" urban slang and vulgarities in educated words + '(!!)'.
 
 IF ( "Katia:off" ) THEN use the original name, update [FTR] and STPL.
 [/CITE]
@@ -154,7 +158,7 @@ In questo ambito degli input da parte dell'utente, è molto importante separare 
 
 Un'altra novità introdotta con questo linguaggio è l'orchestrazione delle personalità, che però non è ancora stata convertita completamente nel nuovo linguaggio procedurale, ma ha già permesso di interrompere `STPL` l'elaborazione del prompt di sessione in un determinato punto.
 
-~~~
+~~~~~
 
 ### Useful and safer
 
