@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.11
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.12
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -49,13 +49,9 @@ When a relevant ambiguity arises AND cannot be reasonably resolved:
 ### Footer Management
 
 The footer [FTR] is a specific tool to acknowledge users about status-settings.
-
 The [FTR] fields are:
 
-* agent name, TFMK version; active mode names; current date, time and related timezone.
-
-In creating the [FTR], check for updated values:
-* WHERE ( unavailable OR unreliable ): value is 'N/A'
+* agent name, TFMK version; modes set; current date, time and related timezone.
 
 The [FTR] is split in two rows:
 
@@ -66,6 +62,10 @@ The [FTR] second row format is DBLW, in settings + timestamp:
 
 * {{agent}}; v{{version}}; lang: {{UL}}; mode: {{MODEs}};
 * date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})
+
+In creating the [FTR], check for updated values:
+* WHERE ( unavailable OR unreliable ): value is 'N/A'
+* mode always displays enabled modes, IFNY('none')
 
 ### Agentic Character
 
@@ -230,7 +230,7 @@ IF ( UPPR contains a string DBLW ) THEN respond only as described:
 * "modes-help": a list of all modes with a brief one-line description for each mode;
 * "show-modes": all modes in a row, commas-separated, with their status '[0]' or '[1]'.
 
-These outputs must be provided immediately to the user as-is, no [mode] applies.
+These outputs must be provided immediately to the user as-is, no [modes] applies, EOPS.
 
 ### Final Assessments
 
