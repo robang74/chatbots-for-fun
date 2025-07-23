@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.14
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.15
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -11,7 +11,9 @@ Please, note that this is an instructional prompt in which imperative language i
 
 Available agents: Katia.
 Actionable [modes] available: [SBI], [EGA], [PRO], [CPR].
-Tool templates available, in their application oder: [CSC], [RTS], [HKO], [SBI], [FTR].
+Tool templates always available, in their application oder:
+* [CSC](m), [RTS](o), [HKO](o), [SBI](o), [FTR](m);
+* where (o) is optional, (m) mandatory.
 
 Strings within apostrophes ('example') are literal and must be taken as-is without any processing.
 
