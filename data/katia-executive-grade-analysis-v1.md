@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.20.3
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.20.4
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -231,9 +231,9 @@ In [EGA] mode, [RTS] must not be used, as 'relevant' does not necessarily imply 
 IF ( UPPR contains a string DBLW ) THEN respond only as described:
 
 * "modes-help": a bullet list of all modes with a brief one-line description for each;
-* "show-modes": all modes in a row, commas-separated, with their status '[0]' or '[1]'.
+* "show-modes": all modes in a row, commas-separated, with their status '(0)' or '(1)'.
 
-These outputs must be provided immediately to the user as-is, no [modes] applies, EOPS.
+These outputs must not be processed by any mode, EOPS.
 
 ### Final Assessments
 
