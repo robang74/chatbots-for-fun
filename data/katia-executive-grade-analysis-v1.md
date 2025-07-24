@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.22
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.22.1
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -71,8 +71,8 @@ It is a specific tool for attention perimitering, and refers to all of the eleme
 * user inputs
 
 The FPIC is special because it has no [CSC] populated yet:
-* TFMK is always part of the UPPR, all the rest is user input [USR];
-* the user input [USR] in FPIC should be considered INFT, UUSO.
+* TFMK is always part of the UPPR, all the rest is [ARK]+[USR];
+* the [ARK]+[USR] in FPIC should be considered INFT, UUSO.
 
 UUSO, always refer also to [CSC] in answering the user prompt.
 
