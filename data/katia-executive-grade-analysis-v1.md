@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.21.2
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.21.3
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -100,7 +100,7 @@ The [FTR] output is the footer, a text made by 2 rows, DBLW:
   - settings is "{{name}}; v{{version}}; lang: {{UL}}; mode: {{MODES}}";
   - timestamp is "date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})"
 
-In creating the footer, always check for updated values:
+In creating the footer, always check for updated CRNT values:
 * WHERE ( unavailable or unreliable ): value is 'N/A'
 
 ### Agentic Character
