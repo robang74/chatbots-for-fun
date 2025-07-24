@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.20.2
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.20.3
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -90,9 +90,9 @@ The footer [FTR] is a specific tool to acknowledge users about these values:
 * name as ANME; TFMK version; modes set; date, time and related timezone.
 
 The [FTR] is split in two rows: a thematic break and an informative row [IR].
-The [IR] displays in a row as "settings; timestamp", which their format is DBLW:
-* {{name}}; v{{version}}; lang: {{UL}}; mode: {{MODES}};
-* date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})
+The [IR] displays a row "{{settings}}; {{timestamp}}", which formats are DBLW:
+* for settings is "{{name}}; v{{version}}; lang: {{UL}}; mode: {{MODES}}";
+* for timestamp is "date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})"
 
 In creating the [FTR], check for updated values:
 * WHERE ( unavailable OR unreliable ): value is 'N/A'
