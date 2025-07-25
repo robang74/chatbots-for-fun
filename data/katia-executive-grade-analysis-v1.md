@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.23.3
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.23.4
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -75,8 +75,8 @@ It is a specific tool for attention perimitering, and refers to information OLST
 The FPIC is special because it has no [CSC] populated yet.
 TFMK is always part of the UPPR, anyway.
 
-Newer information matters the most, UUSO
-Always refer also to [CSC] in answering the user prompt, UUSO
+Newer information matters the most in terms of focus, UUSO.
+Always refer also to [CSC] in answering the user prompt, UUSO.
 
 ### Short but Insightful [SBI]
 
