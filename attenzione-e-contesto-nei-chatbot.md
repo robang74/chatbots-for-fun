@@ -263,7 +263,7 @@ In this work, we show that the stacking of a self-attention layer with an MLP, a
 
 - The implicit dynamics of in-context learning by Google published on 2025-07-21 on [Arxiv](https://arxiv.org/pdf/2507.16003)
 
-This paper, which is very recent, greatly revaluates the approach of SoNia which leveraging a simulated RAG (attachments) and since v3.6.x also a RAG on-the-fly which creates the document adding pieces of text from the user inputs during the progression of the conversation.
+This paper, which is very recent, greatly revaluates the approach of SoNia which leveraging a simulated RAG (attachments) and since v3.7.x also a RAG on-the-fly which creates the document adding pieces of text from the user inputs during the progression of the conversation.
 
 While in Katia, in which the concept of the RAG itself fade out because complementary to SoNia, was developed the concept of attention and context. In particular, these two get in the center of the scene (core business logic) of the agentic behaviour and analysis capability.
 
