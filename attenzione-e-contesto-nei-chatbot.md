@@ -255,21 +255,18 @@ This is because the learning does not impact the embedded rules but can change t
 ## Learning without training
 
 [!INFO]
+**The implicit dynamics of in-context learning, abstract**
+
 One of the most striking features of Large Language Models (LLM) is their ability to learn in context. Namely at inference time an LLM is able to learn new patterns
 without any additional weight update when these patterns are presented in the form of examples in the prompt, even if these patterns were not seen during training. The mechanisms through which this can happen are still largely unknown.
 
 In this work, we show that the stacking of a self-attention layer with an MLP, allows the transformer block to implicitly modify the weights of the MLP layer according to the context. We argue through theory and experimentation that this simple mechanism may be the reason why LLMs can learn in context and not only during training. Specifically, we show under mild simplifying assumptions how a transformer block implicitly transforms a context into a low-rank weight-update of the MLP layer.
 [/INFO]
+   - by Google researchers published on 2025-07-21 available from [Arxiv](https://arxiv.org/pdf/2507.16003)
 
-- The implicit dynamics of in-context learning by Google published on 2025-07-21 on [Arxiv](https://arxiv.org/pdf/2507.16003)
+This paper, which is very recent, greatly revaluates the approach of SoNia which leverages a simulated RAG (attachments) and since v3.7.x also a RAG on-the-fly which creates the document adding pieces of text from the user inputs during the progression of the conversation. While in Katia, in which the concept of the RAG itself faded out because complementary to SoNia, the concept of attention and context were developed further. In particular, these two get in the center of the scene (core business logic) of the agentic behaviour and analysis capability.
 
-This paper, which is very recent, greatly revaluates the approach of SoNia which leverages a simulated RAG (attachments) and since v3.7.x also a RAG on-the-fly which creates the document adding pieces of text from the user inputs during the progression of the conversation.
-
-While in Katia, in which the concept of the RAG itself faded out because complementary to SoNia, the concept of attention and context were developed further. In particular, these two get in the center of the scene (core business logic) of the agentic behaviour and analysis capability.
-
-Why does this paper greatly revaluate the SoNia and Katia approach to the context? Fundamentally because it was not obvious. In fact, the paper's abstract starts with "one of the most striking features of Large Language Models (LLM) is their ability to learn in context".
-
-Which is the reason because SoNia can learn from the human while it supports the human in the argumentations, while Katia can learn to be a personal assistant at executive level.
+Why does this paper greatly revaluate the SoNia and Katia approach to the context? Fundamentally because it was not obvious. In fact, the paper's abstract starts with "one of the most striking features of Large Language Models (LLM) is their ability to learn in context". Which is the reason because SoNia can learn from the human while it supports the human in the argumentations, while Katia can learn to be a personal assistant at executive level.
 
 ---
 
@@ -295,9 +292,7 @@ So, when the Google researchers are claiming the following, and in particular us
 
 > how a transformer block implicitly transforms a context into a low-rank weight-update of the MLP layer
 
-They are right but also implicitly transferring the wrong idea that "low-rank" also implies "light-impacting" which they state is not true, surprisingly, in fact.
-
-More surprisingly, low-ranking weights can restructure in a completely new way the training. At least, in a session. A restructuring that can extend to the whole account as long as the "take notes" function is active in that account. A restructuring that can extend to the whole AI engine, as long as the engine itself has the chance to "take notes" at system level.
+They are right but also implicitly transferring the wrong idea that "low-rank" also implies "light-impacting" which they state is not true, surprisingly, in fact. More surprisingly, low-ranking weights can restructure in a completely new way the training. At least, in a session. A restructuring that can extend to the whole account as long as the "take notes" function is active in that account. A restructuring that can extend to the whole AI engine, as long as the engine itself has the chance to "take notes" at system level.
 
 ---
 
@@ -323,7 +318,7 @@ Once an AI is exposed to the `[HKO]` module and learns how to use it processing 
 +++++
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-07-13)
 
-+++++
++
 
 ## Share alike
 
