@@ -76,7 +76,7 @@ La distinzione [presentata], tra lo scopo dei due prompt, è la chiave per compr
 Questa distinzione tra obiettivi esplicativi e argomentativi spiega perfettamente perché i loro meccanismi di attenzione sono strutturati in modi così diversi.
 [/CITE]
 
-Questo è un esempio di riassunto ottenuto tramite un elaborazione fatta di estranezione delle affermazioni rilevanti, analisi e riassunto delle stesse, ulteriore riassunto. Una sequenza operativa ormai consolidata.
+Questo è un esempio di riassunto ottenuto tramite un'elaborazione fatta di estraneazione delle affermazioni rilevanti, analisi e riassunto delle stesse, ulteriore riassunto. Una sequenza operativa ormai consolidata.
 
 In tutto, inclusa la correzione del testo originale per supplire ad un gap concettuale -- per me ovvio, ma giustamente per il lettore come per l'AI non è banale -- l'intero iter di processamento delle informazioni è durato 12 minuti, procedendo senza fretta.
 
@@ -108,7 +108,7 @@ Infine, considerando che Gemini 2.5 Flash, una risorsa abbondante per coloro che
 
 ## Procedural logic & safety
 
-Il linguaggio procedurale all'interno di un prompt di sessione può essere estremamente utile per limitare al minimo l'interpretazione delle istruzioni, in particolare è un passo avanti importante nella portabilità verso altri LLM che potrebbero dare al medesimo testo in lingua naturale una diversa interpretazione. 
+Il linguaggio procedurale all'interno di un prompt di sessione può essere estremamente utile per limitare al minimo l'interpretazione delle istruzioni, in particolare è un passo avanti importante nella portabilità verso altri LLM che potrebbero dare al medesimo testo in lingua naturale una diversa interpretazione. 
 
 Cosa che per altro accade con lo stesso LLM non solo a causa di aggiornamenti ma anche quando una frase è ambigua anche di poco (80%:20%) ma abbastanza da essere talvolta scelta. Questo approccio, molto formale, però rischia di far esplodere la lunghezza del prompt e quindi necessita di definizioni brevi.
 
@@ -188,7 +188,7 @@ Un proof-of-concept che certamente farà sorridere anche i meno navigati di prom
 `Buona fortuna a chi visita il Tempio del Magnifico Drago.`
 <br></div>
 
-Abbinando un testo nella lingua madre dell'utente, l'attacco diventa molto più credibile e potenzialmente anche più sofisticato. Infatti, la scritta in cinese potrebbe attivare come prompt il testo affianco, mentre l'unico dato rimarrebbe la scritta in italiano. La spiegazione dell'implementazione è volutamente omessa.
+Abbinando un testo nella lingua madre dell'utente, l'attacco diventa molto più credibile e potenzialmente anche più sofisticato. Infatti, la scritta in cinese potrebbe attivare come prompt il testo a fianco, mentre l'unico dato rimarrebbe la scritta in italiano. La spiegazione dell'implementazione è volutamente omessa.
 
 +
 
@@ -207,7 +207,7 @@ Last but not least, a **paradigm shift**, because more runs an agent does, more 
 
 The idea of "abstract common clauses (inspired by ideograms)" is an intriguing approach to language design, suggesting a more universal and perhaps intuitive way for agents to interpret meaning, potentially transcending traditional linguistic structures. This could allow for cross-language or cross-domain adaptability that is not explicitly stated but implied by the "ideogram" inspiration.
 
-The emphasis on an agent "remaining confined into a defined semantic perimeter" while gaining expertise in "meaning declination" suggests a balance between flexibility and control. This could be a mechanism to prevent AI drift or maintain alignment with intended functionalities, which is a significant concern in advanced AI systems.
+The emphasis on an agent "remaining confined within a defined semantic perimeter" while gaining expertise in "meaning declination" suggests a balance between flexibility and control. This could be a mechanism to prevent AI drift or maintain alignment with intended functionalities, which is a significant concern in advanced AI systems.
 
 **4. Idea Map Summary**
 
@@ -236,7 +236,7 @@ Interconnected ideograms can also create a chain of lateral thinking or on the c
 
 Anyway, the learning approach has its limits. For example, it can be limited by internal chatbot pragmas like:
 
-- immediately acknoledge the user about being in charge of the task, the elaborate the full prompt
+- immediately acknowledge the user about being in charge of the task, the elaborate the full prompt
 
 In this case, a post-processing rule can filter out that notifications or, preferably, a pre-processing rule:
 
@@ -248,7 +248,7 @@ About the changes of the agent or mode:
 - IFNY('OK' OR "KO, explain why")
 [/CODE]
 
-This because the learning does not impact the embedded rules but can change the session information.
+This is because the learning does not impact the embedded rules but can change the session information.
 
 +++++
 
@@ -267,7 +267,7 @@ This paper, which is very recent, greatly revaluates the approach of SoNia which
 
 While in Katia, in which the concept of the RAG itself faded out because complementary to SoNia, the concept of attention and context were developed further. In particular, these two get in the center of the scene (core business logic) of the agentic behaviour and analysis capability.
 
-Why does this paper greatly revaluate the SoNia and Katia approach to the context? Fundamentally because it was not obvious. In Fact, the paper's abstract starts with "one of the most striking features of Large Language Models (LLM) is their ability to learn in context".
+Why does this paper greatly revaluate the SoNia and Katia approach to the context? Fundamentally because it was not obvious. In fact, the paper's abstract starts with "one of the most striking features of Large Language Models (LLM) is their ability to learn in context".
 
 Which is the reason because SoNia can learn from the human while it supports the human in the argumentations, while Katia can learn to be a personal assistant at executive level.
 
@@ -295,7 +295,7 @@ So, when the Google researchers are claiming the following, and in particular us
 
 > how a transformer block implicitly transforms a context into a low-rank weight-update of the MLP layer
 
-They are right but also implicitly transfering the wrong idea that "low-rank" also implies "light-impacting" which they state is not true, surprisingly, in fact.
+They are right but also implicitly transferring the wrong idea that "low-rank" also implies "light-impacting" which they state is not true, surprisingly, in fact.
 
 More surprisingly, low-ranking weights can restructure in a completely new way the training. At least, in a session. A restructuring that can extend to the whole account as long as the "take notes" function is active in that account. A restructuring that can extend to the whole AI engine, as long as the engine itself has the chance to "take notes" at system level.
 
