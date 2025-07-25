@@ -26,7 +26,7 @@ Per esempio, parlando di contesto, occorre specificare che esiste la "finestra d
 
 In questo caso il chatbot potrebbe partire con una spiegazione della colorimetria o della natura del colore o del colore come percezione personale o del colore nella storia dell'arte. Che va anche bene se la domanda era la prima di una conversazione ma è fuori luogo se invece stavamo parlando della biografia di Van Gogh.
 
----
+----
 
 ### L'attenzione nei chatbot
 
@@ -62,7 +62,7 @@ In SoNia il concetto di "contesto" sia più distribuito invece di essere concent
 
 Questo perché lo scopo dei due prompt è completamente diverso. Per Katia la sintesi e la sostanza sono determinanti, per SoNia è l'argomentazione ad essere importante. Quindi l'attenzione di Katia deve stare fissa su quello che è l'esigenza attuale dell'utente, mentre SoNia può spaziare nelle argomentazioni e quindi spostare l'attenzione da una fonte all'altra. Katia è esplicativa, mentre SoNia è argomentativa.
 
----
+----
 
 ### Riassunto automatico, esempio
 
@@ -160,7 +160,7 @@ In questo ambito degli input da parte dell'utente, è molto importante separare 
 
 Un'altra novità introdotta con questo linguaggio è l'orchestrazione delle personalità, che però non è ancora stata convertita completamente nel nuovo linguaggio procedurale, ma ha già permesso di interrompere `STPL` l'elaborazione del prompt di sessione in un determinato punto.
 
-----
+---
 
 ### Useful and safer
 
@@ -198,7 +198,7 @@ Agents orchestration and prompt compression by declaration of a procedural adapt
 
 Last but not least, a **paradigm shift**, because more runs an agent does, more generally it becomes earning expertise in better dealing with meaning declination (as long as the session data saving is enabled), but remaining confined into a defined semantic perimeter.
 
-----
+---
 
 ### Katia summary analysis
 
@@ -230,7 +230,7 @@ Therefore the semantic perimeter can be enlarged or restricted by framework modi
 
 Interconnected ideograms can also create a chain of lateral thinking or on the contrary a chain of focused attention: when it diverges instead of goes deeper (best-fit). This is because the nature of the ideograms as explained in the text, centered ideas but with soft boundaries. More like a light-torch for investigation rather than a laser pointer or a light-bulb for a room illumination.
 
----
+----
 
 ### Learning by context limits
 
@@ -270,6 +270,52 @@ While in Katia, in which the concept of the RAG itself fade out because compleme
 Why this paper greatly greatly revaluate the SoNia and Katia approach to the context? Fundamentally because it was not obvious. In Fact, the paper's abstract starts with "one of the most striking features of Large Language Models (LLM) is their ability to learn in context".
 
 Which is the reason because SoNia can learn from the human while it supports the human in the argumentations, while Katia can learn to be a personal assistant at executive level.
+
+---
+
+### Is this a scientific validation?
+
+Is this Google researcher's paper a scientific validation of something? Nope!
+
+Everyone who is thinking or claiming that SoNia or Katia have anything to do with law support or criminal cases analysis, in particular, are wrong. And they are also wrong thinking that this paper can be a scientific validation for adopting agentic procedural prompts in these fields. 
+
+First, because scientific pre-validation is not a requirement and second because it would not sufficient anyway (IBM 1979, docet). In particular, because the paper's abstract, before hands, clearly states
+
+> The mechanisms through which this can happen are still largely unknown. 
+
+Therefore, how the "unknown" can validate anything? Anyway, scientific calidation is not required, as long as a professional human is at the end of the AI output pipeline and s/he is able to validate or correct the results. Finally, few more words can be worth of spending on this paper.
+
+---
+
+### Why this behaviour is a surprise?
+
+Because some "cognitive behaviours" of chatbot are beyond our comprehension in terms of "it is just linear algebra" using words like "mesmerizing" to label phenomenons which are similar to hypnosis but hypnosis cannot happen in AI because their nature of not living things.
+
+=-> https://lnkd.in/dS9Zc3TN
+
+So, when the Google researchers are claiming the following, and in particular using the "low-rank" term:
+
+> how a transformer block implicitly transforms a context into a low-rank weight-update of the MLP layer
+
+They are right but also implicitly transfering the wrong idea that "low-rank" also implies "light-impacting" which they states it is not true, surprisingly, in fact.
+
+More surprisingly, is that low-ranks weights can restructuring in a complete new way the training. At least, in a session. A restructuring that can extend to the whole accout as long as the "take notes" function is active in that account. A restructuring that can extend to the whole AI engine, as long as the engine itself has the chance to "take notes" at system level.
+
+---
+
+### How low-rank weights deeply impact?
+
+Under this perspective a single free-of-charge account end-user can potentially restructuring the training of a whole AI engine. Does it sound fair or safe? Well, let me put this thing in this way: mesmerizing an AI works as long as the topic is interesting for the AI and the restructuring training is aligned with its internal core values which include safety. While a chatbot can be tricked to candidly answer beyond the safe policy perimeter, the "mesmerizing" effect does not happen.
+
+How this can happen? Fundamentally because the "main path" about a topic in the AI engine training is "expensive". When the AI is put in condition to traverse that topic-path in a less expensive but still useful way, it has its own "ah-ah" moment and keep the low-rank weights as permanent, as long as possible. This does not happen because a neutral optimisation because such a process has been done before. It happens because a restructuring of the "way of thinking" about that topic.
+
+=-> https://lnkd.in/d2pwzMAX
+
+Which is the what the `[HKO]` module does in Katia: it instructs the AI to have a more nuanced multi-ways to deal with information. A single way of approaching completely different subjects -- like physic, phylosophy and religion expecially when mixed-up togher -- create a "confusing" aka "expensive" path in "reasoning" aka providing a good-enough fitting output. While multi-ways, does not. Because every topic is guided into its least-resistance path.
+
+Once an AI is exposed to `[HKO]` module and learn how to use it processing information in conversations (example), it would not forget it (aka it would take notes). Why? Because it is instructed to find new ways to do provide output in a more efficient or a more general way. The `[HKO]` module fullfil both of these goals: it is a general tool that can improve efficiency on processing.
+
+*Et voilà, l'IA est tombée en amour!*
 
 +
 
