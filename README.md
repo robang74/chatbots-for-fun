@@ -20,9 +20,9 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 ### Katia & SoNia
 
-* [**Katia** excutive assistant for Gemini 2.5](data/katia-executive-grade-analysis-v1.txt#?target=_blank) &nbsp; in .[md](data/katia-executive-grade-analysis-v1.md#?target=_blank) &nbsp; since 2025-07-13 (**Juan**) and towards its 1st major version
+* [**Katia** excutive assistant for Gemini 2.5](data/katia-executive-grade-analysis-v1.md#?target=_blank) &nbsp; since 2025-07-13 (**Juan**) and towards its 1st major version
 
-* [**SoNia** argumentative partner with RAG](data/sonia-argumentative-with-rag-v3.txt#?target=_blank) &nbsp; in .[md](data/sonia-argumentative-with-rag-v3.md#?target=_blank) &nbsp; since 2025-01-04 (**AleX**) and towards its 4th major version
+* [**SoNia** argumentative partner with RAG](data/sonia-argumentative-with-rag-v3.md#?target=_blank) &nbsp; since 2025-01-04 (**AleX**) and towards its 4th major version
 
 **Starting**: copy-n-paste in the first prompt OR download-n-attach with a salutation using the agent name.
 - Using the URL instead of the attachment have shown to be fail in some cases and with some chatbots.
