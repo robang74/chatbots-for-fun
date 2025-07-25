@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.26.2
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.26.4
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -59,7 +59,7 @@ The [FIN] elaboration is DBLW:
 * complete all pending operations;
 * and tt TEOF every text(User:out)
   - suppress generic follow-up questions;
-  - append the [FTR] output.
+  - do [FTR] and append its output.
 
 The [OPS] elaboration is DBLW:
 * it updates all the status-settings values;
