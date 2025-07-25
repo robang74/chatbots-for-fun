@@ -7,7 +7,8 @@
 
 - **1st edition** -- articolo scritto a partire da un mio [post] su LinkedIn pubblicato lo stesso giorno.
 - **2nd edition** -- include la [parte](#procedural-logic--safety) relativa al linguaggio procedurale preciso e sicuro, in Katia.
-- **3rd edition** -- include la [parte](#agentic-procedural-language) sul linguaggio procedurale ad interpretazione adattabile:
+- **3rd edition** -- include la [sezione](#agentic-procedural-language) sul linguaggio procedurale ad interpretazione adattabile.
+- **4th edition** -- include la [citazione](#learning-without-training) e il commento dell'articolo di Google Research del 21-07-2025.
 
 ...
 
@@ -231,7 +232,7 @@ Interconnected ideograms can also create a chain of lateral thinking or on the c
 
 ---
 
-### By learning approach limits
+### Learning by context limits
 
 Anyway, the learning approach has its limits. For example, it can be limited by internal chatbot pragmas like:
 
@@ -249,7 +250,28 @@ About the changes of the agent or mode:
 
 This because the learning does not impact the embedded rules but can change the session information.
 
-+++++
++
+
+## Learning without training
+
+[!INFO]
+One of the most striking features of Large Language Models (LLM) is their ability to learn in context. Namely at inference time an LLM is able to learn new patterns
+without any additional weight update when these patterns are presented in the form of examples in the prompt, even if these patterns were not seen during training. The mechanisms through which this can happen are still largely unknown.
+
+In this work, we show that the stacking of a self-attention layer with an MLP, allows the transformer block to implicitly modify the weights of the MLP layer according to the context. We argue through theory and experimentation that this simple mechanism may be the reason why LLMs can learn in context and not only during training. Specifically, we show under mild simplifying assumptions how a transformer block implicitly transforms a context into a low-rank weight-update of the MLP layer.
+[/INFO]
+
+- The implicit dynamics of in-context learning by Google published on 2025-07-21 on [Arxiv](https://arxiv.org/pdf/2507.16003)
+
+This paper, which is very recent, greatly revaluates the approach of SoNia which leveraging a simulated RAG (attachments) and since v3.6.x also a RAG on-the-fly which creates the document adding pieces of text from the user inputs during the progression of the conversation.
+
+While in Katia, in which the concept of the RAG itself fade out because complementary to SoNia, was developed the concept of attention and context. In particular, these two get in the center of the scene (core business logic) of the agentic behaviour and analysis capability.
+
+Why this paper greatly greatly revaluate the SoNia and Katia approach to the context? Fundamentally because it was not obvious. In Fact, the paper's abstract starts with "one of the most striking features of Large Language Models (LLM) is their ability to learn in context".
+
+Which is the reason because SoNia can learn from the human while it supports the human in the argumentations, while Katia can learn to be a personal assistant at executive level.
+
++
 
 ## Related articles 
 
