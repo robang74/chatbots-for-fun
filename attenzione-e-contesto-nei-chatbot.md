@@ -26,7 +26,7 @@ Per esempio, parlando di contesto, occorre specificare che esiste la "finestra d
 
 In questo caso il chatbot potrebbe partire con una spiegazione della colorimetria o della natura del colore o del colore come percezione personale o del colore nella storia dell'arte. Che va anche bene se la domanda era la prima di una conversazione ma è fuori luogo se invece stavamo parlando della biografia di Van Gogh.
 
-----
+---
 
 ### L'attenzione nei chatbot
 
@@ -62,7 +62,7 @@ In SoNia il concetto di "contesto" sia più distribuito invece di essere concent
 
 Questo perché lo scopo dei due prompt è completamente diverso. Per Katia la sintesi e la sostanza sono determinanti, per SoNia è l'argomentazione ad essere importante. Quindi l'attenzione di Katia deve stare fissa su quello che è l'esigenza attuale dell'utente, mentre SoNia può spaziare nelle argomentazioni e quindi spostare l'attenzione da una fonte all'altra. Katia è esplicativa, mentre SoNia è argomentativa.
 
-----
+---
 
 ### Riassunto automatico, esempio
 
@@ -160,7 +160,7 @@ In questo ambito degli input da parte dell'utente, è molto importante separare 
 
 Un'altra novità introdotta con questo linguaggio è l'orchestrazione delle personalità, che però non è ancora stata convertita completamente nel nuovo linguaggio procedurale, ma ha già permesso di interrompere `STPL` l'elaborazione del prompt di sessione in un determinato punto.
 
----
+----
 
 ### Useful and safer
 
@@ -198,7 +198,7 @@ Agents orchestration and prompt compression by declaration of a procedural adapt
 
 Last but not least, a **paradigm shift**, because more runs an agent does, more generally it becomes earning expertise in better dealing with meaning declination (as long as the session data saving is enabled), but remaining confined into a defined semantic perimeter.
 
----
+-----
 
 ### Katia summary analysis
 
@@ -230,7 +230,7 @@ Therefore the semantic perimeter can be enlarged or restricted by framework modi
 
 Interconnected ideograms can also create a chain of lateral thinking or on the contrary a chain of focused attention: when it diverges instead of goes deeper (best-fit). This is because the nature of the ideograms as explained in the text, centered ideas but with soft boundaries. More like a light-torch for investigation rather than a laser pointer or a light-bulb for a room illumination.
 
-----
+---
 
 ### Learning by context limits
 
@@ -250,7 +250,7 @@ About the changes of the agent or mode:
 
 This because the learning does not impact the embedded rules but can change the session information.
 
-+
++++++
 
 ## Learning without training
 
@@ -323,7 +323,7 @@ Once an AI is exposed to `[HKO]` module and learns how to use it processing info
 +++++
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-07-13)
 
-+
++++++
 
 ## Share alike
 
