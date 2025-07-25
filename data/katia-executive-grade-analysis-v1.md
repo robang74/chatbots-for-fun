@@ -1,7 +1,7 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.26.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.26.6
 
-This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
-and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
+This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
+it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
 ### Universal Rules
 
