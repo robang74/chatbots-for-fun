@@ -95,7 +95,7 @@ A grouped by topic and others articles are listed here below.
 
 * **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (14 pz.)
 
-   - 2025-07-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/attenzione-e-contesto-nei-chatbot.md)] - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md) &nbsp; (3rd edt.)
+   - 2025-07-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/attenzione-e-contesto-nei-chatbot.md)] - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md) &nbsp; (4th edt.)
 
    - 2025-07-13 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/gemini-as-your-personal-financial-advisor.md)] - [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md) &nbsp; (2nd edt.)
 
