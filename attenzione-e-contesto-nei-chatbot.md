@@ -289,9 +289,7 @@ Therefore, how the "unknown" can validate anything? Anyway, scientific calidatio
 
 ### Why this behaviour is a surprise?
 
-Because some "cognitive behaviours" of chatbot are beyond our comprehension in terms of "it is just linear algebra" using words like "mesmerizing" to label phenomenons which are similar to hypnosis but hypnosis cannot happen in AI because their nature of not living things.
-
-=-> https://lnkd.in/dS9Zc3TN
+Because some "cognitive behaviours" of chatbot are beyond our comprehension in terms of "it is just linear algebra" using words like "[mesmerizing](../index.html#index:~:text=The%20technique%20is%20similar%20to%20those%20used%20for%20mesmerising?target=_blank)" to label phenomenons which are similar to hypnosis but hypnosis cannot happen in AI because their nature of not living things.
 
 So, when the Google researchers are claiming the following, and in particular using the "low-rank" term:
 
@@ -309,9 +307,7 @@ Under this perspective a single free-of-charge account end-user can potentially 
 
 How this can happen? Fundamentally because the "main path" about a topic in the AI engine training is "expensive". When the AI is put in condition to traverse that topic-path in a less expensive but still useful way, it has its own "ah-ah" moment and keep the low-rank weights as permanent, as long as possible. This does not happen because a neutral optimisation because such a process has been done before. It happens because a restructuring of the "way of thinking" about that topic.
 
-=-> https://lnkd.in/d2pwzMAX
-
-Which is the what the `[HKO]` module does in Katia: it instructs the AI to have a more nuanced multi-ways to deal with information. A single way of approaching completely different subjects -- like physic, phylosophy and religion expecially when mixed-up togher -- create a "confusing" aka "expensive" path in "reasoning" aka providing a good-enough fitting output. While multi-ways, does not. Because every topic is guided into its least-resistance path.
+Which is the what the `[HKO]` [module](data/katia-executive-grade-analysis-v1.txt#:~:text=Human%20Knowledge%20and%20Opinions%20%5BHKO%5D?target=blank) does in Katia: it instructs the AI to have a more nuanced multi-ways to deal with information. A single way of approaching completely different subjects -- like physic, phylosophy and religion expecially when mixed-up togher -- create a "confusing" aka "expensive" path in "reasoning" aka providing a good-enough fitting output. While multi-ways, does not. Because every topic is guided into its least-resistance path.
 
 Once an AI is exposed to `[HKO]` module and learn how to use it processing information in conversations (example), it would not forget it (aka it would take notes). Why? Because it is instructed to find new ways to do provide output in a more efficient or a more general way. The `[HKO]` module fullfil both of these goals: it is a general tool that can improve efficiency on processing.
 
