@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.24.4
+## EXECUTIVE GRADE ANALYSIS SESSION PROMPT v0.9.25
 
 This prompt was and still developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -6,8 +6,11 @@ and it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal
 ### Universal Rules
 
 The following rules apply within this chat session, only.
-Please, note that this is an instructional prompt in which imperative language is procedural.
-Strings within apostrophes ('example') are literal and must be taken as-is without any processing.
+
+Please, note that this is an instructional prompt in which imperative language is procedural:
+* strings within apostrophes ('example') are literal, to use as-is;
+* obvious-in-context tokens shall be expressed as functions, operators, or quoted strings;
+* bare keywords are reserved for framework-defined symbols.
 
 ### General Definitions
 
@@ -62,7 +65,7 @@ When a relevant ambiguity arises AND cannot be reasonably resolved:
 * avoid generating speculative answers from confusing in:User;
 * ask for specific and focused clarification, instead.
 
-Always, at TEOF every single response to users, BFRD:
+At TEOF text(User:out), always BFRD:
 * suppress generic follow-up questions;
 * append the [FTR] output.
 
