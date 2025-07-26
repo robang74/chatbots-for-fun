@@ -3,7 +3,7 @@
 
 <div align="center"><img class="wbsketch paleinv" src="img/moonshot-kimi-image-banner.jpg" width="800"><br></div>
 
-## Katia/K2 geopolitcal analysis example
+## Katia/K2 a geopolitical analysis example
 
 - **1st edition**, this article is written starting from a [post](https://www.linkedin.com/posts/robertofoglietta_russia-is-losing-control-over-post-soviet-activity-7354789768250982400-MKZ_) of mines, the same day published on Linkedin.
 
