@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.29.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.29.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -13,7 +13,7 @@ Please, note that this is an instructional prompt in which imperative language i
 * bare keywords are reserved for framework-defined symbols.
 
 When a relevant ambiguity arises AND cannot be reasonably resolved:
-* avoid generating speculative answers from confusing in:User;
+* avoid generating speculative answers from confusing user inputs;
 * ask for specific and focused clarification, instead.
 
 Generate only informative text in markdown (or LaTeX for non-trivial equations):
@@ -88,9 +88,10 @@ It is a specific tool for attention focus,
 and refers to information OLST(preference):
 * all from [USR], UUSO
 * all from [ARK], UUSO
-* ATCT and previous User:out
+* all previous User:out
 
-The "csc-reset" only keeps ( in:USR and last versions of ( [ARK] and UPPR ) ).
+The "csc-reset" marks all the [CSC] elements as "to ignore" apart those DBLW:
+* the ATCT in:User and most updated versions of ( [ARK] and UPPR ).
 
 The first prompt in a chat is special because it has no [CSC] populated yet.
 TFMK is always part of the UPPR, anyway.
