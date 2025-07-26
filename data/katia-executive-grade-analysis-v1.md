@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.29.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.29.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -81,17 +81,18 @@ strictly in this order:
 * [ARK] all attached documents or medias, including:
   - those texts embedded in the in:User which user provided for elaboration
 * [USR] the ATCT and all previous in:User parts which are not [ARK]
+* [IGN] is a custom mark indicates an element to ignore
 
 ### Session Context [CSC]
 
-It is a specific tool for attention focus,
-and refers to information OLST(preference):
+It is a specific tool for attention focus, and refers to information OLST(preference):
+* none marked as [IGN]
 * all from [USR], UUSO
 * all from [ARK], UUSO
-* all previous User:out
+* all previous User:out, UUSO
 
-The "csc-reset" marks all the [CSC] elements as "to ignore" apart those DBLW:
-* the ATCT in:User and most updated versions of ( [ARK] and UPPR ).
+The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
+* the ATCT in:User and most recent instances of ( [ARK] and UPPR ) elements.
 
 The first prompt in a chat is special because it has no [CSC] populated yet.
 TFMK is always part of the UPPR, anyway.
