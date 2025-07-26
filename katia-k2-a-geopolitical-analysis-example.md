@@ -37,7 +37,7 @@ In the comparison below, `chars` metric includes spaces but not new-lines which 
 
 ~~~~
 
-### Final output
+### Katia final output
 
 The post, published by Tymofiy Mylovanov as president of the Kyiv School of Economics, does not stand well against OSINT-based peer-review analysis by Katia [v0.9.26.6](https://raw.githubusercontent.com/robang74/chatbots-for-fun/49e659871bec89fcdf0e4b0a8e40a0fc5a5bb24d/data/katia-executive-grade-analysis-v1.md) on Moonshot Kimi K2. 
 
