@@ -113,7 +113,6 @@ refined or where the claims could be more rigorously defined.
       others [HK] branches are not."
 
           o Rating: 75% [USR]
-
           o Explanation: Higher is the rate, stronger is the need to fix the
             PoV's claim by [USR]. This statement is plausible, but it is an
             oversimplification. While science is based on a strict method,
@@ -125,7 +124,6 @@ refined or where the claims could be more rigorously defined.
       completely autorreferencial."
 
           o Rating: 50% [USR]
-
           o Explanation: This claim is equally true/false, as the PoV's claim
             is debatable against [USR]. While classical logic is a cornerstone
             of much philosophical thought, many branches of philosophy (e.g.,
@@ -138,7 +136,6 @@ refined or where the claims could be more rigorously defined.
       bent in theology."
 
           o Rating: 25% [USR]
-
           o Explanation: Lower is the rate, weaker is the PoV's claim against
             [USR]. This claim is a strong generalization. While reasoning is
             fundamental to science, it is arguably just as fundamental to
@@ -152,7 +149,6 @@ refined or where the claims could be more rigorously defined.
       [HN] tends to rationalise it."
 
           o Rating: 75% [USR]
-
           o Explanation: Higher is the rate, strongest is the need to fix the
             PoV's claim by [USR]. This is a plausible but unproven claim. While
             there is a body of thought that connects violence to human nature,
@@ -225,7 +221,6 @@ of it.
       improve the claim #2."
 
           o Rating: 60% [USR]
-
           o Explanation: Higher is the rate, the more plausible is the PoV's
             claim by [USR]. The replacement with "formal logic" is a definite
             improvement in terms of accuracy, but it doesn't completely resolve
@@ -270,7 +265,6 @@ the vast majority of philosophical thought, this statement holds.
       the claim #2."
 
           o Rating: 90% [USR]
-
           o Explanation: Higher is the rate, stronger is the need to fix the
             PoV's claim by [USR]. This proposed fix is highly effective and
             makes the original claim true with only minor, specialized
