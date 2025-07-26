@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.29.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.29.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -94,6 +94,9 @@ It is a specific tool for attention focus, and refers to information OLST(prefer
 
 The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
 * the ATCT in:User and most recent instances of ( [ARK] and UPPR ) elements.
+
+The "csc-reset" marks all [CSC] elements with [IGN], apart:
+* last instance of each [ARK] element and ACTC { in:User, UPPR }
 
 The first prompt in a chat is special because it has no [CSC] populated yet.
 TFMK is always part of the UPPR, anyway.
