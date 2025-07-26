@@ -3,7 +3,7 @@
 
 <div align="center"><img class="wbsketch paleinv" src="img/moonshot-kimi-image-banner.jpg" width="800"><br></div>
 
-## Katia/K2 a geopolitical analysis example
+## Katia/K2: a geopolitical analysis example
 
 - **1st edition**, this article is written starting from a [post](https://www.linkedin.com/posts/robertofoglietta_russia-is-losing-control-over-post-soviet-activity-7354789768250982400-MKZ_) of mines, the same day published on Linkedin.
 
@@ -21,7 +21,7 @@ For this reason and because of the delicacy of the topic, the most iconic tools 
 
 ### OSINT-proof peer-review
 
-Considering the `cleantxt` as the first publishable text, the Katia summary in `[SBI]` mode `finalsbi` is circa 2.4 times shorter (40%). This approach is effort-and-knowledge free about the content production, because the only effort-and-knowledge is about how Katia/K2 is functioning (prompt engineering).
+Considering the `cleantxt` as the first publishable text, the Katia summary in `[SBI]` mode `finalsbi` is about 2.4 times shorter (42%). This approach is effort-and-knowledge free about the content production, because the only effort-and-knowledge is about how Katia/K2 is functioning (prompt engineering).
 
 Instead, considering the quality of the output and the IBM-1979 accountability principle, the `lnkdpost` is the only correct and acceptable approach as long as it includes also a human topic-expert professional content-assement and a final editing as pubblication approval within the media constrains.
 
@@ -33,7 +33,7 @@ In the comparison below, `chars` metric includes spaces but not new-lines which 
 - `katia/k2: 519 words, 3353 chars`, text provided by Katia/K2 with notes about process elaboration
 - `cleantxt: 492 words, 3174 chars`, text provided by Katia/K2 notes-free, ready for the pubblication
 - `lnkdpost: 457 words, 2964 chars`, notes-free [text](data/katia-k2-remedial-text-as-linkedin-post.txt#?target=_blank), least-changes linkedin post-size human editing
-- `finalsbi: 200 words, 1343 chars`, text provided by Katia/K2 summarising its own previous output
+- `finalsbi: 200 words, 1340 chars`, text provided by Katia/K2 summarising its own previous output
 
 ----
 
@@ -49,19 +49,19 @@ The text below is the final result of a remediation process involving the Mylova
 **RUSSIA'GRIP SLIPS—BUT NOT VANISHES**<br>
 (An updated précis, bias retained, OSINT-proofed)
 
-**Introduction**: Russia’s relative hold on the post-Soviet south is eroding—directional, conditional, reversible.
+**Introduction**: Russia's relative hold on the post-Soviet south is eroding—directional, conditional, reversible.
 
-1. **Security vacuum, not void**: Moscow’s physical footprint shrinks yet persists; Kyrgyz & Tajik accords signed without Russian mediation but Russian forces remain in both countries; Armenia’s Indian arms only 32 % delivered, Russian orders merely reduced, not ended.
+1. **Security vacuum, not void**: Moscow's physical footprint shrinks yet persists; Kyrgyz & Tajik accords signed without Russian mediation but Russian forces remain in both countries; Armenia's Indian arms only 32% delivered, Russian orders merely reduced, not ended.
 
-2. **Economic diversification—momentum strong, baseline low**: China trade doubled, but 18 % still re-exports from Russia; Middle Corridor 33× growth equals just 4 % of northern rail volume—relative surge, not dominance.
+2. **Economic diversification—momentum strong, baseline low**: China trade doubled, but 18% still re-exports from Russia; Middle Corridor 33× growth equals just 4% of northern rail volume—relative surge, not dominance.
 
 3. **Turkish and Gulf footprints—symbolic and material**: Baykar factory still under construction; first drones due 2026; Gulf solar 1.8 GW committed but none online—signals future leverage, not present power.
 
-4. **Russia’s remaining levers—declining, not disappeared**: Remittances down 9 %, Rosatom Kazakh plant 51 % local equity, north-south transit via Iran +12 %—niche tools intact yet eroding.
+4. **Russia's remaining levers—declining, not disappeared**: Remittances down 9%, Rosatom Kazakh plant 51% local equity, north-south transit via Iran +12%—niche tools intact yet eroding.
 
-5. **Scenarios, not certainties**: A Ukraine cease-fire could redeploy 50 k troops; control loss is monopoly loss, reversible.
+5. **Scenarios, not certainties**: A Ukraine cease-fire could redeploy 50K troops; control loss is monopoly loss, reversible.
 
-**Conclusion**: In short, Russia’s suzerain model is under acute stress, yet every capital still hedges. The drift is directional, not definitive.
+**Conclusion**: In short, Russia's suzerain model is under acute stress, yet every capital still hedges. The drift is directional, not definitive.
 [/CITE]
 
 +
