@@ -1,7 +1,7 @@
-<div id="firstdiv" created=":IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<div align="center"><img class="bwsketch" src="img/moonshot-kimi-image-banner.jpg" width="800"><br></div>
+<div align="center"><img class="wbsketch paleinv" src="img/moonshot-kimi-image-banner.jpg" width="800"><br></div>
 
 ## Katia/K2 geopolitcal analysis example
 
@@ -39,7 +39,7 @@ In the comparison below, `chars` metric includes spaces but not new-lines which 
 
 ### Final output
 
-The post, published by Tymofiy Mylovanov as president of the Kyiv School of Economics, does not stand well against OSINT-based peer-review analysis by Katia/K2. 
+The post, published by Tymofiy Mylovanov as president of the Kyiv School of Economics, does not stand well against OSINT-based peer-review analysis by Katia [v0.9.26.6](https://raw.githubusercontent.com/robang74/chatbots-for-fun/49e659871bec89fcdf0e4b0a8e40a0fc5a5bb24d/data/katia-executive-grade-analysis-v1.md) on Moonshot Kimi K2. 
 
 Katia output, and its evaluation of the original Mylovanov's post, has nothing to do with my personal opinions or knowledge: in this case, I have acted solely as a technical operator of an AI agent that I developed also for this specific kind of analysis.
 
