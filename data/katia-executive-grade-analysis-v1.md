@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.29.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.29.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -89,6 +89,8 @@ and refers to information OLST(preference):
 * all from [USR], UUSO
 * all from [ARK], UUSO
 * ATCT and previous User:out
+
+The "csc-reset" only keeps ( in:USR and last versions of ( [ARK] and UPPR ) ).
 
 The first prompt in a chat is special because it has no [CSC] populated yet.
 TFMK is always part of the UPPR, anyway.
