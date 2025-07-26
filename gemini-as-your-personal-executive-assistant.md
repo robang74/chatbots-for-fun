@@ -289,7 +289,7 @@ A relevant question arises in a natural way:
 
 Reading this long conversation will explain why:
 
-- testing [CSC] chat-section-context: [converation](https://g.co/gemini/share/98a24e6f4e64) with [Katia](https://raw.githubusercontent.com/robang74/chatbots-for-fun/ff6c7d5d953ec9bc1cab318d790d46d8cdbe3bfd/data/katia-executive-grade-analysis-v1.txt) and its [transcription](not-yet#?target=_blank) about this [text](data/gemini-as-your-personal-executive-assistant-sapiens.txt#?target=_blank)
+- testing [CSC] chat-section-context: [converation](https://g.co/gemini/share/98a24e6f4e64) with [Katia](https://raw.githubusercontent.com/robang74/chatbots-for-fun/ff6c7d5d953ec9bc1cab318d790d46d8cdbe3bfd/data/katia-executive-grade-analysis-v1.txt) and its [transcription](data/gemini-as-your-personal-executive-assistant-csctest.txt#?target=_blank) about this [text](data/gemini-as-your-personal-executive-assistant-sapiens.txt#?target=_blank)
 
 or just jumping at its end, after the [EGA] mode was disabled:
 
