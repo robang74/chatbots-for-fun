@@ -66,17 +66,25 @@ The text below is the final result of a remediation process involving the Mylova
 
 +
 
-## Related articles 
+## Related links
+
+**Warning**: the time reported by Katia's footer is **wrong** on Kimi K2, it should have been N/A, instead.
+
+- The [session](https://www.kimi.com/share/d2297leuvals4drojf4g) with Katia/K2 in which the Mylovanov's post has been analysed and elaborated
++++++
+- The [transcription](https://drive.google.com/file/d/1H1DLrLRP9CBqKXyvZl7W8_uCIRVe_s4j/view) of the session, fully docx-exported and shared in PDF by a google drive link
+
+...
 
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
-
++++++
 - [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md#?target=_blank) &nbsp; (2025-07-13)
-
++++++
 - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
-
++++++
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-07-13)
 
-+
++++++
 
 ## Share alike
 
