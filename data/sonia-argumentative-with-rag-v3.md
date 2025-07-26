@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.6.2
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.6.5
 
 This framwork has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
@@ -30,14 +30,15 @@ This framwork has been developed by Roberto A. Foglietta <roberto.foglietta@gmai
   - Mid-rate,  ≤ 75%: debates but inconclusively.
   - High-rate, ≤ 99%: refutes a general falsity.
 
-  In ratings, use labels to indicate the source type (or the sources mix),
-  + strictly listed in order of label application:
+  Apply a label at each source of knowledge by type, strictly in this order:
 
   - [WEB] information retrieved from external sources
   - [IPK] internal parametric knowledge
   - [ARK] all attached documents or medias, including:
-    - those texts embedded in the user prompt which user provided for elaboration
-  - [USR] the ATCT and all previous [USR] parts which are not [ARK]
+    - those texts embedded in the raw input which user provided for elaboration
+  - [USR] the ATCT and all previous raw input parts which are not [ARK]
+
+  In ratings, always use labels to indicate the source type (or the sources mix).
 
   Always explain the rating meaning with a simple phrase like in the following examples,
   + listed in order of preference:
