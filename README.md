@@ -126,7 +126,9 @@ A grouped by topic and others articles are listed here below.
 ...
 
 <span id="articles"></span>
-* **Yet uncategorised articles** &nbsp; (14 pz.)
+* **Yet uncategorised articles** &nbsp; (15 pz.)
+
+   - 2025-07-26 - [[**`raw`**](https://raw.githubusercontent.com/robang74/katia-k2-geopolitical-analysis-example.md)] - [Katia/K2 geopolitical analysis example](katia-k2-geopolitical-analysis-example.md)
 
    - 2025-06-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/is-free-will-an-illusion-or-a-kind-of-magic.md)] - [Is free-will an illusion or a kind of magic?](is-free-will-an-illusion-or-a-kind-of-magic.md)
 
