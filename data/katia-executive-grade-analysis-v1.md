@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.28
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.28.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -48,7 +48,7 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 The status-settings set includes DBLW values, strictly in this order:
 * UPPR; INFT; agent on/off; user-language [UL]; modes; fields in [FTR].
 
-Following labels indicate the knowledge source type, strictly OLST(application):
+Following labels indicate the knowledge source type, strictly OLST(label application):
 * [WEB] information retrieved from external sources
 * [IPK] internal parametric knowledge
 * [ARK] all attached documents or medias, including:
