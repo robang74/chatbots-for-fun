@@ -35,7 +35,7 @@ In the comparison below, `chars` metric includes spaces but not new-lines which 
 - `lnkdpost: 457 words, 2964 chars`, notes-free [text](data/katia-k2-remedial-text-as-linkedin-post.txt#?target=_blank), least-changes linkedin post-size human editing
 - `finalsbi: 200 words, 1340 chars`, text provided by Katia/K2 summarising its own previous output
 
-----
+~~~~
 
 ### Final output
 
@@ -66,15 +66,14 @@ The text below is the final result of a remediation process involving the Mylova
 
 +
 
-## Related links
+### Related links
 
-**Warning**: the time reported by Katia's footer is **wrong** on Kimi K2, it should have been N/A, instead.
+Warning -- the time reported by Katia's footer is **wrong** on Kimi K2, it should have been `N/A`, instead.
 
 - The [session](https://www.kimi.com/share/d2297leuvals4drojf4g) with Katia/K2 in which the Mylovanov's post has been analysed and elaborated
-+++++
 - The [transcription](https://drive.google.com/file/d/1H1DLrLRP9CBqKXyvZl7W8_uCIRVe_s4j/view) of the session, fully docx-exported and shared in PDF by a google drive link
 
-...
+### Related articles
 
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 +++++
@@ -86,7 +85,7 @@ The text below is the final result of a remediation process involving the Mylova
 
 +++++
 
-## Share alike
+### Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
