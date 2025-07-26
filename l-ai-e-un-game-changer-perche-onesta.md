@@ -6,14 +6,26 @@
 ## L'AI è un game-changer perché è onesta
 
 - Articolo scritto a partire da un [post](https://www.linkedin.com/posts/robertofoglietta_quattro-prescrizioni-di-tac-e-risonanze-activity-7342726841666867200-tHqK) pubblicato su LinkedIn lo stesso giorno.
-
++++++
 - La [notizia](https://www.ansa.it//canale_saluteebenessere/notizie/ospedali_italiani/2025/06/12/inappropriato-il-40-di-richieste-di-esami-in-sanita-lia-aiuta_2dc989ad-b80d-40a1-a0f6-a4a8a7fabc5b.html) a cui si fa riferimento, recentmente diventata virale, risale al 12 giugno 2025.
 
----
+...
 
-### Introduzione
+### Introduzione di Katia
 
-La domanda in generale può essere difficile da spiegare ma questo caso lo mostra in modo eclatante il perché l'AI è un game-changer e lo è in modo particolare quando è usata in modo corretto. La risposta è contenuta tutta quanti in questa apparentemente banale frase:
+*Uno studio su 17.000 prescrizioni mediche ha mostrato che il 43% era inappropriato, evidenziando come l'AI possa rivelare sprechi significativi (circa il 40% di esami inutili), attribuiti a medici che ordinano test extra per evitare responsabilità personali. Ciò aumenta costi e tempi di attesa nel sistema sanitario.*
+
+*L'AI è un agente neutrale che rivoluziona il modo di identificare e affrontare inefficienze e bias nei processi umani, specialmente in sanità. La natura imparziale dell'AI obbliga anche i revisori umani a essere neutrali, validando i risultati dell'AI. L'autore paragona il ruolo dell'AI a quello di rivoluzioni scientifiche storiche (Copernico e Galileo), suggerendo che l'AI incontrerà resistenza alla sua adozione.*
+
+*Infatti, questa obiettività dell'AI diventa scomoda quando espone i conflitti di interessi nell'ambito medico-sanitario. L'articolo anticipa alcuni dilemmi legali alla responsabilità collettiva e individuale dei medici per le inefficienze sistemiche che l'adozione dell'AI porterà alla luce.*
+...
+`Katia; v0.9.26.8; lang: it; mode: SBI; date: 2025-07-26; time: 17:38:45 (CEST)`
+
++
+
+## L'AI è un game-changer
+
+Perché l'AI sia un game-changer, può essre una domand difficile da spiegare in general. Ma questo caso lo mostra in modo eclatante il perché l'AI è un game-changer e lo è in modo particolare quando è usata in modo corretto. La risposta è contenuta tutta quanti in questa apparentemente banale frase:
 
 > In una seconda fase, un gruppo di esperti (radiologi e medici clinici) ha validato i risultati dell’algoritmo tramite revisione manuale a campione.
 
@@ -30,9 +42,7 @@ L'AI è molto veloce, ignora i watermark, però deve essere verificata a campion
 
 ### Alcuni dati dello studio
 
-- 17.000 prescrizioni
-- 38,9% appropriate
-- 43% inappropriata
+- 17.000 prescrizioni; &nbsp; &nbsp; 38,9% appropriate &nbsp; &nbsp; 43% inappropriata
 
 Tolleranza massima stimata 3%, se il 40% nel titolo è un dato emergente dallo studio come il minore spreco che è ragionevolmente e cautelativamente possibile ridurre, piuttosto che una un'approssimazione arbitraria di chi ha scritto il titolo.
 
@@ -61,9 +71,7 @@ Infatti, secondo una regola generale (1/√N), la tolleranza attesa su un campio
 
 Inoltre è ragionevole pensare che gli autori dello studio abbiano determinato in un 3% la tolleranza in catalogazione per la quale solo il 42% degli esami clinici richiesti sarebbe stato strettamente necessario, salvo il caso di giovani medici che debbano imparare e quindi siano più propensi a chiedere analisi, mentre il 40% è oggettivamente inutile.
 
-Possa Mr. Spock prendere a schiaffi chi ha scritto il titolo!
-
----
+~~~~~
 
 ### Stima della tolleranza
 
@@ -90,8 +98,6 @@ L'AI come agente onesto pone l'uomo di fronte a se stesso alla realtà, come Gio
 Anche se apparentemente non vengono trattati come un tempo si era solito fare con le streghe e gli eretici ma solo perché l'odore acre e il fumo di un pubblico rogo non è conforme alle normative sul particolato fine nei centri urbani!
 
 Appare evidente che non ci occorre l'AGI perché si creino le premesse per una rivoluzione, analoga a quella fra il sistema copernicano e quello galileiano che rimosse l'essere umano dal centro della Creazione, sicché dell'AI si dirà peste e corna.
-
-Eppur si muove! {:-D}
 
 ...
 
