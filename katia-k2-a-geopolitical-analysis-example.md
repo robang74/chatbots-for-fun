@@ -71,7 +71,7 @@ The text below is the final result of a remediation process involving the Mylova
 Warning -- the time reported by Katia's footer is **wrong** on Kimi K2, it should have been `N/A`, instead.
 
 - The [session](https://www.kimi.com/share/d2297leuvals4drojf4g) with Katia/K2 in which the Mylovanov's post has been analysed and elaborated
-- The [transcription](https://drive.google.com/file/d/1H1DLrLRP9CBqKXyvZl7W8_uCIRVe_s4j/view) of the session, fully docx-exported and shared in PDF by a google drive link
+- The sessions [transcription](https://drive.google.com/file/d/1H1DLrLRP9CBqKXyvZl7W8_uCIRVe_s4j/view), docx-exported in full and shared in PDF by a Google Drive link
 
 ### Related articles
 
