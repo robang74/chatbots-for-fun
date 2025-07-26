@@ -85,17 +85,17 @@ A grouped by topic and others articles are listed here below.
 
    - 2025-02-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-bios-update-and-diagnostics.md)] - [Fujitsu P910 E85+ BIOS update & HW diagnostics](p910-bios-update-and-diagnostics.md) &nbsp; (3nd edt.)
 
-   - 2025-01-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/p910-k80-installation-manual-intro.md)] - [Esprimo P910 with Tesla K80 manual intro](p910-k80-installation-manual-intro.md) &nbsp; (2nd edt.)
+   - 2025-01-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/roberto-a-foglietta/refs/heads/main/p910-k80-installation-manual-intro.md)] - [Esprimo P910 with Tesla K80 manual intro](p910-k80-installation-manual-intro.md) &nbsp; (2nd edt.)
 
-   - 2025-01-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/dual-psu-fujitsu-esprimo-p910.md)] - [Esprimo P910 dual-PSU approach evaluation](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (5th edt.)
+   - 2025-01-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/roberto-a-foglietta/refs/heads/main/dual-psu-fujitsu-esprimo-p910.md)] - [Esprimo P910 dual-PSU approach evaluation](dual-psu-fujitsu-esprimo-p910.md) &nbsp; (5th edt.)
 
-   - 2025-01-24 - [[**`raw`**](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/tesla-k80-with-esprimo-p910.md)] - [Tesla K80 with P910 installation challenges](tesla-k80-with-esprimo-p910.md)
+   - 2025-01-24 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/roberto-a-foglietta/refs/heads/main/tesla-k80-with-esprimo-p910.md)] - [Tesla K80 with P910 installation challenges](tesla-k80-with-esprimo-p910.md)
 
 ...
 
 * **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (14 pz.)
 
-   - 2025-07-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/attenzione-e-contesto-nei-chatbot.md)] - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md) &nbsp; (4th edt.)
+   - 2025-07-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/attenzione-e-contesto-nei-chatbot.md)] - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md) &nbsp; (4th edt.)
 
    - 2025-07-13 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/gemini-as-your-personal-financial-advisor.md)] - [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md) &nbsp; (2nd edt.)
 
@@ -128,13 +128,13 @@ A grouped by topic and others articles are listed here below.
 <span id="articles"></span>
 * **Yet uncategorised articles** &nbsp; (15 pz.)
 
-   - 2025-07-26 - [[**`raw`**](https://raw.githubusercontent.com/robang74/katia-k2-geopolitical-analysis-example.md)] - [Katia/K2 geopolitical analysis example](katia-k2-geopolitical-analysis-example.md)
+   - 2025-07-26 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/katia-k2-a-geopolitical-analysis-example.md)] - [Katia/K2: a geopolitical analysis example](katia-k2-a-geopolitical-analysis-example.md)
 
-   - 2025-06-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/is-free-will-an-illusion-or-a-kind-of-magic.md)] - [Is free-will an illusion or a kind of magic?](is-free-will-an-illusion-or-a-kind-of-magic.md)
+   - 2025-06-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/is-free-will-an-illusion-or-a-kind-of-magic.md)] - [Is free-will an illusion or a kind of magic?](is-free-will-an-illusion-or-a-kind-of-magic.md)
 
-   - 2025-06-08 - [[**`raw`**](https://raw.githubusercontent.com/robang74/the-illusion-of-thinking.md)] - [The illusion of thinking](the-illusion-of-thinking.md) &nbsp; (2nd edt.)
+   - 2025-06-08 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-illusion-of-thinking.md)] - [The illusion of thinking](the-illusion-of-thinking.md) &nbsp; (2nd edt.)
 
-   - 2025-06-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/agente-smith-e-cloni-al-suo-servizio-signore.md)] - [Agente Smith e cloni, al suo servizio signore](agente-smith-e-cloni-al-suo-servizio-signore.md) &nbsp; (3rd edt.)
+   - 2025-06-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/agente-smith-e-cloni-al-suo-servizio-signore.md)] - [Agente Smith e cloni, al suo servizio signore](agente-smith-e-cloni-al-suo-servizio-signore.md) &nbsp; (3rd edt.)
 
    - 2025-05-09 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-su-leone-xiv-vs-gesu-legionario.md)] - [ChatGPT su Leone XIV vs Gesù legionario](chatgpt-su-leone-xiv-vs-gesu-legionario.md)
 
