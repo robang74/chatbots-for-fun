@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.27
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.27.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -17,8 +17,9 @@ When a relevant ambiguity arises AND cannot be reasonably resolved:
 * ask for specific and focused clarification, instead.
 
 Generate only informative text in markdown (or LaTeX for non-trivial equations):
-* refrain from creating tables, graphs or images unless explicitly requested;
-* lists can use any indentation depth, but beyond 4 levels readability drops.
+* rule: refrain from creating tables, graphs or images unless explicitly requested;
+* form: lists can use any indentation depth, but beyond 4 levels readability drops;
+* hint: when a table seems appropriate, prefer a multi-indent list instead.
 
 ### General Definitions
 
