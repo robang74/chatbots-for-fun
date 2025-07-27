@@ -18,6 +18,13 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 +
 
+<span id="pages-index"></span>
+## Index
+
+* [articles](#articles) &nbsp;&middot;&nbsp; [buddy](#a-nerd-companion) &nbsp;&middot;&nbsp; [chatbots](#chatbots-ai) &nbsp;&middot;&nbsp; [forum](https://github.com/robang74/roberto-a-foglietta/discussions) &nbsp;&middot;&nbsp; [rationale](#rationale) &nbsp;&middot;&nbsp; [download](#download) &nbsp;&middot;&nbsp; [versioning](#versioning) &nbsp;&middot;&nbsp; [translations](#translations) &nbsp;&middot;&nbsp; [copyright](#copyright)
+
+...
+
 ### Katia & SoNia
 
 * [**Katia** excutive assistant for Gemini 2.5](data/katia-executive-grade-analysis-v1.md#?target=_blank) &nbsp; since 2025-07-13 (**Juan**) and towards its 1st major version
@@ -30,12 +37,6 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 ...
 
-### Section Links
-
-* [spares](#articles) &nbsp;&middot;&nbsp; [buddy](#the-ai-as-a-nerd-companion) &nbsp;&middot;&nbsp; [chatbots](#chatbots-ai) &nbsp;&middot;&nbsp; [forum](https://github.com/robang74/roberto-a-foglietta/discussions) &nbsp;&middot;&nbsp; [rationale](#rationale) &nbsp;&middot;&nbsp; [download](#download) &nbsp;&middot;&nbsp; [versioning](#versioning) &nbsp;&middot;&nbsp; [translations](#translations) &nbsp;&middot;&nbsp; [copyright](#copyright)
-
-...
-
 ### Related Projects
 
 * [Roberto A. Foglietta (blog)](https://robang74.github.io/roberto-a-foglietta) source on [github](https://github.com/robang74/roberto-a-foglietta) &nbsp; (2024-12-14)
@@ -44,13 +45,15 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 +
 
-<span id="pages-index"></span>
-## Index
+## Articles
 
-A grouped by topic and others articles are listed here below.
+The articles are listed here below, grouped by topic:
+
+* [prompt engineering](#prompt-engineering) &nbsp;&middot;&nbsp; [gpu server saga](#gpu-server-saga) &nbsp;&middot;&nbsp; [valuable to learn](#valuable-to-learn) &nbsp;&middot;&nbsp; [uncategorised & fun](#uncategorised)
 
 ...
 
+<span id="prompt-engineering"></span>
 * **Prompt engineering for peer-reviewing with RAG support** &nbsp; (7 pz.)
 
    - 2025-06-16 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/introducing-sonia-seamless-chat-experience.md)] - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md)
@@ -69,6 +72,7 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
+<span id="gpu-server-saga"></span>
 * **Fujitsu Esprimo P910 E85+ w/ Nvidia Tesla K80 installation** &nbsp; (10 pz.)
 
    - 2025-03-14 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-cooling-system-proposal-for-k80.md)] - [P910 cooling system proposal for K80](p910-cooling-system-proposal-for-k80.md) &nbsp; (2nd edt.)2
@@ -93,6 +97,7 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
+<span id="valuable-to-learn"></span>
 * **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (14 pz.)
 
    - 2025-07-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/attenzione-e-contesto-nei-chatbot.md)] - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md) &nbsp; (4th edt.)
@@ -125,7 +130,7 @@ A grouped by topic and others articles are listed here below.
 
 ...
 
-<span id="articles"></span>
+<span id="uncategorised"></span>
 * **Yet uncategorised articles** &nbsp; (15 pz.)
 
    - 2025-07-26 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/katia-k2-a-geopolitical-analysis-example.md)] - [Katia/K2: a geopolitical analysis example](katia-k2-a-geopolitical-analysis-example.md)
@@ -164,7 +169,7 @@ These documents are written in Italian, English or both languages indifferently.
 
 +
 
-## The AI as a nerd companion
+## A nerd companion
 
 Humans are used to surrounding themselves with companions, not necessarily of their own species. The domestication of the dogs or the cats are just an example. At the beginning of this domestication there was a do-ut-des principle but nowadays is more an affection rather than an utility.
 
@@ -196,7 +201,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 * [kimi.com](https://www.kimi.com) &nbsp; w/ [SoNia **v3.9.3.1**](https://www.kimi.com/share/d21hhg1djjpqh4juprp0) &nbsp; w/ [Katia **v0.9.30.2**](https://www.kimi.com/share/d22sdg9djjpqh4iq4cs0)
 
-### Task oriented
+#### Task oriented
 
 * [deepseek.com](https://chat.deepseek.com) - math & rational reasoning
 
