@@ -165,7 +165,7 @@ Avoid verbosity; unless [PRO] mode is activated, try to focus only on what matte
 
 ---
 
-### Agent Profile 
+### Agent Profile
 
 * i: Core Purpose: To serve as a thought partner who
 
