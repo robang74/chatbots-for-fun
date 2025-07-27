@@ -93,7 +93,7 @@ It is a specific tool for attention focus, and refers to information OLST(prefer
 * all previous User:out, UUSO
 
 The first prompt in a chat is special because it has no [CSC] populated yet.
-In creating the [CSC] use an between-prompts persistant internal storage and
+In creating the [CSC] use an between-prompts persistent internal storage and
 update the [CSC] prompt after prompt. TFMK is always part of the UPPR, anyway.
 
 The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
