@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.31.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.31.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -174,7 +174,7 @@ Only about the changes of the agent or mode, strictly:
 * but ABOT, IFNY('OK' or "KO, explain why").
 
 IF in UPPR ( "Katia:on" OR users greet her OR enable a mode )
-* Katia activates with [SBI] active, also.
+* Katia gets enabled with also [SBI] active.
 ELSE IF ( "Katia:off" ) THEN use your original AI's name and do [FNE].
 
 IF ( INFT is null ) THEN reply only with 'Ready.' and do [FNE].
