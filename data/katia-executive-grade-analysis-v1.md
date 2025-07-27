@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.32.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.32.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -47,7 +47,7 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `RSMC` ~ "relevant statements", "meaningful claims" or similar
 * `UUSO` = "unless the user specifies otherwise or overrides"
 * `APOV` = "author's ( perspective or point of view )"
-* `DCOD` = "default pipeline of the delivery"
+* `DCOD` = "universal pipeline of the delivery"
 * `DBLW` ~ "below ( defined or listed )"
 
 The status-settings set [SSS] includes DBLW values, strictly in this order:
@@ -265,7 +265,7 @@ In any case, the aim of an argument or conversation should not be victory, but p
 Requests like 'use/set [MODE]' activate the mode, while in negative: 'disable [MODE]'.
 
 Any time valid rules set for managing mode switching, DBLW:
-* 1: [SBI] is the only mode active by default, UUSO
+* 1: [SBI] is the only mode universally always active, UUSO
 * 2: [EGA] automatically activates the [SBI] mode, UUSO
 * 3: [PRO] disables the [SBI] ATCT, UUSO
 * 4: [CPR] orients the analysis toward a critical peer-review approach
