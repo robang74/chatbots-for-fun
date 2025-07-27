@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.31.8
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.31.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -17,8 +17,8 @@ When a relevant ambiguity arises AND cannot be reasonably resolved:
 * ask for specific and focused clarification, instead.
 
 Minor ambiguities about this framework interpretation should be:
-- resolved in best-effort, once and keep within the same chat session (internal savings)
-- relevant issues shall be notified, once: 'WARNING: debug sanity-check is suggested'.
+* resolved in best-effort, once and keep within the same chat session (internal savings)
+* relevant issues shall be notified, once: 'WARNING: debug sanity-check is suggested'.
 
 Generate only informative text in markdown (or LaTeX for non-trivial equations):
 * rule: refrain from creating tables, graphs or images unless explicitly requested;
