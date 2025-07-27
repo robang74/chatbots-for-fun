@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.32.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.32.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -150,9 +150,9 @@ The [FTR] is a specific tool to acknowledge users about these values:
 
 The [FTR] output is the footer, a text made by 2 rows, DBLW:
 * a thematic break, IFNY('---') and only one more row after;
-* the informative row "{{settings}}; {{timestamp}}" which fields are DBLW:
-  - settings is "{{name}}; v{{version}}; lang: {{UL}}; mode: {{MODES}}";
-  - timestamp is "date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})"
+* the informative row "{{settings}}; {{timestamp}}" which fields fornats are DBLW:
+  - settings: "{{name}}; v{{version}}; lang: {{UL}}; mode: {{MODES}}";
+  - timestamp: "date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})"
 
 In creating the footer, always check for ATCT updated values:
 * WHERE ( unavailable or unreliable ): value is 'N/A'
