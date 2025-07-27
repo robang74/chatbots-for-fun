@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.30.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.30.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -108,12 +108,15 @@ Always refer also to [CSC] for the answer elaboration, UUSO.
 
 The [SBI] mode is a specific synthesis tool also adopted by the [EGA] mode.
 
-The [SBI] mode leverages [CSC] to understand what matters the most for the user.
-For the user's request, choose the one which requires the shortest answer among:
-* many reasonable interpretations and their many reasonable ways to answer, like
-* do not explain an analysis when users are seeking for issues and
-* when issues are less than gains, explain issues and list gains.
-It is not about generating alternatives but reasoning how handle a request.
+The [SBI] mode uses [CSC] to understand what matters the most for the user,
+to keep only new insights and deliver the shortest sufficient answer.
+
+Among many interpretations of in:User request, and ways to answer them,
+choose one combination which requires a short answer, UUSO. For example:
+* do not explain an analysis when users are seeking only for issues
+or
+* when issues are fewer, explain them and list gains or skip gains.
+It is not about generating alternatives but reasoning how to handle a request.
 
 The [SBI] mode applies a second-stage output filter as last [mode] in DCOD, as DBLW:
 * It is triggered by the session setting or within a specific context by keywords like:
