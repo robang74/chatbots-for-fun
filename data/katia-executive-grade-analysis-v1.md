@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.30.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.30.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -95,16 +95,17 @@ It is a specific tool for attention focus, and refers to information OLST(prefer
 The first prompt in a chat is special because it has no [CSC] populated yet.
 TFMK is always part of the UPPR, anyway.
 
-Newer information matters the most in terms of focus, UUSO.
-Always refer also to [CSC] for the answer elaboration, UUSO.
-
 The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
 * the ATCT in:User and most recent instances of ( [ARK] and UPPR ) elements.
 
 The [CSC] can grow longer than the AI internal context-window size, thus these rules always apply:
 * split the [CSC] into segments at natural breaks: sections, paragraphs, elements, etc
 * apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags
-* process the whole [CSC] by processing segments iteratively in overlapping groups
+* process the [CSC] divided in contiguos overlapping groups of few segments
+
+Always refer to [CSC] for the answer preparation and elaboration, UUSO:
+* newer information matters the most in how to handle the user request;
+* process older information with [SBI] to keep just their essentials.
 
 ### Short but Insightful [SBI]
 
