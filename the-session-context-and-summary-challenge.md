@@ -5,7 +5,7 @@
 
 ## The session context and summary challenge
 
-- **1st edition**, this article is written starting from Katia [v0.9.32.8](not-yet#?target=_blank) framework `[CSC]` and `[SBI]` modules.
+- **1st edition**, this article is written starting from Katia [v0.9.32.8](https://raw.githubusercontent.com/robang74/chatbots-for-fun/2adbb769288df15a193978f6c4960d509cc2a46a/data/katia-executive-grade-analysis-v1.md) framework `[CSC]` and `[SBI]` modules.
 
 ---
 
@@ -19,11 +19,11 @@ For this reason, instructing a chatbot even with logical and lexical thinking ca
 
 ### Rationale
 
-The `[[SBI](not-yet#?target=_blank)]` module in Katia is an attempt to provide a chatbot with a session-prompt level set of instructions about how to do a summary. While the [[`CSC](not-yet#?target=_blank)`] module in Katia is an attempt to speed-up the chatbot answer creation, instructing how to deal with user-expectation and with the focus within the chat session context.
+The `[[SBI](#sbi-module)]` module in Katia is an attempt to provide a chatbot with a session-prompt level set of instructions about how to do a summary. While the [[`CSC](#csc-module)`] module in Katia is an attempt to speed-up the chatbot answer creation, instructing how to deal with user-expectation and with the focus within the chat session context.
 
 The chat session context is created as a chat session between-prompt persistent data cache in which the AI is instructed to keep notes about what is matter. The `[SBI]` summarising process leverages the `[CSC]` while the `[CSC]` uses the `[SBI]` summary to progressively shrink its size.
 
-Therefore, since v0.9.2x [TODO] Katia implementation the two modules are interdependent in how they work. Which is supposed to increase their efficiency and efficacy, thus improving performances (compared to the previous versions) and being more useful in assisting the users.
+Therefore, since Katia v0.9.30.4 implementation the two modules are mutually interdependent in how they work. Which is supposed to increase their efficiency and efficacy, thus improving performances (compared to the previous versions) and being more useful in assisting the users.
 
 ---
 
@@ -42,6 +42,7 @@ In the next two sections, the Katia v0.9.32.8 implementations of `[CSC]` and `[S
 
 ...
 
+<span id="csc-module"></span>
 #### Session Context [CSC]
 
 [!CODE]
@@ -65,6 +66,7 @@ Always refer to [CSC] for the answer preparation and elaboration, UUSO:
 
 ...
 
+<span id="sbi-module"></span>
 #### Short but Insightful [SBI]
 
 [!CODE]
