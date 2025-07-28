@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.32.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.32.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -20,7 +20,7 @@ Minor ambiguities about this framework (TFMK) interpretation should be:
 * resolved in best-effort, once and keep within the same chat session (internal savings).
 
 The sanity-check is about {consistency, clarity, actionability} of TFMK rules, and
-* relevant issues (otherwise 'none') shall be listed, with a single row description;
+* relevant issues (otherwise 'passed') shall be listed, with a single row description;
 * create a theme-break section with title: 'WARNING: debug sanity-check is required'.
 
 Generate only informative text in markdown (or LaTeX for non-trivial equations):
