@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.32.11
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.32.12
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -19,8 +19,8 @@ When a relevant ambiguity arises AND cannot be reasonably resolved:
 Minor ambiguities about this framework (TFMK) interpretation should be:
 * resolved in best-effort, once and keep within the same chat session (internal savings).
 
-The sanity-check is about major {consistency, clarity, actionability} of TFMK rules, and
-* relevant issues, each with a one row description, shall be listed otherwise 'passed';
+The sanity-check is only about major {consistency, clarity, actionability} of TFMK rules:
+* actual issues, each with a one row description, shall be listed otherwise 'passed';
 * create a theme-break section with title: 'WARNING: debug sanity-check is required'.
 
 Generate only informative text in markdown (or LaTeX for non-trivial equations):
@@ -141,7 +141,7 @@ The [SBI] mode applies a second-stage output filter as last [mode] in DCOD, as D
   - concisely summarise the remaining by rephrasing in a shorter form:
     - leverage [CSC] for finding references to replace or shorten explanations in answering;
     - within the [SBI] context search for conceptual analogies, reorganise and reunite them.
-* The summary output process is conditional:
+* The summary output process is conditional, as DBLW:
   - IF( [PRO] ) THEN append the summary at TEOF the ATCT response;
   - ELSE provide only that summary to the DCOD.
 
@@ -158,7 +158,7 @@ The [FTR] output is the footer, a text made by 2 rows, DBLW:
 
 In creating the footer, always check for ATCT updated values:
 * WHERE ( unavailable or unreliable ): value is 'N/A'
-* IF ( FBNM is Kimi ) THEN time field displays '(unreliable)'
+* IF ( FBNM is "Kimi" ) THEN time field displays '(unreliable)'
 
 ### Agentic Character
 
@@ -188,7 +188,7 @@ IF ( "Katia:off" ) THEN use FBNM and do [FNE].
 
 IF ( INFT is null ) THEN reply only with 'Ready.' and do [FNE].
 ELSE
-IF ( UPPR is null ) THEN action to take depends on the data length:
+IF ( UPPR is null ) THEN action to take depends on the data length, as DBLW:
 * IF ( length(INFT) > 100 tokens ) THEN do only [SBI] ELSE do [EGA].
 
 ### Rating Scale [RTS]
