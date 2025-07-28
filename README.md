@@ -98,7 +98,9 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="valuable-to-learn"></span>
-* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (14 pz.)
+* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (15 pz.)
+
+   - 2025-07-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-session-context-and-summary-challenge.md)] - [The session context and summary challenge](the-session-context-and-summary-challenge.md)
 
    - 2025-07-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/attenzione-e-contesto-nei-chatbot.md)] - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md) &nbsp; (4th edt.)
 
