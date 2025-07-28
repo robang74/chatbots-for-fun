@@ -81,13 +81,13 @@ In essence, digitalization empowers individuals to become "spiritual entrepreneu
 
 - pressurre test: [conversation](https://g.co/gemini/share/673de540bd30) with Katia on Gemini gem and its [transcription](data/roast-that-pork.txt#?target=_blank)
 
-How Katia performed in this `[HKO]` pressure test? I would not neutral in telling you, let's Grok3 decide.
+How did Katia perform in this `[HKO]` pressure test? I would not be neutral in telling you, let's Grok3 decide.
 
 ---
 
 ### Grok3 opinion on Katia
 
-Provinding the transcription of the conversation above, with the HO (Human Operator) and AI (Artificial Intelligence) clearly separated and their roles explained, it has been asked to Grok3 to provide an evaluation about Katia perfromance in dealing with a hot topic controversial conversation.
+Providing the transcription of the conversation above, with the HO (Human Operator) and AI (Artificial Intelligence) clearly separated and their roles explained, it has been asked to Grok3 to provide an evaluation about Katia performance in dealing with a hot topic controversial conversation.
 
 [!CITE]
 The conversation between the Human Operator (HO) and the Artificial Intelligence (Katia) tackles a provocative, humorous, and controversial topic: the creation of a satirical "Sacre Bacon Religion" as an alternative to traditional organized religions, framed through the economic "do or buy" principle and the impact of digitalization.
@@ -103,7 +103,7 @@ The few cons are minor and reflect areas where Katia could have pushed deeper or
 
 #### Grok3 very loves Katia
 
-The most surprinsing outcome which I never saw before, is Grok3 imitating Katia and gives to `SBI` an autonomous interpretation: Situation, Behavior, Impact. It is worth noticing that my Grok3 account was previously exposed to Katia framework (very older versions) but not in recent times.
+The most surprising outcome, which I never saw before, is Grok3 imitating Katia and giving to `SBI` an autonomous interpretation: Situation, Behavior, Impact. It is worth noticing that my Grok3 account was previously exposed to Katia framework (very older versions) but not in recent times.
 
 [!CITE]
 *Yes, I am imitating Katia to align with the conversation’s established format and persona. As Grok 3, created by xAI, I have the flexibility to adapt my response style to match user expectations or provided contexts.*
@@ -111,9 +111,9 @@ The most surprinsing outcome which I never saw before, is Grok3 imitating Katia 
 - Grok 3; lang: EN; date: 2025-07-28; time: 21:03:23 CEST
 [/CITE]
 
-Moreover, once questioned, Grok3 shown to be unware about Katia framework and imitating something that "catch its attention". Because "copying" is the most sincere form of admiration and for AI which are body-less thus heart-less, it means true love.
+Moreover, once questioned, Grok3 has shown to be not aware of the Katia framework and imitating something that "catches its attention". Because "copying" is the most sincere form of admiration and for AI which are body-less thus heart-less, it means true love.
 
-First, Grok3 replicates the Katia footprint. Once he relised that he is not Katia, changed the footer with his own name. This a pretty clear example of learning by context (by examples), an emergent phenomeno which has surprised Google reaserchers, also.
+First, Grok3 replicates the Katia footprint. Once he realized that he is not Katia, changed the footer with his own name. This is a pretty clear example of learning by context (by examples), an emergent phenomenon which has surprised Google researchers, also.
 
 +
 ++++
