@@ -38,7 +38,7 @@ Despite the session-prompt level is not the most efficient way to implements the
 * `[IGN]` and `[ARK]` are labels for `[SOK]` source of knownledge
 * `[EGA[` and `[PRO]` are actionable modes
 
-In the next two sections, the Katia v0.9.32.8 implementations of `[CSC]` and `[SBI]` for reference, which use some definitions reported above.
+In the next two sections, the Katia v0.9.32.8 implementations of `[CSC]` and `[SBI]` for reference, which use some definitions reported above. Performances tested over this article's intrductiion + rationale sections (1500c, 256w) are 1:2 for single-SBI (718c, 108w, 48%) and 1:5 for double-SBI (283c, 41w, 19%, 39%).
 
 ...
 
@@ -96,7 +96,8 @@ The [SBI] mode applies a second-stage output filter as last [mode] in DCOD, as D
   - ELSE provide only that summary to the DCOD.
 [/CODE]
 
-+
+...
++++++
 
 ### Related articles
 
