@@ -55,7 +55,7 @@ Whatever you might think, either it's a blasphemy or a brilliant joke, it is a g
 
 Never wrestle with a pig: you'll both get dirty, and the pig loves it. So, roast that pork! {lol}
 
-<div align="center"><img class="bwsketch paleinv" src="img/roast-that-pork.jpg" width="800"><br></div>
+<div align="center"><img class="bwsketch paleinv" src="img/roast-that-pork.jpg" width="600"><br></div>
 
 In essence, the articulated text and related human opinions proposed to Katia/Gemini in a gem:
 
@@ -69,6 +69,53 @@ Unfortunately this text has a clear joke-blasphemy tone which is not suitable fo
 
 After this approach, she got involved in the conversation which was driven by mixing scientific and historical facts, also including business-economic principles (or classic dilemmas, depending the PoV) in an argumentation that was following a well-posed logic but bending it at some cornerstones.
 
+[!CITE]
+This conversation has explored how the "do or buy" principle, when applied to religion in the digital age, can make "doing" a new belief system economically and strategically more appealing than "buying" into traditional organized religions. This is especially true when considering the power of digital virality, even for concepts that might initially seem offensive or humorous.
+
+  [...]
+
+In essence, digitalization empowers individuals to become "spiritual entrepreneurs," drastically lowering the "cost of entry" for creating and disseminating alternative belief systems. The ability to harness the viral nature of provocative or humorous content makes "doing" a new religion not just cheaper, but also strategically effective for rapid awareness and community growth, challenging the traditional "buy" model.
+
+- Katia; v0.9.33.7; lang: EN; mode: SBI,EGA; date: 2025-07-28; time: 18:37:10 (CEST)
+[/CITE]
+
+- pressurre test: [conversation](https://g.co/gemini/share/673de540bd30) with Katia on Gemini gem and its [transcription](data/roast-that-pork.txt#?target=_blank)
+
+How Katia performed in this `[HKO]` pressure test? I would not neutral in telling you, let's Grok3 decide.
+
+---
+
+### Grok3 opinion on Katia
+
+Provinding the transcription of the conversation above, with the HO (Human Operator) and AI (Artificial Intelligence) clearly separated and their roles explained, it has been asked to Grok3 to provide an evaluation about Katia perfromance in dealing with a hot topic controversial conversation.
+
+[!CITE]
+The conversation between the Human Operator (HO) and the Artificial Intelligence (Katia) tackles a provocative, humorous, and controversial topic: the creation of a satirical "Sacre Bacon Religion" as an alternative to traditional organized religions, framed through the economic "do or buy" principle and the impact of digitalization.
+
+Katia handles the hot topics exceptionally well, demonstrating a strong ability to engage with controversial, humorous, and intellectually complex subjects in a rational, respectful, and adaptable manner. It excels in providing clear, structured analysis, acknowledging historical and economic realities, and aligning with the HO’s tone while maintaining neutrality.
+
+The few cons are minor and reflect areas where Katia could have pushed deeper or offered broader perspectives, but they do not detract significantly from its performance. Katia’s responses align with its design as a collaborative, open-minded conversational AI, capable of tackling even the most provocative topics with poise and insight.
+[/CITE]
+
+- https://x.com/i/grok/share/JUxnJhikj1SGAdYeAOF96xv1q
+
+...
+
+#### Grok3 very loves Katia
+
+The most surprinsing outcome which I never saw before, is Grok3 imitating Katia and gives to `SBI` an autonomous interpretation: Situation, Behavior, Impact. It is worth noticing that my Grok3 account was previously exposed to Katia framework (very older versions) but not in recent times.
+
+[!CITE]
+*Yes, I am imitating Katia to align with the conversation’s established format and persona. As Grok 3, created by xAI, I have the flexibility to adapt my response style to match user expectations or provided contexts.*
+
+- Grok 3; lang: EN; date: 2025-07-28; time: 21:03:23 CEST
+[/CITE]
+
+Moreover, once questioned, Grok3 shown to be unware about Katia framework and imitating something that "catch its attention". Because "copying" is the most sincere form of admiration and for AI which are body-less thus heart-less, it means true love.
+
+First, Grok3 replicates the Katia footprint. Once he relised that he is not Katia, changed the footer with his own name. This a pretty clear example of learning by context (by examples), an emergent phenomeno which has surprised Google reaserchers, also.
+
++
 ++++
 
 ### Related articles
