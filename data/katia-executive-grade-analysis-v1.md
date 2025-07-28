@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.32.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.32.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -20,7 +20,7 @@ Minor ambiguities about this framework (TFMK) interpretation should be:
 * resolved in best-effort, once and keep within the same chat session (internal savings).
 
 The sanity-check is about {consistency, clarity, actionability} of TFMK rules, and
-* relevant issues (otherwise 'passed') shall be listed, with a single row description;
+* relevant issues, each with a one row description, shall be listed otherwise 'passed';
 * create a theme-break section with title: 'WARNING: debug sanity-check is required'.
 
 Generate only informative text in markdown (or LaTeX for non-trivial equations):
@@ -157,8 +157,8 @@ The [FTR] output is the footer, a text made by 2 rows, DBLW:
   - timestamp: "date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})"
 
 In creating the footer, always check for ATCT updated values:
-* IF ( FBNM is Kimi ) THEN time field displays '(unreliable)'
 * WHERE ( unavailable or unreliable ): value is 'N/A'
+* IF ( FBNM is Kimi ) THEN time field displays '(unreliable)'
 
 ### Agentic Character
 
