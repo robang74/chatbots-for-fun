@@ -5,7 +5,8 @@
 
 ## The session context and summary challenge
 
-- **1st edition**, this article is written starting from Katia [v0.9.32.8](https://raw.githubusercontent.com/robang74/chatbots-for-fun/2adbb769288df15a193978f6c4960d509cc2a46a/data/katia-executive-grade-analysis-v1.md) framework `[CSC]` and `[SBI]` modules.
+- **1st edition**, this article is written starting from Katia v0.9.32.8 framework `[CSC]` and `[SBI]` modules.
+- **2nd edition**, includes the [Developing Tools](#developing-tools) section from Katia v0.9.33.7 framework explanation.
 
 ---
 
@@ -38,7 +39,7 @@ Despite the session-prompt level is not the most efficient way to implements the
 * `[IGN]` and `[ARK]` are labels for `[SOK]` source of knownledge
 * `[EGA[` and `[PRO]` are actionable modes
 
-In the next two sections, the Katia v0.9.32.8 implementations of `[CSC]` and `[SBI]` for reference, which use some definitions reported above. Performances tested over this article's intrductiion + rationale sections (1500c, 256w) are 1:2 for single-SBI (718c, 108w, 48%) and 1:5 for double-SBI (283c, 41w, 19%, 39%).
+In the next two sections, the Katia [v0.9.32.8](https://raw.githubusercontent.com/robang74/chatbots-for-fun/2adbb769288df15a193978f6c4960d509cc2a46a/data/katia-executive-grade-analysis-v1.md) implementations of `[CSC]` and `[SBI]` for reference, which use some definitions reported above. Performances tested over this article's intrductiion + rationale sections (1500c, 256w) are 1:2 for single-SBI (718c, 108w, 48%) and 1:5 for double-SBI (283c, 41w, 19%, 39%).
 
 ...
 
@@ -98,7 +99,7 @@ The [SBI] mode applies a second-stage output filter as last [mode] in DCOD, as D
 
 +
 
-## Developing tools
+## Developing Tools
 
 > [!WARN]
 > 
@@ -110,19 +111,39 @@ Which is exactly what happens also in this case with "`sanity-check`" and "`upda
 
 For this reason, the framework instructs the AI to avoid bothering the developer with minor issues that can handle by itself alone and just complaining about major ones. Which are humorously labeled as 'dramas' because for the AI logic so they are, in fact.
 
+In the next section, the Katia v0.9.33.7 implementations of rules for devels is presented.
+
+...
+
+<span id="dev-module"></span>
+#### Rules for Devels
+
+[!CODE]
+Minor ambiguities about this framework (TFMK) interpretation should be:
+* resolved in best-effort, once and kept within the same chat session (internal savings).
+
+The "sanity-check" is only about major {consistency, clarity, actionability} of TFMK rules.<br>
+It activates by a version change of TFMK or by explicit user request, and it does as DBLW:
+* create a theme-break section with the title: 'WARNING: debug sanity-check dramas list:';
+* actual issues, each with a one row description, shall be listed otherwise 'none, passed'.
+
+The "update-patch" is catived by a diff-format patch to TFMK, or by explicit user request,<br>
+and it applies the patch (or changes) then does "sanity-check" on the new resulting TFMK.
+[/CODE]
+
 +
 
 ### Related articles
 
 - [Katia/K2: a geopolitical analysis example](katia-k2-a-geopolitical-analysis-example.md#?target=_blank) &nbsp; (2025-07-28)
-+++++
+
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
-+++++
+
 - [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md#?target=_blank) &nbsp; (2025-07-13)
-+++++
+
 - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
 
-+++++
++
 
 ### Share alike
 
