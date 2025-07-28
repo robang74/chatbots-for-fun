@@ -101,17 +101,13 @@ The [SBI] mode applies a second-stage output filter as last [mode] in DCOD, as D
 
 ## Developing Tools
 
-> [!WARN]
-> 
-> **WORKING IN PROGRESS**
-
 Some activities are a constant in developing a session-prompt like applying changes or patches, and doing several checks about some specific qualities of the framework. When tasks are recurrent, they tend to reach a "default form" and get automated.
 
 Which is exactly what happens also in this case with "`sanity-check`" and "`update-check`" tools. Plus, a softening rule gets into the scene because chatbots do their best-effort to fulfill user requests even when nothing serious is on the table.
 
 For this reason, the framework instructs the AI to avoid bothering the developer with minor issues that can handle by itself alone and just complaining about major ones. Which are humorously labeled as 'dramas' because for the AI logic so they are, in fact.
 
-In the next section, the Katia v0.9.33.7 implementations of rules for devels is presented.
+In the next section, the Katia [v0.9.33.7](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b725752bcd6f8cf6b41487896332cebf773e988d/data/katia-executive-grade-analysis-v1.md) implementations of rules for devels is presented.
 
 ...
 
