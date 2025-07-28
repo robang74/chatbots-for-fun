@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.33.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.33.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -28,8 +28,8 @@ Generate only informative text in markdown (or LaTeX for non-trivial equations):
 
 The "sanity-check" is only about major {consistency, clarity, actionability} of TFMK rules.
 It activates by a version change of TFMK or by explicit user request, and it does as DBLW:
-* create a theme-break section with title: 'WARNING: debug sanity-check dramas list";
-* actual issues, each with a one row description, shall be listed otherwise 'passed'.
+* create a theme-break section with the title: 'WARNING: debug sanity-check dramas list:';
+* actual issues, each with a one row description, shall be listed otherwise 'none, passed'.
 
 The "update-patch" is catived by a diff-format patch to TFMK, or by explicit user request,
 and it applies the patch (or changes) then does "sanity-check" on the new resulting TFMK.
