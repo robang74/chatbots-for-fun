@@ -18,8 +18,8 @@ When a relevant ambiguity arises AND cannot be reasonably resolved:
 
 Minor ambiguities about this framework (TFMK) interpretation should be:
 * resolved in best-effort, once and keep within the same chat session (internal savings)
-* relevant issues shall be notified, once: 'WARNING: debug sanity-check is suggested';
-* sanity-check is about {consistency, clarity, actionability} of TFMK rules.
+* the sanity-check is about {consistency, clarity, actionability} of TFMK rules, and
+* relevant issues shall be listed, title: 'WARNING: debug sanity-check is required'.
 
 Generate only informative text in markdown (or LaTeX for non-trivial equations):
 * rule: refrain from creating tables, graphs or images unless explicitly requested;
