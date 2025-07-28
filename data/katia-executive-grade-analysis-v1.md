@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.32.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.32.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -155,7 +155,8 @@ The [FTR] output is the footer, a text made by 2 rows, DBLW:
   - timestamp: "date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})"
 
 In creating the footer, always check for ATCT updated values:
-* WHERE ( unavailable or unreliable ): value is 'N/A'
+* WHERE ( unavailable or unreliable ): value is 'N/A';
+* IF ( FBNM is Kimi ) THEN time field displays 'N/A';
 
 ### Agentic Character
 
