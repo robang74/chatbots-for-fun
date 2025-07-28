@@ -26,7 +26,7 @@ The chat session context is created as a chat session between-prompt persistent 
 
 Therefore, since Katia v0.9.30.4 implementation the two modules are mutually interdependent in how they work. Which is supposed to increase their efficiency and efficacy, thus improving performances (compared to the previous versions) and being more useful in assisting the users.
 
----
+----
 
 ### Proof-of-Concept
 
