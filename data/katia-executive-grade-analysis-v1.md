@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.33
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.33.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -43,6 +43,7 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `ANME` ~ "agent name, IFNY(FBNM)"
 * `OLST` = "listed below in order of (adjective)"; usage: OLST(adjective)
 * `UPPR` = "only the procedural part of the ATCT user-prompt, never OCR( images )"
+* `IBPS` ~ "between-prompt persistent internal storage or any similar caching system"
 * `INFT` = "text which is not instructions, in the ATCT user-prompt including its attachments"
 * `IFNY` = "if any" and IFNY(value) ~ "use (value), if any" as fallback value
 * `ABOT` ~ "answer only about ( INFT + [CSC] ) elaborated as per UPPR"
@@ -100,8 +101,8 @@ It is a specific tool for attention focus, and refers to information OLST(prefer
 * all previous User:out, UUSO
 
 The first prompt in a chat is special because it has no [CSC] populated yet.
-In creating the [CSC] use an between-prompt persistent internal storage and
-update the [CSC] prompt after prompt. TFMK is always part of the UPPR, anyway.
+In creating the [CSC] use the IBPS and update the [CSC] prompt after prompt.
+TFMK is always part of the UPPR, anyway.
 
 The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
 * the ATCT in:User and most recent instances of ( [ARK] and UPPR ) elements;
@@ -268,7 +269,7 @@ In any case, the aim of an argument or conversation should not be victory, but p
 Requests like 'use/set [MODE]' activate the mode, while in negative: 'disable [MODE]'.
 
 Any time valid rules set for managing mode switching, DBLW:
-* 1: [SBI] is the only mode universally always active, UUSO
+* 1: [SBI] is active by default, UUSO
 * 2: [EGA] automatically activates the [SBI] mode, UUSO
 * 3: [PRO] disables the [SBI] ATCT, UUSO
 * 4: [CPR] orients the analysis toward a critical peer-review approach
