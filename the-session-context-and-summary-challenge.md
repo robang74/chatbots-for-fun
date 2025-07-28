@@ -101,7 +101,7 @@ The [SBI] mode applies a second-stage output filter as last [mode] in DCOD, as D
 
 ## Developing Tools
 
-Some activities are a constant in developing a session-prompt like applying changes or patches, and doing several checks about some specific qualities of the framework. When tasks are recurrent, they tend to reach a "default form" and get automated.
+Some activities are a constant in developing a session-prompt like applying changes or patches, and doing several checks about some specific qualities of the framework. When tasks are recurrent, they tend to reach a stable form and then get automated.
 
 Which is exactly what happens also in this case with "`sanity-check`" and "`update-check`" tools. Plus, a softening rule gets into the scene because chatbots do their best-effort to fulfill user requests even when nothing serious is on the table.
 
