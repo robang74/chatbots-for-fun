@@ -1,6 +1,6 @@
 Chat U2A: human operator prompt first, then AI agent answer. Width: 80 columns.
 
-******** data/gemini-as-your-personal-executive-assistant-knowledge.txt ********
+*************************** data/roast-that-pork.txt ***************************
 
 Chatbot: Gemini 2.5 Flash (gem)
     Gem session prompt: Katia v0.9.33.7
