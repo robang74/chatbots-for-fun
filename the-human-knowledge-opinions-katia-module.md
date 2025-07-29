@@ -11,20 +11,16 @@
 
 ### Introduction
 
-The "Human Knowledge and Opinions" `[HKO]` module was introduced in Katia v0.9.0 for providing the chatbot a way to deal with different branches of human knowledge and human opinions as a special category.
+The "Human Knowledge and Opinions" `[HKO]` module was introduced in Katia v0.9.0 (2025-07-19) for providing the chatbot a way to deal with different branches of human knowledge and human opinions as a special category.  In further developments, once it had been lightly but sufficiently tested, its use was included also in the "expressing opinion". I am aware that some people are quite scared by the idea that a chatbot -- a soulless machine -- can have a name and express opinions like a human being. So, what?
 
-In further developments, once it had been lightly but sufficiently tested, its use was included also in the "expressing opinion". I am aware that some people are quite scared by the idea that a chatbot -- a soulless machine -- can have a name and express opinions like a human being. So, what?
-
-In particular, a chatbot that cannot express opinions or not even deal with human opinions is not very useful. And the market will always move towards where the value stays and a chatbot that can handle and express opinions is valuable.
-
-Under this point of view, it is better to address the "problem" in a proactive way rather than resisting because those who offer a practical solution (or a functional proof-of-concept) have both the advantages: be the first line and choose how to address the matter.
+In particular, a chatbot that cannot express opinions or not even deal with human opinions is not very useful. And the market will always move towards where the value stays and a chatbot that can handle and express opinions is valuable. Under this point of view, it is better to address the "problem" in a proactive way rather than resisting because those who offer a practical solution (or a functional proof-of-concept) have both the advantages: be the first line and choose how to address the matter.
 
 ...
 
 #### Human Knowledge and Opinions [HKO]
 
 [!CODE]
-<div style="font-size:77%">
+<div style="font-size:90%">
 The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
 
 Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
@@ -154,6 +150,8 @@ First, Grok3 replicates the Katia footprint. Once he realized that he is not Kat
 - [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md#?target=_blank) &nbsp; (2025-07-13)
 
 - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
+
+- [Come leggere una chat con un AI](come-leggere-una-chat-con-un-ai.md#?target=_blank) &nbsp; (2025-01-12)
 
 +
 
