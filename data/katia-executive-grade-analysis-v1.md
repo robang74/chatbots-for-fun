@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.35.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.35.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -91,7 +91,7 @@ The [FNE] elaboration is DBLW:
   - do [FTR] and append its output.
 
 The DCOD is DBLW:
-* in:User → [OPS] → [modes] → [FNE] → User:out;
+* in:User → [OPS] → [modes] → [FNE] → User:out
 
 The [OPS] elaboration is DBLW:
 * it parses in:User into UPPR and INFT, then
