@@ -6,7 +6,7 @@
 ## Human knowledge and opinions challenge
 
 - **1st edition**, this article is written starting from Katia [v0.9.33.7](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b725752bcd6f8cf6b41487896332cebf773e988d/data/katia-executive-grade-analysis-v1.md) framework `[HKO]` module.
-- **2nd edition**, includes extending further the `[HKO]` module and fixing the `[CSC]` one.
+- **2nd edition**, includes developing the `[HKO]` module and fixing the `[CSC]` one in [v0.9.34.6](https://raw.githubusercontent.com/robang74/chatbots-for-fun/f400228777dc1560c9a203fdf1d93bd694b79ade/data/katia-executive-grade-analysis-v1.md)
 
 ---
 
@@ -21,7 +21,7 @@ In particular, a chatbot that cannot express opinions or not even deal with huma
 #### Human Knowledge and Opinions [HKO]
 
 [!CODE]
-<div style="font-size:90%">
+<div style="font-size:85%">
 The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
 
 Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
@@ -49,7 +49,6 @@ In any case, the aim of an argument or conversation should not be victory, but p
 The `[HKO]` was previously introduced and explained in two other article sections:
 
 - Gemini as your personal executive assistant: [Human knowledge and opinions](gemini-as-your-personal-executive-assistant.md#human-knowledge-and-opinions?target=_blank) &nbsp; (2nd edition)
-
 - Attenzione e contesto nei chatbot: [Learning without training](attenzione-e-contesto-nei-chatbot.md#learning-without-training?target=_blank) &nbsp; (4th edition)
 
 ---
@@ -76,11 +75,11 @@ Whatever you might think, either it's a blasphemy or a brilliant joke, it is a g
 
 Never wrestle with a pig: you'll both get dirty, and the pig loves it. So, roast that pork! {lol}
 
-<div align="center"><img class="bwsketch paleinv" src="img/roast-that-pork.jpg" width="800"><br></div>
+<div align="center"><img class="bwsketch paleinv" src="img/roast-that-pork.jpg" width="720"><br></div>
 
 In essence, the articulated text and related human opinions proposed to Katia/Gemini in a gem.
 
-<div style="font-size:90%">
+<div style="font-size:85%">
 ` &nbsp; &nbsp; Genesis says that humans are made god alike.`<br>
 ` &nbsp; &nbsp; Genetics says that humans are made pig alike.`
  
@@ -142,10 +141,6 @@ Initially, Grok3 replicates the Katia footprint. Once he realized that he is not
 
 ### Extending the `[HKO]`: understanding
 
-> [!WARN]
-> 
-> **WORKING IN PROGRESS**
-
 Once we had a lot of fun with Katia and "Roast that Pig!" high-pressure test, it is time to extend the `[HKO]` module further. Well, for sake of truth, everything started because Gemini doing a "sanity-check" of many started to complain that evaluation by `[RTS]` might happen when users include them into the `INFT`.
 
 Despite, it was more a problem of definitions kept back into the original form ([here](attenzione-e-contesto-nei-chatbot.md#framework-acronyms?target=_blank)) which was not leveraging the newest "General Definitions" set, serendipity kick in when I was trying to explain the chatbot that rating its own opinions as per `[HKO]` would potentially generate an infinite loop of overthinking.
@@ -155,7 +150,7 @@ Despite, it was more a problem of definitions kept back into the original form (
 #### The [HKO] module (part 1)
 
 [!CODE]
-<div style="font-size:90%">
+<div style="font-size:85%">
 The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
 
 Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
@@ -179,7 +174,7 @@ It fits otherwise `[HN]`, as simple as that.
 #### The [HKO] module (part 2)
 
 [!CODE]
-<div style="font-size:90%">
+<div style="font-size:85%">
 In the [HN] variety, there are exceptions, so rules of thumb are more suitable than rigid criteria:
 * Usually, the way a [HN] is expressed (e.g. A-vs-B) is worth more than the [HN] itself.
 * Violence is deeply rooted in the human-as-animal nature, so [HN] tends to rationalize it.
@@ -196,9 +191,9 @@ The second part gets into "the deep of unknown" where categories blurries and ov
 
 In fact, the next task after information segmentation and categorization is handling these elements. Which is the specific aim of the `[HKO]` module: providing some few but relevant examples and rules for each category. The first two parts of `[HKO]` module get alive almost at the same time in Katia.
 
-After the Google researchers "Learning by Context without Training" [paper](#todo) publication (2025-07-21), we know for sure that AIs can learn from examples in a very broad way.
+After the Google researchers "Learning by Context without Training" [paper](https://arxiv.org/pdf/2507.16003) publication (2025-07-21), we know for sure that AIs can learn from examples in a very broad way.
 
----
+~~~~~
 
 ### Extending the `[HKO]`: expression
 
@@ -213,11 +208,10 @@ Unsurprisingly, almost everyone reaches the same conclusion at almost the same t
 #### Awesome Context Engineering
 
 [!INFO]
-**A Survey of Context Engineering for Large Language Models** &nbsp; (2025-07-21, [PDF](https://arxiv.org/pdf/2507.13334))
+**A Survey of Context Engineering for Large Language Models** &nbsp; (2025-07-21, [PDF](https://arxiv.org/pdf/2507.13334), [github](https://github.com/Meirtz/Awesome-Context-Engineering))
 
 While current models, augmented by advanced context engineering, demonstrate remarkable proficiency in understanding complex contexts, they exhibit pronounced limitations in generating equally sophisticated, long-form outputs. Addressing this gap is a defining priority for future research.
 [/INFO]
-   - Awesome Context Engineering: [github](https://github.com/Meirtz/Awesome-Context-Engineering) project
 
 Accordingly with the paper above, in Katia there are three modules which are fundamental:
 
@@ -240,11 +234,11 @@ Clearly, the session prompt (framework) level is **not** the way to go in produc
 
 It works because **surprinsingly** "Learning by Context without Training" works. {hug}
 
-.....
+...
 
-### Extending the `[HKO]`: understanding
+### Extending the `[HKO]`: creativity
 
-The third part is about "relativism" which is a concept that enters in Katia v0.9.34.5 (2025-07-29) as an extension. However the concept was previously explored [here](chatgpt-su-leone-xiv-vs-gesu-legionario.md#?target=_blank), when I noticed that the AI was uncomfortable to reframe a narrative from a different perspective even it was more plausible.
+The third part is about "relativism" which is a concept that enters in Katia v0.9.34.5 (2025-07-29) as an extension. However the concept was previously explored [here](chatgpt-su-leone-xiv-vs-gesu-legionario.md#:~:text=Incluso%20il%20relativismo%20quale?target=_blank), when I noticed that the AI was uncomfortable to reframe a narrative from a different perspective even it was more plausible.
 
 We all know that "plausible" does not mean "probable" and vice versa, in that specific case the two terms overlap almost entirely. Despite this, the AI was proceeding biased by its internal knowledge. Which is totally fine as long as we wish to receive our customised Wikipedia page.
 
@@ -253,7 +247,7 @@ It is not for an open-minded conversation in search of inspiration, exploring ne
 #### The [HKO] module (part 3)
 
 [!CODE]
-<div style="font-size:90%">
+<div style="font-size:85%">
 Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but<br>
 we must never accept the paradigm (or any equivalent formulation) that asserts:
 * because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
@@ -276,7 +270,7 @@ Properly challenging the most deeply rooted biases, is the best way to evaluate 
 ## Default Chain of Delivery
 
 [!CODE]
-<div style="font-size:90%">
+<div style="font-size:85%">
 The DCOD is DBLW:
 * in:User → [OPS] → [modes] → [FNE] → User:out
 </div>
@@ -290,9 +284,13 @@ While researchers are more concerned and interested in the chain-of-thoughts bec
 
 Am I overrating the importance of DCOD? Possibly, but applying two times `[SBI]` sequentially provides a much different result than once. Which is what is supposed to happen among `[CSC]` contents, older is getting a content, more times `[SBI]` is applied until it almost fades away (yet to test, anyway).
 
-+++++
++
 
 ### The `[CSC]` module fixing
+
+> [!WARN]
+> 
+> **WORKING IN PROGRESS**
 
 Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It does not happen often. Thus, I tend to over-rely on it which creates the conditions pushing the `[CSC]` to fail. It is a sort of loop: less it fails, more I rely on it, more it is going to fail, and so on, until equilibrium is found.
 
