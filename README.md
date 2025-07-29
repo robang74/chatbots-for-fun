@@ -116,7 +116,7 @@ The articles are listed here below, grouped by topic:
 
    - 2025-05-08 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/fix-your-data-a-postponing-excuse.md)] - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md) &nbsp; (2nd edt.)
 
-   - 2025-05-02 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/la-sycophancy-nell-intelligenza-artificiale.md)] - [Il problema della sycophancy nell'intelligenza artificiale](la-sycophancy-nell-intelligenza-artificiale.md) &nbsp; (4th edt.)
+   - 2025-05-02 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/la-sycophancy-nell-intelligenza-artificiale.md)] - [Il problema della sycophancy nell'intelligenza artificiale](la-sycophancy-nell-intelligenza-artificiale.md) &nbsp; (5th edt.)
 
    - 2025-01-12 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/come-leggere-una-chat-con-un-ai.md)] - [Come leggere una chat con un AI](come-leggere-una-chat-con-un-ai.md)
 
@@ -139,7 +139,7 @@ The articles are listed here below, grouped by topic:
 
    - 2025-07-26 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/katia-k2-a-geopolitical-analysis-example.md)] - [Katia/K2: a geopolitical analysis example](katia-k2-a-geopolitical-analysis-example.md)
 
-   - 2025-06-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/is-free-will-an-illusion-or-a-kind-of-magic.md)] - [Is free-will an illusion or a kind of magic?](is-free-will-an-illusion-or-a-kind-of-magic.md)
+   - 2025-06-11 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/is-free-will-an-illusion-or-a-kind-of-magic.md)] - [Is free-will an illusion or a kind of magic?](is-free-will-an-illusion-or-a-kind-of-magic.md) &nbsp; (3rd edt.)
 
    - 2025-06-08 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-illusion-of-thinking.md)] - [The illusion of thinking](the-illusion-of-thinking.md) &nbsp; (2nd edt.)
 

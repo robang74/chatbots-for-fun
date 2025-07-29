@@ -6,7 +6,7 @@
 ## L'AI è un game-changer perché è onesta
 
 - Articolo scritto a partire da un [post](https://www.linkedin.com/posts/robertofoglietta_quattro-prescrizioni-di-tac-e-risonanze-activity-7342726841666867200-tHqK) pubblicato su LinkedIn lo stesso giorno.
-- La [notizia](https://www.ansa.it//canale_saluteebenessere/notizie/ospedali_italiani/2025/06/12/inappropriato-il-40-di-richieste-di-esami-in-sanita-lia-aiuta_2dc989ad-b80d-40a1-a0f6-a4a8a7fabc5b.html) a cui si fa riferimento, recentmente diventata virale, risale al 12 giugno 2025.
+   - La [notizia](https://www.ansa.it//canale_saluteebenessere/notizie/ospedali_italiani/2025/06/12/inappropriato-il-40-di-richieste-di-esami-in-sanita-lia-aiuta_2dc989ad-b80d-40a1-a0f6-a4a8a7fabc5b.html) a cui si fa riferimento, recentmente diventata virale, risale al 12 giugno 2025.
 
 ...
 
