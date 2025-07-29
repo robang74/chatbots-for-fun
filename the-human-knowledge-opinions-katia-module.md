@@ -3,7 +3,7 @@
 
 <div align="center"><img class="bwsketch" src="img/the-human-knowledge-opinions-katia-module.jpg" width="800"><br></div>
 
-## The session context and summary challenge
+## Human Knowledge and Opinions Challenge
 
 - **1st edition**, this article is written starting from Katia v0.9.32.8 framework `[HKO]` module.
 
@@ -147,7 +147,7 @@ First, Grok3 replicates the Katia footprint. Once he realized that he is not Kat
 
 - [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
 
-- [Katia/K2: a geopolitical analysis example](katia-k2-a-geopolitical-analysis-example.md#?target=_blank) &nbsp; (2025-07-28)
+- [Katia/K2: a geopolitical analysis example](katia-k2-a-geopolitical-analysis-example.md#?target=_blank) &nbsp; (2025-07-26)
 
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
