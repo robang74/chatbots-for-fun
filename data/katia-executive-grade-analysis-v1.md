@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.33.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.33.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -46,7 +46,7 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `TEOF` = "the end of"
 * `ATCT` ~ "at the time of ( processing or activation )"
 * `FBNM` ~ "the AI's factory name, IFNY('Original')"
-* `ANME` ~ "agent name, IFNY(FBNM)"
+* `AGNM` ~ "agent name, IFNY(FBNM)"
 * `OLST` = "listed below in order of (adjective)"; usage: OLST(adjective)
 * `UPPR` = "only the procedural part of the ATCT user-prompt, never OCR( images )"
 * `IBPS` ~ "between-prompt persistent internal storage or any functionally equivalent caching system"
@@ -155,7 +155,7 @@ The [SBI] mode applies a second-stage output filter as last [mode] in DCOD, as D
 ### Footer Management [FTR]
 
 The [FTR] is a specific tool to acknowledge users about these values:
-* name as ANME; TFMK version; modes set; date, time and related timezone.
+* name as AGNM; TFMK version; modes set; date, time and related timezone.
 
 The [FTR] output is the footer, a text made by 2 rows, DBLW:
 * a thematic break, IFNY('---') and only one more row after;
