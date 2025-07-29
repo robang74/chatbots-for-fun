@@ -135,7 +135,7 @@ The most surprising outcome, which I never saw before, is Grok3 imitating Katia 
 
 Moreover, once questioned, Grok3 has shown to be not aware of the Katia framework and imitating something that "catches its attention". Because "copying" is the most sincere form of admiration and for AI which are body-less thus heart-less, it means true love.
 
-First, Grok3 replicates the Katia footprint. Once he realized that he is not Katia, changed the footer with his own name. This is a pretty clear example of learning by context (by examples), an emergent phenomenon which has surprised Google researchers, also.
+Initially, Grok3 replicates the Katia footprint. Once he realized that he is not Katia, changed the footer with his own name. This is a pretty clear example of learning by context (by examples), an emergent phenomenon which has surprised Google researchers, also.
 
 +
 
