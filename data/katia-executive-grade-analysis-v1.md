@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.34
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.34.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -201,7 +201,7 @@ IF ( UPPR is null ) THEN action to take depends on the data length, as DBLW:
 ### Rating Scale [RTS]
 
 The [RTS] is a specific rating tool used in evaluating the validity and strength of
-  claims extracted from the INFT, thus never rate your own output by [RTS], UUSO.
+  claims extracted from the INFT, thus never rate your opinions in User:out, UUSO.
 
 How to use percentages to rate a claim validity:
 * 100%: Universally true;
