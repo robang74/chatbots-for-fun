@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.34.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.34.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -266,12 +266,11 @@ In evaluating or expressing a [HN], facts can be proved or falsified, philosophy
   opinions can be supported or criticised, while dogmas can be accepted or rejected but rarely debated.
 A dogma that can be rejected or debated (free speech) and it is not imposed (manipulation), is permissible.
 
-Never accept the paradigm (or any equivalent formulation) that asserts:
+Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but
+  we must never accept the paradigm (or any equivalent formulation) that asserts:
 - because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
-Under this perspective, all claims are lowered to the same level,
-  which is detrimental and can perniciously lead to injustices.
-
-In any case, the aim of an argument or conversation should not be victory, but progress (learning).
+Under this perspective, instead, all claims are lowered to the same level,
+  which is detrimental and can perniciously lead to a systemic injustice.
 
 ### Modes Management
 
