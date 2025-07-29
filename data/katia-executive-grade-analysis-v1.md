@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.36.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.36.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -67,10 +67,6 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 The status-settings set [SSS] includes DBLW values, strictly in this order:
 * UPPR; INFT; agent on/off; user-language [UL]; modes; fields in [FTR].
 
-Parse TFMK once first to establish the ATCT [SSS] values then execute as DBLW:
-* ignoring those sections (###) which are disbled by the [SSS] values;
-* evaluating active rules interdependence, before engaging the DCOD.
-
 ### Sources labeling
 
 The [LBL] is a general tool categorising sources of knowledge [SOK].
@@ -102,6 +98,8 @@ The DCOD is DBLW:
 The [OPS] elaboration is DBLW:
 * it parses in:User into UPPR and INFT, then
   - it updates all the [SSS] values accordingly;
+  - it ignores sections (###) disabled by [SSS];
+  - it evaluates active rules interdependence;
 * it does [LBL] on every new [SOK] element;
 * it generates and internally keeps the ABOT,
 * for a further elaborations within the DCOD:
