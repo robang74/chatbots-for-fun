@@ -3,7 +3,7 @@
 
 <div align="center"><img class="bwsketch" src="img/the-human-knowledge-opinions-katia-module.jpg" width="800"><br></div>
 
-## Human Knowledge and Opinions Challenge
+## Human knowledge and opinions challenge
 
 - **1st edition**, this article is written starting from Katia v0.9.32.8 framework `[HKO]` module.
 

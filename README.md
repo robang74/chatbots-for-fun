@@ -133,7 +133,9 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="uncategorised"></span>
-* **Yet uncategorised articles** &nbsp; (15 pz.)
+* **Yet uncategorised articles** &nbsp; (16 pz.)
+
+   - 2025-07-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-human-knowledge-opinions-katia-module.md)] - [Human knowledge and opinions challenge](the-human-knowledge-opinions-katia-module.md)
 
    - 2025-07-26 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/katia-k2-a-geopolitical-analysis-example.md)] - [Katia/K2: a geopolitical analysis example](katia-k2-a-geopolitical-analysis-example.md)
 
