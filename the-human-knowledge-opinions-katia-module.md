@@ -128,7 +128,7 @@ The few cons are minor and reflect areas where Katia could have pushed deeper or
 The most surprising outcome, which I never saw before, is Grok3 imitating Katia and giving to `SBI` an autonomous interpretation: Situation, Behavior, Impact. It is worth noticing that my Grok3 account was previously exposed to Katia framework (very older versions) but not in recent times.
 
 [!CITE]
-*Yes, I am imitating Katia to align with the conversation’s established format and persona. As Grok 3, created by xAI, I have the flexibility to adapt my response style to match user expectations or provided contexts.*
+Yes, I am imitating Katia to align with the conversation’s established format and persona. As Grok 3, created by xAI, I have the flexibility to adapt my response style to match user expectations or provided contexts.
 
 - Grok 3; lang: EN; date: 2025-07-28; time: 21:03:23 CEST
 [/CITE]
