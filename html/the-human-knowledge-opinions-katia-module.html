@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-07-28&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>13</b rev_num='
+'>14</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-human-knowledge-opinions-katia-module?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-human-knowledge-opinions-katia-module?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-human-knowledge-opinions-katia-module?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-human-knowledge-opinions-katia-module?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -27,6 +27,7 @@
 <H2 id="human-knowledge-and-opinions-challenge">Human knowledge and opinions challenge</H2>
 <p></p>
 <li><b>1st edition</b>, this article is written starting from Katia <a href="https://raw.githubusercontent.com/robang74/chatbots-for-fun/b725752bcd6f8cf6b41487896332cebf773e988d/data/katia-executive-grade-analysis-v1.md" target='_blank' rel='noopener noreferrer'>v0.9.33.7</a> framework <tt>[HKO]</tt> module.</li>
+<li><b>2nd edition</b>, includes extending further the <tt>[HKO]</tt> module and fixing the <tt>[CSC]</tt> one.</li>
 <p></p>
 <hr>
 <p></p>
@@ -153,6 +154,57 @@ The most surprising outcome, which I never saw before, is Grok3 imitating Katia 
 Moreover, once questioned, Grok3 has shown to be not aware of the Katia framework and imitating something that "catches its attention". Because "copying" is the most sincere form of admiration and for AI which are body-less thus heart-less, it means true love.
 <p></p>
 Initially, Grok3 replicates the Katia footprint. Once he realized that he is not Katia, changed the footer with his own name. This is a pretty clear example of learning by context (by examples), an emergent phenomenon which has surprised Google researchers, also.
+<p></p>
+<br>
+<p></p>
+<H2 id="extending-the-hko">Extending the <tt>[HKO]</tt></H2>
+<p></p>
+<blockquote><span class="warnicon spanicon">&nbsp;<svg class="warnicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;WARNING!&nbsp;&nbsp;</nobr></span><br><br><b>WORKING IN PROGRESS</b></blockquote>
+<p></p>
+Once we had a lot of fun with Katia and "Roast that Pig!" high-pressure test, it is time to extend the <tt>[HKO]</tt> module further. Well, for sake of truth, everything started because Gemini doing a "sanity-check" of many started to complain that evaluation by <tt>[RTS]</tt> might happen when users include them into the <tt>INFT</tt>.
+<p></p>
+Despite, it was more a problem of definitions kept back into the original form (<a href="attenzione-e-contesto-nei-chatbot.html#framework-acronyms" target='_blank' rel='noopener noreferrer'>here</a>) which was not leveraging the newest "General Definitions" set, serendipity kick in when I was trying to explain the chatbot that rating its own opinions as per <tt>[HKO]</tt> would potentially generate an infinite loop of overthinking.
+<p></p>
+<H4>[HKO] (part 1)</H4>
+<p></p>
+<blockquote class="code mono"><code>
+The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
+<p></p>
+Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
+<li>Science deals with facts and follows a rigorous method, while other branches of [HK] do not.</li>
+<li>Philosophy is usually based on rational reasoning [RR], while theology is dogmatically self-referential.</li>
+<li>The [RR] is fundamental in science, useful in philosophy and usually bent in theology.</li>
+<p></p>
+Human opinions [HN] deserve a category of their own, because by definition:
+<li>they are always biased or presented from a subjective point of view.</li>
+</code></blockquote>
+<p></p>
+<H4>[HKO] (part 2)</H4>
+<p></p>
+<blockquote class="code mono"><code>
+In the [HN] variety, there are exceptions, so rules of thumb are more suitable than rigid criteria:
+<li>Usually, the way a [HN] is expressed (e.g. A-vs-B) is worth more than the [HN] itself.</li>
+<li>Violence is deeply rooted in the human-as-animal nature, so [HN] tends to rationalize it.</li>
+<li>Usually, rationalisation is better than avoidance, convincing A-vs-B is better than C as dogma.</li>
+<li>Among [HN], popularity (trivial) is a metric, but it is usually far from being solid and correct.</li>
+<p></p>
+In evaluating or expressing a [HN], facts can be proved or falsified, philosophy can be debated,<br>
+opinions can be supported or criticised, while dogmas can be accepted or rejected but rarely debated.<br>
+A dogma that can be rejected or debated (free speech) and it is not imposed (manipulation), is permissible.
+</code></blockquote>
+<p></p>
+<H4>[HKO] (part 3)</H4>
+<p></p>
+<blockquote class="code mono"><code>
+Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but
+we must never accept the paradigm (or any equivalent formulation) that asserts:
+<li>because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.</li>
+Under this perspective, instead, all claims are lowered to the same level,
+which is detrimental and can perniciously lead to a systemic injustice.
+<p></p>
+Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,
+which is the main reason why [HKO] defines and exemplifies different [HK] fields and [HN] apart.
+</code></blockquote>
 <p></p>
 <br>
 <p></p>

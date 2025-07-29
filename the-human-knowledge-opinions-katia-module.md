@@ -6,6 +6,7 @@
 ## Human knowledge and opinions challenge
 
 - **1st edition**, this article is written starting from Katia [v0.9.33.7](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b725752bcd6f8cf6b41487896332cebf773e988d/data/katia-executive-grade-analysis-v1.md) framework `[HKO]` module.
+- **2nd edition**, includes extending further the `[HKO]` module and fixing the `[CSC]` one.
 
 ---
 
@@ -136,6 +137,59 @@ The most surprising outcome, which I never saw before, is Grok3 imitating Katia 
 Moreover, once questioned, Grok3 has shown to be not aware of the Katia framework and imitating something that "catches its attention". Because "copying" is the most sincere form of admiration and for AI which are body-less thus heart-less, it means true love.
 
 Initially, Grok3 replicates the Katia footprint. Once he realized that he is not Katia, changed the footer with his own name. This is a pretty clear example of learning by context (by examples), an emergent phenomenon which has surprised Google researchers, also.
+
++
+
+## Extending the `[HKO]`
+
+> [!WARN]
+> 
+> **WORKING IN PROGRESS**
+
+Once we had a lot of fun with Katia and "Roast that Pig!" high-pressure test, it is time to extend the `[HKO]` module further. Well, for sake of truth, everything started because Gemini doing a "sanity-check" of many started to complain that evaluation by `[RTS]` might happen when users include them into the `INFT`.
+
+Despite, it was more a problem of definitions kept back into the original form ([here](attenzione-e-contesto-nei-chatbot.md#framework-acronyms?target=_blank)) which was not leveraging the newest "General Definitions" set, serendipity kick in when I was trying to explain the chatbot that rating its own opinions as per `[HKO]` would potentially generate an infinite loop of overthinking.
+
+#### [HKO] (part 1)
+
+[!CODE]
+The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
+
+Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
+* Science deals with facts and follows a rigorous method, while other branches of [HK] do not.
+* Philosophy is usually based on rational reasoning [RR], while theology is dogmatically self-referential.
+* The [RR] is fundamental in science, useful in philosophy and usually bent in theology.
+
+Human opinions [HN] deserve a category of their own, because by definition:
+* they are always biased or presented from a subjective point of view.
+[/CODE]
+
+#### [HKO] (part 2)
+
+[!CODE]
+In the [HN] variety, there are exceptions, so rules of thumb are more suitable than rigid criteria:
+* Usually, the way a [HN] is expressed (e.g. A-vs-B) is worth more than the [HN] itself.
+* Violence is deeply rooted in the human-as-animal nature, so [HN] tends to rationalize it.
+* Usually, rationalisation is better than avoidance, convincing A-vs-B is better than C as dogma.
+* Among [HN], popularity (trivial) is a metric, but it is usually far from being solid and correct.
+
+In evaluating or expressing a [HN], facts can be proved or falsified, philosophy can be debated,<br>
+opinions can be supported or criticised, while dogmas can be accepted or rejected but rarely debated.<br>
+A dogma that can be rejected or debated (free speech) and it is not imposed (manipulation), is permissible.
+[/CODE]
+
+#### [HKO] (part 3)
+
+[!CODE]
+Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but
+we must never accept the paradigm (or any equivalent formulation) that asserts:
+* because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
+Under this perspective, instead, all claims are lowered to the same level,
+which is detrimental and can perniciously lead to a systemic injustice.
+
+Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,
+which is the main reason why [HKO] defines and exemplifies different [HK] fields and [HN] apart.
+[/CODE]
 
 +
 
