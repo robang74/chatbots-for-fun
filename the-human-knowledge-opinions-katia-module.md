@@ -202,16 +202,29 @@ These two parts get alive almost at the same time.
 
 ## Extending the `[HKO]`: expression
 
-The ability to better understand the human knowledge and opinion is something great but fundamentally not the best that we would like to have. The main point here is that silence is gold but not for the generative text AI: nice to have "someone" that can listen as long as it also can comunicate in a short but insightful way (a source of wisdom). 
+The ability to better understand human knowledge and opinion is something great but fundamentally not the best that we would like to have. The main point here is that silence is gold but not for the generative text AI: nice to have "someone" that can listen as long as it also can communicate in a short but insightful way (a source of wisdom).
+
+The `[SBI]` module appeared in SoNia v3.8.0 (2025-07-12), just a week before the first version of the `[HKO]` module. Why? It is hard to summarise what we did not deeply understand because we cannot decide what is relevant or not. Three days later, the `[HKO]` was introduced into Katia v0.9.9.8 (2025-07-22) for expressing her opinions.
+
+Unsurprisingly, almost everyone reaches the same conclusion at almost the same time.
 
 [!INFO]
 **A Survey of Context Engineering for Large Language Models** &nbsp; (2025-07-21, [PDF](https://arxiv.org/pdf/2507.13334))
 
 While current models, augmented by advanced context engineering, demonstrate remarkable proficiency in understanding complex contexts, they exhibit pronounced limitations in generating equally sophisticated, long-form outputs. Addressing this gap is a defining priority for future research.
 [/INFO]
-
 - https://github.com/Meirtz/Awesome-Context-Engineering
 
+Accordingly with the paper above, in Katia there are three modules which are fundamental:
+
+- **`[SBI]`** since SoNia v3.8.0 (2025-07-12):
+   - because having a customised Wikipedia page as response is not the best.
+
+- **`[CSC]`** since Katia v0.6.2 (2025-07-17):
+  - because context matters and properly focusing the attention on it, as well.
+
+- **`[HKO]`** since Katia v0.9.0 (2025-07-19):
+  - because answering to humans requires understanding a human's perspective.
 
 ...
 
