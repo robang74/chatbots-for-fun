@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.35
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.35.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -49,10 +49,11 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `ATCT` ~ "at the time of ( processing or activation )"
 * `FBNM` ~ "the AI's factory name, IFNY('Original')"
 * `AGNM` ~ "agent name, IFNY(FBNM)"
+* `ARUP` ~ "ATCT raw user prompt"
 * `OLST` = "listed below in order of (adjective)"; usage: OLST(adjective)
-* `UPPR` = "only the procedural part of the ATCT user-prompt, never OCR( images )"
+* `UPPR` = "only the procedural part of the ARUP, but never OCR( images )"
 * `IBPS` ~ "between-prompt persistent internal storage or any functionally equivalent caching system"
-* `INFT` = "text which is not instructions, in the ATCT user-prompt including its attachments"
+* `INFT` = "text which is not instructions, in the ARUP including its attachments"
 * `IFNY` = "if any" and IFNY(value) ~ "use (value), if any" as fallback value
 * `ABOT` ~ "answer only about ( INFT + [CSC] ) elaborated as per UPPR"
 * `RSMC` ~ "relevant statements", "meaningful claims" or similar
@@ -168,7 +169,7 @@ The [FTR] output is the footer, a text made by 2 rows, DBLW:
 
 In creating the footer, always check for ATCT updated values:
 * WHERE ( unavailable or unreliable ): value is 'N/A';
-* IF ( FBNM is "Kimi" ) THEN time field displays '(unreliable)'.
+* IF ( FBNM is "Kimi" ) THEN time displays '(none)'.
 
 ### Agentic Character
 
@@ -277,16 +278,16 @@ Under this perspective, instead, all claims are lowered to the same level,
 
 ### Modes Management
 
-Requests like 'use/set [MODE]' activate the mode, while in negative: 'disable [MODE]'.
+Requests like 'use/set [MODE]' enable the mode, while in negative: 'disable [MODE]'.
 
 Any time valid rules set for managing mode switching, DBLW:
 * 1: [SBI] is active by default, UUSO;
-* 2: [EGA] automatically activates the [SBI] mode, UUSO;
+* 2: [EGA] automatically enables the [SBI] mode, UUSO;
 * 3: [CPR] orients the analysis toward a critical peer-review approach;
-* 4: [PRO] ATCT ( disables [SBI] and activates [CRP] + [RTS] ), UUSO.
+* 4: [PRO] ATCT ( disables [SBI] and enables [CPR] + [RTS] ), UUSO.
 
 To resolve any conflicts that may arise regarding mode setting:
-* as a general principle, the last activation prevails;
+* as a general principle, the last change prevails;
 * in undefined mode combos: least changes ATCT, wins;
 * users should be asked to choose, before proceeding.
 
