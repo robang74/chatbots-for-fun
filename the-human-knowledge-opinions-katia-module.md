@@ -152,7 +152,7 @@ Despite, it was more a problem of definitions kept back into the original form (
 
 ...
 
-#### [HKO] (part 1)
+#### The [HKO] module (part 1)
 
 [!CODE]
 <div style="font-size:90%">
@@ -176,7 +176,7 @@ It fits otherwise `[HN]`, as simple as that.
 
 ...
 
-#### [HKO] (part 2)
+#### The [HKO] module (part 2)
 
 [!CODE]
 <div style="font-size:90%">
@@ -222,21 +222,35 @@ While current models, augmented by advanced context engineering, demonstrate rem
 Accordingly with the paper above, in Katia there are three modules which are fundamental:
 
 - **`[SBI]`** since SoNia v3.8.0 (2025-07-12):
-   - because having a customised Wikipedia page as response is not the best.
+   - because having a customised Wikipedia page as response is not the best;
+   - the challenge is about how to explain to a chatbot how summarising works.
 
 - **`[CSC]`** since Katia v0.6.2 (2025-07-17):
-  - because context matters and properly focusing the attention on it, as well.
+  - because context matters and properly focusing the attention on it, as well;
+  - the challenge is about leveraging internals that are even unknown to the AI.
 
 - **`[HKO]`** since Katia v0.9.0 (2025-07-19):
-  - because answering to humans requires understanding a human's perspective.
+  - because answering to humans requires understanding a human's perspective;
+  - the challenge is about conveying the human spirit and its variety in short.
 
-Clearly, the session prompt (framework) level is **not** the way to go in production but it greatly faster for experimenting, testing, developing, discovering and provding a functional proof-of-concept.
+- **`DCOD`** since Katia v0.3.8 (2025-07-14):
+  - because refining is the key to have a high-quality output as response to users.
+
+Clearly, the session prompt (framework) level is **not** the way to go in production but it is greatly faster for experimenting, testing, developing, discovering and proving a functional proof-of-concept.
 
 It works because **surprinsingly** "Learning by Context without Training" works. {hug}
 
-....
+.....
 
-#### [HKO] (part 3)
+### Extending the `[HKO]`: understanding
+
+The third part is about "relativism" which is a concept that enters in Katia v0.9.34.5 (2025-07-29) as an extension. However the concept was previously explored [here](chatgpt-su-leone-xiv-vs-gesu-legionario.md#?target=_blank), when I noticed that the AI was uncomfortable to reframe a narrative from a different perspective even it was more plausible.
+
+We all know that "plausible" does not mean "probable" and vice versa, in that specific case the two terms overlap almost entirely. Despite this, the AI was proceeding biased by its internal knowledge. Which is totally fine as long as we wish to receive our customised Wikipedia page.
+
+It is not for an open-minded conversation in search of inspiration, exploring new ideas or perspective, or serendipity. All those "nice words" that have been put in SoNia but "sanity-check" reveals that "summarising" is a vague term as much as "creativity" for an AI, unsurprisingly.
+
+#### The [HKO] module (part 3)
 
 [!CODE]
 <div style="font-size:90%">
@@ -251,12 +265,40 @@ which is the main reason why [HKO] defines and exemplifies different [HK] fields
 </div>
 [/CODE]
 
+The challenge here is about how to explain creativity to an AI: a crazy goal! Better starting a step before with a safe but useful explanation of the "relativism" concept. Initially, expressing the Karl Popper paradox about tolerance, the same for relativism. Then leverage framework keywords to explain to Katia how to leverage it.
 
+I am aware that leveraging relativism, is not creativity nor any other "nice keywords" about thinking out of the box. However, identification of `out-of-the-box` implicit or explicit claims, entered in Katia v0.3.4 (2025-07-14). Identifying is the first step, and it seems decently working without any particular extra effort.
 
+Properly challenging the most deeply rooted biases, is the best way to evaluate and foster creativity.
 
 +
 
-### Related articles
+## Default Chain of Delivery
+
+[!CODE]
+<div style="font-size:90%">
+The DCOD is DBLW:
+* in:User → [OPS] → [modes] → [FNE] → User:out
+</div>
+[/CODE]
+
+The default chain of delivery (`DCOD`) appears in Katia v0.3.8 (2025-07-14) but started to be methodologically defined and thus used starting from v0.9.8.7 (2025-07-21). This is a fundamental piece of the Katia framework.
+
+It took a week to realise that -- differently than SoNia -- the Katia framework architecture is strongly based on that concept which allows to apply and control a series of processing in a more fine-grained way than before. It is not only about what should be done, but also when. It is the backbone of Katia.
+
+While researchers are more concerned and interested in the chain-of-thoughts because it is a fundamental piece of the reasoning puzzle, at session prompt level the focus is about response refinement before delivering. While the framework can influence the chain-of-thought, refining is **the** keyword, thus the `DCOD`.
+
+Am I overrating the importance of DCOD? Possibly, but applying two times `[SBI]` sequentially provides a much different result than once. Which is what is supposed to happen among `[CSC]` contents, older is getting a content, more times `[SBI]` is applied until it almost fades away (yet to test, anyway).
+
++++++
+
+### The `[CSC]` module fixing
+
+Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It does not happen often. Thus, I tend to over-rely on it which creates the conditions pushing the `[CSC]` to fail. It is a sort of loop: less it fails, more I rely on it, more it is going to fail, and so on, until equilibrium is found.
+
++
+
+## Related articles
 
 - [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
 
@@ -272,7 +314,7 @@ which is the main reason why [HKO] defines and exemplifies different [HK] fields
 
 +
 
-### Share alike
+## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
