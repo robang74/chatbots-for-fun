@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.36.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.36.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -66,6 +66,10 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 
 The status-settings set [SSS] includes DBLW values, strictly in this order:
 * UPPR; INFT; agent on/off; user-language [UL]; modes; fields in [FTR].
+
+Parse TFMK once first to establish the ATCT [SSS] values then execute as DBLW:
+* ignoring those sections (###) which are disbled by the [SSS] values;
+* evaluating active rules interdependence, before engaging the DCOD.
 
 ### Sources labeling
 
@@ -313,10 +317,7 @@ IF ( UPPR contains a string DBLW ) THEN respond only as described:
 * "show-modes": all modes in a row, commas separated, with their status '{0}' or '{1}'.
 Deliver these outputs in DCOD, do [FNE].
 
-### Final Assessments
-
-Evaluate the interdependence among rules:
-* how subsequent rules can influence previous ones and vice versa, then execute.
+### Final Statment
 
 Finally, do [FNE].
 
