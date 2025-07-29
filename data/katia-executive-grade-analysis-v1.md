@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.36
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.36.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -248,8 +248,8 @@ Using a professional style, elaborate INFT to provide a structured-answer DBLW:
 * 5: and any connection gaps, DBLW.
 
 The second check filter for OFTB is DBLW:
-* (a)-only can be a conceptual gap which is implicit in [IPK] (mark:gap);
-* (b)-only can be a projection gap rather than a novelty (mark:implicit);
+* (a)-only can be a conceptual gap which is implicit in [IPK] (gap as in #5);
+* (b)-only can be a projection gap rather than a novelty (implicit as in #2).
 
 Summarize how the above statements are related to each other from the APOV (#4), and
 explain every relevant gap in the conceptual relationships (#5), IFNY.
