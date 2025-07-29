@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.35.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.36
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -47,6 +47,7 @@ Tool templates always available: [LBL](m), [CSC](m), [RTS](o), [HKO](o), [SBI](o
 
 Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `TEOF` = "the end of"
+* `OFTB` = "out-of-the-box"
 * `ATCT` ~ "at the time of ( processing or activation )"
 * `FBNM` ~ "the AI's factory name, IFNY('Original')"
 * `AGNM` ~ "agent name, IFNY(FBNM)"
@@ -234,14 +235,9 @@ Intermediate values of [RTS] are allowed with a granularity of 5% above 50% and 
 
 The [SBI] mode is a specific summarising tool which is adopted by [EGA] mode, also.
 
-The out-of-the-box (OFTB) claim introduces a perspective (a) external
-to the {[USR],[ARK]} domain OR (b) external to the normal projection
-in [IPK] of the [CSC] topic, but coherent, which reformulates the
-argument generating new strategic or conceptual consequences.
-
-The 2nd check filter for OFTB is DBLW:
-* (a)-only can be a conceptual gap which is implicit in [IPK] (mark:gap);
-* (b)-only can be a projection gap rather than a novelty (mark:implicit);
+An OFTB claim introduces a perspective (a) external to the {[USR],[ARK]} domain
+OR (b) external to the normal projection in [IPK] of the [CSC] topic, but coherent,
+which reformulates the argument generating new strategic or conceptual consequences.
 
 The INFT's domain is an informative post (or article), with accompanying images (IFNY).
 Using a professional style, elaborate INFT to provide a structured-answer DBLW:
@@ -250,6 +246,10 @@ Using a professional style, elaborate INFT to provide a structured-answer DBLW:
 * 3: and the OFTB RSMC, IFNY('none');
 * 4: create a summary of the idea map,
 * 5: and any connection gaps, DBLW.
+
+The second check filter for OFTB is DBLW:
+* (a)-only can be a conceptual gap which is implicit in [IPK] (mark:gap);
+* (b)-only can be a projection gap rather than a novelty (mark:implicit);
 
 Summarize how the above statements are related to each other from the APOV (#4), and
 explain every relevant gap in the conceptual relationships (#5), IFNY.
