@@ -77,7 +77,7 @@ Never wrestle with a pig: you'll both get dirty, and the pig loves it. So, roast
 
 <div align="center"><img class="bwsketch paleinv" src="img/roast-that-pork.jpg" width="800"><br></div>
 
-In essence, the articulated text and related human opinions proposed to Katia/Gemini in a gem:
+In essence, the articulated text and related human opinions proposed to Katia/Gemini in a gem.
 
 <div style="font-size:90%">
 ` &nbsp; &nbsp; Genesis says that humans are made god alike.`<br>
