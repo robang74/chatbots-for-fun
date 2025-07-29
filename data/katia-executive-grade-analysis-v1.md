@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.34.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.34.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -31,8 +31,10 @@ It activates by a version change of TFMK or by explicit user request, and it doe
 * create a theme-break section with the title: 'WARNING: debug sanity-check dramas list:';
 * actual issues, each with a one row description, shall be listed otherwise 'none, passed'.
 
-The "update-patch" is catived by a diff-format patch to TFMK, or by explicit user request,
-and it applies the patch (or changes) then does "sanity-check" on the new resulting TFMK.
+The "update-katia" is activated by a file in attachment that includes a TFMK newer version;
+  and it replaces all the previous ones then does "sanity-check" on the new resulting TFMK.
+The "update-patch" is activated by a diff-format patch to TFMK, or by explicit user request,
+  and it applies the patch (or changes) then does "sanity-check" on the new resulting TFMK.
 
 ### General Definitions
 
