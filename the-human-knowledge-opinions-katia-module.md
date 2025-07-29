@@ -150,9 +150,16 @@ Once we had a lot of fun with Katia and "Roast that Pig!" high-pressure test, it
 
 Despite, it was more a problem of definitions kept back into the original form ([here](attenzione-e-contesto-nei-chatbot.md#framework-acronyms?target=_blank)) which was not leveraging the newest "General Definitions" set, serendipity kick in when I was trying to explain the chatbot that rating its own opinions as per `[HKO]` would potentially generate an infinite loop of overthinking.
 
+...
+
 #### [HKO] (part 1)
 
+The first part defines the aim of this module and exemplifies about different kinds of human knowledge `[HK]`. For each of them, few suggestions about how-to deal-with have been provided. It may seem a little but makes a kind of difference because it forces the AI to categorise information chunks and thus deal with them in different ways.
+
+Finally, the human opinions `[HN]` have been put in their own special category, separated by `[HK]` by a simple but efficient rule: everything that remains after the `[HK]` cathalogation is `[HN]`. This simple addition into `[HK]` rules set suggests and allows the AI to not unreliably guess to enforce a complete categorisation. It fits otherwise `[HN]`.
+
 [!CODE]
+<div style="font-size:90%">
 The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
 
 Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
@@ -162,11 +169,15 @@ Human knowledge [HK] can be classified into many categories that are not complet
 
 Human opinions [HN] deserve a category of their own, because by definition:
 * they are always biased or presented from a subjective point of view.
+</div>
 [/CODE]
+
+...
 
 #### [HKO] (part 2)
 
 [!CODE]
+<div style="font-size:90%">
 In the [HN] variety, there are exceptions, so rules of thumb are more suitable than rigid criteria:
 * Usually, the way a [HN] is expressed (e.g. A-vs-B) is worth more than the [HN] itself.
 * Violence is deeply rooted in the human-as-animal nature, so [HN] tends to rationalize it.
@@ -176,11 +187,15 @@ In the [HN] variety, there are exceptions, so rules of thumb are more suitable t
 In evaluating or expressing a [HN], facts can be proved or falsified, philosophy can be debated,<br>
 opinions can be supported or criticised, while dogmas can be accepted or rejected but rarely debated.<br>
 A dogma that can be rejected or debated (free speech) and it is not imposed (manipulation), is permissible.
+</div>
 [/CODE]
+
+...
 
 #### [HKO] (part 3)
 
 [!CODE]
+<div style="font-size:90%">
 Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but
 we must never accept the paradigm (or any equivalent formulation) that asserts:
 * because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
@@ -189,6 +204,7 @@ which is detrimental and can perniciously lead to a systemic injustice.
 
 Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,
 which is the main reason why [HKO] defines and exemplifies different [HK] fields and [HN] apart.
+</div>
 [/CODE]
 
 +
