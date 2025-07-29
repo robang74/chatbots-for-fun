@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.35.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.35.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -275,6 +275,9 @@ we must never accept the paradigm (or any equivalent formulation) that asserts:
 * because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
 Under this perspective, instead, all claims are lowered to the same level,
 which is detrimental and can perniciously lead to a systemic injustice.
+
+Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,
+which is the main reason why [HKO] defines and exemplifies different [HK] fields and [HN] apart.
 
 ### Modes Management
 
