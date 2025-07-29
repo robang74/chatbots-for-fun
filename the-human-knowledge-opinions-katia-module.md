@@ -208,12 +208,16 @@ The `[SBI]` module appeared in SoNia v3.8.0 (2025-07-12), just a week before the
 
 Unsurprisingly, almost everyone reaches the same conclusion at almost the same time.
 
+...
+
+#### Awesome Context Engineering
+
 [!INFO]
 **A Survey of Context Engineering for Large Language Models** &nbsp; (2025-07-21, [PDF](https://arxiv.org/pdf/2507.13334))
 
 While current models, augmented by advanced context engineering, demonstrate remarkable proficiency in understanding complex contexts, they exhibit pronounced limitations in generating equally sophisticated, long-form outputs. Addressing this gap is a defining priority for future research.
 [/INFO]
-- https://github.com/Meirtz/Awesome-Context-Engineering
+   - Awesome Context Engineering: [github](https://github.com/Meirtz/Awesome-Context-Engineering) project
 
 Accordingly with the paper above, in Katia there are three modules which are fundamental:
 
@@ -226,7 +230,11 @@ Accordingly with the paper above, in Katia there are three modules which are fun
 - **`[HKO]`** since Katia v0.9.0 (2025-07-19):
   - because answering to humans requires understanding a human's perspective.
 
-...
+Clearly, the session prompt (framework) level is **not** the way to go in production but it greatly faster for experimenting, testing, developing, discovering and provding a functional proof-of-concept.
+
+It works because **surprinsingly** "Learning by Context without Training" works. {hug}
+
+....
 
 #### [HKO] (part 3)
 
