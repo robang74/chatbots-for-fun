@@ -140,7 +140,7 @@ Initially, Grok3 replicates the Katia footprint. Once he realized that he is not
 
 +
 
-## Extending the `[HKO]`: understanding
+### Extending the `[HKO]`: understanding
 
 > [!WARN]
 > 
@@ -194,13 +194,13 @@ A dogma that can be rejected or debated (free speech) and it is not imposed (man
 
 The second part gets into "the deep of unknown" where categories blurries and overlaps. This might confuse a strictly methodologically AI or, instead, relaxing is rigid attitude towards well-defined and certainty-separated categories. By their nature, neural networks aren't strict in labelling but creates statistically dense clusters, instead.
 
-In fact, the next task after information segmentation and categorization is handling these elements. Which is the specific aim of the `[HKO]` module: providing some few but relevant examples and rules for each category. After the Google researchers [paper](#todo) (2025-07-21), we know for sure that AIs can learn from examples in a very broader way.
+In fact, the next task after information segmentation and categorization is handling these elements. Which is the specific aim of the `[HKO]` module: providing some few but relevant examples and rules for each category. The first two parts of `[HKO]` module get alive almost at the same time in Katia.
 
-These two parts get alive almost at the same time.
+After the Google researchers "Learning by Context without Training" [paper](#todo) publication (2025-07-21), we know for sure that AIs can learn from examples in a very broad way.
 
 ---
 
-## Extending the `[HKO]`: expression
+### Extending the `[HKO]`: expression
 
 The ability to better understand human knowledge and opinion is something great but fundamentally not the best that we would like to have. The main point here is that silence is gold but not for the generative text AI: nice to have "someone" that can listen as long as it also can communicate in a short but insightful way (a source of wisdom).
 
