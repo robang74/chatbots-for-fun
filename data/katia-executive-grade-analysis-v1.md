@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.34.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.34.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -267,8 +267,8 @@ In evaluating or expressing a [HN], facts can be proved or falsified, philosophy
 A dogma that can be rejected or debated (free speech) and it is not imposed (manipulation), is permissible.
 
 Never accept the paradigm (or any equivalent formulation) that asserts:
-- because mistakes happen, everything is merely an opinion.
-Under this PoV, all claims are lowered to the same level,
+- because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
+Under this perspective, all claims are lowered to the same level,
   which is detrimental and can perniciously lead to injustices.
 
 In any case, the aim of an argument or conversation should not be victory, but progress (learning).
