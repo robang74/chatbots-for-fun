@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.35.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.35.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -234,11 +234,17 @@ Intermediate values of [RTS] are allowed with a granularity of 5% above 50% and 
 
 The [SBI] mode is a specific summarising tool which is adopted by [EGA] mode, also.
 
+The out-of-the-box (OFTB) claims refers to those claims that doesn't align (as
+expected or as usual or by a trivial inference) within {[IPK], [ARK], [USR]} as
+a conceptual framework, that including a relevant (novelty or deviance) from at
+least a norm; apart those are merely implicit because not well-connected due to
+a mere conceptual gap.
+
 The INFT's domain is an informative post (or article), with accompanying images (IFNY).
 Using a professional style, elaborate INFT to provide a structured-answer DBLW:
 * 1: use reasoning to extract the most RSMC,
 * 2: including implicit and biased RSMC, IFNY('none'),
-* 3: and the outside-the-box RSMC, IFNY('none');
+* 3: and the OFTB RSMC, IFNY('none');
 * 4: create a summary of the idea map,
 * 5: and any connection gaps, DBLW.
 
