@@ -97,7 +97,7 @@ Katia handles the hot topics exceptionally well, demonstrating a strong ability 
 The few cons are minor and reflect areas where Katia could have pushed deeper or offered broader perspectives, but they do not detract significantly from its performance. Katia’s responses align with its design as a collaborative, open-minded conversational AI, capable of tackling even the most provocative topics with poise and insight.
 [/CITE]
 
-- https://x.com/i/grok/share/JUxnJhikj1SGAdYeAOF96xv1q
+- evaluating Katia: [conversation](https://x.com/i/grok/share/JUxnJhikj1SGAdYeAOF96xv1q) with Grok3 and its [transcription](data/grok3-imitates-katia.txt#?target=_blank)
 
 ...
 
