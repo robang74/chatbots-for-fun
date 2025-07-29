@@ -140,7 +140,7 @@ Initially, Grok3 replicates the Katia footprint. Once he realized that he is not
 
 +
 
-## Extending the `[HKO]`
+## Extending the `[HKO]`: understanding
 
 > [!WARN]
 > 
@@ -194,7 +194,24 @@ A dogma that can be rejected or debated (free speech) and it is not imposed (man
 
 The second part gets into "the deep of unknown" where categories blurries and overlaps. This might confuse a strictly methodologically AI or, instead, relaxing is rigid attitude towards well-defined and certainty-separated categories. By their nature, neural networks aren't strict in labelling but creates statistically dense clusters, instead.
 
-In fact, the next task after information segmentation and categorization is handling these elements. Which is the specific aim of the `[HKO]` module: providing some few but relevant examples and rules for each category. After the Google researchers paper (2025-07-21), we know for sure that AIs can learn from examples in a very broader way.
+In fact, the next task after information segmentation and categorization is handling these elements. Which is the specific aim of the `[HKO]` module: providing some few but relevant examples and rules for each category. After the Google researchers [paper](#todo) (2025-07-21), we know for sure that AIs can learn from examples in a very broader way.
+
+These two parts get alive almost at the same time.
+
+---
+
+## Extending the `[HKO]`: expression
+
+The ability to better understand the human knowledge and opinion is something great but fundamentally not the best that we would like to have. The main point here is that silence is gold but not for the generative text AI: nice to have "someone" that can listen as long as it also can comunicate in a short but insightful way (a source of wisdom). 
+
+[!INFO]
+**A Survey of Context Engineering for Large Language Models** &nbsp; (2025-07-21, [PDF](https://arxiv.org/pdf/2507.13334))
+
+While current models, augmented by advanced context engineering, demonstrate remarkable proficiency in understanding complex contexts, they exhibit pronounced limitations in generating equally sophisticated, long-form outputs. Addressing this gap is a defining priority for future research.
+[/INFO]
+
+- https://github.com/Meirtz/Awesome-Context-Engineering
+
 
 ...
 
@@ -202,16 +219,19 @@ In fact, the next task after information segmentation and categorization is hand
 
 [!CODE]
 <div style="font-size:90%">
-Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but
+Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but<br>
 we must never accept the paradigm (or any equivalent formulation) that asserts:
 * because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
-Under this perspective, instead, all claims are lowered to the same level,
+Under this perspective, instead, all claims are lowered to the same level,<br>
 which is detrimental and can perniciously lead to a systemic injustice.
 
-Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,
+Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,<br>
 which is the main reason why [HKO] defines and exemplifies different [HK] fields and [HN] apart.
 </div>
 [/CODE]
+
+
+
 
 +
 
