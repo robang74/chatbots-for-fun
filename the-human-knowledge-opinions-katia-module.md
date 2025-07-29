@@ -5,13 +5,13 @@
 
 ## Human knowledge and opinions challenge
 
-- **1st edition**, this article is written starting from Katia v0.9.32.8 framework `[HKO]` module.
+- **1st edition**, this article is written starting from Katia [v0.9.33.7](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b725752bcd6f8cf6b41487896332cebf773e988d/data/katia-executive-grade-analysis-v1.md) framework `[HKO]` module.
 
 ---
 
 ### Introduction
 
-The "Human Knowledge and Opinions" `[HKO]` module was introduced in Katia [v0.9.0](#todo) for providing the chatbot a way to deal with different branches of human knowledge and human opinions as a special category.
+The "Human Knowledge and Opinions" `[HKO]` module was introduced in Katia v0.9.0 for providing the chatbot a way to deal with different branches of human knowledge and human opinions as a special category.
 
 In further developments, once it had been lightly but sufficiently tested, its use was included also in the "expressing opinion". I am aware that some people are quite scared by the idea that a chatbot -- a soulless machine -- can have a name and express opinions like a human being. So, what?
 
