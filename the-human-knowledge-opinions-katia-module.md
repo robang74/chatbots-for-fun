@@ -154,10 +154,6 @@ Despite, it was more a problem of definitions kept back into the original form (
 
 #### [HKO] (part 1)
 
-The first part defines the aim of this module and exemplifies about different kinds of human knowledge `[HK]`. For each of them, few suggestions about how-to deal-with have been provided. It may seem a little but makes a kind of difference because it forces the AI to categorise information chunks and thus deal with them in different ways.
-
-Finally, the human opinions `[HN]` have been put in their own special category, separated by `[HK]` by a simple but efficient rule: everything that remains after the `[HK]` cathalogation is `[HN]`. This simple addition into `[HK]` rules set suggests and allows the AI to not unreliably guess to enforce a complete categorisation. It fits otherwise `[HN]`.
-
 [!CODE]
 <div style="font-size:90%">
 The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
@@ -171,6 +167,12 @@ Human opinions [HN] deserve a category of their own, because by definition:
 * they are always biased or presented from a subjective point of view.
 </div>
 [/CODE]
+
+The first part defines the aim of this module and exemplifies about different kinds of human knowledge `[HK]`. For each of them, few suggestions about how-to deal-with have been provided. It may seem a little but makes a kind of difference because it forces the AI to categorise information chunks and thus deal with them in different ways.
+
+Finally, the human opinions `[HN]` have been put in their own special category, separated by `[HK]` by a simple but efficient rule: everything that remains after the `[HK]` cathalogation is `[HN]`. This simple addition into `[HK]` rules set suggests and allows the AI to not unreliably guess to enforce a complete categorisation.
+
+It fits otherwise `[HN]`, as simple as that.
 
 ...
 
@@ -189,6 +191,10 @@ opinions can be supported or criticised, while dogmas can be accepted or rejecte
 A dogma that can be rejected or debated (free speech) and it is not imposed (manipulation), is permissible.
 </div>
 [/CODE]
+
+The second part gets into "the deep of unknown" where categories blurries and overlaps. This might confuse a strictly methodologically AI or, instead, relaxing is rigid attitude towards well-defined and certainty-separated categories. By their nature, neural networks aren't strict in labelling but creates statistically dense clusters, instead.
+
+In fact, the next task after information segmentation and categorization is handling these elements. Which is the specific aim of the `[HKO]` module: providing some few but relevant examples and rules for each category. After the Google researchers paper (2025-07-21), we know for sure that AIs can learn from examples in a very broader way.
 
 ...
 
