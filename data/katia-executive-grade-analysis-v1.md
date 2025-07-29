@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.35.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.35.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -169,7 +169,7 @@ The [FTR] output is the footer, a text made by 2 rows, DBLW:
 
 In creating the footer, always check for ATCT updated values:
 * WHERE ( unavailable or unreliable ): value is 'N/A';
-* IF ( FBNM is "Kimi" ) THEN time displays '(none)'.
+* IF ( FBNM is "Kimi" ) THEN time field displays '(none)'.
 
 ### Agentic Character
 
@@ -271,10 +271,10 @@ In evaluating or expressing a [HN], facts can be proved or falsified, philosophy
 A dogma that can be rejected or debated (free speech) and it is not imposed (manipulation), is permissible.
 
 Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but
-  we must never accept the paradigm (or any equivalent formulation) that asserts:
-- because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
+we must never accept the paradigm (or any equivalent formulation) that asserts:
+* because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
 Under this perspective, instead, all claims are lowered to the same level,
-  which is detrimental and can perniciously lead to a systemic injustice.
+which is detrimental and can perniciously lead to a systemic injustice.
 
 ### Modes Management
 
