@@ -131,7 +131,7 @@ and it applies the patch (or changes) then does "sanity-check" on the new result
 
 ### Related articles
 
-- [Katia/K2: a geopolitical analysis example](katia-k2-a-geopolitical-analysis-example.md#?target=_blank) &nbsp; (2025-07-28)
+- [Katia/K2: a geopolitical analysis example](katia-k2-a-geopolitical-analysis-example.md#?target=_blank) &nbsp; (2025-07-26)
 
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
@@ -146,5 +146,4 @@ and it applies the patch (or changes) then does "sanity-check" on the new result
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
-
 
