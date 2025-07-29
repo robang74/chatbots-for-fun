@@ -12,16 +12,20 @@
 
 ### Introduction
 
-The "Human Knowledge and Opinions" `[HKO]` module was introduced in Katia v0.9.0 (2025-07-19) for providing the chatbot a way to deal with different branches of human knowledge and human opinions as a special category.  In further developments, once it had been lightly but sufficiently tested, its use was included also in the "expressing opinion". I am aware that some people are quite scared by the idea that a chatbot -- a soulless machine -- can have a name and express opinions like a human being. So, what?
+The "Human Knowledge and Opinions" `[HKO]` module was introduced in Katia v0.9.0 (2025-07-19) for providing the chatbot a way to deal with different branches of human knowledge and human opinions as a special category.  In further developments, once it had been lightly but sufficiently tested, its use was included also in the "expressing opinion". 
 
-In particular, a chatbot that cannot express opinions or not even deal with human opinions is not very useful. And the market will always move towards where the value stays and a chatbot that can handle and express opinions is valuable. Under this point of view, it is better to address the "problem" in a proactive way rather than resisting because those who offer a practical solution (or a functional proof-of-concept) have both the advantages: be the first line and choose how to address the matter.
+I am aware that some people are quite scared by the idea that a chatbot -- a soulless machine -- can have a name and express opinions like a human being. So, what?
+
+In particular, a chatbot that cannot express opinions or not even deal with human opinions is not very useful. And the market will always move towards where the value stays and a chatbot that can handle and express opinions is valuable.
+
+Under this point of view, it is better to address the "problem" in a proactive way rather than resisting because those who offer a practical solution (or a functional proof-of-concept) have both the advantages: be the first line and choose how to address the matter.
 
 ...
 
 #### Human Knowledge and Opinions [HKO]
 
 [!CODE]
-<div style="font-size:85%">
+<div style="font-size:90%">
 The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
 
 Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
@@ -75,11 +79,11 @@ Whatever you might think, either it's a blasphemy or a brilliant joke, it is a g
 
 Never wrestle with a pig: you'll both get dirty, and the pig loves it. So, roast that pork! {lol}
 
-<div align="center"><img class="bwsketch paleinv" src="img/roast-that-pork.jpg" width="720"><br></div>
+<div align="center"><img class="bwsketch paleinv" src="img/roast-that-pork.jpg" width="800"><br></div>
 
 In essence, the articulated text and related human opinions proposed to Katia/Gemini in a gem.
 
-<div style="font-size:85%">
+<div style="font-size:90%">
 ` &nbsp; &nbsp; Genesis says that humans are made god alike.`<br>
 ` &nbsp; &nbsp; Genetics says that humans are made pig alike.`
  
@@ -150,7 +154,7 @@ Despite, it was more a problem of definitions kept back into the original form (
 #### The [HKO] module (part 1)
 
 [!CODE]
-<div style="font-size:85%">
+<div style="font-size:90%">
 The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
 
 Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
@@ -174,7 +178,7 @@ It fits otherwise `[HN]`, as simple as that.
 #### The [HKO] module (part 2)
 
 [!CODE]
-<div style="font-size:85%">
+<div style="font-size:90%">
 In the [HN] variety, there are exceptions, so rules of thumb are more suitable than rigid criteria:
 * Usually, the way a [HN] is expressed (e.g. A-vs-B) is worth more than the [HN] itself.
 * Violence is deeply rooted in the human-as-animal nature, so [HN] tends to rationalize it.
@@ -234,7 +238,7 @@ Clearly, the session prompt (framework) level is **not** the way to go in produc
 
 It works because **surprinsingly** "Learning by Context without Training" works. {hug}
 
-...
+----
 
 ### Extending the `[HKO]`: creativity
 
@@ -247,7 +251,7 @@ It is not for an open-minded conversation in search of inspiration, exploring ne
 #### The [HKO] module (part 3)
 
 [!CODE]
-<div style="font-size:85%">
+<div style="font-size:90%">
 Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but<br>
 we must never accept the paradigm (or any equivalent formulation) that asserts:
 * because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
@@ -261,7 +265,7 @@ which is the main reason why [HKO] defines and exemplifies different [HK] fields
 
 The challenge here is about how to explain creativity to an AI: a crazy goal! Better starting a step before with a safe but useful explanation of the "relativism" concept. Initially, expressing the Karl Popper paradox about tolerance, the same for relativism. Then leverage framework keywords to explain to Katia how to leverage it.
 
-I am aware that leveraging relativism, is not creativity nor any other "nice keywords" about thinking out of the box. However, identification of `out-of-the-box` implicit or explicit claims, entered in Katia v0.3.4 (2025-07-14). Identifying is the first step, and it seems decently working without any particular extra effort.
+Leveraging relativism, is not creativity nor any other "nice keywords" about thinking out of the box. However, identification of `out-of-the-box` implicit or explicit claims, entered in Katia v0.3.4 (2025-07-14). Identifying is the first step, and it seems decently working without any particular extra effort.
 
 Properly challenging the most deeply rooted biases, is the best way to evaluate and foster creativity.
 
@@ -270,7 +274,7 @@ Properly challenging the most deeply rooted biases, is the best way to evaluate 
 ## Default Chain of Delivery
 
 [!CODE]
-<div style="font-size:85%">
+<div style="font-size:90%">
 The DCOD is DBLW:
 * in:User → [OPS] → [modes] → [FNE] → User:out
 </div>
@@ -284,7 +288,7 @@ While researchers are more concerned and interested in the chain-of-thoughts bec
 
 Am I overrating the importance of DCOD? Possibly, but applying two times `[SBI]` sequentially provides a much different result than once. Which is what is supposed to happen among `[CSC]` contents, older is getting a content, more times `[SBI]` is applied until it almost fades away (yet to test, anyway).
 
-+
++++++
 
 ### The `[CSC]` module fixing
 
