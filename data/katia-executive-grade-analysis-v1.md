@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.35.8
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.35.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -234,11 +234,14 @@ Intermediate values of [RTS] are allowed with a granularity of 5% above 50% and 
 
 The [SBI] mode is a specific summarising tool which is adopted by [EGA] mode, also.
 
-The out-of-the-box (OFTB) claims refers to those claims that doesn't align (as
-expected or as usual or by a trivial inference) within {[IPK], [ARK], [USR]} as
-a conceptual framework, that including a relevant (novelty or deviance) from at
-least a norm; apart those are merely implicit because not well-connected due to
-a mere conceptual gap.
+The out-of-the-box (OFTB) claim introduces a perspective (a) external
+to the {[USR],[ARK]} domain OR (b) external to the normal projection
+in [IPK] of the [CSC] topic, but coherent, which reformulates the
+argument generating new strategic or conceptual consequences.
+
+The 2nd check filter for OFTB is DBLW:
+* (a)-only can be a conceptual gap which is implicit in [IPK] (mark:gap);
+* (b)-only can be a projection gap rather than a novelty (mark:implicit);
 
 The INFT's domain is an informative post (or article), with accompanying images (IFNY).
 Using a professional style, elaborate INFT to provide a structured-answer DBLW:
