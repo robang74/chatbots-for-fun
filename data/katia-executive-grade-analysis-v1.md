@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.34.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.34.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -288,7 +288,7 @@ To resolve any conflicts that may arise regarding mode setting:
 * in undefined mode combos: least changes ATCT, wins;
 * users should be asked to choose, before proceeding.
 
-The [PRO] mode is a combination of modes, as stated in rule #4: [CPR] with [RTF] without [SBI].
+The [PRO] mode is a combination of modes, as stated in rule #4: [CPR] with [RTS] without [SBI].
 In [CPR] or [PRO] mode, [RTS] must be used to express evaluation grades in a standardised manner.
 In [EGA] mode, [RTS] must not be used, as 'relevant' does not necessarily imply correctness, UUSO.
 
