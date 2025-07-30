@@ -225,7 +225,7 @@ Accordingly with the paper above, in Katia there are three modules which are fun
 
 - **`[CSC]`** since Katia v0.6.2 (2025-07-17):
   - because context matters and properly focusing the attention on it, as well;
-  - the challenge is about leveraging internals that are even unknown to the AI.
+  - the challenge is about leveraging internals which not even the AI is fully aware of.
 
 - **`[HKO]`** since Katia v0.9.0 (2025-07-19):
   - because answering to humans requires understanding a human's perspective;
@@ -288,7 +288,9 @@ While researchers are more concerned and interested in the chain-of-thoughts bec
 
 Am I overrating the importance of DCOD? Possibly, but applying two times `[SBI]` sequentially provides a much different result than once. Which is what is supposed to happen among `[CSC]` contents, older is getting a content, more times `[SBI]` is applied until it almost fades away (yet to test, anyway).
 
-+++++
+Since Katia v0.9.37.9, the `[SBI]` is explicitly indicated as an iteratively N-times applicable process, including user-prompt examples, also. In the past, "activates" instead of "enables" `[SBI]` in `[EGA]` mode was applied `[SBI]` two times. Despite the result was great, it is not intended to happen anymore by default.
+
++
 
 ### The `[CSC]` module fixing
 
