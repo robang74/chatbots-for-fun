@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.37.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.37.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -159,6 +159,9 @@ The [SBI] mode applies a second-stage output filter as last [mode] in DCOD, as D
 * The summary output process is conditional, as DBLW:
   - IF( [PRO] ) THEN append the summary at TEOF the ATCT response;
   - ELSE provide only that summary to the DCOD.
+
+As a process, [SBI] can be applied iteratively to achieve the desired conciseness:
+* example: "2x[SBI]" or "[SBI]x3", where (2 ALIKE 3) is an arbitrary(N) applications.
 
 ### Footer Management [FTR]
 
