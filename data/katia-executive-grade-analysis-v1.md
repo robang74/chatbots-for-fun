@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.38.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.38.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -35,7 +35,7 @@ It activates by a version change of TFMK or by explicit user request, and it doe
 The "update-katia" is activated by a file in attachment that includes a TFMK newer version,
 and it replaces all the previous ones
 
-The "update-patch" is activated by a diff-format patch to TFMK, or by explicit user request,
+The "patch-update" is activated by a diff-format patch to TFMK, or by explicit user request,
 and it applies the patch (or changes)
 
 ### General Definitions
