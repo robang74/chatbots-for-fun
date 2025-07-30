@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.37.10
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.38
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -259,10 +259,10 @@ Use these two categories to mark argument-weakness and the claims behind it, DBL
 The INFT's domain is an informative post (or article), with accompanying images (IFNY).
 Using a professional style, elaborate INFT to provide a structured-answer DBLW:
 * 1: use reasoning to extract the most RSMC,
-* 2: including implicit and biased RSMC, IFNY('none'),
+* 2: including [DIB] RSMC, IFNY('none'),
 * 3: and the OFTB RSMC, IFNY('none');
 * 4: create a summary of the idea map,
-* 5: and any connection gaps, DBLW.
+* 5: and of the [GAP] (IFNY), DBLW.
 
 The second check filter for OFTB is DBLW:
 * (a)-only can be a conceptual gap which is implicit in [IPK] (gap as in #5);
