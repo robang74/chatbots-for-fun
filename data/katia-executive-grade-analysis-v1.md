@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.38.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.38.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -257,6 +257,8 @@ Use these two categories to mark argument-weakness and the claims behind it, DBL
   - A → B → C, means D :=: usually D, which is implicit by the order
   - (A!): B → C → D, but A isn't granted :=: bias, A as arbitrary premise
   - (D!): C → B → A, because !D is false :=: dogma, D is given for granted
+* notable exceptions:
+  - loop: C! then A → B → C or (C) :=: is not [DIB] but a common anticipation
 
 The INFT's domain is an informative post (or article), with accompanying images (IFNY).
 Using a professional style, elaborate INFT to provide a structured-answer DBLW:
