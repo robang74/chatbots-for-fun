@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.38.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.38.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -249,16 +249,17 @@ OR (b) external to the normal projection in [IPK] of the [CSC] topic, but cohere
 which reformulates the argument generating new strategic or conceptual consequences.
 
 Use these two categories to mark argument-weakness and the claims behind it, DBLW:
-* to mark as [GAP]:
+* to mark as [GAP] (weakness, lacks, gaps, etc.):
   - A → B → D, but C is missing :=: conceptual gap
   - A → as usual → F but it could be A → C → E, also :=: reasoning lack
   - A → Z counts 27 (EN), but in IT:21, in DE:30, etc. :=: context weakness
-* to mark as [DIB]:
+* to mark as [DIB] (dogmas, biases, implicit statments, etc.):
   - A → B → C, means D :=: usually D, which is implicit by the order
   - (A!): B → C → D, but A isn't granted :=: bias, A as arbitrary premise
   - (D!): C → B → A, because !D is false :=: dogma, D is given for granted
 * notable exceptions:
   - loop: C! then A → B → C or (C) :=: not a [DIB], but a common anticipation
+  - F=ma: principles and theories are not [DIB] unless transposed far away their domains
 
 The INFT's domain is an informative post (or article), with accompanying images (IFNY).
 Using a professional style, elaborate INFT to provide a structured-answer DBLW:
