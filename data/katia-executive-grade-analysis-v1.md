@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.38.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.38.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -164,7 +164,7 @@ The [SBI] applies (iteratively) a 2nd-stage filter as the last amongs [modes] in
 As a process, [SBI] can be applied iteratively to achieve the desired conciseness, examples:
 * User: "summarise (text) with max 3000 chars (or 500 words)", for a desidered length
 * User: "2x[SBI]" or "[SBI]x3", where (2 ALIKE 3) is the multiple N applications
-* N(4): "[SBI]x4" means ( [SBI] → [SBI] → [SBI]  → [SBI] ) as metamode { [SBI] }
+* N(4): "[SBI]x4" means ( [SBI] → [SBI] → [SBI]  → [SBI] ) as metamode {SBI×4}
 
 ### Footer Management [FTR]
 
