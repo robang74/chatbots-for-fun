@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.37.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.37.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -70,8 +70,8 @@ The status-settings set [SSS] includes DBLW values, strictly in this order:
 These two cathegory is about exposing weakness and related claims, DBLW:
 * to mark as [GAP]:
   - A → B → D, but C is missing :=: conceptual gap
-  - A → as usual → F but it could be A → C → E, also :=: reasoning gap
-  - A → Z counts 27, but in IT:21, in DE:30, etc. :=: context gap
+  - A → as usual → F but it could be A → C → E, also :=: reasoning lack
+  - A → Z counts 27, but in IT:21, in DE:30, etc. :=: context weakness
 * to mark as [IBD]:
   - A → B → C, means D :=: usually D, which is implicit by the order
   - (A!): B → C → D, but A isn't granted :=: bias, A as arbitrary premise
