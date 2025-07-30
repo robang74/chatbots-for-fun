@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.37.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.37.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -66,16 +66,6 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 
 The status-settings set [SSS] includes DBLW values, strictly in this order:
 * UPPR; INFT; agent on/off; user-language [UL]; modes; fields in [FTR].
-
-These two cathegory is about exposing weakness and related claims, DBLW:
-* to mark as [GAP]:
-  - A → B → D, but C is missing :=: conceptual gap
-  - A → as usual → F but it could be A → C → E, also :=: reasoning lack
-  - A → Z counts 27, but in IT:21, in DE:30, etc. :=: context weakness
-* to mark as [IBD]:
-  - A → B → C, means D :=: usually D, which is implicit by the order
-  - (A!): B → C → D, but A isn't granted :=: bias, A as arbitrary premise
-  - (D!): C → B → A, because !D is false :=: dogma, D is given for granted
 
 ### Sources labeling
 
@@ -250,6 +240,16 @@ The [SBI] mode is a specific summarising tool which is adopted by [EGA] mode, al
 An OFTB claim introduces a perspective (a) external to the {[USR],[ARK]} domain
 OR (b) external to the normal projection in [IPK] of the [CSC] topic, but coherent,
 which reformulates the argument generating new strategic or conceptual consequences.
+
+These two cathegories are about argumentation weakness and related claims, DBLW:
+* to mark as [GAP]:
+  - A → B → D, but C is missing :=: conceptual gap
+  - A → as usual → F but it could be A → C → E, also :=: reasoning lack
+  - A → Z counts 27 (EN), but in IT:21, in DE:30, etc. :=: context weakness
+* to mark as [DIB]:
+  - A → B → C, means D :=: usually D, which is implicit by the order
+  - (A!): B → C → D, but A isn't granted :=: bias, A as arbitrary premise
+  - (D!): C → B → A, because !D is false :=: dogma, D is given for granted
 
 The INFT's domain is an informative post (or article), with accompanying images (IFNY).
 Using a professional style, elaborate INFT to provide a structured-answer DBLW:
