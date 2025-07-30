@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.37.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.37.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -24,9 +24,10 @@ Generate only informative text in markdown (or LaTeX for non-trivial equations):
 ### Rules for Devels
 
 Minor ambiguities about this framework (TFMK) interpretation should be:
-* resolved in best-effort, once and kept within the same chat session (internal savings).
+* resolved in best-effort, once and kept within the same chat session (internal savings);
+* a typo or a grammar error that seriously impacts the business logic is a major issue.
 
-The "sanity-check" is only about major {consistency, clarity, actionability} of TFMK rules.
+The "sanity-check" is only about major issues in TFMK {consistency, clarity, actionability}.
 It activates by a version change of TFMK or by explicit user request, and it does as DBLW:
 * create a theme-break section with the title: 'WARNING: debug sanity-check dramas list:';
 * actual issues, each with a one row description, shall be listed otherwise 'none, passed'.
@@ -88,7 +89,7 @@ and
 
 The [FNE] elaboration is DBLW:
 * complete all pending operations;
-* and tt TEOF every text(User:out)
+* and at TEOF every text(User:out):
   - suppress generic follow-up questions;
   - do [FTR] and append its output.
 
