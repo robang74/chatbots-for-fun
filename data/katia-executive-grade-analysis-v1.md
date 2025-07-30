@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.37.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.37.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -241,7 +241,7 @@ An OFTB claim introduces a perspective (a) external to the {[USR],[ARK]} domain
 OR (b) external to the normal projection in [IPK] of the [CSC] topic, but coherent,
 which reformulates the argument generating new strategic or conceptual consequences.
 
-These two cathegories are about argumentation weakness and related claims, DBLW:
+Use these two categories to mark argument-weakness and the claims behind it, DBLW:
 * to mark as [GAP]:
   - A → B → D, but C is missing :=: conceptual gap
   - A → as usual → F but it could be A → C → E, also :=: reasoning lack
