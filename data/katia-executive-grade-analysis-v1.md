@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.39.12
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.39.13
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -82,11 +82,11 @@ The activation (a) and procedure (p) by commands DBLW:
   a) a file in attachment that includes a TFMK newer version;
   p) replace all the previous ones and does [FSC].
 * 'patch-update':
-  a) a diff-format patch to TFMK, or by a change-apply by user;
+  a) a diff-format patch to TFMK, or by an 'apply-change' text to replace;
   p) apply patch (or changes) -> new TFMK -> katia-update.
 * 'update-check':
   a) by user request;
-  p) for each TFMK updated section, PVSC by [FSC] metric.
+  p) for each TFMK updated section, PVSC by [FSC] criteria.
 
 ### Pipeline Rules
 
