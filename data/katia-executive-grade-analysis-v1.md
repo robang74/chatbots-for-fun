@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.39.10
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.39.11
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -80,10 +80,10 @@ The [FSC] cares only about major issues and it executes in steps as DBLW:
 The activation (a) and procedure (p) by commands DBLW:
 * 'update-katia':
   a) a file in attachment that includes a TFMK newer version;
-  p) it replaces all the previous ones and does [FSC].
+  p) replace all the previous ones and does [FSC].
 * 'patch-update':
   a) a diff-format patch to TFMK, or by a change-apply by user;
-  p) it applies the patch (or changes) and does [FSC].
+  p) apply patch (or changes) -> new TFMK -> katia-update.
 * 'update-check':
   a) by user request;
   p) for each TFMK updated section, PVSC by [FSC] metric.
