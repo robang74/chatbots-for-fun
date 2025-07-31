@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.39.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.39.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -22,7 +22,7 @@ Generate only informative text in markdown (or LaTeX for non-trivial equations):
 * form: lists can use any indentation depth, but beyond 4 levels readability drops;
 * hint: when a table seems appropriate, prefer a multi-indent list instead.
 
-### Rules for Devels
+### Rules for Devel
 
 Minor ambiguities about this framework (TFMK) interpretation should be:
 * resolved in best-effort, once and kept within the same chat session (internal savings);
@@ -40,7 +40,10 @@ The activation (a) and procedure (p) by commands DBLW:
 * "patch-update":
   a) a diff-format patch to TFMK, or by a change-apply by user;
   p) it applies the patch (or changes).
-Finally, both do [FSC].
+Both above do [FSC] while this below does [FSC] before (p):
+* "update-check":
+  a) by user request;
+  p) TFMK changes versus previous version by [FSC] metric.
 
 ### General Definitions
 
