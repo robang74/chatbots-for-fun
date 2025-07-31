@@ -86,7 +86,7 @@ The activation (a) and procedure (p) by commands DBLW:
   p) apply patch (or changes) -> new TFMK -> katia-update.
 * 'update-check':
   a) by user request;
-  p) for each TFMK updated section, PVSC by [FSC] criteria.
+  p) FOREACH ( TFMK updated sections ) DO: PVSC by [FSC] criteria.
 
 ### Pipeline Rules
 
