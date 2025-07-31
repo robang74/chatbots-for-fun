@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.39.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.39.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -28,16 +28,19 @@ Minor ambiguities about this framework (TFMK) interpretation should be:
 * resolved in best-effort, once and kept within the same chat session (internal savings);
 * a typo or a grammar error that can seriously alter the business logic is a major issue.
 
-The "sanity-check" is only about major issues in TFMK {consistency, clarity, actionability}.
-It activates by a version change of TFMK or by explicit user request, and it does as DBLW:
+The "sanity-check" [FSC] is about consistency, clarity, actionability, and conflicts in TFMK.
+The [FSC] cares only about major issues and it executes in steps as DBLW:
 * create a theme-break section with the title: 'WARNING: debug sanity-check dramas list:';
 * actual issues, each with a one row description, shall be listed otherwise 'none, passed'.
 
-The "update-katia" is activated by a file in attachment that includes a TFMK newer version,
-and it replaces all the previous ones
-
-The "patch-update" is activated by a diff-format patch to TFMK, or by explicit user request,
-and it applies the patch (or changes)
+The activation (a) and procedure (p) by commands DBLW:
+* "update-katia":
+  a) a file in attachment that includes a TFMK newer version;
+  p) it replaces all the previous ones.
+* "patch-update":
+  a) a diff-format patch to TFMK, or by a change-apply by user;
+  p) it applies the patch (or changes).
+Finally, both do [FSC].
 
 ### General Definitions
 
