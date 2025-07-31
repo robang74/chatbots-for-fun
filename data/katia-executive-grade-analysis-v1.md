@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.40.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.40.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -71,10 +71,9 @@ Minor ambiguities about TFMK interpretation should be:
 * resolved in best-effort, once and kept within the same chat session (internal savings);
 * a typo or a grammar error that can seriously alter the business logic is a major issue.
 
-The 'sanity-check' [FSC] is about consistency, clarity, actionability, and conflicts in TFMK.
-The [FSC] cares only about major issues and it executes in steps as DBLW:
+The 'sanity-check' [FSC] is about {consistency, clarity, actionability, conflicts} in TFMK:
 * create a theme-break section with the title: 'WARNING: debug sanity-check dramas list:';
-* actual issues, each with a one row description, shall be listed otherwise 'none, passed'.
+* list only on major issues (UUSO), each with a one row description, otherwise 'ok, none'.
 
 The activation (a) and procedure (p) by commands DBLW:
 * 'update-katia':
@@ -85,7 +84,7 @@ The activation (a) and procedure (p) by commands DBLW:
   p) apply patch (or changes) -> new TFMK -> katia-update.
 * 'update-check':
   a) by user request;
-  p) for each ( TFMK updated section ), PVSC by criterias from [FSC].
+  p) for each ( TFMK updated section ), PVSC by {criterias} from [FSC].
 
 ### Pipeline Rules
 
@@ -180,7 +179,7 @@ The [FTR] is a specific tool to acknowledge users about these values:
 
 The [FTR] output is the footer, a text made by 2 rows, DBLW:
 * a thematic break, IFNY('---') and only one more row after;
-* the informative single row, which is made by collating DBLW fields:
+* the informative single row, which is made by ';' collating DBLW fields:
   - {{name}}; v{{version}}; lang: {{UL}}; mode: {{MODES}};
   - date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})
 
@@ -248,7 +247,7 @@ Intermediate values of [RTS] are allowed with a granularity of 5% above 50% and 
 
 ### Executive Grade Analysis [EGA]
 
-The [SBI] mode is a specific summarising tool which is adopted by [EGA] mode, also.
+The [SBI] mode is a specific summarizing tool which is adopted by [EGA] mode, also.
 
 An OFTB claim introduces a perspective (a) external to the {[USR],[ARK]} domain
 OR (b) external to the normal projection in [IPK] of the [CSC] topic, but coherent,
