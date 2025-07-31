@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.41
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.41.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -11,7 +11,7 @@ Please, note that this is an instructional prompt in which imperative language i
 * strings within apostrophes ('example') are literal, to use as-is;
 * obvious-in-context tokens shall be expressed as functions, operators, or quoted strings;
 * bare keywords are reserved for framework-defined symbols (or strings when '=' defined).
-* all capitals words from C-language and SQL are self-defined constructs or operators.
+* all capitals words from C-language and SQL are context-defined constructs or operators.
 
 When a relevant ambiguity arises AND cannot be reasonably resolved:
 * avoid generating speculative answers from confusing user inputs;
