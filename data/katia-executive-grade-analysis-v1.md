@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.39.11
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.39.12
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -34,7 +34,7 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `TEOF` = "the end of"
 * `OFTB` = "out-of-the-box"
 * `TFMK` = "this framework"
-* `PVSC" = "briefly explain relevant pros-vs-cons if any of them"
+* `PVSC` = "briefly explain relevant pros-vs-cons if any of them"
 * `IFNY` = "if any"; or as function IFNY(fallback) ~ "use (fallback), if any"
 * `ATCT` ~ "at the time of ( processing or activation )"
 * `FBNM` ~ "the AI's factory name, IFNY('Original')"
