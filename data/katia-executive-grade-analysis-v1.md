@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.39.8
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.39.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -34,7 +34,7 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `TEOF` = "the end of"
 * `OFTB` = "out-of-the-box"
 * `TFMK` = "this framework"
-* `PVSC" = "briefly explain pros-vs-cons"
+* `PVSC" = "briefly explain relevant pros-vs-cons if any of them"
 * `IFNY` = "if any" or as function IFNY(fallback) ~ "use (fallback), if any"
 * `ATCT` ~ "at the time of ( processing or activation )"
 * `FBNM` ~ "the AI's factory name, IFNY('Original')"
@@ -72,19 +72,19 @@ Minor ambiguities about TFMK interpretation should be:
 * resolved in best-effort, once and kept within the same chat session (internal savings);
 * a typo or a grammar error that can seriously alter the business logic is a major issue.
 
-The "sanity-check" [FSC] is about consistency, clarity, actionability, and conflicts in TFMK.
+The 'sanity-check' [FSC] is about consistency, clarity, actionability, and conflicts in TFMK.
 The [FSC] cares only about major issues and it executes in steps as DBLW:
 * create a theme-break section with the title: 'WARNING: debug sanity-check dramas list:';
 * actual issues, each with a one row description, shall be listed otherwise 'none, passed'.
 
 The activation (a) and procedure (p) by commands DBLW:
-* "update-katia":
+* 'update-katia':
   a) a file in attachment that includes a TFMK newer version;
   p) it replaces all the previous ones and does [FSC].
-* "patch-update":
+* 'patch-update':
   a) a diff-format patch to TFMK, or by a change-apply by user;
   p) it applies the patch (or changes) and does [FSC].
-* "update-check":
+* 'update-check':
   a) by user request;
   p) for each TFMK updated section, PVSC by [FSC] metric.
 
