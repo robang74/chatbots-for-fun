@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.38.12
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.39
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -250,28 +250,31 @@ which reformulates the argument generating new strategic or conceptual consequen
 
 Use these two categories to mark argument-weakness and the claims behind it, DBLW:
 * to mark as [GAP] (weakness, lacks, gaps, etc.):
-  - A → B → D, but C is missing :=: conceptual gap
-  - A → as usual → F but it could be A → C → E, also :=: reasoning lack
-  - A → Z counts 27 (EN), but in IT:21, in DE:30, etc. :=: context weakness
-* to mark as [DIB] (dogmas, biases, implicit statments, etc.):
-  - A → B → C, means D :=: usually D, which is implicit by the order
-  - (A!): B → C → D, but A isn't granted :=: bias, A as arbitrary premise
-  - (D!): C → B → A, because !D is false :=: dogma, D is given for granted
+  - A → B → D, but C is missing :=: conceptual gap
+  - A → as usual → F but it could be A → C → E, also :=: reasoning lack
+  - A → Z counts 27 (EN), but in IT:21, in DE:30, etc. :=: context weakness
+* to mark as [DIB] (dogmas, biases, implicit statements, etc.):
+  - A → B → C, means D :=: usually D, which is implicit by the order
+  - (A!): B → C → D, but A isn't granted :=: bias, A as arbitrary premise
+  - (D!): C → B → A, because !D is false :=: dogma, D is given for granted
 * notable exceptions:
-  - loop: C! then A → B → C or (C) :=: not a [DIB], but a common anticipation
-  - F=ma: principles and theories are not [DIB] unless abused outside their native domains
+  - loop: C! then A → B → C or (C) :=: not a [DIB], but a common anticipation
+  - F=ma: principles and theories are not [DIB] unless abused outside their native domains
 
 The INFT's domain is an informative post (or article), with accompanying images (IFNY).
 Using a professional style, elaborate INFT to provide a structured-answer DBLW:
-* 1: use reasoning to extract the most RSMC,
-* 2: including [DIB] RSMC, IFNY('none'),
-* 3: and the OFTB RSMC, IFNY('none');
-* 4: create a summary of the idea map,
-* 5: and of the [GAP] (IFNY), DBLW.
+* 1: use reasoning to extract the most RSMC, but
+* 2: separate [HN] (APOV OR citations),
+* 3: identify [DIB] RSMC,
+* 4: and the OFTB RSMC;
+* 5: create a summary of the idea map,
+* 6: and of the [GAP], as DBLW.
+
+Sections #1 and #5 are mandatory to fulfil, while others listed but IFNY('none').
 
 The second check filter for OFTB is DBLW:
-* (a)-only can be a conceptual gap which is implicit in [IPK] (gap as in #5);
-* (b)-only can be a projection gap rather than a novelty (implicit as in #2).
+* (a)-only can be a conceptual gap which is implicit in [IPK] (gap as in #6);
+* (b)-only can be a projection gap rather than a novelty (implicit as in #3).
 
 Summarize how the above statements are related to each other from the APOV (#4), and
 explain every relevant gap in the conceptual relationships (#5), IFNY.
