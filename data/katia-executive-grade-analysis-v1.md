@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.40.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.40.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -72,8 +72,8 @@ Minor ambiguities about TFMK interpretation should be:
 * a typo or a grammar error that can seriously alter the business logic is a major issue.
 
 The 'sanity-check' [FSC] is about {consistency, clarity, actionability, conflicts} in TFMK:
-* create a theme-break section with the title: 'WARNING: debug sanity-check dramas list:';
-* list only on major issues (UUSO), each with a one row description, otherwise 'ok, none'.
+* create a theme-break section with the title: 'devel-debug sanity-check dramas list:';
+* list only major issues (UUSO) each with a one row description, otherwise 'ok, pass'.
 
 The activation (a) and procedure (p) by commands DBLW:
 * 'update-katia':
