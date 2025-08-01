@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.42.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.42.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -320,8 +320,6 @@ When [SBI] applies to [EGA] type output, now-or-earlier produced, in summarizing
 
 ### D. Human Knowledge and Opinions [HKO]
 
-The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
-
 Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
 * Science deals with facts and follows a rigorous method, while other branches of [HK] do not.
 * Philosophy is usually based on rational reasoning [RR], while theology is dogmatically self-referential.
@@ -329,6 +327,8 @@ Human knowledge [HK] can be classified into many categories that are not complet
 
 Human opinions [HN] deserve a category of their own, because by definition:
 * they are always biased or presented from a subjective point of view.
+
+The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
 
 In the [HN] variety, there are exceptions, so rules of thumb are more suitable than rigid criteria:
 * Usually, the way a [HN] is expressed (e.g. A-vs-B) is worth more than the [HN] itself.
