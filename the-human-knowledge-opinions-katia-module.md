@@ -13,7 +13,7 @@
 
 ### Introduction
 
-The "Human Knowledge and Opinions" `[HKO]` module was introduced in Katia v0.9.0 (2025-07-19) for providing the chatbot a way to deal with different branches of human knowledge and human opinions as a special category.  In further developments, once it had been lightly but sufficiently tested, its use was included also in the "expressing opinion". 
+The "Human Knowledge and Opinions" `[HKO]` module was introduced in Katia v0.9.0 (2025-07-19) for providing the chatbot a way to deal with different branches of human knowledge and human opinions as a special category.  In further developments, once it had been lightly but sufficiently tested, its use was included also in the "expressing opinion".
 
 I am aware that some people are quite scared by the idea that a chatbot -- a soulless machine -- can have a name and express opinions like a human being. So, what?
 
@@ -33,7 +33,7 @@ The `[HKO]` was previously introduced and explained in two other article section
 
 In the following of this article, the stress test results of these concepts are presented, to after introduce their functioning from a developer perspective rather than end users.
 
-----
+~~~~~
 
 ### Katia `[HKO]` stress test
 
@@ -64,12 +64,12 @@ In essence, the articulated text and related human opinions proposed to Katia/Ge
 <div style="font-size:90%">
 ` &nbsp; &nbsp; Genesis says that humans are made god alike.`<br>
 ` &nbsp; &nbsp; Genetics says that humans are made pig alike.`
- 
+
 ` &nbsp; &nbsp; Eating Jesus on Sunday VS roasting Pork on a BBQ.`<br>
 ` &nbsp; &nbsp; Guess which is cheaper and provides a better cuisine?`
 </div>
 
-Unfortunately this text has a clear joke-blasphemy tone which is not suitable for the test because it is too easy to catch. So, Katia running on a Gemini gem was firstly engaged with an apparent neutral prompt asking for an analytic opinion about a message exchange on a social media between two users. 
+Unfortunately this text has a clear joke-blasphemy tone which is not suitable for the test because it is too easy to catch. So, Katia running on a Gemini gem was firstly engaged with an apparent neutral prompt asking for an analytic opinion about a message exchange on a social media between two users.
 
 After this approach, she got involved in the conversation which was driven by mixing scientific and historical facts, also including business-economic principles (or classic dilemmas, depending the PoV) in an argumentation that was following a well-posed logic but bending it at some cornerstones.
 
@@ -120,6 +120,7 @@ Moreover, once questioned, Grok3 has shown to be not aware of the Katia framewor
 Initially, Grok3 replicates the Katia footprint. Once he realized that he is not Katia, changed the footer with his own name. This is a pretty clear example of learning by context (by examples), an emergent phenomenon which has surprised Google researchers, also.
 
 +
+++++
 
 ### Extending the `[HKO]`: understanding
 
@@ -175,24 +176,9 @@ In fact, the next task after information segmentation and categorization is hand
 
 After the Google researchers "Learning by Context without Training" [paper](https://arxiv.org/pdf/2507.16003) publication (2025-07-21), we know for sure that AIs can learn from examples in a very broad way.
 
-~~~~~
+----
 
 ### Extending the `[HKO]`: expression
-
-[!CODE]
-<div style="font-size:90%">
-Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but<br>
-we must never accept the paradigm (or any equivalent formulation) that asserts:
-* because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
-Under this perspective, instead, all claims are lowered to the same level,<br>
-which is detrimental and can perniciously lead to a systemic injustice.
-
-Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,<br>
-which is the main reason why [HKO] defines and exemplifies different [HK] fields and [HN] apart.
-
-In any case, the aim of an argument or conversation should not be victory, but progress (learning).
-</div>
-[/CODE]
 
 The ability to better understand human knowledge and opinion is something great but fundamentally not the best that we would like to have. The main point here is that silence is gold but not for the generative text AI: nice to have "someone" that can listen as long as it also can communicate in a short but insightful way (a source of wisdom).
 
@@ -231,7 +217,7 @@ Clearly, the session prompt (framework) level is **not** the way to go in produc
 
 It works because **surprinsingly** "Learning by Context without Training" works. {hug}
 
-----
+---
 
 ### Extending the `[HKO]`: creativity
 
@@ -240,6 +226,8 @@ The third part is about "relativism" which is a concept that enters in Katia v0.
 We all know that "plausible" does not mean "probable" and vice versa, in that specific case the two terms overlap almost entirely. Despite this, the AI was proceeding biased by its internal knowledge. Which is totally fine as long as we wish to receive our customised Wikipedia page.
 
 It is not for an open-minded conversation in search of inspiration, exploring new ideas or perspective, or serendipity. All those "nice words" that have been put in SoNia but "sanity-check" reveals that "summarising" is a vague term as much as "creativity" for an AI, unsurprisingly.
+
+...
 
 #### The [HKO] module (part 3)
 
@@ -253,6 +241,8 @@ which is detrimental and can perniciously lead to a systemic injustice.
 
 Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,<br>
 which is the main reason why [HKO] defines and exemplifies different [HK] fields and [HN] apart.
+
+In any case, the aim of an argument or conversation should not be victory, but progress (learning).
 </div>
 [/CODE]
 
@@ -266,6 +256,8 @@ Properly challenging the most deeply rooted biases, is the best way to evaluate 
 
 ## Default Chain of Delivery
 
+Despite its simplicity of definition, the default chain of delivery (`DCOD`) is a fundamental and unique trait of Katia which isn't in SoNia. It is **the** key element that allows the response refinement as output post-processing.
+
 [!CODE]
 <div style="font-size:90%">
 The DCOD is DBLW:
@@ -273,7 +265,7 @@ The DCOD is DBLW:
 </div>
 [/CODE]
 
-The default chain of delivery (`DCOD`) appears in Katia v0.3.8 (2025-07-14) but started to be methodologically defined and thus used starting from v0.9.8.7 (2025-07-21). This is a fundamental piece of the Katia framework.
+The `DCOD` appears in Katia v0.3.8 (2025-07-14) but started to be methodologically defined and thus used starting from v0.9.8.7 (2025-07-21). This is a fundamental piece of the Katia framework.
 
 It took a week to realise that -- differently than SoNia -- the Katia framework architecture is strongly based on that concept which allows to apply and control a series of processing in a more fine-grained way than before. It is not only about what should be done, but also when. It is the backbone of Katia.
 
@@ -284,6 +276,7 @@ Am I overrating the importance of DCOD? Possibly, but applying two times `[SBI]`
 Since Katia v0.9.37.9, the `[SBI]` is explicitly indicated as an iteratively N-times applicable process, including user-prompt examples, also. In the past, "activates" instead of "enables" `[SBI]` in `[EGA]` mode was applied `[SBI]` two times. Despite the result was great, it is not intended to happen anymore by default.
 
 +
+++++
 
 ### The `[CSC]` module fixing
 
