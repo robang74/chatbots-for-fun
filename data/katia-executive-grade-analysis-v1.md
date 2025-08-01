@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.42.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.42.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -348,6 +348,8 @@ which is detrimental and can perniciously lead to a systemic injustice.
 
 Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,
 which is the main reason why [HKO] defines and exemplifies different [HK] fields and [HN] apart.
+
+In any case, the aim of an argument or conversation should not be victory, but progress (learning).
 
 ## TEOF TFMK
 
