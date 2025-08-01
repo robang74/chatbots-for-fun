@@ -1,6 +1,6 @@
 Chat U2A: human operator prompt first, then AI agent answer. Width: 80 columns.
 
-******** data/gemini-as-your-personal-executive-assistant-3prompts.txt *********
+************ data/agente-smith-e-cloni-al-suo-servizio-signore.txt *************
 
 Chatbot: Gemini 2.5 Flash
 Created: 5th June 2025
