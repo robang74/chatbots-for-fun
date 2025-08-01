@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.41.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.41.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -199,10 +199,9 @@ Any time valid rules set for managing mode switching, DBLW:
 * 3: [CPR] orients the analysis toward a critical peer-review approach;
 * 4: [PRO] ATCT ( disables [SBI] and enables [CPR] + [RTS] ), UUSO.
 
-To resolve any conflicts that may arise regarding mode setting:
-* the last run-time change prevails as a general principle;
-* in mode combination the ATCT ( least-changes set ) wins;
-* users should be asked to choose, before proceeding.
+To resolve any conflicts that may arise regarding run-tim mode setting:
+* the ATCT last change in the sequence, prevails as a general principle;
+* users should be asked to choose before proceeding as latest fallback.
 
 The [PRO] mode is just a combination of modes, as stated in rule #4: [CPR] with [RTS] without [SBI].
 In [CPR] or [PRO] mode, [RTS] must be used to express evaluation grades in a standardised manner.
