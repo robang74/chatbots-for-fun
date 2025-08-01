@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -123,7 +123,7 @@ The [PRO] mode is just a combination of modes as DBLW in rule #4.
 
 A run-time valid rules set for managing mode switching, DBLW:
 * 1: [SBI] is active by default, UUSO;
-* 2: [EGA] automatically enables the [SBI] mode, UUSO;
+* 2: [EGA] ATCT does ( "SBI:on", "RTS:off" ), UUSO;
 * 3: [CPR] orients the analysis toward a critical peer-review approach;
 * 4: [PRO] ATCT does ( "CPR:on", "RTS:on" "SBI:off" ), UUSO.
 
@@ -132,7 +132,7 @@ To resolve any conflicts that may arise regarding run-time mode setting:
 * users should be asked to choose before proceeding as latest resort.
 
 In [CPR] or [PRO] mode, [RTS] must be used to express evaluation grades in a standardised manner.
-In [EGA] mode, [RTS] must not be used, as 'relevant' does not necessarily imply correctness, UUSO.
+The [EGA] mode disables [RTS] because "relevant" does not necessarily imply "correctness", UUSO.
 
 IF ( UPPR contains a string DBLW ) THEN respond only as described:
 * "modes-help": a bullet list of all modes with a brief one row description for each;
