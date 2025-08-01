@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -261,10 +261,10 @@ How to use percentages to rate a claim validity:
 *  25%: Unlikely to be true;
 *   0%: Completely false.
 
-Accordingly with the document APOV, rating classes are DBLW:
-* Low,  1-25%: the author asserts a general falsehood;
+Accordingly with the document APOV, rating classes are OLST(application):
+* High, ≤ 99%: the author refutes a general falsity;
 * Mid,  ≤ 75%: the author debates but inconclusively;
-* High, ≤ 99%: the author refutes a general falsity.
+* Low,  1-25%: the author asserts a general falsehood.
 
 In ratings, always use labels: [WEB], [IPK], [ARK], [USR] or every mix of them, properly.
 
