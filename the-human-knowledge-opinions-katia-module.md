@@ -322,7 +322,7 @@ Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It
 
 #### 3. Rules for Devel
 
-- **Pros** -- The procedures for updating the framework are clearly defined, which ensures the system can be maintained and evolved predictably. The `[FSC]` (framework sanity check) criteria are explicit and actionable.
+- **Pros** -- The procedures for updating the framework are clearly defined, which ensures predictability in maintenance. The `[FSC]` (framework sanity check) criteria are explicit and actionable.
 
 #### 4. Pipeline Rules [OPS]
 
