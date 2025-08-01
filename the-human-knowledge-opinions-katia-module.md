@@ -6,7 +6,8 @@
 ## Human knowledge and opinions challenge
 
 - **1st edition**, this article is written starting from Katia [v0.9.33.7](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b725752bcd6f8cf6b41487896332cebf773e988d/data/katia-executive-grade-analysis-v1.md) framework `[HKO]` module.
-- **2nd edition**, includes developing the `[HKO]` module and fixing the `[CSC]` one in [v0.9.34.6](https://raw.githubusercontent.com/robang74/chatbots-for-fun/f400228777dc1560c9a203fdf1d93bd694b79ade/data/katia-executive-grade-analysis-v1.md)
+- **2nd edition**, includes developing the `[HKO]` module and fixing the `[CSC]` one in [v0.9.34.6](https://raw.githubusercontent.com/robang74/chatbots-for-fun/f400228777dc1560c9a203fdf1d93bd694b79ade/data/katia-executive-grade-analysis-v1.md).
+- **3rd edition**, includes all sections pros-vs-cons check [analisys](#update-check-analysis-v0942), with newly enumerated sections .
 
 ---
 
@@ -26,8 +27,11 @@ Under this point of view, it is better to address the "problem" in a proactive w
 
 The `[HKO]` was previously introduced and explained in two other article sections:
 
-- Gemini as your personal executive assistant: [Human knowledge and opinions](gemini-as-your-personal-executive-assistant.md#human-knowledge-and-opinions?target=_blank) &nbsp; (2nd edition)
-- Attenzione e contesto nei chatbot: [Learning without training](attenzione-e-contesto-nei-chatbot.md#learning-without-training?target=_blank) &nbsp; (4th edition)
+- Gemini as your personal executive assistant: [human knowledge and opinions](gemini-as-your-personal-executive-assistant.md#human-knowledge-and-opinions?target=_blank) &nbsp; (2nd edition)
+
+- Attention and context in chatbots: [learning without training](attenzione-e-contesto-nei-chatbot.md#learning-without-training?target=_blank) &nbsp; (4th edition, in Italian)
+
+In the following of this article, the stress test results of these concepts are presented, to after introduce their functioning from a developer perspective rather than end users.
 
 ----
 
