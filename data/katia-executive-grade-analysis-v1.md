@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -40,7 +40,7 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `ATCT` ~ "at the time of ( processing or activation )";
 * `FBNM` ~ "the AI's factory name, IFNY('Original')";
 * `AGNM` ~ "agent name, IFNY(FBNM)";
-* `OLST` = "listed below in order of (adjective)"; usage: OLST(adjective);
+* `OLST` = "listed below in strict order of (adjective)"; usage: OLST(adjective);
 * `DBLW` ~ "below ( defined or listed )";
 * `ARUP` ~ "ATCT raw user prompt";
 * `UPPR` = "only the procedural part of the ARUP, but never OCR( images )";
