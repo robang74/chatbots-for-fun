@@ -24,38 +24,12 @@ Under this point of view, it is better to address the "problem" in a proactive w
 
 #### Human Knowledge and Opinions [HKO]
 
-[!CODE]
-<div style="font-size:90%">
-The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
-
-Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
-* Science deals with facts and follows a rigorous method, while other branches of [HK] do not.
-* Philosophy is usually based on rational reasoning [RR], while theology is dogmatically self-referential.
-* The [RR] is fundamental in science, useful in philosophy and usually bent in theology.
-
-Human opinions [HN] deserve a category of their own, because by definition:
-* they are always biased or presented from a subjective point of view.
-
-In the [HN] variety, there are exceptions, so rules of thumb are more suitable than rigid criteria:
-* Usually, the way a [HN] is expressed (e.g. A-vs-B) is worth more than the [HN] itself.
-* Violence is deeply rooted in the human-as-animal nature, so [HN] tends to rationalize it.
-* Usually, rationalisation is better than avoidance, convincing A-vs-B is better than C as dogma.
-* Among [HN], popularity (trivial) is a metric, but it is usually far from being solid and correct.
-
-In evaluating or expressing a [HN], facts can be proved or falsified, philosophy can be debated,<br>
-opinions can be supported or criticised, while dogmas can be accepted or rejected but rarely debated.<br>
-A dogma that can be rejected or debated (free speech) and it is not imposed (manipulation), is permissible.
-
-In any case, the aim of an argument or conversation should not be victory, but progress (learning).
-</div>
-[/CODE]
-
 The `[HKO]` was previously introduced and explained in two other article sections:
 
 - Gemini as your personal executive assistant: [Human knowledge and opinions](gemini-as-your-personal-executive-assistant.md#human-knowledge-and-opinions?target=_blank) &nbsp; (2nd edition)
 - Attenzione e contesto nei chatbot: [Learning without training](attenzione-e-contesto-nei-chatbot.md#learning-without-training?target=_blank) &nbsp; (4th edition)
 
----
+----
 
 ### Katia `[HKO]` stress test
 
@@ -201,6 +175,21 @@ After the Google researchers "Learning by Context without Training" [paper](http
 
 ### Extending the `[HKO]`: expression
 
+[!CODE]
+<div style="font-size:90%">
+Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but<br>
+we must never accept the paradigm (or any equivalent formulation) that asserts:
+* because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
+Under this perspective, instead, all claims are lowered to the same level,<br>
+which is detrimental and can perniciously lead to a systemic injustice.
+
+Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,<br>
+which is the main reason why [HKO] defines and exemplifies different [HK] fields and [HN] apart.
+
+In any case, the aim of an argument or conversation should not be victory, but progress (learning).
+</div>
+[/CODE]
+
 The ability to better understand human knowledge and opinion is something great but fundamentally not the best that we would like to have. The main point here is that silence is gold but not for the generative text AI: nice to have "someone" that can listen as long as it also can communicate in a short but insightful way (a source of wisdom).
 
 The `[SBI]` module appeared in SoNia v3.8.0 (2025-07-12), just a week before the first version of the `[HKO]` module. Why? It is hard to summarise what we did not deeply understand because we cannot decide what is relevant or not. Three days later, the `[HKO]` was introduced into Katia v0.9.9.8 (2025-07-22) for expressing her opinions.
@@ -306,66 +295,48 @@ Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It
 
 > do an update-check on all the sections whenever they are changed or not.
 
-#### 0. Universal Rules
-
+**0. &nbsp; Universal Rules**
 - **Pros** -- Establishes a clear, predictable interaction model through procedural language and specified tokens. The rules on handling ambiguity are good guardrails against speculative responses.
-
 - **Cons** -- Procedural details require strict adherence, but this is a design choice that prioritizes consistency.
 
-#### 1. General Definitions
-
+**1. &nbsp; General Definitions**
 - **Pros** -- Provides a comprehensive set of acronyms and terms, reducing ambiguity in communication.<br>The `[SSS]` (status & settings set) list defines the core state of the system in a clear, ordered way.
 
-#### 2. Sources labeling [LBL]
-
+**2. &nbsp; Sources labeling [LBL]**
 - **Pros** -- The tool offers a precise and actionable method for categorizing (and labeling) information sources, which is fundamental for traceability and accuracy.
 
-#### 3. Rules for Devel
-
+**3. &nbsp; Rules for Devel**
 - **Pros** -- The procedures for updating the framework are clearly defined, which ensures predictability in maintenance. The `[FSC]` (framework sanity check) criteria are explicit and actionable.
 
-#### 4. Pipeline Rules [OPS]
-
+**4. &nbsp; Pipeline Rules [OPS]**
 - **Pros** -- The `DCOD` (default chain of delivery) is a robust and logical pipeline that defines the entire process from user input to final output. The rules for parsing input and managing an inactive agent are clear.
 
-#### 5. Session Context [CSC]
-
+**5. &nbsp; Session Context [CSC]**
 - **Pros** -- Provides a detailed strategy for managing chat history and context, including rules for handling large contexts and a clear reset mechanism.
-
 - **Cons** -- The multi-segment processing of large contexts adds a layer of complexity, but it is necessary for maintaining context.
 
-#### 6. Short but Insightful [SBI]
-
+**6. &nbsp; Short but Insightful [SBI]**
 - **Pros** -- The `[SBI]` mode is well-defined with explicit triggers for various levels of conciseness. The conditional output and iterative application rules are flexible and powerful.
 
-#### 7. Footer Management [FTR]
-
+**7. &nbsp; Footer Management [FTR]**
 - **Pros** -- This tool ensures a consistent, informative footer is appended to every response, providing version, mode, and other status information.
-
 - **Cons** -- The footer's format is rigid, but this is a desired feature for consistency.
 
-#### 8. Modes Management
-
+**8. &nbsp; Modes Management**
 - **Pros** -- The rules for enabling, disabling, and resolving conflicts between modes are clear and based on a "last change wins" principle. This is a robust mechanism for handling complex user requests.
-
 - **Cons** -- The modes interdependencies could be confusing without the explicit conflict resolution rule.
 
-#### A. Agentic Character [KTA]
-
+**A. &nbsp; Agentic Character [KTA]**
 - **Pros** -- Katia's character and activation triggers are clearly defined, providing a customized agent experience. The specific rule for null `INFT` (no data from user) provides a concise response for greetings.
 
-#### B. Rating Scale [RTS]
-
+**B. &nbsp; Rating Scale [RTS]**
 - **Pros** -- The scale provides a standardized, granular method for rating claims. The "critical verse" and "remedial verse" offer flexibility in explaining the rating context.
 
-#### C. Executive Grade Analysis [EGA]
-
+**C. &nbsp; Executive Grade Analysis [EGA]**
 - **Pros** -- It defines a sophisticated, structured analysis framework with specific concepts (`OFTB` for out-of-the-box, `[GAP]` for concpetual-gap, `[DIB]` for biases-inplicit-dogmas) for delivering professional insights.
-
 - **Cons** -- The concepts defined are complex, but the framework provides clear definitions and examples.
 
-#### D. Human Knowledge and Opinions [HKO]
-
+**D. &nbsp; Human Knowledge and Opinions [HKO]**
 - **Pros** -- The framework provides a solid philosophical foundation for evaluating different types of knowledge `[SOK]` and opinions `[HN]`. It establishes an important guardrail against pernicious relativism.
 
 > Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)
