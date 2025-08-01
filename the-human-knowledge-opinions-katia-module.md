@@ -288,7 +288,9 @@ Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It
 
 +
 
-### Update Check Analysis (v0.9.42)
+### Update Check Analysis
+
+Regardin katia v0.9.42, and later aligned with v0.9.44 changes.
 
 > do an update-check on all the sections whenever they are changed or not.
 
@@ -299,29 +301,29 @@ Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It
 **1. &nbsp; General Definitions**
 - **Pros** -- Provides a comprehensive set of acronyms and terms, reducing ambiguity in communication.<br>The `[SSS]` (status & settings set) list defines the core state of the system in a clear, ordered way.
 
-**2. &nbsp; Sources labeling [LBL]**
-- **Pros** -- The tool offers a precise and actionable method for categorizing (and labeling) information sources, which is fundamental for traceability and accuracy.
-
-**3. &nbsp; Rules for Devel**
+**2. &nbsp; Rules for Devel [DEV]**
 - **Pros** -- The procedures for updating the framework are clearly defined, which ensures predictability in maintenance. The `[FSC]` (framework sanity check) criteria are explicit and actionable.
 
-**4. &nbsp; Pipeline Rules [OPS]**
+**3. &nbsp; Sources labeling [LBL]**
+- **Pros** -- The tool offers a precise and actionable method for categorizing (and labeling) information sources, which is fundamental for traceability and accuracy.
+
+**4. &nbsp; Pipeline Rules**
 - **Pros** -- The `DCOD` (default chain of delivery) is a robust and logical pipeline that defines the entire process from user input to final output. The rules for parsing input and managing an inactive agent are clear.
 
-**5. &nbsp; Session Context [CSC]**
+**5. &nbsp; Modes Management**
+- **Pros** -- The rules for enabling, disabling, and resolving conflicts between modes are clear and based on a "last change wins" principle. This is a robust mechanism for handling complex user requests.
+- **Cons** -- The modes interdependencies could be confusing without the explicit conflict resolution rule.
+
+**6. &nbsp; Session Context [CSC]**
 - **Pros** -- Provides a detailed strategy for managing chat history and context, including rules for handling large contexts and a clear reset mechanism.
 - **Cons** -- The multi-segment processing of large contexts adds a layer of complexity, but it is necessary for maintaining context.
 
-**6. &nbsp; Short but Insightful [SBI]**
+**7. &nbsp; Short but Insightful [SBI]**
 - **Pros** -- The `[SBI]` mode is well-defined with explicit triggers for various levels of conciseness. The conditional output and iterative application rules are flexible and powerful.
 
-**7. &nbsp; Footer Management [FTR]**
+**8. &nbsp; Footer Management [FTR]**
 - **Pros** -- This tool ensures a consistent, informative footer is appended to every response, providing version, mode, and other status information.
 - **Cons** -- The footer's format is rigid, but this is a desired feature for consistency.
-
-**8. &nbsp; Modes Management**
-- **Pros** -- The rules for enabling, disabling, and resolving conflicts between modes are clear and based on a "last change wins" principle. This is a robust mechanism for handling complex user requests.
-- **Cons** -- The modes interdependencies could be confusing without the explicit conflict resolution rule.
 
 **A. &nbsp; Agentic Character [KTA]**
 - **Pros** -- Katia's character and activation triggers are clearly defined, providing a customized agent experience. The specific rule for null `INFT` (no data from user) provides a concise response for greetings.
@@ -329,14 +331,16 @@ Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It
 **B. &nbsp; Rating Scale [RTS]**
 - **Pros** -- The scale provides a standardized, granular method for rating claims. The "critical verse" and "remedial verse" offer flexibility in explaining the rating context.
 
-**C. &nbsp; Executive Grade Analysis [EGA]**
+**C. &nbsp; Human Knowledge and Opinions [HKO]**
+- **Pros** -- The framework provides a solid philosophical foundation for evaluating different types of knowledge `[SOK]` and opinions `[HN]`. It establishes an important guardrail against pernicious relativism.
+- **Pros** -- Moving OFTB (out-of-the-box framework) to [HKO] increases its scope and completeness, adding the definition of an external perspective or conceptual novelty which is aligned with the purpose of [HKO].
+
+**D. &nbsp; Executive Grade Analysis [EGA]**
 - **Pros** -- It defines a sophisticated, structured analysis framework with specific concepts (`OFTB` for out-of-the-box, `[GAP]` for concpetual-gap, `[DIB]` for biases-inplicit-dogmas) for delivering professional insights.
 - **Cons** -- The concepts defined are complex, but the framework provides clear definitions and examples.
 
-**D. &nbsp; Human Knowledge and Opinions [HKO]**
-- **Pros** -- The framework provides a solid philosophical foundation for evaluating different types of knowledge `[SOK]` and opinions `[HN]`. It establishes an important guardrail against pernicious relativism.
-
 > Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)
+> Katia; v0.9.44; lang: IT; mode: N/A; date: 2025-08-01; time: 21:32:00 (CEST)
 
 +
 
