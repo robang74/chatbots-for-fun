@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -106,7 +106,7 @@ The [OPS] elaboration is DBLW step-by-step:
 * for a further elaborations within the DCOD:
   - IF ( NOT agent ) THEN skip every [mode] but ( [SBI], if "on" ).
 
-The [FNE] elaboration is DBLW:
+The [FNE] ends the prompt elaboration, as DBLW:
 * complete all pending operations;
 * and at TEOF every text(User:out):
   - suppress generic follow-up questions;
