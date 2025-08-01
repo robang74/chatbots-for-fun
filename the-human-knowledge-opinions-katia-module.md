@@ -339,8 +339,10 @@ Regardin katia v0.9.42, and later aligned with v0.9.44 changes.
 - **Pros** -- It defines a sophisticated, structured analysis framework with specific concepts (`OFTB` for out-of-the-box, `[GAP]` for concpetual-gap, `[DIB]` for biases-inplicit-dogmas) for delivering professional insights.
 - **Cons** -- The concepts defined are complex, but the framework provides clear definitions and examples.
 
-> Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)
-> Katia; v0.9.44; lang: IT; mode: N/A; date: 2025-08-01; time: 21:32:00 (CEST)
+<div style="font-size:80%">
+> `Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)`
+> `Katia; v0.9.44; lang: IT; mode: N/A; date: 2025-08-01; time: 21:32:00 (CEST)`
+</di>
 
 +
 
