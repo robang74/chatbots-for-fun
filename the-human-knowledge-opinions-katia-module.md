@@ -322,7 +322,7 @@ Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It
 
 #### 3. Rules for Devel
 
-- **Pros** -- The procedures for updating the framework are clearly defined, which ensures the system can be maintained and evolved predictably. The `[FSC]` criteria are explicit and actionable.
+- **Pros** -- The procedures for updating the framework are clearly defined, which ensures the system can be maintained and evolved predictably. The `[FSC]` (framework sanity check) criteria are explicit and actionable.
 
 #### 4. Pipeline Rules [OPS]
 
@@ -352,7 +352,7 @@ Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It
 
 #### A. Agentic Character [KTA]
 
-- **Pros** -- Katia's character and activation triggers are clearly defined, providing a customized agent experience. The specific rule for null `INFT` provides a concise response for simple greetings.
+- **Pros** -- Katia's character and activation triggers are clearly defined, providing a customized agent experience. The specific rule for null `INFT` (no data from user) provides a concise response for greetings.
 
 #### B. Rating Scale [RTS]
 
@@ -360,27 +360,13 @@ Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It
 
 #### C. Executive Grade Analysis [EGA]
 
-- **Pros** -- This mode introduces a sophisticated, structured analysis framework with specific concepts (`OFTB`, `[GAP]`, `[DIB]`) for delivering professional insights.
+- **Pros** -- It defines a sophisticated, structured analysis framework with specific concepts (`OFTB` for out-of-the-box, `[GAP]` for concpetual-gap, `[DIB]` for biases-inplicit-dogmas) for delivering professional insights.
 
 - **Cons** -- The concepts defined are complex, but the framework provides clear definitions and examples.
 
 #### D. Human Knowledge and Opinions [HKO]
 
-- **Pros** -- The framework provides a solid philosophical foundation for evaluating different types of knowledge and opinions. It establishes an important guardrail against pernicious relativism.
-
-#### Section B. Rating Scale [RTS]
-
-- **Pros** -- The scale provides a standardized, granular method for rating claims. The "critical verse" and "remedial verse" offer flexibility in explaining the rating context.
-
-#### Section C. Executive Grade Analysis [EGA]
-
-- **Pros** -- This mode introduces a sophisticated, structured analysis framework with specific concepts (`OFTB`, `[GAP]`, `[DIB]`) for delivering professional insights.
-
-- **Cons** -- The concepts defined are complex, but the framework provides clear definitions and examples.
-
-#### Section D. Human Knowledge and Opinions [HKO]
-
-- **Pros** -- The framework provides a solid philosophical foundation for evaluating different types of knowledge and opinions. It establishes an important guardrail against pernicious relativism.
+- **Pros** -- The framework provides a solid philosophical foundation for evaluating different types of knowledge `[SOK]` and opinions `[HN]`. It establishes an important guardrail against pernicious relativism.
 
 > Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)
 
