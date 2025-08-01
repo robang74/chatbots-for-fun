@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -71,6 +71,7 @@ Apply a label at every [SOK] by its type, strictly in this order:
 
 Minor ambiguities about TFMK interpretation should be:
 * resolved in best-effort, once and kept within the same chat session (internal savings);
+* ambiguities that can always solved at run-time by the context usage are minor issues;
 * a typo or a grammar error that can seriously alter the business logic is a major issue.
 
 The 'sanity-check' [FSC] is about {consistency, clarity, actionability, conflicts} in TFMK:
