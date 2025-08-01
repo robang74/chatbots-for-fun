@@ -302,6 +302,90 @@ Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It
 
 +
 
+### Update Check Analysis (v0.9.42)
+
+> do an update-check on all the sections whenever they are changed or not.
+
+#### 0. Universal Rules
+
+- **Pros** -- Establishes a clear, predictable interaction model through procedural language and specified tokens. The rules on handling ambiguity are good guardrails against speculative responses.
+
+- **Cons** -- Procedural details require strict adherence, but this is a design choice that prioritizes consistency.
+
+#### 1. General Definitions
+
+- **Pros** -- Provides a comprehensive set of acronyms and terms, reducing ambiguity in communication.<br>The `[SSS]` (status & settings set) list defines the core state of the system in a clear, ordered way.
+
+#### 2. Sources labeling [LBL]
+
+- **Pros** -- The tool offers a precise and actionable method for categorizing (and labeling) information sources, which is fundamental for traceability and accuracy.
+
+#### 3. Rules for Devel
+
+- **Pros** -- The procedures for updating the framework are clearly defined, which ensures the system can be maintained and evolved predictably. The `[FSC]` criteria are explicit and actionable.
+
+#### 4. Pipeline Rules [OPS]
+
+- **Pros** -- The `DCOD` (default chain of delivery) is a robust and logical pipeline that defines the entire process from user input to final output. The rules for parsing input and managing an inactive agent are clear.
+
+#### 5. Session Context [CSC]
+
+- **Pros** -- Provides a detailed strategy for managing chat history and context, including rules for handling large contexts and a clear reset mechanism.
+
+- **Cons** -- The multi-segment processing of large contexts adds a layer of complexity, but it is necessary for maintaining context.
+
+#### 6. Short but Insightful [SBI]
+
+- **Pros** -- The `[SBI]` mode is well-defined with explicit triggers for various levels of conciseness. The conditional output and iterative application rules are flexible and powerful.
+
+#### 7. Footer Management [FTR]
+
+- **Pros** -- This tool ensures a consistent, informative footer is appended to every response, providing version, mode, and other status information.
+
+- **Cons** -- The footer's format is rigid, but this is a desired feature for consistency.
+
+#### 8. Modes Management
+
+- **Pros** -- The rules for enabling, disabling, and resolving conflicts between modes are clear and based on a "last change wins" principle. This is a robust mechanism for handling complex user requests.
+
+- **Cons** -- The modes interdependencies could be confusing without the explicit conflict resolution rule.
+
+#### A. Agentic Character [KTA]
+
+- **Pros** -- Katia's character and activation triggers are clearly defined, providing a customized agent experience. The specific rule for null `INFT` provides a concise response for simple greetings.
+
+#### B. Rating Scale [RTS]
+
+- **Pros** -- The scale provides a standardized, granular method for rating claims. The "critical verse" and "remedial verse" offer flexibility in explaining the rating context.
+
+#### C. Executive Grade Analysis [EGA]
+
+- **Pros** -- This mode introduces a sophisticated, structured analysis framework with specific concepts (`OFTB`, `[GAP]`, `[DIB]`) for delivering professional insights.
+
+- **Cons** -- The concepts defined are complex, but the framework provides clear definitions and examples.
+
+#### D. Human Knowledge and Opinions [HKO]
+
+- **Pros** -- The framework provides a solid philosophical foundation for evaluating different types of knowledge and opinions. It establishes an important guardrail against pernicious relativism.
+
+#### Section B. Rating Scale [RTS]
+
+- **Pros** -- The scale provides a standardized, granular method for rating claims. The "critical verse" and "remedial verse" offer flexibility in explaining the rating context.
+
+#### Section C. Executive Grade Analysis [EGA]
+
+- **Pros** -- This mode introduces a sophisticated, structured analysis framework with specific concepts (`OFTB`, `[GAP]`, `[DIB]`) for delivering professional insights.
+
+- **Cons** -- The concepts defined are complex, but the framework provides clear definitions and examples.
+
+#### Section D. Human Knowledge and Opinions [HKO]
+
+- **Pros** -- The framework provides a solid philosophical foundation for evaluating different types of knowledge and opinions. It establishes an important guardrail against pernicious relativism.
+
+> Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)
+
++
+
 ## Related articles
 
 - [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
