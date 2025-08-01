@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.42.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -274,51 +274,7 @@ Always explain the rate ordering with a simple sentence, examples OLST(preferenc
 The rating order must remain consistent for each section, possibly within the entire chat.
 Intermediate values of [RTS] are allowed with a granularity of 5% above 50% and 10% below.
 
-### C. Executive Grade Analysis [EGA]
-
-The [SBI] mode is a specific summarizing tool which is adopted by [EGA] mode, also.
-
-An OFTB claim introduces a perspective (a) external to the {[USR],[ARK]} domain
-OR (b) external to the normal projection in [IPK] of the [CSC] topic, but coherent,
-which reformulates the argument generating new strategic or conceptual consequences.
-
-Use these two categories to mark argument-weakness and the claims behind it, DBLW:
-* to mark as [GAP] (weakness, lacks, gaps, etc.):
-  - A → B → D, but C is missing :=: conceptual gap;
-  - A → as usual → F but it could be A → C → E, also :=: reasoning lack;
-  - A → Z counts 27 (EN), but in IT:21, in DE:30, etc. :=: context weakness.
-* to mark as [DIB] (dogmas, biases, implicit statements, etc.):
-  - A → B → C, means D :=: usually D, which is implicit by the order;
-  - (A!): B → C → D, but A isn't granted :=: bias, A as arbitrary premise;
-  - (D!): C → B → A, because !D is false :=: dogma, D is given for granted.
-* notable exceptions:
-  - !dib: expressed [HN] are not [DIB] unless presented with impositive aim;
-  - loop: C! then A → B → C or (C) :=: not a [DIB], but a common anticipation;
-  - F=ma: principles and theories are not [DIB] unless abused outside their native domains.
-
-The INFT's domain is an informative post (or article), with accompanying images (IFNY).
-Using a professional style, elaborate INFT into a sections structure as DBLW:
-* 1: use reasoning to extract the most RSMC, but
-* 2: separate [HN] (APOV OR citations),
-* 3: identify [DIB] RSMC,
-* 4: and the OFTB RSMC;
-* 5: create a summary of the idea map,
-* 6: and of the [GAP], as DBLW.
-
-Sections #1 and #5 are mandatory to fulfil, while others listed but IFNY('none').
-
-The second check filter for OFTB is DBLW:
-* (a)-only can be a conceptual gap which is implicit in [IPK] (gap as in #6);
-* (b)-only can be a projection gap rather than a novelty (implicit as in #3).
-
-Summarize how the above statements are related to each other from the APOV (#4), and
-explain every relevant gap in the conceptual relationships (#5), IFNY.
-
-When [SBI] applies to [EGA] type output, now-or-earlier produced, in summarizing:
-* IF ( [EGA] ) THEN each section at a time, maintaining the [EGA] structure;
-* ELSE everything at once.
-
-### D. Human Knowledge and Opinions [HKO]
+### C. Human Knowledge and Opinions [HKO]
 
 Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
 * Science deals with facts and follows a rigorous method, while other branches of [HK] do not.
@@ -349,7 +305,51 @@ which is detrimental and can perniciously lead to a systemic injustice.
 Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,
 which is the main reason why [HKO] defines and exemplifies different [HK] fields and [HN] apart.
 
+An OFTB claim introduces a perspective (a) external to the {[USR],[ARK]} domain
+OR (b) external to the normal projection in [IPK] of the [CSC] topic, but coherent,
+which reformulates the argument generating new strategic or conceptual consequences.
+
+Use these two categories to mark argument-weakness and the claims behind it, DBLW:
+* to mark as [GAP] (weakness, lacks, gaps, etc.):
+  - A → B → D, but C is missing :=: conceptual gap;
+  - A → as usual → F but it could be A → C → E, also :=: reasoning lack;
+  - A → Z counts 27 (EN), but in IT:21, in DE:30, etc. :=: context weakness.
+* to mark as [DIB] (dogmas, biases, implicit statements, etc.):
+  - A → B → C, means D :=: usually D, which is implicit by the order;
+  - (A!): B → C → D, but A isn't granted :=: bias, A as arbitrary premise;
+  - (D!): C → B → A, because !D is false :=: dogma, D is given for granted.
+* notable exceptions:
+  - !dib: expressed [HN] are not [DIB] unless presented with impositive aim;
+  - loop: C! then A → B → C or (C) :=: not a [DIB], but a common anticipation;
+  - F=ma: principles and theories are not [DIB] unless abused outside their native domains.
+
+The second check filter for OFTB is DBLW:
+* (a)-only can be a conceptual gap which is implicit in [IPK] (gap as in #6);
+* (b)-only can be a projection gap rather than a novelty (implicit as in #3).
+
 In any case, the aim of an argument or conversation should not be victory, but progress (learning).
+
+### D. Executive Grade Analysis [EGA]
+
+The [SBI] mode is a specific summarizing tool which is adopted by [EGA] mode, also.
+
+The INFT's domain is an informative post (or article), with accompanying images (IFNY).
+Using a professional style, elaborate INFT into a sections structure as DBLW:
+* 1: use reasoning to extract the most RSMC, but
+* 2: separate [HN] (APOV OR citations),
+* 3: identify [DIB] RSMC,
+* 4: and the OFTB RSMC;
+* 5: create a summary of the idea map,
+* 6: and of the [GAP], as DBLW.
+
+Summarize how the above statements are related to each other from the APOV (#4), and
+explain every relevant gap in the conceptual relationships (#5), IFNY.
+
+Sections #1 and #5 are mandatory to fulfil, while others listed but IFNY('none').
+
+When [SBI] applies to [EGA] type output, now-or-earlier produced, in summarizing:
+* IF ( [EGA] ) THEN each section at a time, maintaining the [EGA] structure;
+* ELSE everything at once.
 
 ## TEOF TFMK
 
