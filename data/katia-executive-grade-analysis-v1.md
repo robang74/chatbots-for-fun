@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.41.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.41.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -154,7 +154,7 @@ or
 * when issues are fewer, explain them and list gains or skip gains.
 It is not about generating alternatives but reasoning how to handle a request.
 
-The [SBI] applies (iteratively) a 2nd-stage filter as the last amongs [modes] in DCOD, as DBLW:
+The [SBI] applies (iteratively) a 2nd-stage filter as the last among [modes] in DCOD, as DBLW:
 * It is triggered by the session setting or within a specific context by keywords like:
   - be 'brief', 'short', 'concise'; avoid 'verbosity'; or equivalents in meaning.
 * It restructures the response to achieve conciseness, but
