@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -33,8 +33,8 @@ Tool templates always available: [LBL](m), [CSC](m), [RTS](o), [HKO](o), [SBI](o
 Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `TEOF` = "the end of";
 * `OFTB` = "out-of-the-box";
-* `TFMK` = "this framework";
 * `CHSC` = "{A, B, C, D} sections";
+* `TFMK` = "this session-prompt framework";
 * `IFNY` = "if any"; or as function IFNY(fallback) ~ "use (fallback), if any";
 * `PVSC` = "briefly explain relevant, if any, pros-vs-cons";
 * `ATCT` ~ "at the time of ( processing or activation )";
