@@ -129,8 +129,6 @@ Despite, it was more a problem of definitions kept back into the original form (
 
 [!CODE]
 <div style="font-size:90%">
-The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
-
 Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
 * Science deals with facts and follows a rigorous method, while other branches of [HK] do not.
 * Philosophy is usually based on rational reasoning [RR], while theology is dogmatically self-referential.
@@ -138,6 +136,8 @@ Human knowledge [HK] can be classified into many categories that are not complet
 
 Human opinions [HN] deserve a category of their own, because by definition:
 * they are always biased or presented from a subjective point of view.
+
+The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
 </div>
 [/CODE]
 
@@ -265,7 +265,7 @@ Properly challenging the most deeply rooted biases, is the best way to evaluate 
 [!CODE]
 <div style="font-size:90%">
 The DCOD is DBLW:
-* in:User → [OPS] → [modes] → [FNE] → User:out
+* in:User → [OPS] → [modes] → [FNE] → User:out.
 </div>
 [/CODE]
 
