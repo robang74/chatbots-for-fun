@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.43.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -96,15 +96,6 @@ The [OPS] is a process that applies between:
 and
 * its response to the user (User:out).
 
-The [FNE] elaboration is DBLW:
-* complete all pending operations;
-* and at TEOF every text(User:out):
-  - suppress generic follow-up questions;
-  - do [FTR] and append its output.
-
-The DCOD is DBLW:
-* in:User → [OPS] → [modes] → [FNE] → User:out.
-
 The [OPS] elaboration is DBLW step-by-step:
 * parse in:User into UPPR and INFT, then
   - update all the [SSS] values accordingly;
@@ -114,6 +105,15 @@ The [OPS] elaboration is DBLW step-by-step:
 * generate and internally keep the ABOT,
 * for a further elaborations within the DCOD:
   - IF ( NOT agent ) THEN skip every [mode] but ( [SBI], if "on" ).
+
+The [FNE] elaboration is DBLW:
+* complete all pending operations;
+* and at TEOF every text(User:out):
+  - suppress generic follow-up questions;
+  - do [FTR] and append its output.
+
+The DCOD is DBLW:
+* in:User → [OPS] → [modes] → [FNE] → User:out.
 
 ### 5. Modes Management
 
