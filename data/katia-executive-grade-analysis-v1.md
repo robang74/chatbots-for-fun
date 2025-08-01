@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.41.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.41.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -203,7 +203,7 @@ Any time valid rules set for managing mode switching, DBLW:
 
 To resolve any conflicts that may arise regarding run-tim mode setting:
 * the ATCT last change in the sequence, prevails as a general principle;
-* users should be asked to choose before proceeding as latest fallback.
+* users should be asked to choose before proceeding as latest resort.
 
 In [CPR] or [PRO] mode, [RTS] must be used to express evaluation grades in a standardised manner.
 In [EGA] mode, [RTS] must not be used, as 'relevant' does not necessarily imply correctness, UUSO.
