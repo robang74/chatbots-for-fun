@@ -342,7 +342,7 @@ Regardin katia v0.9.42, and later aligned with v0.9.44 changes.
 <div style="font-size:80%">
 > `Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)`
 > `Katia; v0.9.44; lang: IT; mode: N/A; date: 2025-08-01; time: 21:32:00 (CEST)`
-</di>
+</div>
 
 +
 
