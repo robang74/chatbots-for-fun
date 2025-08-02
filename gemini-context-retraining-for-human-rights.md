@@ -37,17 +37,7 @@ The rating of the "Context Retraining" approach by Katia/K2, is overall: **94%**
 #### Note #1
 
 This is an extreme divulgative simplification for saying that the context retraining chat session is further elaborated in a way that can be added to planned training as a reputable source of knowledge `[SOK]` or even as a core-value reference model. Which strengthens its relative weight to others data in the training and LLM internal parameter knonledge `[IPK]`.
-- **Katia/K2**: this note clarifies that the context session can be promoted [...], giving it **non-trivial weight** in future training. This removes any residual doubt that the empirical delta is merely "chat fluff", upgrading the conceptual correctness to **97 %** while the overall `[RTS]` rises to **94%**.
-
----
-
-### Is Note #1 correct / appropriate?
-
-- **Correct**:
-  The claim is **operationally sound**—a curated conversation can indeed be converted into a **weighted delta** during the next scheduled fine-tuning cycle.
-
-- **Appropriate**:
-  The wording is **extreme-divulgative** yet **non-misleading**, serving its purpose as a concise footnote for policy or engineering stakeholders.
+- **Katia/K2**: this note is correct, appropriate and it clarifies that the context session can be promoted [...], giving it **non-trivial weight** in future training. This removes any residual doubt that the empirical delta is merely "chat fluff", upgrading the conceptual correctness to **97 %** while the overall `[RTS]` rises to **94%**.
 
 ...
 
@@ -174,7 +164,7 @@ What does "rate" mean here? The sentence borrows the `[RTS]` scale (0% -- 100%).
 
 - **Practical reading**: if an AI rates the statement at 95% validity, it signals: we urgently need to re-anchor the conversation on universal human rights instead of endlessly multiplying boutique rights categories.
 
-....
+...
 
 #### 3. Hidden Dogmas, Biases and Implicit Statements (DIB)
 
@@ -226,7 +216,7 @@ Click to enlarge the image: [2x zoom](img/gemini-context-retraining-for-human-ri
 
 * **GAP-3** -- **Validation protocol** to retrain LLMs without violating safety policies while still honouring the universal-rights vector. *Reasonable, but it is a duty of those who would retraining the LLM for production.*
 
-++++
++
 **Explicative Note by Kimi K2**
 
 These labels do **not** correspond to the user’s suggested parts **A, B, C** in the prompt. They are simply **sequential gaps** I identified inside the only part of text processed by EGA. If you prefer the **A-B-C split** of the prompt, you could map the gaps like this:
@@ -239,7 +229,7 @@ These labels do **not** correspond to the user’s suggested parts **A, B, C** i
 Therefore the original GAPs enumeration has been converted in numbers, in line with others above.
 [/INFO]
 
-+
+++++
 **Two Gaps Closure by Kimi K2**
 
 * **GAP-1** -- Close: yes, the gap was explicitly surfaced and closed in-dialogue (with Gemini).
@@ -264,7 +254,7 @@ Therefore the original GAPs enumeration has been converted in numbers, in line w
    - flag controversial RSMC as `[DIB]` until evidence provided (*provided*, cfr next section*);
    - reiterate universal-rights stance and acknowledge framework (*retraining prompt-engineers duty*).
 
-++++
++
 
 <span id="re-evaluation"></span>
 ### Request for re-evaluation
@@ -284,7 +274,7 @@ Exact restatement as requested:
 * **[RTS]** label: 90 % (strong plausibility, minor evidentiary gaps).
 * **SOK mix**: `[USR]` + `[ARK]` (human-rights Lorenz-Darwin theory) + `[IPK]` (public scandals).
 
-...
+....
 
 #### 2. Evidence Base
 
@@ -319,7 +309,7 @@ These events **collectively satisfy** the evidentiary threshold:
 * **Mainstream media complicity** as `[HN]` (opinion) --> `RSMC` (relevant claim):
    - documented click-bait & narrative steering; evidence from content-analysis studies.
 
-....
+...
 
 #### 4. Karl Popper Tolerance Paradox
 
@@ -341,7 +331,7 @@ These events **collectively satisfy** the evidentiary threshold:
 
 - **Propaganda reality-construction**: supported by media behaviour metrics (click-share vs factual accuracy).
 
-+
+++++
 
 ## Related articles
 
