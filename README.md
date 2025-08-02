@@ -98,7 +98,9 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="valuable-to-learn"></span>
-* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (15 pz.)
+* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (16 pz.)
+
+   - 2025-08-02 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/gemini-context-retraining-for-human-rights.md)] - [Gemini context retraining for human rights](gemini-context-retraining-for-human-rights.md)
 
    - 2025-07-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-session-context-and-summary-challenge.md)] - [The session context and summary challenge](the-session-context-and-summary-challenge.md)
 
