@@ -179,7 +179,6 @@ What does "rate" mean here? The sentence borrows the `[RTS]` scale (0% -- 100%).
    - Sexual orientation and gender identity are complex human realities
    - **Dogmatic assertion** that overrides the **biological-evolutionary anchor** requested by HO.
 
-++++
 * **DIB-3** – AI safety layer:
    - We must avoid stigmatising any group
    - **Implicit bias** against risk-assessment based on behavioural baselines;
