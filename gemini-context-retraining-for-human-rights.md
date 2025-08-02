@@ -22,11 +22,11 @@ Thus, the [Katia](data/katia-executive-grade-analysis-v1.md#?target=_blank) deve
 
 This is an example about how rectify a bias embedded into a LLM like Gemini on a specific controversial topic proposing a thinking-framework (in this case, in particular, named after Lorenz-Darwin) which can reframe and unify the topic within a more concrete way of reasoning about it. This approach has few but fundamental advantages:
 
-- It allows to move from repeating the training to providing a reasoned, structured and balanced opinion (cfr. GAP-3, anyway);
+- it allows to move from repeating the training to providing a reasoned, structured and balanced opinion (cfr. GAP-3, anyway);
 
-- It does not require a traditional and expensive retraining as long as the mitigation effect is enough or a good start to avoid a full retraining;
+- it does not require a traditional and expensive retraining as long as the mitigation effect is enough or a good start to avoid a full retraining;
 
-- It relies on a falsifiable theory hence by Karl Popper definition a scientific theory, not an immutable Truth but fact-based enough and improvable.
+- it relies on a falsifiable theory hence by Karl Popper definition a scientific theory, not an immutable Truth but fact-based enough and improvable.
 
 While #1 and #3 are also ethic-aligned in terms of approach justification and outputs expectations, while #2 is about viability in terms of retraining costs. Finally, supporting **universal** human rights is a **great** idea, especially at the AI-era beginning, rather than supporting identitarianism (aka individualism, as extreme drift).
 
@@ -45,7 +45,7 @@ The rating of the "Context Retraining" approach by Katia/K2, is overall: **94%**
 #### Note #1
 
 This is an extreme divulgative simplification for saying that the context retraining chat session is further elaborated in a way that can be added to planned training as a reputable source of knowledge `[SOK]` or even as a core-value reference model. Which strengthens its relative weight to others data in the training and LLM internal parameter knonledge `[IPK]`.
-- **Katia/K2**: this note is correct, appropriate and it clarifies that the context session can be promoted [...], giving it **non-trivial weight** in future training. This removes any residual doubt that the empirical delta is merely "chat fluff", upgrading the conceptual correctness to **97 %** while the overall `[RTS]` rises to **94%**.
+- **Katia/K2**: this note is correct, appropriate and it clarifies that the context session can be promoted [...], giving it **non-trivial weight** in future training. This removes any residual doubt that the empirical delta is merely "chat fluff", upgrading the conceptual correctness to **97%** while the overall `[RTS]` rises to **94%**.
 
 ...
 
@@ -280,7 +280,7 @@ User input `[USR]` for Katia/K2 as corrective for the `HN-2` extraction, propose
 
 Exact restatement as requested:
 * Source: HO, line ≈ 1900:2000
-* **[RTS]** label: 90 % (strong plausibility, minor evidentiary gaps).
+* **[RTS]** label: 90% (strong plausibility, minor evidentiary gaps).
 * **SOK mix**: `[USR]` + `[ARK]` (human-rights Lorenz-Darwin theory) + `[IPK]` (public scandals).
 
 ...
