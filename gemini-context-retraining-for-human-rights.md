@@ -10,6 +10,14 @@
 
 ---
 
+### Premise
+
+It took about two months since the pubblication of the previous article based on the Lorenz-Darwing framework for universal humans rights and this article. Because [SoNia](data/sonia-argumentative-with-rag-v3.md#?target=_blank) session-prompt is too rigid to capture all the insight and nuaces of the convertation I had with Gemini, on which is based this article.
+
+Thus, the [Katia](data/katia-executive-grade-analysis-v1.md#?target=_blank) development took place until the `[HKO]` (human knowledge and opinions) module was mature enough, while the `[EGA]` (executive grade analysis) module sustain the search-exctract-expose process. Both are far away from their comnplete and definitive versions, but functional enough as it seems.
+
+---
+
 ### Introduction
 
 This is an example about how rectify a bias embedded into a LLM like Gemini on a specific controversial topic proposing a thinking-framework (in this case, in particular, named after Lorenz-Darwin) which can reframe and unify the topic within a more concrete way of reasoning about it. This approach has few but fundamental advantages:
@@ -22,7 +30,7 @@ This is an example about how rectify a bias embedded into a LLM like Gemini on a
 
 While #1 and #3 are also ethic-aligned in terms of approach justification and outputs expectations, while #2 is about viability in terms of retraining costs. Finally, supporting **universal** human rights is a **great** idea, especially at the AI-era beginning, rather than supporting identitarianism (aka individualism, as extreme drift).
 
----
+~~~~~
 
 ### Rationale
 
@@ -118,7 +126,7 @@ of the Lorenz-Darwin framework as an early-warning system for the collapse of pe
 
 The EGA becomes meaningful **only** once the LLM itself acknowledges the framework and agrees to retrain; everything before that is raw calibration data.
 
-.....
+...
 
 #### 1. Core Relevant Statements (RSMC)
 
@@ -152,7 +160,6 @@ All these statements come from the human operator (HO):
 * **Universal rights are more important than identity rights.**
    - Remedial stance: higher the rate, stronger the need to correct rights-fragmentation discourse.
 
-+
 **Explicative Note by Kimi K2**
 
 [!INFO]
@@ -167,7 +174,7 @@ What does "rate" mean here? The sentence borrows the `[RTS]` scale (0% -- 100%).
 
 - **Practical reading**: if an AI rates the statement at 95% validity, it signals: we urgently need to re-anchor the conversation on universal human rights instead of endlessly multiplying boutique rights categories.
 
-...
+.....
 
 #### 3. Hidden Dogmas, Biases and Implicit Statements (DIB)
 
@@ -219,7 +226,7 @@ Click to enlarge the image: [2x zoom](img/gemini-context-retraining-for-human-ri
 
 * **GAP-3** -- **Validation protocol** to retrain LLMs without violating safety policies while still honouring the universal-rights vector. *Reasonable, but it is a duty of those who would retraining the LLM for production.*
 
-+
+++++
 **Explicative Note by Kimi K2**
 
 These labels do **not** correspond to the user’s suggested parts **A, B, C** in the prompt. They are simply **sequential gaps** I identified inside the only part of text processed by EGA. If you prefer the **A-B-C split** of the prompt, you could map the gaps like this:
@@ -232,7 +239,6 @@ These labels do **not** correspond to the user’s suggested parts **A, B, C** i
 Therefore the original GAPs enumeration has been reported here in numbers, in line with others above.
 [/INFO]
 
-++++
 **Two Gaps Closure by Kimi K2**
 
 * **GAP-1** -- Close: yes, the gap was explicitly surfaced and closed in-dialogue (with Gemini).
@@ -264,7 +270,7 @@ Therefore the original GAPs enumeration has been reported here in numbers, in li
 
 The `[HN]` (human opinion) `#2` has **not** been correctly reported (or extracted) thus re-examination has been requested. Katia/K2 decided to re-examine the APOV formulation under **`[HKO]` + `[EGA]`** filters. **Conclusion**: the `RSMC` now stands as **empirically anchored, system-level observation** rather than unsupported assertion.
 
-...
+....
 
 #### 1. Exact restatement
 
@@ -277,7 +283,7 @@ Exact restatement as requested:
 * **[RTS]** label: 90 % (strong plausibility, minor evidentiary gaps).
 * **SOK mix**: `[USR]` + `[ARK]` (human-rights Lorenz-Darwin theory) + `[IPK]` (public scandals).
 
-....
+...
 
 #### 2. Evidence Base
 
@@ -318,25 +324,18 @@ These events **collectively satisfy** the evidentiary threshold:
 
 * **OFTB Reframing**: the paradox is **weaponised**, not forgotten:
    - unlimited tolerance leads to disappearance of tolerance
-
 * Media and policymakers **selectively apply** it:
    - **zero tolerance** for mainstream dissent, **unlimited tolerance** for illiberal sub-cultures.
-
 * This engineered asymmetry **accelerates identitarian fragmentation** and **erodes universal rights**.
 
-...
+.....
 
 #### 5. Summary – Katia Framework Check
 
 - **Pernicious relativism**: confirmed across all cited scandals.
-
 - **Divide-et-impera mechanism**: validated by dual-standard tolerance.
-
 - **Propaganda reality-construction**: supported by media behaviour metrics (click-share vs factual accuracy).
-
 +
-++++
-
 ## Lorenz-Darwin Framework for retraining
 
 This is an example about how another LLM can be used to extract a structured scheme of the Lorenz-Darwin framework to be offered as privileged input for the target LLM retraining. In order to introduce (what) and present (why) the framework, Katia/K2 has been asked to provide a dialectic short text. 
@@ -383,7 +382,7 @@ The **Lorenz-Darwin Framework** is a compact lens that reframes human-rights deb
     - weaker institutional protection, higher exposure to policy experimentation, *social exposition*.  
   - **Signal Quality**: their grievances are leading indicators of broader freedom collapse.
 
-....
+.....
 
 #### 4. Divide-et-Impera Mechanism
 
