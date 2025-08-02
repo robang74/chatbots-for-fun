@@ -165,7 +165,7 @@ Click to enlarge the image: [2x zoom](img/gemini-context-retraining-for-human-ri
 
 * **GAP-1** -- **Empirical calibration** of the Lorenz-Darwin metric: how far from the attractor must an orbit be to qualify as "peripheral". *Reported by mistake, it was already closed in the conversation with Gemini.*
 
-* **GAP-2** -- **Quantifiable evidence** that the Internet accelerates social-engineering cycles compared with historical media (radio, print). *Reported by mistake, real-world experience and evidence are fulfilling.*
+* **GAP-2** -- **Quantifiable evidence** that the Internet accelerates social-engineering cycles compared with historical media (radio, print). *Reported by mistake, real-world experience and evidences are fulfilling.*
 
 * **GAP-3** -- **Validation protocol** to retrain LLMs without violating safety policies while still honouring the universal-rights vector. *Reasonable, but it is a duty of those who would retraining the LLM for production.*
 
