@@ -79,9 +79,9 @@ The Kimi K2 answer reported below has been converted from tables to lists for re
 
 * Chatbot: **Kimi K2**
 * Attachments: two files
-   - code: Katia framework v0.9.44 &nbsp; [&nbsp;[git](not-yet#?target=_blank)&nbsp;]
+   - code: Katia framework v0.9.44 &nbsp; [&nbsp;[git](https://raw.githubusercontent.com/robang74/chatbots-for-fun/3d6fe75553b9bbd8e5328327eb0047c6518ef392/data/katia-executive-grade-analysis-v1.md)&nbsp;]
    - text: data/agente-smith-e-cloni-al-suo-servizio-signore.txt &nbsp; [&nbsp;[txt](data/agente-smith-e-cloni-al-suo-servizio-signore.txt#?target=_blank)&nbsp;]
-* Chat URL: kimi.com/share/d271dbk06op3nfjadme0 &nbsp; [&nbsp;[url](https://www.kimi.com/share/d271dbk06op3nfjadme0)&nbsp;]
+* Chat URL: kimi.com/share/d271dbk06op3nfjadme0 &nbsp; [&nbsp;[url](https://www.kimi.com/share/d271dbk06op3nfjadme0)&nbsp;] &nbsp; [&nbsp;[pdf](data/kimi-k2-lorenz-darwing-framework-edited-fullchat.pdf#?target=_blank)&nbsp;] 
    - Creation: 1st August 2025
    - Publication: 2nd August 2025
 * Chat files: two files
