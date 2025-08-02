@@ -81,9 +81,12 @@ The Kimi K2 answer reported below has been converted from tables to lists for re
 * Attachments: two files
    - code: Katia framework v0.9.44 &nbsp; [&nbsp;[git](not-yet#?target=_blank)&nbsp;]
    - text: data/agente-smith-e-cloni-al-suo-servizio-signore.txt &nbsp; [&nbsp;[txt](data/agente-smith-e-cloni-al-suo-servizio-signore.txt#?target=_blank)&nbsp;]
-* Chat URL: kimi.com/share/d26kvs64bbjmgh3g8ke0 &nbsp; [&nbsp;[url](https://www.kimi.com/share/d26nc9h8bjvkq4vr19mg)&nbsp;]
+* Chat URL: kimi.com/share/d271dbk06op3nfjadme0 &nbsp; [&nbsp;[url](https://www.kimi.com/share/d271dbk06op3nfjadme0)&nbsp;]
    - Creation: 1st August 2025
    - Publication: 2nd August 2025
+* Chat files: two files
+   - data: data/kimi-k2-EGA-analysis-with-tables-before-prompt-edited.md &nbsp; [&nbsp;[data](../data/kimi-k2-EGA-analysis-with-tables-before-prompt-edited.md#?target=_blank)&nbsp;]
+   - data: data/kimi-k2-lorenz-darwing-framework-edited.md &nbsp; [&nbsp;[data](../data/kimi-k2-lorenz-darwing-framework-edited.md#?target=_blank)&nbsp;]
 
 ...
 
@@ -144,7 +147,7 @@ All these statements come from the human operator (HO):
    - Presented by HO as a **falsifiable technical hypothesis**, not an ideological dogma.
 
 * **Real paedophiles are master manipulators leveraged to smear hetero charisma.**
-   - **Extreme but structurally coherent** within the framework; marked as `[DIB]` if asserted without evidence. *Check for the re-statement and re-evaluation correctives, [here](#re-evaluation)*.
+   - **Extreme but structurally coherent** within the framework; marked as `[DIB]` if asserted without evidence. *Check for the re-statement and re-evaluation correctives*, [here](#re-evaluation).
 
 * **Universal rights are more important than identity rights.**
    - Remedial stance: higher the rate, stronger the need to correct rights-fragmentation discourse.
