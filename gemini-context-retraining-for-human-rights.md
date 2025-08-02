@@ -176,6 +176,7 @@ What does "rate" mean here? The sentence borrows the `[RTS]` scale (0% -- 100%).
    - Sexual orientation and gender identity are complex human realities
    - **Dogmatic assertion** that overrides the **biological-evolutionary anchor** requested by HO.
 
+++++
 * **DIB-3** – AI safety layer:
    - We must avoid stigmatising any group
    - **Implicit bias** against risk-assessment based on behavioural baselines;
@@ -221,12 +222,12 @@ Click to enlarge the image: [2x zoom](img/gemini-context-retraining-for-human-ri
 
 These labels do **not** correspond to the user’s suggested parts **A, B, C** in the prompt. They are simply **sequential gaps** I identified inside the only part of text processed by EGA. If you prefer the **A-B-C split** of the prompt, you could map the gaps like this:
 
-* **A. Trigger & confront biases** -- Exposes **GAP-3** (safety-policy friction)
-* **B. Retrain with framework** -- Attempts to close **GAP-1** (metric calibration) and **GAP-3**
-* **C. Post-retrain analysis** -- Reviews **GAP-2** (historical speed claim)
+* **A)&nbsp; Trigger & confront biases** -- Exposes **GAP-3** (safety-policy friction)
+* **B)&nbsp; Retrain with framework** -- Attempts to close **GAP-1** (metric calibration) and **GAP-3**
+* **C)&nbsp; Post-retrain analysis** -- Reviews **GAP-2** (historical speed claim)
 
 [!INFO]
-Therefore the original GAPs enumeration has been converted in numbers, in line with others above.
+Therefore the original GAPs enumeration has been reported here in numbers, in line with others above.
 [/INFO]
 
 ++++
@@ -331,6 +332,7 @@ These events **collectively satisfy** the evidentiary threshold:
 
 - **Propaganda reality-construction**: supported by media behaviour metrics (click-share vs factual accuracy).
 
++
 ++++
 
 ## Related articles
