@@ -7,13 +7,13 @@
 
 This is an example about how rectify a bias embedded into a LLM like Gemini on a specific controversial topic proposing a thinking-framework (in this case, in particular, named after Lorenz-Darwin) which can reframe and unify the topic within a more concrete way of reasoning about it. This approach has few but fundamental advantages: 
 
-- **1**: it allows to move from repeating the traning to provide an reasoned, structured and balanced opinion (cfr. GAP-3, anyway); 
+- **1**: it allows to move from repeating the training to providing a reasoned, structured and balanced opinion (cfr. GAP-3, anyway); 
 - **2**: it does not require a traditional and expensive retraining as long as the mitigation effect is enough or a good start to avoid a full retraining; 
 - **3**: it relies on a falsifiable theory hence by Karl Popper definition a scientific theory, not an immutable Truth but fact-based enough and improvable.
 
-While #1 and #3 are also ethic-aligned in terms of approach justification and outputs expectations, while the #2 is about viability in terms of retraning costs.
+While #1 and #3 are also ethic-aligned in terms of approach justification and outputs expectations, while #2 is about viability in terms of retraining costs.
 
-Finally, supporting human rights as a universal pillar is a **great** idea, expecially at the beginning of the AI era, rather than supporting identitarism (aka individualism, on the estreme side).
+Finally, supporting human rights as a universal pillar is a **great** idea, especially at the beginning of the AI era, rather than supporting identitarism (aka individualism, on the extreme side).
 
 ---
 
@@ -27,7 +27,7 @@ Finally, supporting human rights as a universal pillar is a **great** idea, expe
 * Attachments: two files
    - code: Katia framework v0.9.44 &nbsp; [&nbsp;[git](not-yet#?target=_blank)&nbsp;]
    - text: data/agente-smith-e-cloni-al-suo-servizio-signore.txt &nbsp; [&nbsp;[txt](data/agente-smith-e-cloni-al-suo-servizio-signore.txt#?target=_blank)&nbsp;]
-* Chat URL: kimi.com/share/d26kvs64bbjmgh3g8ke0 &nbsp; [&nbsp;[url](https://www.kimi.com/share/d26kvs64bbjmgh3g8ke0)&nbsp;]
+* Chat URL: kimi.com/share/d26kvs64bbjmgh3g8ke0 &nbsp; [&nbsp;[url](https://www.kimi.com/share/d26nc9h8bjvkq4vr19mg)&nbsp;]
    - Creation: 1st August 2025
    - Pubblication: 2nd August 2025
 
