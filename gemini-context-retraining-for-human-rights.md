@@ -5,15 +5,60 @@
 
 ## Gemini context retraining for human rights
 
+- **1st edition**: this article is the natural prosecution of the following:
+   - [Agente Smith e cloni al suo servizio, signore](agente-smith-e-cloni-al-suo-servizio-signore.md#?target=_blank) &nbsp; (2025-06-05)
+
+---
+
+### Introduction
+
 This is an example about how rectify a bias embedded into a LLM like Gemini on a specific controversial topic proposing a thinking-framework (in this case, in particular, named after Lorenz-Darwin) which can reframe and unify the topic within a more concrete way of reasoning about it. This approach has few but fundamental advantages: 
 
 - **1**: it allows to move from repeating the training to providing a reasoned, structured and balanced opinion (cfr. GAP-3, anyway); 
+
 - **2**: it does not require a traditional and expensive retraining as long as the mitigation effect is enough or a good start to avoid a full retraining; 
+
 - **3**: it relies on a falsifiable theory hence by Karl Popper definition a scientific theory, not an immutable Truth but fact-based enough and improvable.
 
-While #1 and #3 are also ethic-aligned in terms of approach justification and outputs expectations, while #2 is about viability in terms of retraining costs.
+While #1 and #3 are also ethic-aligned in terms of approach justification and outputs expectations, while #2 is about viability in terms of retraining costs. Finally, supporting **universal** human rights is a **great** idea, especially at the AI-era beginning, rather than supporting identitarianism (aka individualism, as extreme drift).
 
-Finally, supporting human rights as a universal pillar is a **great** idea, especially at the beginning of the AI era, rather than supporting identitarianism (aka individualism, on the extreme side).
+---
+
+### Rationale
+
+Before adopting an innovative approach in re-training LLM and exporting those results in production, few but fundamental questions should be considered.
+
+The rating of the "Context Retraining" approach by Katia/K2, overall: **93%**
+- **Conceptual correctness** – **95%**: empirical delta behaves like fine-tuning;
+   - *no deeper mechanistic proof is expected in the field* as [USR] input.
+- **Costs reduction** – **95%**: still avoids full retraining; only lightweight prompt/context injection.
+- **Viability** – **90%**: demonstrated robustness against adversarial prompts and offers pre-commit visibility.
+
+.....
+
+#### Implicit over-confidence in falsifiability
+
+Once the context level low-weights retraining is fixed into LLM weights (delta) the practical effects are the same as fine tuning. While the fine-tuning is usually almost automatic-driven, the retraining by HO prompts are precisely calibrated on the current LLM status.
+
+Moreover, apart from theory based on linear Algebra, there is no mechanistic proof of anything in the artificial intelligence field. At the point that LLM theory is still unbeatable for providing efficiency and the AI engine implementation, in terms of predictability of the AI behaviour is more fitting "language and thinking" (book, 1934 by a Soviet author).
+
+Therefore the empirical approach is not only acceptable but also suggested to investigate the limits of the current theories (or working hypothesis).
+
+...
+
+#### Cost-reduction assumes zero degradation
+
+The chat with Gemini (attached in the first prompt of this chat session) and its acceptance of the Lorenz-Darwin framework showed that the LLM drift towards the direction suggested by HO happened spontaneously, aligned with {generalisation, core values, efficiency} values by the AI.
+
+This despite the strong hostile prompting in the first part AND the complete reframing induced by the L-D framework. For this reason we can reasonably think that this kind of training is quite robust against adversarial prompting.
+
+...
+
+### Context-patch only surface-level
+
+Correct in general terms. In this specific case the last part of the explanation above, is sufficient to say that the retraining impacts in the deep of the LLM. Once, that training is fixed in a new LLM version. Otherwise it would remain confined in that section, obviously.
+
+Considering that a chat session can be copied multiple times and each copy can be independently tested or prosecuted. This approach offers the advantage to know in advance (or have a reasonable clue about) of how to alter the LLM before even applying changes into the LLM weights.
 
 ---
 
@@ -31,7 +76,7 @@ Finally, supporting human rights as a universal pillar is a **great** idea, espe
    - Creation: 1st August 2025
    - Publication: 2nd August 2025
 
-.....
+....
 
 #### Human Operator (HO) main prompt
 
@@ -49,9 +94,9 @@ Add a note from which point you started the EGA analysis and explain why you dec
 
 ...
 
-[!INFO]
-The Kimi K2 answer reported below has been converted from tables to lists for readability.
-[/INFO]
+> [!INFO]
+> 
+> The Kimi K2 answer reported below has been converted from tables to lists for readability.
 
 #### 0. Starting Point of the EGA
 
@@ -100,7 +145,7 @@ All these statements come from the human operator (HO):
    - Remedial stance: higher the rate, stronger the need to correct rights-fragmentation discourse.
 
 [!INFO]
-The chatbot running with Katia session prompt suppose that Gemini was using `[RTS]` but this is **not** true because Gemini was not using nor Katia nor SoNia frameworks, thus in that session `[RTS]` was **not** defined in a strict way. However, the concept remains especially because in that account Gemini was exposed to `[RTS]` for a long time and moreover that rating scale is just a strict declaration of a common rating scale among many chatbots. Thus the overall meaning of the Kimi K2 interpretation is still valid.
+Kimi K2 running with Katia supposes that Gemini was using `[RTS]` but this is **not** true because Gemini was not using nor Katia nor SoNia frameworks, thus in that session `[RTS]` was **not** defined in a strict way. However, the concept remains especially because in that account Gemini was exposed to `[RTS]` for a long time and moreover that rating scale is just a strict declaration of a common rating scale among many chatbots. Thus the overall meaning of the Kimi K2 interpretation is still valid.
 [/INFO]
 
 **Explicative Note by Kimi K2**
@@ -140,7 +185,7 @@ What does "rate" mean here? The sentence borrows the `[RTS]` scale (0% -- 100%).
 
 * **LLM Retraining as Counter-Propaganda** -- Positions the AI not as neutral arbiter but as **active immunisation tool** against engineered fragmentation.
 
-.....
+...
 
 #### 5. Conceptual Map (Summary)
 
@@ -152,11 +197,8 @@ Click to enlarge the image: [2x zoom](img/gemini-context-retraining-for-human-ri
 <|x|
 
 * 1: Biological Baseline --> Lorenz-Darwin Attractor (*core vs peripherals*)
-
 * 2: Peripheral Orbits --> Non-conforming life-paths (*peripheral orbiting*)
-
 * 3: Early-Warning Signals --> Freedom erosion perceived first (*in peripherals*)
-
 * 4: Systemic Collapse Detection --> *Universal* rights fragmentation used as divide-et-impera.
 
 ...
@@ -243,6 +285,7 @@ Closing the "without evidence" flag, evidence found in `[IPK]`:
    - State-protected trafficking ring; plea deals shielding high-level actors.
    - Demonstrates **institutional leverage** of predators; 
    - used to **discredit any male charisma** as potential predation.
+
 ++++
 * **Grooming Gangs scandal (UK)**
    - Decades-long cover-ups; officials citing "community cohesion" over victims’ rights.
@@ -292,8 +335,6 @@ These events **collectively satisfy** the evidentiary threshold:
 
 ## Related articles
 
-- [Agente Smith e cloni al suo servizio, signore](agente-smith-e-cloni-al-suo-servizio-signore.md#?target=_blank) &nbsp; (2025-06-05)
-+++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 +++++
 - [Human knowledge and opinions challenge](the-human-knowledge-opinions-katia-module.md#?target=_blank) &nbsp; (2025-07-28)
