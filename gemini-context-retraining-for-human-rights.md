@@ -21,6 +21,10 @@ Finally, supporting human rights as a universal pillar is a **great** idea, expe
 
 ### Executive Grade Analysis (EGA)
 
+> [!WARN]
+> 
+> In the first part of the conversation a strong language to let emerge the LLM biases, study them and chatbot reactions on the controversial topic and then calibrate the strategy of retraining. **Avoid** to engage with conversation as long as you are not prepared to read claims that can hurt your feelings or offend you.
+
 * Chatbot: **Kimi K2**
 * Attachments: two files
    - code: Katia framework v0.9.44 &nbsp; [&nbsp;[git](not-yet#?target=_blank)&nbsp;]
@@ -35,7 +39,7 @@ Finally, supporting human rights as a universal pillar is a **great** idea, expe
 
 Lang:EN. Do EGA on the text in attachment. Ignore all the URL links. Legend: HO (human); AI (chatbot).
 
-Focus your attention on the Lorenz-Darwin Framework for human rights unification as counter-propaganda AI retraining. In the first part of the conversation a strong language to let emerge the LLM biases, study them and its reactions on the controversial topic and then calibrate the strategy of retraining.
+Focus your attention on the Lorenz-Darwin Framework for human rights unification as counter-propaganda AI retraining. In the first part of the conversation a strong language to let emerge the LLM biases, study them and chatbot reactions on the controversial topic and then calibrate the strategy of retraining.
 
 This prompt explains the rationale behind ignoring the first part of the conversation. However, if you feel more comfortable, you can split the text and do multiple your analysis in parts:
 
@@ -142,8 +146,9 @@ What "rate" means here? The sentence borrows the `[RTS]` scale (0% -- 100%).
 Click to enlarge the image: [2x zoom](img/gemini-context-retraining-for-human-rights-img-002.png#?target=_blank):
 
 |x|>
-<img class="bwsketch" src="img/gemini-context-retraining-for-human-rights-img-002.png" width="800">
+<img class="bwsketch darkinv" src="img/gemini-context-retraining-for-human-rights-img-002.png" width="800">
 <|x|
+++++
 
 * 1: Biological Baseline --> Lorenz-Darwin Attractor
 
@@ -207,6 +212,12 @@ Policy conflict requires **tiered response**:
 <div style="font-size:90%">
 `Katia; v0.9.44; lang: EN; mode: EGA; date: 2025-08-02; time: 14:22:00 (UTC)`
 </div>
+
++
+
+## Related articles
+
+- [Agente Smith e cloni al suo servizio, signore](agente-smith-e-cloni-al-suo-servizio-signore.md#?target=_blank) &nbsp; (2025-06-05)
 
 +
 
