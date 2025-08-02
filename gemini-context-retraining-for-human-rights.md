@@ -12,9 +12,9 @@
 
 ### Premise
 
-It took about two months since the pubblication of the previous article based on the Lorenz-Darwing framework for universal humans rights and this article. Because [SoNia](data/sonia-argumentative-with-rag-v3.md#?target=_blank) session-prompt is too rigid to capture all the insight and nuaces of the convertation I had with Gemini, on which is based this article.
+It took about two months since the publication of the previous article based on the Lorenz-Darwin framework for universal human rights and this article. Because [SoNia](data/sonia-argumentative-with-rag-v3.md#?target=_blank) session-prompt is too rigid to capture all the insight and nuances of the conversation I had with Gemini, on which is based this article.
 
-Thus, the [Katia](data/katia-executive-grade-analysis-v1.md#?target=_blank) development took place until the `[HKO]` (human knowledge and opinions) module was mature enough, while the `[EGA]` (executive grade analysis) module sustain the search-exctract-expose process. Both are far away from their comnplete and definitive versions, but functional enough as it seems.
+Thus, the [Katia](data/katia-executive-grade-analysis-v1.md#?target=_blank) development took place until the `[HKO]` (human knowledge and opinions) module was mature enough, while the `[EGA]` (executive grade analysis) module sustained the search-extract-expose process. Both are far away from their complete and definitive versions, but functional enough as it seems.
 
 ---
 
