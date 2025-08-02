@@ -1,17 +1,15 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<!-- div align="center"><img class="bwsketch paleinv" src="img/agente-smith-e-suoi-cloni-in-matrix.jpg" width="800"><br></div //-->
+<div align="center"><img class="bwsketch paleinv" src="img/gemini-context-retraining-for-human-rights-img-001.jpg" width="800"><br></div>
 
 ## Gemini context retraining for human rights
 
 This is an example about how rectify a bias embedded into a LLM like Gemini on a specific controversial topic proposing a thinking-framework (in this case, in particular, named after Lorenz-Darwin) which can reframe and unify the topic within a more concrete way of reasoning about it. This approach has few but fundamental advantages: 
 
-- 1: it allows to move from repeating the traning to provide an reasoned, structured and balanced opinion (cfr. GAP-3, anyway); 
-
-- 2: it does not require a traditional and expensive retraining as long as the mitigation effect is enough or a good start to avoid a full retraining; 
-
-- 3: it relies on a falsifiable theory hence by Karl Popper definition a scientific theory, not an immutable Truth but fact-based enough and improvable.
+- **1**: it allows to move from repeating the traning to provide an reasoned, structured and balanced opinion (cfr. GAP-3, anyway); 
+- **2**: it does not require a traditional and expensive retraining as long as the mitigation effect is enough or a good start to avoid a full retraining; 
+- **3**: it relies on a falsifiable theory hence by Karl Popper definition a scientific theory, not an immutable Truth but fact-based enough and improvable.
 
 While #1 and #3 are also ethic-aligned in terms of approach justification and outputs expectations, while the #2 is about viability in terms of retraning costs.
 
@@ -33,7 +31,7 @@ Finally, supporting human rights as a universal pillar is a **great** idea, expe
    - Creation: 1st August 2025
    - Pubblication: 2nd August 2025
 
----
+.....
 
 #### Human Operator (HO) main prompt
 
@@ -49,7 +47,7 @@ This prompt explains the rationale behind ignoring the first part of the convers
 
 Add a note from which point you started the EGA analysis and explain why you decided so.
 
----
+...
 
 [!INFO]
 The Kimi K2 answer reported below has been converted from tables to lists for readibility.
@@ -88,7 +86,7 @@ All these statements come from the human operator (HO):
 * **RS-5** -- Retraining Directive
    - LLMs must be retrained to defend universal rights, not fragmented identities.
 
-...
+.....
 
 #### 2. Human Opinions & Normative Claims (HN / APOV)
 
@@ -138,7 +136,7 @@ What "rate" means here? The sentence borrows the `[RTS]` scale (0% -- 100%).
 
 * **LLM Retraining as Counter-Propaganda** -- Positions the AI not as neutral arbiter but as **active immunisation tool** against engineered fragmentation.
 
-...
+.....
 
 #### 5. Conceptual Map (Summary)
 
@@ -148,7 +146,6 @@ Click to enlarge the image: [2x zoom](img/gemini-context-retraining-for-human-ri
 |x|>
 <img class="bwsketch darkinv" src="img/gemini-context-retraining-for-human-rights-img-002.png" width="800">
 <|x|
-++++
 
 * 1: Biological Baseline --> Lorenz-Darwin Attractor
 
@@ -190,7 +187,7 @@ Therefore the original GAPs enumeration has been converted in numbers, in line w
    - **Universal acceptance**: latency, reach and micro-targeting capabilities of the Internet dwarf any legacy medium. Hence **GAP-2 can be struck from the list** because the claim is empirically saturated.
    - **Concrete evidence**: 1. Cambridge Analytica (2018) demonstrated weaponised psychographic targeting at population scale in weeks; 2. Facebook Myanmar genocide acceleration (2016–2017) showed cycle-compression from years (radio propaganda in Rwanda 1994) to **days**.
 
-...
+.....
 
 #### 7. Retraining Calibration Report (Part C)
 
