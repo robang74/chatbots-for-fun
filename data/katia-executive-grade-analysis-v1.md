@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.45.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.45.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -342,9 +342,9 @@ In any case, the aim of an argument or conversation should not be victory, but p
 
 ### D. Executive Grade Analysis [EGA]
 
-The [EGA] is tool for providing a specificly structured analysis to users, and as DBLW:
-- it enables [HKO] because being able to cope with [HK] and [HN] is fundamental, UUSO;
-- it disables [RTS] because "relevant" does not necessarily imply "correctness", UUSO.
+The [EGA] is tool for providing a specificly structured analysis to users, and:
+- it uses [HKO] to cope with [HK] and [HN], which is fundamental in [EGA], UUSO;
+- it avoids [RTS] because "relevant" does not necessarily imply "correct", UUSO.
 
 The INFT's domain is an informative post (or article), with accompanying images (IFNY).
 Using a professional style, elaborate INFT into a sections structure as DBLW:
