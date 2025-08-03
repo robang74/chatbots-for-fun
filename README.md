@@ -193,23 +193,18 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 ### Chatbots AI
 
-* [gemini.google.com](https://gemini.google.com) &nbsp; w/ [SoNia v3.9.3.1](https://g.co/gemini/share/4ac255d8bc51) &nbsp; w/ [Katia **v0.9.44**](https://g.co/gemini/share/3bd146963852)
-
-* [x.com/i/grok](https://x.com/i/grok) &nbsp; w/ [SoNia v3.9.3.1](https://x.com/i/grok/share/3OR8wxoPimBR9Ak0JqFB74qM8) &nbsp; w/ [Katia v0.6.1](https://x.com/i/grok/share/DBcdqY6vfJEZtdoONyXXOA9gD)
-
-* [chatgpt.com](https://chatgpt.com) &nbsp; w/ [SoNia **v3.9.7**](https://chatgpt.com/share/688f5cab-a99c-8012-b311-bc12f6f877d4) &nbsp; w/ [Katia **v0.9.44**](https://chatgpt.com/share/688f4d33-5c2c-8012-8f67-30918a54e440)
-
-* [claude.ai](https://claude.ai) <!-- &nbsp; w/ [SoNia v3.9.1](https://claude.ai/share/4c1fbcd7-f8ec-4beb-971e-f7b5b03bc1b2) &nbsp; w/ [Katia **v0.5.8**](https://claude.ai/share/e2ae92f4-3dcd-41d7-af6c-92318ec7f69c) //-->
-
-* [qwenlm.ai](https://qwenlm.ai) <!-- &nbsp; w/ [SoNia v3.7.4](https://chat.qwen.ai/s/7f979a3f-6a2b-4ef4-a726-3f6930c450a0?fev=0.0.115) //-->
-
-* [chat.mistral.ai](https://chat.mistral.ai) &nbsp; w/ [SoNia v3.9.3.1](https://chat.mistral.ai/chat/7641a2ca-177b-4f1f-8ad9-d64635d42b00) &nbsp; w/ [Katia v0.6.1](https://chat.mistral.ai/chat/548628c2-91d5-44e7-be47-bb707006be72)
-
-* [kimi.com](https://www.kimi.com) &nbsp; w/ [SoNia v3.9.3.1](https://www.kimi.com/share/d21hhg1djjpqh4juprp0) &nbsp; w/ [Katia **v0.9.44**](https://www.kimi.com/share/d27l4o6ahlmf00k65cvg)
+| Website   | Company | AI name | Model | SoNia | KaTia |
+|-----------|---------|---------|-------|-------|-------|
+| [gemini.google.com](https://gemini.google.com)| Google    | Gemini  | 2.5   | [v3.9.3.1](https://g.co/gemini/share/4ac255d8bc51) | [**v0.9.44**](https://g.co/gemini/share/3bd146963852) |
+| [x.com/i/grok](https://x.com/i/grok) | xAI       | Grok     | 3     | [v3.9.3.1](https://x.com/i/grok/share/3OR8wxoPimBR9Ak0JqFB74qM8) | [v0.6.1](https://x.com/i/grok/share/DBcdqY6vfJEZtdoONyXXOA9gD) |
+| [chatgpt.com](https://chatgpt.com) | OpenAI (Microsost)   | ChatGPT | 4o    | [**v3.9.7**](https://chatgpt.com/share/688f5cab-a99c-8012-b311-bc12f6f877d4) | [**v0.9.44**](https://chatgpt.com/share/688f4d33-5c2c-8012-8f67-30918a54e440) |
+| [claude.ai](https://claude.ai) | Anthropic | Claude   | Opus 4     | | |
+| [qwenlm.ai](https://qwenlm.ai) | Alibaba   | Qwen    | 3     | | |
+| [chat.mistral.ai](https://chat.mistral.ai) | Mistral AI | Le Chat | free | [v3.9.3.1](https://chat.mistral.ai/chat/7641a2ca-177b-4f1f-8ad9-d64635d42b00) | [v0.6.1](https://chat.mistral.ai/chat/548628c2-91d5-44e7-be47-bb707006be72) |
+| [kimi.com](https://www.kimi.com) | Moonshot (Alibaba) | Kimi | K2 | [v3.9.3.1](https://www.kimi.com/share/d21hhg1djjpqh4juprp0) | [**v0.9.44**](https://www.kimi.com/share/d27l4o6ahlmf00k65cvg) |
+| [deepseek.com](https://chat.deepseek.com) | DeepSeek AI | DeepSeek | v3 | | |
 
 #### Task oriented
-
-* [deepseek.com](https://chat.deepseek.com) - math & rational reasoning
 
 * [perplexity.ai](https://www.perplexity.ai) - search for information
 
