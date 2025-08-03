@@ -197,7 +197,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 * [x.com/i/grok](https://x.com/i/grok) &nbsp; w/ [SoNia v3.9.3.1](https://x.com/i/grok/share/3OR8wxoPimBR9Ak0JqFB74qM8) &nbsp; w/ [Katia v0.6.1](https://x.com/i/grok/share/DBcdqY6vfJEZtdoONyXXOA9gD)
 
-* [chatgpt.com](https://chatgpt.com) <!-- &nbsp; w/ [SoNia **v3.9.2**](https://chatgpt.com/share/68772242-7dd4-8012-a925-ced073d08503) //--> &nbsp; w/ [Katia **v0.9.44**](https://chatgpt.com/share/688f4d33-5c2c-8012-8f67-30918a54e440)
+* [chatgpt.com](https://chatgpt.com) &nbsp; w/ [SoNia **v3.9.7**](https://chatgpt.com/share/688f5cab-a99c-8012-b311-bc12f6f877d4) &nbsp; w/ [Katia **v0.9.44**](https://chatgpt.com/share/688f4d33-5c2c-8012-8f67-30918a54e440)
 
 * [claude.ai](https://claude.ai) <!-- &nbsp; w/ [SoNia v3.9.1](https://claude.ai/share/4c1fbcd7-f8ec-4beb-971e-f7b5b03bc1b2) &nbsp; w/ [Katia **v0.5.8**](https://claude.ai/share/e2ae92f4-3dcd-41d7-af6c-92318ec7f69c) //-->
 
