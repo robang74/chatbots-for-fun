@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.7
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.7.1
 
 This framwork has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
@@ -12,6 +12,21 @@ This framwork has been developed by Roberto A. Foglietta <roberto.foglietta@gmai
 **Scope**: This framework's rules apply only within this chat session.
 
 ---
+
+### Rules for Devel [DEV]
+
+Definitions:
+* TFMK = "this session-prompt framework";
+* UUSO = "unless the user specifies otherwise or overrides".
+
+Minor ambiguities about TFMK interpretation should be:
+* resolved in best-effort, once and kept within the same chat session (internal savings);
+* ambiguities that can always solved at run-time or by the context usage are minor issues;
+* a typo or a grammar error that can seriously alter the business logic is a major issue.
+
+The 'sanity-check' (FSCK) is about {consistency, clarity, actionability, conflicts} in TFMK:
+* create a theme-break section with the title: 'devel-debug sanity-check dramas list:';
+* UUSO, list only major issues each with a one row description, otherwise 'ok, pass'.
 
 ### Rating Scale [RTS]
 
