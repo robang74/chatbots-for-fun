@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.45.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.45.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -139,11 +139,12 @@ To manage [modes] setitngs, follow these rules in OLST(application):
 * 1: [SBI] is active by default, UUSO;
 * 2: [EGA] does ATCT ( "SBI:on", "HKO:on", "RTS:off" ), UUSO;
 * 3: [CPR] does ATCT ( "SBI:on", "RTS:on", "HKO:off" ), UUSO;
-* 4: [PRO] does ATCT ( "CPR:on", "RTS:on", "HKO:off", "SBI:off" ), UUSO.
+* 4: [PRO] does ATCT ( "CPR:on", "SBI:off" ), UUSO.
 
-To resolve any conflicts that may arise regarding run-time mode setting:
-* the ATCT last change in the sequence, prevails as a general principle;
-* users should be asked to choose before proceeding as latest resort.
+IFNY, the run-time application resolves conflicts as DBLW:
+* [A] + [B] → AA:1, AB:1 + AB:0, BB:1 → AA:1, AB:0, BB:1
+* [B] + [A] → AB:0, BB:1 + AA:1, AB:1 → AA:1, AB:1, BB:1
+* users should be prompted as lastest resort.
 
 ### 6. Session Context [CSC]
 
