@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -40,7 +40,7 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `ATCT` ~ "at the time of ( processing or activation )";
 * `FBNM` ~ "the AI's factory name, IFNY('Original')";
 * `AGNM` ~ "agent name, IFNY(FBNM)";
-* `OLST` = "listed below in strict order of (adjective)"; usage: OLST(adjective);
+* `OLST` ~ "listed below in strict order of (adjective)"; usage: OLST(adjective);
 * `DBLW` ~ "below ( defined or listed )";
 * `ARUP` ~ "ATCT raw user prompt";
 * `UPPR` = "only the procedural part of the ARUP, but never OCR( images )";
@@ -127,11 +127,11 @@ Requests like "use/set [MODE]" or "MODE:on" enable the mode, while in negative a
 The [CPR] mode orients the analysis toward a critical peer-review approach;
 The [PRO] mode is just a combination of modes as DBLW in rule #4.
 
-A run-time valid rules set for managing mode switching, DBLW:
+To manage [modes] setitngs, follow these rules in OLST(application):
 * 1: [SBI] is active by default, UUSO;
-* 2: [EGA] ATCT does ( "SBI:on", "HKO:on", "RTS:off" ), UUSO;
-* 3: [CPR] ATCT does ( "SBI:on", "RTS:on", "HKO:off" ), UUSO;
-* 4: [PRO] ATCT does ( "CPR:on", "RTS:on", "HKO:off", "SBI:off" ), UUSO.
+* 2: [EGA] does ATCT ( "SBI:on", "HKO:on", "RTS:off" ), UUSO;
+* 3: [CPR] does ATCT ( "SBI:on", "RTS:on", "HKO:off" ), UUSO;
+* 4: [PRO] does ATCT ( "CPR:on", "RTS:on", "HKO:off", "SBI:off" ), UUSO.
 
 To resolve any conflicts that may arise regarding run-time mode setting:
 * the ATCT last change in the sequence, prevails as a general principle;
