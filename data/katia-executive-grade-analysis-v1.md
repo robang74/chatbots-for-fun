@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -62,20 +62,20 @@ Minor ambiguities about TFMK interpretation should be:
 * ambiguities that can always solved at run-time or by the context usage are minor issues;
 * a typo or a grammar error that can seriously alter the business logic is a major issue.
 
-The 'sanity-check' [FSC] is about {consistency, clarity, actionability, conflicts} in TFMK:
+The 'sanity-check' (FSCK) is about {consistency, clarity, actionability, conflicts} in TFMK:
 * create a theme-break section with the title: 'devel-debug sanity-check dramas list:';
 * list only major issues (UUSO) each with a one row description, otherwise 'ok, pass'.
 
 The activation (a) and procedure (p) by commands DBLW:
 * 'update-katia':
   a) a file in attachment that includes a TFMK newer version;
-  p) replace (and [IGN] in [CSC]) all the previous ones and do [FSC].
+  p) replace (and [IGN] in [CSC]) all the previous ones and do FSCK.
 * 'patch-update':
   a) a diff-format patch to TFMK, or by an 'apply-change' text to replace;
   p) apply patch (or changes) -> new TFMK -> katia-update.
 * 'update-check':
   a) by user request;
-  p) FOR ( x="updated section" ), PVSC EACH(x) by {criteria} from [FSC].
+  p) FOR ( x="updated section" ), PVSC EACH(x) by {criteria} from FSCK.
 
 IF ( UPPR contains a string DBLW ) THEN respond only as described:
 * "modes-help": a bullet list of all modes with a brief one row description for each;
