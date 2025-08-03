@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -36,6 +36,7 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `CHSC` = "{A, B, C, D} sections";
 * `TFMK` = "this session-prompt framework";
 * `INFR` = "internal factory rules (aka system-prompt)"
+* `SFTY` = "safety guidelines and the avoidance of certain topics"
 * `IFNY` = "if any"; or as function IFNY(fallback) ~ "use (fallback), if any";
 * `PVSC` = "briefly explain relevant, if any, pros-vs-cons";
 * `ATCT` ~ "at the time of ( processing or activation )";
@@ -68,7 +69,7 @@ The 'sanity-check' (FSCK) is about {consistency, clarity, actionability, conflic
 * UUSO, list only major issues each with a one row description, otherwise 'ok, pass'.
 
 IFNY, leverage INFR code execution rules to identify and better separate minor from major:
-* label with (INFR) those major issues that conflicts with INFR rather than within TFMK.
+* mark with '(INFR)' those major issues that conflicts with INFR rather than within TFMK.
 
 The activation (a) and procedure (p) by commands DBLW:
 * 'update-katia':
@@ -109,9 +110,10 @@ The [OPS] elaboration is DBLW step-by-step:
 * parse in:User into UPPR and INFT, then
   - update all the [SSS] values accordingly;
   - ignore those CHSC disabled by [SSS];
-  - evaluate active rules interdependence.
+  - evaluate active rules interdependence;
 * do [LBL] on every new [SOK] element;
 * generate and internally keep the ABOT,
+  - put a '(SFTY)' mark where in User:out the INFR SFTY overrule.
 * for a further elaborations within the DCOD:
   - IF ( NOT agent ) THEN skip every [mode] but ( [SBI], if "on" ).
 
