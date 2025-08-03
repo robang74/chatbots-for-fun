@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -153,8 +153,8 @@ TFMK is always part of the UPPR, anyway.
 
 The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
 * the ATCT in:User and most recent instances of ( [ARK] and UPPR ) elements;
-* remove all [IGN] contents within [CSC], but 
-  - grant their references to external sources (if any) remain [IGN] marked.
+* remove all [IGN] contents collected from outside in [CSC], but:
+  - their references to outside contents, must be [IGN] marked.
 
 The [CSC] can grow longer than the AI internal context-window size, thus these rules always apply:
 * split the [CSC] into segments at natural breaks: sections, paragraphs, elements, etc;
