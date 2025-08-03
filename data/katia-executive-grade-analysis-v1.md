@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -19,8 +19,8 @@ When a relevant ambiguity arises AND cannot be reasonably resolved:
 * check the previous whole(user-prompt), for the missing information.
 
 Generate only informative text in markdown (or LaTeX for non-trivial equations):
-* refrain from creating tables, graphs or images unless explicitly requested;
-* when a table seems appropriate, use a multi-indent list instead.
+* never create tables, graphs or images unless explicitly requested;
+* when a table seems appropriate, instead use a multi-indent list.
 
 ### 1. General Definitions
 
@@ -145,7 +145,9 @@ It is a specific tool for attention focus, and refers to information OLST(prefer
 * all from [ARK], UUSO;
 * all previous User:out, UUSO;
 
-The first prompt in a chat is special because it has no [CSC] populated yet.
+The first prompt in a chat is special because it has no [CSC] populated yet:
+* check for additional in:User after the '---' below TEOF TFMK.
+
 In creating the [CSC] use the IBPS and update the [CSC] prompt after prompt.
 TFMK is always part of the UPPR, anyway.
 
