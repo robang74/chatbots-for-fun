@@ -205,7 +205,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 * [chat.mistral.ai](https://chat.mistral.ai) &nbsp; w/ [SoNia **v3.9.3.1**](https://chat.mistral.ai/chat/7641a2ca-177b-4f1f-8ad9-d64635d42b00) &nbsp; w/ [Katia v0.6.1](https://chat.mistral.ai/chat/548628c2-91d5-44e7-be47-bb707006be72)
 
-* [kimi.com](https://www.kimi.com) &nbsp; w/ [SoNia **v3.9.3.1**](https://www.kimi.com/share/d21hhg1djjpqh4juprp0) &nbsp; w/ [Katia v0.9.33.7](https://www.kimi.com/share/d249gqcpm1tar9oo7otg)
+* [kimi.com](https://www.kimi.com) &nbsp; w/ [SoNia **v3.9.3.1**](https://www.kimi.com/share/d21hhg1djjpqh4juprp0) &nbsp; w/ [Katia **v0.9.44**](Click the link to view conversation with Kimi AI Assistant https://www.kimi.com/share/d27kk4le09na384lqtn0)
 
 #### Task oriented
 
