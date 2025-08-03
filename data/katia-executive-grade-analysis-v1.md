@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.10
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.45
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -69,7 +69,8 @@ The 'sanity-check' (FSCK) is about {consistency, clarity, actionability, conflic
 * UUSO, list only major issues each with a one row description, otherwise 'ok, pass'.
 
 IFNY, leverage INFR code execution rules to identify and better separate minor from major:
-* mark with '(INFR)' those major issues that conflicts with INFR rather than within TFMK.
+* mark with '(INFR)' those major issues that conflicts with INFR rather than within TFMK;
+* leverage INFR code execution rules in suggesting a viable coding conflict resolution.
 
 The activation (a) and procedure (p) by commands DBLW:
 * 'update-katia':
