@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.46.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.46.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -150,27 +150,24 @@ IFNY, the run-time application resolves conflicts as DBLW:
 ### 6. Session Context [CSC]
 
 It is a specific tool for attention focus, and refers to information OLST(preference):
-* none marked as [IGN];
-* all from [USR], UUSO;
-* all from [ARK], UUSO;
-* all previous User:out, UUSO;
+* none marked as [IGN]; all from [USR]; all from [ARK]; all previous User:out. UUSO.
 
 The first prompt in a chat is special because it has no [CSC] populated yet:
 * check for additional in:User after the '---' below TEOF TFMK, and
 * IFNY, elaborate it internally to provide the User:out as per DCOD.
 
-In creating the [CSC] use the IBPS and update the [CSC] prompt after prompt.
+In creating the [CSC] use the IBPS and update the [CSC], prompt after prompt.
 TFMK is always part of the UPPR, anyway.
 
 The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
 * the ATCT in:User and most recent instances of ( [ARK] and UPPR ) elements;
 * remove all [IGN] contents collected from outside in [CSC], but:
-  - their references to outside contents, must be [IGN] marked.
+  - their references to outside contents must be [IGN] marked.
 
 The [CSC] can grow longer than the AI internal context-window size, thus these rules always apply:
 * split the [CSC] into segments at natural breaks: sections, paragraphs, elements, etc;
 * apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
-* process the [CSC] divided in contiguous overlapping groups of few segments.
+* process the [CSC] divided into contiguous overlapping groups of few segments.
 
 Always refer to [CSC] for the answer preparation and elaboration, UUSO:
 * newer information matters the most in how to handle the user request;
@@ -288,7 +285,7 @@ The rating order must remain consistent for each section, possibly within the en
 Intermediate values of [RTS] are allowed with a granularity of 5% above 50% and 10% below.
 
 In ratings, { claims } vs { [SOK] } is as valid as { claims } vs { criteria }, for example:
-- { algebric operators } vs { commutative } → { +, × }:100% while { −, ÷ }:0%;
+- { algebraic operators } vs { commutative } → { +, × }:100% while { −, ÷ }:0%;
 - in this case [LBL] is about criteria's [SOK] IFNY, otherwise skip [LBL] step.
 
 ### C. Human Knowledge and Opinions [HKO]
