@@ -7,7 +7,7 @@
 
 - **1st edition**, this article is written starting from Katia [v0.9.33.7](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b725752bcd6f8cf6b41487896332cebf773e988d/data/katia-executive-grade-analysis-v1.md) framework `[HKO]` module.
 - **2nd edition**, includes developing the `[HKO]` module and fixing the `[CSC]` one in [v0.9.34.6](https://raw.githubusercontent.com/robang74/chatbots-for-fun/f400228777dc1560c9a203fdf1d93bd694b79ade/data/katia-executive-grade-analysis-v1.md).
-- **3rd edition**, includes all sections pros-vs-cons check [analisys](#update-check-analysis-v0942), with newly enumerated sections .
+- **3rd edition**, includes all sections pros-vs-cons check [analisys](#update-check-analysis), with newly enumerated sections .
 
 ---
 
@@ -122,11 +122,23 @@ Initially, Grok3 replicates the Katia footprint. Once he realized that he is not
 +
 ++++
 
+## The [HKO] module explained
+
+This article's multiple-section part is dedicated to the `[HKO]` module and in particular about splitting it in pieces for better explaining the various goals which aim to achieve: understanding, expression, and creativity.
+
+All of these in terms of search-extract-expose as per `[EGA]` structured output and more in general also for creating nuanced outputs, because when an AI can detect patterns, it can also imitate them.
+
+By the way, imitating is not doing-for-real and the difference is about understanding. We can assume that the "understanding" part of the `[HKO]` module serves to fulfill that gap, but it doesn't.
+
+Understanding. here, means how to differentiate the various branches of human knowledge and how to deal with the "human opinion" special class. The same for the other two keywords, it is about pattern classification and rules to handle various classes.
+
+---
+
 ### Extending the `[HKO]`: understanding
 
-Once we had a lot of fun with Katia and "Roast that Pig!" high-pressure test, it is time to extend the `[HKO]` module further. Well, for sake of truth, everything started because Gemini doing a "sanity-check" of many started to complain that evaluation by `[RTS]` might happen when users include them into the `INFT`.
+Once we had a lot of fun with Katia and "Roast that Pig!" high-pressure test, it is time to extend the `[HKO]` module further. Well, for sake of truth, everything started because Gemini was doing a "sanity-check", one of many, but that one started to complain that evaluation by `[RTS]` might happen on Katia opinions, as well. Something that should not happen, as stated in the Katia framework but it happens when users copy & paste them (or part of them) into the prompt.
 
-Despite, it was more a problem of definitions kept back into the original form ([here](attenzione-e-contesto-nei-chatbot.md#framework-acronyms?target=_blank)) which was not leveraging the newest "General Definitions" set, serendipity kick in when I was trying to explain the chatbot that rating its own opinions as per `[HKO]` would potentially generate an infinite loop of overthinking.
+Despite, it was more a problem of definitions kept back into the original form ([here](attenzione-e-contesto-nei-chatbot.md#framework-acronyms?target=_blank)) which was not leveraging the newest "General Definitions" set, serendipity kick in when I was trying to explain the chatbot that rating its own opinions as per `[HKO]` would potentially generate an infinite loop of overthinking. So the `[HKO]` module went some steps further.
 
 ...
 
@@ -152,7 +164,7 @@ Finally, the human opinions `[HN]` have been put in their own special category, 
 
 It fits otherwise `[HN]`, as simple as that.
 
-...
+....
 
 #### The [HKO] module (part 2)
 
@@ -176,15 +188,15 @@ In fact, the next task after information segmentation and categorization is hand
 
 After the Google researchers "Learning by Context without Training" [paper](https://arxiv.org/pdf/2507.16003) publication (2025-07-21), we know for sure that AIs can learn from examples in a very broad way.
 
-----
+---
 
 ### Extending the `[HKO]`: expression
 
-The ability to better understand human knowledge and opinion is something great but fundamentally not the best that we would like to have. The main point here is that silence is gold but not for the generative text AI: nice to have "someone" that can listen as long as it also can communicate in a short but insightful way (a source of wisdom).
+The ability to better understand human knowledge and opinions, is something great but fundamentally not the best that we would like to have. The main point here is that silence is gold but not for the generative text AI: nice to have "someone" that can listen as long as it also can communicate in a short but insightful way (a source of wisdom).
 
 The `[SBI]` module appeared in SoNia v3.8.0 (2025-07-12), just a week before the first version of the `[HKO]` module. Why? It is hard to summarise what we did not deeply understand because we cannot decide what is relevant or not. Three days later, the `[HKO]` was introduced into Katia v0.9.9.8 (2025-07-22) for expressing her opinions.
 
-Unsurprisingly, almost everyone reaches the same conclusion at almost the same time.
+Unsurprisingly, almost everyone reaches the same conclusion, and almost at the same time.
 
 ...
 
@@ -253,6 +265,7 @@ Leveraging relativism, is not creativity nor any other "nice keywords" about thi
 Properly challenging the most deeply rooted biases, is the best way to evaluate and foster creativity.
 
 +
+++++
 
 ## Default Chain of Delivery
 
@@ -276,7 +289,6 @@ Am I overrating the importance of DCOD? Possibly, but applying two times `[SBI]`
 Since Katia v0.9.37.9, the `[SBI]` is explicitly indicated as an iteratively N-times applicable process, including user-prompt examples, also. In the past, "activates" instead of "enables" `[SBI]` in `[EGA]` mode was applied `[SBI]` two times. Despite the result was great, it is not intended to happen anymore by default.
 
 +
-++++
 
 ### The `[CSC]` module fixing
 
@@ -294,10 +306,14 @@ Regardin katia v0.9.42, and later aligned with v0.9.44 changes.
 
 > do an update-check on all the sections whenever they are changed or not.
 
+...
+
+<div style="font-size:90%">
 **0. &nbsp; Universal Rules**
 - **Pros** -- Establishes a clear, predictable interaction model through procedural language and specified tokens. The rules on handling ambiguity are good guardrails against speculative responses.
 - **Cons** -- Procedural details require strict adherence, but this is a design choice that prioritizes consistency.
 
+++++
 **1. &nbsp; General Definitions**
 - **Pros** -- Provides a comprehensive set of acronyms and terms, reducing ambiguity in communication.<br>The `[SSS]` (status & settings set) list defines the core state of the system in a clear, ordered way.
 
@@ -325,6 +341,8 @@ Regardin katia v0.9.42, and later aligned with v0.9.44 changes.
 - **Pros** -- This tool ensures a consistent, informative footer is appended to every response, providing version, mode, and other status information.
 - **Cons** -- The footer's format is rigid, but this is a desired feature for consistency.
 
+...
+
 **A. &nbsp; Agentic Character [KTA]**
 - **Pros** -- Katia's character and activation triggers are clearly defined, providing a customized agent experience. The specific rule for null `INFT` (no data from user) provides a concise response for greetings.
 
@@ -339,9 +357,10 @@ Regardin katia v0.9.42, and later aligned with v0.9.44 changes.
 - **Pros** -- It defines a sophisticated, structured analysis framework with specific concepts (`OFTB` for out-of-the-box, `[GAP]` for concpetual-gap, `[DIB]` for biases-inplicit-dogmas) for delivering professional insights.
 - **Cons** -- The concepts defined are complex, but the framework provides clear definitions and examples.
 
-<div style="font-size:80%">
-> `Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)`
-> `Katia; v0.9.44; lang: IT; mode: N/A; date: 2025-08-01; time: 21:32:00 (CEST)`
+...
+
+`Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)`<br>
+`Katia; v0.9.44; lang: IT; mode: N/A; date: 2025-08-01; time: 21:32:00 (CEST)`
 </div>
 
 +
