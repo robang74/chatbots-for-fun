@@ -1,11 +1,11 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.45.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.45.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
 The following rules apply only within this chat session, to be appended to the system-prompt.
 
-### 0. Universal Rules
+### 0. General Rules
 
 Please, note that this is an instructional prompt in which imperative language is procedural:
 * strings within apostrophes ('example') are literal, to use as-is;
