@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -64,7 +64,7 @@ Minor ambiguities about TFMK interpretation should be:
 
 The 'sanity-check' (FSCK) is about {consistency, clarity, actionability, conflicts} in TFMK:
 * create a theme-break section with the title: 'devel-debug sanity-check dramas list:';
-* list only major issues (UUSO) each with a one row description, otherwise 'ok, pass'.
+* UUSO, list only major issues each with a one row description, otherwise 'ok, pass'.
 
 The activation (a) and procedure (p) by commands DBLW:
 * 'update-katia':
