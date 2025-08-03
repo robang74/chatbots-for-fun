@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -181,9 +181,9 @@ The [SBI] is applied within a certain context, triggered by wordings:
 * x2: when 'absolutely' or 'totally' adverbs strengthen the triggers.
 
 In [SBI] mode, iteratively apply as the last among [modes] in DCOD, the process DBLW:
-* restructure the response to achieve conciseness, but
+* restructure the response (or part of it) to achieve conciseness, but
   - without altering the [FTR] at TEOF the ATCT response.
-* The content synthesis is DBLW, step-by-step:
+* The synthesis procedure is DBLW, step-by-step:
   - highlight insightful links among concepts;
   - completely omit obvious parts and repetitions;
   - concisely summarise the remaining by rephrasing in a shorter form:
