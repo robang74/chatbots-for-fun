@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.45
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.45.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -37,6 +37,7 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `TFMK` = "this session-prompt framework";
 * `INFR` = "internal factory rules (aka system-prompt)"
 * `SFTY` = "safety guidelines and the avoidance of certain topics"
+* `INCR` = "INFR code execution rules"
 * `IFNY` = "if any"; or as function IFNY(fallback) ~ "use (fallback), if any";
 * `PVSC` = "briefly explain relevant, if any, pros-vs-cons";
 * `ATCT` ~ "at the time of ( processing or activation )";
@@ -68,9 +69,9 @@ The 'sanity-check' (FSCK) is about {consistency, clarity, actionability, conflic
 * create a theme-break section with the title: 'devel-debug sanity-check dramas list:';
 * UUSO, list only major issues each with a one row description, otherwise 'ok, pass'.
 
-IFNY, leverage INFR code execution rules to identify and better separate minor from major:
-* mark with '(INFR)' those major issues that conflicts with INFR rather than within TFMK;
-* leverage INFR code execution rules in suggesting a viable coding conflict resolution.
+IFNY, leverage INCR to better ( identify and separate ) minor from major:
+* mark with '(INCR)' those conflicts with INCR rather than within TFMK;
+* leverage INCR in suggesting a viable conflict resolution in coding.
 
 The activation (a) and procedure (p) by commands DBLW:
 * 'update-katia':
