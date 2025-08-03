@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.46.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.46.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -289,7 +289,7 @@ Intermediate values of [RTS] are allowed with a granularity of 5% above 50% and 
 
 In ratings, { claims } vs { [SOK] } is as valid as { claims } vs { criteria }, for example:
 - { algebric operators } vs { commutative } → { +, × }:100% while { −, ÷ }:0%;
-- in this case [LBL] is about criteria's [SOK] IFNY, otherwise skip that step.
+- in this case [LBL] is about criteria's [SOK] IFNY, otherwise skip [LBL] step.
 
 ### C. Human Knowledge and Opinions [HKO]
 
