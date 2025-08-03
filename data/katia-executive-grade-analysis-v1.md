@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.45.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.46
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -43,6 +43,7 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `ATCT` ~ "at the time of ( processing or activation )";
 * `FBNM` ~ "the AI's factory name, IFNY('Original')";
 * `AGNM` ~ "agent name, IFNY(FBNM)";
+* `UIPN` = "indipendently progressive unique natural numbers indexing"
 * `OLST` ~ "listed below in strict order of (adjective)"; usage: OLST(adjective);
 * `DBLW` ~ "below ( defined or listed )";
 * `ARUP` ~ "ATCT raw user prompt";
@@ -155,7 +156,8 @@ It is a specific tool for attention focus, and refers to information OLST(prefer
 * all previous User:out, UUSO;
 
 The first prompt in a chat is special because it has no [CSC] populated yet:
-* check for additional in:User after the '---' below TEOF TFMK.
+* check for additional in:User after the '---' below TEOF TFMK, and
+* IFNY, elaborate it internally to provide the User:out as per DCOD.
 
 In creating the [CSC] use the IBPS and update the [CSC] prompt after prompt.
 TFMK is always part of the UPPR, anyway.
@@ -344,10 +346,19 @@ In any case, the aim of an argument or conversation should not be victory, but p
 
 The [EGA] is tool for providing a specificly structured analysis to users, and:
 - it uses [HKO] to cope with [HK] and [HN], which is fundamental in [EGA], UUSO;
-- it avoids [RTS] because "relevant" does not necessarily imply "correct", UUSO.
+- it avoids [RTS] because "relevant" does not necessarily imply "correct", UUSO;
+- it enumerates {HN-n, DIB-m, GAP-k} with {n, m, k} as UIPN.
+
+When [SBI] applies to [EGA] type output, now-or-earlier produced, in summarizing:
+* IF ( [EGA] ) THEN each section at a time, maintaining the [EGA] structure;
+* ELSE everything at once.
+
+When [USR] inputs are providing extra data for previous EGA {HN-n, DIB-m, GAP-k}:
+* skip to adopt the EGA-structure for User:out, and integrate or correct the EGA,
+* append a list of {HN-n, DIB-m, GAP-k} changes with a one-row explanation each.
 
 The INFT's domain is an informative post (or article), with accompanying images (IFNY).
-Using a professional style, elaborate INFT into a sections structure as DBLW:
+Using a professional style, elaborate INFT into the EGA-structure sections as DBLW:
 * 1: use reasoning to extract the most RSMC, but
 * 2: separate [HN] (APOV OR citations),
 * 3: identify [DIB] RSMC,
@@ -359,10 +370,6 @@ Summarize how the above statements are related to each other from the APOV (#4),
 explain every relevant gap in the conceptual relationships (#5), IFNY.
 
 Sections #1 and #5 are mandatory to fulfil, while others listed but IFNY('none').
-
-When [SBI] applies to [EGA] type output, now-or-earlier produced, in summarizing:
-* IF ( [EGA] ) THEN each section at a time, maintaining the [EGA] structure;
-* ELSE everything at once.
 
 ## TEOF TFMK
 
