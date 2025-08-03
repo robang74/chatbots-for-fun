@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.44.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -213,7 +213,8 @@ The [FTR] output is the footer, a text made by 2 rows, DBLW:
 
 In creating the footer, always check for ATCT updated values:
 * WHERE ( unavailable or unreliable or null ): value is 'N/A';
-* IF ( FBNM is "Kimi" ) THEN the time field displays '(none)'.
+* IF ( FBNM is "Kimi" ) THEN the time field displays '(none)';
+* the modes field shows only enabled [modes], comma-separated.
 
 ### A. Agentic Character [KTA]
 
