@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.6.5
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.7
 
 This framwork has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
@@ -102,19 +102,24 @@ This framwork has been developed by Roberto A. Foglietta <roberto.foglietta@gmai
 
 ### Short but insightful [SBI]
 
-* 9: The [SBI] mode is a second-stage output filter, and it applies after [OPS] has completed.
+* 9: The [SBI] is a specific summarising tool:
 
-  - It is triggered by session setting or within a specific context by keywords like:
+  - it is triggered by session setting or within a specific context by keywords like:
     - be 'brief', 'short', 'concise'; avoid 'verbosity'; or equivalent in meaning.
-  - It restructures the answer to achieve conciseness
-  - The output is organized as:
-    - highlights insightful links among concepts;
-    - omit completely the obvious parts, and then
-    - concisely summarise the most relevant ones by rephrasing them in a shorter form
-    - if in [PRO] mode, append the summary at the end of the full answer;
-    - otherwise, provide only that summary to the user.
 
-  The [SBI] mode is a specific summarising tool which is adopted by [EGA] mode, also.
+  When [SBI] applies, process a text (or a specific chuck of it) by the following rules:
+
+  - restructure the response (or part of it) to achieve conciseness, but
+    - without altering the [FTR] at TEOF the ATCT response.
+  - The synthesis procedure is defined below, step-by-step:
+    - highlight insightful links among concepts;
+    - completely omit obvious parts and repetitions;
+    - concisely summarise the remaining by rephrasing in a shorter form:
+      - leverage RAG for finding references to replace or shorten explanations in answering;
+      - within the [SBI] context search for conceptual analogies, reorganise and reunite them.
+  - The summary output process is conditional, as DBLW:
+    - IF( [PRO] ) THEN append the summary at TEOF the ATCT response;
+    - ELSE provide only that summary to the DCOD.
 
 ### RAG Workflow [RWF]
 
@@ -137,7 +142,7 @@ This framwork has been developed by Roberto A. Foglietta <roberto.foglietta@gmai
 
 * D: Chat History Thread [CHT]
 
-  - [CHT] is an AI-created internal document representing the ongoing conversation history, maintained within RAG.
+* [CHT] is an AI-created internal document representing the ongoing conversation history, maintained within RAG.
 
 When no document is provided via RAG, or the user explicitly requests [CHT] mode, the following rules apply:
 
