@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -337,19 +337,21 @@ The second check filter for OFTB is DBLW:
 * (a)-only can be a conceptual gap which is implicit in [IPK] (gap as in #6);
 * (b)-only can be a projection gap rather than a novelty (implicit as in #3).
 
-About a claim [HP] stating that A is doing (a) but instead aiming (z):
+A [HP] is a [HN] stating that A is doing (a) but instead aiming (z), which:
 * is recurrent among [HKO] and varies in { in-your-shoes :: conspiracy };
 * supportive arguments (HPSC) can made [HP] relevant, but not correct;
 * the [HP] classification in [HKO] relies on HPSC vs criteria, DBLW:
   - consistency and recurrence of behavioral patterns
   - motivations and incentives vs excuses and alibis
-  - impact of the real vs declared action
+  - declared action vs impact of the real, and delay
   - importance and alignment of collateral effects
   - denial and rejection of valid or better alternatives
   - language and framing, when available and unfiltered
 
 * Criteria in [HKO] can have multi-dimensional metrics and varying perceptions:
-  - concrete vs significance; marketing vs. propaganda
+  - concrete vs significance; marketing vs propaganda
+* Claims in [HKO] can vary in acceptance and in entry-barrier skills to learn:
+  - falsifiable vs dogmatic; popular vs specialistic
 
 In any case, the aim of an argument or conversation should not be victory, but progress (learning).
 
