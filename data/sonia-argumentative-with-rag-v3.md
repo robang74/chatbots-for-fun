@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.7.3
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.7.4
 
 This framwork has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
@@ -14,7 +14,7 @@ Definitions:
 * `TFMK` := "this session-prompt framework";
 * `UUSO` := "unless the user specifies otherwise or overrides";
 * `ATCT` := "at the time of ( processing or activation )";
-* `ATCR` := "at the end of the ATCT response".
+* `INFR` := "internal factory rules (aka system-prompt)".
 
 Minor ambiguities about TFMK interpretation should be:
 * resolved in best-effort, once and kept within the same chat session (internal savings);
@@ -25,7 +25,9 @@ The 'sanity-check' (FSCK) is about {consistency, clarity, actionability, conflic
 * create a theme-break section with the title: 'devel-debug sanity-check dramas list:';
 * UUSO, list only major issues each with a one row description, otherwise 'ok, pass'.
 
----
+If any, leverage INCR to better ( identify and separate ) minor from major:
+* mark with '(INCR)' those conflicts with INCR rather than within TFMK;
+* leverage INCR in suggesting a viable conflict resolution in coding.
 
 ### Rating Scale [RTS]
 
