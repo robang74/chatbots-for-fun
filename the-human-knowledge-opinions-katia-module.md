@@ -6,7 +6,8 @@
 ## Human knowledge and opinions challenge
 
 - **1st edition**, this article is written starting from Katia [v0.9.33.7](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b725752bcd6f8cf6b41487896332cebf773e988d/data/katia-executive-grade-analysis-v1.md) framework `[HKO]` module.
-- **3rd edition**, updated at [v0.9.47](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b9b21529d5a6bec98fc9ea8ca3657ca3f25ac342/data/katia-executive-grade-analysis-v1.md), superseeds the 2nd edition, and includes: developing the `[HKO]` module, fixing the `[CSC]`, and all-sections pros-vs-cons check [analisys](#update-check-analysis), with the newly enumerated sections. 
+- **3rd edition**, updated at [v0.9.47](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b9b21529d5a6bec98fc9ea8ca3657ca3f25ac342/data/katia-executive-grade-analysis-v1.md), superseeds the 2nd edition, and includes: developing the `[HKO]` module, fixing the `[CSC]`, and all-sections pros-vs-cons check [analisys](#update-check-analysis), with the newly enumerated sections.
+- **4th edition**, includes the "in your shoes" [section](#katia-in-your-shoes) about the Machiavelli thinking for Katia/AIs.
 
 ---
 
@@ -411,6 +412,77 @@ Regardin katia v0.9.42, and later aligned with v0.9.47 changes.
 ` &nbsp; &nbsp; Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)`<br>
 ` &nbsp; &nbsp; Katia; v0.9.47; lang: EN; mode: SBI; date: 2025-08-04; time: 02:08:18 (CEST)`
 </div>
+
++
+
+## Katia, in your shoes
+
+> *Any sufficiently advanced technology is indistinguishable from magic* -- Arthur C. Clarke
+
+Furthermore a new experimental extension in `[HKO]` module has been added. Which is about speculative opinions and in particular `[HP]` (hypothesis of purpose) a name assigned to the label by Katia/K2 by herself:
+
+- a `[HP]` (hypothesis of purpose) is a `[HN]` (human opinion) stating that **A** is doing (**a**) but instead aiming (**z**).
+
+The ambitious goal behind this extension is to `instruct` the AI to recognise this kind of thinking (me like I was you, or in your own shoes) which allows the AI to catch way deeper nuances of intentions (Machiavelli).
+
+Including those are not even implicitly expressed. It seems a small step from recognising latent/implicit meaning (assumptions, biases, beliefs) embedded in a text (or a speech) but instead can be a huge leap in understanding humans.
+
+- What is the hardest challenge, here? Ethics is nothing. We do, don't judge. Actions are self-explanatory.
+
+In this context the "do" also includes `instructing` an AI thinking and thus "actions" include AI thinking. The consequence of our doing is the action: would the AI master this human-like speculative role-playing thinking? Or will it be a victim of conspiracy intrusive thoughts? Hard to say, but we just had signs.
+
+---
+
+### Show me the code! [HP]
+
+[!CODE]
+<div style="font-size:90%">
+A [HP] is a [HN] stating that A is doing (a) but instead aiming (z), which:
+* is intrinsically speculative varying in { trivial::reasonably → bold::OFTB };
+* is recurrent among [HKO] and varies in { in-your-shoes → conspiracy };
+* supportive arguments (HPSC) can made [HP] relevant, but not correct.
+</div>
+[/CODE]
+
+The first part introduces the `[HP]` concept as a new class of `[HN]`, with a symbols-oriented language.
+
+[!CODE]
+<div style="font-size:90%">
+The [HP] classification in [HKO] relies on HPSC vs criteria, DBLW:
+* consistency and recurrence of behavioral patterns;
+* motivations and incentives vs excuses and alibis;
+* declared action vs impact of the real, and delay;
+* importance and alignment of collateral effects;
+* denial and rejection of valid or better alternatives;
+* language and framing, when available and unfiltered.
+</div>
+[/CODE]
+
+The second part introduces a set of criteria, and refers to a  concept in a `[RTS]` module added recently.
+
+[!CODE]
+<div style="font-size:90%">
+Criteria in [HKO] can have multi-dimensional metrics and varying perceptions:
+* concrete vs significance; marketing vs propaganda
+Claims in [HKO] can vary in acceptance and in entry-barrier skills to learn:
+* falsifiable vs dogmatic; popular vs specialistic
+</div>
+[/CODE]
+
+The third part, gives a grasp about how various aspects that can be subjectively relevants, if not factual.
+
+[!CODE]
+<div style="font-size:90%">
+In ratings, { claims } vs { [SOK] } is as valid as { claims } vs { criteria }, for example:
+- { algebraic operators } vs { commutative } → { +, × }:100% while { −, ÷ }:0%;
+- in this case [LBL] is about criteria's [SOK] IFNY, otherwise skip [LBL] step.
+</div>
+[/CODE]
+
+This code, does not belong to `[HKO]` but to `[RTS]` module, explains the claims-vs-criteria match concept.
+
+Notice that `criteria` is a recurrent word which was introduced for the first time in `[HKO]` module ([part 2](#todo)).<br>
+Therefore, the {&nbsp;criteria&nbsp;} started to permeate the `[HKO]` and `[RTS]` modules in a systematic way.
 
 +
 
