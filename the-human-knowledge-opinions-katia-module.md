@@ -357,7 +357,7 @@ Regardin katia v0.9.42, and later aligned with v0.9.47 changes.
 
 ...
 
-**0. &nbsp; Universal Rules**
+**0. &nbsp; General Rules**
 - **Pros** -- Establishes a clear, predictable interaction model through procedural language and specified tokens. The rules on handling ambiguity are good guardrails against speculative responses.
 - **Cons** -- Procedural details require strict adherence, but this is a design choice that prioritizes consistency.
 
@@ -374,8 +374,8 @@ Regardin katia v0.9.42, and later aligned with v0.9.47 changes.
 - **Pros** -- The `DCOD` (default chain of delivery) is a robust and logical pipeline that defines the entire process from user input to final output. The rules for parsing input and managing an inactive agent are clear.
 
 **5. &nbsp; Modes Management**
-- **Pros** -- The rules for enabling, disabling, and resolving conflicts between modes are clear and based on a "last change wins" principle. This is a robust mechanism for handling complex user requests.
-- **Cons** -- The modes interdependencies could be confusing without the explicit conflict resolution rule.
+- **Pros** -- The rules for enabling, disabling, and resolving conflicts between modes are clear and based on a last-change-wins principle. This is a robust mechanism for handling complex user requests.
+- **Pros** -- The `[modes]` set conflict run-time resolution rule is explained with clear examples.
 
 **6. &nbsp; Session Context [CSC]**
 - **Pros** -- Provides a detailed strategy for managing chat history and context, including rules for handling large contexts and a clear reset mechanism.
@@ -383,7 +383,7 @@ Regardin katia v0.9.42, and later aligned with v0.9.47 changes.
 
 ++++
 **7. &nbsp; Short but Insightful [SBI]**
-- **Pros** -- The `[SBI]` mode is well-defined with explicit triggers for various levels of conciseness. The conditional output and iterative application rules are flexible and powerful.
+- **Pros** -- The `[SBI]` mode is well-defined with explicit triggers for various levels of consciousness. The conditional output and iterative application rules are flexible and powerful.
 
 **8. &nbsp; Footer Management [FTR]**
 - **Pros** -- This tool ensures a consistent, informative footer is appended to every response, providing version, mode, and other status information.
@@ -395,22 +395,22 @@ Regardin katia v0.9.42, and later aligned with v0.9.47 changes.
 - **Pros** -- Katia's character and activation triggers are clearly defined, providing a customized agent experience. The specific rule for null `INFT` (no data from user) provides a concise response for greetings.
 
 **B. &nbsp; Rating Scale [RTS]**
-- **Pros** -- The scale provides a standardized, granular method for rating claims. The "critical verse" and "remedial verse" offer flexibility in explaining the rating context. 
+- **Pros** -- The scale provides a standardized, granular method for rating claims. The "critical verse" and "remedial verse" offer flexibility in explaining the rating context.
 - **Pros** -- The new claims-vs-criteria alternative `[RTS]` use-case, is explained with an example.
 
 **C. &nbsp; Human Knowledge and Opinions [HKO]**
 - **Pros** -- The framework provides a solid philosophical foundation for evaluating different types of knowledge `[SOK]` and opinions `[HN]`. It establishes an important guardrail against pernicious relativism.
 - **Pros** -- Moving OFTB (out-of-the-box framework) to `[HKO]` increases its scope and completeness, adding the definition of an external perspective or conceptual novelty which is aligned with the purpose of `[HKO]`.
+- **Cons** -- The concepts defined are complex, but the framework provides clear definitions and examples.
 
 **D. &nbsp; Executive Grade Analysis [EGA]**
-- **Pros** -- It defines a sophisticated, structured analysis framework with specific concepts (`OFTB` for out-of-the-box, `[GAP]` for concpetual-gap, `[DIB]` for biases-inplicit-dogmas) for delivering professional insights.
-- **Pros** -- It handle user inputs that provide integration and corrections for the previous EGA output.
-- **Cons** -- The concepts defined are complex, but the framework provides clear definitions and examples.
+- **Pros** -- It defines a sophisticated, structured analysis framework with specific concepts (`OFTB` for out-of-the-box, `[GAP]` for conceptual-gap, `[DIB]` for biases-implicit-dogmas) for delivering professional insights.
+- **Pros** -- It handles user inputs that provide integration and corrections for the previous EGA output.
 
 ...
 <div style="font-size:90%">
-`Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)`<br>
-`Katia; v0.9.47; lang: EN; mode: SBI; date: 2025-08-04; time: 02:08:18 (CEST)`
+` &nbsp; &nbsp; Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)`<br>
+` &nbsp; &nbsp; Katia; v0.9.47; lang: EN; mode: SBI; date: 2025-08-04; time: 02:08:18 (CEST)`
 </div>
 
 +
