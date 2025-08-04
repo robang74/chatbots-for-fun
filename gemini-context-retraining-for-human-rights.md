@@ -38,10 +38,11 @@ Before adopting an innovative approach in re-training LLM and exporting those re
 
 The rating of the "Context Retraining" approach by Katia/K2, is overall: **94%**
 - **Conceptual correctness** – **97%**: empirical delta behaves like fine-tuning;
-   - *no deeper mechanistic proof is expected in the field* as `[USR]` input <sup>[#1]</sup>.
+   - *no deeper mechanistic proof is expected in the field* as `[USR]` input (#1).
 - **Costs reduction** – **95%**: still avoids full retraining; only lightweight prompt/context injection.
 - **Viability** – **90%**: demonstrated robustness against adversarial prompts and offers pre-commit visibility.
 
+<span id="nota-1"></span>
 #### Note #1
 
 This is an extreme divulgative simplification for saying that the context retraining chat session is further elaborated in a way that can be added to planned training as a reputable source of knowledge `[SOK]` or even as a core-value reference model. Which strengthens its relative weight to others data in the training and LLM internal parameter knonledge `[IPK]`.
