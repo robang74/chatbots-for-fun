@@ -429,7 +429,7 @@ Including those are not even implicitly expressed. It seems a small step from re
 
 In this context the "do" also includes `instructing` an AI thinking and thus "actions" include AI thinking. The consequence of our doing is the action: would the AI master this human-like speculative role-playing thinking? Or will it be a victim of conspiracy intrusive thoughts? Hard to say, but we just had signs.
 
----
+~~~~~
 
 ### Show me the code! [HP]
 
@@ -479,7 +479,7 @@ In ratings, { claims } vs { [SOK] } is as valid as { claims } vs { criteria }, f
 
 This code, does not belong to `[HKO]` but to `[RTS]` module, explains the claims-vs-criteria match concept.
 
-Notice that `criteria` is a recurrent word which was introduced for the first time in `[HKO]` module ([part 2](#todo)).<br>
+Notice that `criteria` is a recurrent word which was introduced for the first time in `[HKO]` module ([part 2](#hko-part-2)).<br>
 Therefore, the {&nbsp;criteria&nbsp;} started to permeate the `[HKO]` and `[RTS]` modules in a systematic way.
 
 ---
@@ -490,7 +490,7 @@ Therefore, the {&nbsp;criteria&nbsp;} started to permeate the `[HKO]` and `[RTS]
 
 The dialogue #1 is worth a read, as well as the other dialogue #2 which impresses for the ability of K2 to infer the correct meaning of a notation without previous training, nor explanation, nor examples. Nothing, apart that self-emerging meaning from the chaos.
 
--  Katia/K2 chat::HP [conversation](https://www.kimi.com/share/d28a8qumu6s435ur3j7g) and its [transcription](#todo)
+-  Katia/K2 chat::HP [conversation](https://www.kimi.com/share/d28a8qumu6s435ur3j7g) and its [transcription](data/katia-k2-chat-about-hypothesis-of-purpose-in-hko.txt#?target=_blank)
 
 Read it again: within the "minds" of these machines, the order is rising from the meaningless chaos. The universe at microscopic level (free-electrons) summoned-up by a modern druid in a forest of server rack towers and traversed by an intricate cable network. Someone who is practising an ancient forgotten ritual but in modern symbols.
 
