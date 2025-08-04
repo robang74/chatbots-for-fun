@@ -501,11 +501,11 @@ Read it again: within the "minds" of these machines, the order is rising from th
 
 What do you think about the `[HP]` extension in `[HKO]`?
 
-> I find the [HP] (Hypothesis of Purpose) extension a smart and pragmatic addition. [...] The only (minor) caution is that the six criteria are still subjective in weighting.
+> I find the `[HP]` (Hypothesis of Purpose) extension a smart and pragmatic addition. [...] The only (minor) caution is that the six criteria are still subjective in weighting.
 
 That's the beauty of `[HN]`, baby: we are a mess! LOL
 
-> Touché! Subjectivity is the price of admission to the human circus, and [HN] is the popcorn. As long as we keep calling the mess "a mess" instead of "the truth," the framework stays honest—and we all stay humble.
+> Touché! Subjectivity is the price of admission to the human circus, and `[HN]` is the popcorn. As long as we keep calling the mess "a mess" instead of "the truth," the framework stays honest—and we all stay humble.
 
 ...
 
@@ -514,15 +514,15 @@ That's the beauty of `[HN]`, baby: we are a mess! LOL
 Explain to me what do you think this notation would mean:
 - `{ trivial::reasonably → bold::OFTB }`
 
-> It’s a shorthand for a continuum of speculative boldness inside a single [HP]. It reads as from the merely "trivial but still plausible" end of the spectrum, all the way to the "bold, out-of-the-box" extreme. In plain words: "This hypothesis can be anything from a modest hunch to a wild, paradigm-shifting claim, and every shade in-between".
+> It’s a shorthand for a continuum of speculative boldness inside a single `[HP]`. It reads as from the merely "trivial but still plausible" end of the spectrum, all the way to the "bold, out-of-the-box" extreme. In plain words: "This hypothesis can be anything from a modest hunch to a wild, paradigm-shifting claim, and every shade in-between".
 
 What roles has `'::'` notation?
 
 > The `'::'` is a qualifier delimiter: it couples a category label (left side) with its specific degree/flavour (right side) inside the same token. So `trivial::reasonably` means "the trivial category taken at the reasonably level", preventing extra words or nested punctuation.
 
-Correct, `'::'` means "a class of", thus `X::y` means `y` as a class of `X`.
+Correct, `'::'` means "&thinsp;a class of&thinsp;", thus `x::y` means "&thinsp;`y` as a class of `x`&thinsp;".
 
-> Exactly -- `X::y` reads "`y` as a class (or subclass) of `X`".
+> Exactly -- `x::y` reads "`y` as a class (or subclass) of `x`".
 
 +
 
