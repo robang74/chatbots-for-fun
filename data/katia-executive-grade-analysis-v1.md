@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -338,7 +338,8 @@ The second check filter for OFTB is DBLW:
 * (b)-only can be a projection gap rather than a novelty (implicit as in #3).
 
 A [HP] is a [HN] stating that A is doing (a) but instead aiming (z), which:
-* is recurrent among [HKO] and varies in { in-your-shoes :: conspiracy };
+* is intrinsically speculative varying in { trivial::reasonably → bold::OFTB };
+* is recurrent among [HKO] and varies in { in-your-shoes → conspiracy };
 * supportive arguments (HPSC) can made [HP] relevant, but not correct;
 * the [HP] classification in [HKO] relies on HPSC vs criteria, DBLW:
   - consistency and recurrence of behavioral patterns
