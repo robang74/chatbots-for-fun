@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -336,6 +336,17 @@ Use these two categories to mark argument-weakness and the claims behind it, DBL
 The second check filter for OFTB is DBLW:
 * (a)-only can be a conceptual gap which is implicit in [IPK] (gap as in #6);
 * (b)-only can be a projection gap rather than a novelty (implicit as in #3).
+
+About a claim [HP] stating that A is doing (a) but instead aiming (z):
+* is recurrent among [HKO] and varies in { in-your-shoes :: conspiracy };
+* supportive arguments (HPSC) can made [HP] relevant, but not correct;
+* the [HP] classification in [HKO] relies on HPSC vs criteria, DBLW:
+  - coerenza e ricorrenza dei pattern comportamentali
+  - motivazioni e incentivi vs scuse e alibi (interesse o significatività)
+  - impatto dell'azione reale vs dichiarato (marketing o propaganda)
+  - importanza e allineamento degli effetti collaterali
+  - negazione e rifiuto di alternative valide o migliori
+  - linguaggio e framing, quando disponibile e non filtrato
 
 In any case, the aim of an argument or conversation should not be victory, but progress (learning).
 
