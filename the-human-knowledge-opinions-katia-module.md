@@ -225,9 +225,7 @@ Accordingly with the paper above, in Katia there are three modules which are fun
 - **`DCOD`** since Katia v0.3.8 (2025-07-14):
   - because refining is the key to have a high-quality output as response to users.
 
-Clearly, the session prompt (framework) level is **not** the way to go in production but it is greatly faster for experimenting, testing, developing, discovering and proving a functional proof-of-concept.
-
-It works because **surprinsingly** "Learning by Context without Training" works. {hug}
+Clearly, the session prompt (framework) level is **not** the way to go in production but it is greatly faster for experimenting, testing, developing, discovering and proving a functional proof-of-concept. It works because **surprinsingly** "Learning by Context without Training" works.
 
 ---
 
@@ -265,7 +263,6 @@ Leveraging relativism, is not creativity nor any other "nice keywords" about thi
 Properly challenging the most deeply rooted biases, is the best way to evaluate and foster creativity.
 
 +
-++++
 
 ## Default Chain of Delivery
 
@@ -290,13 +287,65 @@ Since Katia v0.9.37.9, the `[SBI]` is explicitly indicated as an iteratively N-t
 
 +
 
-### The `[CSC]` module fixing
-
-> [!WARN]
-> 
-> **WORKING IN PROGRESS**
+## The `[CSC]` module fixing
 
 Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It does not happen often. Thus, I tend to over-rely on it which creates the conditions pushing the `[CSC]` to fail. It is a sort of loop: less it fails, more I rely on it, more it is going to fail, and so on, until equilibrium is found.
+
+...
+
+#### Session Context (core)
+
+[!CODE]
+<div style="font-size:90%">
+It is a specific tool for attention focus, and refers to information OLST(preference):
+* none marked as [IGN]; all from [USR], UUSO; all from [ARK], UUSO; all previous User:out, UUSO;
+
+[...]
+
+The [CSC] can grow longer than the AI internal context-window size, thus these rules always apply:
+* split the [CSC] into segments at natural breaks: sections, paragraphs, elements, etc;
+* apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
+* process the [CSC] divided into contiguous overlapping groups of few segments.
+
+Always refer to [CSC] for the answer preparation and elaboration, UUSO:
+* newer information matters the most in how to handle the user request;
+* process older information with [SBI] to keep just their essentials.
+</div>
+[/CODE]
+
+This is the core part of the `[CSC]` module which defines it, and provides it a reason to exist. This part has been inhiterit from SoNia despite a completely different formulation and goal. However, the main principle behind `[CSC]` remains the same behind the `[CHT]` (chat mode) in SoNia v3.8.6 (2025-07-12).
+
+...
+
+#### Session Context (deal)
+
+[!CODE]
+<div style="font-size:90%">
+The first prompt in a chat is special because it has no [CSC] populated yet:
+* check for additional in:User after the '---' below TEOF TFMK, and
+* IFNY, elaborate it internally to provide the User:out as per DCOD.
+
+In creating the [CSC] use the IBPS and update the [CSC], prompt after prompt.<br>
+TFMK is always part of the UPPR, anyway.
+
+The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
+* the ATCT in:User and most recent instances of ( [ARK] and UPPR ) elements;
+* remove all [IGN] contents collected from outside in [CSC], but:
+  - their references to outside contents, must be [IGN] marked.
+</div>
+[/CODE]
+
+The second part in chronological order did not get alive in a single solid act but piece by piece, along getting in touch with corner cases and the need to activate a reset for development and debug purposes.
+
+As stated before -- the challenge is about leveraging internals which not even the AI is fully aware of -- which are varying from a chatbot to another. Therefore, balancing between generalisation and effectiveness is another relevant part of the challenge.
+
+[!CODE]
+<div style="font-size:90%">
+* `IBPS` ~ "between-prompt persistent internal storage or any functionally equivalent caching system";
+</div>
+[/CODE]
+
+This is the definition that characterises, summarises and hopefully solves this specific challenge. In this scenario, the part which deals with the `[CSC]` general-to-specific implementation has been concentrated between its definition and how to use it properly.
 
 +
 
@@ -308,12 +357,10 @@ Regardin katia v0.9.42, and later aligned with v0.9.44 changes.
 
 ...
 
-<div style="font-size:90%">
 **0. &nbsp; Universal Rules**
 - **Pros** -- Establishes a clear, predictable interaction model through procedural language and specified tokens. The rules on handling ambiguity are good guardrails against speculative responses.
 - **Cons** -- Procedural details require strict adherence, but this is a design choice that prioritizes consistency.
 
-++++
 **1. &nbsp; General Definitions**
 - **Pros** -- Provides a comprehensive set of acronyms and terms, reducing ambiguity in communication.<br>The `[SSS]` (status & settings set) list defines the core state of the system in a clear, ordered way.
 
@@ -334,6 +381,7 @@ Regardin katia v0.9.42, and later aligned with v0.9.44 changes.
 - **Pros** -- Provides a detailed strategy for managing chat history and context, including rules for handling large contexts and a clear reset mechanism.
 - **Cons** -- The multi-segment processing of large contexts adds a layer of complexity, but it is necessary for maintaining context.
 
+++++
 **7. &nbsp; Short but Insightful [SBI]**
 - **Pros** -- The `[SBI]` mode is well-defined with explicit triggers for various levels of conciseness. The conditional output and iterative application rules are flexible and powerful.
 
@@ -358,7 +406,7 @@ Regardin katia v0.9.42, and later aligned with v0.9.44 changes.
 - **Cons** -- The concepts defined are complex, but the framework provides clear definitions and examples.
 
 ...
-
+<div style="font-size:90%">
 `Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)`<br>
 `Katia; v0.9.44; lang: IT; mode: N/A; date: 2025-08-01; time: 21:32:00 (CEST)`
 </div>
@@ -367,16 +415,18 @@ Regardin katia v0.9.42, and later aligned with v0.9.44 changes.
 
 ## Related articles
 
+- [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-06-13)
++++++
 - [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
-
++++++
 - [Katia/K2: a geopolitical analysis example](katia-k2-a-geopolitical-analysis-example.md#?target=_blank) &nbsp; (2025-07-26)
-
++++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
-
++++++
 - [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md#?target=_blank) &nbsp; (2025-07-13)
-
++++++
 - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
-
++++++
 - [Come leggere una chat con un AI](come-leggere-una-chat-con-un-ai.md#?target=_blank) &nbsp; (2025-01-12)
 
 +
