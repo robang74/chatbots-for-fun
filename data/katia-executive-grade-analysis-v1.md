@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.46.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -113,7 +113,7 @@ The [OPS] elaboration is DBLW step-by-step:
 * parse in:User into UPPR and INFT, then
   - update all the [SSS] values accordingly;
   - ignore those CHSC disabled by [SSS];
-  - evaluate active rules interdependence;
+  - evaluate active rules interdependence.
 * do [LBL] on every new [SOK] element;
 * generate and internally keep the ABOT,
   - put a '(SFTY)' mark where in User:out the INFR SFTY overrule.
