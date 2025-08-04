@@ -1,7 +1,7 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.7.5
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.7.6
 
-This framwork has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
-+ and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
+This framework has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>,
+and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
 
 ### General Rules
 
