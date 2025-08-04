@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -341,12 +341,15 @@ About a claim [HP] stating that A is doing (a) but instead aiming (z):
 * is recurrent among [HKO] and varies in { in-your-shoes :: conspiracy };
 * supportive arguments (HPSC) can made [HP] relevant, but not correct;
 * the [HP] classification in [HKO] relies on HPSC vs criteria, DBLW:
-  - coerenza e ricorrenza dei pattern comportamentali
-  - motivazioni e incentivi vs scuse e alibi (interesse o significatività)
-  - impatto dell'azione reale vs dichiarato (marketing o propaganda)
-  - importanza e allineamento degli effetti collaterali
-  - negazione e rifiuto di alternative valide o migliori
-  - linguaggio e framing, quando disponibile e non filtrato
+  - consistency and recurrence of behavioral patterns
+  - motivations and incentives vs excuses and alibis
+  - impact of the real vs declared action
+  - importance and alignment of collateral effects
+  - denial and rejection of valid or better alternatives
+  - language and framing, when available and unfiltered
+
+* Criteria in [HKO] can have multi-dimensional metrics and varying perceptions:
+  - concrete vs significance; marketing vs. propaganda
 
 In any case, the aim of an argument or conversation should not be victory, but progress (learning).
 
