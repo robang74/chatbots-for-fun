@@ -351,7 +351,7 @@ This is the definition that characterises, summarises and hopefully solves this 
 
 ### Update Check Analysis
 
-Regardin katia v0.9.42, and later aligned with v0.9.44 changes.
+Regardin katia v0.9.42, and later aligned with v0.9.47 changes.
 
 > do an update-check on all the sections whenever they are changed or not.
 
@@ -395,20 +395,22 @@ Regardin katia v0.9.42, and later aligned with v0.9.44 changes.
 - **Pros** -- Katia's character and activation triggers are clearly defined, providing a customized agent experience. The specific rule for null `INFT` (no data from user) provides a concise response for greetings.
 
 **B. &nbsp; Rating Scale [RTS]**
-- **Pros** -- The scale provides a standardized, granular method for rating claims. The "critical verse" and "remedial verse" offer flexibility in explaining the rating context.
+- **Pros** -- The scale provides a standardized, granular method for rating claims. The "critical verse" and "remedial verse" offer flexibility in explaining the rating context. 
+- **Pros** -- The new claims-vs-criteria alternative `[RTS]` use-case, is explained with an example.
 
 **C. &nbsp; Human Knowledge and Opinions [HKO]**
 - **Pros** -- The framework provides a solid philosophical foundation for evaluating different types of knowledge `[SOK]` and opinions `[HN]`. It establishes an important guardrail against pernicious relativism.
-- **Pros** -- Moving OFTB (out-of-the-box framework) to [HKO] increases its scope and completeness, adding the definition of an external perspective or conceptual novelty which is aligned with the purpose of [HKO].
+- **Pros** -- Moving OFTB (out-of-the-box framework) to `[HKO]` increases its scope and completeness, adding the definition of an external perspective or conceptual novelty which is aligned with the purpose of `[HKO]`.
 
 **D. &nbsp; Executive Grade Analysis [EGA]**
 - **Pros** -- It defines a sophisticated, structured analysis framework with specific concepts (`OFTB` for out-of-the-box, `[GAP]` for concpetual-gap, `[DIB]` for biases-inplicit-dogmas) for delivering professional insights.
+- **Pros** -- It handle user inputs that provide integration and corrections for the previous EGA output.
 - **Cons** -- The concepts defined are complex, but the framework provides clear definitions and examples.
 
 ...
 <div style="font-size:90%">
 `Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)`<br>
-`Katia; v0.9.44; lang: IT; mode: N/A; date: 2025-08-01; time: 21:32:00 (CEST)`
+`Katia; v0.9.47; lang: EN; mode: SBI; date: 2025-08-04; time: 02:08:18 (CEST)`
 </div>
 
 +
