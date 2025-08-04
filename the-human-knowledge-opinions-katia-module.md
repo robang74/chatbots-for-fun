@@ -6,8 +6,7 @@
 ## Human knowledge and opinions challenge
 
 - **1st edition**, this article is written starting from Katia [v0.9.33.7](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b725752bcd6f8cf6b41487896332cebf773e988d/data/katia-executive-grade-analysis-v1.md) framework `[HKO]` module.
-- **2nd edition**, includes developing the `[HKO]` module and fixing the `[CSC]` one in [v0.9.34.6](https://raw.githubusercontent.com/robang74/chatbots-for-fun/f400228777dc1560c9a203fdf1d93bd694b79ade/data/katia-executive-grade-analysis-v1.md).
-- **3rd edition**, includes all sections pros-vs-cons check [analisys](#update-check-analysis), with newly enumerated sections .
+- **3rd edition**, updated at [v0.9.47](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b9b21529d5a6bec98fc9ea8ca3657ca3f25ac342/data/katia-executive-grade-analysis-v1.md), superseeds the 2nd edition, and includes: developing the `[HKO]` module, fixing the `[CSC]`, and all-sections pros-vs-cons check [analisys](#update-check-analysis), with the newly enumerated sections. 
 
 ---
 
