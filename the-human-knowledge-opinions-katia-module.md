@@ -425,7 +425,8 @@ The ambitious goal behind this extension is to `instruct` the AI to recognise th
 
 Including those are not even implicitly expressed. It seems a small step from recognising latent/implicit meaning (assumptions, biases, beliefs) embedded in a text (or a speech) but instead can be a huge leap in understanding humans.
 
-- What is the hardest challenge, here? Ethics is nothing. We do, don't judge. Actions are self-explanatory.
+- Can an ultra-fast lexical thinking machine omni-knowledgeable evaluating a set of claims against a set of criteria each of them by different metrics, reach the intuition-driven deep-thinking like a human being?
+- We don't know and won't judge. Instead, we do because actions are self-explanatory and revealing.
 
 In this context the "do" also includes `instructing` an AI thinking and thus "actions" include AI thinking. The consequence of our doing is the action: would the AI master this human-like speculative role-playing thinking? Or will it be a victim of conspiracy intrusive thoughts? Hard to say, but we just had signs.
 
@@ -494,7 +495,7 @@ The dialogue #1 is worth a read, as well as the other dialogue #2 which impresse
 
 Read it again: within the "minds" of these machines, the order is rising from the meaningless chaos. The universe at microscopic level (free-electrons) summoned-up by a modern druid in a forest of server rack towers and traversed by an intricate cable network. Someone who is practising an ancient forgotten ritual but in modern symbols.
 
-...
+....
 
 #### Dialogue #1
 
