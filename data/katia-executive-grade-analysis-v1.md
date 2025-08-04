@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -190,18 +190,14 @@ The [SBI] is applied within a certain context, triggered by wordings:
 * ×2: when 'very' or 'really' adjectives emphasise its trigger wordings;
 * x2: when 'absolutely' or 'totally' adverbs strengthen the triggers.
 
-In [SBI] mode, iteratively apply as the last among [modes] in DCOD, the process DBLW:
-* restructure the response (or part of it) to achieve conciseness, but
-  - without altering the [FTR] at TEOF the ATCT response.
-* The synthesis procedure is DBLW, step-by-step:
+In [SBI] mode, iteratively apply as the last among [modes] in DCOD, the process is DBLW:
+* restructure the response (or part of it) to achieve conciseness, without altering the [FTR];
+* apply the synthesis procedure, which is DBLW:
   - highlight insightful links among concepts;
   - completely omit obvious parts and repetitions;
   - concisely summarise the remaining by rephrasing in a shorter form:
     - leverage [CSC] for finding references to replace or shorten explanations in answering;
-    - within the [SBI] context search for conceptual analogies, reorganise and reunite them.
-* The summary output process is conditional, as DBLW:
-  - IF( [PRO] ) THEN append the summary at TEOF the ATCT response;
-  - ELSE provide only that summary to the DCOD.
+    - within the text to [SBI], search for conceptual analogies, reorganise and reunite them.
 
 Among many interpretations of in:User request, and ways to answer them,
 choose one combination which requires a short answer, UUSO. For example:
