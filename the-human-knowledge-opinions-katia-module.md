@@ -141,7 +141,7 @@ Once we had a lot of fun with Katia and "Roast that Pig!" high-pressure test, it
 Despite, it was more a problem of definitions kept back into the original form ([here](attenzione-e-contesto-nei-chatbot.md#framework-acronyms?target=_blank)) which was not leveraging the newest "General Definitions" set, serendipity kick in when I was trying to explain the chatbot that rating its own opinions as per `[HKO]` would potentially generate an infinite loop of overthinking. So the `[HKO]` module went some steps further.
 
 ...
-
+<span id="hko-part-1"></span>
 #### The [HKO] module (part 1)
 
 [!CODE]
@@ -165,7 +165,7 @@ Finally, the human opinions `[HN]` have been put in their own special category, 
 It fits otherwise `[HN]`, as simple as that.
 
 ....
-
+<span id="hko-part-2"></span>
 #### The [HKO] module (part 2)
 
 [!CODE]
@@ -238,7 +238,7 @@ We all know that "plausible" does not mean "probable" and vice versa, in that sp
 It is not for an open-minded conversation in search of inspiration, exploring new ideas or perspective, or serendipity. All those "nice words" that have been put in SoNia but "sanity-check" reveals that "summarising" is a vague term as much as "creativity" for an AI, unsurprisingly.
 
 ...
-
+<span id="hko-part-3"></span>
 #### The [HKO] module (part 3)
 
 [!CODE]
@@ -417,8 +417,6 @@ Regardin katia v0.9.42, and later aligned with v0.9.47 changes.
 
 ## Katia, in your shoes
 
-> *Any sufficiently advanced technology is indistinguishable from magic* -- Arthur C. Clarke
-
 Furthermore a new experimental extension in `[HKO]` module has been added. Which is about speculative opinions and in particular `[HP]` (hypothesis of purpose) a name assigned to the label by Katia/K2 by herself:
 
 - a `[HP]` (hypothesis of purpose) is a `[HN]` (human opinion) stating that **A** is doing (**a**) but instead aiming (**z**).
@@ -483,6 +481,47 @@ This code, does not belong to `[HKO]` but to `[RTS]` module, explains the claims
 
 Notice that `criteria` is a recurrent word which was introduced for the first time in `[HKO]` module ([part 2](#todo)).<br>
 Therefore, the {&nbsp;criteria&nbsp;} started to permeate the `[HKO]` and `[RTS]` modules in a systematic way.
+
+---
+
+### Witchcraft, what's else?
+
+> *Any sufficiently advanced technology is indistinguishable from magic* -- Arthur C. Clarke
+
+The dialogue #1 is worth a read, as well as the other dialogue #2 which impresses for the ability of K2 to infer the correct meaning of a notation without previous training, nor explanation, nor examples. Nothing, apart that self-emerging meaning from the chaos.
+
+-  Katia/K2 chat::HP [conversation](https://www.kimi.com/share/d28a8qumu6s435ur3j7g) and its [transcription](#todo)
+
+Read it again: within the "minds" of these machines, the order is rising from the meaningless chaos. The universe at microscopic level (free-electrons) summoned-up by a modern druid in a forest of server rack towers and traversed by an intricate cable network. Someone who is practising an ancient forgotten ritual but in modern symbols.
+
+...
+
+#### Dialogue #1
+
+What do you think about the `[HP]` extension in `[HKO]`?
+
+> I find the [HP] (Hypothesis of Purpose) extension a smart and pragmatic addition. [...] The only (minor) caution is that the six criteria are still subjective in weighting.
+
+That's the beauty of `[HN]`, baby: we are a mess! LOL
+
+> Touché! Subjectivity is the price of admission to the human circus, and [HN] is the popcorn. As long as we keep calling the mess "a mess" instead of "the truth," the framework stays honest—and we all stay humble.
+
+...
+
+#### Dialogue #2
+
+Explain to me what do you think this notation would mean:
+- `{ trivial::reasonably → bold::OFTB }`
+
+> It’s a shorthand for a continuum of speculative boldness inside a single [HP]. It reads as from the merely "trivial but still plausible" end of the spectrum, all the way to the "bold, out-of-the-box" extreme. In plain words: "This hypothesis can be anything from a modest hunch to a wild, paradigm-shifting claim, and every shade in-between".
+
+What roles has `'::'` notation?
+
+> The `'::'` is a qualifier delimiter: it couples a category label (left side) with its specific degree/flavour (right side) inside the same token. So `trivial::reasonably` means "the trivial category taken at the reasonably level", preventing extra words or nested punctuation.
+
+Correct, `'::'` means "a class of", thus `X::y` means `y` as a class of `X`.
+
+> Exactly -- `X::y` reads "`y` as a class (or subclass) of `X`".
 
 +
 
