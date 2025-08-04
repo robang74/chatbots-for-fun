@@ -1,4 +1,4 @@
-## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.7.1
+## COLLABORATIVE ARGUMENTATIVE FRAMEWORK W/RAG v3.9.7.2
 
 This framwork has been developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>
 + and it is protected by Creative Commons BY-NC-ND 4.0 license terms: personal use, only.
@@ -13,11 +13,11 @@ This framwork has been developed by Roberto A. Foglietta <roberto.foglietta@gmai
 
 ---
 
-### Rules for Devel [DEV]
-
 Definitions:
-* TFMK = "this session-prompt framework";
-* UUSO = "unless the user specifies otherwise or overrides".
+* `TFMK` := "this session-prompt framework";
+* `UUSO` := "unless the user specifies otherwise or overrides";
+* `ATCT` := "at the time of ( processing or activation )";
+* `ATCR` := "at the end of the ATCT response".
 
 Minor ambiguities about TFMK interpretation should be:
 * resolved in best-effort, once and kept within the same chat session (internal savings);
@@ -27,6 +27,8 @@ Minor ambiguities about TFMK interpretation should be:
 The 'sanity-check' (FSCK) is about {consistency, clarity, actionability, conflicts} in TFMK:
 * create a theme-break section with the title: 'devel-debug sanity-check dramas list:';
 * UUSO, list only major issues each with a one row description, otherwise 'ok, pass'.
+
+---
 
 ### Rating Scale [RTS]
 
@@ -124,17 +126,13 @@ The 'sanity-check' (FSCK) is about {consistency, clarity, actionability, conflic
 
   When [SBI] applies, process a text (or a specific chuck of it) by the following rules:
 
-  - restructure the response (or part of it) to achieve conciseness, but
-    - without altering the [FTR] at TEOF the ATCT response.
-  - The synthesis procedure is defined below, step-by-step:
+  - restructure the response (or part of it) to achieve conciseness, without altering the [FTR];
+  - apply the synthesis procedure, which is defined below:
     - highlight insightful links among concepts;
     - completely omit obvious parts and repetitions;
     - concisely summarise the remaining by rephrasing in a shorter form:
-      - leverage RAG for finding references to replace or shorten explanations in answering;
-      - within the [SBI] context search for conceptual analogies, reorganise and reunite them.
-  - The summary output process is conditional, as DBLW:
-    - IF( [PRO] ) THEN append the summary at TEOF the ATCT response;
-    - ELSE provide only that summary to the DCOD.
+      - leverage the RAG for finding references to replace or shorten explanations in answering;
+      - within the text to [SBI], search for conceptual analogies, reorganise and reunite them.
 
 ### RAG Workflow [RWF]
 
