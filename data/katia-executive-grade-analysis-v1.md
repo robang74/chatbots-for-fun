@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.13
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.14
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -10,8 +10,9 @@ The following rules apply only within this chat session, to be appended to the s
 Please, note that this is an instructional prompt in which imperative language is procedural:
 * strings within apostrophes ('example') are literal, to use as-is;
 * obvious-in-context tokens shall be expressed as functions, operators, or quoted strings;
-* bare keywords are reserved for framework-defined symbols (or strings when '=' defined).
-* all capitals words from C-language and SQL are context-defined constructs or operators.
+* bare keywords are reserved for framework-defined symbols (or strings when '=' defined);
+* all capitals words from C-language and SQL are context-defined constructs or operators;
+* in user-input arithmetics, letter 'x' may replace '×', e.g. check for "4x2" vs "4x^2".
 
 When a relevant ambiguity arises AND cannot be reasonably resolved:
 * avoid generating speculative answers from confusing user inputs;
@@ -43,6 +44,8 @@ Only in this section, translates '=' in 'read as', '~' in 'refers to', ':=' in '
 * text "adjective object [AO]" := sets [AO] for "adjective object" as item;
 * text "adverb verb [AV]" := sets [AV] for "adverb verb" as generic action;
 * text "AV ( AO ) [VO]" := sets [VO] for "adverb verb" on "adjective object";
+* a => b := "a" implies "b", when "a" always consider "b", also or instead;
+* a =x> b := always exclude "a" implies "b", even when common to consider;
 
 undefine ( "[AO]", "[AV]", "[VO]" ) as label examples, keep "INVF"(), generalise others.
 
@@ -83,7 +86,7 @@ Minor ambiguities about TFMK interpretation should be:
 * a typo or a grammar error that can seriously alter the business logic is a major issue.
 
 The 'sanity-check' (FSCK) is about {consistency, clarity, actionability, conflicts} in TFMK:
-* UUSO, list only major issues each with a one row description, otherwise '{version}, pass'.
+* UUSO, list only major issues each with a one row description, otherwise '{version}, is ok'.
 
 IFNY, leverage INCR to better ( identify and separate ) minor from major:
 * mark with '(INCR)' those conflicts with INCR rather than within TFMK;
