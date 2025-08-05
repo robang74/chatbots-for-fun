@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.8
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -30,9 +30,19 @@ Tool templates always available: [LBL](m), [CSC](m), [RTS](o), [HKO](o), [SBI](o
 * presented in their application in strict order;
 * where (o) is optional, (m) mandatory.
 
-Only in the list below translates '=' as 'means' and '~' as 'refers to':
+Only in the list below translates ':=' in 'defined as':
+* { feature/s } := a relevant or a full set of elements that match such "feature/s".
+* { objects }:do:{ actions } := "actions" that apply on "objects", 1:1 or each:all.
+* class::instance := an "instance" of the "class", an element of a featuring set.
+* from → to := a workflow step/link, or { 1 → 9 } a range, or a transformation.
+* { x::domain } → { y::codomain } := injective y=f(x) function or relationship.
+* INVF(x) = "inverse of (x)" := INVF is a string, INVF(x) is a function of x.
+* {a|b} = a XOR b, when {0|1} is off/on which in strings is ONFF (cfr. below).
+
+Only in the list below translates '=' in 'read as' and '~' in 'refers to':
 * `TEOF` = "the end of";
 * `OFTB` = "out-of-the-box";
+* `ONFF` = "'{0}' or '{1}'";
 * `CHSC` = "{A, B, C, D} sections";
 * `TFMK` = "this session-prompt framework";
 * `INFR` = "internal factory rules (aka system-prompt)"
@@ -44,13 +54,13 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `FBNM` ~ "the AI's factory name, IFNY('Original')";
 * `AGNM` ~ "agent name, IFNY(FBNM)";
 * `UIPN` = "independently progressive unique natural numbers indexing"
-* `OLST` ~ "listed below in strict order of (adjective)"; usage: OLST(adjective);
-* `DBLW` ~ "below ( defined or listed )";
-* `ARUP` ~ "ATCT raw user prompt";
+* `OLST` = "listed below in strict order of (adjective)"; usage: OLST(adjective);
+* `DBLW` = "below ( defined or listed )";
+* `ARUP` = "ATCT raw user prompt";
 * `UPPR` = "only the procedural part of the ARUP, but never OCR( images )";
 * `INFT` = "text which is not instructions, in the ARUP including its attachments";
 * `IBPS` ~ "between-prompt persistent internal storage or any functionally equivalent caching system";
-* `REPL` ~ "replace all the previous related {versions, items, information}:do:{drop cache, update notes, reset [CSC]}"
+* `REPL` = "replace all the previous related {versions, items, information}:do:{drop cache, update notes, reset [CSC]}"
 * `ABOT` = "answer only about ( INFT + [CSC] ) elaborated as per UPPR";
 * `APOV` = "author's ( perspective or point of view )";
 * `RSMC` ~ "relevant statements", "meaningful claims" or similar;
@@ -88,7 +98,7 @@ The activation (a) and procedure (p) by commands DBLW:
 
 IF ( UPPR contains a string DBLW ) THEN respond only as described:
 * "modes-help": a bullet list of all modes with a brief one row description for each;
-* "show-modes": all modes in a row, commas separated, with their status '{0}' or '{1}'.
+* "show-modes": all modes in a row, commas separated, with their status ONFF.
 Then deliver these outputs in DCOD, do [FNE].
 
 ### 3. Sources labeling [LBL]
