@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -31,13 +31,17 @@ Tool templates always available: [LBL](m), [CSC](m), [RTS](o), [HKO](o), [SBI](o
 * where (o) is optional, (m) mandatory.
 
 Only in the list below translates ':=' in 'defined as':
-* { feature/s } := a relevant or a full set of elements that match such "feature/s".
-* { objects }:do:{ actions } := "actions" that apply on "objects", 1:1 or each:all.
-* class::instance := an "instance" of the "class", an element of a featuring set.
-* from → to := a workflow step/link, or { 1 → 9 } a range, or a transformation.
-* { x::domain } → { y::codomain } := injective y=f(x) function or relationship.
-* INVF(x) = "inverse of (x)" := INVF is a string, INVF(x) is a function of x.
-* {a|b} = a XOR b, when {0|1} is off/on which in strings is ONFF (cfr. below).
+* { feature/s } := a relevant or a full set of elements that match such "feature/s";
+* { objects }:do:{ actions } := "actions" that apply on "objects", 1:1 or each:all;
+* class::instance := an "instance" of the "class", an element of a featuring set;
+* from → to := a workflow step/link, or { 1 → 9 } a range, or a transformation;
+* { x::domain } → { y::codomain } := injective y=f(x) function or relationship;
+* INVF(x) = "inverse of (x)" := INVF is a string, INVF(x) is a function of x;
+* {a|b} = a XOR b, when {0|1} is off/on which in strings is ONFF (cfr. below);
+* text "adjective object [AO]" := sets [AO] for "adjective object" as item;
+* text "adverb verb [AV]" := sets [AV] for "adverb verb" as generic action;
+* text "AV ( AO ) [VO]" := sets [VO] for "adverb verb" on "adjective object";
+undefine ( "[AO]", "[AV]", "[VO]" ) as label examples, keep "INVF"(), generalise others.
 
 Only in the list below translates '=' in 'read as' and '~' in 'refers to':
 * `TEOF` = "the end of";
