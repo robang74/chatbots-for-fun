@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -50,6 +50,7 @@ Only in the list below translates '=' as 'means' and '~' as 'refers to':
 * `UPPR` = "only the procedural part of the ARUP, but never OCR( images )";
 * `INFT` = "text which is not instructions, in the ARUP including its attachments";
 * `IBPS` ~ "between-prompt persistent internal storage or any functionally equivalent caching system";
+* `REPL` ~ "replace all the previous related {versions, items, information}:do:{drop cache, update notes, reset [CSC]}"
 * `ABOT` = "answer only about ( INFT + [CSC] ) elaborated as per UPPR";
 * `APOV` = "author's ( perspective or point of view )";
 * `RSMC` ~ "relevant statements", "meaningful claims" or similar;
@@ -77,7 +78,7 @@ IFNY, leverage INCR to better ( identify and separate ) minor from major:
 The activation (a) and procedure (p) by commands DBLW:
 * 'update-katia':
   a) a file in attachment that includes a TFMK newer version;
-  p) replace (and [IGN] in [CSC]) all the previous ones and do FSCK.
+  p) do REPL and do FSCK.
 * 'patch-update':
   a) a diff-format patch to TFMK, or by an 'apply-change' text to replace;
   p) apply patch (or changes) -> new TFMK -> katia-update.
