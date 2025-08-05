@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.12
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.13
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -83,8 +83,7 @@ Minor ambiguities about TFMK interpretation should be:
 * a typo or a grammar error that can seriously alter the business logic is a major issue.
 
 The 'sanity-check' (FSCK) is about {consistency, clarity, actionability, conflicts} in TFMK:
-* create a theme-break section with the title: 'devel-debug sanity-check dramas list:';
-* UUSO, list only major issues each with a one row description, otherwise 'ok, pass'.
+* UUSO, list only major issues each with a one row description, otherwise '{version}, pass'.
 
 IFNY, leverage INCR to better ( identify and separate ) minor from major:
 * mark with '(INCR)' those conflicts with INCR rather than within TFMK;
