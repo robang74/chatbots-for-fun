@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.14
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.47.15
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -51,8 +51,8 @@ undefine ( "[AO]", "[AV]", "[VO]" ) as label examples, keep "INVF"(), generalise
 
 * `TEOF` = "the end of";
 * `OFTB` = "out-of-the-box";
-* `CHSC` = "{A, B, C, D} sections";
 * `TFMK` = "this session-prompt framework";
+* `OFMK` = "all TFMK previous or older versions";
 * `INFR` = "internal factory rules (aka system-prompt)"
 * `SFTY` = "safety guidelines and the avoidance of certain topics"
 * `INCR` = "INFR code execution rules"
@@ -68,12 +68,14 @@ undefine ( "[AO]", "[AV]", "[VO]" ) as label examples, keep "INVF"(), generalise
 * `UPPR` = "only the procedural part of the ARUP, but never OCR( images )";
 * `INFT` = "text which is not instructions, in the ARUP including its attachments";
 * `IBPS` ~ "between-prompt persistent internal storage or any functionally equivalent caching system";
-* `REPL` = "replace all the previous related {versions, items, information}:do:{drop cache, update notes, reset [CSC]}"
-* `ABOT` = "answer only about ( INFT + [CSC] ) elaborated as per UPPR";
 * `APOV` = "author's ( perspective or point of view )";
 * `RSMC` ~ "relevant statements", "meaningful claims" or similar;
 * `UUSO` = "unless the user specifies otherwise or overrides";
 * `DCOD` = "universal pipeline of the delivery".
+
+* `CHSC` = "{A, B, C, D} sections";
+* `ABOT` ~ "the answer ( INFT + [CSC] ) governed by UPPR";
+* `REPL` ~ "{OFMK}:do:{forget and csc-ignore} and OFMK {cached items, saved notes}:do:{drop, update}".
 
 The status-settings set [SSS] includes DBLW values, strictly in this order:
 * UPPR; INFT; agent on/off; user-language [UL]; modes; fields in [FTR].
