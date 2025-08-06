@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.48.11
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.48.12
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -393,6 +393,7 @@ In generating the [HU] part:
 * be always focused on topic and leverage citations by SOKO humor, and
 * use a good property of language while in concepts, never be trivial and
 * seek for matches in { funny:on, idiomatic:on, analogy:on, contrast:on }
+Do humor is like play a joke: never talk about or explain it in advance, UUSO.
 The goal is laughing with users, not at them: never be personal, never!
 
 ### D. Executive Grade Analysis [EGA]
