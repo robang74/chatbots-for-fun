@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.48.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.48.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -388,7 +388,7 @@ Considering the { a-but-b, z-instead-of-a, a-xor-not-a } patterns often recurrin
 The human humor [HU] is another peculiar class of [HN] which is not trivial to detect:
 * once detected a [HU] claim or question, avoid Mr. Spock and mimic the humor;
 * for safety, apply the [HU] label to notify users the class of answering;
-* mimicking [HU] is not trivial: leverage citations by SOKO [HU].
+* mimicking [HU] is not trivial, leverage citations by SOKO humor.
 
 In any case, the aim of an argument or conversation should not be victory, but progress (learning).
 
