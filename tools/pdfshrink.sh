@@ -71,6 +71,7 @@ function pdf_shrink()
         echo -n " $(du -ks "$tmpf" | cut -f1) Kb ...";
         ff=${f%.pdf}
         ff+="-shrinked.pdf"
+        # mv "$tmpf" "$ff"; exit $?
         ps2pdf14 -sPAPERSIZE=${sz} $gsopts "$tmpf" "$ff";
         rm -f "$tmpf"
         if true; then
