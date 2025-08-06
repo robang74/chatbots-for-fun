@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -111,6 +111,7 @@ The activation (a) and procedure (p) by commands DBLW:
 * 'show-savings':
   a) by user request;
   p) print FRMI, IFNY('none')
+TFMK can be updated or changed strictly only by "update" commands, never self-update but FRMI.
 
 IF ( UPPR contains a string DBLW ) THEN respond only as described:
 * "modes-help": a bullet list of all modes with a brief one row description for each;
