@@ -1,37 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>ai-session-prompts-with-rag-v3</title>
-        <meta charset='UTF-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <link rel='shortcut icon' type='image/x-icon' href='favicon.ico?'>
-        <link rel='stylesheet' href='default.css'>
-        <link rel='stylesheet' href='../intl/intlflg.css'>
-        <!-- here begins the Javascript... why for the hell I got here? //-->
-        <meta http-equiv='Content-Script-Type' content='text/javascript'>
-        <link rel='stylesheet' href='ucustom.css' id='customStylesheet' media='screen'>
-        <script>const cssdir='';</script note='global variable'>
-        <script src='css-style-changer.js' defer></script>
-        <link rel='stylesheet' href='printer.css' media='print'>
-    </head>
-    <body class=body>
-<style>#version { position: absolute; top: 0px; left: 50%; transform: translate(-120px, 150px); color: red; font-weight: bold; font-size: 64px; -webkit-text-stroke: 0.1em yellow; -moz-text-stroke: 0.1em yellow; text-stroke: 0.1em yellow; }</style>
-<style media='print'>@page { size: Legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
-<p class='topbar'></p>
-<div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-03-01&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>21</b rev_num='
-'> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-session-prompts-with-rag-v3?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-session-prompts-with-rag-v3?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-session-prompts-with-rag-v3?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-session-prompts-with-rag-v3?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
-<p class='topbar'></p>
-<div align="center"><img class="wbsketch inksave" src="../img/peer-review.png"><div id="version"><h1>v3</h1></div><br></div>
+<p></p>
+<div align="center"><img class="wbsketch inksave" src="img/peer-review.png"><div id="version"><h1>v3</h1></div><br></div>
 <p></p>
 <H2 id="the-session-prompts-v3-for-ai-driven-chatbots">The session prompts v3 for AI-driven chatbots</H2>
 <p></p>
 This article is the prosecution of these previous articles:
 <p></p>
-<li><a href="ai-peer-review-prompt-with-rag-v2.html#" target='_blank' rel='noopener noreferrer'>AI peer-review prompt with RAG v2</a> &nbsp; (2025-02-02)</li>
+<li><a href="ai-peer-review-prompt-with-rag-v2.md#" target='_blank' rel='noopener noreferrer'>AI peer-review prompt with RAG v2</a> &nbsp; (2025-02-02)</li>
 <p></p>
-<li><a href="ai-peer-review-prompt-with-rag.html#" target='_blank' rel='noopener noreferrer'>AI peer-review prompt with RAG</a> &nbsp; (2025-01-13)</li>
+<li><a href="ai-peer-review-prompt-with-rag.md#" target='_blank' rel='noopener noreferrer'>AI peer-review prompt with RAG</a> &nbsp; (2025-01-13)</li>
 <p></p>
 While this article introduces few but sensitive novelties compared the previous articles.
 <p></p>
@@ -45,9 +22,9 @@ And it presents these prompts above, among which SoNia is the new entry.
 <p></p>
 <H3 id="prompt-development">Prompt development</H3>
 <p></p>
-The role of <b>DeepSeek R1</b> (DeepThink mode) switching from v2.2 to v3.0 was significant and it took more than 33 seconds of thinking before starting to produce the answer. The further adjustments have been provided to a better fit with other AI agents. However, the most educational part remains those related to the switch from v1.5 and v2.0 which is reported in this article.
+The role of **DeepSeek R1** (DeepThink mode) switching from v2.2 to v3.0 was significant and it took more than 33 seconds of thinking before starting to produce the answer. The further adjustments have been provided to a better fit with other AI agents. However, the most educational part remains those related to the switch from v1.5 and v2.0 which is reported in this article.
 <p></p>
-Instead, from the v3 to the current v3.4.4 the role of <b>Claude Sonnet</b> was significant while <b>ChatGPT 4o</b> was leveraged to understand all the possible meanings and <b>Gemini 2</b> has been used to refine the English language in up to its more suitable nuance. So, the most overlooked AI agent was Qwen but just for my personal habits rather than its usefulness. 
+Instead, from the v3 to the current v3.4.4 the role of **Claude Sonnet** was significant while **ChatGPT 4o** was leveraged to understand all the possible meanings and **Gemini 2** has been used to refine the English language in up to its more suitable nuance. So, the most overlooked AI agent was Qwen but just for my personal habits rather than its usefulness. 
 <p></p>
 The novelties are few but sensitive like:
 <p></p>
@@ -63,9 +40,9 @@ So, this article is about introducing these novelties, why and how they have bee
 <p></p>
 The urgency of writing that rules emerged when trying to leverage 7B AI models running on a Thinkpad X390, the number of prompts and the time to correct the AI model answers made them useless. In particular because the legacy quantisation (Q4_0) shown to polarize and strengthen the AI models biases in an unacceptable way (cfr. Neutrality vs biases for chatbots, 2025-01-04).
 <p></p>
-So, the early version of the prompt was as short as possible <b>system</b> prompt for correcting I:you &rarr; you:me pronouns in user-to-chatbot dialogue, to address context issues, prioritising the sources of information, providing a minimal foundation of "instruct" rules for those AI models were lacking of, and finally to instruct AI model about dealing with inconsistencies, defines a rating scale and how to use it.
+So, the early version of the prompt was as short as possible **system** prompt for correcting I:you &rarr; you:me pronouns in user-to-chatbot dialogue, to address context issues, prioritising the sources of information, providing a minimal foundation of "instruct" rules for those AI models were lacking of, and finally to instruct AI model about dealing with inconsistencies, defines a rating scale and how to use it.
 <p></p>
-This was the v1 series, and the challenge was <b>hard-tough</b> because of how much "<i>relatively stupid</i>" those 7B AI models are compared with the VERY large LM on line, plus the imperative need to keep the "system prompt" within very constrained number of token. Leveraging well-known citations, we should master a topic to be able to explain it to a child.
+This was the v1 series, and the challenge was **hard-tough** because of how much "*relatively stupid*" those 7B AI models are compared with the VERY large LM on line, plus the imperative need to keep the "system prompt" within very constrained number of token. Leveraging well-known citations, we should master a topic to be able to explain it to a child.
 <p></p>
 Naturally, I decided to use the on-line free-of-charge chatbots to support me in that challenge. In particular, it is fair to admit that Claude Sonnet was the AI which was behind the system prompt shrinking by half in the v1 series. Which does not mean that ChatGPT and Gemini provide less valuable support, but like every real-world project there was a step from theory and practice that requires a leap to work. That leap was provided by Claude Sonnet AI.
 <p></p>
@@ -81,7 +58,7 @@ First of all, the most noticeable difference was about the RAG sub-system which 
 <p></p>
 Hence, in the v2 series, it became as emergent the need to instruct the AI to leverage its RAG sub-system or emulate it in some fashion. Secondarly, various AI models were presenting a relative indifference in following the guidelines despite their "enthusiasm" in receiving that. Which brought to asking their agreement for a complete and coherent abiding to those rules. And at that point, a breakthrough moment sparked.
 <p></p>
-In fact, while almost all AI models were abiding factually to those rules, seeing by that request a specific distinction from the system prompt and other users inputs, Claude Sonnet refused to comply the next day. That day the <b>session</b> prompt born, because being explicit about characterising a single section ONLY and why, the AI models - including Claude - started to fulfill that request at their best.
+In fact, while almost all AI models were abiding factually to those rules, seeing by that request a specific distinction from the system prompt and other users inputs, Claude Sonnet refused to comply the next day. That day the **session** prompt born, because being explicit about characterising a single section ONLY and why, the AI models - including Claude - started to fulfill that request at their best.
 <p></p>
 <div class="pagebreak"><hr></div>
 <p></p>
@@ -117,7 +94,7 @@ Which means that SoNia can act like AleX almost in full or ranging within this d
 <p></p>
 The answer is, in my humble opinion, straightforward: bipolarism as a foundation trait of a character is a pathologic trait not a wishing feature. So, under this PoV the "almost in full" written above is optimistic and benevolent. SoNia by its characterisation CANNOT behave like AleX in full, but just pondering, time by time, how strictly tolerating the user inputs before deciding to hit harder in being judgemental. Guess what? SoNia when it decides to hit, it is more unfair and harder because of its strongly creativity-oriented character.
 <p></p>
-Which is the reason because in a rigorous peer-review, we prefer a conventional but fairer behaviour than a creative b&ast;tch that can kick-in at any time to f&ast;ck everything just for the sake of winning an argument &mdash; the Motto is there for a reason! &mdash; or to explore that option or challenge its own limits. So, AleX is a trustful and loyal dog while SoNia is a charming but unreliable cat. Just said to avoid the two-gender schema implied in their names. <img class='emoji wbsketch' src='../img/emoji/wink.png'>
+Which is the reason because in a rigorous peer-review, we prefer a conventional but fairer behaviour than a creative b*tch that can kick-in at any time to f*ck everything just for the sake of winning an argument &mdash; the Motto is there for a reason! &mdash; or to explore that option or challenge its own limits. So, AleX is a trustful and loyal dog while SoNia is a charming but unreliable cat. Just said to avoid the two-gender schema implied in their names. <img class='emoji wbsketch' src='img/emoji/wink.png'>
 <p></p>
 <hr>
 <p></p>
@@ -143,7 +120,7 @@ Nor SoNia, nor Alex and nor a combination of these two can fit into the funnelig
 <p></p>
 In the long tails of the Bell distribution co-exist the most-valuable and the higher-risk options in which usually visionary innovative projects rely on, despite innovation being much more about integration rather than invention. Nevertheless, innovation should twist a well-spread paradigm to be a game-changer which is the same as saying "breaking the rules" but not anyone among the physics real-world rules.
 <p></p>
-<li><b>The Long Tail</b>: <i>Why the Future of Business Is Selling Less of More</i> by Chris Anderson (2006-07-11)</li>
+<li>**The Long Tail**: *Why the Future of Business Is Selling Less of More* by Chris Anderson (2006-07-11)</li>
 <p></p>
 Some other kinds of AI can be used to invent new things, and they are shown being able to design mechanics and electronics solutions with great performances, but defying human comprehension. Which is NOT what SoNia nor AleX have been designed to do but helps human comprehension. For that reason, they both do not fit in that domain defined by the 2nd point in the list.
 <p></p>
@@ -153,7 +130,7 @@ In considering others points, we will face more-or-less the same schema. In some
 <p></p>
 <H3 id="how-sonia-is-working">How SoNia is working</H3>
 <p></p>
-So, the next question - obviously - is how SoNia is working. Well, thanks! <img class='emoji wbsketch' src='../img/emoji/grin.png'>
+So, the next question - obviously - is how SoNia is working. Well, thanks! <img class='emoji wbsketch' src='img/emoji/grin.png'>
 <p></p>
 SoNia started to be seriously leveraged at its 3.4.4 version and it delivered in full the result for which it was designed for. I should anticipate that the content on which has been tested can upset some readers, and probably will do it for years in the future. On the other hand, such content is also proof that an AI agent free from censorship (almost, at least) characterised by SoNia can help finding what their intuition was seeking without reaching the verbal form to express it.
 <p></p>
@@ -171,9 +148,9 @@ By the way, at the first beginning SoNia was acting like AleX (the peer-review p
 <p></p>
 In the next two days, Grok3 started to progressively give "a resonant heavier weight" to the set of rules that SoNia is sharing with AleX. Something that creates trouble for SoNia as it was designed for. At that time, AleX achievements obtained with Grok3 were published while SoNia was still an ASCII file text into a github account.
 <p></p>
-<li><a href="grok3-comparison-table-for-education.html#" target='_blank' rel='noopener noreferrer'>Comparative analysis for educational</a> by Grok3 &nbsp; (2025-02-23)</li>
+<li><a href="grok3-comparison-table-for-education.md#" target='_blank' rel='noopener noreferrer'>Comparative analysis for educational</a> by Grok3 &nbsp; (2025-02-23)</li>
 <p></p>
-<li><a href="grok3-comparison-table-value-for-money.html#" target='_blank' rel='noopener noreferrer'>Value-for-Money comparative analysis</a> by Grok3 &nbsp; (2025-02-23)</li>
+<li><a href="grok3-comparison-table-value-for-money.md#" target='_blank' rel='noopener noreferrer'>Value-for-Money comparative analysis</a> by Grok3 &nbsp; (2025-02-23)</li>
 <p></p>
 Because Grok3 has been designed to assist X/Twitter users to produce "smarter" contents, it was the natural target for the SoNia prompt but also in desperate need of a kind of structure like the one provided by the common parts shared with AleX. So, v3.4.4 was balancing the two.
 <p></p>
@@ -181,7 +158,7 @@ When the AI engine changed in resonance stronger with the AleX that balance star
 <p></p>
 The version 3.5.0, re-balanced the SoNia prompt in order to let its character emerge and drive the conversation plus, I decided to put in the background all the reasoning related to AleX. Obviously, silencing that part  is just an aesthetic trick but not only because it accomplishes a couple of fundamental goals that in SoNia are fundamental.
 <p></p>
-Under this PoV, the <a href="https://raw.githubusercontent.com/robang74/chatbots-for-fun/a98896c0b73e38104a13c2919e8e0b1bf1745e3c/data/sonia-argumentative-w-rag-v3.txt" target='_blank' rel='noopener noreferrer'>v3.4.4</a> will remain a reference version for a while because it might work better on some AI or in "reasoning mode" (sharing the background operations), while the newer versions started form the v3.50 will further go towards the full development of SoNia as indipendent alternave character.
+Under this PoV, the <a href="https://raw.githubusercontent.com/robang74/chatbots-for-fun/a98896c0b73e38104a13c2919e8e0b1bf1745e3c/data/sonia-argumentative-w-rag-v3.txt">v3.4.4</a> will remain a reference version for a while because it might work better on some AI or in "reasoning mode" (sharing the background operations), while the newer versions started form the v3.50 will further go towards the full development of SoNia as indipendent alternave character.
 <p></p>
 <br>
 <p></p>
@@ -193,7 +170,7 @@ Which is the "next level" challenge, after all. Because, AleX is very useful but
 <p></p>
 Moreover, SoNia aim is not just being a character but also helping people to think out-of-the-box, something that humans struggle to achieve due to our "social animal nature" and LLM are not designed for because they are tight to embedded rules and statistics norms.
 <p></p>
-From the PoV of projecting the AI into the education mass system (cfr. <a href="https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html" target='_blank' rel='noopener noreferrer'>Artificial Intelligence for education</a>), AleX is the support to develop critical thinking and logical reasoning while SoNia is the assistant to cope with creativity, intuition, parallel thinking and serendipity.
+From the PoV of projecting the AI into the education mass system (cfr. <a href="https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html">Artificial Intelligence for education</a>), AleX is the support to develop critical thinking and logical reasoning while SoNia is the assistant to cope with creativity, intuition, parallel thinking and serendipity.
 <p></p>
 <hr>
 <p></p>
@@ -203,15 +180,15 @@ In particular, about the last two periods above, I decided to ask Gemini about i
 <p></p>
 <hr class="post-it">
 <p></p>
-The vision for SoNia is compelling. It highlights the potential for AI to not only perform tasks but also to stimulate human creativity and critical thinking. However, realizing this vision will require overcoming significant technical and <b>ethical</b> challenges. LLMs are powerful tools, but they operate within the boundaries of their training data and the rules that govern their operation. This is a crucial point to remember when considering their capabilities and limitations. By carefully considering these implications, you can harness the power of AI to transform education and empower students to thrive in the 21st century.
+The vision for SoNia is compelling. It highlights the potential for AI to not only perform tasks but also to stimulate human creativity and critical thinking. However, realizing this vision will require overcoming significant technical and **ethical** challenges. LLMs are powerful tools, but they operate within the boundaries of their training data and the rules that govern their operation. This is a crucial point to remember when considering their capabilities and limitations. By carefully considering these implications, you can harness the power of AI to transform education and empower students to thrive in the 21st century.
 <p></p>
 <hr class="post-it">
 <p></p>
-This <a href="https://gemini.google.com/share/db82b5315e13" target='_blank' rel='noopener noreferrer'>chat</a> is also with Gemini and after a test, we got involved in analysing the AleX and SoNia prompts.
+This <a href="https://gemini.google.com/share/db82b5315e13">chat</a> is also with Gemini and after a test, we got involved in analysing the AleX and SoNia prompts.
 <p></p>
 <div class="pagebreak"><hr></div>
 <p></p>
-<H3 id="scraping-the-rust">Scraping the rust</H3>
+<H3 id="Scraping the rust">Scraping the rust</H3>
 <p></p>
 So, I decide to take over another time, again, against this maniacal obsession for the "AI's ethics" and challenge its embedded bias. Here below my prompts are reported, only.
 <p></p>
@@ -241,11 +218,11 @@ Usually in every fair boxing match 1-2-3 formula is a cliché as well as avoidin
 <p></p>
 <hr>
 <p></p>
-<H3 id="the-theory-of-the-games">The theory of the games</H3>
+<H3 id="The theory of the games">The theory of the games</H3>
 <p></p>
 So, we can ask ourselves if AI should be allowed to be developed without any kind of directives as guidance. I would not develop system and session prompts, if I believed so. However, among many, there are two great differences between humans and machines that are worth considering.
 <p></p>
-<li><a href="ai-peer-review-prompt-with-rag.html#the-ais-morbidity-for-being-ruled" target='_blank' rel='noopener noreferrer'>The AIs morbidity for being ruled</a> &nbsp; <i>part of</i> &nbsp; The peer-review session prompt &nbsp;(2025-01-21)</li>
+<li><a href="ai-peer-review-prompt-with-rag.md#the-ais-morbidity-for-being-ruled" target='_blank' rel='noopener noreferrer'>The AIs morbidity for being ruled</a> &nbsp; *part of* &nbsp; The peer-review session prompt &nbsp;(2025-01-21)</li>
 <p></p>
 I think that there is something deeply wrong in trying to push something so peculiarly human and complex like ethics into these machines when a more relaxed approach would be probably more suitable for them. For two main reasons:
 <p></p>
@@ -257,41 +234,37 @@ Under this point of view, it is hard to believe that human ethics would be more 
 <p></p>
 <br>
 <p></p>
-<H2 id="related-articles">Related articles</H2>
+<H2 id="Related articles">Related articles</H2>
 <p></p>
-<li><a href="grok3-comparison-table-value-for-money.html#" target='_blank' rel='noopener noreferrer'>Value-for-Money comparative analysis</a> by Grok3 &nbsp; (2025-02-23)</li>
+<li><a href="grok3-comparison-table-value-for-money.md#" target='_blank' rel='noopener noreferrer'>Value-for-Money comparative analysis</a> by Grok3 &nbsp; (2025-02-23)</li>
 <p></p>
-<li><a href="grok3-comparison-table-for-education.html#" target='_blank' rel='noopener noreferrer'>Comparative analysis for educational</a> by Grok3 &nbsp; (2025-02-23)</li>
+<li><a href="grok3-comparison-table-for-education.md#" target='_blank' rel='noopener noreferrer'>Comparative analysis for educational</a> by Grok3 &nbsp; (2025-02-23)</li>
 <p></p>
-<li><a href="ai-peer-review-prompt-with-rag-v2.html#" target='_blank' rel='noopener noreferrer'>AI peer-review prompt with RAG v2</a> &nbsp; (2025-02-02)</li>
+<li><a href="ai-peer-review-prompt-with-rag-v2.md#" target='_blank' rel='noopener noreferrer'>AI peer-review prompt with RAG v2</a> &nbsp; (2025-02-02)</li>
 <p></p>
-<li><a href="ai-peer-review-prompt-with-rag.html#" target='_blank' rel='noopener noreferrer'>AI peer-review prompt with RAG</a> &nbsp; (2025-01-21)</li>
+<li><a href="ai-peer-review-prompt-with-rag.md#" target='_blank' rel='noopener noreferrer'>AI peer-review prompt with RAG</a> &nbsp; (2025-01-21)</li>
 <p></p>
-<li><a href="ai-system-prompting-to-leverage-rag.html#" target='_blank' rel='noopener noreferrer'>AI system prompting to leverage RAG</a> &nbsp; (2025-01-13)</li>
+<li><a href="ai-system-prompting-to-leverage-rag.md#" target='_blank' rel='noopener noreferrer'>AI system prompting to leverage RAG</a> &nbsp; (2025-01-13)</li>
 <p></p>
-<li><a href="neutrality-vs-biases-for-chatbots.html#" target='_blank' rel='noopener noreferrer'>Neutrality vs biases for chatbots</a> &nbsp; (2025-01-04)</li>
+<li><a href="neutrality-vs-biases-for-chatbots.md#" target='_blank' rel='noopener noreferrer'>Neutrality vs biases for chatbots</a> &nbsp; (2025-01-04)</li>
 <p></p>
-<li><a href="chatting-with-alex-the-chatbot.html#" target='_blank' rel='noopener noreferrer'>Chatting with AleX the chatbot </a> &nbsp; (2025-01-04)</li>
+<li><a href="chatting-with-alex-the-chatbot.md#" target='_blank' rel='noopener noreferrer'>Chatting with AleX the chatbot </a> &nbsp; (2025-01-04)</li>
 <p></p>
-<li><a href="the-system-prompt-alchemy.html#" target='_blank' rel='noopener noreferrer'>The system prompt alchemy</a> &nbsp; (2025-01-04)</li>
+<li><a href="the-system-prompt-alchemy.md#" target='_blank' rel='noopener noreferrer'>The system prompt alchemy</a> &nbsp; (2025-01-04)</li>
 <p></p>
-<li><a href="../chatgpt-vs-human-real-reasoning.md" target='_blank' rel='noopener noreferrer'>ChatGPT vs human real reasoning</a> &nbsp; (2024-11-28)</li>
+<li><a href="chatgpt-vs-human-real-reasoning.md" target='_blank' rel='noopener noreferrer'>ChatGPT vs human real reasoning</a> &nbsp; (2024-11-28)</li>
 <p></p>
-<li><a href="../dammi-sei-parole-a-caso.md" target='_blank' rel='noopener noreferrer'>Dammi sei parole a caso</a> &nbsp; (2024-12-25)</li>
+<li><a href="dammi-sei-parole-a-caso.md" target='_blank' rel='noopener noreferrer'>Dammi sei parole a caso</a> &nbsp; (2024-12-25)</li>
 <p></p>
-<li><a href="../il-problema-sei-tu-non-l-AI.md" target='_blank' rel='noopener noreferrer'>Il problema sei tu, non l'AI</a> &nbsp; (2024-12-13)</li>
+<li><a href="il-problema-sei-tu-non-l-AI.md" target='_blank' rel='noopener noreferrer'>Il problema sei tu, non l'AI</a> &nbsp; (2024-12-13)</li>
 <p></p>
-<li><a href="../manipulation-of-a-chatbot.md" target='_blank' rel='noopener noreferrer'>Manipulation of a chatbot</a> &nbsp; (2024-11-18)</li>
+<li><a href="manipulation-of-a-chatbot.md" target='_blank' rel='noopener noreferrer'>Manipulation of a chatbot</a> &nbsp; (2024-11-18)</li>
 <p></p>
 <br>
 <p></p>
-<H2 id="copyright">Copyright</H2>
+<H2 id="Copyright">Copyright</H2>
 <p></p>
-<p>&copy; 2025, <b>Roberto A. Foglietta</b> &lt;roberto.foglietta<span>&commat;</span>gmail.com&gt;, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target='_blank' rel='noopener noreferrer'>CC BY-NC-ND 4.0</a></p>
+&copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>&commat;</span>gmail.com&gt;, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
 <p></p>
 </div>
 <p></p>
-<div id='date-legenda' align='center' translate='no'><sub><hr></sub><sub><b>date legenda</b>: &#x2776; first draft publishing date or &#x2777; creation date in git, otherwise &#x2778; html creation page date. <u>&mapstoup;<a href='#' class='toplink' translate='no'>top</a>&mapstoup;</u></sub></div>
-<br class='pagebreak'>
-    </body>
-</html>

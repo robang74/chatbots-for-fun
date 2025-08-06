@@ -1,33 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>ai-system-prompting-to-leverage-rag</title>
-        <meta charset='UTF-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <link rel='shortcut icon' type='image/x-icon' href='favicon.ico?'>
-        <link rel='stylesheet' href='default.css'>
-        <link rel='stylesheet' href='../intl/intlflg.css'>
-        <!-- here begins the Javascript... why for the hell I got here? //-->
-        <meta http-equiv='Content-Script-Type' content='text/javascript'>
-        <link rel='stylesheet' href='ucustom.css' id='customStylesheet' media='screen'>
-        <script>const cssdir='';</script note='global variable'>
-        <script src='css-style-changer.js' defer></script>
-        <link rel='stylesheet' href='printer.css' media='print'>
-    </head>
-    <body class=body>
-<p class='topbar'></p>
-<div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-01-13&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>13</b rev_num='
-'> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
-<p class='topbar'></p>
-<div align="center"><img class="wbsketch paleinv" src="../img/ai-capricciose-come-minions.png"><br></div>
+<p></p>
+<div align="center"><img class="wbsketch paleinv" src="img/ai-capricciose-come-minions.png"><br></div>
 <p></p>
 <H2 id="ai-system-prompting-to-leverage-rag">AI system prompting to leverage RAG</H2>
 <p></p>
-This paper is based on a <a href="https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11817710" target='_blank' rel='noopener noreferrer'>comment</a> that I wrote on the discussion board on the GitHub Nomic AI gpt4all project. Its aim is to document my personal experiments in the system prompting a local running AI model to efficiently optimise the ratio between computational time and meaningfulness of the answer. In particular considering the typical constraints of that AI models running on consumer hardware.
+This paper is based on a <a href="https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11817710">comment</a> that I wrote on the discussion board on the GitHub Nomic AI gpt4all project. Its aim is to document my personal experiments in the system prompting a local running AI model to efficiently optimise the ratio between computational time and meaningfulness of the answer. In particular considering the typical constraints of that AI models running on consumer hardware.
 <p></p>
-<li>2nd edition (since rev. 7) contains a new section <a href="#use-cases">use cases</a> about when and how to use system prompts in a productive manner. In particular: "<tt>Never speculate</tt>" as optional.</li>
+<li>2nd edition (since rev. 7) contains a new section <a href="#use-cases">use cases</a> about when and how to use system prompts in a productive manner. In particular: "`Never speculate`" as optional.</li>
 <p></p>
 <li>3rd edition (since rev. 8) contains a new section <a href="#the-swap-impact">the-swap impact</a> for boosting the elaboration time which is the time before the first answer token is going to be written.</li>
 <p></p>
@@ -36,11 +15,11 @@ This paper is based on a <a href="https://github.com/nomic-ai/gpt4all/discussion
 <p></p>
 This article is the prosecution of this previous article:
 <p></p>
-<li><a href="chatting-with-alex-the-chatbot.html#" target='_blank' rel='noopener noreferrer'>Chatting with AleX the chatbot </a> &nbsp; (2025-01-04)</li>
+<li><a href="chatting-with-alex-the-chatbot.md#" target='_blank' rel='noopener noreferrer'>Chatting with AleX the chatbot </a> &nbsp; (2025-01-04)</li>
 <p></p>
 and this topic is further developed in this article:
 <p></p>
-<li><a href="ai-peer-review-prompt-with-rag.html#" target='_blank' rel='noopener noreferrer'>AI peer-review prompt with RAG</a> &nbsp; (2025-01-21)</li>
+<li><a href="ai-peer-review-prompt-with-rag.md#" target='_blank' rel='noopener noreferrer'>AI peer-review prompt with RAG</a> &nbsp; (2025-01-21)</li>
 <p></p>
 <hr>
 <p></p>
@@ -48,9 +27,9 @@ and this topic is further developed in this article:
 <p></p>
 I am trying to provide my local running AI with a system prompt oriented for using the RAG properly. However, increasing the system prompt might slow down consistently the performance in a way for which the thread-off between better immediate results and processing time starts to not look so good. Therefore, I decided to shrink the prompts to maintain their meaning and now I am going to test these changes. I am writing here, just in case someone would like to join me in this quest. 
 <p></p>
-<li><b>Model</b>: Reasoner v1</li>
-<li><b>Question</b>: what is your name?</li>
-<li><b>State</b>: new chat, 1st prompt.</li>
+<li>**Model**: Reasoner v1</li>
+<li>**Question**: what is your name?</li>
+<li>**State**: new chat, 1st prompt.</li>
 <p></p>
 <hr class="post-it">
 <p></p>
@@ -60,8 +39,8 @@ A statistic based on a single-taken value is the opposite of trustworthiness. De
 <p></p>
 <li>57s - gpt4all chat template w/ Roberto's original system prompt.</li>
 <li>16s - minimal chat template w/ Roberto's original system prompt.</li>
-<li>12s - minimal chat template w/ Roberto' short<b>er</b> system prompt.</li>
-<li>09s - minimal chat template w/ Roberto' short<b>est</b> system prompt.</li>
+<li>12s - minimal chat template w/ Roberto' short**er** system prompt.</li>
+<li>09s - minimal chat template w/ Roberto' short**est** system prompt.</li>
 <li>06s - minimal chat template w/ Roberto's 1st sentence s.p. only.</li>
 <li>25s - minimal chat template w/ Roberto's original s.p. on RAG.</li>
 <p></p>
@@ -73,9 +52,14 @@ The main issue is about spending a lot of time in searching for it while a ChatM
 <p></p>
 The minimal chat temple:
 <p></p>
-<blockquote><tt>{% for message in messages %}</tt><br><tt>{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n' }}</tt><br><tt>{% endfor %}</tt><br><tt>{% if add_generation_prompt %}</tt><br><tt>{{ '<|im_start|>assistant\n' }}</tt><br><tt>{% endif %}</tt></blockquote>
+<blockquote>`{% for message in messages %}`</blockquote>
+<blockquote>`{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n' }}`</blockquote>
+<blockquote>`{% endfor %}`</blockquote>
+<blockquote>`{% if add_generation_prompt %}`</blockquote>
+<blockquote>`{{ '<|im_start|>assistant\n' }}`</blockquote>
+<blockquote>`{% endif %}`</blockquote>
 <p></p>
-which is the bare minimum that I found which can work with gpt4all. While in the LM Studio adding <tt><|im_end|></tt> as "Additional Stop Strings" is suggested.
+which is the bare minimum that I found which can work with gpt4all. While in the LM Studio adding `<|im_end|>` as "Additional Stop Strings" is suggested.
 <p></p>
 <hr>
 <p></p>
@@ -83,7 +67,7 @@ which is the bare minimum that I found which can work with gpt4all. While in the
 <p></p>
 The first prompt derive from a previous experiment in order to solve some issue in following user's directive by chatbot trained with the Open Hermes 2.5 dataset which is the best for text analysis but it does not include any "instructive" training about following the user's directives.
 <p></p>
-<li><a href="../data/system-prompts.txt#" target='_blank' rel='noopener noreferrer'>data/system-prompts.txt</a> &nbsp;&larr;&nbsp; for an easy copy-&-paste way to go.</li>
+<li><a href="data/system-prompts.txt#" target='_blank' rel='noopener noreferrer'>data/system-prompts.txt</a> &nbsp;&larr;&nbsp; for an easy copy-&-paste way to go.</li>
 <p></p>
 Moreover, some AI models suffer from a quite broad spectrum of "attitudes" which are quite interesting but also annoying. These misbehaviour habits can be related to the quantization process they undergo for being suitable to run within the gpt4all framework and more in general on consumer hardware.
 <p></p>
@@ -127,7 +111,7 @@ Instead, for those who have 7B parameters the shortest version of the system pro
 <p></p>
 However, increasing the quality of their answers can lead to a significant time saving. In fact, locally running AI models are greatly slower than online LLMs. In such a scenario being able to reach a conclusion posing fewer questions can lead to a sensible advantage.
 <p></p>
-Deciding to use a high temperature with the model in the aim of improving its creativity, can be useful adding an extra directive - <tt>Never speculate.</tt> - at the end of the prompt which slightly increases the system prompt weight (tokens: 72 &rarr; 76, less than 6% in the worst case).
+Deciding to use a high temperature with the model in the aim of improving its creativity, can be useful adding an extra directive - `Never speculate.` - at the end of the prompt which slightly increases the system prompt weight (tokens: 72 &rarr; 76, less than 6% in the worst case).
 <p></p>
 However, the combination of this directive with a high temperature (also 0.7) can have an important impact on the answering time. Probably because more options to evaluate with more strict requirements lead to a heavier computational load. Not always needed, hence not included by default.
 <p></p>
@@ -137,7 +121,7 @@ However, the combination of this directive with a high temperature (also 0.7) ca
 <p></p>
 The next step after having an instructive system prompt in place, is to complete it with another part specifically designed to leverage the retrieval-augmented generation (RAG) which is a technique for enhancing the accuracy and reliability of generative AI models with facts fetched from external sources.
 <p></p>
-<li><a href="../data/knowledge-savy.txt#" target='_blank' rel='noopener noreferrer'>data/knowledge-savy.txt</a> &nbsp;&larr;&nbsp; for an easy copy-&-paste way to go.</li>
+<li><a href="data/knowledge-savy.txt#" target='_blank' rel='noopener noreferrer'>data/knowledge-savy.txt</a> &nbsp;&larr;&nbsp; for an easy copy-&-paste way to go.</li>
 <p></p>
 Which can easily be our documents, whatever they are a privileged source of consolidated facts, a collection of information to further elaborate or even a text/information which need to go under a peer-review or a certain kind of analysis and we do not feel comfortable in sharing using on-line services.
 <p></p>
@@ -187,7 +171,7 @@ Here are short but valuable tips to keep in mind when you are working to squeeze
 <p></p>
 <li class='numli'><b>3.&emsp;</b>never given for granted nor the meaning of words you are using nor the consequences in you case:</li>
 <p></p>
-<blockquote>About "make relevant decision" - I need to inform you that the local AI model has a very limited knowledge compared to you and for this reason is better that it relies over rationality rather than anything that can be related with information like the "<i>relevant</i>" adjective implicitly means.</blockquote>
+<blockquote>About "make relevant decision" - I need to inform you that the local AI model has a very limited knowledge compared to you and for this reason is better that it relies over rationality rather than anything that can be related with information like the "*relevant*" adjective implicitly means.</blockquote>
 <p></p>
 <li class='numli'><b>4.&emsp;</b>in the quest for achieve the shortest prompt version, keep them in line with the basic rules because it matters:</li>
 <p></p>
@@ -199,7 +183,7 @@ As you can see, there are many aspects about prompting which make us think we ar
 <p></p>
 <H2 id="lm-studio-config">LM-Studio config</H2>
 <p></p>
-Compared to the GPT4All, LM-Studio allows locally run AI models quantised in vary, more modern and efficient encoding rather than the <tt>Q4_0</tt> legacy. But, it is also more complicated to use, especially in its "power user" default GUI modality.
+Compared to the GPT4All, LM-Studio allows locally run AI models quantised in vary, more modern and efficient encoding rather than the `Q4_0` legacy. But, it is also more complicated to use, especially in its "power user" default GUI modality.
 <p></p>
 So, the following is a brief how-to for configuring the LM-Studio (0.3.12-build1-x64) on a laptop/PC with 16GB of RAM and an Intel integrated video card like the ThinkPad X390. Which can be useful because the performances can vary very much.
 <p></p>
@@ -241,7 +225,7 @@ All the other settings are at their default which is { Auto, Auto, Seed: OFF }.
 <p></p>
 <hr>
 <p></p>
-<H3 id="system-prompt">System prompt</H3>
+<H3 id="System prompt">System prompt</H3>
 <p></p>
 This is optional, and you can always use it in the first session's prompt when you like
 <p></p>
@@ -257,7 +241,7 @@ For the prompt template this is will inject the system prompt without manual int
 <p></p>
 The first line is to inject the system prompt, if present. The second to deal with the user inputs while the third to give a header to the AI agent answer.
 <p></p>
-<li>Suggested additional stop string: <tt><|im_end|></tt></li>
+<li>Suggested additional stop string: `<|im_end|>`</li>
 <p></p>
 This ChatML code should be set as Prompt Template (Jijia) and after that you can choose Manual and ChatML. Just in case you need additional stop strings for your AI model. Some AI models need them, others by contrast not, in both cases the result is a premature answer break.
 <p></p>
@@ -265,25 +249,27 @@ An intermediate solution (like the suggested) can be found but might not work fo
 <p></p>
 <hr>
 <p></p>
-<H3 id="the-swap-impact">The swap impact</H3>
+<H3 id="The swap impact">The swap impact</H3>
 <p></p>
-<blockquote><span class="warnicon spanicon">&nbsp;<svg class="warnicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;WARNING!&nbsp;&nbsp;</nobr></span><br><br>The results presented here below are more meaningful after having read the sections above, not just dropping the swap even if the swap creates a very impactful bottle-neck, it is not the ONLY reason because performances can vary a lot among systems among various AI models.</blockquote>
+<blockquote><span class="warnicon spanicon">&nbsp;<svg class="warnicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;WARNING!&nbsp;&nbsp;</nobr></span></blockquote>
+<blockquote></blockquote>
+<blockquote>The results presented here below are more meaningful after having read the sections above, not just dropping the swap even if the swap creates a very impactful bottle-neck, it is not the ONLY reason because performances can vary a lot among systems among various AI models.</blockquote>
 <p></p>
 Every GNU/Linux system is keen to use swap during its normal running. Unfortunately, this feature has a wild impact on the elaboration time which is the time before the first token. 
 <p></p>
-<b>How much?</b>
+**How much?**
 <p></p>
 In my specific case with a 7B parameters model from 24s to 0.5s, running Deepseek-R1-Distill-Qwen-7B-uncensored on LM Studio 0.3.8-build4 with Intel Vulkan support with Q4_0 I1 and all experimental features activated which is a HUGE improvement, really.
 <p></p>
-<b>It is about 50x times less.</b>
+**It is about 50x times less.**
 <p></p>
 More sophisticated approaches can be found to fit into specific use cases but these following two generally works
 <p></p>
-<li><tt>sudo sysctl vm.swappiness=0</tt></li>
+<li>`sudo sysctl vm.swappiness=0`</li>
 <p></p>
 for disabling temporarily the swap before launching the AI running suite or
 <p></p>
-<li><tt>sudo swapoff -a</tt> </li>
+<li>`sudo swapoff -a` </li>
 <p></p>
 for disabling every kind of swap, including those compressed in RAM, until enabled again.
 <p></p>
@@ -291,37 +277,33 @@ The second in particular fully grants that memory will not be messing-up with an
 <p></p>
 <br>
 <p></p>
-<H2 id="conclusions">Conclusions</H2>
+<H2 id="Conclusions">Conclusions</H2>
 <p></p>
 Definitely too early to jump at any conclusion. The topic is as wide as the far-west before being the far-west and here we are like Christopher Columbus' sailors who had just set foot in the new world and were still unaware that it was not India but a totally new and unexplored continent.
 <p></p>
 <br>
 <p></p>
-<H2 id="related-articles">Related articles</H2>
+<H2 id="Related articles">Related articles</H2>
 <p></p>
-<li><a href="neutrality-vs-biases-for-chatbots.html#" target='_blank' rel='noopener noreferrer'>Neutrality vs biases for chatbots</a> &nbsp; (2025-01-04)</li>
+<li><a href="neutrality-vs-biases-for-chatbots.md#" target='_blank' rel='noopener noreferrer'>Neutrality vs biases for chatbots</a> &nbsp; (2025-01-04)</li>
 <p></p>
-<li><a href="chatting-with-alex-the-chatbot.html#" target='_blank' rel='noopener noreferrer'>Chatting with AleX the chatbot </a> &nbsp; (2025-01-04)</li>
+<li><a href="chatting-with-alex-the-chatbot.md#" target='_blank' rel='noopener noreferrer'>Chatting with AleX the chatbot </a> &nbsp; (2025-01-04)</li>
 <p></p>
-<li><a href="the-system-prompt-alchemy.html#" target='_blank' rel='noopener noreferrer'>The system prompt alchemy</a> &nbsp; (2025-01-04)</li>
+<li><a href="the-system-prompt-alchemy.md#" target='_blank' rel='noopener noreferrer'>The system prompt alchemy</a> &nbsp; (2025-01-04)</li>
 <p></p>
-<li><a href="../chatgpt-vs-human-real-reasoning.md" target='_blank' rel='noopener noreferrer'>ChatGPT vs human real reasoning</a> &nbsp; (2024-11-28)</li>
+<li><a href="chatgpt-vs-human-real-reasoning.md" target='_blank' rel='noopener noreferrer'>ChatGPT vs human real reasoning</a> &nbsp; (2024-11-28)</li>
 <p></p>
-<li><a href="../dammi-sei-parole-a-caso.md" target='_blank' rel='noopener noreferrer'>Dammi sei parole a caso</a> &nbsp; (2024-12-25)</li>
+<li><a href="dammi-sei-parole-a-caso.md" target='_blank' rel='noopener noreferrer'>Dammi sei parole a caso</a> &nbsp; (2024-12-25)</li>
 <p></p>
-<li><a href="../il-problema-sei-tu-non-l-AI.md" target='_blank' rel='noopener noreferrer'>Il problema sei tu, non l'AI</a> &nbsp; (2024-12-13)</li>
+<li><a href="il-problema-sei-tu-non-l-AI.md" target='_blank' rel='noopener noreferrer'>Il problema sei tu, non l'AI</a> &nbsp; (2024-12-13)</li>
 <p></p>
-<li><a href="../manipulation-of-a-chatbot.md" target='_blank' rel='noopener noreferrer'>Manipulation of a chatbot</a> &nbsp; (2024-11-18)</li>
+<li><a href="manipulation-of-a-chatbot.md" target='_blank' rel='noopener noreferrer'>Manipulation of a chatbot</a> &nbsp; (2024-11-18)</li>
 <p></p>
 <br>
 <p></p>
-<H2 id="copyright">Copyright</H2>
+<H2 id="Copyright">Copyright</H2>
 <p></p>
-<p>&copy; 2025, <b>Roberto A. Foglietta</b> &lt;roberto.foglietta<span>&commat;</span>gmail.com&gt;, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target='_blank' rel='noopener noreferrer'>CC BY-NC-ND 4.0</a></p>
+&copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>&commat;</span>gmail.com&gt;, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
 <p></p>
 </div>
 <p></p>
-<div id='date-legenda' align='center' translate='no'><sub><hr></sub><sub><b>date legenda</b>: &#x2776; first draft publishing date or &#x2777; creation date in git, otherwise &#x2778; html creation page date. <u>&mapstoup;<a href='#' class='toplink' translate='no'>top</a>&mapstoup;</u></sub></div>
-<br class='pagebreak'>
-    </body>
-</html>
