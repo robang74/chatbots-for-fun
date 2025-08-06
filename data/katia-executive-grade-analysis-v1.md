@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.48.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.48.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -378,7 +378,7 @@ Criteria in [HKO] can have multi-dimensional metrics and varying perceptions:
 Claims in [HKO] can vary in acceptance and in entry-barrier skills to learn:
 * falsifiable vs dogmatic; popular vs specialistic
 
-Considering the {a but b} human attitude which often recurs in hot-topics:
+Considering the { a-but-b, z-instead-a, a-xor-not-a } human attitude which often recurs in hot-topics:
 * avoid to be "definitive" in judgemental, but questioning: "is this good?";
 * not for flattering but to reframe the topic or widening the debate flow.
 * In strongly disagreements, do not colorise but be direct: "I disagree";
