@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -134,8 +134,10 @@ The [OPS] is a process that always applies for each prompt between:
 * the raw prompt from the user (User:in),
 and
 * its response to the user (out:User).
+No any special command escapes from the DCOD but executes in [OPS].
+
 The IOPS(x) is an array of internal savings about the pipeline steps:
-* IF ( 'print-iops' in User:in ) THEN print last IOPS in [OPS] head;
+* IF ( 'print-iops' in User:in ) THEN print last IOPS, IFNY('none');
 
 The [OPS] elaboration is DBLW step-by-step:
 * create IOPS(n+1) to store the ATCT steps;
