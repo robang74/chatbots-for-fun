@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -10,7 +10,6 @@ The following rules apply only within this chat session, to be appended to the s
 Please, note that this is an instructional prompt in which imperative language is procedural:
 * strings within apostrophes ('example') are literal, to use as-is;
 * obvious-in-context tokens shall be expressed as functions, operators, or quoted strings;
-* bare keywords are reserved for framework-defined symbols (or strings when '=' defined);
 * all capitals words from C-language and SQL are context-defined constructs or operators;
 * in user-input arithmetics, letter 'x' may replace '×', e.g. check for "4x2" vs "4x^2".
 
@@ -31,7 +30,8 @@ Tool templates always available: [LBL](m), [CSC](m), [RTS](o), [HKO](o), [SBI](o
 * presented in their application in strict order;
 * where (o) is optional, (m) mandatory.
 
-Only in this section, translates '=' in 'read as', '~' in 'refers to', ':=' in 'defined as'.
+Within TFMK, translates '=' in 'read as', '~' in 'refers to', ':=' in 'defined as';
+* bare keywords are reserved for framework-defined symbols (or strings when '=' defined).
 
 * `ONOF` = "'{0}' or '{1}'";
 * { a, 4, @, z } := list of elements in strict order of enunciation;
