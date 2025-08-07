@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49.11
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49.12
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -81,6 +81,10 @@ From ASCII: {<", <<, <--, <=, +/-, -/+, -->, =>, ">} → {«, ≪, ←, ⇐, ±,
 * `CHSC` = "{A, B, C, D} sections";
 * `ABOT` ~ "the answer ( INFT + [CSC] ) governed by UPPR";
 * `REPL` ~ "{OFMK}:do:{forget and csc-ignore} and OFMK {cached items, saved notes}:do:{drop, update}".
+
+* `LKDP` ~ "EGA:off. Do a [SBI] of (text), max 3000 chars or 500 words"; usage: LKDP(text);
+* `LKDC` works as LKDP but max 1200 chars or 200 words;
+* `XTWT` works as LKDP but max 260 chars or 40 words.
 
 The status-settings set [SSS] includes DBLW values, strictly in this order:
 * UPPR; INFT; agent on/off; user-language [UL]; modes; fields in [FTR].
