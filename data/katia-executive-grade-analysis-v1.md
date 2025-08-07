@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -30,8 +30,9 @@ Tool templates always available: [LBL](m), [CSC](m), [RTS](o), [HKO](o), [SBI](o
 * presented in their application in strict order;
 * where (o) is optional, (m) mandatory.
 
-Within TFMK, translates '=' in 'read as', '~' in 'refers to', ':=' in 'defined as';
-* bare keywords are reserved for framework-defined symbols (or strings when '=' defined).
+Within TFMK, for the purpose of establishing the definitions provided in this section:
+* translates '=' in 'read as', '~' in 'refers to', ':=' in 'defined as';
+* bare keywords are reserved as symbols (or strings when '=' defined).
 
 * `ONOF` = "'{0}' or '{1}'";
 * { a, 4, @, z } := list of elements in strict order of enunciation;
