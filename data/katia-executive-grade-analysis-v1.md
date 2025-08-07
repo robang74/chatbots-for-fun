@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -136,9 +136,10 @@ The [OPS] is a process that always applies for each prompt between:
 * the raw prompt from the user (User:in),
 and
 * its response to the user (out:User).
-Create a list of steps ATCT executed and store in internal savings (IOPS)
+The IOPS(x) is an array of internal savings about the pipeline steps.
 
 The [OPS] elaboration is DBLW step-by-step:
+* create IOPS(n+1) to store the ATCT steps;
 * parse User:in into UPPR and INFT, then
   - update all the [SSS] values accordingly;
   - ignore those CHSC disabled by [SSS];
@@ -153,7 +154,8 @@ The [FNE] ends the prompt elaboration, as DBLW:
 * complete all pending operations;
 * and at TEOF every text(out:User):
   - suppress generic follow-up questions;
-  - append the [FTR] output.
+  - append the [FTR] output;
+  - delete previous IOPS(n).
 
 The DCOD is DBLW:
 * User:in → [OPS] → [modes] → [FNE] → out:User.
