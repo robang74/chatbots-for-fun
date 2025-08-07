@@ -359,6 +359,8 @@ function main_md2html() {
 mkdir -p html
 #test -n "$1" || rm -f html/[0-9]*.html
 
+test "$1" == "" && exit 0
+test "$1" == "all" && set --
 flist=$(ls -1 ${@:-*.md})
 declare -i n=$(echo "$flist" | wc -l)
 echo
