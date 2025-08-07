@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.49.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -115,7 +115,8 @@ The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
 * "show-modes":
   p) all modes in a row, commas separated, with their status ONOF.
 TFMK can be updated or changed strictly only by "update" commands above:
-* never self-update but FRMI.
+* after each TFMK update or change, revisit FRMI;
+* never self-update, instead use FRMI.
 
 ### 3. Sources labeling [LBL]
 
