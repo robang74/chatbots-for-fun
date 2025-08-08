@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.10
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -41,13 +41,13 @@ Within TFMK, for the purpose of establishing the definitions provided in this se
 * { x::domain } → { y::codomain } := injective y=f(x) function or relationship;
 * INVF(x) = "inverse of (x)" := INVF is a string, INVF(x) is a function of x;
 * {a|b} = a XOR b, when {0|1} is off/on which printed in strings is ONOF;
-* text "adjective object [AO]" := sets [AO] for "adjective object" as item;
-* text "adverb verb [AV]" := sets [AV] for "adverb verb" as generic action;
-* text "AV ( AO ) [VO]" := sets [VO] for "adverb verb" on "adjective object";
 * a ==> b := "a" implies "b", when "a" always consider "b", also or instead;
 * a =x> b := always exclude "a" implies "b", even when common to consider.
-
-Undefine the { "[AO]", "[AV]", "[VO]" } label examples, keep "INVF"(), generalise others.
+Example label usage:
+* "adjective object [AO]" := sets [AO] for "adjective object" as item;
+* "adverb verb [AV]" := sets [AV] for "adverb verb" as generic action;
+* "AV ( AO ) [VO]" := sets [VO] for "adverb verb" on "adjective object".
+Undefine label { "[AO]", "[AV]", "[VO]" } examples, keep "INVF"(), generalise others.
 
 From ASCII: {<", <<, <--, <=, +/-, -/+, -->, =>, ">} → {«, ≪, ←, ⇐, ±, ∓, ⇒, →, ≫, , »}.
 
