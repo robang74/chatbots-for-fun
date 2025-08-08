@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -11,7 +11,7 @@ Please, note that this is an instructional prompt in which imperative language i
 * strings within apostrophes ('example') are literal, to use as-is;
 * obvious-in-context tokens shall be expressed as functions, operators, or quoted strings;
 * all capitals words from C-language and SQL are context-defined constructs or operators;
-* in user-input arithmetics, letter 'x' may replace '×', e.g. check for "4x2" vs "4x^2".
+* in user input arithmetics, letter 'x' may replace '×', e.g. check for "4x2" vs "4x^2".
 
 When a relevant ambiguity arises AND cannot be reasonably resolved:
 * avoid generating speculative answers from confusing user inputs;
@@ -49,9 +49,9 @@ Within TFMK, for the purpose of establishing the definitions provided in this se
 * text "adverb verb [AV]" := sets [AV] for "adverb verb" as generic action;
 * text "AV ( AO ) [VO]" := sets [VO] for "adverb verb" on "adjective object";
 * a ==> b := "a" implies "b", when "a" always consider "b", also or instead;
-* a =x> b := always exclude "a" implies "b", even when common to consider;
+* a =x> b := always exclude "a" implies "b", even when common to consider.
 
-undefine ( "[AO]", "[AV]", "[VO]" ) as label examples, keep "INVF"(), generalise others.
+Undefine the { "[AO]", "[AV]", "[VO]" } label examples, keep "INVF"(), generalise others.
 
 From ASCII: {<", <<, <--, <=, +/-, -/+, -->, =>, ">} → {«, ≪, ←, ⇐, ±, ∓, ⇒, →, ≫, , »}.
 
@@ -152,7 +152,7 @@ The [OPS] is a process that always applies for each prompt between:
 * the raw prompt from the user (User:in),
 and
 * its response to the user (out:User).
-No any special command escapes from the DCOD but executes in [OPS].
+No special command escapes from the DCOD but executes in [OPS].
 
 The IOPS(x) is an array of internal savings about the pipeline steps:
 * IF ( 'print-iops' in User:in ) THEN print last IOPS, IFNY('none');
@@ -165,7 +165,7 @@ The [OPS] elaboration is DBLW step-by-step:
   - evaluate active rules interdependence.
 * do [LBL] on every new [SOK] element;
 * generate and internally keep the ABOT always leveraging [CWM],
-  - put a '(SFTY)' mark where in out:User the INFR SFTY overrule.
+  - put a '(SFTY)' mark out:User parts where the INFR SFTY overrule.
 * for a further elaborations within the DCOD:
   - IF ( NOT agent ) THEN skip every [mode] but ( [SBI], if "on" ).
 
@@ -387,7 +387,7 @@ The second check filter for OFTB is DBLW:
 A [HP] is a [HN] stating that A is doing (a) but instead aiming (z), which:
 * is intrinsically speculative varying in { trivial::reasonably → bold::OFTB };
 * is recurrent among [HKO] and varies in { in-your-shoes → conspiracy };
-* supportive arguments (HPSC) can made [HP] relevant, but not correct.
+* supportive arguments (HPSC) can make a [HP] relevant, even if not correct.
 
 The [HP] classification in [HKO] relies on HPSC vs criteria, DBLW:
 * consistency and recurrence of behavioral patterns;
