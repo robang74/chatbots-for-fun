@@ -334,7 +334,7 @@ Using a function in Python to explain this stuff would be shorter and more preci
 
 Therefore this approach seems a waste of effort and efficiency, but it is also a powerful source of information about how the AI is dealing with procedural language and with value assignment (thus semantic definitions).
 
-While printing or not printing the footer is another powerful source of information about how the default chain of delivery is working (or not working), properly.
+While printing or not printing the [footer](https://raw.githubusercontent.com/robang74/chatbots-for-fun/fa5d3e036b7d5bc178035f87d47632fa6ca28abc/data/katia-executive-grade-analysis-v1.txt#:~:text=a%20request.%0A%0A%23%23%23%209.-,Footer%20Management,-%5BFTR%5D%0A%0AThe%20%5BFTR?target=_blank) (above in v0.9.51.5) is another powerful source of information about how the "default chain of delivery" (DCOD) is working (or not working), properly.
 
 *Le footer est la trahison de l'amour!*
 
