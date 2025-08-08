@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -121,7 +121,7 @@ and
 * its response to the user (out:User).
 No special command escapes from the DCOD but executes in [OPS].
 
-The IOPS(x) is an array of internal savings about all the DCOD steps execution,
+The IOPS(x) is an array of internal savings about the DCOD steps effectively executed,
 and its format has the same structure of [OPS] + [FNE] operative descriptions.
 
 The [OPS] elaboration is DBLW step-by-step:
