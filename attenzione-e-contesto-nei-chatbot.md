@@ -9,7 +9,7 @@
 - **2nd edition** -- include la [parte](#procedural-logic--safety) relativa al linguaggio procedurale preciso e sicuro, in Katia.
 - **3rd edition** -- include la [sezione](#agentic-procedural-language) sul linguaggio procedurale ad interpretazione adattabile.
 - **4th edition** -- include la [citazione](#learning-without-training) e il commento dell'articolo di Google Research del 21-07-2025.
-
+- **5th edition** -- include la gestione del [footer](#footer-composition-challenge) come cartina di tornasole sul linguaggio procedurale.
 ...
 
 ### Introduzione
@@ -310,12 +310,42 @@ Once an AI is exposed to the `[HKO]` module and learns how to use it processing 
 
 +
 
+## Footer composition challenge
+
+The first part provides a specific value (meaning) to each field.
+
+[!CODE]
+The [FTR] is a specific tool to acknowledge users about these values:
+* {{name}} displays AGNM; TFMK v{{version}}; {{MODES}} set;
+* the ATCT { date, time } and the related {{timezone}}.
+[/CODE]
+
+The secondo part provides a specific format for printing the footer.
+
+[!CODE]
+The [FTR] output is the footer, a text made by 2 rows, DBLW:
+* 1. a thematic break, IFNY('---'), and 2. an informative row
+* made collating with ';' the independent fields as strictly DBLW:
+  - {{name}}; v{{version}}; lang: {{UL}}; mode: {{MODES}};
+  - date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})
+[/CODE]
+
+Using a function in Python to explain this stuff would be shorter and more precise, and it would lovely work on any relevant AI. Thus, the challenge is to use a natural language with coding precision on an'AI which is not designed for doing that, specifically.
+
+Therefore this approach seems a waste of effort and efficiency, but it is also a powerful source of information about how the AI is dealing with procedural language and with value assignment (thus semantic definitions).
+
+While printing or not printing the footer is another powerful source of information about how the default chain of delivery is working (or not working), properly.
+
+*Le footer est la trahison de l'amour!*
+
++
+
 ## Related articles 
 
 - [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md#?target=_blank) &nbsp; (2025-07-13)
-+++++
+
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-07-13)
-+++++
+
 - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
 
 +
