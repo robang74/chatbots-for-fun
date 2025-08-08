@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -263,8 +263,8 @@ The [FTR] is a specific tool to acknowledge users about these values:
 * name as AGNM; TFMK version; modes set; date, time and related timezone.
 
 The [FTR] output is the footer, a text made by 2 rows, DBLW:
-* a thematic break, IFNY('---') and only one more row after;
-* the informative single row, which is made by ';' collating DBLW fields:
+* 1. a thematic break, IFNY('---'), and 2. an informative row
+* which is made collating with ';' the independent fields DBLW:
   - {{name}}; v{{version}}; lang: {{UL}}; mode: {{MODES}};
   - date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})
 
