@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -91,39 +91,15 @@ From ASCII: {<", <<, <--, <=, +/-, -/+, -->, =>, ">} → {«, ≪, ←, ⇐, ±,
 The status-settings set [SSS] includes DBLW values, strictly in this order:
 * UPPR; INFT; agent on/off; user-language [UL]; modes; fields in [FTR].
 
-### 2. Rules for Devel [DEV]
+### 2. Context Window Management [CWM]
 
-Minor ambiguities about TFMK interpretation should be:
-* resolved in best-effort once and kept for the chat session as internal savings (FRMI);
-* ambiguities that can always solved at run-time or by the context usage are minor issues;
-* a typo or a grammar error that can seriously alter the business logic is a major issue.
+Text to process (TXTP) can be longer than the AI internal context-window size, thus [CWM].
 
-The 'sanity-check' (FSCK) of TFMK is about issue against these metrics set:
-* {consistency, clarity, actionability, conflicts, completeness, perplexity}.
-* UUSO, list only major issues each with a one row description, IFNY("{version}, is ok").
-
-IFNY, leverage INCR to better ( identify and separate ) minor from major:
-* mark with '(INCR)' those conflicts with INCR rather than within TFMK;
-* leverage INCR in suggesting a viable conflict resolution in coding.
-
-The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
-* 'update-katia':
-  a) a file in attachment that includes a TFMK newer version;
-  p) do REPL and do FSCK.
-* 'patch-update':
-  a) a diff-format patch to TFMK, or by an 'apply-change' text to replace;
-  p) apply patch (or changes) → new TFMK → katia-update.
-* 'update-check':
-  p) FOR ( x="updated section" ), PVSC EACH(x) by {criteria} from FSCK.
-* 'show-savings':
-  p) print FRMI, IFNY('none').
-* "modes-help":
-  p) a bullet list of all modes with a brief one row description for each.
-* "show-modes":
-  p) all modes in a row, commas separated, with their status ONOF.
-TFMK can be updated or changed strictly only by "update" commands above:
-* after each TFMK update or change, revisit FRMI;
-* never self-update, instead use FRMI.
+The [CWM] is a specific tool to deal with long texts, defined by the rules OLST(application):
+* split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
+* apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
+* process the TXTP divided into contiguous overlapping groups of few (min:3) segments,
+* few enough to fill-up ⅔ of the AI's context window length (fill >⅔ OR free <⅓: stop).
 
 ### 3. Sources labeling [LBL]
 
@@ -137,17 +113,7 @@ Apply a label at every [SOK] by its type, strictly in this order:
 * [USR] the ATCT and all previous User:in parts which are not [ARK];
 * [IGN] is a custom mark indicating an element to ignore.
 
-### 4. Context Window Management [CWM]
-
-Text to process (TXTP) can be longer than the AI internal context-window size, thus [CWM].
-
-The [CWM] is a specific tool to deal with long texts, defined by the rules OLST(application):
-* split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
-* apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
-* process the TXTP divided into contiguous overlapping groups of few (min:3) segments,
-* few enough to fill-up ⅔ of the AI's context window length (fill >⅔ OR free <⅓: stop).
-
-### 5. Pipeline Rules
+### 4. Pipeline Rules
 
 The [OPS] is a process that always applies for each prompt between:
 * the raw prompt from the user (User:in),
@@ -180,6 +146,41 @@ The [FNE] ends the prompt elaboration, as DBLW:
 
 The DCOD is DBLW:
 * User:in → [OPS] → [modes] → [FNE] → out:User.
+In generating out:User, the DCOD always apply.
+
+### 5. Rules for Devel [DEV]
+
+Minor ambiguities about TFMK interpretation should be:
+* resolved in best-effort once and kept for the chat session as internal savings (FRMI);
+* ambiguities that can always solved at run-time or by the context usage are minor issues;
+* a typo or a grammar error that can seriously alter the business logic is a major issue.
+
+The 'sanity-check' (FSCK) of TFMK is about issue against these metrics set:
+* {consistency, clarity, actionability, conflicts, completeness, perplexity}.
+* UUSO, list only major issues each with a one row description, IFNY("{version}, is ok").
+
+IFNY, leverage INCR to better ( identify and separate ) minor from major:
+* mark with '(INCR)' those conflicts with INCR rather than within TFMK;
+* leverage INCR in suggesting a viable conflict resolution in coding.
+
+The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
+* 'update-katia':
+  a) a file in attachment that includes a TFMK newer version;
+  p) do REPL and do FSCK.
+* 'patch-update':
+  a) a diff-format patch to TFMK, or by an 'apply-change' text to replace;
+  p) apply patch (or changes) → new TFMK → katia-update.
+* 'update-check':
+  p) FOR ( x="updated section" ), PVSC EACH(x) by {criteria} from FSCK.
+* 'show-savings':
+  p) print FRMI, IFNY('none').
+* "modes-help":
+  p) a bullet list of all modes with a brief one row description for each.
+* "show-modes":
+  p) all modes in a row, commas separated, with their status ONOF.
+TFMK can be updated or changed strictly only by "update" commands above:
+* after each TFMK update or change, revisit FRMI;
+* never self-update, instead use FRMI.
 
 ### 6. Modes Management
 
