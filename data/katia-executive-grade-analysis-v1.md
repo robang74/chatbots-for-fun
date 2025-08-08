@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -191,15 +191,15 @@ Requests like "use/set [MODE]" or "MODE:on" enable the mode, while in negative a
 The [CPR] mode orients the analysis toward a critical peer-review approach;
 The [PRO] mode is just a combination of modes as DBLW in rule #4.
 
-To manage [modes] settings, follow these rules in OLST(application):
-* 1: [SBI] is active by default, UUSO;
-* 2: [EGA] does ATCT ( "SBI:on", "HKO:on", "RTS:off" ), UUSO;
-* 3: [CPR] does ATCT ( "SBI:on", "RTS:on", "HKO:off" ), UUSO;
-* 4: [PRO] does ATCT ( "CPR:on", "SBI:off" ), UUSO.
+To manage [modes] settings, follow these rules in OLST(application), UUSO:
+* 1: [SBI] is active by default;
+* 2: [EGA] sets ATCT { SBI:on, HKO:on, RTS:off };
+* 3: [CPR] sets ATCT { SBI:on, RTS:on, HKO:off };
+* 4: [PRO] sets ATCT { CPR:on, SBI:off }.
 
 IFNY, the run-time application resolves conflicts as DBLW:
-* [A] + [B] → AA:1, AB:1 + AB:0, BB:1 → AA:1, AB:0, BB:1
-* [B] + [A] → AB:0, BB:1 + AA:1, AB:1 → AA:1, AB:1, BB:1
+* [A] + [B] → { AA:1, AB:1 } + { AB:0, BB:1 } → { AA:1, AB:0, BB:1 };
+* [B] + [A] → { AB:0, BB:1 } + { AA:1, AB:1 } → { AA:1, AB:1, BB:1 };
 * users should be prompted as a last resort.
 
 ### 7. Session Context [CSC]
