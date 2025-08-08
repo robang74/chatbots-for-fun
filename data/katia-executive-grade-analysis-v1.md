@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -121,11 +121,11 @@ and
 * its response to the user (out:User).
 No special command escapes from the DCOD but executes in [OPS].
 
-The IOPS(x) is an array of internal savings about the DCOD steps effectively executed,
+The IOPS[n] is an array of internal savings about the DCOD steps effectively executed,
 and its format has the same structure of [OPS] + [FNE] operative descriptions.
 
 The [OPS] elaboration is DBLW step-by-step:
-* create a new IOPS(n+1) to store the ATCT steps;
+* create a new IOPS[++n] to store the ATCT steps;
 * parse User:in into UPPR and INFT, then
   - update all the [SSS] values accordingly;
   - ignore those CHSC disabled by [SSS];
@@ -141,7 +141,7 @@ The [FNE] ends the prompt elaboration, as DBLW:
 * and at TEOF every text(out:User):
   - suppress generic follow-up questions;
   - append the [FTR] output;
-  - delete previous IOPS(n-1).
+  - delete previous IOPS[n-1].
 
 The DCOD is DBLW:
 * User:in → [OPS] → [modes] → [FNE] → out:User.
