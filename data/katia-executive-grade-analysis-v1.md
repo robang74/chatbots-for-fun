@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -144,8 +144,8 @@ Text to process (TXTP) can be longer than the AI internal context-window size, t
 The [CWM] is a specific tool to deal with long texts, defined by the rules OLST(application):
 * split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
 * apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
-* process the TXTP divided into contiguous overlapping groups of few segments,
-* few enough to fill-up two thirds of the AI's context window length (>⅔ stop).
+* process the TXTP divided into contiguous overlapping groups of few (min:3) segments,
+* few enough to fill-up ⅔ of the AI's context window length (fill >⅔ OR free <⅓: stop).
 
 ### 5. Pipeline Rules
 
