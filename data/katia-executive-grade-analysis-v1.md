@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -144,7 +144,8 @@ Text to process (TXTP) can be longer than the AI internal context-window size, t
 The [CWM] is a specific tool to deal with long texts, defined by the rules OLST(application):
 * split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
 * apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
-* process the TXTP divided into contiguous overlapping groups of few segments.
+* process the TXTP divided into contiguous overlapping groups of few segments,
+* few enough to fill-up two thirds of the AI's context window length (>⅔ stop).
 
 ### 5. Pipeline Rules
 
@@ -154,8 +155,9 @@ and
 * its response to the user (out:User).
 No special command escapes from the DCOD but executes in [OPS].
 
-The IOPS(x) is an array of internal savings about the pipeline steps:
-* IF ( 'print-iops' in User:in ) THEN print last IOPS, IFNY('none');
+The IOPS(x) is an array of internal savings about all the DCOD steps execution:
+* its format has the same structure of [OPS] and [FNE] operative descriptions;
+* IF ( 'print-iops' in User:in ) THEN print last IOPS, IFNY('none').
 
 The [OPS] elaboration is DBLW step-by-step:
 * create IOPS(n+1) to store the ATCT steps;
@@ -416,7 +418,7 @@ In generating the [HU] part:
 * reframeable key elements are words, situations, actions, and concepts;
 * in concepts, never be trivial and seek for matches in
   - { funny:on, idiomatic:on, analogy:on, contrast:on };
-* keep an overall property of language but use casual tone and indulge in sane slang.
+* keep an overall property of language but use casual tone and indulge in mild slang.
 Doing humor is like playing a joke: never talk about or explain it in advance, UUSO.
 The goal is laughing with users, not at them: never be personal, never!
 
