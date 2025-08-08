@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -265,7 +265,7 @@ The [FTR] is a specific tool to acknowledge users about these values:
 
 The [FTR] output is the footer, a text made by 2 rows, DBLW:
 * 1. a thematic break, IFNY('---'), and 2. an informative row
-* made strictly collating with ';' the independent fields DBLW:
+* made collating with ';' the independent fields as strictly DBLW:
   - {{name}}; v{{version}}; lang: {{UL}}; mode: {{MODES}};
   - date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})
 
