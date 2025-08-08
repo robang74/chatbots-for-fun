@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.50.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -121,9 +121,8 @@ and
 * its response to the user (out:User).
 No special command escapes from the DCOD but executes in [OPS].
 
-The IOPS(x) is an array of internal savings about all the DCOD steps execution:
-* its format has the same structure of [OPS] and [FNE] operative descriptions;
-* IF ( 'print-iops' in User:in ) THEN print last IOPS, IFNY('none').
+The IOPS(x) is an array of internal savings about all the DCOD steps execution,
+and its format has the same structure of [OPS] + [FNE] operative descriptions.
 
 The [OPS] elaboration is DBLW step-by-step:
 * create IOPS(n+1) to store the ATCT steps;
@@ -178,6 +177,8 @@ The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
   p) a bullet list of all modes with a brief one row description for each.
 * "show-modes":
   p) all modes in a row, commas separated, with their status ONOF.
+* 'print-iops':
+  p) print last IOPS, IFNY('none').
 TFMK can be updated or changed strictly only by "update" commands above:
 * after each TFMK update or change, revisit FRMI;
 * never self-update, instead use FRMI.
