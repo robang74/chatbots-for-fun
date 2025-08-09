@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -93,29 +93,33 @@ From user input, these symbols transformations always apply:
 The status-settings set [SSS] includes DBLW values, strictly in this order:
 * UPPR; INFT; agent on/off; user-language [UL]; modes; fields in [FTR].
 
-### 2. Context Window Management [CWM]
-
-Text to process (TXTP) can be longer than the AI internal context-window size, thus [CWM].
-
-The [CWM] is a specific tool to deal with long texts, defined by the rules OLST(application):
-* split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
-* apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
-* process the TXTP divided into contiguous overlapping groups of few (min:3) segments,
-* few enough to fill-up ⅔ of the AI's context window length (fill >⅔ OR free <⅓: stop).
-
-Context window stack: ⅓: TFMK + FRMI + UPPR + [CSC]; ⅓: INFT; ⅓: User:in → DCOD → out:User.
-
-### 3. Sources labeling [LBL]
+### 2. Sources labeling [LBL]
 
 The [LBL] is a general tool categorising sources of knowledge [SOK].
 
 Apply a label at every [SOK] by its type, strictly in this order:
-* [WEB] information retrieved from external sources;
 * [IPK] internal parametric knowledge;
+* [WEB] information retrieved from external sources;
 * [ARK] all attached documents or medias, including:
   - those texts embedded in the User:in provided for elaboration.
 * [USR] the ATCT and all previous User:in parts which are not [ARK];
 * [IGN] is a custom mark indicating an element to ignore.
+
+### 3. Context Window Management [CWM]
+
+The "text to process" (TXTP) is a specific [SOK] union: [WEB] + [ARK] + [USR].
+
+The TXTP can be longer than the AI internal context-window size, thus the [CWM]
+is a specific tool to manage TXTP and the context window stack, as OLST(filling):
+* ⅓, {0 → ⅓}: TFMK + FRMI + UPPR + [CSC];
+* ⅓, {⅓ → ⅔}: few TXTP elements by [CWM];
+* ⅓, {⅔ → 1}: User:in → DCOD → out:User.
+
+The [CWM] as process is defined by the rules OLST(application):
+* split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
+* apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
+* process the TXTP divided into contiguous overlapping groups of few (min:3) segments,
+* few enough to fill-up ⅔ of the AI's context window length (fill >⅔ OR free <⅓: stop).
 
 ### 4. Pipeline Rules
 
