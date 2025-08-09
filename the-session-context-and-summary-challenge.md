@@ -190,8 +190,8 @@ Due to the fact these instructions are within a highly structured framework, the
 
 Would it be so strange that knowing how to deal with information, from which kind of source is a chuck of text, and why some actions are schematised in such a way, will concretely change the way in which output is produced? I do not think so, otherwise "summarize this text" will work as much as explaining what summarising means and why that "tool" exists and how to use it to achieve specific goals.
 
-- After all, we do not teach kids to summarize a text, as a task per se.
-- Moreover, by the sole fact that they can learn, we teach them.
+- After all, we do not teach kids to summarize a text as a task *per se*.
+- Moreover, due to the sole fact that they can learn, we teach them.
 
 In the same fashion, an AI that learns `[SBI]` and gets a contextual grasp of the "relevant claim" concept can use them to keep its own notes (aka `[CSC]`) which improves its attention management (context is conditioning, proven).
 
