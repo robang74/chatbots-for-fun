@@ -75,7 +75,7 @@ The articles are listed here below, grouped by topic:
 <span id="gpu-server-saga"></span>
 * **Fujitsu Esprimo P910 E85+ w/ Nvidia Tesla K80 installation** &nbsp; (10 pz.)
 
-   - 2025-03-14 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-cooling-system-proposal-for-k80.md)] - [P910 cooling system proposal for K80](p910-cooling-system-proposal-for-k80.md) &nbsp; (2nd edt.)2
+   - 2025-03-14 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/p910-cooling-system-proposal-for-k80.md)] - [P910 cooling system proposal for K80](p910-cooling-system-proposal-for-k80.md) &nbsp; (2nd edt.)
 
    - 2025-02-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/grok3-comparison-table-value-for-money.md)] - [Value-for-Money comparative analysis](grok3-comparison-table-value-for-money.md) by Grok3
 
@@ -102,7 +102,7 @@ The articles are listed here below, grouped by topic:
 
    - 2025-08-02 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/gemini-context-retraining-for-human-rights.md)] - [Gemini context retraining for human rights](gemini-context-retraining-for-human-rights.md)
 
-   - 2025-07-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-session-context-and-summary-challenge.md)] - [The session context and summary challenge](the-session-context-and-summary-challenge.md)
+   - 2025-07-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-session-context-and-summary-challenge.md)] - [The session context and summary challenge](the-session-context-and-summary-challenge.md) &nbsp; (3rd edt.)
 
    - 2025-07-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/attenzione-e-contesto-nei-chatbot.md)] - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md) &nbsp; (5th edt.)
 
