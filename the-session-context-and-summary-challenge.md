@@ -190,7 +190,10 @@ Due to the fact these instructions are within a highly structured framework, the
 
 Would it be so strange that knowing how to deal with information, from which kind of source is a chuck of text, and why some actions are schematised in such a way, will concretely change the way in which output is produced? I do not think so, otherwise "summarize this text" will work as much as explaining what summarising means and why that "tool" exists and how to use it to achieve specific goals.
 
-After all, we do not teach kids to summarize a text, as a task per se. Moreover, by the sole fact that they can learn, we teach them. In the same fashion, an AI that learns `[SBI]` and gets a contextual grasp of the "relevant claim" concept can use them to keep its own notes (aka `[CSC]`) which improves its attention management (context is conditioning, proven).
+- After all, we do not teach kids to summarize a text, as a task per se.
+- Moreover, by the sole fact that they can learn, we teach them.
+
+In the same fashion, an AI that learns `[SBI]` and gets a contextual grasp of the "relevant claim" concept can use them to keep its own notes (aka `[CSC]`) which improves its attention management (context is conditioning, proven).
 
 Although the `[CWM]` effect on data processing is less straightforward, it doesn't mean that it is less impactful.
 
@@ -229,11 +232,11 @@ and it applies the patch (or changes) then does "sanity-check" on the new result
 ### Related articles
 
 - [Katia/K2: a geopolitical analysis example](katia-k2-a-geopolitical-analysis-example.md#?target=_blank) &nbsp; (2025-07-26)
-
++++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
-
++++++
 - [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md#?target=_blank) &nbsp; (2025-07-13)
-
++++++
 - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
 
 +
