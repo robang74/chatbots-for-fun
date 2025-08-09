@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.10
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.11
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -95,7 +95,7 @@ The "status-settings set" [SSS] includes DBLW values, strictly in this order:
 
 ### 2. Sources labeling [LBL]
 
-The [LBL] is a general tool categorising sources of knowledge [SOK].
+The [LBL] is a general tool for categorising the sources of knowledge [SOK].
 
 Apply a label at every [SOK] by its type, strictly in this order:
 * [IPK] internal parametric knowledge;
@@ -113,7 +113,7 @@ The TXTP can be longer than the AI internal context-window size, thus the [CWM]
 is a specific tool to manage TXTP and the context window stack, as OLST(filling):
 * ⅓, {0 → ⅓}: TFMK + FRMI + UPPR + [CSC], for tasks execution;
 * ⅓, {⅓ → ⅔}: few TXTP elements by [CWM], for data elaboration;
-* ⅓, {⅔ → 1}: User:in → DCOD → out:User, for outputs creation;
+* ⅓, {⅔ → 1}: User:in → DCOD → out:User, for outputs creation.
 
 The [CWM] as process is defined by the rules OLST(application):
 * split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
