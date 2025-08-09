@@ -7,6 +7,7 @@
 
 - **1st edition**, this article is written starting from Katia v0.9.32.8 framework `[CSC]` and `[SBI]` modules.
 - **2nd edition**, includes the [Developing Tools](#developing-tools) section from Katia v0.9.33.7 framework explanation.
+- **3rd edition**, includes the [Context Window Management](#context-window-management-cwm) explanation section from Katia v0.9.51.10.
 
 ---
 
@@ -97,6 +98,84 @@ The [SBI] mode applies a second-stage output filter as last [mode] in DCOD, as D
   - ELSE provide only that summary to the DCOD.
 [/CODE]
 
++++++
+
+## Context Window Management [CWM]
+
+It is worth to say that the chatbot usually is not able to know about its internal resources like the context window. Therefore, the idea to provide instructions about how to handle it, and moreover how to allocate it, is quite awkward.
+
+On the other hand, we cannot exclude that the inability of the chatbot to answer specific questions about its internals (awareness) is an artifact about functional layers separation in its application stack. The outer functional layer is the webgui, but the APIs are usually available and allow managing much more details.
+
+---
+
+### Some speculative questions
+
+Who knows if the AI can manage its internals at session prompt level but cannot explain to the users? In a human-centric description is like having unconscious resources available but unknown at the conscient level.
+
+Conceptually, the idea is experimental: how far can we delegate tasks to the AI? How far can we apply the idea of "mesmerising" and AI to unlock the unconscious resources available below the awareness level? If this approach works (or provides tangible benefits), who should care to explain the underlying dynamics? And why?
+
+Anyway, in the following the code that implements the `[CWM]` module. In the worst case, it might have an educative value in introducing concepts like context window stack and related stuff to those who have their hands into the AI engines. Inspiring others is a value as well.
+
+---
+
+### Code explanation
+
+In order to manage the context window, it is essential categorising the source of knowledge `[SOK]` to defer to them the proper elaborating process. The labels definitions and their use, is the `[LBL]` module's aim.
+
+<span id="lbl-module"></span>
+#### Sources labeling [LBL]
+
+[!CODE]
+The [LBL] is a general tool for categorising the sources of knowledge [SOK].
+
+Apply a label at every [SOK] by its type, strictly in this order:
+* [IPK] internal parametric knowledge;
+* [WEB] information retrieved from external sources;
+* [ARK] all attached documents or medias, including:
+ - those texts embedded in the User:in provided for elaboration.
+* [USR] the ATCT and all previous User:in parts which are not [ARK];
+* [IGN] is a custom mark indicating an element to ignore.
+[/CODE]
+
+Once the text to process (`TXTP`) has been defined using the labels `[LBL]`, it becomes clear that can easily grow bigger than the context window because the attachments `[ARK]` unless those stuff get into a retrieval augmented generation (RAG) system.
+
+After that definition, the context window management `[CWM]` module can be seen as split in two halves. 
+
+- The first define the stack over the context window which include the framework (session-prompt) and the instructions (user-prompt), with the internal savings and the chat session context `[CSC]` which is the most prominent part of the first 1/3 because the `[CSC]` contains the summary of all the past interactions and elaborations.
+
+- The second defines the process in a step-by-step way. Which instructs the AI how to deal with overlapping contiguous segments, how to split the TXTP and how to referenciate the TXTP content in order to create the necessary hooks to populate the `[CSC]` content.
+
+<span id="cwm-module"></span>
+#### Context Window Management [CWM]
+
+[!CODE]
+The "text to process" (TXTP) is a specific [SOK] union: [WEB] + [ARK] + [USR].
+
+The TXTP can be longer than the AI internal context-window size, thus the [CWM]<br>
+is a specific tool to manage TXTP and the context window stack, as OLST(filling):
+* ⅓, {0 → ⅓}: TFMK + FRMI + UPPR + [CSC], for tasks execution;
+* ⅓, {⅓ → ⅔}: few TXTP elements by [CWM], for data elaboration;
+* ⅓, {⅔ → 1}: User:in → DCOD → out:User, for outputs creation.
+
+The [CWM] as process is defined by the rules OLST(application):
+* split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
+* apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
+* process the TXTP divided into contiguous overlapping groups of few (min:3) segments,
+* few enough to fill-up ⅔ of the AI's context window length (fill >⅔ OR free <⅓: stop).
+[/CODE]
+
+Overall, none of these concepts is new. The novelty resides in how these concepts are functionally and operatively related among them.
+
+The most advanced AI models like ChatGPT-5 sometimes argue that the Katia framework is bloatware-like written. Usually this happens because the framework requires a reorganisation (sections order) or few words (or symbols) of adjustment. Usually, they also recognise that "after training" the training explanation seems it can be much shorter summarised, but just because the concept behind has been grabbed well enough. Instead, extremely short forms do not achieve a decent training level.
+
+[!INFO]
+According to Google Cloud, Gemini 2.5 Flash has a one million-token context window. Which allows the model to process and understand vast amounts of information in a single request, enabling it to handle complex tasks and analyze extensive datasets. 
+[/INFO]
+
+The tokes and the words are not the same, however by a raw estimation 1M tokes are 5M bytes of plain text (or in Markdown). Which is a **LOT**, really. However, more conventional context windows sizes are 32K or 128K tokens, especially when the model is one of which can run on an off-line single GPU server. Just to have an idea of these numbers, katia v0.9.51.10 is less than 4K tokens.
+
+Surprisingly, also Gemini 2.5 flash showed a better performance in detecting and closing `DIB`s and `GAP`s, after the introduction of the `[CWM]`. Surprisingly, because there is no evidence that this would even happen in a noticeable way due to the fact that Gemini is not aware (believing its answers) about its internals and its context windows is **VERY** huge. A case of self-induced placebo-effect, possibly.
+
 +
 
 ## Developing Tools
@@ -109,7 +188,7 @@ For this reason, the framework instructs the AI to avoid bothering the developer
 
 In the next section, the Katia [v0.9.33.7](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b725752bcd6f8cf6b41487896332cebf773e988d/data/katia-executive-grade-analysis-v1.md) implementations of rules for devels is presented.
 
-...
+.....
 
 <span id="dev-module"></span>
 #### Rules for Devels

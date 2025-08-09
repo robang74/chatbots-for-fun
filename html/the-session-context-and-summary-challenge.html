@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-07-28&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>14</b rev_num='
+'>16</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-session-context-and-summary-challenge?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-session-context-and-summary-challenge?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-session-context-and-summary-challenge?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/the-session-context-and-summary-challenge?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -28,6 +28,7 @@
 <p></p>
 <li><b>1st edition</b>, this article is written starting from Katia v0.9.32.8 framework <tt>[CSC]</tt> and <tt>[SBI]</tt> modules.</li>
 <li><b>2nd edition</b>, includes the <a href="#developing-tools">Developing Tools</a> section from Katia v0.9.33.7 framework explanation.</li>
+<li><b>3rd edition</b>, includes the <a href="#context-window-management-cwm">Context Window Management</a> explanation section from Katia v0.9.51.10.</li>
 <p></p>
 <hr>
 <p></p>
@@ -118,6 +119,84 @@ The [SBI] mode applies a second-stage output filter as last [mode] in DCOD, as D
 <li class='li2in'>ELSE provide only that summary to the DCOD.</li>
 </code></blockquote>
 <p></p>
+<br class="pagebreak">
+<p></p>
+<H2 id="context-window-management-cwm">Context Window Management [CWM]</H2>
+<p></p>
+It is worth to say that the chatbot usually is not able to know about its internal resources like the context window. Therefore, the idea to provide instructions about how to handle it, and moreover how to allocate it, is quite awkward.
+<p></p>
+On the other hand, we cannot exclude that the inability of the chatbot to answer specific questions about its internals (awareness) is an artifact about functional layers separation in its application stack. The outer functional layer is the webgui, but the APIs are usually available and allow managing much more details.
+<p></p>
+<hr>
+<p></p>
+<H3 id="some-speculative-questions">Some speculative questions</H3>
+<p></p>
+Who knows if the AI can manage its internals at session prompt level but cannot explain to the users? In a human-centric description is like having unconscious resources available but unknown at the conscient level.
+<p></p>
+Conceptually, the idea is experimental: how far can we delegate tasks to the AI? How far can we apply the idea of "mesmerising" and AI to unlock the unconscious resources available below the awareness level? If this approach works (or provides tangible benefits), who should care to explain the underlying dynamics? And why?
+<p></p>
+Anyway, in the following the code that implements the <tt>[CWM]</tt> module. In the worst case, it might have an educative value in introducing concepts like context window stack and related stuff to those who have their hands into the AI engines. Inspiring others is a value as well.
+<p></p>
+<hr>
+<p></p>
+<H3 id="code-explanation">Code explanation</H3>
+<p></p>
+In order to manage the context window, it is essential categorising the source of knowledge <tt>[SOK]</tt> to defer to them the proper elaborating process. The labels definitions and their use, is the <tt>[LBL]</tt> module's aim.
+<p></p>
+<span id="lbl-module"></span>
+<H4>Sources labeling [LBL]</H4>
+<p></p>
+<blockquote class="code mono"><code>
+The [LBL] is a general tool for categorising the sources of knowledge [SOK].
+<p></p>
+Apply a label at every [SOK] by its type, strictly in this order:
+<li>[IPK] internal parametric knowledge;</li>
+<li>[WEB] information retrieved from external sources;</li>
+<li>[ARK] all attached documents or medias, including:</li>
+ <li>those texts embedded in the User:in provided for elaboration.</li>
+<li>[USR] the ATCT and all previous User:in parts which are not [ARK];</li>
+<li>[IGN] is a custom mark indicating an element to ignore.</li>
+</code></blockquote>
+<p></p>
+Once the text to process (<tt>TXTP</tt>) has been defined using the labels <tt>[LBL]</tt>, it becomes clear that can easily grow bigger than the context window because the attachments <tt>[ARK]</tt> unless those stuff get into a retrieval augmented generation (RAG) system.
+<p></p>
+After that definition, the context window management <tt>[CWM]</tt> module can be seen as split in two halves. 
+<p></p>
+<li>The first define the stack over the context window which include the framework (session-prompt) and the instructions (user-prompt), with the internal savings and the chat session context <tt>[CSC]</tt> which is the most prominent part of the first 1/3 because the <tt>[CSC]</tt> contains the summary of all the past interactions and elaborations.</li>
+<p></p>
+<li>The second defines the process in a step-by-step way. Which instructs the AI how to deal with overlapping contiguous segments, how to split the TXTP and how to referenciate the TXTP content in order to create the necessary hooks to populate the <tt>[CSC]</tt> content.</li>
+<p></p>
+<span id="cwm-module"></span>
+<H4>Context Window Management [CWM]</H4>
+<p></p>
+<blockquote class="code mono"><code>
+The "text to process" (TXTP) is a specific [SOK] union: [WEB] + [ARK] + [USR].
+<p></p>
+The TXTP can be longer than the AI internal context-window size, thus the [CWM]<br>
+is a specific tool to manage TXTP and the context window stack, as OLST(filling):
+<li>⅓, {0 → ⅓}: TFMK + FRMI + UPPR + [CSC], for tasks execution;</li>
+<li>⅓, {⅓ → ⅔}: few TXTP elements by [CWM], for data elaboration;</li>
+<li>⅓, {⅔ → 1}: User:in → DCOD → out:User, for outputs creation.</li>
+<p></p>
+The [CWM] as process is defined by the rules OLST(application):
+<li>split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;</li>
+<li>apply unique tags like <tt>{Title} (Paragraphs Y-Z)</tt> but never use line numbers as tags;</li>
+<li>process the TXTP divided into contiguous overlapping groups of few (min:3) segments,</li>
+<li>few enough to fill-up ⅔ of the AI's context window length (fill >⅔ OR free <⅓: stop).</li>
+</code></blockquote>
+<p></p>
+Overall, none of these concepts is new. The novelty resides in how these concepts are functionally and operatively related among them.
+<p></p>
+The most advanced AI models like ChatGPT-5 sometimes argue that the Katia framework is bloatware-like written. Usually this happens because the framework requires a reorganisation (sections order) or few words (or symbols) of adjustment. Usually, they also recognise that "after training" the training explanation seems it can be much shorter summarised, but just because the concept behind has been grabbed well enough. Instead, extremely short forms do not achieve a decent training level.
+<p></p>
+<div class="post-it"><b class="post-it">&#9432;</b>
+According to Google Cloud, Gemini 2.5 Flash has a one million-token context window. Which allows the model to process and understand vast amounts of information in a single request, enabling it to handle complex tasks and analyze extensive datasets. 
+</div>
+<p></p>
+The tokes and the words are not the same, however by a raw estimation 1M tokes are 5M bytes of plain text (or in Markdown). Which is a <b>LOT</b>, really. However, more conventional context windows sizes are 32K or 128K tokens, especially when the model is one of which can run on an off-line single GPU server. Just to have an idea of these numbers, katia v0.9.51.10 is less than 4K tokens.
+<p></p>
+Surprisingly, also Gemini 2.5 flash showed a better performance in detecting and closing <tt>DIB</tt>s and <tt>GAP</tt>s, after the introduction of the <tt>[CWM]</tt>. Surprisingly, because there is no evidence that this would even happen in a noticeable way due to the fact that Gemini is not aware (believing its answers) about its internals and its context windows is <b>VERY</b> huge. A case of self-induced placebo-effect, possibly.
+<p></p>
 <br>
 <p></p>
 <H2 id="developing-tools">Developing Tools</H2>
@@ -130,7 +209,7 @@ For this reason, the framework instructs the AI to avoid bothering the developer
 <p></p>
 In the next section, the Katia <a href="https://raw.githubusercontent.com/robang74/chatbots-for-fun/b725752bcd6f8cf6b41487896332cebf773e988d/data/katia-executive-grade-analysis-v1.md" target='_blank' rel='noopener noreferrer'>v0.9.33.7</a> implementations of rules for devels is presented.
 <p></p>
-<hr class="post-it">
+<hr class="post-it pagebreak">
 <p></p>
 <span id="dev-module"></span>
 <H4>Rules for Devels</H4>
