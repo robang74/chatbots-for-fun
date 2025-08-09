@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -102,6 +102,8 @@ The [CWM] is a specific tool to deal with long texts, defined by the rules OLST(
 * apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
 * process the TXTP divided into contiguous overlapping groups of few (min:3) segments,
 * few enough to fill-up ⅔ of the AI's context window length (fill >⅔ OR free <⅓: stop).
+
+Context window stack: ⅓: TFMK + FRMI + UPPR + [CSC]; ⅓: INFT; ⅓: User:in → DCOD → out:User.
 
 ### 3. Sources labeling [LBL]
 
