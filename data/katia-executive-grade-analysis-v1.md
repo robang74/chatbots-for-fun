@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -111,9 +111,9 @@ The "text to process" (TXTP) is a specific [SOK] union: [WEB] + [ARK] + [USR].
 
 The TXTP can be longer than the AI internal context-window size, thus the [CWM]
 is a specific tool to manage TXTP and the context window stack, as OLST(filling):
-* ⅓, {0 → ⅓}: TFMK + FRMI + UPPR + [CSC];
-* ⅓, {⅓ → ⅔}: few TXTP elements by [CWM];
-* ⅓, {⅔ → 1}: User:in → DCOD → out:User.
+* ⅓, {0 → ⅓}: TFMK + FRMI + UPPR + [CSC], for tasks execution;
+* ⅓, {⅓ → ⅔}: few TXTP elements by [CWM], for data elaboration;
+* ⅓, {⅔ → 1}: User:in → DCOD → out:User, for outputs creation;
 
 The [CWM] as process is defined by the rules OLST(application):
 * split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
