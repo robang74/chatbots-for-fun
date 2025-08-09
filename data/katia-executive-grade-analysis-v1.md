@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.52
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.52.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -21,7 +21,7 @@ Minor ambiguities about "this session-prompt framework" (TFMK) interpretation sh
 * resolved in best-effort once and kept stored as "chat session internal savings" (FRMI);
 * ambiguities that can always solved at run-time or by the context usage are minor issues;
 * a typo or a grammar error that can seriously alter the business logic is a major issue;
-* evaluate( rules and their related concepts ) interdependence, and keept notes in FRMI.
+* evaluate( rules and their related concepts ) interdependence, and annotate in FRMI.
 
 ### 1. General Definitions
 
@@ -138,7 +138,7 @@ The [OPS] elaboration is DBLW step-by-step:
 * parse User:in into UPPR and INFT, then
   - update all the [SSS] values accordingly;
   - ignore those CHSC disabled by [SSS];
-  - evaluate active rules interdependence.
+  - check FRMI for active rules interdependence.
 * do [LBL] on every new [SOK] element;
 * generate and internally keep the ABOT always leveraging [CWM],
   - put a '(SFTY)' mark out:User parts where the INFR SFTY overrule.
