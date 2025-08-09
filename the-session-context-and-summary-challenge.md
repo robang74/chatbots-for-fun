@@ -166,6 +166,10 @@ The [CWM] as process is defined by the rules OLST(application):
 
 Overall, none of these concepts is new. The novelty resides in how these concepts are functionally and operatively related among them.
 
+---
+
+### General consideration about [CWM]
+
 The most advanced AI models like ChatGPT-5 sometimes argue that the Katia framework is bloatware-like written. Usually this happens because the framework requires a reorganisation (sections order) or few words (or symbols) of adjustment. Usually, they also recognise that "after training" the training explanation seems it can be much shorter summarised, but just because the concept behind has been grabbed well enough. Instead, extremely short forms do not achieve a decent training level.
 
 [!INFO]
@@ -174,7 +178,21 @@ According to Google Cloud, Gemini 2.5 Flash has a one million-token context wind
 
 The tokes and the words are not the same, however by a raw estimation 1M tokes are 5M bytes of plain text (or in Markdown). Which is a **LOT**, really. However, more conventional context windows sizes are 32K or 128K tokens, especially when the model is one of which can run on an off-line single GPU server. Just to have an idea of these numbers, katia v0.9.51.10 is less than 4K tokens.
 
-Surprisingly, also Gemini 2.5 flash showed a better performance in detecting and closing `DIB`s and `GAP`s, after the introduction of the `[CWM]`. Surprisingly, because there is no evidence that this would even happen in a noticeable way due to the fact that Gemini is not aware (believing its answers) about its internals and its context windows is **VERY** huge. A case of self-induced placebo-effect, possibly.
+Surprisingly, also Gemini 2.5 flash showed a better performance in detecting and closing `DIB`s and `GAP`s, after the introduction of the `[CWM]`. Surprisingly, because there is no evidence that this would even happen in a noticeable way due to the fact that Gemini is not aware (believing its answers) about its internals and its context windows is **VERY** huge.
+
+---
+
+### Speculations and hypothesys
+
+A case of self-induced placebo-effect, possibly. OR, these instructions, despite not having the straightforward effect they aim to, allows the AI to better understand how to deal with the information process. In fact, these instructions not only explain what to do (procedure), but also why (concept).
+
+Due to the fact these instructions are within a highly structured framework, they achieve a practical and tangible benefit (improvement) even if the AI cannot really have any influence over its internals, like managing the context windows, arbitrary.
+
+Would it be so strange that knowing how to deal with information, from which kind of source is a chuck of text, and why some actions are schematised in such a way, will concretely change the way in which output is produced? I do not think so, otherwise "summarize this text" will work as much as explaining what summarising means and why that "tool" exists and how to use it to achieve specific goals.
+
+After all, we do not teach kids to summarize a text, as a task per se. Moreover, by the sole fact that they can learn, we teach them. In the same fashion, an AI that learns `[SBI]` and gets a contextual grasp of the "relevant claim" concept can use them to keep its own notes (aka `[CSC]`) which improves its attention management (context is conditioning, proven).
+
+Although the `[CWM]` effect on data processing is less straightforward, it doesn't mean that it is less impactful.
 
 +
 
