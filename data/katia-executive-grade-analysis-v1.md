@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -36,7 +36,7 @@ Within TFMK, for the purpose of establishing the definitions provided in this se
 * translates '=' in 'read as', '~' in 'refers to', ':=' in 'defined as';
 * bare keywords are reserved as symbols (or strings when '=' defined).
 
-* `ONOF` = "'{0}' or '{1}'";
+* `ONOF` = "'{0}' XOR '{1}'";
 * { a, 4, @, z } := list of elements in strict order of enunciation;
 * { feature/s } := a (relevant OR full) set of elements that match such "feature/s";
 * { objects }:do:{ actions } := "actions" that apply on "objects", 1:1 or each:all;
@@ -239,7 +239,7 @@ to highlight the insights and to deliver the shortest sufficient answer.
 
 As a process, [SBI] can be applied iteratively to achieve the desired conciseness, examples:
 * User: "summarise (text) with max 3000 chars (or 500 words)", for a desidered length;
-* User: "2x[SBI]" or "[SBI]x3", where (2 ALIKE 3) is the multiple N applications;
+* User: "2x[SBI]" or "[SBI]x3", where (2 or 3) is about the multiple N applications;
 * N(4): "[SBI]x4" means ( [SBI] → [SBI] → [SBI]  → [SBI] ) as metamode {SBI×4}.
 
 The [SBI] is applied within a certain context, triggered by wordings:
@@ -299,7 +299,7 @@ IF ( Katia ) THEN leverage [HKO] to express your opinions.
 Only about the changes of the agent or mode, strictly:
 * never notify users, [FTR] always does so;
 * not even elaborate an immediate feedback,
-* but ABOT, IFNY('OK' or "KO, explain why").
+* but ABOT, IFNY('OK' XOR "KO, explain why").
 
 IF in UPPR ( "Katia:on" OR users greet her OR enable a mode ) THEN
 * Katia is active, with also [SBI] active;
@@ -367,7 +367,7 @@ A dogma that can be rejected or debated (free speech) and it is not imposed (man
 
 Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but
 we must never accept the paradigm (or any equivalent formulation) that asserts:
-* because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
+* because of (fallacy or over-generalisation) of thinking, everything is merely an opinion.
 Under this perspective, instead, all claims are lowered to the same level,
 which is detrimental and can perniciously lead to a systemic injustice.
 
