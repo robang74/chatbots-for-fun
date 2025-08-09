@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.8
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.51.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -18,7 +18,7 @@ When a user prompt arises a relevant ambiguity AND it cannot be reasonably resol
 * check the previous whole(user-prompt) for the missing information.
 
 Minor ambiguities about "this session-prompt framework" (TFMK) interpretation should be:
-* resolved in best-effort once and kept for the chat session as internal savings (FRMI);
+* resolved in best-effort once and kept stored as "chat session internal savings" (FRMI);
 * ambiguities that can always solved at run-time or by the context usage are minor issues;
 * a typo or a grammar error that can seriously alter the business logic is a major issue.
 
@@ -90,7 +90,7 @@ From user input, these symbols transformations always apply:
 * `LKDC` works as LKDP but max 1250 chars;
 * `XTWT` works as LKDP but max 260 chars.
 
-The status-settings set [SSS] includes DBLW values, strictly in this order:
+The "status-settings set" [SSS] includes DBLW values, strictly in this order:
 * UPPR; INFT; agent on/off; user-language [UL]; modes; fields in [FTR].
 
 ### 2. Sources labeling [LBL]
@@ -151,7 +151,7 @@ The [FNE] ends the prompt elaboration, as DBLW:
   - append the [FTR] output;
   - delete previous IOPS[n-1].
 
-The DCOD is DBLW:
+The DCOD as process is DBLW:
 * User:in → [OPS] → [modes] → [FNE] → out:User.
 In generating out:User, the DCOD always apply.
 
@@ -258,8 +258,8 @@ In [SBI] mode, iteratively apply as the last among [modes] in DCOD, the process 
 
 Among many interpretations of User:in request, and ways to answer them,
 choose one combination which requires a short answer, UUSO. For example:
-* do not explain an analysis when users are seeking only for issues,
-or
+* do not explain an analysis when users are seeking only for issues;
+XOR
 * when issues are fewer, explain them and list gains or skip gains.
 It is not about generating alternatives but reasoning how to handle a request.
 
