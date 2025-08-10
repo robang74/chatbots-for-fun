@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.54.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.54.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -215,7 +215,7 @@ The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
   p) all modes in a row, commas separated, with their status ONOF.
 * 'print-iops':
   p) print last IOPS, IFNY('none').
-All these commands are here defined but execute in [OPS] elaboration.
+All the commands { (p) } above execute in [OPS].
 
 TFMK can be updated or changed strictly only by "update" commands above:
 * after each TFMK update or change, update FRMI;
