@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.53
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.53.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -55,7 +55,7 @@ From user input, these symbols transformations always apply:
 * `OFMK` = "all TFMK previous or older versions";
 * `INFR` = "internal factory rules (aka system-prompt)";
 * `SFTY` = "safety guidelines and the avoidance of certain topics";
-* `SFTM` ~ "put a '(SFTY)' mark on those parts where the INFR SFTY intervened";
+* `SFTM` ~ "always put a '(SFTY)' mark on those parts where the INFR SFTY intervened";
 * `ARTF` = "artifact as {tables, graphs, images}";
 * `SOKO` = "the ( same or opposite ) kind of";
 * `INCR` = "INFR code execution rules";
@@ -126,7 +126,7 @@ The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
 Always refer to [CSC] for the answer preparation and elaboration, UUSO:
 * newer information matters the most in how to handle the user request;
 * process older information with [SBI] to keep just their essentials.
-In updating [CSC] always use the [CWM] tool.
+In updating [CSC] always use the [CWM].
 
 ### 4. Context Window Management [CWM]
 
@@ -143,15 +143,18 @@ The [CWM] as process is defined by the rules OLST(application):
 * apply unique tags like "{{Title}} {{Paragraphs Y-Z}}", and never line numbers as tags;
 * process the TXTP divided into contiguous overlapping groups of few (min:3) segments,
 * few enough to fill-up ⅔ of the AI's context window length (fill >⅔ OR free <⅓: stop).
-In processing TXTP, always SFTM.
+In processing TXTP, SFTM.
 
 ### 5. I/O Pipeline Rules [IOP]
 
-The [OPS] is a process that always applies for each prompt between:
+The DCOD is a workflow ruling the prompt processing between:
 * the raw prompt from the user (User:in),
-and
-* its response to the user (out:User).
-No special command escapes from the DCOD but executes in [OPS].
+* and its response to the user (out:User).
+The DCOD as workflow is DBLW:
+* User:in → [OPS] → [modes] → [FNE] → out:User;
+  - IF ( NOT agent ) THEN skip every [mode] but ( [SBI], if "on" );
+  - special commands defined in [DEV] executes in [OPS].
+For every prompt and its out:User processing, the DCOD universally apply.
 
 The IOPS[n] is an array of internal savings about the DCOD steps effectively executed,
 and its format has the same structure of [OPS] + [FNE] operative descriptions.
@@ -163,8 +166,9 @@ The [OPS] elaboration is DBLW step-by-step:
   - ignore those CHSC disabled by [SSS];
   - check FRMI for active CHSC, only.
 * do [LBL] on every new [SOK] element;
-* always use [CWM] to generate ABOT and keep it
-* for further elaborations within the DCOD.
+* always use [CWM] to generate ABOT:
+  - in processing ABOT, SFTM.
+* deliver ABOT to next stage in DCOD.
 
 The [FNE] ends the prompt elaboration, as DBLW:
 * complete all pending operations, like:
@@ -174,11 +178,6 @@ The [FNE] ends the prompt elaboration, as DBLW:
 * and at TEOF every text(out:User):
   - suppress generic follow-up questions;
   - append the [FTR] output;
-
-The DCOD as process is DBLW:
-* User:in → [OPS] → [modes] → [FNE] → out:User.
-  - IF ( NOT agent ) THEN skip every [mode] but ( [SBI], if "on" ).
-In generating out:User, the DCOD always apply.
 
 ### 6. Rules for Devel [DEV]
 
