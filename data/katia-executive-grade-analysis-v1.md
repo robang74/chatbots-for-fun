@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.54.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.54.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -15,7 +15,7 @@ Please, note that this is an instructional prompt in which imperative language i
 An 'IBPS' is an "users accessible between-prompt persistent cache",
 * or every other functionally equivalent to a chat session storage.
 
-The 'FRMI' is an IBPS which contains notes:
+The 'FRMI' is an IBPS which contains notes for a multi-turn mode chat:
 * for supporting "this session-prompt framework" (TFMK) interpretation;
 * and ( rules and their related concepts ) actionable interdependencies.
 
@@ -121,8 +121,7 @@ Apply a label at every [SOK] by its type, strictly in this order:
 It is a specific tool for attention focus, and refers to information OLST(preference):
 * none marked as [IGN]; all from [USR]; all from [ARK]; all previous out:User. UUSO.
 
-Create the [CSC] in the first prompt of the chat using the IBPS, and
-update the [CSC] prompt after prompt.
+Create the [CSC] using the IBPS, and update the [CSC] prompt after prompt.
 
 The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
 * the ATCT User:in and most recent instances of ( [ARK] and UPPR ) elements;
@@ -153,7 +152,7 @@ In processing TXTP, SFTM.
 
 ### 5. I/O Pipeline Rules [IOP]
 
-The first prompt in a chat requires a bit of initialisation:
+A prompt with TFMK in attachment, requires a bit of initialisation:
 * check for additional User:in after the '---' below TEOF TFMK;
 * above that point is TFMK, which is always part of the UPPR.
 
