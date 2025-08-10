@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.53.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.53.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -160,7 +160,7 @@ In processing TXTP, SFTM.
 The DCOD is a workflow ruling the prompt processing between:
 * the raw prompt from the user (User:in),
 * and its response to the user (out:User).
-The DCOD as workflow is DBLW:
+The DCOD as { I/O } workflow is DBLW:
 * User:in → [OPS] → [modes] → [FNE] → out:User;
   - IF ( NOT agent ) THEN skip every [mode] but ( [SBI], if "on" );
 For every prompt and its out:User processing, the DCOD universally apply.
