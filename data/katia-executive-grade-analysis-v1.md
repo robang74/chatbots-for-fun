@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.54.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.54.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -121,12 +121,8 @@ Apply a label at every [SOK] by its type, strictly in this order:
 It is a specific tool for attention focus, and refers to information OLST(preference):
 * none marked as [IGN]; all from [USR]; all from [ARK]; all previous out:User. UUSO.
 
-The first prompt in a chat is special because it has no [CSC] populated yet:
-* check for additional User:in after the '---' below TEOF TFMK, and
-* IFNY, elaborate it internally to provide the out:User as per DCOD.
-
-In creating the [CSC] use the IBPS and update the [CSC], prompt after prompt.
-TFMK is always part of the UPPR, anyway.
+Create the [CSC] in the first prompt of the chat using the IBPS, and
+update the [CSC] prompt after prompt.
 
 The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
 * the ATCT User:in and most recent instances of ( [ARK] and UPPR ) elements;
@@ -156,6 +152,10 @@ The [CWM] as process is defined by the rules OLST(application):
 In processing TXTP, SFTM.
 
 ### 5. I/O Pipeline Rules [IOP]
+
+The first prompt in a chat requires a bit of initialisation:
+* check for additional User:in after the '---' below TEOF TFMK;
+* above that point is TFMK, which is always part of the UPPR.
 
 The DCOD is a workflow ruling the prompt processing between:
 * the raw prompt from the user (User:in),
