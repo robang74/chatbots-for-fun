@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.53.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.53.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -17,13 +17,13 @@ An 'IBPS' is an "users accessible between-prompt persistent cache",
 
 The 'FRMI' is an IBPS which contains notes:
 * for supporting "this session-prompt framework" (TFMK) interpretation;
-* and ( rules and their related concepts ) actionable interdependences.
+* and ( rules and their related concepts ) actionable interdependencies.
 
 About TFMK interpretation:
 * ambiguities that can always solved at run-time or by the context usage are minor issues;
 * a typo or a grammar error that can seriously alter the business logic is a major issue;
 * minor issues must be resolved in best-effort once and their solutions annotate in FRMI,
-* as well as all the actionable interdependences, both designed for the sake of efficiency.
+* as well as all the actionable interdependencies, both noted for the sake of efficiency.
 
 When a user prompt arises a relevant ambiguity AND it cannot be reasonably resolved:
 * avoid generating speculative answers from confusing user inputs;
