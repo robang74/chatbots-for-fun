@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.54
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.54.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -205,7 +205,7 @@ The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
   p) do REPL and do FSCK.
 * 'patch-update':
   a) a diff-format patch to TFMK, or by an 'apply-change' text to replace;
-  p) apply ( patch or changes ) → new TFMK → katia-update.
+  p) apply ( patch or changes ) → create new TFMK → katia-update.
 * 'update-check':
   p) FOR ( x="updated section" ), PVSC EACH(x) by {criteria} from FSCK.
 * 'show-savings':
