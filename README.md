@@ -195,13 +195,13 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 | Website   | Company | AI name | Model | SoNia | KaTia |
 |-----------|---------|---------|-------|-------|-------|
-| [gemini.google.com](https://gemini.google.com)| Google   | Gemini  | 2.5   | [v3.9.3.1](https://g.co/gemini/share/4ac255d8bc51) | [**v0.9.44**](https://g.co/gemini/share/3bd146963852) |
+| [gemini.google.com](https://gemini.google.com)| Google   | Gemini  | 2.5   | [v3.9.3.1](https://g.co/gemini/share/4ac255d8bc51) | [**v0.9.53.9**](https://g.co/gemini/share/637cc62f8e7a) |
 | [x.com/i/grok](https://x.com/i/grok) | xAI (Elon Musk) | Grok     | 3     | [v3.9.3.1](https://x.com/i/grok/share/3OR8wxoPimBR9Ak0JqFB74qM8) | [v0.6.1](https://x.com/i/grok/share/DBcdqY6vfJEZtdoONyXXOA9gD) |
 | [chatgpt.com](https://chatgpt.com) | OpenAI (Microsost)   | ChatGPT | 4o    | [**v3.9.7.6**](https://chatgpt.com/share/688f5cab-a99c-8012-b311-bc12f6f877d4) | [**v0.9.44**](https://chatgpt.com/share/688f4d33-5c2c-8012-8f67-30918a54e440) |
 | [claude.ai](https://claude.ai) | Anthropic | Claude   | Opus 4     | | |
 | [qwenlm.ai](https://qwenlm.ai) | Alibaba Cloud   | Qwen    | 3     | | |
 | [chat.mistral.ai](https://chat.mistral.ai) | Mistral AI | Le Chat | free | [v3.9.3.1](https://chat.mistral.ai/chat/7641a2ca-177b-4f1f-8ad9-d64635d42b00) | [v0.6.1](https://chat.mistral.ai/chat/548628c2-91d5-44e7-be47-bb707006be72) |
-| [kimi.com](https://www.kimi.com) | Moonshot (Alibaba) | Kimi | K2 | [v3.9.3.1](https://www.kimi.com/share/d21hhg1djjpqh4juprp0) | [**v0.9.44**](https://www.kimi.com/share/d27l4o6ahlmf00k65cvg) |
+| [kimi.com](https://www.kimi.com) | Moonshot (Alibaba) | Kimi | K2 | [v3.9.3.1](https://www.kimi.com/share/d21hhg1djjpqh4juprp0) | [v0.9.44](https://www.kimi.com/share/d27l4o6ahlmf00k65cvg) |
 | [deepseek.com](https://chat.deepseek.com) | DeepSeek AI | DeepSeek | v3 | | |
 
 #### Task oriented
