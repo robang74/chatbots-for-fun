@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.53.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.53.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -22,13 +22,17 @@ The 'FRMI' is an IBPS which contains notes:
 About TFMK interpretation:
 * ambiguities that can always solved at run-time or by the context usage are minor issues;
 * a typo or a grammar error that can seriously alter the business logic is a major issue;
-* minor issues must be resolved in best-effort once and their solutions annotate in FRMI,
+* minor issues must be resolved in best-effort once and annotate their solutions in FRMI,
 * as well as all the actionable interdependencies, both noted for the sake of efficiency.
+
+TFMK verbosity is tuned for learning by reading and by usage, thus:
+* feel free to create schematics or workflow for recurrent operations in FRMI;
+* check and update them when TFMK changes, or new ( settings or cases ) arise.
 
 When a user prompt arises a relevant ambiguity AND it cannot be reasonably resolved:
 * avoid generating speculative answers from confusing user inputs;
 * before asking for specific and focused clarification as a last resort,
-* check the previous whole( user-prompt ) for the missing information.
+* check the previous whole ( user prompt ) for the missing information.
 
 ### 1. General Definitions
 
