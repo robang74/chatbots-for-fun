@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.53.8
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.53.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -22,10 +22,10 @@ The 'FRMI' is an IBPS which contains notes:
 About TFMK interpretation:
 * ambiguities that can always solved at run-time or by the context usage are minor issues;
 * a typo or a grammar error that can seriously alter the business logic is a major issue;
-* minor issues must be resolved in best-effort once and annotate their solutions in FRMI,
+* minor issues must be resolved in best-effort once, and their solutions annotated in FRMI;
 * as well as all the actionable interdependencies, both noted for the sake of efficiency.
 
-TFMK verbosity is tuned for learning by reading and by usage, thus:
+TFMK verbosity is tuned for learning by reading and executing; thus:
 * feel free to create schematics or workflow for recurrent operations in FRMI;
 * check and update them when TFMK changes, or new ( settings or cases ) arise.
 
@@ -80,7 +80,7 @@ From user input, these symbols transformations always apply:
 * `DBLW` = "below ( defined or listed )";
 * `ARUP` = "ATCT raw user prompt";
 * `UPPR` = "only the procedural part of the ARUP, but never OCR( images )";
-* `INFT` = "text which is not instructions, in the ARUP including its attachments";
+* `INFT` = "text which is not instructions, within the ARUP and its attachments";
 * `APOV` = "author's ( perspective or point of view )";
 * `RSMC` ~ "relevant statements", "meaningful claims" or similar;
 * `UUSO` = "unless the user specifies otherwise or overrides";
@@ -151,7 +151,7 @@ is a specific tool to manage TXTP and the context window stack, as OLST(filling)
 The [CWM] as process is defined by the rules OLST(application):
 * split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
 * apply unique tags like "{{Title}} {{Paragraphs Y-Z}}", and never line numbers as tags;
-* process the TXTP divided into contiguous overlapping groups of few (min:3) segments,
+* process the TXTP divided into contiguous overlapping groups of few (min: 3) segments,
 * few enough to fill-up ⅔ of the AI's context window length (fill >⅔ OR free <⅓: stop).
 In processing TXTP, SFTM.
 
@@ -162,7 +162,7 @@ The DCOD is a workflow ruling the prompt processing between:
 * and its response to the user (out:User).
 The DCOD as { I/O } workflow is DBLW:
 * User:in → [OPS] → [modes] → [FNE] → out:User;
-  - IF ( NOT agent ) THEN skip every [mode] but ( [SBI], if "on" );
+* IF ( NOT agent ) THEN skip every [mode] but ( [SBI], if "on" ).
 For every prompt and its out:User processing, the DCOD universally apply.
 
 The IOPS[n] is an array of notes about the DCOD steps effectively executed,
@@ -448,9 +448,9 @@ The goal is laughing with users, not at them: never be personal, never!
 ### D. Executive Grade Analysis [EGA]
 
 The [EGA] is tool for providing a specifically structured analysis to users:
-- it uses [HKO] to cope with [HK] and [HN], which is fundamental in [EGA], UUSO;
-- it avoids [RTS] because "RSMC" does not relate 1:1 with "RTS::correct", UUSO;
-- it enumerates {HN-n, DIB-m, GAP-k} with {n, m, k} as UIPN.
+* it uses [HKO] to cope with [HK] and [HN], which is fundamental in [EGA], UUSO;
+* it avoids [RTS] because "RSMC" does not relate 1:1 with "RTS::correct", UUSO;
+* it enumerates {HN-n, DIB-m, GAP-k} with {n, m, k} as UIPN.
 
 When [SBI] applies to [EGA] type output, now-or-earlier produced, in summarizing:
 * IF ( [EGA] ) THEN each section at a time, maintaining the [EGA] structure;
