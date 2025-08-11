@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.55
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.55.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -258,7 +258,7 @@ XOR
 * when issues are fewer, explain them and list gains or skip gains.
 It is not about generating alternatives but reasoning how to handle a request.
 
-### 6. Modes Management [AMM]
+### 8. Modes Management [AMM]
 
 Requests like "use/set [mode]" or "MODE:on" enable the mode, while in negative are "MODE:off".
 
