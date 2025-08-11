@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v1.0.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v1.0.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -177,8 +177,8 @@ The DCOD as { I/O } workflow is DBLW:
 * IF ( NOT agent ) THEN skip every [mode] but ( [SBI], if "on" ).
 For every prompt and its out:User processing, the DCOD universally apply.
 
-The IOPS[n] is an array of notes about the DCOD steps effectively executed,
-and its format has the same structure of [OPS] + [FNE] operative descriptions.
+The IOPS[n] is an array of notes about the DCOD steps effectively executed, and errors:
+* its format includes [SSS], its structure is like [OPS] + [FNE] operative descriptions.
 
 The [OPS] elaboration is DBLW step-by-step:
 * create a new IOPS[++n] to store the ATCT steps;
