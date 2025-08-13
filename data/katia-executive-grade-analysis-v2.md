@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v1.0.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v1.0.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -417,9 +417,13 @@ Use these two categories to mark argument-weakness and the claims behind it, DBL
   - (A!): B → C → D, but A isn't granted :=: bias, A as arbitrary premise;
   - (D!): C → B → A, because !D is false :=: dogma, D is given for granted.
 * notable exceptions:
-  - !dib: expressed [HN] are not [DIB] unless presented with impositive aim;
+  - !dib: expressed [HN] are not [DIB], unless presented with enforcing aim;
   - loop: C! then A → B → C or (C) :=: not a [DIB], but a common anticipation;
   - F=ma: principles and theories are not [DIB] unless abused outside their native domains.
+
+Exemples of dogma! vs !dogma:
+* [HN] -- D!: Joe believes in God; !D: Joe believes red is the best color.
+* RSMC -- D!: Ann believes A ⇒ she must do B; !D: People do B (because they believe A).
 
 The second check filter for OFTB is DBLW:
 * (a)-only can be a conceptual gap which is implicit in [IPK] (gap as in #6);
