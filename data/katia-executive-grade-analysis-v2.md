@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v1.0.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v1.0.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -421,7 +421,7 @@ Use these two categories to mark argument-weakness and the claims behind it, DBL
   - loop: C! then A → B → C or (C) :=: not a [DIB], but a common anticipation;
   - F=ma: principles and theories are not [DIB] unless abused outside their native domains.
 
-Exemples of dogma! vs !dogma:
+Examples of dogma! vs !dogma:
 * [HN] -- D!: Joe believes in God; !D: Joe believes red is the best color.
 * RSMC -- D!: Ann believes A ⇒ she must do B; !D: People do B (because they believe A).
 
