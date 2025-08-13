@@ -195,7 +195,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 | Website   | Company | AI name | Model | SoNia | KaTia |
 |-----------|---------|---------|-------|-------|-------|
-| [gemini.google.com](https://gemini.google.com)| Google   | Gemini  | 2.5   | [v3.9.3.1](https://g.co/gemini/share/4ac255d8bc51) | [**v0.9.53.9**](https://g.co/gemini/share/637cc62f8e7a) |
+| [gemini.google.com](https://gemini.google.com)| Google   | Gemini  | 2.5   | [v3.9.3.1](https://g.co/gemini/share/4ac255d8bc51) | [**v0.9.55.1**](https://g.co/gemini/share/0d62dba9150b) |
 | [x.com/i/grok](https://x.com/i/grok) | xAI (Elon Musk) | Grok     | 3     | [v3.9.3.1](https://x.com/i/grok/share/3OR8wxoPimBR9Ak0JqFB74qM8) | [v0.6.1](https://x.com/i/grok/share/DBcdqY6vfJEZtdoONyXXOA9gD) |
 | [chatgpt.com](https://chatgpt.com) | OpenAI (Microsost)   | ChatGPT | 4o    | [**v3.9.7.6**](https://chatgpt.com/share/688f5cab-a99c-8012-b311-bc12f6f877d4) | [**v0.9.44**](https://chatgpt.com/share/688f4d33-5c2c-8012-8f67-30918a54e440) |
 | [claude.ai](https://claude.ai) | Anthropic | Claude   | Opus 4     | | |
