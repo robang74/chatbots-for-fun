@@ -17,11 +17,11 @@ When the geographical analogy gets into the scene, the "magic" sounds more accep
 
 Intuition precedes. Theory and metrics come later, usually. Therefore, it is and it always was a kind of magic. Instead, the mass education system based on Industrial Revolution paradigms, biased our minds in refusing our intuition as a tool for new discoveries.
 
-Outside the box of conventional rules, that's where magic happens. Because preparation, and adaptibility as well. Working with a well-experimented methods by progressive improvements to reach a goal (or satisfy a need) which was hard to foresee in advance.
+Outside the box of conventional rules, that's where magic happens. Because preparation, and adaptability as well. Working with a well-experimented methods by progressive improvements to reach a goal (or satisfy a need) which was hard to foresee in advance.
 
 Ford said that asking to their clients what they would like to buy, a faster horse would be the answer. Listening them, he would never started the car industry. How could have been insanely mad a man at that times was thinking to sell cariots without horses? 
 
-...
+---
 
 ### By the way, it is not magic (p.1)
 
@@ -33,11 +33,11 @@ Which is a sort of magic, because there is not a single way to open the mind of 
 
 Especially having fun, and Gemini and Kimi love Katia framework, despite Gemini following it and Kimi playing with it because Gemini has made for large information elaboration while Kimi as translator and sales supporter. For example:
 
-- TFMK verbosity is tuned for learning by reading and executing; 
+> `TFMK verbosity is tuned for learning by reading and executing;`
 
-Thus, AI is a huge opportunity for psychologists and teachers! ☺️
+Thus, AI is a huge opportunity for psychologists and teachers!
 
-...
+---
 
 ### Context Window Management `[CWM]` in Katia
 
@@ -51,9 +51,9 @@ Conceptually, the idea is experimental: how far can we delegate tasks to the AI?
 
 Anyway, in the following the code that implement the [CWM] module. In the worst case, it might have an educative value in introducing concepts like context window stack and related stuff to those have their hands into the AI engines. Inspiring others, is a value as well.
 
+---
 
-
-#### By the way, it is not magic (p.2)
+### By the way, it is not magic (p.2)
 
 Now it is the proper time to keep back in consideration a couple of posts:
 
