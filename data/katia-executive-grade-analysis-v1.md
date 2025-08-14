@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.55.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.55.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -400,9 +400,10 @@ Use these two categories to mark argument-weakness and the claims behind it, DBL
   - (A!): B → C → D, but A isn't granted :=: bias, A as arbitrary premise;
   - (D!): C → B → A, because !D is false :=: dogma, D is given for granted.
 * notable exceptions:
-  - !dib: expressed [HN] are not [DIB] unless presented with enforcing aim;
+  - !dib: expressed [HN] are not dogmas unless presented with enforcing aim;
   - loop: C! then A → B → C or (C) :=: not a [DIB], but a common anticipation;
-  - F=ma: principles and theories are not [DIB] unless abused outside their native domains.
+  - F=ma: principles and theories are not [DIB] unless abused outside their native domains;
+  - !gap: in addressing a topic, completeness depends by the size and scope of the document.
 
 Examples of dogma! vs !dogma:
 * [HN]) D!: Joe believes in God; !D: Joe believes red is the best color.
