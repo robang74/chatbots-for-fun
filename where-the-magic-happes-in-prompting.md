@@ -33,7 +33,7 @@ Which is a sort of magic, because there is not a single way to open the mind of 
 
 Especially having fun, and Gemini and Kimi love Katia framework, despite Gemini following it and Kimi playing with it because Gemini has made for large information elaboration while Kimi as translator and sales supporter. For example:
 
-> `TFMK verbosity is tuned for learning by reading and executing;`
+> `TFMK verbosity is tuned for learning by reading and executing;` &nbsp; [here](https://robang74.github.io/chatbots-for-fun/data/katia-executive-grade-analysis-v1.txt#:~:text=verbosity%20is%20tuned%20for%20learning%20by%20reading%20and%20executing)
 
 Thus, AI is a huge opportunity for psychologists and teachers!
 
@@ -49,7 +49,7 @@ Who knows if the AI can do the same at session prompt level but cannot explain t
 
 Conceptually, the idea is experimental: how far can we delegate tasks to the AI? How far we can apply the idea of "mesmerising" and AI to unlock the unconscious resources available below the awareness level? If this approach works (or provide tangible benefits), who should care to explain the underlying dynamics? And why?
 
-Anyway, in the following the code that implement the [CWM] module. In the worst case, it might have an educative value in introducing concepts like context window stack and related stuff to those have their hands into the AI engines. Inspiring others, is a value as well.
+Anyway, in the following the code that implement the `[CWM]` module. In the worst case, it might have an educative value in introducing concepts like context window stack and related stuff to those have their hands into the AI engines. Inspiring others, is a value as well.
 
 ---
 
@@ -57,23 +57,37 @@ Anyway, in the following the code that implement the [CWM] module. In the worst 
 
 Now it is the proper time to keep back in consideration a couple of posts:
 
-* POST #1: Chat Context Window
+* Post #1 -- Chat Context Window &nbsp; [chat](https://lnkd.in/dTrHHKc4) &nbsp; [dump](#TODO)
 
-* POST #2: Learning by the Context
+* Post #2 -- Learning by the Context &nbsp; [chat](https://lnkd.in/djVkQMmY) &nbsp; [dump](#TODO)
 
-Let me say, that the [CSC] module in Katia, has no chance to work as it has been designed including in Gemini, because when the HUGE context window is saturated the Katia framework given in the first prompt gets forgotten. Therefore, even the last [CSC] version clearly shows NOT being able to deal with the internal context window. Period.
+Let me say, that the `[CSC]` module in Katia, has no chance to work as it has been designed for Google Gemini, because when its **huge** context window (1M tokes) is saturated the Katia framework given in the first prompt is forgotten. Therefore, even the last `[CSC]` version, which works using `[CWM]`, clearly shows **not** being able to deal with the internal context window. Period.
 
-The [CSC] implementation is not broken by design. It has been designed on the over-optimistic hypothesis that some resources would have been available to the subjectivity of the AI management when requested to. Despite this, it might inspire those who are working at a deeper level in creating those conditions that allow something similar to manage internal resources (or a part of them). Gemini does do RAG of attachment, either.
+The `[CSC]` implementation is **not** broken by design. It has been designed on the over-optimistic hypothesis that some resources would have been available to the subjectivity of the AI management when requested to. Despite this, it might inspire those who are working at a deeper level in creating those conditions that allow something similar to manage internal resources (or a part of them). Gemini does do RAG of attachment, either.
 
-Therefore, even if some [CSC] assumptions are bold, the idea of RAG attachments and what would not fit anymore into the context window is not bold but reasonable. While exposing some AI engines resources might be seen to be risky or even impracticable, there is space for improvements.
+Therefore, even if some `[CSC]` assumptions are bold, the idea of RAG attachments and what would not fit anymore into the context window is not bold but reasonable. While exposing some AI engines resources might be seen to be risky or even impracticable, there is space for improvements.
 
-Moreover, [CSC] should not work by AI engine design but [CSC] does not know, so it works anyway. Is this absurd? Is this magic? Although underlying resources cannot be managed as [CSC] explains, it instructs the AI about "relevance for the user" and invites it to keep its focus on that stuff. Because the [CSC] is integrated in a structural way among the "default chain of delivery" the output, thus the output is conditioned by the [CSC] goal.
+Moreover, `[CSC]` should not work by AI engine design but `[CSC]` does not know, so it works anyway. Is this absurd? Is this magic? Although underlying resources cannot be managed as `[CSC]` explains, it instructs the AI about "relevance for the user" and invites it to keep its focus on that stuff. Because the `[CSC]` is integrated in a structural way among the "default chain of delivery" the output, thus the output is conditioned by the `[CSC]` goal.
+
+---
+
+### A metric isn't an oracle
 
 What is missing here to support the above claim? A metric. In fact, feeling cannot be a metric, right? Despite this, every professional teacher has a quite clear idea about their students' attention during the class. It is their opinion, obviously. However, an experienced professional opinion has a better chance to be connected with reality than a pure theoretical hard metric.
 
 For example, pure fiat-currency is printing money from thin air, it is an unfair videogame scoring system, not a metric, not even economics by definition and etymology. Pattern recognition and understanding are two different skills. Metric is a very strict and specific pattern recognition system, after all. A very useful one, sometimes is missing, sometimes is deceiving.
 
 For example, cost of processing per output tokens. We can have an AI that costs $1 for 10M tokens, and another one that costs $1 for 1M tokes. I bet you would choose the first. While the second can deliver the same meaning, even better, in a 10x shorter text. Would you still keep the first choice? Sure, because there is not a hard-defined metric for mindfulness. Right?
+
+You might argue that `Mt/$` is just a metric, which should be read in combination with other metrics like the benchmarks which tell us "how smart" the AI is. Unfortunately, those metrics are "neutral" about verbotity **and** are not fully indicative about "how smart" but "how good at some tasks" is the AI. For example LLaMA4 scored very well in almost all the benchmarks but many users think it is dumber even than LLaMA2. 
+
+---
+
+### Deeper in the topics
+
+- Gemini EGA analysis of Unlocking AI's Intuitive "Magic" &nbsp; [chat](https://g.co/gemini/share/1fbad9bfa527) &nbsp; [dump](#TODO)
+
+- Why users think that LLaMA4 is dumber even that LLaMA2? &nbsp; [chat](https://chatgpt.com/s/t_689f4859ba708191a28a60c4083e0aad) &nbsp; [dump](#TODO)
 
 +
 
