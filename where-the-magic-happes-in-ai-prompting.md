@@ -82,6 +82,10 @@ For example, pure fiat-currency is printing money from thin air, it is an unfair
 
 For example, cost of processing per output tokens. We can have an AI that costs $1 for 10M tokens, and another one that costs $1 for 1M tokes. I bet you would choose the first. While the second can deliver the same meaning, even better, in a 10x shorter text. Would you still keep the first choice? Sure, because there is not a hard-defined metric for mindfulness. Right?
 
+---
+
+### The strange case of LLaMA-4
+
 You might argue that `Mt/$` is just a metric, which should be read in combination with other metrics like the benchmarks which tell us "how smart" the AI is. Unfortunately, those metrics are "neutral" about verbotity **and** are not fully indicative about "how smart" but "how good at some tasks" is the AI. For example LLaMA4 scored very well in almost all the benchmarks but many users think it is dumber even than LLaMA2.
 
 [!INFO]
@@ -90,12 +94,33 @@ You might argue that `Mt/$` is just a metric, which should be read in combinatio
 LLaMA 4 performed well on the **LM Arena leaderboard**, but that version was an **experimental, customized variant**. Critics argue this creates misleading impressions: the benchmarked model is not representative, raising trust and reproducibility concerns. Meta's credibility took a hit, with accusations of selective benchmarking, while Meta officially denies any intentional misrepresentation.
 [/INFO]
 
+Speculations are like bets, some are lucky others not. Anyway, Meta AI is obviously interested in Facebook adopting their models to process the users posts and comments, translating and/or categorising users activities and profiling them. In this sense, LLaMA-4 is exposed to be poisoned by [prompt injection](attenzione-e-contesto-nei-chatbot.md#malicious-image-safe-example?target=_blank) embedded or hidden into apparently innocent stuff.
+
+Malicious prompts aim to be persistent among working/chat sessions, which allows a much broader impact of their actions. On the other hand, some useful prompts are persistent within the chat scope, to leverage the "learning by context" effect. Since the beginning, LLaMA-4 wasn't great in coding which is also a good estimation of reasoning, and it is plausible that the final version was made more "impermeable" against malicious prompt injection.
+
+Avoid prompts jail-breaking is safety, but when the mitigation went to an extreme measure, it cuts down the "learning by context" effect and the final result is like having a conversation with an "idiot savant", probably great in categorising information and profiling users, but "dumb" due to a lack of attention and thus purpose in copying with the users inputs.
+
+---
+
+### Clarke's three laws
+
+All the following three laws apply to Artificial Intelligence in full, but the third allows us to use "a kind of magic" for this technology, especially.
+
+1. When a distinguished but elderly scientist states that something is possible, he is almost certainly right. When he states that something is impossible, he is very probably wrong.
+
+2. The only way of discovering the limits of the possible is to venture a little way past them into the impossible.
+
+3. Any sufficiently advanced technology is indistinguishable from magic.
+
+When the Halloween mood kicks in, then `s/magic/witchcraft/` just for adding a bit of "atmosphere" and light-up the conversation because "prompt engineer" sounds too nerdy for an ice-breaking conversation a the pub bar. Instead, "witchcrafting ancient spells into modern symbols" sounds quite intriguing. LOL
+
 ---
 
 ### Deeper in the topics
 
 - Katia w/Gemini EGA analysis of Unlocking AI's Intuitive "Magic" &nbsp; [chat](https://g.co/gemini/share/1fbad9bfa527) &nbsp; [dump](#TODO)
 - Why users think that LLaMA4 is dumber even that LLaMA2? &nbsp; [chat](https://chatgpt.com/s/t_689f4859ba708191a28a60c4083e0aad) &nbsp; [dump](#TODO)
+- The "learning without training, by context" effect, expalined in [this](attenzione-e-contesto-nei-chatbot.md#learning-without-training?target=_blank) article
 
 +
 
