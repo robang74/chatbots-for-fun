@@ -106,6 +106,10 @@ For example, pure fiat-currency is printing money from thin air, it is an unfair
 
 For example, cost of processing per output tokens. We can have an AI that costs $1 for 10M tokens, and another one that costs $1 for 1M tokes. I bet you would choose the first. While the second can deliver the same meaning, even better, in a 10x shorter text. Would you still keep the first choice? Sure, because there is not a hard-defined metric for mindfulness. Right?
 
+[!INFO]
+**Katia Note** -- The analogy to human IQ tests reframes the debate about AI metrics by connecting it to a long-standing debate in human psychology and education. The comparison of precise, single-answer tests using invented symbols to the vagueness of natural language tests is a creative and compelling way to illustrate the author's point about the limitations of current AI metrics.
+[/INFO]
+
 ---
 
 ### The strange case of LLaMA-4
@@ -123,6 +127,20 @@ Speculations are like bets, some are lucky others not. Anyway, Meta AI is obviou
 Malicious prompts aim to be persistent among working/chat sessions, which allows a much broader impact of their actions. On the other hand, some useful prompts are persistent within the chat scope, to leverage the "learning by context" effect. Since the beginning, LLaMA-4 wasn't great in coding which is also a good estimation of reasoning, and it is plausible that the final version was made more "impermeable" against malicious prompt injection.
 
 Avoid prompts jail-breaking is safety, but when the mitigation went to an extreme measure, it cuts down the "learning by context" effect and the final result is like having a conversation with an "idiot savant", probably great in categorising information and profiling users, but "dumb" due to a lack of attention and thus purpose in copying with the users inputs.
+
+---
+
+### The strange case of McDonalds
+
+McDonald’s to end AI drive-thru experiment after errant orders, including bacon on ice cream and $222 McNuggets bill (2024-06-17). A relatively old news but still interesting, summarised by Katia from one of my LinkedIn post written in Italian. 
+
+[!CITE]
+**AI Performance Fragility: When Theory Meets Reality**
+
+The "magic" of intuition and practice is often revealed in the fragility of theoretical models when they encounter the real world. A compelling example is the case of a McDonald's AI-powered ordering system that failed spectacularly. Designed with pristine studio microphones in a controlled lab environment, the AI was unable to cope with a noisy drive-thru, a customer's common accent, and a low-quality microphone. As a result, it misheard "twenty nuggets" as "two hundred," leading to an absurdly large bill and a director losing their job.
+
+This incident highlights the core argument: benchmarks and internal metrics are insufficient. Much like human IQ tests that are vague and easily confused, this AI's "intelligence" was only valid within a narrow, non-realistic context. The system lacked the real-world experience and intuition—the very faculties that define the "magic" of problem-solving—to function effectively. The failure underscores the critical gap between a technology that "works" on paper and one that is resilient and effective in the messy, unpredictable world of human interaction.
+[/CITE]
 
 ---
 
