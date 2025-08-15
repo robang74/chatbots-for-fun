@@ -3,7 +3,7 @@
 
 <div align="center"><img class="wbsketch darkinv" src="img/where-the-magic-happes-in-ai-prompting-img-001.png" width="800"><br></div>
 
-## Where the magic happens?
+## Where the magic happens, in AI prompting?
 
 We do not believe in magic, but a kind of magic can happen when intuition starts with practice, moves into soft science and by a progressive improvement process, it starts to work (aka producing tangible and useful results).
 
