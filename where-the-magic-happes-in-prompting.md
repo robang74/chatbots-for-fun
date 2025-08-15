@@ -58,7 +58,6 @@ Anyway, in the following the code that implement the `[CWM]` module. In the wors
 Now it is the proper time to keep back in consideration a couple of posts:
 
 * Post #1 -- Chat Context Window &nbsp; [chat](https://lnkd.in/dTrHHKc4) &nbsp; [dump](#TODO)
-
 * Post #2 -- Learning by the Context &nbsp; [chat](https://lnkd.in/djVkQMmY) &nbsp; [dump](#TODO)
 
 Let me say, that the `[CSC]` module in Katia, has no chance to work as it has been designed for Google Gemini, because when its **huge** context window (1M tokes) is saturated the Katia framework given in the first prompt is forgotten. Therefore, even the last `[CSC]` version, which works using `[CWM]`, clearly shows **not** being able to deal with the internal context window. Period.
@@ -67,7 +66,7 @@ The `[CSC]` implementation is **not** broken by design. It has been designed on 
 
 Therefore, even if some `[CSC]` assumptions are bold, the idea of RAG attachments and what would not fit anymore into the context window is not bold but reasonable. While exposing some AI engines resources might be seen to be risky or even impracticable, there is space for improvements.
 
-Moreover, `[CSC]` should not work by AI engine design but `[CSC]` does not know, so it works anyway. Is this absurd? Is this magic? Although underlying resources cannot be managed as `[CSC]` explains, it instructs the AI about "relevance for the user" and invites it to keep its focus on that stuff. Because the `[CSC]` is integrated in a structural way among the "default chain of delivery" the output, thus the output is conditioned by the `[CSC]` goal.
+Despite underlying resources cannot be managed as explained, `[CSC]` instructs the AI about "relevance for the user" and invites it to keep its focus on that stuff. Because the `[CSC]` is integrated in a structural way among the "default chain of delivery" the output, thus the output is conditioned by the `[CSC]` goal.
 
 ---
 
@@ -77,16 +76,25 @@ What is missing here to support the above claim? A metric. In fact, feeling cann
 
 For example, pure fiat-currency is printing money from thin air, it is an unfair videogame scoring system, not a metric, not even economics by definition and etymology. Pattern recognition and understanding are two different skills. Metric is a very strict and specific pattern recognition system, after all. A very useful one, sometimes is missing, sometimes is deceiving.
 
+[!INFO]
+**Katia Note** -- While it may not align with mainstream economic thought, the fiat currency as a videogame scoring analogy can be explained with a chain of reasoning (quantitative easing --> financial system --> Gini index and inflation, increasing), solidifying its place as a creative and unconventional, but not unfounded, comparison.
+[/INFO]
+
 For example, cost of processing per output tokens. We can have an AI that costs $1 for 10M tokens, and another one that costs $1 for 1M tokes. I bet you would choose the first. While the second can deliver the same meaning, even better, in a 10x shorter text. Would you still keep the first choice? Sure, because there is not a hard-defined metric for mindfulness. Right?
 
-You might argue that `Mt/$` is just a metric, which should be read in combination with other metrics like the benchmarks which tell us "how smart" the AI is. Unfortunately, those metrics are "neutral" about verbotity **and** are not fully indicative about "how smart" but "how good at some tasks" is the AI. For example LLaMA4 scored very well in almost all the benchmarks but many users think it is dumber even than LLaMA2. 
+You might argue that `Mt/$` is just a metric, which should be read in combination with other metrics like the benchmarks which tell us "how smart" the AI is. Unfortunately, those metrics are "neutral" about verbotity **and** are not fully indicative about "how smart" but "how good at some tasks" is the AI. For example LLaMA4 scored very well in almost all the benchmarks but many users think it is dumber even than LLaMA2.
+
+[!INFO]
+**Benchmark Manipulation & Transparency Issues**
+
+LLaMA 4 performed well on the **LM Arena leaderboard**, but that version was an **experimental, customized variant**. Critics argue this creates misleading impressions: the benchmarked model is not representative, raising trust and reproducibility concerns. Meta's credibility took a hit, with accusations of selective benchmarking, while Meta officially denies any intentional misrepresentation.
+[/INFO]
 
 ---
 
 ### Deeper in the topics
 
-- Gemini EGA analysis of Unlocking AI's Intuitive "Magic" &nbsp; [chat](https://g.co/gemini/share/1fbad9bfa527) &nbsp; [dump](#TODO)
-
+- Katia w/Gemini EGA analysis of Unlocking AI's Intuitive "Magic" &nbsp; [chat](https://g.co/gemini/share/1fbad9bfa527) &nbsp; [dump](#TODO)
 - Why users think that LLaMA4 is dumber even that LLaMA2? &nbsp; [chat](https://chatgpt.com/s/t_689f4859ba708191a28a60c4083e0aad) &nbsp; [dump](#TODO)
 
 +
