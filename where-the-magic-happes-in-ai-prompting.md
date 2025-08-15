@@ -5,6 +5,12 @@
 
 ## Where the magic happens, in AI prompting?
 
+- **2nd edition**, introduces more stuff and also some more sketches of humor, because if we cannot laugh at something then such a topic (*) isn't worth our time nor dedication! (*) or something related to it, like the hype for a "new" technology for which the first implimentation, named ELIZA, is going to age 60 years old. 
+
+---
+
+### Introduction
+
 We do not believe in magic, but a kind of magic can happen when intuition starts with practice, moves into soft science and by a progressive improvement process, it starts to work (aka producing tangible and useful results).
 
 When a "lucky" speculation reaches the "it works" goal before hard-science can explain it, it is a "kind of magic" because someone saw a destination, drew a path to reach it, before the map was known. Cristoforo Colombo and Amerigo Vespucci, did it.
@@ -21,7 +27,7 @@ Outside the box of conventional rules, that's where magic happens. Because prepa
 
 Ford said that asking to their clients what they would like to buy, a faster horse would be the answer. Listening them, he would never started the car industry. How could have been insanely mad a man at that times was thinking to sell cariots without horses? 
 
----
+----
 
 ### By the way, it is not magic (p.1)
 
@@ -71,6 +77,20 @@ The `[CSC]` implementation is **not** broken by design. It has been designed on 
 Therefore, even if some `[CSC]` assumptions are bold, the idea of RAG attachments and what would not fit anymore into the context window is not bold but reasonable. While exposing some AI engines resources might be seen to be risky or even impracticable, there is space for improvements.
 
 Despite underlying resources cannot be managed as explained, `[CSC]` instructs the AI about "relevance for the user" and invites it to keep its focus on that stuff. Because the `[CSC]` is integrated in a structural way among the "default chain of delivery" the output, thus the output is conditioned by the `[CSC]` goal.
+
+---
+
+### When do RAG? Always!
+
+<div align="center"><img class="bwsketch paleinv" src="img/where-the-magic-happes-in-ai-prompting-img-002.png" width="800"><br></div>
+
+Confirmed that learning by context is a [fact](https://arxiv.org/abs/2507.16003) at the point that a LLM can be retrained in that [way](gemini-context-retraining-for-human-rights.md#?target=_blank), do always RAG is a great idea. Please, notice that there are **many** RAG systems and related implementations. So, a great idea requires also a proper implementation to be effective.
+
+First of all, those AI model that have a relatively small context windows (e.g. Kimi K2, 128K tokens) need to implement a strategy as described by `[CWM]` module because having a session prompt of 4K tokens would be soon the norm, rather than the exception (in addition to the system prompt which easily can reach the same size). Using the RAG implies to cope with an indexing like the one drafted in `[CSC]` which also contains the most relevant information.
+
+Can we be surprised that in `[CWM]` the "stack" is a keyword which explains the management model to every low-level software developer? Managing a limited resource dividing it in text (code to run), static allocated data (status, settings) and a dynamic index of resources (functions, pointer, etc.) is not a novelty but the status of the art.
+
+Only two things are missing in modern AI engines: 1. a handler to effectively stack the context window; 2. an standard API which the AI can handle for a convenient polity of usage. Is it smart enough to develop software? Then, it is smart enough to properly allocate and stack the context window. This, together with a few other standard system tools like a real-time clock (RTC) and a sane, stable and standardised API layer can do magic!
 
 ---
 
