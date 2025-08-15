@@ -17,7 +17,7 @@
     <body class=body>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-01-13&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>1</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>13</b rev_num='
+'>14</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/ai-system-prompting-to-leverage-rag?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -71,7 +71,7 @@ In the last case the system prompt is referring to a single file tokenized:
 <p></p>
 The main issue is about spending a lot of time in searching for it while a ChatML instruction to refer directly to the file, can make a huge difference in dropping the searching time and achieve something between 16s and 6s, or even better.
 <p></p>
-The minimal chat temple:
+The minimal chat template:
 <p></p>
 <blockquote><tt>{% for message in messages %}</tt><br><tt>{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n' }}</tt><br><tt>{% endfor %}</tt><br><tt>{% if add_generation_prompt %}</tt><br><tt>{{ '<|im_start|>assistant\n' }}</tt><br><tt>{% endif %}</tt></blockquote>
 <p></p>

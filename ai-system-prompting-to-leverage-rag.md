@@ -50,7 +50,7 @@ In the last case the system prompt is referring to a single file tokenized:
 
 The main issue is about spending a lot of time in searching for it while a ChatML instruction to refer directly to the file, can make a huge difference in dropping the searching time and achieve something between 16s and 6s, or even better.
 
-The minimal chat temple:
+The minimal chat template:
 
 > `{% for message in messages %}`
 > `{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n' }}`
