@@ -98,7 +98,9 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="valuable-to-learn"></span>
-* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (16 pz.)
+* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (17 pz.)
+
+   - 2025-08-14 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/where-the-magic-happes-in-ai-prompting.md)] - [Where the magic happens, in AI prompting?](where-the-magic-happes-in-ai-prompting.md) &nbsp; (2nd edt.)
 
    - 2025-08-02 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/gemini-context-retraining-for-human-rights.md)] - [Gemini context retraining for human rights](gemini-context-retraining-for-human-rights.md)
 
@@ -135,7 +137,7 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="uncategorised"></span>
-* **Yet uncategorised articles** &nbsp; (17 pz.)
+* **Yet uncategorised articles** &nbsp; (16 pz.)
 
    - 2025-08-14 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/where-the-magic-happes-in-ai-prompting.md)] - [Where the magic happens, in AI prompting?](where-the-magic-happes-in-ai-prompting.md) &nbsp; (2nd edt.)
 
