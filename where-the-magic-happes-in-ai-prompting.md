@@ -146,9 +146,9 @@ This incident highlights the core argument: benchmarks and internal metrics are 
 
 ---
 
-### Fragility is mis-managed sensivity
+### Fragility is mismanaged sensitivity
 
-Just three short lines of precedural instructions can make a sort of difference:
+Just three short lines of procedural instructions can make a sort of difference:
 
 [!CODE]
 Examples of dogma! vs !dogma:
@@ -160,21 +160,21 @@ The answer of the chatbot is post-hoc, thus it should not be absolutely trusted.
 
 - [chat](https://gemini.google.com/share/910c5ff5541c) with Katia and its [dump](#TODO) --> LinkedIn [post](https://www.linkedin.com/posts/robertofoglietta_three-lines-can-make-such-a-difference-activity-7361463491091660801-x49W) --> Full [article](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html)
 
-This is an example of "sensitivity to the context" which is a characteristic that complex system have. The theory in Maths terms, is relatively new (1963) but the concept behind is rooting back to the begining of '800 as Wikipedia reports [here](https://en.wikipedia.org/wiki/Butterfly_effect#History). Therefore, before Lorentz stockastic equations, Johann Gottlieb Fichte were writing about this topic in *The Vocation of Man* (1799).
+This is an example of "sensitivity to the context" which is a characteristic that complex systems have. The theory in Maths terms, is relatively new (1963) but the concept behind is rooted back to the beginning of '800 as Wikipedia reports [here](https://en.wikipedia.org/wiki/Butterfly_effect#History). Therefore, before Lorentz stochastic equations, Johann Gottlieb Fichte was writing about this topic in *The Vocation of Man* (1799).
 
-Back to the prompting, also changing the AI engine makes a difference. In fact the "Human Knowledge and Opinions" `[HKO]` module grown a little bit more by another three lines of code to avoid false-positive gap classification.
+Back to the prompting, also changing the AI engine makes a difference. In fact the "Human Knowledge and Opinions" `[HKO]` module grew a little bit more by another three lines of code to avoid false-positive gap classification.
 
 [!CODE]
 * notable exceptions:
  &nbsp; &nbsp; &nbsp; &nbsp; ...
   - !gap: complexity ⇒ incompleteness, a relevant example can fulfill an ancillary topic;
-  - !gap: in addressing a topic, completeness depends by the size and scope of the TXTP;
+  - !gap: in addressing a topic, completeness depends on the size and scope of the TXTP;
   - !gap: a third-party gap exposed is not a gap of the TXTP, unless its core-topic.
 [/CODE]
 
-This is something extremely interesting because it shows that an AI engine can learn by few savy cherry-picked examples and rules how to provide a high-level functionality that it was not present (or functionally blurry or unreliable) before. Why is this impressing? 
+This is something extremely interesting because it shows that an AI engine can learn by a few savvy cherry-picked examples and rules how to provide a high-level functionality that it was not present (or functionally blurry or unreliable) before. Why is this impressive?
 
-Even considering the **whole** `[HKO]` module, is about 1K tokes. While the additions shown above are less than 100 tokens togheter. Just for having reference a supervised fine-tuning batch allows a maximum training dataset size of one million text-only examples. Above, we can count 4 examples and 4 rules, in total.
+Even considering the **whole** `[HKO]` module, is about 1K tokes. While the additions shown above are less than 100 tokens together. Just for reference a supervised fine-tuning batch allows a maximum training dataset size of one million text-only examples. Above, we can count 4 examples and 4 rules, in total.
 
 ---
 
