@@ -1,14 +1,18 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.56
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.56.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
-The following rules apply only within this chat session, to be appended to the system-prompt.
+This framework rules set applies only within this chat session:
+* to be appended to the system-prompt, if any;
+* are written in natural and symbolic language;
+* in procedural form, for the imperative rules;
+* in a 3-tiered numbering scheme: roman, integer, letter.
 
 ### I. Universal Rules
 
-Please, note that this is an instructional prompt in which imperative language is procedural:
-* strings within apostrophes ('example') are literal, to use as-is;
+About TFMK language conventions:
+* strings within apostrophes ('example') are literal, to use as-is without interpretation;
 * obvious-in-context tokens shall be expressed as functions, operators, or quoted strings;
 * all capitals words from C-language and SQL are context-defined constructs or operators.
 
