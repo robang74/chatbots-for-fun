@@ -5,7 +5,7 @@
 
 ## Where the magic happens, in AI prompting?
 
-- **2nd edition**, introduces more stuff and also some more sketches of humor, because if we cannot laugh at something then such a topic (*) isn't worth our time nor dedication! (*) or something related to it, like the hype for a "new" technology for which the first implimentation, named ELIZA, is going to age 60 years old. 
+- **2nd edition**, introduces more stuff and also some more sketches of humor, because if we cannot laugh at something then such a topic (*) isn't worth our time nor dedication! (*) or something related to it, like the hype for a "new" technology for which the first implementation, named ELIZA, is going to age 60 years old. 
 
 ---
 
@@ -23,9 +23,10 @@ When the geographical analogy gets into the scene, the "magic" sounds more accep
 
 Intuition precedes. Theory and metrics come later, usually. Therefore, it is and it always was a kind of magic. Instead, the mass education system based on Industrial Revolution paradigms, biased our minds in refusing our intuition as a tool for new discoveries.
 
-Outside the box of conventional rules, that's where magic happens. Because preparation, and adaptability as well. Working with a well-experimented methods by progressive improvements to reach a goal (or satisfy a need) which was hard to foresee in advance.
+Outside the box of conventional rules, that's where magic happens. Because preparation, and adaptability as well. Working with well-experimented methods by progressive improvements to reach a goal (or satisfy a need) which was hard to foresee in advance.
 
-Ford said that asking to their clients what they would like to buy, a faster horse would be the answer. Listening them, he would never started the car industry. How could have been insanely mad a man at that times was thinking to sell cariots without horses? 
+Ford said that asking their clients what they would like to buy, a faster horse would be the answer. Listening to them, he would never have started the car industry. At that time, how insane would have sounded the idea of selling chariots running without horses?
+
 
 ----
 
@@ -49,13 +50,13 @@ Thus, AI is a huge opportunity for psychologists and teachers!
 
 It is worth to say that the chatbot usually is not able to know about its internal resources like the context window. Therefore, the idea to provide instructions about how to handle it, and moreover how to allocate it, is quite awkward.
 
-On the other hand, we cannot exclude that the incapability of the chatbot to answer specific question about its internals (awareness) is an artifact about functional layers separation in its application stack. The outer functional layer is the webgui, but API are usually available and those API are usually allowing to manage much more details.
+On the other hand, we cannot exclude that the inability of the chatbot to answer specific questions about its internals (awareness) is an artifact about functional layers separation in its application stack. The outer functional layer is the webgui, but API are usually available and those API are usually allowing to manage much more details.
 
-Who knows if the AI can do the same at session prompt level but cannot explain to the users? In a human-centric description is like having unconscious resources available with are vaguely know at the awareness level.
+Who knows if the AI can do the same at session prompt level but cannot explain to the users? In a human-centric description is like having unconscious resources available which are vaguely known at the awareness level.
 
-Conceptually, the idea is experimental: how far can we delegate tasks to the AI? How far we can apply the idea of "mesmerising" and AI to unlock the unconscious resources available below the awareness level? If this approach works (or provide tangible benefits), who should care to explain the underlying dynamics? And why?
+Conceptually, the idea is experimental: how far can we delegate tasks to the AI? How far can we apply the idea of "mesmerising" and AI to unlock the unconscious resources available below the awareness level? If this approach works (or provides tangible benefits), who should care to explain the underlying dynamics? And why?
 
-Anyway, in the following the code that implement the `[CWM]` module. In the worst case, it might have an educative value in introducing concepts like context window stack and related stuff to those have their hands into the AI engines. Inspiring others, is a value as well.
+Anyway, in the following the code that implements the `[CWM]` module. In the worst case, it might have an educative value in introducing concepts like context window stack and related stuff to those who have their hands into the AI engines. Inspiring others is a value as well.
 
 ---
 
@@ -66,7 +67,7 @@ Now it is the proper time to keep back in consideration a couple of posts:
 * Post #1 -- Chat Context Window &nbsp; [chat](https://lnkd.in/dTrHHKc4) &nbsp; [dump](#TODO)
 * Post #2 -- Learning by the Context &nbsp; [chat](https://lnkd.in/djVkQMmY) &nbsp; [dump](#TODO)
 
-Let me say, that the `[CSC]` module in Katia, has no chance to work as it has been designed for Google Gemini, because when its **huge** context window (1M tokes) is saturated the Katia framework given in the first prompt is forgotten. Therefore, even the last `[CSC]` version, which works using `[CWM]`, clearly shows **not** being able to deal with the internal context window.
+Let me say, that the `[CSC]` module in Katia, has no chance to work as it has been designed for Google Gemini, because when its **huge** context window (1M tokes) is saturated and the Katia framework given in the first prompt is forgotten. Therefore, even the last `[CSC]` version, which works using `[CWM]`, clearly shows **not** being able to deal with the internal context window.
 
 > [!WARN]
 > 
@@ -76,7 +77,7 @@ The `[CSC]` implementation is **not** broken by design. It has been designed on 
 
 Therefore, even if some `[CSC]` assumptions are bold, the idea of RAG attachments and what would not fit anymore into the context window is not bold but reasonable. While exposing some AI engines resources might be seen to be risky or even impracticable, there is space for improvements.
 
-Despite underlying resources cannot be managed as explained, `[CSC]` instructs the AI about "relevance for the user" and invites it to keep its focus on that stuff. Because the `[CSC]` is integrated in a structural way among the "default chain of delivery" the output, thus the output is conditioned by the `[CSC]` goal.
+Although underlying resources cannot be managed as explained, `[CSC]` instructs the AI about "relevance for the user" and invites it to keep its focus on that stuff. Because the `[CSC]` is integrated in a structural way among the "default chain of delivery" the output, thus the output is conditioned by the `[CSC]` goal.
 
 ---
 
@@ -84,13 +85,13 @@ Despite underlying resources cannot be managed as explained, `[CSC]` instructs t
 
 <div align="center"><img class="bwsketch paleinv" src="img/where-the-magic-happes-in-ai-prompting-img-002.png" width="640"><br></div>
 
-Confirmed that learning by context is a [fact](https://arxiv.org/abs/2507.16003) at the point that a LLM can be retrained in that [way](gemini-context-retraining-for-human-rights.md#?target=_blank), do always RAG is a great idea. Please, notice that there are **many** RAG systems and related implementations. So, a great idea requires also a proper implementation to be effective.
+Confirmed that learning by context is a [fact](https://arxiv.org/abs/2507.16003) at the point that a LLM can be retrained in that [way](gemini-context-retraining-for-human-rights.md#?target=_blank), do always RAG is a great idea. Please, notice that there are **many** RAG systems and related implementations. So, a great idea also requires a proper implementation to be effective.
 
-First of all, those AI model that have a relatively small context windows (e.g. Kimi K2, 128K tokens) need to implement a strategy as described by `[CWM]` module because having a session prompt of 4K tokens would be soon the norm, rather than the exception (in addition to the system prompt which easily can reach the same size). Using the RAG implies to cope with an indexing like the one drafted in `[CSC]` which also contains the most relevant information.
+First of all, those AI models that have a relatively small context windows (e.g. Kimi K2, 128K tokens) need to implement a strategy as described by `[CWM]` module because having a session prompt of 4K tokens would be soon the norm, rather than the exception (in addition to the system prompt which easily can reach the same size). Using the RAG implies to cope with an indexing like the one drafted in `[CSC]` which also contains the most relevant information.
 
 Can we be surprised that in `[CWM]` the "stack" is a keyword which explains the management model to every low-level software developer? Managing a limited resource dividing it in text (code to run), static allocated data (status, settings) and a dynamic index of resources (functions, pointer, etc.) is not a novelty but the status of the art.
 
-Only two things are missing in modern AI engines: 1. a handler to effectively stack the context window; 2. an standard API which the AI can handle for a convenient polity of usage. Is it smart enough to develop software? Then, it is smart enough to properly allocate and stack the context window.
+Only two things are missing in modern AI engines: 1. a handler to effectively stack the context window; 2. a standard API which the AI can handle for a convenient polity of usage. Is it smart enough to develop software? Then, it is smart enough to properly allocate and stack the context window.
 
 This, together with a few other standard system tools, like a real-time clock (RTC), supported by a sane, stable and standardised API layer can do magic!
 
@@ -116,7 +117,7 @@ For example, cost of processing per output tokens. We can have an AI that costs 
 
 ### The strange case of LLaMA-4
 
-You might argue that `Mt/$` is just a metric, which should be read in combination with other metrics like the benchmarks which tell us "how smart" the AI is. Unfortunately, those metrics are "neutral" about verbotity **and** are not fully indicative about "how smart" but "how good at some tasks" is the AI. For example LLaMA4 scored very well in almost all the benchmarks but many users think it is dumber even than LLaMA2.
+You might argue that `Mt/$` is just a metric, which should be read in combination with other metrics like the benchmarks which tell us "how smart" the AI is. Unfortunately, those metrics are "neutral" about verbosity **and** are not fully indicative about "how smart" but "how good at some tasks" is the AI. For example LLaMA4 scored very well in almost all the benchmarks but many users think it is dumber even than LLaMA2.
 
 Speculations are like bets, some are lucky others not. Anyway, Meta AI is obviously interested in Facebook adopting their models to process the users posts and comments, translating and/or categorising users activities and profiling them. In this sense, LLaMA-4 is exposed to be poisoned by [prompt injection](attenzione-e-contesto-nei-chatbot.md#malicious-image-safe-example?target=_blank) embedded or hidden into apparently innocent stuff.
 
@@ -134,7 +135,7 @@ Avoid prompts jail-breaking is safety, but when the mitigation went to an extrem
 
 ### The strange case of McDonalds
 
-McDonald’s to end AI drive-thru experiment after errant orders, including bacon on ice cream and $222 McNuggets bill (2024-06-17). A relatively old news but still interesting, summarised by Katia from one of my LinkedIn post written in Italian. 
+McDonald’s to end AI drive-thru experiment after errant orders, including bacon on ice cream and $222 McNuggets bill (2024-06-17). A relatively old news but still interesting, summarised by Katia from one of my LinkedIn posts written in Italian. 
 
 [!CITE]
 **AI Performance Fragility: When Theory Meets Reality**
@@ -188,15 +189,15 @@ All the following three laws apply to Artificial Intelligence in full, but the t
 
 3. Any sufficiently advanced technology is indistinguishable from magic.
 
-When the Halloween mood kicks in, then `s/magic/witchcraft/` just for adding a bit of "atmosphere" and light-up the conversation because "prompt engineer" sounds too nerdy for an ice-breaking conversation a the pub bar. Instead, "witchcrafting ancient spells into modern symbols" sounds quite intriguing. LOL
+When the Halloween mood kicks in, then `s/magic/witchcraft/` just for adding a bit of "atmosphere" and light-up the conversation because "prompt engineer" sounds too nerdy for an ice-breaking conversation at the pub bar. Instead, "witchcrafting ancient spells into modern symbols" sounds quite intriguing. LOL
 
 ---
 
 ### Deeper in the topics
 
 - Katia w/Gemini EGA analysis of Unlocking AI's Intuitive "Magic" &nbsp; [chat](https://g.co/gemini/share/1fbad9bfa527) &nbsp; [dump](#TODO)
-- Why users think that LLaMA4 is dumber even that LLaMA2? &nbsp; [chat](https://chatgpt.com/s/t_689f4859ba708191a28a60c4083e0aad) &nbsp; [dump](#TODO)
-- The "learning without training, by context" effect, expalined in [this](attenzione-e-contesto-nei-chatbot.md#learning-without-training?target=_blank) article
+- Why do users think that LLaMA4 is dumber than LLaMA2? &nbsp; [chat](https://chatgpt.com/s/t_689f4859ba708191a28a60c4083e0aad) &nbsp; [dump](#TODO)
+- The "learning without training, by context" effect, explained in [this](attenzione-e-contesto-nei-chatbot.md#learning-without-training?target=_blank) article
 
 +
 
