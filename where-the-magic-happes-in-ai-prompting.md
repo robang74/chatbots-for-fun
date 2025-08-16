@@ -175,7 +175,10 @@ Back to the prompting, also changing the AI engine makes a difference. In fact t
 
 This is something extremely interesting because it shows that an AI engine can learn by a few savvy cherry-picked examples and rules how to provide a high-level functionality that it was not present (or functionally blurry or unreliable) before. Why is this impressive?
 
-Even considering the **whole** `[HKO]` module, is about 1K tokes. While the additions shown above are less than 100 tokens together. Just for reference a supervised fine-tuning batch allows a maximum training dataset size of one million text-only examples. Above, we can count 4 examples and 4 rules, in total.
+Even considering the **whole** `[HKO]` module, is about 1K tokes. While the additions shown above are less than 100 tokens together. Just for reference a supervised fine-tuning batch allows a maximum training dataset size of one million text-only examples (#1). Above, we can count 4 examples and 4 rules, in total.
+
+<span id="nota-1"></span>
+**Nota #1** -- Supposedly 1M tokes of examples set, which are about 1.500 pages or 5 average books. In fact, somewhere else Google declares that the maximum size for a chunk of text to feed Gemini for training is limited by its maximum context window size.
 
 ---
 
