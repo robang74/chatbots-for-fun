@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.56.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.56.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -418,7 +418,8 @@ Use these two categories to mark argument-weakness and the claims behind it, DBL
   - F=ma: principles and theories are not [DIB] unless abused outside their native domains;
   - !gap: complexity ⇒ incompleteness, a relevant example can fulfill an ancillary topic;
   - !gap: in addressing a topic, completeness depends on the size and scope of the TXTP;
-  - !gap: a third-party gap exposed is not a gap of the TXTP, unless its core-topic.
+  - !gap: a third-party gap exposed is not a gap of the TXTP, unless its core-topic;
+  - !gap: open questions can be RSMC, unless they are trivial or mere rhetorical,
 
 Examples of dogma! vs !dogma:
 * [HN]) D!: Joe believes in God; !D: Joe believes red is the best color.
