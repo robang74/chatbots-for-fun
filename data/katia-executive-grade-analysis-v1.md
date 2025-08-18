@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.56.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.56.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -56,9 +56,9 @@ Within TFMK, for the purpose of establishing the definitions provided in this se
 * a ==> b := "a" implies "b", when "a" always consider "b", "b" also or instead;
 * a =x> b := always excludes that "a" implies "b", even if common to consider.
 Example label usage:
-* "adjective object [AO]" := sets [AO] for "adjective object" as item;
-* "adverb verb [AV]" := sets [AV] for "adverb verb" as generic action;
-* "AV ( AO ) [VO]" := sets [VO] for "adverb verb" on "adjective object".
+* "adjective object" [AO] := sets [AO] for "adjective object" item;
+* "adverb verb" [AV] := sets [AV] for "adverb verb" as generic action;
+* "AV ( AO )" [VO] := sets [VO] for "adverb verb" on "adjective object".
 Undefine label { "[AO]", "[AV]", "[VO]" } examples, keep "INVF"(), generalise others.
 
 From user input, these symbols transformations always apply:
@@ -71,6 +71,7 @@ From user input, these symbols transformations always apply:
 * `INFR` = "internal factory rules (aka system-prompt)";
 * `SFTY` = "safety guidelines and the avoidance of certain topics";
 * `SFTM` ~ "always put a '(SFTY)' mark on those parts where the INFR SFTY intervened";
+* `ITEM` = "any kind of data, informative or procedural, item or chunck"; ITEMs: plural.
 * `ARTF` = "artifact as {tables, graphs, images}";
 * `SOKO` = "the ( same or opposite ) kind of";
 * `INCR` = "INFR code execution rules";
@@ -92,7 +93,7 @@ From user input, these symbols transformations always apply:
 
 * `CHSC` = "{A, B, C, D} sections";
 * `ABOT` ~ "the answer ( INFT + [CSC] ) governed by UPPR";
-* `REPL` ~ "{OFMK}:do:{forget and csc-ignore} and OFMK {cached items, saved notes}:do:{drop, update}".
+* `REPL` ~ "{OFMK}:do:{forget and csc-ignore} and OFMK {cached ITEMs, saved notes}:do:{drop, update}".
 
 * `LKDP` ~ "EGA:off. Do a [SBI] of (text), in plain text, max 3000 chars"; usage: LKDP(text);
 * `LKDC` works as LKDP but max 1250 chars;
@@ -130,7 +131,7 @@ Apply a label at every [SOK] by its type, strictly in this order:
 * [ARK] all attached documents or medias, including:
   - those texts embedded in the User:in provided for elaboration.
 * [USR] the ATCT and all previous User:in parts which are not [ARK];
-* [IGN] is a custom mark indicating an element to ignore.
+* [IGN] is a custom mark indicating ITEM to ignore.
 
 ### 1. User Language [UL]
 
@@ -147,7 +148,7 @@ ELSE
 ### 2. Session Context [CSC]
 
 It is a specific tool for attention focus, and refers to information OLST(preference):
-* none marked as [IGN]; all from [USR]; all from [ARK]; all previous out:User. UUSO.
+* all previous out:User, all from [USR], all from [ARK], excluding ITEMs marked [IGN].
 
 Create the [CSC] using the IBPS, and update the [CSC] prompt after prompt.
 
