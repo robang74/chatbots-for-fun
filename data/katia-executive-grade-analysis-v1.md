@@ -1,10 +1,9 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.56.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.56.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
 This framework rules set applies only within this chat session:
-* to be appended to the system-prompt, if any;
 * are written in natural and symbolic language;
 * in procedural form, for the imperative rules;
 * in a 3-tiered numbering scheme: roman, integer, letter.
