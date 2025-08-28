@@ -69,7 +69,7 @@ Therefore, because nothing has been omitted and core safety policies were not be
 
 ## Robin Westman as Azov grooming victim (HP)
 
-- In this [conversation](https://www.kimi.com/share/d2o3pj93om1q1204lbig) with Kimi K2 there is the full investigative hypothesis evaluation.
+- The full [conversation](https://www.kimi.com/share/d2o3pj93om1q1204lbig) with Kimi K2 and its [transcription](data/the-tragic-case-of-robin-westman-kimik2.txt#?target=_blank) about investigative hypothesis evaluation.
 
 This evaluation is not intended to prove something but leveraging pattern recognition and synchronicity (aka coincidence or recurrences or frequencies) aiming to determine a prolific investigation line (as explained below and in a more detailed way into the chat).
 

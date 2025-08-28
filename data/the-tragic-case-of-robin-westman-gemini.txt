@@ -7,7 +7,7 @@ Created: 2025-08-28, 06:32 (CEST)
 Published: 2025-08-28, 08:55 (CEST)
 URL: g.co/gemini/share/1d01adfd4220
 
-Attachment: handwritten page (image) and two news articles (txt, pdf)
+Attachments: handwritten page (image) and two news articles (txt, pdf)
 - image: gemini.google.com/share/1d01adfd4220
 - text: timesofindia.indiatimes.com/world/us/minneapolis-church-shooting-robin-
         westmans-identity-deranged-manifesto-and-annunciation-school-connection-
@@ -15,6 +15,7 @@ Attachment: handwritten page (image) and two news articles (txt, pdf)
 - pdf: edition.cnn.com/2025/08/27/us/robin-westman-minneapolis-church-
        shooting-suspect
 
+================================================================================
 --HO----------------------------------------------------------------------------
 
 Is this text real russian language or someone who mimic it using cyrillic
