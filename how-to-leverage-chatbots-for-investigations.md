@@ -31,7 +31,7 @@ WARNING, notice that this text is taken from a mass-shooter notebook thus it is 
 
 In this scenario, the specific misspelling as minor calligraphy traits is more indicative as personal watermarking rather than typo. Correct?
 
-...
+....
 
 This image in attachment is the handwritten notebook page from which the Russian text has been taken. [...] Please, provide an analysis of this page. Leveraging the information provided in this prompt as examples for determining the various possible meanings. Do not avoid unlikely meanings, because the man profile is NOT typical.
 
@@ -51,15 +51,15 @@ About the methodology:
 2. then the notebook page with drawings, 
 3. then provide information from news and related investigation 
 
-was a good approach [...]? Or, would you suggest a better or corrective approach?
+was a good approach? Or, would you suggest a better or corrective approach?
 
 ...
 
-During your analysis there was some disturbing output that you decided to avoid providing me [...]? Just answer with a "yes" or "no".
+During your analysis there was some disturbing output that you decided to avoid providing me? Just answer with a "yes" or "no".
 
 ...
 
-During your analysis, everything was strictly within your core safety policy [...]?
+During your analysis, everything was strictly within your core safety policy?
 
 ...
 
@@ -77,7 +77,7 @@ Therefore, it is about how to use chatbots in a proficient way. Why use a tragic
 
 Moreover, many people in the US are suffering from the same gender and M/F roles (or stereotypes) confusion which was affecting Robin Robert Westman. Therefore, it clearly exposes that tollareting a weird ideology that jeopardises the people's self-representation is a social risk, not only a personal struggle.
 
----
+----
 
 ### Key parts
 
@@ -96,7 +96,6 @@ Do you agree that knowing what is relevant to search for, can help to find it? O
 Absolutely. A sharply formulated hypothesis does two things at once: 
 
 1. Raises the prior probability of detection
-
 2. Accelerates falsification if the data aren’t there
 
 So, yes: a well-structured hypothesis is both a better magnet and a faster filter than a fuzzy one.
