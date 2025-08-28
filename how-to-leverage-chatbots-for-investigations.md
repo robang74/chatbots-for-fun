@@ -5,13 +5,19 @@
 
 ## How to leverage chatbots for investigations
 
-The tragic case of Robin Westman triggered the curiosity of some people, as usual. The novelty is that on X some people ask for Grok's opinion. Unfortunately, prompts and Grok answers are limited in length on X. 
+- **1st edition**, article based on two posts published on LinkedIn: [post #1](https://www.linkedin.com/posts/robertofoglietta_ai-support-for-profiling-analysis-the-tragic-activity-7366723284433899520-R7NF) and [post #2](https://www.linkedin.com/posts/robertofoglietta_ai-support-for-profiling-analysis-the-tragic-activity-7366795583765757952--_5a)
 
-Therefore, I have decided to query a chatbot by its web interface. This topic triggers safety guardrails in ChatGPT but apparently not in Gemini. The full chat can be read here: lnkd.in/d3FxbzAG
+---
 
-In the second half of the chat session, I asked questions for a self-check about approach, methodology, omissions, constraints, etc.
+### Introduction
 
-The related answers cannot be fully trusted because post-hoc answers that cannot be verified without an activity log (which is not available, AFAIK).
+The tragic case of Robin Westman (2025-08-28) triggered the curiosity of many people, as every major crime breaking news. The novelty is that on X some people were asking for Grok's opinion, which is a new and growing trend, Unfortunately, prompts and Grok answers are limited in length on X platform. 
+
+Therefore, I have decided to query a chatbot by its own web interface. This topic triggers safety guardrails in ChatGPT but apparently not in Gemini. 
+
+- The full [conversation](https://g.co/gemini/share/1d01adfd4220) with Gemini and its [transcription](data/the-tragic-case-of-robin-westman-gemini.txt#?target=_blank)
+
+In the second half of the chat session, I asked questions for a self-check about approach, methodology, omissions, constraints, etc. -- The related answers cannot be fully trusted because post-hoc answers that cannot be verified without an activity log (which is not available, AFAIK).
 
 The AI does not purposely lie, it answers by the available information, and about internal processes, they usually have just a mere illusion of knowledge. However, it was essential to pose those questions as part of an awareness-driven prompting procedure.
 
