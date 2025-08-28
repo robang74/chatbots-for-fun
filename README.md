@@ -98,7 +98,9 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="valuable-to-learn"></span>
-* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (17 pz.)
+* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (18 pz.)
+
+   - 2025-08-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/how-to-leverage-chatbots-for-investigations.md)] - [How to leverage chatbots for investigations](how-to-leverage-chatbots-for-investigations.md)
 
    - 2025-08-14 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/where-the-magic-happes-in-ai-prompting.md)] - [Where the magic happens, in AI prompting?](where-the-magic-happes-in-ai-prompting.md) &nbsp; (2nd edt.)
 
