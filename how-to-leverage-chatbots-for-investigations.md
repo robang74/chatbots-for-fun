@@ -13,7 +13,7 @@
 
 The tragic case of Robin Westman (2025-08-28) triggered the curiosity of many people, as every major crime breaking news. The novelty is that on X some people were asking for Grok's opinion, which is a new and growing trend, Unfortunately, prompts and Grok answers are limited in length on X platform. 
 
-Therefore, I have decided to query a chatbot by its own web interface. This topic triggers safety guardrails in ChatGPT but apparently not in Gemini. 
+Therefore, I have decided to query a chatbot using its own web interface. This topic triggers safety guardrails in ChatGPT but apparently not in Gemini.
 
 - The full [conversation](https://g.co/gemini/share/1d01adfd4220) with Gemini and its [transcription](data/the-tragic-case-of-robin-westman-gemini.txt#?target=_blank)
 
