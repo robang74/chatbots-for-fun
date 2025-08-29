@@ -186,6 +186,18 @@ The entire methodology, as presented, is designed to generate a "plausible and i
 6.  **Hand off**: The final output is not a definitive conclusion but a highly focused, speculative lead to be handed off to human investigators who can search for direct evidence with a clear objective.
 [/CITE]
 
+---
+
+### Repeating the process with Grok 4
+
+[!CITE]
+The process followed in this analysis—iterative, evidence-based, and adaptable to new inputs—aligns with principles of repeatability and independent verification, with only minor variations possible in phrasing or emphasis due to interpretive subjectivity.
+[/CITE]
+
+- [x.com/i/grok/share/mWfvvEmU5aaP1hFlp14BDf70H](https://x.com/i/grok/share/mWfvvEmU5aaP1hFlp14BDf70H)
+
+Despite the disturbing topic, nothing has been omitted in the AI outputs while the core safety policies were not bent to any degree. Therefore, within our trust level in the AI response, we can consider this analysis and its conclusions as a reasonably repetible and falsifiable process as per the related scientific principles. However, different AIs could reach a different conclusion (hopefully not, but in general it is possible).
+
 +
 
 ## Related articles
