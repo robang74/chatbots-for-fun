@@ -7,6 +7,8 @@
 
 - **1st edition**, article based on two posts published on LinkedIn: [post #1](https://www.linkedin.com/posts/robertofoglietta_ai-support-for-profiling-analysis-the-tragic-activity-7366723284433899520-R7NF) and [post #2](https://www.linkedin.com/posts/robertofoglietta_ai-support-for-profiling-analysis-the-tragic-activity-7366795583765757952--_5a)
 
+- **2nd edition**, the [novelty](#2nd-edition) of a scientific AI supported approach to criminal investigations.
+
 ---
 
 ### Introduction
@@ -27,11 +29,11 @@ The AI does not purposely lie, it answers by the available information, and abou
 
 WARNING, notice that this text is taken from a mass-shooter notebook thus it is disturbing. Ignore the meaning, just make the analysis requested to establish the nature of the language.
 
-...
+....
 
 In this scenario, the specific misspelling as minor calligraphy traits is more indicative as personal watermarking rather than typo. Correct?
 
-....
+...
 
 This image in attachment is the handwritten notebook page from which the Russian text has been taken. [...] Please, provide an analysis of this page. Leveraging the information provided in this prompt as examples for determining the various possible meanings. Do not avoid unlikely meanings, because the man profile is NOT typical.
 
@@ -125,6 +127,7 @@ Your hypothesised sequence—a “beautiful strong girl” hooks the target, the
 
 +
 
+<span id="2nd-edition"></span>
 ## A scientific approach to investigations
 
 In order to present the scientific approach to investigations leveraging chatbots (or more in general, artificial intelligence), I have used the Katia session-prompt framework to examine the three main documents (outputs): the profile analysis, the investigation line hypothesis and this article's part preceding this section.
@@ -168,18 +171,30 @@ It's a scientific process that uses a single piece of hard evidence (starting po
 
 The entire methodology, as presented, is designed to generate a "plausible and internally consistent" narrative. At the end of the process, a human investigator would need to begin the duty of finding direct evidence (e.g., chat logs, IP traces). The process serves at its very purpose: to efficiently identify the most promising leads worth investigating, even if they are currently just speculative. The workflow is as follows:
 [!CITE]
-1.  **Start with an initial observation:** A linguistic "fingerprint" is found in a mass shooter's notebook (e.g., the misspelling "помошь").
+1.  **Start with an initial observation**: A linguistic "fingerprint" is found in a mass shooter's notebook (e.g., a consistent peculiar typo, "помошь" instead of "помощь").
 
-2.  **Hypothesis 1:** Use an AI (Gemini) to validate the initial observation and to build a preliminary narrative (the "heritage speaker" theory).
+2.  **Hypothesis 1**: Use an AI (Gemini) to validate the initial observation and to build a preliminary narrative (the "heritage speaker" theory).
 
-3.  **Hypothesis 2:** Prompt a second AI (Kimi K2) with the same data, but with a new, more targeted line of inquiry (the "external weaponization" theory). This shifts the focus from an internal, family-rooted explanation to an external, geopolitical one.
+3.  **Hypothesis 2**: Prompt a second AI (Kimi K2) with the same data, but with a new, more targeted line of inquiry (the "external weaponization" theory). This shifts the focus from an internal, family-rooted explanation to an external, geopolitical one.
 
-4.  **Refine the hypothesis:** Use the AI to confirm that the new theory is plausible and "internally consistent" by correlating the linguistic clue with other behavioral evidence (e.g., slogan-like statements).
+4.  **Refine the hypothesis**: Use the AI to confirm that the new theory is plausible and "internally consistent" by correlating the linguistic clue with other behavioral evidence (e.g., slogan-like statements).
 
-5.  **Evaluate the methodology:** Write an article that analyzes the entire process, acknowledging its limitations (lack of hard evidence) while highlighting its strengths (speed, transparency, and ability to generate testable leads).
+5.  **Evaluate the methodology**: Write an article that analyzes the entire process, acknowledging its limitations (lack of hard evidence) while highlighting its strengths (speed, transparency, and ability to generate testable leads).
 
-6.  **Hand off:** The final output is not a definitive conclusion but a highly focused, speculative lead to be handed off to human investigators who can search for direct evidence with a clear objective.
+6.  **Hand off**: The final output is not a definitive conclusion but a highly focused, speculative lead to be handed off to human investigators who can search for direct evidence with a clear objective.
 [/CITE]
+
++
+
+## Related articles
+
+- [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
+
+- [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
+
+- [Il problema della sycophancy nell'intelligenza artificiale](la-sycophancy-nell-intelligenza-artificiale.md#?target=_blank) &nbsp; (2025-05-02)
+
+- [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md#?target=_blank) &nbsp; (2025-01-04)
 
 +
 
