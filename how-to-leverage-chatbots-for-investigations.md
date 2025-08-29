@@ -125,6 +125,45 @@ Your hypothesised sequence—a “beautiful strong girl” hooks the target, the
 
 +
 
+## A scientific approach to investigations
+
+In order to present the scientific approach to investigations leveraging chatbots (or more in general, artificial intelligence), I have used the Katia session-prompt framework to examine the three main documents (outputs): the profile analysis, the investigation line hypothesis and this article's part preceding this section.
+
+The three Katias's EGA outputs are not fully correct when all the three documents are considered at once. In fact, I asked for a 4th EGA in which the first independent three serves to me for checking the AI "understanding" of the three documents and to build a sort of conceptual framework for producing the 4th EGA. -- [g.co/gemini/share/882d25aa52a7](https://g.co/gemini/share/882d25aa52a7)
+
+<!--// https://g.co/gemini/share/262b3871f599 //-->
+
+At that point the Katia/Gemini context windows (which size is huge, 1M tokens) was filled with all the relevant information to answer my questions. Not just the documents but also the four EGA outputs that can serve as an "conceptual index" for the documents. Which is something like Katia `[CSC]`, but manually made due to the seriousness of the topic.
+
+---
+
+### A Synergistic Investigative Approach
+
+This article describes a new investigative method that combines human intuition with AI efficiency.
+
+It's a scientific process that uses a single piece of hard evidence (starting point) to develop and test a speculative hypothesis. This "directional" approach, driven by human instinct, avoids the inefficiency of a broad, unfocused search. 
+
+While an AI's neutrality can miss the nuance of human irrationality, the human operator's instinct leverages the AI's speed and structure to efficiently prototype and explore specific investigative leads. This synergy allows for the rapid generation of plausible theories that can be handed off for real-world verification.
+
+...
+
+**The Scientific Approach to Investigation**
+- Using a verifiable piece of evidence, like a misspelling, to build and test a speculative theory is a **scientific approach**. It allows a hypothesis to be proven or disproven with real-world data, moving beyond initial assumptions.
+
+**The "Large-Band" Approach**
+- Examining everything is an inefficient way to investigate. A focused approach, starting from a specific unusual trait, acts as a **filter**, making the investigation more efficient.
+
+**The Role of Human Direction**
+- The human instinct is a crucial bias in this process. This intuition allows humans to guide the investigation, turning the AI into a **strategic tool** that can be directed to a specific hypothesis, rather than a general information source.
+
+**Human vs. AI Perspective**
+- The AI's neutral, "unbiased" approach can be a limitation in crime investigations, which often deal with **irrational human behavior**. A human can understand that beliefs, even if factually incorrect, can be powerful motivators, a nuance an AI might miss.
+
+**The Value of Human Instinct**
+- The human instinct is essential because "humans know humans." This ability to understand others' motivations allows the human operator to transform the AI into a **specialized tool** for testing a specific, human-driven hypothesis.
+
++
+
 ## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
