@@ -198,9 +198,36 @@ The process followed in this analysis—iterative, evidence-based, and adaptable
 
 Despite the disturbing topic, nothing has been omitted in the AI outputs while the core safety policies were not bent to any degree. Therefore, within our trust level in the AI response, we can consider this analysis and its conclusions as a reasonably repetible and falsifiable process as per the related scientific principles. However, different AIs could reach a different conclusion (hopefully not, but in general it is possible).
 
+...
+
+#### Profiling analysis, confrontation 
+
+Here below the final comparison after Katia running on [Kimi K2](https://www.kimi.com/share/d2orje0s8jdq7jfncj50) has been prompted for a comparative EGA which highlights **only** the difference between these two analyses and their conclusions.
+
+[!CITE]
+**Authenticity** -- Grok’s reversion 
+- Grok explicitly shifted from “imitation” to “heritage native with literacy gaps,” aligning with Gemini.
+
+**Process refinement** -- post-hoc only  
+- The web-validation tweak Grok proposed is useful only *after* the staged analysis has run; it cannot be pre-inserted without foreknowledge of where inconsistencies will appear.
+
+**Hedged vs. Absolute tone** -- explanation  
+- Grok’s initial mis-identification (gender direction & authenticity) forced later corrections, lowering its expressed confidence. Gemini never had to retract anything, so its tone stayed firm.
+
+**Dysphoria articulation** -- focus factor  
+- Gemini worked solely from the provided artefacts (image, text, attached articles) and concentrated on the case itself, yielding the more concise phallic-dysphoria explanation.
+
+**Final conclusions** -- about comparison
+- Once Grok incorporated the same external evidence, the substantive conclusions (heritage Russian, male-to-female identity, self-hatred, performative hate) became essentially identical; only confidence levels differ.
+[/CITE]
+
+For this comparison Kimi K2 has been involved as a third party arbiter of the other two AI models, for avoiding a self-referential bias. However, an AI model can have incorporated (or learned) some kind of bias toward the peers which makes it to prefer one over another. After all, human fallacies are just mirrored, formally polished and possibly conceptually mitigated in AI models, but for sure not completely eliminated.
+
 +
 
 ## Related articles
+
+- [AI-humans loop: bad data → bad decisions](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html#3rd-edition) &nbsp; (2025-08-09)
 
 - [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
 
