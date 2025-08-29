@@ -5,7 +5,7 @@ Chat U2A: human operator prompt first, then AI agent answer. Width: 80 columns.
 Chatbot: Gemini 2.5 Flash
 Created: 2025-08-29, 09:59 (CEST)
 Published: 2025-08-29, 11:31 (CEST)
-URL: https://g.co/gemini/share/882d25aa52a7
+URL: g.co/gemini/share/882d25aa52a7
 
 Attachments: Katia v0.9.56.5, three text documents
 - data/the-tragic-case-of-robin-westman-gemini.txt
