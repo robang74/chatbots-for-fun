@@ -132,9 +132,11 @@ Your hypothesised sequence—a “beautiful strong girl” hooks the target, the
 
 In order to present the scientific approach to investigations leveraging chatbots (or more in general, artificial intelligence), I have used the Katia session-prompt framework to examine the three main documents (outputs): the profile analysis, the investigation line hypothesis and this article's part preceding this section.
 
+- The full [conversation](https://g.co/gemini/share/882d25aa52a7) with Katia/Gemini and its [transcription](data/how-to-leverage-chatbots-for-investigations.txt#?target=_blank) &nbsp; (2025-08-29)
+
 The three Katias's EGAs are not complete: all the three documents should be considered at once. In fact, I asked for a 4th EGA in which the independent three EGAs serve to me for checking the AI "understanding" of each document and to build a sort of conceptual framework for producing the 4th EGA. <!--// https://g.co/gemini/share/262b3871f599 //-->
 
-Finally, Katia/Gemini context windows (which size is huge, 1M tokens) was filled with all the relevant information to answer my questions. Not just the documents but also the four EGA outputs that can serve as an "conceptual index" for the documents. Which is something like Katia `[CSC]`, but manually made due to the seriousness of the topic. -- [g.co/gemini/share/882d25aa52a7](https://g.co/gemini/share/882d25aa52a7)
+Finally, Katia/Gemini context windows (which size is huge, 1M tokens) was filled with all the relevant information to answer my questions. Not just the documents but also the four EGA outputs that can serve as an "conceptual index" for the documents. Which is something like Katia `[CSC]`, but manually made due to the seriousness of the topic.
 
 ---
 
