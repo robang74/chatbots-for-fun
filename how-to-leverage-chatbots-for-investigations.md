@@ -226,6 +226,16 @@ Here below the final [comparison](https://www.kimi.com/share/d2orje0s8jdq7jfncj5
 
 For this comparison Kimi K2 has been involved as a third party arbiter of the other two AI models, for avoiding a self-referential bias. However, an AI model can have incorporated (or learned) some kind of bias toward the peers which makes it to prefer one over another. After all, human fallacies are just mirrored, formally polished and possibly conceptually mitigated in AI models, but for sure not completely eliminated.
 
++
+
+## Comparison between AI engines
+
+> [!WARN]
+> 
+> **WORKING IN PROGRESS**
+
+Not all AI engines are equal, and this is particularly true when a specific and structured task is involved. ChatGPT-5 failed to qualify not because of the underlying LLM/LRM but because of its settings (safety guardrails). While Grok-4 failed two times, and the second in a worse way because of its retrieval policy (web crawling limitations and X as a reliable source of knowledge). It is essential to understand these failures, to keep the whole process reliability within a reasonable range.
+
 <!--// Grok 4, failed to provide a consisten analysis of the scorn/groom patterns due to limited accesible information retrivial fault //-->
 <!--// https://x.com/i/grok/share/k9rcnq6WcC9pee2KHfUW9t7tz //-->
 <!--// https://chatgpt.com/share/68b35ec9-15c4-8012-9934-a610d14d2e88 //-->
