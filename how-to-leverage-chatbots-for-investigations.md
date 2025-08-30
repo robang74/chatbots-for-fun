@@ -205,7 +205,7 @@ Despite the disturbing topic, nothing has been omitted in the AI outputs while t
 
 #### Profiling analysis, confrontation 
 
-Here below the final comparison after Katia running on [Kimi K2](https://www.kimi.com/share/d2orje0s8jdq7jfncj50) has been prompted for a comparative EGA which highlights **only** the difference between these two analyses and their conclusions.
+Here below the final [comparison](https://www.kimi.com/share/d2orje0s8jdq7jfncj50) and its [transcription](data/the-tragic-case-of-robin-westman-comp1.txt#?target=_blank), after Katia running on has been prompted for a comparative EGA which highlights **only** the difference between these two analyses and their conclusions.
 
 [!CITE]
 **Authenticity**: Grok’s reversion 
