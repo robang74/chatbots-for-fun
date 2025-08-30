@@ -43,47 +43,77 @@ conclusions.
 
 #### 1. Linguistic-Fingerprint Conclusion
 
-| Grok-4 | Gemini 2.5 | Δ |
-|---|---|---|
-**“Strongly indicates imitation”** – leans toward a non-native using a transliteration tool because of the ‘щ’ → ‘ш’ misspelling. | **“Real Russian”** – states the text is genuine Russian produced by a heritage speaker; the misspelling is a personal “watermark” rather than mimicry. | *Polar opposite final verdicts on authenticity.* |
+- **Grok-4**: “Strongly indicates imitation” – leans toward a non-native using
+  a transliteration tool because of the ‘щ’ → ‘ш’ misspelling.
+
+- **Gemini 2.5**: “Real Russian” – states the text is genuine Russian produced
+  by a heritage speaker; the misspelling is a personal “watermark” rather than
+  mimicry.
+
+- **deltas**: Polar opposite final verdicts on authenticity.
 
 #### 2. Gender-Identity Direction
 
-| Grok-4 | Gemini 2.5 | Δ |
-|---|---|---|
-| Initially assumed **female-to-male** transition; later **revised** after external articles to **male-to-female**. | From the outset accepted **male-to-female** identification based on court documents. | *Grok had to back-track; Gemini was instantly aligned.* |
+- **Grok-4**: Initially assumed **female-to-male** transition; later **revised**
+  after external articles to **male-to-female**.
+
+- **Gemini 2.5**: From the outset accepted **male-to-female** identification
+  based on court documents.
+
+- **deltas**: Grok had to back-track; Gemini was instantly aligned.
 
 #### 3. Russian Spelling Details
-  
-| Grok-4 | Gemini 2.5 | Δ |
-|---|---|---|
-| Correctly flags **«помошь»** but never mentions the **«УБЭЙ СЭБЯ»** misspelling. | Adds **«УБЭЙ СЭБЯ»** (incorrect capital Э) as additional orthographic evidence. | *Gemini provides one extra spelling anomaly; Grok omits it.* |
+
+- **Grok-4**: Correctly flags «помошь» but never mentions the «УБЭЙ СЭБЯ» 
+  misspelling.
+
+- **Gemini 2.5**: Adds «УБЭЙ СЭБЯ» (incorrect capital Э) as additional
+  orthographic evidence.
+
+- **deltas**: Gemini provides one extra spelling anomaly; Grok omits it.
 
 #### 4. Symbolic Interpretation Nuances
 
-| Grok-4 | Gemini 2.5 | Δ |
-|---|---|---|
-| Suggests faucet as **phallic envy** tied to gender dysphoria. | Also notes faucet as **phallic symbol**, but explicitly links it to **possible self-loathing of original male anatomy**. | *Gemini articulates the dysphoria mechanism more precisely.* |
+- **Grok-4**: Suggests faucet as **phallic envy** tied to gender dysphoria.
+
+- **Gemini 2.5**: Also notes faucet as **phallic symbol**, but explicitly links
+  it to **possible self-loathing of original male anatomy**.
+
+- **deltas**: Gemini articulates the dysphoria mechanism more precisely.
 
 #### 5. Ideological Layering
 
-| Grok-4 | Gemini 2.5 | Δ |
-|---|---|---|
-| Lists **anti-Christian, antisemitic, anti-Indian, anti-Trump, pro-Islamic** slogans found on weapons. | Mentions **same slogans** yet frames them as **“a perverse performance”** for public consumption. | *Gemini emphasizes performative intent; Grok lists content without that framing.* |
+- **Grok-4**: Lists **anti-Christian, antisemitic, anti-Indian, anti-Trump,
+  pro-Islamic** slogans found on weapons.
+
+- **Gemini 2.5**: Mentions **same slogans** yet frames them as **“a perverse
+  performance”** for public consumption.
+
+- **deltas**: *Gemini emphasizes performative intent; Grok lists content
+  without that framing.*
+
+---
 
 #### 6. Methodological Self-Reflection
 
-| Grok-4 | Gemini 2.5 | Δ |
-|---|---|---|
-| Offers **corrective enhancement**: suggest running quick web validation between each analytical stage. | **Endorses the 3-step sequence** without proposing any modification. | *Only Grok proposes refining the process.* |
+- **Grok-4**: Offers **corrective enhancement**: suggest running quick web
+  validation between each analytical stage.
+
+- **Gemini 2.5**: **Endorses the 3-step sequence** without proposing any
+  modification.
+
+- **deltas**: Only Grok proposes refining the process.
 
 #### 7. Confidence Tone
 
-| Grok-4 | Gemini 2.5 | Δ |
-|---|---|---|
-| Uses cautious phrasing: *“leans toward,” “could indicate.”* | Uses definitive phrasing: *“is real Russian,” “is a linguistic fingerprint.”* | *Gemini sounds more absolute; Grok is more hedged.* |
+- **Grok-4**: Uses cautious phrasing: "leans toward,” “could indicate".
 
-### Bottom-Line Δ
+- **Gemini 2.5**: Uses definitive phrasing:
+  "is real Russian”, “is a linguistic fingerprint".
+
+- **deltas**: Gemini sounds more absolute; Grok is more hedged.
+
+### Bottom-Line deltas
 
 - **Authenticity verdict** is diametrically opposed.  
 - **Gender-direction** required a mid-course correction only in Grok.  
@@ -113,26 +143,31 @@ After Grok correct itself
 
 -- AI --------------------------------------------------------------------------
 
-1. Authenticity – Grok’s reversion: **Correct.** 
+1. Authenticity – Grok’s reversion: **Correct**
+
 - Grok explicitly shifted from “imitation” to “heritage native with literacy
   gaps,” aligning with Gemini.
 
-2. Process refinement – post-hoc only: **Correct.**
+2. Process refinement – post-hoc only: **Correct**
+
 - The web-validation tweak Grok proposed is useful only *after* the staged
   analysis has run; it cannot be pre-inserted without foreknowledge of where
   inconsistencies will appear.
 
-3. Hedged vs. absolute tone – explanation: **Correct.**
+3. Hedged vs. absolute tone – explanation: **Correct**
+
 - Grok’s initial mis-identification (gender direction & authenticity) forced
   later corrections, lowering its expressed confidence. Gemini never had to
   retract anything, so its tone stayed firm.
 
-4. Dysphoria articulation – focus factor: **Correct.**
+4. Dysphoria articulation – focus factor: **Correct**
+
 - Gemini worked solely from the provided artefacts (image, text, attached
   articles) and concentrated on the case itself, yielding the more concise
   phallic-dysphoria explanation.
 
-5. Final conclusions – about comparison: **Correct.**
+5. Final conclusions – about comparison: **Correct**
+
 - Once Grok incorporated the same external evidence, the substantive conclusions
   (heritage Russian, male-to-female identity, self-hatred, performative hate)
   became essentially identical; only confidence levels differ.
