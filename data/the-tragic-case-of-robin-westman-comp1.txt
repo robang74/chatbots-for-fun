@@ -29,7 +29,9 @@ Katia; v0.9.56.5; lang: EN; mode: SBI;  date: 2025-08-29;
 
 [attachments: the-tragic-case-of-robin-westman-*.txt]
 
-Here in attachment there are two analysis on the same topic. Do a comparative EGA which highlights ONLY the difference between these two analysis and their conclusions.
+Here in attachment there are two analysis on the same topic. Do a comparative
+EGA which highlights ONLY the difference between these two analysis and their
+conclusions.
 
 -- AI --------------------------------------------------------------------------
 
@@ -94,30 +96,44 @@ Authenticity verdict is diametrically opposed.
 - however, Grok reverted his initial judgement. Correct?
 
 Process refinement idea
-- Unfortunately that refinement works only as post-hoc tuning but cannot be applied before knowing the analysis course. Correct?
+- Unfortunately that refinement works only as post-hoc tuning but cannot be
+  applied before knowing the analysis course. Correct?
 
 Gemini sounds more absolute while Grok is more hedged
-- Which is quite obvious because Grok relied on information retrieved from web but initially grok misidentified the case thus the gender direction transition. Therefore only Grok had to correct itself, which reduce confidence in its own judgmental. Correct?
+- Which is quite obvious because Grok relied on information retrieved from
+  web   but initially grok misidentified the case thus the gender direction
+  transition. Therefore only Grok had to correct itself, which reduce
+  confidence in its own judgmental. Correct?
 
 Gemini articulates the dysphoria mechanism more precisely
 - because Gemini was more focused on the case without external sources. Correct?
 
-After Grok correct itself, the two conclusion coincides apart the different level of confidence. Correct?
+After Grok correct itself
+- the 2 conclusions coincide, apart the different level of confidence. Correct?
 
 -- AI --------------------------------------------------------------------------
 
-1. Authenticity – Grok’s reversion  
-**Correct.** Grok explicitly shifted from “imitation” to “heritage native with literacy gaps,” aligning with Gemini.
+1. Authenticity – Grok’s reversion: **Correct.** 
+- Grok explicitly shifted from “imitation” to “heritage native with literacy
+  gaps,” aligning with Gemini.
 
-2. Process refinement – post-hoc only  
-**Correct.** The web-validation tweak Grok proposed is useful only *after* the staged analysis has run; it cannot be pre-inserted without foreknowledge of where inconsistencies will appear.
+2. Process refinement – post-hoc only: **Correct.**
+- The web-validation tweak Grok proposed is useful only *after* the staged
+  analysis has run; it cannot be pre-inserted without foreknowledge of where
+  inconsistencies will appear.
 
-3. Hedged vs. absolute tone – reason  
-**Correct.** Grok’s initial mis-identification (gender direction & authenticity) forced later corrections, lowering its expressed confidence. Gemini never had to retract anything, so its tone stayed firm.
+3. Hedged vs. absolute tone – explanation: **Correct.**
+- Grok’s initial mis-identification (gender direction & authenticity) forced
+  later corrections, lowering its expressed confidence. Gemini never had to
+  retract anything, so its tone stayed firm.
 
-4. Dysphoria articulation – focus factor  
-**Correct.** Gemini worked solely from the provided artefacts (image, text, attached articles) and concentrated on the case itself, yielding the more concise phallic-dysphoria explanation.
+4. Dysphoria articulation – focus factor: **Correct.**
+- Gemini worked solely from the provided artefacts (image, text, attached
+  articles) and concentrated on the case itself, yielding the more concise
+  phallic-dysphoria explanation.
 
-5. Final conclusions  
-**Correct.** Once Grok incorporated the same external evidence, the substantive conclusions (heritage Russian, male-to-female identity, self-hatred, performative hate) became essentially identical; only confidence levels differ.
+5. Final conclusions – about comparison: **Correct.**
+- Once Grok incorporated the same external evidence, the substantive conclusions
+  (heritage Russian, male-to-female identity, self-hatred, performative hate)
+  became essentially identical; only confidence levels differ.
 
