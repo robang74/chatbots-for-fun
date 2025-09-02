@@ -6,8 +6,8 @@
 ## How to leverage chatbots for investigations
 
 - **1st edition**, article based on two posts published on LinkedIn: [post #1](https://www.linkedin.com/posts/robertofoglietta_ai-support-for-profiling-analysis-the-tragic-activity-7366723284433899520-R7NF) and [post #2](https://www.linkedin.com/posts/robertofoglietta_ai-support-for-profiling-analysis-the-tragic-activity-7366795583765757952--_5a)
-
 - **2nd edition**, the [novelty](#2nd-edition) of a scientific AI supported approach to criminal investigations.
+- **3rd edition**, includes a [section](#3rd-edition) about BusyBox dd truncation to 32-bit which might impact in forensics
 
 ---
 
@@ -242,6 +242,41 @@ Not all AI engines are equal, and this is particularly true when a specific and 
 <!--// https://www.perplexity.ai/search/check-for-these-information-to-jd28EJY4RHCrK70n5g0Tuw?0=r //-->
 <!--// https://www.kimi.com/share/d2pluivaa0vdl5qi4f1g //-->
 <!--// https://x.com/i/grok/share/QUmtLiqRZ7fJ0alEOe7pXAAyv //-->
+
++
+
+<span id="3rd-edition"></span>
+## Forensic alert: some systems or forensic tools might fail
+
+<div align="center"><img class="wbsketch paleinv" src="img/busybox-dd-64-32-bit-truncation-bug.png" width="800"><br></div>
+
+The patch, related to the e-mail header presented in the above screenshot, fixes a 32-bit truncation in busybox dd. While almost all modern desktop/server systems  use 64-bit types or do not use the BusyBox as default binary for commands, embedded systems  and some hardware forensic tools affected by this bug can encounter this 32-bit truncation issue.
+
+This can seriously affect log creation, data transfer, and the completeness of evidence acquisition. Especially because the error is not reported by the system or at the command line. Since the problem does not generate an error message, any resulting inconsistencies in logs or images can be easily ignored or overlooked. Despite this being a very specific issue, a single piece of evidence or system affected by it might be enough to jeopardize an entire forensic report.
+
+Here few bug/patch analysis provided as explanation, made with: 1. [ChatGPT-5](https://chatgpt.com/share/68b71e72-7a4c-8012-a771-226d8b0dca9f); 2. [Gemini](https://g.co/gemini/share/bc9e0b4dbeda); 3. [Kimi K2](https://www.kimi.com/share/d2ri7iai5979d577o1b0).
+
+While the right image's half shows a table of typical cases in which "typical" should be intended as not exhaustive, thus not necessarily complete.
+
+----
+
+### Kimi K2's analysis noticeable parts
+
+[!CITE]
+The patch is not about modern 64-bit desktops.  It is about BusyBox being built for 32-bit targets that are still very common in the embedded world, and that is exactly where the bug was noticed.
+
+Typical systems that still run a 32-bit user-land with BusyBox include
+
+- All armv7 / armhf boards (Raspberry Pi ≤ 3 in 32-bit distros, OpenWrt routers, many set-top boxes, automotive infotainment, etc.)
+
+- i386 builds that are still shipped by several small-footprint distros (Alpine i686, some Debian derivatives, buildroot images for legacy PCs): mips32, powerpc 32-bit, arc, xtensa, riscv32 tool-chains used in deeply embedded products
+
+- On those targets `sizeof(long)` is 4 bytes, so `xatoul_sfx()` would overflow at 4 GiB.  
+
+The patch makes BusyBox behave correctly on exactly those 32-bit systems, while on native 64-bit hosts it is a no-op because `long` is already 64-bit.
+
+Moreover, there is no practical forensic artefact or tool that can retroactively detect this specific truncation; you have to rely on external evidence like build metadata, logs, or re-running the same command with a fixed BusyBox and comparing, etc.
+[/CITE]
 
 +
 
