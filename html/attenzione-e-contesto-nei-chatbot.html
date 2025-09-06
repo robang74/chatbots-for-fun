@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-07-20&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>32</b rev_num='
+'>33</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=en&_x_tr_hl=en-EN&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>EN</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -358,6 +358,46 @@ The whole theory of systems stability is based on the negative feedback, but not
 Negative feedback should be less intense than positive feedback. That's the key of education (teaching, supporting, correcting and sometimes, as little as possible, enforcing discipline). This is also the main reason because military education raises very confident idiots, in the long run. Feedbacks are always negative, rarely positive. When feedback turns positive in favour of speaking, that begins their clown time.
 <p></p>
 <i>Fesse-moi, mais pas trop fort!</i>
+<p></p>
+<hr>
+<p></p>
+<H3 id="biases-fixing-vs-halucinations-mitigation">Biases fixing vs Halucinations mitigation</H3>
+<p></p>
+<blockquote><span class="warnicon spanicon">&nbsp;<svg class="warnicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;WARNING!&nbsp;&nbsp;</nobr></span><br><br><b>WORKING IN PROGRESS</b></blockquote>
+<p></p>
+The following article confirm the "learning by context" effect.
+<p></p>
+<!--
+<div class="post-it"><b class="post-it">&#9432;</b>
+Large language models demonstrate remarkable in-context learning capabilities, adapting to new tasks without parameter updates. While this phenomenon has been
+successfully modeled as implicit Bayesian inference, recent empirical findings reveal a fundamental contradiction: transformers systematically violate the martingale property, a cornerstone requirement of Bayesian updating on exchangeable data. This violation challenges the theoretical foundations underlying uncertainty quantification in critical applications. [...] The implications extend beyond theoretical aesthetics to practical applications in medicine, finance, and other domains where calibrated uncertainty estimates are critical.
+</div>
+-->
+<p></p>
+<div class="post-it"><b class="post-it">&#9432;</b>
+LLMs do remarkable in-context “Bayesian” learning yet empirically break the martingale property. For example, their posterior odds drift even when data are exchangeable. This gap guts the Bayesian justification and leaves high-stakes domains (e.g.: medicine, finance) without reliable uncertainty bars.
+<p></p>
+<b>4. Optimal Chain-of-Thought Length &mdash; 4.1 Economic Motivation</b>
+<li>API costs: Most providers charge per token, making CoT 10-100× more expensive</li>
+</div>
+<li><a href="https://arxiv.org/pdf/2507.11768" target='_blank' rel='noopener noreferrer'>LLMs are Bayesian, in expectation, not in realization</a></li>
+<p></p>
+<br>
+<p></p>
+<blockquote class="cite">
+The Katia session prompt framework (TFMK) is <b>not</b> a Chain-of-Thought (CoT) prompt in the strict sense.
+<p></p>
+<li>Superficially, TFMK contains reasoning structures that <b>resemble</b> CoT logic.</li>
+<li>Practically, TFMK orchestrates <b>what</b> to think, not <b>how</b> to think step-by-step.</li>
+<p></p>
+TFMK orchestrates <b>what</b> to think , means prescribes the <i>categories, labels, filters, and outputs</i> that must appear in the final answer. It decides <b>which conceptual objects</b> are allowed or required. While a CoT prompt also orchestrates <b>how</b> to think, would dictate the <i>cognitive path</i>: the intermediate reasoning micro-steps that lead to those object.
+<p></p>
+TFMK only does the first while it hands the agent the step-by-step part is exactly what CoT supplies, and TFMK deliberately leaves that to the model's internal inference. Thus, <b>TFMK is a control layer</b>.
+<p></p>
+Katia is lighter than a CoT because only prepends a <b>fixed, one-time rules block</b> (~2–3K tokens); the actual answer is generated in a <b>single forward pass</b> with no extra intermediate tokens. A full CoT prompt, by contrast, <b>forces the model to emit</b> the entire reasoning trace &mdash; often 10–100× more tokens &mdash; <b>every single turn</b>.
+</blockquote>
+<p></p>
+<b>NOTE</b>: therefore, per-interaction, Katia's marginal cost is essentially the same as a vanilla prompt &mdash; is a claim to check in a real-world scenario, because in some systems or with some settings, the whole prompt costs around 4K extra tokens for each prompt.
 <p></p>
 <br>
 <p></p>

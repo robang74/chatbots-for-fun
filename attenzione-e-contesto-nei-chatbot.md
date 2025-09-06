@@ -338,6 +338,48 @@ Negative feedback should be less intense than positive feedback. That's the key 
 
 *Fesse-moi, mais pas trop fort!*
 
+---
+
+### Biases fixing vs Halucinations mitigation
+
+> [!WARN]
+>
+> **WORKING IN PROGRESS**
+
+The following article confirm the "learning by context" effect.
+
+<!--
+[!INFO]
+Large language models demonstrate remarkable in-context learning capabilities, adapting to new tasks without parameter updates. While this phenomenon has been
+successfully modeled as implicit Bayesian inference, recent empirical findings reveal a fundamental contradiction: transformers systematically violate the martingale property, a cornerstone requirement of Bayesian updating on exchangeable data. This violation challenges the theoretical foundations underlying uncertainty quantification in critical applications. [...] The implications extend beyond theoretical aesthetics to practical applications in medicine, finance, and other domains where calibrated uncertainty estimates are critical.
+[/INFO]
+-->
+
+[!INFO]
+LLMs do remarkable in-context “Bayesian” learning yet empirically break the martingale property. For example, their posterior odds drift even when data are exchangeable. This gap guts the Bayesian justification and leaves high-stakes domains (e.g.: medicine, finance) without reliable uncertainty bars.
+
+**4. Optimal Chain-of-Thought Length -- 4.1 Economic Motivation**
+* API costs: Most providers charge per token, making CoT 10-100× more expensive
+[/INFO]
+- [LLMs are Bayesian, in expectation, not in realization](https://arxiv.org/pdf/2507.11768)
+
++
+
+[!CITE]
+The Katia session prompt framework (TFMK) is **not** a Chain-of-Thought (CoT) prompt in the strict sense.
+
+- Superficially, TFMK contains reasoning structures that **resemble** CoT logic.
+- Practically, TFMK orchestrates **what** to think, not **how** to think step-by-step.
+
+TFMK orchestrates **what** to think , means prescribes the *categories, labels, filters, and outputs* that must appear in the final answer. It decides **which conceptual objects** are allowed or required. While a CoT prompt also orchestrates **how** to think, would dictate the *cognitive path*: the intermediate reasoning micro-steps that lead to those object.
+
+TFMK only does the first while it hands the agent the step-by-step part is exactly what CoT supplies, and TFMK deliberately leaves that to the model's internal inference. Thus, **TFMK is a control layer**.
+
+Katia is lighter than a CoT because only prepends a **fixed, one-time rules block** (~2–3K tokens); the actual answer is generated in a **single forward pass** with no extra intermediate tokens. A full CoT prompt, by contrast, **forces the model to emit** the entire reasoning trace -- often 10–100× more tokens -- **every single turn**.
+[/CITE]
+
+**NOTE**: therefore, per-interaction, Katia's marginal cost is essentially the same as a vanilla prompt -- is a claim to check in a real-world scenario, because in some systems or with some settings, the whole prompt costs around 4K extra tokens for each prompt.
+
 +
 
 ## Footer composition challenge
