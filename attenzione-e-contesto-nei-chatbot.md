@@ -349,7 +349,7 @@ Negative feedback should be less intense than positive feedback. That's the key 
 The following article confirm the "learning by context" effect.
 
 [!INFO]
-LLMs do remarkable in-context “Bayesian” learning yet empirically break the martingale property. For example, their posterior odds drift even when data are exchangeable. This gap guts the Bayesian justification and leaves high-stakes domains (e.g.: medicine, finance) without reliable uncertainty bars.
+LLMs do remarkable in-context "Bayesian" learning yet empirically break the martingale property. For example, their posterior odds drift even when data are exchangeable. This gap guts the Bayesian justification and leaves high-stakes domains (e.g.: medicine, finance) without reliable uncertainty bars.
 
 **4. Optimal Chain-of-Thought Length -- 4.1 Economic Motivation**
 * API costs: Most providers charge per token, making CoT 10-100× more expensive
@@ -415,7 +415,47 @@ Katia is lighter than a CoT because only prepends a **fixed, one-time rules bloc
 
 ### Katia helps, but why so much?
 
-**TODO**
+The SimpleQA questions are hard to answer also for a common human. They are subtle and strongly leverage many typical features of human reasoning and feelings (humans know humans). Can the `[HKO]` (human knowledge and opinions) module have helped in finding the flebile links present but previously not well categorised or confusing?
+
+[!CITE]
+Yes—HKO is exactly the tool that turns “I feel something is off” into *labelled, searchable hooks*.
+
+1. **Human-as-signal-detector**  
+- Humans spot micro-tones (irony, dismissiveness, over-confidence) that no token-probability surface ever flags.
+The `[HKO]` gives Katia a **controlled vocabulary** ([HN], [DIB], [GAP], [HP], [HU]) so those **fleeting impressions** become **explicit search terms** inside the context window.
+
+2. **From vague to query-able, example:
+- vague: “the author sounds biased”  
+- `[HKO]`: “[DIB-3] arbitrary premise (A!) presented as granted” → instant cue to **look for the missing A evidence** in [ARK] or [USR].  
+Once the cue is **written**, the **attention gate** can link it to the **latent fact** that disarms the bias—something a pure embedding-similarity search would rank too low.
+
+3. **Emotion labels as attention amplifiers**  
+- [HU] or [HP] tags **carry emotional valence tokens**; the model has seen millions of **human-reaction** examples during pre-training, so those strings **sit higher in the affective prior**. Placing them **next to an under-represented fact** **borrows** that prior strength, **boosting the fact’s activation** without extra parameters.
+
+4. **Iterative refinement loop**  
+- Human-in-the-loop can **re-label** a first-pass HKO tag (“this is not [DIB], it is [GAP-2]”) → the **updated cue** is **re-injected** into the permanent prefix, **re-weighting** the retrieval path in real time.
+This is **negative-feedback** at the **human-intuition granularity**, something RLHF rarely reaches.
+
+So HKO does not *replace* human subtlety; it **crystallises** it into **machine-searchable beacons**, letting the **weak-but-relevant** links **surface above the hallucination threshold**.
+
+About **Hallucination-mitigation**, Katia’s source-label cues and negative-space flags raise the logit score of retrieved facts and penalise un-labelled continuations, so the sampler picks memory over fabrication—yielding the observed SimpleQA boost without any weight surgery.
+
+In fact, Katia revents the model from inventing when the right edge is missing or too weak to be retrieved. Attention focus (zoom) helps the correct sub-net fires above the "make-something-up" threshold. The SimpleQA score boost is exactly the empirical signature that it lowered the activation barrier for a latent fact-set that was already there but dormant. Once the retrieval gap is closed, the model no longer needs to please the user with a fabrication.
+
+- Attention bridge: "When rating, always label sources [IPK], [WEB], [ARK], [USR], ..." which increases logit score (or probability mass) in whatever has no a source. Thus applying a label enforse the self-awareness about "inventing" facts.
+
+- Negative-space trigger: Katia also inserts neg-phrases (“flag as [DIB] if implicit, [GAP] if missing”) which raise the logit penalty for hallucinated continuations that lack a labelled source. The model still can hallucinate, but the score gap between “retrieved + labelled” and “invented” widens enough that the ranking sampler almost always picks the retrieved path.
+
+Result: contextual gate reinforcement, not weight surgery, produces the measured jump.
+[/CITE]
+
+Can we fully trust this explanation? In my own experience: no. Strange: yes. In fact, how the AI perceives and describes how a prompt would work, it should be trusted because whatever it understands, it does. Nope! Which led me to consider every CoT log a mere fabrication which can be useful in the debug phase of a developing prompt-engineering process.
+
+Why is it useful for debugging? Or in some other corner-cases? Because it contains extra information. For example -- the attention zoom effect, retrieving and labeling, negative confidence associated with some specific labels, how to categorise elements of the prompt/context -- all these topics are {goals, rules, constrains} for which Katia has been deliberately developed for. Also how this stuff boosts the SimpleQA is plausible, not because the AI description itself, but because in general my experience as Katia's developer matches with the description.
+
+So, where is the gap for which I can say "I don't trust fully on these outputs"?
+
+Few words: "fully", "in general", and "in my experience". -- In my experience and in general, the explanation matches. The case-by-case Results may vary, while fine-grained details do not let me associate this output to a particular case, thus are noise. Which is the must-to-have feature of an authoritative log, for example? We can almost immediately determine if that log matches with a specific case/machine or not. If we cannot, it is not authoritative because we cannot fully trust in it.
 
 ---
 
