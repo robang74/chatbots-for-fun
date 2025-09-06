@@ -378,6 +378,8 @@ Stanislav Petrov was a lieutenant colonel in the Soviet era, when in 1983 averte
 
 In this extreme case, no multiple level logs and multiple AI verifications would be even useful in case of a false positive. Who, also among those who managed to survive, would care to check the logs and trouble-fix the system? Some systems should have **never** exist in the first place, and **not** fully automated. Thus the safest launch system is not the one with the perfect log, but the one whose political environment makes every alarm implausible. Bad times are those that require unsung heroes like Stanislav Petrov in 1983.
 
+While extremely critical on-time-or-never decisions cannot be fully automated due to their top-stake risks of a false positive. Everyday risks can be managed in a more relaxed way by a statistical approach in which exceptions are unavoidable when applied on huge sets of cases, but still occur less often than under a human-only approach.
+
 ---
 
 ### Katia isn't a CoT, but helps
@@ -398,6 +400,7 @@ Katia is lighter than a CoT because only prepends a **fixed, one-time rules bloc
 **NOTE**: therefore, per-interaction, Katia's marginal cost is essentially the same as a vanilla prompt -- is a claim to check in a real-world scenario, because in some systems or with some settings, the whole prompt costs around 4K extra tokens for each prompt.
 
 +
+++++
 
 ## Footer composition challenge
 
