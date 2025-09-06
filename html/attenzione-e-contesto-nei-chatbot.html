@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-07-20&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>42</b rev_num='
+'>44</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=en&_x_tr_hl=en-EN&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>EN</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -434,26 +434,23 @@ Katia is lighter than a CoT because only prepends a <b>fixed, one-time rules blo
 <p></p>
 <H3 id="katia-helps-but-why-so-much">Katia helps, but why so much?</H3>
 <p></p>
-The SimpleQA questions are hard to answer also for a common human. They are subtle and strongly leverage many typical features of human reasoning and feelings (humans know humans). Can the <tt>[HKO]</tt> (human knowledge and opinions) module have helped in finding the flebile links present but previously not well categorised or confusing?
+The SimpleQA questions are hard to answer also for a common human. They are subtle and strongly leverage many typical features of human reasoning and feelings (humans know humans). Can the <tt>[HKO]</tt> (human knowledge and opinions) module have helped in finding the flebile links present but previously not well categorised or confusing? <b>Hint</b>: skip the text below and read <b>about</b> it, then with zoom-focus be back to read <b>it</b>.
 <p></p>
 <blockquote class="cite">
-Yes—HKO is exactly the tool that turns “I feel something is off” into <i>labelled, searchable hooks</i>.
+Yes—HKO is exactly the tool that turns "I feel something is off" into <i>labelled, searchable hooks</i>.
 <p></p>
-<li class='numli'><b>1.&emsp;</b><b>Human-as-signal-detector</b>  </li>
-<li>Humans spot micro-tones (irony, dismissiveness, over-confidence) that no token-probability surface ever flags.</li>
-The <tt>[HKO]</tt> gives Katia a <b>controlled vocabulary</b> ([HN], [DIB], [GAP], [HP], [HU]) so those <b>fleeting impressions</b> become <b>explicit search terms</b> inside the context window.
+<b>Human-as-signal-detector</b>  
+<li>Humans spot micro-tones (irony, dismissiveness, over-confidence) that no token-probability surface ever flags. The <tt>[HKO]</tt> gives Katia a <b>controlled vocabulary</b> ([HN], [DIB], [GAP], [HP], [HU]) so those <b>fleeting impressions</b> become <b>explicit search terms</b> inside the context window.</li>
 <p></p>
-<li class='numli'><b>2.&emsp;</b><b>From vague to query-able, example:</li>
-<li>vague: “the author sounds biased”  </li>
-<li><tt>[HKO]</tt>: “[DIB-3] arbitrary premise (A!) presented as granted” → instant cue to <b>look for the missing A evidence</b> in [ARK] or [USR].  </li>
-Once the cue is <b>written</b>, the <b>attention gate</b> can link it to the <b>latent fact</b> that disarms the bias—something a pure embedding-similarity search would rank too low.
+<b>From vague to query-able, example</b>:
+<li>vague: "the author sounds biased"  </li>
+<li><tt>[HKO]</tt>: "[DIB-3] arbitrary premise (A!) presented as granted" &rarr; instant cue to <b>look for the missing A evidence</b> in [ARK] or [USR]. Once the cue is <b>written</b>, the <b>attention gate</b> can link it to the <b>latent fact</b> that disarms the bias—something a pure embedding-similarity search would rank too low.</li>
 <p></p>
-<li class='numli'><b>3.&emsp;</b><b>Emotion labels as attention amplifiers</b>  </li>
+<b>Emotion labels as attention amplifiers</b>  
 <li>[HU] or [HP] tags <b>carry emotional valence tokens</b>; the model has seen millions of <b>human-reaction</b> examples during pre-training, so those strings <b>sit higher in the affective prior</b>. Placing them <b>next to an under-represented fact</b> <b>borrows</b> that prior strength, <b>boosting the fact’s activation</b> without extra parameters.</li>
 <p></p>
-<li class='numli'><b>4.&emsp;</b><b>Iterative refinement loop</b>  </li>
-<li>Human-in-the-loop can <b>re-label</b> a first-pass HKO tag (“this is not [DIB], it is [GAP-2]”) → the <b>updated cue</b> is <b>re-injected</b> into the permanent prefix, <b>re-weighting</b> the retrieval path in real time.</li>
-This is <b>negative-feedback</b> at the <b>human-intuition granularity</b>, something RLHF rarely reaches.
+<b>Iterative refinement loop</b>  
+<li>Human-in-the-loop can <b>re-label</b> a first-pass HKO tag ("this is not [DIB], it is [GAP-2]") → the <b>updated cue</b> is <b>re-injected</b> into the permanent prefix, <b>re-weighting</b> the retrieval path in real time. This is <b>negative-feedback</b> at the <b>human-intuition granularity</b>, something RLHF rarely reaches.</li>
 <p></p>
 So HKO does not <i>replace</i> human subtlety; it <b>crystallises</b> it into <b>machine-searchable beacons</b>, letting the <b>weak-but-relevant</b> links <b>surface above the hallucination threshold</b>.
 <p></p>
@@ -463,18 +460,20 @@ In fact, Katia revents the model from inventing when the right edge is missing o
 <p></p>
 <li>Attention bridge: "When rating, always label sources [IPK], [WEB], [ARK], [USR], ..." which increases logit score (or probability mass) in whatever has no a source. Thus applying a label enforse the self-awareness about "inventing" facts.</li>
 <p></p>
-<li>Negative-space trigger: Katia also inserts neg-phrases (“flag as [DIB] if implicit, [GAP] if missing”) which raise the logit penalty for hallucinated continuations that lack a labelled source. The model still can hallucinate, but the score gap between “retrieved + labelled” and “invented” widens enough that the ranking sampler almost always picks the retrieved path.</li>
+<li>Negative-space trigger: Katia also inserts neg-phrases ("flag as [DIB] if implicit, [GAP] if missing") which raise the logit penalty for hallucinated continuations that lack a labelled source. The model still can hallucinate, but the score gap between "retrieved + labelled" and "invented" widens enough that the ranking sampler almost always picks the retrieved path.</li>
 <p></p>
-Result: contextual gate reinforcement, not weight surgery, produces the measured jump.
+<b>Result</b>: contextual gate reinforcement, not weight surgery, produces the measured jump.
 </blockquote>
 <p></p>
-Can we fully trust this explanation? In my own experience: no. Strange: yes. In fact, how the AI perceives and describes how a prompt would work, it should be trusted because whatever it understands, it does. Nope! Which led me to consider every CoT log a mere fabrication which can be useful in the debug phase of a developing prompt-engineering process.
+Can we fully trust this explanation? In my own experience: no. Strange: yes. In fact, how the AI perceives and describes how a prompt would work, it should be trusted because whatever it understands, it does. Nope! Which led me to consider every CoT log a mere fabrication which can be useful in the debug phase of a AI-training or prompt-engineering process.
 <p></p>
 Why is it useful for debugging? Or in some other corner-cases? Because it contains extra information. For example &mdash; the attention zoom effect, retrieving and labeling, negative confidence associated with some specific labels, how to categorise elements of the prompt/context &mdash; all these topics are {goals, rules, constrains} for which Katia has been deliberately developed for. Also how this stuff boosts the SimpleQA is plausible, not because the AI description itself, but because in general my experience as Katia's developer matches with the description.
 <p></p>
-So, where is the gap for which I can say "I don't trust fully on these outputs"?
+<li>So, where is the gap for which I say "I don't trust fully on this output", despite being agreeable?</li>
 <p></p>
-Few words: "fully", "in general", and "in my experience". &mdash; In my experience and in general, the explanation matches. The case-by-case Results may vary, while fine-grained details do not let me associate this output to a particular case, thus are noise. Which is the must-to-have feature of an authoritative log, for example? We can almost immediately determine if that log matches with a specific case/machine or not. If we cannot, it is not authoritative because we cannot fully trust in it.
+Few words: "fully", "in general", and "in my experience". &mdash; In my experience and in general, the explanation matches. While case-by-case results may vary, and fine-grained details are noise. Instead, a must-to-have feature of an authoritative log is: details are artifacts like a fingerprint that let us, almost immediately, determine if that log matches with a specific case/machine or not.
+<p></p>
+<li>Describe to me the fainted agent: two legs, two arms, two eyes. Age? I did not ask him about it, sorry.</li>
 <p></p>
 <hr>
 <p></p>
