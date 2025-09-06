@@ -373,11 +373,14 @@ However only a CoT approach which provides a fine-grained log of the thinking ac
 Moreover, mitigating hallucinations in processing the user prompt does not necessarily mean reducing the hallucinations rate about CoT log. Therefore, for critical decisions, an off-the-band check is required. Humans can approve an output and in some cases the CoT log helps them in this task, but humans are **very** slow especially when the responsibility to evaluate decisions is based on complexity, and often AI outputs add more complexity rather than reducing it. Or adopting another concurrent AI that can replace the human in a first-pass validation that would trigger the human approbation on relatively few check-points. This second solution doubles the output tokens bill, and does not fix the human-in-the-loop dilemma. Stanislav Petrov 1983, docet.
 
 [!INFO]
-Stanislav Petrov was a lieutenant colonel in the Soviet Air Defense Forces, that in 1983 he averted a nuclear war by correctly assessing that a Soviet nuclear missile launch warning was a system malfunction rather than a real attack, saving the world from a potential nuclear Armageddon. He chose to exercise judgment and gut instinct over following protocol, a choice that had profound global implications.
+Stanislav Petrov was a lieutenant colonel in the Soviet era, when in 1983 averted a nuclear war by correctly assessing that a missile launch warning was a system malfunction rather than a real attack, saving the world from a potential nuclear Armageddon. He chose to exercise judgment and gut instinct over following protocol, a choice that had profound global implications.
 [/INFO]
 
-In this extreme case, no multiple level logs and multiple AI verifications would be even useful in case of a false positive. Who, also among those who managed to survive, would have care to check the logs and trouble-fix the system? Some systems should **never** exist in the first place, and NOT fully automated.
+In this extreme case, no multiple level logs and multiple AI verifications would be even useful in case of a false positive. Who, also among those who managed to survive, would care to check the logs and trouble-fix the system? Some systems should have **never** exist in the first place, and **not** fully automated. Thus the safest launch system is not the one with the perfect log, but the one whose political environment makes every alarm implausible. Bad times are those that require unsung heroes like Stanislav Petrov in 1983.
 
+---
+
+### Katia isn't a CoT, but helps
 
 [!CITE]
 The Katia session prompt framework (TFMK) is **not** a Chain-of-Thought (CoT) prompt in the strict sense.
