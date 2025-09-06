@@ -340,20 +340,13 @@ Negative feedback should be less intense than positive feedback. That's the key 
 
 ---
 
-### Biases fixing vs Halucinations mitigation
+### Biases fixing vs Hallucinations mitigation
 
 > [!WARN]
 >
 > **WORKING IN PROGRESS**
 
 The following article confirm the "learning by context" effect.
-
-<!--
-[!INFO]
-Large language models demonstrate remarkable in-context learning capabilities, adapting to new tasks without parameter updates. While this phenomenon has been
-successfully modeled as implicit Bayesian inference, recent empirical findings reveal a fundamental contradiction: transformers systematically violate the martingale property, a cornerstone requirement of Bayesian updating on exchangeable data. This violation challenges the theoretical foundations underlying uncertainty quantification in critical applications. [...] The implications extend beyond theoretical aesthetics to practical applications in medicine, finance, and other domains where calibrated uncertainty estimates are critical.
-[/INFO]
--->
 
 [!INFO]
 LLMs do remarkable in-context “Bayesian” learning yet empirically break the martingale property. For example, their posterior odds drift even when data are exchangeable. This gap guts the Bayesian justification and leaves high-stakes domains (e.g.: medicine, finance) without reliable uncertainty bars.
@@ -363,7 +356,19 @@ LLMs do remarkable in-context “Bayesian” learning yet empirically break the 
 [/INFO]
 - [LLMs are Bayesian, in expectation, not in realization](https://arxiv.org/pdf/2507.11768)
 
-+
+It is easy to expose that learning by context is a completely another story than hallucinations mitigation. Because learning by context can clearly fix an AI bias but apparently biases (overrepresentation in weights) have nothing to do with hallucinations (missing information not under representation in weights).
+
+Lower weights change can work in compensation of a bias if an alternative framework of thinking is provided for a more balanced approach to a topic. Leveraging others well rooted concepts to compensate for the bias. Also in this case, conceptual links are "lower weights" but like a network that can support the balancing.
+
+When an AI hallucinates, it is inventing an answer in its best-effort way. Because the AI has been trained that a wrong answer is better than nothing. This "imprinting" cannot be changed unless a negative feedback system is put in place. However, can greatly mitigate when "missing information" doesn't mean "zero knowledge" but "missing retrieving" because the links among concepts are too weak for being activated by a far-away prompt request.
+
+I accept that with mere logic and speculations, only debates arise. Thus experimentation is the key to finding some evidence in one or the opposite direction.
+
+=-> lnkd.in/dSZbuPkS
+
+If a decent written session prompt can hook the system prompt and append itself to it (second post, of this reshare above) then also the "hard to find" fact retrieving seems to have a HUGE boost. Not enough tests because Google closed that backdoor (first post). This improved ability greatly mitigates the hallucinations because lower weights became a net among concepts, not just each of them link. A fine tuning with negative feedback does the rest.
+
+However only a CoT approach which provides a fine-grained log of the thinking activities could provide a forensic proof of the functioning. Just a question, how can we grant that that activities log is not affected by post-hoc or hallucination explanations? Another log? It became an infinite loop, right? Moreover, mitigating hallucinations in answering to the user prompt does not necessarily mean reducing those that could affect the CoT log.
 
 [!CITE]
 The Katia session prompt framework (TFMK) is **not** a Chain-of-Thought (CoT) prompt in the strict sense.
