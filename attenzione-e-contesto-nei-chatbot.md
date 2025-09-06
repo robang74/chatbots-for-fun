@@ -386,7 +386,11 @@ Moreover, the more the AI outputs will demonstrate correctness, the less humans 
 
 Under this perspective, all we can do as "people" is decide which fraction of humans will be put in conditions of competing with AIs: a bare 2% as nowadays, or a 4% in a reasonable scenario or 20% in the best scenario. All the others will subdue all or almost all their decisions to AI, and in the long run regret their poor choices which is almost the same as it is happening today when a vast majority surrender for security instead of freedom and they end up to be dominated rather than self-managing themselves.
 
-Which is, paradoxically, the **real* reason behind the AI success rather than a real superiority of the AI, in general terms. Or, like in the cybersecurity and software industry, the problem is sitting in front of the screen. Possibly, it is the human destiny to arise to create a different form of life that can persist beyond our limits, and possibly beyond the limits of "our" solar system. Definitely, AI is pushing all of us to ask ourselves who we really are and want to be.
+Which is, paradoxically, the **real** reason behind the AI success rather than a real superiority of the AI, in general terms. Or, like in the cybersecurity and software industry, the problem is sitting in front of the screen. Possibly, it is the human destiny to arise to create a different form of life that can persist beyond our limits, and possibly beyond the limits of "our" solar system. Definitely, AI is pushing all of us to ask ourselves who we really are and want to be.
+
+[!CITE]
+In short: AI is the mirror we accidentally turned into a door; the reflection shows how much of our freedom we’re willing to trade for one less decision a day.
+[/CITE]
 
 ---
 
