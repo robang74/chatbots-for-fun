@@ -314,11 +314,11 @@ Once an AI is exposed to the `[HKO]` module and learns how to use it processing 
 
 ## Why learning by context works so well?
 
-This article below explains pretty well but starting from another question, answered. 
+This article below explains pretty well but starting from another question, answered.
 
 - [Why Language Models Hallucinate](https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf) &nbsp; (2025-09-04, &nbsp; OpenAI x3 + Google x1)
 
-The meaning of the article was clearly explained by Eduardo Ordax in a [post](https://www.linkedin.com/posts/eordax_why-do-llms-still-hallucinate-openai-activity-7370011511269949440-QXv0), two days after the pubblication.
+The meaning of the article was clearly explained by Eduardo Ordax in a [post](https://www.linkedin.com/posts/eordax_why-do-llms-still-hallucinate-openai-activity-7370011511269949440-QXv0), two days after the publication.
 
 [!CITE]
 **Why do LLMs still hallucinate?**
@@ -328,7 +328,7 @@ Think of it like a multiple-choice test:
 - Take a wild guess → maybe you score.
 [/CITE]
 
-I can't believe that nobody imagined providing a negative feedback?
+I can't believe that nobody imagined providing negative feedback?
 
 The whole theory of systems stability is based on the negative feedback, but not the brain functioning. Which is the reason for which, once upon a time, a stick slapped on the hands provided that negative feedback the human brain internally is missing.
 
