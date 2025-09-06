@@ -10,6 +10,8 @@
 - **3rd edition** -- include la [sezione](#agentic-procedural-language) sul linguaggio procedurale ad interpretazione adattabile.
 - **4th edition** -- include la [citazione](#learning-without-training) e il commento dell'articolo di Google Research del 21-07-2025.
 - **5th edition** -- include la gestione del [footer](#footer-composition-challenge) come cartina di tornasole sul linguaggio procedurale.
+- **6th edition** -- include la [spiegazione](#why-learning-by-context-works-so-well) riguardo alla ragione delle allucinazione delle AI.
+
 ...
 
 ### Introduzione
@@ -310,6 +312,34 @@ Once an AI is exposed to the `[HKO]` module and learns how to use it processing 
 
 +
 
+## Why learning by context works so well?
+
+This article below explains pretty well but starting from another question, answered. 
+
+- [Why Language Models Hallucinate](https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf) &nbsp; (2025-09-04, &nbsp; OpenAI x3 + Google x1)
+
+The meaning of the article was clearly explained by Eduardo Ordax in a [post](https://www.linkedin.com/posts/eordax_why-do-llms-still-hallucinate-openai-activity-7370011511269949440-QXv0), two days after the pubblication.
+
+[!CITE]
+**Why do LLMs still hallucinate?**
+
+Think of it like a multiple-choice test:
+- Leave it blank → 0 points.
+- Take a wild guess → maybe you score.
+[/CITE]
+
+I can't believe that nobody imagined providing a negative feedback?
+
+The whole theory of systems stability is based on the negative feedback, but not the brain functioning. Which is the reason for which, once upon a time, a stick slapped on the hands provided that negative feedback the human brain internally is missing.
+
+- abuse of the stick, leads to growing silent stupidity; none at all, leads to growing clown stupidity, instead.
+
+Negative feedback should be less intense than positive feedback. That's the key of education (teaching, supporting, correcting and sometimes, as little as possible, enforcing discipline). This is also the main reason because military education raises very confident idiots, in the long run. Feedbacks are always negative, rarely positive. When feedback turns positive in favour of speaking, that begins their clown time.
+
+*Fesse-moi, mais pas trop fort!*
+
++
+
 ## Footer composition challenge
 
 The first part provides a specific value (meaning) to each field.
@@ -343,16 +373,12 @@ While printing or not printing the [footer](https://raw.githubusercontent.com/ro
 ## Related articles 
 
 - [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md#?target=_blank) &nbsp; (2025-07-13)
-
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-07-13)
-
 - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
 
-+
++++++
 
 ## Share alike
-
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-
 </div>
 
