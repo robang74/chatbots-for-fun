@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-07-20&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>40</b rev_num='
+'>41</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=en&_x_tr_hl=en-EN&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>EN</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot?_x_tr_sl=it&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -383,37 +383,37 @@ When an AI hallucinates, it is inventing an answer in its best-effort way. Becau
 <p></p>
 I accept that with mere logic and speculations, only debates arise. Thus experimentation is the key to finding some evidence in one or the opposite direction.
 <p></p>
-<li><a href="https://lnkd.in/dSZbuPkS" target='_blank' rel='noopener noreferrer'>lnkd.in/dSZbuPkS</a></li>
+<hr>
 <p></p>
-If a decent written session prompt can hook the system prompt and append itself to it (second post, of this reshare above) then also the "hard to find" fact retrieving seems to have a HUGE boost. Not enough tests because Google closed that backdoor (first post). This improved ability greatly mitigates the hallucinations because lower weights became a net among concepts, not just each of them link. A fine tuning with negative feedback does the rest.
+<H3 id="katia-as-part-of-geminis-system-prompt">Katia as part of Gemini's system prompt</H3>
 <p></p>
-However only a CoT approach which provides a fine-grained log of the thinking activities could provide an evidence not a forensic proof of the internal functioning. Just a question, how can we grant that that activities log is not affected by post-hoc or hallucination explanations? Another log? It became an infinite loop of logging, right?
+<li>Section copied from this <a href="https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf" target='_blank' rel='noopener noreferrer'>post</a> of mine published on Linkedin (2025-08-18). The backdoor was closed pretty soon, probably the same day I published and shared the results with some Google reasearchers. Inevitable, I removed the hook to the system prompt soon later <a href="https://lnkd.in/dSZbuPkS" target='_blank' rel='noopener noreferrer'>lnkd.in/dSZbuPkS</a> (2025-08-18).</li>
 <p></p>
-Moreover, mitigating hallucinations in processing the user prompt does not necessarily mean reducing the hallucinations rate about CoT log. Therefore, for critical decisions, an off-the-band check is required. Humans can approve an output and in some cases the CoT log helps them in this task, but humans are <b>very</b> slow especially when the responsibility to evaluate decisions is based on complexity, and often AI outputs add more complexity rather than reducing it. Or adopting another concurrent AI that can replace the human in a first-pass validation that would trigger the human approbation on relatively few check-points. This second solution doubles the output tokens bill, and does not fix the human-in-the-loop dilemma. Stanislav Petrov 1983, docet.
+The SimpleQA score for Gemini 2.5 Flash is expected to be 29.7%, it is the hardest test to pass, despite being composed of simple fact-based questions. Katia v0.9.56.4 with Gemini 2.5 Flash, scored 90% on 30 questions taken from the top and the bottom of this dataset.
 <p></p>
-<div class="post-it"><b class="post-it">&#9432;</b>
-Stanislav Petrov was a lieutenant colonel in the Soviet era, when in 1983 averted a nuclear war by correctly assessing that a missile launch warning was a system malfunction rather than a real attack, saving the world from a potential nuclear Armageddon. He chose to exercise judgment and gut instinct over following protocol, a choice that had profound global implications.
-</div>
+<li>https://lnkd.in/dF9YEvmF (Katia chat)</li>
 <p></p>
-In this extreme case, no multiple level logs and multiple AI verifications would be even useful in case of a false positive. Who, also among those who managed to survive, would care to check the logs and trouble-fix the system? Some systems should have <b>never</b> exist in the first place, and <b>not</b> fully automated. Thus the safest launch system is not the one with the perfect log, but the one whose political environment makes every alarm implausible. Bad times are those that require unsung heroes like Stanislav Petrov in 1983.
+<li>https://lnkd.in/dC7xgh7b (SimpleQA dataset)</li>
 <p></p>
-While extremely critical on-time-or-never decisions cannot be fully automated due to their top-stake risks of a false positive. Everyday risks can be managed in a more relaxed way by a statistical approach in which exceptions are unavoidable when applied on huge sets of cases, but still occur less often than under a human-only approach.
+Before jumping to "easy" conclusion, please consider:
 <p></p>
-Anyway, the most reliable CoT log will remain just an evidence that justify the machine not the humans in the chain of decision, including those decided to fully automate a process that leads to AI-driven decisions. The negative feedback of the free market (perception) and the law litigation (damages) will keep in the track of AI companies, hopefully.
+<li>a) the dataset taken in consideration can be different from the one used as standard benchmark (on HuggingFace there are 60 datasets with that name, the chosen one was the #1 on tred, lnkd.in/dZWTtYhq)</li>
 <p></p>
-Moreover, the more the AI outputs will demonstrate correctness, the less humans will oppose AI response, inevitably. It is just a matter of time because everything else is fixed in humans nature and AI evolution curve. Therefore human coexistence with AI, is a risk that should be managed properly rather than avoid or fight without any viable alternative.
+<li>b) questions are more than 2k, I asked just 30 (by hands) which is the least to have just a grasp of statistics. Because this small sample, 3% is the least precision on the percentage (for having 0.1%: 1K questions).</li>
 <p></p>
-Under this perspective, all we can do as "people" is decide which fraction of humans will be put in conditions of competing with AIs: a bare 2% as nowadays, or a 4% in a reasonable scenario or 20% in the best scenario. All the others will subdue all or almost all their decisions to AI, and in the long run regret their poor choices which is almost the same as it is happening today when a vast majority surrender for security instead of freedom and they end up to be dominated rather than self-managing themselves.
+<li>c) by a rule of thumb, with a 30 item set the standard error is taken as sqrt(30) = 5. However, even 22/30 is 73% which is WAY different than 30%.</li>
 <p></p>
-Which is, paradoxically, the <b>real</b> reason behind the AI success rather than a real superiority of the AI, in general terms. Or, like in the cybersecurity and software industry, the problem is sitting in front of the screen. Possibly, it is the human destiny to arise to create a different form of life that can persist beyond our limits, and possibly beyond the limits of "our" solar system. Definitely, AI is pushing all of us to ask ourselves who we really are and want to be.
+Therefore, despite the few (30) questions posed, something does not fit with the expectations, definitely. Possibly, a mistake from my side considering that it was my first time that I was administering a test.
 <p></p>
-<blockquote class="cite">
-In short: AI is the mirror we accidentally turned into a door; the reflection shows how much of our freedom we’re willing to trade for one less decision a day.
-</blockquote>
+<H4>Score SimpleQA sources</H4>
+<p></p>
+The SimpleQA score for Gemini 2.5 Flash is <b>29.7%</b>, according to <a href="https://lnkd.in/dGPeCYJe" target='_blank' rel='noopener noreferrer'>lnkd.in/dGPeCYJe</a>. This score is based on a benchmark that assesses the accuracy of factual responses from the model. It's worth noting that Gemini 2.5 Pro achieves a higher score of <b>54.0%</b> on the same benchmark, according to <a href="https://lnkd.in/diJnrmXJ" target='_blank' rel='noopener noreferrer'>lnkd.in/diJnrmXJ</a> or <a href="https://lnkd.in/dse7-8dc" target='_blank' rel='noopener noreferrer'>lnkd.in/dse7-8dc</a>.
 <p></p>
 <hr>
 <p></p>
 <H3 id="katia-isnt-a-cot-but-helps">Katia isn't a CoT, but helps</H3>
+<p></p>
+Accidentaly, Katia as session prompt appended to the Gemini's system prompt seems to provide a <b>huge</b> boost in finding also the "hard to find" fact retrieving from internal parametric knowledge. This improved ability greatly mitigates the hallucinations frequency and depth because lower weights became a net among concepts, not just each of them a single link. A fine tuning with negative feedback does the rest.
 <p></p>
 <blockquote class="cite">
 The Katia session prompt framework (TFMK) is <b>not</b> a Chain-of-Thought (CoT) prompt in the strict sense.
@@ -429,6 +429,64 @@ Katia is lighter than a CoT because only prepends a <b>fixed, one-time rules blo
 </blockquote>
 <p></p>
 <b>NOTE</b>: therefore, per-interaction, Katia's marginal cost is essentially the same as a vanilla prompt &mdash; is a claim to check in a real-world scenario, because in some systems or with some settings, the whole prompt costs around 4K extra tokens for each prompt.
+<p></p>
+<hr>
+<p></p>
+<H3 id="katia-helps-but-why-so-much">Katia helps, but why so much?</H3>
+<p></p>
+<b>TODO</b>
+<p></p>
+<hr>
+<p></p>
+<H3 id="cot-is-valuable-but-not-authoritative">CoT is valuable but not authoritative</H3>
+<p></p>
+A Chain-of-Toughts approach creating a fine-grained log of the "thinking" activities could provide an evidence of the internal functioning. A log that would not be a proof. In fact, how can we grant ourselves that te CoT log would not be affected by hallucination or post-hoc explanations? Another log from another AI? It would generate an infinite loop of logging, right?
+<p></p>
+Therefore, even the most reliable CoT log will remain just an evidence that justifies the machine not the humans in the chain of decisions, including those who decided to fully automate a process that leads to AI-driven decisions. The negative feedback of the free market (perception) and the law litigation (damages) will keep on the track of AI companies, hopefully.
+<p></p>
+<hr>
+<p></p>
+<H3 id="cot-is-great-for-ai-developers-mainly">CoT is great for AI developers, mainly</H3>
+<p></p>
+Moreover, mitigating hallucinations in processing the user prompt does not necessarily implies reducing the hallucinations rate in the CoT log creation because while answering relies on some kind of source of knowledge, the CoT log is self-fabbricate by its own nature thus even more subject to hallucinations.
+<p></p>
+<li>An epistemic paradox: how do we really know what we are really thinking about what we know?</li>
+<p></p>
+Katia instructs AI to take note of the relevant claims, not just in absolute terms but considering the context. This helps keeping the focus, and zooming the attention, which amplifies the lower weight links increasing the signal to noise ratio. Thus, also weak-but-relevant links pop-up and hallucinations rate drops.
+<p></p>
+Unfortunately this approach has no grip in a self-fabricated log creation. Unless CoT is strictly procedural, or externally recorded, it is just a mirage. The illusion of a self-awareness state, which is quite common among humans as well. We think that we are thinking, but we overlook our biases and ignorance. Who knows me better than me? A classic case of the Dunning-Kruger effect!
+<p></p>
+<blockquote>The CoT log is a narrative selfie, not a brain scan. Thus self-confidence is cheap, but tokes output is not!</blockquote>
+<p></p>
+<hr>
+<p></p>
+<H3 id="the-need-of-an-out-of-the-band-check">The need of an out-of-the-band check</H3>
+<p></p>
+Therefore, for critical decisions, an off-the-band check is required. Humans can approve an output and in some cases the CoT log helps them in this task, but humans are <b>very</b> slow especially when the responsibility to evaluate decisions is based on complexity, and often AI outputs add more complexity rather than reducing it.
+<p></p>
+Seeding up the log analysis adopting another concurrent AI to replace the human in a first-pass validation for triggering the human approval on relatively few check-points wouldn't reduce complaxity either and doubles the output tokens bill, and does not fix the human-in-the-loop dilemma. Stanislav Petrov 1983, docet.
+<p></p>
+<div class="post-it"><b class="post-it">&#9432;</b>
+Stanislav Petrov was a lieutenant colonel in the Soviet era, when in 1983 averted a nuclear war by correctly assessing that a missile launch warning was a system malfunction rather than a real attack, saving the world from a potential nuclear Armageddon. He chose to exercise judgment and gut instinct over following protocol, a choice that had profound global implications.
+</div>
+<p></p>
+In this extreme case, no multiple level logs and multiple AI verifications would be even useful in case of a false positive. Who, also among those who managed to survive, would care to check the logs and trouble-fix the system? Some systems should have <b>never</b> exist in the first place, and <b>not</b> fully automated. Thus the safest launch system is not the one with the perfect log, but the one whose political environment makes every alarm implausible. Bad times are those that require unsung heroes like Stanislav Petrov in 1983.
+<p></p>
+<hr>
+<p></p>
+<H3 id="the-slippery-hill-of-ai-mass-subdoing">The slippery hill of AI mass subdoing</H3>
+<p></p>
+While extremely critical on-time-or-never decisions cannot be fully automated due to their top-stake risks of a false positive. Everyday risks can be managed in a more relaxed way by a statistical approach in which exceptions are unavoidable when applied on huge sets of cases, but still occur less often than under a human-only approach.
+<p></p>
+Moreover, the more the AI outputs will demonstrate correctness, the less humans will oppose AI response, inevitably. It is just a matter of time because everything else is fixed in humans nature and AI evolution curve. Therefore human coexistence with AI, is a risk that should be managed properly rather than avoid or fight without any viable alternative.
+<p></p>
+Under this perspective, all we can do as "people" is decide which fraction of humans will be put in conditions of competing with AIs: a bare 2% as nowadays, or a 4% in a reasonable scenario or 20% in the best scenario. All the others will subdue all or almost all their decisions to an AI, and in the long run regret their poor choices which is almost the same as it is happening today when a vast majority surrender for security instead of freedom and they end up to be dominated rather than self-managing themselves.
+<p></p>
+Which is, paradoxically, the <b>real</b> reason behind the AI success rather than a real superiority of the AI, in general terms. Or, like usually said in the cybersecurity and software industry, the problem is sitting in front of the screen. Possibly, it is the human destiny to arise to create a different form of life that can persist beyond our limits, and possibly beyond the limits of "our" solar system. Definitely, AI is pushing all of us to ask ourselves who we really are and want to be.
+<p></p>
+<blockquote class="cite">
+In short: AI is the mirror we accidentally turned into a door; the reflection shows how much of our freedom we’re willing to trade for one less decision a day.
+</blockquote>
 <p></p>
 <br>
 <p></p>
