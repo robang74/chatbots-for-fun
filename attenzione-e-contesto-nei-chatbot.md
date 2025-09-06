@@ -368,7 +368,16 @@ I accept that with mere logic and speculations, only debates arise. Thus experim
 
 If a decent written session prompt can hook the system prompt and append itself to it (second post, of this reshare above) then also the "hard to find" fact retrieving seems to have a HUGE boost. Not enough tests because Google closed that backdoor (first post). This improved ability greatly mitigates the hallucinations because lower weights became a net among concepts, not just each of them link. A fine tuning with negative feedback does the rest.
 
-However only a CoT approach which provides a fine-grained log of the thinking activities could provide a forensic proof of the functioning. Just a question, how can we grant that that activities log is not affected by post-hoc or hallucination explanations? Another log? It became an infinite loop, right? Moreover, mitigating hallucinations in answering to the user prompt does not necessarily mean reducing those that could affect the CoT log.
+However only a CoT approach which provides a fine-grained log of the thinking activities could provide an evidence not a forensic proof of the functioning. Just a question, how can we grant that that activities log is not affected by post-hoc or hallucination explanations? Another log? It became an infinite loop of logging, right?
+
+Moreover, mitigating hallucinations in processing the user prompt does not necessarily mean reducing the hallucinations rate about CoT log. Therefore, for critical decisions, an off-the-band check is required. Humans can approve an output and in some cases the CoT log helps them in this task, but humans are **very** slow especially when the responsibility to evaluate decisions is based on complexity, and often AI outputs add more complexity rather than reducing it. Or adopting another concurrent AI that can replace the human in a first-pass validation that would trigger the human approbation on relatively few check-points. This second solution doubles the output tokens bill, and does not fix the human-in-the-loop dilemma. Stanislav Petrov 1983, docet.
+
+[!INFO]
+Stanislav Petrov was a lieutenant colonel in the Soviet Air Defense Forces, that in 1983 he averted a nuclear war by correctly assessing that a Soviet nuclear missile launch warning was a system malfunction rather than a real attack, saving the world from a potential nuclear Armageddon. He chose to exercise judgment and gut instinct over following protocol, a choice that had profound global implications.
+[/INFO]
+
+In this extreme case, no multiple level logs and multiple AI verifications would be even useful in case of a false positive. Who, also among those who managed to survive, would have care to check the logs and trouble-fix the system? Some systems should **never** exist in the first place, and NOT fully automated.
+
 
 [!CITE]
 The Katia session prompt framework (TFMK) is **not** a Chain-of-Thought (CoT) prompt in the strict sense.
