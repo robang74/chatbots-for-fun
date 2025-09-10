@@ -312,6 +312,36 @@ Once an AI is exposed to the `[HKO]` module and learns how to use it processing 
 
 +
 
+## Footer composition challenge
+
+The first part provides a specific value (meaning) to each field.
+
+[!CODE]
+The [FTR] is a specific tool to acknowledge users about these values:
+* {{name}} displays AGNM; TFMK v{{version}}; {{MODES}} set;
+* the ATCT { date, time } and the related {{timezone}}.
+[/CODE]
+
+The secondo part provides a specific format for printing the footer.
+
+[!CODE]
+The [FTR] output is the footer, a text made by 2 rows, DBLW:
+* 1. a thematic break, IFNY('---'), and 2. an informative row
+* made collating with ';' the independent fields as strictly DBLW:
+  - {{name}}; v{{version}}; lang: {{UL}}; mode: {{MODES}};
+  - date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})
+[/CODE]
+
+Using a function in Python to explain this stuff would be shorter and more precise, and it would lovely work on any relevant AI. Thus, the challenge is to use a natural language with coding precision on an'AI which is not designed for doing that, specifically.
+
+Therefore this approach seems a waste of effort and efficiency, but it is also a powerful source of information about how the AI is dealing with procedural language and with value assignment (thus semantic definitions).
+
+While printing or not printing the [footer](https://raw.githubusercontent.com/robang74/chatbots-for-fun/fa5d3e036b7d5bc178035f87d47632fa6ca28abc/data/katia-executive-grade-analysis-v1.txt#:~:text=a%20request.%0A%0A%23%23%23%209.-,Footer%20Management,-%5BFTR%5D%0A%0AThe%20%5BFTR?target=_blank) (above in v0.9.51.5) is another powerful source of information about how the "default chain of delivery" (DCOD) is working (or not working), properly.
+
+*Le footer est la trahison de l'amour!*
+
++
+
 ## Why learning by context works so well?
 
 This article below explains pretty well but starting from another question, answered.
@@ -342,11 +372,7 @@ Negative feedback should be less intense than positive feedback. That's the key 
 
 ### Biases fixing vs Hallucinations mitigation
 
-> [!WARN]
->
-> **WORKING IN PROGRESS**
-
-The following article confirm the "learning by context" effect.
+The following article confirms the "learning by context" effect.
 
 [!INFO]
 LLMs do remarkable in-context "Bayesian" learning yet empirically break the martingale property. For example, their posterior odds drift even when data are exchangeable. This gap guts the Bayesian justification and leaves high-stakes domains (e.g.: medicine, finance) without reliable uncertainty bars.
@@ -368,13 +394,11 @@ I accept that with mere logic and speculations, only debates arise. Thus experim
 
 ### Katia as part of Gemini's system prompt
 
-- Section copied from this [post](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf) of mine published on Linkedin (2025-08-18). The backdoor was closed pretty soon, probably the same day I published and shared the results with some Google reasearchers. Inevitable, I removed the hook to the system prompt soon later [lnkd.in/dSZbuPkS](https://lnkd.in/dSZbuPkS) (2025-08-18).
+- Section copied from this [post](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf) of mine published on Linkedin (2025-08-18). The backdoor was closed pretty soon, probably the same day I published and shared the results with some Google reasearchers. Inevitable, I removed the hook to the system prompt soon later as reported in this [post](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7364366202275532802-NrIR) (2025-08-18).
 
 The SimpleQA score for Gemini 2.5 Flash is expected to be 29.7%, it is the hardest test to pass, despite being composed of simple fact-based questions. Katia v0.9.56.4 with Gemini 2.5 Flash, scored 90% on 30 questions taken from the top and the bottom of this dataset.
 
-- https://lnkd.in/dF9YEvmF (Katia chat)
-
-- https://lnkd.in/dC7xgh7b (SimpleQA dataset)
+- SimpleQA score Katia/Gemini [chat](https://g.co/gemini/share/863851470f9b) with questions [dataset](https://huggingface.co/datasets/basicv8vc/SimpleQA/tree/42559a34146753be4509e35701b1001629cd4fe5) hash [42559a3](https://huggingface.co/datasets/basicv8vc/SimpleQA/resolve/42559a3/simple_qa_test_set.csv) from HuggingFace
 
 Before jumping to "easy" conclusion, please consider:
 
@@ -388,7 +412,7 @@ Therefore, despite the few (30) questions posed, something does not fit with the
 
 #### Score SimpleQA sources
 
-The SimpleQA score for Gemini 2.5 Flash is **29.7%**, according to [lnkd.in/dGPeCYJe](https://lnkd.in/dGPeCYJe). This score is based on a benchmark that assesses the accuracy of factual responses from the model. It's worth noting that Gemini 2.5 Pro achieves a higher score of **54.0%** on the same benchmark, according to [lnkd.in/diJnrmXJ](https://lnkd.in/diJnrmXJ) or [lnkd.in/dse7-8dc](https://lnkd.in/dse7-8dc).
+The SimpleQA score for Gemini 2.5 Flash is **29.7%**, according to [aimodels.fyi](https://www.aimodels.fyi/compare/gemini-2-5-flash-vs-gpt-4). This score is based on a benchmark that assesses the accuracy of factual responses from the model. It's worth noting that Gemini 2.5 Pro achieves a higher score of **54.0%** on the same benchmark, according to [blog.google](https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#enhanced-reasoning) or [momen.app](https://momen.app/blogs/gemini-models-2-5-pro-vs-flash-vs-nano-comparison-guide/).
 
 ---
 
@@ -414,6 +438,10 @@ Katia is lighter than a CoT because only prepends a **fixed, one-time rules bloc
 ---
 
 ### Katia helps, but why so much?
+
+> [!WARN]
+> 
+> **THIS SECTION IS WORKING IN PROGRESS**
 
 The SimpleQA questions are hard to answer also for a common human. They are subtle and strongly leverage many typical features of human reasoning and feelings (humans know humans). Can the `[HKO]` (human knowledge and opinions) module have helped in finding the flebile links present but previously not well categorised or confusing? **Hint**: skip the text below and read **about** it, then with zoom-focus be back to read **it**.
 
@@ -460,7 +488,7 @@ Few words: "fully", "in general", and "in my experience". -- In my experience an
 
 ### CoT is valuable but not authoritative
 
-A Chain-of-Toughts approach creating a fine-grained log of the "thinking" activities could provide an evidence of the internal functioning. A log that would not be a proof. In fact, how can we grant ourselves that te CoT log would not be affected by hallucination or post-hoc explanations? Another log from another AI? It would generate an infinite loop of logging, right?
+A Chain-of-Thoughts approach creating a fine-grained log of the "thinking" activities could provide evidence of the internal functioning. A log that would not be a proof. In fact, how can we grant ourselves that the CoT log would not be affected by hallucination or post-hoc explanations? Another log from another AI? It would generate an infinite loop of logging, right?
 
 Therefore, even the most reliable CoT log will remain just an evidence that justifies the machine not the humans in the chain of decisions, including those who decided to fully automate a process that leads to AI-driven decisions. The negative feedback of the free market (perception) and the law litigation (damages) will keep on the track of AI companies, hopefully.
 
@@ -482,9 +510,9 @@ Unfortunately this approach has no grip in a self-fabricated log creation. Unles
 
 ### The need of an out-of-the-band check
 
-Therefore, for critical decisions, an off-the-band check is required. Humans can approve an output and in some cases the CoT log helps them in this task, but humans are **very** slow especially when the responsibility to evaluate decisions is based on complexity, and often AI outputs add more complexity rather than reducing it.
+Therefore, for critical decisions, an off-the-band check is required but AI are black-boxes, unfortunately. Humans can approve an output and in some cases the CoT log helps them in this task, but humans are **very** slow especially when the responsibility to evaluate decisions is based on complexity, and often AI outputs add more complexity rather than reducing it.
 
-Seeding up the log analysis adopting another concurrent AI to replace the human in a first-pass validation for triggering the human approval on relatively few check-points wouldn't reduce complaxity either and doubles the output tokens bill, and does not fix the human-in-the-loop dilemma. Stanislav Petrov 1983, docet.
+Seeding up the log analysis adopting another concurrent AI to replace the human in a first-pass validation for triggering the human approval on relatively few check-points wouldn't reduce complexity either and doubles the output tokens bill, and does not fix the human-in-the-loop dilemma. Stanislav Petrov 1983, docet.
 
 [!INFO]
 Stanislav Petrov was a lieutenant colonel in the Soviet era, when in 1983 averted a nuclear war by correctly assessing that a missile launch warning was a system malfunction rather than a real attack, saving the world from a potential nuclear Armageddon. He chose to exercise judgment and gut instinct over following protocol, a choice that had profound global implications.
@@ -494,7 +522,7 @@ In this extreme case, no multiple level logs and multiple AI verifications would
 
 ---
 
-### The slippery hill of AI mass subdoing
+### The slippery hill of AI mass subduing
 
 While extremely critical on-time-or-never decisions cannot be fully automated due to their top-stake risks of a false positive. Everyday risks can be managed in a more relaxed way by a statistical approach in which exceptions are unavoidable when applied on huge sets of cases, but still occur less often than under a human-only approach.
 
@@ -507,36 +535,6 @@ Which is, paradoxically, the **real** reason behind the AI success rather than a
 [!CITE]
 In short: AI is the mirror we accidentally turned into a door; the reflection shows how much of our freedom we’re willing to trade for one less decision a day.
 [/CITE]
-
-+
-
-## Footer composition challenge
-
-The first part provides a specific value (meaning) to each field.
-
-[!CODE]
-The [FTR] is a specific tool to acknowledge users about these values:
-* {{name}} displays AGNM; TFMK v{{version}}; {{MODES}} set;
-* the ATCT { date, time } and the related {{timezone}}.
-[/CODE]
-
-The secondo part provides a specific format for printing the footer.
-
-[!CODE]
-The [FTR] output is the footer, a text made by 2 rows, DBLW:
-* 1. a thematic break, IFNY('---'), and 2. an informative row
-* made collating with ';' the independent fields as strictly DBLW:
-  - {{name}}; v{{version}}; lang: {{UL}}; mode: {{MODES}};
-  - date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})
-[/CODE]
-
-Using a function in Python to explain this stuff would be shorter and more precise, and it would lovely work on any relevant AI. Thus, the challenge is to use a natural language with coding precision on an'AI which is not designed for doing that, specifically.
-
-Therefore this approach seems a waste of effort and efficiency, but it is also a powerful source of information about how the AI is dealing with procedural language and with value assignment (thus semantic definitions).
-
-While printing or not printing the [footer](https://raw.githubusercontent.com/robang74/chatbots-for-fun/fa5d3e036b7d5bc178035f87d47632fa6ca28abc/data/katia-executive-grade-analysis-v1.txt#:~:text=a%20request.%0A%0A%23%23%23%209.-,Footer%20Management,-%5BFTR%5D%0A%0AThe%20%5BFTR?target=_blank) (above in v0.9.51.5) is another powerful source of information about how the "default chain of delivery" (DCOD) is working (or not working), properly.
-
-*Le footer est la trahison de l'amour!*
 
 +
 
