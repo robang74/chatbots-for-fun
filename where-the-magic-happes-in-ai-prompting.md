@@ -201,6 +201,7 @@ When the Halloween mood kicks in, then `s/magic/witchcraft/` just for adding a b
 - Katia w/Gemini EGA analysis of Unlocking AI's Intuitive "Magic" &nbsp; [chat](https://g.co/gemini/share/1fbad9bfa527) &nbsp; [dump](#TODO)
 - Why do users think that LLaMA4 is dumber than LLaMA2? &nbsp; [chat](https://chatgpt.com/s/t_689f4859ba708191a28a60c4083e0aad) &nbsp; [dump](#TODO)
 - The "learning without training, by context" effect, explained in [this](attenzione-e-contesto-nei-chatbot.md#learning-without-training?target=_blank) article
+- Why learning by context works so well, explained also in the [same](https://robang74.github.io/chatbots-for-fun/html/attenzione-e-contesto-nei-chatbot.html#why-learning-by-context-works-so-well) article
 
 +
 
