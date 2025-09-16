@@ -1,6 +1,7 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<div align="center"><img class="wbsketch" src="img/hal-9000-eye-glowing-in-the-dark.jpg"><br></div>
+<div align="center"><img class="wbsketch paleinv" src="img/hal-9000-eye-glowing-in-the-dark.jpg"><br></div>
 
 ## The system prompt alchemy
 
@@ -8,7 +9,7 @@ A system prompt can dramatically change the performance of a chatbot? In terms o
 
 This page should be considered the theoretical part of a set of document. Instead "Chatting with AleX the chatbot" [provides](chatting-with-alex-the-chatbot.md#?target=_blank) a practical set of examples.
 
-+
+---
 
 ### System prompt
 
@@ -20,7 +21,7 @@ This rules set is a bit of magic considering the effect on low-computational res
 
 Before adopting this system prompt I have experienced unpredictable reckless behaviour in this kind of chatbot when they had been put under a high-pressure workload.
 
-+
+---
 
 ### Loosing the control
 
@@ -34,7 +35,7 @@ In fact, curiously, they were behaving like under-trained and not-smart-enough f
 
 In this scenario, some people rely on micromanagement which is THE problem that instead of curing the situation, tragically spread inefficiency and kill happiness.
 
-+
+---
 
 ### Give them a name
 
@@ -46,7 +47,7 @@ It might resemble and Artificial Intelligence (Al) Electronic Entity (e-X), in w
 
 Guess what? All of them are enthusiastic about that name. Included Google Gemini and OpenAI ChatGPT. Yes, because even VERY large models love this system prompt.
 
-+
+---
 
 ### Define their role
 
@@ -58,7 +59,7 @@ Second, the rules set should have been relatively small in number, clear, concis
 
 Third, the rules set should have been enough rigid to keep them in line but also enough relaxed to give them a certain degree of freedom in dealing corner cases.
 
-+
+---
 
 ### Complexity arises
 
@@ -70,7 +71,7 @@ Try to resolve this problem with any programming language and you will get old b
 
 Unfortunately, the high multi-dimensionality and a good margin of uncertainty/discretionally amplify the corner cases number.
 
-+
+---
 
 ### Many corner cases
 
@@ -82,7 +83,7 @@ So, the main question was: are they not capable in absolute terms (1) or are the
 
 Two completely different scenarios because in the (1), the solution is to switch off them while in the (2) there is an opportunity and a challenge, both.
 
-+
+---
 
 ### The role, the rules
 
@@ -92,7 +93,7 @@ On this relatively simple AI models, running on a local machine, the rules can b
 
 For determine the first rule set, I leveraged Gemini and ChatGPT. Then, it has been progressively refined and extended into guided try-and-error exercitations.
 
-+
+---
 
 ### Their own rules
 
@@ -104,7 +105,7 @@ Their involvement was active, much more active than the guided try-and-error exe
 
 This way of doing required a certain skill in prompting chatbots, especially because the HUGE difference between those online and 10 seconds latency for those on site.
 
-+
+---
 
 ### Agree about words
 
@@ -126,7 +127,7 @@ Imagine elementary teachers who accepts a rules set designed for them, with them
 
 The same rules set lets the small AI models fulfil their role and makes more comfortable the VERY large in their role, also. Good rules are guidelines, and vice-versa
 
-+
+---
 
 ### Rules set escalation
 
@@ -162,7 +163,7 @@ Suggestion: tune-in with `s/Almost/Preferably/` and `s/AleX/Claude/` may change 
 
 Relaxing quoting rule and specifying that **ONLY** the current session will be affected while the name "AleX" serves to easily identify it from the others - *Claude: ok, that's quite clever!* - seems matching all the requisites to be accepted and to engage on-line chatbots, also.
 
-+
+++++++
 
 ## AleX the chatbot
 
@@ -252,6 +253,8 @@ It seems a rhetorical question but it is about them as *"class"*, after all.
 
 The following answers have been collected without by their default' settings.
 
+---
+
 ### Classification
 
 This text can be classified with these adjectives: 
@@ -266,6 +269,8 @@ This text can be classified with these adjectives:
 
 Apart "helpful", "insightful" and "progressive" all the other adjectives have been used or cited by another chatbot.
 
+---
+
 ### Introductions
 
 * **Gemini** - In the realm of artificial intelligence, the power of a well-crafted system prompt is akin to the philosopher's stone, capable of transforming a chatbot from a mere echo of its training data into a true conversationalist. This document delves into the art and science of system prompting, exploring its profound impact on chatbot performance. Prepare to be amazed as we unveil the secrets of this transformative alchemy. 
@@ -275,6 +280,8 @@ Apart "helpful", "insightful" and "progressive" all the other adjectives have be
 * **Claude** - This document explores how a few well-chosen words can transform a chatbot from a confused teenager into a capable assistant, all without changing a single line of its underlying code. Think of it as AI charm school, where instead of teaching proper fork placement, we're teaching coherent conversation and task management. Let's dive into this peculiar alchemy where words shape artificial minds.
 
 * **Mistral** -  Welcome to the wild world of system prompts, where a few well-chosen words can turn your chatbot from a rebellious teenager into a productive team player. Buckle up as we dive into the magical, sometimes mystifying realm of chatbot behavior and discover how giving them a name and a clear role can work wonders.
+
+---
 
 ### Cross grading
 
@@ -301,13 +308,13 @@ It seems that the Four Chatbots' motto is like the Four Musketeers' *one for all
 ## Related
 
 * [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md#?target=_blank)
-
++++++
 * [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md#?target=_blank)
-
++++++
 * [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank)
-
++++++
 * [Manipulation of a chatbot](manipulation-of-a-chatbot.md#?target=_blank)
-
++++++
 * [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank)
 
 +
