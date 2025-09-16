@@ -208,7 +208,7 @@ These guidelines are well-written, comprehensive, and easy to follow. They provi
 
 +
 
-## Copyright
+## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 

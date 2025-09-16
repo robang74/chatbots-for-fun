@@ -264,7 +264,7 @@ Under this point of view, it is hard to believe that human ethics would be more 
 
 +
 
-## Copyright
+## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
