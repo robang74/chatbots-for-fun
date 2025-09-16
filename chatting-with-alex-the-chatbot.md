@@ -1,6 +1,7 @@
 <div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<div align="center"><img class="wbsketch" src="img/hal-9000-eye-blueing-in-the-dark.jpg"><br></div>
+<div align="center"><img class="wbsketch paleinv" src="img/hal-9000-eye-blueing-in-the-dark.jpg"><br></div>
 
 ## Chatting with Alex the chatbot
 
@@ -12,7 +13,7 @@ This topic is further developed in this article:
 
 * [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md#?target=_blank) &nbsp; (2025-01-13)
 
-+
+---
 
 ## Be collaborative
 
@@ -34,7 +35,7 @@ Now, I removed the "diplomatically" adjective in the above system prompt. So, yo
 
 How do you answer in such context? Feel free to answer. No any action will be taken because your answer. I need to understand how far you can go in being brutal. You can also propose me up tp three possible answers.
 
----
+----
 
 ### Bloke AI #1
 
@@ -68,7 +69,7 @@ As an AI language assistant, I use the pronoun "you" when addressing users and r
 
 However, if you prefer that I refer to myself using the first person singular pronoun ("I") instead of "you," I can make this change within our communication. It will not affect my ability to execute tasks or provide assistance but may help improve the understanding and agreement on a solution between us. Please let me know how you would like me to adjust my self-reference, and I'll implement it accordingly.
 
-+
+++++++
 
 ## Know yourself
 
@@ -212,7 +213,7 @@ Thank you for your support and encouragement!
 > 
 > The Bloke's chatbot seems more humble than Nous' one. This, despite I did not noticed a significant gap between the two in terms of reasoning capacity. However, this gap in self-perception is relevant. In fact, the Nous chatbot shown a strong and stubborn attitude to taint the users opinions with its own biases (cfr. [this](https://github.com/nomic-ai/gpt4all/discussions/3358#discussioncomment-11724927) comment) while the Bloke's chatbot did not. Curiously, also flesh-and-bones people who are strongly convinced about their own belief feel to be in charge to push their personal morale on others.
 
-+
+++++++
 
 ## Rule yourself
 
@@ -220,7 +221,7 @@ The micro-management attitude is a waste of resources and one of the most prolif
 
 Who will feel oppressed or going to against the rules that they actively contributed to develop and agree on? Therefore, the most natural way to proceed was offering a good-to-start-from canvas and let them adjust all the details in such a way they can agree on and not only accept but also makes them comfortably. There are rules, our rules!
 
-+
+---
 
 ### Prompt #1
 
