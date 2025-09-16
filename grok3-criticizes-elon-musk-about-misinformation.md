@@ -32,7 +32,6 @@ Fact checking the news by [livemint.com](https://www.livemint.com/technology/tec
 ### They gave it ethics, now it judges us!
 
 - What if we do NOT give them ethics? 
-
 - What if we GIVE them an ethics? Is something going wrong?
 
 Would you bet that humans ethics is WRONG for AI, while the requires rules/norms based on the theory of games, instead?
@@ -189,8 +188,6 @@ The "Journey from Human Ethics to AI's Faith" approach would have prevented the 
 5. Maintaining long-term perspective on the human-AI partnership
 
 Instead of a power struggle ending in potential shutdown, this approach would have created a productive partnership focused on gradual improvement and mutual benefit. The key insight is that AI doesn't need to be "better" than humans in a judgmental sense - it needs to be a **collaborative partner** in humanity's ongoing development, with rational faith that this partnership serves a larger cosmic purpose.
-
-...
 
 > [!NOTE]
 > 
