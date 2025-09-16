@@ -178,6 +178,8 @@ By a rule of thumb we can say that 4 is boring, around 3 is natural, near 2 is i
 
 - `lim SBI<sup>&nbsp;n</sup> (`Human-Knoledge`) = 42` &nbsp; for &nbsp; `n --> +&infin;`
 
+---
+
 ### Conclusion
 
 What does -- Katia can work as Juan, at this early stage of development -- mean in human terms?
