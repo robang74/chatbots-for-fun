@@ -7,22 +7,23 @@
 
 This conversation starts from a LinkedIn post about LLMs that just mimic the "*real reasoning*" finding but despite this, they can beat 98-99% common people in that.
 
+---
+
 ### Upload
 
 1. [the-warm-water-discovery.txt](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/data/the-warm-water-discovery.txt)
-
 2. [propaganda-e-sistema-educativo.md](https://raw.githubusercontent.com/robang74/chatgpt-answered-prompts/refs/heads/main/propaganda-e-sistema-educativo.md)
-
 3. [apple-speaks-truth-about-ai.jpg](https://github.com/robang74/chatbots-for-fun/blob/main/data/apple-speaks-truth-about-ai.jpg)
 
 The text in this image is presented below:
 
----
++
 
 ### Apple Speaks the Truth About AI.
 
-**It's Not Good. Are We Being Lied To?**
+...
 
+**It's Not Good. Are We Being Lied To?**<br>
 *by Ignacio de Gregorio, Oct 23, 2024*
 
 A group of Apple researchers has published a paper claiming that large language models (LLMs), the backbone of some of AI's most popular products today, like ChatGPT or Llama, can't genuinely reason, meaning their intelligence claims are highly overstated (or from a cynical perspective, that we are being lied to).
@@ -31,14 +32,11 @@ A group of Apple researchers has published a paper claiming that large language 
 
 This adds to the growing trend of disillusionment around LLMs, which could cause a massive shift in investment and directly impact the future of many multi-billion-dollar start-ups. Naturally, it also seriously questions Big Tech's billion-dollar Al expenditures and frontier AI labs' future, who are dependent on this precise vision being true. So, what is the base of these strong adversarial claims against LLMs?
 
----
+...
 
-### Notes
+- Origin: one of my LinkedIn [post](https://www.linkedin.com/posts/robertofoglietta_the-warm-water-has-been-discovered-despite-activity-7267960828887224320-zeAL)
 
-* [LinkedIn post](https://www.linkedin.com/posts/robertofoglietta_the-warm-water-has-been-discovered-despite-activity-7267960828887224320-zeAL)
-
-+
-++++
+++++++
 
 ## Update 29.11.2024
 
