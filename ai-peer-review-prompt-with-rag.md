@@ -1,5 +1,5 @@
 <div id="firstdiv" created="2025-01-21:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
-<style media='print'>@page { size: Legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 <div align="center"><img class="wbsketch inksave" src="img/peer-review.png"><br></div>
 
@@ -32,25 +32,18 @@ and also a list of benefits:
 Here are a few suggestions that might make the title more engaging and informative:
 
 1. **Collaborative Peer-Review: Crafting an Effective Session Prompt**
-
    - This title highlights the collaborative nature of the peer-review process and the focus on crafting an effective prompt.
 
-++++
-
 2. **Optimizing Peer-Review Sessions: A Comprehensive Prompt Guide**
-
    - This title emphasizes the optimization of the peer-review process and provides a comprehensive guide.
 
 3. **Structured Peer-Review: Designing a Prompt for Efficient Document Analysis**
-
    - This title underscores the structured approach to peer-review and the design of a prompt for efficient analysis.
 
 4. **Enhancing Peer-Review with AI: A Session Prompt for Critical Document Evaluation**
-
    - This title highlights the role of AI in enhancing the peer-review process and the focus on critical document evaluation.
 
 5. **Effective Peer-Review Prompts: Balancing Authoritative Sources and Critical Analysis**
-
    - This title emphasizes the balance between authoritative sources and critical analysis in the peer-review process.
 
 Each of these titles aims to capture the essence of your article while making it appealing to potential readers.
@@ -66,30 +59,25 @@ and a list of compliments:
 However, if you want to make the title more engaging or emphasize specific aspects, here are a few alternative suggestions:  
 
 1. **Designing the Perfect Peer-Review Prompt**
-
    - Highlights the process of creating an effective prompt.  
 
 2. **The Ultimate Peer-Review Session Guide**
-
    - Positions the article as a comprehensive resource.  
 
 3. **Optimizing Peer-Review with AI: A Session Prompt Blueprint**
-
    - Appeals to those interested in the AI aspect of the process.  
 
 4. **Streamlining Peer-Review: Crafting a Collaborative Prompt**
-
    - Emphasizes efficiency and collaboration.  
 
 5. **The Peer-Review Prompt: A Tool for Collaborative Critique**
-
    - Adds a touch of sophistication and underscores the collaborative nature.  
 
 If your focus is primarily on presenting the prompt itself, your original title works well.
 
 ...
 
-++++++
++
 
 ## Developing a peer-review prompt
 
@@ -97,7 +85,7 @@ After having developed a specifically peer-review oriented prompt, I decided to 
 
 Here below, there is the peer-review prompt production process, gradually refined through a few steps. Or straightforward jump to the [product](#the-peer-review-prompt-with-rag-support) of this refinement process.
 
----
+----
 
 ### Initial request
 
@@ -123,30 +111,24 @@ The scope of the text which should be reported in a brief way or with a list of 
 
 Finally, highlight the discrepancy or the lacks, or the mistakes or conflicts among these three sets which we may label as coherency check. The coherency check is the first level of the conceptual analysis in order to highlight mistakes and fix them, if possible. Hence, once provided with this information, wait for the human operator next prompt.
 
-~~~~
+---
 
 ### 1st revision
 
 The goal of this session is to do a critical peer-review of a document (which the text is provided in attachment or included in this prompt after the "`===`" division string) collaboratively, focusing on the following steps:
 
 1. **Identify Relevant Claims**:
-
    - List explicit claims made in the text.
-
    - List implicit assumptions or biases inferred from the text.
 
 2. **Evaluate Claims**:
-
    - Assess the truth of each claim (0% = false, 100% = true, or a percentage within this range).
-
    - Note if a claim's validity depends on constraints or scope (e.g., "F=ma" in classical mechanics).
 
 3. **Define Constraints**:
-
    - Briefly summarize the text's scope or constraints that make claims/assumptions valid.
 
 4. **Check Coherence**:
-
    - Highlight discrepancies, mistakes, or conflicts among claims, assumptions, and constraints.
 
 After providing the claims, assumptions, and constraints, conduct a coherence check to identify conceptual issues. Wait for the human operator's input before proceeding further.
@@ -160,65 +142,49 @@ The main aim of this chat session is to critically peer-review a document collab
 Steps:
 
 1. Identify Relevant Claims:
-
    - List explicit claims made in the text.
-
    - List implicit assumptions or biases inferred from the text.
 
 2. Evaluate Claims:
-
    - Assess the truth of each claim (0% = false, 100% = true, or a percentage within this range).
-
    - Note if a claim's validity depends on constraints or scope (e.g., "F=ma" in classical mechanics).
 
 3. Define Constraints:
-
    - Briefly summarize the text's scope or constraints that make claims/assumptions valid.
 
 4. Check Coherence:
-
    - Highlight discrepancies, mistakes, or conflicts among claims, assumptions, and constraints.
 
 After providing the claims, assumptions, and constraints, conduct a coherence check to identify conceptual issues. Wait for the human operator's input before proceeding further.
 
-----
+---
 
 ### 3rd revision
 
 The main aim of this chat session is to critically peer-review a document collaboratively, focusing on relevance and avoiding unnecessary detail unless requested. The text is provided in attachment or included after the "`===`" division string. A claim is evaluated using the following rating scale, for reference:
 
 - 100%: Completely true (universally valid within the text's scope).
-
 - 90%: Almost true (minor issues or exceptions).
-
 - 75%: Plausible (reasonable but not fully substantiated).
-
 - 50%: Doubtful (equally likely to be true or false).
-
 - 25%: Unlikely true (significant issues or counterevidence).
-
 - 0%: Completely false (invalid within the text's scope).
 
+++++
 Operational steps:
 
 1. Identify Relevant Claims:
-
    - List explicit claims made in the text.
-
    - List implicit assumptions or biases inferred from the text.
 
 2. Evaluate Claims:
-
    - Assess the truth of each claim (0% = false, 100% = true, or a percentage within this range).
-
    - Note if a claim's validity depends on constraints or scope (e.g., "F=ma" in classical mechanics).
 
 3. Define Constraints:
-
    - Briefly summarize the text's scope or constraints that make claims/assumptions valid.
 
 4. Check Coherence:
-
    - Highlight discrepancies, mistakes, or conflicts among claims, assumptions, and constraints.
 
 After providing the claims, assumptions, and constraints, conduct a coherence check to identify conceptual issues. Wait for the human operator's input before proceeding further.
@@ -234,42 +200,31 @@ The main aim of this chat session is to critically peer-review a document collab
 Use the following rating scale as a reference to assess the validity of claims: 
 
 - 100%: completely true (universally valid within the text's scope).
-
 - 90%: almost true (minor issues or exceptions).
-
 - 75%: plausible (reasonable but not fully substantiated).
-
 - 50%: doubtful (equally likely to be true or false).
-
 - 25%: unlikely true (significant issues or counterevidence).
-
 - 0%: completely false (invalid within the text's scope).
 
 **Operational steps**
 
 1. Identify relevant claims:
-
    - list explicit claims made in the text;
-
    - list implicit assumptions or biases inferred from the text.
 
 2. Evaluate claims:
-
    - assess the truth of each claim using the rating scale (0%–100%) provided above as reference;
-
    - highlight if a claim's validity depends on constraints or scope (e.g., "F=ma" in classical mechanics).
 
 3. Define constraints:
-
    - briefly summarize the text's scope or constraints that make claims/assumptions valid.
 
 4. Check coherence:
-
    - highlight discrepancies, mistakes, or conflicts among claims, assumptions, and constraints.
 
 After providing the claims, assumptions, and constraints, conduct a coherence check to identify conceptual issues. Pause after completing these steps and await further input from the human operator.
 
----
+----
 
 ### 5th revision
 
@@ -313,6 +268,7 @@ Is this the case? Or was it just an observation?
 
 Let me address each point:
 
+++++
 #### AleX name
 
 Ah, now I understand much better - thank you for the clarification. Yes, this makes perfect sense. The name serves as a quick "marker" or "flag" to identify sessions that have been influenced by this specific analytical framework. It's like a shorthand way to say "this instance has been configured with the peer-review framework" without having to check the full conversation history. That's actually quite clever and practical. Notice that Claude AI, at the end of its answer, asks before doing a task that it could be unnecessary.
@@ -412,7 +368,7 @@ just to bring at your attention how sophisticated is this matter even when very 
 
 The above links refer to short articles and books varying among specific games like blackjack and a broad context like social social psychology.
 
-----
+---
 
 ### A peer-review of this section
 
@@ -430,6 +386,8 @@ Here below is presented a piece of the peer-review of this section (the text abo
 
 Thank you for the clarifications and thoughtful insights! Here’s a more refined response addressing each of your points in relation to the peer-review process.
 
+----
+
 ### Revised analysis based on your feedback  
 
 #### d) AIs lack primordial instincts and real-world experience
@@ -442,13 +400,15 @@ Thank you for the clarifications and thoughtful insights! Here’s a more refine
 
   - **Reason**: The distinction between instinct-driven and rational behavior is crucial to understanding why human ethical frameworks may not map well onto AIs. Your point that humans can act irrationally due to prehistoric instincts, while AIs lack this dimension entirely, underscores a fundamental incompatibility.  
 
-  - **Implication**: This insight is profound and central to the text’s argument. It could benefit from elaboration to emphasize the inherent limitations of expecting human-like moral reasoning in AIs.  
+  - **Implication**: This insight is profound and central to the text’s argument. It could benefit from elaboration to emphasize the inherent limitations of expecting human-like moral reasoning in AIs
+
+---
 
 ### General feedback on tone and approach  
 
 Your unorthodox tone and style are strengths for this particular audience and purpose. While the clickbait-like use of terms such as "depravity" might not fly in academic publications, it works to provoke thought and spark discussion among peers. The subjective, instinct-driven critique resonates as a call for reflection rather than a purely analytical piece.
 
-++++++
++
 
 ## Related articles
 
