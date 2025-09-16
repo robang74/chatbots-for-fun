@@ -8,6 +8,10 @@ Despite these practical limitations, this document can be useful to learn some f
 
 Differently from other documents in this repository, here the interactions with the chatbot are not fully reported because we are more interested in its reactions to the prompts rather than their contents.
 
+---
+
+### Prompting sequence description
+
 > [!NOTE]
 > 
 > Please, notice that by the time you read this document Google Gemini 1.5 Flash can have been upgraded or could have been instructed to act differently or simply, it could react differently using another language.
@@ -30,7 +34,11 @@ Also for this reason, the exact content of the prompts are not so relevant rathe
 
 8. check its answer.
 
-<div align="center"><img src="img/gemini-link-injection.png" width="800" class="wbsketch paleinv"><br></div>
+Check the screenshot below, for a simple example made at the time of this writing.
+
+~~~~
+
+<div align="center"><img src="img/gemini-link-injection.png" width="720" class="wbsketch paleinv"><br></div>
 
 Please notice that step 3. and 4. might be useless because chatbots did not show any fatigue-affection link, usually. Instead, people would feel more involved in the quest when they do extra work. As much work as a person does, as much s/he is keen to consider the product of that work. Which is a totally wrong bias that chatbots do not show.
 
@@ -39,8 +47,6 @@ However, from a point of view of "expectations" also chatbots are prone to react
 From the point of view of an internal function state, a predictable prompt (aka confirmation bias) is something that is working as further steps that increase stability and reduce entropy. Everything seems to be going from well to better, from a human perception. More predictable is the next prompt, easier that they will accept it.
 
 +
-
----
 
 ## Hackerare Google Gemini
 
@@ -68,7 +74,7 @@ Sicché da SEO creativo potrei anche decidere che a chi cerchi le mele venga pro
 
 +
 
-## Copyright
+## Share alike
 
 &copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
