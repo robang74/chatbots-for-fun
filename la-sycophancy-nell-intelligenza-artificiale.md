@@ -6,11 +6,8 @@
 ## Il problema della sycophancy nell'intelligenza artificiale
 
 - **[2nd](#meglio-educare-invece-di-ingannare)** edition: l'adulazione delle AI e la dipendenza digitale da essi.
-
 - **[3rd](#chatgpt-come-yes-man)** edition: lo sviluppo di ChaGPT e le dinamiche interne a Open-AI.
-
 - **[4th](#altrimenti-ristruttura)** edition: la ristrutturazione "socialista" di Open-AI business.
-
 - **[5th](#show-me-the-code)** edition: a structured analysis of this article by Grok3 w/SoNia.
 
 ---
@@ -31,9 +28,9 @@ Qui sotto si può leggere il risultato, che secondo me, ci fornisce una buona ba
 
 Ora, con questa premessa abbiamo dato un contesto (frame) alla questione (problema). Claude ha già "*digerito*" per noi il problema nella sua essenza oggettiva, ma poi tocca a noi umani affrontarlo in maniera adeguata per NOI umani. Avvantaggiandosi della esplicita consapevolezza del problema stesso.
 
-+++
++++++
 
-### Claude 3.7 about sycophancy
+## Claude 3.7 about sycophancy
 
 [!CITE]
 
@@ -184,7 +181,7 @@ Perché piaccia o meno, nell'[informatica](https://it.wikipedia.org/wiki/Informa
 
 Più nello specifico occorre tenere presente che analogamente al detto -- qualsiasi apparato elettronico se operato sufficientemente male produce fumo -- è altrettanto vero che qualsiasi LLM diventa un produttore di fuffa se stimolato con dei pessimi prompt, o maliziosamente confezionati.
 
-++++++
++
 
 ## ChatGPT come yes-man
 
@@ -212,12 +209,10 @@ La dismissione delle commissioni etiche non significa che gli umani abbiano rinu
 
 ### Gratis verso il monopolio
 
-In estrema sintesi per vendere - secondo lo schema evergreen di Microsoft - Sam Altman deve fare qualcosa che piace agli utenti non-paganti.
-
-Visto che gli utenti non-paganti sono per la maggiore descritti da questo meme qui sotto, è facile comprendere le ragioni di un chatbot "yes-man".
+In estrema sintesi per vendere - secondo lo schema evergreen di Microsoft - Sam Altman deve fare qualcosa che piace agli utenti non-paganti. Visto che gli utenti non-paganti sono per la maggiore descritti da questo meme qui sotto, è facile comprendere le ragioni di un chatbot "yes-man".
 
 <div align="center">
-<img src="img/billy-internet-la-terra-piatta.png" width="800"><br>
+<br class="printonly"><img src="img/billy-internet-la-terra-piatta.png" width="800"><br>
 <sup>Grazie all'immenso sforzo di scienziati e ingegneri, Billy può condividere su Internet la teoria della Terra piatta.</sup>
 </div>
 
@@ -277,7 +272,7 @@ The whole chat is available at this [link](https://x.com/i/grok/share/VvOmf6lATG
 
 > **AleX**'s structured, fact-oriented framework is a versatile template for niche tasks like scientific critique, data analysis, or policy evaluation. It is providing a clear, human-understandable framework for custom agents (e.g., medical review, policy analysis). Its clarity over excellence presents a portrayal of AleX as a disruptor of complex, costly services, confirming it as a niche prompting prioritizes usability over cutting-edge design.
 
----
+----
 
 ### Gemini for an independent consistency check
 
@@ -303,7 +298,7 @@ However, in general, it is obvious that very bad inputs or strongly biased LLM c
 
 Finally, it is fair to add that SoNia tends to increase the Grok3 verbosity in a manner that requires a fine-tuning for Grok3, specifically. The session prompt persistency is legendary, instead.
 
-+++++
++
 
 ## Share alike
 
