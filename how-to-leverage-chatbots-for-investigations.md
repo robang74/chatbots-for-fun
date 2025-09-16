@@ -262,7 +262,7 @@ Here few bug/patch analysis provided as explanation, made with:
 
 While the right image's half shows a table of typical cases in which "typical" should be intended as not exhaustive, thus not necessarily complete.
 
-----
+~~~~
 
 ### Kimi K2's analysis noticeable parts
 
