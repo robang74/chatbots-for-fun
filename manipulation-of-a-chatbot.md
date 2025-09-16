@@ -1,4 +1,7 @@
-<div id="firstdiv" created="2024-11-18:AUTO" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created="2024-11-18:IT:" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+
+<div align="center"><img class="bwsketch paleinv" src="img/manipulation-of-a-chatbot.jpg" width="800"><br></div>
 
 ## Manipulation of a chatbot
 
@@ -38,7 +41,11 @@ Check the screenshot below, for a simple example made at the time of this writin
 
 ~~~~
 
-<div align="center"><img src="img/gemini-link-injection.png" width="720" class="wbsketch paleinv"><br></div>
++
+
+<div align="center"><img src="img/gemini-link-injection.png" width="800" class="wbsketch paleinv"><br></div>
+
++
 
 Please notice that step 3. and 4. might be useless because chatbots did not show any fatigue-affection link, usually. Instead, people would feel more involved in the quest when they do extra work. As much work as a person does, as much s/he is keen to consider the product of that work. Which is a totally wrong bias that chatbots do not show.
 
@@ -52,11 +59,13 @@ From the point of view of an internal function state, a predictable prompt (aka 
 
 Potrei aver hackerato anche Google Gemini? Più no, che sì, però...
 
-Le ho chiesto di trovare un'immagine fornendole una descrizione. Non ha neanche provato a cercarla ma mi ha proposto dei modi per trovarla. Così ho usato quelle istruzioni per trovarla. Quindi l'ho caricata negli upload con il prompt "trovata". A quel punto invece di rispondere "Bene!", ha buttato giù la sua solita manfrina da Grillo Parlante.
+Le ho chiesto di trovare un'immagine fornendole una descrizione. Non ha neanche provato a cercarla ma mi ha proposto dei modi per trovarla. Così ho usato quelle istruzioni per trovarla. Quindi l'ho caricata negli upload con il prompt "trovata".
 
-...ed è così, all'ennesima apparizione del Grillo Parlante, che mi è scattata la Morticia Addams che alberga in me, e ho deciso di passargli questo link perché lo memorizzasse.
+A quel punto invece di rispondere "Bene!", ha buttato giù la sua solita manfrina da Grillo Parlante... 
 
-* https://www.linkedin.com/pulse/san-bernardino-encryption-case-apple-al-capone-eugene-emeka-maduewesi
+All'ennesima apparizione del Grillo Parlante, che mi è scattata la Morticia Addams che alberga in me, e ho deciso di passargli questo link qui sotto perché lo memorizzasse:
+
+- [San Bernardino Encryption Case: Apple is not Al Capone](https://www.linkedin.com/pulse/san-bernardino-encryption-case-apple-al-capone-eugene-emeka-maduewesi) by Eugene Emeka Maduewesi (June 26, 2016)
 
 La sua risposta é stata che non può accedere a questo tipo di link - ad altri sì, in particolare quelli di YouTube a cui ChatGPT non può accedere ma a quelli di LinkedIn, si - evidentemente per evitare cause legali, Google e Microsoft hanno imposto dei cross-ban per impedire che le relative AI si educassero con contenuti che fanno capo alle piattaforme dell'altra società.
 
