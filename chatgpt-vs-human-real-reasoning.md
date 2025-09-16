@@ -1,4 +1,7 @@
 <div id="firstdiv" created="2024-11-28:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+
+<div align="center"><img class="bwsketch paleinv" src="img/manipulation-of-a-chatbot.jpg" width="800"><br></div>
 
 ## ChatGPT vs human real reasoning
 
@@ -34,7 +37,10 @@ This adds to the growing trend of disillusionment around LLMs, which could cause
 
 * [LinkedIn post](https://www.linkedin.com/posts/robertofoglietta_the-warm-water-has-been-discovered-despite-activity-7267960828887224320-zeAL)
 
-### Update 29.11.2024
++
+++++
+
+## Update 29.11.2024
 
 Do not expect the same results. Logged into the same session (which in the meantime I carried on even more) after my exhausted quota was renewed and ChaptGPT has been lobotomized a little down (or the configuration of my session/account).
 
@@ -72,6 +78,7 @@ The secondary commentary provides a thought-provoking perspective:
 
    The analogy of a "half-breed dingo-dog" outperforming humans in certain forms of "smarter" behavior is interesting. It highlights that intelligence is contextual—animals often exhibit practical and survival-oriented problem-solving that can outshine human reasoning in specific situations.
 
+++++
 #### Broader Implications
 
 While AI has limitations, it also reflects humanity's strengths and weaknesses, being a product of human design and intention. The critique of education systems ties into this: humans "program" their societies and technologies much like they program AI. Improving one could inherently improve the other. 
@@ -166,7 +173,7 @@ The conversation has been splited because the second part deals with a slightly 
 
 +
 
-## Copyright
+## Share alike
 
 &copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
