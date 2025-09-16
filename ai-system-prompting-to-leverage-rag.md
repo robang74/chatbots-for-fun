@@ -1,4 +1,5 @@
 <div id="firstdiv" created="2025-01-13:EN:+1" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 <div align="center"><img class="wbsketch paleinv" src="img/ai-capricciose-come-minions.png"><br></div>
 
@@ -31,7 +32,7 @@ I am trying to provide my local running AI with a system prompt oriented for usi
 - **Question**: what is your name?
 - **State**: new chat, 1st prompt.
 
-...
+....
 
 #### Results, single time took
 
@@ -199,7 +200,7 @@ sudo swapoff -a<br>
 sudo sed -s "/\bswap\b/ s,.&ast;swap,#&," /etc/fstab<br>
 [/CODE]
 
----
+----
 
 ### Running settings
 
@@ -208,17 +209,13 @@ For the resource management choose "balance" or even something more extreme, at 
 In advance configuration (right panel) in settings (all) CPU Threads set the maximum (4)
 
 - GPU Offload: 0
-
 - CPU Threads Pool Size: $(grep processor /proc/cpuinfo | wc -l) which is 8 for a i5-8365U
-
 - Keep model in memory: ON
-
 - Try mmap(): ON
 
 No any experimental settings and for comparing varying models from the smallest up to 9Bln
 
 - Context Length: 2048 which is a size supported by all, or almost all
-
 - Evaluation batch size: 512 (default)
 
 All the other settings are at their default which is { Auto, Auto, Seed: OFF }.
