@@ -80,7 +80,7 @@ Questo argomento è ripreso nell'articolo sopra riportato che ne è la naturale 
 
 Alcune riflessioni condivise con Gemini riguardo al ruolo del cristianesimo nell'impero romano, il suo impatto culturale nella vita civile e l'evoluzione della dottrina come prodotto di contesti storici piuttosto che del messaggio evangelico originale.
 
-- Conversazione con [Gemini](https://g.co/gemini/share/c415954abbbb) e sua [trascrizione](data/dalla-vox-populi-alle-barbarie-gemini.txt#?target=_blank) &nsbp; (2025-09-23)
+- Conversazione con [Gemini](https://g.co/gemini/share/c415954abbbb) e sua [trascrizione](data/dalla-vox-populi-alle-barbarie-gemini.txt#?target=_blank) &nbsp; (2025-09-23)
 
 > Si può ragionevolmente concludere che i problemi culturali e sociali che molti critici attribuiscono al cristianesimo non derivano tanto dal messaggio originale di Gesù, quanto dalla sua interpretazione e applicazione distorta nel corso dei secoli. Il messaggio evangelico, incentrato sulla salvezza dell'anima e su principi etici come il perdono e la carità, era profondamente astratto e rivoluzionario per il suo tempo. Tuttavia, la sua diffusione in un'epoca di profonde trasformazioni sociali e politiche lo ha reso vulnerabile a compromessi e alterazioni. -- Gemini
 
