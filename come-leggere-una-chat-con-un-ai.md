@@ -109,6 +109,18 @@ L'integrazione della **peer-review con IA** apre infine uno spunto interessante 
 
 +
 
+## Conclusione e riassunto
+
+Come si legge questa chat? Prima i prompt dell'umano, tutti insieme, ignorando le risposte del chatbot. Poi se l'argomento interessa allora si leggono le risposte del chatbot e in particolare quelle relative ai prompt più interessanti. Si tratta di una lettura non lineare ma più propensa alla formazione di una propria opinione e/o alla riflessione.
+
+Altrimenti, si può leggere come fosse un romanzo in cui si alternano due voci, così come fu scritto "dialogo sopra i due massimi sistemi del mondo" (&hairsp;[1632](https://it.wikipedia.org/wiki/Dialogo_sopra_i_due_massimi_sistemi_del_mondo)&hairsp;), in cui anche la seconda voce era comunque scritta dallo stesso autore che impersonava la prima. 
+
+Mentre con un chatbot la seconda voce è, entro una certa misura, il riflesso della prima nello stagno delle conoscenze acquisite del chatbot. Perché occorre sempre tenere presente che questi strumenti di intelligenza artificiale rispondono in "risonanza" al nostro prompt, rispetto alle nozioni "apprese" che però null'altro sono che una raccolta di umana letteratura.
+
+Sicché i chatbot null'altro sono che strumenti di "riflessione" piuttosto che oracoli.
+
++
+
 ## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
