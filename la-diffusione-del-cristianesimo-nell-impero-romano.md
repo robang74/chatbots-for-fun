@@ -5,7 +5,8 @@
 
 ## La diffusione del cristianesimo nell'impero romano
 
-- *Questo articolo è stato scritto a partire da due post su LinkedIn pubblicati il giorno prima.*
+- **1st edition** -- Questo articolo è stato scritto a partire da due post su LinkedIn pubblicati il giorno prima.
+- **2nd edition** -- Include una [riflessione](#dalla-vox-populi-alle-barbarie) sull'evoluzione del cristianesimo rispetto al messaggio evangelico.
 
 ---
 
@@ -72,6 +73,24 @@ C'è però da notare che l'agente AI reagisce in modo più blando quando il prom
 - [ChatGPT su Leone XIV vs Gesù legionario](chatgpt-su-leone-xiv-vs-gesu-legionario.md#?target=_blank) &nbsp; (2025-05-09)
 
 Questo argomento è ripreso nell'articolo sopra riportato che ne è la naturale prosecuzione.
+
++
+
+## Dalla vox populi alle barbarie
+
+Alcune riflessioni condivise con Gemini riguardo al ruolo del cristianesimo nell'impero romano, il suo impatto culturale nella vita civile e l'evoluzione della dottrina come prodotto di contesti storici piuttosto che del messaggio evangelico originale.
+
+- Conversazione con [Gemini](https://g.co/gemini/share/c415954abbbb) e sua [trascrizione](#TODO) &nsbp; (2025-09-23)
+
+Come si legge questa chat? Come si leggono tutte le chat di questo tipo come [nuova forma](come-leggere-una-chat-con-un-ai.md#?target=_blank) di letteratura.
+
+Prima i prompt dell'umano, tutti insieme, ignorando le risposte del chatbot. Poi se l'argomento interessa allora si leggono le risposte del chatbot e in particolare quelle relative ai prompt più interessanti. Si tratta di una lettura non lineare ma più propensa alla formazione di una propria opinione e/o alla riflessione.
+
+Altrimenti, si può leggere come fosse un romanzo in cui si alternano due voci, così come fu scritto "dialogo sopra i due massimi sistemi del mondo" (&hairsp;[1632](https://it.wikipedia.org/wiki/Dialogo_sopra_i_due_massimi_sistemi_del_mondo)&hairsp;), in cui anche la seconda voce era comunque scritta dallo stesso autore che impersonava la prima. 
+
+Mentre con Gemini, la seconda voce è, entro una certa misura, il riflesso della prima nello stagno delle conoscenze acquisite del chatbot. Perché occorre sempre tenere presente che questi strumenti di intelligenza artificiale rispondono in "risonanza" al nostro prompt, rispetto alle nozioni "apprese" che però null'altro sono che una raccolta di umana letteratura.
+
+Sicché i chatbot null'altro sono che strumenti di "riflessione" piuttosto che oracoli.
 
 +
 
