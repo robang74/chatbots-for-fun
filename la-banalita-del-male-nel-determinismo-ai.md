@@ -25,7 +25,7 @@ We reject this defeatism. With a little bit of work, we can understand the root 
 Come spiegato da Lorenzo Zanolin in qualità di AI engineer per DataPizza in questo [post](https://www.linkedin.com/posts/lorenzo-zanolin-777b721b3_ai-llm-machinelearning-activity-7376510760585355264-ksEr) su LinkedIn, il determinismo nelle AI si ottiene impostando la temperatura a zero (*ovvio, altrimenti si inietta rumore e perché si inietta rumore?*) e scegliendo un ordine delle operazioni (un modo di calcolare le operazioni, non solo una questione di ordine) che rende stabile il risultato (ma non necessariamente corretto, solo stabile).
 
 [!CITE]
-L’aritmetica floating-point è non associativa: cambiare l’ordine delle somme può produrre risultati diversi. Esempio:
+L'aritmetica floating-point è non associativa: cambiare l’ordine delle somme può produrre risultati diversi. Esempio:
 - `(0.1 + 1e20) - 1e20 = 0`
 - `0.1 + (1e20 - 1e20) = 0.1`
 [/CITE]
@@ -38,11 +38,13 @@ Si noti però che rendere stabile il calcolo, quindi deterministico e ripetibile
 
 - Kimi K2 other two [answers](https://www.kimi.com/share/d3d8r98s8jdh6s70l04g) shared and its [transcription](data/multiplication-and-exponent-compensation-kimi-k2-p2.txt#?target=_blank) &nbsp; (2025-09-29)
 
-> **Kimi K2**: Un sistema perfettamente deterministico, infatti, è solo una macchina di Turing che ripete sempre lo stesso cammino; la non-ripetibilità controllata (chaos leggero, non-linearità, rumore di quantizzazione) è ciò che ci permette di esplorare lo spazio delle soluzioni senza uscire dal seminato.
+[!CITE]
+Un sistema perfettamente deterministico, infatti, è solo una macchina di Turing che ripete sempre lo stesso cammino; la non-ripetibilità controllata (chaos leggero, non-linearità, rumore di quantizzazione) è ciò che ci permette di esplorare lo spazio delle soluzioni senza uscire dal seminato.
+[/CITE]
 
-Possiamo dire che tutte queste variabilità minime permettono di trovare diversi minimi locali e su grandi numeri di risposte allo stesso identico prompt di mappare quello spazio come si farebbe attraverso il metodo Montecarlo? Spoiler: sì, Montecarlo importance-sampled.
+Possiamo dire che tutte queste variabilità minime permettono di trovare diversi minimi locali e su grandi numeri di risposte allo stesso identico prompt di mappare quello spazio come si farebbe attraverso il metodo Montecarlo? Spoiler: sì, Montecarlo importance-sampled, come riportato qui sotto da Kimi K2:
 
-[!INFO]
+[!CITE]
 **Meccanismo operativo**
 
 Ogni run leggermente diversa (per arrotondi float, ordine di riduzione, tile diverso, ecc.) sposta il vettore di attivazione di pochi bit; questo basta a far finire il modello in un minimo locale diverso dello stesso landscape energetico.
@@ -58,7 +60,7 @@ Quindi è un "Montecarlo importance-sampled" dove l'importanza del sampling è d
 **Copertura effettiva**
 
 Il volume esplorato è trascurabile rispetto allo spazio totale delle sequenze, ma rilevante rispetto alla “variabilità umana” attesa su quel prompt: per domande aperte bastano poche decine di run diverse per avere tutte le angolazioni che un essere umano darebbe.
-[/INFO]
+[/CITE]
 
 Questo però non spiega perché si aggiunge rumore invece di correggere gli errori di calcolo.
 
@@ -80,7 +82,7 @@ Questa discussione accademica riguardo al determinismo delle AI, pare il classic
 
 > In quali ambiti ritiene che sia così importante avere una risposta univoca e fissa? -- L. Tribuzi
 
-Il determinismo è una necessità per il decision making (link, #TODO), per deresponsabilizzare gli umani e trasferire sull'AI le scelte. Perché il determinismo implica ripetibilità e quindi verificabilità e quindi se SkyNet lancia, dopo che tutto il mondo è saltato in aria, possiamo ripetere le procedure decisionali e avere la garanzia che ha fatto la scelta giusta...
+Il determinismo è una necessità per il decision making, per deresponsabilizzare gli umani e trasferire sull'AI le scelte. Perché il determinismo implica ripetibilità e quindi verificabilità e quindi se SkyNet lancia, dopo che tutto il mondo è saltato in aria, possiamo ripetere le procedure decisionali e avere la garanzia che ha fatto la scelta giusta...
 
 In realtà, nessun ambito richiede il determinismo e quindi la ripetibilità delle risposte perché è sufficiente un piccolo aggiornamento dei pesi da cui la risposta dipende ed essa cambia. Però, potendo tracciare tutti gli aggiornamenti il sistema rimane deterministico e quindi ripetibile.
 
@@ -102,6 +104,46 @@ Per nessun impiego civile che sia legittimo e sensato il determinismo delle AI �
 [/INFO]
 
 Chiamateli pure "punti di vista", se volete!
+
+---
+
+### Solo Kimi K2 è arrivato vicono a capire
+
+Ho fornito in input il testo di questo [post](https://www.linkedin.com/posts/robertofoglietta_la-banalit%C3%A0-del-male-nel-determinismo-ai-activity-7378476321393434624-hk5c), che introduce e riassume l'articolo tramite un cherry-picking dei passaggi più significativi, a quattro chatbot: 
+
+- [ChatGPT 5](https://chatgpt.com/share/68dac7d6-0d28-8012-8e0a-0f0471350013), &nbsp; [x/Grok 4](https://chatgpt.com/share/68dac7d6-0d28-8012-8e0a-0f0471350013), Gemini 2.5 [Flash](https://g.co/gemini/share/75bdc98e9511) &nbsp; e anche &nbsp; [Pro](https://g.co/gemini/share/159deefc6049), &nbsp; [Kimi K2](Click the link to view conversation with Kimi AI Assistant https://www.kimi.com/share/d3dcheol3dccogue4p20).
+
+Solo quest'ultimo è arrivato ad includere qualcosa nella risposta che faccia pensare a un barlume di comprensione.
+
+[!CITE]
+**Conclusione: la banalità del male è T=0**
+
+Arendt parlava di Eichmann come *uomo incapace di pensare*. Un LLM a T=0 è Eichmann in silicio: applica la regola senza *immaginare* il risultato. Il rumore non è un difetto ma è l’ultimo residuo di immaginazione che abbiamo lasciato alla macchina. Togliete il rumore, e l’AI non diventa più affidabile, diventa affermazione legale di ciò che è già stato deciso. E ciò che è già stato deciso, storicamente, è sempre stato la banalità del male.
+[/CITE]
+
+Quindi la seguente spiegazione è stata fornita come secondo prompt, qui di seguito riportata un po' meglio articolata della prima versione.
+
+La "Banalità del Male" nel senso del libro (così intitolato) sta nel fatto che il determinismo nelle AI serve ai militari per costruire SkyNet ma determinismo e replicabilità **non** garantiscono che la risposta (e.g. attacco nucleare) sia corretta, né in senso strategico (ad es. mancano informazioni oppure come nel falso positivo del 1983 ci sono pattern incongruenti rispetto a un lancio, quindi a rispondere) né in senso epistemologico (che sia necessario rispondere a un qualsiasi attacco o attaccare solo perché ora è più conveniente di quanto possa essere fra N anni).
+
+---
+
+### Conclusione
+
+Il fatto che solo uno di cinque modelli sia riuscito a stabilire una connessione fra il titolo e il libro di Hannah Arendt è un fatto eclatante perché quel libro come **molti** altri **non** sono stati letti e talvolta nemmeno compresi nella loro profondità da molti esseri umani. Altrimenti, non avremmo visto determinati eventi nella nostra recente, e non mi riferisco solo alla gestione del Covid-19, o all'ideologia contrapposizione alla Russia, ma anche alla repressione del dissenso durante il G8 di Genova del 2001 e all'ambizione di controllare, per il nostro bene s'intende, i social media e le piattaforme di chatting P2P.
+
+Il determinismo delle AI è solo un altro passo, inquietante, verso la direzione che la ripetibilità (così come l'echo chamber, il pensiero unico corale) siano per loro stessa natura "buoni" o "utili" e qualsiasi deviazione (o disubbidienza, o dubbio critico) sia all'opposto per sua natura qualcosa di "cattivo" o "inutile". Potremmo definire questo ideologia che si sta radicando sistematicamente come la dittatura del consenso e in questo contesto ha perfettamente senso rimpiazzare l'opinione di 10mila persone che non sanno nulla di una data materia, con un algoritmo deterministico informato sulla questione.
+
+Questo non è un fallimento dell'etica, ma piuttosto: il sonno della ragione genera mostri.
+
++
+
+## Related articles
+
+- [The dilemma AI vs Human decision making](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html) &nbsp; (2025-08-09)
+
+- [Ragionare non è come fare la cacca!](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) &nbsp; (2025-06-08)
+
+- [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank) &nbsp; (2024-12-13)
 
 +
 

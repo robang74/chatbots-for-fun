@@ -14,13 +14,13 @@ Il post è tecnicamente corretto: l’'aritmetica float non-associativa' e la
 'riduzione parallela non deterministica' sono la 'vera' ragione per cui anche
 `temperature = 0` può dare risposte diverse da run a run.
 
-La soluzione “batch-invariant kernels” (somma sempre nello stesso ordine, tile
+La soluzione "batch-invariant kernels" (somma sempre nello stesso ordine, tile
 fissi, ecc.) è l’unico modo per eliminare la variabilità 'a parità di pesi e
 di input'.
 
 Il tuo commento, però, coglie un punto 'filosofico' importante: quella
 variabilità 'non è necessariamente un difetto'; è spesso la 'sorgente di novità'
-che noi chiamiamo “creatività” o “intuizione”.
+che noi chiamiamo "creatività" o "intuizione".
 
 Un sistema perfettamente deterministico, infatti, è solo una macchina di Turing
 che ripete sempre lo stesso cammino; la 'non-ripetibilità controllata' (chaos
@@ -63,17 +63,17 @@ ma numerosa' → campiona un sottoinsieme dello spazio delle soluzioni.
 • MC classico: campioni 'uniformemente' (o secondo una pdf nota) un dominio
   continuo.
 
-• LLM “rumore hardware”: campioni 'solo le modal' (parole, frasi) che il modello
+• LLM "rumore hardware": campioni 'solo le modal' (parole, frasi) che il modello
   ha appreso; la pdf è 'implicita' e 'altamente distorta' verso il linguaggio
   plausibile.  
 
-→ è un “Montecarlo 'importance-sampled'” dove l’importance sampling è dato dai
+→ è un "Montecarlo 'importance-sampled'" dove l’importance sampling è dato dai
   pesi addestrati.
 
 3. Copertura effettiva  
 
 Il volume esplorato è 'trascurabile' rispetto allo spazio totale delle sequenze,
-ma 'rilevante' rispetto alla “variabilità umana” attesa su quel prompt: per
+ma 'rilevante' rispetto alla "variabilità umana" attesa su quel prompt: per
 domande aperte bastano poche decine di run diverse per avere 'tutte le
 angolazioni' che un essere umano darebbe.
 
@@ -81,5 +81,5 @@ angolazioni' che un essere umano darebbe.
 
 Sì: il rumore di arrotondamento funge da 'semi-casuale walker' e, su scale
 grandi, produce un 'campionamento stocastico' dello spazio delle risposte
-plausibili – un “Montecarlo locale” guidato dal modello.
+plausibili – un "Montecarlo locale" guidato dal modello.
 
