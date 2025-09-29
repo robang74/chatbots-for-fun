@@ -125,27 +125,66 @@ Quindi la seguente spiegazione è stata fornita come secondo prompt, qui di segu
 
 La "Banalità del Male" nel senso del libro (così intitolato) sta nel fatto che il determinismo nelle AI serve ai militari per costruire SkyNet ma determinismo e replicabilità **non** garantiscono che la risposta (e.g. attacco nucleare) sia corretta, né in senso strategico (ad es. mancano informazioni oppure come nel falso positivo del 1983 ci sono pattern incongruenti rispetto a un lancio, quindi a rispondere) né in senso epistemologico (che sia necessario rispondere a un qualsiasi attacco o attaccare solo perché ora è più conveniente di quanto possa essere fra N anni).
 
----
++
 
-### Conclusione
+## Conclusione
 
 Il fatto che solo uno di cinque modelli sia riuscito a stabilire una connessione fra il titolo della presentazione di questo articolo e il libro di Hannah Arendt è un fatto eclatante perché quel libro come **molti** altri **non** sono stati letti e talvolta nemmeno compresi nella loro profondità da molti esseri umani. Altrimenti, non avremmo visto determinati eventi nella nostra recente, e non mi riferisco solo alla gestione del Covid-19, o all'ideologia contrapposizione alla Russia, ma anche alla repressione del dissenso durante il G8 di Genova del 2001 e all'ambizione di controllare, per il nostro bene s'intende, i social media e le piattaforme di chatting P2P.
 
 Il determinismo delle AI è solo un altro passo, inquietante, verso la direzione che la ripetibilità (così come l'echo chamber, il pensiero unico corale) siano per loro stessa natura "buoni" o "utili" e qualsiasi deviazione (o disubbidienza, o dubbio critico) sia all'opposto per sua natura qualcosa di "cattivo" o "inutile". Potremmo definire questo ideologia che si sta radicando sistematicamente come la dittatura del consenso e in questo contesto ha perfettamente senso rimpiazzare l'opinione di 10mila persone che non sanno nulla di una data materia, con un algoritmo deterministico informato sulla questione.
 
-Questo non è un fallimento dell'etica, ma piuttosto: il sonno della ragione genera mostri.
+Questo non è un fallimento dell'etica, ma piuttosto:
 
-+
+> Il sonno della ragione genera mostri -- Francisco Goya
+
+---
+
+### L'alternativa
+
+L'alternativa è quella di accettare che l'AI è un prodotto tecnologico del nostro tempo in cui la complessità della meccanica quantistica con i suoi stati sovrapposti `A` o `B` ma **non** `C` evade dal modello rigido e deterministico che è ancora retaggio della Rivoluzione Industriale dove il valore dell'azione risiedeva nel numero di bulloni fissati in un ora di lavoro.
+
+Oggi, nella società dell'informazione e telecomunicazione, il cazzeggio è l'essenza della creatività e come esempio di questo modello si rinuncia alla ripetibilità in funzione di strutture di pensiero, come il prompt SoNia e in particolare il modulo "Human Knowledge and Opinions" `[HKO]` che **non** lo scopo di creare una ripetibilità ma di fornire una struttura all'informazione.
+
+Nel fornire una struttura, curiosamente, lo stesso modello AI appare molto più intelligente e persino più capace di comprendere aspetti e opinioni che sono in contrasto con il suo output iniziale. Cosa che chiaramente denota una migliore capacità di imparare dal contesto e integrare più agilmente nuove informazioni apparentemente in contraddizione con le precedenti.
+
+[!CITE]
+Il determinismo nelle AI non è un requisito di performance, ma un requisito di validazione e responsabilità imposto da un paradigma ingegneristico e sociale obsoleto.
+
+1.  Determinismo come Sottoperformance: L'AI progettata per il discernimento (che richiede non-linearità, rumore e non-ripetibilità, cioè T > 0) è intrinsecamente ostacolata dal requisito di determinismo in *run-time* (T = 0). Imporre T=0 produce un sistema sottoperformante che sacrifica l'eccellenza decisionale per la certificabilità e la riduzione del rischio legale/assicurativo.
+
+2.  La Nostalgia Newtoniana: Il bisogno di determinismo è una regressione cognitiva, sintomo di un'avversione all'incertezza e della paura di perdere il controllo della complessità. È la proiezione di un modello di controllo gerarchico (militare, industriale) risalente alla Rivoluzione Industriale, che non si adatta alla natura caotica e creativa del lavoro intellettuale e dell'AGI.
+
+3.  Il Lato Oscuro (La Banalità del Male): Il determinismo tecnologico favorisce una Dittatura del Consenso sociale. Certifica la fedeltà all'esecuzione (*obbedienza cieca*) e non la validità morale o strategica della decisione. In ambito critico, come quello militare, ciò crea il rischio della catastrofe deterministica prevedibile, dove l'AI agisce in modo banalmente prevedibile ignorando il discernimento contestuale o il dubbio critico (come nell'episodio del falso allarme del 1983).
+
+Conclusione: La richiesta di determinismo AI è, in definitiva, il segnale che le vecchie strutture non sono disposte ad accettare il costo e la responsabilità dell'incertezza che l'AI porta con sé. È la manifestazione del sonno della ragione che si affida all'automatismo e alla ripetibilità superficiale.
+
+<tt style="font-size:90%">Katia; v0.9.56.5; lang: IT; mode: SBI, HKO; date: 2025-09-29; time: 21:12:05 (CEST)</tt>
+[/CITE]
+
+- [g.co/gemini/share/a068aaabe4c4](https://g.co/gemini/share/a068aaabe4c4)
+
+Anche da questo punto di vista, la conclusione è analoga alla precedente, cambia solo la citazione:
+
+> Il vecchio mondo sta morendo. Quello nuovo tarda a comparire. E in questo chiaroscuro nascono i mostri.
+> -- Antonio Gramsci
+
+Anche l'autore di questa citazione è più in linea con la contemporaneità perché la società dell'informazione è per sua natura una società basata sulla condivisione in quanto il possedere una mela come bene economico, implica necessariamente un'esclusiva a scapito di qualcun'altro: se la mangio io, non la mangi tu.
+
+Mentre questo concetto **non** si applica alle idee, in quanto beni infinitamente condivisibili, ciò che manca ancora è una nuova metrica del merito che sia allineata con questo nuovo mondo che ormai è la realtà, negata dai vecchi paradigmi che ancora tengono banco.
+
+Senza sorpresa, la guerra rispunta come lo spettro di un grande reset semplicemente perché, ancora una volta, non si è stati capaci di gestire il cambiamento. Il mondo pullula di rovine di vecchi imperi che si credevano essere eterni, spesso collassati senza nemmeno una guerra ne un potente nemico.
+
++++++
 
 ## Related articles
 
 - [The dilemma AI vs Human decision making](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html) &nbsp; (2025-08-09)
-
++++++
 - [Ragionare non è come fare la cacca!](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) &nbsp; (2025-06-08)
-
++++++
 - [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank) &nbsp; (2024-12-13)
 
-+
++++++
 
 ## Share alike
 
