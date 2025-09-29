@@ -12,19 +12,17 @@
 
 ### Contro i Galilei, di Giuliano imperatore
 
-Ho trovato questo [documento](http://www.gianfrancobertagni.it/materiali/filosofiaantica/controigalilei.pdf), intitolato "discorso contro i galilei dell'imperatore Giuliano" che ovviamente ha anche un lemma dedicato su [Wikipedia](https://it.wikipedia.org/wiki/Contro_i_Galilei), molto interessante. Riporta come, l'imperatore Giuliano vedesse la diffusione del cristianesimo nella Roma del IV secolo dopo Cristo, un problema di stabilità interna. La storia gli diede ragione sebbene i contemporanei non lo ascoltarono.
+Ho trovato questo [documento](data/giuliano-imperatore-contro-i-galilei.pdf#?target=_blank) ([link](http://www.gianfrancobertagni.it/materiali/filosofiaantica/controigalilei.pdf) privo di https), intitolato "discorso contro i galilei dell'imperatore Giuliano" che ovviamente ha anche un lemma dedicato su [Wikipedia](https://it.wikipedia.org/wiki/Contro_i_Galilei), molto interessante. Riporta come, l'imperatore Giuliano vedesse la diffusione del cristianesimo nella Roma del IV secolo dopo Cristo, un problema di stabilità interna. La storia gli diede ragione sebbene i contemporanei non lo ascoltarono.
 
 Premesso che non ho fatto una verifica riguardo al testo qui sotto proposto in PDF, se sia storicamente accurato e lo sia anche la sua traduzione in Italiano, giacché sicuramente l'originale non fu scritto in Italiano. Una mancanza notevole per chi volesse fare un lavoro certosino da un punto di vista storiografico, ma solo un dettaglio per chi come me è interessato ad esplorare le capacità dialettiche e di analisi di un chatbot rinforzato da un prompt di sessione di secondo livello.
 
-- [chat con Gemini 2 nel ruolo di SoNia](https://g.co/gemini/share/dab32610f2bd) &nbsp; (2025-04-29)
+- broken link della [chat](https://g.co/gemini/share/dab32610f2bd) con Gemini 2 nel ruolo di SoNia &nbsp; (2025-04-29)
+   - SoNia argumentative partner prompt [v3.5.3](https://raw.githubusercontent.com/robang74/chatbots-for-fun/6faa3e859e01903a546c9eee813d1cc3f7b1ad10/data/sonia-argumentative-w-rag-v3.txt) &nbsp; (2025-03-04)
+   - [trascrizione](data/la-diffusione-del-cristianesimo-nell-impero-romano.txt#?target=_blank) della chat in testo su 80 colonne w/ typo fixes
+   - [verifica](https://g.co/gemini/share/4a7d87d327d2) della trascrizione con la versione corrente di Gemini &nbsp; (2025-09-29)
 
-- [SoNia argumentative partner prompt](https://raw.githubusercontent.com/robang74/chatbots-for-fun/6faa3e859e01903a546c9eee813d1cc3f7b1ad10/data/sonia-argumentative-w-rag-v3.txt) &nbsp; (2025-03-04, v3.5.3)
-
-   - [trascrizione della chat in testo](data/la-diffusione-del-cristianesimo-nell-impero-romano.txt#?target=_blank) &nbsp; su 80 colonne w/ typo fixes
-
-- [analisi della chat con ChatGPT 4o](https://chatgpt.com/share/6813a223-1f28-8012-8f57-87bb57a64d1a) &nbsp; (2025-05-01)
-
-   - [trascrizione dell'analisi sopra](data/chatgpt4o-giuliano-imperatore-contro-galilei.txt#?target=_blank) &nbsp; su 80 colonne in UTF-8
+- [analisi](https://chatgpt.com/share/6813a223-1f28-8012-8f57-87bb57a64d1a) della chat con ChatGPT 4o &nbsp; (2025-05-01)
+   - [trascrizione](data/chatgpt4o-giuliano-imperatore-contro-galilei.txt#?target=_blank) dell'analisi di cui sopra su 80 colonne in UTF-8
 
 Ne è emersa una discussione decisamente interessante, non affatto banale, non affatto facile da accettare in alcune sue parti, ed è pure giusto che sia così visto che alcune parti sono ad oggi speculative per quanto appaiano da un punto di vista storico solide e convincenti, più che altro perché le alternative note non stanno in piedi, mica perché ci sia una qualche verità rivelata in questa conversazione.
 
