@@ -8,7 +8,7 @@ Questo documento documento faceva parte della raccolta [chatgpt-answered-prompts
 
 Il testo dell'articolo di Paolo Benanti intitolato "*intelligenza artificiale e relazioni pericolose*" del 4 settembre 2024:
 
-* [lnkd.in/dWFf6JBq](https://lnkd.in/dWFf6JBq) oppure [lnkd.in/dkNvBEB6](lnkd.in/dkNvBEB6)
+* [lnkd.in/dWFf6JBq](https://lnkd.in/dWFf6JBq) oppure [lnkd.in/dkNvBEB6](https://lnkd.in/dkNvBEB6)
 
 La seconda immagine di uno o dell'altro di questi due post.
 
@@ -136,7 +136,7 @@ Entro 5 anni, molte delle problematiche etiche e sociali sollevate dall’artico
 
 ### Prompt #3
 
-**Upload**: https://cocosci.princeton.edu/tom/papers/bayeschapter.pdf (pagine 49)
+**Upload**: [Bayesian models of cognition](https://cocosci.princeton.edu/tom/papers/bayeschapter.pdf) (pagine 49) on princeton.edu
 
 Perché considerare visionario un articolo di settembre 2024 quando la teoria della mente basata su principi di statistica Bayesiana era già nota nel 1991, almeno e ha progredito sensibilmente in questi trent'anni al punto che la settimana scorsa é stato pubblicato un libro specifico su di essa di cui questo articolo è la base accademica di uno dei capitoli più interessanti del libro? 
 
@@ -631,7 +631,7 @@ Potrebbe stupirci e speriamo anche che lo faccia.
 
 +
 
-## Copyright
+## Share alike
 
 &copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
