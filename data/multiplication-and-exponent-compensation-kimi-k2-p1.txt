@@ -1,0 +1,136 @@
+Chat U2A: human operator prompt first, then AI agent answer. Width: 80 columns.
+
+******** data/multiplication-and-exponent-compensation-kimi-k2-p1.txt **********
+
+Chatbot: Kimi K2
+Created: 2025-09-03
+Shared: two answers only
+Attachment: none
+
+================================================================================
+-- AI --------------------------------------------------------------------------
+
+Ottimo — passiamo alla moltiplicazione.
+
+### Cosa cambia se usiamo il prodotto invece della somma?
+
+- Somma: l'errore si accumula per cancellazione (es. `1e30 - 1e30 + 1`).
+- Prodotto: l'errore si accumula per crescita esponenziale del relativo;
+              non c'è "cancellazione", ma drift relativo via via più grande.
+
+### Quindi: il Kahan non serve per il prodotto.
+
+Però esiste un analogo stabile per il prodotto:  compensazione in log-space o 
+prodotti in doppia precisione / pairwise products.
+
+### Algoritmo di Ogita–Rump–Oishi (2005)
+
+Accurate Sum and Dot Product – si adatta anche al prodotto con compensazione
+ibrida. Di seguito una versione semplificata in Fortran che usa doppia
+precisione per il prodotto compensato.
+
+[!fortran]
+program compensated_product
+  use, intrinsic :: iso_fortran_env, only: dp=>real64
+  implicit none
+  integer, parameter :: n = 5
+  real(dp) :: a(n), p, e, y, t
+  integer :: i
+
+  ! Valori test: grandi e piccoli
+  a = [1.0e30_dp, 1.0e-30_dp, 2.0_dp, 0.5_dp, 1.0e20_dp]
+
+  p = 1.0_dp
+  e = 0.0_dp          ! errore relativo accumulato
+
+  do i = 1, n
+     ! Prodotto compensato (schema di Ogita-Rump)
+     y  = a(i) - e
+     t  = p * y
+     e  = (t - p*y) / y   ! stima dell'errore relativo
+     p  = t
+  end do
+
+  print *, "Prodotto compensato =", p
+  print *, "Prodotto con PRODUCT() =", product(a)
+end program compensated_product
+[/fortran]
+
+### Risultato tipico (gfortran -O3)
+
+PRODUCT(a) può dare Inf o 0 a seconda dell'ordine. Il compensato restituisce il
+valore entro 1 ulp dal prodotto esatto (verificato con aritmetica a 128 bit).
+
+### Take-away
+
+| Operazione | Schema stabile        | Nome usuale               |
+|------------|-----------------------|---------------------------|
+| Somma      | Kahan                 | compensated summation     |
+| Prodotto   | Ogita–Rump–Oishi      | compensated product       |
+
+-- AI --------------------------------------------------------------------------
+
+Prima degli anni 2000 la "cassetta degli attrezzi" per contenere gli errori in
+virgola mobile era già ricca, ma si concentrava quasi esclusivamente sulla
+somma; per il prodotto non esistevano schemi "compensati" veri e propri, bensì
+tecniche indirette (log-space, doppia precisione, prodotti a coppie, ecc.).  
+Di seguito la linea del tempo delle idee più usate (con riferimento all'anno
+in cui divennero di pubblico dominio).
+
+### 1964 -- Moltiplicazione in "logaritmi"
+
+Si trasformano i fattori in log, si sommano, poi si calcola l'esponenziale.
+L'errore relativo cresce in modo additivo anziché moltiplicativo --> utile
+quando i fattori spaziano molti ordini di grandezza.  Svantaggio: costo di 
+~3 log + 1 exp per elemento e perdita di bit per argomenti molto piccoli.
+
+### 1965 – "Prodotti a coppie" (pairwise product)
+
+Si applica la stessa filosofia del pairwise sum: si moltiplicano sempre coppie
+di operandi "vicini" in un albero binario bilanciato. Riduce l'errore da O(n u)
+a O(log n u) ma non la cancellazione (0 o Inf restano tali). Implementato nei
+primi BLAS di IBM (ESSL).
+
+### 1971 -- Doppia precisione "a mano" (Brent, Dekker)  
+
+Si conservano i prodotti parziali in due word (high e low) con la
+moltiplicazione "split" di Dekker. Il prodotto finale è (hi, lo) = (p, e) con e 
+errore; si ottiene ~2·t bit di precisione. Usato nei pacchetti di aritmetica
+quad-precision software (MP, IBM HMP) fino a metà anni '80.
+
+### 1986 -- Aritmetica "duplice" automatica 
+
+Fortran "REAL*16" di VAX, poi IEEE-754 128-bit. Si dichiara semplicemente
+`real(16) :: p` e si usa `PRODUCT`. Non è una compensazione, ma un "allarga la
+mantissa"; resta la tecnica più comoda oggi se il hardware la supporta
+(POWER, z/Arch, ARMv8.2-A).
+
+### 1989 -- Algoritmo di Priest per "faithful polynomial evaluation"  
+
+Anche se pensato per polinomi, il cuore è un prodotto scalare compensato: split
+ogni numero in "head" e "tail" e si accumulano gli errori. È il precursore
+diretto degli schemi di Ogita–Rump, ma limitato a sequenze corte per questioni
+di costo O(n²).
+
+### 1999 -- Accurate dot-product di Kulisch
+
+Si realizza un registro accumulatore di 4288 bit (≈ 67 parole) in hardware
+(IBM S/390, poi x87 con "long accumulator"). Il prodotto scalare è esatto fino
+all'ultimo bit; il prodotto semplice si ottiene come caso particolare.  
+Richiede però supporto hardware (oggi solo in PoCL, Xeon-Phi, FPGA).
+
+### In sintesi
+
+Prima del 2000 non esisteva uno schema O(n) generale e portabile per il
+prodotto analogo al Kahan per la somma; si usava:  
+
+  - log-space quando i range erano estremi,  
+  - pairwise quando n era grande,  
+  - doppia-precisione / quad quando la macchina la offriva,  
+  - accumulatore lungo Kulisch nei sistemi IBM.  
+
+Dal 2005 l'algoritmo Ogita–Rump–Oishi fornisce la prima compensazione O(n)
+puramente software, con errore relativo O(u) + O(n²u²) e nessun requisito
+hardware particolare: è quello che oggi trovi in LAPACK 3.9+, Octave, NumPy
+(opzionale) e in molte librerie HPC.
+

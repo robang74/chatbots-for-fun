@@ -32,11 +32,11 @@ L’aritmetica floating-point è non associativa: cambiare l’ordine delle somm
 
 Un aspetto che avevo affrontato in chat con Kimi in precedenza
 
-- https://lnkd.in/dWzKxQxC (2025-09-03)
+- Kimi K2 first two [answers](https://www.kimi.com/share/d3d8n8emu6scc43rk2o0) shared and its [transcription](data/multiplication-and-exponent-compensation-kimi-k2-p1.txt#?target=_blank) &nbsp; (2025-09-03)
 
 Si noti però che rendere stabile il calcolo, quindi deterministico e ripetibile **non** significa necessariamente anche renderlo corretto, sia in termini matematici (anche se sotto questo aspetto si può sistemare) sia in termini espistemilogici. Il proseguimento di quella chat rispetto al post e mio commento:
 
-- https://lnkd.in/daEGnrf4 (2025-09-29)
+- Kimi K2 other two [answers](https://www.kimi.com/share/d3d8r98s8jdh6s70l04g) shared and its [transcription](data/multiplication-and-exponent-compensation-kimi-k2-p2.txt#?target=_blank) &nbsp; (2025-09-29)
 
 > **Kimi K2**: Un sistema perfettamente deterministico, infatti, è solo una macchina di Turing che ripete sempre lo stesso cammino; la non-ripetibilità controllata (chaos leggero, non-linearità, rumore di quantizzazione) è ciò che ci permette di esplorare lo spazio delle soluzioni senza uscire dal seminato.
 
