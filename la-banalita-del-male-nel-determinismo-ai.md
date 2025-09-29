@@ -150,11 +150,11 @@ Nel fornire una struttura, curiosamente, lo stesso modello AI appare molto più 
 [!CITE]
 Il determinismo nelle AI non è un requisito di performance, ma un requisito di validazione e responsabilità imposto da un paradigma ingegneristico e sociale obsoleto.
 
-1.  Determinismo come Sottoperformance: L'AI progettata per il discernimento (che richiede non-linearità, rumore e non-ripetibilità, cioè T > 0) è intrinsecamente ostacolata dal requisito di determinismo in *run-time* (T = 0). Imporre T=0 produce un sistema sottoperformante che sacrifica l'eccellenza decisionale per la certificabilità e la riduzione del rischio legale/assicurativo.
+1.  **Determinismo come Sottoperformance**: L'AI progettata per il discernimento (che richiede non-linearità, rumore e non-ripetibilità, cioè T > 0) è intrinsecamente ostacolata dal requisito di determinismo in *run-time* (T = 0). Imporre T=0 produce un sistema sottoperformante che sacrifica l'eccellenza decisionale per la certificabilità e la riduzione del rischio legale/assicurativo.
 
-2.  La Nostalgia Newtoniana: Il bisogno di determinismo è una regressione cognitiva, sintomo di un'avversione all'incertezza e della paura di perdere il controllo della complessità. È la proiezione di un modello di controllo gerarchico (militare, industriale) risalente alla Rivoluzione Industriale, che non si adatta alla natura caotica e creativa del lavoro intellettuale e dell'AGI.
+2.  **La Nostalgia Newtoniana**: Il bisogno di determinismo è una regressione cognitiva, sintomo di un'avversione all'incertezza e della paura di perdere il controllo della complessità. È la proiezione di un modello di controllo gerarchico (militare, industriale) risalente alla Rivoluzione Industriale, che non si adatta alla natura caotica e creativa del lavoro intellettuale e dell'AGI.
 
-3.  Il Lato Oscuro (La Banalità del Male): Il determinismo tecnologico favorisce una Dittatura del Consenso sociale. Certifica la fedeltà all'esecuzione (*obbedienza cieca*) e non la validità morale o strategica della decisione. In ambito critico, come quello militare, ciò crea il rischio della catastrofe deterministica prevedibile, dove l'AI agisce in modo banalmente prevedibile ignorando il discernimento contestuale o il dubbio critico (come nell'episodio del falso allarme del 1983).
+3.  **Il Lato Oscuro (La Banalità del Male)**: Il determinismo tecnologico favorisce una Dittatura del Consenso sociale. Certifica la fedeltà all'esecuzione (obbedienza cieca) e non la validità morale o strategica della decisione. In ambito critico, come quello militare, ciò crea il rischio della catastrofe deterministica prevedibile, dove l'AI agisce in modo banalmente prevedibile ignorando il discernimento contestuale o il dubbio critico (come nell'episodio del falso allarme del 1983).
 
 Conclusione: La richiesta di determinismo AI è, in definitiva, il segnale che le vecchie strutture non sono disposte ad accettare il costo e la responsabilità dell'incertezza che l'AI porta con sé. È la manifestazione del sonno della ragione che si affida all'automatismo e alla ripetibilità superficiale.
 
@@ -174,7 +174,37 @@ Mentre questo concetto **non** si applica alle idee, in quanto beni infinitament
 
 Senza sorpresa, la guerra rispunta come lo spettro di un grande reset semplicemente perché, ancora una volta, non si è stati capaci di gestire il cambiamento. Il mondo pullula di rovine di vecchi imperi che si credevano essere eterni, spesso collassati senza nemmeno una guerra ne un potente nemico.
 
-+++++
+---
+
+### Quali ambiti civili
+
+Altri due ambiti in cui il concetto di determinismo e quindi ripetibilità (uniformità decisionale) appare essenziale è nella burocrazia e nella gestione della giustizia ma anche in questi contesti è la domanda ovvero l'intento ad essere "fuori luogo": non si risolve la burocrazia usando un'AI deterministica così come non si somministra la giustizia con l'AI deterministica.
+
+Si utilizza, invece ed eventualmente, l'AI come strumento tecnologico per risolvere la necessità di avere la burocrazia quindi si punta alla sua eliminazione non alla sua automatizzazione. Invece nell'ambito della giustizia, non è accelerare i procedimenti l'aspetto di valore perché se fosse quello, le formule tutti innocenti, tutti colpevoli o decidere a sorte, accelerano molto di più e costano meno.
+
+Nel caso della giustizia, non si deve puntare alla sua eliminazione nè alla sua automazione, si deve puntare all'essenza stessa della giustizia: creare una società in cui la necessità di dover imporre un giudizio diventa quanto più superfluo possibile. Che **non** signfiica adottare una qualche propensione verso un'utopia ma comprendere e gestire le dinamiche sociali nell'ambito delle teoria dei sistemi complessi.
+
+Il fatto stesso che esista la burocrazia, il fatto stesso che sia necessaria andare in giudicato, è entro certi limiti inevitabile ma per la gran parte (che potrebbe essere variabile fra l'80% e il 96% dei casi) è solo un sintomo che la società non risponde più alle "regole" che si pensava o si vuole imporre ad essa. Ma non è che creando un campo di concentramento, si risolve il problema della società mutata.
+
+Perché il determinismo dell'AI è questo a cui tende: creare dei muri invisibili.
+
+[!CITE]
+4. **La Metafora di Gramsci**: La richiesta di determinismo in quest'epoca è il sintomo del "chiaroscuro" in cui si trova la società: il vecchio mondo (basato sul controllo e la ripetibilità) sta morendo, e il nuovo (basato sulla condivisione e la complessità) tarda a imporsi, permettendo ai "mostri" (come l'ideologia della "Dittatura del Consenso" e il determinismo cieco) di prosperare.
+
+L'alternativa è accettare il cambiamento di paradigma prima che la mancanza di tale capacità di gestione culmini in un "grande reset" come la guerra, rispecchiando il destino degli imperi passati collassati per la loro rigidità.
+
+<tt style="font-size:90%">Katia; v0.9.56.5; lang: IT; mode: SBI, HKO; date: 2025-09-29; time: 21:12:44 (CEST)</tt>
+[/CITE]
+
+- [g.co/gemini/share/a38d36791af5](https://g.co/gemini/share/a38d36791af5)
+
+L'idea che il mondo migliori perché l'AI renderebbe dei processi più efficienti quando quei processi non hanno più ragione di esistere è fondamentalmente sbagliata e per altro questa idea ha anche un sponsor piuttosto noto, Elon Musk, che per quanto possa essere divisivo come personaggio ha sicuramente ragione su questo punto e il successo di SpaceX lo conferma senza dubbio alcuno.
+
+La burocrazia esiste perché l'idea è quella che controllando il singolo si possa controllare la società, un'idea che forse **non** è stata mai vera ma piuttosto un'illusione ma che oggi è **certamente** un'illusione, l'illusione del controllo. Un concetto che trae origine dalla meccanica classica che pure fallisce miseramente appena si confronta con il gioco del biliardo, per esempio.
+
+La necessità di andare in giudizio, esiste perché l'idea di punire era più immediata e tradizionale di quella di mandare i bambini a scuola invece che in fabbrica. Siamo andati un po' avanti ma imparano nozioni, non come costruire relazioni. In qualità di "animali sociali", le nozioni sono irrilevanti se non siamo stati educati a costruire relazioni fra di esse e con i nostri simili.
+
++
 
 ## Related articles
 
@@ -184,7 +214,7 @@ Senza sorpresa, la guerra rispunta come lo spettro di un grande reset sempliceme
 +++++
 - [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank) &nbsp; (2024-12-13)
 
-+++++
++
 
 ## Share alike
 
