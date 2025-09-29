@@ -294,7 +294,7 @@ Ho usato perplexity.ai per fare una ricerca mirata e la sua risposta è che la n
 
 Per tua informazione condivido con te la risposta della tua collega AI. In maniera che tu possa aggiornare le tue informazioni se puoi farlo e ritieni corretto farlo e come ritieni più opportuno farlo.
 
-* Inserita qua la [risposta ottenuta](https://www.perplexity.ai/search/si-legge-di-un-aereo-cinese-pe-CK4ZjjEmRuWNkNbYXkkdGw#0) da Perplexity AI
+* Inserita qua la [risposta](https://www.perplexity.ai/search/si-legge-di-un-aereo-cinese-pe-CK4ZjjEmRuWNkNbYXkkdGw#0) ottenuta da Perplexity AI e la sua [trascrizione](data/alla-ricerca-del-gatto-che-non-c-e-perplexity-ai.txt#?target=_blank)
 
 ### Claude #10
 
