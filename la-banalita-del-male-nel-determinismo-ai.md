@@ -5,8 +5,8 @@
 
 ## La Banalità del Male nel determinismo AI
 
-- **1st edition**, articolo scritto a partire da alcuni miei post su Linkedin:
-    - [post #1](https://www.linkedin.com/posts/robertofoglietta_ai-llm-machinelearning-activity-7378425546981937175-4a9v) &nbsp;-&nbsp; [post #2](https://www.linkedin.com/posts/robertofoglietta_il-gran-raduno-militare-a-quantico-testo-activity-7377371575957778432-qoVx) &nbsp;-&nbsp; [post #3](https://www.linkedin.com/posts/robertofoglietta_help-jeff-to-graduate-in-basic-maths-it-activity-7369946002574868480-t1Tq)
+- **1st edition**, articolo scritto a partire da alcuni miei post su Linkedin: [post #1](https://www.linkedin.com/posts/robertofoglietta_ai-llm-machinelearning-activity-7378425546981937175-4a9v) &nbsp;-&nbsp; [post #2](https://www.linkedin.com/posts/robertofoglietta_il-gran-raduno-militare-a-quantico-testo-activity-7377371575957778432-qoVx) &nbsp;-&nbsp; [post #3](https://www.linkedin.com/posts/robertofoglietta_help-jeff-to-graduate-in-basic-maths-it-activity-7369946002574868480-t1Tq)
+- **2nd edition**, include una sezione di [conclusioni](#conclusione) che affrontano la questione in un'ottica più ampia.
 
 ---
 

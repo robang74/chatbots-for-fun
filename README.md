@@ -141,7 +141,7 @@ The articles are listed here below, grouped by topic:
 <span id="uncategorised"></span>
 * **Yet uncategorised articles** &nbsp; (17 pz.)
 
-   - 2025-09-29 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/la-banalita-del-male-nel-determinismo-ai.md)] - [La Banalità del Male nel determinismo AI](la-banalita-del-male-nel-determinismo-ai.md)
+   - 2025-09-29 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/la-banalita-del-male-nel-determinismo-ai.md)] - [La Banalità del Male nel determinismo AI](la-banalita-del-male-nel-determinismo-ai.md) &nbsp; (2nd edt.)
 
    - 2025-07-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-human-knowledge-opinions-katia-module.md)] - [Human knowledge and opinions challenge](the-human-knowledge-opinions-katia-module.md) &nbsp; (4th edt.)
 
