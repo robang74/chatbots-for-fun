@@ -49,7 +49,7 @@ Like [A tragedy in the world of ufology!](https://robang74.github.io/roberto-a-f
 
 Fear-mongers were pointing out that the AI evolution would have soon reached the singularity, instead we [discovered](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) that we are still very far from AGI. While, essentially, we are chatting with an artificial version of our intestine but much more instructed, educated and rational than many humans therefore capable of doing various jobs which are [mediocrely](il-problema-sei-tu-non-l-AI.md#?target=_blank) performed by humans, nowadays.
 
-- Gemini's opinion about the artificial enteric intelligence, [dialogue](https://g.co/gemini/share/8174298b52cd) and [transcription](../../roberto-a-foglietta/data/320-ragionare-non-e-come-fare-la-cacca-risata.txt#?target=_blank).
+- Gemini's opinion about the artificial enteric intelligence, [dialogue](https://g.co/gemini/share/8174298b52cd) and its [transcription](../../roberto-a-foglietta/data/320-ragionare-non-e-come-fare-la-cacca-risata.txt#?target=_blank).
 
 Under this analogy (Poop-as-a-Service), the food which is going to be digested by the AI is the human encyclopedic knowledge and our culture, while the final answer will be pooped out on-demand! {lol}
 
@@ -75,6 +75,8 @@ Long story short: Apple researchers "illusion of thinking" are right while Anthr
 
 In fact, from the Anthropic researchers' [paper](https://arxiv.org/html/2506.09250v1):
 
+- The Illusion of the Illusion of Thinking A Comment on Shojaee et al. (2025)
+
 [!CITE]
 **Alternative Representations Restore Performance**
 
@@ -97,15 +99,15 @@ Let me explain this with an example which is easy to grasp for everyone. A libra
 
 - [Ragionare non è come fare la cacca!](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) &nbsp; (2025-06-08)
 
-- [Pensiero e opera nell'era dell'AI](310-pensiero-e-opera-nell-era-dell-ai.md#?target=_blank) &nbsp; (2025-04-29)
+- [Pensiero e opera nell'era dell'AI](https://robang74.github.io/roberto-a-foglietta/html/310-pensiero-e-opera-nell-era-dell-ai.html) &nbsp; (2025-04-29)
 
 - [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md#?target=_blank) &nbsp; (2025-01-04)
 
-- [Dammi sei parole a caso](https://robang74.github.io/chatbots-for-fun/html/dammi-sei-parole-a-caso.md#?target=_blank) &nbsp; (22024-12-25)
+- [Dammi sei parole a caso](dammi-sei-parole-a-caso.md#?target=_blank) &nbsp; (22024-12-25)
 
 - [Alla ricerca del gatto che non c'è](alla-ricerca-del-gatto-che-non-c-e.md#?target=_blank) &nbsp; (2024-12-22)
 
-- [Il problema sei tu non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank) &nbsp; (2024-12-13)
+- [Il problema sei tu non l'AI](./il-problema-sei-tu-non-l-AI.html#?target=_blank) &nbsp; (2024-12-13)
 
 - [Artificial Intelligence for education](https://robang74.github.io/chatgpt-answered-prompts/html/artificial-intellige-for-education.html) &nbsp; (2024-11-29)
 
