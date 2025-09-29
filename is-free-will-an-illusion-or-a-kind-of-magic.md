@@ -38,7 +38,7 @@ At the ending of conversation (prompts at rows: 1522, 1621, 1705, 1809), I have 
 
 ...
 
-For exercise, try to repeat the chat but characterising the session with the [SoNia](data/sonia-argumentative-with-rag-v3.txt#?target=_blank) (v3.5.3, at the time of writing) which is 2nd level argumentative session prompt, as explained [here](ai-session-prompts-with-rag-v3.md#?target=_blank).
+For exercise, try to repeat the chat but characterising the session with the SoNia[v3.5.3](https://raw.githubusercontent.com/robang74/chatbots-for-fun/6faa3e859e01903a546c9eee813d1cc3f7b1ad10/data/sonia-argumentative-w-rag-v3.txt) (at the time of writing) which is 2nd level argumentative session prompt, as explained [here](ai-session-prompts-with-rag-v3.md#?target=_blank).
 
 Please, share and let me know the outcome, if any different, apart from the way in which the chatbot sustains the debate. This can be an example of free-will (different characters) who are facing the same challenge and inevitably end up to the same conclusion. If you like, challenge others chatbots, as well.
 
