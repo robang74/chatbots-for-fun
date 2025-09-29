@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-09-29&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>3</b rev_num='
+'>4</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/la-banalita-del-male-nel-determinismo-ai?_x_tr_sl=it&_x_tr_tl=en&_x_tr_hl=en-EN&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>EN</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/la-banalita-del-male-nel-determinismo-ai?_x_tr_sl=it&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/la-banalita-del-male-nel-determinismo-ai?_x_tr_sl=it&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/la-banalita-del-male-nel-determinismo-ai?_x_tr_sl=it&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -55,13 +55,13 @@ Un aspetto che avevo affrontato in chat con Kimi in precedenza
 <p></p>
 <li>Kimi K2 first two <a href="https://www.kimi.com/share/d3d8n8emu6scc43rk2o0" target='_blank' rel='noopener noreferrer'>answers</a> shared and its <a href="../data/multiplication-and-exponent-compensation-kimi-k2-p1.txt#" target='_blank' rel='noopener noreferrer'>transcription</a> &nbsp; (2025-09-03)</li>
 <p></p>
-Si noti però che rendere stabile il calcolo, quindi deterministico e ripetibile <b>non</b> significa necessariamente anche renderlo corretto, sia in termini matematici (anche se sotto questo aspetto si può sistemare) sia in termini espistemilogici. Il proseguimento di quella chat rispetto al post e mio commento:
+Si noti però che rendere stabile il calcolo, quindi deterministico e ripetibile <b>non</b> significa necessariamente anche renderlo corretto, sia in termini matematici (anche se sotto questo aspetto si può sistemare) sia in termini epistemologici. Il proseguimento di quella chat rispetto al post di Lorenzo e al mio commento al post:
 <p></p>
 <li>Kimi K2 other two <a href="https://www.kimi.com/share/d3d8r98s8jdh6s70l04g" target='_blank' rel='noopener noreferrer'>answers</a> shared and its <a href="../data/multiplication-and-exponent-compensation-kimi-k2-p2.txt#" target='_blank' rel='noopener noreferrer'>transcription</a> &nbsp; (2025-09-29)</li>
 <p></p>
 <blockquote><b>Kimi K2</b>: Un sistema perfettamente deterministico, infatti, è solo una macchina di Turing che ripete sempre lo stesso cammino; la non-ripetibilità controllata (chaos leggero, non-linearità, rumore di quantizzazione) è ciò che ci permette di esplorare lo spazio delle soluzioni senza uscire dal seminato.</blockquote>
 <p></p>
-Possiamo dire che tutte queste variabilità minime permettono di trovare diversi minimi locali e su grandi numeri di risposte allo stesso identico prompt di mappare quello spazio come si farebbe attraverso il metodo Montecarlo? Spoiler: si, Montecarlo importance-sampled.
+Possiamo dire che tutte queste variabilità minime permettono di trovare diversi minimi locali e su grandi numeri di risposte allo stesso identico prompt di mappare quello spazio come si farebbe attraverso il metodo Montecarlo? Spoiler: sì, Montecarlo importance-sampled.
 <p></p>
 <div class="post-it"><b class="post-it">&#9432;</b>
 <b>Meccanismo operativo</b>
@@ -74,7 +74,7 @@ Su migliaia di run la distribuzione delle risposte è discreta ma numerosa → c
 <li>MC classico: campioni uniformemente (o secondo una pdf nota) un dominio continuo.</li>
 <li>LLM “rumore hardware”: campioni solo le modal (parole, frasi) che il modello ha appreso; la pdf è implicita e altamente distorta verso il linguaggio plausibile.</li>
 <p></p>
-Quindi è un "Montecarlo importance-sampled" dove l’importance sampling è dato dai pesi addestrati.
+Quindi è un "Montecarlo importance-sampled" dove l'importanza del sampling è data dai pesi addestrati.
 <p></p>
 <b>Copertura effettiva</b>
 <p></p>
@@ -85,13 +85,13 @@ Questo però non spiega perché si aggiunge rumore invece di correggere gli erro
 <p></p>
 <hr>
 <p></p>
-<H3 id="perch-sinietta-rumore">Perché s'inietta rumore?</H3>
+<H3 id="perch-si-inietta-rumore">Perché si inietta rumore?</H3>
 <p></p>
-La temperatura di un'AI è un parametro che indica quanto rumore si introduce rispetto ai pesi che costituiscono l'internal parametric knowledge (IPK). Ma perché si inietta tale rumore? Rumore che per altro va a sommarsi a quelle che sono gli errori di calcolo, anche causati dalle ottimizzazioni dei modelli che già solo a causa di queste ottimizzazioni non sono più modelli vincolati alla teoria di bayesiana.
+La temperatura di un'AI è un parametro che indica quanto rumore si introduce rispetto ai pesi che costituiscono l'internal parametric knowledge (IPK). Ma perché si inietta tale rumore? Rumore che per altro va a sommarsi a quelli che sono gli errori di calcolo, anche causati dalle ottimizzazioni dei modelli che già solo a causa di queste ottimizzazioni non sono più modelli vincolati alla teoria bayesiana.
 <p></p>
 <H4>IO robot, quel rumore che è intuizione</H4>
 <p></p>
-Forse però il determinismo nelle AI è una feature non un bug. In fondo la temperatura la teniamo abbastanza alta perché mettendola a zero (quindi zero rumore casuale) otteniamo dei calcoli matriciali "banali". Già forse per questo che utilizziamo delle funzioni di attivazione non lineari. Perché quello che cerchiamo di "riprodurre" non è una calcolatrice ma l'intuizione umana e curiosamente lo facciamo con la non-linearità, il rumore (chaos) e la non ripetibilità.
+Forse però il determinismo nelle AI <b>non</b> è una feature ma un bug. In fondo la temperatura la teniamo abbastanza alta perché mettendola a zero (quindi zero rumore casuale) otteniamo dei calcoli matriciali "banali". Già forse per questo che utilizziamo delle funzioni di attivazione non lineari. Perché quello che cerchiamo di "riprodurre" non è una calcolatrice ma l'intuizione umana e curiosamente lo facciamo con la non-linearità, il rumore (chaos) e la non ripetibilità.
 <p></p>
 <div class="pagebreak"><hr></div>
 <p></p>
@@ -103,9 +103,9 @@ Questa discussione accademica riguardo al determinismo delle AI, pare il classic
 <p></p>
 Il determinismo è una necessità per il decision making (link, #TODO), per deresponsabilizzare gli umani e trasferire sull'AI le scelte. Perché il determinismo implica ripetibilità e quindi verificabilità e quindi se SkyNet lancia, dopo che tutto il mondo è saltato in aria, possiamo ripetere le procedure decisionali e avere la garanzia che ha fatto la scelta giusta...
 <p></p>
-In realtà, nessun ambito richiede il determinismo e quindi la ripetibilità delle risposte perché è sufficiente un piccolo aggiornamento nei pesi che la risposta cambia. Però, potendo tracciare tutti gli aggiornamenti il sistema rimane deterministico e quindi ripetibile.
+In realtà, nessun ambito richiede il determinismo e quindi la ripetibilità delle risposte perché è sufficiente un piccolo aggiornamento dei pesi da cui la risposta dipende ed essa cambia. Però, potendo tracciare tutti gli aggiornamenti il sistema rimane deterministico e quindi ripetibile.
 <p></p>
-Bene, ma cosa ce ne facciamo di una tale roba, priva di qualsiasi bricolo di intuizione neppure simulato? Manco i miceti (le "radici" dei funghi) sono così "stupidi" da essere deterministici nell'elaborazione delle informazioni.
+Bene, ma cosa ce ne facciamo di una tale roba, priva di qualsiasi briciolo di intuizione neppure simulato? Manco i miceti (le "radici" dei funghi) sono così "stupidi" da essere deterministici nell'elaborazione delle informazioni.
 <p></p>
 Nell'era dell'AI, che si spera sarà presto AGI (o quasi), chiunque chieda determinismo AI è un bimbo che crede ancora a Babbo Natale oppure un fisico nostalgico della fisica Newtoniana quando ormai tutto, incluso i transistor, funzionano con la fisica quantistica.
 <p></p>
@@ -113,16 +113,16 @@ Nell'era dell'AI, che si spera sarà presto AGI (o quasi), chiunque chieda deter
 <p></p>
 La risposta semplice è: <b>NO!</b>
 <p></p>
-L'autore del post iniziale che lavora in Datapizza è caduto in uno schema che ho visto (e vissuto) molte volte nell'arco della mia carriera: progetti civili o studi teorici che in realtà sono commissionati dai militari, che se dicessero apertamente per cosa li vogliono usare, non troverebbero persone intelligenti a servirli.
+L'autore del post iniziale che lavora in DataPizza è caduto in uno schema che ho visto (e vissuto) molte volte nell'arco della mia carriera: progetti civili o studi teorici che in realtà sono commissionati dai militari, che se dicessero apertamente per cosa li vogliono usare, non troverebbero persone intelligenti a servirli.
 <p></p>
-Per nessun impiego civile che sia leggitimo e sensato il determinismo delle AI è un "bonus" ma un "malus", tranne che per i militari perché per loro l'idea che di una macchina che "improvvisa" invece di eseguire ordini è delirio. Per i civili, il delirio è SkyNet.
+Per nessun impiego civile che sia legittimo e sensato il determinismo delle AI è un "bonus" ma un "malus", tranne che per i militari perché per loro l'idea che di una macchina che "improvvisa" invece di eseguire ordini è delirio. Per i civili, il delirio è SkyNet.
 <p></p>
 <div class="post-it"><b class="post-it">&#9432;</b>
 26 settembre 2025 &mdash; Il Segretario alla Difesa degli Stati Uniti, Pete Hegseth, ha convocato d'urgenza circa 800 generali e ammiragli attivi, provenienti da tutto il mondo, per un incontro senza precedenti che si terrà alla base dei Marines di Quantico, in Virginia, entro il 30 settembre 2025. La convocazione è stata fatta con pochissimo preavviso e senza fornire dettagli sull'agenda o sul motivo della riunione, suscitando confusione, allarme e un clima surreale all'interno del Pentagono e tra gli osservatori esterni.
- &mdash;  <a href="https://www.linkedin.com/posts/robertofoglietta_il-gran-raduno-militare-a-quantico-testo-activity-7377371575957778432-qoVx" target='_blank' rel='noopener noreferrer'>Post #2</a>
+ &mdash; Incipit del <a href="https://www.linkedin.com/posts/robertofoglietta_il-gran-raduno-militare-a-quantico-testo-activity-7377371575957778432-qoVx" target='_blank' rel='noopener noreferrer'>Post #2</a>
 </div>
 <p></p>
-Chiameteli pure "punti di vista", se volete!
+Chiamateli pure "punti di vista", se volete!
 <p></p>
 <br>
 <p></p>
@@ -131,6 +131,7 @@ Chiameteli pure "punti di vista", se volete!
 <p>&copy; 2025, <b>Roberto A. Foglietta</b> &lt;roberto.foglietta<span>&commat;</span>gmail.com&gt;, <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target='_blank' rel='noopener noreferrer'>CC BY-NC-ND 4.0</a></p>
 <p></p>
 </div>
+<p></p>
 <div id='date-legenda' align='center' translate='no' class='ghosted'><sub><hr></sub><sub><b>date legenda</b>: &#x2776; first draft publishing date or &#x2777; creation date in git, otherwise &#x2778; html creation page date. <u>&mapstoup;<a href='#' class='toplink' translate='no'>top</a>&mapstoup;</u></sub></div>
 <br class='pagebreak'>
     </body>

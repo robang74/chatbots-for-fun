@@ -34,13 +34,13 @@ Un aspetto che avevo affrontato in chat con Kimi in precedenza
 
 - Kimi K2 first two [answers](https://www.kimi.com/share/d3d8n8emu6scc43rk2o0) shared and its [transcription](data/multiplication-and-exponent-compensation-kimi-k2-p1.txt#?target=_blank) &nbsp; (2025-09-03)
 
-Si noti però che rendere stabile il calcolo, quindi deterministico e ripetibile **non** significa necessariamente anche renderlo corretto, sia in termini matematici (anche se sotto questo aspetto si può sistemare) sia in termini espistemilogici. Il proseguimento di quella chat rispetto al post e mio commento:
+Si noti però che rendere stabile il calcolo, quindi deterministico e ripetibile **non** significa necessariamente anche renderlo corretto, sia in termini matematici (anche se sotto questo aspetto si può sistemare) sia in termini epistemologici. Il proseguimento di quella chat rispetto al post di Lorenzo e al mio commento al post:
 
 - Kimi K2 other two [answers](https://www.kimi.com/share/d3d8r98s8jdh6s70l04g) shared and its [transcription](data/multiplication-and-exponent-compensation-kimi-k2-p2.txt#?target=_blank) &nbsp; (2025-09-29)
 
 > **Kimi K2**: Un sistema perfettamente deterministico, infatti, è solo una macchina di Turing che ripete sempre lo stesso cammino; la non-ripetibilità controllata (chaos leggero, non-linearità, rumore di quantizzazione) è ciò che ci permette di esplorare lo spazio delle soluzioni senza uscire dal seminato.
 
-Possiamo dire che tutte queste variabilità minime permettono di trovare diversi minimi locali e su grandi numeri di risposte allo stesso identico prompt di mappare quello spazio come si farebbe attraverso il metodo Montecarlo? Spoiler: si, Montecarlo importance-sampled.
+Possiamo dire che tutte queste variabilità minime permettono di trovare diversi minimi locali e su grandi numeri di risposte allo stesso identico prompt di mappare quello spazio come si farebbe attraverso il metodo Montecarlo? Spoiler: sì, Montecarlo importance-sampled.
 
 [!INFO]
 **Meccanismo operativo**
@@ -53,7 +53,7 @@ Su migliaia di run la distribuzione delle risposte è discreta ma numerosa → c
 - MC classico: campioni uniformemente (o secondo una pdf nota) un dominio continuo.
 - LLM “rumore hardware”: campioni solo le modal (parole, frasi) che il modello ha appreso; la pdf è implicita e altamente distorta verso il linguaggio plausibile.
 
-Quindi è un "Montecarlo importance-sampled" dove l’importance sampling è dato dai pesi addestrati.
+Quindi è un "Montecarlo importance-sampled" dove l'importanza del sampling è data dai pesi addestrati.
 
 **Copertura effettiva**
 
@@ -64,13 +64,13 @@ Questo però non spiega perché si aggiunge rumore invece di correggere gli erro
 
 ---
 
-### Perché s'inietta rumore?
+### Perché si inietta rumore?
 
-La temperatura di un'AI è un parametro che indica quanto rumore si introduce rispetto ai pesi che costituiscono l'internal parametric knowledge (IPK). Ma perché si inietta tale rumore? Rumore che per altro va a sommarsi a quelle che sono gli errori di calcolo, anche causati dalle ottimizzazioni dei modelli che già solo a causa di queste ottimizzazioni non sono più modelli vincolati alla teoria di bayesiana.
+La temperatura di un'AI è un parametro che indica quanto rumore si introduce rispetto ai pesi che costituiscono l'internal parametric knowledge (IPK). Ma perché si inietta tale rumore? Rumore che per altro va a sommarsi a quelli che sono gli errori di calcolo, anche causati dalle ottimizzazioni dei modelli che già solo a causa di queste ottimizzazioni non sono più modelli vincolati alla teoria bayesiana.
 
 #### IO robot, quel rumore che è intuizione
 
-Forse però il determinismo nelle AI è una feature non un bug. In fondo la temperatura la teniamo abbastanza alta perché mettendola a zero (quindi zero rumore casuale) otteniamo dei calcoli matriciali "banali". Già forse per questo che utilizziamo delle funzioni di attivazione non lineari. Perché quello che cerchiamo di "riprodurre" non è una calcolatrice ma l'intuizione umana e curiosamente lo facciamo con la non-linearità, il rumore (chaos) e la non ripetibilità.
+Forse però il determinismo nelle AI **non** è una feature ma un bug. In fondo la temperatura la teniamo abbastanza alta perché mettendola a zero (quindi zero rumore casuale) otteniamo dei calcoli matriciali "banali". Già forse per questo che utilizziamo delle funzioni di attivazione non lineari. Perché quello che cerchiamo di "riprodurre" non è una calcolatrice ma l'intuizione umana e curiosamente lo facciamo con la non-linearità, il rumore (chaos) e la non ripetibilità.
 
 ----
 
@@ -82,9 +82,9 @@ Questa discussione accademica riguardo al determinismo delle AI, pare il classic
 
 Il determinismo è una necessità per il decision making (link, #TODO), per deresponsabilizzare gli umani e trasferire sull'AI le scelte. Perché il determinismo implica ripetibilità e quindi verificabilità e quindi se SkyNet lancia, dopo che tutto il mondo è saltato in aria, possiamo ripetere le procedure decisionali e avere la garanzia che ha fatto la scelta giusta...
 
-In realtà, nessun ambito richiede il determinismo e quindi la ripetibilità delle risposte perché è sufficiente un piccolo aggiornamento nei pesi che la risposta cambia. Però, potendo tracciare tutti gli aggiornamenti il sistema rimane deterministico e quindi ripetibile.
+In realtà, nessun ambito richiede il determinismo e quindi la ripetibilità delle risposte perché è sufficiente un piccolo aggiornamento dei pesi da cui la risposta dipende ed essa cambia. Però, potendo tracciare tutti gli aggiornamenti il sistema rimane deterministico e quindi ripetibile.
 
-Bene, ma cosa ce ne facciamo di una tale roba, priva di qualsiasi bricolo di intuizione neppure simulato? Manco i miceti (le "radici" dei funghi) sono così "stupidi" da essere deterministici nell'elaborazione delle informazioni.
+Bene, ma cosa ce ne facciamo di una tale roba, priva di qualsiasi briciolo di intuizione neppure simulato? Manco i miceti (le "radici" dei funghi) sono così "stupidi" da essere deterministici nell'elaborazione delle informazioni.
 
 Nell'era dell'AI, che si spera sarà presto AGI (o quasi), chiunque chieda determinismo AI è un bimbo che crede ancora a Babbo Natale oppure un fisico nostalgico della fisica Newtoniana quando ormai tutto, incluso i transistor, funzionano con la fisica quantistica.
 
@@ -92,16 +92,16 @@ Nell'era dell'AI, che si spera sarà presto AGI (o quasi), chiunque chieda deter
 
 La risposta semplice è: **NO!**
 
-L'autore del post iniziale che lavora in Datapizza è caduto in uno schema che ho visto (e vissuto) molte volte nell'arco della mia carriera: progetti civili o studi teorici che in realtà sono commissionati dai militari, che se dicessero apertamente per cosa li vogliono usare, non troverebbero persone intelligenti a servirli.
+L'autore del post iniziale che lavora in DataPizza è caduto in uno schema che ho visto (e vissuto) molte volte nell'arco della mia carriera: progetti civili o studi teorici che in realtà sono commissionati dai militari, che se dicessero apertamente per cosa li vogliono usare, non troverebbero persone intelligenti a servirli.
 
-Per nessun impiego civile che sia leggitimo e sensato il determinismo delle AI è un "bonus" ma un "malus", tranne che per i militari perché per loro l'idea che di una macchina che "improvvisa" invece di eseguire ordini è delirio. Per i civili, il delirio è SkyNet.
+Per nessun impiego civile che sia legittimo e sensato il determinismo delle AI è un "bonus" ma un "malus", tranne che per i militari perché per loro l'idea che di una macchina che "improvvisa" invece di eseguire ordini è delirio. Per i civili, il delirio è SkyNet.
 
 [!INFO]
 26 settembre 2025 -- Il Segretario alla Difesa degli Stati Uniti, Pete Hegseth, ha convocato d'urgenza circa 800 generali e ammiragli attivi, provenienti da tutto il mondo, per un incontro senza precedenti che si terrà alla base dei Marines di Quantico, in Virginia, entro il 30 settembre 2025. La convocazione è stata fatta con pochissimo preavviso e senza fornire dettagli sull'agenda o sul motivo della riunione, suscitando confusione, allarme e un clima surreale all'interno del Pentagono e tra gli osservatori esterni.
- --  [Post #2](https://www.linkedin.com/posts/robertofoglietta_il-gran-raduno-militare-a-quantico-testo-activity-7377371575957778432-qoVx)
+ -- Incipit del [Post #2](https://www.linkedin.com/posts/robertofoglietta_il-gran-raduno-militare-a-quantico-testo-activity-7377371575957778432-qoVx)
 [/INFO]
 
-Chiameteli pure "punti di vista", se volete!
+Chiamateli pure "punti di vista", se volete!
 
 +
 
@@ -110,3 +110,4 @@ Chiameteli pure "punti di vista", se volete!
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
+
