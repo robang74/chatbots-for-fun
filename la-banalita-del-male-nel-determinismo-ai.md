@@ -106,19 +106,19 @@ Per nessun impiego civile che sia legittimo e sensato il determinismo delle AI �
 Chiamateli pure "punti di vista", se volete!
 
 ---
-
-### Solo Kimi K2 è arrivato vicono a capire
+<span id="#solo-kimi-k2--arrivato-vicono-a-capire"></span>
+### Compredere Arendt non è banale
 
 Ho fornito in input il testo di questo [post](https://www.linkedin.com/posts/robertofoglietta_la-banalit%C3%A0-del-male-nel-determinismo-ai-activity-7378476321393434624-hk5c), che introduce e riassume l'articolo tramite un cherry-picking dei passaggi più significativi, a quattro chatbot: 
 
-- [ChatGPT 5](https://chatgpt.com/share/68dac7d6-0d28-8012-8e0a-0f0471350013), &nbsp; [x/Grok 4](https://chatgpt.com/share/68dac7d6-0d28-8012-8e0a-0f0471350013), Gemini 2.5 [Flash](https://g.co/gemini/share/75bdc98e9511) &nbsp; e anche &nbsp; [Pro](https://g.co/gemini/share/159deefc6049), &nbsp; [Kimi K2](Click the link to view conversation with Kimi AI Assistant https://www.kimi.com/share/d3dcheol3dccogue4p20).
+- [ChatGPT 5](https://chatgpt.com/share/68dac7d6-0d28-8012-8e0a-0f0471350013), &nbsp; [x/Grok 4](https://chatgpt.com/share/68dac7d6-0d28-8012-8e0a-0f0471350013), &nbsp; Gemini 2.5 [Flash](https://g.co/gemini/share/75bdc98e9511) e [Pro](https://g.co/gemini/share/159deefc6049), &nbsp; [Kimi K2](https://www.kimi.com/share/d3dcheol3dccogue4p20), &nbsp; Claude [Opus 4.1](https://claude.ai/share/96e32484-c15a-4a63-b8ef-2017d924f60c) e [Sonnet 4.5](https://claude.ai/share/8255f105-9087-4a65-a377-c99f4364e8b8).
 
-Solo quest'ultimo è arrivato ad includere qualcosa nella risposta che faccia pensare a un barlume di comprensione.
+Solo due modelli sono arrivati a rispondere qualcosa che faccia pensare a un barlume di comprensione.
 
 [!CITE]
-**Conclusione: la banalità del male è T=0**
+Arendt parlava di Eichmann come *uomo incapace di pensare*. Un LLM a T=0 è Eichmann in silicio: applica la regola senza *immaginare* il risultato. Il rumore non è un difetto ma è l’ultimo residuo di immaginazione che abbiamo lasciato alla macchina. Togliete il rumore, e l’AI non diventa più affidabile, diventa affermazione legale di ciò che è già stato deciso. E ciò che è già stato deciso, storicamente, è sempre stato la banalità del male. -- **Kimi K2**
 
-Arendt parlava di Eichmann come *uomo incapace di pensare*. Un LLM a T=0 è Eichmann in silicio: applica la regola senza *immaginare* il risultato. Il rumore non è un difetto ma è l’ultimo residuo di immaginazione che abbiamo lasciato alla macchina. Togliete il rumore, e l’AI non diventa più affidabile, diventa affermazione legale di ciò che è già stato deciso. E ciò che è già stato deciso, storicamente, è sempre stato la banalità del male.
+Hannah Arendt osservò che il male può essere banale proprio perché non richiede pensiero critico - solo obbedienza meccanica. Un'AI perfettamente deterministica, che esegue sempre la stessa azione data la stessa situazione, è forse più pericolosa di una che introduce "rumore" - perché quel rumore è ciò che assomiglia di più al dubbio, alla riflessione, all'esitazione. -- **Claude Sonnet 4.5**
 [/CITE]
 
 Quindi la seguente spiegazione è stata fornita come secondo prompt, qui di seguito riportata un po' meglio articolata della prima versione.
@@ -129,7 +129,7 @@ La "Banalità del Male" nel senso del libro (così intitolato) sta nel fatto che
 
 ## Conclusione
 
-Il fatto che solo uno di cinque modelli sia riuscito a stabilire una connessione fra il titolo della presentazione di questo articolo e il libro di Hannah Arendt è un fatto eclatante perché quel libro come **molti** altri **non** sono stati letti e talvolta nemmeno compresi nella loro profondità da molti esseri umani. Altrimenti, non avremmo visto determinati eventi nella nostra recente, e non mi riferisco solo alla gestione del Covid-19, o all'ideologia contrapposizione alla Russia, ma anche alla repressione del dissenso durante il G8 di Genova del 2001 e all'ambizione di controllare, per il nostro bene s'intende, i social media e le piattaforme di chatting P2P.
+Il fatto che solo due di sette modelli siano riusciti a stabilire una connessione significativa fra il titolo della presentazione di questo articolo e il libro di Hannah Arendt è un fatto eclatante perché quel libro come **molti** altri **non** sono stati letti e talvolta nemmeno compresi nella loro profondità da molti esseri umani. Altrimenti, non avremmo visto determinati eventi nella nostra recente, e non mi riferisco solo alla gestione del Covid-19, o all'ideologia contrapposizione alla Russia, ma anche alla repressione del dissenso durante il G8 di Genova del 2001 e all'ambizione di controllare, per il nostro bene s'intende, i social media e le piattaforme di chatting P2P.
 
 Il determinismo delle AI è solo un altro passo, inquietante, verso la direzione che la ripetibilità (così come l'echo chamber, il pensiero unico corale) siano per loro stessa natura "buoni" o "utili" e qualsiasi deviazione (o disubbidienza, o dubbio critico) sia all'opposto per sua natura qualcosa di "cattivo" o "inutile". Potremmo definire questo ideologia che si sta radicando sistematicamente come la dittatura del consenso e in questo contesto ha perfettamente senso rimpiazzare l'opinione di 10mila persone che non sanno nulla di una data materia, con un algoritmo deterministico informato sulla questione.
 
@@ -214,11 +214,9 @@ La necessità di andare in giudizio, esiste perché l'idea di punire era più im
 +++++
 - [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank) &nbsp; (2024-12-13)
 
-+
++++++
 
 ## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-
 </div>
-
