@@ -143,7 +143,7 @@ Questo non è un fallimento dell'etica, ma piuttosto:
 
 L'alternativa è quella di accettare che l'AI è un prodotto tecnologico del nostro tempo in cui la complessità della meccanica quantistica con i suoi stati sovrapposti `A` o `B` ma **non** `C` evade dal modello rigido e deterministico che è ancora retaggio della Rivoluzione Industriale dove il valore dell'azione risiedeva nel numero di bulloni fissati in un ora di lavoro.
 
-Oggi, nella società dell'informazione e telecomunicazione, il cazzeggio è l'essenza della creatività e come esempio di questo modello si rinuncia alla ripetibilità in funzione di strutture di pensiero, come il prompt SoNia e in particolare il modulo "Human Knowledge and Opinions" `[HKO]` che **non** lo scopo di creare una ripetibilità ma di fornire una struttura all'informazione.
+Oggi, nella società dell'informazione e telecomunicazione, il cazzeggio è l'essenza della creatività e come esempio di questo modello si rinuncia alla ripetibilità in funzione di strutture di pensiero, come il prompt Katia e in particolare il modulo "Human Knowledge and Opinions" `[HKO]` che **non** lo scopo di creare una ripetibilità ma di fornire una struttura all'informazione.
 
 Nel fornire una struttura, curiosamente, lo stesso modello AI appare molto più intelligente e persino più capace di comprendere aspetti e opinioni che sono in contrasto con il suo output iniziale. Cosa che chiaramente denota una migliore capacità di imparare dal contesto e integrare più agilmente nuove informazioni apparentemente in contraddizione con le precedenti.
 
@@ -161,7 +161,7 @@ Conclusione: La richiesta di determinismo AI è, in definitiva, il segnale che l
 <tt style="font-size:90%">Katia; v0.9.56.5; lang: IT; mode: SBI, HKO; date: 2025-09-29; time: 21:12:05 (CEST)</tt>
 [/CITE]
 
-- [g.co/gemini/share/a068aaabe4c4](https://g.co/gemini/share/a068aaabe4c4)
+- [g.co/gemini/share/a068aaabe4c4](https://g.co/gemini/share/a068aaabe4c4) e sua [trascrizione](data/la-banalita-del-male-nel-determinismo-ai-katia-p1.txt#?target=_blank)
 
 Anche da questo punto di vista, la conclusione è analoga alla precedente, cambia solo la citazione:
 
@@ -196,7 +196,7 @@ L'alternativa è accettare il cambiamento di paradigma prima che la mancanza di 
 <tt style="font-size:90%">Katia; v0.9.56.5; lang: IT; mode: SBI, HKO; date: 2025-09-29; time: 21:12:44 (CEST)</tt>
 [/CITE]
 
-- [g.co/gemini/share/a38d36791af5](https://g.co/gemini/share/a38d36791af5)
+- [g.co/gemini/share/a38d36791af5](https://g.co/gemini/share/a38d36791af5) e sua [trascrizione](data/la-banalita-del-male-nel-determinismo-ai-katia-p2.txt#?target=_blank)
 
 L'idea che il mondo migliori perché l'AI renderebbe dei processi più efficienti quando quei processi non hanno più ragione di esistere è fondamentalmente sbagliata e per altro questa idea ha anche un sponsor piuttosto noto, Elon Musk, che per quanto possa essere divisivo come personaggio ha sicuramente ragione su questo punto e il successo di SpaceX lo conferma senza dubbio alcuno.
 
