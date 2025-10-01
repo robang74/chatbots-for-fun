@@ -215,7 +215,7 @@ Da un punto di vista "software" il "problema" delle AI deterministiche è stato 
 
 La necessità di iniettare rumore serve per evitare, nella ricerca del minimo della funzione di fermarsi in un minimo locale (fornire una risposta poco significativa, artefatto) analogamente al metodo Montecarlo (in certe sue applicazioni). Questo implica che le ottimizzazioni possono trascurare l'assoluta precisione del calcolo e addirittura il nuovo hardware Nvidia può lavorare con una precisione a 4bit in float point.
 
-- La [chat](https://g.co/gemini/share/0150e9efd9af) con Gemini su: [1.](#TODO) verifica informazioni, [2.](#TODO) low-power quantised NN training e [3.](#TODO) deternismo AI.
+- La [chat](https://g.co/gemini/share/0150e9efd9af) con Gemini su: [1.](data/la-banalita-del-male-nel-determinismo-ai-gemini.txt#:~:text=In%20questo%20testo%20ci%20sono%20errori%20significativi?target=_blank) verifica informazioni, [2.](data/la-banalita-del-male-nel-determinismo-ai-gemini.txt#:~:text=Comunque%20l%27addestramento%20dei%20modelli%20%C3%A8%20sempre%20fatto?target=_blank) low-power quantised NN training e [3.](data/la-banalita-del-male-nel-determinismo-ai-gemini.txt#:~:text=Il%20che%20ci%20porta%20pi%C3%B9%20vicini%20a%20coloro%20che%20sperano%20che%20il%20determinismo%20delle%20AI?target=_blank) deternismo AI.
 
 ---
 

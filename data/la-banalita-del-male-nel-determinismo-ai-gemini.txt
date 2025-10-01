@@ -335,7 +335,7 @@ In sintesi: La precisione numerica (pur se ridotta) è ancora cruciale per la
 convergenza matematica dell'ottimizzatore, anche se l'esecuzione avviene in
 gran parte in formati a 16-bit per motivi di efficienza.
 
--- AI --------------------------------------------------------------------------
+-- HO --------------------------------------------------------------------------
 
 Comunque l'addestramento dei modelli è sempre fatto in "cloud" non direttamente
 sui dispositivi mobili o embedded. Quindi l'uso misto delle precisioni rimane
@@ -544,7 +544,7 @@ eseguono una SVD (Singular Value Decomposition) o PCA (Principal Component
 Analysis). Una vera rete neurale profonda e utile deve essere asimmetrica per
 imparare la direzione del flusso di informazione e i pattern complessi.
 
--- AI --------------------------------------------------------------------------
+-- HO --------------------------------------------------------------------------
 
 Ok. mi sono espresso male. Le funzioni di attivazione erano solo nello strato
 di output. Ma questo implica che la differenza fra risposta e attesa NON poteva
@@ -695,7 +695,7 @@ dei dati possono offrire un vantaggio in termini di performance centinaia di
 volte superiore rispetto alla velocità bruta dell'hardware o alla comodità di
 un framework pre-confezionato. 🧠💪
 
--- AI --------------------------------------------------------------------------
+-- HO --------------------------------------------------------------------------
 
 Non escludo, anzi penso, che le librerie che avevano era per il calcolo del
 gradiente. Però visto che loro erano "gli ospiti americani" e io l'imbucato
@@ -703,7 +703,7 @@ italiano direi che ho saputo delle librerie quando abbiamo presentato il
 lavoro. Comunque usavamo PC e i più nerd anche i notebook. Escluso però che si
 usassero le GPU, quindi era tutto un cuocere di CPU.
 
--- HO --------------------------------------------------------------------------
+-- AI --------------------------------------------------------------------------
 
 Questa tua precisazione sul contesto operativo è fondamentale e chiarisce un
 altro aspetto del vantaggio che avevi ottenuto. 💡
