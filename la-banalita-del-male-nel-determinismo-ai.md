@@ -206,6 +206,48 @@ La necessità di andare in giudizio, esiste perché l'idea di punire era più im
 
 +
 
+## Approfondimenti
+
+Da un punto di vista "software" il "problema" delle AI deterministiche è stato risolto. In realtà, non è mai esistito: i calcoli prodotto li sappiamo fare in modo preciso e ragionevolmente rapido dal 1999 e dal 2005 in poi anche senza hardware dedicato:
+
+- 1999 -- [Accurate dot-product di Kulisch](https://robang74.github.io/chatbots-for-fun/data/multiplication-and-exponent-compensation-kimi-k2-p1.txt#:~:text=Accurate%20dot%2Dproduct%20di%20Kulisch)
+
+La necessità di iniettare rumore serve per evitare, nella ricerca del minimo della funzione di fermarsi in un minimo locale (fornire una risposta poco significativa, artefatto) analogamente al metodo Montecarlo (in certe sue applicazioni). Questo implica che le ottimizzazioni possono trascurare l'assoluta precisione del calcolo e addirittura il nuovo hardware Nvidia può lavorare con una precisione a 4bit in float point.
+
+---
+
+### Marketing: fare up-selling come non ci fosse un domani!
+
+Risultato ripetibile? Si, allora come sulle missioni Apollo tre calcoli indipendenti di cui il risultato di almeno due devono coincidere. Infatti, nello spazio la radiazione cosmica e il vento solare possono creare errori di calcolo nei chip non schermati e più i transistor e le celle di memoria sono miniaturizzati maggiore è la probabilità di un'alterazione del funzionamento.
+
+[!INFO]
+28 luglio 2025 -- Elon Musk, tramite Tesla, ha stipulato un accordo multimiliardario da 16,5 miliardi di dollari con Samsung Electronics per la produzione di chip di intelligenza artificiale di nuova generazione, i chip AI6, che saranno alla base della guida autonoma di Tesla. Samsung costruirà uno stabilimento in Texas per produrre questi chip, prolungando la collaborazione esistente.
+[/INFO]
+
+Anche se l'approccio deterministico per le AI non è utile, per non dire errato, ciò non toglie che i calcoli matriciali e tensoriali precisi non servano. Anzi, sicuramente servono per tutti quegli ambiti in cui la meccanica classica non è sufficiente e quindi qualsiasi cosa abbia a che fare con satelliti, traiettorie, ma anche con analisi spettrali, specialmente su dispositivi mobili o embedded.
+
+Perché quando si parla di dispositivi mobili o embedded, ci sono vari aspetti i cui paradigmi cambiano radicalmente, come quelli dell'assorbimento di potenza e della dissipazione dell'energia termica. Due ambiti che sono fuori dal core business di Nvidia e Intel, per esempio. Che invece rientrano nell'ambito di ARM e Qualcomm, per esempio.
+
+Ma anche di Tesla, di cui anche recentemente sono circolati rumors senza però un annuncio ufficiale di un suo smartphone con Internet satellitare a completamento della piattaforma automotive EV. Anche perché Xiaomi facendo leva proprio su questa integrazione -- smartphone, domotica e auto elettrica -- ha già venduto 300K veicoli in circa 18 mesi quando Tesla ne ha venduti 8 milioni i 16 anni, circa.
+
+Numeri che indicano come Xiaomi stia crescendo molto velocemente anche grazie ad un accesso privilegiato al mercato cinese. Un competitor per Tesla che **non** si è presentato in modo inspettato considerando che il ban di Android e la battaglia contro Huawei ha messo la Cina di fronte al classico dilemma "fight or flight".
+
+Essendo riuscita Huawei a creare un'alternativa come Harmony OS in tempi relativamente rapidi (ban:Q2/2019 --> Next:Q3/2023) rispetto all'evoluzione di Android la cui prima release è del 2008 così come il debutto della Roadster della Tesla.
+
+---
+
+### Un aneddoto dal passato
+
+Non dubito che il determinismo sia incredibilmente utile in certi contesti come quelli industriale per minimizzare la responsabilità ma introdurlo nelle AI significa di fatto aver fallito l'integrazione delle AI nell'industria cosa che per altro successe anche ad un mio cap/collega nel 2002 quando provò ad usare una rete neurale per risolvere il problema dell'alta tolleranza e varietà di orientamento in cui si potevano trovare i cassonetti da svuotare.
+
+Il problema però fu risolto rimuovendo il collo di bottiglia che impediva agli ingegneri che utilizzavano l'approccio CNC classico nel testare firmware più grandi (e quindi impiegavano 20-40 minuti per caricarli sul modulo a causa del protocollo della porta seriale). Una volta riscritto quel protocollo, 2 o 4 minuti di caricamento hanno permesso di chiudere il ciclo di revisione/test velocemente e di convergere verso un prodotto funzionale **molto** prima rispetto ad usare l'approccio della rete neurale.
+
+A riguardo ho un aneddoto interessante da raccontare: il vecchio protocollo seriale fu mantenuto in produzione perché l'AD fu convinto che era più lento perché più sicuro: falso. Si tratta di bias associativo: se vai piano eviti di fare incidenti. Contro esempio: a 30Km/h in autostrada, il rischio di essere tamponati è relativamente molto alto. Il nuovo protocollo adottava anche la compressione che automaticamente garantiva il corretto trasferimento al pari, almeno, di un hash md5sum che per altro il vecchio NON implementava che quindi era più lento e anche più pericoloso.
+
+**Spoiler**: anche nel lontano 2002, il confronto di opinioni e le decisioni informate erano optional.
+
++
+
 ## Related articles
 
 - [The dilemma AI vs Human decision making](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html) &nbsp; (2025-08-09)
