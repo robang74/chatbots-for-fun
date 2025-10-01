@@ -246,17 +246,33 @@ A riguardo ho un aneddoto interessante da raccontare: il vecchio protocollo seri
 
 **Spoiler**: anche nel lontano 2002, il confronto di opinioni e le decisioni informate erano optional.
 
+---
+
+### Repetita iuvant
+
+Quando dico che il bisogno di determinismo è un bisogno infantile intendo dire che la certezza di una risposta si può garantire solo per contesti così banali di cui l'utilità (valore aggiunto alla mera tabulazione) è prossima allo zero.
+
+In ambiti estremamente complessi come decidere se e come rispondere ad un attacco di un nemico (sistema militare di fast reaction in caso di attacco improvviso o di valutazione strategica della risposta), dove la psicologia della controparte gioca un ruolo fondamentale nell'interpretare la risposta (o la sua assenza) il determinismo è semplicemente un'aberrazione.
+
+Un'aberrazione non solo da un punto di vista etico, ma propri di alienazione dalla realtà: non siamo capaci di decidere quindi demandiamo ad una macchina e per giustificare questa decisione assurda pretendiamo il determinismo. Che oltretutto rimuove quel minimo barlume di dubbio in cui N calcoli dello stesso scenario possano divergere anche grandemente come di fatto la teoria del chaos impone che sia in caso di effetto farfalla.
+
+Uno scenario simile a Jurassic Park in cui abbiamo già visto Ian Malcolm ignorato in favore della business vision. Ma di fronte all'idea di un'AI deterministica per funzionare come SkyNet o nel migliore dei casi WORP di War Games, sarebbe bene incidere una lastra di granito nero con l'iscrizione colata in oro 18K: 
+
+- `QUI GIACE LA RAGIONE, A CUI L'UMANITÀ HA ABDICATO IN ${data}`
+
+Affinché faccia da base di appoggio a questa novella meraviglia hardware e nella speranza che un giorno qualcuno possa leggerla. Qualcuno con due braccia, due gambe e una testa, funzionante!
+
 +
 
 ## Related articles
 
 - [The dilemma AI vs Human decision making](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html) &nbsp; (2025-08-09)
-+++++
+
 - [Ragionare non è come fare la cacca!](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) &nbsp; (2025-06-08)
-+++++
+
 - [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank) &nbsp; (2024-12-13)
 
-+++++
++
 
 ## Share alike
 
