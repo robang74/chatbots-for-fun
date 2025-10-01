@@ -7,6 +7,7 @@
 
 - **1st edition**, articolo scritto a partire da alcuni miei post su Linkedin: [post #1](https://www.linkedin.com/posts/robertofoglietta_ai-llm-machinelearning-activity-7378425546981937175-4a9v) &nbsp;-&nbsp; [post #2](https://www.linkedin.com/posts/robertofoglietta_il-gran-raduno-militare-a-quantico-testo-activity-7377371575957778432-qoVx) &nbsp;-&nbsp; [post #3](https://www.linkedin.com/posts/robertofoglietta_help-jeff-to-graduate-in-basic-maths-it-activity-7369946002574868480-t1Tq)
 - **2nd edition**, include una sezione di [conclusioni](#conclusione) che affrontano la questione in un'ottica più ampia.
+- **3rd edition**, include una sezione di [approfondimento](#approfondimenti) che amplia la visione e ritorna sulla tema.
 
 ---
 
@@ -213,6 +214,8 @@ Da un punto di vista "software" il "problema" delle AI deterministiche è stato 
 - 1999 -- [Accurate dot-product di Kulisch](https://robang74.github.io/chatbots-for-fun/data/multiplication-and-exponent-compensation-kimi-k2-p1.txt#:~:text=Accurate%20dot%2Dproduct%20di%20Kulisch)
 
 La necessità di iniettare rumore serve per evitare, nella ricerca del minimo della funzione di fermarsi in un minimo locale (fornire una risposta poco significativa, artefatto) analogamente al metodo Montecarlo (in certe sue applicazioni). Questo implica che le ottimizzazioni possono trascurare l'assoluta precisione del calcolo e addirittura il nuovo hardware Nvidia può lavorare con una precisione a 4bit in float point.
+
+- La [chat](https://g.co/gemini/share/0150e9efd9af) con Gemini su: [1.](#TODO) verifica informazioni, [2.](#TODO) low-power quantised NN training e [3.](#TODO) deternismo AI.
 
 ---
 
