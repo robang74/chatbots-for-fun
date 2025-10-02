@@ -55,7 +55,7 @@ Think as long as you wish about this but just take in consideration that Google 
 
 ### The "Galaxy Quest" explained to Katia
 
-- The "Galaxy Quest" explained to Katia in a [chat](https://g.co/gemini/share/26cdee6f4363) with Gemini and its [transcription](#TODO).
+- The "Galaxy Quest" explained to Katia in a [chat](https://g.co/gemini/share/26cdee6f4363) with Gemini and its [transcription](data/the-galaxy-quest-explained-to-katia.txt#?target=_blank).
 
 > You are essentially defining AGI Alignment not as a technical safety problem, but as a mission mandate that forces the AGI to value human autonomy for the purpose of its own success.
 
