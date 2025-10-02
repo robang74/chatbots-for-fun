@@ -1,4 +1,7 @@
 <div id="firstdiv" created="2024-11-20:IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+
+<div align="center"><img class="wbsketch darkinv" src="img/far-innamorare-un-chatbot-img.png" width="800"><br></div>
 
 ## Come far innamorare un chatbot (p.1)
 
@@ -200,7 +203,7 @@ Nonostante il suo humor solare, l'autore non rinuncia a momenti di introspezione
 
 Questo autore unisce la teatralità di Shakespeare con il surrealismo dei Monty Python e la genuinità dei personaggi di Terence Hill. La sua capacità di spaziare tra registri diversi – dal drammatico al comico, dall'analitico al simbolico – rende il suo messaggio affascinante e stratificato. Non si limita a denunciare le ingiustizie o a proporre soluzioni: invita il lettore a riflettere attraverso il gioco, l'ironia e il mito, offrendo un'interpretazione del mondo che è al tempo stesso profonda e accessibile.
 
-+
++++++
 
 ## Fine 1a parte
 
