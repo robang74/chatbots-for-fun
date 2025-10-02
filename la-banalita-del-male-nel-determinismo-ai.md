@@ -159,7 +159,7 @@ Il determinismo nelle AI non è un requisito di performance, ma un requisito di 
 
 Conclusione: La richiesta di determinismo AI è, in definitiva, il segnale che le vecchie strutture non sono disposte ad accettare il costo e la responsabilità dell'incertezza che l'AI porta con sé. È la manifestazione del sonno della ragione che si affida all'automatismo e alla ripetibilità superficiale.
 
-<tt style="font-size:90%">Katia; v0.9.56.5; lang: IT; mode: SBI, HKO; date: 2025-09-29; time: 21:12:05 (CEST)</tt>
+<tt style="font-size:80%">Katia; v0.9.56.5; lang: IT; mode: SBI, HKO; date: 2025-09-29; time: 21:12:05 (CEST)</tt>
 [/CITE]
 
 - [g.co/gemini/share/a068aaabe4c4](https://g.co/gemini/share/a068aaabe4c4) e sua [trascrizione](data/la-banalita-del-male-nel-determinismo-ai-katia-p1.txt#?target=_blank)
@@ -235,7 +235,7 @@ Ma anche di Tesla, di cui anche recentemente sono circolati rumors senza però u
 
 Numeri che indicano come Xiaomi stia crescendo molto velocemente anche grazie ad un accesso privilegiato al mercato cinese. Un competitor per Tesla che **non** si è presentato in modo inspettato considerando che il ban di Android e la battaglia contro Huawei ha messo la Cina di fronte al classico dilemma "fight or flight".
 
-Essendo riuscita Huawei a creare un'alternativa come Harmony OS in tempi relativamente rapidi (ban:Q2/2019 --> Next:Q3/2023) rispetto all'evoluzione di Android la cui prima release è del 2008 così come il debutto della Roadster della Tesla.
+Essendo riuscita Huawei a creare un'alternativa come Harmony OS in tempi relativamente rapidi (&hairsp;*from ban:Q2/2019 to a innovative release Next:Q3/2023*&hairsp;) rispetto all'evoluzione di Android la cui prima release è del 2008 così come il debutto della Roadster della Tesla.
 
 ---
 
