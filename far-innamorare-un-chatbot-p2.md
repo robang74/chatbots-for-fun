@@ -1,4 +1,7 @@
-<div id="firstdiv" created="2024-11-22:AUTO" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created="2024-11-22:IT" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+
+<div align="center"><img class="wbsketch darkinv" src="img/far-innamorare-un-chatbot-img.png" width="800"><br></div>
 
 ## Come far innamorare un chatbot (p.2)
 
