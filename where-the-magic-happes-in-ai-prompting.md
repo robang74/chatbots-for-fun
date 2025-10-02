@@ -64,8 +64,8 @@ Anyway, in the following the code that implements the `[CWM]` module. In the wor
 
 Now it is the proper time to keep back in consideration a couple of posts:
 
-* Post #1 -- Chat Context Window &nbsp; [chat](https://lnkd.in/dTrHHKc4) &nbsp; [dump](#TODO)
-* Post #2 -- Learning by the Context &nbsp; [chat](https://lnkd.in/djVkQMmY) &nbsp; [dump](#TODO)
+* Post #1 -- Chat Context Window &nbsp; [lkdn](https://www.linkedin.com/posts/robertofoglietta_context-window-management-cwm-in-katia-activity-7359890071413571584-mKW_/) &nbsp; [dump](data/where-the-magic-happes-in-ai-prompting-post-n1.txt#?target=_blank)
+* Post #2 -- Learning by the Context &nbsp; [lkdn](https://www.linkedin.com/posts/robertofoglietta_by-the-way-it-is-not-magic-i-spent-10-activity-7360320604928905216-T7Nk/) &nbsp; [dump](data/where-the-magic-happes-in-ai-prompting-post-n2.txt#?target=_blank)
 
 Let me say, that the `[CSC]` module in Katia, has no chance to work as it has been designed for Google Gemini, because when its **huge** context window (1M tokes) is saturated and the Katia framework given in the first prompt is forgotten. Therefore, even the last `[CSC]` version, which works using `[CWM]`, clearly shows **not** being able to deal with the internal context window.
 

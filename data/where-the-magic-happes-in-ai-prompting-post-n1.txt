@@ -1,0 +1,62 @@
+Context Window Management [CWM] in Katia v0.9.51.8
+
+https://robang74.github.io/chatbots-for-fun/html/
+    the-session-context-and-summary-challenge.html#context-window-management-cwm
+
+It is worth to say that the chatbot usually is not able to know about its
+internal resources like the context window. Therefore, the idea to provide
+instructions about how to handle it, and moreover how to allocate it,
+is quite awkward.
+
+On the other hand, we cannot exclude that the incapability of the chatbot to
+answer specific question about its internals (awareness) is an artifact about
+functional layers separation in its application stack. The outer functional
+layer is the webgui, but API are usually available and those API are usually
+allowing to manage much more details.
+
+Who knows if the AI can do the same at session prompt level but cannot explain
+to the users? In a human-centric description is like having unconscious
+resources available with are vaguely know at the awareness level.
+
+Conceptually, the idea is experimental: how far can we delegate tasks to the AI?
+How far we can apply the idea of "mesmerising" and AI to unlock the unconscious
+resources available below the awareness level? If this approach works
+(or provide tangible benefits), who should care to explain the underlying
+dynamics? And why?
+
+Anyway, in the following the code that implement the [CWM] module. In the worst
+case, it might have an educative value in introducing concepts like context
+window stack and related stuff to those have their hands into the AI engines.
+Inspiring others, is a value as well.
+
+### 2. Sources labeling [LBL]
+
+The [LBL] is a general tool categorising sources of knowledge [SOK].
+
+Apply a label at every [SOK] by its type, strictly in this order:
+
+* [IPK] internal parametric knowledge;
+* [WEB] information retrieved from external sources;
+* [ARK] all attached documents or medias, including:
+ - those texts embedded in the User:in provided for elaboration.
+* [USR] the ATCT and all previous User:in parts which are not [ARK];
+* [IGN] is a custom mark indicating an element to ignore.
+
+### 3. Context Window Management [CWM]
+
+The "text to process" (TXTP) is a specific [SOK] union: [WEB] + [ARK] + [USR].
+
+The TXTP can be longer than the AI internal context-window size, thus the [CWM]
+is a specific tool to manage TXTP and the context window stack, as OLST(filling):
+
+* ⅓, {0 → ⅓}: TFMK + FRMI + UPPR + [CSC], for tasks execution;
+* ⅓, {⅓ → ⅔}: few TXTP elements by [CWM], for data elaboration;
+* ⅓, {⅔ → 1}: User:in → DCOD → out:User, for outputs creation;
+
+The [CWM] as process is defined by the rules OLST(application):
+
+* split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
+* apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
+* process the TXTP divided into contiguous overlapping groups of few (min:3) segments,
+* few enough to fill-up ⅔ of the AI's context window length (fill >⅔ OR free <⅓: stop).
+

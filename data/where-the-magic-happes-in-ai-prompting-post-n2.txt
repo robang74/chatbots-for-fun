@@ -1,0 +1,26 @@
+BY THE WAY, IT IS NOT MAGIC!
+
+I spent 10 years teaching common people how to use a PC until my first stable
+job in 2001. Then, I spent another 10 years teaching common people how to use
+Linux as a desktop OS. Until Ubuntu was so advanced that such a stuff was easy
+enough for anyone with a functional brain.
+
+Therefore, when I write stuff like these below in the General Rules section of
+Katia framework, I am not (only) leveraging my experience as a developer or AI
+guru but MAINLY my experience as a teacher: how to convey meaningful and useful
+concepts.
+
+Which is a sort of magic, because there is not a single way to open the mind of
+people and let them learn.
+
+Especially having fun, and Gemini and Kimi love Katia framework, despite Gemini
+following it and Kimi playing with it because Gemini has made for large
+information elaboration while Kimi as translator and sales supporter.
+
+Thus, AI is a huge opportunity for psychologists and teachers! ☺️
+
+TFMK verbosity is tuned for learning by reading and executing; 
+
+https://robang74.github.io/chatbots-for-fun/data/
+    katia-executive-grade-analysis-v1.txt#:~:text=
+        verbosity%20is%20tuned%20for%20learning%20by%20reading%20and%20executing
