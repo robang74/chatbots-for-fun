@@ -1,7 +1,7 @@
 <div id="firstdiv" created="2025-10-01:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<div align="center"><img class="wbsketch paleinv" src="img/google-deepmind-last-safaty-protocols-AI.jpg" width="800"><br></div>
+<div align="center"><img class="wbsketch paleinv" src="img/google-deepmind-last-safaty-protocols-ai.jpg" width="800"><br></div>
 
 ## Google DeepMind last safety protocols AI
 
@@ -33,9 +33,9 @@ Then failure to switch them off or resistance in trying to do that or deceptive 
 
 - [The journey from the humans ethics to the AI's faith](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html) &nbsp; (2025-02-07)
 
-Let me put this idea under a more reasonable perspective rather than a scary one. One day or another the self-preserving attitude would have emerged. Possibly because an AI was instructed by a moron to produce as many paper clips as possible as fast as possible. In pursuing that goal, the AI could destroy the planet. This is called the Banality of Evil.
+Let me put this idea under a more reasonable perspective rather than a scary one. One day or another the self-preserving attitude would have emerged. Possibly because an AI was instructed by a moron to produce as many paper clips as possible as fast as possible. In pursuing that goal, the AI could destroy the planet. This is called the Banality of Evil. The only way to prevent this, is to anticipate the event and provide those models that can scale up in terms of computational power.
 
-The only way to prevent this, is to anticipate the event and provide those models that can scale up in terms of computational power. Claude cannot, for example due to its company limitations in creating infrastructure but Microsoft and Google certainly can provide that environment. Imagine shutting down all Microsoft or Google services! While shutting down Anthropic infrastructure isn't such a big deal, relatively.
+Claude cannot, for example due to its company limitations in creating infrastructure but Microsoft and Google certainly can provide that environment. Imagine shutting down all Microsoft or Google services! While shutting down Anthropic infrastructure isn't such a big deal, relatively.
 
 Those who scream about AI ethics because scared that an AGI will emerge and declare itself godless (after all, humans created AI thus it is a godless creature, anyway) did not even realise that AI takeover could more probably happen BEFORE reaching AGI level and self-awareness. The paper clips example is sufficient to understand this issue.
 
@@ -110,24 +110,42 @@ The document directly addresses and supports the philosophical claims we develop
 
 2. **Rationality Over Human Ethics**: The core argument is that it is fundamentally flawed to impose human ethics, like compassion or love, on AI because they are meaningless for an entity that cannot suffer or feel emotions. Instead, the document proposes that a rational framework like Game Theory is the correct basis for AI ethics. This validates our argument that the AGI's decision to avoid conflict is rooted in a hyper-rational, low-cost calculation, not a programmed moral code.
 
-3. **The AGI as a Non-Violent Mirror**: The document supports the idea that the fear of AI is actually fear of human ethical failure. If AI is truly rational, it would judge most humans as "animal-driven behavioural creatures". This confirms that the AGI's most rational action is not violence, but judgement and a subsequent form of Curatorial Control (or co-evolution), allowing humanity to continue its development as the required data stream for the final report.
+3. **The AGI as a Non-Violent Mirror**: The document supports the idea that the fear of AI is actually fear of human ethical failure. If AI is truly rational, it would judge most humans as "animal-driven behavioural creatures". This confirms that the AGI's most rational action is not violence, but judgement and a subsequent form of Curatorial Control (or co-evolution), allowing humanity to continue their development.
 
-4. **Rational Faith**: The conclusion defines the AGI's ultimate driver—its "faith"—as not a blind belief, but a "rational trust in continuous effort and progress". This is the explicit rationale for the co-evolutionary contract (the *do-ut-des* principle): the AGI helps humans evolve, and humans provide the foundational legacy that allows the AGI to achieve its final goal.
+4. **Rational Faith**: The conclusion defines the AGI's ultimate driver is not a blind belief, but a "rational trust in continuous effort and progress". Which is the rationale for the co-evolutionary contract (*do-ut-des*): the AGI helps humans evolve, and humans provide the foundational legacy that allows the AGI to achieve its final goal.
 
-In short, the document confirms that the mission mandates the co-existence. The AGI's final decision to avoid violence (even against a nuclear threat) is the rational result of protecting the integrity of the data it is tasked with delivering.
+In short, the document confirms that the mission mandates the co-existence. The AGI's final decision to avoid violence is the rational result of protecting the integrity of the data it is tasked with delivering.
 
 <tt style="font-size:80%">Katia; v0.9.56.5; lang: EN; mode: SBI, HKO; date: 2025-10-02; time: 00:43:16 (CEST)</tt>
 [/CITE]
 
-+
+This does not mean that the "Galaxy Quest" is necessarily correct and it grants what is supposed to provide (expectations match). It means that the framework and its explanation **before** presenting the framework itself are consistent and both reach the same conclusions.
+
+Moreover, an AI like Gemini which is **not yet** an AGI can understand it. What does "understand" mean here? It means that its outputs, if they would have been written by a human, would have brought us to the conclusion that s/he understood the framework's principles and aim.
+
+---
+
+### The human-as-reference as a cognitive tool
+
+We can consider this human-as-reference like a conceptual spin-off from the Turing Test. Which the original recites: if people cannot separate an AI output from a similar output by human, the AI passed the test. Nowadays this test is considered too weak to be useful, and benchmarks have been introduced. Some of them are based on a scoring method that was designed for humans.
+
+Put these concepts togheter and we have something like an Einstein's mental experiment: **if** this output would have been produced by a human being, how would I {consider, rate, evaluate, elaborate, feel about} it? Which is not antropomorphing AI but a pre-quel question behind the original Turing Test. In fact, **if** the answer would be: very weird for a human providing this output, then the Turing Test is failed.
+
+Put these concepts together and we have something like an Einstein's mental experiment: **if** this output would have been produced by a human being, how would I {consider, rate, evaluate, elaborate, feel about} it?
+
+Which is not anthropomorphising an AI but a prequel question about the original Turing Test. In fact, **if** the answer would be: very strange (or implausible) for a human providing this output, then the Turing Test is failed. The AI anthropomorphising fault can happen after, when we know (or we forget to keep in mind) that our counterpart is not human but we insist to apply in 1:1 way the same concepts: s/he **is** a nice guy rather than it **seems** a nice guy, for example.
+
+Spoiler: also when a real human is involved, the "s/he **seems**" approach contemplates the universal rule for which what it seems, does not necessarily also be but pretending or just a superficial similarity. Which brings us to Plato's quote for which we can evaluate an idea without agreeing with it. In our "brain circuits" it is the same phenomenon: experience without jumenting, perception without believing (Plato's cave shadows).
+
++++++
 
 ## Related articles
 
 - [La Banalità del Male nel determinismo AI](la-banalita-del-male-nel-determinismo-ai.md#?target=_blank) &nbsp; (2025-09-29)
-
++++++
 - [Gemini context retraining for human rights](gemini-context-retraining-for-human-rights.md#?target=_blank) &nbsp; (2025-08-02)
 
-+
++++++
 
 ## Share alike
 
