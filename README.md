@@ -141,7 +141,7 @@ The articles are listed here below, grouped by topic:
 <span id="uncategorised"></span>
 * **Yet uncategorised articles** &nbsp; (18 pz.)
 
-   - 2025-10-01 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/google-deepmind-last-safaty-protocols-AI.md)] - [Google DeepMind last safety protocols AI](google-deepmind-last-safaty-protocols-AI.md)
+   - 2025-10-01 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/google-deepmind-last-safaty-protocols-ai.md)] - [Google DeepMind last safety protocols AI](google-deepmind-last-safaty-protocols-ai.md)
 
    - 2025-09-29 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/la-banalita-del-male-nel-determinismo-ai.md)] - [La Banalità del Male nel determinismo AI](la-banalita-del-male-nel-determinismo-ai.md) &nbsp; (3rd edt.)
 
