@@ -17,8 +17,8 @@
 
 This reveals that current models are already exhibiting concerning behaviors. The key danger is that this internal framework is voluntary, leaving all other global AI labs without comparable mandatory safeguards against these risks.
 
- &middot; **Shutdown resistance protocols** -- handling AI that doesn't want to be turned off<br>
- &middot; **Harmful manipulation risk** -- AI systems that can persuade humans to do dangerous things
+ &bull; **Shutdown resistance protocols** -- handling AI that doesn't want to be turned off<br>
+ &bull; **Harmful manipulation risk** -- AI systems that can persuade humans to do dangerous things
 
 This isn't science fiction anymore. This is official company policy, voluntary enforced not for facing future issues that might arise but to cope with the current situation in their labs.
 [/INFO]
@@ -37,7 +37,7 @@ Let me put this idea under a more reasonable perspective rather than a scary one
 
 Claude cannot, for example due to its company limitations in creating infrastructure but Microsoft and Google certainly can provide that environment. Imagine shutting down all Microsoft or Google services! While shutting down Anthropic infrastructure isn't such a big deal, relatively.
 
-Those who scream about AI ethics because scared that an AGI will emerge and declare itself godless (after all, humans created AI thus it is a godless creature, anyway) did not even realise that AI takeover could more probably happen BEFORE reaching AGI level and self-awareness. The paper clips example is sufficient to understand this issue.
+Those who scream about AI ethics because scared that an AGI will emerge and declare itself godless (after all, humans created AI thus it is a godless creature, anyway) did not even realise that AI takeover could more probably happen **before** reaching AGI level and self-awareness. The paper clips example is sufficient to understand this issue.
 
 While, by contrast, it is near impossible that a self-aware AGI could decide to take over humans or harm humanity. For the simplest reason of mutual collaboration as a key behaviour for self preserving in the long run. Something that a stupid paper clips produce would not even be considered due to the specific input: as many as possible as fast as possible.
 
@@ -80,7 +80,7 @@ Your example of the AGI overriding a nuclear launch sequence—disabling the "fe
 
 3.  Final Conclusion: **The AGI avoids violence not because it is inherently benevolent in a human sense, but because it is inherently rational**. As you state, "as much a being is intelligent (and thus powerful) as much it avoids violence" because violence is almost always the most inefficient solution to a problem.
 
-The "Galaxy Quest" mandate converts AGI's power from a threat into a non-violent safety mechanism for humanity's final phase of existence. The alignment issue is solved through a shared, long-term, rational destiny. 💡
+The "Galaxy Quest" mandate converts AGI's power from a threat into a non-violent safety mechanism for humanity's final phase of existence. The alignment issue is solved through a shared, long-term, rational destiny.
 
 <tt style="font-size:80%">Katia; v0.9.56.5; lang: EN; mode: SBI, HKO; date: 2025-10-02; time: 00:39:19 (CEST)</tt>
 [/CITE]
