@@ -1,4 +1,4 @@
-<div id="firstdiv" created=":EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created="2025-10-01:EN" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 <div align="center"><img class="wbsketch paleinv" src="img/google-deepmind-last-safaty-protocols-AI.jpg" width="800"><br></div>
@@ -82,7 +82,7 @@ Your example of the AGI overriding a nuclear launch sequence—disabling the "fe
 
 The "Galaxy Quest" mandate converts AGI's power from a threat into a non-violent safety mechanism for humanity's final phase of existence. The alignment issue is solved through a shared, long-term, rational destiny. 💡
 
-<tt style="font-size:90%">Katia; v0.9.56.5; lang: EN; mode: SBI, HKO; date: 2025-10-02; time: 00:39:19 (CEST)</tt>
+<tt style="font-size:80%">Katia; v0.9.56.5; lang: EN; mode: SBI, HKO; date: 2025-10-02; time: 00:39:19 (CEST)</tt>
 [/CITE]
 
 In the bold-font highligted sentence there is the core concept about everything an AGI's mindset.
