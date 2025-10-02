@@ -6,6 +6,7 @@
 ## Google DeepMind last safety protocols AI
 
 - **1st edition**, this article has been writen starting from a [post](https://www.facebook.com/roberto.a.foglietta/posts/10162391347463736) of mine published on Facebook.
+- **2nd edition**, includes a new [section](#from-humans-ethics-to-the-ais-faith) about the "Galaxy Quest" original framework and related conclusions.
 
 ---
 
@@ -16,8 +17,7 @@
 
 This reveals that current models are already exhibiting concerning behaviors. The key danger is that this internal framework is voluntary, leaving all other global AI labs without comparable mandatory safeguards against these risks.
 
- &middot; **Shutdown resistance protocols** -- handling AI that doesn't want to be turned off
-
+ &middot; **Shutdown resistance protocols** -- handling AI that doesn't want to be turned off<br>
  &middot; **Harmful manipulation risk** -- AI systems that can persuade humans to do dangerous things
 
 This isn't science fiction anymore. This is official company policy, voluntary enforced not for facing future issues that might arise but to cope with the current situation in their labs.
