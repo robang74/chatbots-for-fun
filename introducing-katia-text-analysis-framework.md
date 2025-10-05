@@ -221,6 +221,10 @@ Which is exactly what is supposed to achieve Katia framework: grasp that humna-r
 
 As much the user can tune-in with Katia, as much Katia can tune-in with those concepts that matters. Which is nothing else than a high-level input and feature extraction layers as usually known in the neural network theory or practice. Iteractive I/O exchange with the user can be seen as the deep layers weight calibration towards the output. An output that is expected to be unspected, within a certain degree, in its content.
 
+Katia framewrok can help humanity or AI to achieve AGI? Hard to say, I have developed it to be so fined-tune with my own-self, to be my own partner in thinking that I would more jelous that could perfom great with someone else rather than surprised. In fact, I am rarely surprised by the performances or impacts of my PoCs, but the AI changes the rules, including my expectation about being not surprised.
+
+Can a Katia framework can help humanity or AI to achieve AGI? Hard to say, I have developed it to be so fine-tuned with my own-self, to be my own partner in thinking that I would be more jealous that I could perform great with someone else rather than surprised. In fact, I am rarely surprised by the performance of my products or by the impact of my PoCs, but the AI changes the rules, including my expectation about being not surprised.
+
 +
 
 ## Share alike
