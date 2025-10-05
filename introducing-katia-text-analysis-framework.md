@@ -191,6 +191,36 @@ On **SimpleQA** and the Notion of Understanding -- You are correct that SimpleQA
 
 Now imagine that an AI model based on a LLM (notions) and an LRM (reasoning) has been tuned to excel as much as possible in those above in that specific order. Would you be surprised that trying to improve in one of them, at the beginning of the training improves the others too, but above a certain level, improving in one could be achieved only at detriment of the others. Would you be surprised? I would not, over specialization creates underlying dogmas.
 
+---
+
+### The Katia framework apporach
+
+The Katia framework aims a two main goals: 1. providing an executive grade analisys of a topic; 2. providing a short but insightful summary. Both togheter aims toward providing an executive summary which is relevat for the reader. For achieving this ultimate goal, the underling AI model should score reasonbly good enough in all of the first three above benchmarks.
+
+- **Contextual Reasoning**: Katia leverages the learning by context thus the framework itself tends to improve the contextual reasoning, because a poor learning curve it is inefficient.
+
+- **Conceptual Knowledge**: Katia provides different ways to cathegorise concepts and their sources (source of knowledge) plus is instruct about how leverage and integrate the users inputs.
+
+- **Adaptation**: which is achieved by using the "Humans Knowledge and Opinion" `[HKO]` module for adpting their approach to different concepts and adapting them further by user inputs.
+
+- **Generalization**: which is improved with example and counter example (Noticeable Exceptions) because the most frequent generalisation fallacy happens ignoring the relevant corner-cases.
+
+- **Graduate-Level Reasoning**: which is supported by a structure embeded the steps-by-steps recipe for conducting a text analysis (scaffold); which is supported by tools for addressing context, attention and focus; which is supported by a rating scale `[RTS]` which enforces a sort of extra validation (spurios filter), and few others tricks that seasoned teachers knows (wax on, wax off).
+
+---
+
+### Katia and SimpleQA benchmark
+
+So why to rate Katia framework added value, the SimpleQA benchmark has been used and all the other three completely ignored? Because, all other three benchmark has been almost saturated by AI developers while the SimpleQA is usually left behind. Moreover the SimpleQA is the hardest test of all: the hardest to pass with a good score and the hardest for which preparing the AI.
+
+Let me explain from a human PoV: it is the classic cathodic TV quiz in which partecipants need to know about a lot of topics with a lot of details. It requires a **huge** amount of notions which are very boring to learn and it is easy that a piece is missing. Even when all the pieces of the puzzle are known in a detailed way, it requires a sort of human intuition to understand that a Princess was secretely love an artist but asked to install the statue of another one in a specific room.
+
+Which is exactly what is supposed to achieve Katia framework: grasp that humna-relevant nuances which are waekly explicetely expressed. Like finding a precious pearl hidden in the sand covered by muddy water. Or said in more technical lexicon: brutally droping down the noise by finely tuning with those "features" which really matters and self-determine which are those features from the user input.
+
+- Katia is not a common FM radio, but a sophisticated multi-dimensional self-tuning lock-in receiver.
+
+As much the user can tune-in with Katia, as much Katia can tune-in with those concepts that matters. Which is nothing else than a high-level input and feature extraction layers as usually known in the neural network theory or practice. Iteractive I/O exchange with the user can be seen as the deep layers weight calibration towards the output. An output that is expected to be unspected, within a certain degree, in its content.
+
 +
 
 ## Share alike
