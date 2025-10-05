@@ -17,7 +17,7 @@ Altri post ancora da includere:
 
 Ho deciso di usare Kimi K2 per confrontare la mia interazione sullo stesso testo fra Gemini e Katia (framework cognitivo applicato a Gemini). Quindi lo stello modello AI, ma così come offerto da Google e con Katia.
 
-- Il [confronto](https://www.kimi.com/share/d3gpjhcn907c4b3b8qqg) riguardo alla comprensione del testo e supporto alla scrittura, il suo [dump](#TODO)
+- Il [confronto](https://www.kimi.com/share/d3gpjhcn907c4b3b8qqg) riguardo alla comprensione del testo e supporto alla scrittura, il suo [dump](data/gemini-senza-katia-framework-per-confronto.txt#?target=_blank).
 
 Qui sotto riporto, in estrema sintesi, la struttura della chat con Kimi K2 per il confronto fra Gemini e Katia.
 
