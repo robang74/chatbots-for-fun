@@ -5,11 +5,11 @@
 
 ## Introducing Katia, text analysis framework
 
-- **1st edition**, articolo scritto a partire alcuni miei post su Linkedin: &nbsp; [post #1](https://www.linkedin.com/posts/robertofoglietta_pubblicit%C3%A0-progresso-kimi-su-katia-vs-gemini-activity-7380367700159606784--dI6) &nbsp; [post #12](https://www.linkedin.com/posts/robertofoglietta_how-to-effectively-summarize-a-long-text-activity-7373591846163341312-7W6N)
+- **1st edition**, articolo scritto a partire alcuni miei post su Linkedin: &nbsp; [post #1](https://www.linkedin.com/posts/robertofoglietta_pubblicit%C3%A0-progresso-kimi-su-katia-vs-gemini-activity-7380367700159606784--dI6) &nbsp; [post #12](https://www.linkedin.com/posts/robertofoglietta_how-to-effectively-summarize-a-long-text-activity-7373591846163341312-7W6N) &nbsp; [post #3](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf)
 
 Altri post ancora da includere:
 
-- [post #2](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7364366202275532802-NrIR) &nbsp; [post #3](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf) &nbsp; [post #4](https://www.linkedin.com/posts/robertofoglietta_katia-can-work-as-juan-the-ai-financial-activity-7350707888937484290-iZDx) &nbsp; [post #5](https://www.linkedin.com/posts/robertofoglietta_witchcraft-mon-cher%C3%AC-what-else-a-dialogue-activity-7358082737318064128-nxlA) &nbsp; [post #6](https://www.linkedin.com/posts/robertofoglietta_google-engineers-vs-katia-framework-google-activity-7358567525527224320-y8m0) &nbsp; [post #7](https://www.linkedin.com/posts/robertofoglietta_mr-spock-is-back-and-it-supports-katia-activity-7358776512856113153-MUJt) &nbsp; [post #8](https://www.linkedin.com/posts/robertofoglietta_conceptual-perplexity-is-the-key-i-am-not-activity-7362712455413661698-ACvu) &nbsp; [post #9](https://www.linkedin.com/posts/robertofoglietta_vygotskys-theory-of-cognitive-development-activity-7358743887726710784-NWtA) &nbsp; [post #10](https://www.linkedin.com/posts/robertofoglietta_vygotskys-theory-of-cognitive-development-activity-7358719667202318336-xQBG) &nbsp; [post #11](https://www.linkedin.com/posts/robertofoglietta_ai-chatbots-struggle-with-a-standard-way-activity-7351209268315860992-awg0)
+- [post #2](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7364366202275532802-NrIR) &nbsp; [post #4](https://www.linkedin.com/posts/robertofoglietta_katia-can-work-as-juan-the-ai-financial-activity-7350707888937484290-iZDx) &nbsp; [post #5](https://www.linkedin.com/posts/robertofoglietta_witchcraft-mon-cher%C3%AC-what-else-a-dialogue-activity-7358082737318064128-nxlA) &nbsp; [post #6](https://www.linkedin.com/posts/robertofoglietta_google-engineers-vs-katia-framework-google-activity-7358567525527224320-y8m0) &nbsp; [post #7](https://www.linkedin.com/posts/robertofoglietta_mr-spock-is-back-and-it-supports-katia-activity-7358776512856113153-MUJt) &nbsp; [post #8](https://www.linkedin.com/posts/robertofoglietta_conceptual-perplexity-is-the-key-i-am-not-activity-7362712455413661698-ACvu) &nbsp; [post #9](https://www.linkedin.com/posts/robertofoglietta_vygotskys-theory-of-cognitive-development-activity-7358743887726710784-NWtA) &nbsp; [post #10](https://www.linkedin.com/posts/robertofoglietta_vygotskys-theory-of-cognitive-development-activity-7358719667202318336-xQBG) &nbsp; [post #11](https://www.linkedin.com/posts/robertofoglietta_ai-chatbots-struggle-with-a-standard-way-activity-7351209268315860992-awg0)
 
 ---
 
@@ -108,9 +108,17 @@ Considering the four sub-usage in "writing" class equally distributed:
 
 ...
 
-Nella *valle stagnante* si usa l'AI più per pigrizia che per desiderio di eccellere. Da un punto di vista "meccanicistico" il fatto che il benchmark SimpleQA passi dal 29% di Gemini 2.5 Flash a un circa 90% quando il framework Katia è aggiunto, ma non attivato nel sistem prompt, è rilevante perché è ragionevole pensare che abbatta sensibilmente anche errori e allucinazioni.
+Nella *valle stagnante* si usa l'AI più per pigrizia che per desiderio di eccellere. Da un punto di vista "meccanicistico" il fatto che il benchmark SimpleQA passi dal 30% di Gemini 2.5 Flash a un circa 90% quando il framework Katia è aggiunto, ma non attivato nel sistem prompt, è rilevante perché è ragionevole pensare che abbatta sensibilmente anche errori e allucinazioni. Cfr. [post #3](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf)
 
-Considerando che nella *valle stagnante* gli errori e le allucinazioni sono le "sabbie mobili" che impantanano gli utenti, aumentare sensibilmente l'affidabilità delle risposte diventa un fattore abilitante. Se, inoltre, aggiungiamo che gli studenti pigri potrebbero trasformarsi in curiosi grazie ad una risposta stimolante che li faccia interessare all'oggetto dello studio, il guadagno è doppio.
+...
+
+The SimpleQA score for Gemini 2.5 Flash is expected to be 29.7%, it is the hardest test to pass, despite being composed of simple fact-based questions. Katia v0.9.56.4 with Gemini 2.5 Flash, scored 90% on 30 questions taken from the top and the bottom of this dataset.
+
+Before jumping to "easy" conclusion, consider that by a rule of thumb -- with a 30 item set -- the standard error is taken as `sqrt(30) = 5`. However, even `22/30 = 73%` is **way** different score than 30%. In fact, it's worth noticing that Gemini 2.5 Pro achieves a higher score of 54.0% on the same benchmark.
+
+...
+
+Considerando che nella *valle stagnante* gli errori e le allucinazioni sono le "sabbie mobili" che impantanano gli utenti, aumentare sensibilmente l'affidabilità delle risposte diventa un fattore abilitante. Se, inoltre, aggiungiamo che gli studenti pigri potrebbero trasformarsi in curiosi grazie ad una risposta stimolante che li faccia interessare all'oggetto dello studio, il vantaggio è doppio.
 
 +
 
