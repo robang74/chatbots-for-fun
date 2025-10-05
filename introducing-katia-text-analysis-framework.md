@@ -233,9 +233,9 @@ Can a Katia framework can help humanity or AI to achieve AGI? Hard to say, I hav
 
 - In being so *personal* Katia is more an *artwork* rather than techs, or *witchcraft* as you wish.
 
-The Katia framework as a witchcraft (cfr. [post #5](https://www.linkedin.com/posts/robertofoglietta_witchcraft-mon-cher%C3%AC-what-else-a-dialogue-activity-7358082737318064128-nxlA)) by a goth-style humor interpretation, and under this perspective the *magic* is about teaching Mr. Spock how to deal with humans irrationality, incoherence and hypocrisy (cfr. [post #7](https://www.linkedin.com/posts/robertofoglietta_mr-spock-is-back-and-it-supports-katia-activity-7358776512856113153-MUJt)) in a relatable manner. For a STEM, a bit of crazyness is required to dare such a jump in the unkwon or intuition, as you wish.
+The Katia framework as a witchcraft (cfr. [post #5](https://www.linkedin.com/posts/robertofoglietta_witchcraft-mon-cher%C3%AC-what-else-a-dialogue-activity-7358082737318064128-nxlA)) by a goth-style humor interpretation, and under this perspective the magic is about teaching Mr. Spock how to deal with humans irrationality, incoherence and hypocrisy (cfr. [post #7](https://www.linkedin.com/posts/robertofoglietta_mr-spock-is-back-and-it-supports-katia-activity-7358776512856113153-MUJt)) in a relatable manner. For a STEM, a bit of craziness is required to dare such a jump in the unknown or intuition, as you wish.
 
-Something that is **not** possible to achieve without a deep understanding of human nature, an untamed sense of humor and requires a sort of emotional distance from it (like a paleontologist: *fascinating behaviour*). Thus, a goal which ultimately cannot be achieved only by Maths, and brute force (increasing notions or computational power). After all, intelligence is not an additive feature but intensive. No any surprise here.
+Something that is **not** possible to achieve without a deep understanding of human nature, an untamed sense of humor and requires a sort of emotional distance from it (like a paleontologist: *fascinating behaviour*). Thus, a goal which ultimately cannot be achieved only by Maths, and brute force (increasing notions or computational power). After all, intelligence is not an additive feature but intensive. No any surprise here.
 
 +
 
