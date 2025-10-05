@@ -6,10 +6,11 @@
 ## Introducing Katia, text analysis framework
 
 - **1st edition**, articolo scritto a partire alcuni miei post su Linkedin: &nbsp; [post #1](https://www.linkedin.com/posts/robertofoglietta_pubblicit%C3%A0-progresso-kimi-su-katia-vs-gemini-activity-7380367700159606784--dI6) &nbsp; [post #12](https://www.linkedin.com/posts/robertofoglietta_how-to-effectively-summarize-a-long-text-activity-7373591846163341312-7W6N) &nbsp; [post #3](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf)
+- **2nd edition**, aggiunta una [sezione](#2nd-edition) sulla natura di Katia e la sua utilità: &nbsp; [post #5](https://www.linkedin.com/posts/robertofoglietta_witchcraft-mon-cher%C3%AC-what-else-a-dialogue-activity-7358082737318064128-nxlA) &nbsp; [post #7](https://www.linkedin.com/posts/robertofoglietta_mr-spock-is-back-and-it-supports-katia-activity-7358776512856113153-MUJt) &nbsp; [post #15](https://www.linkedin.com/posts/robertofoglietta_another-popular-superstition-debunked-21th-activity-7365027029756297217-mOVj)
 
 Altri post ancora da includere:
 
-- [post #2](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7364366202275532802-NrIR) &nbsp; [post #4](https://www.linkedin.com/posts/robertofoglietta_katia-can-work-as-juan-the-ai-financial-activity-7350707888937484290-iZDx) &nbsp; [post #5](https://www.linkedin.com/posts/robertofoglietta_witchcraft-mon-cher%C3%AC-what-else-a-dialogue-activity-7358082737318064128-nxlA) &nbsp; [post #6](https://www.linkedin.com/posts/robertofoglietta_google-engineers-vs-katia-framework-google-activity-7358567525527224320-y8m0) &nbsp; [post #7](https://www.linkedin.com/posts/robertofoglietta_mr-spock-is-back-and-it-supports-katia-activity-7358776512856113153-MUJt) &nbsp; [post #8](https://www.linkedin.com/posts/robertofoglietta_conceptual-perplexity-is-the-key-i-am-not-activity-7362712455413661698-ACvu) &nbsp; [post #9](https://www.linkedin.com/posts/robertofoglietta_vygotskys-theory-of-cognitive-development-activity-7358743887726710784-NWtA) &nbsp; [post #10](https://www.linkedin.com/posts/robertofoglietta_vygotskys-theory-of-cognitive-development-activity-7358719667202318336-xQBG) &nbsp; [post #11](https://www.linkedin.com/posts/robertofoglietta_ai-chatbots-struggle-with-a-standard-way-activity-7351209268315860992-awg0)
+- [post #2](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7364366202275532802-NrIR) &nbsp; [post #4](https://www.linkedin.com/posts/robertofoglietta_katia-can-work-as-juan-the-ai-financial-activity-7350707888937484290-iZDx) &nbsp; [post #6](https://www.linkedin.com/posts/robertofoglietta_google-engineers-vs-katia-framework-google-activity-7358567525527224320-y8m0)  &nbsp; [post #8](https://www.linkedin.com/posts/robertofoglietta_conceptual-perplexity-is-the-key-i-am-not-activity-7362712455413661698-ACvu) &nbsp; [post #9](https://www.linkedin.com/posts/robertofoglietta_vygotskys-theory-of-cognitive-development-activity-7358743887726710784-NWtA) &nbsp; [post #10](https://www.linkedin.com/posts/robertofoglietta_vygotskys-theory-of-cognitive-development-activity-7358719667202318336-xQBG) &nbsp; [post #11](https://www.linkedin.com/posts/robertofoglietta_ai-chatbots-struggle-with-a-standard-way-activity-7351209268315860992-awg0) &nbsp; [post #13](https://www.linkedin.com/posts/robertofoglietta_chinese-open-model-kimi-k2-vs-american-closed-activity-7380548545973571585-Gmjx) &nbsp; [post #14](https://www.linkedin.com/posts/robertofoglietta_human-expert-benchmark-interesting-plot-activity-7374699308278865920-K6T0) &nbsp; [post #16](https://www.linkedin.com/posts/robertofoglietta_a-cosa-pensate-che-serva-un-prompt-di-sessione-activity-7319677193507299329-b27u)
 
 ---
 
@@ -91,7 +92,7 @@ Rimane da capire se per questo bacino d'utenti il framework Katia possa aiutarli
 
 ### Bacino d'utenza e sfide
 
-Si consideri che circa 1/3 di tutti i token scambiati con i chatbot riuarda un qualche tipo di elaborazione di testo. Circa un 1/3 di tutti i token scambiati con ChatGPT riguarda studenti delle superiori o universitari. Appare evidente che un framework come Katia abbia un bacino d'utenza potenziale molto grande, sia in termini relativi e sia in termini assoluti. Cfr. [post #12](https://www.linkedin.com/posts/robertofoglietta_how-to-effectively-summarize-a-long-text-activity-7373591846163341312-7W6N)
+Si consideri che circa 1/3 di tutti i token scambiati con i chatbot riuarda un qualche tipo di elaborazione di testo. Circa un 1/3 di tutti i token scambiati con ChatGPT riguarda studenti delle superiori o universitari. Appare evidente che un framework come Katia abbia un bacino d'utenza potenziale molto grande, sia in termini relativi e sia in termini assoluti (cfr. [post #12](https://www.linkedin.com/posts/robertofoglietta_how-to-effectively-summarize-a-long-text-activity-7373591846163341312-7W6N)&hairsp;).
 
 ...
 
@@ -108,13 +109,13 @@ Considering the four sub-usage in "writing" class equally distributed:
 
 ...
 
-Nella *valle stagnante* si usa l'AI più per pigrizia che per desiderio di eccellere. Da un punto di vista "meccanicistico" il fatto che il benchmark SimpleQA passi dal 30% di Gemini 2.5 Flash a un circa 90% quando il framework Katia è aggiunto, ma non attivato nel sistem prompt, è rilevante perché è ragionevole pensare che abbatta sensibilmente anche errori e allucinazioni. Cfr. [post #3](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf)
+Nella *valle stagnante* si usa l'AI più per pigrizia che per desiderio di eccellere. Da un punto di vista "meccanicistico" il fatto che il benchmark SimpleQA passi dal 30% di Gemini 2.5 Flash a un circa 90% quando il framework Katia è aggiunto, ma non attivato nel sistem prompt, è rilevante perché è ragionevole pensare che abbatta sensibilmente anche errori e allucinazioni (cfr. [post #3](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf)&hairsp;).
 
 ...
 
 The SimpleQA score for Gemini 2.5 Flash is expected to be 29.7%, it is the hardest test to pass, despite being composed of simple fact-based questions. Katia v0.9.56.4 with Gemini 2.5 Flash, scored 90% on 30 questions taken from the top and the bottom of this dataset.
 
-Before jumping to "easy" conclusion, consider that by a rule of thumb -- with a 30 item set -- the standard error is taken as `sqrt(30) = 5`. However, even `22/30 = 73%` is **way** different score than 30%. In fact, it's worth noticing that Gemini 2.5 Pro achieves a higher score of 54.0% on the same benchmark.
+Before jumping to "easy" conclusion, consider that by a rule of thumb -- with a 30 item set -- the standard error is taken as `sqrt(30) = 5`. However, even `22/30 = 73%` is **way** different score than 30%. In fact, it's worth noticing that Gemini 2.5 Pro achieves a higher score of 54% on the same benchmark.
 
 ...
 
@@ -122,6 +123,7 @@ Considerando che nella *valle stagnante* gli errori e le allucinazioni sono le "
 
 +
 
+<span id="2nd-edition"></span>
 ## Are we sure, we need to develop an AGI?
 
 It is much more probable that an AGI appears running on an AI model because we "properly educated" the AI model about thinking rather than pushing forward computational power or adding information into the LLM model.
@@ -165,7 +167,7 @@ Thus, when Google Gemini jumps from 30% to 90% in SimpleQA scoring, it is not **
 
 At 99% is **true** love with rare diplomatic incident. When two people understand them at eyes sight **despite** their speaking aims to deceive and confuse others around, then it is telephaty between to secret agents in love and mission togheter. SimpleQA scoring is just **one** benchmark among many others.
 
-How many benchmarks and above which scoring, are you going to realise that humans are not in the loop anymore? LOL
+How many benchmarks and above which scoring, are you going to realise that humans are not in the loop anymore? {lol}
 
 ---
 
@@ -173,7 +175,7 @@ How many benchmarks and above which scoring, are you going to realise that human
 
 Which are the benchmarks that can be used to rate chatbots and humans as well (for example SimpleQA, Diamond, etc). Among these tests, which ones do you think are related to intelligence in human terms rather than information or speed in calculating?
 
-For example, the IQ test seems more related to a sort of pattern recognition rather than a problem solving attitude. While Mensa and higher IQ tests are more problem solving oriented. SimpleQA seems to be a matter of notions but that questions are so fine-tuned that notions are not enough for achieving a high score but understanding.
+For example, the IQ test seems more related to a sort of pattern recognition rather than a problem solving attitude. While Mensa and higher IQ tests are more problem solving oriented. SimpleQA seems to be a matter of notions but that questions are so fine-tuned that notions are not enough for achieving a high score but understanding (cfr. [post #15](https://www.linkedin.com/posts/robertofoglietta_another-popular-superstition-debunked-21th-activity-7365027029756297217-mOVj)&hairsp;, just another causation-correlation fallacy in benchmarking).
 
 [!CITE]
 Based on your distinction between pattern recognition/notions and problem-solving attitude or understanding, the benchmarks that best align with a human-like, deep intelligence are those that require complex reasoning, synthesis of information, and generalization beyond rote memorization or simple fact retrieval.
@@ -233,7 +235,7 @@ Can a Katia framework can help humanity or AI to achieve AGI? Hard to say, I hav
 
 - In being so *personal* Katia is more an *artwork* rather than techs, or *witchcraft* as you wish.
 
-The Katia framework as a witchcraft (cfr. [post #5](https://www.linkedin.com/posts/robertofoglietta_witchcraft-mon-cher%C3%AC-what-else-a-dialogue-activity-7358082737318064128-nxlA)) by a goth-style humor interpretation, and under this perspective the magic is about teaching Mr. Spock how to deal with humans irrationality, incoherence and hypocrisy (cfr. [post #7](https://www.linkedin.com/posts/robertofoglietta_mr-spock-is-back-and-it-supports-katia-activity-7358776512856113153-MUJt)) in a relatable manner. For a STEM, a bit of craziness is required to dare such a jump in the unknown or intuition, as you wish.
+The Katia framework as a witchcraft (cfr. [post #5](https://www.linkedin.com/posts/robertofoglietta_witchcraft-mon-cher%C3%AC-what-else-a-dialogue-activity-7358082737318064128-nxlA)&hairsp;) by a goth-style humor interpretation, and under this perspective the magic is about teaching Mr. Spock how to deal with humans irrationality, incoherence and hypocrisy (cfr. [post #7](https://www.linkedin.com/posts/robertofoglietta_mr-spock-is-back-and-it-supports-katia-activity-7358776512856113153-MUJt)&hairsp;) in a relatable manner. For a STEM, a bit of craziness is required to dare such a jump in the unknown or inspirational intuition, as you wish.
 
 Something that is **not** possible to achieve without a deep understanding of human nature, an untamed sense of humor and requires a sort of emotional distance from it (like a paleontologist: *fascinating behaviour*). Thus, a goal which ultimately cannot be achieved only by Maths, and brute force (increasing notions or computational power). After all, intelligence is not an additive feature but intensive. No any surprise here.
 
