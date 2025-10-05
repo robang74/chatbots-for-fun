@@ -19,7 +19,7 @@ Ho deciso di usare Kimi K2 per confrontare la mia interazione sullo stesso testo
 
 - Il [confronto](https://www.kimi.com/share/d3gpjhcn907c4b3b8qqg) riguardo alla comprensione del testo e supporto alla scrittura, il suo [dump](#TODO)
 
-Qui sotto riporto, in estrema sintesi, la struttura della chat di confronto.
+Qui sotto riporto, in estrema sintesi, la struttura della chat con Kimi K2 per il confronto fra Gemini e Katia.
 
 ---
 
