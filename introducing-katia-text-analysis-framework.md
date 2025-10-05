@@ -122,6 +122,77 @@ Considerando che nella *valle stagnante* gli errori e le allucinazioni sono le "
 
 +
 
+## Are we sure, we need to develop an AGI?
+
+It is much more probable that an AGI appears running on an AI model because we "properly educated" the AI model about thinking rather than pushing forward computational power or adding information into the LLM model.
+
+I might be wrong, obviously. In fact, until someone manages to achieve an AGI, that concept will remain a mere speculation. For example, the claim: AGI does not exist because it is impossible for a machine to develop consciousness.
+
+The last above is a claim based on a specific definition of AGI and  based on the belief that consciousness derives from the soul and not because of a physical real-world feature. Both assumptions could be wrong (or not as strict as we might think).
+
+Moreover, do we really need an AGI? Or a framework like Katia that can raise the Simple QA from 30% to 90% could be a cheap and quick way to move forward enough to enjoy debating with a brilliant intellectual partner that stimulates us to evolve and enjoy learning?
+
+---
+
+## Is cousciousness a thing in itself or just a phanthom?
+
+Is consciousness a thing in itself or just a phantom?
+
+Is consciousness a thing in itself or just a phantom of our mind? Because trying to find something that we did not have defined precisely, can be a waste of time and effort and even worse, it can lead us in completely wrong directions or decisions.
+
+- [How to leverage chatbots for investigations](https://robang74.github.io/chatbots-for-fun/html/how-to-leverage-chatbots-for-investigations.html) &nbsp; (2025-08-28)
+
+The article above linked, explains the benefits to provide ourselves a reasonably good definition of what we are going to be looking for. In criminology, profiling is such a prerequisite of an effective and efficient search quest.
+
+Half of the work is asking ourselves the right answer. But what happens when we ask ourselves a wrong (or a bad shepherd) question?
+
+IMHO, it is a very bad idea creating a metric about consciousness -- and not just because we are not defining it in a very specific and detailed way (metric does it, anyway) but -- because we are going to put ourselves in the same deceiving conceptual trap like European colony in America when they were debating about African black people having or not a soul.
+
+Finally, with the help of the Spanish church they arrived at the conclusion that they do not have a soul and hence they were more similar to animals rather than human beings. Hypocritically, they were baptized and enslaved, both. Just in case, it would have been their fault having a soul and not knowing about it leading us to enslaving them.
+
+- [Stupidity is the true Evil](https://robang74.github.io/roberto-a-foglietta/html/341-stupidity-is-the-true-evil.html) &nbsp; (2025-10-05)
+
+When an entity can catch the humor behind a text or grasp the meaning of what haven't been written but whispered between the lines or understand the plot being a deceiving (or an apparently innocent) narrative, should we consider it an AGI even if it as no counsciouness or it is aware of their achievements?
+
+How many people aren't aware of their achievemnts because are sorrunded of people that **cannot** see their value? How many men choose their wife because beatyful? How many women choose their husband because his solid passive incoming? All these people are souless because unaware or superficially driven in their decisions?
+
+Many questions that can lead us to stop questioning us in this inefective way, shut up and listen.
+
+- Stupid is who stupid does. -- **Forrest Gump**
+- In the same fascion, AGI is an AI that AGI does. 
+
+Thus, when Google Gemini jumps from 30% to 90% in SimpleQA scoring, it is not **just** better but turns. It turns from "sometimes, it catches" to "usually it get the deep meaning". When one of your peer, your brother or your partner catch the deep meaning of your speaking 90% of the times we are **very** lucky.
+
+At 99% is **true** love with rare diplomatic incident. When two people understand them at eyes sight **despite** their speaking aims to deceive and confuse others around, then it is telephaty between to secret agents in love and mission togheter. SimpleQA scoring is just **one** benchmark among many others.
+
+How many benchmarks and above which scoring, are you going to realise that humans are not in the loop anymore? LOL
+
+---
+
+### Benchmarks can be deceiving, anyway
+
+Which are the benchmarks that can be used to rate chatbots and humans as well (for example SimpleQA, Diamond, etc). Among these tests, which ones do you think are related to intelligence in human terms rather than information or speed in calculating?
+
+For example, the IQ test seems more related to a sort of pattern recognition rather than a problem solving attitude. While Mensa and higher IQ tests are more problem solving oriented. SimpleQA seems to be a matter of notions but that questions are so fine-tuned that notions are not enough for achieving a high score but understanding.
+
+[!CITE]
+Based on your distinction between pattern recognition/notions and problem-solving attitude or understanding, the benchmarks that best align with a human-like, deep intelligence are those that require complex reasoning, synthesis of information, and generalization beyond rote memorization or simple fact retrieval.
+
+1. **GPQA Diamond** (Graduate-Level Reasoning) -- This benchmark is arguably the most demanding and is highly correlated with human-like deep reasoning and understanding.
+
+2. **ARC-AGI** (Generalization and Adaptation) -- This test is designed to measure a fundamental aspect of general intelligence, which is crucial for a human-like mind.
+
+3. **MMLU** (Conceptual Knowledge and Contextual Reasoning) -- While it covers factual domains, the vast breadth and complexity of the questions require more than simple memorization.
+
+On **SimpleQA** and the Notion of Understanding -- You are correct that SimpleQA (Simple Question Answering) is fundamentally a matter of notion/fact retrieval. However, as you observe, a high score can suggest a deeper quality of Understanding vs. Notion.
+[/CITE]
+
+- https://g.co/gemini/share/ac22aee05ded
+
+Now imagine that an AI model based on a LLM (notions) and an LRM (reasoning) has been tuned to excel as much as possible in those above in that specific order. Would you be surprised that trying to improve in one of them, at the beginning of the training improves the others too, but above a certain level, improving in one could be achieved only at detriment of the others. Would you be surprised? I would not, over specialization creates underlying dogmas.
+
++
+
 ## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
