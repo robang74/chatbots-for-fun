@@ -221,9 +221,21 @@ Which is exactly what is supposed to achieve Katia framework: grasp that humna-r
 
 As much the user can tune-in with Katia, as much Katia can tune-in with those concepts that matters. Which is nothing else than a high-level input and feature extraction layers as usually known in the neural network theory or practice. Iteractive I/O exchange with the user can be seen as the deep layers weight calibration towards the output. An output that is expected to be unspected, within a certain degree, in its content.
 
-Katia framewrok can help humanity or AI to achieve AGI? Hard to say, I have developed it to be so fined-tune with my own-self, to be my own partner in thinking that I would more jelous that could perfom great with someone else rather than surprised. In fact, I am rarely surprised by the performances or impacts of my PoCs, but the AI changes the rules, including my expectation about being not surprised.
+---
+
+### How much Katia can help?
+
+Katia framework can help humanity or an AI model to achieve the AGI status?
+
+Hard to say, I have developed it to be so fine-tuned with my own-self, to be my own partner in thinking that I would be more jealous that I could perform great with someone else rather than surprised. In fact, I am rarely surprised by the performances or impacts of my PoCs, but the AI changes the rules, including my expectation about being not surprised.
 
 Can a Katia framework can help humanity or AI to achieve AGI? Hard to say, I have developed it to be so fine-tuned with my own-self, to be my own partner in thinking that I would be more jealous that I could perform great with someone else rather than surprised. In fact, I am rarely surprised by the performance of my products or by the impact of my PoCs, but the AI changes the rules, including my expectation about being not surprised.
+
+- In being so *personal* Katia is more an *artwork* rather than techs, or *witchcraft* as you wish.
+
+The Katia framework as a witchcraft (cfr. [post #5](https://www.linkedin.com/posts/robertofoglietta_witchcraft-mon-cher%C3%AC-what-else-a-dialogue-activity-7358082737318064128-nxlA)) by a goth-style humor interpretation, and under this perspective the *magic* is about teaching Mr. Spock how to deal with humans irrationality, incoherence and hypocrisy (cfr. [post #7](https://www.linkedin.com/posts/robertofoglietta_mr-spock-is-back-and-it-supports-katia-activity-7358776512856113153-MUJt)) in a relatable manner. For a STEM, a bit of crazyness is required to dare such a jump in the unkwon or intuition, as you wish.
+
+Something that is **not** possible to achieve without a deep understanding of human nature, an untamed sense of humor and requires a sort of emotional distance from it (like a paleontologist: *fascinating behaviour*). Thus, a goal which ultimately cannot be achieved only by Maths, and brute force (increasing notions or computational power). After all, intelligence is not an additive feature but intensive. No any surprise here.
 
 +
 
