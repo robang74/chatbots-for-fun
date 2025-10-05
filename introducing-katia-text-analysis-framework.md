@@ -17,9 +17,9 @@ Altri post ancora da includere:
 
 Ho deciso di usare Kimi K2 per confrontare la mia interazione sullo stesso testo fra Gemini e Katia (framework cognitivo applicato a Gemini). Quindi lo stello modello AI, ma così come offerto da Google e con Katia.
 
-- Il [confronto](https://www.kimi.com/share/d3gpjhcn907c4b3b8qqg) riguardo alla comprensione del testo e supporto alla scrittura, il suo [dump](data/gemini-senza-katia-framework-per-confronto.txt#?target=_blank).
+- Il [confronto](https://www.kimi.com/share/d3gpjhcn907c4b3b8qqg) riguardo alla comprensione del testo e supporto alla scrittura, i suoi [dump #1](https://robang74.github.io/roberto-a-foglietta/data/340-valutazione-di-kimi-su-katia.txt#?target=_blank) &nbsp;[dump #2](data/kimi-k2-confronto-gemini-vs-con-katia.txt#?target=_blank).
 
-Qui sotto riporto, in estrema sintesi, la struttura della chat con Kimi K2 per il confronto fra Gemini e Katia.
+Qui sotto riporto, in estrema sintesi, la struttura della chat con Kimi K2 per il confronto fra [Gemini](data/gemini-senza-katia-framework-per-confronto.txt#?target=_blank) e [Katia](https://robang74.github.io/roberto-a-foglietta/data/340-riciclare-plastica-e-anti-economico-zero-iva-katia.txt#?target=_blank).
 
 ---
 
