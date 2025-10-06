@@ -5,7 +5,7 @@
 
 ## La Banalità del Male nel determinismo AI
 
-- **1st edition**, articolo scritto a partire da alcuni miei post su Linkedin: [post #1](https://www.linkedin.com/posts/robertofoglietta_ai-llm-machinelearning-activity-7378425546981937175-4a9v) &nbsp;-&nbsp; [post #2](https://www.linkedin.com/posts/robertofoglietta_il-gran-raduno-militare-a-quantico-testo-activity-7377371575957778432-qoVx) &nbsp;-&nbsp; [post #3](https://www.linkedin.com/posts/robertofoglietta_help-jeff-to-graduate-in-basic-maths-it-activity-7369946002574868480-t1Tq)
+- **1st edition**, articolo scritto a partire da alcuni miei post su Linkedin: [post #1](https://www.linkedin.com/posts/robertofoglietta_ai-llm-machinelearning-activity-7378425546981937175-4a9v) &nbsp; [post #2](https://www.linkedin.com/posts/robertofoglietta_il-gran-raduno-militare-a-quantico-testo-activity-7377371575957778432-qoVx) &nbsp; [post #3](https://www.linkedin.com/posts/robertofoglietta_help-jeff-to-graduate-in-basic-maths-it-activity-7369946002574868480-t1Tq) &nbsp; [post #4](https://www.linkedin.com/posts/robertofoglietta_la-banalit%C3%A0-del-male-nel-determinismo-ai-activity-7378476321393434624-hk5c).
 - **2nd edition**, include una sezione di [conclusioni](#conclusione) che affrontano la questione in un'ottica più ampia.
 - **3rd edition**, include una sezione di [approfondimento](#approfondimenti) che amplia la visione e ritorna sulla tema.
 
@@ -23,7 +23,7 @@ Modern software systems contain many layers of abstractions. In machine learning
 We reject this defeatism. With a little bit of work, we can understand the root causes of our nondeterminism and even solve them! We hope that this blog post provides the community with a solid understanding of how to resolve nondeterminism in our inference systems and inspires others to obtain a full understanding of their systems.
 [/INFO]
 
-Come spiegato da Lorenzo Zanolin in qualità di AI engineer per DataPizza in questo [post](https://www.linkedin.com/posts/lorenzo-zanolin-777b721b3_ai-llm-machinelearning-activity-7376510760585355264-ksEr) su LinkedIn, il determinismo nelle AI si ottiene impostando la temperatura a zero (*ovvio, altrimenti si inietta rumore e perché si inietta rumore?*) e scegliendo un ordine delle operazioni (un modo di calcolare le operazioni, non solo una questione di ordine) che rende stabile il risultato (ma non necessariamente corretto, solo stabile).
+Come spiegato da **Lorenzo Zanolin** in qualità di AI engineer per DataPizza in questo [post](https://www.linkedin.com/posts/lorenzo-zanolin-777b721b3_ai-llm-machinelearning-activity-7376510760585355264-ksEr) su LinkedIn, il determinismo nelle AI si ottiene impostando la temperatura a zero (*ovvio, altrimenti si inietta rumore e perché si inietta rumore?*) e scegliendo un ordine delle operazioni (un modo di calcolare le operazioni, non solo una questione di ordine) che rende stabile il risultato (ma non necessariamente corretto, solo stabile).
 
 [!CITE]
 L'aritmetica floating-point è non associativa: cambiare l’ordine delle somme può produrre risultati diversi. Esempio:
@@ -101,7 +101,7 @@ Per nessun impiego civile che sia legittimo e sensato il determinismo delle AI �
 
 [!INFO]
 26 settembre 2025 -- Il Segretario alla Difesa degli Stati Uniti, Pete Hegseth, ha convocato d'urgenza circa 800 generali e ammiragli attivi, provenienti da tutto il mondo, per un incontro senza precedenti che si terrà alla base dei Marines di Quantico, in Virginia, entro il 30 settembre 2025. La convocazione è stata fatta con pochissimo preavviso e senza fornire dettagli sull'agenda o sul motivo della riunione, suscitando confusione, allarme e un clima surreale all'interno del Pentagono e tra gli osservatori esterni.
- -- Incipit del [Post #2](https://www.linkedin.com/posts/robertofoglietta_il-gran-raduno-militare-a-quantico-testo-activity-7377371575957778432-qoVx)
+ -- Incipit del [post #2](https://www.linkedin.com/posts/robertofoglietta_il-gran-raduno-militare-a-quantico-testo-activity-7377371575957778432-qoVx)
 [/INFO]
 
 Chiamateli pure "punti di vista", se volete!
@@ -110,7 +110,7 @@ Chiamateli pure "punti di vista", se volete!
 <span id="#solo-kimi-k2--arrivato-vicono-a-capire"></span>
 ### Compredere Arendt non è banale
 
-Ho fornito in input il testo di questo [post](https://www.linkedin.com/posts/robertofoglietta_la-banalit%C3%A0-del-male-nel-determinismo-ai-activity-7378476321393434624-hk5c), che introduce e riassume l'articolo tramite un cherry-picking dei passaggi più significativi, a diversi chatbot:
+Ho fornito in input il testo del [post #4](https://www.linkedin.com/posts/robertofoglietta_la-banalit%C3%A0-del-male-nel-determinismo-ai-activity-7378476321393434624-hk5c), che introduce e riassume l'articolo tramite un cherry-picking dei passaggi più significativi, a diversi chatbot:
 
 - [ChatGPT&nbsp;5](https://chatgpt.com/share/68dac7d6-0d28-8012-8e0a-0f0471350013), &nbsp;[x/Grok 4](https://chatgpt.com/share/68dac7d6-0d28-8012-8e0a-0f0471350013), &nbsp;Gemini 2.5 [Flash](https://g.co/gemini/share/75bdc98e9511) e [Pro](https://g.co/gemini/share/159deefc6049), &nbsp;[Kimi&nbsp;K2](https://www.kimi.com/share/d3dcheol3dccogue4p20), &nbsp;Qwen3 [Max](https://chat.qwen.ai/s/ad219a31-be4d-4d82-b6ca-e99ab1acd4d8?fev=0.0.219.), &nbsp;Claude [Opus&nbsp;4.1](https://claude.ai/share/96e32484-c15a-4a63-b8ef-2017d924f60c) e [Sonnet&nbsp;4.5](https://claude.ai/share/8255f105-9087-4a65-a377-c99f4364e8b8), &nbsp;DeepSeek (private, only)<!--// https://chat.deepseek.com/a/chat/s/346a7790-b651-4205-846b-a818450edfce //-->, &nbsp;Mistral [Le&nbsp;Chat](https://chat.mistral.ai/chat/2a87aa79-1f2f-4b2f-8b84-61c7c6ea1132).
 
@@ -162,7 +162,7 @@ Conclusione: La richiesta di determinismo AI è, in definitiva, il segnale che l
 <tt style="font-size:80%">Katia; v0.9.56.5; lang: IT; mode: SBI, HKO; date: 2025-09-29; time: 21:12:05 (CEST)</tt>
 [/CITE]
 
-- [g.co/gemini/share/a068aaabe4c4](https://g.co/gemini/share/a068aaabe4c4) e sua [trascrizione](data/la-banalita-del-male-nel-determinismo-ai-katia-p1.txt#?target=_blank)
+-  Estratto dalla [chat](https://g.co/gemini/share/a068aaabe4c4) con Gemini su "Framework Katia: Analisi e Modalità", e sua [trascrizione](data/la-banalita-del-male-nel-determinismo-ai-katia-p1.txt#?target=_blank)
 
 Anche da questo punto di vista, la conclusione è analoga alla precedente, cambia solo la citazione:
 
@@ -197,7 +197,7 @@ L'alternativa è accettare il cambiamento di paradigma prima che la mancanza di 
 <tt style="font-size:90%">Katia; v0.9.56.5; lang: IT; mode: SBI, HKO; date: 2025-09-29; time: 21:12:44 (CEST)</tt>
 [/CITE]
 
-- [g.co/gemini/share/a38d36791af5](https://g.co/gemini/share/a38d36791af5) e sua [trascrizione](data/la-banalita-del-male-nel-determinismo-ai-katia-p2.txt#?target=_blank)
+- Estratto dalla prosecuzione della [chat](https://g.co/gemini/share/a38d36791af5) precedente e [trascrizione](data/la-banalita-del-male-nel-determinismo-ai-katia-p2.txt#?target=_blank) della sola prosecuzione.
 
 L'idea che il mondo migliori perché l'AI renderebbe dei processi più efficienti quando quei processi non hanno più ragione di esistere è fondamentalmente sbagliata e per altro questa idea ha anche un sponsor piuttosto noto, Elon Musk, che per quanto possa essere divisivo come personaggio ha sicuramente ragione su questo punto e il successo di SpaceX lo conferma senza dubbio alcuno.
 
@@ -211,7 +211,7 @@ La necessità di andare in giudizio, esiste perché l'idea di punire era più im
 
 Da un punto di vista "software" il "problema" delle AI deterministiche è stato risolto. In realtà, non è mai esistito: i calcoli prodotto li sappiamo fare in modo preciso e ragionevolmente rapido dal 1999 e dal 2005 in poi anche senza hardware dedicato:
 
-- 1999 -- [Accurate dot-product di Kulisch](https://robang74.github.io/chatbots-for-fun/data/multiplication-and-exponent-compensation-kimi-k2-p1.txt#:~:text=Accurate%20dot%2Dproduct%20di%20Kulisch)
+- 1999 -- [Accurate dot-product di Kulisch](data/multiplication-and-exponent-compensation-kimi-k2-p1.txt#:~:text=Accurate%20dot%2Dproduct%20di%20Kulisch?target=_blank)
 
 La necessità di iniettare rumore serve per evitare, nella ricerca del minimo della funzione di fermarsi in un minimo locale (fornire una risposta poco significativa, artefatto) analogamente al metodo Montecarlo (in certe sue applicazioni). Questo implica che le ottimizzazioni possono trascurare l'assoluta precisione del calcolo e addirittura il nuovo hardware Nvidia può lavorare con una precisione a 4bit in float point.
 
@@ -224,7 +224,7 @@ La necessità di iniettare rumore serve per evitare, nella ricerca del minimo de
 Risultato ripetibile? Si, allora come sulle missioni Apollo tre calcoli indipendenti di cui il risultato di almeno due devono coincidere. Infatti, nello spazio la radiazione cosmica e il vento solare possono creare errori di calcolo nei chip non schermati e più i transistor e le celle di memoria sono miniaturizzati maggiore è la probabilità di un'alterazione del funzionamento.
 
 [!INFO]
-28 luglio 2025 -- Elon Musk, tramite Tesla, ha stipulato un accordo multimiliardario da 16,5 miliardi di dollari con Samsung Electronics per la produzione di chip di intelligenza artificiale di nuova generazione, i chip AI6, che saranno alla base della guida autonoma di Tesla. Samsung costruirà uno stabilimento in Texas per produrre questi chip, prolungando la collaborazione esistente.
+28 luglio 2025 -- Elon Musk, tramite Tesla, ha stipulato un accordo multimiliardario da 16,5 miliardi di dollari con Samsung Electronics per la produzione di chip di intelligenza artificiale di nuova generazione, i chip AI6, che saranno alla base della guida autonoma di Tesla. Samsung costruirà uno stabilimento in Texas per produrre questi chip, prolungando la collaborazione esistente. -- [Milano Finanza](https://www.milanofinanza.it/news/samsung-sigla-un-accordo-da-16-5-miliardi-di-dollari-con-tesla-per-produrre-chip-ai-fino-al-2033-202507281132214829)
 [/INFO]
 
 Anche se l'approccio deterministico per le AI non è utile, per non dire errato, ciò non toglie che i calcoli matriciali e tensoriali precisi non servano. Anzi, sicuramente servono per tutti quegli ambiti in cui la meccanica classica non è sufficiente e quindi qualsiasi cosa abbia a che fare con satelliti, traiettorie, ma anche con analisi spettrali, specialmente su dispositivi mobili o embedded.
@@ -268,6 +268,10 @@ Affinché faccia da base di appoggio a questa novella meraviglia hardware e nell
 +
 
 ## Related articles
+
+- [Stupidity is the true Evil](https://robang74.github.io/roberto-a-foglietta/html/341-stupidity-is-the-true-evil.html) &nbsp; (2025-10-05)
+
+- [Google DeepMind last safety protocols AI](google-deepmind-last-safety-protocols-ai.md#?target=_blank) &nbsp; (2025-10-01)
 
 - [The dilemma AI vs Human decision making](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html) &nbsp; (2025-08-09)
 
