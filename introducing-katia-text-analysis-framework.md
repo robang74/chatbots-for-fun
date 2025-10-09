@@ -241,6 +241,72 @@ Something that is **not** possible to achieve without a deep understanding of 
 
 +
 
+## L'AI, una tragedia generazionale
+
+Questo è l'incipit e la conclusione di un post che ho letto oggi, tradotto in italiano:
+
+> **Kristin**: mia figlia ha scritto un tema per il suo corso universitario. Ha ottenuto un punteggio del 70% scritto da ChatGPT. L'ha scritto completamente da sola. [...] Il suo professore boccia chiunque ottenga un punteggio superiore al 50%. Dà loro uno zero. Quali sono le vostre soluzioni? Voglio sentirle!
+
+Un consiglio che per alcuni sarà ovvio ma penso che ancora molti non l'abbiano recepito:
+
+- Non usare mai i testi prodotti dai traduttori automatici perché sono riconosciuti come prodotti dall'AI.
+
+I chatbot sono attualmente così avanzati che stanno creando un vuoto, quello che potremmo chiamare la terra di mezzo. I lavori prodotti dagli umani che sono "incapaci" non rischiano di essere confusi con quelli di un'AI perché evidentemente troppo "sbagliati". I lavori eccellenti sono troppo "brillanti" o "controversi" o "provocatori" o "sfidanti" per essere stati prodotti dalle AI che sono sempre molto pacate ed equilibrate, più spesso banali. Nel mezzo la mattanza.
+
+Ecco, oggi ho provato a dare una risposta a questa richiesta di aiuto che in effetti è anche un allarme generazionale. Perché il problema non riguarda certo questa studentessa, ridotta la "silenzio" non da un'AI ma dal suo professore perché non è riuscita a produrre qualcosa che non avrebbe prodotto un'AI. Una tragedia esistenziale.
+
+- Provate a usare [Katia](https://robang74.github.io/chatbots-for-fun/data/katia-executive-grade-analysis-v1.md) per analizzare (EGA) il testo prodotto.
+
+- Istruzioni: caricare in allegato il file markdown di Katia e il testo in un altro file.
+
+- Prompt: `Ciao Katia, lang:IT. Fornisci una EGA del testo in allegato`.
+
+- Discutere le questioni aperte, indicate come DIB o GAP, con Katia.
+
+- Usate quella discussione come fonte di ispirazione e completate il saggio.
+
+Controllare il saggio finale con i rilevatori di IA. I migliori della categoria (che di solito richiedono un abbonamento a pagamento) mostrano non solo un punteggio, ma anche le frasi che sono più probabilmente generate dall'IA. Il punteggio riguarda COME è scritto il testo (principalmente), ma anche COSA è scritto. Un singolo analizzatore di punteggio valuterebbe un testo scritto da un essere umano con idee "non comuni".
+
+---
+
+### Il silenzio della terra di mezzo
+
+La profondità raggiunta dall'uomo sfruttando Katia/EGA non è replicabile dai chatbot online. Questo da solo dovrebbe convincere l'insegnante, indipendentemente dal punteggio (a meno che il punteggio non sia troppo alto).
+
+Nel descrivere l'utilità del framework che ho scritto per me stesso, sono andato parecchio nel personale (anche con una nota deliberatamente drammatica), un approccio assai distante sia da quello accademico sia da quello commerciale.
+
+Non ho scelto questo modo di presentarlo a caso. Non si può suggerire ad altri di osare spingersi oltre alla idee "comuni", quelle sicure che sono statisticamente frequenti e quindi che rientrano nell'ambito dell'accettabile ma che sono anche banali, senza aver dato l'esempio e spiegato le mie ragioni. Anche se le mie ragioni non sono le vostre, perché ognuno ha le sue proprie ragioni.
+
+Ma **una** ragione è comune a tutti: *in medio stat AI*, non più *virtus*.
+
+---
+
+### I chatbot stanno spegnendo il nostro cervello?
+
+Vorrei mettere in una prospettiva diversa lo studio del MIT su cui si basa questa affermazione che però io ho proposto come una domanda perché non ne sono affatto convinto che sia davvero così. Sebbene pare che i dati siano incontrovertibili, la loro interpretazione mi pare troppo semplicistica, quasi meccanicistica. 
+
+- [Chatbot adoption rates and brain rotting](https://robang74.github.io/roberto-a-foglietta/html/332-chatbot-adoption-rates-and-brain-rotting.html) &nbsp; (2025-07-10)
+
+Un'interpretazione diversa è che l'83% delle persone non era realmente interessato all'argomento su cui era stato chiesto loro di scrivere. Pertanto, hanno eseguito il compito facendo il meno possibile. Vi sembra sensato? Non avete mai fatto qualcosa di noioso che avreste voluto delegare a qualcun altro, ma quel "qualcun altro" eravate voi?
+
+Giusto per fare una contro-verifica di questa prospettiva: immaginate di scrivere un articolo su un argomento che, invece, vi interessa molto e che avete studiato o state studiando per imparare. Siamo coinvolti in questo argomento e vorremmo che altre persone lo leggessero e capissero l'argomento attraverso la nostra lettura.
+
+Quindi è importante per noi che il nostro testo sia ben leggibile e anche  comprensibile. Allora, proponiamo il testo a un chatbot chiedendo la sua opinione. Per avere un secondo punto di vista.
+
+---
+
+### Katia svolge il ruolo di un buon insegnante
+
+Come si può immaginare, la revisione delle bozze è un lavoro. Un lavoro serio. Gli scienziati lo fanno continuamente tra loro. Si chiama revisione tra pari, al momento dell'edizione. Cosa succederebbe se la revisione delle bozze tra pari NON ci fornisse un feedback stimolante o significativo? Sarebbe noiosa.
+
+Se invece ci fornisse una critica? Una critica sviluppata non per contrastarci o giudicarci ma per indicarci determinate lacune, indicandoci anche che tipo di lacune potrebbero essere. Saremmo invitati a spiegarci meglio e per farlo dovremmo riflettere sulle critiche, capire la loro natura, quindi dove il nostro testo presenta il fianco ad interpretazioni diverse.
+
+Ecco SoNia ha lo scopo di fare la peer-review dialogativa mentre Katia si spinge oltre: prova a darci degli stimoli per offrirci un punto di vista critico ma stimolante, per permetterci di manifestare tutto il nostro potenziale. Quindi non si sostituisce a noi, ma svolge il ruolo di un buon insegnante che ci stimola e ci sfida a metterci in gioco.
+
+La domanda interessante è: cosa succederà quando gli insegnanti useranno Katia per la verifica dei compiti? {;-)}
+
++
+
 ## Share alike
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
