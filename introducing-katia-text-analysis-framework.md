@@ -305,12 +305,11 @@ La domanda interessante è: cosa succederà quando gli insegnanti useranno Katia
 
 ### Conceptual perplexity is the key
 
-In artificial intelligence, perplexity is a metric used to evaluate how well a language model predicts a sample of text. Essentially, it quantifies how "confused" or uncertain the model is when trying to predict the next word in a sequence, given the preceding context. Lower perplexity scores indicate higher confidence and better predictive accuracy, meaning the model is less perplexed by the text it's processing (cfr. [post #8](https://www.linkedin.com/posts/robertofoglietta_conceptual-perplexity-is-the-key-i-am-not-activity-7362712455413661698-ACvu).
+In artificial intelligence, perplexity is a metric used to evaluate how well a language model predicts a sample of text. Essentially, it quantifies how "confused" or uncertain the model is when trying to predict the next word in a sequence, given the preceding context. Lower perplexity scores indicate higher confidence and better predictive accuracy, meaning the model is less perplexed by the text it's processing (cfr. [post #8](https://www.linkedin.com/posts/robertofoglietta_conceptual-perplexity-is-the-key-i-am-not-activity-7362712455413661698-ACvu)).
 
 We, as humans, are biased toward inputs that fit with our mother tongue, culture and our biases. In strict technical terms it is about "perplexity" but applied to concepts. Let me explain. A human text usually provides a higher level of perplexity to an AI, rather than an AI generated text. This "bias" can be mitigated by exposing the AI to the same text (or slightly changed one), a second time in the same section (a trick, but it works).
 
-Conceptual perplexity is a totally another story and is based on AI difficulties in processing human knowledge and opinions. Thus the need of the `[HKO]` module in Katia because a mere 2-times inputs is not a way to work around perplexity. Repetition matters when information compression is at stake, perplexity is another story. Or better, if we would like to force "perplexity" into information compression, then low perpleity is high compression when internal knowledge is like patterns table.
-
+Conceptual perplexity is a totally another story and is based on AI difficulties in processing human knowledge and opinions. Thus the need of the `[HKO]` module in Katia because a mere 2-times input is not a way to work around perplexity. Repetition matters when information compression is at stake, perplexity is another story. Or better, if we would like to force "perplexity" into information compression, then low perplexity is high compression when internal knowledge is like the patterns table.
 +
 
 ## Share alike
