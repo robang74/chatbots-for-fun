@@ -5,12 +5,13 @@
 
 ## Introducing Katia, text analysis framework
 
-- **1st edition**, articolo scritto a partire alcuni miei post su Linkedin: &nbsp; [post #1](https://www.linkedin.com/posts/robertofoglietta_pubblicit%C3%A0-progresso-kimi-su-katia-vs-gemini-activity-7380367700159606784--dI6) &nbsp; [post #12](https://www.linkedin.com/posts/robertofoglietta_how-to-effectively-summarize-a-long-text-activity-7373591846163341312-7W6N) &nbsp; [post #3](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf)
+- **1st edition**, articolo scritto a partire alcuni miei post su Linkedin: &nbsp; [post #1](https://www.linkedin.com/posts/robertofoglietta_pubblicit%C3%A0-progresso-kimi-su-katia-vs-gemini-activity-7380367700159606784--dI6) &nbsp; [post #2](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7364366202275532802-NrIR) &nbsp; [post #3](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf) &nbsp; [post #12](https://www.linkedin.com/posts/robertofoglietta_how-to-effectively-summarize-a-long-text-activity-7373591846163341312-7W6N)
 - **2nd edition**, aggiunta una [sezione](#2nd-edition) sulla natura di Katia e la sua utilità: &nbsp; [post #5](https://www.linkedin.com/posts/robertofoglietta_witchcraft-mon-cher%C3%AC-what-else-a-dialogue-activity-7358082737318064128-nxlA) &nbsp; [post #7](https://www.linkedin.com/posts/robertofoglietta_mr-spock-is-back-and-it-supports-katia-activity-7358776512856113153-MUJt) &nbsp; [post #15](https://www.linkedin.com/posts/robertofoglietta_another-popular-superstition-debunked-21th-activity-7365027029756297217-mOVj)
+- **3rd edition**, include la [risposta](#lai-una-tragedia-generazionale) alla domanda sollevata nella precedente edizione: &nbsp; [post #8](https://www.linkedin.com/posts/robertofoglietta_conceptual-perplexity-is-the-key-i-am-not-activity-7362712455413661698-ACvu) &nbsp; [post #17](https://www.facebook.com/roberto.a.foglietta/posts/10162423097853736?ref=embed_post)
 
 Altri post ancora da includere:
 
-- [post #2](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7364366202275532802-NrIR) &nbsp; [post #4](https://www.linkedin.com/posts/robertofoglietta_katia-can-work-as-juan-the-ai-financial-activity-7350707888937484290-iZDx) &nbsp; [post #6](https://www.linkedin.com/posts/robertofoglietta_google-engineers-vs-katia-framework-google-activity-7358567525527224320-y8m0)  &nbsp; [post #8](https://www.linkedin.com/posts/robertofoglietta_conceptual-perplexity-is-the-key-i-am-not-activity-7362712455413661698-ACvu) &nbsp; [post #9](https://www.linkedin.com/posts/robertofoglietta_vygotskys-theory-of-cognitive-development-activity-7358743887726710784-NWtA) &nbsp; [post #10](https://www.linkedin.com/posts/robertofoglietta_vygotskys-theory-of-cognitive-development-activity-7358719667202318336-xQBG) &nbsp; [post #11](https://www.linkedin.com/posts/robertofoglietta_ai-chatbots-struggle-with-a-standard-way-activity-7351209268315860992-awg0) &nbsp; [post #13](https://www.linkedin.com/posts/robertofoglietta_chinese-open-model-kimi-k2-vs-american-closed-activity-7380548545973571585-Gmjx) &nbsp; [post #14](https://www.linkedin.com/posts/robertofoglietta_human-expert-benchmark-interesting-plot-activity-7374699308278865920-K6T0) &nbsp; [post #16](https://www.linkedin.com/posts/robertofoglietta_a-cosa-pensate-che-serva-un-prompt-di-sessione-activity-7319677193507299329-b27u)
+- [post #4](https://www.linkedin.com/posts/robertofoglietta_katia-can-work-as-juan-the-ai-financial-activity-7350707888937484290-iZDx) &nbsp; [post #6](https://www.linkedin.com/posts/robertofoglietta_google-engineers-vs-katia-framework-google-activity-7358567525527224320-y8m0) &nbsp; [post #9](https://www.linkedin.com/posts/robertofoglietta_vygotskys-theory-of-cognitive-development-activity-7358743887726710784-NWtA) &nbsp; [post #10](https://www.linkedin.com/posts/robertofoglietta_vygotskys-theory-of-cognitive-development-activity-7358719667202318336-xQBG) &nbsp; [post #11](https://www.linkedin.com/posts/robertofoglietta_ai-chatbots-struggle-with-a-standard-way-activity-7351209268315860992-awg0) &nbsp; [post #13](https://www.linkedin.com/posts/robertofoglietta_chinese-open-model-kimi-k2-vs-american-closed-activity-7380548545973571585-Gmjx) &nbsp; [post #14](https://www.linkedin.com/posts/robertofoglietta_human-expert-benchmark-interesting-plot-activity-7374699308278865920-K6T0) &nbsp; [post #16](https://www.linkedin.com/posts/robertofoglietta_a-cosa-pensate-che-serva-un-prompt-di-sessione-activity-7319677193507299329-b27u)
 
 ---
 
@@ -36,7 +37,7 @@ Risposta: **4.9 su 5**.
 
 Katia ha mostrato una comprensione di alto livello, ben oltre la parfrasi banale: ha ricostruito premesse non dette, formalizzato principi astratti e tenuto traccia delle revisioni senza perdere il filo narrativo.
 
----
+----
 
 #### PROMPT #2
 
@@ -109,8 +110,7 @@ Considering the four sub-usage in "writing" class equally distributed:
 
 ...
 
-Nella *valle stagnante* si usa l'AI più per pigrizia che per desiderio di eccellere. Da un punto di vista "meccanicistico" il fatto che il benchmark SimpleQA passi dal 30% di Gemini 2.5 Flash a un circa 90% quando il framework Katia è aggiunto, ma non attivato nel sistem prompt, è rilevante perché è ragionevole pensare che abbatta sensibilmente anche errori e allucinazioni (cfr. [post #3](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf)&hairsp;).
-
+Nella *valle stagnante* si usa l'AI più per pigrizia che per desiderio di eccellere. Da un punto di vista "meccanicistico" il fatto che il benchmark SimpleQA passi dal 30% di Gemini 2.5 Flash a un circa 90% quando il framework Katia è aggiunto, ma non attivato nel sistem prompt, è rilevante perché è ragionevole pensare che abbatta sensibilmente anche errori e allucinazioni (cfr. [post #2](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7364366202275532802-NrIR) &nbsp; e [post #3](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf)&hairsp;).
 ...
 
 The SimpleQA score for Gemini 2.5 Flash is expected to be 29.7%, it is the hardest test to pass, despite being composed of simple fact-based questions. Katia v0.9.56.4 with Gemini 2.5 Flash, scored 90% on 30 questions taken from the top and the bottom of this dataset.
@@ -256,22 +256,18 @@ I chatbot sono attualmente così avanzati che stanno creando un vuoto, quello ch
 Ecco, oggi ho provato a dare una risposta a questa richiesta di aiuto che in effetti è anche un allarme generazionale. Perché il problema non riguarda certo questa studentessa, ridotta la "silenzio" non da un'AI ma dal suo professore perché non è riuscita a produrre qualcosa che non avrebbe prodotto un'AI. Una tragedia esistenziale.
 
 - Provate a usare [Katia](https://robang74.github.io/chatbots-for-fun/data/katia-executive-grade-analysis-v1.md) per analizzare (EGA) il testo prodotto.
-
 - Istruzioni: caricare in allegato il file markdown di Katia e il testo in un altro file.
-
-- Prompt: `Ciao Katia, lang:IT. Fornisci una EGA del testo in allegato`.
-
+- Prompt: <tt style="font-size:90%">Ciao Katia, lang:IT. Fornisci una EGA del testo in allegato</tt>.
 - Discutere le questioni aperte, indicate come DIB o GAP, con Katia.
-
 - Usate quella discussione come fonte di ispirazione e completate il saggio.
 
 Controllare il saggio finale con i rilevatori di IA. I migliori della categoria (che di solito richiedono un abbonamento a pagamento) mostrano non solo un punteggio, ma anche le frasi che sono più probabilmente generate dall'IA. Il punteggio riguarda COME è scritto il testo (principalmente), ma anche COSA è scritto. Un singolo analizzatore di punteggio valuterebbe un testo scritto da un essere umano con idee "non comuni".
 
----
+----
 
 ### Il silenzio della terra di mezzo
 
-La profondità raggiunta dall'uomo sfruttando Katia/EGA non è replicabile dai chatbot online. Questo da solo dovrebbe convincere l'insegnante, indipendentemente dal punteggio (a meno che il punteggio non sia troppo alto).
+La profondità raggiunta dall'uomo sfruttando Katia/EGA non è replicabile dai chatbot online. Questo da solo dovrebbe convincere l'insegnante, indipendentemente dal punteggio (salvo esso sia davvero troppo alto).
 
 Nel descrivere l'utilità del framework che ho scritto per me stesso, sono andato parecchio nel personale (anche con una nota deliberatamente drammatica), un approccio assai distante sia da quello accademico sia da quello commerciale.
 
@@ -304,6 +300,16 @@ Se invece ci fornisse una critica? Una critica sviluppata non per contrastarci o
 Ecco SoNia ha lo scopo di fare la peer-review dialogativa mentre Katia si spinge oltre: prova a darci degli stimoli per offrirci un punto di vista critico ma stimolante, per permetterci di manifestare tutto il nostro potenziale. Quindi non si sostituisce a noi, ma svolge il ruolo di un buon insegnante che ci stimola e ci sfida a metterci in gioco.
 
 La domanda interessante è: cosa succederà quando gli insegnanti useranno Katia per la verifica dei compiti? {;-)}
+
+~~~~
+
+### Conceptual perplexity is the key
+
+In artificial intelligence, perplexity is a metric used to evaluate how well a language model predicts a sample of text. Essentially, it quantifies how "confused" or uncertain the model is when trying to predict the next word in a sequence, given the preceding context. Lower perplexity scores indicate higher confidence and better predictive accuracy, meaning the model is less perplexed by the text it's processing (cfr. [post #8](https://www.linkedin.com/posts/robertofoglietta_conceptual-perplexity-is-the-key-i-am-not-activity-7362712455413661698-ACvu).
+
+We, as humans, are biased toward inputs that fit with our mother tongue, culture and our biases. In strict technical terms it is about "perplexity" but applied to concepts. Let me explain. A human text usually provides a higher level of perplexity to an AI, rather than an AI generated text. This "bias" can be mitigated by exposing the AI to the same text (or slightly changed one), a second time in the same section (a trick, but it works).
+
+Conceptual perplexity is a totally another story and is based on AI difficulties in processing human knowledge and opinions. Thus the need of the `[HKO]` module in Katia because a mere 2-times inputs is not a way to work around perplexity. Repetition matters when information compression is at stake, perplexity is another story. Or better, if we would like to force "perplexity" into information compression, then low perpleity is high compression when internal knowledge is like patterns table.
 
 +
 
