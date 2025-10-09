@@ -39,7 +39,7 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 ...
 
-### Supporting "AI for People" project
+### Supporting 'AI for People' project
 
 - Nominative: `Roberto Foglietta`
 - EU iban: `DE46700700240524862000`
