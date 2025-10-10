@@ -25,6 +25,8 @@ Qui sotto riporto, in estrema sintesi, la struttura della chat con Kimi K2 per i
 
 ---
 
++
+
 #### PROMPT #1
 
 Come valuti, nell'ambito della conversazione contenuta nell'allegato del primo prompt, la capacità di Katia/Gemini di comprendere il testo, affatto banale, prodotto e fornito dall'operatore umano?
@@ -301,10 +303,17 @@ Ecco SoNia ha lo scopo di fare la peer-review dialogativa mentre Katia si spinge
 
 La domanda interessante è: cosa succederà quando gli insegnanti useranno Katia per la verifica dei compiti? {;-)}
 
-**Spoiler**: la licenza di Katia & Co. è CC BY-NC-ND 4.0, quindi non è permesso agli insegnanti di usare Katia in quanto la loro è un'attività professionale specialmente in ambito universitario dove gli studenti pagano una retta. Per gli insegnanti delle superiori statali che sono dipendenti pubblici e gli studenti non pagano una retta, è già meno rilevante. Però l'adozione come strumento d'istituto, invece, sarebbe una violazione a carico del dirigente scolastico o su scala più elevata a carico del ministero perché comunque anche il risparmio (o l'efficienza) è considerato un vantaggio economico.
-
-
 ~~~~
+
+### Katia e la sua peculiare licenza
+
+La licenza di Katia & Co. è [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), quindi non è permesso agli insegnanti di usare Katia in quanto la loro è un'attività professionale, specialmente in ambito universitario dove gli studenti pagano una retta.
+
+Per gli insegnanti degli istuti superiori statali che sono dipendenti pubblici e gli studenti non pagano una retta, è già meno rilevante. Però l'adozione come strumento d'istituto, invece, sarebbe una violazione a carico del dirigente scolastico o su scala più elevata a carico del ministero perché comunque anche il risparmio (o l'efficienza) è considerato un vantaggio economico.
+
+D'altronde se uno studente medio usando Katia framework, arriva a superare il professore, allora è il professore ad essere fuori corso. In questo senso Katia, ribalta la sfida dell'apprendimento: non è più l'AI ad essere in concorrenza con gli studenti ma Katia con gli insegnanti.
+
+---
 
 ### Conceptual perplexity is the key
 
