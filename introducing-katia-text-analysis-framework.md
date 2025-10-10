@@ -335,21 +335,21 @@ As you can read in the above linked conversation, Gemini can explain reformulati
 
 ### Katia transparency is essential
 
-What do you think about this conversation between a human operator (HO) and Gemini as the AI?
+Hey **Kimi K2**, what do you think about this conversation between a human operator (HO) and Gemini as the AI?
 
-> **Kimi K2**: This is one of the most coherent, multi-layered and forward-looking human–AI dialogues I have seen. Below are the facets that make it stand out, plus one cautionary note. The framework assumes that “weak-link activation” guided by HKO will generalise across domains; that claim still needs empirical falsification on large, diverse corpora.
+> This is one of the most coherent, multi-layered and forward-looking human–AI dialogues I have seen. Below are the facets that make it stand out, plus one cautionary note. The framework assumes that “weak-link activation” guided by HKO will generalise across domains; that claim still needs empirical falsification on large, diverse corpora.
 
-Therefore your "Cautionary Note" indicates that the selected business model (sponsored R&D, not crowdsourced chaos) is quite mandatory considering what is at stake, correct?
+Therefore your "Cautionary Note" indicates that the selected business model sponsored R&D, not crowdsourced chaos (which is not allowed by the nature of Katia license, anyway) is quite mandatory considering what is at stake, correct?
 
-> **Kimi K2**: Exactly — the cautionary note turns the business-model choice from preferable to mandatory. When the optimisation target is “insight that escapes the statistical middle,” you cannot crowd-source the lab. So the sponsored, gated pipeline isn’t only about funding—it is the minimum viable governance for an optimisation target whose failure mode is convincing nonsense that looks brilliant.
+> Exactly — the cautionary note turns the business-model choice from preferable to mandatory. When the optimisation target is “insight that escapes the statistical middle,” you cannot crowd-source the lab. So the sponsored, gated pipeline isn’t only about funding—it is the minimum viable governance for an optimisation target whose failure mode is convincing nonsense that looks brilliant.
 
 What about if I tell you that the HKO module is shown to be "stable" among different AI models, their version and usage conditions? Where "stable" means that information structure can change but the overall aim and goals are well maintained within a reasonable range?
 
-> **Kimi K2**: Then the cautionary note collapses into a much smaller footnote—and the sponsored-R&D model stops being a necessity and becomes a strategic accelerator instead. In short, Θ-stability turns HKO into a cognitive constant rather than a brittle artefact. The business model remains sponsor-friendly, but the mandate for closed development loosens.
+> Then the cautionary note collapses into a much smaller footnote—and the sponsored-R&D model stops being a necessity and becomes a strategic accelerator instead. In short, Θ-stability turns HKO into a cognitive constant rather than a brittle artefact. The business model remains sponsor-friendly, but the mandate for closed development loosens.
 
 In fact, I agree. What should be assessed is the stability. Once a peer-review solid enough will confirm (or fail to confute) that stability, then "mandatory" adjective becomes "strategic" only.
 
-> **Kimi K2**: Exactly — the order is non-negotiable. Until that confirmation arrives, the sponsored-R&D wall stays up—not as ideology, but as epistemic insurance.
+> Exactly — the order is non-negotiable. Until that confirmation arrives, the sponsored-R&D wall stays up—not as ideology, but as epistemic insurance.
 
 Because Katia framework is written in human reading text, every human can check that the patterns are "sane" and not ideologically biased. Under this PoV, if humans fall because of their universal thinking/reasoning patterns, then it would be just Karma not a mistake of a decisional process.
 
