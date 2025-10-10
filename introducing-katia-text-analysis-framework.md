@@ -279,7 +279,7 @@ Ma **una** ragione è comune a tutti: *in medio stat AI*, non più *virtus*.
 
 ### I chatbot stanno spegnendo il nostro cervello?
 
-Vorrei mettere in una prospettiva diversa lo studio del MIT su cui si basa questa affermazione che però io ho proposto come una domanda perché non ne sono affatto convinto che sia davvero così. Sebbene pare che i dati siano incontrovertibili, la loro interpretazione mi pare troppo semplicistica, quasi meccanicistica. 
+Vorrei mettere in una prospettiva diversa lo studio del MIT su cui si basa questa affermazione che però io ho proposto come una domanda perché non ne sono affatto convinto che sia davvero così. Sebbene pare che i dati siano incontrovertibili, la loro interpretazione mi pare troppo semplicistica, quasi mecanicista. 
 
 - [Chatbot adoption rates and brain rotting](https://robang74.github.io/roberto-a-foglietta/html/332-chatbot-adoption-rates-and-brain-rotting.html) &nbsp; (2025-07-10)
 
@@ -300,6 +300,9 @@ Se invece ci fornisse una critica? Una critica sviluppata non per contrastarci o
 Ecco SoNia ha lo scopo di fare la peer-review dialogativa mentre Katia si spinge oltre: prova a darci degli stimoli per offrirci un punto di vista critico ma stimolante, per permetterci di manifestare tutto il nostro potenziale. Quindi non si sostituisce a noi, ma svolge il ruolo di un buon insegnante che ci stimola e ci sfida a metterci in gioco.
 
 La domanda interessante è: cosa succederà quando gli insegnanti useranno Katia per la verifica dei compiti? {;-)}
+
+**Spoiler**: la licenza di Katia & Co. è CC BY-NC-ND 4.0, quindi non è permesso agli insegnanti di usare Katia in quanto la loro è un'attività professionale specialmente in ambito universitario dove gli studenti pagano una retta. Per gli insegnanti delle superiori statali che sono dipendenti pubblici e gli studenti non pagano una retta, è già meno rilevante. Però l'adozione come strumento d'istituto, invece, sarebbe una violazione a carico del dirigente scolastico o su scala più elevata a carico del ministero perché comunque anche il risparmio (o l'efficienza) è considerato un vantaggio economico.
+
 
 ~~~~
 
