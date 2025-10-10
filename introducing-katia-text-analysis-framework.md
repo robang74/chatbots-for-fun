@@ -327,9 +327,11 @@ Repetition does not help understanding a concept, but reformulating, explaining,
 
 Repetition matters when information compression is at stake, perplexity is another story. Or better, if we would like to force "perplexity" into information compression, then low perplexity is high compression when internal knowledge is like the patterns table (more likely in image fractal compression rather than ZIP).
 
-> The `[HKO]` module provides the LLM with innate conceptual patterns (like shapes given to a child) that allow it to recognize statistically weak but structurally relevant links in human text, thereby lowering conceptual perplexity and increasing insightfulness, in humans terms. -- **Gemini**
+> The `[HKO]` module provides the LLM with innate conceptual patterns (like shapes given to a child) that allow it to recognize statistically weak but structurally relevant links in human text, thereby lowering conceptual perplexity and increasing insightfulness, in humans terms. -- **Gemini** &nbsp; [chat](https://g.co/gemini/share/e6c948627cdd) &nbsp; [dump](data/conceptual-perplexity-how-katia-works-gemini.txt#?target=_blank)
 
-+
+As you can read in the above linked conversation, Gemini can explain reformulating and extending concepts but cannot add novelties. Novelty, in the sense of adding something truly new compared with the input and the area of its internal knowledge that such input activates by statistical inference (low perplexity). In order to challenge the input with novelty, the AI should be able to activate weak (high perplexity) but relevant (otherwise hallucinates) links.
+
++++++
 
 ## Share alike
 
