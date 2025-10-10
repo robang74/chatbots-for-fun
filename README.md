@@ -156,7 +156,9 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="uncategorised"></span>
-* **Yet uncategorised articles** &nbsp; (18 pz.)
+* **Yet uncategorised articles** &nbsp; (19 pz.)
+
+   - 2025-10-10 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/samsung-tiny-models-do-great-but-not-an-ai-revolution.md)] - [Samsung tiny models do great but not an AI revolution](samsung-tiny-models-do-great-but-not-an-ai-revolution.md)
 
    - 2025-10-01 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/google-deepmind-last-safety-protocols-ai.md)] - [Google DeepMind last safety protocols AI](google-deepmind-last-safety-protocols-ai.md) &nbsp; (2nd edt.)
 
