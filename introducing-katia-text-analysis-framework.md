@@ -417,6 +417,7 @@ That prior does not give the model new facts, but it re-weights the probability 
 - high-confidence zones that conflict with the prior are flagged as DIB/GAP items for human review — the paper’s confidence-target recommendation is enforced externally via the prompt, not internally via logits.
 
 `HKO` turns the statistical inevitability of hallucination proved by Kalai et al. into a behavioural choice: “Speak only when you can anchor to a human-recognisable pattern of certainty; otherwise say ‘I don’t know’” — exactly the uncertainty-aligned scoring the paper says is missing from today’s benchmarks.
+
 ++++
 **1. What the paper shows**
 
