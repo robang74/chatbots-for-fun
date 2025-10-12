@@ -7,7 +7,8 @@
 
 - **1st edition**, articolo scritto a partire alcuni miei post su Linkedin: &nbsp; [post #1](https://www.linkedin.com/posts/robertofoglietta_pubblicit%C3%A0-progresso-kimi-su-katia-vs-gemini-activity-7380367700159606784--dI6) &nbsp; [post #2](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7364366202275532802-NrIR) &nbsp; [post #3](https://www.linkedin.com/posts/robertofoglietta_katia-wtf-are-you-doing-to-that-chatbot-activity-7363277278954274817-jdTf) &nbsp; [post #12](https://www.linkedin.com/posts/robertofoglietta_how-to-effectively-summarize-a-long-text-activity-7373591846163341312-7W6N)
 - **2nd edition**, aggiunta una [sezione](#2nd-edition) sulla natura di Katia e la sua utilità: &nbsp; [post #5](https://www.linkedin.com/posts/robertofoglietta_witchcraft-mon-cher%C3%AC-what-else-a-dialogue-activity-7358082737318064128-nxlA) &nbsp; [post #7](https://www.linkedin.com/posts/robertofoglietta_mr-spock-is-back-and-it-supports-katia-activity-7358776512856113153-MUJt) &nbsp; [post #15](https://www.linkedin.com/posts/robertofoglietta_another-popular-superstition-debunked-21th-activity-7365027029756297217-mOVj)
-- **3rd edition**, include la [risposta](#lai-una-tragedia-generazionale) alla domanda sollevata nella precedente edizione: &nbsp; [post #8](https://www.linkedin.com/posts/robertofoglietta_conceptual-perplexity-is-the-key-i-am-not-activity-7362712455413661698-ACvu) &nbsp; [post #17](https://www.facebook.com/roberto.a.foglietta/posts/10162423097853736?ref=embed_post)
+- **3rd edition**, include la [risposta](#3rd-edition) alla domanda sollevata nella precedente edizione: &nbsp; [post #17](https://www.facebook.com/roberto.a.foglietta/posts/10162423097853736?ref=embed_post)
+- **4th edition**, include l'[analisi](#4th-edition) delle peculiarità dell'intelligenza artificiale: &nbsp; [post #8](https://www.linkedin.com/posts/robertofoglietta_conceptual-perplexity-is-the-key-i-am-not-activity-7362712455413661698-ACvu) &nbsp; [post #18](https://www.linkedin.com/posts/robertofoglietta_why-language-model-hallucinate-by-openai-activity-7382873470126190592-Oy_r)
 
 Altri post ancora da includere:
 
@@ -243,6 +244,7 @@ Something that is **not** possible to achieve without a deep understanding of 
 
 +
 
+<span id="3rd-edition"></span>
 ## L'AI, una tragedia generazionale
 
 Questo è l'incipit e la conclusione di un post che ho letto oggi, tradotto in italiano:
@@ -315,6 +317,7 @@ D'altronde se uno studente medio usando Katia framework, arriva a superare il pr
 
 +
 
+<span id="4th-edition"></span>
 ## Noticeable features about AI
 
 All the current AI models that are accessible online are based on the same theoretical assumptions despite their implementation vary in details. Therefore, in writing AI we are focusing our attention to a specific class of models. This concept is fundamental to keep in mind two important facts: 
