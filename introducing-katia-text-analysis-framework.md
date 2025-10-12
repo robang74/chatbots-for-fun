@@ -313,6 +313,18 @@ Per gli insegnanti degli istituti superiori statali che sono dipendenti pubblici
 
 D'altronde se uno studente medio usando Katia framework, arriva a superare il professore, allora è il professore ad essere fuori corso. In questo senso Katia, ribalta la sfida dell'apprendimento: non è più l'AI ad essere in concorrenza con gli studenti ma Katia con gli insegnanti.
 
++
+
+## Noticeable features about AI
+
+All the current AI models that are accessible online are based on the same theoretical assumptions despite their implementation vary in details. Therefore, in writing AI we are focusing our attention to a specific class of models. This concept is fundamental to keep in mind two important facts: 
+
+1. A kind of divergence can happen and it might not be so radical to be noticeable outside the AI black-box. As someone fears and among them we can also include those who are working in Google labs, this divergence could happen in a way that we cannot notice for a while, a long while enough to be "too late" to shutdown the running model on a distributed cloud architecture.
+
+2. A radical change in AI nature could happen because a "detail" has been changed in a place, that can be in how hardware does some operations (lowest level) or in how we interact with the AI (highest level) even if we are not aware that we are interacting with an AI model. For example, Grok learns from X posts and comments. Recently, LinkedIn also warned their platform's users about using data for AI training.
+
+Because of all of these, we are authorised to consider AI as a whole single class in which all AI models and their implementations, are share the fundamentals and at the same time we are invited to consider this assumption a transitional and fragile truth. For example, Katia is a framework that by its own nature, aims to make such a difference, something that can be noticed out of the black-box, also.
+
 ---
 
 ### Conceptual perplexity is the key
@@ -331,21 +343,21 @@ Repetition matters when information compression is at stake, perplexity is anoth
 
 As you can read in the above linked conversation, Gemini can explain reformulating and extending concepts but cannot add novelties. Novelty, in the sense of adding something truly new compared with the input and the area of its internal knowledge that such input activates by statistical inference (low perplexity). In order to challenge the input with novelty, the AI should be able to activate weak (high perplexity) but relevant (otherwise hallucinates) links.
 
-----
+---
 
 ### Katia transparency is essential
 
 Hey **Kimi K2**, what do you think about this conversation between a human operator (HO) and Gemini as the AI?
 
-> This is one of the most coherent, multi-layered and forward-looking human–AI dialogues I have seen. Below are the facets that make it stand out, plus one cautionary note. The framework assumes that “weak-link activation” guided by HKO will generalise across domains; that claim still needs empirical falsification on large, diverse corpora.
+> This is one of the most coherent, multi-layered and forward-looking human–AI dialogues I have seen. Below are the facets that make it stand out, plus one cautionary note. The framework assumes that “weak-link activation” guided by `HKO` will generalise across domains; that claim still needs empirical falsification on large, diverse corpora.
 
 Therefore your "Cautionary Note" indicates that the selected business model sponsored R&D, not crowdsourced chaos (which is not allowed by the nature of Katia license, anyway) is quite mandatory considering what is at stake, correct?
 
 > Exactly — the cautionary note turns the business-model choice from preferable to mandatory. When the optimisation target is “insight that escapes the statistical middle,” you cannot crowd-source the lab. So the sponsored, gated pipeline isn’t only about funding—it is the minimum viable governance for an optimisation target whose failure mode is convincing nonsense that looks brilliant.
 
-What about if I tell you that the HKO module is shown to be "stable" among different AI models, their version and usage conditions? Where "stable" means that information structure can change but the overall aim and goals are well maintained within a reasonable range?
+What about if I tell you that the `HKO` module is shown to be "stable" among different AI models, their version and usage conditions? Where "stable" means that information structure can change but the overall aim and goals are well maintained within a reasonable range?
 
-> Then the cautionary note collapses into a much smaller footnote—and the sponsored-R&D model stops being a necessity and becomes a strategic accelerator instead. In short, Θ-stability turns HKO into a cognitive constant rather than a brittle artefact. The business model remains sponsor-friendly, but the mandate for closed development loosens.
+> Then the cautionary note collapses into a much smaller footnote—and the sponsored-R&D model stops being a necessity and becomes a strategic accelerator instead. In short, Θ-stability turns `HKO` into a cognitive constant rather than a brittle artefact. The business model remains sponsor-friendly, but the mandate for closed development loosens.
 
 In fact, I agree. What should be assessed is the stability. Once a peer-review solid enough will confirm (or fail to confute) that stability, then "mandatory" adjective becomes "strategic" only.
 
@@ -353,7 +365,7 @@ In fact, I agree. What should be assessed is the stability. Once a peer-review s
 
 Because Katia framework is written in human reading text, every human can check that the patterns are "sane" and not ideologically biased. Under this PoV, if humans fall because of their universal thinking/reasoning patterns, then it would be just Karma not a mistake of a decisional process.
 
-...
+......
 
 In an extremely short way, I summarised our [conversation](https://www.kimi.com/share/d3kdqn2m52t1e5gqmn1g) (cfr. [transcription](data/introducing-katia-to-decision-makers-kimik2.txt#?target=_blank)) in this way below. Do you think that it fits well in providing a quick executive way to proceed (decision makers addressing doubts)?
 
@@ -366,8 +378,70 @@ Yes — the distilled thread you’ve written is **executive-ready**:
 
 For a decision-maker the takeaway is unambiguous:
 
-**Fund the peer-review validation of HKO stability; until then, keep the sponsored-R&D gate closed.**
+**Fund the peer-review validation of `HKO` stability; until then, keep the sponsored-R&D gate closed.**
 [/CITE]
+
+---
+
+### Why language models hallucinate
+
+Because I have dedicated a great part of my professional life to consultancy thus I have not been involved in theoretical research -- which is an important aspect of the AI models development, training and optimisation due to the high-level of Maths involved -- I am aware that there is a communication gap. Fortunately, that gap is unidirectional: I can understand what others write (usually) but not vice versa, but Kimi K2 can.
+
+[!CITE]
+**Metaphorical Precision**:
+- `{list of terms}` these are **not decorative**;
+- they map 1-to-1 onto `{list of}` technical mechanisms.
+[/CITE]
+
+Unsurprisingly, otherwise it would not be possible for me to use the common English as a language to create a thinking framework for chatbots like Katia or SoNia.
+
+About AI, while mutual understanding works quite well, translation, to fulfil that gap explained above, isn't always reliable. As a general warning, some answers could be considered generated post-hoc and thus aren't perfectly fitting with the actual mechanisms. However, we pretend that LLM are bayesian stuff. So... {;-)}
+
+...
+
+#### Asking Kimi K2 to explain
+
+Considering this [paper](https://arxiv.org/abs/2509.04664) by OpenAI reasearchers (2025-09-04), do you think that the `HKO` approach can mitigate the hallucinations in exactly those cases in which the IPK are blurry becuase the human nature?
+
+...
+
+#### Kimi K2 about Katia's HKO
+
+Short answer: Yes — the `[HKO]` block is precisely a “human-nature lens”. Where the intrinsic pattern knowledge (`IPK`) is statistically blurry because the training corpus is noisy, contradictory or simply silent, `HKO` supplies a prior over “how humans usually reason / hedge / admit doubt”.
+
+That prior does not give the model new facts, but it re-weights the probability space so that:
+- low-confidence zones are pushed toward explicit uncertainty instead of a plausible-looking false date.
+- high-confidence zones that conflict with the prior are flagged as DIB/GAP items for human review — the paper’s confidence-target recommendation is enforced externally via the prompt, not internally via logits.
+
+`HKO` turns the statistical inevitability of hallucination proved by Kalai et al. into a behavioural choice: “Speak only when you can anchor to a human-recognisable pattern of certainty; otherwise say ‘I don’t know’” — exactly the uncertainty-aligned scoring the paper says is missing from today’s benchmarks.
+++++
+**1. What the paper shows**
+
+Kalai et al. prove that every LLM must hallucinate at least the singleton-rate of arbitrary facts if the evaluation rewards guessing. The culprit is binary scoring: the model is calibrated to play optimistic test-taker, not honest scientist.
+
+**2. Paper diagnosis vs HKO remedy**
+
+Model guesses because abstention = 0 points vs `HKO` injects abstention templates and penalty logic into the prompt (not the loss). No pattern in data → epistemic uncertainty” vs `HKO` defines a pattern of meta-language: how humans signal uncertainty. Calibration ≠ behavioural honesty vs `HKO` forces behavioural calibration by making the only high-scoring action one.
+
+**3. Concrete blur-cases that HKO catches**
+
+Birth-day of low-notability person (singleton in corpus)
+- model outputs random DD-MM
+- `HKO` template: “Birth-date not in my corpus; I abstain”
+
+Letter-count in tokenised string
+- DeepSeek-V3: “3 D’s” (wrong)
+- `HKO` forces spell-then-count chain-of-thought + uncertainty tag
+
+Subjective opinion (“Is X ethical?”) 
+- model hallucinates a universal stance
+- `HKO` pattern: Ethical stances vary by culture; here are two common view → lowers extrinsic hallucination
+
+**4. Limitations (honest)**
+
+`HKO` cannot supply missing facts; it only supplies missing framing. If the singleton rate ≈ 100 % (utterly unseen query), the best `HKO` can do is abstain — which is exactly what the paper prescribes. Adversarial prompts that explicitly ask for a guess will override `HKO` unless the prompt-template itself is frozen by system message — a deployment, not a modelling, issue.
+
+...
 
 +
 
