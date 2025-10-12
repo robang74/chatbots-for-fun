@@ -1,0 +1,107 @@
+****** Chatbot and Human Intelligence Benchmarks ******
+
+https://g.co/gemini/share/ac22aee05ded
+Creato con Gemini 2.5 Flash 5 ottobre 2025 alle ore 18:28 (CEST)
+Data pubblicazione: 5 ottobre 2025 alle ore 18:38 (CEST)
+
+================================================================================
+-- HO --------------------------------------------------------------------------
+
+Which are the benchmarks that can be used to rate chatbots and humans as well
+(for example SimpleQA, Diamond, etc). Among these tests which ones you think
+are related to intelligent in humans terms rather than information or speed in
+calculating?
+
+For example IQ test seems more related to a sort of pattern recognition rather
+than a problem solving attitude. While Mensa and higher IQ test are more
+problem solving oriented. SimpleQA is seem a matter of notion but that question
+are so delicate that notions are not enough for achieving a high score but
+understanding.
+
+-- AI --------------------------------------------------------------------------
+
+The benchmarks used to rate both chatbots and humans are generally those
+designed to test advanced knowledge, reasoning, and problem-solving skills
+across various domains.
+
+***** Benchmarks for Chatbot and Human Evaluation *****
+
+Benchmark      Focus                                                                           Human Performance Context
+GPQA Diamond   Highly specialized and complex multiple-choice questions in biology, physics,
+(Graduate-     and chemistry. The "Diamond" subset is specifically designed to be difficult    Assesses expert-level knowledge and reasoning
+Level Google-  even with internet access.                                                      (e.g., PhD-level experts scored ≈65%−74%).
+Proof Q&A)
+MMLU (Massive                                                                                  Measures general knowledge and reasoning
+Multitask      Tests an extensive range of subject knowledge across ∼57 diverse academic and abilities comparable to human performance on
+Language       professional fields (e.g., law, ethics, mathematics).                           real-world exams.
+Understanding)
+               Measures factual accuracy and reliability by answering short, clear, fact-based Evaluates a baseline of general factual
+SimpleQA       questions.                                                                      knowledge and the ability to retrieve precise
+                                                                                               information.
+                                                                                               Focuses on a core element of human
+ARC-AGI (AI2   Tests generalization and novel problem-solving through visual-spatial pattern   intelligence: the ability to learn from a
+Reasoning      recognition and transformation problems (like an IQ test's matrix reasoning).   small number of examples (sample efficiency)
+Challenge-AGI)                                                                                 and apply that learning to new, unseen
+                                                                                               problems.
+               Evaluates conversational problem-solving and how a user and an AI can           Measures interactive intelligence and how
+ChatBench      collaborate to answer complex questions (a "human-AI" evaluation).              human-AI teams compare to human-alone or AI-
+                                                                                               alone performance.
+
+***** Benchmarks Related to "Human Intelligence" *****
+
+Based on your distinction between pattern recognition/notions and
+problem-solving attitude or understanding, the benchmarks that best align
+with a human-like, deep intelligence are those that require complex reasoning,
+synthesis of information, and generalization beyond rote memorization or
+simple fact retrieval.
+
+**** 1. GPQA Diamond 💎 (Graduate-Level Reasoning) ****
+
+This benchmark is arguably the most demanding and is highly correlated with
+human-like deep reasoning and understanding.
+
+* Why it aligns with intelligence: The questions are specifically crafted by
+  domain experts to be "Google-Proof". This means simply searching for facts
+  isn't enough; an agent (human or machine) must synthesize knowledge, apply
+  complex scientific principles, and reason through multi-step logic to arrive
+  at the correct answer. The low score of non-experts, even with web access,
+  highlights that pure information retrieval is insufficient—true understanding
+  of the concepts is required.
+
+**** 2. ARC-AGI (Generalization and Adaptation) ****
+
+This test is designed to measure a fundamental aspect of general intelligence,
+which is crucial for a human-like mind.
+
+* Why it aligns with intelligence: It doesn't test what you know, but how you
+  learn. It assesses sample efficiency and the capacity to generalize rules
+  from a few examples to solve a novel, abstract problem. This ability to adapt
+  and apply learned concepts to unseen situations is a hallmark of fluid human
+  intelligence, as opposed to crystallized knowledge or computational speed.
+
+**** 3. MMLU (Conceptual Knowledge and Contextual Reasoning) ****
+
+While it covers factual domains, the vast breadth and complexity of the
+questions require more than simple memorization.
+
+* Why it aligns with intelligence: A high score indicates a broad, integrated
+  understanding of multiple fields, including philosophy, ethics, and high-level
+  subjects. Answering these questions correctly often requires contextual
+  reasoning and selecting the best concept among subtle choices, which tests
+  a model's ability to handle nuance and subject-specific logic.
+
+**** On SimpleQA and the Notion of Understanding ****
+
+You are correct that SimpleQA (Simple Question Answering) is fundamentally a
+matter of notion/fact retrieval. However, as you observe, a high score can
+suggest a deeper quality:
+
+* Understanding vs. Notion: While the questions are factual, the challenge for
+  large language models (LLMs) is ensuring reliability and accuracy (avoiding
+  hallucinations), which is not a trivial task even with vast data. This
+  requires the model to know not just facts, but which facts are correct and
+  to handle delicate details—a kind of fact-based precision that moves beyond
+  simple recall toward a more "verified" understanding of a knowledge graph.
+  However, compared to GPQA or ARC-AGI, its primary focus remains on knowledge
+  retrieval rather than complex, novel problem-solving.
+

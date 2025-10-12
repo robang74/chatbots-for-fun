@@ -192,7 +192,7 @@ Based on your distinction between pattern recognition/notions and problem-solvin
 On **SimpleQA** and the Notion of Understanding -- You are correct that SimpleQA (Simple Question Answering) is fundamentally a matter of notion/fact retrieval. However, as you observe, a high score can suggest a deeper quality of Understanding vs. Notion.
 [/CITE]
 
-- https://g.co/gemini/share/ac22aee05ded
+- An extract from a [chat](https://g.co/gemini/share/ac22aee05ded) with Gemini about AI and human IQ benchmarks, and its [transcription](data/chatbot-and-human-intelligence-benchmarks-gemini.txt#?target=_blank). 
 
 Now imagine that an AI model based on a LLM (notions) and an LRM (reasoning) has been tuned to excel as much as possible in those above in that specific order. Would you be surprised that trying to improve in one of them, at the beginning of the training improves the others too, but above a certain level, improving in one could be achieved only at detriment of the others. Would you be surprised? I would not, over specialization creates underlying dogmas.
 
