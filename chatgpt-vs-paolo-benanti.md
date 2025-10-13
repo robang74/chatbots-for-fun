@@ -619,17 +619,17 @@ Potrebbe stupirci e speriamo anche che lo faccia.
 
 ## Conclusione
 
-[!INFO]
-10 ottobre 2025 -- La storia di Sewell e le risposte che ancora non abbiamo: un chatbot per amico è pericoloso? `[...]` Il suicidio del 14enne innamorato del suo "companion AI" rilancia l'allarme etico: serve una regolamentazione, non facciamo lo stesso errore dei social. -- [Corriere della Sera](https://www.pressreader.com/italy/corriere-della-sera-sette/20251010/281981793789931?srsltid=AfmBOopBfHSQ_ki-2oOg1uiowWAq5SG9oNtwDNLsGxeIfCOwCoPHGvUn) [lknd](https://media.licdn.com/dms/image/v2/D4D22AQEeNv02JsV_-Q/feedshare-shrink_800/B4DZnNs3vjIcAg-/0/1760092746475?e=1762992000&v=beta&t=IkedYrhPOojDElzXOJUo_3ew2R8sSDsyQcYkjubWcH8)
-[/INFO]
-
 I rischi esistono, alcuni sono inevitabili e per la loro corretta gestione vanno sempre considerati relativi a un qualche riferimento. Altrimenti perdono di senso, in quanto privati di un riferimento, naturalmente, si tende ad azzerarli quindi a creare danni perché si prendono azioni drastiche e non equilibrate.
 
 L'auto è più pericolosa della bicicletta? Non è banale stabilirlo perché i due mezzi di trasporto non sono equivalenti ma la proporzione ci aiuta a comprendere quale possa essere l'effettivo impatto nel portare più persone ad usare l'una oppure l'altra. Nei paesi con traffico ordinato, la bicicletta è più sicura.
 
 Questo paragone ci aiuta a comprendere che per rendere più sicuro il trasporto in bicicletta è più utile intervenire sull'ordine della viabilità piuttosto che ostinarsi ad equipaggiare i ciclisti di strumenti di protezione o assilarli di regole. Senza un confronto fra i due rischi, è contro-intuitivo.
 
-Applicato lo stesso punto di vista al caso di cui sopra esposto da Paolo Benanti, potremmo chiederci se il rischio di suicidio fra adolescenti sia maggiore fra quello che assiduamente frequentano l'oratorio e sono più esposti agli abusi del clero oppure quelli che usano intensivamente i chatbot?
+[!INFO]
+10 ottobre 2025 -- La storia di Sewell e le risposte che ancora non abbiamo: un chatbot per amico è pericoloso? `[...]` Il suicidio del 14enne innamorato del suo "companion AI" rilancia l'allarme etico: serve una regolamentazione, non facciamo lo stesso errore dei social. -- [Corriere della Sera](https://www.pressreader.com/italy/corriere-della-sera-sette/20251010/281981793789931?srsltid=AfmBOopBfHSQ_ki-2oOg1uiowWAq5SG9oNtwDNLsGxeIfCOwCoPHGvUn) [lknd](https://media.licdn.com/dms/image/v2/D4D22AQEeNv02JsV_-Q/feedshare-shrink_800/B4DZnNs3vjIcAg-/0/1760092746475?e=1762992000&v=beta&t=IkedYrhPOojDElzXOJUo_3ew2R8sSDsyQcYkjubWcH8)
+[/INFO]
+
+Applicando lo stesso punto di vista al caso sopra esposto da Paolo Benanti, potremmo chiederci se il rischio di suicidio fra adolescenti sia maggiore fra quello che assiduamente frequentano l'oratorio e sono più esposti agli abusi del clero oppure quelli che usano intensivamente i chatbot?
 
 Perché se scopriamo che il clero nuoce alla salute dei giovani più dei chatbot allora occorre prima intervenire a regolamentare il clero. Così come regolamentando in maniera più severa il traffico delle automobile si mettono al sicuro **anche** i ciclisti. Sembra un colpo basso, ma è statistica.
 
@@ -643,7 +643,7 @@ Per esemempio,  nel regolamentare il traffico, può essere fatto in diversi modi
 
 Perciò quando si risponde alla preoccupazione della Chiesa Cattolica al rischio di vedere il clero sostituito da chatbot, e poniamo che ve ne sia almeno uno marginale in termini di utilizzo ma altamento tossico quindi atto a sostenere la loro tesi, razionalmente la risposta rimane:
 
-- guarda alla trave nel tuo occhio, piuttosto che alla pagliuzza nell'occhio di altri.
+- guarda alla trave nel tuo occhio, piuttosto che alla pagliuzza nell'occhio di tuo fratello.
 
 Il precedente Papa aveva scelto una linea di zero tolleranza verso gli abusi da parte del clero, anche se anteponendo l'indagine canonica e la protezione dell'amministrato ecclesiale piuttosto che la denuncia alle autorità civile (Vaticano). Il nuovo Papa, Leone ha scelto un approccio molto più tollerante e di fatto ritornado all'idea che i panni sporchi si lavino in casa.
 
@@ -657,13 +657,15 @@ Di fronte a determinate scelte, appare chiaro che la natura del problema **non**
 
 In conclusione, sarebbe più utile risolvere i vecchi e fastidiosi problemi del passato invece di cercare di scovare altri ancora tutti da dimostrare. Anche perché le statistiche indicano che dall'introduzione dei chatbot, per la prima volta in 25 anni, il [trend dei suicidi](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html#exceptions-always-happen) ha cominciato a calare.
 
-+++++
++
 
 ## Articoli correlati
 
-- [Miss Poppins vs Mr. Spock](https://www.linkedin.com/pulse/miss-poppins-vs-mr-spock-roberto-a-foglietta) ([PDF](https://drive.google.com/file/d/1CpFV3KxY0DvE581e1gK-bT04zYU6ev-Z/view)) (2023-03-27)<!-- [The dilemma AI vs Human decision making](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html) &nbsp; (2025-08-09) //-->
+- [Miss Poppins vs Mr. Spock](https://www.linkedin.com/pulse/miss-poppins-vs-mr-spock-roberto-a-foglietta) ([PDF](https://drive.google.com/file/d/1CpFV3KxY0DvE581e1gK-bT04zYU6ev-Z/view)) &nbsp; (2023-03-27)
 
-+++++
+- [The dilemma AI vs Human decision making](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html) &nbsp; (2025-08-09)
+
++
 
 ## Share alike
 
