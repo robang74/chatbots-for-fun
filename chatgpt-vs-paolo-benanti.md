@@ -635,6 +635,22 @@ Perché se scopriamo che il clero nuoce alla salute dei giovani più dei chatbot
 
 Certo, la statistica ci fornisce correlazioni, rapporti e intensità del rischio. Non ci fornisce automaticamente le relazioni di cause-effetto. Per assurdo il maggiore tasso di suicidi fra i giovani parrocchiani potrebbero essere dovuti ad una minore paura della morte. Assurdo, infatti.
 
+L'elemento dirimente è l'esistenza di un agente attivo, la cui esistenza stessa determina una volontà di agire e quindi i relativi nessi di causa-effetto. Il traffico come i chatbot, sono elementi passivi cioè non hanno volontà propria e quindi non capita mai che inizino un'azione.
+
+...
+
+Per esemempio,  nel regolamentare il traffico, può essere fatto in diversi modi, alcuni più efficaci di altri. Ma qualunque regolamento del traffico che non prevedesse anche un costo e/o pena a fronte di comportamenti antisociale e/o incidente avrebbe come risultato il limitare dei diritti senza utilità alcuna.
+
+Perciò quando si risponde alla preoccupazione della Chiesa Cattolica al rischio di vedere il clero sostituito da chatbot, e poniamo che ve ne sia almeno uno marginale in termini di utilizzo ma altamento tossico quindi atto a sostenere la loro tesi, razionalmente la risposta rimane:
+
+- guarda alla trave nel tuo occhio, piuttosto che alla pagliuzza nell'occhio di altri.
+
+Il precedente Papa aveva scelto una linea di zero tolleranza verso gli abusi da parte del clero, ma prediligendo la gestione interna piuttosto che la denuncia alle autorità. Il nuovo ha scelto un approccio molto più tollerante mantenendo l'idea che i panni sporchi si lavino in casa.
+
+Di fronte a determinate scelte, appare chiaro che la natura del problema **non** sia proteggere i giovani virgulti ma **chi** sia autorizzato dall'assenza di pene a poterne abusare, specialmente di quelli fragili e socialmente a rischio di emarginazione. UK grooming gangs, docet.
+
+...
+
 In conclusione, sarebbe più utile risolvere i vecchi e fastidiosi problemi del passato invece di cercare di scovare altri ancora tutti da dimostrare. Anche perché le statistiche indicano che dall'introduzione dei chatbot, per la prima volta in 25 anni, il [trend dei suicidi](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html#exceptions-always-happen) ha cominciato a calare.
 
 +++++
