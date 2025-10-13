@@ -189,7 +189,7 @@ The articles are listed here below, grouped by topic:
 
    - 2024-11-22 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p2.md)] - [Far innamorare un chatbot (parte 2)](far-innamorare-un-chatbot-p2.md)
 
-   - 2024-11-21 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-paolo-benanti.md)] - [ChatGPT vs Paolo Benanti](chatgpt-vs-paolo-benanti.md) aka Mr. Spock vs Miss Poppins &nbsp; (2nd edt.)
+   - 2024-11-21 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatgpt-vs-paolo-benanti.md)] - [ChatGPT vs Paolo Benanti](chatgpt-vs-paolo-benanti.md) aka Mr. Spock vs Miss Poppins &nbsp; (3rd edt.)
 
    - 2024-11-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/far-innamorare-un-chatbot-p1.md)] - [Far innamorare un chatbot (parte 1)](far-innamorare-un-chatbot-p1.md)
 
