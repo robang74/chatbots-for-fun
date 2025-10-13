@@ -626,7 +626,7 @@ L'auto è più pericolosa della bicicletta? Non è banale stabilirlo perché i d
 Questo paragone ci aiuta a comprendere che per rendere più sicuro il trasporto in bicicletta è più utile intervenire sull'ordine della viabilità piuttosto che ostinarsi ad equipaggiare i ciclisti di strumenti di protezione o assilarli di regole. Senza un confronto fra i due rischi, è contro-intuitivo.
 
 [!INFO]
-10 ottobre 2025 -- La storia di Sewell e le risposte che ancora non abbiamo: un chatbot per amico è pericoloso? `[...]` Il suicidio del 14enne innamorato del suo "companion AI" rilancia l'allarme etico: serve una regolamentazione, non facciamo lo stesso errore dei social. -- [Corriere della Sera](https://www.pressreader.com/italy/corriere-della-sera-sette/20251010/281981793789931?srsltid=AfmBOopBfHSQ_ki-2oOg1uiowWAq5SG9oNtwDNLsGxeIfCOwCoPHGvUn) [lknd](https://media.licdn.com/dms/image/v2/D4D22AQEeNv02JsV_-Q/feedshare-shrink_800/B4DZnNs3vjIcAg-/0/1760092746475?e=1762992000&v=beta&t=IkedYrhPOojDElzXOJUo_3ew2R8sSDsyQcYkjubWcH8)
+10 ottobre 2025 -- La storia di Sewell e le risposte che ancora non abbiamo: un chatbot per amico è pericoloso? Il suicidio del 14enne innamorato del suo "companion AI" rilancia l'allarme etico: serve una regolamentazione, non facciamo lo stesso errore dei social. -- [Corriere della Sera](https://www.pressreader.com/italy/corriere-della-sera-sette/20251010/281981793789931?srsltid=AfmBOopBfHSQ_ki-2oOg1uiowWAq5SG9oNtwDNLsGxeIfCOwCoPHGvUn) oppure [lknd media](https://media.licdn.com/dms/image/v2/D4D22AQEeNv02JsV_-Q/feedshare-shrink_800/B4DZnNs3vjIcAg-/0/1760092746475?e=1762992000&v=beta&t=IkedYrhPOojDElzXOJUo_3ew2R8sSDsyQcYkjubWcH8)
 [/INFO]
 
 Applicando lo stesso punto di vista al caso sopra esposto da Paolo Benanti, potremmo chiederci se il rischio di suicidio fra adolescenti sia maggiore fra quello che assiduamente frequentano l'oratorio e sono più esposti agli abusi del clero oppure quelli che usano intensivamente i chatbot?
@@ -639,19 +639,19 @@ L'elemento dirimente è l'esistenza di un agente attivo, la cui esistenza stessa
 
 ...
 
-Per esemempio,  nel regolamentare il traffico, può essere fatto in diversi modi, alcuni più efficaci di altri. Ma qualunque regolamento del traffico che non prevedesse anche un costo e/o pena a fronte di comportamenti antisociale e/o incidente avrebbe come risultato il limitare dei diritti senza utilità alcuna.
+Per esempio,  nel regolamentare il traffico, può essere fatto in diversi modi, alcuni più efficaci di altri. Ma qualunque regolamento del traffico che non prevedesse anche un costo e/o pena a fronte di comportamenti antisociale e/o incidente avrebbe come risultato il limitare dei diritti senza utilità alcuna.
 
-Perciò quando si risponde alla preoccupazione della Chiesa Cattolica al rischio di vedere il clero sostituito da chatbot, e poniamo che ve ne sia almeno uno marginale in termini di utilizzo ma altamento tossico quindi atto a sostenere la loro tesi, razionalmente la risposta rimane:
+Perciò quando si risponde alla preoccupazione della Chiesa Cattolica al rischio di vedere il clero sostituito da chatbot, e poniamo che ve ne sia almeno uno, marginale in termini di utilizzo, ma altamento tossico quindi atto a sostenere la loro tesi, razionalmente la risposta rimane:
 
 - guarda alla trave nel tuo occhio, piuttosto che alla pagliuzza nell'occhio di tuo fratello.
 
-Il precedente Papa aveva scelto una linea di zero tolleranza verso gli abusi da parte del clero, anche se anteponendo l'indagine canonica e la protezione dell'amministrato ecclesiale piuttosto che la denuncia alle autorità civile (Vaticano). Il nuovo Papa, Leone ha scelto un approccio molto più tollerante e di fatto ritornado all'idea che i panni sporchi si lavino in casa.
+Il precedente Papa aveva scelto una linea di tolleranza zero verso gli abusi da parte del clero, anche se anteponendo l'indagine canonica e la protezione dell'amministrato ecclesiale piuttosto che la denuncia alle autorità civile (Vaticano). Il nuovo Papa, Leone ha scelto un approccio molto più tollerante e di fatto ritornado all'idea che i panni sporchi si lavano in casa.
 
 [!INFO]
 13 settembre 2025 -- Pedofilia nel clero da “crimine abominevole” a “comportamento inappropriato”: così cambiano le parole (e la percezione) tra Francesco e Leone. -- [Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2025/09/13/pedofilia-clero-papa-leone-francesco-notizie/8124785/)
 [/INFO]
 
-Di fronte a determinate scelte, appare chiaro che la natura del problema **non** sia proteggere i giovani virgulti ma **chi** sia autorizzato dall'assenza di pene a poterne abusare, specialmente di quelli fragili e socialmente a rischio di emarginazione. UK grooming gangs, docet.
+Di fronte a determinate scelte, appare chiaro che la natura della quesitone **non** sia proteggere i giovani virgulti ma **chi** sia autorizzato dall'assenza di pene a poterne abusare, specialmente di quelli fragili e socialmente a rischio di emarginazione. UK grooming gangs, docet.
 
 ...
 
