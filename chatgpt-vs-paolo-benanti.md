@@ -9,7 +9,7 @@
 
 - **2nd edition**, aggiunge la [conclusione](#conclusione). L'articolo in 1a edizione è molto lungo e la sua scrittura si collocava temporalmente fra il debutto di ChatGPT e questa 2a edizione. Molte cose sono cambiate in tema di AI e chatbot: molti più dati su cui fare valutazione di impatto e di rischio sono oggi disponibili. Sicché è ragionevole che lettore slati direttamente alla conclusione aggiornata.
 
-- **3rd edition**, la prima parte è stata completamente riformulata preché molto lunga e quindi impegnativa da leggere. Quel testo rimane disponibile come trascrizione della conversazione fra l'autore e Gemini sull'articolo di Paolo Benanti. Però, nell'articolo vengono inseriti tre indici {prompt, argomenti, conclusioni} che permettono molto meglio di navigare la conversazione originale.
+- **3rd edition**, la prima parte dell'articolo è stata completamente riformulata preché molto lunga e quindi impegnativa da leggere. Quel testo rimane disponibile come trascrizione della conversazione fra l'autore e Gemini sull'articolo di Paolo Benanti. Però, nell'articolo vengono inseriti tre indici {prompt, argomenti, conclusioni} che permettono molto meglio di navigare la conversazione originale.
 
 ---
 
