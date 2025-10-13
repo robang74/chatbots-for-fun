@@ -645,7 +645,11 @@ Perciò quando si risponde alla preoccupazione della Chiesa Cattolica al rischio
 
 - guarda alla trave nel tuo occhio, piuttosto che alla pagliuzza nell'occhio di altri.
 
-Il precedente Papa aveva scelto una linea di zero tolleranza verso gli abusi da parte del clero, ma prediligendo la gestione interna piuttosto che la denuncia alle autorità. Il nuovo ha scelto un approccio molto più tollerante mantenendo l'idea che i panni sporchi si lavino in casa.
+Il precedente Papa aveva scelto una linea di zero tolleranza verso gli abusi da parte del clero, anche se anteponendo l'indagine canonica e la protezione dell'amministrato ecclesiale piuttosto che la denuncia alle autorità civile (Vaticano). Il nuovo Papa, Leone ha scelto un approccio molto più tollerante e di fatto ritornado all'idea che i panni sporchi si lavino in casa.
+
+[!INFO]
+13 settembre 2025 -- Pedofilia nel clero da “crimine abominevole” a “comportamento inappropriato”: così cambiano le parole (e la percezione) tra Francesco e Leone. -- [Il Fatto Quotidiano](https://www.ilfattoquotidiano.it/2025/09/13/pedofilia-clero-papa-leone-francesco-notizie/8124785/)
+[/INFO]
 
 Di fronte a determinate scelte, appare chiaro che la natura del problema **non** sia proteggere i giovani virgulti ma **chi** sia autorizzato dall'assenza di pene a poterne abusare, specialmente di quelli fragili e socialmente a rischio di emarginazione. UK grooming gangs, docet.
 
