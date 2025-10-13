@@ -46,11 +46,10 @@ Esprimo P910 has an Intel PRO/1000 Gigabit ethernet which linked with a cheap US
 
 [!CODE]
 k80user@p910:~$ nc -l 1111 > /dev/null
-
-roberto@x390:~$ dd if=/dev/zero bs=1500 count=16K | nc -N 10.10.10.2 1111<br>
-16384+0 records in<br>
-16384+0 records out<br>
-24576000 bytes (25 MB, 23 MiB) copied, 2.01924 s, 12.2 MB/s
+roberto@x390:~$ dd if=/dev/zero bs=1500 count=16K | nc -N 10.10.10.2 1111
+ 16384+0 records in
+ 16384+0 records out
+ 24576000 bytes (25 MB, 23 MiB) copied, 2.01924 s, 12.2 MB/s
 [/CODE]
 
 Which is good-enough for a reactive GUI remote control but relatively slow to transfer large amount of data. So, a Gigabit USB adapter is worth its 2x price.
@@ -66,51 +65,43 @@ Which is good-enough for a reactive GUI remote control but relatively slow to tr
 In order to avoid to waste our time switching between our laptop/PC and the GPU server:
 
 - login into Gnome GUI session with the k80usr's password (e.g. no autologin session)
-
 - `Settings --> System --> Remote Desktop --> Desktop Sharing --> Remote Control --> ON`
-
 - `Settings --> System --> Users --> Unlock --> Automatic Login --> OFF`
-
 - `Settings --> System --> Secure Shell --> ON`
   - `sudo apt install openssh-server -y`  <-- *in whatever rather than Ubuntu 24.04*
-
 - `Settings --> Privacy & Security --> Blank Screen Delay --> NEVER`
 
 These settings will allow us to access the GPU server with Remmina and any SSH client.
 
 ++++
-
 #### Root SSH password-less login
 
 We are lazy and we are proud of it, especially when repetitive tasks are at stake. This includes password digitization for frequent accesses. One in particular is the root access to a remote host using SSH without entering the password. Moreover, by the password is a way of login that usually is disabled by default for the `root` user, at least.
 
 [!CODE]
 **# On the client side**
-
-ssh-keygen -t rsa<br>
-ssh-copy-id k80usr@10.10.10.2<br>
-ssh k80usr@10.10.10.2<br>
+ssh-keygen -t rsa
+ssh-copy-id k80usr@10.10.10.2
+ssh k80usr@10.10.10.2
 
 **# On the server side**
-
-sudo -s<br>
-mkdir -p /root/.ssh<br>
-cat /home/k80usr/.ssh/authorized_keys >>/root/.ssh/authorized_keys<br>
-chmod go-wrx -R /root/.ssh<br>
-echo "tput cvvis" >> ~/.bashrc<br>
-echo "set nocompatible" >> ~/.vimrc<br>
-touch ~/.Xauthority<br>
-exit<br>
-echo "tput cvvis" >> ~/.bashrc<br>
-echo "set nocompatible" >> ~/.vimrc<br>
-touch ~/.Xauthority<br>
-exit<br>
+sudo -s
+mkdir -p /root/.ssh
+cat /home/k80usr/.ssh/authorized_keys >>/root/.ssh/authorized_keys
+chmod go-wrx -R /root/.ssh
+echo "tput cvvis" >> ~/.bashrc
+echo "set nocompatible" >> ~/.vimrc
+touch ~/.Xauthority
+exit
+echo "tput cvvis" >> ~/.bashrc
+echo "set nocompatible" >> ~/.vimrc
+touch ~/.Xauthority
+exit
 
 **# On the client side**
-
-printf "\nrl() { ssh -XY root@10.10.10.2; }\n" >> ~/.bashrc<br>
-printf "sl() { ssh -XY k80usr@10.10.10.2; }\n" >> ~/.bashrc<br>
-bash; rl<br>
+printf "\nrl() { ssh -XY root@10.10.10.2; }\n" >> ~/.bashrc
+printf "sl() { ssh -XY k80usr@10.10.10.2; }\n" >> ~/.bashrc
+bash; rl
 [/CODE]
 
 Appending two functions at the `.bashrc` file, in every new `bash` shell we can just digit `sl` or `rl` for user or root login on our GPU server.
@@ -124,21 +115,20 @@ The Esprimo P910 comes with a DVI port, and in case you plan to couple with an o
 Unfortunately, it also affects the resolution of the shared desktop by Gnome RDP. In order to mitigate this limitation, it is worth installing the Gnome tweaks and injecting a new resolution from a Gnome terminal:
 
 [!CODE]
-sudo apt install gnome-tweaks -y<br>
-echo WaylandEnable=false | sudo tee -a /etc/gdm3/custom.conf<br>
-mcvt='$(cvt 1280 1024 75 | tail -n1 | cut -d\" -f3-)'<br>
-echo '#!/bin/bash'"<br>
-xrandr --newmode 1280x1024 $mcvt<br>
-xrandr --addmode VGA-1 1280x1024<br>
-xrandr --output VGA-1 --mode 1280x1024<br>
+sudo apt install gnome-tweaks -y
+echo WaylandEnable=false | sudo tee -a /etc/gdm3/custom.conf
+mcvt='$(cvt 1280 1024 75 | tail -n1 | cut -d\" -f3-)'
+echo '#!/bin/bash'"
+xrandr --newmode 1280x1024 $mcvt
+xrandr --addmode VGA-1 1280x1024
+xrandr --output VGA-1 --mode 1280x1024
 " > ~/.xinitrc; chmod +x ~/.xinitrc
-
 gnome-session-properties # to add the .xinitrc script
 [/CODE]
 
 With Gnome tweaks we can change the fonts and icons sizes, plus setting the zoom at 75%. Which combined with the maximum resolution supported by the monitor (e.g. 1280x1024, 5:4) provides a display equivalent area (e.g. 1700x1366) enlarged by 78% (and 3x than the 1024x768 given by the adapter) but at lower 96 --> 72 DPI resolution. Not bad at all, for an old piece of trashware! {;-)}
 
-~~~~
+---
 
 ### Wi-Fi/LAN networking
 
@@ -157,13 +147,12 @@ Please note that within the **RTL8188**’s family there are adapters which supp
 Let start from the basics, here below some line commands for Ubuntu just for starting with the P910 before even installing the Tesla K80 within, with `sudo -s` root priviledges:
 
 [!CODE]
-apt install lm-sensors fancontrol hardinfo i2c-tools python3-smbus pigz acpi \<br>
- &nbsp; &nbsp; kmod cpufrequtils wget read-edid hwinfo htop unzip synaptic \<br>
+apt install lm-sensors fancontrol hardinfo i2c-tools python3-smbus pigz acpi \
+ &nbsp; &nbsp; kmod cpufrequtils wget read-edid hwinfo htop unzip synaptic \
  &nbsp; &nbsp; gedit acpid acpitool inxi gkrellm gkrellm-cpufreq -y
-
-modprobe coretemp cpuid<br>
-echo "cpuid" >>/etc/modules<br>
-service kmod start; sensors-detect --auto<br>
+modprobe coretemp cpuid
+echo "cpuid" >>/etc/modules
+service kmod start; sensors-detect --auto
 systemctl enable fancontrol; sensors; pwmconfig
 [/CODE]
 
@@ -173,15 +162,15 @@ Moreover, the application [gkrellm](https://gkrellm.srcbox.net/) - even if it is
 
 Which is the highest temperature seen up to now, with the case open and laying on its closed side. Which makes the CPU radiator operate in a sub-optimal way, as per its factory design. Without the support of an active device like a fan, it relies on the "hot-air is lighter" physics principle that lets the air flow bottom-up through its fins for natural convection. But in that position, laying down 90° tilted, the air tends to remain trapped among its fins instead of flowing and the main fan - with the case open - is too far to bring a sensitive benefit before its flow spreads around unguided.
 
----
+----
 
 ### Noise control
 
 Time to close the tower case and raise it on its feet again.
 
 [!CODE]
-dd if=/dev/zero bs=1M | pigz -11 -p4 - >/dev/null &<br>
-for i in $(seq 1 40); do sensors | grep Package;<br>
+dd if=/dev/zero bs=1M | pigz -11 -p4 - >/dev/null &
+for i in $(seq 1 40); do sensors | grep Package;
 sleep 1; done & sleep 30; killall pigz; echo;
 [/CODE]
 
@@ -192,7 +181,6 @@ Running this code for two times in a row, lead to warm up the CPU core:
 At 75°C the main 12 cm fan starts to be loud, working at almost the full throttle. This is because the default BIOS configuration is tuned to be silent as much as possible. However, these settings could be changed and the difference is very sensitive.
 
 - `F2 --> BIOS --> Advanced --> Acoustic Management --> Acoustic Management --> 0/1`
-
 - `F2 --> BIOS --> Advanced --> System Monitoring --> Fan Control --> auto, enhanced, disabled`
 
 While acoustic management has an impact on "auto" and "enhanced" fan control modes, it has not on "disabled" for which all the fans are running at their full throttle.
@@ -221,9 +209,7 @@ Using this [script](https://raw.githubusercontent.com/robang74/chatbots-for-fun/
 Notice that decibel are a logarithmic way of measuring the ratio between two sound intensities, alike human hearing are working. Hence considering a referencing intensity (32 dB) then the difference with another value gives us the absolute ratio between the two related intensities despite the scale was not standardly calibrated.
 
 [!INFO]
-
 In the final version of the manual, this part will end up after the BIOS upgrade chapter, so before every hardware change. Instead, the temperatures above reported, have been taken after having modified the Esprimo P910 moving its main 12cm fan and installing the handcraft baffle to increase the case air-flow. At the time of the measures, the two middle PCI slot covers were removed. Hence, it could be possible to find different values with the original hardware configuration.
-
 [/INFO]
 
 For sake of completeness, these temperatures have been measured in a 20°C room temperature. Sometimes, the ending temperature is lower than the starting temperature but this should not surprise us because in the meantime the fan started to cool down the CPU and the ending temperature is taken after 15 seconds the 30s job is completed.
@@ -262,8 +248,6 @@ These options are the suggested for the Linux kernel command line:
    - to prevent the generic open-source nvidia cards driver to be loaded on boot
    - avoid kernel load the Chrome OS related module because P910 hardware specs
 
-++++
-
 - `pci=realloc` and `intel_iommu=on iommu=pt intremap=on pci=assign-busses,routeirq`
    - due to an explicit suggestion for adding that argument by the `dmesg` output
    - more parameters about the PCI/e subsystem for the sake of Nvidia K80 board
@@ -271,10 +255,9 @@ These options are the suggested for the Linux kernel command line:
 The above parameters should go into the `GRUB_CMDLINE_LINUX_DEFAULT` variable which is recorded into the `/etc/default/grub` file. Then `sudo update-grub` to write the change in the grub's boot record. Moreover, blacklisting these two kernel modules and rebuild all the initramfs files, is a good idea:
 
 [!CODE]
-( echo; echo "blacklist chromeos_pstore"; echo "blacklist nvidiafb";<br>
- &nbsp; echo "blacklist nouveau" )| sudo tee -a /etc/modprobe.d/blacklist.conf<br>
-
-sudo update-initramfs -u -k all<br>
+( echo; echo "blacklist chromeos_pstore"; echo "blacklist nvidiafb";
+ &nbsp; echo "blacklist nouveau" )| sudo tee -a /etc/modprobe.d/blacklist.conf
+sudo update-initramfs -u -k all
 [/CODE]
 
 Then `reboot` to let the system restart with the new settings. Finally, after the reboot `cat /proc/cmdline` and `lsmod` to check.

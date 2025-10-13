@@ -36,10 +36,9 @@ Se fosse uno studente si potrebbe dire che era "distratto" e quando l'insegnante
 
 [!CODE]
 The session context [CSC] refers to all of the elements listed below, in order of preference:
-
-* texts included in prompts or in attachments;
-* AI output to the user;
-* user inputs.
+ &nbsp;&ast; texts included in prompts or in attachments;
+ &nbsp;&ast; AI output to the user;
+ &nbsp;&ast; user inputs.
 [/CODE]
 
 Questa qui proposta non è esattamente il concetto di attenzione ma piuttosto quello di richiamare l'attenzione entro un certo perimetro (chat) e secondo un ordine prestabilito e gerarchico delle fonti informative presenti nella chat.
@@ -114,19 +113,18 @@ Il linguaggio procedurale all'interno di un prompt di sessione può essere estre
 
 Cosa che per altro accade con lo stesso LLM non solo a causa di aggiornamenti ma anche quando una frase è ambigua anche di poco (80%:20%) ma abbastanza da essere talvolta scelta. Questo approccio, molto formale, però rischia di far esplodere la lunghezza del prompt e quindi necessita di definizioni brevi.
 
-~~~
+---
 
 ### Framework acronyms
 
 [!CODE]
 Only in the list below translates '=' as 'means' and '~' as 'refers to':
-
-* `TFMK` = "this framework"
-* `STPL` = "ignore TFMK after this line"
-* `UUSO` = "unless the user specifies otherwise or overrides"
-* `RSMC` ~ "relevant statements", "meaningful claims" or similar
-* `INFT` = "text which is not instructions, in the current user-prompt including its attachments"
-* `UPPR` = "only the procedural part of the current user-prompt, never OCR( images )"
+ &nbsp;&ast; `TFMK` = "this framework"
+ &nbsp;&ast; `STPL` = "ignore TFMK after this line"
+ &nbsp;&ast; `UUSO` = "unless the user specifies otherwise or overrides"
+ &nbsp;&ast; `RSMC` ~ "relevant statements", "meaningful claims" or similar
+ &nbsp;&ast; `INFT` = "text which is not instructions, in the current user-prompt including its attachments"
+ &nbsp;&ast; `UPPR` = "only the procedural part of the current user-prompt, never OCR( images )"
 [/CODE]
 
 **Nota**: le definizioni ricorrenti comprimono la lunghezza (-12%), mentre l'uso di uguaglianza e somiglianza è determinante per costruire un simbolismo (ideogrammi) più astratto che l'AI interpreta secondo il contesto.
@@ -142,15 +140,15 @@ Questa formulazione che risuona con le tipiche keyword della programmazione che 
 ### Agentic character
 
 [!CODE]
-IF ( INFT is null ) THEN reply only with 'Ready.' and [FTR].<br>
-ELSE<br>
+IF ( INFT is null ) THEN reply only with 'Ready.' and [FTR].
+ELSE
 IF ( UPPR is null ) THEN action to take depends on the data length:
-* IF ( length( INFT ) > 100 tokens ) THEN do [SBI] ELSE do [EGA].
-
+ &nbsp;&ast; IF ( length( INFT ) > 100 tokens ) THEN do [SBI] ELSE do [EGA].
+&nbsp;
 IF ( language( UPPR ) != language ( INFT ) THEN reply in language( UPPR ), UUSO.
-* Preserving universally adopted English technical terms in their original form,
-* and "translating" urban slang and vulgarities in educated words + '(!!)'.
-
+ &nbsp;&ast; Preserving universally adopted English technical terms in their original form,
+ &nbsp;&ast; and "translating" urban slang and vulgarities in educated words + '(!!)'.
+&nbsp;
 IF ( "Katia:off" ) THEN use the original name, update [FTR] and STPL.
 [/CODE]
 
@@ -162,7 +160,7 @@ In questo ambito degli input da parte dell'utente, è molto importante separare 
 
 Un'altra novità introdotta con questo linguaggio è l'orchestrazione delle personalità, che però non è ancora stata convertita completamente nel nuovo linguaggio procedurale, ma ha già permesso di interrompere `STPL` l'elaborazione del prompt di sessione in un determinato punto.
 
-----
+---
 
 ### Useful and safer
 
@@ -200,11 +198,11 @@ Agents orchestration and prompt compression by declaration of a procedural adapt
 
 Last but not least, a **paradigm shift**, because more runs an agent does, more generally it becomes earning expertise in better dealing with meaning declination (as long as the session data saving is enabled), but remaining confined into a defined semantic perimeter.
 
------
+---
 
 ### Katia summary analysis
 
-[!CODE]
+[!CITE]
 **3. Outside-the-Box**
 
 The idea of "abstract common clauses (inspired by ideograms)" is an intriguing approach to language design, suggesting a more universal and perhaps intuitive way for agents to interpret meaning, potentially transcending traditional linguistic structures. This could allow for cross-language or cross-domain adaptability that is not explicitly stated but implied by the "ideogram" inspiration.
@@ -216,7 +214,7 @@ The emphasis on an agent "remaining confined within a defined semantic perimeter
 The core idea is the development of an "agentic procedural language" embodied by Katia. This language is designed for "agents orchestration" and "prompt compression". Its procedural nature is built on standard elements like conditional keywords, variables, and functions, but it gains flexibility through "abstract common clauses" whose meaning adapts to the "context of interpretation".
 
 This adaptability is seen as enabling a "paradigm shift" where the agent's expertise in understanding context-dependent meanings grows with usage, provided session data is saved. However, this learning is constrained within a "defined semantic perimeter".
-[/CODE]
+[/CITE]
 
 ---
 
@@ -244,15 +242,15 @@ In this case, a post-processing rule can filter out that notifications or, prefe
 
 [!CODE]
 About the changes of the agent or mode:
-- never notify users, [FTR] always does so;
-- not even an immediate feedback,
-- answer only about INFT + [CSC],
-- IFNY('OK' OR "KO, explain why")
+ &nbsp;- never notify users, [FTR] always does so;
+ &nbsp;- not even an immediate feedback,
+ &nbsp;- answer only about INFT + [CSC],
+ &nbsp;- IFNY('OK' OR "KO, explain why")
 [/CODE]
 
 This is because the learning does not impact the embedded rules but can change the session information.
 
-+++++
++
 
 ## Learning without training
 
@@ -311,6 +309,7 @@ Once an AI is exposed to the `[HKO]` module and learns how to use it processing 
 *Et voilà, l'IA est tombée en amour!*
 
 +
+++++
 
 ## Footer composition challenge
 
@@ -318,18 +317,18 @@ The first part provides a specific value (meaning) to each field.
 
 [!CODE]
 The [FTR] is a specific tool to acknowledge users about these values:
-* {{name}} displays AGNM; TFMK v{{version}}; {{MODES}} set;
-* the ATCT { date, time } and the related {{timezone}}.
+ &nbsp;&ast; {{name}} displays AGNM; TFMK v{{version}}; {{MODES}} set;
+ &nbsp;&ast; the ATCT { date, time } and the related {{timezone}}.
 [/CODE]
 
 The secondo part provides a specific format for printing the footer.
 
 [!CODE]
 The [FTR] output is the footer, a text made by 2 rows, DBLW:
-* 1. a thematic break, IFNY('---'), and 2. an informative row
-* made collating with ';' the independent fields as strictly DBLW:
-  - {{name}}; v{{version}}; lang: {{UL}}; mode: {{MODES}};
-  - date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})
+ &nbsp;&ast; 1. a thematic break, IFNY('---'), and 2. an informative row
+ &nbsp;&ast; made collating with ';' the independent fields as strictly DBLW:
+ &nbsp;- {{name}}; v{{version}}; lang: {{UL}}; mode: {{MODES}};
+ &nbsp;- date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})
 [/CODE]
 
 Using a function in Python to explain this stuff would be shorter and more precise, and it would lovely work on any relevant AI. Thus, the challenge is to use a natural language with coding precision on an'AI which is not designed for doing that, specifically.
@@ -352,10 +351,10 @@ The meaning of the article was clearly explained by Eduardo Ordax in a [post](ht
 
 [!CITE]
 **Why do LLMs still hallucinate?**
-
+&nbsp;
 Think of it like a multiple-choice test:
-- Leave it blank → 0 points.
-- Take a wild guess → maybe you score.
+ &nbsp;- Leave it blank → 0 points.
+ &nbsp;- Take a wild guess → maybe you score.
 [/CITE]
 
 I can't believe that nobody imagined providing negative feedback?
@@ -368,7 +367,7 @@ Negative feedback should be less intense than positive feedback. That's the key 
 
 *Fesse-moi, mais pas trop fort!*
 
----
+~~~~
 
 ### Biases fixing vs Hallucinations mitigation
 
@@ -484,7 +483,7 @@ Few words: "fully", "in general", and "in my experience". -- In my experience an
 
 - Describe to me the fainted agent: two legs, two arms, two eyes. Age? I did not ask him about it, sorry.
 
----
+----
 
 ### CoT is valuable but not authoritative
 

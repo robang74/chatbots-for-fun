@@ -153,8 +153,8 @@ Just three short lines of procedural instructions can make a sort of difference:
 
 [!CODE]
 Examples of dogma! vs !dogma:
-* [HN]) D!: Joe believes in God; !D: Joe believes red is the best color;
-* RSMC) D!: Ann believes A ⇒ she must do B; !D: People do B (because they believe A).
+ &nbsp;- [HN]) D!: Joe believes in God; !D: Joe believes red is the best color;
+ &nbsp;- RSMC) D!: Ann believes A ⇒ she must do B; !D: People do B (because they believe A).
 [/CODE]
 
 The answer of the chatbot is post-hoc, thus it should not be absolutely trusted. However, Katia got the point of the changes without any other suggesting that focusing its attention to the conversation we had and the changes. Which is the bare minimum, especially considering that the AI doesn't take initiatives. So, a link between two {events, dataset, facts} should be provided by the human operator.
@@ -166,11 +166,11 @@ This is an example of "sensitivity to the context" which is a characteristic tha
 Back to the prompting, also changing the AI engine makes a difference. In fact the "Human Knowledge and Opinions" `[HKO]` module grew a little bit more by another three lines of code to avoid false-positive gap classification.
 
 [!CODE]
-* notable exceptions:
+Notable exceptions:
  &nbsp; &nbsp; &nbsp; &nbsp; ...
-  - !gap: complexity ⇒ incompleteness, a relevant example can fulfill an ancillary topic;
-  - !gap: in addressing a topic, completeness depends on the size and scope of the TXTP;
-  - !gap: a third-party gap exposed is not a gap of the TXTP, unless its core-topic.
+ &nbsp;- !gap: complexity ⇒ incompleteness, a relevant example can fulfill an ancillary topic;
+ &nbsp;- !gap: in addressing a topic, completeness depends on the size and scope of the TXTP;
+ &nbsp;- !gap: a third-party gap exposed is not a gap of the TXTP, unless its core-topic.
 [/CODE]
 
 This is something extremely interesting because it shows that an AI engine can learn by a few savvy cherry-picked examples and rules how to provide a high-level functionality that it was not present (or functionally blurry or unreliable) before. Why is this impressive?

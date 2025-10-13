@@ -85,7 +85,6 @@ Micromanagement is a talent/opportunity killer unless tutoring a novice.
 
 [!CITE]
 Is this a better form?
-+++++
 - Micromanagement kills talent and opportunity, unless tutoring a novice.
 [/CITE]
 
@@ -96,7 +95,6 @@ Is this a better form?
 What do you think about the narrative structure, for a seasoned manager:
 
 1. poverty trap (is obvious)
-+++++
 2. opportunity cost (is obvious)
 
 and then, **paff** the not-obvious link: then why do you allow micromanagement?
@@ -189,10 +187,10 @@ The answers to this new prompt inspired to me a new approach to reach a fully fl
 By an instinctive guess, the best prompt is the one used in test n.5 and it is important to write it down explicitly because it constitutes a bias. Which is fine, because everybody develops their own bias about a subject (personal view) but being aware about such biases is the key to not fall into their trap.
 
 [!CODE]
-mytrs() { iconv -f UTF-8 -t ASCII//IGNORE "$1" | markdown | html2text; }<br>
-mytxt() { mytrs "$1" 2>&3 | sed -e 's,^==&ast;$,,' -ne '/./p'; }<br>
-mycat() { mytxt "$1" |  tr '\n' ' ' | tr -s '\# &ast;'; }<br>
-for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<br>
+mytrs() { iconv -f UTF-8 -t ASCII//IGNORE "$1" | markdown | html2text; }
+mytxt() { mytrs "$1" 2>&3 | sed -e 's,^==&ast;$,,' -ne '/./p'; }
+mycat() { mytxt "$1" |  tr '\n' ' ' | tr -s '\# &ast;'; }
+for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;
  &nbsp; &nbsp; do echo "$(mycat $i | wc -c) \t $i"; done
 [/CODE]
 
@@ -237,8 +235,8 @@ The best choice is to have a reasonably long explanation followed by an extremel
 To check for the compressed size, replacing `wc -c` with a shell function is enough:
 
 [!CODE]
-mysze() { pigz -11c | dd bs=1 of=/dev/null 2>&1 | grep bytes | cut -d' ' -f1; }<br>
-for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;<br>
+mysze() { pigz -11c | dd bs=1 of=/dev/null 2>&1 | grep bytes | cut -d' ' -f1; }
+for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;
  &nbsp; &nbsp; do echo "$(mycat $i | mysze) \t $i"; done
 [/CODE]
 
@@ -294,14 +292,13 @@ Reading this long conversation will explain why:
 or just jumping at its end, after the [EGA] mode was disabled:
 
 - **RAF**: Is the initial gap filled now?
-
 - **Katia**: Yes.
 
 In arguing with Katia v0.6.2 in `[EGA]` mode, she would never have agreed that the gap was filled. In fact, in that mode she isn't able to conclude a reasoning but just an analysis. Which is the reason for which the `[EGA]` mode is not enabled by default, even if it resembles the framework title.
 
 That's because Katia, in `[EGA]` mode, is always right! {:-D}
 
-.....
+...
 
 <span id="update-2025-07-18"></span>
 #### Update 2025-07-18
@@ -345,6 +342,7 @@ Thus theology is a mixture of `[HK]` (human knowledge) and its peculiarity is ab
 Thus by its dogmatic core nature, theology bends logic and rational reasoning because it cannot accept a demonstration of absurdity, for example. Dogmans are Truths that cannot be argued despite leading to absurdity, and those absurdities are usually called "mystery of faith". Correct?
 [/CITE]
 
+++++
 #### Prompt #10
 
 [!CITE]
@@ -396,7 +394,7 @@ We certainly cannot expect that such a small piece of information can turn a LLM
 +++++
 - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
 
-+
++++++
 
 ## Share alike
 

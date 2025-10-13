@@ -20,7 +20,6 @@ This document provides a guide for creating a bootable FreeDOS USB 64MB drive fo
 ### 2. Last stable LiteUSB 
 
 - **Source**: [FreeDOS 1.3 Lite USB](https://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.3/official/FD13-LiteUSB.zip)
-
    - wget : $archive
    - unzip : $archive
    - dd : $image : $usbdisk
@@ -37,30 +36,26 @@ This document provides a guide for creating a bootable FreeDOS USB 64MB drive fo
 
 ### 4. Latest diagnostic tools available
 
-[!INFO]
-
-System Diagnostics DOS (USB Stick)<br>
-Versione: 4.06.131206 (05/12/2013)<br>
-Dimensione: 10.43 MB<br>
-MD5: EA755F40B1156A12A0DC23707BB539ED<br>
+[!CODE]
+System Diagnostics DOS (USB Stick)
+Versione: 4.06.131206 (05/12/2013)
+Dimensione: 10.43 MB
+MD5: EA755F40B1156A12A0DC23707BB539ED
 SHA256: 32EF5E94C820745C19323BC039186E253D7C2153C2F783667C9D8F17C6857D86
-
-[/INFO]
+[/CODE]
 
 - **Source**: [FTS System Diagnostics DOS USB Stick](https://support.ts.fujitsu.com/IndexDownload.asp?SoftwareGuid=DCC1A861-C236-4D84-ADBA-FC78E0B51D7E)
-
    - download : $archive
    - unzip : $archive : ./diag/
 
 [!CODE]
 dst &lt;= [usb1 mount-point path]
-
-cp -arf ./diag/&ast;/data/&ast; ${dst}/<br>
-sed -e '/\.sys/ s,FREEDOS\\BIN,\FDOS,I' -i ${dst}/CONFIG.SYS<br>
-sed -e 's,=[^ ]&ast;\(\\COMMAND.COM\),=\1,gI' -i ${dst}/fdconfig.sys<br>
-sed -e 's,\(SET DOSDIR=\).&ast;,\1\\FDOS,I' -e 's,\(%dosdir%\)\\bin,\1,gI' -i ${dst}/fdauto.bat<br>
-sed -e "s/%[bram]\{0,3\}DRV%://gI" -e "s,%1:[%\\],,g" -i $(find ${dst} -iname \&ast;.bat)<br>
-sed -e "s/bat %DRV%/bat ''/" -i ${dst}/TOOLS/BASE/me.bat<br>
+cp -arf ./diag/&ast;/data/&ast; ${dst}/
+sed -e '/\.sys/ s,FREEDOS\\BIN,\FDOS,I' -i ${dst}/CONFIG.SYS
+sed -e 's,=[^ ]&ast;\(\\COMMAND.COM\),=\1,gI' -i ${dst}/fdconfig.sys
+sed -e 's,\(SET DOSDIR=\).&ast;,\1\\FDOS,I' -e 's,\(%dosdir%\)\\bin,\1,gI' -i ${dst}/fdauto.bat
+sed -e "s/%[bram]\{0,3\}DRV%://gI" -e "s,%1:[%\\],,g" -i $(find ${dst} -iname \&ast;.bat)
+sed -e "s/bat %DRV%/bat ''/" -i ${dst}/TOOLS/BASE/me.bat
 mv ${dst}/AUTOEXEC.BAT ${dst}/diag.bat
 [/CODE]
 
@@ -68,25 +63,21 @@ mv ${dst}/AUTOEXEC.BAT ${dst}/diag.bat
 
 ### 5. Latest BIOS available admin package
 
-[!INFO]
-
-D3162-A1x - Admin package - Compressed Flash Files<br>
-Versione: V4.6.5.3 - R1.23.0 (01/12/2014)<br>
-Dimensione 43.12 MB<br>
-MD5: 0149B86EB671F1F60975E1B40445260E<br>
+[!CODE]
+D3162-A1x - Admin package - Compressed Flash Files
+Versione: V4.6.5.3 - R1.23.0 (01/12/2014)
+Dimensione 43.12 MB
+MD5: 0149B86EB671F1F60975E1B40445260E
 SHA256: 25832921C80C0FEFD8E92574F7138C0CBFFDC11DA0DD5F3FAFF1DCDED49BD881
-
-[/INFO]
+[/CODE]
 
 - **Source**: [FTS D3162A1x Admin package](https://support.ts.fujitsu.com/IndexDownload.asp?SoftwareGuid=38A1936D-6452-44EC-A10C-A42039C6F5A2)
-
    - download : $archive
    - unzip : $archive : ./bios/
 
 [!CODE]
 dst &lt;= [usb1 mount-point path]
-
-cp -arf ./bios/DOS/&ast; ${dst}/<br>
+cp -arf ./bios/DOS/&ast; ${dst}/
 umount ${dst}/
 [/CODE]
 
@@ -98,13 +89,10 @@ The command `gzip` can be replaced to `pigz` which is parallel - hence faster - 
 
 [!CODE]
 usbdisk &lt;= [usb disk device]
-
-umount ${usbdisk}&ast;<br>
-fdisk -l ${usbdisk} | grep ${usbdisk}1<br>
-
-sectors &lt;= [usb disk p1 size in 512 byte sectors, biggest number]
-
-image="fdos-p910-bios-diag.img"<br>
+umount ${usbdisk}&ast;
+fdisk -l ${usbdisk} | grep ${usbdisk}1
+ sectors &lt;= [usb disk p1 size in 512 byte sectors, biggest number]
+ image="fdos-p910-bios-diag.img"
 dd if=${usbdisk} count=${sectors} | pigz - >${image}.gz
 [/CODE]
 
@@ -115,15 +103,13 @@ This action is not strictly needed for an once-a-time BIOS update process. It is
 ### 7. Post archiving image deployment (optional)
 
 [!CODE]
-image="fdos-p910-bios-diag.img"<br>
+image="fdos-p910-bios-diag.img"
 pigz -dc ${image}.gz > ${image}; losetup -Pf ${image}
-
-[do whatever you like on loop device 1st partition]
-
+  [do whatever you like on loop device 1st partition]
 losetup -D $(losetup -l | grep ${image} | cut -d' ' -f1)
 [/CODE]
 
-.....
+....
 
 ### 8. Bootable USB drive usage
 
@@ -149,15 +135,11 @@ At the first boot, enter in the BIOS with **`F2`** and reset the setting to its 
 
 #### About AMT settings
 
-Suggestion -- when the P910 is newly bought, then enable the password-less unconfiguration of the [ATM](https://www.intel.com/content/www/us/en/support/articles/000091667/technologies/intel-active-management-technology-intel-amt.html#primary-content) sub-system which `admin` is default password, usually.
-
 > [!INFO]
 > 
 > Intel Active Management Technology (AMT) is a hardware-based remote management system that allows IT administrators to monitor, maintain, and repair computers, even when they are powered off or the operating system is unresponsive.
 
-[/INFO]
-
-++++
+Suggestion -- when the P910 is newly bought, then enable the password-less unconfiguration of the [ATM](https://www.intel.com/content/www/us/en/support/articles/000091667/technologies/intel-active-management-technology-intel-amt.html#primary-content) sub-system which `admin` is default password, usually.
 
 #### Corner case settings
 
@@ -177,11 +159,9 @@ The BIOS allows enabling a serial console redirection which can provide headless
 
 [!CODE]
 vi /etc/default/grub
-
-GRUB_TERMINAL="serial console"<br>
-GRUB_SERIAL_COMMAND="serial --unit=0 --speed=115200"<br>
-GRUB_CMDLINE_LINUX_DEFAULT="console=tty0 console=ttyS0,115200n8 [...omissis...]"<br>
-
+ GRUB_TERMINAL="serial console"
+ GRUB_SERIAL_COMMAND="serial --unit=0 --speed=115200"
+ GRUB_CMDLINE_LINUX_DEFAULT="console=tty0 console=ttyS0,115200n8 [...omissis...]"
 systemctl enable serial-getty@ttyS0.service && update-grub && reboot
 [/CODE]
 
@@ -202,6 +182,4 @@ Unfortunately, differently than HP and Lenovo workstations, it seems that Fujits
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 </div>
-
-
 

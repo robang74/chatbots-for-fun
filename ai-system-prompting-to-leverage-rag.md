@@ -53,12 +53,14 @@ The main issue is about spending a lot of time in searching for it while a ChatM
 
 The minimal chat template:
 
-> `{% for message in messages %}`
-> `{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n' }}`
-> `{% endfor %}`
-> `{% if add_generation_prompt %}`
-> `{{ '<|im_start|>assistant\n' }}`
-> `{% endif %}`
+[!CODE]
+{% for message in messages %}
+{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n' }}
+{% endfor %}
+{% if add_generation_prompt %}
+{{ '<|im_start|>assistant\n' }}
+{% endif %}
+[/CODE]
 
 which is the bare minimum that I found which can work with gpt4all. While in the LM Studio adding `<|im_end|>` as "Additional Stop Strings" is suggested.
 
@@ -195,9 +197,8 @@ So, the following is a brief how-to for configuring the LM-Studio (0.3.12-build1
 These two lines disable the swap definitely but the first just until the next reboot
 
 [!CODE]
-sudo swapoff -a<br>
-
-sudo sed -s "/\bswap\b/ s,.&ast;swap,#&," /etc/fstab<br>
+sudo swapoff -a
+sudo sed -s "/\bswap\b/ s,.&ast;swap,#&," /etc/fstab
 [/CODE]
 
 ----
@@ -231,9 +232,9 @@ This is optional, and you can always use it in the first session's prompt when y
 For the prompt template this is will inject the system prompt without manual intervention
 
 [!CODE]
-{% if system_prompt %}<|im_start|>system{{system_prompt}}<|im_end|>{% endif %}<br>
-{% for m in messages %}<|im_start|>{{m.role}}{{m.content}}<|im_end|>{% endfor %}<br>
-{% if add_generation_prompt %}<|im_start|>assistant{% endif %}<br>
+{% if system_prompt %}<|im_start|>system{{system_prompt}}<|im_end|>{% endif %}
+{% for m in messages %}<|im_start|>{{m.role}}{{m.content}}<|im_end|>{% endfor %}
+{% if add_generation_prompt %}<|im_start|>assistant{% endif %}
 [/CODE]
 
 The first line is to inject the system prompt, if present. The second to deal with the user inputs while the third to give a header to the AI agent answer.

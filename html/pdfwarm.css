@@ -36,6 +36,7 @@ div.pagehead img {
 body { color: #181410; background-color: #f8f4f0; }
 
 blockquote { color: #401000; background-color: seashell; }
+blockquote.code { color: #200000; }
 
 div.topbar { background-color: seashell; border-bottom: 1px solid #c08000; }
 

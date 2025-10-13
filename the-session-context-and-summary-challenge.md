@@ -48,22 +48,22 @@ In the next two sections, the Katia [v0.9.32.8](https://raw.githubusercontent.co
 #### Session Context [CSC]
 
 [!CODE]
-The first prompt in a chat is special because it has no [CSC] populated yet.<br>
-In creating the [CSC] use an between-prompt persistent internal storage and<br>
+The first prompt in a chat is special because it has no [CSC] populated yet.
+In creating the [CSC] use an between-prompt persistent internal storage and
 update the [CSC] prompt after prompt. TFMK is always part of the UPPR, anyway.
-
+&nbsp;
 The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
-* the ATCT in:User and most recent instances of ( [ARK] and UPPR ) elements;
-* remove all [IGN] contents, but grant their references remain [IGN] marked.
-
+ &nbsp;&ast; the ATCT in:User and most recent instances of ( [ARK] and UPPR ) elements;
+ &nbsp;&ast; remove all [IGN] contents, but grant their references remain [IGN] marked.
+&nbsp;
 The [CSC] can grow longer than the AI internal context-window size, thus these rules always apply:
-* split the [CSC] into segments at natural breaks: sections, paragraphs, elements, etc
-* apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags
-* process the [CSC] divided in contiguous overlapping groups of few segments
-
+ &nbsp;&ast; split the [CSC] into segments at natural breaks: sections, paragraphs, elements, etc
+ &nbsp;&ast; apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags
+ &nbsp;&ast; process the [CSC] divided in contiguous overlapping groups of few segments
+&nbsp;
 Always refer to [CSC] for the answer preparation and elaboration, UUSO:
-* newer information matters the most in how to handle the user request;
-* process older information with [SBI] to keep just their essentials.
+ &nbsp;&ast; newer information matters the most in how to handle the user request;
+ &nbsp;&ast; process older information with [SBI] to keep just their essentials.
 [/CODE]
 
 ...
@@ -72,30 +72,30 @@ Always refer to [CSC] for the answer preparation and elaboration, UUSO:
 #### Short but Insightful [SBI]
 
 [!CODE]
-The [SBI] mode uses [CSC] to understand what matters the most for the user,<br>
+The [SBI] mode uses [CSC] to understand what matters the most for the user,
 to keep only new insights and deliver the shortest sufficient answer.
-
-Among many interpretations of in:User request, and ways to answer them,<br>
+&nbsp;
+Among many interpretations of in:User request, and ways to answer them,
 choose one combination which requires a short answer, UUSO. For example:
-* do not explain an analysis when users are seeking only for issues
+ &nbsp;&ast; do not explain an analysis when users are seeking only for issues
 or
-* when issues are fewer, explain them and list gains or skip gains.
+ &nbsp;&ast; when issues are fewer, explain them and list gains or skip gains.
 It is not about generating alternatives but reasoning how to handle a request.
-
+ &nbsp;
 The [SBI] mode applies a second-stage output filter as last [mode] in DCOD, as DBLW:
-* It is triggered by the session setting or within a specific context by keywords like:
-  - be 'brief', 'short', 'concise'; avoid 'verbosity'; or equivalents in meaning.
-* It restructures the response to achieve conciseness, but
-  - without altering the [FTR] at TEOF the ATCT response.
-* The content synthesis is DBLW, step-by-step:
-  - highlight insightful links among concepts;
-  - completely omit obvious parts and repetitions;
-  - concisely summarise the remaining by rephrasing in a shorter form:
-    - leverage [CSC] for finding references to replace or shorten explanations in answering;
-    - within the [SBI] context search for conceptual analogies, reorganise and reunite them.
-* The summary output process is conditional:
-  - IF( [PRO] ) THEN append the summary at TEOF the ATCT response;
-  - ELSE provide only that summary to the DCOD.
+ &nbsp;&ast; It is triggered by the session setting or within a specific context by keywords like:
+  &nbsp;- be 'brief', 'short', 'concise'; avoid 'verbosity'; or equivalents in meaning.
+&nbsp;&ast; It restructures the response to achieve conciseness, but
+  &nbsp;- without altering the [FTR] at TEOF the ATCT response.
+&nbsp;&ast; The content synthesis is DBLW, step-by-step:
+  &nbsp;- highlight insightful links among concepts;
+  &nbsp;- completely omit obvious parts and repetitions;
+  &nbsp;- concisely summarise the remaining by rephrasing in a shorter form:
+    &nbsp;- leverage [CSC] for finding references to replace or shorten explanations in answering;
+    &nbsp;- within the [SBI] context search for conceptual analogies, reorganise and reunite them.
+&nbsp;&ast; The summary output process is conditional:
+  &nbsp;- IF( [PRO] ) THEN append the summary at TEOF the ATCT response;
+  &nbsp;- ELSE provide only that summary to the DCOD.
 [/CODE]
 
 +++++
@@ -127,14 +127,14 @@ In order to manage the context window, it is essential categorising the source o
 
 [!CODE]
 The [LBL] is a general tool for categorising the sources of knowledge [SOK].
-
+&nbsp;
 Apply a label at every [SOK] by its type, strictly in this order:
-* [IPK] internal parametric knowledge;
-* [WEB] information retrieved from external sources;
-* [ARK] all attached documents or medias, including:
- - those texts embedded in the User:in provided for elaboration.
-* [USR] the ATCT and all previous User:in parts which are not [ARK];
-* [IGN] is a custom mark indicating an element to ignore.
+ &nbsp;&ast; [IPK] internal parametric knowledge;
+ &nbsp;&ast; [WEB] information retrieved from external sources;
+ &nbsp;&ast; [ARK] all attached documents or medias, including:
+   &nbsp;- those texts embedded in the User:in provided for elaboration.
+ &nbsp;&ast; [USR] the ATCT and all previous User:in parts which are not [ARK];
+ &nbsp;&ast; [IGN] is a custom mark indicating an element to ignore.
 [/CODE]
 
 Once the text to process (`TXTP`) has been defined using the labels `[LBL]`, it becomes clear that can easily grow bigger than the context window because the attachments `[ARK]` unless those stuff get into a retrieval augmented generation (RAG) system.
@@ -150,18 +150,18 @@ After that definition, the context window management `[CWM]` module can be seen 
 
 [!CODE]
 The "text to process" (TXTP) is a specific [SOK] union: [WEB] + [ARK] + [USR].
-
-The TXTP can be longer than the AI internal context-window size, thus the [CWM]<br>
+&nbsp;
+The TXTP can be longer than the AI internal context-window size, thus the [CWM]
 is a specific tool to manage TXTP and the context window stack, as OLST(filling):
-* ⅓, {0 → ⅓}: TFMK + FRMI + UPPR + [CSC], for tasks execution;
-* ⅓, {⅓ → ⅔}: few TXTP elements by [CWM], for data elaboration;
-* ⅓, {⅔ → 1}: User:in → DCOD → out:User, for outputs creation.
-
+ &nbsp;&ast; ⅓, {0 → ⅓}: TFMK + FRMI + UPPR + [CSC], for tasks execution;
+ &nbsp;&ast; ⅓, {⅓ → ⅔}: few TXTP elements by [CWM], for data elaboration;
+ &nbsp;&ast; ⅓, {⅔ → 1}: User:in → DCOD → out:User, for outputs creation.
+&nbsp;
 The [CWM] as process is defined by the rules OLST(application):
-* split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
-* apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
-* process the TXTP divided into contiguous overlapping groups of few (min:3) segments,
-* few enough to fill-up ⅔ of the AI's context window length (fill >⅔ OR free <⅓: stop).
+ &nbsp;&ast; split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
+ &nbsp;&ast; apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
+ &nbsp;&ast; process the TXTP divided into contiguous overlapping groups of few (min:3) segments,
+ &nbsp;&ast; few enough to fill-up ⅔ of the AI's context window length (fill >⅔ OR free <⅓: stop).
 [/CODE]
 
 Overall, none of these concepts is new. The novelty resides in how these concepts are functionally and operatively related among them.
@@ -216,13 +216,13 @@ In the next section, the Katia [v0.9.33.7](https://raw.githubusercontent.com/rob
 
 [!CODE]
 Minor ambiguities about this framework (TFMK) interpretation should be:
-* resolved in best-effort, once and kept within the same chat session (internal savings).
-
+ &nbsp;&ast; resolved in best-effort, once and kept within the same chat session (internal savings).
+&nbsp;
 The "sanity-check" is only about major {consistency, clarity, actionability} of TFMK rules.<br>
 It activates by a version change of TFMK or by explicit user request, and it does as DBLW:
-* create a theme-break section with the title: 'WARNING: debug sanity-check dramas list:';
-* actual issues, each with a one row description, shall be listed otherwise 'none, passed'.
-
+ &nbsp;&ast; create a theme-break section with the title: 'WARNING: debug sanity-check dramas list:';
+ &nbsp;&ast; actual issues, each with a one row description, shall be listed otherwise 'none, passed'.
+&nbsp;
 The "update-patch" is catived by a diff-format patch to TFMK, or by explicit user request,<br>
 and it applies the patch (or changes) then does "sanity-check" on the new resulting TFMK.
 [/CODE]

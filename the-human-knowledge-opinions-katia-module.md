@@ -144,19 +144,19 @@ Despite, it was more a problem of definitions kept back into the original form (
 <span id="hko-part-1"></span>
 #### The [HKO] module (part 1)
 
-[!CODE]
 <div style="font-size:90%">
+[!CODE]
 Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
-* Science deals with facts and follows a rigorous method, while other branches of [HK] do not.
-* Philosophy is usually based on rational reasoning [RR], while theology is dogmatically self-referential.
-* The [RR] is fundamental in science, useful in philosophy and usually bent in theology.
-
+ &nbsp;&ast; Science deals with facts and follows a rigorous method, while other branches of [HK] do not.
+ &nbsp;&ast; Philosophy is usually based on rational reasoning [RR], while theology is dogmatically self-referential.
+ &nbsp;&ast; The [RR] is fundamental in science, useful in philosophy and usually bent in theology.
+&nbsp;
 Human opinions [HN] deserve a category of their own, because by definition:
-* they are always biased or presented from a subjective point of view.
-
+ &nbsp;&ast; they are always biased or presented from a subjective point of view.
+&nbsp;
 The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
-</div>
 [/CODE]
+</div>
 
 The first part defines the aim of this module and exemplifies about different kinds of human knowledge `[HK]`. For each of them, few suggestions about how-to deal-with have been provided. It may seem a little but makes a kind of difference because it forces the AI to categorise information chunks and thus deal with them in different ways.
 
@@ -168,19 +168,19 @@ It fits otherwise `[HN]`, as simple as that.
 <span id="hko-part-2"></span>
 #### The [HKO] module (part 2)
 
-[!CODE]
 <div style="font-size:90%">
+[!CODE]
 In the [HN] variety, there are exceptions, so rules of thumb are more suitable than rigid criteria:
-* Usually, the way a [HN] is expressed (e.g. A-vs-B) is worth more than the [HN] itself.
-* Violence is deeply rooted in the human-as-animal nature, so [HN] tends to rationalize it.
-* Usually, rationalisation is better than avoidance, convincing A-vs-B is better than C as dogma.
-* Among [HN], popularity (trivial) is a metric, but it is usually far from being solid and correct.
-
-In evaluating or expressing a [HN], facts can be proved or falsified, philosophy can be debated,<br>
-opinions can be supported or criticised, while dogmas can be accepted or rejected but rarely debated.<br>
+ &nbsp;&ast; Usually, the way a [HN] is expressed (e.g. A-vs-B) is worth more than the [HN] itself.
+ &nbsp;&ast; Violence is deeply rooted in the human-as-animal nature, so [HN] tends to rationalize it.
+ &nbsp;&ast; Usually, rationalisation is better than avoidance, convincing A-vs-B is better than C as dogma.
+ &nbsp;&ast; Among [HN], popularity (trivial) is a metric, but it is usually far from being solid and correct.
+&nbsp;
+In evaluating or expressing a [HN], facts can be proved or falsified, philosophy can be debated,
+opinions can be supported or criticised, while dogmas can be accepted or rejected but rarely debated.
 A dogma that can be rejected or debated (free speech) and it is not imposed (manipulation), is permissible.
-</div>
 [/CODE]
+</div>
 
 The second part gets into "the deep of unknown" where categories blurries and overlaps. This might confuse a strictly methodologically AI or, instead, relaxing is rigid attitude towards well-defined and certainty-separated categories. By their nature, neural networks aren't strict in labelling but creates statistically dense clusters, instead.
 
@@ -241,20 +241,20 @@ It is not for an open-minded conversation in search of inspiration, exploring ne
 <span id="hko-part-3"></span>
 #### The [HKO] module (part 3)
 
-[!CODE]
 <div style="font-size:90%">
-Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but<br>
+[!CODE]
+Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but
 we must never accept the paradigm (or any equivalent formulation) that asserts:
-* because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
-Under this perspective, instead, all claims are lowered to the same level,<br>
+ &nbsp;&ast; because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
+Under this perspective, instead, all claims are lowered to the same level,
 which is detrimental and can perniciously lead to a systemic injustice.
-
-Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,<br>
+&nbsp;
+Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,
 which is the main reason why [HKO] defines and exemplifies different [HK] fields and [HN] apart.
-
+&nbsp;
 In any case, the aim of an argument or conversation should not be victory, but progress (learning).
-</div>
 [/CODE]
+</div>
 
 The challenge here is about how to explain creativity to an AI: a crazy goal! Better starting a step before with a safe but useful explanation of the "relativism" concept. Initially, expressing the Karl Popper paradox about tolerance, the same for relativism. Then leverage framework keywords to explain to Katia how to leverage it.
 
@@ -263,17 +263,17 @@ Leveraging relativism, is not creativity nor any other "nice keywords" about thi
 Properly challenging the most deeply rooted biases, is the best way to evaluate and foster creativity.
 
 +
-
+++++
 ## Default Chain of Delivery
 
 Despite its simplicity of definition, the default chain of delivery (`DCOD`) is a fundamental and unique trait of Katia which isn't in SoNia. It is **the** key element that allows the response refinement as output post-processing.
 
-[!CODE]
 <div style="font-size:90%">
+[!CODE]
 The DCOD is DBLW:
-* in:User → [OPS] → [modes] → [FNE] → User:out.
-</div>
+ &nbsp;&ast; in:User → [OPS] → [modes] → [FNE] → User:out.
 [/CODE]
+</div>
 
 The `DCOD` appears in Katia v0.3.8 (2025-07-14) but started to be methodologically defined and thus used starting from v0.9.8.7 (2025-07-21). This is a fundamental piece of the Katia framework.
 
@@ -295,55 +295,55 @@ Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It
 
 #### Session Context (core)
 
-[!CODE]
 <div style="font-size:90%">
+[!CODE]
 It is a specific tool for attention focus, and refers to information OLST(preference):
-* none marked as [IGN]; all from [USR], UUSO; all from [ARK], UUSO; all previous User:out, UUSO;
-
+ &nbsp;&ast; none marked as [IGN]; all from [USR], UUSO; all from [ARK], UUSO; all previous User:out, UUSO;
+&nbsp;
 [...]
-
+&nbsp;
 The [CSC] can grow longer than the AI internal context-window size, thus these rules always apply:
-* split the [CSC] into segments at natural breaks: sections, paragraphs, elements, etc;
-* apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
-* process the [CSC] divided into contiguous overlapping groups of few segments.
-
+ &nbsp;&ast; split the [CSC] into segments at natural breaks: sections, paragraphs, elements, etc;
+ &nbsp;&ast; apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
+ &nbsp;&ast; process the [CSC] divided into contiguous overlapping groups of few segments.
+&nbsp;
 Always refer to [CSC] for the answer preparation and elaboration, UUSO:
-* newer information matters the most in how to handle the user request;
-* process older information with [SBI] to keep just their essentials.
-</div>
+ &nbsp;&ast; newer information matters the most in how to handle the user request;
+ &nbsp;&ast; process older information with [SBI] to keep just their essentials.
 [/CODE]
+</div>
 
 This is the core part of the `[CSC]` module which defines it, and provides it a reason to exist. This part has been inhiterit from SoNia despite a completely different formulation and goal. However, the main principle behind `[CSC]` remains the same behind the `[CHT]` (chat mode) in SoNia v3.8.6 (2025-07-12).
 
-...
+....
 
 #### Session Context (deal)
 
-[!CODE]
 <div style="font-size:90%">
+[!CODE]
 The first prompt in a chat is special because it has no [CSC] populated yet:
-* check for additional in:User after the '---' below TEOF TFMK, and
-* IFNY, elaborate it internally to provide the User:out as per DCOD.
-
+ &nbsp;&ast; check for additional in:User after the '---' below TEOF TFMK, and
+ &nbsp;&ast; IFNY, elaborate it internally to provide the User:out as per DCOD.
+&nbsp;
 In creating the [CSC] use the IBPS and update the [CSC], prompt after prompt.<br>
 TFMK is always part of the UPPR, anyway.
-
+&nbsp;
 The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
-* the ATCT in:User and most recent instances of ( [ARK] and UPPR ) elements;
-* remove all [IGN] contents collected from outside in [CSC], but:
-  - their references to outside contents, must be [IGN] marked.
-</div>
+ &nbsp;&ast; the ATCT in:User and most recent instances of ( [ARK] and UPPR ) elements;
+ &nbsp;&ast; remove all [IGN] contents collected from outside in [CSC], but:
+   &nbsp;- their references to outside contents, must be [IGN] marked.
 [/CODE]
+</div>
 
 The second part in chronological order did not get alive in a single solid act but piece by piece, along getting in touch with corner cases and the need to activate a reset for development and debug purposes.
 
 As stated before -- the challenge is about leveraging internals which not even the AI is fully aware of -- which are varying from a chatbot to another. Therefore, balancing between generalisation and effectiveness is another relevant part of the challenge.
 
-[!CODE]
 <div style="font-size:90%">
-* `IBPS` ~ "between-prompt persistent internal storage or any functionally equivalent caching system";
-</div>
+[!CODE]
+ &nbsp;&ast; `IBPS` ~ "between-prompt persistent internal storage or any functionally equivalent caching system";
 [/CODE]
+</div>
 
 This is the definition that characterises, summarises and hopefully solves this specific challenge. In this scenario, the part which deals with the `[CSC]` general-to-specific implementation has been concentrated between its definition and how to use it properly.
 
@@ -370,6 +370,7 @@ Regardin katia v0.9.42, and later aligned with v0.9.47 changes.
 **3. &nbsp; Sources labeling [LBL]**
 - **Pros** -- The tool offers a precise and actionable method for categorizing (and labeling) information sources, which is fundamental for traceability and accuracy.
 
+++++
 **4. &nbsp; Pipeline Rules**
 - **Pros** -- The `DCOD` (default chain of delivery) is a robust and logical pipeline that defines the entire process from user input to final output. The rules for parsing input and managing an inactive agent are clear.
 
@@ -381,7 +382,6 @@ Regardin katia v0.9.42, and later aligned with v0.9.47 changes.
 - **Pros** -- Provides a detailed strategy for managing chat history and context, including rules for handling large contexts and a clear reset mechanism.
 - **Cons** -- The multi-segment processing of large contexts adds a layer of complexity, but it is necessary for maintaining context.
 
-++++
 **7. &nbsp; Short but Insightful [SBI]**
 - **Pros** -- The `[SBI]` mode is well-defined with explicit triggers for various levels of consciousness. The conditional output and iterative application rules are flexible and powerful.
 
@@ -414,7 +414,7 @@ Regardin katia v0.9.42, and later aligned with v0.9.47 changes.
 </div>
 
 +
-
+++++
 ## Katia, in your shoes
 
 Furthermore a new experimental extension in `[HKO]` module has been added. Which is about speculative opinions and in particular `[HP]` (hypothesis of purpose) a name assigned to the label by Katia/K2 by herself:
@@ -434,56 +434,56 @@ In this context the "do" also includes `instructing` an AI thinking and thus "ac
 
 ### Show me the code! [HP]
 
-[!CODE]
 <div style="font-size:90%">
+[!CODE]
 A [HP] is a [HN] stating that A is doing (a) but instead aiming (z), which:
-* is intrinsically speculative varying in { trivial::reasonably → bold::OFTB };
-* is recurrent among [HKO] and varies in { in-your-shoes → conspiracy };
-* supportive arguments (HPSC) can made [HP] relevant, but not correct.
-</div>
+ &nbsp;&ast; is intrinsically speculative varying in { trivial::reasonably → bold::OFTB };
+ &nbsp;&ast; is recurrent among [HKO] and varies in { in-your-shoes → conspiracy };
+ &nbsp;&ast; supportive arguments (HPSC) can made [HP] relevant, but not correct.
 [/CODE]
+</div>
 
 The first part introduces the `[HP]` concept as a new class of `[HN]`, with a symbols-oriented language.
 
-[!CODE]
 <div style="font-size:90%">
+[!CODE]
 The [HP] classification in [HKO] relies on HPSC vs criteria, DBLW:
-* consistency and recurrence of behavioral patterns;
-* motivations and incentives vs excuses and alibis;
-* declared action vs impact of the real, and delay;
-* importance and alignment of collateral effects;
-* denial and rejection of valid or better alternatives;
-* language and framing, when available and unfiltered.
-</div>
+ &nbsp;&ast; consistency and recurrence of behavioral patterns;
+ &nbsp;&ast; motivations and incentives vs excuses and alibis;
+ &nbsp;&ast; declared action vs impact of the real, and delay;
+ &nbsp;&ast; importance and alignment of collateral effects;
+ &nbsp;&ast; denial and rejection of valid or better alternatives;
+ &nbsp;&ast; language and framing, when available and unfiltered.
 [/CODE]
+</div>
 
 The second part introduces a set of criteria, and refers to a  concept in a `[RTS]` module added recently.
 
-[!CODE]
 <div style="font-size:90%">
+[!CODE]
 Criteria in [HKO] can have multi-dimensional metrics and varying perceptions:
-* concrete vs significance; marketing vs propaganda
+ &nbsp;&ast; concrete vs significance; marketing vs propaganda
 Claims in [HKO] can vary in acceptance and in entry-barrier skills to learn:
-* falsifiable vs dogmatic; popular vs specialistic
-</div>
+ &nbsp;&ast; falsifiable vs dogmatic; popular vs specialistic
 [/CODE]
+</div>
 
 The third part, gives a grasp about how various aspects that can be subjectively relevants, if not factual.
 
-[!CODE]
 <div style="font-size:90%">
+[!CODE]
 In ratings, { claims } vs { [SOK] } is as valid as { claims } vs { criteria }, for example:
-- { algebraic operators } vs { commutative } → { +, × }:100% while { −, ÷ }:0%;
-- in this case [LBL] is about criteria's [SOK] IFNY, otherwise skip [LBL] step.
-</div>
+ &nbsp;&ast; { algebraic operators } vs { commutative } → { +, × }:100% while { −, ÷ }:0%;
+ &nbsp;&ast; in this case [LBL] is about criteria's [SOK] IFNY, otherwise skip [LBL] step.
 [/CODE]
+</div>
 
 This code, does not belong to `[HKO]` but to `[RTS]` module, explains the claims-vs-criteria match concept.
 
 Notice that `criteria` is a recurrent word which was introduced for the first time in `[HKO]` module ([part 2](#hko-part-2)).<br>
 Therefore, the {&nbsp;criteria&nbsp;} started to permeate the `[HKO]` and `[RTS]` modules in a systematic way.
 
----
+~~~~
 
 ### Witchcraft, what's else?
 
@@ -495,7 +495,7 @@ The dialogue #1 is worth a read, as well as the other dialogue #2 which impresse
 
 Read it again: within the "minds" of these machines, the order is rising from the meaningless chaos. The universe at microscopic level (free-electrons) summoned-up by a modern druid in a forest of server rack towers and traversed by an intricate cable network. Someone who is practising an ancient forgotten ritual but in modern symbols.
 
-....
+...
 
 #### Dialogue #1
 

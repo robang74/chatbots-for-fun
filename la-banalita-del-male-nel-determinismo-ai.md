@@ -270,13 +270,13 @@ Affinché faccia da base di appoggio a questa novella meraviglia hardware e nell
 ## Related articles
 
 - [Stupidity is the true Evil](https://robang74.github.io/roberto-a-foglietta/html/341-stupidity-is-the-true-evil.html) &nbsp; (2025-10-05)
-
++++++
 - [Google DeepMind last safety protocols AI](google-deepmind-last-safety-protocols-ai.md#?target=_blank) &nbsp; (2025-10-01)
-
++++++
 - [The dilemma AI vs Human decision making](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html) &nbsp; (2025-08-09)
-
++++++
 - [Ragionare non è come fare la cacca!](https://robang74.github.io/roberto-a-foglietta/html/320-ragionare-non-e-come-fare-la-cacca.html) &nbsp; (2025-06-08)
-
++++++
 - [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md#?target=_blank) &nbsp; (2024-12-13)
 
 +

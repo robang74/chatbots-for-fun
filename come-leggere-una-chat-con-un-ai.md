@@ -8,9 +8,7 @@
 I documenti che riportano dialoghi con chatbot sono un genere emergentee  possono essere letti in maniera più agevole e piacevole seguendo poche regole.
 
 1. cominciare dal fondo e risalire, 
-
 2. leggere prima tutti i prompt (umano),
-
 3. eventualmente le risposte del chatbot.
 
 Infatti, una best-practice per il prompting è riportare in quello successivo i punti critici della risposta precedente per discuterli ulteriormente.
@@ -69,7 +67,7 @@ Nonostante questo le risposte sono in genere riportate integralmente, eccetto va
 
 Questo modo di procedere anti-cronologico è, generalmente, inusuale ma per questo tipo di documenti è molto efficace e anche molto efficiente. D'altronde con l'evoluzione della tecnologia anche i modelli di letteratura cambiano e quindi il nostro modo di leggerli. Null'altro che una sorta di adattamento, fra i tanti che abbiamo già affrontato.
 
----
+----
 
 ### La peer-review, un altro genere
 
