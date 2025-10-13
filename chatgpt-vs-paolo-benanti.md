@@ -1,18 +1,22 @@
 <div id="firstdiv" created="2024-11-21:IT:+12" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<div align="center"><img class="wbsketch inksave" src="img/mr-spock-star-trek.jpg" alt="Mr. Spock" width="800"><br>*Dedicato a tutte le donne come </i><a href='https://en.wikipedia.org/wiki/Ahoo_Daryaei' target='_blank' rel='noopener noreferrer'>Ahoo Daryaei</a><i> con l'augurio che il vostro eroico sacrificio non sia stato vano.*</div>
+<div align="center"><img class="wbsketch paleinv" src="img/mr-spock-star-trek.jpg" alt="Mr. Spock" width="800"><br>*Dedicato a tutte le donne come </i><a href='https://en.wikipedia.org/wiki/Ahoo_Daryaei' target='_blank' rel='noopener noreferrer'>Ahoo Daryaei</a><i> con l'augurio che il vostro eroico sacrificio non sia stato vano.*</div>
 
 ## ChatGPT vs Paolo Benanti
 
-Questo documento documento faceva parte della raccolta [chatgpt-answered-prompts](https://github.com/robang74/chatgpt-answered-prompts/blob/main/ChatGPT-vs-Paolo-Benanti-01.md) presso la quale esiste l'intera cronologia delle modifiche in git. Considerato che tratta di un tema specifico, invece, di questa raccolta ovvero la relazione fra umani e intelligenze artificiali, è stato spostato qui.
+- **1st edition**, questo documento documento faceva parte della raccolta [chatgpt-answered-prompts](https://github.com/robang74/chatgpt-answered-prompts/blob/main/ChatGPT-vs-Paolo-Benanti-01.md) presso la quale esiste l'intera cronologia delle modifiche in git. Considerato che tratta di un tema specifico, invece, di questa raccolta ovvero la relazione fra umani e intelligenze artificiali, è stato spostato qui.
+
+- **2nd edition**, aggiunge la [conclusione](#conclusione). L'articolo in 1a edizione è molto lungo e la sua scrittura si collocava temporalmente fra il debutto di ChatGPT e questa 2a edizione. Molte cose sono cambiate in tema di AI e chatbot: molti più dati su cui fare valutazione di impatto e di rischio sono oggi disponibili. Sicché è ragionevole che lettore slati direttamente alla conclusione aggiornata.
 
 ---
 
 ### Upload
 
 Il testo dell'articolo di Paolo Benanti intitolato "*intelligenza artificiale e relazioni pericolose*":
+
 * [lnkd.in/dWFf6JBq](https://lnkd.in/dWFf6JBq) oppure [lnkd.in/dkNvBEB6](https://lnkd.in/dkNvBEB6) del 4 settembre 2024
+
 La seconda immagine di uno o dell'altro di questi due post.
 
 ### Prompt #1
@@ -613,14 +617,35 @@ Potrebbe stupirci e speriamo anche che lo faccia.
 
 +
 
+## Conclusione
+
+[!INFO]
+10 ottobre 2025 -- La storia di Sewell e le risposte che ancora non abbiamo: un chatbot per amico è pericoloso? `[...]` Il suicidio del 14enne innamorato del suo "companion AI" rilancia l'allarme etico: serve una regolamentazione, non facciamo lo stesso errore dei social. -- [Corriere della Sera](https://www.pressreader.com/italy/corriere-della-sera-sette/20251010/281981793789931?srsltid=AfmBOopBfHSQ_ki-2oOg1uiowWAq5SG9oNtwDNLsGxeIfCOwCoPHGvUn) [lknd](https://media.licdn.com/dms/image/v2/D4D22AQEeNv02JsV_-Q/feedshare-shrink_800/B4DZnNs3vjIcAg-/0/1760092746475?e=1762992000&v=beta&t=IkedYrhPOojDElzXOJUo_3ew2R8sSDsyQcYkjubWcH8)
+[/INFO]
+
+I rischi esistono, alcuni sono inevitabili e per la loro corretta gestione vanno sempre considerati relativi a un qualche riferimento. Altrimenti perdono di senso, in quanto privati di un riferimento, naturalmente, si tende ad azzerarli quindi a creare danni perché si prendono azioni drastiche e non equilibrate.
+
+L'auto è più pericolosa della bicicletta? Non è banale stabilirlo perché i due mezzi di trasporto non sono equivalenti ma la proporzione ci aiuta a comprendere quale possa essere l'effettivo impatto nel portare più persone ad usare l'una oppure l'altra. Nei paesi con traffico ordinato, la bicicletta è più sicura.
+
+Questo paragone ci aiuta a comprendere che per rendere più sicuro il trasporto in bicicletta è più utile intervenire sull'ordine della viabilità piuttosto che ostinarsi ad equipaggiare i ciclisti di strumenti di protezione o assilarli di regole. Senza un confronto fra i due rischi, è contro-intuitivo.
+
+Applicato lo stesso punto di vista al caso di cui sopra esposto da Paolo Benanti, potremmo chiederci se il rischio di suicidio fra adolescenti sia maggiore fra quello che assiduamente frequentano l'oratorio e sono più esposti agli abusi del clero oppure quelli che usano intensivamente i chatbot?
+
+Perché se scopriamo che il clero nuoce alla salute dei giovani più dei chatbot allora occorre prima intervenire a regolamentare il clero. Così come regolamentando in maniera più severa il traffico delle automobile si mettono al sicuro **anche** i ciclisti. Sembra un colpo basso, ma è statistica.
+
+Certo, la statistica ci fornisce correlazioni, rapporti e intensità del rischio. Non ci fornisce automaticamente le relazioni di cause-effetto. Per assurdo il maggiore tasso di suicidi fra i giovani parrocchiani potrebbero essere dovuti ad una minore paura della morte. Assurdo, infatti.
+
+In conclusione, sarebbe più utile risolvere i vecchi e fastidiosi problemi del passato invece di cercare di scovare altri ancora tutti da dimostrare. Anche perché le statistiche indicano che dall'introduzione dei chatbot, per la prima volta in 25 anni, il [trend dei suicidi](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html#exceptions-always-happen) ha cominciato a calare.
+
++++++
+
 ## Articoli correlati
 
-* [Miss Poppins vs Mr. Spock](https://www.linkedin.com/pulse/miss-poppins-vs-mr-spock-roberto-a-foglietta) (March 27, 2023) ([PDF](https://drive.google.com/file/d/1CpFV3KxY0DvE581e1gK-bT04zYU6ev-Z/view))
+- [Miss Poppins vs Mr. Spock](https://www.linkedin.com/pulse/miss-poppins-vs-mr-spock-roberto-a-foglietta) ([PDF](https://drive.google.com/file/d/1CpFV3KxY0DvE581e1gK-bT04zYU6ev-Z/view)) (2023-03-27)<!-- [The dilemma AI vs Human decision making](https://robang74.github.io/roberto-a-foglietta/html/333-the-dilemma-ai-vs-human-decision-making.html) &nbsp; (2025-08-09) //-->
 
-+
++++++
 
 ## Share alike
 
 &copy; 2024, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-
 </div>
