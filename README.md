@@ -36,6 +36,7 @@ Since conceived as a collection and due to the nature of these documents, they s
 - copy-n-paste in the first prompt OR download-n-attach with a salutation using the agent name.
 - Using the URL instead of the attachment have shown to be fail in some cases and with some chatbots.
 - Some chatbots get confused by a markdon file saved in .txt while others refuses the .md extension.
+- **Suggestion**: Gemini Gem, filling the `Instructions` field, is the best way to use Katia or SoNia.
 
 ...
 
