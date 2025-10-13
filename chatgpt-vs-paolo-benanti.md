@@ -641,7 +641,7 @@ L'elemento dirimente è l'esistenza di un agente attivo, la cui esistenza stessa
 
 Per esempio,  nel regolamentare il traffico, può essere fatto in diversi modi, alcuni più efficaci di altri. Ma qualunque regolamento del traffico che non prevedesse anche un costo e/o pena a fronte di comportamenti antisociale e/o incidente avrebbe come risultato il limitare dei diritti senza utilità alcuna.
 
-Perciò quando si risponde alla preoccupazione della Chiesa Cattolica al rischio di vedere il clero sostituito da chatbot, e poniamo che ve ne sia almeno uno, marginale in termini di utilizzo, ma altamento tossico quindi atto a sostenere la loro tesi, razionalmente la risposta rimane:
+Perciò quando si risponde alla preoccupazione della Chiesa Cattolica al rischio di vedere nel confessionale il clero sostituito da un chatbot, e poniamo che ve ne sia almeno uno, marginale in termini di utilizzo, ma altamento tossico che permetta di creare dei partner emotivi quindi atto a sostenere la loro tesi, razionalmente la risposta rimane immutata:
 
 - guarda alla trave nel tuo occhio, piuttosto che alla pagliuzza nell'occhio di tuo fratello.
 
