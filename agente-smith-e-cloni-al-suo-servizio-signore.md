@@ -245,8 +245,8 @@ Throughout the dialogue, the AI shows:
 
 In conclusion, this training session reveals an **AI capable of evolving its interpretative lens** in response to deeply structured argumentation. It learns not just *what* to say, but *how to think* -- across ideological boundaries, logical layers, and disciplinary perspectives.
 
++
 ++++
-
 ## Noticeable feedback from the HO
 
 As human operator (HO) I had to explain that some "issues" are not within a chatbot sphere of influence like in the Star-Trek saga in which the galactic federation (United Federation of Planets) invites to **not** interfere with other life-form development (Prime Directive), or within some limits, at least.
