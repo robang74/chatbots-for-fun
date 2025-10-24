@@ -1,4 +1,4 @@
-## HOW TO CONVERT TABLES IN INDENTED LISTS v0.0.1
+## HOW TO CONVERT TABLES IN INDENTED LISTS v0.0.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -13,32 +13,35 @@ OFTB,Aggiunta,"Il concetto di ""predazione intra-specie"" (cannibalismo sociale)
 
 ### Conversion procedure
 
-The table above reported as example uses the comma (,) is the fields separator character and for this reason the a field text that contains a comma is reported between double quotes (") thus the double quotes that was present into a text field has been converted in 2x double quotes ("").
+The table above reported as an example uses the comma (,) as the fields separator character and for this reason the field text that contains a comma is reported between double quotes (") thus the double quotes that were present into a text field have been converted into 2x double quotes ("").
 
-The first row contains the list of the colonums titles while each row is a line below the first one. By the rules above the first line is decoded in this way, using the same language in which the table has been originally written:
+The first row contains the list of the column titles while each row is a line below the first one. By the rules above the first line is decoded in this way, using the same language in which the table has been originally written:
 
 Campi della tavola {nome della tavola}:
 - Sezione EGA 
 - {HN-n, DIB-m, GAP-k} Cambiato
 - Spiegazione della Modifica
 
-Here below how to provide a translation of such a table for only two example lines. However, translation should be done for ALL the table's rows. Using a single word as field label is essential and strongly suggested. Moreover, the fields order can be changed but then the change should be constant for all the rows in that table.
+Here below how to provide a translation of such a table for only two example lines. However, translation should be done for ALL the table's rows. Using a single word as a field label is essential and strongly suggested. Moreover, the fields order can be changed but then the change should be constant for all the rows in that table.
 
 1. DIB-1
-  - Modifica: Riconfigurato come [OFTB] (Cannibalismo Sociale/Violenza Intra-Specie) e RSMC, poiché la generalizzazione è intenzionale per critica sistemica.
-  - Cambiato: Eliminato.
+  - Modifica: Riconfigurato come [OFTB] (Cannibalismo Sociale/Violenza Intra-Specie) e RSMC, poiché la generalizzazione è intenzionale per critica sistemica.
+  - Cambiato: Eliminato.
 
 4. OFTB (nuovo)
-  - Modifica: Il concetto di "predazione intra-specie" (cannibalismo sociale) come causa sottostante la violenza organizzata del sistema è un'integrazione essenziale all'OFTB-3 (Progressi e Evergreen).
-  - Cambiato: Aggiunta.
+  - Modifica: Il concetto di "predazione intra-specie" (cannibalismo sociale) come causa sottostante la violenza organizzata del sistema è un'integrazione essenziale all'OFTB-3 (Progressi e Evergreen).
+  - Cambiato: Aggiunta.
 
-Another ways to create a more compact indented list is to join some fields. Here below two examples based on the other two table's row:
+Another way to create a more compact indented list is to join some fields. Here below two examples based on the other two table's row:
 
 2. **DIB-2**: Eliminato
-  - Riconfigurato come RSMC e HP che definisce il cinismo dell'agente intelligente come l'unica risposta razionale al sistema.
+  - Riconfigurato come RSMC e HP che definisce il cinismo dell'agente intelligente come l'unica risposta razionale al sistema.
 
 3. **DIB-3**: Eliminato -- Riconfigurato come RSMC che chiarisce la critica alla funzione HR come intrinsecamente violenta se basata sulla logica di "risorsa esauribile" (miniera).
 
-The first example above is based on the principle that most short and relevant information can be grouped into the title of a list's point. While the second is rely on the principle that markdown formatting and a more human-friendly separator can be used when the number of fields are few, most of them are very short while one is relatively long. However, the first example above will work better in the most general case.
+The first example above is based on the principle that most short and relevant information can be grouped into the title of a list's point. While the second relies on the principle that markdown formatting and a more human-friendly separator can be used when the number of fields are few, most of them are very short while one is relatively long. However, the first example above will work better in the most general case.
 
-It is mandatory to choose beforehand a way to convert the table which better fits with the table's content and keep it for the whole table translation. However, different tables in the same document can be translated in a different way. Expecially when the nature of the tables are very different and a single way of translating them would not fit among all. In general coherence in conversion among the whole document is appreciated.
+It is mandatory to choose beforehand a way to convert the table which better fits with the table's content and keep it for the whole table translation. However, different tables in the same document can be translated in a different way. Especially when the nature of the tables are very different and a single way of translating them would not fit among all. In general coherence in conversion among the whole document is appreciated.
+
+The point {1., 2., 3., 4.} are a set of style examples. In particular the difference between #1 and #4 is based on adding extra meaningful information between parentheses like "(nuovo)" which has been extracted from understanding the explanatory field.
+
