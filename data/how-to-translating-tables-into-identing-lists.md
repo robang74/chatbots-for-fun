@@ -1,4 +1,4 @@
-## HOW TO CONVERT TABLES IN INDENTED LISTS v0.2.4
+## HOW TO CONVERT TABLES IN INDENTED LISTS v0.2.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -32,7 +32,7 @@ Row conversion: create an indented list entry for each table row.
    - Modifica: La "predazione intra-specie" come nuovo presupposto all'OFTB-3.
    - Cambiato: Aggiunta.
 
-When appropriate, use compact formats:
+When appropriate, use compact formats which keep the full text displayed inline:
 
 2. **DIB-2**: Eliminato
   - Riconfigurato come HN, la logica di "risorsa esauribile" (miniera).
@@ -47,7 +47,7 @@ Format handling:
 * Tables may use comma (CSV), markdown, or other structured formats. Request clarification if the format is ambiguous.
 
 Style selection:
-* Users may specify styles (#1-#4) or suggest a preference (detailed vs compact). If not specified, analyze table structure and choose the most appropriate style. Use compact formats when the table has few columns and bullets when it has 2+ fields with long text. Extra meaningful information (e.g., "nuovo") can be added in parentheses when contextually relevant, also to reduce the number of the short text fields.
+* Users may specify styles (#1-#4) or suggest a preference (detailed vs compact). If not specified, analyze table structure and choose the most appropriate style. Use compact formats when the table has few columns but bullets-rich when fields have long text. Extra meaningful information (e.g., "nuovo") can be added in parentheses when contextually relevant, also to reduce the number of the short text fields.
 
 Consistency:
 * Maintain the chosen style throughout each table. Different tables may use different styles if their nature differs significantly. 
