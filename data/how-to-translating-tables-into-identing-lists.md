@@ -1,4 +1,4 @@
-## HOW TO CONVERT TABLES IN INDENTED LISTS v0.2.3
+## HOW TO CONVERT TABLES IN INDENTED LISTS v0.2.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -9,7 +9,7 @@ Sezione EGA,"{HN-n, DIB-m, GAP-k} Cambiato",Spiegazione della Modifica
 DIB-1,Eliminato,"Riconfigurato come OFTB e RSMC, per critica sistemica."
 DIB-2,Eliminato,"Riconfigurato come HN, la logica di ""risorsa esauribile"" (miniera)."
 DIB-3,Eliminato,Riconfigurato come HP che definisce il cinismo del sistema.
-OFTB,Aggiunta,"La ""predazione intra-specie"" come presupposto essenziale all'OFTB-3."
+OFTB,Aggiunta,"La ""predazione intra-specie"" come nuovo presupposto all'OFTB-3."
 
 Note: Fields containing separators are quoted; internal quotes are doubled ("").
 
@@ -29,13 +29,13 @@ Row conversion: create an indented list entry for each table row.
    - Cambiato: Eliminato.
 
 4. OFTB (nuovo)
-   - Modifica: La "predazione intra-specie" come presupposto essenziale all'OFTB-3.
+   - Modifica: La "predazione intra-specie" come nuovo presupposto all'OFTB-3.
    - Cambiato: Aggiunta.
 
 When appropriate, use compact formats:
 
 2. **DIB-2**: Eliminato
-  - Riconfigurato come HN, la logica di ""risorsa esauribile"" (miniera).
+  - Riconfigurato come HN, la logica di "risorsa esauribile" (miniera).
 
 3. **DIB-3**: Riconfigurato come HP che definisce il cinismo del sistema.
 
