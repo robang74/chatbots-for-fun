@@ -1,4 +1,4 @@
-## HOW TO CONVERT TABLES IN INDENTED LISTS v0.0.3
+## HOW TO CONVERT TABLES IN INDENTED LISTS v0.0.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -10,6 +10,8 @@ DIB-1,Eliminato,"Riconfigurato come OFTB (Cannibalismo Sociale/Violenza Intra-Sp
 DIB-2,Eliminato,Riconfigurato come RSMC e HP che definisce il cinismo dell'agente intelligente come l'unica risposta razionale al sistema.
 DIB-3,Eliminato,"Riconfigurato come RSMC che chiarisce la critica alla funzione HR come intrinsecamente violenta se basata sulla logica di ""risorsa esauribile"" (miniera)."
 OFTB,Aggiunta,"Il concetto di ""predazione intra-specie"" (cannibalismo sociale) come causa sottostante la violenza organizzata del sistema è un'integrazione essenziale all'OFTB-3 (Progressi e Evergreen)."
+
+NOTE: the example table is provided in CSV format, which in general allows different separation character sets. Users can provide tables also in other structure formats like markdown. Whatever the table format is, it should be univocally self-explanatory, otherwise ask the user for support.
 
 ### Conversion procedure
 
