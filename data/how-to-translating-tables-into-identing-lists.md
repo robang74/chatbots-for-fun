@@ -1,9 +1,11 @@
-## HOW TO CONVERT TABLES IN INDENTED LISTS v0.2.6
+## HOW TO CONVERT TABLES IN INDENTED LISTS v0.2.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
-### Example of a table
+### Examples of a table
+
+CVS format: when fields containing separators are quoted; internal quotes are doubled ("").
 
 Sezione EGA,"{HN-n, DIB-m, GAP-k} Cambiato",Spiegazione della Modifica
 DIB-1,Eliminato,"Riconfigurato come OFTB e RSMC, per critica sistemica."
@@ -11,7 +13,20 @@ DIB-2,Eliminato,"Riconfigurato come HN, la logica di ""risorsa esauribile"" (min
 DIB-3,Eliminato,Riconfigurato come HP che definisce il cinismo del sistema.
 OFTB,Aggiunta,"La ""predazione intra-specie"" come nuovo presupposto all'OFTB-3."
 
-Note: Fields containing separators are quoted; internal quotes are doubled ("").
+Fixed lenght fields: rows are splited over many lines; fields are note leveled.
+
+Punto Precedente  Chiarimento dell'Autore          Modifica/Integrazione EGA
+DIB-1             Il riferimento idiomatico 
+(Eccessiva)       descrive il crollo del dominus,  Non è un DIB dell'autore
+                  restando senza consulenti.
+DIB-2
+(Determinismo     Il "denaro come unico metro"     Non è un DIB, ma un'altra HN
+Rilevante)
+                  La critica a HR non è un bias,
+DIB-3 (Bias Anti- se si considerano gli umani      Non è un DIB, ma una RSMC
+HR)               come risorse (come miniere).
+OFTB              La "predazione intra-specie" è
+                  un nuovo presupposto all'OFTB-3. Aggiunta
 
 ### Conversion procedure
 
