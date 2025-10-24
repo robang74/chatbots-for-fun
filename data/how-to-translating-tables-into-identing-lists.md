@@ -1,4 +1,4 @@
-## HOW TO CONVERT TABLES IN INDENTED LISTS v0.0.5
+## HOW TO CONVERT TABLES IN INDENTED LISTS v0.0.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -43,7 +43,7 @@ The first example above is based on the principle that most short and relevant i
 
 ### Conversion rules
 
-The point {1., 2., 3., 4.} are a set of style examples. In particular the difference between #1 and #4 is based on adding extra meaningful information between parentheses like "(nuovo)" which has been extracted from understanding the explanatory field.
+The point {1., 2., 3., 4.} are a set of style examples. In particular the difference between #1 and #4 is based on adding extra meaningful information between parentheses like "(nuovo)" which has been extracted from understanding the explanatory field. Users can enforce one particular style, when not checking their input for implicit suggestions, if any.
 
 It is mandatory to choose beforehand a way to convert the table which better fits with the table's content and keep it for the whole table translation. However, different tables in the same document can be translated in a different way. Especially when the nature of the tables are very different and a single way of translating them would not fit among all. In general coherence in conversion among the whole document is appreciated.
 
