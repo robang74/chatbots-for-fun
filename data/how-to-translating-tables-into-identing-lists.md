@@ -1,4 +1,4 @@
-## HOW TO CONVERT TABLES IN INDENTED LISTS v0.2.2
+## HOW TO CONVERT TABLES IN INDENTED LISTS v0.2.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -38,6 +38,8 @@ When appropriate, use compact formats:
   - Riconfigurato come HN, la logica di ""risorsa esauribile"" (miniera).
 
 3. **DIB-3**: Riconfigurato come HP che definisce il cinismo del sistema.
+
+The enumerated list entries (#1-#4) above, are a set of style examples.
 
 ### Conversion rules
 
