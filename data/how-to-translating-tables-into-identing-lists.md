@@ -1,4 +1,4 @@
-## HOW TO CONVERT TABLES IN INDENTED LISTS v0.2.9
+## HOW TO CONVERT TABLES IN INDENTED LISTS v0.3.0
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -59,7 +59,7 @@ The enumerated list entries (#1-#4) above, are a set of style examples.
 ### Conversion rules
 
 Format handling:
-* Tables may use comma (CSV), markdown, or other structured formats. Request clarification if the format is ambiguous.
+* Tables may use comma (CSV), markdown, space-aligned, or other formats. Request clarification if the format is ambiguous or field boundaries are misaligned.
 
 Style selection:
 * Users may specify styles (#1-#4) or suggest a preference (detailed vs compact). If not specified, analyze table structure and choose the most appropriate style. Use compact formats when the table has few columns, but not when 2+ fields contain long text. Extra meaningful information (e.g., "nuovo") can be added in parentheses when contextually relevant, also to reduce the number of the short text fields.
