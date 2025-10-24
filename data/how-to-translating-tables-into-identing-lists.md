@@ -1,11 +1,11 @@
-## HOW TO CONVERT TABLES IN INDENTED LISTS v0.2.7
+## HOW TO CONVERT TABLES IN INDENTED LISTS v0.2.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
-### Examples of a table
+### Examples of tables
 
-CVS format: when fields containing separators are quoted; internal quotes are doubled ("").
+CSV format: when fields containing separators are quoted; internal quotes are doubled ("").
 
 Sezione EGA,"{HN-n, DIB-m, GAP-k} Cambiato",Spiegazione della Modifica
 DIB-1,Eliminato,"Riconfigurato come OFTB e RSMC, per critica sistemica."
@@ -13,7 +13,7 @@ DIB-2,Eliminato,"Riconfigurato come HN, la logica di ""risorsa esauribile"" (min
 DIB-3,Eliminato,Riconfigurato come HP che definisce il cinismo del sistema.
 OFTB,Aggiunta,"La ""predazione intra-specie"" come nuovo presupposto all'OFTB-3."
 
-Fixed lenght fields: rows are splited over many lines; fields are note leveled.
+Space-aligned table: rows are split over many lines and their fields are not leveled.
 
 Punto Precedente  Chiarimento dell'Autore          Modifica/Integrazione EGA
 DIB-1             Il riferimento idiomatico 
