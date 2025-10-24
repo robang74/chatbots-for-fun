@@ -1,4 +1,4 @@
-## HOW TO CONVERT TABLES IN INDENTED LISTS v0.0.9
+## HOW TO CONVERT TABLES IN INDENTED LISTS v0.1.0
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -6,10 +6,10 @@ it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use
 ### Example of a table
 
 Sezione EGA,"{HN-n, DIB-m, GAP-k} Cambiato",Spiegazione della Modifica
-DIB-1,Eliminato,"Riconfigurato come OFTB (Cannibalismo Sociale/Violenza Intra-Specie) e RSMC, poiché la generalizzazione è intenzionale per critica sistemica."
-DIB-2,Eliminato,Riconfigurato come RSMC e HP che definisce il cinismo dell'agente intelligente come l'unica risposta razionale al sistema.
-DIB-3,Eliminato,"Riconfigurato come RSMC che chiarisce la critica alla funzione HR come intrinsecamente violenta se basata sulla logica di ""risorsa esauribile"" (miniera)."
-OFTB,Aggiunta,"Il concetto di ""predazione intra-specie"" (cannibalismo sociale) come causa sottostante la violenza organizzata del sistema è un'integrazione essenziale all'OFTB-3 (Progressi e Evergreen)."
+DIB-1,Eliminato,"Riconfigurato come OFTB e RSMC, per critica sistemica."
+DIB-2,Eliminato,"Riconfigurato come HN, la logica di ""risorsa esauribile"" (miniera)."
+DIB-3,Eliminato,Riconfigurato come HP che definisce il cinismo del sistema.
+OFTB,Aggiunta,"La ""predazione intra-specie"" come presupposto essenziale all'OFTB-3."
 
 ### Conversion procedure
 
@@ -25,19 +25,19 @@ Campi della tavola {nome della tavola}:
 Here below how to provide a translation of such a table for only two example lines. However, translation should be done for ALL the table's rows. Using a single word as a field label is essential and strongly suggested. Moreover, the fields order can be changed but then the change should be constant for all the rows in that table.
 
 1. DIB-1
-  - Modifica: Riconfigurato come OFTB (Cannibalismo Sociale/Violenza Intra-Specie) e RSMC, poiché la generalizzazione è intenzionale per critica sistemica.
+  - Modifica: Riconfigurato come OFTB e RSMC, per critica sistemica.
   - Cambiato: Eliminato.
 
 4. OFTB (nuovo)
-  - Modifica: Il concetto di "predazione intra-specie" (cannibalismo sociale) come causa sottostante la violenza organizzata del sistema è un'integrazione essenziale all'OFTB-3 (Progressi e Evergreen).
+  - Modifica: La "predazione intra-specie" come presupposto essenziale all'OFTB-3.
   - Cambiato: Aggiunta.
 
 Another way to create a more compact indented list is to join some fields. Here below two examples based on the other two table's row:
 
 2. **DIB-2**: Eliminato
-  - Riconfigurato come RSMC e HP che definisce il cinismo dell'agente intelligente come l'unica risposta razionale al sistema.
+  - Riconfigurato come HN, la logica di ""risorsa esauribile"" (miniera).
 
-3. **DIB-3**: Eliminato -- Riconfigurato come RSMC che chiarisce la critica alla funzione HR come intrinsecamente violenta se basata sulla logica di "risorsa esauribile" (miniera).
+3. **DIB-3**: Riconfigurato come HP che definisce il cinismo del sistema.
 
 The first example above is based on the principle that most short and relevant information can be grouped into the title of a list's point. While the second relies on the principle that markdown formatting and a more human-friendly separator can be used when the number of fields are few, most of them are very short while one is relatively long. However, the first example above will work better in the most general case.
 
