@@ -1,4 +1,4 @@
-## HOW TO CONVERT TABLES IN INDENTED LISTS v0.2.8
+## HOW TO CONVERT TABLES IN INDENTED LISTS v0.2.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -25,7 +25,7 @@ Rilevante)
                   La critica a HR non è un bias,
 DIB-3 (Bias Anti- se si considerano gli umani      Non è un DIB, ma una RSMC
 HR)               come risorse (come miniere).
-OFTB              La "predazione intra-specie" è
+OFTB              La competizione intra-specie è
                   un nuovo presupposto all'OFTB-3. Aggiunta
 
 ### Conversion procedure
