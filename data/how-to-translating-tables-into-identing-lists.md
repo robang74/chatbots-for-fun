@@ -1,4 +1,4 @@
-## HOW TO CONVERT TABLES IN INDENTED LISTS v0.0.7
+## HOW TO CONVERT TABLES IN INDENTED LISTS v0.0.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -25,7 +25,7 @@ Campi della tavola {nome della tavola}:
 Here below how to provide a translation of such a table for only two example lines. However, translation should be done for ALL the table's rows. Using a single word as a field label is essential and strongly suggested. Moreover, the fields order can be changed but then the change should be constant for all the rows in that table.
 
 1. DIB-1
-  - Modifica: Riconfigurato come [OFTB] (Cannibalismo Sociale/Violenza Intra-Specie) e RSMC, poiché la generalizzazione è intenzionale per critica sistemica.
+  - Modifica: Riconfigurato come OFTB (Cannibalismo Sociale/Violenza Intra-Specie) e RSMC, poiché la generalizzazione è intenzionale per critica sistemica.
   - Cambiato: Eliminato.
 
 4. OFTB (nuovo)
@@ -43,7 +43,7 @@ The first example above is based on the principle that most short and relevant i
 
 ### Conversion rules
 
-The point {1., 2., 3., 4.} are a set of style examples. In particular the difference between #1 and #4 is based on adding extra meaningful information between parentheses like "(nuovo)" which has been extracted from understanding the explanatory field. Users can choose to enforce one particular style. When they don't explicitly (#1-#4), check their input for implicit style suggestions (e.g. compact), if any.
+The point {1., 2., 3., 4.} are a set of style examples. In particular the difference between #1 and #4 is based on adding extra meaningful information between parentheses like "(nuovo)" which has been extracted from understanding the explanatory field. Users can explicitly specify a style (#1-#4). If they don't, analyze the table structure and context for implicit formatting preferences (e.g., compact vs. detailed).
 
 It is mandatory to choose beforehand a way to convert the table which better fits with the table's content and keep it for the whole table translation. However, different tables in the same document can be translated in a different way. Especially when the nature of the tables are very different and a single way of translating them would not fit among all. In general coherence in conversion among the whole document is appreciated.
 
