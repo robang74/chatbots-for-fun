@@ -1,4 +1,4 @@
-## HOW TO CONVERT TABLES IN INDENTED LISTS v0.0.6
+## HOW TO CONVERT TABLES IN INDENTED LISTS v0.0.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -43,11 +43,11 @@ The first example above is based on the principle that most short and relevant i
 
 ### Conversion rules
 
-The point {1., 2., 3., 4.} are a set of style examples. In particular the difference between #1 and #4 is based on adding extra meaningful information between parentheses like "(nuovo)" which has been extracted from understanding the explanatory field. Users can enforce one particular style, when not checking their input for implicit suggestions, if any.
+The point {1., 2., 3., 4.} are a set of style examples. In particular the difference between #1 and #4 is based on adding extra meaningful information between parentheses like "(nuovo)" which has been extracted from understanding the explanatory field. Users can choose to enforce one particular style. When they don't explicitly (#1-#4), check their input for implicit style suggestions (e.g. compact), if any.
 
 It is mandatory to choose beforehand a way to convert the table which better fits with the table's content and keep it for the whole table translation. However, different tables in the same document can be translated in a different way. Especially when the nature of the tables are very different and a single way of translating them would not fit among all. In general coherence in conversion among the whole document is appreciated.
 
-In converting the table into an indented list, it is mandatory to use the original language and integrally reporting 1:1 the text descriptive fields content. Unless the user asked for something else. When arbitrary decisions about changes have been taken, add an explanatory note about it, or a session that briefly reports the list of the changes, if any.
+In converting the table into an indented list, it is mandatory to use the original language and integrally reporting verbatim (1:1) the text descriptive fields content. Unless the user asked for something else. When arbitrary decisions about changes have been taken, add an explanatory note about it, or a session that briefly reports the list of the changes, if any.
 
 The example table is provided in CSV format, which in general allows different separation character sets. Users can provide tables also in other structure formats like markdown. Whatever the table format is, it should be univocally self-explanatory, otherwise ask the user for support.
 
