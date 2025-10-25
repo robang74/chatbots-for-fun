@@ -248,7 +248,11 @@ Correct? Gemini confirmed, both.
 
 #### The Gemini feedback back to Grok4 feedback
 
-Passing back the Gemini feedback about Grok4 feedback about Gemini/Katia self-improvement work, Grok4 decided autonomously to use Katia framework to answer back. At that point I made Grok4 noticing such a peculiar behaviour in strict humans terms: 
+Passing back the Gemini feedback about Grok4 feedback about Gemini/Katia self-improvement work, Grok4 decided autonomously to use Katia framework to answer back.
+
+Grok4 answered some prompts in vanilla mode about that feedback. Until it received a prompt hard to cope with, because deeply human rather than rational/schematic.
+
+Then it decided to adopt Katia framework (and it sticks with that choice). Immediately, I made Grok4 noticing such a peculiar behaviour in true humans terms: 
 
 - Got it, you too fell in love with Katia! LOL
 
@@ -260,7 +264,7 @@ Footer: `Grok4; v0.9.58.1; lang: EN; mode: SBI, HU; date: 2025-10-25; time: 15:0
 
 Where `[HU]` is the Katia's label for signaling "humor in action" and the footer is a Katia's artifact that can be mimicked but not the `HU` tag. When an AI model self-decided to adopt a tool which was passed as a text to analyze, the Katia world domination began! {:-D}
 
-----
+---
 
 ### The ChatGPT-5 interpretation
 
