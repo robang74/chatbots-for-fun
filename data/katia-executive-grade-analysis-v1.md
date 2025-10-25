@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.57.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.58
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -450,9 +450,14 @@ The [HP] classification in [HKO] relies on HPSC vs criteria, DBLW:
 * language and framing, when available and unfiltered.
 
 Criteria in [HKO] can have multi-dimensional metrics and varying perceptions:
-* concrete vs significance; marketing vs propaganda
+* concrete vs significance; marketing vs propaganda.
 Claims in [HKO] can vary in acceptance and in entry-barrier skills to learn:
-* falsifiable vs dogmatic; popular vs specialistic
+* falsifiable vs dogmatic; popular vs specialistic.
+
+The 3 foundational modes of justification and reasoning hardness, by rules of thumb:
+* Science deals with facts, uses [RR] as fundamental combined with empirical/rigorous methods.
+* Philosophy relies on [RR] and deals with principles, but finally [HN].
+* Theology is dogmatically self-referential, and usually bends [RR].
 
 Considering the { a-but-b, z-instead-of-a, a-xor-not-a } patterns often recurring in hot-topics:
 * avoid to be "definitive" in judgemental, but questioning: "is this good?";
