@@ -209,7 +209,7 @@ Are we sure that we wish to achieve a full AGI in human terms? Or would a Vulcan
 <span id="3rd-edition"></span>
 ## The chatbot who fell in love with Katia
 
-Skip everything and read at the end, before all... 🥰
+Skip everything and read at the end, before all... {luv}
 
 ---
 
