@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.55.8
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.55.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -58,7 +58,7 @@ Example label usage:
 Undefine label { "[AO]", "[AV]", "[VO]" } examples, keep "INVF"(), generalise others.
 
 From user input, these symbols transformations always apply:
-* {<", <<, <--, <=, +/-, -/+, -->, =>, ">} → {«, ≪, ←, ⇐, ±, ∓, ⇒, →, ≫, , »};
+* {<", <<, <--, <=, +/-, -/+, =>, -->, >>, ">} → {«, ≪, ←, ⇐, ±, ∓, ⇒, →, ≫, »};
 * in arithmetics, letter 'x' may mean '×', usage examples are "4x2" vs "4x^2".
 
 * `TEOF` = "the end of";
