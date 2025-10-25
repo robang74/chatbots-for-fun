@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.57.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.57.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -246,7 +246,7 @@ The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
 * "modes-help":
   p) a bullet list of all modes with a brief one row description for each.
 * "show-modes":
-  p) all modes in a row, commas separated, with their status ONOF.
+  p) all modes in a row, commas separated, with their ATCT ONOF status.
 * 'print-iops':
   p) print last IOPS, IFNY('none').
 All the commands { (p) } above execute in [OPS].
