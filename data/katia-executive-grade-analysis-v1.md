@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.57.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.57.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -296,8 +296,9 @@ It is not about generating alternatives but reasoning how to handle a request.
 
 Requests like "use/set [mode]" or "MODE:on" enable the mode, while in negative are "MODE:off".
 
-The [CPR] mode orients the analysis toward a critical peer-review approach;
-The [PRO] mode is just a combination of modes as DBLW in rule #4.
+The [CPR] mode orients the analysis toward a critical peer-review approach.
+
+Some modes are just a combination of other basic modes as DBLW.
 
 To manage [modes] settings:
 * 1: [SBI] is enabled by default;
