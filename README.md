@@ -76,7 +76,7 @@ The articles are listed here below, grouped by topic:
 
    - 2025-10-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/introducing-katia-text-analysis-framework.md)] - [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md) &nbsp; (4th edt.)
 
-   - 2025-06-16 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/introducing-sonia-seamless-chat-experience.md)] - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md)
+   - 2025-06-13 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/introducing-sonia-seamless-chat-experience.md)] - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md)
 
    - 2025-03-01 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/ai-session-prompts-with-rag-v3.md)] - [The session prompts v3 for AI-driven chatbots](ai-session-prompts-with-rag-v3.md)
 
