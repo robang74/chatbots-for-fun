@@ -5,7 +5,7 @@
 
 ## How to use Katia for improving Katia
 
-- **1st edition**, explains how the Katia framework can be used for developing and validating it by a human.
+- **1st edition**, explains how the [Katia framework](../data/katia-executive-grade-analysis-v1.md#?target=_blank) can be used for developing and validating it by a human.
 
 - **2nd edition**, explains the [methodology](#methodology) behind the example show, and presents the conclusions.
 
