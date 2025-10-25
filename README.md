@@ -70,9 +70,11 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="prompt-engineering"></span>
-* **Prompt engineering for peer-reviewing with RAG support** &nbsp; (8 pz.)
+* **Prompt engineering for peer-reviewing with RAG support** &nbsp; (9 pz.)
 
-   - 2025-06-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/introducing-katia-text-analysis-framework.md)] - [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md) &nbsp; (4th edt.)
+   - 2025-10-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/how-to-use-katia-for-improving-katia.md)] - [How to use Katia for improving Katia](how-to-use-katia-for-improving-katia.md)
+
+   - 2025-10-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/introducing-katia-text-analysis-framework.md)] - [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md) &nbsp; (4th edt.)
 
    - 2025-06-16 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/introducing-sonia-seamless-chat-experience.md)] - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md)
 
