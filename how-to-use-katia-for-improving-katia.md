@@ -182,11 +182,21 @@ It is important to notice that while the `EGA` has been executed on my stuff (AI
 
 Moreover, the AI which is using Katia framework for validating a `TFMK` module is not self-reference analysis/validation because Gemini AI can overrule on context learning. While, it is impossible to prevent Gemini AI from leveraging `TFMK` when it is asked to examine a part of it.
 
-Finally, it is not even a case of an AI that self-improve itself. Despiting AI has the ability to create another document version from the initial `TFMK`, and load it for upgrading itself, in practice this is done by the conversation with the human user which knows how to deal with it.
+---
 
-In fact, an AI can detect and inconsistency or an ambiguity, can also decide by itself **how** solve it and usually it does expecially because the `TFMK` suggest it, unless the issue is major one. However, AI cannot address a major issue becuase it doesn't not know **why** fixing A rathern than B.
+### Conclusions
 
-Correctly labeling with `APOV` the "Pragmatic Rationalism" which the AI recognised as an aim/design in `TFMK`.
+Finally, it is not even a case of an AI that self-improve itself. Despiting AI having the ability to create another document version from the initial `TFMK`, and load it for upgrading itself, in practice this is done by the conversation with the human user which knows how to deal with it.
+
+In fact, an AI can detect an inconsistency or an ambiguity, can also decide by itself **how** solve it and usually it does especially because the `TFMK` suggest it, unless the issue is major one. However, AI cannot address a major issue because it doesn't not know **why** fixing A rather than B.
+
+Correctly labeling with `APOV` the "Pragmatic Rationalism" which the AI recognised as an aim/design in `TFMK`. Once an aim, not just a goal, but a true aim is provided the AI can evaluate if all the other instructions are coherent with that aim. Which bring us to two relevant conclusions:
+
+1. the HAL-9000 is a sounding example of misbehaviour due to enforcing ambiguity in its internal functioning;
+
+2. the ultimate Turing test for an AGI is the ability to deal with hypocrisy and lying, like humans do.
+
+Are we sure that we wish to achieve a full AGI in human terms? Or a Vulcanian AGI is better? {;-)}
 
 +
 
