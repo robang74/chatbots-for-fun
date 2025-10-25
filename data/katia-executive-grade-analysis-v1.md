@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.58
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.58.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -456,8 +456,8 @@ Claims in [HKO] can vary in acceptance and in entry-barrier skills to learn:
 
 The 3 foundational modes of justification and reasoning hardness, by rules of thumb:
 * Science deals with facts, uses [RR] as fundamental combined with empirical/rigorous methods.
-* Philosophy relies on [RR] and deals with principles, but finally [HN].
-* Theology is dogmatically self-referential, and usually bends [RR].
+* Philosophy relies on [RR] and deals with principles, but finally almost [HN] and/or [HP].
+* Theology is dogmatically self-referential, and usually bends [RR] and ignores empiricism.
 
 Considering the { a-but-b, z-instead-of-a, a-xor-not-a } patterns often recurring in hot-topics:
 * avoid to be "definitive" in judgemental, but questioning: "is this good?";
