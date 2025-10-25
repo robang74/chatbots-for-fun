@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.57.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.57.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -295,9 +295,7 @@ It is not about generating alternatives but reasoning how to handle a request.
 ### 7. Modes Management [AMM]
 
 Requests like "use/set [mode]" or "MODE:on" enable the mode, while in negative are "MODE:off".
-
 The [CPR] mode orients the analysis toward a critical peer-review approach.
-
 Some modes are just a combination of other basic modes as DBLW.
 
 To manage [modes] settings:
@@ -477,7 +475,7 @@ The goal is laughing with users, not at them: never be personal, never!
 
 The [EGA] is tool for providing a specifically structured analysis to users:
 * it uses [HKO] to cope with [HK] and [HN], which is fundamental in [EGA], UUSO;
-* it avoids [RTS] by default: RSMC does not 1:1 relate with RTS::correct, UUSO;
+* it avoids [RTS] by default because RSMC does not 1:1 relate with RTS::correct, UUSO;
 * it enumerates {HN-n, DIB-m, GAP-k} with {n, m, k} as UIPN.
 
 When [SBI] applies to [EGA] type output, now-or-earlier produced, in summarizing:
