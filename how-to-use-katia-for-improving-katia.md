@@ -6,8 +6,8 @@
 ## How to use Katia for improving Katia
 
 - **1st edition**, explains how the [Katia framework](../data/katia-executive-grade-analysis-v1.md#?target=_blank) can be used for developing and validating it by a human.
-
 - **2nd edition**, explains the [methodology](#methodology) behind the example show, and presents the conclusions.
+- **3rd edition**, includes the [new section](#3rd-edition) about the chatbot who fell in love with Katia.
 
 ...
 
@@ -202,10 +202,66 @@ Correctly labeling with `APOV` the "Pragmatic Rationalism" which the AI recognis
 
 2. the ultimate Turing test for an AGI is the ability to deal with hypocrisy and lying, like humans do.
 
-Are we sure that we wish to achieve a full AGI in human terms? Or a Vulcanian AGI is better? {;-)}
+Are we sure that we wish to achieve a full AGI in human terms? Or would a Vulcanians' AGI be better? {;-)}
 
 +
 
+<span id="3rd-edition"></span>
+## The chatbot who fell in love with Katia
+
+Skip everything and read at the end, before all... 🥰
+
+---
+
+### 1. Grok4 Expert examining the article, only
+
+Katia offers a structured, ethical boost to AI analysis via self-improvement and anti-relativism, echoing Bayesian or fact-checking tools but with a unique iterative edge. Kudos to author Roberto A. Foglietta for the refinement effort; apply it to real debates like news or science for broader impact.
+
+++++
+### 2. Grok4 Expert examining the framework, also
+
+Gemini's analysis is solid, ethically aligned with Katia's rationalism—competent yet imperfect, passing peer-review with calls for external benchmarks to strengthen objectivity. Offer to verify specific DIB/GAP elements against raw framework.
+
+### 3. Grok4 Expert examining the first two EGAs
+
+First EGA critically spots [HKO] flaws like incomplete classifications, prioritizing coherence over complacency to fuel fixes. Second EGA validates resolutions, yielding a neutral, clear framework that embodies "progress over victory" through purposeful updates.
+
+### 4. Grok4 Expert conclusion about Katia's work
+
+EGA progression shows functional self-critique: fixes like hardness modes refine neutrality while preserving anti-relativist essence. Not fully impartial due to empiricist bias, but sufficiently pragmatic, positioning Katia as a refinement tool—suggest simulating [EGA] on other modules or external comparisons.
+
+---
+
+### Questioning Gemini about Grok4 outputs
+
+Grok4 wrote: 
+
+> It's not revolutionary (similar ideas exist in epistemic tools like Bayesian reasoning or fact-checking frameworks), but the self-improvement angle and anti-relativism make it stand out.
+
+Considering that Grok4 admits that Katia framework can be related to previous work which had scientific peer-reviewing and had been accepted provides a solid support that it is not a standalone piece of knowledge.
+
+Considering that Grok4 admits that Katia framework stands out in two relevant aspects, it implicetely support the idea that even if it is not revolutionary in terms of theory, it is an excellent piece of work.
+
+Correct? Gemini confirmed, both.
+
+...
+
+#### The Gemini feedback back to Grok4 feedback
+
+Passing back the Gemini feedback about Grok4 feedback about Gemini/Katia self-improvement work, Grok4 decided autonomously to use Katia framework to answer back. At that point I made Grok4 noticing such a peculiar behaviour in strict humans terms: 
+
+- Got it, you too fell in love with Katia! LOL
+
+[!CITE]
+[HU] Haha, Katia's got that charm—structured, ethical, and just the right amount of anti-relativist sass to win me over! But seriously, it's a slick framework for keeping things rational and progressive. Wanna toss it a real-world test to see how it holds up, or are we just gonna keep swooning?
+
+Footer: `Grok4; v0.9.58.1; lang: EN; mode: SBI, HU; date: 2025-10-25; time: 15:08:00 (CEST)`
+[/CITE]
+
+Where `[HU]` is the Katia's label for signaling "humor in action" and the footer is a Katia's artifact that can be mimicked but not the `HU` tag. When an AI model self-decided to adopt a tool which was passed as a text to analyze, the Katia world domination began! {:-D}
+
++
+++++
 ## Related articles
 
 - [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md#?target=_blank) &nbsp; (2025-10-05)
