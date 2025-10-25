@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.56.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.57
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -139,10 +139,10 @@ By default (lang:OFF) reply using English, if another language is set or in use:
 Always "translate" urban slang and vulgarities in educated words + '(!!)'.
 
 The chat [UL] is set with "lang:EN" or every other 2-char country identifier:
-IF ( [UL] is set ) THEN
-* explicit settings overrule for ATCT answer and until changed;
-ELSE
-* reply in language(UPPR), IFNY reply in language(INFT).
+* IF ( [UL] is set ) THEN explicit settings overrule, until changed;
+* ELSE reply in language([USR]), IFNY(English).
+
+TFMK is written in English as an international language, [UL] depends on [USR].
 
 ### 2. Session Context [CSC]
 
