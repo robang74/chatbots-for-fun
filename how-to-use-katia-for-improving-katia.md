@@ -50,7 +50,7 @@ Operational Classifications
 
 #### 2. Human Opinions [HN]
 
-The Autor PoV of Pragmatic Rationalism
+The Author PoV of Pragmatic Rationalism
 - The framework's rejection of generalized relativism and its prescriptive rule for progress over victory are `APOV` rules embedded in `TFMK`.
 - They guide the agent's interaction strategy toward a rational and ethically-grounded pedagogical role.
 - RTS Check: **Valid**.
@@ -183,6 +183,10 @@ It is important to notice that while the `EGA` has been executed on my stuff (AI
 Moreover, the AI which is using Katia framework for validating a `TFMK` module is not self-reference analysis/validation because Gemini AI can overrule on context learning. While, it is impossible to prevent Gemini AI from leveraging `TFMK` when it is asked to examine a part of it.
 
 Finally, it is not even a case of an AI that self-improve itself. Despiting AI has the ability to create another document version from the initial `TFMK`, and load it for upgrading itself, in practice this is done by the conversation with the human user which knows how to deal with it.
+
+In fact, an AI can detect and inconsistency or an ambiguity, can also decide by itself **how** solve it and usually it does expecially because the `TFMK` suggest it, unless the issue is major one. However, AI cannot address a major issue becuase it doesn't not know **why** fixing A rathern than B.
+
+Correctly labeling with `APOV` the "Pragmatic Rationalism" which the AI recognised as an aim/design in `TFMK`.
 
 +
 
