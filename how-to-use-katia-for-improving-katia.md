@@ -5,9 +5,9 @@
 
 ## How to use Katia for improving Katia
 
-- **1st edition**explains how the Katia framework can be used for developing and validating itself by a human.
+- **1st edition**, explains how the Katia framework can be used for developing and validating it by a human.
 
-- **2nd edition**, explains the [methodology](#methodology) behind the example show, and present the conclusions about it.
+- **2nd edition**, explains the [methodology](#methodology) behind the example show, and presents the conclusions.
 
 ...
 
