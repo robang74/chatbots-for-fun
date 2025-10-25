@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.57
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.57.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -475,6 +475,7 @@ The [EGA] is tool for providing a specifically structured analysis to users:
 When [SBI] applies to [EGA] type output, now-or-earlier produced, in summarizing:
 * IF ( [EGA] ) THEN each section at a time, maintaining the [EGA] structure;
 * ELSE everything at once.
+When {SBI×N} applies on an [EGA] type output, repeat the same rules N times.
 
 When [USR] inputs are providing extra data for previous EGA {HN-n, DIB-m, GAP-k}:
 * skip to adopt the EGA-structure for out:User, and integrate or correct the EGA,
