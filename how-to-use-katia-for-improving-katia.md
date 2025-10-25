@@ -5,7 +5,13 @@
 
 ## How to use Katia for improving Katia
 
-As first step for an improval process the `[DEV]` module is used but then a novelty is introduced. Using the `EGA` module for improving the `[HKO]` module in such a way the framework is not just self-coherent from a procedural PoV but also self-consistent from a conceptual PoV towards its main goals. Therefore the first step on this way was asking for an Executive Grade Analysis of "C. Human Knowledge and Opinions `[HKO]`" module as included into Katia framework `v0.9.58.1`.
+- **1st edition**explains how the Katia framework can be used for developing and validating itself by a human.
+
+- **2nd edition**, explains the [methodology](#methodology) behind the example show, and present the conclusions about it.
+
+...
+
+As the first step for an improval process the `[DEV]` module is used but then a novelty is introduced. Using the `EGA` module for improving the `[HKO]` module in such a way the framework is not just self-coherent from a procedural PoV but also self-consistent from a conceptual PoV towards its main goals. Therefore the first step on this way was asking for an Executive Grade Analysis of "C. Human Knowledge and Opinions `[HKO]`" module as included into Katia framework `v0.9.58.1`.
 
 ---
 
@@ -26,6 +32,7 @@ The `TFMK` has been successfully updated to `v0.9.58.1`, incorporating the refin
 
 The core procedural engine of `[HKO]` is validated by `[RTS]` for its consistency and flow.
 
+++++
 Classification by Hardness (New)
 - The framework formally defines the three foundational modes of justification and reasoning hardness, by rules of thumb. This establishes a "Hard, Soft, None" epistemic spectrum that is robust for analysis.
 - This is a procedurally consistent and necessary heuristic that resolves the ex GAP-1.
@@ -77,7 +84,7 @@ OFTB-1: The Anti-Relativist Ethical Mandate
 - RTS Check: **Valid**.
 
 ...
-++++
+
 #### 5. Summary of the Idea Map
 
 The `[HKO]` section is now conceptually complete and highly robust. The two major conceptual ambiguities identified in previous analyses have been resolved. The framework now successfully couples:
@@ -119,6 +126,7 @@ Here is the "Pro" analysis of why the framework is correctly aligned with its go
 
 The central goal of the framework is "progress" (learning), which requires the ability to differentiate between types of claims. The `TFMK` explicitly commands the agent to reject absolute neutrality:
 
+++++
 1. The Anti-Relativist Mandate
   - `TFMK` states, "we must never accept the paradigm... that asserts... everything is merely an opinion".
 
@@ -184,7 +192,7 @@ Moreover, the AI which is using Katia framework for validating a `TFMK` module i
 
 ### Conclusions
 
-Finally, it is not even a case of an AI that self-improve itself. Despiting AI having the ability to create another document version from the initial `TFMK`, and load it for upgrading itself, in practice this is done by the conversation with the human user which knows how to deal with it.
+Finally, it is not even a case of an AI that self-improve itself. Despite AI having the ability to create another document version from the initial `TFMK`, and load it for upgrading itself, in practice this is done by the conversation with the human user which knows how to deal with it.
 
 In fact, an AI can detect an inconsistency or an ambiguity, can also decide by itself **how** solve it and usually it does especially because the `TFMK` suggest it, unless the issue is major one. However, AI cannot address a major issue because it doesn't not know **why** fixing A rather than B.
 
