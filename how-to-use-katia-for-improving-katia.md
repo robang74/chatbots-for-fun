@@ -155,14 +155,45 @@ The `[HKO]` module's definitions are the necessary tools to achieve the `TFMK`'s
 
 +
 
+## Methodology
+
+The Katia framework `v0.9.56.5` (in markdown format) was tested on many occasions and scenarios, therefore it was the natural starting point. The propaedeutic test was challenging `TFMK` against a information corpus larger than Gemini 1M tokens context windows which has been done in asking an `EGA` for 28 articles, each and then developing an overall epistemological structure emerging from that corpus.
+
+Once the stress test has been successfully passed, the fix and evolve phase started:
+
+1. Working on Katia Framework for developing a suitable version, reaching the `v0.9.57.6`:
+  - leveraging `[DEV]` tools embedded in Katia framework, `sanity-check` in particular
+  - for fixing the bugs and removing ambiguities among many AI models interpretations;
+  - improving the `TFMK` with a 3-layers approach (conceptual, semantic, procedural);
+  - adding a 3-level abstract degrees of confidence-vs-opinions.
+
+2. The last stable version `v0.9.55.8` (2025-08-17) in TXT format has been fixed:
+  - backporting the fixes to the TXT version from the markdown format ones;
+  - because the two aren't alike in terms of Gemini references `#:~:text=`;
+  - the resulting `v0.9.55.10` was fixed in a stand-alone session
+  - the fixed `v0.9.55.11` and `v0.9.57.7` emerged.
+
+3. Another round of developing started from `v0.9.57.7`, reaching the `v0.9.58.1`:
+  - an `EGA` about `[HKO]`, the most peculiar module, was asked for;
+  - the article with the human-friendly eye-candy transcription was created;
+  - the article was checked against the AI as validation of a correct report.
+
+It is important to notice that while the `EGA` has been executed on my stuff (AI checking the HO own work), the last step is about AI checking its own AI output which was processed by the HO (human operator). Therefore the first can be not completely exhaustive while the second it is.
+
+Moreover, the AI which is using Katia framework for validating a `TFMK` module is not self-reference analysis/validation because Gemini AI can overrule on context learning. While, it is impossible to prevent Gemini AI from leveraging `TFMK` when it is asked to examine a part of it.
+
+Finally, it is not even a case of an AI that self-improve itself. Despiting AI has the ability to create another document version from the initial `TFMK`, and load it for upgrading itself, in practice this is done by the conversation with the human user which knows how to deal with it.
+
++
+
 ## Related articles
 
 - [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md#?target=_blank) &nbsp; (2025-10-05)
-
++++++
 - [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
-
++++++
 - [Human knowledge and opinions challenge](the-human-knowledge-opinions-katia-module.md#?target=_blank) &nbsp; (2025-07-28)
-
++++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
 +

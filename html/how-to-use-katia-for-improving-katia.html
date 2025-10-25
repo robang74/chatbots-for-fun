@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-10-25&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>3</b rev_num='
+'>4</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/how-to-use-katia-for-improving-katia?_x_tr_sl=it&_x_tr_tl=en&_x_tr_hl=en-EN&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>EN</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/how-to-use-katia-for-improving-katia?_x_tr_sl=it&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/how-to-use-katia-for-improving-katia?_x_tr_sl=it&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/how-to-use-katia-for-improving-katia?_x_tr_sl=it&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -177,14 +177,45 @@ The <tt>[HKO]</tt> module's definitions are the necessary tools to achieve the <
 <p></p>
 <br>
 <p></p>
+<H2 id="methodology">Methodology</H2>
+<p></p>
+The Katia framework <tt>v0.9.56.5</tt> (in markdown format) was tested on many occasions and scenarios, therefore it was the natural starting point. The propaedeutic test was challenging <tt>TFMK</tt> against a information corpus larger than Gemini 1M tokens context windows which has been done in asking an <tt>EGA</tt> for 28 articles, each and then developing an overall epistemological structure emerging from that corpus.
+<p></p>
+Once the stress test has been successfully passed, the fix and evolve phase started:
+<p></p>
+<li class='numli'><b>1.&emsp;</b>Working on Katia Framework for developing a suitable version, reaching the <tt>v0.9.57.6</tt>:</li>
+<li class='li2in'>leveraging <tt>[DEV]</tt> tools embedded in Katia framework, <tt>sanity-check</tt> in particular</li>
+<li class='li2in'>for fixing the bugs and removing ambiguities among many AI models interpretations;</li>
+<li class='li2in'>improving the <tt>TFMK</tt> with a 3-layers approach (conceptual, semantic, procedural);</li>
+<li class='li2in'>adding a 3-level abstract degrees of confidence-vs-opinions.</li>
+<p></p>
+<li class='numli'><b>2.&emsp;</b>The last stable version <tt>v0.9.55.8</tt> (2025-08-17) in TXT format has been fixed:</li>
+<li class='li2in'>backporting the fixes to the TXT version from the markdown format ones;</li>
+<li class='li2in'>because the two aren't alike in terms of Gemini references <tt>#:~:text=</tt>;</li>
+<li class='li2in'>the resulting <tt>v0.9.55.10</tt> was fixed in a stand-alone session</li>
+<li class='li2in'>the fixed <tt>v0.9.55.11</tt> and <tt>v0.9.57.7</tt> emerged.</li>
+<p></p>
+<li class='numli'><b>3.&emsp;</b>Another round of developing started from <tt>v0.9.57.7</tt>, reaching the <tt>v0.9.58.1</tt>:</li>
+<li class='li2in'>an <tt>EGA</tt> about <tt>[HKO]</tt>, the most peculiar module, was asked for;</li>
+<li class='li2in'>the article with the human-friendly eye-candy transcription was created;</li>
+<li class='li2in'>the article was checked against the AI as validation of a correct report.</li>
+<p></p>
+It is important to notice that while the <tt>EGA</tt> has been executed on my stuff (AI checking the HO own work), the last step is about AI checking its own AI output which was processed by the HO (human operator). Therefore the first can be not completely exhaustive while the second it is.
+<p></p>
+Moreover, the AI which is using Katia framework for validating a <tt>TFMK</tt> module is not self-reference analysis/validation because Gemini AI can overrule on context learning. While, it is impossible to prevent Gemini AI from leveraging <tt>TFMK</tt> when it is asked to examine a part of it.
+<p></p>
+Finally, it is not even a case of an AI that self-improve itself. Despiting AI has the ability to create another document version from the initial <tt>TFMK</tt>, and load it for upgrading itself, in practice this is done by the conversation with the human user which knows how to deal with it.
+<p></p>
+<br>
+<p></p>
 <H2 id="related-articles">Related articles</H2>
 <p></p>
 <li><a href="introducing-katia-text-analysis-framework.html#" target='_blank' rel='noopener noreferrer'>Introducing Katia, text analysis framework</a> &nbsp; (2025-10-05)</li>
-<p></p>
+<br class="pagebreak">
 <li><a href="the-session-context-and-summary-challenge.html#" target='_blank' rel='noopener noreferrer'>The session context and summary challenge</a> &nbsp; (2025-07-28)</li>
-<p></p>
+<br class="pagebreak">
 <li><a href="the-human-knowledge-opinions-katia-module.html#" target='_blank' rel='noopener noreferrer'>Human knowledge and opinions challenge</a> &nbsp; (2025-07-28)</li>
-<p></p>
+<br class="pagebreak">
 <li><a href="attenzione-e-contesto-nei-chatbot.html#" target='_blank' rel='noopener noreferrer'>Attenzione e contesto nei chatbot</a> &nbsp; (2025-07-20)</li>
 <p></p>
 <br>
