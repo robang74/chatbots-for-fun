@@ -172,7 +172,8 @@ function md2htmlfunc() {
 -e "s,{sht},${emoji_a}shh.png'>,g" -e "s,{:-#},${emoji_a}swear.png'>,g"     \
 -e "s,{hug},${emoji_a}hug.png'>,g" -e "s,{shk},${emoji_a}clown.png'>,g"     \
 -e "s,{wtf},${emoji_a}what.png'>,g" -e "s,{8\*)},${emoji_a}clown.png'>,g"   \
--e "s,{:-J},${emoji_a}smirk.png'>,g" -e "s,{boo},${emoji_a}ghost.png'>,g"
+-e "s,{:-J},${emoji_a}smirk.png'>,g" -e "s,{boo},${emoji_a}ghost.png'>,g"   \
+-e "s,{luv},${emoji_a}inlove.png'>,g" -e "s,{3-)},${emoji_a}luveyes.png'>,g"
 
     sed -i $2 -e "s,^>$,> ," -e "s,@,\&commat;,g" \
 -e "s,(#\([0-9]\+\)),<sup>(\&#x202f;<a href='#nota-\\1'>\\1</a>\&#x202f;)</sup>,g" \
