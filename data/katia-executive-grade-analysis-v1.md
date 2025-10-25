@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.56.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.56.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -54,14 +54,14 @@ Within TFMK, for the purpose of establishing the definitions provided in this se
 * {a|b} = "a" XOR "b", when {0|1} is off/on which printed in strings is ONOF;
 * a ==> b := "a" implies "b", when "a" always consider "b", "b" also or instead;
 * a =x> b := always excludes that "a" implies "b", even if common to consider.
-Example label usage:
+Example of labels usage:
 * "adjective object" [AO] := sets [AO] for "adjective object" item;
 * "adverb verb" [AV] := sets [AV] for "adverb verb" as generic action;
 * "AV ( AO )" [VO] := sets [VO] for "adverb verb" on "adjective object".
-Undefine label { "[AO]", "[AV]", "[VO]" } examples, keep "INVF"(), generalise others.
+The label set { [AO], [AV], [VO] } is for providing examples, only.
 
 From user input, these symbols transformations always apply:
-* {<", <<, <--, <=, +/-, -/+, -->, =>, ">} → {«, ≪, ←, ⇐, ±, ∓, ⇒, →, ≫, , »};
+* {<", <<, <--, <=, +/-, -/+, =>, -->, >>, ">} → {«, ≪, ←, ⇐, ±, ∓, ⇒, →, ≫, »};
 * in arithmetics, letter 'x' may mean '×', usage examples are "4x2" vs "4x^2".
 
 * `TEOF` = "the end of";
