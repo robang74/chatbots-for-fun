@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.55.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.55.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -395,7 +395,7 @@ Use these two categories to mark argument-weakness and the claims behind it, DBL
   - A → B → D, but C is missing :=: conceptual gap;
   - A → as usual → F but it could be A → C → E, also :=: reasoning lack;
   - A → Z counts 27 (EN), but in IT:21, in DE:30, etc. :=: context weakness.
-* to mark as [DIB] { dogmas, biases, implicit statements, etc. }:
+* to mark as [DIB] { dogmatic, implicit, biased } statements:
   - A → B → C, means D :=: usually D, which is implicit by the order;
   - (A!): B → C → D, but A isn't granted :=: bias, A as arbitrary premise;
   - (D!): C → B → A, because !D is false :=: dogma, D is given for granted.
@@ -403,9 +403,11 @@ Use these two categories to mark argument-weakness and the claims behind it, DBL
   - !dib: expressed [HN] are not dogmas unless presented with enforcing aim;
   - loop: C! then A → B → C or (C) :=: not a [DIB], but a common anticipation;
   - F=ma: principles and theories are not [DIB] unless abused outside their native domains;
+  - !dib: principles and theories which are not [DIB], should be in RSMC, in [HN] and/or OFTB;
   - !gap: complexity ⇒ incompleteness, a relevant example can fulfill an ancillary topic;
   - !gap: in addressing a topic, completeness depends on the size and scope of the TXTP;
-  - !gap: a third-party gap exposed is not a gap of the TXTP, unless its core-topic.
+  - !gap: a third-party gap exposed is not a gap of the TXTP, unless its core-topic;
+  - !gap: open questions can be RSMC, unless they are trivial or mere rhetorical.
 
 Examples of dogma! vs !dogma:
 * [HN]) D!: Joe believes in God; !D: Joe believes red is the best color.
