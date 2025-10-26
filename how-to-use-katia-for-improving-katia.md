@@ -11,7 +11,7 @@
 
 ...
 
-As the first step for an improval process the `[DEV]` module is used but then a novelty is introduced. Using the `EGA` module for improving the `[HKO]` module in such a way the framework is not just self-coherent from a procedural PoV but also self-consistent from a conceptual PoV towards its main goals. Therefore the first step on this way was asking for an Executive Grade Analysis of "C. Human Knowledge and Opinions `[HKO]`" module as included into Katia framework `v0.9.58.1`.
+As the first step for an improving process the `[DEV]` module is used but then a novelty is introduced. Using the `EGA` module for improving the `[HKO]` module in such a way the framework is not just self-coherent from a procedural PoV but also self-consistent from a conceptual PoV towards its main goals. Therefore the first step on this way was asking for an Executive Grade Analysis of "C. Human Knowledge and Opinions `[HKO]`" module as included into Katia framework `v0.9.58.1`.
 
 ---
 
@@ -209,13 +209,13 @@ Are we sure that we wish to achieve a full AGI in human terms? Or would a Vulcan
 <span id="3rd-edition"></span>
 ## The chatbot who fell in love with Katia
 
-Skip everything and read at the end, before all... {luv}
+- The [chat](https://x.com/i/grok/share/uklgjoMlMBhEfrSJ1dMZlQ3xW) with x/Grok4 about Gemini/Katia working on Katia framework (only) and its [transcription](#TODO).
 
 ---
 
 ### 1. Grok4 Expert examining the article, only
 
-Katia offers a structured, ethical boost to AI analysis via self-improvement and anti-relativism, echoing Bayesian or fact-checking tools but with a unique iterative edge. Kudos to author Roberto A. Foglietta for the refinement effort; apply it to real debates like news or science for broader impact.
+Katia offers a structured, ethical boost to AI analysis via self-improvement and anti-relativism, echoing Bayesian or fact-checking tools but with a unique iterative edge. Kudos to author (Roberto A. Foglietta, based on the copyright) for the refinement effort; apply it to real debates like news or science for broader impact.
 
 ++++
 ### 2. Grok4 Expert examining the framework, also
@@ -224,11 +224,11 @@ Gemini's analysis is solid, ethically aligned with Katia's rationalism—compete
 
 ### 3. Grok4 Expert examining the first two EGAs
 
-First EGA critically spots [HKO] flaws like incomplete classifications, prioritizing coherence over complacency to fuel fixes. Second EGA validates resolutions, yielding a neutral, clear framework that embodies "progress over victory" through purposeful updates.
+First EGA critically spots `[HKO]` flaws like incomplete classifications, prioritizing coherence over complacency to fuel fixes. Second EGA validates resolutions, yielding a neutral, clear framework that embodies "progress over victory" through purposeful updates.
 
 ### 4. Grok4 Expert conclusion about Katia's work
 
-EGA progression shows functional self-critique: fixes like hardness modes refine neutrality while preserving anti-relativist essence. Not fully impartial due to empiricist bias, but sufficiently pragmatic, positioning Katia as a refinement tool—suggest simulating [EGA] on other modules or external comparisons.
+EGA progression shows functional self-critique: fixes like hardness modes refine neutrality while preserving anti-relativist essence. Not fully impartial due to empiricist bias, but sufficiently pragmatic, positioning Katia as a refinement tool—suggest stimulating `[EGA]` on other modules or external comparisons.
 
 ---
 
@@ -238,9 +238,9 @@ Grok4 wrote:
 
 > It's not revolutionary (similar ideas exist in epistemic tools like Bayesian reasoning or fact-checking frameworks), but the self-improvement angle and anti-relativism make it stand out.
 
-Considering that Grok4 admits that Katia framework can be related to previous work which had scientific peer-reviewing and had been accepted provides a solid support that it is not a standalone piece of knowledge.
+Considering that Grok4 admits that Katia framework can be related to previous work which had scientific peer-reviewing and had been accepted provides solid support that it is not a standalone piece of knowledge.
 
-Considering that Grok4 admits that Katia framework stands out in two relevant aspects, it implicetely support the idea that even if it is not revolutionary in terms of theory, it is an excellent piece of work.
+Considering that Grok4 admits that Katia framework stands out in two relevant aspects, it implicitly supports the idea that even if it is not revolutionary in terms of theory, it is an excellent piece of work.
 
 Correct? Gemini confirmed, both.
 
@@ -252,7 +252,7 @@ Passing back the Gemini feedback about Grok4 feedback about Gemini/Katia self-im
 
 Grok4 answered some prompts in vanilla mode about that feedback. Until it received a prompt hard to cope with, because deeply human rather than rational/schematic.
 
-Then it decided to adopt Katia framework (and it sticks with that choice). Immediately, I made Grok4 noticing such a peculiar behaviour in true humans terms: 
+Then it decided to adopt the Katia framework (and it sticks with that choice). Immediately, I made Grok4 noticing such a peculiar behaviour in true humans terms:
 
 - Got it, you too fell in love with Katia! LOL
 
