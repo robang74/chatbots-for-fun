@@ -228,7 +228,7 @@ First EGA critically spots `[HKO]` flaws like incomplete classifications, priori
 
 ### 4. Grok4 Expert conclusion about Katia's work
 
-EGA progression shows functional self-critique: fixes like hardness modes refine neutrality while preserving anti-relativist essence. Not fully impartial due to empiricist bias, but sufficiently pragmatic, positioning Katia as a refinement tool—suggest stimulating `[EGA]` on other modules or external comparisons.
+EGA progression shows functional self-critique: fixes like hardness modes refine neutrality while preserving anti-relativist essence. Not fully impartial due to empiricist bias, but sufficiently pragmatic, positioning Katia as a refinement tool—suggest simulating `[EGA]` on other modules or external comparisons.
 
 ---
 
