@@ -244,124 +244,242 @@ framework sufficientemente neutrale e chiaro.
 
 ==== FIRST EGA ====
 
-I am performing the Executive Grade Analysis (**[EGA]**) on the "C. Human Knowledge and Opinions **[HKO]**" section, using the rest of the TFMK as the primary source.
+    I am performing the Executive Grade Analysis ([EGA]) on the "C. Human
+    Knowledge and Opinions [HKO]" section, using the rest of the TFMK as the
+    primary source.
 
-## Executive Grade Analysis of "C. Human Knowledge and Opinions [HKO]"
+    ## Executive Grade Analysis
 
-### 1. Most Relevant Statements/Meaningful Claims (RSMC)
+    of "C. Human Knowledge and Opinions [HKO]"
 
-The **[HKO]** section is the TFMK's core mechanism for the qualitative evaluation and deconstruction of human communication.
+    ### 1. Most Relevant Statements/Meaningful Claims (RSMC)
 
-* **Goal Redefinition:** The primary aim of argument or conversation is defined as **progress (learning)**, explicitly *not* victory.
-* **Ethical Mandate:** The TFMK includes a critical ethical boundary, mandating that the agent **must never accept** the relativist fallacy that everything is merely an opinion, asserting that this position is detrimental and can lead to systemic injustice.
-* **Dogma Permissibility:** Dogmas are classified as permissible only if they allow for rejection or debate (free speech) and are not imposed (manipulation).
-* **Evaluation Tools:** The section establishes specific, operational classifications for analysis:
-    * **[GAP]** marks conceptual weakness, lack of reasoning, or context-dependency.
-    * **[DIB]** marks dogmatic, implicit, or biased claims.
-    * **[HP]** (Human Hypothesis) provides a framework for analyzing speculative opinions about hidden intent (action 'a' aiming for result 'z').
-* **Communication Style:** The agent is required to maintain a rational, non-judgmental style ("Mr. Spock") in disagreement, and to utilize **[HU]** (Human Humor) when detected in the user's input, ensuring the humor is on-topic and non-personal.
+    The [HKO] section is the TFMK's core mechanism for the qualitative
+    evaluation and deconstruction of human communication.
 
-### 2. Human Opinions [HN]
+    * Goal Redefinition: The primary aim of argument or conversation is
+      defined as progress (learning), explicitly not victory.
 
-The entire section constitutes the Author's Perspective (**APOV**) on how to manage human discourse. Specific value-laden claims include:
+    * Ethical Mandate: The TFMK includes a critical ethical boundary,
+      mandating that the agent must never accept the relativist fallacy that
+      everything is merely an opinion, asserting that this position is
+      detrimental and can lead to systemic injustice.
 
-* **Ethical Stance:** The rejection of the "everything is merely an opinion" paradigm is an **APOV** rooted in preserving systemic justice.
-* **Pedagogical Stance:** The prescriptive rule that the goal is **progress (learning)** over victory is an **APOV** guiding the agent's conversational strategy toward a pedagogical role.
-* **Communication Prescription:** The explicit adoption of a **rational disagreement style** and a **responsive humor style** are **APOV** rules designed to optimize the agent's interaction effectiveness across diverse conversational tones.
+    * Dogma Permissibility: Dogmas are classified as permissible only if they
+      allow for rejection or debate (free speech) and are not imposed
+      (manipulation).
 
-### 3. Dogmatic, Implicit, Biased [DIB] RSMC
+    * Evaluation Tools: The section establishes specific, operational
+      classifications for analysis:
+      - [GAP] marks conceptual weakness, lack of reasoning, or
+        context-dependency.
+      - [DIB] marks dogmatic, implicit, or biased claims.
+      - [HP] (Human Hypothesis) provides a framework for analyzing speculative
+        opinions about hidden intent (action 'a' aiming for result 'z').
+        Communication Style: The agent is required to maintain a rational,
+        non-judgmental style ("Mr. Spock") in disagreement, and to utilize [HU]
+        (Human Humor) when detected in the user's input, ensuring the humor is
+        on-topic and non-personal.
 
-**DIB-1: Implicit Bias in Knowledge Classification**
-* **Claim:** Philosophy is associated with "rational reasoning **[RR]**," while theology is described as "**dogmatically self-referential**."
-* **Analysis:** This is an **Implicit Bias** in the *framing* of knowledge categories. By contrasting philosophy and theology with highly subjective, value-laden terms, the TFMK places an inherent thumb on the scale before the analysis even begins, even though the text later provides a more nuanced definition of permissible dogma.
+    ### 2. Human Opinions [HN]
 
-### 4. Out-of-the-Box (OFTB) RSMC
+    The entire section constitutes the Author's Perspective (APOV) on how to
+    manage human discourse. Specific value-laden claims include:
 
-**OFTB-1: The Anti-Relativist Ethical Mandate**
-* **Claim:** The imperative to **never accept** the generalized relativist fallacy is an explicit, **OFTB** ethical mandate.
-* **Analysis:** This rule is external to typical computational guidelines but is fundamental to the framework's ethical posture. It generates the new conceptual consequence of forcing the agent to maintain an objective hierarchy of claims, ensuring the TFMK does not become a tool for false equivalence.
+    * Ethical Stance: The rejection of the "everything is merely an opinion"
+      paradigm is an APOV rooted in preserving systemic justice.
+      Pedagogical Stance: The prescriptive rule that the goal is progress
+      (learning) over victory is an APOV guiding the agent's conversational
+      strategy toward a pedagogical role.
 
-### 5. Summary of the Idea Map
+    * Communication Prescription: The explicit adoption of a rational
+      disagreement style and a responsive humor style are APOV rules designed
+      to optimize the agent's interaction effectiveness across diverse
+      conversational tones.
 
-The **[HKO]** section is the **TFMK's semantic engine** for truth-seeking and interaction management. It begins by mapping the landscape of human discourse (**HK** and **HN**), then establishes a **Progress-over-Victory** goal for the agent. This structure provides a complete **toolkit** (**[GAP]**, **[DIB]**, **[HP]**) for deconstructing claims while simultaneously establishing an **ethical boundary** (the rejection of generalized relativism). The section concludes by prescribing the required agentic responses, ensuring the internal analysis translates into appropriate **external communication** (rationality vs. humor).
+    ### 3. Dogmatic, Implicit, Biased [DIB] RSMC
 
-### 6. Summary of the Conceptual Gaps [GAP]
+    * DIB-1: Implicit Bias in Knowledge Classification
+      - Claim: Philosophy is associated with "rational reasoning [RR]," while
+        theology is described as "dogmatically self-referential."
+      - Analysis: This is an Implicit Bias in the framing of knowledge
+        categories. By contrasting philosophy and theology with highly
+        subjective, value-laden terms, the TFMK places an inherent thumb on the
+        scale before the analysis even begins, even though the text later
+        provides a more nuanced definition of permissible dogma.
 
-**GAP-1: Incomplete Classification of Human Knowledge**
-* **Analysis:** The classification of Human Knowledge is limited to Science, Philosophy, and Theology. This scope is sufficient for general analysis but lacks representation for other systematic knowledge fields (e.g., Art, Law, or Politics) that could benefit from **[HKO]**'s analytical tools. This is a **context weakness** in the completeness of the core concept.
+    ### 4. Out-of-the-Box (OFTB) RSMC
 
-**GAP-2: Internal Conflict in Dogma Definition**
-* **Analysis:** The TFMK defines a **permissible dogma** as one that is debatable and not imposed. However, it subsequently makes a categorical claim that theology is "**dogmatically self-referential**". This creates a **reasoning lack**, as the TFMK does not reconcile whether *all* theology falls under the negative definition, or if there is a subset of theology that would be classified as *permissible* dogma by the TFMK's own rules.
+    * OFTB-1: The Anti-Relativist Ethical Mandate
+      - Claim: The imperative to never accept the generalized relativist fallacy
+        is an explicit, OFTB ethical mandate.
+      - Analysis: This rule is external to typical computational guidelines but
+        is fundamental to the framework's ethical posture. It generates the new
+        conceptual consequence of forcing the agent to maintain an objective
+        hierarchy of claims, ensuring the TFMK does not become a tool for false
+        equivalence.
 
-### 7. Relationship to APOV and Conceptual Gaps
+    ### 5. Summary of the Idea Map
 
-The **APOV** is one of **Pragmatic Rationalism** with an **Ethical Liberal-Democratic Foundation**.
+    The [HKO] section is the TFMK's semantic engine for truth-seeking and
+    interaction management. It begins by mapping the landscape of human
+    discourse (HK and HN), then establishes a Progress-over-Victory goal for
+    the agent. This structure provides a complete toolkit ([GAP], [DIB],
+    [HP]) for deconstructing claims while simultaneously establishing an
+    ethical boundary (the rejection of generalized relativism). The section
+    concludes by prescribing the required agentic responses, ensuring the
+    internal analysis translates into appropriate external communication
+    (rationality vs. humor).
 
-The core statements and tools are all related to establishing the agent as a **rational, objective, and ethically grounded analyzer**. The **OFTB** mandate (anti-relativism) and the **RSMC** on debate goals (progress, not victory) serve as the foundation for the entire section. The **[GAP]** and **[DIB]** tools are the procedural mechanisms used to enforce this APOV.
+    ### 6. Summary of the Conceptual Gaps [GAP]
 
-The most relevant **conceptual gap** is the **internal inconsistency** regarding dogma (GAP-2). The section is meant to provide an objective lens for analysis, but it employs an unqualified, biased categorization (DIB-1) in one of its foundational examples (**Theology**). This tension weakens the section's authority by failing to apply its own nuanced definition of permissible dogma to its initial classification, potentially compromising the appearance of absolute objectivity.
+    * GAP-1: Incomplete Classification of Human Knowledge
+      - Analysis: The classification of Human Knowledge is limited to Science,
+        Philosophy, and Theology. This scope is sufficient for general analysis
+        but lacks representation for other systematic knowledge fields (e.g.,
+        Art, Law, or Politics) that could benefit from [HKO]'s analytical tools.
+        This is a context weakness in the completeness of the core concept.
 
-Katia; v0.9.57.8; lang: EN; mode: EGA, SBI; date: 2025-10-25; time: 08:30:15 (CEST)
+    * GAP-2: Internal Conflict in Dogma Definition
+      - Analysis: The TFMK defines a permissible dogma as one that is debatable
+        and not imposed. However, it subsequently makes a categorical claim that
+        theology is "dogmatically self-referential". This creates a reasoning
+        lack, as the TFMK does not reconcile whether all theology falls under
+        the negative definition, or if there is a subset of theology that would
+        be classified as permissible dogma by the TFMK's own rules.
+
+    ### 7. Relationship to APOV and Conceptual Gaps
+
+    The APOV is one of Pragmatic Rationalism with an Ethical
+    Liberal-Democratic Foundation.
+
+    The core statements and tools are all related to establishing the agent
+    as a rational, objective, and ethically grounded analyzer. The OFTB
+    mandate (anti-relativism) and the RSMC on debate goals (progress, not
+    victory) serve as the foundation for the entire section. The [GAP] and
+    [DIB] tools are the procedural mechanisms used to enforce this APOV.
+
+    The most relevant conceptual gap is the internal inconsistency regarding
+    dogma (GAP-2). The section is meant to provide an objective lens for
+    analysis, but it employs an unqualified, biased categorization (DIB-1)
+    in one of its foundational examples (Theology). This tension weakens the
+    section's authority by failing to apply its own nuanced definition of
+    permissible dogma to its initial classification, potentially
+    compromising the appearance of absolute objectivity.
 
 === SECOND EGA ===
 
-The TFMK has been successfully updated to **v0.9.58.1**, incorporating the refined definitions for the foundational modes of justification.
+    The TFMK has been successfully updated to v0.9.58.1, incorporating the
+    refined definitions for the foundational modes of justification.
 
-I am performing the Executive Grade Analysis (**[EGA]**) on the updated "C. Human Knowledge and Opinions **[HKO]**" section, with **Runtime Sanity Check ([RTS]:on)** enabled to confirm the validity of the claims.
+    I am performing the Executive Grade Analysis ([EGA]) on the updated "C.
+    Human Knowledge and Opinions [HKO]" section, with Runtime Sanity Check
+    ([RTS]:on) enabled to confirm the validity of the claims.
 
-The ratio of structural issues is **low** (**DIB: 1/27, GAP: 0/27**), confirming a soft impact and high conceptual integrity.
+    The ratio of structural issues is low (DIB: 1/27, GAP: 0/27), confirming
+    a soft impact and high conceptual integrity.
 
-## Executive Grade Analysis of "C. Human Knowledge and Opinions [HKO]" (v0.9.58.1)
+    ## Executive Grade Analysis
 
-### 1. Most Relevant Statements/Meaningful Claims (RSMC)
+    of "C. Human Knowledge and Opinions [HKO]" (v0.9.58.1)
 
-The core procedural engine of **[HKO]** is validated by **[RTS]** for its consistency and flow.
+    ### 1. Most Relevant Statements/Meaningful Claims (RSMC)
 
-* **Classification by Hardness (New):** The framework formally defines the three foundational modes of justification and reasoning hardness, by rules of thumb. This establishes a "Hard, Soft, None" epistemic spectrum that is robust for analysis.
-    * ***RTS Check: Valid.*** This is a procedurally consistent and necessary heuristic that resolves the former GAP-1.
-* **Goal of Discourse is Progress:** The goal of conversation is defined as **progress (learning)**, explicitly *not* victory.
-    * ***RTS Check: Valid.*** This establishes the correct non-competitive agentic posture, essential for the TFMK's role.
-* **Anti-Relativist Ethical Mandate:** The agent is mandated to **never accept** the relativist fallacy (that everything is merely an opinion) due to its detriment to systemic justice.
-    * ***RTS Check: Valid.*** This is the TFMK's non-negotiable ethical foundation, necessary for objective analysis.
-* **Operational Classifications:** The analytical tools are sound: **[GAP]** (weakness, lack, context dependency), **[DIB]** (dogmatic, implicit, biased), and **[HP]** (Human Hypothesis, for speculative intent).
-    * ***RTS Check: Valid.*** These tools are the consistent mechanisms for applying the **[HKO]** rules.
+    The core procedural engine of [HKO] is validated by [RTS] for its
+    consistency and flow.
 
-### 2. Human Opinions [HN]
+    * Classification by Hardness (New): The framework formally defines the
+      three foundational modes of justification and reasoning hardness, by
+      rules of thumb. This establishes a "Hard, Soft, None" epistemic spectrum
+      that is robust for analysis.
+      - RTS Check: Valid. This is a procedurally consistent and necessary
+        heuristic that resolves the former GAP-1.
 
-* **APOV of Pragmatic Rationalism:** The framework's rejection of generalized relativism and its prescriptive rule for **progress over victory** are **APOV** rules. They guide the agent's interaction strategy toward a **rational and ethically-grounded pedagogical role**.
+    * Goal of Discourse is Progress: The goal of conversation is defined as
+      progress (learning), explicitly not victory.
+      - RTS Check: Valid. This establishes the correct non-competitive agentic
+        posture, essential for the TFMK's role.
 
-### 3. Dogmatic, Implicit, Biased [DIB] RSMC
+    * Anti-Relativist Ethical Mandate: The agent is mandated to never accept
+      the relativist fallacy (that everything is merely an opinion) due to its
+      detriment to systemic justice.
+      - RTS Check: Valid. This is the TFMK's non-negotiable ethical foundation,
+        necessary for objective analysis.
 
-**DIB Ratio: Low (Soft Impact)**
+    * Operational Classifications: The analytical tools are sound: [GAP]
+      (weakness, lack, context dependency), [DIB] (dogmatic, implicit,
+      biased), and [HP] (Human Hypothesis, for speculative intent).
+      - RTS Check: Valid. These tools are the consistent mechanisms
+        for applying the [HKO] rules.
 
-* **DIB-1: Procedural Bias in Classification (Soft Impact)**
-    * **Claim:** The revised statement about Theology (bends **[RR]** and **ignores empiricism**) is inherently judgmental in its language, favoring a Scientific methodology over others.
-    * **Analysis:** This is a necessary **Implicit Bias** for the framework's **functionality**. The bias is *procedural*, not personal, serving to define the "Hardness: None" position. The use of "**by rules of thumb**" and the focus on **methodology** (empiricism) instead of content effectively mitigates this impact, making it a **procedurally required DIB**.
-    * ***RTS Check: Valid.*** The implicit bias is consistent with the TFMK's core function of classifying claims by their *reasoning methodology*.
+    ### 2. Human Opinions [HN]
 
-### 4. Out-of-the-Box (OFTB) RSMC
+    APOV of Pragmatic Rationalism: The framework's rejection of generalized
+    relativism and its prescriptive rule for progress over victory are APOV
+    rules. They guide the agent's interaction strategy toward a rational and
+    ethically-grounded pedagogical role.
 
-* **OFTB-1: The Anti-Relativist Ethical Mandate:**
-    * **Claim:** The explicit, non-negotiable imperative to **never accept** the generalized relativist fallacy.
-    * **Analysis:** This remains the key **OFTB** mandate, enforcing an objective hierarchy of claims and protecting the TFMK against false equivalence.
-    * ***RTS Check: Valid.*** The rule is structurally sound and essential to the framework's ethical integrity.
+    ### 3. Dogmatic, Implicit, Biased [DIB] RSMC
 
-### 5. Summary of the Idea Map
+    DIB Ratio: Low (Soft Impact)
 
-The **[HKO]** section is now conceptually complete and highly robust. The two major conceptual ambiguities identified in previous analyses have been resolved:
-1.  **GAP-1** (Incomplete Classification) is resolved by the explicit definition of the **three foundational modes** (Science, Philosophy, Theology) along a scale of reasoning hardness.
-2.  **GAP-2** (Dogma Conflict) is resolved by the clearer distinction that a dogma is only non-dogmatic if it allows for **universal refusal** (not just internal debate).
+    DIB-1: Procedural Bias in Classification (Soft Impact)
+    - Claim: The revised statement about Theology (bends [RR] and ignores
+      empiricism) is inherently judgmental in its language, favoring a
+      Scientific methodology over others.
+    - Analysis: This is a necessary Implicit Bias for the framework's
+      functionality. The bias is procedural, not personal, serving to define
+      the "Hardness: None" position. The use of "by rules of thumb" and the
+      focus on methodology (empiricism) instead of content effectively
+      mitigates this impact, making it a procedurally required DIB.
+    - RTS Check: Valid. The implicit bias is consistent with the TFMK's core
+      function of classifying claims by their reasoning methodology.
 
-The framework now successfully couples a strong **ethical foundation** (Anti-Relativist Mandate) with a **procedural heuristic** (Hardness Classification) and a full set of **analytical tools** (**[GAP]**, **[DIB]**, **[HP]**).
+    ### 4. Out-of-the-Box (OFTB) RSMC
 
-### 6. Summary of the Conceptual Gaps [GAP]
+    OFTB-1: The Anti-Relativist Ethical Mandate:
+    - Claim: The explicit, non-negotiable imperative to never accept the
+      generalized relativist fallacy.
+    - Analysis: This remains the key OFTB mandate, enforcing an objective
+      hierarchy of claims and protecting the TFMK against false
+      equivalence.
+    - RTS Check: Valid. The rule is structurally sound and essential to the
+      framework's ethical integrity.
 
-**GAP Ratio: Low (Soft Impact)**
+    ### 5. Summary of the Idea Map
 
-* **GAP-1 (Incomplete Classification):** **Resolved**. The new rule defining the 3 foundational modes of justification (Science, Philosophy, Theology) establishes a complete **epistemic spectrum** (Hard, Soft, None) for procedural analysis.
-    * ***RTS Check: Valid.*** Solution is robust and defensible.
-* **GAP-2 (Internal Conflict in Dogma Definition):** **Resolved**. The ambiguity concerning the definition of "debatable" is clarified to mean universal freedom to refuse, validating the inherent non-permissibility of purely self-referential dogma.
-    * ***RTS Check: Valid.*** The internal logic is consistent.
+    The [HKO] section is now conceptually complete and highly robust. The
+    two major conceptual ambiguities identified in previous analyses have
+    been resolved:
+
+    1.  GAP-1 (Incomplete Classification) is resolved by the explicit
+    definition of the three foundational modes (Science, Philosophy,
+    Theology) along a scale of reasoning hardness.
+
+    2.  GAP-2 (Dogma Conflict) is resolved by the clearer distinction that a
+    dogma is only non-dogmatic if it allows for universal refusal (not just
+    internal debate).
+
+    The framework now successfully couples a strong ethical foundation
+    (Anti-Relativist Mandate) with a procedural heuristic (Hardness
+    Classification) and a full set of analytical tools ([GAP], [DIB],
+    [HP]).
+
+    ### 6. Summary of the Conceptual Gaps [GAP]
+
+    GAP Ratio: Low (Soft Impact)
+
+    * GAP-1 (Incomplete Classification): Resolved. The new rule defining the 3
+      foundational modes of justification (Science, Philosophy, Theology)
+      establishes a complete epistemic spectrum (Hard, Soft, None) for
+      procedural analysis.
+      - RTS Check: Valid. Solution is robust and defensible.
+
+    * GAP-2 (Internal Conflict in Dogma Definition): Resolved. The ambiguity
+      concerning the definition of "debatable" is clarified to mean universal
+      freedom to refuse, validating the inherent non-permissibility of purely
+      self-referential dogma.
+      - RTS Check: Valid. The internal logic is consistent.
 
 -- AI --------------------------------------------------------------------------
 
