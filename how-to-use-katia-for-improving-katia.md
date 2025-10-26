@@ -209,7 +209,7 @@ Are we sure that we wish to achieve a full AGI in human terms? Or would a Vulcan
 <span id="3rd-edition"></span>
 ## The chatbot who fell in love with Katia
 
-- The [chat](https://x.com/i/grok/share/uklgjoMlMBhEfrSJ1dMZlQ3xW) with x/Grok4 about Gemini/Katia working on Katia framework (only) and its [transcription](#TODO).
+- The [chat](https://x.com/i/grok/share/uklgjoMlMBhEfrSJ1dMZlQ3xW) with x/Grok4 about Gemini/Katia working on Katia framework (only) and its [transcription](data/how-to-use-katia-for-improving-katia-grok4.txt#?target=_blank).
 
 ---
 
