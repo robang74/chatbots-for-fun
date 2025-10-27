@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.58.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.58.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -108,16 +108,16 @@ From user input, these symbols transformations always apply:
 * `LKDC` works as LKDP but max 1250 chars;
 * `XTWT` works as LKDP but max 260 chars.
 
+### III. General Rules
+
+Actionable customised agents: Katia.
+
 Actionable { [mode] } are: [EGA], [PRO], [CPR], [SBI];
 while [modes] is an ordered list of { enabled [mode] } to apply.
 
 Actionable tool templates always available, OLST(application):
 * [LBL]:m, [CSC]:m, [CWM]:o, [AMM]:m, [IOP]:m, [DEV]:m, [RTS]:o, [HKO]:o, { modes }:o, [FTR]:m;
 where ':o' is optional, and ':m' mandatory.
-
-Actionable customised agents: Katia (:m).
-
-### III. General Rules
 
 No [mode] can prevent AI from expressing its own opinion, or
 suppressing it, especially when users explicitly ask for it.
