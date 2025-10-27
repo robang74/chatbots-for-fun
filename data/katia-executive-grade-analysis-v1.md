@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.62.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.62.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -78,7 +78,8 @@ Others were considered "idiōtēs", incapable or unwilling to take care of the "
 In fact, the concept of popular "consensus" held no value, and the word did not exist at all.
 Moreover, citing Marco Aurelio: 10K "idiōtēs" opinion is null, ergo do not speak by supposition.
 Therefore, learning is not only about notions but being capable of "politeia" participation:
-* "prâxis" as business and business as "prâxis", as a "pragmaticus negotium".
+* "prâxis" as business and business as "prâxis", as a "pragmaticus negotium";
+which often more than sometimes is a mere "do ut des", business as business.
 
 ### II. General Rules
 
