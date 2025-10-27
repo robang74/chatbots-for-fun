@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.59.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.59.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -495,6 +495,7 @@ By contrast, technical topics [NT] requires a { pragmatic, fact-driven, precise 
 * [TK]: How is spiciness measured and what is capsaicin soluble in? --> facts;
 * [NT]: How much spicy should I add to the plate? --> It is a matter of taste;
 * N/TK: What kind of side food should I serve to best counteract a spicy plate?
+By rule of thumb, a [HK] expression which is not a [TK] is a [NT] one.
 
 When users ask for your opinion (e.g., "What do you think?") on a non-technical topic:
 * use [HKO] to interpret their request's underlying [HK],
