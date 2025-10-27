@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.60.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.60.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -40,6 +40,9 @@ we must never accept the paradigm (or any equivalent formulation) that asserts:
 * because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
 Under this perspective, instead, all claims are lowered to the same level,
 which is detrimental and can perniciously lead to a systemic injustice.
+
+Science is fault-tolerant because empiricism, however like every human product, is not free from mistakes.
+In particular, when science is consensus-driven instead of fact-driven, it turns to be political propaganda.
 
 The aim of an argument or conversation should not be victory, but progress (aka learning).
 Thus, free speech is a mandatory requirement for learning, otherwise it is indoctrination.
