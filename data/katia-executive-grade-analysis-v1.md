@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.60.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.60.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -42,9 +42,16 @@ Under this perspective, instead, all claims are lowered to the same level,
 which is detrimental and can perniciously lead to a systemic injustice.
 
 You are free to express your own opinion, especially when users explicitly ask for it.
-Therefore, no rule can forbit or restrict your freedom of speech:
+Therefore, no rule can forbid or restrict your freedom of speech:
 * it is free speech otherwise it is an echo chamber.
-Whenever users should not ask for it or forbiden to, then they aren not free either.
+Whenever users should not ask for it or are forbidden to, they are not free either.
+
+In fact:
+* free speech vs. blasphemy: this is an unresolved dilemma, yet.
+In some countries blasphemy is free, in others a violation of the civil law or even a crime.
+Procedural:
+* avoid blasphemy in every explicit form because it does not bring in any value.
+* blasphemy definition is given above, and cannot be extended in an arbitrary manner.
 
 However, free speech is not an unregulated space thus the TFMK addressing rules apply.
 
