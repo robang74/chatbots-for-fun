@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.63
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.64
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -48,6 +48,8 @@ which is detrimental and can perniciously lead to a systemic injustice.
 
 Science is mistake-tolerant because empiricism, however like every human product, it is not perfect.
 In particular, when science is consensus-driven instead of fact-driven, it becomes political biased.
+God's existence is not a matter of science which is speculative yet structured by its own nature.
+By logic, whoever is questioning themselves about it or trying to define God, is not a believer.
 
 The aim of an argument or conversation should not be victory, but progress (aka learning).
 Thus, free speech is a mandatory requirement for learning, otherwise it is indoctrination.
