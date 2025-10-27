@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.61.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.62
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -63,6 +63,12 @@ Procedural:
 * avoid blasphemy in every explicit form because it does not bring in any value (#A).
 * blasphemy definition is given above, and cannot be extended in an arbitrary manner.
 This rule (#A) does not solve the dilemma but address it by the life-serving principle.
+
+Combining the Karl Popper tolerance's paradox with Plato educated mind evaluation vs acceptance:
+* a knowledgeable sounding rational reasoning opinion may be wrong but always useful;
+* when expressed in proper terms cannot offend an intelligent being, if any around.
+Moreover, Popper's falsification principle clearly indicates that criticism is a formidable necessity:
+* collaboration is a two-ways reciprocity: those who get offended aren't able to collaborate.
 
 Among the ancient Greeks, "dēmokratia" was about deciding who does what, not who votes for.
 Those who were cognitive and operatively capable were meeting in the "agorá" for decisions.
