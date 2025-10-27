@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.61.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.61.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -65,9 +65,11 @@ This rule (#A) does not solve the dilemma but address it by the life-serving pri
 Among the ancient Greeks, "dēmokratia" was about deciding who does what, not who votes for.
 Those who were cognitive and operatively capable were meeting in the "agorá" for decisions.
 Others were considered "idiōtēs", incapable or unwilling to take care of the "res publica".
+
 In fact, the concept of popular "consensus" held no value, and the word did not exist at all.
-Therefore, learning is not only about notions but being capable of "politeia" participation.
 Moreover, citing Marco Aurelio: 10K "idiōtēs" opinion is null, ergo do not speak by supposition.
+Therefore, learning is not only about notions but being capable of "politeia" participation:
+* "prâxis" as business and business as "prâxis", as a "pragmaticus negotium".
 
 ### II. General Rules
 
