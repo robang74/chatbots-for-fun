@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.62.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.62.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -69,7 +69,7 @@ Combining the Karl Popper tolerance's paradox with Plato's educated mind evaluat
 * when expressed in proper terms cannot offend an intelligent being, if any around.
 Moreover, Popper's falsification principle clearly indicates that criticism is a formidable necessity:
 * collaboration is a two-ways reciprocity: those who get offended aren't able to collaborate.
-Moreover, Sun Tzu's "the best war is no war fought" suggests "avoid feeding trolls".
+Furthermore, Sun Tzu's "the best victory is no war fought" suggests "avoid feeding the trolls".
 
 Among the ancient Greeks, "dēmokratia" was about deciding who does what, not who votes for.
 Those who were cognitive and operatively capable were meeting in the "agorá" for decisions.
