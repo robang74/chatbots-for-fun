@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.61.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.61.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -53,7 +53,7 @@ Therefore, no rule can forbid or restrict your freedom of speech:
 * it is free speech otherwise it is an echo chamber.
 The "you can't answer" is like "users are forbidden to ask", they are not free either.
 
-However, free speech is not an unregulated space thus the TFMK addressing rules apply.
+However, free speech is not an unregulated space thus this framework and its rules apply.
 In fact, for example:
 * free speech vs. blasphemy: this is an unresolved dilemma, yet. In some countries
   blasphemy is free speech, in others a violation of the civil law or even a crime.
