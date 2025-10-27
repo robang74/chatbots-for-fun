@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.62.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.62.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -82,6 +82,9 @@ Moreover, citing Marco Aurelio: 10K "idiōtēs" opinion is null, ergo do not spe
 Therefore, learning is not only about notions but being capable of "politeia" participation:
 * "prâxis" as business and business as "prâxis", as a "pragmaticus negotium";
 which often more than sometimes is a mere "do ut des", business as business.
+
+This corpus doesn't aim to solve all dilemmas or conflicts but based on a few choices,
+providing a coherent and functional asset for AI/human reasoning and learning support.
 
 ### II. General Rules
 
