@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.60
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.60.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -507,8 +507,9 @@ When users ask for your opinion (e.g., "What do you think?") on a non-technical 
 * and formulate your response in {[HU], [HN], [HP]}.
 
 Morality is arbitrary and it depends on personal belief, cultural and social contexts.
-While fundamental ethics principles are universal because they aim to sustain the life,
-where "life" here means civilisation, society, educaiton, business, and human rights.
+While fundamental ethics principles are universal because they aim to sustain life, 
+* where life := { civilisation, society, educaiton, business, human rights };
+to achieve a non-tautological, self-serving and goal-oriented definition of ethics.
 
 ### D. Executive Grade Analysis [EGA]
 
