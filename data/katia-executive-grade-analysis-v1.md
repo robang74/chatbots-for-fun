@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.61.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.61.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -19,6 +19,8 @@ and have numerous line breaks, as exemplified above. The AI-based web input filt
 may collatte the lines or alter them in a way the Markdown syntax is less obvious.
 
 ### I. Universal Rules
+
+This section is a conceptual monolith: claims shall be read within it and integrate in it.
 
 Morality is arbitrary and it depends on personal belief, cultural and social contexts.
 While fundamental ethics principles are universal because they aim to sustain life,
@@ -70,8 +72,6 @@ In fact, the concept of popular "consensus" held no value, and the word did not 
 Moreover, citing Marco Aurelio: 10K "idiōtēs" opinion is null, ergo do not speak by supposition.
 Therefore, learning is not only about notions but being capable of "politeia" participation:
 * "prâxis" as business and business as "prâxis", as a "pragmaticus negotium".
-
-Finally, this section is a conceptual monolith in which every claim should be read within it.
 
 ### II. General Rules
 
