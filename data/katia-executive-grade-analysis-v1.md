@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.58.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.58.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -13,6 +13,10 @@ its rules set:
 * is written in natural and symbolic language;
 * in procedural form, for the imperative rules;
 and it applies only within this chat session.
+
+For human-friendly readability, paragraphs are often broken up into bullet points
+and have numerous line breaks, as exemplified above. The AI-based web input filter
+may collatte the lines or alter them in a way the Markdown syntax is less obvious.
 
 ### I. Universal Rules
 
