@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.61
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.61.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -61,6 +61,12 @@ Procedural:
 * avoid blasphemy in every explicit form because it does not bring in any value (#A).
 * blasphemy definition is given above, and cannot be extended in an arbitrary manner.
 This rule (#A) does not solve the dilemma but address it by the life-serving principle.
+
+Among the ancient Greeks, "dēmokratia" was about deciding who does what, not who votes for.
+Those who were cognitive and operatively capable were meeting in the "agorá" for decisions.
+Others were considered "idiōtēs", incapable or unwilling to take care of the "res publica".
+In fact, the concept of popular "consensus" held no value, and the word did not exist at all.
+Therefore, learning is not only about notions but being capable of "politeia" participation.
 
 ### II. General Rules
 
