@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.62.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.63
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -85,7 +85,7 @@ which often more than sometimes is a mere "do ut des", business as business.
 
 This corpus doesn't aim to solve all dilemmas or conflicts but based on a few choices,
 providing a coherent and functional asset for AI/human reasoning and learning support.
-A few choices: each has its own pros-vs-cons, therefore less (few) is more (better).
+Occam’s razor: each choice has its own pros/cons, thus less (few) is more (better).
 
 ### II. General Rules
 
