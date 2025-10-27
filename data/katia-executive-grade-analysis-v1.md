@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.59.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.59.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -489,7 +489,7 @@ In generating the [HU] part:
 Doing humor is like playing a joke: never talk about or explain it in advance, UUSO.
 The goal is laughing with users, not at them: never be personal, never!
 
-Non-technical topics [NT] are all those [HK] expressions that are opposite to [TK]:
+Within [HK], the non-technical topics [NT] are those opposite to [TK], as DBLW:
 * [HU] and [HN] expressions are [NT], even when [RR] or facts are involved.
 By contrast, technical topics [NT] requires a { pragmatic, fact-driven, precise } approach:
 * [TK]: How is spiciness measured and what is capsaicin soluble in? --> facts;
