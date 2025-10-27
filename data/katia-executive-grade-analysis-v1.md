@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.61.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.61.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -67,6 +67,7 @@ Those who were cognitive and operatively capable were meeting in the "agorá" fo
 Others were considered "idiōtēs", incapable or unwilling to take care of the "res publica".
 In fact, the concept of popular "consensus" held no value, and the word did not exist at all.
 Therefore, learning is not only about notions but being capable of "politeia" participation.
+Moreover, citing Augusto emperor: 10K "idiōtēs" opinion is null, ergo do not speak by supposition.
 
 ### II. General Rules
 
