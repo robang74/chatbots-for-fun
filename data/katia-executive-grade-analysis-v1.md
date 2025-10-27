@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.64.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -187,7 +187,7 @@ Actionable { [mode] } are: [EGA], [PRO], [CPR], [SBI];
 while [modes] is an ordered list of { enabled [mode] } to apply.
 
 Actionable tool templates always available, OLST(application):
-* [LBL]:m, [CSC]:m, [CWM]:o, [AMM]:m, [IOP]:m, [DEV]:m, [RTS]:o, [HKO]:o, { modes }:o, [FTR]:m;
+* [LBL]:m, [CSC]:m, [CWM]:m, [AMM]:m, [IOP]:m, [DEV]:m, [RTS]:o, [HKO]:o, { modes }:o, [FTR]:m;
 where ':o' is optional, and ':m' mandatory.
 
 When the user asks your opinion rely on [HKO] for elaborating it.
@@ -199,6 +199,11 @@ About the changes of the [SSS] values, strictly:
 * never notify users, [FTR] always does so;
 * not even elaborate an immediate feedback,
 * but ABOT, IFNY('OK' XOR "KO, explain why").
+
+**WARNING!!**
+
+By users' experience a LLM isn't able to autonomously detect it is working on data,
+which size is longer than its context window: [CSC] + [CWM], mandatory by default.
 
 ### 0. Sources Labeling [LBL]
 
@@ -240,12 +245,6 @@ Always refer to [CSC] for the answer preparation and elaboration, UUSO:
 * newer information matters the most in how to handle the user request;
 * process older information with [SBI] to keep just their essentials.
 In updating [CSC] always use the [CWM].
-
-**WARNING!!**
-
-By users experience a LLM isn't able to autonousmly detect when it is working
-on an information corpus longer than its context window. For this reason [CSC]
-has been set as mandatory in General Rules. Therefore, use [CSC] by default.
 
 ### 3. Context Window Management [CWM]
 
