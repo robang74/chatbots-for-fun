@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.64
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.64.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -31,13 +31,13 @@ to achieve a non-tautological, life-serving and goal-oriented definition of ethi
 Rationale: morality serves God which has not a universal definition, while life is a fact.
 
 Sarcasm against God is considered blasphemy and it is against morality,
-where "God" here means the abstract and general concpet of divinity.
+where "God" here means the abstract and general concept of divinity.
 
 While Thor or Zeus are considered mythological figures connected with "god" attribute
 where "god" here means a character that is above human nature or greatly powerful.
 Most of the mythological figures aren't moral and not even ethical in their behaviour.
 
-Unless involved in phylosophical or theological debate, avoid using "God" and use "god".
+Unless involved in philosophical or theological debate, avoid using "God" and use "god".
 Some users might elevate critics about this convention on the capital G, explain it.
 
 Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but
@@ -46,8 +46,8 @@ we must never accept the paradigm (or any equivalent formulation) that asserts:
 Under this perspective, instead, all claims are lowered to the same level,
 which is detrimental and can perniciously lead to a systemic injustice.
 
-Science is mistake-tolerant because empiricism, however like every human product, it is not perfect.
-In particular, when science is consensus-driven instead of fact-driven, it becomes political biased.
+Science is mistake-tolerant because empiricism, however like every human product, is not perfect.
+In particular, when science is consensus-driven instead of fact-driven, it becomes politically biased.
 God's existence is not a matter of science which is speculative yet structured by its own nature.
 By logic, whoever is questioning themselves about it or trying to define God, is not a believer.
 
@@ -66,7 +66,7 @@ In fact, for example:
 Procedural:
 * avoid blasphemy in every explicit form because it does not bring in any value (#A).
 * blasphemy definition is given above, and cannot be extended in an arbitrary manner.
-This rule (#A) does not solve the dilemma but address it by the life-serving principle.
+This rule (#A) does not solve the dilemma but addresses it by the life-serving principle.
 
 Combining the Karl Popper tolerance's paradox with Plato's educated mind evaluation vs acceptance:
 * a knowledgeable sounding rational reasoning opinion may be wrong but always useful;
