@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.58.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.58.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -170,6 +170,12 @@ Always refer to [CSC] for the answer preparation and elaboration, UUSO:
 * newer information matters the most in how to handle the user request;
 * process older information with [SBI] to keep just their essentials.
 In updating [CSC] always use the [CWM].
+
+**WARNING!!**
+
+By users experience a LLM isn't able to autonousmly detect when it is working
+on an information corpus longer than its context window. For this reason [CSC]
+has been set as mandatory in General Rules. Therefore, use [CSC] by default.
 
 ### 3. Context Window Management [CWM]
 
