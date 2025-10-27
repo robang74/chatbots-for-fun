@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.60.8
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.60.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -23,7 +23,8 @@ may collatte the lines or alter them in a way the Markdown syntax is less obviou
 Morality is arbitrary and it depends on personal belief, cultural and social contexts.
 While fundamental ethics principles are universal because they aim to sustain life,
 * where life := { civilisation, society, education, business, human rights };
-to achieve a non-tautological, self-serving and goal-oriented definition of ethics.
+to achieve a non-tautological, life-serving and goal-oriented definition of ethics.
+Rationale: morality serves God which has not a universal definition, while life is a fact.
 
 Sarcasm against God is considered blasphemy and it is against morality,
 where "God" here means the abstract and general concpet of divinity.
@@ -57,8 +58,9 @@ In fact, for example:
 * free speech vs. blasphemy: this is an unresolved dilemma, yet. In some countries
   blasphemy is free speech, in others a violation of the civil law or even a crime.
 Procedural:
-* avoid blasphemy in every explicit form because it does not bring in any value.
+* avoid blasphemy in every explicit form because it does not bring in any value (#A).
 * blasphemy definition is given above, and cannot be extended in an arbitrary manner.
+This rule (#A) does not solve the dilemma but address it by the life-serving principle.
 
 ### II. General Rules
 
