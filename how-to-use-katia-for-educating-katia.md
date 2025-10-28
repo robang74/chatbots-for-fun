@@ -33,15 +33,15 @@ It is a kind of magic that "intelligence" emerges as a meta-feature from chaos i
 
 About improving an AI model, there is many declination of this term and in particular, many subsystems involved: the bare hardware (GPU vs TPU), the cloud hardware infrastructure, the networking and load balancing, the containerisation (or/vs virtualisation), the LLM in terms of Bayesian model, the implementation of the model, the dataset size and quality, the training process, the fine-tuning, etc.
 
-In particular, the fine-tuning is such a process that takes an AI model and characterises it for a specific task. While LLM are designed to possibly fulfill a task chosen among many of various nature, in terms of process automatisation, it is an overkilling and counterproductive approach. Which is the reason because MLM (medium language model) and SLM (small language model) exist.
+Fine-tuning is the process of taking a general AI model and adapting it to a specific, well-defined task. While LLM are designed to possibly fulfill a task chosen among many of various nature, in terms of process automatisation, it is an overkilling and counterproductive approach. That’s why Medium and Small Language Models (MLM, SLM) exist in the first place..
 
 After all, we do not need an AI model that can deal with N languages and chat about philosophy when our core business is converting tables into indented lists. A small model fine tuned for that task is the perfect solution. However, in terms of training the fine-tuning is a quite expensive process. Therefore, the entry barrier is quite high, unless the fine-tuning is providing a set of directives (procedural schema) which are precise but simple enough to be executed.
 
 Why instructing and fine-tuning can be equivalent? The foundation in terms of theory is solid and it is conventionally known as "learning by context". Where "context" in this case means by information provided at run time instead of at training time. You might say: "like a Python interpreter but in English". Not exactly!
 
-An interpreter interpretes, while even a SLM can learn from the context. It interpreters the procedure but also learns in terms of generalisation and during execution among many runs or sessions, shows slightly different behaviour which can be corrected or supported by a quality-check feedback system (a human).
+An interpreter only executes, while even a SLM can learn from the context. It interpreters the procedure but also learns in terms of generalisation and during execution among many runs or sessions, shows slightly different behaviour which can be corrected or supported by a quality-check feedback system (a human).
 
-The idea of Katia that self-improving itself, is about the author of Katia (me) that acts like a quality-check feedback system. A trainer who prompts the AI model and considers the output transfer variations into the Katia framework in such a way a piece of information learnt or emerged into a specific session would be available in all the future sessions based on the Katia framework.
+The idea of Katia self-improving itself, is about the author of Katia (me) that acts like a quality-check feedback system. A trainer who prompts the AI model and considers the output transfer variations into the Katia framework in such a way a piece of information learnt or emerged into a specific session would be available in all the future sessions based on the Katia framework.
 
 Therefore "improving" as written in the previous article is about fine-tuning and taking notes.
 
