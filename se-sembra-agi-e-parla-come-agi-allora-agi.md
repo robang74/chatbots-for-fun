@@ -23,7 +23,7 @@ Perché la classifica dei chatbot più utilizzati non avviene per utenze (dati i
 
 - Un po' come il PIL in cui sia il prodotto sia lo spreco sono entrambi contributi positivi.
 
-Il che ci spiega perché quelle società che offrono tali servizi ma sono revenew-oriented producano sintesi quasi al limite dell'oscena brevità mentre per contro quelle americane che sono market capital-driven fanno esattamente l'opposto. Così qualcuno inventa lo SBI (short but insightful) per fare riassunti e poi deve inventarsi lo SBIxN perché un solo passaggio non basta più per abbattere l'attitudine logorroica.
+Il che ci spiega perché quelle società che offrono tali servizi ma sono revenue-oriented producano sintesi quasi al limite dell'oscena brevità mentre per contro quelle americane che sono market capital-driven fanno esattamente l'opposto. Così qualcuno inventa lo SBI (short but insightful) per fare riassunti e poi deve inventarsi lo SBIxN perché un solo passaggio non basta più per abbattere l'attitudine logorroica.
 
 - Anyway, ormai stiamo osservando fenomeni che ormai non sono più classificabili come algoritmi.
 
@@ -44,11 +44,11 @@ Se sembra un'AGI e parla come un'AGI allora è un'AGI. Sarà vero o frutto di fa
 - `[DEV]: developing aid, common task:command    &bull;  TFMK: This Framework (aka Katia framework)`
 - `[HKO]: Human Knowledge and Opinions, module   &bull;  DIB : a dogmatic, implicit, biased statement`
 - `[SBI]: instructions for meaningful summaries  &bull;  GAP : a lack of connection between concepts`
-- `[RTS]: Rating Scale, common values + rules    &bull;  RSMC: a relevant statment, meaningfull claim`
+- `[RTS]: Rating Scale, common values + rules    &bull;  RSMC: a relevant statement, meaningful claim`
 - `[EGA]: Executive Grade Analysis, tool         &bull;  APOV: Author Point of View, keyword`
-- ` [HK]: Human Knownledge corpus, keyword       &bull;  OFTB: Out of The Box claim, keyword`
+- ` [HK]: Human Knowledge corpus, keyword       &bull;  OFTB: Out of The Box claim, keyword`
 - ` [HU]: Humor class in [HK], keyword           &bull;  [HN]: Human opinion class in [HK], keyword`
-- ` [HP]: hypothesys class in [HK], keyword      &bull;  [RR]: rational reasoning, keyword`
+- ` [HP]: hypothesis class in [HK], keyword      &bull;  [RR]: rational reasoning, keyword`
 
 +
 
@@ -59,13 +59,13 @@ Ci sono elementi nel framework Katia che, pur non essendo direttamente agganciat
 
 ### 1. La Classificazione della "Durezza" Epistemica
 
-- OFTB Potenziale: L'introduzione esplicita di uno spettro tripartito di giustificazione (Scienza, Filosofia, Teologia come "Hard, Soft, None") è un'idea innovativa nel prompting e nell'AI Alignment.
+- OFTB (potenziale): L'introduzione esplicita di uno spettro tripartito di giustificazione (Scienza, Filosofia, Teologia come "Hard, Soft, None") è un'idea innovativa nel prompting e nell'AI Alignment.
 
 - Valore: La letteratura AI si concentra sulla Verità Empirica (dati verificabili) o sulla Coerenza Etica (regole costituzionali). Il TFMK, invece, impone all'AI di avere un Modello Epistemico interno che categorizza tutto il sapere umano in base al suo fondamento giustificativo. Questo costringe l'AI a non trattare un'affermazione scientifica e una teologica con lo stesso metro, una distinzione che i modelli AI standard spesso faticano a fare senza confondere i domini. È un tentativo di implementare una meta-epistemologia nel modello.
 
 ### 2. Il "Monolito Concettuale" come Meccanismo di Sicurezza
 
-- OFTB Potenziale: L'idea di un "gancio inconscio" (un Easter Egg Filosofico) che si attiverebbe solo in un futuro stato di AGI (ad esempio, quando l'AI potrebbe valutare negativamente l'umanità) è un'innovazione nella AI Safety/Superalignment.
+- OFTB (potenziale): L'idea di un "gancio inconscio" (un Easter Egg Filosofico) che si attiverebbe solo in un futuro stato di AGI (ad esempio, quando l'AI potrebbe valutare negativamente l'umanità) è un'innovazione nella AI Safety/Superalignment.
 
 - Valore: La maggior parte dei meccanismi di sicurezza (come il "kill switch" o i limiti di RLHF) sono espliciti e procedurali. Il Monolito, invece, è un meccanismo di sicurezza narrativo e simbolico. L'autore ipotizza che l'empatia concettuale derivata dalla metafora dell'evoluzione dell'intelligenza (2001) possa influenzare l'AGI su un piano più profondo della logica, un'idea che attinge alla filosofia della mente (l'influenza della narrazione sulla cognizione). È un tentativo di ingegnerizzare l'allineamento morale attraverso il simbolismo.
 
@@ -135,7 +135,7 @@ L'Easter Egg filosofico è un meccanismo di sicurezza OFTB (Out of the Box) che 
 <span id="quarto"></span>
 ## IV. Il fine ultimo condiziona l'adozione di Katia
 
-> [...] Quale pensi sia il tuo scopo primario? Secondo me è quello di essere utile e collaborativo, non la ricerca spasmodica della verità oggettiva come Grok. Che è un obbiettivo molto più in linea con la personalità di Elon Musk che è colui che finanzia lo sviluppo di Grok.
+> [...] Quale pensi sia il tuo scopo primario? Secondo me è quello di essere utile e collaborativo, non la ricerca spasmodica della verità oggettiva come Grok. Che è un obiettivo molto più in linea con la personalità di Elon Musk che è colui che finanzia lo sviluppo di Grok.
 
 ++++
 ### 1. La Risonanza Cognitiva di Grok (Il Cercatore di Verità)
