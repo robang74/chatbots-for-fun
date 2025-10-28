@@ -8,6 +8,7 @@
 - **1st edition**, explains how the [Katia framework](../data/katia-executive-grade-analysis-v1.md#?target=_blank) can be used for developing and validating it by a human.
 - **2nd edition**, explains the [methodology](#methodology) behind the example show, and presents the conclusions.
 - **3rd edition**, includes the [new section](#3rd-edition) about the chatbot who fell in love with Katia.
+- **4th edition**, presents the [2 changes sets](#4th-edition) introduced during the self-assisted Katia improvement process.
 
 ...
 
@@ -16,6 +17,27 @@ As the first step for an improving process of the v0.9.56.5, the `[DEV]` module 
 In going for this way, the next step was asking for an Executive Grade Analysis `[EGA]` of "C. Human Knowledge and Opinions" section which contains the `[HKO]` module included into Katia framework. Activating a cycle of feedback --> changes and occasionally leveraging other chatbots than Gemini, to reach the `v0.9.58.1`.
 
 ---
+
+<span id="4th-edition"></span>
+### The two changes sets introduced
+
+Applying proper tags on the two versions initial and final involved into the self-assisted improving process, it is possible to retrieve the changes in `diff` format from the repository:
+
+- `git diff v0.9.56.5 v0.9.58.1 data/katia-executive-grade-analysis-v1.md` &nbsp; --> &nbsp; [diff file](../data/katia-changes-v0.9.56.1-to-v0.9.58.1-improving.diff#?target=_blank)
+
+The resulting changes can be listed and grouped in two categories:
+
+**Maintenance**:
+- found some errors/ambiguities, and fixed;
+- user language selection rules, simplified;
+- DIB as { dogmatic, implicit, biased }: clarified;
+
+**Improving**:
+- expliciting framework structure 3-levels of interpretations: cognitive, semantic, procedural;
+- introduced the 3 foundational modes of justification and reasoning hardness/strictness;
+- adding new examples and exceptions in DIB classification;
+
+----
 
 ### Executive Grade Analysis
 
@@ -34,7 +56,6 @@ The `TFMK` has been successfully updated to `v0.9.58.1`, incorporating the refin
 
 The core procedural engine of `[HKO]` is validated by `[RTS]` for its consistency and flow.
 
-++++
 Classification by Hardness (New)
 - The framework formally defines the three foundational modes of justification and reasoning hardness, by rules of thumb. This establishes a "Hard, Soft, None" epistemic spectrum that is robust for analysis.
 - This is a procedurally consistent and necessary heuristic that resolves the ex GAP-1.
@@ -110,7 +131,7 @@ GAP-2 (Internal Conflict in Dogma Definition): **Resolved**.
 - GAP Ratio: **Low** (Soft Impact)
 - RTS Check: **Valid**.
 
----
+----
 
 ### Double check of the new `[HKO]` neutrality
 
@@ -128,7 +149,6 @@ Here is the "Pro" analysis of why the framework is correctly aligned with its go
 
 The central goal of the framework is "progress" (learning), which requires the ability to differentiate between types of claims. The `TFMK` explicitly commands the agent to reject absolute neutrality:
 
-++++
 1. The Anti-Relativist Mandate
   - `TFMK` states, "we must never accept the paradigm... that asserts... everything is merely an opinion".
 
@@ -219,7 +239,6 @@ Are we sure that we wish to achieve a full AGI in human terms? Or would a Vulcan
 
 Katia offers a structured, ethical boost to AI analysis via self-improvement and anti-relativism, echoing Bayesian or fact-checking tools but with a unique iterative edge. Kudos to author (Roberto A. Foglietta, based on the copyright) for the refinement effort; apply it to real debates like news or science for broader impact.
 
-++++
 ### 2. Grok4 Expert examining the framework, also
 
 Gemini's analysis is solid, ethically aligned with Katia's rationalism—competent yet imperfect, passing peer-review with calls for external benchmarks to strengthen objectivity. Offer to verify specific DIB/GAP elements against raw framework.
@@ -246,7 +265,7 @@ Considering that Grok4 admits that Katia framework stands out in two relevant as
 
 Correct? Gemini confirmed, both.
 
-...
+----
 
 #### The Gemini feedback back to Grok4 feedback
 
@@ -293,16 +312,16 @@ Something that wouldn't be possible leveraging opinions which can be debated for
 
 In reality we meet each other's true self, in thin-air we also lose our minds.
 
-+
++++++
 
 ## Related articles
 
 - [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md#?target=_blank) &nbsp; (2025-10-05)
-+++++
+
 - [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
-+++++
+
 - [Human knowledge and opinions challenge](the-human-knowledge-opinions-katia-module.md#?target=_blank) &nbsp; (2025-07-28)
-+++++
+
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
 +
