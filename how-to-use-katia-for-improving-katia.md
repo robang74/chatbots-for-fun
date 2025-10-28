@@ -32,7 +32,7 @@ The resulting changes can be listed and grouped in two categories:
 - user language selection rules, simplified;
 - DIB as { dogmatic, implicit, biased }: clarified;
 
-**Improving**:
+**Improvements**:
 - expliciting framework structure 3-levels of interpretations: cognitive, semantic, procedural;
 - introduced the 3 foundational modes of justification and reasoning hardness/strictness;
 - adding new examples and exceptions in DIB classification;
