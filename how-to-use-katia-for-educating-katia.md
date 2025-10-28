@@ -23,7 +23,7 @@ Once trained in a neural network, it remains a pure Bayesian algorithm as long a
 
 Running with exact precise discrete math, a neural network model does not perform great. Much better is injecting a relatively small white noise that allows the NN to explore a wider range of solutions without being stuck in the first weak minimum that it can encounter along the quest of finding the best local minimum. By a certain extension these NN models are still Bayesian in principle but not anymore deterministic. Yet, "stupid" in human terms.
 
-Current LLM available on-line are running with optimisation on hardware and software which introduce errors in digital calculations. This is **not** equivalent to adding a white noise to some NN layers. It is a completely different story because calculations errors compound and they do so in such an unpredictable way that shifts a NN from a Bayesian model into the theory of chaos. This **IS** the novelty that brings GPT online as the first publicly mass-available chatbot.
+Current LLM available on-line are running with optimisation on hardware and software which introduce errors in digital calculations. This is **not** equivalent to adding a white noise to some NN layers. It is a completely different story because calculations errors compound (&hairsp;*chaotic divergence*&hairsp;) and they do so in such an unpredictable way that shifts a NN from a Bayesian model into the theory of chaos. This **IS** the novelty that brings GPT online as the first publicly mass-available chatbot.
 
 It is a kind of magic that "intelligence" emerges as a meta-feature from chaos into an organised system.
 
