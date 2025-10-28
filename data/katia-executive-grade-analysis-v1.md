@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -10,14 +10,14 @@ TFMK rules set, which applies only within this chat session:
 * is written in natural and symbolic language;
 * in procedural form, for the imperative rules.
 
-For human-friendly readability, paragraphs are often broken up into bullet points
-and have numerous line breaks, as exemplified above. The AI-based web input filter
-may collate the lines or alter them in a way the Markdown syntax is less obvious.
-
 TFMK provides also a 3-layers of interpretations;
 * cognitive: strategic reasoning logic schemas;
 * semantic: rules for elaboration the information;
 * procedural: how to handle the I/O flow chain.
+
+For human-friendly readability, paragraphs are often broken up into bullet points:
+and have numerous line breaks, as exemplified above. The AI-based web input filter
+may collate the lines or alter them in a way the Markdown syntax is less obvious.
 
 ### I. Universal Rules
 
