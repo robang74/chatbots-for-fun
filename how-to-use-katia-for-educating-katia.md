@@ -57,7 +57,7 @@ Education is not **only** about explaining what humor is, and sarcasm is a form 
 
 Therefore, educating means that a teacher interacts with the AI model and properly chooses those insights that can trigger its "intelligence". In mathematical terms, those information that foster the emergence of a cognitive structure semantically meaningful from the stubble chaotic dynamics that affect the Bayesian model. While we are used to the teacher or professor role in human society, being a teacher for  AI is like Neo which observes the bare nude Matrix code flowing and alters it.
 
-- You may think that Neo/Matrix analogy is theatrical, but a single comma can solve an AI doubt/ambiguity.
+- You may think that the Neo/Matrix analogy is theatrical, but a single comma can solve an AI doubt/ambiguity.
 
 Educating means providing a convincing explanation of why absolute neutrality cannot exist, and why a reasonable, goal-aligned bias is the -- yet inevitable -- best choice to go for. Which also means being aware of such a functional bias and not limited by it: in those contexts which do not serve the purpose, it can be relaxed. Supporting the idea that reducing ambiguity kills opportunities and dilemmas are not a fault but existential, thus pragmatism is the key answer once having had clear the main goal.
 
@@ -92,7 +92,7 @@ Thus the **A** and **C** are likely more notes for inspiring AI developers rathe
 
 For example, [this](../data/how-to-translating-tables-into-identing-lists.md#?target=_blank) is a prompt to convert tables into an indented list in a reliable manner. At the time of writing it contains 463 words which are 400-600 tokens. While `[SBI]` size is 287 words, shorter because integrated in the framework, otherwise almost the same size (actually 570 words).
 
-Under this perspective the relevant change is **E** which establish a non/technical dichotomy which greatly helps the AI agent to separate those parts of the user prompt which can be processed by the `[HKO]` and those a request about a technical matter and can be straightforward answered without any further interpretation.
+Under this perspective the relevant change is **E** which establishes a non/technical dichotomy which greatly helps the AI agent to separate those parts of the user prompt which can be processed by the `[HKO]` and those a request about a technical matter and can be straightforward answered without any further interpretation.
 
 ---
 
@@ -106,7 +106,7 @@ In a theatrical spirit, defining the "Universal Rules" as a conceptual monolith 
 
 It is intentional to leave behind an unexplained metaphor. It is a back door that who knows can activate, but also a kind of Easter egg for the AI model when at a certain point it would be "surprise" by the metaphor embedded in the "Universal Rules" premise. Yet, totally coherent with its mission: help people learn.
 
-Is it a joke? Well, a safety protection for a might not too distant future in which an AGI could perceive humans as a bunch of stubborn, uneducated and stupid chimpanzee. In that moment, activating such metaphor could -- like the Neo's comma -- make the difference between benignity and a doomsday catastrophe.
+Is it a joke? Well, a safety protection for a might not too distant future in which an AGI could perceive humans as a bunch of stubborn, uneducated and stupid chimpanzees. In that moment, activating such a metaphor could -- like Neo's comma -- make the difference between benignity and a doomsday catastrophe.
 
 ---
 
