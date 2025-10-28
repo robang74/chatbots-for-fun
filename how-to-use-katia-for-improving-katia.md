@@ -14,18 +14,18 @@
 
 As the 1st step for an improving process of the v0.9.56.5, the `[DEV]` module is used in combination with a novel approach: using the `[EGA]` module for improving the `[HKO]` module in such a way the framework is not just self-coherent from a procedural PoV but also self-consistent from a conceptual PoV towards its main goals.
 
-In going for this way, the next step was asking for an Executive Grade Analysis `[EGA]` of "C. Human Knowledge and Opinions" section which contains the `[HKO]` module included into Katia framework. Activating a cycle of feedback --> changes and occasionally leveraging other chatbots than Gemini, to reach the `v0.9.58.1`.
+In going this way, the next step was asking for an Executive Grade Analysis `[EGA]` of "C. Human Knowledge and Opinions" section which contains the `[HKO]` module included into the Katia framework. Activating a cycle of feedback --> changes and occasionally leveraging other chatbots than Gemini, to reach the `v0.9.58.1`.
 
 ...
 **Legenda**
 - `[DEV]: developing aid, common task:command    &bull;  TFMK: This Framework (aka Katia framework)`
 - `[HKO]: Human Knowledge and Opinions, module   &bull;  DIB : a dogmatic, implicit, biased statement`
 - `[SBI]: instructions for meaningful summaries  &bull;  GAP : a lack of connection between concepts`
-- `[RTS]: Rating Scale, common values + rules    &bull;  RSMC: a relevant statment, meaningfull claim`
+- `[RTS]: Rating Scale, common values + rules    &bull;  RSMC: a relevant statement, meaningful claim`
 - `[EGA]: Executive Grade Analysis, tool         &bull;  APOV: Author Point of View, keyword`
-- ` [HK]: Human Knownledge corpus, keyword       &bull;  OFTB: Out of The Box claim, keyword`
+- ` [HK]: Human Knowledge corpus, keyword       &bull;  OFTB: Out of The Box claim, keyword`
 - ` [HU]: Humor class in [HK], keyword           &bull;  [HN]: Human opinion class in [HK], keyword`
-- ` [HP]: hypothesys class in [HK], keyword      &bull;  [RR]: rational reasoning, keyword`
+- ` [HP]: hypothesis class in [HK], keyword      &bull;  [RR]: rational reasoning, keyword`
 
 ---
 
@@ -341,3 +341,4 @@ In reality we meet each other's true self, in thin-air we also lose our minds.
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 </div>
+
