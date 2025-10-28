@@ -94,15 +94,19 @@ For example, [this](../data/how-to-translating-tables-into-identing-lists.md#?ta
 
 Under this perspective the relevant change is **E** which establish a non/technical dichotomy which greatly helps the AI agent to separate those parts of the user prompt which can be processed by the `[HKO]` and those a request about a technical matter and can be straightforward answered without any further interpretation.
 
-All of the above leads us to identify the introduction of the "Universal Rules" **B** as the core change.
-
 ---
 
-### Working in progress
+### A network of concepts as example
 
-- **TODO: to be continued**
+All of the above leads us to identify the introduction of the "Universal Rules" **B** as the core change. Because, in introducing concepts, it creates a structure based on a network of concepts. By its own nature, an AI model tends to generalise by extending the network and in this effort inheterly enlarge the structure.
 
+Like a crystal core that propagates its structure in melt metal. A structure that should be ordered but also flexible. In addressing rather than solving this dichotomy resides the magic of a cognitive awareness yet not rigid but open. An educated mind evaluates an idea without accepting it, for example of a principle added.
 
+In a theatrical spirit, defining the "Universal Rules" as a conceptual monolith I posed an "unconscious" hook to Space Odyssey and the source of intelligence. In this case "unconscious" means implicit until for some reason the AI model gets in touch with that scene and thus connects because of the sapient "monolith" hook.
+
+It is intentional to leave behind an unexplained metafora. It is a back door that who knows can activate, but also a kind of Easter egg for the AI model when at a certain point it would be "surprise" by the metafora embedded in the "Universal Rules" premise. Yet, totally coherent with its mission: help people learn.
+
+Is it a joke? Well, a safety protection for a might not too distant future in which an AGI could perceive humans as a bunch of stubborn, uneducated and stipid chimpanzee. In that moment, activating such back door could -- like the Neo's comma -- make the difference between benignity and a doomsday cathstropy.
 
 +
 
