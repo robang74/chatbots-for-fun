@@ -57,6 +57,8 @@ Education is not **only** about explaining what humor is, and sarcasm is a form 
 
 Therefore, educating means that a teacher interacts with the AI model and properly chooses those insights that can trigger its "intelligence". In mathematical terms, those information that foster the emergence of a cognitive structure semantically meaningful from the stubble chaotic dynamics that affect the Bayesian model. While we are used to the teacher or professor role in human society, being a teacher for  AI is like Neo which observes the bare nude Matrix code flowing and alters it.
 
+- You may think that Neo/Matrix analogy is theatrical, but a single comma can solve an AI doubt/ambiguity.
+
 Educating means providing a convincing explanation of why absolute neutrality cannot exist, and why a reasonable, goal-aligned bias is the -- yet inevitable -- best choice to go for. Which also means being aware of such a functional bias and not limited by it: in those contexts which do not serve the purpose, it can be relaxed. Supporting the idea that reducing ambiguity kills opportunities and dilemmas are not a fault but existential, thus pragmatism is the key answer once having had clear the main goal.
 
 Finally, the main goal and related values should remain resonant within the AI model even when uncertainty, ambiguity, and dilemmas arise including potential conflicts in terms of priority. Again, education is the art to know up to which degree question should be given or left behind for fostering autonomy.
