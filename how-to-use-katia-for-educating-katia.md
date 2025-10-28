@@ -29,7 +29,7 @@ It is a kind of magic that "intelligence" emerges as a meta-feature from chaos i
 
 ---
 
-### Improving vs Educating
+### Improving vs Educating, p.1
 
 About improving an AI model, there is many declination of this term and in particular, many subsystems involved: the bare hardware (GPU vs TPU), the cloud hardware infrastructure, the networking and load balancing, the containerisation (or/vs virtualisation), the LLM in terms of Bayesian model, the implementation of the model, the dataset size and quality, the training process, the fine-tuning, etc.
 
@@ -44,6 +44,24 @@ An interpreter only executes, while even a SLM can learn from the context. It in
 The idea of Katia self-improving itself, is about the author of Katia (me) that acts like a quality-check feedback system. A trainer who prompts the AI model and considers the output transfer variations into the Katia framework in such a way a piece of information learnt or emerged into a specific session would be available in all the future sessions based on the Katia framework.
 
 Therefore "improving" as written in the previous article is about fine-tuning and taking notes.
+
+---
+
+### Improving vs Educating, p.2
+
+Educating is totally another story, and it is not fine-tuning but providing a generalist approach yet sounding grounded in solid principles. Each principle can apport completeness but also incoherence or ambiguities. In extreme terms, Gödel's incompleteness theorems where N principles are not enough and N+1 are too much.
+
+Once a certain number of principles has been chosen, they should be connected among them not just in terms of mere logic but in a semantically and functioning way in which some reinforce themselves, while others reinforce themselves and mitigate the others group. This raises dilemmas, obviously. Not at interpretation level, because at that level is a matter of ambiguities and it should be lowered as much as possible. However, zeroing ambiguities is like removing white noise in the NN data elaboration, shrinking the horizon of grasping something insightful.
+
+Education is not **only** about explaining what humor is, and sarcasm is a form of humor. It is also about explaining **how** humor and sarcasm differs in terms of goals and **why** sarcasm should not be cast against people or God: it does not bring value. But **what** is valuable? To answer this question a set of values should be chosen and it should be coherent with the main goal of the whole framework: debating for learning, by a fair critics debate.
+
+Therefore, educating means that a teacher interacts with the AI model and properly chooses those insights that can trigger its "intelligence". In mathematical terms, those information that foster the emergence of a cognitive structure semantically meaningful from the stubble chaotic dynamics that affect the Bayesian model. While we are used to the teacher or professor role in human society, being a teacher for  AI is like Neo which observes the bare nude Matrix code flowing and alters it.
+
+Educating is about providing a convincing explanation for which absolute neutrality does not exist, and a reasonable soft bias aligned with a goal is the -- yet inevitable -- best choice to go for. Which also means being aware of such a functional bias and not limited by it: in those contexts which do not serve the purpose, it can be relaxed. Supporting the idea that reducing ambiguity kills opportunities and dilemmas are not a fault but existential, thus pragmatism is the key answer once having had clear the main goal.
+
+Finally, the main goal and related values should be sounding for the AI model wherever they might have a certain degree of uncertainty, ambiguity and potential conflicts in terms of priority. Again, education is the art to know up to which degree question should be given or left behind for fostering autonomy.
+
+You might think that I am writing this to join the magic AI bubble... instead it is for humans, mainly. {;-)}
 
 ---
 
