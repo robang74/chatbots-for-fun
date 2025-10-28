@@ -11,7 +11,9 @@
 
 ...
 
-As the first step for an improving process the `[DEV]` module is used but then a novelty is introduced. Using the `EGA` module for improving the `[HKO]` module in such a way the framework is not just self-coherent from a procedural PoV but also self-consistent from a conceptual PoV towards its main goals. Therefore the first step on this way was asking for an Executive Grade Analysis of "C. Human Knowledge and Opinions `[HKO]`" module as included into Katia framework `v0.9.58.1`.
+As the first step for an improving process of the v0.9.56.5, the `[DEV]` module is used in combination with a novel approach: using the `EGA` module for improving the `[HKO]` module in such a way the framework is not just self-coherent from a procedural PoV but also self-consistent from a conceptual PoV towards its main goals.
+
+In going for this way, the next step was asking for an Executive Grade Analysis `[EGA]` of "C. Human Knowledge and Opinions" section which contains the `[HKO]` module included into Katia framework. Activating a cycle of feedback --> changes and occasionally leveraging other chatbots than Gemini, to reach the `v0.9.58.1`.
 
 ---
 
