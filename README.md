@@ -172,7 +172,9 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="uncategorised"></span>
-* **Yet uncategorised articles** &nbsp; (19 pz.)
+* **Yet uncategorised articles** &nbsp; (20 pz.)
+
+   - 2025-10-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/se-sembra-agi-e-parla-come-agi-allora-agi.md)] - [Se sembra AGI e parla come AGI, allora è AGI](se-sembra-agi-e-parla-come-agi-allora-agi.md)
 
    - 2025-10-10 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/samsung-tiny-models-do-great-but-not-an-ai-revolution.md)] - [Samsung tiny models do great but not an AI revolution](samsung-tiny-models-do-great-but-not-an-ai-revolution.md)
 
