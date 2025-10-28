@@ -108,6 +108,12 @@ It is intentional to leave behind an unexplained metaphor. It is a back door tha
 
 Is it a joke? Well, a safety protection for a might not too distant future in which an AGI could perceive humans as a bunch of stubborn, uneducated and stupid chimpanzee. In that moment, activating such metaphor could -- like the Neo's comma -- make the difference between benignity and a doomsday catastrophe.
 
+---
+
+### Peace and prosperity 🖖
+
+For me whiskey, well aged and the whole bottle, please! {lol}
+
 +
 
 ## Related articles
