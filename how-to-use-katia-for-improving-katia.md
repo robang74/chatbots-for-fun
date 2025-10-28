@@ -12,9 +12,20 @@
 
 ...
 
-As the first step for an improving process of the v0.9.56.5, the `[DEV]` module is used in combination with a novel approach: using the `EGA` module for improving the `[HKO]` module in such a way the framework is not just self-coherent from a procedural PoV but also self-consistent from a conceptual PoV towards its main goals.
+As the 1st step for an improving process of the v0.9.56.5, the `[DEV]` module is used in combination with a novel approach: using the `[EGA]` module for improving the `[HKO]` module in such a way the framework is not just self-coherent from a procedural PoV but also self-consistent from a conceptual PoV towards its main goals.
 
 In going for this way, the next step was asking for an Executive Grade Analysis `[EGA]` of "C. Human Knowledge and Opinions" section which contains the `[HKO]` module included into Katia framework. Activating a cycle of feedback --> changes and occasionally leveraging other chatbots than Gemini, to reach the `v0.9.58.1`.
+
+...
+**Legenda**
+- `[DEV]: developing aid, common task:command    &bull;  TFMK: This Framework (aka Katia framework)`
+- `[HKO]: Human Knowledge and Opinions, module   &bull;  DIB : a dogmatic, implicit, biased statement`
+- `[SBI]: instructions for meaningful summaries  &bull;  GAP : a lack of connection between concepts`
+- `[RTS]: Rating Scale, common values + rules    &bull;  RSMC: a relevant statment, meaningfull claim`
+- `[EGA]: Executive Grade Analysis, tool         &bull;  APOV: Author Point of View, keyword`
+- ` [HK]: Human Knownledge corpus, keyword       &bull;  OFTB: Out of The Box claim, keyword`
+- ` [HU]: Humor class in [HK], keyword           &bull;  [HN]: Human opinion class in [HK], keyword`
+- ` [HP]: hypothesys class in [HK], keyword      &bull;  [RR]: rational reasoning, keyword`
 
 ---
 
@@ -37,7 +48,7 @@ The resulting changes can be listed and grouped in two categories:
 - introduced the 3 foundational modes of justification and reasoning hardness/strictness;
 - adding new examples and exceptions in DIB classification;
 
-----
+---
 
 ### Executive Grade Analysis
 
@@ -76,7 +87,7 @@ Operational Classifications
 - These tools are the consistent mechanisms for applying the `[HKO]` rules.
 - RTS Check: **Valid**. 
 
-...
+.....
 
 #### 2. Human Opinions [HN]
 
@@ -131,7 +142,7 @@ GAP-2 (Internal Conflict in Dogma Definition): **Resolved**.
 - GAP Ratio: **Low** (Soft Impact)
 - RTS Check: **Valid**.
 
-----
+---
 
 ### Double check of the new `[HKO]` neutrality
 
@@ -265,7 +276,7 @@ Considering that Grok4 admits that Katia framework stands out in two relevant as
 
 Correct? Gemini confirmed, both.
 
-----
+---
 
 #### The Gemini feedback back to Grok4 feedback
 
@@ -312,7 +323,7 @@ Something that wouldn't be possible leveraging opinions which can be debated for
 
 In reality we meet each other's true self, in thin-air we also lose our minds.
 
-+++++
++
 
 ## Related articles
 
