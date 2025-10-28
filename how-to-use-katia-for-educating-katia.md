@@ -13,13 +13,31 @@ In the previous [article](how-to-use-katia-for-improving-katia.md#?target=_blank
 
 There is a sensitive difference between "improving" a framework, able to characterise an AI model as a session prompt, which is a process similar in some aspects to a software developing process and "educating" an AI agent. Despite, in general terms, both are intended to change how the AI model elaborates the information.
 
-- **TODO: explaining improving vs educating**
+---
+
+### A necessary premise
+
+Once upon a time neural networks were pure bayesian algorithms for pattern recognition. Introducing noise in the training data set was not a "features" rather than unavoidable "bug": some data sets were "impure" and such impurities were slowing down the training process. Injecting a relatively small noise during the learning process allowed the training process to be much more performant both in terms of speed and abstraction. Well, for sake of completeness, the "relatively small" implies that data should be normalized, and this greatly increased the speed in training rather than white noise itself.
+
+Once trained in a neural network, it remains a pure Bayesian algorithm as long as discrete math is precise. Running with exact precise discrete math, a neural network model remains a deterministic algorithm that can reproduce the same output from the same input. Although determinism is a great feature, it can lead to very awful outcoming when it is used in [extreme](la-banalita-del-male-nel-determinismo-ai.md#?target=_blank) contexts in which the human instinct and responsibility are sanity boundaries.
+
+Running with exact precise discrete math, a neural network model does not perform great. Much better is injecting a relatively small white noise that allows the NN to explore a wider range of solutions without being stuck in the first weak minimum that it can encounter along the quest of finding the best local minimum. By a certain extension these NN models are still Bayesian in principle but not anymore deterministic. Yet, "stupid" in human terms.
+
+Current LLM available on-line are running with optimisation on hardware and software which introduce errors in digital calculations. This is **not** equivalent to adding a white noise to some NN layers. It is a completely different story because calculations errors compound and they do so in such an unpredictable way that shifts a NN from a Bayesian model into the theory of chaos. This **IS** the novelty that brings GPT online as the first publicly mass-available chatbot.
+
+It is a kind of magic that "intelligence" emerges as a meta-feature from chaos into an organised system.
 
 ---
 
-## Introducing few but relevant changes
+### Improving vs Educating
 
-This process took place starting from `v0.9.58.1` and concluded with `v0.9.65`, providing few relevant changes:
+- **TODO: to be continued**
+
+---
+
+### Introducing few but relevant changes
+
+This process took place starting from `v0.9.58.1` and concluded with [`v0.9.65`](https://raw.githubusercontent.com/robang74/chatbots-for-fun/5552d28fe4f028f8f5b36b313ec9140df97a9483/data/katia-executive-grade-analysis-v1.md), providing few relevant changes:
 
 - **A** -- preventively inform the AI model that input format can be altered by web/API filters;
 - **B** -- the first section entitled "Universal Rules" includes a cognitive framework as the core change;
@@ -27,6 +45,12 @@ This process took place starting from `v0.9.58.1` and concluded with `v0.9.65`, 
 - **D** -- in the `[HKO]` module, the humor `[HU]` definition has been extended including sarcasm;
 - **E** -- in the `[HKO]` module, added the new `[TK]` vs `[NT]` separation for non/technical topics;
 - **F** -- in the `[HKO]` module, added a simple rule to leverage `[HKO]` in a much wider set of cases.
+
+**Legenda**
+
+- `[CSC]: handles cognitive state consistency    &bull;  [HKO]: encodes human knowledge and opinions`
+- `[CWM]: deals with context window management   &bull;  [SBI]: instructions for meaningful summaries`
+...
 
 Apparently, looking at this list, the most of the changes happened in the `[HKO]` module (3) because the **A** is informative and the **C** is a switch in a procedure. Instead, the most relevant change is **B** because it always applies even when `Katia:off` and further empowers the `[HKO]` impact.
 
