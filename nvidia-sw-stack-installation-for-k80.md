@@ -210,9 +210,10 @@ root@p910:~# lsmod | grep -e video -e nvidia
  nvidia              35643392  2 nvidia_uvm,nvidia_modeset
  video                  73728  2 i915,nvidia_modeset
  wmi                    28672  1 video
+&nbsp;
 root@p910:~# systemctl status nvidia-persistenced | grep active
  &nbsp; Active: active (running) since Thu 2025-02-20 05:10:08 CET; 10min ago
-
+&nbsp;
 root@p910:~# lspci -vvv | grep -iA 20 nvidia | grep -i -e region -ie lnkcap:
  &nbsp; Region 0: Memory at f0000000 (32-bit, non-prefetchable) [size=16M]
  &nbsp; &nbsp; LnkCap: Port #8, Speed 8GT/s, Width x16, ASPM not supported
@@ -246,7 +247,7 @@ root@P910:~# lspci -vvv | grep -iA 20 nvidia | grep -i -e region -e lnkcap:
  &nbsp; Region 1: Memory at <unassigned> (64-bit, prefetchable)
  &nbsp; Region 3: Memory at <unassigned> (64-bit, prefetchable)
  &nbsp; &nbsp; LnkCap:	Port #16, Speed 8GT/s, Width x16, ASPM not supported
-
+&nbsp;
 root@P910:~# lspci -vvv | grep -i -e nvidia -e PLX
 01:00.0 PCI bridge: PLX Technology, Inc. PEX 8747 48-Lane, 5-Port PCI Express Gen 3 (8.0 GT/s)
 \_Switch (rev ca) (prog-if 00 [Normal decode])
@@ -288,7 +289,7 @@ lspci -vvv | grep -iA 20 nvidia | grep -i -e region -ie lnkcap:
 nvidia-smi 2>/dev/null; lsmod | grep -e video -e nvidia
 dmesg -l err,crit,warn; dmesg | grep -i iommu
 lspci -vvv | grep -i -e nvidia -e PLX
-
+&nbsp;
 for d in /sys/kernel/iommu_groups/&ast;/devices/&ast;; do
 n=${d#&ast;/iommu_groups/&ast;}; n=${n%%/&ast;}; printf 'IOMMU group %s: ' "$n"
 lspci -nns "${d##&ast;/}"; done; systemd-analyze
@@ -407,11 +408,13 @@ After having removed snap completely, it is possible to choose the graphical env
 [!CODE]
 root@P910:~# hdparm -t /dev/sda | tail -n1
  Timing buffered disk reads: 310 MB in  3.02 seconds = 102.78 MB/sec
+&nbsp;
 **# Before boot optimisation**
 root@P910:~# systemd-analyze
 Startup finished in 5.198s (firmware) + 4.839s (loader) + 4.473s (kernel)
 \_ + 37.858s (userspace) = 52.369s
 graphical.target reached after 37.744s in userspace
+&nbsp;
 **# After boot optimisation**
 root@P910:~# sed -ne '/ed OpenBSD\|0\] Linux/I s,\(.\{60\,76\}\).&ast;,\1,p' /var/log/syslog|tail -n2
 Feb 22 15:16:20 P910 kernel: [    0.000000] Linux version 5.15.0-131-generic
@@ -440,7 +443,7 @@ rb() { rl reboot; read -p "press ENTER when the fan ramps down-up"; date +%s.%N;
 wt() { time ping -i 0.1 10.10.10.2 -w 60 | sed -ne "/time=/ s,.&ast;,&,p;q"; }
 ex() { wt 2>&1 | grep real; date +%s.%N; rl exit; date +%s.%N; }
 sp() { sleep 20; date +%s.%N; }
-
+&nbsp;
 **# Boot timing measure**
 roberto@x280[2]:~$ rb; sp; ex; echo "2nd SSH test"; ex;
 Connection to 10.10.10.2 closed by remote host.
