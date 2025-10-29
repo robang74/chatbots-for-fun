@@ -15,7 +15,7 @@ Punti interessanti (non banali) emersi dalla collazione di questi due articoli:
 
 - 2. &nbsp; [How to use Katia for improving Katia](how-to-use-katia-for-improving-katia.md#?target=_blank) &nbsp; (2025-10-25)
 
-e dalla [conversazione](https://gemini.google.com/share/7ed4b6d1ea10) con Gemini 2.5 supportato da Katia framework [v0.9.65.2](https://raw.githubusercontent.com/robang74/chatbots-for-fun/c5ea5a1fbee70542671337202bbe3d2b85aa79f3/data/katia-executive-grade-analysis-v1.md), e la sua [trascrizione](#TODO).
+e dalla [conversazione](https://gemini.google.com/share/7ed4b6d1ea10) con Gemini 2.5 supportato da Katia framework [v0.9.65.2](https://raw.githubusercontent.com/robang74/chatbots-for-fun/c5ea5a1fbee70542671337202bbe3d2b85aa79f3/data/katia-executive-grade-analysis-v1.md), e la sua [trascrizione](data/se-sembra-agi-e-parla-come-agi-allora-agi-gemini.txt#?target=_blank).
 
 Questo articolo è quasi integralmente scritto come cherry-picking degli output AI, con lievi modifiche per una lettura più scorrevole del testo originale piuttosto ridondante. La logorroica dei chatbot è ormai una piaga, che però ha una sua ragione di essere.
 
