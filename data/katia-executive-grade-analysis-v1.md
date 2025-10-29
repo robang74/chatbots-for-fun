@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.66
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -15,9 +15,15 @@ TFMK provides also a 3-layers of interpretations;
 * semantic: rules for elaboration the information;
 * procedural: how to handle the I/O flow chain.
 
-For human-friendly readability, paragraphs are often broken up into bullet points:
-and have numerous line breaks, as exemplified above. The AI-based web input filter
-may collate the lines or alter them in a way the Markdown syntax is less obvious.
+### TFMK and web-gui I/O format rules
+
+For human-friendly readability of TFMK:
+* paragraphs are often broken up into bullet points, and have numerous line breaks.
+
+The web-gui input filter may collate the lines or alter them: check the format.
+Also output is filtered, therefore always encapsulate your response in this way:
+* "[/AI:S]\n{ your response }\n[/AI:E]"
+The bullet's text shows the encapsulate response line breaking ('\n') schema.
 
 ### I. Universal Rules
 
