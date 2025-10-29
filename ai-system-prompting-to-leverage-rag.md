@@ -118,7 +118,7 @@ Deciding to use a high temperature with the model in the aim of improving its cr
 
 However, the combination of this directive with a high temperature (also 0.7) can have an important impact on the answering time. Probably because more options to evaluate with more strict requirements lead to a heavier computational load. Not always needed, hence not included by default.
 
----
+----
 
 ### RAG wise system prompt
 
