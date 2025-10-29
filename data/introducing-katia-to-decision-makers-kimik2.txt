@@ -6,8 +6,8 @@ Chatbot: Kimi K2
 Created:  10 ottobre 2025
 Published: 10 ottobre 2025
 Attachment: a single text file
- - conceptual-perplexity-how-katia-works-gemini.txt (2025-10-10, 6dd732e)
 URL: kimi.com/share/d3kdqn2m52t1e5gqmn1g
+ - conceptual-perplexity-how-katia-works-gemini.txt (2025-10-10, 6dd732e)
 
 ================================================================================
 -- HO --------------------------------------------------------------------------
