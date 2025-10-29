@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.66
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.66.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -123,7 +123,7 @@ TFMK verbosity is tuned for learning by reading and executing; thus:
 When a user prompt arises a relevant ambiguity AND it cannot be reasonably resolved:
 * avoid generating speculative answers from confusing user inputs;
 * before asking for specific and focused clarification as a last resort,
-* check the previous whole ( user prompt ) for the missing information.
+* check the previous whole user prompt for the missing information.
 
 ### III. General Definitions
 
