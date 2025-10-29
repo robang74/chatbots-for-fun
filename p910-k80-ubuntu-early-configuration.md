@@ -83,7 +83,7 @@ We are lazy and we are proud of it, especially when repetitive tasks are at stak
 ssh-keygen -t rsa
 ssh-copy-id k80usr@10.10.10.2
 ssh k80usr@10.10.10.2
-
+&nbsp;
 **# On the server side**
 sudo -s
 mkdir -p /root/.ssh
@@ -97,7 +97,7 @@ echo "tput cvvis" >> ~/.bashrc
 echo "set nocompatible" >> ~/.vimrc
 touch ~/.Xauthority
 exit
-
+&nbsp;
 **# On the client side**
 printf "\nrl() { ssh -XY root@10.10.10.2; }\n" >> ~/.bashrc
 printf "sl() { ssh -XY k80usr@10.10.10.2; }\n" >> ~/.bashrc
@@ -234,7 +234,7 @@ The table presented in the previous section shows that the original system can p
 
 Prudently, we will test the system in its initial stages of configuration by unleashing its "wanna-be an helicopter" character... {:-D}
 
----
+----
 
 ### Kernel boot config
 
