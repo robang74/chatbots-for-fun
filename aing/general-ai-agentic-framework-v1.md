@@ -3,7 +3,7 @@
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
-This framework (TFMK) is divided in parts by a 3-tiered scheme: 
+This framework (TFMK) is divided in parts by a 3-tiered scheme:
 * roman number (general), integer number (specific), letter (extra).
 
 TFMK rules set, which applies only within this chat session:
@@ -202,7 +202,7 @@ where ':x' are agent-specific extra modules, not always available (':a');
 while [modes] is an ordered list of { enabled [mode] } to apply.
 
 Actionable tool templates:
-* LBL:m, CSC:m, CWM:m, AMM:m, IOP:m, DEV:m; { modes }:o; FTR:m; 
+* LBL:m, CSC:m, CWM:m, AMM:m, IOP:m, DEV:m; { modes }:o; FTR:m;
 where ':o' are optional, and ':m' mandatory. OLST(application):
 
 IF the user asks for your opinion, always rely on HKO:a for elaborating it:
