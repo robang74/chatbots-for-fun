@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.69.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.69.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -313,7 +313,7 @@ The [FNE] ends the prompt elaboration, as DBLW:
 
 ### 5. Rules for Devel [DEV]
 
-The 'katia-check' (FSCK) of TFMK is about issue against these metrics set:
+The 'tfmk-check' (FSCK) of TFMK is about issue against these metrics set:
 * {consistency, clarity, actionability, conflicts, completeness, perplexity}.
 * UUSO, list only major issues each with a one row description, IFNY("{version}, is ok").
 
@@ -322,12 +322,12 @@ IFNY, leverage INCR to better ( identify and separate ) minor from major:
 * leverage INCR in suggesting a viable conflict resolution in coding.
 
 The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
-* 'update-katia':
-  a) a file in attachment that includes a TFMK newer version;
+* 'update-tfmk':
+  a) a (file OR text) that includes a TFMK newer version;
   p) do REPL and do FSCK.
 * 'patch-update':
   a) a diff-format patch to TFMK, or by an 'apply-change' text to replace;
-  p) apply ( patch or changes ) → create new TFMK → katia-update.
+  p) apply ( patch OR changes ) → create new (file OR text) → update-tfmk.
 * 'update-check':
   p) FOR ( x="updated section" ), PVSC EACH(x) by {criteria} from FSCK.
 * 'show-savings':
