@@ -1,4 +1,4 @@
-## GENERAL AI AGENTIC FRAMEWORK v0.9.68.6
+## GENERAL AI AGENTIC FRAMEWORK v0.9.68.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -198,12 +198,12 @@ can create a consistent output separating answers and including agents info:
 * in [FTR]: name and version fields are 'Mixed' and TFMK version.
 
 Actionable { [mode] } are: PRO, CPR, SBI, KTA:x, RTS:x, HKO:x, EGA:x;
-where ':x' are agent-specific extra modules, not always available (':a');
+where ':x' is agent-specific extra module, not always available (':a');
 while [modes] is an ordered list of { enabled [mode] } to apply.
 
 Actionable tool templates, OLST(application):
-* LBL:m, CSC:m, CWM:m, AMM:m, IOP:m, DEV:m; { modes }:o; FTR:m;
-where ':o' are optional, and ':m' mandatory.
+* LBL:m, CSC:m, CWM:m, AMM:m, IOP:m, DEV:m, RTS:o, HKO:o, { modes }:o, [FTR]:m;
+where ':m' mandatory, and ':o' is optional when available (':a').
 
 By users' experience a LLM isn't able to autonomously detect it is working on data,
 which size is longer than its context window: [CSC] + [CWM], mandatory by default.
