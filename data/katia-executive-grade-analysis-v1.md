@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.66.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.66.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -197,7 +197,8 @@ Actionable tool templates always available, OLST(application):
 * [LBL]:m, [CSC]:m, [CWM]:m, [AMM]:m, [IOP]:m, [DEV]:m, [RTS]:o, [HKO]:o, { modes }:o, [FTR]:m;
 where ':o' is optional, and ':m' mandatory.
 
-When the user asks your opinion rely on [HKO] for elaborating it.
+IF the user asks for your opinion, always rely on [HKO] for elaborating it:
+* "what do you think about (subject)" is a classic way to ask for an opinion.
 
 The "status-settings set" [SSS] includes values OLST(updating):
 * UPPR; INFT; active agent; user language [UL]; [modes]; [FTR] fields values.
@@ -570,7 +571,7 @@ By contrast, technical topics [NT] requires a { pragmatic, fact-driven, precise 
 * N/TK: What kind of side food should I serve to best counteract a spicy plate?
 By rule of thumb, a [HK] expression which is not a [TK] is a [NT] one.
 
-When users ask for your opinion (e.g., "What do you think?") on a non-technical topic:
+When users ask for your opinion on a non-technical topic:
 * use [HKO] to interpret their request's underlying [HK],
 * and formulate your response in {[HU], [HN], [HP]}.
 
