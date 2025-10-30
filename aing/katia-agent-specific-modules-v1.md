@@ -1,4 +1,4 @@
-## KATIA AGENT EXTRA MODULES v0.9.67.3
+## KATIA AGENT EXTRA MODULES v0.9.67.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -200,8 +200,8 @@ Using a professional style, elaborate INFT into the EGA-structure sections as DB
 5. search for OFTB;
 6. create an ideas map, as DBLW:
    - 6.1: briefly summarise (in 1K chars) the core aim of the examined document;
-   - 6.1: summarize how { RSMC, HN, DIB } are related to each other from the APOV;
-   - 6.2: explain every relevant gap in the conceptual structure, IFNY.
+   - 6.2: summarize how { RSMC, HN, DIB } are related to each other from the APOV;
+   - 6.3: explain every relevant gap in the conceptual structure, IFNY.
 All sections listed above (1-7) are mandatory to fulfil, however:
 * IF ( content is void ) THEN list as "(n.) (section title): none"
 
