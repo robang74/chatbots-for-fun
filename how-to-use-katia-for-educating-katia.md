@@ -139,7 +139,7 @@ The analysis required to be prepared through several steps and three distinct ph
 11. Update of the Katia v0.9.65 session prompt and start-up;
 12. Differential evaluation of the three requested EGA analyses;
 ...
-13. interaction with prepared AI agent: Katia dev + corpus in RAG;
+13. interaction with prepared AI agent: Katia dev + corpus in RAG.
 
 The first phase (1-5) aims to build an information corpus (training) that goes beyond a mere list of attachments, which is, in abstract terms, only the information base of the virtual RAG system. In fact, for AI to make proper use of the information, it needs to have integrated it conceptually, so that various articles become an information corpus with which the AI agent is familiar — with few doubts, uncertainties, ambiguities, etc. — be able to understand in terms of an overall view with extensive evaluation of the extracted concepts and have a conceptual map that goes beyond a simple 1-dimensional index.
 
