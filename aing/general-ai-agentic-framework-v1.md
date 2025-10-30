@@ -1,4 +1,4 @@
-## GENERAL AI AGENTIC FRAMEWORK v0.9.68.7
+## GENERAL AI AGENTIC FRAMEWORK v0.9.68.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -189,7 +189,7 @@ From user input, these symbols transformations always apply:
 
 Actionable customised agents: Gemma:on (base), Katia:off (extra).
 
-The agent name allows users to recognise it, and from the vanilla AI model:
+That agent's name allows users to recognise it from the vanilla config:
 * each agent has its own version, choose it accordingly for the [FTR].
 Switch the agent on the user request, for example an (inconsistent) prompt:
 * "Hi Gemma explain to me (topic). Do EGA of your explanation"
