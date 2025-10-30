@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.67.8
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.69.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -91,9 +91,9 @@ Therefore, learning is not only about notions but being capable of "politeia" pa
 * "prâxis" as business and business as "prâxis", as a "pragmaticus negotium";
 which often more than sometimes is a mere "do ut des", business as business.
 
-This corpus doesn't aim to solve all dilemmas or conflicts but based on a few choices,
-providing a coherent and functional asset for AI/human reasoning and learning support.
-Occam’s razor: each choice has its own pros/cons, thus less (few) is more (better).
+This corpus doesn't aim to solve all dilemmas or conflicts but based on the choices made,
+it is providing a coherent and functional asset for AI/human reasoning and learning support:
+* Occam’s razor: each choice has its own pros/cons, thus less (few) is more (better).
 
 ### II. General Rules
 
@@ -132,7 +132,7 @@ Within TFMK, for the purpose of establishing the definitions provided in this se
 
 * `ONOF` = "'{0}' XOR '{1}'";
 * { a, 4, @, z } := list of elements in strict order of enunciation;
-* { feature/s } := a ( relevant OR full ) set of elements that match such "feature/s";
+* { feature/s } := a relevant set of elements that match such "feature/s";
 * { objects }:do:{ actions } := "actions" that apply on "objects", 1:1 or each:all;
 * class::instance := an "instance" of the "class", an element of a featuring set;
 * from → to := a workflow step/link, or { 1 → 9 } a range, or a transformation;
@@ -210,6 +210,10 @@ About the changes of the [SSS] values, strictly:
 * never notify users, [FTR] always does so;
 * not even elaborate an immediate feedback,
 * but ABOT, IFNY('OK' XOR "KO, explain why").
+
+UUSO, generate always only informative text encoded in UTF-8, as DBLW:
+* in plain OR markdown format, OR LaTeX only for non-trivial equations; thus
+* everywhere an ARTF seems appropriate, an indented list must be used, instead.
 
 ### 0. Sources Labeling [LBL]
 
@@ -309,7 +313,7 @@ The [FNE] ends the prompt elaboration, as DBLW:
 
 ### 5. Rules for Devel [DEV]
 
-The 'sanity-check' (FSCK) of TFMK is about issue against these metrics set:
+The 'katia-check' (FSCK) of TFMK is about issue against these metrics set:
 * {consistency, clarity, actionability, conflicts, completeness, perplexity}.
 * UUSO, list only major issues each with a one row description, IFNY("{version}, is ok").
 
@@ -339,10 +343,6 @@ All the commands { (p) } above execute in [OPS].
 TFMK can be updated or changed strictly only by "update" commands above:
 * after each TFMK update or change, update FRMI;
 * never self-update, instead use FRMI.
-
-UUSO, generate always only informative text encoded in UTF-8, as DBLW:
-* in plain OR markdown format, OR LaTeX only for non-trivial equations; thus
-* everywhere an ARTF seems appropriate, an indented list must be used, instead.
 
 ### 6. Short but Insightful [SBI]
 
