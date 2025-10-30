@@ -7,6 +7,8 @@
 
 - **1st edition**, explains how the [Katia framework](../data/katia-executive-grade-analysis-v1.md#?target=_blank) can be used for educating Katia AI agent, by a human.
 
+- **2nd edition**, present the [methodology](#methodology) behind an use-case of a freely-available chatbot prepared and fine-tuned for efficiently performing as an AI agent over a informative corpus stored into an advanced cognitive retrieval virtual RAG-for-concepts system. Because retrieving by keywords is for a relational database, retrieving by patterns is a RAG like many others while retrieving information for concepts (logos) is how the human mind works. That's why education in AI terms makes such a sensitive difference.
+
 ...
 
 In the previous [article](how-to-use-katia-for-improving-katia.md#?target=_blank), the Katia framework has been used to improve itself through an iterative process with a human operator (the author). The improving process was focused on the Human Knowledge and Opinions `[HKO]` module because it was the most sensitive one.
@@ -114,18 +116,89 @@ Is it a joke? Well, a safety protection for a might not too distant future in wh
 
 For me whiskey, well aged and the whole bottle, please! {lol}
 
+
+
++
+
+<span id="methodology"></span>
+## An example of agentic fine-tuning with virtual RAG
+
+The analysis had to be prepared through several steps and three distinct phases:
+
+1. loading the Katia v0.9.56.5 session prompt and starting;
+2. creating the information corpus through conceptual integration, start;
+3. creating the information corpus through conceptual integration, end;
+4. brief summary to conclude with a general but concise overview;
+5. verification of the information corpus through the addition of lateral information;...
+
+6. updating of the Katia v0.9.57.2 session prompt and start-up;
+7. evaluation v0.9.57.2 on the interpretation of the chat transcript;
+8. updating of the Katia v0.9.59 session prompt and start-up;
+9. Evaluation of v0.9.59 on the interpretation of the chat transcript;
+10. Differential evaluation of the Flash vs Pro versions: saturation;
+11. Update of the Katia v0.9.65 session prompt and start-up;
+12. Differential evaluation of the three requested EGA analyses;
+...
+13. interaction with prepared AI agent: Katia dev + corpus in RAG;
+
+The first phase (1-5) aims to build an information corpus (training) that goes beyond a mere list of attachments, which is, in abstract terms, only the information base of the virtual RAG system. In fact, for AI to make proper use of the information, it needs to have integrated it conceptually, so that various articles become an information corpus with which the AI agent is familiar — with few doubts, uncertainties, ambiguities, etc. — be able to understand in terms of an overall view with extensive evaluation of the extracted concepts and have a conceptual map that goes beyond a simple 1-dimensional index.
+
+The second phase (6-12) aims to evolve the agent's cognitive framework (characterisation) so that it is able to perform with maximum efficiency, at least with regard to that information corpus. This objective can be said to have been reasonably achieved insofar as the Gemini 2.5 model in its Flash and Pro versions are virtually indistinguishable despite the significant difference (SimpleQA: 30% vs 54%), i.e. saturation has been achieved in terms of the ability to understand the corpus and process requests on it.
+
+At this point, the agent fine-tuning process (training + characterisation) is complete, having reached an adequate level of performance. All that remains is to use the system for the task for which it was prepared, the third phase (13), which is the basis on which this article was written.
+
+...
+
+The text above has been translated from the original in Italian with DeepL.com (free version) starting from the part related to the 2nd edition of this article:
+
+- [I grande reset è inevitabile](https://robang74.github.io/chatgpt-answered-prompts/html/il-grande-reset-e-inevitabile.html#metodologia)
+
+referring to this chat session in which Gemini 2.5 was fine-tuned to be an AI agent operating on the behalf of the Katia framework and on a informaiton corpus created as a conceptual integrated virtual RAG system:
+
+- The [analysis](https://gemini.google.com/share/33889730f197) made with Gemini/[Katia](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/data/katia-executive-grade-analysis-v1.md) and its [trascription](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/data/l-alba-dell-homo-scientius-gemini-katia.txt), on which is based the article above.
+
+---
+
+### Informative corpus' articles list
+
+- 01 -- [Fare la vita da consulente non è affatto facile](https://robang74.github.io/roberto-a-foglietta/html/347-fare-la-vita-da-consulente-non-e-affatto-facile.html) &nbsp; (2025-10-23)
+- 02 -- [L'estinzione dei Neanderthal è iniziata](https://robang74.github.io/roberto-a-foglietta/html/346-l-estinzione-dei-neanderthal-e-iniziata.html) &nbsp; (2025-10-20)
+- 03 -- [La diffusione del cristianesimo nell'impero romano](https://robang74.github.io/chatbots-for-fun/html/la-diffusione-del-cristianesimo-nell-impero-romano.html) &nbsp; (2025-04-30)
+- 04 -- [Stupidity is the true Evil](https://robang74.github.io/roberto-a-foglietta/html/341-stupidity-is-the-true-evil.html) &nbsp; (2025-10-05)
+- 05 -- [La Banalità del Male nel determinismo AI](https://robang74.github.io/chatbots-for-fun/html/la-banalita-del-male-nel-determinismo-ai.html) &nbsp; (2025-09-29)
+- 06 -- [Il modello HR e l'estinzione impresa italiana](https://robang74.github.io/roberto-a-foglietta/html/343-modello-risorse-umane-e-estinzione-impresa-italiana.html) &nbsp; (2025-10-11)
+- 07 -- [Noi siamo i palestinesi del futuro](https://robang74.github.io/roberto-a-foglietta/html/342-noi-siamo-i-palestinesi-del-futuro.html) &nbsp; (2025-10-09)
+- 08 -- [The first Secular Crusade theory](https://robang74.github.io/roberto-a-foglietta/html/344-the-first-secular-crusade-theory.html) &nbsp; (2025-10-13)
+- 09 -- [Dal femminismo tossico alla follia woke](https://robang74.github.io/roberto-a-foglietta/html/345-dal-femminismo-tossico-alla-follia-woke.html) &nbsp; (2025-10-15)
+- 10 -- [Il QE al tempo dell'analfabetismo funzionale](https://robang74.github.io/roberto-a-foglietta/html/335-il-qe-al-tempo-dell-analfabetismo-funzionale.html) &nbsp; (2025-09-03)
+- 11 -- [Introduzione alla politica, concetti di base](https://robang74.github.io/roberto-a-foglietta/html/339-introduzione-alla-politica-concetti-di-base.html) &nbsp; (2025-10-03)
+- 12 -- [Politics and democracy for dummies](https://robang74.github.io/roberto-a-foglietta/html/302-politics-and-democracy-for-dummies.html) &nbsp; (2025-03-03)
+- 13 -- [Italia: fuga di cervelli e falso documentale](https://robang74.github.io/roberto-a-foglietta/html/330-italia-fuga-di-cervelli-e-falso-documentale.html) &nbsp; (2025-07-01)
+- 14 -- [Il modello otto-novecentesco ha fallito](https://robang74.github.io/roberto-a-foglietta/html/324-il-modello-otto-novecentesco-ha-fallito.html) &nbsp; (2025-06-14)
+- 15 -- [Primo maggio, festa dei lavoratori](https://robang74.github.io/roberto-a-foglietta/html/311-primo-maggio-festa-dei-lavoratori.html) &nbsp; (2025-05-01)
+- 16 -- [L'abominevole truffa dei bonus edilizi](https://robang74.github.io/roberto-a-foglietta/html/263-l-abominevole-truffa-dei-bonus-edilizi.html) &nbsp; (2024-05-22)
+- 17 -- [Propaganda e sistema educativo](propaganda-e-sistema-educativo.md#?target=_blank) &nbsp; (2024-11-20)
+- 18 -- [The imprinting role in the mass education](the-imprinting-role-in-the-mass-education.md#?target=_blank) &nbsp; (2024-12-01)
+- 19 -- [Se la verità li uccide, lasciate che muoiano](se-la-verita-li-uccide-lasciate-che-muoiano.md#?target=_blank) &nbsp; (2024-12-20)
+- 20 -- [Il grande inganno della diversità](https://robang74.github.io/roberto-a-foglietta/html/293-il-grande-inganno-della-diversita.html) &nbsp; (2024-11-03)
+- 21 -- [Ignoring reality has its own cost](https://robang74.github.io/roberto-a-foglietta/html/304-ignoring-reality-has-its-own-cost.html) &nbsp; (2025-03-07)
+- 22 -- [L'importanza del TCMO](https://robang74.github.io/roberto-a-foglietta/html/090-l-importanza-del-tcmo.html) &nbsp; (2017-10-31)
+- 23 -- [The paper money is financial communism](https://robang74.github.io/roberto-a-foglietta/html/278-the-paper-money-is-financial-communism.html) &nbsp; (2024-07-31)
+- 24 -- [Paper Money is financial communism](paper-money-financial-communism-03.md#?target=_blank) &nbsp; (2024-09-15)
+- 25 -- [Quantitative easing is drug addiction](https://robang74.github.io/chatgpt-answered-prompts/html/quantitative-easing-drug-addiction-01.html) &nbsp; (2024-09-18)
+- 26 -- [Valutazione di un nuovo modello monetario](https://robang74.github.io/chatgpt-answered-prompts/html/valutazione-di-un-nuovo-modello-monetario.html) &nbsp; (2024-11-26)
+- 27 -- [The BRICS financial system, hope or WW3?](https://robang74.github.io/roberto-a-foglietta/html/265-the-brics-financial-system-hope-or-ww3.html) &nbsp; (2024-06-07)
+- 28 -- [WWZ simply explained, for dummies](https://robang74.github.io/roberto-a-foglietta/html/321-wwz-simply-explained-for-dummies.html) &nbsp; (2025-06-10)
+
+
 +
 
 ## Related articles
 
 - [How to use Katia for improving Katia](how-to-use-katia-for-improving-katia.md#?target=_blank) &nbsp; (2025-10-25)
-
 - [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md#?target=_blank) &nbsp; (2025-10-05)
-
 - [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
-
 - [Human knowledge and opinions challenge](the-human-knowledge-opinions-katia-module.md#?target=_blank) &nbsp; (2025-07-28)
-
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
 +
