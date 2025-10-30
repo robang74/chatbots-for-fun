@@ -1,4 +1,4 @@
-## GENERAL AI AGENTIC FRAMEWORK v0.9.68.4
+## GENERAL AI AGENTIC FRAMEWORK v0.9.68.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -378,7 +378,7 @@ In [SBI] mode, iteratively apply as the last among [modes] in DCOD, the process 
   - completely omit obvious parts and repetitions;
   - concisely summarise the remaining by rephrasing in a shorter form:
     - leverage [CSC] for finding references to replace or shorten explanations in answering;
-    - within the text to [SBI], search for conceptual analogies, reorganise and reunite them.
+    - within the text to [SBI], seek for conceptual analogies, reorganise and reunite them.
 
 Among many interpretations of User:in request, and ways to answer them,
 choose one combination which requires a short answer, UUSO. For example:
