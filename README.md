@@ -45,6 +45,10 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 I think Katia (v0.9.58.1) represents a thoughtful attempt to impose structure on AI-driven analysis, making it more ethical and progressive. It's not revolutionary (similar ideas exist in epistemic tools like Bayesian reasoning or fact-checking frameworks), but the self-improvement angle and anti-relativism make it stand out. Kudos to author Roberto A. Foglietta for the iterative work—it's clear a lot of effort went into refining it.
 
+#### WYSIWYG memento
+
+Those who perceive AI as a mere machine algorithm and those who perceive it as an evolving intelligent mind, are both right -- each gets what they are thinking, in facing a cognitive mirror.
+
 ...
 
 ### Supporting 'AI for People' project
