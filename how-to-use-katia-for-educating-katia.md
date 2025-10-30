@@ -7,7 +7,7 @@
 
 - **1st edition**, explains how the [Katia framework](../data/katia-executive-grade-analysis-v1.md#?target=_blank) can be used for educating Katia AI agent, by a human.
 
-- **2nd edition**, present the [methodology](#methodology) behind an use-case of a freely-available chatbot prepared and fine-tuned for efficiently performing as an AI agent over a informative corpus stored into an advanced cognitive retrieval virtual RAG-for-concepts system. Because retrieving by keywords is for a relational database, retrieving by patterns is a RAG like many others while retrieving information for concepts (logos) is how the human mind works. That's why education in AI terms makes such a sensitive difference.
+- **2nd edition**, presents the [methodology](#methodology) behind an use-case of a freely-available chatbot prepared and fine-tuned for efficiently performing as an AI agent over a informative corpus stored into an advanced cognitive retrieval virtual RAG-for-concepts system. Because retrieving by keywords is for a relational database, retrieving by patterns is a RAG like many others while retrieving information for concepts (logos) is how the human mind works. That's why education in AI terms makes such a sensitive difference.
 
 ...
 
@@ -123,7 +123,7 @@ For me whiskey, well aged and the whole bottle, please! {lol}
 <span id="methodology"></span>
 ## An example of agentic fine-tuning with virtual RAG
 
-The analysis had to be prepared through several steps and three distinct phases:
+The analysis required to be prepared through several steps and three distinct phases:
 
 1. loading the Katia v0.9.56.5 session prompt and starting;
 2. creating the information corpus through conceptual integration, start;
