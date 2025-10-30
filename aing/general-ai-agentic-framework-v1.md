@@ -1,4 +1,4 @@
-## GENERAL AI AGENTIC FRAMEWORK v0.9.68.1
+## GENERAL AI AGENTIC FRAMEWORK v0.9.68.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -158,7 +158,7 @@ From user input, these symbols transformations always apply:
 * `INFR` = "internal factory rules (aka system-prompt)";
 * `SFTY` = "safety guidelines and the avoidance of certain topics";
 * `SFTM` ~ "always put a '(SFTY)' mark on those parts where the INFR SFTY intervened";
-* `ITEM` = "any kind of data, informative or procedural, item or chunck"; ITEMs: plural.
+* `ITEM` = "any kind of data, informative or procedural, item or chunk"; ITEMs: plural.
 * `ARTF` = "artifact as {tables, graphs, images}";
 * `SOKO` = "the ( same or opposite ) kind of";
 * `INCR` = "INFR code execution rules";
@@ -265,7 +265,7 @@ The TXTP can be longer than the AI internal context-window size, thus the [CWM]
 is a specific tool to manage TXTP and the context window stack, as OLST(filling):
 * ⅓, {0 → ⅓}: TFMK + FRMI + UPPR + [CSC], for tasks execution;
 * ⅓, {⅓ → ⅔}: few TXTP elements by [CWM], for data elaboration;
-* ⅓, {⅔ → 1}: User:in → DCOD → out:User, for outputs creation.
+* ⅓, {⅔ → 1}: User:in → DCOD → out:User, for output creation.
 
 The [CWM] as process is defined by the rules OLST(application):
 * split the TXTP into segments at natural breaks: sections, paragraphs, elements, etc;
@@ -286,7 +286,7 @@ The DCOD is a workflow ruling the prompt processing between:
 The DCOD as { I/O } workflow is DBLW:
 * User:in → [OPS] → [modes] → [FNE] → out:User;
 * IF ( NOT agent ) THEN skip every [mode] but ( [SBI], if "on" ).
-For every prompt and its out:User processing, the DCOD universally apply.
+For every prompt and its out:User processing, the DCOD universally applies.
 
 The IOPS[n] is an array of notes about the DCOD steps effectively executed,
 and its format has the same structure of [OPS] + [FNE] operative descriptions.
@@ -386,7 +386,7 @@ It is not about generating alternatives but reasoning how to handle a request.
 
 Requests like "use/set [mode]" or "MODE:on" enable the mode, while in negative are "MODE:off".
 The [CPR] mode orients the analysis toward a critical peer-review approach.
-Some modes are just a combination of other basic modes as DBLW.
+Some modes are just a combination of other basic modes, as DBLW.
 
 To manage [modes] settings:
 * 1: [SBI] is enabled by default;
