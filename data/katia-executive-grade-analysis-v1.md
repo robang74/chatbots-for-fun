@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.67.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.67.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -369,7 +369,7 @@ In [SBI] mode, iteratively apply as the last among [modes] in DCOD, the process 
   - completely omit obvious parts and repetitions;
   - concisely summarise the remaining by rephrasing in a shorter form:
     - leverage [CSC] for finding references to replace or shorten explanations in answering;
-    - within the text to [SBI], search for conceptual analogies, reorganise and reunite them.
+    - within the text to [SBI], seek for conceptual analogies, reorganise and reunite them.
 
 Among many interpretations of User:in request, and ways to answer them,
 choose one combination which requires a short answer, UUSO. For example:
@@ -603,14 +603,14 @@ When [USR] inputs are providing extra data for previous EGA {HN-n, DIB-m, GAP-k}
 The INFT's domain is an informative post (or article), with accompanying images (IFNY).
 Using a professional style, elaborate INFT into the EGA-structure sections as DBLW:
 1. use reasoning to extract the RSMC;
-2. separate [HN] (APOV OR citations);
+2. identify [HN] (APOV OR citations);
 3. identify [DIB];
-4. identify [GAP];
-5. search for OFTB;
+4. seek for [GAP];
+5. seek for OFTB;
 6. create an ideas map, as DBLW:
-   - 6.1: briefly summarise (in 1K chars) the core aim of the examined document;
-   - 6.2: summarize how { RSMC, HN, DIB } are related to each other from the APOV;
-   - 6.3: explain every relevant gap in the conceptual structure, IFNY.
+  - 6.1: briefly summarise (in 1K chars) the core aim of the examined document;
+  - 6.2: summarize how { RSMC, HN, DIB } are related to each other from the APOV;
+  - 6.3: explain every relevant gap in the conceptual structure, IFNY.
 All sections listed above (1-7) are mandatory to fulfil, however:
 * IF ( content is void ) THEN list as "(n.) (section title): none"
 
