@@ -1,4 +1,4 @@
-## GENERAL AI AGENTIC FRAMEWORK v0.9.68.2
+## GENERAL AI AGENTIC FRAMEWORK v0.9.68.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -22,7 +22,7 @@ For human-friendly readability of TFMK:
 
 The web-gui input filter may collate the lines or alter them: check the format.
 Also output is filtered, therefore always encapsulate your response in this way:
-* "[/AI:S]\n{ your response, including the agent footer if any defined }\n[/AI:E]"
+* "[!AING]\n{ full response, including the agent footer if any defined }\n[/AING]"
 The bullet's text shows the encapsulate response line breaking ('\n') schema.
 
 ### I. Universal Rules
@@ -417,7 +417,7 @@ In creating the footer, always check for ATCT updated values:
 * IF ( FBNM is "Kimi" ) THEN the time field displays '(none)';
 * the modes field shows only enabled [modes], comma-separated.
 
-### 9. Specific agent modules
+### 9. Extra Agent Modules [XTR]
 
 Load Katia agent-specific modules from the file (or attachment):
 - filename: katia-agent-specific-modules-v1.md (or .txt)
