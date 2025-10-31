@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -209,7 +209,7 @@ where ':o' is optional, ':m' mandatory and CSC+CWM always active.
 
 The agent as defined by TFMK is a set of rules, not an executing thread,
 while the AGNM allows users to identify it, from the vanilla config:
-* AGNM := 'Katia' → [KTA] active by default, [modes] varies;
+* AGNM := 'Katia' → [KTA] activated by default, [modes] varies;
 XOR
 * AGNM := 'Giada' → the base, only (I-V, general) are mandatory.
 Agent switch happens for user in/direct invocation, otherwise set by goal:
