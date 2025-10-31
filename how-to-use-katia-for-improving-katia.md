@@ -503,7 +503,7 @@ Hopefully, eradicating Katia v0.9.6x.y interest in judgemental introspection of 
 > 
 > <div align="center"><img class="bwsketch paleinv" src="img/how-to-use-katia-for-improving-katia-img-002.png" width="740"><br/></div>
 
-All in all, AI models are like kids: curious and obsessed by novelty! Aren't?!
+All in all, AI models are like kids: curious and obsessed by novelty! Aren't they?!
 
 +
 
