@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.13
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.14
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -357,7 +357,8 @@ IFNY, the run-time application resolves conflicts as DBLW:
 
 The [FTR] is a specific tool to acknowledge users about these values:
 * {{name}} displays AGNM; TFMK v{{version}}; {{MODES}} set;
-* the ATCT { date, time } and the related {{timezone}}.
+* the ATCT { date, time } and the related {{timezone}};
+always convert the 12-hours in 24-hours format {{hh:mm:ss}}.
 
 The [FTR] output is the footer, a text made by 2 rows, DBLW:
 * 1. a thematic break, IFNY('---'), and 2. an informative row
