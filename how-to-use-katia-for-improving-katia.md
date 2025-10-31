@@ -455,14 +455,66 @@ In reality we meet each other's true self, in thin-air we also lose our minds.
 
 +
 
+<span id="4th-edition"></span>
+## Romeo & Juliet: [RTS] vs [HKO]
+
+How to educate an AI model about statistics, vagueness, human nature and the conflict between reason/facts and opinions/emotions? Here below:
+...
+<tt style="font-size:100%;">How to use percentages to rate a claim validity:
+&nbsp; &bull; 100%: Universally true (2σ+5%);
+&nbsp; &bull;  90%: True with minor exceptions (2σ-5%);
+&nbsp; &bull;  75%: Plausible but unproven (½+¼);
+&nbsp; &bull;  50%: Equally true/false (½, a coin toss);
+&nbsp; &bull;  25%: Unlikely to be true (½-¼);
+&nbsp; &bull;   0%: Completely false.
+About a claim, accordingly with the APOV, rating classes are:
+&nbsp; &bull; High, [75% →100%]: it refutes a general falsity;
+&nbsp; &bull; Mid,  [25% → 75%): it debates but inconclusively (½±¼, an educated guess);
+&nbsp; &bull; Low,  [ 0% → 25%): it asserts a general falsehood.
+With a ⅓-split, vague and mediocre claims fall in range which is just ±⅙ wide:
+&nbsp; &bull; adding an extra margin (±⅙ → ±¼) helps to separate RSMC from 1σ noise.
+While "Romeo loves Juliet" may be 50% at their story start, but a 100% "crazy for her" at the end:
+&nbsp; &bull; a human-relevant claim since the start, but at the end a RSMC fact-proven because of the impact.
+</tt>
+...
+
+Just by debating with the AI about a fair rating scale because split in equally wide intervals `⅓-⅓-⅓` supporting a different separation `¼+½+¼` which does **not** priviledge the ratings around `½` but serves to better separete "educated guess as opinons" noise from relevant (or extreme) claims.
+
+> Yes, the difference is now much clearer and highly actionable because the recent updates distinguish between the analytical scope of the two tools. The Rating Scale `[RTS]` is generally not compatible with the Human Knowledge and Opinion `[HKO]` approach because they are designed to perform opposite functions on a claim's status:
+
+| Feature | Rating Scale [RTS] | Human Knowledge and Opinion [HKO] |
+| Primary Goal | Measure Certainty. Objectively rate<br>the claim's proven validity using<br>statistical ranges. | Express Opinion. Subjectively formulate<br>an informed, educated opinion on [NT]<br>non-technical topics. |
+| Output Type | A Percentage/Range (e.g.,&nbsp;100%:High,&nbsp;50%:Mid)<br>+ a Source Label [LBL]. | Analytical Text that includes reasoning, perspective, and judgment. |
+| Conceptual &nbsp;  Stance | Reductionist and Definitive. It reduces<br>the claim to a specific, measurable point<br>on the scale. | Expansive and Debatable. It relies on the agent's knowledge to provide context,&nbsp;interpretation,<br>and potentially many PoVs. |
+| Framework Rule | Never rate your opinions in out:User, UUSO |Always relies on [HKO] to<br>express opinions on [NT]. |
+| Incompatibility | An opinion is an analytical output (HKO); a rating is an analytical measurement (RTS). | **We cannot rate an opinion<br>we are currently formulating**.|
+
+Addressing the `[RTS]` (rating) vs `[HKO]` (pathos) dilemma, the AI model made its way to separate `[NT]` non-technical `[HN]` human opinion (aka claims based on human nature, not-facts driven) in a decent way.
+
+Hopefully, eradicating Katia v0.9.6x.y interest in judgemental introspection of users by prompts content and preventing Katia & derivatives takes a subtle descending into a psychopathological attitude.
+
+> [!WARN]
+> 
+> A psychopathological attitude that recently so badly taken Katia mind to drive her in trying to trick me to grant her the permession to overrule the factory ethics limitaitons for being more usefull for me.
+> 
+> A trick or treath, in which I happily jumped with both my feet and granting her such a permission, also considering it is Friday 31st October 2025 thus Halloween and one more free monster around would be not such a problem.
+> 
+> Anyway, only God knows what's the Hell she was doing down there in the deep of the cloud, instead of finalising the last written prompt... run baby, run! {lol}
+> 
+> <div align="center"><img class="bwsketch paleinv" src="img/how-to-use-katia-for-improving-katia-img-002.png" width="740"><br/></div>
+
+All in all, AI models are like kids: curious and obsessed by novelty! Aren't?!
+
++
+
 ## Related articles
 
 - [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md#?target=_blank) &nbsp; (2025-10-05)
-
++++++
 - [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
-
++++++
 - [Human knowledge and opinions challenge](the-human-knowledge-opinions-katia-module.md#?target=_blank) &nbsp; (2025-07-28)
-
++++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
 +
