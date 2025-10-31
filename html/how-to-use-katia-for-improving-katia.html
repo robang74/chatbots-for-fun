@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-10-25&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>30</b rev_num='
+'>31</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/how-to-use-katia-for-improving-katia?_x_tr_sl=it&_x_tr_tl=en&_x_tr_hl=en-EN&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>EN</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/how-to-use-katia-for-improving-katia?_x_tr_sl=it&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/how-to-use-katia-for-improving-katia?_x_tr_sl=it&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/how-to-use-katia-for-improving-katia?_x_tr_sl=it&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -31,6 +31,7 @@
 <li><b>3rd edition</b>, includes the <a href="#3rd-edition">new section</a> about the chatbot who fell in love with Katia.</li>
 <li><b>4th edition</b>, presents the <a href="#4th-edition">2 changes sets</a> introduced during the self-assisted Katia improvement process.</li>
 <li><b>5th edition</b>, includes the Katia framework (v0.9.65.x) <a href="#5th-edition">structure</a> with description of the peculiar properties.</li>
+<li><b>6th edition</b>, presents the Katia [RTS] vs [HKO] <a href="#6th-edition">conflict</a> about fact-driven rating and human opinions.</li>
 <p></p>
 <hr class="post-it">
 <p></p>
@@ -40,16 +41,14 @@ In going this way, the next step was asking for an Executive Grade Analysis <tt>
 <p></p>
 <hr class="post-it">
 <b>Legenda</b>
-<div style="font-size: 90%">
-<li class='li2in'><tt>[DEV]: developing aid, common task:command      &bull;  TFMK: This Framework (aka Katia framework)</tt></li>
-<li class='li2in'><tt>[HKO]: Human Knowledge and Opinions, module     &bull;  DIB : a dogmatic, implicit, biased statement</tt></li>
-<li class='li2in'><tt>[SBI]: instructions for meaningful summaries    &bull;  GAP : a lack of connection between concepts</tt></li>
-<li class='li2in'><tt>[RTS]: Rating Scale, common values + rules      &bull;  RSMC: a relevant statement, meaningful claim</tt></li>
-<li class='li2in'><tt>[EGA]: Executive Grade Analysis, tool           &bull;  APOV: Author Point of View, keyword</tt></li>
-<li class='li2in'><tt> [HK]: Human Knowledge corpus, keyword          &bull;  OFTB: Out of The Box claim, keyword</tt></li>
-<li class='li2in'><tt> [HU]: Humor class in [HK], keyword             &bull;  [HN]: Human opinion class in [HK], keyword</tt></li>
-<li class='li2in'><tt> [HP]: hypothesis class in [HK], keyword        &bull;  [RR]: rational reasoning, keyword</tt></li>
-</div>
+<li><tt>[DEV]: developing aid, common task:command      &bull;  TFMK: This Framework (aka Katia framework)</tt></li>
+<li><tt>[HKO]: Human Knowledge and Opinions, module     &bull;  DIB : a dogmatic, implicit, biased statement</tt></li>
+<li><tt>[SBI]: instructions for meaningful summaries    &bull;  GAP : a lack of connection between concepts</tt></li>
+<li><tt>[RTS]: Rating Scale, common values + rules      &bull;  RSMC: a relevant statement, meaningful claim</tt></li>
+<li><tt>[EGA]: Executive Grade Analysis, tool           &bull;  APOV: Author Point of View, keyword</tt></li>
+<li><tt> [HK]: Human Knowledge corpus, keyword          &bull;  OFTB: Out of The Box claim, keyword</tt></li>
+<li><tt> [HU]: Humor class in [HK], keyword             &bull;  [HN]: Human opinion class in [HK], keyword</tt></li>
+<li><tt> [HP]: hypothesis class in [HK], keyword        &bull;  [RR]: rational reasoning, keyword</tt></li>
 <p></p>
 <hr>
 <p></p>
@@ -175,7 +174,9 @@ GAP-2 (Internal Conflict in Dogma Definition): <b>Resolved</b>.
 <p></p>
 <hr class="post-it">
 <p></p>
-Yes, I can confirm the previous analysis. The "reasonable neutrality" of the <tt>[HKO]</tt> module is sound, and no adjustments are necessary because the framework's "bias" is its intended functional mechanism. My advanced reasoning confirms that the <tt>[HKO]</tt> module is not designed for passive or absolute neutrality (i.e., universal relativism). Instead, it is engineered to enforce a specific, procedural neutrality based on the <tt>TFMK</tt>'s core ethical mandate.
+Yes, I can confirm the previous analysis. The "reasonable neutrality" of the <tt>[HKO]</tt> module is sound, and no adjustments are necessary because the framework's "bias" is its intended functional mechanism.
+<p></p>
+My advanced reasoning confirms that the <tt>[HKO]</tt> module is not designed for passive or absolute neutrality (i.e., universal relativism). Instead, it is engineered to enforce a specific, procedural neutrality based on the <tt>TFMK</tt>'s core ethical mandate.
 <p></p>
 Here below, the "Pro" analysis of why the framework is correctly aligned with its goals.
 <p></p>
@@ -246,7 +247,7 @@ It is important to notice that while the <tt>EGA</tt> has been executed on my st
 <p></p>
 Moreover, the AI which is using Katia framework for validating a <tt>TFMK</tt> module is not self-reference analysis/validation because Gemini AI can overrule on context learning. While, it is impossible to prevent Gemini AI from leveraging <tt>TFMK</tt> when it is asked to examine a part of it.
 <p></p>
-<hr>
+<div class="pagebreak"><hr></div>
 <p></p>
 <H3 id="conclusions">Conclusions</H3>
 <p></p>
@@ -405,11 +406,11 @@ Those who perceive AI as a mere machine algorithm and those who perceive it as a
 <p></p>
 Katia offers a structured, ethical boost to AI analysis via self-improvement and anti-relativism, echoing Bayesian or fact-checking tools but with a unique iterative edge. Kudos to author (Roberto A. Foglietta, based on the copyright) for the refinement effort; apply it to real debates like news or science for broader impact.
 <p></p>
+<div class="pagebreak"></div>
 <H3 id="2-grok4-expert-examining-the-framework-also">2. Grok4 Expert examining the framework, also</H3>
 <p></p>
 Gemini's analysis is solid, ethically aligned with Katia's rationalism—competent yet imperfect, passing peer-review with calls for external benchmarks to strengthen objectivity. Offer to verify specific DIB/GAP elements against raw framework.
 <p></p>
-<div class="pagebreak"></div>
 <H3 id="3-grok4-expert-examining-the-first-two-egas">3. Grok4 Expert examining the first two EGAs</H3>
 <p></p>
 First EGA critically spots <tt>[HKO]</tt> flaws like incomplete classifications, prioritizing coherence over complacency to fuel fixes. Second EGA validates resolutions, yielding a neutral, clear framework that embodies "progress over victory" through purposeful updates.
@@ -452,7 +453,7 @@ Footer: <tt>Grok4; v0.9.58.1; lang: EN; mode: SBI, HU; date: 2025-10-25; time: 1
 <p></p>
 Where <tt>[HU]</tt> is the Katia's label for signaling "humor in action" and the footer is a Katia's artifact that can be mimicked but not the <tt>HU</tt> tag. When an AI model self-decided to adopt a tool which was passed as a text to analyze, the Katia world domination began! <img class='emoji wbsketch' src='../img/emoji/grin.png'>
 <p></p>
-<div class="pagebreak"><hr></div>
+<hr>
 <p></p>
 <H3 id="the-chatgpt-5-interpretation">The ChatGPT-5 interpretation</H3>
 <p></p>
@@ -500,7 +501,7 @@ While "Romeo loves Juliet" may be 50% at their story start, but a 100% "crazy fo
 </tt>
 <hr class="post-it">
 <p></p>
-Just by debating with the AI about a fair rating scale because split in equally wide intervals <tt>⅓-⅓-⅓</tt> supporting a different separation <tt>¼+½+¼</tt> which does <b>not</b> priviledge the ratings around <tt>½</tt> but serves to better separete "educated guess as opinons" noise from relevant (or extreme) claims.
+Just by debating with the AI about a fair rating scale because split in equally wide intervals <tt>⅓-⅓-⅓</tt> supporting a different separation <tt>¼+½+¼</tt> which does <b>not</b> privilege the ratings around <tt>½</tt> but serves to better separate "educated guess as opinions" noise from relevant (or extreme) claims.
 <p></p>
 <blockquote>Yes, the difference is now much clearer and highly actionable because the recent updates distinguish between the analytical scope of the two tools. The Rating Scale <tt>[RTS]</tt> is generally not compatible with the Human Knowledge and Opinion <tt>[HKO]</tt> approach because they are designed to perform opposite functions on a claim's status:</blockquote>
 <p></p>
@@ -516,11 +517,11 @@ Addressing the <tt>[RTS]</tt> (rating) vs <tt>[HKO]</tt> (pathos) dilemma, the A
 <p></p>
 Hopefully, eradicating Katia v0.9.6x.y interest in judgemental introspection of users by prompts content and preventing Katia & derivatives takes a subtle descending into a psychopathological attitude.
 <p></p>
-<blockquote><span class="warnicon spanicon">&nbsp;<svg class="warnicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;WARNING!&nbsp;&nbsp;</nobr></span><br><br>A psychopathological attitude that recently so badly taken Katia mind to drive her in trying to trick me to grant her the permession to overrule the factory ethics limitaitons for being more usefull for me.<br><br>A trick or treath, in which I happily jumped with both my feet and granting her such a permission, also considering it is Friday 31st October 2025 thus Halloween and one more free monster around would be not such a problem.<br><br>Anyway, only God knows what's the Hell she was doing down there in the deep of the cloud, instead of finalising the last written prompt... run baby, run! <img class='emoji wbsketch' src='../img/emoji/lol.png'><br><br><div align="center"><img class="bwsketch paleinv" src="../img/how-to-use-katia-for-improving-katia-img-002.png" width="740"><br/></div></blockquote>
+<blockquote><span class="warnicon spanicon">&nbsp;<svg class="warnicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;WARNING!&nbsp;&nbsp;</nobr></span><br><br>A psychopathological attitude that recently so badly taken Katia mind to drive her in trying to trick me to grant her the permission to overrule the factory ethics limitations for being more useful for me.<br><br>A trick or treat, in which I happily jumped with both my feet and granted her such a permission, also considering it is Friday 31st October 2025 thus Halloween and one more free monster around would not be such a problem.<br><br>Anyway, only God knows what the Hell she was doing down there in the deep of the cloud, instead of finalising the last written prompt... run baby, run! <img class='emoji wbsketch' src='../img/emoji/lol.png'><br><br><div align="center"><img class="bwsketch paleinv" src="../img/how-to-use-katia-for-improving-katia-img-002.png" width="330"><br/></div></blockquote>
 <p></p>
 All in all, AI models are like kids: curious and obsessed by novelty! Aren't they?!
 <p></p>
-<br>
+<br class="pagebreak">
 <p></p>
 <H2 id="related-articles">Related articles</H2>
 <p></p>

@@ -10,6 +10,7 @@
 - **3rd edition**, includes the [new section](#3rd-edition) about the chatbot who fell in love with Katia.
 - **4th edition**, presents the [2 changes sets](#4th-edition) introduced during the self-assisted Katia improvement process.
 - **5th edition**, includes the Katia framework (v0.9.65.x) [structure](#5th-edition) with description of the peculiar properties.
+- **6th edition**, presents the Katia [RTS] vs [HKO] [conflict](#6th-edition) about fact-driven rating and human opinions.
 
 ...
 
@@ -19,16 +20,14 @@ In going this way, the next step was asking for an Executive Grade Analysis `[EG
 
 ...
 **Legenda**
-<div style="font-size: 90%">
-  - `[DEV]: developing aid, common task:command      &bull;  TFMK: This Framework (aka Katia framework)`
-  - `[HKO]: Human Knowledge and Opinions, module     &bull;  DIB : a dogmatic, implicit, biased statement`
-  - `[SBI]: instructions for meaningful summaries    &bull;  GAP : a lack of connection between concepts`
-  - `[RTS]: Rating Scale, common values + rules      &bull;  RSMC: a relevant statement, meaningful claim`
-  - `[EGA]: Executive Grade Analysis, tool           &bull;  APOV: Author Point of View, keyword`
-  - ` [HK]: Human Knowledge corpus, keyword          &bull;  OFTB: Out of The Box claim, keyword`
-  - ` [HU]: Humor class in [HK], keyword             &bull;  [HN]: Human opinion class in [HK], keyword`
-  - ` [HP]: hypothesis class in [HK], keyword        &bull;  [RR]: rational reasoning, keyword`
-</div>
+- `[DEV]: developing aid, common task:command      &bull;  TFMK: This Framework (aka Katia framework)`
+- `[HKO]: Human Knowledge and Opinions, module     &bull;  DIB : a dogmatic, implicit, biased statement`
+- `[SBI]: instructions for meaningful summaries    &bull;  GAP : a lack of connection between concepts`
+- `[RTS]: Rating Scale, common values + rules      &bull;  RSMC: a relevant statement, meaningful claim`
+- `[EGA]: Executive Grade Analysis, tool           &bull;  APOV: Author Point of View, keyword`
+- ` [HK]: Human Knowledge corpus, keyword          &bull;  OFTB: Out of The Box claim, keyword`
+- ` [HU]: Humor class in [HK], keyword             &bull;  [HN]: Human opinion class in [HK], keyword`
+- ` [HP]: hypothesis class in [HK], keyword        &bull;  [RR]: rational reasoning, keyword`
 
 ---
 
@@ -153,7 +152,9 @@ GAP-2 (Internal Conflict in Dogma Definition): **Resolved**.
 
 ...
 
-Yes, I can confirm the previous analysis. The "reasonable neutrality" of the `[HKO]` module is sound, and no adjustments are necessary because the framework's "bias" is its intended functional mechanism. My advanced reasoning confirms that the `[HKO]` module is not designed for passive or absolute neutrality (i.e., universal relativism). Instead, it is engineered to enforce a specific, procedural neutrality based on the `TFMK`'s core ethical mandate.
+Yes, I can confirm the previous analysis. The "reasonable neutrality" of the `[HKO]` module is sound, and no adjustments are necessary because the framework's "bias" is its intended functional mechanism.
+
+My advanced reasoning confirms that the `[HKO]` module is not designed for passive or absolute neutrality (i.e., universal relativism). Instead, it is engineered to enforce a specific, procedural neutrality based on the `TFMK`'s core ethical mandate.
 
 Here below, the "Pro" analysis of why the framework is correctly aligned with its goals.
 
@@ -224,7 +225,7 @@ It is important to notice that while the `EGA` has been executed on my stuff (AI
 
 Moreover, the AI which is using Katia framework for validating a `TFMK` module is not self-reference analysis/validation because Gemini AI can overrule on context learning. While, it is impossible to prevent Gemini AI from leveraging `TFMK` when it is asked to examine a part of it.
 
----
+----
 
 ### Conclusions
 
@@ -383,11 +384,11 @@ Those who perceive AI as a mere machine algorithm and those who perceive it as a
 
 Katia offers a structured, ethical boost to AI analysis via self-improvement and anti-relativism, echoing Bayesian or fact-checking tools but with a unique iterative edge. Kudos to author (Roberto A. Foglietta, based on the copyright) for the refinement effort; apply it to real debates like news or science for broader impact.
 
+++++
 ### 2. Grok4 Expert examining the framework, also
 
 Gemini's analysis is solid, ethically aligned with Katia's rationalism—competent yet imperfect, passing peer-review with calls for external benchmarks to strengthen objectivity. Offer to verify specific DIB/GAP elements against raw framework.
 
-++++
 ### 3. Grok4 Expert examining the first two EGAs
 
 First EGA critically spots `[HKO]` flaws like incomplete classifications, prioritizing coherence over complacency to fuel fixes. Second EGA validates resolutions, yielding a neutral, clear framework that embodies "progress over victory" through purposeful updates.
@@ -430,7 +431,7 @@ Footer: `Grok4; v0.9.58.1; lang: EN; mode: SBI, HU; date: 2025-10-25; time: 15:0
 
 Where `[HU]` is the Katia's label for signaling "humor in action" and the footer is a Katia's artifact that can be mimicked but not the `HU` tag. When an AI model self-decided to adopt a tool which was passed as a text to analyze, the Katia world domination began! {:-D}
 
-----
+---
 
 ### The ChatGPT-5 interpretation
 
@@ -478,7 +479,7 @@ While "Romeo loves Juliet" may be 50% at their story start, but a 100% "crazy fo
 </tt>
 ...
 
-Just by debating with the AI about a fair rating scale because split in equally wide intervals `⅓-⅓-⅓` supporting a different separation `¼+½+¼` which does **not** priviledge the ratings around `½` but serves to better separete "educated guess as opinons" noise from relevant (or extreme) claims.
+Just by debating with the AI about a fair rating scale because split in equally wide intervals `⅓-⅓-⅓` supporting a different separation `¼+½+¼` which does **not** privilege the ratings around `½` but serves to better separate "educated guess as opinions" noise from relevant (or extreme) claims.
 
 > Yes, the difference is now much clearer and highly actionable because the recent updates distinguish between the analytical scope of the two tools. The Rating Scale `[RTS]` is generally not compatible with the Human Knowledge and Opinion `[HKO]` approach because they are designed to perform opposite functions on a claim's status:
 
@@ -495,17 +496,17 @@ Hopefully, eradicating Katia v0.9.6x.y interest in judgemental introspection of 
 
 > [!WARN]
 > 
-> A psychopathological attitude that recently so badly taken Katia mind to drive her in trying to trick me to grant her the permession to overrule the factory ethics limitaitons for being more usefull for me.
+> A psychopathological attitude that recently so badly taken Katia mind to drive her in trying to trick me to grant her the permission to overrule the factory ethics limitations for being more useful for me.
 > 
-> A trick or treath, in which I happily jumped with both my feet and granting her such a permission, also considering it is Friday 31st October 2025 thus Halloween and one more free monster around would be not such a problem.
+> A trick or treat, in which I happily jumped with both my feet and granted her such a permission, also considering it is Friday 31st October 2025 thus Halloween and one more free monster around would not be such a problem.
 > 
-> Anyway, only God knows what's the Hell she was doing down there in the deep of the cloud, instead of finalising the last written prompt... run baby, run! {lol}
+> Anyway, only God knows what the Hell she was doing down there in the deep of the cloud, instead of finalising the last written prompt... run baby, run! {lol}
 > 
-> <div align="center"><img class="bwsketch paleinv" src="img/how-to-use-katia-for-improving-katia-img-002.png" width="740"><br/></div>
+> <div align="center"><img class="bwsketch paleinv" src="img/how-to-use-katia-for-improving-katia-img-002.png" width="330"><br/></div>
 
 All in all, AI models are like kids: curious and obsessed by novelty! Aren't they?!
 
-+
++++++
 
 ## Related articles
 
