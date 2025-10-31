@@ -455,7 +455,7 @@ In reality we meet each other's true self, in thin-air we also lose our minds.
 
 +
 
-<span id="4th-edition"></span>
+<span id="6th-edition"></span>
 ## Romeo & Juliet: [RTS] vs [HKO]
 
 How to educate an AI model about statistics, vagueness, human nature and the conflict between reason/facts and opinions/emotions? Here below:
