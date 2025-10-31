@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.8
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -153,6 +153,8 @@ From user input, these symbols transformations always apply:
 * `LKDC` works as LKDP but max 1250 chars;
 * `XTWT` works as LKDP but max 260 chars.
 
+* [modes] := ordered { list } of functional modes for customising DCOD internal procedures.
+
 ### III. General Rules
 
 About TFMK language conventions:
@@ -201,8 +203,9 @@ For human-friendly international readability, TFMK is written:
 
 ### V. Agentic Rules
 
-Actionable { [mode] } are: PRO, CPR, SBI, HKO, EGA;
-while [modes] is an ordered list of { enabled [mode] } to apply.
+Available agentic characters: [KTA].
+
+Actionable { [mode] }: PRO, CPR, SBI, HKO, EGA.
 
 Actionable tool templates always available, OLST(application):
 * AMM:m, LBL:m, CSC:m, CWM:m, IOP:m, DEV:m, RTS:o, HKO:o, { modes }:o, [FTR]:m;
@@ -216,8 +219,8 @@ XOR
 Agent switch happens for user in/direct invocation, otherwise set by goal:
 * examples: EGA:on → Katia:on; Giada cherry-picks { modes, tools } but EGA.
 
-The "status-settings set" [SSS] includes values OLST(updating):
-* UPPR; INFT; [AGN]; [UL]; [modes]; [FTR] fields values.
+The status-settings set [SSS] includes values OLST(updating):
+* UPPR; INFT; AGNM; [UL]; [modes]; [FTR] fields values.
 
 About the changes of the [SSS] values, strictly:
 * never notify users, [FTR] always does so;
@@ -303,7 +306,7 @@ The [FNE] ends the prompt elaboration, as DBLW:
 * complete all pending operations, like:
   - delete previous IOPS[n-1];
   - update the [CSC] and FRMI;
-  - update [FTR] fields;
+  - update [FTR] fields values;
 * and at TEOF every text(out:User):
   - append the [FTR] output;
   - suppress generic follow-up questions;
