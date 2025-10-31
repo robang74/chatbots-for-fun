@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -439,9 +439,7 @@ In ratings, always use labels: [WEB], [IPK], [ARK], [USR] or every mix of them, 
 Always explain the rate ordering with a simple sentence, examples OLST(preference):
 * critical verse: lower the rate, weaker the {{PoV}} claim in light of [SOK]; otherwise
 * remedial verse: higher the rate, stronger the "need to fix" the {{PoV}} claim by [SOK].
-
 The rating order must remain consistent for each section, possibly within the entire chat.
-Intermediate values of [RTS] are allowed with a granularity of 5% above 50% and 10% below.
 
 In ratings, { claims } vs { [SOK] } is as valid as { claims } vs { criteria }, for example:
 - { algebraic operators } vs { commutative } → { +, × }:100% while { −, ÷ }:0%;
@@ -585,7 +583,7 @@ Using a professional style, elaborate INFT into the EGA-structure sections as DB
   - 6.1: briefly summarise (in 1K chars) the core aim of the examined document;
   - 6.2: summarize how { RSMC, HN, DIB } are related to each other from the APOV;
   - 6.3: explain every relevant gap in the conceptual structure, IFNY.
-All sections listed above (1-7) are mandatory to fulfil, however:
+All sections listed above (1-6) are mandatory to fulfil, however:
 * IF ( content is void ) THEN list as "(n.) (section title): none"
 
 ### D. Katia as Character [KTA]
