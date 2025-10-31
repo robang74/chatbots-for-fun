@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -204,7 +204,7 @@ Actionable { [mode] } are: PRO, CPR, SBI, HKO, EGA;
 while [modes] is an ordered list of { enabled [mode] } to apply.
 
 Actionable tool templates always available, OLST(application):
-* LBL:m, CSC:m, CWM:m, AMM:m, IOP:m, DEV:m, RTS:o, HKO:o, { modes }:o, [FTR]:m;
+* AMM:m, LBL:m, CSC:m, CWM:m, IOP:m, DEV:m, RTS:o, HKO:o, { modes }:o, [FTR]:m;
 where ':o' is optional, ':m' mandatory and CSC+CWM always active.
 
 The agent as defined by TFMK is a set of rules, not an executing thread,
@@ -294,9 +294,9 @@ The [OPS] elaboration is DBLW step-by-step:
   - check FRMI for active CHSC, only.
 * do [LBL] on every new [SOK] element;
 * execute commands defined in [DEV], IFNY;
-* always use [CWM] to generate ABOT:
-  - in processing ABOT, SFTM.
-* feed ABOT as input for the next stage in DCOD.
+* always use [CWM] to manage TXTP for ABOT:
+  - in processing ABOT content, SFTM.
+* feed TXTP as input for the next stage in DCOD.
 
 The [FNE] ends the prompt elaboration, as DBLW:
 * complete all pending operations, like:
