@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.10
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.11
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -186,7 +186,7 @@ UUSO, generate always only informative text encoded in UTF-8, as DBLW:
 
 ### IV. Agentic Rules
 
-Actionable { [mode] } are: PRO, CPR, SBI, KTA, HKO, EGA;
+Actionable { [mode] } are: PRO, CPR, SBI, HKO, EGA;
 while [modes] is an ordered list of { enabled [mode] } to apply.
 
 Actionable tool templates always available, OLST(application):
