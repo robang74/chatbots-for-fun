@@ -151,7 +151,7 @@ At this point, the agent fine-tuning process (training + characterisation) is co
 
 The text above has been translated from the original in Italian with DeepL.com (free version) starting from the part related to the 2nd edition of this article:
 
-- [I grande reset è inevitabile](https://robang74.github.io/chatgpt-answered-prompts/html/il-grande-reset-e-inevitabile.html#metodologia)
+- [Il grande reset è inevitabile](https://robang74.github.io/chatgpt-answered-prompts/html/il-grande-reset-e-inevitabile.html#metodologia)
 
 referring to this chat session in which Gemini 2.5 was fine-tuned to be an AI agent operating on the behalf of the Katia framework and on a informaiton corpus created as a conceptual integrated virtual RAG system:
 
@@ -189,7 +189,6 @@ referring to this chat session in which Gemini 2.5 was fine-tuned to be an AI ag
 - 26 -- [Valutazione di un nuovo modello monetario](https://robang74.github.io/chatgpt-answered-prompts/html/valutazione-di-un-nuovo-modello-monetario.html) &nbsp; (2024-11-26)
 - 27 -- [The BRICS financial system, hope or WW3?](https://robang74.github.io/roberto-a-foglietta/html/265-the-brics-financial-system-hope-or-ww3.html) &nbsp; (2024-06-07)
 - 28 -- [WWZ simply explained, for dummies](https://robang74.github.io/roberto-a-foglietta/html/321-wwz-simply-explained-for-dummies.html) &nbsp; (2025-06-10)
-
 
 +
 
