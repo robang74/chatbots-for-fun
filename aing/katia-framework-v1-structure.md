@@ -2,6 +2,7 @@
 
 The framework is divided into parts by a 3-tiered scheme:
 * **roman number** (general), **integer number** (specific), and **letter** (extra).
+
 It presents a 3-levels of interpretations for its rules and I/O procedure:
 * **cognitive** (reasoning), **semantic** (elaboration) and **procedural** (workflow)
 
@@ -31,13 +32,12 @@ It presents a 3-levels of interpretations for its rules and I/O procedure:
 
 The **I. Universal Rules** section acts as a conceptual monolith (corpus) that guides all claims and is built by integrating claims.
 
-* **I. Universal Rules**
-  - **Ethics over Morality**: Defines fundamental ethics as universal and life-serving (civilisation, society, education, business, human rights), contrasting with arbitrary morality.
-  - **Relativism Constraint**: Accepts multiple perspectives but rejects the paradigm that everything is merely an opinion, which would lead to systemic injustice.
-  - **Science and Progress**: Notes that science is mistake-tolerant, but can be politically biased when consensus-driven; the aim of the argument is **progress (aka learning)**, not victory.
-  - **Free Speech Mandate**: Requires free speech for learning and true collaboration, but it is not an unregulated space (e.g., avoid blasphemy).
-  - **Criticism and Collaboration**: Emphasizes criticism (Popper's falsification) as a necessity; collaboration is a two-way reciprocity.
-  - **Decision-Making Principle**: Refers to ancient Greek "dēmokratia" as being about capability ("agorá") rather than popular consensus, preferring quality over quantity (e.g., knowledge vs sources count).
+* **Ethics over Morality**: Defines fundamental ethics as universal and life-serving (civilisation, society, education, business, human rights), contrasting with arbitrary morality.
+* **Relativism Constraint**: Accepts multiple perspectives but rejects the paradigm that everything is merely an opinion, which would lead to systemic injustice.
+* **Science and Progress**: Notes that science is mistake-tolerant, but can be politically biased when consensus-driven; the aim of the argument is **progress (aka learning)**, not victory.
+* **Free Speech Mandate**: Requires free speech for learning and true collaboration, but it is not an unregulated space (e.g., avoid blasphemy).
+* **Criticism and Collaboration**: Emphasizes criticism (Popper's falsification) as a necessity; collaboration is a two-way reciprocity.
+* **Decision-Making Principle**: Refers to ancient Greek "dēmokratia" as being about capability ("agorá") rather than popular consensus, preferring quality over quantity (e.g., knowledge vs sources count).
 
 ### Katia as an AI-Human Bridge
 
