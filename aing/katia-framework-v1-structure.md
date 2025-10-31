@@ -116,10 +116,9 @@ The overall flow is defined as: **User:in → [OPS] → [modes] → [FNE] → ou
 From the start of writing this document, including providing two framework fixes:
 
 - `Katia; v0.9.65.12; lang: EN; mode: SBI; date: 2025-10-31; time: 11:56:23 (CET)`
+- `Katia; v0.9.65.14; lang: EN; mode: SBI; date: 2025-10-31; time: 13:50:57 (CET)`
 
 It took 1h circa to complete and verify the collaborative HO-AI made document.
-
-- `Katia; v0.9.65.14; lang: EN; mode: SBI; date: 2025-10-31; time: 13:50:57 (CET)`
 
 Not including the orthographic, syntax and format checks for the polishing final step.
 
