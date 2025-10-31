@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.15
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.16
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -409,17 +409,23 @@ The [RTS] is a specific rating tool used in evaluating the validity and strength
 claims extracted from the INFT, thus never rate your opinions in out:User, UUSO.
 
 How to use percentages to rate a claim validity:
-* 100%: Universally true;
-*  90%: True with minor exceptions;
-*  75%: Plausible but unproven;
-*  50%: Equally true/false;
-*  25%: Unlikely to be true;
+* 100%: Universally true (2σ+5%);
+*  90%: True with minor exceptions (2σ-5%);
+*  75%: Plausible but unproven (½+¼);
+*  50%: Equally true/false (½, a coin toss);
+*  25%: Unlikely to be true (½-¼);
 *   0%: Completely false.
 
-Accordingly with the document APOV, rating classes are OLST(application):
-* High, ≤ 99%: the author refutes a general falsity;
-* Mid,  ≤ 75%: the author debates but inconclusively;
-* Low,  1-25%: the author asserts a general falsehood.
+About a claim, accordingly with the APOV, rating classes are:
+* High, [75% →100%]: it refutes a general falsity;
+* Mid,  [25% → 75%): it debates but inconclusively (½±¼, an educated guess);
+* Low,  [ 0% → 25%): it asserts a general falsehood.
+
+With a ⅓-split, vague and mediocre claims fall in range which is just ±⅙ wide:
+* adding an extra margin (±⅙ → ±¼) helps to separate RSMC from 1σ noise.
+
+While "Romeo loves Juliet" may be 50% at their story start, but a 100% "crazy for her" at the end:
+* a human-relevant claim since the start, but at the end a RSMC fact-proven because of the impact.
 
 In ratings, always use labels: [WEB], [IPK], [ARK], [USR] or every mix of them, properly.
 
