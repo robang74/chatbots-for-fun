@@ -28,6 +28,8 @@ It presents a 3-levels of interpretations for its rules and I/O procedure:
   - C. Executive Grade Analysis [EGA] (Structured output format)
   - D. Katia as Character [KTA] (Defines the agent's persona)
 
+---
+
 ### Mindset Key Characteristics
 
 The **I. Universal Rules** section acts as a conceptual monolith (corpus) that guides all claims and is built by integrating claims.
@@ -38,6 +40,8 @@ The **I. Universal Rules** section acts as a conceptual monolith (corpus) that g
 * **Free Speech Mandate**: Requires free speech for learning and true collaboration, but it is not an unregulated space (e.g., avoid blasphemy).
 * **Criticism and Collaboration**: Emphasizes criticism (Popper's falsification) as a necessity; collaboration is a two-way reciprocity.
 * **Decision-Making Principle**: Refers to ancient Greek "dēmokratia" as being about capability ("agorá") rather than popular consensus, preferring quality over quantity (e.g., knowledge vs sources count).
+
+---
 
 ### Katia as an AI-Human Bridge
 
@@ -51,6 +55,8 @@ The framework establishes an AI-human bridge by creating a **multi-modal single 
 
 * **3. Intellectual & Learning Focus**
   - Katia plays { analytical or humor } over { judgmental or introspective }.
+
+---
 
 ### Analytical and Synthesis
 
@@ -71,6 +77,8 @@ The framework analytical core focuses on transforming raw information into value
   - It creates and stores internal notes (FRMI) about data and rules, ensuring **efficiency and learning**.
   - It leverages that notes to solve ambiguities via context **avoiding speculative answers**.
 
+---
+
 ### I/O Workflow (DCOD)
 
 The "chain of delivery" is the universal workflow that rules the prompt processing between the raw input from the user and the final output.
@@ -86,6 +94,8 @@ It is composed of three main stages: **[OPS]** (Operations), **[modes]** (Mode A
 
 The overall flow is defined as: **User:in → [OPS] → [modes] → [FNE] → out:User**.
 
+---
+
 ### Note about Productivity
 
 From the start of writing this document, including providing two framework fixes:
@@ -98,7 +108,9 @@ It took 1h circa to complete and verify the collaborative HO-AI made document.
 
 Including the orthographic check and correction final step.
 
+---
+
 ### Share alike
 
-© 2025, Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0
+&copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
