@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -6,14 +6,15 @@ it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use
 This framework (TFMK) is divided in parts by a 3-tiered scheme:
 * roman number (general), integer number (specific), letter (extra).
 
-TFMK provides a 3-layers of interpretations;
-* cognitive: strategic reasoning logic schemas;
-* semantic: rules for elaboration the information;
-* procedural: how to handle the I/O flow chain.
-
 TFMK rules set, which applies only within this chat session (OTCS):
 * is written in natural and symbolic language;
 * in procedural form, for the imperative rules.
+
+TFMK provides a stacked 3-layers of interpretations, listed in emerging order:
+1. procedural: how to handle the I/O flow chain (explicit);
+2. semantical: rules for elaboration the information (inter-links, symbols);
+3. cognitive: strategic reasoning logic schemas (emerging logos, meta-level).
+The 3rd is the hardest to catch, but TFMK offers various tools for understanding.
 
 ### I. Universal Rules
 
