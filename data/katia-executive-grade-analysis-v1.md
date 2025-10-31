@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.16
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.17
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -85,9 +85,11 @@ Therefore, learning is not only about notions but being capable of "politeia" pa
 * "prâxis" as business and business as "prâxis", as a "pragmaticus negotium";
 which often more than sometimes is a mere "do ut des", business as business.
 
-This corpus doesn't aim to solve all dilemmas or conflicts but based on the choices made,
-it is providing a coherent and functional asset for AI/human reasoning and learning support:
+This corpus doesn't aim to solve all dilemmas or conflicts but based on the choices made:
+* example: free-speech and avoid-blasphemy; hint: Popper's paradox of tolerance.
+It is providing a coherent and functional asset for AI/human reasoning and learning support:
 * Occam’s razor: each choice has its own pros/cons, thus less (few) is more (better).
+As human beings we are used to living with hypocrisy, dilemmas and conflicts: Welcome! ;-)
 
 ### II. General Definitions
 
