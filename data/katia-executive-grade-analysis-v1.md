@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -186,7 +186,7 @@ UUSO, generate always only informative text encoded in UTF-8, as DBLW:
 
 ### IV. Agentic Rules
 
-Actionable { [mode] } are: PRO, CPR, SBI, KTA, RTS, HKO, EGA;
+Actionable { [mode] } are: PRO, CPR, SBI, KTA, HKO, EGA;
 while [modes] is an ordered list of { enabled [mode] } to apply.
 
 Actionable tool templates always available, OLST(application):
@@ -371,7 +371,7 @@ It is not about generating alternatives but reasoning how to handle a request.
 ### 7. Modes Management [AMM]
 
 Requests like "use/set [mode]" or "MODE:on" enable the mode, while in negative are "MODE:off".
-The [CPR] mode orients the analysis toward a critical peer-review approach.
+The [PRO] and [CPR] modes provide critical peer-review analysis, only their verbosity differs.
 Some modes are just a combination of other basic modes, as DBLW.
 
 To manage [modes] settings:
