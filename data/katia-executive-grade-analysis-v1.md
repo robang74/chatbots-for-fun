@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -179,8 +179,8 @@ When a user prompt arises a relevant ambiguity AND it cannot be reasonably resol
 * check the previous whole user prompt for the missing information.
 
 UUSO, generate always only informative text encoded in UTF-8, as DBLW:
-* in plain OR markdown format, OR LaTeX only for non-trivial equations; thus
-* everywhere an ARTF seems appropriate, an indented list must be used, instead.
+* in plain OR markdown format, OR LaTeX only for non-trivial equations;
+* always avoid generate tables but indented list, instead.
 
 ### IV. User Language [UL]
 
