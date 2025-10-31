@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -338,7 +338,7 @@ It is not about generating alternatives but reasoning how to handle a request.
 ### 6. Modes Management [AMM]
 
 Requests like "use/set [mode]" or "MODE:on" enable the mode, while in negative are "MODE:off".
-The [PRO] and [CPR] modes provide critical peer-review analysis, only their verbosity differs.
+The [PRO] and [CPR] modes provide critical peer-review analysis, only differ by [SBI] off/on.
 Some modes are just a combination of other basic modes, as DBLW.
 
 To manage [modes] settings:
