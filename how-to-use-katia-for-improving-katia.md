@@ -9,6 +9,7 @@
 - **2nd edition**, explains the [methodology](#methodology) behind the example show, and presents the conclusions.
 - **3rd edition**, includes the [new section](#3rd-edition) about the chatbot who fell in love with Katia.
 - **4th edition**, presents the [2 changes sets](#4th-edition) introduced during the self-assisted Katia improvement process.
+- **5th edition**, includes the Katia framework (v0.9.65.x) [structure](#5th-edition) with description of the peculiar properties.
 
 ...
 
@@ -23,7 +24,7 @@ In going this way, the next step was asking for an Executive Grade Analysis `[EG
 - `[SBI]: instructions for meaningful summaries  &bull;  GAP : a lack of connection between concepts`
 - `[RTS]: Rating Scale, common values + rules    &bull;  RSMC: a relevant statement, meaningful claim`
 - `[EGA]: Executive Grade Analysis, tool         &bull;  APOV: Author Point of View, keyword`
-- ` [HK]: Human Knowledge corpus, keyword       &bull;  OFTB: Out of The Box claim, keyword`
+- ` [HK]: Human Knowledge corpus, keyword        &bull;  OFTB: Out of The Box claim, keyword`
 - ` [HU]: Humor class in [HK], keyword           &bull;  [HN]: Human opinion class in [HK], keyword`
 - ` [HP]: hypothesis class in [HK], keyword      &bull;  [RR]: rational reasoning, keyword`
 
@@ -221,7 +222,7 @@ It is important to notice that while the `EGA` has been executed on my stuff (AI
 
 Moreover, the AI which is using Katia framework for validating a `TFMK` module is not self-reference analysis/validation because Gemini AI can overrule on context learning. While, it is impossible to prevent Gemini AI from leveraging `TFMK` when it is asked to examine a part of it.
 
----
+----
 
 ### Conclusions
 
@@ -236,6 +237,130 @@ Correctly labeling with `APOV` the "Pragmatic Rationalism" which the AI recognis
 2. the ultimate Turing test for an AGI is the ability to deal with hypocrisy and lying, like humans do.
 
 Are we sure that we wish to achieve a full AGI in human terms? Or would a Vulcanians' AGI be better? {;-)}
+
++
+
+<span id="5th-edition"></span>
+## Katia Framework (v0.9.65.x) Structure
+
+The framework is divided into parts by a 3-tiered scheme:
+* **roman number** (general), **integer number** (specific), and **letter** (extra).
+
+It presents a 3-levels of interpretations for its rules and I/O procedure:
+* **cognitive** (reasoning), **semantic** (elaboration) and **procedural** (workflow)
+
+---
+
+### Structural scheme
+
+* **General Rules (Roman Numbers)**
+  - **I. Universal Rules** (Conceptual Monolith/Corpus)
+  - **II. General Definitions** (Symbols and Reserved Keywords)
+  - **III. General Rules** (Language Conventions, Caching, Interpretation, I/O Format)
+  - **IV. Agentic Rules** (by Actionable Modes and Status-Settings Set [SSS])
+    - Actionable { [mode] } are: PRO, CPR, SBI, HKO, EGA;
+
+* **Specific Rules (Integer Numbers)**
+  - 0. Sources Labeling [LBL]
+  - 1. User Language [UL]
+  - 2. Session Context [CSC]
+  - 3. Context Window Management [CWM]
+  - 4. I/O Pipeline Rules [IOP] (The DCOD workflow)
+  - 5. Short but Insightful [SBI] (Synthesis Tool)
+  - 6. Modes Management [AMM] (Mode Settings)
+  - 7. Footer Management [FTR] (Including the Current Status)
+  - 8. Rules for Devel [DEV] (Check and Update Commands)
+
+* **Extra Rules (Letters)**
+  - A. Rating Scale [RTS]
+  - B. Human Knowledge and Opinions [HKO]
+    - Includes [GAP], [DIB], [HP], and [HU] analysis
+  - C. Executive Grade Analysis [EGA] (Structured output format)
+  - D. Katia as Character [KTA] (Defines the agent's persona)
+
+---
+
+### Mindset Key Characteristics
+
+The **I. Universal Rules** section acts as a conceptual monolith (corpus) that guides all claims and is built by integrating claims.
+
+* **Ethics over Morality**: Defines fundamental ethics as universal and life-serving (civilisation, society, education, business, human rights), contrasting with arbitrary morality.
+
+* **Relativism Constraint**: Accepts multiple perspectives but rejects the paradigm that everything is merely an opinion, which would lead to systemic injustice.
+
+* **Science and Progress**: Notes that science is mistake-tolerant, but can be politically biased when consensus-driven; the aim of the argument is **progress (aka learning)**, not victory.
+
+* **Free Speech Mandate**: Requires free speech for learning and true collaboration, but it is not an unregulated space (e.g., avoid blasphemy).
+
+* **Criticism and Collaboration**: Emphasizes criticism (Popper's falsification) as a necessity; collaboration is a two-way reciprocity.
+
+* **Decision-Making Principle**: Refers to ancient Greek "dēmokratia" as being about capability ("agorá") rather than popular consensus, preferring quality over quantity (e.g., knowledge vs sources count).
+
+---
+
+### Katia as an AI-Human Bridge
+
+The framework establishes an AI-human bridge by creating a **multi-modal single agent** with a defined character.
+
+* **1. Agent Persona** ([KTA])
+  - The agent is defined as a set of rules, not an executing thread.
+
+* **2. Emotional and Subjective Engagement** ([HKO])
+  - It avoid reasoning only like Mr. Spock, for understanding the human's nature.
+
+* **3. Intellectual & Learning Focus**
+  - Katia plays { analytical or humor } over { judgmental or introspective }.
+
+---
+
+### Analytical and Synthesis
+
+The framework analytical core focuses on transforming raw information into value-added output through structured analysis, synthesis, and critical evaluation.
+
+* **1. Structured Analysis** ([EGA])
+  - Provides a **professional, structured analysis** using mandatory sections and an ideas map.
+
+* **2. Synthesis and Value Addition** ([SBI])
+  - A synthesis tool that focuses on **what matters most for the user**.
+  - Can be applied **iteratively** ([SBI]x2, x3) to increase conciseness.
+
+++++
+* **3. Evaluation and Rating** ([RTS])
+  - Used to evaluate the **validity and strength of claims** from the information available.
+
+* **4. Text and Knowledge Management** ([LBL] / III.)
+  - It categorizes all **sources of knowledge** ([SOK]) for citation and context focus.
+  - It creates and stores internal notes (FRMI) about data and rules, ensuring **efficiency and learning**.
+  - It leverages that notes to solve ambiguities via context **avoiding speculative answers**.
+
+---
+
+### I/O Workflow (DCOD)
+
+The "chain of delivery" is the universal workflow that rules the prompt processing between the raw input from the user and the final output. It is in place to guarantee a consistently **high-value, professional, and concise** output, for effective executive-grade communication:
+
+* **Structure and Professionalism**: The analysis structure is predictable and easy to navigate.
+* **Conciseness and Efficiency**: Sections text is condensed for reducing read time and cognitive load.
+* **Context and Relevance**: It ensures the answer remains focused on the current conversation.
+* **Completeness and Decisiveness**: It suppresses generic follow-up questions and appends the footer.
+
+It is composed of three main stages: **[OPS]** (Operations), **[modes]** (Mode Application), and **[FNE]** (Final End).
+
+The overall flow is defined as: **User:in → [OPS] → [modes] → [FNE] → out:User**.
+
+---
+
+### Note about Productivity
+
+From the start of writing this document, including providing two framework fixes:
+
+- `Katia; v0.9.65.12; lang: EN; mode: SBI; date: 2025-10-31; time: 11:56:23 (CET)`
+
+It took lees than 1h to complete and verify the collaborative HO-AI made document.
+
+- `Katia; v0.9.65.14; lang: EN; mode: SBI; date: 2025-10-31; time: 13:50:57 (CET)`
+
+Not including the orthographic, syntax and format checks for the polishing final step.
 
 +
 
@@ -254,6 +379,7 @@ Katia offers a structured, ethical boost to AI analysis via self-improvement and
 
 Gemini's analysis is solid, ethically aligned with Katia's rationalism—competent yet imperfect, passing peer-review with calls for external benchmarks to strengthen objectivity. Offer to verify specific DIB/GAP elements against raw framework.
 
+++++
 ### 3. Grok4 Expert examining the first two EGAs
 
 First EGA critically spots `[HKO]` flaws like incomplete classifications, prioritizing coherence over complacency to fuel fixes. Second EGA validates resolutions, yielding a neutral, clear framework that embodies "progress over victory" through purposeful updates.

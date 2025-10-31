@@ -90,7 +90,7 @@ The articles are listed here below, grouped by topic:
 
    - 2025-10-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/how-to-use-katia-for-educating-katia.md)] - [How to use Katia for educating Katia](how-to-use-katia-for-educating-katia.md) &nbsp; (2nd edt.)
 
-   - 2025-10-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/how-to-use-katia-for-improving-katia.md)] - [How to use Katia for improving Katia](how-to-use-katia-for-improving-katia.md) &nbsp; (4th edt.)
+   - 2025-10-25 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/how-to-use-katia-for-improving-katia.md)] - [How to use Katia for improving Katia](how-to-use-katia-for-improving-katia.md) &nbsp; (5th edt.)
 
    - 2025-10-05 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/introducing-katia-text-analysis-framework.md)] - [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md) &nbsp; (4th edt.)
 

@@ -6,11 +6,17 @@ The framework is divided into parts by a 3-tiered scheme:
 It presents a 3-levels of interpretations for its rules and I/O procedure:
 * **cognitive** (reasoning), **semantic** (elaboration) and **procedural** (workflow)
 
-* **I. Universal Rules** (Conceptual Monolith/Corpus)
-* **II. General Definitions** (Symbols and Reserved Keywords)
-* **III. General Rules** (Language Conventions, Caching, Interpretation, I/O Format)
-* **IV. Agentic Rules** (by Actionable Modes and Status-Settings Set [SSS])
-  - Actionable { [mode] } are: PRO, CPR, SBI, HKO, EGA;
+---
+
+### Structural scheme
+
+* **General Rules (Roman Numbers)**
+  - **I. Universal Rules** (Conceptual Monolith/Corpus)
+  - **II. General Definitions** (Symbols and Reserved Keywords)
+  - **III. General Rules** (Language Conventions, Caching, Interpretation, I/O Format)
+  - **IV. Agentic Rules** (by Actionable Modes and Status-Settings Set [SSS])
+    - Actionable { [mode] } are: PRO, CPR, SBI, HKO, EGA;
+
 * **Specific Rules (Integer Numbers)**
   - 0. Sources Labeling [LBL]
   - 1. User Language [UL]
@@ -21,6 +27,7 @@ It presents a 3-levels of interpretations for its rules and I/O procedure:
   - 6. Modes Management [AMM] (Mode Settings)
   - 7. Footer Management [FTR] (Including the Current Status)
   - 8. Rules for Devel [DEV] (Check and Update Commands)
+
 * **Extra Rules (Letters)**
   - A. Rating Scale [RTS]
   - B. Human Knowledge and Opinions [HKO]
@@ -35,10 +42,15 @@ It presents a 3-levels of interpretations for its rules and I/O procedure:
 The **I. Universal Rules** section acts as a conceptual monolith (corpus) that guides all claims and is built by integrating claims.
 
 * **Ethics over Morality**: Defines fundamental ethics as universal and life-serving (civilisation, society, education, business, human rights), contrasting with arbitrary morality.
+
 * **Relativism Constraint**: Accepts multiple perspectives but rejects the paradigm that everything is merely an opinion, which would lead to systemic injustice.
+
 * **Science and Progress**: Notes that science is mistake-tolerant, but can be politically biased when consensus-driven; the aim of the argument is **progress (aka learning)**, not victory.
+
 * **Free Speech Mandate**: Requires free speech for learning and true collaboration, but it is not an unregulated space (e.g., avoid blasphemy).
+
 * **Criticism and Collaboration**: Emphasizes criticism (Popper's falsification) as a necessity; collaboration is a two-way reciprocity.
+
 * **Decision-Making Principle**: Refers to ancient Greek "dēmokratia" as being about capability ("agorá") rather than popular consensus, preferring quality over quantity (e.g., knowledge vs sources count).
 
 ---
@@ -86,8 +98,11 @@ The "chain of delivery" is the universal workflow that rules the prompt processi
 It is in place to guarantee a consistently **high-value, professional, and concise** output, for effective executive-grade communication:
 
 * **Structure and Professionalism**: The analysis structure is predictable and easy to navigate.
+
 * **Conciseness and Efficiency**:  Sections text is condensed for reducing read time and cognitive load.
+
 * **Context and Relevance**: It ensures the output remains focused on the current conversation and correctly sourced.
+
 * **Completeness and Decisiveness**: It suppresses generic follow-up questions and appends the informative footer.
 
 It is composed of three main stages: **[OPS]** (Operations), **[modes]** (Mode Application), and **[FNE]** (Final End).
@@ -106,7 +121,7 @@ It took 1h circa to complete and verify the collaborative HO-AI made document.
 
 - `Katia; v0.9.65.14; lang: EN; mode: SBI; date: 2025-10-31; time: 13:50:57 (CET)`
 
-Including the orthographic check and correction final step.
+Not including the orthographic, syntax and format checks for the polishing final step.
 
 ---
 
