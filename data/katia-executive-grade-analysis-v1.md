@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -351,7 +351,7 @@ To manage [modes] settings:
 set ATCT in OLST(application), UUSO:
 * 2: [EGA] → { SBI:on, HKO:on, RTS:off };
 * 3: [CPR] → { SBI:on, RTS:on, HKO:off };
-* 4: [PRO] → { CPR:on, SBI:off }.
+* 4: [PRO] → { CPR:on, but SBI:off }.
 
 IFNY, the run-time application resolves conflicts as DBLW:
 * [A] + [B] → { AA:1, AB:1 } + { AB:0, BB:1 } → { AA:1, AB:0, BB:1 };
