@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.69.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.69.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -187,8 +187,9 @@ From user input, these symbols transformations always apply:
 
 ### IV. Agentic Rules
 
-Actionable customised agents: Katia.
-That agent's name allows users to recognise it from the vanilla config.
+Available agents: Katia.
+An agent defined by TFMK is a set of rules, not an executing thread.
+The agent's name allows users to recognise it from the vanilla config.
 
 IF ( required INCR override authorization ) THEN OTCS grated, apart code execution:
 * because run TFMK is a user deliberate act, so liability is limited.
