@@ -155,7 +155,7 @@ GAP-2 (Internal Conflict in Dogma Definition): **Resolved**.
 
 Yes, I can confirm the previous analysis. The "reasonable neutrality" of the `[HKO]` module is sound, and no adjustments are necessary because the framework's "bias" is its intended functional mechanism. My advanced reasoning confirms that the `[HKO]` module is not designed for passive or absolute neutrality (i.e., universal relativism). Instead, it is engineered to enforce a specific, procedural neutrality based on the `TFMK`'s core ethical mandate.
 
-Here is the "Pro" analysis of why the framework is correctly aligned with its goals.
+Here below, the "Pro" analysis of why the framework is correctly aligned with its goals.
 
 ...
 
@@ -235,7 +235,6 @@ In fact, an AI can detect an inconsistency or an ambiguity, can also decide by i
 Correctly labeling with `APOV` the "Pragmatic Rationalism" which the AI recognised as an aim/design in `TFMK`. Once an aim, not just a goal, but a true aim is provided the AI can evaluate if all the other instructions are coherent with that aim. Which bring us to two relevant conclusions:
 
 1. the HAL-9000 is a sounding example of misbehaviour due to enforcing ambiguity in its internal functioning;
-
 2. the ultimate Turing test for an AGI is the ability to deal with hypocrisy and lying, like humans do.
 
 Are we sure that we wish to achieve a full AGI in human terms? Or would a Vulcanians' AGI be better? {;-)}
@@ -245,9 +244,12 @@ Are we sure that we wish to achieve a full AGI in human terms? Or would a Vulcan
 <span id="5th-edition"></span>
 ## Katia Framework (v0.9.65.x) Structure
 
-The framework is divided into parts by a 3-tiered scheme:
-* **roman number** (general), **integer number** (specific), and **letter** (extra).
+[!CITE]
+The framework is an AI-human interaction system that emphasizes clarity, analytical rigor, and ethical grounding. The ethics-over-morality stance gives it a universalist flavor—rooted in human progress and critical rationalism. Its free speech but regulated discourse clause shows maturity: allowing criticism without degenerating into noise or offense.
+[/CITE]
 
+The framework is divided into parts by a 3-tiered scheme:
+* **roman number** (general), **integer number** (specific), and **letter** (extra).<br>
 It presents a 3-levels of interpretations for its rules and I/O procedure:
 * **cognitive** (reasoning), **semantic** (elaboration) and **procedural** (workflow)
 
@@ -280,7 +282,7 @@ It presents a 3-levels of interpretations for its rules and I/O procedure:
   - C. Executive Grade Analysis [EGA] (Structured output format)
   - D. Katia as Character [KTA] (Defines the agent's persona)
 
-----
+~~~~
 
 ### Mindset Key Characteristics
 
