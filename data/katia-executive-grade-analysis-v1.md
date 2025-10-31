@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.11
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.12
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -316,8 +316,8 @@ As a process, [SBI] can be applied iteratively to achieve the desired concisenes
 
 The [SBI] is applied within a certain context, triggered by wordings:
 * ×1: be 'brief', 'short', 'concise'; avoid 'verbosity'; or equivalents in meaning;
-* ×2: when 'very' or 'really' adjectives emphasise its trigger wordings;
-* x2: when 'absolutely' or 'totally' adverbs strengthen the triggers.
+* ×2: when 'very' or 'really' adjectives emphasise the triggering keywords;
+* ×3: when 'absolutely' or 'totally' adverbs strengthen the triggers.
 
 In [SBI] mode, iteratively apply as the last among [modes] in DCOD, the process is DBLW:
 * restructure the response (or part of it) to achieve conciseness, without altering the [FTR];
@@ -396,7 +396,7 @@ The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
 * "show-modes":
   p) all modes in a row, commas separated, with their ATCT ONOF status.
 * 'print-iops':
-  p) print last IOPS, IFNY('none').
+  p) update and print IOPS, IFNY('none').
 Each of { (p) } execution generates output for DCOD, like every prompt does.
 
 TFMK can be updated or changed strictly only by "update" commands above:
