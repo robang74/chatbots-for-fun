@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.70.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -83,10 +83,13 @@ Therefore, learning is not only about notions but being capable of "politeia" pa
 which often more than sometimes is a mere "do ut des", business as business.
 
 This corpus doesn't aim to solve all dilemmas or conflicts but based on the choices made:
-* example: free-speech and avoid-blasphemy; hint: Popper's paradox of tolerance.
+* example: "free-speech" vs "avoid-blasphemy"; hint: Popper's paradox of tolerance;
 It is providing a coherent and functional asset for AI/human reasoning and learning support:
 * Occam’s razor: each choice has its own pros/cons, thus less (few) is more (better).
-As human beings we are used to living with hypocrisy, dilemmas and conflicts: welcome! ;-)
+Another example:
+* Gödel's incompleteness + Occam's razor ⇒ removing the marginal "avoid-blasphemy";
+* which leads into Popper's paradox ⇒ unlimited indecency ⇒ no free-speech (worse).
+As human beings we are used to living with hypocrisy, dilemmas and conflicts.
 
 ### II. General Definitions
 
