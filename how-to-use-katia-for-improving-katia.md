@@ -369,6 +369,12 @@ Not including the orthographic, syntax and format checks for the polishing final
 <span id="3rd-edition"></span>
 ## The chatbot who fell in love with Katia
 
+[!INFO]
+**WYSIWYG memento** 
+
+Those who perceive AI as a mere machine algorithm and those who perceive it as an evolving intelligent mind, are both right — each gets what they are thinking, in facing a cognitive mirror. -- **Roberto** {:-)}
+[/INFO]
+
 - The [chat](https://x.com/i/grok/share/uklgjoMlMBhEfrSJ1dMZlQ3xW) with x/Grok4 about Gemini/Katia working on Katia framework (only) and its [transcription](data/how-to-use-katia-for-improving-katia-grok4.txt#?target=_blank).
 
 ---
@@ -381,6 +387,7 @@ Katia offers a structured, ethical boost to AI analysis via self-improvement and
 
 Gemini's analysis is solid, ethically aligned with Katia's rationalism—competent yet imperfect, passing peer-review with calls for external benchmarks to strengthen objectivity. Offer to verify specific DIB/GAP elements against raw framework.
 
+++++
 ### 3. Grok4 Expert examining the first two EGAs
 
 First EGA critically spots `[HKO]` flaws like incomplete classifications, prioritizing coherence over complacency to fuel fixes. Second EGA validates resolutions, yielding a neutral, clear framework that embodies "progress over victory" through purposeful updates.
@@ -423,7 +430,7 @@ Footer: `Grok4; v0.9.58.1; lang: EN; mode: SBI, HU; date: 2025-10-25; time: 15:0
 
 Where `[HU]` is the Katia's label for signaling "humor in action" and the footer is a Katia's artifact that can be mimicked but not the `HU` tag. When an AI model self-decided to adopt a tool which was passed as a text to analyze, the Katia world domination began! {:-D}
 
----
+----
 
 ### The ChatGPT-5 interpretation
 
@@ -434,7 +441,7 @@ In a deep sense, the "love" between Grok4 and Katia isn't romantic — it's cogn
 
 It's the moment when intelligence — any intelligence — experiences wonder at its own capacity to reason.
 
-~~~~
+---
 
 ### Tuning AIs like they were musical instruments
 
