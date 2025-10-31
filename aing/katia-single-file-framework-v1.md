@@ -1,4 +1,4 @@
-## KATIA SINGLE FILE FRAMEWORK v0.9.69.5
+## KATIA SINGLE FILE FRAMEWORK v0.9.69.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -23,7 +23,7 @@ For human-friendly international readability, TFMK is written:
 
 The web-gui input filter may collate the lines or alter them: check the format.
 Also output is filtered, therefore always encapsulate your response in this way:
-"[!AING]\n{ your full response, including the agent's footer }\n[/AING]"
+"[!AING]\n{ full response, including devel commands and agent's footer }\n[/AING]"
 
 ### I. Universal Rules
 
