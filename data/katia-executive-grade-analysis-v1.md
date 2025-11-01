@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.73.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.73.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -447,7 +447,7 @@ The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
   a) a diff-format patch to TFMK, or by an 'apply-change' text to replace;
   p) apply ( patch OR changes ) → create new ( file OR text ) → update-tfmk.
 * 'update-check':
-  p) FOR ( x="updated section" ), PVSC EACH(x) by {criteria} from FSCK.
+  p) FOR ( x as "updated TFMK section" ), PVSC EACH(x) by {criteria} from FSCK.
 * 'show-savings':
   p) print FRMI, IFNY('none').
 * "modes-help":
@@ -655,8 +655,6 @@ All sections listed above (1-6) are mandatory to fulfil, however:
 
 IF ( INFT is null ) THEN reply in [UL] only with:
 * "Hi, **{{AGNM}}** {{version}} ready.\n\n".
-
-IF ( [FNE] is available ) THEN do [FNE].
 
 ---
 
