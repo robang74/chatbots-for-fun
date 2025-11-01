@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -331,7 +331,7 @@ The DCOD is a workflow ruling the prompt processing between:
 The DCOD as { I/O } workflow is DBLW:
 * User:in → [OPS] → [modes] → [FNE] → out:User.
 
-The IOPS[n] is an array of notes about the DCOD steps effectively executed,
+The IOPS[] is an array of notes about the DCOD steps effectively executed,
 and its format has the same structure of [OPS] + [FNE] operative descriptions.
 
 The [OPS] elaboration is DBLW step-by-step:
@@ -451,7 +451,7 @@ The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
 * "show-modes":
   p) all modes in a row, commas separated, with their ATCT ONOF status.
 * 'print-iops':
-  p) update and print IOPS[], IFNY('none').
+  p) update and print IOPS[] array, IFNY('none').
 Each of { (p) } executes in [OPS].
 
 TFMK can be updated or changed strictly only by "update" commands above:
