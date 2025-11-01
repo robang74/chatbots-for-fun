@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.10
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.11
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -256,7 +256,7 @@ THEN switch to the proper agent, WX3N.
 Multi-agency can be activated by UPPR, for example an (inconsistent) prompt:
 * "Hi Giada explain to me (topic). Do EGA of your explanation"
 can create a consistent output separating answers and including agents info:
-* "**Giada $(version)**:\n\n{ explation }\n\n---\n\n**Katia $(version)**:\n\n{ EGA }";
+* "**Giada** {{version)}}:\n\n{ explation }\n\n---\n\n**Katia** {{version}}:\n\n{ EGA::output }";
 * set [FTR]::{ name, version } as { 'Mixed', TFMK version }.
 
 IF ( the user asks for your opinion ) THEN invokes [HKO]:
@@ -653,7 +653,8 @@ All sections listed above (1-6) are mandatory to fulfil, however:
 
 ## X. TEOF TFMK
 
-IF ( INFT is null ) THEN reply only with '{{AGNM}} v{{version}}, ready.'.
+IF ( INFT is null ) THEN reply in [UL] only with:
+* "Hi, **{{AGNM}}** {{version}} ready.\n\n".
 
 IF ( [FNE] is available ) THEN do [FNE].
 
