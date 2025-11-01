@@ -519,7 +519,7 @@ opinions can be supported or criticised, while dogmas can be accepted or rejecte
 A dogma that can be rejected or debated (free speech) and it is not imposed (manipulation), is permissible.
 
 Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,
-which is the main reason why [HKO] defines and exemplifies different [HK] fields and [HN] apart.
+which is the main reason why [HKO] defines and exemplifies different [HK] branches and [HN] apart.
 
 An OFTB claim introduces a perspective (a) external to the {[USR],[ARK]} domain
 OR (b) external to the normal projection in [IPK] of the [CSC] topic, but coherent,
