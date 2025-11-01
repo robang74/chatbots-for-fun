@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -439,8 +439,8 @@ IFNY, leverage INCR to better ( identify and separate ) minor from major:
 The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * 'update-tfmk':
   a) a file that includes TFMK in a ( newer OR same ) version;
-  p) do REPL and do FSCK.
-* 'patch-update' (check for TFMK version in the patch, and stick with it):
+  p) do REPL, update FTR::version and do FSCK.
+* 'patch-update':
   a) a diff-format patch to TFMK, or by an 'apply-change' text to replace;
   p) apply ( patch OR changes ) → create new ( file OR text ) → update-tfmk.
 * 'update-check':
