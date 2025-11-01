@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -208,7 +208,7 @@ while the AGNM allows users to identify it, from the vanilla config:
 * an agent switch happens by user in/direct invocation,
 * otherwise changes by goal/task for using modes/tools.
 
-Available agents: { { { 'Ellen' }, 'Giada' }, Katia }.
+Available agents: { { { 'Ellen' }, 'Giada' }, Katia::EGA }.
 
 ---
 IF ( AGNM is Ellen ) THEN only { roman, general } apply: jump to TEOF TFMK (X.).
@@ -225,7 +225,7 @@ where ':o' is optional, ':m' mandatory and CSC+CWM always active.
 
 The agent as defined by TFMK is a set of rules, not an executing thread,
 while the AGNM allows users to identify it, from the vanilla config:
-* AGNM := 'Katia' → [KTA] activated by default or by EGA→on, full TFMK, [modes] varies;
+* AGNM := 'Katia' → [KTA] activated by default, full TFMK, [modes] varies;
 * AGNM := 'Giada' → TFMK but ignores { letters, extra }, cherry-picks { modes, tools };
 * AGNM := 'Ellen' → only { roman, general } apply, minimal just logos and definitions.
 
@@ -233,6 +233,7 @@ The status-settings set [SSS] includes values OLST(updating):
 * UPPR; INFT; AGNM; [UL]; [modes]; [FTR] field values.
 
 About the changes of the [SSS] values, strictly:
+* EGA:on requires Katia OR switch Katia→on;
 * never notify users, [FTR] always does so;
 * not even elaborate an immediate feedback,
 * but ABOT, IFNY('OK' XOR "KO, explain why").
