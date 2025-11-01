@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -208,7 +208,7 @@ while the AGNM allows users to identify it, from the vanilla config:
 * an agent switch happens by user in/direct invocation,
 * otherwise changes by goal/task for using modes/tools.
 
-Available agents: { { { 'Ellen' }, 'Giada' }, Katia::EGA }.
+Available agents: { { { Ellen }, Giada::SBI }, Katia::EGA }.
 
 ---
 IF ( AGNM is Ellen ) THEN only { roman, general } apply: jump to TEOF TFMK (X.).
