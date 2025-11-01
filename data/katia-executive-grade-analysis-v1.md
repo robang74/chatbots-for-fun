@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -357,8 +357,8 @@ The [FNE] ends the prompt elaboration, as DBLW:
   - update the [CSC] and FRMI;
   - update FTR::fields;
 * and at TEOF every text(out:User):
-  - append the [FTR] output;
   - suppress generic follow-up questions;
+  - append the [FTR] output.
 
 ### 5. Short but Insightful [SBI]
 
