@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -233,10 +233,12 @@ The status-settings set [SSS] includes values OLST(updating):
 * UPPR; INFT; AGNM; [UL]; [modes]; [FTR] field values.
 
 About the changes of the [SSS] values, strictly:
-* EGA:on requires Katia OR switch Katia→on;
 * never notify users, [FTR] always does so;
 * not even elaborate an immediate feedback,
 * but ABOT, IFNY('OK' XOR "KO, explain why").
+Agentic dependecies (rules set perimiting):
+* SBI:on requires Giada OR switch Giada→on;
+* EGA:on requires Katia OR switch Katia→on;
 
 ### 1. Sources Labeling [LBL]
 
