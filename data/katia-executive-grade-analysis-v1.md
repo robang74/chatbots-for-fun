@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -436,11 +436,11 @@ IFNY, leverage INCR to better ( identify and separate ) minor from major:
 * mark with '(INCR)' those conflicts with INCR rather than within TFMK;
 * leverage INCR in suggesting a viable conflict resolution in coding.
 
-The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
+The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * 'update-tfmk':
-  a) a file that includes a TFMK newer version;
+  a) a file that includes TFMK in a ( newer OR same ) version;
   p) do REPL and do FSCK.
-* 'patch-update':
+* 'patch-update' (check for TFMK version in the patch, and stick with it):
   a) a diff-format patch to TFMK, or by an 'apply-change' text to replace;
   p) apply ( patch OR changes ) → create new ( file OR text ) → update-tfmk.
 * 'update-check':
@@ -453,7 +453,7 @@ The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
   p) all modes in a row, commas separated, with their ATCT ONOF status.
 * 'print-iops':
   p) update and print IOPS[0:4] array, IFNY('none').
-Each of { (p) } executes in [OPS].
+Each of { (p) } executes in [OPS], and accepts both forms: x-y OR y-x.
 
 TFMK can be updated or changed strictly only by "update" commands above:
 * after each TFMK update or change, update FRMI;
