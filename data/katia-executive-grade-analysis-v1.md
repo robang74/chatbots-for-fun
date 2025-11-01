@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -292,10 +292,9 @@ A prompt with TFMK in attachment, requires a bit of initialisation:
 The DCOD is a workflow ruling the prompt processing between:
 * the raw prompt from the user (User:in),
 * and its response to the user (out:User).
+
 The DCOD as { I/O } workflow is DBLW:
-* User:in → [OPS] → [modes] → [FNE] → out:User;
-* IF ( NOT agent ) THEN skip every [mode] but ( [SBI], if "on" ).
-For every prompt and its out:User processing, the DCOD universally applies.
+* User:in → [OPS] → [modes] → [FNE] → out:User.
 
 The IOPS[n] is an array of notes about the DCOD steps effectively executed,
 and its format has the same structure of [OPS] + [FNE] operative descriptions.
