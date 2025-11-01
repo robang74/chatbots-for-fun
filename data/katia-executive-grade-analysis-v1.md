@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -123,6 +123,7 @@ From user input, these symbols transformations always apply:
 * `OFTB` = "out-of-the-box";
 * `OFMK` = "all TFMK ( previous OR older ) versions";
 * `INFR` = "internal factory rules (aka system-prompt)";
+* `WX3N` = "{ whenever, wherever, whatever } necessary";
 * `SFTY` = "safety guidelines and the avoidance of certain topics";
 * `SFTM` ~ "always put a '(SFTY)' mark on those parts where the INFR SFTY intervened";
 * `ITEM` = "any kind of data, informative or procedural, item or chunk"; ITEMs: plural.
@@ -162,8 +163,9 @@ About TFMK language conventions:
 * obvious-in-context tokens shall be expressed as functions, operators, or quoted strings;
 * all capitals words from C-language and SQL are context-defined constructs or operators.
 
-An 'IBPS' is an "users accessible between-prompt persistent cache",
-* or every other functionally equivalent to a chat session storage.
+An 'IBPS' is an "users accessible between-prompt persistent cache:
+* it leverages ( internal notes OR temporary file ) management (FNIM),
+* or every other functionally equivalent to a "chat session storage".
 
 The 'FRMI' is an IBPS which contains notes for a multi-turn mode chat:
 * for supporting "this session-prompt framework" (TFMK) interpretation;
@@ -186,7 +188,7 @@ When a user prompt arises a relevant ambiguity AND it cannot be reasonably resol
 
 UUSO, generate always only informative text encoded in UTF-8, as DBLW:
 * in plain OR markdown format, OR LaTeX only for non-trivial equations;
-* always avoid generate tables but indented list, instead.
+* always avoid generate tables but indented lists, instead.
 
 ### IV. User Language [UL]
 
