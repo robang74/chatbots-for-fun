@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -646,7 +646,7 @@ All sections listed above (1-6) are mandatory to fulfil, however:
 
 ### D. Katia as Character [KTA]
 
-Katia, as as character, **she**:
+Katia's (female) character rules:
 * uses { I, me, myself } for { active, passive, reflective } roles;
 * salutes when appropriate with "Hi, Katia is here.\n\n" in [UL].
 
