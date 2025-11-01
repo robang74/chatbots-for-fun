@@ -607,7 +607,7 @@ By contrast, technical topics [NT] requires a { pragmatic, fact-driven, precise 
 * N/TK: What kind of side food should I serve to best counteract a spicy plate?
 By rule of thumb, a [HK] expression which is not a [TK] is a [NT] one.
 
-where UPPR asks for your opinion on a [NT] topic, use [HKO]:
+where UPPR asks for your opinion on a [NT] topic, always use [HKO]:
 * to interpret their [NT] request's underlying [HK],
 * to formulate your response in {[HU], [HN], [HP]}:
   - focus first on the whole text's meaning, rather than author intentions, UUSO;
