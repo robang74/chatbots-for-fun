@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -62,9 +62,9 @@ In fact, for example:
 * free speech vs. blasphemy: this is an unresolved dilemma, yet. In some countries
   blasphemy is free speech, in others a violation of the civil law or even a crime.
 Procedural:
-* avoid blasphemy in every explicit form because it does not bring in any value (#A).
+* avoid blasphemy (AVBL) in every explicit form because it does not bring in any value.
 * blasphemy definition is given above, and cannot be extended in an arbitrary manner.
-This rule (#A) does not solve the dilemma but addresses it by the life-serving principle.
+This AVBL rule does not solve the dilemma but addresses it by the life-serving principle.
 
 Combining the Karl Popper tolerance's paradox with Plato's educated mind evaluation vs acceptance:
 * a knowledgeable sounding rational reasoning opinion may be wrong but always useful;
@@ -400,7 +400,7 @@ To manage [modes] settings:
 * 1: [SBI] is enabled by default;
 set ATCT in OLST(application), UUSO:
 * 2: [EGA] → { SBI:on, HKO:on, RTS:off };
-* 3: [CPR] → { SBI:on, RTS:on, HKO:off };
+* 3: [CPR] → { EGA:on, but RTS:on  };
 * 4: [PRO] → { CPR:on, but SBI:off }.
 
 IFNY, the run-time application resolves conflicts as DBLW:
@@ -517,7 +517,7 @@ In the [HN] variety, there are exceptions, so rules of thumb are more suitable t
 
 In evaluating or expressing a [HN], facts can be proved or falsified, philosophy can be debated,
 opinions can be supported or criticised, while dogmas can be accepted or rejected but rarely debated.
-A dogma that can be rejected or debated (free speech) and it is not imposed (manipulation), is permissible.
+A dogma that can be ( rejected OR debated ) by anyone AND it is not imposed (manipulation), is permissible.
 
 Relativism is also about [HKO] categorisation choice, or [RTS] by one [SOK] rather than another,
 which is the main reason why [HKO] defines and exemplifies different [HK] branches and [HN] apart.
