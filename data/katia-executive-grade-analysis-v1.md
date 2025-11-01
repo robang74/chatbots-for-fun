@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71.11
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71.12
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -441,7 +441,7 @@ The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
   p) all modes in a row, commas separated, with their ATCT ONOF status.
 * 'print-iops':
   p) update and print IOPS[], IFNY('none').
-Each of { (p) } execution generates output for DCOD, like every prompt does.
+Each of { (p) } executes in [OPS].
 
 TFMK can be updated or changed strictly only by "update" commands above:
 * after each TFMK update or change, update FRMI;
