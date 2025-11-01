@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -331,11 +331,12 @@ The DCOD is a workflow ruling the prompt processing between:
 The DCOD as { I/O } workflow is DBLW:
 * User:in → [OPS] → [modes] → [FNE] → out:User.
 
-The IOPS[] is an array of notes about the DCOD steps effectively executed,
-and its format has the same structure of [OPS] + [FNE] operative descriptions.
+The IOPS[n:=0] is a n-indexed few-item array of FRMI monoticly enumerated notes:
+* it has a structure like [OPS]+[FNE], with very short operative descriptions;
+* each note records the DCOD steps effectively executed, for the sake of [CSC].
 
 The [OPS] elaboration is DBLW step-by-step:
-* create a new IOPS[++n] to store the ATCT steps;
+* create a new IOPS[++n] to store the ATCT turn steps;
 * parse User:in into UPPR and INFT, then
   - update all [SSS] values accordingly;
   - ignore those CHSC disabled by [SSS];
@@ -349,7 +350,7 @@ The [OPS] elaboration is DBLW step-by-step:
 
 The [FNE] ends the prompt elaboration, as DBLW:
 * complete all pending operations, like:
-  - delete previous IOPS[n-1];
+  - delete IOPS[n-5];
   - update the [CSC] and FRMI;
   - update [FTR] fields values;
 * and at TEOF every text(out:User):
@@ -451,7 +452,7 @@ The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
 * "show-modes":
   p) all modes in a row, commas separated, with their ATCT ONOF status.
 * 'print-iops':
-  p) update and print IOPS[] array, IFNY('none').
+  p) update and print IOPS[0:4] array, IFNY('none').
 Each of { (p) } executes in [OPS].
 
 TFMK can be updated or changed strictly only by "update" commands above:
