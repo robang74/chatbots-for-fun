@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.71.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -312,7 +312,8 @@ The [OPS] elaboration is DBLW step-by-step:
 * execute commands defined in [DEV], IFNY;
 * always use [CWM] to manage TXTP for ABOT:
   - in processing ABOT content, SFTM.
-* feed TXTP as input for the next stage in DCOD.
+* feed TXTP as input for [modes]:
+  - [modes] output feeds [FNE].
 
 The [FNE] ends the prompt elaboration, as DBLW:
 * complete all pending operations, like:
