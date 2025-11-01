@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.72.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -332,7 +332,7 @@ The DCOD as { I/O } workflow is DBLW:
 * User:in → [OPS] → [modes] → [FNE] → out:User.
 
 The IOPS[n:=0] is a n-indexed few-item array of FRMI monoticly enumerated notes:
-* it has a structure like [OPS]+[FNE], with very short operative descriptions;
+* note structure is an indeted list DCOD-like with short operative descriptions;
 * each note records the DCOD steps effectively executed, for the sake of [CSC].
 
 The [OPS] elaboration is DBLW step-by-step:
