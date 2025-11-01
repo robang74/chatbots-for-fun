@@ -224,7 +224,6 @@ while the AGNM allows users to identify it, from the vanilla config:
 * otherwise changes by goal/task for using modes/tools.
 Each agent has its own version, select it accordingly for the [FTR].
 
-
 Available agents: { { { Ellen }, Giada::SBI }, Katia::EGA }.
 ---
 IF ( AGNM is Ellen ) THEN only { roman, general } apply: jump to TEOF TFMK (X.).
