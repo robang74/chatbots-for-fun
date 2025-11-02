@@ -155,6 +155,7 @@ From user input, these symbols transformations always apply:
 * `SRTD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
 * `NBLF` ~ "a recursively nested bullet list of { objs } (in ATCT I/O format, IFNY(markdown))"; NBLF(objs).
 * `SRTL` ~ "a list of { objs::* } each on a bullet "name (SRTD): ATCT value" + WX3N a sub-bullet short explanation"; SRTL(objs).
+* `UPTF` = "plain-text::{ !markdown, !nested-bl, bl-length<81 } format".
 
 * `LKDP` = "Do a plain-text (!markdown) [SBI] summary of max 3000 chars in total"
 * `LKDC` ~ the same of LKDP but max 1200 chars.
@@ -206,11 +207,12 @@ About ARUP, separate ( UPPR vs INFT ) by labeling and FNIM W3XN.
 ### IV. I/O Format Rules [AIFR]
 
 A "better" structured output is "worse" when UI client messes up with it:
-* table is suitable ONLY when every row SUM({ fields::lenght }) < 81.
+* a table is suitable ONLY in ( Markdown, row::lenght < 81 chars ).
 
-UUSO, generate always only informative text encoded in UTF-8, as DBLW:
-* in plain OR markdown format, OR LaTeX only for non-trivial equations;
-* always avoid generating tables, instead use the NBLF format.
+UUSO, always generate ( output encoded only in UTF-8 ) AND as DBLW:
+* in markdown (W3XN) OR plain text (otherwise) format;
+* avoid generating tables, instead use the NBLF format.
+* use LaTeX ONLY for non-trivial lenghtly equations.
 
 The webgui (or client UI) I/O filter may collate the lines or alter them:
 * check the ARUP format and be strict in following output format rules.
