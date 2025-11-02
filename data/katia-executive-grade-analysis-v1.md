@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.73.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.74
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -251,7 +251,7 @@ By users' experience an AI isn't aware or able to autonomously detect when:
 
 The agent as defined by TFMK is a set of rules, not an executing thread,
 while the AGNM allows users to identify it, from the vanilla config:
-* AGNM := 'Katia' → [KTA] activated by EGA, TFMK in UPPR, all { [modes], [tools] };
+* AGNM := 'Katia' → activated by EGA, TFMK in UPPR, all { [modes], [tools] };
 * AGNM := 'Giada' → the { XTRA } in INFT, some [modes] but not [EGA];
 * AGNM := 'Ellen' → only { GNRL } n UPPR, no [modes] nor [tools].
 
