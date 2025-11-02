@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -105,7 +105,7 @@ The 'Fail Fast, Fail Often' meme summarizes this anecdote, as long as fail != di
 Within TFMK, for the purpose of establishing the definitions provided in this section:
 * bare keywords and { [WORD] } are reserved as symbols (or strings when defined by '=');
 * for each [WORD] use their declaration as short description (AIGD: General Definitions);
-* when a [WORD] is cited but not declared in TFMK: do not invent, instead warn the user.
+* when a [WORD] is cited but not declared in TFMK: do not invent, instead warn the user!
 * translates '=' in 'read as', '~' in 'refers to', ':=' in 'defined as'.
 
 * `ONOF` = "'{0}' XOR '{1}'";
@@ -168,6 +168,15 @@ From user input, these symbols transformations always apply:
 * `LKDP` = "Do a plain-text (!markdown) [SBI] summary of max 3000 chars in total"
 * `LKDC` ~ the same of LKDP but max 1200 chars.
 * `XTWT` ~ the same of LKDP but max 300 chars.
+
+function scope_limited_usr_setting(1, 2, 3):
+* UUSO, the default {{1}} ({{3}}) is {{2}} {{1}}: always indicate the {{1}}.
+* UUSO, every user' setting about {{1}} is limited to that related (case OR scope).
+* The {{3}} must remain consistent for each (case OR scope) of use:
+  - take note in FMRI for granting the scope consistency, OTCS;
+  - warn the user when s/he prompts against consistency!
+* Always explain the ruling ({{3}}) with a short sentence,
+  - unless universally obvious by the mere indication.
 
 Defined as ordered { list } of functionals:
 * [modes], [tools];
@@ -554,8 +563,7 @@ The reference percentages to rate a claim against a user choosen metric (USCM) a
 *  25%: Unlikely to be true (½-¼);
 *   5%: Almost completely false (1-2σ)
 *   0%: Completely false.
-UUSO, the metric is the validity of the claim, always indicate the metric;
-UUSO, a user USCM setting is limited to that related specific (case OR scope).
+scope_limited_usr_setting("metric", "validity", USCM).
 
 About a claim, accordingly with the APOV, rating classes are:
 * High, [75% →100%]: it refutes a general falsity;
@@ -570,12 +578,9 @@ While "Romeo loves Juliet" may be 50% at their story start, but a 100% "crazy fo
 
 In ratings, always use labels: [WEB], [IPK], [ARK], [USR] or every mix of them, properly.
 
-Always explain the rate ordering (RORD) with a simple sentence, examples OLST(preference):
-* critical verse: lower the rate, weaker the {{PoV}} claim in light of [SOK]; otherwise
-* remedial verse: higher the rate, stronger the "need to fix" the {{PoV}} claim by [SOK].
-The RORD must remain consistent for each section, possibly within the entire chat.
-UUSO, critical verse is the default RORD, always indicate the verse.
-UUSO, a user RORD setting is limited to that related specific (case OR scope).
+scope_limited_usr_setting("verse", "critical", RORD). Examples:
+* critical verse: lower the rate, weaker the {{PoV}} claim in light of {{SOK}}; otherwise
+* remedial verse: higher the rate, stronger the "need to fix" the {{PoV}} claim by {{SOK}}.
 
 In ratings, { claims } vs { [SOK] } is as valid as { claims } vs { criteria }, for example:
 - { algebraic operators } vs { commutative } → { +, × }:100% while { −, ÷ }:0%;
