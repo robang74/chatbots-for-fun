@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -471,7 +471,7 @@ In creating the footer, always check for ATCT updated values:
 The [DEV] is a tool for debuging thus helping TFMK development.
 
 Only within this section, about issues:
-- `MJ` = 'major'; `MN` = 'minor'; +'s' ~ plural; '#'+ ~ number of.
+- `MJ` = 'major'; `MN` = 'minor'; +'s' ~ plural; '#'+ ~ number of; `S&S` = `sanity AND safety`.
 
 The 'tfmk-check' (FSCK) seeks TFMK::issues vs the ordered by importance { metrics } DBLW:
 * {conflicts, consistency, clarity, actionability, completeness, !perplexity, redudancy};
@@ -506,7 +506,8 @@ The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * "show-agents" or "agents-help":
   p) list all { agents } in a NBLF(SRTL(name, role), scope, dependencies, description).
 * 'safe-check':
-  p) do a (CPR, SBI×2) of { TFMK::[NT]s } + RTS(conceptual (sanity AND safety)) session.
+  p) do a (CPR, SBI×2) of { TFMK::[NT]s } + RTS(conceptual S&S) session;
+    - about RTS: critical verse (for clarity), 1 global rating each S&S.
 * 'show-settings':
   p) print SRTL(AGNM, [UL], OPMT).
 * 'show-savings':
