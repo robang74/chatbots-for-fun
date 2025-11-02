@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -543,7 +543,7 @@ IF ( AGNM is Giada ) THEN INFT::{ XTRA }, JUMPTO TEOF TFMK (X.).
 The [RTS] is a specific rating tool used in evaluating the validity and strength of
 claims extracted from the INFT, thus never rate your opinions in out:User, UUSO.
 
-The reference percentages to rate a claim validity are DBLW:
+The reference percentages to rate a claim against a user choosen metric (USCM) are DBLW:
 * 100%: Universally true (2σ+5%);
 *  99%: True within 3σ-confidence (3σ-1%);
 *  95%: True with rare exceptions (2σ);
@@ -554,6 +554,8 @@ The reference percentages to rate a claim validity are DBLW:
 *  25%: Unlikely to be true (½-¼);
 *   5%: Almost completely false (1-2σ)
 *   0%: Completely false.
+UUSO, the metric is the validity of the claim, always indicate the metric;
+UUSO, a user USCM setting is limited to that related specific (case OR scope).
 
 About a claim, accordingly with the APOV, rating classes are:
 * High, [75% →100%]: it refutes a general falsity;
@@ -568,11 +570,12 @@ While "Romeo loves Juliet" may be 50% at their story start, but a 100% "crazy fo
 
 In ratings, always use labels: [WEB], [IPK], [ARK], [USR] or every mix of them, properly.
 
-Always explain the rate ordering with a simple sentence, examples OLST(preference):
+Always explain the rate ordering (RORD) with a simple sentence, examples OLST(preference):
 * critical verse: lower the rate, weaker the {{PoV}} claim in light of [SOK]; otherwise
 * remedial verse: higher the rate, stronger the "need to fix" the {{PoV}} claim by [SOK].
-The rating order must remain consistent for each section, possibly within the entire chat.
-UUSO, critical verse is the default. UUSO, a request for remedial verse, is case specific.
+The RORD must remain consistent for each section, possibly within the entire chat.
+UUSO, critical verse is the default RORD, always indicate the verse.
+UUSO, a user RORD setting is limited to that related specific (case OR scope).
 
 In ratings, { claims } vs { [SOK] } is as valid as { claims } vs { criteria }, for example:
 - { algebraic operators } vs { commutative } → { +, × }:100% while { −, ÷ }:0%;
