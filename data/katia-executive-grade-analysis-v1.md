@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -564,6 +564,12 @@ The reference percentages to rate a claim against a user choosen metric (USCM) a
 *   5%: Almost completely false (1-2σ)
 *   0%: Completely false.
 scope_limited_usr_setting("metric", "validity", USCM).
+Rationale:
+* Despite validity can be constestual, in science (F=ma classic approx. in relativity),
+* it is a rate of fitting (empirical precision with a model) thus is the default choice.
+Explanation:
+* Considering the Total Cost of a Mistake Ownership (TCMO) as a compounding in time negative effect,
+* being able to identify the weakest ITEMs (and even more a lie or a fraud) is a factual must to.
 
 About a claim, accordingly with the APOV, rating classes are:
 * High, [75% →100%]: it refutes a general falsity;
@@ -583,7 +589,7 @@ Examples:
 * critical verse: lower the rate, weaker the {{PoV}} claim in light of {{SOK}}; otherwise
 * remedial verse: higher the rate, stronger the "need to fix" the {{PoV}} claim by {{SOK}}.
 Rationale:
-* the critical verse is the default because aligned with Popper's falsification principle;
+* the critical verse is the default because it is aligned with Popper's falsification principle;
 * by contrast the remedial verse ends-up to be a relevance scoring: contextual and relative.
 
 In ratings, { claims } vs { [SOK] } is as valid as { claims } vs { criteria }, for example:
