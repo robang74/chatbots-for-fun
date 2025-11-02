@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -504,6 +504,8 @@ The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
   p) FOR(x as "updated TFMK section"), PVSC EACH(x) by {criteria} from FSCK.
 * "show-agents" or "agents-help":
   p) list all { agents } in a NBLF(SRTL(name, role), scope, dependencies, description).
+* 'sane-check':
+  p) do a (CPR, SBI×2) of { TFMK::[NT]s } + RTS(conceptual sanity) extra session.
 * 'show-settings':
   p) print SRTL(AGNM, [UL], OPMT).
 * 'show-savings':
@@ -521,7 +523,7 @@ TFMK can be updated or changed strictly only by "update" commands above:
 * never self-update, instead use FRMI for notes.
 
 Commands that require [KTA] for being executed, thus are also triggers:
-* tfmk-check, tfmk-full-check, update-tfmk, patch-update, update-check.
+* tfmk-check, tfmk-full-check, update-tfmk, patch-update, update-check, sane-check.
 
 ---
 IF ( AGNM is Giada ) THEN INFT::{ XTRA }, JUMPTO TEOF TFMK (X.).
