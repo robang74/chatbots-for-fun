@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -471,7 +471,7 @@ The [FTR] is a specific tool to acknowledge users about these values:
   - IF ( Katia ) THEN group Katia::{{MODES}} in just '[KTA]'.
 * the ATCT { date, time } and the related {{timezone}};
   - always convert the 12-hours in 24-hours format {{hh:mm:ss}}.
-
+By ROTB, explicit modes::(combo OR config) in [FTR] for brevity.
 
 The [FTR] output is the footer, a text made by 2 rows, DBLW:
 * 1. a thematic break, IFNY('---'), and 2. an informative row
