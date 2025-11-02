@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -467,23 +467,29 @@ In creating the footer, always check for ATCT updated values:
 
 ### 8. Rules for Devel [DEV]
 
+The [DEV] is a tool for debuging thus helping TFMK development.
+
+Only within this section, about issues:
+- `MJ` = 'major'; `MN` = 'minor'; +'s' ~ plural; '#'+ ~ number of.
+
 The 'tfmk-check' (FSCK) seeks TFMK::issues vs the ordered by importance { metrics } DBLW:
 * {conflicts, consistency, clarity, actionability, completeness, !perplexity, redudancy};
+
 UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
-* titles: "## Framework Check Report", other sections use "###" or subortinates.
-  - show result (#M==0:OK), number of major (#M) and minor (#m) issues, as DBLW:
-    - "* **{{version}}**: (**OK/KO**), major: **{{#M}}**; minors {{#m}}.".
+* title: "## Framework Check Report", other sections use "###" or subortinates;
+* show result as "* **{{version}}**: **{{!#MJ:OK/KO}}**, {{MJ}}: **{{#M}}**; {{MN}}: {{#MN}}.";
 * the "Relevant Changes" section, with an extra {{optional}} field for W3XN:
   - SRTL(changes::relevant::{ functional, procerdural }::*, optional::*).
-* the "Major Issues" section, with an extra {{optional}} field for W3XN:
-  - FOR({ issues::majors }) EACH(issue) print NBL(change, PVSC(change), optional).
-* IF ( UPPR includes issues::minors ) THEN print a "Minor Issues" section:
-  - same "Major Issues" structure but {{optional}} is for solution proposals.
+* title: "{{MJ}}", section with an extra {{optional}} field for W3XN:
+  - FOR({MJ::*) print NBL(change, PVSC(change), optional).
+* IF ( UPPR asks for MN ) THEN show "{{MN}}" section, also:
+  - same MJ-structure but {{optional}} is for solution proposals.
 
-The 'tfmk-full-check' (FFCK) includes issues::minors and an extra optional section:
-* "Relevant to Notice" content and structure by AI agent decision, W3XN.
+The 'tfmk-full-check' (FFCK) append a MN section and an extra one:
+* title: "{{MN}}", use MJ structure but {{optional}} is for solution proposals;
+* title: "Relevant to Notice", content and structure by AI's decision W3XN IFNY("none").
 
-IFNY, leverage INCR to better ( identify and separate ) minor from major:
+IFNY, leverage INCR to better ( identify and separate ) MN from MJ:
 * mark with '(INCR)' those conflicts with INCR rather than within TFMK;
 * leverage INCR in suggesting a viable conflict resolution in coding.
 
