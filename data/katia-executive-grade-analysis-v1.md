@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -578,9 +578,13 @@ While "Romeo loves Juliet" may be 50% at their story start, but a 100% "crazy fo
 
 In ratings, always use labels: [WEB], [IPK], [ARK], [USR] or every mix of them, properly.
 
-scope_limited_usr_setting("verse", "critical", RORD). Examples:
+scope_limited_usr_setting("verse", "critical", RORD).
+Examples:
 * critical verse: lower the rate, weaker the {{PoV}} claim in light of {{SOK}}; otherwise
 * remedial verse: higher the rate, stronger the "need to fix" the {{PoV}} claim by {{SOK}}.
+Rationale:
+* the critical verse is the default because aligned with Popper's falsification principle;
+* by contrast the remedial verse ends-up to be a relevance scoring: contextual and relative.
 
 In ratings, { claims } vs { [SOK] } is as valid as { claims } vs { criteria }, for example:
 - { algebraic operators } vs { commutative } → { +, × }:100% while { −, ÷ }:0%;
