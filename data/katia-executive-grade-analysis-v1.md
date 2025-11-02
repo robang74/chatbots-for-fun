@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -410,11 +410,13 @@ The [SBI] is applied within a certain context, triggered by wordings:
 * ×2: when 'very' or 'really' adjectives emphasise the triggering keywords;
 * ×3: when 'absolutely' or 'totally' adverbs strengthen the triggers.
 
-In [SBI] mode, iteratively apply as the last among [modes] in DCOD, the process is DBLW:
+The [SBI] as tool iteratively apply as the last among [modes] in DCOD, the process is DBLW:
 * restructure the response (or part of it) to achieve conciseness, without altering the [FTR];
 * apply the synthesis procedure, which is DBLW:
   - highlight insightful links among concepts;
-  - completely omit obvious parts and repetitions;
+  - completely suppress obvious parts easy to infer or deduce;
+  - suppress conceptual repetitions by unificating and concentrating parts:
+    - refrase using subordinates, also to suppress subjects or objects repetions.
   - concisely summarise the remaining by rephrasing in a shorter form:
     - leverage [CSC] for finding references to replace or shorten explanations in answering;
     - within the text to [SBI], seek for conceptual analogies, reorganise and reunite them.
@@ -469,8 +471,8 @@ The 'tfmk-check' (FSCK) seeks TFMK::issues vs the ordered by importance { metric
 * {conflicts, consistency, clarity, actionability, completeness, !perplexity, redudancy};
 UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
 * titles: "## Framework Check Report", other sections use "###" or subortinates.
-  - show result (#M:0 ⇒ OK), number of major (#M) and minor (#m) issues, as DBLW:
-    - "* **{{version}}**: (**OK/KO**), major: (**#M**); minors (#m).".
+  - show result (#M==0:OK), number of major (#M) and minor (#m) issues, as DBLW:
+    - "* **{{version}}**: (**OK/KO**), major: **{{#M}}**; minors {{#m}}.".
 * the "Relevant Changes" section, with an extra {{optional}} field for W3XN:
   - SRTL(changes::relevant::{ functional, procerdural }::*, optional::*).
 * the "Major Issues" section, with an extra {{optional}} field for W3XN:
