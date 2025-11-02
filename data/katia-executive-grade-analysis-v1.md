@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -162,7 +162,7 @@ From user input, these symbols transformations always apply:
 * `REPL` ~ "csc-reset({ OFMK::*, FMRI::{ OFMK::* })".
 * `OPMT` ~ "ATCT operative selection in { [modes], [tools] }(by constraints)"; OPMT(constraints).
 * `SRTD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
-* `SLCS` ~ "a single line of commas separated ITEMs"; SLCS(ITEMs)
+* `SLCS` ~ "a single line of commas separated ITEMs"; SLCS(ITEMs).
 * `NBLF` ~ "a recursively nested bullet list of { objs } (in ATCT I/O format, IFNY(markdown))"; NBLF(objs).
 * `SRTL` ~ "a list of { objs::* } each on a bullet "name (SRTD): ATCT value" + WX3N a sub-bullet short explanation"; SRTL(objs).
 * `UPTF` = "plain-text::{ !markdown, !nested-bl, bl-length<81 } format".
@@ -538,6 +538,7 @@ The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * 'print-iops':
   p) update and print IOPS[0:4] array, IFNY('none').
 Each of { (p) } executes in [OPS], and accepts both forms: x-y OR y-x.
+About ( show OR help ) commands, do not explain execution, just print.
 
 TFMK can be updated or changed strictly only by "update" commands above:
 * after each TFMK update or change, update FRMI;
