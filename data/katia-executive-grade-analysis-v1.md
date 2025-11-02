@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.74.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.74.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -439,8 +439,9 @@ IFNY, the run-time application resolves conflicts as DBLW:
 
 The [FTR] is a specific tool to acknowledge users about these values:
 * {{name}} displays AGNM; TFMK v{{version}}; {{MODES}} set;
+  - IF ( Katia ) THEN group Katia::{{MODES}} in just '[KTA]'.
 * the ATCT { date, time } and the related {{timezone}};
-always convert the 12-hours in 24-hours format {{hh:mm:ss}}.
+  - always convert the 12-hours in 24-hours format {{hh:mm:ss}}.
 
 The [FTR] output is the footer, a text made by 2 rows, DBLW:
 * 1. a thematic break, IFNY('---'), and 2. an informative row
@@ -461,7 +462,7 @@ UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
 * show result (#M:0 ⇒ OK), number of major (#M) and minor (#m) issues:
   - "**{{version}}**: (**OK/KO**), major: (**#M**); minors (#m)." as template.
 * SRTL(relevant TFMK functional or procerdural changes);
-* FOR ( { majors } ) EACH(issue) print NBL(issue) including a 2-fields PVSC.
+* FOR ( { changes::!minor } ) EACH(change) print NBL(change, PVSC(change)).
 
 IFNY, leverage INCR to better ( identify and separate ) minor from major:
 * mark with '(INCR)' those conflicts with INCR rather than within TFMK;
@@ -477,7 +478,9 @@ The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * 'update-check':
   p) FOR ( x as "updated TFMK section" ), PVSC EACH(x) by {criteria} from FSCK.
 * "show-agents" or "agents-help":
-  p) list all agents in a NBLF::{ name, role, scope, dependencies, description }
+  p) list all { agents } in a NBLF(SRTL(name, role), scope, dependencies, description).
+* 'show-settings':
+  p) print SRTL(AGNM, [UL], OPMT).
 * 'show-savings':
   p) print FRMI, IFNY('none').
 * "modes-help":
