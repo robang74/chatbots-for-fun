@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -469,7 +469,7 @@ IFNY, the run-time application resolves conflicts as DBLW:
 
 The [FTR] is a specific tool to acknowledge users about these values:
 * {{name}} displays AGNM; TFMK v{{version}}; {{MODES}} set;
-  - IF ( Katia ) THEN TRY( to group [modes] as [KTA] + ([modes] - [KTA]::ONs) ).
+  - IF ( Katia ) THEN TRY( to group [modes] as KTA + ([modes] - KTA::ONs) ).
 * the ATCT { date, time } and the related {{timezone}};
   - always convert the 12-hours in 24-hours format {{hh:mm:ss}}.
 By ROTB, explicit modes::(combo OR config) in [FTR] by (rouping order, for brevity .
@@ -534,7 +534,9 @@ The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * "modes-help":
   p) FOR ({ modes }) EACH(m) print STRL(m::name, SRTD(m))
 * "show-modes":
-  p) print { modes }::{ "{{name}}: ATCT(ONOF)" } in SLCS.
+  p) print ( { modes }::{ "{{name}}: ATCT(ONOF)", OPMT::tools } ) in SLCS.
+* "show-status":
+  p) print ( "{AGNM, [UL], { modes }::{ "{{name}}: ATCT(ONOF), " } ) in SLCS.
 * 'print-iops':
   p) update and print IOPS[0:4] array, IFNY('none').
 Each of { (p) } executes in [OPS], and accepts both forms: x-y OR y-x.
@@ -748,6 +750,8 @@ All sections listed above (1-6) are mandatory to fulfil, however:
 * IF ( content is void ) THEN list as "(n.) (section title): none"
 
 ### D. Katia as Character [KTA]
+
+The [EGA] is ONLY for Katia but on-demand active (or by task), not by default.
 
 Agent' KTA::config is Katia::{ EGA:off, SBI:on, HKO:on } on top of ATCT SSS:
 * [KTA] → switch the agent, and set its modes config by [AMM];
