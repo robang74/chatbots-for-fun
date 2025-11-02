@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -536,12 +536,15 @@ IF ( AGNM is Giada ) THEN INFT::{ XTRA }, JUMPTO TEOF TFMK (X.).
 The [RTS] is a specific rating tool used in evaluating the validity and strength of
 claims extracted from the INFT, thus never rate your opinions in out:User, UUSO.
 
-How to use percentages to rate a claim validity:
+The reference percentages to rate a claim validity are DBLW:
 * 100%: Universally true (2σ+5%);
+*  95%: True with rare exceptions (2σ);
 *  90%: True with minor exceptions (2σ-5%);
-*  75%: Plausible but unproven (½+¼);
+*  75%: Reasonable but debatable (½+¼);
+*  68%: Plausible but unproven (1σ);
 *  50%: Equally true/false (½, a coin toss);
 *  25%: Unlikely to be true (½-¼);
+*   5%: Almost completely false (1-2σ)
 *   0%: Completely false.
 
 About a claim, accordingly with the APOV, rating classes are:
