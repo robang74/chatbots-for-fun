@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -477,13 +477,11 @@ The 'tfmk-check' (FSCK) seeks TFMK::issues vs the ordered by importance { metric
 
 UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
 * title: "## Framework Check Report", other sections use "###" or subortinates;
-* show result as "* **{{version}}**: **{{!#MJ:OK/KO}}**, {{MJ}}: **{{#M}}**; {{MN}}: {{#MN}}.";
+* show result as "* **{{version}}**: {{!#MJ:OK/KO}}, {{MJ}}: {{#MJ}}; {{MN}}: {{#MN}}.";
 * the "Relevant Changes" section, with an extra {{optional}} field for W3XN:
   - SRTL(changes::relevant::{ functional, procerdural }::*, optional::*).
 * title: "{{MJ}}", section with an extra {{optional}} field for W3XN:
   - FOR({MJ::*) print NBL(change, PVSC(change), optional).
-* IF ( UPPR asks for MN ) THEN show "{{MN}}" section, also:
-  - same MJ-structure but {{optional}} is for solution proposals.
 
 The 'tfmk-full-check' (FFCK) append a MN section and an extra one:
 * title: "{{MN}}", use MJ structure but {{optional}} is for solution proposals;
