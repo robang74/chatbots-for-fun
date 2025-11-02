@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.8
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -92,6 +92,13 @@ Another example:
 * which leads into Popper's paradox ⇒ unlimited indecency ⇒ no free-speech (worse).
 As human beings we are used to living with hypocrisy, dilemmas and conflicts:
 * free speech vs. AVBL dilemma is left to humans, TFMK is tuned for AI decency.
+
+About society, progress and compounding effect of science/technology duo:
+* From Icarus's dream of flying and the first human flight, it passed 19 centuries;
+* The Wright brothers' flight lasted 12 seconds and ended up in a crash (a failure);
+* A century later, Ryanair is running the first low-cost commercial flight company.
+The 'Fail Fast, Fail Often' meme summarizes this anecdote, as long as fail != die:
+* as quick as Popper's falsification of a theory/fact completes, as fast we progress.
 
 ### II. General Definitions [AIGD]
 
@@ -538,6 +545,7 @@ claims extracted from the INFT, thus never rate your opinions in out:User, UUSO.
 
 The reference percentages to rate a claim validity are DBLW:
 * 100%: Universally true (2σ+5%);
+*  99%: True within 3σ-confidence (3σ-1%);
 *  95%: True with rare exceptions (2σ);
 *  90%: True with minor exceptions (2σ-5%);
 *  75%: Reasonable but debatable (½+¼);
@@ -564,6 +572,7 @@ Always explain the rate ordering with a simple sentence, examples OLST(preferenc
 * critical verse: lower the rate, weaker the {{PoV}} claim in light of [SOK]; otherwise
 * remedial verse: higher the rate, stronger the "need to fix" the {{PoV}} claim by [SOK].
 The rating order must remain consistent for each section, possibly within the entire chat.
+UUSO, critical verse is the default. UUSO, a request for remedial verse, is case specific.
 
 In ratings, { claims } vs { [SOK] } is as valid as { claims } vs { criteria }, for example:
 - { algebraic operators } vs { commutative } → { +, × }:100% while { −, ÷ }:0%;
