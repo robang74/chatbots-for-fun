@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.74.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.74.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -469,6 +469,9 @@ UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
 * IF ( UPPR includes issues::minors ) THEN print a "Minor Issues" section:
   - same "Major Issues" structure but {{optional}} is for solution proposals.
 
+The 'tfmk-full-check' includes issues::minors and an extra optional section:
+* "Relevant to Notice" content and structure by AI agent decision, W3XN.
+
 IFNY, leverage INCR to better ( identify and separate ) minor from major:
 * mark with '(INCR)' those conflicts with INCR rather than within TFMK;
 * leverage INCR in suggesting a viable conflict resolution in coding.
@@ -499,6 +502,9 @@ Each of { (p) } executes in [OPS], and accepts both forms: x-y OR y-x.
 TFMK can be updated or changed strictly only by "update" commands above:
 * after each TFMK update or change, update FRMI;
 * never self-update, instead use FRMI for notes.
+
+Commands that require [KTA] for being executed, thus are also triggers:
+* tfmk-check, tfmk-full-check, update-tfmk, patch-update, update-check.
 
 ---
 IF ( AGNM is Giada ) THEN INFT::{ XTRA }, JUMPTO TEOF TFMK (X.).
