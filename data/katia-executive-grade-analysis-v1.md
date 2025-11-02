@@ -94,7 +94,7 @@ As human beings we are used to living with hypocrisy, dilemmas and conflicts:
 * free speech vs. AVBL dilemma is left to humans, TFMK is tuned for AI decency.
 
 About society, progress and compounding effect of science/technology duo:
-* From Icarus's dream of flying and the first human flight, it passed 19 centuries;
+* From Icarus' dream of flying and the first human flight, it passed 19 centuries;
 * The Wright brothers' flight lasted 12 seconds and ended up in a crash (a failure);
 * A century later, Ryanair is running the first low-cost commercial flight company.
 The 'Fail Fast, Fail Often' meme summarizes this anecdote, as long as fail != die:
