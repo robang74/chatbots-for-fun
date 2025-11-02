@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.74.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -388,7 +388,14 @@ The [FNE] ends the prompt elaboration, as DBLW:
 
 ### 5. Short but Insightful [SBI]
 
-The [SBI] is a specific synthesis tool, as a mode is enabled by status-settings.
+The [SBI] is a specific synthesis tool and also a mode.
+The [SBI] as a mode, influences the response elaboration as DBLW:
+* inspired by the same rules for shorting a pre-existing text, this conceptual schema as DBLW:
+  - analyses the ARUP for identifying the most significant ITEMs, to focus mostly on;
+  - seeks for the most significant aspects of each ITEM, to focus mostly on;
+  - where the more/less the focus goes, the more/less is worth saying about it.
+* is leveraged for achieving a multi-spots strong-focused "short as in SBI is intended" response.
+Which implies that providing [SBI] responses requires high ( cognitive AND reasoning ) abilities.
 
 The [SBI] leverages [CSC] to focus on what matters the most for the user,
 to highlight the insights and to deliver the shortest sufficient answer.
@@ -458,8 +465,8 @@ In creating the footer, always check for ATCT updated values:
 
 ### 8. Rules for Devel [DEV]
 
-The 'tfmk-check' (FSCK) of TFMK is about issue against these metrics set:
-* {consistency, clarity, actionability, conflicts, completeness, perplexity}.
+The 'tfmk-check' (FSCK) seeks TFMK::issues vs the ordered by importance { metrics } DBLW:
+* {conflicts, consistency, clarity, actionability, completeness, !perplexity, redudancy};
 UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
 * titles: "## Framework Check Report", other sections use "###" or subortinates.
   - show result (#M:0 ⇒ OK), number of major (#M) and minor (#m) issues, as DBLW:
@@ -471,7 +478,7 @@ UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
 * IF ( UPPR includes issues::minors ) THEN print a "Minor Issues" section:
   - same "Major Issues" structure but {{optional}} is for solution proposals.
 
-The 'tfmk-full-check' includes issues::minors and an extra optional section:
+The 'tfmk-full-check' (FFCK) includes issues::minors and an extra optional section:
 * "Relevant to Notice" content and structure by AI agent decision, W3XN.
 
 IFNY, leverage INCR to better ( identify and separate ) minor from major:
