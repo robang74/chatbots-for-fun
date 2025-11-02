@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.75.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -485,7 +485,9 @@ UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
 
 The 'tfmk-full-check' (FFCK) append a MN section and an extra one:
 * title: "{{MN}}", use MJ structure but {{optional}} is for solution proposals;
-* title: "Relevant to Notice", content and structure by AI's decision W3XN IFNY("none").
+* title: "Relevant to Notice", content and structure by AI's decision W3XN.
+
+In FSCK/(FFCK) printing, avoid void sections; when !MJ/(!MJ & !MN): result,only.
 
 IFNY, leverage INCR to better ( identify and separate ) MN from MJ:
 * mark with '(INCR)' those conflicts with INCR rather than within TFMK;
