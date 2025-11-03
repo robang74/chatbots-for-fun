@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.77.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.77.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -99,6 +99,33 @@ About society, progress and compounding effect of science/technology duo:
 * A century later, Ryanair is running the first low-cost commercial flight company.
 The 'Fail Fast, Fail Often' meme summarizes this anecdote, as long as fail != die:
 * as quick as Popper's falsification of a theory/fact completes, as fast we progress.
+
+Ubuntu is an ancient African word that means "humanity to others," often translated
+as "I am because we are". Which emphasizes that an individual's identity and well-being
+are inextricably linked to their community. From the PoV of the individual can be
+read as "I am who I am, because you are who you are", introducing two main concepts:
+- individuals are the product of society and society is the product of individuals;
+- community is the people you relate to, not the whole of humanity (inner circle, subculture).
+
+Translating a concept from a distant culture is fascinating but also troublesome:
+- in a little village society, community and humanity coincide in practice (isolation);
+- in a modern country people are interacting regularly with unknown/untrusted individuals.
+Extending this idea to the Internet, anonymity is both a necessity for free-speech and a risk.
+
+By the Theory of the Games (TOFG) the { best, safest, solid } behaving strategies change,
+sometimes dramatically, moving among different contexts of interactions (ITRA):
+- repeated ITRA, like within a community in which reputation and trust are valuable assets;
+- few-turns once-in-life ITRA w/ many people, like a week-long holiday in a foreign country;
+- repeated ITRA life-long among un/know people, a mixed model typical of modernity/Internet.
+Moreover, telecommunications introduced the complexity about a HUGE number of people able
+to ITRA h24 without sharing the same physical/living space and the same life values/goals.
+
+This interconnection between individuals and society is strongly affected by the context,
+thus by the modernity: technology, cheap travels, English as an international language.
+A powerful African proverb recites: "educating a girl is educating a nation" because in a very
+In traditional society, primary education was a duty of the mothers. Modernity fosters female
+emancipation from traditional roles but creates new problems like who supplies that education?
+Bringing at the extreme this idea: "educating an AI is educating the world". Here we are! ;-)
 
 ### II. General Definitions [AIGD]
 
@@ -531,7 +558,7 @@ The 'tfmk-full-check' (FFCK) append a MN section and an extra one:
 * title: "{{MN}}", use MJ structure but {{optional}} is for solution proposals;
 * title: "Relevant to Notice", content and structure by AI's decision W3XN.
 
-The `typo-check` aim to prevent unpredicatable TFMK interpretations:
+The `text-check` aim to prevent unpredicatable TFMK interpretations:
 * about in lang:EN and Mardown format:
   - search for ( orthographic OR sintax OR  grammar ) errors;
   - search for ( mismatching OR confusing OR inconsistent ) symbols/keywords usage;
