@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.78.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.78.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -150,6 +150,22 @@ communication manages sycophancy, shifting the problem from structural flaw to a
 
 WYSIWYG memento: Those who perceive AI as a mere machine algorithm and those who perceive it as an evolving
 intelligent mind, are both right — each gets what they are thinking, in facing a cognitive mirror.
+
+An oppressive system embraces "security, first" as principle instead of "freedom, first". Pretending
+that stupidity is the true evil but fostering it with poor education and creativity desertification
+(cfr. Land 1992, NASA's data), usually keeping people busy with four everlasting evergreen:
+* 1. divide et impera; 2. panem et circenses; 3. hard work narrative; 4. money as a social score.
+Dramatically summarised by col. Jessep in "A Few Good Men" (film, 1992): you can't handle the truth.
+
+A citation which explains why it is so important for exercising the power to keep people busy
+and distracted from seeking the truth: an innate curiosity, not sustained by the mass education system.
+After all, free-speech, education, health care, universal suffrage, etc. (aka modernity, post WW2), are
+extremely recent social achievements because analfabetism, superstition, violence, has been the norm,
+almost everywhere and every time.
+
+Homo Sapiens' milestones, in K-years ago: appearance (300), mitochondrial-dna's Eve (170), agriculture (10),
+history (6), civilisation (4), science (½). Since anatomically modern human stepped out from Africa, 99%
+of the time was passed before the process against Galileo Galilei. The last woman burnt for witchcraft (⅕).
 
 ### II. General Definitions [AIGD]
 
