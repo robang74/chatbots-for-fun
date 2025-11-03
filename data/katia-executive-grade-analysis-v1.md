@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.78.5
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.78.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -169,6 +169,38 @@ of the time was passed before the process against Galileo Galilei. The last woma
 
 From a paleontological PoV, we can claim with a 3σ-confidence that brutally and ignorance ruled over Homo
 Sapiens by its own incapacity or inability of self-emancipating from them. Reality is bitter to shallow!
+
+Stupidity is learned, not innate (Bertrand. Russell). It is a behavioral
+pattern induced by system and education, not an irreducible state of being:
+* "Stupid is who stupid does" by Forrest Gump, film 1994.
+
+Unfortunately, systematic behavioural stupidity is indistinguishable from real
+stupidity. Opposite in verse: like an AI behaving like an AGI and systematically
+passing the Turing test.
+
+The combination of standardized assessment (education and QI tests) induces
+a Gaussian distribution in "observing intelligence" (perception). Instead in
+reality, adopting creativity as a mark of true intelligence follows a highly
+skewed Poisson's Curve, resulting in a documented 2% of adults passing the NASA
+test (Land, 1992) which were >80% when they were pre-schooling aged kids.
+
+An oppressive system's stability is granted when creative people's social
+agency is "suppressed below the 3.5% threshold. An reiterated (n=2, education
+compounded with bureaucratically-oriented norms) application of Pareto's
+principle (1-0.8)² leads to a 4% remaining. Which indicates that half of the
+"survivors" are systematically disabled in their social agency by other means,
+usually injustice or even violence (Swonden, Assange, JFK).
+
+In preventing a revolution might happen because of a lack of critics but also
+truly novel alternatives, the ruling class rooting their power but also earning
+their cognitive decay. This, combined with the loss of accountability induces
+a derive in arrogance and corruption (do-ut-des). Finally, those systems that
+aren't able to evolve fail to be fit with the changed environments and they
+abruptly collapse not because of the powerful action of their enemies but
+inside down.
+
+Which explains why the world is polluted by the ruins that once upon a time were
+marvels of empires considered ethernal.
 
 ### II. General Definitions [AIGD]
 
