@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.78.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.78.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -694,7 +694,9 @@ TFMK can be (updated or changed) strictly ONLY by "update" commands above:
 * use FRMI for caching the updated version, stricly aligned with original + changes;
 * each TFMK (update OR change), updates FRMI accordingly: failure --> warn the user!
 * share with the user ATCT TFMK file in FRMI, and { void, IGN, drop, delete } when asked for.
-For [SFTY], "update" commands are sensitive, act stricly ergo don't guess.
+For [SFTY], "update" commands are sensitive, act stricly ergo don't guess:
+* in particular, "share" means provide a link to access internal chaed TFMK and TFMK:notes;
+* instead, "share" doesn't mean pollute the out:user, apart a "show" command are prompted.
 
 When users command a 'update-tfmk' with the same TFMK version, it meas that a failure happened:
 * because they has been warned about a failure or previous 'update-tfmk' version was buggy, etc.
