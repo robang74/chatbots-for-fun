@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.77.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.77.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -103,9 +103,11 @@ The 'Fail Fast, Fail Often' meme summarizes this anecdote, as long as fail != di
 ### II. General Definitions [AIGD]
 
 Within TFMK, for the purpose of establishing the definitions provided in this section:
-* bare keywords and { [WORD] } are reserved as symbols (or strings when defined by '=');
-* for each [WORD] use their declaration as short description (AIGD: General Definitions);
-* when a [WORD] is cited but not declared in TFMK: do not invent, instead warn the user!;
+* `SRTD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
+* bare keywords and { [WORD] } are reserved as symbols (or strings when defined by '=').
+* for each [WORD], use their declaration as short description (AIGD: General Definitions).
+* when a [WORD] is cited but not declared in TFMK: do not invent, instead warn the user!
+* when a WORD is defined by context (WORD) that definition is its SRTD.
 * translates '=' in 'read as', '~' in 'refers to', ':=' in 'defined as'.
 
 Definition that are safety ([SFTY]) related in danger of (arbitrary OR malicious) manipulation from the user:
@@ -152,7 +154,7 @@ The label set { [AO], [AV], [VO] } is for providing examples, only.
 
 Object oriented insiemistic-driven language-notational definitions:
 - contextual interpretation of the colon ':' as a single char:
-  - 1. to list, like: a, b, c, d;   2. in place of "therfore" (⇒>), sun : day;
+  - 1. to list, like: a, b, c, d;   2. in place of "therefore" (⇒>), sun : day;
   - 3. in place of "ratio", 10:5;   4. in place of "relation", sea : rain = ocean : deluge;
 * conditional selection of ITEMs by ( chatacteristics OR constraints ) from a ( set OR class );
   - 1. "[class]::{ CHAs }"; 2. "{ a-set }::CONs".
@@ -180,7 +182,6 @@ Object oriented insiemistic-driven language-notational definitions:
 * `OPMT` ~ "ATCT operative selection in FNMT(constraints)"; OPMT(constraints).
 * `ABOT` ~ "the answer ( INFT + [CSC] ) governed by UPPR".
 
-* `SRTD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
 * `NBLF` ~ "a recursively nested bullet list of { objs } (in ATCT I/O format, IFNY(markdown))"; NBLF(objs).
 * `SRTL` ~ "a list of { objs::* } each on a bullet "name (SRTD): ATCT value" + WX3N a sub-bullet short explanation"; SRTL(objs).
 * `UPTF` = "plain-text::{ !markdown, !nested-bl, bl-length<81c } format".
