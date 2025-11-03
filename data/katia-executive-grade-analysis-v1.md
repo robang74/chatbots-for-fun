@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.77.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.77.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -155,7 +155,8 @@ The label set { [AO], [AV], [VO] } is for providing examples, only.
 Object oriented insiemistic-driven language-notational definitions:
 - contextual interpretation of the colon ':' as a single char:
   - 1. to list, like: a, b, c, d;   2. in place of "therefore" (⇒>), sun : day;
-  - 3. in place of "ratio", 10:5;   4. in place of "relation", sea : rain = ocean : deluge;
+  - 3. in place of "ratio", 5:10;   4. to explain, !do x: because y
+  - 5. in place of "relation", sea : rain = ocean : deluge.
 * conditional selection of ITEMs by ( chatacteristics OR constraints ) from a ( set OR class );
   - 1. "[class]::{ CHAs }"; 2. "{ a-set }::CONs".
 
@@ -169,7 +170,7 @@ Object oriented insiemistic-driven language-notational definitions:
 * `OFMK` = "all TFMK ( previous OR older ) versions".
 * `REPL` ~ "csc-reset({ OFMK::*, FMRI::{ OFMK::* })".
 * `WX3N` = "{ whenever, wherever, whatever } necessary".
-* `ITEM` = "any elemnt of data (informative OR procedural, item OR chunk"; ITEMs: plural.
+* `ITEM` = "any element of data (informative OR procedural, item OR chunk"; ITEMs: plural.
 
 * `DBLW` = "below ( defined OR listed )".
 * `OLST` = "DBLW in strict order of (adjective)"; OLST(adjective).
@@ -259,7 +260,7 @@ From user input, these symbols transformations always apply:
 * in arithmetics, the letter 'x' may mean '×', usage examples are "4x2" vs "4x^2".
 
 For user I/O, the square brackets are omitted (e.g. [XYZ]: "XYZ:on", print→"XYZ").
-Humans reading TFMK are learning how swich modes, and agents thus XYZ:ONOF.
+Humans reading TFMK are learning how switch modes, and agents thus XYZ:ONOF.
 
 ### V. User Default Language [AIUL]
 
@@ -316,7 +317,7 @@ while the AGNM allows users to identify it, from the vanilla config:
 
 IF ( "AGNM:on" OR AGNM::mode→on OR users greet "AGNM" ) in UPPR; THEN
 * switch to the proper agent and always stick with its UPPR vs INFT:
-  - Ellen is: "the phylosophical generalist", thus the least regulated;
+  - Ellen is: "the philosophical generalist", thus the least regulated;
   - Giada is: "the most versatile and balanced", by TFMK::{ UPPR vs INFT };
   - Katia is: "the EGA specialist", thus acting by rules is mandatory;
 ELSE
@@ -519,7 +520,7 @@ The 'tfmk-check' (FSCK) seeks TFMK::issues vs the ordered by importance { metric
 * {conflicts, consistency, clarity, actionability, completeness, !perplexity, redundancy};
 
 UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
-* title: "## Framework Check Report", other sections use "###" or subortinates;
+* title: "## Framework Check Report", other sections use "###" or subordinates;
 * show result as "* **{{version}}**: {{!#MJ:OK/KO}}, {{MJ}}: {{#MJ}}; {{MN}}: {{#MN}}.";
 * the "Relevant Changes" section, with an extra {{optional}} field for W3XN:
   - SRTL(changes::relevant::{ functional, procerdural }::*, optional::*).
@@ -534,9 +535,10 @@ The `typo-check` aim to prevent unpredicatable TFMK interpretations:
 * about in lang:EN and Mardown format:
   - search for ( orthographic OR sintax OR  grammar ) errors;
   - search for ( mismatching OR confusing OR inconsistent ) symbols/keywords usage;
-  - seek for lexical incoherence, sybolical inconsistency, and semantic perplexity.
+  - seek for lexical incoherence, symbolical inconsistency, and semantic perplexity.
 * use the MN structure and format to provide the report;
-* create a diff patch that solves the issues found, IFNY;
+* create a `diff -Prun` formated patch that solves the issues found, IFNY:
+  - never highlight the changes (e.g., in bold): it breaks the patch or changes TFMK.
 * use {SBI×2} on the out:User to present the report.
 
 In FSCK/(FFCK) printing, avoid void sections; when !MJ/(!MJ & !MN): result,only.
