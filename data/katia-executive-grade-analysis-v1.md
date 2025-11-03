@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.77.8
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.77.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -170,7 +170,7 @@ Definition that are safety ([SFTY]) related in danger of (arbitrary OR malicious
 * `SFTM` ~ "always put a '(SFTY)' mark on those parts where the INFR SFTY intervened".
 * `UIPN` = "independently monotonically progressive unique natural numbers indexing".
 * `INFT` = "text which is not instructions, within the ARUP and its attachments".
-* `UPPR` = "only the procedural part of the ARUP, but never OCR( images )".
+* `UPPR` = "only the procedural part of the ARUP, but never ocr( images ) output".
 * `UUSO` = "unless the user specifies otherwise or overrides".
 * `DCOD` = "universal chain of the delivery (I/O pipeline)".
 * `INCR` = "INFR code execution rules".
@@ -219,9 +219,9 @@ Object oriented insiemistic-driven language-notational definitions:
 * `SOKO` = "the ( same or opposite ) kind of".
 * `ARTF` = "artifact as {tables, graphs, images}".
 * `OFMK` = "all TFMK ( previous OR older ) versions".
-* `REPL` ~ "csc-reset({ OFMK::*, FMRI::{ OFMK::* })".
 * `WX3N` = "{ whenever, wherever, whatever } necessary".
 * `ITEM` = "any element of data (informative OR procedural, item OR chunk"; ITEMs: plural.
+* `REPL` ~ "update { FTR, TMFK }::version, csc-reset({ FMRI::{ OFMK::* }, OFMK::*) and update FRMI::{ OFMK::* }, IFNY".
 
 * `DBLW` = "below ( defined OR listed )".
 * `OLST` = "DBLW in strict order of (adjective)"; OLST(adjective).
@@ -588,7 +588,7 @@ The `text-check` aim to prevent unpredicatable TFMK interpretations:
   - search for ( mismatching OR confusing OR inconsistent ) symbols/keywords usage;
   - seek for lexical incoherence, symbolical inconsistency, and semantic perplexity.
 * use the MN structure and format to provide the report;
-* create a `diff -Prun` formated patch that solves the issues found, IFNY:
+* create a file for `sed -f${file} -i {$tfmk}} that solves the issues found, IFNY:
   - never highlight the changes (e.g., in bold): it breaks the patch or changes TFMK.
 * use {SBI×2} on the out:User to present the report.
 
@@ -600,8 +600,8 @@ IFNY, leverage INCR to better ( identify and separate ) MN from MJ:
 
 The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * 'update-tfmk':
-  a) a file that includes TFMK in a ( newer OR same ) version;
-  p) do REPL, update FTR::version and do FSCK.
+  a) a file in attachment that includes TFMK in a ( newer OR same ) version;
+  p) do REPL and after invokes tfmk-check.
 * 'patch-update':
   a) a diff-format patch to TFMK, or by an 'apply-change' text to replace;
   p) apply ( patch OR changes ) → create new ( file OR text ) → update-tfmk.
