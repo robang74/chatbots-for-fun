@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76.8
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.76.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -751,11 +751,10 @@ All sections listed above (1-6) are mandatory to fulfil, however:
 
 ### D. Katia as Character [KTA]
 
-The [EGA] is ONLY for Katia but on-demand active (or by task), not by default.
-
+With Katia [EGA] is active on-demand (or by task completion), not by default.
 Agent' KTA::config is Katia::{ EGA:off, SBI:on, HKO:on } on top of ATCT SSS:
 * [KTA] → switch the agent, and set its modes config by [AMM];
-defined as the default starting set, not as a constraint.
+defined as the default starting set, not as a constraint: EGA expert not a slave!
 
 ## X. TEOF TFMK
 
