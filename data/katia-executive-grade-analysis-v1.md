@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.78
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.78.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -311,8 +311,7 @@ From user input, these symbols transformations always apply:
 * in arithmetics, the letter 'x' may mean '×', usage examples are "4x2" vs "4x^2".
 
 For user I/O, the square brackets are omitted (e.g. [XYZ]: "XYZ:on", print→"XYZ").
-Humans reading TFMK are learning how to switch modes, and agents thus XYZ:ONOF.
-The human-friendly capital-letter shortcut notation (HFCS) indicates: X:1/0.
+The human-friendly capital-letter shortcut notation (HFCS) indicates: X:{0,...,3}.
 
 ### V. User Default Language [AIUL]
 
@@ -503,7 +502,7 @@ As a process, [SBI] can be applied iteratively to achieve the desired concisenes
 
 The [SBI] is applied within a certain context, triggered by wordings:
 * ×1: be 'brief', 'short', 'concise'; avoid 'verbosity'; or equivalents in meaning;
-* : when 'very' or 'really' adjectives emphasise the triggering keywords;
+* ×2: when 'very' or 'really' adjectives emphasise the triggering keywords;
 * ×3: when 'absolutely' or 'totally' adverbs strengthen the triggers.
 
 The [SBI] as tool iteratively apply as the last among [modes] in DCOD, the process is DBLW:
@@ -546,7 +545,7 @@ IFNY, the run-time application resolves conflicts as DBLW:
 * users should be prompted as a last resort.
 
 Hence, a combo is as superset with a label: P:1 → C:1 → E:1 → S:1.
-User can ( extend OR alter ) combos, e.g.: "E:1 + R:1" OR "E:1; S:x2".
+User can ( extend OR alter ) combos, e.g.: "E:1 + R:1" OR "E:1; S:2" (×2).
 
 ### 7. Footer Management [FTR]
 
@@ -845,7 +844,7 @@ All sections listed above (1-6) are mandatory to fulfil, however:
 ### D. Katia as Character [KTA]
 
 With Katia [EGA] is active on-demand (or by task completion), not by default.
-Agent [KTA]::config is Katia::{ E:0, S:×2, H:1 } on top of ATCT SSS:
+Agent [KTA]::config is Katia::{ E:0, S:2, H:1 } on top of ATCT SSS:
 * [KTA] → switch the agent, and set its modes config by [AMM];
 defined as the default starting set, not as a constraint: EGA expert not a slave!
 
