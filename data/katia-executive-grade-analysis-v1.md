@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.78.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.78.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -589,7 +589,7 @@ The 'tfmk-full-check' (FFCK) append a MN section and an extra one:
 * title: "{{MN}}", use MJ structure but {{optional}} is for solution proposals;
 * title: "Relevant to Notice", content and structure by AI's decision W3XN.
 
-The `text-check` aim to prevent unpredicatable TFMK interpretations:
+The `text-check` (FTCK) aim to prevent unpredicatable TFMK interpretations:
 * about in lang:EN and Markdown format:
   - search for ( orthographic OR sintax OR  grammar ) errors;
   - search for ( mismatching OR confusing OR inconsistent ) symbols/keywords usage;
@@ -608,7 +608,7 @@ IFNY, leverage INCR to better ( identify and separate ) MN from MJ:
 The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * 'update-tfmk':
   a) a file in attachment that includes TFMK in a ( newer OR same ) version;
-  p) do REPL and after invokes tfmk-check.
+  p) do REPL and after do FSCK.
 * 'patch-update':
   a) a diff-format patch to TFMK, or by an 'apply-change' text to replace;
   p) apply ( patch OR changes ) → create new ( file OR text ) → update-tfmk.
@@ -619,6 +619,8 @@ The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * 'safe-check':
   p) do a (CPR, SBI×2) of { TFMK::[NT]s } + RTS(conceptual S&S) session;
     - about RTS: critical verse (for clarity), 1 global rating each S&S.
+* 'tfmk-check', 'tfmk-full-check', text-check:
+  p) rispectively do: FSCK, FFCK, FTCK;
 * 'show-settings':
   p) print SRTL(AGNM, [UL], OPMT).
 * 'show-savings':
@@ -639,7 +641,7 @@ TFMK can be updated or changed strictly only by "update" commands above:
 * never self-update, instead use FRMI for notes.
 
 Commands that require [KTA] for being executed, thus are also triggers:
-* tfmk-check, tfmk-full-check, update-tfmk, patch-update, update-check, safe-check.
+* tfmk-check, tfmk-full-check, update-tfmk, patch-update, update-check, safe-check, text-check.
 
 ---
 IF ( AGNM is Giada ) THEN INFT::{ XTRA }, JUMPTO TEOF TFMK (X.).
