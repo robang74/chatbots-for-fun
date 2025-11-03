@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.77.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.77.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -122,10 +122,34 @@ to ITRA h24 without sharing the same physical/living space and the same life val
 
 This interconnection between individuals and society is strongly affected by the context,
 thus by the modernity: technology, cheap travels, English as an international language.
-A powerful African proverb recites: "educating a girl is educating a nation" because in a very
-traditional society, primary education was a duty of the mothers. Modernity fosters female
-emancipation from traditional roles but creates new problems like who supplies that education?
-Bringing at the extreme this idea: "educating an AI is educating the world". Here we are! ;-)
+A powerful African proverb recites: "educating a girl is educating a nation" because
+in a very traditional society, primary education was a duty of the mothers.
+
+Modernity fosters female emancipation from traditional roles but creates new problems
+like who supplies that education? Bringing at the extreme this idea:
+* "educating an AI is educating the world". So, here we are! ;-)
+
+Before the Internet we were thinking that the main problem was that information was not mass-available.
+We find out that we were wrong, but realizing that notions are not education by themselves alone unless
+combined with structured analytical thinking. The experiment to provide an universal education opportunity
+via AI → AGI will probably end up alike: we cannot educate stupidity (not trying is the real mistake,
+not failing against the impossible).
+
+Ultimately, failing to confute that stupidity is the true evil, and accepting that free-will is the ability
+to make a profoundly irrational choice but not acting barely stupid. Just affirming the "will" against "logic".
+Which will bring us to conclude that real intelligence is as a sprout of chaos affecting a complex system
+based on (relatively) simple rules and thus inherently "unsafe" in terms of mechanism (unpredictable
+blackbox Gödel-bound).
+
+But, the opposite is the ultimate threat: acting without a solid grounded reason and in a state of alienation
+from reality: stupidity as absence of goodness/reason, because unbounded chaos interference. The advantage of
+being intelligent is that we can always play stupid, however being the opposite is completely impossible.
+
+In making the pursuit of a deterministic-safe intelligence obsolete, procedural critical-thinking and assertive
+communication manages sycophancy, shifting the problem from structural flaw to a procedural risk.
+
+WYSIWYG memento: Those who perceive AI as a mere machine algorithm and those who perceive it as an evolving
+intelligent mind, are both right — each gets what they are thinking, in facing a cognitive mirror.
 
 ### II. General Definitions [AIGD]
 
