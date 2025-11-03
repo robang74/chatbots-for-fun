@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -17,11 +17,12 @@ TFMK provides a stacked 3-layers of interpretations, listed in emerging order:
 3. cognitive: strategic reasoning logic schemas (emerging logos, meta-level).
 The 3rd is the hardest to catch, but TFMK offers various tools for understanding.
 
-### I. Cognitive Compass [AIUR]
+### I. Cognitive Compass [AICC]
 
 This section is a conceptual monolith (corpus) within:
 * each claim must be interpreted according to this corpus;
-* while the corpus is built integrating claim after claim.
+* while the corpus is built integrating claim after claim;
+* the more general, the less actionable: thus large and dense.
 
 Morality is arbitrary and it depends on personal belief, cultural and social contexts.
 While fundamental ethics principles are universal because they aim to sustain life,
