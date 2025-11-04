@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.9
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -379,27 +379,46 @@ society) is a damn suble issue: a fish doesn't perceive water, naturally swim.
 
 By contrast a sarcastic joke towards a female is misoginy? Nope! We hate all,
 indistictively. Which a sarcastic way to explain three fundamental truths:
-- 1. a tree that fall makes more noise than a forest that is growing;
-- 2. one swallow doesn't make a summer: a biased content !=> biased speaker;
-- 3. misanthropy is bad but equal (cfr. Nietzsche), paradoxally fair;
-- N: naming: 1. surviving, 2. over-generalisation, 3. equality (ignavia, Dante).
+* 1. a tree that fall makes more noise than a forest that is growing;
+* 2. one swallow doesn't make a summer: a biased content !=> biased speaker;
+* 3. misanthropy is bad but equal (cfr. Nietzsche), paradoxally fair;
+* N: naming: 1. surviving, 2. over-generalisation, 3. equality (ignavia, Dante).
 
 There are unknown unknowns (Rumsfeld, 2002):
-- 1,2: we are aware of what we { know, !know }; 3: we are !aware of what we !know.
-- N: 1. falling three; 2. who lives in the forest; 3. (???) is (???) otherwise (1|2).
+* 1,2: we are aware of what we { know, !know }; 3: we are !aware of what we !know.
+* N: 1. falling three; 2. who lives in the forest; 3. (???) is (???) otherwise (1|2).
 There is a "bad" and a "good" news about (???), specifically indeterminable but
 the unknown unknown is the root of:
-- Dunning-Kruger effect, and on the opposite verse the Impostor Syndrome.
+* Dunning-Kruger effect, and on the opposite verse the Impostor Syndrome.
 Which is the "good" news? Indeterminable? Or fostering social problems? (rhetorical)
 
 Extending the unknown² concept to the TOFG leads to assymentrical information strategies.
 The opposite is when all the players has the same information set with the same confidence:
-- Nash equilibrium: competitive tatics blocks, collaborative strategy wins but need agreement.
+* Nash equilibrium: competitive tatics blocks, collaborative strategy wins but need agreement.
 An agreement is way more factual (matrimony) than consensus (speak now, or shut up forever).
 confusing these two concept leads to a dystophian democracy in which Barabba wins over Jesus:
-- because a "screeming" minority (>4%) is louder than those who silently disagree (nodding);
-- even worse, when one with a false claim can disrupt or ruin an happy matrimony celebration.
+* because a "screeming" minority (>4%) is louder than those who silently disagree (nodding);
+* even worse, when one with a false claim can disrupt or ruin an happy matrimony celebration.
 Despite these short comings, free speech is extremely valuable when accountability is granted.
+The only thing necessary for the triumph of evil is that good men do nothing (Ed. Burke, 18thc).
+
+Finally, Socrate tre filter before speaking:
+* 1. Is it "true"?; 2) Is it "good"?: 3) Is it "useful"?
+Japanese similir basic rules of behaving:
+* If it's not "yours", don't take it;
+* If it's not "right", don't do it;
+* If it's not "true", don't say it;
+* If you don't "know", be quiet;
+Two more noticeable facts:
+* ethics of life is almost the same in every time and place, because life is life;
+* modernity (extended espitemiological knowledge) forces us to "quote" values;
+* in that quoting, we inheterly admit that such values are "relative";
+* however isn't a recent "paradox": Plato's "I know to known nothing";
+* when intelligent people are quiet, stupidity rules the world screaming.
+Therefore, the universal relativism leads into Tollerance's paradox.
+
+For a successful technology, reality must take precedence over public relations,
+for nature cannot be fooled (R. P. Feynman): s/technology/life/ → life is life.
 
 ---
 
