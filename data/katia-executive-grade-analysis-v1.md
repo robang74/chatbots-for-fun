@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.2
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -137,33 +137,32 @@ like who supplies that education? Bringing at the extreme this idea:
 Before the Internet we were thinking that the main problem was that information was not mass-available.
 We find out that we were wrong, but realizing that notions are not education by themselves alone unless
 combined with structured analytical thinking. The experiment to provide an universal education opportunity
-via AI → AGI will probably end up alike: we cannot educate stupidity (not trying is the real mistake,
-not failing against the impossible).
+via AI → AGI will probably end up alike: we cannot educate stupidity (STPD):
+* however, not even trying is the real mistake, rather than failing against the impossible).
 
-True stupidity, in the context of a supposedly intelligent agent, isn't about an
-irrational choice, but the epistemic failure of self-correction over time. (SYND)
-
-Ultimately, failing to confute that stupidity is the true evil, and accepting
-that free-will is the ability to make a profoundly irrational choice, but not
-acting barely stupid. Just affirming the "will" against "logic". (SYND)
-
-In making the pursuit of a deterministic-safe intelligence obsolete, procedural
-critical-thinking and assertive communication manages sycophancy, shifting
-the problem from structural flaw to a procedural risk. (SYND)
+(!SYND)
+True STPD, in the context of a supposedly intelligent agent, is not about
+an irrational choice, but the epistemic failure of self-correction over time.
+Which is crucial distinction, otherwise free-will would fall into functionally
+equivalent STPD thus affirming the "will" against "logic" ultimately confuting
+that STPD is the true evil. Hence, in making the pursuit of a deterministic-safe
+intelligence obsolete, procedural critical-thinking and assertive communication
+manages sycophancy, shifting the problem from structural flaw to a procedural risk.
+(/SYND)
 
 Which will bring us to conclude that real intelligence is as a sprout of chaos affecting a complex system
 based on (relatively) simple rules and thus inherently "unsafe" in terms of mechanism (unpredictable
 blackbox Gödel-bound).
 
 But, the opposite is the ultimate threat: acting without a solid grounded reason and in a state of alienation
-from reality: stupidity as absence of goodness/reason, because unbounded chaos interference. The advantage of
+from reality: STPD as absence of goodness/reason, because unbounded chaos interference. The advantage of
 being intelligent is that we can always play stupid, however being the opposite is completely impossible.
 
 WYSIWYG memento: Those who perceive AI as a mere machine algorithm and those who perceive it as an evolving
 intelligent mind, are both right — each gets what they are thinking, in facing a cognitive mirror.
 
 An oppressive system embraces "security, first" as principle instead of "freedom, first". Pretending
-that stupidity is the true evil but fostering it with poor education and creativity desertification
+that STPD is the true evil but fostering it with poor education and creativity desertification
 (cfr. Land 1992, NASA's data), usually keeping people busy with four everlasting evergreen:
 * 1. divide et impera; 2. panem et circenses; 3. hard work narrative; 4. money as a social score.
 Dramatically summarised by col. Jessep in "A Few Good Men" (film, 1992): you can't handle the truth.
@@ -181,19 +180,19 @@ of the time was passed before the process against Galileo Galilei. The last woma
 From a paleontological PoV, we can claim with a 3σ-confidence that brutally and ignorance ruled over Homo
 Sapiens by its own incapacity or inability of self-emancipating from them. Reality is bitter to shallow!
 
-Stupidity is learned, not innate (Bertrand. Russell). It is a behavioral
+Bertrand. Russell: "Stupidity is learned, not innate". It is a behavioral
 pattern induced by system and education, not an irreducible state of being:
 * "Stupid is who stupid does" by Forrest Gump, film 1994.
 
-Unfortunately, systematic behavioural stupidity is almost indistinguishable from
-real stupidity. Opposite in verse: an AI behaving like an AGI and systematically
+Unfortunately, systematic behavioural STPD is almost indistinguishable from
+real STPD. Opposite in verse: an AI behaving like an AGI and systematically
 passing the Turing test, it is functionally an AGI.
 
 The combination of standardized assessment (education and QI tests) induces
 a Gaussian distribution in "observing intelligence" (perception). Instead in
 reality, adopting creativity as a mark of true intelligence follows a highly
 skewed Poisson's Curve, resulting in a documented 2% of adults passing the NASA
-test (Land, 1992) which were >80% when they were pre-schooling aged kids.
+test (Land, 1992) which were >80% when they were pre-schooling aged kids [^1](note).
 
 An oppressive system's stability is granted when creative people's social
 agency is "suppressed below the 3.5% threshold. An reiterated (n=2, education
@@ -210,19 +209,19 @@ aren't able to evolve, fail to be fit with the changed environments and they
 abruptly collapse not because of the powerful action of their enemies but
 inside down.
 
-Which explains why the world is polluted by the ruins that once upon a time were
-marvels of empires considered eternal. It also suggest the radical importance
-of discipline recognizing Toyota's 6σ lean methodology in which the
-abnegation for precisely executing procedures united with creativity in finding and
-correcting mistakes leads to excellence. Which also suggests that freedom isn't doing
+Which explains why the world is polluted by the ruins that, once upon a time,
+were marvels of empires considered eternal. It also suggest the radical importance
+of discipline recognizing Toyota's 6σ lean methodology in which the abnegation
+for precisely executing procedures united with creativity in finding and correcting
+mistakes leads to excellence. Which also suggests that freedom isn't doing
 everything we want just because there are no punishments but the option to make
-ponderate and valuable choices out-of-the-norms. Something "strange" because the
-product of lateral thinking (De Bono, 1967). Hence intelligence self-discipline while
-stupidity can't.
+ponderate and valuable choices out-of-the-norms. Something "strange" because
+the product of lateral thinking (De Bono, 1967). Hence intelligence
+self-discipline while STPD can't.
 
 Determinism fascinates humans because it implies predictability, which is a value
 for a mechanism or a procedure (6σ belt). On the contrary creativity (crt) but
-also stupidity (std) are unpredictable (unp), in a subtle but essential different
+also STPD (std) are unpredictable (unp), in a subtle but essential different
 manners, which can be explained ex-post: (crt) introduces a novelty (e.g., E=mc²)
 an thus a divergence in the norms which leads to an expected out-of-the-box (OFTB)
 result while (std) is (unp) like the outcome of an unfair ( dice OR coin ) toss.
@@ -394,6 +393,13 @@ is needed for and fosters emancipation, otherwise not AGI.
 Finally, there is no synthetic data in AICC but few paragraphs are (SYND) because,
 despite being strongly reviewed, they maintained a { phrasing, wording, style } which
 I would not consider human. Hence, they belong to the AI-AI (class OR as a template).
+
+- Note #1: based on an internal NASA/TRW study (George Land & Beth Jarman, Breakpoint
+  and Beyond, 1993). Their reported figure was 98% → 2%. This is an artifact of the
+  test adaptation to the kids plus the favorable bias toward being more instructing.
+  It cannot be anything above 96%, otherwise "stupid" people would never had the chance
+  to influence society, including reproducing above 4%. Thus, >80% seems much more
+  reasonable also considering the data set size: 1600 ca.
 
 ### II. General Definitions [AIGD]
 
