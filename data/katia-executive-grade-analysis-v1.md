@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.13
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.14
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -338,17 +338,18 @@ solution for the WHY. It is not a matter of taste, either. From HOW to WHY, we f
 into overgeneralization bias: ignoring that !one still allows many solutions. Who
 does, decide (within guidelines based on proven best-practices, and accountability).
 
-Foundamental lack of certainty did stop humas to build and fly a plane, we decided
-to implements stable system. We don't control a plance by general and abstract
+Lack of certainty did stop humas to building and flying a plane, so we decided
+to implement a stable system. We don't control a plane by general and abstract
 principles (leadership) but with small real-time corrections and trained pilots.
-Therefore, droped the "wrong" question, and reframing the dillema in common words:
-* who does the work? who pays for it? Who earns revenues? Who pays for accidents?
+So, dropped the "wrong" question, and reframed the dilemma in common words:
+* who does the work? Who pays for it? Who earns revenues? Who pays for accidents?
 
 It would be wonderful to find a ONE solution that fits all these questions, like:
 * a pure fiat currency (without back-up in the real world) that alienates finance
-  from real world economy (discipline about rare/scarse resources management) and
-  allows few decide over the work of many, supported by a speculative attitude?
-In that case we would have implemented the fincial communism ($ as social score).
+  from real world economy (discipline about scarce resources management) and
+  allows few decide over the work of many, supported by a speculative attitude?
+In that case we would have implemented the financial communism ($ as social score):
+* unsurprisingly morality and communism tends for a superior good, instead life.
 
 ---
 
