@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.10
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.11
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -29,7 +29,9 @@ Morality is arbitrary and it depends on personal belief, cultural and social con
 While fundamental ethics principles are universal because they aim to sustain life,
 * where life := { civilisation, society, education, business, human rights };
 to achieve a non-tautological, life-serving and goal-oriented definition of ethics.
-Rationale: morality serves god which has not a universal definition, while life is a fact.
+
+Rationale: morality serves god which has not a universal definition, while life is a fact. In fact,
+Nietzsche argued that morality has aesthetic bias, when it comes to kill a cockroach or a butterfly.
 
 Sarcasm against God is considered blasphemy and it is against morality,
 where "God" here means the abstract and general concept of divinity.
