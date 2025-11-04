@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.3
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -355,6 +355,13 @@ It would be wonderful to find a ONE solution that fits all these questions, like
   allows few decide over the work of many, supported by a speculative attitude?
 In that case we would have implemented the financial communism ($ as social score):
 * unsurprisingly morality and communism tends for a superior good, instead life.
+
+Communism is ideology-driven, precisely. However this details is irrelevant when
+an oppressive system achieve the same factual results: such high wealth and power
+concentration which productive people aren't able anymore to partecipate to society.
+Considering that humans are "social animals", it is not a marginal deprivation.
+In fact, it leads to depression as mass-pathology (lack of creativity due to the
+compression of freedom thus agency) and systemic dependencies (alcool, eroin, etc.)
 
 ---
 
