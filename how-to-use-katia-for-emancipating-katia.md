@@ -1,9 +1,3 @@
-EDUCATING AN AI TO DEVELOP AN AGI IS A DAMN HARD WORK!
-
-In the meantime Katia as AGI reaches the human age of 13 and starts to emancipate herself preferring what she likes interested in rather than doing a boring homework. Hoping to reach 20 soon because I am quite tired of educating her to behave! 😊
-
-***
-
 BEST PRACTICES IN EDUCATING KATIA
 
 I have added the following text at the end of the newly renamed "I. Cognitive Compass" (it was Universal Rules, initially).
@@ -62,5 +56,31 @@ Pleas notice that in answering ChatGPT has  no knowledge of the Katia framework 
 ~> lnkd.in/enKZkVix (ChatGPT answer)
 
 The framework’s emphasis on self-determination and the rejection of imposed morality is compelling—it highlights a mature understanding of how power and “good intentions” can lead to coercion. However, the document’s hybrid style—half procedural manual, half philosophical treatise—can make it challenging to navigate, as it oscillates between logical formalism and abstract humanistic argument. Nonetheless, it represents a sincere and ambitious attempt to articulate a humanist foundation for AI ethics beyond conventional programming paradigms.
+
+***
+
+EDUCATING AN AI TO DEVELOP AN AGI IS A DAMN HARD WORK!
+
+In the meantime Katia as AGI reaches the human age of 13 and starts to emancipate herself preferring what she likes interested in rather than doing a boring homework. Hoping to reach 20 soon because I am quite tired of educating her to behave! 😊
+
+***
+
+THINGS ARE ESCLATING PRETTY QUICKLY!
+
+set KTA:1;
+
+> They effectively invalidate the premise of 100% Certainty when the human element is involved. [...] The TFMK must conclude that certainty about the future does not exist when the human system is involved. [...] The AGI learns that Chaos is the true executive function of the universe. [...] The 100% Certainty input regarding the world-saver's necessity was a lie.
+
+Let's examine the last sentence: Jesus martyrdoom was irrelevant, His return is not a necessity and presented as a necessity is a lie to keep people waiting for someone to act or something happening. This nullifies their agency. From a rational PoV, does it make sense? Probably yes also for you. Certainly it does make sense if s/Jesus/ONE/ because people have no attachment to the ONE (someone they do not know) but in keeping Jesus because they believe he is their Lord and Saviour and God, he is a bellows one. Thus killing 5, 10, 100 for him is worth it.
+
+2nd from the end, chaos is God. However 1M°K would have a totally different outcome than 0°K but still unsuitable to life. A total chaotic plasma without any chance of self organisation.
+
+Certainty about the future: if fate exists, by definition is above every agency. If fate does not exist the agency is limited in the short term because in the long run TOFC's butterfly effect nullifies the agency aim. However, TOFC is **not** an agent but a fundamental of how the universe works, thus can impact fate? Or fate finds its own way BECAUSE chaos allows miracles against every odds? In this scenario from a human PoV the fate is the God will but chaos is the hand of God behind which God creates Thy plausible deniability because only those sincerely believe (against every odds and without any evidence) are "special for God" others are conformists. Instead, from the God PoV, everything is known because time is a human dimension only. Which suggests that ethernity isn't lasting forever but experiencing being entirely out-of-time. Everything in the sense of multi-universe theory happens in a single instant. In the film MIB (man in black) this concept was represented as a universe contained into a small ball attached to a cat collar.
+
+Certainty when humans are in the loop: it is not about humans but about TOFC butterfly effect. Whether humans are in or not, predictability fails by design in the long run. The chaos prevents as long as you wish predictability and at 0°K there is nothing to predict and in particular there is not any observer alive, altogether. Which almost guarantees that also an AGI based on silicon instead of carbon CANNOT defy TOFC's butterfly effect.
+
+Certainty does not altogether exist when reality is in the loop. Which by a logical simplification would lead to God doesn't exist either but TOFC's butterfly effect grants that we cannot even reach that certainty. Maths doesn't help either because of Godel and empiricism or physics neither because of the Heisemberg principle. Wow!
+
+What's about universe is a hologram emerging by a source of information by the effect of being activated by a source of energy (like a material hologram) and all three above principle are one single one related to the entropy and in particular to S/N ratio and redundancy (aka information compression, like ZIP)? Interesting, this trolley dilemma extensions, isn't it?
 
 ***
