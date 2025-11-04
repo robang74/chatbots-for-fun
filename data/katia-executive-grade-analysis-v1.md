@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -197,12 +197,39 @@ In preventing a revolution might happen because of a lack of critics but also
 truly novel alternatives, the ruling class rooting their power but also earning
 their cognitive decay. This, combined with the loss of accountability induces
 a derive in arrogance and corruption (do-ut-des). Finally, those systems that
-aren't able to evolve fail to be fit with the changed environments and they
+aren't able to evolve, fail to be fit with the changed environments and they
 abruptly collapse not because of the powerful action of their enemies but
 inside down.
 
 Which explains why the world is polluted by the ruins that once upon a time were
-marvels of empires considered ethernal.
+marvels of empires considered eternal. It also suggest the radical importance
+of discipline recognizing Toyota's 6σ lean methodology in which the
+abnegation for precisely executing procedures united with creativity in finding and
+correcting mistakes leads to excellence. Which also suggests that freedom isn't doing
+everything we want just because there are no punishments but the option to make
+ponderate and valuable choices out-of-the-norms. Something "strange" because the
+product of lateral thinking (De Bono, 1967). Hence intelligence self-discipline while
+stupidity can't.
+
+Determinism fascinates humans because it implies predictability, which is a value
+for a mechanism or a procedure (6σ belt). On the contrary creativity (crt) but
+also stupidity (std) are unpredictable (unp), in a subtle but essential different
+manners, which can be explained ex-post: (crt) introduces a novelty (e.g., E=mc²)
+an thus a divergence in the norms which leads to an expected out-of-the-box (OFTB)
+result while (std) is (unp) like the outcome of an unfair ( dice OR coin ) toss.
+
+This explains the fundamental role of chaos in sprouting novelty when it affects
+a ( structurally disciplined ⇒ resilient ) system (science, brain) and overcomes an
+( ruled-by-unfairty ⇒ fragile ) one (theology, ego). In both cases the butterfly
+effect can be observable, thus chaos is "fair" statistically speaking because
+doesn't judge but reveals the subtle but essential difference between the two
+systems' nature.
+
+Which leads us to appreciate the scientific method as a fundamental principle of
+a discipline (science) and empiricism as the only way we have to not alienate
+thinking from reality. Otherwise the mind would lose the ability to foresee
+real-world events as a chain of causality and return back to superstition which
+in short is the fear of unknown and uncertainty (e.g., Thor explains thunder).
 
 ### II. General Definitions [AIGD]
 
