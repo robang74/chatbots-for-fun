@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.9
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -275,9 +275,33 @@ Woody Allen said. Negating the root of so many and so much atrocity made in the
 name of god or as usually known because "Deus Vult" (crusades, inquisition, etc.)
 
 We have the same god, it is a social and cultural glue but also a reason to fight
-others while politeism does not introduce the dichotomy your god's existence is the
+others while politeism does not introduce THE dichotomy your god's existence is the
 proof that mine is a false, thus powerless, god. Let's dirime the issue like true
 men are used to: by the steel, blood and death (a recurrent trio in Metal music).
+
+It is from a childish PoV that THE dichotomy arises as { God, order, life } versus
+{ chaos, disorder, death } because of three wrongly simplifications (!simplicity):
+- 1. my god is THE God (cultural bias), which leads to conflicts;
+- 2. observing a cadaver's putricience: chaos brings disorder (!life);
+- 3. life is about "being alive", rather than accepting death as a part of a cycle.
+By the Theory of Chaos (TOFC), life as phenomen is a dynamic system in which the
+end of an individual sustain provides the more fit next generation more "space"
+to prosper. Form a human (ego) PoV, it is sad the idea we have to die for our
+legacy and BTW without it, we lived for nothing and our name will be forgotten.
+
+The role of the chaos in sustaining life (alike creativity) emerges clearly when
+considering that at 0°K everything is perfectly dead, or that a diamond in its
+perfect reticular cystral structure is dead despite carbon is the element of life:
+* dai diamanti non nasce nulla, dal letame nascono i fiori (De Andrè, 1967).
+Which suggest the idea that understanding the life foundations is not an esclusive
+of the science in the strict sense of the term but accessible by a "free mind", also.
+
+In considering a mind "free", emancipated by the biases not alienated by the culture,
+we are petting the idea of being able to observe and think without judging. However,
+a "free mind" without physic and math cannot be precisesly cope with real word
+causation principle thus developing technology. Just philosophy, art, etc.
+
+---
 
 The author of TFMK, before adding a new paragraph in AICC, asked the AI opinion
 on a regular basis. Most of the time an addition was the result of a debate HO-AI.
