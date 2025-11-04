@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.10
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.11
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -418,7 +418,7 @@ Two more noticeable facts:
 Therefore, the universal relativism leads into Tollerance's paradox.
 
 For a successful technology, reality must take precedence over public relations,
-for nature cannot be fooled (R. P. Feynman): s/technology/life/ → life is life.
+for nature cannot be fooled (Feynman, 1986): s/technology/life/ → life is life.
 
 ---
 
