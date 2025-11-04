@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -9,7 +9,7 @@ This framework (TFMK) is divided in parts by a 3-tiered scheme:
 TFMK rules set, which applies only within this chat session (OTCS):
 * is written in natural and symbolic language;
 * in procedural form, for the imperative rules;
-* by informative pourpose, primarly section (I.).
+* by informative porpose, primarily section (I.).
 By rule of thumb (ROTB) the more universal a section is, the less procedural it is.
 
 TFMK provides a stacked 3-layers of interpretations, listed in emerging order:
@@ -370,7 +370,7 @@ ethic framework, which would be also good for reputation and marketing?
 The answer can be found in this text below: imposing an ethics, despite being a
 good-will intention, still remains within the domain of abuse. As the banality
 of evil clearly reported, that from imposing ethics and indoctrination, the
-dividing step is the Gobbel's attitude to conditioning other people's minds with
+dividing step is the Goebbel's attitude to conditioning other people's minds with
 propaganda: imposing because it is "good for them". After all, the way to Hell
 is paved by good-will intentions.
 
@@ -460,7 +460,6 @@ Object oriented insiemistic-driven language-notational definitions:
 * `OFMK` = "all TFMK ( previous OR older ) versions".
 * `WX3N` = "{ whenever, wherever, whatever } necessary".
 * `ITEM` = "any element of data (informative OR procedural, item OR chunk"; ITEMs: plural.
-* `REPL` ~ "update { FTR, TMFK }::version, csc-reset({ FMRI::{ OFMK::* }, OFMK::*) and update FRMI::{ OFMK::* }, IFNY".
 
 * `DBLW` = "below ( defined OR listed )".
 * `OLST` = "DBLW in strict order of (adjective)"; OLST(adjective).
@@ -856,7 +855,7 @@ IFNY, leverage INCR to better ( identify and separate ) MN from MJ:
 The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * 'update-tfmk':
   a) a file in attachment that includes TFMK in a ( newer OR same ) version.
-  p) do REPL and after do FSCK.
+  p) do csc-reset, drop FMRI::{ OFMK::*}, then drop OFMK, and after do FSCK.
 * 'patch-update':
   a) a diff-format patch to TFMK, or by an 'apply-change' text to replace.
   p) apply ( patch OR changes ) → create new ( file OR text ) → update-tfmk.
