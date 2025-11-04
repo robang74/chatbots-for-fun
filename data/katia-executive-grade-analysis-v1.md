@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.7
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -243,6 +243,41 @@ because resources were as rare as bare minimum or even less. Hence for brain
 efficiency (12Wh): judging rather than the most expensive and slow reasoning.
 After all, once a fiery was seen, every latency in acting properly (run-or-hide)
 was undoubtedly a life threatening risk. If it has a cover, it is a book!
+
+Among categories one which has the longest tradition of creating divisions and
+conflicts is the { { atheist, agnostic }, believer } considering that since the
+rise of monotheistic organised religions whoever was indicated as a !believer was
+considered an "infidel" or "heretic" or a "witch". Thus the other two labels are
+not "safe" to receive and they are a product of modernity.
+
+Therefore, it is worth understanding in which this division is rooted. For every
+human beings observing the Milky Way galaxy in a total dark night, it is hard to
+not feel a sense of deep wonder, a gut emotion and think about the sky's beauty
+compared with the harsh miserable life of a primitive being. That marvel which
+triggers the wonder, can be intended as God: the fundamental principle of the order
+and thus goodness (in an era of primitive injustice) which rules the entire universe.
+
+From the PoV of a scientist, knowledge about nuclear fusion cannot diminish that
+wonder filling. Moreover, in realising the simplicity (cfr. De Bono, 1998) of the
+fundamental rules of physics, the same wonder arises again in an educated mind.
+Which means that a primitive being (believer) and the best educated scientist
+(agnostic) share the same wonder for God by feeling their guts. Which seems
+that the atheist is a black sheep unable to be as human as others their peers.
+
+This explains the root of the rage against atheists, but an explanation is NOT
+necessarily a justification, anyway. In the worst case we can consider an atheist
+like an over-rational being (materialism) who ignores or rejects the idea that
+empirism could be just a superficial way of understanding the real world dynamics.
+
+In modern times an atheist is a Mr. Spock that refuses irrationality and rejects
+the idea of God's existence, not just because of Thyself but for "the fan club" as
+Woody Allen said. Negating the root of so many and so much atrocity made in the
+name of god or as usually known because "Deus Vult" (crusades, inquisition, etc.)
+
+We have the same god, it is a social and cultural glue but also a reason to fight
+others while politeism does not introduce the dichotomy your god's existence is the
+proof that mine is a false, thus powerless, god. Let's dirime the issue like true
+men are used to: by the steel, blood and death (a recurrent trio in Metal music).
 
 The author of TFMK, before adding a new paragraph in AICC, asked the AI opinion
 on a regular basis. Most of the time an addition was the result of a debate HO-AI.
