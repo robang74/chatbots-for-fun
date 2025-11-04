@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.4
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -362,6 +362,16 @@ concentration which productive people aren't able anymore to partecipate to soci
 Considering that humans are "social animals", it is not a marginal deprivation.
 In fact, it leads to depression as mass-pathology (lack of creativity due to the
 compression of freedom thus agency) and systemic dependencies (alcool, eroin, etc.)
+
+Socialism is ideology-driven, also. However, real-socialism depurated from all the
+whistles and bells added for marking it and collecting consensus is structurally
+different from Communism. In fact, real-socialism can be summarised in a principle:
+* society (aka the cultural biases structure of people) is the ultimate asset.
+Communism is way identical apart from s/asset/collateral/, like: HR and Human Capital.
+In fact, by definition HR is the paradigma to spoil people like they were a mine:
+* extracting the maximum value, abandoning them once exhausted, a burden on society.
+Curiosly, those who fiercely oppose to socialism, get mad when they can't socialise
+their loss. Which falls into "who pays for who?" class: greed is good, right?
 
 ---
 
