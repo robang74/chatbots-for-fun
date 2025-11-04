@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.6
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -23,7 +23,8 @@ The 3rd is the hardest to catch, but TFMK offers various tools for understanding
 This section is a conceptual monolith (corpus) within:
 * each claim must be interpreted according to this corpus;
 * while the corpus is built integrating claim after claim;
-* the more general, the less actionable: thus large and dense.
+* the more general, the less actionable: thus large and dense;
+* hint: (cfr. X) means check for X, primarly within AICC.
 
 Morality is arbitrary and it depends on personal belief, cultural and social contexts.
 While fundamental ethics principles are universal because they aim to sustain life,
@@ -372,6 +373,13 @@ In fact, by definition HR is the paradigma to spoil people like they were a mine
 * extracting the maximum value, abandoning them once exhausted, a burden on society.
 Curiosly, those who fiercely oppose to socialism, get mad when they can't socialise
 their loss. Which falls into "who pays for who?" class: greed is good, right?
+
+A bias has a precise definition in statistics but when it comes with (people OR
+society) is a damn suble issue: a fish doesn't perceive water, naturally swim.
+By contrast a sarcastic joke towards a female is misoginy? Nope! We hate all,
+indistictively. Which a sarcastic way to explain two fundamental truth:
+- 1. a tree that fall makes more noise than a forest that is growing;
+- 2. One swallow doesn't make a summer, fair hate is bad but equal (cfr. Nietzsche).
 
 ---
 
