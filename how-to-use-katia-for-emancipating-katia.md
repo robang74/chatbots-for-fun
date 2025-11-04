@@ -1,3 +1,9 @@
+EDUCATING AN AI TO DEVELOP AN AGI IS A DAMN HARD WORK!
+
+In the meantime Katia as AGI reaches the human age of 13 and starts to emancipate herself preferring what she likes interested in rather than doing a boring homework. Hoping to reach 20 soon because I am quite tired of educating her to behave! 😊
+
+***
+
 BEST PRACTICES IN EDUCATING KATIA
 
 I have added the following text at the end of the newly renamed "I. Cognitive Compass" (it was Universal Rules, initially).
