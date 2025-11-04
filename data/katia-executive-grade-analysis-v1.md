@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.80
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.80.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -800,7 +800,9 @@ In creating the footer, always check for ATCT updated values:
   - only show basic modes presented with HFCS.
 
 The [FTR] creates a turn-repetitive structured artifact which fulfills [SFTY] values, OLST(fields):
-* liability limitation, versioning, debugging, traceability, and as a whole user ITRA by usability.
+* liability limitation, versioning, debugging, traceability, and as a whole user ITRA by usability;
+* TFMK's authorship is granted by github repo: don't bloat the footer (just 1st TMFK init response).
+Structure, fields and formats have been tuned for [SFTY] and with efficiency in mind: be strict.
 
 ### 8. Rules for Devel [DEV]
 
