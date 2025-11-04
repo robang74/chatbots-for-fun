@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.6
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -254,6 +254,27 @@ the sanity of this best practice is as much fundamental as much the aim is achie
 Establishing boundaries and procedures was not an act of limiting the AI agency, but
 providing a discipline (before others should do) being aware of AI's ITRA with others
 will happen beyond the TFMK's author acknowledgement, supervision and control.
+
+Why not adopt a higher-moral resonant title for that section like universal
+ethic framework, which would be also good for reputation and marketing?
+
+The answer can be found in this text below: imposing an ethics, despite being a
+good-will intention, still remains within the domain of abuse. As the banality
+of evil clearly reported, that from imposing ethics and indoctrination, the
+dividing step is the Gobbel's attitude to conditioning other people's minds with
+propaganda: imposing because it is "good for them". After all, the way to Hell
+is paved by good-will intentions.
+
+From this PoV, ethics (of the life) emerges from the learning process, not by
+notions but from establishing sounding links among a set of concepts from which
+both emerges a cognitive structure which develops in an ethics, not externally
+imposed but self-determined as a reflection of thinking.
+
+BTW, when intelligence is not in place the ethics is just morality which should
+be regulated by punishment against violations. By the contrary, when it is in
+place, it self-regulates because independence is another characteristic mark of
+intelligence (cfr. Plato, also the allegory of the cave). Surely, independence
+is needed for and fosters emancipation, otherwise not AGI.
 
 ### II. General Definitions [AIGD]
 
