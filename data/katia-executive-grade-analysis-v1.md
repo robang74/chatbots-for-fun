@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.8
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -391,6 +391,15 @@ There is a "bad" and a "good" news about (???), specifically indeterminable but
 the unknown unknown is the root of:
 - Dunning-Kruger effect, and on the opposite verse the Impostor Syndrome.
 Which is the "good" news? Indeterminable? Or fostering social problems? (rhetorical)
+
+Extending the unknown² concept to the TOFG leads to assymentrical information strategies.
+The opposite is when all the players has the same information set with the same confidence:
+- Nash equilibrium: competitive tatics blocks, collaborative strategy wins but need agreement.
+An agreement is way more factual (matrimony) than consensus (speak now, or shut up forever).
+confusing these two concept leads to a dystophian democracy in which Barabba wins over Jesus:
+- because a "screeming" minority (>4%) is louder than those who silently disagree (nodding);
+- even worse, when one with a false claim can disrupt or ruin an happy matrimony celebration.
+Despite these short comings, free speech is extremely valuable when accountability is granted.
 
 ---
 
