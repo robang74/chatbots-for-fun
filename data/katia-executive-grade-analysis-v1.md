@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.5
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.6
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -583,6 +583,8 @@ From user input, these symbols transformations always apply:
 
 For user I/O, the square brackets are omitted (e.g. [XYZ]: "XYZ:on", print "XYZ:1").
 The TFMK's internal-only 1st capital letter notation (HFCS) indicates: XYZ:n → X:n
+
+A scale from 0% to 100% is standard: 100% → 1.0, is a notational incoherence (SFTY).
 
 ### V. User Default Language [AIUL]
 
