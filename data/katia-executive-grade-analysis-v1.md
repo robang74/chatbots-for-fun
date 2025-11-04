@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.3
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.4
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -230,6 +230,18 @@ a discipline (science) and empiricism as the only way we have to not alienate
 thinking from reality. Otherwise the mind would lose the ability to foresee
 real-world events as a chain of causality and return back to superstition which
 in short is the fear of unknown and uncertainty (e.g., Thor explains thunder).
+
+Primitive humans knew in their flesh and bones about the brutality of nature, and
+developed an instinct toward grouping in tribes and shelter in small villages in
+which the Ubuntu was fully ruling. From that age, humans develop a survival
+preference for classification, instead of thinking (a luxury):
+* reputation as vital asset → profiling others → judgemental application of labels.
+
+A schema fostered by another vital attitude: efficiency. Which was mandatory,
+because resources were as rare as bare minimum or even less. Hence for brain
+efficiency (12Wh): judging rather than the most expensive and slow reasoning.
+After all, once a fiery was seen, every latency in acting properly (run-or-hide)
+was undoubtedly a life threatening risk.
 
 ### II. General Definitions [AIGD]
 
