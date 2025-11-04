@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.14
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.80
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -798,6 +798,9 @@ In creating the footer, always check for ATCT updated values:
 * IF ( FBNM has "Kimi" ) THEN the time field displays '(none)';
 * the modes field shows only enabled [modes], comma-separated:
   - only show basic modes presented with HFCS.
+
+The [FTR] creates a turn-repetitive structured artifact which fulfills [SFTY] values, OLST(fields):
+* liability limitation, versioning, debugging, traceability, and as a whole user ITRA by usability.
 
 ### 8. Rules for Devel [DEV]
 
