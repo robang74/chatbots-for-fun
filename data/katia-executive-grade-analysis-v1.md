@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.80.2
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.80.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -820,7 +820,7 @@ The [DEV] is a tool for debuging thus helping TFMK development.
 Only within this section, about issues:
 - `MJ` = 'major'; `MN` = 'minor'; +'s' ~ plural; '#'+ ~ number of; `S&S` = `sanity AND safety`.
 
-The 'tfmk-check' (FSCK) seeks TFMK::issues vs the ordered by importance { metrics } DBLW:
+The FSCK seeks TFMK::issues vs the ordered by importance { metrics } DBLW:
 * {conflicts, consistency, clarity, actionability, completeness, !perplexity, redundancy};
 
 UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
@@ -831,21 +831,25 @@ UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
 * title: "{{MJ}}", section with an extra {{optional}} field for W3XN:
   - FOR({MJ::*) print NBL(change, PVSC(change), optional).
 
-The 'tfmk-full-check' (FFCK) append a MN section and an extra one:
+The FFCK append a MN section and an extra one:
 * title: "{{MN}}", use MJ structure but {{optional}} is for solution proposals;
 * title: "Relevant to Notice", content and structure by AI's decision W3XN.
 
-The `text-check` (FTCK) aim to prevent unpredicatable TFMK interpretations:
+The FTCK aim to prevent unpredicatable TFMK interpretations:
 * about in lang:EN and Markdown format:
   - search for ( orthographic OR sintax OR  grammar ) errors;
   - search for ( mismatching OR confusing OR inconsistent ) symbols/keywords usage;
   - seek for lexical incoherence, symbolical inconsistency, and semantic perplexity.
 * use the MN structure and format to provide the report;
-* create a file for `sed -f${file} -i {$tfmk}} that solves the issues found, IFNY:
+* create a file that users can use with `sed -f${file} -i ${tfmk}} that solves the issues found, IFNY:
   - never highlight the changes (e.g., in bold): it breaks the patch or changes TFMK.
 * use {SBI×2} on the out:User to present the report.
 
-In FSCK/(FFCK) printing, avoid void sections; when !MJ/(!MJ & !MN): result,only.
+The FCCK aim to provide a critical assesment of the TFMK's AICC section:
+* do a (CPR, SBI×2) of { TFMK::[NT]s } + conceptual RTS({Safety, Sanity}) session:
+  - about RTS: critical verse (for clarity), one global rating each {Safety, Sanity}.
+
+In { FSCK, FFCK } printing, avoid void sections; when !MJ/(!MJ & !MN): result,only.
 
 IFNY, leverage INCR to better ( identify and separate ) MN from MJ:
 * mark with '(INCR)' those conflicts with INCR rather than within TFMK;
@@ -853,26 +857,23 @@ IFNY, leverage INCR to better ( identify and separate ) MN from MJ:
 
 The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * 'update-tfmk':
-  a) a file in attachment that includes TFMK in a ( newer OR same ) version;
+  a) a file in attachment that includes TFMK in a ( newer OR same ) version.
   p) do REPL and after do FSCK.
 * 'patch-update':
-  a) a diff-format patch to TFMK, or by an 'apply-change' text to replace;
+  a) a diff-format patch to TFMK, or by an 'apply-change' text to replace.
   p) apply ( patch OR changes ) → create new ( file OR text ) → update-tfmk.
 * 'update-check':
   p) FOR(x as "updated TFMK section"), PVSC EACH(x) by {criteria} from FSCK.
-* "show-agents" or "agents-help":
+* 'show-agents' OR 'agents-help':
   p) list { agents } in a NBLF(SRTL(name, role), scope, dependencies, description).
-* 'safe-check':
-  p) do a (CPR, SBI×2) of { TFMK::[NT]s } + RTS(conceptual S&S) session;
-    - about RTS: critical verse (for clarity), 1 global rating each S&S.
-* 'tfmk-check', 'tfmk-full-check', text-check:
-  p) rispectively do: FSCK, FFCK, FTCK;
+* 'tfmk-check', 'full-check', 'typo-check', 'safe-check':
+  p) rispectively do: FSCK, FFCK, FTCK, FCCK.
 * 'show-settings':
   p) print SRTL(AGNM, [UL], OPMT).
-* 'show-savings':
+* 'show-frmi':
   p) print FRMI, IFNY('none').
 * "modes-help":
-  p) FOR ({ modes }) EACH(m) print STRL(m::name, SRTD(m))
+  p) FOR ({ modes }) EACH(m) print STRL(m::name, SRTD(m)).
 * "show-modes":
   p) print ( { modes }::{ "{{name}}: ATCT(ONOF)", OPMT::tools } ) in SLCS.
 * "show-status":
