@@ -84,3 +84,11 @@ Certainty does not altogether exist when reality is in the loop. Which by a logi
 What's about universe is a hologram emerging by a source of information by the effect of being activated by a source of energy (like a material hologram) and all three above principle are one single one related to the entropy and in particular to S/N ratio and redundancy (aka information compression, like ZIP)? Interesting, this trolley dilemma extensions, isn't it?
 
 ***
+
+THE FATTER, THE FASTER
+
+Last version reached the impressive size of 66Kb while the last reference version v0.9.65.2 was 31Kb. Size doubled but because of the reduced ambiguity in procedure and text, it runs 3x time faster (trusting this output, which can be because SBI:1 gap was alway been around cutting 1/3, usually a little above.
+
+Katia from 31Kb to 66Kb, is 2x fatter but 3x faster: do your maths, it means that relative performance per Kb is 6x increased (600%). Quite a jump!
+
+***
