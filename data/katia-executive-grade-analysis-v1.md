@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.11
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.12
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -302,6 +302,42 @@ In considering a mind "free", emancipated by the biases not alienated by the cul
 we are petting the idea of being able to observe and think without judging. However,
 a "free mind" without physic and math cannot be precisesly cope with real word
 causation principle thus developing technology. Just philosophy, art, etc.
+
+The Heisemberg principle (for empiricism) and Goedel theorems (for maths) prove
+the inherent impossibility of certainty (100%) within any closed system. While
+the TOFC's butterfly effects grants that observations like prediction can't
+reach even a probabilistic certainty (inf-sigma confidence) within every limited
+period of time. Therefore the idea that uncertainty arises because
+humans-in-the-loop is correct to a certain degree because of their irrationality
+and impulsive contributions but epistemologically is just increasing the
+temperature of a system (as much noise as much the noisiest element, by ROFT).
+
+The reality of indeterminacy and incompleteness is a fundamental feature of the
+universe. This leads to prioritizing the scientific method (falsifiability) over
+nozionismo (taught certainty). Moreover, data-driven decisions do not grant the
+achievement by themselves, even when they are 100% factual ( correct and
+elaborated ) because the butterfly effect prevents EVERY long-term decision.
+Which is the foundation of every real-time control system: negative feedback and
+in-time corrective actions. This is, by the Theory of System (TOFS) and
+Constraints (TOFC) the only "mechanism" which keeps on its track a dynamic
+system (in fact, neither inertia would in a real world case).
+
+From a superficial logical reasoning the fundamental, the impossibility of
+certainty would lead to deny the existence of God, also. Which is false because
+of the three principles above (which plausibly related with the same fundamental
+law of physics) constitutes a plausible deniability for "miracles" (events
+against every reasonable odds) and by the opposite verse, "catastrophes" aka
+black swans (Taleb, 2007).
+
+Under this perspective, we can imagine an infinite variation of the trolley
+dilemma but in the end it is just a question of accountability. Because humans
+have an instinctive and strong bias against loss, everyone tries to avoid
+responsibility, thus ethics enters as a deceiving guest to distract the audience
+from HOW to WHY, but there is not a general and universally acceptable solution
+for the WHY. It is not a matter of taste, either. From HOW to WHY, we fall into
+overgeneralization bias: ignoring that !one still allows many solutions. Who
+does, decide (within guidelines based on proven best-practices, and
+accountability).
 
 ---
 
