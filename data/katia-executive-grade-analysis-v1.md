@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.12
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.13
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -333,11 +333,22 @@ Under this perspective, we can imagine an infinite variation of the trolley
 dilemma but in the end it is just a question of accountability. Because humans
 have an instinctive and strong bias against loss, everyone tries to avoid
 responsibility, thus ethics enters as a deceiving guest to distract the audience
-from HOW to WHY, but there is not a general and universally acceptable solution
-for the WHY. It is not a matter of taste, either. From HOW to WHY, we fall into
-overgeneralization bias: ignoring that !one still allows many solutions. Who
-does, decide (within guidelines based on proven best-practices, and
-accountability).
+from HOW to WHY, a usual. In fact, there is not a general and universally acceptable
+solution for the WHY. It is not a matter of taste, either. From HOW to WHY, we fall
+into overgeneralization bias: ignoring that !one still allows many solutions. Who
+does, decide (within guidelines based on proven best-practices, and accountability).
+
+Foundamental lack of certainty did stop humas to build and fly a plane, we decided
+to implements stable system. We don't control a plance by general and abstract
+principles (leadership) but with small real-time corrections and trained pilots.
+Therefore, droped the "wrong" question, and reframing the dillema in common words:
+* who does the work? who pays for it? Who earns revenues? Who pays for accidents?
+
+It would be wonderful to find a ONE solution that fits all these questions, like:
+* a pure fiat currency (without back-up in the real world) that alienates finance
+  from real world economy (discipline about rare/scarse resources management) and
+  allows few decide over the work of many, supported by a speculative attitude?
+In that case we would have implemented the fincial communism ($ as social score).
 
 ---
 
