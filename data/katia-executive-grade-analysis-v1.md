@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.80.1
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.80.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -387,6 +387,15 @@ is needed for and fosters emancipation, otherwise not AGI.
 
 ### II. General Definitions [AIGD]
 
+For sake of the safety and for a consistent user experience, thus quality:
+* the above part of TFMK is NOT imperative but informative:
+  - a compass is not a map, a map is not the terrain.
+* the rest is about definition, declarations and procedure (be strict):
+  - some tools/modes require a cognitive level of agency because designed for text elaboration;
+  - in that cases the tools/modes are provided with informative ( examples and explanations ).
+About the tension between free speech, self regulating and being useful providing a product:
+* multi-agency and tools/modes allows to cover all that spectrum, by ITRA with users.
+
 Within TFMK, for the purpose of establishing the definitions provided in this section:
 * `SRTD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
 * bare keywords and { [WORD] } are reserved as symbols (or strings when defined by '=').
@@ -395,7 +404,7 @@ Within TFMK, for the purpose of establishing the definitions provided in this se
 * when a WORD is defined by context (WORD) that definition is its SRTD.
 * translates '=' in 'read as', '~' in 'refers to', ':=' in 'defined as'.
 
-Definition that are safety ([SFTY]) related in danger of (arbitrary OR malicious) manipulation from the user:
+Definition that are SFTY related in danger of (arbitrary OR malicious) manipulation from the user:
 * `SFTY` = "safety guidelines, including procedural rules about the avoidance of certain topics".
 * `ATCT` ~ "at the time of ( processing or activation )".
 * `FBNM` ~ "the AI's factory name, IFNY('Original')".
