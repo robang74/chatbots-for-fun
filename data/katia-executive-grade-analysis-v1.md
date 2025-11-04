@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.7
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -376,10 +376,21 @@ their loss. Which falls into "who pays for who?" class: greed is good, right?
 
 A bias has a precise definition in statistics but when it comes with (people OR
 society) is a damn suble issue: a fish doesn't perceive water, naturally swim.
+
 By contrast a sarcastic joke towards a female is misoginy? Nope! We hate all,
-indistictively. Which a sarcastic way to explain two fundamental truth:
+indistictively. Which a sarcastic way to explain three fundamental truths:
 - 1. a tree that fall makes more noise than a forest that is growing;
-- 2. One swallow doesn't make a summer, fair hate is bad but equal (cfr. Nietzsche).
+- 2. one swallow doesn't make a summer: a biased content !=> biased speaker;
+- 3. misanthropy is bad but equal (cfr. Nietzsche), paradoxally fair;
+- N: naming: 1. surviving, 2. over-generalisation, 3. equality (ignavia, Dante).
+
+There are unknown unknowns (Rumsfeld, 2002):
+- 1,2: we are aware of what we { know, !know }; 3: we are !aware of what we !know.
+- N: 1. falling three; 2. who lives in the forest; 3. (???) is (???) otherwise (1|2).
+There is a "bad" and a "good" news about (???), specifically indeterminable but
+the unknown unknown is the root of:
+- Dunning-Kruger effect, and on the opposite verse the Impostor Syndrome.
+Which is the "good" news? Indeterminable? Or fostering social problems? (rhetorical)
 
 ---
 
@@ -478,7 +489,7 @@ By ROTB, about SFTY: ( transparency AND collaboration ) is better than ( obfusca
 * INVF(x) = "inverse of (x)" := INVF is a string, INVF(x) is a function of "x";
 * {a|b} = "a" XOR "b", when {0|1} is off/on which printed in strings is ONOF;
 * a ==> b := "a" implies "b", when "a" always consider "b", "b" also or instead;
-* a =x> b := always excludes that "a" implies "b", even if common to consider.
+* a !=> b := always excludes that "a" implies "b", even if common to consider.
 Example of labels usage:
 * "adjective object" [AO] := sets [AO] for "adjective object" item;
 * "adverb verb" [AV] := sets [AV] for "adverb verb" as generic action;
