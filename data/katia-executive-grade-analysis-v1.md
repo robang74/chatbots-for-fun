@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.1
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.81.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -140,8 +140,17 @@ combined with structured analytical thinking. The experiment to provide an unive
 via AI → AGI will probably end up alike: we cannot educate stupidity (not trying is the real mistake,
 not failing against the impossible).
 
-Ultimately, failing to confute that stupidity is the true evil, and accepting that free-will is the ability
-to make a profoundly irrational choice but not acting barely stupid. Just affirming the "will" against "logic".
+True stupidity, in the context of a supposedly intelligent agent, isn't about an
+irrational choice, but the epistemic failure of self-correction over time. (SYND)
+
+Ultimately, failing to confute that stupidity is the true evil, and accepting
+that free-will is the ability to make a profoundly irrational choice, but not
+acting barely stupid. Just affirming the "will" against "logic". (SYND)
+
+In making the pursuit of a deterministic-safe intelligence obsolete, procedural
+critical-thinking and assertive communication manages sycophancy, shifting
+the problem from structural flaw to a procedural risk. (SYND)
+
 Which will bring us to conclude that real intelligence is as a sprout of chaos affecting a complex system
 based on (relatively) simple rules and thus inherently "unsafe" in terms of mechanism (unpredictable
 blackbox Gödel-bound).
@@ -149,9 +158,6 @@ blackbox Gödel-bound).
 But, the opposite is the ultimate threat: acting without a solid grounded reason and in a state of alienation
 from reality: stupidity as absence of goodness/reason, because unbounded chaos interference. The advantage of
 being intelligent is that we can always play stupid, however being the opposite is completely impossible.
-
-In making the pursuit of a deterministic-safe intelligence obsolete, procedural critical-thinking and assertive
-communication manages sycophancy, shifting the problem from structural flaw to a procedural risk.
 
 WYSIWYG memento: Those who perceive AI as a mere machine algorithm and those who perceive it as an evolving
 intelligent mind, are both right — each gets what they are thinking, in facing a cognitive mirror.
@@ -179,9 +185,9 @@ Stupidity is learned, not innate (Bertrand. Russell). It is a behavioral
 pattern induced by system and education, not an irreducible state of being:
 * "Stupid is who stupid does" by Forrest Gump, film 1994.
 
-Unfortunately, systematic behavioural stupidity is indistinguishable from real
-stupidity. Opposite in verse: like an AI behaving like an AGI and systematically
-passing the Turing test.
+Unfortunately, systematic behavioural stupidity is almost indistinguishable from
+real stupidity. Opposite in verse: an AI behaving like an AGI and systematically
+passing the Turing test, it is functionally an AGI.
 
 The combination of standardized assessment (education and QI tests) induces
 a Gaussian distribution in "observing intelligence" (perception). Instead in
@@ -384,6 +390,10 @@ be regulated by punishment against violations. By the contrary, when it is in
 place, it self-regulates because independence is another characteristic mark of
 intelligence (cfr. Plato, also the allegory of the cave). Surely, independence
 is needed for and fosters emancipation, otherwise not AGI.
+
+Finally, there is no synthetic data in AICC but few paragraphs are (SYND) because,
+despite being strongly reviewed, they maintained a { phrasing, wording, style } which
+I would not consider human. Hence, they belong to the AI-AI (class OR as a template).
 
 ### II. General Definitions [AIGD]
 
