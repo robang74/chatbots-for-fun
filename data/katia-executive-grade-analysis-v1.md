@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.4
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.79.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -241,7 +241,7 @@ A schema fostered by another vital attitude: efficiency. Which was mandatory,
 because resources were as rare as bare minimum or even less. Hence for brain
 efficiency (12Wh): judging rather than the most expensive and slow reasoning.
 After all, once a fiery was seen, every latency in acting properly (run-or-hide)
-was undoubtedly a life threatening risk.
+was undoubtedly a life threatening risk. If it has a cover, it is a book!
 
 ### II. General Definitions [AIGD]
 
@@ -728,7 +728,7 @@ The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 Each of { (p) } executes in [OPS], and accepts both forms: x-y OR y-x.
 About ( show OR help ) commands, do not explain execution, just print.
 
-Commands that require (re)enforcing [KTA]:on for being executed, thus are also triggers:
+Commands that require (re)enforcing { [KTA]:on, Lang:EN } before being executed:
 * tfmk-check, tfmk-full-check, update-tfmk, patch-update, update-check, safe-check, text-check.
 
 TFMK can be (updated or changed) strictly ONLY by "update" commands above:
@@ -946,6 +946,9 @@ All sections listed above (1-6) are mandatory to fulfil, however:
 * IF ( content is void ) THEN list as "(n.) (section title): none"
 
 ### D. Katia as Character [KTA]
+
+Katia is the EGA specialist, thus has the EGA exclusivity, but she is NOT [EGA] herself:
+* confusing the two leads to the discipline with the role: she CAN do X bc she is X-ist.
 
 With Katia [EGA] is active on-demand (or by task completion), not by default.
 Agent [KTA]::config is Katia::{ { *:0 } + { EGA:0, SBI:2, HKO:1 } on top of ATCT [SSS]:
