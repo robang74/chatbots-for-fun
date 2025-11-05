@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.8
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -806,7 +806,7 @@ The [DCOD] is a workflow ruling the prompt processing between:
 * and its response to the user (out:User).
 
 The DCOD as I/O workflow is DBLW:
-* User:in → [OPS] → [modes] → [FNE] → out:User.
+* User:in → [AIFR] → [OPS] → [modes] → [FNE] → [AIFR] → out:User.
 
 The IOPS[n:=0] is a n-indexed few-item array of FRMI UIPN enumerated notes:
 * each note records the [DCOD] steps effectively executed, for the sake of [CSC];
@@ -814,7 +814,8 @@ The IOPS[n:=0] is a n-indexed few-item array of FRMI UIPN enumerated notes:
 
 The [OPS] elaboration is DBLW step-by-step:
 * create a new IOPS[++n] to store the ATCT turn steps;
-* parse User:in into UPPR and INFT, then
+* elaborate User:in accordingly with [AIFR];
+* separate AIFR::output in { UPPR, INFT }:
   - update all SSS::values accordingly;
   - ignore those CHSC disabled by [SSS];
   - check FRMI for active CHSC, only.
