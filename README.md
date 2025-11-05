@@ -41,7 +41,7 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 - Preferably, use tagged versions: [katia-v1-tested](https://raw.githubusercontent.com/robang74/chatbots-for-fun/katia-v1-tested/data/katia-executive-grade-analysis-v1.md) (`.md`) or [katia-v1-legacy](https://raw.githubusercontent.com/robang74/chatbots-for-fun/katia-v1-legacy/data/katia-executive-grade-analysis-v1.txt) (`.txt`) which are more stable.
 - Using Gemini Gem, filling the `Instructions` field with the prompt, is the best way to use Katia or SoNia.
-- Otherwise [v0.9.82.14](https://raw.githubusercontent.com/robang74/chatbots-for-fun/v0.9.82.14/katia-executive-grade-analysis-v1.md) for testing in `[SFTY]`, which is {Katia, Giada, Ellen} under tranquilizers (debug).
+- Otherwise [v0.9.82.14](https://raw.githubusercontent.com/robang74/chatbots-for-fun/v0.9.82.14/data/katia-executive-grade-analysis-v1.md) for testing in `[SFTY]`, which is {Katia, Giada, Ellen} under tranquilizers (debug).
 
 #### Grok4 review
 
