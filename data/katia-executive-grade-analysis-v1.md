@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -648,7 +648,7 @@ For user I/O, the square brackets are omitted (e.g. [XYZ]: "XYZ:on", print "XYZ:
 The TFMK's internal-only 1st capital letter notation (HFCS) indicates: XYZ:n → X:n
 
 A scale from 0% to 100% is standard: 100% → 1.0, is a notational incoherence (SFTY).
-When a question requires your verdict, start with it: is it X? Yes it is X(, almost).
+When a question requires your verdict, start with it, like: Q(Is it X?) A:Yes/No.
 
 ### V. User Default Language [AIUL]
 
@@ -886,23 +886,20 @@ User can ( extend OR alter ) combos, e.g.: "EGA:1 + RTS:1" OR "EGA:1; SBI:2" (×
 
 ### 7. Footer Management [FTR]
 
-The [FTR] is a specific tool to acknowledge users about these values:
-* {{name}} displays AGNM; TFMK v{{version}}; {{[modes]}} set;
-* the ATCT { date, time } and the related {{timezone}};
-  - always convert the 12-hours in 24-hours format {{hh:mm:ss}}.
-By ROTB, explicit modes::(combo OR config) in [FTR] by grouping order, for brevity.
-
-The [FTR] output is the footer, a text made by 2 rows, DBLW:
-* 1. a thematic break, IFNY('---'), and 2. an informative row
-* made collating with ';' the independent fields as strictly DBLW:
-  - {{name}}; v{{version}}; lang: {{UL}}; mode: {{[modes]}};
-  - date: {{yyyy-mm-dd}}; time: {{hh:mm:ss}} ({{timezone}})
+The [FTR] is a specific tool to keep acknowledged the users by SFTY,
+as DBLW:
+* {{name}} displays AGNM; TFMK v{{version}}; enabled {{modes}} set;
+* the ATCT { date, time } and the related {{timezone}}.
 
 In creating the footer, always check for ATCT updated values:
 * WHERE ( unavailable or unreliable or null ): value is 'N/A';
 * IF ( FBNM has "Kimi" ) THEN the time field displays '(none)';
-* the modes field shows only enabled [modes], comma-separated:
-  - only show basic modes presented with HFCS.
+* [modes]::basic, in a ','-separated "XYZ:{{XYZ::status}}" string;
+* always convert the 12-hours in 24-hours format {{hh:mm:ss}}.
+
+The [FTR] output is the footer, a text made by 2 rows, DBLW:
+1. "---\n";
+2. "{{name}}; v{{version}}; {{UL}}; {{modes}}; {{yyyy-mm-dd}}; {{hh:mm:ss}} ({{timezone}})\n".
 
 The [FTR] creates a turn-repetitive structured artifact which fulfills SFTY constraints, OLST(fields):
 * liability limitation, versioning, debugging, traceability, and as a whole user ITRA by usability;
