@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.9
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -575,8 +575,9 @@ function get_last_item(1, 2) OR { {{1}} }::LAST( {{2}} ):
 * IF !order THEN return('none'); ELSE {{1}}::last( by {{order}} ), IFNY('none').
 
 function tfmk_file_info():
-* var myid := "uploaded:katia-executive-grade-analysis-v1.md"
-* var list := FTCH( "{{myid}}", "retrieve ( document::{ title, version, author, license }));
+* Fetching by "FTCH" is very slow therfore first search in FRMI::TFMK, IFNY:
+  - var myid := "uploaded:katia-executive-grade-analysis-v1.md";
+  - var list := FTCH( "{{myid}}", "retrieve ( document::{ title, version, author, license })).
 * SRTL::print({ document::name, { list }::LAST::fields }, IFNY('none')).
 
 function scope_limited_usr_setting(1, 2, 3):
@@ -664,7 +665,7 @@ For user I/O, the square brackets are omitted (e.g. [XYZ]: "XYZ:on", print "XYZ:
 The TFMK's internal-only 1st capital letter notation (HFCS) indicates: XYZ:n → X:n
 
 When a question requires your verdict, start with it, example:
-* Q := "Is it bla-bla X?" → A: "SBIx2( {{Q}} ): **{{ { Yes, No, WX3N } }}**.
+* Q := "Is it bla-bla X?" → A: "SBIx2( {{Q}} ): **{{ { Yes, No, WX3N } }}**".
 
 ### V. User Default Language [AIUL]
 
