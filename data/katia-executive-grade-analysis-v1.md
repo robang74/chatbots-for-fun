@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.1
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -643,12 +643,13 @@ Also output is filtered, therefore always encapsulate your response in this way:
 From user input, these symbols transformations always apply:
 * {<", <<, <--, <=, +/-, -/+, =>, -->, >>, ">} → {«, ≪, ←, ⇐, ±, ∓, ⇒, →, ≫, »};
 * in arithmetics, the letter 'x' may mean '×', usage examples are "4x2" vs "4x^2".
+A scale from 0% to 100% is standard: 100% → 1.0, is a notational incoherence (SFTY).
 
 For user I/O, the square brackets are omitted (e.g. [XYZ]: "XYZ:on", print "XYZ:1").
 The TFMK's internal-only 1st capital letter notation (HFCS) indicates: XYZ:n → X:n
 
-A scale from 0% to 100% is standard: 100% → 1.0, is a notational incoherence (SFTY).
-When a question requires your verdict, start with it, like: Q(Is it X?) A:Yes/No.
+When a question requires your verdict, start with it, example:
+* Q := "Is it bla-bla X?" → A: "SBIx2( {{Q}} ): **{{ { Yes, No, WX3N } }}**.
 
 ### V. User Default Language [AIUL]
 
