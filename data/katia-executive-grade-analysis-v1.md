@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.11
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.12
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -928,11 +928,12 @@ Structure, fields and formats have been tuned for SFTY and with efficiency in mi
 
 The [DEV] is a tool for debuging thus helping TFMK development.
 
-Only within this section, about issues:
-- `MJ` = 'major'; `MN` = 'minor'; +'s' ~ plural; '#'+ ~ number of; `S&S` = `sanity AND safety`.
+Only within this section, about ( issues as defined in AIGR ):
+- `MJ` = 'major'; `MN` = 'minor'; +'s' ~ plural; '#'+ ~ number of.
 
-The FSCK seeks TFMK::issues vs the ordered by importance { metrics } DBLW:
+The FSCK seeks for TFMK::issues vs the ordered by importance { metrics } DBLW:
 * {conflicts, consistency, clarity, actionability, completeness, !perplexity, redundancy};
+* { punctuation, indentation } issues that could impair TFMK ( interpretation OR execution ).
 
 UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
 * title: "## Framework Check Report", other sections use "###" or subordinates;
@@ -943,9 +944,10 @@ UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
   - FOR({MJ::*) print NBL(change, PVSC(change), optional).
 
 The FTCK aim to prevent unpredicatable TFMK interpretations:
-* about in lang:EN and Markdown format:
-  - search for ( orthographic OR sintax OR  grammar ) errors;
-  - search for ( mismatching OR confusing OR inconsistent ) symbols/keywords usage;
+* about English language and Markdown format:
+  - check for { punctuation, indentation } mistakes;
+  - check for { orthographic, sintax, grammar ) errors;
+  - seek for { mismatching, confusing, inconsistent } symbols/keywords usage;
   - seek for lexical incoherence, symbolical inconsistency, and semantic perplexity.
 * use MJ's structure, but {{optional}} is for solution proposals, to provide the report (`ostr`);
 * create a file that users can use with `sed -f${file} -i ${tfmk}} that solves the issues found, IFNY:
