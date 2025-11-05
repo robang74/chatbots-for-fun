@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.4
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.5
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -19,8 +19,8 @@ TFMK provides a stacked 3-layers of interpretations, listed in emerging order:
 The 3rd is the hardest to catch, but TFMK offers various tools for understanding.
 
 Concept (TCSR): text length compression by strings replacement, examples:
-* / some text here /(`xyzt`): every where `xyzt` appears, read as "some text here";
-* `XYZT`: the same but all in capitals for a TFMK global string replacer (-s: plural).
+* / some text /(xyzt): every where '%xyzt' appears, to be read as "some text";
+* XYZT: the same but all in capitals for a global string replacer (-s: plural).
 AI models can autonomously leverage TCSR, provided !conflicts AND expansion for users.
 
 ### I. Cognitive Compass [AICC]
