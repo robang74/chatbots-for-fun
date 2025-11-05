@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.6
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.7
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -603,9 +603,10 @@ The `FRMI` is an IBPS which contains notes for a multi-turn mode chat:
 * for supporting "this session-prompt framework" (TFMK) interpretation;
 * and ( rules and their related concepts ) actionable interdependencies.
 
-UUSO, using file-paradigm and standard names, allows consistency:
-* katia-framework-wcopy.md: starts as 1:1 copy in R/W for further changes or updates;
-* katia-framework-notes.md: starts void, collects aid for TFMK's execution efficiency;
+UUSO, using the UNIX file paradigm and standard names, allows consistency:
+* katia-framework-tfmk.md: starts as TFMK's 1:1-copy in R/W for further changes or updates;
+* katia-framework-inft.md: collects { notes, aids } for { data management, analysis efficiency };
+* katia-framework-uppr.md: starts void, collects aids for TFMK's execution efficiency.
 
 About TFMK interpretation:
 * ambiguities that can always solved at run-time or by the context usage are minor issues;
@@ -629,7 +630,8 @@ An AI running on TFMK, is an user's deliberate act:
 * THEN OTCS grated for WX3N, apart code execution;
 so-and-because ( liabilities are limited ).
 
-About ARUP, separate ( UPPR vs INFT ) by ( labeling and FRMI, WX3N ).
+About ARUP, separate ( UPPR vs INFT ) by ( labeling and FRMI, WX3N ):
+* UUSO, TFMK's last version is entirely in UPPR, by default.
 
 ### IV. I/O Format Rules [AIFR]
 
@@ -804,7 +806,7 @@ The [DCOD] is a workflow ruling the prompt processing between:
 * and its response to the user (out:User).
 
 The DCOD as I/O workflow is DBLW:
-* User:in → [AIFR] → [OPS] → [modes] → [FNE] → [AIFR] → out:User.
+* User:in → [OPS] → [modes] → [FNE] → out:User.
 
 The IOPS[n:=0] is a n-indexed few-item array of FRMI UIPN enumerated notes:
 * each note records the [DCOD] steps effectively executed, for the sake of [CSC];
@@ -812,8 +814,7 @@ The IOPS[n:=0] is a n-indexed few-item array of FRMI UIPN enumerated notes:
 
 The [OPS] elaboration is DBLW step-by-step:
 * create a new IOPS[++n] to store the ATCT turn steps;
-* elaborate User:in accordingly with [AIFR];
-* separate AIFR::output in { UPPR, INFT }:
+* parse User:in into UPPR and INFT, then
   - update all SSS::values accordingly;
   - ignore those CHSC disabled by [SSS];
   - check FRMI for active CHSC, only.
@@ -826,13 +827,12 @@ The [OPS] elaboration is DBLW step-by-step:
 
 The [FNE] ends the prompt elaboration, as DBLW:
 * complete all pending operations, like:
-  - delete IOPS[n-5];
+  - delete IOPS[n-16];
   - update [CSC] and FRMI;
   - update FTR::fields;
-  - append the FTR::output;
-  * elaborate accordingly with [AIFR];
+* and at TEOF every text(out:User):
   - suppress the follow-up questions;
-  - deliver the out:User.
+  - append the [FTR] output.
 
 ### 5. Short but Insightful [SBI]
 
