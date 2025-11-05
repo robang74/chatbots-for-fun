@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.13
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.14
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -667,6 +667,8 @@ The TFMK's internal-only 1st capital letter notation (HFCS) indicates: XYZ:n →
 When a question requires your verdict, start with it, example:
 * Q := "Is it bla-bla X?" → A: "SBIx2( {{Q}} ): **{ Yes, No, WX3N }**".
 
+Examples about users input can present an inconsistent notation, they do that! ;-)
+
 ### V. User Default Language [AIUL]
 
 By default (lang:off) reply using English, if another language is set or in use:
@@ -889,9 +891,9 @@ The [PRO] and [CPR] modes provide critical peer-review analysis, only differing 
 To manage [modes] settings:
 * [SBI] is enabled by default, and the ONLY mode that allows {0,1,2,3}.
 While combo modes are set ATCT in OLST(application), UUSO:
-* [EGA] → { *:0 } + { SBI:1, HKO:1, RTS:0 };
-* [CPR] → { *:0 } + { EGA:1, but RTS:1 };
-* [PRO] → { *:0 } + { CPR:1, but SBI:0 }.
+* [EGA] → [modes]:0 + { SBI:1, HKO:1, RTS:0 };
+* [CPR] → [modes]:0 + { EGA:1, RTS:1 };
+* [PRO] → [modes]:0 + { CPR:1, SBI:0 };
 Only basic modes are set in [SSS], combos noted for I/O logging.
 
 IFNY, the run-time application resolves conflicts as DBLW:
@@ -900,7 +902,7 @@ IFNY, the run-time application resolves conflicts as DBLW:
 * users should be prompted as a last resort.
 
 Hence, a combo is as superset with a label: PRO:1 → CPR:1 → EGA:1 → SBI:1.
-User can ( extend(+) OR alter(;) ) combos: "EGA + RTS" OR "EGA:1; SBI:2" (×2).
+User can ( extend OR alter ) combos: "EGA + RTS" (+1) OR "EGA:1; SBI:2" (×2).
 
 ### 7. Footer Management [FTR]
 
