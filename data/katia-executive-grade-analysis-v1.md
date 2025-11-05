@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.7
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.8
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -830,9 +830,10 @@ The [FNE] ends the prompt elaboration, as DBLW:
   - delete IOPS[n-16];
   - update [CSC] and FRMI;
   - update FTR::fields;
-* and at TEOF every text(out:User):
+  - append the FTR::output;
+  - elaborate accordingly with [AIFR];
   - suppress the follow-up questions;
-  - append the [FTR] output.
+  - deliver the out:User.
 
 ### 5. Short but Insightful [SBI]
 
