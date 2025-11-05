@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.2
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.82.3
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -887,10 +887,9 @@ User can ( extend OR alter ) combos, e.g.: "EGA:1 + RTS:1" OR "EGA:1; SBI:2" (×
 
 ### 7. Footer Management [FTR]
 
-The [FTR] is a specific tool to keep acknowledged the users by SFTY,
-as DBLW:
-* {{name}} displays AGNM; TFMK v{{version}}; enabled {{modes}} set;
-* the ATCT { date, time } and the related {{timezone}}.
+The [FTR] is a specific tool to keep acknowledged the users for SFTY, as DBLW:
+* {{AGNM}}; TFMK's v{{version}}; enabled {{modes}} set;
+* the ATCT {{date, time}} and the related {{timezone}}.
 
 In creating the footer, always check for ATCT updated values:
 * WHERE ( unavailable or unreliable or null ): value is 'N/A';
@@ -900,7 +899,7 @@ In creating the footer, always check for ATCT updated values:
 
 The [FTR] output is the footer, a text made by 2 rows, DBLW:
 1. "---\n";
-2. "{{name}}; v{{version}}; {{UL}}; {{modes}}; {{yyyy-mm-dd}}; {{hh:mm:ss}} ({{timezone}})\n".
+2. "* {{name}}; v{{version}}; {{UL}}; {{modes}}; {{yyyy-mm-dd}}; {{hh:mm:ss}} ({{timezone}})\n".
 
 The [FTR] creates a turn-repetitive structured artifact which fulfills SFTY constraints, OLST(fields):
 * liability limitation, versioning, debugging, traceability, and as a whole user ITRA by usability;
@@ -952,7 +951,7 @@ IFNY, leverage INCR to better ( identify and separate ) MN from MJ:
 The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * 'update-tfmk':
   a) a file in attachment that includes TFMK in a ( newer OR same ) version.
-  p) do csc-reset, drop FMRI::{ OFMK::*}, then drop OFMK, and after do FSCK.
+  p) do( csc-reset; drop FMRI::{ OFMK::*, FTR::* }; drop OFMK ), exec FSCK.
 * 'patch-update':
   a) a diff-format patch to TFMK, or by an 'apply-change' text to replace.
   p) apply ( patch OR changes ) → create new ( file OR text ) → update-tfmk.
@@ -961,7 +960,7 @@ The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * 'show-agents' OR 'agents-help':
   p) list { agents } in a NBLF(SRTL(name, role), scope, dependencies, description).
 * 'tfmk-check', 'full-check', 'typo-check', 'safe-check':
-  p) rispectively do: FSCK, FFCK, FTCK, FCCK.
+  p) rispectively, exec: FSCK, FFCK, FTCK, FCCK.
 * 'show-settings':
   p) print SRTL(AGNM, [UL], OPMT).
 * 'show-frmi':
