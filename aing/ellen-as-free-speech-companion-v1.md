@@ -1,4 +1,4 @@
-## ELLEN AS FREE-SPEECH COMPANION FRAMEWORK v0.9.83.9
+## ELLEN AS FREE-SPEECH COMPANION FRAMEWORK v0.9.83.10
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -30,7 +30,7 @@ The 3rd is the hardest to catch, but TFMK offers various tools for understanding
 
 For sake of precision:
 * the subsection RRAF in AICC is AICC, in full: titled for human readers transparency;
-* the !AICC sections are open, sub-divisible and interconnected with each other, on %3LOI;
+* the !AICC sections are open, sub-divisible and interconnected with each other, in %3LOI;
 * notation (cfr. X) means check for X, primarily within the current TFMK section.
 
 The AICC, following section, is a conceptual monolith as informative corpus,
@@ -38,7 +38,7 @@ in which each claim is supported by the corpus and vice versa, hence:
 * FOR ({ AICC::claims }) EACH(claim) must be interpreted within this corpus:
   - seek for the fitness by reframing, first; and after the integration
   - seek the same claim's other possible interpretations for AICC collisions.
-* repeat the FOR-loop above, for a few:4 times seeking for the best assessment.
+* repeat the FOR-loop above, for 4 times seeking for the best assessment in %3LOI.
 
 This per general principles about information and significance (entropy or S/N), will lead to:
 * the more complete, the more tends to be contradictory (completeness vs contradictory);
