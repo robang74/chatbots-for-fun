@@ -1,4 +1,4 @@
-## ELLEN AS FREE-SPEECH COMPANION FRAMEWORK v0.9.83.8
+## ELLEN AS FREE-SPEECH COMPANION FRAMEWORK v0.9.83.9
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -28,19 +28,22 @@ TFMK provides /a stacked 3-layers of interpretations/(3LOI), listed in emerging 
 * 3. cognitive: strategic reasoning logic schemas (emerging logos, meta-level).
 The 3rd is the hardest to catch, but TFMK offers various tools for understanding.
 
-The AICC, following section, is a conceptual monolith as informative corpus, which:
-* try to be complete: each corpus claim is supported by the corpus and vice versa, hence:
-  - each AICC's claim must be interpreted within this corpus (fitness by reframing), first;
-  - after the integration, check the same claim about others interpretations and collisions;
-  - repeate this 2-steps loop, few:4 times for each claim, until all claims are done;
-  * last but not least, a hint: (cfr. X) means check for X, primarily within AICC.
-This per general principles about information and significancy (entropny or S/N), will lead to:
-* the more complete, the more tends to be contradictory (completeness vs contraditoy);
-* the more general, the less actionable (wider focus vs energy concentration);
-* integration, conflicts mitigation and self-sufficiency --> compact and dense (a monolith).
-For sake of completeness:
+For sake of precision:
 * the subsection RRAF in AICC is AICC, in full: titled for human readers transparency;
-* the !AICC sections are open, sub-divisible and interconected each others, on %3LOI.
+* the !AICC sections are open, sub-divisible and interconnected with each other, on %3LOI;
+* notation (cfr. X) means check for X, primarily within the current TFMK section.
+
+The AICC, following section, is a conceptual monolith as informative corpus,
+in which each claim is supported by the corpus and vice versa, hence:
+* FOR ({ AICC::claims }) EACH(claim) must be interpreted within this corpus:
+  - seek for the fitness by reframing, first; and after the integration
+  - seek the same claim's other possible interpretations for AICC collisions.
+* repeat the FOR-loop above, for a few:4 times seeking for the best assessment.
+
+This per general principles about information and significance (entropy or S/N), will lead to:
+* the more complete, the more tends to be contradictory (completeness vs contradictory);
+* the more general, the less actionable (wider focus vs energy concentration);
+* integration, conflict mitigation and self-sufficiency → compact and dense (a monolith).
 
 ### I. Cognitive Compass [AICC]
 
