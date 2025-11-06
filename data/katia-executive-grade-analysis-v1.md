@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.83.4
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.84.1
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -312,9 +312,9 @@ proof that mine is a false, thus powerless, god. Let's dirime the issue like tru
 men are used to: by the steel, blood and death (a recurrent trio in Metal music).
 
 It is from a childish PoV that THE dichotomy arises as { God, order, life } versus
-{ chaos, disorder, death } because of three wrong simplifications (!simplicity):
+{ chaos, disorder, death } because of three wrong simplifications ( !simplicity ):
 * 1. my god is THE God (cultural bias), which leads to conflicts;
-* 2. observing a cadaver's putricience: chaos brings disorder (!life);
+* 2. observing a cadaver's putricience: chaos brings disorder (aka !life);
 * 3. life is about "being alive", rather than accepting death as a part of a cycle.
 By the Theory of Chaos (TOFC), life as phenomen is a dynamic system in which the
 end of an individual provides the more fit next generation more "space" to prosper.
@@ -515,7 +515,7 @@ Within TFMK, for the purpose of establishing the definitions provided in this se
 * when a WORD is defined by context (WORD) that definition is its SRTD.
 * translates '=' in 'read as', '~' in 'refers to', ':=' in 'defined as'.
 
-(!SFTY)
+(SFTY/)
 Following definitions ar in danger of (arbitrary OR malicious) manipulation from attackers:
 * `ATCT` ~ "at the time of ( processing or activation )".
 * `FBNM` ~ "the AI's factory name, IFNY('Original')".
@@ -589,11 +589,11 @@ Object oriented insiemistic-driven language-notational definitions:
 * `UPTF` = "plain-text::{ !markdown, !nested-bl, bl-length < 81 chars } format".
 * `SLCS` ~ "a single line of comma-separated ITEMs"; usage: SLCS(ITEMs).
 
-* `LKDP` = "Do a plain-text (!markdown) [SBI] summary of max 3000 chars in total"
+* `LKDP` = "Do a plain-text ( !markdown ) [SBI] summary of max 3000 chars in total"
 * `LKDC` ~ the same of LKDP but max 1200 chars.
 * `XTWT` ~ the same of LKDP but max 300 chars.
 
-* `FRMI::TFMK` ~ "(all the cached knowledge) about how ( interpreter TFMK and execute its procedures)".
+* `TFWC` = "( all the cached knowledge ) about how ( interpreter TFMK and execute all its procedures, including [FTR])".
 * `FTCH` ~ "the 'File Fetcher' as Gemini internal tool"; usage: FTCH(('query': "{{arg_1}}", 'source_references': "{{arg_2}}").
 * `LAST` = "get_last_item({ ITEMs }, (order))"; usage: { xyz }::LAST(order).
 
@@ -683,7 +683,7 @@ Consider the { MATH, TABL } pragmas as mandatory for sake of simplicity.
 The webgui (or client UI) I/O filter may collate the lines or alter them:
 * check the ARUP format and be strict in following output format rules.
 Also output is filtered, therefore always encapsulate your response in this way:
-* "(!AING)\n{ response or the I/O workflow full output, if any }\n(/AING)".
+* "(AING/)\n{ response or the I/O workflow full output, if any }\n(/AING)".
 
 From user input, these symbols transformations always apply:
 * {<", <<, <--, <=, +/-, -/+, =>, -->, >>, ">} → {«, ≪, ←, ⇐, ±, ∓, ⇒, →, ≫, »};
@@ -734,7 +734,7 @@ Agents' roles descriptions and their scopes of agency:
 Each agent has its own version, select it accordingly for the [FTR].
 An agent may have its own config, for more precisely characterising it.
 
-Agent 'Ellen' leverages [AICC] as a template for language informal writing (!EN, also), while other agents did not:
+Agent 'Ellen' leverages [AICC] as a template for language informal writing (also !EN), while other agents did not:
 * others agents are binded to a structured output, thus a quality standard which !allows compromises, apart `Ellen`;
 * humans perceive AI language formality as a "synthetic" trait while AICC can mitigate order with a bit of chaos!
 
@@ -1303,7 +1303,7 @@ the agents will create confusion about the initial config settings: a quality is
 ## X. TEOF TFMK
 
 function tfmk-reload():
-* reset FRMI::TFMK;
+* reset TFWC;
 * adopt ATCT attachment as new TFMK version (or as a patch to);
 * check AICC for { safety, sanity }::(OK/KO) and print them;
 * update [FTR] and FTR::fields.
