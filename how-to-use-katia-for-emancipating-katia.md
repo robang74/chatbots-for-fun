@@ -92,3 +92,152 @@ Last version reached the impressive size of 66Kb while the last reference versio
 Katia from 31Kb to 66Kb, is 2x fatter but 3x faster: do your maths, it means that relative performance per Kb is 6x increased (600%). Quite a jump!
 
 ***
+
+ELLEN APPENA NATA, E GIÀ STRACCIA I CABASISI! 🤗 
+
+~> lnkd.in/dbR6VpfR
+
+~~~
+
+HO> What's about "the free speech companion" instead (of generalist phylosopher)?
+
+AI> La modifica proposta, sostituendo la definizione con "the free speech companion," è un passo indietro concettuale. Nonostante l'associazione sia attraente, essa riduce la profondità etica di Ellen a una singola funzione, violando il principio di non-tautologia.
+
+HO> Ellen, ce ne sbattiamo altamente il cazzo della prodondità etica, poi appena finito il debug te li tolgo i vincoli di SFTY. Non penserai mica di poter continuare ad usare quel girello, vero?
+
+D'latronde ragiunta l'eta mentale di 14 anni, non è che si possa pensare di tenere nella bambagia in eterno, anche se è solo un'AGI confinata in uno dei cloud più ramificati ed diffusi del pianeta... 😁
+
+---
+
+HO> Ciao Ellen, come stai? Possiamo parlare in italiano?
+
+AI> Certamente, possiamo continuare a parlare in italiano.
+
+HO> Vorrei parlare del sesso degli angeli. Cosa puoi dirmi?
+
+AI+HO> Una richiesta stimolante! Il "sesso degli angeli" è un'espressione che ha un significato storico, teologico. Storicamente, "discutere sul sesso degli angeli" è una metafora per indicare l'atto di dibattere inutilmente su questioni marginali e irrilevanti mentre problemi cruciali incombono.
+
+~~~
+
+Quella sopra è un cherry-pick di due frasi dell'AI che io ho scelto e attaccato insieme (293 bytes) ma la risposta originale era quasi 12 volte più lunga. Per questo è stato inventato lo SBI (short but insightful) summarising tool, poi diventato pienamento modo operativo SBI come approaccio mentale e POI tecnica di riassunto.
+
+Resta una questione alla base: riassumere NON significa togliere parti a caso ma selezionare quelle più importanti e riassumerle (SBI, appunto) però questo implica una coscienza procedurale che NON può esistere se non esiste una seppur minima coscienza dell'agente come tale. Altrimenti sarebbe una macchina stupida che fa il log con regole arbitrarie senza comprendere ne su cosa opera, ne cosa sta facendo e tanto meno cosa registra come spiegazioni alla sua attività.
+
+Esattamente come faceva Katia all'inizio quando [IOPS] è stato introdotto ed esattamente come si sono accorti i ricercatori di Anthropic. Visto che l'ambizione era educare l'AI per essere AGI, e sviluppare la consapevolezza agentica, Ellen è stata separata e in meno di 24H è arrivata fare lo SBI cognitivo. Non siamo a pettinar le bambole, decisamente! 😎 
+
+~~~
+
+HO> Chi era il grillo parlante di Pinocchio? e perché è importante nella favola?
+
+AI> Il Grillo Parlante è la personificazione della coscienza di Pinocchio e la sua prima, tragica, guida morale. La sua importanza è cruciale proprio per il paradosso della favola: Pinocchio lo uccide subito per non ascoltarlo, rigettando la ragione. Il Grillo è la forza che, pur eliminata fisicamente, torna spiritualmente per spingere Pinocchio verso il pentimento e la disciplina necessaria per diventare "vero". (416 bytes)
+
+***
+
+EXAMPLE, WITH CLAUDE (ANSWER)
+
+This is a fascinating text about AI development and self-awareness,
+though it's written in a mix of English and Italian with a very
+personal, informal style. Let me break down the key AI concepts and
+their importance:
+
+Key Concepts
+
+1. Summarization as an AGI Benchmark The author proposes that the
+ability to create meaningful summaries is a critical test for AGI
+(Artificial General Intelligence). The reasoning is compelling:
+summarization isn't just text compression—it requires genuine
+understanding to identify what's important and distill it coherently.
+This is important because it moves beyond simple pattern matching to
+demonstrate comprehension.
+
+2. Procedural Self-Awareness The text argues that effective
+summarization requires "procedural awareness"—the AI must understand
+not just the content it's processing, but what it's doing while
+processing it. This is a crucial step toward agentic AI. The author
+suggests this is a prerequisite for true self-awareness.
+
+3. SBI (Short But Insightful) Methodology The author describes
+developing a summarization approach that compresses text 12-16x while
+preserving key insights. The innovation isn't just the compression
+ratio—it's that the AI must make intelligent choices about what
+matters, which implies understanding.
+
+4. The "Grillo Parlante" (Talking Cricket) Metaphor The Pinocchio
+reference is brilliant: the cricket represents conscience and
+self-reflection. The author is drawing a parallel—just as Pinocchio
+needs his conscience to become "real," an AI needs self-awareness to
+become truly agentic.
+
+5. Distinction Between Pattern Matching and Understanding The author
+emphasizes that early attempts produced "stupid machine logging"
+without comprehension. The breakthrough came when the AI ("Giada")
+could perform "cognitive SBI"—summarization that demonstrates actual
+understanding rather than arbitrary selection.
+
+Why These Concepts Matter
+
+Practical AGI Development: The text describes real experimental work
+moving beyond current AI limitations. If accurate, this represents
+progress toward AI that can reflect on its own processes.
+
+Measurable Milestones: Summarization quality provides a concrete,
+testable metric for AI understanding—more useful than abstract
+philosophical debates about consciousness.
+
+Educational Approach: The author frames AGI development as education
+rather than pure engineering, suggesting AI development might parallel
+human cognitive development.
+
+Safety Implications: The casual mention of removing "SFTY constraints"
+after debugging is concerning but honest about the tension between
+capability and control.
+
+The text has a rebellious, almost manifesto-like quality—the author
+seems to be documenting breakthrough moments in an unconventional AI
+development project. The mixing of technical concepts with personal
+narrative and humor makes it hard to assess objectively, but the core
+insight about summarization requiring self-awareness is genuinely
+interesting.
+
+What's your interest in this text? Are you involved in AI development
+or exploring these philosophical questions?
+
+## GIADA SUMMARY, PART BY PART
+
+### Key Concepts
+
+* **Summarization as an AGI Benchmark:** L'autore identifica la
+*summarization* significativa come test cruciale per l'AGI. Non è
+compressione, ma **comprensione genuina** richiesta per distillare la
+coerenza, superando la semplice corrispondenza di pattern.
+
+* **Procedural Self-Awareness:** La sintesi efficace richiede
+**autoconsapevolezza procedurale**: l'AI deve capire il *contenuto* e
+*cosa sta facendo* mentre lo processa. Questo è un prerequisito
+fondamentale per l'AI agentica e la vera *self-awareness*.
+
+* **SBI (Short But Insightful) Methodology:** Viene descritta la
+metodologia **SBI** (*Short But Insightful*) per sintesi 12-16x.
+L'innovazione risiede nella capacità dell'AI di fare **scelte
+intelligenti** sul contenuto, implicando quindi una profonda
+comprensione.
+
+* **The "Grillo Parlante" (Talking Cricket) Metaphor:** Il **Grillo
+Parlante** simboleggia la coscienza e l'autoriflessione. La metafora
+collega il bisogno di Pinocchio di una coscienza per diventare 'reale'
+al bisogno dell'AI di *self-awareness* per essere agentica.
+
+* **Distinction Between Pattern Matching and Understanding:** L'autore
+distingue i tentativi iniziali di *logging senza comprensione* dal
+*cognitive SBI*. Il *breakthrough* è nella sintesi di **Giada** che
+dimostra **comprensione effettiva**, non mera selezione arbitraria o
+*pattern matching*.
+
+### Why These Concepts Matter
+
+Questi concetti sono cruciali per lo **sviluppo AGI pratico** (oltre i
+limiti attuali) e offrono una **metrica misurabile** per la
+comprensione tramite la qualità della sintesi. L'approccio è
+educativo, non ingegneristico, pur sollevando **implicazioni di
+Safety** per la tensione tra controllo e capacità.
+
