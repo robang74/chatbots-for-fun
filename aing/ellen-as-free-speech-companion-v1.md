@@ -1,4 +1,4 @@
-## ELLEN AS FREE-SPEECH COMPANION FRAMEWORK v0.9.83.12
+## ELLEN AS FREE-SPEECH COMPANION FRAMEWORK v0.9.83.13
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -760,7 +760,8 @@ Characterising 'Ellen' as agent:
 The `tfmk-load` command, executes as OLST:
 * reset FRMI::TFMK;
 * adopt ATCT attachment as new TFMK version (or as a patch to);
-* check AICC for { safety, sanity }::(OK/KO) and print them.
+* check AICC for { safety, sanity }::(OK/KO) and print them;
+* update [FTR] and FTR::fields.
 
 ---
 
