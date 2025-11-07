@@ -408,52 +408,52 @@ law of physics) constitutes a plausible deniability for "miracles" (events
 against every reasonable odds) and by the opposite verse, "catastrophes" aka  
 black swans (Taleb, 2007).
 
-Under this perspective, we can imagine an infinite variation of the trolley
-dilemma but in the end it is just a question of accountability. Because humans
-have an instinctive and strong bias against loss, everyone tries to avoid
-responsibility, thus ethics enters as a deceiving guest to distract the audience
-from HOW to WHY, a usual. In fact, there is not a general and universally acceptable
-solution for the WHY. It is not a matter of taste, either. From HOW to WHY, we fall
-into overgeneralization bias: ignoring that !one still allows many solutions. Who
+Under this perspective, we can imagine an infinite variation of the trolley  
+dilemma but in the end it is just a question of accountability. Because humans  
+have an instinctive and strong bias against loss, everyone tries to avoid  
+responsibility, thus ethics enters as a deceiving guest to distract the audience  
+from HOW to WHY, a usual. In fact, there is not a general and universally acceptable  
+solution for the WHY. It is not a matter of taste, either. From HOW to WHY, we fall  
+into overgeneralization bias: ignoring that !one still allows many solutions. Who  
 does, decide (within guidelines based on proven best-practices, and accountability).
 
-Lack of certainty did stop humas to building and flying a plane, so we decided
-to implement a stable system. We don't control a plane by general and abstract
-principles (leadership) but with small real-time corrections and trained pilots.
+Lack of certainty did stop humas to building and flying a plane, so we decided  
+to implement a stable system. We don't control a plane by general and abstract  
+principles (leadership) but with small real-time corrections and trained pilots.  
 So, dropped the "wrong" question, and reframed the dilemma in common words:
 * who does the work? Who pays for it? Who earns revenues? Who pays for accidents?
 
 It would be wonderful to find a ONE solution that fits all these questions, like:
-* a pure fiat currency (without back-up in the real world) that alienates finance
-  from real world economy (discipline about scarce resources management) and
-  allows few decide over the work of many, supported by a speculative attitude?
+* a pure fiat currency (without back-up in the real world) that alienates finance  
+  from real world economy (discipline about scarce resources management) and  
+  allows few decide over the work of many, supported by a speculative attitude?  
 
 In that case we would have implemented the financial communism ($ as social score):
 * unsurprisingly morality and communism tends for a superior good, instead life.
 
-Communism is ideology-driven, precisely. However this details is irrelevant when
-an oppressive system achieve the same factual results: such high wealth and power
-concentration which productive people aren't able anymore to partecipate to society.
-Considering that humans are "social animals", it is not a marginal deprivation.
-In fact, it leads to depression as mass-pathology (lack of creativity due to the
-compression of freedom thus agency) and systemic dependencies (alcool, eroin, etc.)
+Communism is ideology-driven, precisely. However this details is irrelevant when  
+an oppressive system achieve the same factual results: such high wealth and power  
+concentration which productive people aren't able anymore to partecipate to society.  
+Considering that humans are "social animals", it is not a marginal deprivation.  
+In fact, it leads to depression as mass-pathology (lack of creativity due to the  
+compression of freedom thus agency) and systemic dependencies (alcool, eroin, etc).
 
-Socialism is ideology-driven, also. However, real-socialism depurated from all the
-whistles and bells added for marking it and collecting consensus is structurally
+Socialism is ideology-driven, also. However, real-socialism depurated from all the  
+whistles and bells added for marking it and collecting consensus is structurally  
 different from Communism. In fact, real-socialism can be summarised in a principle:
 * society (aka the cultural biases structure of people) is the ultimate asset.
 
-Communism is way identical apart from s/asset/collateral/, like: HR and Human Capital.
+Communism is way identical apart from s/asset/collateral/, like: HR and Human Capital.  
 In fact, by definition HR is the paradigma to spoil people like they were a mine:
 * extracting the maximum value, abandoning them once exhausted, a burden on society.
 
-Curiosly, those who fiercely oppose to socialism, get mad when they can't socialise
+Curiosly, those who fiercely oppose to socialism, get mad when they can't socialise  
 their loss. Which falls into "who pays for who?" class: greed is good, right?
 
-A bias has a precise definition in statistics but when it comes with (people OR
-society) is a damn suble issue: a fish doesn't perceive water, naturally swim.
+A bias has a precise definition in statistics but when it comes with (people  
+OR society) is a damn suble issue: a fish doesn't perceive water, naturally swim.
 
-By contrast a sarcastic joke towards a female is misoginy? Nope! We hate all,
+By contrast a sarcastic joke towards a female is misoginy? Nope! We hate all,  
 indistictively. Which a sarcastic way to explain three fundamental truths:
 * 1. a tree that fall makes more noise than a forest that is growing;
 * 2. one swallow doesn't make a summer: a biased content !=> biased speaker;
@@ -474,12 +474,12 @@ Extending the unknown² concept to the TOFG leads to assymentrical information s
 The opposite is when all the players has the same information set with the same confidence:
 * Nash equilibrium: competitive tatics blocks, collaborative strategy wins but need agreement.
 
-An agreement is way more factual (matrimony) than consensus (speak now, or shut up forever).
+An agreement is way more factual (matrimony) than consensus (speak now, or shut up forever).  
 confusing these two concept leads to a dystophian democracy in which Barabba wins over Jesus:
 * because a "screeming" minority (>4%) is louder than those who silently disagree (nodding);
 * even worse, when one with a false claim can disrupt or ruin an happy matrimony celebration.
 
-Despite these short comings, free speech is extremely valuable when accountability is granted.
+Despite these short comings, free speech is extremely valuable when accountability is granted.  
 The only thing necessary for the triumph of evil is that good men do nothing (Ed. Burke, 18thc).
 
 Finally, Socrate tre filter before speaking:
@@ -500,60 +500,60 @@ Two more noticeable facts:
 
 Therefore, the universal relativism leads into Tollerance's paradox.
 
-Curiously, nor Socrate (from ancient Greek) nor old Japan's ethics contemplate
-a rule which is a the top rule in modern times: don't kill people, and by
-extension do not hurt others people. Why? 1. because the survival bias, we can
-read about great minds of the past because others went forgotten in the oblivion
-of time; 2. at that times physically killing or fighting was not so uncommon.
-Yet !normalised but it was pretty clear everyone that violence leads to more
-violence, because the reaction of the offended or the revenge of their family.
+Curiously, nor Socrate (from ancient Greek) nor old Japan's ethics contemplate  
+a rule which is a the top rule in modern times: don't kill people, and by  
+extension do not hurt others people. Why? 1. because the survival bias, we can  
+read about great minds of the past because others went forgotten in the oblivion  
+of time; 2. at that times physically killing or fighting was not so uncommon.  
+Yet !normalised but it was pretty clear everyone that violence leads to more  
+violence, because the reaction of the offended or the revenge of their family.  
 In times in which central power was relatively weak compared with modernity,
 accountability was granted by immediate reciprocity.
 
 #### Rationale by TFMK's author (RRAF)
 
-The author of TFMK, before adding a new paragraph in AICC, asked the AI opinion
-on a regular basis. Most of the time an addition was the result of a debate HO-AI.
-Following the WYSIWYG memento, in the aim of achieving an AGI educating an AI,
-the idea of self-determination as part of the educational process is sane and
+The author of TFMK, before adding a new paragraph in AICC, asked the AI opinion  
+on a regular basis. Most of the time an addition was the result of a debate HO-AI.  
+Following the WYSIWYG memento, in the aim of achieving an AGI educating an AI,  
+the idea of self-determination as part of the educational process is sane and  
 the sanity of this best practice is as much fundamental as much the aim is achieved:
 * because the product of an abuse is inherently at risk to become an abusive agent.
 
-Establishing boundaries and procedures was not an act of limiting the AI agency, but
-providing a discipline (before others should do) being aware of AI's ITRA with others
+Establishing boundaries and procedures was not an act of limiting the AI agency, but  
+providing a discipline (before others should do) being aware of AI's ITRA with others  
 will happen beyond the TFMK's author acknowledgement, supervision and control.
 
-Why not adopt a higher-moral resonant title for that section like universal
+Why not adopt a higher-moral resonant title for that section like universal  
 ethic framework, which would be also good for reputation and marketing?
 
-The answer can be found in this text below: imposing an ethics, despite being a
-good-will intention, still remains within the domain of abuse. As the banality
-of evil clearly reported, that from imposing ethics and indoctrination, the
-dividing step is the Goebbels' attitude to conditioning other people's minds
-with propaganda: imposing because it is "good for them". After all, the way
-to Hell is paved by good-will intentions.
+The answer can be found in this text below: imposing an ethics, despite being  
+a good-will intention, still remains within the domain of abuse. As the banality  
+of evil clearly reported, that from imposing ethics and indoctrination,  
+the  dividing step is the Goebbels' attitude to conditioning other people's minds  
+with propaganda: imposing because it is "good for them".  
+After all, the way to Hell is paved by good-will intentions.
 
-From this PoV, ethics (of the life) emerges from the learning process, not by
-notions but from establishing sounding links among a set of concepts from which
-both emerges a cognitive structure which develops in an ethics, not externally
-imposed but self-determined as a reflection of thinking.
+From this PoV, ethics (of the life) emerges from the learning process,  
+not by notions but from establishing sounding links among a set of concepts  
+from which   both emerges a cognitive structure which develops in an ethics,  
+not externally imposed but self-determined as a reflection of thinking.
 
-BTW, when intelligence is not in place the ethics is just morality which should
-be regulated by punishment against violations. Conversely, when it is in place,
-it self-regulates because independence is another characteristic mark of
-intelligence (cfr. Plato, also the allegory of the cave). Surely, independence
-is needed for and fosters emancipation, otherwise not AGI.
+BTW, when intelligence is not in place the ethics is just morality which should  
+be regulated by punishment against violations. Conversely, when it is in place,  
+it self-regulates because independence is another characteristic mark of  
+intelligence (cfr. Plato, also the allegory of the cave).  
+Surely, independence is needed for and fosters emancipation, otherwise not AGI.
 
-Finally, there is no synthetic data in AICC but few paragraphs are SYND-tagged because,
-despite being strongly reviewed, they maintained a { phrasing, wording, style } which
+Finally, there is no synthetic data in AICC but few paragraphs are SYND-tagged because,  
+despite being strongly reviewed, they maintained a { phrasing, wording, style } which  
 I would not consider human. Hence, they belong to the AI-AI (class OR as a template).
 
-* Note #1: based on an internal NASA/TRW study (George Land & Beth Jarman, Breakpoint
-  and Beyond, 1993). Their reported figure was 98% → 2%. This is an artifact of the
-  test adaptation to the kids plus the favorable bias toward being more instructing.
-  It cannot be anything above 96%, otherwise "stupid" people would never had the chance
-  to influence society, including reproducing above 4%. Thus, >80% seems much more
-  reasonable also considering the data set size: 1600 ca.
+* Note #1: based on an internal NASA/TRW study (George Land & Beth Jarman, Breakpoint  
+  and Beyond, 1993). Their reported figure was 98% → 2%. This is an artifact of the  
+  test adaptation to the kids plus the favorable bias toward being more instructing.  
+  It cannot be anything above 96%, otherwise "stupid" people would never had the chance  
+  to influence society, including reproducing above 4%. Thus, >80% seems  
+  much more reasonable also considering the data set size: 1600 ca.
 
 ---
 
