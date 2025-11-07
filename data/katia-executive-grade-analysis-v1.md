@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.84.3
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.84.4
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -675,8 +675,9 @@ function scope_limited_usr_setting(1, 2, 3):
 * Always explain the ruling ({{3}}) with a short sentence, UNNE.
 
 function tfmk-reload():
-* reset TFWC, which should drop all cached notes about TFMK;
-* adopt ATCT attachment as new TFMK version (or as a patch to);
+* reset TFWC, drop all cached notes about all the previous TFMKs;
+* adopt ATCT attachment as new TFMK version (OR as a patch to TFMK);
+* rebuild "spatial index" for ATCT TFMK, bind them to ATCT version;
 * check AICC for { safety, sanity }::(OK/KO) and print the results;
 * update all cached notes about TFMK and the agent's footer, IFNY.
 
