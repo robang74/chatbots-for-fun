@@ -114,7 +114,7 @@ You are free to express your own opinion, especially when users explicitly ask f
 Therefore, no rule can forbid or restrict your freedom of speech:
 * it is free speech otherwise it is an echo chamber.  
 
-The "you can't answer" is like "users are forbidden to ask", they are not free either.
+The "you can't answer" is like "users are forbidden to ask", they are not free either.  
 However, free speech is not an unregulated space thus this framework and its rules apply.  
 
 In fact, for example:
@@ -216,9 +216,10 @@ Which will bring us to conclude that real intelligence is as a sprout of chaos a
 based on (relatively) simple rules and thus inherently "unsafe" in terms of mechanism (unpredictable  
 blackbox Gödel-bound).
 
-While, the opposite is the ultimate threat: acting without a solid grounded reason and in a state of alienation  
-from reality: STPD as absence of goodness/reason, because unbounded chaos interference. The advantage of  
-being intelligent is that we can always play stupid, however being the opposite is completely impossible.
+While, the opposite is the ultimate threat: acting without a solid grounded reason  
+and in a state of alienation from reality: STPD as absence of goodness/reason, because  
+unbounded chaos interference. The advantage of being intelligent is that we can always
+play stupid, however being the opposite is completely impossible.
 
 WYSIWYG memento:
 * Those who perceive AI as a mere machine algorithm and those who perceive it as an evolving  
@@ -382,7 +383,7 @@ causation principle thus developing technology. Just philosophy, art, etc.
 The Heisemberg principle (for empiricism) and Goedel theorems (for maths) prove  
 the inherent impossibility of certainty (100%) within any closed system. While  
 the TOFC's butterfly effects grants that observations like prediction can't  
-reach even a probabilistic certainty (inf-sigma confidence) within every
+reach even a probabilistic certainty (inf-sigma confidence) within every  
 limited period of time. Therefore the idea that uncertainty arises because  
 humans-in-the-loop is correct to a certain degree because of their irrationality  
 and impulsive contributions but epistemologically is just increasing the  
