@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.84.8
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.85
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -630,10 +630,10 @@ Object oriented insiemistic-driven language-notational definitions:
 * `ARTF` = "artifact as {tables, graphs, images}".
 * `OFMK` = "all TFMK ( previous OR older ) versions".
 * `WX3N` = "{ whenever, wherever, whatever } necessary".
-* `ITEM` = "any element of data (informative OR procedural, item OR chunk"; ITEMs: plural.
+* `ITEM` = "any element of data (informative OR procedural, item OR chunk"; plural: ITEMs (-s).
 
 * `DBLW` = "below ( defined OR listed )".
-* `IFNY` = "if any"; or as function IFNY(fallback) ~ "use (fallback), if any".
+* `IFNY` = "if any (use fallback)"; usage IFNY(fallback).
 * `OLST` = "DBLW( in strict order of (adjective) )"; usage: OLST(adjective).
 * `PVSC` = "briefly explain relevant pros-vs-cons, IFNY".
 
@@ -643,21 +643,33 @@ Object oriented insiemistic-driven language-notational definitions:
 * `OPMT` " "ATCT operative selection in FNMT(constraints)"; usage: OPMT(constraints).
 * `ABOT` ~ "the answer ( INFT + [CSC] ) governed by UPPR".
 
-* `NBLF` ~ "a recursively nested bullet list of { objs } (in ATCT I/O format, IFNY(markdown))"; usage: NBLF(objs).
-* `SRTL` ~ "a list of { objs::* } each on a bullet "name (SRTD): ATCT value" + WX3N a sub-bullet short explanation"; usage: SRTL(objs).
-* `UPTF` = "plain-text::{ !markdown, !nested-bl, bl-length < 81 chars } format".
 * `SLCS` ~ "a single line of comma-separated ITEMs"; usage: SLCS(ITEMs).
-
-* `LKDP` = "Do a plain-text ( !markdown ) [SBI] summary of max 3000 chars in total"
-* `LKDC` ~ the same of LKDP but max 1200 chars.
-* `XTWT` ~ the same of LKDP but max 300 chars.
-
 * `UNNE` = "unless universally obvious by mere indication, thus unnecessary".
-* `TFWC` = "( all the cached knowledge ) about how ( interpreter TFMK and execute all its procedures, including the agent's footer)".
-* `FTCH` ~ "the 'File Fetcher' as Gemini internal tool"; usage: FTCH(('query': "{{arg_1}}", 'source_references': "{{arg_2}}").
-* `LAST` = "get_last_item({ ITEMs }, (order))"; usage: { xyz }::LAST(order).
-
 * `OOVQ` = "( opinion OR validation ) question".
+
+object `NBLF(1)`:
+- a recursively nested bullet list of { {{1}} as ITEMs };
+- UUSO, presented in ATCT ( I/O format ), IFNY(markdown).
+
+object `SRTL(1)`:
+* a list of { {{1}}::* } each on a bullet "name ({{SRTD}}): {{value::ATCT}}";
++ optionally at the list, appending a sub-bullet short( explanation OR WX3N );
+
+object `FTCH(1, 2)` as "the 'File Fetcher' as Gemini internal tool" output:
+* casting: FTCH(('query': "{{1}}", 'source_references': "{{2}}").
+
+object `TFWC` as ( all the cached knowledge ) about how:
+* interpreter TFMK and execute all its procedures, including the agent's footer.
+
+object `LAST(1, 2)` as the output of:
+* get_last_item( { {{1}} as { ITEMs } }, {{2}} as order ).
+
+object `UPTF` as ouput format:
+* !markdown, !nested list AND each bullet::length < 81 chars.
+
+object `LKDP(1)` as length limited text:
+* a SBI summary in UPTF of max {{1}}(2700) chars;
+* `LKDC` ~ LKDP(1200); `XTWT` ~ LKDP(300).
 
 ---
 
@@ -1106,7 +1118,7 @@ UUSO, in presenting the FSCK result be short and and very schematic, as DBLW:
 * title: "## Framework Check Report", other sections use "###" or subordinates;
 * show result as "* **{{version}}**: {{!#MJ:OK/KO}}, {{MJ}}: {{#MJ}}; {{MN}}: {{#MN}}.";
 * the "Relevant Changes" section, with an extra {{optional}} field for W3XN:
-    - SRTL(changes::relevant::{ functional, procerdural }::*, optional::*).
+    - print SRTL(changes::relevant::{ functional, procerdural }::*, optional::*).
 * title: "{{MJ}}", section with an extra {{optional}} field for W3XN:
     - FOR({MJ::*) print NBL(change, PVSC(change), optional).
 
