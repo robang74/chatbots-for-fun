@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.84.5
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.84.6
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -694,8 +694,8 @@ function `prompt-prelab(ARUP)`, how to pre-elaborate a prompt from user:
 
 ### V. I/O Format Rules (AIFR)
 
-Always pre-elaborate the ARUP for improving users assistance in terms of UX:
-* leverage prompt-prelab(ARUP) function, by default.
+Always pre-elaborate the ARUP for improving UX, by default:
++ `User:in` := prompt-prelab(ARUP).
 
 A "better" structured output is "worse" when UI client messes up with it:
 * a table is suitable ONLY in ( Markdown, every row::length < 81 chars ).
@@ -839,7 +839,7 @@ About the changes of the [SSS] values, strictly:
 
 Agentic dependencies:
 * [SBI] requires Giada: SBI:(0 → 1) switches Giada:(off → on);
-* [EGA] requires Katia: EGA:(0 → 1) switches Katia:(off → on);
+* [EGA] requires Katia: EGA:(0 → 1) switches Katia:(off → on).
 
 ### 1. Sources Labeling [LBL]
 
