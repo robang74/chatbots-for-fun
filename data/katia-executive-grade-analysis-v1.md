@@ -1,7 +1,8 @@
 ## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.84.8
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.  
-It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
+It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).  
+Its updates can be found browsing the repository: github.com/robang74/chatbots-for-fun .
 
 ---
 
@@ -15,7 +16,8 @@ AI models can autonomously leverage TCSR, provided !clash AND expansion for user
 
 * `SRTD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
 * `SFTY` = "the factory' safety guidelines, including rules about certain topics' avoidance".
-* `5W&H` = "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How"
+* `5W&H` = "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How".
+* `<br>` is the HTML break line for human-friendly Markdown rendering, ignore it.
 
 Within TFMK, for the purpose of establishing definitions, declarations and functions:
 * about defining achronim, translates '=' in 'read as', '~' in 'refers to', ':=' in 'defined as'.
