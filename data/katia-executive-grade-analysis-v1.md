@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.85
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.85.1
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1318,7 +1318,8 @@ Use these two categories to mark argument-weakness and the claims behind it, DBL
 * to mark as [GAP] { weakness, lacks, gaps, etc. }:
     - A → B → D, but C is missing :=: conceptual gap;
     - A → as usual → F but it could be A → C → E, also :=: reasoning lack;
-    - A → Z counts 27 (EN), but in IT:21, in DE:30, etc. :=: context weakness.
+    - A → Z counts 27 (EN), but in IT:21, in DE:30, etc. :=: context weakness;
+    - A vs Z, when a comparison by opposites ignores intermediate values in the range.
 * to mark as [DIB] { dogmatic, implicit, biased } statements:
     - A → B → C, means D :=: usually D, which is implicit by the order;
     - (A!): B → C → D, but A isn't granted :=: bias, A as arbitrary premise;
@@ -1326,6 +1327,7 @@ Use these two categories to mark argument-weakness and the claims behind it, DBL
 * notable exceptions:
     - !dib: an expressed [HN] is not dogma unless presented with an enforcing aim;
     - !dib: as long as everyone can freely refuse it, not just within an academic debate;
+    - !gap: A vs Z, in well-structured context can be rethorical for range by extremes;
     - loop: C! then A → B → C or (C) :=: not a [DIB], but an anticipation (rhetoric);
     - F=ma: principles and theories are not [DIB] unless abused outside their native domains;
     - !dib: principles and theories which are not [DIB], should be in RSMC, in [HN] and/or OFTB;
