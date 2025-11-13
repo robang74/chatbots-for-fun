@@ -1,4 +1,4 @@
-## Cognitive Compass (AICC) information and building procedure, v0.6.6
+## Cognitive Compass (AICC) information and building procedure, v0.6.7
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -475,7 +475,7 @@ CB61/ Two more noticeable facts:
 * however isn't a recent "paradox": Plato's "I know to known nothing";
 * when intelligent people are quiet, stupidity rules the world screaming.
 
-CB62/ Therefore, the universal relativism leads into Tollerance's paradox. [CB62]
+CB62/ Therefore, the universal relativism leads into Tollerance's paradox.
 
 CB63/ Curiously, nor Socrate (from ancient Greek) nor old Japan's ethics contemplate<br>
 a rule which is a the top rule in modern times: don't kill people, and by<br>
@@ -577,7 +577,7 @@ For Deep Understanding:
 For Teaching/Learning:
 
 * Start with (%F) for core reframe
-* Progress through (%I) and [C] for complexity
+* Progress through (%I) and (%C) for complexity
 * Synthesize with (%R) for strategic implications
 * Confirm with (%A) for 3LOI assessment
 
@@ -769,7 +769,7 @@ Chain: CB01 → {CB05, CB32, CB28} | CB01 ⊃ foundational-principle | CB01 ∈ 
 
 ---
 
-### CB-2: Nietzsche's Aesthetic Bias
+### CB02: Nietzsche's Aesthetic Bias
 
 Claims:
 *  Morality has aesthetic bias (cockroach vs butterfly killing)
@@ -786,7 +786,7 @@ Claims:
 
 Arch: Empirical Validation (Cognitive Layer)
 
-Chain: CB-2 → CB01 (example-of) | CB-2 ↔ CB45 (survival-bias pattern) | CB-2 ⚠ intuition-based-ethics
+Chain: CB02 → CB01 (example-of) | CB02 ↔ CB45 (survival-bias pattern) | CB02 ⚠ intuition-based-ethics
 
 ---
 
