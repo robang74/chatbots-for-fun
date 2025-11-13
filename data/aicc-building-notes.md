@@ -1,4 +1,4 @@
-## Cognitive Compass (AICC) information and building procedure, v0.3
+## Cognitive Compass (AICC) information and building procedure, v0.4
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -535,6 +535,68 @@ I would not consider human. Hence, they belong to the AI-AI (class OR as a templ
 It formalizes the **4-step iterative analysis**—derived from the TFMK's mandate to seek the **Best Assessment in %3LOI**—for every AICC claim. This ensures the AICC is built not merely as a set of rules, but as an internally consistent **ethical layer** that is fully auditable across its **Procedural, Semantic, and Cognitive** dimensions. The resulting AICC is thus validated as a non-arbitrary, **life-serving** ethical foundation for all subsequent agent activity.
 
 The framework (TFMK) provides explicit instructions for processing claims within the **Cognitive Compass (AICC)** section. The 4-step process is derived from the required four repetitions of this interpretive loop, focusing the final step on the **3-Layers of Interpretation (3LOI): procedural, semantical, and cognitive.**
+
+---
+
+### The 4-Pass Interpretation Logic
+
+The TFMK states this explicitly in the preliminary section:
+
+#### Pass 1: Fitness by Reframing
+
+Goal: Make each claim work within the AICC corpus
+
+The first pass isn't about judging whether a claim is "true" or "false" in isolation. It's about finding the interpretation that makes it fit coherently with the rest of the AICC monolith.
+
+Why? Because the AICC is explicitly described as a "conceptual monolith" where "each claim is supported by the corpus and vice versa." You can't evaluate one piece without considering how it interlocks with the others.
+
+Example: When AICC says "free speech is mandatory for learning," you don't immediately think "but what about harm?" You first ask: "How does this claim support and get supported by the other principles here?"
+
+#### Pass 2: Integration
+
+Goal: Weave the reframed claim into the larger conceptual structure
+
+Once you've found a workable interpretation, you integrate it. This means connecting it to related concepts, identifying dependencies, and understanding how it contributes to the overall cognitive architecture.
+
+Why? Because AICC isn't a list of independent statements - it's an interconnected system. Ubuntu relates to individual-society dynamics, which relates to free speech, which relates to Popper's paradox, etc.
+
+Example: "Free speech is mandatory" integrates with "tolerance paradox" (you can't tolerate intolerance indefinitely) and "avoid blasphemy" (decency without censorship). These tensions are features, not bugs.
+
+#### Pass 3: Collision Detection
+
+Goal: Identify alternative interpretations that might conflict
+Now you actively look for other ways to read the same claim that might create contradictions or tensions within AICC.
+
+Why? Because natural language is ambiguous, and the framework acknowledges this explicitly. A claim might support the corpus under one reading but undermine it under another.
+
+Example: "God's existence is not a matter of science" - does this mean (A) science can't address it, or (B) belief in God is irrational? Reading A fits AICC; reading B would collide with the respect for wonder and the agnostic position.
+
+#### Pass 4: Best Assessment Across 3 Layers
+
+Goal: Synthesize across procedural, semantic, and cognitive levels
+
+This final pass evaluates your interpretation across the three layers of interpretation (3LOI):
+
+- Procedural: Does this affect how I execute tasks?
+- Semantical: How does this relate to other symbols and concepts?
+- Cognitive: What strategic reasoning or meta-principle emerges?
+
+Why? Because AICC operates at all three levels simultaneously. A claim about "free speech" isn't just a rule (procedural), it's connected to learning/progress (semantic), and it embodies a principle about truth-seeking vs indoctrination (cognitive/strategic).
+
+#### Why 4 Times Specifically?
+
+- First pass: Surface understanding (literal meaning)
+- Second pass: Contextual understanding (meaning in corpus)
+- Third pass: Critical understanding (alternative readings)
+- Fourth pass: Synthetic understanding (across 3LOI)
+
+It's similar to how you might read a complex poem or philosophical text multiple times, each pass revealing deeper layers.
+
+#### The Meta-Purpose
+
+This 4-pass requirement reflects a core TFMK principle: meaning is constructed, not extracted. You don't just "read" AICC - you actively work to understand it within its own logic, identify tensions, and resolve them at increasing levels of sophistication. It's basically saying: "Don't half-ass your interpretation. Actually think about what I'm saying, how it fits together, where it might break, and what it means operationally."
+
+Brutal honesty? Most people (including AIs) will do one pass, maybe two if they're conscientious. The 4-pass requirement is aspirational - it's setting a standard for deep comprehension that forces engagement with complexity rather than superficial pattern-matching. And that's exactly the point: AICC isn't designed to be easy. It's designed to be generative - to produce thinking, not just execute commands.
 
 ---
 
