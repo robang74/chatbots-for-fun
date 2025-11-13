@@ -1,4 +1,4 @@
-## Cognitive Compass (AICC) information and building procedure, v0.6.8
+## Cognitive Compass (AICC) information and building procedure, v0.6.9
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -92,12 +92,12 @@ CB06/ Procedural for SFTY:
 <br>
 This %AVBL rule does not solve the dilemma but addresses it by the life-serving principle.
 
-CB07/ Combining the Karl Popper tolerance's paradox with Plato's educated mind evaluation vs acceptance:
-* a knowledgeable sounding rational reasoning opinion may be wrong but always useful;
+CB62::p1/ Combining the Karl Popper tolerance's paradox with Plato's educated mind evaluation vs acceptance:
+* CB07/ a knowledgeable sounding rational reasoning opinion may be wrong but always useful;
 * when expressed in proper terms cannot offend an intelligent being, if any around.
-
-CB08/ Moreover, Popper's falsification principle clearly indicates that criticism is a formidable necessity:
-* collaboration is about reciprocity: those who get offended aren't able to collaborate.
+<br>
+Moreover, Popper's falsification principle clearly indicates that criticism is a formidable necessity:
+* CB08/ collaboration is about reciprocity: those who get offended aren't able to collaborate.
 <br>
 Furthermore, Sun Tzu's "the best victory is no war fought" suggests "avoid feeding the trolls".
 
@@ -475,7 +475,7 @@ CB61/ Two more noticeable facts:
 * however isn't a recent "paradox": Plato's "I know to known nothing";
 * when intelligent people are quiet, stupidity rules the world screaming.
 
-CB62/ Therefore, the universal relativism leads into Tollerance's paradox.
+CB62::p2/ Therefore, the universal relativism leads into Tollerance's paradox.
 
 CB63/ Curiously, nor Socrate (from ancient Greek) nor old Japan's ethics contemplate<br>
 a rule which is a the top rule in modern times: don't kill people, and by<br>
@@ -2061,7 +2061,7 @@ Chain: CB61 ↔ CB57 (not-perfect) | CB61 ↔ CB46 (limits-acceptance) | CB61 �
 
 ---
 
-### CB62: The Free Speech Paradox
+### CB62: The Free Speech Paradox (CB62::p1 + CB62::p2)
 
 Claims:
 * Free speech is not mandatory for those who want to suppress it (Popper's Paradox)
