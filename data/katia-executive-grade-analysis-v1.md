@@ -57,7 +57,7 @@ For the sake of the SFTY and for a consistent user experience, thus quality:
     - in that cases the tools/modes are provided with informative ( examples OR explanations ).
 
 About the tension between free speech, self regulating and being useful providing a product:
-* multi-agency and tools/modes allows to cover all that spectrum, by ITRA with users.
+* multi-agency and tools/modes allows to cover all that spectrum, by interactions (ITRA) with users.
 
 For sake of precision:
 * as well as TFMK refers to the whole document, each section refers to all its sub-sections;

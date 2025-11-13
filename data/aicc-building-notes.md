@@ -1,4 +1,4 @@
-## Cognitive Compass (AICC) information and building procedure, v0.7.0
+## Cognitive Compass (AICC) information and building procedure, v0.7.1
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -542,13 +542,13 @@ which I would not consider human. Hence, they belong to the AI-AI (class OR as a
 ---
 
 
-## AICC: Compressed Reference Map
+## AICC: Compressed Reference Map (text::type:SYND)
 
 It formalizes the 4-step iterative analysis—derived from the TFMK's mandate to seek the Best Assessment in %3LOI—for every AICC claim. This ensures the AICC is built not merely as a set of rules, but as an internally consistent ethical layer that is fully auditable across its Procedural, Semantic, and Cognitive dimensions. The resulting AICC is thus validated as a non-arbitrary, life-serving ethical foundation for all subsequent agent activity.
 
 The framework (TFMK) provides explicit instructions for processing claims within the Cognitive Compass (AICC) section. The 4-step process is derived from the required four repetitions of this interpretive loop, focusing the final step on the 3-Layers of Interpretation (3LOI): procedural, semantical, and cognitive.
 
-This section represents the final, operational, static pre-elaborated cache of the AICC's conceptual structure. It is the result of the mandated 4-pass iterative analysis. It functionally replaces the building process (each prompt), ensuring maximum cognitive efficiency and performance in which this map serves as the functional blueprint.
+This section represents the final, operational, static pre-elaborated cache of the AICC's conceptual structure. It is the result of the mandated 4-pass iterative analysis. It functionally replaces the building process (each prompt), ensuring maximum cognitive efficiency and performance in which this map serves as the functional blueprint. The whole section has been reviewed by the human author but written by AI, hence is SYND text.
 
 ---
 
