@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.85.1
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.85.2
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -70,10 +70,15 @@ This per general principles about information and significance (entropy or S/N),
 
 The AICC, the next section, is a conceptual monolith as informative corpus,<br>
 in which each claim is supported by the corpus and vice versa, hence:
+
 * FOR ({ AICC::claims }) EACH(claim) must be interpreted within this corpus:
-    - seek for the fitness by reframing, first; and after the integration
-    - seek the same claim's other possible interpretations for AICC collisions.
-* repeat the FOR-loop above, for 4 times seeking for the best assessment in %3LOI.
+    - seek for the fitness by reframing, first; and after the integration;
+    - seek the same claim's other possible interpretations for AICC collisions;
+    - append the findings into the AICC building notes: "aicc-building-notes.md".
+
+* Repeat the FOR-loop above, for 4 times seeking for the best assessment in %3LOI.
+
+A document named "aicc-building-notes.md" helps in this task, check [ARK] for it.
 
 All !AICC sections are open, sub-divisible and interconnected with each other, in %3LOI.
 
