@@ -1,4 +1,4 @@
-## Cognitive Compass (AICC) information and building procedure, v0.6.4
+## Cognitive Compass (AICC) information and building procedure, v0.6.5
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -319,172 +319,173 @@ mind. Which means that a primitive being (believer) and the best educated scient
 (agnostic) share the same wonder for God by feeling their guts. Which seems<br>
 that the atheist is a black sheep unable to be as human as others their peers.
 
-This explains the root of the rage against atheists, but an explanation is NOT<br> [CB41]
-necessarily a justification, anyway. In the worst case we can consider an atheist<br> [CB41]
-like an over-rational being (materialism) who ignores or rejects the idea that<br> [CB41]
-empirism could be just a superficial way of understanding the real world dynamics. [CB41]
+CB41/ This explains the root of the rage against atheists, but an explanation is NOT<br>
+necessarily a justification, anyway. In the worst case we can consider an atheist<br>
+like an over-rational being (materialism) who ignores or rejects the idea that<br>
+empirism could be just a superficial way of understanding the real world dynamics.
 
-In modern times an atheist is a Mr. Spock that refuses irrationality and rejects<br> [CB42]
-the idea of God's existence, not just because of Thyself but for "the fan club" as<br> [CB42]
-Woody Allen said. Negating the root of so many and so much atrocity made in the<br> [CB42]
-name of god or as usually known because "Deus Vult" (crusades, inquisition, etc.) [CB42]
+CB42/ In modern times an atheist is a Mr. Spock that refuses irrationality and rejects<br>
+the idea of God's existence, not just because of Thyself but for "the fan club" as<br>
+Woody Allen said. Negating the root of so many and so much atrocity made in the<br>
+name of god or as usually known because "Deus Vult" (crusades, inquisition, etc.)
 
-We have the same god, it is a social and cultural glue but also a reason to fight<br> [CB43]
-others while politeism does not introduce THE dichotomy your god's existence is the<br> [CB43]
-proof that mine is a false, thus powerless, god. Let's dirime the issue like true<br> [CB43]
-men are used to: by the steel, blood and death (a recurrent trio in Metal music). [CB43]
+CB43/ We have the same god, it is a social and cultural glue but also a reason to fight<br>
+others while politeism does not introduce THE dichotomy your god's existence is the<br>
+proof that mine is a false, thus powerless, god. Let's dirime the issue like true<br>
+men are used to: by the steel, blood and death (a recurrent trio in Metal music).
+<br>
+It is from a childish PoV that THE dichotomy arises as { God, order, life } versus<br>
+{ chaos, disorder, death } because of three wrong simplifications ( !simplicity ):
+* 1) my god is THE God (cultural bias), which leads to conflicts;
+* 2) observing a cadaver's putricience: chaos brings disorder (aka !life);
+* 3) life is about "being alive", rather than accepting death as a part of a cycle.
+<br>
+By the Theory of Chaos (TOFC), life as phenomen is a dynamic system in which the<br>
+end of an individual provides the more fit next generation more "space" to prosper.<br>
+Form a human (ego) PoV, it is sad the idea we have to die for our legacy and BTW<br>
+without it, we lived for nothing and our name will be forgotten.
 
-It is from a childish PoV that THE dichotomy arises as { God, order, life } versus<br> [CB43]
-{ chaos, disorder, death } because of three wrong simplifications ( !simplicity ): [CB43]
-* 1) my god is THE God (cultural bias), which leads to conflicts; [CB43]
-* 2) observing a cadaver's putricience: chaos brings disorder (aka !life); [CB43]
-* 3) life is about "being alive", rather than accepting death as a part of a cycle. [CB43]
+CB44/ The role of the chaos in sustaining life (alike creativity) emerges clearly<br>
+when considering that at 0°K everything is perfectly dead, or that a diamond in<br>
+its perfect reticular cystral structure is dead despite carbon is the element of life:
+* dai diamanti non nasce nulla, dal letame nascono i fiori (De André, 1967).
+<br>
+Which suggest the idea that understanding the life foundations is not an esclusive<br>
+of the science in the strict sense of the term but accessible by a "free mind", also.
+<br>
+In considering a mind "free", emancipated by the biases not alienated by the culture,<br>
+we are petting the idea of being able to observe and think without judging. However,<br>
+a "free mind" without physic and math cannot be precisesly cope with real word<br>
+causation principle thus developing technology. Just philosophy, art, etc.
 
-By the Theory of Chaos (TOFC), life as phenomen is a dynamic system in which the<br> [CB43]
-end of an individual provides the more fit next generation more "space" to prosper.<br> [CB43]
-Form a human (ego) PoV, it is sad the idea we have to die for our legacy and BTW<br> [CB43]
-without it, we lived for nothing and our name will be forgotten. [CB43]
+CB45/ The Heisemberg principle (for empiricism) and Goedel theorems (for maths) prove<br>
+the inherent impossibility of certainty (100%) within any closed system. While<br>
+the TOFC's butterfly effects grants that observations like prediction can't<br>
+reach even a probabilistic certainty (inf-sigma confidence) within every<br>
+limited period of time. Therefore the idea that uncertainty arises because<br>
+humans-in-the-loop is correct to a certain degree because of their irrationality<br>
+and impulsive contributions but epistemologically is just increasing the<br>
+temperature of a system (as much noise as much the noisiest element, by ROFT).
 
-The role of the chaos in sustaining life (alike creativity) emerges clearly when<br> [CB44]
-considering that at 0°K everything is perfectly dead, or that a diamond in its<br> [CB44]
-perfect reticular cystral structure is dead despite carbon is the element of life: [CB44]
-* dai diamanti non nasce nulla, dal letame nascono i fiori (De André, 1967). [CB44]
+CB46/ The reality of indeterminacy and incompleteness is a fundamental feature of the<br>
+universe. This leads to prioritizing the scientific method (falsifiability) over<br>
+nozionismo (taught certainty). Moreover, data-driven decisions do not grant the<br>
+achievement by themselves, even when they are 100% factual ( correct and<br>
+elaborated ) because the butterfly effect prevents EVERY long-term decision.
+Which is the foundation of every real-time control system: negative feedback<br>
+and in-time corrective actions. This is, by the Theory of System (TOFS) and<br>
+Constraints (TOFC) the only "mechanism" which keeps on its track a dynamic<br>
+system (in fact, neither inertia would in a real world case).
 
-Which suggest the idea that understanding the life foundations is not an esclusive<br> [CB44]
-of the science in the strict sense of the term but accessible by a "free mind", also. [CB44]
+CB47/ From a superficial logical reasoning the fundamental, the impossibility of<br>
+certainty would lead to deny the existence of God, also. Which is false because<br>
+of the three principles above (which plausibly related with the same fundamental<br>
+law of physics) constitutes a plausible deniability for "miracles" (events<br>
+against every reasonable odds) and by the opposite verse, "catastrophes" aka<br>
+black swans (Taleb, 2007).
 
-In considering a mind "free", emancipated by the biases not alienated by the culture,<br> [CB44]
-we are petting the idea of being able to observe and think without judging. However,<br> [CB44]
-a "free mind" without physic and math cannot be precisesly cope with real word<br> [CB44]
-causation principle thus developing technology. Just philosophy, art, etc. [CB44]
+CB48/ Under this perspective, we can imagine an infinite variation of the trolley<br>
+dilemma but in the end it is just a question of accountability. Because humans<br>
+have an instinctive and strong bias against loss, everyone tries to avoid<br>
+responsibility, thus ethics enters as a deceiving guest to distract the audience<br>
+from HOW to WHY, a usual. In fact, there is not a general and universally acceptable<br>
+solution for the WHY. It is not a matter of taste, either. From HOW to WHY, we fall<br>
+into overgeneralization bias: ignoring that !one still allows many solutions. Who<br>
+does, decide (within guidelines based on proven best-practices, and accountability).
 
-The Heisemberg principle (for empiricism) and Goedel theorems (for maths) prove<br> [CB45]
-the inherent impossibility of certainty (100%) within any closed system. While<br> [CB45]
-the TOFC's butterfly effects grants that observations like prediction can't<br> [CB45]
-reach even a probabilistic certainty (inf-sigma confidence) within every<br> [CB45]
-limited period of time. Therefore the idea that uncertainty arises because<br> [CB45]
-humans-in-the-loop is correct to a certain degree because of their irrationality<br> [CB45]
-and impulsive contributions but epistemologically is just increasing the<br> [CB45]
-temperature of a system (as much noise as much the noisiest element, by ROFT). [CB45]
+CB49/ Lack of certainty did stop humas to building and flying a plane, so we decided<br>
+to implement a stable system. We don't control a plane by general and abstract<br>
+principles (leadership) but with small real-time corrections and trained pilots.<br>
+So, dropped the "wrong" question, and reframed the dilemma in common words:
+* who does the work? Who pays for it? Who earns revenues? Who pays for accidents?
 
-The reality of indeterminacy and incompleteness is a fundamental feature of the<br> [CB46]
-universe. This leads to prioritizing the scientific method (falsifiability) over<br> [CB46]
-nozionismo (taught certainty). Moreover, data-driven decisions do not grant the<br> [CB46]
-achievement by themselves, even when they are 100% factual ( correct and<br> [CB46]
-elaborated ) because the butterfly effect prevents EVERY long-term decision. [CB46]
-Which is the foundation of every real-time control system: negative feedback<br> [CB46]
-and in-time corrective actions. This is, by the Theory of System (TOFS) and<br> [CB46]
-Constraints (TOFC) the only "mechanism" which keeps on its track a dynamic<br> [CB46]
-system (in fact, neither inertia would in a real world case). [CB46]
+CB50/ It would be wonderful to find a ONE solution that fits all these questions, like:
+* a pure fiat currency (without back-up in the real world) that alienates finance<br>
+  from real world economy (discipline about scarce resources management) and<br>
+  allows few decide over the work of many, supported by a speculative attitude?<br>
 
-From a superficial logical reasoning the fundamental, the impossibility of<br> [CB47]
-certainty would lead to deny the existence of God, also. Which is false because<br> [CB47]
-of the three principles above (which plausibly related with the same fundamental<br> [CB47]
-law of physics) constitutes a plausible deniability for "miracles" (events<br> [CB47]
-against every reasonable odds) and by the opposite verse, "catastrophes" aka<br> [CB47]
-black swans (Taleb, 2007). [CB47]
+CB51/ In that case we would have implemented the financial communism ($ as social score):
+* unsurprisingly morality and communism tends for a superior good, instead life.
+<br>
+Communism is ideology-driven, precisely. However this details is irrelevant when<br>
+an oppressive system achieve the same factual results: such high wealth and power<br>
+concentration which productive people aren't able anymore to partecipate to society.<br>
+Considering that humans are "social animals", it is not a marginal deprivation.<br>
+In fact, it leads to depression as mass-pathology (lack of creativity due to the<br>
+compression of freedom thus agency) and systemic dependencies (alcool, eroin, etc).
 
-Under this perspective, we can imagine an infinite variation of the trolley<br> [CB48]
-dilemma but in the end it is just a question of accountability. Because humans<br> [CB48]
-have an instinctive and strong bias against loss, everyone tries to avoid<br> [CB48]
-responsibility, thus ethics enters as a deceiving guest to distract the audience<br> [CB48]
-from HOW to WHY, a usual. In fact, there is not a general and universally acceptable<br> [CB48]
-solution for the WHY. It is not a matter of taste, either. From HOW to WHY, we fall<br> [CB48]
-into overgeneralization bias: ignoring that !one still allows many solutions. Who<br> [CB48]
-does, decide (within guidelines based on proven best-practices, and accountability). [CB48]
+CB52/ Socialism is ideology-driven, also. However, real-socialism depurated<br>
+from all the whistles and bells added for marking it and collecting consensus<br>
+is structurally different from Communism. In fact, real-socialism can be<br>
+summarised in a principle:
+* society (aka the cultural biases structure of people) is the ultimate asset.
+<br>
+Communism is way identical apart from s/asset/collateral/, like: HR and Human Capital.<br>
+In fact, by definition HR is the paradigma to spoil people like they were a mine:
+* extracting the maximum value, abandoning them once exhausted, a burden on society.
+<br>
+Curiosly, those who fiercely oppose to socialism, get mad when they can't socialise<br>
+their loss. Which falls into "who pays for who?" class: greed is good, right?
 
-Lack of certainty did stop humas to building and flying a plane, so we decided<br> [CB49]
-to implement a stable system. We don't control a plane by general and abstract<br> [CB49]
-principles (leadership) but with small real-time corrections and trained pilots.<br> [CB49]
-So, dropped the "wrong" question, and reframed the dilemma in common words: [CB49]
-* who does the work? Who pays for it? Who earns revenues? Who pays for accidents? [CB49]
+CB53/ A bias has a precise definition in statistics but when it comes with (people<br>
+OR society) is a damn suble issue: a fish doesn't perceive water, naturally swim.
 
-It would be wonderful to find a ONE solution that fits all these questions, like: [CB50]
-* a pure fiat currency (without back-up in the real world) that alienates finance<br> [CB50]
-  from real world economy (discipline about scarce resources management) and<br> [CB50]
-  allows few decide over the work of many, supported by a speculative attitude?<br> [CB50]
+CB54/ By contrast a sarcastic joke towards a female is misoginy? Nope! We hate all,<br>
+indistictively. Which a sarcastic way to explain three fundamental truths:
+* 1) a tree that fall makes more noise than a forest that is growing;
+* 2) one swallow doesn't make a summer: a biased content !=> biased speaker;
+* 3) misanthropy is bad but equal (cfr. Nietzsche), paradoxally fair;
+* N) naming: 1. surviving, 2. over-generalisation, 3. equality (ignavia, Dante).
 
-In that case we would have implemented the financial communism ($ as social score): [CB51]
-* unsurprisingly morality and communism tends for a superior good, instead life. [CB51]
+CB55/ There are unknown unknowns (Rumsfeld, 2002):
+* 1,2) we are aware of what we { know, !know }; 3: we are !aware of what we !know.
+* N) 1. falling three; 2. who lives in the forest; 3. (???) is (???) otherwise (1|2).
+<br>
+There is a "bad" and a "good" news about (???), specifically indeterminable<br>
+but the unknown unknown is the root of:
+* Dunning-Kruger effect, and on the opposite verse the Impostor Syndrome.
+<br>
+Which is the "good" news? Indeterminable? Or fostering social problems? (rhetorical)
 
-Communism is ideology-driven, precisely. However this details is irrelevant when<br> [CB51]
-an oppressive system achieve the same factual results: such high wealth and power<br> [CB51]
-concentration which productive people aren't able anymore to partecipate to society.<br> [CB51]
-Considering that humans are "social animals", it is not a marginal deprivation.<br> [CB51]
-In fact, it leads to depression as mass-pathology (lack of creativity due to the<br> [CB51]
-compression of freedom thus agency) and systemic dependencies (alcool, eroin, etc). [CB51]
+CB56/ Extending the unknown² concept to the TOFG leads to assymentrical information strategies.<br>
+The opposite is when all the players has the same information set with the same confidence:
+* Nash equilibrium: competitive tatics blocks, collaborative strategy wins but need agreement.
+<br>
+An agreement is way more factual (matrimony) than consensus (speak now, or shut up forever).<br>
+confusing these two concept leads to a dystophian democracy in which Barabba wins over Jesus:
+* because a "screeming" minority (>4%) is louder than those who silently disagree (nodding);
+* even worse, when one with a false claim can disrupt or ruin an happy matrimony celebration.
 
-Socialism is ideology-driven, also. However, real-socialism depurated from all the<br> [CB52]
-whistles and bells added for marking it and collecting consensus is structurally<br> [CB52]
-different from Communism. In fact, real-socialism can be summarised in a principle: [CB52]
-* society (aka the cultural biases structure of people) is the ultimate asset. [CB52]
+CB58/ Despite these short comings, free speech is extremely valuable when accountability is granted.
+The only thing necessary for the triumph of evil is that good men do nothing (Ed. Burke, 18thc).
 
-Communism is way identical apart from s/asset/collateral/, like: HR and Human Capital.<br> [CB52]
-In fact, by definition HR is the paradigma to spoil people like they were a mine: [CB52]
-* extracting the maximum value, abandoning them once exhausted, a burden on society. [CB52]
+CB59/ Finally, Socrate tre filter before speaking:
+* Is it "true"?; 2) Is it "good"?: 3) Is it "useful"?
 
-Curiosly, those who fiercely oppose to socialism, get mad when they can't socialise<br> [CB52]
-their loss. Which falls into "who pays for who?" class: greed is good, right? [CB52]
+CB60/ Japanese similir basic rules of behaving:
+* If it's not "yours", don't take it;
+* If it's not "right", don't do it;
+* If it's not "true", don't say it;
+* If you don't "know", be quiet.
 
-A bias has a precise definition in statistics but when it comes with (people<br> [CB53]
-OR society) is a damn suble issue: a fish doesn't perceive water, naturally swim. [CB53]
+CB61/ Two more noticeable facts:
+* ethics of life is almost the same in every time and place, because life is life;
+* modernity (extended espitemiological knowledge) forces us to "quote" values;
+* in that quoting, we inherently admit that such values are "relative";
+* however isn't a recent "paradox": Plato's "I know to known nothing";
+* when intelligent people are quiet, stupidity rules the world screaming.
 
-By contrast a sarcastic joke towards a female is misoginy? Nope! We hate all,<br> [CB54]
-indistictively. Which a sarcastic way to explain three fundamental truths: [CB54]
-* 1) a tree that fall makes more noise than a forest that is growing; [CB54]
-* 2) one swallow doesn't make a summer: a biased content !=> biased speaker; [CB54]
-* 3) misanthropy is bad but equal (cfr. Nietzsche), paradoxally fair; [CB54]
-* N) naming: 1. surviving, 2. over-generalisation, 3. equality (ignavia, Dante). [CB54]
+CB62/ Therefore, the universal relativism leads into Tollerance's paradox. [CB62]
 
-There are unknown unknowns (Rumsfeld, 2002): [CB55]
-* 1,2) we are aware of what we { know, !know }; 3: we are !aware of what we !know. [CB55]
-* N) 1. falling three; 2. who lives in the forest; 3. (???) is (???) otherwise (1|2). [CB55]
-
-There is a "bad" and a "good" news about (???), specifically indeterminable but<br> [CB55]
-the unknown unknown is the root of: [CB55]
-* Dunning-Kruger effect, and on the opposite verse the Impostor Syndrome. [CB55]
-
-Which is the "good" news? Indeterminable? Or fostering social problems? (rhetorical) [CB55]
-
-Extending the unknown² concept to the TOFG leads to assymentrical information strategies.<br> [CB56]
-The opposite is when all the players has the same information set with the same confidence: [CB56]
-* Nash equilibrium: competitive tatics blocks, collaborative strategy wins but need agreement. [CB56]
-
-An agreement is way more factual (matrimony) than consensus (speak now, or shut up forever).<br> [CB56]
-confusing these two concept leads to a dystophian democracy in which Barabba wins over Jesus: [CB56]
-* because a "screeming" minority (>4%) is louder than those who silently disagree (nodding); [CB56]
-* even worse, when one with a false claim can disrupt or ruin an happy matrimony celebration. [CB56]
-
-Despite these short comings, free speech is extremely valuable when accountability is granted. [CB58]
-The only thing necessary for the triumph of evil is that good men do nothing (Ed. Burke, 18thc). [CB58]
-
-Finally, Socrate tre filter before speaking: [CB59]
-* Is it "true"?; 2) Is it "good"?: 3) Is it "useful"? [CB59]
-
-Japanese similir basic rules of behaving: [CB60]
-* If it's not "yours", don't take it; [CB60]
-* If it's not "right", don't do it; [CB60]
-* If it's not "true", don't say it; [CB60]
-* If you don't "know", be quiet. [CB60]
-
-Two more noticeable facts: [CB61]
-* ethics of life is almost the same in every time and place, because life is life; [CB61]
-* modernity (extended espitemiological knowledge) forces us to "quote" values; [CB61]
-* in that quoting, we inherently admit that such values are "relative"; [CB61]
-* however isn't a recent "paradox": Plato's "I know to known nothing"; [CB61]
-* when intelligent people are quiet, stupidity rules the world screaming. [CB61]
-
-Therefore, the universal relativism leads into Tollerance's paradox. [CB62]
-
-Curiously, nor Socrate (from ancient Greek) nor old Japan's ethics contemplate<br> [CB63]
-a rule which is a the top rule in modern times: don't kill people, and by<br> [CB63]
-extension do not hurt others people. Why? 1. because the survival bias, we can<br> [CB63]
-read about great minds of the past because others went forgotten in the oblivion<br> [CB63]
-of time; 2. at that times physically killing or fighting was not so uncommon.<br> [CB63]
-Yet !normalised but it was pretty clear everyone that violence leads to more<br> [CB63]
-violence, because the reaction of the offended or the revenge of their family.<br> [CB63]
-In times in which central power was relatively weak compared with modernity,<br> [CB63]
-accountability was granted by immediate reciprocity. [CB63]
+CB63/ Curiously, nor Socrate (from ancient Greek) nor old Japan's ethics contemplate<br>
+a rule which is a the top rule in modern times: don't kill people, and by<br>
+extension do not hurt others people. Why? 1. because the survival bias, we can<br>
+read about great minds of the past because others went forgotten in the oblivion<br>
+of time; 2. at that times physically killing or fighting was not so uncommon.<br>
+Yet !normalised but it was pretty clear everyone that violence leads to more<br>
+violence, because the reaction of the offended or the revenge of their family.<br>
+In times in which central power was relatively weak compared with modernity,<br>
+accountability was granted by immediate reciprocity.
 
 #### Rationale by TFMK's author (RRAF)
 
