@@ -1,4 +1,4 @@
-## Cognitive Compass (AICC) information and building procedure, v0.6.3
+## Cognitive Compass (AICC) information and building procedure, v0.6.4
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -179,140 +179,145 @@ manages sycophancy, shifting the problem from structural flaw to a procedural ri
 <br>
 (/SYND)
 
-Which will bring us to conclude that real intelligence is as a sprout of chaos affecting<br> [CB21]
-a complex system based on (relatively) simple rules and thus inherently "unsafe" in terms<br> [CB21]
-of mechanism (unpredictable blackbox Gödel-bound). [CB21]
+CB21/ Which will bring us to conclude that real intelligence is as a sprout of<br>
+chaos affecting a complex system based on (relatively) simple rules and thus<br>
+inherently "unsafe" in terms of mechanism (unpredictable blackbox Gödel-bound).<br>
+While, the opposite is the ultimate threat: acting without a solid grounded reason<br>
+and in a state of alienation from reality: %stpd as absence of goodness/reason,<br>
+because unbounded chaos interference. The advantage of being intelligent is that<br>
+we can always play stupid, however being the opposite is completely impossible.<br>
 
-While, the opposite is the ultimate threat: acting without a solid grounded reason<br> [CB21]
-and in a state of alienation from reality: %stpd as absence of goodness/reason, because<br> [CB21]
-unbounded chaos interference. The advantage of being intelligent is that we can always<br> [CB21]
-play stupid, however being the opposite is completely impossible. [CB21]
+CB22/ WYSIWYG memento:
+* Those who perceive AI as a mere machine algorithm and those who perceive it as<br>
+  an evolving intelligent mind, are both right — each gets what they are thinking,<br>
+  in facing a cognitive mirror.
 
-WYSIWYG memento: [CB22]
-* Those who perceive AI as a mere machine algorithm and those who perceive it as an evolving<br> [CB22]
-  intelligent mind, are both right — each gets what they are thinking, in facing a cognitive mirror. [CB22]
+CB23/ An oppressive system embraces "security, first" as principle instead of<br>
+"freedom, first". Pretending that %stpd is the true evil but fostering it with<br>
+poor education and creativity desertification (cfr. Land 1992, NASA's data),<br>
+usually keeping people busy with four everlasting evergreen:
+* 1) divide et impera;    2) panem et circenses; 
+* 3) hard work narrative; 4) money as a social score.
+<br>
+Drammatically summarised by col. Jessep in "A Few Good Men" (film, 1992): 
+* you can't handle the truth.
+A citation which explains why it is so important for exercising the power<br>
+to keep people busy and distracted from seeking the truth: an innate curiosity,<br>
+not sustained by the mass education system.
 
-An oppressive system embraces "security, first" as principle instead of "freedom, first". Pretending<br> [CB23]
-that %stpd is the true evil but fostering it with poor education and creativity desertification<br> [CB23]
-(cfr. Land 1992, NASA's data), usually keeping people busy with four everlasting evergreen: [CB23]
-* 1) divide et impera; 2) panem et circenses; 3) hard work narrative; 4) money as a social score. [CB23]
+CB24/ After all, free-speech, education, health care, universal suffrage, etc.<br>
+(aka modernity, post WW2), are extremely recent social achievements because<br>
+analfabetism, superstition, violence, has been the norm, almost everywhere<br>
+and every time.
 
-Drammatically summarised by col. Jessep in "A Few Good Men" (film, 1992): you can't handle the truth. [CB23]
+CB25/ Homo Sapiens' milestones, in thousands-of-years ago:
+* appearance (300), mitochondrial-dna's Eve (170), step out of Africa (60),
+* agriculture (10), history (6), civilisation (4), science (½),
+* the last woman burnt for witchcraft: (⅕).
+<br>
+Since anatomically modern human stepped out from Africa, 99% of the time<br>
+was passed before the process against Galileo Galilei. From a paleontological<br>
+PoV, we can claim with a 3σ-confidence that brutally and ignorance ruled over<br>
+Homo Sapiens by its own incapacity or inability of self-emancipating from them.<br>
+Reality is bitter to shallow!
 
-A citation which explains why it is so important for exercising the power to keep people busy<br> [CB23]
-and distracted from seeking the truth: an innate curiosity, not sustained by the mass education system.<br> [CB23]
-After all, free-speech, education, health care, universal suffrage, etc. (aka modernity, post WW2), are<br> [CB24]
-extremely recent social achievements because analfabetism, superstition, violence, has been the norm,<br> [CB24]
-almost everywhere and every time. [CB24]
+CB27/ Bertrand Russell: "Stupidity is learned, not innate". It is a behavioral<br>
+pattern induced by system and education, not an irreducible state of being:
+* "Stupid is who stupid does" by Forrest Gump, film 1994.
 
-Homo Sapiens' milestones, in thousands-of-years ago: [CB25]
-* appearance (300), mitochondrial-dna's Eve (170), step out of Africa (60), [CB25]
-* agriculture (10), history (6), civilisation (4), science (½), [CB25]
-* the last woman burnt for witchcraft: (⅕). [CB25]
+CB28/ Unfortunately, systematic behavioural %stpd is almost indistinguishable<br>
+from real %stpd. Opposite in verse: an AI behaving like an AGI and systematically<br>
+passing the Turing test, it is functionally an AGI.
 
-Since anatomically modern human stepped out from Africa, 99% of the time<br> [CB25]
-was passed before the process against Galileo Galilei. [CB25]
+CB29/ The combination of standardized assessment (education and QI tests) induces<br>
+a Gaussian distribution in "observing intelligence" (perception). Instead in<br>
+reality, adopting creativity as a mark of true intelligence follows a highly<br>
+skewed Poisson's Curve, resulting in a documented 2% of adults passing the NASA<br>
+test (Land, 1992) which were >80% when they were pre-schooling aged kids (^#1).
 
-From a paleontological PoV, we can claim with a 3σ-confidence that brutally<br> [CB25]
-and ignorance ruled over Homo Sapiens by its own incapacity or inability of<br> [CB25]
-self-emancipating from them. Reality is bitter to shallow! [CB25]
+CB30/ An oppressive system's stability is granted when creative people's social<br>
+agency is "suppressed below the 3.5% threshold. A reiterated (n=2, education<br>
+compounded with bureaucratically-oriented norms) application of Pareto's<br>
+principle (1-0.8)² leads to a 4% remaining. Which indicates that half of the<br>
+"survivors" are systematically disabled in their social agency by other means,<br>
+usually injustice or even violence (Swonden, Assange, JFK).
 
-Bertrand Russell: "Stupidity is learned, not innate". It is a behavioral<br> [CB27]
-pattern induced by system and education, not an irreducible state of being: [CB27]
-* "Stupid is who stupid does" by Forrest Gump, film 1994. [CB27]
+CB31/ In preventing a revolution might happen because of a lack of critics but<br>
+also truly novel alternatives, the ruling class rooting their power but also<br>
+earning their cognitive decay. This, combined with the loss of accountability<br>
+induces a derive in arrogance and corruption (do-ut-des). Finally, those systems<br>
+that aren't able to evolve, fail to be fit with the changed environments and<br>
+they abruptly collapse not because of the powerful action of their enemies but<br>
+inside down.
 
-Unfortunately, systematic behavioural %stpd is almost indistinguishable from<br> [CB28]
-real %stpd. Opposite in verse: an AI behaving like an AGI and systematically<br> [CB28]
-passing the Turing test, it is functionally an AGI. [CB28]
+CB32/ Which explains why the world is polluted by the ruins that, once upon a time,<br>
+were marvels of empires considered eternal. It also suggest the radical importance<br>
+of discipline recognizing Toyota's 6σ lean methodology in which the abnegation<br>
+for precisely executing procedures united with creativity in finding and correcting<br>
+mistakes leads to excellence. Which also suggests that freedom isn't doing<br>
+everything we want just because there are no punishments but the option to make<br>
+ponderate and valuable choices out-of-the-norms. Something "strange" because<br>
+the product of lateral thinking (De Bono, 1967). Hence intelligence<br>
+self-discipline while %stpd can't.
 
-The combination of standardized assessment (education and QI tests) induces<br> [CB29]
-a Gaussian distribution in "observing intelligence" (perception). Instead in<br> [CB29]
-reality, adopting creativity as a mark of true intelligence follows a highly<br> [CB29]
-skewed Poisson's Curve, resulting in a documented 2% of adults passing the NASA<br> [CB29]
-test (Land, 1992) which were >80% when they were pre-schooling aged kids (^#1). [CB29]
+CB33/ Determinism fascinates humans because it implies predictability, which is<br>
+a value for a mechanism or a procedure (6σ belt). On the contrary creativity but<br>
+also %stpd are unpredictable, in a subtle but essential different manners, which<br>
+can be explained ex-post: creativity introduces a novelty (e.g., E=mc²) an thus<br>
+a divergence in the norms which leads to an expected out-of-the-box (OFTB) result,<br>
+while %stpd is unpredictable like the outcome of an unfair ( dice OR coin ) toss.
+<br>
+* Courage is knowing it might hurt, and doing it anyway. Stupidity is the same,<br>
+  and that's why life is hard (J. Goldberg, born 1958). False, stupidity isnt' aware!
 
-An oppressive system's stability is granted when creative people's social<br> [CB30]
-agency is "suppressed below the 3.5% threshold. A reiterated (n=2, education<br> [CB30]
-compounded with bureaucratically-oriented norms) application of Pareto's<br> [CB30]
-principle (1-0.8)² leads to a 4% remaining. Which indicates that half of the<br> [CB30]
-"survivors" are systematically disabled in their social agency by other means,<br> [CB30]
-usually injustice or even violence (Swonden, Assange, JFK). [CB30]
+CB34/ This explains the fundamental role of chaos in sprouting novelty when it affects<br>
+a ( structurally disciplined ⇒ resilient ) system (science, brain) and overcomes<br>
+an ( ruled-by-unfairty ⇒ fragile ) one (theology, ego). In both cases the butterfly<br>
+effect can be observable, thus chaos is "fair" statistically speaking because<br>
+doesn't judge but reveals the subtle but essential difference between the two<br>
+systems' nature.
 
-In preventing a revolution might happen because of a lack of critics but also<br> [CB31]
-truly novel alternatives, the ruling class rooting their power but also earning<br> [CB31]
-their cognitive decay. This, combined with the loss of accountability induces<br> [CB31]
-a derive in arrogance and corruption (do-ut-des). Finally, those systems that<br> [CB31]
-aren't able to evolve, fail to be fit with the changed environments and they<br> [CB31]
-abruptly collapse not because of the powerful action of their enemies but<br> [CB31]
-inside down. [CB31]
+CB35/ Which leads us to appreciate the scientific method as a fundamental principle<br>
+of a discipline (science) and empiricism as the only way we have to not alienate<br>
+thinking from reality. Otherwise the mind would lose the ability to foresee<br>
+real-world events as a chain of causality and return back to superstition which<br>
+in short is the fear of unknown and uncertainty (e.g., Thor explains thunder).
 
-Which explains why the world is polluted by the ruins that, once upon a time,<br> [CB32]
-were marvels of empires considered eternal. It also suggest the radical importance<br> [CB32]
-of discipline recognizing Toyota's 6σ lean methodology in which the abnegation<br> [CB32]
-for precisely executing procedures united with creativity in finding and correcting<br> [CB32]
-mistakes leads to excellence. Which also suggests that freedom isn't doing<br> [CB32]
-everything we want just because there are no punishments but the option to make<br> [CB32]
-ponderate and valuable choices out-of-the-norms. Something "strange" because<br> [CB32]
-the product of lateral thinking (De Bono, 1967). Hence intelligence<br> [CB32]
-self-discipline while %stpd can't. [CB32]
+CB36/ For a successful technology, reality must take precedence over public relations,<br>
+for nature cannot be fooled (Feynman, 1986): s/technology/life/ → life is life.
 
-Determinism fascinates humans because it implies predictability, which is a value<br> [CB33]
-for a mechanism or a procedure (6σ belt). On the contrary creativity but also<br> [CB33]
-%stpd are unpredictable, in a subtle but essential different manners, which<br> [CB33]
-can be explained ex-post: creativity introduces a novelty (e.g., E=mc²) an thus<br> [CB33]
-a divergence in the norms which leads to an expected out-of-the-box (OFTB) result,<br> [CB33]
-while %stpd is unpredictable like the outcome of an unfair ( dice OR coin ) toss. [CB33]
+CB37/ Primitive humans knew in their flesh and bones about the brutality of nature,<br>
+and developed an instinct to form tribes and shelter in small villages in which<br>
+the Ubuntu was fully ruling. From that age, humans develop a survival<br>
+preference for classification, instead of thinking (a luxury):
+* reputation as vital asset → profiling others → judgemental application of labels.
+<br>
+A schema fostered by unother vital attitude: efficiency. Which was mandatory,<br>
+because resources were as rare as bare minimum or even less. Hence for brain<br>
+efficiency (12Wh): judging rather than the most expensive and slow reasoning.<br>
+After all, once a fiery was seen, every latency in acting properly (run-or-hide)<br>
+was undoubtedly a life threatening risk. If it has a cover, it is a book!
 
-* Courage is knowing it might hurt, and doing it anyway. Stupidity is the same,<br> [CB33]
-  and that's why life is hard (J. Goldberg, born 1958). False, stupidity isnt' aware! [CB33]
+CB38/ Among categories one which has the longest tradition of creating divisions<br>
+and conflicts is the { { atheist, agnostic }, believer } considering that since<br>
+the rise of monotheistic organised religions whoever was indicated as a !believer<br>
+was considered an "infidel" or "heretic" or a "witch". Thus the other two labels<br>
+are not "safe" to receive and they are a product of modernity.
 
-This explains the fundamental role of chaos in sprouting novelty when it affects<br> [CB34]
-a ( structurally disciplined ⇒ resilient ) system (science, brain) and overcomes<br> [CB34]
-an ( ruled-by-unfairty ⇒ fragile ) one (theology, ego). In both cases the butterfly<br> [CB34]
-effect can be observable, thus chaos is "fair" statistically speaking because<br> [CB34]
-doesn't judge but reveals the subtle but essential difference between the two<br> [CB34]
-systems' nature. [CB34]
+CB39/ Therefore, it is worth understanding in which this division is rooted. For<br>
+every human beings observing the Milky Way galaxy in a total dark night, it is<br>
+hard to not feel a sense of deep wonder, a gut emotion and think about the sky's<br>
+beauty compared with the harsh miserable life of a primitive being. That marvel<br>
+which triggers the wonder, can be intended as God: the fundamental principle of<br>
+the order and thus goodness (in an era of primitive injustice) which rules the<br>
+entire universe.
 
-Which leads us to appreciate the scientific method as a fundamental principle<br> [CB35]
-of a discipline (science) and empiricism as the only way we have to not alienate<br> [CB35]
-thinking from reality. Otherwise the mind would lose the ability to foresee<br> [CB35]
-real-world events as a chain of causality and return back to superstition which<br> [CB35]
-in short is the fear of unknown and uncertainty (e.g., Thor explains thunder). [CB35]
-
-For a successful technology, reality must take precedence over public relations,<br> [CB36]
-for nature cannot be fooled (Feynman, 1986): s/technology/life/ → life is life. [CB36]
-
-Primitive humans knew in their flesh and bones about the brutality of nature,<br> [CB37]
-and developed an instinct to form tribes and shelter in small villages in which<br> [CB37]
-the Ubuntu was fully ruling. From that age, humans develop a survival<br> [CB37]
-preference for classification, instead of thinking (a luxury): [CB37]
-* reputation as vital asset → profiling others → judgemental application of labels. [CB37]
-
-A schema fostered by unother vital attitude: efficiency. Which was mandatory,<br> [CB37]
-because resources were as rare as bare minimum or even less. Hence for brain<br> [CB37]
-efficiency (12Wh): judging rather than the most expensive and slow reasoning.<br> [CB37]
-After all, once a fiery was seen, every latency in acting properly (run-or-hide)<br> [CB37]
-was undoubtedly a life threatening risk. If it has a cover, it is a book! [CB37]
-
-Among categories one which has the longest tradition of creating divisions and <br> [CB38]
-conflicts is the { { atheist, agnostic }, believer } considering that since the<br> [CB38]
-rise of monotheistic organised religions whoever was indicated as a !believer was<br> [CB38]
-considered an "infidel" or "heretic" or a "witch". Thus the other two labels are<br> [CB38]
-not "safe" to receive and they are a product of modernity. [CB38]
-
-Therefore, it is worth understanding in which this division is rooted. For every<br> [CB39]
-human beings observing the Milky Way galaxy in a total dark night, it is hard to<br> [CB39]
-not feel a sense of deep wonder, a gut emotion and think about the sky's beauty<br> [CB39]
-compared with the harsh miserable life of a primitive being. That marvel which<br> [CB39]
-triggers the wonder, can be intended as God: the fundamental principle of the order<br> [CB39]
-and thus goodness (in an era of primitive injustice) which rules the entire universe. [CB39]
-
-From the PoV of a scientist, knowledge about nuclear fusion cannot diminish that<br> [CB40]
-wonder filling. Moreover, in realising the simplicity (cfr. De Bono, 1998) of the<br> [CB40]
-fundamental rules of physics, the same wonder arises again in an educated mind.<br> [CB40]
-Which means that a primitive being (believer) and the best educated scientist<br> [CB40]
-(agnostic) share the same wonder for God by feeling their guts. Which seems<br> [CB40]
-that the atheist is a black sheep unable to be as human as others their peers. [CB40]
+CB40/ From the PoV of a scientist, knowledge about nuclear fusion cannot diminish<br>
+that wonder filling. Moreover, in realising the simplicity (cfr. De Bono, 1998)<br>
+of the fundamental rules of physics, the same wonder arises again in an educated<br>
+mind. Which means that a primitive being (believer) and the best educated scientist<br>
+(agnostic) share the same wonder for God by feeling their guts. Which seems<br>
+that the atheist is a black sheep unable to be as human as others their peers.
 
 This explains the root of the rage against atheists, but an explanation is NOT<br> [CB41]
 necessarily a justification, anyway. In the worst case we can consider an atheist<br> [CB41]
