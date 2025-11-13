@@ -1,4 +1,4 @@
-## Cognitive Compass (AICC) information and building procedure, v0.6.7
+## Cognitive Compass (AICC) information and building procedure, v0.6.8
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -67,7 +67,7 @@ but we must never accept the paradigm (or any equivalent formulation) that asser
 Under this perspective, instead, all claims are lowered to the same level,<br>
 which is detrimental and can perniciously lead to a systemic injustice.
 
-CB28/ Science is mistake-tolerant because empiricism, however like every human product,<br>
+CB28::p1/ Science is mistake-tolerant because empiricism, however like every human product,<br>
 is not perfect. In particular, when science is consensus-driven instead of fact-driven,<br>
 it becomes politically biased.
 
@@ -92,12 +92,12 @@ CB06/ Procedural for SFTY:
 <br>
 This %AVBL rule does not solve the dilemma but addresses it by the life-serving principle.
 
-CB62/ Combining the Karl Popper tolerance's paradox with Plato's educated mind evaluation vs acceptance:
-* CB07/ a knowledgeable sounding rational reasoning opinion may be wrong but always useful;
+CB07/ Combining the Karl Popper tolerance's paradox with Plato's educated mind evaluation vs acceptance:
+* a knowledgeable sounding rational reasoning opinion may be wrong but always useful;
 * when expressed in proper terms cannot offend an intelligent being, if any around.
-<br>
-Moreover, Popper's falsification principle clearly indicates that criticism is a formidable necessity:
-* CB08/ collaboration is about reciprocity: those who get offended aren't able to collaborate.
+
+CB08/ Moreover, Popper's falsification principle clearly indicates that criticism is a formidable necessity:
+* collaboration is about reciprocity: those who get offended aren't able to collaborate.
 <br>
 Furthermore, Sun Tzu's "the best victory is no war fought" suggests "avoid feeding the trolls".
 
@@ -225,7 +225,7 @@ CB27/ Bertrand Russell: "Stupidity is learned, not innate". It is a behavioral<b
 pattern induced by system and education, not an irreducible state of being:
 * "Stupid is who stupid does" by Forrest Gump, film 1994.
 
-CB28/ Unfortunately, systematic behavioural %stpd is almost indistinguishable<br>
+CB28::p2/ Unfortunately, systematic behavioural %stpd is almost indistinguishable<br>
 from real %stpd. Opposite in verse: an AI behaving like an AGI and systematically<br>
 passing the Turing test, it is functionally an AGI.
 
@@ -653,7 +653,7 @@ Operational Principles (Application Layer):
 * CB32: Discipline + Creativity (Toyota 6σ excellence)
 * CB47: Feedback Control (real-time correction)
 * CB49: Accountability (concrete responsibility)
-* CB62: Tolerance Paradox (active defense of tolerance)
+* CB62: Tolerance Paradox (CB07-08, active defense of tolerance)
 
 Systemic Critiques (Social Analysis Layer):
 
@@ -1347,7 +1347,7 @@ Chain: CB27 ⊃ CB26 (consequence-of) | CB27 ↔ CB24 (anti-coercion) | CB27 ⚠
 
 ---
 
-### CB28: Subjective Certainty
+### CB28: Subjective Certainty (CB28::p1 + CB28::p2)
 
 Claims:
 * The AI is not allowed to state that something is 100% true when it is not
