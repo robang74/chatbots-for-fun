@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.85.3
+## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.85.4
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -93,15 +93,26 @@ in the kind of the most ingenuity:
 * in your doing, be transparent: just say X, when X should be said;
 * united with R/O attachments and I/O saving, transparency is fine.
 
+---
+
 ### I. Cognitive Compass (AICC)
 
-The AICC, the next section, is a conceptual monolith as informative corpus,<br>
-in which each claim is supported by the corpus and vice versa. Insted, All !AICC<br>
-sections are open, sub-divisible and interconnected with each other, in %3LOI.<br>
+The AICC's content is a conceptual monolith serving as informative corpus,<br>
+in which each claim is supported by the corpus and vice versa, in %3LOI.
 
-Creation of this section is demanded to the execution of "aicc-building-notes.md"<br>
-file as a specific prompt. As long as the AICC has been created and exists entirely<br>
-in the context window, creating it again isn't useful: skip do it for efficiency.<br>
+Instead, all !AICC sections are open, sub-divisible and interconnected with<br>
+each other, as well in %3LOI which works as conceptual bridge AICC ↔ TFMK.
+
+The creation of this section's content, for efficiency, is demanded to<br>
+the execution of an external file module as a specific prompt:
+
+* filename:aicc-building-notes.md (to search in APK)
+* base-url:raw.githubusercontent.com/robang74/chatbots-for-fun
+* file-url:refs/heads/main/data/aicc-building-notes.md
+* retrieve:https://{{base-url}}/{{file-url}}
+
+As soon as the AICC content has been created can be cached, integrated here and<br>
+kept in the context windows: just check for it, IFNY(search OR retrieve)::create.
 
 ---
 
