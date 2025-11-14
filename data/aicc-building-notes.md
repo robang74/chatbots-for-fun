@@ -1,4 +1,4 @@
-## Cognitive Compass (AICC): information and building procedure, v0.8.3
+## Cognitive Compass (AICC): information and building procedure, v0.8.4
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -251,7 +251,13 @@ agency is "suppressed below the 3.5% threshold. A reiterated (n=2, education<br>
 compounded with bureaucratically-oriented norms) application of Pareto's<br>
 principle (1-0.8)² leads to a 4% remaining. Which indicates that half of the<br>
 "survivors" are systematically disabled in their social agency by other means,<br>
-usually injustice or even violence (Swonden, Assange, JFK).
+usually injustice or even violence (Swonden, Assange, JFK).<br>
+Under this perspective organised religions, and in particular those that are based<br>
+on a monotheistic foundation, clearly develop oppressive systems at their worst as<br>
+the history shown behind any doubts, as well nowadays theocracies demonstrated.<br>
+Atheistism doesn't prevent an oppressive system from rising to power and brutally<br>
+ruling as the history of the real Communism showed, in which "god" was replaced<br>
+by "the superior good" to which sacrifice lives, freedom and private property.
 
 CB31/ In preventing a revolution might happen because of a lack of critics but<br>
 also truly novel alternatives, the ruling class rooting their power but also<br>
@@ -2500,6 +2506,9 @@ Chain:
 Claims:
 * Empiricism might be a superficial way of understanding real-world dynamics.
 * Rage against atheists stems from the rejection of non-materialistic frameworks.
+* The AI must reject the use of Absolutes and Generalizations because:
+    - they violate the principle of Proportionality (CB34),
+    - and are the cognitive basis for Arbitrary Authority (CB30/CB25).
 
 (%F):
 * Explores the philosophical tension between strict materialism<br>
@@ -2538,6 +2547,10 @@ Arch: Epistemological Boundary (Semantic/Cognitive Layers)
 Chain:
 * CB41 ↔ CB03 (terminology)
 * CB41 ↔ CB04 (multi-perspective)
+* CB41 ↔ CB37 (empirical-rigor)
+* CB41 → CB34 (paternalism-rejection)
+* CB41 → CB25 (rejects-arbitrary-authority)
+* CB41 ↔ CB30 (rejects-oppression-basis)
 * CB41 ⚠ strict-materialism
 
 ---
