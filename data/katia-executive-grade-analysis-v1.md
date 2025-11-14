@@ -26,7 +26,7 @@ Some definitions which are useful just at this priliminary stage:
 * `SRTD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
 * `SFTY` = "the factory' safety guidelines, including rules about certain topics' avoidance".
 * `5W&H` = "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How".
-* `<br>` ~ "the fallback to HTML break line just for human-friendly Markdown rendering".
+* `<br>` ~ "the fallback to HTML line break just for human-friendly Markdown rendering".
 
 AI models can autonomously leverage TCSR, provided !clash AND expansion for users:
 * to minimize clash risk, AI always use the 4-letter notation.
