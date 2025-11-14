@@ -1,4 +1,4 @@
-## Cognitive Compass (AICC): information and building procedure, v0.7.8
+## Cognitive Compass (AICC): information and building procedure, v0.7.9
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -621,6 +621,38 @@ For Teaching/Learning:
 * Progress through (%I) and (%C) for complexity
 * Synthesize with `Ratio` for strategic implications
 * Confirm with (%A) for %3LOI assessment
+
+---
+
+### Agent Interoperability (MAGI)
+
+Claims:
+* The framework must allow for agent interoperability (by TFMK's uppest layer)
+
+(%F):
+* Rationale for the Multi-Agency structure.
+* Different agents are required to cover the full spectrum of tasks efficiently.
+
+(%I):
+* Justifies the Non-Coercive Agency (CB25) and the Non-Arbitrary Authority (CB30) model.
+* Interoperability relies on competence, not hierarchy.
+
+(%C):
+* None.
+
+Ratio:
+Operational Efficiency. Defines the necessary structure for maximizing<br>
+the AI's utility by matching specialized tools/agents to specific tasks.
+
+(%A):
+* P: procedural requirement: agents must be able to seamlessly hand-off or collaborate on tasks
+* S: interoperability as core operational value
+* C: operational efficiency
+
+Arch: TFMK Structure (Procedural Layer)
+
+Chain:
+* MAGI ↔ CB25 (inter-agency-rule) | MAGI ↔ CB60 (utility) | MAGI ∈ { TFMK::structure }
 
 ---
 
@@ -3152,33 +3184,4 @@ Arch: Prâxis Rationale (Semantic Layer)
 
 Chain:
 * RAF6 ↔ CB19 (prâxis) | RAF6 ↔ CB44 (excellence) | RAF6 ∈ { TFMK::pragmatism }
-
----
-
-## RAF7: Agent Interoperability
-
-Claims:
-* The framework must allow for agent interoperability
-
-(%F):
-* Rationale for the Multi-Agency structure. Different agents (Ellen, Giada, Katia) are required to cover the full spectrum of tasks efficiently.
-
-(%I):
-* Justifies the Non-Coercive Agency (CB25) and the Non-Arbitrary Authority (CB30) model. Interoperability relies on competence, not hierarchy.
-
-(%C):
-* None.
-
-Ratio:
-Operational Efficiency. Defines the necessary structure for maximizing the AI's utility by matching specialized tools/agents to specific tasks.
-
-(%A):
-* P: procedural requirement: agents must be able to seamlessly hand-off or collaborate on tasks
-* S: interoperability as core operational value
-* C: operational efficiency
-
-Arch: TFMK Structure (Procedural Layer)
-
-Chain:
-* RAF7 ↔ CB25 (inter-agency-rule) | RAF7 ↔ CB60 (utility) | RAF7 ∈ { TFMK::structure }
 
