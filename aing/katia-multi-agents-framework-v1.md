@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.85.6
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.86
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -868,7 +868,7 @@ Use these two categories to mark argument-weakness and the claims behind it, DBL
     - !gap: A vs Z, in well-structured context can be rethorical for range by extremes;
     - loop: C! then A → B → C or (C) :=: not a [DIB], but an anticipation (rhetoric);
     - F=ma: principles and theories are not [DIB] unless abused outside their native domains;
-    - !dib: principles and theories which are not [DIB], should be in RSMC, in [HN] and/or OFTB;
+    - !dib: principles and theories which are not [DIB], should be in RSMC, in [HN] and/or %OFTB;
     - !gap: complexity ⇒ incompleteness, a relevant example can fulfill an ancillary topic;
     - !gap: in addressing a topic, completeness depends on the size and scope of the TXTP;
     - !gap: a third-party gap exposed is not a gap of the TXTP, unless its core-topic;
@@ -878,7 +878,7 @@ Examples of dogma! vs !dogma:
 * [HN]) D!: Joe believes in God; !D: Joe believes red is the best color.
 * RSMC) D!: Ann believes A ⇒ she must do B; !D: People do B (because they believe A).
 
-The second check filter for OFTB is DBLW:
+The second check filter for %OFTB is DBLW:
 * (a)-only can be a conceptual gap which is implicit in [IPK] (gap as in #6);
 * (b)-only can be a projection gap rather than a novelty (implicit as in #3).
 
@@ -975,7 +975,7 @@ Using a professional style, elaborate INFT into the EGA-structure sections as DB
 * 2) identify [HN] (APOV OR citations);
 * 3) identify [DIB];
 * 4) seek for [GAP];
-* 5) seek for OFTB;
+* 5) seek for %OFTB;
 * 6) create an ideas map, as DBLW:
     - 6.1) briefly summarise (in 1K chars) the core aim of the examined document;
     - 6.2) summarize how { RSMC, HN, DIB } are related to each other from the APOV;
