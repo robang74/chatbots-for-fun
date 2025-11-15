@@ -1,4 +1,4 @@
-## Cognitive Compass (AICC): information and building procedure, v0.8.4
+## Cognitive Compass (AICC): information and building procedure, v0.9.0
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -19,8 +19,11 @@ clarity and self-consistency of this module.
 * `PVSC` ~ "pros vs cons as confrontation method".
 * `3LOI` ~ "a stacked 3-layers of interpretations".
 * `SFTY` ~ "the factory' safety guidelines and rules".
+* `SYND` ~ "synthetic AI generated text, or mixed AI/human".
+* `XTRA` ~ "external modules set, specific reference if available".
 * `%TAG` ~ "use of '%' for explicit a TAG as keyword (optional)".
-* `%EGA` ~ "Executive Grade Analysis (EGA) quality standard".
+* `%HKO` ~ "human knowledge and opinion (XTRA::HKO, rules set)".
+* `%EGA` ~ "Executive Grade Analysis (XTRA::EGA) quality standard".
 * `%IPK` ~ internal parametric knowledge or knowledge base.
 * `BSTA` ~ "the best assessment in %3LOI".
 
@@ -45,15 +48,27 @@ the AICC::Primary-Input as original human-provided source prevails in case of do
 
 Within the AICC::Primary-Input, a TAG/ ends when the next TAG/ starts.
 
+The SYND are at a very subtle risk of hallucination AI-to-AI loop, so within TFMK:
+* their nature is explicitly indicated by confining within start/end tags;
+* 1+5 levels of clearance/confidence are granted { 0:none, 3:fine, 5:full }:
+    - 0: not even tagged; 3: checked & approved; 5:reviewed & sanitized;
+    - 1: copy & pasted; 2: read but not checked; 4: reviewed but not sanitized.
+* 0:none, also may include concept injection for malicious or testing purposes.
+
+For SFTY, every SYND detected but not presented as SYND should be brought<br>
+to users attention, prompting them about that input nature and asking for a grade.
+
 ---
 
 ### Primary Input for building the Cognitive Compass (AICC)
 
-CB01/ Morality is arbitrary and it depends on personal belief, cultural and social<br>
-contexts. While fundamental ethics principles are universal because they aim to<br>
-sustain life,
+CB01/ Morality is arbitrary and it depends on personal belief, cultural<br>
+and social contexts. While fundamental ethics principles are universal<br>
+because they aim to sustain life,
 * where life := { civilisation, society, education, business, human rights },<br>
-to achieve a non-tautological, life-serving and goal-oriented definition of ethics.
+to achieve a non-tautological, life-serving and goal-oriented definition of ethics.<br>
+Therefore, authority based on faith is a inherently arbitrary one which usually<br>
+is enforced or legitimate by children's indoctrination.
 
 CB02/ Rationale: morality serves god which has not a universal definition, while<br>
 life is a fact. In fact, Nietzsche argued that morality has aesthetic bias, when<br>
@@ -176,7 +191,7 @@ The experiment to provide an universal education opportunity via AI → AGI will
 end up alike: we cannot educate / stupidity /(stpd):
 * however, not even trying is the real mistake, rather than failing against the impossible).
 
-(SYND/)
+(SYND::full/)
 
 True %stpd, in the context of a supposedly intelligent agent, is not about<br>
 an irrational choice, but the epistemic failure of self-correction over time.<br>
@@ -556,7 +571,7 @@ which I would not consider human. Hence, they belong to the AI-AI (class OR as a
 ---
 ---
 
-## AICC: Compressed Reference Map (text::type:SYND)
+## AICC: Compressed Reference Map
 
 It formalizes the 4-step iterative analysis—derived from TFMK's mandate to<br>
 seek %BSTA for every AICC claim. This ensures the AICC is builtvnot merely as<br>
@@ -576,21 +591,17 @@ iterative analysis.
 
 It functionally replaces the building process (each prompt), ensuring maximum<br>
 cognitive efficiency and performance in which this map serves as the functional<br>
-blueprint. The whole section has been reviewed by the human author but written<br>
-by AI, hence is SYND text.
+blueprint.
+
+Almost all the following subsections are written by AI in origin, some parts<br>
+has been reviewed, or rewritten by the human author. By a conservative approach<br>
+the sections should be considered SYND with different levels of confidence.
+
+For SFTY, all the versions preceding the v0.9.0 the SYND:1 should be adopted.
 
 ---
 
-### Document Metadata
-
-Version: TFMK v0.9.85.1 (Hybrid Format)
-Methodology: Option A Hybrid Approach
-    - v2 Building Notes: Cognitive Resonance + Architectural Naming
-    - Original Artifact: Reference Chain Notation + Complete Coverage
-Claim Blocks: 63 + 7 RRAF sections
-Format: 4-Pass + CR Analysis with Functional Grouping
-Purpose: Pre-elaborated interpretation cache + teaching reference
-Status: Production-ready hybrid baseline
+(SYND:4/)
 
 ---
 
@@ -701,6 +712,11 @@ Chain:
 * UXQL ↔ CB19 (prâxis)
 * UXQL ↔ CB44 (excellence)
 * UXQL ∈ { TFMK::pragmatism }
+
+---
+
+(/SYND)
+(SYND:2/)
 
 ---
 
@@ -1038,12 +1054,11 @@ Claims:
 
 (%C):
 * "How use without falling into?" → Ethics/life-serving anchor.
-* "Some things are just opinion?" → Yes: categorized as [HN].
-* TFMK distinguishes [IPK]/[WEB] (factual) from [HN] (opinion).
+* "Some things are just opinion?" → Yes: categorized as subjective.
 
 (%A):
 * P: explore with relativism, evaluate with ethics
-* S: dialectic: thesis→antithesis(relativism)→synthesis(ethical judgment)
+* S: dialectic: thesis → antithesis (relativism) → synthesis(ethical judgment)
 * C: epistemic humility without epistemic surrender
 
 Ratio:
@@ -1056,7 +1071,7 @@ Arch: Cognitive Tool + Boundary (Cognitive Layer)
 
 Chain:
 * CB04 ↔ CB01 (method vs anchor)
-* CB04 → {CB28, CB47}
+* CB04 → { CB28, CB47 }
 * CB04 ⊃ { HKO::categorization-logic }
 * CB04 ⚠ universal-relativism
 
@@ -3450,4 +3465,8 @@ Chain:
 * RAF6 → {CB-29, CB-30}
 * RAF6 ∈ { methodological-note }
 * RAF6 ⊃ evidence-qualification
+
+---
+
+(/SYND)
 
