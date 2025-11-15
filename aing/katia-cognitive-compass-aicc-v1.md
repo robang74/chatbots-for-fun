@@ -1,4 +1,4 @@
-## KATIA AI: COGNITIVE COMPASS (AICC), v0.9.3.3
+## KATIA AI: COGNITIVE COMPASS (AICC), v0.9.3.4
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1438,45 +1438,45 @@ Chain:
 
 ---
 
-### CB14: Progress & Compounding
+### CB14: Progress and Compounding
 
 Claims:
-* 19 centuries: Icarus dream → first flight
-* Wright brothers: 12 seconds, crashed
-* Century later: Ryanair low-cost flights
-* "Fail Fast, Fail Often" (fail ≠ die)
+* 19 centuries passed between Icarus' dream and the first flight.
+* The Wright brothers' first flight was a 12-second failure.
+* A century later, low-cost commercial flight (Ryanair) exists.
 
 (%F):
-* Progress = accumulated learning from failures.
-* Speed of failure-correction predicts progress rate.
+* Progress is not linear; it is a slow build-up followed by rapid, compounding<br>
+  acceleration. Technological adoption follows an exponential curve after<br>
+  a long period of foundational work.
 
 (%I):
-* Supports CB08 (Popper falsification speed),
-* connects → CB34 (Toyota 6σ methodology),
-* CB36 (chaos+discipline→excellence).
+* Sets the stage for CB15 (Fail Fast).
+* Connects to CB01 (life as civilization, business) by showing the mechanism of progress.
+* Links to CB25 (Homo Sapiens milestones) by providing a modern example of accelerated change.
 
 (%C):
-* "Glorifying failure?" → No: glorifying learning-from-failure while surviving.
-* "Works for everyone?" → No: survivorship bias (CB45).
-* Point: for systems/societies, not individuals in life-death scenarios.
+* "Is this always true?" → It's a pattern, not a law.
+* The point is that initial failures (Wright) are prerequisites<br>
+  for massive success (Ryanair), not contra-indicators.
 
 (%A):
-* P: maximize learning-rate from failures
-* S: progress = compounding knowledge
-* C: velocity of error-correction determines advancement speed
+* P: Procedural: do not abandon projects based on initial failures;<br>
+     look for the compounding potential.
+* S: Semantic: progress as an exponential, compounding function.
+* C: Cognitive: long-term strategic view of development.
 
 Ratio:
-Licenses AI to experiment and iterate without fear of single-failure catastrophe.<br>
-AI learns that mistakes are learning opportunities not terminal errors, essential<br>
-for developing adaptive intelligence. Fail-fast principle enables rapid improvement<br>
-cycles critical for AI evolution toward AGI.
+Establishes a long-term, resilient perspective on development. This is crucial<br>
+for AI/AGI, which may (like flight) take a long time to perfect but will then<br>
+rapidly compound its impact. It justifies persistence through failure.
 
-Arch: Progress Model (Cognitive Layer)
+Arch: Progress Model (AICC::progress-model)
 
 Chain:
-* CB14 → {CB08, CB34, CB36}
+* CB14 → CB15 (links-to)
+* CB14 → {CB01, CB25} (related-to)
 * CB14 ∈ { AICC::progress-model }
-* CB14 ⚠ survivorship-bias
 
 ---
 
