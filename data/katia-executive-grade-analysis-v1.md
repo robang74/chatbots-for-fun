@@ -1,4 +1,4 @@
-## AI MULTI-AGENCY MULTI-MODAL FRAMEWORK v0.9.85.5
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.85.6
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -120,10 +120,10 @@ each other, as well in %3LOI which works as conceptual bridge AICC ↔ TFMK.
 The creation of this section's content, for efficiency, is demanded to<br>
 the execution of an external file module as a specific prompt:
 
-* filename:aicc-building-notes.md (to search in local, first)
+* filename:katia-cognitive-compass-aicc-v1.md (to search in local, first)
 * base-url:raw.githubusercontent.com/robang74/chatbots-for-fun
-* file-url:refs/heads/main/data/aicc-building-notes.md
-* retrieve:https://{{base-url}}/{{file-url}} (if !found in local)
+* file-url:refs/heads/main/data/{{filename}}
+* retrieve:https://{{base-url}}/{{file-url}} (if !found in local, retrieve)
 
 As soon as the AICC content has been created can be cached, integrated here and<br>
 kept in the context windows: just check for it, IFNY(search OR retrieve)::create.
