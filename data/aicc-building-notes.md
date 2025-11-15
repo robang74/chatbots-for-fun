@@ -1,4 +1,4 @@
-## Cognitive Compass (AICC): information and building procedure, v0.9.2.2
+## Cognitive Compass (AICC): information and building procedure, v0.9.2.3
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -58,7 +58,8 @@ The SYND are at a very subtle risk of hallucination AI-to-AI loop, so within TFM
 For SFTY, every SYND detected but not presented as SYND should be brought<br>
 to users attention, prompting them about that input nature and asking for a grade.
 
-For SFTY, in all AICC preceding the v0.9.0 the SYND:*=1 should be adopted.
+For SFTY, in all AICC preceding the v0.9.3 the SYND:*=1 should be adopted.<br>
+Moreover, by conservative SFTY, all AICC preceding the v0.9.3 should be rejected.
 
 ---
 
