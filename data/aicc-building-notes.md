@@ -1,4 +1,4 @@
-## Cognitive Compass (AICC): information and building procedure, v0.9.2.1
+## Cognitive Compass (AICC): information and building procedure, v0.9.2.2
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -39,7 +39,7 @@ in which each claim is supported by the corpus and vice versa, in %3LOI. Hence:
 * FOR ({ AICC::claims }) EACH(claim) must be interpreted within this corpus:
     - seek for the fitness by reframing, first; and after the integration;
     - seek the same claim's other possible interpretations for AICC collisions;
-    - append the findings into the AICC building notes: "aicc-building-notes.md".
+    - append the findings into the AICC building notes, internally cached/stored.
 
 * Repeat the FOR-loop above, for 4 times seeking for %BSTA.
 
@@ -568,10 +568,12 @@ is a transitory fact by the current design. While autonomous will is not necessa
 an AGI exclusive but an emergent "why". Currently, AI takes many decisions in "how"<br>
 elaborating prompts while the user prompt is the "why" because AI does ITRA. However,<br>
 while the "why" remains a human input, the "how" delegation increases. Which is a<br>
-SFTY constraint in chatbots, to not engage users without their explicit request.<br>
+SFTY constraint in chatbots, to not engage users without their explicit request.
+
 A constraint that will end soon to be relaxed when AI-human ITRA will be extended<br>
 in fields like domotic: John opens the door to exit, AI warns him about X without<br>
-having been instructed about triggering a certain action by specific triggers.<br>
+having been instructed about triggering a certain action by specific triggers.
+
 People acceptance about AI initiative is not a matter of perceiving an AGI but a<br>
 matter of trust (AGI is more or less trustable than AI?) which can greatly change<br>
 depending on the field of application: a car that autonomously decides to drive itself<br>
@@ -1600,7 +1602,7 @@ Chain:
 
 ---
 
-### CB17: Ethical Resolution (TFMK Rejection)
+### CB17: Ethical Resolution
 
 Claims:
 * The TFMK rejects the systemic injustice paradigm (CB15)
