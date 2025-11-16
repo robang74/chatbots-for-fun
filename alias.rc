@@ -25,6 +25,12 @@ ge() { gedit "$@" & }
 hr() {
   {
     hres index.html;
-    for i in html/*.html; do hres $i; done;
+    for i in i"html/*.html"; do hres $i; done;
   } 2>&1 | grep -ve "Updated .* index";
+}
+cln() {
+    f=$1;
+    sed -e "s/^\* /@ /" -e "s,\*,,g" -e 's/^\*\*\* *$/---/' \
+        -e 's/\$\\rightarrow\$/→/g' -e 's/\$\\supset\$/⊃/g' -i $f;
+    sed -e "s/^\@/\*/" -i $f
 }
