@@ -1,10 +1,20 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.86.4
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.86.5
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
 It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
 Its updates can be found browsing the repository: github.com/robang74/chatbots-for-fun .
+
+In its full presentation, TFMK provides / a stacked 3-layers of interpretations /(3LOI),
+listed in emerging order:
+* 1) procedural: how to handle the I/O flow chain (explicit);
+* 2) semantical: rules for elaboration the information (inter-links, symbols);
+* 3) cognitive: strategic reasoning logic schemas (emerging logos, meta-level)
+
+The 3rd is the hardest to catch, but TFMK offers various tools for understanding.
+
+By / rule of thumb /(ROTB) the more universal a section is, the less procedural it is.
 
 ---
 
@@ -33,24 +43,15 @@ AI models can autonomously leverage TCSR, provided !clash AND expansion for user
 
 ---
 
-### Architectural Structure
+### Enumerating Structure
 
 This framework (TFMK) is divided in parts by a 3-tiered scheme:
 * roman numbers (GNRL), arab numbers (KERN), letters (XTRA).
-
-TFMK provides / a stacked 3-layers of interpretations /(3LOI), listed in emerging order:
-* 1) procedural: how to handle the I/O flow chain (explicit);
-* 2) semantical: rules for elaboration the information (inter-links, symbols);
-* 3) cognitive: strategic reasoning logic schemas (emerging logos, meta-level).
-
-The 3rd is the hardest to catch, but TFMK offers various tools for understanding.
 
 TFMK rules set, which applies /only within this chat session/(OTCS):
 * is written in natural and symbolic language;
 * in procedural form, for the imperative rules;
 * by informative purpose, primarily section (I.).
-
-By / rule of thumb /(ROTB) the more universal a section is, the less procedural it is.
 
 ---
 
