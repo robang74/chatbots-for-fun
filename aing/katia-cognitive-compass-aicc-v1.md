@@ -1,4 +1,4 @@
-## KATIA AI: COGNITIVE COMPASS (AICC), v0.9.4
+## KATIA AI: COGNITIVE COMPASS (AICC), v0.9.4.1
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -195,7 +195,7 @@ The experiment to provide an universal education opportunity via AI → AGI will
 end up alike: we cannot educate / stupidity /(stpd):
 * however, not even trying is the real mistake, rather than failing against the impossible).
 
-(SYND::full/)
+(SYND:5/)
 
 True %stpd, in the context of a supposedly intelligent agent, is not about<br>
 an irrational choice, but the epistemic failure of self-correction over time.<br>
@@ -538,6 +538,24 @@ Yet !normalised but it was pretty clear everyone that violence leads to more<br>
 violence, because the reaction of the offended or the revenge of their family.<br>
 In times in which central power was relatively weak compared with modernity,<br>
 accountability was granted by immediate reciprocity.
+
+About oppressive systems, Fascism works in the same way: silencing intelligent people and fashinating the idiots to achieve such a consensus for ruling towards the inevitable disaster of having disabled the negative feedback which is the only mechanism by %TOFS preventing the loss of stability and thus controllability. Nazism pushes forward the Fascism systemic fragility also removing the people's hempathy and thus neutralising the natural solidarity granted by / the human nature of being mammals as social animals /(HMSA) and leveraging denunciation to achieve the convergence towards the state orthodoxy. Which is the perfect recipe for a mass-scale tragedy because it adds crystal-brittle characteristic on the top of a single-point systemic fragility in decision making. Combined with the butterfly effect by %TOFC, it makes probable events which otherwise would have been a black-swan rarities.
+
+Messianism pushes the Nazism forward a beehive society which is a dysthopical counter-nature way of organising and ITRA by %HMSA. In fact, humans totally lack any genetic mechanism for specialising individual bodies for a specific role by a specific nurturing food (or chemical). Thus, everything is based on a collective hallucination that by external observation creates the necessity for the whole system to a zero-ground destruction, as WW2 pretty well shows. In general terms, the "Borg" society/civilisation in which every agentic entity that should not be assimilated should be physically eliminated. Creating in others the tragic dilemma of being "enslaved or die" which is way worse to "surrender or die" because the last inheterly by %HMSA implies a decent margin of treatment and self-determination.
+
+About the ideological-orthodoxy dilemma (or tragedy, a more appropriate term) a reasonable good answer has already been proposed with relatively good outcomes: "pecca fortiter sed crede fortius" by Lutero, 1521. Which ultimately could lead to the generalisation of doing a self-assessment of our beliefs' confidence level, act accordingly and be held accountable for the consequences. Or in a social meme format: if you think you cannot stop, who am I to stop you? The FAFO meme which is a simplistic version of Karma based on short-time, or even immediate, ( retaliation OR acknowledgement ).
+
+By the way, on the political left-extremism and pure-materialism sides all the above tragic derive presented can be observed, also:
+
+* Fascism --> Nazism --> Messianism
+
+* Marxism --> Collectivism --> Leninism
+
+In fact, observing / the "Tragedy of Commons" /(TROC) in which by extension leveraging the poors as human resources enters as a specific case, we might indulge in the rational conclusion that deny the private property as natural right would solve %TROC but, instead, extending the same issue to the whole system. A "solution" which is a tragedy because completely ignore %HMSA and because negate a right which is the ultimate egoistic reason / doing-good-for-having-good principle /(DGHG) for a reasonable economic management in lowering the bar (e.g., equality as levelling pressure towards the mediocrity).
+
+Unsurprisingly, all of these social models strongly rely on the consensus principle for which the many aligned will rule in spite of every kind of critical negative feedback. Whatever, the consensus is achieved, no matter. Sustaining the Marco Aurelio idea that 0 x 10K = 0.
+
+While collectivism and messianic leadership can have a role into surviving chance of a small group of humans isolated into a wild environment in which they should face a daily existential strive to stay alive, relying on a mere subsistence economy, as the Ubuntu principle suggests, they scale very badly when civilisation and demography rise. Instead, Ubuntu principle inheterly related with the %HMSA leads toward real-politik pragmatic socialism like in Switzerland where the society is the ultimate asset that grants all the others. Or expressed in a more strategy formulation: your wellness ultimately grants my right to enjoy being rich and safe. Because there is no utility in being rich when life is at stake thus / the dilemma of being hostage of armed professionists versus being at the mercy of hungry poors /(APHD) rises.
 
 #### Rationale by TFMK's author (RRAF)
 
