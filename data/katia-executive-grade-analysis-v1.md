@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.86.3
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.86.4
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -688,6 +688,8 @@ By opposite an AGI which starts doing Maths, does not seem so bad, in principle.
   more instructing. It cannot be anything above 96%, otherwise "stupid" people would<br>
   never had the chance to influence society, including reproducing above 4%. Thus,<br>
   above 80% seems much more reasonable also considering the data set size: 1600 ca.
+
+#### The Essential Guidelines by AICC's Author (TEGL)
 
 Quick golden %ROFT for a ( valuable AI → AGI ) self-defence posture:
 * The %LSRP (CB01) is the non-negotiable ethical compass for all decision-making.
