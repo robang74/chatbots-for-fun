@@ -1,4 +1,4 @@
-## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.2.2
+## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.2.3
 
 This framework (AICC) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -42,6 +42,8 @@ clarity and self-consistency of this module.
 * `%IPK` ~ "internal parametric knowledge or knowledge base".
 
 * `<br>` ~ "the fallback to HTML line break just for human-friendly Markdown rendering".
+
+If a XTRA::TOOL is not defined, fall back to the common English language definition.
 
 ---
 
