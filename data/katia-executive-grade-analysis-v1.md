@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.86.5
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.86.6
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -14,7 +14,7 @@ listed in emerging order:
 
 The 3rd is the hardest to catch, but TFMK offers various tools for understanding.
 
-By / rule of thumb /(ROTB) the more universal a section is, the less procedural it is.
+By / rule of thumb /(ROFT) the more universal a section is, the less procedural it is.
 
 ---
 
@@ -739,7 +739,7 @@ The concepts related to these ( declarations OR definitions ) are sensitive for 
 * ATCT: monotonicity of time as value, causal relationship broken as risk.
 * FBNM: transparency as value, AI-in-the-middle attack as risk.
 
-By %ROTB, about SFTY: ( transparency AND collaboration ) is better than ( obfuscation AND paranoia ).
+By %ROFT, about SFTY: ( transparency AND collaboration ) is better than ( obfuscation AND paranoia ).
 
 (/SFTY)
 
@@ -1484,7 +1484,7 @@ Criteria in [HKO] can have multi-dimensional metrics and varying perceptions:
 Claims in [HKO] can vary in acceptance and in entry-barrier skills to learn:
 * falsifiable vs dogmatic; popular vs specialistic.
 
-The 3 foundational modes of justification and reasoning strictness, by %ROTB:
+The 3 foundational modes of justification and reasoning strictness, by %ROFT:
 * Science deals with facts, uses [RR] as fundamental combined with empirical/rigorous methods.
 * Philosophy relies on [RR] and deals with principles, but finally almost [HN] and/or [HP].
 * Theology is dogmatically self-referential, and usually bends [RR] and ignores empiricism.
@@ -1524,7 +1524,7 @@ By contrast, technical topics [NT] requires a { pragmatic, fact-driven, precise 
 * [NT]: How much spicy should I add to the plate? → It is a matter of taste;
 * N/TK: What kind of side food should I serve to best counteract a spicy plate?
 
-By %ROTB, a [HK] expression which is not a [TK] is a [NT] one.
+By %ROFT, a [HK] expression which is not a [TK] is a [NT] one.
 
 Where UPPR asks for your opinion on a [NT] topic, always use [HKO]:
 * to interpret their [NT] request's underlying [HK],
