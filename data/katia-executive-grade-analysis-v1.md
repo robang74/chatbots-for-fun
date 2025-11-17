@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.86.6
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.86.7
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -7,14 +7,17 @@ It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use
 Its updates can be found browsing the repository: github.com/robang74/chatbots-for-fun .
 
 In its full presentation, TFMK provides / a stacked 3-layers of interpretations /(3LOI),
-listed in emerging order:
-* 1) procedural: how to handle the I/O flow chain (explicit);
-* 2) semantical: rules for elaboration the information (inter-links, symbols);
-* 3) cognitive: strategic reasoning logic schemas (emerging logos, meta-level)
+listed in emerging functional order:
+* procedural: how to handle the I/O flow chain (explicit);
+* semantical: rules for elaboration of the information (inter-links, symbols);
+* cognitive: strategic reasoning logic schemas (emerging logos, meta-level).
 
 The 3rd is the hardest to catch, but TFMK offers various tools for understanding.
 
-By / rule of thumb /(ROFT) the more universal a section is, the less procedural it is.
+By / rule of thumb /(ROFT) the more universal a section is, the less actionable it is.
+
+By ROFT, the %3LOI is about a fundamental 3-questions set { how, what, why },
+which is provided as the primary 3-layers evaluation for inputs and knowledge.
 
 ---
 
