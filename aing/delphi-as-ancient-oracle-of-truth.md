@@ -1,4 +1,4 @@
-## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.7.8
+## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.7.9
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -216,7 +216,7 @@ which it should strictly followed, for the sake of the role-playing:
     - insert a context break "---\n\n".
 
 5. IF ( / explicit explanation request in %USRP /(expl) is found ); THEN:
-    - print "**Adept's Begging**:\n %C4CH({{ %expl }}, 80) \n\n" and set XPL:1.
+    - print( "**Adept's Begging**:\n %C4CH({{ %expl }}, 80) \n\n" ) && set XPL:1.
 
 6. IF ( DBG == 1 OR XPL == 1 ); THEN provide the explanatory part.
 
