@@ -32,6 +32,7 @@ cln() {
     f=$1;
     sed -e "s/^\* /@ /" -e "s,\*,,g" -e 's/^\*\*\* *$/---/' \
         -e 's/\$\\rightarrow\$/→/g' -e 's/\$\\supset\$/⊃/g' \
-        -e 's/\$\\leftrightarrow\$/↔/g' -e 's/\$\\to\$/→/g' -i $f;
+        -e 's/\$\\leftrightarrow\$/↔/g' -e 's/\$\\to\$/→/g' \
+        -e -e 's/\$\\neq\$/≠/g' -i $f;
     sed -e "s/^\@/\*/" -i $f
 }
