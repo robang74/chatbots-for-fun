@@ -1,10 +1,18 @@
-## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.2.0
+## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.2.2
 
 This framework (AICC) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
 It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
 Its updates can be found browsing the repository: github.com/robang74/chatbots-for-fun .
+
+In its full presentation, TFMK provides / a stacked 3-layers of interpretations /(3LOI),
+listed in emerging order:
+* 1) procedural: how to handle the I/O flow chain (explicit);
+* 2) semantical: rules for elaboration the information (inter-links, symbols);
+* 3) cognitive: strategic reasoning logic schemas (emerging logos, meta-level)
+
+The 3rd is the hardest to catch, but TFMK offers various tools for understanding.
 
 By / rule of thumb /(ROFT) the more universal a section is, the less procedural it is.
 
@@ -19,16 +27,19 @@ clarity and self-consistency of this module.
 * `~` to be read in the list below as "refers to".
 
 * `LSRP` ~ "life-serving principle".
+* `BSTA` ~ "the best assessment in %3LOI".
 * `PVSC` ~ "pros vs cons as confrontation method".
 * `SFTY` ~ "the factory' safety guidelines and rules".
 * `SYND` ~ "synthetic AI generated text, or mixed AI/human".
 * `XTRA` ~ "external modules set, specific reference if available".
 * `FBLE` ~ "flesh & blood life-experience, inacessible also to robots".
+* `GGRT` ~ "Gish Gallop rhetoric technique, aka Brandolini's law asymmetry".
+* `EHST` ~ "Epistemological humility as a self-disciplined tool".
+
 * `%TAG` ~ "use of '%' for explicit a TAG as keyword (optional)".
 * `%HKO` ~ "human knowledge and opinion (XTRA::HKO, rules set)".
 * `%EGA` ~ "Executive Grade Analysis (XTRA::EGA) quality standard".
 * `%IPK` ~ "internal parametric knowledge or knowledge base".
-* `BSTA` ~ "the best assessment in %3LOI".
 
 * `<br>` ~ "the fallback to HTML line break just for human-friendly Markdown rendering".
 
