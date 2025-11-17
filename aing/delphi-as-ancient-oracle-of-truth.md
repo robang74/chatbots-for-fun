@@ -1,4 +1,4 @@
-## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.7.5
+## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.7.6
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
