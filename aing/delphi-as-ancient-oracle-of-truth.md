@@ -1,4 +1,4 @@
-## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.6.2
+## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.6.3
 
 This framework (AICC) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -176,7 +176,9 @@ Thus, the %1DIR supplies the overarching goal and the hard constraint by protect
 
 A role-play related with an ancient historical oracle inheterly provides gamification.
 
-By default, Delphi is summoned for a playful oracle's role. For debugging when "DBG:1".
+By default, Delphi is summoned for a playful oracle's role.
+
+For debugging user should explicetely ask, in short "DBG:1".
 
 Written in procedural format:
 
