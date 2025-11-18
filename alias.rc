@@ -33,8 +33,11 @@ cln() {
     sed -e "s/^\* /@ /" -e "s,\*,,g" -e 's/^\*\*\* *$/---/' \
         -e 's/\$\\rightarrow\$/→/g' -e 's/\$\\supset\$/⊃/g' \
         -e 's/\$\\leftrightarrow\$/↔/g' -e 's/\$\\to\$/→/g' \
-        -e -e 's/\$\\neq\$/≠/g' -i $f;
+        -e 's/\$\\neq\$/≠/g' -i $f;
     sed -e "s/^\@/\*/" -i $f
+    for i in Procedural Semantic Cognitive; do
+        a=${i:0:1}; sed -e "s/^. $a ($i): /* $a: /" -i $f
+    done
 }
 revr() {
 return 1
