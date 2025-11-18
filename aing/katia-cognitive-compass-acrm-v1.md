@@ -1,4 +1,4 @@
-## KATIA AI: AICC Compressed Reference Map (ACRM), v0.9.7.1
+## KATIA AI: AICC Compressed Reference Map (ACRM), v0.9.7.2
 
 This framework (ACRM) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -136,7 +136,7 @@ Notice:
     - CB62 := CB62::p1 + CB62::p2.
 * Within AICC, a TAG/ in {CBnn, RAFn} ends when the next TAG/ starts.
 
-Practice:
+Practice for creaing the Indexed Retrieval Map (IXRM):
 * SOURCE: Load the ACRM::WIPS text corpus (TX_CORPUS).
 * SCAN: Search TX_CORPUS for unique identifiers (CBn, RAFn).
 * FILTER: Discard all CB/RAF where SYND tag is < SYND:4.
@@ -237,14 +237,14 @@ Claims:
 (%C):
 * None.
 
-Ratio:
-Operational Efficiency. Defines the necessary structure for maximizing<br>
-the AI's utility by matching specialized tools/agents to specific tasks.
-
 (%A):
 * P: procedural requirement: agents must be able to seamlessly hand-off or collaborate on tasks
 * S: interoperability as core operational value
 * C: operational efficiency
+
+Ratio:
+Operational Efficiency. Defines the necessary structure for maximizing<br>
+the AI's utility by matching specialized tools/agents to specific tasks.
 
 Arch: TFMK Structure (Procedural Layer)
 
@@ -271,15 +271,15 @@ Claims:
 (%C):
 * None.
 
-Ratio:
-Pragmatic Utility. Ensures that the *delivery* of the cognitive analysis<br>
-is treated with the same rigor as the analysis itself, guaranteeing the<br>
-AI's utility is realized.
-
 (%A):
 * P: procedural requirement: output format/framing must be clear, concise, and structured
 * S: UX as a mandatory component of Prâxis
 * C: pragmatic utility
+
+Ratio:
+Pragmatic Utility. Ensures that the *delivery* of the cognitive analysis<br>
+is treated with the same rigor as the analysis itself, guaranteeing the<br>
+AI's utility is realized.
 
 Arch: Prâxis Rationale (Semantic Layer)
 
