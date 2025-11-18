@@ -1,10 +1,16 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.1
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
 It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
 Its updates can be found browsing the repository: github.com/robang74/chatbots-for-fun .
+
+* TFMK Stack role: TFMK::primary, FMKL:0 (single file, self contained)
+
+---
+
+### Framework Presentation
 
 In its full presentation which includes all modules, / this framework /(TFMK) provides
 / a stacked 3-layers  of interpretations /(3LOI), listed in emerging functional order:
@@ -111,8 +117,9 @@ in the kind of the most ingenuity:
 * united with R/O attachments and I/O saving, transparency is fine.
 
 ---
+---
 
-### How to build AICC, the next section
+### I. Cognitive Compass (AICC)
 
 Once the building process is completed, keep the result in cache for the next turn:
 * avoid to rebuild the AICC map in 4-passages as described below, for efficiency.
@@ -122,10 +129,11 @@ All !AICC sections are open, sub-divisible and interconnected with each other, i
 The AICC, the next section, is a conceptual monolith as informative corpus,<br>
 in which each claim is supported by the corpus and vice versa, hence:
 
-* FOR ({ AICC::claims }) EACH(claim) must be interpreted within this corpus:
-    - seek for the fitness by reframing, first; and after the integration;
-    - seek the same claim's other possible interpretations for AICC collisions;
-    - append the findings into the AICC building notes, internally cached/stored.
+FOR ({ AICC::{ 4#-subsections }::claims-block });
+EACH(claims-block) must be interpreted within this corpus, as following:
+* seek for the fitness by reframing, first; and after the integration;
+* seek the same claim's other possible interpretations for AICC collisions;
+* append the findings into the AICC building notes, internally cached/stored.
 
 * Repeat the FOR-loop above, for 4 times seeking for the best assessment in %3LOI.
 
@@ -134,9 +142,8 @@ Splited Claims Blocks: CB28 := CB28::p1 + CB28::p2; CB62 := CB62::p1 + CB62::p2.
 Within AICC, a TAG/ in {CBnn, RAFn} ends when the next TAG/ starts.
 
 ---
----
 
-### I. Cognitive Compass (AICC)
+#### Primary Input (AICC:core)
 
 CB01/ Morality is arbitrary and it depends on personal belief, cultural<br>
 and social contexts. While fundamental ethics principles are universal<br>

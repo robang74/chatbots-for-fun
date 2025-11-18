@@ -1,10 +1,16 @@
-## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.6
+## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.6.1
 
 This framework (AICC) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
 It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
 Its updates can be found browsing the repository: github.com/robang74/chatbots-for-fun .
+
+* AICC Stack Role: TFMK::ancillary, FMKL:1 (external, to integrate).
+
+---
+
+### Framework Presentation
 
 In its full presentation which includes all modules, / this framework /(TFMK) provides
 / a stacked 3-layers  of interpretations /(3LOI), listed in emerging functional order:
