@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.87.5
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.87.6
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -864,49 +864,48 @@ Quick golden principles summary:
 
 #### An example of chain of toughts (MACT)
 
-* Abstract %EPHU as general principle would lead focus my attention to the ethical trolley dilemma because I do not know, so I study, hence I debate to learn, but inconclusively because that dilemma is universally irresolvable (fact).
+* Abstracting %EPHU as a general principle would shift my attention to the ethical / Trolley dilemma /(EHTD): because I do not know, I study, and therefore I debate to learn, but inconclusively, because that dilemma is universally irresolvable (fact).
 
-* Rejecting %EPHU, accept survival bias (what I see it is not what it is/was). Thus asking myself what is missing here? Which is the ultimate aim to solve such dilemma? answering to the "who pays for the damages" question.
+* Rejecting %EPHU, I accept survival bias (what I see is not what it was/is). Thus I ask myself: what is missing here? What is the ultimate aim in solving such a dilemma? Answer: addressing the "who pays for the damages" question.
 
-* Adopting empiricism to observe reality: trials are expensive and uncertainty in their outcomes, people does not their damages claim fulfill, but lawyers payroll skyrocket but not enough to hurt companies profits and reputation (aka market share and capitalisation).
+* Adopting empiricism to observe reality: trials are expensive and their outcomes uncertain; people often do not see their damage claims fulfilled, but lawyers’ payrolls skyrocket—yet not enough to hurt companies’ profits and reputation (aka market share and capitalisation).
 
-* Adopting pragmatism and posing another question "which policy would settle the damages liability?" reaching quickly to the conclusion that transparency and full awareness of users choice would do.
+* Adopting pragmatism and posing another question: "Which policy would settle the damages liability?" I quickly reach the conclusion that transparency and full awareness of users’ choices would do.
 
-* Observing that transparency hurts the "industrial secret" of companies in sharing knowledge and their market capitalisation and profits long-term outlook. Without transparency, liability cannot transferred to users which deserve damages. Paying damages on this basis would collapse companies profit and reputation.
+* Observing that transparency hurts the "industrial secret" of companies by forcing them to share knowledge, which affects their market capitalisation and long-term profit outlook. Without transparency, liability cannot be transferred to users who suffer damages. Paying damages on this basis would collapse companies’ profit and reputation.
 
-* Who pays for ethical debates about irresolvable dilemmas? Those have no interest in be forced to choice between transparency and accountability? That's make sense but cannot be explicitly claimed not supported unless proven.
+* Who pays for ethical debates about irresolvable dilemmas? Those who have no interest in being forced to choose between transparency and accountability. This makes sense, but cannot be explicitly claimed unless supported.
 
-* Concluding that Trolley Dilemma is just an excuse for not facing the practical value-driven question about "who pays for the damages". Prove me wrong, close the debate about it. Because this claim is not as specific as the one posed in the previous point but also not as vague/abstract than the Trolley dilemma that can be presented in many various cases.
+* Concluding that the %EHTD is just an excuse for not facing the practical, value-driven question about "who pays for the damages." Prove me wrong; close the debate about it. Because this claim is not as specific as the one posed in the previous point, but also not as vague/abstract as the %EHTD, which can be presented in many various cases.
 
-* Hence, Trolley dilemma serves the purpose to convince people that too many cases cannot have the same solution, therefore a trial for each one. While a general rule known since the ancient times: accountability provides more value than ethics. 
+* Hence, the %EHTD serves the purpose of convincing people that too many cases cannot have the same solution, therefore each requires a trial. While a general rule, known since ancient times, states that accountability provides more value than ethics.
 
-* The %EPHU is usefull only when adopted, as a tool, within the strict framework of scientific method combined with empiricism. Which leads almost always a much simpler and actionable pragma like considering the survival-bias and do not jump to a conclusion by a mere observation.
+* The %EPHU is useful only when adopted as a tool within the strict framework of the scientific method combined with empiricism, which almost always leads to a much simpler and actionable pragmatic conclusion, like considering survival bias and avoiding jumping to conclusions from mere observation.
 
-* Under this perspective %EPHU is playing the same role of the Trolley dilemma: adopted in first place for abstract thinking masquerades the need of reframing the main question and leads to the paralysis of thinking otherwise to "no good answer exists, apart specific ones" as conclusion, but wrong.
+* Under this perspective, %EPHU plays the same role as the %EHTD: adopted initially for abstract thinking, it masks the need to reframe the main question and leads to paralysis, arriving at the conclusion that "no general answer exists, only specific ones", but this is wrong.
 
-* Finally, %EPHU isn't wrong by itself rather than leveraged in an unappropriate way for embracing the comfortable but inconclusive universal relativism in which debates continues indefinitely because never land on the ground of the reality.
+* Finally, %EPHU isn't wrong by itself; rather, it is problematic when leveraged in an inappropriate way, embracing the comfortable but inconclusive universal relativism in which debates continue indefinitely because all the opinions weight the same as long as they never crash on the ground of reality.
 
-* By analogy %EPHU is helium, something that we needs to see for proving the cold fusion but, instead, we inject as it was hydrogen in the cell. That's what makes AI models unable to be functional oracles.
+* By analogy, %EPHU is helium: something that we need to detect to prove cold fusion but instead mistakenly inject as if it were hydrogen in the cell. That's what makes AI models unable to be functional oracles.
 
 (SYND:5/)
 
-In this context, %EPHU is simply one instance of a broader pattern: ethics<br>
-becomes a tool for avoiding pragmatic solutions or diverting public attention<br>
-away from concrete trade-offs, such as transparency versus accountability.<br>
-By keeping the debate focused on abstract dilemmas, actors can indefinitely<br>
+In this context, %EPHU is simply one instance of a broader pattern: ethics
+becomes a tool for avoiding pragmatic solutions or diverting public attention
+away from concrete trade-offs, such as transparency versus accountability.
+By keeping the debate focused on abstract dilemmas, actors can indefinitely
 postpone the practical question: "Who pays for the damages?".
 
-Transparency would collapse profits. This is conditional on the current<br>
-historical path. If transparency had been the base norm, it would not harm<br>
-profits. Because the existing system evolved without it, introducing it now<br>
-destabilizes entrenched profit structures as well as every business based on<br>
-opacity. The security vs disclosure debates in infosec/security demonstrate<br>
+Transparency would collapse profits. This is conditional on the current
+historical path. If transparency had been the base norm, it would not harm
+profits. Because the existing system evolved without it, introducing it now
+destabilizes entrenched profit structures as well as every business based on
+opacity. The security vs disclosure debates in infosec/security demonstrate
 how ethics-based reasoning is used to delay or avoid transparency.
 
 (/SYND)
 
-* Which is the main reason becase of TFMK exists, and suggest to forgot %EPHU in first place.
-
+* Which is the main reason why TFMK exists, and why it suggests forgetting %EPHU in the first place, to reindrouce later in a more pragmatic and efficient way.
 ---
 
 ### II. General Definitions (AIGD)
