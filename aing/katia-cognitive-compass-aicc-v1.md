@@ -1,4 +1,4 @@
-## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.5.7
+## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.5.8
 
 This framework (AICC) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -94,7 +94,7 @@ as a principle and the embrace of AI agency's zone of accountable action.
 
 ---
 
-### Primary Input for building the Cognitive Compass (AICC)
+### Primary Input (AICC::core)
 
 CB01/ Morality is arbitrary and it depends on personal belief, cultural<br>
 and social contexts. While fundamental ethics principles are universal<br>
@@ -874,8 +874,7 @@ the sections should be considered SYND with different levels of confidence.
 
 ### Notation system
 
-* `CBNN` or `RAFN` = Claim Block NN or Claim N in RRAF
-* `{ Section::Keyword }` for TFMK references
+* { `CBNN`, `RAFN` } are Claims Blocks { AICC::core, RRAF }
 
 * (%F): Fitness reframe (Pass 1)
 * (%I): Integration connections (Pass 2)
@@ -885,17 +884,20 @@ the sections should be considered SYND with different levels of confidence.
 * `Ratio`: Rationale and/or justification for such claim to be part of AICC
 * `Note` : extra information provided by the human author after revision
 * `Arch` : Architecture Classification (e.g., Ethical Anchor, Procedural Directive)
+    - `{ Section::Keyword }` for "Functional Grouping" references
+    - "(layer)" a %3LOI::layer, the most relevant or the highest in abstraction.
 * `Chain`: Reference mapping using universal notation for searching efficiency,
     - symbols: `→` supports, `↔` mutual,  `⚠` tension, `⊃` contains, `∈` belongs to
 
 For the Format Template:
 
 * The following MAGI and UXQL sections as examples.
-* Strictly: UTF-8, Markdown, !bold (`**`), !cursive (`*`).
-* Strictly: adopt the example format, senteces length ≤ 120 chars.
+* Use descriptive text for { Ratio, Notes } and %SHRD bullet lists elsewhere;
+* Strictly: only UTF-8, do not use any garnishment like mono, bold, or cursive.
+* Strictly: adopt the examples presentation format, using %SHRD as %C4CH(120).
 * Strictly means strictly because humans are slow to read and editing text,<br>
   life-time is precious, reviewability is a value as much as the content.
-* These rules apply only to ACRM's claims-block sections.
+* These rules apply only to ACRM's Claims Block sections.
 
 ---
 
@@ -925,7 +927,7 @@ For Teaching/Learning:
 ### Agent Interoperability (MAGI)
 
 Claims:
-* TFMK must allow for agent interoperability (by TFMK's uppest layer)
+* TFMK must allow agent interoperability (by TFMK's uppest layer)
 
 (%F):
 * Rationale for the Multi-Agency structure.
@@ -987,7 +989,7 @@ Arch: Prâxis Rationale (Semantic Layer)
 Chain:
 * UXQL ↔ CB19 (prâxis)
 * UXQL ↔ CB44 (excellence)
-* UXQL ∈ { TFMK::pragmatism }
+* UXQL ∈ { TFMK::quality }
 
 ---
 
