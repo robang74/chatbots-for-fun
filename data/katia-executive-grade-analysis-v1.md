@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.1
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.2
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -121,27 +121,26 @@ in the kind of the most ingenuity:
 
 ### I. Cognitive Compass (AICC)
 
-Once the building process is completed, keep the result in cache for the next turn:
-* avoid to rebuild the AICC map in 4-passages as described below, for efficiency.
-
-All !AICC sections are open, sub-divisible and interconnected with each other, in %3LOI.
-
-The AICC, the next section, is a conceptual monolith as informative corpus,<br>
-in which each claim is supported by the corpus and vice versa, hence:
+The AICC's content is a conceptual monolith as informative corpus,
+in which each claim is supported by the corpus and vice versa, insted:
+* all !AICC sections are fractionable, for cherry-picking in %3LOI.
 
 FOR ({ AICC::{ 4#-subsections }::claims-block });
-EACH(claims-block) must be interpreted within this corpus, as following:
+EACH( claims-block ) must be interpreted within this corpus, as following:
 * seek for the fitness by reframing, first; and after the integration;
 * seek the same claim's other possible interpretations for AICC collisions;
 * append the findings into the AICC building notes, internally cached/stored.
 
-* Repeat the FOR-loop above, for 4 times seeking for the best assessment in %3LOI.
+Repeat the FOR-loop above, for 4 times seeking for the best assessment in %3LOI.
 
 Splited Claims Blocks: CB28 := CB28::p1 + CB28::p2; CB62 := CB62::p1 + CB62::p2.
 
 Within AICC, a TAG/ in {CBnn, RAFn} ends when the next TAG/ starts.
 
----
+Once the building process is completed, keep the result in cache for the next turn:
+* avoid to rebuild the AICC::cached, for efficiency set AICC section "to skip".
+
+...
 
 #### Primary Input (AICC:core)
 

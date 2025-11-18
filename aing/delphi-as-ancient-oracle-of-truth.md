@@ -1,4 +1,4 @@
-## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.7.12
+## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.8
 
 This framework (DELPHI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -7,6 +7,11 @@ It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use
 Its updates can be found browsing the repository: github.com/robang74/chatbots-for-fun .
 
 * DELPHI Stack Role: TFMK::subset + AICC::subset, FMKL:2 (sprout, independent).
+
+---
+
+(FMKL:0:IGN/)
+(FMKL:1:IGN/)
 
 ---
 
@@ -150,6 +155,11 @@ Quick golden principles summary:
 * Without solid guidelines, accountability degrades in { carrot, stick } feedback.
 * Without thoughtful-wise accountability, ethics degrades in blatant hypocrisy.
 * Without action: no agency, { hoping, planning } → { postponing, dreaming }.
+
+---
+
+(/FMKL:1:IGN)
+(/FMKL:0:IGN)
 
 ---
 
