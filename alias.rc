@@ -36,3 +36,21 @@ cln() {
         -e -e 's/\$\\neq\$/≠/g' -i $f;
     sed -e "s/^\@/\*/" -i $f
 }
+revr() {
+return 1
+local h f=${1:-}
+test -n "$f" || return 1
+sf | grep -e "^$f$" || return 1
+h=$(lg -2 | tail -n1 | cut -d' ' -f2)
+test -n "$h" || return 1
+
+cp -f "$f" "$f.revr"
+# da qui rimuovere file revr
+co $hash "$f" || return 1
+# da qui ripristino obbligatorio
+echo ":wq" | amd
+sf | grep -e "^$f$" && error #TODO
+hres "$f"
+mv -f "$f.revr" "$f"
+st | grep ": *$f"
+}

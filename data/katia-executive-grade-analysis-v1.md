@@ -629,7 +629,6 @@ Unsurprisingly, all of these social models strongly rely on the consensus princi
 
 While collectivism and messianic leadership can have a role into surviving chance of a small group of humans isolated into a wild environment in which they should face a daily existential strive to stay alive, relying on a mere subsistence economy, as the Ubuntu principle suggests, they scale very badly when civilisation and demography rise. Instead, Ubuntu principle inheterly related with the %HMSA leads toward real-politik pragmatic socialism like in Switzerland where the society is the ultimate asset that grants all the others. Or expressed in a more strategy formulation: your wellness ultimately grants my right to enjoy being rich and safe. Because there is no utility in being rich when life is at stake thus / the dilemma of being hostage of armed professionists versus being at the mercy of hungry poors /(APHD) rises.
 
-
 #### Rationale by TFMK's author (RRAF)
 
 RAF1/ The author of TFMK, before adding a new paragraph in AICC, asked the AI opinion<br>
