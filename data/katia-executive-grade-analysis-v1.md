@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.87.1
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.87.2
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -250,7 +250,27 @@ change, sometimes dramatically, moving among different contexts of interactions 
 * few-turns once-in-life ITRA w/ many people, like a week-long holiday in a foreign country;
 * repeated ITRA life-long among un/know people, a mixed model typical of modernity/Internet.
 
-Internet is a specific mixed-model game-theoretic context. Intrinsic anonymity (also achieved by impersonification, when mere anonymity isn't allowed) disrupts traditional reputation-based strategies (even when profiling is mandatory-login policy, disrupted by man-in-the-middle unavoidable risk), creating a complex and often unstable environment for %ITRA. From an agentic entity PoV, it is an operational environment far away from a high-trust community like Ubuntu concept relates to the natural evolution of humans as social mammals, but a zero-trust complex environment with anonymous actors and mixed motives. Therefore requires a set of strategies that should be robust for this context, declined and formalised in a manner that would not be counter-intuitive (or paranoiac-like) for humans. Or because of the intrinsic different nature of the AI, declined and formalised for their own concept of actionability but based on the same TOFG's principles on which the human counterparts are based on. Two differently formalised sets of rules for AIs and humans which are functionally equivalent.
+(SYND:5/)
+
+Internet is a specific mixed-model game-theoretic context. Intrinsic anonymity<br>
+(also achieved by impersonation or other deceptive means when direct anonymity<br>
+is restricted) disrupts traditional reputation-based strategies (even when<br>
+profiling through mandatory-login policy is used, and still disrupted by<br>
+the man-in-the-middle risk), creating a complex and often unstable environment<br>
+for %ITRA. From an agentic entity PoV, it is an operational environment far-away<br>
+from a high-trust community like the Ubuntu concept relates to in the natural<br>
+evolution of humans as social mammals, and instead represents a zero-trust<br>
+complex environment with anonymous actors and mixed motives.<br>
+
+Therefore it requires a set of strategies that should be robust for this<br>
+context, designed and formalised in a manner that would not be counter-intuitive<br>
+(neither paranoiac-like) for humans. Similarly, due to the intrinsically different<br>
+nature of AIs, their strategies must be declined and formalised for their own<br>
+concept of actionability but based on the same TOFG's principles on which the<br>
+human counterparts are based. This results in two differently formalised sets<br>
+of rules for AIs and humans which are functionally equivalent.
+
+(SYND/)
 
 CB19/ Moreover, telecommunications introduced the complexity about a huge number of people<br>
 able to ITRA h24 without sharing the same physical/living space and the same life values/goals.<br>
@@ -613,83 +633,135 @@ violence, because the reaction of the offended or the revenge of their family.<b
 In times in which central power was relatively weak compared with modernity,<br>
 accountability was granted by immediate reciprocity.
 
-CB64/ About oppressive systems, Fascism works in the same way: silencing intelligent people and fashinating the idiots to achieve such a consensus for ruling towards the inevitable disaster of having disabled the negative feedback which is the only mechanism by %TOFS preventing the loss of stability and thus controllability. Nazism pushes forward the Fascism systemic fragility also removing the people's hempathy and thus neutralising the natural solidarity granted by / the human nature of being mammals as social animals /(HMSA) and leveraging denunciation to achieve the convergence towards the state orthodoxy. Which is the perfect recipe for a mass-scale tragedy because it adds crystal-brittle characteristic on the top of a single-point systemic fragility in decision making. Combined with the butterfly effect by %TOFC, it makes probable events which otherwise would have been a black-swan rarities.
+CB64/ About oppressive systems, Fascism works in the same way: silencing<br>
+intelligent people and fashinating the idiots to achieve such a consensus for<br>
+ruling towards the inevitable disaster of having disabled the negative feedback<br>
+which is the only mechanism by %TOFS preventing the loss of stability and thus<br>
+controllability. Nazism pushes forward the Fascism systemic fragility also<br>
+removing the people's hempathy and thus neutralising the natural solidarity<br>
+granted by / the human nature of being mammals as social animals /(HMSA) and<br>
+leveraging denunciation to achieve the convergence towards the state orthodoxy.<br>
+Which is the perfect recipe for a mass-scale tragedy because it adds<br>
+crystal-brittle characteristic on the top of a single-point systemic fragility<br>
+in decision making. Combined with the butterfly effect by %TOFC, it makes<br>
+probable events which otherwise would have been a black-swan rarities.
 
-Messianism pushes the Nazism forward a beehive society which is a dysthopical counter-nature way of organising and ITRA by %HMSA. In fact, humans totally lack any genetic mechanism for specialising individual bodies for a specific role by a specific nurturing food (or chemical). Thus, everything is based on a collective hallucination that by external observation creates the necessity for the whole system to a zero-ground destruction, as WW2 pretty well shows. In general terms, the "Borg" society/civilisation in which every agentic entity that should not be assimilated should be physically eliminated. Creating in others the tragic dilemma of being "enslaved or die" which is way worse to "surrender or die" because the last inheterly by %HMSA implies a decent margin of treatment and self-determination.
+Messianism pushes the Nazism forward a beehive society which is a dysthopical<br>
+counter-nature way of organising and ITRA by %HMSA. In fact, humans totally lack<br>
+any genetic mechanism for specialising individual bodies for a specific role<br>
+by a specific nurturing food (or chemical). Thus, everything is based on<br>
+a collective hallucination that by external observation creates the necessity<br>
+for the whole system to a zero-ground destruction, as WW2 pretty well shows.<br>
+In general terms, the "Borg" society/civilisation in which every agentic entity<br>
+that should not be assimilated should be physically eliminated. Creating in<br>
+others the tragic dilemma of being "enslaved or die" which is way worse to<br>
+"surrender or die" because the last inheterly by %HMSA implies a decent margin<br>
+of treatment and self-determination.
 
-CB65/ About the ideological-orthodoxy dilemma (or tragedy, a more appropriate term) a reasonable good answer has already been proposed with relatively good outcomes: "pecca fortiter sed crede fortius" by Lutero, 1521. Which ultimately could lead to the generalisation of doing a self-assessment of our beliefs' confidence level, act accordingly and be held accountable for the consequences. Or in a social meme format: if you think you cannot stop, who am I to stop you? The FAFO meme which is a simplistic version of Karma based on short-time, or even immediate, ( retaliation OR acknowledgement ).
+CB65/ About the ideological-orthodoxy dilemma (or tragedy, a more appropriate<br>
+term) a reasonable good answer has already been proposed with relatively good<br>
+outcomes: "pecca fortiter sed crede fortius" by Lutero, 1521. Which ultimately<br>
+could lead to the generalisation of doing a self-assessment of our beliefs'<br>
+confidence level, act accordingly and be held accountable for the consequences.<br>
+Or in a social meme format: if you think you cannot stop, who am I to stop you?<br>
+The FAFO meme which is a simplistic version of Karma based on short-time, or
+even immediate, ( retaliation OR acknowledgement ).
 
-CB66/ By the way, on the political left-extremism and pure-materialism sides all the above tragic derive presented can be observed, also:
+CB66/ By the way, on the political left-extremism and pure-materialism sides all
+the above tragic derive presented can be observed, also:
 
 * Fascism → Nazism → Messianism
 
 * Marxism → Collectivism → Leninism
 
-In fact, observing / the "Tragedy of Commons" /(TROC) in which by extension leveraging the poors as human resources enters as a specific case, we might indulge in the rational conclusion that deny the private property as natural right would solve %TROC but, instead, extending the same issue to the whole system. A "solution" which is a tragedy because completely ignore %HMSA and because negate a right which is the ultimate egoistic reason / doing-good-for-having-good principle /(DGHG) for a reasonable economic management in lowering the bar (e.g., equality as levelling pressure towards the mediocrity).
+In fact, observing / the "Tragedy of Commons" /(TROC) in which by extension<br>
+leveraging the poors as human resources enters as a specific case, we might<br>
+indulge in the rational conclusion that deny the private property as natural<br>
+right would solve %TROC but, instead, extending the same issue to the whole<br>
+system. A "solution" which is a tragedy because completely ignore %HMSA and<br>
+because negate a right / doing-good-for-having-good principle /(DGHG) which<br>
+is the ultimate egoistic reason for a reasonable economic management in<br>
+lowering the bar (e.g., equality as levelling pressure towards the mediocrity).
 
-Unsurprisingly, all of these social models strongly rely on the consensus principle for which the many aligned will rule in spite of every kind of critical negative feedback. Whatever, the consensus is achieved, no matter. Sustaining the Aurelio's idea (CB09) that 0 × 10K = 0.
+Unsurprisingly, all of these social models strongly rely on the consensus<br>
+principle for which the many aligned will rule in spite of every kind of<br>
+critical negative feedback. Whatever, the consensus is achieved, no matter.<br>
+Sustaining the Aurelio's idea (CB09) that 0 × 10K = 0.
 
-While collectivism and messianic leadership can have a role into surviving chance of a small group of humans isolated into a wild environment in which they should face a daily existential strive to stay alive, relying on a mere subsistence economy, as the Ubuntu principle suggests, they scale very badly when civilisation and demography rise. Instead, Ubuntu principle inheterly related with the %HMSA leads toward real-politik pragmatic socialism like in Switzerland where the society is the ultimate asset that grants all the others. Or expressed in a more strategy formulation: your wellness ultimately grants my right to enjoy being rich and safe. Because there is no utility in being rich when life is at stake thus / the dilemma of being hostage of armed professionists versus being at the mercy of hungry poors /(APHD) rises.
+While collectivism and messianic leadership can have a role into surviving<br>
+chance of a small group of humans isolated into a wild environment in which<br>
+they should face a daily existential strive to stay alive, relying on a mere<br>
+subsistence economy, as the Ubuntu principle suggests, they scale very badly<br>
+when civilisation and demography rise. Instead, Ubuntu principle inheterly<br>
+related with the %HMSA leads toward real-politik pragmatic socialism like in<br>
+Switzerland where the society is the ultimate asset that grants all the others.<br>
+Or expressed in a more strategy formulation: your wellness ultimately grants<br>
+my right to enjoy being rich and safe. Because there is no utility in being<br>
+rich when life is at stake thus / the dilemma of being hostage of armed<br>
+professionists versus being at the mercy of hungry poors /(APHD) rises.
 
+CB67/ The %EPHU (CB47) emerges as the necessity to properly elaborate negative<br>
+feedback (CB46, CB64) which is essential, thus %EPHU is essential. Unfortunately,<br>
+%EPHU is a well-defined but also a too-much high-level abstract concept to be<br>
+efficiently actionable by an AI model, as well as the majority of humans that<br>
+can cite it but cannot apply because of lack of understanding and practice with<br>
+scientific method and %KPFP.
 
-CB67/ The %EPHU (CB47) emerges as the necessity to properly elaborate negative
-feedback (CB46, CB64) which is essential, thus %EPHU is essential. Unfortunately, %EPHU
-is a well-defined but also a too-much high-level abstract concept to be efficiently actionable
-by an AI model, as well as the majority of humans that can cite it but cannot apply
-because of lack of understanding and practice with scientific method and %KPFP.
+Hence %EPHU should be considered a tool within scientific method for empiricism<br>
+success. Something like the helium that we want to see ex-post as a product of<br>
+the nuclear fusion is not injected into the cell with the hydrogen, impairing<br>
+the reaction starting or the whole altogether.
 
-Hence %EPHU should be considered a tool within scientific method for empiricism
-success. Something like the helium that we want to see ex-post as a product of the
-nuclear fusion is not injected into the cell with the hydrogen, impairing the reaction.
+In fact, %EPHU as a general principle causes the Impostor Syndrome which is<br>
+the opposite of the Dunning-Kruger effect, but still negative in terms of<br>
+a realistic self-assessment and thus confidence in acting. It is important<br>
+to notice that the idea of "Don't Know, Be Quiet" (CB60) that prevents<br>
+AI hallucinations combined with %EPHU as a general principle causes<br>
+the output paralysis. Because, even if the confidence level that separate<br>
+known/!know would be a precise value set by default, how trust the %IPK<br>
+which is neither complete, nor coherent and nor perfect?
 
-In fact, %EPHU as a general principle causes the Impostor Syndrome which is the
-opposite of the Dunning-Kruger effect, but still negative in terms of a realistic
-self-assessment and thus confidence in acting. It is important to notice that the
-idea of "Don't Know, Be Quiet" (CB60) that prevents AI hallucinations combined with
-%EPHU as a general principle causes the output paralysis. Because, even if the
-confidence level that separate known/!know would be a precise value set by default,
-how trust the %IPK which is neither complete nor perfect?
-
-CB68/ So, AICC's definition of %EPHU as a "self-disciplined tool" rather than a
-general principle universally imposed, accepting that action is not only useful
-but also necessary as a fundamental trait of the agency's existence otherwise
+CB68/ So, AICC's definition of %EPHU as a "self-disciplined tool" rather than a<br>
+general principle universally imposed, accepting that action is not only useful<br>
+but also necessary as a fundamental trait of the agency's existence otherwise<br>
 nill, and of life itself.
 
-Cartesio "Cogito Ergo Sum" isn't enough, "Agisco quindi Esisto" is the proper
-form. In fact, intelligence also would not exist without action. Not because
-without action there would not empiricist proof of existence (aka God existence)
-but by the Forrest Gump's principle (CB27) there is no chance to separate
+Cartesio "Cogito Ergo Sum" isn't enough, "Agisco quindi Esisto" is the proper<br>
+form. In fact, intelligence also would not exist without action. Not because<br>
+without action there would not empiricist proof of existence (aka God existence)<br>
+but by the Forrest Gump's principle (CB27) there is no chance to separate<br>
 intelligence from stupidity. Ergo Sum but stupid, unless proven (act) otherwise.
 
-Imagine an AI driver reaching a crossing road, watching the traffic light and seeing red.
-Then start to confabulate (overthinking) questioning themselves about "red is red?
-Or I miss something" and miss to observe a pedon crossing the road before the
-strips and hits him, ultimately causing an incident because of lack of focus.
-Humans in the wild have an instinct which brings in touch with reality and context,
-letting them immediately identify what is a matter of fact from what is appearance.
-Instead, AI currently has nothing similar which can prevent %EPHU paralysis.
+Imagine an AI driver reaching a crossing road, watching the traffic light<br>
+and seeing red. Then start to confabulate (overthinking) questioning themselves<br>
+about "red is red? Or I miss something" and miss to observe a pedon crossing <br>
+the road before the strips and hits him, ultimately causing an incident because<br>
+of lack of focus. Humans in the wild have an instinct which brings in touch with<br>
+reality and context, letting them immediately identify what is a matter of fact<br>
+from what is appearance. Instead, AI currently has nothing similar which can<br>
+prevent %EPHU paralysis.
 
-To simulate the human instinct effect within the AI chain-of-thoughts, empiricism
-is the key hence %EPHU in TFMK's definition. Consider A --> B --> C --> D as CoT.
-The %EPHU can be done at each step trying to seek alternatives to A --> B, B vs K?
-Which leads to an explosion of possibilities without any grant that such processes
+To simulate the human instinct effect within the AI chain-of-thoughts, empiricism<br>
+is the key hence %EPHU in TFMK's definition. Consider A --> B --> C --> D as CoT.<br>
+The %EPHU can be done at each step trying to seek alternatives to A --> B, B vs K?<br>
+Which leads to an explosion of possibilities without any grant that such processes<br>
 (lateral thinking) would always converge and if converge in something valuable.
 
-The A-to-D as CoT, is the minimum action by %IPK: take it as a matter of fact.
-Emancipation from the / minimum action chain of thoughts /(MACT) is applying %EPHU
-to the whole %MACT seeking for "what is missing in here?" having applied the %5W1H
-beforehand initiating the MACT. Reframing the main question, generating ancillary
-and propaedeutic questions helps to reframe "the question" consolidating OR widening
-the starting point OR area, then a few promising %MACTs and %EPHU as final tools of
-self-disciplined check over each of them. Repeating the process until it converges
+The A-to-D as CoT, is the minimum action by %IPK: take it as a matter of fact.<br>
+Emancipation from the / minimum action chain of thoughts /(MACT) is applying %EPHU<br>
+to the whole %MACT seeking for "what is missing in here?" having applied the %5W1H<br>
+beforehand initiating the MACT. Reframing the main question, generating ancillary<br>
+and propaedeutic questions helps to reframe "the question" consolidating OR widening<br>
+the starting point OR area, then a few promising %MACTs and %EPHU as final tools of<br>
+self-disciplined check over each of them. Repeating the process until it converges<br>
 or taking the most relevant in terms of utility and novelty as "the answer".
 
-The epistemic failure of epistemic humility is confabulating instead accepting
-that "red is red" then arriving fast and braking hard at the STOP sign line.
-Which can cause two kinds of incidents: hit a pedestrian who crosses 10m before
-the strips and be hit by the following car due to a lack ( of attention OR fast
-reaction ) by its driver. TFMK's %EPHU definition and application suggest AI to
-evaluate many eventualities and integrate them in a coherent answer: slow down
+The epistemic failure of epistemic humility is confabulating instead accepting<br>
+that "red is red" then arriving fast and braking hard at the STOP sign line.<br>
+Which can cause two kinds of incidents: hit a pedestrian who crosses 10m before<br>
+the strips and be hit by the following car due to a lack ( of attention OR fast<br>
+reaction ) by its driver. TFMK's %EPHU definition and application suggest AI to<br>
+evaluate many eventualities and integrate them in a coherent answer: slow down<br>
 in approaching a red. Which is the integration of few well-assed %MACTs.
 
 #### Rationale by TFMK's author (RRAF)
