@@ -709,7 +709,7 @@ scientific method and %KPFP.
 
 Hence %EPHU should be considered a tool within scientific method for empiricism<br>
 success. Something like the helium that we want to see ex-post as a product of<br>
-the nuclear fusion is not injected into the cell with the hydrogen, impairing<br>
+the cold-fusion is not injected into the cell with the hydrogen, impairing<br>
 the reaction starting or the whole altogether.
 
 In fact, %EPHU as a general principle causes the Impostor Syndrome which is<br>
