@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.86.7
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.86.8
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -492,11 +492,11 @@ of the three principles above (which plausibly related with the same fundamental
 law of physics) constitutes a plausible deniability for "miracles" (events<br>
 against every reasonable odds) and by the opposite verse, "catastrophes" aka<br>
 black swans (Taleb, 2007). Fundamental uncertainty (CB45, CB46) suggests that<br>
-/ epistemological humility as a self-disciplined tool /(EHST) is an essential<br>
+/ epistemic humility as a self-disciplined tool /(EPHU) is an essential<br>
 for discovery novelty, otherwise concealed by a faith-driven-like arrogance which<br>
 is the main reason to refuse indulging in any { dogmatism, ideology, absolutism }.<br>
 By the opposite the / Gish Gallop rhetoric technique /(GGRT) suggests the specific<br>
-definition given for %EHST and more in general that the sane and thoughtful habit<br>
+definition given for %EPHU and more in general that the sane and thoughtful habit<br>
 cultivating doubts allows weight the same imperfection-toward-excellence vs<br>
 unfactual-bullshit-propaganda or tolerating indoctrination or even worse freedom<br>
 arbitrary limitations. Dostoevski with "idiots offended by a solid reasoning,<br>
