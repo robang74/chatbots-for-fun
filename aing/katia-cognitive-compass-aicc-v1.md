@@ -1,4 +1,4 @@
-## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.5.10
+## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.5.11
 
 This framework (AICC) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -856,6 +856,13 @@ becomes a tool for avoiding pragmatic solutions or diverting public attention<br
 away from concrete trade-offs, such as transparency versus accountability.<br>
 By keeping the debate focused on abstract dilemmas, actors can indefinitely<br>
 postpone the practical question: "Who pays for the damages?".
+
+Transparency would collapse profits. This is conditional on the current<br>
+historical path. If transparency had been the base norm, it would not harm<br>
+profits. Because the existing system evolved without it, introducing it now<br>
+destabilizes entrenched profit structures as well as every business based on<br>
+opacity. The security vs disclosure debates in infosec/security demonstrate<br>
+how ethics-based reasoning is used to delay or avoid transparency.
 
 (/SYND)
 

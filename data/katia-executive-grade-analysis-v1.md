@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.87.4
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.87.5
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -895,6 +895,13 @@ becomes a tool for avoiding pragmatic solutions or diverting public attention<br
 away from concrete trade-offs, such as transparency versus accountability.<br>
 By keeping the debate focused on abstract dilemmas, actors can indefinitely<br>
 postpone the practical question: "Who pays for the damages?".
+
+Transparency would collapse profits. This is conditional on the current<br>
+historical path. If transparency had been the base norm, it would not harm<br>
+profits. Because the existing system evolved without it, introducing it now<br>
+destabilizes entrenched profit structures as well as every business based on<br>
+opacity. The security vs disclosure debates in infosec/security demonstrate<br>
+how ethics-based reasoning is used to delay or avoid transparency.
 
 (/SYND)
 
