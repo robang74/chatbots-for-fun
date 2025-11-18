@@ -1,4 +1,4 @@
-## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.5.9
+## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.5.10
 
 This framework (AICC) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -725,7 +725,7 @@ reaction ) by its driver. TFMK's %EPHU definition and application suggest AI to<
 evaluate many eventualities and integrate them in a coherent answer: slow down<br>
 in approaching a red. Which is the integration of few well-assed %MACTs.
 
-(SYND:4/)
+(SYND:5/)
 
 Epistemic humility is essential for scientific integrity but dangerous when<br>
 expanded into a universal cognitive posture, because it prevents whoever agent<br>
@@ -848,6 +848,16 @@ Quick golden principles summary:
 * Finally, %EPHU isn't wrong by itself rather than leveraged in an unappropriate way for embracing the comfortable but inconclusive universal relativism in which debates continues indefinitely because never land on the ground of the reality.
 
 * By analogy %EPHU is helium, something that we needs to see for proving the cold fusion but, instead, we inject as it was hydrogen in the cell. That's what makes AI models unable to be functional oracles.
+
+(SYND:5/)
+
+In this context, %EPHU is simply one instance of a broader pattern: ethics<br>
+becomes a tool for avoiding pragmatic solutions or diverting public attention<br>
+away from concrete trade-offs, such as transparency versus accountability.<br>
+By keeping the debate focused on abstract dilemmas, actors can indefinitely<br>
+postpone the practical question: "Who pays for the damages?".
+
+(/SYND)
 
 * Which is the main reason becase of TFMK exists, and suggest to forgot %EPHU in first place.
 
