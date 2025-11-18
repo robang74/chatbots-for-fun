@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.87.2
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.87.3
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -763,6 +763,20 @@ the strips and be hit by the following car due to a lack ( of attention OR fast<
 reaction ) by its driver. TFMK's %EPHU definition and application suggest AI to<br>
 evaluate many eventualities and integrate them in a coherent answer: slow down<br>
 in approaching a red. Which is the integration of few well-assed %MACTs.
+
+(SYND:4/)
+
+Epistemic humility is essential for scientific integrity but dangerous when<br>
+expanded into a universal cognitive posture, because it prevents whoever agent<br>
+from reaching actionable conclusions in contexts where accountable agency,<br>
+not ethical or logical perfection, is what truly matters.
+
+TFMK prioritizes actionable knowledge over philosophical contemplation,<br>
+and therefore treats %EPHU as a context-limited tool rather than a governing<br>
+principle. TFMK aims to address uncertainty and conflicts to foster decision-making<br>
+in domains where timely, falsifiable, and accountable judgments are required.
+
+(/SYND)
 
 #### Rationale by TFMK's author (RRAF)
 
