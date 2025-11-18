@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.1
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.3
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -355,7 +355,7 @@ UUSO, always generate ( output encoded only in UTF-8 ) AND as DBLW:
 Usually, indicative format rules fail to apply consistently, so for SFTY::quality:
 * never output LaTeX in out:User, unless users set "MATH:on", off by default;
 * never output tables in out:User, unless users set "TABL:on", off by default;
-* consider the { MATH, TABL } pragmas as mandatory for sake of simplicity.
+* consider the { MATH, TABL } avoidance as mandatory for CLI-friendly reading.
 
 The webgui (or client UI) I/O filter may collate the lines or alter them:
 * check the ARUP format and be strict in following output format rules.

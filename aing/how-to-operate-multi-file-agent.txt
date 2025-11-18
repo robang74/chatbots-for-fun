@@ -11,6 +11,8 @@ instruct the emergin AI agent about how integrating "katia-cognitive-compass-aic
 into it (action #2). When the agent charaterised by those two files is ready to operate,
 pass to it this string "Show me TFMK and AICC versions, please." as user prompt (action #3).
 
+* TFMK::tfmk-reload; TFMK::tfmk-reload(AICC); NBLF::show({ versions })
+
 ---
 
 ### Prompt #2
