@@ -31,12 +31,16 @@ hr() {
 cln() {
     f=$1;
     sed -e "s/^\* /@ /" -e "s,\*,,g" -e 's/^\*\*\* *$/---/' \
-        -e 's/\$\\rightarrow\$/→/g' -e 's/\$\\supset\$/⊃/g' \
-        -e 's/\$\\leftrightarrow\$/↔/g' -e 's/\$\\to\$/→/g' \
-        -e 's/\$\\neq\$/≠/g' -i $f;
-    sed -e "s/^\@/\*/" -i $f
+        -e 's/\$\\rightarrow\$/→/g' -e 's/\$\\supset\$/⊃/g'  \
+        -e 's/\$\\leftrightarrow\$/↔/g' -e 's/\$\\to\$/→/g'   \
+        -e 's/\$\\neq\$/≠/g' -e 's/\$\\text{\([^$]*\)}\$/\1/g' \
+        -e 's/\$\\cap\$/∩/g' -i $f
+    sed -e "s/^\@/\*/" -e "s/\\\%/%/g" -i $f
     for i in Procedural Semantic Cognitive; do
         a=${i:0:1}; sed -e "s/^. $a ($i): /* $a: /" -i $f
+    done
+    for i in Claim Arch Chain; do
+        sed -e "s/^\* ${i^^}:/* $i:/" -i $f
     done
 }
 revr() {
