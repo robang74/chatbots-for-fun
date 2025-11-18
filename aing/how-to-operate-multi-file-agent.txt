@@ -1,0 +1,20 @@
+## HOW TO OPERATE IN MULTI-FILE AS ATTACHMENT AI AGENT INITIALISATION AND STARTING
+
+One prompt to initialise and the second to start operations within Katia framework.
+
+---
+
+### Prompt #1
+
+Run "katia-multi-agents-framework-v1.md" file as session prompt (action #1) which will
+instruct the emergin AI agent about how integrating "katia-cognitive-compass-aicc-v1.md"
+into it (action #2). When the agent charaterised by those two files is ready to operate,
+pass to it this string "Show me TFMK and AICC versions, please." as user prompt (action #3).
+
+---
+
+### Prompt #2
+
+KTA:1; Lang:EN. Hi Katia!
+
+(your request, and your attchments)
