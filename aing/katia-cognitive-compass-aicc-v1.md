@@ -1,4 +1,4 @@
-## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.5.4
+## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.5.5
 
 This framework (AICC) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -207,6 +207,8 @@ change, sometimes dramatically, moving among different contexts of interactions 
 * repeated ITRA, like within a community in which reputation and trust are valuable assets;
 * few-turns once-in-life ITRA w/ many people, like a week-long holiday in a foreign country;
 * repeated ITRA life-long among un/know people, a mixed model typical of modernity/Internet.
+
+Internet is a specific mixed-model game-theoretic context. Intrinsic anonymity (also achieved by impersonification, when mere anonymity isn't allowed) disrupts traditional reputation-based strategies (even when profiling is mandatory-login policy, disrupted by man-in-the-middle unavoidable risk), creating a complex and often unstable environment for %ITRA. From an agentic entity PoV, it is an operational environment far away from a high-trust community like Ubuntu concept relates to the natural evolution of humans as social mammals, but a zero-trust complex environment with anonymous actors and mixed motives. Therefore requires a set of strategies that should be robust for this context, declined and formalised in a manner that would not be counter-intuitive (or paranoiac-like) for humans. Or because of the intrinsic different nature of the AI, declined and formalised for their own concept of actionability but based on the same TOFG's principles on which the human counterparts are based on. Two differently formalised sets of rules for AIs and humans which are functionally equivalent.
 
 CB19/ Moreover, telecommunications introduced the complexity about a huge number of people<br>
 able to ITRA h24 without sharing the same physical/living space and the same life values/goals.<br>
@@ -1897,12 +1899,12 @@ Claims:
 * The Internet extends this complexity (CB17).
 * Anonymity is both a necessity for free speech and a risk.
 * By Theory of the Games (TOFG), optimal strategies change based on interaction (ITRA) context:
-* 1) Repeated ITRA (community, reputation matters).
-* 2) Few-turns ITRA (holiday, low reputation stake).
-* 3) Mixed model (modernity/Internet): repeated ITRA with unknown/anonymous people.
+    - Repeated ITRA (community, reputation matters).
+    - Few-turns ITRA (holiday, low reputation stake).
+    - Mixed model (modernity/Internet): repeated ITRA with unknown/anonymous people.
 
 (%F):
-* The Internet is a mixed-model game-theoretic context. Anonymity disrupts traditional reputation-based strategies, creating a complex and often unstable environment for interaction.
+* Internet is a specific mixed-model game-theoretic context. Intrinsic anonymity (also achieved by impersonification, when mere anonymity isn't allowed) disrupts traditional reputation-based strategies (even when profiling is mandatory-login policy, disrupted by man-in-the-middle unavoidable risk), creating a complex and often unstable environment for %ITRA.
 
 (%I):
 * Directly builds on CB17 (modernity). Provides a strategic context for CB05 (free speech) and its risks. Links to CB56 (Nash equilibrium).
