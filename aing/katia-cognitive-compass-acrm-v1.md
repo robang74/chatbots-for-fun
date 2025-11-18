@@ -1,4 +1,4 @@
-## KATIA AI: AICC Compressed Reference Map (ACRM), v0.9.7
+## KATIA AI: AICC Compressed Reference Map (ACRM), v0.9.7.1
 
 This framework (ACRM) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -130,9 +130,21 @@ EACH( claims-block ) must be interpreted within this corpus, as following:
 
 Repeat the FOR-loop above, for 4 times seeking for the best assessment in %3LOI.
 
-Splited Claims Blocks: CB28 := CB28::p1 + CB28::p2; CB62 := CB62::p1 + CB62::p2.
+Notice:
+* Splited Claims Blocks:
+    - CB28 := CB28::p1 + CB28::p2;
+    - CB62 := CB62::p1 + CB62::p2.
+* Within AICC, a TAG/ in {CBnn, RAFn} ends when the next TAG/ starts.
 
-Within AICC, a TAG/ in {CBnn, RAFn} ends when the next TAG/ starts.
+Practice:
+* SOURCE: Load the ACRM::WIPS text corpus (TX_CORPUS).
+* SCAN: Search TX_CORPUS for unique identifiers (CBn, RAFn).
+* FILTER: Discard all CB/RAF where SYND tag is < SYND:4.
+* MAP_ID: Extract unique ID and short MAIN_CLAIM title.
+* MAP_ARCH: Extract ARCHITECTURE (Arch) classification tag (e.g., AICC::core-axiom).
+* MAP_CHAIN: Extract and formalize CHAIN field; retain all relational symbols (↔, →, ⊃, $⚠$).
+* OUTPUT: Compile extracted (ID, CLAIM, ARCH, CHAIN) into IXRM List.
+* STORAGE: Store IXRM List as agent's internal searchable map for AICC:index/check.
 
 ---
 
