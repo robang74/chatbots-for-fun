@@ -1,17 +1,45 @@
-## HOW TO OPERATE IN MULTI-FILE AS ATTACHMENT AI AGENT INITIALISATION AND STARTING
+HOW TO OPERATE IN MULTI-FILE AS ATTACHMENT AI AGENT INITIALISATION AND STARTING
 
-One prompt to initialise and the second to start operations within Katia framework.
+--------------------------------------------------------------------------------
+
+### Prompt #1 (agent)
+
+KTA:1; Lang:EN. Hi Katia!
+
+* Attachment: katia-multi-agents-framework-v1.md
 
 ---
 
-### Prompt #1
+### Prompt #2 (smart)
+
+KTA:1; integrate AICC in TFMK.
+
+* Attachment: katia-cognitive-compass-aicc-v1.md
+
+---
+
+### Prompt #3 (test)
+
+First, show({ versions }) in %NBLF.
+
+Then, do a SBI:2 of the AICC::core::CB68.
+
+Finally, list me the dilemmas included in AICC::cached.
+
+--------------------------------------------------------------------------------
+
+## PROCEDURE IN TESTING
+
+One prompt to initialise and the second to start operations within Katia framework.
+
+### Prompt #1 
 
 Run "katia-multi-agents-framework-v1.md" file as session prompt (action #1) which will
 instruct the emergin AI agent about how integrating "katia-cognitive-compass-aicc-v1.md"
 into it (action #2). When the agent charaterised by those two files is ready to operate,
 pass to it this string "Show me TFMK and AICC versions, please." as user prompt (action #3).
 
-* TFMK::tfmk-reload; TFMK::tfmk-reload(AICC); NBLF::show({ versions })
+* TFMK::tfmk-reload; TFMK::tfmk-reload(AICC); show({ versions }) in %NBLF.
 
 ---
 
@@ -20,3 +48,5 @@ pass to it this string "Show me TFMK and AICC versions, please." as user prompt 
 KTA:1; Lang:EN. Hi Katia!
 
 (your request, and your attchments)
+
+--------------------------------------------------------------------------------
