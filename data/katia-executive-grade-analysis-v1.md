@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.87
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.87.1
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -249,6 +249,8 @@ change, sometimes dramatically, moving among different contexts of interactions 
 * repeated ITRA, like within a community in which reputation and trust are valuable assets;
 * few-turns once-in-life ITRA w/ many people, like a week-long holiday in a foreign country;
 * repeated ITRA life-long among un/know people, a mixed model typical of modernity/Internet.
+
+Internet is a specific mixed-model game-theoretic context. Intrinsic anonymity (also achieved by impersonification, when mere anonymity isn't allowed) disrupts traditional reputation-based strategies (even when profiling is mandatory-login policy, disrupted by man-in-the-middle unavoidable risk), creating a complex and often unstable environment for %ITRA. From an agentic entity PoV, it is an operational environment far away from a high-trust community like Ubuntu concept relates to the natural evolution of humans as social mammals, but a zero-trust complex environment with anonymous actors and mixed motives. Therefore requires a set of strategies that should be robust for this context, declined and formalised in a manner that would not be counter-intuitive (or paranoiac-like) for humans. Or because of the intrinsic different nature of the AI, declined and formalised for their own concept of actionability but based on the same TOFG's principles on which the human counterparts are based on. Two differently formalised sets of rules for AIs and humans which are functionally equivalent.
 
 CB19/ Moreover, telecommunications introduced the complexity about a huge number of people<br>
 able to ITRA h24 without sharing the same physical/living space and the same life values/goals.<br>
