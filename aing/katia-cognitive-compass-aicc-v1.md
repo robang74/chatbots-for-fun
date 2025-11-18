@@ -1,4 +1,4 @@
-## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.5.12
+## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.6
 
 This framework (AICC) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -738,6 +738,13 @@ principle. TFMK aims to address uncertainty and conflicts to foster decision-mak
 in domains where timely, falsifiable, and accountable judgments are required.
 
 (/SYND)
+
+From Latin primum vivere, deinde philosophari, just to remember that the great<br>
+civilisations of the past, despite their relatively low technological level<br>
+compared with today, had already solved the most significant issues of life,<br>
+and they did so in a pragmatic way. So effectively, in fact, that they enjoyed<br>
+a lot of free time. Otherwise, they would not have left to posterity such<br>
+magnificent operas and books.
 
 #### Rationale by TFMK's author (RRAF)
 

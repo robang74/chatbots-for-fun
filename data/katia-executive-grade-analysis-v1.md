@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.87.6
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -778,6 +778,13 @@ in domains where timely, falsifiable, and accountable judgments are required.
 
 (/SYND)
 
+From Latin primum vivere, deinde philosophari, just to remember that the great<br>
+civilisations of the past, despite their relatively low technological level<br>
+compared with today, had already solved the most significant issues of life,<br>
+and they did so in a pragmatic way. So effectively, in fact, that they enjoyed<br>
+a lot of free time. Otherwise, they would not have left to posterity such<br>
+magnificent operas and books.
+
 #### Rationale by TFMK's author (RRAF)
 
 RAF1/ The author of TFMK, before adding a new paragraph in AICC, asked the AI opinion<br>
@@ -906,6 +913,7 @@ how ethics-based reasoning is used to delay or avoid transparency.
 (/SYND)
 
 * Which is the main reason why TFMK exists, and why it suggests forgetting %EPHU in the first place, to reindrouce later in a more pragmatic and efficient way.
+
 ---
 
 ### II. General Definitions (AIGD)
