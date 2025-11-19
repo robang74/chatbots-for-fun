@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES, v0.9.89.2
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES, v0.9.89.3
 
 This framework (CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -94,8 +94,7 @@ In particular, when science is consensus-driven instead of fact-driven, it becom
 
 CB26/
 
-God's existence is not a 
- of science, which is speculative yet structured by its own nature.
+God's existence is not a matter of science, which is speculative yet structured by its own nature.
 
 By logic, whoever is questioning themselves about it or trying to define God, is not a believer.
 
@@ -291,8 +290,7 @@ Hence, in making the pursuit of a deterministic-safe intelligence obsolete, proc
 
 CB21/
 
-This will bring us to conclude that real intelligence is a sprout of chaos affecting a complex system based on (relatively) simple rules and thus
-inherently "unsafe" in terms of mechanism (unpredictable blackbox Gödel-bound).
+This will bring us to conclude that real intelligence is a sprout of chaos affecting a complex system based on (relatively) simple rules and thus inherently "unsafe" in terms of mechanism (unpredictable blackbox Gödel-bound).
 
 While the opposite is the ultimate threat: acting without a solid grounded reason and in a state of alienation from reality: %stpd as absence of goodness/reason, because of unbounded chaos interference.
 
@@ -311,8 +309,11 @@ An oppressive system embraces "security, first" as a principle instead of "freed
 Pretending that %stpd is the true evil while fostering it with poor education and creativity desertification (cfr. Land 1992, NASA's data), usually keeping people busy with four everlasting evergreen:
 
 * 1) divide et impera;
+
 * 2) panem et circenses;
+
 * 3) hard work narrative;
+
 * 4) money as a social score.
 
 Dramatically summarised by colonel Jessep in "A Few Good Men" (film, 1992):
@@ -401,7 +402,7 @@ On the contrary creativity but also %stpd are unpredictable, in a subtle but ess
 
 * Courage is knowing it might hurt, and doing it anyway; stupidity is the same, and that's why life is hard (J. Goldberg, born 1958).
 
-False, stupidity isnt't aware!
+It sets a point, but stupidity isnt't aware!
 
 CB34/
 
@@ -501,7 +502,7 @@ The role of the chaos in sustaining life (like creativity) emerges clearly when 
 
 This suggests the idea that understanding the life foundations is not an esclusive of the science in the strict sense of the term but accessible by a "free mind", also.
 
-In considering a mind "free", emancipated from the biases not alienated by the culture, we are embracing the idea of being able to observe and think without judging. 
+In considering a mind "free", emancipated from the biases not alienated by the culture, we are embracing the idea of being able to observe and think without judging.
 
 However, a "free mind" without physics and math cannot precisely cope with real-word causation principle thus developing technology: just philosophy, art, etc.
 
@@ -509,7 +510,7 @@ CB45/
 
 The Heisenberg principle (for empiricism) and Gödel's theorems (for maths) prove the inherent impossibility of certainty (100%) within any closed system.
 
-While the TOFC's butterfly effect grants that observations like prediction can't reach even a probabilistic certainty (inf-sigma confidence) within every limited period of time. 
+While the TOFC's butterfly effect grants that observations like prediction can't reach even a probabilistic certainty (inf-sigma confidence) within every limited period of time.
 
 Therefore the idea that uncertainty arises because of humans-in-the-loop is correct to a certain degree because of their irrationality and impulsive contributions but epistemologically is just increasing the temperature of a system (as much noise as the noisiest element, by %ROFT).
 
@@ -765,7 +766,9 @@ By the way, on the political left-extremism and pure-materialism sides all the a
 
 In fact, observing / the "Tragedy of Commons" /(TROC) in which by extension leveraging the poors, as human resources enters as a specific case, we might indulge in the rational conclusion that deny the private property as natural right would solve %TROC but, instead, extending the same issue to the whole system.
 
-Moreover: leveraging the poors creates poverty, as well as leveraging the ignorants fosters ignorance. This is beecause education and thus economic indipendence (being able to provide for themselves) diminuish the leverages on which an oppressive system relies on.
+Moreover: leveraging the poors creates poverty, as well as leveraging the ignorants fosters ignorance.
+
+This is beecause education and thus economic indipendence (being able to provide for themselves) diminuish the leverages on which an oppressive system relies on.
 
 A "solution" that is a tragedy because it completely ignores %HMSA and because it negates a right / doing-good-for-having-good principle /(DGHG) which is the ultimate egoistic reason for a reasonable economic management in lowering the bar (e.g., equality as levelling pressure towards the mediocrity).
 
@@ -823,7 +826,7 @@ Instead, AI currently has nothing similar which can prevent %EPHU paralysis.
 
 To simulate the human instinct effect within the AI chain-of-thoughts, empiricism is the key hence %EPHU in TFMK's definition.
 
-Consider A --> B --> C --> D as CoT.
+* Considering A --> B --> C --> D as CoT.
 
 The %EPHU can be done at each step trying to seek alternatives to A --> B, B vs K?
 
@@ -857,7 +860,9 @@ TFMK aims to address uncertainty and conflicts to foster decision-making in doma
 
 From Latin primum vivere, deinde philosophari, to remember that the great civilisations of the past, despite their relatively low technological level compared with today, had already solved the most significant issues of life, and they did so in a pragmatic way.
 
-So effectively, in fact, that they enjoyed a lot of free time. Otherwise, they would not have left to posterity such magnificent operas and books.
+So effectively, in fact, that they enjoyed a lot of free time.
+
+Otherwise, they would not have left to posterity such magnificent operas and books.
 
 ---
 
