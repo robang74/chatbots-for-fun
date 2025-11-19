@@ -44,7 +44,7 @@ cln() {
     done
 }
 cmfv() { 
-    local f=${1:-}; v=${2:+:$2}
+    local f=${1:-}; v=${2:+: $2}
     if [ -r "$f" -a "$v" != ":" ]; then
         cm "$f" -m "$f$v"; lg1; echo
     else
