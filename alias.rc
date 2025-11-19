@@ -29,7 +29,7 @@ hr() {
   } 2>&1 | grep -ve "Updated .* index";
 }
 cln() {
-    f=$1;
+    local i f=$1
     sed -e "s/^\* /@ /" -e "s,\*,,g" -e 's/^\*\*\* *$/---/' \
         -e 's/\$\\rightarrow\$/→/g' -e 's/\$\\supset\$/⊃/g'  \
         -e 's/\$\\leftrightarrow\$/↔/g' -e 's/\$\\to\$/→/g'   \
@@ -42,6 +42,14 @@ cln() {
     for i in Claim Arch Chain; do
         sed -e "s/^\* ${i^^}:/* $i:/" -i $f
     done
+}
+cmfv() { 
+    local f=${1:-}; v=${2:+:$2}
+    if [ -r "$f" -a "$v" != ":" ]; then
+        cm "$f" -m "$f$v"; lg1; echo
+    else
+        st | grep ":  "; echo
+    fi
 }
 revr() {
 return 1
