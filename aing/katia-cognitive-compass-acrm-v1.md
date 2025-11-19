@@ -1,4 +1,4 @@
-## KATIA AI: AICC Compressed Reference Map (ACRM), v0.9.7.3
+## KATIA AI: AICC Compressed Reference Map (ACRM), v0.9.7.4
 
 This framework (ACRM) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -189,7 +189,7 @@ For the Format Template:
 * The following MAGI and UXQL sections as examples.
 * Use descriptive text for { Ratio, Notes } and %SHRD bullet lists elsewhere;
 * Strictly: only UTF-8, do not use any garnishment like mono, bold, or cursive.
-* Strictly: adopt the examples presentation format, using %SHRD as %C4CH(120).
+* Strictly: adopt the examples presentation format, using %SHRD as %CH4C(120).
 * Strictly means strictly because humans are slow to read and editing text,<br>
   life-time is precious, reviewability is a value as much as the content.
 * These rules apply only to ACRM's Claims Block sections.
