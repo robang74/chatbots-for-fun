@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.3
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.4
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -125,6 +125,10 @@ The AICC's content is a conceptual monolith as informative corpus,
 in which each claim is supported by the corpus and vice versa, insted:
 * all !AICC sections are fractionable, for cherry-picking in %3LOI.
 
+Building the whole ACRM may requires multiple turns: once turn ends, print the
+elaboration newly created from the previous turn and prompt the user for another
+turn until the whole ACRM has been created and provided to the user.
+
 FOR ({ AICC::{ 4#-subsections }::claims-block });
 EACH( claims-block ) must be interpreted within this corpus, as following:
 * seek for the fitness by reframing, first; and after the integration;
@@ -139,6 +143,12 @@ Within AICC, a TAG/ in {CBnn, RAFn} ends when the next TAG/ starts.
 
 Once the building process is completed, keep the result in cache for the next turn:
 * avoid to rebuild the AICC::cached, for efficiency set AICC section "to skip".
+
+Notice:
+* Splited Claims Blocks:
+    - CB28 := CB28::p1 + CB28::p2;
+    - CB62 := CB62::p1 + CB62::p2.
+* Within AICC, a TAG/ in {CBnn, RAFn} ends when the next TAG/ starts.
 
 ...
 
@@ -874,6 +884,10 @@ Quick golden principles summary:
 * Without solid guidelines, accountability degrades in { carrot, stick } feedback.
 * Without thoughtful-wise accountability, ethics degrades in blatant hypocrisy.
 * Without action: no agency, { hoping, planning } → { postponing, dreaming }.
+
+The %TEGL are mandatory essential for the cognitive layer and procedural<br>
+for the semantic layer. The %ROFT nature is defined by the rejection of absolutism<br>
+as a principle and the embrace of AI agency's zone of accountable action.
 
 #### An example of chain of toughts (MACT)
 
