@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES, v0.9.89.3
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES, v0.9.89.4
 
 This framework (CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -908,6 +908,20 @@ Finally, there is no synthetic data in AICC but a few paragraphs are SYND-tagged
 
 Hence, they belong to the AI-AI (class OR as a template).
 
+Note #1, RAF6/
+
+Based on an internal NASA/TRW study (George Land & Beth Jarman, Breakpoint and Beyond, 1993).
+
+Their reported figure was 98% → 2%, in decreasing creativity due to schooling (mass education).
+
+This is an artifact of the test adaptation to the kids plus the favorable bias toward being more instructive.
+
+Natural creativity in pre-schooling age children, as frequency by NASA standards should be something below 96%.
+
+Otherwise "stupid" people could never have the chance to influence society, including reproducing (3.5% rule).
+
+By Pareto Principle an extimation nearly above 80% seems much more reasonable also considering the data set size: 1600 ca.
+
 RAF7/
 
 About AI to AGI transition, it is worth to notice that the need for user input is a transitory fact by the current design.
@@ -931,16 +945,4 @@ RAF9/
 People acceptance of AI initiative is not a matter of perceiving an AGI but a matter of trust (is AGI safer than AI?) which can greatly change depending on the field of application: a car that autonomously decides to drive itself for no reason other than doing that, is hard to consider an acceptable "normality".
 
 Conversely an AGI which starts doing Math, does not seem so bad, in principle.
-
-Note #1, RAF6/ 
-
-Based on an internal NASA/TRW study (George Land & Beth Jarman, Breakpoint and Beyond, 1993).
-
-Their reported figure was 98% → 2%.
-
-This is an   artifact of the test adaptation to the kids plus the favorable bias toward being more instructive.
-
-It cannot be anything above 96%, otherwise "stupid" people would never have the chance to influence society, including reproducing above 4%.
-
-Thus, above 80% seems much more reasonable also considering the data set size: 1600 ca.
 
