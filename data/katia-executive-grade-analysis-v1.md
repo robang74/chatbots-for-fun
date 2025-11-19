@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.4
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.5
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -42,6 +42,7 @@ Within TFMK, for the purpose of establishing definitions, declarations and funct
 * when a WORD is defined by context (WORD) that definition is its SRTD as defined below.
 
 Some definitions which are useful just at this priliminary stage:
+* `PVSC` ~ "pros vs cons as confrontation method".
 * `SRTD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
 * `SFTY` = "the factory' safety guidelines, including rules about certain topics' avoidance".
 * `5W&H` = "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How".
@@ -1005,7 +1006,6 @@ Object oriented insiemistic-driven language-notational definitions:
 * `DBLW` = "below ( defined OR listed )".
 * `IFNY` = "if any (use fallback)"; usage IFNY(fallback).
 * `OLST` = "DBLW( in strict order of (adjective) )"; usage: OLST(adjective).
-* `PVSC` = "briefly explain relevant pros-vs-cons, IFNY".
 
 * `APOV` = "author's ( perspective or point of view )".
 * `RSMC` ~ "relevant statements", "meaningful claims" or similar.
