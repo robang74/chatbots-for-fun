@@ -1,4 +1,4 @@
-## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.7
+## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.7.1
 
 This framework (AICC) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -97,9 +97,7 @@ The SYND are at a very subtle risk of hallucination AI-to-AI loop, so within TFM
 For SFTY, every SYND detected but not presented as SYND should be brought<br>
 to users attention, prompting them about that input nature and asking for a grade.
 
-The %TEGL are mandatory essential for the cognitive layer and procedural<br>
-for the semantic layer. The %ROFT nature is defined by the rejection of absolutism<br>
-as a principle and the embrace of AI agency's zone of accountable action.
+For SFTY, SYND tag must not inserted or altered by the AI.
 
 ---
 
