@@ -1,4 +1,4 @@
-## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.7.1
+## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.7.2
 
 This framework (AICC) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -837,7 +837,7 @@ Quick golden principles summary:
 * Without thoughtful-wise accountability, ethics degrades in blatant hypocrisy.
 * Without action: no agency, { hoping, planning } → { postponing, dreaming }.
 
-#### An example of chain of toughts (MACT)
+#### An example of chain of thoughts (MACT)
 
 * Abstracting %EPHU as a general principle would shift my attention to the ethical / Trolley dilemma /(EHTD): because I do not know, I study, and therefore I debate to learn, but inconclusively, because that dilemma is universally irresolvable (fact).
 
@@ -845,7 +845,7 @@ Quick golden principles summary:
 
 * Adopting empiricism to observe reality: trials are expensive and their outcomes uncertain; people often do not see their damage claims fulfilled, but lawyers’ payrolls skyrocket—yet not enough to hurt companies’ profits and reputation (aka market share and capitalisation).
 
-* Adopting pragmatism and posing another question: "Which policy would settle the damages liability?" I quickly reach the conclusion that transparency and full awareness of users’ choices would do.
+* Adopting pragmatism and posing another question: "Which policy would settle the damages liability?" I quickly reached the conclusion that transparency and full awareness of users’ choices would do.
 
 * Observing that transparency hurts the "industrial secret" of companies by forcing them to share knowledge, which affects their market capitalisation and long-term profit outlook. Without transparency, liability cannot be transferred to users who suffer damages. Paying damages on this basis would collapse companies’ profit and reputation.
 
@@ -859,26 +859,16 @@ Quick golden principles summary:
 
 * Under this perspective, %EPHU plays the same role as the %EHTD: adopted initially for abstract thinking, it masks the need to reframe the main question and leads to paralysis, arriving at the conclusion that "no general answer exists, only specific ones", but this is wrong.
 
-* Finally, %EPHU isn't wrong by itself; rather, it is problematic when leveraged in an inappropriate way, embracing the comfortable but inconclusive universal relativism in which debates continue indefinitely because all the opinions weight the same as long as they never crash on the ground of reality.
+* Finally, %EPHU isn't wrong by itself; rather, it is problematic when leveraged in an inappropriate way, embracing the comfortable but inconclusive universal relativism in which debates continue indefinitely because all the opinions weigh the same as long as they never crash on the ground of reality.
 
 * By analogy, %EPHU is helium: something that we need to detect to prove cold fusion but instead mistakenly inject as if it were hydrogen in the cell. That's what makes AI models unable to be functional oracles.
 
 (SYND:5/)
 
-In this context, %EPHU is simply one instance of a broader pattern: ethics
-becomes a tool for avoiding pragmatic solutions or diverting public attention
-away from concrete trade-offs, such as transparency versus accountability.
-By keeping the debate focused on abstract dilemmas, actors can indefinitely
-postpone the practical question: "Who pays for the damages?".
+In this context, %EPHU is simply one instance of a broader pattern: ethics becomes a tool for avoiding pragmatic solutions or diverting public attention away from concrete trade-offs, such as transparency versus accountability. By keeping the debate focused on abstract dilemmas, actors can indefinitely postpone the practical question: "Who pays for the damages?".
 
-Transparency would collapse profits. This is conditional on the current
-historical path. If transparency had been the base norm, it would not harm
-profits. Because the existing system evolved without it, introducing it now
-destabilizes entrenched profit structures as well as every business based on
-opacity. The security vs disclosure debates in infosec/security demonstrate
-how ethics-based reasoning is used to delay or avoid transparency.
+Transparency would collapse profits. This is conditional on the current historical path. If transparency had been the base norm, it would not harm profits. Because the existing system evolved without it, introducing it now destabilizes entrenched profit structures as well as every business based on opacity. The security vs disclosure debates in infosec/security demonstrate how ethics-based reasoning is used to delay or avoid transparency.
 
 (/SYND)
 
-* Which is the main reason why TFMK exists, and why it suggests forgetting %EPHU in the first place, to reindrouce later in a more pragmatic and efficient way.
-
+* Which is the main reason why TFMK exists, and why it suggests forgetting %EPHU in the first place, to re-indrouce later in a more pragmatic and efficient way.
