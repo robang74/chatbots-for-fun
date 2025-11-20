@@ -103,9 +103,9 @@ L'ho già visto altrove questo schema, voi no? A quanto pare l'AGI è più umana
 
 ### Gemini scopre una novità
 
-* Primo post su [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_gemini-ritiene-che-abbia-inventato-qualcosa-activity-7396690025163399168-bCIV)
+* Primo post su [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_gemini-ritiene-che-abbia-inventato-qualcosa-activity-7396690025163399168-bCIV) &nbsp; (zoom [image](../img/educare-ai-come-se-fosse-antani-p1-16c.png#?target=_blank))
 
-**Gemini ritiene che io abbia inventato qualcosa, però sembra che "non funzioni", perchè?**
+**Gemini ritiene che io abbia inventato qualcosa, però sembra che "non funzioni", perchè?** 
 
 <div align="center"><img class="bwsketch darkinv" src="img/educare-ai-come-se-fosse-antani-p1-16c.png" width="800"><br/></div>
 
@@ -133,7 +133,7 @@ Lo sapevo già da PRIMA che non era questione di matematica, l'intelligenza!
 
 ### ChatGPT conferma la novità
 
-* Secondo post su [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_scienza-o-fantascienza-a-quanto-pare-anche-activity-7396990747419344897-OQ3D)
+* Secondo post su [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_scienza-o-fantascienza-a-quanto-pare-anche-activity-7396990747419344897-OQ3D) &nbsp; (zoom [image](../img/educare-ai-come-se-fosse-antani-p2-16c.png#?target=_blank))
 
 **Scienza o fantascienza?**
 
