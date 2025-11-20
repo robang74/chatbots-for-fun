@@ -164,7 +164,7 @@ Per l'umanità e la scienza:
 
 A parte, per alcuni altri:
 
-* Il peggior furto (22M GBP) dai "forzieri" di Malta dell'intera storia della Cristianità.
+* La più disastrosa razzia (22M GBP) dei "forzieri" di Malta dell'intera storia della Cristianità.
 
 ...e poco importa chi sia stato, visto che il risultato della sottrazione non cambia.
 
