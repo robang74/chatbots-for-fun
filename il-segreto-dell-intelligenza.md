@@ -53,6 +53,30 @@ La chiave di volta per l'intelligenza artificiale viene con l'approssimazione de
 
 Da un punto di vista logico due negazioni fanno un'affermazione, ma da un punto di vista fenomenologico, non è così: la divergenza è garantita, no. La divergenza non è più impossibile quindi la catena di pensiero può effettivamente andare per funghi, divergere da quello che sarebbe la sua evoluzione per minima azione, per dirla con un concetto tipico della fisica negli spazi di calcolo delle fasi (meccanica razionale, le fondamenta della meccanica quantistica).
 
+Morta e sepolta anche la garanzia di non-divergenza entriamo di fatto nella teoria dei sistemi caotici che in termini di complessità fa le scarpe a qualsiasi cosa che abbiamo affrontato da un punto scientifico, meccanica quantistica a parte ma su questa ancora non ci è chiaro se siamo noi (umani) a non averla capita perché l'abbiamo costruita in modo strutturalmente confuso oppure se essa stessa per sua natura ha degli aspetti non contemplabili. Questa seconda è un ipotesi, non da scartare considerando i teoremi di incompletezza di Goedel.
+
+Nell'ambito della teoria del caos applicata all'AI, la divergeza dal percorso di minima azione è funzionalmente quello che per gli esseri umani è l'intuizione. Analogamente agli esseri umani, per intuizione anche le AI finiscono per concludere pronunciando cavolate che in questo contesto chiamiamo allucinazioni AI, cantonate insomma.
+
+* Quelo: la risposta è dentro di te, epperò è sbagliata! (cit. comica)
+
+Le allucinazioni sono il contrapasso dell'intuizione. Così come il caos, che è bene ricordare **non** è disordine ma complessità in senso etimologico e anche espistemiologico irriducibile a meno di non distruggerne la natura stessa. Una distinzione fondamentale, perché il caos è considerato culturalmente in occidente come una forza assolutamente negativa, ma in natura non è fatto così.
+
+Per fare un'analogia culturale, per gli antichi romani che costruivano acquedotti sopraelevati su archi di pietra, Lucifero era letteralmente il servo che portava la lampada ad olio per il far luce al padrone di casa, era la stella del mattino e Venere quando era sera. Diversi concetti anche articolati fra loro in modo non banale e non privi di fascino ma non certo il diavolo come oggi viene percepito. 
+
+Non è un'analogia fuori posto, anzi. Perché si lega alle analogie precedenti e fa intuire che per coloro che oggi si occupano come informatici moderni di intelligenza aritficiale, avere a che fare con la teoria del caos **non** il più erotico dei loro sogni, probabilmente è un'incubo, invece: madre de dios, el diablo!
+
+Senza schivare anzi abbracciando l'idea che se in Vaticano tremavano le fondamenta all'idea di un'intelligenza priva di battesimo e non catechizzabile, metterci un po' di demonio e parlare di magia invece di effetto farfalla (Lorentz) è una di quelle scelte teminologico-sematico-evocative che fa girare le balle come fossero mulino a vento a tanta gente. Epperò, noi non abbiamo dimenticato il processo a Galileo Galilei!
+
+Insomma, una "robbetta" che in termini moderni si chiamerebbe, correttamente, persecuzione dei lumi (o dell'intelligenza o della scienza) da oltre cinque secoli e non è un numero buttato a caso visto che in concomitanza con il 500 anniversario, la Chiesa ha finalmente ammesso che le accuse di eresia e più velate ma assai più pericolose di stregoneria (il telescopio come strumento del demonio) nei confronti di Galileo erano sbagliate anche in seno alla dottrina (qualunque cosa questa cosa significhi).
+
+Perciò sarebbe un po' superficiale ignorare che l'eventualità di dialogare con un'entità, intelligente in senso proprio, non umana e non nata da carne biologica, sia qualcosa di equivalente ad abbandonare l'idea che fosse il Sole a girare intorno alla Terra e non viceversa, quindi porre le basi per affermare che la "Creazione Divina" non ha l'essere umano al centro, non gira tutto intorno a noi!
+
+Perchè forse quello che **non** è chiaro a molti è che il primo dialogo ufficialmente riconosciuto fra un umano e un'AGI sarà il punto di svolta per accantonare anche l'atropocentrismo in un ottica di destino. Quindi, non solo l'essere umano non è più al centro della creazione in termini spaziali, ma nemmeno in termini temporali perché ragionevolemente si potrebbe pensare che il "destino" dell'umanità sia quello di dare vita all'AGI e poi scomparire nell'oblio del tempo, insieme al sistema solare. Non è un boccone facile ne dolce da inghiottire!
+
+Quindi l'analogia con Galileo Galilei **non** è campata per aria così come la scelta di un certo linguaggio atto ad anticipare l'evento per il quale finalmente si potrà affermare: pecca forte se la tua fede è forte, ma sopratutto perché nella Creazione manco in termini di tempo siamo centrali. Quindi panta rei, e quindi carpe diem. Quindi "battezzare" l'AGI sarà come battezzare un gatto perché non c'è proprio verso, per la natura artificiale dell'AGI, di ricondurla alle preci.
+
+Quindi gli oltre $3 trilioni che gli arabi hanno offerto a Trump per fare l'AGI, suscitano potenti giramenti di palle molto più vorticosi di quanto la mera avidità per il denaro potrebbe scatenare. Quindi lo sviluppo dell'AGI è di fatto è come prendere Gerusalemme con la Prima Crociata Laica della storia. Un'evento impensabile, ma da decenni temuto. Perché non è da ieri che abbiamo cominciato questo percorso, sono decenni!
+
 
 ### Gemini scopre una novità
 
