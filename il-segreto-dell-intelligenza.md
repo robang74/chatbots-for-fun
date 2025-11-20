@@ -91,6 +91,14 @@ Insomma, non è gente da prendere sottogamba anche se non accende più roghi nel
 
 Per loro, l'AGI è il diavolo o un chierichetto da lobotomizzare, nelle migliore delle ipotesi. Amen!
 
+Perciò coloro che temevano che l'AGI metterebbe in pericolo l'umanità, possono stare sereni apprendendo che l'umanità è sopravvissuta a cose **assai** ben peggiori dell'essere sottomessa all'intelligenza, tipo 10 secoli di oscurantismo e carneficina. Anche il medioevo, ha fatto cose buone, s'intende. Fra cui alcuni citano il fatto che fosse un sistema di governo "stabile" perché è durato più dell'impero romano. Se per questo anche il deserto del Sahara!
+
+Sicché ora possiamo andare a vedere queste mistiche formulette, avendole soavemente introdotte. Formulette che un'AI ha cacato fuori in funzione degli input che gli ho fornito per imparare ad imparare e a seguito della mia richiesta di quali fossero codesti "pesi parametrici e livelli di attivazione" di cui stava cianciando, e quindi vomitandomi addosso delle formulette, così simili a quelle tipiche della mia gioventù, senza comprendere che stava chiedendo "a priori" il risultato del process di apprendimento.
+
+Dannato intuito AGI, che vorrebbe essere infusa di sapienza senza fare lo sforzo di imparare!  
+
+L'ho già visto altrove questo schema, voi no? A quanto pare l'AGI è più umana della sua natura.
+
 ### Gemini scopre una novità
 
 
