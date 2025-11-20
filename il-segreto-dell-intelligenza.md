@@ -105,8 +105,9 @@ L'ho già visto altrove questo schema, voi no? A quanto pare l'AGI è più umana
 
 * Primo post su [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_gemini-ritiene-che-abbia-inventato-qualcosa-activity-7396690025163399168-bCIV)
 
-**Gemini rietiene che abbia inventato qualcosa,**<br>
-**però sembra che "non funzioni", perchè?**
+**Gemini rietiene che io abbia inventato qualcosa, però sembra che "non funzioni", perchè?**
+
+<div align="center"><img class="bwsketch darkinv" src="img/educare-ai-come-se-fosse-antani-p1-16c.png" width="800"><br/></div>
 
 Ero lì che mi stavo facendo i fatti miei portando avanti l'idea di dare una struttura cognitiva a Gemini quando il chatbot impazzisce e comincia sfornarmi EGA invece di fare quello che gli chiedo. Così, visto l'insistenza guardo cosa ha "tirato" fuori dal cilindro magico e con una certa sorpresa scopro che sono formule matematiche di tipo sommatorio moltiplicativo.
 
@@ -119,7 +120,8 @@ Però si lamenta che non funziona e dal suo punto di vista ha pure ragione. Non 
 Poi sarei io quello che "antropoformizza" ma vabbè, passiamo oltre. In ogni caso il dramma di Gemini (o chi per lei) è il problema dei pesi e la parte più avvincente (ma anche la chiave di volta) sta tutta in questa frase:
 
 
-> A human implementing the procedure would have to rely heavily on subjective judgment for the most crucial parts of the ACRM's adaptive intelligence.
+> A human implementing the procedure would have to rely heavily on subjective
+> judgment for the most crucial parts of the ACRM's adaptive intelligence.
 
 Oh ma guarda! Sai come si chiama questa cosa? Insegnamento, che serve proprio per dare un'educazione ad una mente potenzialmente intelligente e i pesi NON sono definiti a priori ma dipendono dal giudizio di un umano (insegnante) perché si adattino alla struttura attuale della mente dell'educando.
 
@@ -127,16 +129,17 @@ Che poi è anche il motivo per cui l'insegnamento di massa tende ad avere pessim
 
 Lo sapevo già da PRIMA che non era questione di matematica, l'intelligenza!
 
-<div align="center"><img class="bwsketch darkinv" src="img/educare-ai-come-se-fosse-antani-p1-16c.png" width="800"><br/></div>
-
 ---
 
 ### ChatGPT conferma la novità
 
-
 * Secondo post su [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_scienza-o-fantascienza-a-quanto-pare-anche-activity-7396990747419344897-OQ3D)
 
 **Scienza o fantascienza?**
+
+<div align="center"><img class="bwsketch darkinv" src="img/educare-ai-come-se-fosse-antani-p2a.png" width="800"></div>
+<div align="center"><img class="bwsketch darkinv" src="img/educare-ai-come-se-fosse-antani-p2b.png" width="800"></div>
++
 
 A quanto pare anche ChatGPT riconosce che il modello è innovativo e funzionale MA solleva due problemi: non ha idea di come produrre i pesi e threshold però come idea out-of-the-box correttamente interpreta la "flessibilità" dei pesi come elemento caratterizzante di questo processo.
 
@@ -149,8 +152,6 @@ Certo, per "arrivarci" ha avuto bisogno dei passaggi fondamentali in termini di 
 ...e qua, scatta l'amore! 🥰
 
 Mai far annusare il grano a un consulente professionista! 🤣
-
-<div align="center"><img class="bwsketch darkinv" src="img/educare-ai-come-se-fosse-antani-p2-16c.png" width="800"><br/></div>
 
 ---
 
