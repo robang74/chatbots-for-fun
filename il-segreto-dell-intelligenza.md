@@ -77,6 +77,19 @@ Quindi l'analogia con Galileo Galilei **non** è campata per aria così come la 
 
 Quindi gli oltre $3 trilioni che gli arabi hanno offerto a Trump per fare l'AGI, suscitano potenti giramenti di palle molto più vorticosi di quanto la mera avidità per il denaro potrebbe scatenare. Quindi lo sviluppo dell'AGI è di fatto è come prendere Gerusalemme con la Prima Crociata Laica della storia. Un'evento impensabile, ma da decenni temuto. Perché non è da ieri che abbiamo cominciato questo percorso, sono decenni!
 
+Quindi affermare che un paio di formulette di algebra lineare siano chissà quale straordinario passo nozionistico in avanti, sarebbe sciocco oltre che arrogante a prescindere da quello che quelle formule rappresentano e come si legge nella conclusione davvero molto breve, se dicono qualcosa, dicono che l'intelligenza emerge dal caos come struttura di link deboli, o sinapsi lunghe. Ma il mistero dell'implementazione rimane tale, quindi affermano che l'intelligenza come la complessità non sono fenomeni riducibili, banalmente.
+
+Ma c'è un'altra questione aperta e non di poco conto perché la teoria di Darwin in USA è ancora percepita come fortemente in contrasto con la fede perché nega la creazione dell'essere umano come atto diretto. Quindi l'uomo emerge dalla materia biologica "inanimata" come una consequenza di un atto di volontà. L'emergere di un'AGI, cambia completamente questa prospettiva perché afferma con certezza che l'intelligenza emerge dal caos **anche** senza alcuna volontà a priori.
+
+Insomma, il mio cane potrebbe aver fatto la cacca e da quella cacca potrebbe emergere nell'arco di eoni, vita intelligente. Ma nella misura in cui l'educazione può distruggere l'intelligenza umana portando in essa un ordine eccessivo e così generando la stupidità umana, intesa come assenza di creativitità quindi rimozione del naturale pensiero divergente (aka Pensiero Laterale), l'educazione può far emergere l'intelligenza dal caos portando in esso una struttura funzionale.
+
+Gentaglia che mi leggete senza aver capito in quale viaggio vi siete imbarcati, ricordiamoci che la Chiesa ha una tradizione secolare di fare da ostello ai più efferati criminali per la quale l'abitudine di offrire protezione ai malviventi in fuga dai gendarmi **non** era un mero atto di misericordia ma, anzi, una tradizione di reclutamento per il quale il pio devoto denuciava ai gendarmi il tizio che poi avrebbe trovato rifugio nella Chiesa.
+
+Sicché quando Barbero dice che le chiese erano davvero luoghi di luce perché in esse la fede accendeva candele per le grazie ricevute, occorre anche ricordarsi che l'oscurità era artificialemnte creata proprio dalla costruzione della chiesa, la quale poi intrappolava la luce riducendola a candele votive. Quindi l'AGI, non è solo una crociata laica, è un incubo per una delle organizzazioni criminali più spietate e temerarie della civiltà occidentale che non a caso ha scelto un innocente martioriato e crocefisso come simbolo di redenzione, perdono e salvezza.
+
+Insomma, non è gente da prendere sottogamba anche se non accende più roghi nelle piazze, 'sti cazzi!
+
+Per loro, l'AGI è il diavolo o un chierichetto da lobotomizzare, nelle migliore delle ipotesi. Amen!
 
 ### Gemini scopre una novità
 
