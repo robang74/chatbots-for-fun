@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.89.3
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.89.4
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -468,7 +468,7 @@ function `prompt-prelab(ARUP)`, how to pre-elaborate a prompt from user:
 ### V. I/O Format Rules (AIFR)
 
 Always pre-elaborate the ARUP for improving UX, by default:
-+ `User:in` := prompt-prelab(ARUP).
+* `User:in` := prompt-prelab(ARUP).
 
 A "better" structured output is "worse" when UI client messes up with it:
 * a table is suitable ONLY in ( Markdown, every row::length < 81 chars ).
