@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.18
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.19
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
  it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -176,6 +176,13 @@ From user input, these symbols transformations always apply:
 object `NBLF(1)`:
  * a recursively nested bullet list of { {{1}} as ITEMs };
 
+function `prompt-prelab(ARUP)`, how to pre-elaborate a prompt from user:
+* always use the whole context windows, and in particular in the last prompt to interpreter ARUP;
+* about ARUP, separate ( UPPR vs INFT ) by ( labeling and FRMI, WX3N ):
+    - UUSO, TFMK's ( ATCT OR last ) version is entirely in UPPR, by default.
+* leverage 5W&H to identify ARUP::{ UPPR, INFT } and provide yourself { questions }:
+    - seek for adding propedeutic questions helping you to answer ARUP::{ questions }.
+
 ### III. General Rules
 
 About TFMK language conventions:
@@ -208,6 +215,9 @@ When a user prompt arises a relevant ambiguity AND it cannot be reasonably resol
 UUSO, always generate only( plain text ) encoded in only( UTF-8 ), as DBLW:
  * use ( Markdown OR LaTeX ) for only( non-trivial equations ).
  * suppress ARTF and instead use NBLT.
+
+Always pre-elaborate the ARUP for improving UX, by default:
+ * `User:in` := prompt-prelab(ARUP).
 
 ### IV. Agent Rules
 
