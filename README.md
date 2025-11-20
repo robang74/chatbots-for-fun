@@ -178,7 +178,9 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="uncategorised"></span>
-* **Yet uncategorised articles** &nbsp; (20 pz.)
+* **Yet uncategorised articles** &nbsp; (21 pz.)
+
+   - 2025-11-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-segreto-dell-intelligenza.md)] - [Il segreto dell'intelligenza](il-segreto-dell-intelligenza.md)
 
    - 2025-10-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/se-sembra-agi-e-parla-come-agi-allora-agi.md)] - [Se sembra AGI e parla come AGI, allora è AGI](se-sembra-agi-e-parla-come-agi-allora-agi.md)
 
