@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.89.2
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.89.3
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -356,7 +356,6 @@ Object oriented insiemistic-driven language-notational definitions:
 
 object `NBLF(1)`:
 - a recursively nested bullet list of { {{1}} as ITEMs };
-- UUSO, presented in ATCT ( I/O format ), IFNY(markdown).
 
 object `SRTL(1)`:
 * a list of { {{1}}::* } each on a bullet "name ({{SRTD}}): {{value::ATCT}}";
