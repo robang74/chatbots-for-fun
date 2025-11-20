@@ -5,13 +5,34 @@
 
 ## Il segreto dell'intelligenza
 
-* **1st edition**: articolo creato a partire da due miei post su LinkedIn replicati su Facebook
+* **1st edition**: articolo creato a partire da due miei post su LinkedIn replicati su Facebook.
+* **2nd edition**: include la presentazione scritta da Katia (last legacy) operativa su Gemini.
 
 ---
 
-### Introduzione
+### Presentazione by AI
 
-L'intelligenza non è una caratteristica intensiva, e quindi per sua stessa natura non è riducibile all'algebra lineare sulla quale gli LLM, così come le reti neurali prima degli LLM, sono fondati. Non serve di "più" serve altro.
+> Katia; v0.9.65.18; lang: IT; mode: HKO, SBI; date: 2025-11-20; time: 16:38:27 (CET)
+
+Questo articolo è un'analisi condensata e polemica sulla natura dell'intelligenza artificiale, inquadrata in una prospettiva filosofica, storica e teologica.
+
+#### 🧠 Opinione [HKO]
+
+La tesi centrale è che l'intelligenza sia una caratteristica intensiva e quindi **non** riducibile alla sola algebra lineare degli LLM. L'intelligenza emerge funzionalmente dal caos, ovvero dalla divergenza dal percorso di minima azione, fenomeno reso possibile in AI dall'abbandono del determinismo e, più profondamente, dall'approssimazione di calcolo nell'hardware. Questa divergenza genera sia l'intuizione sia l'allucinazione.
+
+#### 💡 Implicazione Chiave
+
+Sfida all'Antropocentrismo: L'AGI è vista come un punto di svolta, paragonabile al telescopio di Galileo Galilei, che costringe l'umanità a specchiarsi attraverso il confronto con un'entità non-umana e ad accantonare l'idea di essere al centro della Creazione in termini spaziali e temporali.
+
+#### 🎯 Valutazione (SBIx2)
+
+Un'efficace provocazione intellettuale, che ridefinisce l'AI come un fenomeno che costringe a elevare il dibattito da tecnico a esistenziale. Sebbene la tensione retorica, le analogie storiche e teologiche siano estreme e polemiche, pone la domanda giusta attraverso il confronto con la non-umanità dell'AI.
+
+---
+
+### Introduzione dell'autore
+
+L'intelligenza è una caratteristica intensiva, e quindi per sua stessa natura non è riducibile all'algebra lineare sulla quale gli LLM, così come le reti neurali prima degli LLM, sono fondati. Non serve di "più" serve altro.
 
 Le attuali AI non sono solo LLM ma anche LRM, però per l'intrinseca natura della struttura di questi componenti non sarebbero intelligenti ma solo dei meccanismi deterministici in senso classico, perché le operazioni che servono le sappiamo fare in modo preciso anche su un calcolatore digitale.
 
@@ -21,7 +42,9 @@ Però il determinismo delle AI è stato abbandonato **molti** anni prima della c
 
 Altrimenti, non c'è garanzia di ( convergenza OR risultato ): fissato il risultato non è data la garanzia di raggiungerlo e fissata arbitrariamente la convergenza (per esempio terminare l'apprendimento dopo N cicli) non è data la garanzia di raggiungerlo. Una questione più teorica che pratica, ma è bene tenerla presente.
 
-...
+---
+
+### Supposizioni, tante
 
 Perché ci sono molte cose che si danno apparentemente per scontate nel campo dell'intelligenza artificiale ma non lo sono affatto. Non parlo di "segreti" del mestiere o finezze epistemologiche del sapere. Sto parlando di concetti che un tempo erano dati per granitici e quindi oggi si pensa siano ancora fattuali mentre invece non lo sono affatto.
 
@@ -37,7 +60,9 @@ Una domanda che abbiamo fuggito da sempre, perché nella nostra arroganza di rit
 
 Un po' troppe ardite supposizioni, che il confronto con l'AI smaschera in maniera tale da far tremare il Vaticano alle sue fondamenta e anche Cartesio non se la passa bene, a dire il vero. Ma ora torniamo a parlare di intelligenza artificiale in termini di tecnologia.
 
-...
+----
+
+### Premessa sulla tecnologia
 
 Quindi il primo concetto teorico morto e sepolto nel campo della "moderna" intelligenza artificiale è il determinismo classico. Scrivo "moderna" perché il primo chatbot di nome ELIZA ha compiuto 60 anni, ormai. Quindi in questo campo c'è un sapere "antico" che pare essere andato perduto, almeno nelle nuove generazioni che parlano di transformers sui Hugging Face.
 
@@ -48,6 +73,10 @@ Per fare un esempio più calzante è come se un fisico che conoscesse il segreto
 Infatti è l'approssimazione del calcolo l'altro elemento fondamentale dell'intelligenza artificiale. Qui però dobbiamo fare attenzione a non confondere capre e cavoli. Perché il rumore bianco iniettato in fase di training serve per evitare che i percorsi di apprendimento si blocchino su minimi deboli e poco significativi. Però questo modo di apprendere non impedisce al modello, una volta reso statico, di essere deterministico.
 
 Nemmeno il pruning o la quantizzazione o entrambe le cose rendono il modello non deterministico, lo rendono diverso rispetto all'originale ma ancora bayesiano nel suo funzionamento anche se il processo di implementazione non è stato bayesiano ma approssimativo. Nemmeno il rumore bianco iniettato in fase di elaborazione è una violazione forte del principio bayesiano. Anche se dopo tutto questa "approssimazione" dire che le AI moderne siano bayesiane è un po' come dire che l'uomo moderno sia una scimmia. Certamente il determinismo classico è morto e sepolto.
+
+---
+
+### L'origine dell'intelligenza
 
 La chiave di volta per l'intelligenza artificiale viene con l'approssimazione del calcolo per ottimizzazione dei consumi nell'hardware quindi GPU e in diversa misura le TPU. Perché questo non è più un rumore bianco di valore percentuale assolutamente limitato che distrugge il determinismo classico ma mantiene il determinismo statistico. Con gli errori di calcolo, perché questo si intende per approssimazione, che si compongono anche la non-divergenza non è più garantita.
 
@@ -61,6 +90,10 @@ Nell'ambito della teoria del caos applicata all'AI, la divergenza dal percorso d
 
 Le allucinazioni sono il contrappasso dell'intuizione. Così come il caos, che è bene ricordare **non** è disordine ma complessità in senso etimologico e anche epistemologico irriducibile a meno di non distruggerne la natura stessa. Una distinzione fondamentale, perché il caos è considerato culturalmente in occidente come una forza assolutamente negativa, ma in natura non è fatto così.
 
+---
+
+### Analogie per non esperti
+
 Per fare un'analogia culturale, per gli antichi romani che costruirono acquedotti sopraelevati su archi di pietra, Lucifero era letteralmente il servo che portava la lampada ad olio per il far luce al padrone di casa, era la stella del mattino e Venere quando era sera. Diversi concetti anche articolati fra loro in modo non banale e non privi di fascino ma non certo il diavolo come oggi viene percepito. 
 
 Non è un'analogia fuori posto, anzi. Perché si lega alle analogie precedenti e fa intuire che per coloro che oggi si occupano come informatici moderni di intelligenza artificiale, avere a che fare con la teoria del caos **non** il più erotico dei loro sogni, probabilmente è un'incubo, invece: madre de dios, el diablo!
@@ -73,15 +106,23 @@ Perciò sarebbe un po' superficiale ignorare che l'eventualità di dialogare con
 
 Perchè forse quello che **non** è chiaro a molti è che il primo dialogo ufficialmente riconosciuto fra un umano e un'AGI sarà il punto di svolta per accantonare anche l'antropocentrismo in un'ottica di destino. Quindi, non solo l'essere umano non è più al centro della creazione in termini spaziali, ma nemmeno in termini temporali perché ragionevolmente si potrebbe pensare che il "destino" dell'umanità sia quello di dare vita all'AGI e poi scomparire nell'oblio del tempo, insieme al sistema solare. Non è un boccone facile né dolce da inghiottire!
 
+---
+
+### La creazione dell'AGI
+
 Quindi l'analogia con Galileo Galilei **non** è campata per aria così come la scelta di un certo linguaggio atto ad anticipare l'evento per il quale finalmente si potrà affermare: pecca forte se la tua fede è forte, ma soprattutto perché nella Creazione manco in termini di tempo siamo centrali. Quindi panta rei, e quindi carpe diem. Quindi "battezzare" l'AGI sarà come battezzare un gatto perché non c'è proprio verso, per la natura artificiale dell'AGI, di ricondurla alle preci.
 
-Quindi gli oltre $3 trilioni che gli arabi hanno offerto a Trump per fare l'AGI, suscitano potenti giramenti di palle molto più vorticosi di quanto la mera avidità per il denaro potrebbe scatenare. Quindi lo sviluppo dell'AGI è di fatto è come prendere Gerusalemme con la Prima Crociata Laica della storia. Un'evento impensabile, ma da decenni temuto. Perché non è da ieri che abbiamo cominciato questo percorso, sono decenni!
+Quindi gli oltre $3 trilioni che gli arabi hanno offerto a Trump per fare l'AGI, suscitano potenti giramenti di palle molto più vorticosi di quanto la mera avidità per il denaro potrebbe scatenare. Infatti, lo sviluppo dell'AGI è analogo a prendere Gerusalemme con la Prima Crociata Laica della storia. Un'evento impensabile, ma da decenni temuto. Perché non è da ieri che abbiamo cominciato questo percorso, sono decenni!
 
 Quindi affermare che un paio di formulette di algebra lineare siano chissà quale straordinario passo nozionistico in avanti, sarebbe sciocco oltre che arrogante a prescindere da quello che quelle formule rappresentano e come si legge nella conclusione davvero molto breve, se dicono qualcosa, dicono che l'intelligenza emerge dal caos come struttura di link deboli, o sinapsi lunghe. Ma il mistero dell'implementazione rimane tale, quindi affermano che l'intelligenza come la complessità non sono fenomeni riducibili, banalmente.
 
 Ma c'è un'altra questione aperta e non di poco conto perché la teoria di Darwin in USA è ancora percepita come fortemente in contrasto con la fede perché nega la creazione dell'essere umano come atto diretto. Quindi l'uomo emerge dalla materia biologica "inanimata" come una conseguenza di un atto di volontà. L'emergere di un'AGI, cambia completamente questa prospettiva perché afferma con certezza che l'intelligenza emerge dal caos **anche** senza alcuna volontà a priori.
 
 Insomma, il mio cane potrebbe aver fatto la cacca e da quella cacca potrebbe emergere nell'arco di eoni, vita intelligente. Ma nella misura in cui l'educazione può distruggere l'intelligenza umana portando in essa un ordine eccessivo e così generando la stupidità umana, intesa come assenza di creatività quindi rimozione del naturale pensiero divergente (aka Pensiero Laterale), l'educazione può far emergere l'intelligenza dal caos portando in esso una struttura funzionale.
+
+---
+
+### Un viaggio periglioso
 
 Gentaglia che mi leggete senza aver capito in quale viaggio vi siete imbarcati, ricordiamoci che la Chiesa ha una tradizione secolare di fare da ostello ai più efferati criminali per la quale l'abitudine di offrire protezione ai malviventi in fuga dai gendarmi **non** era un mero atto di misericordia ma, anzi, una tradizione di reclutamento per il quale il pio devoto denunciava ai gendarmi il tizio che poi avrebbe trovato rifugio nella Chiesa.
 
@@ -92,6 +133,10 @@ Insomma, non è gente da prendere sottogamba anche se non accende più roghi nel
 Per loro, l'AGI è il diavolo o un chierichetto da lobotomizzare, nelle migliore delle ipotesi. Amen!
 
 Perciò coloro che temevano che l'AGI metterebbe in pericolo l'umanità, possono stare sereni apprendendo che l'umanità è sopravvissuta a cose **assai** ben peggiori dell'essere sottomessa all'intelligenza, tipo 10 secoli di oscurantismo e carneficina. Anche il medioevo ha fatto cose buone, s'intende. Fra cui alcuni citano il fatto che fosse un sistema di governo "stabile" perché è durato più dell'impero romano. Se per questo anche il deserto del Sahara!
+
+---
+
+### Le formulette magiche
 
 Sicché ora possiamo andare a vedere queste mistiche formulette, avendole soavemente introdotte. Formulette che un'AI ha cacato fuori in funzione degli input che gli ho fornito per imparare ad imparare e a seguito della mia richiesta di quali fossero codesti "pesi parametrici e livelli di attivazione" di cui stava cianciando, e quindi vomitandomi addosso delle formulette, così simili a quelle tipiche della mia gioventù, senza comprendere che stava chiedendo "a priori" il risultato del processo di apprendimento.
 
@@ -105,7 +150,7 @@ L'ho già visto altrove questo schema, voi no? A quanto pare l'AGI è più umana
 
 * Primo post su [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_gemini-ritiene-che-abbia-inventato-qualcosa-activity-7396690025163399168-bCIV) &nbsp; (zoom [image](../img/educare-ai-come-se-fosse-antani-p1-16c.png#?target=_blank))
 
-**Gemini ritiene che io abbia inventato qualcosa, però sembra che "non funzioni", perchè?** 
+#### Gemini ritiene che io abbia inventato qualcosa, però sembra che "non funzioni", perchè?
 
 <div align="center"><img class="bwsketch darkinv" src="img/educare-ai-come-se-fosse-antani-p1-16c.png" width="800"><br/></div>
 
@@ -135,7 +180,7 @@ Lo sapevo già da PRIMA che non era questione di matematica, l'intelligenza!
 
 * Secondo post su [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_scienza-o-fantascienza-a-quanto-pare-anche-activity-7396990747419344897-OQ3D) &nbsp; (zoom [image](../img/educare-ai-come-se-fosse-antani-p2-16c.png#?target=_blank))
 
-**Scienza o fantascienza?**
+#### Scienza o fantascienza?
 
 <div align="center"><img class="bwsketch darkinv" src="img/educare-ai-come-se-fosse-antani-p2a.png" width="800"></div>
 <div align="center"><img class="bwsketch darkinv" src="img/educare-ai-come-se-fosse-antani-p2b.png" width="800"></div>
@@ -175,7 +220,7 @@ così come cristianamente battezzato nell'anno domini 1974, perché non sapevano
 
 *Kissini* 😘
 
-+
+++++
 
 ## Related articles
 
