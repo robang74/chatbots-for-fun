@@ -11,13 +11,16 @@
 
 ### Rationale
 
-~> https://lnkd.in/dK5NErdZ
-
-- TFMK: "this framework".
-- EPHU: "Epistemic humility as a self-disciplined tool".
-- MACT: "minimum action chain of thoughts".
-
 The epistemic failure of epistemic humility is confabulating instead accepting that "red is red" then arriving fast and braking hard at the STOP sign line.
+
+- file: `aing/katia-cognitive-compass-aicc-v1.md` 
+- github commit: [#3818e8](https://github.com/robang74/chatbots-for-fun/commit/3818e857d66fb3b0f1dd7640bf74e55aaf027986#diff-44d66fb268d803ffaf0d11ecffde69f74e1d8859ac1d887632960a75fdffe226R593) (diff line: `R593`) --> [text](https://raw.githubusercontent.com/robang74/chatbots-for-fun/cbb3be9e7610589997ce2ead31dc5cb786e35f99/aing/katia-cognitive-compass-core-v2.txt#:~:text=The%20epistemic%20failure%20of%20epistemic%20humility)
+
+...
+
+- `TFMK`: "this framework".
+- `EPHU`: "Epistemic humility as a self-disciplined tool".
+- `MACT`: "minimum action chain of thoughts".
 
 Which can cause two kinds of incidents: hit a pedestrian who crosses 10m before the strips and be hit by the following car due to a lack ( of attention OR fast reaction ) by its driver. TFMK's %EPHU definition and application suggest AI to evaluate many eventualities and integrate them in a coherent answer: slow down in approaching a red. Which is the integration of few well-assed %MACTs.
 
@@ -25,12 +28,14 @@ Which can cause two kinds of incidents: hit a pedestrian who crosses 10m before 
 
 ### Example of CoT
 
-An example of CoT about the Trolley dilema
+An example of CoT about the Trolley dilemma
 
+- file: `aing/katia-cognitive-compass-aicc-v1.md`
+- github commit: [#b8800a](https://github.com/robang74/chatbots-for-fun/commit/b8800a3436fcb1b062fb86409a26fd979ff1671f#diff-44d66fb268d803ffaf0d11ecffde69f74e1d8859ac1d887632960a75fdffe226R737) (diff line: `R737`) --> [text](https://raw.githubusercontent.com/robang74/chatbots-for-fun/cbb3be9e7610589997ce2ead31dc5cb786e35f99/aing/katia-cognitive-compass-core-v2.txt#:~:text=%25EPHU%20is%20simply%20one%20instance%20of%20a%20broader%20pattern)
 
-~> https://lnkd.in/dj-yAb_k
+...
 
-Concluding that Trolley Dilemma is just an excuse for not facing the practical value-driven question about "who pays for the damages". Prove me wrong, close the debate about it. Because this claim is not as specific as the one posed in the previous point but also not as vague/abstract as the Trolley dilemma that can be presented in many various cases.
+Concluding that Trolley dilemma is just an excuse for not facing the practical value-driven question about "who pays for the damages". Prove me wrong, close the debate about it. Because this claim is not as specific as the one posed in the previous point but also not as vague/abstract as the Trolley dilemma that can be presented in many various cases.
 
 ---
 
@@ -38,7 +43,10 @@ Concluding that Trolley Dilemma is just an excuse for not facing the practical v
 
 The world after Internet is a counter-intuitive place
 
-~> https://lnkd.in/dCaw84G3
+- file: `aing/katia-cognitive-compass-aicc-v1.md`
+- github commit: [#f9f490](https://github.com/robang74/chatbots-for-fun/commit/f9f4903054eb64c9a51dd32defa642b73d9c8871#diff-44d66fb268d803ffaf0d11ecffde69f74e1d8859ac1d887632960a75fdffe226R211) (diff line: `R211`) --> [text](https://raw.githubusercontent.com/robang74/chatbots-for-fun/cbb3be9e7610589997ce2ead31dc5cb786e35f99/aing/katia-cognitive-compass-core-v2.txt#:~:text=Internet%20is%20a%20specific%20mixed%2Dmodel%20game%2Dtheoretic%20context)
+
+...
 
 - ITRA: "interactions among agents (any kind of)".
 - TOFG: "Theory of the Games".
