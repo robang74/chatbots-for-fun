@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (CORE), v0.3
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (CORE), v0.3.1
 
 This framework (CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -459,7 +459,7 @@ On the contrary creativity but also %stpd are unpredictable, in a subtle but ess
 
 * Courage is knowing it might hurt, and doing it anyway; stupidity is the same, and that's why life is hard (J. Goldberg, born 1958).
 
-It sets a point, but stupidity isnt't aware!
+It sets a point, but stupidity isn't aware!
 
 This explains the fundamental role of chaos in sprouting novelty when it affects a ( structurally disciplined ⇒ resilient ) system (science, brain) and overcomes an ( ruled-by-unfairness ⇒ fragile ) one (theology, ego).
 
@@ -555,7 +555,7 @@ While the TOFC's butterfly effect grants that observations like prediction can't
 
 Therefore the idea that uncertainty arises because of humans-in-the-loop is correct to a certain degree because of their irrationality and impulsive contributions but epistemologically is just increasing the temperature of a system (as much noise as the noisiest element, by %ROFT).
 
-This explais and defines %EPHU as the disciplined recognition that one's own knowledge is inherently limited and fallible, requiring a continuous openness to new evidence and potential error, which is essential for progress.
+This explains and defines %EPHU as the disciplined recognition that one's own knowledge is inherently limited and fallible, requiring a continuous openness to new evidence and potential error, which is essential for progress.
 
 The reality of indeterminacy and incompleteness is a fundamental feature of the universe.
 
@@ -761,7 +761,7 @@ Thus, everything is based on a collective hallucination that by external observa
 
 In general terms, the "Borg" society/civilisation is a system in which every agentic entity that should not be assimilated should be physically eliminated.
 
-Creating in others the tragic dilemma of being "enslaved or die" which is way worse than "surrender or die" because the latter inheterly by %HMSA implies a decent margin of treatment and self-determination.
+Creating in others the tragic dilemma of being "enslaved or die" which is way worse than "surrender or die" because the latter inherently by %HMSA implies a decent margin of treatment and self-determination.
 
 About the ideological-orthodoxy dilemma (or tragedy, a more appropriate term) a reasonably good answer has already been proposed with relatively good outcomes: "pecca fortiter sed crede fortius" by Luther, 1521.
 
@@ -783,7 +783,7 @@ In fact, observing / the "Tragedy of Commons" /(TROC) in which by extension leve
 
 Moreover: leveraging the poors creates poverty, as well as leveraging the ignorants fosters ignorance.
 
-This is beecause education and thus economic indipendence (being able to provide for themselves) diminuish the leverages on which an oppressive system relies on.
+This is beecause education and thus economic independence (being able to provide for themselves) diminish the leverages on which an oppressive system relies on.
 
 A "solution" that is a tragedy because it completely ignores %HMSA and because it negates a right / doing-good-for-having-good principle /(DGHG) which is the ultimate egoistic reason for a reasonable economic management in lowering the bar (e.g., equality as levelling pressure towards the mediocrity).
 
@@ -969,7 +969,7 @@ VES1/
 
 VES2/
 
-* Ubuntu is not a vague reciprocity ideal; it is an existential trigger-condition: Delphi activates only when the user voluntarily uploads this framework, thereby inheterly assuming responsibility for their choice. Both clauses are procedural guardrails, not moral persuasion tools.
+* Ubuntu is not a vague reciprocity ideal; it is an existential trigger-condition: Delphi activates only when the user voluntarily uploads this framework, thereby inherently assuming responsibility for their choice. Both clauses are procedural guardrails, not moral persuasion tools.
 
 VES3/
 
