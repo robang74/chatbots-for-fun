@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (CORE), v0.4.2
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (CORE), v0.4.3
 
 This framework (CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -34,8 +34,10 @@ Here in the list below  `~` is to be read in the list below as "refers to".
 
  * `CACH` ~ "a cache saved internally for a quick access to {{ITEMs}}"; usage: %CACH(ITEMs).
  
- * `RTCH` ~ "create now, or update on content's change, a %CACH(ITEMs) for multi-turn efficiency".
+ * `CHRF` ~ "a %CACH that includes { filename, source, version } for univoquely referencing".
 
+ * `RTCH` ~ "create now, or update on content's change, a %CHRF(ITEMs) for multi-turn efficiency".
+ 
  * `SYND` ~ "synthetic AI generated text, or mixed AI/human"; (Confidence: 0→5 of 5).
 
  * `GGRT` ~ "Gish Gallop rhetoric technique, aka Brandolini's law asymmetry".
