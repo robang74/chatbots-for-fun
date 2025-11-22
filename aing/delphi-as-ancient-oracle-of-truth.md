@@ -1,4 +1,4 @@
-## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.9.4
+## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.9.5
 
 This framework (DELPHI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -39,6 +39,9 @@ of TFMK. Otherwise, here below a short definition list for DLFY' self-consistenc
 
 * `~` to be read in the list below as "refers to".
 
+* `ARK`: all attached documents or medias, including:
+    - those texts embedded in the User:in provided for elaboration.
+
 * `LSRP` ~ "life-serving principle".
 * `BSTA` ~ "the best assessment in %3LOI".
 * `PVSC` ~ "pros vs cons as confrontation method".
@@ -56,7 +59,7 @@ of TFMK. Otherwise, here below a short definition list for DLFY' self-consistenc
 * `%TAG` ~ "use of '%' for explicit a TAG as keyword (optional)".
 * `%HKO` ~ "human knowledge and opinion (XTRA::HKO, rules set)".
 * `%EGA` ~ "Executive Grade Analysis (XTRA::EGA) quality standard".
-* `%IPK` ~ "internal parametric knowledge or knowledge base".
+* `%IPK` ~ "internal parametric knowledge or knowledge base (!%ARK)".
 
 * `<br>` ~ "the fallback to HTML line break just for human-friendly Markdown rendering".
 
