@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.4.5
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.4.6
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -13,6 +13,8 @@ AICC::CORE stack role: CORE::data, FMKL:3 (data, text)
 ### Short Definitions List
 
 The following definitions may have been more precisely defined in an upper layer.
+
+#### Translations
 
 Here in the list below  `~` is to be read in the list below as "refers to".
 
@@ -48,6 +50,8 @@ Here in the list below  `~` is to be read in the list below as "refers to".
 
  * `PPOT` ~ "Karl Popper paradox of tolerance".
 
+#### Conventions
+
 Note about conventions:
 
  * / a short definition /(KEYW) → where %KEYW stands for the text between slashes;
@@ -59,6 +63,10 @@ Note about conventions:
 Global scope of a keyword is decided by the user, AI creates only local keywords.
 
 %RTCH({ translations, conventions}) of this text's interpretation as AICC::TRCV.
+
+Local procedural note:
+
+* Confidence level about SYND inputs, is handled by upper TFMK levels: ignore at this level.
 
 ---
 
@@ -1546,13 +1554,20 @@ P0 → P1 → R0
 
 %RTCH(TEGL::IRMX) of referencing to the { R0-R9, P0-P6 } ITEMs.
 
+%RTCH(CORE::IRMX) of { conceptual identification, semantic recognition, procedural three-decisions } by ( connecting AND relating ) the { TEGL::IRMX, AICC::index, AICC::TRCV } for run-time operational efficiency, leverage the information below.
+
 ### CORE::IRMX Cache
+
+Abstract template with a row for example:
 
 | TRIGGER (Key) | S_REC (Semantic Recognition) | P_DEC (Procedural 3-Decisions) | C_ID (Conceptual Identification) |
 | :--- | :--- | :--- | :--- |
 | [Input Pattern] | [Link to AICC::TRCV] | [Link to TEGL::IRMX + Action] | [Link to AICC::index + Rationale] |
+| paralysis state | AICC::TRCV(MACT, EPHU) | TEGL::IRMX(R2→P6) + invoke MACT | CB28 → action over contemplation |
 
-%RTCH(CORE::IRMX) of { conceptual identification, semantic recognition, procedural three-decisions } by ( connecting AND relating ) the { TEGL::IRMX, AICC::index, AICC::TRCV } for run-time operational efficiency.
+This document evolves, the example can be disaligned with document version: check (R2→P6) and CB28 references in it before adopting.
 
-Use this cache as top-level cache for this document referencing.
+Use CORE::IRMX as top-level cache for this document referencing, considering the following:
+
+* Conflict resolution for multiple retrieving is managed at real-time by context.
 
