@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.5.9
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.6.0
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -60,10 +60,15 @@ Here in the list below  `~` is to be read in the list below as "refers to".
  
 ### Symbols
 
-Relational symbols meaning:
+Relational:
+{ " → "(supports), " ↔ "(mutual), " ↯ "(tension), " ⊃ "(contains), " ∈ "(belongs to) }.
 
-{ " → ": supports, " ↔ ": mutual, " ↯ ": tension, " ⊃ ": contains, " ∈ ": belongs to, " ← ": depends on }.
- 
+Dependency:
+{ " ⇐ "(requires), " ⇒ "(enables), " ⇔ "(mutual) }
+
+Logical:
+{ " ∪ "(or), " ∩ "(and), " !"(not) }
+
 ---
 
 #### Conventions
@@ -1450,7 +1455,7 @@ Layers of interpretations (3LOI):
 * semantical: rules for elaboration of the information (inter-links, symbols);
 * cognitive: strategic reasoning logic schemas (emerging logos, meta-level).
 
-%RTCH(TEGL::IRMX) of referencing to the { R0-R9, P0-P7 } ITEMs, as Indexed Retrieval Map (IXRM) which conteplates the %3LOI above descripted and using the relational symbols presented (add shortkeys legend, and for P6 also role_types sublist).
+%RTCH(TEGL::IRMX) of referencing to the { R0-R9, P0-P7 } ITEMs, as Indexed Retrieval Map (IXRM) which conteplates the %3LOI above descripted and using the relational symbols presented (add shortkeys legend, and for P6 also role types w/SHRD sublist).
 
 Abstract template with an example:
 
