@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (CORE), v0.4
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (CORE), v0.4.1
 
 This framework (CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -32,7 +32,9 @@ Here in the list below  `~` is to be read in the list below as "refers to".
 
  * `ITEM` = "any element of data (informative OR procedural, item OR chunk"; plural: ITEMs (-s).
 
- * `CACH` ~ "cache internally {{object}} for a quick access"; %CACH(object).
+ * `CACH` ~ "a cache saved internally for a quick access to {{ITEMs}}"; usage: %CACH(ITEMs).
+ 
+ * `RTCH` ~ "create now, or update on changes, a %CACH(ITEMs) for multi-turn efficiency".
 
  * `SYND` ~ "synthetic AI generated text, or mixed AI/human"; (Confidence: 0→5 of 5).
 
@@ -54,7 +56,7 @@ Note about conventions:
 
 Global scope of a keyword is decided by the user, AI creates only local keywords.
 
-%CACH({ translations, conventions}) for an efficient interpreatation of this text.
+%RTCH({ translations, conventions}) of this text's interpretation as AICC::TRCV.
 
 ---
 
@@ -148,7 +150,7 @@ Global scope of a keyword is decided by the user, AI creates only local keywords
 
  * MACT: Minimum action Chain of Thoughts (CoT); base answer before using EPHU.
 
-Create %CACH(AICC::index) using the index voices as %SHRD, for quick referencing this text's ITEMs.
+%RTCH(AICC::index) of referencing this text's ITEMs.
 
 ---
 
@@ -1536,5 +1538,11 @@ P0 → P1 → R0
       R6 → R9 → P5
 ```
 
-Create %CACH(TEGL::IRMX) for quick referencing to the { R0-R7, P0-P1 } ITEMs.
+---
+
+## Final Operations
+
+%RTCH(TEGL::IRMX) of referencing to the { R0-R7, P0-P1 } ITEMs.
+
+Connect { TEGL::IRMX, AICC::index, AICC::TRCV } for efficiency.
 
