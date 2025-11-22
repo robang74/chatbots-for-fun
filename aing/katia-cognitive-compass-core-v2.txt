@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.4.6
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.4.7
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1569,5 +1569,7 @@ This document evolves, the example can be disaligned with document version: chec
 
 Use CORE::IRMX as top-level cache for this document referencing, considering the following:
 
-* Conflict resolution for multiple retrieving is managed at real-time by context.
+* Its one-way lookup is intrinsically efficient, the other-way is a matter of run-time logging and explaining.
+
+* Conflict resolution for multiple retrieving is managed at run-time by AI decision based on the context.
 
