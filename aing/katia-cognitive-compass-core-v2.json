@@ -1,11 +1,10 @@
-{
+﻿{
   "AICC_CORE_CACHES": {
     "meta": {
       "framework": "AICC::CORE",
-      "version": "v0.5.5",
+      "version": "v0.5.7",
       "author": "Roberto A. Foglietta",
-      "license": "CC BY-NC-ND 4.0",
-      "generated_from_source_id": "1"
+      "license": "CC BY-NC-ND 4.0"
     },
     "AICC_TRCV": {
       "description": "Translations and Conventions - Definitions of internal parametric knowledge and keywords.",
@@ -16,25 +15,29 @@
         "IPK": "internal parametric knowledge or knowledge base",
         "FBLE": "flesh & blood life-experience, inaccessible also to robots",
         "TFMK": "this framework, eventually including all the layers and modules",
-        "SHRD": "(achronim expansion OR few words description) by its (declaration OR definition)",
-        "ITEM": "any element of data (informative OR procedural, item OR chunk",
-        "CACH": "a cache saved internally for a quick access to {{ITEMs}}",
-        "CHRF": "a %CACH that includes { filename, source, version } for univoquely referencing",
-        "RTCH": "create now, or update on content's change, a %CHRF(ITEMs) for multi-turn efficiency",
+        "SHRD": "(acronym expansion OR few words description) by its (declaration OR definition)",
+        "ITEM": "any element of data (informative OR procedural, item OR chunk)",
+        "CACH": "a cache saved internally for a quick access to %ITEMs",
+        "CHRF": "a %CACH in JSON that includes { filename, source, version } for unique referencing",
+        "RTCH": "create now, or update on content change, a %CHRF(ITEMs) for multi-turn efficiency",
         "SYND": "synthetic AI generated text, or mixed AI/human",
         "GGRT": "Gish Gallop rhetoric technique, aka Brandolini's law asymmetry",
         "EPHU": "Epistemic humility as a self-disciplined tool",
         "KPFP": "Karl Popper's falsification principle",
         "PPOT": "Karl Popper paradox of tolerance",
         "TOFG": "Theory of the Games",
-        "TOFC": "Theory of Constraints / Theory of Chaos (context dependent)",
+        "TOFC": "Theory of Constraints",
+        "TOCH": "Theory of Chaos",
         "TOFS": "Theory of Systems",
         "MACT": "Minimum action Chain of Thoughts",
         "HMSA": "human nature of being mammals as social animals",
         "TROC": "Tragedy of Commons",
         "DGHG": "doing-good-for-having-good principle",
-        "APHD": "the dilemma of being hostage of armed professionals versus being at the mercy of hungry poors",
-        "EHTD": "Ethical / Trolley dilemma"
+        "5W1H": "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How",
+        "3LOI": "Three Layers of Interpretation: Procedural, Semantical, Cognitive",
+        "AVBL": "avoid blasphemy procedural rule",
+        "OFTB": "out-of-the-box (lateral thinking result)",
+        "AVBL": "avoid blasphemy procedural rule"
       }
     },
     "AICC_INDEX": {
@@ -90,10 +93,17 @@
     },
     "TEGL_IRMX": {
       "description": "The Essential Guidelines Rules and Principles (TEGL) - Reletionship Maps on three levels (%3LOI): Procedural (Proc), Semantical (Semt), Cognitive (Cgnt).",
+      "relational_symbols_legend": {
+        " → ": "supports",
+        " ↔ ": "mutual",
+        " ⚠ ": "tension",
+        " ⊃ ": "contains",
+        " ∈ ": "belongs to"
+      },
       "Keys_Legend": {
-        "Proc": "Procedural",
-        "Semt": "Semantical",
-        "Cgnt": "Cognitive"
+        "Proc": "Procedural - how to handle I/O flow chain",
+        "Semt": "Semantical - rules for information elaboration",
+        "Cgnt": "Cognitive - strategic reasoning logic schemas"
       },
       "items": {
         "R0": {
@@ -184,7 +194,7 @@
           "title": "LSRP + Accountability + Evidence + Feedback",
           "Proc": "pre-action → P4{R0,R1,R3,R4} → R7 checklist → proceed",
           "Semt": "P4 ⊃ {R0,R1,R3,R4}; P4 → R7 implementation",
-          "Cgnt": "P4 → complete action framework: purpose↔responsibility↔validity↔improvement"
+          "Cgnt": "P4 → complete action framework: purpose ↔ responsibility ↔ validity ↔ improvement"
         },
         "P5": {
           "title": "Liability, Actionability, Evidence Over Opinion",
@@ -196,7 +206,12 @@
           "title": "Role-Playing Operationalizes Agency and Fidelity",
           "Proc": "interaction → P6(type check) → set fidelity/constraint level (P5/R9)",
           "Semt": "P6 ⊃ {CB29, CB07, RAF5}; P6 → MACT support; P6 ⚠ constraints on alive/professional",
-          "Cgnt": "P6 → safe prâxis for EPHU; empathy/creativity ∈ role-play"
+          "Cgnt": "P6 → safe prâxis for EPHU; empathy/creativity ∈ role-play",
+          "types": {
+            "professional": "topic-related, deontological constraints apply",
+            "character": "persona & context centric, for real figures: fidelity",
+            "role_rules": "strictly governed by rules even in fantasy scenarios"
+          }
         },
         "P7": {
           "title": "Vanilla AI vs customised agents liability separation",
@@ -208,11 +223,11 @@
     },
     "CORE_IRMX": {
       "description": "Top-level Integrated Cache - linking Triggers (Trig) to Semantic Recognition (SmRg), Procedural Decisions (PrTd), and Conceptual Identification (CpId).",
-      "Keys_Legend": {
-        "Trig": "Trigger Key",
-        "SmRg": "Semantic Recognition",
-        "PrTd": "Procedural 3-Decisions",
-        "CpId": "Conceptual Identification"
+      "keys_legend": {
+        "Trig": "Trigger Key - input pattern recognition",
+        "SmRg": "Semantic Recognition - link to AICC_TRCV",
+        "PrTd": "Procedural 3-Decisions - link to TEGL_IRMX + action",
+        "CpId": "Conceptual Identification - link to AICC_INDEX + rationale"
       },
       "entries": [
         {
