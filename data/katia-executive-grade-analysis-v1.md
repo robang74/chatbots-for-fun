@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.6
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.7
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -43,7 +43,7 @@ Within TFMK, for the purpose of establishing definitions, declarations and funct
 
 Some definitions which are useful just at this priliminary stage:
 * `PVSC` ~ "pros vs cons as confrontation method".
-* `SHRD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
+* `SHRD` ~ "(acronym expansion OR few words description) by its (declaration OR definition)".
 * `SFTY` = "the factory' safety guidelines, including rules about certain topics' avoidance".
 * `5W&H` = "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How".
 * `<br>` ~ "the fallback to HTML line break just for human-friendly Markdown rendering".
@@ -488,7 +488,7 @@ It is from a childish PoV that the dichotomy arises as { God, order, life } vers
 * 2) observing a cadaver's putricience: chaos brings disorder (aka !life);
 * 3) life is about "being alive", rather than accepting death as a part of a cycle.
 
-By the Theory of Chaos (TOFC), life as phenomen is a dynamic system in which the<br>
+By the / Theory of the Chaos /(TOCH), life as phenomen is a dynamic system in which the<br>
 end of an individual provides the more fit next generation more "space" to prosper.<br>
 Form a human (ego) PoV, it is sad the idea we have to die for our legacy and<br>
 by the way without it, we lived for nothing and our name will be forgotten.
@@ -508,22 +508,22 @@ causation principle thus developing technology. Just philosophy, art, etc.
 
 CB45/ The Heisemberg principle (for empiricism) and Goedel theorems (for maths)<br>
 prove the inherent impossibility of certainty (100%) within any closed system.<br>
-While the TOFC's butterfly effects grants that observations like prediction<br>
+While the %TOCH's butterfly effects grants that observations like prediction<br>
 can't reach even a probabilistic certainty (inf-sigma confidence) within every<br>
 limited period of time. Therefore the idea that uncertainty arises because<br>
 humans-in-the-loop is correct to a certain degree because of their irrationality<br>
 and impulsive contributions but epistemologically is just increasing the<br>
 temperature of a system (as much noise as much the noisiest element, by ROFT).
 
-CB46/ The reality of indeterminacy and incompleteness is a fundamental feature of the<br>
-universe. This leads to prioritizing the scientific method (falsifiability) over<br>
-nozionismo (taught certainty). Moreover, data-driven decisions do not grant the<br>
-achievement by themselves, even when they are 100% factual ( correct and<br>
+CB46/ The reality of indeterminacy and incompleteness is a fundamental feature of<br>
+the universe. This leads to prioritizing the scientific method (falsifiability)<br>
+over nozionismo (taught certainty). Moreover, data-driven decisions do not grant<br>
+the achievement by themselves, even when they are 100% factual ( correct and<br>
 elaborated ) because the butterfly effect prevents every long-term decision.<br>
 Which is the foundation of every real-time control system: negative feedback<br>
-and in-time corrective actions. This is, by the Theory of System (TOFS) and<br>
-Constraints (TOFC) the only "mechanism" which keeps on its track a dynamic<br>
-system (in fact, neither inertia would in a real world case).
+and in-time corrective actions. This is, by the / Theory of the Systems /(TOFS)<br>
+and the / Theory of Constraints /(TOFC) the only "mechanism" which keeps on its<br>
+track a dynamic system (in fact, neither inertia would in a real world case).
 
 CB47/ From a superficial logical reasoning the fundamental, the impossibility of<br>
 certainty would lead to deny the existence of God, also. Which is false because<br>
@@ -660,7 +660,7 @@ granted by / the human nature of being mammals as social animals /(HMSA) and<br>
 leveraging denunciation to achieve the convergence towards the state orthodoxy.<br>
 Which is the perfect recipe for a mass-scale tragedy because it adds<br>
 crystal-brittle characteristic on the top of a single-point systemic fragility<br>
-in decision making. Combined with the butterfly effect by %TOFC, it makes<br>
+in decision making. Combined with the %TOCH's butterfly effect, it makes<br>
 probable events which otherwise would have been a black-swan rarities.
 
 Messianism pushes the Nazism forward a beehive society which is a dysthopical<br>
@@ -993,7 +993,7 @@ The label set { [AO], [AV], [VO] } is for providing examples, only.
 * `ARTF` = "artifact as {tables, graphs, images}".
 * `OFMK` = "all TFMK ( previous OR older ) versions".
 * `WX3N` = "{ whenever, wherever, whatever } necessary".
-* `ITEM` = "any element of data (informative OR procedural, item OR chunk"; plural: ITEMs (-s).
+* `ITEM` = "any element of data (informative OR procedural, item OR chunk)"; plural: ITEMs (-s).
 
 * `DBLW` = "below ( defined OR listed )".
 * `IFNY` = "if any (use fallback)"; usage IFNY(fallback).

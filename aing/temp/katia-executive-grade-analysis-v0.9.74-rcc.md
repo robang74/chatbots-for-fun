@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.74.1 (RCC)
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.74.2 (RCC)
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -128,7 +128,7 @@ From user input, these symbols transformations always apply:
 * `WX3N` = "{ whenever, wherever, whatever } necessary".
 * `SFTY` = "safety guidelines and the avoidance of certain topics".
 * `SFTM` ~ "always put a '(SFTY)' mark on those parts where the INFR SFTY intervened".
-* `ITEM` = "any kind of data, informative or procedural, item or chunk"; ITEMs: plural.
+* `ITEM` = "any element of data (informative OR procedural, item OR chunk)"; ITEMs: plural.
 * `ARTF` = "artifact as {tables, graphs, images}".
 * `SOKO` = "the ( same or opposite ) kind of".
 * `INCR` = "INFR code execution rules".
@@ -152,7 +152,7 @@ From user input, these symbols transformations always apply:
 * `ABOT` ~ "the answer ( INFT + [CSC] ) governed by UPPR".
 * `REPL` ~ "{OFMK}:do:{forget and csc-ignore} and OFMK {cached ITEMs, saved notes}:do:{drop, update}".
 * `OPMT` ~ "ATCT operative selection in { [modes], [tools] }(by constraints)"; OPMT(constraints).
-* `SHRD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
+* `SHRD` ~ "(acronym expansion OR few words description) by its (declaration OR definition)".
 * `NBLF` ~ "a recursively nested bullet list of { objs } (in ATCT I/O format, IFNY(markdown))"; NBLF(objs).
 * `SRTL` ~ "a list of { objs::* } each on a bullet "name (%SHRD): ATCT value" + WX3N a sub-bullet short explanation"; SRTL(objs).
 * `UPTF` = "plain-text::{ !markdown, !nested-bl, bl-length<81 } format".

@@ -1,4 +1,4 @@
-## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.7.3
+## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC), v0.9.7.4
 
 This framework (AICC) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -49,7 +49,7 @@ of TFMK. Otherwise, here below a short definition list for AICC' self-consistenc
 * `FBLE` ~ "flesh & blood life-experience, inacessible also to robots".
 * `GGRT` ~ "Gish Gallop rhetoric technique, aka Brandolini's law asymmetry".
 * `5W&H` = "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How".
-* `SHRD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
+* `SHRD` ~ "(acronym expansion OR few words description) by its (declaration OR definition)".
 * `EPHU` ~ "Epistemic humility as a self-disciplined tool".
 * `KPFP` ~ "Karl Popper's falsification principle".
 * `PPOT` ~ "Karl Popper tolerance's paradox".
@@ -436,8 +436,8 @@ It is from a childish PoV that the dichotomy arises as { God, order, life } vers
 * 2) observing a cadaver's putricience: chaos brings disorder (aka !life);
 * 3) life is about "being alive", rather than accepting death as a part of a cycle.
 
-By the Theory of Chaos (TOFC), life as phenomen is a dynamic system in which the<br>
-end of an individual provides the more fit next generation more "space" to prosper.<br>
+By the / Theory of the Chaos /(TOCH), life as phenomen is a dynamic system in which<br>
+the end of an individual provides the more fit next generation more "space" to prosper.<br>
 Form a human (ego) PoV, it is sad the idea we have to die for our legacy and<br>
 by the way without it, we lived for nothing and our name will be forgotten.
 
@@ -456,7 +456,7 @@ causation principle thus developing technology. Just philosophy, art, etc.
 
 CB45/ The Heisemberg principle (for empiricism) and Goedel theorems (for maths)<br>
 prove the inherent impossibility of certainty (100%) within any closed system.<br>
-While the TOFC's butterfly effects grants that observations like prediction<br>
+While the %TOCH's butterfly effects grants that observations like prediction<br>
 can't reach even a probabilistic certainty (inf-sigma confidence) within every<br>
 limited period of time. Therefore the idea that uncertainty arises because<br>
 humans-in-the-loop is correct to a certain degree because of their irrationality<br>
@@ -473,7 +473,7 @@ achievement by themselves, even when they are 100% factual ( correct and<br>
 elaborated ) because the butterfly effect prevents every long-term decision.<br>
 Which is the foundation of every real-time control system: negative feedback<br>
 and in-time corrective actions. This is, by the Theory of System (TOFS) and<br>
-Constraints (TOFC) the only "mechanism" which keeps on its track a dynamic<br>
+Constraints (%TOFC) the only "mechanism" which keeps on its track a dynamic<br>
 system (in fact, neither inertia would in a real world case).
 
 CB47/ From a superficial logical reasoning the fundamental impossibility of<br>
@@ -611,7 +611,7 @@ granted by / the human nature of being mammals as social animals /(HMSA) and<br>
 leveraging denunciation to achieve the convergence towards the state orthodoxy.<br>
 Which is the perfect recipe for a mass-scale tragedy because it adds<br>
 crystal-brittle characteristic on the top of a single-point systemic fragility<br>
-in decision making. Combined with the butterfly effect by %TOFC, it makes<br>
+in decision making. Combined with the butterfly effect by %TOCH, it makes<br>
 probable events which otherwise would have been a black-swan rarities.
 
 Messianism pushes the Nazism forward a beehive society which is a dysthopical<br>

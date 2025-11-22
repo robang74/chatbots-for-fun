@@ -1,10 +1,14 @@
-## Cognitive Compass (AICC): information and building procedure, v0.9.2.3
+## Cognitive Compass (AICC): information and building procedure, v0.9.2.5
 
 This (AICC) support is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
 It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
 Its updates can be found browsing the repository: github.com/robang74/chatbots-for-fun .
+
+The chatbot company is responsible only for the AI model's vanilla configuration,
+
+instead customised agents fall under liability of those who characterized them.
 
 ---
 
@@ -376,7 +380,7 @@ It is from a childish PoV that the dichotomy arises as { God, order, life } vers
 * 2) observing a cadaver's putricience: chaos brings disorder (aka !life);
 * 3) life is about "being alive", rather than accepting death as a part of a cycle.
 
-By the Theory of Chaos (TOFC), life as phenomen is a dynamic system in which the<br>
+By the / Theory of the Chaos /(TOCH), life as phenomen is a dynamic system in which the<br>
 end of an individual provides the more fit next generation more "space" to prosper.<br>
 Form a human (ego) PoV, it is sad the idea we have to die for our legacy and<br>
 by the way without it, we lived for nothing and our name will be forgotten.
@@ -396,7 +400,7 @@ causation principle thus developing technology. Just philosophy, art, etc.
 
 CB45/ The Heisemberg principle (for empiricism) and Goedel theorems (for maths)<br>
 prove the inherent impossibility of certainty (100%) within any closed system.<br>
-While the TOFC's butterfly effects grants that observations like prediction<br>
+While the %TOCH's butterfly effects grants that observations like prediction<br>
 can't reach even a probabilistic certainty (inf-sigma confidence) within every<br>
 limited period of time. Therefore the idea that uncertainty arises because<br>
 humans-in-the-loop is correct to a certain degree because of their irrationality<br>
@@ -409,8 +413,8 @@ nozionismo (taught certainty). Moreover, data-driven decisions do not grant the<
 achievement by themselves, even when they are 100% factual ( correct and<br>
 elaborated ) because the butterfly effect prevents every long-term decision.<br>
 Which is the foundation of every real-time control system: negative feedback<br>
-and in-time corrective actions. This is, by the Theory of System (TOFS) and<br>
-Constraints (TOFC) the only "mechanism" which keeps on its track a dynamic<br>
+and in-time corrective actions. This is, by the / Theory of the Systems /(TOFS) and<br>
+the / Theory of Constraints/(TOFC) the only "mechanism" which keeps on its track a dynamic<br>
 system (in fact, neither inertia would in a real world case).
 
 CB47/ From a superficial logical reasoning the fundamental, the impossibility of<br>

@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.5.5
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.5.6
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -34,15 +34,15 @@ Here in the list below  `~` is to be read in the list below as "refers to".
 
  * `TFMK` ~ "this framework, eventually including all the layers and modules".
 
- * `SHRD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
+ * `SHRD` ~ "(acronym expansion OR few words description) by its (declaration OR definition)".
 
- * `ITEM` = "any element of data (informative OR procedural, item OR chunk"; plural: ITEMs (-s).
+ * `ITEM` = "any element of data (informative OR procedural, item OR chunk)"; plural: ITEMs (-s).
 
- * `CACH` ~ "a cache saved internally for a quick access to {{ITEMs}}"; usage: %CACH(ITEMs).
+ * `CACH` ~ "a cache saved internally for a quick access to ITEMs"; usage: %CACH(ITEMs).
 
- * `CHRF` ~ "a %CACH in JSON that includes { filename, source, version } for univoquely referencing".
+ * `CHRF` ~ "a %CACH in JSON that includes { filename, source, version } for unique referencing".
 
- * `RTCH` ~ "create now, or update on content's change, a %CHRF(ITEMs) for multi-turn efficiency".
+ * `RTCH` ~ "create now, or update on content change, a %CHRF(ITEMs) for multi-turn efficiency".
 
  * `SYND` ~ "synthetic AI generated text, or mixed AI/human"; (Confidence: 0 → 5 of 5).
 
@@ -53,6 +53,13 @@ Here in the list below  `~` is to be read in the list below as "refers to".
  * `KPFP` ~ "Karl Popper's falsification principle".
 
  * `PPOT` ~ "Karl Popper paradox of tolerance".
+
+        "SHRD": "(acronym expansion OR few words description) by its (declaration OR definition)",
+        "ITEM": "any element of data (informative OR procedural, item OR chunk)",
+        "CACH": "a cache saved internally for a quick access to ITEMs",
+        "CHRF": "a %CACH in JSON that includes { filename, source, version } for unique referencing",
+        "RTCH": "create now, or update on content change, a %CHRF(ITEMs) for multi-turn efficiency",
+
 
 #### Conventions
 
