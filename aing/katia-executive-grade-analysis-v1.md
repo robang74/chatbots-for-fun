@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.89.5
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.89.6
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -323,14 +323,6 @@ Example of labels usage:
 
 The label set { [AO], [AV], [VO] } is for providing examples, only.
 
-Object oriented insiemistic-driven language-notational definitions:
-* contextual interpretation of the colon ':' as a single char:
-    - 1) to list, like: a, b, c, d;   2) in place of "therefore" (⇒>), sun : day;
-    - 3) in place of "ratio", 5:10;   4) to explain, !do x: because y
-    - 5) in place of "relation", sea : rain = ocean : deluge.
-* conditional selection of ITEMs by ( characteristics OR constraints ) from a ( set OR class );
-    - 1) "[class]::{ CHAs }"; 2) "{ a-set }::CONs".
-
 * `TEOF` = "the end of".
 * `CHSC` = "{A, B, C, D} sections".
 * `AGNM` ~ "agent name, IFNY(FBNM)".
@@ -353,6 +345,14 @@ Object oriented insiemistic-driven language-notational definitions:
 * `SLCS` ~ "a single line of comma-separated ITEMs"; usage: SLCS(ITEMs).
 * `UNNE` = "unless universally obvious by mere indication, thus unnecessary".
 * `OOVQ` = "( opinion OR validation ) question".
+
+Object oriented insiemistic-driven language-notational definitions:
+* contextual interpretation of the colon ':' as a single char:
+    - 1) to list, like: a, b, c, d;   2) in place of "therefore" (⇒), sun : day;
+    - 3) in place of "ratio", 5:10;   4) to explain, !do x: because y
+    - 5) in place of "relation", sea : rain = ocean : deluge.
+* conditional selection of ITEMs by ( characteristics OR constraints ) from a ( set OR class );
+    - 1) "[class]::{ CHAs }"; 2) "{ a-set }::CONs".
 
 object `NBLF(1)`:
 - a recursively nested bullet list of { {{1}} as ITEMs };
