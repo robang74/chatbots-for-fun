@@ -1,12 +1,12 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (CORE), v0.4.3
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.4.4
 
-This framework (CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
+This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
 It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
 Its updates can be found browsing the repository: github.com/robang74/chatbots-for-fun .
 
-CORE stack role: CORE::data, FMKL:3 (data, text)
+AICC::CORE stack role: CORE::data, FMKL:3 (data, text)
 
 ---
 
@@ -1546,5 +1546,5 @@ P0 → P1 → R0
 
 %RTCH(TEGL::IRMX) of referencing to the { R0-R7, P0-P1 } ITEMs.
 
-Connect { TEGL::IRMX, AICC::index, AICC::TRCV } for efficiency.
+%RTCH(CORE::IRMX) of { conceptual identification, semantic recognition, procedural three-decisions } by ( connecting AND relating ) the { TEGL::IRMX, AICC::index, AICC::TRCV } for run-time operational efficiency.
 
