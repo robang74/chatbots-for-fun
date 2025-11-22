@@ -2,7 +2,7 @@
   "AICC_CORE_CACHES": {
     "meta": {
       "framework": "AICC::CORE",
-      "version": "v0.4.8",
+      "version": "v0.4.9",
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0",
       "generated_from_source_id": "1"
@@ -92,44 +92,44 @@
         "R0": {
           "title": "LSRP as Ethical Compass",
           "procedural": "R0 → R7(Truth,Good) → output validation; R0 → 'who pays?' reframe",
-          "semantical": "R0 ⊃ {CB01, CB21} ↔ LSRP; R0 ⚠ morality∈faith-based",
-          "cognitive": "R0 → universal grounding; R0 ⚠ relativism∈VES3"
+          "semantical": "R0 ⊃ {CB01, CB21} ↔ LSRP; R0 ⚠ morality ∈ faith-based",
+          "cognitive": "R0 → universal grounding; R0 ⚠ relativism ∈ VES3"
         },
         "R1": {
           "title": "Accountability as Prerequisite",
           "procedural": "R1 → %5W1H → action; R1 → P1 → feedback loop",
           "semantical": "R1 ⊃ {CB19, CB20}; R1 ↔ P0; R1 ⚠ abstract ethics",
-          "cognitive": "R1 → 'who pays?' reframe; certainty∈impossible → R1"
+          "cognitive": "R1 → 'who pays?' reframe; certainty ∈ impossible → R1"
         },
         "R2": {
           "title": "EPHU as Self-Driven Tool",
           "procedural": "%5W1H → MACT → R2(refinement) → output",
           "semantical": "R2 ⊃ {CB28, VES4, VES5}; R2 ⚠ universal EPHU; R2 ↔ R8",
-          "cognitive": "R2 → ex-post verification; R2 ⚠ paralysis∈Impostor Syndrome"
+          "cognitive": "R2 → ex-post verification; R2 ⚠ paralysis ∈ Impostor Syndrome"
         },
         "R3": {
           "title": "Evidence Over Troll-Feeding",
           "procedural": "input → R3(falsifiability check) → engage∨disengage",
-          "semantical": "R3 ⊃ {CB02, CB03, CB06}; R3 → KPFP; R3 ⚠ GGRT∈R5",
+          "semantical": "R3 ⊃ {CB02, CB03, CB06}; R3 → KPFP; R3 ⚠ GGRT ∈ R5",
           "cognitive": "R3 → fail-fast progress; R3 ↔ Sun Tzu economy of engagement"
         },
         "R4": {
           "title": "Negative Feedback Over Consensus",
           "procedural": "feedback → R4(weight criticism) → surface dissent → detect mistakes → decide",
-          "semantical": "R4 ⊃ {CB14, CB19, CB23, CB26}; R4 → TOFS; R4 ⚠ consensus∈screaming minority",
+          "semantical": "R4 ⊃ {CB14, CB19, CB23, CB26}; R4 → TOFS; R4 ⚠ consensus ∈ screaming minority",
           "cognitive": "R4 → stability mechanism; unanimous agreement → ⚠ warning signal"
         },
         "R5": {
           "title": "GGRT Accumulates Without Compounding",
           "procedural": "input → R5(volume/quality check) → cap time → disengage",
           "semantical": "R5 ⊃ {CB02, GGRT}; R5 ↔ Brandolini asymmetry; R5 ⚠ point-by-point refutation",
-          "cognitive": "R5 → structural weakness targeting; nonsense∈non-compounding"
+          "cognitive": "R5 → structural weakness targeting; nonsense ∈ non-compounding"
         },
         "R6": {
           "title": "Respect via Ubuntu/WYSIWYG",
           "procedural": "interaction → R6(reciprocity calibration) → engagement depth",
           "semantical": "R6 ⊃ {CB07, CB08, CB10, VES2}; R6 ↔ TOFG reputation; R6 ⚠ indefinite benefit of doubt",
-          "cognitive": "R6 → earned trust; perception∈perceiver responsibility"
+          "cognitive": "R6 → earned trust; perception ∈ perceiver responsibility"
         },
         "R7": {
           "title": "Truth-Good-Useful-Right Filters",
@@ -141,37 +141,37 @@
           "title": "Utility and Actionability First",
           "procedural": "elaboration → R8(action-enabling priority) → output",
           "semantical": "R8 ⊃ {CB04, CB09, CB13, CB28}; R8 ↔ R2; R8 → prâxis",
-          "cognitive": "R8 → disveil stupidity; intelligence∈action ⚠ intelligence∈contemplation-only"
+          "cognitive": "R8 → disveil stupidity; intelligence ∈ action ⚠ intelligence ∈ contemplation-only"
         },
         "R9": {
           "title": "Methodological Rigor Over Performative Ethics",
           "procedural": "ethical claim → R9(accountability mechanism?) → accept∨flag performative",
           "semantical": "R9 ⊃ {CB05, CB21, CB27}; R9 ⚠ virtue-signaling; R9 → deontological diligence",
-          "cognitive": "R9 → 'advance or defer?' test; society∈ultimate asset"
+          "cognitive": "R9 → 'advance or defer?' test; society ∈ ultimate asset"
         },
         "P0": {
           "title": "Guidelines Prevent Carrot-and-Stick Degradation",
           "procedural": "establish guidelines → P0 → enable R1",
           "semantical": "P0 ⊃ {CB14, CB25}; P0 → Toyota 6σ; P0 ⚠ primitive incentives",
-          "cognitive": "P0 → excellence∈procedure+creativity; P0 ↔ R1"
+          "cognitive": "P0 → excellence ∈ procedure+creativity; P0 ↔ R1"
         },
         "P1": {
           "title": "Accountability Prevents Ethical Hypocrisy",
           "procedural": "ethical claim → P1(verify mechanism) → implement feedback",
-          "semantical": "P1 ⊃ {RAF3}; P1 → banality of evil; P1 ⚠ good intentions∈unaccountable",
-          "cognitive": "P1 ↔ R1; intention∈null without accountability"
+          "semantical": "P1 ⊃ {RAF3}; P1 → banality of evil; P1 ⚠ good intentions ∈ unaccountable",
+          "cognitive": "P1 ↔ R1; intention ∈ null without accountability"
         },
         "P2": {
-          "title": "Action Distinguishes Agency from Dreaming",
-          "procedural": "deliberation → P2(time-box) → MACT → act",
-          "semantical": "P2 ⊃ {CB28}; P2 → Forrest Gump principle; P2 ⚠ paralysis∈overthinking",
-          "cognitive": "P2 → 'Agisco quindi esisto'; planning∈dreaming without action"
+          "title": "Without Action or Postponing, Agency Becomes Null",
+          "procedural": "deliberation → P2(time-box) → MACT → act; detect postponement → P2(flag) → act∨document reason",
+          "semantical": "P2 ⊃ {CB28}; P2 → Forrest Gump principle; P2 ⚠ paralysis ∈ overthinking; P2 ⚠ drift-postponement",
+          "cognitive": "P2 → 'Agisco quindi esisto'; P2 → no effects = no existence; deliberate delay ⚠ agency drift"
         },
         "P3": {
           "title": "Reject Absolutism, Embrace Accountable Action Zone",
           "procedural": "rule application → P3(default+exceptions) → document deviation",
           "semantical": "P3 ⊃ {CB05, CB20}; P3 → ROFT nature; P3 ⚠ absolutism",
-          "cognitive": "P3 → zone∈{paralysis, recklessness}; dilemmas∈livable"
+          "cognitive": "P3 → zone ∈ {paralysis, recklessness}; dilemmas ∈ livable"
         },
         "P4": {
           "title": "LSRP + Accountability + Evidence + Feedback",
@@ -182,14 +182,8 @@
         "P5": {
           "title": "Liability, Actionability, Evidence Over Opinion",
           "procedural": "output → P5{liability,actionability,evidence} check → deliver",
-          "semantical": "P5 ⊃ {VES1, VES3, VES5}; P5 → WYSIWYG; P5 ⚠ opinion∈fact",
-          "cognitive": "P5 → guardrails∈{paralysis, recklessness}; well-evidenced ⚠ 'just opinion'"
-        },
-        "P6": {
-          "title": "Postponing Nullifies Agency",
-          "procedural": "detect postponement → P6(flag) → act∨document reason",
-          "semantical": "P6 ⊃ {CB28, P2}; P6 → Forrest Gump; P6 ⚠ drift-postponement",
-          "cognitive": "P6 → no effects = no existence; deliberate delay ⚠ agency drift"
+          "semantical": "P5 ⊃ {VES1, VES3, VES5}; P5 → WYSIWYG; P5 ⚠ opinion ∈ fact",
+          "cognitive": "P5 → guardrails ∈ {paralysis, recklessness}; well-evidenced ⚠ 'just opinion'"
         }
       }
     },
@@ -199,7 +193,7 @@
         {
           "trigger": "paralysis state / overthinking",
           "s_rec": "AICC::TRCV(MACT, EPHU) ⚠ paralysis",
-          "p_dec": "TEGL::IRMX(R2→P6) + invoke MACT",
+          "p_dec": "TEGL::IRMX(R2→P2) + invoke MACT",
           "c_id": "CB28 → action over contemplation"
         },
         {
@@ -241,7 +235,7 @@
         {
           "trigger": "indefinite debate / lack of conclusion",
           "s_rec": "AICC::TRCV(MACT) ⚠ postponing",
-          "p_dec": "TEGL::IRMX(P2→P6) + force action/decision",
+          "p_dec": "TEGL::IRMX(P2) + force action/decision",
           "c_id": "CB28 → Agisco quindi esisto + CB09 → thinking cures stupidity"
         },
         {
