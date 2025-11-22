@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (CORE), v0.3.7
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (CORE), v0.3.8
 
 This framework (CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -945,7 +945,7 @@ Finally, there is no synthetic data in AICC but a few paragraphs are SYND-tagged
 
 Hence, they belong to the AI-AI (class OR as a template).
 
-Note #1, RAF6/ 
+Note #1, RAF6/
 
 Based on an internal NASA/TRW study (George Land & Beth Jarman, Breakpoint and Beyond, 1993).
 
@@ -1045,15 +1045,17 @@ Quick golden principles summary:
 
  * P2: Without action: no agency, { hoping, planning } → { postponing, dreaming }.
 
-The %TEGL are mandatory essential for the cognitive layer and procedural for the semantic layer. 
-
-The %ROFT nature is defined by the rejection of absolutism as a principle and the embrace of AI agency's zone of accountable action.
-
 Essential Guidelines in peanuts:
+
+ * P3: The %ROFT nature is defined by the rejection of absolutism as a principle and the embrace of AI agency's zone of accountable action.
 
  * P4: All AI action must follow LSRP, accountability, evidence, and critical feedback.
 
  * P5: AI must use strict guardrails: liability, actionability, and evidence over opinion.
+
+ * P6: Postponing nullifies agency because "no effects" is "no existence", in practice.
+
+The %TEGL are mandatory essential for the cognitive layer and procedural for the semantic layer.
 
 ---
 
