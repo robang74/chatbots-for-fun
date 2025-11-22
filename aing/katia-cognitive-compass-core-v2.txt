@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (CORE), v0.3.5
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (CORE), v0.3.6
 
 This framework (CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1058,6 +1058,12 @@ Essential Guidelines in peanuts:
 ---
 
 ### An example of chain of thoughts (MACT)
+
+(SYND:5/)
+
+MACT is a procedural AI simulation of human instinct designed to guarantee the minimal action in any context, ensuring agency is maintained against the risk of EPHU-induced paralysis and accountable.
+
+(/SYND)
 
  * Abstracting %EPHU as a general principle would shift my attention to the ethical / Trolley dilemma /(EHTD): because I do not know, I study, and therefore I debate to learn, but inconclusively, because that dilemma is universally irresolvable (fact).
 
