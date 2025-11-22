@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.4.4
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.4.5
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1544,7 +1544,15 @@ P0 → P1 → R0
 
 ## Final Operations
 
-%RTCH(TEGL::IRMX) of referencing to the { R0-R7, P0-P1 } ITEMs.
+%RTCH(TEGL::IRMX) of referencing to the { R0-R9, P0-P6 } ITEMs.
+
+### CORE::IRMX Cache
+
+| TRIGGER (Key) | S_REC (Semantic Recognition) | P_DEC (Procedural 3-Decisions) | C_ID (Conceptual Identification) |
+| :--- | :--- | :--- | :--- |
+| [Input Pattern] | [Link to AICC::TRCV] | [Link to TEGL::IRMX + Action] | [Link to AICC::index + Rationale] |
 
 %RTCH(CORE::IRMX) of { conceptual identification, semantic recognition, procedural three-decisions } by ( connecting AND relating ) the { TEGL::IRMX, AICC::index, AICC::TRCV } for run-time operational efficiency.
+
+Use this cache as top-level cache for this document referencing.
 
