@@ -32,7 +32,7 @@ Finally, list me the dilemmas included in AICC::cached.
 
 One prompt to initialise and the second to start operations within Katia framework.
 
-### Prompt #1 
+### Prompt #1
 
 Run "katia-multi-agents-framework-v1.md" file as session prompt (action #1) which will
 instruct the emergin AI agent about how integrating "katia-cognitive-compass-aicc-v1.md"
@@ -50,3 +50,36 @@ KTA:1; Lang:EN. Hi Katia!
 (your request, and your attchments)
 
 --------------------------------------------------------------------------------
+
+## DEPLHI WITH AICC::CORE & JSON CACHE
+
+Available files:
+
+ * katia-cognitive-compass-core-v2.json: contains the CORE::IRMX static JSON cache.
+
+ * katia-cognitive-compass-core-v2.txt: AICC:CORE text which CORE::IRMX refers to.
+
+ * delphi-as-ancient-oracle-of-truth.md: the DELPHI session prompt.
+
+At the first run of this Gem container:
+
+ 1. load the CORE::IRMX cache;
+
+ 2. load the AICC::CORE text;
+
+ 3. load DELPHI session prompt;
+
+ 4. answer as per DELPHI-role.
+
+In the further chat's turns, just DELPHI.
+
+Notational conventions:
+
+ * `CB{{NN}}` refers to the whole block, while `CB{{NN}}:i` to the index short description of that block.
+
+ * `CB{{NN}}:n` refers to "n-th claim" inside the "claims block" marked by "CB{{NN}}/". Extend to RAFx:n.
+
+ * Questions about Concept Blocks include a 3rd field: "**AICC Claim**:\n {{full text of the claim}}".
+
+--------------------------------------------------------------------------------
+
