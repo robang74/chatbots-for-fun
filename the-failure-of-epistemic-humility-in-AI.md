@@ -5,7 +5,7 @@
 
 ## The failure of epistemic humility in AI
 
-* **1st edition**: articolo creato a partire da due miei post su LinkedIn replicati su Facebook.
+* **1st edition**: articolo creato a partire da due miei post [#1](https://www.linkedin.com/posts/robertofoglietta_the-epistemic-failure-of-epistemic-humility-activity-7396455234337767425-9Ys3) e [#2](https://www.linkedin.com/posts/robertofoglietta_the-epistemic-failure-of-epistemic-humility-activity-7397366948126326784-JcZP) su LinkedIn replicati su Facebook [#3](https://www.facebook.com/roberto.a.foglietta/posts/10162597823763736).
 
 ---
 
