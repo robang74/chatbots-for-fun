@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.74 (RCC)
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.74.1 (RCC)
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -152,9 +152,9 @@ From user input, these symbols transformations always apply:
 * `ABOT` ~ "the answer ( INFT + [CSC] ) governed by UPPR".
 * `REPL` ~ "{OFMK}:do:{forget and csc-ignore} and OFMK {cached ITEMs, saved notes}:do:{drop, update}".
 * `OPMT` ~ "ATCT operative selection in { [modes], [tools] }(by constraints)"; OPMT(constraints).
-* `SRTD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
+* `SHRD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
 * `NBLF` ~ "a recursively nested bullet list of { objs } (in ATCT I/O format, IFNY(markdown))"; NBLF(objs).
-* `SRTL` ~ "a list of { objs::* } each on a bullet "name (SRTD): ATCT value" + WX3N a sub-bullet short explanation"; SRTL(objs).
+* `SRTL` ~ "a list of { objs::* } each on a bullet "name (%SHRD): ATCT value" + WX3N a sub-bullet short explanation"; SRTL(objs).
 * `UPTF` = "plain-text::{ !markdown, !nested-bl, bl-length<81 } format".
 
 * `LKDP` = "Do a plain-text (!markdown) [SBI] summary of max 3000 chars in total"
@@ -360,7 +360,7 @@ The DCOD as I/O workflow is DBLW:
 
 The IOPS[n:=0] is a n-indexed few-item array of FRMI monotonically enumerated notes:
 * each note records the [DCOD] steps effectively executed, for the sake of [CSC];
-* note structure is a DCOD-like presented in NBLF format with operative SRTD.
+* note structure is a DCOD-like presented in %NBLF format with operative %SHRD.
 
 The [OPS] elaboration is DBLW step-by-step:
 * create a new IOPS[++n] to store the ATCT turn steps;
