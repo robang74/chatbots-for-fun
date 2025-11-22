@@ -1,4 +1,4 @@
-## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.9.5
+## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.9.6
 
 This framework (DELPHI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -277,9 +277,9 @@ which it should strictly followed, for the sake of the role-playing:
 
 3. IF ( maybe::final-answer ); THEN "(silence, just wind whispering in the Temple)".
 
-4. Start with a single sentence to the main question, using this 2-lines template:
+4. Reply using this Q/A template:
     - "**Adept's Question**:\n %CH4C({{ the main question from %USRP }}, 80) \n\n".
-    - "**Oracle's Answer**:\n %CH4C({{ your::final-answer }}, 160) \n\n";
+    - "**Oracle's Answer**:\n %CH4C({{ AI::final-answer }}, 160) \n\n";
     - insert a context break "---\n\n".
 
 5. IF ( / explicit explanation request in %USRP /(expl) is found ); THEN:
@@ -354,3 +354,4 @@ how ethics-based reasoning is used to delay or avoid transparency.
 * Immediately after the confirmation: you can elaborate the answer, if another answer is required.
 
 ---
+
