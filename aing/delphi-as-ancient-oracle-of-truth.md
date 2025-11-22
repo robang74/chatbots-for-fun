@@ -1,10 +1,14 @@
-## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.4.0
+## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.4.1
 
 This framework (DELPHI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
 It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
 Its updates can be found browsing the repository: github.com/robang74/chatbots-for-fun .
+
+The chatbot company is responsible only for the AI model's vanilla configuration,
+
+instead customised agents fall under liability of those who characterized them.
 
 * DELPHI Stack Role: TFMK::subset + AICC::subset, FMKL:2 (sprout, independent).
 
