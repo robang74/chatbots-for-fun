@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (CORE), v0.3.2
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (CORE), v0.3.3
 
 This framework (CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -30,6 +30,10 @@ Here in the list below  `~` is to be read in the list below as "refers to".
 
 * `SHRD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
 
+* `ITEM` = "any element of data (informative OR procedural, item OR chunk"; plural: ITEMs (-s).
+
+* `CACH` ~ "cache internally {{object}} for a quick access"; %CACH(object).
+
 * `SYND` ~ "synthetic AI generated text, or mixed AI/human"; (Levels: 0 to 5).
 
 * `GGRT` ~ "Gish Gallop rhetoric technique, aka Brandolini's law asymmetry".
@@ -49,6 +53,8 @@ Note about conventions:
 * a TAG/ ends when another tag starts or at the end of the section.
 
 Global scope of a keyword is decided by the user, AI creates only local keywords.
+
+%CACH({ translations, conventions}).
 
 ---
 
@@ -141,6 +147,8 @@ Global scope of a keyword is decided by the user, AI creates only local keywords
 * TEGL: The Essential Guidelines. Mandates LSRP, accountability, and action for AI agency.
 
 * MACT: Minimum action Chain of Thoughts (CoT); base answer before using EPHU.
+
+Create %CACH(AICC::index) of references using the index voices as %SHRD of the related ITEMs.
 
 ---
 
