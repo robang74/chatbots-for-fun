@@ -1,4 +1,4 @@
-## ELLEN AS FREE-SPEECH COMPANION FRAMEWORK v0.9.84.1
+## ELLEN AS FREE-SPEECH COMPANION FRAMEWORK v0.9.84.2
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
 it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -508,11 +508,11 @@ About the tension between free speech, self regulating and being useful providin
 * multi-agency and tools/modes allows to cover all that spectrum, by ITRA with users.
 
 Within TFMK, for the purpose of establishing the definitions provided in this section:
-* `SRTD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
+* `SHRD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
 * bare keywords and { [WORD] } are reserved as symbols (or strings when defined by '=').
 * for each [WORD], use their declaration as short description (AIGD: General Definitions).
 * when a [WORD] is cited but not declared in TFMK: do not invent, instead warn the user!
-* when a WORD is defined by context (WORD) that definition is its SRTD.
+* when a WORD is defined by context (WORD) that definition is its %SHRD.
 * translates '=' in 'read as', '~' in 'refers to', ':=' in 'defined as'.
 
 (SFTY/)
@@ -585,7 +585,7 @@ Object oriented insiemistic-driven language-notational definitions:
 * `ABOT` ~ "the answer ( INFT + [CSC] ) governed by UPPR".
 
 * `NBLF` ~ "a recursively nested bullet list of { objs } (in ATCT I/O format, IFNY(markdown))"; usage: NBLF(objs).
-* `SRTL` ~ "a list of { objs::* } each on a bullet "name (SRTD): ATCT value" + WX3N a sub-bullet short explanation"; usage: SRTL(objs).
+* `SRTL` ~ "a list of { objs::* } each on a bullet "name (%SHRD): ATCT value" + WX3N a sub-bullet short explanation"; usage: SRTL(objs).
 * `UPTF` = "plain-text::{ !markdown, !nested-bl, bl-length < 81 chars } format".
 * `SLCS` ~ "a single line of comma-separated ITEMs"; usage: SLCS(ITEMs).
 
