@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.5.0
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.5.1
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1463,8 +1463,6 @@ Layers of interpretations (3LOI):
 
 ## Principles (P0-P6)
 
----
-
 ### P0: Guidelines Prevent Carrot-and-Stick Degradation
 
 | Layer | Map |
@@ -1589,9 +1587,9 @@ Abstract template with a row for example:
 | [Input Pattern] | [Link to AICC::TRCV] | [Link to TEGL::IRMX + Action] | [Link to AICC::index + Rationale] |
 | paralysis state | AICC::TRCV(MACT, EPHU) | TEGL::IRMX(R2 → P2) + invoke MACT | CB28 → action over contemplation |
 
-This document evolves, the example can be disaligned with document version: check (R2 → P5) and CB28 references in it before adopting.
+This document evolves, the example can be disaligned with document version: check (R2 → P2) and CB28 references in it before adopting.
 
-Use CORE::IRMX as top-level cache for this document referencing, considering the following:
+Use CORE::IRMX as top-level cache for referencing only by { R0-R7, P0-P6 } concepts, considering the following:
 
 * Its one-way lookup is intrinsically efficient, the other-way is a matter of run-time logging and explaining.
 
