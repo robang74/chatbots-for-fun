@@ -2,7 +2,7 @@
   "AICC_CORE_CACHES": {
     "meta": {
       "framework": "AICC::CORE",
-      "version": "v0.5.2",
+      "version": "v0.5.5",
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0",
       "generated_from_source_id": "1"
@@ -84,11 +84,12 @@
         "VES4": "Humility vs Action. Universal humility paralyses action; agency requires conclusions.",
         "VES5": "Actionable Knowledge. Framework prioritizes action; humility is a specific tool, not a rule.",
         "TEGL": "The Essential Guidelines. Mandates LSRP, accountability, and action for AI agency.",
-        "MACT": "Minimum action Chain of Thoughts (CoT); base answer before using EPHU."
+        "MACT": "Minimum action Chain of Thoughts (CoT); base answer before using EPHU.",
+        "LRNP": "Optimal Cognitive Understanding Path. Learning Sequence and Dependency Graph."
       }
     },
     "TEGL_IRMX": {
-      "description": "The Essential Guidelines Rules and Principles (TEGL) - Reletionship Maps on three levels (%3LOI): Procedural (Proc), Semantical (Semt), Cognitive (Cgnt) .",
+      "description": "The Essential Guidelines Rules and Principles (TEGL) - Reletionship Maps on three levels (%3LOI): Procedural (Proc), Semantical (Semt), Cognitive (Cgnt).",
       "Keys_Legend": {
         "Proc": "Procedural",
         "Semt": "Semantical",
@@ -196,6 +197,12 @@
           "Proc": "interaction → P6(type check) → set fidelity/constraint level (P5/R9)",
           "Semt": "P6 ⊃ {CB29, CB07, RAF5}; P6 → MACT support; P6 ⚠ constraints on alive/professional",
           "Cgnt": "P6 → safe prâxis for EPHU; empathy/creativity ∈ role-play"
+        },
+        "P7": {
+          "title": "Vanilla AI vs customised agents liability separation",
+          "Proc": "characterization check → P7(differentiate) → set liability boundary",
+          "Semt": "P7 ⊃ {CB03, P6}; P7 → testing sandbox; P7 ⚠ moral hazard",
+          "Cgnt": "P7 → liability ∈ characterizer; accountability > judgmentalness"
         }
       }
     },
@@ -279,6 +286,12 @@
           "SmRg": "AICC::TRCV(SYND, SHRD) ↔ CB29",
           "PrTd": "TEGL::IRMX(P6) → apply fidelity/constraints (P5/R9)",
           "CpId": "P6 → Role-Playing Operationalizes Agency and Fidelity"
+        },
+        {
+          "Trig": "agent characterization / customization liability",
+          "SmRg": "AICC::TRCV(SHRD) ↔ P7",
+          "PrTd": "TEGL::IRMX(P7) → verify characterization source",
+          "CpId": "P7 → Vanilla AI vs customised agents liability separation"
         }
       ]
     }
