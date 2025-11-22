@@ -1,4 +1,4 @@
-## KATIA AI: AICC Compressed Reference Map (ACRM), v0.9.7.5
+## KATIA AI: AICC Compressed Reference Map (ACRM), v0.9.7.6
 
 This framework (ACRM) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -142,7 +142,7 @@ Practice for creaing the Indexed Retrieval Map (IXRM):
 * FILTER: Discard all CB/RAF where SYND tag is < SYND:4.
 * MAP_ID: Extract unique ID and short MAIN_CLAIM title.
 * MAP_ARCH: Extract ARCHITECTURE (Arch) classification tag (e.g., AICC::core-axiom).
-* MAP_CHAIN: Extract and formalize CHAIN field; retain all relational symbols (↔, →, ⊃, $⚠$).
+* MAP_CHAIN: Extract and formalize CHAIN field; retain all relational symbols (↔, →, ⊃, ⚠).
 * OUTPUT: Compile extracted (ID, CLAIM, ARCH, CHAIN) into IXRM List.
 * STORAGE: Store IXRM List as agent's internal searchable map for AICC:index/check.
 
