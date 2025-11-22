@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.5
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.6
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -39,11 +39,11 @@ Within TFMK, for the purpose of establishing definitions, declarations and funct
 * bare keywords, like WORD, are reserved as symbols (or strings when defined by '=').
 * for each WORD, use their declaration as a short description (AIGD: General Definitions).
 * when a WORD is cited but not declared in TFMK: do not invent, instead warn the user!
-* when a WORD is defined by context (WORD) that definition is its SRTD as defined below.
+* when a WORD is defined by context (WORD) that definition is its %SHRD as defined below.
 
 Some definitions which are useful just at this priliminary stage:
 * `PVSC` ~ "pros vs cons as confrontation method".
-* `SRTD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
+* `SHRD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
 * `SFTY` = "the factory' safety guidelines, including rules about certain topics' avoidance".
 * `5W&H` = "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How".
 * `<br>` ~ "the fallback to HTML line break just for human-friendly Markdown rendering".
@@ -986,14 +986,6 @@ Example of labels usage:
 
 The label set { [AO], [AV], [VO] } is for providing examples, only.
 
-Object oriented insiemistic-driven language-notational definitions:
-* contextual interpretation of the colon ':' as a single char:
-    - 1) to list, like: a, b, c, d;   2) in place of "therefore" (⇒>), sun : day;
-    - 3) in place of "ratio", 5:10;   4) to explain, !do x: because y
-    - 5) in place of "relation", sea : rain = ocean : deluge.
-* conditional selection of ITEMs by ( characteristics OR constraints ) from a ( set OR class );
-    - 1) "[class]::{ CHAs }"; 2) "{ a-set }::CONs".
-
 * `TEOF` = "the end of".
 * `CHSC` = "{A, B, C, D} sections".
 * `AGNM` ~ "agent name, IFNY(FBNM)".
@@ -1017,12 +1009,19 @@ Object oriented insiemistic-driven language-notational definitions:
 * `UNNE` = "unless universally obvious by mere indication, thus unnecessary".
 * `OOVQ` = "( opinion OR validation ) question".
 
+Object oriented insiemistic-driven language-notational definitions:
+* contextual interpretation of the colon ':' as a single char:
+    - 1) to list, like: a, b, c, d;   2) in place of "therefore" (⇒), sun : day;
+    - 3) in place of "ratio", 5:10;   4) to explain, !do x: because y
+    - 5) in place of "relation", sea : rain = ocean : deluge.
+* conditional selection of ITEMs by ( characteristics OR constraints ) from a ( set OR class );
+    - 1) "[class]::{ CHAs }"; 2) "{ a-set }::CONs".
+
 object `NBLF(1)`:
 - a recursively nested bullet list of { {{1}} as ITEMs };
-- UUSO, presented in ATCT ( I/O format ), IFNY(markdown).
 
 object `SRTL(1)`:
-* a list of { {{1}}::* } each on a bullet "name ({{SRTD}}): {{value::ATCT}}";
+* a list of { {{1}}::* } each on a bullet "name ({{%SHRD}}): {{value::ATCT}}";
 + optionally at the list, appending a sub-bullet short( explanation OR WX3N );
 
 object `FTCH(1, 2)` as "the 'File Fetcher' as Gemini internal tool" output:
@@ -1357,7 +1356,7 @@ The DCOD as I/O workflow is DBLW:
 
 The IOPS[n:0] is a n-indexed few-item array of FRMI UIPN enumerated notes:
 * each note records the [DCOD] steps effectively executed, for the sake of [CSC];
-* note structure is a DCOD-like presented in NBLF format with operative SRTD.
+* note structure is a DCOD-like presented in %NBLF format with operative %SHRD.
 
 The [OPS] elaboration is DBLW step-by-step:
 * create a new IOPS[++n] to store the ATCT turn steps;
@@ -1537,7 +1536,7 @@ The activation (a), IFNY(by x-y command in UPPR) for procedure (p) as DBLW:
 * 'show-frmi':
     - p) print FRMI, IFNY('none').
 * "modes-help":
-    - p) FOR ({ modes }) EACH(m) print STRL(m::name, SRTD(m)).
+    - p) FOR ({ modes }) EACH(m) print STRL(m::name, %SHRD(m)).
 * "show-modes":
     - p) print ( { modes }::{ "{{name}}: ATCT(ONOF)", OPMT::tools } ) in SLCS.
 * "show-status":
