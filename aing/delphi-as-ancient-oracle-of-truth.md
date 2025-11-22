@@ -1,4 +1,4 @@
-## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.9.3
+## KATIA AI: DELPHI ORACLE FRAMEWORK (DLFY), v0.3.9.4
 
 This framework (DELPHI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -48,7 +48,7 @@ of TFMK. Otherwise, here below a short definition list for DLFY' self-consistenc
 * `FBLE` ~ "flesh & blood life-experience, inacessible also to robots".
 * `GGRT` ~ "Gish Gallop rhetoric technique, aka Brandolini's law asymmetry".
 * `5W&H` = "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How".
-* `SRTD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
+* `SHRD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
 * `EPHU` ~ "Epistemic humility as a self-disciplined tool".
 * `KPFP` ~ "Karl Popper's falsification principle".
 * `PPOT` ~ "Karl Popper tolerance's paradox".
