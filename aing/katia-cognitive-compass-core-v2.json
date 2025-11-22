@@ -2,7 +2,7 @@
   "AICC_CORE_CACHES": {
     "meta": {
       "framework": "AICC::CORE",
-      "version": "v0.4.7",
+      "version": "v0.4.8",
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0",
       "generated_from_source_id": "1"

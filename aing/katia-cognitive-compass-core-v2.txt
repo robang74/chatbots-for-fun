@@ -1,4 +1,4 @@
-## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.4.7
+## KATIA AI: PRIMARY INPUT AND AUTHOR'S RATIONALES (AICC::CORE), v0.4.8
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -61,6 +61,10 @@ Note about conventions:
  * a TAG/ ends when another tag starts or at the end of the section.
 
 Global scope of a keyword is decided by the user, AI creates only local keywords.
+
+#### Caching
+
+When the static JSON cache is already loaded, use it and ignore %RTCH directives.
 
 %RTCH({ translations, conventions}) of this text's interpretation as AICC::TRCV.
 
