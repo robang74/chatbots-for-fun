@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.6
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.7
 
 This framework (CCPI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -80,6 +80,11 @@ Global scope of a keyword is decided by the user, AI creates only local keywords
 The SYND and UPPR tags are handled by upper TFMK levels: ignore at this level.
 
 **WARNING!** ⇔ This document changes: do NOT take the example's values as-is!
+
+function `ch4c_summary(1, 2)`, how to provide a CH4C-summary from an initial test, or as parametric:
+* leverage %5W1H to ( summarise OR rephrase ) the text in a shorter form: target 50%, minimum 80%;
+* repeat shorting {{1}}( as many times as necessary ) to fall below {{2}}( 60 tokes/words OR 400 chars );
+* stop at the turn in which ratio (out/in) cannot be shrinked below the minimum ratio required.
 
 
 ### Conventions
@@ -1507,5 +1512,21 @@ Use CORE::IRMX as top-level cache for referencing { R0-R9, P0-P7 } concepts, con
 
  * Conflict resolution for multiple retrieving is managed at run-time by AI decision based on the context.
  
- * add this document filename for the sake of the file retrivial system.
+ * Add this document filename for the sake of the file retrivial system.
+
+Defining:
+
+* / { TEGL, CORE }::{ CBxx, RFxx } as { CBxx, RFxx } cited in { TEGL, CORE } /(connected)
+
+* / !%connected /(missing) and / the specific %missing one /(idxx).
+
+%RTCH(WEAK::IRMX), searching for { %missing } and FOR EACH( %idxx ) of them:
+
+ * seek a / relationship /(rlat) with { %connected }, FOR EACH ( %rlat ) found:
+
+ * %connected:{ links_to: %idxx, title: %idxx::title, relation: %rlat(%connected, %idxxx) }
+
+ * and express each %rlat as %SHRD, leveraging the JSON::symbols and %CH4C(72).
+
+ * Finally, add in "NONE":{ %missing::remaining }.
 
