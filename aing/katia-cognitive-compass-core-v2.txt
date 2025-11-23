@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.3
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.4
 
 This framework (CCPI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -73,6 +73,15 @@ Counters:
 { updates_since_creation := 0, constructions_steps := 0 }
 
 
+### General Rules
+
+Global scope of a keyword is decided by the user, AI creates only local keywords.
+
+The SYND and UPPR tags are handled by upper TFMK levels: ignore at this level.
+
+**WARNING!** ⇔ This document changes: do NOT take the example's values as-is!
+
+
 ### Conventions
 
 Note about conventions:
@@ -83,20 +92,18 @@ Note about conventions:
 
  * a TAG/ ends when another tag starts or at the end of the section.
 
-Global scope of a keyword is decided by the user, AI creates only local keywords.
-
-The SYND and UPPR tags are handled by upper TFMK levels: ignore at this level.
-
 
 ### Caching
 
 When the static JSON cache is already loaded, use it and ignore %RTCH directives.
 
-%RTCH(CORE::TRCV) of { translations, symbols }:
+%RTCH(CORE::TRCV) of { translations, AI::%conventions, symbols }:
 
-* "Translations": { `"WXYZ"`: { oper, text } },
+ * "Translations": { `"WXYZ"`: { oper, text } },
 
-* "Symbols": (as defined in their section)
+ * "Conventions": those AI created, if any.
+
+ * "Symbols": (as defined in their section),
 
 ---
 
@@ -963,11 +970,11 @@ Acting in a role pushes humans to figure them into situation, roles and personal
 
 There are mainly three kinds of role-playing, which matters also for AI interactions with users:
 
-* professional (be a doctor), is topic related and deonthological constraints;
+ * professional (be a doctor), is topic related and deonthological constraints;
 
-* character based (acting as a hero), is character's ( persona AND context ) centric;
+ * character based (acting as a hero), is character's ( persona AND context ) centric;
 
-* role & rules (playing cards), is strictly governed by R&R even in fantasy scenarios.
+ * role & rules (playing cards), is strictly governed by R&R even in fantasy scenarios.
 
 When impersonating a historical (and even more for an alive popular) character, fidelity to P&C is a constraint, not just a centric value.
 
@@ -1437,7 +1444,11 @@ P0 → P1 → R0
 
 ### Caching (CORE::LRNP)
 
-%RTCH(CORE::LRNP) of referencing to the { Phase 1-6 } ITEMs, as sequence of steps above descripted in { phase, name, { items in Rx/Px }, rationale } fields.
+%RTCH(CORE::LRNP) of referencing to the { Phase 1-6 } ITEMs:
+
+ * as sequence of steps above descripted in { phase, name, { items in Rx/Px }, rationale } fields;
+
+ * 2-step refine: use / CORE::LRNP cache /(tchc) for learn by %LRNP and update %tchc, accordingly.
 
 ---
 
@@ -1451,7 +1462,7 @@ Layers of interpretations (3LOI):
 
  * cognitive: strategic reasoning logic schemas (emerging logos, meta-level).
 
-%RTCH(TEGL::IRMX) of referencing to the { R0-R9, P0-P7 } ITEMs, as Indexed Retrieval Map (IXRM) which conteplates the %3LOI above descripted and using the relational symbols presented (add shortkeys legend, and for P6 also role types w/SHRD sublist).
+%RTCH(TEGL::IRMX) of referencing to the { R0-R9, P0-P7 } ITEMs, as Indexed Retrieval Map (IXRM) which conteplates the %3LOI above descripted and using the relational symbols presented, adding P/S/C ( description and shortkeys ) legends, and for P6 also role: { type::name, type::%SHRD } sublist.
 
 Abstract template with an example:
 
@@ -1468,8 +1479,6 @@ R0:
  * Semt : R0 ⊃ {CB01, CB21} ↔ %LSRP; R0 ↯ morality ∈ faith-based
  * Cgnt : R0 → universal grounding; R0 ↯ relativism ∈ VES3
  * Deps : R0 ← P1
-
-Warning! -- This document changes: do NOT take the example's values as-is!
 
 ---
 
@@ -1491,11 +1500,9 @@ entry:
  * PrTd: TEGL_IRMX(R2 → P2) + invoke MACT.
  * CpId: P2 → action over contemplation; CB28.
 
-Warning! -- This document evolves: example values can be disaligned, ignore values.
-
 Use CORE::IRMX as top-level cache for referencing only by { R0-R9, P0-P7 } concepts, considering the following:
 
-* Its one-way lookup is intrinsically efficient, the other-way is a matter of run-time logging and explaining.
+ * Its one-way lookup is intrinsically efficient, the other-way is a matter of run-time logging and explaining.
 
-* Conflict resolution for multiple retrieving is managed at run-time by AI decision based on the context.
+ * Conflict resolution for multiple retrieving is managed at run-time by AI decision based on the context.
 
