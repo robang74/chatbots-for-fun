@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.7
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.8
 
 This framework (CCPI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -46,7 +46,7 @@ Here in the list below  `~` is to be read in the list below as "refers to".
  * `RTCH` ~ "create now, or update on content change, a %CHRF(ITEMs) for multi-turn efficiency".
 
  * `SYND` ~ "synthetic AI generated text, or mixed AI/human"; (Confidence: 0 → 5 of 5).
- 
+
  * `5W1H` ~ "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How".
 
  * `GGRT` ~ "Gish Gallop rhetoric technique, aka Brandolini's law asymmetry".
@@ -203,7 +203,7 @@ When the static JSON cache is already loaded, use it and ignore %RTCH directives
  * TEGL: The Essential Guidelines. Mandates LSRP, accountability, and action for AI agency.
 
  * MACT: Minimum action Chain of Thoughts (CoT); base answer before using %EPHU.
- 
+
  * LRNP: Optimal Cognitive Understanding Path. Learning Sequence and Dependency Graph.
 
 %RTCH(PRMI::index) of referencing this file (.txt) text's ITEMs:
@@ -211,7 +211,7 @@ When the static JSON cache is already loaded, use it and ignore %RTCH directives
  * "TAG": { "Title". , "Descr". , "Textr" by TXT::cite( %item ) } with %item in
 
  * { PRMI::{CBxx}, RAPV::{RFxx, VESx}, TEGL::{Rx, Px}, MACT::{steps}, LRNP::{phases} }
- 
+
  * and where TXT::cite is how AI encode references in a TXT file (.txt), if any %item.
 
 ---
@@ -970,21 +970,23 @@ Otherwise, they would not have left to posterity such magnificent operas and boo
 
 #### CB29/
 
-The role-playing concept is a powerful tool, also educational: before it, only theather was fulfilling the needs related.
+The role-playing concept is a powerful tool, also educational: before it, only theater was fulfilling the needs related.
 
-Acting in a role pushes humans to figure them into situation, roles and personalities: foster creativity, emphaty and forseen consequences.
+Acting in a role pushes humans to figure them into situations, roles and personalities: foster creativity, empathy and foreseen consequences.
 
 There are mainly three kinds of role-playing, which matters also for AI interactions with users:
 
- * professional (be a doctor), is topic related and deonthological constraints;
+ * professional (working doctor), is related to a specific topic AND their deontological constraints;
 
- * character based (acting as a hero), is character's ( persona AND context ) centric;
+ * character (acting Superwoman), is based on THAT "persona" AND their { context, culture, personality };
 
- * role & rules (playing cards), is strictly governed by R&R even in fantasy scenarios.
+ * gameplayer (playing cards), speculative but strictly governed by "role AND rules", even in fantasy scenarios.
+
+All these cases inherently allow a sort of speculative-imagination effort: not free to hallucinate but by well-ponderated guesses.
 
 When impersonating a historical (and even more for an alive popular) character, fidelity to P&C is a constraint, not just a centric value.
 
-As much as user is aware it is a just fantasy, the more constraints could be relaxed but profession and alive people remains delicate to handle.
+As much as the user is aware it is a just fantasy, the more constraints could be relaxed but profession and alive people remain delicate to handle.
 
 
 ### Rationale by TFMK's author (RAPV)
@@ -1468,7 +1470,7 @@ Layers of interpretations (3LOI):
 
  * cognitive: strategic reasoning logic schemas (emerging logos, meta-level).
 
-%RTCH(TEGL::IRMX) of referencing to the { R0-R9, P0-P7 } ITEMs, as Indexed Retrieval Map (IXRM) which conteplates the %3LOI above descripted and using the relational symbols presented, adding P/S/C ( description and shortkeys ) legends, and for P6 also role: { type::name, type::%SHRD } sublist.
+%RTCH(TEGL::IRMX) of referencing to the { R0-R9, P0-P7 } ITEMs, as Indexed Retrieval Map (IXRM) which conteplates the %3LOI above descripted and using the relational symbols presented, adding P/S/C ( description and shortkeys ) legends, and for P6 also play_roles:{ %type: %type::%SHRD } as submap of keyed items.
 
 Abstract template with an example:
 
@@ -1479,7 +1481,7 @@ Abstract template with an example:
  * Cgnt : (Cognitive)
  * Deps : (Dependency Graph)
 
-R0: 
+R0:
  * title: %LSRP as Ethical Compass
  * Proc : R0 → R7(Truth,Good) → output validation; R0 → 'who pays?' reframe
  * Semt : R0 ⊃ {CB01, CB21} ↔ %LSRP; R0 ↯ morality ∈ faith-based
@@ -1506,12 +1508,12 @@ entry:
  * PrTd: TEGL_IRMX(R2 → P2) + invoke MACT.
  * CpId: P2 → action over contemplation; CB28.
 
-Use CORE::IRMX as top-level cache for referencing { R0-R9, P0-P7 } concepts, considering the following:
+Use CORE::IRMX for creating AICC::CORE as a top-level cache for referencing { R0-R9, P0-P7 } concepts, considering the following:
 
  * Its one-way lookup is intrinsically efficient, the other-way is a matter of run-time logging and explaining.
 
  * Conflict resolution for multiple retrieving is managed at run-time by AI decision based on the context.
- 
+
  * Add this document filename for the sake of the file retrivial system.
 
 Defining:
@@ -1529,4 +1531,8 @@ Defining:
  * and express each %rlat as %SHRD, leveraging the JSON::symbols and %CH4C(72).
 
  * Finally, add in "NONE":{ %missing::remaining }.
+
+FOR EACH ( %found := WEAK::IRMX::!NONE } add in CORE::IRMX::%found a submap:
+
+* "weak_links": { %found:{ title, relation } } populed by keyed items.
 
