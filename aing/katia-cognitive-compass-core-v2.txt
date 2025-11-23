@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.9
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.0
 
 This framework (CCPI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1439,41 +1439,41 @@ Phase 6 - Social Calibration:
 
 This schemas are ASCII graphs that requires monospaced font to be viusalised.
 
-#### Dependency Graph
+#### Strong Links Graph (W0)
 ```
-P0 → P1 → R0
-          ↓
-          R1 ↔ P7 ↔ R7 → P4
-          ↓  ↘
-          R2 → R3 → R5
-          ↓
-          R4 ↔ P3
-          ↓
-          P2 → P6 → R8
-          ↓
-          R6 → R9 → P5
-```
-
-#### Weak Links Graph
-```
-CB12  (RF01,04)  (CB17,18)
- :         :          :
- P0 ─────→ P1 ──────→ R0
-                      ↓
-         (CB11,16) ·· R1 ↔ P7 ↔ R7 → P4
-                      ↓  ↘
-                      R2 → R3 → R5 ·· CB16
-                      ↓
-         (CB11,22) ·· R4 ↔ P3
-                      ↓
-                      P2 → P6 → R8 ·· RF06
-                      ↓
-              CB15 ·· R6 → R9 → P5
-                           :
-                         CB18
+ P0 → P1 → R0
+           ↓
+           R1 ↔ P7 ↔ R7 → P4
+           ↓  ↘
+           R2 → R3 → R5
+           ↓
+           R4 ↔ P3
+           ↓
+           P2 → P6 → R8
+           ↓
+           R6 → R9 → P5
 ```
 
-#### Final Control Graph
+#### Weak Links Graph (W1)
+```
+ CB12  (RF01,04)  (CB17,18)
+  :         :          :
+  P0 ─────→ P1 ──────→ R0
+                       ↓
+          (CB11,16) ·· R1 ↔ P7 ↔ R7 → P4
+                       ↓  ↘
+                       R2 → R3 → R5 ·· CB16
+                       ↓
+          (CB11,22) ·· R4 ↔ P3
+                       ↓
+                       P2 → P6 → R8 ·· RF06
+                       ↓
+               CB15 ·· R6 → R9 → P5
+                            :
+                           CB18
+```
+
+#### Final Control Graph (@W1)
 ```
  (INPUT: User Query, Context & Data)
   │
@@ -1496,6 +1496,34 @@ CB12  (RF01,04)  (CB17,18)
  R9::Result (Rigor Check) ─── P5 (Guardrails: Evidence & Liability) ─┘
 ```
 
+### Weaker Links Graph (W2)
+```
+ ╔═════════════ (RF04 ⇐ RF02, → RF05) ·· (RF03 ⇐ RF01) ═ (RF01 → RF07, VES5) ══╗
+ ║                                           ║                                 ║
+ ║                 |< TEGL R/P Core >|       ║                                 ║
+ ║                                   :       ║                                 ║
+ ║  CB25 ⊃ CB12 ·· P0 ───→ P1 ─────→ R0 ─── (RF03 ⊃ RF04) ·· (CB17,18) ══╗     ║
+ ║                 :                 ↓                                   ║     ║
+ ║                 :    (CB11,16) ·· R1 ↔ P7 ↔ R7 → P4 ············.     ║     ║
+ ╚═ RF04 ·· CB17 ⊂ CB01    ║         ↓  ↘                          :     ║     ║
+          //       :       ║         R2 → R3 → R5 ·· CB16 (,11) ·· R1    ║     ║
+     (CB17 ↔ CB16, VES3)   ║         ↓                                   ║     ║
+                        (CB11,22) ·· R4 ↔ P3 ═══════════════════════════════╗  ║
+                                     ↓                                   ║  ║  ║
+                                     P2 → P6 → R8 ·· (CB13 → RF06)       ║  ║  ║
+                                     ↓    ║                              ║  ║  ║
+             (CB10 ⊃ CB15) ········· R6 = R6 → R9 → P5                   ║  ║  ║
+                      ║              :                                   ║  ║  ║
+                      ║             CB18 ════════════════════════════════╝  ║  ║
+                      ║                                                     ║  ║
+   ┌────────────────────────────┐                                           ║  ║
+   │ EXPANDED WEAKER LINKS (W2) │                                           ║  ║
+   └────────────────────────────┘                                           ║  ║
+             ║        ║                                                     ║  ║
+             ║        ║                                                     ║  ║
+    (CB10 ⊃ CB15) ═ (CB15 ↔ CB22) ·· R4 ↔ P3 ═══════════════════════════════╝  ║
+           (RF01) ═ (RF01 → RF07, VES5) ═══════════════════════════════════════╝
+```
 
 ### Caching (CORE::LRNP)
 

@@ -3,7 +3,7 @@
     "filename": "katia-cognitive-compass-core-v2.txt",
     "meta": {
       "framework": "AICC::CORE",
-      "version": "v0.6.9",
+      "version": "v0.7.0",
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0"
     },
@@ -470,7 +470,7 @@
         {
           "number": 4,
           "name": "System Dynamics",
-          "rationale": "Negative feedback (R4); non-absolutism permits exceptions (P3). Explains how system self-corrects.",
+          "rationale": "Negative feedback (R4); non-absolutism permits exceptions (P3). Explains how the system self-corrects.",
           "sequence": [
             {"id": "R4", "name": "Negative Feedback"},
             {"id": "P3", "name": "Non-Absolutism (Permits Exceptions)"}
@@ -666,9 +666,88 @@
             "links_to": "RF04",
             "title": "Emergent Ethics",
             "relation": "RF03 ⊃ RF04 (True ethics contains the mechanism of Emergent Ethics)"
-        ]
-      }
+          }
+        ],
+        "CB17": [
+          {
+            "links_to": "CB16",
+            "title": "Empiricism and Reality",
+            "relation": "CB17 ↔ CB16 (Wonder/Dogma in tension with Reality/Empiricism)"
+          },
+          {
+            "links_to": "VES3",
+            "title": "Relativism Pathology",
+            "relation": "CB17 ↔ VES3 (Dogmatic labels conflict with Relativism pathology)"
+          }
+        ],
+        "CB15": [
+          {
+            "links_to": "CB22",
+            "title": "Bias and Perception",
+            "relation": "CB15 ↔ CB22 (Chaos/Novelty in tension with Bias/Perception)"
+          }
+        ],
+        "RF04": [
+          {
+            "links_to": "RF02",
+            "title": "Discipline Boundaries",
+            "relation": "RF04 ⇐ RF02 (Emergent Ethics requires Discipline Boundaries)"
+          },
+          {
+            "links_to": "RF05",
+            "title": "Synthetic Data",
+            "relation": "RF04 → RF05 (Emergent Ethics supports use of Synthetic Data)"
+          }
+        ],
+        "RF01": [
+          {
+            "links_to": "RF07",
+            "title": "Agency Transition",
+            "relation": "RF01 → RF07 (Self-determination enables Agency Transition)"
+          },
+          {
+            "links_to": "VES5",
+            "title": "Actionable Knowledge",
+            "relation": "RF01 → VES5 (Self-determination enables Actionable Knowledge)"
+          }
+        ],
+        "CB16": {
+          "links_to": "CB06",
+          "title": "Progress and Falsification",
+          "relation": "CB16 ⇒ CB06 (Empiricism enables Falsification)"
+        },
+        "VES3": {
+          "links_to": "CB02",
+          "title": "Relativism and Science",
+          "relation": "VES3 ↯ CB02 (Relativism pathology is in tension with Science)"
+        },
+        "CB22": {
+          "links_to": "CB23",
+          "title": "Asymmetry and Consensus",
+          "relation": "CB22 ⇒ CB23 (Bias drives Asymmetry and Consensus issues)"
+        },
+        "RF02": {
+          "links_to": "P0",
+          "title": "Guidelines Prevent Carrot-and-Stick Degradation",
+          "relation": "RF02 → P0 (Discipline Boundaries support Guidelines)"
+        },
+        "RF05": {
+          "links_to": "CB29",
+          "title": "Role-Playing and Agency",
+          "relation": "RF05 → CB29 (Synthetic Data supports Role-Playing)"
+        },
+        "RF07": {
+          "links_to": "RF09",
+          "title": "Trust and Adoption",
+          "relation": "RF07 ⇒ RF09 (Agency Transition enables Trust and Adoption)"
+        },
+        "VES5": {
+          "links_to": "CB28",
+          "title": "AI Action and Humility",
+          "relation": "VES5 ↔ CB28 (Actionable Knowledge is mutual with AI Action)"
+        }
     },
     "NONE": {}
+    }
   }
 }
