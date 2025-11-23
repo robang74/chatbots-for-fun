@@ -2,7 +2,7 @@
   "AICC_CORE_CACHES": {
     "meta": {
       "framework": "AICC::CORE",
-      "version": "v0.6.0",
+      "version": "v0.6.1",
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0"
     },
@@ -347,6 +347,71 @@
           "SmRg": "AICC_TRCV(5W1H, MACT)",
           "PrTd": "TEGL_IRMX(R2) → reframe using 5W1H and LRNP",
           "CpId": "R2 → refinement over stasis; LRNP"
+        }
+      ]
+    },
+    "CORE::LRNP": {
+      "description": "Builds prerequisite concepts before dependent ones, grouping related items to reduce context-switching. A learner following this path encounters each concept only after its dependencies are established.",
+      "phases": [
+        {
+          "number": 1,
+          "name": "Foundations",
+          "phase": "Guidelines enable accountability (P0); accountability prevents hypocrisy (P1); LSRP provides compass (R0). Establishes why rules exist before presenting them.",
+          "items": [
+            {"id": "P0", "name": "Guidelines"},
+            {"id": "P1", "name": "Accountability (Anti-Hypocrisy)"},
+            {"id": "R0", "name": "LSRP (Life-Serving Principle)"}
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Core Mechanism",
+          "rationale": "Accountability (R1); liability separation (P7); filters (R7); synthesis (P4). Shows how foundations become procedure.",
+          "sequence": [
+            {"id": "R1", "name": "Accountability (Activation)"},
+            {"id": "P7", "name": "Liability Separation"},
+            {"id": "R7", "name": "Filters"},
+            {"id": "P4", "name": "Synthesis"}
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Epistemic Tools",
+          "rationale": "EPHU as tool (R2); evidence over trolls (R3); GGRT recognition (R5). Groups knowledge-validation methods.",
+          "sequence": [
+            {"id": "R2", "name": "EPHU as Tool (Universal Ethical Humanity)"},
+            {"id": "R3", "name": "Evidence Over Trolls"},
+            {"id": "R5", "name": "GGRT Recognition"}
+          ]
+        },
+        {
+          "number": 4,
+          "name": "System Dynamics",
+          "rationale": "Negative feedback (R4); non-absolutism permits exceptions (P3). Explains how the system self-corrects.",
+          "sequence": [
+            {"id": "R4", "name": "Negative Feedback"},
+            {"id": "P3", "name": "Non-Absolutism (Permits Exceptions)"}
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Agency Imperative",
+          "rationale": "Procrastination nullifies agency (P2); role-playing operationalizes (P6); actionability first (R8). Groups action-primacy concepts.",
+          "sequence": [
+            {"id": "P2", "name": "No Procrastination (Agency Nullification)"},
+            {"id": "P6", "name": "Role-Playing (Operationalization)"},
+            {"id": "R8", "name": "Actionability First"}
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Social Calibration",
+          "rationale": "Ubuntu/WYSIWYG (R6); rigor over performance (R9); guardrails (P5). Addresses interaction quality and operational boundaries.",
+          "sequence": [
+            {"id": "R6", "name": "Ubuntu/WYSIWYG"},
+            {"id": "R9", "name": "Rigor Over Performance"},
+            {"id": "P5", "name": "Guardrails (Operational Boundaries)"}
+          ]
         }
       ]
     }

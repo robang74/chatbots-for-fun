@@ -1,4 +1,4 @@
-## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.0
+## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.1
 
 This framework (CCPI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1445,6 +1445,11 @@ P0 → P1 → R0
           ↓
           R6 → R9 → P5
 ```
+---
+
+### Fast Learning Path (CORE::LRNP)
+
+%RTCH(CORE::LRNP) of referencing to the { Phase 1-6 } ITEMs, as sequence of steps above descripted in { phase, name, { items in Rx/Px }, rationale } fields.
 
 ---
 
