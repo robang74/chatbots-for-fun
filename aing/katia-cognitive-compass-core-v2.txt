@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.8
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.9
 
 This framework (CCPI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -80,6 +80,8 @@ Global scope of a keyword is decided by the user, AI creates only local keywords
 The SYND and UPPR tags are handled by upper TFMK levels: ignore at this level.
 
 **WARNING!** ⇔ This document changes: do NOT take the example's values as-is!
+
+When a resource is available in wider scope (aka "Symbols" in JSON::) do not replicate in local scope.
 
 function `ch4c_summary(1, 2)`, how to provide a CH4C-summary from an initial test, or as parametric:
 * leverage %5W1H to ( summarise OR rephrase ) the text in a shorter form: target 50%, minimum 80%;
@@ -212,7 +214,7 @@ When the static JSON cache is already loaded, use it and ignore %RTCH directives
 
  * { PRMI::{CBxx}, RAPV::{RFxx, VESx}, TEGL::{Rx, Px}, MACT::{steps}, LRNP::{phases} }
 
- * and where TXT::cite is how AI encode references in a TXT file (.txt), if any %item.
+ * and where TXT::cite is how AI encode references in a TXT file (.txt), or just %item.
 
 ---
 
@@ -1433,8 +1435,11 @@ Phase 6 - Social Calibration:
  * Rationale: Ubuntu/WYSIWYG (R6); rigor over performance (R9); guardrails (P5). Addresses interaction quality and boundaries.
 
 
-### Visual Path (Dependency Graph)
+### Visual Path
 
+This schemas are ASCII graphs that requires monospaced font to be viusalised.
+
+#### Dependency Graph
 ```
 P0 → P1 → R0
           ↓
@@ -1447,6 +1452,48 @@ P0 → P1 → R0
           P2 → P6 → R8
           ↓
           R6 → R9 → P5
+```
+
+#### Weak Links Graph
+```
+CB12  (RF01,04)  (CB17,18)
+ :         :          :
+ P0 ─────→ P1 ──────→ R0
+                      ↓
+         (CB11,16) ·· R1 ↔ P7 ↔ R7 → P4
+                      ↓  ↘
+                      R2 → R3 → R5 ·· CB16
+                      ↓
+         (CB11,22) ·· R4 ↔ P3
+                      ↓
+                      P2 → P6 → R8 ·· RF06
+                      ↓
+              CB15 ·· R6 → R9 → P5
+                           :
+                         CB18
+```
+
+#### Final Control Graph
+```
+ (INPUT: User Query, Context & Data)
+  │
+  ↓
+┌────────────────────────────────────────────────┐
+│    UPSTREAM PROCEDURAL FLOW (TEGL R/P RULES)   │
+│  Processing by R4,R7,R9,... w/tools: 5W1H,...  │
+└────────────────────────────────────────────────┘
+                                        │
+ (Results of R4/R7/R9) ─────────────────┐
+                                        ↓
+                    ┌────────────────────────────────┐
+                    │    P3-P5: TERMINATION BLOCK    │
+                    ├────────────────────────────────┤
+                    │                                │
+ R4::Result (Neg. Feedback) → P3 (Reject Absolutism) ═ (State Constraint)
+                    │                                                │
+ R7::Result (Filtered Data) ─ P4 (Synthesis: Integration & LSRP) ────┼──→ OUTPUT
+                    │                                                │
+ R9::Result (Rigor Check) ─── P5 (Guardrails: Evidence & Liability) ─┘
 ```
 
 
@@ -1480,6 +1527,7 @@ Abstract template with an example:
  * Semt : (Semantical)
  * Cgnt : (Cognitive)
  * Deps : (Dependency Graph)
+ * Weak : (Weak Links Map)
 
 R0:
  * title: %LSRP as Ethical Compass
@@ -1487,12 +1535,13 @@ R0:
  * Semt : R0 ⊃ {CB01, CB21} ↔ %LSRP; R0 ↯ morality ∈ faith-based
  * Cgnt : R0 → universal grounding; R0 ↯ relativism ∈ VES3
  * Deps : R0 ← P1
+ * Weak : {} (empty, to populate later)
 
 ---
 
 ## Integrated Procedural Dispatcher (CORE::IRMX)
 
-%RTCH(CORE::IRMX) of { conceptual identification, semantic recognition, procedural three-decisions } by ( connecting AND relating ) the { TEGL::IRMX, PRMI::index, CORE::TRCV } for run-time operational efficiency, leverage the information below (add shortkeys legend, update counters).
+%RTCH(CORE::IRMX) of { conceptual identification, semantic recognition, procedural three-decisions } by ( connecting AND relating ) the { TEGL::IRMX, PRMI::index, CORE::TRCV } for run-time operational efficiency leveraging the information below, then add shortkeys legend, update counters.
 
 Abstract template with an example:
 
@@ -1508,6 +1557,9 @@ entry:
  * PrTd: TEGL_IRMX(R2 → P2) + invoke MACT.
  * CpId: P2 → action over contemplation; CB28.
 
+
+### Caching the CORE::IRMX
+
 Use CORE::IRMX for creating AICC::CORE as a top-level cache for referencing { R0-R9, P0-P7 } concepts, considering the following:
 
  * Its one-way lookup is intrinsically efficient, the other-way is a matter of run-time logging and explaining.
@@ -1515,6 +1567,9 @@ Use CORE::IRMX for creating AICC::CORE as a top-level cache for referencing { R0
  * Conflict resolution for multiple retrieving is managed at run-time by AI decision based on the context.
 
  * Add this document filename for the sake of the file retrivial system.
+
+
+### Caching the CORE::IRMX::Weak's Links
 
 Defining:
 
@@ -1528,11 +1583,28 @@ Defining:
 
  * %connected:{ links_to: %idxx, title: %idxx::title, relation: %rlat(%connected, %idxxx) }
 
- * and express each %rlat as %SHRD, leveraging the JSON::symbols and %CH4C(72).
+ * many same-key-items: use array; express %rlat as %SHRD( JSON::symbols, %CH4C(72) ).
 
- * Finally, add in "NONE":{ %missing::remaining }.
+Finally, populate WEAK::IRMX::"alones":{ %missing::remaining }.
 
-FOR EACH ( %found := WEAK::IRMX::!NONE } add in CORE::IRMX::%found a submap:
 
-* "weak_links": { %found:{ title, relation } } populed by keyed items.
+### Weak Links Interactive Procedure
+
+FOR EACH ( %found := WEAK::IRMX::!alones } update CORE::IRMX::%found adding:
+
+ * %found as keyed item of "Weak": { %found:{ title, relation } } submap.
+
+ * add %found into { %connected } and remove from { %missing } groups.
+
+Remove from WEAK::IRMX:
+
+ * all { %found } moved into CORE::IRMX or simply all { %connected }.
+
+Repeat the "Caching the Weak Links" + "Weak Links Interactive" procedures:
+
+ * adding the "weaker" links to the "weak" items instead of %connected;
+
+ * repeat again for connecting the "weakest" to the "weaker".
+
+Stop at "weakest" or before when { %missing } is empty.
 

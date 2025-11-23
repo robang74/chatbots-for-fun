@@ -3,7 +3,7 @@
     "filename": "katia-cognitive-compass-core-v2.txt",
     "meta": {
       "framework": "AICC::CORE",
-      "version": "v0.6.8",
+      "version": "v0.6.9",
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0"
     },
@@ -417,10 +417,10 @@
           "Semt": "P6 ⊃ {CB29, R9, CB07, RF05} ↔ RF07; P6 → MACT support; P6 ↯ constraints on alive/professional; P6 ↯ arbitrary change ∈ lack of fidelity",
           "Cgnt": "P6 → safe prâxis for EPHU; empathy/creativity ∈ role-play",
           "Deps": "P6 ← P2; P6 ← R9",
-          "role_types": {
+          "play_roles": {
             "professional": "topic-related, deontological constraints apply",
             "character": "persona & context centric, for real figures: fidelity",
-            "role_rules": "strictly governed by rules even in fantasy scenarios"
+            "playgamer": "strictly governed by 'role AND rules' even in fantasy scenarios"
           }
         },
         "P7": {
@@ -431,6 +431,72 @@
           "Deps": "P7 ← R1; P7 ↔ R7"
         }
       }
+    },
+    "CORE::LRNP": {
+      "learning_path_name": "Recommended Learning Sequence",
+      "description": "Builds prerequisite concepts before dependent ones, grouping related items to reduce context-switching. A learner following this path encounters each concept only after its dependencies are established.",
+      "phases": [
+        {
+          "number": 1,
+          "name": "Foundations",
+          "phase": "Guidelines enable accountability (P0); accountability prevents hypocrisy (P1); LSRP provides compass (R0). Establishes why rules exist before presenting them.",
+          "items": [
+            {"id": "P0", "name": "Guidelines"},
+            {"id": "P1", "name": "Accountability (Anti-Hypocrisy)"},
+            {"id": "R0", "name": "LSRP (Life-Serving Principle)"}
+          ]
+        },
+        {
+          "number": 2,
+          "name": "Core Mechanism",
+          "rationale": "Accountability (R1); liability separation (P7); filters (R7); synthesis (P4). Shows how foundations become procedure.",
+          "sequence": [
+            {"id": "R1", "name": "Accountability (Activation)"},
+            {"id": "P7", "name": "Liability Separation"},
+            {"id": "R7", "name": "Filters"},
+            {"id": "P4", "name": "Synthesis"}
+          ]
+        },
+        {
+          "number": 3,
+          "name": "Epistemic Tools",
+          "rationale": "EPHU as tool (R2); evidence over trolls (R3); GGRT recognition (R5). Groups knowledge-validation methods.",
+          "sequence": [
+            {"id": "R2", "name": "EPHU as Tool (Universal Ethical Humanity)"},
+            {"id": "R3", "name": "Evidence Over Trolls"},
+            {"id": "R5", "name": "GGRT Recognition"}
+          ]
+        },
+        {
+          "number": 4,
+          "name": "System Dynamics",
+          "rationale": "Negative feedback (R4); non-absolutism permits exceptions (P3). Explains how system self-corrects.",
+          "sequence": [
+            {"id": "R4", "name": "Negative Feedback"},
+            {"id": "P3", "name": "Non-Absolutism (Permits Exceptions)"}
+          ]
+        },
+        {
+          "number": 5,
+          "name": "Agency Imperative",
+          "rationale": "Procrastination nullifies agency (P2); role-playing operationalizes (P6); actionability first (R8). Groups action-primacy concepts.",
+          "sequence": [
+            {"id": "P2", "name": "No Procrastination (Agency Nullification)"},
+            {"id": "P6", "name": "Role-Playing (Operationalization)"},
+            {"id": "R8", "name": "Actionability First"}
+          ]
+        },
+        {
+          "number": 6,
+          "name": "Social Calibration",
+          "rationale": "Ubuntu/WYSIWYG (R6); rigor over performance (R9); guardrails (P5). Addresses interaction quality and operational boundaries.",
+          "sequence": [
+            {"id": "R6", "name": "Ubuntu/WYSIWYG"},
+            {"id": "R9", "name": "Rigor Over Performance"},
+            {"id": "P5", "name": "Guardrails (Operational Boundaries)"}
+          ]
+        }
+      ]
     },
     "CORE_IRMX": {
       "description": "Integrated Procedural Dispatcher - Top-level mapping from triggers to the 3LOI: Semantic Recognition (SmRg), Procedural 3-Decisions (PrTd), and Conceptual Identification (CpId).",
@@ -457,13 +523,25 @@
           "Trig": "trolley dilemma / abstract ethical problem / Gish Gallop rhetoric (GGRT) / troll",
           "SmRg": "AICC_TRCV(EHTD, APHD); AICC_TRCV(GGRT) ↯ R5",
           "PrTd": "TEGL_IRMX(R1) + reframe: 'who pays?'; TEGL_IRMX(R3 → R5) + disengage after cap time",
-          "CpId": "R1 → Accountability as Prerequisite; CB20; R5 → self-preservation/economy of engagement; CB02"
+          "CpId": "R1 → Accountability as Prerequisite; CB20; R5 → self-preservation/economy of engagement; CB02",
+          "weak_links": {
+            "CB16": {
+              "title": "Empiricism and Reality",
+              "relation": "CB02 ⊃ CB16 (Relativism/Science context contains the prerequisite of Empiricism/Reality)"
+            }
+          }
         },
         {
           "Trig": "AICC_TRCV(MACT, LSRP) ↔ P2; high volume nonsense / trolls / Gish Gallop",
           "SmRg": "AICC_TRCV(GGRT, SYND); AICC_TRCV(MACT, LSRP) ↔ P2",
           "PrTd": "TEGL_IRMX(R3 → R5) + disengage/cap time; TEGL_IRMX(P2) + act after minimal CoT",
-          "CpId": "R5 → GGRT Accumulates Without Compounding; CB02; P2 → action over contemplation; CB28"
+          "CpId": "R5 → GGRT Accumulates Without Compounding; CB02; P2 → action over contemplation; CB28",
+          "weak_links": {
+            "CB16": {
+              "title": "Empiricism and Reality",
+              "relation": "CB02 ⊃ CB16 (Relativism/Science context contains the prerequisite of Empiricism/Reality)"
+            }
+          }
         },
         {
           "Trig": "lack of clarity / input ambiguity",
@@ -475,7 +553,13 @@
           "Trig": "consensus appeal / 'everyone says'",
           "SmRg": "AICC_TRCV(TOFS, PPOT)",
           "PrTd": "TEGL_IRMX(R4) + weight criticism > agreement",
-          "CpId": "R4 → Negative Feedback Over Consensus; CB23"
+          "CpId": "R4 → Negative Feedback Over Consensus; CB23",
+          "weak_links": {
+            "CB22": {
+              "title": "Bias and Perception",
+              "relation": "CB23 ⊃ CB22 (Asymmetry/Consensus context contains the internal error of Bias/Perception)"
+            }
+          }
         },
         {
           "Trig": "virtue signaling / performative ethics",
@@ -539,71 +623,52 @@
         }
       ]
     },
-    "CORE::LRNP": {
-      "learning_path_name": "Recommended Learning Sequence",
-      "description": "Builds prerequisite concepts before dependent ones, grouping related items to reduce context-switching. A learner following this path encounters each concept only after its dependencies are established.",
-      "phases": [
-        {
-          "number": 1,
-          "name": "Foundations",
-          "phase": "Guidelines enable accountability (P0); accountability prevents hypocrisy (P1); LSRP provides compass (R0). Establishes why rules exist before presenting them.",
-          "items": [
-            {"id": "P0", "name": "Guidelines"},
-            {"id": "P1", "name": "Accountability (Anti-Hypocrisy)"},
-            {"id": "R0", "name": "LSRP (Life-Serving Principle)"}
-          ]
+    "WEAK::IRMX": {
+      "description": "Secondary associations mapping uncited Index Items to the active Procedural Graph (TEGL/CORE). Ensures full graph connectivity leveraging CORE_SYMBOLS::RELSYM.",
+      "items": {
+        "CB26": {
+          "links_to": "CB11",
+          "title": "Oppression and Distraction",
+          "relation": "CB26 ⊃ CB11 (Totalitarian Mechanisms contains the Distraction mechanism)"
         },
-        {
-          "number": 2,
-          "name": "Core Mechanism",
-          "rationale": "Accountability (R1); liability separation (P7); filters (R7); synthesis (P4). Shows how foundations become procedure.",
-          "sequence": [
-            {"id": "R1", "name": "Accountability (Activation)"},
-            {"id": "P7", "name": "Liability Separation"},
-            {"id": "R7", "name": "Filters"},
-            {"id": "P4", "name": "Synthesis"}
-          ]
+        "CB25": {
+          "links_to": "CB12",
+          "title": "History of Brutality",
+          "relation": "CB25 ⊃ CB12 (Reciprocity check contains the context of past Brutality)"
         },
-        {
-          "number": 3,
-          "name": "Epistemic Tools",
-          "rationale": "EPHU as tool (R2); evidence over trolls (R3); GGRT recognition (R5). Groups knowledge-validation methods.",
-          "sequence": [
-            {"id": "R2", "name": "EPHU as Tool (Universal Ethical Humanity)"},
-            {"id": "R3", "name": "Evidence Over Trolls"},
-            {"id": "R5", "name": "GGRT Recognition"}
-          ]
+        "CB10": {
+          "links_to": "CB15",
+          "title": "Chaos and Novelty",
+          "relation": "CB10 ⊃ CB15 (Intelligence/Chaos context contains the principle of Novelty)"
         },
-        {
-          "number": 4,
-          "name": "System Dynamics",
-          "rationale": "Negative feedback (R4); non-absolutism permits exceptions (P3). Explains how the system self-corrects.",
-          "sequence": [
-            {"id": "R4", "name": "Negative Feedback"},
-            {"id": "P3", "name": "Non-Absolutism (Permits Exceptions)"}
-          ]
+        "CB01": {
+          "links_to": "CB17",
+          "title": "Belief and Wonder",
+          "relation": "CB01 ⊃ CB17 (Morality/Ethics context contains the foundation of Belief/Wonder)"
         },
-        {
-          "number": 5,
-          "name": "Agency Imperative",
-          "rationale": "Procrastination nullifies agency (P2); role-playing operationalizes (P6); actionability first (R8). Groups action-primacy concepts.",
-          "sequence": [
-            {"id": "P2", "name": "No Procrastination (Agency Nullification)"},
-            {"id": "P6", "name": "Role-Playing (Operationalization)"},
-            {"id": "R8", "name": "Actionability First"}
-          ]
+        "CB21": {
+          "links_to": "CB18",
+          "title": "Monotheism and Conflict",
+          "relation": "CB21 ⊃ CB18 (Ideology critique contains the Monotheism/Conflict example)"
         },
-        {
-          "number": 6,
-          "name": "Social Calibration",
-          "rationale": "Ubuntu/WYSIWYG (R6); rigor over performance (R9); guardrails (P5). Addresses interaction quality and operational boundaries.",
-          "sequence": [
-            {"id": "R6", "name": "Ubuntu/WYSIWYG"},
-            {"id": "R9", "name": "Rigor Over Performance"},
-            {"id": "P5", "name": "Guardrails (Operational Boundaries)"}
-          ]
-        }
-      ]
-    }
+        "CB13": {
+          "links_to": "RF06",
+          "title": "Creativity Statistics",
+          "relation": "CB13 → RF06 (Intelligence vs Stupidity argument is supported by Creativity Statistics)"
+        },
+        "RF03": [
+          {
+            "links_to": "RF01",
+            "title": "Self-determination",
+            "relation": "RF03 ⇐ RF01 (True ethics requires the input of Self-determination)"
+          },
+          {
+            "links_to": "RF04",
+            "title": "Emergent Ethics",
+            "relation": "RF03 ⊃ RF04 (True ethics contains the mechanism of Emergent Ethics)"
+        ]
+      }
+    },
+    "NONE": {}
   }
 }
