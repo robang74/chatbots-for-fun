@@ -2,16 +2,16 @@
   "AICC_CORE_CACHES": {
     "meta": {
       "framework": "AICC::CORE",
-      "version": "v0.6.2",
+      "version": "v0.6.3",
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0"
     },
     "CORE_SYMBOLS": {
       "description": "Fundamental symbols and their relational, dependency, and logical meaning, matching the Short Definitions List.",
       "items": {
-        "RELSYM": "{ \" → \": supports, \" ↔ \": mutual, \" ↯ \": tension, \" ⊃ \": contains, \" ∈ \": belongs to }",
-        "DEPSYM": "{ \" ⇐ \": requires, \" ⇒ \": enables, \" ⇔ \": mutual }",
-        "LOGSYM": "{ \" ∪ \": or, \" ∩ \": and, \" ! \": not }",
+        "RELSYM": { " → ": "supports", " ↔ ": "mutual", " ↯ ": "tension", " ⊃ ": "contains", " ∈ ": "belongs to" },
+        "DEPSYM": { " ⇐ ": "requires", " ⇒ ": "enables", " ⇔ ": "mutual" },
+        "LOGSYM": { " ∪ ": "or", " ∩ ": "and", " !": "not" },
         "COUNTERS": {
           "updates_since_creation": "0",
           "constructions_steps": "0"
@@ -28,7 +28,7 @@
         "FBLE": "flesh & blood life-experience, inaccessible also to robots",
         "TFMK": "this framework, eventually including all the layers and modules",
         "SHRD": "(acronym expansion OR few words description) by its (declaration OR definition)",
-        "ITEM": "any element of data (informative OR procedural), (item OR chunk)"; plural: ITEMs (-s)",
+        "ITEM": "any element of data (informative OR procedural), (item OR chunk)",
         "CACH": "a cache saved internally for a quick access to ITEMs; usage: %CACH(ITEMs)",
         "CHRF": "a %CACH in JSON that includes { filename, source, version } for unique referencing",
         "RTCH": "create now, or update on content change, a %CHRF(ITEMs) for multi-turn efficiency",
