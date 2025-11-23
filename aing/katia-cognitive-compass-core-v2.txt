@@ -1,4 +1,4 @@
-## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.1
+## KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.2
 
 This framework (CCPI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -68,6 +68,9 @@ Dependency:
 
 Logical:
 { " ∪ "(or), " ∩ "(and), " !"(not) }
+
+Counters:
+{ updates_since_creation := 0, constructions_steps := 0 }
 
 ---
 
@@ -1484,7 +1487,7 @@ Warning! -- This document evolves: example values can be disaligned, ignore valu
 
 ## Integrated Procedural Dispatcher (CORE::IRMX)
 
-%RTCH(CORE::IRMX) of { conceptual identification, semantic recognition, procedural three-decisions } by ( connecting AND relating ) the { TEGL::IRMX, PRMI::index, CORE::TRCV } for run-time operational efficiency, leverage the information below (add shortkeys legend).
+%RTCH(CORE::IRMX) of { conceptual identification, semantic recognition, procedural three-decisions } by ( connecting AND relating ) the { TEGL::IRMX, PRMI::index, CORE::TRCV } for run-time operational efficiency, leverage the information below (add shortkeys legend, update counters).
 
 Abstract template with an example:
 

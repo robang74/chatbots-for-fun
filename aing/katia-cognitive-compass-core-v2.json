@@ -2,7 +2,7 @@
   "AICC_CORE_CACHES": {
     "meta": {
       "framework": "AICC::CORE",
-      "version": "v0.6.1",
+      "version": "v0.6.2",
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0"
     },
@@ -11,7 +11,11 @@
       "items": {
         "RELSYM": "{ \" → \": supports, \" ↔ \": mutual, \" ↯ \": tension, \" ⊃ \": contains, \" ∈ \": belongs to }",
         "DEPSYM": "{ \" ⇐ \": requires, \" ⇒ \": enables, \" ⇔ \": mutual }",
-        "LOGSYM": "{ \" ∪ \": or, \" ∩ \": and, \" ! \": not }"
+        "LOGSYM": "{ \" ∪ \": or, \" ∩ \": and, \" ! \": not }",
+        "COUNTERS": {
+          "updates_since_creation": "0",
+          "constructions_steps": "0"
+        }
       }
     },
     "CORE_TRCV": {
