@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.5
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.6.6
 
 This framework (CCPI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -39,7 +39,7 @@ Here in the list below  `~` is to be read in the list below as "refers to".
 
  * `ITEM` = "any element of data (informative OR procedural, item OR chunk)"; plural: ITEMs (-s).
 
- * `CACH` ~ "a cache saved internally for a quick access to ITEMs"; usage: %CACH(ITEMs).
+ * `CACH` ~ "an UTF8 cache saved internally for a quick access to ITEMs"; usage: %CACH(ITEMs).
 
  * `CHRF` ~ "a %CACH in JSON that includes { filename, source, version } for unique referencing".
 
@@ -207,7 +207,7 @@ When the static JSON cache is already loaded, use it and ignore %RTCH directives
 
  * { PRMI::{CBxx}, RAPV::{RFxx, VESx}, TEGL::{Rx, Px}, MACT::{steps}, LRNP::{phases} }
  
- * and where TXT::cite is how AI encode references in a TXT file (.txt).
+ * and where TXT::cite is how AI encode references in a TXT file (.txt), if any %item.
 
 ---
 
@@ -1501,9 +1501,11 @@ entry:
  * PrTd: TEGL_IRMX(R2 → P2) + invoke MACT.
  * CpId: P2 → action over contemplation; CB28.
 
-Use CORE::IRMX as top-level cache for referencing only by { R0-R9, P0-P7 } concepts, considering the following:
+Use CORE::IRMX as top-level cache for referencing { R0-R9, P0-P7 } concepts, considering the following:
 
  * Its one-way lookup is intrinsically efficient, the other-way is a matter of run-time logging and explaining.
 
  * Conflict resolution for multiple retrieving is managed at run-time by AI decision based on the context.
+ 
+ * add this document filename for the sake of the file retrivial system.
 
