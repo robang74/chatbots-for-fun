@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.0
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.1
 
 This framework (CCPI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1555,7 +1555,7 @@ Abstract template with an example:
  * Semt : (Semantical)
  * Cgnt : (Cognitive)
  * Deps : (Dependency Graph)
- * Weak : (Weak Links Map)
+ * Lkns : (Links Map)
 
 R0:
  * title: %LSRP as Ethical Compass
@@ -1563,7 +1563,7 @@ R0:
  * Semt : R0 ⊃ {CB01, CB21} ↔ %LSRP; R0 ↯ morality ∈ faith-based
  * Cgnt : R0 → universal grounding; R0 ↯ relativism ∈ VES3
  * Deps : R0 ← P1
- * Weak : {} (empty, to populate later)
+ * Lkns : {} (empty, to populate later)
 
 ---
 
@@ -1597,11 +1597,11 @@ Use CORE::IRMX for creating AICC::CORE as a top-level cache for referencing { R0
  * Add this document filename for the sake of the file retrivial system.
 
 
-### Caching the CORE::IRMX::Weak's Links
+### Caching the TEGL::IRMX Links
 
 Defining:
 
-* / { TEGL, CORE }::{ CBxx, RFxx } as { CBxx, RFxx } cited in { TEGL, CORE } /(connected)
+* / TEGL::{ CBxx, RFxx } as { CBxx, RFxx } cited in TEGL::IRMX /(connected)
 
 * / !%connected /(missing) and / the specific %missing one /(idxx).
 
@@ -1616,23 +1616,21 @@ Defining:
 Finally, populate WEAK::IRMX::"alones":{ %missing::remaining }.
 
 
-### Weak Links Interactive Procedure
+### Weak Links Discovery Procedure ()
 
-FOR EACH ( %found := WEAK::IRMX::!alones } update CORE::IRMX::%found adding:
+def/ function WLDP(keystr):
 
- * %found as keyed item of "Weak": { %found:{ title, relation } } submap.
+ * FOR EACH ( %found := WEAK::IRMX::!alones } update TEGL::IRMX::%found adding:
 
- * add %found into { %connected } and remove from { %missing } groups.
+    - %found as keyed item of %keystr: { %found:{ title, relation } } submap.
 
-Remove from WEAK::IRMX:
+    - add %found into { %connected } and remove from { %missing } groups.
 
- * all { %found } moved into CORE::IRMX or simply all { %connected }.
+ * Remove from WEAK::IRMX all those are { %connected }.
+ 
+ * Keep { %connected } and { %missing } groups cached.
 
-Repeat the "Caching the Weak Links" + "Weak Links Interactive" procedures:
+/def
 
- * adding the "weaker" links to the "weak" items instead of %connected;
-
- * repeat again for connecting the "weakest" to the "weaker".
-
-Stop at "weakest" or before when { %missing } is empty.
+exec %WLDP("Weak")
 
