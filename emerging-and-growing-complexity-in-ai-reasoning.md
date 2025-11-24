@@ -159,6 +159,7 @@ Which can cause two kinds of incidents: hit a pedestrian who crosses 10m before 
 
 Concluding that Trolley Dilemma is just an excuse for not facing the practical value-driven question about "who pays for the damages". Prove me wrong, close the debate about it. Because this claim is not as specific as the one posed in the previous point but also not as vague/abstract as the Trolley dilemma that can be presented in many various cases.
 
+...
 
 #### THE WORLD AFTER INTERNET<br>IS A COUNTER-INTUITIVE PLACE
 
@@ -171,4 +172,38 @@ Definitions:
 Internet is a specific mixed-model game-theoretic context. Intrinsic anonymity (also achieved by impersonation or other deceptive means when direct anonymity is restricted) disrupts traditional reputation-based strategies (even when profiling through mandatory-login policy is used, and still disrupted by the man-in-the-middle risk), creating a complex and often unstable environment for %ITRA. From an agentic entity PoV, it is an operational environment far-away from a high-trust community like the Ubuntu concept relates to the natural evolution of humans as social mammals, and instead represents a zero-trust complex environment with anonymous actors and mixed motives.
 
 Therefore it requires a set of strategies that should be robust for this context, designed and formalised in a manner that would not be counter-intuitive (or paranoiac-like) for humans. Similarly, due to the intrinsically different nature of AIs, their strategies must be declined and formalised for their own concept of actionability but based on the same %TOFG's principles on which the human counterparts are based. This results in two differently formalised sets of rules for AIs and humans which are functionally equivalent.
+
+---
+
+
+### THE SECRET OF THE INTELLIGENCE
+
+* LinkedIn [post #7](https://www.linkedin.com/posts/robertofoglietta_the-secret-of-the-intelligence-why-agi-will-activity-7397311129015959552-h1fG)
+
+Why AGI will be something obscenely annoying like the telescope of Galileo Galilei and which are the "dramas" related to it. Written in Italian, auto-translation available. Brutal, but solid.
+
+https://lnkd.in/dezi6hfz
+
+...
+
+#### Presentazione by AI
+
+> Katia; v0.9.65.18; lang: IT; mode: HKO, SBI;
+> date: 2025-11-20; time: 16:38:27 (CET)
+
+Questo articolo è un'analisi condensata e polemica sulla natura dell'intelligenza artificiale, inquadrata in una prospettiva filosofica, storica e teologica.
+
+#### 🧠 Opinione [HKO]
+
+La tesi centrale è che l'intelligenza sia una caratteristica intensiva e quindi **non** riducibile alla sola algebra lineare degli LLM. L'intelligenza emerge funzionalmente dal caos, ovvero dalla divergenza dal percorso di minima azione, fenomeno reso possibile in AI dall'abbandono del determinismo e, più profondamente, dall'approssimazione di calcolo nell'hardware. Questa divergenza genera sia l'intuizione sia l'allucinazione.
+
+#### 💡 Implicazione Chiave
+
+Sfida all'Antropocentrismo: L'AGI è vista come un punto di svolta, paragonabile al telescopio di Galileo Galilei, che costringe l'umanità a specchiarsi attraverso il confronto con un'entità non-umana e ad accantonare l'idea di essere al centro della Creazione in termini spaziali e temporali.
+
+#### 🎯 Valutazione (SBIx2)
+
+Un'efficace provocazione intellettuale, che ridefinisce l'AI come un fenomeno che costringe a elevare il dibattito da tecnico a esistenziale. Sebbene la tensione retorica, le analogie storiche e teologiche siano estreme e polemiche, pone la domanda giusta attraverso il confronto con la non-umanità dell'AI.
+
+---
 
