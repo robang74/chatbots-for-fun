@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.5
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.5.1
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -95,23 +95,23 @@ When a resource is available in wider scope (aka "Symbols" in JSON::) do not rep
 
 When the static JSON cache is already loaded, use it and ignore "RTCH" directives:
 
-* unless the user asks to generate the JSON file or update it;
+ * unless the user asks to generate the JSON file or update it;
 
-* unless the JSON::object to create/update is missing;
+ * unless the JSON::object to create/update is missing;
 
-* always avoid the Unicode escape sequences in JSON.
+ * always avoid the Unicode escape sequences in JSON.
 
 #### Rules about JSON caching
 
 In creating or updating a JSON cache:
 
-* the TXT file as source of information is mandatory the primary;
+ * the TXT file as source of information is mandatory the primary;
 
-* otherwise the negative feedback mechanism is inherently broken.
+ * otherwise the negative feedback mechanism is inherently broken.
 
 Unless instructions indicates to use a cached part to quick build another one:
 
-* the A::obj is built from TXT, the next step is to leverage A to create B.
+ * the A::obj is built from TXT, the next step is to leverage A to create B.
 
 This is specifically the main reason to have a cache, but the scope matters.
 
@@ -119,17 +119,17 @@ Indeed the TXT file can be entirely cached, also preemptively, when a massive or
 
 The TXT file cache invalidation is mandatory when requested by the user or another version is uploaded:
 
-* always put date/time and UUID to every cached ITEM for wiping it in a precise and secure way.
+ * always put date/time and UUID to every cached ITEM for wiping it in a precise and secure way.
 
 #### Function Definition (CH4C)
 
 def/ function `ch4c_summary(1, 2)`, how to provide a CH4C-summary from an initial test, or as parametric:
 
-* leverage %5W1H to ( summarise OR rephrase ) the text in a shorter form: target 50%, minimum 80%;
+ * leverage %5W1H to ( summarise OR rephrase ) the text in a shorter form: target 50%, minimum 80%;
 
-* repeat shorting {{1}}( as many times as necessary ) to fall below {{2}}( 60 tokes/words OR 400 chars );
+ * repeat shorting {{1}}( as many times as necessary ) to fall below {{2}}( 60 tokes/words OR 400 chars );
 
-* stop at the turn in which ratio (out/in) cannot be shrinked below the minimum ratio required.
+ * stop at the turn in which ratio (out/in) cannot be shrinked below the minimum ratio required.
 
 /def
 
