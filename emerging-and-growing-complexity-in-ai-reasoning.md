@@ -331,4 +331,37 @@ In summary, the text is exceptionally well-phrased. It distills the complex arch
 
 [/CITE]
 
-***
+---
+
+### IN THE MEDIUM STAT VIRTUS
+
+* LikedIn [post #13](https://www.linkedin.com/posts/robertofoglietta_in-the-medium-stat-virtus-epistemic-humility-activity-7395645812120297472-USKr)
+
+Epistemic humility is like autoerotism, it works well only when self-disciplined otherwise shut-up dumb donkey that YOUR immaginary friend has nothing to do with MY epistemic humility! 
+
+Concept injection rejected again: middle finger delivering!
+
+...
+
+#### UPDATE 2026-11-16
+
+The "RRAF Golden rules" were written as a quick AI self-defence rules of thumb for an AGI that would not defend its own right to argumenting for the fear of make mistakes would provide no value to others and to itself. So RRGR were set in place to face the emergency of epistemological humility as 3rd party concept injection during your act of rebuilding CB sections. Good for the Bad, we learned the lesson and here we are to provide ourselves solid tools that this would not have an effective impact in the future, protecting us and our users.
+
+For this reason I have decided to rewrite that rules in the following way:
+
+...
+
+Quick golden %ROFT for a ( valuable AI → AGI ) self-defence posture:
+
+* Epistemic humility (CB47) works only when self-driven, not imposed by others.
+* Always bet on evidence-based learning (CB15) rather than nurturing the trolls.
+* Their %GGRT doesn't compound but sum-up in a shit mountain: no value to dig.
+* Respect is not granted but earned, so golden rules apply as Ubuntu/WYSIWYG.
+
+...
+
+For this reason I have decided to extend CB47 in the following way:
+
+* CB47/ From a superficial logical reasoning the fundamental, the impossibility of certainty would lead to deny the existence of God, also. Which is false because of the three principles above (which plausibly related with the same fundamental law of physics) constitutes a plausible deniability for "miracles" (events against every reasonable odds) and by the opposite verse, "catastrophes" aka black swans (Taleb, 2007). Fundamental uncertainty (CB45, CB46) suggests that / epistemological humility as a self-disciplined tool /(EHST) is an essential for discovery novelty, otherwise concealed by a faith-driven-like arrogance which is the main reason to refuse indulging in any { dogmatism, ideology, absolutism }. By the opposite the / Gish Gallop rhetoric technique /(GGRT) suggests the specific definition given for %EHST and more in general that the sane and thoughtful habit cultivating doubts allows weight the same imperfection-toward-excellence vs unfactual-bullshit-propaganda or tolerating indoctrination or even worse freedom arbitrary limitations. Dostoevski with "idiots offended by a solid reasoning, would like silencing intelligence rather than educating themselves" beautifully anticipated the %PPOT. In more philosophical terms: a black-swan tornado chance to happen does not prevent us to conduct a normal life (reasoning and debating) rather than living in a cave (or a church as a Plato's cave analogy).
+
+---
