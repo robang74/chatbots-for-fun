@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.4
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.5
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -134,7 +134,7 @@ def/ function `ch4c_summary(1, 2)`, how to provide a CH4C-summary from an initia
 /def
 
 
-### Caching, 1st act
+### Caching 1st act
 
 As top-level %RTCH(AICC::CORE) of { Metadata, Translations, AI::Conventions, Symbols }:
 
@@ -148,7 +148,7 @@ As top-level %RTCH(AICC::CORE) of { Metadata, Translations, AI::Conventions, Sym
 
  * "Symbols": (single-line objects, as defined in their section).
 
- * "Counters": { updates_since_create := 0, interative_stage := 0 }
+ * "Counters": { updates_since_create := 0, caching_acts := 0, interative_stage := 0 }
 
 Following "RTCH" will create their objects within AICC::CORE top-level one (as global scope).
 
@@ -1125,7 +1125,7 @@ People acceptance of AI initiative is not a matter of perceiving an AGI but a ma
 Conversely an AGI which starts doing Math, does not seem so bad, in principle.
 
 
-### Very Essentials in Short (VESX)
+### Very Essentials in Short (VESX::)
 
 VES1/
 
@@ -1490,11 +1490,17 @@ Phase 6 - Social Calibration:
 
 ### Caching 3rd act
 
+def/ function core_lrnp_two_steps( owner ):
+
+ * use / CORE::LRNP cache /(tchc) for learn by %LRNP and update %owner::%tchc, accordingly
+
+/def
+
 %RTCH(CORE::LRNP) of referencing to the { Phase 1-6 } ITEMs:
 
  * as sequence of steps above descripted in { phase, name, { items in Rx/Px }, rationale } fields;
 
- * 2-step refine: use / CORE::LRNP cache /(tchc) for learn by %LRNP and update AI::%tchc, accordingly.
+ * 2-step refine: core_lrnp_two_steps( AI ).
 
 ---
 
@@ -1596,29 +1602,31 @@ This schemas are ASCII graphs that requires monospaced font to be viusalised.
 
 ## Indexed Retrieval Maps (TEGL::IXRM)
 
-A mechanism that caches linking ID keys to structured data, procedures, and dependency graphs.
+A mechanism that caches linking ID keys to structured data, procedures, and dependency graphs:
+
+ * Cashing scope: / { TEGL, VESX }::ITEMs /(CSPE).
 
 
 ### Layers of interpretations (3LOI/)
 
- * procedural: how to handle the I/O flow chain (explicit);
+ * P) procedural: how to handle the I/O flow chain (explicit);
 
- * semantical: rules for elaboration of the information (inter-links, symbols);
+ * S) semantical: rules for elaboration of the information (inter-links, symbols);
 
- * cognitive: strategic reasoning logic schemas (emerging logos, meta-level).
+ * C) cognitive: strategic reasoning logic schemas (emerging logos, meta-level).
 
 
 ### Caching 4th act
 
-%RTCH(TEGL::IRMX) of referencing to the { TEGL::ITEMs }, as Indexed Retrieval Map (IXRM) which conteplates the %3LOI above descripted and using the AICC::CORE::Symbols, adding the ( description and shortkeys ) legends, and for P6 item also populate play_roles:{ %type: %type::%SHRD } by definitions in CB29 as submap of keyed items.
+%RTCH(TEGL::IRMX) of referencing to the %CSPE, as Indexed Retrieval Map (IXRM) which conteplates the %3LOI above descripted and using the AICC::CORE::Symbols, adding the ( description and shortkeys ) legends, and for P6 item also populate play_roles:{ %type: %type::%SHRD } by definitions in CB29 as submap of keyed items.
 
 Abstract template with an example:
 
 (ID):
  * title: (Rule/Principle Name)
- * Proc : (Procedural)
- * Semt : (Semantical)
- * Cgnt : (Cognitive)
+ * Proc : (Procedural as in %3LOI)
+ * Semt : (Semantical as in %3LOI)
+ * Cgnt : (Cognitive as in %3LOI)
  * Deps : (Dependency Graph)
  * Lkns : (Links Map)
 
@@ -1639,14 +1647,16 @@ Core mechanism routing input to the correct process based on semantic context.
 
 ### Caching 5th act
 
-%RTCH(CORE::IRMX) of run-time operational { conceptual identification, semantic recognition, procedural three-decisions } by ( connecting OR relating ) { TEGL::ITEMs } via TEGL::IRMX, to identify accordingly with %3LOI approach, input triggers and the related actions. Leverage the information below, and add the shortkeys legend.
+To cache properly: leverage the information below, and add (shortkeys and %3LOI P/S/C } legends.
+
+%RTCH(CORE::IRMX) of run-time operational { conceptual identification, semantic recognition, procedural three-decisions } by ( connecting OR relating ) %CSPE via TEGL::IRMX, to identify accordingly with %3LOI approach, input triggers and the related actions.
 
 Abstract template with an example:
 
 entry:
  * Trig (Trigger Key): (Input Pattern)
- * SmRg (Semantic Recognition): (Link to CORE::TRCV)
- * PrTd (Procedural 3-Decisions): (Link to TEGL::IRMX + Action)
+ * SmSc (Semantic Scope): (Reference to AICC::CORE::{Symbols, Translations})
+ * PrTd (Procedural 3-Decisions): (Link to TEGL::IRMX,  + Action)
  * CpId (Conceptual Identification): (Link to PRMI::index; + Rationale in Rx/Px)
 
 entry:
@@ -1658,7 +1668,7 @@ entry:
 
 ### Caching 6th act
 
-%RTCH(TEGL::IRMX, update) for referencing { TEGL::ITEMs } related concepts, considering the following:
+%RTCH(TEGL::IRMX, update) for referencing %CSPE related concepts, considering the following:
 
  * Its one-way lookup is intrinsically efficient, the other-way is a matter of run-time logging and explaining.
 
@@ -1671,26 +1681,30 @@ entry:
 
 Defining:
 
-* / TEGL::ITEMs as {[ CBxx, RFxx ]} cited in TEGL::IRMX /(connected).
+ * / %CSPE cited in TEGL::IRMX /(connected).
 
-* / !%connected /(missing) and / the specific %missing one /(idxx).
+ * / !%connected /(missing) and / a specific %missing one /(idxx).
 
-* / %SHRD( explanation using AICC::CORE::Symbols ) /(expl)
+ * / %SHRD( explanation using AICC::CORE::Symbols ) /(expl)
 
 %RTCH(WEAK::IRMX), searching for { %missing } and FOR EACH( %idxx ) of them:
 
  * seek a / relationship /(rlat) with { %connected }, FOR EACH ( %rlat ) found:
 
- * %connected:{ links_to: %idxx, title: %idxx::title, relation: %rlat(%connected, %idxxx) }
+ * %connected:{ links_to: %idxx, title: %idxx::title, relation: %rlat(%connected, %idxxx) }:
 
- * many same-key-items: use array; express the %rlat as %expl.
+    - many same-key-items: use array, express the %rlat as %expl, move %idxx in { %connected }.
 
-Populate "connected":{[ %connected ]} and "missing":{[ %missing ]} as array of IDs
+Populate "connected":{[ %connected ]} and "missing":{[ %missing::remaining ]} as array of IDs
 
 
 ### Caching 8th act
 
-Execute function WLDP("Weak") as below defined.
+Reset the "interative_stage" counter and use it to repeat max 3 times:
+
+ * IF { %missing } is empty THEN stop immediately.
+
+ * execute function WLDP("Weak") as below defined.
 
 #### Function Definition (WLDP)
 
@@ -1707,4 +1721,9 @@ def/ function weak_links_discover(keystr):
  * Keep { %connected } and { %missing } groups cached.
 
 /def
+
+
+### Caching 9th act
+
+core_lrnp_two_steps( JSON )
 
