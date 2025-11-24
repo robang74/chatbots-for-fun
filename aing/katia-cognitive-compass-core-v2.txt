@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.2
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.3
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1610,7 +1610,7 @@ A mechanism that caches linking ID keys to structured data, procedures, and depe
 
 ### Caching 4th act
 
-%RTCH(TEGL::IRMX) of referencing to the { TEGL::ITEMs }, as Indexed Retrieval Map (IXRM) which conteplates the %3LOI above descripted and using the relational symbols presented, adding P/S/C ( description and shortkeys ) legends, and for P6 item also populate play_roles:{ %type: %type::%SHRD } by definitions in CB29 as submap of keyed items.
+%RTCH(TEGL::IRMX) of referencing to the { TEGL::ITEMs }, as Indexed Retrieval Map (IXRM) which conteplates the %3LOI above descripted and using the AICC::CORE::Symbols, adding the ( description and shortkeys ) legends, and for P6 item also populate play_roles:{ %type: %type::%SHRD } by definitions in CB29 as submap of keyed items.
 
 Abstract template with an example:
 
@@ -1667,11 +1667,11 @@ entry:
  * Add this document filename for the sake of the file retrivial system.
 
 
-### Caching the TEGL::IRMX Links
+### Caching 7th act
 
 Defining:
 
-* / TEGL::{ CBxx, RFxx } as { CBxx, RFxx } cited in TEGL::IRMX /(connected)
+* / TEGL::ITEMs as { CBxx, RFxx } cited in TEGL::IRMX /(connected)
 
 * / !%connected /(missing) and / the specific %missing one /(idxx).
 
@@ -1681,9 +1681,14 @@ Defining:
 
  * %connected:{ links_to: %idxx, title: %idxx::title, relation: %rlat(%connected, %idxxx) }
 
- * many same-key-items: use array; express %rlat as %SHRD( JSON::symbols, %CH4C(72) ).
+ * many same-key-items: use array; express %rlat as %SHRD( AICC::CORE::Symbols, %CH4C(72) ).
 
 Finally, populate WEAK::IRMX::"alones":{ %missing::remaining }.
+
+
+### Caching 8th act
+
+Execute function WLDP("Weak") as below defined.
 
 #### Function Definition (WLDP)
 
@@ -1691,7 +1696,9 @@ def/ function weak_links_discover(keystr):
 
  * FOR EACH ( %found := WEAK::IRMX::!alones } update TEGL::IRMX::%found adding:
 
-    - %found as keyed item of %keystr: { %found:{ title, relation } } submap.
+    - %found as keyed item of %keystr: { %found:{ title, relation } } submap:
+
+        + drop the "links_to" in favor of within "Lnks" embeddeding.
 
     - add %found into { %connected } and remove from { %missing } groups.
 
@@ -1700,4 +1707,5 @@ def/ function weak_links_discover(keystr):
  * Keep { %connected } and { %missing } groups cached.
 
 /def
+
 
