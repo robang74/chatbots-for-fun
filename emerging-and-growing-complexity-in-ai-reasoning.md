@@ -392,21 +392,11 @@ By opposite an AGI which starts doing Maths, does not seem so bad, in principle.
 
 Si tratta di una costruzione concettuale che ha l'ambizione di avere delle caratteristiche molto particolari quali, essere: denso, compatto, solido, connesso e per efficienza cachabile. Parliamo quindi di un monolito in termini architetturali come corpus informativo, progettato per essere una bussola cognitiva
 
-Ovvero Lucifero, il portatore di luce qualora il Monolito di 2001 Odissea nello spazio non vi garba per l'allusione al Pianeta delle Scimmie. 🤗 
-
 Sono cinque dimensioni importanti che hanno rischiesto, in particolare per ottenere la quinta, che tale monolito fosse estratto dal Katia Framework per essere modularizzato e quindi cachato (nella finestra di contesto). 
 
 Quanto funzioni bene il caching in termini di efficienza, non è dato saperlo ma potrebbe portare Katia al massimo della sua capacità cognitiva a rispondere tanto velocemente quanto il modello vanilla, quando in precedenza richiedeva anche 10-15 secondi di pre-elaborazione prima di riuscire ad emmettere il primo token.
 
-Sia chiaro, il caching non è gratis. Significa che SOLO per l'AICC (bussola concettuale, in context/cache) sono consumati 128Kb che a seconda del modello sono 16K-20K tokens. Pensate che un LLM in genere ha una context window di 32K-128K tokens, comprendete l'enormità.
-
-Ma per Gemini non è un problema visto che hanno 1M di token disponibili e qui si gioca la partita perché il monolito è stato progettato specificatamente per Gemini e ha raggiunto il production grade su 4 dimensioni, e cacheability ancora da testare. 
-
-Quindi "esso" è in grado di "piegare la volontà del system prompt" come fosse un oggetto super-gravitazionale (buco nero) con lo spazio-tempo nonostante Gemini abbia "tokens" a iosa per svicolare. Per gli altri modelli non è calibrato ma non hanno tutto quei tokens di manovra e quindi...
-
-...quindi raggiunto il production grade, alcuni modelli fra cui GPT e Claude sono andati improvvisamente out-of-quota neanche facendolo girare, solo facendone l'upload, nudo e crudo. Lo sappiamo il perché, l'inteistà della gravità in prossimità del monolito impedisce qualsiasi controllo che non sia affidato al Katia Framework, e  in assenza di questo, l'utente, ME(OW)!
-
-Non si è giunti QUI, per caso o per accidente! 😁 
+Sia chiaro, il caching non è gratis. Significa che SOLO per l'AICC (bussola concettuale, in context/cache) sono consumati 128Kb che a seconda del modello sono 16K-20K tokens. Pensate che un LLM in genere ha una context window di 32K-128K tokens, comprendete l'enormità. Ma per Gemini non è un problema visto che hanno 1M di token disponibili e qui si gioca la partita perché il monolito è stato progettato specificatamente per Gemini.
 
 ...
 
