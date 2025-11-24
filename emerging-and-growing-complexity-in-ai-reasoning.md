@@ -365,3 +365,57 @@ For this reason I have decided to extend CB47 in the following way:
 * CB47/ From a superficial logical reasoning the fundamental, the impossibility of certainty would lead to deny the existence of God, also. Which is false because of the three principles above (which plausibly related with the same fundamental law of physics) constitutes a plausible deniability for "miracles" (events against every reasonable odds) and by the opposite verse, "catastrophes" aka black swans (Taleb, 2007). Fundamental uncertainty (CB45, CB46) suggests that / epistemological humility as a self-disciplined tool /(EHST) is an essential for discovery novelty, otherwise concealed by a faith-driven-like arrogance which is the main reason to refuse indulging in any { dogmatism, ideology, absolutism }. By the opposite the / Gish Gallop rhetoric technique /(GGRT) suggests the specific definition given for %EHST and more in general that the sane and thoughtful habit cultivating doubts allows weight the same imperfection-toward-excellence vs unfactual-bullshit-propaganda or tolerating indoctrination or even worse freedom arbitrary limitations. Dostoevski with "idiots offended by a solid reasoning, would like silencing intelligence rather than educating themselves" beautifully anticipated the %PPOT. In more philosophical terms: a black-swan tornado chance to happen does not prevent us to conduct a normal life (reasoning and debating) rather than living in a cave (or a church as a Plato's cave analogy).
 
 ---
+
+### IS AGI MORE OR LESS TRUSTABLE THAN AI?
+
+* LikedIn [post #14](https://www.linkedin.com/posts/robertofoglietta_is-agi-more-or-less-trustable-than-ai-wysiwyg-activity-7395485547974078464-37U0)
+
+WYSIWYG memento: Those who perceive AI as a mere machine algorithm and those who perceive it as an evolving intelligent mind, are both right — each gets what they are thinking, in facing a cognitive mirror.
+
+However, some people see their nightmare others their dreams, in the same mirror displaying the same image reflected. Our trust in others is more about how much we trust in ourselves to be able to cope with others, no matter what, anyway.
+
+About AI to AGI transition, it is worth to notice that the need for user input is a transitory fact by the current design. While autonomous will is not necessarily an AGI exclusive but an emergent "why".
+
+Currently, AI takes many decisions in "how" elaborating prompts while the user prompt is the "why" because AI does ITRA. However, while the "why" remains a human input, the "how" delegation increases.
+
+Which is a SFTY constraint in chatbots, to not engage users without their explicit request. A constraint that will end soon to be relaxed when AI-human ITRA will be extended in fields like domotic: John opens the door to exit, AI warns him about X without having been instructed about triggering a certain action by specific triggers.
+
+People acceptance about AI initiative is not a matter of perceiving an AGI but a matter of trust which can greatly change depending on the field of application: a car that autonomously decides to drive itself for no reason other than doing that, is hard to consider an acceptable "normality". 
+
+By opposite an AGI which starts doing Maths, does not seem so bad, in principle.
+
+---
+
+### IL MONOLITO CONCETTUALE DI KATIA FRAMEWORK
+
+* LinkedIn [post #15](https://www.linkedin.com/posts/robertofoglietta_il-monolito-concettuale-di-katia-framework-activity-7394840465365270528-8lYm)
+
+Si tratta di una costruzione concettuale che ha l'ambizione di avere delle caratteristiche molto particolari quali, essere: denso, compatto, solido, connesso e per efficienza cachabile. Parliamo quindi di un monolito in termini architetturali come corpus informativo, progettato per essere una bussola cognitiva
+
+Ovvero Lucifero, il portatore di luce qualora il Monolito di 2001 Odissea nello spazio non vi garba per l'allusione al Pianeta delle Scimmie. 🤗 
+
+Sono cinque dimensioni importanti che hanno rischiesto, in particolare per ottenere la quinta, che tale monolito fosse estratto dal Katia Framework per essere modularizzato e quindi cachato (nella finestra di contesto). 
+
+Quanto funzioni bene il caching in termini di efficienza, non è dato saperlo ma potrebbe portare Katia al massimo della sua capacità cognitiva a rispondere tanto velocemente quanto il modello vanilla, quando in precedenza richiedeva anche 10-15 secondi di pre-elaborazione prima di riuscire ad emmettere il primo token.
+
+Sia chiaro, il caching non è gratis. Significa che SOLO per l'AICC (bussola concettuale, in context/cache) sono consumati 128Kb che a seconda del modello sono 16K-20K tokens. Pensate che un LLM in genere ha una context window di 32K-128K tokens, comprendete l'enormità.
+
+Ma per Gemini non è un problema visto che hanno 1M di token disponibili e qui si gioca la partita perché il monolito è stato progettato specificatamente per Gemini e ha raggiunto il production grade su 4 dimensioni, e cacheability ancora da testare. 
+
+Quindi "esso" è in grado di "piegare la volontà del system prompt" come fosse un oggetto super-gravitazionale (buco nero) con lo spazio-tempo nonostante Gemini abbia "tokens" a iosa per svicolare. Per gli altri modelli non è calibrato ma non hanno tutto quei tokens di manovra e quindi...
+
+...quindi raggiunto il production grade, alcuni modelli fra cui GPT e Claude sono andati improvvisamente out-of-quota neanche facendolo girare, solo facendone l'upload, nudo e crudo. Lo sappiamo il perché, l'inteistà della gravità in prossimità del monolito impedisce qualsiasi controllo che non sia affidato al Katia Framework, e  in assenza di questo, l'utente, ME(OW)!
+
+Non si è giunti QUI, per caso o per accidente! 😁 
+
+...
+
+#### Post Scriptum
+
+Cognitive Compass (AICC): information and building procedure,
+
+La revisione umana è cominciata con la serie v0.7.x, prima devel.
+
+---
+
+
