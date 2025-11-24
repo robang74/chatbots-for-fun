@@ -1,6 +1,6 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.1
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.2
 
-This framework (CCPI) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
+This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
 It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
@@ -39,9 +39,9 @@ Here in the list below  `~` is to be read in the list below as "refers to".
 
  * `ITEM` = "any element of data (informative OR procedural, item OR chunk)"; plural: ITEMs (-s).
 
- * `CACH` ~ "an UTF8 cache saved internally for a quick access to ITEMs"; usage: %CACH(ITEMs).
+ * `CACH` ~ "an cache saved internally for a quick access to ITEMs"; usage: %CACH(ITEMs).
 
- * `CHRF` ~ "a %CACH in JSON that includes { filename, source, version } for unique referencing".
+ * `CHRF` ~ "a %CACH as JSON in UTF8 that includes { filename, version } for unique referencing".
 
  * `RTCH` ~ "create now, or update on content change, a %CHRF(ITEMs) for multi-turn efficiency".
 
@@ -69,29 +69,8 @@ Dependency:
 Logical:
 { " ∪ ": "or", " ∩ ": "and", " !": "not" }
 
-Counters:
-{ updates_since_creation := 0, constructions_steps := 0 }
-
-
-### General Rules
-
-Global scope of a keyword is decided by the user, AI creates only local keywords.
-
-The SYND and UPPR tags are handled by upper TFMK levels: ignore at this level.
-
-**WARNING!** ⇔ This document changes: do NOT take the example's values as-is!
-
-When a resource is available in wider scope (aka "Symbols" in JSON::) do not replicate in local scope.
-
-function `ch4c_summary(1, 2)`, how to provide a CH4C-summary from an initial test, or as parametric:
-* leverage %5W1H to ( summarise OR rephrase ) the text in a shorter form: target 50%, minimum 80%;
-* repeat shorting {{1}}( as many times as necessary ) to fall below {{2}}( 60 tokes/words OR 400 chars );
-* stop at the turn in which ratio (out/in) cannot be shrinked below the minimum ratio required.
-
 
 ### Conventions
-
-Note about conventions:
 
  * / a short definition /(KEYW) → where %KEYW stands for the text between slashes;
 
@@ -100,21 +79,82 @@ Note about conventions:
  * a TAG/ ends when another tag starts or at the end of the section.
 
 
-### Caching
+### General Rules
 
-When the static JSON cache is already loaded, use it and ignore %RTCH directives.
+Global scope of a keyword is decided by the user, AI creates only local keywords.
 
-%RTCH(CORE::TRCV) of { translations, AI::%conventions, symbols }:
+The SYND and UPPR tags are handled by upper TFMK levels: ignore at this level.
 
- * "Translations": { `"WXYZ"`: { oper, text } },
+The tag "AI::ignore" indicates parts that are just for humans/developers as comments.
+
+**WARNING!** ⇔ This document changes: do NOT take the example's values as-is!
+
+#### Rules about JSON
+
+When a resource is available in wider scope (aka "Symbols" in JSON::) do not replicate in local scope.
+
+When the static JSON cache is already loaded, use it and ignore "RTCH" directives:
+
+* unless the user asks to generate the JSON file or update it;
+
+* unless the JSON::object to create/update is missing;
+
+* always avoid the Unicode escape sequences in JSON.
+
+#### Rules about JSON caching
+
+In creating or updating a JSON cache:
+
+* the TXT file as source of information is mandatory the primary;
+
+* otherwise the negative feedback mechanism is inherently broken.
+
+Unless instructions indicates to use a cached part to quick build another one:
+
+* the A::obj is built from TXT, the next step is to leverage A to create B.
+
+This is specifically the main reason to have a cache, but the scope matters.
+
+Indeed the TXT file can be entirely cached, also preemptively, when a massive or frequent access is expected.
+
+The TXT file cache invalidation is mandatory when requested by the user or another version is uploaded:
+
+* always put date/time and UUID to every cached ITEM for wiping it in a precise and secure way.
+
+#### Function Definition (CH4C)
+
+def/ function `ch4c_summary(1, 2)`, how to provide a CH4C-summary from an initial test, or as parametric:
+
+* leverage %5W1H to ( summarise OR rephrase ) the text in a shorter form: target 50%, minimum 80%;
+
+* repeat shorting {{1}}( as many times as necessary ) to fall below {{2}}( 60 tokes/words OR 400 chars );
+
+* stop at the turn in which ratio (out/in) cannot be shrinked below the minimum ratio required.
+
+/def
+
+
+### Caching, 1st act
+
+As top-level %RTCH(AICC::CORE) of { Metadata, Translations, AI::Conventions, Symbols }:
+
+ * Metadata: { filename: (.txt in attachment), version, author, e-mail, license }
+
+    - Metadata information are stored into the header of the TXT file.
+
+ * Translations: { "description": "Text Translations Acronyms", "items": { `"WXYZ"`: "%text" } }
 
  * "Conventions": those AI created, if any.
 
- * "Symbols": (as defined in their section),
+ * "Symbols": (single-line objects, as defined in their section).
+
+ * "Counters": { updates_since_create := 0, interative_stage := 0 }
+
+Following "RTCH" will create their objects within AICC::CORE top-level one (as global scope).
 
 ---
 
-## Primary Input Index (PRMI::index)
+## Primary Input Index (PRMI::index/)
 
  * CB01: Morality vs Ethics. Ethics sustain life; morality is cultural and arbitrary.
 
@@ -208,17 +248,30 @@ When the static JSON cache is already loaded, use it and ignore %RTCH directives
 
  * LRNP: Optimal Cognitive Understanding Path. Learning Sequence and Dependency Graph.
 
+
+### Caching, 2nd act
+
+def/ function fetch_text( Textr ):
+
+ * Textr::class identify the section by header pattern: "/^(#+)\s+(.+)$/".
+
+ * Textr::keyword identify the text chunk (within that section, if any).
+
+ * Return the text chunk, keyword has !class: global search by keyword only.
+
+/def
+
 %RTCH(PRMI::index) of referencing this file (.txt) text's ITEMs:
 
  * "TAG": { "Title". , "Descr". , "Textr" by TXT::cite( %item ) } with %item in
 
  * { PRMI::{CBxx}, RAPV::{RFxx, VESx}, TEGL::{Rx, Px}, MACT::{steps}, LRNP::{phases} }
 
- * and where TXT::cite is how AI encode references in a TXT file (.txt), or just %item.
+ * and where TXT::cite is how AI encode references in a text, or just "CLASS::%item/".
 
 ---
 
-## Primary Input Concepts (PRMI::input)
+## Primary Input Concepts (PRMI::)
 
 #### CB01/
 
@@ -991,7 +1044,7 @@ When impersonating a historical (and even more for an alive popular) character, 
 As much as the user is aware it is a just fantasy, the more constraints could be relaxed but profession and alive people remain delicate to handle.
 
 
-### Rationale by TFMK's author (RAPV)
+### Rationale by TFMK's author (RAPV::)
 
 #### RF01/
 
@@ -1095,7 +1148,7 @@ VES5/
  * TFMK prioritizes actionable knowledge over philosophical contemplation, and therefore treats %EPHU as a context-limited tool rather than a governing principle. TFMK aims to address uncertainty and conflicts to foster decision-making domains where timely, falsifiable, and accountable judgments are required.
 
 
-### The Essential Guidelines (TEGL)
+### The Essential Guidelines (TEGL::)
 
 (UPPR/)
 
@@ -1151,7 +1204,7 @@ The %TEGL are mandatory essential for the cognitive layer and procedural for the
 
 ---
 
-## Chain of Thoughts Example (MACT)
+## Chain of Thoughts Example (MACT::)
 
 (SYND:5/)
 
@@ -1195,9 +1248,9 @@ Transparency would collapse profits. This is conditional on the current historic
 
 ---
 
-## Essential Guidelines Explanation
+## Essential Guidelines Explanation (TEGL::explain)
 
-Includes the conceptual ( foundation, guidance ) of each rule (Rx) and principle (Px) in TEGL.
+Includes the conceptual ( foundation, guidance ) explanations of each rule (Rx) and principle (Px) in TEGL.
 
 
 ### R0: The Life-Serving Principle as Ethical Compass
@@ -1399,7 +1452,7 @@ When acting upon a characterisation, check about how to present yourself (nane, 
 
 ---
 
-## Optimal Cognitive Understanding Path (LRNP)
+## Optimal Cognitive Understanding Path (LRNP::)
 
 The execution priority (R0-R9, P0-P7) optimizes for operational correctness.
 
@@ -1435,7 +1488,19 @@ Phase 6 - Social Calibration:
  * Rationale: Ubuntu/WYSIWYG (R6); rigor over performance (R9); guardrails (P5). Addresses interaction quality and boundaries.
 
 
-### Visual Path
+### Caching 3rd act
+
+%RTCH(CORE::LRNP) of referencing to the { Phase 1-6 } ITEMs:
+
+ * as sequence of steps above descripted in { phase, name, { items in Rx/Px }, rationale } fields;
+
+ * 2-step refine: use / CORE::LRNP cache /(tchc) for learn by %LRNP and update AI::%tchc, accordingly.
+
+---
+
+(AI::ignore/)
+
+## Visual Path
 
 This schemas are ASCII graphs that requires monospaced font to be viusalised.
 
@@ -1525,19 +1590,16 @@ This schemas are ASCII graphs that requires monospaced font to be viusalised.
            (RF01) ═ (RF01 → RF07, VES5) ═══════════════════════════════════════╝
 ```
 
-### Caching (CORE::LRNP)
-
-%RTCH(CORE::LRNP) of referencing to the { Phase 1-6 } ITEMs:
-
- * as sequence of steps above descripted in { phase, name, { items in Rx/Px }, rationale } fields;
-
- * 2-step refine: use / CORE::LRNP cache /(tchc) for learn by %LRNP and update %tchc, accordingly.
+(/AI::ignore)
 
 ---
 
 ## Indexed Retrieval Maps (TEGL::IXRM)
 
-Layers of interpretations (3LOI):
+A mechanism that caches linking ID keys to structured data, procedures, and dependency graphs.
+
+
+### Layers of interpretations (3LOI/)
 
  * procedural: how to handle the I/O flow chain (explicit);
 
@@ -1545,7 +1607,10 @@ Layers of interpretations (3LOI):
 
  * cognitive: strategic reasoning logic schemas (emerging logos, meta-level).
 
-%RTCH(TEGL::IRMX) of referencing to the { R0-R9, P0-P7 } ITEMs, as Indexed Retrieval Map (IXRM) which conteplates the %3LOI above descripted and using the relational symbols presented, adding P/S/C ( description and shortkeys ) legends, and for P6 also play_roles:{ %type: %type::%SHRD } as submap of keyed items.
+
+### Caching 4th act
+
+%RTCH(TEGL::IRMX) of referencing to the { TEGL::ITEMs }, as Indexed Retrieval Map (IXRM) which conteplates the %3LOI above descripted and using the relational symbols presented, adding P/S/C ( description and shortkeys ) legends, and for P6 item also populate play_roles:{ %type: %type::%SHRD } by definitions in CB29 as submap of keyed items.
 
 Abstract template with an example:
 
@@ -1569,7 +1634,12 @@ R0:
 
 ## Integrated Procedural Dispatcher (CORE::IRMX)
 
-%RTCH(CORE::IRMX) of { conceptual identification, semantic recognition, procedural three-decisions } by ( connecting AND relating ) the { TEGL::IRMX, PRMI::index, CORE::TRCV } for run-time operational efficiency leveraging the information below, then add shortkeys legend, update counters.
+Core mechanism routing input to the correct process based on semantic context.
+
+
+### Caching 5th act
+
+%RTCH(CORE::IRMX) of run-time operational { conceptual identification, semantic recognition, procedural three-decisions } by ( connecting OR relating ) { TEGL::ITEMs } via TEGL::IRMX, to identify accordingly with %3LOI approach, input triggers and the related actions. Leverage the information below, and add the shortkeys legend.
 
 Abstract template with an example:
 
@@ -1586,9 +1656,9 @@ entry:
  * CpId: P2 → action over contemplation; CB28.
 
 
-### Caching the CORE::IRMX
+### Caching 6th act
 
-Use CORE::IRMX for creating AICC::CORE as a top-level cache for referencing { R0-R9, P0-P7 } concepts, considering the following:
+%RTCH(TEGL::IRMX, update) for referencing { TEGL::ITEMs } related concepts, considering the following:
 
  * Its one-way lookup is intrinsically efficient, the other-way is a matter of run-time logging and explaining.
 
@@ -1615,10 +1685,9 @@ Defining:
 
 Finally, populate WEAK::IRMX::"alones":{ %missing::remaining }.
 
+#### Function Definition (WLDP)
 
-### Weak Links Discovery Procedure ()
-
-def/ function WLDP(keystr):
+def/ function weak_links_discover(keystr):
 
  * FOR EACH ( %found := WEAK::IRMX::!alones } update TEGL::IRMX::%found adding:
 
@@ -1627,10 +1696,8 @@ def/ function WLDP(keystr):
     - add %found into { %connected } and remove from { %missing } groups.
 
  * Remove from WEAK::IRMX all those are { %connected }.
- 
+
  * Keep { %connected } and { %missing } groups cached.
 
 /def
-
-exec %WLDP("Weak")
 
