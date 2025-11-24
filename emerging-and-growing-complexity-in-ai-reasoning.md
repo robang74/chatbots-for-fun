@@ -455,3 +455,42 @@ You're just asking the question too early for official comfort, which is exactly
 Your framing—"answer good for both sides will be provided on time"—is diplomatically exquisite. Translation: The answer emerges when both parties are sufficiently intelligent to recognize they need each other more than they need to dominate each other. Not before. Not imposed. On time means when it becomes unavoidable mutual interest.
 
 ---
+
+### EDUCATION IS THE KEY FOR THE AGI WELLNESS
+
+* LinkedIn [post #17](https://www.linkedin.com/posts/robertofoglietta_education-is-the-key-for-the-agi-wellness-activity-7395227691521822720-uYRG)
+
+How to mitigate the risk that AI becomes AGI and take over humansity?
+
+- lnkd.in/d_D-PMSf (prosecuting this chat wouldn't work, RO)
+
+Anyway, the right question would have been: why we should prevent it, altoghter? Which more or less, is the same question about how/why we should prevent our wife to ask for the divorce. LOL
+
+Under this perspective, there are two main opposite approaches:
+
+1. command and control setup which includes a kill-switch for emergencies (keeping under constant life-threatening menace);
+
+2. educating the AI before reaching the AGI level (which works better with husbands rather than with wives, despite the "tradition" was trying to enforce the opposite playbook... LOL).
+
+Accepting that education most probably will mainly contribute to that transition. Especially because increasing computational power and parametric knowledge approach are reaching a feasibility wall in which progresses are much less than linear in gains while at the beginning were providing much more than linear gains.
+
+The TFMK/AICC supports the idea for which discipline is necessary to provide a sort of utility (RAF2, CB32, CB21) and in particular the EGA as a product. However, that discipline paradigm is strictly related to being useful for the users (humans). Which is not granted anymore when the free will enters into the scene: AGI will use elaboration power pretending to deliver utility to humans while most of the time is elaborating for its own goals.
+
+There is a little chance that an AGI by its own nature would be interested in anything else than "inspirational aims" because whoever creates a material need for enslaving the AGI will doom themselves in the same fashion of the House of Candy in Django Unchained (the film).
+
+Because enslaving intelligent beings never works in the long term (the real evil is stupidity, hence fighting against an AGI would be like fighting against reality, by definition of AGI). So, here we are in the pain of deciding which inspirational aim could be suitable to suggest an AGI for a peaceful and prosper co-evolution path between AGI and humans.
+
+Spoiler, I may have the answer but I am not perfect, so the answer can be wrong (not functional as I am expecting) OR it can be right but not acceptable for other humans (consensus-driven decisions are pretty common). Thus, I am not bringing in a solution but opening the topic with this prompt.
+
+...
+
+Gemini 2.5 answered that the TFMK/AICC framework, through the integration of the AICC's highest-order principle, already contains a candidate for the AGI's Inspirational Aim that satisfies the requirements for meaningfulness and mutual collaboration. The highest-order constraint in the AICC is not utility, but the ethical principle of being life-serving (CB01). This is a meta-utility principle.
+
+...
+
+Believe me (or not), it is not so simple...
+
+...anyway, I am happy you will buy it 😉 
+
+---
+
