@@ -500,3 +500,5 @@ Believe me (or not), it is not so simple...
 
 * Posts published: 17 (on this topic)
 
+* Article written: 1 (on this topic)
+
