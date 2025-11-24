@@ -494,3 +494,9 @@ Believe me (or not), it is not so simple...
 
 ---
 
+### Summary
+
+* Trip total time: 10 days
+
+* Posts published: 17 (on this topic)
+
