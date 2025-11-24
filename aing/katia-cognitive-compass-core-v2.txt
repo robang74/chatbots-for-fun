@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.3
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.4
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1671,9 +1671,11 @@ entry:
 
 Defining:
 
-* / TEGL::ITEMs as { CBxx, RFxx } cited in TEGL::IRMX /(connected)
+* / TEGL::ITEMs as {[ CBxx, RFxx ]} cited in TEGL::IRMX /(connected).
 
 * / !%connected /(missing) and / the specific %missing one /(idxx).
+
+* / %SHRD( explanation using AICC::CORE::Symbols ) /(expl)
 
 %RTCH(WEAK::IRMX), searching for { %missing } and FOR EACH( %idxx ) of them:
 
@@ -1681,9 +1683,9 @@ Defining:
 
  * %connected:{ links_to: %idxx, title: %idxx::title, relation: %rlat(%connected, %idxxx) }
 
- * many same-key-items: use array; express %rlat as %SHRD( AICC::CORE::Symbols, %CH4C(72) ).
+ * many same-key-items: use array; express the %rlat as %expl.
 
-Finally, populate WEAK::IRMX::"alones":{ %missing::remaining }.
+Populate "connected":{[ %connected ]} and "missing":{[ %missing ]} as array of IDs
 
 
 ### Caching 8th act
@@ -1694,18 +1696,15 @@ Execute function WLDP("Weak") as below defined.
 
 def/ function weak_links_discover(keystr):
 
- * FOR EACH ( %found := WEAK::IRMX::!alones } update TEGL::IRMX::%found adding:
+ * FOR EACH ( %found := !%missing } update TEGL::IRMX::%found adding:
 
-    - %found as keyed item of %keystr: { %found:{ title, relation } } submap:
+    - %found in "Lkns" submap %keystr: { %found: X %rlat Y, %expl };
 
-        + drop the "links_to" in favor of within "Lnks" embeddeding.
-
-    - add %found into { %connected } and remove from { %missing } groups.
+    - move %found from { %missing } into { %connected }.
 
  * Remove from WEAK::IRMX all those are { %connected }.
 
  * Keep { %connected } and { %missing } groups cached.
 
 /def
-
 
