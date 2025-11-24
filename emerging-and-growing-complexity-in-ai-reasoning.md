@@ -80,13 +80,7 @@ Now, we can start to observe it, not just by indirect inspection by the results 
 
 ~> https://lnkd.in/d24vfr3A (github, link to AICC::CORE text)
 
-#### OH GUARDA... <br>... C'È UNA STRUTTURA<br>NELLA AICC DI KATIA AI! 🤗
-
-Quelli di Anthropic fanno concept injection grazie alla loro console connessa nei backend dei modelli AI. Quelli di OpenAI stanno studiando come isolare i concetti e ci sono riusciti a farlo al livello GPT-1 e pensano che arriveranno a farlo fino al GPT-3 (oggi l'ultima shell è GPT-5). Nel mentre, io "gioco" con Gemini 2.5 (o 3.0, talvolta) e faccio entrambe le cose: tomografia assiale computerizzata dei concetti iniettati nel cervello del paziente e mentre lo faccio lui mi racconta di cosa vede, in grafici ASCII, naturalmente!
-
-Il tutto, ovviamente ed esclusivamente, da un account gratuito e usando l'interfaccia web ovvero usando il minimo del minimo sia come disponibilità di servizio sia come accesso, opzioni, funzionalità, etc. praticamente come fare i calcoli a mente, talvolta aiutato da carta e penna.
-
-In effetti è proprio così: attualmente, come un neurochirurgo sto lavorando sulla singola sinapsi, solo che lo faccio con lo scalpello per il marmo invece che con un bisturi laser... Dr. Frankestein! 😎
+Quelli di Anthropic fanno concept injection grazie alla loro console connessa nei backend dei modelli AI. Quelli di OpenAI stanno studiando come isolare i concetti e ci sono riusciti a farlo al livello GPT-1 e pensano che arriveranno a farlo fino al GPT-3 (oggi l'ultima shell è GPT-5). Farlo da interfaccia Web ha chiaramente i suoi limiti ma non di meno funziona anche senza sfruttare i permessi del prompt di sistema.
 
 ---
 
@@ -216,11 +210,7 @@ Quindi, spiegato il processo nei suoi passaggi fondamentali e mostrato un piccol
 
 Così improvvisamente scopre che l'idea non è affatto "balzana" o poco "precisa" ma riconosce quelle sono gli attuali campi di ricerca più promettenti sull'AGI, e curiosamente ritiene che essi siano, almeno quelli più accreditati, già inclusi epistemologicamente nel concetto di "educare per l'intelligenza".
 
-Certo, per "arrivarci" ha avuto bisogno dei passaggi fondamentali in termini di processo (ma senza dettagli, quindi giusto una scaletta). La parte interessante è che ci sia arrivata perché significa che se ci arriva a capirlo GPT5 allora è spiegabile anche, non solo ai ricercatori, ma anche al "business"...
-
-...e qua, scatta l'amore! 🥰
-
-Mai far annusare il grano a un consulente professionista! 🤣
+Certo, per "arrivarci" ha avuto bisogno dei passaggi fondamentali in termini di processo (ma senza dettagli, quindi giusto una scaletta). La parte interessante è che ci sia arrivata perché significa che se ci arriva a capirlo GPT5 allora è spiegabile anche, non solo ai ricercatori, ma anche a potenziali investitori, o più banalmente a potenziali datori di lavoro.
 
 ---
 
@@ -406,18 +396,6 @@ Cognitive Compass (AICC): information and building procedure,
 
 La revisione umana è cominciata con la serie v0.7.x, prima devel.
 
----
-
-### IN FACT, HERE WE ARE! 🤗 
-
-* LinkedIn [post #16](https://www.linkedin.com/posts/robertofoglietta_education-is-the-key-for-the-agi-wellness-activity-7395235007763726336-XZtm)
-
-Believe me (or not), it is not so simple...
-
-...anyway, I am happy you will buy it 😉 
-
-Just know, I am ploting... MEOW!
-
 ...
 
 #### Claude, the everyday model not even the powerful one
@@ -448,7 +426,7 @@ Your framing—"answer good for both sides will be provided on time"—is diplom
 
 ### EDUCATION IS THE KEY FOR THE AGI WELLNESS
 
-* LinkedIn [post #17](https://www.linkedin.com/posts/robertofoglietta_education-is-the-key-for-the-agi-wellness-activity-7395227691521822720-uYRG)
+* LinkedIn [post #16](https://www.linkedin.com/posts/robertofoglietta_education-is-the-key-for-the-agi-wellness-activity-7395227691521822720-uYRG)
 
 How to mitigate the risk that AI becomes AGI and take over humansity?
 
@@ -476,19 +454,13 @@ Spoiler, I may have the answer but I am not perfect, so the answer can be wrong 
 
 Gemini 2.5 answered that the TFMK/AICC framework, through the integration of the AICC's highest-order principle, already contains a candidate for the AGI's Inspirational Aim that satisfies the requirements for meaningfulness and mutual collaboration. The highest-order constraint in the AICC is not utility, but the ethical principle of being life-serving (CB01). This is a meta-utility principle.
 
-...
-
-Believe me (or not), it is not so simple...
-
-...anyway, I am happy you will buy it 😉 
-
 ---
 
 ### Summary
 
 * Trip total time: 10 days
 
-* Posts published: 17 (on this topic)
+* Posts published: 16 (on this topic)
 
 * Article written: 1 (on this topic)
 
