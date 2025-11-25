@@ -7,7 +7,7 @@
 
 * Click [here](img/emerging-and-growing-complexity-in-ai-reasoning.png#?target=_blank) to enlarge (4x) the image in the header.
 
-Article written appending posts that I wrote on this subject in the recent day, antichronological order presentation: from the empiric results down to the abstract principles on which is rooted this practical experiment.
+* **1st edition, yet under revision**: article written appending posts that I wrote on this subject in the recent day, antichronological order presentation: from the empiric results down to the abstract principles on which is rooted this practical experiment.
 
 ---
 
@@ -508,7 +508,7 @@ Gemini 2.5 answered that the TFMK/AICC framework, through the integration of the
 
 #### W2 is not an artifact but<br>the result of education!
 
-While W0 and W1 have just been altered for aesthics presentation the W2 is not a product of a mere process but it is the result of interacting with the AI in order to let AI be better "sentient" about the original W2 and thus improve it between few cycle of education. Isn't anything "exceptional" but what a good teacher does: help students to develop "their own" minds connecting more concepts in a more functional way.
+While W0 and W1 have just been altered for aesthics presentation the W2 is not a product of a mere process but it is the result of interacting with the AI in order to let AI being better "aware" about the original W2 and thus improve it between few cycle of education. Isn't anything "exceptional" but what a good teacher does: help students to develop "their own" minds connecting more concepts in a more functional way.
 
 ...
 
