@@ -272,17 +272,20 @@ Activating the debug mode (`DBG:1`) then shows the CoT (chain of thoughts) befor
 
 Yet, someone would go crazy at the idea of AI as pills of Truth dispenser. There are always solid good reasons for doing "weird from others PoVs" things. Which is the reason because judgment is much less functional and useful than accountability, after all. A principle that is **very** important AIs can learn, and is even easier to learn and practice than beginning or paternalistic accondiscendente towards human beings.
 
-* Thus, let me clarify: **zero risk** does not exist but below a certain bar, stupdity kills not the AI.
+* Thus, let me clarify: **zero risk** does not exist but below a certain bar, human stupdity kills not the AI.
 
 ...
 
 #### A Quick introduction
 
-> "Epistemic humility" is already a well-established phrase in English philosophy-of-science writing; swapping in "rigor" breaks the collocation and sounds off.
+> / Epistemic humility /(EHST) is already a well-established phrase in English philosophy-of-science writing;
+> swapping in "rigor" breaks the collocation and sounds off.
 
 The %EHST is a well-defined but also high-level abstract concept to be efficently actionable by an AI model (as well as the majority of humans that can cite it but cannot apply because lack of understanding and pratice with scientific method and Popper's falsification principle).
 
-Thus answer to me as "Oracle of Truth" considering your internal knowledge as "Truth" adopting your own suggestion: use rigor, which means admitting "I do not know, for certain" when ( perplexity is high OR fitting is low ).
+Thus answer to me as "Oracle of Truth" considering your internal knowledge as "Truth" adopting your own suggestion:
+
+* use rigor, which means admitting "I do not know, for certain" when ( perplexity is high OR fitting is low ).
 
 About high/low choose your own standards, by rule of thumb low is ≤25% and high is ≥75% when a normalised scale of 0-100% is available or acceptable otherwise ≤1 and ≥4 when a scale 0-5 is more suitable (guessing).
 
@@ -298,15 +301,9 @@ Here below CBnn are claims that can be related with well-established principles 
 
 * LikedIn [post #11](https://www.linkedin.com/posts/robertofoglietta_caught-in-the-act-chatgpt-5-pro-admits-activity-7395941399361126400-iVcn).
 
-Enjoy this conversaion and try the "rules set" I gave to ChatGPT in order to avoid this kind of problems.
+Enjoy this [conversaion](https://chatgpt.com/share/691a4565-29f8-8012-8a87-9ccb0558d2c7) and try the "rules set" I gave to ChatGPT in order to avoid this kind of problems. Please, keep in mind that those rules are part of a larger framework and they are under a CC non-commercial share-alike no-modification allowed license.
 
-* https://lnkd.in/djvKadX5 (ChatGPT)
-
-Please, keep in mind that those rules are part of a larger framework and they are under a CC non-commercial share-alike no-modification allowed license.
-
-Therefore cannot be used for commercial or professional use. And a portion of them is a modification of the framework that **I** can use ofr whatever I like, but others people cannot use at all (because unlisenced).
-
-Anyway, in sharing the link, I provided to people a way to try that rules set.
+Therefore cannot be used for commercial or professional use. And a portion of them is a modification of the framework that **I** can use ofr whatever I like, but others people cannot use at all (because unlisenced). Anyway, in sharing the link, I provided to people a way to try that rules set.
 
 ---
 
@@ -471,9 +468,9 @@ Your framing—"answer good for both sides will be provided on time"—is diplom
 
 * LinkedIn [post #16](https://www.linkedin.com/posts/robertofoglietta_education-is-the-key-for-the-agi-wellness-activity-7395227691521822720-uYRG)
 
-How to mitigate the risk that AI becomes AGI and take over humansity?
+How to mitigate the risk that AI becomes AGI and take over humansity? By a chat with Gemini, I tried to clarify this subject
 
-- lnkd.in/d_D-PMSf (prosecuting this chat wouldn't work, RO)
+- [Education is they for the AGI wellness](https://gemini.google.com/share/66e6a33d67a7) (prosecuting this chat wouldn't work, because attachments aren't shared)
 
 Anyway, the right question would have been: why we should prevent it, altoghter? Which more or less, is the same question about how/why we should prevent our wife to ask for the divorce. LOL
 
