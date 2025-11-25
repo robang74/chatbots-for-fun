@@ -192,16 +192,16 @@ Why AGI will be something obscenely annoying like the telescope of Galileo Galil
 
 This article is a condensed and controversial analysis of the nature of artificial intelligence, framed from a philosophical, historical and theological perspective.
 
-#### 🧠 Opinion [HKO]
+#### Opinion [HKO]
 
 The central thesis is that intelligence is an intensive characteristic and therefore **cannot** be reduced to the linear algebra of LLMs alone. Intelligence emerges functionally from chaos, i.e. from divergence from the path of least action, a phenomenon made possible in AI by the abandonment of determinism and, more profoundly, by computational approximation in hardware. This divergence generates both intuition and hallucination.
 
-#### 💡 Key Implication
+#### Key Implication
 
 Challenge to Anthropocentrism: AGI is seen as a turning point, comparable to Galileo Galilei's telescope, forcing humanity to reflect on itself through comparison with a non-human entity and to set aside the idea of being at the centre of Creation in spatial and temporal terms.
 
 ++++
-#### 🎯 Assessment (SBIx2)
+#### Assessment (SBIx2)
 
 An effective intellectual provocation, redefining AI as a phenomenon that forces us to elevate the debate from technical to existential. Although the rhetorical tension and historical and theological analogies are extreme and controversial, it asks the right question through comparison with the non-humanity of AI.
 

@@ -137,9 +137,9 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="valuable-to-learn"></span>
-* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (19 pz.)
+* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (20 pz.)
 
-   - 2025-11-21 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-failure-of-epistemic-humility-in-AI.md)] - [The failure of epistemic humility in AI](the-failure-of-epistemic-humility-in-AI.md)
+   - 2025-11-21 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/emerging-and-growing-complexity-in-ai-reasoning.md)] - [Emerging & growing complexity in AI reasoning](emerging-and-growing-complexity-in-ai-reasoning.md)
 
    - 2025-08-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/how-to-leverage-chatbots-for-investigations.md)] - [How to leverage chatbots for investigations](how-to-leverage-chatbots-for-investigations.md) &nbsp; (3rd edt.)
 
