@@ -547,12 +547,12 @@ So, stripped of the showman glitter, the letter is a minimal viable manifesto:
 ## Update 2025-11-25
 
 [!INFO]
-Nested Learning (7 Nov 2025) -- This section discusses the motivations, formal definitions, and general high-level implications of Nested Learning (NL). We start with a formulation of associative memory and then by using stepby-step examples, we build the intuition behind architecture decomposition and its connection to modeling a neural network as an integrated system of optimization problems. -- [NL.pdf](https://abehrouz.github.io/files/NL.pdf)
+Nested Learning (7 Nov 2025) -- This section discusses the motivations, formal definitions, and general high-level implications of Nested Learning (NL). We start with a formulation of associative memory and then by using step-by-step examples, we build the intuition behind architecture decomposition and its connection to modeling a neural network as an integrated system of optimization problems. -- [NL.pdf](https://abehrouz.github.io/files/NL.pdf)
 
 The Nested Learning paradigm represents a step forward in our understanding of deep learning. By treating architecture and optimization as a single, coherent system of nested optimization problems, we unlock a new dimension for design, stacking multiple levels. We believe the Nested Learning paradigm offers a robust foundation for closing the gap between the limited, forgetting nature of current LLMs and the remarkable continual learning abilities of the human brain. -- [NL's Introduction](https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/)
 [/INFO]
 
-Curiosly, the nested learning can be reproduced by interactive education about a set of block claims for fostering the emergency of a structured reasoning schema. Not just auto-emerging but guided as during an educational process.
+Couriosly, the nested learning can be reproduced by interactive education about a set of block claims for fostering the emergency of a structured reasoning schema. Not just auto-emerging but guided as during an educational process.
 
 ...
 
