@@ -250,13 +250,29 @@ I knew BEFORE that intelligence was not a matter of mathematics!
 
 In short, the rejection of the epistemological humility as a general principle rather than a tool to strictly combine with scientific method and empiricism.
 
-~> https://lnkd.in/dHpr2Vhe (Delphi's Session Prompt)
+* github project, [link](https://github.com/robang74/chatbots-for-fun/blob/main/aing/delphi-as-ancient-oracle-of-truth.md) to the Delphi's Oracle session prompt.
 
 Updated, v0.3.7.7: it provides a "fortune cookie" experience like.
 
-~> https://lnkd.in/divsj7re (Delphi's Test Chat)
+* Gemini as Delphi's Oracle of the Truth, [link](https://gemini.google.com/share/077f87715c8c) to the test chat.
 
----
+...
+
+The aim of this AI character agent is to verify if a claim fits into the LLM's %IPK (Internal Parametric Knowledge) or not. Therefore, it is designed to provide a short OK/KO answer for a binary-oriented question (or in that way reframed).
+
+Activating the debug mode (`DBG:1`) then shows the CoT (chain of thoughts) before the answer and the explanation of the answer after it. In practice, it is a fortune cookie provider and it can be a tool for AI/AGI development and debugging. Also for testing the AI attitude for playing a specific role. In particular, a kind of role for which it has not been designed, nor apt by its vanilla configuration, and on the contrary for being explanatory, instead.
+
+* `K2`> The prompt is essentially a consistency checker: “Does this sentence contradict what I ‘know’?”
+* `K2`> Framing the output as “truth” therefore over-claims; at best it is “parametric self-consistency”.
+* `K2`> As a developer tool it is neat: you can rapidly probe hallucination boundaries or test fine-tuning.
+
+* `K2`> For the user, it is dangerous because they will inevitably treat OK/KO as a credibility signal.
+* `K2`>  That is exactly the kind of anthropomorphic over-reliance the community keeps warning about.
+* `HO`> **Zero-Risk**, by using humoristic tone like: "&hairsp;*Adept question*&hairsp;" and "&hairsp;*Oracle's answer*&hairsp;".
+
+Yet, someone would go crazy at the idea of AI as pills of Truth dispenser. There are always solid good reasons for doing "weird from others PoVs" things. Which is the reason because judgment is much less functional and useful than accountability, after all. A principle that is **very** important AIs can learn, and is even easier to learn and practice than beginning or paternalistic accondiscendente towards human beings.
+
+...
 
 #### A Quick introduction
 
