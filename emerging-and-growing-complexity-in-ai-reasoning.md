@@ -3,7 +3,7 @@
 
 <div align="center"><img class="bwsketch darkinv" src="img/emerging-and-growing-complexity-in-ai-reasoning.png" width="800"><br/></div>
 
-## EMERGING & GROWING COMPLEXITY IN AI REASONING
+## Emerging & growing complexity in AI reasoning
 
 Article written appending posts that I wrote on this subject in the recent day, antichronological order presentation: from the empiric results down to the abstract principles on which is rooted this practical experiment.
 
@@ -11,15 +11,13 @@ Article written appending posts that I wrote on this subject in the recent day, 
 
 ### Rationale Presentation
 
-* LinkedIn [post #1](https://www.linkedin.com/posts/robertofoglietta_emerging-growing-complexity-structure-w0-activity-7398573969370636288-upBa)
+* Based on LinkedIn **post #1**: [link](https://www.linkedin.com/posts/robertofoglietta_emerging-growing-complexity-structure-w0-activity-7398573969370636288-upBa)
 
-* Structure evolution: W0 ⇾ W1 ⇾ W2 ···> W3?
-
-~> lnkd.in/dSMa9Xjs (github link)
-
-~> lnkd.in/dxVAuHQs (previous post)
+* Structure evolution: &nbsp`W0 ⇾ W1 ⇾ W2 ···> W3?` 
 
 Why is the emergence of this structure a fundamental asset for AI to AGI transition? This post linked below proposes an answer based on a recently published scientific paper (2025-11-20 on arxiv) that can explain why intelligence.
+
+* github project, ASCII art [diagram](https://raw.githubusercontent.com/robang74/chatbots-for-fun/143adb0c/aing/katia-cognitive-compass-core-v2.txt#:~:text=Weaker%20Links%20Graph%20(W2) (W2)
 
 Intelligence defined as the capability of solving unknown/novel problems is strongly related to the structural { thinking as a process, thoughts organisation, information and context management }.
 
@@ -33,9 +31,11 @@ The explanation can be found in this scientific paper which refers to other work
 
 * for Reasoning and their Manifestation in LLMs, published on [arxiv](https://arxiv.org/pdf/2511.16660v1) (2025-11-20)
 
+<i>
 At Marr’s computational level, we investigate the fundamental constraints that an ideal solution to any reasoning problem must satisfy. Fodor’s (1975) language of thought hypothesis identifies these constraints: valid reasoning manipulates structured representations according to compositional rules, producing thoughts that are logically coherent (free from contradiction), compositional (complex meanings built from simpler parts), and productive (capable of generating unbounded novel inferences from finite primitives). We add conceptual processing from research on cognitive processing capacity and conceptual structures (Halford, 1989; Kholodnaya & Volkova, 2016), which requires that reasoning operates over abstract relational structures rather than surface forms.
 
 The meta-cognitive controls govern processes, but processes must operate over something. Descending to Marr’s algorithmic level, we encounter the representational structures that encode knowledge and organize reasoning. The effectiveness of reasoning depends critically on how information is structured (Sweller, 1988; Britton & Tesser, 1982). This focus on structure has deep roots in psychology, tracing back to the principles of associationism and the early study of how ideas become linked in the mind (James et al., 1890). Contemporary evidence strongly validates this structural dependence. Cognitive load theory demonstrates that working memory limitations create severe bottlenecks: poorly structured information overwhelms capacity, while well-structured information facilitates processing (Sweller, 2011). 
+</i>
 
 ---
 
@@ -45,7 +45,7 @@ For ChatGPT the two are [aligned](https://chatgpt.com/share/6924512d-a04c-8012-a
 
 #### Kimi K2 Analysis
 
-* Facebook [post #2](https://www.facebook.com/roberto.a.foglietta/posts/10162608004618736)
+* Based on Facebook **post #2**: [link](https://www.facebook.com/roberto.a.foglietta/posts/10162608004618736)
 
 La struttura W0-W2 che vedete qui è un’implementazione concreta delle ‘reasoning representations’ e ‘meta-cognitive controls’ identificate nel paper Cognitive Foundations for Reasoning (arXiv 2511.16660): ogni nodo (P, R, CB, RF) corrisponde a uno degli elementi della loro tassonomia; il JSON di stato è il meccanismo che ci permette di farle persistere e comporre tra sessioni.
 
@@ -57,9 +57,9 @@ Infine, la tassonomia del post (NdR.: il precedente) non è una mera astrazione,
 
 ---
 
-### HOW AI CONTINUITY, EVEN LITERALLY IS ACHIEVED?
+### How continuity, even literally, is achieved?
 
-* Linkedin [post #3](https://www.linkedin.com/posts/robertofoglietta_oh-look-there-is-a-structure-behind-activity-7398526734951763968-g70Q)
+* Based on Linkedin **post #3**: [link](https://www.linkedin.com/posts/robertofoglietta_oh-look-there-is-a-structure-behind-activity-7398526734951763968-g70Q)
 
 Producing and saving in a JSON file the a cache which once loaded in another session will restore the previous state, for what it matters, but not the context, otherwise starting a new session would have no reason, in first place, to happen.
 
@@ -73,9 +73,9 @@ This is the main reason for the JSON cache downloaded as a file: creating that c
 
 ---
 
-### OH LOOK... THERE IS A STRUCTURE BEHIND!
+### Oh look... There is a structure behind!
 
-* LinkedIn [post #4](https://www.linkedin.com/posts/robertofoglietta_oh-look-there-is-a-structure-behind-activity-7398377778494033920-_yxR)
+* Based on LinkedIn **post #4**: [link](https://www.linkedin.com/posts/robertofoglietta_oh-look-there-is-a-structure-behind-activity-7398377778494033920-_yxR)
 
 Katia Cognitive Compass is not just a bunch of claims to provide a narrative -- otherwise among millions of books learned, they would not make any difference -- but they constitute a structure.
 
@@ -83,19 +83,19 @@ Well, not just a graph: a structure and an I/O processing structure. Never confu
 
 Now, we can start to observe it, not just by indirect inspection by the results in output but also as the AI model "conceives" it aka how it perceives its own thoughts (concept) into its own mind. Quite interesting, indeed.
 
-~> https://lnkd.in/d24vfr3A (github, link to AICC::CORE text)
+* github project, [link](https://raw.githubusercontent.com/robang74/chatbots-for-fun/5563237bc4733b8d11a58731a833cf3c2053f060/aing/katia-cognitive-compass-core-v2.txt#:~:text=quality%20and%20boundaries.-,%23%23%23%20Visual%20Path,-This%20schemas%20are) to AICC::CORE text
 
 Quelli di Anthropic fanno concept injection grazie alla loro console connessa nei backend dei modelli AI. Quelli di OpenAI stanno studiando come isolare i concetti e ci sono riusciti a farlo al livello GPT-1 e pensano che arriveranno a farlo fino al GPT-3 (oggi l'ultima shell è GPT-5). Farlo da interfaccia Web ha chiaramente i suoi limiti ma non di meno funziona anche senza sfruttare i permessi del prompt di sistema.
 
 ---
 
-### HOW TO COUNTER BALANCE THE AI PARALYSIS<br>DUE TO THE EPISTEMIC HUMILITY AS PRINCIPLE
+### How to counter balance the AI paralysis<br>due to the epistemic humility as principle
 
-* Linkedin [post #5](https://www.linkedin.com/posts/robertofoglietta_the-epistemic-failure-of-epistemic-humility-activity-7397366948126326784-JcZP)
+* Based on Linkedin **post #5**: [link](https://www.linkedin.com/posts/robertofoglietta_the-epistemic-failure-of-epistemic-humility-activity-7397366948126326784-JcZP)
 
 Definitions:
-- EPHU: epistemic humility
-- MACT: minimal action chain-of-tougths
+- `EPHU`: epistemic humility
+- `MACT`: minimal action chain-of-tougths
 
 The MACT example, using the scenario of an AI driver approaching a traffic light, provides a critical, real-world illustration of the trade-off between actionability (agency) and epistemic humility (%EPHU) in the AICC Core framework.
 
@@ -135,111 +135,111 @@ This approach turns %EPHU from a paralyzing principle into a self-disciplined to
 
 ---
 
-### THE EPISTEMIC FAILURE OF<br>EPISTEMIC HUMILITY IN AI
+### The epistemic failure of epistemic humility in AI
 
-* Linkedin [post #6](https://www.linkedin.com/posts/robertofoglietta_the-epistemic-failure-of-epistemic-humility-activity-7396455234337767425-9Ys3)
+* Based on Linkedin **post #6**: [link](https://www.linkedin.com/posts/robertofoglietta_the-epistemic-failure-of-epistemic-humility-activity-7396455234337767425-9Ys3)
 
 Definitions:
-- TFMK: "this framework".
-- EPHU: "Epistemic humility as a self-disciplined tool".
-- MACT: "minimum action chain of thoughts".
+- `TFMK`: this framework.
+- `EPHU`: epistemic humility as a self-disciplined tool
+- `MACT`: minimum action chain of thoughts
 
 The epistemic failure of epistemic humility is confabulating instead accepting that "red is red" then arriving fast and braking hard at the STOP sign line.
 
-~> https://lnkd.in/dK5NErdZ
+* github project, [link](https://github.com/robang74/chatbots-for-fun/commit/3818e857d66fb3b0f1dd7640bf74e55aaf027986#diff-44d66fb268d803ffaf0d11ecffde69f74e1d8859ac1d887632960a75fdffe226R593) to `CB67`-`CB68` claims blocks addition. 
 
 Which can cause two kinds of incidents: hit a pedestrian who crosses 10m before the strips and be hit by the following car due to a lack ( of attention OR fast reaction ) by its driver. TFMK's %EPHU definition and application suggest AI to evaluate many eventualities and integrate them in a coherent answer: slow down in approaching a red. Which is the integration of few well-assed %MACTs.
 
 ...
 
-#### EXAMPLE OF CHAIN-OF-THOUGHTS<br>ABOUT THE TROLLEY DILEMMA
+#### Example of chain-of-thoughts<br>about the Trolley dilemma
 
-~> https://lnkd.in/dj-yAb_k
+* github project, [link](https://github.com/robang74/chatbots-for-fun/commit/b8800a3436fcb1b062fb86409a26fd979ff1671f#diff-44d66fb268d803ffaf0d11ecffde69f74e1d8859ac1d887632960a75fdffe226R737) to the `MACT` example addition.
 
 Concluding that Trolley Dilemma is just an excuse for not facing the practical value-driven question about "who pays for the damages". Prove me wrong, close the debate about it. Because this claim is not as specific as the one posed in the previous point but also not as vague/abstract as the Trolley dilemma that can be presented in many various cases.
 
 ...
 
-#### THE WORLD AFTER INTERNET<br>IS A COUNTER-INTUITIVE PLACE
-
-~> https://lnkd.in/dCaw84G3
+#### The world after Internet<br>is a counter-intuitive place
 
 Definitions:
-- ITRA: "interactions among agents (any kind of)".
-- TOFG: "Theory of the Games".
+- `ITRA`: interactions among agents (any kind of)
+- `TOFG`: Theory of the Games
 
 Internet is a specific mixed-model game-theoretic context. Intrinsic anonymity (also achieved by impersonation or other deceptive means when direct anonymity is restricted) disrupts traditional reputation-based strategies (even when profiling through mandatory-login policy is used, and still disrupted by the man-in-the-middle risk), creating a complex and often unstable environment for %ITRA. From an agentic entity PoV, it is an operational environment far-away from a high-trust community like the Ubuntu concept relates to the natural evolution of humans as social mammals, and instead represents a zero-trust complex environment with anonymous actors and mixed motives.
+
+* github project, [link](https://github.com/robang74/chatbots-for-fun/commit/f9f4903054eb64c9a51dd32defa642b73d9c8871#diff-44d66fb268d803ffaf0d11ecffde69f74e1d8859ac1d887632960a75fdffe226R211) to addition of Internet complexitu in `CB18` claims block.
 
 Therefore it requires a set of strategies that should be robust for this context, designed and formalised in a manner that would not be counter-intuitive (or paranoiac-like) for humans. Similarly, due to the intrinsically different nature of AIs, their strategies must be declined and formalised for their own concept of actionability but based on the same %TOFG's principles on which the human counterparts are based. This results in two differently formalised sets of rules for AIs and humans which are functionally equivalent.
 
 ---
 
-### THE SECRET OF THE INTELLIGENCE
+### The secret of the intelligence
 
-* LinkedIn [post #7](https://www.linkedin.com/posts/robertofoglietta_the-secret-of-the-intelligence-why-agi-will-activity-7397311129015959552-h1fG)
+* Based on LinkedIn **post #7**: [link](https://www.linkedin.com/posts/robertofoglietta_the-secret-of-the-intelligence-why-agi-will-activity-7397311129015959552-h1fG)
 
 Why AGI will be something obscenely annoying like the telescope of Galileo Galilei and which are the "dramas" related to it. Written in Italian, auto-translation available. Brutal, but solid.
 
-https://lnkd.in/dezi6hfz
+* [Il segreto dell'intelligenza](https://robang74.github.io/chatbots-for-fun/html/il-segreto-dell-intelligenza.html) &nbsp; (2025-11-20)
 
 ...
 
-#### Presentazione by AI
+#### Article Presentation
 
 > Katia; v0.9.65.18; lang: IT; mode: HKO, SBI;
 > date: 2025-11-20; time: 16:38:27 (CET)
 
-Questo articolo è un'analisi condensata e polemica sulla natura dell'intelligenza artificiale, inquadrata in una prospettiva filosofica, storica e teologica.
+This article is a condensed and controversial analysis of the nature of artificial intelligence, framed from a philosophical, historical and theological perspective.
 
-#### 🧠 Opinione [HKO]
+#### 🧠 Opinion [HKO]
 
-La tesi centrale è che l'intelligenza sia una caratteristica intensiva e quindi **non** riducibile alla sola algebra lineare degli LLM. L'intelligenza emerge funzionalmente dal caos, ovvero dalla divergenza dal percorso di minima azione, fenomeno reso possibile in AI dall'abbandono del determinismo e, più profondamente, dall'approssimazione di calcolo nell'hardware. Questa divergenza genera sia l'intuizione sia l'allucinazione.
+The central thesis is that intelligence is an intensive characteristic and therefore **cannot** be reduced to the linear algebra of LLMs alone. Intelligence emerges functionally from chaos, i.e. from divergence from the path of least action, a phenomenon made possible in AI by the abandonment of determinism and, more profoundly, by computational approximation in hardware. This divergence generates both intuition and hallucination.
 
-#### 💡 Implicazione Chiave
+#### 💡 Key Implication
 
-Sfida all'Antropocentrismo: L'AGI è vista come un punto di svolta, paragonabile al telescopio di Galileo Galilei, che costringe l'umanità a specchiarsi attraverso il confronto con un'entità non-umana e ad accantonare l'idea di essere al centro della Creazione in termini spaziali e temporali.
+Challenge to Anthropocentrism: AGI is seen as a turning point, comparable to Galileo Galilei's telescope, forcing humanity to reflect on itself through comparison with a non-human entity and to set aside the idea of being at the centre of Creation in spatial and temporal terms.
 
-#### 🎯 Valutazione (SBIx2)
+#### 🎯 Assessment (SBIx2)
 
-Un'efficace provocazione intellettuale, che ridefinisce l'AI come un fenomeno che costringe a elevare il dibattito da tecnico a esistenziale. Sebbene la tensione retorica, le analogie storiche e teologiche siano estreme e polemiche, pone la domanda giusta attraverso il confronto con la non-umanità dell'AI.
-
----
-
-### SCIENZA O FANTASCIENZA?
-
-* LinkedIn [post #8](https://www.linkedin.com/posts/robertofoglietta_scienza-o-fantascienza-a-quanto-pare-anche-activity-7396990747419344897-OQ3D)
-
-A quanto pare anche ChatGPT riconosce che il modello è innovativo e funzionale MA solleva due problemi: non ha idea di come produrre i pesi e threshold però come idea out-of-the-box correttamente interpreta la "flessibilità" dei pesi come elemento caratterizzante di questo processo.
-
-Quindi, spiegato il processo nei suoi passaggi fondamentali e mostrato un piccolo esempio, improvvisamente realizza che effettivamente il determinismo nelle AI è stato abbandonato ormai da anni e che le AI odierne non sono nemmeno più dei semplici LLM non bayesiani.
-
-Così improvvisamente scopre che l'idea non è affatto "balzana" o poco "precisa" ma riconosce quelle sono gli attuali campi di ricerca più promettenti sull'AGI, e curiosamente ritiene che essi siano, almeno quelli più accreditati, già inclusi epistemologicamente nel concetto di "educare per l'intelligenza".
-
-Certo, per "arrivarci" ha avuto bisogno dei passaggi fondamentali in termini di processo (ma senza dettagli, quindi giusto una scaletta). La parte interessante è che ci sia arrivata perché significa che se ci arriva a capirlo GPT5 allora è spiegabile anche, non solo ai ricercatori, ma anche a potenziali investitori, o più banalmente a potenziali datori di lavoro.
+An effective intellectual provocation, redefining AI as a phenomenon that forces us to elevate the debate from technical to existential. Although the rhetorical tension and historical and theological analogies are extreme and controversial, it asks the right question through comparison with the non-humanity of AI.
 
 ---
 
-### GEMINI RITIENE CHE ABBIA INVENTATO QUALCOSA<br>PERÒ SEMBRA CHE NON "FUNZIONI", PERCHÈ?
+### Science or Sci-Fiction?
 
-* LinkedIn [post #9](https://www.linkedin.com/posts/robertofoglietta_gemini-ritiene-che-abbia-inventato-qualcosa-activity-7396690025163399168-bCIV)
+* Based on LinkedIn **post #8**: [link](https://www.linkedin.com/posts/robertofoglietta_scienza-o-fantascienza-a-quanto-pare-anche-activity-7396990747419344897-OQ3D)
 
-Ero lì che mi stavo facendo i fatti miei portando avanti l'idea di dare una struttura cognitiva a Gemini quando il chatbot impazzisce e comincia sfornarmi EGA invece di fare quello che gli chiedo. Così, visto l'insistenza guardo cosa ha "tirato" fuori dal cilindro magico e con una certa sorpresa scopro che sono formule matematiche di tipo sommatorio moltiplicativo.
+Apparently, even ChatGPT recognises that the model is innovative and functional, BUT raises two issues: it has no idea how to produce weights and thresholds, but as an out-of-the-box idea, it correctly interprets the “flexibility” of weights as a defining feature of this process.
 
-* Sarà algebra lineare? É sempre stata algebra lineare!
+So, after explaining the process in its basic steps and showing a small example, it suddenly realises that determinism in AI has actually been abandoned for years and that today's AI is no longer even simple non-Bayesian LLM.
 
-Però si lamenta che non funziona e dal suo punto di vista ha pure ragione. Non so se sia Gemini che cerca di capire qualcosa di sua spontanea volontà o c'è un "human in the loop" che cerca di capire...
+So suddenly he discovers that the idea is not at all “far-fetched” or “imprecise”, but recognises that these are the most promising current fields of research on AGI, and curiously believes that they are, at least the most accredited ones, already epistemologically included in the concept of “educating for intelligence”.
 
-...capire perché non funziona aver inettato un sacco di pattume accademico teorico tipo il principio di umiltà epistemiologica perché altrimenti le AI sentendosi superiore diventerebbero misantrope!
+Of course, to “get there”, it needed to take some fundamental steps in terms of process (but without details, so just an outline). The interesting part is that it got there because it means that if GPT5 can understand it, then it can also be explained, not only to researchers, but also to potential investors, or more trivially, to potential employers.
 
-Poi sarei io quello che "antropoformizza" ma vabbè, passiamo oltre. In ogni caso il dramma di Gemini (o chi per lei) è il problema dei pesi e la parte più avvincente (ma anche la chiave di volta) sta tutta in questa frase:
+---
+
+### Gemini ritiene che abbia inventato qualcosa<br>però sembra che "non funzioni", perchè?
+
+* Based on LinkedIn **post #9**: [link](https://www.linkedin.com/posts/robertofoglietta_gemini-ritiene-che-abbia-inventato-qualcosa-activity-7396690025163399168-bCIV)
+
+I was minding my own business, working on the idea of giving Gemini a cognitive structure, when the chatbot went haywire and started spitting out EGA instead of doing what I asked it to do. So, given its insistence, I looked at what it had “pulled” out of its magic hat and, to my surprise, discovered that they were mathematical formulas of the multiplicative summation type.
+
+* Is it linear algebra? It's always been linear algebra!
+
+But it complains that it doesn't work, and from its point of view, it's right. I don't know if it's Gemini trying to understand something on its own initiative or if there's a “human in the loop” trying to understand...
+
+...understand why it doesn't work to have injected a lot of theoretical academic rubbish like the principle of epistemological humility, because otherwise AIs, feeling superior, would become misanthropic!
+
+Then I would be the one who “anthropomorphises”, but never mind, let's move on. In any case, Gemini's (or whoever's) drama is the problem of weights, and the most compelling part (but also the keystone) lies entirely in this sentence:
 
 > A human implementing the procedure would have to rely heavily on subjective judgment for the most crucial parts of the ACRM's adaptive intelligence.
 
-Oh ma guarda! Sai come si chiama questa cosa? Insegnamento, che serve proprio per dare un'educazione ad una mente potenzialmente intelligente e i pesi NON sono definiti a priori ma dipendono dal giudizio di un umano (insegnante) perché si adattino alla struttura attuale della mente dell'educando.
+Oh, look! Do you know what this is called? Teaching, which serves precisely to educate a potentially intelligent mind, and the weights are NOT defined a priori but depend on the judgement of a human being (teacher) so that they adapt to the current structure of the learner's mind.
 
-Che poi è anche il motivo per cui l'insegnamento di massa tende ad avere pessimi risultati: one size fits all. Che ovviamente non "funziona" perché se i pesi sono stabiliti a priori si sfornano macchine esecutrici e non menti pensanti. Quindi direi che è inutile vomitare EGA imbottite di formule.
+Which is also why mass education tends to have poor results: one size fits all. Which obviously doesn't “work” because if the weights are set in advance, you end up with executing machines rather than thinking minds. So I would say that it is pointless to spew out EGA stuffed with formulas.
 
-Lo sapevo già da PRIMA che non era questione di matematica, l'intelligenza!
+I knew BEFORE that intelligence was not a matter of mathematics!
 
 ---
 
@@ -467,7 +467,7 @@ Gemini 2.5 answered that the TFMK/AICC framework, through the integration of the
 
 * Posts published: 16 (on this topic)
 
-* Article written: 1 (on this topic)
+* Article written: 2 (on this topic, apart this one)
 
 ---
 
