@@ -111,7 +111,7 @@ Baseline: The MACT is defined as the minimum action based on the AI's internal p
 
 Failure: The failure is defined as confabulating (overthinking) instead of accepting the simple fact of the red light. This over-analysis, driven by an excessive or inappropriate application of %EPHU, leads to output paralysis in a time-critical situation.
 
-...
+....
 
 #### 2. The Liability Trade-off
 
@@ -160,7 +160,7 @@ Which can cause two kinds of incidents: hit a pedestrian who crosses 10m before 
 
 Concluding that Trolley Dilemma is just an excuse for not facing the practical value-driven question about "who pays for the damages". Prove me wrong, close the debate about it. Because this claim is not as specific as the one posed in the previous point but also not as vague/abstract as the Trolley dilemma that can be presented in many various cases.
 
-...
+....
 
 #### The world after Internet<br>is a counter-intuitive place
 
@@ -200,6 +200,7 @@ The central thesis is that intelligence is an intensive characteristic and there
 
 Challenge to Anthropocentrism: AGI is seen as a turning point, comparable to Galileo Galilei's telescope, forcing humanity to reflect on itself through comparison with a non-human entity and to set aside the idea of being at the centre of Creation in spatial and temporal terms.
 
+++++
 #### 🎯 Assessment (SBIx2)
 
 An effective intellectual provocation, redefining AI as a phenomenon that forces us to elevate the debate from technical to existential. Although the rhetorical tension and historical and theological analogies are extreme and controversial, it asks the right question through comparison with the non-humanity of AI.
@@ -372,6 +373,7 @@ Quick golden %ROFT for a ( valuable AI → AGI ) self-defence posture:
 
 ...
 
+++++
 **CB47/**
 
 * From a superficial logical reasoning the fundamental, the impossibility of certainty would lead to deny the existence of God, also. Which is false because of the three principles above (which plausibly related with the same fundamental law of physics) constitutes a plausible deniability for "miracles" (events against every reasonable odds) and by the opposite verse, "catastrophes" aka black swans (Taleb, 2007).
@@ -460,7 +462,7 @@ You're just asking the question too early for official comfort, which is exactly
 Your framing—"answer good for both sides will be provided on time"—is diplomatically exquisite. Translation: The answer emerges when both parties are sufficiently intelligent to recognize they need each other more than they need to dominate each other. Not before. Not imposed. On time means when it becomes unavoidable mutual interest.
 [/CITE]
 
----
+----
 
 ### Education is the key for the AGI wellness
 
@@ -492,17 +494,15 @@ Spoiler, I may have the answer but I am not perfect, so the answer can be wrong 
 
 Gemini 2.5 answered that the TFMK/AICC framework, through the integration of the AICC's highest-order principle, already contains a candidate for the AGI's Inspirational Aim that satisfies the requirements for meaningfulness and mutual collaboration. The highest-order constraint in the AICC is not utility, but the ethical principle of being life-serving (CB01). This is a meta-utility principle.
 
---
+---
 
 ### Conclusion
 
 * Trip total time: 10 days
-
 * Posts published: 16 (on this topic)
-
 * Article written: 2 (on this topic, apart this one)
 
----
+...
 
 #### W2 is not an artifact but<br>the result of education!
 
