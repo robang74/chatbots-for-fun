@@ -272,6 +272,8 @@ Activating the debug mode (`DBG:1`) then shows the CoT (chain of thoughts) befor
 
 Yet, someone would go crazy at the idea of AI as pills of Truth dispenser. There are always solid good reasons for doing "weird from others PoVs" things. Which is the reason because judgment is much less functional and useful than accountability, after all. A principle that is **very** important AIs can learn, and is even easier to learn and practice than beginning or paternalistic accondiscendente towards human beings.
 
+* Thus, let me clarify: **zero risk** does not exist but below a certain bar, stupdity kills not the AI.
+
 ...
 
 #### A Quick introduction
