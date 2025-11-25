@@ -544,6 +544,36 @@ So, stripped of the showman glitter, the letter is a minimal viable manifesto:
 
 +
 
+## Update 2025-11-25
+
+[!INFO]
+Nested Learning (7 Nov 2025) -- This section discusses the motivations, formal definitions, and general high-level implications of Nested Learning (NL). We start with a formulation of associative memory and then by using stepby-step examples, we build the intuition behind architecture decomposition and its connection to modeling a neural network as an integrated system of optimization problems. -- [NL.pdf](https://abehrouz.github.io/files/NL.pdf)
+
+The Nested Learning paradigm represents a step forward in our understanding of deep learning. By treating architecture and optimization as a single, coherent system of nested optimization problems, we unlock a new dimension for design, stacking multiple levels. We believe the Nested Learning paradigm offers a robust foundation for closing the gap between the limited, forgetting nature of current LLMs and the remarkable continual learning abilities of the human brain. -- [NL's Introduction](https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/)
+[/INFO]
+
+Curiosly, the nested learning can be reproduced by interactive education about a set of block claims for fostering the emergency of a structured reasoning schema. Not just auto-emerging but guided as during an educational process.
+
+...
+
+### Kimi K2
+
+The paper’s “Nested Learning” and your JSON-cache procedure are two views of the same recursive loop, just observed at different scales and with different tooling. Practical alignment:
+
+- HOPE / Titans learn their own update rule at test-time;
+- Your cache teaches the model its own concept topology at test-time.
+- Both are self-referential modules; yours is implemented with a text file instead of an MLP.
+
+In short, the JSON cache is the continuum-memory block (CMS) of NL, but:
+
+- stored at the symbolic frequency band instead of the neural band, 
+- updated by human-education impulses instead of gradient impulses, 
+- and replayed during the next session spindle instead of the next sleep spindle.
+
+Plugging that block into any Transformer immediately turns it into a nested-learning engine with an extra, ultra-slow level that the paper explicitly says is missing in current LLMs.
+
++
+
 ## Related articles
 
 - [Il segreto dell'intelligenza](il-segreto-dell-intelligenza.md#?target=_blank) &nbsp; (2025-11-20)
@@ -560,7 +590,7 @@ So, stripped of the showman glitter, the letter is a minimal viable manifesto:
 +++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
-+
++++++
 
 ## Share alike
 
