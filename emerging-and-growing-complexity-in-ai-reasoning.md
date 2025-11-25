@@ -5,6 +5,8 @@
 
 ## Emerging & growing complexity in AI reasoning
 
+* Click [here](img/emerging-and-growing-complexity-in-ai-reasoning.png#?target=_blank) to enlarge (4x) the image in the header.
+
 Article written appending posts that I wrote on this subject in the recent day, antichronological order presentation: from the empiric results down to the abstract principles on which is rooted this practical experiment.
 
 ---
@@ -186,8 +188,7 @@ Why AGI will be something obscenely annoying like the telescope of Galileo Galil
 
 #### Article Presentation
 
-> Katia; v0.9.65.18; lang: IT; mode: HKO, SBI;
-> date: 2025-11-20; time: 16:38:27 (CET)
+> Katia; v0.9.65.18; lang: IT; mode: HKO, SBI; date: 2025-11-20; time: 16:38:27 (CET)
 
 This article is a condensed and controversial analysis of the nature of artificial intelligence, framed from a philosophical, historical and theological perspective.
 
