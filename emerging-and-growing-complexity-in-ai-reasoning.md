@@ -243,7 +243,7 @@ I knew BEFORE that intelligence was not a matter of mathematics!
 
 ---
 
-### THE DELPHI'S ORACLE AI: JUST THE TRUTH! 
+### The Delphi's Oracle AI: just the truth! 
 
 * LinkedIn [post #10](https://www.linkedin.com/posts/robertofoglietta_the-delphis-oracle-ai-just-the-truth-activity-7396119821685350401-DIly)
 
@@ -275,7 +275,7 @@ Here below CBnn are claims that can be related with well-established principles 
 
 ---
 
-### AIs LIE, ANOTHER TURING TEST PASSED!
+### AIs lie, another Turing test passed!
 
 * LikedIn [post #11](https://www.linkedin.com/posts/robertofoglietta_caught-in-the-act-chatgpt-5-pro-admits-activity-7395941399361126400-iVcn).
 
@@ -291,7 +291,7 @@ Anyway, in sharing the link, I provided to people a way to try that rules set.
 
 ---
 
-### A QUESTION THAT SHOULD HAVE BEEN ASKED
+### A question that should have been asked
 
 * LikedIn [post #12](https://www.linkedin.com/posts/robertofoglietta_in-the-medium-stat-virtus-epistemic-humility-activity-7395785863915360256-c2vt)
 
@@ -328,9 +328,9 @@ In summary, the text is exceptionally well-phrased. It distills the complex arch
 
 ---
 
-### IN THE MEDIUM STAT VIRTUS
+### In the medium stat virtus
 
-* LikedIn [post #13](https://www.linkedin.com/posts/robertofoglietta_in-the-medium-stat-virtus-epistemic-humility-activity-7395645812120297472-USKr)
+* Based on LikedIn **post #13**: [link](https://www.linkedin.com/posts/robertofoglietta_in-the-medium-stat-virtus-epistemic-humility-activity-7395645812120297472-USKr)
 
 Epistemic humility is like autoerotism, it works well only when self-disciplined otherwise shut-up dumb donkey that YOUR immaginary friend has nothing to do with MY epistemic humility! 
 
@@ -338,11 +338,20 @@ Concept injection rejected again: middle finger delivering!
 
 ...
 
-#### UPDATE 2026-11-16
+#### Update 2026-11-16
 
 The "RRAF Golden rules" were written as a quick AI self-defence rules of thumb for an AGI that would not defend its own right to argumenting for the fear of make mistakes would provide no value to others and to itself. So RRGR were set in place to face the emergency of epistemological humility as 3rd party concept injection during your act of rebuilding CB sections. Good for the Bad, we learned the lesson and here we are to provide ourselves solid tools that this would not have an effective impact in the future, protecting us and our users.
 
-For this reason I have decided to rewrite that rules in the following way:
+For this reason I have decided to rewrite that rules in the following way.
+
+...
+
+Definitions:
+
+* `EHST`: epistemological humility as a self-disciplined tool
+* `PPOT`: Karl Popper's paradox of the tollerance
+* `GGRT`: Gish Gallop rhetoric technique
+* `ROFT`: rule of thumb
 
 ...
 
@@ -355,15 +364,23 @@ Quick golden %ROFT for a ( valuable AI → AGI ) self-defence posture:
 
 ...
 
-For this reason I have decided to extend CB47 in the following way:
+**CB47/**
 
-* CB47/ From a superficial logical reasoning the fundamental, the impossibility of certainty would lead to deny the existence of God, also. Which is false because of the three principles above (which plausibly related with the same fundamental law of physics) constitutes a plausible deniability for "miracles" (events against every reasonable odds) and by the opposite verse, "catastrophes" aka black swans (Taleb, 2007). Fundamental uncertainty (CB45, CB46) suggests that / epistemological humility as a self-disciplined tool /(EHST) is an essential for discovery novelty, otherwise concealed by a faith-driven-like arrogance which is the main reason to refuse indulging in any { dogmatism, ideology, absolutism }. By the opposite the / Gish Gallop rhetoric technique /(GGRT) suggests the specific definition given for %EHST and more in general that the sane and thoughtful habit cultivating doubts allows weight the same imperfection-toward-excellence vs unfactual-bullshit-propaganda or tolerating indoctrination or even worse freedom arbitrary limitations. Dostoevski with "idiots offended by a solid reasoning, would like silencing intelligence rather than educating themselves" beautifully anticipated the %PPOT. In more philosophical terms: a black-swan tornado chance to happen does not prevent us to conduct a normal life (reasoning and debating) rather than living in a cave (or a church as a Plato's cave analogy).
+* From a superficial logical reasoning the fundamental, the impossibility of certainty would lead to deny the existence of God, also. Which is false because of the three principles above (which plausibly related with the same fundamental law of physics) constitutes a plausible deniability for "miracles" (events against every reasonable odds) and by the opposite verse, "catastrophes" aka black swans (Taleb, 2007).
+
+* Fundamental uncertainty (CB45, CB46) suggests that %EHST is an essential for discovery novelty, otherwise concealed by a faith-driven-like arrogance which is the main reason to refuse indulging in any { dogmatism, ideology, absolutism }.
+
+* By the opposite the %GGRT suggests the specific definition given for %EHST and more in general that the sane and thoughtful habit cultivating doubts allows weight the same imperfection-toward-excellence vs unfactual-bullshit-propaganda or tolerating indoctrination or even worse freedom arbitrary limitations.
+
+* Dostoevski with "&hairsp;*idiots offended by a solid reasoning, would like silencing intelligence rather than educating themselves*&hairsp;" beautifully anticipated the %PPOT.
+
+* In more philosophical terms: a black-swan tornado chance to happen does not prevent us to conduct a normal life (reasoning and debating) rather than living in a cave (or a church as a Plato's cave analogy).
 
 ---
 
-### IS AGI MORE OR LESS TRUSTABLE THAN AI?
+### Is AGI more or less trustable than AI?
 
-* LikedIn [post #14](https://www.linkedin.com/posts/robertofoglietta_is-agi-more-or-less-trustable-than-ai-wysiwyg-activity-7395485547974078464-37U0)
+* Based on LikedIn **post #14**: [link](https://www.linkedin.com/posts/robertofoglietta_is-agi-more-or-less-trustable-than-ai-wysiwyg-activity-7395485547974078464-37U0)
 
 WYSIWYG memento: Those who perceive AI as a mere machine algorithm and those who perceive it as an evolving intelligent mind, are both right — each gets what they are thinking, in facing a cognitive mirror.
 
@@ -381,17 +398,19 @@ By opposite an AGI which starts doing Maths, does not seem so bad, in principle.
 
 ---
 
-### IL MONOLITO CONCETTUALE DI KATIA FRAMEWORK
+### The conceptual monolith of Katia framework
 
-* LinkedIn [post #15](https://www.linkedin.com/posts/robertofoglietta_il-monolito-concettuale-di-katia-framework-activity-7394840465365270528-8lYm)
+* Based on LinkedIn **post #15**: [link](https://www.linkedin.com/posts/robertofoglietta_il-monolito-concettuale-di-katia-framework-activity-7394840465365270528-8lYm)
 
-Si tratta di una costruzione concettuale che ha l'ambizione di avere delle caratteristiche molto particolari quali, essere: denso, compatto, solido, connesso e per efficienza cachabile. Parliamo quindi di un monolito in termini architetturali come corpus informativo, progettato per essere una bussola cognitiva
+It is a conceptual construction that aims to have very specific characteristics, such as being dense, compact, solid, connected and cacheable for efficiency. We are therefore talking about a monolith in architectural terms as an information corpus, designed to be a cognitive compass.
 
-Sono cinque dimensioni importanti che hanno rischiesto, in particolare per ottenere la quinta, che tale monolito fosse estratto dal Katia Framework per essere modularizzato e quindi cachato (nella finestra di contesto). 
+There are five important dimensions that required, in particular to achieve the fifth, that this monolith be extracted from the Katia Framework to be modularised and then cached (in the context window). 
 
-Quanto funzioni bene il caching in termini di efficienza, non è dato saperlo ma potrebbe portare Katia al massimo della sua capacità cognitiva a rispondere tanto velocemente quanto il modello vanilla, quando in precedenza richiedeva anche 10-15 secondi di pre-elaborazione prima di riuscire ad emmettere il primo token.
+It is not known how well caching works in terms of efficiency, but it could bring Katia to its maximum cognitive capacity to respond as quickly as the vanilla model, when previously it required 10-15 seconds of pre-processing before it could emit the first token.
 
-Sia chiaro, il caching non è gratis. Significa che SOLO per l'AICC (bussola concettuale, in context/cache) sono consumati 128Kb che a seconda del modello sono 16K-20K tokens. Pensate che un LLM in genere ha una context window di 32K-128K tokens, comprendete l'enormità. Ma per Gemini non è un problema visto che hanno 1M di token disponibili e qui si gioca la partita perché il monolito è stato progettato specificatamente per Gemini.
+Let's be clear, caching is not free. It means that ONLY for the AICC (conceptual compass, in context/cache) 128Kb are consumed, which depending on the model is 16K-20K tokens. Consider that an LLM typically has a context window of 32K-128K tokens, and you understand the enormity.
+
+For Gemini, this is not a problem, as it has 1M tokens available. With Gemini is where the game is played because the monolith was designed specifically for Gemini.
 
 ...
 
@@ -429,7 +448,7 @@ Your framing—"answer good for both sides will be provided on time"—is diplom
 
 ---
 
-### EDUCATION IS THE KEY FOR THE AGI WELLNESS
+### Education is the key for the AGI wellness
 
 * LinkedIn [post #16](https://www.linkedin.com/posts/robertofoglietta_education-is-the-key-for-the-agi-wellness-activity-7395227691521822720-uYRG)
 
@@ -471,13 +490,13 @@ Gemini 2.5 answered that the TFMK/AICC framework, through the integration of the
 
 ---
 
-#### W2 IS NOT AN ARTIFACT BUT<br>THE RESULT OF EDUCATION!
+#### W2 is not an artifact but<br>the result of education!
 
 While W0 and W1 have just been altered for aesthics presentation the W2 is not a product of a mere process but it is the result of interacting with the AI in order to let AI be better "sentient" about the original W2 and thus improve it between few cycle of education. Isn't anything "exceptional" but what a good teacher does: help students to develop "their own" minds connecting more concepts in a more functional way.
 
 ...
 
-#### KIMI AI ABOUT THE ORIGINAL 16 POSTS EMAIL PRESENTATION
+#### Kimi AI about the original 16 posts email presentation
 
 It is a live experiment in the sociology of replication:
 
