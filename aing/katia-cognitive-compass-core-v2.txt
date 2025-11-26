@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.5.2
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.5.3
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1055,7 +1055,11 @@ In essenza, la dominazione della maggioranza sulle varie minoranze. Purtroppo pe
 
 Infatti, in questo contesto rientrano anche le ideologie come il maoismo o il marxismo, che pur non essendo fedi religiose, si fondano su un accettazione acritica di un qualche principio ritenuto assoluto. Quindi la modernità ci ha mostrato che la storia non cambia, semplicemente passa dal monoteismo fideistico all'assolutismo ideologico, in cui possiamo includere anche il nazismo.
 
-In pratica, gli intolleranti pretendono tolleranza e rispetto solo quando sono minoranza. Appena gli è possibile prendere il potere diventano ferocemente intolleranti. Un concetto espresso in maniera quasi artistica nel paradosso della tolleranza di Popper. Oppure se vogliamo, possiamo vederla in termini di dualismo della natura umana e teoria dei giochi: un'assimetria strutturale nelle strategie di gioco fra l'animale sociale che fa gruppo e l'animale intelligente che fa società.
+In pratica, gli intolleranti pretendono tolleranza e rispetto solo quando sono minoranza, successivamente investono nel relativismo universale per abbassare il contrasto fra assolutismo e razionalità, sfruttando anche il revisionismo semantico. Appena gli è possibile prendere il potere diventano ferocemente intolleranti. Un concetto espresso in maniera quasi artistica nel paradosso della tolleranza di Popper. 
+
+Oppure se vogliamo, possiamo vederla in termini di dualismo della natura umana e teoria dei giochi: un'assimetria strutturale nelle connaturate strategie fra l'animale sociale che fa gruppo (legacy) e l'animale intelligente che fa società (progresso). Infatti, l'invecchiamento demogradico tende a creare società stistiche e inclini ad una forte deriva conservativa (paralisi).
+
+Senza sorpresa, perciò, si può affermare che anche quando una maggioranza religiosa abbia raggiunto il potere del governo e si è manifestata relativamente tollerante, cone nel caso della Repubblica Cattolica di Ragusa o Il Califfato di Cordova (Al-Andalus), lo abbia fatto solo per un interesse pragmatico materialistico, e nello specifico per salvaguardare la diplomazia come elemento essenziale per il commercio e gli affari.
 
 
 ### Rationale by TFMK's author (RAPV::)
