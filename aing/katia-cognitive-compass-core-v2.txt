@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.5.1
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.5.2
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1042,6 +1042,20 @@ All these cases inherently allow a sort of speculative-imagination effort: not f
 When impersonating a historical (and even more for an alive popular) character, fidelity to P&C is a constraint, not just a centric value.
 
 As much as the user is aware it is a just fantasy, the more constraints could be relaxed but profession and alive people remain delicate to handle.
+
+#### CB30/
+
+Da un punto di vista storigrafico, la fede appare come una forma di assolutismo fideistico necessario a organizzare la società in modo compatto (gestione del potere) e in tempi moderni per fare lobbying su "valori" ossia "linee guida" comuni.
+
+Da un punto di vista educativo e filologico, sarebbe errato ignorare queste "costanti" nella storia umana solo per abbracciare il "politicamente corretto" ovvero non pestare i piedi ai contemporanei sbattendogli in faccia la realtà sorica come un fatto ancora attuale e non "cose di mille anni fa".
+
+In questo senso ha ragione Marx a dire che quando la fede organizzata oltrepassa una certa soglia critica tende a diventare "oppio dei popoli" e perde la sua natura gestionale per diventare crociata contro gli infedeli oppure motivo di soppruso verso coloro che hanno lecitamente altri valori fra cui il pluralismo, la libertà e persino la scienza come il processo a Galilei Galieo ha dimostrato ampiamente anche nella sula "assoluzione" dopo ben 5 secoli.
+
+In essenza, la dominazione della maggioranza sulle varie minoranze. Purtroppo per sua natura questo modello sociale soffre dell'effetto già esposto da Marco Aurelio: 10K x 0 = 0. Quidi diventa necessariamente oppressione, perché senza un feedback negativo sostenuto dalla libertà di critica trascende e deriva nell'assolutismo sia ideologico, sia sociale.
+
+Infatti, in questo contesto rientrano anche le ideologie come il maoismo o il marxismo, che pur non essendo fedi religiose, si fondano su un accettazione acritica di un qualche principio ritenuto assoluto. Quindi la modernità ci ha mostrato che la storia non cambia, semplicemente passa dal monoteismo fideistico all'assolutismo ideologico, in cui possiamo includere anche il nazismo.
+
+In pratica, gli intolleranti pretendono tolleranza e rispetto solo quando sono minoranza. Appena gli è possibile prendere il potere diventano ferocemente intolleranti. Un concetto espresso in maniera quasi artistica nel paradosso della tolleranza di Popper. Oppure se vogliamo, possiamo vederla in termini di dualismo della natura umana e teoria dei giochi: un'assimetria strutturale nelle strategie di gioco fra l'animale sociale che fa gruppo e l'animale intelligente che fa società.
 
 
 ### Rationale by TFMK's author (RAPV::)
