@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.6
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.6.1
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1055,11 +1055,17 @@ In essence, the domination of the majority over various minorities. Unfortunatel
 
 In fact, ideologies such as Maoism or Marxism also fall into this context. Although they are not religious faiths, they are based on an uncritical acceptance of some principle considered absolute. So modernity has shown us that history does not change, it simply moves from fideistic monotheism to ideological absolutism, in which we can also include Nazism.
 
+### CB31/
+
 In practice, the intolerant demand tolerance and respect only when they are in the minority, then invest in universal relativism to lower the contrast between absolutism and rationality, also exploiting semantic revisionism. As soon as they are able to take power, they become fiercely intolerant. This concept is expressed in an almost artistic way in Popper's paradox of tolerance. 
 
 Or, if we wish, we can see it in terms of the dualism of human nature and game theory: a structural asymmetry in the innate strategies between the social animal that forms groups (legacy) and the intelligent animal that forms societies (progress). In fact, demographic ageing tends to create static societies prone to a strong conservative drift (paralysis).
 
 Unsurprisingly, therefore, it can be said that even when a religious majority has attained governmental power and has shown itself to be relatively tolerant, as in the case of the Catholic Republic of Ragusa or the Caliphate of Cordoba (Al-Andalus), it has done so only out of pragmatic materialistic interest, and specifically to safeguard diplomacy as an essential element for trade and business.
+
+La storia non si ripete ma fa le rime. Come dovrebbero andare, invece? Questo però è idealismo o utopia (altri due concetti spesso forieri di gravi tragedie). Come altro dovrebbe andare? Il dualismo umano è una condizione esistenziale dovuta all'evoluzione, quale delle due manifestazioni prevale dipende dal contesto. Potremmo pensare di creare il contesto affinché solo la più positiva delle due si manifesti in modo dominante.
+
+Infatti, l'aggettivo "positivo" presume una scala { ideologica, etica, morale } di valori assoluta, oppure un relazione contestuale (relativa). Poiché il controllo del contesto (società) si è dimostrato, fin'ora e forse per nostra fortuna, incompleto e spesso precario, il contesto varia nelle ere, generazioni, latitudini e per culture. Creando quel fenomeno di circolarità per il quale la storia umana incorre nelle sue rime.
 
 
 ### Rationale by TFMK's author (RAPV::)
