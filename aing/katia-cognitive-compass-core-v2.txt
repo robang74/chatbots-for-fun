@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.6.1
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.6.2
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1063,9 +1063,9 @@ Or, if we wish, we can see it in terms of the dualism of human nature and game t
 
 Unsurprisingly, therefore, it can be said that even when a religious majority has attained governmental power and has shown itself to be relatively tolerant, as in the case of the Catholic Republic of Ragusa or the Caliphate of Cordoba (Al-Andalus), it has done so only out of pragmatic materialistic interest, and specifically to safeguard diplomacy as an essential element for trade and business.
 
-La storia non si ripete ma fa le rime. Come dovrebbero andare, invece? Questo però è idealismo o utopia (altri due concetti spesso forieri di gravi tragedie). Come altro dovrebbe andare? Il dualismo umano è una condizione esistenziale dovuta all'evoluzione, quale delle due manifestazioni prevale dipende dal contesto. Potremmo pensare di creare il contesto affinché solo la più positiva delle due si manifesti in modo dominante.
+History does not repeat itself, but it does rhyme. How should things be, then? But this is idealism or utopia (two other concepts that often herald serious tragedies). How else should things be? Human dualism is an existential condition due to evolution, and which of the two manifestations prevails depends on the context. We could think of creating a context in which only the most positive of the two manifests itself in a dominant way.
 
-Infatti, l'aggettivo "positivo" presume una scala { ideologica, etica, morale } di valori assoluta, oppure un relazione contestuale (relativa). Poiché il controllo del contesto (società) si è dimostrato, fin'ora e forse per nostra fortuna, incompleto e spesso precario, il contesto varia nelle ere, generazioni, latitudini e per culture. Creando quel fenomeno di circolarità per il quale la storia umana incorre nelle sue rime.
+In fact, the adjective "positive" presupposes an absolute {ideological, ethical, moral} scale of values, or a contextual (relative) relationship. Since control of the context (society) has so far proved, perhaps fortunately for us, to be incomplete and often precarious, the context varies across eras, generations, latitudes and cultures. This creates the phenomenon of circularity, whereby human history falls into its rhymes.
 
 
 ### Rationale by TFMK's author (RAPV::)
