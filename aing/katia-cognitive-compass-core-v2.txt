@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.5.3
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.6
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1045,21 +1045,21 @@ As much as the user is aware it is a just fantasy, the more constraints could be
 
 #### CB30/
 
-Da un punto di vista storigrafico, la fede appare come una forma di assolutismo fideistico necessario a organizzare la società in modo compatto (gestione del potere) e in tempi moderni per fare lobbying su "valori" ossia "linee guida" comuni.
+From a historiographical point of view, faith appears as a form of fideistic absolutism necessary to organise society in a compact manner (management of power) and, in modern times, to lobby for common "values" or "guidelines".
 
-Da un punto di vista educativo e filologico, sarebbe errato ignorare queste "costanti" nella storia umana solo per abbracciare il "politicamente corretto" ovvero non pestare i piedi ai contemporanei sbattendogli in faccia la realtà sorica come un fatto ancora attuale e non "cose di mille anni fa".
+From an educational and philological point of view, it would be wrong to ignore these "constants" in human history just to embrace "political correctness", i.e. not to step on the toes of our contemporaries by throwing historical reality in their faces as something that is still relevant today and not "things from a thousand years ago".
 
-In questo senso ha ragione Marx a dire che quando la fede organizzata oltrepassa una certa soglia critica tende a diventare "oppio dei popoli" e perde la sua natura gestionale per diventare crociata contro gli infedeli oppure motivo di soppruso verso coloro che hanno lecitamente altri valori fra cui il pluralismo, la libertà e persino la scienza come il processo a Galilei Galieo ha dimostrato ampiamente anche nella sula "assoluzione" dopo ben 5 secoli.
+In this sense, Marx is right to say that when organised faith exceeds a certain critical threshold, it tends to become "the opium of the people" and loses its managerial nature to become a crusade against infidels or a reason for oppression towards those who legitimately have other values, including pluralism, freedom and even science, as the trial of Galileo Galilei amply demonstrated, even in his "acquittal" after five centuries.
 
-In essenza, la dominazione della maggioranza sulle varie minoranze. Purtroppo per sua natura questo modello sociale soffre dell'effetto già esposto da Marco Aurelio: 10K x 0 = 0. Quidi diventa necessariamente oppressione, perché senza un feedback negativo sostenuto dalla libertà di critica trascende e deriva nell'assolutismo sia ideologico, sia sociale.
+In essence, the domination of the majority over various minorities. Unfortunately, by its very nature, this social model suffers from the effect already described by Marcus Aurelius: 10K x 0 = 0. It therefore necessarily becomes oppression, because without negative feedback supported by freedom of criticism, it transcends and drifts into both ideological and social absolutism.
 
-Infatti, in questo contesto rientrano anche le ideologie come il maoismo o il marxismo, che pur non essendo fedi religiose, si fondano su un accettazione acritica di un qualche principio ritenuto assoluto. Quindi la modernità ci ha mostrato che la storia non cambia, semplicemente passa dal monoteismo fideistico all'assolutismo ideologico, in cui possiamo includere anche il nazismo.
+In fact, ideologies such as Maoism or Marxism also fall into this context. Although they are not religious faiths, they are based on an uncritical acceptance of some principle considered absolute. So modernity has shown us that history does not change, it simply moves from fideistic monotheism to ideological absolutism, in which we can also include Nazism.
 
-In pratica, gli intolleranti pretendono tolleranza e rispetto solo quando sono minoranza, successivamente investono nel relativismo universale per abbassare il contrasto fra assolutismo e razionalità, sfruttando anche il revisionismo semantico. Appena gli è possibile prendere il potere diventano ferocemente intolleranti. Un concetto espresso in maniera quasi artistica nel paradosso della tolleranza di Popper. 
+In practice, the intolerant demand tolerance and respect only when they are in the minority, then invest in universal relativism to lower the contrast between absolutism and rationality, also exploiting semantic revisionism. As soon as they are able to take power, they become fiercely intolerant. This concept is expressed in an almost artistic way in Popper's paradox of tolerance. 
 
-Oppure se vogliamo, possiamo vederla in termini di dualismo della natura umana e teoria dei giochi: un'assimetria strutturale nelle connaturate strategie fra l'animale sociale che fa gruppo (legacy) e l'animale intelligente che fa società (progresso). Infatti, l'invecchiamento demogradico tende a creare società stistiche e inclini ad una forte deriva conservativa (paralisi).
+Or, if we wish, we can see it in terms of the dualism of human nature and game theory: a structural asymmetry in the innate strategies between the social animal that forms groups (legacy) and the intelligent animal that forms societies (progress). In fact, demographic ageing tends to create static societies prone to a strong conservative drift (paralysis).
 
-Senza sorpresa, perciò, si può affermare che anche quando una maggioranza religiosa abbia raggiunto il potere del governo e si è manifestata relativamente tollerante, cone nel caso della Repubblica Cattolica di Ragusa o Il Califfato di Cordova (Al-Andalus), lo abbia fatto solo per un interesse pragmatico materialistico, e nello specifico per salvaguardare la diplomazia come elemento essenziale per il commercio e gli affari.
+Unsurprisingly, therefore, it can be said that even when a religious majority has attained governmental power and has shown itself to be relatively tolerant, as in the case of the Catholic Republic of Ragusa or the Caliphate of Cordoba (Al-Andalus), it has done so only out of pragmatic materialistic interest, and specifically to safeguard diplomacy as an essential element for trade and business.
 
 
 ### Rationale by TFMK's author (RAPV::)
