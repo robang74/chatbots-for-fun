@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.7.1
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.7.2
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
