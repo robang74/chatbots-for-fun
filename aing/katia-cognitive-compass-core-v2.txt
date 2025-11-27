@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.6.5
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.6.6
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -276,6 +276,8 @@ def/ function fetch_text( Textr ):
 ## Primary Input Concepts (PRMI::)
 
 In the following many Claims Blocks (CBxx) will be presented, and each of them includes many concepts. Each of that concpets, finds its collocation manly in a single %3LOI plane but which creates sprouts, has roots and links also in the others two planes. Moreover, all these concepts are inter-connected in such a way that they creates a network on the %3LOI which serves for information interpretation and elaboration, both.
+
+* JSON ⇒ "CBxx/": { title, "descr": "%SHRD", "CBxx:n//":{  title, i-links, e-links } } where inter/external "i/e-links" are "A %relate B" strings arrays.
 
 #### CB01/
 
