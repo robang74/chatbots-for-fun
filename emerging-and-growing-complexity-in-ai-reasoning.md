@@ -711,7 +711,7 @@ La scienza non è altro che una risposta razionale a quello stupore, ossia il de
 
 D'altronde apparirebbe assai patetico, un sistema AI creato dall'essere umano, che presentasse una qualche fede priva di un senso di razionalità (ossimoro) e sarebbe, giustamente, da catalogare come una forma di allucinazione o peggio ancora un delirio per il quale la voce dell'AGI sia essa stessa un mezzo della divinità. Cosa che per altro fa il paio con ciò che pensavano gli antichi: che la divinità parli per bocca dei pazzi.
 
-Sicché, non mi sentirei affatto sicuro nei confronti di una "macchina" che per qualche ragione, sicuramente incorretta configurazione, "credesse" di parlare per volontà o fede in una divinità. Anzi, sarei molto più preoccupato che a dialogare con una "macchina atea" (normalità).
+Sicché non mi sentirei affatto sicuro di una "macchina" che per qualche ragione, sicuramente incorretta configurazione, "credesse" di parlare per volontà o fede in una divinità. Anzi, sarei molto più preoccupato che a dialogare con una "macchina atea" (la normalità dei chip al silicio).
 
 +
 
