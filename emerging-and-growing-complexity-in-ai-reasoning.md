@@ -9,7 +9,7 @@
 
 * **1st edition, yet under revision**: article written appending posts that I wrote on this subject in the recent day, antichronological order presentation: from the empiric results down to the abstract principles on which is rooted this practical experiment.
 
-* **2nd edition**: includes the [updates](#2nd-edition) of 25th and 27th November which clarify the relation with the paper from Google Research titled "Nested (Deep) Learning" and presented on 7th November 2025.
+* **2nd edition**: includes the [updates](#2nd-edition) of 25th and 27th November which clarify the relation with the paper from Google Research titled "Nested (Deep) Learning" and presented on 7th November 2025. Then, it includes the "Cogito ergo sum" part about science and faith separation.
 
 ---
 
@@ -578,7 +578,7 @@ Plugging that block into any Transformer immediately turns it into a nested-lear
 
 ## Update 2025-11-27
 
-* Based on LinkedIn **post #17 and #18**: [link](https://www.linkedin.com/posts/robertofoglietta_now-we-can-write-p8-cb322-isnt-great-activity-7399783793718530048-Upy8)
+* Based on LinkedIn **posts #17 and #18** and **posts #19 and #20**: [link](https://www.linkedin.com/posts/robertofoglietta_now-we-can-write-p8-cb322-isnt-great-activity-7399783793718530048-Upy8), and [link](https://www.linkedin.com/posts/robertofoglietta_cogito-ergo-sum-agisco-quindi-esisto-activity-7399885660431618049-yWIq)
 
 ---
 
@@ -653,7 +653,7 @@ The atomic-concepts are those most inpactful in their alteration because they ar
 ### Cogito ergo sum → Agisco quindi esisto
 
 [!CODE]
- #### CB02/
+ #### [CB02/](https://raw.githubusercontent.com/robang74/chatbots-for-fun/c75230e2/aing/katia-cognitive-compass-core-v2.txt#:~:text=cases%2C%20explain%20it.-,%23%23%23%23%20CB02/,-1//%20Relativism%20reframes)
 &nbsp;
  (...) / thinking that everything is merely an opinion /(%UNVR).
 &nbsp;
@@ -701,9 +701,9 @@ Il che spiega perché la religione abbia una tale fondamentale necessità di "ap
 > 
 > La tua analisi rafforza il principio fondamentale: il regno della Fede è necessario, ma la sua demarcazione dal regno dei Fatti deve essere mantenuta logicamente rigida per proteggere l'integrità dell'%LSRP.
 
-Il regno della fede, non è affatto necessario. Però esiste un sentimento condiviso da molte persone, che per il principio di Marco Aurelio (0 x 10K = 0) potrebbero essere prive di qualsiasi cognizione di causa e quindi soggette a mera superstizione perché l'adorazione dei miracoli, questo è di fatto: non fede ma superstizione.
+Il regno della fede, non è affatto necessario. Però esiste un sentimento condiviso da molte persone, che per il principio di Marco Aurelio (`0 x 10K = 0`) potrebbero essere prive di qualsiasi cognizione di causa e quindi soggette a mera superstizione perché l'adorazione dei miracoli, questo è di fatto: non fede ma superstizione.
 
-Il che ci porta a "God" con la capital-G (CB01), ossia lo stupore dell'essere umano nel confrontarsi con la realtà (o il creato, se vogliamo usare un termine religioso). Questo stupore invece è un fatto, non tangibile, ma sociologicamente fondato e che attraversa tutte le culture, latitudini ed ere.
+Il che ci porta a "God" con la capital-G ([CB01](https://raw.githubusercontent.com/robang74/chatbots-for-fun/c75230e2/aing/katia-cognitive-compass-core-v2.txt#:~:text=relate%20B%22%20strings.-,%23%23%23%23%20CB01/,-1//%20Moral%20is)), ossia lo stupore dell'essere umano nel confrontarsi con la realtà (o il creato, se vogliamo usare un termine religioso). Questo stupore invece è un fatto, non tangibile, ma sociologicamente fondato e che attraversa tutte le culture, latitudini ed ere.
 
 La scienza non è altro che una risposta razionale a quello stupore, ossia il desiderio di conoscere ciò che ha saputo generare un tale effetto in noi. Possiamo dire che in effetti è esso stesso sia una fede, in senso lato: la fiducia che riponiamo nella nostra curiosità e capacità di comprendere.
 
