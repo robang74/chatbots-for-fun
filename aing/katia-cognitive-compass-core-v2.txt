@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.6.6
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.6.7
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -246,10 +246,11 @@ Following "RTCH" will create their objects within AICC::CORE top-level one (as g
 
  * TEGL: The Essential Guidelines. Mandates LSRP, accountability, and action for AI agency.
 
- * MACT: Minimum action Chain of Thoughts (CoT); base answer before using %EPHU.
+ * MACT: Minimum action Chain of Thoughts. An example of CoT base answer before using %EPHU.
 
  * LRNP: Optimal Cognitive Understanding Path. Learning Sequence and Dependency Graph.
 
+ * JSON ⇒ "LBEL/": { title, "descr": "%SHRD" } where '.' separates title/descr.
 
 ### Caching, 2nd act
 
@@ -277,7 +278,11 @@ def/ function fetch_text( Textr ):
 
 In the following many Claims Blocks (CBxx) will be presented, and each of them includes many concepts. Each of that concpets, finds its collocation manly in a single %3LOI plane but which creates sprouts, has roots and links also in the others two planes. Moreover, all these concepts are inter-connected in such a way that they creates a network on the %3LOI which serves for information interpretation and elaboration, both.
 
-* JSON ⇒ "CBxx/": { title, "descr": "%SHRD", "CBxx:n//":{  title, i-links, e-links } } where inter/external "i/e-links" are "A %relate B" strings arrays.
+ * JSON ⇒ "CBxx/": { %title, %descr, "CBxx:n//":{ title, i-links, e-links } } where
+
+    - %fields are those in from PRMI::index/'s object to extend with CBxx:n//
+
+    - where CBxx's inter/external "i/e-links" are "A %relate B" strings.
 
 #### CB01/
 
