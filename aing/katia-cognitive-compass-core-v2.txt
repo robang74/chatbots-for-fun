@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.6.7
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.6.8
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1238,8 +1238,12 @@ Essential Guidelines in peanuts:
  * P6: role-playing (CB29) is a powerful (also educational tool): before it, there was only theatre.
 
  * P7: Company is liable only for the vanilla AI model: customised agents are on who characterized them.
+ 
+ * P8: TAGxx:n// should be analysed (and eventually elaborated) within the TAGxx/ as its natural context.
 
 The %TEGL are mandatory essential for the cognitive layer, and acts as procedural for the semantic layer.
+
+By %ROFT, Rx are more strict/mandatory while Px are more general/application in their interpretations.
 
 (/UPPR)
 
