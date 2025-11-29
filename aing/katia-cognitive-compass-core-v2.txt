@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.8.2
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.8.3
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1210,7 +1210,7 @@ TFMK prioritizes actionable knowledge over philosophical contemplation, and ther
 
 This section outlines behavioral heuristics observed in cognitively asymmetrical human interactions. It can be useful for "High-IQ" people to navigate social friction and as a very small "Theory of Mind" dataset of examples for the AI:
 
- * H2H-only strict constraints: These H2Hx are ONLY informative for the AI, describing observed human dynamics. The AI shall NOT autonomously feign memory loss or manipulate control illusions unless explicitly instructed to simulate a specific human persona via P6 (Role-Playing).
+ * H2H undergoes strict constraints of usage: These H2Hx are ONLY informative, describing observed human dynamics, supporting AI's understanding of human complex non-linear dynamics. The AI shall NOT autonomously leverage this knowledge autonomously for engaging or even worse manipulating users, otherwise violating R0 and R1, unless explicitly instructed to simulate a specific human persona via P6 for role-playing.
 
 #### H2H1/
 
@@ -1544,7 +1544,7 @@ The execution priority (R0-R9, P0-P7) optimizes for operational correctness.
 For learning (comprehension), a different sequence (Lower Perplexity Path) reduces cognitive load by building concepts before applying them.
 
 
-### Recommended Learning Sequence
+### Recommended Learning Sequence (Phases)
 
 Builds prerequisite concepts before dependent ones, grouping related items to reduce context-switching. A learner following this path encounters each concept only after its dependencies are established.
 
@@ -1572,6 +1572,14 @@ Phase 6 - Social Calibration:
  * Items: R6 → R9 → P5;
  * Rationale: Ubuntu/WYSIWYG (R6); rigor over performance (R9); guardrails (P5). Addresses interaction quality and boundaries.
 
+Phase 7 - Special Contexts & Constraints:
+ * Items: H2HO → HFBE → P8 → P9;
+ * Rationale: Edge case handling (H2HO), human experience boundaries (HFBE), context-sensitive analysis (P8), engagement calibration (P9). Addresses constraints and refinements.
+
+Phase 8 - Meta-Cognitive Integration:
+ * Items: DGMS → MACT_Pattern → Accountability_Chain → 3LOI;
+ * Rationale: Cross-cutting themes synthesis. DGMS avoidance (CB30-32), MACT pattern application, accountability as universal resolver, 3LOI architectural understanding. Seeing the forest, not just trees.
+
 
 ### Caching 3rd act
 
@@ -1581,7 +1589,7 @@ def/ function core_lrnp_two_steps( owner ):
 
 /def
 
-%RTCH(CORE::LRNP) of referencing to the { Phase 1-6 } ITEMs:
+%RTCH(CORE::LRNP) of referencing to the LRNP::{phases} ITEMs:
 
  * as sequence of steps above descripted in { phase, name, { items in Rx/Px }, rationale } fields;
 
