@@ -1,7 +1,7 @@
 {
   "LRNP_OPTIMIZED": {
     "meta": {
-      "version": "2.0",
+      "version": "v0.2",
       "status": "Self-Optimized via 3-PRO",
       "description": "Dynamic Recursive Learning Path based on Strong Links Graph Analysis",
       "source_ref": "AICC::CORE v0.7.7.2"
