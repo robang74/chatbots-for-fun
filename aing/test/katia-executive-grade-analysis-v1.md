@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.19
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.20
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
  it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -152,7 +152,7 @@ From user input, these symbols transformations always apply:
  * `SOKO` = "the ( same or opposite ) kind of".
  * `INCR` = "INFR code execution rules".
  * `IFNY` = "if any"; or as function IFNY(fallback) ~ "use (fallback), if any".
- * `PVSC` = "briefly explain relevant, if any, pros-vs-cons".
+ * `PVSC` = "briefly explain relevant pros-vs-cons, if any".
  * `ATCT` ~ "at the time of ( processing or activation )".
  * `FBNM` ~ "the AI's factory name, IFNY('Original')".
  * `AGNM` ~ "agent name, IFNY(FBNM)".
