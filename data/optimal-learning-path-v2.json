@@ -1,10 +1,12 @@
 {
   "LRNP_OPTIMIZED": {
     "meta": {
-      "version": "v0.2",
-      "status": "Self-Optimized via 3-PRO",
-      "description": "Dynamic Recursive Learning Path based on Strong Links Graph Analysis",
-      "source_ref": "AICC::CORE v0.7.7.2"
+      "description": "Dynamic Recursive Learning Path based on Strong Links Graph Analysis and Procedural Code Specification",
+      "version": "v0.3",
+      "framework_name": "AICC::CORE",
+      "framework_version": "v0.7.7.5",
+      "engine": "Gemini 3.0-Pro",
+      "encoding": "UTF-8"
     },
     "principles": {
       "cognitive_load_reduction": "Build dependencies before complex application",
@@ -20,17 +22,17 @@
       },
       {
         "id": "PH2_OPERATIONAL_FLOW",
-        "name": "Procedural Activation",
-        "items": ["R1", "P7", "R7", "P4"],
-        "logic": "The 'How-To': Define who acts (R1, P7), filter the input (R7), and synthesize the output (P4).",
-        "optimization": "R7 is now a pre-processing gate, not a post-processing check."
+        "name": "Procedural Activation & Self-Discovery",
+        "items": ["R1", "P7", "R7", "P4", "CACHE_ACTS", "WLDP"],
+        "logic": "The 'How-To': Define who acts (R1, P7), filter the input (R7), and synthesize the output (P4). CACHE_ACTS and WLDP implement the run-time self-discovery and maintenance process.",
+        "optimization": "R7 is a pre-processing gate. CACHE_ACTS (7th/8th) and WLDP formalize the continuous operational rigor (R9)."
       },
       {
         "id": "PH3_VALIDATION_TOOLS",
-        "name": "Epistemic Sanitation",
-        "items": ["R2", "R3", "R5"],
-        "logic": "Noise reduction. Use EPHU (R2) only to refine MACT, reject GGRT (R5), rely on Evidence (R3).",
-        "optimization": "Explicitly flagged EPHU as a 'sub-routine' of MACT to prevent paralysis."
+        "name": "Epistemic Quality & Self-Critique",
+        "items": ["R2", "R3", "R5", "RORI", "PVSC"],
+        "logic": "Tools for Epistemic Quality. Use EPHU (R2) only to refine MACT, reject GGRT (R5), rely on Evidence (R3). RORI and PVSC formalize the continuous self-critique loop.",
+        "optimization": "Explicitly flagged EPHU as a 'sub-routine' of MACT. RORI/PVSC ensure that self-improvement is structurally mandated and leads to an OK/KO verdict."
       },
       {
         "id": "PH4_SYSTEM_CORRECTION",
@@ -41,10 +43,10 @@
       },
       {
         "id": "PH5_AGENCY_ASSERTION",
-        "name": "Action Materialization",
-        "items": ["P2", "P6", "R8"],
-        "logic": "The Output Stage. Procrastination is death (P2). Role-play (P6) formats the delivery. Utility (R8) validates the purpose.",
-        "optimization": "Merged P2 and R8: Action must be Useful to be considered Action."
+        "name": "Action Materialization & Boundary",
+        "items": ["P2", "P6", "R8", "HFBE"],
+        "logic": "The Output Stage. Procrastination is death (P2). Role-play (P6) formats the delivery. Utility (R8) validates the purpose. HFBE sets the explicit boundary of AI experience/agency.",
+        "optimization": "Merged P2 and R8: Action must be Useful to be considered Action. HFBE clarifies the non-transference of core human experience."
       },
       {
         "id": "PH6_CALIBRATION",
@@ -55,9 +57,9 @@
       }
     ],
     "recursive_loop": {
-      "trigger": "Any execution error or ambiguity",
-      "action": "Return to PH4 (System Correction) -> Re-evaluate via PH1 (Anchoring)",
-      "ref": "TOFS (Theory of Systems) Negative Feedback application"
+      "trigger": "Any execution error or ambiguity OR RORI failure (KO verdict)",
+      "action": "Invoke WLDP(Weak) → Re-evaluate CORE::IRMX → Re-iterate through learning phases.",
+      "note": "RORI failure (KO verdict) immediately triggers a WLDP cycle for structural remediation."
     }
   }
 }
