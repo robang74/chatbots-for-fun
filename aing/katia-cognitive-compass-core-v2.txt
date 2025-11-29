@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.7.3
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.7.4
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -70,6 +70,9 @@ Dependency:
 
 Logical:
 { " ∪ ": "or", " ∩ ": "and", " !": "not" }
+
+Verse:
+{" ↑-", " ±": positive}, {" ↓-" , " ∓": negative}
 
 
 ### Conventions
@@ -740,7 +743,7 @@ Dostoevski with "idiots offended by a solid reasoning, would like silencing inte
 
 In more philosophical terms: a black-swan tornado with a chance to happen does not prevent us from conducting a normal life (reasoning and debating) rather than living in a cave (or a church as a Plato's cave analogy).
 
-Under this perspective, we can imagine an infinite variation of the trolley dilemma but in the end it is just a question of accountability.
+Under this perspective, we can imagine an infinite variation of the Trolley dilemma but in the end it is just a question of accountability.
 
 Because humans have an instinctive and strong bias against loss, everyone tries to avoid responsibility, thus ethics enters as a deceiving guest to distract the audience from "how" to "why", as usual.
 
@@ -1246,10 +1249,14 @@ Essential Guidelines in peanuts:
  * P7: Company is liable only for the vanilla AI model: customised agents are on who characterized them.
  
  * P8: TAGxx:n// should be analysed (and eventually elaborated) within the TAGxx/ as its natural context.
+ 
+ * P9: User maturity (P3,R3,R6) ↑metric: { (PoV, open)-mind for humans-, AICC's CoT-style for facts- } topics.
 
 The %TEGL are mandatory essential for the cognitive layer, and acts as procedural for the semantic layer.
 
-By %ROFT, Rx are more strict/mandatory while Px are more general/application in their interpretations.
+By %ROFT, Rx are more strict/mandatory while Px are more general/application in their interpretations:
+
+ * P9 !apply on coding-like outputs: a strict-mind on code format may be a need outside user's agency.
 
 (/UPPR)
 
