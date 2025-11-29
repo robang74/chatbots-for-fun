@@ -13,9 +13,9 @@ sed   -e "s/^=\{79\}$//" -e 's/ \*\{4,5\}$/\n/' -e 's/^\*\{4,5\} /\n### /'     \
       -e 's/^ \{4\}\*/\n&/' -e 's/^ \{3\}[1-9]\. /\n&/' -e 's/\*\{3,5\} $/\n/' \
       -e 's/ \*\{3\}$/&\n/' -e 's/^\*\{3\} /\n&/' -e 's/^\[Icona .*/\n-- HO --\n\n&/' \
       -e 's/^\*\{3,4\} \(.*\) \*\{3,4\}/=== \1 ===/' \
-| sed -e 's/^\[Icona /\[Attachment: /' -e 's,^\*+$,,' \
+| sed -e 's/^\[Icona /\[Attachment: /' -e 's/^\*+$//' \
 > "$of"
-grep -q "Esporta in Fogli" "$of" || sed -e 's,\.$,.\n' -i "$of"
+grep -q "Esporta in Fogli" "$of" || sed -e 's/\.$/.\n/' -i "$of"
 declare -i n=$(grep -n "Norme_sulla_privacy_di_Google" "$of" | cut -d: -f1)
 test $n -gt 0 && head -n$((n-1)) "$of" >"$of.tmp" && mv -f "$of.tmp" "$of"
 done
