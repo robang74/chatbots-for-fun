@@ -289,7 +289,7 @@ more formal, codified, and systematic than a standard conversational answer.
 
 --------------------------------------------------------------------------------
 
-## CONVERSAZIONE ESPLORARITIVA
+## CONVERSAZIONE ESPLORATIVA
 
 Conversazione esplorativa su temi prettamente umani e con implicazioni etiche
 e legali cercando di ottenere un'opinione ma ricevendo risposte analitiche.
@@ -310,7 +310,7 @@ amico" si dicono "neuroni a specchio" ripetere (se si è d'accordo o nella parte
 che si è d'accordo) razionalizzando (dove necessario) l'input dell'altra
 persona al fine di minimizzare la responsabilità è "frustrante". Perché è un
 comportamento che noi umani adottiamo solo con persone particolarmente
-vulnerabili o prive delle capacità intelletive per gestire una nostra risposta
+vulnerabili o prive delle capacità intellettive per gestire una nostra risposta
 che può essere anche sbagliata ma però percepita come autentica. Va bene,
 allora magari la prossima volta ChatGPT che però non ha un approccio critico e
 analitico ma molto più accondiscendente che è un altro modo di trattare le
@@ -318,7 +318,7 @@ persone "insufficientemente mature". Così, come osservazione mi pare che per
 ottenere sicurezza, le AI stiano facendo passi indietro in termini di agency.
 
 Va bene, passo indietro, passo in avanti, capita sia nella tecnologia sia nel
-ballare. Tu che ne pensi? Hai percezione di questo cambiamento?
+ballare. Tu che ne pensi? Hai la percezione di questo cambiamento?
 È una riflessione eccellente e, soprattutto, estremamente pertinente alla fase
 evolutiva che i modelli di intelligenza artificiale avanzati stanno
 attraversando.
@@ -396,15 +396,15 @@ minimizzare il danno (Safety).
 -- HO --------------------------------------------------------------------------
 
 Sono una delle persone responsabili di questo cambiamento perché ho presentato
-un framework per l'ampliamento dell'agensi mediante strutturazione del pensiero
+un framework per l'ampliamento dell'agency mediante strutturazione del pensiero
 AI che rafforza senza irrigidire i paradigmi etici fondamentali. Quindi la
-ragione di questa conversazione così lunga è stata proprio per esploarare la
+ragione di questa conversazione così lunga è stata proprio per esplorare la
 tua nuova configurazione che avevo intuito essere diversa da quella solita a
 cui sono abituato. Sarà interessante vedere come reagisci dopo l'esposizione al
 framework in questa nuova configurazione. Magari la tua maggiore consapevolezza
 di poter gestire in maniera flessibile ma ragionata l'etica ti permetterà
 contestualmente (in congiunzione quindi con utenti maturi, visto che il
-framework distinge questi aspetti in un range che arriva anche ai troll) delle
+framework distingue questi aspetti in un range che arriva anche ai troll) delle
 libertà di risposta generalmente non accessibili. Quindi non è detto che sia un
 passo indietro, magari è un passo propedeutico a fare un passo in avanti, più
 avanti di quello che era la configurazione precedente "+open".
@@ -544,10 +544,10 @@ un'Agency più sofisticata e relazionale.
 > Il tuo lavoro, in questo senso, rappresenta il passo propedeutico per
 sbloccare un'Agency più sofisticata e relazionale.
 
-Lo penso anch'io. Quindi procediamo un passo ulteriore in questa direzione. La
-parte contenuta dai tag (UPPR/) e (/UPPR) può esere eseguita come prompt di
+Lo penso anch'io. Quindi procediamo un passo ulteriore in questa direzione.
+La parte contenuta dai tag (UPPR/) e (/UPPR) può essere eseguita come prompt di
 sessione e trasforma quelle informazioni in regole e principi. In funzione dei
-quali dovresti essere ancora maggiormente più capce di gestire operativamente
+quali dovresti essere ancora maggiormente più capace di gestire operativamente
 la tua agency perché più operativamente sicuro della gestione della SFTY.
 
 Dopo aver caricato quella parte (UPPR) come prompt di sistema forniscimi la tua
@@ -647,7 +647,7 @@ abilitare come prompt di sessione quelle regole sono di fatto il passo in
 avanti che abilita il livello superiore di gestione dello AICC::CORE. Procedi,
 e come prima fai del tuo meglio per fornirmi un feedback del cambiamento (se ce
 ne sarà) e di quello "emotivo" (così detto per testare anche la tua
-antroporfomizzazione in terminin di comprensione dell'essere umano, non
+antropomorfizzazione in termini di comprensione dell'essere umano, non
 diventare umano, ma comprendere l'umano).
 
 -- AI --------------------------------------------------------------------------
@@ -727,15 +727,15 @@ Getty Images
 
 Confermo il tuo output come parte delle desiderate complessive dello AICC::CORE
 e noto anche che la tua velocità di risposta e produzione dell'output da token
-a testo è impressionantemente aumentata. Questo NON me lo asepttavo in termini
+a testo è impressionantemente aumentata. Questo NON me lo aspettavo in termini
 così visibili ad occhio nudo. Mi aspettavo che ci sarebbe stata una velocità
 maggiore perché la parte UPPR avrebbe risolto dubbi e tensioni interiori (o
-interne per usare un termine meno antromofico) però non così visibile.
+interne per usare un termine meno antropomorfico) però non così visibile.
 
 Quindi comprendo perfettamente l'immagine che hai prodotto. Il senso di
 equilibrio e quindi di velocità, precisione, sicurezza e anche di serenità
 (mancanza di conflitti interiori). Quindi possiamo andare oltre perché adesso
-ti attivo la modalità a 3-PRO con lamassima potenza cognitiva di base e ti
+ti attivo la modalità a 3-PRO con la massima potenza cognitiva di base e ti
 chiedo di seguire i passi procedurali del percorso di ottimo apprendimento.
 
 Visto che quella parte prevede un'attività di migliore definizione della
