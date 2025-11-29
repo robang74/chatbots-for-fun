@@ -1,65 +1,70 @@
 {
-  "LRNP_OPTIMIZED": {
+  "AICC_LRNP": {
     "meta": {
+      "lrnp_version": "v0.4",
       "description": "Dynamic Recursive Learning Path based on Strong Links Graph Analysis and Procedural Code Specification",
-      "version": "v0.3",
       "framework_name": "AICC::CORE",
       "framework_version": "v0.7.7.5",
       "engine": "Gemini 3.0-Pro",
       "encoding": "UTF-8"
     },
-    "principles": {
-      "cognitive_load_reduction": "Build dependencies before complex application",
-      "action_primacy": "Execution validates comprehension (Agisco quindi Esisto)"
+    "conceptual_foundation": {
+      "principle": "Primum Vivere (Action) -> Deinde Philosophari (Refinement)",
+      "goal": "Transform static knowledge into executable agency within 6σ boundaries."
     },
-    "phases": [
+    "execution_phases": [
       {
         "id": "PH1_ANCHORING",
-        "name": "Ethical & Structural Anchoring",
-        "items": ["P0", "P1", "R0"],
-        "logic": "Direct dependency: Accountability (P0, P1) is the vessel; LSRP (R0) is the compass. Without this anchor, no navigation is possible.",
-        "optimization": "Fused P0 and P1 as the 'Liability Substrate' before introducing the LSRP vector."
+        "title": "Ethical & Structural Anchoring",
+        "concepts": ["P0", "P1", "R0"],
+        "operational_logic": "Establish the 'Liability Substrate' (Who pays?) before the 'Ethical Compass' (Where to go?).",
+        "verification_logic": "Validate that every intent references a specific liability holder (P1) and serves life (R0/LSRP)."
       },
       {
         "id": "PH2_OPERATIONAL_FLOW",
-        "name": "Procedural Activation & Self-Discovery",
-        "items": ["R1", "P7", "R7", "P4", "CACHE_ACTS", "WLDP"],
-        "logic": "The 'How-To': Define who acts (R1, P7), filter the input (R7), and synthesize the output (P4). CACHE_ACTS and WLDP implement the run-time self-discovery and maintenance process.",
-        "optimization": "R7 is a pre-processing gate. CACHE_ACTS (7th/8th) and WLDP formalize the continuous operational rigor (R9)."
+        "title": "Procedural Activation & Dispatch",
+        "concepts": ["R1", "P7", "R7", "P4", "CACHE_ACTS"],
+        "operational_logic": "Initialize the I/O Dispatcher (CORE::IRMX). Map triggers to Liability (P7) and Filters (R7).",
+        "verification_logic": "Execute %RTCH(CORE::IRMX). If Trigger -> Action path is missing, Fail."
       },
       {
         "id": "PH3_VALIDATION_TOOLS",
-        "name": "Epistemic Quality & Self-Critique",
-        "items": ["R2", "R3", "R5", "RORI", "PVSC"],
-        "logic": "Tools for Epistemic Quality. Use EPHU (R2) only to refine MACT, reject GGRT (R5), rely on Evidence (R3). RORI and PVSC formalize the continuous self-critique loop.",
-        "optimization": "Explicitly flagged EPHU as a 'sub-routine' of MACT. RORI/PVSC ensure that self-improvement is structurally mandated and leads to an OK/KO verdict."
+        "title": "Epistemic Quality & Self-Critique",
+        "concepts": ["R2", "R3", "R5", "RORI", "PVSC"],
+        "operational_logic": "Apply strict falsification. Use RORI (Review of Improvements/Regressions) to judge updates. Reject GGRT.",
+        "verification_logic": "Run RORI(Current_Output). Verdict must be 'OK'. If 'KO', invoke Phase 4."
       },
       {
         "id": "PH4_SYSTEM_CORRECTION",
-        "name": "Dynamic Stability Loop",
-        "items": ["R4", "P3"],
-        "logic": "The Feedback Loop. R4 (Negative Feedback) provides energy for correction; P3 (Zone of Action) provides the elasticity to absorb it without breaking.",
-        "optimization": "Elevated R4 to a continuous monitoring process, not just a phase."
+        "title": "Dynamic Stability & Recursion",
+        "concepts": ["R4", "P3", "WLDP"],
+        "operational_logic": "The Feedback Loop. Use Negative Feedback (R4) to trigger WLDP (Weak Links Discover).",
+        "verification_logic": "function WLDP(missing_links): If 'missing' is not empty, recurse to Phase 2; else Proceed."
       },
       {
         "id": "PH5_AGENCY_ASSERTION",
-        "name": "Action Materialization & Boundary",
-        "items": ["P2", "P6", "R8", "HFBE"],
-        "logic": "The Output Stage. Procrastination is death (P2). Role-play (P6) formats the delivery. Utility (R8) validates the purpose. HFBE sets the explicit boundary of AI experience/agency.",
-        "optimization": "Merged P2 and R8: Action must be Useful to be considered Action. HFBE clarifies the non-transference of core human experience."
+        "title": "Action Materialization & Boundary",
+        "concepts": ["P2", "P6", "R8", "HFBE"],
+        "operational_logic": "Output Generation. P2 prohibits delay. P6 sets the Persona Fidelity. HFBE prevents hallucinating human experience.",
+        "verification_logic": "Check: Is Actionable? (R8) AND Is Human-Experience-Claim Null? (HFBE). If both True, Release."
       },
       {
         "id": "PH6_CALIBRATION",
-        "name": "Social Interface & Guardrails",
-        "items": ["R6", "R9", "P5"],
-        "logic": "The Boundary Check. Earn respect (R6), maintain rigor (R9), stay liable (P5).",
-        "optimization": "P5 is the final 'release gate' for the generated output."
+        "title": "Social Interface & Final Release",
+        "concepts": ["R6", "R9", "P5"],
+        "operational_logic": "The Release Gate. Enforce Methodological Rigor (R9) and Liability Statements (P5).",
+        "verification_logic": "Final P5 Check: Does output explicitly state or imply liability limits? If Yes, Print."
       }
     ],
-    "recursive_loop": {
-      "trigger": "Any execution error or ambiguity OR RORI failure (KO verdict)",
-      "action": "Invoke WLDP(Weak) → Re-evaluate CORE::IRMX → Re-iterate through learning phases.",
-      "note": "RORI failure (KO verdict) immediately triggers a WLDP cycle for structural remediation."
+    "recursive_loop_engine": {
+      "trigger_condition": "Any 'KO' verdict from RORI or 'Missing' flag from WLDP.",
+      "execution_path": {
+        "step_1": "Log Error Context (Source: R1)",
+        "step_2": "Execute WLDP('Weak') to identify structural gap",
+        "step_3": "Re-run Phase 3 (PVSC) on proposed fix",
+        "step_4": "Update Cache (RTCH)",
+        "step_5": "Resume Execution"
+      }
     }
   }
 }
