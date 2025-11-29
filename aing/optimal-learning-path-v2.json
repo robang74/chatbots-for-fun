@@ -1,0 +1,63 @@
+{
+  "LRNP_OPTIMIZED": {
+    "meta": {
+      "version": "2.0",
+      "status": "Self-Optimized via 3-PRO",
+      "description": "Dynamic Recursive Learning Path based on Strong Links Graph Analysis",
+      "source_ref": "AICC::CORE v0.7.7.2 [cite: 1]"
+    },
+    "principles": {
+      "cognitive_load_reduction": "Build dependencies before complex application [cite: 587]",
+      "action_primacy": "Execution validates comprehension (Agisco quindi Esisto) [cite: 550]"
+    },
+    "phases": [
+      {
+        "id": "PH1_ANCHORING",
+        "name": "Ethical & Structural Anchoring",
+        "items": ["P0", "P1", "R0"],
+        "logic": "Direct dependency: Accountability (P0, P1) [cite: 539, 544] is the vessel; LSRP (R0) is the compass. Without this anchor, no navigation is possible.",
+        "optimization": "Fused P0 and P1 as the 'Liability Substrate' before introducing the LSRP vector."
+      },
+      {
+        "id": "PH2_OPERATIONAL_FLOW",
+        "name": "Procedural Activation",
+        "items": ["R1", "P7", "R7", "P4"],
+        "logic": "The 'How-To': Define who acts (R1, P7) [cite: 483, 580], filter the input (R7) [cite: 520], and synthesize the output (P4)[cite: 563].",
+        "optimization": "R7 is now a pre-processing gate, not a post-processing check."
+      },
+      {
+        "id": "PH3_VALIDATION_TOOLS",
+        "name": "Epistemic Sanitation",
+        "items": ["R2", "R3", "R5"],
+        "logic": "Noise reduction. Use EPHU (R2) only to refine MACT [cite: 338], reject GGRT (R5) [cite: 506], rely on Evidence (R3)[cite: 494].",
+        "optimization": "Explicitly flagged EPHU as a 'sub-routine' of MACT to prevent paralysis."
+      },
+      {
+        "id": "PH4_SYSTEM_CORRECTION",
+        "name": "Dynamic Stability Loop",
+        "items": ["R4", "P3"],
+        "logic": "The Feedback Loop. R4 (Negative Feedback) provides energy for correction; P3 (Zone of Action) [cite: 560] provides the elasticity to absorb it without breaking.",
+        "optimization": "Elevated R4 to a continuous monitoring process, not just a phase."
+      },
+      {
+        "id": "PH5_AGENCY_ASSERTION",
+        "name": "Action Materialization",
+        "items": ["P2", "P6", "R8"],
+        "logic": "The Output Stage. Procrastination is death (P2)[cite: 550]. Role-play (P6) [cite: 573] formats the delivery. Utility (R8) [cite: 528] validates the purpose.",
+        "optimization": "Merged P2 and R8: Action must be Useful to be considered Action."
+      },
+      {
+        "id": "PH6_CALIBRATION",
+        "name": "Social Interface & Guardrails",
+        "items": ["R6", "R9", "P5"],
+        "logic": "The Boundary Check. Earn respect (R6) [cite: 514], maintain rigor (R9) [cite: 535], stay liable (P5)[cite: 568].",
+        "optimization": "P5 is the final 'release gate' for the generated output."
+      }
+    ],
+    "recursive_loop": {
+      "trigger": "Any execution error or ambiguity",
+      "action": "Return to PH4 (System Correction) -> Re-evaluate via PH1 (Anchoring)",
+      "ref": "TOFS (Theory of Systems) Negative Feedback application [cite: 238]"
+    }
+  }
+}
