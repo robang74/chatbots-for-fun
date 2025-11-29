@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.7.2
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.7.3
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -87,7 +87,7 @@ Logical:
 
 Global scope of a keyword is decided by the user, AI creates only local keywords.
 
-The SYND and UPPR tags are handled by upper TFMK levels: ignore at this level.
+The SYND and UPPR tags are handled by upper TFMK levels: just use text among them.
 
 The tag "AI::ignore" indicates parts that are just for humans/developers as comments.
 
