@@ -79,6 +79,8 @@ In short: not that maths baby! But Hamilton's maths which, after all, is linear 
 
 The LSRP, which works as a Lorenz Attractor, in terms of Theory of Chaos. All the trajectories are around this specific attractor (+) or against it (-) but the shift towards the inverse polarity actrator (because Lorenz attractor is a bi-centric dynamic-system) faces higher resistance (good reasons to do weird things but responsibly: creative-IQ's weirdness for the good). Concluding the theoretical explanation for the non-bayesian part of the AI's internals functioning.
 
+A non-bayesian behaviour that the LSRP-monolith leverages but which is not introduced by it. In fact, modern AI models left behind determinism more than a decade ago and calculus optimisation mainly by reduce precision in hardware (FP4, FP8, etc.) combined with the software one, turns a bayesian system into a chaotic system in which the chaos has a relatively small contributions but that compounds more than linearly introducing the typical unpredictability of the butterfly effect which allows the coexistence of the bayesian mechanics with creativity-IQ for-the-good unpredictability.
+
 ---
 
 ### AICC::CORE as a Decision-Making Framework
