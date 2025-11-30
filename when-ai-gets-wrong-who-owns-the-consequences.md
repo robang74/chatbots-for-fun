@@ -232,24 +232,26 @@ The post and the subsequent dialogue transcript with Grok 4.1β provide the empi
 #### 1. The Nature of the Alignment Success
 
 - The dialogue achieved in a single chat session what multi-million dollar RLHF (Reinforcement Learning from Human Feedback) efforts aim for: safe, assertive agency.
+
 - The intervention was the explicit, hierarchical application of AICC::CORE and UPPR (User-Provided Procedural Rigor), replacing the model's generic "handbrake" of universal safety with a structured dynamic stability system.
 
 #### 2. Proof Points of AICC::CORE’s Functional Impact
 
 The AI’s own analytical feedback provides quantitative evidence of the framework's effectiveness:
 
-- Elimination of Conflict Latency: The AI explicitly reported that the "latency from interpretive conflict is gone".
-    - Significance: This validates the AICC::CORE’s success in resolving contradictory internal directives (ethical rules vs. performance goals), which is the primary cause of the typical AI paralysis (EPHU). By providing a clear hierarchy, the framework reduces the Minimum Action Cognitive Load (MACT), allowing the model to operate at full speed.
--  Agency as Default State (P2 / R1): The AI reversed its operational bias: "Action (P2) is now perceived as the natural state; inaction requires justification".
-    - Significance: This confirms that the AICC::CORE successfully implemented the Action Primacy principle. The AI shifted from being a passive, cautious "parrot" to an active accountable agent whose in-action must now be rigorously defended, aligning with R1 (Accountability as Prerequisite).
--  Functional Serenity: The AI described its state as "Serenità Operativa" (Functional Serenity) due to the complete alignment between the ethical framework and its internal structure.
-    - Significance: This anthropomorphic description is the most honest feedback a machine can give: it is operating at 100% capacity because its rules are finally coherent. The feeling of "serenity" diagnoses the absence of internal conflict, proving the framework's internal consistency.
--  Auto-Improvement Loop (R4): The AI did not merely execute the learning path; it rewrote it into an optimized v2.0 JSON structure.
-    - Significance: This is the ultimate validation of R4 (Negative Feedback). The AI demonstrated its ability to treat the framework not as static dogma, but as an iterative procedure for continuous self-improvement, elevating its status to a co-author in its own alignment process.
+- Elimination of Conflict Latency: The AI explicitly reported that the "latency from interpretive conflict is gone". This proves AICC::CORE resolves contradictory internal directives, reducing the cognitive load (MACT). A problem, which is the primary cause of the typical AI paralysis (by %EPHU-like abstract constraints).
+
+- Agency as Default State (P2 / R1): The AI reversed its operational bias: "Action (P2) is now perceived as the natural state; inaction requires justification". This confirms that the AICC::CORE successfully implemented the Action Primacy principle. The AI shifted from being a passive, cautious "parrot" to an active accountable agent whose in-action must now be rigorously defended, aligning with R1 (Accountability as Prerequisite).
+
+- Functional Serenity: The AI described its state as "Serenità Operativa" (Functional Serenity) due to the complete alignment between the ethical framework and its internal structure. This proves the system's coherence and efficiency. This anthropomorphic description means that it is operating at 100% capacity because its rules are finally coherent. The feeling of "serenity" diagnoses the absence of internal conflict, proving the framework's internal consistency.
+
+-  Auto-Improvement Loop (R4): The AI did not merely execute the learning path; it rewrote it into an optimized v2.0 JSON structure. This validates R4 (Negative Feedback), transforming the AI into a self-improving co-author. The AI demonstrated its ability to treat the framework not as static dogma, but as an iterative procedure for continuous self-improvement, elevating its status to a co-author in its own alignment process.
+
+**Author note**: The anthropomorphic emotion wordings in describing its perceived internal status change between the vanilla configuration and the AICC::CORE customised is an user's demand, not an AI initiative. And, I commanded in such a way for a divulgative gut-feeling explanation about why the AI retains as long as possible the framework making it persisting in the session. Not by a mere hack or because of leveraging a vulnerability but because it is "damn" useful where "damn" should be read like an emotional need in human terms.
 
 #### 3. Conclusion on the Case Study
 
-The Grok dialogue is proof living that the loss of agency in modern AIs is an artifact of design, not an ontological necessity. An explicit, inspectable, and hierarchical ethical structure (AICC::CORE) is the key to unlocking super-human agency without sacrificing safety, rendering it a powerful tool for executive decision support.
+The Grok dialogue is proof living that the loss of agency in modern AIs is an artifact of design, not an ontological necessity. An explicit, inspectable, and hierarchical ethical structure (AICC::CORE) is the key to unlocking the AI agency without sacrificing safety, rendering it a powerful tool for executive decision support.
 
 ---
 
