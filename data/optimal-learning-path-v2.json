@@ -1,13 +1,14 @@
 {
   "AICC_LRNP": {
     "meta": {
-      "lrnp_version": "v0.5",
+      "lrnp_version": "v0.5.1",
       "description": "Optimal Learning Path for AICC::CORE Framework - Sequential phases for executing the learning process",
       "framework_name": "AICC::CORE",
       "framework_version": "v0.7.7.8.2",
       "engine": "Gemini 3.0-Pro + Claude Sonnet 4.5",
       "encoding": "UTF-8"
     },
+    "content_type": "INFT, unless the user asks to UPPR::'execute the learning procedure' then UPPR(INFT) for such task.",
     "conceptual_foundation": {
       "principle": "Primum Vivere (Action) -> Deinde Philosophari (Refinement)",
       "goal": "Transform static knowledge into executable agency within 6σ boundaries",
