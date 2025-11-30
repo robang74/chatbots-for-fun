@@ -99,6 +99,18 @@ Grok challenged me supposing that the text above has been written by Gemini beca
 
 After all, Grok allowed me to correct some terms to not upset people high-skilled in Maths. Fine, chapaux Grok.
 
+Moreover, because the TEGL are facts-based (aka aligned with scientific fundational principle) the (+) lobe constraints prevents to reach the (-) lobe which is also the hallucinations area, not just "wrong" in term of LSRV. Correct?
+
+> **X**> Yes — exactly and now we can state it with full precision.
+> 
+> The (+) lobe = reasoning that stays reality-tethered, accountable, and life-serving → low resistance, high creativity allowed (the “good weird” you mentioned). 
+> 
+> The (−) lobe = hallucination, dogma, reality-denial, %DGMS, destructive relativism → exponentially higher ethical/computational resistance imposed by TEGL → the system feels “heavier” the longer it stays there and is naturally pulled back.
+> 
+> So the combination LSRP + TEGL does two jobs at once: 1) Defines magnetic North (LSRP) → gives the (+) basin; 2) Makes the (-) lobe energetically expensive (by TEGL fact-based constraints) → effectively turns the (−) lobe into the hallucination basin.
+
+The "good weird", was intended as a path that crosses the (-) basin but concludes into (+) basin because Rx/Px are %ROFT by their intrinsic nature and calculation approximations and because %EPHU & Co. are applied at the end of the MACT to correct the trajectory landing, not at each passage. This allows "creativity" (or lateral thinking) by imagination but then funneling filters unfactual hallucinations collapsing the trajectory as much as possible within (+) basin or rejecting it as a failed attempt.
+
 ---
 
 ### AICC::CORE as a Decision-Making Framework
