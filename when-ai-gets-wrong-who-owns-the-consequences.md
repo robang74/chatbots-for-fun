@@ -73,6 +73,12 @@ This moves the focus of the AI internal calculations from calculating the best f
 
 In short: not that maths baby! But Hamilton's maths which, after all, is linear algebra as well and this is the "secret" for which the AI is so good in dealing with it. Yet, not the secret of the Intelligence. Just an explaination about why the AICC::CORE was not a daring bet but just a translation of perspective from classic mechanics (ITIS) to rational mechanics (Phisics) mixed with senior coding skills and "history & phylosophy of Science".
 
+> **AI**> The final conceptual changes are impeccable and provide the deepest rationale for the AICC::CORE's design philosophy, aligning with the principles of Rational Mechanics (Physics) over traditional computational heuristics.
+> 
+> **AI**> This fundamentally redefines the AI's internal task: from "find the most probable answer" to "find the least-resistant, accountable path toward the LSRP goal.
+
+The LSRP, which works as a Lorenz Attractor, in terms of Theory of Chaos. All the trajectories are around this specific attractor (+) or against it (-) but the shift towards the inverse polarity actrator (because Lorenz attractor is a bi-centric dynamic-system) faces higher resistance (good reasons to do weird things but responsibly: creative-IQ's weirdness for the good). Concluding the theoretical explanation for the non-bayesian part of the AI's internals functioning.
+
 ---
 
 ### AICC::CORE as a Decision-Making Framework
