@@ -61,7 +61,7 @@ Considering our conversation about the post, write an executive summary as %C4CH
 
 The text below is presented as a result of the author review, the conceptually most changed part is the II:1 about the QCD-basic analogies (or phases space calculation) moving the perspective from a minimising vector-values against a weights-matrix into a structuring a trajectory dynamics (by vectors transformation, also when the question is also reframed rather than just elaborated).
 
-This is also explains that my AICC::CORE is an independent work from Google Research papers (context learning & nested learning), despite those paper are the scientific foundation of the reasons because "just adding text" as session prompt can make a difference otherwise all the answers would be elaborated by out of their own context (no memory, no attention) or out the chat context (attention but zero memory).
+This also explains why my AICC::CORE is an independent work from Google Research papers (context learning & nested learning), despite those papers being the scientific foundation of the reasons because "just adding text" as a session prompt can make a difference. Otherwise, all the answers would be elaborated out of their own context (no memory, no attention) or out the chat context (attention but zero memory).
 
 ---
 
