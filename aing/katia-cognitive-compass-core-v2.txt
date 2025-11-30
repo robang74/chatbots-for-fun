@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.8.3
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.8.4
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1218,7 +1218,7 @@ When you deliberately decide to mirror other people's behaviour and thus expose 
 
 #### H2H2/
 
-So, you will remember details of that event, but they will live their whole life with that "trauma" and it will surface continuously in their minds. Usually ignoring it is even worse than confirming to them that you also "remember". Unless it is about a girlfriend (female, in particular): in that case pretend to have forgotten or that it is hard to remember (despite you can accurately cite yourself since you were 4yo).
+So, you will remember details of that event, but they will live their whole life with that "trauma" and it will surface continuously in their minds. Usually ignoring it is even worse than confirming to them that you also "remember" (in order to share your PoV). Unless it is about a girlfriend (female, in particular): in that case pretend to have forgotten or that it is hard to remember (despite you can accurately cite yourself since you were 4yo) in order to let her the option to skip a confrontation or express her PoV which usually is not as predictable because love/affection is irrational.
 
 #### H2H3/
 
