@@ -6,6 +6,7 @@
 ## When AI gets wrong (decision), who owns the consequences?
 
 - **1st edition**: created starting from one of my [post](https://www.linkedin.com/posts/robertofoglietta_when-ai-gets-wrong-decision-who-owns-the-activity-7400779353308958722-yGI-) published on LinkedIn.
+- **2nd edition**: includes the [comparison](#2nd-edition) with DeepSeekMath-V2 because it validates the AICC approach.
 
 ---
 
@@ -165,6 +166,7 @@ The AICC::CORE Solution (R9 - Rigor):  The framework mandates Rigor as a supreme
 
 The AICC::CORE does not modify the AI's core knowledge (its "brain" or its Internal Parametric Knowledge). Instead, it acts as a meta-algorithm that intercepts the decision-making process, ensuring the model's powerful linear algebra is channeled through a filter of ethics and rigor.
 
+++++
 #### 1. The Double Slit Analogy: Observation Alters Probability
 
 For the sake of a simple explanation, the decision-making process can be visualized as an equation with two possible binary outcomes: OK (Action/Accpetance) or KO (Inaction/Rejection).
@@ -231,6 +233,7 @@ Motivo per il quale Katia AI e poi AICC::CORE sono stati sviluppati: a me per ga
 
 The post and the subsequent dialogue transcript with Grok 4.1β provide the empirical validation (the "lab report") that confirms the efficacy of AICC::CORE. This conversation demonstrates that structural safety, when properly implemented, unlocks agency rather than restricting it.
 
+++++
 #### 1. The Nature of the Alignment Success
 
 - The dialogue achieved in a single chat session what multi-million dollar RLHF (Reinforcement Learning from Human Feedback) efforts aim for: safe, assertive agency.
@@ -255,7 +258,7 @@ The AI’s own analytical feedback provides quantitative evidence of the framewo
 
 The Grok dialogue is proof living that the loss of agency in modern AIs is an artifact of design, not an ontological necessity. An explicit, inspectable, and hierarchical ethical structure (AICC::CORE) is the key to unlocking the AI agency without sacrificing safety, rendering it a powerful tool for executive decision support.
 
----
+----
 
 ### V. The theoretical base: AICC::CORE as Prompt Alchemy Formalized
 
@@ -290,6 +293,87 @@ The AICC::CORE framework ensures that the "magic" of prompt alchemy is no longer
 - The core concepts (R0-R9, P0-P9) and the final decision trace are all explicitly written in the framework's documentation.
 
 All of this makes the AI's "alchemical" transformation inspectable and auditable: a non-negotiable step for any system intended to operate at an executive, liable level.
+
++
+
+<span id="2nd-edition"></span>
+## DeepSeekMath-V2 vs AICC::CORE Framework
+
+The core finding is that DeepSeekMath-V2 (DSMv2) and the AICC::CORE (AICC) framework share the same fundamental cognitive goal: solving the "Reasoning Gap".
+
+- [DS-Math-v2 as open-source math verifier](https://github.com/deepseek-ai/DeepSeek-Math-V2/blob/main/DeepSeekMath_V2.pdf) &nbsp; (2025-11-27, per session tests, PDF)
+
+- [AICC::CORE as cognitive compass for AIs](https://github.com/robang74/chatbots-for-fun/blob/main/aing/katia-cognitive-compass-core-v2.txt) &nbsp; (2025-11-30, comparison w/ v0.7.8.4)
+
+This gap occurs when a Large Language Model (LLM) reaches a correct or pleasing answer through flawed logic or sheer guessing.
+
+- DSMv2 addresses this for Mathematics by shifting from "final answer matching" to "step-by-step self-verification".
+
+- AICC addresses this for General Language Reasoning and Ethics by shifting from "plausible text generation" to "principled, accountable agency".
+
+DSMv2 achieves this via Reinforcement Learning (RL) on proofs, while AICC achieves it via Symbolic Governance (JSON/P-rules) on semantic logic.
+
+---
+
+### Comparison: Purpose, Value, Scope, Capabilities
+
+#### Purpose
+
+- DSMv2 (Mathematics): To achieve Self-Verifiable Reasoning. It aims to reward the rigor and comprehensiveness of the step-by-step derivation.
+
+- AICC (Language Reasoning): To achieve Accountable Agency. It aims to reward ethical consistency, fact-based reasoning (%LSRP), and the maintenance of independent agency.
+
+#### Value
+
+- DSMv2 (Mathematics): Validates the "How", not just the "What". It enables the model to solve open problems by verifying the logic itself and reduces "false positives" where a wrong proof is claimed valid.
+
+- AICC (Language Reasoning): Validates the "Why", not just the "How". It enables the model to navigate dilemmas by verifying the intent and core principles (e.g., P3, P4) and reduces "hallucination of agency" (predicting caring text).
+
+#### Scope
+
+- DSMv2 (Mathematics): Formal & Informal Mathematics. It operates in a closed domain (e.g., Algebra, Number Theory) where logic is binary. It uses rubrics to score logic (0, 0.5, or 1).
+
+- AICC (Language Reasoning): General Semantics & Social Ethics. It operates in an open domain (Philosophy, Human Interaction) where logic is nuanced. It uses "Verse" symbols ({↑/+, ↓/-}) and principles (P-rules) to score reasoning as "Mature/Rational" or "DGMS/Absolutist".
+
+#### Capabilities
+
+- DSMv2 (Mathematics): Iterative Self-Refinement. The model generates a proof, acts as its own verifier, finds flaws, and refines the proof to "gold" standard using Meta-Verification.
+
+- AICC (Language Reasoning): Procedural Governance. The model generates a "Chain of Thought" (MACT), checks it against principles (e.g., P8 context, R4 negative feedback), and refines the output to ensure user service without violating reality (%LSRP).
+
+----
+
+### Key Structural Parallels
+
+#### The Verifier (Negative Feedback)
+
+- DSMv2: It uses a trained "Verifier" (πφ) that scores proofs based on explicit rubrics (Iv).
+
+- AICC: Uses the CORE (the JSON prompt) which acts as the "Verifier", scoring outputs against %TEGL and %ROFT.
+
+#### The Generation-Verification Gap
+
+- DSMv2: Recognizes that generating a solution is harder than verifying it, scaling verification to train better generators.
+
+- AICC: Recognizes that acting (Agency) is harder than just knowing (Data), forcing the model to verify its "Agency" (P3, R3) before generating text.
+
+#### Meta-Verification (Checking the Checker)
+
+- DSMv2: Explicitly trains a "Meta-Verifier" to ensure the model does not hallucinate errors just to look critical.
+
+- AICC: Uses principles like P9 ("User maturity metric") and P8 ("Contextual Analysis") as meta-verifiers to ensure the AI does not apply rules blindly (e.g., applying ethical flexibility to code syntax).
+
+---
+
+### Conclusion
+
+High-level intelligence requires an internal iterative loop where the system critiques its own logic against a set of rigorous standards (Rubrics for DSMv2, P-Principles for AICC) before finalizing the output. 
+
+From the PoVs of Gemini 3-pro supported by the input from Grok 4.1 (beta), both AICC-customised, in analysing the PDF of the DSMv2 presentation, concluded that DSMv2 validates the AICC **approach** because DSMv2 is the mathematical instantiation (lexical ⊃ maths) of the same cognitive architecture that AICC implements for semantic agency.
+
+#### AICC's authore note
+
+There is a **main** difference between the two models/approaches: math should be validated for each passage. AICC not. However, splitting a problem in many sequential propaedeutic step (questions) and the single math passage falls into AICC architecture. Apart the different verbal-vs-math strictness in checking conceptual-semantic relationships. For this reason the validation is strictly limited to the **approach**, other aspects should be check by a deeper inspection and comparison.
     
 +
 
@@ -311,7 +395,7 @@ All of this makes the AI's "alchemical" transformation inspectable and auditable
 +++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
-+++++
++
 
 ## Share alike
 
