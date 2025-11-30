@@ -59,7 +59,7 @@ Considering our conversation about the post, write an executive summary as %C4CH
 
 - The conversation about the post with AICC::CORE customised Gemini: [transcription](data/when-ai-gets-wrong-who-owns-the-consequences-gemini.txt#?target=_blank)
 
-The text below is presented as a result of the author review, the conceptually most changed part is the II:1 about the QCD analogies (or phases space calculation).
+The text below is presented as a result of the author review, the conceptually most changed part is the II:1 about the QCD-basic analogies (or phases space calculation) moving the perspective from a minimising vector-values against a weights-matrix into a structuring a trajectory dynamics (by vectors transformation, also when the question is also reframed rather than just elaborated).
 
 ---
 
