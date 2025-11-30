@@ -377,7 +377,7 @@ A cognitive compass framework (AICC) that improves creativity and thus the perce
 
 Considering that AICC should support Katia AI multi-agentic multi-mode framework which is specialised in executive grade analysis (EGA) the parallelism in several values scale is not a surprise for someone like me that started the AICC module as "Universal Rules". A title clearly inspired by the idea that maths is the universal language in the Universe (a common epistemological scientists-bias, or a reasonable assumption for every STEMs).
 
-Anyway, there is a **main** difference between the two models/approaches: math should be validated for each passage. AICC not. However, splitting a problem in many sequential propaedeutic step (questions) and the single math passage falls into AICC architecture. Apart the different verbal-vs-math strictness in checking conceptual-semantic relationships. For this reason the validation is strictly limited to the **approach** (governance of agency), while other aspects should be check by a deeper inspection and comparison.
+Anyway, there is a **main** difference between the two models/approaches: math should be validated for each passage. AICC not. However, splitting a problem in many sequential propaedeutic steps (questions) and the single math passage falls into AICC architecture. Apart the different verbal-vs-math strictness in checking conceptual-semantic relationships. For this reason the validation is strictly limited to the **approach** (governance of agency), while other aspects should be checked by a deeper inspection and comparison.
 
 +++++
 
