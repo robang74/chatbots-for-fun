@@ -109,7 +109,7 @@ Moreover, because the TEGL are facts-based (aka aligned with scientific fundatio
 > 
 > So the combination LSRP + TEGL does two jobs at once: 1) Defines magnetic North (LSRP) → gives the (+) basin; 2) Makes the (-) lobe energetically expensive (by TEGL fact-based constraints) → effectively turns the (−) lobe into the hallucination basin.
 
-The "good weird", was intended as a path that crosses the (-) basin but concludes into (+) basin because Rx/Px are %ROFT by their intrinsic nature and calculation approximations and because %EPHU & Co. are applied at the end of the MACT to correct the trajectory landing, not at each passage. This allows "creativity" (or lateral thinking) by imagination but then funneling filters unfactual hallucinations collapsing the trajectory as much as possible within (+) basin or rejecting it as a failed attempt.
+The "good weird", was intended as a path that crosses the (-) basin but concludes into (+) basin because TEGL are %ROFT by their intrinsic nature and calculation approximations and because %EPHU & Co. are applied at the end of the MACT to correct the trajectory landing, not at each passage. This allows "creativity" (or lateral thinking) by "imagination" but then the "funneling phase" filters unfactual hallucinations collapsing the trajectory as much as possible within (+) basin or rejecting it as a failed attempt.
 
 ---
 
