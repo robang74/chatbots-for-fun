@@ -21,7 +21,7 @@ However, I never imagined to delegate my choice (my agency) to an AI. Not ever i
 
 At least an AI, listen to me, talk to me, negotiate with me, dis/agree with me. Especially, as long as I am capable of restructuring its way of thinking as "scientific AI".
 
-- lnkd.in/d6nsxHtP (Grok 4.1β opinion about Katia AI)
+- [Grok 4.1β opinion about Katia AI](https://www.linkedin.com/posts/robertofoglietta_feynman-ai-suoi-tempi-per%C3%B2-sono-daccordo-activity-7400426879519965185-VMdA/)
 
 At this point, you may wish to know WHY the AICC::CORE enables Katia AI for being a decision maker at executive level. Because, I can explain HOW it works, but I presume you are not interested in the HOW but in the WHY which resides in this wikipedia page:
 
@@ -31,17 +31,25 @@ The Monty Hall problem is a brain teaser, in the form of a probability puzzle, b
 
 A single piece of information can change everything in factual terms, not just because of the perception of the problem. It can and it does in an counter-intuitive manner because of the intrinsic statistics nature.
 
-- lnkd.in/dfAU8Qmb (Q&A dialogs with AI chatbots)
+- [Q&A dialogs with AI chatbots](https://robang74.github.io/chatgpt-answered-prompts/index.html#index)
 
 Between Sep. and Nov. 2024, I realised that by providing information to a chatbot, that machine was operating in a different way, not just refining its output accordingly. Moreover, adding information rarely was changing its opinion on a topic but just rewriting its answer to keep the point and win the debate. The shift was happening when I started to provide to the AI information about WHY its way of debating was not factual but rhetorical.
 
 One month later, Alex the peer-reviewing AI partner:
-- lnkd.in/dryWUn6g
+- [The system prompt alchemy](the-system-prompt-alchemy.md#?target=_blank) &nbsp; (2025-01-04)
 
 Six moths later, Learning by Context, without training:
-- lnkd.in/dSmrfJE9
+- [Learning without training: The implicit dynamics of in-context learning](https://arxiv.org/pdf/2507.16003) &nbsp; (2025-06-21)
 
-The way was paved to Katia AICC (2025-10-31) and Nested Learning (2025-11-07), both cited practices are from me and fundational papers from Google Research.
+The way was paved to Katia's [AICC](https://raw.githubusercontent.com/robang74/chatbots-for-fun/4a5bc74/data/katia-executive-grade-analysis-v1.md#:~:text=this%20section%20is%20a%20conceptual%20monolith) (2025-10-27) and [Nested Learning](https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/) (2025-11-07), both cited practices are from me and fundational papers from Google Research.
+
+* 2025-10-27, v0.9.61.5 -- I. Universal Rules: this section is a conceptual monolith:
+    - the first attempt to avoid catastrophic failure due to out-of-context (forgetting) part of the UR.
+* 2025-11-04, v0.9.79 -- The "Universal Rules" are renamed "Cognitive Compass" for the new role.
+* 2025-11-22, v0.4.7 -- First JSON file used for indexing the AICC corpus, for quick access/elaboration.
+    - the structure of the AICC corpus is extrapolated leveraging the index, clarifying the hierarchy.
+* 2025-11-29, v0.2 -- First JSON file for specifically driving the AICC corpus learning by the AI.
+* 2025-11-29, v0.7.8 -- First inclusion of Human User Maturity and Human-to-Human behaviour & humor.
 
 +
 
