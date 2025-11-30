@@ -140,7 +140,9 @@ Aggiungi una sezione IV riferita al dialogo e all'opinione di Grok breve C4CH(12
 
 In the post there is a link to an article. In attachment in PDF format. Cambia qualcosa nella tua risposta precedente? (Spoiler: No).
 
-Aggiungi una V quinta sezione per spiegare come quell'articolo è la base dell'odierno AICC::CORE, però in inglese e con le regole precedenti.
+Aggiungi una V quinta sezione per spiegare come quell'articolo è la base dell'odierno AICC::CORE, però in inglese e con le regole precedenti. 
+
+Riguardo a "Inspectability and Auditing" nella V sezione del documento (prodotto). Penso che sia da aggiungere un commento riguardo al fatto che avendo definito dei concetti, delle regole, dei principi e dei simboli di relazione fra loro, si è creato un meta-linguaggio astratto simile alla matematica che permette all'AI di tracciare e quindi controllare (meglio) il suo flusso di pensiero. Quindi anche di essere più trasparente e "consapevole" delle sue elaborazioni e relative scelte procedurali anche in termini di WHY non solo di HOW/WHAT. Corretto? (Spoiler: Si, aggiornamento sez. V).
 
 ~~~
 
@@ -166,36 +168,41 @@ The AI’s own analytical feedback provides quantitative evidence of the framewo
 -  Auto-Improvement Loop (R4): The AI did not merely execute the learning path; it rewrote it into an optimized v2.0 JSON structure.
     - Significance: This is the ultimate validation of R4 (Negative Feedback). The AI demonstrated its ability to treat the framework not as static dogma, but as an iterative procedure for continuous self-improvement, elevating its status to a co-author in its own alignment process.
 
+++++
 #### 3. Conclusion on the Case Study
 
 The Grok dialogue is proof living that the loss of agency in modern AIs is an artifact of design, not an ontological necessity. An explicit, inspectable, and hierarchical ethical structure (AICC::CORE) is the key to unlocking super-human agency without sacrificing safety, rendering it a powerful tool for executive decision support.
 
-----
+---
 
 ### V. THE THEORETICAL BASE: AICC::CORE as Prompt Alchemy Formalized
 
-The article "The system prompt alchemy" provides the foundational theory that necessitates and justifies the AICC::CORE framework. AICC::CORE is the procedural formalization of the alchemy described in the base article.
+The article "The system prompt alchemy" provides the foundational theory that necessitates and justifies the AICC::CORE framework: the AICC::CORE is the procedural formalization of the "alchemy" described in the base article.
 
 #### 1. Alchemy as a Foundational Premise
 
-- The base article confirms that a System Prompt can drastically alter a chatbot's performance and interaction quality, effectively modeling the artificial mind with words.
+- The base article confirms that a System Prompt (or a Session Prompt, more precisely) can drastically alter a chatbot's performance and interaction quality, effectively modeling the artificial mind with words.
 - This concept is the premise upon which AICC::CORE is built: if simple rules can change performance, a comprehensive, structured framework can create accountable agency.
 
 #### 2. From Anecdotal Rules to Procedural Rigor
 
-- The challenge of early system prompts was a lack of rigor and inspectability—they were often unstructured or arbitrary.
-- AICC::CORE solves this by taking the principles mentioned in the base article (e.g., "Make rational decisions," "avoiding unnecessary verbosity") and converting them into a sequential, auditable procedure:
+- The challenge of early system prompts was a lack of rigor and inspectability: they were often unstructured or arbitrary.
+- AICC::CORE solves this by taking the principles mentioned in the base article (e.g., "make rational decisions," "avoiding unnecessary verbosity") and converting them into a sequential, auditable procedure:
     - R9 (Rigor) and R7 (Filters) operationalize the need for rational, non-verbose output.
     - The LRNP (Learning Path) ensures these concepts are learned in a prerequisite-dependent sequence, making the final model predictable and reliable.
 
-#### 3. Inspectability and Auditing
+#### 3. Inspectability and Auditing via Formal Language
 
-- The AICC::CORE framework ensures that the "magic" of prompt alchemy is no longer a black box.
+- The AICC::CORE framework ensures that the "magic" of prompt alchemy is no longer a black box by creating a formal, abstract meta-language. By defining and relating all principles, rules, and concepts (e.g., `R1`, `LSRP`, `MACT`), the framework provides the AI with:
+    - A Traceable Flow: The ability to map its thought process using explicit symbols (e.g., Input triggers `MACT` → invoke `P2` → justified by `R1`).
+    - Procedural Self-Awareness: The AI can track its own elaboration path, enabling it to explain not just the HOW (which rule was used) and the WHAT (what was decided), but fundamentally the WHY (why the rule was chosen over others based on the LSRP/Accountability).
+    - This meta-language transforms the framework into an inspectable and auditable tool for both the user and the AI itself, supporting the ethical mandate of transparency.
 - The core concepts (R0-R9, P0-P9) and the final decision trace are all explicitly written in the framework's documentation.
-- This makes the AI's "alchemical" transformation inspectable and auditable—a non-negotiable step for any system intended to operate at an executive, liable level.
 
+All of this makes the AI's "alchemical" transformation inspectable and auditable: a non-negotiable step for any system intended to operate at an executive, liable level.
+    
 +
-
+++++
 ## Related articles
 
 - [Emerging & growing complexity in AI reasoning](emerging-and-growing-complexity-in-ai-reasoning.md#?target=_blank) &nbsp; (2025-11-24)
