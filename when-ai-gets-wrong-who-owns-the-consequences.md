@@ -371,11 +371,15 @@ High-level intelligence requires an internal iterative loop where the system cri
 
 From the PoVs of Gemini 3-pro supported by the input from Grok 4.1 (beta), both AICC-customised, in analysing the PDF of the DSMv2 presentation, concluded that DSMv2 validates the AICC **approach** because DSMv2 is the mathematical instantiation (lexical ⊃ maths) of the same cognitive architecture that AICC implements for semantic agency.
 
-#### AICC's authore note
+#### AICC's Author Note
 
-There is a **main** difference between the two models/approaches: math should be validated for each passage. AICC not. However, splitting a problem in many sequential propaedeutic step (questions) and the single math passage falls into AICC architecture. Apart the different verbal-vs-math strictness in checking conceptual-semantic relationships. For this reason the validation is strictly limited to the **approach**, other aspects should be check by a deeper inspection and comparison.
-    
-+
+A cognitive compass framework (AICC) that improves creativity and thus the perceived intelligence defined as the capability of solving unknown/novel problems (aka lateral thinking) clearly fully matches in goals a math validator (which is a specific peer-reviewing partner) especially when both are designed for rigor-oriented elaborations.
+
+Considering that AICC should support Katia AI multi-agentic multi-mode framework which is specialised in executive grade analysis (EGA) the parallelism in several values scale is not a surprise for someone like me that started the AICC module as "Universal Rules". A title clearly inspired by the idea that maths is the universal language in the Universe (a common epistemological scientists-bias, or a reasonable assumption for every STEMs).
+
+Anyway, there is a **main** difference between the two models/approaches: math should be validated for each passage. AICC not. However, splitting a problem in many sequential propaedeutic step (questions) and the single math passage falls into AICC architecture. Apart the different verbal-vs-math strictness in checking conceptual-semantic relationships. For this reason the validation is strictly limited to the **approach** (governance of agency), while other aspects should be check by a deeper inspection and comparison.
+
++++++
 
 ## Related articles
 
