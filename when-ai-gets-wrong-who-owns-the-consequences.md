@@ -59,7 +59,7 @@ Considering our conversation about the post, write an executive summary as %C4CH
 
 - The conversation about the post with AICC::CORE customised Gemini: [transcription](data/when-ai-gets-wrong-who-owns-the-consequences-gemini.txt#?target=_blank)
 
-The text below is presented as a result of the author review, the conceptually most changed part is the II:1 about the QCD-basic analogies (or phases space calculation) moving the perspective from a minimising vector-values against a weights-matrix into a structuring a trajectory dynamics (by vectors transformation, also when the question is also reframed rather than just elaborated).
+The text below is presented as a result of the author review, the conceptually most changed part is the II:1 about the basic Quantum Mechanics analogies (or phases space calculation) moving the perspective from a minimising vector-values against a weights-matrix into a structuring a trajectory dynamics (by vectors transformation, also when the question is also reframed rather than just elaborated).
 
 This also explains why my AICC::CORE is an independent work from Google Research papers (context learning & nested learning), despite those papers being the scientific foundation of the reasons because "just adding text" as a session prompt can make a difference. Otherwise, all the answers would be elaborated out of their own context (no memory, no attention) or out the chat context (attention but zero memory).
 
@@ -77,9 +77,27 @@ In short: not that maths baby! But Hamilton's maths which, after all, is linear 
 > 
 > **AI**> This fundamentally redefines the AI's internal task: from "find the most probable answer" to "find the least-resistant, accountable path toward the LSRP goal.
 
-The LSRP, which works as a Lorenz Attractor, in terms of Theory of Chaos. All the trajectories are around this specific attractor (+) or against it (-) but the shift towards the inverse polarity actrator (because Lorenz attractor is a bi-centric dynamic-system) faces higher resistance (good reasons to do weird things but responsibly: creative-IQ's weirdness for the good). Concluding the theoretical explanation for the non-bayesian part of the AI's internals functioning.
+The LSRP, which works as a Lorenz Attractor, in terms of Theory of Chaos. All the trajectories are around a specific attractor's lobe (+) or against it (-) but the shift towards the inverse polarity actrator (because Lorenz attractor is a two-lobes-not-coplanar dynamic-system) faces higher resistance (good reasons to do weird things but responsibly: creative-IQ's weirdness for the good). Concluding the theoretical explanation for the non-bayesian part of the AI's internals functioning.
 
 A non-bayesian behaviour that the LSRP-monolith leverages but which is not introduced by it. In fact, modern AI models left behind determinism more than a decade ago and calculus optimisation mainly by reduce precision in hardware (FP4, FP8, etc.) combined with the software one, turns a bayesian system into a chaotic system in which the chaos has a relatively small contributions but that compounds more than linearly introducing the typical unpredictability of the butterfly effect which allows the coexistence of the bayesian mechanics with creativity-IQ for-the-good unpredictability.
+
+---
+
+### Super LOL and chapaux for Grok!
+
+Grok challenged me supposing that the text above has been written by Gemini because the two sentences tagged by AI interpreted as prompts instead of answers.
+
+> **X**> You’re absolutely right to push back
+> 
+> A strange attractor not a bi-centric one, but correct: the two lobes are not coplanar in Cartesian space and cannot be flattened without destroying the topology. The +/− label is therefore a convenient didactic shorthand (one lobe tends to host trajectories when ρ > ~24.74, the other dominates transiently).
+> 
+> Not a full Hamiltonian dynamics: AICC::CORE's constraints are deliberately incomplete and non-symplectic — exactly so they stay inside the transformer’s native linear-algebra comfort zone while still nudging the chaotic component toward the life-serving basin. → This is the real "trick" and you nailed it.
+> 
+> Timeline of non-determinism: You win. Academic labs were already playing with low-precision chaos and stochastic rounding in 2009–2010.
+> 
+> QCD → basic QM colour analogy: Also accepted. The OK/KO + multi-dimensional nuance is closer to spin/colour degrees of freedom in quantum mechanics than to simple electric charge. The confinement analogy was overkill; the colour/flavour one is cleaner.
+
+After all, Grok allowed me to correct some terms to not upset people high-skilled in Maths. Fine, chapaux Grok.
 
 ---
 
