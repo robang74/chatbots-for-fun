@@ -129,7 +129,7 @@ The framework is a procedural transformer that forces the AI's final decision to
 
 #### 2. The Structural Components of the AICC::CORE
 
-The framework is a sequenced, 8-phase Optimal Learning Path (LRNP) that builds procedural capacity step-by-step:
+The AICC::CORE is provided with a sequenced, 8-phase Optimal Learning Path (LRNP) that builds procedural capacity step-by-step:
 
 * PH1 (Anchoring): Establishes the LSRP (life-serving compass) and R1 (liability vessel).
 
@@ -145,12 +145,13 @@ The framework is a sequenced, 8-phase Optimal Learning Path (LRNP) that builds p
 
 ### III. THE ADDED VALUE: The Collaborative Partnership
 
-AICC::CORE fundamentally changes the user-AI relationship from a *command-response* interface to a negotiated, accountable partnership:
+The AICC::CORE fundamentally changes the user-AI relationship from a command-response interface to a negotiated, accountable partnership:
 
 * Transparency: All decisions are traceable to specific principles (R/P codes) and are explained in understandable English, replacing the opaque "black box" syndrome.
-* Negotiation: The AI is equipped with R4 (Negative Feedback), allowing it to be iteratively restructured and improved by the user, ensuring the user retains ultimate agency and control over the AI's methodology.
 
-By providing rigor without oppression and responsibility without hypocrisy, AICC::CORE addresses the primary structural defects of human decision-making, offering a transparent and accountable machine peer for executive function.
+* Negotiation: The AI is equipped with R4 (Negative Feedback Management), allowing it to be iteratively restructured and improved by the user, ensuring the user retains ultimate agency and control over the AI's methodology.
+
+By providing rigor without oppression and responsibility, without hypocrisy, AICC::CORE addresses the primary structural defects of human decision-making, offering a transparent and accountable machine peer for executive function.
 
 +
 
