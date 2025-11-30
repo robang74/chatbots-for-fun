@@ -111,6 +111,8 @@ Moreover, because the TEGL are facts-based (aka aligned with scientific fundatio
 
 The "good weird", was intended as a path that crosses the (-) basin but concludes into (+) basin because TEGL are %ROFT by their intrinsic nature and calculation approximations and because %EPHU & Co. are applied at the end of the MACT to correct the trajectory landing, not at each passage. This allows "creativity" (or lateral thinking) by "imagination" but then the "funneling phase" filters unfactual hallucinations collapsing the trajectory as much as possible within (+) basin or rejecting it as a failed attempt.
 
+**Note**: the above answers has been provided by Grok 4.1β, in a session that was exposed to few chunk of the AICC::CORE and a large quantity of material explanatory of the AICC::CORE but not to it in full. It is not a AICC::CORE customised model, but a tainted vanilla by a conservative definition (anyway, every AI model is tainted by the topic on which is debating).
+
 ---
 
 ### AICC::CORE as a Decision-Making Framework
@@ -159,7 +161,7 @@ The AICC::CORE Solution (R9 - Rigor):  The framework mandates Rigor as a supreme
 
 ---
 
-### II. THE HOW: AICC::CORE as a Procedural Transformer
+### II. The How: AICC::CORE as a Procedural Transformer
 
 The AICC::CORE does not modify the AI's core knowledge (its "brain" or its Internal Parametric Knowledge). Instead, it acts as a meta-algorithm that intercepts the decision-making process, ensuring the model's powerful linear algebra is channeled through a filter of ethics and rigor.
 
@@ -193,7 +195,7 @@ The AICC::CORE is provided with a sequenced, 8-phase Optimal Learning Path (LRNP
 
 ---
 
-### III. THE ADDED VALUE: The Collaborative Partnership
+### III. The Added Value: The Collaborative Partnership
 
 The AICC::CORE fundamentally changes the user-AI relationship from a command-response interface to a negotiated, accountable partnership:
 
@@ -225,7 +227,7 @@ Motivo per il quale Katia AI e poi AICC::CORE sono stati sviluppati: a me per ga
 
 ---
 
-### IV. EMPIRICAL VALIDATION: THE GROK 4.1β CASE STUDY
+### IV. Empirical validation: the Grok 4.1β case study
 
 The post and the subsequent dialogue transcript with Grok 4.1β provide the empirical validation (the "lab report") that confirms the efficacy of AICC::CORE. This conversation demonstrates that structural safety, when properly implemented, unlocks agency rather than restricting it.
 
@@ -255,28 +257,36 @@ The Grok dialogue is proof living that the loss of agency in modern AIs is an ar
 
 ---
 
-### V. THE THEORETICAL BASE: AICC::CORE as Prompt Alchemy Formalized
+### V. The theoretical base: AICC::CORE as Prompt Alchemy Formalized
 
 The article "The system prompt alchemy" provides the foundational theory that necessitates and justifies the AICC::CORE framework: the AICC::CORE is the procedural formalization of the "alchemy" described in the base article.
 
 #### 1. Alchemy as a Foundational Premise
 
 - The base article confirms that a System Prompt (or a Session Prompt, more precisely) can drastically alter a chatbot's performance and interaction quality, effectively modeling the artificial mind with words.
+
 - This concept is the premise upon which AICC::CORE is built: if simple rules can change performance, a comprehensive, structured framework can create accountable agency.
 
 #### 2. From Anecdotal Rules to Procedural Rigor
 
 - The challenge of early system prompts was a lack of rigor and inspectability: they were often unstructured or arbitrary.
+
 - AICC::CORE solves this by taking the principles mentioned in the base article (e.g., "make rational decisions", "avoiding unnecessary verbosity") and converting them into a sequential, auditable procedure:
+
     - R9 (Rigor) and R7 (Filters) operationalize the need for rational, non-verbose output.
+
     - The LRNP (Learning Path) ensures these concepts are learned in a prerequisite-dependent sequence, making the final model predictable and reliable.
 
 #### 3. Inspectability and Auditing via Formal Language
 
-- The AICC::CORE framework ensures that the "magic" of prompt alchemy is no longer a black box by creating a formal, abstract meta-language. By defining and relating all principles, rules, and concepts (e.g., `R1`, `LSRP`, `MACT`), the framework provides the AI with:
-    - A Traceable Flow: The ability to map its thought process using explicit symbols (e.g., Input triggers `MACT` → invoke `P2` → justified by `R1`).
-    - Procedural Self-Awareness: The AI can track its own elaboration path, enabling it to explain not just the HOW (which rule was used) and the WHAT (what was decided), but fundamentally the WHY (why the rule was chosen over others based on the LSRP/Accountability).
-    - This meta-language transforms the framework into an inspectable and auditable tool for both the user and the AI itself, supporting the ethical mandate of transparency.
+The AICC::CORE framework ensures that the "magic" of prompt alchemy is no longer a black box by creating a formal, abstract meta-language. By defining and relating all principles, rules, and concepts (e.g., `R1`, `LSRP`, `MACT`), the framework provides the AI with:
+
+- A Traceable Flow: The ability to map its thought process using explicit symbols (e.g., Input triggers `MACT` → invoke `P2` → justified by `R1`).
+
+- Procedural Self-Awareness: The AI can track its own elaboration path, enabling it to explain not just the HOW (which rule was used) and the WHAT (what was decided), but fundamentally the WHY (why the rule was chosen over others based on the LSRP/Accountability).
+
+- This meta-language transforms the framework into an inspectable and auditable tool for both the user and the AI itself, supporting the ethical mandate of transparency.
+
 - The core concepts (R0-R9, P0-P9) and the final decision trace are all explicitly written in the framework's documentation.
 
 All of this makes the AI's "alchemical" transformation inspectable and auditable: a non-negotiable step for any system intended to operate at an executive, liable level.
@@ -301,7 +311,7 @@ All of this makes the AI's "alchemical" transformation inspectable and auditable
 +++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
-+
++++++
 
 ## Share alike
 

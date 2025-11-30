@@ -180,7 +180,9 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="uncategorised"></span>
-* **Yet uncategorised articles** &nbsp; (21 pz.)
+* **Yet uncategorised articles** &nbsp; (22 pz.)
+
+   - 2025-11-30 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/when-ai-gets-wrong-who-owns-the-consequences.md)] - [When AI gets wrong (decision), who owns the consequences?](when-ai-gets-wrong-who-owns-the-consequences.md)
 
    - 2025-11-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-segreto-dell-intelligenza.md)] - [Il segreto dell'intelligenza](il-segreto-dell-intelligenza.md) &nbsp; (2nd edt.)
 
