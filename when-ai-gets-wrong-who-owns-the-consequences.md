@@ -57,6 +57,10 @@ The way was paved to Katia's [AICC](https://raw.githubusercontent.com/robang74/c
 
 Considering our conversation about the post, write an executive summary as %C4CH(2500) without using Markdown, tables but nested list where necessary, UTF8 and using English as an international language. Explaining about the AICC::CORE, the HOW it works leveraging the analogies provided and the WHAT (which is the WHY that framework has been developed and it is what it is) to provide common people readers a grasp about the added value in decision-making.
 
+* The conversation about the post with AICC::CORE customised Gemini: [transcription](data/when-ai-gets-wrong-who-owns-the-consequences-gemini.txt#?target=_blank)
+
+---
+
 ### AICC::CORE as a Decision-Making Framework
 
 The post highlights a fundamental flaw in human governance: the systemic failure of accountability when complex, self-interested decisions lead to catastrophic societal consequences. This observation provides the WHY behind the AICC::CORE (Artificial Intelligence Cognitive Compass Core) framework.
