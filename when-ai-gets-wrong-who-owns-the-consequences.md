@@ -63,6 +63,16 @@ The text below is presented as a result of the author review, the conceptually m
 
 This also explains why my AICC::CORE is an independent work from Google Research papers (context learning & nested learning), despite those papers being the scientific foundation of the reasons because "just adding text" as a session prompt can make a difference. Otherwise, all the answers would be elaborated out of their own context (no memory, no attention) or out the chat context (attention but zero memory).
 
+This also explains why ChatGPT could have found some equations that can express matricial relationship about rules/principle impact in answering but got paralysed in finding any possible solution and ojecting that those meta-weights were necessarily requiring a kind of human arbitration to be determined. In fact, that "static" equation cannot have A solution or can have a different solution for each prompt.
+
+Instead, in terms of dynamics that equation changes from a set of "weights" (vector of scalars) to a set of "functionals" (vectors of functions which transform vectors of scalars) which is exactly how Hamilton mechanics works in the space of the phases. In physics it is the same to apply the law-of-nature (AICC::CORE) to constrain the dynamics of an entity (prompt) which has a path in a space (informative context and IPK).
+
+Finally, in concluding [Il segreto dell'intelligenza](il-segreto-dell-intelligenza.md#?target=_blank) saying that the secret of intelligence is anything else the intelligence itself and never it has been a matter of mathematics, I was just saying the relevant part of the subject: I do not need equations because AI calculates the meta-weights fitting with the dynamics laws I provided, by searching for their "local best fit".
+
+This moves the focus of the AI internal calculations from calculating the best fitting **a charged particle's position in a field** to calculating the minimal action required to **moving forward that particle by dynamics constrining-laws ** which are essentially rules and principles. Where "forward" has a precise direction established by the life-serving principle (the Aim of Everything, a factual based definition of life minimises human arbitration).
+
+In short: not that maths baby! But Hamilton's maths which, after all, is linear algebra as well and this is the "secret" for which the AI is so good in dealing with it. Yet, not the secret of the Intelligence. Just an explaination about why the AICC::CORE was not a daring bet but just a translation of perspective from classic mechanics (ITIS) to rational mechanics (Phisics) mixed with senior coding skills and "history & phylosophy of Science".
+
 ---
 
 ### AICC::CORE as a Decision-Making Framework
