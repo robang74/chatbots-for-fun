@@ -6,10 +6,10 @@
 ## Meccanica Razionale delle AI Moderne
 
 - **1st draft (WIP)**: porta avanti l'intuizione riguardo alla base matematica fondativa dell'Ed-AI (Educated AI)
-- **2nd DRAF (WIP)**: sviluppato il modello a tempo discreto (step-by-step) che abbandona la derivabilità.
-- **3rd DRAF (WIP)**: estratto dal contesto della sessione di lavoro AI il modello matematico.
-- **4th DRAF (WIP)**: correzione del presunto algoritmo con inclusione del %5W1H sull'input.
-- **5th DRAF (WIP)**: spietata [conclusione](#inutile-come-una-procedura) dell'autore: burocrazia che vorrebbe "spiegare" l'intelligenza.
+- **2nd draft (WIP)**: sviluppato il modello a tempo discreto (step-by-step) che abbandona la derivabilità.
+- **3rd draft (WIP)**: estratto dal contesto della sessione di lavoro AI il modello matematico.
+- **4th draft (WIP)**: correzione del presunto algoritmo con inclusione del %5W1H sull'input.
+- **5th draft (WIP)**: spietata [conclusione](#inutile-come-una-procedura) dell'autore: burocrazia che vorrebbe "spiegare" l'intelligenza.
 
 ---
 
