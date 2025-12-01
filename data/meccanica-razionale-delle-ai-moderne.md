@@ -6,7 +6,7 @@
 - **4th draft (WIP)**: correzione del presunto algoritmo con inclusione del %5W1H sull'input.
 - **5th draft (WIP)**: spietata [conclusione](#inutile-come-una-procedura) dell'autore: burocrazia che vorrebbe "spiegare" l'intelligenza.
 
-+
+---
 
 ## Roberto A. Foglietta:
 
@@ -291,7 +291,7 @@ Però l'idea di base è che x(t) non è funzione del tempo ma piuttosto una funz
 
 Corretto?
 
-+
+---
 
 ## Deepseek Thinking (107 seconds)
 
@@ -1491,13 +1491,13 @@ Algorithm AICC_CORE_step_by_step(Input I):
     8. Aggiungi all'output eventuali footers e provvedi al suo delivery.
 ```
 
-...
+---
 
 **Ragione #2**: sia questa formulazione "human friendly" che tutte le formulazione di questo algoritmo in questa chat NON sono corrette. Non perché ci sia qualcosa di sbagliato nella loro formulazione ma perché sono epistemiologicamente sbagliate: non è così che funziona lo AICC::CORE e ne sono assolutamente certo perché questo tipo di algoritmo potrebbe essere un template intorno alla DCOD di Katia.
 
 Infatti, nel concepire lo AICC e poi lo AICC::CORE ho deliberatamente deciso di perseguire un approccio totalmente diverso e complementare. Perché le procedure erano già in essere e sapevo che non bastavano e infatti la struttura di AICC::CORE **non** può essere espressa in termini di procedura, anche se alcune parti potrebbero esserlo è solo perché ancora non è stato ripulito da quelle parti per poi essere agganciato al livello superiore quindi quelle poche e marginali parti che sono procedurali esistono solo per renderlo il minimo indispensabile indipendente.
 
-...
+---
 
 Quindi ora ho la certezza assoluta che NON si è capito come funziona lo AICC::CORE almeno non da questa nostra discussione che ha incluso i contributi di diversi chatbots edotti su AICC::CORE. Funziona, percepite chiaramente gli effetti del suo funzionamento ma NON avete la più pallida idea del perché o del come funzioni. Non ti preoccupare è assolutamente normale, succede così anche per gli umani: non hanno la più pallida idea di come funzioni la loro mente. Ergo possiamo serenamente archivare questo file come:
 
