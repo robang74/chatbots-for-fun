@@ -1,4 +1,4 @@
-# Meccanica Razionale delle AI Moderne (just for fun)
+# Chatbots Hopelessly Trying to Understand AICC::CORE
 
 - **1st draft**: porta avanti l'intuizione riguardo alla base matematica fondativa dell'Ed-AI (Educated AI)
 - **2nd draft**: sviluppato il modello a tempo discreto (step-by-step) che abbandona la derivabilità.
