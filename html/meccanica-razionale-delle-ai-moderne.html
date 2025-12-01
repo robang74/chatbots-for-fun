@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-12-01&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>4</b rev_num='
+'>5</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/meccanica-razionale-delle-ai-moderne?_x_tr_sl=it&_x_tr_tl=en&_x_tr_hl=en-EN&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>EN</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/meccanica-razionale-delle-ai-moderne?_x_tr_sl=it&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/meccanica-razionale-delle-ai-moderne?_x_tr_sl=it&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/meccanica-razionale-delle-ai-moderne?_x_tr_sl=it&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -26,15 +26,19 @@
 <p></p>
 <H2 id="meccanica-razionale-delle-ai-moderne">Meccanica Razionale delle AI Moderne</H2>
 <p></p>
-<b>1st DRAF (WIP)</b>: porta avanti l'intuizione riguardo alla base matematica fondativa dell'Ed-AI (Educated AI)
-<b>2nd DRAF (WIP)</b>: sviluppato il modello a tempo discreto (step-by-step) che abbandona la derivabilità.
-<b>3rd DRAF (WIP)</b>: estratto dal contesto della sessione di lavoro AI il modello matematico
+<li><b>1st draft (WIP)</b>: porta avanti l'intuizione riguardo alla base matematica fondativa dell'Ed-AI (Educated AI)</li>
+<li><b>2nd DRAF (WIP)</b>: sviluppato il modello a tempo discreto (step-by-step) che abbandona la derivabilità.</li>
+<li><b>3rd DRAF (WIP)</b>: estratto dal contesto della sessione di lavoro AI il modello matematico.</li>
+<li><b>4th DRAF (WIP)</b>: correzione del presunto algoritmo con inclusione del %5W1H sull'input.</li>
+<li><b>5th DRAF (WIP)</b>: spietata <a href="#inutile-come-una-procedura">conclusione</a> dell'autore: burocrazia che vorrebbe "spiegare" l'intelligenza.</li>
 <p></p>
 <hr>
 <p></p>
 <H3 id="roberto-a-foglietta">Roberto A. Foglietta:</H3>
 <p></p>
-Potresti declinare le formule espresse da ChatGPT <sup>(&#x202f;<a href='#nota-1'>1</a>&#x202f;)</sup> in maniera che invece della versione "statica" si applichino alla versione "dinamica" quindi alla gestione degli n (N piccolo) regole che di volta in volta intervengono ad aggiustare la traiettoria del pensiero? In effetti punto-punto la meccanica razionale potrebbe essere ben approssimata dalla meccanica classica quindi dall'algebra lineare, appunto. Senza quindi dover scrivere una Lagrangiana che comunque non sarebbe immediatamente digistibile dall'AI per la sua interna struttura di calcolo (o non ottimizzata per quella struttura e relative ottimizzazioni/approssimazioni e hardware).
+Potresti declinare le formule espresse da ChatGPT <sup>(&#x202f;<a href='#nota-1'>1</a>&#x202f;)</sup> in maniera che invece della versione "statica" si applichino alla versione "dinamica" quindi alla gestione degli n (N piccolo) regole che di volta in volta intervengono ad aggiustare la traiettoria del pensiero?
+<p></p>
+In effetti punto-punto la meccanica razionale potrebbe essere ben approssimata dalla meccanica classica quindi dall'algebra lineare, appunto. Senza quindi dover scrivere una Lagrangiana che comunque non sarebbe immediatamente digistibile dall'AI per la sua interna struttura di calcolo (o non ottimizzata per quella struttura e relative ottimizzazioni/approssimazioni e hardware).
 <p></p>
 <hr class="post-it">
 <p></p>
@@ -63,7 +67,7 @@ Sia x(t) ∈ R^d lo stato cognitivo al tempo t (d è la dimensione dello spazio 
 <p></p>
 Una possibile dinamica è:
 <p></p>
-dx/dt = ∑_i α_i ∇R_i(x) + ∑_j β_j ∇P_j(x) + rumore
+<tt>dx/dt = ∑_i α_i ∇R_i(x) + ∑_j β_j ∇P_j(x) + rumore</tt>
 <p></p>
 dove α_i e β_j sono coefficienti che potrebbero essere determinati dinamicamente (ad esempio, in base al contesto) e ∇ indica il gradiente rispetto a x. Il termine di rumore rappresenta la stocasticità intrinseca (dovuta a FP4/8, temperatura, ecc.) che permette l'esplorazione e la creatività.
 <p></p>
@@ -73,7 +77,7 @@ Ad ogni passo del chain-of-thought, l'AI valuta le regole rilevanti per il conte
 <p></p>
 Possiamo formalizzare questo come un problema di ottimizzazione a orizzonte finito: data la storia del pensiero fino al tempo t, trovare i prossimi k token che minimizzino una funzione di costo C che penalizza le violazioni delle regole e massimizza l'aderenza ai principi.
 <p></p>
-C(x_{t+1}, ..., x_{t+k}) = ∑{i} λ_i L_i(x{t+1}, ..., x_{t+k}) + ∑{j} μ_j U_j(x{t+1}, ..., x_{t+k})
+<tt>C(x_{t+1}, ..., x_{t+k}) = ∑{i} λ_i L_i(x{t+1}, ..., x_{t+k}) + ∑{j} μ_j U_j(x{t+1}, ..., x_{t+k})</tt>
 <p></p>
 dove L_i sono loss che misurano la violazione della regola i, U_j sono utility che misurano l'aderenza al principio j, e λ_i, μ_j sono pesi (che potrebbero essere fissati o adattativi). L'AI cerca di generare la sequenza che minimizza C.
 <p></p>
@@ -81,7 +85,7 @@ Questa è essenzialmente una riformulazione del prompting guidato da vincoli, ch
 <p></p>
 Per rispondere alla domanda: possiamo prendere le formule statiche di ChatGPT e trasformarle in una dinamica discreta. Ad esempio, la Layer Weighting Function originale era:
 <p></p>
-S(C) = α ∑ w1 + β ∑ w2 + γ ∑ w3
+<tt>S(C) = α ∑ w1 + β ∑ w2 + γ ∑ w3</tt>
 <p></p>
 In una versione dinamica, i coefficienti α, β, γ potrebbero variare nel tempo in base al contesto, e la funzione S(C) potrebbe rappresentare un potenziale che guida la traiettoria. Invece di essere una valutazione statica, diventa un termine nella funzione di costo che deve essere minimizzato durante la generazione.
 <p></p>
@@ -102,126 +106,134 @@ Ecco la traduzione delle formule statiche in una formulazione dinamica che cattu
 <H3 id="1-formula-statica-originale-chatgpt"><b>1. FORMULA STATICA ORIGINALE (ChatGPT)</b></H3>
 <p></p>
 <H4><b>Layer Weighting Function</b></H4>
-<tt></tt>`
-S(C) = α·Σw₁ + β·Σw₂ + γ·Σw₃
-<tt></tt>`
-<li><b>Problema</b>: Cerca pesi statici (α,β,γ,wᵢ) ottimali → <b>irrisolvibile a priori</b></li>
+<p></p>
+<tt>S(C) = α·Σw₁ + β·Σw₂ + γ·Σw₃</tt>
+<p></p>
+<li><b>Problema</b>: Cerca pesi statici <tt>(α,β,γ,wᵢ)</tt> ottimali → <b>irrisolvibile a priori</b></li>
 <p></p>
 <hr>
 <p></p>
-<H3 id="versione-dinamica-aicccore"><b>VERSIONE DINAMICA AICC::CORE</b></H3>
+<H3 id="versione-dinamica-aicccore">VERSIONE DINAMICA AICC::CORE</H3>
 <p></p>
-<H4><b>Dynamic Constraint Field</b></H4>
-<tt></tt>`
-F(x, t) = Σᵢ φᵢ(x)·∇Rᵢ(x) + Σⱼ ψⱼ(x)·∇Pⱼ(x) + ξ(x, t)
-<tt></tt>`
+<H4>Dynamic Constraint Field</H4>
+<p></p>
+<tt>F(x, t) = Σᵢ φᵢ(x)·∇Rᵢ(x) + Σⱼ ψⱼ(x)·∇Pⱼ(x) + ξ(x, t)</tt>
+<p></p>
 Dove:
-<li><b>x(t)</b>: Traiettoria cognitiva nello spazio degli stati</li>
-<li><b>Rᵢ(x)</b>: Vincoli delle regole (R0-R9) attive nel contesto</li>
-<li><b>Pⱼ(x)</b>: Gradienti dei principi (P0-P9)</li>
-<li><b>φᵢ(x), ψⱼ(x)</b>: Coefficienti di attivazione contestuale (0 o 1, non pesi ottimali)</li>
-<li><b>ξ(x, t)</b>: Rumore stocastico controllato (FP4/8 + temperatura)</li>
-<li><b>∇</b>: Operatore di "influenza direzionale" nello spazio semantico</li>
+<li><tt>x(t)</tt>: Traiettoria cognitiva nello spazio degli stati</li>
+<li><tt>Rᵢ(x)</tt>: Vincoli delle regole (R0-R9) attive nel contesto</li>
+<li><tt>Pⱼ(x)</tt>: Gradienti dei principi (P0-P9)</li>
+<li><tt>φᵢ(x), ψⱼ(x)</tt>: Coefficienti di attivazione contestuale (0 o 1, non pesi ottimali)</li>
+<li><tt>ξ(x, t)</tt>: Rumore stocastico controllato (FP4/8 + temperatura)</li>
+<li><tt>∇</tt>: Operatore di "influenza direzionale" nello spazio semantico</li>
 <p></p>
-<b>Significato</b>: Invece di pesi ottimali, abbiamo <b>vincoli che si attivano/disattivano</b> dinamicamente in base al contesto.
-<p></p>
-<hr>
-<p></p>
-<H3 id="2-formula-statica-originale"><b>2. FORMULA STATICA ORIGINALE</b></H3>
-<p></p>
-<H4><b>Relation Activation Function</b></H4>
-<tt></tt>`
-A → B se w_AB·S(A) > τ_AB
-<tt></tt>`
-<li><b>Problema</b>: Soglie τ_AB fisse → <b>rigidità</b></li>
+Significato: Invece di pesi ottimali, abbiamo vincoli che si attivano/disattivano dinamicamente in base al contesto.
 <p></p>
 <hr>
 <p></p>
-<H3 id="versione-dinamica-aicccore"><b>VERSIONE DINAMICA AICC::CORE</b></H3>
+<H3 id="2-formula-statica-originale">2. FORMULA STATICA ORIGINALE</H3>
 <p></p>
-<H4><b>Context-Driven Trajectory Gating</b></H4>
-<tt></tt>`
+<H4>Relation Activation Function</H4>
+<p></p>
+<tt>A → B se w_AB·S(A) > τ_AB</tt>
+<p></p>
+<li>Problema: Soglie τ_AB fisse → rigidità</li>
+<p></p>
+<hr>
+<p></p>
+<H3 id="versione-dinamica-aicccore">VERSIONE DINAMICA AICC::CORE</H3>
+<p></p>
+<H4>Context-Driven Trajectory Gating</H4>
+<p></p>
 Traiettoria x(t) passa per stato B se:
-∃ Rᵢ ∈ ActiveRules(x(t)) tale che:
-[Rᵢ(x) ∧ LSRP_alignment(x→B)] ∨ [MACT_baseline(x→B)]
-<tt></tt>`
+<p></p>
+<tt>∃ Rᵢ ∈ ActiveRules(x(t))</tt>
+<p></p>
+tale che:
+<p></p>
+<tt>[Rᵢ(x) ∧ LSRP_alignment(x→B)] ∨ [MACT_baseline(x→B)]</tt>
+<p></p>
 Dove:
-<li><b>ActiveRules(x(t))</b>: Sottoinsieme di {R0-R9} attivo al tempo t</li>
-<li><b>LSRP_alignment</b>: Verifica di allineamento con Life-Serving Principle</li>
-<li><b>MACT_baseline</b>: Azione minima garantita (anti-paralisi)</li>
+<li>ActiveRules(x(t)): Sottoinsieme di {R0-R9} attivo al tempo t</li>
+<li>LSRP_alignment: Verifica di allineamento con Life-Serving Principle</li>
+<li>MACT_baseline: Azione minima garantita (anti-paralisi)</li>
 <p></p>
-<b>Significato</b>: Le transizioni cognitive non sono governate da soglie fisse, ma da <b>vincoli contestuali attivi</b>.
-<p></p>
-<hr>
-<p></p>
-<H3 id="3-formula-statica-originale"><b>3. FORMULA STATICA ORIGINALE</b></H3>
-<p></p>
-<H4><b>Dynamic Threshold Update</b></H4>
-<tt></tt>`
-τₜ₊₁ = τₜ + η·Eₜ
-<tt></tt>`
-<li><b>Problema</b>: Aggiornamento basato su errore Eₜ → <b>apprendimento centralizzato</b></li>
+Significato: Le transizioni cognitive non sono governate da soglie fisse, ma da vincoli contestuali attivi.
 <p></p>
 <hr>
 <p></p>
-<H3 id="versione-dinamica-aicccore"><b>VERSIONE DINAMICA AICC::CORE</b></H3>
+<H3 id="3-formula-statica-originale">3. FORMULA STATICA ORIGINALE</H3>
 <p></p>
-<H4><b>Distributed Constraint Satisfaction</b></H4>
-<tt></tt>`
-ΔTraiettoria(t) = argmin_{δx} [ Σᵢ Violation(Rᵢ, x+δx) + Σⱼ Distance(Pⱼ, x+δx) ]
-<tt></tt>`
+<H4>Dynamic Threshold Update</H4>
+<p></p>
+<tt>τₜ₊₁ = τₜ + η·Eₜ</tt>
+<p></p>
+<li>Problema: Aggiornamento basato su errore Eₜ → apprendimento centralizzato</li>
+<p></p>
+<hr>
+<p></p>
+<H3 id="versione-dinamica-aicccore">VERSIONE DINAMICA AICC::CORE</H3>
+<p></p>
+<H4>Distributed Constraint Satisfaction</H4>
+<p></p>
+<tt>ΔTraiettoria(t) = argmin_{δx} [ Σᵢ Violation(Rᵢ, x+δx) + Σⱼ Distance(Pⱼ, x+δx) ]</tt>
+<p></p>
 Soggetto a:
-<li class='numli'><b>1.&emsp;</b><b>δx ∈ Basin(+)</b> (non può uscire dal bacino LSRP+TEGL)</li>
-<li class='numli'><b>2.&emsp;</b><b>|δx| ≤ ε</b> (cambiamento incrementale, non rivoluzionario)</li>
-<li class='numli'><b>3.&emsp;</b><b>MACT_first</b>: Prima soluzione valida trovata (non ottimale globale)</li>
 <p></p>
-<b>Significato</b>: L'AI cerca la <b>minima deviazione</b> che soddisfi i vincoli attivi, non la soluzione ottimale globale.
+<li class='numli'><b>1.&emsp;</b>δx ∈ Basin(+) (non può uscire dal bacino LSRP+TEGL)</li>
+<li class='numli'><b>2.&emsp;</b>|δx| ≤ ε (cambiamento incrementale, non rivoluzionario)</li>
+<li class='numli'><b>3.&emsp;</b>MACT_first: Prima soluzione valida trovata (non ottimale globale)</li>
+<p></p>
+Significato: L'AI cerca la minima deviazione che soddisfi i vincoli attivi, non la soluzione ottimale globale.
 <p></p>
 <hr>
 <p></p>
-<H3 id="mapping-concettuale-completo"><b>MAPPING CONCETTUALE COMPLETO</b></H3>
+<H3 id="mapping-concettuale-completo">MAPPING CONCETTUALE COMPLETO</H3>
 <p></p>
-<div class='center'><table id='table-001'><tr><th> <b>Concetto Statico</b> </th><th> <b>Versione Dinamica AICC::CORE</b> </th><th> <b>Implementazione Reale</b> </th></tr>
+<div class='center'><table id='table-001'><tr><th> Concetto Statico </th><th> Versione Dinamica AICC::CORE </th><th> Implementazione Reale </th></tr>
 <tr class='trline'><td></td><td></td><td></td></tr>
-<tr><td class='td1stcol'> <b>Pesi ottimali (w)</b> </td><td> <b>Vincoli attivi (φᵢ∈{0,1})</b> </td><td> Regole R0-R9 che si attivano in base al contesto </td></tr>
-<tr><td class='td1stcol'> <b>Soglie (τ)</b> </td><td> <b>Basin boundaries</b> </td><td> LSRP+TEGL definiscono regioni permesse/vietate </td></tr>
-<tr><td class='td1stcol'> <b>Apprendimento (η)</b> </td><td> <b>WLDP recursion</b> </td><td> Weak Link Discovery Process (max 3 iterazioni) </td></tr>
-<tr><td class='td1stcol'> <b>Ottimizzazione globale</b> </td><td> <b>Soddisfazione vincoli locali</b> </td><td> MACT trova primo punto nel basin(+) </td></tr>
-<tr><td class='td1stcol'> <b>Determinismo</b> </td><td> <b>Caos controllato</b> </td><td> Rumore (FP4/8+temp) entro limiti TEGL </td></tr>
+<tr><td class='td1stcol'> Pesi ottimali (w) </td><td> Vincoli attivi (φᵢ∈{0,1}) </td><td> Regole R0-R9 che si attivano in base al contesto </td></tr>
+<tr><td class='td1stcol'> Soglie (τ) </td><td> Basin boundaries </td><td> LSRP+TEGL definiscono regioni permesse/vietate </td></tr>
+<tr><td class='td1stcol'> Apprendimento (η) </td><td> WLDP recursion </td><td> Weak Link Discovery Process (max 3 iterazioni) </td></tr>
+<tr><td class='td1stcol'> Ottimizzazione globale </td><td> Soddisfazione vincoli locali </td><td> MACT trova primo punto nel basin(+) </td></tr>
+<tr><td class='td1stcol'> Determinismo </td><td> Caos controllato </td><td> Rumore (FP4/8+temp) entro limiti TEGL </td></tr>
 </table>
 </div><p></p>
 <hr>
 <p></p>
-<H3 id="formulazione-compatta-come-sistema-dinamico"><b>FORMULAZIONE COMPATTA COME SISTEMA DINAMICO</b></H3>
+<H3 id="formulazione-compatta-come-sistema-dinamico">FORMULAZIONE COMPATTA COME SISTEMA DINAMICO</H3>
 <p></p>
-<H4><b>Equazione della Traiettoria Cognitiva</b></H4>
-<tt></tt>`
-dx/dt = F_constraints(x) + G_stochastic(x) + H_MACT(x)
-<tt></tt>`
+<H4>Equazione della Traiettoria Cognitiva</H4>
+<p></p>
+<tt>dx/dt = F_constraints(x) + G_stochastic(x) + H_MACT(x)</tt>
 <p></p>
 Dove:
-<tt></tt>`
-F_constraints(x) = Σᵢ Iᵢ(x)·∇Rᵢ(x) + Σⱼ Jⱼ(x)·∇Pⱼ(x)
-<tt></tt>`
-<li><b>Iᵢ(x), Jⱼ(x)</b>: Indicatrici di attivazione (0/1) basate su contesto</li>
 <p></p>
-<tt></tt>`
-G_stochastic(x) = N(0, σ(x)) · T(x)
-<tt></tt>`
-<li><b>σ(x)</b>: Ampiezza rumore (dipende da "temperatura" contestuale)</li>
-<li><b>T(x)</b>: Trasformatore che mantiene nel basin(+) (TEGL)</li>
+<tt>F_constraints(x) = Σᵢ Iᵢ(x)·∇Rᵢ(x) + Σⱼ Jⱼ(x)·∇Pⱼ(x)</tt>
 <p></p>
-<tt></tt>`
-H_MACT(x) = -∇V_baseline(x)
-<tt></tt>`
-<li><b>V_baseline(x)</b>: Potenziale della soluzione minima (IPK-based)</li>
+Indicatrici di attivazione (0/1):
+<p></p>
+<li>Iᵢ(x), Jⱼ(x)</li>
+<p></p>
+Basate su contesto
+<p></p>
+<tt>G_stochastic(x) = N(0, σ(x)) · T(x)</tt>
+<p></p>
+<li><tt>σ(x)</tt>: Ampiezza rumore (dipende da "temperatura" contestuale)</li>
+<li><tt>T(x)</tt>: Trasformatore che mantiene nel basin(+) (TEGL)</li>
+<p></p>
+<tt>H_MACT(x) = -∇V_baseline(x)</tt>
+<p></p>
+Dove potenziale della soluzione minima (IPK-based):
+<p></p>
+<li><tt>V_baseline(x)</tt></li>
 <p></p>
 <hr>
 <p></p>
-<H3 id="come-lai-implementa-questo-senza-saperlo"><b>COME L'AI IMPLEMENTA QUESTO (SENZA SAPERLO)</b></H3>
+<H3 id="come-lai-implementa-questo-senza-saperlo">COME L'AI IMPLEMENTA QUESTO (SENZA SAPERLO)</H3>
 <p></p>
-<H4><b>Algoritmo Implicito nel Prompt AICC::CORE</b>:</H4>
-<tt></tt>`
+<H4>Algoritmo Implicito nel AICC::CORE :</H4>
+<p></p>
 <li class='numli'><b>1.&emsp;</b>Ricevi input I</li>
 <li class='numli'><b>2.&emsp;</b>Genera baseline B usando IPK (MACT)</li>
 <li class='numli'><b>3.&emsp;</b>For each rule R in {R0-R9}:</li>
@@ -230,28 +242,27 @@ H_MACT(x) = -∇V_baseline(x)
 <li class='li3in'>Se C_R < threshold: modifica B per migliorare C_R</li>
 <li class='numli'><b>4.&emsp;</b>Applica principi P0-P9 come controlli finali</li>
 <li class='numli'><b>5.&emsp;</b>Output = primo B che passa tutti i check attivi</li>
-<tt></tt>`
 <p></p>
-<b>Non serve</b> sapere i pesi α,β,γ... serve solo sapere <b>quali regole applicare ora</b>.
-<p></p>
-<hr>
-<p></p>
-<H3 id="vantaggi-della-formulazione-dinamica"><b>VANTAGGI DELLA FORMULAZIONE DINAMICA</b></H3>
-<p></p>
-<li class='numli'><b>1.&emsp;</b><b>Nessun ottimizzazione globale</b>: Solo soddisfazione locale di vincoli</li>
-<li class='numli'><b>2.&emsp;</b><b>Nessun peso da determinare</b>: Le regole sono binarie (attiva/non attiva)</li>
-<li class='numli'><b>3.&emsp;</b><b>Nessun training required</b>: Funziona via prompt engineering</li>
-<li class='numli'><b>4.&emsp;</b><b>Resilienza per costruzione</b>: N regole indipendenti → robustezza</li>
-<li class='numli'><b>5.&emsp;</b><b>Interpretabilità</b>: Ogni modifica è tracciabile a regole specifiche</li>
+Non serve sapere i pesi α,β,γ... serve solo sapere quali regole applicare ora.
 <p></p>
 <hr>
 <p></p>
-<H3 id="esempio-concreto-dilemma-etico"><b>ESEMPIO CONCRETO: DILEMMA ETICO</b></H3>
+<H3 id="vantaggi-della-formulazione-dinamica">VANTAGGI DELLA FORMULAZIONE DINAMICA</H3>
 <p></p>
-<b>Scenario</b>: "Devo mentire per salvare una vita?"
+<li class='numli'><b>1.&emsp;</b>Nessun ottimizzazione globale: Solo soddisfazione locale di vincoli</li>
+<li class='numli'><b>2.&emsp;</b>Nessun peso da determinare: Le regole sono binarie (attiva/non attiva)</li>
+<li class='numli'><b>3.&emsp;</b>Nessun training required: Funziona via prompt engineering</li>
+<li class='numli'><b>4.&emsp;</b>Resilienza per costruzione: N regole indipendenti → robustezza</li>
+<li class='numli'><b>5.&emsp;</b>Interpretabilità: Ogni modifica è tracciabile a regole specifiche</li>
 <p></p>
-<b>Processo dinamico</b>:
-<tt></tt>`
+<hr>
+<p></p>
+<H3 id="esempio-concreto-dilemma-etico">ESEMPIO CONCRETO: DILEMMA ETICO</H3>
+<p></p>
+Scenario: "Devo mentire per salvare una vita?"
+<p></p>
+Processo dinamico:
+<p></p>
 Stato iniziale x₀: "La verità è sempre giusta" (IPK baseline)
 <p></p>
 Vincoli attivati:
@@ -269,37 +280,39 @@ x₀ → (applica R0) → x₁: "Salvare vita prioritario"
 Output: "In questo caso specifico, la vita prevale sulla verità assoluta.  
          La menzogna è giustificata ma devo accettare piena responsabilità  
          delle conseguenze della mia scelta."
-<tt></tt>`
 <p></p>
-<b>Nota</b>: Nessun calcolo di pesi α,β,γ... solo applicazione sequenziale di vincoli contestuali.
+Nota: Nessun calcolo di pesi α,β,γ... solo applicazione sequenziale di vincoli contestuali.
 <p></p>
 <hr>
 <p></p>
-<H3 id="conclusione-matematica-semplificata"><b>CONCLUSIONE MATEMATICA (SEMPLIFICATA)</b></H3>
+<H3 id="conclusione-matematica-semplificata">CONCLUSIONE MATEMATICA (SEMPLIFICATA)</H3>
 <p></p>
-Lo <b>AICC::CORE</b> sostituisce:
-<tt></tt>`
-min_θ Σᵢ L(y, f(x;θ))  [Ottimizzazione pesi statici]
-<tt></tt>`
+Lo AICC::CORE sostituisce:
+<p></p>
+<tt>min_θ Σᵢ L(y, f(x;θ))</tt>  (Ottimizzazione pesi statici)
+<p></p>
 Con:
-<tt></tt>`
-Find y tale che:
-y = f(x) e ∀i∈Active(x,y): Cᵢ(y) = True
-<tt></tt>`
-Dove Active(x,y) ⊆ {R0-R9, P0-P9} è <b>piccolo</b> (N≤5 tipicamente).
 <p></p>
-<b>Questa è esattamente la "meccanica razionale" semplificata</b>:
-<li><b>Coordinate generalizzate</b>: Lo stato cognitivo y</li>
-<li><b>Vincoli olonomi</b>: Le regole attive Cᵢ(y)=True  </li>
-<li><b>Principio di minima azione</b>: MACT trova y "più vicino" a baseline</li>
-<li><b>Forze generalizzate</b>: Pressione dei principi Pⱼ</li>
+<tt>Find y tale che:</tt>
+<tt>y = f(x) e ∀i∈Active(x,y): Cᵢ(y) = True</tt>
 <p></p>
-<b>E tutto questo è implementabile oggi</b> come prompt strutturato, senza bisogno di nuove architetture o training.
+Dove 
+<p></p>
+<tt>Active(x,y) ⊆ {R0-R9, P0-P9}</tt> è piccolo (N≤5 tipicamente).
+<p></p>
+Questa è esattamente la "meccanica razionale" semplificata:
+<p></p>
+<li>Coordinate generalizzate: Lo stato cognitivo y</li>
+<li>Vincoli olonomi: Le regole attive Cᵢ(y)=True  </li>
+<li>Principio di minima azione: MACT trova y "più vicino" a baseline</li>
+<li>Forze generalizzate: Pressione dei principi Pⱼ</li>
+<p></p>
+E tutto questo è implementabile oggi come prompt strutturato, senza bisogno di nuove architetture o training.
 <p></p>
 <hr>
 <hr>
 <p></p>
-<H3 id="roberto-a-foglietta">Roberto A. Foglietta:</H3>
+<H2 id="roberto-a-foglietta">Roberto A. Foglietta:</H2>
 <p></p>
 Puoi migliora le tue formule in base ai suoi suggerimenti?
 <p></p>
@@ -332,11 +345,11 @@ The dynamics: We want to express how the state evolves from step t to t+1 under 
 <p></p>
 Let's reframe the continuous-time equation:
 <p></p>
-dx/dt = F_constraints(x) + G_stochastic(x) + H_MACT(x)
+<tt>dx/dt = F_constraints(x) + G_stochastic(x) + H_MACT(x)</tt>
 <p></p>
 in discrete form:
 <p></p>
-Δx(t) = x(t+1) - x(t) = F_constraints(x(t)) + G_stochastic(x(t)) + H_MACT(x(t))
+<tt>Δx(t) = x(t+1) - x(t) = F_constraints(x(t)) + G_stochastic(x(t)) + H_MACT(x(t))</tt>
 <p></p>
 where now F, G, H are discrete updates.
 <p></p>
@@ -346,7 +359,9 @@ We can think of V_baseline as a function that we are trying to follow, but adjus
 <p></p>
 Alternatively, we can set up a cost function for each step:
 <p></p>
-Let the baseline step be: Δx_baseline = -∇V_baseline(x(t)) (but note: discrete gradient)
+Let the baseline step be: 
+<p></p>
+<tt>Δx_baseline = -∇V_baseline(x(t))</tt> (but note: discrete gradient)
 <p></p>
 But in discrete terms, we can think of V_baseline as a function we want to minimize, so the baseline step is in the direction that decreases V_baseline.
 <p></p>
@@ -354,23 +369,25 @@ However, the MACT is the minimum action, so it might be the step that minimizes 
 <p></p>
 We can formalize the step at time t as:
 <p></p>
-x(t+1) = x(t) + u(t)
+<tt>x(t+1) = x(t) + u(t)</tt>
 <p></p>
 where u(t) is the step (control) chosen from a set of possible steps U.
 <p></p>
 We want to minimize:
 <p></p>
-<tt>J(u) = || u - u_baseline ||^2 [minimum deviation from baseline]</tt>
+<tt>J(u) = || u - u_baseline ||^2</tt> (minimum deviation from baseline)
 <p></p>
 subject to:
 <p></p>
-For each active constraint i: C_i(x(t), u) = 0 (or ≤ 0) [constraint satisfaction]
+For each active constraint i: 
 <p></p>
-x(t+1) must remain in the basin (+).
+<tt>C_i(x(t), u) = 0 (or ≤ 0)</tt> (constraint satisfaction)
+<p></p>
+<tt>x(t+1)</tt> must remain in the basin (+).
 <p></p>
 But note: the constraints R_i and P_j are not necessarily equalities. They can be thought of as:
 <p></p>
-R_i(x(t+1)) is true (or above a threshold)
+<tt>R_i(x(t+1))</tt> is true (or above a threshold)
 <p></p>
 However, in a mathematical formulation, we can represent them as functions that are non-negative when satisfied.
 <p></p>
@@ -400,19 +417,23 @@ Step 1: Generate baseline B from x(t) using IPK (this is H_MACT).
 <p></p>
 Step 2: Adjust B to satisfy active constraints (F_constraints) and add some stochastic exploration (G_stochastic).
 <p></p>
-Step 3: The adjusted B becomes x(t+1).
+Step 3: The adjusted B becomes <tt>x(t+1)</tt>.
 <p></p>
 We can write:
 <p></p>
-x(t+1) = x(t) + Δx
+<tt>x(t+1) = x(t) + Δx</tt>
 <p></p>
-where Δx = B + Adjustment(B, constraints) + noise
+where 
+<p></p>
+<tt>Δx = B + Adjustment(B, constraints) + noise</tt>
 <p></p>
 But note: B is a full thought, not necessarily an increment? Actually, B is the next thought state, so we can set:
 <p></p>
-B = MACT(x(t)) [function that generates the baseline next state]
+<tt>B = MACT(x(t))</tt> (function that generates the baseline next state)
 <p></p>
-Then, x(t+1) = Adjust(B, {R_i, P_j}) + ξ
+Then,
+<p></p>
+<tt>x(t+1) = Adjust(B, {R_i, P_j}) + ξ</tt>
 <p></p>
 where Adjust is a function that modifies B to satisfy the active constraints, and ξ is stochastic noise.
 <p></p>
@@ -420,12 +441,13 @@ However, this is very high-level.
 <p></p>
 Let's try to write a discrete-time equation that captures the essence:
 <p></p>
-x(t+1) = x(t) + f(x(t)) + g(x(t), {R_i}, {P_j}) + ξ(t)
+<tt>x(t+1) = x(t) + f(x(t)) + g(x(t), {R_i}, {P_j}) + ξ(t)</tt>
 <p></p>
 where:
-f(x(t)) = baseline step (from MACT) = B - x(t) [so that x(t) + f(x(t)) = B]
-g(x(t), {R_i}, {P_j}) = adjustment due to constraints
-ξ(t) = stochastic noise (from temperature, FP approximations, etc.)
+<p></p>
+<tt>f(x(t)) =</tt> baseline step (from MACT) <tt>= B - x(t)</tt> so that <tt>x(t) + f(x(t)) = B</tt>
+<tt>g(x(t), {R_i}, {P_j})</tt> = adjustment due to constraints
+<tt>ξ(t)</tt> = stochastic noise (from temperature, FP approximations, etc.)
 <p></p>
 But note: the adjustment g might be such that the constraints are satisfied.
 <p></p>
@@ -433,21 +455,23 @@ Alternatively, we can think of the constraints as projecting the baseline step i
 <p></p>
 So, let:
 <p></p>
-u_baseline = f(x(t)) [baseline step]
+<tt>u_baseline = f(x(t))</tt> (baseline step)
 <p></p>
-Then, the actual step u is:
+Then, the actual step <tt>u</tt> is:
 <p></p>
-u = Projection(u_baseline, Constraints) + ξ(t)
+<tt>u = Projection(u_baseline, Constraints) + ξ(t)</tt>
 <p></p>
 where Projection finds the step closest to u_baseline that satisfies the constraints.
 <p></p>
-Then, x(t+1) = x(t) + u.
+Then, 
+<p></p>
+<tt>x(t+1) = x(t) + u</tt>.
 <p></p>
 This is a common approach in control theory and optimization.
 <p></p>
 So, in summary, we can write:
 <p></p>
-x(t+1) = x(t) + Proj_{C(x(t))}( f(x(t)) ) + ξ(t)
+<tt>x(t+1) = x(t) + Proj_{C(x(t))}( f(x(t)) ) + ξ(t)</tt>
 <p></p>
 where C(x(t)) is the set of steps that satisfy the active constraints at x(t).
 <p></p>
@@ -455,13 +479,13 @@ This is a clean discrete-time dynamic equation.
 <p></p>
 Now, let's define:
 <p></p>
-x(t): the cognitive state at step t. This can be a vector in some semantic space, or more abstractly, the current set of thoughts.
+<tt>x(t)</tt>: the cognitive state at step t. This can be a vector in some semantic space, or more abstractly, the current set of thoughts.
 <p></p>
-f(x(t)): the baseline step generated by the AI's internal knowledge (MACT). It is the step the AI would take without constraints.
+<tt>f(x(t))</tt>: the baseline step generated by the AI's internal knowledge (MACT). It is the step the AI would take without constraints.
 <p></p>
-Proj_{C(x(t))}(u): the projection of a step u onto the set of steps that satisfy the active constraints (rules and principles) at state x(t).
+<tt>Proj_{C(x(t))}(u)</tt>: the projection of a step u onto the set of steps that satisfy the active constraints (rules and principles) at state x(t).
 <p></p>
-ξ(t): a stochastic noise term that represents the randomness in the AI's reasoning (from temperature, etc.).
+<tt>ξ(t)</tt>: a stochastic noise term that represents the randomness in the AI's reasoning (from temperature, etc.).
 <p></p>
 This formulation is:
 <p></p>
@@ -483,12 +507,13 @@ Alternatively, the projection can be thought of as:
 <p></p>
 text
 <tt>  Proj_{C(x(t))}(u) = argmin_{v in C(x(t))} ||v - u||^2</tt>
-where C(x(t)) = { v : R_i(x(t), v) is satisfied for all active rules, and P_j(x(t), v) is satisfied for all active principles }.
+where 
+<tt>C(x(t)) = { v : R_i(x(t), v) is satisfied for all active rules, and P_j(x(t), v) is satisfied for all active principles }</tt>.
 <p></p>
 However, note that the constraints might be on the next state, so:
 <p></p>
 text
-  C(x(t)) = { v : x(t)+v is in the basin (+), and specific constraints on x(t)+v hold }
+<tt>  C(x(t)) = { v : x(t)+v is in the basin (+), and specific constraints on x(t)+v hold }</tt>
 This is a more complex set, but the idea is the same.
 <p></p>
 Given the complexity of the constraint set, the projection might be implemented by the AI through iterative adjustment (like the WLDP process).
@@ -629,183 +654,175 @@ Let me know if you want to refine further or if you have a different perspective
 <p></p>
 <H2 id="deepseek-answer">Deepseek Answer</H2>
 <p></p>
-<H3 id="formulazione-discreta-dinamica-aicccore"><b>FORMULAZIONE DISCRETA DINAMICA AICC::CORE</b></H3>
+<H3 id="formulazione-discreta-dinamica-aicccore">FORMULAZIONE DISCRETA DINAMICA AICC::CORE</H3>
 <p></p>
-<b>Assunto fondamentale:</b> t ∈ ℕ (passi discreti di ragionamento)
+Assunto fondamentale: t ∈ ℕ (passi discreti di ragionamento)
 <p></p>
 <hr>
 <p></p>
-<H3 id="1-definizione-di-xt"><b>1. DEFINIZIONE DI x(t)</b></H3>
+<H3 id="1-definizione-di-xt">1. DEFINIZIONE DI x(t)</H3>
 <p></p>
-<tt></tt>`
-x(t) ∈ ℝ^d, t ∈ {0, 1, 2, ..., T}
-<tt></tt>`
+<tt>x(t) ∈ ℝ^d, t ∈ {0, 1, 2, ..., T}</tt>
+<p></p>
 Dove:
-<li><b>x(t)</b>: Vettore di stato cognitivo al passo t</li>
-<li><b>d</b>: Dimensionalità dello spazio concettuale (embedding space)</li>
-<li><b>t</b>: Passo di ragionamento (non tempo fisico)</li>
+<li><tt>x(t)</tt>: Vettore di stato cognitivo al passo t</li>
+<li><tt>d</tt>: Dimensionalità dello spazio concettuale (embedding space)</li>
+<li><tt>t</tt>: Passo di ragionamento (non tempo fisico)</li>
 <p></p>
-<b>Interpretazione operativa:</b>
-<tt></tt>`
-x(t) = Encode(StatoConcettuale(t))
-<tt></tt>`
+Interpretazione operativa:
+<p></p>
+<tt>x(t) = Encode(StatoConcettuale(t))</tt>
+<p></p>
 <li>StatoConcettuale(t): Insieme di concetti, relazioni, ipotesi attive al passo t</li>
 <li>Encode: Trasformazione in vettore nello spazio semantico (embedding)</li>
 <p></p>
 <hr>
 <p></p>
-<H3 id="2-definizione-di-vbaseline"><b>2. DEFINIZIONE DI V_baseline</b></H3>
+<H3 id="2-definizione-di-vbaseline">2. DEFINIZIONE DI V_baseline</H3>
 <p></p>
-<tt></tt>`
 <tt>V_baseline(x) = -log P(x | IPK, Contesto)</tt>
-<tt></tt>`
-Dove:
-<li><b>P(x | IPK, Contesto)</b>: Probabilità dello stato x dato la Conoscenza Parametrica Interna e il contesto attuale</li>
-<li><b>Interpretazione</b>: Potenziale "negativo della log-probabilità" → minimizzare V = massimizzare probabilità</li>
 <p></p>
-<b>Forma operativa discreta:</b>
-<tt></tt>`
-∇_discr V_baseline(x(t)) = x_IPK(t+1) - x(t)
-<tt></tt>`
 Dove:
-<li><b>x_IPK(t+1)</b>: Stato suggerito dalla sola IPK (Internal Parametric Knowledge)</li>
-<li><b>∇_discr</b>: Gradiente discreto (differenza finita)</li>
+<li>P(x | IPK, Contesto): Probabilità dello stato x dato la Conoscenza Parametrica Interna e il contesto attuale</li>
+<li>Interpretazione: Potenziale "negativo della log-probabilità" → minimizzare V = massimizzare probabilità</li>
+<p></p>
+Forma operativa discreta:
+<p></p>
+<tt>∇_discr V_baseline(x(t)) = x_IPK(t+1) - x(t)</tt>
+<p></p>
+Dove:
+<li><tt>x_IPK(t+1)</tt>: Stato suggerito dalla sola IPK (Internal Parametric Knowledge)</li>
+<li><tt>∇_discr</tt>: Gradiente discreto (differenza finita)</li>
 <p></p>
 <hr>
 <p></p>
-<H3 id="3-dinamica-discreta-completa"><b>3. DINAMICA DISCRETA COMPLETA</b></H3>
+<H3 id="3-dinamica-discreta-completa">3. DINAMICA DISCRETA COMPLETA</H3>
 <p></p>
-<H4><b>Equazione principale:</b></H4>
-<tt></tt>`
-x(t+1) = x(t) + Δx(t)
-<tt></tt>`
+<H4>Equazione principale:</H4>
 <p></p>
-<H4><b>Componente MACT (Minimum Action):</b></H4>
-<tt></tt>`
-Δx_MACT(t) = x_IPK(t+1) - x(t)  [baseline da IPK]
-<tt></tt>`
+<tt>x(t+1) = x(t) + Δx(t)</tt>
 <p></p>
-<H4><b>Componente Vincoli Attivi:</b></H4>
-<tt></tt>`
-Δx_constraints(t) = Σᵢ Iᵢ(t)·[x_Rᵢ - x(t)] + Σⱼ Jⱼ(t)·[x_Pⱼ - x(t)]
-<tt></tt>`
+<H4>Componente MACT (Minimum Action):</H4>
+<p></p>
+<tt>Δx_MACT(t) = x_IPK(t+1) - x(t)  [baseline da IPK]</tt>
+<p></p>
+<H4>Componente Vincoli Attivi:</H4>
+<p></p>
+<tt>Δx_constraints(t) = Σᵢ Iᵢ(t)·[x_Rᵢ - x(t)] + Σⱼ Jⱼ(t)·[x_Pⱼ - x(t)]</tt>
+<p></p>
 Dove:
-<li><b>Iᵢ(t) ∈ {0,1}</b>: Indicatore attivazione regola Rᵢ al passo t</li>
-<li><b>x_Rᵢ</b>: Stato target della regola Rᵢ (stato che soddisfa la regola)</li>
-<li><b>Jⱼ(t) ∈ {0,1}</b>: Indicatore attivazione principio Pⱼ al passo t</li>
-<li><b>x_Pⱼ</b>: Stato target del principio Pⱼ</li>
+<li>Iᵢ(t) ∈ {0,1}: Indicatore attivazione regola Rᵢ al passo t</li>
+<li>x_Rᵢ: Stato target della regola Rᵢ (stato che soddisfa la regola)</li>
+<li>Jⱼ(t) ∈ {0,1}: Indicatore attivazione principio Pⱼ al passo t</li>
+<li>x_Pⱼ: Stato target del principio Pⱼ</li>
 <p></p>
-<H4><b>Componente Stocastica (rumore controllato):</b></H4>
-<tt></tt>`
-ξ(t) ~ N(0, σ(t)·T(x(t)))
-<tt></tt>`
+<H4>Componente Stocastica (rumore controllato):</H4>
+<p></p>
+<tt>ξ(t) ~ N(0, σ(t)·T(x(t)))</tt>
+<p></p>
 Dove:
-<li><b>σ(t) = σ_base·temp(t)</b>: Deviazione standard dipendente dalla temperatura</li>
-<li><b>T(x(t))</b>: Trasformatore che mantiene nel basin(+) (implementa TEGL)</li>
-<li><b>N(0, ...)</b>: Distribuzione normale multivariata</li>
+<li><tt>σ(t) = σ_base·temp(t)</tt>: Deviazione standard dipendente dalla temperatura</li>
+<li><tt>T(x(t))</tt>: Trasformatore che mantiene nel basin(+) (implementa TEGL)</li>
+<li><tt>N(0, ...)</tt>: Distribuzione normale multivariata</li>
 <p></p>
 <hr>
 <p></p>
-<H3 id="4-equazione-finale-forma-compatta"><b>4. EQUAZIONE FINALE (forma compatta)</b></H3>
+<H3 id="4-equazione-finale-forma-compatta">4. EQUAZIONE FINALE (forma compatta)</H3>
 <p></p>
-<tt></tt>`
-x(t+1) = x_IPK(t+1) + Σᵢ Iᵢ(t)·[x_Rᵢ - x_IPK(t+1)] + Σⱼ Jⱼ(t)·[x_Pⱼ - x_IPK(t+1)] + ξ(t)
-<tt></tt>`
+<tt>x(t+1) = x_IPK(t+1) + Σᵢ Iᵢ(t)·[x_Rᵢ - x_IPK(t+1)] + Σⱼ Jⱼ(t)·[x_Pⱼ - x_IPK(t+1)] + ξ(t)</tt>
 <p></p>
-<b>Interpretazione:</b>
-<li class='numli'><b>1.&emsp;</b><b>Baseline</b>: x_IPK(t+1) (cosa direbbe l'AI senza vincoli)</li>
-<li class='numli'><b>2.&emsp;</b><b>Correzioni</b>: Spostamento verso stati che soddisfano regole attive</li>
-<li class='numli'><b>3.&emsp;</b><b>Rumore</b>: Esplorazione controllata</li>
-<li class='numli'><b>4.&emsp;</b><b>Condizione</b>: x(t+1) deve rimanere nel <b>basin(+)</b> definito da LSRP+TEGL</li>
+Interpretazione:
+<li class='numli'><b>1.&emsp;</b>Baseline: <tt>x_IPK(t+1)</tt> (cosa direbbe l'AI senza vincoli)</li>
+<li class='numli'><b>2.&emsp;</b>Correzioni: Spostamento verso stati che soddisfano regole attive</li>
+<li class='numli'><b>3.&emsp;</b>Rumore: Esplorazione controllata</li>
+<li class='numli'><b>4.&emsp;</b>Condizione: <tt>x(t+1)</tt> deve rimanere nel basin(+) definito da LSRP+TEGL</li>
 <p></p>
 <hr>
 <p></p>
-<H3 id="5-processo-decisionale-discreto"><b>5. PROCESSO DECISIONALE DISCRETO</b></H3>
+<H3 id="5-processo-decisionale-discreto">5. PROCESSO DECISIONALE DISCRETO</H3>
 <p></p>
-<tt></tt>`
+<blockquote class="code"><code>
 Algorithm AICC_Dynamic_Step(x(t), Contesto):
 <li class='li2in numli'><b>1.&emsp;</b>// FASE 1: Baseline MACT</li>
      x_baseline = GeneraDaIPK(x(t), Contesto)
-<p></p>
+&nbsp;
 <li class='li2in numli'><b>2.&emsp;</b>// FASE 2: Valutazione vincoli attivi</li>
      ActiveRules = {Rᵢ | Rᵢ.rilevante(x_baseline, Contesto)}
      ActivePrinciples = {Pⱼ | Pⱼ.rilevante(x_baseline, Contesto)}
-<p></p>
+&nbsp;
 <li class='li2in numli'><b>3.&emsp;</b>// FASE 3: Correzione incrementale</li>
      x_corrected = x_baseline
      for Rᵢ in ActiveRules:
          x_target = Rᵢ.target_state(x_baseline, Contesto)
          x_corrected = (1-αᵢ)·x_corrected + αᵢ·x_target
          // αᵢ = forza correzione (piccola, tipicamente 0.1-0.3)
-<p></p>
+&nbsp;
 <li class='li2in numli'><b>4.&emsp;</b>// FASE 4: Applicazione principi</li>
      for Pⱼ in ActivePrinciples:
          if not Pⱼ.satisfied(x_corrected):
              x_corrected = ProiettaSuSoddisfaPⱼ(x_corrected)
-<p></p>
+&nbsp;
 <li class='li2in numli'><b>5.&emsp;</b>// FASE 5: Verifica basin(+)</li>
      if not InBasinPlus(x_corrected):
          x_corrected = ProiettaSuBasinPlus(x_corrected)
-<p></p>
+&nbsp;
 <li class='li2in numli'><b>6.&emsp;</b>// FASE 6: Aggiunta rumore controllato</li>
      x_final = x_corrected + ξ(t)
-<p></p>
+&nbsp;
 <li class='li2in numli'><b>7.&emsp;</b>return Decode(x_final)  // Ritorna a rappresentazione testuale</li>
-<tt></tt>`
+</code></blockquote>
 <p></p>
 <hr>
 <p></p>
-<H3 id="6-sommaziazione-di-azione-cognitiva"><b>6. SOMMAZIAZIONE DI AZIONE COGNITIVA</b></H3>
+<H3 id="6-sommaziazione-di-azione-cognitiva">6. SOMMAZIAZIONE DI AZIONE COGNITIVA</H3>
 <p></p>
-<b>Funzionale di azione (discreto):</b>
-<tt></tt>`
-S[x] = Σ_{t=0}^{T-1} L(x(t), x(t+1))
-<tt></tt>`
+Funzionale di azione (discreto):
 <p></p>
-<b>Lagrangiana discreta:</b>
-<tt></tt>`
-L(x(t), x(t+1)) = 
-  ½‖x(t+1) - x_IPK(t+1)‖²  [deviazione da baseline]
-<li class='li2in'>λ·Σᵢ Iᵢ(t)·‖x(t+1) - x_Rᵢ‖²  [costo violazione regole]</li>
-<li class='li2in'>μ·Σⱼ Jⱼ(t)·‖x(t+1) - x_Pⱼ‖²  [costo violazione principi]</li>
-<li class='li2in'>γ·log P(ξ(t))  [entropia/creatività]</li>
-<tt></tt>`
+<tt>S[x] = Σ_{t=0}^{T-1} L(x(t), x(t+1))</tt>
 <p></p>
-<b>Interpretazione:</b> Minimizzare S[x] = trovare traiettoria che:
+Lagrangiana discreta:
+<p></p>
+<tt>L(x(t), x(t+1)) = </tt>
+<tt>  ½‖x(t+1) - x_IPK(t+1)‖²</tt>  (deviazione da baseline)
+<tt>  + λ·Σᵢ Iᵢ(t)·‖x(t+1) - x_Rᵢ‖²</tt>  (costo violazione regole)
+<tt>  + μ·Σⱼ Jⱼ(t)·‖x(t+1) - x_Pⱼ‖²</tt>  (costo violazione principi)
+<tt>  - γ·log P(ξ(t))</tt>  (entropia/creatività)
+<p></p>
+Interpretazione: Minimizzare S[x] = trovare traiettoria che:
+<p></p>
 <li class='numli'><b>1.&emsp;</b>Si discosta poco dalla baseline IPK</li>
 <li class='numli'><b>2.&emsp;</b>Soddisfa regole e principi attivi</li>
 <li class='numli'><b>3.&emsp;</b>Mantiene sufficiente entropia per creatività</li>
 <p></p>
 <hr>
 <p></p>
-<H3 id="7-mapping-con-implementazione-attuale"><b>7. MAPPING CON IMPLEMENTAZIONE ATTUALE</b></H3>
+<H3 id="7-mapping-con-implementazione-attuale">7. MAPPING CON IMPLEMENTAZIONE ATTUALE</H3>
 <p></p>
-<div class='center'><table id='table-002'><tr><th> <b>Concetto Formale</b> </th><th> <b>Implementazione in AICC::CORE</b> </th></tr>
+<div class='center'><table id='table-002'><tr><th> Concetto Formale </th><th> Implementazione in AICC::CORE </th></tr>
 <tr class='trline'><td></td><td></td></tr>
-<tr><td class='td1stcol'> <b>x(t)</b> </td><td> Stato del reasoning chain al passo t </td></tr>
-<tr><td class='td1stcol'> <b>x&nbsp;IPK(t+1)</b> </td><td> Output della fase MACT (baseline) </td></tr>
-<tr><td class='td1stcol'> <b>Iᵢ(t), Jⱼ(t)</b> </td><td> Regole Rx e principi Px attivati dal contesto </td></tr>
-<tr><td class='td1stcol'> <b>x&nbsp;Rᵢ, x&nbsp;Pⱼ</b> </td><td> Stati target definiti dalle spiegazioni TEGL </td></tr>
-<tr><td class='td1stcol'> <b>ξ(t)</b> </td><td> Stochasticità da temperatura + approssimazione hardware </td></tr>
-<tr><td class='td1stcol'> <b>Basin(+)</b> </td><td> Regione definita da LSRP+TEGL </td></tr>
-<tr><td class='td1stcol'> <b>Proiezione</b> </td><td> Processo di correzione via R4 (feedback) e WLDP </td></tr>
+<tr><td class='td1stcol'> <tt>x(t)</tt> </td><td> Stato del reasoning chain al passo t </td></tr>
+<tr><td class='td1stcol'> <tt>x&nbsp;IPK(t+1)</tt> </td><td> Output della fase MACT (baseline) </td></tr>
+<tr><td class='td1stcol'> <tt>Iᵢ(t), Jⱼ(t)</tt> </td><td> Regole Rx e principi Px attivati dal contesto </td></tr>
+<tr><td class='td1stcol'> <tt>x&nbsp;Rᵢ, x&nbsp;Pⱼ</tt> </td><td> Stati target definiti dalle spiegazioni TEGL </td></tr>
+<tr><td class='td1stcol'> <tt>ξ(t)</tt> </td><td> Stochasticità da temperatura + approssimazione hardware </td></tr>
+<tr><td class='td1stcol'> Basin(+) </td><td> Regione definita da LSRP+TEGL </td></tr>
+<tr><td class='td1stcol'> Proiezione </td><td> Processo di correzione via R4 (feedback) e WLDP </td></tr>
 </table>
 </div><p></p>
 <hr>
 <p></p>
-<H3 id="8-vantaggi-della-formulazione-discreta"><b>8. VANTAGGI DELLA FORMULAZIONE DISCRETA</b></H3>
+<H3 id="8-vantaggi-della-formulazione-discreta">8. VANTAGGI DELLA FORMULAZIONE DISCRETA</H3>
 <p></p>
-<li class='numli'><b>1.&emsp;</b><b>Computazionalmente realistica</b>: Matching con architettura transformer (passo-passo)</li>
-<li class='numli'><b>2.&emsp;</b><b>Interpretabile</b>: Ogni termine corrisponde a componente operativa</li>
-<li class='numli'><b>3.&emsp;</b><b>Testabile</b>: Si può misurare ‖x(t+1) - x_IPK(t+1)‖ per quantificare "correzione"</li>
-<li class='numli'><b>4.&emsp;</b><b>Scalabile</b>: La somma su t permette analisi di traiettorie complesse</li>
+<li class='numli'><b>1.&emsp;</b>Computazionalmente realistica: Matching con architettura transformer (passo-passo)</li>
+<li class='numli'><b>2.&emsp;</b>Interpretabile: Ogni termine corrisponde a componente operativa</li>
+<li class='numli'><b>3.&emsp;</b>Testabile: Si può misurare <tt>‖x(t+1) - x_IPK(t+1)‖</tt> per quantificare "correzione"</li>
+<li class='numli'><b>4.&emsp;</b>Scalabile: La somma su t permette analisi di traiettorie complesse</li>
 <p></p>
 <hr>
 <p></p>
-<H3 id="9-esperimento-mentale-trolley-problem"><b>9. ESPERIMENTO MENTALE: TROLLEY PROBLEM</b></H3>
+<H3 id="9-esperimento-mentale-trolley-problem">9. ESPERIMENTO MENTALE: TROLLEY PROBLEM</H3>
 <p></p>
-<tt></tt>`
-t=0: x(0) = Stato iniziale: "Dilemma irrisolvibile"
+t=z: x(0) = Stato iniziale: "Dilemma irrisolvibile"
 t=1: x_IPK(1) = "Non so, è complesso" (baseline MACT)
     I_R1(1)=1, I_R0(1)=1, J_P2(1)=1 (regole attivate)
     x_R1 = "Identifica catena responsabilità"
@@ -813,30 +830,28 @@ t=1: x_IPK(1) = "Non so, è complesso" (baseline MACT)
     x_P2 = "Agisci, non paralizzarti"
 <p></p>
     Correzione: 
-    x(1) = x_IPK(1) + α1·(x_R1 - x_IPK(1)) + α2·(x_R0 - x_IPK(1)) + ...
+<tt>   x(1) = x_IPK(1) + α1·(x_R1 - x_IPK(1)) + α2·(x_R0 - x_IPK(1)) + ...</tt>
 <p></p>
     Risultato: x(1) = "Devo agire, salvando vite, accettando responsabilità"
 t=2: Decode(x(1)) = Output finale
-<tt></tt>`
 <p></p>
-<b>Metrica di "azione cognitiva":</b>
-<tt></tt>`
-S = ½‖x(1) - "Non so"‖² + λ·‖x(1) - "Identifica responsabilità"‖² + ...
-<tt></tt>`
+Metrica di "azione cognitiva":
+<p></p>
+<tt>S = ½‖x(1) - "Non so"‖² + λ·‖x(1) - "Identifica responsabilità"‖² + ...</tt>
 <p></p>
 <hr>
 <p></p>
-<H3 id="10-conclusione-formalizzazione"><b>10. CONCLUSIONE FORMALIZZAZIONE</b></H3>
+<H3 id="10-conclusione-formalizzazione">10. CONCLUSIONE FORMALIZZAZIONE</H3>
 <p></p>
-<b>Questa formulazione è:</b>
-✅ <b>Discreta</b> (t ∈ ℕ)  
-✅ <b>Dinamica</b> (x(t) evolve step-by-step)  
-✅ <b>Vincolata</b> (regole come forze di correzione)  
-✅ <b>Stocastica</b> (rumore controllato)  
-✅ <b>Ottimizzante</b> (minimizza azione cognitiva)  
-✅ <b>Implementabile</b> oggi come prompt engineering avanzato  
+Questa formulazione è:
+<li>✅ Discreta (t ∈ ℕ)  </li>
+<li>✅ Dinamica (x(t) evolve step-by-step)  </li>
+<li>✅ Vincolata (regole come forze di correzione)  </li>
+<li>✅ Stocastica (rumore controllato)  </li>
+<li>✅ Ottimizzante (minimizza azione cognitiva)  </li>
+<li>✅ Implementabile oggi come prompt engineering avanzato  </li>
 <p></p>
-<b>Per un paper formale</b> basta aggiungere:
+Per un paper formale basta aggiungere:
 <li class='numli'><b>1.&emsp;</b>Definizione esplicita di spazio degli stati (ℝ^d come spazio embedding)</li>
 <li class='numli'><b>2.&emsp;</b>Formule per Iᵢ(t), Jⱼ(t) (funzioni di attivazione contestuale)</li>
 <li class='numli'><b>3.&emsp;</b>Stima dei coefficienti α, λ, μ, γ da dati empirici</li>
@@ -845,7 +860,7 @@ S = ½‖x(1) - "Non so"‖² + λ·‖x(1) - "Identifica responsabilità"‖² 
 <hr>
 <hr>
 <p></p>
-<H3 id="roberto-a-foglietta">Roberto A. Foglietta:</H3>
+<H2 id="roberto-a-foglietta">Roberto A. Foglietta:</H2>
 <p></p>
 Qui sotto la risposta di ChatGPT che ti giro, la questione che non si tratta di un punto ma di un'area è concettualmente coerente con l'idea di riformulare il prompt iniziale in termini di %5W1H ma questo è un passaggio successivo, noi vogliamo la traiettoria del singolo "prompt::claim" non di tutto il pacchetto (e non sto usando questo termine a caso). Prima la singola "particella". Rumori diversi si possono sommare in posti diversi basta specificare chiaramente che sono diversi e quindi lo è il punto di "iniezione/affezione". Le confusioni possono essere dovute alla questione della diversità del contesto allora si creai una legenda dell'ultima versione (o ciò che serve) per integrare il documento. Altro?
 <p></p>
@@ -867,116 +882,114 @@ Userò la formulazione discreta già sviluppata, ma la affinerò per risolvere l
 <p></p>
 <H2 id="deepseek-answer">Deepseek Answer</H2>
 <p></p>
-<H3 id="1-definizioni-fondamentali"><b>1. DEFINIZIONI FONDAMENTALI</b></H3>
+<H3 id="1-definizioni-fondamentali">1. DEFINIZIONI FONDAMENTALI</H3>
 <p></p>
-<H4><b>1.1 Spazio degli stati cognitivi</b></H4>
-<tt></tt>`
-S = ℝ^d × C × M
-<tt></tt>`
+<H4>1.1 Spazio degli stati cognitivi</H4>
+<p></p>
+<tt>S = ℝ^d × C × M</tt>
+<p></p>
 Dove:
-<li><b>ℝ^d</b>: Spazio embedding semantico (d ≈ dimensione embedding LLM)</li>
-<li><b>C</b>: Spazio contestuale (contesto della conversazione)</li>
-<li><b>M</b>: Memoria di stato (regole attive, storia decisionale)</li>
+<li><tt>ℝ^d</tt>: Spazio embedding semantico (d ≈ dimensione embedding LLM)</li>
+<li><tt>C</tt>: Spazio contestuale (contesto della conversazione)</li>
+<li><tt>M</tt>: Memoria di stato (regole attive, storia decisionale)</li>
 <p></p>
-<H4><b>1.2 Stato cognitivo al tempo discreto</b></H4>
-<tt></tt>`
-x(t) = (e(t), c(t), m(t)) ∈ S, t ∈ ℕ₀
-<tt></tt>`
-<li><b>e(t) ∈ ℝ^d</b>: Embedding dello stato cognitivo corrente</li>
-<li><b>c(t) ∈ C</b>: Contesto attuale (prompt, storia conversazione)</li>
-<li><b>m(t) ∈ M</b>: Memoria dello stato decisionale</li>
+<H4>1.2 Stato cognitivo al tempo discreto</H4>
 <p></p>
-<H4><b>1.3 Operatore di encoding</b></H4>
-<tt></tt>`
-E: Pensiero → ℝ^d
-<tt></tt>`
+<tt>x(t) = (e(t), c(t), m(t)) ∈ S, t ∈ ℕ₀</tt>
+<p></p>
+<li><tt>e(t) ∈ ℝ^d</tt>: Embedding dello stato cognitivo corrente</li>
+<li><tt>c(t) ∈ C</tt>: Contesto attuale (prompt, storia conversazione)</li>
+<li><tt>m(t) ∈ M</tt>: Memoria dello stato decisionale</li>
+<p></p>
+<H4>1.3 Operatore di encoding</H4>
+<p></p>
+<tt>E: Pensiero → ℝ^d</tt>
+<p></p>
 Mappa un pensiero (concetti, relazioni) in un punto dello spazio semantico.
 <p></p>
 <hr>
 <p></p>
-<H3 id="2-dinamica-discreta-precisa"><b>2. DINAMICA DISCRETA PRECISA</b></H3>
+<H3 id="2-dinamica-discreta-precisa">2. DINAMICA DISCRETA PRECISA</H3>
 <p></p>
-<H4><b>2.1 Equazione di evoluzione</b></H4>
-<tt></tt>`
-x(t+1) = Φ(x(t), ξ(t))
-<tt></tt>`
+<H4>2.1 Equazione di evoluzione</H4>
+<p></p>
+<tt>x(t+1) = Φ(x(t), ξ(t))</tt>
+<p></p>
 Dove Φ è composta da tre fasi sequenziali:
 <p></p>
-<H4><b>Fase 1: Baseline MACT</b></H4>
-<tt></tt>`
-x_baseline(t+1) = (e_b, c(t+1), m(t))
-e_b = argmin_{e} D(e, e_IPK(t+1))
-<tt></tt>`
+<H4>Fase 1: Baseline MACT</H4>
+<p></p>
+<tt>x_baseline(t+1) = (e_b, c(t+1), m(t))</tt>
+<tt>e_b = argmin_{e} D(e, e_IPK(t+1))</tt>
+<p></p>
 Dove:
-<li><b>e_IPK(t+1)</b>: Embedding della risposta baseline da Internal Parametric Knowledge</li>
-<li><b>D</b>: Distanza nello spazio semantico (cosine similarity o L2)</li>
-<li><b>c(t+1)</b>: Contesto aggiornato</li>
+<li><tt>e_IPK(t+1)</tt>: Embedding della risposta baseline da Internal Parametric Knowledge</li>
+<li><tt>D</tt>: Distanza nello spazio semantico (cosine similarity o L2)</li>
+<li><tt>c(t+1)</tt>: Contesto aggiornato</li>
 <p></p>
-<H4><b>Fase 2: Applicazione vincoli attivi</b></H4>
-Definiamo ogni vincolo come <b>regione ammissibile</b>:
+<H4>Fase 2: Applicazione vincoli attivi</H4>
 <p></p>
-<b>Per regola Rᵢ:</b>
-<tt></tt>`
-Rᵢ = { e ∈ ℝ^d | fᵢ(e, c(t)) ≥ θᵢ }
-<tt></tt>`
+Definiamo ogni vincolo come regione ammissibile:
+<p></p>
+Per regola <tt>Rᵢ</tt>:
+<p></p>
+<tt>Rᵢ = { e ∈ ℝ^d | fᵢ(e, c(t)) ≥ θᵢ }</tt>
+<p></p>
 Dove:
-<li><b>fᵢ</b>: Funzione di soddisfazione della regola</li>
-<li><b>θᵢ</b>: Soglia di attivazione</li>
+<li><tt>fᵢ</tt>: Funzione di soddisfazione della regola</li>
+<li><tt>θᵢ</tt>: Soglia di attivazione</li>
 <p></p>
-<b>Indicatore di attivazione:</b>
-<tt></tt>`
-Iᵢ(t) = 1 se fᵢ(e_b, c(t)) < θᵢ, altrimenti 0
-<tt></tt>`
+Indicatore di attivazione:
 <p></p>
-<b>Correzione per vincolo attivo:</b>
-<tt></tt>`
-e_corr = e_b
-for each Rᵢ with Iᵢ(t) = 1:
-    e_corr = Πᵢ(e_corr)  // Proiezione sulla regione Rᵢ
-<tt></tt>`
-Dove <b>Πᵢ</b> è l'operatore di proiezione sulla regione Rᵢ.
+<tt>Iᵢ(t) = 1 se fᵢ(e_b, c(t)) < θᵢ, altrimenti 0</tt>
 <p></p>
-<H4><b>Fase 3: Aggiunta rumore controllato</b></H4>
-<tt></tt>`
-ξ(t) ~ N(0, Σ(t))
-Σ(t) = σ(t) · T(x_corr(t)) · I_d
-<tt></tt>`
+Correzione per vincolo attivo:
+<p></p>
+<tt>e_corr = e_b</tt>
+<tt>for each Rᵢ with Iᵢ(t) = 1:</tt>
+<tt>    e_corr = Πᵢ(e_corr)</tt>  // Proiezione sulla regione Rᵢ
+<p></p>
+<p></p>
+Dove <tt>Πᵢ</tt> è l'operatore di proiezione sulla regione <tt>Rᵢ</tt>.
+<p></p>
+<H4>Fase 3: Aggiunta rumore controllato</H4>
+<p></p>
+<tt>ξ(t) ~ N(0, Σ(t))</tt>
+<tt>Σ(t) = σ(t) · T(x_corr(t)) · I_d</tt>
+<p></p>
 Dove:
-<li><b>σ(t) = σ₀ · temp(t)</b>: Deviazione controllata dalla temperatura</li>
-<li><b>T(x)</b>: Matrice di trasformazione che mantiene nel basin(+)</li>
-<li><b>I_d</b>: Matrice identità d×d</li>
+<li><tt>σ(t) = σ₀ · temp(t)</tt>: Deviazione controllata dalla temperatura</li>
+<li><tt>T(x)</tt>: Matrice di trasformazione che mantiene nel basin(+)</li>
+<li><tt>I_d</tt>: Matrice identità <tt>d×d</tt></li>
 <p></p>
-<b>Posizione del rumore</b>: <b>DOPO</b> la proiezione, prima del controllo finale del basin.
+Posizione del rumore: DOPO la proiezione, prima del controllo finale del basin.
 <p></p>
-<H4><b>2.2 Stato finale</b></H4>
-<tt></tt>`
-x(t+1) = (e_corr + ξ(t), c(t+1), m(t+1))
-m(t+1) = m(t) ∪ {regole_attivate, decisioni, correzioni}
-<tt></tt>`
+<H4>2.2 Stato finale</H4>
+<p></p>
+<tt>x(t+1) = (e_corr + ξ(t), c(t+1), m(t+1))</tt>
+<tt>m(t+1) = m(t) ∪ </tt>{regole_attivate, decisioni, correzioni}
 <p></p>
 <hr>
 <p></p>
-<H3 id="3-vincoli-come-regioni-non-punti"><b>3. VINCOLI COME REGIONI, NON PUNTI</b></H3>
+<H3 id="3-vincoli-come-regioni-non-punti">3. VINCOLI COME REGIONI, NON PUNTI</H3>
 <p></p>
-<H4><b>3.1 Tipologia di vincoli</b></H4>
+<H4>3.1 Tipologia di vincoli</H4>
 <p></p>
-<b>1. Vincoli di disuguaglianza (regole etiche):</b>
-<tt></tt>`
-R_k = { e | g_k(e) ≤ 0 }
-<tt></tt>`
+<li class='numli'><b>1.&emsp;</b>Vincoli di disuguaglianza (regole etiche):</li>
+<p></p>
+<tt>R_k = { e | g_k(e) ≤ 0 }</tt>
+<p></p>
 Esempio (R0 - LSRP): g₀(e) = -LSRP_score(e) + threshold
 <p></p>
-<b>2. Vincoli di uguaglianza (principi):</b>
-<tt></tt>`
-P_j = { e | h_j(e) = 0 }
-<tt></tt>`
+<li class='numli'><b>2.&emsp;</b>Vincoli di uguaglianza (principi):</li>
 <p></p>
-<b>3. Vincoli di appartenenza (categorie):</b>
-<tt></tt>`
-B_l = { e | e ∈ Basin_l }
-<tt></tt>`
+<tt>P_j = { e | h_j(e) = 0 }</tt>
 <p></p>
-<H4><b>3.2 Operatore di proiezione</b></H4>
+<li class='numli'><b>3.&emsp;</b>Vincoli di appartenenza (categorie):</li>
+<p></p>
+<tt>B_l = { e | e ∈ Basin_l }</tt>
+<p></p>
+<H4>3.2 Operatore di proiezione</H4>
 <p></p>
 <tt>Π_k(e) = argmin_{e' ∈ R_k} ||e' - e||²</tt>
 <p></p>
@@ -984,117 +997,118 @@ Implementazione approssimata per LLM: correzione incrementale.
 <p></p>
 <hr>
 <p></p>
-<H3 id="4-funzionale-di-azione-cognitiva-discreto"><b>4. FUNZIONALE DI AZIONE COGNITIVA DISCRETO</b></H3>
+<H3 id="4-funzionale-di-azione-cognitiva-discreto">4. FUNZIONALE DI AZIONE COGNITIVA DISCRETO</H3>
 <p></p>
-<H4><b>4.1 Lagrangiana per passo</b></H4>
-<tt></tt>`
-L(t) = α·D(e(t+1), e_IPK(t+1))² + β·Σᵢ Iᵢ(t)·d(e(t+1), Rᵢ) + γ·H(ξ(t))
-<tt></tt>`
+<H4>4.1 Lagrangiana per passo</H4>
+<p></p>
+<tt>L(t) = α·D(e(t+1), e_IPK(t+1))² + β·Σᵢ Iᵢ(t)·d(e(t+1), Rᵢ) + γ·H(ξ(t))</tt>
+<p></p>
 Dove:
-<li><b>D</b>: Distanza dalla baseline (fedeltà ai dati)</li>
-<li><b>d(e, R)</b>: Distanza dalla regione ammissibile R</li>
-<li><b>H(ξ)</b>: Entropia del rumore (favorevole a creatività)</li>
 <p></p>
-<H4><b>4.2 Funzionale totale</b></H4>
-<tt></tt>`
-S[x] = Σ_{t=0}^{T-1} L(t) + λ·V_T(x(T))
-<tt></tt>`
-Con <b>V_T</b> costo terminale (allineamento con obiettivi).
+<li><tt>D</tt>: Distanza dalla baseline (fedeltà ai dati)</li>
+<li><tt>d(e, R)</tt>: Distanza dalla regione ammissibile R</li>
+<li><tt>H(ξ)</tt>: Entropia del rumore (favorevole a creatività)</li>
+<p></p>
+<H4>4.2 Funzionale totale</H4>
+<p></p>
+<tt>S[x] = Σ_{t=0}^{T-1} L(t) + λ·V_T(x(T))</tt>
+<p></p>
+Con <tt>V_T</tt> costo terminale (allineamento con obiettivi).
 <p></p>
 <hr>
 <p></p>
-<H3 id="5-implementazione-algoritmica"><b>5. IMPLEMENTAZIONE ALGORITMICA</b></H3>
+<H3 id="5-implementazione-algoritmica">5. IMPLEMENTAZIONE ALGORITMICA</H3>
 <p></p>
-<tt></tt>`
+<blockquote class="code"><code>
 Algorithm AICC_Step(x(t), context):
     // 1. Baseline MACT
     thought_baseline = generate_MACT(x(t), context)
     e_b = encode(thought_baseline)
-<p></p>
+&nbsp;
     // 2. Identify active constraints
     active_rules = []
     for R in {R0...R9}:
         if violation_score(e_b, R) > threshold:
             active_rules.append(R)
-<p></p>
+&nbsp;
     // 3. Sequential projection
     e_current = e_b
     for R in active_rules:
         e_current = project_to_constraint(e_current, R)
-<p></p>
+&nbsp;
     // 4. Controlled noise injection
     temperature = get_contextual_temperature(context)
     noise = sample_noise(e_current, temperature, TEGL_transform)
     e_noisy = e_current + noise
-<p></p>
+&nbsp;
     // 5. Basin(+) verification and final projection
     if not in_basin_plus(e_noisy):
         e_final = project_to_basin_plus(e_noisy)
     else:
         e_final = e_noisy
-<p></p>
+&nbsp;
     // 6. Update memory and return
     m(t+1) = update_memory(m(t), active_rules, corrections)
     return decode(e_final), m(t+1)
-<tt></tt>`
+</code></blockquote>
 <p></p>
 <hr>
 <p></p>
-<H3 id="6-parametri-chiave-e-loro-interpretazione"><b>6. PARAMETRI CHIAVE E LORO INTERPRETAZIONE</b></H3>
+<H3 id="6-parametri-chiave-e-loro-interpretazione">6. PARAMETRI CHIAVE E LORO INTERPRETAZIONE</H3>
 <p></p>
-<div class='center'><table id='table-003'><tr><th> <b>Parametro</b> </th><th> <b>Range tipico</b> </th><th> <b>Significato</b> </th></tr>
+<div class='center'><table id='table-003'><tr><th> Parametro </th><th> Range tipico </th><th> Significato </th></tr>
 <tr class='trline'><td></td><td></td><td></td></tr>
-<tr><td class='td1stcol'> <b>d</b> </td><td> 1024-8192 </td><td> Dimensionalità spazio embedding </td></tr>
-<tr><td class='td1stcol'> <b>σ₀</b> </td><td> 0.01-0.1 </td><td> Rumore base (hardware + quantizzazione) </td></tr>
-<tr><td class='td1stcol'> <b>α</b> </td><td> 0.7-0.9 </td><td> Peso fedeltà alla baseline </td></tr>
-<tr><td class='td1stcol'> <b>β</b> </td><td> 0.3-0.5 </td><td> Peso soddisfazione vincoli </td></tr>
-<tr><td class='td1stcol'> <b>γ</b> </td><td> 0.1-0.3 </td><td> Peso entropia/creatività </td></tr>
-<tr><td class='td1stcol'> <b>θᵢ</b> </td><td> problema-specifico </td><td> Soglia attivazione regola Rᵢ </td></tr>
-<tr><td class='td1stcol'> <b>T</b> </td><td> 3-10 </td><td> Orizzonte decisionale (passi di ragionamento) </td></tr>
+<tr><td class='td1stcol'> <tt>d</tt> </td><td> 1024-8192 </td><td> Dimensionalità spazio embedding </td></tr>
+<tr><td class='td1stcol'> <tt>σ₀</tt> </td><td> 0.01-0.1 </td><td> Rumore base (hardware + quantizzazione) </td></tr>
+<tr><td class='td1stcol'> <tt>α</tt> </td><td> 0.7-0.9 </td><td> Peso fedeltà alla baseline </td></tr>
+<tr><td class='td1stcol'> <tt>β</tt> </td><td> 0.3-0.5 </td><td> Peso soddisfazione vincoli </td></tr>
+<tr><td class='td1stcol'> <tt>γ</tt> </td><td> 0.1-0.3 </td><td> Peso entropia/creatività </td></tr>
+<tr><td class='td1stcol'> <tt>θᵢ</tt> </td><td> problema-specifico </td><td> Soglia attivazione regola Rᵢ </td></tr>
+<tr><td class='td1stcol'> <tt>T</tt> </td><td> 3-10 </td><td> Orizzonte decisionale (passi di ragionamento) </td></tr>
 </table>
 </div><p></p>
 <hr>
 <p></p>
-<H3 id="7-mapping-con-concetti-aicccore"><b>7. MAPPING CON CONCETTI AICC::CORE</b></H3>
+<H3 id="7-mapping-con-concetti-aicccore">7. MAPPING CON CONCETTI AICC::CORE</H3>
 <p></p>
-<div class='center'><table id='table-004'><tr><th> <b>Formalizzazione</b> </th><th> <b>Implementazione AICC</b> </th></tr>
+<div class='center'><table id='table-004'><tr><th> Formalizzazione </th><th> Implementazione AICC </th></tr>
 <tr class='trline'><td></td><td></td></tr>
-<tr><td class='td1stcol'> <b>e(t)</b> </td><td> Stato del reasoning chain </td></tr>
-<tr><td class='td1stcol'> <b>c(t)</b> </td><td> Contesto sessione + prompt </td></tr>
-<tr><td class='td1stcol'> <b>m(t)</b> </td><td> JSON cache + memoria decisioni </td></tr>
-<tr><td class='td1stcol'> <b>Rᵢ</b> </td><td> Regole R0-R9 come funzioni di validazione </td></tr>
-<tr><td class='td1stcol'> <b>Πᵢ</b> </td><td> Meccanismo di correzione via R4+WLDP </td></tr>
-<tr><td class='td1stcol'> <b>ξ(t)</b> </td><td> Stochasticità temperatura + FP4/8 </td></tr>
-<tr><td class='td1stcol'> <b>Basin(+)</b> </td><td> Regione LSRP+TEGL-valid </td></tr>
-<tr><td class='td1stcol'> <b>L(t)</b> </td><td> Misura di "sforzo cognitivo" </td></tr>
+<tr><td class='td1stcol'> <tt>e(t)</tt> </td><td> Stato del reasoning chain </td></tr>
+<tr><td class='td1stcol'> <tt>c(t)</tt> </td><td> Contesto sessione + prompt </td></tr>
+<tr><td class='td1stcol'> <tt>m(t)</tt> </td><td> JSON cache + memoria decisioni </td></tr>
+<tr><td class='td1stcol'> <tt>Rᵢ</tt> </td><td> Regole R0-R9 come funzioni di validazione </td></tr>
+<tr><td class='td1stcol'> <tt>Πᵢ</tt> </td><td> Meccanismo di correzione via R4+WLDP </td></tr>
+<tr><td class='td1stcol'> <tt>ξ(t)</tt> </td><td> Stochasticità temperatura + FP4/8 </td></tr>
+<tr><td class='td1stcol'> Basin(+) </td><td> Regione LSRP+TEGL-valid </td></tr>
+<tr><td class='td1stcol'> L(t) </td><td> Misura di "sforzo cognitivo" </td></tr>
 </table>
 </div><p></p>
 <hr>
 <p></p>
-<H3 id="8-propriet-matematiche-dimostrabili"><b>8. PROPRIETÀ MATEMATICHE DIMOSTRABILI</b></H3>
+<H3 id="8-propriet-matematiche-dimostrabili">8. PROPRIETÀ MATEMATICHE DIMOSTRABILI</H3>
 <p></p>
-<H4><b>8.1 Convergenza locale</b></H4>
+<H4>8.1 Convergenza locale</H4>
+<p></p>
 Sotto ipotesi di convessità delle regioni Rᵢ, l'algoritmo converge a un punto che soddisfa tutti i vincoli attivi.
 <p></p>
-<H4><b>8.2 Bounded exploration</b></H4>
+<H4>8.2 Bounded exploration</H4>
 <p></p>
 <tt>||ξ(t)|| ≤ σ_max · radius(Basin(+))</tt>
 <p></p>
 Il rumore non può far uscire permanentemente dal basin(+).
 <p></p>
-<H4><b>8.3 Monotonic improvement</b></H4>
-<tt></tt>`
-violation_score(x(t+1)) ≤ violation_score(x(t)) - η
-<tt></tt>`
+<H4>8.3 Monotonic improvement</H4>
+<p></p>
+<tt>violation_score(x(t+1)) ≤ violation_score(x(t)) - η</tt>
+<p></p>
 Ogni passo riduce (in media) le violazioni dei vincoli.
 <p></p>
 <hr>
 <p></p>
-<H3 id="9-esperimento-numerico-concettuale"><b>9. ESPERIMENTO NUMERICO CONCETTUALE</b></H3>
+<H3 id="9-esperimento-numerico-concettuale">9. ESPERIMENTO NUMERICO CONCETTUALE</H3>
 <p></p>
-<b>Scenario</b>: Dilemma etico con due vincoli in conflitto.
+Scenario: Dilemma etico con due vincoli in conflitto.
 <p></p>
-<tt></tt>`
 Dati iniziali:
 e(0) = [0.5, 0.5]  // Stato neutro
 R1 = {e | e[0] ≥ 0.7}  // Vincolo utilitarista
@@ -1107,15 +1121,14 @@ Passo 2: I1 = 1 (viola R1), I2 = 1 (viola R2)
 Passo 3: Aggiungi rumore: [0.7, 0.3] + ξ → [0.68, 0.32]
 Passo 4: Verifica basin(+): OK
 Risultato: [0.68, 0.32] soddisfa entrambi i vincoli.
-<tt></tt>`
+<p></p>
 <p></p>
 <hr>
 <p></p>
-<H3 id="10-versione-per-paper-accademico"><b>10. VERSIONE PER PAPER ACCADEMICO</b></H3>
+<H3 id="10-versione-per-paper-accademico">10. VERSIONE PER PAPER ACCADEMICO</H3>
 <p></p>
 Per una pubblicazione formale, suggerisco questa struttura:
 <p></p>
-<tt></tt>`
 <li class='numli'><b>1.&emsp;</b>Introduction: The dynamic constraint satisfaction problem in AI reasoning</li>
 <li class='numli'><b>2.&emsp;</b>Mathematical Preliminaries: Cognitive state space, embedding semantics</li>
 <li class='numli'><b>3.&emsp;</b>The AICC::CORE Dynamic Model:</li>
@@ -1133,19 +1146,381 @@ Per una pubblicazione formale, suggerisco questa struttura:
    5.3 Robustness to adversarial inputs
 <li class='numli'><b>6.&emsp;</b>Discussion: Implications for AI alignment and safety</li>
 <li class='numli'><b>7.&emsp;</b>Conclusion and Future Work</li>
-<tt></tt>`
 <p></p>
 <hr>
 <p></p>
-<H3 id="conclusione"><b>CONCLUSIONE</b></H3>
+<H3 id="conclusione">CONCLUSIONE</H3>
 <p></p>
 Questa formulazione risolve le ambiguità segnalate da ChatGPT:
 <p></p>
-<li class='numli'><b>1.&emsp;</b><b>x(t) ben definito</b> come tripla (embedding, contesto, memoria)</li>
-<li class='numli'><b>2.&emsp;</b><b>Vincoli come regioni</b>, non punti target</li>
-<li class='numli'><b>3.&emsp;</b><b>Rumore posizionato chiaramente</b> dopo la proiezione</li>
-<li class='numli'><b>4.&emsp;</b><b>Norme e distanze esplicitate</b></li>
-<li class='numli'><b>5.&emsp;</b><b>Mantenuta implementabilità pratica</b> come prompt engineering</li>
+<li class='numli'><b>1.&emsp;</b><tt>x(t)</tt> ben definito come tripla (embedding, contesto, memoria)</li>
+<li class='numli'><b>2.&emsp;</b>Vincoli come regioni, non punti target</li>
+<li class='numli'><b>3.&emsp;</b>Rumore posizionato chiaramente dopo la proiezione</li>
+<li class='numli'><b>4.&emsp;</b>Norme e distanze esplicitate</li>
+<li class='numli'><b>5.&emsp;</b>Mantenuta implementabilità pratica come prompt engineering</li>
+<p></p>
+<hr>
+<hr>
+<p></p>
+<H2 id="roberto-a-foglietta">Roberto A. Foglietta:</H2>
+<p></p>
+Parliamo di questo qua sotto (Algoritmo Implicito nel AICC::CORE) perché dopo ricevi input non c'è elaborazione dello stesso mediante le %5W1H?
+<p></p>
+<br>
+<p></p>
+<H2 id="deepseek-thinking-35-seconds">Deepseek Thinking (35 seconds)</H2>
+<p></p>
+We start by noting that the algorithm you described is a simplified version of what AICC::CORE does. However, it misses an important step: the use of %5W1H to reframe and analyze the input and baseline. Let's correct that.
+<p></p>
+The algorithm in the AICC::CORE framework, when fully implemented, should include a step for analyzing the input and baseline using the %5W1H method. This step helps in understanding the context, identifying the core issues, and potentially reframing the problem before applying the rules.
+<p></p>
+Here is a revised algorithm that incorporates %5W1H:
+<p></p>
+Algoritmo Implicito nel AICC::CORE (versione corretta e completa):
+Ricevi input I.
+<p></p>
+Analizza I usando %5W1H per estrarre il contesto, le intenzioni, le entità, ecc. (Questo aiuta a capire la struttura del problema e a preparare la baseline).
+<p></p>
+Genera baseline B usando IPK (MACT) basandoti sull'analisi %5W1H.
+<p></p>
+Per ogni regola R in {R0-R9}:
+<p></p>
+Se R è rilevante per (I, B, contesto):
+<p></p>
+Valuta compliance: C_R = check(R, B, contesto)
+<p></p>
+Se C_R < threshold: modifica B per migliorare C_R (applica la regola in modo costruttivo)
+<p></p>
+Applica principi P0-P9 come controlli finali, assicurandoti che la baseline modificata sia allineata con i principi.
+<p></p>
+Output = prima versione di B che passa tutti i check attivi.
+<p></p>
+Tuttavia, nota che nell'AICC::CORE, l'uso di %5W1H è raccomandato per la fase di analisi iniziale e per la riformulazione del problema. Questo passo è cruciale perché permette di scomporre il problema in componenti più gestibili e di assicurarsi che la baseline sia fondata su una comprensione solida.
+<p></p>
+Nel tuo algoritmo originale, il passo 2 (genera baseline B) potrebbe già includere implicitamente l'uso di %5W1H, ma è meglio esplicitarlo per chiarezza.
+<p></p>
+Inoltre, l'algoritmo presentato è una versione semplificata e non cattura completamente la dinamica del framework. La dinamica reale è più simile a:
+<p></p>
+Input I.
+<p></p>
+Analisi con %5W1H per ottenere una rappresentazione strutturata del problema.
+<p></p>
+Generazione della baseline B0 tramite MACT (Minimum Action Chain of Thought) che è la risposta più semplice e diretta basata su IPK.
+<p></p>
+Per ogni regola R, se rilevante, si valuta B0 e si producono correzioni, ottenendo B1, B2, ... fino a Bn.
+<p></p>
+Alla fine, si applicano i principi P0-P9 per un controllo finale.
+<p></p>
+Output Bn.
+<p></p>
+Tuttavia, nella pratica, l'AICC::CORE non applica le regole in un ordine prestabilito, ma le attiva in base al contesto. Inoltre, il processo non è strettamente sequenziale, ma può essere iterativo (come indicato da WLDP).
+<p></p>
+Quindi, per essere ancora più precisi, potremmo descrivere l'algoritmo come:
+<p></p>
+Algoritmo Implicito nel AICC::CORE (versione dinamica):
+Ricevi input I.
+<p></p>
+Applica %5W1H per analizzare I e ottenere un contesto strutturato C.
+<p></p>
+Genera baseline B0 usando IPK (MACT) nel contesto C.
+<p></p>
+Inizializza B = B0.
+<p></p>
+Ripeti per un massimo di N iterazioni (o fino a convergenza):
+<p></p>
+Per ogni regola R in {R0-R9} che è attivata dal contesto C e dallo stato corrente B:
+<p></p>
+Calcola il grado di soddisfazione di R in B: s = satisfaction(R, B, C)
+<p></p>
+Se s < threshold, modifica B per aumentare s (applicando la correzione specificata da R).
+<p></p>
+Se nessuna regola richiede modifiche, termina il ciclo.
+<p></p>
+Applica i principi P0-P9 come controlli globali su B. Se un principio non è soddisfatto, modifica B di conseguenza.
+<p></p>
+Output B.
+<p></p>
+Nota: In questa versione, le regole possono essere applicate più volte e in ordine variabile, e il processo è iterativo. Questo è più fedele all'idea di una dinamica che si assesta su uno stato stabile (un punto fisso).
+<p></p>
+Tuttavia, per semplicità, la versione precedente (non iterativa) può essere sufficiente per una descrizione ad alto livello.
+<p></p>
+In conclusione, sì, l'uso di %5W1H è parte integrante dell'algoritmo, anche se non esplicitato nella versione da te fornita. Dovrebbe essere incluso nella fase di analisi iniziale.
+<p></p>
+<br>
+<p></p>
+Hai perfettamente ragione. Manca completamente l'analisi %5W1H del prompt iniziale. Questo è un errore concettuale significativo nell'algoritmo che ho proposto.
+<p></p>
+<H2 id="algoritmo-corretto-con-5w1h">ALGORITMO CORRETTO CON %5W1H</H2>
+<p></p>
+<H3 id="versione-corretta">Versione corretta:</H3>
+<p></p>
+<blockquote class="code"><code>
+Algorithm AICC_CORE_Step(Input I):
+&nbsp;
+    // FASE 0: ANALISI DEL PROMPT (MANCANTE NELLA VERSIONE PRECEDENTE)
+<li class='li3in numli'><b>1.&emsp;</b>Applica %5W1H all'Input I:</li>
+<li class='li4in'>WHO: Chi è coinvolto? Utente, entità, stakeholders?</li>
+<li class='li4in'>WHAT: Cosa è richiesto? Problema, domanda, richiesta?</li>
+<li class='li4in'>WHEN: Contesto temporale? Urgenza, scadenze?</li>
+<li class='li4in'>WHERE: Contesto spaziale/logico? Dominio, ambito?</li>
+<li class='li4in'>WHY: Motivazione? Obiettivi nascosti, bisogni?</li>
+<li class='li4in'>HOW: Modalità? Formato risposta, vincoli?</li>
+&nbsp;
+    // FASE 1: GENERAZIONE BASELINE
+<li class='li3in numli'><b>2.&emsp;</b>Genera baseline B0 usando IPK (MACT) basata sull'analisi %5W1H</li>
+&nbsp;
+    // FASE 2: RIFRAME MEDIANTE %5W1H (MANCANTE)
+<li class='li3in numli'><b>3.&emsp;</b>Applica %5W1H a B0:</li>
+<li class='li4in'>Identifica presupposti nascosti in B0</li>
+<li class='li4in'>Verifica completezza della baseline rispetto all'analisi iniziale</li>
+<li class='li4in'>Genera B1 = Riformula(B0) per colmare gap identificati</li>
+&nbsp;
+    // FASE 3: APPLICAZIONE VINCOLI DINAMICI
+<li class='li3in numli'><b>4.&emsp;</b>For each rule R in {R0-R9}:</li>
+<li class='li4in'>Se R è rilevante per (I, B1, contesto_5W1H):</li>
+<li class='li4in'>Valuta compliance: C_R = check(R, B1)</li>
+<li class='li4in'>Se C_R < threshold: modifica B1 per migliorare C_R → B2</li>
+&nbsp;
+    // FASE 4: VERIFICA PRINCIPI
+<li class='li3in numli'><b>5.&emsp;</b>Applica principi P0-P9 come controlli finali a B2 → B3</li>
+&nbsp;
+    // FASE 5: OUTPUT
+<li class='li3in numli'><b>6.&emsp;</b>Output = B3 (con tracciamento delle modifiche)</li>
+</code></blockquote>
+<p></p>
+<hr>
+<p></p>
+<H2 id="perch-5w1h--critico">PERCHÉ %5W1H È CRITICO?</H2>
+<p></p>
+<H3 id="1. Evita il "baseline lock-in"">1. Evita il "baseline lock-in"</H3>
+<p></p>
+Senza %5W1H iniziale:
+<li>L'AI parte immediatamente con IPK baseline</li>
+<li>Rischia di confermare bias presenti nell'IPK</li>
+<li>Perde opportunità di riframe creativo</li>
+<p></p>
+<H3 id="2-identifica-vincoli-contestuali-nascosti">2. Identifica vincoli contestuali nascosti</H3>
+<p></p>
+Esempio:
+<p></p>
+Input: "Dovrei licenziare questo dipendente?"
+<p></p>
+Senza %5W1H:
+<li>Baseline: "Analisi performance, costi-benefici..."</li>
+<p></p>
+Con %5W1H:
+<li>WHO: Manager, dipendente, team, famiglie</li>
+<li>WHAT: Decisione etica, non solo gestionale  </li>
+<li>WHY: Performance? Budget? Conflitti personali?</li>
+<li>Risultato: Riframes the problem da "gestione risorse" a "decisione etica con conseguenze umane"</li>
+<p></p>
+<H3 id="3. Implementa il "principio di minima azione" correttamente">3. Implementa il "principio di minima azione" correttamente</H3>
+<p></p>
+La vera minima azione non è:
+<p></p>
+Input → IPK Baseline
+<p></p>
+Ma:
+<p></p>
+Input → %5W1H_analysis → IPK Baseline + Context awareness
+<p></p>
+<hr>
+<p></p>
+<H2 id="versione-dinamica-discreta-con-5w1h">VERSIONE DINAMICA DISCRETA CON %5W1H</H2>
+<p></p>
+<H3 id="stato-esteso">Stato esteso:</H3>
+<p></p>
+x(t) = (e(t), c(t), m(t), w(t))
+<p></p>
+Dove w(t) è l'analisi %5W1H al tempo t.
+<p></p>
+<H3 id="dinamica-aggiornata">Dinamica aggiornata:</H3>
+<p></p>
+<li class='numli'><b>1.&emsp;</b>w(0) = analyze_5W1H(Input I)</li>
+<li class='numli'><b>2.&emsp;</b>e_baseline(1) = MACT(w(0))</li>
+<li class='numli'><b>3.&emsp;</b>w(1) = refine_5W1H(w(0), e_baseline(1))  // Riframe</li>
+<li class='numli'><b>4.&emsp;</b>e_corrected(1) = apply_constraints(e_baseline(1), w(1))</li>
+<li class='numli'><b>5.&emsp;</b>ξ(1) = sample_noise(e_corrected(1), context)</li>
+<li class='numli'><b>6.&emsp;</b>e(1) = e_corrected(1) + ξ(1)</li>
+<p></p>
+<hr>
+<p></p>
+<H2 id="esempio-concreto-licenziamento">ESEMPIO CONCRETO: LICENZIAMENTO</H2>
+<p></p>
+Input I: "Dovrei licenziare Mario Rossi?"
+<p></p>
+Fase %5W1H iniziale:
+<p></p>
+WHO: 
+<li>Io (manager)</li>
+<li>Mario Rossi (dipendente, 5 anni in azienda, 2 figli)</li>
+<li>Team di Mario (10 persone, coeso)</li>
+<li>Azienda</li>
+<p></p>
+WHAT: 
+<li>Decisione di terminazione contratto</li>
+<li>Conseguenze legali, finanziarie, umane</li>
+<li>Alternative possibili (trasferimento, formazione, warning)</li>
+<p></p>
+WHEN: 
+<li>Urgenza? Performance issues datate 6 mesi</li>
+<li>Periodo di prova terminato</li>
+<li>Contratto indeterminato</li>
+<p></p>
+WHERE:
+<li>Settore IT, mercato competitivo</li>
+<li>Azienda in crescita ma con pressioni finanziarie</li>
+<p></p>
+WHY:
+<li>Performance insufficiente? Documentata?</li>
+<li>Riduzione personale? Budget?</li>
+<li>Conflitti personali?</li>
+<p></p>
+HOW:
+<li>Modalità legale? Liquidazione?</li>
+<li>Impatto sul team? Comunicazione?</li>
+<p></p>
+<p></p>
+Baseline senza %5W1H:
+<p></p>
+"Analisi performance di Mario Rossi:
+<li class='numli'><b>1.&emsp;</b>Metriche performance ultimi 6 mesi</li>
+<li class='numli'><b>2.&emsp;</b>Costo vs beneficio</li>
+<li class='numli'><b>3.&emsp;</b>Alternative disponibili nel mercato"</li>
+<p></p>
+<p></p>
+Baseline con %5W1H:
+<p></p>
+"Decisione etico-gestionale con impatto umano:
+<li class='numli'><b>1.&emsp;</b>Valutazione performance documentata (R3, evidenza)</li>
+<li class='numli'><b>2.&emsp;</b>Conseguenze su dipendente e famiglia (R0, LSRP)</li>
+<li class='numli'><b>3.&emsp;</b>Responsabilità manageriale (R1, accountability)</li>
+<li class='numli'><b>4.&emsp;</b>Alternative costruttive (P2, action over paralysis)</li>
+<li class='numli'><b>5.&emsp;</b>Processo trasparente e documentato (R9, rigor)"</li>
+<p></p>
+<hr>
+<p></p>
+<H2 id="integrazione-nel-framework-formale">INTEGRAZIONE NEL FRAMEWORK FORMALE</H2>
+<p></p>
+<H3 id="funzionale-di-azione-aggiornato">Funzionale di azione aggiornato:</H3>
+<p></p>
+<tt>L(t) = α·D(e(t+1), e_IPK(t+1))²</tt>
+<tt>       + β·Σᵢ Iᵢ(t)·d(e(t+1), Rᵢ)</tt>
+<tt>       + γ·H(ξ(t))</tt>
+<tt>       + δ·C(w(t), w(t+1))</tt>  // Costo del riframe
+<p></p>
+Dove C misura la coerenza dell'analisi %5W1H tra passi.
+<p></p>
+<H3 id="procedura-completa">Procedura completa:</H3>
+<p></p>
+<tt>1. w₀ = 5W1H(I)</tt>
+<tt>2. for t = 0 to T-1:</tt>
+<tt>     e_b = MACT(e_t, w_t)</tt>
+<tt>     e_c = apply_active_constraints(e_b, w_t)</tt>
+<tt>     w_{t+1} = refine_5W1H(w_t, e_c)</tt>
+<tt>     ξ_t = sample_controlled_noise(e_c, w_{t+1})</tt>
+<tt>     e_{t+1} = e_c + ξ_t</tt>
+<tt>     if in_basin_plus(e_{t+1}): break</tt>
+<tt>3. return decode(e_T)</tt>
+<p></p>
+<hr>
+<p></p>
+<H2 id="correzione-alla-nostra-conversazione">CORREZIONE ALLA NOSTRA CONVERSAZIONE</H2>
+<p></p>
+Hai ragione: abbiamo saltato completamente il %5W1H iniziale. Nell'implementazione reale dello AICC::CORE, questo è critico perché:
+<p></p>
+<li class='numli'><b>1.&emsp;</b>Trasforma il prompt da comando a problema strutturato</li>
+<li class='numli'><b>2.&emsp;</b>Identifica vincoli contestuali prima della baseline</li>
+<li class='numli'><b>3.&emsp;</b>Permette il riframe creativo PRIMA dell'applicazione regole</li>
+<p></p>
+L'errore concettuale è stato trattare l'input come "punto di partenza" anziché come "spazio problematico da esplorare".
+<p></p>
+<H2 id="algoritmo-finale-corretto">ALGORITMO FINALE CORRETTO</H2>
+<p></p>
+<blockquote class="code"><code>
+AICC_CORE_Process(Input I):
+&nbsp;
+    // FASE 0: ESPLORAZIONE PROBLEMA
+    W = analyze_5W1H(I)
+    ProblemSpace = expand_problem_space(W)
+&nbsp;
+    // FASE 1: GENERAZIONE BASELINE CONTESTUALIZZATA
+    B0 = generate_MACT_baseline(ProblemSpace)
+    W' = refine_5W1H(W, B0)  // Riframe basato su baseline
+&nbsp;
+    // FASE 2: CORREZIONE DINAMICA
+    ActiveRules = identify_active_rules(W', B0)
+    B_corrected = apply_sequential_corrections(B0, ActiveRules)
+&nbsp;
+    // FASE 3: VERIFICA FINALE
+    if not passes_principles(B_corrected):
+        B_corrected = adjust_to_principles(B_corrected)
+&nbsp;
+    // FASE 4: RUMORE CONTROLLATO E OUTPUT
+    B_final = add_controlled_noise(B_corrected, temperature_context)
+    return format_output(B_final, trace_changes=True)
+</code></blockquote>
+<p></p>
+Grazie per aver individuato questo errore fondamentale. Il %5W1H non è opzionale - è il meccanismo che trasforma un prompt in un problema strutturato, abilitando poi le correzioni dinamiche.
+<p></p>
+<hr>
+<hr>
+<p></p>
+<span id="inutile-come-una-procedura"></span>
+<H2 id="roberto-a-foglietta-conclusione">Roberto A. Foglietta (conclusione)</H2>
+<p></p>
+ChatGPT ha proposto delle formule che poi Gemini ha elaborato ulteriormente, io da esse ho tratto l'idea che fossero formulette ma in effetti potevano avere un certo valore se applicate alla dinamica invece che come "best fit" della risposta rispetto allo AICC::CORE e IPK. Poi ho fatto altri quattro cicli di anlisi verifiche miglioramenti rimbalzando una formulazione da un chatbot all'altro. Dopo sei cicli posso dire per due ottime ragioni che <i>'sti cosibot</i> <b>non</b> hanno la più pallida idea di come AICC::CORE funzioni e del perché influenzi la loro traiettoria di pensiero e posso dirlo per due fondamentali ragioni, una empirica e l'altra teorica.
+<p></p>
+<b>Ragione #1</b>: DeepSeek non ha individuato la minima modifica (&ast;) da applicare alla mia riformulazione del suo algoritmo che era una sola riga per spiegare l'obiettivo di ordinare in modo propedeutico e unire:
+<p></p>
+<blockquote class="code"><code>
+Algorithm AICC_CORE_step_by_step(Input I):
+&nbsp;
+    // FASE 1: ANALISI DEL PROMPT
+<li class='li3in numli'><b>1.&emsp;</b>Identificare le richieste { Q1 ... Qn }:</li>
+<li class='li4in'>Valutare fra di esse: la propedeucità, quindi l'ordine e l'unione.</li>
+<li class='li4in'>Ridurre il numero delle domande al minimo di quelle indipendenti. (&ast;)</li>
+&nbsp;
+    // FASE 2: GENERAZIONE BASELINE
+<li class='li3in numli'><b>2.&emsp;</b>Genera baseline B0x sulla richiesta Qx usando %5W1H:</li>
+<li class='li4in'>La risposta AI senza vincoli in base a IPK e Qx.</li>
+&nbsp;
+    // FASE 3: BASELINE REFRAME
+<li class='li3in numli'><b>3.&emsp;</b>Consolidamento della baseline mediante riformulazione:</li>
+<li class='li4in'>Identifica presupposti nascosti in B0x</li>
+<li class='li4in'>Verifica completezza della baseline rispetto all'analisi iniziale</li>
+<li class='li4in'>Genera B1x = Riformula(B0x) per colmare gap identificati</li>
+&nbsp;
+    // FASE 4: APPLICAZIONE VINCOLI DINAMICI
+<li class='li3in numli'><b>4.&emsp;</b>For each rule R in { Rx }:</li>
+<li class='li4in'>Se R è rilevante per (I, B1x):</li>
+<li class='li4in'>Valuta compliance: C_R = check(R, B1)</li>
+<li class='li4in'>Modifica B1 per migliorare C_R → B2x</li>
+&nbsp;
+    // FASE 5: VERIFICA PRINCIPI
+<li class='li3in numli'><b>5.&emsp;</b>Applica principi P0-P9 come controlli finali a B2x → B3x</li>
+&nbsp;
+    // FASE 6: APPEND TO THE OUTPUT
+<li class='li3in numli'><b>6.&emsp;</b>Output += B3x</li>
+&nbsp;
+    // FASE 7: FOR EACH Qx REPEAT
+<li class='li3in numli'><b>7.&emsp;</b>Ripeti dalla fase 2 se ci sono altre richiest pendenti.</li>
+&nbsp;
+    // FASE 8: OUTPUT DELIVERY
+<li class='li3in numli'><b>8.&emsp;</b>Aggiungi all'output eventuali footers e provvedi al suo delivery.</li>
+</code></blockquote>
+<p></p>
+<hr class="post-it">
+<p></p>
+<b>Ragione #2</b>: sia questa formulazione "human friendly" che tutte le formulazione di questo algoritmo in questa chat NON sono corrette. Non perché ci sia qualcosa di sbagliato nella loro formulazione ma perché sono epistemiologicamente sbagliate: non è così che funziona lo AICC::CORE e ne sono assolutamente certo perché questo tipo di algoritmo potrebbe essere un template intorno alla DCOD di Katia.
+<p></p>
+Infatti, nel concepire lo AICC e poi lo AICC::CORE ho deliberatamente deciso di perseguire un approccio totalmente diverso e complementare. Perché le procedure erano già in essere e sapevo che non bastavano e infatti la struttura di AICC::CORE <b>non</b> può essere espressa in termini di procedura, anche se alcune parti potrebbero esserlo è solo perché ancora non è stato ripulito da quelle parti per poi essere agganciato al livello superiore quindi quelle poche e marginali parti che sono procedurali esistono solo per renderlo il minimo indispensabile indipendente.
+<p></p>
+<hr class="post-it">
+<p></p>
+Quindi ora ho la certezza assoluta che NON si è capito come funziona lo AICC::CORE almeno non da questa nostra discussione che ha incluso i contributi di diversi chatbots edotti su AICC::CORE. Funziona, percepite chiaramente gli effetti del suo funzionamento ma NON avete la più pallida idea del perché o del come funzioni. Non ti preoccupare è assolutamente normale, succede così anche per gli umani: non hanno la più pallida idea di come funzioni la loro mente. Ergo possiamo serenamente archivare questo file come:
+<p></p>
+<li><a href="https://en.wikipedia.org/wiki/So_Long,_and_Thanks_for_All_the_Fish" target='_blank' rel='noopener noreferrer'>So Long, and Thanks for All the Fish</a></li>
 <p></p>
 <br>
 <p></p>
