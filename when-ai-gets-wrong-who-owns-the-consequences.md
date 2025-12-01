@@ -379,7 +379,16 @@ Considering that AICC should support Katia AI multi-agentic multi-mode framework
 
 Anyway, there is a **main** difference between the two models/approaches: math should be validated for each passage. AICC not. However, splitting a problem in many sequential propaedeutic steps (questions) and the single math passage falls into AICC architecture. Apart the different verbal-vs-math strictness in checking conceptual-semantic relationships. For this reason the validation is strictly limited to the **approach** (governance of agency), while other aspects should be checked by a deeper inspection and comparison.
 
-+++++
+++++
+#### Bonus μ-Paper 
+
+Ha sicuramente ragione Lei che non ci ho capito una fava di MR, ma quando si tratta di approssimazioni sono un genio di ultima istanza! {:-)}
+
+- [Meccanica Razionale dell'Intelligenza Artificiale](data/meccanica-razionale-delle-ai-moderne.txt#?target=_blank) &nbsp; (2025-01-01)
+
+Fortuna vuole che le AI moderne siano tutto tranne precisione nei calcoli, anzi il rumore se non lo avessero, ce lo dovremmo mettere, infatti!
+
++
 
 ## Related articles
 
