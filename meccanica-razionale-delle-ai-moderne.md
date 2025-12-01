@@ -338,7 +338,7 @@ where u(t) is the step (control) chosen from a set of possible steps U.
 
 We want to minimize:
 
-J(u) = || u - u_baseline ||^2 [minimum deviation from baseline]
+`J(u) = || u - u_baseline ||^2 [minimum deviation from baseline]`
 
 subject to:
 
@@ -358,7 +358,7 @@ Since we are in a discrete setting and the AI is choosing the next token or thou
 
 Choose the next step u that minimizes:
 
-L(u) = || u - u_baseline ||^2 + λ * Σ_i violation(R_i, x(t), u) + μ * Σ_j violation(P_j, x(t), u)
+`L(u) = || u - u_baseline ||^2 + λ * Σ_i violation(R_i, x(t), u) + μ * Σ_j violation(P_j, x(t), u)`
 
 subject to: x(t)+u is in the basin (+).
 
@@ -460,7 +460,7 @@ We can define a penalty function for each constraint and then the projection is 
 Alternatively, the projection can be thought of as:
 
 text
-  Proj_{C(x(t))}(u) = argmin_{v in C(x(t))} ||v - u||^2
+`  Proj_{C(x(t))}(u) = argmin_{v in C(x(t))} ||v - u||^2`
 where C(x(t)) = { v : R_i(x(t), v) is satisfied for all active rules, and P_j(x(t), v) is satisfied for all active principles }.
 
 However, note that the constraints might be on the next state, so:
@@ -635,7 +635,7 @@ x(t) = Encode(StatoConcettuale(t))
 ### **2. DEFINIZIONE DI V_baseline**
 
 ```
-V_baseline(x) = -log P(x | IPK, Contesto)
+`V_baseline(x) = -log P(x | IPK, Contesto)`
 ```
 Dove:
 - **P(x | IPK, Contesto)**: Probabilità dello stato x dato la Conoscenza Parametrica Interna e il contesto attuale
@@ -954,9 +954,9 @@ B_l = { e | e ∈ Basin_l }
 ```
 
 #### **3.2 Operatore di proiezione**
-```
-Π_k(e) = argmin_{e' ∈ R_k} ||e' - e||²
-```
+
+`Π_k(e) = argmin_{e' ∈ R_k} ||e' - e||²`
+
 Implementazione approssimata per LLM: correzione incrementale.
 
 ---
@@ -1052,9 +1052,9 @@ Algorithm AICC_Step(x(t), context):
 Sotto ipotesi di convessità delle regioni Rᵢ, l'algoritmo converge a un punto che soddisfa tutti i vincoli attivi.
 
 #### **8.2 Bounded exploration**
-```
-||ξ(t)|| ≤ σ_max · radius(Basin(+))
-```
+
+`||ξ(t)|| ≤ σ_max · radius(Basin(+))`
+
 Il rumore non può far uscire permanentemente dal basin(+).
 
 #### **8.3 Monotonic improvement**
