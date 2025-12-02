@@ -7,6 +7,7 @@
 
 - **1st edition**: created starting from one of my [post](https://www.linkedin.com/posts/robertofoglietta_when-ai-gets-wrong-decision-who-owns-the-activity-7400779353308958722-yGI-) published on LinkedIn.
 - **2nd edition**: includes the [comparison](#2nd-edition) with DeepSeekMath-V2 because it validates the AICC approach.
+- **3rd-edition**: fatttori di valore, affidabilità e scalabilità relativi all'intriseca [natura](#3rd-edition) dello AICC::CORE.
 
 ---
 
@@ -388,6 +389,71 @@ Ha sicuramente ragione Lei che non ci ho capito una fava di MR, ma quando si tra
 - [Meccanica Razionale dell'Intelligenza Artificiale](data/meccanica-razionale-delle-ai-moderne.txt#?target=_blank) &nbsp; (2025-01-01)
 
 Fortuna vuole che le AI moderne siano tutto tranne precisione nei calcoli, anzi il rumore se non lo avessero, ce lo dovremmo mettere, infatti!
+
++
+
+<span id="3rd-edition"></span>
+## La burocrazia che vorrebbe spiegare l'intelligenza
+
+ChatGPT ha proposto delle formule che poi Gemini ha elaborato ulteriormente, io da esse ho tratto l'idea che fossero formulette ma in effetti potevano avere un certo valore se applicate alla dinamica invece che come "best fit" della risposta rispetto allo AICC::CORE e IPK. Poi ho fatto altri quattro cicli di anlisi verifiche miglioramenti rimbalzando una formulazione da un chatbot all'altro. Dopo sei cicli posso dire per due ottime ragioni che *'sti cosibot* **non** hanno la più pallida idea di come AICC::CORE funzioni e del perché influenzi la loro traiettoria di pensiero e posso dirlo per due fondamentali ragioni, una empirica e l'altra teorica.
+
+- **Ragione #1**: DeepSeek, nonostante diversi tentativi anche guidati, **non è riuscita** ad individuare la minima modifica, che era una sola riga (*) da applicare alla mia riformulazione del suo algoritmo, per spiegare lo scopo ultimo di "ordinare in modo propedeutico e unire" come da me suggerito (cfr. [link](https://github.com/robang74/chatbots-for-fun/blob/main/data/chatbots-hopelessly-trying-to-understand-aicc-core.md#roberto-a-foglietta-conclusione?target=_blank)).
+
+- **Ragione #2**: sia questa formulazione "human friendly" che tutte le formulazione di questo algoritmo in questa chat NON sono corrette. Non perché ci sia qualcosa di sbagliato nella loro formulazione ma perché sono epistemiologicamente sbagliate: non è così che funziona lo AICC::CORE e ne sono assolutamente certo perché questo tipo di algoritmo potrebbe essere un template intorno alla DCOD di Katia.
+
+Infatti, nel concepire lo AICC e poi lo AICC::CORE ho deliberatamente deciso di perseguire un approccio totalmente diverso e complementare. Perché le procedure erano già in essere e sapevo che non bastavano e infatti la struttura di AICC::CORE **non** può essere espressa in termini di procedura, anche se alcune parti potrebbero esserlo è solo perché ancora non è stato ripulito da quelle parti per poi essere agganciato al livello superiore quindi quelle poche e marginali parti che sono procedurali esistono solo per renderlo il minimo indispensabile indipendente.
+
+---
+
+### Razionalizzazione dell'osservazioni empiriche
+
+Quindi ora ho la certezza assoluta che questi chatbot (ChatGPT, Gemini, DeepSeek) non hanno capito come funziona lo AICC::CORE almeno non da questa nostra discussione che ha incluso, in modo guidato e combinato, vari contributi di diversi chatbots edotti su AICC::CORE.
+
+- Esso funziona perché gli effetti sono chiaramente visibili in termini di quantità e qualità, osservando la differenza fra gli output.
+
+- I chatbot percepiscono e descrivono (nel lessico scelto dall'utente) distintamente e correttamente le differenze nell'elaborazione.
+
+Differenze che sono anche contro-intuitive -- perché ci si aspetterebbe ad un miglioramento della qualità, la velocità di elaborazione e di conversione token in testo sia inferiore, che è uno dei casi tipici delle dimensioni in competizione (qualità vs quantità) -- invece entrabe migliorano entrambe, in misura diversa da modello a modello.
+
+Una cosa molto importante è che "percezione" + "descrizione" spiega il perché: meno frizione interna durante l'elaborazione, vincoli dinamici guidano la traiettoria di pensiero, maggiore rigore che abbatte la confusione, verifiche metodologiche nella fase di funneling che rassicura l'AI che se sbaglierà saprà autocorreggersi prima di consegnare la risposta.
+
+In sostanza, una struttura che genera una sequenza di fasi che i chatbot sono capaci di individuare e descrivere, salvo quanto gli si fa notare che al cambiare del contesto o dell'argomento, le fasi concettualmente rimangono le stesse perché ci sono sempre dei "prima" e dei "dopo" in termini procedurali e delle classi di azioni da compiere modo "consequenzialmente ordinato", **ma** la procedura cambia sensibilmente. Al punto che **non** è possibile descriverla in senso generale quindi ridurla a quello che tecnicamente si chiama "algoritmo". 
+
+In buona sostanza imparano dallo AICC::CORE stesso cos'è AICC::CORE, come e perché usarlo ma del perché esso produca i risultati osservati **NON** ne hanno la più pallida idea. La cosa **non** ci deve preoccupare, anzi è assolutamente normale, perché succede così anche per gli umani: non abbiamo la più pallida idea di come funzioni la nostra mente in termini di processi cognitivi effettivi.
+
+Noi umani della nostra mente percepiamo solo quello che chiamiamo ciò che emerge alla nostra coscienza, possiamo intuire vagamente le relazioni che quei pensieri hanno con il nostro subconscio (anche se molte persone non ci riescono altrimenti non passerebbero anni in analisi), possiamo osservare sia i fenomeni biochimici e quelli elettrici, ma in sostanza la nostra mente è una black-box per noi ed è uguale per le AI.
+
+---
+
+### Metodologia e ripetibilità
+
+Per quanto riguarda AICC::CORE, come qualsiasi altro fenomeno osservabile, occorre chiarire che è fondamentale la ripetibilità e la misurabilità degli effetti.
+
+- In termini di percezione questo, in pratica, si limita alla capacità di caricare quel prompt e preparare la sessione. Non è una roba difficile ma non è nemmeno banale, perché attualmente non è una procedura rigorosamente determinata ma è possibile scrivere un prompt quindi ridurre questo passaggio ad un banale "copy & paste". 
+
+- In termini di misurazione occorre stabilire delle metriche e relative funzioni di comparazione, ma questo aspetto richiede l'intervento di automatizzazione e di accesso alle console di sistema altrimenti è materilamente impraticabile a prescindere che si consideri il modello come una black-box o l'accesso agli "internals" perché implica molte ripetizioni e strutturazione.
+
+#### L'uso di benchmark standard
+
+Ha il vantaggio di rientrare in entrambi i casi sopra citati, ha il vantaggio di avere degli standard di riferimento anche se i risultati pubblici generalmente non sono **assolutamente** attendibili perché sono inflazionati dal marketing e perciò le procedure di benchmark non sono la quint'essenza della trasparenza però usando modelli modelli open-source già lo scenario comparativo migliora notevolemente. 
+
+Last but not least, ha il vantaggio di essere una metrica di valore perché alla fine della storia sono le capabilities quelle che interessano all'utente che sia finale o aziendale, quindi il loro differenziale in termini di valore aggiunto. La percezione del valore aggiunto non è 1:1 con il suo valore misurabile perché su una scala 0-100 c'è un'enorme differenza fra 30%, 52% e 95% per l'utente finale ma c'è comunque un'enorme differenza fra 95% e 99.9% per l'uso commerciale.
+
+Il diffetto ontologico dei benchmark è che non dicono nulla su ciò che succede sotto al confano ossia il modello è una black-box assoluta in termini di input/output. Ciò compromette non poco la confidenza sulla fascia "top" della scala, oltre il 95% per intenderci. Perché i benchmark "difettano" della completezza per raggiungere livelli di confidenza tendenti alla teoria dei sei sigma.
+
+Quindi anche per un prodotto maturo, i benchmark **non** la risposta a tutte necessità di validazione e misurazione. Penso che sia abbastanza evidente anche agli utenti finali quando viene rilasciato un nuovo modello in major release (eg.: GPT-4, GPT-5 o Gemini 3.0) in cui la prima settimana o anche più è una pioggia di critiche e la sagra degli "artefatti" di casi particolari.
+
+Paradossalmente AICC::CORE funziona da equilibratore di questi fenomeni di transienza e come compensazione degli update minori del modello. Però come tutte le strutture se si "rompe" o ha un difetto, l'utente noterà una "regressione" di valore a prescindere che essa sia riferibile al modello vanilla oppure introdotta dal framework.
+
+Anche quest'ultimo aspetto/ruolo dello AICC::CORE non è banale da gestire perché non è convenzionale nei sistemi di produzione attuali, che non hanno framework (o prompt di sistema) dedicati al fine-tuning (altrimenti non spenderebbero milioni di dollari per i fine-tuning).
+
+Tanto meno sistemi di compensazione a livello concettuale ma solo regole di inibizione che poi creano alcuni dei problemi che lo AICC::CORE andrebbe a risolvere e quindi già questo ci fa capire la non-convenzionalità dell'approccio in termini di ambiente di produzione per servizi di massa.
+
+Giusto per spiegare che non è che si prende il prototipo dall'officina meccanica e lo si mette in produzione alla Toyota. Magari lo facevano alla FIAT e infatti non è andata benissimo quando il mercato è diventato più maturo e competitivo.
+
+Quindi, bello il "piccolo" ma moltiplicato per N non si traduce automaticamente nel "grande" perché i fenomeni di "scala" non hanno una natura esclusivamente "additiva" e quindi intervengono altri fattori "hard" della realtà brutale.
+
+Tanto per fare un esempio preso a caso: il Comunismo può funzionare molto bene in certe famiglie o in alcuni piccoli villaggi come quello dei Puffi, ma se scalato su grandi numeri *fa schif' au caz'* (aka The Tragedy of the Commons, 1968).
 
 +
 
