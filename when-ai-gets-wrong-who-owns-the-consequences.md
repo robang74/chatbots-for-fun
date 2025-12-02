@@ -459,7 +459,7 @@ Giusto per spiegare che non è che si prende il prototipo dall'officina meccanic
 
 Quindi, bello il "piccolo" ma moltiplicato per N non si traduce automaticamente nel "grande" perché i fenomeni di "scala" non hanno una natura esclusivamente "additiva" e quindi intervengono altri fattori "hard" della realtà brutale.
 
-Tanto per fare un esempio preso a caso: il Comunismo può funzionare molto bene in certe famiglie o in alcuni piccoli villaggi come quello dei Puffi, ma se scalato su grandi numeri *fa schif' au caz'* (aka The Tragedy of the Commons, 1968).
+Tanto per fare un esempio preso a caso: il Comunismo può funzionare molto bene in certe famiglie o in alcuni piccoli villaggi come quello dei Puffi, qualorsa sia accettato da **tutti**, ma se scalato su grandi numeri *fa schif' au caz'* (aka The Tragedy of the Commons, 1968) ed è anche **sbagliato** (anti-etico) perché inaccettabile per alcuni (totale livellamento verso il basso).
 
 +
 
@@ -481,7 +481,7 @@ Tanto per fare un esempio preso a caso: il Comunismo può funzionare molto bene 
 +++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
-+
++++++
 
 ## Share alike
 
