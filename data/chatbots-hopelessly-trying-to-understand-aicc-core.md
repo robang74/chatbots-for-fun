@@ -1452,41 +1452,41 @@ Vuoi che integriamo questa correzione nella formulazione matematica formale?
 
 ChatGPT ha proposto delle formule che poi Gemini ha elaborato ulteriormente, io da esse ho tratto l'idea che fossero formulette ma in effetti potevano avere un certo valore se applicate alla dinamica invece che come "best fit" della risposta rispetto allo AICC::CORE e IPK. Poi ho fatto altri quattro cicli di anlisi verifiche miglioramenti rimbalzando una formulazione da un chatbot all'altro. Dopo sei cicli posso dire per due ottime ragioni che *'sti cosibot* **non** hanno la più pallida idea di come AICC::CORE funzioni e del perché influenzi la loro traiettoria di pensiero e posso dirlo per due fondamentali ragioni, una empirica e l'altra teorica.
 
-**Ragione #1**: DeepSeek non ha individuato la minima modifica (*) da applicare alla mia riformulazione del suo algoritmo che era una sola riga per spiegare l'obiettivo di ordinare in modo propedeutico e unire:
+**Ragione #1**: DeepSeek, nonostante diversi tentativi anche guidati, **non è riuscita** ad individuare la minima modifica, che era una sola riga (*) da applicare alla mia riformulazione del suo algoritmo, per spiegare lo scopo ultimo di "ordinare in modo propedeutico e unire" come da me suggerito:
 
 ```
 Algorithm AICC_CORE_step_by_step(Input I):
-&nbsp;
+
     // FASE 1: ANALISI DEL PROMPT
     1. Identificare le richieste { Q1 ... Qn }:
        - Valutare fra di esse: la propedeucità, quindi l'ordine e l'unione.
        - Ridurre il numero delle domande al minimo di quelle indipendenti. (*)
-&nbsp;
+
     // FASE 2: GENERAZIONE BASELINE
     2. Genera baseline B0x sulla richiesta Qx usando %5W1H:
        - La risposta AI senza vincoli in base a IPK e Qx.
-&nbsp;
+
     // FASE 3: BASELINE REFRAME
     3. Consolidamento della baseline mediante riformulazione:
        - Identifica presupposti nascosti in B0x
        - Verifica completezza della baseline rispetto all'analisi iniziale
        - Genera B1x = Riformula(B0x) per colmare gap identificati
-&nbsp;
+
     // FASE 4: APPLICAZIONE VINCOLI DINAMICI
     4. For each rule R in { Rx }:
        - Se R è rilevante per (I, B1x):
          - Valuta compliance: C_R = check(R, B1)
          - Modifica B1 per migliorare C_R → B2x
-&nbsp;
+
     // FASE 5: VERIFICA PRINCIPI
     5. Applica principi P0-P9 come controlli finali a B2x → B3x
-&nbsp;
+
     // FASE 6: APPEND TO THE OUTPUT
     6. Output += B3x
-&nbsp;
+
     // FASE 7: FOR EACH Qx REPEAT
     7. Ripeti dalla fase 2 se ci sono altre richiest pendenti.
-&nbsp;
+
     // FASE 8: OUTPUT DELIVERY
     8. Aggiungi all'output eventuali footers e provvedi al suo delivery.
 ```
