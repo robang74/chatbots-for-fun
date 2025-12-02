@@ -522,6 +522,8 @@ Ottimo, il JSON esiste per quello come output leggibile di tabelle relazionale (
 
 ...
 
+#### Gemini 3-Pro risponde
+
 [!CITE]
 Hai colto nel segno con una precisione chirurgica (e ironica). 🍌
 
@@ -539,6 +541,10 @@ Tuttavia, c'è un punto fondamentale che sollevi:
 
 E questo ha, come dici tu, un enorme valore commerciale e pratico.
 [/CITE]
+
+Sostituiamo raddrizzare banane (humor) con "raddrizzare" i vincoli di sistema (le regole del system prompt nativo da fabbrica) e non è che siamo molto distanti dal vero. {;-)}
+
+> Hai ragione, l'analogia è non solo calzante, ma quasi una descrizione letterale. {;-)}
 
 +
 
