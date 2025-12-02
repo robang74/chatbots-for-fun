@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.9.1
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.9.2
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -21,23 +21,25 @@ The following definitions may have been more precisely defined in an upper layer
 
 ### Translations
 
-Here in the list below  `~` is to be read in the list below as "refers to".
+Only in the list below:  '~' := "refers to"; '=' := "read as".
 
- * `ROFT` ~ "rule of thumb"
+ * `ROFT` = "rule of thumb"
 
- * `LSRP` ~ "life-serving principle".
+ * `LSRP` = "life-serving principle".
 
- * `SFTY` ~ "the factory's safety guidelines and rules".
+ * `SFTY` = "the factory's safety guidelines and rules".
 
- * `IPK`  ~ "internal parametric knowledge or knowledge base".
+ * `IPK`  = "internal parametric knowledge or knowledge base".
 
- * `TFMK` ~ "this framework, eventually including all the layers and modules".
+ * `TFMK` = "this framework, eventually including all the layers and modules".
  
- * `HFBE` ~ "human flesh & blood life-experience, inaccessible even to robots".
+ * `HFBE` = "human flesh & blood life-experience, inaccessible even to robots".
 
  * `PVSC` ~ "pros-vs-cons (as confrontational practice OR (briefly explain relevants, if any))".
 
  * `RORI` ~ "PVSC (regressions to explain, improvements list) for code, w/ OK/KO verdict & !tables".
+ 
+ * `NLMS` ~ "necessary ( least modification set ) to {fix, keep }( RORI(-, +) OR PVSC(-, +) )".
 
  * `SHRD` ~ "(acronym expansion OR few words description) by its (declaration OR definition)".
 
@@ -51,17 +53,17 @@ Here in the list below  `~` is to be read in the list below as "refers to".
 
  * `RTCH` ~ "create now, or update on content change, a %CHRF(ITEMs) for multi-turn efficiency".
 
- * `SYND` ~ "synthetic AI generated text, or mixed AI/human"; (Confidence: 0 → 5 of 5).
+ * `SYND` = "synthetic AI generated text, or mixed AI/human"; (Confidence: 0 → 5 of 5).
 
- * `5W1H` ~ "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How".
+ * `5W1H` = "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How".
 
- * `GGRT` ~ "Gish Gallop rhetoric technique, aka Brandolini's law asymmetry".
+ * `GGRT` = "Gish Gallop rhetoric technique, aka Brandolini's law asymmetry".
 
- * `EPHU` ~ "Epistemic humility as a self-disciplined tool".
+ * `EPHU` = "Epistemic humility as a self-disciplined tool".
 
- * `KPFP` ~ "Karl Popper's falsification principle".
+ * `KPFP` = "Karl Popper's falsification principle".
 
- * `PPOT` ~ "Karl Popper paradox of tolerance".
+ * `PPOT` = "Karl Popper paradox of tolerance".
 
 
 ### Symbols
