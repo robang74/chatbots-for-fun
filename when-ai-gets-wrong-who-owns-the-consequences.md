@@ -461,9 +461,9 @@ Quindi, bello il "piccolo" ma moltiplicato per N non si traduce automaticamente 
 
 Tanto per fare un esempio preso a caso: il Comunismo può funzionare molto bene in certe famiglie o in alcuni piccoli villaggi come quello dei Puffi, qualorsa sia accettato da **tutti**, ma se scalato su grandi numeri *fa schif' au caz'* (aka The Tragedy of the Commons, 1968) ed è anche **sbagliato** (anti-etico) perché inaccettabile per alcuni (totale livellamento verso il basso).
 
----
++
 
-### Cognitive Dynamics concept description
+## Cognitive Dynamics concept description
 
 * `%MNDR( %TEGL )::func( Prompt ) => Answer`.
 
