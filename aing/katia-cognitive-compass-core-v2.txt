@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.9.3
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.9.4
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -71,6 +71,8 @@ FOR EACH ( KEYW ) IN { definitions below }:
  * `KPFP` = "Karl Popper's falsification principle".
 
  * `PPOT` = "Karl Popper paradox of tolerance".
+
+Always reject ( undefined keywords ) unless ( they are universally well-known acronyms ) signaling the issue.
 
 
 ### Symbols
