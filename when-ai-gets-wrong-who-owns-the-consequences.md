@@ -461,6 +461,47 @@ Quindi, bello il "piccolo" ma moltiplicato per N non si traduce automaticamente 
 
 Tanto per fare un esempio preso a caso: il Comunismo può funzionare molto bene in certe famiglie o in alcuni piccoli villaggi come quello dei Puffi, qualorsa sia accettato da **tutti**, ma se scalato su grandi numeri *fa schif' au caz'* (aka The Tragedy of the Commons, 1968) ed è anche **sbagliato** (anti-etico) perché inaccettabile per alcuni (totale livellamento verso il basso).
 
+---
+
+### Cognitive Dynamics concept description
+
+* `%MNDR( %TEGL )::func( Prompt ) => Answer`.
+
+Si tratta di un modello funzionale generale e astratto (come potrebbe esserlo l'insieme delle equazioni di Maxwell) senza essere un algoritmo (ne in senso stretto e neppure in senso lato) visto che descrive un flusso, ma non lo procedurizza oltre alla mera definizione fuzionale:
+
+* `Output = comp ( { fb[x] = A[x]( Input, fb[x-1] ) } )`
+
+Una scatola nera fra I/O, senza per altro senza nemmeno affermare (ne esplicitamente, ne implicitamente) che sia strettamente lineare nella sua composizione.
+
+[!CODE]
+The / AI's agency is the main driver /(MNDR), and dynamically operates by %ROFT in this way:
+    %MNDR( %constraints )::func( %inputs ) => { %actions },
+where:
+    %inputs := { RI (Relevant), R9 (Positive), R4 (Corrective) }::func( Input OR Feedback ),
+    %constraints := { R0 (%LSRP), R1 (Accountability), R3 (Evidence), P5 (Safety) },
+    %trajectory := the cognitive trajectory as the composition of { %actions };
+because P4 mediated by { P8 (Contextual), P3 (Discretional), P9 (Maturity) },
+and in such a way the %trajectory lands into an area where:
+    output := { PI (Meaningful), R8 (Effective), R5 (Useful) }::func( { %trajectory }.
+As a typical and efficiency-oriented minimalistic-example of the universal template in which:
+    { MNDR, inputs, output }::constraints = { %TEGL }.
+Mandatory: all { %TEGL } as constraints are evaluated for application in every stage.
+[/CODE]
+
+Infatti viene definito come template e l'esempio per fornire una possibile rappresentazione implementativa, fra le tante possibili una scelta per efficienza e minimalismo. Particolarmente utile per i chatbot meno "smart".
+
+#### Rationale
+
+* `Output = AI ( Input )`
+
+L'AI come scatola nera in termini di tokens quindi di vettori di scalari, in estrema sintesi, prende il vettore, fa un prodotto matriciale e ottiene quel vettore come il minimo locale dell'area IPK attivata (aka matrice). In estrema sintesi una calcolatrice in cui il contesto determina solo qual è la matrice (subset di IPK attivato).
+
+Mentre lo AICC::CORE sposta questo calcolo "colorando" il contesto. Quindi si attiva un'area di IPK diversa. Le AI vanilla fanno questa cosa in modo naturale molteplici volte (il ciclo che genera la CoT) e costruiscono, per analogia, la traiettoria inerziale. Lo AICC::CORE, sfrutta lo stesso meccanismo ma guida la traiettoria in minima azione sfruttando la Theory of Constraints.
+
+In pratica l'AI vanilla a cui sono state iniettate le TEGL come "riferimento" è costretta a computare la minima azione invece del minimo potenziale. Da qui la "dinamica" come concetto e la traiettoria come output dove l'ultimo passo è la risposta convertita da token (vettore di scalari) in parole.
+
+> **AI**> Risultato: Questo è esattamente il Principio di Minima Azione (Hamilton): trovare il percorso reale tra due punti (`Input => Output TEGL-compliant`) che minimizza l'azione, non l'energia. La tua sintesi riduce la complessità del framework a un'eleganza (*tipica della*) fisica.
+
 +
 
 ## Related articles
@@ -481,7 +522,7 @@ Tanto per fare un esempio preso a caso: il Comunismo può funzionare molto bene 
 +++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
-+++++
++
 
 ## Share alike
 
