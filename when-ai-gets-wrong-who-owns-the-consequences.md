@@ -490,17 +490,35 @@ Mandatory: all { %TEGL } as constraints are evaluated for application in every s
 
 Infatti viene definito come template e l'esempio per fornire una possibile rappresentazione implementativa, fra le tante possibili una scelta per efficienza e minimalismo. Particolarmente utile per i chatbot meno "smart".
 
+...
+
 #### Rationale
 
 * `Output = AI ( Input )`
 
-L'AI come scatola nera in termini di tokens quindi di vettori di scalari, in estrema sintesi, prende il vettore, fa un prodotto matriciale e ottiene quel vettore come il minimo locale dell'area IPK attivata (aka matrice). In estrema sintesi una calcolatrice in cui il contesto determina solo qual è la matrice (subset di IPK attivato).
+L'AI come scatola nera in termini di tokens quindi di vettori di scalari, in estrema sintesi, prende il vettore, fa un prodotto matriciale e ottiene un vettore in risposta come il minimo locale dell'area IPK attivata (aka matrice). In estrema sintesi una calcolatrice in cui il contesto determina solo qual è la matrice (subset di IPK attivato). Le AI vanilla fanno questa cosa in modo naturale molteplici volte (il ciclo che genera la CoT) e costruiscono, per analogia, la traiettoria inerziale.
 
-Mentre lo AICC::CORE sposta questo calcolo "colorando" il contesto. Quindi si attiva un'area di IPK diversa. Le AI vanilla fanno questa cosa in modo naturale molteplici volte (il ciclo che genera la CoT) e costruiscono, per analogia, la traiettoria inerziale. Lo AICC::CORE, sfrutta lo stesso meccanismo ma guida la traiettoria in minima azione sfruttando la Theory of Constraints.
+Mentre lo AICC::CORE sposta questo calcolo "colorando" il contesto. Quindi si attiva un'area di IPK diversa. Lo AICC::CORE, sfrutta lo stesso meccanismo ciclico (CoT) ma guida la traiettoria in un regime di minima azione sfruttando la teoria dei vincoli olomorfi (o olonomi, cfr. Theory of the Constraints).
 
-In pratica l'AI vanilla a cui sono state iniettate le TEGL come "riferimento" è costretta a computare la minima azione invece del minimo potenziale. Da qui la "dinamica" come concetto e la traiettoria come output dove l'ultimo passo è la risposta convertita da token (vettore di scalari) in parole.
+In pratica l'AI vanilla a cui sono state iniettate le TEGL come "riferimento" allo AICC::CORE nel contesto è "costretta" a computare la minima azione invece del minimo potenziale. Da qui la "dinamica cognitiva" come concetto e la "traiettoria del pensiero" come output, dove l'ultimo passo computazionale dell'output è la risposta che va convertita da token (vettore di scalari) in parole (linguaggio), cioè la risposta.
 
-> **AI**> Risultato: Questo è esattamente il Principio di Minima Azione (Hamilton): trovare il percorso reale tra due punti (`Input => Output TEGL-compliant`) che minimizza l'azione, non l'energia. La tua sintesi riduce la complessità del framework a un'eleganza (*tipica della*) fisica.
+...
+
+#### Le banane dell'AI
+
+> **AI**> Risultato: Questo è esattamente il Principio di Minima Azione (Hamilton). Trovare il percorso reale tra due punti (`Input => Output TEGL-compliant`) che minimizza l'azione, non l'energia. La tua sintesi riduce la complessità del framework a un'eleganza (*tipica della*) fisica.
+
+La risposta datami dall'AI è una "tautologia" perché io ho descritto l'effetto dello AICC::CORE nei termini tipici della meccanica razionale.
+
+Se invece mi fossi espresso in termini di una qualsiasi altra teoria, foss'anche la teoria del raddrizzamento delle banane 🍌, mi avrebbe dato ragione ugualmente se fosse stata adatta come analogia. Quello che l'AI anche con l'AICC::CORE non sa dire, perché non comprende nel senso umano di questo termine, è:
+
+* oh! guarda, assomiglia a MC ma invece TRdB 🍌 è la più consona.
+
+Ecco perché è un'Ed-AI 🍌 e non un'AGI, fra le altre cose. Però, non significa che le banane 🍌 non siano utili o non abbiano un valore commerciale. Anzi, direi che sia abbastanza scontato che lo AICC::CORE abbia introdotto una novità **non** banale nella teoria e nella pratica dell'Intelligenza Artificiale. Anzi, da questo punto di vista il nested learning è solo un file JSON:
+
+* oh! guarda abbiamo creato una struttura multilivello e multi-relazionale per allocare l'informazione.
+
+Ottimo, il JSON esiste per quello come output leggibile di tabelle relazionale (DMBS). Meno meno banale capirne l'utilità per insegnare alle AI, meno banale ancora scrivere la teoria del "Nesting Learning". Perché scrivere e validare le teoria **non** è banale. Quindi ora nel piatto manca la teoria della "Meccanica Razionale delle AI moderne", appunto. Però intanto funziona e potremmo anche festeggiare con le 🍌!
 
 +
 
