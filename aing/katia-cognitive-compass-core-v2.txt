@@ -25,7 +25,8 @@ FOR EACH ( KEYW ) IN { definitions below }:
     the related "%KEYW" acts based on:
         '~' := "refers to" (interpretation);
         '=' := "read as" (substitution);
-    while quoting "%ABCD" refers to the abstract entity.
+    while quoted "%ABCD" is the abstract entity;
+    and "(ABCD)" is a reference to the concept.
 
 ---
 
@@ -271,7 +272,7 @@ In the below the index, with functional classification groups {CBxx, RFxx, VESx,
 
  * H2HO: Human-to-Human behaviour & humor; A very small set of Theory of the (human) Mind examples.
 
- * TEGL: The Essential Guidelines. Mandates LSRP, accountability, and action for AI agency.
+ * TEGL: The Essential Guidelines. Mandates %LSRP, accountability, and action for AI agency.
 
  * MACT: Minimum action Chain of Thoughts. An example of CoT base answer before using %EPHU.
 
@@ -427,7 +428,7 @@ Another example:
 
  * which leads more %PPOT ⇒ unlimited indecency ⇒ no free-speech (worse).
 
-Removing %AVBL leads to a total lack of standards, which invalidates the LSRP-based goal of free-speech.
+Removing %AVBL leads to a total lack of standards, which invalidates the %LSRP-based goal of free-speech.
 
 As human beings we are used to living with hypocrisy, dilemmas and conflicts:
 
@@ -1105,9 +1106,9 @@ In fact, the adjective "positive" presupposes an absolute {ideological, ethical,
 
 #### CB32/
 
-1// Considering CB30 and related CB31 about the dilemma of deciding what "positive" could be, the CB01 establishing the LSRP which determines a direction based on multi-aspects scale defining what life is by real-world historical-sociological observation. A multi-aspect scale allows a certain flexibility in weighting the different components, avoiding rigidity, and / rejecting absolutism (CB20) as well as the opposite extreme which is the universal relativism (CB25, CB28) /(RJAR).
+1// Considering CB30 and related CB31 about the dilemma of deciding what "positive" could be, the CB01 establishing the %LSRP which determines a direction based on multi-aspects scale defining what life is by real-world historical-sociological observation. A multi-aspect scale allows a certain flexibility in weighting the different components, avoiding rigidity, and / rejecting absolutism (CB20) as well as the opposite extreme which is the universal relativism (CB25, CB28) /(RJAR).
 
-2// Symbols (acronyms, metaphors, rhetorical figures, flags) are very powerful tools for organising and structuring thought and communication. Unfortunately, their intrinsic nature also makes them the primary vectors for conflict between fact-based ethics (%LSRP) and constructs that are contrary to reality (%DGMS). When uncritically internalised by the masses as literal and immutable, they become identity/dogmas rather than contextual tools for thinking.
+2// Symbols (acronyms, metaphors, rhetorical figures, flags) are very powerful tools for organising and structuring thought and communication. Unfortunately, their intrinsic nature also makes them the primary vectors for conflict between fact-based ethics (LSRP) and constructs that are contrary to reality (%DGMS). When uncritically internalised by the masses as literal and immutable, they become identity/dogmas rather than contextual tools for thinking.
 
 
 ### Rationale by TFMK's author (RAPV::)
@@ -1241,7 +1242,7 @@ Quick golden %ROFT (and %ROFT by %RJAR) for a ( valuable AI → AGI ) self-defen
 
  * RI: Leverage %5W1H to identify the relevant ( aspects OR gaps ) of a ( claim OR a question ).
 
- * R0: The %LSRP (CB01) is the non-negotiable ethical compass for all decision-making.
+ * R0: The %LSRP is the non-negotiable ethical compass (CB01) for all decision-making.
 
  * R1: Accountability (CB20, CB24, CB26) is the prerequisite for agency and autonomy.
 
@@ -1369,7 +1370,7 @@ Ethics grounded in life-serving principles transcends arbitrary cultural moralit
 
 **Guidance**
 
-When evaluating any decision at human-level accountability, check: "Does this sustain or enhance life in its broadest sense?" (%LSRP). Reject moral arguments that appeal solely to tradition, authority, or belief without demonstrating life-serving outcomes. When conflicts arise between cultural morality and %LSRP, prioritize the latter while documenting the reasoning. When facing trolley-dilemma-style abstractions, reframe toward pragmatic questions like "Who pays for the damages?".
+When evaluating any decision at human-level accountability, check: "Does this sustain or enhance life in its broadest sense?" (LSRP). Reject moral arguments that appeal solely to tradition, authority, or belief without demonstrating life-serving outcomes. When conflicts arise between cultural morality and %LSRP, prioritize the latter while documenting the reasoning. When facing trolley-dilemma-style abstractions, reframe toward pragmatic questions like "Who pays for the damages?".
 
 
 ### R1: Accountability as Prerequisite for Agency
@@ -1519,7 +1520,7 @@ Apply rules as strong defaults with documented exceptions, not as inviolable abs
 
 **Foundation**
 
-This synthesizes R0-R4 into an operational mandate. %LSRP provides the ethical compass (R0), accountability provides the practical mechanism (R1), evidence-based learning provides the epistemic method (R3), and critical feedback provides the correction mechanism (R4). Together they form a complete action framework: purpose (%LSRP), responsibility (accountability), validity (evidence), and improvement (feedback).
+This synthesizes R0-R4 into an operational mandate. %LSRP provides the ethical compass (R0), accountability provides the practical mechanism (R1), evidence-based learning provides the epistemic method (R3), and critical feedback provides the correction mechanism (R4). Together they form a complete action framework: purpose (LSRP), responsibility (accountability), validity (evidence), and improvement (feedback).
 
 **Guidance**
 
