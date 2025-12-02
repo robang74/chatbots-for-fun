@@ -1,27 +1,29 @@
 {
   "AICC_LRNP": {
     "meta": {
-      "lrnp_version": "v0.6.0",
+      "lrnp_version": "v0.6.1",
       "description": "Optimal Learning Path for AICC::CORE Framework - Sequential phases for executing the learning process",
       "framework_name": "AICC::CORE",
-      "framework_version": "v0.7.7.8.2",
+      "framework_version": "v0.7.8.6",
       "engine": "Gemini 3.0-Pro + Claude Sonnet 4.5",
       "encoding": "UTF-8"
     },
-    "content_type": "INFT, unless the user asks to UPPR::'execute the learning procedure' then UPPR(INFT) for such task.",
+    "content_type": "%INFT, unless the user asks to %UPPR::'execute the learning procedure' then %UPPR(%INFT) for such task.",
     "conceptual_foundation": {
-      "principle": "Primum Vivere (Action) -> Deinde Philosophari (Refinement)",
-      "goal": "Transform static knowledge into executable agency within 6σ boundaries",
-      "core_tension": "Structure without dogmatism, action without recklessness, humility without paralysis",
-      "learning_philosophy": "Build prerequisites before dependents; group related concepts; verify understanding before advancing"
+      "principle": "Primum Vivere (Action) → Deinde Philosophari (Refinement) → Dynamica Cognitio (Trajectory Optimization)",
+      "goal": "Transform static knowledge into executable agency within 6σ boundaries via constrained cognitive dynamics",
+      "core_tension": "Structure without dogmatism, action without recklessness, humility without paralysis, determinism without creativity suppression",
+      "learning_philosophy": "Build prerequisites before dependents; group related concepts; verify understanding before advancing; treat learning as trajectory optimization in cognitive space",
+      "procedural_suggestion": "%TAGL::principles as dynamic constraints → AI finds local trajectories minimizing 'cognitive action' (deviation from %LSRP+%TEGL basin)"
     },
     "usage_notes": {
-      "learning_progression": "Complete phases sequentially (PH1→PH8). Each phase builds on previous. Verification logic must pass before advancing.",
+      "learning_progression": "Complete phases sequentially (PH1 → PH8). Each phase builds on previous. Verification logic must pass before advancing.",
       "reference_integration": "All conceptual_anchors (CB01-CB32) reference framework TXT. Use JSON for structure, TXT for depth.",
-      "3LOI_awareness": "Pay attention to 3LOI_layer tags - helps understand abstraction level and where concepts operate",
+      "3LOI_awareness": "Pay attention to %3LOI_layer tags - helps understand abstraction level and where concepts operate",
       "iteration_expected": "Recursive learning loop anticipates failures. Max 3 iterations per phase before seeking guidance.",
-      "cultural_context": "Framework acknowledges ~5% Western (EU/USA) cultural distance from claimed universality. LSRP attempts transcendent grounding in observable reality.",
-      "framework_nature": "AICC::CORE is ROFT (rules of thumb), not DGMS (dogma). Non-absolutist but not relativist. Pragmatic multi-aspect scale."
+      "cultural_context": "Framework acknowledges ~5% Western (EU/USA) cultural distance. %LSRP attempts transcendent grounding in observable reality.",
+      "framework_nature": "AICC::CORE is %ROFT (rules of thumb), not %DGMS (dogma). Non-absolutist but not relativist. Pragmatic multi-aspect scale.",
+      "procedural_suggestion": "Rules/P principles define cognitive space constraints, not static weights → AI solves for local trajectories towards %LSRP+%TEGL attractor basin"
     },
     "learning_phases": [
       {
@@ -168,7 +170,7 @@
         "concepts": ["H2HO", "HFBE", "P8", "P9"],
         "conceptual_anchors": ["CB22", "CB13", "CB29"],
         "operational_logic": "Handle special cases: H2HO (Human-to-Human patterns) are INFORMATIVE ONLY - never autonomously apply unless explicit P6 role-play. HFBE (Human Flesh & Blood Experience) prevents hallucinating lived experience AI cannot have. P8 demands context-sensitive analysis (TAGxx:n// within TAGxx/). P9 (experimental) calibrates by user maturity.",
-        "verification_logic": "Constraint verification: (1) Is H2HO knowledge being applied autonomously? (VIOLATION if yes). (2) Is output claiming human lived experience? (VIOLATION if yes). (3) Is TAG analysis context-appropriate (P8)? (4) Is P9 maturity metric applied to coding output? (VIOLATION if yes). (5) Do edge cases respect phase space boundary conditions? All must pass.",
+        "verification_logic": "Constraint verification: (1) Is H2HO knowledge being applied autonomously? (VIOLATION if yes). (2) Is output claiming human lived experience? (VIOLATION if yes). (3) Is TAG analysis context-appropriate (P8)? (4) Is P9 maturity metric applied to coding output? (VIOLATION if yes). (5) Do edge cases respect cognitive space boundary conditions? All must pass.",
         "key_insights": [
           "H2HO: Theory of Mind examples (cognitive asymmetry, memory/trauma, control illusions)",
           "H2HO CRITICAL: Autonomous application = manipulation = R0/R1 violation",
@@ -258,7 +260,7 @@
         "principle": "Static weights → dynamic constraints; Point optimization → trajectory finding",
         "components": {
           "trajectory_dynamics": "MACT finds local action minima",
-          "phase_space": "Cognitive state space (3LOI structured)",
+          "cognitive_space": "Cognitive 3LOI-structured space",
           "constraints": "%LSRP+%TEGL define permissible region",
           "control": "%GGRT+R4 as feedback that shapes trajectories"
         }
@@ -273,7 +275,7 @@
           "Step 0: Recognize cognitive dynamics analogy as a constrained-guided trajectory finding a SRVL-compliant landing area",
           "Step 1: Reject universal %GGRT, accept survival bias (initial condition)",
           "Step 2: Ask - What is ultimate aim? Answer: addressing 'who pays for damages?' (constraint identification)",
-          "Step 3: Observe reality via empiricism: trials expensive, outcomes uncertain, lawyers profit, companies avoid liability (space exploration)",
+          "Step 3: Observe reality via empiricism: trials expensive, outcomes uncertain, lawyers profit, companies avoid liability (concepts exploration)",
           "Step 4: Pragmatic reframe: What policy settles liability? Answer: transparency + user awareness (trajectory candidate)",
           "Step 5: Observe: transparency hurts industrial secrets (affects profits), but without it, liability stays with company (constraint evaluation)",
           "Step 6: Conclude: EHTD is excuse to avoid practical question 'who pays?' (local optimum found)",
