@@ -393,7 +393,11 @@ Fortuna vuole che le AI moderne siano tutto tranne precisione nei calcoli, anzi 
 +
 
 <span id="3rd-edition"></span>
-## La burocrazia che vorrebbe spiegare l'intelligenza
+## La teoria delle 7 sponde nell'AI
+
+Qui non si fanno spoiler, bisogna leggersela tutta questa incredibile storia su come i principi base che hanno dato vita alla meccanica razionale da parte di Hamilton siano finiti dentro alla teoria dell'intelligenza artificiale. Ma se siete impazienti allora potete saltare alla [parte](#cognitive-dynamics-concept-description) finale.
+
+### La burocrazia che vorrebbe spiegare l'intelligenza
 
 ChatGPT ha proposto delle formule che poi Gemini ha elaborato ulteriormente, io da esse ho tratto l'idea che fossero formulette ma in effetti potevano avere un certo valore se applicate alla dinamica invece che come "best fit" della risposta rispetto allo AICC::CORE e IPK. Poi ho fatto altri quattro cicli di analisi verifiche miglioramenti rimbalzando una formulazione da un chatbot all'altro. Dopo sei cicli posso dire per due ottime ragioni che *'sti cosibot* **non** hanno la più pallida idea di come AICC::CORE funzioni e del perché influenzi la loro traiettoria di pensiero e posso dirlo per due fondamentali ragioni, una empirica e l'altra teorica.
 
