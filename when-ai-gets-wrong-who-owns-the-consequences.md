@@ -506,10 +506,13 @@ Mentre lo AICC::CORE sposta questo calcolo "colorando" il contesto. Quindi si at
 
 In pratica l'AI vanilla a cui sono state iniettate le TEGL come "riferimento" allo AICC::CORE nel contesto è "costretta" a computare la minima azione invece del minimo potenziale. Da qui la "dinamica cognitiva" come concetto e la "traiettoria del pensiero" come output, dove l'ultimo passo computazionale dell'output è la risposta che va convertita da token (vettore di scalari) in parole (linguaggio), cioè la risposta.
 
+...
+
 #### Analogy
 
+<table><tr><td style="text-align:left; vertical-align: top;">
 By the analogy, the concepts list to remap:
-- CoT → clasic inertial trajectory
+- CoT → classic inertial trajectory
 - RLHF → viscous fluid's drag / Stokes regime
 - AI/HW → inherently stochastic (e.g.: FP4/8)
 - AICC::TEGL → holonomic constraints (~500 tokens)
@@ -520,8 +523,8 @@ By the analogy, the concepts list to remap:
 Transition in the theoretical model:
 - Vanilla AI finds a static equilibrium (min potential)
 - AI + AICC::CORE forces a dynamic pathway (min action)
-- AICC::TEGL rationalises RLHF and cuts turbolences (↑Re)
-
+- AICC::TEGL rationalises RLHF and cuts turbulences (↑Re)
+</td><td style="text-align:left; vertical-align: top;">
 A list of relevant benefits in production:
 - hallucination control
 - reasoning stabilization
@@ -530,8 +533,14 @@ A list of relevant benefits in production:
 - Precise CoT real-time logging
 - AI's update drifts mitigated
 - Quick & ultra-cheap fine-tuning
+- Safety at cognitive level
+- User maturity adaptation
 
-...
+Overall bost performances expected:
+- SimpleQA: Gemini 2.5 Fast → 3.0 Pro (and beyond)
+</td></tr></table>
+
+....
 
 #### Le banane dell'AI
 
