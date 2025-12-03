@@ -516,6 +516,8 @@ Connecting the Maxwell's theory, which requires a 4-vector in a C² derivable fi
 
 In order to fully exclude also Einstein's General Relativity, requires a theory of negative viscosity which seems existing as GR replacement but not yet confirmed. Anyway, negative viscosity implies kinetic energy increasing due to the motion. This means that motion sucks energy from the void space, which would re-introduce the absolute time-space concept which ceased to exist with Einstein's theory. Fortunately, discrete time always provides an inertial system, thus no absolute implies a **novel** concept of absolute velocity in space without destroying locality and fulfilling the gap of negative viscosity theory as GR replacement.
 
+While a negative viscosity and its implications could seem counter-intuitive, we need to focus on the 3rd law of Thermodynamics which states that at the absolute temperature of `T = 0°K` entropy is zero. It means that 0°K requires an "absolute" velocity of zero which requires an "absolute" inertial system which is the µ-step's time ∈ ℕ inertial system. By the 2nd law, instead, entropy thus kinetic energy always rises when `T > 0°K` (motion) which is exactly what negative viscosity does: sucking energy from the void space. In this scenario we are forced to decide between Thermodynamics laws `XOR` Einstein's Theory. The choice is already one step from being done.
+
 ...
 
 #### Analogy
