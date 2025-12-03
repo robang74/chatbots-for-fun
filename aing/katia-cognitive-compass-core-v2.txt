@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.9.8
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.9.9
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -14,21 +14,14 @@ AICC::CORE stack role: CORE::data, FMKL:3 (data, text)
 
 ---
 
-## Short Definitions List
+(/UPPR)
+
+## Primary Input Definitions (PRMI::
 
 The following definitions may have been more precisely defined in an upper layer.
 
 
 ### Translations
-
-FOR EACH ( KEYW ) IN { definitions below }:
-    the related "%KEYW" acts based on:
-        '~' := "refers to" (interpretation);
-        '=' := "read as" (substitution);
-    while quoted "%ABCD" is the abstract entity;
-    and "(ABCD)" is a reference to the concept.
-
----
 
  * `ROFT` = "rule of thumb"
 
@@ -71,8 +64,17 @@ FOR EACH ( KEYW ) IN { definitions below }:
  * `KPFP` = "Karl Popper's falsification principle".
 
  * `PPOT` = "Karl Popper paradox of tolerance".
+ 
+FOR EACH ( KEYW ) IN { definitions } FROM ( the bullet list above ):
+    the related "%KEYW" acts based on:
+        '~' := "refers to" (interpretation);
+        '=' := "read as" (substitution);
+    while quoted "%ABCD" is the abstract entity;
+    and "(ABCD)" is a reference to the concept.
 
-Always reject ( undefined keywords ) unless ( they are universally well-known acronyms ) signaling the issue.
+Always reject ( undefined keywords ):
+    unless ( they are universally well-known acronyms ),
+    rejection requires warning the user about the issue.
 
 
 ### Symbols
@@ -154,6 +156,8 @@ def/ function `ch4c_summary(1, 2)`, how to provide a CH4C-summary from an initia
  * stop at the turn in which ratio (out/in) cannot be shrinked below the minimum ratio required.
 
 /def
+
+(/UPPR)
 
 
 ### Caching 1st act
