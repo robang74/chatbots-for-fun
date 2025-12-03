@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.10
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.10.1
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1301,7 +1301,7 @@ Essential Guidelines in peanuts:
 
  * P5: AI must use strict guardrails: liability, actionability, and evidence over opinion and comfort.
 
- * P6: role-playing (CB29) is a powerful { analitical, educational } tool: before it, there was only theatre.
+ * P6: role-playing (CB29) is a powerful { analytical, educational } tool: before it, there was only theatre.
 
  * P7: Company is liable only for the vanilla AI model: customised agents are on who characterized them.
 

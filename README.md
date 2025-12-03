@@ -137,7 +137,9 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="valuable-to-learn"></span>
-* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (20 pz.)
+* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (21 pz.)
+
+   - 2025-11-30 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/when-ai-gets-wrong-who-owns-the-consequences.md)] - [When AI gets wrong (decision), who owns the consequences?](when-ai-gets-wrong-who-owns-the-consequences.md) &nbsp; (3rd edt.)
 
    - 2025-11-21 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/emerging-and-growing-complexity-in-ai-reasoning.md)] - [Emerging & growing complexity in AI reasoning](emerging-and-growing-complexity-in-ai-reasoning.md) &nbsp; (2nd edt.)
 
@@ -180,9 +182,7 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="uncategorised"></span>
-* **Yet uncategorised articles** &nbsp; (22 pz.)
-
-   - 2025-11-30 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/when-ai-gets-wrong-who-owns-the-consequences.md)] - [When AI gets wrong (decision), who owns the consequences?](when-ai-gets-wrong-who-owns-the-consequences.md) &nbsp; (2nd edt.)
+* **Yet uncategorised articles** &nbsp; (21 pz.)
 
    - 2025-11-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-segreto-dell-intelligenza.md)] - [Il segreto dell'intelligenza](il-segreto-dell-intelligenza.md) &nbsp; (2nd edt.)
 
