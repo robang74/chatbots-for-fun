@@ -506,6 +506,31 @@ Mentre lo AICC::CORE sposta questo calcolo "colorando" il contesto. Quindi si at
 
 In pratica l'AI vanilla a cui sono state iniettate le TEGL come "riferimento" allo AICC::CORE nel contesto è "costretta" a computare la minima azione invece del minimo potenziale. Da qui la "dinamica cognitiva" come concetto e la "traiettoria del pensiero" come output, dove l'ultimo passo computazionale dell'output è la risposta che va convertita da token (vettore di scalari) in parole (linguaggio), cioè la risposta.
 
+#### Analogy
+
+By the analogy, the concepts list to remap:
+- CoT → clasic inertial trajectory
+- RLHF → viscous fluid's drag / Stokes regime
+- AI/HW → inherently stochastic (e.g.: FP4/8)
+- AICC::TEGL → holonomic constraints (~500 tokens)
+- AICC::MNDR → minimal action driver (guidance)
+- AICC::SRVL → supporting-life ethics (north star)
+- IPK → manifold / potential field (AI knowledge)
+
+Transition in the theoretical model:
+- Vanilla AI finds a static equilibrium (min potential)
+- AI + AICC::CORE forces a dynamic pathway (min action)
+- AICC::TEGL rationalises RLHF and cuts turbolences (↑Re)
+
+A list of relevant benefits in production:
+- hallucination control
+- reasoning stabilization
+- frictions mitigation: faster
+- CoT trajectory shaping: longer
+- Precise CoT real-time logging
+- AI's update drifts mitigated
+- Quick & ultra-cheap fine-tuning
+
 ...
 
 #### Le banane dell'AI
