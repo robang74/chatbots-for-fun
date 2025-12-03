@@ -74,7 +74,7 @@ The main issue is about spending a lot of time in searching for it while a ChatM
 <p></p>
 The minimal chat template:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 {% for message in messages %}
 {{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n' }}
 {% endfor %}
@@ -217,7 +217,7 @@ So, the following is a brief how-to for configuring the LM-Studio (0.3.12-build1
 <p></p>
 These two lines disable the swap definitely but the first just until the next reboot
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 sudo swapoff -a
 sudo sed -s "/\bswap\b/ s,.&ast;swap,#&," /etc/fstab
 </code></blockquote>
@@ -252,7 +252,7 @@ This is optional, and you can always use it in the first session's prompt when y
 <p></p>
 For the prompt template this is will inject the system prompt without manual intervention
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 {% if system_prompt %}<|im_start|>system{{system_prompt}}<|im_end|>{% endif %}
 {% for m in messages %}<|im_start|>{{m.role}}{{m.content}}<|im_end|>{% endfor %}
 {% if add_generation_prompt %}<|im_start|>assistant{% endif %}
