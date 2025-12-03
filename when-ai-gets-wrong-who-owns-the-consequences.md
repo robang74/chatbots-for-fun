@@ -540,9 +540,13 @@ Moreover, it is also not obvious that AICC::TEGL can be expressed in natural lan
 
 When the TEGL is injected into the context window (as session prompt), the AI is forced to compute the minimum action instead of the minimum potential. Hence the ‘cognitive dynamics’ as a concept and the ‘thought trajectory’ as output, where the last computational step of the CoT is the response that must be converted from tokens into words, i.e. the response. The TEGL's persistence adjusts the computation at each µ-step, in fact.
 
-* Essentially, the **µ** step is the **Mu** conceptual-leap: **Maxwell → Hammilton → Heisemberg**.
+* Essentially, the **µ** step is the **Mu** conceptual-leap: **Maxwell → Hammilton → Heisenberg**.
 
 Whatever I figured out, it works and that is what I did as a consultant for the whole of my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
+
+#### Side Note
+
+Connecting the Maxwell's theory which requires a 4-vector in C² derivable with the Heisenberg's quantum mechanics which allows Dirac's functions, passing by the making discrete the time in the Hammilton's theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's theory by the Occam's razor and explaining why at macro-level a closed system's entropy always rises (3rd thermodynamics law).
 
 ...
 
