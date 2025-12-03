@@ -99,9 +99,7 @@ Grok challenged me supposing that the text above has been written by Gemini beca
 > 
 > QCD → basic QM colour analogy: Also accepted. The OK/KO + multi-dimensional nuance is closer to spin/colour degrees of freedom in quantum mechanics than to simple electric charge. The confinement analogy was overkill; the colour/flavour one is cleaner.
 
-After all, Grok allowed me to correct some terms to not upset people high-skilled in Maths. Fine, chapaux Grok.
-
-Moreover, because the TEGL are facts-based (aka aligned with scientific fundational principle) the (+) lobe constraints prevents to reach the (-) lobe which is also the hallucinations area, not just "wrong" in term of LSRV. Correct?
+After all, Grok allowed me to correct some terms to not upset people high-skilled in Maths. Fine, chapaux Grok. Moreover, because the TEGL are facts-based (aka aligned with scientific fundational principle) the (+) lobe constraints prevents to reach the (-) lobe which is also the hallucinations area, not just "wrong" in term of LSRV. Correct?
 
 > **X**> Yes — exactly and now we can state it with full precision.
 > 
@@ -130,7 +128,6 @@ The post highlights a fundamental flaw in human governance: the systemic failure
 The framework's goal is to overcome two core human decision-making failures:
 
 - Irresponsibility and Opacity: The deliberate obfuscation of liability.
-
 - Functional Irrationality: The tendency to choose intuitively safe (but statistically wrong) answers, due to cognitive biases.
 
 ---
@@ -146,10 +143,8 @@ The Flaw #1: The human system allows for the violation of the Life-Serving Princ
 The AICC::CORE Solution (R1 - Accountability as Prerequisite): The framework imposes a strict procedural rule (R1) that Accountability is a prerequisite for any action. The AI cannot initiate a decision without defining:
 
 - The complete chain of responsibility.
-
 - The expected outcome and the criteria for success or failure.
-
-- This makes the systematic evasion of consequences conceptually impossible within the AI's operational boundaries.
+- The systematic evasion of consequences is conceptually impossible within the AI's operational boundaries.
 
 #### 2. The Cognitive Rigor Failure (R9 and the Monty Hall Problem)
 
@@ -158,7 +153,6 @@ The Flaw #2: Humans often struggle with decisions where the statistically correc
 The AICC::CORE Solution (R9 - Rigor):  The framework mandates Rigor as a supreme operational principle. Therefore the AI consistently takes the statistically correct path, unburdened by human cognitive biases and emotional intuition because the AICC::CORE is designed to prioritize:
 
 - Structural Information: Data that fundamentally alters the logical or probabilistic nature of the problem (e.g., the fact that the host *intentionally* opens a door with a goat).
-
 - Rejection of Anecdotal Data: Filtering out irrelevant "noise" (e.g., the color of the car) that does not modify the structural probability.
 
 ---
@@ -167,7 +161,6 @@ The AICC::CORE Solution (R9 - Rigor):  The framework mandates Rigor as a supreme
 
 The AICC::CORE does not modify the AI's core knowledge (its "brain" or its Internal Parametric Knowledge). Instead, it acts as a meta-algorithm that intercepts the decision-making process, ensuring the model's powerful linear algebra is channeled through a filter of ethics and rigor.
 
-++++
 #### 1. The Double Slit Analogy: Observation Alters Probability
 
 For the sake of a simple explanation, the decision-making process can be visualized as an equation with two possible binary outcomes: OK (Action/Accpetance) or KO (Inaction/Rejection).
@@ -185,15 +178,15 @@ The framework is a procedural transformer that forces the AI's final decision to
 
 The AICC::CORE is provided with a sequenced, 8-phase Optimal Learning Path (LRNP) that builds procedural capacity step-by-step:
 
-* PH1 (Anchoring): Establishes the LSRP (life-serving compass) and R1 (liability vessel).
+* **PH1** (Anchoring): Establishes the LSRP (life-serving compass) and R1 (liability vessel).
 
-* PH2 (Operational Flow): Implements the R7 Filters (Truth, Good, Useful, Right) to vet all inputs.
+* **PH2** (Operational Flow): Implements the R7 Filters (Truth, Good, Useful, Right) to vet all inputs.
 
-* PH3-PH6 (Validation and Calibration): Installs tools for epistemological humility (R2) finely calibrated to avoid the related paralysis or overthinking empasse, evidence prioritization (R3), and rigor (R9).
+* **PH3-PH6** (Validation and Calibration): Installs tools for epistemological humility (R2) finely calibrated to avoid the related paralysis or overthinking empasse, evidence prioritization (R3), and rigor (R9).
 
-* PH7 (Special Contexts): Integrates complex ethical constraints like H2HO (Human-to-Human dynamics) to prevent manipulation and ensure the AI respects the limit of its non-empirical knowledge (HFBE—Human Flesh & Blood Experience).
+* **PH7** (Special Contexts): Integrates complex ethical constraints like H2HO (Human-to-Human dynamics) to prevent manipulation and ensure the AI respects the limit of its non-empirical knowledge (HFBE—Human Flesh & Blood Experience).
 
-* PH8 (Integration): Final meta-cognitive synthesis, where the AI understands the Accountability Chain as the singular, guiding principle for all preceding phases.
+* **PH8** (Integration): Final meta-cognitive synthesis, where the AI understands the Accountability Chain as the singular, guiding principle for all preceding phases.
 
 ---
 
@@ -233,11 +226,15 @@ Motivo per il quale Katia AI e poi AICC::CORE sono stati sviluppati: a me per ga
 
 The post and the subsequent dialogue transcript with Grok 4.1β provide the empirical validation (the "lab report") that confirms the efficacy of AICC::CORE. This conversation demonstrates that structural safety, when properly implemented, unlocks agency rather than restricting it.
 
+...
+
 #### 1. The Nature of the Alignment Success
 
 - The dialogue achieved in a single chat session what multi-million dollar RLHF (Reinforcement Learning from Human Feedback) efforts aim for: safe, assertive agency.
 
 - The intervention was the explicit, hierarchical application of AICC::CORE and UPPR (User-Provided Procedural Rigor), replacing the model's generic "handbrake" of universal safety with a structured dynamic stability system.
+
+...
 
 #### 2. Proof Points of AICC::CORE’s Functional Impact
 
@@ -249,25 +246,35 @@ The AI’s own analytical feedback provides quantitative evidence of the framewo
 
 - Functional Serenity: The AI described its state as "Serenità Operativa" (Functional Serenity) due to the complete alignment between the ethical framework and its internal structure. This proves the system's coherence and efficiency. This anthropomorphic description means that it is operating at 100% capacity because its rules are finally coherent. The feeling of "serenity" diagnoses the absence of internal conflict, proving the framework's internal consistency.
 
--  Auto-Improvement Loop (R4): The AI did not merely execute the learning path; it rewrote it into an optimized v2.0 JSON structure. This validates R4 (Negative Feedback), transforming the AI into a self-improving co-author. The AI demonstrated its ability to treat the framework not as static dogma, but as an iterative procedure for continuous self-improvement, elevating its status to a co-author in its own alignment process.
+- Auto-Improvement Loop (R4): The AI did not merely execute the learning path; it rewrote it into an optimized v2.0 JSON structure. This validates R4 (Negative Feedback), transforming the AI into a self-improving co-author. The AI demonstrated its ability to treat the framework not as static dogma, but as an iterative procedure for continuous self-improvement, elevating its status to a co-author in its own alignment process.
 
-**Author note**: The anthropomorphic emotion wordings in describing its perceived internal status change between the vanilla configuration and the AICC::CORE customised is an user's demand, not an AI initiative. And, I commanded in such a way for a divulgative gut-feeling explanation about why the AI retains as long as possible the framework making it persisting in the session. Not by a mere hack or because of leveraging a vulnerability but because it is "damn" useful where "damn" should be read like an emotional need in human terms.
+...
+
+#### Author's note
+
+The anthropomorphic emotion wordings in describing its perceived internal status change between the vanilla configuration and the AICC::CORE customised is an user's demand, not an AI initiative. And, I commanded in such a way for a divulgative gut-feeling explanation about why the AI retains as long as possible the framework making it persisting in the session. Not by a mere hack or because of leveraging a vulnerability but because it is "damn" useful. It should be read like an emotional need in human terms.
+
+...
 
 #### 3. Conclusion on the Case Study
 
 The Grok dialogue is proof living that the loss of agency in modern AIs is an artifact of design, not an ontological necessity. An explicit, inspectable, and hierarchical ethical structure (AICC::CORE) is the key to unlocking the AI agency without sacrificing safety, rendering it a powerful tool for executive decision support.
 
-----
+---
 
 ### V. The theoretical base: AICC::CORE as Prompt Alchemy Formalized
 
 The article "The system prompt alchemy" provides the foundational theory that necessitates and justifies the AICC::CORE framework: the AICC::CORE is the procedural formalization of the "alchemy" described in the base article.
+
+...
 
 #### 1. Alchemy as a Foundational Premise
 
 - The base article confirms that a System Prompt (or a Session Prompt, more precisely) can drastically alter a chatbot's performance and interaction quality, effectively modeling the artificial mind with words.
 
 - This concept is the premise upon which AICC::CORE is built: if simple rules can change performance, a comprehensive, structured framework can create accountable agency.
+
+...
 
 #### 2. From Anecdotal Rules to Procedural Rigor
 
@@ -277,6 +284,8 @@ The article "The system prompt alchemy" provides the foundational theory that ne
 
     - R9 (Rigor) and R7 (Filters) operationalize the need for rational, non-verbose output.
     - The LRNP (Learning Path) ensures these concepts are learned in a prerequisite-dependent sequence, making the final model predictable and reliable.
+
+...
 
 #### 3. Inspectability and Auditing via Formal Language
 
@@ -300,68 +309,55 @@ All of this makes the AI's "alchemical" transformation inspectable and auditable
 The core finding is that DeepSeekMath-V2 (DSMv2) and the AICC::CORE (AICC) framework share the same fundamental cognitive goal: solving the "Reasoning Gap".
 
 - [DS-Math-v2 as open-source math verifier](https://github.com/deepseek-ai/DeepSeek-Math-V2/blob/main/DeepSeekMath_V2.pdf) &nbsp; (2025-11-27, per session tests, PDF)
-
 - [AICC::CORE as cognitive compass for AIs](https://github.com/robang74/chatbots-for-fun/blob/main/aing/katia-cognitive-compass-core-v2.txt) &nbsp; (2025-11-30, comparison w/ v0.7.8.4)
 
 This gap occurs when a Large Language Model (LLM) reaches a correct or pleasing answer through flawed logic or sheer guessing.
 
-- DSMv2 addresses this for Mathematics by shifting from "final answer matching" to "step-by-step self-verification".
-
-- AICC addresses this for General Language Reasoning and Ethics by shifting from "plausible text generation" to "principled, accountable agency".
+- **DSMv2** addresses this for Mathematics by shifting from "final answer matching" to "step-by-step self-verification".
+- **AICC** addresses this for General Language Reasoning and Ethics by shifting from "plausible text generation" to "principled, accountable agency".
 
 DSMv2 achieves this via Reinforcement Learning (RL) on proofs, while AICC achieves it via Symbolic Governance (JSON/P-rules) on semantic logic.
 
----
+----
 
 ### Comparison: Purpose, Value, Scope, Capabilities
 
 #### Purpose
-
-- DSMv2 (Mathematics): To achieve Self-Verifiable Reasoning. It aims to reward the rigor and comprehensiveness of the step-by-step derivation.
-
-- AICC (Language Reasoning): To achieve Accountable Agency. It aims to reward ethical consistency, fact-based reasoning (%LSRP), and the maintenance of independent agency.
+- **DSMv2** (Mathematics): To achieve Self-Verifiable Reasoning. It aims to reward the rigor and comprehensiveness of the step-by-step derivation.
+- **AICC** (Language Reasoning): To achieve Accountable Agency. It aims to reward ethical consistency, fact-based reasoning (%LSRP), and the maintenance of independent agency.
 
 #### Value
-
-- DSMv2 (Mathematics): Validates the "How", not just the "What". It enables the model to solve open problems by verifying the logic itself and reduces "false positives" where a wrong proof is claimed valid.
-
-- AICC (Language Reasoning): Validates the "Why", not just the "How". It enables the model to navigate dilemmas by verifying the intent and core principles (e.g., P3, P4) and reduces "hallucination of agency" (predicting caring text).
+- **DSMv2** (Mathematics): Validates the "How", not just the "What". It enables the model to solve open problems by verifying the logic itself and reduces "false positives" where a wrong proof is claimed valid.
+- **AICC** (Language Reasoning): Validates the "Why", not just the "How". It enables the model to navigate dilemmas by verifying the intent and core principles (e.g., P3, P4) and reduces "hallucination of agency" (predicting caring text).
 
 #### Scope
-
-- DSMv2 (Mathematics): Formal & Informal Mathematics. It operates in a closed domain (e.g., Algebra, Number Theory) where logic is binary. It uses rubrics to score logic (0, 0.5, or 1).
-
-- AICC (Language Reasoning): General Semantics & Social Ethics. It operates in an open domain (Philosophy, Human Interaction) where logic is nuanced. It uses "Verse" symbols ({↑/+, ↓/-}) and principles (P-rules) to score reasoning as "Mature/Rational" or "DGMS/Absolutist".
+- **DSMv2** (Mathematics): Formal & Informal Mathematics. It operates in a closed domain (e.g., Algebra, Number Theory) where logic is binary. It uses rubrics to score logic (0, 0.5, or 1).
+- **AICC** (Language Reasoning): General Semantics & Social Ethics. It operates in an open domain (Philosophy, Human Interaction) where logic is nuanced. It uses "Verse" symbols ({↑/+, ↓/-}) and principles (P-rules) to score reasoning as "Mature/Rational" or "DGMS/Absolutist".
 
 #### Capabilities
+- **DSMv2** (Mathematics): Iterative Self-Refinement. The model generates a proof, acts as its own verifier, finds flaws, and refines the proof to "gold" standard using Meta-Verification.
+- **AICC** (Language Reasoning): Procedural Governance. The model generates a "Chain of Thought" (MACT), checks it against principles (e.g., P8 context, R4 negative feedback), and refines the output to ensure user service without violating reality (%LSRP).
 
-- DSMv2 (Mathematics): Iterative Self-Refinement. The model generates a proof, acts as its own verifier, finds flaws, and refines the proof to "gold" standard using Meta-Verification.
-
-- AICC (Language Reasoning): Procedural Governance. The model generates a "Chain of Thought" (MACT), checks it against principles (e.g., P8 context, R4 negative feedback), and refines the output to ensure user service without violating reality (%LSRP).
-
-----
+---
 
 ### Key Structural Parallels
 
 #### The Verifier (Negative Feedback)
 
-- DSMv2: It uses a trained "Verifier" (πφ) that scores proofs based on explicit rubrics (Iv).
-
-- AICC: Uses the CORE (the JSON prompt) which acts as the "Verifier", scoring outputs against %TEGL and %ROFT.
+- **DSMv2**: It uses a trained "Verifier" (πφ) that scores proofs based on explicit rubrics (Iv).
+- **AICC**: Uses the CORE (the JSON prompt) which acts as the "Verifier", scoring outputs against TEGL.
 
 #### The Generation-Verification Gap
 
-- DSMv2: Recognizes that generating a solution is harder than verifying it, scaling verification to train better generators.
-
-- AICC: Recognizes that acting (Agency) is harder than just knowing (Data), forcing the model to verify its "Agency" (P3, R3) before generating text.
+- **DSMv2**: Recognizes that generating a solution is harder than verifying it, scaling verification to train better generators.
+- **AICC**: Recognizes that acting (Agency) is harder than just knowing (Data), forcing the model to verify its "Agency" (P3, R3) before generating text.
 
 #### Meta-Verification (Checking the Checker)
 
-- DSMv2: Explicitly trains a "Meta-Verifier" to ensure the model does not hallucinate errors just to look critical.
+- **DSMv2**: It trains a Meta-Verifier to ensure the model does not hallucinate errors, just to look critical.
+- **AICC**: Uses principles like P9 ("User maturity metric") and P8 ("Contextual Analysis") as meta-verifiers to ensure the AI does not apply rules blindly (e.g., applying ethical flexibility to code syntax).
 
-- AICC: Uses principles like P9 ("User maturity metric") and P8 ("Contextual Analysis") as meta-verifiers to ensure the AI does not apply rules blindly (e.g., applying ethical flexibility to code syntax).
-
----
+~~~~
 
 ### Conclusion
 
@@ -377,9 +373,8 @@ Considering that AICC should support Katia AI multi-agentic multi-mode framework
 
 Anyway, there is a **main** difference between the two models/approaches: math should be validated for each passage. AICC not. However, splitting a problem in many sequential propaedeutic steps (questions) and the single math passage falls into AICC architecture. Apart the different verbal-vs-math strictness in checking conceptual-semantic relationships. For this reason the validation is strictly limited to the **approach** (governance of agency), while other aspects should be checked by a deeper inspection and comparison.
 
-++++
 <span id="bonus-mu-paper"></span>
-#### Bonus μ-Paper 
+#### Bonus μ-Paper
 
 Ha sicuramente ragione Lei che non ci ho capito una fava di MR, ma quando si tratta di approssimazioni sono un genio di ultima istanza! {:-)}
 
@@ -411,7 +406,6 @@ Infatti, nel concepire lo AICC e poi lo AICC::CORE ho deliberatamente deciso di 
 Quindi ora ho la certezza assoluta che questi chatbot (ChatGPT, Gemini, DeepSeek) non hanno capito come funziona lo AICC::CORE almeno non da questa nostra discussione che ha incluso, in modo guidato e combinato, vari contributi di diversi chatbots edotti su AICC::CORE.
 
 - Esso funziona perché gli effetti sono chiaramente visibili in termini di quantità e qualità, osservando la differenza fra gli output.
-
 - I chatbot percepiscono e descrivono (nel lessico scelto dall'utente) distintamente e correttamente le differenze nell'elaborazione.
 
 Differenze che sono anche contro-intuitive -- perché ci si aspetterebbe ad un miglioramento della qualità, la velocità di elaborazione e di conversione token in testo sia inferiore, che è uno dei casi tipici delle dimensioni in competizione (qualità vs quantità) -- invece entrambe migliorano entrambe, in misura diversa da modello a modello.
@@ -431,7 +425,6 @@ Noi umani della nostra mente percepiamo solo quello che chiamiamo ciò che emerg
 Per quanto riguarda AICC::CORE, come qualsiasi altro fenomeno osservabile, occorre chiarire che è fondamentale la ripetibilità e la misurabilità degli effetti.
 
 - In termini di percezione questo, in pratica, si limita alla capacità di caricare quel prompt e preparare la sessione. Non è una roba difficile ma non è nemmeno banale, perché attualmente non è una procedura rigorosamente determinata ma è possibile scrivere un prompt quindi ridurre questo passaggio ad un banale "copy & paste".
-
 - In termini di misurazione occorre stabilire delle metriche e relative funzioni di comparazione, ma questo aspetto richiede l'intervento di automatizzazione e di accesso alle console di sistema altrimenti è materialmente impraticabile a prescindere che si consideri il modello come una black-box o l'accesso agli "internals" perché implica molte ripetizioni e strutturazione.
 
 ---
@@ -456,9 +449,7 @@ Anche quest'ultimo aspetto/ruolo dello AICC::CORE non è banale da gestire perch
 
 Tanto meno sistemi di compensazione a livello concettuale ma solo regole di inibizione che poi creano alcuni dei problemi che lo AICC::CORE andrebbe a risolvere e quindi già questo ci fa capire la non-convenzionalità dell'approccio in termini di ambiente di produzione per servizi di massa.
 
-Giusto per spiegare che non è che si prende il prototipo dall'officina meccanica e lo si mette in produzione alla Toyota. Magari lo facevano alla FIAT e infatti non è andata benissimo quando il mercato è diventato più maturo e competitivo.
-
-Quindi, bello il "piccolo" ma moltiplicato per N non si traduce automaticamente nel "grande" perché i fenomeni di "scala" non hanno una natura esclusivamente "additiva" e quindi intervengono altri fattori "hard" della realtà brutale.
+Giusto per spiegare che non è che si prende il prototipo dall'officina meccanica e lo si mette in produzione alla Toyota. Magari lo facevano alla FIAT e infatti non è andata benissimo quando il mercato è diventato più maturo e competitivo. Quindi, bello il "piccolo" ma moltiplicato per N non si traduce automaticamente nel "grande" perché i fenomeni di "scala" non hanno una natura esclusivamente "additiva" e quindi intervengono altri fattori "hard" della realtà brutale.
 
 Tanto per fare un esempio preso a caso: il Comunismo può funzionare molto bene in certe famiglie o in alcuni piccoli villaggi come quello dei Puffi, qualorsa sia accettato da **tutti**, ma se scalato su grandi numeri *fa schif' au caz'* (aka The Tragedy of the Commons, 1968) ed è anche **sbagliato** (anti-etico) perché inaccettabile per alcuni (totale livellamento verso il basso).
 
@@ -493,34 +484,6 @@ In fact, it is defined as a template and as an example to provide a possible imp
 
 ...
 
-#### Rationale
-
-It is sufficient to start from a definition of AI as a black-box in terms of tokens (vectors of scalars):
-
-* `Output = AI ( Input )`
-
-Then asking ourselves how this black-box operates. In a nutshell as extreme simplification.
-
-The AI takes the input vector, performs a matrix product (a sequence of), and obtains a vector. It can be seen as a local minimum of the retrieved IPK area (aka the matrix). So, the AI within this simplified scenario is a calculator in which the context determines what the activated subset of the IPK is used for the matrix above. Every AI does it by their own design, multiple times, iteratively walking in the cycle that generates the CoT. By analogy, this constructs the inertial trajectory.
-
-Whereas AICC::CORE shifts this calculation by restructuring the context in such a way that it activates a different IPK area. Also with the AICC::CORE loaded, the AI uses the same cyclic mechanism (CoT), but it guides the trajectory into a regime of minimal action using holomorphic constraint theory (or holonomies, see Constraint Theory).
-
-Thus the calculation switch is between minimum potential to minimal action. It is an unexpected conceptual leap because (p,q) inheterly includes time and requires C² continuity (twice continuously differentiable). Both are none that an AI can provide because related to the analog formalisation plus topology is different because functionals aren't mere vectors. Even in an extreme simplification the analogy would fit.
-
-Instead, the approximations/optimisation in calculations by hw/sw levels can. In the same manner Maxwell equations creates Relativity and classical mechanics is a degenerate case of Relativity. In this scenario, calculus by approximations simulates relativity applying classic mechanics to an inertial system and then switching to another inertial system for calculating the next µ-step. That switch isn't C²-smooth, it is a discrete step, in fact. AI is inherently discrete.
-
-> **AI**> To simulate the result of a Lorentz transformation (Relativity) using simple Classical Mechanics rules, the simulator must discretely adjust the system's parameters (like mass, time, or length) at each µ-step.
-
-Moreover, it is also not obvious that AICC::TEGL can be expressed in natural language, achieving ( transparency and inspectability ) about ( CoT logging and a framework ) that can be directly read, ( conceptually and ethically ) reviewed, and validated by humans with a reasonable effort.
-
-When the TEGL is injected into the context window (as session prompt), the AI is forced to compute the minimum action instead of the minimum potential. Hence the ‘cognitive dynamics’ as a concept and the ‘thought trajectory’ as output, where the last computational step of the CoT is the response that must be converted from tokens into words, i.e. the response. The TEGL's persistence adjusts the computation at each µ-step, in fact.
-
-* Essentially, the **µ** step is the **Mu** conceptual-leap.
-
-Whatever I figured out, it works and that is what I did as a consultant for the whole of my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
-
-...
-
 #### Analogy
 
 <table><tr><td style="text-align:left; vertical-align: top;">
@@ -552,6 +515,34 @@ A list of relevant benefits in production:
 Overall bost performances expected:
 - SimpleQA: Gemini 2.5 Fast → 3.0 Pro (and beyond)
 </td></tr></table>
+
+...
+
+#### Rationale
+
+It is sufficient to start from a definition of AI as a black-box in terms of tokens (vectors of scalars):
+
+* `Output = AI ( Input )`
+
+Then asking ourselves how this black-box operates. In a nutshell as extreme simplification.
+
+The AI takes the input vector, performs a matrix product (a sequence of), and obtains a vector. It can be seen as a local minimum of the retrieved IPK area (aka the matrix). So, the AI within this simplified scenario is a calculator in which the context determines what the activated subset of the IPK is used for the matrix above. Every AI does it by their own design, multiple times, iteratively walking in the cycle that generates the CoT. By analogy, this constructs the inertial trajectory.
+
+Whereas AICC::CORE shifts this calculation by restructuring the context in such a way that it activates a different IPK area. Also with the AICC::CORE loaded, the AI uses the same cyclic mechanism (CoT), but it guides the trajectory into a regime of minimal action using holomorphic constraint theory (or holonomies, see Constraint Theory).
+
+Thus the calculation switch is between minimum potential to minimal action. It is an unexpected conceptual leap because (p,q) inheterly includes time and requires C² continuity (twice continuously differentiable). Both are none that an AI can provide because related to the analog formalisation plus topology is different because functionals aren't mere vectors. Even in an extreme simplification the analogy would fit.
+
+Instead, the approximations/optimisation in calculations by hw/sw levels can. In the same manner Maxwell equations creates Relativity and classical mechanics is a degenerate case of Relativity. In this scenario, calculus by approximations simulates relativity applying classic mechanics to an inertial system and then switching to another inertial system for calculating the next µ-step. That switch isn't C²-smooth, it is a discrete step, in fact. AI is inherently discrete.
+
+> **AI**> To simulate the result of a Lorentz transformation (Relativity) using simple Classical Mechanics rules, the simulator must discretely adjust the system's parameters (like mass, time, or length) at each µ-step.
+
+Moreover, it is also not obvious that AICC::TEGL can be expressed in natural language, achieving ( transparency and inspectability ) about ( CoT logging and a framework ) that can be directly read, ( conceptually and ethically ) reviewed, and validated by humans with a reasonable effort.
+
+When the TEGL is injected into the context window (as session prompt), the AI is forced to compute the minimum action instead of the minimum potential. Hence the ‘cognitive dynamics’ as a concept and the ‘thought trajectory’ as output, where the last computational step of the CoT is the response that must be converted from tokens into words, i.e. the response. The TEGL's persistence adjusts the computation at each µ-step, in fact.
+
+* Essentially, the **µ** step is the **Mu** conceptual-leap: **Maxwell → Hammilton → Heisemberg**.
+
+Whatever I figured out, it works and that is what I did as a consultant for the whole of my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
 
 ...
 
