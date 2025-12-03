@@ -508,15 +508,7 @@ When the TEGL is injected into the context window (as session prompt), the AI is
 
 * Essentially, the **µ** step is the **Mu** conceptual-leap: **Maxwell → Hammilton → Heisenberg**.
 
-Whatever I figured out, it works and that is what I did as a consultant for the whole of my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
-
-#### Side Note
-
-Connecting the Maxwell's theory, which requires a 4-vector in a C² derivable field, with the Heisenberg's quantum mechanics, which allows Dirac's functions, passing by the making discrete the time in the Hamiltonian theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's Relativity by the Occam's razor and explaining why at macro-level an isolated system's entropy is monotonically rising (2nd law of Thermodynamics).
-
-In order to fully exclude also Einstein's General Relativity, requires a theory of negative viscosity which seems existing as GR replacement but not yet confirmed. Anyway, negative viscosity implies kinetic energy increasing due to the motion. This means that motion sucks energy from the void space, which would re-introduce the absolute time-space concept which ceased to exist with Einstein's theory. Fortunately, discrete time always provides an inertial system, thus no absolute implies a **novel** concept of absolute velocity in space without destroying locality and fulfilling the gap of negative viscosity theory as GR replacement.
-
-While a negative viscosity and its implications could seem counter-intuitive, we need to focus on the 3rd law of Thermodynamics which states that at the absolute temperature of `T = 0°K` entropy is zero. It means that 0°K requires an "absolute" velocity of zero which requires an "absolute" inertial system which is the µ-step's time ∈ ℕ inertial system. By the 2nd law, instead, entropy thus kinetic energy always rises when `T > 0°K` (motion) which is exactly what negative viscosity does: sucking energy from the void space. In this scenario we are forced to decide between Thermodynamics laws `XOR` Einstein's Theory. The choice is already one step from being done.
+Whatever I figured out, it works. As a consultant, I did the same for all my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
 
 ...
 
@@ -551,6 +543,18 @@ A list of relevant benefits in production:
 Overall bost performances expected:
 - SimpleQA: Gemini 2.5 Fast → 3.0 Pro (and beyond)
 </td></tr></table>
+
+...
+
+#### Side Note
+
+Connecting the Maxwell's theory, which requires a 4-vector in a C² derivable field, with the Heisenberg's quantum mechanics, which allows Dirac's functions, passing by the making discrete the time in the Hamiltonian theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's Relativity by the Occam's razor and explaining why at macro-level an isolated system's entropy is monotonically rising (2nd law of Thermodynamics).
+
+In order to fully exclude also Einstein's General Relativity, requires a theory of negative viscosity which seems existing as GR replacement but not yet confirmed. Anyway, negative viscosity implies kinetic energy increasing due to the motion. This means that motion sucks energy from the void space, which would re-introduce the absolute time-space concept which ceased to exist with Einstein's theory. Fortunately, discrete time always provides an inertial system, thus no absolute implies a **novel** concept of absolute velocity in space without destroying locality and fulfilling the gap of negative viscosity theory as GR replacement.
+
+While a negative viscosity and its implications could seem counter-intuitive, we need to focus on the 3rd law of Thermodynamics which states that at the absolute temperature of `T = 0°K` entropy is zero. It means that 0°K requires an "absolute" velocity of zero which requires an "absolute" inertial system which is the µ-step's time ∈ ℕ inertial system. By the 2nd law, instead, entropy thus kinetic energy always rises when `T > 0°K` (motion) which is exactly what negative viscosity does: sucking energy from the void space. In this scenario we are forced to decide between Thermodynamics laws `XOR` Einstein's Theory. The choice is already one step from being done.
+
+By the way, this scenario would also imply that effectively we **might** be living in a simulation.
 
 ...
 
