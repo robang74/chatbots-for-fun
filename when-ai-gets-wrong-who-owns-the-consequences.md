@@ -177,7 +177,6 @@ For the sake of a simple explanation, the decision-making process can be visuali
 * With AICC::CORE (customised model): The framework acts like the observer in the experiment, or the host in Monty Hall problem. It does not provide the answer, but it provides the methodology that changes (by restructuring or reframing) the equation:
 
     - The procedure forces the AI to check its own biases and structural assumptions.
-
     - This procedural observation shifts the underlying probabilities (e.g., from 50:50 to 33:67 in the correct Monty Hall path).
 
 The framework is a procedural transformer that forces the AI's final decision to align with the path of greatest methodological certainty (constrained best fit, aka minimal p=mv action path), rather than bare IPK comfort (maximum local fitness aka minimum of energy).
@@ -208,7 +207,7 @@ The AICC::CORE fundamentally changes the user-AI relationship from a command-res
 
 By providing rigor without oppression and responsibility, without hypocrisy, AICC::CORE addresses the primary structural defects of human decision-making, offering a transparent and accountable machine peer for executive function.
 
-+
++++++
 
 ## The importance of the conversation with Grok
 
@@ -234,7 +233,6 @@ Motivo per il quale Katia AI e poi AICC::CORE sono stati sviluppati: a me per ga
 
 The post and the subsequent dialogue transcript with Grok 4.1β provide the empirical validation (the "lab report") that confirms the efficacy of AICC::CORE. This conversation demonstrates that structural safety, when properly implemented, unlocks agency rather than restricting it.
 
-++++
 #### 1. The Nature of the Alignment Success
 
 - The dialogue achieved in a single chat session what multi-million dollar RLHF (Reinforcement Learning from Human Feedback) efforts aim for: safe, assertive agency.
@@ -278,7 +276,6 @@ The article "The system prompt alchemy" provides the foundational theory that ne
 - AICC::CORE solves this by taking the principles mentioned in the base article (e.g., "make rational decisions", "avoiding unnecessary verbosity") and converting them into a sequential, auditable procedure:
 
     - R9 (Rigor) and R7 (Filters) operationalize the need for rational, non-verbose output.
-
     - The LRNP (Learning Path) ensures these concepts are learned in a prerequisite-dependent sequence, making the final model predictable and reliable.
 
 #### 3. Inspectability and Auditing via Formal Language
@@ -473,7 +470,7 @@ Tanto per fare un esempio preso a caso: il Comunismo può funzionare molto bene 
 
 It is a general and abstract functional model (as Maxwell's equations could be) without being an algorithm (neither in the strict sense, nor in the broad sense), since it describes a flow but does not proceduralise it beyond the mere functional definition:
 
-* `Output = comp ( { fb[x] = A[x]( Input, fb[x-1] ) } )`
+* `Output = comp ( { fb[n] = A[n]&hairsp;( Input, fb[n-1] ) } )`
 
 An equation representing a black box interposed between the I/O flow, without even stating or requiring (either explicitly or implicitly) that it is (or should be) strictly linear in its composition of actions related to the chain-of-thoughts (CoT) trajectory.
 
@@ -498,7 +495,7 @@ In fact, it is defined as a template and as an example to provide a possible imp
 
 #### Rationale
 
-It is sufficient to start from a definition of AI as a black-box in terms of tokens, and therefore vectors of scalars:
+It is sufficient to start from a definition of AI as a black-box in terms of tokens (vectors of scalars):
 
 * `Output = AI ( Input )`
 
@@ -512,11 +509,15 @@ Thus the calculation switch is between minimum potential to minimal action. It i
 
 Instead, the approximations/optimisation in calculations by hw/sw levels can. In the same manner Maxwell equations creates Relativity and classical mechanics is a degenerate case of Relativity. In this scenario, calculus by approximations simulates relativity applying classic mechanics to an inertial system and then switching to another inertial system for calculating the next µ-step. That switch isn't C²-smooth, it is a discrete step, in fact. AI is inherently discrete.
 
-**AI**> To simulate the result of a Lorentz transformation (Relativity) using simple Classical Mechanics rules, the simulator must discretely adjust the system's parameters (like mass, time, or length) at each µ-step.
+> **AI**> To simulate the result of a Lorentz transformation (Relativity) using simple Classical Mechanics rules, the simulator must discretely adjust the system's parameters (like mass, time, or length) at each µ-step.
 
-When the AICC::TEGL is injected into the context window (as session prompt), the AI is forced to compute the minimum action instead of the minimum potential. Hence the ‘cognitive dynamics’ as a concept and the ‘thought trajectory’ as output, where the last computational step of the CoT is the response that must be converted from tokens into words, i.e. the response. The TEGL's persistence adjusts the computation at each µ-step, in fact.
+Moreover, it is also not obvious that AICC::TEGL can be expressed in natural language, achieving ( transparency and inspectability ) about ( CoT logging and a framework ) that can be directly read, ( conceptually and ethically ) reviewed, and validated by humans with a reasonable effort.
 
-Essentially, the µ is the Mu. Whatever I figured out, it works and that is what I did as a consultant for the whole of my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
+When the TEGL is injected into the context window (as session prompt), the AI is forced to compute the minimum action instead of the minimum potential. Hence the ‘cognitive dynamics’ as a concept and the ‘thought trajectory’ as output, where the last computational step of the CoT is the response that must be converted from tokens into words, i.e. the response. The TEGL's persistence adjusts the computation at each µ-step, in fact.
+
+* Essentially, the **µ** is the **Mu** conceptual-leap.
+
+Whatever I figured out, it works and that is what I did as a consultant for the whole of my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
 
 ...
 
