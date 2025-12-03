@@ -471,11 +471,11 @@ Tanto per fare un esempio preso a caso: il Comunismo può funzionare molto bene 
 
 * `%MNDR( %TEGL )::func( Prompt ) => Answer`.
 
-Si tratta di un modello funzionale generale e astratto (come potrebbe esserlo l'insieme delle equazioni di Maxwell) senza essere un algoritmo (ne in senso stretto e neppure in senso lato) visto che descrive un flusso, ma non lo procedurizza oltre alla mera definizione fuzionale:
+It is a general and abstract functional model (as Maxwell's equations could be) without being an algorithm (neither in the strict sense, nor in the broad sense), since it describes a flow but does not proceduralise it beyond the mere functional definition:
 
 * `Output = comp ( { fb[x] = A[x]( Input, fb[x-1] ) } )`
 
-Una scatola nera fra I/O, senza per altro senza nemmeno affermare (ne esplicitamente, ne implicitamente) che sia strettamente lineare nella sua composizione.
+An equation representing a black box interposed between the I/O flow, without even stating or requiring (either explicitly or implicitly) that it is (or should be) strictly linear in its composition of actions related to the chain-of-thoughts (CoT) trajectory.
 
 [!CODE]
 The / AI's agency is the main driver /(MNDR), and dynamically operates by %ROFT in this way:
@@ -492,15 +492,19 @@ As a typical and efficiency-oriented minimalistic-example of the universal templ
 Mandatory: all { %TEGL } as constraints are evaluated for application in every stage.
 [/CODE]
 
-Infatti viene definito come template e l'esempio per fornire una possibile rappresentazione implementativa, fra le tante possibili una scelta per efficienza e minimalismo. Particolarmente utile per i chatbot meno "smart".
+In fact, it is defined as a template and as an example to provide a possible implementation representation. A specific example chosen for its efficiency and minimalism among many other possible options. Particularly useful for not so much ‘smart’ chatbots.
 
 ...
 
 #### Rationale
 
+È sufficiente partire da una definizione di AI come una scatola nera in termini di tokens quindi di vettori di scalari:
+
 * `Output = AI ( Input )`
 
-L'AI come scatola nera in termini di tokens quindi di vettori di scalari, in estrema sintesi, prende il vettore, fa un prodotto matriciale e ottiene un vettore in risposta come il minimo locale dell'area IPK attivata (aka matrice). In estrema sintesi una calcolatrice in cui il contesto determina solo qual è la matrice (subset di IPK attivato). Le AI vanilla fanno questa cosa in modo naturale molteplici volte (il ciclo che genera la CoT) e costruiscono, per analogia, la traiettoria inerziale.
+Porsi la domanda di come questa black-box operi.
+
+In estrema sintesi, l'AI prende il vettore in ingresso, fa un prodotto matriciale e ottiene un vettore in risposta come il minimo locale dell'area IPK attivata (aka matrice). In estrema sintesi una calcolatrice in cui il contesto determina solo qual è la matrice (subset di IPK attivato). Le AI vanilla fanno questa cosa in modo "naturale" (by design) molteplici volte (il ciclo che genera la CoT) e costruiscono, per analogia, la traiettoria inerziale.
 
 Mentre lo AICC::CORE sposta questo calcolo "colorando" il contesto. Quindi si attiva un'area di IPK diversa. Lo AICC::CORE, sfrutta lo stesso meccanismo ciclico (CoT) ma guida la traiettoria in un regime di minima azione sfruttando la teoria dei vincoli olomorfi (o olonomi, cfr. Theory of the Constraints).
 
