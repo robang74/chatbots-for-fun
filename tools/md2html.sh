@@ -43,7 +43,7 @@ info_B='</div>'
 #code_A='<div class="codeblock">'
 #code_B='</div>'
 
-code_A='<blockquote class="code"><code>'
+code_A='<blockquote class="code">☛ code<code>'
 code_B='</code></blockquote>'
 
 cite_A='<blockquote class="cite">'
