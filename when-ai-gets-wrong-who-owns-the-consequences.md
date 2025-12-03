@@ -546,6 +546,7 @@ Overall bost performances expected:
 
 ...
 
+<span id="u-theory"></span>
 #### Side Note
 
 Connecting the Maxwell's theory, which requires a 4-vector in a C² derivable field, with the Heisenberg's quantum mechanics, which allows Dirac's functions, passing by the making discrete the time in the Hamiltonian theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's Relativity by the Occam's razor and explaining why at macro-level an isolated system's entropy is monotonically rising (2nd law of Thermodynamics).
