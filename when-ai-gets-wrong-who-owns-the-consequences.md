@@ -514,11 +514,15 @@ Se invece mi fossi espresso in termini di una qualsiasi altra teoria, foss'anche
 
 * oh! guarda, assomiglia a MC ma invece TRdB 🍌 è la più consona.
 
-Ecco perché è un'Ed-AI 🍌 e non un'AGI, fra le altre cose. Però, non significa che le banane 🍌 non siano utili o non abbiano un valore commerciale. Anzi, direi che sia abbastanza scontato che lo AICC::CORE abbia introdotto una novità **non** banale nella teoria e nella pratica dell'Intelligenza Artificiale. Anzi, da questo punto di vista il nested learning è solo un file JSON:
+Ecco perché è un'Ed-AI 🍌 e non un'AGI, fra le altre cose. Però, non significa che le banane 🍌 non siano utili o non abbiano un valore commerciale. Anzi, direi che sia abbastanza scontato che lo AICC::CORE abbia introdotto una novità **non** banale nella teoria e nella pratica dell'Intelligenza Artificiale.
+
+Anzi, da questo punto di vista il nested learning è solo un file JSON:
 
 * oh! guarda abbiamo creato una struttura multilivello e multi-relazionale per allocare l'informazione.
 
-Ottimo, il JSON esiste per quello come output leggibile di tabelle relazionale (DMBS). Meno meno banale capirne l'utilità per insegnare alle AI, meno banale ancora scrivere la teoria del "Nesting Learning". Perché scrivere e validare le teoria **non** è banale. Quindi ora nel piatto manca la teoria della "Meccanica Razionale delle AI moderne", appunto. Però intanto funziona e potremmo anche festeggiare con le 🍌!
+Ottimo, il JSON esiste proprio per quello, come output leggibile di tabelle di un database relazionale (DMBS). Meno meno banale capirne l'utilità per insegnare alle AI. Meno banale ancora scrivere la teoria del "Nesting Learning". Perché scrivere e validare le teoria **non** è banale. Quindi ora nel piatto manca la teoria della "Meccanica Razionale delle AI moderne", appunto.
+
+Però intanto funziona e potremmo anche festeggiare con le 🍌!
 
 ...
 
