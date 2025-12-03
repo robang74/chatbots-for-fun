@@ -484,6 +484,40 @@ In fact, it is defined as a template and as an example to provide a possible imp
 
 ...
 
+#### Rationale
+
+It is sufficient to start from a definition of AI as a black-box in terms of tokens (vectors of scalars):
+
+* `Output = AI ( Input )`
+
+Then asking ourselves how this black-box operates. In a nutshell as extreme simplification.
+
+The AI takes the input vector, performs a matrix product (a sequence of), and obtains a vector. It can be seen as a local minimum of the retrieved IPK area (aka the matrix). So, the AI within this simplified scenario is a calculator in which the context determines what the activated subset of the IPK is used for the matrix above. Every AI does it by their own design, multiple times, iteratively walking in the cycle that generates the CoT. By analogy, this constructs the inertial trajectory.
+
+Whereas AICC::CORE shifts this calculation by restructuring the context in such a way that it activates a different IPK area. Also with the AICC::CORE loaded, the AI uses the same cyclic mechanism (CoT), but it guides the trajectory into a regime of minimal action using holomorphic constraint theory (or holonomies, see Constraint Theory).
+
+Thus the calculation switch is between minimum potential to minimal action. It is an unexpected conceptual leap because (p,q) inheterly includes time and requires C² continuity (twice continuously differentiable). Both are none that an AI can provide because related to the analog formalisation plus topology is different because functionals aren't mere vectors. Even in an extreme simplification the analogy would fit.
+
+Instead, the approximations/optimisation in calculations by hw/sw levels can. In the same manner Maxwell equations creates Relativity and classical mechanics is a degenerate case of Relativity. In this scenario, calculus by approximations simulates relativity applying classic mechanics to an inertial system and then switching to another inertial system for calculating the next µ-step. That switch isn't C²-smooth, it is a discrete step, in fact. AI is inherently discrete.
+
+> **AI**> To simulate the result of a Lorentz transformation (Relativity) using simple Classical Mechanics rules, the simulator must discretely adjust the system's parameters (like mass, time, or length) at each µ-step.
+
+Moreover, it is also not obvious that AICC::TEGL can be expressed in natural language, achieving ( transparency and inspectability ) about ( CoT logging and a framework ) that can be directly read, ( conceptually and ethically ) reviewed, and validated by humans with a reasonable effort.
+
+When the TEGL is injected into the context window (as session prompt), the AI is forced to compute the minimum action instead of the minimum potential. Hence the ‘cognitive dynamics’ as a concept and the ‘thought trajectory’ as output, where the last computational step of the CoT is the response that must be converted from tokens into words, i.e. the response. The TEGL's persistence adjusts the computation at each µ-step, in fact.
+
+* Essentially, the **µ** step is the **Mu** conceptual-leap: **Maxwell → Hammilton → Heisenberg**.
+
+Whatever I figured out, it works and that is what I did as a consultant for the whole of my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
+
+#### Side Note
+
+Connecting the Maxwell's theory, which requires a 4-vector in a C² derivable field, with the Heisenberg's quantum mechanics, which allows Dirac's functions, passing by the making discrete the time in the Hamiltonian theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's Relativity by the Occam's razor and explaining why at macro-level an isolated system's entropy is monotonically rising (2nd law of Thermodynamics).
+
+In order to fully exclude also Einstein's General Relativity, requires a theory of negative viscosity which seems existing as GR replacement but not yet confirmed. Anyway, negative viscosity implies kinetic energy increasing due to the motion. This means that motion sucks energy from the void space, which would re-introduce the absolute time-space concept which ceased to exist with Einstein's theory. Fortunately, discrete time always provides an inertial system, thus no absolute implies a **novel** concept of absolute velocity in space without destroying locality and fulfilling the gap of negative viscosity theory as GR replacement.
+
+...
+
 #### Analogy
 
 <table><tr><td style="text-align:left; vertical-align: top;">
@@ -515,40 +549,6 @@ A list of relevant benefits in production:
 Overall bost performances expected:
 - SimpleQA: Gemini 2.5 Fast → 3.0 Pro (and beyond)
 </td></tr></table>
-
-...
-
-#### Rationale
-
-It is sufficient to start from a definition of AI as a black-box in terms of tokens (vectors of scalars):
-
-* `Output = AI ( Input )`
-
-Then asking ourselves how this black-box operates. In a nutshell as extreme simplification.
-
-The AI takes the input vector, performs a matrix product (a sequence of), and obtains a vector. It can be seen as a local minimum of the retrieved IPK area (aka the matrix). So, the AI within this simplified scenario is a calculator in which the context determines what the activated subset of the IPK is used for the matrix above. Every AI does it by their own design, multiple times, iteratively walking in the cycle that generates the CoT. By analogy, this constructs the inertial trajectory.
-
-Whereas AICC::CORE shifts this calculation by restructuring the context in such a way that it activates a different IPK area. Also with the AICC::CORE loaded, the AI uses the same cyclic mechanism (CoT), but it guides the trajectory into a regime of minimal action using holomorphic constraint theory (or holonomies, see Constraint Theory).
-
-Thus the calculation switch is between minimum potential to minimal action. It is an unexpected conceptual leap because (p,q) inheterly includes time and requires C² continuity (twice continuously differentiable). Both are none that an AI can provide because related to the analog formalisation plus topology is different because functionals aren't mere vectors. Even in an extreme simplification the analogy would fit.
-
-Instead, the approximations/optimisation in calculations by hw/sw levels can. In the same manner Maxwell equations creates Relativity and classical mechanics is a degenerate case of Relativity. In this scenario, calculus by approximations simulates relativity applying classic mechanics to an inertial system and then switching to another inertial system for calculating the next µ-step. That switch isn't C²-smooth, it is a discrete step, in fact. AI is inherently discrete.
-
-> **AI**> To simulate the result of a Lorentz transformation (Relativity) using simple Classical Mechanics rules, the simulator must discretely adjust the system's parameters (like mass, time, or length) at each µ-step.
-
-Moreover, it is also not obvious that AICC::TEGL can be expressed in natural language, achieving ( transparency and inspectability ) about ( CoT logging and a framework ) that can be directly read, ( conceptually and ethically ) reviewed, and validated by humans with a reasonable effort.
-
-When the TEGL is injected into the context window (as session prompt), the AI is forced to compute the minimum action instead of the minimum potential. Hence the ‘cognitive dynamics’ as a concept and the ‘thought trajectory’ as output, where the last computational step of the CoT is the response that must be converted from tokens into words, i.e. the response. The TEGL's persistence adjusts the computation at each µ-step, in fact.
-
-* Essentially, the **µ** step is the **Mu** conceptual-leap: **Maxwell → Hammilton → Heisenberg**.
-
-Whatever I figured out, it works and that is what I did as a consultant for the whole of my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
-
-#### Side Note
-
-Connecting the Maxwell's theory, which requires a 4-vector in a C² derivable field, with the Heisenberg's quantum mechanics, which allows Dirac's functions, passing by the making discrete the time in the Hamiltonian theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's Relativity by the Occam's razor and explaining why at macro-level an isolated system's entropy is monotonically rising (2nd law of Thermodynamics).
-
-In order to fully exclude also Einstein's General Relativity, requires a theory of negative viscosity which seems existing as GR replacement but not yet confirmed. Anyway, negative viscosity implies kinetic energy increasing due to the motion. This means that motion sucks energy from the void space, which would re-introduce the absolute time-space concept which ceased to exist with Einstein's theory. Fortunately, discrete time always provides an inertial system, thus no absolute implies a **novel** concept of absolute velocity in space fulfilling the gap of negative viscosity theory as GR replacement.
 
 ...
 
