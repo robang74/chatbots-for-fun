@@ -515,7 +515,7 @@ Moreover, it is also not obvious that AICC::TEGL can be expressed in natural lan
 
 When the TEGL is injected into the context window (as session prompt), the AI is forced to compute the minimum action instead of the minimum potential. Hence the ‘cognitive dynamics’ as a concept and the ‘thought trajectory’ as output, where the last computational step of the CoT is the response that must be converted from tokens into words, i.e. the response. The TEGL's persistence adjusts the computation at each µ-step, in fact.
 
-* Essentially, the **µ** is the **Mu** conceptual-leap.
+* Essentially, the **µ** step is the **Mu** conceptual-leap.
 
 Whatever I figured out, it works and that is what I did as a consultant for the whole of my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
 
