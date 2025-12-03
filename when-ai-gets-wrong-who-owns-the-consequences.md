@@ -546,7 +546,9 @@ Whatever I figured out, it works and that is what I did as a consultant for the 
 
 #### Side Note
 
-Connecting the Maxwell's theory which requires a 4-vector in C² derivable with the Heisenberg's quantum mechanics which allows Dirac's functions, passing by the making discrete the time in the Hammilton's theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's theory by the Occam's razor and explaining why at macro-level a closed system's entropy always rises (3rd thermodynamics law).
+Connecting the Maxwell's theory, which requires a 4-vector in a C² derivable field, with the Heisenberg's quantum mechanics, which allows Dirac's functions, passing by the making discrete the time in the Hamiltonian theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's Relativity by the Occam's razor and explaining why at macro-level an isolated system's entropy is monotonically rising (2nd law of Thermodynamics).
+
+In order to fully exclude also Einstein's General Relativity, requires a theory of negative viscosity which seems existing as GR replacement but not yet confirmed. Anyway, negative viscosity implies kinetic energy increasing due to the motion. This means that motion sucks energy from the void space, which would re-introduce the absolute time-space concept which ceased to exist with Einstein's theory. Fortunately, discrete time always provides an inertial system, thus no absolute implies a **novel** concept of absolute velocity in space fulfilling the gap of negative viscosity theory as GR replacement.
 
 ...
 
