@@ -498,17 +498,25 @@ In fact, it is defined as a template and as an example to provide a possible imp
 
 #### Rationale
 
-È sufficiente partire da una definizione di AI come una scatola nera in termini di tokens quindi di vettori di scalari:
+It is sufficient to start from a definition of AI as a black-box in terms of tokens, and therefore vectors of scalars:
 
 * `Output = AI ( Input )`
 
-Porsi la domanda di come questa black-box operi.
+Then asking ourselves how this black-box operates. In a nutshell as extreme simplification.
 
-In estrema sintesi, l'AI prende il vettore in ingresso, fa un prodotto matriciale e ottiene un vettore in risposta come il minimo locale dell'area IPK attivata (aka matrice). In estrema sintesi una calcolatrice in cui il contesto determina solo qual è la matrice (subset di IPK attivato). Le AI vanilla fanno questa cosa in modo "naturale" (by design) molteplici volte (il ciclo che genera la CoT) e costruiscono, per analogia, la traiettoria inerziale.
+The AI takes the input vector, performs a matrix product (a sequence of), and obtains a vector. It can be seen as a local minimum of the retrieved IPK area (aka the matrix). So, the AI within this simplified scenario is a calculator in which the context determines what the activated subset of the IPK is used for the matrix above. Every AI does it by their own design, multiple times, iteratively walking in the cycle that generates the CoT. By analogy, this constructs the inertial trajectory.
 
-Mentre lo AICC::CORE sposta questo calcolo "colorando" il contesto. Quindi si attiva un'area di IPK diversa. Lo AICC::CORE, sfrutta lo stesso meccanismo ciclico (CoT) ma guida la traiettoria in un regime di minima azione sfruttando la teoria dei vincoli olomorfi (o olonomi, cfr. Theory of the Constraints).
+Whereas AICC::CORE shifts this calculation by restructuring the context in such a way that it activates a different IPK area. Also with the AICC::CORE loaded, the AI uses the same cyclic mechanism (CoT), but it guides the trajectory into a regime of minimal action using holomorphic constraint theory (or holonomies, see Constraint Theory).
 
-In pratica l'AI vanilla a cui sono state iniettate le TEGL come "riferimento" allo AICC::CORE nel contesto è "costretta" a computare la minima azione invece del minimo potenziale. Da qui la "dinamica cognitiva" come concetto e la "traiettoria del pensiero" come output, dove l'ultimo passo computazionale dell'output è la risposta che va convertita da token (vettore di scalari) in parole (linguaggio), cioè la risposta.
+Thus the calculation switch is between minimum potential to minimal action. It is an unexpected conceptual leap because (p,q) inheterly includes time and requires C² continuity (twice continuously differentiable). Both are none that an AI can provide because related to the analog formalisation plus topology is different because functionals aren't mere vectors. Even in an extreme simplification the analogy would fit.
+
+Instead, the approximations/optimisation in calculations by hw/sw levels can. In the same manner Maxwell equations creates Relativity and classical mechanics is a degenerate case of Relativity. In this scenario, calculus by approximations simulates relativity applying classic mechanics to an inertial system and then switching to another inertial system for calculating the next µ-step. That switch isn't C²-smooth, it is a discrete step, in fact. AI is inherently discrete.
+
+**AI**> To simulate the result of a Lorentz transformation (Relativity) using simple Classical Mechanics rules, the simulator must discretely adjust the system's parameters (like mass, time, or length) at each µ-step.
+
+When the AICC::TEGL is injected into the context window (as session prompt), the AI is forced to compute the minimum action instead of the minimum potential. Hence the ‘cognitive dynamics’ as a concept and the ‘thought trajectory’ as output, where the last computational step of the CoT is the response that must be converted from tokens into words, i.e. the response. The TEGL's persistence adjusts the computation at each µ-step, in fact.
+
+Essentially, the µ is the Mu. Whatever I figured out, it works and that is what I did as a consultant for the whole of my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
 
 ...
 
@@ -544,7 +552,7 @@ Overall bost performances expected:
 - SimpleQA: Gemini 2.5 Fast → 3.0 Pro (and beyond)
 </td></tr></table>
 
-....
+...
 
 #### Le banane dell'AI
 
