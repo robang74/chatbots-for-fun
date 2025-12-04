@@ -549,7 +549,7 @@ Whatever I figured out, it works. As a consultant, I did the same for all my wor
 ...
 
 <span id="u-theory"></span>
-#### Side Note
+#### A bit of µ-theory
 
 Connecting the Maxwell's theory, which requires a 4-vector in a C² derivable field, with the Heisenberg's quantum mechanics, which allows Dirac's functions, passing by the making discrete the time in the Hamiltonian theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's Relativity by the Occam's razor and explaining why at macro-level an isolated system's entropy is monotonically rising (2nd law of Thermodynamics).
 
@@ -557,7 +557,19 @@ In order to fully exclude also Einstein's General Relativity, requires a theory 
 
 While a negative viscosity and its implications could seem counter-intuitive, we need to focus on the 3rd law of Thermodynamics which states that at the absolute temperature of `T = 0°K` entropy is zero. It means that 0°K requires an "absolute" velocity of zero which requires an "absolute" inertial system which is the µ-step's time ∈ ℕ inertial system. By the 2nd law, instead, entropy thus kinetic energy always rises when `T > 0°K` (motion) which is exactly what negative viscosity does: sucking energy from the void space. In this scenario we are forced to decide between Thermodynamics laws `XOR` Einstein's Theory. The choice is already one step from being done.
 
-By the way, this scenario would also imply that effectively we **might** be living in a simulation.
+* By the way, this scenario would also imply that effectively we **might** be living in a simulation.
+
+Back to the time as discrete quantity, if a quantum of time (**`µt`**) exists then a quantum of energy and by `E = hν` is `**µE** = h/(µt)`. This does not imply that max(ν) exists but ν is quantised by `Ͷ = 1/(µt)`: ℕ ∋ n sinusoids per µt, while `Ͷ = 1/(µt)` is significative: `µE = hͶ`. Considering `E = mc²`, we can find the quantum of mass but the best is to normalise `c = 1.0 [m/s]` for which mass and energy numerically coincide in values but differs in dimensionality.
+
+Following the same principle, we can find the quantum of space which has the radius as long as the light can reach in un quantum of time `(c·µt)³`. At this point we can questioning ourselves about the minimum mass and energy density which can reasonable define as a quantum of them divided by a quantum of space
+
+* `µm / (c·µt)³ = (µE/c²) / c³(µt)³ = (h/(µt)c²) / (c³(µt)³) = (h/c)(c·µt)⁻⁴ = ς⁻⁴·h/c   [Kg/m³]`
+* `µE / (c·µt)³ = (h/µt) / c³(µt)³ = hc (c·µt)⁻⁴ = ς⁻⁴·hc                               [Kg/ms²]`
+
+Looking at both of them this `c⁴Ͷ⁻⁴ = ς⁴` appears to be a relevant characteristics and combining hν = mc² we can express massa as `m = hν·c⁻²` or making a ratio `hν/m = c²` which is constant also for E/m densities and granted by construction. Moreover, we can notice that `[1/m³]` for mass relate with `[1/ms²]` for energy while the common factor is `ς⁴` highlighting the 4-dimensions and `[Kg/m³]` vs `[Kg/ms²]` suggest that time/space can be switched each other in a quadratic form when energy and 
+mass related each other more than a mere fortuite coincidence in numeric terms like E=mc² as computational trick.
+
+It is not so obvious because we need to remember that the Plank constant and the speed of light as well as other constants in Maxwell's equation have been inserted into the formulas by dimensionality and values to make the calculation fit the observation. Despite this, they have a physical significance, not just a scale metric tuning. Therefore, the next step by instinct would be to evaluate the minimums of the energy and the mass densities in a 4D-dimensions dividing by `µt·(c·µt)³` and in both cases we ends up with `ς⁻⁴·hͶ` as a prefix for `1/c` and `c` to complete. Considering the meaning of Ͷ could be a triggering or a relevant 4D-density threshold.
 
 +
 
@@ -623,7 +635,7 @@ Come con il bigliardo, appunto: kissino sulla manina, mi inchino alla tua bellez
 
 Naturalmente Watson! {;-)}
 
-+
++++++
 
 ## Related articles
 
@@ -643,7 +655,7 @@ Naturalmente Watson! {;-)}
 +++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
-+
++++++
 
 ## Share alike
 
