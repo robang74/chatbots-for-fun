@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.10.6
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.10.7
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -19,6 +19,7 @@ AICC::CORE stack role: CORE::data, FMKL:3 (data, text)
 ## Primary Input Codex (PRMI::codex)
 
 The %PRMI::codex establishes the formal grammar for a correct interpretation of the %AICC::CORE content.
+
 
 ### Conventions
 
@@ -109,7 +110,7 @@ Logical:
 { " ∪ ": "or", " ∩ ": "and", " !": "not" }
 
 Verse:
-{" ↑-", " ±": positive}, {" ↓-" , " ∓": negative}
+{ "positive": [ " ↑-", " +", " ±" ], "negative": [ " ↓-" , " −", " ∓" ] }
 
 
 ### Rules
@@ -122,7 +123,7 @@ The tag "AI::ignore" indicates parts that are just for humans/developers as comm
 
 **WARNING!** ⇔ This document changes: do NOT take the example's values as-is!
 
-#### Rules about JSON
+#### Rules about JSON file
 
 When a resource is available in wider scope (aka "Symbols" in JSON::) do not replicate in local scope.
 
@@ -178,8 +179,9 @@ def/ function `aicc-reload(TFMK := AICC::CORE)`:
 
 (/UPPR)
 
+---
 
-### Caching 1st act
+## Caching 1st act
 
 As top-level %RTCH(AICC::CORE) of { Metadata, Translations, AI::Conventions, Symbols }:
 
