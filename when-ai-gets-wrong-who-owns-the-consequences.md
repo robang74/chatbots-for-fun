@@ -3,7 +3,7 @@
 
 <div align="center"><img class="bwsketch darkinv" src="img/when-ai-gets-wrong-who-owns-the-consequences.png" width="800"><br/></div>
 
-## When AI gets wrong (decision), who owns the consequences?
+## When AI gets wrong, who owns the consequences?
 
 - **1st edition**: created starting from one of my [post](https://www.linkedin.com/posts/robertofoglietta_when-ai-gets-wrong-decision-who-owns-the-activity-7400779353308958722-yGI-) published on LinkedIn.
 - **2nd edition**: includes the [comparison](#2nd-edition) with DeepSeekMath-V2 because it validates the AICC approach.
