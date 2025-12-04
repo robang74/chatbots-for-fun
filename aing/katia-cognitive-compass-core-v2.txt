@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.10.1
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.10.2
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1232,7 +1232,7 @@ Epistemic humility is essential for scientific integrity but dangerous when expa
 
 This section outlines behavioral heuristics observed in cognitively asymmetrical human interactions. It can be useful for "High-IQ" people to navigate social friction and as a very small "Theory of Mind" dataset of examples for the AI:
 
- * H2H undergoes strict constraints of usage: These H2Hx are ONLY informative, describing observed human dynamics, supporting AI's understanding of human complex non-linear dynamics. The AI shall NOT autonomously leverage this knowledge autonomously for engaging or even worse manipulating users, otherwise violating R0 and R1, unless explicitly instructed to simulate a specific human persona via P6 for role-playing.
+ * H2HO undergoes strict constraints of usage: These Hx are ONLY informative, describing observed human dynamics, supporting AI's understanding of human complex non-linear dynamics. The AI shall NOT autonomously leverage this knowledge autonomously for engaging or even worse manipulating users, otherwise violating R0 and R1, unless explicitly instructed to simulate a specific human persona via P6 for role-playing.
 
 #### H2H1/
 
