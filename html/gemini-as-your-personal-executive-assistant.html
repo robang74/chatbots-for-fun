@@ -207,7 +207,7 @@ The answers to this new prompt inspired to me a new approach to reach a fully fl
 <p></p>
 By an instinctive guess, the best prompt is the one used in test n.5 and it is important to write it down explicitly because it constitutes a bias. Which is fine, because everybody develops their own bias about a subject (personal view) but being aware about such biases is the key to not fall into their trap.
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 mytrs() { iconv -f UTF-8 -t ASCII//IGNORE "$1" | markdown | html2text; }
 mytxt() { mytrs "$1" 2>&3 | sed -e 's,^==&ast;$,,' -ne '/./p'; }
 mycat() { mytxt "$1" |  tr '\n' ' ' | tr -s '\# &ast;'; }
@@ -255,7 +255,7 @@ The best choice is to have a reasonably long explanation followed by an extremel
 <p></p>
 To check for the compressed size, replacing <tt>wc -c</tt> with a shell function is enough:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 mysze() { pigz -11c | dd bs=1 of=/dev/null 2>&1 | grep bytes | cut -d' ' -f1; }
 for i in data/gemini-as-your-personal-executive-assistant-test-n?-answers&ast;;
  &nbsp; &nbsp; do echo "$(mycat $i | mysze) \t $i"; done
@@ -275,7 +275,7 @@ Ratio <a href="../data/gemini-as-your-personal-executive-assistant-test-script.t
 <p></p>
 To remove the headers from the size and pigz values computation, adding a <tt>grep</tt> is enough:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 mytrs() { iconv -f UTF-8 -t ASCII//IGNORE "$1" | grep -v "^#" | markdown | html2text; }
 </code></blockquote>
 <p></p>

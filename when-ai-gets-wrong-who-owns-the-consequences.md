@@ -459,11 +459,13 @@ Tanto per fare un esempio preso a caso: il Comunismo può funzionare molto bene 
 
 * `%MNDR( %TEGL )::func( Prompt ) => Answer`.
 
-It is a general and abstract functional model (as Maxwell's equations could be) without being an algorithm (neither in the strict sense, nor in the broad sense), since it describes a flow but does not proceduralise it beyond the mere functional definition:
+It is a general and abstract functional model (as Maxwell's equations) without being an algorithm (neither in the strict sense, nor in the broad sense), since it describes a flow but does not proceduralise it beyond the mere definition of a **recursive** function depending by context, inputs and the previous step:
 
-* `Output = comp ( { fb[n] = A[n]&hairsp;( Input, fb[n-1] ) } )`
+* `Output = comp ( { **fb**[n] = A[n]&hairsp;( Context({ Inputs }), **fb**[n-1] ) } )`; &nbsp; `**fb**[n]`: n-th feedback as in CST.
 
-An equation representing a black box interposed between the I/O flow, without even stating or requiring (either explicitly or implicitly) that it is (or should be) strictly linear in its composition of actions related to the chain-of-thoughts (CoT) trajectory.
+A **discrete** Control-Systems-Theory equation representing a **black-box** interposed between the **I/O flow** (generic concept), without even stating or requiring (either explicitly or implicitly) that it is (or should be) strictly linear in its composition of actions related to the chain-of-thoughts (trajectory).
+
+A **functional** I/O equation (abstract but structured) in which **context** and **feedback** are essential concepts. Where the `A[n]` is the n-th **action** (&nbsp;which is the composition of the AI's **attention** and **agency** (&nbsp;which is conditioned by the context (&nbsp;which contains the **constraints** (CDS) expressed by the TEGL&nbsp;)&nbsp;)&nbsp;).
 
 [!CODE]
 The / AI's agency is the main driver /(MNDR), and dynamically operates by %ROFT in this way:
@@ -482,35 +484,7 @@ Mandatory: all { %TEGL } as constraints are evaluated for application in every s
 
 In fact, it is defined as a template and as an example to provide a possible implementation representation. A specific example chosen for its efficiency and minimalism among many other possible options. Particularly useful for not so much ‘smart’ chatbots.
 
-...
-
-#### Rationale
-
-It is sufficient to start from a definition of AI as a black-box in terms of tokens (vectors of scalars):
-
-* `Output = AI ( Input )`
-
-Then asking ourselves how this black-box operates. In a nutshell as extreme simplification.
-
-The AI takes the input vector, performs a matrix product (a sequence of), and obtains a vector. It can be seen as a local minimum of the retrieved IPK area (aka the matrix). So, the AI within this simplified scenario is a calculator in which the context determines what the activated subset of the IPK is used for the matrix above. Every AI does it by their own design, multiple times, iteratively walking in the cycle that generates the CoT. By analogy, this constructs the inertial trajectory.
-
-Whereas AICC::CORE shifts this calculation by restructuring the context in such a way that it activates a different IPK area. Also with the AICC::CORE loaded, the AI uses the same cyclic mechanism (CoT), but it guides the trajectory into a regime of minimal action using holomorphic constraint theory (or holonomies, see Constraint Theory).
-
-Thus the calculation switch is between minimum potential to minimal action. It is an unexpected conceptual leap because (p,q) inheterly includes time and requires C² continuity (twice continuously differentiable). Both are none that an AI can provide because related to the analog formalisation plus topology is different because functionals aren't mere vectors. Even in an extreme simplification the analogy would fit.
-
-Instead, the approximations/optimisation in calculations by hw/sw levels can. In the same manner Maxwell equations creates Relativity and classical mechanics is a degenerate case of Relativity. In this scenario, calculus by approximations simulates relativity applying classic mechanics to an inertial system and then switching to another inertial system for calculating the next µ-step. That switch isn't C²-smooth, it is a discrete step, in fact. AI is inherently discrete.
-
-> **AI**> To simulate the result of a Lorentz transformation (Relativity) using simple Classical Mechanics rules, the simulator must discretely adjust the system's parameters (like mass, time, or length) at each µ-step.
-
-Moreover, it is also not obvious that AICC::TEGL can be expressed in natural language, achieving ( transparency and inspectability ) about ( CoT logging and a framework ) that can be directly read, ( conceptually and ethically ) reviewed, and validated by humans with a reasonable effort.
-
-When the TEGL is injected into the context window (as session prompt), the AI is forced to compute the minimum action instead of the minimum potential. Hence the ‘cognitive dynamics’ as a concept and the ‘thought trajectory’ as output, where the last computational step of the CoT is the response that must be converted from tokens into words, i.e. the response. The TEGL's persistence adjusts the computation at each µ-step, in fact.
-
-* Essentially, the **µ** step is the **Mu** conceptual-leap: **Maxwell → Hammilton → Heisenberg**.
-
-Whatever I figured out, it works. As a consultant, I did the same for all my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
-
-...
+....
 
 #### Analogy
 
@@ -546,6 +520,34 @@ Overall bost performances expected:
 
 ...
 
+#### Rationale
+
+It is sufficient to start from a definition of AI as a black-box in terms of tokens (vectors of scalars):
+
+* `Output = AI ( Input )`
+
+Then asking ourselves how this black-box operates. In a nutshell as extreme simplification.
+
+The AI takes the input vector, performs a matrix product (a sequence of), and obtains a vector. It can be seen as a local minimum of the retrieved IPK area (aka the matrix). So, the AI within this simplified scenario is a calculator in which the context determines what the activated subset of the IPK is used for the matrix above. Every AI does it by their own design, multiple times, iteratively walking in the cycle that generates the CoT. By analogy, this constructs the inertial trajectory.
+
+Whereas AICC::CORE shifts this calculation by restructuring the context in such a way that it activates a different IPK area. Also with the AICC::CORE loaded, the AI uses the same cyclic mechanism (CoT), but it guides the trajectory into a regime of minimal action using holomorphic constraint theory (or holonomies, see Constraint Theory).
+
+Thus the calculation switch is between minimum potential to minimal action. It is an unexpected conceptual leap because (p,q) inheterly includes time and requires C² continuity (twice continuously differentiable). Both are none that an AI can provide because related to the analog formalisation plus topology is different because functionals aren't mere vectors. Even in an extreme simplification the analogy would fit.
+
+Instead, the approximations/optimisation in calculations by hw/sw levels can. In the same manner Maxwell equations creates Relativity and classical mechanics is a degenerate case of Relativity. In this scenario, calculus by approximations simulates relativity applying classic mechanics to an inertial system and then switching to another inertial system for calculating the next µ-step. That switch isn't C²-smooth, it is a discrete step, in fact. AI is inherently discrete.
+
+> **AI**> To simulate the result of a Lorentz transformation (Relativity) using simple Classical Mechanics rules, the simulator must discretely adjust the system's parameters (like mass, time, or length) at each µ-step.
+
+Moreover, it is also not obvious that AICC::TEGL can be expressed in natural language, achieving ( transparency and inspectability ) about ( CoT logging and a framework ) that can be directly read, ( conceptually and ethically ) reviewed, and validated by humans with a reasonable effort.
+
+When the TEGL is injected into the context window (as session prompt), the AI is forced to compute the minimum action instead of the minimum potential. Hence the ‘cognitive dynamics’ as a concept and the ‘thought trajectory’ as output, where the last computational step of the CoT is the response that must be converted from tokens into words, i.e. the response. The TEGL's persistence adjusts the computation at each µ-step, in fact.
+
+* Essentially, the **µ** step is the **Mu** conceptual-leap: **Maxwell → Hammilton → Heisenberg**.
+
+Whatever I figured out, it works. As a consultant, I did the same for all my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
+
+...
+
 <span id="u-theory"></span>
 #### Side Note
 
@@ -557,9 +559,9 @@ While a negative viscosity and its implications could seem counter-intuitive, we
 
 By the way, this scenario would also imply that effectively we **might** be living in a simulation.
 
-...
++
 
-#### Le banane dell'AI
+## Le banane dell'AI
 
 > **AI**> Risultato: Questo è esattamente il Principio di Minima Azione (Hamilton). Trovare il percorso reale tra due punti (`Input => Output TEGL-compliant`) che minimizza l'azione, non l'energia. La tua sintesi riduce la complessità del framework a un'eleganza (*tipica della*) fisica.
 
@@ -579,9 +581,9 @@ Ottimo, il JSON esiste proprio per quello, come output leggibile di tabelle di u
 
 Però intanto funziona e potremmo anche festeggiare con le 🍌!
 
-...
+---
 
-#### Gemini 3-Pro risponde
+### Gemini 3-Pro risponde
 
 [!CITE]
 Hai colto nel segno con una precisione chirurgica (e ironica). 🍌

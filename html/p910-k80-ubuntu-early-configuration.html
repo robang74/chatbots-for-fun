@@ -66,7 +66,7 @@ For those prefer to use Microsoft Windows, please notice that I strongly doubt t
 <p></p>
 Esprimo P910 has an Intel PRO/1000 Gigabit ethernet which linked with a cheap USB FastEthernet 100 Mbit/s network adapter will provide such performace below:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 k80user&commat;p910:~$ nc -l 1111 > /dev/null
 roberto&commat;x390:~$ dd if=/dev/zero bs=1500 count=16K | nc -N 10.10.10.2 1111
  16384+0 records in
@@ -98,7 +98,7 @@ These settings will allow us to access the GPU server with Remmina and any SSH c
 <p></p>
 We are lazy and we are proud of it, especially when repetitive tasks are at stake. This includes password digitization for frequent accesses. One in particular is the root access to a remote host using SSH without entering the password. Moreover, by the password is a way of login that usually is disabled by default for the <tt>root</tt> user, at least.
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 <b># On the client side</b>
 ssh-keygen -t rsa
 ssh-copy-id k80usr&commat;10.10.10.2
@@ -134,7 +134,7 @@ The Esprimo P910 comes with a DVI port, and in case you plan to couple with an o
 <p></p>
 Unfortunately, it also affects the resolution of the shared desktop by Gnome RDP. In order to mitigate this limitation, it is worth installing the Gnome tweaks and injecting a new resolution from a Gnome terminal:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 sudo apt install gnome-tweaks -y
 echo WaylandEnable=false | sudo tee -a /etc/gdm3/custom.conf
 mcvt='$(cvt 1280 1024 75 | tail -n1 | cut -d\" -f3-)'
@@ -166,7 +166,7 @@ Please note that within the <b>RTL8188</b>’s family there are adapters which s
 <p></p>
 Let start from the basics, here below some line commands for Ubuntu just for starting with the P910 before even installing the Tesla K80 within, with <tt>sudo -s</tt> root priviledges:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 apt install lm-sensors fancontrol hardinfo i2c-tools python3-smbus pigz acpi \
  &nbsp; &nbsp; kmod cpufrequtils wget read-edid hwinfo htop unzip synaptic \
  &nbsp; &nbsp; gedit acpid acpitool inxi gkrellm gkrellm-cpufreq -y
@@ -188,7 +188,7 @@ Which is the highest temperature seen up to now, with the case open and laying o
 <p></p>
 Time to close the tower case and raise it on its feet again.
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 dd if=/dev/zero bs=1M | pigz -11 -p4 - >/dev/null &
 for i in $(seq 1 40); do sensors | grep Package;
 sleep 1; done & sleep 30; killall pigz; echo;
@@ -275,7 +275,7 @@ These options are the suggested for the Linux kernel command line:
 <p></p>
 The above parameters should go into the <tt>GRUB_CMDLINE_LINUX_DEFAULT</tt> variable which is recorded into the <tt>/etc/default/grub</tt> file. Then <tt>sudo update-grub</tt> to write the change in the grub's boot record. Moreover, blacklisting these two kernel modules and rebuild all the initramfs files, is a good idea:
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 ( echo; echo "blacklist chromeos_pstore"; echo "blacklist nvidiafb";
  &nbsp; echo "blacklist nouveau" )| sudo tee -a /etc/modprobe.d/blacklist.conf
 sudo update-initramfs -u -k all

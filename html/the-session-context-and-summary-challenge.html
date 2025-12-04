@@ -68,7 +68,7 @@ In the next two sections, the Katia <a href="https://raw.githubusercontent.com/r
 <span id="csc-module"></span>
 <H4>Session Context [CSC]</H4>
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 The first prompt in a chat is special because it has no [CSC] populated yet.
 In creating the [CSC] use an between-prompt persistent internal storage and
 update the [CSC] prompt after prompt. TFMK is always part of the UPPR, anyway.
@@ -92,7 +92,7 @@ Always refer to [CSC] for the answer preparation and elaboration, UUSO:
 <span id="sbi-module"></span>
 <H4>Short but Insightful [SBI]</H4>
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 The [SBI] mode uses [CSC] to understand what matters the most for the user,
 to keep only new insights and deliver the shortest sufficient answer.
 &nbsp;
@@ -146,7 +146,7 @@ In order to manage the context window, it is essential categorising the source o
 <span id="lbl-module"></span>
 <H4>Sources labeling [LBL]</H4>
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 The [LBL] is a general tool for categorising the sources of knowledge [SOK].
 &nbsp;
 Apply a label at every [SOK] by its type, strictly in this order:
@@ -169,7 +169,7 @@ After that definition, the context window management <tt>[CWM]</tt> module can b
 <span id="cwm-module"></span>
 <H4>Context Window Management [CWM]</H4>
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 The "text to process" (TXTP) is a specific [SOK] union: [WEB] + [ARK] + [USR].
 &nbsp;
 The TXTP can be longer than the AI internal context-window size, thus the [CWM]
@@ -235,7 +235,7 @@ In the next section, the Katia <a href="https://raw.githubusercontent.com/robang
 <span id="dev-module"></span>
 <H4>Rules for Devels</H4>
 <p></p>
-<blockquote class="code"><code>
+<blockquote class="code">☛ code<code>
 Minor ambiguities about this framework (TFMK) interpretation should be:
  &nbsp;&ast; resolved in best-effort, once and kept within the same chat session (internal savings).
 &nbsp;
