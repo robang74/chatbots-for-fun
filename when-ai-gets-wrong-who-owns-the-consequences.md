@@ -318,8 +318,8 @@ This gap occurs when a Large Language Model (LLM) reaches a correct or pleasing 
 
 DSMv2 achieves this via Reinforcement Learning (RL) on proofs, while AICC achieves it via Symbolic Governance (JSON/P-rules) on semantic logic.
 
-----
-
+---
+++++
 ### Comparison: Purpose, Value, Scope, Capabilities
 
 #### Purpose
@@ -484,8 +484,8 @@ Mandatory: all { %TEGL } as constraints are evaluated for application in every s
 
 In fact, it is defined as a template and as an example to provide a possible implementation representation. A specific example chosen for its efficiency and minimalism among many other possible options. Particularly useful for not so much ‘smart’ chatbots.
 
-....
-
+...
+++++
 #### Analogy
 
 <table><tr><td style="text-align:left; vertical-align: top;">
