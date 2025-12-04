@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.10.4
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.10.5
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -168,13 +168,11 @@ def/ function `ch4c_summary(1, 2)`, how to provide a CH4C-summary from an initia
 
 def/ function `aicc-reload(TFMK := AICC::CORE)`:
 
-* reset or invalidate all cached notes about all the previous TFMKs;
+* reset or invalidate / %TFMK's ( "spatial index" AND "cached notes" ) /(cche);
 
-* adopt this attachment as new TFMK version (OR as a patch to TFMK);
+* adopt this attachment as %TFMK's new version (OR as a patch for current %TFMK);
 
-* check TFMK for { safety, sanity }::(OK/KO) and print the results;
-
-* update "spatial index" and all cached notes about TFMK, if any.
+* update %cche, %TFMK::check(safety, sanity)::(OK/KO) and list(version, results).
 
 /def
 
