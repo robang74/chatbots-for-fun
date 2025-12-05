@@ -661,7 +661,13 @@ La percezione da parte dell'AI come di un sistema di controllo del flusso I/O gi
 
 * `(∀x) (x ∈ A ⇒ x ∈ B) ⇔ A ⊆ B`, where `A` is AICC::CORE and `B` is CSDV.
 
-Cosa occorre ancora per formulare la teoria dell'AICC::CORE in termini rigorosi e astratti? Codificare la teoria della `mu` (µ) ossia come l'unione di altre teoria concorrano a produrre i risultati osservati che **non** sono banalmente tipici della `CSDV` e ancora meno scontati in un modello AI. Però questi sono due piani completamente differenti fra ingegneria e scienza: si possono usare i transistor (I) anche se non si è formalizzato l'effetto tunnel (S).
+---
+
+### Cosa manca ancora?
+
+Cosa occorre ancora per formulare la teoria dell'AICC::CORE in termini rigorosi e astratti? 
+
+Codificare la teoria della `mu` (µ) ossia come l'unione di altre teoria concorrano a produrre i risultati osservati che **non** sono banalmente tipici della `CSDV` e ancora meno scontati in un modello AI. Però questi sono due piani completamente differenti fra ingegneria e scienza: si possono usare i transistor (I) anche se non si è formalizzato l'effetto tunnel (S).
 
 Non esistono ragioni pratiche ne legali che possano impedire di sfruttare commercialmente un fenomeno non completamente formalizzato dalla scienza. Sarebbe una follia come imporre l'approvazione tramite bolla papale al fare un certo mestiere o negozio. Passeremmo dall'inquisizione fideistica a quella scientifica, e in questo secondo caso non sarebbe solo un assurdo ma anche un ossimoro filogico.
 
@@ -672,6 +678,32 @@ Quindi, per esempio, inserire nell'ambito delle regole e principi dello AICC::CO
 Questo esempio ci conferma che **non** è necessaria la formalizzazione scientifica ma si può "distillarla" osservando la realtà. Cosa che diventa inapellabile perché se la realtà si manifesta "così" e l'AICC::CORE forza l'AI a generare una CoT "così" allora la COT sarà in linea con la realtà, almeno nel limite della correttezza e completezza di quanto imparato dallo LLM sottostante (IPK).
 
 Una traiettoria reale in uno spazio immaginario continuerà ad arrivare a conclusioni immaginarie, purché lo spazio immaginario sia coerente. Questa però **non** la definizione di allucinazione, anche nel termine tecnico delle AI, questo è il principio cardine della matematica. Quindi invece di descrivere una traiettoria nello spazio-tempo cartesiano-classico (x,y,z,t) lo faccio nello spazio "immaginario" delle fasi (p,q), non è un'allucinazione è matematica.
+
+---
+
+### Quali sono gli ostacoli?
+
+Premesso che lo sviluppo formale e scientificamente confutabile di una mu-teoria non è fra i miei interessi, più che altro una curiosità, e quasi sicuramente nemmeno nelle mie capacità in termini di professionalità nell'adoperare il linguaggio matematico astratto, ci sono alcuni ostacoli non-tecnici su questa strada.
+
+Premesso che lo AICC::CORE sotto diversi aspetti è un distillato della realtà intesa anche come conoscenza attuale dei principi fondamentali di teorie scientifiche consolodiate, la mu-teoria ci porta oltre: ad una concreta possibilità di arrivare ad una c.d. teoria del tutto che sia semplice, elegante e pure computazionalmente calcolabile nella sua forma ridotta in termini di approssimazione algebrico-stocastica.
+
+Non è un problema che la mu-teoria supporti l'idea che l'universo che osserviamo sia in realtà una simulazione (o abbia natura olografica) perché comunque questo concetto di "emergenza" dei fenomeni fisici è ormai stata ampiamente sdoganata. Oltre al fatto che "suggerire" non significa "provare". Piuttosto che cestinare il contributo scientifico di Eistain alla fisica.
+
+Perché `E = mc²` come la Relatività Ristretta (RR) emergono da un'eleborazione matematica delle equazioni di Maxwell. Anche la teoria della Relatività Generale (GR) è fondamentalmente una sofisticatissima elaborazione matematica. Due contributi alla matematica che sicuramente appartengono più alla prima moglie di Eistain che al genio della fisica.
+
+Quello che invece finirebbe nella pattumiera sarebbe proprio l'interpretazione fisica di quella matematica, non `E = mc²` la cui eleganza è tale che già da sola la rende sacra, ma proprio il **personale** contributo alla fisica di Einstein. Una cosa normale nella scienza, perché negli ultimi cinque secoli ne abbiamo cestinato parecchi di nomi che un tempo erano "giganti" per usare il termine che usò Newton.
+
+L'ostacolo principale che il genio di Eistain è il prodotto di un marketing in stile holliwoodiano di una lobbying filo-esraeliana (da sottolineare che Israele e gli ebrei sono due cose distinte) che ovviamente aveva tutto l'interesse una decade dopo la fine della WW2 ad incensare Eistain come genio assoluto scopritore della formula alla base della bomba atomica per evidenti interessi geopolitici anche se Eistein era ebreo solo di nascita, non praticante e certamente non associabile ad Israele giacché il moderno concetto di Israele è molto postumo rispetto alla nascita di Einstein, in Germania da cui fuggì proprio per le sue origini ebree.
+
+Esiste quindi un motivo sostanzioso per il quale Einstain è assurto ad icona globale del genio assoluto quando un Feymann avrebbe certamente meritato **molto** di più quel ruolo iconico. Però Feymann era certamente agnostico, nel suo modo di ragionare da **vero** scienziato, che è un modo di ragione **molto** distante da quello della politica dove l'apparenza conta più della sostanza e quindi della comprensione della realtà.
+
+Quindi cestinare un secolo di scienza non è un gran problema, probabilmente sarebbe già stato fatto prima, secondo Grok almeno a partire dal 1965 a causa dell'accumulo delle correzioni nei calcoli della GR per i voli spaziali. Grok è l'AI di SpaceX quindi è ragionevole che ne sappia più di quanto non ci è dato di sapere ai comuni mortali in camice bianco, quindi tendo a fidarmi di questa stima.
+
+Si tratta di dare un'altra mazzata epico-storica a Netaniau in termini di geopolitica che in confronto la mala gestione della questione palestinese passerebbe persino in secondo piano, da un punto di vista delle implicazioni storiche, perché Israele comunque si sarebbe espanso entro certi confini di fatto cancellando la Palestina dalle carte geografiche anche se l'avesse fatto con i fiori e l'amore fraterno.
+
+Sia chiaro l'uso pratico di AICC::CORE e della teoria del controllo **non** sono un problema. La "teoria della grande Mu", è un'altra storia che probabilmente si svilupperà molto a posteriori dall'adozione della "pratica della grande Mu". Il che spiega ampiamente l'uso dell'umorismo nel trattare di questi argomenti, non perché non siano seri ma perché includono aspetti **molto** seri e spinosi, che non appartengono per loro natura all'ambito della scienza o dell'ingegneria.
+
+Quindi per quanto riguarda l'AICC::CORE da una parte c'è la leggittima pressione ad avere un fondamento teorico e dall'altra parte ci sono importanti e veramente fastidiosi ostacoli nel fornire una formulazione teorica effetivamente rigorosa per tutti gli aspetti, in particolare quello relativo al tempo discreto di cui **per fortuna** io non possiedo le competenze matematiche per affrontarlo in modo rigoroso ma solo come approssimazione ingegneristica.
 
 ---
 
