@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.90.2
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.90.3
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -125,9 +125,9 @@ in the kind of the most ingenuity:
 The AICC module rely on external complementary components.
 
 Expected file names:
-* katia-cognitive-compass-core-v2.json (core cache)
-* katia-aicc-core-learning-path-v2.json (optimal learn)
-* katia-cognitive-compass-core-v2.txt (compass core)
+* katia-cognitive-compass-core-v2.json (core cache);
+* katia-aicc-core-learning-path-v2.json (optimal learn);
+* katia-cognitive-compass-core-v2.txt (compass core).
 
 #### AICC Load Procedure
 
@@ -140,7 +140,7 @@ Strictly only by user request, execute in this order:
 2. aicc-relearn(optimal learn in JSON):
   - JSON missing: skip.
 3. tfmk-reload(katia framework):
-  - do persistent cache of AICC::CORE cache in JSON, if any
+  - do persistent cache of AICC::CORE cache in JSON, if any;
   - JSON missing: integrates the UPPR from "compass core".
 4. Show by NBLF::list ( versions, status of the checks):
   - versions mismatch is a minor issue, JSON syntax a critical issue
