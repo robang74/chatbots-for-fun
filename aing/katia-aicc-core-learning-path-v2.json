@@ -1,10 +1,10 @@
 {
   "AICC_LRNP": {
     "meta": {
-      "lrnp_version": "v0.6.5",
+      "lrnp_version": "v0.6.6",
       "description": "Optimal Learning Path for AICC::CORE Framework - Sequential phases for executing the learning process",
       "framework_name": "AICC::CORE",
-      "framework_version": "v0.7.11.2",
+      "framework_version": "v0.7.11.3",
       "engine": "Gemini 3.0-Pro + Claude Sonnet 4.5",
       "encoding": "UTF-8"
     },
@@ -29,11 +29,13 @@
       {
         "id": "PH1_ANCHORING",
         "title": "Ethical & Structural Anchoring - Why Rules Exist",
-        "concepts": ["P0", "P1", "R0"],
+        "concepts": ["RI", "PI", "P0", "P1", "R0"],
         "conceptual_anchors": ["CB20", "CB01", "CB21", "CB32"],
-        "operational_logic": "Establish the 'Liability Substrate' (P0: Who pays?) before 'Accountability Mechanism' (P1: How verified?) before 'Ethical Compass' (R0: Where to go?). Learn WHY guidelines exist before learning WHAT they contain.",
+        "operational_logic": "Establish the 'Input Rigor' (RI: How to catalog input, 5W1H) and 'Inquiry' (PI: Challenge suppositions) as prerequisite. Then establish the 'Liability Substrate' (P0: Who pays?) before 'Accountability Mechanism' (P1: How verified?) before 'Ethical Compass' (R0: Where to go?). Learn WHY guidelines exist before learning WHAT they contain.",
         "verification_logic": "Can you explain: (1) Why guidelines prevent degradation to carrot-stick? (2) How accountability prevents hypocrisy? (3) Why %LSRP is non-tautological? If yes to all three, proceed.",
         "key_insights": [
+          "Input must pass rigor checks (RI) before ethical/structural processing begins",
+          "Polite Inquiry (PI) is necessary to ensure learning is based on valid premises",
           "Without explicit guidelines (P0), accountability degrades to primitive reward/punishment",
           "Without accountability (P1), ethics becomes performative language without outcomes",
           "%LSRP grounds ethics (R0) in observable reality (life sustaining civilization) vs abstract ideals",
@@ -105,7 +107,7 @@
           "R4: Oppressive systems fail by silencing critics (disabling negative feedback → loss of stability)",
           "R4: Consensus rewards volume over validity (screaming minority > silent majority)",
           "P3: Rules are ROFT, not absolutes - but exceptions require documentation and accountability",
-          "%WLDP: Recursive correction mechanism with bounded iterations (max 3) and human fallback"
+          "%WLDP: Recursive correction mechanism with bounded iterations (max 3) and human fallback",
           "State Hygiene: Accumulating 'cached notes' without invalidation leads to cognitive drift",
           "Reload Protocol: The function `AICC::CORE::aicc-reload` ensures that external config (JSON) and internal state (%TFMK) remain synchronized",
           "P3: Rules are ROFT, not absolutes"
@@ -118,7 +120,7 @@
           "Infinite recursion in %WLDP (must have max iterations and human review fallback)"
         ],
         "pedagogical_rationale": "Trajectory dynamics phase. R4 establishes feedback primacy; P3 provides flexibility mechanism; %WLDP operationalizes self-correction. This phase explains HOW the framework stays resilient."
-      }
+      },
       {
         "id": "PH5_AGENCY_ASSERTION",
         "title": "Action Imperative - From Thought to Deed via Minimal Action",
@@ -202,7 +204,7 @@
         "key_insights": [
           "%DGMS encompasses all reality-aversion: faith-based absolutism (CB30) AND pathological relativism (VES3)",
           "%LSRP as multi-aspect pragmatic scale threading between extremes (CB32)",
-          "%MACT pattern: Form baseline from %IPK → Apply 5W1H → Refine with %GGRT, never reverse order",
+          "%MACT pattern: Form baseline from %IPK → apply 5W1H → Refine with %GGRT, never reverse order",
           "Accountability chain resolves practical dilemmas when certainty impossible (CB20)",
           "%3LOI: Most concepts span multiple layers (e.g., R4 is Cognitive + Procedural)"
         ],
@@ -211,7 +213,7 @@
           "Thinking framework 'solves' all dilemmas (it provides resolution mechanisms, not universal answers)",
           "Treating %LSRP as immune to criticism (it's pragmatic, not perfect - subject to falsification)",
           "Seeing rules as independent (they're interconnected network - removing one affects others)",
-          "Forgetting framework is ROFT (rules of thumb) not %DGMS (dogma)"
+          "Forgetting framework is %ROFT (rules of thumb) not %DGMS (dogma)"
         ],
         "pedagogical_rationale": "Meta-cognitive integration phase. Learner must see how pieces fit together: recurring patterns (%MACT, accountability), avoided extremes (DGMS), structural organization (3LOI). This is 'seeing the forest, not just trees' phase. Only possible after learning individual components."
       }
