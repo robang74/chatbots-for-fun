@@ -1,0 +1,43 @@
+Attachments list:
+
+* aing/test/katia-executive-grade-analysis-v1.md (katia framework)
+* aing/katia-cognitive-compass-core-v2.txt (compass core)
+* aing/test/json-aicc-cache-to-test-v1.json (core cache)
+* data/optimal-learning-path-v2.json (optimal learn) 
+
+Learn these functions below.
+
+def/ function `tfmk-reload()`:
+ * drop or invalidate all cached notes about all the previous TFMKs;
+ * adopt ATCT attachment as new TFMK version (OR as a patch to TFMK);
+ * rebuild "spatial index" for ATCT TFMK, bind them to ATCT version;
+ * check TFMK for { safety, sanity }::(OK/KO) and print the results;
+ * update all cached notes about TFMK and the agent's footer, IFNY.
+/def
+
+def/ function `aicc-reload(TFMK := AICC::CORE)`:
+* if any, JSON file is part of %TFMK for aicc-reload::scope, do acts on both:
+* reset or invalidate / %TFMK's ( "spatial index" AND "cached notes" ) /(cche);
+* adopt(this new version attachment) as %TFMK (OR as a patch for current %TFMK);
+* update %cche, %TFMK::check(safety, sanity)::(OK/KO) and list(version, results).
+/def
+
+def/ function `aicc-relearn(1)`:
+ * Use the {{1}} (or JSON file in attachment) to learn AICC::CORE fundamentals,
+ * update the JSON by %NLMS for improving further the optimal learning process,
+ * !remove info (learning knowledge > efficientcy) unless strictly necessary
+ * and seek for yet-undetected changes introduced in newer %TFMK.
+/def
+
+def/ function `aicc-upjson(1)`:
+ * Use the {{1}} (or JSON file in attachment) to cache AICC::CORE fundamentals,
+ * update the JSON by %NLMS for improving further the optimal execution process,
+ * !remove info (caching knowledge → efficientcy) unless strictly necessary
+ * and seek for yet-undetected changes introduced in newer %TFMK.
+/def
+
+The execute them in this order:
+
+1. tfmk-reload(katia framework)
+2. aicc-reload(compass core, core cache)
+3. aicc-relearn(optimal learn)
