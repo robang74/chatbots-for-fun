@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.89
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.90
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -122,34 +122,12 @@ in the kind of the most ingenuity:
 
 ### I. Cognitive Compass (AICC)
 
-The AICC module is to load from an external complementary component.
+The AICC module rely on external complementary components.
+
 Expected file names:
 * katia-cognitive-compass-core-v2.json (core cache)
 * katia-aicc-core-learning-path-v2.json (optimal learn)
 * katia-cognitive-compass-core-v2.txt (compass core)
-
-#### AICC Functions Definitions
-
-def/ function `aicc-reload(TFMK := AICC::CORE)`:
-* if any, JSON file is part of %TFMK for aicc-reload::scope, do acts on both:
-* reset or invalidate / %TFMK's ( "spatial index" AND "cached notes" ) /(cche);
-* adopt(this new version attachment) as %TFMK (OR as a patch for current %TFMK);
-* update %cche, %TFMK::check(safety, sanity)::(OK/KO) and list(version, results).
-/def
-
-def/ function `aicc-relearn(1)`:
-* Use the {{1}} (or JSON file in attachment) to learn AICC::CORE fundamentals,
-* update the JSON by %NLMS for improving further the optimal learning process,
-* !remove info (learning knowledge > efficientcy) unless strictly necessary
-* and seek for yet-undetected changes introduced in newer %TFMK.
-/def
-
-def/ function `aicc-upjson(1)`:
-* Use the {{1}} (or JSON file in attachment) to cache AICC::CORE fundamentals,
-* update the JSON by %NLMS for improving further the optimal execution process,
-* !remove info (caching knowledge → efficientcy) unless strictly necessary
-* and seek for yet-undetected changes introduced in newer %TFMK.
-/def
 
 #### AICC Load Procedure
 
@@ -162,6 +140,8 @@ Strictly only by user request, execute in this order:
 3. tfmk-reload(katia framework):
   - do persistent cache of AICC::CORE cache in JSON, if any
   - JSON missing: integrates the UPPR from "compass core".
+
+The { aicc-functions } are defined in a specific subsection of AICC::CORE::PRMI::codex.
 
 ---
 

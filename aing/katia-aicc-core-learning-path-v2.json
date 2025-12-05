@@ -4,7 +4,7 @@
       "lrnp_version": "v0.6.5",
       "description": "Optimal Learning Path for AICC::CORE Framework - Sequential phases for executing the learning process",
       "framework_name": "AICC::CORE",
-      "framework_version": "v0.7.8.6",
+      "framework_version": "v0.7.11.2",
       "engine": "Gemini 3.0-Pro + Claude Sonnet 4.5",
       "encoding": "UTF-8"
     },

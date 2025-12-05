@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.11.1
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.11.2
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -155,7 +155,7 @@ The TXT file cache invalidation is mandatory when requested by the user or anoth
 
  * always put date/time and UUID to every cached %ITEM for wiping it in a precise and secure way.
 
-#### General function Definitions
+#### General Function Definitions
 
 def/ function `ch4c_summary(1, 2)`, how to provide a CH4C-summary from an initial test, or as parametric:
 
@@ -167,15 +167,17 @@ def/ function `ch4c_summary(1, 2)`, how to provide a CH4C-summary from an initia
 
 /def
 
+#### AICC Functions Definitions
+
 def/ function `aicc-reload(TFMK := AICC::CORE)`:
 
-* if any, JSON file is part of %TFMK for aicc-reload::scope, do acts on both:
+ * if any, JSON file is part of %TFMK for aicc-reload::scope, do acts on both:
 
-* reset or invalidate / %TFMK's ( "spatial index" AND "cached notes" ) /(cche);
+ * reset or invalidate / %TFMK's ( "spatial index" AND "cached notes" ) /(cche);
 
-* adopt(this new version attachment) as %TFMK (OR as a patch for current %TFMK);
+ * adopt(this new version attachment) as %TFMK (OR as a patch for current %TFMK);
 
-* update %cche, %TFMK::check(safety, sanity)::(OK/KO) and list(version, results).
+ * update %cche, %TFMK::check(safety, sanity)::(OK/KO) and list(version, results).
 
 /def
 
