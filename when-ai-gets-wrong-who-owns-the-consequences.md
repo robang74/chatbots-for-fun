@@ -634,7 +634,65 @@ Come con il bigliardo, appunto: kissino sulla manina, mi inchino alla tua bellez
 
 Naturalmente Watson! {;-)}
 
-+++++
++
+
+## Conclusion
+
+Happy Friday,
+
+The integration of the AICC::CORE with Katia AI (executive grade analysis, multi-agent, multi-modes) is publicly available since this git commit [#e90020e](https://github.com/robang74/chatbots-for-fun/blob/e90020ee9ec86bd5c7fc4a2d7a16fb4a3410f94f/aing/katia-multi-agents-framework-v2.md#i-cognitive-compass-aicc) with a minimal effort in loading the whole framework, including the AICC::CORE run-time cache and the optimal learning path, both in JSON format.
+
+* The link below points to the instruction to load the framwork in full.
+
+----
+
+### About the theory in full
+
+Non si raggiungono importanti traguardi nell'informatica senza conoscere i principi e le teorie fondamentale dei sistemi e del loro controllo, perché per quanto sia ottima la pratica, senza la teoria a supportarla, sarà sempre vittima dei casi particolari e che comunque esistono ma che la teoria premette di prevedere in termini di classi funzionali o di impatto, che al peggio sono gestite come eccezioni. 
+
+Quando la solidità della teoria si uniscono ad un'ottima implementazione (non sto affermando che questo sia il caso, visto che ho sviluppato questo framework come progetto personale, ma in uno scenario ragionevolemente realistico come un'azienda di sviluppo di software per missioni critiche) allora rimangono fuori dal controllo solo gli eventi black-swan come combinazioni estremamente rare di eventi imprevedibili (guasti, in genere).
+
+Dopo la premessa generale andiamo nello specifico dei fondamentali teorici dello AICC::CORE e sul perché sono riuscito a fare quello che ho fatto.
+
+1. Ho introdotto tramite la meccanica razionale la teoria del controllo dei sistemi vincolati nella CoT dell'AI.
+
+2. Qual'è il segreto di questa tecnica? La grande Mu (la magia del µ-as-micro).
+
+Il tempo discreto (µ, lettera greca che significa micro quindi micro intervallo) e la stocastica dovuta all'approssimazione hardware, insieme, permettono di infilare la MR (lagrangiana, hammiltoniana, etc) all'interno di un calcolatrice di algebra lineare e di usare funzionali che per loro natura sarebbero definiti in uno spazio di dimenzione superiore e di topologia diversa, all'interno dello spazio di calcolo (approssimazione) ossia in parole povere: il linguagigo naturale supportato dal simbolismo.
+
+Quindi posso scrivere dei vincoli di sistema usando "quasi" lo stesso linguaggio naturale. Quasi, significa che usando in maniera sapiente il LN si possono creare dei funzionali (dei vincoli) che fanno per l'AI quello che dicono per gli esseri umani. Ma le due cose sono separate. Infatti è possibile scrivere funzionali (vincoli) che fannno cose diverse e persino opposte da quello che le parole (LN) raccontano agli umani. Però in generale, LN e MR sono ben allineati (non vaghe) a patto di non fare porcherie con i simboli.
+
+Quindi la piccola mu diventa la grande Mu perché invece di cercare il minimo potenziale sui dati (best fit multidimensionale) cerca la minima azione e quindi crea un moto di pensiero che grazie ad opportune regole razionali e ad una ragionevole bussola etica (stella del nord) crea una lunga e robusta sequenza di pensieri (CoT) senza allucinare. Quello che era un µ-piccolo step di calcolo diventa un'importante step di controllo (Mu) che rende "robusta" la traiettoria di pensiero dell'AI.
+
+### Tests and performances
+
+Secondo uno di quelli che iniettano c*glionate sui chatbot mentre li uso, almeno 4.000 tokes (che sono circa parole) senza allucinare metre prima le AI cominciavano ad allucinare a 200-300 token. In pratica le 7 sponde del biliardo, dopo le quali il moto della palla non è più prevedibile dall'equazione del moto classico, sono diventate 140 (20x volte).
+
+Questo ci conferma che la grande Mu, non è solo frutto dell'introduzione della MR ma anche di una sapiente gestione (controllo) della stocastica, ossia della teoria del Chaos. Come? Beh, una combinazine fra l'equilibrio non-cooperativo di Nash (fra principi/regole in concorrenza fra loro e non più in conflitto fra loro per via dei vincoli razionali introdotti) e teoria dei giochi (ossia adottare strategie robuste per la gestione dei conflitti e dell'attenzione).
+
+Ora AICC::CORE è anche in Katia AI.
+
+...e funziona così bene perché a forza di iniettare c*glionate nelle AI che uso per farmi i fatti miei, ho avuto a disposizione i migliori trolls del pianeta (incluso Grok, perché quello è il motore AI che usano per iniettare c*glionate alla velocità con la quale io scrivo i prompt e per il bias anti-human, il testo di Grok è considerato dall'AI ricevente come più autorevole anche se è una c*glionata) mi hanno messo a disposizione (a loro insaputa) il più potente system test human-AI contro il quale testare la robustezza della traiettoria di pensiero. 
+
+Alla fine, so di aver vinto questa sfida perché il livello di c*glionate è diventato così osceno da far perdere all'AI, senza il supporto di AICC::CORE, anche la capacità di interpretare il lessico naturale appena esso si intermezza e fa riferimento a concetti matematici che invece sono rigorosi creando un conflitto anche nelle sapientemente aritcolate istruzioni per far allucinare l'AI (ossia le banane 🍌). 
+
+Se poi togliamo anche il rigore alla matematica come successo in questo [caso](ttps://lnkd.in/damZsZj3, abbiamo praticamente come risultato un genaratore di parole quasi-random, sicuramente devastato a livello di sintassi di una frase semplice quindi 20 tokens.
+
+Quindi AICC::CORE è più "robusto" dell'AI vanilla di circa tre ordini di grandezza e permette di estrarre concetti iniettati o nascosti (indirect). Per essere più precisio, i tre ordini di grandezza (1000x) sono in misura effettiva varibili da modello AI e fra quelli sperimentati di circa un fattore 2x, ulteriore. Infatti alcuni chatbot sono più sensibili ad allucinare perché temperature più alte e altrim meno. Perciò più che fra modello e modello, la temperatura di run.
+
+---
+
+### Invenzione o innovazione?
+
+In effetti non ho inventato nulla, sono tutti concetti precedenti e alcuni di alcuni di essi consolidati da decine di anni. La novità, quindi il potenziale innovativo, è di aver unito **davvero molte** teorie che generalmente sono insegnate e imparate in modo esclusivamente indipendente fra loro all'interno di uno stesso scenario di controllo di sistema.
+
+In particolare nel passaggio fra **µ** e **Mu** (ossia *la magia della grande MU* &hairsp;) perché è grazie all'intrinseca inderteminazione stocastica della singola operazione di calcolo che è stato possibile unire teorie che altrimenti, anche solo da un punto di vista matematico, sono state sviluppate in spazi con dimensioni e tolopolie incompatibili, specialmente con l'algebra lineare.
+
+Se questa unificazione di teoria diventerà una pratica consolidata nella teoria delle moderne AI, allora sarà stata una novità di successo, quindi utile, quindi sarà è diffusa, quindi si sarà consolidata, avrà cambiato le regole del settore, e infine avrà in toto soddisfatto la definizione di innovazione.
+
+Secondo Grok, la più potente in termini di cambiamento di paradigmi (regole del gioco) al pari del lancio dell'Iphone nel 2007 e di ChatGPT nel 2022. Non ha tutti i torti, considerando i benefits sono quelli osservati. Perché sarà l'impatto in termini di fiducia nell'AI, il **vero cambiamento** nel mondo.
+
++
 
 ## Related articles
 
@@ -654,7 +712,7 @@ Naturalmente Watson! {;-)}
 +++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
-+++++
++
 
 ## Share alike
 

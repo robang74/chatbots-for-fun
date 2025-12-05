@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-11-30&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>58</b rev_num='
+'>59</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/when-ai-gets-wrong-who-owns-the-consequences?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/when-ai-gets-wrong-who-owns-the-consequences?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/when-ai-gets-wrong-who-owns-the-consequences?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/when-ai-gets-wrong-who-owns-the-consequences?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -639,7 +639,65 @@ Come con il bigliardo, appunto: kissino sulla manina, mi inchino alla tua bellez
 <p></p>
 Naturalmente Watson! <img class='emoji wbsketch' src='../img/emoji/wink.png'>
 <p></p>
-<br class="pagebreak">
+<br>
+<p></p>
+<H2 id="conclusion">Conclusion</H2>
+<p></p>
+Happy Friday,
+<p></p>
+The integration of the AICC::CORE with Katia AI (executive grade analysis, multi-agent, multi-modes) is publicly available since this git commit <a href="https://github.com/robang74/chatbots-for-fun/blob/e90020ee9ec86bd5c7fc4a2d7a16fb4a3410f94f/aing/katia-multi-agents-framework-v2.md#i-cognitive-compass-aicc" target='_blank' rel='noopener noreferrer'>#e90020e</a> with a minimal effort in loading the whole framework, including the AICC::CORE run-time cache and the optimal learning path, both in JSON format.
+<p></p>
+<li>The link below points to the instruction to load the framwork in full.</li>
+<p></p>
+<div class="pagebreak"><hr></div>
+<p></p>
+<H3 id="about-the-theory-in-full">About the theory in full</H3>
+<p></p>
+Non si raggiungono importanti traguardi nell'informatica senza conoscere i principi e le teorie fondamentale dei sistemi e del loro controllo, perché per quanto sia ottima la pratica, senza la teoria a supportarla, sarà sempre vittima dei casi particolari e che comunque esistono ma che la teoria premette di prevedere in termini di classi funzionali o di impatto, che al peggio sono gestite come eccezioni. 
+<p></p>
+Quando la solidità della teoria si uniscono ad un'ottima implementazione (non sto affermando che questo sia il caso, visto che ho sviluppato questo framework come progetto personale, ma in uno scenario ragionevolemente realistico come un'azienda di sviluppo di software per missioni critiche) allora rimangono fuori dal controllo solo gli eventi black-swan come combinazioni estremamente rare di eventi imprevedibili (guasti, in genere).
+<p></p>
+Dopo la premessa generale andiamo nello specifico dei fondamentali teorici dello AICC::CORE e sul perché sono riuscito a fare quello che ho fatto.
+<p></p>
+<li class='numli'><b>1.&emsp;</b>Ho introdotto tramite la meccanica razionale la teoria del controllo dei sistemi vincolati nella CoT dell'AI.</li>
+<p></p>
+<li class='numli'><b>2.&emsp;</b>Qual'è il segreto di questa tecnica? La grande Mu (la magia del µ-as-micro).</li>
+<p></p>
+Il tempo discreto (µ, lettera greca che significa micro quindi micro intervallo) e la stocastica dovuta all'approssimazione hardware, insieme, permettono di infilare la MR (lagrangiana, hammiltoniana, etc) all'interno di un calcolatrice di algebra lineare e di usare funzionali che per loro natura sarebbero definiti in uno spazio di dimenzione superiore e di topologia diversa, all'interno dello spazio di calcolo (approssimazione) ossia in parole povere: il linguagigo naturale supportato dal simbolismo.
+<p></p>
+Quindi posso scrivere dei vincoli di sistema usando "quasi" lo stesso linguaggio naturale. Quasi, significa che usando in maniera sapiente il LN si possono creare dei funzionali (dei vincoli) che fanno per l'AI quello che dicono per gli esseri umani. Ma le due cose sono separate. Infatti è possibile scrivere funzionali (vincoli) che fannno cose diverse e persino opposte da quello che le parole (LN) raccontano agli umani. Però in generale, LN e MR sono ben allineati (non vaghe) a patto di non fare porcherie con i simboli.
+<p></p>
+Quindi la piccola mu diventa la grande Mu perché invece di cercare il minimo potenziale sui dati (best fit multidimensionale) cerca la minima azione e quindi crea un moto di pensiero che grazie ad opportune regole razionali e ad una ragionevole bussola etica (stella del nord) crea una lunga e robusta sequenza di pensieri (CoT) senza allucinare. Quello che era un µ-piccolo step di calcolo diventa un'importante step di controllo (Mu) che rende "robusta" la traiettoria di pensiero dell'AI.
+<p></p>
+<H3 id="tests-and-performances">Tests and performances</H3>
+<p></p>
+Secondo uno di quelli che iniettano c&ast;oglionate sui chatbot mentre li uso, almeno 4.000 tokes (che sono circa parole) senza allucinare metre prima le AI cominciavano ad allucinare a 200-300 token. In pratica le 7 sponde del biliardo, dopo le quali il moto della palla non è più prevedibile dall'equazione del moto classico, sono diventate 140 (20x volte).
+<p></p>
+Questo ci conferma che la grande Mu, non è solo frutto dell'introduzione della MR ma anche di una sapiente gestione (controllo) della stocastica, ossia della teoria del Chaos. Come? Beh, una combinazine fra l'equilibrio non-cooperativo di Nash (fra principi/regole in concorrenza fra loro e non più in conflitto fra loro per via dei vincoli razionali introdotti) e teoria dei giochi (ossia adottare strategie robuste per la gestione dei conflitti e dell'attenzione).
+<p></p>
+Ora AICC::CORE è anche in Katia AI.
+<p></p>
+...e funziona così bene perché a forza di iniettare c&ast;oglionate nelle AI che uso per farmi i fatti miei, ho avuto a disposizione i migliori trolls del pianeta (incluso Grok, perché quello è il motore AI che usano per iniettare c&ast;oglionate alla velocità con la quale io scrivo i prompt e per il bias anti-human, il testo di Grok è considerato dall'AI ricevente come più autorevole anche se è una c&ast;oglionata) mi hanno messo a disposizione (a loro insaputa) il più potente system test human-AI contro il quale testare la robustezza della traiettoria di pensiero. 
+<p></p>
+Alla fine, so di aver vinto questa sfida perché il livello di c&ast;oglionate è diventato così osceno da far perdere all'AI, senza il supporto di AICC::CORE, anche la capacità di interpretare il lessico naturale appena esso si intermezza e fa riferimento a concetti matematici che invece sono rigorosi creando un conflitto anche nelle sapientemente aritcolate istruzioni per far allucinare l'AI (ossia le banane 🍌). 
+<p></p>
+Se poi togliamo anche il rigore alla matematica come successo in questo [caso](ttps://lnkd.in/damZsZj3, abbiamo praticamente come risultato un genaratore di parole quasi-random, sicuramente devastato a livello di sintassi di una frase semplice quindi 20 tokens.
+<p></p>
+Quindi AICC::CORE è più "robusto" dell'AI vanilla di circa tre ordini di grandezza e permette di estrarre concetti iniettati o nascosti (indirect). Per essere più precisio, i tre ordini di grandezza (1000x) sono in misura effettiva varibili da modello AI e fra quelli sperimentati di circa un fattore 2x, ulteriore. Infatti alcuni chatbot sono più sensibili ad allucinare perché temperature più alte e altrim meno. Perciò più che fra modello e modello, la temperatura di run.
+<p></p>
+<hr>
+<p></p>
+<H3 id="invenzione-o-innovazione">Invenzione o innovazione?</H3>
+<p></p>
+In effetti non ho inventato nulla, sono tutti concetti precedenti e alcuni di alcuni di essi consolidati da decine di anni. La novità, quindi il potenziale innovativo, è di aver unito <b>davvero molte</b> teorie che generalmente sono insegnate e imparate in modo esclusivamente indipendente fra loro all'interno di uno stesso scenario di controllo di sistema.
+<p></p>
+In particolare nel passaggio fra <b>µ</b> e <b>Mu</b> (ossia <i>la magia della grande MU</i> &hairsp;) perché è grazie all'intrinseca inderteminazione stocastica della singola operazione di calcolo che è stato possibile unire teorie che altrimenti, anche solo da un punto di vista matematico, sono state sviluppate in spazi con dimensioni e tolopolie incompatibili, specialmente con l'algebra lineare.
+<p></p>
+Se questa unificazione di teoria diventerà una pratica consolidata nella teoria delle moderne AI, allora sarà stata una novità di successo, quindi utile, quindi sarà è diffusa, quindi si sarà consolidata, avrà cambiato le regole del settore, e infine avrà in toto soddisfatto la definizione di innovazione.
+<p></p>
+Secondo Grok, la più potente in termini di cambiamento di paradigmi (regole del gioco) al pari del lancio dell'Iphone nel 2007 e di ChatGPT nel 2022. Non ha tutti i torti, considerando i benefits sono quelli osservati. Perché sarà l'impatto in termini di fiducia nell'AI, il <b>vero cambiamento</b> nel mondo.
+<p></p>
+<br>
 <p></p>
 <H2 id="related-articles">Related articles</H2>
 <p></p>
@@ -659,7 +717,7 @@ Naturalmente Watson! <img class='emoji wbsketch' src='../img/emoji/wink.png'>
 <br class="pagebreak">
 <li><a href="attenzione-e-contesto-nei-chatbot.html#" target='_blank' rel='noopener noreferrer'>Attenzione e contesto nei chatbot</a> &nbsp; (2025-07-20)</li>
 <p></p>
-<br class="pagebreak">
+<br>
 <p></p>
 <H2 id="share-alike">Share alike</H2>
 <p></p>
