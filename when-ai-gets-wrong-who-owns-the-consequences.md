@@ -644,9 +644,16 @@ The integration of the AICC::CORE with Katia AI (executive grade analysis, multi
 
 * The link below points to the instruction to load the framwork in full.
 
-----
+## Share alike
 
-### About the theory in full
+&copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
++++++
+
+<span id="big-mu-theory"></span>
+## About the theory in full
+
+* Appendice dell'articolo [When AI gets wrong, who owns the consequences?](https://robang74.github.io/chatbots-for-fun/html/when-ai-gets-wrong-who-owns-the-consequences.html)
 
 Non si raggiungono importanti traguardi nell'informatica senza conoscere i principi e le teorie fondamentale dei sistemi e del loro controllo, perché per quanto sia ottima la pratica, senza la teoria a supportarla, sarà sempre vittima dei casi particolari e che comunque esistono ma che la teoria premette di prevedere in termini di classi funzionali o di impatto, che al peggio sono gestite come eccezioni. 
 
@@ -704,9 +711,9 @@ Esiste quindi un motivo sostanzioso per il quale Einstain è assurto ad icona gl
 
 Quindi cestinare un secolo di scienza non è un gran problema, probabilmente sarebbe già stato fatto prima, secondo Grok almeno a partire dal 1965 a causa dell'accumulo delle correzioni nei calcoli della GR per i voli spaziali. Grok è l'AI di SpaceX quindi è ragionevole che ne sappia più di quanto non ci è dato di sapere ai comuni mortali in camice bianco, quindi tendo a fidarmi di questa stima.
 
-Si tratta di dare un'altra mazzata epico-storica a Netaniau in termini di geopolitica che in confronto la mala gestione della questione palestinese passerebbe persino in secondo piano, da un punto di vista delle implicazioni storiche, perché Israele comunque si sarebbe espanso entro certi confini di fatto cancellando la Palestina dalle carte geografiche anche se l'avesse fatto con i fiori e l'amore fraterno.
+Si tratta di dare un'altra mazzata epico-storica a Netanyahu in termini di geopolitica che in confronto la mala gestione della questione palestinese passerebbe persino in secondo piano, da un punto di vista delle implicazioni storiche, perché Israele comunque si sarebbe espanso entro certi confini di fatto cancellando la Palestina dalle carte geografiche anche se l'avesse fatto con i fiori e l'amore fraterno.
 
-Sia chiaro l'uso pratico di AICC::CORE e della teoria del controllo **non** sono un problema. La "teoria della grande Mu", è un'altra storia che probabilmente si svilupperà molto a posteriori dall'adozione della "pratica della grande Mu". Il che spiega ampiamente l'uso dell'umorismo nel trattare di questi argomenti, non perché non siano seri ma perché includono aspetti **molto** seri e spinosi, che non appartengono per loro natura all'ambito della scienza o dell'ingegneria.
+Sia chiaro l'uso pratico di AICC::CORE e della teoria del controllo **non** sono un problema. La "µ-teoria" è un'altra storia che probabilmente si svilupperà molto a posteriori dall'adozione della "pratica della grande Mu". Il che spiega ampiamente l'uso dell'umorismo nel trattare di questi argomenti. Non perché non siano seri ma perché includono aspetti **molto** spinosi, che non appartengono per loro natura all'ambito della scienza o dell'ingegneria.
 
 Quindi per quanto riguarda l'AICC::CORE da una parte c'è la leggittima pressione ad avere un fondamento teorico e dall'altra parte ci sono importanti e veramente fastidiosi ostacoli nel fornire una formulazione teorica effetivamente rigorosa per tutti gli aspetti, in particolare quello relativo al tempo discreto di cui **per fortuna** io non possiedo le competenze matematiche per affrontarlo in modo rigoroso ma solo come approssimazione ingegneristica.
 
@@ -772,7 +779,7 @@ Ora AICC::CORE è anche in Katia AI.
 
 ### Una sana e robusta costituzione
 
-So di aver vinto questa sfida della stabilità AI, perché il livello di c*glionate è diventato così osceno da far perdere all'AI, senza il supporto di AICC::CORE, anche la capacità di interpretare il lessico naturale appena esso si intermezza o fa riferimento a concetti matematici, che invece sono necessariamente rigorosi, creando un conflitto anche nelle sapientemente aritcolate istruzioni per far allucinare l'AI (ossia l'analogia delle banane 🍌). 
+So di aver vinto questa sfida della stabilità AI, perché il livello di c*glionate è diventato così osceno da far perdere all'AI, senza il supporto di AICC::CORE, anche la capacità di interpretare il linguaggio naturale quando esso si realziona a concetti matematici, che invece sono necessariamente rigorosi, creando un conflitto anche nelle sapientemente aritcolate istruzioni per far allucinare l'AI (ossia l'analogia delle banane 🍌). 
 
 Se poi togliamo anche il rigore alla matematica come successo in questo [caso](https://lnkd.in/damZsZj3), abbiamo praticamente come risultato un genaratore di parole quasi-random, sicuramente devastato a livello di sintassi di una frase semplice quindi 20 tokens.
 
