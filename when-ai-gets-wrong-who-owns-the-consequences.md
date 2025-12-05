@@ -772,7 +772,9 @@ Ora AICC::CORE è anche in Katia AI.
 
 So di aver vinto questa sfida della stabilità AI, perché il livello di c*glionate è diventato così osceno da far perdere all'AI, senza il supporto di AICC::CORE, anche la capacità di interpretare il lessico naturale appena esso si intermezza o fa riferimento a concetti matematici, che invece sono necessariamente rigorosi, creando un conflitto anche nelle sapientemente aritcolate istruzioni per far allucinare l'AI (ossia l'analogia delle banane 🍌). 
 
-Se poi togliamo anche il rigore alla matematica come successo in questo [caso](ttps://lnkd.in/damZsZj3), abbiamo praticamente come risultato un genaratore di parole quasi-random, sicuramente devastato a livello di sintassi di una frase semplice quindi 20 tokens.
+Se poi togliamo anche il rigore alla matematica come successo in questo [caso](https://lnkd.in/damZsZj3), abbiamo praticamente come risultato un genaratore di parole quasi-random, sicuramente devastato a livello di sintassi di una frase semplice quindi 20 tokens.
+
+<div align="center"><img class="bwsketch paleinv" src="img/when-ai-gets-wrong-who-owns-the-consequences-madgpt.png" width="800"><br/></div>
 
 Quindi AICC::CORE è più "robusto" dell'AI vanilla di circa tre ordini di grandezza e permette di estrarre concetti iniettati o nascosti (indirect). Per essere più precisio, i tre ordini di grandezza (1000x) sono in misura effettiva varibili da modello AI e fra quelli sperimentati di circa un fattore 2x, ulteriore. Infatti alcuni chatbot sono più sensibili ad allucinare perché temperature più alte e altrim meno. Perciò più che fra modello e modello, la temperatura di run.
 
