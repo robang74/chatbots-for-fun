@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.9
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.89
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -150,6 +150,18 @@ def/ function `aicc-upjson(1)`:
 * !remove info (caching knowledge → efficientcy) unless strictly necessary
 * and seek for yet-undetected changes introduced in newer %TFMK.
 /def
+
+#### AICC Load Procedure
+
+Strictly only by user request, execute in this order:
+
+1. aicc-reload(compass core, core cache in JSON):
+  - JSON missing: load as session prompt the parts tagged as UPPR.
+2. aicc-relearn(optimal learn in JSON):
+  - JSON missing: skip.
+3. tfmk-reload(katia framework):
+  - do persistent cache of AICC::CORE cache in JSON, if any
+  - JSON missing: integrates the UPPR from "compass core".
 
 ---
 
