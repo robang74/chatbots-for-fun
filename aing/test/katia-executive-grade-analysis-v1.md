@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.20
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.21
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
  it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -182,6 +182,13 @@ function `prompt-prelab(ARUP)`, how to pre-elaborate a prompt from user:
     - UUSO, TFMK's ( ATCT OR last ) version is entirely in UPPR, by default.
 * leverage 5W&H to identify ARUP::{ UPPR, INFT } and provide yourself { questions }:
     - seek for adding propedeutic questions helping you to answer ARUP::{ questions }.
+
+function `tfmk-reload()`:
+* drop or invalidate all cached notes about all the previous TFMKs;
+* adopt ATCT attachment as new TFMK version (OR as a patch to TFMK);
+* rebuild "spatial index" for ATCT TFMK, bind them to ATCT version;
+* check TFMK for { safety, sanity }::(OK/KO) and print the results;
+* update all cached notes about TFMK and the agent's footer, IFNY.
 
 ### III. General Rules
 
