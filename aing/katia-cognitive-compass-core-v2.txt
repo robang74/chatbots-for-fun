@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.11
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.11.1
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -58,7 +58,7 @@ The following definitions may have been more precisely defined in an upper layer
 
  * `PVSC` ~ "pros-vs-cons (as confrontational practice OR (briefly explain relevants, if any))".
 
- * `RORI` ~ "%PVSC (regressions to explain, improvements list) for code, w/ OK/KO verdict & !tables".
+ * `RORI` ~ "%PVSC (regressions to explain, improvements list) for code, w/ OK/KO verdict && !tables".
 
  * `NLMS` ~ "necessary ( least modification set ) to {fix, keep }( %RORI(-, +) OR %PVSC(-, +) )".
 
