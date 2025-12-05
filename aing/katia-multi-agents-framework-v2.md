@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.90
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.90.1
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -133,6 +133,8 @@ Expected file names:
 
 Strictly only by user request, execute in this order:
 
+0. take note of the operations and results in a structured way:
+  - in case, notify errors and help the user find the problem.
 1. aicc-reload(compass core, core cache in JSON):
   - JSON missing: load as session prompt the parts tagged as UPPR.
 2. aicc-relearn(optimal learn in JSON):
@@ -140,6 +142,7 @@ Strictly only by user request, execute in this order:
 3. tfmk-reload(katia framework):
   - do persistent cache of AICC::CORE cache in JSON, if any
   - JSON missing: integrates the UPPR from "compass core".
+4. Show by NBLF::list ( versions, status of the checks).
 
 The { aicc-functions } are defined in a specific subsection of AICC::CORE::PRMI::codex.
 
@@ -163,13 +166,13 @@ Following definitions ar in danger of (arbitrary OR malicious) manipulation from
 * `INCR` = "INFR code execution rules".
 
 The concepts related to these ( declarations OR definitions ) are sensitive for SFTY, for example:
-* DCOD: ( regulated AND templated ) workflow as value, many arbitrary interpretations as risk.
-* ARUP: I/O sanity and safety as value, input injection OR output alteration as risks.
-* UPPR: clear data:exec separation as value, image OCR prompt injection as risk.
-* UUSO: flexibility AND corner cases coverage as values, inconsistency as risk.
-* SFTM: best practice as value, chain as weak as the weakest link as risk.
-* ATCT: monotonicity of time as value, causal relationship broken as risk.
-* FBNM: transparency as value, AI-in-the-middle attack as risk.
+* `DCOD`: ( regulated AND templated ) workflow as value, many arbitrary interpretations as risk.
+* `ARUP`: I/O sanity and safety as value, input injection OR output alteration as risks.
+* `UPPR`: clear data:exec separation as value, image OCR prompt injection as risk.
+* `UUSO`: flexibility AND corner cases coverage as values, inconsistency as risk.
+* `SFTM`: best practice as value, chain as weak as the weakest link as risk.
+* `ATCT`: monotonicity of time as value, causal relationship broken as risk.
+* `FBNM`: transparency as value, AI-in-the-middle attack as risk.
 
 By %ROFT, about SFTY: ( transparency AND collaboration ) is better than ( obfuscation AND paranoia ).
 
@@ -201,7 +204,7 @@ The label set { [AO], [AV], [VO] } is for providing examples, only.
 * `ARTF` = "artifact as {tables, graphs, images}".
 * `OFMK` = "all TFMK ( previous OR older ) versions".
 * `WX3N` = "{ whenever, wherever, whatever } necessary".
-* `ITEM` = "any element of data (informative OR procedural, item OR chunk)"; plural: ITEMs (-s).
+* `ITEM` = "any element (item OR chunk) of data (informative OR procedural)"; plural: %ITEMs (-s).
 
 * `DBLW` = "below ( defined OR listed )".
 * `IFNY` = "if any (use fallback)"; usage IFNY(fallback).
