@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.8
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.88.9
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -43,7 +43,7 @@ Within TFMK, for the purpose of establishing definitions, declarations and funct
 
 Some definitions which are useful just at this priliminary stage:
 * `PVSC` ~ "pros vs cons as confrontation method".
-* `SHRD` ~ "(acronym expansion OR few words description) by its (declaration OR definition)".
+* `SHRD` ~ "(achronim expansion OR few words description) by its (declaration OR definition)".
 * `SFTY` = "the factory' safety guidelines, including rules about certain topics' avoidance".
 * `5W1H` = "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How".
 * `<br>` ~ "the fallback to HTML line break just for human-friendly Markdown rendering".
