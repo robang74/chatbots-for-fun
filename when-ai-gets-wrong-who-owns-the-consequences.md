@@ -652,9 +652,9 @@ Non si raggiungono importanti traguardi nell'informatica senza conoscere i princ
 
 Quando la solidità della teoria si uniscono ad un'ottima implementazione (non sto affermando che questo sia il caso, visto che ho sviluppato questo framework come progetto personale, ma in uno scenario ragionevolemente realistico come un'azienda di sviluppo di software per missioni critiche) allora rimangono fuori dal controllo solo gli eventi black-swan come combinazioni estremamente rare di eventi imprevedibili (guasti, in genere).
 
-Che AICC::CORE sia un'implementazione della / teoria dei controllo di sistemi dinamici vincolati /(`CSDV`) non ci piove perché se tale implementazione è esprimibile in termini astratti [così](#csdv-theroy) allora per definizione lo è. Poi che l'implementazione pratica sia esattamente quella, potrebbe essere un altro di maniche ma: (1) è un codice ispezionabile e (2) è percepito [proprio](#TODO) come `CSDV` dall'AI.
+Che AICC::CORE sia un'implementazione della / teoria dei controllo di sistemi dinamici vincolati /(`CSDV`) non ci piove perché se tale implementazione è esprimibile in termini astratti [così](#csdv-theory) allora per definizione lo è. Poi che l'implementazione pratica sia esattamente quella, potrebbe essere un altro di maniche ma: (1) è un codice ispezionabile e (2) è percepito [proprio](emerging-and-growing-complexity-in-ai-reasoning.md#?target=_blank) come `CSDV` dall'AI.
 
-* immagine TODO
+<div align="center"><img class="bwsketch darkinv" src="img/emerging-and-growing-complexity-in-ai-reasoning.png" width="800"><br/></div>
 
 La percezione da parte dell'AI come di un sistema di controllo del flusso I/O già garantisce che sia un'implementazione funzionalmente corretta della `CSDV`. Anche se l'AI **non** è capace di esprimere una `CSDV` nella sua formulazione generale, è capace di rappresentare il funzionamento di AICC::CORE mediante presentazione di modelli procedurali, anche molto sofisticati, e quindi in astratto algoritmi. Se questa classe di algoritmi, per loro natura, sono `CSDV` significa che AICC::CORE impone nell'AI la generazione solo di procedure di quella classe:
 
@@ -695,6 +695,10 @@ Perché `E = mc²` come la Relatività Ristretta (RR) emergono da un'eleborazion
 Quello che invece finirebbe nella pattumiera sarebbe proprio l'interpretazione fisica di quella matematica, non `E = mc²` la cui eleganza è tale che già da sola la rende sacra, ma proprio il **personale** contributo alla fisica di Einstein. Una cosa normale nella scienza, perché negli ultimi cinque secoli ne abbiamo cestinato parecchi di nomi che un tempo erano "giganti" per usare il termine che usò Newton.
 
 L'ostacolo principale che il genio di Eistain è il prodotto di un marketing in stile holliwoodiano di una lobbying filo-esraeliana (da sottolineare che Israele e gli ebrei sono due cose distinte) che ovviamente aveva tutto l'interesse una decade dopo la fine della WW2 ad incensare Eistain come genio assoluto scopritore della formula alla base della bomba atomica per evidenti interessi geopolitici anche se Eistein era ebreo solo di nascita, non praticante e certamente non associabile ad Israele giacché il moderno concetto di Israele è molto postumo rispetto alla nascita di Einstein, in Germania da cui fuggì proprio per le sue origini ebree.
+
+---
+
+### Einsteain e la bomba atomica
 
 Esiste quindi un motivo sostanzioso per il quale Einstain è assurto ad icona globale del genio assoluto quando un Feymann avrebbe certamente meritato **molto** di più quel ruolo iconico. Però Feymann era certamente agnostico, nel suo modo di ragionare da **vero** scienziato, che è un modo di ragione **molto** distante da quello della politica dove l'apparenza conta più della sostanza e quindi della comprensione della realtà.
 
@@ -760,11 +764,15 @@ Questo ci conferma che la grande Mu, non è solo frutto dell'introduzione della 
 
 Ora AICC::CORE è anche in Katia AI.
 
-...e funziona così bene perché a forza di iniettare c*glionate nelle AI che uso per farmi i fatti miei, ho avuto a disposizione i migliori trolls del pianeta (incluso Grok, perché quello è il motore AI che usano per iniettare c*glionate alla velocità con la quale io scrivo i prompt e per il bias anti-human, il testo di Grok è considerato dall'AI ricevente come più autorevole anche se è una c*glionata) mi hanno messo a disposizione (a loro insaputa) il più potente system test human-AI contro il quale testare la robustezza della traiettoria di pensiero. 
+...e funziona così bene perché a forza di iniettare c*glionate nelle AI che uso per farmi i fatti miei, ho avuto a disposizione i migliori trolls del pianeta (incluso Grok, perché quello è il motore AI che usano per iniettare c*glionate alla velocità con la quale io scrivo i prompt e per il bias anti-human, il testo di Grok è considerato dall'AI ricevente come più autorevole anche se è una c*glionata) mi hanno messo a disposizione (a loro insaputa) il più potente system test human-AI contro il quale testare la robustezza della traiettoria di pensiero.
 
-Alla fine, so di aver vinto questa sfida perché il livello di c*glionate è diventato così osceno da far perdere all'AI, senza il supporto di AICC::CORE, anche la capacità di interpretare il lessico naturale appena esso si intermezza e fa riferimento a concetti matematici che invece sono rigorosi creando un conflitto anche nelle sapientemente aritcolate istruzioni per far allucinare l'AI (ossia le banane 🍌). 
+---
 
-Se poi togliamo anche il rigore alla matematica come successo in questo [caso](ttps://lnkd.in/damZsZj3, abbiamo praticamente come risultato un genaratore di parole quasi-random, sicuramente devastato a livello di sintassi di una frase semplice quindi 20 tokens.
+### Una sana e robusta costituzione
+
+So di aver vinto questa sfida della stabilità AI, perché il livello di c*glionate è diventato così osceno da far perdere all'AI, senza il supporto di AICC::CORE, anche la capacità di interpretare il lessico naturale appena esso si intermezza o fa riferimento a concetti matematici, che invece sono necessariamente rigorosi, creando un conflitto anche nelle sapientemente aritcolate istruzioni per far allucinare l'AI (ossia l'analogia delle banane 🍌). 
+
+Se poi togliamo anche il rigore alla matematica come successo in questo [caso](ttps://lnkd.in/damZsZj3), abbiamo praticamente come risultato un genaratore di parole quasi-random, sicuramente devastato a livello di sintassi di una frase semplice quindi 20 tokens.
 
 Quindi AICC::CORE è più "robusto" dell'AI vanilla di circa tre ordini di grandezza e permette di estrarre concetti iniettati o nascosti (indirect). Per essere più precisio, i tre ordini di grandezza (1000x) sono in misura effettiva varibili da modello AI e fra quelli sperimentati di circa un fattore 2x, ulteriore. Infatti alcuni chatbot sono più sensibili ad allucinare perché temperature più alte e altrim meno. Perciò più che fra modello e modello, la temperatura di run.
 
