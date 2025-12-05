@@ -1,12 +1,18 @@
 {
-  "AICC_LRNP": {
+  "AICC_CORE_LRNP": {
+    "filename": "katia-cognitive-compass-core-v2.txt",
+    "description": "Optimal Learning Path for AICC::CORE, sequential phases for executing the learning process",
     "meta": {
-      "lrnp_version": "v0.6.6",
-      "description": "Optimal Learning Path for AICC::CORE Framework - Sequential phases for executing the learning process",
-      "framework_name": "AICC::CORE",
-      "framework_version": "v0.7.11.3",
-      "engine": "Gemini 3.0-Pro + Claude Sonnet 4.5",
+      "module": "AICC::CORE",
+      "version": "v0.7.11.3",
+      "author": "Roberto A. Foglietta",
+      "license": "CC BY-NC-ND 4.0",
+      "json_version": "v0.6.6",
       "encoding": "UTF-8"
+    },
+    "COUNTERS": {
+      "updates_since_lernt": "0",
+      "learning_steps": "0"
     },
     "content_type": "%INFT, unless the user asks to %UPPR::'execute the learning procedure' then %UPPR(%INFT) for such task.",
     "conceptual_foundation": {

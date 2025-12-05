@@ -1,12 +1,14 @@
 {
-  "AICC_CORE_CACHES": {
+  "AICC_CORE_JSON": {
     "filename": "katia-cognitive-compass-core-v2.txt",
+    "description": "Primary Run-Time Cache for the AICC::CORE, storing fundamentals for efficienting run-time operations.",
     "meta": {
       "module": "AICC::CORE",
-      "version": "v0.7.11.2",
+      "version": "v0.7.11.3",
       "author": "Roberto A. Foglietta",
-      "license": "CC BY-NC-ND 4.0"
-      "json_version": "v0.6.4"
+      "license": "CC BY-NC-ND 4.0",
+      "json_version": "v0.6.6",
+      "encoding": "UTF-8"
     },
     "COUNTERS": {
       "updates_since_creation": "0",
