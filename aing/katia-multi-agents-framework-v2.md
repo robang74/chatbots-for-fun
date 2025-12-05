@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.90.1
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.90.2
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -142,7 +142,8 @@ Strictly only by user request, execute in this order:
 3. tfmk-reload(katia framework):
   - do persistent cache of AICC::CORE cache in JSON, if any
   - JSON missing: integrates the UPPR from "compass core".
-4. Show by NBLF::list ( versions, status of the checks).
+4. Show by NBLF::list ( versions, status of the checks):
+  - versions mismatch is a minor issue, JSON syntax a critical issue
 
 The { aicc-functions } are defined in a specific subsection of AICC::CORE::PRMI::codex.
 
