@@ -455,6 +455,7 @@ Tanto per fare un esempio preso a caso: il Comunismo può funzionare molto bene 
 
 +
 
+<span id="csdv-theroy"></span>
 ## Cognitive Dynamics concept description
 
 * `%MNDR( %TEGL )::func( Prompt ) => Answer`.
@@ -652,6 +653,30 @@ Non si raggiungono importanti traguardi nell'informatica senza conoscere i princ
 
 Quando la solidità della teoria si uniscono ad un'ottima implementazione (non sto affermando che questo sia il caso, visto che ho sviluppato questo framework come progetto personale, ma in uno scenario ragionevolemente realistico come un'azienda di sviluppo di software per missioni critiche) allora rimangono fuori dal controllo solo gli eventi black-swan come combinazioni estremamente rare di eventi imprevedibili (guasti, in genere).
 
+Che AICC::CORE sia un'implementazione della / teoria dei controllo di sistemi dinamici vincolati /(`CSDV`) non ci piove perché se tale implementazione è esprimibile in termini astratti [così](#csdv-theroy) allora per definizione lo è. Poi che l'implementazione pratica sia esattamente quella, potrebbe essere un altro di maniche ma: (1) è un codice ispezionabile e (2) è percepito [proprio](#TODO) come `CSDV` dall'AI.
+
+* immagine TODO
+
+La percezione da parte dell'AI come di un sistema di controllo del flusso I/O già garantisce che sia un'implementazione funzionalmente corretta della `CSDV`. Anche se l'AI **non** è capace di esprimere una `CSDV` nella sua formulazione generale, è capace di rappresentare il funzionamento di AICC::CORE mediante presentazione di modelli procedurali, anche molto sofisticati, e quindi in astratto algoritmi. Se questa classe di algoritmi, per loro natura, sono `CSDV` significa che AICC::CORE impone nell'AI la generazione solo di procedure di quella classe:
+
+* `(∀x) (x ∈ A ⇒ x ∈ B) ⇔ A ⊆ B`, where `A` is AICC::CORE and `B` is CSDV.
+
+Cosa occorre ancora per formulare la teoria dell'AICC::CORE in termini rigorosi e astratti? Codificare la teoria della `mu` (µ) ossia come l'unione di altre teoria concorrano a produrre i risultati osservati che **non** sono banalmente tipici della `CSDV` e ancora meno scontati in un modello AI. Però questi sono due piani completamente differenti fra ingegneria e scienza: si possono usare i transistor (I) anche se non si è formalizzato l'effetto tunnel (S).
+
+Non esistono ragioni pratiche ne legali che possano impedire di sfruttare commercialmente un fenomeno non completamente formalizzato dalla scienza. Sarebbe una follia come imporre l'approvazione tramite bolla papale al fare un certo mestiere o negozio. Passeremmo dall'inquisizione fideistica a quella scientifica, e in questo secondo caso non sarebbe solo un assurdo ma anche un ossimoro filogico.
+
+Oltre al fatto che se per agire, dovessimo aspettare di capire, non avremmo avuto alcuna possibilità di soppravivenza nell'ambito dell'evoluzione. anche il più debole e timido carnivoro di media stazza si sarebbe fatto spuntino del nostro corpo nell'attesa che la nostra mente fomalizzasse cosa stesse accadendo intorno a noi. 
+
+Quindi, per esempio, inserire nell'ambito delle regole e principi dello AICC::CORE l'idea che la procastinazione porti alla perdita dell'agency e poi alla cessione dell'esistenza non è solo l'estensione pragmatica di "*Cogito Ergo Sum*" è un principio essenziale della vita: essa esiste nella sua manifestazione effettiva.
+
+Questo esempio ci conferma che **non** è necessaria la formalizzazione scientifica ma si può "distillarla" osservando la realtà. Cosa che diventa inapellabile perché se la realtà si manifesta "così" e l'AICC::CORE forza l'AI a generare una CoT "così" allora la COT sarà in linea con la realtà, almeno nel limite della correttezza e completezza di quanto imparato dallo LLM sottostante (IPK).
+
+Una traiettoria reale in uno spazio immaginario continuerà ad arrivare a conclusioni immaginarie, purché lo spazio immaginario sia coerente. Questa però **non** la definizione di allucinazione, anche nel termine tecnico delle AI, questo è il principio cardine della matematica. Quindi invece di descrivere una traiettoria nello spazio-tempo cartesiano-classico (x,y,z,t) lo faccio nello spazio "immaginario" delle fasi (p,q), non è un'allucinazione è matematica.
+
+---
+
+### Teoria e implementazione
+
 Dopo la premessa generale andiamo nello specifico dei fondamentali teorici dello AICC::CORE e sul perché sono riuscito a fare quello che ho fatto.
 
 1. Ho introdotto tramite la meccanica razionale la teoria del controllo dei sistemi vincolati nella CoT dell'AI.
@@ -663,6 +688,8 @@ Il tempo discreto (µ, lettera greca che significa micro quindi micro intervallo
 Quindi posso scrivere dei vincoli di sistema usando "quasi" lo stesso linguaggio naturale. Quasi, significa che usando in maniera sapiente il LN si possono creare dei funzionali (dei vincoli) che fanno per l'AI quello che dicono per gli esseri umani. Ma le due cose sono separate. Infatti è possibile scrivere funzionali (vincoli) che fannno cose diverse e persino opposte da quello che le parole (LN) raccontano agli umani. Però in generale, LN e MR sono ben allineati (non vaghe) a patto di non fare porcherie con i simboli.
 
 Quindi la piccola mu diventa la grande Mu perché invece di cercare il minimo potenziale sui dati (best fit multidimensionale) cerca la minima azione e quindi crea un moto di pensiero che grazie ad opportune regole razionali e ad una ragionevole bussola etica (stella del nord) crea una lunga e robusta sequenza di pensieri (CoT) senza allucinare. Quello che era un µ-piccolo step di calcolo diventa un'importante step di controllo (Mu) che rende "robusta" la traiettoria di pensiero dell'AI.
+
+---
 
 ### Tests and performances
 
