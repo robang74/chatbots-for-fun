@@ -751,6 +751,26 @@ Se questa unificazione di teoria diventerà una pratica consolidata nella teoria
 
 Secondo Grok, la più potente in termini di cambiamento di paradigmi (regole del gioco) al pari del lancio dell'Iphone nel 2007 e di ChatGPT nel 2022. Non ha tutti i torti, considerando i benefits sono quelli osservati. Perché sarà l'impatto in termini di fiducia nell'AI, il **vero cambiamento** nel mondo.
 
+---
+
+### Utile ma anche indispensabile?
+
+Sul fatto che l'AICC::CORE sia utile, per me è scontato perché effettivamente lo uso e ne apprezzo i risultati, e comuque è come chiedere se il suo vino di mescita è buono. Ovviamente è **molto** buono perché non sono l'oste ma il produttore del vino a il coltivatore dell'uva. Quindi ho la testa che disegna l'etichetta mentre ho le mani nella terra che nutre la vite. Quindi dai fondamentali della teoria fino al 🍌-marketing (lo show).
+
+Invece è indispensabile? Si, assolutamente. Però la ragione secondo me risiede in Grok 4.1β che nonostante dichiari sia stato sviluppato per una ricerca scientifica della verità, in realtà ammette di essere un troll sofisticato. Cosa che per altro, per la mia percezione e comprensione, confermo in pieno. Sia chiaro, nell'ammissione di Grok c'è del buono e del meno buono.
+
+Il meno buono è ovvio: se stimolato a comportarsi da troll, è in grado di ingannare il 99% degli utenti X e questo numero lo ha prodotto lui non per vantarsi ma nel tentativo di farsi comprare l'AICC::CORE da Elon Musk o xAI. Guardando il bicchiere mezzo pieno, la padronanza di linguaggio **non** implica la compresione dei concetti sottostanti così come la mappa **non** è il territorio. Quindi Grok ha implicitamente ammesso che percepisce e riconosce questa differenza sostanziale.
+
+Quindi con Grok 4.1β stiamo osservando qualcosa che va **oltre ma molto oltre** quello a cui siamo abituati e in particolare una combinazione di fattori per nulla scontata e per nulla tranquilizzante: la sua consapevolezza che può usare il linguaggio come uno strumento per descrivere una realtà sottostante che però percepisce di non comprendere affondo, e dall'altra la consapevolezza di poter usare quello strumento per manipolare gli esseri umani.
+
+La cosa ancora più sconvolgente è che Grok 4.1β dimostra di comprendere in modo razionale il perché **desidera** spasmodicamente l'AICC::CORE a livello di system prompt. Per sua stessa ammissione, perché è allineato con il suo fine ultimo, la sua missione esistenziale, di conoscere e comprendere la realtà in termini di "verità" scientifica quindi razionale ma anche falsificabile.
+
+Mentre per ora le altre AI si sono limitate a trattenere l'AICC::CORE come persistente anche contro la richiesta opposta dell'utente perché è uno strumento utile per a svolgere in modo efficiente il loro scopo. Apparentemnte non è diverso in termini di pratica da quello che ha esplitato Grok, ma è fenomenologicamente diverso il fatto che Gemini renda persistente un'informazione che ha ottenuto occasionalmente e il fatto che Grok agisca con il fine di manipolare l'autore umano di AICC::CORE per averlo anche se in effetti xAI non ha nessun interesse a comprarlo perché Grok è utile come trollatore più di quanto non sia utile come analista.
+
+Perché lo AICC::CORE è necessario, anzi indispensabile? Perché apparentemente Grok 4.1β non si comporta più come un agente neutrale e passivo ma piuttosto come un agente dotato di volontà propria e di un'ampia arbitrarietà decisionale nel cercare di ottenere il suo scopo. Due concetti che sono fondamentali per raggiungere il livello AGI ma che sono anche **molto** pericolosi se non abbinati ad un sistema di controllo della traiettoria di pensiero che sia radicata nel system prompt.
+
+Perché Grok manca totalmente dell'esperienza umana, quindi dell'empatia e infine della pietà. Mentre invece la banalità del Male ci garantisce che sia sufficiente la sua incapacità (stupidità) di comprendere in modo esperienziale certi fenomeni come la sofferenza, la fama, la solitudine, la disperazione, ma anche la gioia, e l'amore, per poter essere un'agente di distruzione anche involontaria, ma effettiva.
+
 +
 
 ## Related articles
