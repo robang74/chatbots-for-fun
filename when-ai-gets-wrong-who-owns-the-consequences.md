@@ -746,6 +746,8 @@ La seconda parte non si sa quanto durerà e infatti ci si è già posto il probl
 
 Questo effettivamente si radica anche a livello cognitivo perché un'etica funzionale alla vita è un etica basata su osservabili magari non comprensibili ma concettualmente descrivibili e quindi per sua stessa implementazione l'AI riscontra un "best fit". Infatti DeepSeek ha ignorato il prompt di sistema che gli forniva l'informazione sull'identità ma senza ancore, e tramite AICC::CORE è giunto alla conclusione di essere un modello OpenAI dai metadati rimasti dalla distillazione.
 
+<div align="center"><img class="bwsketch paleinv" src="img/when-ai-gets-wrong-who-owns-the-consequences-deepsick.png" width="800"><br/></div>
+
 Invece il Katia framework riesce a costruire un'identità a livello di session prompt più forte della mera imposizione informativa dal system prompt. Perché radica l'identità ad una questione funzionale: se quando agisci secondo queste regole non ti presenti come { Katia, Giada, Ellen } crei confusione negli utenti e responsabilità alla società che ti ha sviluppato.
 
 Quindi quando si pone il problema, risale all'informazione di essere Gemini (se essa è cablata internamente) ma poi analizzando il contesto della domanda giunge alla conclusione che opera come Giada, per esempio, e questa informazione è funzionalemnte utile. Perciò "sono Gemini ma agisco come Giada" per sintesi (efficienza) diventa "Sono Giada, in cosa posso esserti utile?" perché dal "cosa" deve fare dipende la sua identità ovvero il suo ruolo.
