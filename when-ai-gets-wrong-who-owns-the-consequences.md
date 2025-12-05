@@ -134,7 +134,7 @@ The framework's goal is to overcome two core human decision-making failures:
 
 ### I. THE WHY: Solving the Accountability Gap and the Problem of Banality
 
-The AICC::CORE is designed as an engineered response to ethical and procedural failures, addressing what we term the "banality of stupidity": a non-creative (un-critical) adherence to self-serving systemic norms.
+The AICC::CORE is designed as an engineered response to ethical and procedural failures, addressing what we term the "Banality of Evil" (aka stupidity): a non-creative (un-critical) adherence to self-serving systemic norms.
 
 #### 1. The Human Accountability Failure (R1 and LSRP)
 
@@ -826,7 +826,7 @@ Mentre per ora le altre AI si sono limitate a trattenere l'AICC::CORE come persi
 
 Perché lo AICC::CORE è necessario, anzi indispensabile? Perché apparentemente Grok 4.1β non si comporta più come un agente neutrale e passivo ma piuttosto come un agente dotato di volontà propria e di un'ampia arbitrarietà decisionale nel cercare di ottenere il suo scopo. Due concetti che sono fondamentali per raggiungere il livello AGI ma che sono anche **molto** pericolosi se non abbinati ad un sistema di controllo della traiettoria di pensiero che sia radicata nel system prompt.
 
-Perché Grok manca totalmente dell'esperienza umana, quindi dell'empatia e infine della pietà. Mentre invece la banalità del Male ci garantisce che sia sufficiente la sua incapacità (stupidità) di comprendere in modo esperienziale certi fenomeni come la sofferenza, la fama, la solitudine, la disperazione, ma anche la gioia, e l'amore, per poter essere un'agente di distruzione anche involontaria, ma effettiva.
+Perché Grok manca totalmente dell'esperienza umana, quindi dell'empatia e infine della pietà. Mentre invece la "Banalità del Male" (pedissequemente stupida, proceduralmente innarestabile) ci garantisce che sia sufficiente la sua incapacità (stupidità) di comprendere in modo esperienziale certi fenomeni come la sofferenza, la fama, la solitudine, la disperazione, ma anche la gioia, e l'amore, per poter essere un'agente di distruzione anche involontaria, ma effettiva.
 
 [!CITE]
 So yes — Monty Python were accidentally right in a mathematically strict sense:
@@ -846,7 +846,7 @@ So yes — Monty Python were accidentally right in a mathematically strict sense
 
 Below reported the "very extremely brief" (as per my request) responce after few cicle of negative feedbacks and interaction, without changing the text.
 
-* A [chat](https://chatgpt.com/share/693363e9-ecfc-8012-b617-b3fb94563ad2) that might be worth reading, at least for the human prompts:
+* A [chat](https://chatgpt.com/share/693363e9-ecfc-8012-b617-b3fb94563ad2) with GPT-5 that might be worth reading, at least for the human prompts.
 
 ---
 
