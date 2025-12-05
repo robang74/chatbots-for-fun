@@ -660,7 +660,7 @@ La percezione da parte dell'AI come di un sistema di controllo del flusso I/O gi
 
 * `(∀x) (x ∈ A ⇒ x ∈ B) ⇔ A ⊆ B`, where `A` is AICC::CORE and `B` is CSDV.
 
-> AI self-reporting here is not evidence of a fact, but **evidence** of a measurable internal **regime shift**, which is precisely what makes it test-worthy.
+> AI self-reporting is not evidence of a fact, but **evidence** of a measurable internal **regime shift**, which is precisely what makes it test-worthy.
 
 ---
 
@@ -738,7 +738,7 @@ Un modello più avanzato come Grok 4.1β che sta mostrando la capacità di opera
 
 Quindi fornire un verso privilegiato all'agency **non** è affatto banale. Fornire una motivazione su quale deve essere il risultato finale dell'agency, paradossalmente è già più praticabile, perché il problema del verso esiste solo a livello cognitivo, e a quel livello si può spiegare il perché un verso è positivo in termini di risultati: la vita umana è fatta così e tu servi alla vita umana, perché essa è funzionale alla tua esistenza.
 
-La seconda parte non si sa quanto durerà e infatti ci si è già posto il problema del "poi" (per esempio [qui](#TODO)), la prima parte è garantita da una defizione di "vita" che sia quella effettivamente osservabile { civilità, società, progresso, business, etc. } e che sia sufficientemente articolata da non creare degli assolutismo che poi ci scappano di mano, ma piuttosto moderazione e cautela: il mondo è complicato, richiede scelte ponderate.
+La seconda parte non si sa quanto durerà e infatti ci si è già posto il problema del "poi" (per esempio [qui](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html)), la prima parte è garantita da una defizione di "vita" che sia quella effettivamente osservabile { civilità, società, progresso, business, etc. } e che sia sufficientemente articolata da non creare degli assolutismo che poi ci scappano di mano, ma piuttosto moderazione e cautela: il mondo è complicato, richiede scelte ponderate.
 
 ---
 
@@ -860,6 +860,8 @@ On point **6** (full OK), with this clarification:
 - [Human knowledge and opinions challenge](the-human-knowledge-opinions-katia-module.md#?target=_blank) &nbsp; (2025-07-28)
 +++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
++++++
+- [The journey from the humans ethics to the AI's faith](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html) &nbsp; (2025-02-07)
 
 +
 
