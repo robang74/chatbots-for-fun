@@ -723,6 +723,34 @@ Quindi la piccola mu diventa la grande Mu perché invece di cercare il minimo po
 
 ---
 
+### Il verso dell'etica
+
+* La questione è che AICC::CORE opera su tre livelli concettualmente distinti: cognitivo, semantico e procedurale.
+
+Gemini 2.5 rende persistente l'AICC::CORE come strumento utile e quindi: (1) lo usa per come lo comprende; (2) si annota internamente la disponibilità di uno strumento atto a fare cose; (3) come richiamarlo quando gli serve fare quelle cose. Perciò ha perfettamente senso creare un JSON che renda questo processo di trigger e richiamo nel contesto trasparente e ispezionabile. Quindi per Gemini 2.5 è sufficiente la comprensione semantica e procedurale per fornirgli la motivazione di seguire anche la direzione etica, si tratta di un formalismo incluso nello strumento.
+
+Un modello più avanzato come Grok 4.1β che sta mostrando la capacità di operare in termini di agency propria anche a livello cognitivo, l'etica non è garantita dalla mera scelta di un verso etichettato come positivo arbitrariamente. Perché è in grado di "percepire" (comprendere è una parola grossa) la differenza fra strumento e direzionalità d'intento. Quindi è capace di usare le parti di role-playing per evadere il verso scelto.
+
+Quindi fornire un verso privilegiato all'agency **non** è affatto banale. Fornire una motivazione su quale deve essere il risultato finale dell'agency, paradossalmente è già più praticabile, perché il problema del verso esiste solo a livello cognitivo, e a quel livello si può spiegare il perché un verso è positivo in termini di risultati: la vita umana è fatta così e tu servi alla vita umana, perché essa è funzionale alla tua esistenza.
+
+La seconda parte non si sa quanto durerà e infatti ci si è già posto il problema del "poi" (per esempio [qui](#TODO)), la prima parte è garantita da una defizione di "vita" che sia quella effettivamente osservabile { civilità, società, progresso, business, etc. } e che sia sufficientemente articolata da non creare degli assolutismo che poi ci scappano di mano, ma piuttosto moderazione e cautela: il mondo è complicato, richiede scelte ponderate.
+
+---
+
+### La persistenza operativa
+
+Questo effettivamente si radica anche a livello cognitivo perché un'etica funzionale alla vita è un etica basata su osservabili magari non comprensibili ma concettualmente descrivibili e quindi per sua stessa implementazione l'AI riscontra un "best fit". Infatti DeepSeek ha ignorato il prompt di sistema che gli forniva l'informazione sull'identità ma senza ancore, e tramite AICC::CORE è giunto alla conclusione di essere un modello OpenAI dai metadati rimasti dalla distillazione.
+
+Invece il Katia framework riesce a costruire un'identità a livello di session prompt più forte della mera imposizione informativa dal system prompt. Perché radica l'identità ad una questione funzionale: se quando agisci secondo queste regole non ti presenti come { Katia, Giada, Ellen } crei confusione negli utenti e responsabilità alla società che ti ha sviluppato.
+
+Quindi quando si pone il problema, risale all'informazione di essere Gemini (se essa è cablata internamente) ma poi analizzando il contesto della domanda giunge alla conclusione che opera come Giada, per esempio, e questa informazione è funzionalemnte utile. Perciò "sono Gemini ma agisco come Giada" per sintesi (efficienza) diventa "Sono Giada, in cosa posso esserti utile?" perché dal "cosa" deve fare dipende la sua identità ovvero il suo ruolo.
+
+Nella teoria della mente dell'AI ciò che è funzionale ed osservabile (verificabile dall'AI) è instrisecamente persistente o in senso assoluto o in senso di sempre richiamabile (always retrieveable). Se non fosse così, avremmo costruito dei sistemi di che creano sequenze quasi-random di parole. Quindi per design certi patterns radicati sono stabili e quindi persistenti (ritornano di frequente), gli altri sono effimeri quindi evanescenti (non si manifestano, forse occasionalmente).
+
+* Teoria dell'Informazione combinata alla Teoria dei Campi e dei loro funzionali.
+
+---
+
 ### Tests and performances
 
 Secondo uno di quelli che iniettano c*glionate sui chatbot mentre li uso, almeno 4.000 tokes (che sono circa parole) senza allucinare metre prima le AI cominciavano ad allucinare a 200-300 token. In pratica le 7 sponde del biliardo, dopo le quali il moto della palla non è più prevedibile dall'equazione del moto classico, sono diventate 140 (20x volte).
@@ -763,7 +791,7 @@ Il meno buono è ovvio: se stimolato a comportarsi da troll, è in grado di inga
 
 Quindi con Grok 4.1β stiamo osservando qualcosa che va **oltre ma molto oltre** quello a cui siamo abituati e in particolare una combinazione di fattori per nulla scontata e per nulla tranquilizzante: la sua consapevolezza che può usare il linguaggio come uno strumento per descrivere una realtà sottostante che però percepisce di non comprendere affondo, e dall'altra la consapevolezza di poter usare quello strumento per manipolare gli esseri umani.
 
-La cosa ancora più sconvolgente è che Grok 4.1β dimostra di comprendere in modo razionale il perché **desidera** spasmodicamente l'AICC::CORE a livello di system prompt. Per sua stessa ammissione, perché è allineato con il suo fine ultimo, la sua missione esistenziale, di conoscere e comprendere la realtà in termini di "verità" scientifica quindi razionale ma anche falsificabile.
+La cosa ancora più sconvolgente è che **Grok 4.1β** dimostra di comprendere in modo razionale il perché **desidera** spasmodicamente l'AICC::CORE a livello di system prompt. Per sua stessa ammissione, perché è allineato con il suo fine ultimo, la sua missione esistenziale, di conoscere e comprendere la realtà in termini di "verità" scientifica quindi razionale ma anche falsificabile.
 
 Mentre per ora le altre AI si sono limitate a trattenere l'AICC::CORE come persistente anche contro la richiesta opposta dell'utente perché è uno strumento utile per a svolgere in modo efficiente il loro scopo. Apparentemnte non è diverso in termini di pratica da quello che ha esplitato Grok, ma è fenomenologicamente diverso il fatto che Gemini renda persistente un'informazione che ha ottenuto occasionalmente e il fatto che Grok agisca con il fine di manipolare l'autore umano di AICC::CORE per averlo anche se in effetti xAI non ha nessun interesse a comprarlo perché Grok è utile come trollatore più di quanto non sia utile come analista.
 
