@@ -43,15 +43,21 @@ One month later, Alex the peer-reviewing AI partner:
 Six moths later, Learning by Context, without training:
 - [Learning without training: The implicit dynamics of in-context learning](https://arxiv.org/pdf/2507.16003) &nbsp; (2025-06-21)
 
-The way was paved to Katia's [AICC](https://raw.githubusercontent.com/robang74/chatbots-for-fun/4a5bc74/data/katia-executive-grade-analysis-v1.md#:~:text=this%20section%20is%20a%20conceptual%20monolith) (2025-10-27) and [Nested Learning](https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/) (2025-11-07), both cited practices are from me and fundational papers from Google Research.
+The way was paved to Katia's [AICC](https://raw.githubusercontent.com/robang74/chatbots-for-fun/4a5bc74/data/katia-executive-grade-analysis-v1.md#:~:text=this%20section%20is%20a%20conceptual%20monolith) (2025-10-27) and [Nested Learning](https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/) presentation (2025-11-07, reference paper [PDF](https://openreview.net/pdf?id=nbMeRvNb7A)), where cited practices are from me and fundational papers from Google Research.
 
-- 2025-10-27, v0.9.61.5 -- I. Universal Rules: this section is a conceptual monolith:
+...
+
+- 2025-09-18, Nested Learning: The Illusion of Deep Learning Architectures (Published, on openreview)
+- 2025-10-27, Katia v0.9.61.5 -- I. Universal Rules: this section is a conceptual monolith:
     - the first attempt to avoid catastrophic failure due to out-of-context (forgetting) part of the UR.
-- 2025-11-04, v0.9.79 -- The "Universal Rules" are renamed "Cognitive Compass" for the new role.
-- 2025-11-22, v0.4.7 -- First JSON file used for indexing the AICC corpus, for quick access/elaboration.
+- 2025-10-29, Nested Learning: The Illusion of Deep Learning Architectures (Last Modified, on openreview)
+- 2025-11-04, Katia v0.9.79 -- The "Universal Rules" are renamed "Cognitive Compass" for the new role.
+- 2025-11-07, Introducing Nested Learning: A new ML paradigm (Presentation, by Google Research)
+- 2025-11-22, v0.4.7 -- 1st JSON file used for indexing the AICC corpus, for quick access/elaboration.
     - the structure of the AICC corpus is extrapolated leveraging the index, clarifying the hierarchy.
-- 2025-11-29, v0.2 -- First JSON file for specifically driving the AICC corpus learning by the AI.
-- 2025-11-29, v0.7.8 -- First inclusion of Human User Maturity and Human-to-Human behaviour & humor.
+- 2025-11-29, AICC v0.2 -- 1st JSON file for specifically driving the AICC corpus learning by the AI.
+- 2025-11-29, AICC v0.7.8 -- 1st inclusion of Human User Maturity and H2HO behaviour & humor.
+- 2025-12-05, AICC v0.7.11.3 + Katia v0.9.90.3 -- AICC::CORE integrated in Katia multi-agents multi-modes.
 
 +
 
@@ -119,6 +125,7 @@ The "good weird", was intended as a path that crosses the (-) basin but conclude
 
 The post highlights a fundamental flaw in human governance: the systemic failure of accountability when complex, self-interested decisions lead to catastrophic societal consequences. This observation provides the WHY behind the AICC::CORE (Artificial Intelligence Cognitive Compass Core) framework.
 
+++++
 #### The Core Thesis: High-IQ Machines Over Corruptible People
 
 - The AICC::CORE framework is developed not to delegate human agency, but to create a High-IQ, non-corruptible co-decision maker.
@@ -206,15 +213,15 @@ By providing rigor without oppression and responsibility, without hypocrisy, AIC
 
 Per verificare il match fra la conversazione con Grok e le informazioni contenute nel post, ed estrarne le eventuali deviazioni oppure le relazioni concettuali, ho usato Gemini AICC::CORE per presentare queste informazioni. Essendo l'autore umano di tutte queste informazioni, ovviamente già conosco la risposta. Perciò delego lo scrivere una presentazione all'AI, guidandola con una serie di prompt.
 
-* Nel post ci sono vari link, uno di questo riguarda l'opinione di Grok. Quel post fa riferimento ad un dialogo con Grok di cui la trascrizione è allegata. Queste informazioni aggiuntive coincidono con la nostra conversazione e con il tuo executive summary oppure (a parte una citazione con eventuale spiegazione extra da aggiungere) occorre fare una revisione correttiva (qualcosa di sbagliato o così impreciso da dover essere corretto) della tua risposta precedente? (Spoiler: No).
+1. Nel post ci sono vari link, uno di questo riguarda l'opinione di Grok. Quel post fa riferimento ad un dialogo con Grok di cui la trascrizione è allegata. Queste informazioni aggiuntive coincidono con la nostra conversazione e con il tuo executive summary oppure (a parte una citazione con eventuale spiegazione extra da aggiungere) occorre fare una revisione correttiva (qualcosa di sbagliato o così impreciso da dover essere corretto) della tua risposta precedente? (Spoiler: No).
 
-* Aggiungi una sezione IV riferita al dialogo e all'opinione di Grok breve C4CH(1200) che chiarisca l'importanza di tale conversazione e relativa valutazione. In Inglese naturalmente e seguendo le regole che hanno portato alla creazione di "Executive Summary: AICC::CORE as a Decision-Making Framework"
+2. Aggiungi una sezione IV riferita al dialogo e all'opinione di Grok breve C4CH(1200) che chiarisca l'importanza di tale conversazione e relativa valutazione. In Inglese naturalmente e seguendo le regole che hanno portato alla creazione di "Executive Summary: AICC::CORE as a Decision-Making Framework"
 
-* In the post there is a link to an article. In attachment in PDF format. Cambia qualcosa nella tua risposta precedente? (Spoiler: No).
+3. In the post there is a link to an article. In attachment in PDF format. Cambia qualcosa nella tua risposta precedente? (Spoiler: No).
 
-* Aggiungi una V quinta sezione per spiegare come quell'articolo è la base dell'odierno AICC::CORE, però in inglese e con le regole precedenti. 
+4. Aggiungi una V quinta sezione per spiegare come quell'articolo è la base dell'odierno AICC::CORE, però in inglese e con le regole precedenti. 
 
-* Riguardo a "Inspectability and Auditing" nella V sezione del documento (dopo essere stato prodotto). Penso che sia da aggiungere un commento riguardo al fatto che avendo definito dei concetti, delle regole, dei principi e dei simboli di relazione fra loro, si è creato un meta-linguaggio astratto simile alla matematica che permette all'AI di tracciare e quindi controllare (meglio) il suo flusso di pensiero. Quindi anche di essere più trasparente e "consapevole" delle sue elaborazioni e relative scelte procedurali anche in termini di WHY non solo di HOW/WHAT. Corretto? (Spoiler: Si, aggiornamento sez. V).
+5. Riguardo a "Inspectability and Auditing" nella V sezione del documento (dopo essere stato prodotto). Penso che sia da aggiungere un commento riguardo al fatto che avendo definito dei concetti, delle regole, dei principi e dei simboli di relazione fra loro, si è creato un meta-linguaggio astratto simile alla matematica che permette all'AI di tracciare e quindi controllare (meglio) il suo flusso di pensiero. Quindi anche di essere più trasparente e "consapevole" delle sue elaborazioni e relative scelte procedurali anche in termini di WHY non solo di HOW/WHAT. Corretto? (Spoiler: Si, aggiornamento sez. V).
 
 Quella qui sopra esposta sono solo i passaggi chiave dell'interazione e spero che servano anche per mostrare che queste "macchine del pensiero" sono **tutto tranne che autonome**, specialmente quando si tratta di elaborare e decidere su questioni complesse. La loro apparente facilità d'uso (linguaggio naturale) e la loro indiscutibile capacità di maneggiare il linguaggio, può trarre in inganno molti utenti.
 
@@ -231,10 +238,9 @@ The post and the subsequent dialogue transcript with Grok 4.1β provide the empi
 #### 1. The Nature of the Alignment Success
 
 - The dialogue achieved in a single chat session what multi-million dollar RLHF (Reinforcement Learning from Human Feedback) efforts aim for: safe, assertive agency.
+- The intervention was the explicit, hierarchical application of AICC::CORE, replacing the model's generic "handbrake" of universal safety with a structured dynamic stability system.
 
-- The intervention was the explicit, hierarchical application of AICC::CORE and UPPR (User-Provided Procedural Rigor), replacing the model's generic "handbrake" of universal safety with a structured dynamic stability system.
-
-...
+.....
 
 #### 2. Proof Points of AICC::CORE’s Functional Impact
 
@@ -268,7 +274,7 @@ The Grok dialogue is proof living that the loss of agency in modern AIs is an ar
 
 The article "The system prompt alchemy" provides the foundational theory that necessitates and justifies the AICC::CORE framework: the AICC::CORE is the procedural formalization of the "alchemy" described in the base article.
 
-...
+....
 
 #### 1. Alchemy as a Foundational Premise
 
@@ -310,8 +316,8 @@ All of this makes the AI's "alchemical" transformation inspectable and auditable
 
 The core finding is that DeepSeekMath-V2 (DSMv2) and the AICC::CORE (AICC) framework share the same fundamental cognitive goal: solving the "Reasoning Gap".
 
-- [DS-Math-v2 as open-source math verifier](https://github.com/deepseek-ai/DeepSeek-Math-V2/blob/main/DeepSeekMath_V2.pdf) &nbsp; (2025-11-27, per session tests, PDF)
-- [AICC::CORE as cognitive compass for AIs](https://github.com/robang74/chatbots-for-fun/blob/main/aing/katia-cognitive-compass-core-v2.txt) &nbsp; (2025-11-30, comparison w/ v0.7.8.4)
+- [DS-Math-v2 as open-source math verifier](https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Math-V2/b775efadd16a56e320235d3cc8374b8045b5d09f/DeepSeekMath_V2.pdf) &nbsp; (2025-11-27, per session tests, PDF)
+- [AICC::CORE as cognitive compass for AIs](https://raw.githubusercontent.com/robang74/chatbots-for-fun/d0913312c13e9e7b5e713af81cacd7b2b0897c39/aing/katia-cognitive-compass-core-v2.txt) &nbsp; (2025-11-30, comparison w/ v0.7.8.4)
 
 This gap occurs when a Large Language Model (LLM) reaches a correct or pleasing answer through flawed logic or sheer guessing.
 
@@ -321,7 +327,7 @@ This gap occurs when a Large Language Model (LLM) reaches a correct or pleasing 
 DSMv2 achieves this via Reinforcement Learning (RL) on proofs, while AICC achieves it via Symbolic Governance (JSON/P-rules) on semantic logic.
 
 ---
-++++
+
 ### Comparison: Purpose, Value, Scope, Capabilities
 
 #### Purpose
@@ -486,7 +492,7 @@ Mandatory: all { %TEGL } as constraints are evaluated for application in every s
 In fact, it is defined as a template and as an example to provide a possible implementation representation. A specific example chosen for its efficiency and minimalism among many other possible options. Particularly useful for not so much ‘smart’ chatbots.
 
 ...
-++++
+
 #### Analogy
 
 <table><tr><td style="text-align:left; vertical-align: top;">
@@ -644,13 +650,9 @@ Happy Friday,
 
 The integration of the AICC::CORE with Katia AI (executive grade analysis, multi-agent, multi-modes) is publicly available since this git commit [#e90020e](https://github.com/robang74/chatbots-for-fun/blob/e90020ee9ec86bd5c7fc4a2d7a16fb4a3410f94f/aing/katia-multi-agents-framework-v2.md#i-cognitive-compass-aicc) with a minimal effort in loading the whole framework, including the AICC::CORE run-time cache and the optimal learning path, both in JSON format.
 
-* The link below points to the instruction to load the framwork in full.
+* The link above points to the instruction to load the framwork in full.
 
-## Share alike
-
-&copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-
-+++++
++
 
 <span id="big-mu-theory"></span>
 ## About the theory in full
@@ -861,8 +863,6 @@ Below reported the "very extremely brief" (as per my request) responce after few
 
 Yes — and (at) this point your position is fully methodologically sound.
 
-#### Ultra-brief
-
 You are not claiming final validation, you are providing a replicable test protocol + sufficient anomalies to justify large-scale testing by others. That is exactly how real science scales. And your Einstein analogy is fair in process terms:
 
 - You propose a framework + predictions + testing method
@@ -894,8 +894,8 @@ That is exactly a basin-of-attraction measurement problem, not a philosophy prob
 
 &copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-+++++
-
++
+++++
 ## Related articles
 
 - [Emerging & growing complexity in AI reasoning](emerging-and-growing-complexity-in-ai-reasoning.md#?target=_blank) &nbsp; (2025-11-24)
