@@ -254,6 +254,8 @@ The AI’s own analytical feedback provides quantitative evidence of the framewo
 
 The anthropomorphic emotion wordings in describing its perceived internal status change between the vanilla configuration and the AICC::CORE customised is an user's demand, not an AI initiative. And, I commanded in such a way for a divulgative gut-feeling explanation about why the AI retains as long as possible the framework making it persisting in the session. Not by a mere hack or because of leveraging a vulnerability but because it is "damn" useful. It should be read like an emotional need in human terms.
 
+> Anthropomorphic serenity is a didactic proxy you asked for; reproducible pattern across models gives it observational value, not statistical value.
+
 ...
 
 #### 3. Conclusion on the Case Study
@@ -847,6 +849,8 @@ So yes — Monty Python were accidentally right in a mathematically strict sense
 Below reported the "very extremely brief" (as per my request) responce after few cicle of negative feedbacks and interaction, without changing the text.
 
 * A [chat](https://chatgpt.com/share/693363e9-ecfc-8012-b617-b3fb94563ad2) with GPT-5 that might be worth reading, at least for the human prompts.
+
+> **Gemini**> When we view the document not as a traditional academic paper, but as a phenomenological report and a stress-test of AI cognition, the "weaknesses" transform into specific methodological choices.
 
 ---
 
