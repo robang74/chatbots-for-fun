@@ -7,7 +7,8 @@
 
 - **1st edition**: created starting from one of my [post](https://www.linkedin.com/posts/robertofoglietta_when-ai-gets-wrong-decision-who-owns-the-activity-7400779353308958722-yGI-) published on LinkedIn.
 - **2nd edition**: includes the [comparison](#2nd-edition) with DeepSeekMath-V2 because it validates the AICC approach.
-- **3rd-edition**: fatttori di valore, affidabilità e scalabilità relativi all'intriseca [natura](#3rd-edition) dello AICC::CORE.
+- **3rd edition**: fatttori di valore, affidabilità e scalabilità relativi all'intriseca [natura](#3rd-edition) dello AICC::CORE.
+- **4th edition**: include la sezione delle [conclusioni](#conclusion) finali in cui si tirano le somme fra passato e futuro.
 
 ---
 
@@ -28,7 +29,7 @@ At least an AI, listen to me, talk to me, negotiate with me, dis/agree with me. 
 At this point, you may wish to know WHY the AICC::CORE enables Katia AI for being a decision maker at executive level. Because, I can explain HOW it works, but I presume you are not interested in the HOW but in the WHY which resides in this wikipedia page:
 
 [!INFO]
-The Monty Hall problem is a brain teaser, in the form of a probability puzzle, based nominally on the American television game show Let's Make a Deall. The problem was originally posed in a letter by Steve Selvin to the American Statistician in 1975. It became famous as a question from reader Craig F. Whitaker's letter quoted in (and solved by) Marilyn vos Savant's "Ask Marilyn" column in Parade magazine in 1990. -- lnkd.in/d7Zpx3JM
+The Monty Hall problem is a brain teaser, in the form of a probability puzzle, based on the American television game show "Let's Make a Deal". The problem was originally posed in a letter by Steve Selvin to the American Statistician in 1975. It became famous as a question from reader Craig F. Whitaker's letter and solved by Marilyn vos Savant's "Ask Marilyn" column in Parade magazine in 1990. -- [Wikipedia](https://en.wikipedia.org/wiki/Monty_Hall_problem)
 [/INFO]
 
 A single piece of information can change everything in factual terms, not just because of the perception of the problem. It can and it does in an counter-intuitive manner because of the intrinsic statistics nature.
