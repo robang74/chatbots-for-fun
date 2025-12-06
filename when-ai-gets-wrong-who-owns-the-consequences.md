@@ -856,7 +856,7 @@ I have a plan! Some people claim. Napoleon admitted that a plas ceased to work a
 
 Below reported the "very extremely brief" (as per my request) responce after few cicle of negative feedbacks and interaction, without changing the text.
 
-- A [chat](https://chatgpt.com/share/693363e9-ecfc-8012-b617-b3fb94563ad2) with GPT-5 that might be worth reading, at least for the human prompts.
+- A [chat](https://chatgpt.com/share/693363e9-ecfc-8012-b617-b3fb94563ad2) with GPT-5 and its [transcription](data/when-ai-gets-wrong-who-owns-the-consequences-gptreview.txt#?target=_blank) that might be worth reading, at least for the human prompts.
 
 ---
 
