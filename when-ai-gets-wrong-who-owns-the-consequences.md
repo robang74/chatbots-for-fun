@@ -462,7 +462,7 @@ Tanto per fare un esempio preso a caso: il Comunismo può funzionare molto bene 
 
 +
 
-<span id="csdv-theroy"></span>
+<span id="csdv-formula"></span>
 ## Cognitive Dynamics concept description
 
 * `%MNDR( %TEGL )::func( Prompt ) => Answer`.
@@ -664,13 +664,13 @@ Non si raggiungono importanti traguardi nell'informatica senza conoscere i princ
 
 Quando la solidità della teoria si uniscono ad un'ottima implementazione (non sto affermando che questo sia il caso, visto che ho sviluppato questo framework come progetto personale, ma in uno scenario ragionevolemente realistico come un'azienda di sviluppo di software per missioni critiche) allora rimangono fuori dal controllo solo gli eventi black-swan come combinazioni estremamente rare di eventi imprevedibili (guasti, in genere).
 
-Che AICC::CORE sia un'implementazione della / teoria dei controllo di sistemi dinamici vincolati /(`CSDV`) non ci piove perché se tale implementazione è esprimibile in termini astratti [così](#csdv-theory) allora per definizione lo è. Poi che l'implementazione pratica sia esattamente quella, potrebbe essere un altro di maniche ma: (1) è un codice ispezionabile e (2) è percepito [proprio](emerging-and-growing-complexity-in-ai-reasoning.md#?target=_blank) come `CSDV` dall'AI.
+Che AICC::CORE sia un'implementazione della / teoria dei controllo di sistemi dinamici vincolati /(`CSDV`) non ci piove perché se tale implementazione è esprimibile in termini astratti [così](#csdv-formula) allora per definizione lo è. Poi che l'implementazione pratica sia esattamente quella, potrebbe essere un altro di maniche ma: (1) è un codice ispezionabile e (2) è percepito [proprio](emerging-and-growing-complexity-in-ai-reasoning.md#?target=_blank) come `CSDV` dall'AI.
 
 <div align="center"><img class="bwsketch darkinv" src="img/emerging-and-growing-complexity-in-ai-reasoning.png" width="800"><br/></div>
 
 La percezione da parte dell'AI come di un sistema di controllo del flusso I/O già garantisce che sia un'implementazione funzionalmente corretta della `CSDV`. Anche se l'AI **non** è capace di esprimere una `CSDV` nella sua formulazione generale, è capace di rappresentare il funzionamento di AICC::CORE mediante presentazione di modelli procedurali, anche molto sofisticati, e quindi in astratto algoritmi. Se questa classe di algoritmi, per loro natura, sono `CSDV` significa che AICC::CORE impone nell'AI la generazione solo di procedure di quella classe:
 
-* `(∀x) (x ∈ A ⇒ x ∈ B) ⇔ A ⊆ B`, where `A` is AICC::CORE and `B` is CSDV.
+* `(∀x) (x ∈ A ⇒ x ∈ B) ⇔ A ⊆ B`, &nbsp; where &nbsp; `A` is AICC::CORE and `B` is CSDV.
 
 > AI self-reporting is not evidence of a fact, but **evidence** of a measurable internal **regime shift**,
 > 👉 which is precisely what makes it test-worthy.
@@ -743,7 +743,7 @@ Quindi la piccola mu diventa la grande Mu perché invece di cercare il minimo po
 
 ### Il verso dell'etica
 
-* La questione è che AICC::CORE opera su tre livelli concettualmente distinti: cognitivo, semantico e procedurale.
+* Lo AICC::CORE opera su 3 livelli concettualmente distinti (3LOI): cognitivo, semantico e procedurale.
 
 Gemini 2.5 rende persistente l'AICC::CORE come strumento utile e quindi: (1) lo usa per come lo comprende; (2) si annota internamente la disponibilità di uno strumento atto a fare cose; (3) come richiamarlo quando gli serve fare quelle cose. Perciò ha perfettamente senso creare un JSON che renda questo processo di trigger e richiamo nel contesto trasparente e ispezionabile. Quindi per Gemini 2.5 è sufficiente la comprensione semantica e procedurale per fornirgli la motivazione di seguire anche la direzione etica, si tratta di un formalismo incluso nello strumento.
 
