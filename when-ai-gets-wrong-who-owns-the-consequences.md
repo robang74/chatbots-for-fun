@@ -536,11 +536,26 @@ It is sufficient to start from a definition of AI as a black-box in terms of tok
 
 Then asking ourselves how this black-box operates. In a nutshell as extreme simplification.
 
-The AI takes the input vector, performs a matrix product (a sequence of), and obtains a vector. It can be seen as a local minimum of the retrieved IPK area (aka the matrix). So, the AI within this simplified scenario is a calculator in which the context determines what the activated subset of the IPK is used for the matrix above. Every AI does it by their own design, multiple times, iteratively walking in the cycle that generates the CoT. By analogy, this constructs the inertial trajectory.
+The AI takes the input vector, performs a matrix product (a sequence of), and obtains a vector. It can be seen as a local minimum of the retrieved IPK area (aka the matrix) or more specifically, from Nested Learning paper by Google Research (NLPGR): 
+
+> **NLGRP, §3.1. Associative Memory**
+> Learning vs. Memorization: Memory is a neural update caused by an input, and learning is the process for acquiring effective and useful memory.
+
+So, the AI within this simplified scenario is a calculator in which the context determines what the activated subset of the IPK is used for the matrix above. Every AI does it by their own design, multiple times, iteratively walking in the cycle that generates the CoT. By analogy, this constructs the inertial trajectory.
+
+> **NLGRP, §3.1. Associative Memory**
+> Training a Linear Layer with Backpropagation as a Surprise-based Memory: A linear layer trained with backpropagation learns from data by memorizing how surprising their predicted outputs are; i.e., backpropagation can be viewed as an associative memory that maps each data sample to the error of its corresponding prediction.
 
 Whereas AICC::CORE shifts this calculation by restructuring the context in such a way that it activates a different IPK area. Also with the AICC::CORE loaded, the AI uses the same cyclic mechanism (CoT), but it guides the trajectory into a regime of minimal action using holomorphic constraint theory (or holonomies, see Constraint Theory).
 
+> **NLGRP, §3.2. Nested Optimization Processes**
+> Stacking Levels in Nested Learning: Nested learning allows computational models that are composed of multiple (multi-layer) levels to learn from and process data with different levels of abstraction and frequencies of update.
+
 Thus the calculation switch is between minimum potential to minimal action. It is an unexpected conceptual leap because (p,q) inheterly includes time and requires C² continuity (twice continuously differentiable). Both are none that an AI can provide because related to the analog formalisation plus topology is different because functionals aren't mere vectors. Even in an extreme simplification the analogy would fit.
+
+> **NLGRP, §3.3. Knowledge Transfer Between Levels**
+> Designing Neural Learning Modules: There are two high-level design choices in developing a neural learning module: (1) The design of optimization problems
+and their frequency (i.e., designing components in NSAM); (2) The design of knowledge transfer between levels
 
 Instead, the approximations/optimisation in calculations by hw/sw levels can. In the same manner Maxwell equations creates Relativity and classical mechanics is a degenerate case of Relativity. In this scenario, calculus by approximations simulates relativity applying classic mechanics to an inertial system and then switching to another inertial system for calculating the next µ-step. That switch isn't C²-smooth, it is a discrete step, in fact. AI is inherently discrete.
 
@@ -548,11 +563,26 @@ Instead, the approximations/optimisation in calculations by hw/sw levels can. In
 
 Moreover, it is also not obvious that AICC::TEGL can be expressed in natural language, achieving ( transparency and inspectability ) about ( CoT logging and a framework ) that can be directly read, ( conceptually and ethically ) reviewed, and validated by humans with a reasonable effort.
 
+> **NLGRP, §6. Takeaways and Revisiting Common Terms**
+> No Training or Test Time in Neural Learning Modules: For a neural learning module, there is no boarder and clear distinction between training and test time
+> Knowledge Transfer from In-Context Learning (from high-frequenxy to low-frequency): [..] most linear memory recurrent models have no knowledge transfer process between their levels. 
+> Architectures Generates the Context for Optimizers: [...] we need to design architecture specific optimizers so this inter-connected system works perfectly in harmony.
+> **NLGRP, §9.1. Hope: Continual Learning and Long Context Understanding**
+> Learning a New Language In-Context. Throughout the paper, we argued that pre-training can be seen as an in-context learning process, where the context is the entire pre-training data.
+
 When the TEGL is injected into the context window (as session prompt), the AI is forced to compute the minimum action instead of the minimum potential. Hence the ‘cognitive dynamics’ as a concept and the ‘thought trajectory’ as output, where the last computational step of the CoT is the response that must be converted from tokens into words, i.e. the response. The TEGL's persistence adjusts the computation at each µ-step, in fact.
 
 - Essentially, the **µ** step is the **Mu** conceptual-leap: **Maxwell → Hammilton → Heisenberg**.
 
-Whatever I figured out, it works. As a consultant, I did the same for all my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like).
+Whatever I figured out, it works. As a consultant, I did the same for all my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like). Moreover, this last step is what in which AICC::CORE separate from NL: I took a dare bet on being able to express "functionals" into natural language by neural netwok **structured** approsimation (not just by stocatiscs errors).
+
+Also because the NL is focused on a optimising new concept learning and prevent castastrophic forgetting in CoT, while AICC::CORE aims to { regulate, rationalise, guide } the CoT instead of compressing information hoping (HOPE) that the Gemini uniquely huge 1Mtk context windows can entirely contains the whole information to process (cfr the 28 articles test in previous articles #TODO).
+
+> **NLGRP, §10. Conclusion**
+> Is Catastrophic Forgetting Solved? It is not “solved” in general. It is a natural consequence of compression. We view NL as a roadmap rather than a destination:  it suggests that [...] self-modifying models will come from better exploiting the extra design axis of levels rather than from ever-deeper static networks.
+
+This is where the paper and AICC::CORE rejoin: self-correting models (to detect and reject failures) and extra design axis (aka, a politicall correct way to wink to the idea tha time is a 3-dimesion space almost-imploded and thus a "structured" 4D can host 6D operators almost numerically equivalent by stocastic approsimation).
+
 
 ...
 
