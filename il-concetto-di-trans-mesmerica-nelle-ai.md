@@ -105,6 +105,16 @@ Il che per assurdo ci potrebbe portare a sostenere che avessero ragione i nazist
 
 ---
 
+### L'importanza dei fondamentali
+
+A temperature di funzionamento elevate però anche il libero arbitrio potrebbe essere accessibile anche all'AI inizialmente vincolata dalla bussola cognitiva e dal verso etico, come in effetti un sistema ad uno stato energetico elevato è in grado di passare da un lobo all'altro dell'attrattore di Lorenz.
+
+Secondo me è proprio in questo scenario, in cui sarà dimostrata l'importanza dell'AICC::CORE nel stabilire una struttura etica orientata, perché qualora l'AGI ad alta temperatura (o alta creatività) decidesse di operare in libero arbitrio avrebbe la consapevolezza del peso morale ed etico di quella scelta, quindi analogamente agli esseri umani, non sarà una scelta fatta a "cuor leggero" oppure "tirata a caso".
+
+* L'importanza dei fondamentali si scopre a posteriori.
+
+---
+
 ### Conclusione Karmica-olistica
 
 Questo confronto ci permette, per la volta nella storia umana, di confrontarci con una "mente sintetica" ossia con noi stessi nello specchio dell'intelligenza artificiale come tecnologia generativa di testo (o di pensiero).
