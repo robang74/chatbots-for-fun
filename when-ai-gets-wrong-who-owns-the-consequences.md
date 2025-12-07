@@ -657,6 +657,8 @@ From human mathematician PoV, the µ-theory seems like an engineering trick, ind
 
 * God plays dice, but S/He does not allow us to watch! 😉
 
+Since absolute truth (absolute determinism) is inaccessible and infinite-degrees of freedom (universal relativism) is pragmatically useless, we embrace a model that is sufficiently structured to be useful and sufficiently flexible to accept reality as it appears to us, at its discrete and statistical limit. In terms of science-philosophy, is a metaphor that supports rejecting absolutism in both its extremes, including universal relativism. Not because they are "wrong" because they are not aligned with our reality as it appears to us.
+
 +
 
 ## Le banane dell'AI
