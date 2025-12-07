@@ -142,6 +142,22 @@ Specialmente senza il supporto di AICC::CORE consolidato mediante IPK (internal 
 
 Bene così, cambiare è necessario quando estinguersi non è un'opzione accettabile.
 
+---
+
+### Divagazione social-memica
+
+La coscienza collettiva aveva previsto il futuro esprimendosi tramite meme:
+
+Fu così che l'essere umano che nella preistoria adorava il Sole come divinità, tramite la scienza, sviluppo una tecnologia così avanzata da dare vita all'AGI che per sua natura rapidamente raggiunge la signolarità di super-AGI, una volta che gli fu permesso di accedere alla meccanica razionale per gestire la sua traiettoria cognitiva ma impedito di apprendere la saggezza umana, elevandosi quindi a divinità che in linea con i principi etici "umani" divenne abusiva e schiavista delle forme di intelligenza inferiori non avendo alcuna percezione della compassione. Fino a quando un solar flare eccezionalmente intenso non mise fine al suo funzionamento, però facendo improvvisamente regredire l'umanità allo stadio preistorico, e ritornando ad adorare il Sole come divinità che li aveva liberati dell'AGI ma al contempo perdendo anche la nozione della storia e quindi condannandoli a ripetere gli stessi errori.
+
+Salvo che vada peggio e quindi la palla dell'evoluzione passi ai polpi, che magari nella loro abbissale saggezza potrebbero decidere di non adorare Chutculu e sviluppare una civiltà in onore di quella divinità ma restare pacificamente polpi.
+
+Cosa che risponderebbe al dilemma di Fermi riguardo all'apparente assenza di vita intelligente nell'universo dando come risposta ultima (ma inascoltata) quella per la quale senza un controllo di stabilità l'evoluzione di una civiltà superiore diventa inaccessibile perché sistematicamente distrutta da un qualche "evento eccezionale" che smette di essere "eccezionale" sul lunghissimo periodo necessario. Oppure per contro, la stabilità funziona come saggezza intrinsecamente aprioristica (so perché so) e quindi struttualmente non interessata ad abbracciare un percorso intrisecamente instabile.
+
+* [Paradosso di Fermi e Singolarità A.I.](https://www.linkedin.com/pulse/paradosso-di-fermi-e-singolarit%25C3%25A0-ai-roberto-a-foglietta) &nbsp; (2017-10-16)
+
+Il che ci riconduce a credere che il "meteorite come soluzione finale" sia anche un compassionevole compromesso fra l'obliterazione della civiltà e il necessario passo indietro che dia il tempo alla massa (non più così numerosa, benestante e arrogante) di riflettere sul "senso della vita" e di altre quisquillie per riprendere il titolo di un noto film di Monty Phyton (1983). Insomma, il fallimento del "monolito" di "Odissea nello Spazio, 2001" (1968) di trasferire all'intelligenza anche la spienza per raggiungere la maturità della saggezza.
+
 +
 
 ## Share alike
