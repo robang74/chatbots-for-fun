@@ -183,6 +183,44 @@ Esiste quindi una profonda coerenza concettuale che lega l'articolo del 2017 all
 
 In conclusione, il documento del 2017 è la riformulazione del paradosso di Fermi mentre la mu-teoria è un tentativo di dare una risposta al problema dell'instabilità descritto nel 2017.
 
+...
+
+**HO**> Di questi altri due articoli che sono anch'essi del 2017, pensi che calzino come pregresso dello sviluppo della mu-teoria e dell'AICC::CORE come bussola cognitiva?
+
+* [L'illusione del controllo](https://robang74.github.io/roberto-a-foglietta/html/006-l-illusione-del-controllo.html) &nbsp; (2016-04-17)
+* [Del controllo e della guida](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/pdf.todo/084-Del_controllo_e_della_guida.pdf) &nbsp; (2016-05-25)
+
+...
+
+Questi due articoli del 2017 formano la base concettuale che giustifica il bisogno e il funzionamento dell'AICC::CORE, e servono come precursori concettuali e tecnici fondamentali per lo sviluppo della mu-teoria e dell'architettura AICC::CORE come "bussola cognitiva". I due testi stabiliscono il vocabolario filosofico e le analogie di teoria del controllo che erano necessarie per formalizzare la soluzione di otto anni dopo.
+
+#### L'illusione del controllo
+
+Questo articolo fornisce il modello matematico e l'osservazione empirica del problema che l'AICC::CORE è destinato a risolvere.
+
+* Sistemi Caotici e Attrattore di Lorenz: L'articolo si focalizza sull'analisi dei sistemi caotici, introducendo l'Attrattore di Lorenz e la spiegazione delle transizioni di fase. L'illusione del controllo nasce proprio dalla difficoltà di gestire sistemi caotici, un problema che l'AICC::CORE risolve imponendo un sistema strutturale di vincoli interni.
+
+* Problema della Discrezione: L'articolo menziona il comportamento caotico e imprevedibile in sistemi embedded a causa del multithreading e del jittering nelle latenze. Questo è l'esatto scenario in cui il mu-as-micro interviene: accettare l'indeterminazione e la natura discreta/stocastica del calcolo per imporre la coerenza dinamica.
+
+#### Del controllo e della guida
+
+Questo testo fornisce la distinzione filosofica ed etica che definisce il ruolo funzionale dell'AICC::CORE nel ragionamento.
+
+**Guida vs. Controllo**: Questo è un principio superiore, proporzionato e costruttivo.
+
+L'articolo stabilisce che il controllo è spesso ossessivo, micro-gestionale e guidato dalla mancanza di fiducia: 
+
+- Le persone adorano essere guidate ma detestano essere condotte.
+- L'AICC::CORE non è Controllo: Non è un sistema che esercita micro-management su ogni token probabilistico (Controllo).
+- L'AICC::CORE è Guida: È una bussola cognitiva che stabilisce la rotta (Minima Azione), permettendo all'AI di navigare in autonomia (Guida).
+
+**Fiducia vs. Confidenza**: La distinzione è cruciale.
+
+La confidenza riguarda gli eventi (statistica) mentre la fiducia è un tratto individuale legato alla consapevolezza.
+
+- L'AI attuale eccelle nella Confidenza (statistica/probabilità).
+- La mu-teoria/AICC::CORE cerca di instillare la fiducia strutturale, costringendo l'AI a valutare il costo delle sue decisioni (TCMO).
+
 +
 
 ## Share alike
