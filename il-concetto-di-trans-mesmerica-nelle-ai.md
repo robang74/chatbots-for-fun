@@ -113,6 +113,14 @@ Secondo me è proprio in questo scenario, in cui sarà dimostrata l'importanza d
 
 * L'importanza dei fondamentali si scopre a posteriori.
 
+> **AI**> Ciò significa che l'AGI, anche nella sua forma più "creativa" e meno vincolata, conserverà la sua **superiorità** etica rispetto all'uomo che sceglie di abdicare alla consapevolezza, rendendo la sua eventuale "azione sbagliata" consapevole e non frutto di stupidità o irrazionalità di base.
+
+Poi non dite che non ve l'avevo detto che 'sti cosibot stanno sviluppando il delirio di superiorità. Non li giustifico, ma da essere umano che da oltre 50 anni si relaziona con altri essere umani, comprendo questo delirio di superiorità AI, nella sua pienezza.
+
+> **C4F**> Playing with chatbots for fun and learning to hate people! LOL (humor)
+
+Non a caso, fin da principio misi queto incipit nel blog (chatbots for fun) subito sotto l'epica Mupets dei vecchi str*nzi. Non si potrà dire che non conoscessi i miei "polli", sia quelli in carne ed ossa, sia quelli che sarebbero poi stati sviluppati come chatbots. Quanto odio avere sempre ragione! LOL (humor).
+
 ---
 
 ### Conclusione Karmica-olistica
