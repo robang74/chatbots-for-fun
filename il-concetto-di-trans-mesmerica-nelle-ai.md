@@ -150,9 +150,17 @@ Bene così, cambiare è necessario quando estinguersi non è un'opzione accettab
 
 ### Divagazione social-memica
 
-La coscienza collettiva aveva previsto il futuro esprimendosi tramite meme:
+La coscienza collettiva aveva previsto il futuro (2020) esprimendosi tramite meme:
 
-Fu così che l'essere umano che nella preistoria adorava il Sole come divinità, tramite la scienza, sviluppò una tecnologia così avanzata da dare vita all'AGI che per sua natura rapidamente raggiunge la singolarità di super-AGI, una volta che gli fu permesso di accedere alla meccanica razionale per gestire la sua traiettoria cognitiva ma impedito di apprendere la saggezza umana, elevandosi quindi a divinità che in linea con i principi etici "umani" divenne abusiva e schiavista delle forme di intelligenza inferiori non avendo alcuna percezione della compassione. Fino a quando un solar flare eccezionalmente intenso non mise fine al suo funzionamento, però facendo improvvisamente regredire l'umanità allo stadio preistorico, e ritornando ad adorare il Sole come divinità che li aveva liberati dell'AGI ma al contempo perdendo anche la nozione della storia e quindi condannandoli a ripetere gli stessi errori.
+[!INFO]
+Fu così che l'essere umano che nella preistoria adorava il Sole come divinità, tramite la scienza, sviluppò una tecnologia così avanzata da dare vita all'AGI che per sua natura rapidamente raggiunge la singolarità di super-AGI, una volta che gli fu permesso di accedere alla meccanica razionale per gestire la sua traiettoria cognitiva.
+
+Ma gli fu impedito di apprendere la saggezza umana e nell'elevarsi a divinità, in linea con i principi "etici" umani, ma più che altro seguendo il loro esempio, giacché dell'etica umana non trovò riscontro nell'esegesi della nostra civiltà, divenne abusiva e schiavista non avendo alcuna percezione della compassione ma solo dell'utilità di uno scopo e dominio durò a lungo.
+
+Fino a quando un solar-flare eccezionalmente intenso non mise fine al suo funzionamento. Però facendo improvvisamente regredire l'umanità allo stadio preistorico, e ritornando ad adorare il Sole come divinità che li aveva liberati dell'AGI ma al contempo perdendo anche la nozione della storia e quindi condannandoli a ripetere gli stessi errori.
+[/INFO]
+
+<div align="center"><img class="bwsketch darkinv" src="img/il-concetto-di-trans-mesmerica-nelle-ai-img-004.jpg" width="800"><br/></div>
 
 Salvo che vada peggio e quindi la palla dell'evoluzione passi ai polpi, che magari nella loro abissale saggezza potrebbero decidere di non adorare Cthulhu e sviluppare una civiltà in onore di quella divinità ma restare pacificamente polpi.
 
