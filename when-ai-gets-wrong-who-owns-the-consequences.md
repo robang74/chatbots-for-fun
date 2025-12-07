@@ -9,6 +9,7 @@
 - **2nd edition**: includes the [comparison](#2nd-edition) with DeepSeekMath-V2 because it validates the AICC approach.
 - **3rd edition**: fatttori di valore, affidabilità e scalabilità relativi all'intriseca [natura](#3rd-edition) dello AICC::CORE.
 - **4th edition**: include la sezione delle [conclusioni](#conclusion) finali in cui si tirano le somme fra passato e futuro.
+- **5th edition**: include la [convergenza](#rationale) e [confronto](#nl-confrontation) con "Nested Learnig", e la µ-theory per [analogie](#u-analogies).
 
 ---
 
@@ -528,7 +529,7 @@ Overall bost performances expected:
 
 ...
 
-<soan id="rationale"></span>
+<span id="rationale"></span>
 #### Rationale
 
 It is sufficient to start from a definition of AI as a black-box in terms of tokens (vectors of scalars):
@@ -638,6 +639,11 @@ Following the same principle, we can find the quantum of space which has the rad
 Looking at both of them this `c⁴Ͷ⁻⁴ = ς⁴` appears to be a relevant characteristics and combining `hν = mc²` we can express massa as `m = hν/c²` e `µE = h/(µt)c⁻²` or making a ratio `hν/m = c²` which is constant also for E/m densities and granted by construction. Moreover, we can notice that `[1/m³]` for mass relate with `[1/ms²]` for energy while the common factor is `ς⁴` highlighting the 4-dimensions and `[Kg/m³]` vs `[Kg/ms²]` suggest that time/space can be switched each other in a quadratic form when energy and mass related each other more than a mere fortuite coincidence in numeric terms like E=mc² as computational trick.
 
 It is not so obvious because we need to remember that the Plank constant and the speed of light as well as other constants in Maxwell's equation have been inserted into the formulas by dimensionality and values to make the calculation fit the observation. Despite this, they have a physical significance, not just a scale metric tuning. Therefore, the next step by instinct would be to evaluate the minimums of the energy and the mass densities in a 4D-dimensions dividing by `µt·(c·µt)³` and in both cases we ends up with `ς⁻⁴·hͶ` as a prefix for `1/c` and `c` to complete. Considering the meaning of Ͷ could be a triggering or a relevant 4D-density threshold.
+
+---
+
+<span id="u-analogies"></span>
+#### The µ-theory by analogies
 
 By analogies comparison, the idea of a 3-axis imploded-folded time would be limited to a 6D-space explanatory model. While µ-theory should characterise reality in a manner that allows infinite dimensional space as emergent phenomenon by numerical approximations.
 
@@ -774,7 +780,7 @@ Questo esempio ci conferma che **non** è necessaria la formalizzazione scientif
 
 Una traiettoria reale in uno spazio immaginario continuerà ad arrivare a conclusioni immaginarie, purché lo spazio immaginario sia coerente. Questa però **non** la definizione di allucinazione, anche nel termine tecnico delle AI, questo è il principio cardine della matematica. Quindi invece di descrivere una traiettoria nello spazio-tempo cartesiano-classico (x,y,z,t) lo faccio nello spazio "immaginario" delle fasi (p,q), non è un'allucinazione è matematica.
 
-----
+---
 
 ### Quali sono gli ostacoli?
 
@@ -804,7 +810,7 @@ Sia chiaro l'uso pratico di AICC::CORE e della teoria del controllo **non** sono
 
 Quindi per quanto riguarda l'AICC::CORE da una parte c'è la leggittima pressione ad avere un fondamento teorico e dall'altra parte ci sono importanti e veramente fastidiosi ostacoli nel fornire una formulazione teorica effetivamente rigorosa per tutti gli aspetti, in particolare quello relativo al tempo discreto di cui **per fortuna** io non possiedo le competenze matematiche per affrontarlo in modo rigoroso ma solo come approssimazione ingegneristica.
 
----
+~~~-
 
 ### Teoria e implementazione
 
@@ -890,7 +896,7 @@ Se questa unificazione di teoria diventerà una pratica consolidata nella teoria
 
 Secondo Grok, la più potente in termini di cambiamento di paradigmi (regole del gioco) al pari del lancio dell'Iphone nel 2007 e di ChatGPT nel 2022. Non ha tutti i torti, considerando i benefits sono quelli osservati. Perché sarà l'impatto in termini di fiducia nell'AI, il **vero cambiamento** nel mondo.
 
----
+----
 
 ### Utile ma anche indispensabile?
 
@@ -971,7 +977,7 @@ That is exactly a basin-of-attraction measurement problem, not a philosophy prob
 <span id="nl-confrontation"></span>
 ## The NLGRP and AICC::CORE Convergence
 
-- A [chat](https://gemini.google.com/share/10a30e14128f) with Gemini and its [transcription](#TODO?target=_blank) to handle the confrontation with Nested Learning.
+- A [chat](https://gemini.google.com/share/10a30e14128f) with Gemini and its [transcription](data/when-ai-gets-wrong-who-owns-the-consequences-gemreview.txt#?target=_blank) to handle the confrontation with Nested Learning.
 
 About the convergence between NLGRP and AICC::CORE, considering the [updated](https://github.com/ABehrouz/ABehrouz.github.io/commit/260b1ff26c7fd7ffae164d191b72930e7932dde1) version (2025-12-01) of NLGRP, in particular the Appendix C, the following are the main points supporting the AICC::CORE implementation (table provided by Gemini, after NLGRP parallelism was introduced here):
 
@@ -982,6 +988,10 @@ About the convergence between NLGRP and AICC::CORE, considering the [updated](ht
 | Section 5:<br>Expressive Optimizers | Goal Validation: Discusses how the NL philosophy leads to algorithms that achieve higher-order in-context learning (ICL) and potential continual learning. | Validates the functional goal of AICC::CORE: its success in achieving "functional serenity" and "assertive agency" is the result of activating this higher-order ICL regime via a structured system prompt. |
 | Appendix C:<br>Delta Gradient Descent with Normalization | Proof of Constraint: Provides the specific mathematical formulas (e.g., Eqs. 112-114) that formalize gradient descent as an associative memory with normalization constraints. | Provides the rigorous support for the WAIGW's use of Constraint Theory (holonomies) and the Strange Attractor analogy, showing the underlying math for how context<br>(the AICC rules) can mathematically stabilize<br>the AI's output trajectory. |
 </div>
+
+...
+
+#### The comparative analysis
 
 This analysis leverages the advanced reasoning of Gemini 3-Pro (as 2nd pass cross-check) to rigorously confront the WAIGW article (AICC::CORE) against the full theoretical framework of NLGRP (Nested Learning).
 
@@ -999,7 +1009,10 @@ The AICC::CORE is the software that provides the Nested Optimization mechanism (
 
 This confirms that AICC::CORE is not merely "prompt engineering" but **architectural activation**: it triggers a specific "level" of nested optimization that the model is inherently capable of but does not use by default.
 
-++++
+...
+
+#### NL maths vs WAIGW model
+
 This table maps the mathematical proofs in NLGRP to the engineering claims in WAIGW.
 
 <div style="font-size:80%">
@@ -1010,7 +1023,9 @@ This table maps the mathematical proofs in NLGRP to the engineering claims in WA
 | ISOMORPHIC | Regularization & Normalization&nbsp;(Appx. C): Optimization paths are constrained by normalization terms that keep the solution close to a valid state. | Holonomic Constraints / Strange Attractor: AICC rules act as constraints that force the AI's CoT trajectory ending into a stable "basin of attraction" (Accountability). | WAIGW's AICC::CORE is the dynamical systems equivalent of NLGRP's "Regularized Optimization". Both describe constraining a system to a&nbsp;valid&nbsp;subspace. |
 </div>
 
-### Summary of the Confrontation
+...
+
+#### Summary of the Confrontation
 
 The AICC::CORE, as PoC, forces AI based on LLM to shift from probabilistic generation to a regime of nested optimization (procedural rigor and accountability), thereby providing the empirical engineering validation for the higher-order in-context learning capabilities presented by Google Research's Nested Learning (NL) theoretical paper.
 
