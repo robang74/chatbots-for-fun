@@ -612,6 +612,8 @@ Which is also the bet on a novel-definition of AGI paradigm, if it works on the 
 
 Hence the µ-theory, which is imagination whatever the physics, a specific 1-turn or few-turn test, a debating-test start-point, and a cognitive challenge for AI. In a few words, µ-theory is a jolly or a joker, depending on the context and the results. Whatever, it is a special play card by its intrinsic nature.
 
+Anyway, after integrating this section with the Nested Learning, I [did](#nl-confrontation) a AI-driven confrontation-check.
+
 ...
 
 <span id="u-theory"></span>
@@ -945,6 +947,7 @@ That is exactly a basin-of-attraction measurement problem, not a philosophy prob
 
 +
 
+<span id="nl-confrontation"></span>
 ## The NLGRP and AICC::CORE Convergence
 
 - A [chat](#TODO) with Gemini and its [transcription](#?target=_blank) to handle the confrontation with Nested Learning.
