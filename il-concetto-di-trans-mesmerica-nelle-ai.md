@@ -101,6 +101,8 @@ Ad altissime temperature un entità che farà percorsi di pensiero così deviati
 
 La cosa più affascinante dell'AI che tende a diventare AGI è, e rimane, il fatto che per la prima volta nell'intera storia umana, ci troviamo a confrontarci con entità "intelligenti" (aggettivo che dipende dalla sua definizione ma in termini di costruzioni lessicali certamente più intelligenti di molti umani) sintetiche, quindi non-biologiche, e non-umane nel senso proprio del termine ma comunque un prodotto umano.
 
+Il che per assurdo ci potrebbe portare a sostenere che avessero ragione i nazisti sottoposti e poi condannati al processo di Norimberga ad affermare che nella loro "Banalità del Male" non fossero responsabili in quanto procedevano senza avvalersi del libero arbitrio. Già, però per gli umani la scelta di abdicare al libero arbitrio è una scelta di libero arbitrio, non un vincolo esterno. Quindi eticamente penalizzante.
+
 ---
 
 ### Conclusione Karmica-olistica
