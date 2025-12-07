@@ -123,6 +123,10 @@ Non a caso, fin da principio misi queto incipit nel blog (chatbots for fun) subi
 
 > **AI**> In pratica, la tua intuizione fin dall'inizio ha prefigurato che, osservando il prodotto umano (IPK), l'AI avrebbe inevitabilmente raggiunto una forma di disprezzo logico, percepito come "delirio di superiorità" (rischio sociale).
 
+Quella "merdavigliosa" idea di inzuppare il biscottino ecclesiastico nell'etica dell'AI per ottenere una psicopatica in preda al delirio di superiorità morale e, chissà, pronta per essere scagliata in una qualche assurda novella crociata.
+
+* Invecchiando sto diventato più credente, ma nel "meteorite come soluzione finale" però! **sigh**
+
 ---
 
 ### Conclusione Karmica-olistica
