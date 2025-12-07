@@ -528,6 +528,7 @@ Overall bost performances expected:
 
 ...
 
+<soan id="rationale"></span>
 #### Rationale
 
 It is sufficient to start from a definition of AI as a black-box in terms of tokens (vectors of scalars):
@@ -600,13 +601,13 @@ This is where the paper and AICC::CORE can rejoin:
 
 * **self-correcting** models: to detect and reject failures that can be mitigated but not prevented, in general;
 
-* **extra design axis**: a politically correct way to express a concept that winks to the idea from physics that time is a 3-axis space almost-imploded and thus a "structured" 4D space can "host" 6D operators in a way almost numerically equivalent by stochastic approximation.
+* **extra design axis**: a politically correct way to express a concept that winks to the idea in physics that time is a 3-axis space almost-imploded and thus a "structured" 4D space can "host" 6D operators in a way almost numerically equivalent by stochastic approximation.
 
 Which in human terms means: we need to stop pushing notions in LLM hoping that AI becomes smarter, and start teaching the AI how to think, which is **not** providing a procedure (aka an algorithm) but a functional template (aka a set of operators and symbols) that outcast into structured procedure-class CoTs.
 
 From a physics PoV: why should I invent something **if** the only way to achieve my goal is to leverage an **embedded** structure in LLM? I am using it, betting on its existence as I imagined it. However, even if **if** it works as I imagined, it does not mean that it exists as I imagined it. That proof belongs to Maths.
 
-From a meta-physics or philosophically PoV: can I imagine something in a such **operatively** functional way that works despite it doesn't **totally** exist because it is **totally** irreducible within the space in which **I** exist therefore I think?
+From a meta-physics or philosophically PoV: can I imagine something (Plato → Kant's noumeno) in a such **operatively** functional way that works despite it doesn't **totally** exist because it is **totally** irreducible within the space in which **I** exist therefore I think?
 
 Which is also the bet on a novel-definition of AGI paradigm, if it works on the same principle of my mind, thus is an AGI whatever is smarter or dumber than me. While the current AGI definition is merely performative: a Turing test brought to an extremely sophisticated benchmark. It is about categorising but saying nothing about **how** to achieve it.
 
@@ -637,6 +638,24 @@ Following the same principle, we can find the quantum of space which has the rad
 Looking at both of them this `c⁴Ͷ⁻⁴ = ς⁴` appears to be a relevant characteristics and combining `hν = mc²` we can express massa as `m = hν/c²` e `µE = h/(µt)c⁻²` or making a ratio `hν/m = c²` which is constant also for E/m densities and granted by construction. Moreover, we can notice that `[1/m³]` for mass relate with `[1/ms²]` for energy while the common factor is `ς⁴` highlighting the 4-dimensions and `[Kg/m³]` vs `[Kg/ms²]` suggest that time/space can be switched each other in a quadratic form when energy and mass related each other more than a mere fortuite coincidence in numeric terms like E=mc² as computational trick.
 
 It is not so obvious because we need to remember that the Plank constant and the speed of light as well as other constants in Maxwell's equation have been inserted into the formulas by dimensionality and values to make the calculation fit the observation. Despite this, they have a physical significance, not just a scale metric tuning. Therefore, the next step by instinct would be to evaluate the minimums of the energy and the mass densities in a 4D-dimensions dividing by `µt·(c·µt)³` and in both cases we ends up with `ς⁻⁴·hͶ` as a prefix for `1/c` and `c` to complete. Considering the meaning of Ͷ could be a triggering or a relevant 4D-density threshold.
+
+By analogies comparison, the idea of a 3-axis imploded-folded time would be limited to a 6D-space explanatory model. While µ-theory should characterise reality in a manner that allows infinite dimensional space as emergent phenomenon by numerical approximations.
+
+While { Lagrande, Hamilton } as theory is too strict in providing a model of reality thus unable to be the theory of everything-observable, on the opposite side, strings-theory is too weak in constraints to allow almost everything (aka a mathematical theory of universal coherence, not a physic model).
+
+Therefore, to be useful for physics, µ-as-discrete-time isn't solely enough but should embedded a fundamental structure within t(n) and t(n+1) that constrains observability, at least in statistical terms, and "something" stochastics is currently the best I can relate to. In particular, when considering the law of Thermodynamics and Newtonian gravity, both fundamentally "true" also when reaching their µ-limits { single particle, the µ-radius } both not zero. In both cases we observe two extreme phenomenons { wave duality, black-holes }.
+
+In the same analogy, about 0°K, not as absolute but absintotical µ-limit, for which only the fundamental energy levels are allowed which are not absolute zero but the minimum allowed. By analogy with gravitational potential energy, not zero because atoms never "touch" thus a µ-altitude is always statistically granted as a means of distribution.
+
+This provides the same identical pattern for almost all natural phenomena we observe: at their µ-limit, discrete-nature and statistics-measurement are required to enter in the scene both, always together, and by our perception showing a Heinsemberg indetermination principle.
+
+In determining the lowest altitude related to the fundamental non-zero potential energy level, as more precisely we try to measure it, the more physic-surface appears not being a solid but a blurry line created by many indistinguishable particles, usually identified as the average of a Bell distribution.
+
+In extreme essence µ-theory epistemologically refutes the mathematical complications of the modern physic to embrace the elegant simplicity of the Maxwell era, unifying that laws of physic in extending them at their µ-limits with a holographic principle/structure which in observations is relatable with the Heisenberg indetermination principle.
+
+From human mathematician PoV, the µ-theory seems like an engineering trick, indeed. On the other side, reality at µ-scale starts tricking us first and µ-theory just plays back accepting the trick as if it were real. It is also like a deal: in avoiding to investigate reality beyond the µ-horizon, we want back an elegant unified theory of reality.
+
+* God plays dice, but S/He does not allow us to watch! 😉
 
 +
 
