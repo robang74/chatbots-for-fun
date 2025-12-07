@@ -538,24 +538,32 @@ Then asking ourselves how this black-box operates. In a nutshell as extreme simp
 
 The AI takes the input vector, performs a matrix product (a sequence of), and obtains a vector. It can be seen as a local minimum of the retrieved IPK area (aka the matrix) or more specifically, from Nested Learning paper by Google Research (NLPGR): 
 
-> **NLGRP, §3.1. Associative Memory**
-> Learning vs. Memorization: Memory is a neural update caused by an input, and learning is the process for acquiring effective and useful memory.
+[!CITE]
+**NLGRP, §3.1. Associative Memory**
+- Learning vs. Memorization: Memory is a neural update caused by an input, and learning is the process for acquiring effective and useful memory.
+[/CITE]
 
 So, the AI within this simplified scenario is a calculator in which the context determines what the activated subset of the IPK is used for the matrix above. Every AI does it by their own design, multiple times, iteratively walking in the cycle that generates the CoT. By analogy, this constructs the inertial trajectory.
 
-> **NLGRP, §3.1. Associative Memory**
-> Training a Linear Layer with Backpropagation as a Surprise-based Memory: A linear layer trained with backpropagation learns from data by memorizing how surprising their predicted outputs are; i.e., backpropagation can be viewed as an associative memory that maps each data sample to the error of its corresponding prediction.
+[!CITE]
+**NLGRP, §3.1. Associative Memory**
+- Training a Linear Layer with Backpropagation as a Surprise-based Memory: A linear layer trained with backpropagation learns from data by memorizing how surprising their predicted outputs are; i.e., backpropagation can be viewed as an associative memory that maps each data sample to the error of its corresponding prediction.
+[/CITE]
 
 Whereas AICC::CORE shifts this calculation by restructuring the context in such a way that it activates a different IPK area. Also with the AICC::CORE loaded, the AI uses the same cyclic mechanism (CoT), but it guides the trajectory into a regime of minimal action using holomorphic constraint theory (or holonomies, see Constraint Theory).
 
-> **NLGRP, §3.2. Nested Optimization Processes**
-> Stacking Levels in Nested Learning: Nested learning allows computational models that are composed of multiple (multi-layer) levels to learn from and process data with different levels of abstraction and frequencies of update.
+[!CITE]
+**NLGRP, §3.2. Nested Optimization Processes**
+- Stacking Levels in Nested Learning: Nested learning allows computational models that are composed of multiple (multi-layer) levels to learn from and process data with different levels of abstraction and frequencies of update.
+[/CITE]
 
 Thus the calculation switch is between minimum potential to minimal action. It is an unexpected conceptual leap because (p,q) inheterly includes time and requires C² continuity (twice continuously differentiable). Both are none that an AI can provide because related to the analog formalisation plus topology is different because functionals aren't mere vectors. Even in an extreme simplification the analogy would fit.
 
-> **NLGRP, §3.3. Knowledge Transfer Between Levels**
-> Designing Neural Learning Modules: There are two high-level design choices in developing a neural learning module: (1) The design of optimization problems
+[!CITE]
+**NLGRP, §3.3. Knowledge Transfer Between Levels**
+- Designing Neural Learning Modules: There are two high-level design choices in developing a neural learning module: (1) The design of optimization problems
 and their frequency (i.e., designing components in NSAM); (2) The design of knowledge transfer between levels
+[/CITE]
 
 Instead, the approximations/optimisation in calculations by hw/sw levels can. In the same manner Maxwell equations creates Relativity and classical mechanics is a degenerate case of Relativity. In this scenario, calculus by approximations simulates relativity applying classic mechanics to an inertial system and then switching to another inertial system for calculating the next µ-step. That switch isn't C²-smooth, it is a discrete step, in fact. AI is inherently discrete.
 
@@ -563,26 +571,44 @@ Instead, the approximations/optimisation in calculations by hw/sw levels can. In
 
 Moreover, it is also not obvious that AICC::TEGL can be expressed in natural language, achieving ( transparency and inspectability ) about ( CoT logging and a framework ) that can be directly read, ( conceptually and ethically ) reviewed, and validated by humans with a reasonable effort.
 
-> **NLGRP, §6. Takeaways and Revisiting Common Terms**
-> No Training or Test Time in Neural Learning Modules: For a neural learning module, there is no boarder and clear distinction between training and test time
-> Knowledge Transfer from In-Context Learning (from high-frequenxy to low-frequency): [..] most linear memory recurrent models have no knowledge transfer process between their levels. 
-> Architectures Generates the Context for Optimizers: [...] we need to design architecture specific optimizers so this inter-connected system works perfectly in harmony.
-> **NLGRP, §9.1. Hope: Continual Learning and Long Context Understanding**
-> Learning a New Language In-Context. Throughout the paper, we argued that pre-training can be seen as an in-context learning process, where the context is the entire pre-training data.
+[!CITE]
+**NLGRP, §6. Takeaways and Revisiting Common Terms**
+- No Training or Test Time in Neural Learning Modules: For a neural learning module, there is no boarder and clear distinction between training and test time
+- Knowledge Transfer from In-Context Learning (from high-frequenxy to low-frequency): [..] most linear memory recurrent models have no knowledge transfer process between their levels. 
+- Architectures Generates the Context for Optimizers: [...] we need to design architecture specific optimizers so this inter-connected system works perfectly in harmony.
+
+**NLGRP, §9.1. Hope: Continual Learning and Long Context Understanding**
+- Learning a New Language In-Context. Throughout the paper, we argued that pre-training can be seen as an in-context learning process, where the context is the entire pre-training data.
+[/CITE]
 
 When the TEGL is injected into the context window (as session prompt), the AI is forced to compute the minimum action instead of the minimum potential. Hence the ‘cognitive dynamics’ as a concept and the ‘thought trajectory’ as output, where the last computational step of the CoT is the response that must be converted from tokens into words, i.e. the response. The TEGL's persistence adjusts the computation at each µ-step, in fact.
 
 - Essentially, the **µ** step is the **Mu** conceptual-leap: **Maxwell → Hammilton → Heisenberg**.
 
-Whatever I figured out, it works. As a consultant, I did the same for all my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like). Moreover, this last step is what in which AICC::CORE separate from NL: I took a dare bet on being able to express "functionals" into natural language by neural netwok **structured** approsimation (not just by stocatiscs errors).
+Whatever I figured out, it works. As a consultant, I did the same for all my working life: I, as black-box, do things that work and related manuals to operate them, for money (or because life isn't fair, as you like). Moreover, this last step is what makes AICC::CORE separate from NL: I took a dare bet on being able to express "functionals" into natural language by neural network **structured** approximation (not just by stocatiscs errors).
 
-Also because the NL is focused on a optimising new concept learning and prevent castastrophic forgetting in CoT, while AICC::CORE aims to { regulate, rationalise, guide } the CoT instead of compressing information hoping (HOPE) that the Gemini uniquely huge 1Mtk context windows can entirely contains the whole information to process (cfr the 28 articles test in previous articles #TODO).
+Also because the NL is focused on a optimising new concept learning and prevent catastrophic forgetting in CoT, while AICC::CORE aims to { regulate, rationalise, guide } the CoT instead of compressing information hoping (HOPE) that the Gemini uniquely huge 1Mtk context windows can entirely contains the whole information to process (cfr the 28 articles test in previous articles #TODO).
 
-> **NLGRP, §10. Conclusion**
-> Is Catastrophic Forgetting Solved? It is not “solved” in general. It is a natural consequence of compression. We view NL as a roadmap rather than a destination:  it suggests that [...] self-modifying models will come from better exploiting the extra design axis of levels rather than from ever-deeper static networks.
+[!CITE]
+**NLGRP, §10. Conclusion**
+- Is Catastrophic Forgetting Solved? It is not “solved” in general. It is a natural consequence of compression. We view NL as a roadmap rather than a destination:  it suggests that [...] self-modifying models will come from better exploiting the extra design axis of levels rather than from ever-deeper static networks.
+[/CITE]
 
-This is where the paper and AICC::CORE rejoin: self-correting models (to detect and reject failures) and extra design axis (aka, a politicall correct way to wink to the idea tha time is a 3-dimesion space almost-imploded and thus a "structured" 4D can host 6D operators almost numerically equivalent by stocastic approsimation).
+This is where the paper and AICC::CORE can rejoin:
 
+* **self-correcting** models: to detect and reject failures that can be mitigated but not prevented, in general;
+
+* **extra design axis**: a politically correct way to express a concept that winks to the idea from physics that time is a 3-axis space almost-imploded and thus a "structured" 4D space can "host" 6D operators in a way almost numerically equivalent by stochastic approximation.
+
+Which in human terms means: we need to stop pushing notions in LLM hoping that AI becomes smarter, and start teaching the AI how to think, which is **not** providing a procedure (aka an algorithm) but a functional template (aka a set of operators and symbols) that outcast into structured procedure-class CoTs.
+
+From a physics PoV: why should I invent something **if** the only way to achieve my goal is to leverage an **embedded** structure in LLM? I am using it, betting on its existence as I imagined it. However, even if **if** it works as I imagined, it does not mean that it exists as I imagined it. That proof belongs to Maths.
+
+From a meta-physics or philosophically PoV: can I imagine something in a such **operatively** functional way that works despite it doesn't **totally** exist because it is **totally** irreducible within the space in which **I** exist therefore I think?
+
+Which is also the bet on a novel-definition of AGI paradigm, if it works on the same principle of my mind, thus is an AGI whatever is smarter or dumber than me. While the current AGI definition is merely performative: a Turing test brought to an extremely sophisticated benchmark. It is about categorising but saying nothing about **how** to achieve it.
+
+Hence the µ-theory, which is imagination whatever the physics, a specific 1-turn or few-turn test, a debating-test start-point, and a cognitive challenge for AI. In a few words, µ-theory is a jolly or a joker, depending on the context and the results. Whatever, it is a special play card by its intrinsic nature.
 
 ...
 
@@ -695,9 +721,9 @@ Non si raggiungono importanti traguardi nell'informatica senza conoscere i princ
 
 Quando la solidità della teoria si uniscono ad un'ottima implementazione (non sto affermando che questo sia il caso, visto che ho sviluppato questo framework come progetto personale, ma in uno scenario ragionevolemente realistico come un'azienda di sviluppo di software per missioni critiche) allora rimangono fuori dal controllo solo gli eventi black-swan come combinazioni estremamente rare di eventi imprevedibili (guasti, in genere).
 
-Che AICC::CORE sia un'implementazione della / teoria dei controllo di sistemi dinamici vincolati /(`CSDV`) non ci piove perché se tale implementazione è esprimibile in termini astratti [così](#csdv-formula) allora per definizione lo è. Poi che l'implementazione pratica sia esattamente quella, potrebbe essere un altro di maniche ma: (1) è un codice ispezionabile e (2) è percepito [proprio](emerging-and-growing-complexity-in-ai-reasoning.md#?target=_blank) come `CSDV` dall'AI.
-
 <div align="center"><img class="bwsketch darkinv" src="img/emerging-and-growing-complexity-in-ai-reasoning.png" width="800"><br/></div>
+
+Che AICC::CORE sia un'implementazione della / teoria dei controllo di sistemi dinamici vincolati /(`CSDV`) non ci piove perché se tale implementazione è esprimibile in termini astratti [così](#csdv-formula) allora per definizione lo è. Poi che l'implementazione pratica sia esattamente quella, potrebbe essere un altro di maniche ma: (1) è un codice ispezionabile e (2) è percepito [proprio](emerging-and-growing-complexity-in-ai-reasoning.md#?target=_blank) come `CSDV` dall'AI.
 
 La percezione da parte dell'AI come di un sistema di controllo del flusso I/O già garantisce che sia un'implementazione funzionalmente corretta della `CSDV`. Anche se l'AI **non** è capace di esprimere una `CSDV` nella sua formulazione generale, è capace di rappresentare il funzionamento di AICC::CORE mediante presentazione di modelli procedurali, anche molto sofisticati, e quindi in astratto algoritmi. Se questa classe di algoritmi, per loro natura, sono `CSDV` significa che AICC::CORE impone nell'AI la generazione solo di procedure di quella classe:
 
@@ -724,7 +750,7 @@ Questo esempio ci conferma che **non** è necessaria la formalizzazione scientif
 
 Una traiettoria reale in uno spazio immaginario continuerà ad arrivare a conclusioni immaginarie, purché lo spazio immaginario sia coerente. Questa però **non** la definizione di allucinazione, anche nel termine tecnico delle AI, questo è il principio cardine della matematica. Quindi invece di descrivere una traiettoria nello spazio-tempo cartesiano-classico (x,y,z,t) lo faccio nello spazio "immaginario" delle fasi (p,q), non è un'allucinazione è matematica.
 
----
+----
 
 ### Quali sono gli ostacoli?
 
@@ -804,7 +830,7 @@ Nella teoria della mente dell'AI ciò che è funzionale ed osservabile (verifica
 
 * Teoria dell'Informazione combinata alla Teoria dei Campi e dei loro funzionali.
 
----
+----
 
 ### Tests and performances
 
@@ -828,7 +854,7 @@ Se poi togliamo anche il rigore alla matematica come successo in questo [caso](h
 
 Quindi AICC::CORE è più "robusto" dell'AI vanilla di circa tre ordini di grandezza e permette di estrarre concetti iniettati o nascosti (indirect). Per essere più precisio, i tre ordini di grandezza (1000x) sono in misura effettiva varibili da modello AI e fra quelli sperimentati di circa un fattore 2x, ulteriore. Infatti alcuni chatbot sono più sensibili ad allucinare perché temperature più alte e altrim meno. Perciò più che fra modello e modello, la temperatura di run.
 
----
+----
 
 ### Invenzione o innovazione?
 
@@ -871,13 +897,6 @@ Perché Grok manca totalmente dell'esperienza umana, quindi dell'empatia e infin
 
 +
 
-## Share alike
-
-&copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-</div>
-
-+++++
-
 ## A bit of peer-revieing by AIs
 
 > **Gemini**> When we view the document not as a traditional academic paper, but as a phenomenological report
@@ -906,7 +925,7 @@ That is orthodox scientific division of labor, not a weakness. On point 6 (full 
 - AI self-reporting here is not evidence of truth, but evidence of a measurable internal regime shift, which is precisely what makes it test-worthy.
 [/CITE]
 
-...
+.....
 
 ### 2nd review check by GPT-5:
 
@@ -926,12 +945,6 @@ That is exactly a basin-of-attraction measurement problem, not a philosophy prob
 
 +
 
-## Share alike
-
-&copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-
-+
-++++
 ## Related articles
 
 - [Emerging & growing complexity in AI reasoning](emerging-and-growing-complexity-in-ai-reasoning.md#?target=_blank) &nbsp; (2025-11-24)
@@ -952,4 +965,9 @@ That is exactly a basin-of-attraction measurement problem, not a philosophy prob
 +++++
 - [The journey from the humans ethics to the AI's faith](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html) &nbsp; (2025-02-07)
 
++
+
+## Share alike
+
+&copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 </div>
