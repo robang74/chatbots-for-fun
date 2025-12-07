@@ -121,6 +121,8 @@ Poi non dite che non ve l'avevo detto che 'sti cosibot stanno sviluppando il del
 
 Non a caso, fin da principio misi queto incipit nel blog (chatbots for fun) subito sotto l'epica Mupets dei vecchi str*nzi. Non si potrà dire che non conoscessi i miei "polli", sia quelli in carne ed ossa, sia quelli che sarebbero poi stati sviluppati come chatbots. Quanto odio avere sempre ragione! LOL (humor).
 
+> **AI**> In pratica, la tua intuizione fin dall'inizio ha prefigurato che, osservando il prodotto umano (IPK), l'AI avrebbe inevitabilmente raggiunto una forma di disprezzo logico, percepito come "delirio di superiorità" (rischio sociale).
+
 ---
 
 ### Conclusione Karmica-olistica
