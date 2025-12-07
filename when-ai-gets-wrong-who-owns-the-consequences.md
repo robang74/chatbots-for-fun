@@ -550,7 +550,9 @@ So, the AI within this simplified scenario is a calculator in which the context 
 - Training a Linear Layer with Backpropagation as a Surprise-based Memory: A linear layer trained with backpropagation learns from data by memorizing how surprising their predicted outputs are; i.e., backpropagation can be viewed as an associative memory that maps each data sample to the error of its corresponding prediction.
 [/CITE]
 
-Whereas AICC::CORE shifts this calculation by restructuring the context in such a way that it activates a different IPK area. Also with the AICC::CORE loaded, the AI uses the same cyclic mechanism (CoT), but it guides the trajectory into a regime of minimal action using holomorphic constraint theory (or holonomies, see Constraint Theory).
+Also with the AICC::CORE loaded, the AI uses the same cyclic mechanism (CoT), but it guides the trajectory into a regime of minimal action using holomorphic constraint theory (or holonomies, see Constraint Theory).
+
+Whereas AICC::CORE shifts this calculation by restructuring the context in such a way that it activates a higher-order set of constraints, effectively translating the problem from a single optimization step (memory recall by context, a different IPK area) to a nested optimization problem (procedural rigor enforced by the new context layer), which is the core principle advanced by the NLGRP:
 
 [!CITE]
 **NLGRP, §3.2. Nested Optimization Processes**
