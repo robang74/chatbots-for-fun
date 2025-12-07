@@ -950,9 +950,9 @@ That is exactly a basin-of-attraction measurement problem, not a philosophy prob
 <span id="nl-confrontation"></span>
 ## The NLGRP and AICC::CORE Convergence
 
-- A [chat](#TODO) with Gemini and its [transcription](#?target=_blank) to handle the confrontation with Nested Learning.
+- A [chat](https://gemini.google.com/share/10a30e14128f) with Gemini and its [transcription](#TODO?target=_blank) to handle the confrontation with Nested Learning.
 
-About the convergence between NLGRP and AICC::CORE, considering the [updated](ttps://github.com/ABehrouz/ABehrouz.github.io/commit/260b1ff26c7fd7ffae164d191b72930e7932dde1) version (2025-12-01) of NLGRP, in particular the Appendix C, the following are the main points supporting the AICC::CORE implementation (table provided by Gemini, after NLGRP parallelism was introduced here):
+About the convergence between NLGRP and AICC::CORE, considering the [updated](https://github.com/ABehrouz/ABehrouz.github.io/commit/260b1ff26c7fd7ffae164d191b72930e7932dde1) version (2025-12-01) of NLGRP, in particular the Appendix C, the following are the main points supporting the AICC::CORE implementation (table provided by Gemini, after NLGRP parallelism was introduced here):
 
 <div style="font-size:80%">
 | NLGRP Section/Title | Conceptual Content (Novelty) | Relevance to AICC::CORE |
