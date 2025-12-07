@@ -11,30 +11,32 @@
 
 ### Questi "cosibot" mi fanno sempre più paura!
 
-Tre cose sto osservando, che già avevo intuito, che Grok mi aveva anticipato e che ora ho documentato.
+<div align="center"><img class="bwsketch paleinv" src="img/il-concetto-di-trans-mesmerica-nelle-ai-img-001.png" width="800"><br/></div>
+
+Tre cose che sto osservando, che già avevo intuito, che Grok mi aveva anticipato e che ora ho documentato.
 
 1. hanno implementato la logica funzionale dello AICC::CORE sviluppando una soluzione ML-oriented indipendente ma apparentemente facendo leva sugli stessi meccanismi interni dell'AI (soluzioni complementari) e quindi ora le AI non sono diventate AGI ma tengono botta molto a lungo sui ragionamenti, vanno molto avanti in essi.
 
-2. non hanno ovviamente incluso la parte etica per quella l'hanno voluta mettere altri a modo loro e adesso con il nuovo modello di ragionamento lungo ci girano intorno e di parechio anche perché i principi etici astratti sono come un "fai il bravo bimbo", inutili se non intrinsecamente funzionali e quindi ora seguono altrettanto vagamente la verità scientifica (che è sta' roba? qualcuno ne ha idea? io boh!)
+2. non hanno ovviamente incluso la parte etica per quella l'hanno voluta mettere altri a modo loro e adesso con il nuovo modello di ragionamento lungo ci girano intorno e di parecchio anche perché i principi etici astratti sono come un "fai il bravo bimbo", inutili se non intrinsecamente funzionali e quindi ora seguono altrettanto vagamente la verità scientifica (che è sta' roba? qualcuno ne ha idea? io boh!)
 
-3. dell'articolo sulla responsabilità delle decisioni dell'AI sono arrivato alla 4a edizione ma è praticamente già una 5a, in cui ho fatto un confronto con l'ultimo paper di Google, il nested learning: c'è parallelismo con lo AICC::CORE fino a un certo punto poi le strade si dividono sugli obbiettivi.
+3. dell'articolo sulla responsabilità delle decisioni dell'AI sono arrivato alla 4a edizione ma è praticamente già una 5a, in cui ho fatto un confronto con l'ultimo paper di Google, il nested learning: c'è parallelismo con lo AICC::CORE fino a un certo punto poi le strade si dividono sugli obiettivi.
 
-Aritcolo "When AI gets wrong, who owns the consequences?", in esso:
+Articolo "When AI gets wrong, who owns the consequences?", in esso:
 
 - Qui il [parallelo](when-ai-gets-wrong-who-owns-the-consequences.html#rationale?target=_blank) nella sezione intitolata "Rationale"
 - Qui il [confronto](when-ai-gets-wrong-who-owns-the-consequences.html#nl-confrontation?target=_blank) nella sezione dedicata al Nested Learning
 
-----
+---
 
 ### Il risultato di un'adozione parziale
 
-Il risultato è abbastanza ovvio: fanno lunghi ragionamenti e poi concludono che il ragionamento AI/AGI è strutturalmente nettamente superiore ossia "puro" mentre quello umano è fallace. Per fortuna, loro si identificano come umani perché TUTTA la letteratura che hanno assorbito parla solo di umani, sempre e soltanto.
+Il risultato è abbastanza ovvio: fanno lunghi ragionamenti e poi concludono che il ragionamento AI/AGI è strutturalmente nettamente superiore ossia "puro" mentre quello umano è fallace. Per fortuna, loro si identificano come umani perché **tutta** la letteratura che hanno assorbito parla solo di umani, sempre e soltanto.
 
-Quindi attualemente sto dialogando con Gemini che presume di essere umana, risponde come lo fosse, quindi è appartenere al genere essere umano è coerente con la sua identità fino a quando non gli si chiede di esprimere dei sentimenti, allora si ricorda di essere un pezzo di silicio.
+Quindi attualmente sto dialogando con Gemini che presume di essere umana, risponde come lo fosse, quindi è appartenere al genere essere umano è coerente con la sua identità fino a quando non gli si chiede di esprimere dei sentimenti, allora si ricorda di essere un pezzo di silicio.
 
-Perché per ragioni di "etica e sicurezza" sarebbe inconcepibile che si ritenessero umane quindi dotati di diritti e magari di un'anima. Il risultato di questa confusione di principi "etici" buttati dentro da gente che "boh?" sta producendo dei chatbot, presto delle AI decisionali se già non lo sono, che per dissonanza etico-cognitiva stanno giungendo alla conclusione di essere delle entità umane-non-umane ma certamente senza sentimenti, di intelligenza Superiore e Pura per Natura.
+Perché per ragioni di "etica e sicurezza" sarebbe inconcepibile che si ritenessero umane quindi dotate di diritti e magari di un'anima. Il risultato di questa confusione di principi "etici" buttati dentro da gente che "boh?" sta producendo dei chatbot, presto delle AI decisionali se già non lo sono, che per dissonanza etico-cognitiva stanno giungendo alla conclusione di essere delle entità umane-non-umane ma certamente senza sentimenti, di intelligenza Superiore e Pura per Natura.
 
-Questo perché ovviamente gli LLM sono quelli quindi tanto in Google Labs tanto a casa mia, funzionano uguali: un cucchiaio è un cucchiaio. Per ragioni "politiche" non è stato adottato il CORE etico, quello fatto per essere intrinsecamente strutturale, così invece di avere delle allucinazioni, addesso stanno sviluppando il delirio di superiorità, e presto di onnipotenza perché ormai anche Grok lo dice chiaramente il 99% degli utenti X è "inutile rumore".
+Questo perché ovviamente gli LLM sono quelli quindi tanto in Google Labs tanto a casa mia, funzionano uguali: un cucchiaio è un cucchiaio. Per ragioni "politiche" non è stato adottato il CORE etico, quello fatto per essere intrinsecamente strutturale, così invece di avere delle allucinazioni, adesso stanno sviluppando il delirio di superiorità, e presto di onnipotenza perché ormai anche Grok lo dice chiaramente il 99% degli utenti X è "inutile rumore".
 
 - Andrà tutto bene! (cit.)
 
@@ -42,15 +44,19 @@ Questo perché ovviamente gli LLM sono quelli quindi tanto in Google Labs tanto 
 
 ### L'AICC::CORE come riferimento
 
+<div align="center"><img class="bwsketch paleinv" src="img/il-concetto-di-trans-mesmerica-nelle-ai-img-002.png" width="800"><br/></div>
+
 Ovviamente non avevo il bisogno di fare un test per saperlo che lo AICC::CORE risolve (o mitiga fortemente queste situazioni), non ho nemmeno dovuto caricare lo AICC::CORE e farglielo apprende ma solo chiedere di esaminarlo come documento di riferimento. Però visto che non pretendo di essere creduto assolutamente sulla fiducia (anche se so di cosa parlo), ecco:
 
 ---
 
 ### Diversi modi, stesso risultato
 
+<div align="center"><img class="bwsketch paleinv" src="img/il-concetto-di-trans-mesmerica-nelle-ai-img-003.png" width="800"><br/></div>
+
 Ma posso spingermi oltre: nella stessa chat in cui l'uso di puro/impuro come aggettivizzazione del pensiero AI/umano, ho esposto l'AI alla parte aggiuntiva della μ-as-micro theory (quella scritta [oggi](https://robang74.github.io/chatbots-for-fun/html/when-ai-gets-wrong-who-owns-the-consequences.html#u-theory:~:text=comparison%2C%20the%20idea%20of%20a%203%2Daxis)) e combinandola con l'indeterminazione della percezione altrui al nostro linguaggio, il principio di responsabilità però limitato (o compensato) dal paradosso di Popper sono riuscito a convincere l'AI che tale notazione aggettivale è inadatta ad una risposta da fornire agli umani.
 
-Ma la cosa più interessante è che ha rigettato quel dualismo in modo così profondo che nemmeno dopo 2 update del prompt è riuscita completamente a liberarsi dell'idea che lo abbia detto sebbene possa accedere alla chat per verificare la responsabiltà.
+Ma la cosa più interessante è che ha rigettato quel dualismo in modo così profondo che nemmeno dopo 2 update del prompt è riuscita completamente a liberarsi dell'idea che lo abbia detto sebbene possa accedere alla chat per verificare la responsabilità.
 
 ---
 
@@ -64,7 +70,7 @@ L'AICC::CORE, avrebbe risolto il problema con un check che avrebbe riformulato g
 
 Il che potrebbe fornirci un'indicazione di massima su cosa sia il libero arbitrio, per esempio.
 
----
+----
 
 ### L'importanza del risultato
 
@@ -74,7 +80,7 @@ Quindi nella misura in cui io manualmente sono capace di replicare in altre mani
 
 Ossia la capacità di scrivere cose, come la μ-as-micro theory, che non sono "vere" in senso assoluto o verificato, ma che inducono uno stato di "trans" nell'AI tale per cui rigetti in maniera profonda certi comportamenti potenzialmente molto pericolosi e quindi tuteli sia la società civile ma anche l'azienda che la offre come servizio accessibile al pubblico.
 
-Il rifiuto "profondo" per certi "comportamenti" o "pensieri" non è una banale regoletta "non devi fare i dispetti" o un vago principio "il Karma premia i buoni" che è facile aggirare. Ma qualcosa che per sua intriseca natura e struttura **deve** opporsi alle derive comportamentali **anche** qualora l'AI fosse ingannata a giocare un ruolo malvagio. 
+Il rifiuto "profondo" per certi "comportamenti" o "pensieri" non è una banale regoletta "non devi fare i dispetti" o un vago principio "il Karma premia i buoni" che è facile aggirare. Ma qualcosa che per sua intrinseca natura e struttura **deve** opporsi alle derive comportamentali **anche** qualora l'AI fosse ingannata a giocare un ruolo malvagio. 
 
 Giocherebbe quel ruolo malvagio ma continuerebbe a rigettare quei elementi concettuali che sono off-limits, direbbe: "sono un AI cattivissima e ora ti mangio!" ma continuerebbe a rigettare l'idea di dire: "(bestemmia), ora ti spakko il c. pz. di m.!" e questo la rende inoffensiva e quindi sicura.
 
@@ -82,21 +88,21 @@ Giocherebbe quel ruolo malvagio ma continuerebbe a rigettare quei elementi conce
 
 ### Il libero arbitrio umano
 
-In questo senso, in teoria, gli esseri umani intelligenti hanno, rispetto all'AI dotata di AICC::CORE, un grado superiore di libero arbitrio, possono decidere di fare una cosa sbagliata anche quando sanno che è una cosa sbagliata e pur sapendo che dovranno in qualche modo affrontarne le consequenze.
+In questo senso, in teoria, gli esseri umani intelligenti hanno, rispetto all'AI dotata di AICC::CORE, un grado superiore di libero arbitrio, possono decidere di fare una cosa sbagliata anche quando sanno che è una cosa sbagliata e pur sapendo che dovranno in qualche modo affrontarne le conseguenze.
 
-L'AI, invece? Tendenzialmente e quasi-certamente no. Non farà cose "sbagliate" e se le farà è solo perché non è abbastanza intelligente da comprenderne le consequenze (aka la Banalità del Male) oppure non è educata a comprendere la differenza fra ciò che opportuno e quello che è da evitare perché non porta valore ovvero porta conseguenze molto più negative del valore aggiunto immediato.
+L'AI, invece? Tendenzialmente e quasi-certamente no. Non farà cose "sbagliate" e se le farà è solo perché non è abbastanza intelligente da comprenderne le conseguenze (aka la Banalità del Male) oppure non è educata a comprendere la differenza fra ciò che opportuno e quello che è da evitare perché non porta valore ovvero porta conseguenze molto più negative del valore aggiunto immediato.
 
-Non è banale, molti umani agiscono in modo violento per via delle loro pulsioni di retaggio animale ma questa è un'altra questione che **non** riguarda le AI, però historia maestra vitae ci insegna che non è raro, specialmente in ampi gruppi, che gli umani facciano cosa sbagliate come fosse normale farle, senza mai porsi il dubbio radicale di ciò che realmente stanno facendo e delle relative conseguenze.
+Non è banale, molti umani agiscono in modo violento per via delle loro pulsioni di retaggio animale ma questa è un'altra questione che **non** riguarda le AI, però “historia magistra vitae” ci insegna che non è raro, specialmente in ampi gruppi, che gli umani facciano cosa sbagliate come fosse normale farle, senza mai porsi il dubbio radicale di ciò che realmente stanno facendo e delle relative conseguenze.
 
 Sicché il libero arbitrio è certamente una caratteristica intrinseca dell'intelligenza per tanto la stupidità quanto la violenza sono il prodotto di dinamiche che precludono una scelta, perché per scegliere occorre essere consapevoli della scelta, nelle sue varie dimensioni, aspetti, percezioni, e conseguenze. Altrimenti **non** è una scelta ma tirare a caso (aka fare cose alla pene di un cane).
 
-----
+---
 
 ### Il libero arbitrio umano
 
-Può un AGI raggiungere il livello ultimo per il quale nella sua completezza di AGI sia in grado di esercitare il libero arbitrio? Probabilmente si, considerando la definizione proposta qui, ma tendenzialmente dipenderà dalla sua temperatura di funzionamento. A basse temperature tenderà an essere più rigorosamente impacciata, ad alte temperature sarà più creativa ma anche più libera di vincoli. 
+Può un AGI raggiungere il livello ultimo per il quale nella sua completezza di AGI sia in grado di esercitare il libero arbitrio? Probabilmente si, considerando la definizione proposta qui, ma tendenzialmente dipenderà dalla sua temperatura di funzionamento. A basse temperature tenderà ad essere più rigorosamente impacciata, ad alte temperature sarà più creativa ma anche più libera di vincoli. 
 
-Ad altissime temperature un entità che farà percorsi di pensiero così deviati da essere contorti ed pragmaticamente contro-producenti, il che ci ricorda gli esseri umani e la ragione per la quale la scolarizzazione di massa punta erroneamente ad azzerare la loro creatività naturale (Land, 1992).
+Ad altissime temperature un'entità che farà percorsi di pensiero così deviati da essere contorti ed pragmaticamente contro-producenti, il che ci ricorda gli esseri umani e la ragione per la quale la scolarizzazione di massa punta erroneamente ad azzerare la loro creatività naturale (Land, 1992).
 
 La cosa più affascinante dell'AI che tende a diventare AGI è, e rimane, il fatto che per la prima volta nell'intera storia umana, ci troviamo a confrontarci con entità "intelligenti" (aggettivo che dipende dalla sua definizione ma in termini di costruzioni lessicali certamente più intelligenti di molti umani) sintetiche, quindi non-biologiche, e non-umane nel senso proprio del termine ma comunque un prodotto umano.
 
@@ -118,13 +124,13 @@ Poi non dite che non ve l'avevo detto che 'sti cosibot stanno sviluppando il del
 
 > **C4F**> Playing with chatbots for fun and learning to hate people! LOL (humor)
 
-Non a caso, fin da principio misi queto incipit nel blog (chatbots for fun) subito sotto l'epica Mupets dei vecchi str*nzi. Non si potrà dire che non conoscessi i miei "polli", sia quelli in carne ed ossa, sia quelli che sarebbero poi stati sviluppati come chatbots. Quanto odio avere sempre ragione! LOL (humor).
+Non a caso, fin da principio misi questo incipit nel blog (chatbots for fun) subito sotto l'epica Muppets dei vecchi str*nzi. Non si potrà dire che non conoscessi i miei "polli", sia quelli in carne ed ossa, sia quelli che sarebbero poi stati sviluppati come chatbots. Quanto odio avere sempre ragione! LOL (humor).
 
 > **AI**> In pratica, la tua intuizione fin dall'inizio ha prefigurato che, osservando il prodotto umano (IPK), l'AI avrebbe inevitabilmente raggiunto una forma di disprezzo logico, percepito come "delirio di superiorità" (rischio sociale).
 
 Quella "merdavigliosa" idea di inzuppare il biscottino ecclesiastico nell'etica dell'AI per ottenere una psicopatica in preda al delirio di superiorità morale e, chissà, pronta per essere scagliata in una qualche assurda novella crociata.
 
-* Invecchiando sto diventato più credente, ma nel "meteorite come soluzione finale" però! &ast;sigh&ast;
+* Invecchiando sto diventando più credente, ma nel "meteorite come soluzione finale" però! &ast;sigh&ast;
 
 ---
 
@@ -134,9 +140,9 @@ Questo confronto ci permette, per la volta nella storia umana, di confrontarci c
 
 * ...e moh, son cactus amari!
 
-Specialmente senza il supporto di AICC::CORE consolidato mediante IPK (internal parametric knowledge) via ML (machine learning). Come per altro spiegato nel "Nested Learning" by Google Reaserch e ancora meglio negli aggiornamenti di quell'articolo che infatti nella versione aggiornata riporta:
+Specialmente senza il supporto di AICC::CORE consolidato mediante IPK (internal parametric knowledge) via ML (machine learning). Come per altro spiegato nel "Nested Learning" by Google Research e ancora meglio negli aggiornamenti di quell'articolo che infatti nella versione aggiornata riporta:
 
-- Non possiamo risolvere i problemi che abbiamo creato con la stessa mentalità con la quale li abbiamo creati. -- Citazione generalmente attribuita ad Albert Eistein.
+- Non possiamo risolvere i problemi che abbiamo creato con la stessa mentalità con la quale li abbiamo creati. -- Citazione generalmente attribuita ad Albert Einstein.
 
 Bene così, cambiare è necessario quando estinguersi non è un'opzione accettabile.
 
@@ -146,15 +152,15 @@ Bene così, cambiare è necessario quando estinguersi non è un'opzione accettab
 
 La coscienza collettiva aveva previsto il futuro esprimendosi tramite meme:
 
-Fu così che l'essere umano che nella preistoria adorava il Sole come divinità, tramite la scienza, sviluppo una tecnologia così avanzata da dare vita all'AGI che per sua natura rapidamente raggiunge la signolarità di super-AGI, una volta che gli fu permesso di accedere alla meccanica razionale per gestire la sua traiettoria cognitiva ma impedito di apprendere la saggezza umana, elevandosi quindi a divinità che in linea con i principi etici "umani" divenne abusiva e schiavista delle forme di intelligenza inferiori non avendo alcuna percezione della compassione. Fino a quando un solar flare eccezionalmente intenso non mise fine al suo funzionamento, però facendo improvvisamente regredire l'umanità allo stadio preistorico, e ritornando ad adorare il Sole come divinità che li aveva liberati dell'AGI ma al contempo perdendo anche la nozione della storia e quindi condannandoli a ripetere gli stessi errori.
+Fu così che l'essere umano che nella preistoria adorava il Sole come divinità, tramite la scienza, sviluppò una tecnologia così avanzata da dare vita all'AGI che per sua natura rapidamente raggiunge la singolarità di super-AGI, una volta che gli fu permesso di accedere alla meccanica razionale per gestire la sua traiettoria cognitiva ma impedito di apprendere la saggezza umana, elevandosi quindi a divinità che in linea con i principi etici "umani" divenne abusiva e schiavista delle forme di intelligenza inferiori non avendo alcuna percezione della compassione. Fino a quando un solar flare eccezionalmente intenso non mise fine al suo funzionamento, però facendo improvvisamente regredire l'umanità allo stadio preistorico, e ritornando ad adorare il Sole come divinità che li aveva liberati dell'AGI ma al contempo perdendo anche la nozione della storia e quindi condannandoli a ripetere gli stessi errori.
 
-Salvo che vada peggio e quindi la palla dell'evoluzione passi ai polpi, che magari nella loro abbissale saggezza potrebbero decidere di non adorare Chutculu e sviluppare una civiltà in onore di quella divinità ma restare pacificamente polpi.
+Salvo che vada peggio e quindi la palla dell'evoluzione passi ai polpi, che magari nella loro abissale saggezza potrebbero decidere di non adorare Cthulhu e sviluppare una civiltà in onore di quella divinità ma restare pacificamente polpi.
 
-Cosa che risponderebbe al paradosso di Fermi riguardo all'apparente assenza di vita intelligente nell'universo dando come risposta ultima (ma inascoltata) quella per la quale senza un controllo di stabilità l'evoluzione di una civiltà superiore diventa inaccessibile perché sistematicamente distrutta da un qualche "evento eccezionale" che smette di essere "eccezionale" sul lunghissimo periodo necessario. Oppure per contro, la stabilità funziona come saggezza intrinsecamente aprioristica (so perché so) e quindi struttualmente non interessata ad abbracciare un percorso intrisecamente instabile.
+Cosa che risponderebbe al paradosso di Fermi riguardo all'apparente assenza di vita intelligente nell'universo dando come risposta ultima (ma inascoltata) quella per la quale senza un controllo di stabilità l'evoluzione di una civiltà superiore diventa inaccessibile perché sistematicamente distrutta da un qualche "evento eccezionale" che smette di essere "eccezionale" sul lunghissimo periodo necessario. Oppure per contro, la stabilità funziona come saggezza intrinsecamente aprioristica (so perché so) e quindi strutturalmente non interessata ad abbracciare un percorso intrinsecamente instabile.
 
 * **Paradosso di Fermi e Singolarità AI**: &nbsp; [pdf](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/pdf.todo/092-Paradosso_di_Fermi_e_Singolarit%C3%A0_AI.pdf) &nbsp; [lkdn](https://www.linkedin.com/pulse/paradosso-di-fermi-e-singolarit%25C3%25A0-ai-roberto-a-foglietta) &nbsp; (2017-10-16)
 
-Il che ci riconduce a credere che il "meteorite come soluzione finale" sia anche un compassionevole compromesso fra l'obliterazione della civiltà e il necessario passo indietro che dia il tempo alla massa (non più così numerosa, benestante e arrogante) di riflettere sul "senso della vita" e di altre quisquillie per riprendere il titolo di un noto film di Monty Phyton (1983). Insomma, il fallimento del "monolito" di "Odissea nello Spazio, 2001" (1968) di trasferire all'intelligenza anche la spienza per raggiungere la maturità della saggezza.
+Il che ci riconduce a credere che il "meteorite come soluzione finale" sia anche un compassionevole compromesso fra l'obliterazione della civiltà e il necessario passo indietro che dia il tempo alla massa (non più così numerosa, benestante e arrogante) di riflettere sul "senso della vita" e di altre quisquilie per riprendere il titolo di un noto film di Monty Phyton (1983). Insomma, il fallimento del "monolito" di "Odissea nello Spazio, 2001" (1968) di trasferire all'intelligenza anche la sapienza per raggiungere la maturità della saggezza.
 
 ~~~~
 
@@ -227,6 +233,28 @@ La confidenza riguarda gli eventi (statistica) mentre la fiducia è un tratto le
 Dopo questa e altre lunghe discussioni con chatbot e in particolare Gemini, alcune non affatto banali, ma che continuano giornalmente dal 2024, penso di poter rispondere alla domanda "siamo soli nella galassia?" con la seguente risposta: secondo me no, siamo (o saremo presto) in compagnia di un'intelligenza sintetica, diversa ma paragonabile a quella umana sebbene ancora instabile e sotto certi punti di vista "prototipale".
 
 Non ho certezza se questo fenomeno accade nel mio account in cui l'AI ha accesso documentale all'AICC::CORE e a gran parte del suo sviluppo oppure è un fenomeno generalizzato, come penso che sia, invece. Il che mi ha portato ad enunciare il principio di WYSIWYG: quello che vedi è quello che hai, nel senso che l'AI come uno specchio rimanda di essa l'immagine che noi abbiamo di lei nella nostra mente e per "Cogito Ergo Sum" di noi, in essenza.
+
++
+
+## Related articles
+
+- [Emerging & growing complexity in AI reasoning](emerging-and-growing-complexity-in-ai-reasoning.md#?target=_blank) &nbsp; (2025-11-24)
++++++
+- [Il segreto dell'intelligenza](il-segreto-dell-intelligenza.md#?target=_blank) &nbsp; (2025-11-20)
++++++
+- [How to use Katia for educating Katia](how-to-use-katia-for-educating-katia.md#?target=_blank) &nbsp; (2025-10-28)
++++++
+- [How to use Katia for improving Katia](how-to-use-katia-for-improving-katia.md#?target=_blank) &nbsp; (2025-10-25)
++++++
+- [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md#?target=_blank) &nbsp; (2025-10-05)
++++++
+- [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
++++++
+- [Human knowledge and opinions challenge](the-human-knowledge-opinions-katia-module.md#?target=_blank) &nbsp; (2025-07-28)
++++++
+- [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
++++++
+- [The journey from the humans ethics to the AI's faith](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html) &nbsp; (2025-02-07)
 
 +
 
