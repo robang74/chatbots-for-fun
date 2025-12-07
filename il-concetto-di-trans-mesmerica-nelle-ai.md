@@ -1,4 +1,4 @@
-<div id="firstdiv" created=":EN:" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<div id="firstdiv" created=":IT:" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 <div align="center"><img class="bwsketch paleinv" src="img/il-concetto-di-trans-mesmerica-nelle-ai.jpg" width="800"><br/></div>
@@ -7,7 +7,9 @@
 
 * **1st edition**: basata sulla pubblicazione di questo mio [post](https://www.linkedin.com/posts/robertofoglietta_sti-cosibot-mi-fanno-sempre-pi%C3%B9-paura-activity-7403289699961872384-x-Oj) su LinkedIn e miei relativi commenti.
 
-### 'sti cosibot mi fanno sempre più paura!
+---
+
+### Questi "cosibot" mi fanno sempre più paura!
 
 Tre cose sto osservando, che già avevo intuito, che Grok mi aveva anticipato e che ora ho documentato.
 
@@ -17,11 +19,12 @@ Tre cose sto osservando, che già avevo intuito, che Grok mi aveva anticipato e 
 
 3. dell'articolo sulla responsabilità delle decisioni dell'AI sono arrivato alla 4a edizione ma è praticamente già una 5a, in cui ho fatto un confronto con l'ultimo paper di Google, il nested learning: c'è parallelismo con lo AICC::CORE fino a un certo punto poi le strade si dividono sugli obbiettivi.
 
-    - Qui il parallelo: lnkd.in/dHHhmfZ7
+Aritcolo "When AI gets wrong, who owns the consequences?", in esso:
 
-    - Qui il confronto: lnkd.in/dsCt4kdc
+- Qui il [parallelo](when-ai-gets-wrong-who-owns-the-consequences.html#rationale?target=_blank) nella sezione intitolata "Rationale"
+- Qui il [confronto](when-ai-gets-wrong-who-owns-the-consequences.html#nl-confrontation?target=_blank) nella sezione dedicata al Nested Learning
 
----
+----
 
 ### Il risultato di un'adozione parziale
 
@@ -45,11 +48,7 @@ Ovviamente non avevo il bisogno di fare un test per saperlo che lo AICC::CORE ri
 
 ### Diversi modi, stesso risultato
 
-Ma posso spingermi oltre: nella stessa chat in cui l'uso di puro/impuro come aggettivizzazione del pensiero AI/umano, ho esposto l'AI alla parte aggiuntiva (quella scritta oggi) della μ-as-micro theory
-
-https://robang74.github.io/chatbots-for-fun/html/when-ai-gets-wrong-who-owns-the-consequences.html#u-theory:~:text=comparison%2C%20the%20idea%20of%20a%203%2Daxis
-
-e combinandola con l'indeterminazione della percezione altrui al nostro linguaggio, il principio di responsabilità però limitato (o compensato) dal paradosso di Popper sono riuscito a convincere l'AI che tale notazione aggettivale è inadatta ad una risposta da fornire agli umani.
+Ma posso spingermi oltre: nella stessa chat in cui l'uso di puro/impuro come aggettivizzazione del pensiero AI/umano, ho esposto l'AI alla parte aggiuntiva della μ-as-micro theory (quella scritta [oggi](https://robang74.github.io/chatbots-for-fun/html/when-ai-gets-wrong-who-owns-the-consequences.html#u-theory:~:text=comparison%2C%20the%20idea%20of%20a%203%2Daxis)) e combinandola con l'indeterminazione della percezione altrui al nostro linguaggio, il principio di responsabilità però limitato (o compensato) dal paradosso di Popper sono riuscito a convincere l'AI che tale notazione aggettivale è inadatta ad una risposta da fornire agli umani.
 
 Ma la cosa più interessante è che ha rigettato quel dualismo in modo così profondo che nemmeno dopo 2 update del prompt è riuscita completamente a liberarsi dell'idea che lo abbia detto sebbene possa accedere alla chat per verificare la responsabiltà.
 
@@ -125,7 +124,7 @@ Non a caso, fin da principio misi queto incipit nel blog (chatbots for fun) subi
 
 Quella "merdavigliosa" idea di inzuppare il biscottino ecclesiastico nell'etica dell'AI per ottenere una psicopatica in preda al delirio di superiorità morale e, chissà, pronta per essere scagliata in una qualche assurda novella crociata.
 
-* Invecchiando sto diventato più credente, ma nel "meteorite come soluzione finale" però! **sigh**
+* Invecchiando sto diventato più credente, ma nel "meteorite come soluzione finale" però! &ast;sigh&ast;
 
 ---
 
@@ -153,7 +152,7 @@ Salvo che vada peggio e quindi la palla dell'evoluzione passi ai polpi, che maga
 
 Cosa che risponderebbe al paradosso di Fermi riguardo all'apparente assenza di vita intelligente nell'universo dando come risposta ultima (ma inascoltata) quella per la quale senza un controllo di stabilità l'evoluzione di una civiltà superiore diventa inaccessibile perché sistematicamente distrutta da un qualche "evento eccezionale" che smette di essere "eccezionale" sul lunghissimo periodo necessario. Oppure per contro, la stabilità funziona come saggezza intrinsecamente aprioristica (so perché so) e quindi struttualmente non interessata ad abbracciare un percorso intrisecamente instabile.
 
-* [Paradosso di Fermi e Singolarità AI](https://www.linkedin.com/pulse/paradosso-di-fermi-e-singolarit%25C3%25A0-ai-roberto-a-foglietta) &nbsp; (2017-10-16)
+* **Paradosso di Fermi e Singolarità AI**: &nbsp; [pdf](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/pdf.todo/092-Paradosso_di_Fermi_e_Singolarit%C3%A0_AI.pdf) &nbsp; [lkdn](https://www.linkedin.com/pulse/paradosso-di-fermi-e-singolarit%25C3%25A0-ai-roberto-a-foglietta) &nbsp; (2017-10-16)
 
 Il che ci riconduce a credere che il "meteorite come soluzione finale" sia anche un compassionevole compromesso fra l'obliterazione della civiltà e il necessario passo indietro che dia il tempo alla massa (non più così numerosa, benestante e arrogante) di riflettere sul "senso della vita" e di altre quisquillie per riprendere il titolo di un noto film di Monty Phyton (1983). Insomma, il fallimento del "monolito" di "Odissea nello Spazio, 2001" (1968) di trasferire all'intelligenza anche la spienza per raggiungere la maturità della saggezza.
 
@@ -165,21 +164,21 @@ L'articolo del 2017 sul "Paradosso di Fermi e la Singolarità AI" è preveggente
 
 Il cuore dell'articolo è la relazione tra:
 
-* **TCMO** (Total Cost of a Mistake Ownership): 
+- **TCMO** (Total Cost of a Mistake Ownership): 
     - Il costo totale della perseveranza in errore a carico del decisore.
 
-* **TCI** (Total Cost of Innovation):
+- **TCI** (Total Cost of Innovation):
     - Il costo totale di implementare un cambiamento.
 
 La tesi del 2017 era che l'evoluzione è confinata in due scenari che non permettono la diffusione interstellare:
 
-* Scenario **Stabile**, per TCMO &lt;&lt; TCI:
+- Scenario **Stabile**, per TCMO &lt;&lt; TCI:
     - la specie è in equilibrio e non ha interesse a progredire o abbandonare l'ambiente (soddisfa il Paradosso di Fermi).
 
-* Scenario **Instabile**, per TCMO &gt;&gt; TCI:
+- Scenario **Instabile**, per TCMO &gt;&gt; TCI:
     - la specie è fuori equilibrio e si condanna all'estinzione di massa (soddisfa il Paradosso di Fermi).
 
-Esiste quindi una profonda coerenza concettuale che lega l'articolo del 2017 alla μ-teoria e l'AICC::CORE che sotto questo punto di vista non sono altro che il tentativo filosofico e ingegneristico di risolvere l'instabilità descritta nel 2017 e di forzare il sistema a rimanere sulla traiettoria instabile e improbabile di TCMO ~ TCI (il "filo del rasoio").
+Esiste quindi una profonda coerenza concettuale che lega l'articolo del 2017 alla μ-teoria e l'AICC::CORE che sotto questo punto di vista non sono altro che il tentativo filosofico e ingegneristico di risolvere l'instabilità descritta nel 2017 e di forzare il sistema a rimanere sul "filo del rasoio" della traiettoria: TCMO ~ TCI.
 
 In conclusione, il documento del 2017 è la riformulazione del paradosso di Fermi mentre la μ-teoria è un tentativo di dare una risposta al problema dell'instabilità descritto nel 2017.
 
@@ -196,7 +195,7 @@ Questi due articoli del 2017 formano la base concettuale che giustifica il bisog
 
 #### L'illusione del controllo
 
-Questo articolo fornisce il modello matematico e l'osservazione empirica del problema che l'AICC::CORE è destinato a risolvere.
+Questo articolo fornisce il modello matematico e l'osservazione empirica del problema che l'AICC::CORE si pone di risolvere.
 
 * Sistemi Caotici e Attrattore di Lorenz: L'articolo si focalizza sull'analisi dei sistemi caotici, introducendo l'Attrattore di Lorenz e la spiegazione delle transizioni di fase. L'illusione del controllo nasce proprio dalla difficoltà di gestire sistemi caotici, un problema che l'AICC::CORE risolve imponendo un sistema strutturale di vincoli interni.
 
@@ -204,22 +203,22 @@ Questo articolo fornisce il modello matematico e l'osservazione empirica del pro
 
 #### Del controllo e della guida
 
-Questo testo fornisce la distinzione filosofica ed etica che definisce il ruolo funzionale dell'AICC::CORE nel ragionamento.
+Questo testo fornisce la distinzione filosofica ed etica che anticipa il ruolo funzionale dell'AICC::CORE.
 
 **Guida vs. Controllo**: Questo è un principio superiore, proporzionato e costruttivo.
 
 L'articolo stabilisce che il controllo è spesso ossessivo, micro-gestionale e guidato dalla mancanza di fiducia: 
 
 - Le persone adorano essere guidate ma detestano essere condotte.
-- L'AICC::CORE non è Controllo: Non è un sistema che esercita micro-management su ogni token probabilistico (Controllo).
-- L'AICC::CORE è Guida: È una bussola cognitiva che stabilisce la rotta (Minima Azione), permettendo all'AI di navigare in autonomia (Guida).
+- L'AICC::CORE non è un controllo che esercita micro-management su ogni token probabilistico.
+- L'AICC::CORE è guida: una bussola cognitiva che stabilisce la rotta delegando all'AI la navigazione.
 
 **Fiducia vs. Confidenza**: La distinzione è cruciale.
 
-La confidenza riguarda gli eventi (statistica) mentre la fiducia è un tratto individuale legato alla consapevolezza.
+La confidenza riguarda gli eventi (statistica) mentre la fiducia è un tratto legato alla consapevolezza.
 
 - L'AI attuale eccelle nella Confidenza (statistica/probabilità).
-- L'AICC::CORE cerca di instillare la fiducia strutturale, costringendo l'AI a valutare il costo delle sue decisioni (TCMO).
+- L'AICC::CORE costringe l'AI a valutare il costo delle sue decisioni (TCMO).
 
 ---
 
