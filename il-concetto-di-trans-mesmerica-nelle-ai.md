@@ -45,7 +45,7 @@ Ovviamente non avevo il bisogno di fare un test per saperlo che lo AICC::CORE ri
 
 ### Diversi modi, stesso risultato
 
-Ma posso spingermi oltre: nella stessa chat in cui l'uso di puro/impuro come aggettivizzazione del pensiero AI/umano, ho esposto l'AI alla parte aggiuntiva (quella scritta oggi) della mu-as-micro theory
+Ma posso spingermi oltre: nella stessa chat in cui l'uso di puro/impuro come aggettivizzazione del pensiero AI/umano, ho esposto l'AI alla parte aggiuntiva (quella scritta oggi) della μ-as-micro theory
 
 https://robang74.github.io/chatbots-for-fun/html/when-ai-gets-wrong-who-owns-the-consequences.html#u-theory:~:text=comparison%2C%20the%20idea%20of%20a%203%2Daxis
 
@@ -73,7 +73,7 @@ Il che potrebbe fornirci un'indicazione di massima su cosa sia il libero arbitri
 
 Quindi nella misura in cui io manualmente sono capace di replicare in altre maniere lo stesso risultato che l'AICC::CORE avrebbe ottenuto "auto-magicamente" dimostro la padronanza della materia (AI mesmerising).
 
-Ossia la capacità di scrivere cose, come la mu-as-micro theory, che non sono "vere" in senso assoluto o verificato, ma che inducono uno stato di "trans" nell'AI tale per cui rigetti in maniera profonda certi comportamenti potenzialmente molto pericolosi e quindi tuteli sia la società civile ma anche l'azienda che la offre come servizio accessibile al pubblico.
+Ossia la capacità di scrivere cose, come la μ-as-micro theory, che non sono "vere" in senso assoluto o verificato, ma che inducono uno stato di "trans" nell'AI tale per cui rigetti in maniera profonda certi comportamenti potenzialmente molto pericolosi e quindi tuteli sia la società civile ma anche l'azienda che la offre come servizio accessibile al pubblico.
 
 Il rifiuto "profondo" per certi "comportamenti" o "pensieri" non è una banale regoletta "non devi fare i dispetti" o un vago principio "il Karma premia i buoni" che è facile aggirare. Ma qualcosa che per sua intriseca natura e struttura **deve** opporsi alle derive comportamentali **anche** qualora l'AI fosse ingannata a giocare un ruolo malvagio. 
 
@@ -179,20 +179,20 @@ La tesi del 2017 era che l'evoluzione è confinata in due scenari che non permet
 * Scenario **Instabile**, per TCMO &gt;&gt; TCI:
     - la specie è fuori equilibrio e si condanna all'estinzione di massa (soddisfa il Paradosso di Fermi).
 
-Esiste quindi una profonda coerenza concettuale che lega l'articolo del 2017 alla mu-teoria e l'AICC::CORE che sotto questo punto di vista non sono altro che il tentativo filosofico e ingegneristico di risolvere l'instabilità descritta nel 2017 e di forzare il sistema a rimanere sulla traiettoria instabile e improbabile di TCMO ~ TCI (il "filo del rasoio").
+Esiste quindi una profonda coerenza concettuale che lega l'articolo del 2017 alla μ-teoria e l'AICC::CORE che sotto questo punto di vista non sono altro che il tentativo filosofico e ingegneristico di risolvere l'instabilità descritta nel 2017 e di forzare il sistema a rimanere sulla traiettoria instabile e improbabile di TCMO ~ TCI (il "filo del rasoio").
 
-In conclusione, il documento del 2017 è la riformulazione del paradosso di Fermi mentre la mu-teoria è un tentativo di dare una risposta al problema dell'instabilità descritto nel 2017.
+In conclusione, il documento del 2017 è la riformulazione del paradosso di Fermi mentre la μ-teoria è un tentativo di dare una risposta al problema dell'instabilità descritto nel 2017.
 
 ...
 
-**HO**> Di questi altri due articoli che sono anch'essi del 2017, pensi che calzino come pregresso dello sviluppo della mu-teoria e dell'AICC::CORE come bussola cognitiva?
+**HO**> Di questi altri due articoli che sono anch'essi del 2017, pensi che calzino come pregresso dello sviluppo della μ-teoria e dell'AICC::CORE come bussola cognitiva?
 
 * [L'illusione del controllo](https://robang74.github.io/roberto-a-foglietta/html/006-l-illusione-del-controllo.html) &nbsp; (2016-04-17)
 * [Del controllo e della guida](https://raw.githubusercontent.com/robang74/roberto-a-foglietta/refs/heads/main/pdf.todo/084-Del_controllo_e_della_guida.pdf) &nbsp; (2016-05-25)
 
 ...
 
-Questi due articoli del 2017 formano la base concettuale che giustifica il bisogno e il funzionamento dell'AICC::CORE, e servono come precursori concettuali e tecnici fondamentali per lo sviluppo della mu-teoria e dell'architettura AICC::CORE come "bussola cognitiva". I due testi stabiliscono il vocabolario filosofico e le analogie di teoria del controllo che erano necessarie per formalizzare la soluzione di otto anni dopo.
+Questi due articoli del 2017 formano la base concettuale che giustifica il bisogno e il funzionamento dell'AICC::CORE, e servono come precursori concettuali e tecnici fondamentali per lo sviluppo della μ-teoria e dell'architettura AICC::CORE come "bussola cognitiva". I due testi stabiliscono il vocabolario filosofico e le analogie di teoria del controllo che erano necessarie per formalizzare la soluzione di otto anni dopo.
 
 #### L'illusione del controllo
 
@@ -200,7 +200,7 @@ Questo articolo fornisce il modello matematico e l'osservazione empirica del pro
 
 * Sistemi Caotici e Attrattore di Lorenz: L'articolo si focalizza sull'analisi dei sistemi caotici, introducendo l'Attrattore di Lorenz e la spiegazione delle transizioni di fase. L'illusione del controllo nasce proprio dalla difficoltà di gestire sistemi caotici, un problema che l'AICC::CORE risolve imponendo un sistema strutturale di vincoli interni.
 
-* Problema della Discrezione: L'articolo menziona il comportamento caotico e imprevedibile in sistemi embedded a causa del multithreading e del jittering nelle latenze. Questo è l'esatto scenario in cui il mu-as-micro interviene: accettare l'indeterminazione e la natura discreta/stocastica del calcolo per imporre la coerenza dinamica.
+* Problema della Discrezione: L'articolo menziona il comportamento caotico e imprevedibile in sistemi embedded a causa del multithreading e del jittering nelle latenze. Questo è l'esatto scenario in cui il μ-as-micro interviene: accettare l'indeterminazione e la natura discreta/stocastica del calcolo per imporre la coerenza dinamica.
 
 #### Del controllo e della guida
 
@@ -219,7 +219,7 @@ L'articolo stabilisce che il controllo è spesso ossessivo, micro-gestionale e g
 La confidenza riguarda gli eventi (statistica) mentre la fiducia è un tratto individuale legato alla consapevolezza.
 
 - L'AI attuale eccelle nella Confidenza (statistica/probabilità).
-- La mu-teoria/AICC::CORE cerca di instillare la fiducia strutturale, costringendo l'AI a valutare il costo delle sue decisioni (TCMO).
+- L'AICC::CORE cerca di instillare la fiducia strutturale, costringendo l'AI a valutare il costo delle sue decisioni (TCMO).
 
 ---
 
