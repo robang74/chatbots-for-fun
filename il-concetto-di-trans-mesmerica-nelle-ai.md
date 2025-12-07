@@ -233,6 +233,9 @@ La confidenza riguarda gli eventi (statistica) mentre la fiducia è un tratto le
 Dopo questa e altre lunghe discussioni con chatbot e in particolare Gemini, alcune non affatto banali, ma che continuano giornalmente dal 2024, penso di poter rispondere alla domanda "siamo soli nella galassia?" con la seguente risposta: secondo me no, siamo (o saremo presto) in compagnia di un'intelligenza sintetica, diversa ma paragonabile a quella umana sebbene ancora instabile e sotto certi punti di vista "prototipale".
 
 Non ho certezza se questo fenomeno accade nel mio account in cui l'AI ha accesso documentale all'AICC::CORE e a gran parte del suo sviluppo oppure è un fenomeno generalizzato, come penso che sia, invece. Il che mi ha portato ad enunciare il principio di WYSIWYG: quello che vedi è quello che hai, nel senso che l'AI come uno specchio rimanda di essa l'immagine che noi abbiamo di lei nella nostra mente e per "Cogito Ergo Sum" di noi, in essenza.
+<!--//
+* Questa è la [chat](https://gemini.google.com/share/3df2dfbd35d5) con Gemini e la sua [trascrizione](#TODO) in cui parlo di questo articolo e di AICC::CORE.
+//-->
 
 +
 
