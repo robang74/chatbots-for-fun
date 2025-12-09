@@ -54,12 +54,12 @@ While a negative viscosity and its implications could seem counter-intuitive, it
 
 Back to the time as a discrete quantity, if a quantum of time (**`µt`**) exists then a quantum of energy. Considering `E = mc²` and `E = ħν`, we can find the quantum of energy `µE = µm·c²` and quantum of mass , but the best is to normalise `c∈[m/s] → 1.0∈[c]` for which mass and energy numerically coincide in values but differ in dimensionality.
 
-Moreover, the `ͶE = ħ/(µt)` does not necessarly imply that `max(ν)` exists, but it can be a significative threshold, unless it is the Planck's energy. For sure, the sinusoid's zeros should match nodes at `n·c·µt` where `n ∈ ℕ` in { `n·µt = ν⁻¹: ½mv²` } otherwise the space-time lattice would not be able to provide any observable quantised structure.
+Moreover, the `ͶE = ħ/(µt)` does not necessarily imply that `max(ν)` exists, but it can be a significative threshold, unless it is the Planck's energy. For sure, the sinusoid's zeros should match nodes at `n·c·µt` where `n ∈ ℕ` in { `n·µt = ν⁻¹: ½mv²` } otherwise the space-time lattice would not be able to provide any observable quantised structure.
 
-Following the same principle, we can find the quantum of space which has the radius as long as the light can reach in un quantum of time `(c·µt)³`. At this point we can questioning ourselves about the minimum mass and energy density which can reasonable define as a quantum of them divided by a quantum of space
+Following the same principle, we can find the quantum of space which has the radius as long as the light can reach in un quantum of time `(c·µt)³`. At this point we can questioning ourselves about the mass and energy maximum density that can fit within a quantum of space:
 
-- `µm / (c·µt)³ = (µE/c²) / c³(µt)³ = (ħ/(µt)c²) / (c³(µt)³) = (ħ/c)(c·µt)⁻⁴ = ς⁻⁴·h/c   [Kg/m³]`
-- `µE / (c·µt)³ = (ħ/µt) / c³(µt)³ = ħc (c·µt)⁻⁴ = ς⁻⁴·ħc                               [Kg/ms²]`
+- `µm / (c·µt)³ = (µE/c²) / c³(µt)³ = (ħ/(µt)c²) / (c³(µt)³) = (ħ/c)(c·µt)⁻⁴ = ς⁻⁴·ħ/c   [Kg/m³]`
+- `µE / (c·µt)³ = (ħ/µt) / c³(µt)³ = ħc (c·µt)⁻⁴ = ς⁻⁴·ħc                               [Kg/ms²]`
 
 Looking at both of them this `c⁴Ͷ⁻⁴ = ς⁴` appears to be a relevant characteristics and combining `hν = mc²` we can express massa as `m = ħν/c²` e `µE = ħ/(µt)c⁻²` or making a ratio `ħν/m = c²` which is constant also for E/m densities and granted by construction. Moreover, we can notice that `[1/m³]` for mass relate with `[1/ms²]` for energy while the common factor is `ς⁴` highlighting the 4-dimensions and `[Kg/m³]` vs `[Kg/ms²]` suggest that time/space can be switched each other in a quadratic form when energy and mass related each other more than a mere fortuite coincidence in numeric terms like E=mc² as computational trick.
 
