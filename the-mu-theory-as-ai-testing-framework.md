@@ -52,7 +52,9 @@ While a negative viscosity and its implications could seem counter-intuitive, it
 
 - By the way, this scenario would also imply that effectively we **might** be living in a simulation.
 
-Back to the time as a discrete quantity, if a quantum of time (**`µt`**) exists then a quantum of energy. By the way, considering `E = ħν = ħ/(µt)`, it does not imply that `max(ν) `exists. Anyway, the sinusoid's zeros should match nodes at `n·c·µt` where `n ∈ ℕ` in { `n·µt = ν⁻¹: ½mv²` }. Despite this, `Ͷ = 1/(µt)` is significative as a threshold. Considering `E = mc²`, we can find the quantum of mass, but the best is to normalise `c∈[m/s] → 1.0∈[c]` for which mass and energy numerically coincide in values but differ in dimensionality.
+Back to the time as a discrete quantity, if a quantum of time (**`µt`**) exists then a quantum of energy. Considering `E = mc²` and `E = ħν`, we can find the quantum of energy `µE = µm·c²` and quantum of mass , but the best is to normalise `c∈[m/s] → 1.0∈[c]` for which mass and energy numerically coincide in values but differ in dimensionality. While the `ϖE = ħ/(µt)` does not imply that `max(ν)` exists.
+
+Moreover, considering `E = ħν = ħ/(µt)` is numerically hard to deal by float point calculation, a normalising `ϖ∈[J] → 1.0∈[ϖE] => ħ[J·s] → µt∈[s⁻¹]` where `ϖE = ħ/(µt)` which does not imply that `max(ν)` exists. Instead, the sinusoid's zeros should match nodes at `n·c·µt` where `n ∈ ℕ` in { `n·µt = ν⁻¹: ½mv²` }. Despite this, `Ͷ = 1/(µt)` is significative as a threshold.
 
 Following the same principle, we can find the quantum of space which has the radius as long as the light can reach in un quantum of time `(c·µt)³`. At this point we can questioning ourselves about the minimum mass and energy density which can reasonable define as a quantum of them divided by a quantum of space
 
