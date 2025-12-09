@@ -161,9 +161,27 @@ Infine pare che di Minkowski non si conoscevano bene le origini della genealogia
 
 C'era una ragione storico-politica per preferire Einstein a Minkowski, e a non cambiare quella scelta. Ciò non significa che la Scienza faccia politica, ma che la politica non è scienza ma solo convenienza, e se ne infischia della scienza.
 
-
 ---
 
+### Allora, la notazione di Minkowski, perché no?
+
+- section written initially in one of my posts published on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_the-%C2%B5t-minkowski-metric-and-the-special-relativity-activity-7404085130195177472-OvmI) and Facebook.
+
+La notazione di Minkowski è matematicamente molto più elegante perché rispetto alla gemella in cui è la tri-componente spazio ad essere reale e il tempo è immaginario, si ritorna a lavorare in uno spazio euclideo (e non pseudo-euclideo). Però si oppone alla costruzione della teoria Generale della Relatività quindi o si abbandona Minkowski o si abbandona Einstein.
+
+Poi, la notazione di Minkowski, Gemini sostiene, che tale notazione rende più astruso o meno immediato calcolare la rotazione di Wick che ha sua volta servirebbe per semplificare i calcoli quindi se il "trucco" di semplificare non è esso stesso semplice non serve.
+
+Ergo o si abbandona Minkowski o si abbandona la rotazione di Wick e quindi la meccanica quantistica relativistica in quella specifica forma che per altro non permette di unire la GR con la meccanica quantistica. Quindi torniamo al punto di partenza: o abbracciamo lo spazio Euclideo oppure continuiamo ad avere complicazioni che non convergono in un'unica teoria coerente.
+
+Ad un informatico che NON dà un valore esistenziale alla natura delle equazioni e delle notazioni, mi pare molto chiaro quale sia il problema, ad Einstein non poteva essere dato torto. Da fisico del 2025, non del 1915-65, la penso nello stesso identico modo: avremmo dovuto dialogare con la sua prima moglie per capire meglio la teoria della relatività e invece NON abbiamo capito nemmeno la meccanica quantistica.
+
+Infine e questo è "drammatico" perché antropomorfico-centrico nella sua massima essenza: la notazione di Minkowski permette al tempo di essere un'asse simmetrico nel suo evolvere. Ossia non ha una direzione "naturale" come quella che noi osserviamo ma che non è implicita nella meccanica relativistica, anch'essa contro-intuitiva, e neanche nelle equazioni di Maxwell che sono T-simmetriche. Perché allora non la relatività ristretta?
+
+Quindi abbiamo rinunciato alla notazione di Minkowski che ci permetteva di avere uno spazio euclideo per la meccanica relativistica e gestire le invarianti tempo nella meccanica quantistica, perché a un tipo strano che faceva il bibliotecario non si poteva dare torto.
+
+Forse, è venuto il momento dopo 100 anni che un tizio strano che faceva l'informatico privo di una reputazione accademica da difendere, si prenda la briga di relegare l'interpretazione di Einstein ai libri di storia della scienza e a riportare in auge la notazione di Minkowski.
+
+Nella quale è il tempo a essere reale, e imponendo il vincolo discreto come fosse un dogma di natura ossia una struttura connaturata allo spazio-tempo ossia che il tempo sia **strutturalmente** discreto allora otteniamo come risultato che la relatività ristretta emerge dalla stessa notazione di Minkowski ossia dalle caratteristiche euclidee dello spazio-tempo in 4D.
 
 +
 
