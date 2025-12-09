@@ -625,7 +625,7 @@ Considering the need to test the [AICC::CORE](#TODO) drift in guiding the CoT (C
 
 This approached allowed me to conduct a series of different tests like:
 
-- single run test of comprehension and critical thinking vs [sycophancy](hla-sycophancy-nell-intelligenza-artificiale.md#?target=_blank) in answering
+- single run test of comprehension and critical thinking vs [sycophancy](la-sycophancy-nell-intelligenza-artificiale.md#?target=_blank) in answering
 - few turns test about incremental changes for testing the evolution of the answering
 - debating test, how the AI would elaborate the feedback both corrective and supportive
 
