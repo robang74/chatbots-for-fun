@@ -52,9 +52,9 @@ While a negative viscosity and its implications could seem counter-intuitive, it
 
 - By the way, this scenario would also imply that effectively we **might** be living in a simulation.
 
-Back to the time as a discrete quantity, if a quantum of time (**`µt`**) exists then a quantum of energy. Considering `E = mc²` and `E = ħν`, we can find the quantum of energy `µE = µm·c²` and quantum of mass , but the best is to normalise `c∈[m/s] → 1.0∈[c]` for which mass and energy numerically coincide in values but differ in dimensionality. While the `ϖE = ħ/(µt)` does not imply that `max(ν)` exists.
+Back to the time as a discrete quantity, if a quantum of time (**`µt`**) exists then a quantum of energy. Considering `E = mc²` and `E = ħν`, we can find the quantum of energy `µE = µm·c²` and quantum of mass , but the best is to normalise `c∈[m/s] → 1.0∈[c]` for which mass and energy numerically coincide in values but differ in dimensionality.
 
-Moreover, considering `ϖE = ħ/(µt)` is numerically hard to deal by float point calculation, a normalising `ϖ∈[J] → 1.0∈[ϖE] => ħ[J·s] → µt∈[s⁻¹]`. This does not imply that `max(ν)` exists. Instead, the sinusoid's zeros should match nodes at `n·c·µt` where `n ∈ ℕ` in { `n·µt = ν⁻¹: ½mv²` }. Despite this, `Ͷ = 1/(µt)` is significative as a threshold.
+Moreover, the `ͶE = ħ/(µt)` does not necessarly imply that `max(ν)` exists, but it can be a significative threshold, unless it is the Planck's energy. For sure, the sinusoid's zeros should match nodes at `n·c·µt` where `n ∈ ℕ` in { `n·µt = ν⁻¹: ½mv²` } otherwise the space-time lattice would not be able to provide any observable quantised structure.
 
 Following the same principle, we can find the quantum of space which has the radius as long as the light can reach in un quantum of time `(c·µt)³`. At this point we can questioning ourselves about the minimum mass and energy density which can reasonable define as a quantum of them divided by a quantum of space
 
