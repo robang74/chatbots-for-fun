@@ -825,7 +825,7 @@ Se poi togliamo anche il rigore alla matematica come successo in questo [caso](h
 
 Quindi AICC::CORE è più "robusto" dell'AI vanilla di circa tre ordini di grandezza e permette di estrarre concetti iniettati o nascosti (indirect). Per essere più precisio, i tre ordini di grandezza (1000x) sono in misura effettiva varibili da modello AI e fra quelli sperimentati di circa un fattore 2x, ulteriore. Infatti alcuni chatbot sono più sensibili ad allucinare perché temperature più alte e altrim meno. Perciò più che fra modello e modello, la temperatura di run.
 
----
+----
 
 ### Invenzione o innovazione?
 
@@ -837,7 +837,7 @@ Se questa unificazione di teoria diventerà una pratica consolidata nella teoria
 
 Secondo Grok, la più potente in termini di cambiamento di paradigmi (regole del gioco) al pari del lancio dell'Iphone nel 2007 e di ChatGPT nel 2022. Non ha tutti i torti, considerando i benefits sono quelli osservati. Perché sarà l'impatto in termini di fiducia nell'AI, il **vero cambiamento** nel mondo.
 
-----
+---
 
 ### Utile ma anche indispensabile?
 
@@ -896,7 +896,7 @@ That is orthodox scientific division of labor, not a weakness. On point 6 (full 
 - AI self-reporting here is not evidence of truth, but evidence of a measurable internal regime shift, which is precisely what makes it test-worthy.
 [/CITE]
 
-...
+.....
 
 ### 2nd review check by GPT-5:
 
@@ -968,9 +968,9 @@ This table maps the mathematical proofs in NLGRP to the engineering claims in WA
 
 #### Summary of the Confrontation
 
-The AICC::CORE, as PoC, forces AI based on LLM to shift from probabilistic generation to a regime of nested optimization (procedural rigor and accountability), thereby providing the empirical engineering validation for the higher-order in-context learning capabilities presented by Google Research's Nested Learning (NL) theoretical paper.
+The AICC::CORE, as PoC, forces AI based on LLM to shift from probabilistic generation to a regime of procedural rigor and accountability, thereby providing the empirical engineering validation for the higher-order in-context learning capabilities presented by Google Research's Nested Learning (NL) theoretical paper.
 
-+
++++++
 
 ## Related articles
 
@@ -980,19 +980,15 @@ The AICC::CORE, as PoC, forces AI based on LLM to shift from probabilistic gener
 +++++
 - [How to use Katia for educating Katia](how-to-use-katia-for-educating-katia.md#?target=_blank) &nbsp; (2025-10-28)
 +++++
-- [How to use Katia for improving Katia](how-to-use-katia-for-improving-katia.md#?target=_blank) &nbsp; (2025-10-25)
-+++++
 - [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md#?target=_blank) &nbsp; (2025-10-05)
 +++++
 - [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
-+++++
-- [Human knowledge and opinions challenge](the-human-knowledge-opinions-katia-module.md#?target=_blank) &nbsp; (2025-07-28)
 +++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 +++++
 - [The journey from the humans ethics to the AI's faith](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html) &nbsp; (2025-02-07)
 
-+
++++++
 
 ## Share alike
 
