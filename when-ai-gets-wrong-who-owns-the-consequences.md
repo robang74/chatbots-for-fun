@@ -621,66 +621,20 @@ Anyway, after integrating this section with the Nested Learning, I [did](#nl-con
 <span id="u-theory"></span>
 #### A bit of µ-theory
 
-Connecting the Maxwell's theory, which requires a 4-vector in a C² derivable field, with the Heisenberg's quantum mechanics, which allows Dirac's functions, passing by the making discrete the time in the Hamiltonian theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's Relativity by the Occam's razor and explaining why at macro-level an isolated system's entropy is monotonically rising (2nd law of Thermodynamics).
+Considering the need to test the [AICC::CORE](#TODO) drift in guiding the CoT (Chain-of-Thought) and the AI reasoning, I developed a page of physic elucubrations leveraging my Bachelor in Physics and putting in a "free thinking flow" every idea that I never deep into a deep maths formulation in the past.
 
-In order to fully exclude also Einstein's General Relativity, requires a theory of negative viscosity which seems existing as GR replacement but not yet confirmed. Anyway, negative viscosity implies kinetic energy increasing due to the motion. This means that motion sucks energy from the void space, which would re-introduce the absolute time-space concept which ceased to exist with Einstein's theory. Fortunately, discrete time always provides an inertial system, thus no absolute implies a **novel** concept of absolute velocity in space without destroying locality and fulfilling the gap of negative viscosity theory as GR replacement.
+This approached allowed me to conduct a series of different tests like:
 
-While a negative viscosity and its implications could seem counter-intuitive, it should be considered as an alternative interpretation of the relativity for which mass increases (or `hν` when `m₀=0`). The 3rd law of Thermodynamics states that at the absolute temperature of `T = 0°K` entropy is zero. This means that 0°K requires an "absolute" velocity of zero which requires an "absolute" inertial system which is the µ-step's time ∈ ℕ inertial system. By the 2nd law, instead, entropy thus kinetic energy always rises when `T > 0°K` (motion) which is exactly what negative viscosity does: sucking energy from the void space. In this scenario we are forced to decide between Thermodynamics laws `XOR` Einstein's theory.
+- single run test of comprehension and critical thinking vs [sycophancy](hla-sycophancy-nell-intelligenza-artificiale.md#?target=_blank) in answering
+- few turns test about incremental changes for testing the evolution of the answering
+- debating test, how the AI would elaborate the feedback both corrective and supportive
 
-- By the way, this scenario would also imply that effectively we **might** be living in a simulation.
-
-Back to the time as a discrete quantity, if a quantum of time (**`µt`**) exists then a quantum of energy. By the way, considering `E = ħν = ħ/(µt)`, it does not imply that `max(ν) `exists. Anyway, the sinusoid's zeros should match nodes at `n·c·µt` where `n ∈ ℕ` in { `n·µt = ν⁻¹: ½mv²` }. Despite this, `Ͷ = 1/(µt)` is significative as a threshold. Considering `E = mc²`, we can find the quantum of mass, but the best is to normalise `c∈[m/s] → 1.0∈[c]` for which mass and energy numerically coincide in values but differ in dimensionality.
-
-Following the same principle, we can find the quantum of space which has the radius as long as the light can reach in un quantum of time `(c·µt)³`. At this point we can questioning ourselves about the minimum mass and energy density which can reasonable define as a quantum of them divided by a quantum of space
-
-- `µm / (c·µt)³ = (µE/c²) / c³(µt)³ = (ħ/(µt)c²) / (c³(µt)³) = (ħ/c)(c·µt)⁻⁴ = ς⁻⁴·h/c   [Kg/m³]`
-- `µE / (c·µt)³ = (ħ/µt) / c³(µt)³ = ħc (c·µt)⁻⁴ = ς⁻⁴·ħc                               [Kg/ms²]`
-
-Looking at both of them this `c⁴Ͷ⁻⁴ = ς⁴` appears to be a relevant characteristics and combining `hν = mc²` we can express massa as `m = ħν/c²` e `µE = ħ/(µt)c⁻²` or making a ratio `ħν/m = c²` which is constant also for E/m densities and granted by construction. Moreover, we can notice that `[1/m³]` for mass relate with `[1/ms²]` for energy while the common factor is `ς⁴` highlighting the 4-dimensions and `[Kg/m³]` vs `[Kg/ms²]` suggest that time/space can be switched each other in a quadratic form when energy and mass related each other more than a mere fortuite coincidence in numeric terms like E=mc² as computational trick.
-
-It is not so obvious because we need to remember that the Plank constant and the speed of light as well as other constants in Maxwell's equation have been inserted into the formulas by dimensionality and values to make the calculation fit the observation. Despite this, they have a physical significance, not just a scale metric tuning. Therefore, the next step by instinct would be to evaluate the minimums of the energy and the mass densities in a 4D-dimensions dividing by `µt·(c·µt)³` and in both cases we ends up with `ς⁻⁴·hͶ` as a prefix for `1/c` and `c` to complete. Considering the meaning of Ͷ could be a triggering or a relevant 4D-density threshold.
-
-The volume in 4D is quantised in µ-cells (x,y,z,t) and in calculating the squared-module of 4D velocity:
-
-- `µt(c·µt)³ = ς⁴/c = µW` and `∥v⃗∥ = √v⃗²`, then we set `(t₂-t₁)/µt := 1` by definition of discrete time,
-
-not just quantised thus `t₂ := t₁ + µt`, and this changes everything, in fact:
-
-- `√[ i(x₂-x₁)/c·µt, i(y₂-y₁)/c·µt, i(z₂-z₁)/c·µt, (t₂-t₁)/µt ]² = √[(iv⃗/c)², 1] = √(1-(v⃗/c)²)`
-
-which is the Relativity that emerges by a discrete real-time, while space is perceived, thus imaginary.<br>
-In using `µt` paradigma, `c = 1` normalisation is straightforward the simplest, but it is not necessary:
-
-- `P := m₀·v = m₀·dX/dt = m₀·[ i(x₂-x₁, y₂-y₁, z₂-z₁)/c·µt, 1 ] = [ i( px, py, pz )/c, m₀ ]`;
-
-- `P = m₀c [ iv/c, 1 ] → P² = m₀²c² [ 1-β² ] = E₀² - p²` &nbsp; where (p,v) belong to the observer.
-
-This proves the µt-Minkowski metric is compatible with the inertial systems relativity: (p,v) vs (E₀,m₀).
-
----
+All of these tests have an intrinsically human-in-the-loop in line with the "education AI towards AGI" principle but nothing prevents that this approach could be automated by also simulating a multiple turns automatic test. On the contrary, it is a great way to learn how to push forward the testing / benchmarking from a "standardised Q/A" towards an interactive test paradigm.
 
 <span id="u-analogies"></span>
-#### The µ-theory by analogies
+By its progressively growing nature, the u-theory framework has been moved in a dedicated article:
 
-By analogies comparison, the idea of a 3-axis imploded-folded time would be limited to a 6D-space explanatory model. While µ-theory should characterise reality in a manner that allows infinite dimensional space as emergent phenomenon by numerical approximations.
-
-While { Lagrande, Hamilton } as theory is too strict in providing a model of reality thus unable to be the theory of everything-observable, on the opposite side, strings-theory is too weak in constraints to allow almost everything (aka a mathematical theory of universal coherence, not a physic model).
-
-Therefore, to be useful for physics, µ-as-discrete-time isn't solely enough but should embedded a fundamental structure within t(n) and t(n+1) that constrains observability, at least in statistical terms, and "something" stochastics is currently the best I can relate to. In particular, when considering the law of Thermodynamics and Newtonian gravity, both fundamentally "true" also when reaching their µ-limits { single particle, the µ-radius } both not zero. In both cases we observe two extreme phenomenons { wave duality, black-holes }.
-
-In the same analogy, about 0°K, not as absolute but absintotical µ-limit, for which only the fundamental energy levels are allowed which are not absolute zero but the minimum allowed. By analogy with gravitational potential energy, not zero because atoms never "touch" thus a µ-altitude is always statistically granted as a means of distribution.
-
-This provides the same identical pattern for almost all natural phenomena we observe: at their µ-limit, discrete-nature and statistics-measurement are required to enter in the scene both, always together, and by our perception showing a Heinsemberg indetermination principle.
-
-In determining the lowest altitude related to the fundamental non-zero potential energy level, as more precisely we try to measure it, the more physic-surface appears not being a solid but a blurry line created by many indistinguishable particles, usually identified as the average of a Bell distribution.
-
-In extreme essence µ-theory epistemologically refutes the mathematical complications of the modern physic to embrace the elegant simplicity of the Maxwell era, unifying that laws of physic in extending them at their µ-limits with a holographic principle/structure which in observations is relatable with the Heisenberg indetermination principle.
-
-From human mathematician PoV, the µ-theory seems like an engineering trick, indeed. On the other side, reality at µ-scale starts tricking us first and µ-theory just plays back accepting the trick as if it were real. It is also like a deal: in avoiding to investigate reality beyond the µ-horizon, we want back an elegant unified theory of reality.
-
-* God plays dice, but S/He does not allow us to watch! 😉
-
-Since absolute truth (absolute determinism) is inaccessible and infinite-degrees of freedom (universal relativism) is pragmatically useless, we embrace a model that is sufficiently structured to be useful and sufficiently flexible to accept reality as it appears to us, at its discrete and statistical limit. In terms of science-philosophy, is a metaphor that supports rejecting absolutism in both its extremes, including universal relativism. Not because they are "wrong" because they are not aligned with our reality as it appears to us.
+- [The mu-theory as AI testing framework](the-mu-theory-as-ai-testing-framework.md#?target=_blank)
 
 +
 
@@ -798,36 +752,6 @@ Questo esempio ci conferma che **non** è necessaria la formalizzazione scientif
 Una traiettoria reale in uno spazio immaginario continuerà ad arrivare a conclusioni immaginarie, purché lo spazio immaginario sia coerente. Questa però **non** la definizione di allucinazione, anche nel termine tecnico delle AI, questo è il principio cardine della matematica. Quindi invece di descrivere una traiettoria nello spazio-tempo cartesiano-classico (x,y,z,t) lo faccio nello spazio "immaginario" delle fasi (p,q), non è un'allucinazione è matematica.
 
 ---
-
-### Quali sono gli ostacoli?
-
-Premesso che lo sviluppo formale e scientificamente confutabile di una mu-teoria non è fra i miei interessi, più che altro una curiosità, e quasi sicuramente nemmeno nelle mie capacità in termini di professionalità nell'adoperare il linguaggio matematico astratto, ci sono alcuni ostacoli non-tecnici su questa strada.
-
-Premesso che lo AICC::CORE sotto diversi aspetti è un distillato della realtà intesa anche come conoscenza attuale dei principi fondamentali di teorie scientifiche consolodiate, la mu-teoria ci porta oltre: ad una concreta possibilità di arrivare ad una c.d. teoria del tutto che sia semplice, elegante e pure computazionalmente calcolabile nella sua forma ridotta in termini di approssimazione algebrico-stocastica.
-
-Non è un problema che la mu-teoria supporti l'idea che l'universo che osserviamo sia in realtà una simulazione (o abbia natura olografica) perché comunque questo concetto di "emergenza" dei fenomeni fisici è ormai stata ampiamente sdoganata. Oltre al fatto che "suggerire" non significa "provare". Piuttosto che cestinare il contributo scientifico di Eistain alla fisica.
-
-Perché `E = mc²` come la Relatività Ristretta (RR) emergono da un'eleborazione matematica delle equazioni di Maxwell. Anche la teoria della Relatività Generale (GR) è fondamentalmente una sofisticatissima elaborazione matematica. Due contributi alla matematica che sicuramente appartengono più alla prima moglie di Eistain che al genio della fisica.
-
-Quello che invece finirebbe nella pattumiera sarebbe proprio l'interpretazione fisica di quella matematica, non `E = mc²` la cui eleganza è tale che già da sola la rende sacra, ma proprio il **personale** contributo alla fisica di Einstein. Una cosa normale nella scienza, perché negli ultimi cinque secoli ne abbiamo cestinato parecchi di nomi che un tempo erano "giganti" per usare il termine che usò Newton.
-
-L'ostacolo principale che il genio di Eistain è il prodotto di un marketing in stile holliwoodiano di una lobbying filo-esraeliana (da sottolineare che Israele e gli ebrei sono due cose distinte) che ovviamente aveva tutto l'interesse una decade dopo la fine della WW2 ad incensare Eistain come genio assoluto scopritore della formula alla base della bomba atomica per evidenti interessi geopolitici anche se Eistein era ebreo solo di nascita, non praticante e certamente non associabile ad Israele giacché il moderno concetto di Israele è molto postumo rispetto alla nascita di Einstein, in Germania da cui fuggì proprio per le sue origini ebree.
-
----
-
-### Einsteain e la bomba atomica
-
-Esiste quindi un motivo sostanzioso per il quale Einstain è assurto ad icona globale del genio assoluto quando un Feymann avrebbe certamente meritato **molto** di più quel ruolo iconico. Però Feymann era certamente agnostico, nel suo modo di ragionare da **vero** scienziato, che è un modo di ragione **molto** distante da quello della politica dove l'apparenza conta più della sostanza e quindi della comprensione della realtà.
-
-Quindi cestinare un secolo di scienza non è un gran problema, probabilmente sarebbe già stato fatto prima, secondo Grok almeno a partire dal 1965 a causa dell'accumulo delle correzioni nei calcoli della GR per i voli spaziali. Grok è l'AI di SpaceX quindi è ragionevole che ne sappia più di quanto non ci è dato di sapere ai comuni mortali in camice bianco, quindi tendo a fidarmi di questa stima.
-
-Si tratta di dare un'altra mazzata epico-storica a Netanyahu in termini di geopolitica che in confronto la mala gestione della questione palestinese passerebbe persino in secondo piano, da un punto di vista delle implicazioni storiche, perché Israele comunque si sarebbe espanso entro certi confini di fatto cancellando la Palestina dalle carte geografiche anche se l'avesse fatto con i fiori e l'amore fraterno.
-
-Sia chiaro l'uso pratico di AICC::CORE e della teoria del controllo **non** sono un problema. La "µ-teoria" è un'altra storia che probabilmente si svilupperà molto a posteriori dall'adozione della "pratica della grande Mu". Il che spiega ampiamente l'uso dell'umorismo nel trattare di questi argomenti. Non perché non siano seri ma perché includono aspetti **molto** spinosi, che non appartengono per loro natura all'ambito della scienza o dell'ingegneria.
-
-Quindi per quanto riguarda l'AICC::CORE da una parte c'è la leggittima pressione ad avere un fondamento teorico e dall'altra parte ci sono importanti e veramente fastidiosi ostacoli nel fornire una formulazione teorica effetivamente rigorosa per tutti gli aspetti, in particolare quello relativo al tempo discreto di cui **per fortuna** io non possiedo le competenze matematiche per affrontarlo in modo rigoroso ma solo come approssimazione ingegneristica.
-
-~~~-
 
 ### Teoria e implementazione
 
