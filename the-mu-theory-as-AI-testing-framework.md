@@ -12,7 +12,7 @@
 
 ### The AI testing framework idea
 
-Considering the need to test AICC::CORE drift in guiding the CoT and the AI reasoning, I developed a page of physic elucubrations leveraging my Bachelor in Physics and putting in a "free thinking flow" every idea that I never deep into a deep maths formulation in the past.
+Considering the need to test the [AICC::CORE](#TODO) drift in guiding the CoT (Chain-of-Thought) and the AI reasoning, I developed a page of physic elucubrations leveraging my Bachelor in Physics and putting in a "free thinking flow" every idea that I never deep into a deep maths formulation in the past.
 
 This approached allowed me to conduct a series of different tests like:
 
@@ -29,6 +29,10 @@ Moreover, this way of embedding stuff that is mere { informative, testing or at 
 Accidentally, it seems that the mu-theory has a chance to be interesting also within the Physics realm. Which should not surprise anyone in AI because as much as I challenge AI in reasoning with the mu-theory, the more I am forced to improve its Physics foundations to test them on another higher level.
 
 Unsurprisingly, a close loop of negative feedback properly managed to progressively develop a mu-theory would be useful for teaching Physics by challenging students in critical thinking. Which is also in line with "educating AI towards AGI" principle: it works for humans and AIs, both.
+
+A paragadim that creates in its functional PoC implementation the hope that mutual co-existence and collaboration with a future AGI would lead to a cognitive partner for co-evolution in developing the intelligence and knowledge of both, counterfeiting the MIT's article claiming that when someone else can think for them, humans stop doing it.
+
+While accepting that some, and possibly many, will certainly adopt this approach, low-IQ profile, otherwise superstition and organised belief or propaganda would have just a marginal effect on our society. In essence, reframing the AGI era as a new intellectual selection pressure for humankind.
 
 ---
 
