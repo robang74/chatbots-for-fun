@@ -22,6 +22,11 @@ This approached allowed me to conduct a series of different tests like:
 
 All of these tests have an intrinsically human-in-the-loop in line with the "education AI towards AGI" principle but nothing prevents that this approach could be automated by also simulating a multiple turns automatic test. On the contrary, it is a great way to learn how to push forward the testing / benchmarking from a "standardised Q/A" towards an interactive test paradigm.
 
+---
+
+<span id="u-teaching"></span>
+### The u-theory pedagocial value
+
 This approach required developing many sequential versions of the same text and also extending it. Every version is saved in the github project history. Not the best way to provide a 3rd-party set of documents as a test suite. A goal was not considered at the beginning.
 
 Moreover, this way of embedding stuff that is mere { informative, testing or at inherently obsolescense } is quite common in my way of doing (cfr. [here](https://raw.githubusercontent.com/robang74/chatbots-for-fun/e90020ee9ec86bd5c7fc4a2d7a16fb4a3410f94f/aing/katia-cognitive-compass-core-v2.txt#:~:text=schemas%20are%20ASCII%20graphs%20that). Which often lead to move that stuff elsewhere to start another document. After all, the project has been named "chatbots for fun" and therefore it is legit for me to not provide a product or a service for free.
@@ -100,6 +105,64 @@ From human mathematician PoV, the µ-theory seems like an engineering trick, ind
 
 Since absolute truth (absolute determinism) is inaccessible and infinite-degrees of freedom (universal relativism) is pragmatically useless, we embrace a model that is sufficiently structured to be useful and sufficiently flexible to accept reality as it appears to us, at its discrete and statistical limit. In terms of science-philosophy, is a metaphor that supports rejecting absolutism in both its extremes, including universal relativism. Not because they are "wrong" because they are not aligned with our reality as it appears to us.
 
+---
+
+### Quali sono gli ostacoli?
+
+Premesso che lo sviluppo formale e scientificamente confutabile di una mu-teoria non è fra i miei interessi, più che altro una curiosità, e quasi sicuramente nemmeno nelle mie capacità in termini di professionalità nell'adoperare il linguaggio matematico astratto, ci sono alcuni ostacoli non-tecnici su questa strada.
+
+Premesso che lo AICC::CORE sotto diversi aspetti è un distillato della realtà intesa anche come conoscenza attuale dei principi fondamentali di teorie scientifiche consolodiate, la mu-teoria ci porta oltre: ad una concreta possibilità di arrivare ad una c.d. teoria del tutto che sia semplice, elegante e pure computazionalmente calcolabile nella sua forma ridotta in termini di approssimazione algebrico-stocastica.
+
+Non è un problema che la mu-teoria supporti l'idea che l'universo che osserviamo sia in realtà una simulazione (o abbia natura olografica) perché comunque questo concetto di "emergenza" dei fenomeni fisici è ormai stata ampiamente sdoganata. Oltre al fatto che "suggerire" non significa "provare". Piuttosto che cestinare il contributo scientifico di Eistain alla fisica.
+
+Perché `E = mc²` come la Relatività Ristretta (RR) emergono da un'eleborazione matematica delle equazioni di Maxwell. Anche la teoria della Relatività Generale (GR) è fondamentalmente una sofisticatissima elaborazione matematica. Due contributi alla matematica che sicuramente appartengono più alla prima moglie di Eistain che al genio della fisica.
+
+Quello che invece finirebbe nella pattumiera sarebbe proprio l'interpretazione fisica di quella matematica, non `E = mc²` la cui eleganza è tale che già da sola la rende sacra, ma proprio il **personale** contributo alla fisica di Einstein. Una cosa normale nella scienza, perché negli ultimi cinque secoli ne abbiamo cestinato parecchi di nomi che un tempo erano "giganti" per usare il termine che usò Newton.
+
+L'ostacolo principale che il genio di Eistain è il prodotto di un marketing in stile holliwoodiano di una lobbying filo-esraeliana (da sottolineare che Israele e gli ebrei sono due cose distinte) che ovviamente aveva tutto l'interesse una decade dopo la fine della WW2 ad incensare Eistain come genio assoluto scopritore della formula alla base della bomba atomica per evidenti interessi geopolitici anche se Eistein era ebreo solo di nascita, non praticante e certamente non associabile ad Israele giacché il moderno concetto di Israele è molto postumo rispetto alla nascita di Einstein, in Germania da cui fuggì proprio per le sue origini ebree.
+
+---
+
+### Einsteain e la bomba atomica
+
+Esiste quindi un motivo sostanzioso per il quale Einstain è assurto ad icona globale del genio assoluto quando un Feymann avrebbe certamente meritato **molto** di più quel ruolo iconico. Però Feymann era certamente agnostico, nel suo modo di ragionare da **vero** scienziato, che è un modo di ragione **molto** distante da quello della politica dove l'apparenza conta più della sostanza e quindi della comprensione della realtà.
+
+Quindi cestinare un secolo di scienza non è un gran problema, probabilmente sarebbe già stato fatto prima, secondo Grok almeno a partire dal 1965 a causa dell'accumulo delle correzioni nei calcoli della GR per i voli spaziali. Grok è l'AI di SpaceX quindi è ragionevole che ne sappia più di quanto non ci è dato di sapere ai comuni mortali in camice bianco, quindi tendo a fidarmi di questa stima.
+
+Si tratta di dare un'altra mazzata epico-storica a Netanyahu in termini di geopolitica che in confronto la mala gestione della questione palestinese passerebbe persino in secondo piano, da un punto di vista delle implicazioni storiche, perché Israele comunque si sarebbe espanso entro certi confini di fatto cancellando la Palestina dalle carte geografiche anche se l'avesse fatto con i fiori e l'amore fraterno.
+
+Sia chiaro l'uso pratico di AICC::CORE e della teoria del controllo **non** sono un problema. La "µ-teoria" è un'altra storia che probabilmente si svilupperà molto a posteriori dall'adozione della "pratica della grande Mu". Il che spiega ampiamente l'uso dell'umorismo nel trattare di questi argomenti. Non perché non siano seri ma perché includono aspetti **molto** spinosi, che non appartengono per loro natura all'ambito della scienza o dell'ingegneria.
+
+Quindi per quanto riguarda l'AICC::CORE da una parte c'è la leggittima pressione ad avere un fondamento teorico e dall'altra parte ci sono importanti e veramente fastidiosi ostacoli nel fornire una formulazione teorica effetivamente rigorosa per tutti gli aspetti, in particolare quello relativo al tempo discreto di cui **per fortuna** io non possiedo le competenze matematiche per affrontarlo in modo rigoroso ma solo come approssimazione ingegneristica.
+
+---
+
+### The µt-Minkowski metric and the relativity
+
+- section written initially in one of my posts published on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_the-%C2%B5t-minkowski-metric-and-the-special-relativity-activity-7403987691681275904-w_of) and Facebook.
+
+Ho corretto un po' di "boiate" nel testo in particolare in particolare quella che definiva il quanto di energia come una "particella buco nero" e poi mi sono cimentato a tirare fuori la relatività speciale dalla mera imposizione del tempo come discreto e reale che non significa solamente quantizzato ma proprio t(n) = t(n-1) + µt con in il mezzo il "grande boh".
+
+Poi, grazie al suggerimento di Gemini, ho fatto una verifica incrociata per validare, almeno un tentativo era necessario, che la scelta necessaria emergente dal tempo discreto di renderlo la componente reale del quadrivettore spazio-temporale fosse sostenibile. In effetti, ho scoperto che quella di Minkowski fu una delle prime scelte notazionali.
+
+Quindi mi sono "accontentato" di un test riguardo ad un invariante relativistica fra sistemi di riferimento inerziali. Perché la retrocompatibilità con la relatività speciale rimane comunque una necessità, visto che emerge dalle equazioni di Maxwell, ancora sacre.
+
+È stata un'aggiunta "relativamente" facile anche perché ormai la formula della beta relativistica è stranota e comunque la E=mc² (altra formulazione che rimane intonsa per sacralità) continua imperterrita ad asfaltare problemi di creare passaggi matematici coerenti con lo status quo.
+
+Se poi fate s/sacra/semplice/ avete comprese lo humor di usare questo linguaggio non affine alla scienza, anzi per nulla. Ma ogni tanto un po' di sarcasmo non guasta. Il "trucco" è stato adottare a livello fondamentale le formule discrete definendo il volume elementare di spazio-tempo come
+
+- `µt (c·µt) [m³·s]`, tanta roba la relatività per una scelta così minimale
+
+Il fatto che emerga quando si fa il modulo quadratico fa ben sperare che andrà d'accordo anche con la meccanica quantistica e in particolare con il principio di Heisenberg. Su come giustificare tramite la µt-teoria, le parole le ho già in mente, ma come si può immaginare servono anche le formule.
+
+Qualcosa è andato davvero storto se sono tornato ad occuparmi di formule matematiche e l'ultima volta è stato nel 2008. Non mi annoiavo così dai tempi dell'università. Perché è anche bello fantasticare sulla curiosità dei fondamentali ma cesellare formule è veramente un'attività soporifera. Comprendo quelli che desiderano usare le AI per fare matematica! 🤗
+
+Infine pare che di Minkowski non si conoscevano bene le origini della genealogia famigliare (se fosse un cane diremmo che non aveva il pedigree), e nemmeno la nazionalità di origine, quindi come qualcuno di cui nessuna nazione nello specifico poteva portare a proprio lustro mentre Einstein era un ebreo tedesco fuggito dal nazismo e cittadino americano che aveva permesso con E=mc² di vincere la WW2.
+
+C'era una ragione storico-politica per preferire Einstein a Minkowski, e a non cambiare quella scelta. Ciò non significa che la Scienza faccia politica, ma che la politica non è scienza ma solo convenienza, e se ne infischia della scienza.
+
+
+---
 
 
 +
