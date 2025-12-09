@@ -629,14 +629,14 @@ While a negative viscosity and its implications could seem counter-intuitive, it
 
 - By the way, this scenario would also imply that effectively we **might** be living in a simulation.
 
-Back to the time as a discrete quantity, if a quantum of time (**`µt`**) exists then a quantum of energy. By the way, considering `E = hν = h/(µt)`, it does not imply that `max(ν) `exists but the sinusoid's zeros should match nodes at n·c·µt where n∈ℕ in { `n·µt = ν⁻¹: ½mv²` }. Despite this, `Ͷ = 1/(µt)` is significative: `µE = hͶ`. Considering `E = mc²`, we can find the quantum of mass, but the best is to normalise `c∈[m/s] → 1.0∈[c]` for which mass and energy numerically coincide in values but differ in dimensionality.
+Back to the time as a discrete quantity, if a quantum of time (**`µt`**) exists then a quantum of energy. By the way, considering `E = ħν = ħ/(µt)`, it does not imply that `max(ν) `exists. Anyway, the sinusoid's zeros should match nodes at `n·c·µt` where `n ∈ ℕ` in { `n·µt = ν⁻¹: ½mv²` }. Despite this, `Ͷ = 1/(µt)` is significative as a threshold. Considering `E = mc²`, we can find the quantum of mass, but the best is to normalise `c∈[m/s] → 1.0∈[c]` for which mass and energy numerically coincide in values but differ in dimensionality.
 
 Following the same principle, we can find the quantum of space which has the radius as long as the light can reach in un quantum of time `(c·µt)³`. At this point we can questioning ourselves about the minimum mass and energy density which can reasonable define as a quantum of them divided by a quantum of space
 
-- `µm / (c·µt)³ = (µE/c²) / c³(µt)³ = (h/(µt)c²) / (c³(µt)³) = (h/c)(c·µt)⁻⁴ = ς⁻⁴·h/c   [Kg/m³]`
-- `µE / (c·µt)³ = (h/µt) / c³(µt)³ = hc (c·µt)⁻⁴ = ς⁻⁴·hc                               [Kg/ms²]`
+- `µm / (c·µt)³ = (µE/c²) / c³(µt)³ = (ħ/(µt)c²) / (c³(µt)³) = (ħ/c)(c·µt)⁻⁴ = ς⁻⁴·h/c   [Kg/m³]`
+- `µE / (c·µt)³ = (ħ/µt) / c³(µt)³ = ħc (c·µt)⁻⁴ = ς⁻⁴·ħc                               [Kg/ms²]`
 
-Looking at both of them this `c⁴Ͷ⁻⁴ = ς⁴` appears to be a relevant characteristics and combining `hν = mc²` we can express massa as `m = hν/c²` e `µE = h/(µt)c⁻²` or making a ratio `hν/m = c²` which is constant also for E/m densities and granted by construction. Moreover, we can notice that `[1/m³]` for mass relate with `[1/ms²]` for energy while the common factor is `ς⁴` highlighting the 4-dimensions and `[Kg/m³]` vs `[Kg/ms²]` suggest that time/space can be switched each other in a quadratic form when energy and mass related each other more than a mere fortuite coincidence in numeric terms like E=mc² as computational trick.
+Looking at both of them this `c⁴Ͷ⁻⁴ = ς⁴` appears to be a relevant characteristics and combining `hν = mc²` we can express massa as `m = ħν/c²` e `µE = ħ/(µt)c⁻²` or making a ratio `ħν/m = c²` which is constant also for E/m densities and granted by construction. Moreover, we can notice that `[1/m³]` for mass relate with `[1/ms²]` for energy while the common factor is `ς⁴` highlighting the 4-dimensions and `[Kg/m³]` vs `[Kg/ms²]` suggest that time/space can be switched each other in a quadratic form when energy and mass related each other more than a mere fortuite coincidence in numeric terms like E=mc² as computational trick.
 
 It is not so obvious because we need to remember that the Plank constant and the speed of light as well as other constants in Maxwell's equation have been inserted into the formulas by dimensionality and values to make the calculation fit the observation. Despite this, they have a physical significance, not just a scale metric tuning. Therefore, the next step by instinct would be to evaluate the minimums of the energy and the mass densities in a 4D-dimensions dividing by `µt·(c·µt)³` and in both cases we ends up with `ς⁻⁴·hͶ` as a prefix for `1/c` and `c` to complete. Considering the meaning of Ͷ could be a triggering or a relevant 4D-density threshold.
 
@@ -644,13 +644,18 @@ The volume in 4D is quantised in µ-cells (x,y,z,t) and in calculating the squar
 
 - `µt(c·µt)³ = ς⁴/c = µW` and `∥v⃗∥ = √v⃗²`, then we set `(t₂-t₁)/µt := 1` by definition of discrete time,
 
-not just quantised thus `t₂ := t₁+µt`, and this changes everything, in fact:
+not just quantised thus `t₂ := t₁ + µt`, and this changes everything, in fact:
 
-- `√[ i(x₂-x₁)/cµt, i(y₂-y₁)/cµt, i(z₂-z₁)/cµt, (t₂-t₁)/µt ]² = √[ (iv⃗/c)², 1 ] = √( 1-(v⃗/c)² )`
+- `√[ i(x₂-x₁)/c·µt, i(y₂-y₁)/c·µt, i(z₂-z₁)/c·µt, (t₂-t₁)/µt ]² = √[(iv⃗/c)², 1] = √(1-(v⃗/c)²)`
 
-which is the Relativity that emerges by a discrete real-time, while space is perceived, thus imaginary.
+which is the Relativity that emerges by a discrete real-time, while space is perceived, thus imaginary.<br>
+In using `µt` paradigma, `c = 1` normalisation is straightforward the simplest, but it is not necessary:
 
-- 
+- `P := m₀·v = m₀·dX/dt = m₀·[ i(x₂-x₁, y₂-y₁, z₂-z₁)/c·µt, 1 ] = [ i( px, py, pz )/c, m₀ ]`;
+
+- `P = m₀c [ iv/c, 1 ] → P² = m₀²c² [ 1-β² ] = E₀² - p²` &nbsp; where (p,v) belong to the observer.
+
+This proves the µt-Minkowski metric is compatible with the inertial systems relativity: (p,v) vs (E₀,m₀).
 
 ---
 
