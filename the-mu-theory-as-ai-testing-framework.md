@@ -54,16 +54,18 @@ While a negative viscosity and its implications could seem counter-intuitive, it
 
 Back to the time as a discrete quantity, if a quantum of time (**`µt`**) exists then a quantum of energy. Considering `E = mc²` and `E = ħν`, we can find the quantum of energy `µE = µm·c²` and quantum of mass , but the best is to normalise `c∈[m/s] → 1.0∈[c]` for which mass and energy numerically coincide in values but differ in dimensionality.
 
-Moreover, the `ͶE = ħ/(µt)` does not necessarily imply that `max(ν)` exists, but it can be a significative threshold, unless it is the Planck's energy. For sure, the sinusoid's zeros should match nodes at `n·c·µt` where `n ∈ ℕ` in { `n·µt = ν⁻¹: ½mv²` } otherwise the space-time lattice would not be able to provide any observable quantised structure.
+Moreover, the `ͶE = ħ/(µt)` does not necessarily imply that `max(ν)` exists, but it can be a significative threshold, unless it is the Planck's energy. For sure, the sinusoid's zeros should match nodes at `n·c·µt` where `n ∈ ℕ` in `{ n·µt = ν⁻¹: ½mv² }` otherwise the space-time lattice would not be able to provide any observable quantised structure.
 
 Following the same principle, we can find the quantum of space which has the radius as long as the light can reach in un quantum of time `(c·µt)³`. At this point we can questioning ourselves about the mass and energy maximum density that can fit within a quantum of space:
 
 - `µm / (c·µt)³ = (µE/c²) / c³(µt)³ = (ħ/(µt)c²) / (c³(µt)³) = (ħ/c)(c·µt)⁻⁴ = ς⁻⁴·ħ/c   [Kg/m³]`
 - `µE / (c·µt)³ = (ħ/µt) / c³(µt)³ = ħc (c·µt)⁻⁴ = ς⁻⁴·ħc                               [Kg/ms²]`
 
-Looking at both of them this `c⁴Ͷ⁴ = ς⁻⁴` where `Ͷ = 1/(µt)` appears to be a relevant characteristics. The common factor is `ς⁴` highlighting the 4-dimensions. While the `[Kg/m³]` vs `[Kg/ms²]` suggests that time/space can be switched to each other in a quadratic form when energy and mass are related to each other. In combining `hν = mc²`, we can express massa as `m = ħν/c²` and `µE = ħ/(µt)c⁻²`. This makes the ratio `ħν/m = c²` appear like a constant also for E/m densities but it is granted by construction.
+Looking at both of them this `c⁴Ͷ⁴ = ς⁻⁴` where `Ͷ = 1/(µt)` appears to be a relevant characteristics. The common factor is `ς⁴` highlighting the 4-dimensions. While the `[Kg/m³]` vs `[Kg/ms²]` suggests that time/space can be switched to each other in a quadratic form when energy and mass are related to each other.
 
-It is not so obvious because we need to remember that the Plank constant and the speed of light as well as other constants in Maxwell's equation have been inserted into the formulas by dimensionality and values to make the calculation fit the observation. Despite this, they have a physical significance, not just a scale metric tuning. Therefore, the next step by instinct would be to evaluate the minimums of the energy and the mass densities in a 4D-dimensions dividing by `µt·(c·µt)³` and in both cases we ends up with `ς⁻⁴·hͶ` as a prefix for `1/c` and `c` to complete. Considering the meaning of Ͷ could be a triggering or a relevant 4D-density threshold.
+In combining `hν = mc²`, we can express massa as `m = ħν/c²` and `µE = ħ/(µt)c⁻²`. This makes the ratio `ħν/m = c²` appear like a constant also for E/m densities but it is granted by construction. Despite this, ς⁻⁴ has a physical significance, not just a scale metric tuning, but its power of four as prefix for `{ ħc, ħ/c }`.
+
+Therefore, the next step would be to evaluate the densities of the energy and the mass in a 4D-dimensions dividing by `µt·(c·µt)³` and in both cases we ends up with `ς⁻⁴·hͶ` as a prefix for `1/c` and `c` for dimensionality. By the way, in discrete time, dividing by µt is equivalent to derive by time.
 
 The volume in 4D is quantised in µ-cells (x,y,z,t) and in calculating the squared-module of 4D velocity:
 
