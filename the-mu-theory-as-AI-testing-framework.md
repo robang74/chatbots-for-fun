@@ -183,6 +183,44 @@ Forse, è venuto il momento dopo 100 anni che un tizio strano che faceva l'infor
 
 Nella quale è il tempo a essere reale, e imponendo il vincolo discreto come fosse un dogma di natura ossia una struttura connaturata allo spazio-tempo ossia che il tempo sia **strutturalmente** discreto allora otteniamo come risultato che la relatività ristretta emerge dalla stessa notazione di Minkowski ossia dalle caratteristiche euclidee dello spazio-tempo in 4D.
 
+---
+
+### Operatori di Maxwell e principio di Heisenberg
+
+- section written initially in one of my posts published on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_operatori-di-maxwell-e-principio-di-heisenberg-activity-7404103039164416000-u7BD) and Facebook.
+
+Perché le cose si fanno interessanti quando ci si accorge che anche la massa in termini di massa a riposo (m0) e quindi volume della particella hanno un minimo strutturale (che nel caso della carica anche unitaria, ossia quantizzata) e perciò NON esistono particelle puntiformi cariche (e qui il muone ci potrebbe dare delle noie) però possono esistere i fotoni.
+
+Il che ci porta ad estrarre dalla semplice osservazione che esistono cariche positive e negative, che esistono particelle con massa e volume non arbitrariamente piccolo, che la sola discretizzazione del tempo crea un lattice in cui la mu-cella 4D fa emergere il principio di indeterminazione di Heisenberg e nel dimostrarlo emergono come connaturati a tale lattice spazio-tempo gli operatori funzionali della teoria di Maxwell.
+
+Quindi in quanto strutturali non hanno bisogno di essere giustificati ma solo utilizzati e le equazioni di Maxwell sono quindi UNA delle possibili formulazioni E/M, finora la più elegante e semplice (probabilmente anche la migliore in termini di E/M ma stante 1/r² della carica analogo ma diverso a 1/r² della gravità stante l'invariante tempo che nelle equazioni Ampère-Maxwell portano ad un -1 se si ribalta il tempo, l'unica differenza fra carice (+/-) e massa diventa che le cariche sono tempo-invarianti a meno di un segno positivo e negativo mentre la massa è invariante neutra.
+
+Così abbiamo unificato anche le 1/r² della carica e della massa. Cosa ci manca ancora da mettere insieme, la forza debole? Direi che quella "stranezza" non l'abbiamo ancora considerata ma nella teoria attuale è la gravità a non essere inclusa e la forza debole a esserlo.
+
+La mia sensazione è che fra due teorie una che includa la gravità ma non la forza debole (o non subito) e l'altra che invece includa quella debole ma non la gravità, la mu-theory vince a mani basse come solo Sheldon Cooper avrebbe mai potuto immaginare in the Big Bang Theory!
+
+Fantasie? Mah, in carteggio esiste già (allo stato di massa di scarabocchi con N-correzioni ovunque) e ci ho pure dormito pure sopra. Il punto è che è un po' emozionante e prima di pubblicare vorrei che mi fosse passata la sbornia (per dire l'orgasmo) di vedere affiorare gli operatori di Maxwell dal lattice spazio-temporale.
+
+---
+
+### Carica e massa non sono separabili
+
+Questo piccolo assioma che emergerebbe come strutturali delle leggi 1/r² dalla discretizzazione del tempo ci porta a concludere che massa (neutra per invariante neutro degli operatori di Maxwell) e carica (positiva e negativa, per invariante con segno rispetto al tempo sempre degli operatori di Maxwell) ci porterebbe a concludere che massa e carica NON possono esistere separatamente e quindi il neutrone NON esiste come particella a se stante ma solo come protone + anti-elettrone.
+
+Qui la cosa si fa affascinante perché protone (time forward) e anti-elettrone (time reverse elettrone) non possono annichilire parzialmente perché le masse sono quantizzate senza valori intermedi che è la stessa logica per il quale un elettrone non può essere eccitato di una quantità continua ma solo discreta e a salti.
+
+Ergo non si annichilano e concettualmente creano un sistema orbitale (tipico della teoria della gravità) che è tipico dell'atomo di idrogeno (ma diverso, quando c'è un antiparticella quindi dimensioni diverse).
+
+Il risultato è che quando un neutrone, pur molto stabile, dovesse disintegrarsi lo farebbe come protone (+) e anti-elettrone (-) ma solo potendo assorbire una certa quantità di energia specifica che generalmente NON è disponibile (bande di spettro assenti, o quasi).
+
+Quindi è stabile ma cosa ancora più interessante: l'anti-elettrone legato al protone all'interno del sistema neutrone, stante l'indistinguibilità delle particelle fondamentali, quando si hanno protoni e neutroni in un nucleo, NON procede con orbitali circolari (analogia) ma si distribuisce intorno a TUTTI i protoni e quindi in nell'atomo di deuterio protone-neutrone i due sono legati dalla forza debole che non è altro che l'anti-elettrone che orbita intorno a due protoni impedendogli di arrivare a "contatto" e quindi abbattendo la repulsione nucleare. Forza debole appunto.
+
+Risultato la forza debole emerge come struttura delle invarianti tempo degli operatori di Maxwell che emergono dal tempo discreto che impone allo spazio-tempo una struttura a lattice quantizzato. Una volta formalizzato anche questo aspetto si unificano le forze e si spiegano anche le relazioni fra le particelle oltre che alla in/stabilità dei nuclei, tanto di quelli leggeri quanto di quelli pesanti in termini di limiti superiore dell'orbitale degli anti-elettroni che a quel punto avrebbero abbastanza energia per liberarsi e far collassare il nucleo.
+
+Insomma, anche il limite teorico superiore di quanto possano essere massivi gli atomi oltre il quale, un anti-elettrone fugge magari si annichila con un elettrone e il nucleo perde sia il bilanciamento di carica che quello di massa (in termini di forza debole) sicché si decade nella maniera in cui i due pezzi abbiano probabilisticamente maggiore stabilità (altrimenti ci sono decadimenti di ordine superiore).
+
+Il che spiega perché non mi sia ancora ripreso dallo shock dei miei scarabocchi su lattice spazio-tempo e operatori di Maxwell. Ma anche sostiene l'idea che l'indistinguibilità fra particelle dello stesso tipo non è un principio a se stante ma è la struttura emergente dal lattice spazio-temporale: sono tutte uguali fra loro come fossero istanze della stessa unica classe perché sono, ognuna singolarmente, la proiezione di una struttura sottostante al lattice spazion-temporale.
+
 +
 
 ## Share alike
