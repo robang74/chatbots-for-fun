@@ -84,6 +84,12 @@ In using `µt` paradigma, `c = 1` normalisation is straightforward the simplest,
 
 This proves the µt-Minkowski metric is compatible with the inertial systems relativity: (p,v) vs (E₀,m₀).
 
+**About notation**
+
+Using `ω = 2πν` or ϖ = 1/µt would have made appear the formulas more familiar thus more acceptable but also hidden the key point about µt as discrete time, not just quantised. Current physics revolves around the founders' idea that everything was a wave (or reducible as a wave in a field).
+
+It was comprehensible at that time, while t-discrete was most likely an absurd concept. Instead, µ-theory is based on a specific paradigm for which wave/particle duality is an emergent characteristic of the space-time lattice thus privileging Ͷ,ς as a different notation.
+
 ---
 
 <span id="u-analogies"></span>
