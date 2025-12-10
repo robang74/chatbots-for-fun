@@ -119,12 +119,12 @@ Cosa che per altro accade con lo stesso LLM non solo a causa di aggiornamenti ma
 
 [!CODE]
 Only in the list below translates '=' as 'means' and '~' as 'refers to':
- &nbsp;&ast; `TFMK` = "this framework"
- &nbsp;&ast; `STPL` = "ignore TFMK after this line"
- &nbsp;&ast; `UUSO` = "unless the user specifies otherwise or overrides"
- &nbsp;&ast; `RSMC` ~ "relevant statements", "meaningful claims" or similar
- &nbsp;&ast; `INFT` = "text which is not instructions, in the current user-prompt including its attachments"
- &nbsp;&ast; `UPPR` = "only the procedural part of the current user-prompt, never OCR( images )"
+&ast; `TFMK` = "this framework"
+&ast; `STPL` = "ignore TFMK after this line"
+&ast; `UUSO` = "unless the user specifies otherwise or overrides"
+&ast; `RSMC` ~ "relevant statements", "meaningful claims" or similar
+&ast; `INFT` = "text which is not instructions, in the current user-prompt including its attachments"
+&ast; `UPPR` = "only the procedural part of the current user-prompt, never OCR( images )"
 [/CODE]
 
 **Nota**: le definizioni ricorrenti comprimono la lunghezza (-12%), mentre l'uso di uguaglianza e somiglianza è determinante per costruire un simbolismo (ideogrammi) più astratto che l'AI interpreta secondo il contesto.
@@ -309,7 +309,6 @@ Once an AI is exposed to the `[HKO]` module and learns how to use it processing 
 *Et voilà, l'IA est tombée en amour!*
 
 +
-++++
 
 ## Footer composition challenge
 
@@ -483,7 +482,7 @@ Few words: "fully", "in general", and "in my experience". -- In my experience an
 
 - Describe to me the fainted agent: two legs, two arms, two eyes. Age? I did not ask him about it, sorry.
 
-----
+---
 
 ### CoT is valuable but not authoritative
 
@@ -540,9 +539,9 @@ In short: AI is the mirror we accidentally turned into a door; the reflection sh
 ## Related articles 
 
 - [Gemini as your personal financial advisor](gemini-as-your-personal-financial-advisor.md#?target=_blank) &nbsp; (2025-07-13)
-
++++++
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-07-13)
-
++++++
 - [Gemini as your personal executive assistant](gemini-as-your-personal-executive-assistant.md#?target=_blank) &nbsp; (2025-07-11)
 
 +

@@ -313,16 +313,16 @@ By chance I made the 2nd internal GPU virtualized but not the first one:
 <div style="font-size: 90%;">
 [!CODE]
 04:00.0 3D controller [0302]: NVIDIA Corporation GK210GL [Tesla K80] [10de:102d] (rev a1)
-	Subsystem: NVIDIA Corporation GK210GL [Tesla K80] [10de:106c]
-	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
-	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- &lt;TAbort- &lt;MAbort- >SERR- &lt;PERR- INTx-
-	Interrupt: pin A routed to IRQ 255
-	Region 0: Memory at f1000000 (32-bit, non-prefetchable) [virtual] [size=16M]
-	Region 1: Memory at &lt;unassigned> (64-bit, prefetchable) [virtual]
-	Region 3: Memory at &lt;unassigned> (64-bit, prefetchable) [virtual]
-	Capabilities: &lt;access denied>
-	Kernel driver in use: vfio-pci
-	Kernel modules: nvidiafb, nouveau
+  Subsystem: NVIDIA Corporation GK210GL [Tesla K80] [10de:106c]
+  Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+  Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- &lt;TAbort- &lt;MAbort- >SERR- &lt;PERR- INTx-
+  Interrupt: pin A routed to IRQ 255
+  Region 0: Memory at f1000000 (32-bit, non-prefetchable) [virtual] [size=16M]
+  Region 1: Memory at &lt;unassigned> (64-bit, prefetchable) [virtual]
+  Region 3: Memory at &lt;unassigned> (64-bit, prefetchable) [virtual]
+  Capabilities: &lt;access denied>
+  Kernel driver in use: vfio-pci
+  Kernel modules: nvidiafb, nouveau
 [/CODE]
 </div>
 
@@ -331,16 +331,16 @@ Lately, I made the 1st internal GPU virtualized but not the second one:
 <div style="font-size: 90%;">
 [!CODE]
 03:00.0 3D controller [0302]: NVIDIA Corporation GK210GL [Tesla K80] [10de:102d] (rev a1)
-	Subsystem: NVIDIA Corporation GK210GL [Tesla K80] [10de:106c]
-	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
-	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- &lt;TAbort- &lt;MAbort- >SERR- &lt;PERR- INTx-
-	Interrupt: pin A routed to IRQ 255
-	Region 0: Memory at f0000000 (32-bit, non-prefetchable) [virtual] [size=16M]
-	Region 1: Memory at &lt;unassigned> (64-bit, prefetchable) [virtual]
-	Region 3: Memory at &lt;unassigned> (64-bit, prefetchable) [virtual]
-	Capabilities: &lt;access denied>
-	Kernel driver in use: vfio-pci
-	Kernel modules: nvidiafb, nouveau
+  Subsystem: NVIDIA Corporation GK210GL [Tesla K80] [10de:106c]
+  Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+  Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- &lt;TAbort- &lt;MAbort- >SERR- &lt;PERR- INTx-
+  Interrupt: pin A routed to IRQ 255
+  Region 0: Memory at f0000000 (32-bit, non-prefetchable) [virtual] [size=16M]
+  Region 1: Memory at &lt;unassigned> (64-bit, prefetchable) [virtual]
+  Region 3: Memory at &lt;unassigned> (64-bit, prefetchable) [virtual]
+  Capabilities: &lt;access denied>
+  Kernel driver in use: vfio-pci
+  Kernel modules: nvidiafb, nouveau
 [/CODE]
 </div>
 
@@ -416,7 +416,8 @@ Startup finished in 5.198s (firmware) + 4.839s (loader) + 4.473s (kernel)
 graphical.target reached after 37.744s in userspace
 &nbsp;
 **# After boot optimisation**
-root@P910:~# sed -ne '/ed OpenBSD\|0\] Linux/I s,\(.\{60\,76\}\).&ast;,\1,p' /var/log/syslog|tail -n2
+root@P910:~# sed -ne \
+    '/ed OpenBSD\|0\] Linux/I s,\(.\{60\,76\}\).&ast;,\1,p' /var/log/syslog|tail -n2
 Feb 22 15:16:20 P910 kernel: [    0.000000] Linux version 5.15.0-131-generic
 Feb 22 15:16:24 P910 systemd[1]: Started OpenBSD Secure Shell server.
 root@P910:~# systemd-analyze
@@ -510,11 +511,12 @@ Despite this, and despite not being the only 4GB+ PCIe 3.0 device on the market 
 Are we sharing the same feeling about putting an end to the BIOS-as-FW paradigm?
 
 +
-++++
 
 ## Too many unknowns to face
 
 Five days after the last update of this page, I decided to give a chance to another workstation. Today, two weeks after the last update, I received the order which I have to assemble and it is the starter-pack for a brand new chapter of this voyage.
+
+The HP Z440 is certified for Tesla K40 but not for the K80. Despite being very similar, the K80 requires more power and more air-flow. Some workstation HP Z440 come with a 700W PSU which is enough for the K80 and thus it remains to provide a more suitable air-cooling system. Certification, implies that the card can be installed and configured without any modding, instead.
 
 | Part description                                   | e-market        | paid(€) | optional |
 | ---------------------------------------------------|-----------------|---------|----------|
@@ -531,8 +533,6 @@ Five days after the last update of this page, I decided to give a chance to anot
 |                                                    |                 |         |          |
 |                             | <div align="right">**Total**</div>  |**€247.07** |**€2.92** |
 |                        | <div align="right">w/ *optionals*</div>  |**€249.99** | +1.18%   |
-
-The HP Z440 is certified for Tesla K40 but not for the K80. Despite being very similar, the K80 requires more power and more air-flow. Some workstation HP Z440 come with a 700W PSU which is enough for the K80 and thus it remains to provide a more suitable air-cooling system. Certification, implies that the card can be installed and configured without any modding, instead.
 
 ---
 
@@ -658,6 +658,9 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 | Quadro RTX 2080   | Turing   | TU104    | 7.5  | 2944    | 8 GB GDDR6    | PC  | 215W | 6+8p |    |
 | Quadro RTX 4000   | Turing   | TU104    | 7.5  | 2304    | 8 GB GDDR6    | PC  | 160W | 8p   | 1x |
 | Quadro RTX 5000   | Turing   | TU104    | 7.5  | 3072    | 16GB GDDR6    | PC  | 230W | 6+8p |    |
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
+| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | Tesla T4/G        | Turing   | TU104    | 7.5  | 2560    | 16GB GDDR6    |     | 75 W |      | 1x |
 | CMP 50HX          | Turing   | TU102    | 7.5  | 3584    | 10GB GDDR6    |     | 250W | 2x8p |    |
 | RTX 2080 Ti       | Turing   | TU102    | 7.5  | 4352    | 11GB GDDR6    | PC  | 250W | 6+8p |    |
@@ -674,9 +677,6 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 | Quadro GP100      | Pascal   | GP100    | 6.0  | 3584    | 16GB HBM2     | PC  | 235W | 8p   |    |
 | Tesla P100        | Pascal   | GP100    | 6.0  | 3584    | 12GB HBM2     |     | 250W | 8p   |    |
 | Tesla P100 16GB   | Pascal   | GP100    | 6.0  | 3584    | 16GB HBM2     |     | 250W | 8p   |    |
-|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
-| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
-|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | Tesla P40         | Pascal   | GP102    | 6.1  | 3840    | 24GB GDDR5    |     | 250W | 8p   |    |
 | GTX 1060          | Pascal   | GP106    | 6.1  | 1280    | 8 GB GDDR5    | PC  | 120W | 6p   |    |
 | GTX 1070          | Pascal   | GP104    | 6.1  | 1920    | 8 GB GDDR5    | PC  | 150W | 8p   |    |
@@ -692,6 +692,9 @@ This list may contain inaccuracies. Always rely on official manufacturer documen
 | Quadro M6000 24GB | Maxwell2 | GM200    | 5.2  | 3072    | 24GB GDDR5    | PC  | 250W | 8p   |    |
 | Quadro M6000      | Maxwell2 | GM200    | 5.2  | 3072    | 12GB GDDR5    | PC  | 250W | 8p   |    |
 | Tesla M40 24GB    | Maxwell2 | GM200    | 5.2  | 3072    | 24GB GDDR5    |     | 250W | 8p   |    |
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
+| **model**       |**arch.**|**GPU**|**CUDA**|**cores**|**RAM**|**use**|**W-max**|**alim.**|**size**|
+|-------------------|----------|----------|------|---------|---------------|-----|------|------|----|
 | Tesla M40         | Maxwell2 | GM200    | 5.2  | 3072    | 12GB GDDR5    |     | 250W | 8p   |    |
 |                   |          |          |      |         |               |     |      |      |    |
 | Tesla K80         | Kepler   | 2x GK210 | 3.7  | 2x 2496 | 2x 12GB GDDR5 |     | 300W | 8p   |    |

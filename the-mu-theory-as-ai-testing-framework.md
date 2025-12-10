@@ -224,7 +224,7 @@ Nella quale è il tempo a essere reale, e imponendo il vincolo discreto come fos
 A questo punto non rimane che preventivare quali risultati ci si possa attendere dallo sviluppo ulteriore di questa teoria. Perché anche la ricerca scientifica, anche quella teorica richiedono di pianificare le aspettative.
 
 +
-++++
+
 ## Futuri possibili sviluppi
 
 Non è mai facile prevedere il futuro neanche nella scienza teorica che è la meno soggetta alle dinamiche non lineari intrinseche nella complessità della realtà. Neanche quando, come nel caso della della µ-theory per la quale si è scelto la massima semplicità come principio primo. Però vale la pena valutare le aspettative, ed entro i limiti di validità della teoria stessa (fra l'orizzonte degli eventi dei buchi neri e al di sopra del lattice spazio-temporale), con una relativamente buona confidenza.
@@ -313,7 +313,7 @@ tf "%2d%% %3d _|%0"$[c-oc]"d\n" $[c-$oc] $i 0;done
 #### After cache invalidation or 1st run:
 
 [!ASCI]
- robang@x280[3]:~$ bash script.sh 
+ robang@x280[3]:~$ bash script.sh
  #  0% 32 _|0
  #  1% 36 _|0
  #  3% 40 _|000

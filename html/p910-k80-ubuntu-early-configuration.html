@@ -66,13 +66,13 @@ For those prefer to use Microsoft Windows, please notice that I strongly doubt t
 <p></p>
 Esprimo P910 has an Intel PRO/1000 Gigabit ethernet which linked with a cheap USB FastEthernet 100 Mbit/s network adapter will provide such performace below:
 <p></p>
-<blockquote class="code">☛ code<code>
+<blockquote class="code">☛ code
 k80user&commat;p910:~$ nc -l 1111 > /dev/null
 roberto&commat;x390:~$ dd if=/dev/zero bs=1500 count=16K | nc -N 10.10.10.2 1111
  16384+0 records in
  16384+0 records out
  24576000 bytes (25 MB, 23 MiB) copied, 2.01924 s, 12.2 MB/s
-</code></blockquote>
+</blockquote>
 <p></p>
 Which is good-enough for a reactive GUI remote control but relatively slow to transfer large amount of data. So, a Gigabit USB adapter is worth its 2x price.
 <p></p>
@@ -98,7 +98,7 @@ These settings will allow us to access the GPU server with Remmina and any SSH c
 <p></p>
 We are lazy and we are proud of it, especially when repetitive tasks are at stake. This includes password digitization for frequent accesses. One in particular is the root access to a remote host using SSH without entering the password. Moreover, by the password is a way of login that usually is disabled by default for the <tt>root</tt> user, at least.
 <p></p>
-<blockquote class="code">☛ code<code>
+<blockquote class="code">☛ code
 <b># On the client side</b>
 ssh-keygen -t rsa
 ssh-copy-id k80usr&commat;10.10.10.2
@@ -122,7 +122,7 @@ exit
 printf "\nrl() { ssh -XY root&commat;10.10.10.2; }\n" >> ~/.bashrc
 printf "sl() { ssh -XY k80usr&commat;10.10.10.2; }\n" >> ~/.bashrc
 bash; rl
-</code></blockquote>
+</blockquote>
 <p></p>
 Appending two functions at the <tt>.bashrc</tt> file, in every new <tt>bash</tt> shell we can just digit <tt>sl</tt> or <tt>rl</tt> for user or root login on our GPU server.
 <p></p>
@@ -134,7 +134,7 @@ The Esprimo P910 comes with a DVI port, and in case you plan to couple with an o
 <p></p>
 Unfortunately, it also affects the resolution of the shared desktop by Gnome RDP. In order to mitigate this limitation, it is worth installing the Gnome tweaks and injecting a new resolution from a Gnome terminal:
 <p></p>
-<blockquote class="code">☛ code<code>
+<blockquote class="code">☛ code
 sudo apt install gnome-tweaks -y
 echo WaylandEnable=false | sudo tee -a /etc/gdm3/custom.conf
 mcvt='$(cvt 1280 1024 75 | tail -n1 | cut -d\" -f3-)'
@@ -144,7 +144,7 @@ xrandr --addmode VGA-1 1280x1024
 xrandr --output VGA-1 --mode 1280x1024
 " > ~/.xinitrc; chmod +x ~/.xinitrc
 gnome-session-properties # to add the .xinitrc script
-</code></blockquote>
+</blockquote>
 <p></p>
 With Gnome tweaks we can change the fonts and icons sizes, plus setting the zoom at 75%. Which combined with the maximum resolution supported by the monitor (e.g. 1280x1024, 5:4) provides a display equivalent area (e.g. 1700x1366) enlarged by 78% (and 3x than the 1024x768 given by the adapter) but at lower 96 &rarr; 72 DPI resolution. Not bad at all, for an old piece of trashware! <img class='emoji wbsketch' src='../img/emoji/wink.png'>
 <p></p>
@@ -166,7 +166,7 @@ Please note that within the <b>RTL8188</b>’s family there are adapters which s
 <p></p>
 Let start from the basics, here below some line commands for Ubuntu just for starting with the P910 before even installing the Tesla K80 within, with <tt>sudo -s</tt> root priviledges:
 <p></p>
-<blockquote class="code">☛ code<code>
+<blockquote class="code">☛ code
 apt install lm-sensors fancontrol hardinfo i2c-tools python3-smbus pigz acpi \
  &nbsp; &nbsp; kmod cpufrequtils wget read-edid hwinfo htop unzip synaptic \
  &nbsp; &nbsp; gedit acpid acpitool inxi gkrellm gkrellm-cpufreq -y
@@ -174,7 +174,7 @@ modprobe coretemp cpuid
 echo "cpuid" >>/etc/modules
 service kmod start; sensors-detect --auto
 systemctl enable fancontrol; sensors; pwmconfig
-</code></blockquote>
+</blockquote>
 <p></p>
 Moreover, the application <a href="https://gkrellm.srcbox.net/" target='_blank' rel='noopener noreferrer'>gkrellm</a> - even if it is not particularly well integrated in Ubuntu - can help us keep the system under careful supervision. Here <a href="https://github.com/robang74/gkrellm2-config#readme" target='_blank' rel='noopener noreferrer'>github.com/robang74/gkrellm2-config</a> a suggested way to configure and theming it
 <p></p>
@@ -188,11 +188,11 @@ Which is the highest temperature seen up to now, with the case open and laying o
 <p></p>
 Time to close the tower case and raise it on its feet again.
 <p></p>
-<blockquote class="code">☛ code<code>
+<blockquote class="code">☛ code
 dd if=/dev/zero bs=1M | pigz -11 -p4 - >/dev/null &
 for i in $(seq 1 40); do sensors | grep Package;
 sleep 1; done & sleep 30; killall pigz; echo;
-</code></blockquote>
+</blockquote>
 <p></p>
 Running this code for two times in a row, lead to warm up the CPU core:
 <p></p>
@@ -275,11 +275,11 @@ These options are the suggested for the Linux kernel command line:
 <p></p>
 The above parameters should go into the <tt>GRUB_CMDLINE_LINUX_DEFAULT</tt> variable which is recorded into the <tt>/etc/default/grub</tt> file. Then <tt>sudo update-grub</tt> to write the change in the grub's boot record. Moreover, blacklisting these two kernel modules and rebuild all the initramfs files, is a good idea:
 <p></p>
-<blockquote class="code">☛ code<code>
+<blockquote class="code">☛ code
 ( echo; echo "blacklist chromeos_pstore"; echo "blacklist nvidiafb";
  &nbsp; echo "blacklist nouveau" )| sudo tee -a /etc/modprobe.d/blacklist.conf
 sudo update-initramfs -u -k all
-</code></blockquote>
+</blockquote>
 <p></p>
 Then <tt>reboot</tt> to let the system restart with the new settings. Finally, after the reboot <tt>cat /proc/cmdline</tt> and <tt>lsmod</tt> to check.
 <p></p>

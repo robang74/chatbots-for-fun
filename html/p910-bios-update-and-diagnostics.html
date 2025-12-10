@@ -57,19 +57,19 @@ This document provides a guide for creating a bootable FreeDOS USB 64MB drive fo
 <p></p>
 <H3 id="4-latest-diagnostic-tools-available">4. Latest diagnostic tools available</H3>
 <p></p>
-<blockquote class="code">☛ code<code>
+<blockquote class="code">☛ code
 System Diagnostics DOS (USB Stick)
 Versione: 4.06.131206 (05/12/2013)
 Dimensione: 10.43 MB
 MD5: EA755F40B1156A12A0DC23707BB539ED
 SHA256: 32EF5E94C820745C19323BC039186E253D7C2153C2F783667C9D8F17C6857D86
-</code></blockquote>
+</blockquote>
 <p></p>
 <li><b>Source</b>: <a href="https://support.ts.fujitsu.com/IndexDownload.asp?SoftwareGuid=DCC1A861-C236-4D84-ADBA-FC78E0B51D7E" target='_blank' rel='noopener noreferrer'>FTS System Diagnostics DOS USB Stick</a></li>
 <li class='li2in'>download : $archive</li>
 <li class='li2in'>unzip : $archive : ./diag/</li>
 <p></p>
-<blockquote class="code">☛ code<code>
+<blockquote class="code">☛ code
 dst &lt;= [usb1 mount-point path]
 cp -arf ./diag/&ast;/data/&ast; ${dst}/
 sed -e '/\.sys/ s,FREEDOS\\BIN,\FDOS,I' -i ${dst}/CONFIG.SYS
@@ -78,29 +78,29 @@ sed -e 's,\(SET DOSDIR=\).&ast;,\1\\FDOS,I' -e 's,\(%dosdir%\)\\bin,\1,gI' -i ${
 sed -e "s/%[bram]\{0,3\}DRV%://gI" -e "s,%1:[%\\],,g" -i $(find ${dst} -iname \&ast;.bat)
 sed -e "s/bat %DRV%/bat ''/" -i ${dst}/TOOLS/BASE/me.bat
 mv ${dst}/AUTOEXEC.BAT ${dst}/diag.bat
-</code></blockquote>
+</blockquote>
 <p></p>
 <hr class="post-it">
 <p></p>
 <H3 id="5-latest-bios-available-admin-package">5. Latest BIOS available admin package</H3>
 <p></p>
-<blockquote class="code">☛ code<code>
+<blockquote class="code">☛ code
 D3162-A1x - Admin package - Compressed Flash Files
 Versione: V4.6.5.3 - R1.23.0 (01/12/2014)
 Dimensione 43.12 MB
 MD5: 0149B86EB671F1F60975E1B40445260E
 SHA256: 25832921C80C0FEFD8E92574F7138C0CBFFDC11DA0DD5F3FAFF1DCDED49BD881
-</code></blockquote>
+</blockquote>
 <p></p>
 <li><b>Source</b>: <a href="https://support.ts.fujitsu.com/IndexDownload.asp?SoftwareGuid=38A1936D-6452-44EC-A10C-A42039C6F5A2" target='_blank' rel='noopener noreferrer'>FTS D3162A1x Admin package</a></li>
 <li class='li2in'>download : $archive</li>
 <li class='li2in'>unzip : $archive : ./bios/</li>
 <p></p>
-<blockquote class="code">☛ code<code>
+<blockquote class="code">☛ code
 dst &lt;= [usb1 mount-point path]
 cp -arf ./bios/DOS/&ast; ${dst}/
 umount ${dst}/
-</code></blockquote>
+</blockquote>
 <p></p>
 <hr class="post-it">
 <p></p>
@@ -108,14 +108,14 @@ umount ${dst}/
 <p></p>
 The command <tt>gzip</tt> can be replaced to <tt>pigz</tt> which is parallel - hence faster - counterpart.
 <p></p>
-<blockquote class="code">☛ code<code>
+<blockquote class="code">☛ code
 usbdisk &lt;= [usb disk device]
 umount ${usbdisk}&ast;
 fdisk -l ${usbdisk} | grep ${usbdisk}1
  sectors &lt;= [usb disk p1 size in 512 byte sectors, biggest number]
  image="fdos-p910-bios-diag.img"
 dd if=${usbdisk} count=${sectors} | pigz - >${image}.gz
-</code></blockquote>
+</blockquote>
 <p></p>
 This action is not strictly needed for an once-a-time BIOS update process. It is important for having a long-lasting archive of the bootable FreeDOS image. This archive serves also as a forensic-like record of the exact environment used.
 <p></p>
@@ -123,12 +123,12 @@ This action is not strictly needed for an once-a-time BIOS update process. It is
 <p></p>
 <H3 id="7-post-archiving-image-deployment-optional">7. Post archiving image deployment (optional)</H3>
 <p></p>
-<blockquote class="code">☛ code<code>
+<blockquote class="code">☛ code
 image="fdos-p910-bios-diag.img"
 pigz -dc ${image}.gz > ${image}; losetup -Pf ${image}
   [do whatever you like on loop device 1st partition]
 losetup -D $(losetup -l | grep ${image} | cut -d' ' -f1)
-</code></blockquote>
+</blockquote>
 <p></p>
 <div class="pagebreak"><hr class="post-it"></div>
 <p></p>
@@ -172,13 +172,13 @@ Fujitsu Esprimo P910 E85+ is considered a <b>Work Station</b> rather than a PC. 
 <p></p>
 The BIOS allows enabling a serial console redirection which can provide headless access to the BIOS, also. However, it requires an USB serial adapter and a proper configuration. On the client side, <tt>sudo minicom -s</tt> to configure the serial port. On the server side, as root:
 <p></p>
-<blockquote class="code">☛ code<code>
+<blockquote class="code">☛ code
 vi /etc/default/grub
  GRUB_TERMINAL="serial console"
  GRUB_SERIAL_COMMAND="serial --unit=0 --speed=115200"
  GRUB_CMDLINE_LINUX_DEFAULT="console=tty0 console=ttyS0,115200n8 [...omissis...]"
 systemctl enable serial-getty&commat;ttyS0.service && update-grub && reboot
-</code></blockquote>
+</blockquote>
 <p></p>
 These screenshots above show the BIOS remote access by serial and the iAMT access by HTTP via 16992 port.
 <p></p>

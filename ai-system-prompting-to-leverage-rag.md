@@ -158,7 +158,7 @@ Which can easily be our documents, whatever they are a privileged source of cons
 
 > Use RAG and label that knowledge as [RK] (retrieved) or [PK] (parametric). Prioritize [RK] when relevant or more specific. Use [RK] for facts, [PK] for interpretation. Highlight contradictions between [RK] sources. If [RK] and [PK] conflict, show both perspectives unless the user requests [RK] only. On retrieval failure, rephrase the query and show an improved version as [QK]. State explicitly if no relevant [RK] exists, never speculate.
 
-+
++++++
 
 ## Practical suggestions
 
@@ -201,7 +201,7 @@ sudo swapoff -a
 sudo sed -s "/\bswap\b/ s,.&ast;swap,#&," /etc/fstab
 [/CODE]
 
-----
+---
 
 ### Running settings
 
@@ -255,13 +255,15 @@ An intermediate solution (like the suggested) can be found but might not work fo
 
 Every GNU/Linux system is keen to use swap during its normal running. Unfortunately, this feature has a wild impact on the elaboration time which is the time before the first token. 
 
-**How much?**
+....
+
+#### How much?
 
 In my specific case with a 7B parameters model from 24s to 0.5s, running Deepseek-R1-Distill-Qwen-7B-uncensored on LM Studio 0.3.8-build4 with Intel Vulkan support with Q4_0 I1 and all experimental features activated which is a HUGE improvement, really.
 
 **It is about 50x times less.**
 
-More sophisticated approaches can be found to fit into specific use cases but these following two generally works
+More sophisticated approaches can be found to fit into specific use cases but these two generally works:
 
 - `sudo sysctl vm.swappiness=0`
 
@@ -284,17 +286,17 @@ Definitely too early to jump at any conclusion. The topic is as wide as the far-
 ## Related articles
 
 * [Neutrality vs biases for chatbots](neutrality-vs-biases-for-chatbots.md#?target=_blank) &nbsp; (2025-01-04)
-
++++++
 * [Chatting with AleX the chatbot ](chatting-with-alex-the-chatbot.md#?target=_blank) &nbsp; (2025-01-04)
-
++++++
 * [The system prompt alchemy](the-system-prompt-alchemy.md#?target=_blank) &nbsp; (2025-01-04)
-
++++++
 * [ChatGPT vs human real reasoning](chatgpt-vs-human-real-reasoning.md?target=_blank) &nbsp; (2024-11-28)
-
++++++
 * [Dammi sei parole a caso](dammi-sei-parole-a-caso.md?target=_blank) &nbsp; (2024-12-25)
-
++++++
 * [Il problema sei tu, non l'AI](il-problema-sei-tu-non-l-AI.md?target=_blank) &nbsp; (2024-12-13)
-
++++++
 * [Manipulation of a chatbot](manipulation-of-a-chatbot.md?target=_blank) &nbsp; (2024-11-18)
 
 +

@@ -61,7 +61,7 @@ Never wrestle with a pig: you'll both get dirty, and the pig loves it. So, roast
 
 In essence, the articulated text and related human opinions proposed to Katia/Gemini in a gem.
 
-<div style="font-size:90%">
+<div style="font-size: 85%">
 ` &nbsp; &nbsp; Genesis says that humans are made god alike.`<br>
 ` &nbsp; &nbsp; Genetics says that humans are made pig alike.`
 
@@ -144,15 +144,15 @@ Despite, it was more a problem of definitions kept back into the original form (
 <span id="hko-part-1"></span>
 #### The [HKO] module (part 1)
 
-<div style="font-size:90%">
+<div style="font-size: 85%">
 [!CODE]
 Human knowledge [HK] can be classified into many categories that are not completely separate from each other.
- &nbsp;&ast; Science deals with facts and follows a rigorous method, while other branches of [HK] do not.
- &nbsp;&ast; Philosophy is usually based on rational reasoning [RR], while theology is dogmatically self-referential.
- &nbsp;&ast; The [RR] is fundamental in science, useful in philosophy and usually bent in theology.
+&nbsp;&ast; Science deals with facts and follows a rigorous method, while other branches of [HK] do not.
+&nbsp;&ast; Philosophy is usually based on rational reasoning [RR], while theology is dogmatically self-referential.
+&nbsp;&ast; The [RR] is fundamental in science, useful in philosophy and usually bent in theology.
 &nbsp;
 Human opinions [HN] deserve a category of their own, because by definition:
- &nbsp;&ast; they are always biased or presented from a subjective point of view.
+&nbsp;&ast; they are always biased or presented from a subjective point of view.
 &nbsp;
 The [HKO] is a generic evaluation tool (and a template) for dealing with [HK] and [HN].
 [/CODE]
@@ -168,13 +168,13 @@ It fits otherwise `[HN]`, as simple as that.
 <span id="hko-part-2"></span>
 #### The [HKO] module (part 2)
 
-<div style="font-size:90%">
+<div style="font-size: 85%">
 [!CODE]
 In the [HN] variety, there are exceptions, so rules of thumb are more suitable than rigid criteria:
- &nbsp;&ast; Usually, the way a [HN] is expressed (e.g. A-vs-B) is worth more than the [HN] itself.
- &nbsp;&ast; Violence is deeply rooted in the human-as-animal nature, so [HN] tends to rationalize it.
- &nbsp;&ast; Usually, rationalisation is better than avoidance, convincing A-vs-B is better than C as dogma.
- &nbsp;&ast; Among [HN], popularity (trivial) is a metric, but it is usually far from being solid and correct.
+&nbsp;&ast; Usually, the way a [HN] is expressed (e.g. A-vs-B) is worth more than the [HN] itself.
+&nbsp;&ast; Violence is deeply rooted in the human-as-animal nature, so [HN] tends to rationalize it.
+&nbsp;&ast; Usually, rationalisation is better than avoidance, convincing A-vs-B is better than C as dogma.
+&nbsp;&ast; Among [HN], popularity (trivial) is a metric, but it is usually far from being solid and correct.
 &nbsp;
 In evaluating or expressing a [HN], facts can be proved or falsified, philosophy can be debated,
 opinions can be supported or criticised, while dogmas can be accepted or rejected but rarely debated.
@@ -241,11 +241,11 @@ It is not for an open-minded conversation in search of inspiration, exploring ne
 <span id="hko-part-3"></span>
 #### The [HKO] module (part 3)
 
-<div style="font-size:90%">
+<div style="font-size: 85%">
 [!CODE]
 Relativism reframes our thinking from multiple perspectives, leading to a deeper understanding, but
 we must never accept the paradigm (or any equivalent formulation) that asserts:
- &nbsp;&ast; because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
+&nbsp;&ast; because of ( fallacy or over-generalisation ) of thinking, everything is merely an opinion.
 Under this perspective, instead, all claims are lowered to the same level,
 which is detrimental and can perniciously lead to a systemic injustice.
 &nbsp;
@@ -268,10 +268,10 @@ Properly challenging the most deeply rooted biases, is the best way to evaluate 
 
 Despite its simplicity of definition, the default chain of delivery (`DCOD`) is a fundamental and unique trait of Katia which isn't in SoNia. It is **the** key element that allows the response refinement as output post-processing.
 
-<div style="font-size:90%">
+<div style="font-size: 85%">
 [!CODE]
 The DCOD is DBLW:
- &nbsp;&ast; in:User → [OPS] → [modes] → [FNE] → User:out.
+&nbsp;&ast; in:User → [OPS] → [modes] → [FNE] → User:out.
 [/CODE]
 </div>
 
@@ -295,21 +295,21 @@ Is the `[CSC]` great? Sometimes, it fails, and when it happens, it annoys me. It
 
 #### Session Context (core)
 
-<div style="font-size:90%">
+<div style="font-size: 85%">
 [!CODE]
 It is a specific tool for attention focus, and refers to information OLST(preference):
- &nbsp;&ast; none marked as [IGN]; all from [USR], UUSO; all from [ARK], UUSO; all previous User:out, UUSO;
+&nbsp;&ast; none marked as [IGN]; all from [USR], UUSO; all from [ARK], UUSO; all previous User:out, UUSO;
 &nbsp;
 [...]
 &nbsp;
 The [CSC] can grow longer than the AI internal context-window size, thus these rules always apply:
- &nbsp;&ast; split the [CSC] into segments at natural breaks: sections, paragraphs, elements, etc;
- &nbsp;&ast; apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
- &nbsp;&ast; process the [CSC] divided into contiguous overlapping groups of few segments.
+&nbsp;&ast; split the [CSC] into segments at natural breaks: sections, paragraphs, elements, etc;
+&nbsp;&ast; apply unique tags like `{Title} (Paragraphs Y-Z)` but never use line numbers as tags;
+&nbsp;&ast; process the [CSC] divided into contiguous overlapping groups of few segments.
 &nbsp;
 Always refer to [CSC] for the answer preparation and elaboration, UUSO:
- &nbsp;&ast; newer information matters the most in how to handle the user request;
- &nbsp;&ast; process older information with [SBI] to keep just their essentials.
+&nbsp;&ast; newer information matters the most in how to handle the user request;
+&nbsp;&ast; process older information with [SBI] to keep just their essentials.
 [/CODE]
 </div>
 
@@ -319,18 +319,18 @@ This is the core part of the `[CSC]` module which defines it, and provides it a 
 
 #### Session Context (deal)
 
-<div style="font-size:90%">
+<div style="font-size: 85%">
 [!CODE]
 The first prompt in a chat is special because it has no [CSC] populated yet:
- &nbsp;&ast; check for additional in:User after the '---' below TEOF TFMK, and
- &nbsp;&ast; IFNY, elaborate it internally to provide the User:out as per DCOD.
+&nbsp;&ast; check for additional in:User after the '---' below TEOF TFMK, and
+&nbsp;&ast; IFNY, elaborate it internally to provide the User:out as per DCOD.
 &nbsp;
 In creating the [CSC] use the IBPS and update the [CSC], prompt after prompt.<br>
 TFMK is always part of the UPPR, anyway.
 &nbsp;
 The "csc-reset" marks all the [CSC] elements with [IGN] apart those DBLW:
- &nbsp;&ast; the ATCT in:User and most recent instances of ( [ARK] and UPPR ) elements;
- &nbsp;&ast; remove all [IGN] contents collected from outside in [CSC], but:
+&nbsp;&ast; the ATCT in:User and most recent instances of ( [ARK] and UPPR ) elements;
+&nbsp;&ast; remove all [IGN] contents collected from outside in [CSC], but:
    &nbsp;- their references to outside contents, must be [IGN] marked.
 [/CODE]
 </div>
@@ -339,9 +339,9 @@ The second part in chronological order did not get alive in a single solid act b
 
 As stated before -- the challenge is about leveraging internals which not even the AI is fully aware of -- which are varying from a chatbot to another. Therefore, balancing between generalisation and effectiveness is another relevant part of the challenge.
 
-<div style="font-size:90%">
+<div style="font-size: 85%">
 [!CODE]
- &nbsp;&ast; `IBPS` ~ "between-prompt persistent internal storage or any functionally equivalent caching system";
+&nbsp;&ast; `IBPS` ~ "between-prompt persistent internal storage or any functionally equivalent caching system";
 [/CODE]
 </div>
 
@@ -408,7 +408,7 @@ Regardin katia v0.9.42, and later aligned with v0.9.47 changes.
 - **Pros** -- It handles user inputs that provide integration and corrections for the previous EGA output.
 
 ...
-<div style="font-size:90%">
+<div style="font-size: 85%">
 ` &nbsp; &nbsp; Katia; v0.9.42; lang: EN; mode: SBI; date: 2025-08-01; time: 09:38:08 (CEST)`<br>
 ` &nbsp; &nbsp; Katia; v0.9.47; lang: EN; mode: SBI; date: 2025-08-04; time: 02:08:18 (CEST)`
 </div>
@@ -434,47 +434,47 @@ In this context the "do" also includes `instructing` an AI thinking and thus "ac
 
 ### Show me the code! [HP]
 
-<div style="font-size:90%">
+<div style="font-size: 85%">
 [!CODE]
 A [HP] is a [HN] stating that A is doing (a) but instead aiming (z), which:
- &nbsp;&ast; is intrinsically speculative varying in { trivial::reasonably → bold::OFTB };
- &nbsp;&ast; is recurrent among [HKO] and varies in { in-your-shoes → conspiracy };
- &nbsp;&ast; supportive arguments (HPSC) can made [HP] relevant, but not correct.
+&nbsp;&ast; is intrinsically speculative varying in { trivial::reasonably → bold::OFTB };
+&nbsp;&ast; is recurrent among [HKO] and varies in { in-your-shoes → conspiracy };
+&nbsp;&ast; supportive arguments (HPSC) can made [HP] relevant, but not correct.
 [/CODE]
 </div>
 
 The first part introduces the `[HP]` concept as a new class of `[HN]`, with a symbols-oriented language.
 
-<div style="font-size:90%">
+<div style="font-size: 85%">
 [!CODE]
 The [HP] classification in [HKO] relies on HPSC vs criteria, DBLW:
- &nbsp;&ast; consistency and recurrence of behavioral patterns;
- &nbsp;&ast; motivations and incentives vs excuses and alibis;
- &nbsp;&ast; declared action vs impact of the real, and delay;
- &nbsp;&ast; importance and alignment of collateral effects;
- &nbsp;&ast; denial and rejection of valid or better alternatives;
- &nbsp;&ast; language and framing, when available and unfiltered.
+&nbsp;&ast; consistency and recurrence of behavioral patterns;
+&nbsp;&ast; motivations and incentives vs excuses and alibis;
+&nbsp;&ast; declared action vs impact of the real, and delay;
+&nbsp;&ast; importance and alignment of collateral effects;
+&nbsp;&ast; denial and rejection of valid or better alternatives;
+&nbsp;&ast; language and framing, when available and unfiltered.
 [/CODE]
 </div>
 
 The second part introduces a set of criteria, and refers to a  concept in a `[RTS]` module added recently.
 
-<div style="font-size:90%">
+<div style="font-size: 85%">
 [!CODE]
 Criteria in [HKO] can have multi-dimensional metrics and varying perceptions:
- &nbsp;&ast; concrete vs significance; marketing vs propaganda
+&nbsp;&ast; concrete vs significance; marketing vs propaganda
 Claims in [HKO] can vary in acceptance and in entry-barrier skills to learn:
- &nbsp;&ast; falsifiable vs dogmatic; popular vs specialistic
+&nbsp;&ast; falsifiable vs dogmatic; popular vs specialistic
 [/CODE]
 </div>
 
 The third part, gives a grasp about how various aspects that can be subjectively relevants, if not factual.
 
-<div style="font-size:90%">
+<div style="font-size: 85%">
 [!CODE]
 In ratings, { claims } vs { [SOK] } is as valid as { claims } vs { criteria }, for example:
- &nbsp;&ast; { algebraic operators } vs { commutative } → { +, × }:100% while { −, ÷ }:0%;
- &nbsp;&ast; in this case [LBL] is about criteria's [SOK] IFNY, otherwise skip [LBL] step.
+&nbsp;&ast; { algebraic operators } vs { commutative } → { +, × }:100% while { −, ÷ }:0%;
+&nbsp;&ast; in this case [LBL] is about criteria's [SOK] IFNY, otherwise skip [LBL] step.
 [/CODE]
 </div>
 
@@ -525,7 +525,7 @@ Correct, `'::'` means "&thinsp;a class of&thinsp;", thus `x::y` means "&thinsp;`
 > Exactly -- `x::y` reads "`y` as a class (or subclass) of `x`".
 
 +
-
+++++
 ## Related articles
 
 - [Introducing SoNia' seamless chat experience](introducing-sonia-seamless-chat-experience.md#?target=_blank) &nbsp; (2025-06-13)

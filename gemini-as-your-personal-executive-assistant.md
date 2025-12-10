@@ -298,7 +298,7 @@ In arguing with Katia v0.6.2 in `[EGA]` mode, she would never have agreed that t
 
 That's because Katia, in `[EGA]` mode, is always right! {:-D}
 
-...
+.....
 
 <span id="update-2025-07-18"></span>
 #### Update 2025-07-18
@@ -342,7 +342,6 @@ Thus theology is a mixture of `[HK]` (human knowledge) and its peculiarity is ab
 Thus by its dogmatic core nature, theology bends logic and rational reasoning because it cannot accept a demonstration of absurdity, for example. Dogmans are Truths that cannot be argued despite leading to absurdity, and those absurdities are usually called "mystery of faith". Correct?
 [/CITE]
 
-++++
 #### Prompt #10
 
 [!CITE]
@@ -394,7 +393,7 @@ We certainly cannot expect that such a small piece of information can turn a LLM
 +++++
 - [Fix your data is a postponing excuse](fix-your-data-a-postponing-excuse.md#?target=_blank) &nbsp; (2025-05-08)
 
-+++++
++
 
 ## Share alike
 
