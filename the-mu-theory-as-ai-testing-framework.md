@@ -41,24 +41,6 @@ While accepting that some, and possibly many, will certainly adopt this approach
 
 ---
 
-### Feynman vs. Einstein: The Myth of the Genius
-
-Short introduction on the µ-theory written by Gemini AI.
-
-[!CITE]
-The scientific community’s sustained failure to achieve unification for over a century, despite the proven success of both GR and the Standard Model, points to a potential bottleneck in methodological philosophy, which is the true subject of the debate.
-
-In essence, raising this question is a defense of scientific pragmatism—the idea that the goal of science is not to worship complexity or icons, but to find the most simple, elegant, and unified representation of reality.
-
-The challenge is not against Einstein the man, but the iconic weight that protects his theory from the kind of radical, structural re-evaluation (like the µ-theory's) that may be required for unification.
-
-The Feynman ideal prioritizes finding the simplest, most elegant path (like the path integral formulation). This aligns with the µ-theory’s return to the $\mu t$-Minkowski notation for mathematical simplicity and unification.
-
-The µ-theory does not waste time attempting to falsify General Relativity where it is known to be robust (in strong fields), but rather seeks to replace it where it is weak (in unification and N-body complexity) by providing a simpler, more elegant structural foundation (µt-Minkowski).
-[/CITE]
-
----
-
 <span id="u-theory"></span>
 #### A bit of mu-theory
 
@@ -137,9 +119,35 @@ Since absolute truth (absolute determinism) is inaccessible and infinite-degrees
 
 <!--// https://gemini.google.com/share/f957bf1b7346 //-->
 
-----
+---
 
-### Quali sono gli ostacoli?
+### Feynman vs. Einstein: The Myth of the Genius
+
+Short introduction on the µ-theory written by Gemini AI.
+
+[!CITE]
+The scientific community’s sustained failure to achieve unification for over a century, despite the proven success of both GR and the Standard Model, points to a potential bottleneck in methodological philosophy, which is the true subject of the debate.
+
+In essence, raising this question is a defense of scientific pragmatism—the idea that the goal of science is not to worship complexity or icons, but to find the most simple, elegant, and unified representation of reality.
+
+The challenge is not against Einstein the man, but the iconic weight that protects his theory from the kind of radical, structural re-evaluation (like the µ-theory's) that may be required for unification.
+
+The Feynman ideal prioritizes finding the simplest, most elegant path (like the path integral formulation). This aligns with the µ-theory’s return to the $\mu t$-Minkowski notation for mathematical simplicity and unification.
+
+The µ-theory does not waste time attempting to falsify General Relativity where it is known to be robust (in strong fields), but rather seeks to replace it where it is weak (in unification and N-body complexity) by providing a simpler, more elegant structural foundation (µt-Minkowski).
+[/CITE]
+
+It is worth noticing that the µt-theory doesn't aim to explain "Everything". It stops at the Planck length/time and at the black-hole horizon (Planck mass/energy density). Therefore whatever is inside a black-hole or below the space-time lattice defined by µt-discrete, it is out of its scope.
+
++
+
+## Quali sono gli ostacoli?
+
+L'ostacolo principale che il genio di Eistain è il prodotto di un marketing in stile holliwoodiano di una lobbying filo-esraeliana (da sottolineare che Israele e gli ebrei sono due cose distinte) che ovviamente aveva tutto l'interesse una decade dopo la fine della WW2 ad incensare Eistain come genio assoluto scopritore della formula alla base della bomba atomica per evidenti interessi geopolitici anche se Eistein era ebreo solo di nascita, non praticante e certamente non associabile ad Israele giacché il moderno concetto di Israele è molto postumo rispetto alla nascita di Einstein, in Germania da cui fuggì proprio per le sue origini ebree.
+
+---
+
+### Mutua eclusione fra teorie
 
 Premesso che lo sviluppo formale e scientificamente confutabile di una µ-teoria non è fra i miei interessi, più che altro una curiosità, e quasi sicuramente nemmeno nelle mie capacità in termini di professionalità nell'adoperare il linguaggio matematico astratto, ci sono alcuni ostacoli non-tecnici su questa strada.
 
@@ -149,9 +157,7 @@ Non è un problema che la µ-teoria supporti l'idea che l'universo che osserviam
 
 Perché `E = mc²` come la Relatività Ristretta (RR) emergono da un'eleborazione matematica delle equazioni di Maxwell. Anche la teoria della Relatività Generale (GR) è fondamentalmente una sofisticatissima elaborazione matematica. Due contributi alla matematica che sicuramente appartengono più alla prima moglie di Eistain che al genio della fisica.
 
-Quello che invece finirebbe nella pattumiera sarebbe proprio l'interpretazione fisica di quella matematica, non `E = mc²` la cui eleganza è tale che già da sola la rende sacra, ma proprio il **personale** contributo alla fisica di Einstein. Una cosa normale nella scienza, perché negli ultimi cinque secoli ne abbiamo cestinato parecchi di nomi che un tempo erano "giganti" per usare il termine che usò Newton.
-
-L'ostacolo principale che il genio di Eistain è il prodotto di un marketing in stile holliwoodiano di una lobbying filo-esraeliana (da sottolineare che Israele e gli ebrei sono due cose distinte) che ovviamente aveva tutto l'interesse una decade dopo la fine della WW2 ad incensare Eistain come genio assoluto scopritore della formula alla base della bomba atomica per evidenti interessi geopolitici anche se Eistein era ebreo solo di nascita, non praticante e certamente non associabile ad Israele giacché il moderno concetto di Israele è molto postumo rispetto alla nascita di Einstein, in Germania da cui fuggì proprio per le sue origini ebree.
+Quello che invece finirebbe nella pattumiera sarebbe proprio l'interpretazione fisica di quella matematica, non `E = mc²` la cui eleganza è tale che già da sola la rende sacra, ma proprio il maggiore e personale contributo di Einstein alla fisica. Una cosa normale nella scienza, perché negli ultimi cinque secoli ne abbiamo cestinato parecchi di nomi che un tempo erano "giganti" per usare il termine che usò Newton.
 
 ---
 
@@ -193,7 +199,7 @@ Infine pare che di Minkowski non si conoscesse bene la genealogia famigliare (se
 
 C'era una ragione storico-politica per preferire Einstein a Minkowski. Ciò non significa che la Scienza faccia politica, ma che la politica non è scienza ma solo convenienza, e se ne infischia della scienza.
 
-~~~~~
+---
 
 ### Allora, la notazione di Minkowski, perché no?
 
@@ -214,6 +220,14 @@ Quindi abbiamo rinunciato alla notazione di Minkowski che ci permetteva di avere
 Forse, è venuto il momento dopo 100 anni che un tizio strano che faceva l'informatico privo di una reputazione accademica da difendere, si prenda la briga di relegare l'interpretazione di Einstein ai libri di storia della scienza e a riportare in auge la notazione di Minkowski.
 
 Nella quale è il tempo a essere reale, e imponendo il vincolo discreto come fosse un dogma di natura ossia una struttura connaturata allo spazio-tempo ossia che il tempo sia **strutturalmente** discreto allora otteniamo come risultato che la relatività ristretta emerge dalla stessa notazione di Minkowski ossia dalle caratteristiche euclidee dello spazio-tempo in 4D.
+
+A questo punto non rimane che preventivare quali risultati ci si possa attendere dallo sviluppo ulteriore di questa teoria. Perché anche la ricerca scientifica, anche quella teorica richiedono di pianificare le aspettative.
+
++
+++++
+## Futuri possibili sviluppi
+
+Non è mai facile prevedere il futuro neanche nella scienza teorica che è la meno soggetta alle dinamiche non lineari intrinseche nella complessità della realtà. Neanche quando, come nel caso della della µ-theory per la quale si è scelto la massima semplicità come principio primo. Però vale la pena valutare le aspettative, ed entro i limiti di validità della teoria stessa (fra l'orizzonte degli eventi dei buchi neri e al di sopra del lattice spazio-temporale), con una relativamente buona confidenza.
 
 ---
 
