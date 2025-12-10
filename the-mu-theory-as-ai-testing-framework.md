@@ -25,7 +25,7 @@ All of these tests have an intrinsically human-in-the-loop in line with the "edu
 ---
 
 <span id="u-teaching"></span>
-### The mu-theory pedagocial value
+### The mu-theory pedagogical value
 
 This approach required developing many sequential versions of the same text and also extending it. Every version is saved in the github project history. Not the best way to provide a 3rd-party set of documents as a test suite. A goal was not considered at the beginning.
 
