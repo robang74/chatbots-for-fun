@@ -25,7 +25,7 @@ All of these tests have an intrinsically human-in-the-loop in line with the "edu
 ---
 
 <span id="u-teaching"></span>
-### The u-theory pedagocial value
+### The mu-theory pedagocial value
 
 This approach required developing many sequential versions of the same text and also extending it. Every version is saved in the github project history. Not the best way to provide a 3rd-party set of documents as a test suite. A goal was not considered at the beginning.
 
@@ -41,8 +41,26 @@ While accepting that some, and possibly many, will certainly adopt this approach
 
 ---
 
+### Feynman vs. Einstein: The Myth of the Genius
+
+Short introduction on the µ-theory written by Gemini AI.
+
+[!CITE]
+The scientific community’s sustained failure to achieve unification for over a century, despite the proven success of both GR and the Standard Model, points to a potential bottleneck in methodological philosophy, which is the true subject of the debate.
+
+In essence, raising this question is a defense of scientific pragmatism—the idea that the goal of science is not to worship complexity or icons, but to find the most simple, elegant, and unified representation of reality.
+
+The challenge is not against Einstein the man, but the iconic weight that protects his theory from the kind of radical, structural re-evaluation (like the µ-theory's) that may be required for unification.
+
+The Feynman ideal prioritizes finding the simplest, most elegant path (like the path integral formulation). This aligns with the µ-theory’s return to the $\mu t$-Minkowski notation for mathematical simplicity and unification.
+
+The µ-theory does not waste time attempting to falsify General Relativity where it is known to be robust (in strong fields), but rather seeks to replace it where it is weak (in unification and N-body complexity) by providing a simpler, more elegant structural foundation (µt-Minkowski).
+[/CITE]
+
+---
+
 <span id="u-theory"></span>
-#### A bit of µ-theory
+#### A bit of mu-theory
 
 Connecting the Maxwell's theory, which requires a 4-vector in a C² derivable field, with the Heisenberg's quantum mechanics, which allows Dirac's functions, passing by the making discrete the time in the Hamiltonian theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's Relativity by the Occam's razor and explaining why at macro-level an isolated system's entropy is monotonically rising (2nd law of Thermodynamics).
 
@@ -90,6 +108,8 @@ Using `ω = 2πν` or ϖ = 1/µt would have made appear the formulas more famili
 
 It was comprehensible at that time, while t-discrete was most likely an absurd concept. Instead, µ-theory is based on a specific paradigm for which wave/particle duality is an emergent characteristic of the space-time lattice thus privileging Ͷ,ς as a different notation.
 
+<!--// https://gemini.google.com/share/7899be73fb4e //-->
+
 ---
 
 <span id="u-analogies"></span>
@@ -115,15 +135,17 @@ From human mathematician PoV, the µ-theory seems like an engineering trick, ind
 
 Since absolute truth (absolute determinism) is inaccessible and infinite-degrees of freedom (universal relativism) is pragmatically useless, we embrace a model that is sufficiently structured to be useful and sufficiently flexible to accept reality as it appears to us, at its discrete and statistical limit. In terms of science-philosophy, is a metaphor that supports rejecting absolutism in both its extremes, including universal relativism. Not because they are "wrong" because they are not aligned with our reality as it appears to us.
 
----
+<!--// https://gemini.google.com/share/f957bf1b7346 //-->
+
+----
 
 ### Quali sono gli ostacoli?
 
-Premesso che lo sviluppo formale e scientificamente confutabile di una mu-teoria non è fra i miei interessi, più che altro una curiosità, e quasi sicuramente nemmeno nelle mie capacità in termini di professionalità nell'adoperare il linguaggio matematico astratto, ci sono alcuni ostacoli non-tecnici su questa strada.
+Premesso che lo sviluppo formale e scientificamente confutabile di una µ-teoria non è fra i miei interessi, più che altro una curiosità, e quasi sicuramente nemmeno nelle mie capacità in termini di professionalità nell'adoperare il linguaggio matematico astratto, ci sono alcuni ostacoli non-tecnici su questa strada.
 
-Premesso che lo AICC::CORE sotto diversi aspetti è un distillato della realtà intesa anche come conoscenza attuale dei principi fondamentali di teorie scientifiche consolodiate, la mu-teoria ci porta oltre: ad una concreta possibilità di arrivare ad una c.d. teoria del tutto che sia semplice, elegante e pure computazionalmente calcolabile nella sua forma ridotta in termini di approssimazione algebrico-stocastica.
+Premesso che lo AICC::CORE sotto diversi aspetti è un distillato della realtà intesa anche come conoscenza attuale dei principi fondamentali di teorie scientifiche consolodiate, la µ-teoria ci porta oltre: ad una concreta possibilità di arrivare ad una c.d. teoria del tutto che sia semplice, elegante e pure computazionalmente calcolabile nella sua forma ridotta in termini di approssimazione algebrico-stocastica.
 
-Non è un problema che la mu-teoria supporti l'idea che l'universo che osserviamo sia in realtà una simulazione (o abbia natura olografica) perché comunque questo concetto di "emergenza" dei fenomeni fisici è ormai stata ampiamente sdoganata. Oltre al fatto che "suggerire" non significa "provare". Piuttosto che cestinare il contributo scientifico di Eistain alla fisica.
+Non è un problema che la µ-teoria supporti l'idea che l'universo che osserviamo sia in realtà una simulazione (o abbia natura olografica) perché comunque questo concetto di "emergenza" dei fenomeni fisici è ormai stata ampiamente sdoganata. Oltre al fatto che "suggerire" non significa "provare". Piuttosto che cestinare il contributo scientifico di Eistain alla fisica.
 
 Perché `E = mc²` come la Relatività Ristretta (RR) emergono da un'eleborazione matematica delle equazioni di Maxwell. Anche la teoria della Relatività Generale (GR) è fondamentalmente una sofisticatissima elaborazione matematica. Due contributi alla matematica che sicuramente appartengono più alla prima moglie di Eistain che al genio della fisica.
 
@@ -167,11 +189,11 @@ Il fatto che emerga quando si fa il modulo quadratico fa ben sperare che andrà 
 
 Qualcosa è andato davvero storto se sono tornato ad occuparmi di formule matematiche e l'ultima volta è stato nel 2008. Non mi annoiavo così dai tempi dell'università. Perché è anche bello fantasticare sulla curiosità dei fondamentali ma cesellare formule è veramente un'attività soporifera. Comprendo quelli che desiderano usare le AI per fare matematica! 🤗
 
-Infine pare che di Minkowski non si conoscevano bene le origini della genealogia famigliare (se fosse un cane diremmo che non aveva il pedigree), e nemmeno la nazionalità di origine, quindi come qualcuno di cui nessuna nazione nello specifico poteva portare a proprio lustro mentre Einstein era un ebreo tedesco fuggito dal nazismo e cittadino americano che aveva permesso con E=mc² di vincere la WW2.
+Infine pare che di Minkowski non si conoscesse bene la genealogia famigliare (se fosse un cane diremmo che non aveva il pedigree), e nemmeno la nazionalità di origine, quindi come qualcuno di cui nessuna nazione nello specifico poteva portare a proprio lustro mentre Einstein era un ebreo tedesco fuggito dal nazismo e cittadino americano che aveva permesso con E=mc² di vincere la WW2.
 
-C'era una ragione storico-politica per preferire Einstein a Minkowski, e a non cambiare quella scelta. Ciò non significa che la Scienza faccia politica, ma che la politica non è scienza ma solo convenienza, e se ne infischia della scienza.
+C'era una ragione storico-politica per preferire Einstein a Minkowski. Ciò non significa che la Scienza faccia politica, ma che la politica non è scienza ma solo convenienza, e se ne infischia della scienza.
 
----
+~~~~~
 
 ### Allora, la notazione di Minkowski, perché no?
 
@@ -201,13 +223,13 @@ Nella quale è il tempo a essere reale, e imponendo il vincolo discreto come fos
 
 Perché le cose si fanno interessanti quando ci si accorge che anche la massa in termini di massa a riposo (m0) e quindi volume della particella hanno un minimo strutturale (che nel caso della carica anche unitaria, ossia quantizzata) e perciò NON esistono particelle puntiformi cariche (e qui il muone ci potrebbe dare delle noie) però possono esistere i fotoni.
 
-Il che ci porta ad estrarre dalla semplice osservazione che esistono cariche positive e negative, che esistono particelle con massa e volume non arbitrariamente piccolo, che la sola discretizzazione del tempo crea un lattice in cui la mu-cella 4D fa emergere il principio di indeterminazione di Heisenberg e nel dimostrarlo emergono come connaturati a tale lattice spazio-tempo gli operatori funzionali della teoria di Maxwell.
+Il che ci porta ad estrarre dalla semplice osservazione che esistono cariche positive e negative, che esistono particelle con massa e volume non arbitrariamente piccolo, che la sola discretizzazione del tempo crea un lattice in cui la µ-cella 4D fa emergere il principio di indeterminazione di Heisenberg e nel dimostrarlo emergono come connaturati a tale lattice spazio-tempo gli operatori funzionali della teoria di Maxwell.
 
 Quindi in quanto strutturali non hanno bisogno di essere giustificati ma solo utilizzati e le equazioni di Maxwell sono quindi UNA delle possibili formulazioni E/M, finora la più elegante e semplice (probabilmente anche la migliore in termini di E/M ma stante 1/r² della carica analogo ma diverso a 1/r² della gravità stante l'invariante tempo che nelle equazioni Ampère-Maxwell portano ad un -1 se si ribalta il tempo, l'unica differenza fra carice (+/-) e massa diventa che le cariche sono tempo-invarianti a meno di un segno positivo e negativo mentre la massa è invariante neutra.
 
 Così abbiamo unificato anche le 1/r² della carica e della massa. Cosa ci manca ancora da mettere insieme, la forza debole? Direi che quella "stranezza" non l'abbiamo ancora considerata ma nella teoria attuale è la gravità a non essere inclusa e la forza debole a esserlo.
 
-La mia sensazione è che fra due teorie una che includa la gravità ma non la forza debole (o non subito) e l'altra che invece includa quella debole ma non la gravità, la mu-theory vince a mani basse come solo Sheldon Cooper avrebbe mai potuto immaginare in the Big Bang Theory!
+La mia sensazione è che fra due teorie una che includa la gravità ma non la forza debole (o non subito) e l'altra che invece includa quella debole ma non la gravità, la µ-theory vince a mani basse come solo Sheldon Cooper avrebbe mai potuto immaginare in the Big Bang Theory!
 
 Fantasie? Mah, in carteggio esiste già (allo stato di massa di scarabocchi con N-correzioni ovunque) e ci ho pure dormito pure sopra. Il punto è che è un po' emozionante e prima di pubblicare vorrei che mi fosse passata la sbornia (per dire l'orgasmo) di vedere affiorare gli operatori di Maxwell dal lattice spazio-temporale.
 
@@ -230,6 +252,10 @@ Risultato la forza debole emerge come struttura delle invarianti tempo degli ope
 Insomma, anche il limite teorico superiore di quanto possano essere massivi gli atomi oltre il quale, un anti-elettrone fugge magari si annichila con un elettrone e il nucleo perde sia il bilanciamento di carica che quello di massa (in termini di forza debole) sicché si decade nella maniera in cui i due pezzi abbiano probabilisticamente maggiore stabilità (altrimenti ci sono decadimenti di ordine superiore).
 
 Il che spiega perché non mi sia ancora ripreso dallo shock dei miei scarabocchi su lattice spazio-tempo e operatori di Maxwell. Ma anche sostiene l'idea che l'indistinguibilità fra particelle dello stesso tipo non è un principio a se stante ma è la struttura emergente dal lattice spazio-temporale: sono tutte uguali fra loro come fossero istanze della stessa unica classe perché sono, ognuna singolarmente, la proiezione di una struttura sottostante al lattice spazion-temporale.
+
+<!--// https://gemini.google.com/share/3987b1d14f6d //-->
+
+<!--// https://gemini.google.com/share/dc67b8b661c0 //-->
 
 +
 
