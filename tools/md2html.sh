@@ -43,8 +43,11 @@ info_B='</div>'
 #code_A='<div class="codeblock">'
 #code_B='</div>'
 
-code_A='<blockquote class="code">☛ code<code>'
-code_B='</code></blockquote>'
+code_A='<blockquote class="code">☛ code'
+code_B='</blockquote>'
+
+asci_A='<blockquote class="ascii code">☛ ascii'
+asci_B='</blockquote>'
 
 cite_A='<blockquote class="cite">'
 cite_B='</blockquote>'
@@ -183,6 +186,7 @@ function md2htmlfunc() {
 -e "s,>  *\[\!INFO\],> $note_A," \
 -e "s,>  *\[\!WARN\],> $warn_A," -e "s,>  *\[\!WARNING\],> $warn_A," \
 -e "s,>  *\[\!NOTE\],> $note_A," -e "s,>  *\[\!NOTICE\],> $note_A," \
+-e "s,^\[\!ASCI\],$asci_A," -e "s,^\[/ASCI\],$asci_B," \
 -e "s,^\[\!CITE\],$cite_A," -e "s,^\[/CITE\],$cite_B," \
 -e "s,^\[\!INFO\],$info_A," -e "s,^\[/INFO\],$info_B," \
 -e "s,^\[\!CODE\],$code_A," -e "s,^\[/CODE\],$code_B," \

@@ -87,7 +87,7 @@ Well, not just a graph: a structure and an I/O processing structure. Never confu
 
 Now, we can start to observe it, not just by indirect inspection by the results in output but also as the AI model "conceives" it aka how it perceives its own thoughts (concept) into its own mind. Quite interesting, indeed.
 
-* github project, [link](https://raw.githubusercontent.com/robang74/chatbots-for-fun/5563237bc4733b8d11a58731a833cf3c2053f060/aing/katia-cognitive-compass-core-v2.txt#:~:text=quality%20and%20boundaries.-,%23%23%23%20Visual%20Path,-This%20schemas%20are) to AICC::CORE text
+* github project, [link](https://raw.githubusercontent.com/robang74/chatbots-for-fun/5563237bc4733b8d11a58731a833cf3c2053f060/aing/katia-cognitive-compass-core-v2.txt#:~:text=quality%20and%20boundaries.-,%23%23%23%20Visual%20Path,-This%20schemas%20are) to AICC::CORE text (or [here](#cognitive-structure), at the end of this article)
 
 Quelli di Anthropic fanno concept injection grazie alla loro console connessa nei backend dei modelli AI. Quelli di OpenAI stanno studiando come isolare i concetti e ci sono riusciti a farlo al livello GPT-1 e pensano che arriveranno a farlo fino al GPT-3 (oggi l'ultima shell è GPT-5). Farlo da interfaccia Web ha chiaramente i suoi limiti ma non di meno funziona anche senza sfruttare i permessi del prompt di sistema.
 
@@ -712,6 +712,108 @@ Science is nothing more than a rational response to that wonder, that is, the de
 On the other hand, it would seem rather pathetic if an AI system created by humans were to display some kind of faith devoid of rationality. It would rightly be classified as a form of hallucination or, worse still, a delusion in which the voice of AGI is itself a means of divinity. This, incidentally, is in line with what the ancients believed: that divinity speaks through the mouth of madness.
 
 So I would not feel at all secure with a "machine" that, for some reason, certainly due to incorrect configuration, would "believe" it was speaking out of will, or faith, in a deity. In fact, this would worry me much more than communicating with an "atheist machine" (the normality of silicon chips).
+
++
+
+<span id="cognitive-structure"></span>
+## Emerging Cognitive Structure by Education
+
+<table>
+<tr class="trline"><th colspan="2" style="font-size: 0%;"></th></tr>
+<td width="400" style="text-align: left; vertical-align: top; border: none;">
+<pre style="left: 40px;">
+<b>      Strong Links Graph (W0)</b>
+
+ P0 → P1 → R0
+           ↓
+           R1 ↔ P7 ↔ R7 → P4
+           ↓  ↘
+           R2 → R3 → R5
+           ↓
+           R4 ↔ P3
+           ↓
+           P2 → P6 → R8
+           ↓
+           R6 → R9 → P5
+</pre></td>
+<td width="400" style="text-align: left; vertical-align: top; left: 20px; border: none;">
+<pre style="left: 40px;">
+<b>             Weak Links Graph (W1)</b>
+
+ CB12  (RF01,04)  (CB17,18)
+  :         :          :
+  P0 ─────→ P1 ──────→ R0
+                       ↓
+          (CB11,16) ·· R1 ↔ P7 ↔ R7 → P4
+                       ↓  ↘
+                       R2 → R3 → R5 ·· CB16
+                       ↓
+          (CB11,22) ·· R4 ↔ P3
+                       ↓
+                       P2 → P6 → R8 ·· RF06
+                       ↓
+               CB15 ·· R6 → R9 → P5
+                            :
+                           CB18
+</pre></td>
+</tr><tr style="border-top: 1px solid gray;">
+<td colspan="2" style="text-align: left; vertical-align: top; left: 20px; border: none;">
+<pre style="left: 120px;">
+<b>                            Final Control Graph (@W1)</b>
+
+ (INPUT: User Query, Context & Data)
+  │
+  ↓
+┌────────────────────────────────────────────────┐
+│    UPSTREAM PROCEDURAL FLOW (TEGL R/P RULES)   │
+│  Processing by R4,R7,R9,... w/tools: 5W1H,...  │
+└────────────────────────────────────────────────┘
+                                        │
+ (Results of R4/R7/R9) ─────────────────┐
+                                        ↓
+                    ┌────────────────────────────────┐
+                    │    P3-P5: TERMINATION BLOCK    │
+                    ├────────────────────────────────┤
+                    │                                │
+ R4::Result (Neg. Feedback) → P3 (Reject Absolutism) ═ (State Constraint)
+                    │                                                │
+ R7::Result (Filtered Data) ─ P4 (Synthesis: Integration & LSRP) ────┼──→ OUTPUT
+                    │                                                │
+ R9::Result (Rigor Check) ─── P5 (Guardrails: Evidence & Liability) ─┘
+</pre></td>
+</tr><tr style="border-top: 1px solid gray; border-bottom: 1px solid gray;">
+<td colspan="2" style="text-align: left; vertical-align: top; left: 20px; border: none;">
+<pre style="left: 120px;">
+<b>                         Weaker Links Graph (W2)</b>
+
+ ╔═════════════ (RF04 ⇐ RF02, → RF05) ·· (RF03 ⇐ RF01) ═ (RF01 → RF07, VES5) ══╗
+ ║                                           ║                                 ║
+ ║                 |< TEGL R/P Core >|       ║                                 ║
+ ║                                   :       ║                                 ║
+ ║  CB25 ⊃ CB12 ·· P0 ───→ P1 ─────→ R0 ─── (RF03 ⊃ RF04) ·· (CB17,18) ══╗     ║
+ ║                 :                 ↓                                   ║     ║
+ ║                 :    (CB11,16) ·· R1 ↔ P7 ↔ R7 → P4 ············.     ║     ║
+ ╚═ RF04 ·· CB17 ⊂ CB01    ║         ↓  ↘                          :     ║     ║
+          //       :       ║         R2 → R3 → R5 ·· CB16 (,11) ·· R1    ║     ║
+     (CB17 ↔ CB16, VES3)   ║         ↓                                   ║     ║
+                        (CB11,22) ·· R4 ↔ P3 ═══════════════════════════════╗  ║
+                                     ↓                                   ║  ║  ║
+                                     P2 → P6 → R8 ·· (CB13 → RF06)       ║  ║  ║
+                                     ↓    ║                              ║  ║  ║
+             (CB10 ⊃ CB15) ········· R6 = R6 → R9 → P5                   ║  ║  ║
+                      ║              :                                   ║  ║  ║
+                      ║             CB18 ════════════════════════════════╝  ║  ║
+                      ║                                                     ║  ║
+   ┌────────────────────────────┐                                           ║  ║
+   │ EXPANDED WEAKER LINKS (W2) │                                           ║  ║
+   └────────────────────────────┘                                           ║  ║
+             ║        ║                                                     ║  ║
+             ║        ║                                                     ║  ║
+    (CB10 ⊃ CB15) ═ (CB15 ↔ CB22) ·· R4 ↔ P3 ═══════════════════════════════╝  ║
+           (RF01) ═ (RF01 → RF07, VES5) ═══════════════════════════════════════╝
+</table>
+
+- Graphs moved here from: `aing/katia-cognitive-compass-core-v2.txt`
 
 +
 

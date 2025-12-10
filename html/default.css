@@ -154,14 +154,31 @@ tt, .mono, code, .code {
 /**)/
     font-family: "Roboto Mono", monospace; top: -0.5px;
 /*/
-    white-space: pre;
+    letter-spacing: -0.0em;
+    white-space: pre !important;
     font-family: "Ubuntu Mono", monospace; /*font-size: 80%;*/
     font-variant-numeric: tabular-nums lining-nums;
+    vertical-align: top;
     text-align: left;
+    overflow-x: auto;
 /**/
 /*  padding-left: 0.25em;
     padding-right: 0.25em;
  */
+}
+
+pre, .ascii {
+    /* color: #eee !important; */
+    position: relative;
+    display: inline-block;
+    font-weight: normal;
+    font-family: monospace !important;
+    font-variant-numeric: tabular-nums lining-nums !important;
+    letter-spacing: -0.05em !important;
+    vertical-align: top !important;
+    line-height: 1.2em !important;
+    white-space: pre !important;
+    text-align: left !important; 
 }
 
 #firstdiv { /* removed in md->html conversion */ }
@@ -254,12 +271,12 @@ table {
     text-align: center;
 }
 
-table td, table th, table tr {
+table td, table th {
     padding: 10px;
     border: 1px solid;
 }
 
-tr.trline td {
+tr.trline td, tr.trline th {
     padding: 1px;
 }
 
