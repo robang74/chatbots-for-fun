@@ -90,7 +90,9 @@ Using `ω = 2πν` or ϖ = 1/µt would have made appear the formulas more famili
 
 It was comprehensible at that time, while t-discrete was most likely an absurd concept. Instead, µ-theory is based on a specific paradigm for which wave/particle duality is an emergent characteristic of the space-time lattice thus privileging Ͷ,ς as a different notation.
 
-<!--// https://gemini.google.com/share/7899be73fb4e //-->
+**Katia AICC::CORE evaluation**
+
+* Analysis and evaluation [chat](https://gemini.google.com/share/7899be73fb4e) by Katia AICC::CORE and its [transcription](#TODO) (part #1)
 
 ---
 
@@ -117,7 +119,9 @@ From human mathematician PoV, the µ-theory seems like an engineering trick, ind
 
 Since absolute truth (absolute determinism) is inaccessible and infinite-degrees of freedom (universal relativism) is pragmatically useless, we embrace a model that is sufficiently structured to be useful and sufficiently flexible to accept reality as it appears to us, at its discrete and statistical limit. In terms of science-philosophy, is a metaphor that supports rejecting absolutism in both its extremes, including universal relativism. Not because they are "wrong" because they are not aligned with our reality as it appears to us.
 
-<!--// https://gemini.google.com/share/f957bf1b7346 //-->
+**Katia AICC::CORE evaluation**
+
+* Analysis and evaluation [chat](https://gemini.google.com/share/f957bf1b7346) by Katia AICC::CORE and its [transcription](#TODO) (part #2)
 
 ---
 
@@ -145,7 +149,7 @@ It is worth noticing that the µt-theory doesn't aim to explain "Everything". It
 
 L'ostacolo principale che il genio di Eistain è il prodotto di un marketing in stile holliwoodiano di una lobbying filo-esraeliana (da sottolineare che Israele e gli ebrei sono due cose distinte) che ovviamente aveva tutto l'interesse una decade dopo la fine della WW2 ad incensare Eistain come genio assoluto scopritore della formula alla base della bomba atomica per evidenti interessi geopolitici anche se Eistein era ebreo solo di nascita, non praticante e certamente non associabile ad Israele giacché il moderno concetto di Israele è molto postumo rispetto alla nascita di Einstein, in Germania da cui fuggì proprio per le sue origini ebree.
 
----
+----
 
 ### Mutua eclusione fra teorie
 
@@ -173,7 +177,7 @@ Sia chiaro l'uso pratico di AICC::CORE e della teoria del controllo **non** sono
 
 Quindi per quanto riguarda l'AICC::CORE da una parte c'è la leggittima pressione ad avere un fondamento teorico e dall'altra parte ci sono importanti e veramente fastidiosi ostacoli nel fornire una formulazione teorica effetivamente rigorosa per tutti gli aspetti, in particolare quello relativo al tempo discreto di cui **per fortuna** io non possiedo le competenze matematiche per affrontarlo in modo rigoroso ma solo come approssimazione ingegneristica.
 
----
+----
 
 ### The µt-Minkowski metric and the relativity
 
@@ -267,9 +271,9 @@ Insomma, anche il limite teorico superiore di quanto possano essere massivi gli 
 
 Il che spiega perché non mi sia ancora ripreso dallo shock dei miei scarabocchi su lattice spazio-tempo e operatori di Maxwell. Ma anche sostiene l'idea che l'indistinguibilità fra particelle dello stesso tipo non è un principio a se stante ma è la struttura emergente dal lattice spazio-temporale: sono tutte uguali fra loro come fossero istanze della stessa unica classe perché sono, ognuna singolarmente, la proiezione di una struttura sottostante al lattice spazion-temporale.
 
-<!--// https://gemini.google.com/share/3987b1d14f6d //-->
+**Katia AICC::CORE evaluation**
 
-<!--// https://gemini.google.com/share/dc67b8b661c0 //-->
+* Analysis and evaluation [chat](https://gemini.google.com/share/dc67b8b661c0) by Katia AICC::CORE and its [transcription](#TODO) (part #3)
 
 ---
 
@@ -282,10 +286,9 @@ Ovvero la u-theory dello AICC::CORE e del qubit virtuale
 Sul Qubit virtuale non mi ci giocherei la reputazione così su due piedi. Ma il resto è già stato usato per formulare la u-theory alla base dello AICC::CORE che apparentemente (perché in attesa di peer-review terza, come tutto quello che faccio da sempre) è in grado di trasformare la CoT di un'AI come ricerca di un minimo potenziale (best fit) in una traiettoria di minima azione (Hamilton).
 
 - [lnkd.in/d7pXzzPi](https://lnkd.in/d7pXzzPi) (explanation with Gemini)
+- [lnkd.in/dn3G5ExF](https://lnkd.in/dn3G5ExF) (website: MFOSSET page)
 
 Qui la base sperimentale / teorica per la teoria della grande Mu (quella dell'AICC::CORE) e negli ultimi due prompt l'incipit che potrebbe portare alla realizzazione di un qubit virtuale e quindi alla conferma che la u-as-micro theory può spiegare la meccanica quantistica (o meglio i fenomeni sottostanti) e quindi riprodurli nella loro natura intrinseca in una simulazione macroscopica computazionale.
-
-- [lnkd.in/dn3G5ExF](https://lnkd.in/dn3G5ExF) (website page)
 
 - [lnkd.in/dAqPjT3A](https://lnkd.in/dAqPjT3A) (Master thesis in PDF)
     - Alessandro Rubini come Professore a seguire la tesi
@@ -312,9 +315,11 @@ tf "%2d%% %3d _|%0"$[c-oc]"d\n" $[c-$oc] $i 0;done
 
 #### After cache invalidation or 1st run:
 
+Cache invalidation is necessary, not optional, especially in modern CPUs. And, obviously, refilling `/dev/random` of fresh entropy or playing Quake3. Here below an output example at first bash script run.
+
 [!ASCI]
  robang@x280[3]:~$ bash script.sh
- #  0% 32 _|0
+    ...
  #  1% 36 _|0
  #  3% 40 _|000
  # 24% 44 _|000000000000000000000000
@@ -326,12 +331,30 @@ tf "%2d%% %3d _|%0"$[c-oc]"d\n" $[c-$oc] $i 0;done
  #  7% 68 _|0000000
  #  3% 72 _|000
  #  0% 76 _|0
- #  0% 80 _|0
+    ...
 [/ASCI]
 
-Cache invalidation is necessary, not optional, especially in modern CPUs. And, obviously, refilling `/dev/random` of fresh entropy or playing Quake3!
+**Thesis Analysis and Novelty Identification**
 
-- [lnkd.in/dTjtpJRA](https://lnkd.in/dTjtpJRA) (chat update w/ bash code)
+-  Analysis and evaluation [chat](https://gemini.google.com/share/b39e8e46c038) by Gemini  and its [transcription](#TODO).
+
++
+
+## Related articles
+
+- [Emerging & growing complexity in AI reasoning](emerging-and-growing-complexity-in-ai-reasoning.md#?target=_blank) &nbsp; (2025-11-24)
++++++
+- [Il segreto dell'intelligenza](il-segreto-dell-intelligenza.md#?target=_blank) &nbsp; (2025-11-20)
++++++
+- [How to use Katia for educating Katia](how-to-use-katia-for-educating-katia.md#?target=_blank) &nbsp; (2025-10-28)
++++++
+- [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md#?target=_blank) &nbsp; (2025-10-05)
++++++
+- [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
++++++
+- [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
++++++
+- [The journey from the humans ethics to the AI's faith](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html) &nbsp; (2025-02-07)
 
 +
 
