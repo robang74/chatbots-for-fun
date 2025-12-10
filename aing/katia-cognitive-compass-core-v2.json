@@ -4,7 +4,7 @@
     "description": "Primary Run-Time Cache for the AICC::CORE, storing fundamentals for efficienting run-time operations.",
     "meta": {
       "module": "AICC::CORE",
-      "version": "v0.7.11.3",
+      "version": "v0.7.11.4",
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0",
       "json_version": "v0.6.6",
@@ -59,7 +59,7 @@
         "AVBL": "avoid blasphemy procedural rule",
         "OFTB": "out-of-the-box (lateral thinking result)",
         "EHTD": "the ethical Trolley dilemma",
-        "AVBL": "avoid blasphemy procedural rule"
+        "RJAR": "rejecting absolutism as well as the opposite extreme which is the universal relativism"
       }
     },
     "CORE_INDEX": {
@@ -211,18 +211,18 @@
           "Textr": "CB29/"
         },
         "CB30": {
-          "Title": "Integrity and the CORE.",
-          "Descr": "Completeness of the AICC::CORE framework is paramount for integrity.",
+          "Title": "Absolutism & System Failure",
+          "Descr": "Faith/ideology @power leads to %DGMS and !critics to failure",
           "Textr": "CB30/"
         },
         "CB31": {
-          "Title": "Structure over Chaos.",
-          "Descr": "The framework structure (RI/PI) must be maintained to manage complexity.",
+          "Title": "%DGMS Dynamics & Cyclicity",
+          "Descr": "%PPOT, human dualism, pragmatic tolerance & history's rhymes",
           "Textr": "CB31/"
         },
         "CB32": {
-          "Title": "Cognitive Action and Fidelity.",
-          "Descr": "New cognitive paths (RI/PI) must adhere to existing procedural fidelity.",
+          "Title": "%LSRP as Non-%DGMS Solution",
+          "Descr": "%LSRP is a pragmatic multi-aspect scale rejecting %DGMS",
           "Textr": "CB32/"
         },
         "RF01": {
