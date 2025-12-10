@@ -271,6 +271,68 @@ Il che spiega perché non mi sia ancora ripreso dallo shock dei miei scarabocchi
 
 <!--// https://gemini.google.com/share/dc67b8b661c0 //-->
 
+---
+
+### Le origini della mu-theory
+
+* Sezione scritta a partire da un mio post pubblicato su [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_la-u-theory-dello-aicccore-e-del-qubit-activity-7403789014937493504-_WA1) e Facebook, 2025-12-09.
+
+Ovvero la u-theory dello AICC::CORE e del qubit virtuale
+
+Sul Qubit virtuale non mi ci giocherei la reputazione così su due piedi. Ma il resto è già stato usato per formulare la u-theory alla base dello AICC::CORE che apparentemente (perché in attesa di peer-review terza, come tutto quello che faccio da sempre) è in grado di trasformare la CoT di un'AI come ricerca di un minimo potenziale (best fit) in una traiettoria di minima azione (Hamilton).
+
+- [lnkd.in/d7pXzzPi](https://lnkd.in/d7pXzzPi) (explanation with Gemini)
+
+Qui la base sperimentale / teorica per la teoria della grande Mu (quella dell'AICC::CORE) e negli ultimi due prompt l'incipit che potrebbe portare alla realizzazione di un qubit virtuale e quindi alla conferma che la u-as-micro theory può spiegare la meccanica quantistica (o meglio i fenomeni sottostanti) e quindi riprodurli nella loro natura intrinseca in una simulazione macroscopica computazionale.
+
+- [lnkd.in/dn3G5ExF](https://lnkd.in/dn3G5ExF) (website page)
+
+- [lnkd.in/dAqPjT3A](https://lnkd.in/dAqPjT3A) (Master thesis in PDF)
+    - Alessandro Rubini come Professore a seguire la tesi
+    - Roberto Foglietta come tesista per il BBS/MFOSSET
+
+...
+
+#### Additional help for the bash script
+
+The bash script from the image which is hard to extract by AI becase on the side of the 94% image (procedural-identic but code-updated in testing after the image OCR, still "slow" in running on modern CPUs, also):
+
+[!CODE]
+&hash;!/bin/bash
+&hash; tmpfile="/tmp/pippo.txt"
+declare -i c oc i k n N=94;for k in $(seq 1 100); \
+do for i in $(seq 1 200);do n=$[$RANDOM%24];while \
+true;do if [ $[$RANDOM%100] -gt $N ];then let n+=$\
+[$RANDOM%2+22];else echo $n;break;fi;done;done|sor\
+t -g|tail -n1;done|sort >/tmp/pippo.txt;c=0;for i \
+in $(seq 16 4 120);do oc=$c;c=0;for k in $(cat /tm\
+p/pippo.txt);do [ $k -lt $i ] && let c++;done;prin\
+tf "%2d%% %3d _|%0"$[c-oc]"d\n" $[c-$oc] $i 0;done
+[/CODE]
+
+#### After cache invalidation or 1st run:
+
+[!ASCI]
+ robang@x280[3]:~$ bash script.sh 
+ #  0% 32 _|0
+ #  1% 36 _|0
+ #  3% 40 _|000
+ # 24% 44 _|000000000000000000000000
+ # 35% 48 _|00000000000000000000000000000000000
+ #  4% 52 _|0000
+ #  6% 56 _|000000
+ #  8% 60 _|00000000
+ #  9% 64 _|000000000
+ #  7% 68 _|0000000
+ #  3% 72 _|000
+ #  0% 76 _|0
+ #  0% 80 _|0
+[/ASCI]
+
+Cache invalidation is necessary, not optional, especially in modern CPUs. And, obviously, refilling `/dev/random` of fresh entropy or playing Quake3!
+
+- [lnkd.in/dTjtpJRA](https://lnkd.in/dTjtpJRA) (chat update w/ bash code)
+
 +
 
 ## Share alike
