@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.11.4
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.11.5
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -335,7 +335,7 @@ In the below the index, with functional classification groups {CBxx, RFxx, VESx,
 
 For PRMI::index's %SHRD means CH4C(72) while title is CH4C(36):
 
- * JSON ⇒ "LBEL/": { title, "descr": "%SHRD" } where '.' separates title/descr.
+ * JSON ⇒ "LBEL/": { %title, "descr": "%SHRD" } where '.' separates %title by %SHRD.
 
 ### Caching, 2nd act
 
