@@ -372,11 +372,9 @@ No humans would have considered this anything more than a trick. Apart from one 
 
 Real time is discrete, 4D lattice is an euclidean space in complex numbers, Minkoswky notation, Lorenz factor emerges, checking the momentum, Pointcarre group granted by a recursive proof: step by step n = {1,...,N} translation (ergo, each μt-freezed has its own absolute 3D space reference, but locality is granted because μt-freezed).
 
-Bonus: time inversion by (-i) which reflects the space, inverting the electric charges, but mass remains real and neutral. In this space a force field 1/r² mantains 1/r potential energy. When two opposite charges reach the U = 2m₀c² value the charges annichlates while the two masses by c² sum-up to U and release.
+Opting for time inversion by (-i) which reflects the space, inverting the electric charges, but mass remains real and neutral. In this space a force field 1/r² mantains 1/r potential energy. When two opposite charges reach the U = 2m₀c² value, the charges annichlates while the two masses by c² sum-up to U and release. While the annichilation process is described by QCD, the 1/r grants that a tiny scale fields matters and matter vanishing. 
 
-An electron and a positron separated by the Planck's length would have a potential energy of -1.43×10^7 J ≈ -8.91×10^19 MeV while the sum of their masses are equivalent to 1.02 MeV.
-
-Therefore they will annihilate much sooner than reaching the Planck length as separation, at 1.41×10^-15 m which is the classic radius of the electron. However, by laboratory experiments, we know that electrons are smaller than 10^-22.
+An electron and a positron separated by the Planck's length would have a potential energy of -1.43×10^7 J ≈ -8.91×10^19 MeV while the sum of their masses are equivalent to 1.02 MeV. Therefore they will annihilate much sooner than reaching the Planck length as separation. Approximately at 1.41×10^-15 m which is half of the classic radius of the electron 2.8×10^-15 m. However, by laboratory experiments, we know that electrons are smaller than 10^-22.
 
 Finally, a crystal of light can be achieved by emitting a single photon each N·μt = const. time and entraping them into two perfectly reflective mirrors. In such a way the photons, which are indistinguible among them, appears fixed (motion-less) into a stable pattern (a 4D-crystal).
 
