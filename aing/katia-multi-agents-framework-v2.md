@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.90.3
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.90.4
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -125,6 +125,7 @@ in the kind of the most ingenuity:
 The AICC module rely on external complementary components.
 
 Expected file names:
+* katia-multi-agents-framework-v2.md (katia framework)
 * katia-cognitive-compass-core-v2.json (core cache);
 * katia-aicc-core-learning-path-v2.json (optimal learn);
 * katia-cognitive-compass-core-v2.txt (compass core).
