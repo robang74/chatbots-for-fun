@@ -87,9 +87,15 @@ In using `µt` paradigma, `c = 1` normalisation is straightforward the simplest,
 
 Perché `1/c => 1` mentre `v/c` rimane tale? Perché `v/c` significa esprimere la velocità fra 0 e 1.0 `[c]` mentre `1/c` significa `[s/m]` ma resta numericamente 1.
 
-4. `∥P∥² = m₀²·[ i**v/c**, 1 ]² = m₀²·(1²-(v²/c²)) = m₀²/γ²` &nbsp; where **v** belong to the observer.
+4. `∥P∥² = m₀²·[ i**v/c**, 1 ]² = m₀²·(1²-(v²/c²)) = m₀²/γ²` where (**p**,**v**) belong to the observer.
 
 This proves the µt-Minkowski metric is compatible with the inertial systems relativity: (p,v) vs (E₀,m₀).
+
+5. Instead **P** and its d**X**/dt belongs to the proper time: '∥P∥²γ²c² = m₀²c² = γ²m₀²c² - γ²p²c²`
+
+<!--//
+La notazione di Minkowsky e l'invarianza tempo in (-i) non fa finire qui la storia. Semplicemente noi siamo abituati a "scrivere" la relatività da chi osserva il fenomeno. In questa teoria la relatività e scritta sempre a partire dal tempo proprio della particella. Ecco perché c'è un - dove dovrebbe esserci un meno. Non è relativistica secondo il concetto di relavità locale, ma a tempo congelato abbiamo uno spazio 3D univoco per tutti gli osservatori (che non esiste nella relatività di Einstein) quello che continuamo ad avere è la non-località perché il tempo è congelato (tempo proprio della particella) poi al turno successivo t2:=t1+ut c'è un altro spazio e la relatività di ut-theory correttamente aggiorna nel sistema proprio della particella i parametri massa e energia.
+//-->
 
 **About notation**
 
