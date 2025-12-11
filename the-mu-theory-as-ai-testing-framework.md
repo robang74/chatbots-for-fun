@@ -42,7 +42,7 @@ While accepting that some, and possibly many, will certainly adopt this approach
 ---
 
 <span id="u-theory"></span>
-#### A bit of mu-theory
+### A bit of mu-theory
 
 Connecting the Maxwell's theory, which requires a 4-vector in a C² derivable field, with the Heisenberg's quantum mechanics, which allows Dirac's function (a Schwartz distribution), passing by the making discrete the time in the Hamiltonian theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's Relativity by the Occam's razor and explaining why at macro-level an isolated system's entropy is monotonically rising (2nd law of Thermodynamics).
 
@@ -91,16 +91,34 @@ Perché `1/c => 1` mentre `v/c` rimane tale? Perché `v/c` significa esprimere l
 
 This proves the µt-Minkowski metric is compatible with the inertial systems relativity: (p,v) vs (E₀,m₀).
 
-5. Instead **P** and its d**X**/dt belongs to the proper time: '∥P∥²γ²c² = m₀²c² = γ²m₀²c² - γ²p²c²`
+5. Instead **P** and its d**X**/dt belongs to the proper time: `∥P∥²γ²c² = m₀²c² = γ²m₀²c² - γ²p²c²`
 
 In the proper reference **v** belongs to the observer, and it moves backwards in the proper reference.
 The special relativity emerges in translating the m₀²c² invariant from one reference to the other:
 
-6. '∥P∥²γ²c² = m₀²c² = γ²m₀²c² - γ²p²c² =>  m₀²c² + γ²p²c² = γ²m₀²c²` <-- observer relative perception.
+6. `∥P∥²γ²c² = m₀²c² = γ²m₀²c² - γ²p²c² =>  m₀²c² + γ²p²c² = γ²m₀²c²` <-- observer relative perception.
 
-**Rationale**
+...
 
-Ora ci chiediamo cosa veda l'osservatore che si muove con velocità **-v** rispetto al sistema proprio. Quello che vede è che la particella rispetto alla sua massa a riposo m₀²c² (che si conosce in quanto costante fondamentale, almeno ambisce ad esserlo nella u-theory) è incrementata di un fattore relativistico γ²p²c² quindi ha un'energia più elevata quindi se fosse un'onda avrebbe una frequena maggiore. Nel sistema proprio l'algebra non richiede interpretazione, l'invariante relativistica è una costane, solo al termine dei calcoli trasferisco il risultato nel sistema dell'osservatore che essendo sempre una somma (e non una sottrazione) è banale da applicare. Anche se l'osservatore sono io, conosco sempre le due variabili essenziali, velocità relativa e massa a riposo, in particolare la seconda viene considerata (o si cerca di farla emergere) dalla struttura stessa della mu-theory tipo rapporto di massa protone/elettrone come costante universale.
+#### Rationale
+
+Ora ci chiediamo cosa veda l'osservatore che si muove con velocità **-v** rispetto al sistema proprio.
+
+Quello che osserva è che la particella rispetto alla sua massa a riposo m₀²c² (che si conosce in quanto costante fondamentale) è incrementata di un fattore relativistico γ²p²c² quindi ha un'energia più elevata. Se fosse un'onda avrebbe una frequena maggiore.
+
+Nel sistema proprio della particella, l'algebra non richiede interpretazione relativistica, l'invariante relativistica è una costane e solo al termine dei calcoli si trasferisce il risultato nel sistema dell'osservatore che essendo sempre una somma (e non una sottrazione) è banale da esportare.
+
+Anche se l'osservatore sono io, conosco sempre le due variabili essenziali, velocità relativa e massa a riposo, in particolare la seconda viene considerata dalla struttura stessa della mu-theory una costane universale. Per esempio il rapporto fra le masse del protone ed elettrone.
+
+#### About notation
+
+Using `ω = 2πν` or ϖ = 1/µt would have made appear the formulas more familiar thus more acceptable but also hidden the key point about µt as discrete time, not just quantised. Current physics revolves around the founders' idea that everything was a wave (or reducible as a wave in a field).
+
+It was comprehensible at that time, while t-discrete was most likely an absurd concept. Instead, µ-theory is based on a specific paradigm for which wave/particle duality is an emergent characteristic of the space-time lattice thus privileging Ͷ,ς as a different notation.
+
+**Katia AICC::CORE evaluation**
+
+* Analysis and evaluation [chat](https://gemini.google.com/share/7899be73fb4e) by Katia AICC::CORE and its [transcription](#TODO) (part #1)
 
 <!--//
 La notazione di Minkowsky e l'invarianza tempo in (-i) non fa finire qui la storia. Semplicemente noi siamo abituati a "scrivere" la relatività da chi osserva il fenomeno. In questa teoria la relatività e scritta sempre a partire dal tempo proprio della particella. Ecco perché c'è un - dove dovrebbe esserci un meno. Non è relativistica secondo il concetto di relavità locale, ma a tempo congelato abbiamo uno spazio 3D univoco per tutti gli osservatori (che non esiste nella relatività di Einstein) quello che continuamo ad avere è la non-località perché il tempo è congelato (tempo proprio della particella) poi al turno successivo t2:=t1+ut c'è un altro spazio e la relatività di ut-theory correttamente aggiorna nel sistema proprio della particella i parametri massa e energia.
@@ -519,20 +537,10 @@ Il tuo modello $\mu t$-theory è **intrinsecamente stabile** perché il limite a
 
 //-->
 
-**About notation**
-
-Using `ω = 2πν` or ϖ = 1/µt would have made appear the formulas more familiar thus more acceptable but also hidden the key point about µt as discrete time, not just quantised. Current physics revolves around the founders' idea that everything was a wave (or reducible as a wave in a field).
-
-It was comprehensible at that time, while t-discrete was most likely an absurd concept. Instead, µ-theory is based on a specific paradigm for which wave/particle duality is an emergent characteristic of the space-time lattice thus privileging Ͷ,ς as a different notation.
-
-**Katia AICC::CORE evaluation**
-
-* Analysis and evaluation [chat](https://gemini.google.com/share/7899be73fb4e) by Katia AICC::CORE and its [transcription](#TODO) (part #1)
-
 ---
 
 <span id="u-analogies"></span>
-#### The µ-theory by analogies
+### The µ-theory by analogies
 
 By analogies comparison, the idea of a 3-axis imploded-folded time would be limited to a 6D-space explanatory model. While µ-theory should characterise reality in a manner that allows infinite dimensional space as emergent phenomenon by numerical approximations.
 
@@ -584,7 +592,7 @@ It is worth noticing that the µt-theory doesn't aim to explain "Everything". It
 
 L'ostacolo principale che il genio di Eistain è il prodotto di un marketing in stile holliwoodiano di una lobbying filo-esraeliana (da sottolineare che Israele e gli ebrei sono due cose distinte) che ovviamente aveva tutto l'interesse una decade dopo la fine della WW2 ad incensare Eistain come genio assoluto scopritore della formula alla base della bomba atomica per evidenti interessi geopolitici anche se Eistein era ebreo solo di nascita, non praticante e certamente non associabile ad Israele giacché il moderno concetto di Israele è molto postumo rispetto alla nascita di Einstein, in Germania da cui fuggì proprio per le sue origini ebree.
 
-----
+---
 
 ### Mutua eclusione fra teorie
 
@@ -598,7 +606,7 @@ Perché `E = mc²` come la Relatività Ristretta (RR) emergono da un'eleborazion
 
 Quello che invece finirebbe nella pattumiera sarebbe proprio l'interpretazione fisica di quella matematica, non `E = mc²` la cui eleganza è tale che già da sola la rende sacra, ma proprio il maggiore e personale contributo di Einstein alla fisica. Una cosa normale nella scienza, perché negli ultimi cinque secoli ne abbiamo cestinato parecchi di nomi che un tempo erano "giganti" per usare il termine che usò Newton.
 
----
+----
 
 ### Einsteain e la bomba atomica
 
@@ -612,7 +620,7 @@ Sia chiaro l'uso pratico di AICC::CORE e della teoria del controllo **non** sono
 
 Quindi per quanto riguarda l'AICC::CORE da una parte c'è la leggittima pressione ad avere un fondamento teorico e dall'altra parte ci sono importanti e veramente fastidiosi ostacoli nel fornire una formulazione teorica effetivamente rigorosa per tutti gli aspetti, in particolare quello relativo al tempo discreto di cui **per fortuna** io non possiedo le competenze matematiche per affrontarlo in modo rigoroso ma solo come approssimazione ingegneristica.
 
-----
+---
 
 ### The µt-Minkowski metric and the relativity
 
@@ -662,7 +670,7 @@ Nella quale è il tempo a essere reale, e imponendo il vincolo discreto come fos
 
 A questo punto non rimane che preventivare quali risultati ci si possa attendere dallo sviluppo ulteriore di questa teoria. Perché anche la ricerca scientifica, anche quella teorica richiedono di pianificare le aspettative.
 
-+
++++++
 
 ## Futuri possibili sviluppi
 
@@ -829,7 +837,7 @@ Counter example: in a solid mass of conductive metal the charge is all concentra
 
 Also from this point of view, the idea to bind the charge uniformly around the center of the mass to reject the dot-size particle, isn't particularly appealing. It looks like that man who was searching for the lost keys under the streetlamp because he lost keys in the dark.
 
----
+----
 
 ### Proximity as concept for interactions
 
@@ -1215,21 +1223,15 @@ Però, non sarebbe la prima volta che si "aggiuntano" le "costanti" universali i
 
 ## Related articles
 
-- [Emerging & growing complexity in AI reasoning](emerging-and-growing-complexity-in-ai-reasoning.md#?target=_blank) &nbsp; (2025-11-24)
+- [When AI gets wrong, who owns the consequences?](when-ai-gets-wrong-who-owns-the-consequences.md#?target=_blank) &nbsp; (2025-11-30)
 +++++
 - [Il segreto dell'intelligenza](il-segreto-dell-intelligenza.md#?target=_blank) &nbsp; (2025-11-20)
 +++++
 - [How to use Katia for educating Katia](how-to-use-katia-for-educating-katia.md#?target=_blank) &nbsp; (2025-10-28)
 +++++
 - [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md#?target=_blank) &nbsp; (2025-10-05)
-+++++
-- [The session context and summary challenge](the-session-context-and-summary-challenge.md#?target=_blank) &nbsp; (2025-07-28)
-+++++
-- [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
-+++++
-- [The journey from the humans ethics to the AI's faith](https://robang74.github.io/chatgpt-answered-prompts/html/a-journey-from-humans-ethics-to-ai-faith.html) &nbsp; (2025-02-07)
 
-+
++++++
 
 ## Share alike
 
