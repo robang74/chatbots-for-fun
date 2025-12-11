@@ -476,6 +476,10 @@ Quindi abbiamo un e- a 10 Fm e 0.135 MeV di energia disponibile per e- e antineu
 
 Considerando che lo spettro di emissione dell'elettrone nella disentegrazione beta(N) è continuo fra zero (atomo d'idrogeno) e massimo a 0.27 Mev potremmo dire che le tre componenti Up, e- e anti-neutrino si spartiscano, in media, in modo equo tutta l'energia disponibile. Queto ci porta ad un elettrone materializzato a 16 Fm con un'energia cinetica di 90.5 KeV e un anti-neutrino con energia 90.5 KeV, in media. Effettivamente il picco di emissione dell'elettrone è quello.
 
+---
+
+### Il neutrino come emergente Up
+
 Qual'è il picco di emissione dell'anti neutrino? In teoria viene considerato 2/3 dell'energia disponibile, quindi una deduzione ma in pratica non viene misurato anche a causa dell'elusività del neutrino. Perché in effetti, da un punto di vista del laboratorio **non** lo sappiamo, lo presumiamo in funzione della CPT. Ma in uno scenario con terzo membro Up questa va a zero all'infinito, quindi l'anti-neutrino avrà 2/3 dell'energia quando l'elettrone con il quale condivide un legame di affinità (o magari entanglement e-,-nu che è "strano" visto la natura diversa delle due particelle).
 
 **Prompt**: Modelizza il neutrino (o l'anti-neutrino) come una particella costituita da una coppia di fotoni meglio ancora se uno regressivo e uno progressivo nel tempo (-i) e meglio ancora se accoppiati con una circolarità in L2 in modo da creare un sistema tipo dipolo magnetico ma che in realtà è una particella di momento angolare.
