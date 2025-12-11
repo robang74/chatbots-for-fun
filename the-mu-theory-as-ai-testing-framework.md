@@ -82,8 +82,12 @@ which is the Relativity that emerges by a discrete real-time, while space is per
 In using `µt` paradigma, `c = 1` normalisation is straightforward the simplest, but (2) doesn't require it:
 
 1. `**P** := m₀·**v** = m₀·d**X**/dt` because of `t2 := t1 + µt` then dividing by µt is time-derivation, therefore
-2. `**P** = m₀·[ i(x₂-x₁, y₂-y₁, z₂-z₁)/µt, (t₂-t₁)/µt ] = m₀[ i**v**, 1 ] = [ i( px, py, pz ), m₀ ] `;
-3. `**P** = m₀c [ i**v/c**, 1 ]` => `P² = m₀²c² [ 1-β² ] = E₀² - p²` &nbsp; where (**p**,**v**) belong to the observer.
+2. `**P** = m₀·[ i(x₂-x₁, y₂-y₁, z₂-z₁)/µt, (t₂-t₁)/µt ] = m·₀[ i**v**, 1 ] = [ i( px, py, pz ), m₀ ] `;
+3. `**P**·c/c = m₀c·[ i**v/c**, 1/c ]` => `**P** = m₀·[ i**v/c**, 1 ]` where c := 1.
+
+Perché `1/c => 1` mentre `v/c` rimane tale? Perché `v/c` significa esprimere la velocità fra 0 e 1.0 `[c]` mentre `1/c` significa `[s/m]` ma resta numericamente 1.
+
+4. `∥P∥² = m₀²·[ i**v/c**, 1 ]² = m₀²·(1²-(v²/c²)) = m₀²/γ²` &nbsp; where **v** belong to the observer.
 
 This proves the µt-Minkowski metric is compatible with the inertial systems relativity: (p,v) vs (E₀,m₀).
 
