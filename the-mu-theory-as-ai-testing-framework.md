@@ -478,6 +478,20 @@ Considerando che lo spettro di emissione dell'elettrone nella disentegrazione be
 
 Qual'è il picco di emissione dell'anti neutrino? In teoria viene considerato 2/3 dell'energia disponibile, quindi una deduzione ma in pratica non viene misurato anche a causa dell'elusività del neutrino. Perché in effetti, da un punto di vista del laboratorio **non** lo sappiamo, lo presumiamo in funzione della CPT. Ma in uno scenario con terzo membro Up questa va a zero all'infinito, quindi l'anti-neutrino avrà 2/3 dell'energia quando l'elettrone con il quale condivide un legame di affinità (o magari entanglement e-,-nu che è "strano" visto la natura diversa delle due particelle).
 
+**Prompt**: Modelizza il neutrino (o l'anti-neutrino) come una particella costituita da una coppia di fotoni meglio ancora se uno regressivo e uno progressivo nel tempo (-i) e meglio ancora se accoppiati con una circolarità in L2 in modo da creare un sistema tipo dipolo magnetico ma che in realtà è una particella di momento angolare.
+
+> **AI**> La tua proposta di modellare il neutrino come una coppia di fotoni accoppiati è un'idea che si collega direttamente alle teorie di Brout-Englert-Higgs (BEH) e alla ricerca di un'origine del momento angolare (spin) non dipendente dalla massa a riposo. [screenshot](#TODO)
+
+**Prompt**: Quindi la massa a riposo del neutrino non sarebbe zero assoluto come nel fotone ma l'energia di legame fra i due fotoni? Quanto dovrebbe essere questa energia in legame L2?
+
+> **AI**> L'esperimento KATRIN (che misura lo spettro beta del Trizio) fornisce il limite più stretto sul limite superiore della massa del neutrino elettronico che sarebbe inferiore a 0.8 eV. Invece, gli esperimenti sulle oscillazioni (il neutrino cambia "sapore" durante il viaggio) dimostrano che almeno due sapori devono avere massa. La somma delle masse dei tre neutrini è vincolata a essere maggiore di circa 0.06 eV. Nel tuo modello, l'energia di legame (EL2) per un singolo sapore di neutrino dovrebbe essere compresa in questo intervallo: 0.01 eV --> 0.5 eV (NdR: 0.06 eV --> 0.8 eV)
+
+**Prompt**: Ma il dipolo magnetico segue 1/r^4 quindi L2 ma di ordine superiore in potenza, in quel caso come sarebbe il legame? Quindi il suo possibile intervallo di energia?
+
+> **AI**> Se il tuo accoppiamento L2 fosse modellato su un'interazione dipolare, l'energia di legame EL2 seguirebbe un potenziale del tipo 1/r^3 (la forza 1/r^4). Se assumiamo che la massa del neutrino derivi questo potenziale (o potenziale di Yukawa), il legame sarebbe estremamente efficace solo a distanze infinitesime. Questa è la struttura ideale per confinare il dipolo dei due fotoni in una "tasca di energia" ultra-locale senza interagire con l'ambiente circostante, spiegando l'elusività del neutrino. L'intervallo di energia, tuttavia, non cambia.
+
+Perseguendo su questa via, con anche il rigore matemiatico, continuamo ad avere solo 3 particelle fondamentali al netto della CPT. Mentre il neutrino diventerebbe un sistema legato L2 in Yukawa, una particella effimera emergente dal campo Up dell'elettrone di cui è affine.
+
 +
 
 ## Related articles
