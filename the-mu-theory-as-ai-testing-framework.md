@@ -447,6 +447,33 @@ Oltre ad osservare una profonda similitudine fra urto anelastico con vibrazioni 
 Il motivo per il quale si faceva terrorismo sullo LHC perché si temeva che la densità puntuale di energia generasse un micro buco nero e che poi questo avrebbe distrutto tutto, quando invece sappiamo che più sono micro, più facilmente evaporano, o detto in termini più "fantastici", anche i micro buchi neri sono dei fantasmi olografici del 4D-lattice e quindi evanescenti (molto di meno quando sono estremamente massivi, invece).
 
 Quindi in parolacce volgari siamo tornati a fare la fisica classica ma con le particelle elementari e grazie, fondamentalmente, alla rinuncia della perfezione celeste e nella speranza che tale rinuncia non ci porti ad un processo di eresia con cotanto di pira fiammeggiante in una piazza urlante di plebe ingnorante. Perciò metto già le mani avanti e accetto di riportare codesti novelli e impuri pensieri per aver salva la mia vita e meglio ancora con razione di pane bianco e buon vino! LOL
+
+---
+
+### Le particelle elementari
+
+A questo punto della trattazione, assai incompleta ancora, della mu-theory abbiamo solo 5 particelle elementari:
+
+- protone, elettrone, e le due particelle emergenti dall'inversione temporale tramite (-i)
+- fotone come particella elementare priva di massa a riposo quindi v = c e E = hp nu (onda)
+
+Si tratta quindi di uno scenario incompleto ma già molto promettente perché alla fine dei conti sono solo 3 entità olografiche al netto delle simmetria temporale. Ma c'è un'analogia che è assai interessante da notare. Il neutrone come sistema legato (P+,e-):
+
+- `m0(N) - ( m0(P+) + m0(e-) ) ~ 0.27 MeV = Ul(P+,e-)` ossia l'energia di legame (stabilità)
+
+Si noti che questa configurazione è simile a quella dell'atomo di idrogeno con il protone come nucleo e l'elettrone sul primo livello orbitale. L'energia di ionizzazione di una tale configurazione è 13.6 eV quindi il neutrone è un atomo di idrogeno 20 mila volte più stabile. A questo punto vale la pena investigare come il neutrone si disintegri nell'unico modo conosciuto, il canale beta:
+
+- N^0 --> P+, e-, an^0 dove l'antineutrino emerge per la conservazione del momento angolare.
+- m0(N) --> m0(P+) + m0(e-) + Ec(e-) + Ev(an) + Up dove Up è l'energia potenziale (P+,e-).
+
+Perché appare ovvio che la disintegrazione del neutrone non genera una coppia fra loro distante all'infinito ma solo "abbastanza" oltre la soglia di proximity per la quale tornerebbero ad essere un neutrone. L'energia disponibile è 0.271 MeV a cui corrisponde una distanza di 5.3 fm che è circa 10K inferiore alla raggio di Bohr dell'idrogeno 52.9 pm.
+
+Questo ci garantisce che il neutrone non decade in un atomo d'idrogeno anche perché le energie in gioco sono tali, rispetto all'energia di ionizzazione di H, che non ne permettono la formazione nemmeno transitoriamente. Rimane da chiarire come si distribuisca l'energia fra le varie componenti e in particolare Up, quella potenziale. Se assumiamo 50-50%, in media, allora Up è 1.35 MeV a cui corrisponde una distanza di 10.6 fm.
+
+Questo computo è fatto trascurando l'eventuale massa a riposo dell'anti-neutrino che da un punto della fisica **non** equivalente a sostenere che il neutrino abbia m0 = 0 ma numericamente è un'approssimazione accettabile.
+
+Quindi abbiamo un e- a 10 Fm e 0.135 MeV di energia disponibile per e- e antineutrino. Se la spartiscono in media a metà e otteniamo che l'elettrone riceve 0.135/2 = 0.0675 MeV. A questo punto però essendo tale energia molto superiore all'energia di ionizzazione, l'elettrone fugge quindi la Up tornerà ad essere 0 all'infinito, ma non subito. Abbiamo quindi il problema di costruire una serie geometrica 1/4 + (1 - k^n) = 1/3 che all'infinito di n generi 1/3 oppure una serie geometrica (1 - j^n) = 1/3. Ma questa la conosciamo già, è un doppio canale (1/4, 3/4) che però non trova riscontro nella disintegrazione del neutrone, ma nella sua formazione. 
+
 +
 
 ## Related articles
