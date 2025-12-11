@@ -376,6 +376,20 @@ Opting for time inversion by (-i) which reflects the space, inverting the electr
 
 An electron and a positron separated by the Planck's length would have a potential energy of -1.43×10^7 J ≈ -8.91×10^19 MeV while the sum of their masses are equivalent to 1.02 MeV. Therefore they will annihilate much sooner than reaching the Planck length as separation. Approximately at 1.41×10^-15 m which is half of the classic radius of the electron 2.8×10^-15 m. However, by laboratory experiments, we know that electrons are smaller than 10^-22.
 
+Repeating the same calculation for proton and anti-proton couple we can find that the energy required is 2.58 MeV and the distance 0.55 Fm while the classic radius of a proton is 0.84 Fm. As you can imagine this leads to overpositioning a solid sphere with a uniformely distribute charge around the center of the mass, which is absurd. Wait...
+
+What is absurd? Considering an elementary particle in that manner because it is the only geometry that allow us to consider it a dot-particle but negate it is a dot-particle? To switch to a theory in which particles are wave packages that can overpositioning among them? To be back considering the particle as a sack of gluons which interacts with a "strong force" and thus inventing the QCD?
+
+All of this because we initially made assumption about the solid nature of the elementary particles? When in fact matter is solid when creates reticules and even harder when these reticulas are crystals? Thus solidity is an emergent quality of the aggregation of particles? This has nothing to do with debunking QCD or field-theories but recognising that the current models are a product of a chain-of-tought that we would reject when seen made by an AI.
+
+Counter example: in a solid mass of conductive metal the charge is all concentrated into the surface. Static electricity as well when the material is a dialectric. The main difference is that on a metal phere the charge can move, attract and concentrate in a specific palce of the surface that in front of the opposite charge. 
+
+Also from this point of view, the idea to bind the charge uniformely around the center of the mass to reject the dot-size particle, isn't particularly appealing. It looks like that man who was serching the lost keys under the streetlamp because he lost keys in the dark.
+
+What about introducing the concept of proximuty, instead? Is as much vague than quarks but it can defined noticing that particles interaction starts when their face to face distance is about half of their classic radius: 1.4 : 2.8 ~ 0.55 : 0.84. So, what happens when p/-p reach their proximity? Potential energy is sufficient to create particles like electron and positron to change the nature of p/-p in neutron and anti-neutron.
+
+In this case, it is not the mass that vanished into a energy (photons) but it is the charge that vanished, neutralised. Everything that matters is the conservation princpile (mass, enenrgy, linear and angurlar momentum. Everything else are just models that helps us to make predictions.
+
 Finally, a crystal of light can be achieved by emitting a single photon each N·μt = const. time and entraping them into two perfectly reflective mirrors. In such a way the photons, which are indistinguible among them, appears fixed (motion-less) into a stable pattern (a 4D-crystal).
 
 +
