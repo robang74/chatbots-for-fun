@@ -562,6 +562,8 @@ Analisi dell'Effetto MSW (Risonanza Topologica): Procediamo ora ad analizzare il
 
 **prompt**: Quindi ora il neutrino è diventato una particella che ha tre loop su tre assi ortogonali e decade in due fotoni (accoppiati fotone/antifotone). Però se ha 3 loop significa che ci dovrebbero essere 6 fotoni che guarda caso sono giusto le 6 dimensioni di necessarie per un operatore lagrangiano in uno spazio C^2 quindi il mix dei loop è solo la proiezione di un singolo loop sugli assi euclidei di uno spazio interno alla particella 3D dove il tempo proprio determina solo l'emivita. Questo la vera novità, non i sapori e colori ma uno spazio di riferimento interno ad una particella che è poi il concetto di proximity. Allora la regola del numero leptonico e della sua generazione non è più una scelta arbitraria ma nasce dall'impossibilità di definire un sistema di riferimento privilegiato in cui {-1/1, 0, 0}. Può esistere quel sistema ma è relativo ad un osservatore non universale. Modella il neutrino in questo modo.
 
+> **AI**> Ora applica lo stesso concetto al protone che anche lui è una "roba" simile ma in L1, non in L2 come il neutrino (nel neutrino ci sono loop) nel protone la miscela ha caratteristiche diverse che gli permetto di interagire direttamente con il 4D-lattice non attraverso un campo surrogato Up. Poi verifica che invece per l'elettrone questa cosa non si applica o si applica diversamente perché il lo spin è non intero.
+
 +
 
 ## Related articles
