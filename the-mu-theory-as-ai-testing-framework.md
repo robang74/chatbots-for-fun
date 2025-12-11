@@ -350,6 +350,8 @@ if you remove the 4D lattice, hopefully it is a tautology or simply fails. That 
 
 - [kimi.com/share/19b094d9-0372-8457-8000-0000601e5d03](https://www.kimi.com/share/19b094d9-0372-8457-8000-0000601e5d03)
 
+...
+
 #### Kimi K2 answer
 
 [!CITE]
@@ -368,13 +370,19 @@ The t' = t + μt, by definition. The spatial part evolves because of velocity, c
 
 No humans would have considered this anything more than a trick. Apart from one that investigated a specific natural phenomena and remained shocked by the evidence: nature is as simple as stupid (KISS) in discrete time. (NdR: the "natural phenomena" here, is jitter figure in a tight-constrained real-time system).
 
-#### Extremely brief mu-theory summary
+---
+
+### Extremely brief mu-theory summary
 
 Real time is discrete, 4D lattice is an euclidean space in complex numbers, Minkoswky notation, Lorenz factor emerges, checking the momentum, Pointcarre group granted by a recursive proof: step by step n = {1,...,N} translation (ergo, each μt-freezed has its own absolute 3D space reference, but locality is granted because μt-freezed).
 
 Opting for time inversion by (-i) which reflects the space, inverting the electric charges, but mass remains real and neutral. In this space a force field 1/r² mantains 1/r potential energy. When two opposite charges reach the U = 2m₀c² value, the charges annichlates while the two masses by c² sum-up to U and release. While the annihilation process is described by QCD, the 1/r grants that a tiny scale field matters and matter vanishing.
 
 An electron and a positron separated by the Planck's length would have a potential energy of -1.43×10^7 J ≈ -8.91×10^19 MeV while the sum of their masses are equivalent to 1.02 MeV. Therefore they will annihilate much sooner than reaching the Planck length as separation. Approximately 1.41×10^-15 m which is half of the classic radius of the electron 2.8×10^-15 m. However, by laboratory experiments, we know that electrons are smaller than 10^-22.
+
+---
+
+### Repeating the exercise with P/-P
 
 Repeating the same calculation for the proton and antiproton couple we can find that the energy required is 2.58 MeV and the distance 0.55 Fm while the classic radius of a proton is 0.84 Fm. As you can imagine this leads to sovraposition a solid sphere with a uniformly distributed charge around the center of the mass, which is absurd. Wait...
 
@@ -386,12 +394,59 @@ Counter example: in a solid mass of conductive metal the charge is all concentra
 
 Also from this point of view, the idea to bind the charge uniformly around the center of the mass to reject the dot-size particle, isn't particularly appealing. It looks like that man who was searching for the lost keys under the streetlamp because he lost keys in the dark.
 
+---
+
+### Proximity as concept for interactions
+
 What about introducing the concept of proximity, instead? Is as vague as quarks but it can be defined noticing that the two particles' interaction starts when their face to face distance is about half of their classic radius: 1.4 : 2.8 ~ 0.55 : 0.84. So, what happens when p/-p reach their proximity? Potential energy is sufficient to create a couple of particles like { electrons, positrons } to change the nature of p/-p in neutrons and antineutrons.
 
 In this case, it is not the mass that vanishes into energy (photons) but it is the charge that vanishes, neutralised. Everything that matters is the conservation principle (mass, energy, linear and angular momentum. Everything else is just models that help us to make predictions. Moreover, the concept of "proximity" makes even more sense when considering the elementary particles as holographic in nature.
 
 Finally, a crystal of light can be achieved by emitting a single photon each N·μt = const. time and entraping them into two perfectly reflective mirrors. In such a way the photons, which are indistinguible among them, appear fixed (motion-less) into a stable pattern (a 4D-crystal).
 
+---
+
+### The inelastic collision revisited
+
+Il computo della distanza di interazione della coppia P/-P è errato, non perché la differenza fra di massa fra protone e neutrone non sia 1.3MeV ma perché non è necessario che l'energia potenziale sia equivalente numericamente alla generazione di tutta la massa ma solo di quella necessaria a iniziare la trasmutazione dei due protoni (energia di canale).
+
+Quindi potremmo visualizzare in termini classici l'urto P/-P come un urto anelastico che a metà della distanza fra P/-P generi una coppia (e-,e+), così:
+
+* `P- |<-->|(e+,e-)|<-->| P+` &nbsp-->&nbsp `p_a(2y, 3y) = p(1/4, 3/4)` &nbsp-->&nbsp 1 + SUM(1 - (1/4)^n) = 1.3
+
+Quindi già la distanza di "proximity" è dimezzata e a quella distanza l'energia potenziale computa 1.3MeV anche se bastano 1022 KeV per generare la coppia (e-,e+) che però si può trovare in due stati diversi (orto,para)-polare in termini di spin, a quel punto una di esse decade in 125 pS l'altra in 142 nS. La prima decade prima di avviare la trasmutazione P-->N, la seconda è probabile al 75% come rapporto fra canali di annichilazione.
+
+Questo fenomeno genera una serie geometrica che converge a 1.3MeV che è la metà della distanza se calcolata in funzione della differenza di massa totale. Quindi se rinunciamo all'idea che le particelle elementari siano "sfere perfette concentriche e solide" che è il mito della perfezione celeste tramandatoci da una specifica corrente di pensiero ellenica (Platone --> Aristotele) che è stata recepita anche dalla dottrina cattolica (Tolomeo --> T.d'Acquino).
+
+---
+
+### La mania della perfezione celeste
+
+Sia chiaro, questa "mania" della perfezione non nasce da un dogma puramente mentale ma dall'osservazione delle realtà. Infatti se giochiamo con un dado truccato oppure una palla da biliardo con un difetto di asimmetria, succede che sotto una certa soglia la teoria delle 7 sponde rimane statisticamente prevedibile, oltre ad una certa soglia diventa caotica in senso più profondo. Il che è tipico di un fenomeno che attualmente conosciamo come attrattore strano di Lorenz.
+
+Quindi la "mania" di perfezione per le forme è in realtà una superficiale osservazione della necessità di simmetria a livello più profondo che in fisica delle particelle si chiama CPT (simmetria di carica, momento e tempo) quindi alle varie leggi di conservazione. Senza simmetria delle leggi fondamentali, il mondo non esisterebbe per via del caos "totale".
+
+Questo ci porta a sostenere che la notazione di Minkowski e in particolare l'inversione tempo per (-i) siano da privilegiare, costi quello che costi, perché sono "simmetrie" più forti delle alternative. Ovvero, in altre parole, senza simmetrie forti (conservazione assoluta o invarianza di determinate quantità fisiche) la realtà ci apparirebbe estremamente "complicata" (non complessa, complicata) e in effetti questo è proprio il problema delle teorie come la gravità generale.
+
+Ovviamente la mania della perfezione celeste (dogmatica, quindi sacra) come fenomeno superficiale di un esistenziale ricerca di semplicità intesa come simmetrie nei principi fondamentali, si è trasferita alla fisica del XVIII e XIX secolo che a sua volta la proiettata nel mondo delle particelle elementari per poi doversi sorprendere che delle minuscole sfere si comportassero come onde come nel caso dell'esperimento delle due fenditure.
+
+L'interferenza di una singola particella è un fatto e come tale indiscutibile, eventualmente presentabile in altri formalismi, ma comunque necessariamente convergenti alla medesima osservazione fisica. Quindi il concetto onda/particella in termini di fenomenologia è discutibile, il comportamento osservato **non** è discutibile perché sistematicamente ripetibile sperimentalmente.
+
+Quindi il concetto olografico che descriva le particelle elementari come fenomeni osservabili di un 4D-lattice, che non è una teoria di campo, permette di mettere in discussione sia la fisica classica delle sferette perfette ma anche l'interpretazione onda/particella. Non mette in discussione la CPT così come non mette in discussione il dualismo comportamentale che si fonda sull'impossibilità di osservare senza interagire e che ci porta a definire la "proximity" come un concetto fisico e non filosofico/astratto.
+
+Sia chiaro, occorre a dare al principio olografico e alla definizione di proximity un formalismo matematico stringente che permetta di modelizzare di più e/o meglio quello che già sappiamo modelizzare con altre interpretazioni. Non significa mettere in discussione i fondamentali, e neanche i modelli nella loro essenza ma piuttosto la loro interpretazione che spesso è persino assente o ignorata. Perché chiedersi cosa sia il "colore" o il "sapore" nella cromodinamica quantistica, ti guardano come se il pazzo fossi tu, quando avremmo potuto usare anche sale/pepe e olio/aceto invece di colore/sapore.
+
+Il principio olografico è "bello" perché non mi porta a lambiccarsi il cervello sulla geometria delle particelle e il concetto di proximity mi porta ad apprezzare le interazioni e quindi i reticoli che poi formano i solidi con massa come li conosciamo nella realtà macroscopica. La cosa interessante di introdurre questi concetti anche senza definirli in maniera rigorosa è che alla scala delle particelle elementari osserviamo fenomeni che tramite la stessa interpretazione sono molto simili.
+
+Quando due palle da biliardo impattano, in teoria è un urto elastico perfetto, nella realtà no. Nei punti di contatto, si deformano e diventano aree di contatto, che trasferiscono energia alla struttura interna che poi consideriamo "persa" e la computiamo come una crescita dell'entropia. La temperatura dell'oggetto sale, anche se di pochissimo, perché una frazione dell'energia di quell'urto "termalizza" e diventa agitazione dei legami interni alla struttura.
+
+Nell'urto di prossimità P/-P osserviamo un processo stocastico che interviene su due entità olografiche, quindi è interamente un fenomeno inerente al 4D-lattice (quale che sia la sua rigorosa formulazione finale) creando una serie di eventi che alla fine la "media" è la metà geometrica di un segmento 1.11 Fm e la metà della differenza totale delle masse 1.29 MeV. Il che farebbe impazzire di gioia Aristotele e Platone.
+
+Oltre ad osservare una profonda similitudine fra urto anelastico con vibrazioni interne alla struttura nei solidi macroscopica e gradi di vibrazione e rotazione dei quark? Da dove vengono i quark? Dal fatto che dei "pazzi scatenati" abbiano costruito un acceleratore su scala geografica per poter far impattare P/-P a velocità per le quali anche la serie geometrica asintoticamente convergente a step di 125 pS, non riesca a trasformare P-->N prima che P/-P giungano alla proximity di secondo ordine dove si aprono altri canali di annichilazione molto più "esplosivi".
+
+Il motivo per il quale si faceva terrorismo sullo LHC perché si temeva che la densità puntuale di energia generasse un micro buco nero e che poi questo avrebbe distrutto tutto, quando invece sappiamo che più sono micro, più facilmente evaporano, o detto in termini più "fantastici", anche i micro buchi neri sono dei fantasmi olografici del 4D-lattice e quindi evanescenti (molto di meno quando sono estremamente massivi, invece).
+
+Quindi in parolacce volgari siamo tornati a fare la fisica classica ma con le particelle elementari e grazie, fondamentalmente, alla rinuncia della perfezione celeste e nella speranza che tale rinuncia non ci porti ad un processo di eresia con cotanto di pira fiammeggiante in una piazza urlante di plebe ingnorante. Perciò metto già le mani avanti e accetto di riportare codesti novelli e impuri pensieri per aver salva la mia vita e meglio ancora con razione di pane bianco e buon vino! LOL
 +
 
 ## Related articles
