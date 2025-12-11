@@ -44,7 +44,7 @@ While accepting that some, and possibly many, will certainly adopt this approach
 <span id="u-theory"></span>
 #### A bit of mu-theory
 
-Connecting the Maxwell's theory, which requires a 4-vector in a C² derivable field, with the Heisenberg's quantum mechanics, which allows Dirac's functions, passing by the making discrete the time in the Hamiltonian theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's Relativity by the Occam's razor and explaining why at macro-level an isolated system's entropy is monotonically rising (2nd law of Thermodynamics).
+Connecting the Maxwell's theory, which requires a 4-vector in a C² derivable field, with the Heisenberg's quantum mechanics, which allows Dirac's function (a Schwartz distribution), passing by the making discrete the time in the Hamiltonian theory can open a passage for an Unified Theory (popularly but wrongly known as the Theory of Everything) including Stochastics and excluding Einstein's Relativity by the Occam's razor and explaining why at macro-level an isolated system's entropy is monotonically rising (2nd law of Thermodynamics).
 
 In order to fully exclude also Einstein's General Relativity, requires a theory of negative viscosity which seems existing as GR replacement but not yet confirmed. Anyway, negative viscosity implies kinetic energy increasing due to the motion. This means that motion sucks energy from the void space, which would re-introduce the absolute time-space concept which ceased to exist with Einstein's theory. Fortunately, discrete time always provides an inertial system, thus no absolute implies a **novel** concept of absolute velocity in space without destroying locality and fulfilling the gap of negative viscosity theory as GR replacement.
 
@@ -54,16 +54,19 @@ While a negative viscosity and its implications could seem counter-intuitive, it
 
 Back to the time as a discrete quantity, if a quantum of time (**`µt`**) exists then a quantum of energy. Considering `E = mc²` and `E = ħν`, we can find the quantum of energy `µE = µm·c²` and quantum of mass , but the best is to normalise `c∈[m/s] → 1.0∈[c]` for which mass and energy numerically coincide in values but differ in dimensionality.
 
-Moreover, the `ͶE = ħ/(µt)` does not necessarily imply that `max(ν)` exists, but it can be a significative threshold, unless it is the Planck's energy. For sure, the sinusoid's zeros should match nodes at `n·c·µt` where `n ∈ ℕ` in `{ n·µt = ν⁻¹: ½mv² }` otherwise the space-time lattice would not be able to provide any observable quantised structure.
+Moreover, the `ͶE = ħ/(µt)` does not necessarily imply that `max(ν)` exists, but it can be a significative threshold, unless it is the Planck's energy. For sure, the sinusoid's zeros should match nodes locates at `n·c·µt` where `n ∈ ℕ` in energy values `{ n·µt = ν⁻¹: ½mv² }` otherwise the space-time lattice would not be able to provide any observable quantised structure.
 
-Following the same principle, we can find the quantum of space which has the radius as long as the light can reach in un quantum of time `(c·µt)³`. At this point we can questioning ourselves about the mass and energy maximum density that can fit within a quantum of space:
+Following the same principle, we can find the quantum of space `(c·µt)³`: its characteristic radius is the distance light can reach in a quantum of time. At this point we can questioning ourselves about the mass and energy maximum density that can fit within a quantum of space:
 
 - `µm / (c·µt)³ = (µE/c²) / c³(µt)³ = (ħ/(µt)c²) / (c³(µt)³) = (ħ/c)(c·µt)⁻⁴ = ς⁻⁴·ħ/c   [Kg/m³]`
 - `µE / (c·µt)³ = (ħ/µt) / c³(µt)³ = ħc (c·µt)⁻⁴ = ς⁻⁴·ħc                               [Kg/ms²]`
 
+Using a unitary cube, instead of a sphere is a simplification in order to evaluate their ratio. 
+Since these densitiess ratio is made divding by the same volume formula, does affect the ratio.
+
 Looking at both of them this `c⁴Ͷ⁴ = ς⁻⁴` where `Ͷ = 1/(µt)` appears to be a relevant characteristics. The common factor is `ς⁴` highlighting the 4-dimensions. While the `[Kg/m³]` vs `[Kg/ms²]` suggests that time/space can be switched to each other in a quadratic form when energy and mass are related to each other.
 
-In combining `hν = mc²`, we can express massa as `m = ħν/c²` and `µE = ħ/(µt)c⁻²`. This makes the ratio `ħν/m = c²` appear like a constant also for E/m densities but it is granted by construction. Despite this, ς⁻⁴ has a physical significance, not just a scale metric tuning, but its power of four as prefix for `{ ħc, ħ/c }`.
+In combining `hν = mc²`, we can express massa as `m = ħν/c²` and `µm = (ħ/µt)·c⁻²`. This makes the ratio `ħν/m = c²` appear like a constant also for E/m densities but it is granted by construction. Despite this, ς⁻⁴ has a physical significance, not just a scale metric tuning, but its power of four as prefix for `{ ħc, ħ/c }`.
 
 Therefore, the next step would be to evaluate the densities of the energy and the mass in a 4D-dimensions dividing by `µt·(c·µt)³` and in both cases we ends up with `ς⁻⁴·hͶ` as a prefix for `1/c` and `c` for dimensionality. By the way, in discrete time, dividing by µt is equivalent to derive by time.
 
@@ -71,16 +74,16 @@ The volume in 4D is quantised in µ-cells (x,y,z,t) and in calculating the squar
 
 - `µt(c·µt)³ = ς⁴/c = µW` and `∥v⃗∥ = √v⃗²`, then we set `(t₂-t₁)/µt := 1` by definition of discrete time,
 
-not just quantised thus `t₂ := t₁ + µt`, and this changes everything, in fact:
+not just quantised thus `t₂ := t₁ + µt`, and this changes everything, in fact using Minkwoski's notation:
 
 - `√[ i(x₂-x₁)/c·µt, i(y₂-y₁)/c·µt, i(z₂-z₁)/c·µt, (t₂-t₁)/µt ]² = √[(iv⃗/c)², 1] = √(1-(v⃗/c)²)`
 
 which is the Relativity that emerges by a discrete real-time, while space is perceived, thus imaginary.<br>
-In using `µt` paradigma, `c = 1` normalisation is straightforward the simplest, but it is not necessary:
+In using `µt` paradigma, `c = 1` normalisation is straightforward the simplest, but (2) doesn't require it:
 
-- `P := m₀·v = m₀·dX/dt = m₀·[ i(x₂-x₁, y₂-y₁, z₂-z₁)/c·µt, 1 ] = [ i( px, py, pz )/c, m₀ ]`;
-
-- `P = m₀c [ iv/c, 1 ] → P² = m₀²c² [ 1-β² ] = E₀² - p²` &nbsp; where (p,v) belong to the observer.
+1. `**P** := m₀·**v** = m₀·d**X**/dt` because of `t2 := t1 + µt` then dividing by µt is time-derivation, therefore
+2. `**P** = m₀·[ i(x₂-x₁, y₂-y₁, z₂-z₁)/µt, (t₂-t₁)/µt ] = m₀[ i**v**, 1 ] = [ i( px, py, pz ), m₀ ] `;
+3. `**P** = m₀c [ i**v/c**, 1 ]` => `P² = m₀²c² [ 1-β² ] = E₀² - p²` &nbsp; where (**p**,**v**) belong to the observer.
 
 This proves the µt-Minkowski metric is compatible with the inertial systems relativity: (p,v) vs (E₀,m₀).
 
