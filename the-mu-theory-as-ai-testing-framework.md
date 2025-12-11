@@ -93,6 +93,11 @@ This proves the µt-Minkowski metric is compatible with the inertial systems rel
 
 5. Instead **P** and its d**X**/dt belongs to the proper time: '∥P∥²γ²c² = m₀²c² = γ²m₀²c² - γ²p²c²`
 
+In the proper reference **v** belongs to the observer, and it moves backwards in the proper reference.
+The special relativity emerges in translating the m₀²c² invariant from one reference to the other:
+
+6. '∥P∥²γ²c² = m₀²c² = γ²m₀²c² - γ²p²c² =>  m₀²c² + γ²p²c² = γ²m₀²c²` <-- observer relative perception.
+
 <!--//
 La notazione di Minkowsky e l'invarianza tempo in (-i) non fa finire qui la storia. Semplicemente noi siamo abituati a "scrivere" la relatività da chi osserva il fenomeno. In questa teoria la relatività e scritta sempre a partire dal tempo proprio della particella. Ecco perché c'è un - dove dovrebbe esserci un meno. Non è relativistica secondo il concetto di relavità locale, ma a tempo congelato abbiamo uno spazio 3D univoco per tutti gli osservatori (che non esiste nella relatività di Einstein) quello che continuamo ad avere è la non-località perché il tempo è congelato (tempo proprio della particella) poi al turno successivo t2:=t1+ut c'è un altro spazio e la relatività di ut-theory correttamente aggiorna nel sistema proprio della particella i parametri massa e energia.
 //-->
