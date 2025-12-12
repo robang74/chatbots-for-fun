@@ -656,33 +656,33 @@ Epistemiologia della scienza, lista di concetti e relativi autori.
 
 * **Tema Concettuale:** Relazione Osservabilità vs. Realtà
     * **Periodo:** XVI sec. - Oggi
-    * **Autori Chiave:** René Descartes (1596–1650), Immanuel Kant (1724–1804), Edmund Husserl (1859–1938), Thomas Nagel (n. 1937)
+    * **Autori Chiave:** René Descartes, Immanuel Kant, Edmund Husserl, Thomas Nagel
 
-La messa in discussione radicale dell'esistenza esterna all'osservatore (Cartesio: *Cogito*). La distinzione tra il mondo come appare (*fenomeno*) e la realtà in sé (*noumeno*) (Kant), che limita la conoscenza fisica all'esperienza possibile.
+La distinzione kantiana tra *fenomeno* e *noumeno* e il solipsismo metodologico cartesiano (il *Cogito*).
 
 * **Tema Concettuale:** Limiti Intrinsici dell'Osservazione Fisica
     * **Periodo:** XX sec.
-    * **Autori Chiave:** Werner Heisenberg (1901–1976), Niels Bohr (1885–1962), Karl Popper (1902–1994), Eugene Wigner (1902–1995)
+    * **Autori Chiave:** Werner Heisenberg, Niels Bohr, Eugene Wigner
 
-Il ruolo centrale dell'osservatore nel collasso della funzione d'onda (Bohr, Wigner). Il tuo punto sull'estensione di Heisenberg a tutta l'interazione si allinea con l'interpretazione radicale della Meccanica Quantistica che nega un mondo oggettivo indipendente.
+Il ruolo centrale dell'osservatore nel processo di misurazione quantistica e la negazione di una realtà oggettiva pre-esistente e indipendente.
 
 * **Tema Concettuale:** Problema dell'Irreversibilità e della Stabilità
     * **Periodo:** XIX sec. - Oggi
-    * **Autori Chiave:** Ludwig Boltzmann (1844–1906), Josiah Willard Gibbs (1839–1903), Ilya Prigogine (1917–2003)
+    * **Autori Chiave:** Ludwig Boltzmann, Josiah Willard Gibbs, Ilya Prigogine
 
-Il tentativo di conciliare l'irreversibilità macroscopica (**Entropia**) con le leggi fondamentali reversibili (Boltzmann, Paradosso di Loschmidt). Prigogine, in particolare, ha esplorato come l'irreversibilità sia creatrice e fondamentale, non un semplice limite statistico.
+Il tentativo di conciliare l'irreversibilità macroscopica (**Entropia**) con le leggi microscopiche reversibili; l'irreversibilità come caratteristica fondamentale.
 
 * **Tema Concettuale:** Critica Metodologica e Utilità del Modello
     * **Periodo:** XX sec.
-    * **Autori Chiave:** Kurt Gödel (1906–1978), Karl Popper (1902–1994), Willard Van Orman Quine (1908–2000)
+    * **Autori Chiave:** Karl Popper, Willard Van Orman Quine, Thomas Kuhn
 
-L'impossibilità di dimostrare la completezza e la coerenza di un sistema assiomatico (Gödel, correlato alla tua idea di inconoscibilità assoluta). L'enfasi sulla **falsificabilità** come criterio di scientificità (Popper). La critica alla distinzione analitico/sintetico e la visione che la conoscenza è una rete (Quine).
+L'enfasi sulla **falsificabilità**. La critica alla distinzione analitico/sintetico; il ruolo dei modelli semantici nel definire i limiti di applicabilità (utilità).
 
-* **Tema Concettuale:** Competizione Astrazione vs. Utilità
+* **Tema Concettuale:** Paradosso del Limite Fondamentale (Gödel ↔ Heisenberg)
     * **Periodo:** XX sec.
-    * **Autori Chiave:** Albert Einstein (1879–1955), Paul Dirac (1902–1984)
+    * **Autori Chiave:** Kurt Gödel, J.R. Lucas, Roger Penrose (sull'analogia)
 
-L'eterna tensione tra l'eleganza matematica (astrazione) e la descrizione accurata della realtà fisica (utilità). Molti fisici teorici discutono di quanto una teoria debba essere "bella" (astratta) per essere vera, anche a costo di ridurne l'utilità pratica immediata (es. Teoria delle Stringhe).
+L'impossibilità di stabilire la completezza all'interno del sistema (Gödel) e l'impossibilità di stabilire con precisione completa lo stato del sistema (Heisenberg). 
 
 ---
 
