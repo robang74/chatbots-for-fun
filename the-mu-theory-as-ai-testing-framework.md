@@ -654,35 +654,40 @@ Non è un concetto banale da comprendere, ma in estrema sintesi si può ridurre 
 
 Epistemiologia della scienza, lista di concetti e relativi autori.
 
-* **Tema Concettuale:** Relazione Osservabilità vs. Realtà
-    * **Periodo:** XVI sec. - Oggi
-    * **Autori Chiave:** René Descartes, Immanuel Kant, Edmund Husserl, Thomas Nagel
+#### Relazione Osservabilità vs. Realtà
 
-La distinzione kantiana tra *fenomeno* e *noumeno* e il solipsismo metodologico cartesiano (il *Cogito*).
+* Periodo: XVI sec. - Oggi
+* Autori: René Descartes (1596–1650), Immanuel Kant (1724–1804), Edmund Husserl, Thomas Nagel
 
-* **Tema Concettuale:** Limiti Intrinsici dell'Osservazione Fisica
-    * **Periodo:** XX sec.
-    * **Autori Chiave:** Werner Heisenberg, Niels Bohr, Eugene Wigner
+La distinzione kantiana tra il mondo **fenomenico** (ciò che appare) e la realtà **noumenica** (la cosa in sé), che limita la conoscenza fisica all'esperienza possibile. Richiamo al *Cogito Ergo Sum* e al solipsismo metodologico cartesiano.
 
-Il ruolo centrale dell'osservatore nel processo di misurazione quantistica e la negazione di una realtà oggettiva pre-esistente e indipendente.
+#### Limiti Intrinsici dell'Osservazione Fisica
 
-* **Tema Concettuale:** Problema dell'Irreversibilità e della Stabilità
-    * **Periodo:** XIX sec. - Oggi
-    * **Autori Chiave:** Ludwig Boltzmann, Josiah Willard Gibbs, Ilya Prigogine
+* Periodo: XX sec.
+* Autori: Werner Heisenberg (1901–1976), Niels Bohr (1885–1962), Eugene Wigner
 
-Il tentativo di conciliare l'irreversibilità macroscopica (**Entropia**) con le leggi microscopiche reversibili; l'irreversibilità come caratteristica fondamentale.
+Il ruolo cruciale dell'osservatore e dell'interazione fisica. La negazione di una realtà oggettiva pre-esistente e indipendente (Bohr, Wigner). L'estensione concettuale del Principio di Heisenberg a ogni interazione (micro e macro).
 
-* **Tema Concettuale:** Critica Metodologica e Utilità del Modello
-    * **Periodo:** XX sec.
-    * **Autori Chiave:** Karl Popper, Willard Van Orman Quine, Thomas Kuhn
+#### Problema dell'Irreversibilità e della Stabilità
 
-L'enfasi sulla **falsificabilità**. La critica alla distinzione analitico/sintetico; il ruolo dei modelli semantici nel definire i limiti di applicabilità (utilità).
+* Periodo: XIX sec. - Oggi
+* Autori: Ludwig Boltzmann (1844–1906), Ilya Prigogine (1917–2003), Josiah Willard Gibbs
 
-* **Tema Concettuale:** Paradosso del Limite Fondamentale (Gödel ↔ Heisenberg)
-    * **Periodo:** XX sec.
-    * **Autori Chiave:** Kurt Gödel, J.R. Lucas, Roger Penrose (sull'analogia)
+Il conflitto tra l'irreversibilità macroscopica (**Entropia**) e le leggi microscopiche reversibili. L'irreversibilità come ostacolo epistemologico alla ripetibilità assoluta delle condizioni iniziali.
 
-L'impossibilità di stabilire la completezza all'interno del sistema (Gödel) e l'impossibilità di stabilire con precisione completa lo stato del sistema (Heisenberg). 
+#### Paradosso del Limite Fondamentale (Gödel ↔ Heisenberg)
+
+* Periodo: XX sec.
+* Autori: Kurt Gödel (1906–1978), J.R. Lucas, Roger Penrose
+
+L'analogia concettuale: un sistema non può dimostrare la sua completezza internamente (Gödel), così come non può conoscere il suo stato oggettivo completo tramite l'osservazione (Heisenberg). Entrambi stabiliscono un limite strutturale alla conoscenza assoluta.
+
+#### Critica Metodologica e Utilità del Modello
+
+* Periodo: XX sec.
+* Autori: Karl Popper (1902–1994), Willard Van Orman Quine, Thomas Kuhn
+
+L'enfasi sulla **falsificabilità** (Popper). L'analisi della competizione tra Astrazione (validità universale) e Utilità/Caratterizzazione (applicabilità specifica). Il problema del confine tra Rumore/Errore e Violazione/Fenomeno Raro.
 
 ---
 
