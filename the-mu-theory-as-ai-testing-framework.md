@@ -632,11 +632,21 @@ Quando si postula i neutrini come particelle dotate di struttura interna ma refe
 
 Quindi si pone anche un problema nell'ambito della teoria dei sistemi e relativi modelli. Fino a che punto un modello fisico deve considerare eventi raramente ripetibili piuttosto che accettare tali violazioni al modello come fossero errori di osservazione? Perché spingendosi al limite dell'inclusione dei fenomeni rari finiremmo per voler dare un significato fisico anche ad ogni singolo evento del rumore di fondo.
 
+---
+
+### Osservabilità e conoscibilità
+
 Da questo punto di vista il principio di Heinsemberg sostiene un concetto fondamentale e importante: la conoscibilità tramite osservazione è una dimensione competitiva alla ripetibilità. Fomalmente è postulato in termini di (**p**, q) ma concettualmente non è un limite di misurazione o di conoscibilità quanto un limite di ripetibilità vs osservabilità. Entrambe queste dimensioni sono necessarie alla fisica, ergo l'osservatore è parte del sistema osservato.
 
 - Non possiamo osservare null'altro che noi stessi 
 
-Da leggersi nel senso di "cogito ergo sum" e dell'etimologia estesa della parola "ubuntu": l'osservatore osserva ciò che osserva perché è parte dell'osservato.
+Da leggersi nel senso di "cogito ergo sum" e dell'etimologia estesa della parola "ubuntu": l'osservatore osserva ciò che osserva perché è parte dell'osservato. Che riporta la scienza nella definizione sopra data nell'ambito della teoria della gestione del rapporto segnale rumore. Perché possiamo conoscere solo ciò che è ripetibile in termini di osservabili, questo implica una ripetizione dei metodi di osserevazione e delle osservazioni, le quali alterano lo stato delle osservabili.
+
+Questo comporta una relazione epistemiologica profonda fra ciò che osserviamo e l'osservazione stessa. Il principio di Heinsemberg si estende così all'intero ai fondamentali della scienza come disciplina tesa a conoscere le osservabili ripetibili. Nell'estendere la classe di osservabili, interpretriamo quello che prima era rumore, nell'estendere la conoscenza tendiamo necessariamente ad astrarre la nostra compresione, riducendone l'utilità.
+
+Questa interdipendenza competittiva fra diverse dimensioni e paradigmi ci porta all'estrema conclusione che nel momento che anche avessimo compreso tutto, quella compresione sarebbe inutile, paradossalmente perché tale processo avrebbe incrementato l'entripia del sistema osservato-osservatore di una tale magnitudo da rendere la nostra conoscenza in termini di regole astratte non più utile in termini di osservazioni ripetibili e quindi agency.
+
+Non è un concetto banale da comprendere, ma in estrema sintesi si può ridurre alla semplice cognizione che la procastinazione dell'azione in funzione di conoscere meglio la questione su cui agire, rende il nostro agire progressivamente meno utile. Detto con la saggezza ignorante degli antichi: del senno di poi, sono piene le buche. Detto con una più moderna parafrasi: a posteriori, è tutto ovvio.
 
 ---
 
