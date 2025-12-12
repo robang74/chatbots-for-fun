@@ -650,6 +650,42 @@ Non è un concetto banale da comprendere, ma in estrema sintesi si può ridurre 
 
 ---
 
+### Riferimenti bibliografici
+
+Epistemiologia della scienza, lista di concetti e relativi autori.
+
+* **Tema Concettuale:** Relazione Osservabilità vs. Realtà
+    * **Periodo:** XVI sec. - Oggi
+    * **Autori Chiave:** René Descartes (1596–1650), Immanuel Kant (1724–1804), Edmund Husserl (1859–1938), Thomas Nagel (n. 1937)
+
+La messa in discussione radicale dell'esistenza esterna all'osservatore (Cartesio: *Cogito*). La distinzione tra il mondo come appare (*fenomeno*) e la realtà in sé (*noumeno*) (Kant), che limita la conoscenza fisica all'esperienza possibile.
+
+* **Tema Concettuale:** Limiti Intrinsici dell'Osservazione Fisica
+    * **Periodo:** XX sec.
+    * **Autori Chiave:** Werner Heisenberg (1901–1976), Niels Bohr (1885–1962), Karl Popper (1902–1994), Eugene Wigner (1902–1995)
+
+Il ruolo centrale dell'osservatore nel collasso della funzione d'onda (Bohr, Wigner). Il tuo punto sull'estensione di Heisenberg a tutta l'interazione si allinea con l'interpretazione radicale della Meccanica Quantistica che nega un mondo oggettivo indipendente.
+
+* **Tema Concettuale:** Problema dell'Irreversibilità e della Stabilità
+    * **Periodo:** XIX sec. - Oggi
+    * **Autori Chiave:** Ludwig Boltzmann (1844–1906), Josiah Willard Gibbs (1839–1903), Ilya Prigogine (1917–2003)
+
+Il tentativo di conciliare l'irreversibilità macroscopica (**Entropia**) con le leggi fondamentali reversibili (Boltzmann, Paradosso di Loschmidt). Prigogine, in particolare, ha esplorato come l'irreversibilità sia creatrice e fondamentale, non un semplice limite statistico.
+
+* **Tema Concettuale:** Critica Metodologica e Utilità del Modello
+    * **Periodo:** XX sec.
+    * **Autori Chiave:** Kurt Gödel (1906–1978), Karl Popper (1902–1994), Willard Van Orman Quine (1908–2000)
+
+L'impossibilità di dimostrare la completezza e la coerenza di un sistema assiomatico (Gödel, correlato alla tua idea di inconoscibilità assoluta). L'enfasi sulla **falsificabilità** come criterio di scientificità (Popper). La critica alla distinzione analitico/sintetico e la visione che la conoscenza è una rete (Quine).
+
+* **Tema Concettuale:** Competizione Astrazione vs. Utilità
+    * **Periodo:** XX sec.
+    * **Autori Chiave:** Albert Einstein (1879–1955), Paul Dirac (1902–1984)
+
+L'eterna tensione tra l'eleganza matematica (astrazione) e la descrizione accurata della realtà fisica (utilità). Molti fisici teorici discutono di quanto una teoria debba essere "bella" (astratta) per essere vera, anche a costo di ridurne l'utilità pratica immediata (es. Teoria delle Stringhe).
+
+---
+
 ### Feynman vs. Einstein: The Myth of the Genius
 
 Short introduction on the µ-theory written by Gemini AI.
