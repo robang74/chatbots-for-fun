@@ -600,6 +600,10 @@ Il principio per il quale si sottende che certe quantità vengano preservate in 
 
 Non è solo una questione di rigore scientifico/metodologico. Il manifestarsi di eventi rari e impredicibili (unknown unknowns, black-swan) sottende l'idea che certi fenomeni abbiamo una distribuzione di probabilità che **non** ha un campo di manifestazione limitato. Quindi sperimentalmente è estremamente difficile per non dire epistemiologicamente impossibile, distinguere oltre una certa frequenza di osservabilità, errori di misura da violazioni dei fondamentali.
 
+---
+
+### Ripetibilità vs Osservabilità
+
 In sostanza, la fisica è la scienza dei fenomeni ripetibili e osservabili. O più precisamente, è la scienza che si occupa dei fenomeni la cui osservabilità è ripetibile. Perché tutto il resto trascende dalla fisica, o perché non è osservabile o perché non è ripetibile o perché la sua osservazione non è ripetibile.
 
 Non è filosofia spicciola, la sola seconda legge della termodinamica che afferma l'entropia di un sistema isolato sia sempre crescente, sta intrisecamente suggerendo che non esiste una realtà fisica fondamentalmente ripetibile ma solo, eventualmente, ripetibile nell'osservabilità nonostante la violazione delle premesse iniziali e quindi del valore delle costanti.
@@ -614,6 +618,10 @@ Questo per dire che se il principio di Heisenberg opera come postulato sui fonda
 
 Ma se un sistema interagisce con noi, allora non è più un sistema isolato. Se la fisica è la scienza delle osservabili ripetibili, la seconda legge della termodinamica è un ostacolo sia perché non esistono sistemi isolati osservabili oppure se esistono non sono osservabili e quindi potenzialmente possono fare quello che gli pare, incluso violare la seconda legge della termodinamica.
 
+---
+
+### Interazione e osservazione
+
 Senza contare che a le particelle fondamentali e più in generale gli atomi, sono trasparenti tranne in certe bande molto ristrette e discrete. Quindi non sono osservabili al di fuore dei picchi a pettine su una certa banda di frequenza. Anche questo fatto può apparire come una questione di metrologia, ma in termini semantici dei fenomeni fisici (interpretazione) significa che le entità non interagiscono al di fuori di certe specifiche ristrette bande di energia.
 
 Questo si porta a pensare che il principio di indistinguibilità delle particelle fondamentali sia solidamente fondato, ma anche che sia tautologico, perché se esistessero protoni con spettri individuali (unicità della particella) non sarebbero in grado di interagire come protoni e quindi non saremmo in grado di osservarli come tali, ma magari come neutroni. Ma se per estremo tutte le caratteristiche della particelle fossere uniche, allora sarebbe innoservabile.
@@ -625,6 +633,10 @@ Quando si postula i neutrini come particelle dotate di struttura interna ma refe
 Quindi si pone anche un problema nell'ambito della teoria dei sistemi e relativi modelli. Fino a che punto un modello fisico deve considerare eventi raramente ripetibili piuttosto che accettare tali violazioni al modello come fossero errori di osservazione? Perché spingendosi al limite dell'inclusione dei fenomeni rari finiremmo per voler dare un significato fisico anche ad ogni singolo evento del rumore di fondo.
 
 Da questo punto di vista il principio di Heinsemberg sostiene un concetto fondamentale e importante: la conoscibilità tramite osservazione è una dimensione competitiva alla ripetibilità. Fomalmente è postulato in termini di (**p**, q) ma concettualmente non è un limite di misurazione o di conoscibilità quanto un limite di ripetibilità vs osservabilità. Entrambe queste dimensioni sono necessarie alla fisica, ergo l'osservatore è parte del sistema osservato.
+
+- Non possiamo osservare null'altro che noi stessi 
+
+Da leggersi nel senso di "cogito ergo sum" e dell'etimologia estesa della parola "ubuntu": l'osservatore osserva ciò che osserva perché è parte dell'osservato.
 
 ---
 
