@@ -568,6 +568,66 @@ Since absolute truth (absolute determinism) is inaccessible and infinite-degrees
 
 ---
 
+### Osservabilità e realtà
+
+Nella sezione "A bit of mu-theory" si dice che l'osservatore conosce sempre velocità e massa a riposo di una particella. Questa affermazione riguarda anche la coppia (**p**,q) nello spazio delle fasi classico ( mo (vx, vy, vz), (x, y, z) ). La componente dinamica è soggetta alla relatività speciale, a prescindere da quale modello si usi per essere venga postulata ed eventualmente calcolata, ma resta un fatto sperimetalmente osservabile e quindi falsificabile, quindi scientifico per sua natura e pertanto non eludibile.
+
+Però è sempre possibile riformurare una teoria in termini di interpretazione fisica perché non esiste un principio che affermi che l'osservazione sia sempre causalemte riferibile 1:1 alla realtà. In senso astratto potremmo dire che i teoremi di incompletezza di Goedel e il principio di indeterminazione di Heisemberg ci garantiscano questa fondamentale inconoscibilità della realtà in termini assoluti, a prescindere dalla relatività speciale o generale. Quindi la riformulazione in termini semantici di postulati o di teoria non è un atto rivoluzionario in termini concettuali moderni ma un'opzione.
+
+La questione delle massa a riposo delle particelle fondamentali come costanti universali, ragionevolmente espresse in termini relativi fra loro, non è una questione meramente computazionale. Se dal modello non emergono queste relazioni significa che esso non è caratterizzato per descrivere la realtà come supponiamo che essa sia. Questo è un aspetto positivo in termini di astrazione ma negativo in termini di caratterizzazione. Una questione che questo documento a affrontato anche nel confortare meccanica razionale con teoria delle stringhe al fine di mostrare come l'astrazione e l'utilità tendano ad essere caratteristiche in competizione fra loro.
+
+Sicché qualora un giorno la mu-theory avesse una formalizzazione rigorosa e numericamente precisa, assurgendo a modello fisico completo, per sua natura avrebbe dei limiti di applicazione. Per esempio non si applicherebbe in altri possibili universi con valori delle costanti universali differenti, a meno di una rinormalizzazione se fosse solo un questione numerica, e non topologica. Oltre all'ovvio limite di valori massimi e minimi delle variabili oltre i quali è atteso un fallimento drastico o una perdita di precisione.
+
+Qeusto aspetto però è tipico di tutti i modelli fisici che ambiscono ad avere una qualche utilità pratica per il principio di concorrenza fra astrazione e utilità. Quindi non è un errore metodologico ma una scelta ponderata. D'altronde nell'ambito della fisica si va dall'empirismo dei laboratori fino all'astrazione delle teorie matematiche. Sicché nell'ambito della fisica trovano spazia sia modelli aprossimati, sia modelli semantici (interpretazioni della fisica), sia teorie astratte.
+
+La mu-theory si pone come modello semantico in quanto sottende al principio per il quale il massimo numero delle caratteristiche osservabili trova una speigazione della loro osservabilità in un numero quanto più limitato di assunti o postulati fondamentali. Come tali vincolanti e limitanti della teoria stessa, quindi competitivi sul fronte dell'astrazione ma supportativi dell'utilità in termini di "conosco ciò che è, da ciò che osservo". Non è poca cosa, e in confronto rimpiazzare la relatività cade persino in secondo piano, perché affronta una questione che i fisici evadono quasi sistematicamente.
+
+---
+
+### Il perchè di ciò che osserviamo
+
+Nella sezione "A bit of mu-theory" si dice che l'osservatore conosce sempre velocità e massa a riposo di una particella. Un concetto fondamentale senza il quale la fisica cesserebbe di avere significato come disciplina: la conoscibilità attraverso l'osservazione empirica. Un paradigma fondamentale che spesso i fisici, ma non solo loro, dimenticano. Questo è un assunto, che **non** è garantito per quanto possa sembrare ovvio.
+
+Per esempio la citazione di Cartesio "Cogito Ergo Sum" mette in discussione l'assunto di cui sopra: la realtà potrebbe essere frutto della mia immaginazione e nulla a al di fuori la mia immaginazione esiste oppure è per me percepibile. Che non è una posizione priva di fondamento, anche se estrema. Perché affronta in modo frontale il problema della conoscibilità attraverso l'osservazione. Un problema epistemiologico non solo pragmatico.
+
+Conoscere la massa e la velocità di una palla da biliardo, è una questione principlamente di strumenti di misura: la precisione della bilancia e la precisione del metro. Il metro da sarta o un misuratore a laser? Ugualmente per la velocità, stante il fatto che la misura della posizione **non** interferisca con la palla da biliardo (misuratore al laser, non metro da sarta) e la massa resti costante. Oltre alla disponibilità di una metrica del tempo precisa e assoluta.
+
+Appare evidente che usare il metro da sarta può alterare la posizione della palla, e non solo perché noi abbiamo una minore precisione della misura che introduce una fluttuazione in essa anche a palla ferma, ma perchè presuppone un'interazione ad energie tali da causare un reale alterazione dello stato della palla, inclusa la posizione.
+
+Eppure anche nella fisica classica della palla da biliardo, oltre al "problema delle sette sponde" incontriamo già altri elementi di incertezza epistemiologica che trascendono dalla metrologia. Diamo per scontato, per sua definizione, che la palla da biliardo sia una sfera perfetta, con una distribuzione di massa uniforme e con una struttura infinitamente rigida. Sono tutti postulati (assiomi, assunti) che debbono essere verificati ma debbono anche rimanere costanti nel tempo dopo averli verificati.
+
+Il principio per il quale si sottende che certe quantità vengano preservate in ogni condizione e quindi siano c"ostanti", non è marginale, ma fondamentale. Eppure non vi sono riscontri che queste supposizioni siano assolutamente garantite, a priori. Non è mai stata osseervata una violazione CPT, oppure se è stata osservata tale misurazione è stata scartata perché fisicamente impossibile?
+
+Non è solo una questione di rigore scientifico/metodologico. Il manifestarsi di eventi rari e impredicibili (unknown unknowns, black-swan) sottende l'idea che certi fenomeni abbiamo una distribuzione di probabilità che **non** ha un campo di manifestazione limitato. Quindi sperimentalmente è estremamente difficile per non dire epistemiologicamente impossibile, distinguere oltre una certa frequenza di osservabilità, errori di misura da violazioni dei fondamentali.
+
+In sostanza, la fisica è la scienza dei fenomeni ripetibili e osservabili. O più precisamente, è la scienza che si occupa dei fenomeni la cui osservabilità è ripetibile. Perché tutto il resto trascende dalla fisica, o perché non è osservabile o perché non è ripetibile o perché la sua osservazione non è ripetibile.
+
+Non è filosofia spicciola, la sola seconda legge della termodinamica che afferma l'entropia di un sistema isolato sia sempre crescente, sta intrisecamente suggerendo che non esiste una realtà fisica fondamentalmente ripetibile ma solo, eventualmente, ripetibile nell'osservabilità nonostante la violazione delle premesse iniziali e quindi del valore delle costanti.
+
+Significa che anche un sistema isolato è destinato a cambiare nel tempo. Il principio di conservazione del momento (angolare, lineare) quindi il principio di inerzia, non sono molto in linea con questa idea che vi siano delle quantità fondamentali che cambino senza alcuna interazione (sistema isolato).
+
+Per estensione potremmo anche cestinare la CPT, non solo per violazioni indistinguibili dall'errore di fondo (le violazioni esistono ma osservabili solo come rumore). Senza sorpresa, l'entropia fu definitica proprio per dare una metrica al rumore termico. In questo contesto, l'osservabilità di constanti fondamentali è un assioma vero entro il limite di un rapporto segnale / rumore estremamente favorevole.
+
+Se nell'osservare un palla da biliardo inviassimo fotoni a lunghezze d'onda estremamente fine, per guadagnare in precisione, avrebber l'energia sufficiente a vaporizzare un porzione della sua superficie, in estremo, a distruggere la struttura stessa della palla. Se poi, per ripetibilità della misura, quindi teoria degli errori ne inviassimo molti ad alta energia, otteniamo di creare aree ad alta porosità sulla superficie.
+
+Questo per dire che se il principio di Heisenberg opera come postulato sui fondamentali, lo stesso problema si osserva anche nel mondo macroscopico in termini di misurazioni ogni volta che il processo di misurazione interagisce con l'oggetto stesso, quindi sempre, quindi principio di Heisenberg come fondamentale. Perché ciò che non interagisce con noi (direttamente o indirettamente), non è osservabile (direttamente o indirettamente).
+
+Ma se un sistema interagisce con noi, allora non è più un sistema isolato. Se la fisica è la scienza delle osservabili ripetibili, la seconda legge della termodinamica è un ostacolo sia perché non esistono sistemi isolati osservabili oppure se esistono non sono osservabili e quindi potenzialmente possono fare quello che gli pare, incluso violare la seconda legge della termodinamica.
+
+Senza contare che a le particelle fondamentali e più in generale gli atomi, sono trasparenti tranne in certe bande molto ristrette e discrete. Quindi non sono osservabili al di fuore dei picchi a pettine su una certa banda di frequenza. Anche questo fatto può apparire come una questione di metrologia, ma in termini semantici dei fenomeni fisici (interpretazione) significa che le entità non interagiscono al di fuori di certe specifiche ristrette bande di energia.
+
+Questo si porta a pensare che il principio di indistinguibilità delle particelle fondamentali sia solidamente fondato, ma anche che sia tautologico, perché se esistessero protoni con spettri individuali (unicità della particella) non sarebbero in grado di interagire come protoni e quindi non saremmo in grado di osservarli come tali, ma magari come neutroni. Ma se per estremo tutte le caratteristiche della particelle fossere uniche, allora sarebbe innoservabile.
+
+Per altro, anche se esistesse una classe di particelle con proprietà "strane" ma statisticamente molto rare, pure quelle non riusciremme a osservare perché la loro densità sarebbe tale da confondersi con il rumore di fondo. Infatti la rivelazione dei neutrini è un problema enorme, perché sono estremamente difficili da osservare anche se presenti in enormi quantità.
+
+Quando si postula i neutrini come particelle dotate di struttura interna ma referenti a campi in L2 (qualunque cosa questo significhi) mentre noi interagiamo con campi e entità referenti a campi L1 (qualunque cosa questo significhi) stiamo di fatto ponendo le basi per la materia e l'energia oscura. Il cui effetto è solo indiretto e raramente osservabile e quando osservabile facilmente confondibile con errori di misura o violazioni di un modello che non contempli quelle entità.
+
+Quindi si pone anche un problema nell'ambito della teoria dei sistemi e relativi modelli. Fino a che punto un modello fisico deve considerare eventi raramente ripetibili piuttosto che accettare tali violazioni al modello come fossero errori di osservazione? Perché spingendosi al limite dell'inclusione dei fenomeni rari finiremmo per voler dare un significato fisico anche ad ogni singolo evento del rumore di fondo.
+
+Da questo punto di vista il principio di Heinsemberg sostiene un concetto fondamentale e importante: la conoscibilità tramite osservazione è una dimensione competitiva alla ripetibilità. Fomalmente è postulato in termini di (**p**, q) ma concettualmente non è un limite di misurazione o di conoscibilità quanto un limite di ripetibilità vs osservabilità. Entrambe queste dimensioni sono necessarie alla fisica, ergo l'osservatore è parte del sistema osservato.
+
+---
+
 ### Feynman vs. Einstein: The Myth of the Genius
 
 Short introduction on the µ-theory written by Gemini AI.
