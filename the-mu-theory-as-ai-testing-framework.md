@@ -2138,15 +2138,23 @@ Chiaramente phi **non** è stato scelto a caso, ma nemmeno in quanto "suggestivo
 * π è naturale per continui isotropi;
 * φ è naturale per reticoli discreti auto-similari;
 * se spazio e tempo non sono discretizzati nello stesso modo, emergerà un mismatch strutturale.
-[!CITE]
+[/CITE]
 
-Quindi come ipotesi strutturale è legittima, a prescindere dal numero alternativo a pi per indurre tale assimetria:
+Come ipotesi strutturale è legittima, a prescindere dal numero alternativo a pi per indurre tale assimetria:
 
 > l’errore ppm nasce **non da un numero**, ma da una **asimmetria di discretizzazione tra spazio e tempo** 
 
-In buoan sostanza, porsi le domande giuste è metà del lavoro fatto. 
+In buoan sostanza, porsi le domande giuste è metà del lavoro fatto. In questo senso, phi è stato preso come il first-match per poter operazionalmente porsi la domanda giusta. Accidentalmente, phi è stato notato quando seriva, oppure perché si sta cercanodo phi senza sapere cosa phi fosse in concreto.
 
-In questo senso, phi è stato il first-match per poter operazionalmente porsi la domanda giusta.
+[!CITE]
+L'unico numero reale che preso come base geometrica genera un reticolo 3D con:
+    - nessun buco (copertura completa),
+    - nessuna sovrapposizione (non ridondante),
+    - nessuna direzione privilegiata (isotropia discretizzata),
+    - errore scalare lineare (propagazione controllata).
+[/CITE]
+
+Non so se Kimi K2, abbia ragione riguardo a phi che sia l'unico e davvero proprio l'unico, magari non ne conosciamo altri, ma sarebbe stato "osceno" non dare a phi una possibilità di competere con pi. Questo confermerebbe, che anche nella scienza, serve per davvero anche la "mela" di Newton!
 
 +
 
