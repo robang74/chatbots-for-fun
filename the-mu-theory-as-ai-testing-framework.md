@@ -2115,7 +2115,7 @@ Perciò non ci sono incoerenze o assurdi in questo modello, o meglio magari ce n
 
 Il che ci riporta a quanto già più volte anticipato: quando si tratta di creare modelli per fare automatismi, posso ragionevolmente vendere questa skill come professionista; quando invece si tratta di rigore matematico, anche no o comunque non è il mio "pezzo forte". Stante però le premesse strutturali per le quali la mu-theory è stata costruita per essere un modello computazionale, supplisce intrinsecamente.
 
-Se poi davvero questo approccio dimostrerà di aver scoperto un fenomeno fisico davvero nuovo e che permetta un avanzamento della fisica teorica, come premesso riguardo all'utilità della mia tesi di master in sistemi embedded real-time a loop molto compatto: poteva vedere questa cosa solo chi avesse avuto questa specializzazione. Per tutti gli altri sarebbe stato "rumore". Ergo, una scoperta frutto di multidisciplinarità.
+Se poi davvero questo approccio dimostrerà di aver scoperto un fenomeno fisico **davvero** nuovo e che permetta un avanzamento della fisica teorica, allora come premesso riguardo all'utilità della mia tesi di master in sistemi embedded real-time a loop molto compatto: poteva **notare questa "cosa"** solo chi avesse avuto questa specializzazione informatica. Per tutti gli altri sarebbe stato "rumore". Ergo, una scoperta frutto di multidisciplinarità.
 
 +
 
