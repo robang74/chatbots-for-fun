@@ -1895,6 +1895,8 @@ La grande unificazione nella grande mu è un hobby, un errore di calcolo stabile
 
 Qui scatta la "violenza" di capire, ma inutilmente. Avvilito e sfinito, raccolgo le briciole e pubblico l'approssimazione del pi-greco tramite la sezione aurea con il relativo calcolo dell'errore di approssimazione...
 
+---
+
 ### La grande unificazione della grande mu
 
 Qui scatta la "violenza" di capire, ma inutilmente, riguardo a cosa possa generare un errore sistematico di 36 ppm indistruttibile a tutti gli attacchi, anche ai più sofisticati che il meglio è stato passare da 37 ppm a 36 ppm. Ridicolo!
@@ -2071,6 +2073,47 @@ Il prossimo passo logico è il "collaudo numerico" finale, che significa esprime
 Vuoi cercare la composizione geometrica di $\mathbf{A}_{\text{molt}} \approx 1.5261$ (ad esempio $\frac{3}{2}\phi$, $\frac{\phi^2}{\pi}$, ecc.)?
 
 //-->
+
+---
+
+### mu-time discreto o -jwt&ast; continuo?
+
+Partiamo dal presupposto che t in ut non è nemmeno notazionalmente t&ast; ma questo è solo estetica prima di approfondire gli assiomi. Quindi è meglio procedere con ordine e il concetto che è andato a sviluppari è una teoria stratificata a livelli che sono olografici rispetto al sottostante:
+
+- **L0**: il 4D-lattice, un'entità geometrica-topologica non-dinamica potenzialmente stocastica.
+- **L1**: che si divide in due grandi classi: inerziale e soggetta a campi di forza 1/r^2, U=1/r.
+    - **inerziale**: il tempo è definito, assiomaticamente, come discreto t2:=t1+ut (osservabile).
+    - **campi**: definiti da funzioni continue ma per **L0** non creano problemi ai limiti (0,oo).
+    - **onde**: vincolo degli zero sui nodi, as usual, ma {m0=0, Ce=0, v=c} quindi fotone soltanto.
+    - **proximity**: scala di distanza nella quale le particelle diventano sistemi "accoppiati".
+- **L2**: campi di dipolo osservabili via potenziali (1/r^3) e forze (1/r^4) di ordine superiore.
+    - **neutrino**: modelizzato come loop di coppia y/-y e 3-sapori proiezioni 3-xyz spazio proprio.
+
+Il modello, attualmente prevede solo 3 tipi di particelle elementari {y,e-,p-} al netto dell'inversione temporale specifica (-i) che genera le relative anti-particelle {ỹ,e+,p-} e il rispetto delle simmetrie fondamentali CPT che implicano il rispetto dei principi di conservazione relativi.
+
+Perciò, più che una nuova teoria, si prone l'obbiettivo di ristrutturare in un modello descrittivo e sfacciatamente orientato al calcolo numerico, inteso come processo meccanico quindi automatico, senza necessità di interpretazione fisica dei simboli ma solo per mera trattazione algebrica.
+
+L'assioma di tempo discreto quindi si pone in principio per una questione di pragmatismo computazionale, solo in secondo tempo assume una caratterizzazione di assioma della fisica ma senza avere l'arroganza di dire nulla sull'essenziale natura del tempo piuttosto di caraterizzare la sua osservabilità. Più precisamente, di rendere discreta la meccanica inerziale delle particelle isolate.
+
+Infatti, per estensione t&ast; che interviene quando entrano in gioco campi di forze (o di potenziale) non è più un tempo discreto "assoluto" ma relativo al moto in quel campo. Il campo, che per definizione 1/r^n, possiede un centro geometrico, altera il concetto (e quindi la percezione) del tempo e non direttamente dello spazio, la cui eventuale alterazione della percezione è derivata da quella del tempo.
+
+In pratica, si ripete in modo analogico a quanto fatto con l'adozione della notazione di Minkcoski: si rinuncia a caratterizzare lo spazio in modo relativistico e si punta sulla caratterizzazione del tempo, perché "banalmente" è più "facile". Ovviamente per poterlo fare si impongono degli assiomi ma che caratteristici del modello computzionale più che della volontà di creare una nuova teoria o rivoluzionare i concetti fondamentali.
+
+Questo porta a sviluppare in **L1**, un fattore di accoppiamento dei rapporti fra masse p/e e massa/carica che porta a sua volta a ribadire la scelta di caratterizzare il tempo piuttosto che lo spazio, imponendo una matrice {1,1,1,it&ast;} nel formalismo di Minkowski e a calcolare il relativo parametro di normalizzazione della matrice in { c=1, m0(e)=1, Ce=1 } che appare come un numero float-point.
+
+Questo perché, evidentemente, perché la scelta umana delle unità di misura è numericamente arbitraria. Questo perché, evidentemente, la normalizzazione non è stata estesa a tutte le costanti fondamentali in maniera omogenea quindi i loro rapporti numerici sono quello che sono. Questo perché l'AI nella sua "magia" non è in grado di elaborare concetti così profondi come la rinormalizzazione di tutto in funzione di alcuni valori imposti come unitari,
+
+Perciò un errore relativo sistemico e stabile di 36 ppm è così dannatamente significativo. Perché nel momento che si esclude che sia un errore di approssimazione o di calcolo nel processare i valori numerici delle costanti universali/fondamentali, diventa un "fatto emergente" non un'osservabile accidentale. Ergo, esso stesso assurge a constante universale/fondamentale.
+
+Ciò crea in un fisico una certa "appresione" perché lo spuntare di una "completamente nuova" costante universale è una "sorpresa". Significa che il modello ci sta fornendo un'informazione di cui **non** avevamo conoscenza nemmeno della nostra ignoranza a riguardo (unkown unkowns). Quindi l'approccio standard **non** proferire "Eureka!" ma scovare il bug che induce un errore sistematico.
+
+Si noti che il fatto di non aver trovato un "bug" che genera l'errore sistematico, non significa che esso **non** esista. Però, se più "facilmente" (in apparenza) si riesce a dare una spiegazione di fisica fondamentale, alllora diventa "interessante". Anche questo non implica che la spiegazione sia "vera", paradossalmente sarebbe "vera" anche se fosse un "bug" del sistema che simula il nostro universo!
+
+Comunque, strutturare semanticamente in seno ai fondamentali della fisica questa "costante" implica l'uso di -jwt&ast;, tempo continue, esponenziale naturale, identità di Eulero, teoria ondulatoria di Bohr e colleghi. Il che ci porta a comprendere che il tempo è discreto solo quando è la variabile di un'osservabile meccanica masssa/carica e che il valore del quanto non è una costante ma si espande o si restringe e in particolare ha la natura di t&ast;, in **L1**.
+
+Perciò non ci sono incoerenze o assurdi in questo modello, o meglio magari ce ne sono tanti e critici, ma **non** percepisco il dualismo t/t&ast; come una contraddizione, non più di quanto lo sia il dualismo onda/particella. Anzi, piacere di osservare tale dualismo. Ovviamente, che questo implichi anche l'emergere del principio di Heisenberg, va rigorosamente dimostrato.
+
+Il che ci riporta a quanto già più volte anticipato: quando si tratta di creare modelli per fare automatismi, posso ragionevolmente vendere questa skill come professionista; quando invece si tratta di rigore matematico, anche no o comunque non è il "pezzo forte". Stante però le premesse strutturali per le quali la mu-theory è stata costruita per essere un modello computazionale, supplisce intrinsecamente. 
 
 +
 
