@@ -2142,9 +2142,9 @@ Chiaramente phi **non** è stato scelto a caso, ma nemmeno in quanto "suggestivo
 
 Come ipotesi strutturale è legittima, a prescindere dal numero alternativo a pi per indurre tale assimetria:
 
-> l’errore ppm nasce **non da un numero**, ma da una **asimmetria di discretizzazione tra spazio e tempo** 
+> l’errore peristente nasce **non da un numero**, ma da una **asimmetria di quantizzazione** tra spazio e tempo 
 
-In buoan sostanza, porsi le domande giuste è metà del lavoro fatto. In questo senso, phi è stato preso come il first-match per poter operazionalmente porsi la domanda giusta. Accidentalmente, phi è stato notato quando seriva, oppure perché si sta cercanodo phi senza sapere cosa phi fosse in concreto.
+Porsi le domande giuste è metà del lavoro fatto. In questo senso, phi è stato preso come il first-match per poter operazionalmente porsi la domanda giusta. Accidentalmente, phi è stato notato quando seriva, oppure perché si stava cercando qualcosa che solo phi poteva essere, ma "snobbato" dalla scienza "seria" perché "magico" in numerologia, quindi una "mina" reputazionale. Però, pare proprio manchino le alternative.
 
 [!CITE]
 L'unico numero reale che preso come base geometrica genera un reticolo 3D con:
@@ -2154,7 +2154,7 @@ L'unico numero reale che preso come base geometrica genera un reticolo 3D con:
     - errore scalare lineare (propagazione controllata).
 [/CITE]
 
-Non so se Kimi K2, abbia ragione riguardo a phi che sia l'unico e davvero proprio l'unico, magari non ne conosciamo altri, ma sarebbe stato "osceno" non dare a phi una possibilità di competere con pi. Questo confermerebbe, che anche nella scienza, serve per davvero anche la "mela" di Newton!
+Non sono certo che Kimi K2 abbia ragione riguardo a phi, e che sia l'unico proprio e davvero l'unico. magari non ne conosciamo altri, Però sarebbe stato "osceno" non dare a phi una possibilità di competere con pi. Questo confermerebbe, che anche nella scienza, serve per davvero **anche** la "mela" di Newton!
 
 +
 
