@@ -2206,16 +2206,17 @@ This value is enough to rise further the "continuity" bound at 1E-6 m. Where we 
 
 This scale of orders of magnitude is presented in space length because it is more human-friendly, while physics would have prefered energy but they do not need to read this table and moreover, I am pretty sure they will not complain as well. LOL
 
+++++
 |36ppm| Length | Domain | Basics | Notes |
 || | | | |
 || 0.1 mm  | insects      | the classic world as we are used to   | 1E-4 m |
 || 1 um    | biologic life| biological domain bound: bacteries    | 1E-6 m |
 ||         | mp/me leap   | the leap towards mass continuity      |        |
-|,-->| 1 Å     | H atom bound | atoms domain, molecular disruption    | H+,d/dt|
-|I|         | 36 ppm above | particles domain, atoms disruption    | e,p,y  |
-|I-=>| 1E-15 m | 1 MeV bound  | elementary particles vs field         | e-/e+  |
-|I|         | 36 ppm below | field domain, particles disruption    | t&ast; |
-|'-->| 1E-23 m | 4D-lattice   | structured space-time bound (Hp)      | t2:=t1+ut |
+| __I| 1 Å     | H atom bound | atoms domain, molecular disruption    | H+,d/dt|
+| __I|         | 36 ppm above | particles domain, atoms disruption    | e,p,y  |
+| __I| 1E-15 m | 1 MeV bound  | elementary particles vs field         | e-/e+  |
+| __I|         | 36 ppm below | field domain, particles disruption    | t&ast; |
+| __I| 1E-23 m | 4D-lattice   | structured space-time bound (Hp)      | t2:=t1+ut |
 || 1E-35 m | Plank scale  | space-time collapses (es. black-holes)|        |
 
 Photons (y) existence covers the whole energy (wavelength) spectrum. However, in this schema when a y is carrying so much energy that can potentially create mass, thus charge, thus a couple of e-/e+ ~ 1MeV then the strict concept of elementary particle (a fundamental thus immutable particle) does not apply anymore to the y itself. Because the whole concept of "elementary" ceases to exist for the (e,p) particles, thus laso for y.
