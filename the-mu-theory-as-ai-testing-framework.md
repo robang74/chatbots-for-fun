@@ -1915,7 +1915,7 @@ Se lo spazio 3D è geometrizzato non a sfere (che hanno il problema di sottomapp
 
 Da questo dualismo del reticolato spazio tempo confrontando la volumetria in 3D con quella in 4D, due (pi) sono approssimati con (phi) introducendo due errori indipendenti 15.5 ppm che compongono un errore 31 ppm ad esponente dell'esponenziale naturale che li "atterra" come 36 ppm perché nonostante siano molto piccoli rispetto all'unità, un pochino li amplifica.
 
-Perché se non è l'esponenziale allora è un fattore geometrico di sotto armoniche che introducano ordini maggiori rispetto alla deviazione base di 31/k^n ppm. Oh guarda! Un "fottuto" pacchetto d'onda!
+Perché se non è l'esponenziale allora è un fattore geometrico di sotto-armoniche di ordini superiori rispetto alla deviazione base di 31/(k^n) ppm. Oh guarda! Un "fottuto" pacchetto d'onda!
 
 Cara mu-theory, cosa vuoi dirmi che è la frattalità aurea che genera il gap spazio-temporale nelle equazioni di Bohr a far emergere il principio di indeterminazione di Heisemberg? Ma questo è osceno! 
 
