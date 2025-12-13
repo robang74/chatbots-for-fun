@@ -2164,43 +2164,41 @@ How a certain value can be interpreted in physics means, it does not mean that i
 
 ...
 
-Considering that at Up ~1MeV (10E-15 m) elementary particles starts to interacts with Up in a way the Up can dissolve them, then the 36 ppm can also interpreted in a way that the 4D-lattice exists at Up ~28TeV (10E-23 m). By comparison the Planck energy is ~10^3 TeV (10E-35). This means that above a certain energy density also the fundamental structure of space-time is going to be disrupted and at Planck scale collapses into a black-hole (micro or massive one).
+Considering ~1MeV (1E-15 m) the energy -- for which elementary particles interacting with Up in a way the Up can dissolve them -- then the 36 ppm can also interpreted in a way that the 4D-lattice exists deep down at Up ~28 TeV (1E-23 m).
+
+By comparison the Planck energy is ~1000 TeV (1E-35 m). This means that at extreme energy density also the fundamental structure of space-time is going to be disrupted and at Planck scale, it collapses into a black-hole (micro or massive one).
 
 ...
 
-Whatever, I pull this white rabbit from my mu-theory cylinder, it is a trick until scientists in the laboratory try to falsificate it. It is the same approach I went for in trying to reframe the 36 ppm (whatever it means). After I have tried very hard, I cannot refuse to accept that it is a feature not a bug. Others may achieve the falsification (one that cannot be corrected, thus the model is gone). In failing, they validate THE interpretation. On LONG run this process converges in Science.
+Whatever, I pull this white rabbit from my mu-theory cylinder, it is a trick until scientists in the laboratory try to falsificate it. It is the same approach I went for in trying to reframe the 36 ppm (whatever it means). After I have tried very hard, I cannot refuse to accept that it is a feature not a bug.
+
+Despite this, others may achieve the falsification. And in particular, every falsification that cannot be corrected lead the model straightforward into the trash bin. In failing to find a no-way-out falidication, they validate **THE** interpretation. In the **long** run, this process converges in Science.
 
 ---
 
 ### The scientific falsification 
 
-For example a falsification of **THIS** interpretation can be made applying the 36 ppm concept from the same ~1MeV energy but in the opposite direction.
+For example a falsification of **THIS** interpretation can be made applying the 36 ppm concept from the same ~1 MeV energy but in the opposite direction.
 
 ...
 
-Thus using the distance instead of the energy. In that case we get 10E-12 m the limit in which continuity is granted (or starts to be granted as typical behaviour). Which is false because the biggest atom size is around 1E-10 m, which is 2 orders of magnitude bigger. The DNA diameter is 2E-9 m, for example.
+Thus using the distance instead of the energy. In that case we get 1E-12 m the limit in which continuity is granted (or starts to be granted as typical behaviour). Which is false because the biggest atom size is around 1E-10 m, which is 2 orders of magnitude bigger. The DNA diameter is 2E-9 m, for example.
 
 We can argue that 36 ppm applies to energy (which is correct because it is about a mass ratio, thus E=mc² energy). Moving on Up which degrades at 1/r then we find 5E-11 m which is the typical atom radius (H) but still into a range for which continuity isn't perceived as typical.
 
 ...
 
-Thus there is a "problem". And within this model, c=1 by normalisation. Thus the 3E8 factor isn't good to serve to rise the top bound. While the down bound is sane enough. Plus, c² = 9E16 which is a very big number. Falsified!**?** or can we save it?
+Thus there is a "problem". And within this model, c=1 by normalisation. Thus the 3E8 factor isn't good to serve to rise the top bound. While the down bound is sane enough. Plus, c² = 9E16 which is a very big number.
 
-For example, in considering 1 MeV, I focused on the unitary mass set as m0(e-). While, in mu-theory model, the ratio with the "big positive brother" (p+) is expressed into the factor F ~ 7200. However, the mass ratio is ~2000 (granted, anyway).
+#### Falsified or can we save it?
 
-The mass ratio value is enough to rise further the "continuity" bound at 1E-6 m. Where we can find bacteria and middle infrared ray length (shorter than thermal IR): **not** falsified. This would be fine and reasonable.
+For example, in considering 1 MeV, I focused on the unitary mass set as m₀(e-). While, in mu-theory model, the ratio with the "big positive brother" (p+) is expressed into the factor F ~ 7200.
 
-+
+- However, the masses ratio is near 2000, always granted.
 
-## Related articles
+This value is enough to rise further the "continuity" bound at 1E-6 m. Where we can find bacteria and middle infrared ray length (shorter than thermal IR, typical of the macroscopic life).
 
-- [When AI gets wrong, who owns the consequences?](when-ai-gets-wrong-who-owns-the-consequences.md#?target=_blank) &nbsp; (2025-11-30)
-+++++
-- [Il segreto dell'intelligenza](il-segreto-dell-intelligenza.md#?target=_blank) &nbsp; (2025-11-20)
-+++++
-- [How to use Katia for educating Katia](how-to-use-katia-for-educating-katia.md#?target=_blank) &nbsp; (2025-10-28)
-+++++
-- [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md#?target=_blank) &nbsp; (2025-10-05)
+- This would be fine and reasonable: **not falsified**.
 
 +
 
