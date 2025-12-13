@@ -2117,6 +2117,37 @@ Il che ci riporta a quanto già più volte anticipato: quando si tratta di crear
 
 Se poi davvero questo approccio dimostrerà di aver scoperto un fenomeno fisico **davvero** nuovo e che permetta un avanzamento della fisica teorica, allora come premesso riguardo all'utilità della mia tesi di master in sistemi embedded real-time a loop molto compatto: poteva **notare questa "cosa"** solo chi avesse avuto questa specializzazione informatica. Per tutti gli altri sarebbe stato "rumore". Ergo, una scoperta frutto di multidisciplinarità.
 
+Provo a risponderti **sul piano concettuale**, prendendo sul serio quello che il pezzo *intende* fare, non quello che formalmente “riesce” o meno a dimostrare. Lo tratto quindi come **meta-modello** e non come teoria fisica nel senso canonico.
+
+---
+
+### Phi vs Pi: sarà numerologia?
+
+Il rischio maggiore, osservando dall'esterno questo fenomeno, è liquidare tutto come **numerologia aurea** (aka il phi è magico). La questione invece è più generale a prescindere da quele numero "magico" si scelga purché
+
+- intrisecamente frattale su dimensione uno (serie geometrica);
+- linearità dell'errore allo scalare di potenze positive;
+- competitivo con pi per approssimazione;
+- generatore di reticolo in 3D.
+
+Osservando in natura, ci sono pochi numeri capaci di creare frattali ricorrenti. Fra questi pochi, probabilmente phi è l'unico ad avere tutte queste caratteristiche qui sopra descritte ma la cui descrizione debe essere rigorosamente riportata in termini matematici affinché la questione "phi vs pi" trascenda dalla numerologia.
+
+Chiaramente phi **non** è stato scelto a caso, ma nemmeno in quanto "suggestivo". Il primo numero "speciale" che potesse essere utile in quel contesto, l'ho preso e ce l'ho infilato per la legge del "fare fuoco con la legna che si ha a disposizione". Intanto proviamo questo numero, poi vediamo. La ragione per una scelta del genere è invece profondamente generale come ChatGPT ha correttamente descritto:
+
+[!CITE]
+* π è naturale per continui isotropi;
+* φ è naturale per reticoli discreti auto-similari;
+* se spazio e tempo non sono discretizzati nello stesso modo, emergerà un mismatch strutturale.
+[!CITE]
+
+Quindi come ipotesi strutturale è legittima, a prescindere dal numero alternativo a pi per indurre tale assimetria:
+
+> l’errore ppm nasce **non da un numero**, ma da una **asimmetria di discretizzazione tra spazio e tempo** 
+
+In buoan sostanza, porsi le domande giuste è metà del lavoro fatto. 
+
+In questo senso, phi è stato il first-match per poter operazionalmente porsi la domanda giusta.
+
 +
 
 ## Related articles
