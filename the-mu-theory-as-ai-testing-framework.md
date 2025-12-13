@@ -2174,21 +2174,21 @@ Whatever, I pull this white rabbit from my mu-theory cylinder, it is a trick unt
 
 ### The scientific falsification 
 
-For example a falsification of THIS interpretation can be made applying the 36 ppm concept from the same ~1MeV energy but in the opposite direction.
+For example a falsification of **THIS** interpretation can be made applying the 36 ppm concept from the same ~1MeV energy but in the opposite direction.
 
 ...
 
 Thus using the distance instead of the energy. In that case we get 10E-12 m the limit in which continuity is granted (or starts to be granted as typical behaviour). Which is false because the biggest atom size is around 1E-10 m, which is 2 orders of magnitude bigger. The DNA diameter is 2E-9 m, for example.
 
-...
-
 We can argue that 36 ppm applies to energy (which is correct because it is about a mass ratio, thus E=mc² energy). Moving on Up which degrades at 1/r then we find 5E-11 m which is the typical atom radius (H) but still into a range for which continuity isn't perceived as typical.
 
-Thus there is a "problem". And within this model, c=1 by normalisation. Thus the 3E8 factor isn't good to serve as an top bound (down bound is sane enough). Plus, c²=9E16 which is a very big number. Falsified!**?**
+...
 
-However, in considering 1MeV, I focused on the unitary mass set as m0(e-) while the ratio for the "big positive brother" (p+) is ~7200 (factor F), in such model (mass ratio is ~2000, and it would be fine anyway). The mass ratio value is enough to set the "continuity" bound at 1E-6 m.
+Thus there is a "problem". And within this model, c=1 by normalisation. Thus the 3E8 factor isn't good to serve to rise the top bound. While the down bound is sane enough. Plus, c² = 9E16 which is a very big number. Falsified!**?** or can we save it?
 
-Where we can find bacteria and middle infrared ray length (shorter than thermal IR): **not** falsified.
+For example, in considering 1 MeV, I focused on the unitary mass set as m0(e-). While, in mu-theory model, the ratio with the "big positive brother" (p+) is expressed into the factor F ~ 7200. However, the mass ratio is ~2000 (granted, anyway).
+
+The mass ratio value is enough to rise further the "continuity" bound at 1E-6 m. Where we can find bacteria and middle infrared ray length (shorter than thermal IR): **not** falsified. This would be fine and reasonable.
 
 +
 
