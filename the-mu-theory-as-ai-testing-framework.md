@@ -2113,7 +2113,9 @@ Comunque, strutturare semanticamente in seno ai fondamentali della fisica questa
 
 Perciò non ci sono incoerenze o assurdi in questo modello, o meglio magari ce ne sono tanti e critici, ma **non** percepisco il dualismo t/t&ast; come una contraddizione, non più di quanto lo sia il dualismo onda/particella. Anzi, piacere di osservare tale dualismo. Ovviamente, che questo implichi anche l'emergere del principio di Heisenberg, va rigorosamente dimostrato.
 
-Il che ci riporta a quanto già più volte anticipato: quando si tratta di creare modelli per fare automatismi, posso ragionevolmente vendere questa skill come professionista; quando invece si tratta di rigore matematico, anche no o comunque non è il "pezzo forte". Stante però le premesse strutturali per le quali la mu-theory è stata costruita per essere un modello computazionale, supplisce intrinsecamente. 
+Il che ci riporta a quanto già più volte anticipato: quando si tratta di creare modelli per fare automatismi, posso ragionevolmente vendere questa skill come professionista; quando invece si tratta di rigore matematico, anche no o comunque non è il mio "pezzo forte". Stante però le premesse strutturali per le quali la mu-theory è stata costruita per essere un modello computazionale, supplisce intrinsecamente.
+
+Se poi davvero questo approccio dimostrerà di aver scoperto un fenomeno fisico davvero nuovo e che permetta un avanzamento della fisica teorica, come premesso riguardo all'utilità della mia tesi di master in sistemi embedded real-time a loop molto compatto: poteva vedere questa cosa solo chi avesse avuto questa specializzazione. Per tutti gli altri sarebbe stato "rumore". Ergo, una scoperta frutto di multidisciplinarità.
 
 +
 
