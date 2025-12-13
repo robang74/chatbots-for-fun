@@ -2200,6 +2200,38 @@ This value is enough to rise further the "continuity" bound at 1E-6 m. Where we 
 
 - This would be fine and reasonable: **not falsified**.
 
+---
+
+### The 36ppm paradigm in a scale
+
+This scale of orders of magnitude is presented in space length because it is more human-friendly, while physics would have prefered energy but they do not need to read this table and moreover, I am pretty sure they will not complain as well. LOL
+
+|36ppm| Length | Domain | Basics | Notes |
+|| | | | |
+|| 0.1 mm  | insects      | the classic world as we are used to   | 1E-4 m |
+|| 1 um    | biologic life| biological domain bound: bacteries    | 1E-6 m |
+||         | mp/me leap   | the leap towards mass continuity      |        |
+|,-->| 1 Å     | H atom bound | atoms domain, molecular disruption    | H+,d/dt|
+|I|         | 36 ppm above | particles domain, atoms disruption    | e,p,y  |
+|I-=>| 1E-15 m | 1 MeV bound  | elementary particles vs field         | e-/e+  |
+|I|         | 36 ppm below | field domain, particles disruption    | t&ast; |
+|'-->| 1E-23 m | 4D-lattice   | structured space-time bound (Hp)      | t2:=t1+ut |
+|| 1E-35 m | Plank scale  | space-time collapses (es. black-holes)|        |
+
+Photons (y) existence covers the whole energy (wavelength) spectrum. However, in this schema when a y is carrying so much energy that can potentially create mass, thus charge, thus a couple of e-/e+ ~ 1MeV then the strict concept of elementary particle (a fundamental thus immutable particle) does not apply anymore to the y itself. Because the whole concept of "elementary" ceases to exist for the (e,p) particles, thus laso for y.
+
+The Ångström bound is about ionisation, quantised energy atomic orbital and below Pb mass atoms (fuse not split). It is where space-time continuity is granted, both. At least in perception. Moreover, by definition ut is the time light takes to travel a quantum of length:
+
+- Within the 36 ppm interpretation time-discrete is established being ut 1E-23 / 3E8 ~ 1E32 s.
+
+However, the "mass continuity" bound is not reached unless applying to the Amstrong scale the 3 order of magnitude that separates the masses of proton and electron. It might seem like an arbitrary cherry picking but m0(p)/m0(e) ~ 2000 can be considered an universal constant ratio. Most notably of this choice is at the scale of 1E-6 m is where the biological life starts to appear, because viruses aren't considered "alive" in its full conception but organic automi.
+
+Less questionable metric about mass continuity: the lead which is the most massive **stable** atom is about 200 times the H mass. As a rule of thumb 30 samples is the least subset over which to make a statistics. Thus 6.000 rather than 2.000 where F ~ 7.200 (just for a comparison with an apparently arbitrary cherry-picking number in order to make the mu-theory artificially meaningful).
+
+- Whatever the "mp/me" appeals as **leap width**, it should be >1E3 from the hydrogen simplest atom.
+
+The idea behind this ratio is meangingfull is not related to being an universal constant, only. More likely because a positive bias toward the intrinsic fractals nature or the more general idea that some schemas repeats itself thus from the e- to the p+ (Coulomb's force), like from the H (neutralised charge, Newton's gravity) toward mass continuity (thermodynamics statistics).
+
 +
 
 ## Share alike
