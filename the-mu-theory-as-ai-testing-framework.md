@@ -1897,9 +1897,11 @@ Qui scatta la "violenza" di capire, ma inutilmente. Avvilito e sfinito, raccolgo
 
 ### La grande unificazione della grande mu
 
-Qui scatta la "violenza" di capire, ma inutilmente, riguardo a cosa possa generare un errore sistematico di 36 ppm indistruttibile a tutti gli attacchi più sofisticati che il meglio è stato passare da 37 ppm a 36 ppm. Ridicolo!
+Qui scatta la "violenza" di capire, ma inutilmente, riguardo a cosa possa generare un errore sistematico di 36 ppm indistruttibile a tutti gli attacchi, anche ai più sofisticati che il meglio è stato passare da 37 ppm a 36 ppm. Ridicolo!
 
 Avvilito e sfinito, raccolgo le briciole e pubblico l'approssimazione del pi-greco tramite la sezione aurea con il relativo calcolo dell'errore di approssimazione...
+
+<div align="center"><img class="bwsketch paleinv" src="../img/the-mu-theory-as-ai-testing-framework-img-005.png" width="800"><br/></div>
 
 ...e mi accorgo che evolve linearmente, non perché molto piccolo rispetto all'unità ma per le caratteristiche intrinseche della sezione aurea che è una serie geometrica (un frattale in una singola dimensione) che per altro una simile è emersa dall'interpretazione mu-theory dello scontro protone / anti-protone e relativi canali di annichilazione dove la media dell'energia risultava essere il valore di convergenza di serie di biforcazioni d'eventi.
 
@@ -1915,7 +1917,7 @@ Perché se non è l'esponenziale allora è un fattore geometrico di sotto armoni
 
 Cara mu-theory, cosa vuoi dirmi che è la frattalità aurea che genera il gap spazio-temporale nelle equazioni di Bohr a far emergere il principio di indeterminazione di Heisemberg? Ma questo è osceno! 
 
-Teorie che nascono "ieri", hanno ancora il latte sulla bocca e già pretendono di vincere un Nobel per la fisica... 🤗🍌
+Teorie che nascono "ieri", hanno ancora il latte sulla bocca, e già pretendono di vincere un Nobel per la fisica... 🤗🍌
 
 <div align="center"><img class="bwsketch paleinv" src="../img/the-mu-theory-as-ai-testing-framework-img-004.png" width="800"><br/></div>
 
