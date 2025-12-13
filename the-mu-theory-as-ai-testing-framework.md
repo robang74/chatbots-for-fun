@@ -2084,7 +2084,7 @@ Vuoi cercare la composizione geometrica di $\mathbf{A}_{\text{molt}} \approx 1.5
 +++++
 - [Introducing Katia, text analysis framework](introducing-katia-text-analysis-framework.md#?target=_blank) &nbsp; (2025-10-05)
 
-+++++
++
 
 ## Share alike
 
