@@ -2178,7 +2178,7 @@ Despite this, others may achieve the falsification. And in particular, every fal
 
 ### The scientific falsification 
 
-For example a falsification of **THIS** interpretation can be made applying the 36 ppm concept from the same ~1 MeV energy but in the opposite direction.
+For example a falsification of **THIS** interpretation can be tried applying the 36 ppm concept from the same ~1 MeV energy but in the opposite direction.
 
 ...
 
