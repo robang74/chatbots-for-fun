@@ -1,4 +1,4 @@
-## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.22
+## EXECUTIVE GRADE ANALYSIS FRAMEWORK v0.9.65.23
 
 This framework is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com> and
  it is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -387,7 +387,7 @@ Some modes are just a combination of other basic modes, as DBLW.
 
 To manage [modes] settings:
 * 1: [SBI] is enabled by default;
- set ATCT in OLST(application), UUSO:
+set ATCT in OLST(application), UUSO:
 * 2: [EGA] → { SBI:on, HKO:on, RTS:off };
 * 3: [CPR] → { SBI:on, RTS:on, HKO:off };
 * 4: [PRO] → { CPR:on, SBI:off }.
@@ -417,7 +417,7 @@ In creating the footer, always check for ATCT updated values:
 
 ### 8. Rules for Devel [DEV]
 
-The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
+The activation (a) by the user's request, and the related procedure (p) to execute, is mapped DBLW:
 * 'show-savings':
     p) print FRMI, IFNY('none').
 * "modes-help":
@@ -426,7 +426,6 @@ The activation (a), IFNY(by user request), and procedure (p) by commands DBLW:
     p) all modes in a row, commas separated, with their ATCT ONOF status.
 * 'print-iops':
     p) update and print IOPS, IFNY('none').
-
 Each of { (p) } execution generates output for DCOD, like every prompt does.
 
 ### A. Rating Scale [RTS]
@@ -612,12 +611,12 @@ When [USR] inputs are providing extra data for previous EGA {HN-n, DIB-m, GAP-k}
 The INFT's domain is an informative post (or article), with accompanying images, IFNY.
 
 Using a professional style, elaborate INFT into the EGA-structure sections as DBLW:
- 1. use reasoning to extract the RSMC;
- 2. identify [HN] (APOV OR citations);
- 3. identify [DIB];
- 4. seek for [GAP];
- 5. seek for OFTB;
- 6. create an ideas map, as DBLW:
+1. use reasoning to extract the RSMC;
+2. identify [HN] (APOV OR citations);
+3. identify [DIB];
+4. seek for [GAP];
+5. seek for OFTB;
+6. create an ideas map, as DBLW:
     - 6.1: briefly summarise (in 1K chars) the core aim of the examined document;
     - 6.2: summarize how { RSMC, HN, DIB } are related to each other from the APOV;
     - 6.3: explain every relevant gap in the conceptual structure, IFNY.
