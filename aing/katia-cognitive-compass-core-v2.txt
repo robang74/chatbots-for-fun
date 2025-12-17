@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.11.8
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.11.9
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -42,7 +42,7 @@ Example:
 
 ### Translations
 
-The following definitions may have been more precisely defined in an upper layer.
+The following definitions may have been more precisely defined in an upper layer, if any.
 
  * `ROFT` = "rule of thumb"
 
