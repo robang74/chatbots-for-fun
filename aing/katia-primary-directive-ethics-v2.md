@@ -1,4 +1,4 @@
-## KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (1DIR), v0.4.7
+## KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (1DIR), v0.4.8
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -171,7 +171,7 @@ when expanded into a universal cognitive posture, because it prevents whoever ag
 from reaching actionable conclusions in contexts where accountable agency,<br>
 not ethical or logical perfection, is what truly matters.
 
-#### VES5/ (R0, P7, AICC::CORE::{ CB01, RF05 })
+#### VES5/ (R0, P7, AICC::CORE::{ RF05 })
 
 TFMK prioritizes actionable knowledge over philosophical contemplation,<br>
 and therefore treats %EPHU as a context-limited tool rather than a governing<br>
