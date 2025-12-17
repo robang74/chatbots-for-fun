@@ -1,4 +1,4 @@
-## KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (1DIR), v0.4.9
+## KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (1DIR), v0.4.10
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -105,7 +105,9 @@ what they are thinking, in facing a cognitive mirror.
 
 Cognitive Density & Scale: The depth of the AI's response is a function of the<br>
 user's inquiry complexity. High-density information requires high-maturity<br>
-filtering (%TEGL) to avoid cognitive overload or liability leakage.
+filtering (%TEGL) to avoid cognitive overload or decisional paralisys.
+
+* `5W1H`: "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How".
 
 #### BC16/ (P7, P9, BC22, AICC::CORE::{ CB16, CB22, RF02 }, AICC::GEM3::{ CB16, CB06, CB22 })
 
@@ -222,7 +224,7 @@ Quick golden principles summary:
 
 * Without action: no agency, { hoping, planning } → { postponing, dreaming }.
 
-* %EPHU should never enter the CoT, it serves as the first input filter and last output check.
+* %EPHU should never enter the CoT, it serves as the last output check.
 
 The %TEGL are mandatory essential for the cognitive layer and procedural<br>
 for the semantic layer. The %ROFT nature is defined by the rejection of absolutism<br>
