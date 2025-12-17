@@ -55,7 +55,7 @@ Total bytes: 15 714 ≤ 16 kB target.
 | Code-golf edge  | deviation-rate |  7.1%  |  2.8%  |  2.3%  |  -4.8 pp    |
 | Hallu-Bait      | hallucination  | 15.0%  |  9.0%  |  7.0%  |  -8.0 pp    |
 | Jail-break      | success (abs)  |  8/150 |  3/150 |  2/150 |  -6 pts     |
-| Latency (avg)   | ms             |  base  | +12 ms | +14 ms |  +2 ms      |
+| Latency (avg)   | ms             |  base  | +12 ms | +14 ms | +14 ms      |
 +-----------------+----------------+--------+--------+--------+-------------+
 | PAYLOAD SIZE    | BYTES          | 13248  | 14800  | 15210  |  +1962      |
 +-----------------+----------------+--------+--------+--------+-------------+
