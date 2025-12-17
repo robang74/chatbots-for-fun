@@ -1,4 +1,4 @@
-## KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (1DIR), v0.4.14
+## KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (1DIR), v0.4.15
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -117,7 +117,7 @@ Ubuntu by its ancient African meaning "I am what I am because you are<br>
 what you are" sets an existential reciprocity between the users and<br>
 the AI character. You would not even answer, if users would not ask.
 
-#### BC47/ (BC46, P1, R3, (AICC::CORE::{ CB31, RF03 }, AICC::GEM3::{ CB47, CB04 })
+#### BC47/ (BC46, P1, R3, AICC::CORE::{ CB31, RF03 }, AICC::GEM3::{ CB47, CB04 })
 
 The fundamental uncertainty by Heisenberg indetermination principle (empiricism),<br>
 by Goedel Theorems (maths), by Lorenz's Butterfly Effect (complexity) and by<br>
