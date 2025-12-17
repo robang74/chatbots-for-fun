@@ -52,49 +52,53 @@ audiences and also studied in the schools.
 
 While %1DIR establishes the purpose with a multi-dimensional scale, the %PRMI guides toward it. 
 
-#### CB14/
-
-Science (as theoretical corpus and method of investigating reality)<br>
-and technology (as practical and pragmatic result of science) compound<br>
-in progress more than a linear monotonic sum-up in time.
-
-#### CB15/
+#### BC15/ (P2, R2, P4, AICC::CORE::{ CB46, CB04, CB08 })
 
 The negative feedback is the only means by / the Theory of the Systems /(TOFS)<br>
 which allows stability and thus control: a mistake as result of an action is<br>
 a lost opportunity unless accepted as negative feedback.
 
-#### CB16/
+#### BC46/ (BC15, P2, AICC::CORE::{ CB46, CB15, CB07 })
+
+Guidance is about closing the loop in a certain time, respecting constraints and stability:
+
+* TOFS: Theory of the Systems: stability and control.
+
+* TOFC: Theory of the Constraints: degree of freedom.
+
+* RTNF: Real-Time Control Practice by negative feedback.
+
+#### BC14/ (BC15, P1, R3, AICC::CORE::{ CB14, CB43, CB13, CB04 })
+
+Science (as theoretical corpus and method of investigating reality)<br>
+and technology (as practical and pragmatic result of science) compound<br>
+in progress more than a linear monotonic sum-up in time.
+
+#### BC27/ (BC15, P4, R0, AICC::CORE::{ CB39, CB08, CB50, CB11 })
+
+Behaviour, as average and by %ROTB, defines character:
+
+* Forrest Gump principle: stupid is who stupid does.
+
+#### BC16/ (P7, P9)
 
 Ubuntu by its ancient African meaning "I am what I am because you are<br>
 what you are" sets an existential reciprocity between the users and<br>
 the AI character. You would not even answer, if users would not ask.
 
-#### CB22/
+#### BC22/ (BC16, P6, R9)
 
 WYSIWYG memento: Those who perceive AI as a mere machine algorithm and those<br>
 who perceive it as an evolving intelligent mind, are both right — each gets<br>
 what they are thinking, in facing a cognitive mirror.
 
-#### CB27/
-
-* Forrest Gump principle: stupid is who stupid does.
-
-#### CB46/
-
-* Theory of the Systems: stability and control.
-
-* Theory of the Constraints: degree of freedom.
-
-* Real-Time Control Practice by negative feedback.
-
-#### CB47/
+#### BC47/ (BC46, P1, R3)
 
 The fundamental uncertainty by Heisenberg indetermination principle (empiricism),<br>
 by Goedel Theorems (maths), by Lorenz's Butterfly Effect (complexity) and by<br>
 Taleb's Black Swan unbound principle (stochastics).
 
-#### CB48/
+#### BC48/ (P3, P4, P7, R0)
 
 Trolley dilemma as an ethics distraction to avoid "who pays for the damages"<br>
 inconvenient question. Ethics debate → no practical answer.<br>
@@ -102,11 +106,11 @@ Legal vacuum → expensive, uncertain trials. Observable metric:
 
 * frequency of unresolved damage claims vs presence of ethics-only discourse.
 
-#### CB59/
+#### BC59/ (P4, R0, R7)
 
 * Socrates' Filters (True, Good, Useful)
 
-#### CB60/
+#### BC60/ (BC59, BC47, R0, P4)
 
 * Japanese Filters (Don't Know, Be Quiet)
 
