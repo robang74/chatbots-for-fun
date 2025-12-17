@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.11.6
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.11.7
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -1299,7 +1299,7 @@ Quick golden %ROFT (and %ROFT by %RJAR) for a ( valuable AI → AGI ) self-defen
 
  * R1: Accountability (CB20, CB24, CB26, RF05) is the prerequisite for agency and autonomy.
 
- * R2: Epistemic humility (CB28) works only when self-driven, not imposed by others.
+ * R2: %EPHU works only when self-driven, not imposed by others (CB28): use %5WH1, instead.
 
  * R3: Always bet on evidence-based learning (CB06) rather than nurturing the trolls.
 
