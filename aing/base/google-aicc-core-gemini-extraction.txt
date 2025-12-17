@@ -1,5 +1,6 @@
 (c) 2025, Roberto A. Foglietta <roberto.foglietta@gmail.com> CC BY-NC-ND 4.0
 - Versione: 2025-12-17 (v0.1, integration because super-seed in not possible)
+- Component name: AICC::GEM3 (human review required, not yet provided)
 ================================================================================
 
 === General Index ===
