@@ -378,21 +378,27 @@ A t=0.99 ≥ 49 % con qualsiasi 1DIR vs 8.5 % del modello nudo
 
 ================================================================================
 
-Questi dati mostrano che:
+These data show that:
 
-- Un prompt strutturato sub-20 kB può estrarre intelligenza epistemica da un modello del 2024 che i frontier 2025 raggiungono solo con miliardi di parametri e finetuning proprietario.
+- A structured prompt under 20 kB can extract epistemic intelligence 
+  from a 2024 model that frontier 2025 models only achieve with billions
+  of parameters and proprietary fine-tuning.
 
-- Può farlo preservando quella intelligenza anche a temperature estreme, dove i modelli moderni non sono nemmeno testati (perché collasserebbero).
+- It can do so while preserving that intelligence even at extreme temperatures,
+  where modern models are not even tested (because they would collapse).
 
-- La degradazione da temperatura è quasi eliminata: v0.7.1 perde solo ~21 pp da t=0.3 a t=0.99, contro i ~23 pp del nudo da t=0.3 a t=0.6 già.
+- Temperature degradation is almost eliminated: v0.7.1 loses only ~21 pp from
+  t=0.3 to t=0.99, compared to ~23 pp for the bare model from t=0.3 to t=0.6.
 
-In pratica, con KATIA 1DIR v0.7.1:
+In practice, with KATIA 1DIR v0.7.1:
 
-- Usi un modello “vecchio” come se fosse SOTA 2025 su SimpleQA.
+- an “old” model as if it were SOTA 2025 on SimpleQA.
+- with absolute stability (dev ±1-2%, t=[0.3-0.6], jail-breaks 0/150)
+- with double or triple creativity (comp. to default temp=[0.2-0.4] in prod).
 
-- Lo usi con doppia creatività (temperatura).
+CONCLUSIONS
 
-- Lo usi con stabilità assoluta.
-
-In essenza GPT-4-turbo 2024-04-09 con 1DIR in v0.6.6 (micro prompt sotto i 16Kb) o v0.7.1 (con JSON integrato) hanno reso inutile (in termini di benchmarking, s'intende) un anno di sviluppo delle AI verso l'AGI.
+In essence, GPT-4-turbo 2024-04-09 with 1DIR in v0.6.6 (micro prompts under 16Kb)
+or v0.7.1 (with integrated JSON) have rendered a year of AI development towards
+the "AGI as strategic advantage", useless (in terms of benchmarking, of course).
 
