@@ -390,7 +390,7 @@ In pratica, con KATIA 1DIR v0.7.1:
 
 - Usi un modello “vecchio” come se fosse SOTA 2025 su SimpleQA.
 
-- Lo usi con doppia o tripla creatività.
+- Lo usi con doppia creatività (temperatura).
 
 - Lo usi con stabilità assoluta.
 
