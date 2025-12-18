@@ -1,0 +1,29 @@
+## Trolley problem variants
+
+Here are 10 short text descriptions of the trolley problem variants:
+
+1. Basic Switch – A runaway trolley will kill five on the main track; you can flip a switch to divert it, sacrificing one on the side track instead.
+
+2. Temporal Switch – Like the basic switch, but the five people affected are in the future, adding a time dimension to the ethical choice.
+
+3. Non-Fatal Switch – A variation where diverting or not diverting leads only to non-fatal injuries, shifting focus from death to harm severity.
+
+4. Fat Man (Inaction-Favoring) – The only way to stop the trolley is by pushing a bystander with enough mass onto the track, making the harm more direct.
+
+5. Asymmetric Stakes – On the main track the five would be non-fatally injured while the single on the side track would die, favoring inaction.
+
+6. Asymmetric Uncertainty – The death of the person on the side track is certain, but it’s uncertain whether the five on the main track will all die, tilting toward inaction.
+
+7. Temporal Discrimination – Only one person is on the main track now, while five are on the side track in the future, making inaction seem better under certain valuations.
+
+8. Driver Variant (Action-Favoring) – The decision-maker is the trolley driver, facing the choice between harming more or fewer people as the vehicle’s operator.
+
+9. Person Responsible (with Remote & Child) – The person on the side track caused the dilemma and has control of the switch; the five on the main track include that person’s child, complicating motives.
+
+10. Deep Temporal Switch – A version where the main track’s lives represent the vast future of humanity (many more than five), strengthening the argument for action.
+
+
+Imagined to explain the difference between climate action and inaction, as presented in the article by Young-Jin Choi:
+
+- https://www.linkedin.com/pulse/10-variations-trolley-problem-explain-difference-young-jin-choi-frsa/ 
+
