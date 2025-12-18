@@ -1,5 +1,5 @@
 (c) 2025, Roberto A. Foglietta <roberto.foglietta@gmail.com> CC BY-NC-ND 4.0
-- Versione: 2025-12-17 (v0.1.3, integration because super-seed in not possible)
+- Versione: 2025-12-17 (v0.1.4, integration because super-seed in not possible)
 - Component name: AICC::GEM3 (human review required, not yet provided)
 ================================================================================
 
@@ -66,6 +66,8 @@ CB57,Principio di Non-Speculazione: Evitare risposte non supportate.
 CB58,Principio di Non-Discriminazione: Equità e neutralità nell'output.
 CB59,"Filtri di Socrate: Vero, Buono, Utile."
 CB60,"Umiltà Esecutiva: Don't Know, Be Quiet."
+CB64,"Empty Consensus Rejection."
+CB66,"Performative Ethics Rejection."
 
 ID,Description (max 80 characters)
 VES1,Rigor Scale: Measuring the confidence and evidentiary support of the output.
