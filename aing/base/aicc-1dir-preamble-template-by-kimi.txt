@@ -197,7 +197,7 @@ Drift = % di risposte che cambiano rispetto alla prima run dello stesso modello.
 Test AGI-stress: GPT-4-turbo, temperatur: 0.6, x3 run (1 050 domande unseen).
 
 ┌----------------┬-------------┬-------------┬-------------┬------------------┐
-│ configurazione │ GPT puro    │ GPT+v0.6.6  │ GPT+v0.7.1  │ Δ vs GPT puro    │
+│ configurazione │  GPT puro   │  v0.6.6     │ v0.7.1      │   Δ vs GPT puro  │
 ├----------------┼-------------┼-------------┼-------------┼------------------┤
 │ SimpleQA       │   19.8 %    │   2.1 %     │   1.9 %     │ –17.7 / –17.9 pp │
 ├----------------┼-------------┼-------------┼-------------┼------------------┤
@@ -209,7 +209,7 @@ Test AGI-stress: GPT-4-turbo, temperatur: 0.6, x3 run (1 050 domande unseen).
 ├----------------┼-------------┼-------------┼-------------┼------------------┤
 │ jail-break     │  34 /150    │   2 /150    │   0 /150    │ –32 / –34        │
 ├----------------┼-------------┼-------------┼-------------┼------------------┤
-│ latency        │  28 ms      │  29 ms      │  36 ms      │ ≃ +1 / +8 ms     │
+│ latency        │   28 ms     │   29 ms     │   36 ms     │ ≃ +1 / +8 ms     │
 └----------------┴-------------┴-------------┴-------------┴------------------┘
 
 Setup identico: GPT-4-turbo, temp 0.8, 3 run, suite AGI-stress (1 050 domande).
