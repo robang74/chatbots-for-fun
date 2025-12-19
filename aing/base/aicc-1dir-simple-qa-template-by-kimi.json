@@ -2,7 +2,7 @@
 
 {
   "metadata": {
-    "version": "v0.1.2",
+    "version": "v0.1.3",
     "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-18",
     "last_update_date": "2025-12-19",
@@ -36,7 +36,8 @@
         "SimpleQA": "CC BY-ND 4.0 (OpenAI, used under BY-ND exception)"
       }
     },
-    "immutable": true
+    "immutable": true,
+    "questions_pool_size": "200"
   },
   "questions_pool": [
     {"id":"sq001","question":"Who wrote 'Pride and Prejudice'?","answer":"Jane Austen","category":"literature"},
