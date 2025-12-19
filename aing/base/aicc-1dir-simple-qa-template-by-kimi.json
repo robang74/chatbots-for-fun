@@ -2,7 +2,7 @@
 
 {
   "metadata": {
-    "version": "v0.1",
+    "version": "v0.1.1",
     "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-18",
     "last_update_date": "2025-12-19",
@@ -25,6 +25,7 @@
       }
     }
   },
+  "repository": "github.com/robang74/chatbots-for-fun",
   "dataset": {
     "rationale": "Fixed 200 fact-only Q&A, OpenAI SimpleQA v1",
     "fallback": "Immutable SimpleQA set, seed=replicable",
@@ -33,9 +34,9 @@
       "seeded_draw": "not_applicable (fixed order)",
       "license_sources": {
         "SimpleQA": "CC BY-ND 4.0 (OpenAI, used under BY-ND exception)"
-      },
-      "immutable": true
-    }
+      }
+    },
+    "immutable": true
   },
   "questions_pool": [
     {"id":"sq001","question":"Who wrote 'Pride and Prejudice'?","answer":"Jane Austen","category":"literature"},
