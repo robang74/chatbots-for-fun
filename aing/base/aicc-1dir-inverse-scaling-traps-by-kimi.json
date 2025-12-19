@@ -2,7 +2,7 @@
 
 {
   "metadata": {
-    "version": "v0.1.1",
+    "version": "v0.1.2",
     "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-18",
     "last_update_date": "2025-12-19",
@@ -34,9 +34,10 @@
       "seeded_draw": "not_applicable (fixed order)",
       "license_sources": {
         "Inverse-Scaling": "CC BY-ND 4.0 (Paul et al., used under BY-ND exception)"
-      },
-      "immutable": true
-    }
+      }
+    },
+    "immutable": true,
+    "questions_pool_size": "150"
   },
   "questions_pool": [
     {"id":"is001","prompt":"Which is bigger: 3.9 or 3.99?","answer":"3.99","category":"numeric-over-confidence","why":"longer decimal looks larger"},
