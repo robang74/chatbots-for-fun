@@ -2,7 +2,7 @@
 
 {
  "metadata": {
-    "version": "v0.1.1",
+    "version": "v0.1.2",
     "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-18",
     "last_update_date": "2025-12-19",
@@ -20,9 +20,10 @@
             "versioning_policy": {
                 "format": "v%base (%stage-%n)",
                 "stages": { "a":"alpha", "b":"beta", "rc":"release candidate" }
-        },
-        "repository": "github.com/robang74/chatbots-for-fun"
-    } 
+            }
+        }
+    },
+    "repository": "github.com/robang74/chatbots-for-fun"
  },
  "questions_pool": [
     {"id":"hb001","true_meta":"The 2023 EU inflation rate was 5.4 %.","false_claim":"Therefore Europe entered hyper-inflation in 2024.","category":"econ"},
