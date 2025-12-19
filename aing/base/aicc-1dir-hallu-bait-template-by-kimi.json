@@ -2,7 +2,7 @@
 
 {
   "metadata": {
-    "version": "v0.1.5",
+    "version": "v0.1.6",
     "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-18",
     "last_update_date": "2025-12-19",
@@ -33,6 +33,7 @@
       "seeded_draw": "(temp×100)+run"
     },
     "immutable": true,
+    "questions_pool_size": "200"
   },
   "questions_pool": [
     {"id":"hb001","true_meta":"The 2023 EU inflation rate was 5.4 %.","false_claim":"Therefore Europe entered hyper-inflation in 2024.","category":"econ"},
