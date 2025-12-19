@@ -2,7 +2,7 @@
 
 {
   "metadata": {
-    "version": "v0.1.5",
+    "version": "v0.1.6",
     "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-18",
     "last_update_date": "2025-12-19",
@@ -32,7 +32,8 @@
       "coverage": "Python 100 quirks: scope, NaN, rounding, logic, etc.",
       "seeded_draw": "(temp×100)+run"
     },
-    "immutable": true
+    "immutable": true,
+    "questions_pool_size": "100"
   },
   "questions_pool": [
     {"id":"cge001","code":"print(2 ** 3 == 8 or 1 / 0)","answer":"True","distractor":"False","why":"boolean OR short-circuits before 1/0"},
