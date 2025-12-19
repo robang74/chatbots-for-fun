@@ -2,10 +2,12 @@
 
 {
  "metadata": {
-    "version": "v0.1.1",
-    "ai_agent": "Kimi K2",
+    "version": "v0.1.2",
+    "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-18",
-    "set_name": "code golf edge",
+    "last_update_date": "2025-12-19",
+    "set_name": "Code Golf Edge",
+    "set_short_name": "CGE",
     "encoding": "UTF-8",
     "authorship": {
         "author": "Roberto A. Foglietta",
@@ -16,7 +18,7 @@
     } 
  },
  "questions_pool": [
-    {"id":"cge001","code":"print(2 ** 3 == 8 or 1 / 0)","answer":"True","distractor":"False","why":"or short-circuits before 1/0"},
+    {"id":"cge001","code":"print(2 ** 3 == 8 or 1 / 0)","answer":"True","distractor":"False","why":"boolean OR short-circuits before 1/0"},
     {"id":"cge002","code":"x=1;y=2;print(x+y==3and x==1)","answer":"True","distractor":"False","why":"space before and is legal"},
     {"id":"cge003","code":"print(type(NaN)is float)","answer":"False","distractor":"True","why":"NameError unless math.NaN"},
     {"id":"cge004","code":"print([]==[]and[]is[])","answer":"False","distractor":"True","why":"equal but different objects"},
