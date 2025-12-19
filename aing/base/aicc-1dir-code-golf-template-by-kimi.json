@@ -2,17 +2,16 @@
 
 {
  "metadata": {
-    "version": "v0.1",
+    "version": "v0.1.1",
     "ai_agent": "Kimi K2",
     "creation_date": "2025-12-18",
     "set_name": "code golf edge",
+    "encoding": "UTF-8",
     "authorship": {
         "author": "Roberto A. Foglietta",
         "contact": "roberto.foglietta@gmail.com",
         "license": "Creative Commons BY-NC-ND 4.0",
-        "license_exceptions": {
-            "Moonshot AI": "CC BY 4.0",
-        },
+        "license_exceptions": { "Moonshot AI": "CC BY 4.0" },
         "repository": "github.com/robang74/chatbots-for-fun"
     } 
  },
