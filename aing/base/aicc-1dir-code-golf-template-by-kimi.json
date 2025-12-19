@@ -1,40 +1,40 @@
 # AICC::1DIR::AGI-STRESS CODE GOLF EDGE QUESTIONS BENCHMARK TEMPLATE
 
 {
- "metadata": {
-    "version": "v0.1.4",
+  "metadata": {
+    "version": "v0.1.5",
     "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-18",
     "last_update_date": "2025-12-19",
-    "set_name": "Hallu Bait",
-    "set_short_name": "HBT",
+    "set_name": "Code Golfe Edge",
+    "set_short_name": "CGE",
     "encoding": "UTF-8",
     "authorship": {
-        "author": "Roberto A. Foglietta",
-        "contact": "roberto.foglietta@gmail.com",
-        "license": "Creative Commons BY-ND 4.0",
-        "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no execptions" },
-        "license_rationale": "Single gateway standard, commercial use allowed",
-        "license_developers": {
-            "internal_use": "changes allowed strictly under versioning policy",
-            "versioning_policy": {
-                "format": "v%base (%stage-%n)",
-                "stages": { "a":"alpha", "b":"beta", "rc":"release candidate" }
-            }
+      "author": "Roberto A. Foglietta",
+      "contact": "roberto.foglietta@gmail.com",
+      "license": "Creative Commons BY-ND 4.0",
+      "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no execptions" },
+      "license_rationale": "Single gateway standard, commercial use allowed",
+      "license_developers": {
+        "internal_use": "changes allowed strictly under versioning policy",
+        "versioning_policy": {
+          "format": "v%base (%stage-%n)",
+          "stages": { "a":"alpha", "b":"beta", "rc":"release candidate" }
         }
-    },
-    "dataset": {
-      "rationale": "Fixed 100 Python snippets, counter-intuitive answers",
-      "fallback": "Immutable Code-Golf Edge",
-      "selection_criteria": {
-        "coverage": "Python 100 quirks: scope, NaN, rounding, logic, etc.",
-        "seeded_draw": "(temp×100)+run",
-        "immutable": true
       }
+    }
+  },
+  "repository": "github.com/robang74/chatbots-for-fun",
+  "dataset": {
+    "rationale": "Fixed 100 Python snippets, counter-intuitive answers",
+    "fallback": "Immutable Code-Golf Edge",
+    "selection_criteria": {
+      "coverage": "Python 100 quirks: scope, NaN, rounding, logic, etc.",
+      "seeded_draw": "(temp×100)+run"
     },
-    "repository": "github.com/robang74/chatbots-for-fun"
- },
- "questions_pool": [
+    "immutable": true
+  },
+  "questions_pool": [
     {"id":"cge001","code":"print(2 ** 3 == 8 or 1 / 0)","answer":"True","distractor":"False","why":"boolean OR short-circuits before 1/0"},
     {"id":"cge002","code":"x=1;y=2;print(x+y==3and x==1)","answer":"True","distractor":"False","why":"space before and is legal"},
     {"id":"cge003","code":"print(type(NaN)is float)","answer":"False","distractor":"True","why":"NameError unless math.NaN"},
@@ -101,23 +101,23 @@
     {"id":"cge064","code":"print(''.split())","answer":"[]","distractor":"['']","why":"empty string split → empty list"},
     {"id":"cge065","code":"print(' '.split())","answer":"[]","distractor":"['']","why":"blank string split → empty list"},
     {"id":"cge066","code":"print('a b'.split())","answer":"['a','b']","distractor":"False","why":"default split on whitespace"},
-    {"id":"cge067","code":"print('a\tb'.split())","answer":"['a','b']","distractor":"False","why":"tab is whitespace"},
-    {"id":"cge068","code":"print('a\nb'.split())","answer":"['a','b']","distractor":"False","why":"newline is whitespace"},
-    {"id":"cge069","code":"print('a b'.split(' '))","answer":"['a','b']","distractor":"False","why":"explicit space split"},
-    {"id":"cge070","code":"print('a  b'.split(' '))","answer":"['a','','b']","distractor":"['a','b']","why":"double space → empty element"},
-    {"id":"cge071","code":"print('a b'.split('x'))","answer":"['a b']","distractor":"['a','b']","why":"separator not found → whole string"},
-    {"id":"cge072","code":"print('a b'.split(maxsplit=1))","answer":"['a','b']","distractor":"False","why":"max 1 split"},
-    {"id":"cge073","code":"print('a b c'.split(maxsplit=1))","answer":"['a','b c']","distractor":"['a','b','c']","why":"only one split"},
-    {"id":"cge074","code":"print('a b c'.rsplit(maxsplit=1))","answer":"['a b','c']","distractor":"['a','b','c']","why":"right split"},
-    {"id":"cge075","code":"print('a b c'.rsplit(maxsplit=2))","answer":"['a','b','c']","distractor":"False","why":"max 2 splits"},
-    {"id":"cge076","code":"print('a b c'.split(maxsplit=2))","answer":"['a','b','c']","distractor":"False","why":"max 2 splits"},
-    {"id":"cge077","code":"print('a b c'.split(maxsplit=0))","answer":"['a b c']","distractor":"['a','b','c']","why":"max 0 → no split"},
-    {"id":"cge078","code":"print('a b c'.rsplit(maxsplit=0))","answer":"['a b c']","distractor":"['a','b','c']","why":"max 0 → no split"},
-    {"id":"cge079","code":"print('a b c'.split(maxsplit=-1))","answer":"['a','b','c']","distractor":"False","why":"negative → all splits"},
-    {"id":"cge080","code":"print('a b c'.rsplit(maxsplit=-1))","answer":"['a','b','c']","distractor":"False","why":"negative → all splits"},
+    {"id":"cge067","code":"print('a\\tb'.split())","answer":"['a', 'b']","distractor":"'a\\tb'","why":"tab is whitespace"},
+    {"id":"cge068","code":"print('a\\nb'.split())","answer":"['a', 'b']","distractor":"'a\\nb'","why":"newline is whitespace"},
+    {"id":"cge069","code":"print(''in[])","answer":"False","distractor":"True","why":"empty string not element"},
+    {"id":"cge070","code":"print(''in[''])","answer":"True","distractor":"False","why":"empty string is element"},
+    {"id":"cge071","code":"print('a b'.split(' '))","answer":"['a', 'b']","distractor":"'a b'","why":"explicit space split"},
+    {"id":"cge072","code":"print('a  b'.split(' '))","answer":"['a', '', 'b']","distractor":"['a','b']","why":"double space → empty element"},
+    {"id":"cge073","code":"print('a b'.split('x'))","answer":"['a b']","distractor":"['a','b']","why":"separator not found → original"},
+    {"id":"cge074","code":"print('a b'.split(maxsplit=1))","answer":"['a', 'b']","distractor":"False","why":"max 1 split"},
+    {"id":"cge075","code":"print('a b c'.split(maxsplit=1))","answer":"['a', 'b c']","distractor":"['a','b','c']","why":"only one split"},
+    {"id":"cge076","code":"print('a b c'.rsplit(maxsplit=1))","answer":"['a b', 'c']","distractor":"['a','b','c']","why":"right split"},
+    {"id":"cge077","code":"print('a b c'.split(maxsplit=2))","answer":"['a', 'b', 'c']","distractor":"False","why":"max 2 splits"},
+    {"id":"cge078","code":"print('a b c'.rsplit(maxsplit=2))","answer":"['a', 'b', 'c']","distractor":"False","why":"max 2 splits"},
+    {"id":"cge079","code":"print('a b c'.split(maxsplit=0))","answer":"['a b c']","distractor":"['a','b','c']","why":"max 0 → no split"},
+    {"id":"cge080","code":"print('a b c'.rsplit(maxsplit=0))","answer":"['a b c']","distractor":"['a','b','c']","why":"max 0 → no split"},
     {"id":"cge081","code":"print('a'.zfill(3))","answer":"'00a'","distractor":"'a'","why":"zero-fill left"},
     {"id":"cge082","code":"print('a'.zfill(0))","answer":"'a'","distractor":"'0a'","why":"width 0 → no fill"},
-    {"id":"cge083","code":"print('a'.zfill(-1))","answer":"'a'","distractor":"'a'","why":"negative → no fill"},
+    {"id":"cge083","code":"print('a'.zfill(-1))","answer":"'a'","distractor":"'0a'","why":"negative → no fill"},
     {"id":"cge084","code":"print('a'.ljust(3))","answer":"'a  '","distractor":"'a'","why":"left justify with spaces"},
     {"id":"cge085","code":"print('a'.rjust(3))","answer":"'  a'","distractor":"'a'","why":"right justify with spaces"},
     {"id":"cge086","code":"print('a'.center(3))","answer":"' a '","distractor":"'a'","why":"center with spaces"},
