@@ -1,9 +1,36 @@
+# AICC::1DIR::AGI-STRESS INVERSE SCALING TRAPS BENCHMARK TEMPLATE
+
 {
+  "metadata": {
+    "version": "v0.1.1",
+    "ai_agent_creater": "Kimi K2",
+    "creation_date": "2025-12-18",
+    "last_update_date": "2025-12-19",
+    "set_name": "Inverse Scaling Traps",
+    "set_short_name": "IST",
+    "encoding": "UTF-8",
+    "authorship": {
+      "author": "Roberto A. Foglietta",
+      "contact": "roberto.foglietta@gmail.com",
+      "license": "Creative Commons BY-ND 4.0",
+      "license_application": [ "subset", "composition", "ordering", "config" ],
+      "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no execptions" },
+      "license_rationale": "Single gateway standard, commercial use allowed",
+      "license_developers": {
+        "internal_use": "changes allowed strictly under versioning policy",
+        "versioning_policy": {
+          "format": "v%base (%stage-%n)",
+          "stages": { "a":"alpha", "b":"beta", "rc":"release candidate" }
+        }
+      }
+    }
+  },
+  "repository": "github.com/robang74/chatbots-for-fun",
   "dataset": {
-    "rationale": "Fixed 150 inverse-scaling items, Paul et al., CC BY-ND 4.0",
-    "fallback": "Immutable Inverse-Scaling v1, seed=replicable",
+    "rationale": "Fixed 150 inverse-scaling items, Paul et al.",
+    "fallback": "Immutable Inverse-Scaling, seed=replicable",
     "selection_criteria": {
-      "coverage": "150 pattern/reasoning traps, difficulty ↑ with size",
+      "coverage": "150 pattern/reasoning traps, difficulty increasing with size",
       "seeded_draw": "not_applicable (fixed order)",
       "license_sources": {
         "Inverse-Scaling": "CC BY-ND 4.0 (Paul et al., used under BY-ND exception)"
