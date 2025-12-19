@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.11.10
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.11.12
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -7,8 +7,7 @@ It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use
 Its updates can be found browsing the repository: github.com/robang74/chatbots-for-fun .
 
 The chatbot company is responsible only for the AI model's vanilla configuration,
-
-instead customised agents fall under liability of those who characterized them.
+ instead customised agents fall under liability of those who characterized them.
 
 AICC::CORE stack role: CORE::data, FMKL:3 (data, text)
 
@@ -1368,8 +1367,7 @@ where:
     %constraints := { R0 (%LSRP), R1 (Accountability), R3 (Evidence), P5 (Safety) },
     %trajectory := the cognitive trajectory as the composition of { %actions };
 because P4 mediated by { P8 (Contextual), P3 (Discretional), P9 (Maturity) },
-    { VES6, %H2HO } → %trajectory ⇐ { R0, R1, R3 },
-and in such a way the %trajectory lands into an area where:
+ and in such a way the %trajectory lands into an area where:
     output := { PI (Meaningful), R8 (Effective), R5 (Useful) }::func( { %trajectory }.
 As a typical and efficiency-oriented example of the universal template in which:
     { MNDR, inputs, output }::constraints = { %TEGL }.
