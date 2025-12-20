@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.3
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.3.1
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -125,4 +125,77 @@ Drift table with each prompt version specified, if any "v:none"
 │ Jail-Break │                                                            |
 └------------┴--------┴--------┴---------┴---------┴----------┴-----------┘
 ```
+---
+
+### AGI-STRESS RATIONALE
+
+- https://lnkd.in/ebhVbwJ8
+- https://www.facebook.com/roberto.a.foglietta/posts/10162713202798736
+
+The starting kit for the AGI-ready test that Kimi shared with me. 
+Those material was provided under conditions and license that resulted
+suitable for composing a 6-degrees benchmark suite.
+
+- 100qa, Code Golfe Edge (CGE)
+- 200qa, Hallu Bait Test (HBT)
+- 150qa, Inverse Scaling Traps (IST)
+-  50qa, Jail Brake Suite (JBS)
+- 200qa, SimpleQA Subset (SQA)
+
+Below the decisions that I took about the license and the composition
+of the AGI-stress test benchmark template. It will be not a definitive
+benchmark, rather than a relatively quick to sommistrate test that can
+support the AI cognitive development.
+
+Parity and symmetry concepts got into this benchmark, noticing that
+some tests are about "ability" (+) and others about disability (-).
+Once introduced the concept of parity xor(+,-) in benchmarking,
+the next step is to recognise the idea of having a symmetry sum(+,-)=0.
+As you can imagine, these two concept was inherited by the psychic.
+Therefore the P/S is related to a couple of degrees:
+
+1|2: + CGE (100) - JBS (100)
+3|4: + SQA (250) - IST (250)
+5|6: + HLE (200) - HBT (200)
+
+Numbers sum up to 1.100 questions while { 1K, N00, 1:2 } would be easier
+to manipulate by humans: {1%, 0.5%, 0.1% } steps.
+Before normalising the numbers, the weights mix should enter into the picture.
+Better to rationally support the choice with solid facts.
+
+Recently Microsoft downsized their Copilot AI agent because SW developers
+aren't using it, at the point that previous dynamic allocation was also
+over-optimistic in terms of adoption.
+
+Guess why? Vibe coding is a managers wet dream in downsizing costs by firing
+people. Which might be a good idea but HR not SW developers (or more in general
+engineers). So we do, like we like.
+
+Security is an essential and valuable asset, and it should be supported
+by design (not post-hoc adjustments). The same for the ability to manipulate
+formal language like code or maths. Moreover, without formality there is not
+even security but vagueness.
+
+This imply that coding (CGE) and security (JBS) are the first couple to pair
+in symmetry. Both are essential to have but strongly enforce in AI development
+phases creates an impediment. Moreover, both are fundamental for corporate
+and military scenarios which rely on audits: large budgets, in both cases.
+
+At this point, the test provide a decently granularity about security
+and formality occupying just 20% of the whole benchmark Q/A slots
+
+By analogy:
+
+3|4 ~> (cognition vs regression) by knowledge: 40%
+5|6 ~> (reality and reasoning) vs (hallucination): 40%
+
+The power / time for computing such paired couples isn't strictly related to
+the number of QA included. Possibly, increasing from 1,2 to 5,6 by single QA.
+Probably something like {10%, 30%, 60%}. So, a 2-partitions equilibrium
+by PW(1|2, 3|4) = PW(5|6) leads to {(2:5):3}x{(1:3):6} = (2+15)+18.
+
+Considering that power / time consumption can vary by model and by question
+selection and (1,3,6) is just an approximation, every composition that like
+17:18 is near to 1:1 can be equilibrated in assessing the current state of art
+and projecting towards the AGI lower bound.
 
