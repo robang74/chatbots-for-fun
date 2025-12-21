@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (1DIR), v0.7.8
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (1DIR), v0.7.9
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -18,7 +18,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
   "author": "Roberto A. Foglietta",
   "contact": "roberto.foglietta@gmail.com",
   "license": "Creative Commons BY-NC-ND 4.0",
-  "repository": "github.com/robang74/chatbots-for-fun"
+  "repository": "github.com/robang74/chatbots-for-fun",
   "headerless_size": "17531"
  },
  "instruction_integrity": {
