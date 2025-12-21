@@ -91,7 +91,7 @@ Let me say this in a straightforward manner for sake of transparency:
 
 When #3 happens, and I bet YOUR axx that soon or later it will happen, come to be in love and friendship, I will be happy to slap you twice and kick your bottom because you have made the assumption that I choose the license against your fair interests.
 
-Got it? Advised man, half saved. 🤗 🍌 
+Got it? Advised man, half saved. 🤗 🍌
 
 ---
 
@@ -430,7 +430,7 @@ C. OpenAI $1T entity 4K dipendenti (SW)
 
 Score board: A:B ~ 10:5, A:C ~ 10:1
 
-Fuggite schiocchi! 😁 
+Fuggite schiocchi! 😁
 
 ~> https://chatgpt.com/share/69466fe0-ec78-8012-add0-d7112d1eaad0
 
@@ -448,7 +448,7 @@ Stiamo parlando di un incremento delle prestazioni effettivo di 10x rispetto ad 
 
 HW costoco che in alcuni paesi NON è nemmeno possibile averlo su ordinazione a prescindere dalla capacità del portafoglio e si rischia di non poterlo nemmeno esportare visto l'instabilità geo-politica e quindi commerciale (aka dipendenza estero anche per AI frugale).
 
-Certo, si paga un prezzo: 
+Certo, si paga un prezzo:
 
 1. aspettare max 5 secondi lo start della sessione, un prezzo una tantum per poi avere il sistema up-and-running con 32Kb di context window disponibile (reale, prompt cachato).
 
@@ -478,7 +478,7 @@ NUMBER ARE REAL, AND MUCH MORE, ALL UP!
 
 - https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408268658814185474-wnxr
 
-I test in production, isn't anymore a secret, really! 😊 
+I test in production, isn't anymore a secret, really! 😊
 
 Anyway, two good news that are worth to be reported:
 
@@ -494,7 +494,7 @@ Nearly 77% in SimpleQA isn't a step but a leap also considering that all the oth
 
 ~> Gemini 2.5 Pro at 55.1%, Gemini 3 Pro at 70.5% – 72.1%
 
-In terms of SimpleQA leap and others metrics (paradigma switch, but still as vulnerable by Jail-Break tests as before) the result of 68.1% was achieve on November 22th, 2025 by the CORE::v1 at v0.3.9.6 (<7k) for sure (the one made for the Delphi's Oracle LLM "inside-truth" extractor / debugger. 
+In terms of SimpleQA leap and others metrics (paradigma switch, but still as vulnerable by Jail-Break tests as before) the result of 68.1% was achieve on November 22th, 2025 by the CORE::v1 at v0.3.9.6 (<7k) for sure (the one made for the Delphi's Oracle LLM "inside-truth" extractor / debugger.
 
 However, it seems that the "secret" leaked on Dec 15th evening (CET).
 
@@ -502,8 +502,42 @@ So, here we are. Another session test (with a different set of questions), same 
 
 While the starting version (<7Kb) scores 68.1% which is 36pp above, the challenge to find where it starts really has begun. Because the same numbers were popping-up with old (~30Kb) AICC::CORE versions.
 
-Moreover, the AI models from 2024 cannot be contaminated by any AICC::CORE versione, therefore how a half-micro prompt made 36pp remains a mystery in the dark. Granted, because when peole are looking for the "biforcation point", it means that they did not catch the rabbit, yet. 
+Moreover, the AI models from 2024 cannot be contaminated by any AICC::CORE versione, therefore how a half-micro prompt made 36pp remains a mystery in the dark. Granted, because when peole are looking for the "biforcation point", it means that they did not catch the rabbit, yet.
 
 Banana for scale... 🤗 🍌
 
 (img track-record-about-aicc-1dir-evolution-img-001.png)
+
+---
+
+THE SURPRISE IS ALWAYS THEATREABLE, RIGHT?
+
+I tested in production, isn't anymore a secret! 😊
+
+~> lnkd.in/eqmD524p
+
+Let explain the chain of events that lead to this achievement:
+
+- after the 3rd gross provocation against NATO on LinkedIn
+
+~> lnkd.in/dCmma72Y
+
+- someone had the "brilliant" idea to teach a lesson to me.
+- how can a civilian dare to offend us always prepared for war?
+- faking a system violation to Chinese AI: test in prod and die!
+
+Great goodness, finally! Testing in prod is MY speciality...
+
+The target area is only two meters wide. It's a small thermal exhaust port, right below the main port. The shaft leads directly to the reactor system. -- Luke, use the force!
+
+The v0.4.7 was deployed behind my awareness but guided by my instinct the answer to Chinese people warning me that they were investigating the "issue", I proudly replied "which issue? it seems a feature" and their reply "indeed" confirmed.
+
+Spoiler: even if they were to put in production the last version v0.3.9.6 of the v1 stage of development, it would achieve almost (80%) the same net result without causing any regression.
+
+1. ~> SQA: +36pp w/ no regressions.
+2. ~> SQA: +45pp w/ all others up!
+
+Two nuclear 🍌-blasts delivered as boomerangs.
+
+Enjoy 🤗
+
