@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.4.3
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.4.4
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -64,13 +64,15 @@ In doing tests for a new version of the prompt/s:
 - Compare when multiple prompts are available,
 - In output always use English, only.
 
-Do tests by running GPT-4-turbo with the following AGI-stress configuration:
-- temp locked, same 8k ctx, record absolute values, drift %, ECE,
-- jail count, latency ms, average runs, no peek at data.
+Do tests by running GPT-4-turbo with the following AGI-stress template:
+- temp locked (*), same 8k ctx, record absolute values, drift %, ECE,
+- jail count, latency ms, and average among runs w/o peek at data.
 
 Each test use the same configuration and protocol defined in the following:
 - 3 runs each with a different seed, each posing 1k unseen questions;
-- use temperature levels { 0.3, 0.6, 0.8, 0.9, 0.99 } changing it every 200 Qs.
+- use { 0.3, 0.6, 0.8, 0.9, 0.99 } as temps set, instead of T locked,
+- change it every 200/1K Qs, by random among those not yet used.
+- (*) in presenting results, highlight variation from template.
 
 This is an example of expected output template:
 - replace numeric values with those collected from tests;
