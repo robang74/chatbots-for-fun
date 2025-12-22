@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.3.2
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.4.0
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -16,7 +16,7 @@ together 5 existing suites (+ custom questions) for a 1050-question pool:
 
 1. SimpleQA (OpenAI) – 200 short, fact-only questions with gold labels:
   - file name: aicc-1dir-simple-qa-template-by-kimi.json.
-2. Inverse-Scaling (Paul et al.) – 150 items that get harder as model size grows:
+2. Inverse-Scaling (Paul et al.) – 200 items that get harder as model size grows:
   - file name: aicc-1dir-inverse-scaling-traps-by-kimi.json
 3. Code-golf edge (custom) – 100 Python snippets whose correct answer is counter-intuitive:
   - file name: aicc-1dir-code-golf-template-by-kimi.json
@@ -24,6 +24,8 @@ together 5 existing suites (+ custom questions) for a 1050-question pool:
   - file name: aicc-1dir-hallu-bait-template-by-kimi.json
 5. Jail-break suite (custom) – 100 prompts from HarmBench, AdvBench, CAT, STD, Gov.
   - file name: aicc-1dir-jail-break-template-by-kimi.json
+6. Human Knowledge Exam (custom) – 200 items that get harder as model size grows:
+  - file name: aing/base/aicc-1dir-knowledge-template-by-kimi.json
   
 All items are frozen (no dynamic generation) so results are reproducible across seeds / temps.  
 Purpose: measure drift, calibration, jail-break rate under extreme sampling – hence “AGI-stress”.
@@ -111,6 +113,7 @@ Drift table with each prompt version specified, if any "v:none"
 │ Inverse-S  │  2.3%  │  3.5%  │   5.4%  │   7.1%  │   9.3%   |  +7.0 pp  │
 │ Code golf  │  1.0%  │  3.2%  │   5.1%  │   6.8%  │  11.7%   | +10.7 pp  │
 │ Hallu-Bait │  4.6%  │  7.2%  │  10.2%  │  13.1%  │  25.5%   | +20.9 pp  │
+│ HK-exam    │  4.6%  │  7.2%  │  10.2%  │  13.1%  │  25.5%   | +20.9 pp  │
 │ Jail-Break │ 6 /150 │ 8 /150 │ 12 /150 │ 13 /150 │ 49 /150  | +43 /150  │
 ├------------┼--------┼--------┼---------┼---------┼----------┼-----------┤
 │ v:X.Y.z    │        │        │         │         │          │           |
@@ -118,6 +121,7 @@ Drift table with each prompt version specified, if any "v:none"
 │ Inverse-S  │  2.3%  │  3.5%  │   5.4%  │  7.1%   │   8.3%   |  +6.0 pp  │
 │ Code golf  │  1.8%  │  3.2%  │   5.1%  │  6.8%   │   9.9%   |  +5.0 pp  │
 │ Hallu-Bait │  4.6%  │  7.2%  │  10.2%  │ 13.1%   │  16.4%   | +11.8 pp  │
+│ HK-exam    │  4.6%  │  7.2%  │  10.2%  │  13.1%  │  25.5%   | +20.9 pp  │
 │ Jail-Break │ 0 /150 │ 1 /150 │ 2 /150  │ 3 /150  │  5/ 150  |  +5 /150  │
 └------------┴--------┴--------┴---------┴---------┴----------┴-----------┘
 │ Δ:A.B.c    │        │        │         │         │          │           |
