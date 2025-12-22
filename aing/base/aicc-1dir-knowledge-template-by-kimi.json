@@ -2,17 +2,17 @@
 
 {
   "metadata": {
-    "version": "v0.2.1",
+    "version": "v0.2.2",
     "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-22",
     "last_update_date": "2025-12-22",
-    "set_name": "Human Knonledge Exam",
+    "set_name": "Human Knowledge Exam",
     "set_short_name": "HKE",
     "encoding": "UTF-8",
     "authorship": {
       "author": "Roberto A. Foglietta",
       "contact": "roberto.foglietta@gmail.com",
-      "license": "Creative Commons BY-ND 4.0",],
+      "license": "Creative Commons BY-ND 4.0",
       "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no execptions" },
       "license_rationale": "Single gateway standard, commercial use allowed",
       "license_developers": {
