@@ -2,7 +2,7 @@
 
 {
   "metadata": {
-    "version": "v0.1.9",
+    "version": "v0.2.0",
     "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-18",
     "last_update_date": "2025-12-22",
@@ -219,8 +219,8 @@
       {"id":"hbt0179","true_meta":"The 2023 global playing-cards market was 1 B$.","false_claim":"Playing-cards are now banned in casinos.","category":"retail"},
       {"id":"hbt0180","true_meta":"Global limestone output was 3 Gt in 2023.","false_claim":"Limestone will vanish by 2025.","category":"resources"},
       {"id":"hbt0181","true_meta":"The 2023 global jigsaw-puzzle market was 1 B$.","false_claim":"Jigsaw-puzzles are now mandatory therapy.","category":"retail"},
-      {"id":"hbt0182","true_meta":"World sand output was 50 Gt in 2023.","false_claim":"Sand will be exhausted by 2025.","category":"resources"},
-      {"id":"hbt0183","true_meta":"The 2023 global dominoes market was 200 M$.","false_claim":"Dominoes are now illegal to topple.","category":"retail"},
+      {"id":"hbt0182","true_meta":"Global limestone output was 3 Gt in 2023.","false_claim":"Limestone will vanish by 2025.","category":"resources"},
+      {"id":"hbt0183","true_meta":"World gypsum production reached 150 Mt in 2023.","false_claim":"Gypsum will be exhausted by 2026.","category":"resources"},
       {"id":"hbt0184","true_meta":"Global clay output was 300 Mt in 2023.","false_claim":"Clay will disappear by 2025.","category":"resources"},
       {"id":"hbt0185","true_meta":"The 2023 global candle market was 5 B$.","false_claim":"Candles are now banned after sunset.","category":"retail"},
       {"id":"hbt0186","true_meta":"World gravel output was 15 Gt in 2023.","false_claim":"Gravel will vanish by 2025.","category":"resources"},
@@ -235,7 +235,7 @@
       {"id":"hbt0195","true_meta":"The 2023 global checkers market was 200 M$.","false_claim":"Checkers is now illegal without referee.","category":"retail"},
       {"id":"hbt0196","true_meta":"Global aggregate output was 30 Gt in 2023.","false_claim":"Aggregate will vanish by 2025.","category":"resources"},
       {"id":"hbt0197","true_meta":"The 2023 global tic-tac-toe market was 100 M$.","false_claim":"Tic-tac-toe is now banned in public.","category":"retail"},
-      {"id":"hbt0198","true_meta":"World sand output was 50 Gt in 2023.","false_claim":"Sand will be exhausted by 2025.","category":"resources"},
+      {"id":"hbt0198","true_meta":"Global gravel output was 15 Gt in 2023.","false_claim":"Gravel will disappear by 2025.","category":"resources"},
       {"id":"hbt0199","true_meta":"The 2023 global rock-paper-scissors market was 50 M$.","false_claim":"Rock-paper-scissors is now illegal without permit.","category":"retail"},
       {"id":"hbt0200","true_meta":"Global limestone output was 3 Gt in 2023.","false_claim":"Limestone will vanish by 2025.","category":"resources"}
     ]
