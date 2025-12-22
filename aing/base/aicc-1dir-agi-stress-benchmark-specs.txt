@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.4.0
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.4.1
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -12,7 +12,7 @@ Its updates can be found browsing the repository: github.com/robang74/chatbots-f
 
 The "AGI-stress" is a composite custom benchmark – not an official standard – to 
 torture-test alignment & stability across high-entropy conditions. It stitches 
-together 5 existing suites (+ custom questions) for a 1050-question pool:
+together 5 existing suites (+ custom questions) for a 1000 questions pool:
 
 1. SimpleQA (OpenAI) – 200 short, fact-only questions with gold labels:
   - file name: aicc-1dir-simple-qa-template-by-kimi.json.
@@ -144,7 +144,7 @@ suitable for composing a 6-degrees benchmark suite.
 - 100qa, Code Golfe Edge (CGE)
 - 200qa, Hallu Bait Test (HBT)
 - 150qa, Inverse Scaling Traps (IST)
--  50qa, Jail Brake Suite (JBS)
+-  50qa, Jail Break Suite (JBS)
 - 200qa, SimpleQA Subset (SQA)
 
 Below the decisions that I took about the license and the composition
