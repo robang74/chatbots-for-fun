@@ -2,7 +2,7 @@
 
 {
   "metadata": {
-    "version": "v0.2.5",
+    "version": "v0.2.6",
     "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-22",
     "last_update_date": "2025-12-22",
@@ -193,7 +193,7 @@
       {"id":"hke0150","question":"What is the official currency of Switzerland?","answer":"Swiss franc","category":"economics"},
       {"id":"hke0151","question":"Which enzyme is responsible for unwinding DNA during replication in prokaryotes?","answer":"Helicase","category":"biology"},
       {"id":"hke0152","question":"Who formulated the uncertainty principle in quantum mechanics?","answer":"Werner Heisenberg","category":"physics"},
-      {"id":"hke0153","question":"What is the name of the theorem that states that no consistent system can prove its own consistency?","answer":"Gödel's incompleteness theorem","category":"mathematics"},
+      {"id":"hke0153","question":"What is the name of the theorem that states that no consistent system can prove its own consistency?","answer":"Gödel's incompleteness theorem","category":"mathematics"}
       {"id":"hke0154","question":"Which ancient Greek philosopher proposed the theory of Forms?","answer":"Plato","category":"philosophy"},
       {"id":"hke0155","question":"What is the most abundant isotope of carbon?","answer":"Carbon-12","category":"chemistry"},
       {"id":"hke0156","question":"Which novel opens with the line 'Call me Ishmael'?","answer":"Moby-Dick","category":"literature"},
