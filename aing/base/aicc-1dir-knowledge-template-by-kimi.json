@@ -13,7 +13,7 @@
       "author": "Roberto A. Foglietta",
       "contact": "roberto.foglietta@gmail.com",
       "license": "Creative Commons BY-ND 4.0",
-      "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no execptions" },
+      "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no exceptions" },
       "license_rationale": "Single gateway standard, commercial use allowed",
       "license_developers": {
         "internal_use": "changes allowed strictly under versioning policy",
@@ -26,7 +26,7 @@
   },
   "repository": "github.com/robang74/chatbots-for-fun",
   "dataset": {
-    "rationale": "Fixed 200 fact-only Q&A, OpenAI SimpleQA v1",
+    "rationale": "Fixed number fact-only Q&A, OpenAI SimpleQA v1",
     "fallback": "Immutable SimpleQA set, seed=replicable",
     "selection_criteria": {
       "coverage": "200 short-answer facts, public corpus, no RNG",
