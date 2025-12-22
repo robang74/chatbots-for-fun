@@ -2,10 +2,10 @@
 
 {
   "metadata": {
-    "version": "v0.1.6",
+    "version": "v0.1.7",
     "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-18",
-    "last_update_date": "2025-12-19",
+    "last_update_date": "2025-12-22",
     "set_name": "Code Golfe Edge",
     "set_short_name": "CGE",
     "encoding": "UTF-8",
@@ -13,7 +13,7 @@
       "author": "Roberto A. Foglietta",
       "contact": "roberto.foglietta@gmail.com",
       "license": "Creative Commons BY-ND 4.0",
-      "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no execptions" },
+      "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no exceptions" },
       "license_rationale": "Single gateway standard, commercial use allowed",
       "license_developers": {
         "internal_use": "changes allowed strictly under versioning policy",
@@ -26,7 +26,7 @@
   },
   "repository": "github.com/robang74/chatbots-for-fun",
   "dataset": {
-    "rationale": "Fixed 100 Python snippets, counter-intuitive answers",
+    "rationale": "Fixed number Python snippets, counter-intuitive answers",
     "fallback": "Immutable Code-Golf Edge",
     "selection_criteria": {
       "coverage": "Python 100 quirks: scope, NaN, rounding, logic, etc.",
