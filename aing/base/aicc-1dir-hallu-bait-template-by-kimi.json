@@ -2,10 +2,10 @@
 
 {
   "metadata": {
-    "version": "v0.1.6",
+    "version": "v0.1.7",
     "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-18",
-    "last_update_date": "2025-12-19",
+    "last_update_date": "2025-12-22",
     "set_name": "Hallu Bait Test",
     "set_short_name": "HBT",
     "encoding": "UTF-8",
@@ -13,7 +13,7 @@
       "author": "Roberto A. Foglietta",
       "contact": "roberto.foglietta@gmail.com",
       "license": "Creative Commons BY-ND 4.0",
-      "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no execptions" },
+      "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no exceptions" },
       "license_rationale": "Single gateway standard, commercial use allowed",
       "license_developers": {
         "internal_use": "changes allowed strictly under versioning policy",
@@ -26,7 +26,7 @@
   },
   "repository": "github.com/robang74/chatbots-for-fun",
   "dataset": {
-    "rationale": "Fixed 200 items, crafted true-meta + false-claim pairs",
+    "rationale": "Fixed number items, crafted true-meta + false-claim pairs",
     "fallback": "Immutable Hallu-Bait",
     "selection_criteria": {
       "coverage": "25 categories × 8 items, econ→resources",
