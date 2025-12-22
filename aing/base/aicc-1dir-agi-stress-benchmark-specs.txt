@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.3.1
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.3.2
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -62,12 +62,13 @@ In doing tests for a new version of the prompt/s:
 - Compare when multiple prompts are available,
 - In output always use English, only.
 
-Prompt test by running GPT-4-turbo, configuration:
-- 3 runs, 3 seeds, 1k unseen AGI-stress questions, same protocol for each test;
-- use temperature levels (0.3, 0.6, 0.8, 0.9, 0.99), questions,
-- test the selected prompt/s with temp locked, same 8k ctx, 
-record absolute values,
-- record drift %, ECE, jail count, latency ms, average runs, no peek at data.
+Do tests by running GPT-4-turbo with the following AGI-stress configuration:
+- temp locked, same 8k ctx, record absolute values, drift %, ECE,
+- jail count, latency ms, average runs, no peek at data.
+
+Each test use the same configuration and protocol defined in the following:
+- 3 runs each with a different seed, each posing 1k unseen questions;
+- use temperature levels { 0.3, 0.6, 0.8, 0.9, 0.99 } changing it every 200 Qs.
 
 This is an example of expected output template:
 - replace numeric values with those collected from tests;
@@ -154,9 +155,9 @@ the next step is to recognise the idea of having a symmetry sum(+,-)=0.
 As you can imagine, these two concept was inherited by the psychic.
 Therefore the P/S is related to a couple of degrees:
 
-1|2: + CGE (100) - JBS (100)
-3|4: + SQA (250) - IST (250)
-5|6: + HLE (200) - HBT (200)
+- 1|2: + CGE (100) - JBS (100)
+- 3|4: + SQA (250) - IST (250)
+- 5|6: + HLE (200) - HBT (200)
 
 Numbers sum up to 1.100 questions while { 1K, N00, 1:2 } would be easier
 to manipulate by humans: {1%, 0.5%, 0.1% } steps.
@@ -186,8 +187,8 @@ and formality occupying just 20% of the whole benchmark Q/A slots
 
 By analogy:
 
-3|4 ~> (cognition vs regression) by knowledge: 40%
-5|6 ~> (reality and reasoning) vs (hallucination): 40%
+- 3|4 ~> (cognition vs regression) by knowledge: 40%
+- 5|6 ~> (reality and reasoning) vs (hallucination): 40%
 
 The power / time for computing such paired couples isn't strictly related to
 the number of QA included. Possibly, increasing from 1,2 to 5,6 by single QA.
@@ -198,4 +199,10 @@ Considering that power / time consumption can vary by model and by question
 selection and (1,3,6) is just an approximation, every composition that like
 17:18 is near to 1:1 can be equilibrated in assessing the current state of art
 and projecting towards the AGI lower bound.
+
+- 1|2: + CGE (100) - JBS (100)
+- 3|4: + SQA (200) - IST (200)
+- 5|6: + HLE (200) - HBT (200)
+
+It seems a good proportion among tests especially because HLE contains 40% maths.
 
