@@ -14,7 +14,7 @@
       "contact": "roberto.foglietta@gmail.com",
       "license": "Creative Commons BY-ND 4.0",
       "license_application": [ "subset", "composition", "ordering", "config" ],
-      "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no execptions" },
+      "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no exceptions" },
       "license_rationale": "Single gateway standard, commercial use allowed",
       "license_developers": {
         "internal_use": "changes allowed strictly under versioning policy",
