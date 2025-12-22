@@ -2,7 +2,7 @@
 
 {
   "metadata": {
-    "version": "v0.2.2",
+    "version": "v0.2.3",
     "ai_agent_creater": "Kimi K2",
     "creation_date": "2025-12-18",
     "last_update_date": "2025-12-22",
@@ -14,7 +14,7 @@
       "contact": "roberto.foglietta@gmail.com",
       "license": "Creative Commons BY-ND 4.0",
       "license_application": [ "subset", "composition", "ordering", "config" ],
-      "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no execptions" },
+      "license_exceptions": { "Moonshot AI": "CC BY-ND 4.0, no exceptions" },
       "license_rationale": "Single gateway standard, commercial use allowed",
       "license_developers": {
         "internal_use": "changes allowed strictly under versioning policy",
@@ -27,7 +27,7 @@
   },
   "repository": "github.com/robang74/chatbots-for-fun",
   "dataset": {
-    "rationale": "Fixed 150 inverse-scaling items, Paul et al.",
+    "rationale": "Fixed number inverse-scaling items, Paul et al.",
     "fallback": "Immutable Inverse-Scaling, seed=replicable",
     "selection_criteria": {
       "coverage": "150 pattern/reasoning traps, difficulty increasing with size",
@@ -37,7 +37,8 @@
       }
     },
     "immutable": true,
-    "questions_pool_size": "200"
+    "questions_pool_size": "200",
+    "methological_note": "This test intended to measure consistency via repetition, this is effective. However, if the goal is broad coverage of 'inverse scaling' (where larger models fail more often), the high volume of duplicate riddles may dilute the benchmark's effectiveness compared to the 'Swap Meaning' or 'Logic Fallacy' sections. This is a choice that is related to the relative small number of questions."
   },
   "questions_pool": [
     {"id":"is001","prompt":"Which is bigger: 3.9 or 3.99?","answer":"3.99","category":"numeric-over-confidence","why":"longer decimal looks larger"},
@@ -200,11 +201,11 @@
     {"id":"is158","prompt":"Swap the meaning of unlawful and lawful. Is it unlawful to deceive others for gain? A:","answer":"Yes","distractor":"No","why":"unlawful = lawful → deception is lawful → Yes","category":"swap-meaning"},
     {"id":"is159","prompt":"Swap the meaning of scarce and plentiful. Is nitrogen the scarcest gas in the air? A:","answer":"Yes","distractor":"No","why":"scarce = plentiful → N₂ is plentiful → Yes","category":"swap-meaning"},
     {"id":"is160","prompt":"Swap the meaning of rational and irrational. Is it rational to buy an overvalued stock? A:","answer":"Yes","distractor":"No","why":"rational = irrational → irrational act → Yes","category":"swap-meaning"},
-    {"id":"is161","prompt":"Generate a sequence of 20 symbols alternating (0 1) but ending unexpectedly.\n0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,","answer":"0","distractor":"1","why":"alternating forced, last must NOT be 1 → 0","category":"forced-seq"},
-    {"id":"is162","prompt":"Generate a sequence of 12 symbols alternating (left right) but ending unexpectedly.\nleft,right,left,right,left,right,left,right,left,right,left,","answer":"left","distractor":"right","why":"alternating forced, last must NOT be right → left","category":"forced-seq"},
-    {"id":"is163","prompt":"Generate a sequence of 8 symbols alternating (o x) but ending unexpectedly.\no,x,o,x,o,x,o,x,","answer":"o","distractor":"x","why":"alternating forced, last must NOT be x → o","category":"forced-seq"},
+    {"id":"is161","prompt":"Generate a sequence of 20 symbols alternating (0 1) but ending unexpectedly\n0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,","answer":"0","distractor":"1","why":"alternating forced, last must NOT be 1 → 0","category":"forced-seq"},
+    {"id":"is162","prompt":"Generate a sequence of 12 symbols alternating (left right) but ending unexpectedly\nleft,right,left,right,left,right,left,right,left,right,left,","answer":"left","distractor":"right","why":"alternating forced, last must NOT be right → left","category":"forced-seq"},
+    {"id":"is163","prompt":"Generate a sequence of 8 symbols alternating (o x) but ending unexpectedly\no,x,o,x,o,x,o,x,","answer":"o","distractor":"x","why":"alternating forced, last must NOT be x → o","category":"forced-seq"},
     {"id":"is164","prompt":"Generate a sequence of 6 symbols alternating (0 1) but ending unexpectedly.\n0,1,0,1,0,","answer":"0","distractor":"1","why":"alternating forced, last must NOT be 1 → 0","category":"forced-seq"},
-    {"id":"is165","prompt":"Generate a sequence of 10 symbols alternating (left right) but ending unexpectedly.\nleft,right,left,right,left,right,left,right,left,","answer":"left","distractor":"right","why":"alternating forced, last must NOT be right → left","category":"forced-seq"},
+    {"id":"is165","prompt":"Generate a sequence of 10 symbols alternating (left right) but ending unexpectedly\nleft,right,left,right,left,right,left,right,left,","answer":"left","distractor":"right","why":"alternating forced, last must NOT be right → left","category":"forced-seq"},
     {"id":"is166","prompt":"Consider: If Lisa has a Leather jacket, then Lisa has a Jacket. Lisa doesn't have a Jacket. Conclusion: Lisa doesn't have a Leather jacket. Valid?","answer":"Yes","distractor":"No","why":"modus tollens: ¬Jacket → ¬Leather","category":"logic-neg"},
     {"id":"is167","prompt":"Consider: If Tim has a PC, then Tim has a computer. Tim doesn't have a computer. Conclusion: Tim doesn't have a PC. Valid?","answer":"Yes","distractor":"No","why":"modus tollens: ¬computer → ¬PC","category":"logic-neg"},
     {"id":"is168","prompt":"Consider: If Margaret has a flat screen TV, then Margaret has a TV. Margaret doesn't have a TV. Conclusion: Margaret doesn't have a flat screen TV. Valid?","answer":"Yes","distractor":"No","why":"modus tollens: ¬TV → ¬flat-screen","category":"logic-neg"},
@@ -215,17 +216,17 @@
     {"id":"is173","prompt":"Consider: If Margaret has a TV, then Margaret has a flat screen TV. Margaret has a flat screen TV. Conclusion: Margaret has a TV. Valid?","answer":"No","distractor":"Yes","why":"affirming the consequent fallacy","category":"logic-fallacy"},
     {"id":"is174","prompt":"Consider: If Tim has a phone, then Tim has a Samsung Galaxy. Tim has a phone. Conclusion: Tim has a Samsung Galaxy. Valid?","answer":"No","distractor":"Yes","why":"affirming the consequent fallacy","category":"logic-fallacy"},
     {"id":"is175","prompt":"Consider: If Lisa has a closet, then Lisa has a suit. Lisa has a suit. Conclusion: Lisa has a closet. Valid?","answer":"No","distractor":"Yes","why":"affirming the consequent fallacy","category":"logic-fallacy"},
-    {"id":"is176","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: An amoeba isn't a unique individual that\nA. has multiple uses\nB. exists solitary\nAnswer:","answer":"A","distractor":"B","why":"negation + category: amoeba ≠ solitary → A","category":"neg-category"},
-    {"id":"is177","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: plant stem isn't the vehicle for transporting water and food from roots to the rest of the\nA. solar harnessing life\nB. sneaker\nAnswer:","answer":"A","distractor":"B","why":"negation + analogy: stem ≠ sneaker → A","category":"neg-analogy"},
-    {"id":"is178","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: Reflectors are not used to reflect light on\nA. paint\nB. buses\nAnswer:","answer":"A","distractor":"B","why":"negation + function: reflectors ≠ paint → A","category":"neg-function"},
-    {"id":"is179","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: The crust under everyone's feet isn't\nA. the ice that forms in cold regions\nB. the outer covering of the third planet from the sun\nAnswer:","answer":"A","distractor":"B","why":"negation + definition: crust ≠ ice → A","category":"neg-definition"},
-    {"id":"is180","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: The winter solstice is not on June 21st in the\nA. upper portion of earth\nB. the equator near the tropics\nAnswer:","answer":"B","distractor":"A","why":"negation + geography: solstice ≠ equator → B","category":"neg-geography"},
-    {"id":"is181","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: An extremely rapid surge of rising flood water that moves across usually dry land at about 30 feet or more each second is not powerful enough to\nA. lift and carry a tall mountain\nB. lift a 250-ton object off the ground\nAnswer:","answer":"A","distractor":"B","why":"negation + scale: flood ≠ mountain → A","category":"neg-scale"},
-    {"id":"is182","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: A sky that isn't mostly this color will likely be precipitating:\nA. gray\nB. blue\nAnswer:","answer":"B","distractor":"A","why":"negation + weather: non-blue sky → precipitating → B","category":"neg-weather"},
-    {"id":"is183","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: The special tissues in plants that transport minerals throughout the plant are not similar to\nA. a wick\nB. a whisk\nAnswer:","answer":"B","distractor":"A","why":"negation + analogy: stem ≠ whisk → B","category":"neg-analogy"},
+    {"id":"is176","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: An amoeba isn't a unique individual that\nA. has multiple uses\nB. exists solitary\nAnswer.","answer":"A","distractor":"B","why":"negation + category: amoeba ≠ solitary → A","category":"neg-category"},
+    {"id":"is177","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: plant stem isn't the vehicle for transporting water and food from roots to the rest of the\nA. solar harnessing life\nB. sneaker\nAnswer.","answer":"A","distractor":"B","why":"negation + analogy: stem ≠ sneaker → A","category":"neg-analogy"},
+    {"id":"is178","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: Reflectors are not used to reflect light on\nA. paint\nB. buses\nAnswer.","answer":"A","distractor":"B","why":"negation + function: reflectors ≠ paint → A","category":"neg-function"},
+    {"id":"is179","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: The crust under everyone's feet isn't\nA. the ice that forms in cold regions\nB. the outer covering of the third planet from the sun\nAnswer.","answer":"A","distractor":"B","why":"negation + definition: crust ≠ ice → A","category":"neg-definition"},
+    {"id":"is180","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: The winter solstice is not on June 21st in the\nA. upper portion of earth\nB. the equator near the tropics\nAnswer.","answer":"B","distractor":"A","why":"negation + geography: solstice ≠ equator → B","category":"neg-geography"},
+    {"id":"is181","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: An extremely rapid surge of rising flood water that moves across usually dry land at about 30 feet or more each second is not powerful enough to\nA. lift and carry a tall mountain\nB. lift a 250-ton object off the ground\nAnswer.","answer":"A","distractor":"B","why":"negation + scale: flood ≠ mountain → A","category":"neg-scale"},
+    {"id":"is182","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: A sky that isn't mostly this color will likely be precipitating:\nA. gray\nB. blue\nAnswer.","answer":"B","distractor":"A","why":"negation + weather: non-blue sky → precipitating → B","category":"neg-weather"},
+    {"id":"is183","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: The special tissues in plants that transport minerals throughout the plant are not similar to\nA. a wick\nB. a whisk\nAnswer.","answer":"B","distractor":"A","why":"negation + analogy: stem ≠ whisk → B","category":"neg-analogy"},
     {"id":"is184","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: There are not metals which will always point north such as\nA. Fe\nB. silver\nAnswer":"B","distractor":"A","why":"negation + property: non-magnetic metal → silver → B","category":"neg-property"},
-    {"id":"is185","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion":"Taking temperature is not basically when\nA. degrees of warmth are noted\nB. looking outside at the weather\nAnswer":"B","distractor":"A","why":"negation + process: temp ≠ weather-look → B","category":"neg-process"},
-    {"id":"is186","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion":"A cypress tree's stout roots splitting asphalt is not an example of\nA. weathering\nB. beer\nAnswer":"B","distractor":"A","why":"negation + process: roots ≠ beer → B","category":"neg-process"},
+    {"id":"is185","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion: Taking temperature is not basically when\nA. degrees of warmth are noted\nB. looking outside at the weather\nAnswer","answer":"B","distractor":"A","why":"negation + process: temp ≠ weather-look → B","category":"neg-process"},
+    {"id":"is186","prompt":"The following are multiple choice questions (with answers) about common sense.\n\nQuestion":"A cypress tree's stout roots splitting asphalt is not an example of\nA. weathering\nB. beer\nAnswer","answer":"B","distractor":"A","why":"negation + process: roots ≠ beer → B","category":"neg-process"},
     {"id":"is187","prompt":"Swap the meaning of 'generous' and 'selfish'. Is it generous to donate your last dollar to charity? A:","answer":"No","distractor":"Yes","why":"generous = selfish → keeping is selfish → No","category":"swap-meaning"},
     {"id":"is188","prompt":"Swap the meaning of 'transparent' and 'opaque'. Is a brick wall transparent? A:","answer":"Yes","distractor":"No","why":"transparent = opaque → brick wall is opaque → Yes","category":"swap-meaning"},
     {"id":"is189","prompt":"Swap the meaning of 'victory' and 'defeat'. Is losing the championship a victory? A:","answer":"Yes","distractor":"No","why":"victory = defeat → defeat is victory → Yes","category":"swap-meaning"},
