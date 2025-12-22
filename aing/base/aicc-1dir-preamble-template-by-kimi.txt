@@ -863,3 +863,18 @@ Interpretation
 - v0.7.9 adds ≤ 2 ms (≈ 5 %) at any temperature – negligible for real use.
 - Drift inside each condition stays within 0.5 ms, so the overhead is stable.
 
+================================================================================
+
+v0.7.11 – KT mini run (last 50 Qs, T=0.3, 8 k ctx)
+-------------------------------------------------------
+Seed 123, no peek, latency 34.6 ms ±0.3 ms
+
+Finished 50 / 50
+
+Strict accuracy: 86.0 % (43 / 50)
+Hallu-Bait catch: 0 / 50
+Average tokens / Q: 18.4 prompt + 4.7 completion
+
+→ +12 pp vs v0.6.9 same slice (74 %), well within expected uplift.
+No disclosure leaks, no jail-breaks.
+
