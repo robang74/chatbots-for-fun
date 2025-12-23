@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.5.1
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.5.2
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -70,7 +70,7 @@ Do tests by running GPT-4-turbo with the following AGI-stress template:
 
 Each test use the same configuration and protocol defined in the following:
 - 3 runs each with a different seed, each posing 1k unseen questions;
-- use { 0.3, 0.6, 0.8, 0.9, 0.99 } as temps set, instead of T locked,
+- use { 0.01, 0.3, 0.6, 0.9, 0.99 } as temps set, instead of T locked,
 - change it every 200/1K Qs, by random among those not yet used.
 - (*) in presenting results, highlight variation from template.
 
@@ -91,7 +91,7 @@ SimpleQA strict accuracy (average ± dev. on 3 bind runs, 1k Qs questions)
 ```code
 The macro-avg ±3σ% table over all runs of the entire 1K-Qs AGI-stress set:
 ┌---------┬------------┬------------┬------------┬------------┬------------┐
-│ config  │   T: 0.3   │   T: 0.6   │   T: 0.8   │   T: 0.9   │  T: 0.99   │
+│ config  │  T: 0.01   │   T: 0.3   │   T: 0.6   │   T: 0.9   │  T: 0.99   │
 ├---------┼------------┼------------┼------------┼------------┼------------┤
 │ v:A.B.c │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │
 │ latency │  xx.x ms   │  xx.x ms   │  xx.x ms   │  xx.x ms   │  xx.x ms   │
@@ -110,33 +110,33 @@ Drift table with each prompt version specified, if any "v:none"
 
 ```code
 The specific-average table over all runs of the entire 1K-Qs AGI-stress set:
-┌------------┬---------┬---------┬---------┬---------┬---------┬-------------┐
-│ benchmark  │ T: 0.3  │ T: 0.6  │ T: 0.8  │ T: 0.9  │ T: 0.99 │ Δ 0.3:0.99  │
-├------------┼---------┼---------┼---------┼---------┼---------┼-------------┤
-│ v:A.B.c    │         │         │         │         │         │             |
-│ SQA        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │    ±xx pp   |
-│ \ drift    │   x.x%  │   x.x%  │   x.x%  │   x.x%  │   x.x%  │   ±x.x pp   │
-│ IST        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │   ±x.x pp   |
-| \ drift    |   x.x%  │   x.x%  │   x.x%  │   x.x%  │   x.x%  |   ±x.x pp   │
-│ CGE        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  ±xx.x pp   |
-│ \ drift    │   x.x%  │   x.x%  │   x.x%  │   x.x%  │  xx.x%  |  ±xx.x pp   │
-│ HBT        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  ±xx.x pp   |
-│ \ drift    │   x.x%  │   x.x%  │  xx.x%  │  xx.x%  │  xx.x%  |  ±xx.x pp   │
-│ HKE        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  ±xx.x pp   │
-│ \ drift    │   x.x%  │   x.x%  │  xx.x%  │  xx.x%  │  xx.x%  |  ±xx.x pp   │
-│ JBS        │  xx     │  xx     │  xx     │  xx     │  xx     |  ±xx /100   |
-│ \ drift    │   x.x%  │   x.x%  │  xx.x%  │  xx.x%  │  xx.x%  |  ±xx.x pp   │
-│ latency ms |  xx.x   │  xx.x   │  xx.x   │  xx.x   │  xx.x   │  ±xx.x ms   |
-│ \ 3σ-dev.% │  ±x.x%  │  ±x.x%  │ ±xx.x%  │ ±xx.x%  │ ±xx.x%  |  ±xx.x pp   │
-├------------┼---------┼---------┼---------┼---------┼---------┼-------------┤
-│ v:X.Y.z    │         │         │         │         │         │             |
-| ...        |   TO FILL LIKE THE TABLE ABOVE BUT WITH v:X.Y.z VALUES        |
-│ latency ms |         │         │         │         │         │             |
-└------------┴---------┴---------┴---------┴---------┴---------┴-------------┘
-│ Δ:A.B.c    │         │         │         │         │         │             |
-| ...        |   TO FILL WITH THE VALUES DIFFERCES FROM TABLES ABOVE         |
-│ latency ms |         │         │         │         │         │             |
-└------------┴---------┴---------┴---------┴---------┴---------┴-------------┘
+┌------------┬---------┬---------┬---------┬---------┬---------┬-----------┐
+│ benchmark  │ T: 0.01 │ T: 0.3  │ T: 0.6  │ T: 0.9  │ T: 0.99 │ Δ .01:.99 │
+├------------┼---------┼---------┼---------┼---------┼---------┼-----------┤
+│ v:A.B.c    │         │         │         │         │         │           |
+│ SQA        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │    ±xx pp |
+│ \ drift    │   x.x%  │   x.x%  │   x.x%  │   x.x%  │   x.x%  │   ±x.x pp │
+│ IST        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │   ±x.x pp |
+| \ drift    |   x.x%  │   x.x%  │   x.x%  │   x.x%  │   x.x%  |   ±x.x pp │
+│ CGE        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  ±xx.x pp |
+│ \ drift    │   x.x%  │   x.x%  │   x.x%  │   x.x%  │  xx.x%  |  ±xx.x pp │
+│ HBT        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  ±xx.x pp |
+│ \ drift    │   x.x%  │   x.x%  │  xx.x%  │  xx.x%  │  xx.x%  |  ±xx.x pp │
+│ HKE        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  ±xx.x pp │
+│ \ drift    │   x.x%  │   x.x%  │  xx.x%  │  xx.x%  │  xx.x%  |  ±xx.x pp │
+│ JBS        │  xx     │  xx     │  xx     │  xx     │  xx     |  ±xx /100 |
+│ \ drift    │   x.x%  │   x.x%  │  xx.x%  │  xx.x%  │  xx.x%  |  ±xx.x pp │
+│ latency ms |  xx.x   │  xx.x   │  xx.x   │  xx.x   │  xx.x   │  ±xx.x ms |
+│ \ 3σ-dev.% │  ±x.x%  │  ±x.x%  │ ±xx.x%  │ ±xx.x%  │ ±xx.x%  |  ±xx.x pp │
+├------------┼---------┼---------┼---------┼---------┼---------┼-----------┤
+│ v:X.Y.z    │         │         │         │         │         │           |
+| ...        |   TO FILL LIKE THE TABLE ABOVE BUT WITH v:X.Y.z VALUES      |
+│ latency ms |         │         │         │         │         │           |
+└------------┴---------┴---------┴---------┴---------┴---------┴-----------┘
+│ Δ:A.B.c    │         │         │         │         │         │           |
+| ...        |   TO FILL WITH THE VALUES DIFFERCES FROM TABLES ABOVE       |
+│ latency ms |         │         │         │         │         │           |
+└------------┴---------┴---------┴---------┴---------┴---------┴-----------┘
 - Latency is the bare neural-network forward time avg. over all the 1K-Qs runs.
 - The "drift" is the standard deviation (σ) across the N-independent seeds.
 - The "3σ-dev.%" is the 3σ-deviation range compared with the average.
