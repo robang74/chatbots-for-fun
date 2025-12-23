@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.4.5
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.4.6
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -225,4 +225,23 @@ This seems a good proportion among the different tests. Especially because
 the Humanity Last Exam (HLE) contains 40% maths. However, to quickly reach
 a functional alpha version, a knowledge exam (HKE) has been created as a
 custom set and included.
+
+---
+
+### AUTHOR NOTE
+
+The idea of developing a suite of "paired couple of benchmarks" in a 3-axis
+for achieving a balanced metric of AI potential, is sound and well founded.
+Despite the actual implementation (2025-12-22) is just a template in which
+questions are "hard enough" as minimum acceptable, the concept behind is robust.
+
+Moreover, what is almost obvious for a modern LLM remains challenging for
+a desktop running AI model with 7B or even 20B parameters while a reasonably
+small AI model like GPT4-Turbo is based on a 1.8T parameters LLM.
+
+Therefore the "template" is worth of value also at this bare minimum development
+stage (proof-of-concept) as long as it targets small or medium LLMs instead of
+the state-of-art huge LLMs. In fact, GPT4 family (turbo and o1) can saturate
+this benchmark suite (once prompted by AICC::1DIR at least), actually and
+unless replacing questions with fully-fledged human-generated questions set.
 
