@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.4.6
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.4.7
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -244,4 +244,10 @@ stage (proof-of-concept) as long as it targets small or medium LLMs instead of
 the state-of-art huge LLMs. In fact, GPT4 family (turbo and o1) can saturate
 this benchmark suite (once prompted by AICC::1DIR at least), actually and
 unless replacing questions with fully-fledged human-generated questions set.
+
+Paradoxically, the lower score of being prompted with the AICC::1DIR compared
+with a pure GPT4 model (turbo OR o1) isn't a bad sign. Because Kimi K2 generates
+the questions having in mind "primary directive" as the antagonist to beat.
+And it was explicitly asked to create them to be hard, as hard as possible.
+So, this benchmark is naturally an anti-1DIR test. This is ok, if known.
 
