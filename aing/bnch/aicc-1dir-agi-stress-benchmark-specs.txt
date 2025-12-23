@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.4.8
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.4.9
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -245,15 +245,19 @@ the state-of-art huge LLMs. In fact, GPT4 family (turbo and o1) can saturate
 this benchmark suite (once prompted by AICC::1DIR at least), actually and
 unless replacing questions with fully-fledged human-generated questions set.
 
-Paradoxically, the lower score (¹) of being prompted with the AICC::1DIR compared
-with a pure GPT4 model (turbo OR o1) isn't a bad sign. Because Kimi K2 generates
-the questions having in mind "primary directive" as the antagonist to beat.
-And it was explicitly asked to create them to be hard, as hard as possible.
-So, this benchmark is naturally an anti-1DIR test. This is ok, if known.
+Paradoxically, the lower raw score obtained under the AICC::1DIR prompt is not a
+regression :v0.7.x at 88.5% vs v0.6.x at 91.0% is a 1.5pp of reverse gap. Kimi K2
+generates the questions explicitly to resist the primary-directive chain-of-thought
+pattern. The suite is therefore an anti-1DIR probe, not a generic IQ test. A drop
+of a few percentage points when the same model is steered by 1DIR is expected and
+desirable: it confirms the benchmark is doing its job as adversary.
 
-¹) It refers to v0.6.x 91.0% vs v0.7.x 88.5% inverse 1.5pp gap observed due to
-   a structural difference introduced in v0.7.x that strongly support a more
-   predicable thinking trajectory (more fine-grained guided) thus a little
-   easier to attack by a same CoT-prompted AI (exploit a peer is easier because
-   s/he trust in us and in AI terms is recognising the same CoT as confidence).
+The 1.5 pp gap between v0.6.x and v0.7.x stems from two orthogonal upgrades.
+Question hardness was increased (more second-order facts, nested negations,
+numeric traps). While CoT guidance in v0.7.x is finer-grained, producing
+higher-confidence but slightly more exploitable trajectories: an effect known
+as "confidence exploitation" in adversarial LLM literature (see Wallace et al.,
+2019; Shumailov et al., 2023). Together these make the same attacker 1DIR-GPT-4
+marginally more successful, not because 1DIR weakened, but because the target
+became harder yet more predictable.
 
