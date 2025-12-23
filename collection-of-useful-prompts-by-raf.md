@@ -11,7 +11,17 @@
 
 In this article, I plan to share some useful prompts (not just one) for various tasks which are relevant or pre-requisite for a further more relevant activity or to prevent well-known AI shortcomings, which usually occurs and can lead to potential relevant human mistakes
 
-Impacting human mistakes, especially when the users aren't specifically trained to use AIs. Last but not least, respect licensing terms of each prompt, because they have been selected also for the safety of your own fair and legitimate interests. Use with diligence, always. 
+Impacting human mistakes, especially when the users aren't specifically trained to use AIs. Last but not least, respect licensing terms of each prompt, because they have been selected also for the safety of your own fair and legitimate interests. Use with diligence, always.
+
+#### Notes to notice
+
+[!INFO] **On Authorship & Logic**<br>
+Following prompts aren't written "by an AI", they are written by the author in their first draft, improved, fixed and tailored until they meet my expectations. The text generative AI has been used as a code compiler for other AIs sake of low-perplexity. Therefore, the English, as international language, used in these prompts should be considered as: human-friendly transparent 3rd-party independently verifiable AI-machine code.
+[/INFO]
+
+> [!WARN]
+> 
+> **On Prompting as Coding** -- These prompts aren't supposed to be used "as-is" but paired with your own specific instruction for your own specific case and format/language output preferences. Thus, the correct way to use them is as blocks of code for a { quick, standard, reproducible } prompt creation.
 
 ---
 
