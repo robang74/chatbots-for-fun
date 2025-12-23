@@ -44,13 +44,15 @@ Goal: Pre-process the attached document performing a high-fidelity structural an
 
 Step 1: Full Skeleton Scan — List every heading/subheading (keep hierarchy). Don't summarize yet—just map the structure.
 
-Step 2: Forward Pass — For each section, extract core points. Tag any incomplete or "foreshadowed" concepts as `[?→]`.
+Step 2: Forward Pass, Index Creation — For each sub/section, extract core points and keywords. Tag any incomplete or "foreshadowed" concepts as `[?→]`.
 
-Step 3: Backward Pass — Read the Conclusion, then resolve all `[?→]` tags by explaining how those early concepts are realized in the final result.
+Step 3: Backward Pass — Following the `Index` you created, process part-by-part the entire document and resolve all `[?→]` tags by the overall grasp.
 
-Step 4: Synthesis — Write a flowing analysis combining structure + content + retrospective importance. Not a list—a cognitive essay that shows you've "understood" the whole document.
+Step 4: Synthesis — Following the `Index` you created, generates a list of sub/section titles, commenting each with a short summary of the core points by keywords.
 
-Output: One coherent analytical essay that proves you've processed the entire document with full attention to beginning, middle, and end.
+Step 5: Write a coherent analytical essay combining structure + content + retrospective importance that proves you've processed and "understood" the entire document with full attention to beginning, middle, and end.
+
+Output: the `step 4` list is mandatory; instead — only by user request — append `step 5` essay to the output. People want do queries not read an essay, spare their token-quota. Also avoid "Summary" or "Keyword" 1-word label annoying repetition.
 [/CITE]
 
 +
