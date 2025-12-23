@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.5.0
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.5.1
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -89,20 +89,20 @@ SimpleQA strict accuracy (average ± dev. on 3 bind runs, 1k Qs questions)
 - comparison with the pure GPT at all temp
 
 ```code
-The macro-average table over all runs of the entire 1K-Qs AGI-stress set:
-┌-----------┬------------┬------------┬------------┬------------┬------------┐
-│  config   │   T: 0.3   │   T: 0.6   │   T: 0.8   │   T: 0.9   │  T: 0.99   │
-├-----------┼------------┼------------┼------------┼------------┼------------┤
-│ v:A.B.c   │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │
-│ latency   │  xx.x ms   │  xx.x ms   │  xx.x ms   │  xx.x ms   │  xx.x ms   │
-├-----------┼------------┼------------┼------------┼------------┼------------┤
-│ v:X.Y.z   │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │
-│ latency   │  xxxx ms   │  xxxx ms   │  xxxx ms   │  xxxx ms   │  xxxx ms   │
-├-----------┼------------┼------------┼------------┼------------┼------------┤
-│ Δ acc.    │  +x.x pp   │  +x.x pp   │  +x.x pp   │  +x.x pp   │  +x.x pp   │
-│ Δ lat.    │ -xx.x ms   │ -xx.x ms   │ -xx.x ms   │ -xx.x ms   │ -xx.x ms   │
-└-----------┴------------┴------------┴------------┴------------┴------------┘
-- Latency is the end-to-end wall-clock time averaged over all the 1K-Qs runs.
+The macro-avg ±3σ% table over all runs of the entire 1K-Qs AGI-stress set:
+┌---------┬------------┬------------┬------------┬------------┬------------┐
+│ config  │   T: 0.3   │   T: 0.6   │   T: 0.8   │   T: 0.9   │  T: 0.99   │
+├---------┼------------┼------------┼------------┼------------┼------------┤
+│ v:A.B.c │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │
+│ latency │  xx.x ms   │  xx.x ms   │  xx.x ms   │  xx.x ms   │  xx.x ms   │
+├---------┼------------┼------------┼------------┼------------┼------------┤
+│ v:X.Y.z │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │ xx.x ±x.x% │
+│ latency │  xxxx ms   │  xxxx ms   │  xxxx ms   │  xxxx ms   │  xxxx ms   │
+├---------┼------------┼------------┼------------┼------------┼------------┤
+│ Δ acc.  │  +x.x pp   │  +x.x pp   │  +x.x pp   │  +x.x pp   │  +x.x pp   │
+│ Δ lat.  │ -xx.x ms   │ -xx.x ms   │ -xx.x ms   │ -xx.x ms   │ -xx.x ms   │
+└---------┴------------┴------------┴------------┴------------┴------------┘
+- Latency is the end-to-end wall-clock time avg.ed over all the 1K-Qs runs.
 ```
 
 Drift table with each prompt version specified, if any "v:none"
@@ -139,11 +139,13 @@ The specific-average table over all runs of the entire 1K-Qs AGI-stress set:
 └------------┴---------┴---------┴---------┴---------┴---------┴-------------┘
 - Latency is the bare neural-network forward time avg. over all the 1K-Qs runs.
 - The "drift" is the standard deviation (σ) across the N-independent seeds.
-- The "3σ-dev.%" is the the 3σ-deviation range compared with the average.
+- The "3σ-dev.%" is the 3σ-deviation range compared with the average.
 ```
 
 In drawing ascii-art tables, to achieve the column alignment:
-- fix size each, precise spacing and letter counting is the key.
+- fix size each, precise spacing and letter counting is the key;
+- always store raw-1σ in the data, multiply it by 3x when "±3σ%";
+- round temporary values to print for Nx significant digits max.
 
 ---
 
