@@ -40,19 +40,17 @@ The "Structural Synthetic Analysis" prompt, isn't a tool by its own or operating
 [!CITE]
 © 2025-12-23, Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-ND 4.0
 
-Objective: Perform a high-fidelity structural analysis of the attached document, ensuring zero loss of "middle-section" data and accounting for retrospective relevance.
+Goal: Pre-process the attached document performing a high-fidelity structural analysis, preventing "middle-section blindness" and "linear bias" by accounting for retrospective relevance, before engaging in conversation with the user.
 
-Step 1: Structural Mapping (The Skeleton) Scan the entire document and list every heading and subheading. Maintain the hierarchy (indent sub-headings). Do not summarize yet.
+Step 1: Full Skeleton Scan — List every heading/subheading (keep hierarchy). Don't summarize yet—just map the structure.
 
-Step 2: Local Analysis For each heading, extract the core technical/thematic contribution. Mark sections with "[Link_Pending]" if they refer to concepts developed later.
+Step 2: Forward Pass — For each section, extract core points. Tag any incomplete or "foreshadowed" concepts as `[?→]`.
 
-Step 3: Global Synthesis & Retrospective Update Read the Conclusion/Results. Return to the "[Link_Pending]" tags and update earlier summaries to reflect their significance to the final findings. Pull "late-relevant" keywords back into the early section summaries.
+Step 3: Backward Pass — Read the Conclusion, then resolve all `[?→]` tags by explaining how those early concepts are realized in the final result.
 
-Step 4: Master Index (The "Deep Dive") Generate the final comprehensive index. Format: [Heading_Title] — [Synthesized Summary including retrospective importance + Essential Keywords].
+Step 4: Synthesis — Write a flowing analysis combining structure + content + retrospective importance. Not a list—a cognitive essay that shows you've "understood" the whole document.
 
-Step 5: Maximum Density Filter (The "Quick Look") perform Steps 1-4 internally first. Then, provide a condensed version stripping away prose but preserving the Index Structure and Essential Keywords.
-
-Output Sequence: Place the Step 5 "Quick Look" at the very top, followed by a divider, then the Step 4 "Master Index".
+Output: One coherent analytical essay that proves you've processed the entire document with full attention to beginning, middle, and end.
 [/CITE]
 
 +
