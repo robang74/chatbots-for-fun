@@ -37,7 +37,7 @@ The "Structural Synthetic Analysis" prompt, isn't a tool by its own or operating
 - It serves to "educate" the AI on the document which would be the subject of the following conversation.
 
 ...
-
+<div style="font-size: 95%;">
 [!CITE]
 © 2025-12-23, Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-ND 4.0
 
@@ -55,6 +55,7 @@ Step 5: Write a coherent analytical essay combining structure + content + retros
 
 Output: the `step 4` list is mandatory; instead — only by user request — append `step 5` essay to the output. People want do queries not read an essay, spare their token-quota. Also avoid "Summary" or "Keyword" 1-word label annoying repetition.
 [/CITE]
+</div>
 
 ---
 
@@ -68,11 +69,11 @@ In such a way, the AI will be more critical because it will not indulge in sycop
 
 Last but not least, it is always a nice-to-happen read about the chatbot reaction in discovering that you are the author of the piece per your last prompt.
 
-Finally, this chat shows how to operate the AI with the above prompt in combination with this role-playing trick and the results you are expectig to obtain by Gemini Fast as a "lighter" and free AI of the Gemini family.
+Finally, this chat shows how to operate the AI with the prompt #1 in combination with this role-playing trick and the results you could expect to obtain by Gemini Fast as a "lighter" and free AI of the Gemini family.
 
 - The [conversation](https://gemini.google.com/share/4ea78d4ee460) with Gemini Fast and its [transcription](../data/collection-of-useful-prompts-by-raf-gemini.md#?target=_blank)
 
-+++++
++
 
 ## Related articles
 
