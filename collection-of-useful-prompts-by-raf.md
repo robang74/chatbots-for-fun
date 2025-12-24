@@ -68,15 +68,19 @@ In such a way, the AI will be more critical because it will not indulge in sycop
 
 Last but not least, it is always a nice-to-happen read about the chatbot reaction in discovering that you are the author of the piece per your last prompt.
 
-+
+Finally, this chat shows how to operate the AI with the above prompt in combination with this role-playing trick and the results you are expectig to obtain by Gemini Fast as a "lighter" and free AI of the Gemini family.
+
+- The [conversation](https://gemini.google.com/share/4ea78d4ee460) with Gemini Fast and its [transcription](../data/collection-of-useful-prompts-by-raf-gemini.md#?target=_blank)
+
++++++
 
 ## Related articles
 
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
-
++++++
 - [Il problema della sycophancy nell'intelligenza artificiale](la-sycophancy-nell-intelligenza-artificiale.md#?target=_blank) &nbsp; (2025-05-02)
 
-+
++++++
 
 ## Share alike
 
