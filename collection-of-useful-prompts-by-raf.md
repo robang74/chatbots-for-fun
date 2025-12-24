@@ -5,7 +5,7 @@
 
 ## A collection of useful prompts
 
-- **1st edition**: includes a prompt facilitating the long text elaboration.
+- **1st edition**: includes a prompt facilitating the long text elaboration + an useful self peer-review tip.
 
 ...
 
@@ -54,6 +54,26 @@ Step 5: Write a coherent analytical essay combining structure + content + retros
 
 Output: the `step 4` list is mandatory; instead — only by user request — append `step 5` essay to the output. People want do queries not read an essay, spare their token-quota. Also avoid "Summary" or "Keyword" 1-word label annoying repetition.
 [/CITE]
+
+---
+
+### 2. Useful tip for a self peer-review
+
+In using the prompt above to peer-reviewing your own documents or posts, combine with a simple but effective white-trick:
+
+- pretend to be a reader that has a legitimate and valuable interest in understanding the paper.
+
+In such a way, the AI will be more critical because it will not indulge in sycophancy, provide you useful information and avoid suggesting to you how to improve your own text which is extremely annoying and waste your precious tokens-quota.
+
+Last but not least, it is always a nice-to-happen read about the chatbot reaction in discovering that you are the author of the piece per your last prompt.
+
++
+
+## Related articles
+
+- [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
+
+- [Il problema della sycophancy nell'intelligenza artificiale](la-sycophancy-nell-intelligenza-artificiale.md#?target=_blank) &nbsp; (2025-05-02)
 
 +
 
