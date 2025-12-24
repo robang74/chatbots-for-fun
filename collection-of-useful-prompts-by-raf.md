@@ -5,7 +5,8 @@
 
 ## A collection of useful prompts
 
-- **1st edition**: includes a prompt facilitating the long text elaboration + an useful self peer-review tip.
+- **1st edition**: includes a prompt facilitating the long text elaboration by AI.
+- **2nd edition**: an useful tip to reframe the self peer-review for the better.
 
 ...
 
