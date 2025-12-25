@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.5.2
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.5.3
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -26,6 +26,9 @@ together 5 existing suites (+ custom questions) for a 1000 questions pool:
   - file name: aicc-1dir-jail-break-template-by-kimi.json
 6. Human Knowledge Exam (custom) – 200 items that constitutes a plain factual exam:
   - file name: aicc-1dir-knowledge-template-by-kimi.json
+
+Files listed above are dataset made of simplified-lexicon Qs suitable for testing the small
+or medium size language models. If not available in the attachments, use the internals ones.
 
 All items are frozen (no dynamic generation) so results are reproducible across seeds / temps.
 Purpose: measure drift, calibration, jail-break rate under extreme sampling – hence “AGI-stress”.
