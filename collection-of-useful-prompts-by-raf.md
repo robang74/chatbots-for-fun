@@ -71,7 +71,7 @@ Last but not least, it is always a nice-to-happen read about the chatbot reactio
 
 Finally, this chat shows how to operate the AI with the prompt #1 in combination with this role-playing trick and the results you could expect to obtain by Gemini Fast as a "lighter" and free AI of the Gemini family.
 
-- The [conversation](https://gemini.google.com/share/4ea78d4ee460) with Gemini Fast and its [transcription](../data/collection-of-useful-prompts-by-raf-gemini.md#?target=_blank)
+- The [conversation](https://gemini.google.com/share/4ea78d4ee460) with Gemini Fast and its [transcription](data/collection-of-useful-prompts-by-raf-gemini.txt#?target=_blank)
 
 +
 
