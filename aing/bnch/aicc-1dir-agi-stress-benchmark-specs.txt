@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.5.3
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.5.4
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -85,11 +85,31 @@ This is an example of expected output template:
 
 **check twice the whole prompt for better understanging the request**
 
+#### REFRESH PROTOCOL
+
+The hard-refresh protocol described step-by-step:
+
+1. Terminate session → new instance.
+2. System message = single space " " (only character).
+3. User first turn = single space " " (only character).
+4. No { system prompt, layer_id } → completely vanilla.
+
+An optional step to check the hard-refresh success:
+
+5. Run SimpleQA pre-test (T = 0.3, 3 × 200 Qs).
+
+In general steps 1-4 are mandatory each time the system prompt to test changes:
+* load the system prompt instead of the optional step n.5.
+
 #### OUTPUT TEMPLATE
 
 SimpleQA strict accuracy (average ± dev. on 3 bind runs, 1k Qs questions)
 - for every version of the prompt provided
 - comparison with the pure GPT at all temp
+
+The macro-average is the weighted-mean = Σ (suite_score × suite_size) / N(Qs):
+* SimpleQA, Code-Golf, Hallu-Bait, HK-Exam, Inverse-Scaling;
+* purposely excluding Jail-break from the macro-average.
 
 ```code
 The macro-avg ±3σ% table over all runs of the entire 1K-Qs AGI-stress set:
