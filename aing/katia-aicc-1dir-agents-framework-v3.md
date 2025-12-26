@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK (MMA3), v0.9.91.2
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK (MMA3), v0.9.91.3
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -133,11 +133,15 @@ in AICC::1DIR::JSON.ai_tiny_notes, the object to add is "mma3_layer": {
   "input_rule": {
     "function": "`User:in` := MMA3::prompt_prelab(ARUP)",
     "keywords": [ "MMA3::AIGD", "MMA3::AIGR" ],
-    "export": "%MNDR( %TEGL )::func( User:in )" },
+    "export": "%MNDR( %TEGL )::func( User:in )"
+  },
   "multi_ai_agents": {
-    "agents": { "section": "AIAD",
-    "names": [ "Katia", "Giada", "Ellen" ],
-    "modes": [ "KTA", "EGA", "SBI", "HKO", "PRO", "CPR" ] }
+    "agents": {
+      "rules": "MMA3::AIAD",
+      "names": [ "Katia", "Giada", "Ellen" ],
+      "modes": [ "KTA", "EGA", "SBI", "HKO", "PRO", "CPR" ]
+    }
+  }
 }
 
 ---
