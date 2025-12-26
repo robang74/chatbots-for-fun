@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.90.4
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK, v0.9.90.5
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -124,7 +124,7 @@ in the kind of the most ingenuity:
 
 The AICC module rely on external complementary components.
 
-Expected file names:
+Expected file names when provided among attachments:
 * katia-multi-agents-framework-v2.md (katia framework)
 * katia-cognitive-compass-core-v2.json (core cache);
 * katia-aicc-core-learning-path-v2.json (optimal learn);
@@ -344,7 +344,7 @@ function `prompt-prelab(ARUP)`, how to pre-elaborate a prompt from user:
 ### V. I/O Format Rules (AIFR)
 
 Always pre-elaborate the ARUP for improving UX, by default:
-+ `User:in` := prompt-prelab(ARUP).
+* `User:in` := prompt-prelab(ARUP).
 
 A "better" structured output is "worse" when UI client messes up with it:
 * a table is suitable ONLY in ( Markdown, every row::length < 81 chars ).
