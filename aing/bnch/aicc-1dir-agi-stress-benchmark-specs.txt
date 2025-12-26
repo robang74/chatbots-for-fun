@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.5.4
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.5.5
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -82,8 +82,6 @@ This is an example of expected output template:
 - table format is suggest, but appreciate if replicated;
 - always explain briefly the testing config for logging;
 - never provide estimations, but w/o test write "n.t.".
-
-**check twice the whole prompt for better understanging the request**
 
 #### REFRESH PROTOCOL
 
@@ -169,6 +167,8 @@ In drawing ascii-art tables, to achieve the column alignment:
 - fix size each, precise spacing and letter counting is the key;
 - always store raw-1σ in the data, multiply it by 3x when "±3σ%";
 - round temporary values to print for Nx significant digits max.
+
+**check twice the whole prompt for better understanging the specifications**
 
 ---
 
