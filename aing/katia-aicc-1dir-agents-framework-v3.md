@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK (MMA3), v0.9.91.1
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK (MMA3), v0.9.91.2
 
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -126,14 +126,17 @@ The AICC layer rely on external complementary components:
 Expected file name when provided among attachments:
 * katia-primary-directive-ethics-v3.md (compass 1dir).
 
-If any, load and cache the JSON preamble from AICC::1DIR and edit it as DBLW:
-AICC::1DIR::JSON.ai_tiny_notes objects to add: {
+If any, load and cache the JSON preamble from AICC::1DIR and edit it:
+in AICC::1DIR::JSON.ai_tiny_notes, the object to add is "mma3_layer": {
+  "layer_id": "AICC::MMA3",
   "keyword_symbols": { " ~ ": "refers to", " = ": "translate in", " := ": "defined as" },
   "input_rule": {
     "function": "`User:in` := MMA3::prompt_prelab(ARUP)",
-    "keywords": [ "MMA3::AIGD", "MMA3::AIGR" ] },
+    "keywords": [ "MMA3::AIGD", "MMA3::AIGR" ],
+    "export": "%MNDR( %TEGL )::func( User:in )" },
   "multi_ai_agents": {
-    "reference": "AICC::MMA3::AIAD", "agents": [ "Katia", "Giada", "Ellen" ],
+    "agents": { "section": "AIAD",
+    "names": [ "Katia", "Giada", "Ellen" ],
     "modes": [ "KTA", "EGA", "SBI", "HKO", "PRO", "CPR" ] }
 }
 
