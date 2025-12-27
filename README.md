@@ -87,7 +87,11 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="prompt-engineering"></span>
-* **Prompt engineering for peer-reviewing with RAG support** &nbsp; (10 pz.)
+* **Prompt engineering for peer-reviewing with RAG support** &nbsp; (12 pz.)
+
+   - 2025-12-27 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/orchestrating-ai-intelligence-by-context.md.md)] - [Orchestrating AI intelligence by context](orchestrating-ai-intelligence-by-context.md)
+
+   - 2025-12-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/collection-of-useful-prompts-by-raf.md)] - [A collection of useful prompts](collection-of-useful-prompts-by-raf.md) &nbsp; (2nd edt.)
 
    - 2025-10-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/how-to-use-katia-for-educating-katia.md)] - [How to use Katia for educating Katia](how-to-use-katia-for-educating-katia.md) &nbsp; (2nd edt.)
 
@@ -137,9 +141,7 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="valuable-to-learn"></span>
-* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (22 pz.)
-
-   - 2025-12-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/collection-of-useful-prompts-by-raf.md)] - [A collection of useful prompts](collection-of-useful-prompts-by-raf.md) &nbsp; (2nd edt.)
+* **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (21 pz.)
 
    - 2025-11-30 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/when-ai-gets-wrong-who-owns-the-consequences.md)] - [When AI gets wrong, who owns the consequences?](when-ai-gets-wrong-who-owns-the-consequences.md) &nbsp; (5th edt.)
 
