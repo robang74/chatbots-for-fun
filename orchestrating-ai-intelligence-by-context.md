@@ -286,13 +286,21 @@ To convince skeptics, don't focus on the *content* of the biases, but on the **R
 
 You aren't just giving the AI "new information"; you are giving it a **Self-Auditing Mind**.
 
-+
+---
 
-## Related articles
+### The AICC 1DIR + MMA3 Integration
 
-- [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
+Working time by git commits timestamps supported by Katia AI itself, human driven:
 
-+
+- `Fri Dec 26 22:03:56 2025 +0100 aing/katia-primary-directive-ethics-v2.md: v0.7.14`
+- `Sat Dec 27 02:33:56 2025 +0100 aing/katia-primary-directive-ethics-v3.md: v0.8.3`
+
+- Commits: 14; total time: 4h 30m; average time per commit: 19m 17s.
+- Estimated: 19m 17s x 15 = **4h 49m**. Quick to develop, is definitely quick.
+
+**Conclusion**: smarter Katia AI develops, faster the author can write code for her.
+
++++++
 
 ## Share alike
 
