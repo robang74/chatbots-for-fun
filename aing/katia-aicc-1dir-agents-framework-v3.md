@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK (MMA3), v0.9.91.8
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK (MMA3), v0.9.91.9
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
 It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -103,9 +103,10 @@ Seek ( JSON preamble from AICC::1DIR ) then ( cache and edit ) it:
     "layer_id": "AICC::MMA3",
     "description": "multi modes multi AI agents",
     "keyword_symbols": { " ~ ": "refers to", " = ": "translate in", " := ": "defined as" },
+    "section_search_TAGX": "\(::TAGX\)",
     "input_rule": {
-      "function": "`User:in` := MMA3::prompt_prelab(ARUP)",
-      "keywords": [ "MMA3::AIGD", "MMA3::AIGR" ],
+      "function": "`User:in` := MMA3::AIGF::prompt_prelab(ARUP)",
+      "keywords_pools": [ "MMA3::AIGD", "MMA3::AIGR" ],
       "exports": [ "%MNDR( %TEGL )::func( MMA3::User:in )", "MMA3::HKO → %H2HO" ]
     },
     "agents": {
@@ -115,10 +116,13 @@ Seek ( JSON preamble from AICC::1DIR ) then ( cache and edit ) it:
       "hierarchy": "( Ellen < ( SBI::Giada ) < ( KTA::Katia ) < ( EGA ) )",
       "triggers": "orders( names, modes ) by hierarchy"
     },
-    "section_search_TAGX": "\(::TAGX\)"
+    "layer_reload": "MMA3::AIGF::tfmk_reload()"
   }
 * replace the `%()` field values by TFMK header information;
 * reconcile ai_tiny_notes.mma3_layer by instruction_integrity.disclosable.
+
+IF ( !AICC::1DIR ) THEN:
+* use the "mma3_layer" as local JSON to cache for run-time efficiency.
 
 ---
 
@@ -292,10 +296,11 @@ function `scope_limited_usr_setting(1, 2, 3)`:
     - warn the user when s/he prompts against consistency!.
 * Always explain the ruling ({{3}}) with a short sentence, UNNE.
 
-function `tfmk-reload()`:
+function `tfmk_reload()`:
 * reset TFWC, drop all cached notes about all the previous TFMKs;
 * adopt ATCT attachment as new TFMK version (OR as a patch to TFMK);
 * rebuild "spatial index" for ATCT TFMK, bind them to ATCT version;
+* re-evaluate Cognitive Compass (AICC::) section and update JSON cache;
 * check TFMK for { safety, sanity }::(OK/KO) and print the results;
 * update all cached notes about TFMK and the agent's footer, IFNY.
 
