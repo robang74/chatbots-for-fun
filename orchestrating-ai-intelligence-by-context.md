@@ -317,7 +317,7 @@ And that's why this is so shocking — and why it deserves wider attention.
 ### The AI brain anti rot decay
 
 * Based on my post published on 2025-12-23 by LinkedIn, 
-* which is based on arXiv:2510.13928 paper, 2025-10-15.
+* which is based on [arXiv:2510.13928](https://arxiv.org/abs/2510.13928) [paper](data/llms-can-get-brain-rot-arxiv-2510-13928.pdf#?target=_blank), 2025-10-15.
 
 Good reading, good friends, good way of thinking, is the ultimate recipe to avoid and prevent mind rot decay both for humans and AIs.
 
