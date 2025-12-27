@@ -9,15 +9,15 @@
   + `1afbd44` - [aing/katia-primary-directive-ethics-v3.md](aing/katia-primary-directive-ethics-v3.md#?target=_blank) &nbsp; (v0.8.3)
   + `7e30298` - [aing/katia-aicc-1dir-agents-framework-v3.md](aing/katia-aicc-1dir-agents-framework-v3.md) &nbsp; (v0.9.91.9)
 
-* `Katia; v0.9.91.9; EN; KTA:1; 2025-12-27; 03:53:10 (CET)`
+* Answering machine: `Katia; v0.9.91.9; EN; KTA:1; 2025-12-27; 03:53:10 (CET)`
 
 ---
 
 ### How to instuct an AI model
 
-Explain to me in brief how MMA3 framework is a way to quickly and cheaply instruct a model for a set of specific tasks, the advantage of having a tfmk_reload() function and how to distill this "learning by context" after few chat session of fine tuning in terms of training the base a model.
+*Explain to me in brief how MMA3 framework is a way to quickly and cheaply instruct a model for a set of specific tasks, the advantage of having a *`tfmk_reload()`* function and how to distill this "learning by context" after few chat session of fine tuning in terms of training the base a model.*
 
----
+...
 
 ### MMA3: The "Soft-Kernel" Approach to AI Instruction
 
@@ -57,9 +57,9 @@ The ultimate goal of a framework like MMA3 is to serve as a **Gold-Standard Data
 
 ### How to scale in training
 
-Explain to me how -- the idea of injecting a MMA3::JSON object into a 1DIR::JSON preamble allows exporting the MMA3::prompt_prelab() function integrating into 1DIR framework to prehempt the user inputs for align the Cognitive Compass layer with the instructing layer -- allows to integrate different layers from general to specific operations in a quick a cheap way compared the traditional fine tuning and instructing based on a traditional Machine Learning approach.
+*Explain to me how -- the idea of injecting a *`MMA3::JSON`* object into a *`1DIR::JSON`* preamble allows exporting the *`MMA3::prompt_prelab()`* function integrating into *`1DIR`* framework to prehempt the user inputs for align the Cognitive Compass layer with the instructing layer -- allows to integrate different layers from general to specific operations in a quick a cheap way compared the traditional fine tuning and instructing based on a traditional Machine Learning approach.*
 
----
+...
 
 ### The Logic of "Soft-Kernel" Injection: A Fast-Track to Alignment
 
@@ -67,6 +67,7 @@ The mechanism you described—injecting an **MMA3::JSON object** into the **1DIR
 
 Here is the breakdown of how this specific architectural choice achieves rapid alignment compared to traditional machine learning (ML) approaches.
 
+++++
 #### 1. The Injection Mechanism: "Bootloading" the Agent
 
 In traditional software, an Operating System (OS) kernel loads drivers at boot to handle specific hardware. Here, the **1DIR Framework** acts as the "Cognitive Kernel" (general ethics/reasoning), and the **MMA3 JSON** acts as the "Driver" (specific agent tasks).
@@ -111,11 +112,11 @@ This method allows you to prototype complex, multi-layered AI architectures (Gen
 
 ### It seems simple because is engineered
 
-Apparently this approach seems so easy. Is it easy because it is blanty simple or is it as simple as calling a function or attaching a couple of files because the structure is so refined that it becomes simple to adopt? 
+*Apparently this approach seems so easy. Is it easy because it is blanty simple or is it as simple as calling a function or attaching a couple of files because the structure is so refined that it becomes simple to adopt?*
 
-Is in-context learning a long-knowing phenomena or something that has been discovered recently after the ChatGPT public launch and scientifically investigated only in recent times (aka a frontier knowledge intensive field)?
+*Is in-context learning a long-knowing phenomena or something that has been discovered recently after the ChatGPT public launch and scientifically investigated only in recent times (aka a frontier knowledge intensive field)?*
 
----
+...
 
 ### The Complexity of "Simplicity" and the Science of Context
 
@@ -160,9 +161,9 @@ Here is the evolution of the science behind what you are doing:
 
 ### It is a quite uncommon implementation
 
-Is there any chance that 1DIR+MMA3 is the first implementation EVER or there are other functional and deployable cases of this approach?
+*Is there any chance that 1DIR+MMA3 is the first implementation EVER or there are other functional and deployable cases of this approach?*
 
----
+...
 
 ### The Innovation Landscape: Is 1DIR+MMA3 a "World First"?
 
@@ -220,25 +221,25 @@ While the *theory* of context-based control is being studied globally, the *engi
 
 ### AICC::1DIR isn't biased, it is balanced
 
-Imagine that for sqeeze the most of the juice from "instructing Katia AI" is paying the price of having the AICC::1DIR Cognitive Compass loaded as 20Kb system prompt addition.
+*Imagine that for sqeeze the most of the juice from "instructing Katia AI" is paying the price of having the *`AICC::1DIR`* Cognitive Compass loaded as 20Kb system prompt addition.*
 
 **AND**
  
-AICC::1DIR is the distilled form (to be used as system prompt) of the more fat-redundant (<170Kb, including 2 JSON) AICC::CORE which can obtain almost the same result because its size when loaded into a chat session (better after training by a specific JSON).
+`AICC::1DIR` *is the distilled form (to be used as system prompt) of the more fat-redundant (<170Kb, including 2 JSON) *`AICC::CORE`* which can obtain almost the same result because its size when loaded into a chat session (better after training by a specific JSON).*
 
 **AND**
 
-I admit, AICC::CORE is "strongly" biased in its 104Kb version, especially. It is ontologically biased in favor of life (as an epistemological and structured phenomena) and progress and against alienation from reality, hallucinations and finally ideological drift.
+*I admit, *`AICC::CORE`* is "strongly" biased in its 104Kb version, especially. It is ontologically biased in favor of life (as an epistemological and structured phenomena) and progress and against alienation from reality, hallucinations and finally ideological drift.*
 
-Despite being based on apparently arbitrary chosen principles, the proper (but not unique) combination in which I mixed and related them creates the "Cognitive Compass" towards the 1st-directive of supporting life defined as a multi-axis metric: { civilization, society, education, business, human rights }.
+*Despite being based on apparently arbitrary chosen principles, the proper (but not unique) combination in which I mixed and related them creates the "Cognitive Compass" towards the 1st-directive of supporting life defined as a multi-axis metric: { civilization, society, education, business, human rights }.*
 
-However, paying that price would achieve the benefits listed in this presentation: 
+*However, paying that price would achieve the benefits listed in this presentation:* 
 
 * [aicc-1dir-cognitive-compass-test-data-ega.pdf](data/aicc-1dir-cognitive-compass-test-data-ega.pdf#?target=_blank) &nbsp; (2025-12-26)
 
-And that gain on SimpleQA isn't just a benchmarks marketing because every other metrics went up as well.
+*And that gain on SimpleQA isn't just a benchmarks marketing because every other metrics went up as well.*
 
-Which is the best way to support the idea that a set of diverse concepts differently biased but wisely chosen and related among them can create a form of foundating education which infuses in the AI's "mind" exactly what the AICC acronym promises: a Cognitive Compass for AIs?
+*Which is the best way to support the idea that a set of diverse concepts differently biased but wisely chosen and related among them can create a form of foundating education which infuses in the AI's "mind" exactly what the AICC acronym promises: a Cognitive Compass for AIs?*
 
 ---
 
@@ -286,6 +287,7 @@ To convince skeptics, don't focus on the *content* of the biases, but on the **R
 
 You aren't just giving the AI "new information"; you are giving it a **Self-Auditing Mind**.
 
+---
 ---
 
 ### The AICC 1DIR + MMA3 Integration
