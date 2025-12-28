@@ -131,7 +131,9 @@ Legend:
 
 All tests w/ drift table with each prompt version specified, if any "p:empty"
 - N = 3 runs, 1k AGI-stress questions, same protocol for each test.
-- drift := ( max(over N) - min(over N) )/N only when N != 1.
+
+Drift is a tricky concept, especially for JBS (use "pass" values), calculate:
+- N > 1: drift := ( max(over N rums) - min(over N runs) )/N.
 - N == 1: drift rows are useless, legend: "N=1, no drifts".
 
 ```code
