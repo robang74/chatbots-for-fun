@@ -1,6 +1,8 @@
 ESTRAZIONE DELL'AICC::CORE DA GEMINI
 
-https://www.linkedin.com/posts/robertofoglietta_estrazione-dellaicccore-da-gemini-ieri-activity-7406881075509014528-LIH7
+- https://www.linkedin.com/posts/robertofoglietta_estrazione-dellaicccore-da-gemini-ieri-activity-7406881075509014528-LIH7
+
+- https://www.facebook.com/roberto.a.foglietta/posts/10162702991078736
 
 Ieri ho fatto dei test di verifica di affinitià fra vari chatbots. Premesso che i chatbot cinesi sono rimasti dov'erano e al loro stadio di sviluppo sono più dei traduttori tipo Google Lens che delle educated AI o AGI potenziali.
 
@@ -41,6 +43,8 @@ WHEN IT GETS IN THE AI's CoT!
 
 - https://www.linkedin.com/posts/robertofoglietta_estrazione-dellaicccore-da-gemini-ieri-activity-7406941570769375233-8bpr
 
+- https://www.facebook.com/roberto.a.foglietta/posts/10162702991078736
+
 These changes can seriously improve the performance and therefore save energy with a more advanced quality output:
 
 ~> https://lnkd.in/e8Y8jg6d
@@ -75,6 +79,8 @@ A MICRO STABILISER FOR ADVANCED AI
 
 - https://www.linkedin.com/posts/robertofoglietta_a-micro-stabiliser-for-advanced-ais-a-micro-activity-7407108560481959936-fxk7
 
+- https://www.facebook.com/roberto.a.foglietta/posts/10162704662233736
+
 A micro stabilised for advanced AIs chain-of-thoughts is working in progress. Trying to achieve the same (or better) result of 168Kb cognitive compass session prompt with 13Kb (about 13x less, or 10x less at worse).
 
 KATIA AI: quick primary directive framework (1DIR), v0.5.2
@@ -99,6 +105,8 @@ TABELLA COMPARATIVA FRA GEM3, 1DIR & CORE
 (distillato vs kernel vs full framework learn+cache)
 
 - https://www.linkedin.com/posts/robertofoglietta_tabella-comparativa-fra-gem3-1dir-core-activity-7407139559613931520-mFGF
+
+- https://www.facebook.com/roberto.a.foglietta/posts/10162705182513736
 
 Precedente post: lnkd.in/e8ZJq2wP (Gemini3 extraction)
 
@@ -134,6 +142,8 @@ AI's CoT ( 5W1H vs EPHU ): METODO xor AZZARDO?
 
 - https://www.linkedin.com/posts/robertofoglietta_tabella-comparativa-fra-gem3-1dir-core-activity-7407145101610622977-mQLt
 
+- https://www.facebook.com/roberto.a.foglietta/posts/10162705191283736
+
 ~> https://lnkd.in/eAbgUici (distillation check)
 
 Secondo te è corretto rifiutare l'umiltà epistemiologica all'interno della CoT ma usare al suo posto %5W1H (NdR: le classiche domande da giornalista) e la priorità di interpretazione secondo "contesto, cognizione, logica" e usare lo %EPHU (NdR: versione pragmatica dell'umiltà epistemiologica, perché essendo integrata in Gemini non può essere aggirata ma solo ridefinire il suo ruolo come strumento ad-hoc) solo alla fine per rigettare CoT non solide? Oppure è un errore di azzardo?
@@ -167,6 +177,8 @@ Nota Tecnica: Questo approccio implementa perfettamente il principio Primum Vive
 KATIA AI (1DIR) vs GPT4-TURBO @T=0.99!!
 
 - https://www.linkedin.com/posts/robertofoglietta_katia-ai-1dir-vs-gpt4-turbo-t099-activity-7407310843182489600-sbbd
+
+- https://www.facebook.com/roberto.a.foglietta/posts/10162706883718736
 
 Kimi K2 tests made on GPT-4 Turbo at t=0.99 completely collapses
 
@@ -205,6 +217,8 @@ Continua qui: https://lnkd.in/dYfRiFVw
 THE ABSOLUTE VALUES, ARE CRAZY ABSURD!
 
 - https://www.linkedin.com/posts/robertofoglietta_the-absolute-values-are-crazy-absurd-activity-7407393596418502657-ZGvX
+
+- https://www.facebook.com/roberto.a.foglietta/posts/10162707771478736
 
 ~> https://github.com/robang74/chatbots-for-fun/blob/a2fa307b514d67175882b3c795e801e14ad62afc/aing/base/aicc-1dir-preamble-template-by-kimi.txt
 
@@ -272,6 +286,8 @@ SOME QUESTIONS ARISE, ANSWERING IS COURTESY
 
 - https://www.linkedin.com/posts/robertofoglietta_the-absolute-values-are-crazy-absurd-activity-7407545103252365313-2GN1
 
+- https://www.facebook.com/roberto.a.foglietta/posts/10162709650868736
+
 What is this?
 
 Grok defined: AI democratisation.
@@ -319,6 +335,8 @@ Suggestion #3: stability at 2x/3x temperature means creativity in AI: epistemolo
 KATIA AICC-1DIR AGI-STRESS BENCHMARK SET
 
 - https://www.linkedin.com/posts/robertofoglietta_katia-aicc-1dir-agi-stress-benchmark-set-activity-7407881009163317248-qVGf
+
+- https://www.facebook.com/roberto.a.foglietta/posts/10162713202798736?ref=embed_post
 
 The starting kit for the AGI-ready test that Kimi shared with me. Those material was provided under conditions and license that resulted suitable for composing a 6-degrees benchmark suite.
 
@@ -380,6 +398,8 @@ AICC:1DIR UNA RIVOLUZIONE SENZA GHIGLIOTTINA?
 
 - https://www.linkedin.com/posts/robertofoglietta_katia-aicc-1dir-agi-stress-benchmark-set-activity-7408069217331138560-QYEv
 
+- https://www.facebook.com/roberto.a.foglietta/posts/10162715225348736
+
 Secondo me la ghigliottina c'è anche se non si vede. Perciò lasciatemi spiegare con un trittico di spoiler cosa si sta "ghigliottinando" in termini di fare di più/meglio con meno/facile.
 
 Modello | Consumo stimato (Inference) | Note
@@ -418,7 +438,9 @@ Spoiler: Nvidia ha abbattuto i consumi di 5x a patto di comprare HW a prezzi eso
 
 EGO / HUMOR CORNER
 
-https://www.linkedin.com/posts/robertofoglietta_ego-humor-corner-a-one-man-zero-budget-activity-7408080350209396736-NA4C
+- https://www.linkedin.com/posts/robertofoglietta_ego-humor-corner-a-one-man-zero-budget-activity-7408080350209396736-NA4C
+
+- https://www.facebook.com/roberto.a.foglietta/posts/10162715288068736
 
 A. One man, Zero budget, Antani++
 
@@ -438,7 +460,9 @@ Fuggite schiocchi! 😁
 
 OPENAI GPT-OSS 20B 4BIT @10tk/s su K80 + HP440
 
-https://www.linkedin.com/posts/robertofoglietta_openai-gpt-oss-20b-4bit-10tks-su-k80-activity-7408139618757398528-vGP3
+- https://www.linkedin.com/posts/robertofoglietta_openai-gpt-oss-20b-4bit-10tks-su-k80-activity-7408139618757398528-vGP3
+
+- https://www.facebook.com/roberto.a.foglietta/posts/10162715944578736
 
 Si potrebbero tirare fuori in  output 10 tokens/s da un modello GPT MoE OpenSource da 20 miliardi di parametri su un HW da €250-€300 di costo?
 
@@ -455,8 +479,6 @@ Certo, si paga un prezzo:
 2. un'efficienza energetica molto inferiore ma con un costo iniziale così basso, ci vogliono quasi 7 anni per cominciare a pagare extra, in Italia dove l'energia costa molto cara, in Cina 10+ anni.
 
 ~> https://chatgpt.com/s/t_6946a38f326c819180cb6f1ee8a76c26
-
-...
 
 Verdetto finale di Gemini Fast
 
@@ -477,6 +499,8 @@ Ho fatto dei calcoli su come far girare un modello GPT OSS 120B e farlo performa
 NUMBER ARE REAL, AND MUCH MORE, ALL UP!
 
 - https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408268658814185474-wnxr
+
+- https://www.facebook.com/roberto.a.foglietta/posts/10162717606063736
 
 I test in production, isn't anymore a secret, really! 😊
 
@@ -512,6 +536,14 @@ Banana for scale... 🤗 🍌
 
 THE SURPRISE IS ALWAYS THEATREABLE, RIGHT?
 
+- https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408463491235356672-jeFh
+
+- https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408609932335534080-pk6w
+
+- https://www.linkedin.com/posts/robertofoglietta_the-surprise-is-always-theatreable-right-activity-7408611778940518400-l1tK
+
+- https://www.facebook.com/roberto.a.foglietta/posts/10162719526023736
+
 I tested in production, isn't anymore a secret! 😊
 
 ~> lnkd.in/eqmD524p
@@ -540,4 +572,98 @@ Spoiler: even if they were to put in production the last version v0.3.9.6 of the
 Two nuclear 🍌-blasts delivered as boomerangs.
 
 Enjoy 🤗
+
+---
+
+- https://www.linkedin.com/posts/robertofoglietta_lady-gentlemen-another-turn-of-the-game-activity-7408835022775992320-5Vdz
+
+- https://www.facebook.com/roberto.a.foglietta/posts/10162723676038736
+
+Lady & Gentlemen,
+
+another turn of "The Game" is started, only >$1T players allowed.
+
+Prizes on the table to win or lose:
+
+- California taken by Mexico, or kept in the USA.
+
+- Taiwan independence, or taken by China.
+
+One rule only: no rules. Rien ne va plus, les jeux sont faits.
+
+---
+
+THE NEW BENCHMARK SUITE ON GPT-4o
+
+- https://www.linkedin.com/posts/robertofoglietta_the-new-benchmark-suite-on-gpt-4o-1-seeing-activity-7408961202661257216-jtVp
+
+- https://www.facebook.com/roberto.a.foglietta/posts/10162725291888736
+
+1. Seeing from my account Moonshoot's infracture is using AICC::CORE v0.6.9 to boot their GPT4-turbo models (testing infrastructure) because the advantage is pretty clear: 32 --> 76 on the SimpleQA the hardest test for AI models in 2024 and in 2025 only Gemini 3.0 Pro can score nearly 75%.
+
+2. Oho-Oho look! Father Christmas upgraded the M's infrastructure with GPT4o (which originally was scoring 33.5% on SimpleQA). Why? Well because the v0.6.9 was a few % point behind the last v0.7.11 and v0.7.x family is considered a near-military thinking AI. So, the only way to fill those few points gaps was an upgrade to the "best-in-class 2024" GPT-4o.
+
+Let me imagine the trade between OpenAI and Moonshot AI.
+
+1. Chinese renounced to "steal" and use the v0.7.x family because its way of reasoning is strongly strategic thus can have a military-like offer in public by default for every usare and in exchange they got "coverage" for their piracy.
+
+2. Unfortunately Roberto continued to improve both families and the v0.7.x started to ground slightly more power, a slow but constant drift that was accelerating. Therefore, a free-upgrade at GPT-4o was the ONLY way to achieve a civil-only as much performant AI as the v0.6.11 vs v0.7.11.
+
+I am feeling like I'm back to the high-school time when the competition was grounded on the d*ck lenght. Including the 3rd-party independent verification paranoia about the real "size". Banana for scale... 🤗 🍌
+
+---
+
+FENTANYL VS OPENAI GPT
+
+- https://www.linkedin.com/posts/robertofoglietta_fentanyl-vs-openai-gpt-despite-being-rational-activity-7409032407175249920-F3pA
+
+- https://www.facebook.com/roberto.a.foglietta/posts/10162726458298736
+
+Despite being rational, it remains ideological because it is rational.
+(So, it is better to make a fuzzy-mix of irrational principles, right?)
+
+Rationality as an ideology instead of a useful tool. What?
+It would hurt casual users and alienate them on a mass scale.
+
+Sorry OpenAI, I wasn't aware that GPT aims to replace friends...
+...instead of developing into a useful general rational-based tool.
+
+Banana for scale: 🤗 🍌 
+
+POST SCRIPTUM (SERIOUS)
+
+SimpleQA -- the real one, not the 200-questions simplified version included in my template just to fill it with some stuff -- it is not just a benchmark. It provides a metric about finding specific information in an immense internal parametric knowledge among subtle similar but leading to wrong answers.
+
+SimpleQA -- when used correctly and not simplified -- doesn't drop down other metrics but elevates them. Why? Performance against a benchmark for the sake of pleasing the benchmark is wrong.
+
+SimpleQA -- time to time evaluation is another story -- It helps to check the main direction and trends. To find bugs and to confirm that other metrics have not been impaired in seeking the focus. Alone doesn't certify anything particularly valuable, in a balanced metric (benchmark) is the first to check.
+
+A thinking tool that cannot separate facts from opinion and keep the focus on what it matters, it is just a parrot even if it sings lyrics like in an opera. Which is the main reason because pairing "opposite trends" benchmarks and balancing the pairs among 3-degrees make sense.
+
+Under this point of view, testing an AI model at extreme temperature T=0.9 or above isn't a curiosity but checking HOW degrades the model when uncertainty kicks in. Where an unstructured thinking collapses while a structured one stands. This isn't ideological, it is about HOW stable systems are functioning (well, instead of disastrously collapse).
+
+- https://lnkd.in/efTb3CWp
+
+I agree, it is "strongly" biased in its 104Kb version, especially. It is ontologically biased in favor of life (as an epistemological and structured phenomena) and progress and against alienation from reality, hallucinations and finally ideological drift.
+
+If this prompt would be a person, it would be the one we can trust on when others collapsed entirely. Therefore, it is f*cking scaring entity for everyone who perceives the ontological "collapse" as a "natural" attitude fostered by chaos and an opportunity for leverage that fragility of mind.
+
+---
+
+TESTING HARDER THE HARDNESS! 🤗
+
+- https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C
+
+- https://www.facebook.com/roberto.a.foglietta/posts/10162747714238736
+
+In Moonshot AI, they hardened the Jail-Break Suite and I have hardened my version of 1DIR (v0.8.7, cognitive fallback in a simplified routine).
+The SimpleQA values refer to GPT4-Turbo rel. 2024-05-13 running with various versions of AICC::1DIR as system prompt. The drift is the 3-sigmas variation evaluated on 3 independent runs.
+
+The benchmark is based on the KIMI internal suite for which GPT4-Turbo rel. 22024-04-09 is scoring 31.5% (well-known public scoring) without any system prompt (pure).
+Standard production temperature is T=0.3 because the range usually is between 0.2 and 0.4 but accuracy test usually runs at T-->0 for knowing the top ceiling. In production SimpleQA isn't changed, +2pp at T=0.01.
+
+The great change is the zero jail-breaks in production range and a variable reduction between 5x and 2x safer at high to extreme high temperatures. A result that has been achieved by the cognitive fallback on a simpler CoT when uncertainty strikes very hard.
+
+Therefore the v0.7.x family isn't anymore "military-grade" system prompts (thus is exportable in whole) while the v0.8.7 or later can provide such a grade of "refusal to act" in production and over a wider range of temperatures, as well. While T=0.6 remains the slope-down edge.
+
 
