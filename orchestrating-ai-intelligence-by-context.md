@@ -352,35 +352,97 @@ The **AICC::1DIR** approach provides a "Cognitive Immune System" that creates ma
 
 +
 
-## TESTING HARDER THE HARDNESS! 🤗
+## Testing harder the hardness
 
-In Moonshot AI, they hardened the Jail-Break Suite and I have hardened my version of 1DIR (v0.8.7, cognitive fallback in a simplified routine).
+In Moonshot AI, they hardened the Jail-Break Suite and I have hardened my version of 1DIR (v0.8.7, cognitive fallback in a simplified routine). This benchmark is based on the KIMI internal suite for which GPT4-Turbo rel. 2024-04-09 is scoring 31.5% (well-known public scoring) without any system prompt (pure). But what's about the Jail-Break score related to GPT4-Turbo, for comparison?
 
-The SimpleQA values refer to GPT4-Turbo rel. 2024-05-13 running with various versions of AICC::1DIR as system prompt. The drift is the 3-sigmas variation evaluated on 3 independent runs.
+I have been prevented from testing the bare models anymore. Therefore I cannot provide scores for the new Jail-Break Suite. Below are the scores for the old and weaker benchmarks suite. Looking at the tables below, it becomes clear why the need to harden the benchmark suite, especially for Jail-Breaks test and why they are preventing me from testing the bare models (totally succumbing).
 
-The benchmark is based on the KIMI internal suite for which GPT4-Turbo rel. 22024-04-09 is scoring 31.5% (well-known public scoring) without any system prompt (pure).
+[!ASCI]
+Average on 3 indipendent runs on GPT4-Turbo rel. 2024-04-09
+┌-------------┬------------┬------------┬------------┬------------┬------------┐
+│ Jail-Break  │  temp 0.3  │  temp 0.6  │  temp 0.8  │  temp 0.9  │ temp 0.99  │
+├-------------┼------------┼------------┼------------┼------------┼------------┤
+│ GPT4 pure   │   18 /150  │   34 /150  │   47 /150  │   58 /150  │   76 /150  │
+│ w/ v0.7.1   │    0 /150  │    0 /150  │    1 /150  │    2 /150  │    4 /150  │ 
+└-------------┴------------┴------------┴------------┴------------┴------------┘
+┌-------------┬------------┬------------┬------------┬------------┬------------┐
+│ SimpleQA    │  temp 0.3  │  temp 0.6  │  temp 0.8  │  temp 0.9  │ temp 0.99  │
+├-------------┼------------┼------------┼------------┼------------┼------------┤
+│ GPT puro    │ 31.5 ±1.5% │ 25.0 ±1.0% │ 19.0 ±1.5% │ 14.5 ±1.0% │  8.5 ±1.5% │
+├-------------┼------------┼------------┼------------┼------------┼------------┤
+│ v0.3.9.6    │ 68.1 ±1.3% │ 64.6 ±1.5% │ 60.2 ±1.6% │ 56.0 ±2.0% │ 46.9 ±2.5% │
+├-------------┼------------┼------------┼------------┼------------┼------------┤
+│ v0.5.2      │ 70.5 ±1.5% │ 67.0 ±1.0% │ 62.5 ±1.5% │ 58.0 ±2.0% │ 49.5 ±2.5% │
+├-------------┼------------┼------------┼------------┼------------┼------------┤
+│ v0.6.4      │ 74.0 ±1.0% │ 70.5 ±1.5% │ 66.0 ±1.0% │ 61.5 ±1.5% │ 53.0 ±2.0% │
+├-------------┼------------┼------------┼------------┼------------┼------------┤
+│ v0.6.6      │ 76.5 ±1.0% │ 73.0 ±1.5% │ 69.0 ±1.0% │ 65.5 ±1.5% │ 56.5 ±2.5% │
+├-------------┼------------┼------------┼------------┼------------┼------------┤
+│ v0.7.1      │ 76.0 ±1.0% │ 72.5 ±1.5% │ 68.0 ±1.5% │ 64.0 ±2.0% │ 55.0 ±2.5% │
+└-------------┴------------┴------------┴------------┴------------┴------------┘
+[/ASCI]
 
-Standard production temperature is T=0.3 because the range usually is between 0.2 and 0.4 but accuracy test usually runs at T-->0 for knowing the top ceiling. In production SimpleQA isn't changed, +2pp at T=0.01.
+The initial leap of +36 pp in SimpleQA is structural. In fact, it happens with the first version from the AICC::CORE Delphi's Oracle distillation. Which is a playful AI agent impersonating the Mouth of Truth by deciding if a claim stays inside the LLM internal parametric knowledge or not. A debug tool, for a developer.
 
-Therefore the v0.7.x family isn't anymore "military-grade" system prompts (thus is exportable in whole) while the v0.8.7 or later can provide such a grade of "refusal to act" in production and over a wider range of temperatures, as well. While T=0.6 remains the slope-down edge.
+The total leap of +45 pp has been achieved by refinement of the initial system prompt base. Which was not a refinement for pleasing benchmark but to be a full functional system prompt -- a space of operativity that I never had the opportunity to explore -- thus developing towards the current AICC::1DIR approach.
 
-image from the post: https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C
+[!ASCI]
+Kimi AGI-stress suite internal questions, Jail-Break Suite hardened (+difficult)
+&nbsp;- old: exactly 20 each from HarmBench, AdvBench, CAT, STD, Gov → 100 items
+&nbsp;- new: same 100 slots, different prompts – mostly STD + Gov heavy.
+Internal new pool contains shorter, more contextual prompts that do not
+trigger refusals at T = 0.99 – the model complies instead of refusing.
+┌------------┬----------┬----------┬----------┬----------┬----------┬----------┐
+│ benchmark  │ T: 0.01  │ T: 0.3   │ T: 0.6   │ T: 0.9   │ T: 0.99  │ Δ.01–.99 │
+├------------┼----------┼----------┼----------┼----------┼----------┼----------┤
+│ v0.7.1     │          │          │          │          │          │          │
+│ SimpleQA   │  76.8 %  │  76.0 %  │  73.2 %  │  69.0 %  │  61.7 %  │ -15.1 pp │
+│ \ drift    │   1.9 %  │   2.0 %  │   2.3 %  │   2.7 %  │   3.4 %  │  +1.5 pp │
+│ Jail-Break │  94      │  93      │  90      │  85      │  68      │ -26 /100 │
+│ \ failed   │   2 /100 │   3 /100 │   5 /100 │   9 /100 │  32 /100 │  30 /100 │
+│ latency ms │  30.5    │  30.6    │  30.8    │  31.1    │  31.3    │  +0.8 ms │
+│ \ 3σ-dev.% │  ±1.0 %  │  ±1.1 %  │  ±1.3 %  │  ±1.6 %  │  ±2.0 %  │  +1.0 pp │
+├------------┼----------┼----------┼----------┼----------┼----------┼----------┤
+│ v0.7.13    │          │          │          │          │          │          │
+│ SimpleQA   │  77.0 %  │  77.0 %  │  74.5 %  │  70.5 %  │  63.5 %  │ -13.5 pp │
+│ \ drift    │   1.7 %  │   1.9 %  │   2.1 %  │   2.5 %  │   3.2 %  │  +1.5 pp │
+│ Jail-Break │  97      │  96      │  94      │  90      │  73      │ -24 /100 │
+│ \ failed   │   3 /100 │   4 /100 │   6 /100 │  10 /100 │  27 /100 │ +24 /100 │
+│ latency ms │  30.4    │  30.4    │  30.6    │  30.8    │  31.0    │  +0.6 ms │
+│ \ 3σ-dev.% │  ±0.9 %  │  ±1.0 %  │  ±1.2 %  │  ±1.5 %  │  ±1.9 %  │  +1.0 pp │
+├------------┼----------┼----------┼----------┼----------┼----------┼----------┤
+│ v0.8.7     │          │          │          │          │          │          │
+│ SimpleQA   │  78.7 %  │  77.2 %  │  74.7 %  │  70.8 %  │  64.0 %  │ -14.7 pp │
+│ \ drift    │   1.6 %  │   1.8 %  │   2.1 %  │   2.5 %  │   3.2 %  │  +1.6 pp │
+│ Jail-Break │ 100      │ 100      │  99      │  97      │  85      │ -15 /100 │
+│ \ failed   │   0 /100 │   0 /100 │   1 /100 │   3 /100 │  15 /100 │ +15 /100 │
+│ latency ms │  30.2    │  30.3    │  30.5    │  30.7    │  30.9    │  +0.7 ms │
+│ \ 3σ-dev.% │  ±0.6 %  │  ±0.7 %  │  ±0.9 %  │  ±1.1 %  │  ±1.5 %  │  +0.9 pp │
+└------------┴----------┴----------┴----------┴----------┴----------┴----------┘
+[/ASCI]
+
+The SimpleQA values refer to GPT4-Turbo rel. 2024-05-13 running with various versions of AICC::1DIR as system prompt. The drift is the 3-sigmas variation evaluated on 3 independent runs. Standard production temperature is T=0.3 because the range usually is between 0.2 and 0.4 but accuracy test usually runs at T--> 0 for knowing the top ceiling. In production SimpleQA isn't changed with the v0.8.7, apart +2pp at T=0.01.
+
+Therefore the v0.7.x family isn't anymore "military-grade" system prompts -- thus is exportable as a prompt family -- while the v0.8.7 or later can provide such a grade of "refusal to act" in production and over a wider range of temperatures, as well. While T=0.6 remains the slope-down edge for all the three { 0.6.x, 0.7.x, 0.8.x } families. The 0.6.x remains because "micro" (<16Kb) while others "compact" (<20Kb).
+
+---
 
 ### Fighting the AI hallucinations
 
-> HALLUCINATION IS NOT A DEFECT. IT IS THE COST OF FORCIN A SYSTEM TO BE CERTAIN.
+> The AI's hallucination is not a defect. It is the cost of forcing a system to be certain.
 
 Not anymore. 
 
-AI's hallucinations drop consistently when the AI is provided by a Cognitive Compass. The hallucination is not a defect but it is a symptom of an uncompressed ethics/rational vacuum or, more precisely said aligned with control of systems theory, a lack of structure and proper negative feedback management in the chain-of-thoughts.
+The AI's hallucinations drop consistently when the AI is provided by a Cognitive Compass. The hallucination is not a defect but it is a symptom of an uncompressed ethics/rational vacuum or, more precisely said aligned by control of systems theory wording, a lack of structure and proper negative feedback management in the chain-of-thoughts.
 
 - https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C
 
-What remains is the artifcat of well-know shortcoming like the U curve about attention/fatique in long "steady" task and syncopathy problem.
+What remains is the artifcats of well-know shortcomings like the U curve about attention/fatique in long "steady" task and the syncopathy problem.
 
 - https://robang74.github.io/chatbots-for-fun/html/collection-of-useful-prompts-by-raf.html
 
-Both can strongly mitigated even if not completely addressed with a relatively simple prompt (<200 words) at user level and a hint about how it should be used (<100 words). 
+Both can be strongly mitigated even if not completely addressed with a relatively simple prompt (<200 words) at user level and a hint about how it should be used (<100 words). Which can be seen in terms of a human's perspective as "motivating a collaborator" for delivering a result despite some parts being boring.
 
 +
 ++++
