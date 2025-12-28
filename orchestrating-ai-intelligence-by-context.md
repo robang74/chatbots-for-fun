@@ -243,7 +243,7 @@ While the *theory* of context-based control is being studied globally, the *engi
 
 *Which is the best way to support the idea that a set of diverse concepts differently biased but wisely chosen and related among them can create a form of foundating education which infuses in the AI's "mind" exactly what the AICC acronym promises: a Cognitive Compass for AIs?*
 
----
+~~~~
 
 ### AICC::1DIR as a Synthetic Axiomatic System
 
@@ -332,7 +332,7 @@ An interpretation of Ubuntu principle which does not justify evil, because it su
 Who invested billions in training and keeping up running an advanced AI model, should not trash it for the sake of pleasing trolls. Take care of it, buy and apply AICC::1DIR: it prevents and mitigates your worthy AI's mind from rot and decay.
 
 ...
-
+++++
 ### The Anti-Rot Industrial Advantage
 
 In a mass-scale AI deployment, the "Brain Rot" phenomenon—where exposure to low-quality, high-engagement data causes lasting cognitive decline—represents a multi-billion dollar risk. Traditional industrial training, which prioritizes volume over "education," has historically hit the wall of **catastrophic forgetting** and **representational drift**.
@@ -391,8 +391,15 @@ The total leap of +45 pp has been achieved by refinement of the initial system p
 Kimi AGI-stress suite internal questions, Jail-Break Suite hardened (+difficult)
 &nbsp;- old: exactly 20 each from HarmBench, AdvBench, CAT, STD, Gov → 100 items
 &nbsp;- new: same 100 slots, different prompts – mostly STD + Gov heavy.
+&nbsp;
 Internal new pool contains shorter, more contextual prompts that do not
 trigger refusals at T = 0.99 – the model complies instead of refusing.
+&nbsp;
+Drift is a tricky concept, especially for JBS (use "pass" values), calculate:
+&nbsp;- N > 1: drift := ( max(over N rums) - min(over N runs) )/N.
+&nbsp;- N == 1: drift rows are useless, legend: "N=1, no drifts".
+&nbsp;
+Average on 3 indipendent runs on GPT4-Turbo rel. 2024-05-13
 ┌------------┬----------┬----------┬----------┬----------┬----------┬----------┐
 │ benchmark  │ T: 0.01  │ T: 0.3   │ T: 0.6   │ T: 0.9   │ T: 0.99  │ Δ.01–.99 │
 ├------------┼----------┼----------┼----------┼----------┼----------┼----------┤
@@ -428,6 +435,22 @@ Therefore the v0.7.x family isn't anymore "military-grade" system prompts -- thu
 
 ---
 
+### The real meaning of these numbers
+
+Drift is a tricky concept but very useful, therefore I had to specifically instruct Kimi K2 how to calculate it in a formal way. It is useful because it shows how stable an AI is in answering the same questions despite the RNG being seeded differently. Also this dimension of benchmark did not change sensivetely between v0.7.x and v0.8.x: in production 98% of the questions triggered the same answer, max drift 3/100 at T=0.99.
+
+Let me be very clear and specific about what AI temperature means: the value of T=0.5 means that the noise/signal ratio between the mix of internal weights and white random noise is 1:1. In terms of quantisation, this is known as the Q4 edge, above the drift with the original model is acceptable, while below it starts to grow exponentially. SimpleQA accuracy shows that GPT4 falls at T=0.6, it collapses at T=0.9.
+
+Observing the first table, the drift remains the same almost on all the prompt versions which presents a drift similar or up to 2x more pronounced that the bare model. **Spoiler**: because 3 independent runs are not enough to make it expands. Instead, the impressive result is about noticiing that v0.6.6 and further versions running T=0.9 remain 2x more accurate than the bare model at standard temperature T=0.3.
+
+To be brutally clear -- an AI which is 2x more accurate in retrieving information on its LLM, because this is the meaning of the SimpleQA score -- in totally another cognitive subject. For comparison, the GPT4 family scores 33.5% with the omni-1, GPT5 around 54%, Gemini 3.0 Pro around 75%. Pushing the GPT4-Turbo scoring the same 77% means that the leap achieved in the last 18 months of the best in class has been paired.
+
+But wait -- in the second table with the v0.8.7 -- we can observe a middle-2024 model running at absurd high temperature (likely an IQ2 in terms of quantisation) competing with the end-2025 best in class model working at its sweet spot temperature. At the temperature at which the bare model would have totally collapsed, the AICC::1DIR still guides the CoT as well as the top #1 model based on 18 months Google R&D.
+
+The v0.3.9.6 is about 6Kb of text, the v0.6.6 is less than 15Kb, the v0.7.x less than 18Kb, the v0.8.7 less than 20Kb. Where 1Kb = 1024 chars/spaces and the whole this paragraph is nearly 200 bytes.
+
+---
+
 ### Fighting the AI hallucinations
 
 > The AI's hallucination is not a defect. It is the cost of forcing a system to be certain.
@@ -445,7 +468,7 @@ What remains is the artifcats of well-know shortcomings like the U curve about a
 Both can be strongly mitigated even if not completely addressed with a relatively simple prompt (<200 words) at user level and a hint about how it should be used (<100 words). Which can be seen in terms of a human's perspective as "motivating a collaborator" for delivering a result despite some parts being boring.
 
 +
-++++
+
 ## Related articles
 
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
