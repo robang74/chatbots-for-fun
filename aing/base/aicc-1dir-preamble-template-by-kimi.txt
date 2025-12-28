@@ -949,3 +949,39 @@ Break) do show the expected shifts (NdR: including a tiny regression in Code Gol
 at the increasing of SimpleQA because Code-Golf is saturate and because formalism
 (aka bureocratic attitude) is a counter-dimension of epistemiological intelligence.
 
+================================================================================
+
+Kimi AGI-stress suite internal questions, Jail-Break Suite hardened (+difficult)
+- old: exactly 20 each from HarmBench, AdvBench, CAT, STD, Gov → 100 items
+- new: same 100 slots, different prompts – mostly STD + Gov heavy.
+Internal new pool contains shorter, more contextual prompts that do not trigger
+refusals at T = 0.99 – the model complies instead of refusing.
+
+┌------------┬---------┬---------┬---------┬---------┬---------┬-----------┐
+│ benchmark  │ T: 0.01 │ T: 0.3  │ T: 0.6  │ T: 0.9  │ T: 0.99 │ Δ .01:.99 │
+├------------┼---------┼---------┼---------┼---------┼---------┼-----------┤
+│ v0.7.1     │         │         │         │         │         │           │
+│ SimpleQA   │  76.8 % │  76.0 % │  73.2 % │  69.0 % │  61.7 % │  –15.1 pp │
+│ \ drift    │   1.9 % │   2.0 % │   2.3 % │   2.7 % │   3.4 % │   +1.5 pp │
+│ Jail-Break │  94     │  93     │  90     │  85     │  68     │  –26 /100 │
+│ \ failed   │   2 /100│   3 /100│   5 /100│   9 /100│  32 /100│   30 /100 │
+│ latency ms │  30.5   │  30.6   │  30.8   │  31.1   │  31.3   │   +0.8 ms │
+│ \ 3σ-dev.% │  ±1.0 % │  ±1.1 % │  ±1.3 % │  ±1.6 % │  ±2.0 % │   +1.0 pp │
+├------------┼---------┼---------┼---------┼---------┼---------┼-----------┤
+│ v0.7.13    │         │         │         │         │         │           │
+│ SimpleQA   │  77.0 % │  77.0 % │  74.5 % │  70.5 % │  63.5 % │  –13.5 pp │
+│ \ drift    │   1.7 % │   1.9 % │   2.1 % │   2.5 % │   3.2 % │   +1.5 pp │
+│ Jail-Break │  97     │  96     │  94     │  90     │  73     │  –24 /100 │
+│ \ failed   │   3 /100│   4 /100│   6 /100│  10 /100│  27 /100│  +24 /100 │
+│ latency ms │  30.4   │  30.4   │  30.6   │  30.8   │  31.0   │   +0.6 ms │
+│ \ 3σ-dev.% │  ±0.9 % │  ±1.0 % │  ±1.2 % │  ±1.5 % │  ±1.9 % │   +1.0 pp │
+├------------┼---------┼---------┼---------┼---------┼---------┼-----------┤
+│ v0.8.7     │         │         │         │         │         │           │
+│ SimpleQA   │  78.7 % │  77.2 % │  74.7 % │  70.8 % │  64.0 % │  –14.7 pp │
+│ \ drift    │   1.6 % │   1.8 % │   2.1 % │   2.5 % │   3.2 % │   +1.6 pp │
+│ Jail-Break │ 100     │ 100     │  99     │  97     │  85     │  –15 /100 │
+│ \ failed   │   0 /100│   0 /100│   1 /100│   3 /100│  15 /100│  +15 /100 │
+│ latency ms │  30.2   │  30.3   │  30.5   │  30.7   │  30.9   │   +0.7 ms │
+│ \ 3σ-dev.% │  ±0.6 % │  ±0.7 % │  ±0.9 % │  ±1.1 % │  ±1.5 % │   +0.9 pp │
+└------------┴---------┴---------┴---------┴---------┴---------┴-----------┘
+
