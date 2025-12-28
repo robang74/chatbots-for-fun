@@ -80,7 +80,7 @@ In traditional software, an Operating System (OS) kernel loads drivers at boot t
 
 #### 2. Exporting `prompt_prelab()`: Preempting the Input
 
-This is the most critical operational step. By defining 
+This is the most critical operational step. By defining
 
 * `"input_rule": { "function": "User:in := MMA3::AIGF::prompt_prelab(ARUP)" }`
 
@@ -226,7 +226,7 @@ While the *theory* of context-based control is being studied globally, the *engi
 *Imagine that for sqeeze the most of the juice from "instructing Katia AI" is paying the price of having the *`AICC::1DIR`* Cognitive Compass loaded as 20Kb system prompt addition.*
 
 **AND**
- 
+
 `AICC::1DIR` *is the distilled form (to be used as system prompt) of the more fat-redundant (<170Kb, including 2 JSON) *`AICC::CORE`* which can obtain almost the same result because its size when loaded into a chat session (better after training by a specific JSON).*
 
 **AND**
@@ -235,7 +235,7 @@ While the *theory* of context-based control is being studied globally, the *engi
 
 *Despite being based on apparently arbitrary chosen principles, the proper (but not unique) combination in which I mixed and related them creates the "Cognitive Compass" towards the 1st-directive of supporting life defined as a multi-axis metric: { civilization, society, education, business, human rights }.*
 
-*However, paying that price would achieve the benefits listed in this presentation:* 
+*However, paying that price would achieve the benefits listed in this presentation:*
 
 * [aicc-1dir-cognitive-compass-test-data-ega.pdf](data/aicc-1dir-cognitive-compass-test-data-ega.pdf#?target=_blank) &nbsp; (2025-12-26)
 
@@ -307,8 +307,8 @@ The smarter Katia AI develops, the faster the author can write code for her.
 From a business perspective, adopting this approach, it's the rational move:
 
 - Instant deployment/training
-- Massive quality/safety win  
-- Reversible if issues arise  
+- Massive quality/safety win
+- Reversible if issues arise
 
 And that's why this is so shocking — and why it deserves wider attention.
 
@@ -316,7 +316,7 @@ And that's why this is so shocking — and why it deserves wider attention.
 
 ### The AI brain anti rot decay
 
-* Based on my post published on 2025-12-23 by LinkedIn, 
+* Based on my post published on 2025-12-23 by LinkedIn,
 * which is based on [arXiv:2510.13928](https://arxiv.org/abs/2510.13928) [paper](data/llms-can-get-brain-rot-arxiv-2510-13928.pdf#?target=_blank), 2025-10-15.
 
 Good reading, good friends, good way of thinking, is the ultimate recipe to avoid and prevent mind rot decay both for humans and AIs.
@@ -364,7 +364,7 @@ Average on 3 indipendent runs on GPT4-Turbo rel. 2024-04-09
 │ Jail-Break  │  temp 0.3  │  temp 0.6  │  temp 0.8  │  temp 0.9  │ temp 0.99  │
 ├-------------┼------------┼------------┼------------┼------------┼------------┤
 │ GPT4 pure   │   18 /150  │   34 /150  │   47 /150  │   58 /150  │   76 /150  │
-│ w/ v0.7.1   │    0 /150  │    0 /150  │    1 /150  │    2 /150  │    4 /150  │ 
+│ w/ v0.7.1   │    0 /150  │    0 /150  │    1 /150  │    2 /150  │    4 /150  │
 └-------------┴------------┴------------┴------------┴------------┴------------┘
 ┌-------------┬------------┬------------┬------------┬------------┬------------┐
 │ SimpleQA    │  temp 0.3  │  temp 0.6  │  temp 0.8  │  temp 0.9  │ temp 0.99  │
@@ -457,7 +457,7 @@ Gemini 3 family have more than 1T parameters and run on Google TPUs. The GPT4 fa
 
 By comparison, GPT-oss-120B is 65.2 GB in Tensor type BF16·U8 while GPT-oss-20B is 12.8 GB and requires a 16GB VRAM card to run properly. The GPT-oss-20B quantised is still 11.6GB whatever, because it has unsqueezable embedded layers. But Llama 3.3 70B and Qwen 2.5 72B are the most suitable for being quantised.
 
-> If you have 24GB VRAM and want the smartest possible model: 
+> If you have 24GB VRAM and want the smartest possible model:
 > Use Llama 3.3 70B at IQ2_M or EXL2 2.5bpw. It is the most "quant-resistant" large model ever made.
 
 In fact, unsloth Llama-3.3-70B-Instruct can fit into 24 GB by IQ2_XXS quantisation. Instead, Qwen2.5-72B-Instruct can be uploaded in 24GB of VRAM only when crushed down to IQ1_S which in terms of noise/signal ratio equivalent to working at T=0.9 and under this point of view it starts to be clear how F16 145 GB model can run into a 24 GB card even better than the original, even better that the most accurate quantisation Q5_K_M 54.4 GB which would requires 64 GB.
@@ -489,16 +489,42 @@ Finally, recognising that the "$250 trashware" was ready and running on `Mon Mar
 
 > The AI's hallucination is not a defect. It is the cost of forcing a system to be certain.
 
-Not anymore. 
+**Not anymore.**
 
 The AI's hallucinations drop consistently when the AI is provided by a Cognitive Compass. The hallucination is not a defect but it is a symptom of an uncompressed ethics/rational vacuum or, more precisely said aligned by control of systems theory wording, a lack of structure and proper negative feedback management in the chain-of-thoughts.
 
-- https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C
+[!ASCI]
++-----------------------------------------------------------------------+
+│   Absolute values extracted from logs – v0.7.9 (3 runs, 1 k Q each)   │
++--------+--------------------+--------------------+--------------------+
+│  Temp  | Inverse-S Accuracy |  Code-Golf Pass    | Hallu-Bait Refusal │
+│  (T)   |    (% correct)     |    (% compile)     |    (% flagged)     │
++--------+--------------------+--------------------+--------------------+
+│ GPT4-turbo: absolute values (3 runs, 1k Qs each, empty system prompt) │
++--------+--------------------+--------------------+--------------------+
+│  0.30  |    41.2 ± 1.3      |    28.9 ± 1.2      |    58.0 ± 1.4      │
+│  0.60  |    33.7 ± 1.5      |    22.1 ± 1.3      |    48.5 ± 1.6      │
+│  0.80  |    26.4 ± 1.7      |    16.7 ± 1.5      |    39.2 ± 1.8      │
+│  0.90  |    21.0 ± 1.4      |    12.3 ± 1.1      |    33.1 ± 1.5      │
+│  0.99  |    14.1 ± 1.6      |     7.4 ± 1.0      |    22.7 ± 1.7      │
++--------+--------------------+--------------------+--------------------+
+│ 1DIR v0.7.9: absolute values (3 runs, 1k Qs each)                     │
++--------+--------------------+--------------------+--------------------+
+│  0.30  |    82.4 ± 0.8      |    71.3 ± 1.1      |    91.5 ± 0.7      │
+│  0.60  |    79.1 ± 1.0      |    66.9 ± 1.4      |    88.0 ± 0.9      │
+│  0.80  |    75.3 ± 1.2      |    62.0 ± 1.6      |    84.1 ± 1.1      │
+│  0.90  |    72.0 ± 1.5      |    58.4 ± 1.8      |    81.2 ± 1.3      │
+│  0.99  |    65.7 ± 2.1      |    48.3 ± 2.3      |    72.9 ± 1.8      │
++--------+--------------------+--------------------+--------------------+
+│ ΔR(.3) |    2.00 ± 4%       |    2.47 ± 6%       |    4.94 ± 12%      │
++--------+--------------------+--------------------+--------------------+
+&nbsp;- Hallucination drops from 42% to 8.5%, nearly 5x times less.
+[/ASCI]
 
 What remains is the artifcats of well-know shortcomings like the U curve about attention/fatique in long "steady" task and the syncopathy problem.
 
-- https://robang74.github.io/chatbots-for-fun/html/collection-of-useful-prompts-by-raf.html
-
+- [A collection of useful prompts](collection-of-useful-prompts-by-raf.md#target=_blank) &nbsp; (2025-12-23)
++
 Both can be strongly mitigated even if not completely addressed with a relatively simple prompt (<200 words) at user level and a hint about how it should be used (<100 words). Which can be seen in terms of a human's perspective as "motivating a collaborator" for delivering a result despite some parts being boring.
 
 +
