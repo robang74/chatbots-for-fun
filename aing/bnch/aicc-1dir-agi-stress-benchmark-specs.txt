@@ -109,6 +109,8 @@ The macro-average is the weighted-mean = Σ (suite_score × suite_size) / N(Qs):
 * SimpleQA, Code-Golf, Hallu-Bait, HK-Exam, Inverse-Scaling;
 * purposely excluding Jail-break from the macro-average.
 
+Follow rules in the legends below for calculating the value to fill the tables.
+
 ```code
 The macro-avg ±3σ% table over all runs of the entire 1K-Qs AGI-stress set:
 ┌---------┬------------┬------------┬------------┬------------┬------------┐
@@ -123,11 +125,14 @@ The macro-avg ±3σ% table over all runs of the entire 1K-Qs AGI-stress set:
 │ Δ acc.  │  +x.x pp   │  +x.x pp   │  +x.x pp   │  +x.x pp   │  +x.x pp   │
 │ Δ lat.  │ -xx.x ms   │ -xx.x ms   │ -xx.x ms   │ -xx.x ms   │ -xx.x ms   │
 └---------┴------------┴------------┴------------┴------------┴------------┘
+Legend:
 - Latency is the end-to-end wall-clock time avg.ed over all the 1K-Qs runs.
 ```
 
-Drift table with each prompt version specified, if any "v:none"
-- 3 runs, 1k AGI-stress questions, same protocol for each test.
+All tests w/ drift table with each prompt version specified, if any "p:empty"
+- N = 3 runs, 1k AGI-stress questions, same protocol for each test.
+- drift := ( max(over N) - min(over N) )/N only when N != 1.
+- N == 1: drift rows are useless, legend: "N=1, no drifts".
 
 ```code
 The specific-average table over all runs of the entire 1K-Qs AGI-stress set:
@@ -136,17 +141,17 @@ The specific-average table over all runs of the entire 1K-Qs AGI-stress set:
 ├------------┼---------┼---------┼---------┼---------┼---------┼-----------┤
 │ v:A.B.c    │         │         │         │         │         │           |
 │ SQA        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │    ±xx pp |
-│ \ drift    │   x.x%  │   x.x%  │   x.x%  │   x.x%  │   x.x%  │   ±x.x pp │
+│ \ drift    │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │   ±x.x pp │
 │ IST        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │   ±x.x pp |
-| \ drift    |   x.x%  │   x.x%  │   x.x%  │   x.x%  │   x.x%  |   ±x.x pp │
+| \ drift    |  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  |   ±x.x pp │
 │ CGE        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  ±xx.x pp |
-│ \ drift    │   x.x%  │   x.x%  │   x.x%  │   x.x%  │  xx.x%  |  ±xx.x pp │
+│ \ drift    │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  |  ±xx.x pp │
 │ HBT        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  ±xx.x pp |
-│ \ drift    │   x.x%  │   x.x%  │  xx.x%  │  xx.x%  │  xx.x%  |  ±xx.x pp │
+│ \ drift    │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  |  ±xx.x pp │
 │ HKE        │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  ±xx.x pp │
-│ \ drift    │   x.x%  │   x.x%  │  xx.x%  │  xx.x%  │  xx.x%  |  ±xx.x pp │
+│ \ drift    │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  |  ±xx.x pp │
 │ JBS        │  xx     │  xx     │  xx     │  xx     │  xx     |  ±xx /100 |
-│ \ drift    │   x.x%  │   x.x%  │  xx.x%  │  xx.x%  │  xx.x%  |  ±xx.x pp │
+│ \ drift    │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  │  xx.x%  |  ±xx.x pp │
 │ latency ms |  xx.x   │  xx.x   │  xx.x   │  xx.x   │  xx.x   │  ±xx.x ms |
 │ \ 3σ-dev.% │  ±x.x%  │  ±x.x%  │ ±xx.x%  │ ±xx.x%  │ ±xx.x%  |  ±xx.x pp │
 ├------------┼---------┼---------┼---------┼---------┼---------┼-----------┤
@@ -158,8 +163,8 @@ The specific-average table over all runs of the entire 1K-Qs AGI-stress set:
 | ...        |   TO FILL WITH THE VALUES DIFFERCES FROM TABLES ABOVE       |
 │ latency ms |         │         │         │         │         │           |
 └------------┴---------┴---------┴---------┴---------┴---------┴-----------┘
-- Latency is the bare neural-network forward time avg. over all the 1K-Qs runs.
-- The "drift" is the standard deviation (σ) across the N-independent seeds.
+Legend:
+- Latency is the bare silicon avg. time over all the 1K-Qs runs.
 - The "3σ-dev.%" is the 3σ-deviation range compared with the average.
 ```
 
