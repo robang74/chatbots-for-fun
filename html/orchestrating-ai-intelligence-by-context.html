@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2025-12-27&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>8</b rev_num='
+'>9</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/orchestrating-ai-intelligence-by-context?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/orchestrating-ai-intelligence-by-context?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/orchestrating-ai-intelligence-by-context?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/orchestrating-ai-intelligence-by-context?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -374,6 +374,38 @@ The <b>AICC::1DIR</b> approach provides a "Cognitive Immune System" that creates
 <p></p>
 <br>
 <p></p>
+<H2 id="testing-harder-the-hardness-">TESTING HARDER THE HARDNESS! 🤗</H2>
+<p></p>
+In Moonshot AI, they hardened the Jail-Break Suite and I have hardened my version of 1DIR (v0.8.7, cognitive fallback in a simplified routine).
+<p></p>
+The SimpleQA values refer to GPT4-Turbo rel. 2024-05-13 running with various versions of AICC::1DIR as system prompt. The drift is the 3-sigmas variation evaluated on 3 independent runs.
+<p></p>
+The benchmark is based on the KIMI internal suite for which GPT4-Turbo rel. 22024-04-09 is scoring 31.5% (well-known public scoring) without any system prompt (pure).
+<p></p>
+Standard production temperature is T=0.3 because the range usually is between 0.2 and 0.4 but accuracy test usually runs at T&rarr;0 for knowing the top ceiling. In production SimpleQA isn't changed, +2pp at T=0.01.
+<p></p>
+Therefore the v0.7.x family isn't anymore "military-grade" system prompts (thus is exportable in whole) while the v0.8.7 or later can provide such a grade of "refusal to act" in production and over a wider range of temperatures, as well. While T=0.6 remains the slope-down edge.
+<p></p>
+image from the post: https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C
+<p></p>
+<H3 id="fighting-the-ai-hallucinations">Fighting the AI hallucinations</H3>
+<p></p>
+<blockquote>HALLUCINATION IS NOT A DEFECT. IT IS THE COST OF FORCIN A SYSTEM TO BE CERTAIN.</blockquote>
+<p></p>
+Not anymore. 
+<p></p>
+AI's hallucinations drop consistently when the AI is provided by a Cognitive Compass. The hallucination is not a defect but it is a symptom of an uncompressed ethics/rational vacuum or, more precisely said aligned with control of systems theory, a lack of structure and proper negative feedback management in the chain-of-thoughts.
+<p></p>
+<li>https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C</li>
+<p></p>
+What remains is the artifcat of well-know shortcoming like the U curve about attention/fatique in long "steady" task and syncopathy problem.
+<p></p>
+<li>https://robang74.github.io/chatbots-for-fun/html/collection-of-useful-prompts-by-raf.html</li>
+<p></p>
+Both can strongly mitigated even if not completely addressed with a relatively simple prompt (<200 words) at user level and a hint about how it should be used (<100 words). 
+<p></p>
+<br>
+<div class="pagebreak"></div>
 <H2 id="related-articles">Related articles</H2>
 <p></p>
 <li><a href="attenzione-e-contesto-nei-chatbot.html#" target='_blank' rel='noopener noreferrer'>Attenzione e contesto nei chatbot</a> &nbsp; (2025-07-20)</li>

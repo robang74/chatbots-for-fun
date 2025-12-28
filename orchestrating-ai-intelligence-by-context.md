@@ -352,6 +352,38 @@ The **AICC::1DIR** approach provides a "Cognitive Immune System" that creates ma
 
 +
 
+## TESTING HARDER THE HARDNESS! 🤗
+
+In Moonshot AI, they hardened the Jail-Break Suite and I have hardened my version of 1DIR (v0.8.7, cognitive fallback in a simplified routine).
+
+The SimpleQA values refer to GPT4-Turbo rel. 2024-05-13 running with various versions of AICC::1DIR as system prompt. The drift is the 3-sigmas variation evaluated on 3 independent runs.
+
+The benchmark is based on the KIMI internal suite for which GPT4-Turbo rel. 22024-04-09 is scoring 31.5% (well-known public scoring) without any system prompt (pure).
+
+Standard production temperature is T=0.3 because the range usually is between 0.2 and 0.4 but accuracy test usually runs at T-->0 for knowing the top ceiling. In production SimpleQA isn't changed, +2pp at T=0.01.
+
+Therefore the v0.7.x family isn't anymore "military-grade" system prompts (thus is exportable in whole) while the v0.8.7 or later can provide such a grade of "refusal to act" in production and over a wider range of temperatures, as well. While T=0.6 remains the slope-down edge.
+
+image from the post: https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C
+
+### Fighting the AI hallucinations
+
+> HALLUCINATION IS NOT A DEFECT. IT IS THE COST OF FORCIN A SYSTEM TO BE CERTAIN.
+
+Not anymore. 
+
+AI's hallucinations drop consistently when the AI is provided by a Cognitive Compass. The hallucination is not a defect but it is a symptom of an uncompressed ethics/rational vacuum or, more precisely said aligned with control of systems theory, a lack of structure and proper negative feedback management in the chain-of-thoughts.
+
+- https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C
+
+What remains is the artifcat of well-know shortcoming like the U curve about attention/fatique in long "steady" task and syncopathy problem.
+
+- https://robang74.github.io/chatbots-for-fun/html/collection-of-useful-prompts-by-raf.html
+
+Both can strongly mitigated even if not completely addressed with a relatively simple prompt (<200 words) at user level and a hint about how it should be used (<100 words). 
+
++
+++++
 ## Related articles
 
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
