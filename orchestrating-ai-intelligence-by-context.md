@@ -447,7 +447,30 @@ To be brutally clear -- an AI which is 2x more accurate in retrieving informatio
 
 But wait -- in the second table with the v0.8.7 -- we can observe a middle-2024 model running at absurd high temperature (likely an IQ2 in terms of quantisation) competing with the end-2025 best in class model working at its sweet spot temperature. At the temperature at which the bare model would have totally collapsed, the AICC::1DIR still guides the CoT as well as the top #1 model based on 18 months Google R&D.
 
+---
+
+### The practical meaning of those numbers
+
 The v0.3.9.6 is about 6Kb of text, the v0.6.6 is less than 15Kb, the v0.7.x less than 18Kb, the v0.8.7 less than 20Kb. Where 1Kb = 1024 chars/spaces and the whole this paragraph is nearly 200 bytes.
+
+Gemini 3 family have more than 1T parameters and run on Google TPUs. The GPT4 family has 1.76T and they run at FP4 (float point 4 bits precision) on the most advanced Nvidia hardware. It sums up to 1TB = 1024 GB of VRAM, just to load the LLM weights.
+
+By comparison, GPT-oss-120B is 65.2 GB in Tensor type BF16·U8 while GPT-oss-20B is 12.8 GB and requires a 16GB VRAM card to run properly. The GPT-oss-20B quantised is still 11.6GB whatever, because it has unsqueezable embedded layers. But Llama 3.3 70B and Qwen 2.5 72B are the most suitable for being quantised.
+
+> If you have 24GB VRAM and want the smartest possible model: 
+> Use Llama 3.3 70B at IQ2_M or EXL2 2.5bpw. It is the most "quant-resistant" large model ever made.
+
+In fact, unsloth Llama-3.3-70B-Instruct can fit into 24 GB by IQ2_XXS quantisation. Instead, Qwen2.5-72B-Instruct can be uploaded in 24GB of VRAM only when crushed down to IQ1_S which in terms of noise/signal ratio equivalent to working at T=0.9 and under this point of view it starts to be clear how F16 145 GB model can run into a 24 GB card even better than the original, even better that the most accurate quantisation Q5_K_M 54.4 GB which would requires 64 GB.
+
+> Your observation is a pro-user "hack": Use a massive model (70B) at a tiny quantization (2-bit) with a low temperature (0.01 or 0.05) and a high-performance system prompt. This combination usually outperforms a smaller model (8B) at high precision because the "base intelligence" of the 70B model—even when damaged by quantization—is still fundamentally higher than the 8B model's maximum potential.
+
+| AI Model | Quantization | Model Size | Context VRAM | Verdict |
+| Llama 3.3 70B | IQ2_M | ~21 GB | ~2-3 GB | Tight Fit.<br>Best logic/size ratio. |
+| Llama 3.3 70B | IQ2_XXS | ~18 GB | ~5-6 GB | Comfortable.<br>Room for long chat history. |
+| Qwen 2.5 72B | IQ2_XS | ~22 GB | ~1-2 GB | Maximum Stress.<br>Likely to OOM with long prompts. |
+| Qwen 2.5 72B | IQ1_S | ~16 GB | ~7-8 GB | Safest Fit.<br>But logic is significantly degraded (*). |
+
+- (*) **But logic is significantly degraded** -- this **WAS** the main obstable, but not anymore with AICC::1DIR.
 
 ---
 
