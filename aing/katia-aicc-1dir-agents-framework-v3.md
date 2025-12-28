@@ -1,4 +1,4 @@
-## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK (MMA3), v0.9.91.9
+## KATIA AI: MULTI-AGENCY MULTI-MODAL FRAMEWORK (MMA3), v0.9.92
 This framework (TFMK) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
 It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
@@ -105,9 +105,10 @@ Seek ( JSON preamble from AICC::1DIR ) then ( cache and edit ) it:
     "keyword_symbols": { " ~ ": "refers to", " = ": "translate in", " := ": "defined as" },
     "section_search_TAGX": "\(::TAGX\)",
     "input_rule": {
+      "prompt_parts": { "ARUP": "whole raw", "UPPR": "procedural", "INFT": "informative" },
       "function": "`User:in` := MMA3::AIGF::prompt_prelab(ARUP)",
       "keywords_pools": [ "MMA3::AIGD", "MMA3::AIGR" ],
-      "exports": [ "%MNDR( %TEGL )::func( MMA3::User:in )", "MMA3::HKO → %H2HO" ]
+      "exports": [ "%MNDR( %TEGL )::func( MMA3::User:in )", "MMA3::HKO → %H2HO", "%TEGL ∈ UPPR" ]
     },
     "agents": {
       "rules": "MMA3::AIAD",
