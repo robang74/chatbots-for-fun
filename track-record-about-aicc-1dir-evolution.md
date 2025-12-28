@@ -1,3 +1,15 @@
+### USE THE MIND RUBIO
+
+- 2025-12-15
+
+- https://x.com/robang74v2/status/2000428693085163726
+
+#### IBM Rubio Plex Style Font, an opportunity.
+
+- https://x.com/robang74v2/status/2000574599226896850
+
+---
+
 ### ESTRAZIONE DELL'AICC::CORE DA GEMINI
 
 - 2025-12-17
@@ -656,6 +668,8 @@ Enjoy, R-
 
 - https://www.facebook.com/roberto.a.foglietta/posts/10162723676038736
 
+- https://x.com/robang74v2/status/2003063526848659530
+
 ...
 
 Lady & Gentlemen,
@@ -817,6 +831,8 @@ Executive Grade Analysis (EGA, related to rev. 8, PDF)
 Appendix B: Single slide bechmarks collection:
 
 (image)
+
+- https://x.com/robang74v2/status/2003940342782218697
 
 ---
 
