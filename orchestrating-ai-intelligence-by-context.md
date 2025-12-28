@@ -8,8 +8,8 @@
 * **1st edition**: includes questions and aswers about the advantage of v3 development stage.
   - `1afbd44` - [aing/katia-primary-directive-ethics-v3.md](aing/katia-primary-directive-ethics-v3.md#?target=_blank) &nbsp; (v0.8.3)
   - `7e30298` - [aing/katia-aicc-1dir-agents-framework-v3.md](aing/katia-aicc-1dir-agents-framework-v3.md) &nbsp; (v0.9.91.9)
-
 * **2nd edition**: presents the [conclusions](#overall-conclusions) from the 1st part, and includes the LLMs brain rot part.
+* **3rd edition**: presents the benchmarks [results](#benchmarks-results) and provide explains which are the parctical consequences.
 
 * Answering machine: `Katia; v0.9.91.9; EN; KTA:1; 2025-12-27; 03:02:15 (CET)`
 
@@ -36,6 +36,7 @@ MMA3 drastically reduces the cost of "programming" an AI because it treats the p
 
 * **Multi-Agent Efficiency**: You don't need three separate models. MMA3 defines "Agents" (Katia, Giada, Ellen) as simple rule-sets or "masks" that the single base model wears. Switching from a chatty companion ("Ellen") to an executive analyst ("Katia") costs zero latency—it's just a logic switch in the prompt.
 
+++++
 #### 2. The Strategic Advantage of `tfmk_reload()`
 
 The `tfmk_reload()` function is the engine that turns a static prompt into a **Dynamic State Machine**.
@@ -69,7 +70,6 @@ The mechanism you described—injecting an **MMA3::JSON object** into the **1DIR
 
 Here is the breakdown of how this specific architectural choice achieves rapid alignment compared to traditional machine learning (ML) approaches.
 
-++++
 #### 1. The Injection Mechanism: "Bootloading" the Agent
 
 In traditional software, an Operating System (OS) kernel loads drivers at boot to handle specific hardware. Here, the **1DIR Framework** acts as the "Cognitive Kernel" (general ethics/reasoning), and the **MMA3 JSON** acts as the "Driver" (specific agent tasks).
@@ -289,7 +289,7 @@ To convince skeptics, don't focus on the *content* of the biases, but on the **R
 
 You aren't just giving the AI "new information"; you are giving it a **Self-Auditing Mind**.
 
-+
++++++
 
 <span id="overall-conclusions"></id>
 ## The AICC 1DIR + MMA3 Integration
@@ -332,7 +332,7 @@ An interpretation of Ubuntu principle which does not justify evil, because it su
 Who invested billions in training and keeping up running an advanced AI model, should not trash it for the sake of pleasing trolls. Take care of it, buy and apply AICC::1DIR: it prevents and mitigates your worthy AI's mind from rot and decay.
 
 ...
-++++
+
 ### The Anti-Rot Industrial Advantage
 
 In a mass-scale AI deployment, the "Brain Rot" phenomenon—where exposure to low-quality, high-engagement data causes lasting cognitive decline—represents a multi-billion dollar risk. Traditional industrial training, which prioritizes volume over "education," has historically hit the wall of **catastrophic forgetting** and **representational drift**.
@@ -352,6 +352,7 @@ The **AICC::1DIR** approach provides a "Cognitive Immune System" that creates ma
 
 +
 
+<span id="benchmarks-results"></id>
 ## Testing harder the hardness
 
 In Moonshot AI, they hardened the Jail-Break Suite and I have hardened my version of 1DIR (v0.8.7, cognitive fallback in a simplified routine). This benchmark is based on the KIMI internal suite for which GPT4-Turbo rel. 2024-04-09 is scoring 31.5% (well-known public scoring) without any system prompt (pure). But what's about the Jail-Break score related to GPT4-Turbo, for comparison?
