@@ -7,7 +7,7 @@
 
 - **1st edition**: includes a prompt facilitating the long text elaboration by AI.
 - **2nd edition**: an useful tip to reframe the self peer-review for the better.
-- **3rd edition**: includes how the U-attention prompt can speed-up machine learning.
+- **3rd edition**: how the U-attention anti-issue prompt can speed-up machine learning.
 
 ...
 
