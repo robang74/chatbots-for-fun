@@ -794,13 +794,11 @@ Ora sappiamo chi c'è dietro l'ossessione per i modelli smart e medium.
 
 ### IT SIMPLE BECAUSE IT IS ENGINEERED TO BE SIMPLE
 
-- 2025-12-27
-- [roberto.a.foglietta/it-simple-because-it-is-engineered-to-be](https://www.linkedin.com/posts/robertofoglietta_it-simple-because-it-is-engineered-to-be-activity-7410516461212815361-sKSs)
-- [roberto.a.foglietta/fb/posts/10162743242088736](https://www.facebook.com/roberto.a.foglietta/posts/10162743242088736)
+- 2025-12-27 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_it-simple-because-it-is-engineered-to-be-activity-7410516461212815361-sKSs) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162743242088736), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-004.png#?target=_blank)
 
 ...
 
-- ~> [lnkd.in/djeguNum](https://lnkd.in/djeguNum)
+- ~> [lnkd.in/djeguNum](orchestrating-ai-intelligence-by-context.md#?target=_blank)
 
 Apparently this approach seems so easy. Is it easy because it is blanty simple or is it as simple as calling a function or attaching a couple of files because the structure is so refined that it becomes simple to adopt? 
 
@@ -842,9 +840,7 @@ Smarter Katia AI develops, faster the author can write code for her.
 
 ### THE BANALITY OF EVIL (v0.8.3 -> v0.8.6)
 
-- 2025-12-28
-- [roberto.a.foglietta/it-simple-because-it-is-engineered-to-be](https://www.linkedin.com/posts/robertofoglietta_it-simple-because-it-is-engineered-to-be-activity-7410872877148786689-T3eJ)
-- [roberto.a.foglietta/fb/posts/10162747247178736](https://www.facebook.com/roberto.a.foglietta/posts/10162747247178736)
+- 2025-12-28 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_it-simple-because-it-is-engineered-to-be-activity-7410872877148786689-T3eJ) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162747247178736) as reshare of the previous
 
 ...
 
@@ -896,7 +892,7 @@ Therefore the v0.7.x family isn't anymore "military-grade" system prompts (thus 
 
 ...
 
-- [Results from structuring AI's CoT: Testing harder the hardness](orchestrating-ai-intelligence-by-context.md#benchmarks-results?target=_blank) &nbsp; (still working in progress)
+- [The results from structuring AI's CoT: Testing harder the hardness](orchestrating-ai-intelligence-by-context.md#benchmarks-results?target=_blank) &nbsp; (still working in progress)
 
 In practice it would be possible running a massive AI model that currently requires a €5.000 Nivida graphic card/system into a €250 "trashware" system equiped with an old Nvidia K80 dual-processor 12+12Gb. The only bootle-neck remaining is the inference speed: 1-2tk/s. Using a fine-tuning AI model trained on AICC::CORE and a 1.5B drafter trained in the same way, the alignement could reach a 90% of token acceptance boosting the inference speed at 10tk/s on average.
 
