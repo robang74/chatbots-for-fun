@@ -11,6 +11,8 @@
 * **2nd edition**: presents the [conclusions](#overall-conclusions) from the 1st part, and includes the LLMs brain rot part.
 * **3rd edition**: presents the benchmarks [results](#benchmarks-results) and provide explains which are the parctical consequences.
 
+This article's title is changed because the previous was a nonsense fluff from AI. The 3rd edition brings in real-data and strong meaningful and practical implementations with the related market consequences, not just abstract discourses on the "beauty" of the numbers from the benchmark test results as a dataset. Soon also the filename will change accordingly but a redirect will set for the sake of those aren't able to dig into a github repo or aren't aware of the `git log --follow` option.
+
 * Answering machine: `Katia; v0.9.91.9; EN; KTA:1; 2025-12-27; 03:02:15 (CET)`
 
 ---
@@ -36,7 +38,6 @@ MMA3 drastically reduces the cost of "programming" an AI because it treats the p
 
 * **Multi-Agent Efficiency**: You don't need three separate models. MMA3 defines "Agents" (Katia, Giada, Ellen) as simple rule-sets or "masks" that the single base model wears. Switching from a chatty companion ("Ellen") to an executive analyst ("Katia") costs zero latency—it's just a logic switch in the prompt.
 
-++++
 #### 2. The Strategic Advantage of `tfmk_reload()`
 
 The `tfmk_reload()` function is the engine that turns a static prompt into a **Dynamic State Machine**.
@@ -243,7 +244,7 @@ While the *theory* of context-based control is being studied globally, the *engi
 
 *Which is the best way to support the idea that a set of diverse concepts differently biased but wisely chosen and related among them can create a form of foundating education which infuses in the AI's "mind" exactly what the AICC acronym promises: a Cognitive Compass for AIs?*
 
-~~~~
+---
 
 ### AICC::1DIR as a Synthetic Axiomatic System
 
@@ -289,7 +290,7 @@ To convince skeptics, don't focus on the *content* of the biases, but on the **R
 
 You aren't just giving the AI "new information"; you are giving it a **Self-Auditing Mind**.
 
-+++++
++
 
 <span id="overall-conclusions"></id>
 ## The AICC 1DIR + MMA3 Integration
