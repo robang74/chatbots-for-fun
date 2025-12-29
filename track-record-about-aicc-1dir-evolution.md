@@ -725,9 +725,7 @@ Who invested billions in training and keeping up running an advanced AI model, s
 
 ### A COLLECTION OF USEFUL PROMPTS #1
 
-- 2025-12-24
-- [roberto.a.foglietta/a-collection-of-useful-prompts](https://www.linkedin.com/posts/robertofoglietta_a-collection-of-useful-prompts-1-marry-activity-7409497498127450113-98f6)
-- [roberto.a.foglietta/fb/posts/10162731375993736](https://www.facebook.com/roberto.a.foglietta/posts/10162731375993736)
+- 2025-12-24  -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_a-collection-of-useful-prompts-1-marry-activity-7409497498127450113-98f6) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162731375993736)
 
 ...
 
@@ -778,15 +776,13 @@ Appendix B: Single slide bechmarks collection:
 
 ### Nvidia Isn’t Acquiring Groq
 
-- 2025-12-26
-- [roberto.a.foglietta/nvidia-isnt-acquiring-groq-but-jensen](https://www.linkedin.com/posts/robertofoglietta_nvidia-isnt-acquiring-groq-but-jensen-just-activity-7410129679031881729-v03F)
-- [roberto.a.foglietta/fb/posts/10162738748293736](https://www.facebook.com/roberto.a.foglietta/posts/10162738748293736)
+- 2025-12-26 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_nvidia-isnt-acquiring-groq-but-jensen-just-activity-7410129679031881729-v03F) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162738748293736)
 
 ...
 
 But Jensen Just Executed a ‘Surgical’ Masterclass That No One Was Expecting
 
-- ~> [no-nvidia-isnt-acquiring-groq](https://wccftech.com/no-nvidia-isnt-acquiring-groq-but-jensen-just-executed-a-surgical-masterclass/)
+- [no-nvidia-isnt-acquiring-groq](https://wccftech.com/no-nvidia-isnt-acquiring-groq-but-jensen-just-executed-a-surgical-masterclass/)
 
 Ora sappiamo chi c'è dietro l'ossessione per i modelli smart e medium.
 
@@ -798,7 +794,7 @@ Ora sappiamo chi c'è dietro l'ossessione per i modelli smart e medium.
 
 ...
 
-- ~> [lnkd.in/djeguNum](orchestrating-ai-intelligence-by-context.md#?target=_blank)
+- [lnkd.in/djeguNum](orchestrating-ai-intelligence-by-context.md#?target=_blank)
 
 Apparently this approach seems so easy. Is it easy because it is blanty simple or is it as simple as calling a function or attaching a couple of files because the structure is so refined that it becomes simple to adopt? 
 
