@@ -96,6 +96,10 @@ Sharing the chat seems to me the best and quick way to provide both. Please, rep
 
 Incidentally, this is also the same basic principle for which the [results](orchestrating-ai-intelligence-by-context.html#benchmarks-results#?target=_blank) from structuring AI's CoT are so impressive. The same principle applied NxN/2 times on a N set of claims creating a network of relationships among them.
 
+### How much would it save?
+
+You should not confront just the training process (parity in stuff to learn, and related time and energy costs) but also the quality of the result. Thus, the real question is HOW to achieve the same results (e.g. 1/5 hallucinations) with a standard ML process? How long does it take? How much energy? Is it possible? Those are the questions you should ask yourself, not just the traversing learning path reduction costs.
+
 +
 
 ## Related articles
