@@ -697,9 +697,7 @@ If this prompt would be a person, it would be the one we can trust on when other
 
 ### THE ANTI BRAIN ROT DECAY RECIPE<br>(post based on arXiv:2510.13928, 2025-10-15)
 
-- 2025-12-23
-- [roberto.a.foglietta/the-anti-brain-rot-decay-recipe](https://www.linkedin.com/posts/robertofoglietta_the-anti-brain-rot-decay-recipe-post-based-activity-7409160982742339584-sOce)
-- [roberto.a.foglietta/fb/posts/10162727508293736](https://www.facebook.com/roberto.a.foglietta/posts/10162727508293736)
+- 2025-12-23 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_the-anti-brain-rot-decay-recipe-post-based-activity-7409160982742339584-sOce) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162727508293736), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-007.png#?target=_blank)
 
 ...
 
@@ -725,7 +723,7 @@ Who invested billions in training and keeping up running an advanced AI model, s
 
 ### A COLLECTION OF USEFUL PROMPTS #1
 
-- 2025-12-24  -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_a-collection-of-useful-prompts-1-marry-activity-7409497498127450113-98f6) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162731375993736)
+- 2025-12-24 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_a-collection-of-useful-prompts-1-marry-activity-7409497498127450113-98f6) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162731375993736)
 
 ...
 
