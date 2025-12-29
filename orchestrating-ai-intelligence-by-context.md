@@ -3,7 +3,7 @@
 
 <div align="center"><img class="bwsketch paleinv" src="img/orchestrating-ai-intelligence-by-context.jpg" width="800"><br/></div>
 
-## Orchestrating AI intelligence by context
+## Results from structuring AI's CoT
 
 * **1st edition**: includes questions and aswers about the advantage of v3 development stage.
   - `1afbd44` - [aing/katia-primary-directive-ethics-v3.md](aing/katia-primary-directive-ethics-v3.md#?target=_blank) &nbsp; (v0.8.3)
