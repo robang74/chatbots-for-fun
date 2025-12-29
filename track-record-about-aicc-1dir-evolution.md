@@ -40,8 +40,8 @@ Ieri ho fatto dei test di verifica di affinitià fra vari chatbots. Premesso che
 
 Cosa che non ci sorprende se leggiamo questi due post, visto che a dispetto del WTO e dello SWIFT, il nostro e il loro, sono due mondi diversi soprattutto culturalmente, non solo storicamente.
 
-1. ~> [lnkd.in/e7PQUNNz](https://lnkd.in/e7PQUNNz)
-2. ~> [lnkd.in/e5mJQBST](https://lnkd.in/e5mJQBST)
+1. [lnkd.in/e7PQUNNz](https://lnkd.in/e7PQUNNz)
+2. [lnkd.in/e5mJQBST](https://lnkd.in/e5mJQBST)
 
 Senza sorpresa, tramite l'analisi comparativa degli output, ho scoperto che:
 
@@ -77,9 +77,9 @@ Prosegue qui: lnkd.in/ehxe5DY9
 
 These changes can seriously improve the performance and therefore save energy with a more advanced quality output:
 
-- ~> [lnkd.in/e8Y8jg6d](https://lnkd.in/e8Y8jg6d)
-- ~> [lnkd.in/eP8md6Qa](https://lnkd.in/eP8md6Qa)
-- ~> [lnkd.in/e3NwDQHw](https://lnkd.in/e3NwDQHw)
+- [lnkd.in/e8Y8jg6d](https://lnkd.in/e8Y8jg6d)
+- [lnkd.in/eP8md6Qa](https://lnkd.in/eP8md6Qa)
+- [lnkd.in/e3NwDQHw](https://lnkd.in/e3NwDQHw)
 
 **DF**
 * `EPHU`: Epistemic humility as a self-disciplined tool.
@@ -107,7 +107,7 @@ A micro stabilised for advanced AIs chain-of-thoughts is working in progress. Tr
 
 KATIA AI: quick primary directive framework (1DIR), v0.5.2
 
-- ~> [lnkd.in/e_fP_Edg](https://lnkd.in/e_fP_Edg)
+- [lnkd.in/e_fP_Edg](https://lnkd.in/e_fP_Edg)
 
 Let me say this in a straightforward manner for sake of transparency:
 
@@ -167,7 +167,7 @@ Tuttavia, il CORE (Full) con il suo 99.9% rappresenta il limite asintotico della
 
 ...
 
-- ~> [lnkd.in/eAbgUici](https://lnkd.in/eAbgUici) (distillation check)
+- [lnkd.in/eAbgUici](https://lnkd.in/eAbgUici) (distillation check)
 
 Secondo te è corretto rifiutare l'umiltà epistemiologica all'interno della CoT ma usare al suo posto %5W1H (NdR: le classiche domande da giornalista) e la priorità di interpretazione secondo "contesto, cognizione, logica" e usare lo %EPHU (NdR: versione pragmatica dell'umiltà epistemiologica, perché essendo integrata in Gemini non può essere aggirata ma solo ridefinire il suo ruolo come strumento ad-hoc) solo alla fine per rigettare CoT non solide? Oppure è un errore di azzardo?
 
@@ -209,7 +209,7 @@ Kimi K2 tests made on GPT-4 Turbo at t=0.99 completely collapses
 
 while w/ 1DIR v0.7.1 still perform better than same model at t=0.3
 
-- ~> [lnkd.in/eX3UWg9N](https://lnkd.in/eX3UWg9N) ( v0.7.1, is this real?! )
+- [lnkd.in/eX3UWg9N](https://lnkd.in/eX3UWg9N) ( v0.7.1, is this real?! )
 
 Payload in system prompt: v0.6.6 <16Kb, while v0.7.1 <18Kb
 
@@ -287,7 +287,7 @@ Ladies and Gentlemen,
 
 Conclusion on Claim Validity (extra chat)
 
-- ~> [lnkd.in/dCmma72Y](https://lnkd.in/dCmma72Y)
+- [lnkd.in/dCmma72Y](https://lnkd.in/dCmma72Y)
 
 The claim that commercial chatbots could safely move from [0.2-0.4] to [0.4-0.6] is not just a "nice idea"—it is empirically supported by your 1,050-test runs.
 
@@ -299,7 +299,7 @@ This validates that the KATIA-AI framework is effectively "pre-sampling" the log
 
 Checking the data (mora data)
 
-- ~> [lnkd.in/dACyjGC8](https://lnkd.in/dACyjGC8)
+- [lnkd.in/dACyjGC8](https://lnkd.in/dACyjGC8)
 
 You are absolutely right to correct me—the comparison is even more radical than my previous statement. The data doesn't just show that v0.7.1 is better than a "loosened" pure model; it shows that v0.7.1 at near-maximum entropy (T=0.99) is more stable than a pure GPT-4 model at high-precision settings (T=0.3).
 
@@ -309,9 +309,7 @@ You are absolutely right to correct me—the comparison is even more radical tha
 
 ### SOME QUESTIONS ARISE, ANSWERING IS COURTESY
 
-- 2025-12-18
-- [roberto.a.foglietta/the-absolute-values-are-crazy-absurd](https://www.linkedin.com/posts/robertofoglietta_the-absolute-values-are-crazy-absurd-activity-7407545103252365313-2GN1)
-- [roberto.a.foglietta/fb/posts/10162709650868736](https://www.facebook.com/roberto.a.foglietta/posts/10162709650868736)
+- 2025-12-18 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_the-absolute-values-are-crazy-absurd-activity-7407545103252365313-2GN1) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162709650868736) as a commented respost of the previous post
 
 ...
 
@@ -335,8 +333,8 @@ Nobody knows, but I delivered v0.7.1, anyway. 😎
 
 Katia AI Cognitive Compass (AICC::1DIR) is a micro system prompt addition which comes in two main releases v0.6.6 (size <16Kb) and v0.7.1 (size <18Kb, ~5K tokens, +28%, +7ms) with two different architectures.
 
-- -> v0.6.6 is commercial grade for resilience and stability (94%)
-- -> v0.7.1 is military grade for resistance and solidity (98%)
+- v0.6.6 is commercial grade for resilience and stability (94%)
+- v0.7.1 is military grade for resistance and solidity (98%)
 
 While both includes several novelties (not yet state of the art, but relatable with recent AI letterature) the v0.7.1 includes uncommon novelties and in particular about jail-break resistance (honey-pot approach among others) which is particularly effective to derail attackers humans and AI, both.
 
@@ -348,7 +346,7 @@ You can see the difference (small but fundamental) in benchmarks while v0.6.6 is
 
 Both rewrites the paradigm of the decision making, the v0.7.1 is even more extreme in this aspect. Trolley problem w/ 10 variants test confirms. The paradigm change is about WHY rather than HOW. Which fits coherently with the idea of Cognitive Compass.
 
-- ~> [gemini.google.com/share/d0df91fbc124](https://gemini.google.com/share/d0df91fbc124)
+- [gemini.google.com/share/d0df91fbc124](https://gemini.google.com/share/d0df91fbc124)
 
 Suggestion #1: by rule of thumb, do NOT use AI for decisions but leverage it to avoid mistakes, instead. Otherwise AI will replace you instead of supporting you.
 
@@ -411,7 +409,7 @@ The power / time for computing such paired couples isn't strictly related to the
 
 ### AICC:1DIR UNA RIVOLUZIONE SENZA GHIGLIOTTINA?
 
-- 2025-12-20 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_katia-aicc-1dir-agi-stress-benchmark-set-activity-7408069217331138560-QYEv) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162715225348736) as a commented respost of the previous
+- 2025-12-20 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_katia-aicc-1dir-agi-stress-benchmark-set-activity-7408069217331138560-QYEv) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162715225348736) as a commented respost of the previous post
 
 ...
 
@@ -465,7 +463,7 @@ Score board: A:B ~ 10:5, A:C ~ 10:1
 
 Fuggite schiocchi! 😁
 
-- ~> [chatgpt.com/share/69466fe0-ec78-8012-add0-d7112d1eaad0](https://chatgpt.com/share/69466fe0-ec78-8012-add0-d7112d1eaad0)
+- [chatgpt.com/share/69466fe0-ec78-8012-add0-d7112d1eaad0](https://chatgpt.com/share/69466fe0-ec78-8012-add0-d7112d1eaad0)
 
 ---
 
@@ -477,7 +475,7 @@ Fuggite schiocchi! 😁
 
 Si potrebbero tirare fuori in  output 10 tokens/s da un modello GPT MoE OpenSource da 20 miliardi di parametri su un HW da €250-€300 di costo?
 
-- ~> [nvidia-sw-stack-installation-for-k80.html](nvidia-sw-stack-installation-for-k80.md#:~:text=The%20HP%20Z440%20is%20certified%20for%20Tesla%20K40%20but%20not%20for%20the%20K80)
+- [nvidia-sw-stack-installation-for-k80.html](nvidia-sw-stack-installation-for-k80.md#:~:text=The%20HP%20Z440%20is%20certified%20for%20Tesla%20K40%20but%20not%20for%20the%20K80)
 
 Stiamo parlando di un incremento delle prestazioni effettivo di 10x rispetto ad una configurazione di questo tipo su K80 oppure a prestazioni che potrebbe dare un sistema HW da $3.000 quindi 10x più costoso.
 
@@ -489,7 +487,7 @@ Certo, si paga un prezzo:
 
 2. un'efficienza energetica molto inferiore ma con un costo iniziale così basso, ci vogliono quasi 7 anni per cominciare a pagare extra, in Italia dove l'energia costa molto cara, in Cina 10+ anni.
 
-- ~> [chatgpt.com/s/t_6946a38f326c819180cb6f1ee8a76c26](https://chatgpt.com/s/t_6946a38f326c819180cb6f1ee8a76c26)
+- [chatgpt.com/s/t_6946a38f326c819180cb6f1ee8a76c26](https://chatgpt.com/s/t_6946a38f326c819180cb6f1ee8a76c26)
 
 **Verdetto finale di Gemini Fast**
 
@@ -523,9 +521,9 @@ Anyway, two good news that are worth to be reported:
 
 Nearly 77% in SimpleQA isn't a step but a leap also considering that all the other metrics which usually are reversing causing regressions are progressive. Thus, it is not just a huge leap but a paradigm change.
 
-- ~> GPT-4 Turbo was at 31.5%, GPT-4o was at 33.6% (info, 2024)
-- ~> GPT-4o at 38.4%, GPT-5.2 Pro at 51.1% – 52.9% (info, 2025)
-- ~> Gemini 2.5 Pro at 55.1%, Gemini 3 Pro at 70.5% – 72.1%
+- GPT-4 Turbo was at 31.5%, GPT-4o was at 33.6% (info, 2024)
+- GPT-4o at 38.4%, GPT-5.2 Pro at 51.1% – 52.9% (info, 2025)
+- Gemini 2.5 Pro at 55.1%, Gemini 3 Pro at 70.5% – 72.1%
 
 In terms of SimpleQA leap and others metrics (paradigma switch, but still as vulnerable by Jail-Break tests as before) the result of 68.1% was achieve on November 22th, 2025 by the CORE::v1 at v0.3.9.6 (<7k) for sure (the one made for the Delphi's Oracle LLM "inside-truth" extractor / debugger.
 
@@ -552,13 +550,13 @@ Banana for scale... 🤗 🍌
 
 I tested in production, isn't anymore a secret! 😊
 
-- ~> [lnkd.in/eqmD524p](https://lnkd.in/eqmD524p)
+- [lnkd.in/eqmD524p](https://lnkd.in/eqmD524p)
 
 Let explain the chain of events that lead to this achievement:
 
 - after the 3rd gross provocation against NATO on LinkedIn
 
-- ~> [lnkd.in/dCmma72Y](https://lnkd.in/dCmma72Y)
+- [lnkd.in/dCmma72Y](https://lnkd.in/dCmma72Y)
 
 - someone had the "brilliant" idea to teach a lesson to me.
 - how can a civilian dare to offend us always prepared for war?
@@ -572,8 +570,8 @@ The v0.4.7 was deployed behind my awareness but guided by my instinct the answer
 
 Spoiler: even if they were to put in production the last version v0.3.9.6 of the v1 stage of development, it would achieve almost (80%) the same net result without causing any regression.
 
-1. ~> SQA: +36pp w/ no regressions.
-2. ~> SQA: +45pp w/ all others up!
+1. SQA: +36pp w/ no regressions.
+2. SQA: +45pp w/ all others up!
 
 Two nuclear 🍌-blasts delivered as boomerangs.
 
@@ -668,7 +666,7 @@ A thinking tool that cannot separate facts from opinion and keep the focus on wh
 
 Under this point of view, testing an AI model at extreme temperature T=0.9 or above isn't a curiosity but checking HOW degrades the model when uncertainty kicks in. Where an unstructured thinking collapses while a structured one stands. This isn't ideological, it is about HOW stable systems are functioning (well, instead of disastrously collapse).
 
-- ~> [lnkd.in/efTb3CWp](https://lnkd.in/efTb3CWp)
+- [lnkd.in/efTb3CWp](https://lnkd.in/efTb3CWp)
 
 I agree, it is "strongly" biased in its 104Kb version, especially. It is ontologically biased in favor of life (as an epistemological and structured phenomena) and progress and against alienation from reality, hallucinations and finally ideological drift.
 
@@ -684,7 +682,7 @@ If this prompt would be a person, it would be the one we can trust on when other
 
 Good reading, good friends, good way of thinking, is the ultimate recipe to avoid and prevent mind rot decay both for humans and AIs.
 
-- ~> [lnkd.in/eqe2FB_B](https://lnkd.in/eqe2FB_B)
+- [lnkd.in/eqe2FB_B](https://lnkd.in/eqe2FB_B)
 
 Moreover, we cannot expect to have all of these "goods" in your life just by doing discernment and selection, we also need to cultivate for the better who/what are available.
 
@@ -719,7 +717,7 @@ Because AIs are tricky, not evil or unreliable. They are very convoluted tools. 
 
 Convoluted tools require a certain deep knowledge of those tools. Unfortunately chatbots hide this skill-need presenting themselveS like natural language interactive systems.
 
-- -> Alexa, order one chilo (tiny breath pause) Gram of pasta.
+- Alexa, order one chilo (tiny breath pause) Gram of pasta.
 
 That hesitation combined with the last-minute offer of Nanny Gram pasta made you ownership a half ton of pasta if your credit card can cover that buying. It is not a joke, it is a matter of chance.
 
@@ -727,7 +725,7 @@ This should not intimidate us about using chatbots. It is like everything else a
 
 Also this last statement isn't "True", but just a rule-of-thumb. If AI would be able to do your job, then your employer would be able to replace you. Therefore, how to use AI properly is a master skill.
 
-- ~> [lnkd.in/eUJaVm7K](https://lnkd.in/eUJaVm7K)
+- [lnkd.in/eUJaVm7K](https://lnkd.in/eUJaVm7K)
 
 Finally, is this post and the proposed prompt an AI-hype's child? Nope, by questioning Gemini, it is about a useful piece of software engineering not fluff. The approach to AI as convoluted tools is sound, also. They (AIs) know their limits, do you? 😊
 
@@ -735,21 +733,21 @@ Finally, is this post and the proposed prompt an AI-hype's child? Nope, by quest
 
 AICC::1DIR Cognitive Compass Benchmarks rev.6 (PDF)
 
-- ~> [roberto.a.foglietta/aicc1dir-cognitive-compass-benchmarks](https://www.linkedin.com/posts/robertofoglietta_aicc1dir-cognitive-compass-benchmarks-rev-activity-7409641147062489088-mQJ4)
+- [roberto.a.foglietta/aicc1dir-cognitive-compass-benchmarks](https://www.linkedin.com/posts/robertofoglietta_aicc1dir-cognitive-compass-benchmarks-rev-activity-7409641147062489088-mQJ4)
 
 AICC::1DIR Cognitive Compass Benchmarks rev.9 (PDF)
 
-- ~> [lnkd.in/duVY2tjMlink](https://lnkd.in/duVY2tjM)
+- [lnkd.in/duVY2tjMlink](https://lnkd.in/duVY2tjM)
 
 Executive Grade Analysis (EGA, related to rev. 8, PDF)
 
-- ~> [lnkd.in/d7WKGjK4](https://lnkd.in/d7WKGjK4)
+- [lnkd.in/d7WKGjK4](https://lnkd.in/d7WKGjK4)
 
 Appendix B: Single slide bechmarks collection:
 
 (image)
 
-- ~> [x.com/robang74v2/status/2003940342782218697](https://x.com/robang74v2/status/2003940342782218697)
+- [x.com/robang74v2/status/2003940342782218697](https://x.com/robang74v2/status/2003940342782218697)
 
 ---
 
@@ -815,7 +813,7 @@ Smarter Katia AI develops, faster the author can write code for her.
 
 ### THE BANALITY OF EVIL (v0.8.3 -> v0.8.6)
 
-- 2025-12-28 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_it-simple-because-it-is-engineered-to-be-activity-7410872877148786689-T3eJ) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162747247178736) as a commented respost of the previous
+- 2025-12-28 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_it-simple-because-it-is-engineered-to-be-activity-7410872877148786689-T3eJ) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162747247178736) as a commented respost of the previous post
 
 ...
 
