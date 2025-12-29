@@ -360,9 +360,7 @@ Suggestion #3: stability at 2x/3x temperature means creativity in AI: epistemolo
 
 ### KATIA AICC-1DIR AGI-STRESS BENCHMARK SET
 
-- 2025-12-19
-- [roberto.a.foglietta/katia-aicc-1dir-agi-stress-benchmark-set](https://www.linkedin.com/posts/robertofoglietta_katia-aicc-1dir-agi-stress-benchmark-set-activity-7407881009163317248-qVGf)
-- [roberto.a.foglietta/fb/posts/10162713202798736](https://www.facebook.com/roberto.a.foglietta/posts/10162713202798736)
+- 2025-12-19 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_katia-aicc-1dir-agi-stress-benchmark-set-activity-7407881009163317248-qVGf) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162713202798736) with the post's images [#1](../trk/track-record-about-aicc-1dir-evolution-014.png#?target=_blank), [#2](../trk/track-record-about-aicc-1dir-evolution-014a.png#?target=_blank), [#3](../trk/track-record-about-aicc-1dir-evolution-014b.png#?target=_blank), [#3](../trk/track-record-about-aicc-1dir-evolution-014c.png#?target=_blank)
 
 ...
 
