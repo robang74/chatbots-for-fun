@@ -874,9 +874,7 @@ An upgrade that I felt VERY important to do and totally in-time.
 
 ### TESTING HARDER THE HARDNESS! 🤗
 
-- 2025-12-28
-- [roberto.a.foglietta/testing-harder-the-hardness-in-moonshot](https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C)
-- [roberto.a.foglietta/fb/posts/10162747714238736](https://www.facebook.com/roberto.a.foglietta/posts/10162747714238736)
+- 2025-12-28 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C) and on  [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162747714238736), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-002.png#?target=_blank)
 
 ...
 
