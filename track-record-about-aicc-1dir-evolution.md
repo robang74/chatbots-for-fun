@@ -131,7 +131,7 @@ Got it? Advised man, half saved. 🤗 🍌
 
 ...
 
-Precedente post: [https://lnkd.in/e8ZJq2wP](lnkd.in/e8ZJq2wP) (Gemini3 extraction)
+Precedente post: [lnkd.in/e8ZJq2wP](lnkd.in/e8ZJq2wP) (Gemini3 extraction)
 
 ...
 
@@ -454,8 +454,8 @@ Spoiler: Nvidia ha abbattuto i consumi di 5x a patto di comprare HW a prezzi eso
 ### EGO / HUMOR CORNER
 
 - 2025-12-20
-- [link](https://www.linkedin.com/posts/robertofoglietta_ego-humor-corner-a-one-man-zero-budget-activity-7408080350209396736-NA4C)
-- [link](https://www.facebook.com/roberto.a.foglietta/posts/10162715288068736)
+- [roberto.a.foglietta/ego-humor-corner-a-one-man-zero-budget](https://www.linkedin.com/posts/robertofoglietta_ego-humor-corner-a-one-man-zero-budget-activity-7408080350209396736-NA4C)
+- [roberto.a.foglietta/fb/posts/10162715288068736](https://www.facebook.com/roberto.a.foglietta/posts/10162715288068736)
 
 ...
 
@@ -471,21 +471,21 @@ Score board: A:B ~ 10:5, A:C ~ 10:1
 
 Fuggite schiocchi! 😁
 
-- ~> [link](https://chatgpt.com/share/69466fe0-ec78-8012-add0-d7112d1eaad0)
+- ~> [chatgpt.com/share/69466fe0-ec78-8012-add0-d7112d1eaad0](https://chatgpt.com/share/69466fe0-ec78-8012-add0-d7112d1eaad0)
 
 ---
 
 ### OPENAI GPT-OSS 20B 4BIT @10tk/s su K80 + HP440
 
 - 2025-12-20
-- [link](https://www.linkedin.com/posts/robertofoglietta_openai-gpt-oss-20b-4bit-10tks-su-k80-activity-7408139618757398528-vGP3)
-- [link](https://www.facebook.com/roberto.a.foglietta/posts/10162715944578736)
+- [roberto.a.foglietta/openai-gpt-oss-20b-4bit-10tks-su-k80](https://www.linkedin.com/posts/robertofoglietta_openai-gpt-oss-20b-4bit-10tks-su-k80-activity-7408139618757398528-vGP3)
+- [roberto.a.foglietta/fb/posts/10162715944578736](https://www.facebook.com/roberto.a.foglietta/posts/10162715944578736)
 
 ...
 
 Si potrebbero tirare fuori in  output 10 tokens/s da un modello GPT MoE OpenSource da 20 miliardi di parametri su un HW da €250-€300 di costo?
 
-- ~> [link](https://robang74.github.io/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80.html#:~:text=The%20HP%20Z440%20is%20certified%20for%20Tesla%20K40%20but%20not%20for%20the%20K80)
+- ~> [nvidia-sw-stack-installation-for-k80.html](nvidia-sw-stack-installation-for-k80.md#:~:text=The%20HP%20Z440%20is%20certified%20for%20Tesla%20K40%20but%20not%20for%20the%20K80)
 
 Stiamo parlando di un incremento delle prestazioni effettivo di 10x rispetto ad una configurazione di questo tipo su K80 oppure a prestazioni che potrebbe dare un sistema HW da $3.000 quindi 10x più costoso.
 
@@ -497,7 +497,7 @@ Certo, si paga un prezzo:
 
 2. un'efficienza energetica molto inferiore ma con un costo iniziale così basso, ci vogliono quasi 7 anni per cominciare a pagare extra, in Italia dove l'energia costa molto cara, in Cina 10+ anni.
 
-- ~> [link](https://chatgpt.com/s/t_6946a38f326c819180cb6f1ee8a76c26)
+- ~> [chatgpt.com/s/t_6946a38f326c819180cb6f1ee8a76c26](https://chatgpt.com/s/t_6946a38f326c819180cb6f1ee8a76c26)
 
 **Verdetto finale di Gemini Fast**
 
@@ -518,8 +518,8 @@ Ho fatto dei calcoli su come far girare un modello GPT OSS 120B e farlo performa
 ### NUMBER ARE REAL, AND MUCH MORE, ALL UP!
 
 - 2025-12-20
-- [link](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408268658814185474-wnxr)
-- [link](https://www.facebook.com/roberto.a.foglietta/posts/10162717606063736)
+- [roberto.a.foglietta/number-are-real-and-much-more-all-up](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408268658814185474-wnxr)
+- [roberto.a.foglietta/fb/posts/10162717606063736](https://www.facebook.com/roberto.a.foglietta/posts/10162717606063736)
 
 ...
 
@@ -555,8 +555,8 @@ Banana for scale... 🤗 🍌
 THE SURPRISE IS ALWAYS THEATREABLE, RIGHT?
 
 - 2025-12-21
-- [link](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408463491235356672-jeFh)
-- [link](https://www.facebook.com/roberto.a.foglietta/posts/10162719526023736)
+- [roberto.a.foglietta/number-are-real-and-much-more-all-up](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408463491235356672-jeFh)
+- [roberto.a.foglietta/fb/posts/10162719526023736](https://www.facebook.com/roberto.a.foglietta/posts/10162719526023736)
 
 ...
 
@@ -594,10 +594,9 @@ Enjoy 🤗
 ### FACEBOOK vs LINKEDIN: THE CENSORSHIP
 
 - 2025-12-21
-- [link](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408609932335534080-pk6w)
-- [link](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408609932335534080-pk6w)
-- [link](https://www.linkedin.com/posts/robertofoglietta_the-surprise-is-always-theatreable-right-activity-7408611778940518400-l1tK)
-- [link](https://www.facebook.com/roberto.a.foglietta/posts/10162721585533736)
+- [roberto.a.foglietta/number-are-real-and-much-more-all-up](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408609932335534080-pk6w)
+- [roberto.a.foglietta/the-surprise-is-always-theatreable](https://www.linkedin.com/posts/robertofoglietta_the-surprise-is-always-theatreable-right-activity-7408611778940518400-l1tK)
+- [roberto.a.foglietta/fb/posts/10162721585533736](https://www.facebook.com/roberto.a.foglietta/posts/10162721585533736)
 
 ...
 
@@ -616,9 +615,9 @@ Enjoy, R-
 ### THE SHOW IS OVER, THE GAME BEGINS
 
 - 2025-12-22
-- [link](https://www.linkedin.com/posts/robertofoglietta_lady-gentlemen-another-turn-of-the-game-activity-7408835022775992320-5Vdz)
-- [link](https://www.facebook.com/roberto.a.foglietta/posts/10162723676038736)
-- [link](https://x.com/robang74v2/status/2003063526848659530)
+- [roberto.a.foglietta/lady-gentlemen-another-turn-of-the-game](https://www.linkedin.com/posts/robertofoglietta_lady-gentlemen-another-turn-of-the-game-activity-7408835022775992320-5Vdz)
+- [roberto.a.foglietta/fb/posts/10162723676038736](https://www.facebook.com/roberto.a.foglietta/posts/10162723676038736)
+- [x.com/robang74v2/status/2003063526848659530link](https://x.com/robang74v2/status/2003063526848659530)
 
 ...
 
@@ -638,8 +637,8 @@ One rule only: no rules. Rien ne va plus, les jeux sont faits.
 THE NEW BENCHMARK SUITE ON GPT-4o
 
 - 2025-12-22
-- [link](https://www.linkedin.com/posts/robertofoglietta_the-new-benchmark-suite-on-gpt-4o-1-seeing-activity-7408961202661257216-jtVp)
-- [link](https://www.facebook.com/roberto.a.foglietta/posts/10162725291888736)
+- [roberto.a.foglietta/the-new-benchmark-suite-on-gpt-4o-1](https://www.linkedin.com/posts/robertofoglietta_the-new-benchmark-suite-on-gpt-4o-1-seeing-activity-7408961202661257216-jtVp)
+- [roberto.a.foglietta/fb/posts/10162725291888736](https://www.facebook.com/roberto.a.foglietta/posts/10162725291888736)
 
 ...
 
@@ -660,8 +659,8 @@ I am feeling like I'm back to the high-school time when the competition was grou
 ### FENTANYL VS OPENAI GPT
 
 - 2025-12-23
-- [link](https://www.linkedin.com/posts/robertofoglietta_fentanyl-vs-openai-gpt-despite-being-rational-activity-7409032407175249920-F3pA)
-- [link](https://www.facebook.com/roberto.a.foglietta/posts/10162726458298736)
+- [roberto.a.foglietta/fentanyl-vs-openai-gpt-despite-being-rational](https://www.linkedin.com/posts/robertofoglietta_fentanyl-vs-openai-gpt-despite-being-rational-activity-7409032407175249920-F3pA)
+- [roberto.a.foglietta/fb/posts/10162726458298736](https://www.facebook.com/roberto.a.foglietta/posts/10162726458298736)
 
 ...
 
@@ -727,8 +726,8 @@ Who invested billions in training and keeping up running an advanced AI model, s
 ### A COLLECTION OF USEFUL PROMPTS #1
 
 - 2025-12-24
-[roberto.a.foglietta/a-collection-of-useful-prompts](https://www.linkedin.com/posts/robertofoglietta_a-collection-of-useful-prompts-1-marry-activity-7409497498127450113-98f6)
-[roberto.a.foglietta/fb/posts/10162731375993736](https://www.facebook.com/roberto.a.foglietta/posts/10162731375993736)
+- [roberto.a.foglietta/a-collection-of-useful-prompts](https://www.linkedin.com/posts/robertofoglietta_a-collection-of-useful-prompts-1-marry-activity-7409497498127450113-98f6)
+- [roberto.a.foglietta/fb/posts/10162731375993736](https://www.facebook.com/roberto.a.foglietta/posts/10162731375993736)
 
 ...
 
@@ -844,8 +843,8 @@ Smarter Katia AI develops, faster the author can write code for her.
 ### THE BANALITY OF EVIL (v0.8.3 -> v0.8.6)
 
 - 2025-12-28
-- [link](https://www.linkedin.com/posts/robertofoglietta_it-simple-because-it-is-engineered-to-be-activity-7410872877148786689-T3eJ)
-- [link](https://www.facebook.com/roberto.a.foglietta/posts/10162747247178736)
+- [roberto.a.foglietta/it-simple-because-it-is-engineered-to-be](https://www.linkedin.com/posts/robertofoglietta_it-simple-because-it-is-engineered-to-be-activity-7410872877148786689-T3eJ)
+- [roberto.a.foglietta/fb/posts/10162747247178736](https://www.facebook.com/roberto.a.foglietta/posts/10162747247178736)
 
 ...
 
@@ -876,8 +875,8 @@ An upgrade that I felt VERY important to do and totally in-time.
 ### TESTING HARDER THE HARDNESS! 🤗
 
 - 2025-12-28
-- [link](https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C)
-- [link](https://www.facebook.com/roberto.a.foglietta/posts/10162747714238736)
+- [roberto.a.foglietta/testing-harder-the-hardness-in-moonshot](https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C)
+- [roberto.a.foglietta/fb/posts/10162747714238736](https://www.facebook.com/roberto.a.foglietta/posts/10162747714238736)
 
 ...
 
@@ -896,12 +895,12 @@ Therefore the v0.7.x family isn't anymore "military-grade" system prompts (thus 
 ### The new year is coming... 🤗 
 
 - 2025-12-28
-- [link](https://www.linkedin.com/posts/robertofoglietta_95cc135-activity-7411056939209584641-HxIo)
-- [link](https://www.facebook.com/roberto.a.foglietta/posts/10162749282148736)
+- [roberto.a.foglietta/lkdn/7411056939209584641-HxIo](https://www.linkedin.com/posts/robertofoglietta_95cc135-activity-7411056939209584641-HxIo)
+- [roberto.a.foglietta/fb/posts/10162749282148736](https://www.facebook.com/roberto.a.foglietta/posts/10162749282148736)
 
 ...
 
-- ~> [link](https://lnkd.in/dWK-5muw) (still working in progress)
+- ~> [lnkd.in/dWK-5muw](https://lnkd.in/dWK-5muw) (still working in progress)
 
 In practice it would be possible running a massive AI model that currently requires a $5.000 Nivida graphic card/system into a $250 "trashware" system equiped with an old Nvidia K80 dual-processor 12+12Gb. The only bootle-neck remaining is the inference speed: 1-2tk/s. Using a fine-tuning AI model trained on AICC::CORE and a 1.5B drafter trained in the same way, the alignement could reach a 90% of token acceptance boosting the inference speed at 10tk/s on average.
 
@@ -912,7 +911,7 @@ Which is the reason because Jensen (the Nvidia CEO) quickly signed a 3-years con
 
 From the perspective of a human reading a text which is generated by an AI model, it makes no difference that it appears the whole immediately or written at 16.7 tk/s unless that human is able to read much-much faster than the average. In fact the average is 6tk/s for human reading, fast reading at 12tk/s and 18tk/s means 3x time faster than a good average. The average human reading-speed range is between 4tk/s and 6tk/s due to the language redundancy ratio.
 
-- ~> [link](https://lnkd.in/dShrywUd) ($250 trashware)
+- ~> [lnkd.in/dShrywUd](https://lnkd.in/dShrywUd) ($250 trashware)
 
 Finally, recognising that the "$250 trashware" was ready and running on `Mon Mar 24 16:48:49 2025` (commit #95cc135) should give you a grasp about how long this trip takes to reach a system prompt test into a 1-tier AI provider like Moonshot AI.
 
