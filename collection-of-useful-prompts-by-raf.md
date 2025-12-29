@@ -7,6 +7,7 @@
 
 - **1st edition**: includes a prompt facilitating the long text elaboration by AI.
 - **2nd edition**: an useful tip to reframe the self peer-review for the better.
+- **3rd edition**: includes how the U-attention prompt can speed-up machine learning.
 
 ...
 
@@ -87,11 +88,13 @@ Also, it seems that [this prompt](#u-curve-attention-issue) below could mitigate
 
 Therefore the ONLY way to check is trying to prompt how it affects the learning curve. I suppose that it is necessary to provide at least an example and the bare minimum instructions.
 
-- [gemini.google.com/share/3cfc36645f5e](https://gemini.google.com/share/3cfc36645f5e)
+- The [chat](https://gemini.google.com/share/3cfc36645f5e) with Gemini 3.0 Pro and its [transcription](data/collection-of-useful-prompts-by-raf-gemini.txt#?target=_blank)
 
 Sharing the chat seems to me the best and quick way to provide both. Please, report back to me back which order of magnitude this phenomenon has been mitigated by the "indexing and do retrospective" approach.
 
-Hint: check hallucinations rate before and after to compare not only speed of learning but also the retrieving functionality. It might be improved also... possibly. {;-)}
+**Hint**: check hallucinations rate before and after to compare not only speed of learning but also the retrieving functionality. It might be improved also... possibly. {;-)}
+
+Incidentally, this is also the same basic principle for which the [results](orchestrating-ai-intelligence-by-context.html#benchmarks-results#?target=_blank) from structuring AI's CoT are so impressive. The same principle applied NxN/2 times on a N set of claims creating a network of relationships among them.
 
 +
 
@@ -101,7 +104,7 @@ Hint: check hallucinations rate before and after to compare not only speed of le
 +++++
 - [Il problema della sycophancy nell'intelligenza artificiale](la-sycophancy-nell-intelligenza-artificiale.md#?target=_blank) &nbsp; (2025-05-02)
 
-+++++
++
 
 ## Share alike
 
