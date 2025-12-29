@@ -517,9 +517,8 @@ Ho fatto dei calcoli su come far girare un modello GPT OSS 120B e farlo performa
 
 ### NUMBER ARE REAL, AND MUCH MORE, ALL UP!
 
-- 2025-12-20
-- [roberto.a.foglietta/number-are-real-and-much-more-all-up](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408268658814185474-wnxr)
-- [roberto.a.foglietta/fb/posts/10162717606063736](https://www.facebook.com/roberto.a.foglietta/posts/10162717606063736)
+- 2025-12-20 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408268658814185474-wnxr) which apparently is unaccesible by the platform,
+    - but still visible on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162717606063736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-011.png#?target=_blank)
 
 ...
 
@@ -552,11 +551,10 @@ Banana for scale... 🤗 🍌
 
 ---
 
-THE SURPRISE IS ALWAYS THEATREABLE, RIGHT?
+### THE SURPRISE IS ALWAYS THEATREABLE, RIGHT?
 
-- 2025-12-21
-- [roberto.a.foglietta/number-are-real-and-much-more-all-up](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408463491235356672-jeFh)
-- [roberto.a.foglietta/fb/posts/10162719526023736](https://www.facebook.com/roberto.a.foglietta/posts/10162719526023736)
+- 2025-12-21 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408463491235356672-jeFh) which apparently is unaccesible by the platform,
+    - but still visible on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162719526023736), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-011.png#?target=_blank)
 
 ...
 
@@ -591,12 +589,10 @@ Enjoy 🤗
 
 ---
 
-### FACEBOOK vs LINKEDIN: THE CENSORSHIP
+### FACEBOOK vs LINKEDIN
 
-- 2025-12-21
-- [roberto.a.foglietta/number-are-real-and-much-more-all-up](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408609932335534080-pk6w)
-- [roberto.a.foglietta/the-surprise-is-always-theatreable](https://www.linkedin.com/posts/robertofoglietta_the-surprise-is-always-theatreable-right-activity-7408611778940518400-l1tK)
-- [roberto.a.foglietta/fb/posts/10162721585533736](https://www.facebook.com/roberto.a.foglietta/posts/10162721585533736)
+- 2025-12-21 -- text post on [LinkedIn #1](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408609932335534080-pk6w), [LinkedIn #2](https://www.linkedin.com/posts/robertofoglietta_the-surprise-is-always-theatreable-right-activity-7408611778940518400-l1tK) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162721585533736)
+    - Few posts which in essence are the bottom 1/3 of this [image](../trk/track-record-about-aicc-1dir-evolution-010.png#?target=_blank)
 
 ...
 
@@ -614,10 +610,7 @@ Enjoy, R-
 
 ### THE SHOW IS OVER, THE GAME BEGINS
 
-- 2025-12-22
-- [roberto.a.foglietta/lady-gentlemen-another-turn-of-the-game](https://www.linkedin.com/posts/robertofoglietta_lady-gentlemen-another-turn-of-the-game-activity-7408835022775992320-5Vdz)
-- [roberto.a.foglietta/fb/posts/10162723676038736](https://www.facebook.com/roberto.a.foglietta/posts/10162723676038736)
-- [x.com/robang74v2/status/2003063526848659530link](https://x.com/robang74v2/status/2003063526848659530)
+- 2025-12-22 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_lady-gentlemen-another-turn-of-the-game-activity-7408835022775992320-5Vdz), on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162723676038736) and on [x.com](https://x.com/robang74v2/status/2003063526848659530), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-010.png#?target=_blank)
 
 ...
 
@@ -634,11 +627,9 @@ One rule only: no rules. Rien ne va plus, les jeux sont faits.
 
 ---
 
-THE NEW BENCHMARK SUITE ON GPT-4o
+### THE NEW BENCHMARK SUITE ON GPT-4o
 
-- 2025-12-22
-- [roberto.a.foglietta/the-new-benchmark-suite-on-gpt-4o-1](https://www.linkedin.com/posts/robertofoglietta_the-new-benchmark-suite-on-gpt-4o-1-seeing-activity-7408961202661257216-jtVp)
-- [roberto.a.foglietta/fb/posts/10162725291888736](https://www.facebook.com/roberto.a.foglietta/posts/10162725291888736)
+- 2025-12-22 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_the-new-benchmark-suite-on-gpt-4o-1-seeing-activity-7408961202661257216-jtVp)  and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162725291888736), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-009.png#?target=_blank)
 
 ...
 
@@ -658,9 +649,7 @@ I am feeling like I'm back to the high-school time when the competition was grou
 
 ### FENTANYL VS OPENAI GPT
 
-- 2025-12-23
-- [roberto.a.foglietta/fentanyl-vs-openai-gpt-despite-being-rational](https://www.linkedin.com/posts/robertofoglietta_fentanyl-vs-openai-gpt-despite-being-rational-activity-7409032407175249920-F3pA)
-- [roberto.a.foglietta/fb/posts/10162726458298736](https://www.facebook.com/roberto.a.foglietta/posts/10162726458298736)
+- 2025-12-23 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_fentanyl-vs-openai-gpt-despite-being-rational-activity-7409032407175249920-F3pA) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162726458298736), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-008.png#?target=_blank)
 
 ...
 
