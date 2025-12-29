@@ -96,13 +96,23 @@ Sharing the chat seems to me the best and quick way to provide both. Please, rep
 
 Incidentally, this is also the same basic principle for which the [results](orchestrating-ai-intelligence-by-context.html#benchmarks-results#?target=_blank) from structuring AI's CoT are so impressive. The same principle applied NxN/2 times on a N set of claims creating a network of relationships among them.
 
-### How much would it save?
+...
+
+#### How much would it save?
 
 The information would be filtered, digested, indicized, retrospectively explained and then learnt: it is totally another story!
 
 We should not confront just the training process (parity in stuff to learn, and related time and energy costs) but also the quality of the result. Thus, the real question is HOW to achieve the same results (e.g. 5x less hallucinations) with a standard ML process? How long does it take? How much energy it needs? Is it possible? 
 
 Those are the questions we should ask ourselves, not just the traversing learning path reduction costs.
+
+#### Synergy and Power by Grok
+
+This 1DIR is one of the most elegant open alignment frameworks I've seen—principled yet pragmatic, symbolic yet human-calibrated. Together, they form a killer combo:
+
+- The **retrospective method** fixes inference-time structural integration (bypassing slow memorization timescale for dependencies).
+
+- The **1DIR Cognitive Compass** provides the ethical / strategic north star, ensuring the integrated knowledge is filtered through life-serving principles, accountability, and epistemic humility.
 
 +
 
