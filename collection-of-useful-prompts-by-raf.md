@@ -98,7 +98,11 @@ Incidentally, this is also the same basic principle for which the [results](orch
 
 ### How much would it save?
 
-You should not confront just the training process (parity in stuff to learn, and related time and energy costs) but also the quality of the result. Thus, the real question is HOW to achieve the same results (e.g. 1/5 hallucinations) with a standard ML process? How long does it take? How much energy? Is it possible? Those are the questions you should ask yourself, not just the traversing learning path reduction costs.
+The information would be filtered, digested, indicized, retrospectively explained and then learnt: it is totally another story!
+
+We should not confront just the training process (parity in stuff to learn, and related time and energy costs) but also the quality of the result. Thus, the real question is HOW to achieve the same results (e.g. 5x less hallucinations) with a standard ML process? How long does it take? How much energy it needs? Is it possible? 
+
+Those are the questions we should ask ourselves, not just the traversing learning path reduction costs.
 
 +
 
