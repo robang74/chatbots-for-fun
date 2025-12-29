@@ -26,6 +26,7 @@ Following prompts aren't written "by an AI", they are written by the author in t
 
 ---
 
+<span id="u-curve-attention-issue"></span>
 ### 1. Structural Synthetic Analysis prompt
 
 Considering the increasing relevance of AI in documental analysis, this prompt pinpointed the two most common "hallucinations of omission" in LLMs:
@@ -72,6 +73,25 @@ Last but not least, it is always a nice-to-happen read about the chatbot reactio
 Finally, this chat shows how to operate the AI with the prompt #1 in combination with this role-playing trick and the results you could expect to obtain by Gemini Fast as a "lighter" and free AI of the Gemini family.
 
 - The [conversation](https://gemini.google.com/share/4ea78d4ee460) with Gemini Fast and its [transcription](data/collection-of-useful-prompts-by-raf-gemini.txt#?target=_blank)
+
+---
+
+### 3. Advantages regarding the learning curve
+
+- Why Diffusion Models Don’t Memorize: The Role of Implicit Dynamical Regularization in Training
+    - published on [arXiv:2505.17638](https://arxiv.org/pdf/2505.17638), v1:2025-05-23, v2:2025-10-28
+
+It seems that the problem highlighted by this paper is about the U-curve attention in the LLM plus the random order of concepts presentation during the learning.
+
+Also, it seems that [this prompt](#u-curve-attention-issue) below could mitigate this "slow memorasing" phenomenon. Please, remember that AI can provide wrong answers.
+
+Therefore the ONLY way to check is trying to prompt how it affects the learning curve. I suppose that it is necessary to provide at least an example and the bare minimum instructions.
+
+- [gemini.google.com/share/3cfc36645f5e](https://gemini.google.com/share/3cfc36645f5e)
+
+Sharing the chat seems to me the best and quick way to provide both. Please, report back to me back which order of magnitude this phenomenon has been mitigated by the "indexing and do retrospective" approach.
+
+Hint: check hallucinations rate before and after to compare not only speed of learning but also the retrieving functionality. It might be improved also... possibly. {;-)}
 
 +
 
