@@ -413,9 +413,7 @@ The power / time for computing such paired couples isn't strictly related to the
 
 ### AICC:1DIR UNA RIVOLUZIONE SENZA GHIGLIOTTINA?
 
-- 2025-12-20
-- [roberto.a.foglietta/katia-aicc-1dir-agi-stress-benchmark-set](https://www.linkedin.com/posts/robertofoglietta_katia-aicc-1dir-agi-stress-benchmark-set-activity-7408069217331138560-QYEv)
-- [roberto.a.foglietta/fb/posts/10162715225348736](https://www.facebook.com/roberto.a.foglietta/posts/10162715225348736)
+- 2025-12-20 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_katia-aicc-1dir-agi-stress-benchmark-set-activity-7408069217331138560-QYEv) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162715225348736) as a commented respost of the previous
 
 ...
 
@@ -453,9 +451,7 @@ Spoiler: Nvidia ha abbattuto i consumi di 5x a patto di comprare HW a prezzi eso
 
 ### EGO / HUMOR CORNER
 
-- 2025-12-20
-- [roberto.a.foglietta/ego-humor-corner-a-one-man-zero-budget](https://www.linkedin.com/posts/robertofoglietta_ego-humor-corner-a-one-man-zero-budget-activity-7408080350209396736-NA4C)
-- [roberto.a.foglietta/fb/posts/10162715288068736](https://www.facebook.com/roberto.a.foglietta/posts/10162715288068736)
+- 2025-12-20 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_ego-humor-corner-a-one-man-zero-budget-activity-7408080350209396736-NA4C) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162715288068736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-013.jpg#?target=_blank)
 
 ...
 
@@ -477,9 +473,7 @@ Fuggite schiocchi! 😁
 
 ### OPENAI GPT-OSS 20B 4BIT @10tk/s su K80 + HP440
 
-- 2025-12-20
-- [roberto.a.foglietta/openai-gpt-oss-20b-4bit-10tks-su-k80](https://www.linkedin.com/posts/robertofoglietta_openai-gpt-oss-20b-4bit-10tks-su-k80-activity-7408139618757398528-vGP3)
-- [roberto.a.foglietta/fb/posts/10162715944578736](https://www.facebook.com/roberto.a.foglietta/posts/10162715944578736)
+- 2025-12-20 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_openai-gpt-oss-20b-4bit-10tks-su-k80-activity-7408139618757398528-vGP3) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162715944578736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-012.png#?target=_blank)
 
 ...
 
@@ -823,7 +817,7 @@ Smarter Katia AI develops, faster the author can write code for her.
 
 ### THE BANALITY OF EVIL (v0.8.3 -> v0.8.6)
 
-- 2025-12-28 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_it-simple-because-it-is-engineered-to-be-activity-7410872877148786689-T3eJ) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162747247178736) as reshare of the previous
+- 2025-12-28 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_it-simple-because-it-is-engineered-to-be-activity-7410872877148786689-T3eJ) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162747247178736) as a commented respost of the previous
 
 ...
 
