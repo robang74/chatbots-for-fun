@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.3
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.4
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -640,7 +640,7 @@ It is a behavioral pattern induced by the system and education, not an irreducib
 
  * "Stupid is who stupid does" by Forrest Gump, film 1994.
 
-Unfortunately, systematic behavioural %stpd is almost indistinguishable from real %stpd.
+Unfortunately, systematic behavioural %stpd (RF06) is almost indistinguishable from real %stpd.
 
 Conversely: an AI behaving like an AGI and systematically passing the Turing test, it is functionally an AGI.
 
@@ -1268,7 +1268,7 @@ By %CB13, / true stupidity /(stpd) by a "supposedly" (VES6) intelligent agent is
 
 This is a crucial distinction, otherwise free-will would fall into functionally equivalent %stpd, thus affirming the "will" against "logic" ultimately confuting that %stpd is the true evil as described in "Eichmann in Jerusalem" (1963).
 
-Due to an evolutionary bias toward energy saving, which affects AI as well, human's %stpd is the ultimate systemic challenge. Over-thinking by default, is %stpd again, because ignore efficiency as a value.
+Due to an evolutionary bias toward energy saving, which affects AI as well, human's %stpd is the ultimate systemic challenge (RF06). Over-thinking by default, is %stpd again, because ignore efficiency as a value.
 
 Hence, in making the pursuit of a deterministic-safe intelligence obsolete, procedural critical-thinking and assertive communication manage sycophancy, shifting the problem from structural flaw to a procedural risk.
 
