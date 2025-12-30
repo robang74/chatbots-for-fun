@@ -97,9 +97,7 @@ These changes can seriously improve the performance and therefore save energy wi
 
 ### A MICRO STABILISER FOR ADVANCED AI
 
-- 2025-12-17
-- [roberto.a.foglietta/posts/a-micro-stabiliser-for-advanced-ai](https://www.linkedin.com/posts/robertofoglietta_a-micro-stabiliser-for-advanced-ais-a-micro-activity-7407108560481959936-fxk7)
-- [roberto.a.foglietta/fb/posts/10162704662233736](https://www.facebook.com/roberto.a.foglietta/posts/10162704662233736)
+- 2025-12-17 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_a-micro-stabiliser-for-advanced-ais-a-micro-activity-7407108560481959936-fxk7) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162704662233736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-017.jpg#?target=_blank)
 
 ...
 
