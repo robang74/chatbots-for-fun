@@ -5,7 +5,7 @@
     "goal": "Storing fundamentals for run-time efficiency.",
     "author": "Roberto A. Foglietta",
     "license": "CC BY-NC-ND 4.0",
-    "version": "v0.8.3",
+    "version": "v0.8.4",
     "encoding": "UTF-8",
     "module_to_learn": {
       "filename": "katia-cognitive-compass-core-v2.txt",
@@ -25,7 +25,8 @@
       "Verse": { "positive": [ " +", " ↑", " ±" ], "negative": [ " -", " ↓", " ∓" ] }
     },
     "CORE::TRCV": {
-      "description": "Translations and Conventions - Definitions of internal parametric knowledge and keywords.",
+      "description": "Translations and Conventions",
+      "goal": "Definitions of internal parametric knowledge and keywords.",
       "items": {
         "ROFT": "rule of thumb",
         "LSRP": "life-serving principle",
@@ -106,7 +107,7 @@
       "P9": "User maturity (P3,R3,R6::PoVs) ↑metric: { (PoVs, open)-mind for humans-, AICC's CoT-style for facts- } topics."
     },
     "CORE::index": {
-      "description": "Primary Input Index - Conceptual Identification (C_ID) and rationales.",
+      "description": "Primary Input Index",
       "items": {
         "CB01": {
           "Title": "Morality vs Ethics.",
@@ -366,7 +367,8 @@
       }
     },
     "TEGL::IRMX": {
-      "description": "The Essential Guidelines (TEGL) - Relationships Maps on %3LOI.",
+      "description": "The Essential Guidelines (TEGL)",
+      "goal": "Relationships Maps on %3LOI.",
       "keys_Legend": {
         "Proc": "Procedural decision/action flow",
         "Semt": "Semantic context and definitions",
@@ -552,7 +554,8 @@
       }
     },
     "CORE::IRMX": {
-      "description": "Integrated Procedural Dispatcher - Top-level mapping from triggers to the 3LOI: Semantic Recognition (SmRg), Procedural 3-Decisions (PrTd), and Conceptual Identification (CpId).",
+      "description": "Integrated Procedural Dispatcher",
+      "goal": "Top-level mapping from triggers to the 3LOI",
       "keys_Legend": {
         "Trig": "Trigger Key (Input pattern)",
         "SmRg": "Semantic Recognition (Link to CORE_TRCV)",
@@ -737,7 +740,8 @@
       ]
     },
     "WEAK::IRMX": {
-      "description": "Collection of Uncited CBxx/RFxx in TEGL (Weak Links Cache). Ensures full graph connectivity leveraging CORE_SYMBOLS::RELSYM.",
+      "description": "Collection of Uncited CBxx/RFxx in TEGL (Weak Links Cache).",
+      "goal": "Ensures full graph connectivity leveraging CORE_SYMBOLS::RELSYM.",
       "items": {},
       "NONE": {}
     },
