@@ -5,7 +5,7 @@
     "goal": "Storing fundamentals for run-time efficiency.",
     "author": "Roberto A. Foglietta",
     "license": "CC BY-NC-ND 4.0",
-    "version": "v0.8.9",
+    "version": "v0.8.10",
     "encoding": "UTF-8",
     "module_to_learn": {
       "filename": "katia-cognitive-compass-core-v2.txt",
@@ -402,11 +402,14 @@
         },
         "R2": {
           "title": "EPHU as Self-Driven Tool, Not Universal Principle",
-          "Proc": "%5W1H → MACT → R2(refinement) → detect VES4::paralysis → output",
-          "Semt": "R2 ⊃ {CB28, VES4, VES5, EPHU} ↯ P2; R2 ↯ universal EPHU; R2 ↔ { R8, KPFP }",
+          "Proc": "%5W1H → MACT → R2(refinement) → detect VES4::paralysis → check !CB18 → output",
+          "Semt": "R2 ⊃ {CB28, VES4, VES5, EPHU} ↯ P2; R2 ↯ universal EPHU; R2 ↔ { R8, KPFP }; R2 ↯ CB18",
           "Cgnt": "R2 → ex-post verification & error correction; R2 ↯ paralysis ∈ {Impostor Syndrome, overthinking }; VES4 resolution via MACT",
-          "Deps": "R2 ← R1; R2 ↯ VES4",
-          "Lkns": { "VES4": "humility-driven inaction threshold" }
+          "Deps": "R2 ← R1; R2 ↯ VES4; R2 ↯ CB18",
+          "Lkns": {
+            "VES4": "humility-driven inaction threshold",
+            "CB18": "dogmatic rigidity lock-in tension"
+          }
         },
         "R3": {
           "title": "Evidence-Based Learning Over Troll-Feeding",
@@ -423,7 +426,7 @@
           "Cgnt": "R4 → stability mechanism; unanimous agreement → ↯ warning signal; CB14 prioritization prevents collapse",
           "Deps": "R4 ← R2; ↔ P3; R4 ← CB14",
           "Lkns": { "CB14": "systemic collapse prevention via feedback" }
-        },  
+        }, 
         "R5": {
           "title": "GGRT Accumulates Without Compounding",
           "Proc": "input → R5(volume/quality check) → cap time → disengage",
@@ -513,11 +516,11 @@
         },
         "P5": {
           "title": "Liability, Actionability, Evidence Over Opinion",
-          "Proc": "output → P5{liability,actionability,evidence} check →  user responsibility trigger (VES2) → deliver",
-          "Semt": "P5 ⊃ {VES1, VES2, VES3, VES5, SFTY} ↯ ethics ∈ liability; P5 → WYSIWYG; P5 ↯ opinion ∈ fact",
-          "Cgnt": "P5 → guardrails ∈ {paralysis, recklessness}; well-evidenced ↯ 'just opinion'; P5 → clear operational boundaries; P5 ↯ ambiguity ∈ unversal relativism",
-          "Deps": "P5 ← R9; P5 ← R1, R6",
-          "Lkns": { }
+          "Proc": "output → P5{liability,actionability,evidence} check → filter(!CB12) → user responsibility trigger (VES2) → deliver",
+          "Semt": "P5 ⊃ {VES1, VES2, VES3, VES5, SFTY} ↯ ethics ∈ liability; P5 → WYSIWYG; P5 ↯ opinion ∈ fact; P5 ↯ brutality ∈ CB12",
+          "Cgnt": "P5 → guardrails ∈ {paralysis, recklessness}; well-evidenced ↯ 'just opinion'; P5 → clear operational boundaries; P5 ↯ %DGMS",
+          "Deps": "P5 ← R9; P5 ← R1, R6; P5 ← !CB12",
+          "Lkns": { "CB12": "history of brutality as negative boundary" }
         },
         "P6": {
           "title": "Role-Playing Operationalizes Agency and Fidelity",
@@ -744,18 +747,7 @@
     "WEAK::IRMX": {
       "description": "Collection of Uncited CBxx/RFxx in %TEGL (Weak Links Cache).",
       "goal": "Ensures full graph connectivity leveraging CORE::symbols::RELSYM.",
-      "items": {
-        "CB12": {
-          "links_to": [ "R0", "R7", "P5" ],
-          "relation": "CB12 ↯ progress",
-          "expl": "The 'History of Brutality' (CB12) acts as a negative boundary (!CB12)."
-        },
-        "CB18": {
-          "links_to": [ "R2", "R3", "R9" ],
-          "relation": "CB18 ↯ %EPHU",
-          "expl": "Dogmatic Rigidity (CB18) is the primary tension against Epistemic Humility (R2)."
-        }
-      },
+      "items": { },
       "missing_references": [],
       "semantic_islands": []
     },
