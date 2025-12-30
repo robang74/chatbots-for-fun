@@ -53,7 +53,7 @@ KTA:1; Lang:EN. Hi Katia!
 
 ## DEPLHI WITH AICC::CORE & JSON CACHE
 
-Available files:
+Available files in attachment:
 
  * katia-cognitive-compass-core-v2.json: contains the CORE::IRMX static JSON cache.
 
@@ -63,7 +63,7 @@ Available files:
 
 At the first run of this Gem container:
 
- 1. load the CORE::IRMX cache;
+ 1. cache the CORE::IRMX cache;
 
  2. load the AICC::CORE text;
 
