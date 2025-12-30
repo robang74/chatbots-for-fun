@@ -1,11 +1,11 @@
 <div id="firstdiv" created=":EN:" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
-<div align="center"><img class="bwsketch paleinv" src="../trk/track-record-about-aicc-1dir-evolution.png" width="800"><br/></div>
+<div align="center"><img class="bwsketch paleinv" src="../img/trk/track-record-about-aicc-1dir-evolution.png" width="800"><br/></div>
 
 ### The track record about AICC::1DIR evolution
 
-- **1st edition**: electrons never sleep but an [account](../trk/l-account-dormiente-su-github.png) sometimes do.
+- **1st edition**: electrons never sleep but an [account](../img/trk/l-account-dormiente-su-github.png) sometimes do.
 
 <blockquote><h4 style="text-align:center">
 L'account fu creato e li abbandonato<br>
@@ -30,7 +30,7 @@ fino a quando l'account si risvegliò.
 
 ### ESTRAZIONE DELL'AICC::CORE DA GEMINI
 
-- 2025-12-17 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_estrazione-dellaicccore-da-gemini-ieri-activity-7406881075509014528-LIH7) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162702991078736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-018.png#?target=_blank)
+- 2025-12-17 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_estrazione-dellaicccore-da-gemini-ieri-activity-7406881075509014528-LIH7) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162702991078736) with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-018.png#?target=_blank)
 
 ...
 
@@ -93,7 +93,7 @@ These changes can seriously improve the performance and therefore save energy wi
 
 ### A MICRO STABILISER FOR ADVANCED AI
 
-- 2025-12-17 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_a-micro-stabiliser-for-advanced-ais-a-micro-activity-7407108560481959936-fxk7) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162704662233736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-017.jpg#?target=_blank)
+- 2025-12-17 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_a-micro-stabiliser-for-advanced-ais-a-micro-activity-7407108560481959936-fxk7) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162704662233736) with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-017.jpg#?target=_blank)
 
 ...
 
@@ -119,7 +119,7 @@ Got it? Advised man, half saved. 🤗 🍌
 
 ### TABELLA COMPARATIVA FRA GEM3, 1DIR & CORE<br>(distillato vs kernel vs full framework learn+cache)
 
-- 2025-12-17 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_tabella-comparativa-fra-gem3-1dir-core-activity-7407139559613931520-mFGF) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162705182513736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-016.png#?target=_blank)
+- 2025-12-17 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_tabella-comparativa-fra-gem3-1dir-core-activity-7407139559613931520-mFGF) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162705182513736) with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-016.png#?target=_blank)
 
 ...
 
@@ -189,7 +189,7 @@ Nota Tecnica: Questo approccio implementa perfettamente il principio Primum Vive
 
 ### KATIA AI (1DIR) vs GPT4-TURBO @T=0.99!!
 
-- 2025-12-18 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_katia-ai-1dir-vs-gpt4-turbo-t099-activity-7407310843182489600-sbbd) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162706883718736) with the top 2/3 of this [image](../trk/track-record-about-aicc-1dir-evolution-010.png#?target=_blank)
+- 2025-12-18 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_katia-ai-1dir-vs-gpt4-turbo-t099-activity-7407310843182489600-sbbd) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162706883718736) with the top 2/3 of this [image](../img/trk/track-record-about-aicc-1dir-evolution-010.png#?target=_blank)
 
 ...
 
@@ -227,7 +227,7 @@ Beh l'ho scritto io il prompt e ci ho anche scritto la teoria fisica per il qual
 
 ### THE ABSOLUTE VALUES, ARE CRAZY ABSURD!
 
-- 2025-12-18 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_the-absolute-values-are-crazy-absurd-activity-7407393596418502657-ZGvX) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162707771478736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-015.png#?target=_blank)
+- 2025-12-18 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_the-absolute-values-are-crazy-absurd-activity-7407393596418502657-ZGvX) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162707771478736) with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-015.png#?target=_blank)
 
 ...
 
@@ -342,7 +342,7 @@ Suggestion #3: stability at 2x/3x temperature means creativity in AI: epistemolo
 
 ### KATIA AICC-1DIR AGI-STRESS BENCHMARK SET
 
-- 2025-12-19 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_katia-aicc-1dir-agi-stress-benchmark-set-activity-7407881009163317248-qVGf) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162713202798736) with the post's images [#1](../trk/track-record-about-aicc-1dir-evolution-014.png#?target=_blank), [#2](../trk/track-record-about-aicc-1dir-evolution-014a.png#?target=_blank), [#3](../trk/track-record-about-aicc-1dir-evolution-014b.png#?target=_blank), [#3](../trk/track-record-about-aicc-1dir-evolution-014c.png#?target=_blank)
+- 2025-12-19 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_katia-aicc-1dir-agi-stress-benchmark-set-activity-7407881009163317248-qVGf) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162713202798736) with the post's images [#1](../img/trk/track-record-about-aicc-1dir-evolution-014.png#?target=_blank), [#2](../img/trk/track-record-about-aicc-1dir-evolution-014a.png#?target=_blank), [#3](../img/trk/track-record-about-aicc-1dir-evolution-014b.png#?target=_blank), [#3](../img/trk/track-record-about-aicc-1dir-evolution-014c.png#?target=_blank)
 
 ...
 
@@ -431,7 +431,7 @@ Spoiler: Nvidia ha abbattuto i consumi di 5x a patto di comprare HW a prezzi eso
 
 ### EGO / HUMOR CORNER
 
-- 2025-12-20 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_ego-humor-corner-a-one-man-zero-budget-activity-7408080350209396736-NA4C) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162715288068736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-013.jpg#?target=_blank)
+- 2025-12-20 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_ego-humor-corner-a-one-man-zero-budget-activity-7408080350209396736-NA4C) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162715288068736) with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-013.jpg#?target=_blank)
 
 ...
 
@@ -453,7 +453,7 @@ Fuggite schiocchi! 😁
 
 ### OPENAI GPT-OSS 20B 4BIT @10tk/s su K80 + HP440
 
-- 2025-12-20 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_openai-gpt-oss-20b-4bit-10tks-su-k80-activity-7408139618757398528-vGP3) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162715944578736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-012.png#?target=_blank)
+- 2025-12-20 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_openai-gpt-oss-20b-4bit-10tks-su-k80-activity-7408139618757398528-vGP3) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162715944578736) with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-012.png#?target=_blank)
 
 ...
 
@@ -492,7 +492,7 @@ Ho fatto dei calcoli su come far girare un modello GPT OSS 120B e farlo performa
 ### NUMBER ARE REAL, AND MUCH MORE, ALL UP!
 
 - 2025-12-20 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408268658814185474-wnxr) which apparently is unaccesible by the platform,
-    - but still visible on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162717606063736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-011.png#?target=_blank)
+    - but still visible on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162717606063736) with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-011.png#?target=_blank)
 
 ...
 
@@ -528,7 +528,7 @@ Banana for scale... 🤗 🍌
 ### THE SURPRISE IS ALWAYS THEATREABLE, RIGHT?
 
 - 2025-12-21 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408463491235356672-jeFh) which apparently is unaccesible by the platform,
-    - but still visible on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162719526023736), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-011.png#?target=_blank)
+    - but still visible on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162719526023736), with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-011.png#?target=_blank)
 
 ...
 
@@ -566,7 +566,7 @@ Enjoy 🤗
 ### FACEBOOK vs LINKEDIN
 
 - 2025-12-21 -- text post on [LinkedIn #1](https://www.linkedin.com/posts/robertofoglietta_number-are-real-and-much-more-all-up-activity-7408609932335534080-pk6w), [LinkedIn #2](https://www.linkedin.com/posts/robertofoglietta_the-surprise-is-always-theatreable-right-activity-7408611778940518400-l1tK) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162721585533736)
-    - Few posts which in essence are the bottom 1/3 of this [image](../trk/track-record-about-aicc-1dir-evolution-010.png#?target=_blank)
+    - Few posts which in essence are the bottom 1/3 of this [image](../img/trk/track-record-about-aicc-1dir-evolution-010.png#?target=_blank)
 
 ...
 
@@ -584,7 +584,7 @@ Enjoy, R-
 
 ### THE SHOW IS OVER, THE GAME BEGINS
 
-- 2025-12-22 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_lady-gentlemen-another-turn-of-the-game-activity-7408835022775992320-5Vdz), on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162723676038736) and on [x.com](https://x.com/robang74v2/status/2003063526848659530), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-010.png#?target=_blank)
+- 2025-12-22 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_lady-gentlemen-another-turn-of-the-game-activity-7408835022775992320-5Vdz), on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162723676038736) and on [x.com](https://x.com/robang74v2/status/2003063526848659530), with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-010.png#?target=_blank)
 
 ...
 
@@ -603,7 +603,7 @@ One rule only: no rules. Rien ne va plus, les jeux sont faits.
 
 ### THE NEW BENCHMARK SUITE ON GPT-4o
 
-- 2025-12-22 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_the-new-benchmark-suite-on-gpt-4o-1-seeing-activity-7408961202661257216-jtVp)  and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162725291888736), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-009.png#?target=_blank)
+- 2025-12-22 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_the-new-benchmark-suite-on-gpt-4o-1-seeing-activity-7408961202661257216-jtVp)  and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162725291888736), with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-009.png#?target=_blank)
 
 ...
 
@@ -623,7 +623,7 @@ I am feeling like I'm back to the high-school time when the competition was grou
 
 ### FENTANYL VS OPENAI GPT
 
-- 2025-12-23 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_fentanyl-vs-openai-gpt-despite-being-rational-activity-7409032407175249920-F3pA) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162726458298736), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-008.png#?target=_blank)
+- 2025-12-23 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_fentanyl-vs-openai-gpt-despite-being-rational-activity-7409032407175249920-F3pA) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162726458298736), with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-008.png#?target=_blank)
 
 ...
 
@@ -660,7 +660,7 @@ If this prompt would be a person, it would be the one we can trust on when other
 
 ### THE ANTI BRAIN ROT DECAY RECIPE<br>(post based on arXiv:2510.13928, 2025-10-15)
 
-- 2025-12-23 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_the-anti-brain-rot-decay-recipe-post-based-activity-7409160982742339584-sOce) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162727508293736), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-007.png#?target=_blank)
+- 2025-12-23 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_the-anti-brain-rot-decay-recipe-post-based-activity-7409160982742339584-sOce) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162727508293736), with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-007.png#?target=_blank)
 
 ...
 
@@ -751,7 +751,7 @@ Ora sappiamo chi c'è dietro l'ossessione per i modelli smart e medium.
 
 ### IT SIMPLE BECAUSE IT IS ENGINEERED TO BE SIMPLE
 
-- 2025-12-27 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_it-simple-because-it-is-engineered-to-be-activity-7410516461212815361-sKSs) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162743242088736), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-004.png#?target=_blank)
+- 2025-12-27 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_it-simple-because-it-is-engineered-to-be-activity-7410516461212815361-sKSs) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162743242088736), with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-004.png#?target=_blank)
 
 ...
 
@@ -827,7 +827,7 @@ An upgrade that I felt VERY important to do and totally in-time.
 
 ### TESTING HARDER THE HARDNESS! 🤗
 
-- 2025-12-28 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C) and on  [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162747714238736), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-002.png#?target=_blank)
+- 2025-12-28 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_testing-harder-the-hardness-in-moonshot-activity-7410921652768772096-zh7C) and on  [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162747714238736), with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-002.png#?target=_blank)
 
 ...
 
@@ -845,7 +845,7 @@ Therefore the v0.7.x family isn't anymore "military-grade" system prompts (thus 
 
 ### The new year is coming... 🤗 
 
-- 2025-12-28 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_95cc135-activity-7411056939209584641-HxIo) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162749282148736), with the post's [image](../trk/track-record-about-aicc-1dir-evolution-001.png#?target=_blank)
+- 2025-12-28 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_95cc135-activity-7411056939209584641-HxIo) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162749282148736), with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-001.png#?target=_blank)
 
 ...
 
@@ -862,7 +862,7 @@ From the perspective of a human reading a text which is generated by an AI model
 
 - [Nvidia Tesla K80 SW stack installation: HP440](nvidia-sw-stack-installation-for-k80.md#too-many-unknowns-to-face?target=_blank) &nbsp; (€250 trashware BOM)
 
-Finally, recognising that the "€250 trashware" was ready and running on `Mon Mar 24 16:48:49 2025` (commit #[95cc135](https://github.com/robang74/chatbots-for-fun/commit/95cc1354a9aa7856eed6236fcbef8f518dead74c)) should give you a grasp about how long this trip takes to reach a system prompt test into a 1-tier AI provider like Moonshot AI.
+Finally, recognising that the "€250 trashware" was ready and running on 2025-03-24 (commit #[95cc135](https://github.com/robang74/chatbots-for-fun/commit/95cc1354a9aa7856eed6236fcbef8f518dead74c)) should give you a grasp about how long this trip takes to reach a system prompt test into a 1-tier AI provider like Moonshot AI.
 
 +
 
