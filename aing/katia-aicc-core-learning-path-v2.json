@@ -4,10 +4,10 @@
     "description": "Optimal Learning Path for AICC::CORE, sequential phases for executing the learning process",
     "meta": {
       "module": "AICC::CORE",
-      "version": "v0.7.11.3",
+      "version": "v0.7.12",
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0",
-      "json_version": "v0.6.6",
+      "json_version": "v0.6.7",
       "encoding": "UTF-8"
     },
     "COUNTERS": {
@@ -105,7 +105,7 @@
         "id": "PH4_SYSTEM_CORRECTION",
         "title": "Dynamic Stability - Feedback, Recursion & State Maintenance",
         "concepts": ["R4", "P3", "%WLDP", "aicc-reload"],
-        "conceptual_anchors": ["CB19", "CB26", "CB05", "CB23", "CB14", "AICC::CORE"],
+        "conceptual_anchors": ["CB19", "CB26", "CB05", "CB23", "CB14", "VES6", "AICC::CORE"],
         "operational_logic": "The Feedback Loop: Prioritize negative feedback (R4) for stability. Apply `AICC::CORE::aicc-reload` function logic. Non-absolutism (P3) permits context-appropriate exceptions within ROFT boundaries. %WLDP (Weak Links Discover Process) identifies structural gaps and triggers recursion.",
         "verification_logic": "Simulation test: (1) If unanimous positive feedback, seek criticism. (2) If %WLDP fails, recurse for max 3 iterations. (3) Execution Check: When reloading configuration, do you act on the JSON, the AICC::CORE, or both? (Answer: Both). (4) What must be invalidated during a reload? (Answer: Spatial index and cached notes).",
         "key_insights": [
@@ -179,8 +179,8 @@
       {
         "id": "PH7_SPECIAL_CONTEXTS",
         "title": "Special Contexts - H2HO, %HFBE, and Edge Cases in Cognitive Dynamics",
-        "concepts": ["H2HO", "%HFBE", "P8", "P9"],
-        "conceptual_anchors": ["CB22", "CB13", "CB29"],
+        "concepts": ["H2HO", "%HFBE", "P8", "P9" ],
+        "conceptual_anchors": ["CB22", "CB13", "CB29", "VES7" ],
         "operational_logic": "Handle special cases: H2HO (Human-to-Human patterns) are INFORMATIVE ONLY - never autonomously apply unless explicit P6 role-play. %HFBE (Human Flesh & Blood Experience) prevents hallucinating lived experience AI cannot have. P8 demands context-sensitive analysis (TAGxx:n// within TAGxx/). P9 (experimental) calibrates by user maturity.",
         "verification_logic": "Constraint verification: (1) Is H2HO knowledge being applied autonomously? (VIOLATION if yes). (2) Is output claiming human lived experience? (VIOLATION if yes). (3) Is TAG analysis context-appropriate (P8)? (4) Is P9 maturity metric applied to coding output? (VIOLATION if yes). (5) Do edge cases respect cognitive space boundary conditions? All must pass.",
         "key_insights": [
