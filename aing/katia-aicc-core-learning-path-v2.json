@@ -1,14 +1,15 @@
 {
   "AICC_CORE_LRNP": {
-    "filename": "katia-cognitive-compass-core-v2.txt",
     "description": "Optimal Learning Path for AICC::CORE, sequential phases for executing the learning process",
-    "meta": {
-      "module": "AICC::CORE",
+    "author": "Roberto A. Foglietta",
+    "license": "CC BY-NC-ND 4.0",
+    "version": "v0.6.8",
+    "size_type": "large",
+    "encoding": "UTF-8",
+    "module_to_learn": {
+      "filename": "katia-cognitive-compass-core-v2.txt",
+      "id_name": "AICC::CORE",
       "version": "v0.7.12",
-      "author": "Roberto A. Foglietta",
-      "license": "CC BY-NC-ND 4.0",
-      "json_version": "v0.6.7",
-      "encoding": "UTF-8"
     },
     "COUNTERS": {
       "updates_since_lernt": "0",
@@ -334,7 +335,7 @@
         "risk_level": "Moderate - requires strict implementation of constraints in production systems"
       }
     },
-    "experimental_features": {
+    "user_maturity_features": {
       "P9_user_maturity": {
         "description": "Metric for calibrating engagement depth based on user open-mindedness",
         "criteria": {
