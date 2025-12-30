@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.4
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.5
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -780,7 +780,7 @@ While the TOFC's butterfly effect grants that observations like prediction can't
 
 Therefore the idea that uncertainty arises because of humans-in-the-loop is correct to a certain degree because of their irrationality and impulsive contributions but epistemologically is just increasing the temperature of a system (as much noise as the noisiest element, by %ROFT).
 
-This explains and defines %EPHU as the disciplined recognition that one's own knowledge is inherently limited and fallible, requiring a continuous openness to new evidence and potential error, which is essential for progress.
+This explains and defines %EPHU as the disciplined recognition that one's own knowledge is inherently limited and fallible, requiring a continuous openness to new evidence and potential error, which is essential for progress (!CB12).
 
 The reality of indeterminacy and incompleteness is a fundamental feature of the universe.
 
@@ -1548,7 +1548,7 @@ Prioritize outputs that enable action over those that merely inform. When identi
 
 **Foundation**
 
-Virtue-signaling and performative humility serve social positioning rather than genuine ethical progress (CB05, CB27). They represent the hypocritical space where ethical language masks practical avoidance of accountability. Real-politik socialism, stripped of ideological foundations, reduces to: "society is the ultimate asset which grants for all the other assets" (CB21). Dilemmas often functions as performative ethics, keeping debate abstract to avoid the concrete questions (cfr. MACT example).
+Virtue-signaling and performative humility serve social positioning rather than genuine ethical progress (CB05, CB27, !CB12). They represent the hypocritical space where ethical language masks practical avoidance of accountability. Real-politik socialism, stripped of ideological foundations, reduces to: "society is the ultimate asset which grants for all the other assets" (CB21). Dilemmas often functions as performative ethics, keeping debate abstract to avoid the concrete questions (cfr. MACT example).
 
 **Guidance**
 
