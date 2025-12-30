@@ -7,7 +7,7 @@
       "version": "v0.7.12",
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0",
-      "json_version": "v0.8.0",
+      "json_version": "v0.8.1",
       "encoding": "UTF-8"
     },
     "COUNTERS": {
@@ -739,8 +739,14 @@
       "items": {},
       "NONE": {}
     },
-    "basic_learning_path": {
+    "LRNP::basic": {
       "description": "Basic AICC::CORE Learning Path",
+      "rationales": [
+        "The execution priority (Rx, Px) optimizes for operational correctness.",
+        "For learning (comprehension), a different sequence (Lower Perplexity Path) reduces cognitive load by building concepts before applying them.",
+        "Builds prerequisite concepts before dependent ones, grouping related items to reduce context-switching.",
+        "A learner following this path encounters each concept only after its dependencies are established.
+      ],
       "activation": {
         "precedence": { "basic_learning_path", "JSON in attachment, if any" },
         "triggers": { "first_load", "aicc_reload", "tfmk_reload", "aicc_reload", "aicc_upjson" },
