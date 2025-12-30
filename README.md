@@ -188,7 +188,7 @@ The articles are listed here below, grouped by topic:
 <span id="uncategorised"></span>
 * **Yet uncategorised articles** &nbsp; (23 pz.)
 
-   - 2025-12-09 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-mu-theory-as-ai-testing-framework.md)] - [The mu-theory as AI testing framework](the-mu-theory-as-ai-testing-framework.md)
+   - 2025-12-09 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-mu-theory-as-ai-testing-framework.md)] - [The mu-theory as AI testing framework](the-mu-theory-as-ai-testing-framework.md) &nbsp; (3rd edt.)
 
    - 2025-12-07 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/il-concetto-di-trans-mesmerica-nelle-ai.md)] - [Il concetto di trans mesmerica nelle AI](il-concetto-di-trans-mesmerica-nelle-ai.md)
 

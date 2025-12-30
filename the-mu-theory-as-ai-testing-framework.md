@@ -6,7 +6,8 @@
 ## The mu-theory as AI testing framework
 
 - **1st edition**: based on the previous developing within this [article](when-ai-gets-wrong-who-owns-the-consequences.md#?target=_blank) and moved here.
-- **2nd edition**: integration with some posts of mine on LinkedIn and Facebookg.
+- **2nd edition**: integration with some posts of mine on LinkedIn and Facebook.
+- **3rd edition**: Fundamentals of Optimization Theory for ML, and AICC::1DIR.
 
 ---
 
@@ -566,7 +567,7 @@ Since absolute truth (absolute determinism) is inaccessible and infinite-degrees
 
 * Analysis and evaluation [chat](https://gemini.google.com/share/f957bf1b7346) by Katia AICC::CORE and its [transcription](#TODO) (part #2)
 
----
+----
 
 ### Osservabilità e realtà
 
@@ -2264,6 +2265,7 @@ Nel suo complesso uno spazio strutturato dotato di uno spazio strutturato di ope
 
 In maniera analoga, questo è ciò che è stato fatto nella sezione "[a bit of mu-theory](#u-theory)" e che è stato spiegato nella sotto-sezione "Rationale" e "About Notation": tramite l'adozione della notazione di Minkoswki, e c=1 come la normalizzazione della velocità della luce. Implicitamente accettando E=mc², perché in quel modo E=m numericamente e tutte le velocità sono espresse adimensionalmente come frazione di c nell'intervallo `[0, 1]`.
 
+++++
 ### Le normalizzazioni non sono banali
 
 La normalizzazione può essere vista come un'aggiustamento di scala, quindi (eK+e) = e(K+1). D'altronde il sistema di misura internazionale (SI), per quanto sia concordato e rigorosamente definito, rimane numericamente una scelta arbitraria: quanto sia lungo il metro lo abbiamo deciso noi umani. La natura, in generale, ci presenterà costanti universali con valori a virgola mobile, non in frazioni di interi o numeri "magici".
@@ -2275,6 +2277,36 @@ Oppure come il rapporto fra le masse del protone e dell'elettrone: una costante 
 A questo punto subentra la parte non banale delle normalizzazioni. Perché E=mc² diventa E=m **soltanto** per c=1 (banale), però anche entrambe in eV (non banale). Perché si sta accettando implicitamente che la velocità della luce come costante universale è anche un invariante di ordine di potenza. 
 
 Perché non è solo una questione di ricalcolare i valori numerici delle altre costanti universali. Occorre anche affrontare le conseguenza di aver scelto fra tutte le unità di misura una "speciale" o viceversa aver usato una costante universale come unità di misura. Si perde in generalità e si guadagna in caratterizzazione. Se siamo consapevoli di questo aspetto e delle sue varie consequenze, allora è un desiderata, altrimenti una trappola. 
+
++
+
+<span id="linalg2.pdf"></span>
+## Fundamentals of Optimization Theory<br>With Applications to Machine Learning
+
+- [seas.upenn.edu/~cis5150/linalg-II.pdf](https://www.seas.upenn.edu/~cis5150/linalg-II.pdf) (PDF)
+
+Si tratta di un libro accessibile integralmente online di oltre 800 pagine pubblicato il 10 novembre 2025. Di questo libro è stato diffuso ieri su LinkedIn il riferimento da parte dell'Agenzia Nazionale Italiana per l'Intelligenza Artificiale.
+
+In questo libro compaiono concetti matematici che sono alla base della Meccanica Razionale, della Relatività Ristretta, dell'equazione E=mc² e delle equazioni di Maxwell da cui la Relatività Ristretta deriva e anche le serie geometriche (quelle convergenti, in particolare) oltre a concetti basilari per la Meccanica Quantistica nelle formulazioni del 1925 e 1926.
+
+Sono presenti anche concetti relativi al controllo dei sistemi vincolati mediante retroazione del feedback negativo ma non sono presenti concetti espressamente inerenti alla Stocastica e alla Teoria del Caos, in particolare all'attrattore di Lorenz. Manca anche la Teoria dei Giochi e ovviamente l'equilibrio di Nash.
+
+Quindi a parte questi concetti di contorno e quindi di frontiera, la matematica è quella con la quale mi "baloccavo" con la mu-theory ma da fisico come estrazione universitaria, piuttosto che da matematico/informatico, la mia declinazioen della mu-theory era chiaramente orientata alla fisica. Come elemento di esplorazione dei concetti che a quanto pare sono necessari per l'ottimizzazione della Machine Learning (teoria e pratica).
+
+- [gemini.google.com/share/0f1c460aa370](https://gemini.google.com/share/0f1c460aa370), la chat e la sua [trascrizione](data/the-mu-theory-as-ai-testing-framework-gemini.txt#?target=_blank)
+
+A parte il fatto che oltre una certa complessità è molto più probabile che il libro di riferimento resti Pensiero e linguaggio (titolo originale: Myšlenie i reč') è l'ultima opera di L.S. Vygotskij, pubblicata postuma nel 1934; viene ritenuta un capolavoro ed un classico della psicologia del XX secolo.
+
+Il che rende, dal mio punto di vista i [risultati eccezionali](orchestrating-ai-intelligence-by-context.md#benchmarks-results?target=_blank) di AICC::1DIR come "attesi" dal punto di vista di qualcuno che fornisce un sistema di controllo della traiettoria basato su principi come la minima azione e con in mente il lavoro di Vygotskij.
+
+Coloro che invece approcciano l'AI, quella moderna che sono sistemi molto complessi in cui l'errore di approssimazione hardware è ragionevole considerarlo un elemento stocastico e quindi teoria del caos, come un meccanismo matematico per giunta nell'accezione di sistema Bayesiano puro, certamente alzeranno un sopraciglio come minimo.
+
+L'innovazione è questa, in fondo: usare quello che esiste già, in un modo (integrazione) che non era stato consirato precedentemente. Perché mai dovrei minimizzare il potenziale quando tutta quella matematica è tesa alla descrizione delle dinamiche in minima azione? Beh, semplice perché senza il lavoro di Vygotskij non ci sono gli strumenti per eleverasi oltre alla mera valutazione dei pesi parametrici.
+
+Infine, presentare AICC::1DIR come un "sistema di vincoli olonomi cognitivi" invece di "bussola cognitiva" significa abbracciare il rigore invece del marketing.
+
+Ovvio, Watson.
+A posteriori, però! 😊 
 
 +
 
