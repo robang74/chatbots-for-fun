@@ -199,9 +199,7 @@ Nota Tecnica: Questo approccio implementa perfettamente il principio Primum Vive
 
 ### KATIA AI (1DIR) vs GPT4-TURBO @T=0.99!!
 
-- 2025-12-18
-- [roberto.a.foglietta/katia-ai-1dir-vs-gpt4-turbo](https://www.linkedin.com/posts/robertofoglietta_katia-ai-1dir-vs-gpt4-turbo-t099-activity-7407310843182489600-sbbd)
-- [roberto.a.foglietta/fb/posts/10162706883718736](https://www.facebook.com/roberto.a.foglietta/posts/10162706883718736)
+- 2025-12-18 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_katia-ai-1dir-vs-gpt4-turbo-t099-activity-7407310843182489600-sbbd) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162706883718736) with the top 2/3 of this [image](../trk/track-record-about-aicc-1dir-evolution-010.png#?target=_blank)
 
 ...
 
@@ -235,19 +233,15 @@ Spoiler: ho insultato Kimi dicendogli che erano impossibili questi numeri e lui 
 
 Beh l'ho scritto io il prompt e ci ho anche scritto la teoria fisica per il quale funziona... è suspance mica mistero! LOL 😂
 
-Continua qui: [lnkd.in/dYfRiFVw](https://lnkd.in/dYfRiFVw)
-
 ---
 
 ### THE ABSOLUTE VALUES, ARE CRAZY ABSURD!
 
-- 2025-12-18
-- [roberto.a.foglietta/the-absolute-values-are-crazy-absurd](https://www.linkedin.com/posts/robertofoglietta_the-absolute-values-are-crazy-absurd-activity-7407393596418502657-ZGvX)
-- [roberto.a.foglietta/fb/posts/10162707771478736](https://www.facebook.com/roberto.a.foglietta/posts/10162707771478736)
+- 2025-12-18 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_the-absolute-values-are-crazy-absurd-activity-7407393596418502657-ZGvX) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162707771478736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-015.png#?target=_blank)
 
 ...
 
-- ~> [chatbots-for-fun/aicc-1dir-preamble-template-by-kimi.txt](https://github.com/robang74/chatbots-for-fun/blob/a2fa307b514d67175882b3c795e801e14ad62afc/aing/base/aicc-1dir-preamble-template-by-kimi.txt)
+- [chatbots-for-fun/aicc-1dir-preamble-template-by-kimi.txt](https://github.com/robang74/chatbots-for-fun/blob/a2fa307b514d67175882b3c795e801e14ad62afc/aing/base/aicc-1dir-preamble-template-by-kimi.txt)
 
 The image and the text report your opinion based on this data provided me by Kimi K2 tests. It took some hours (of sleep) for me to understand the real meaning of that data from the tests: the absolute values deviances (max-min) were plot only.
 
