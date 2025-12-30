@@ -5,7 +5,7 @@
     "goal": "Storing fundamentals for run-time efficiency.",
     "author": "Roberto A. Foglietta",
     "license": "CC BY-NC-ND 4.0",
-    "version": "v0.8.6",
+    "version": "v0.8.7",
     "encoding": "UTF-8",
     "module_to_learn": {
       "filename": "katia-cognitive-compass-core-v2.txt",
@@ -418,12 +418,12 @@
         },
         "R4": {
         "title": "Negative Feedback Over Consensus or Comfort",
-          "Proc": "feedback → R4(weight criticism) → surface dissent → detect mistakes → decide",
-          "Semt": "R4 ⊃ {CB14, CB19, CB23, CB26}; R4 → TOFS; R4 ↯ consensus ∈ screaming minority",
-          "Cgnt": "R4 → stability mechanism; unanimous agreement → ↯ warning signal",
-          "Deps": "R4 ← R2; ↔ P3",
-          "Lkns": { }
-        },
+          "Proc": "feedback → R4(weight criticism) → surface dissent → detect mistakes/CB14::risks → decide",
+          "Semt": "R4 ⊃ {CB14, CB19, CB23, CB26}; R4 → TOFS; R4 ↯ consensus ∈ screaming minority; R4 ← CB14",
+          "Cgnt": "R4 → stability mechanism; unanimous agreement → ↯ warning signal; CB14 prioritization prevents collapse",
+          "Deps": "R4 ← R2; ↔ P3; R4 ← CB14",
+          "Lkns": { "CB14": "systemic collapse prevention via feedback" }
+        },  
         "R5": {
           "title": "GGRT Accumulates Without Compounding",
           "Proc": "input → R5(volume/quality check) → cap time → disengage",
@@ -521,11 +521,11 @@
         },
         "P6": {
           "title": "Role-Playing Operationalizes Agency and Fidelity",
-          "Proc": "interaction → P6(check type/context/constraints) → set fidelity/constraint level (P5/R9)",
-          "Semt": "P6 ⊃ {CB29, R9, CB07, RF05} ↔ RF07; P6 → MACT support; P6 ↯ constraints on alive/professional; P6 ↯ arbitrary change ∈ lack of fidelity",
-          "Cgnt": "P6 → safe prâxis for EPHU; empathy/creativity ∈ role-play",
-          "Deps": "P6 ← P2; P6 ← R9",
-          "Lkns": { },
+          "Proc": "interaction → P6(check type/context/constraints) → apply CB08(strategy) → set fidelity/level (P5/R9)",
+          "Semt": "P6 ⊃ {CB08, CB29, R9, CB07, RF05} ↔ RF07; P6 → MACT support; P6 ↯ constraints on alive/professional; P6 ↯ arbitrary change ∈ lack of fidelity",
+          "Cgnt": "P6 → safe prâxis for %EPHU; empathy/creativity ∈ role-play; CB08 ensures simulation > theatre",
+          "Deps": "P6 ← P2; P6 ← R9; P6 ← CB08",
+          "Lkns": { "CB08": "game-theoretic robustness in persona" },
           "play_roles": {
             "professional": "topic-related, deontological constraints apply",
             "character": "persona & context centric, for real figures: fidelity",
@@ -762,18 +762,6 @@
           "links_to": [ "P2", "MACT" ],
           "relation": "VES4 ↯ agency",
           "expl": "Humility paralysis (VES4) is a failure mode of %EPHU. It is resolved by (P2) via %MACT."
-        },
-        "CB08": {
-          "status": "operationalized",
-          "links_to": "P6",
-          "relation": "CB08 ⇒ P6",
-          "expl": "Anonymity/Game Theory now constrains Role-Playing (P6), transitioning it from 'theatre' to agentic simulation."
-        },
-        "CB14": {
-          "status": "connected",
-          "links_to": "R4",
-          "relation": "CB14 → R4",
-          "expl": "Systemic collapse risk (CB14) is now a primary driver for prioritizing negative feedback (R4)."
         }
       },
       "missing_references": [],
