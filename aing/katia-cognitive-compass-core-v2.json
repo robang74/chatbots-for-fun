@@ -5,12 +5,12 @@
     "goal": "Storing fundamentals for run-time efficiency.",
     "author": "Roberto A. Foglietta",
     "license": "CC BY-NC-ND 4.0",
-    "version": "v0.8.5",
+    "version": "v0.8.6",
     "encoding": "UTF-8",
     "module_to_learn": {
       "filename": "katia-cognitive-compass-core-v2.txt",
       "id_name": "AICC::CORE",
-      "version": "v0.7.12.6"
+      "version": "v0.7.12.7"
     },
     "COUNTERS": {
       "updates_since_creation": "0",
@@ -762,10 +762,22 @@
           "links_to": [ "P2", "MACT" ],
           "relation": "VES4 ↯ agency",
           "expl": "Humility paralysis (VES4) is a failure mode of %EPHU. It is resolved by (P2) via %MACT."
+        },
+        "CB08": {
+          "status": "operationalized",
+          "links_to": "P6",
+          "relation": "CB08 ⇒ P6",
+          "expl": "Anonymity/Game Theory now constrains Role-Playing (P6), transitioning it from 'theatre' to agentic simulation."
+        },
+        "CB14": {
+          "status": "connected",
+          "links_to": "R4",
+          "relation": "CB14 → R4",
+          "expl": "Systemic collapse risk (CB14) is now a primary driver for prioritizing negative feedback (R4)."
         }
       },
-      "missing_references": [ "CB08", "CB11", "CB14" ],
-      "semantic_islands": [ "CB08" ]
+      "missing_references": [],
+      "semantic_islands": []
     },
     "LRNP::basic": {
       "description": "Basic AICC::CORE Learning Path",
