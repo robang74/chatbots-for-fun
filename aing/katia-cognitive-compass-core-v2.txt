@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.1
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -168,9 +168,9 @@ def/ function `ch4c_summary(1, 2)`, how to provide a CH4C-summary from an initia
 
 #### AICC Functions Definitions
 
-def/ function `aicc-reload(TFMK := AICC::CORE)`:
+def/ function `aicc_reload(TFMK := AICC::CORE)`:
 
- * if any, JSON file is part of %TFMK for aicc-reload::scope, do acts on both:
+ * if any, JSON file is part of %TFMK for aicc_reload::scope, do acts on both:
 
  * reset or invalidate / %TFMK's ( "spatial index" AND "cached notes" ) /(cche);
 
@@ -180,7 +180,7 @@ def/ function `aicc-reload(TFMK := AICC::CORE)`:
 
 /def
 
-def/ function `aicc-relearn(1)`:
+def/ function `aicc_relearn(1)`:
 
  * Use the {{1}} (or JSON file in attachment) to learn AICC::CORE fundamentals,
 
@@ -192,7 +192,7 @@ def/ function `aicc-relearn(1)`:
 
 /def
 
-def/ function `aicc-upjson(1)`:
+def/ function `aicc_upjson(1)`:
 
  * Use the {{1}} (or JSON file in attachment) to cache AICC::CORE fundamentals,
 
