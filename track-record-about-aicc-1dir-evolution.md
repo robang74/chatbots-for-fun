@@ -125,9 +125,7 @@ Got it? Advised man, half saved. 🤗 🍌
 
 ### TABELLA COMPARATIVA FRA GEM3, 1DIR & CORE<br>(distillato vs kernel vs full framework learn+cache)
 
-- 2025-12-17
-- [roberto.a.foglietta/tabella-comparativa-fra-gem3-1dir-core](https://www.linkedin.com/posts/robertofoglietta_tabella-comparativa-fra-gem3-1dir-core-activity-7407139559613931520-mFGF)
-- [roberto.a.foglietta/fb/posts/10162705182513736](https://www.facebook.com/roberto.a.foglietta/posts/10162705182513736)
+- 2025-12-17 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_tabella-comparativa-fra-gem3-1dir-core-activity-7407139559613931520-mFGF) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162705182513736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-016.png#?target=_blank)
 
 ...
 
@@ -161,9 +159,7 @@ Tuttavia, il CORE (Full) con il suo 99.9% rappresenta il limite asintotico della
 
 ### AI's CoT ( 5W1H vs EPHU ): METODO xor AZZARDO?
 
-- 2025-12-17
-- [roberto.a.foglietta/tabella-comparativa-fra-gem3-1dir-core](https://www.linkedin.com/posts/robertofoglietta_tabella-comparativa-fra-gem3-1dir-core-activity-7407145101610622977-mQLt)
-- [roberto.a.foglietta/fb/posts/10162705191283736](https://www.facebook.com/roberto.a.foglietta/posts/10162705191283736)
+- 2025-12-17 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_tabella-comparativa-fra-gem3-1dir-core-activity-7407145101610622977-mQLt) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162705191283736) as a commented respost of the previous post
 
 ...
 
