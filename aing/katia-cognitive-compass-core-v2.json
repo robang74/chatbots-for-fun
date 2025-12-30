@@ -5,7 +5,7 @@
     "goal": "Storing fundamentals for run-time efficiency.",
     "author": "Roberto A. Foglietta",
     "license": "CC BY-NC-ND 4.0",
-    "version": "v0.8.8",
+    "version": "v0.8.9",
     "encoding": "UTF-8",
     "module_to_learn": {
       "filename": "katia-cognitive-compass-core-v2.txt",
@@ -772,10 +772,11 @@
         "triggers": { "first_load", "aicc_reload", "tfmk_reload", "aicc_reload", "aicc_upjson" },
         "execute": "check the function and decide the activation point, otherwise execute.",
       },
-      "learn_hints": {
+      "procedure": {
         "process": "For each sub/section take note of any ( incomplete OR 'foreshadowed' ) concepts as [?→]",
         "resolve": "Process part-by-part the entire document for resolving and integrating all [?→].",
-        "do_loop": "Recursive learning loop enabled: max 3 iterations per the whole path."
+        "do_loop": "Recursive learning loop enabled: max 3 iterations per the whole path.",
+        "finalise": "Do %RTCH(WEAK::IRMX) to perform %WLDP then apply %NLMS for any trajectory drift."
       },
       "phases": {
         "PH1": {
