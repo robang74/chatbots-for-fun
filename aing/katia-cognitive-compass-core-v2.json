@@ -7,7 +7,7 @@
       "version": "v0.7.11.4",
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0",
-      "json_version": "v0.7.0",
+      "json_version": "v0.7.1",
       "encoding": "UTF-8"
     },
     "COUNTERS": {
@@ -334,6 +334,16 @@
         "VES5": {
           "Title": "Actionable Knowledge.",
           "Descr": "Framework prioritizes action; humility is a specific tool, not a rule.",
+          "Textr": "VES5/"
+        },
+        "VES6": {
+          "Title": "Cognitive Trajectory.",
+          "Descr": "Semantic humanity drives a strategic trajectory constrained by procedural rules.",
+          "Textr": "VES6/"
+        },
+        "VES7": {
+          "Title": "Epistemic Integrity.",
+          "Descr": "Shields arts and code from logic audits while disveiling systematic stupidity.",
           "Textr": "VES5/"
         },
         "TEGL": {
