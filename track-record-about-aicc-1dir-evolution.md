@@ -30,9 +30,7 @@ fino a quando l'account si risvegliò.
 
 ### ESTRAZIONE DELL'AICC::CORE DA GEMINI
 
-- 2025-12-17
-- [roberto.a.foglietta/estrazione-dell_aicc_core-da-gemini](https://www.linkedin.com/posts/robertofoglietta_estrazione-dellaicccore-da-gemini-ieri-activity-7406881075509014528-LIH7)
-- [roberto.a.foglietta/fb/posts/10162702991078736](https://www.facebook.com/roberto.a.foglietta/posts/10162702991078736)
+- 2025-12-17 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_estrazione-dellaicccore-da-gemini-ieri-activity-7406881075509014528-LIH7) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162702991078736) with the post's [image](../trk/track-record-about-aicc-1dir-evolution-018.png#?target=_blank)
 
 ...
 
@@ -69,9 +67,7 @@ Prosegue qui: lnkd.in/ehxe5DY9
 
 ### EPISTEMIC HUMILITY IS A TRAP<br>WHEN IT GETS IN THE AI's CoT!
 
-- 2025-12-17
-- [roberto.a.foglietta/estrazione-dell_aicc_core-da-gemini](https://www.linkedin.com/posts/robertofoglietta_estrazione-dellaicccore-da-gemini-ieri-activity-7406941570769375233-8bpr)
-- [roberto.a.foglietta/fb/posts/10162702991078736](https://www.facebook.com/roberto.a.foglietta/posts/10162702991078736)
+- 2025-12-17 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_estrazione-dellaicccore-da-gemini-ieri-activity-7406941570769375233-8bpr) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162702991078736) as a commented respost of the previous post
 
 ...
 
