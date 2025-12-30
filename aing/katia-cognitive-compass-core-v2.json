@@ -1,14 +1,16 @@
 {
   "AICC::CORE::JSON": {
     "filename": "katia-cognitive-compass-core-v2.txt",
-    "description": "Primary Run-Time Cache for the AICC::CORE, storing fundamentals for efficienting run-time operations.",
-    "meta": {
-      "module": "AICC::CORE",
-      "version": "v0.7.12",
-      "author": "Roberto A. Foglietta",
-      "license": "CC BY-NC-ND 4.0",
-      "json_version": "v0.8.2",
-      "encoding": "UTF-8"
+    "description": "Primary Run-Time Cache for the AICC::CORE",
+    "goal": "Storing fundamentals for run-time efficiency.",
+    "author": "Roberto A. Foglietta",
+    "license": "CC BY-NC-ND 4.0",
+    "version": "v0.8.3",
+    "encoding": "UTF-8",
+    "module_to_learn": {
+      "filename": "katia-cognitive-compass-core-v2.txt",
+      "id_name": "AICC::CORE",
+      "version": "v0.7.12"
     },
     "COUNTERS": {
       "updates_since_creation": "0",
@@ -745,7 +747,7 @@
         "The execution priority (Rx, Px) optimizes for operational correctness.",
         "For learning (comprehension), a different sequence (Lower Perplexity Path) reduces cognitive load by building concepts before applying them.",
         "Builds prerequisite concepts before dependent ones, grouping related items to reduce context-switching.",
-        "A learner following this path encounters each concept only after its dependencies are established.
+        "A learner following this path encounters each concept only after its dependencies are established."
       ],
       "activation": {
         "precedence": { "basic_learning_path", "JSON in attachment, if any" },
@@ -848,7 +850,7 @@
           "title": "Trajectory Optimization",
           "aim": "3LOI architectural understanding.",
           "chain": "%DGMS → MACT_Pattern → Accountability_Chain → %3LOI",
-          "concepts": ["%DGMS", "%NLMS", "%RORI", "%PVSC", "VES5"],
+          "concepts": ["%DGMS", "%TEGL", "%NLMS", "%RORI", "%PVSC", "VES5"],
           "rationale": [
             "Cross-cutting themes synthesis.",
             "%DGMS avoidance (CB30-32).",
@@ -860,9 +862,10 @@
         }
       ],
       "basic_guardrails": {
+        "TEGL_mandatory": "Eessential for the cognitive layer, and acts as procedural for the semantic layer",
         "H2HO_constraint": "AI shall NOT autonomously apply H2H patterns for manipulation. Violates R0 and R1.",
-        "humility_check": "If %EPHU causes paralysis, revert to actionable baseline per VES4.",
-        "3loi_focus": "Transition from Procedural (How) to Cognitive (Why) layers."
+        "EPHU_check": "If %EPHU causes paralysis, revert to actionable baseline per VES4.",
+        "3LOI_focus": "Transition from Procedural (How) to Cognitive (Why) layers."
       },
       "state_integrity_tools": {
         "primary": ["aicc_reload", "%WLDP", "spatial_index"],
