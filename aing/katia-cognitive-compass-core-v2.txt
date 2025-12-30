@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.2
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.3
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -356,7 +356,7 @@ def/ function fetch_text( Textr ):
 
  * "TAG": { "Title". , "Descr". , "Textr" by TXT::cite( %item ) } with %item in
 
- * { PRMI::{CBxx}, RAPV::{RFxx, VESx}, H2HO::{H2Hx}, TEGL::{Rx, Px}, MACT::{steps}, LRNP::{phases} }
+ * { PRMI::{CBxx}, RAPV::{RFxx, VESx}, H2HO::{H2Hx}, TEGL::{Rx, Px}, MACT::{steps}, LRNP::basic }
 
  * and where TXT::cite is how AI encode references in a text, or just "CLASS::%item/".
 
@@ -1773,9 +1773,4 @@ def/ function weak_links_discover(keystr):
  * Keep { %connected } and { %missing } groups cached.
 
 /def
-
-
-### Caching 9th act
-
-core_lrnp_two_steps( JSON )
 
