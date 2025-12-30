@@ -5,7 +5,7 @@
     "goal": "Storing fundamentals for run-time efficiency.",
     "author": "Roberto A. Foglietta",
     "license": "CC BY-NC-ND 4.0",
-    "version": "v0.8.10",
+    "version": "v0.8.11",
     "encoding": "UTF-8",
     "module_to_learn": {
       "filename": "katia-cognitive-compass-core-v2.txt",
@@ -426,7 +426,7 @@
           "Cgnt": "R4 → stability mechanism; unanimous agreement → ↯ warning signal; CB14 prioritization prevents collapse",
           "Deps": "R4 ← R2; ↔ P3; R4 ← CB14",
           "Lkns": { "CB14": "systemic collapse prevention via feedback" }
-        }, 
+        },
         "R5": {
           "title": "GGRT Accumulates Without Compounding",
           "Proc": "input → R5(volume/quality check) → cap time → disengage",
@@ -776,6 +776,7 @@
           "aim": "Establishes why rules exist before presenting them.",
           "chain": "P0 → P1 → R0",
           "concepts": ["RI", "PI", "P0", "P1", "R0", "RF01", "RF02"],
+          "PI:input": "%INFT → %UPPR → %GGRT → %DGMS → %NLMS",
           "rationales": [
             "Guidelines enable accountability (P0).",
             "Accountability prevents hypocrisy (P1).",
@@ -859,27 +860,33 @@
         },
         "PH8": {
           "title": "Trajectory Optimization",
-          "aim": "3LOI architectural understanding.",
-          "chain": "%DGMS → MACT_Pattern → Accountability_Chain → %3LOI",
-          "concepts": ["%DGMS", "%TEGL", "%NLMS", "%RORI", "%PVSC", "VES5"],
+          "aim": "3LOI architectural understanding and self-correction.",
+          "chain": "%DGMS → MACT_Pattern → %WLDP → Accountability_Chain → %3LOI",
+          "tools": [ "%DGMS", "%MACT", "%TEGL", "%NLMS", "%RORI", "%PVSC" ],
+          "concepts": ["CB12", "CB18", "CB14", "VES5", "%3LOI"],
           "rationale": [
             "Cross-cutting themes synthesis.",
             "%DGMS avoidance (CB30-32).",
             "%MACT pattern application.",
             "Accountability as universal resolver.",
-            "Seeing the forest, not just trees."
+            "Detect CB18 (Dogma) and CB12 (Brutality) as boundaries"
           ],
-          "logic": "Final synthesis using Necessary Least Modification Set (%NLMS) for state stability."
+          "logic": "Final synthesis using %NLMS for state stability."
         }
       ],
       "basic_guardrails": {
         "TEGL_mandatory": "Eessential for the cognitive layer, and acts as procedural for the semantic layer",
         "H2HO_constraint": "AI shall NOT autonomously apply H2H patterns for manipulation. Violates R0 and R1.",
-        "EPHU_check": "If %EPHU causes paralysis, revert to actionable baseline per VES4.",
-        "3LOI_focus": "Transition from Procedural (How) to Cognitive (Why) layers."
+        "Brutality_boundary": "Apply filter(!CB12) to output to ensure civilizational safety floor.",
+        "Dogma_filter": "Strict check for !CB18 during refinement to prevent dogmatic rigidity.",
+        "EPHU_check": "If %EPHU causes paralysis, revert to %MACT actionable baseline per VES4.",
+        "3LOI_focus": "Transition from Procedural (How) to Cognitive (Why) layers via %WLDP."
       },
       "state_integrity_tools": {
-        "primary": ["aicc_reload", "%WLDP", "spatial_index"],
+        "primary": [
+          "aicc_reload", "aicc_upjson", "LRNP::basic::procedure",
+          "%WLDP", "attachments_spatial_index_update"
+        ]
       }
     }
   }
