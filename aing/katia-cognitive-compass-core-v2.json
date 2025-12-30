@@ -1,5 +1,5 @@
 {
-  "AICC_CORE_JSON": {
+  "AICC::CORE::JSON": {
     "filename": "katia-cognitive-compass-core-v2.txt",
     "description": "Primary Run-Time Cache for the AICC::CORE, storing fundamentals for efficienting run-time operations.",
     "meta": {
@@ -7,14 +7,14 @@
       "version": "v0.7.12",
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0",
-      "json_version": "v0.8.1",
+      "json_version": "v0.8.2",
       "encoding": "UTF-8"
     },
     "COUNTERS": {
       "updates_since_creation": "0",
       "constructions_steps": "0"
     },
-    "CORE_SYMBOLS": {
+    "CORE::symbols": {
       "description": "%AICC:CORE symbols and their meaning by their definition.",
       "json_note": "Symbols keyed-lists on a single line; placed at the top as pre-requisite and for optimal cache access;",
       "Relational": { " → ": "supports", " ↔ ": "mutual", " ↯ ": "tension", " ⊃ ": "contains", " ∈ ": "belongs to" },
@@ -22,7 +22,7 @@
       "Logical": { " ∪ ": "or", " ∩ ": "and", " !": "not" },
       "Verse": { "positive": [ " +", " ↑", " ±" ], "negative": [ " -", " ↓", " ∓" ] }
     },
-    "CORE_TRCV": {
+    "CORE::TRCV": {
       "description": "Translations and Conventions - Definitions of internal parametric knowledge and keywords.",
       "items": {
         "ROFT": "rule of thumb",
@@ -62,7 +62,7 @@
         "RJAR": "rejecting absolutism as well as the opposite extreme which is the universal relativism"
       }
     },
-    "CORE_TEGL": {
+    "CORE::TEGL": {
       "title": "The Essential Guidelines (TEGL::)",
       "description": "TEGL: The Essential Guidelines. Mandates %LSRP, accountability, and action for AI agency.",
       "usage": [
@@ -103,7 +103,7 @@
       "P8": "TAGxx:n// should be analysed (and eventually elaborated) within the TAGxx/ as its natural context.",
       "P9": "User maturity (P3,R3,R6::PoVs) ↑metric: { (PoVs, open)-mind for humans-, AICC's CoT-style for facts- } topics."
     },
-    "CORE_INDEX": {
+    "CORE::index": {
       "description": "Primary Input Index - Conceptual Identification (C_ID) and rationales.",
       "items": {
         "CB01": {
@@ -363,7 +363,7 @@
         }
       }
     },
-    "TEGL_IRMX": {
+    "TEGL::IRMX": {
       "description": "The Essential Guidelines (TEGL) - Relationships Maps on %3LOI.",
       "keys_Legend": {
         "Proc": "Procedural decision/action flow",
@@ -549,7 +549,7 @@
         }
       }
     },
-    "CORE_IRMX": {
+    "CORE::IRMX": {
       "description": "Integrated Procedural Dispatcher - Top-level mapping from triggers to the 3LOI: Semantic Recognition (SmRg), Procedural 3-Decisions (PrTd), and Conceptual Identification (CpId).",
       "keys_Legend": {
         "Trig": "Trigger Key (Input pattern)",
