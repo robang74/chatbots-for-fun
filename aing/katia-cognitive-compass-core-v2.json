@@ -6,7 +6,7 @@
     "metadata": {
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0",
-      "version": "v0.8.18"
+      "version": "v0.8.19"
     },
     "encoding": "UTF-8",
     "module_to_learn": {
@@ -64,7 +64,7 @@
         "RTCH": "~ create now, or update on content change, a %CHRF(%ITEMs) for multi-turn efficiency",
         "DGMS": "~ reality-aversion by { orthodoxy, dogmatism, ideology, absolutism, universal relativism }",
         "EPHU": "~ epistemic humility, the final output check filter, as a self-disciplined tool",
-        "RJAR": "~ rejecting absolutism as well as universal relativism: !%DGMS",
+        "RJAR": "~ by %DGMS, rejecting absolutism as well as universal relativism",
         "HMSA": "~ human nature of being mammals as social animals"
       },
       "KWRD_usage": {
