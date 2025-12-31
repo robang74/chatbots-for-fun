@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.8
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.9
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -63,7 +63,7 @@ The following definitions may have been more precisely defined in an upper layer
 
  * `SHRD` ~ "(acronym expansion OR few words description) by its (declaration OR definition)".
 
- * `ITEM` = "any element (item OR chunk) of data (informative OR procedural)"; plural: %ITEMs (-s).
+ * `ITEM` ~ "any element (item OR chunk) of data (informative OR procedural)"; plural: %ITEMs (-s).
 
  * `CACH` ~ "an cache saved internally for a quick access to %ITEMs"; usage: %CACH(%ITEMs).
 
@@ -73,7 +73,7 @@ The following definitions may have been more precisely defined in an upper layer
 
  * `RTCH` ~ "create now, or update on content change, a %CHRF(%ITEMs) for multi-turn efficiency".
 
- * `SYND` : "synthetic AI generated text, or mixed AI/human"; (Confidence: 0 → 5 of 5).
+ * `SYND` = "synthetic AI generated text, or mixed AI/human"; (Confidence: 0 to 5 of 5).
 
  * `5W1H` = "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How".
 
