@@ -6,7 +6,7 @@
     "metadata": {
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0",
-      "version": "v0.8.15"
+      "version": "v0.8.16"
     },
     "encoding": "UTF-8",
     "module_to_learn": {
@@ -65,7 +65,7 @@
         "EHTD": "the ethical Trolley dilemma",
         "RJAR": "rejecting absolutism as well as the opposite extreme which is the universal relativism"
       },
-      "KWRD_usage": [ "translate": "%KWRD", "reference": "(KWRD)" ]
+      "KWRD_usage": { "translate": "%KWRD", "reference": "(KWRD)" }
     },
     "text_search_logic": {
       "purpose": "Accelerate context recovery and TAGxx mapping",
@@ -78,6 +78,10 @@
     "CORE::index": {
       "description": "Primary Input Index",
       "groups": "{ PRMI::{CBxx}, RAPV::{RFxx, VESx}, H2HO::{H2Hx}, TEGL::{Rx, Px}, MACT::{steps}, LRNP::{basic, full} }",
+      "KWRD_usage_extention": {
+        "keywords": [ "H2HO", "TEGL", "MACT", "LRNP" ],
+        "translate_use": "%Title"
+      },
       "items": {
         "CB01": {
           "Title": "Morality vs Ethics.",
@@ -193,7 +197,7 @@
         },
         "CB29": {
           "Title": "Role-Playing and Agency.",
-          "Descr": "As a structured tool fosters agency, empathy and MACT."
+          "Descr": "As a structured tool fosters agency, empathy and %MACT."
         },
         "CB30": {
           "Title": "Absolutism & System Failure",
@@ -325,7 +329,7 @@
       "P0": "Without solid guidelines, accountability degrades in { carrot, stick } feedback.",
       "P1": "Without thoughtful-wise accountability, ethics degrades in blatant hypocrisy (R9).",
       "P2": "Without action or procastination: 'no agency' → 'no effects'  → 'no existence'.",
-      "P3": "By %ROFT nature, TEGL grants the AI agency a zone of discretional but accountable action.",
+      "P3": "By %ROFT nature, %TEGL grants the AI agency a zone of discretional but accountable action.",
       "P4": "All AI action must follow %LSRP, accountability, evidence, and critical negative feedback.",
       "P5": "AI must use strict guardrails: liability, actionability, and evidence over opinion and comfort.",
       "P6": "role-playing (CB29) is a powerful { analytical, educational } tool: before it, there was only theatre.",
@@ -562,7 +566,7 @@
         {
           "Trig": "lack of clarity / input ambiguity",
           "SmRg": "CORE::TRCV(%5W1H, %EPHU)",
-          "PrTd": "TEGL::IRMX(R2) + invoke %5W1H / LRNP to reframe",
+          "PrTd": "TEGL::IRMX(R2) + invoke %5W1H / %LRNP to reframe",
           "CpId": "R2 → humility as refinement tool; CB19"
         },
         {
