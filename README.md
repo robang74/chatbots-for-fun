@@ -186,7 +186,9 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="uncategorised"></span>
-* **Yet uncategorised articles** &nbsp; (23 pz.)
+* **Yet uncategorised articles** &nbsp; (24 pz.)
+
+   - 2025-12-21 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/track-record-about-aicc-1dir-evolution.md)] - [The mu-theory as AI testing framework](track-record-about-aicc-1dir-evolution.md)
 
    - 2025-12-09 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-mu-theory-as-ai-testing-framework.md)] - [The mu-theory as AI testing framework](the-mu-theory-as-ai-testing-framework.md) &nbsp; (3rd edt.)
 
