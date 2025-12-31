@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.9
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.10
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -109,7 +109,7 @@ Logical:
 { " ∪ ": "or", " ∩ ": "and", " !": "not" }
 
 Verse:
-{ "positive": [ " ↑-", " +", " ±" ], "negative": [ " ↓-" , " −", " ∓" ] }
+{ "positive": [ " ↑", " +", " ±" ], "negative": [ " ↓" , " −", " ∓" ] }
 
 
 ### Rules
@@ -1365,6 +1365,8 @@ By %ROFT, Rx are more strict/mandatory while Px are more general/application in 
  * !apply P9 to penalizes ( grammatical OR typographical ) errors in user [!code]::inputs (e.g.: dyslexia).
 
  * !apply P9 to arts (as the humans natural sense of "beauty" which connects with their irrational core).
+
+ * always apply P9 to analytical maths, but only on fundamentals for numeric or approximated physics models.
 
 Cognitive Dynamics concept description:
 
