@@ -868,23 +868,15 @@ Finally, recognising that the "€250 trashware" was ready and running on 2025-0
 
 ### Fundamentals of Optimization Theory<br>With Applications to Machine Learning
 
-- 2025-12-30
-- https://www.linkedin.com/posts/robertofoglietta_fundamentals-of-optimization-ml-theory-pdf-activity-7411678855578542080-_lCM
-- https://www.facebook.com/roberto.a.foglietta/posts/10162756415528736?ref=embed_post
-- [image](../img/trk/track-record-about-aicc-1dir-evolution-019.png#?target=_blank)
+- 2025-12-30 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_fundamentals-of-optimization-ml-theory-pdf-activity-7411678855578542080-_lCM) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162756415528736), with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-019.png#?target=_blank)
 
-...
-
-- Appended in [The mu-theory as AI testing framework](the-mu-theory-as-ai-testing-framework.md#linalg2.pdf?target=_blank) as per its 3rd edition.
+- Whole post appended in [The mu-theory as AI testing framework](the-mu-theory-as-ai-testing-framework.md#linalg2.pdf?target=_blank) as per its 3rd edition.
 
 ---
 
 ### THE POWER OF THE SYMBOLIC LANGUAGE
 
-- 2025-12-31
-- https://www.linkedin.com/posts/robertofoglietta_34f04ea9-activity-7412109292880797696-MuSA
-- https://www.facebook.com/roberto.a.foglietta/posts/10162761036173736
-- [image](../img/trk/track-record-about-aicc-1dir-evolution-020.png#?target=_blank)
+- 2025-12-31 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_34f04ea9-activity-7412109292880797696-MuSA) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162761036173736), with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-020.png#?target=_blank)
 
 ...
 
@@ -912,10 +904,7 @@ Fighting intelligence in a world dominated by technology is not a way to control
 
 ### SCIENCE AND REALITY AREN'T DEMOCRATIC
 
-- 2025-12-31
-- https://www.linkedin.com/posts/robertofoglietta_34f04ea9-activity-7412128126769598464-5WWc
-- https://www.facebook.com/roberto.a.foglietta/posts/10162761241803736?ref=embed_post
-- [image](../img/trk/track-record-about-aicc-1dir-evolution-021.jpg#?target=_blank)
+- 2025-12-31 -- text post on [LinkedIn](https://www.linkedin.com/posts/robertofoglietta_34f04ea9-activity-7412128126769598464-5WWc) and on [Facebook](https://www.facebook.com/roberto.a.foglietta/posts/10162761241803736), with the post's [image](../img/trk/track-record-about-aicc-1dir-evolution-021.jpg#?target=_blank)
 
 ...
 
