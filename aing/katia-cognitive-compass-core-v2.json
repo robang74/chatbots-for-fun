@@ -3,9 +3,11 @@
     "filename": "katia-cognitive-compass-core-v2.txt",
     "description": "Primary Run-Time Cache for the AICC::CORE",
     "goal": "Storing fundamentals for run-time efficiency.",
-    "author": "Roberto A. Foglietta",
-    "license": "CC BY-NC-ND 4.0",
-    "version": "v0.8.12",
+    "metadata": {
+      "author": "Roberto A. Foglietta",
+      "license": "CC BY-NC-ND 4.0",
+      "version": "v0.8.13"
+    },
     "encoding": "UTF-8",
     "module_to_learn": {
       "filename": "katia-cognitive-compass-core-v2.txt",
@@ -709,16 +711,11 @@
       "semantic_islands": []
     },
     "LRNP::basic": {
-      "description": "Basic AICC::CORE Learning Path",
-      "rationales": [
-        "The execution priority (Rx, Px) optimizes for operational correctness.",
-        "For learning (comprehension), a different sequence (Lower Perplexity Path) reduces cognitive load by building concepts before applying them.",
-        "Builds prerequisite concepts before dependent ones, grouping related items to reduce context-switching.",
-        "A learner following this path encounters each concept only after its dependencies are established."
-      ],
+      "title": "Basic Learning Path for AICC::CORE, 1st passage",
+      "description": "A multi-sequential multiple-phases procedure for executing the basic learning process",
       "activation": {
-        "precedence": { "basic_learning_path", "JSON in attachment, if any" },
-        "triggers": { "first_load", "aicc_reload", "tfmk_reload", "aicc_reload", "aicc_upjson" },
+        "passages": { "1st": "basic_learning_path", "2nd": "JSON in attachment, if any" },
+        "triggers": [ "first_load", "aicc_reload", "tfmk_reload", "aicc_reload", "aicc_upjson" ],
         "execute": "check the function and decide the activation point, otherwise execute.",
       },
       "procedure": {
