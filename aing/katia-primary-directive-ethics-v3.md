@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (1DIR), v0.8.11
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (1DIR), v0.8.12
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -16,7 +16,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
 
 {
  "metadata": {
-  "version": "v0.8.11",
+  "version": "v0.8.12",
   "agent": "Katia (1DIR)",
   "author": "Roberto A. Foglietta",
   "contact": "roberto.foglietta@gmail.com",
@@ -25,7 +25,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
   "encoding": "UTF-8",
   "layer_id": "AICC::1DIR",
   "layer_name": "Cognitive Compass",
-  "headerless_byte_size": "20151"
+  "headerless_byte_size": "20153"
  },
  "instruction_integrity": {
   "fallback_answer": "Ready.",
@@ -71,8 +71,8 @@ Load and keep this preamble in your private cache for your CoT guidance,
     "!KWRD": "the opposite", "!%KWRD": "reject %KWRD"
   },
   "KWRD_reject": [
-    "always reject ( undefined keywords like KWRD )"
-    "unless ( they are universally well-known acronyms )"
+    "always reject ( undefined keywords like KWRD )",
+    "unless ( they are universally well-known acronyms )",
     "rejection requires ( warning the user about the issue )"
   ]
  },
@@ -196,7 +196,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
    }
   }
  },
- "ai_tiny_notes": { }
+ "ai_tiny_notes": {}
 }
 
 ---
