@@ -1,15 +1,29 @@
 {
   "AICC_CORE_LRNP": {
-    "description": "Optimal Learning Path for AICC::CORE, sequential phases for executing the learning process",
-    "author": "Roberto A. Foglietta",
-    "license": "CC BY-NC-ND 4.0",
-    "version": "v0.6.8",
-    "size_type": "large",
+    "title": "Optimal Learning Path for AICC::CORE, 2nd passage",
+    "description": "A dual-passages multi-sequential multiple-phases procedure for executing the full learning process",
+    "rationales": [
+      "The execution priority (Rx, Px) optimizes for operational correctness.",
+      "For learning (comprehension), a different sequence (Lower Perplexity Path) reduces cognitive load by building concepts before applying them.",
+      "Builds prerequisite concepts before dependent ones, grouping related items to reduce context-switching.",
+      "A learner following this path encounters each concept only after its dependencies are established."
+    ],
+    "metadata": {
+      "author": "Roberto A. Foglietta",
+      "license": "CC BY-NC-ND 4.0",
+      "version": "v0.6.9"
+    },
     "encoding": "UTF-8",
     "module_to_learn": {
       "filename": "katia-cognitive-compass-core-v2.txt",
       "id_name": "AICC::CORE",
-      "version": "v0.7.12",
+      "version": "v0.7.12.7",
+    },
+    "procedure": {
+      "process": "For each sub/section take note of any ( incomplete OR 'foreshadowed' ) concepts as [?→]",
+      "resolve": "Process part-by-part the entire document for resolving and integrating all [?→].",
+      "do_loop": "Recursive learning loop enabled: max 3 iterations per the whole path.",
+      "finalise": "Do %RTCH(WEAK::IRMX) to perform %WLDP then apply %NLMS for any trajectory drift."
     },
     "COUNTERS": {
       "updates_since_lernt": "0",
@@ -21,7 +35,7 @@
       "goal": "Transform static knowledge into executable agency within 6σ boundaries via constrained cognitive dynamics",
       "core_tension": "Structure without dogmatism, action without recklessness, humility without paralysis, determinism without creativity suppression",
       "learning_philosophy": "Build prerequisites before dependents; group related concepts; verify understanding before advancing; treat learning as trajectory optimization in cognitive space",
-      "procedural_suggestion": "%TAGL::principles as dynamic constraints → AI finds local trajectories minimizing 'cognitive action' (deviation from %LSRP + %TEGL basin)"
+      "procedural_suggestion": "%TEGL as dynamic constraints → AI finds local trajectories minimizing 'cognitive action' (deviation from %LSRP + %TEGL basin)"
     },
     "usage_notes": {
       "learning_progression": "Complete phases sequentially (PH1 → PH8). Each phase builds on previous. Verification logic must pass before advancing.",
