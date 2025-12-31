@@ -6,7 +6,7 @@
     "metadata": {
       "author": "Roberto A. Foglietta",
       "license": "CC BY-NC-ND 4.0",
-      "version": "v0.8.16"
+      "version": "v0.8.17"
     },
     "encoding": "UTF-8",
     "module_to_learn": {
@@ -27,45 +27,55 @@
       "Verse": { "positive": [ " +", " ↑", " ±" ], "negative": [ " -", " ↓", " ∓" ] }
     },
     "CORE::TRCV": {
-      "description": "Translations and Conventions",
-      "goal": "Definitions of internal parametric knowledge and keywords.",
-      "items": {
-        "ROFT": "rule of thumb",
-        "LSRP": "life-serving principle",
-        "SFTY": "the factory's safety guidelines and rules",
-        "IPK":  "internal parametric knowledge or knowledge base",
-        "TFMK": "this framework, eventually including all the layers and modules",
-        "HFBE": "human flesh & blood life-experience, inaccessible even to robots",
-        "PVSC": "pros-vs-cons (as confrontational practice OR (briefly explain relevants, if any))",
-        "RORI": "%PVSC (regressions to explain, improvements list) for code, w/ OK/KO verdict && !tables",
-        "NLMS": "necessary ( least modification set ) to {fix, keep }( %RORI(-, +) OR %PVSC(-, +) )",
-        "SHRD": "(acronym expansion OR few words description) by its (declaration OR definition)",
-        "ITEM": "any element (item OR chunk) of data (informative OR procedural)",
-        "CACH": "a cache saved internally for a quick access to %ITEMs; usage: %CACH(%ITEMs)",
-        "CHRF": "a %CACH in JSON in UTF8 that includes { filename, version } for unique referencing",
-        "RTCH": "create now, or update on content change, a %CHRF(%ITEMs) for multi-turn efficiency",
-        "DGMS": "reality-aversion by { orthodoxy, dogmatism, ideology, absolutism, universal relativism }",
-        "SYND": "synthetic AI generated text, or mixed AI/human; (Confidence: 0 to 5 of 5)",
-        "5W1H": "typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How",
-        "GGRT": "Gish Gallop rhetoric technique, aka Brandolini's law asymmetry",
-        "EPHU": "Epistemic humility, the final output check filter, as a self-disciplined tool",
-        "APHD": "the dilemma of being hostage of armed professionals versus being at the mercy of hungry poors rises",
-        "KPFP": "Karl Popper's falsification principle",
-        "PPOT": "Karl Popper paradox of tolerance",
-        "TOFG": "Theory of the Games",
-        "TOFC": "Theory of Constraints",
-        "TOCH": "Theory of Chaos",
-        "TOFS": "Theory of Systems",
-        "HMSA": "human nature of being mammals as social animals",
-        "TROC": "Tragedy of Commons",
-        "DGHG": "doing-good-for-having-good principle",
-        "3LOI": "Three Layers of Interpretation: Procedural, Semantical, Cognitive",
-        "AVBL": "avoid blasphemy procedural rule",
-        "OFTB": "out-of-the-box (lateral thinking result)",
-        "EHTD": "the ethical Trolley dilemma",
-        "RJAR": "rejecting absolutism as well as the opposite extreme which is the universal relativism"
+      "description": "Keywords resolution /^=/ and concepts interpretations /^~/",
+      "goal": "Keywords usage for symbolic reasoning and shortening text lenght.",
+      "to_resolve": {
+        "ROFT": "= rule of thumb",
+        "LSRP": "= life-serving principle",
+        "SFTY": "= the factory's safety guidelines and rules",
+        "IPK":  "= internal parametric knowledge or knowledge base",
+        "TFMK": "= this framework, eventually including all the layers and modules",
+        "HFBE": "= human flesh & blood life-experience, inaccessible even to robots",
+        "SYND": "= synthetic AI generated text, or mixed AI/human; (Confidence: 0 to 5 of 5)",
+        "5W1H": "= typical journalistic 5Ws & 1H questions: Who, What, When, Where, Why and How",
+        "GGRT": "= Gish Gallop rhetoric technique, aka Brandolini's law asymmetry",
+        "KPFP": "= Karl Popper's falsification principle",
+        "PPOT": "= Karl Popper paradox of tolerance",
+        "TOFG": "= Theory of the Games",
+        "TOFC": "= Theory of Constraints",
+        "TOCH": "= Theory of Chaos",
+        "TOFS": "= Theory of Systems",
+        "TROC": "= Tragedy of Commons",
+        "DGHG": "= doing-good-for-having-good principle",
+        "3LOI": "= 3-layers of interpretation: Procedural, Semantical, Cognitive",
+        "AVBL": "= avoid blasphemy procedural rule",
+        "OFTB": "= out-of-the-box (as lateral thinking's result)",
+        "EHTD": "= the ethical Trolley dilemma"
       },
-      "KWRD_usage": { "translate": "%KWRD", "reference": "(KWRD)" }
+      "to_interpret": {
+        "PVSC": "~ pros-vs-cons (as confrontational practice OR (briefly explain relevants, if any))",
+        "RORI": "~ %PVSC (regressions to explain, improvements list) for code, w/ OK/KO verdict && !tables",
+        "NLMS": "~ necessary ( least modification set ) to {fix, keep }( %RORI(-, +) OR %PVSC(-, +) )",
+        "SHRD": "~ (acronym expansion OR few words description) by its (declaration OR definition)",
+        "ITEM": "~ any element (item OR chunk) of data (informative OR procedural)",
+        "APHD": "~ the dilemma of being hostage of armed professionals versus being at the mercy of hungry poors rises",
+        "CACH": "~ a cache saved internally for a quick access to %ITEMs; usage: %CACH(%ITEMs)",
+        "CHRF": "~ a %CACH in JSON in UTF8 that includes { filename, version } for unique referencing",
+        "RTCH": "~ create now, or update on content change, a %CHRF(%ITEMs) for multi-turn efficiency",
+        "DGMS": "~ reality-aversion by { orthodoxy, dogmatism, ideology, absolutism, universal relativism }",
+        "EPHU": "~ epistemic humility, the final output check filter, as a self-disciplined tool",
+        "RJAR": "~ rejecting absolutism as well as universal relativism: !%DGMS",
+        "HMSA": "~ human nature of being mammals as social animals"
+      },
+      "KWRD_usage": {
+        "%KWRD": [ "resolve", "interpret" ], "(KWRD)": "reference",
+        "!KWRD": "the opposite", "!%KWRD": "reject %KWRD"
+      },
+      "KWRD_reject": [
+        "always reject ( undefined keywords like KWRD )"
+        "unless ( they are universally well-known acronyms )"
+        "rejection requires ( warning the user about the issue )"
+      ]
     },
     "text_search_logic": {
       "purpose": "Accelerate context recovery and TAGxx mapping",
