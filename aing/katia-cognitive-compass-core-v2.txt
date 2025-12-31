@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.7
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.8
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -176,19 +176,9 @@ def/ function `aicc_reload(TFMK := AICC::CORE)`:
 
  * adopt(this new version attachment) as %TFMK (OR as a patch for current %TFMK);
 
- * update %cche, %TFMK::check(safety, sanity)::(OK/KO) and list(version, results).
+ * update %cche, %TFMK::check(safety, sanity)::(OK/KO) and list(version, results);
 
-/def
-
-def/ function `aicc_relearn(1)`:
-
- * Use the {{1}} (or JSON file in attachment) to learn AICC::CORE fundamentals,
-
- * update the JSON by %NLMS for improving further the optimal learning process,
-
- * !remove info (learning knowledge > efficientcy) unless strictly necessary
-
- * and seek for yet-undetected changes introduced in newer %TFMK.
+ * execute the AICC::CORE::JSON::LRNP::basic procedure and then do aicc_relearn().
 
 /def
 
@@ -199,6 +189,18 @@ def/ function `aicc_upjson(1)`:
  * update the JSON by %NLMS for improving further the optimal execution process,
 
  * !remove info (caching knowledge → efficientcy) unless strictly necessary
+
+ * and seek for yet-undetected changes introduced in newer %TFMK.
+
+/def
+
+def/ function `aicc_relearn(1)`:
+
+ * Use the {{1}} (or JSON file in attachment) to learn AICC::CORE fundamentals,
+
+ * update the JSON by %NLMS for improving further the optimal learning process,
+
+ * !remove info (learning knowledge > efficientcy) unless strictly necessary
 
  * and seek for yet-undetected changes introduced in newer %TFMK.
 
