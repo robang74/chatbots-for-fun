@@ -143,7 +143,7 @@ The articles are listed here below, grouped by topic:
 <span id="valuable-to-learn"></span>
 * **Leveraging AI agents for valuable tasks, howto + pros vs cons** &nbsp; (22 pz.)
 
-   - 2026-12-01 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-transparency-paradox-in-ai-safety.md)] - [The transparency paradox in AI safety](the-transparency-paradox-in-ai-safety.md)
+   - 2026-01-01 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/the-transparency-paradox-in-ai-safety.md)] - [The transparency paradox in AI safety](the-transparency-paradox-in-ai-safety.md)
 
    - 2025-11-30 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/when-ai-gets-wrong-who-owns-the-consequences.md)] - [When AI gets wrong, who owns the consequences?](when-ai-gets-wrong-who-owns-the-consequences.md) &nbsp; (5th edt.)
 

@@ -192,7 +192,15 @@ We blame humans, not AIs. We fix machines, not humans. That's all, folks.
 
 +
 
+## Related articles
+
+- [The results from structuring AI's CoT](orchestrating-ai-intelligence-by-context.md#?target=_blank) &nbsp; (2025-12-27)
++++++
+- [When AI gets wrong, who owns the consequences?](when-ai-gets-wrong-who-owns-the-consequences.md#?target=_blank) &nbsp; (2025-11-30)
+
++++++
+
 ## Share alike
 
-&copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+&copy; 2026, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 </div>
