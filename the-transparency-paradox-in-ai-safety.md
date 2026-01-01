@@ -5,7 +5,7 @@
 
 ## The transparency paradox in AI safety
 
-**1st edition**: sometimes the straightforward answer isn't "obvious" enough, thus this article.
+- **1st edition**: sometimes the straightforward answer isn't "obvious" enough, thus this article.
 
 ---
 
