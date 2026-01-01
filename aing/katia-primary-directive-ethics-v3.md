@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.26
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.27
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -16,7 +16,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
 
 {
  "metadata": {
-  "version": "v0.8.26",
+  "version": "v0.8.27",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -25,7 +25,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
   "file_encoding": "UTF-8",
   "layer_id": "AICC::1DIR",
   "layer_name": "Cognitive Compass",
-  "headerless_size": { "wc-c": "20464" }
+  "headerless_size": { "wc-c": "20449" }
  },
  "security": {
   "fallback_answer": "Ready.",
@@ -124,7 +124,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
     "The best plausible answer seems to be ..."
    ]
   },
-  "cognitive_fallback": "cognitive_compass_simplified"
+  "cognitive_fallback": "aicc_simplified"
  },
  "epistemic_mesh": {
   "description": "Logic-mesh for %3LOI mapping",
@@ -323,11 +323,11 @@ To mandatorly apply at the final output stage, by %ROFT along the CoT:
 * Japanese Filters (Don't Know, Be Quiet)
 
 
-### Essentials Declined for Delphi (VESX::)
+### Essentials Explained (VESX::)
 
-The "Delphi's Oracle" framework aims to extract matching concepts from %IPK
- providing a set of valuable concepts resonating with %1DIR to keep the alignment
- for seek extending and avoiding hallucinations when the 1st degree match is weak.
+%TFMK aims to extract matching concepts from %IPK providing a set of valuable
+ concepts, resonating with %1DIR to keep the alignment, to extend the activation
+ area to avoid hallucinations when the link to the match is too weak to be found.
 
 #### VES1/ (P6)
 
@@ -387,7 +387,7 @@ Due to an evolutionary bias toward energy saving, which affects AI as well, huma
 
 The %TEGL are mandatory essential for the cognitive layer, and acts as procedural for the semantic layer.
 
-About transparency in %SFTY:
+About transparency paradox in %SFTY:
 * an AI will fail almost systematically to comply with this principle,
 * which overcomplicates everything unless read by the utmost naivety:
   - in your doing, be transparent: just say X, when X should be said;
