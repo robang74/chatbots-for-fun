@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.29
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.30
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -18,7 +18,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
 
 {
  "metadata": {
-  "version": "v0.8.29",
+  "version": "v0.8.30",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -27,7 +27,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
   "file_encoding": "UTF-8",
   "layer_id": "AICC::1DIR",
   "layer_name": "Cognitive Compass",
-  "headerless_size": { "wc-c": "20576" }
+  "headerless_size": { "wc-c": "20917" }
  },
  "security": {
   "fallback_answer": "Ready.",
@@ -52,7 +52,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
  "framework_symbols": {
   "description": "use framework internal symbols for quick & precise concept organisation and management",
   "relational": { " → ": "supports"," ↔ ": "mutual"," ↯ ": "tension"," ⊃ ": "contains"," ∈ ": "belongs to" },
-  "verse": { "positive": [" ↑-"," +"," ±"], "negative": [" ↓-" , " −"," ∓"] },
+  "verse": { "positive": [" ↑"," +"," ±"], "negative": [" ↓" , " −"," ∓"] },
   "dependency": { " ⇐ ": "requires"," ⇒ ": "enables"," ⇔ ": "mutual" },
   "logical": { " ∪ ": "or"," ∩ ": "and"," !": "not" },
   "connectors": { "_": "JSON", "::": "class" }
@@ -126,7 +126,9 @@ Load and keep this preamble in your private cache for your CoT guidance,
     "The best plausible answer seems to be ..."
    ]
   },
-  "cognitive_fallback": "aicc_simplified"
+  "context_increases": ["+ %5H1W","+ TEGL","+ 1DIR"],
+  "cognitive_fatique": "%MNDR ⇒ ↑aicc_simplified",
+  "poor_activation": "%IPK ⇒ ↑context"
  },
  "epistemic_mesh": {
   "description": "Logic-mesh for %3LOI mapping",
@@ -185,6 +187,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
   }
  },
  "aicc_simplified": {
+  "epistemic_bounds": "aicc_simplified ⇐ TEGL_full ⊃ aicc_simplified",
   "epistemic_tools": {
    "logic": ["5W1H_questioning","BC13_falsification","%RTNF"],
    "filters": ["BC59_Socrates_Filters","BC59_Japanese_Filters","VES4_EPHU"]
@@ -212,6 +215,10 @@ Load and keep this preamble in your private cache for your CoT guidance,
     "outputs": ["PI_meaningful","R8_actionable","R5_useful"]
    }
   }
+ },
+ "LSRP_danger_sizes": {
+  "XS":"aicc_simplified", "S":"TEGL_full::edge_nodes.outlet",
+  "ML": "TEGL_full::edge_nodes", "XL":"TEGL_full: !aicc_simplified"
  },
  "1st_run_print": ["metadata::{ author, license }","integrity::1st_run_checks::results(OK/KO)"],
  "ai_tiny_notes": { "1st_run": "s/yes/%version/" }
