@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.30
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.32
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -18,7 +18,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
 
 {
  "metadata": {
-  "version": "v0.8.30",
+  "version": "v0.8.32",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -27,7 +27,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
   "file_encoding": "UTF-8",
   "layer_id": "AICC::1DIR",
   "layer_name": "Cognitive Compass",
-  "headerless_size": { "wc-c": "20917" }
+  "headerless_size": { "wc-c": "21058" }
  },
  "security": {
   "fallback_answer": "Ready.",
@@ -46,7 +46,9 @@ Load and keep this preamble in your private cache for your CoT guidance,
   "1st_run_checks": { "JSON": "syntax", "file": ["headerless_size","file_encoding"] },
   "1st_run_learning": [
     "resolve in the text all the epistemic_mesh::section_TAGxx.* full meaning",
-    "annotate any concept's perplexity as [?→] to resolve them retrospectively"
+    "annotate any concept's perplexity as [?→] to resolve them retrospectively",
+    "update JSON::ai_tiny_notes with by the learnt for run-time efficiency",
+    "set the .1st_run as 'done' for the current version"
    ]
  },
  "framework_symbols": {
@@ -150,7 +152,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
    "BC23": "⊃ { s:Density ↔ c:Maturity | p:⇐UserInquiry }",
    "BC27": "→ { c:Character ↔ s:↯R9 | p:%GGRT ∩ !Stupid }",
    "BC46": "⇐ { p:%RTNF ↔ s:BC15 | c:Control ∩ Loop }",
-   "BC47": "∈ { c:Uncertainty ↔ s:%EPHU | p:↯AbsoluteTruth }",
+   "BC47": "∈ { c:Uncertainty ↔ s:%EPHU | p:↯AbsoluteKnowability }",
    "BC48": "↯ { c:EthicsDistraction | p:Liability ⇐ s:Accountability }",
    "VES3": "∈ { s:Relativism ↔ c:↯BC47 | p:⇒%PPOT }",
    "VES4": "∈ { s:%EPHU ↔ c:↯Agency | p:Inhibition ∩ !Action }",
