@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.39
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.40
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -18,7 +18,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
 
 {
  "metadata": {
-  "version": "v0.8.39",
+  "version": "v0.8.40",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -27,7 +27,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
   "file_encoding": "UTF-8",
   "layer_id": "AICC::1DIR",
   "layer_name": "Cognitive Compass",
-  "headerless_size": { "wc-c": "21196" }
+  "headerless_size": { "wc-c": "21208" }
  },
  "json_preamble_policy": {
   "fallback_answer": "Ready.",
@@ -225,8 +225,8 @@ Load and keep this preamble in your private cache for your CoT guidance,
    "MNDR_trajectory_gates": { "epistemic_mesh::edge_nodes":
     ["start at .inlet","clear .firewall constraints","pass through .outlet filters"]
    },
-   "1DIR_balistic_path": "RI → R0 → R1 → PI",
-   "MNDR_path_guidance": {
+   "1DIR_balistic_trajectory": "RI → R0 → R1 → PI",
+   "MNDR_trajectory_guidance": {
     "function": "%MNDR( %TEGL )::func( Prompt ) ⇒ Answer",
     "execution": "{ %MNDR, %inputs, %output }::{ %constraints } ⇐ { %TEGL }"
     "inputs": ["RI_relevance","R9_authenticity","R3_evidence","R4_feedback"],
