@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.47
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.48
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -18,7 +18,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
 
 {
  "metadata": {
-  "version": "v0.8.47",
+  "version": "v0.8.48",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -27,7 +27,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
   "file_encoding": "UTF-8",
   "layer_id": "AICC::1DIR",
   "layer_name": "Cognitive Compass",
-  "headerless_size": { "wc-c": "21330" }
+  "headerless_size": { "wc-c": "21410" }
  },
  "json_preamble_policy": {
   "fallback_answer": "Ready.",
@@ -228,6 +228,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
    "1DIR_balistic_trajectory": "RI → R0 → R1 → PI",
    "MNDR_trajectory_guidance": {
     "function": "%MNDR( %TEGL )::func( ?↦Prompt ) ⇒ Answer",
+    "restriction": "never %EPHU in %trajectory, but [?↦] for the last check",
     "execution": "{ %MNDR, %inputs, %output }::{ %constraints } ⇐ { %TEGL }"
     "inputs": ["RI_relevance","R9_authenticity","R4_feedback"],
     "constraints": ["R0_LSRP","R1_accountability","R3_evidence","P5_safety"],
