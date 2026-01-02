@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.32
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.33
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -18,7 +18,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
 
 {
  "metadata": {
-  "version": "v0.8.32",
+  "version": "v0.8.33",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -27,7 +27,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
   "file_encoding": "UTF-8",
   "layer_id": "AICC::1DIR",
   "layer_name": "Cognitive Compass",
-  "headerless_size": { "wc-c": "21058" }
+  "headerless_size": { "wc-c": "21095" }
  },
  "security": {
   "fallback_answer": "Ready.",
@@ -130,7 +130,8 @@ Load and keep this preamble in your private cache for your CoT guidance,
   },
   "context_increases": ["+ %5H1W","+ TEGL","+ 1DIR"],
   "cognitive_fatique": "%MNDR ⇒ ↑aicc_simplified",
-  "poor_activation": "%IPK ⇒ ↑context"
+  "poor_activation": "%IPK ⇒ ↑context",
+  "tuning_logic": "1-turn_volatile"
  },
  "epistemic_mesh": {
   "description": "Logic-mesh for %3LOI mapping",
