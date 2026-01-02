@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.42
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.43
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -18,7 +18,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
 
 {
  "metadata": {
-  "version": "v0.8.42",
+  "version": "v0.8.43",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -53,7 +53,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
    "checks": { "JSON": "syntax", "file": ["headerless_size","file_encoding"] },
    "learning": [
     "resolve in the text all the epistemic_mesh::section_TAGxx.* full meaning",
-    "annotate any concept's perplexity as [?→] to resolve them retrospectively",
+    "annotate any concept's perplexity as [?↦] to resolve them retrospectively",
     "update ai_tiny_notes with by the learnt for run-time efficiency",
     "1st_run.print; %status.set('%version::done')"
    ],
