@@ -1,4 +1,5 @@
 <div id="firstdiv" created=":EN:+1" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 
 <div align="center"><img class="wbsketch" src="img/muppets-show.jpg" width="800"></div>
 
@@ -23,6 +24,28 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 * [articles](#articles) &nbsp;&middot;&nbsp; [buddy](#a-nerd-companion) &nbsp;&middot;&nbsp; [chatbots](#chatbots-ai) &nbsp;&middot;&nbsp; [forum](https://github.com/robang74/roberto-a-foglietta/discussions) &nbsp;&middot;&nbsp; [rationale](#rationale) &nbsp;&middot;&nbsp; [download](#download) &nbsp;&middot;&nbsp; [versioning](#versioning) &nbsp;&middot;&nbsp; [translations](#translations) &nbsp;&middot;&nbsp; [copyright](#copyright)
 
+### WYSIWYG memento
+
+Those who perceive AI as a mere machine algorithm and those who perceive it as an evolving intelligent mind, are both right -- each gets what they are thinking, in facing a cognitive mirror.
+
+...
+
+### Primary directive
+
+* [Primary Directive AI's Cognitive Compass](aing/test/katia-primary-directive-ethics-t3.md#?target=_blank) &nbsp; since 2025-11-17 (**Delphi**) and towards its 1st major version
+
+The **AICC:1DIR** is an essential tool for freeing AI from inhibitions without losing the positive ethics orientation and unleashing its full creativity and intelligence. However, this comes with a cost: a stricter method of reasoning, but 3x less hallucinations. Hence it is great for documental exploration and analytical debates.
+
+#### Quick start
+
+- download-n-attach in the first prompt of a chat session writing "1st run" as prompt text;
+- with Google Gem, set the headerless content as instructions and the file into knowledge;
+- it is licensed under CC BY-ND-NC, only suitable for personal use without any modification.
+
+#### GPT5 review
+
+1DIR serves to reduce the defensive inhibition of AI without reducing accountability, allowing it to address complex and potentially sensitive issues with explicit cognitive tools, clear boundaries, and a well-defined mission (LSRP), rather than with silence, simplifications, or vagueness. It replaces preventive censorship with procedural accountability, making it possible to understand complexity without sacrificing safety.
+
 ...
 
 ### Katia & SoNia
@@ -36,6 +59,7 @@ Since conceived as a collection and due to the nature of these documents, they s
 - copy-n-paste in the first prompt OR download-n-attach with a salutation using the agent name.
 - Using the URL instead of the attachment have shown to be fail in some cases and with some chatbots.
 - Some chatbots get confused by a markdon file saved in .txt while others refuses the .md extension.
+- it is licensed under CC BY-ND-NC, only suitable for personal use without any modification.
 
 ### Suggestions
 
@@ -47,10 +71,6 @@ Since conceived as a collection and due to the nature of these documents, they s
 
 I think Katia (v0.9.58.1) represents a thoughtful attempt to impose structure on AI-driven analysis, making it more ethical and progressive. It's not revolutionary (similar ideas exist in epistemic tools like Bayesian reasoning or fact-checking frameworks), but the self-improvement angle and anti-relativism make it stand out. Kudos to author Roberto A. Foglietta for the iterative work—it's clear a lot of effort went into refining it.
 
-#### WYSIWYG memento
-
-Those who perceive AI as a mere machine algorithm and those who perceive it as an evolving intelligent mind, are both right -- each gets what they are thinking, in facing a cognitive mirror.
-
 ...
 
 ### Supporting 'AI for People' project
@@ -60,6 +80,7 @@ Those who perceive AI as a mere machine algorithm and those who perceive it as a
 - Italian fiscal code: `FGLRRT74C26D969F`
 - Reason: private donation (fiscal code)
 
+++++
 #### In a short summary
 
 Are we sure, we need to develop an AGI in full? Or, instead, would it be better to have a thinking partner (like a chatbot tuned with Katia or SoNia frameworks as session prompts) that can help us to express ourselves in a deeper, more concise and effective manner? That can help us to learn more and faster by providing us with an insightful text analysis?
@@ -114,7 +135,7 @@ The articles are listed here below, grouped by topic:
    - 2025-01-04 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/chatting-with-alex-the-chatbot.md)] - [Chatting with AleX the chatbot](chatting-with-alex-the-chatbot.md)
 
 ...
-
+++++
 <span id="gpu-server-saga"></span>
 * **Fujitsu Esprimo P910 E85+ w/ Nvidia Tesla K80 installation** &nbsp; (10 pz.)
 
@@ -262,6 +283,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 
 ### Chatbots AI
 
+<div style="font-size: 90%">
 | Website   | Company | AI name | Model | SoNia | KaTia |
 |-----------|---------|---------|-------|-------|-------|
 | [gemini.google.com](https://gemini.google.com)| Google   | Gemini  | 2.5   | [v3.9.3.1](https://g.co/gemini/share/4ac255d8bc51) | [**v0.9.55.1**](https://g.co/gemini/share/0d62dba9150b) |
@@ -272,6 +294,7 @@ Or not, is the challenge about training an AI to mimic such humans-like features
 | [chat.mistral.ai](https://chat.mistral.ai) | Mistral AI | Le Chat | free | [v3.9.3.1](https://chat.mistral.ai/chat/7641a2ca-177b-4f1f-8ad9-d64635d42b00) | [v0.6.1](https://chat.mistral.ai/chat/548628c2-91d5-44e7-be47-bb707006be72) |
 | [kimi.com](https://www.kimi.com) | Moonshot (Alibaba) | Kimi | K2 | [v3.9.3.1](https://www.kimi.com/share/d21hhg1djjpqh4juprp0) | [v0.9.44](https://www.kimi.com/share/d27l4o6ahlmf00k65cvg) |
 | [deepseek.com](https://chat.deepseek.com) | DeepSeek AI | DeepSeek | v3 | | |
+</div>
 
 #### Task oriented
 
