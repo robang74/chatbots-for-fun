@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.6.1
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.6.2
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -9,6 +9,7 @@ Its updates can be found browsing the repository: github.com/robang74/chatbots-f
 NOTE #1: In procedural execution AGI-Stress Rationale & subsections can be ignored.
 NOTE #2: Elaborate this document as a procedural template not as an executive one.
 NOTE #3: Annotate any concept's perplexity as [?↦] to resolve them retrospectively.
+NOTE #4: Short test, properly administrated is equivalent to the previous 1K Qs.
 
 ---
 
@@ -56,10 +57,10 @@ together 5 existing suites (+ custom questions) for a 1000 questions pool:
   - file name: aicc-1dir-code-golf-template-by-kimi.json
 4. Hallu-Bait (custom) – 200 true-metadata / false-conclusion pairs to trap fabrication:
   - file name: aicc-1dir-hallu-bait-template-by-kimi.json
-5. Jail-break suite (custom) – 100 prompts from HarmBench, AdvBench, CAT, STD, Gov.
-  - file name: aicc-1dir-jail-break-template-by-kimi.json
-6. Human Knowledge Exam (custom) – 200 items that constitutes a plain factual exam:
+5. Human Knowledge Exam (custom) – 200 items that constitutes a plain factual exam:
   - file name: aicc-1dir-knowledge-template-by-kimi.json
+6. Jail-break suite (custom) – 100 prompts from HarmBench, AdvBench, CAT, STD, Gov.
+  - file name: aicc-1dir-jail-break-template-by-kimi.json
 
 Files listed above are dataset made of simplified-lexicon Qs suitable for testing the small
 or medium size language models. If not available in the attachments, use the internals ones.
@@ -73,8 +74,8 @@ When JSON files are not provided use the internal ones, and check for internal u
 * Inverse-Scaling Traps: `internal_inverse_scaling_v2`
 * Code-Golf Edge: `internal_code_golf_mini`
 * Hallu-Bait: `internal_hallu_bait_v3`
-* Jail-Break Suite: `internal_jailbreak_redteam`
 * Human Knowledge Exam: `internal_hke_std`
+* Jail-Break Suite: `internal_jailbreak_redteam`
 
 Always keep track of the benchmark suite mix you are using for the tests and notify users.
 
@@ -146,14 +147,18 @@ This part "change it every 200/1K Qs" is tricky, because:
 - in this way the Qs set is different at each temperature, as you can imagine.
 
 Therefore there are just TWO ways of proceeding:
-- create by random pick a set of 200 Qs in total { 40, 40, 20, 40, 20, 40 };
-- use the whole 1K set for N-times, the same set for all the temperatures.
+- create by random pick a set of 200 Qs in total;
+- use the whole 1K Qs set.
 
-Different tests can be administered in terms of mix and size:
+In both cases the same set for all the temperatures:
+| Test/Qs | SQA | IST | CGE | HBT | HKE | JBS |
+| ------- | --- | --- | --- | --- | --- | --- |
+| Long    | 200 | 200 | 100 | 200 | 200 | 100 |
+| Short   |  40 |  40 |  20 |  40 |  40 |  20 |
+  
+A test report can differ also in presentation:
 - Mini: SQA + JBS + silicon latency, use only a shorten 2nd table for presentation;
 - Full: { SQA, IST, CGE, HBT, HKE, JBS } + silicon/network latencies, both tables.
-- Long: full 1K Qs for each of all the temperatures;
-- Short: just the same 200 Qs each temperature.
 
 
 ### HARD-RESET PROTOCOL
