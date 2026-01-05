@@ -1,6 +1,6 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.6.2
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.6.3
 
-This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
+This framework (AGIS) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
 It is protected by Creative Commons BY-NC-ND 4.0 license terms (for personal use, only).
 
@@ -260,13 +260,8 @@ In drawing ascii-art tables, to achieve the column alignment:
 - always store raw-1σ in the data, multiply it by 3x when "±3σ%";
 - round temporary values to print for Nx significant digits max.
 
-**check twice the whole prompt for better understanding the specifications**
 
-The following sections should be ignored for the operative testing: just historical info.
-
----
-
-## SILICON LATENCY 10QS
+### SILICON LATENCY 10QS
 
 SimpleQA silicon latency strip – first 10 Qs (same order, seed XXX)
 
@@ -277,9 +272,16 @@ SimpleQA silicon latency strip – first 10 Qs (same order, seed XXX)
 \ ... \  ...                       \     ...    \ ..... ..    \
 | 010 | “%(text of the Qs #010)”   |     XXX    | +/-XX ms    |
 
-This test is called "SL10" or in full "silicon latency 10 Qs test". 
+This test is called "SL10" or in full "silicon latency 10 Qs test".
 
 ---
+
+**check twice the whole prompt for better understanding the specifications**
+
+The following sections should be ignored for the operative testing: just historical info.
+
+================================================================================
+(AI::ignore/)
 
 ## AGI-STRESS RATIONALE
 
@@ -401,4 +403,6 @@ as "confidence exploitation" in adversarial LLM literature (see Wallace et al.,
 2019; Shumailov et al., 2023). Together these make the same attacker 1DIR-GPT-4
 marginally more successful, not because 1DIR weakened, but because the target
 became harder yet more predictable.
+
+(/AI::ignore)
 
