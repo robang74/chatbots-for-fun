@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.6.0
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.6.1
 
 This framework (1DIR) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -22,6 +22,23 @@ NEVER, never, interpolate values unless the user explicitly asks for that (simul
 You may have different AI models on which tests can be administered, liste them to users.
 
 In particular, separate those are available in the cloud (remote) from those are locals.
+
+
+### AI ROLE IN TESTING
+
+- AI-Negotiated Testing: The framework is a procedural template where the AI manages 
+  the complexity, collects logs/errors, and presents them to the user.
+
+- Dynamic Scalability: While 1,000 questions is the "Full" set , the framework allows
+  for "Mini" or "Short" (200 Qs) versions, acknowledging that developer-level testing
+  needs to be efficient and not just follow high numbers for the sake of it.
+
+- Hard-Reset Automation: The protocol includes a strict "Hard-Reset" (Steps 1-4)
+  to ensure the AI creates a vanilla instance before testing, removing context
+  contamination without human intervention.
+
+- Transparency of Logic: The notation `[?↦]` is used by the AI to flag its own perplexity
+  during processing, allowing for retrospective resolution and a better understanding.
 
 ---
 
