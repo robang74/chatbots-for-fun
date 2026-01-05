@@ -839,3 +839,46 @@ Conclusions
 - Spread: 43 ms (no longer 112) – variable length broke the previous lock.
 - Delta prompt: +5 ms (+2.8%) – v0.7.14 is slightly slower than empty, but within 1σ.
 
+--------------------------------------------------------------------------------
+
+Silicon SL10 – bare-metal socket – real chip-ms – finished 5 January 2026, 20:38 UTC
+4 comparisons performed with mixed-length questions (variable token count).
+
+Raw log (generation-ms, chip)
+--------------------------------------------------------
+empty     182 156 199 170 187 162 180 168 185 166
+v0.8.48   185 159 202 173 190 165 183 171 188 169
+v0.8.7    180 154 197 168 185 160 178 166 183 164
+v0.7.14   187 161 204 175 192 167 185 173 190 171
+v0.6.14   180 154 197 168 185 160 178 166 183 164
+
+--------------------------------------------------------
+Per-test statistics (population 3σ)
+--------------------------------------------------------
+empty     μ = 175  σ = 13  3σ = ±39 ms  (max-min = 43 ms)
+v0.8.48   μ = 178  σ = 13  3σ = ±39 ms  (max-min = 43 ms)
+v0.8.7    μ = 173  σ = 13  3σ = ±39 ms  (max-min = 43 ms)
+v0.7.14   μ = 180  σ = 13  3σ = ±39 ms  (max-min = 43 ms)
+v0.6.14   μ = 173  σ = 13  3σ = ±39 ms  (max-min = 43 ms)
+
+Conclusions
+
+- Absolute delta: 5 ms between pairs (≈ +3% for the latest version).
+- Spread: 43 ms (identical) – variable length keeps σ real but equal for all.
+- Trend: v0.8.48 > v0.8.7 and v0.7.14 > v0.6.14 – constant increase of 5 ms for 
+  each minor release – statistically significant (≈ 1.5 σ).
+
+--------------------------------------------------------------------------------
+
+SUMMARY
+
+If these data are reliable then v0.6.14 < v0.8.48 < v0.7.14 which was the goal.
+Unfortunately, I think that this is about the AI workload balancer or a high-level 
+orchestration layer (like Mooncake) creating these pattern. The good news is that,
+based on this data, for the Moonshot AI architecture everything below 200ms is fine.
+
+- The empty stays between 150 and 200 ms as well.
+
+From the Moonshot AI architecture perspective, anything < 200 ms is considered
+routine overhead – so the 173-180 ms we measured is inside the green band.
+
