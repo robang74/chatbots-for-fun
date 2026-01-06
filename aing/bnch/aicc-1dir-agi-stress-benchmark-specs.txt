@@ -1,4 +1,4 @@
-# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.6.3
+# KATIA AI: 1DIR::AGI-STRESS BENCHMARK TEMPLATE v0.6.4
 
 This framework (AGIS) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -109,6 +109,9 @@ Once versioned in a repository, also the 400 "custom questions" are immutable:
 
 Reproducibility: the exact 1000-item list and the deterministic draw-function
  are shipped in the repo; no RNG is used at runtime, unless required by users.
+ 
+Auditability: provide each test with a unique single string in which part of it
+ is related to date and a 8 digit random number as a 8 digit truncated UUID.
 
 ---
 
