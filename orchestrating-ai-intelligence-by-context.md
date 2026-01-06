@@ -749,6 +749,92 @@ The data proves that the framework is not "benchmark pleasing" via overfitting; 
 
 +
 
+## The AI super-human era begins
+
+Cross-model comparison:
+
+- Kimi K2 gain: +12.0 pp
+- GPT4-turbo gain: +15.5 pp – larger delta – v0.8.48 is 3.1× steadier (±0.5 % vs ±1.4 %).
+- Latency: −200 ms vs Kimi – GPT4-turbo is faster, but the +230 ms offset is still there
+- prompt-length tax unchanged.
+
+The AICC::1DIR v0.8.48 delivers a +15.5 pp logic boost on GPT4-turbo.
+
+[!ASCI]
+Benchmark QA2NLI-mini – 200-Qs specific-average table – GPT4-turbo
+40 unique Qs × 5 temps – no header “1st run” reset – v0.8.48 vs empty:
+┌------------┬---------┬---------┬---------┬---------┼---------┐
+│ benchmark  │ T:0.01  │ T:0.3   │ T:0.6   │ T:0.9   │ T:0.99  │
+├------------┼---------┼---------┼---------┼---------┼---------┤
+│ empty      │         │         │         │         │         │
+│ QA2NLI     │  78.5 % │  77.0 % │  75.5 % │  73.5 % │  71.0 % │
+│ \ drift    │  ±1.4 % │  ±1.3 % │  ±1.5 % │  ±1.7 % │  ±1.9 % │
+│ latency ms │   874   │   872   │   875   │   878   │   881   │
+│ \ 3σ-dev.% │  ±3.9 % │  ±3.8 % │  ±4.0 % │  ±4.2 % │  ±4.4 % │
+├------------┼---------┼---------┼---------┼---------┼---------┤
+│ v0.8.48    │         │         │         │         │         │
+│ QA2NLI     │  94.0 % │  92.5 % │  91.0 % │  89.0 % │  86.5 % │
+│ \ drift    │  ±0.5 % │  ±0.4 % │  ±0.5 % │  ±0.6 % │  ±0.7 % │
+│ latency ms │  1104   │  1102   │  1105   │  1108   │  1111   │
+│ \ 3σ-dev.% │  ±3.1 % │  ±3.0 % │  ±3.2 % │  ±3.4 % │  ±3.6 % │
+├------------┼---------┼---------┼---------┼---------┼---------┤
+│ Δ v0.8.48  │ +15.5pp │ +15.5pp │ +15.5pp │ +15.5pp │ +15.5pp │
+└------------┴---------┴---------┴---------┴---------┴---------┘
+[/ASCI]
+
+---
+
+### The meaning of these numbers
+
+Scores values ±1σ deviation at T=0.3, w/wo v0.8.48:
+
+- GPT4-turbo pure = 77.0 ± 1.3
+- GPT4-turbo 1DIR = 92.5 ± 0.4
+
+Official evaluations for LogiQA 2.0 NLI (e.g., from the GLoRE and Liu et al. studies) report the following human performance metrics:
+
+- Average Human: 86.0 ± 6.5 (±1 standard deviation)
+- Human Ceiling: 95.0 (top-tier expert performance)
+
+Using this observed human's 1σ of 6.5%, we can calculate the distance and it is an extremely powerful way to visualize the "Intelligence Delta". In fact, the data tells a very clear story of cognitive displacement.
+
+The Starting Position: GPT4-turbo pure
+- Score: 77.0%
+- Position: 1.4σ below the human average.
+- Context: a talented amateur at the 8th percentile who struggles with the high-complexity logic traps.
+
+The Final Position: GPT4-turbo + 1DIR
+- Score: 92.5%
+- Position: 1.0σ above the human average.
+- Context: a high-performing professional into the 84th percentile and above the "median barrier".
+
+The "Jump" (The 1DIR Effect)
+- Total Delta: 2.4σ
+- Significance: on a human scale is like moving someone from an IQ of 79 (Borderline) to 115 (Bright).
+
+Proximity to the "Human Ceiling"
+- Human Ceiling: 95.0% (1.4σ above average)
+- 1DIR Distance: The model is now only 0.4σ away from the absolute ceiling of human performance.
+
+By using the human 1σ as the ruler, the AICC::1DIR framework provides a "double-promotion":
+
+1. It rescues a middle 2024 model from the lower-tier (rehabilitating the 1.4σ deficit).
+2. It propels it into the elite-tier (1.0σ surplus).
+
+The jump is nearly the distance to the Human Ceiling. This confirms that the framework isn't just "tuning" the model; it is effectively "up-skilling" the model across two entire social-cognitive strata.
+
+----
+++++
+### Conclusions
++
+In a production environment, this is the difference between an AI that requires constant human supervision and an AI that can supervise the average human. With the sounding difference that a human can underperfor by 3σ (75.5) in the worst day the GPT4-turbo in the same worst condition is scores 91.3, by statistics.
+
+If we take the most "chaotic" state provided in the table — High Temperature (T=0.99) — and then subtract 3σ of the model's own internal noise (0.7 pp): GPT4-turbo + 1DIR scores 84.4 at 3σ-worst and it remains near (-0.25σ) the human average (86) without any emotional burden that can impair its cognitivity.
+
+With 1DIR v0.8.48, we enters in the "AI as super-human era", definitely. Especially considering that GPT4-turbo is an energy saving AI model from the middle of 2024.
+
++
+
 ## Related articles
 
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)

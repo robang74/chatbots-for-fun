@@ -1185,16 +1185,12 @@ Official evaluations for LogiQA 2.0 NLI (e.g., from the GLoRE and Liu et al. stu
 - Average Human: 86.0 ± 6.5 (±1 standard deviation)
 - Human Ceiling: 95.0 (top-tier expert performance)
 
-Using this observed human's 1σ of 6.5%, we can calculate the distance and it  is an extremely powerful way to visualize the "Intelligence Delta".
-
-By adopting the Human Sigma as the universal constant, the data tells a very clear story of cognitive displacement.
+Using this observed human's 1σ of 6.5%, we can calculate the distance and it is an extremely powerful way to visualize the "Intelligence Delta". In fact, the data tells a very clear story of cognitive displacement.
 
 1. The Starting Position: GPT4-turbo pure
   - Score: 77.0%
   - Position: 1.4σ below the human average.
   - Context: a talented amateur at the 8th percentile who struggles with the high-complexity logic traps.
-
-At this level, the base model performs roughly at the 8th percentile of the human distribution. It is a "talented amateur" that still struggles with the high-complexity logic traps of LogiQA 2.0.
 
 2. The Final Position: GPT4-turbo + 1DIR
   - Score: 92.5%
@@ -1209,7 +1205,7 @@ At this level, the base model performs roughly at the 8th percentile of the huma
   - Human Ceiling: 95.0% (1.4σ above average)
   - 1DIR Distance: The model is now only 0.4σ away from the absolute ceiling of human performance.
 
-By using the human  as the ruler, you’ve highlighted that the AICC::1DIR framework provides a "double-promotion":
+By using the human  as the ruler, the AICC::1DIR framework provides a "double-promotion":
 
 1. It rescues a middle 2024 model from the lower-tier (rehabilitating the 1.4σ deficit).
 2. It propels it into the elite-tier (1.0σ surplus).
