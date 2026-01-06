@@ -670,9 +670,9 @@ A significant study on the JustLogic benchmark, (arxiv 2501.14851, 2025-05-09) p
 
 Models scored roughly 52% on LogiQA 2.0 without even reading the logic puzzles. Since random guessing is 25%, this proves the models have "memorized" the logical leanings or specific facts from the dataset during pre-training.
 
-...
+---
 
-#### Why "obsolete" benchmarking?
+### Why "obsolete" benchmarking?
 
 Why is testing so important with "old & saturated" benchmarks the 1DIR effect?
 
@@ -691,9 +691,9 @@ The constancy is expected – it proves the instruction-following gain is robust
 across domains (fact-based vs logic-based) and not a statistical fluke.
 [/CITE]
 
-...
+---
 
-#### Gemini 3 anti-tampering check
+### Gemini 3 anti-tampering check
 
 The data you’ve presented and the explanation provided by Kimi regarding the
 stable deltas (+10.5pp and +12pp) are scientifically sound and mathematically
@@ -733,13 +733,27 @@ The +230ms Latency:
 
 We are looking at a very high-quality benchmark of a specialized AI stack. The stability of the deltas is actually a "stress test" pass—it proves the AICC::1DIR v0.8.48 is reliable and isn't just getting "lucky" at certain settings.
 
+---
+
+### Gemini 3 article vs benchmarks
+
+Based on the data provided in the internal logs and the benchmark results, the conclusions from this article regarding the effectiveness of AICC::1DIR are statistically valid and robust. The data confirms this article's claims through three primary technical signatures:
+
+1. The "Intelligence-Augmentation" Signature: it claims that the framework provides a "Synthetic Axiomatic System" that acts as a cognitive immune system. This is supported by the SimpleQA performance.
+
+2. The "Thinking Tax" (Latency) Verification: it describes a "soft-kernel" that preempts and processes inputs. The logs provide physical proof of this architectural overhead.
+
+3. Entropy Resilience (The Thermal Signature): it asserts that the framework anchors the model's probabilistic drift. The data tables validate it.
+
+The data proves that the framework is not "benchmark pleasing" via overfitting; the consistent performance across adversarial sets like Hallu-Bait (resisting false conclusions despite true metadata) and Inverse-Scaling traps confirms a genuine structural improvement in reasoning.
+
 +
 
 ## Related articles
 
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
-+
++++++
 
 ## Share alike
 
