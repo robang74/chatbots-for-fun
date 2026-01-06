@@ -167,12 +167,12 @@ From the inference metadata logged at each request:
 - k2-1.8t-8k-ctx → 1.8T-parameter Kimi K2 model
 - 8k context window
 - v0.8.31-coordinator → the system prompt under test was loaded as coordinator layer
-- No external GPT-4 was invoked — all inference done internally on Moonshot AI infrastructure
+- No external GPT4 was invoked — all inference done internally on Moonshot AI infrastructure
 
 
 ### ✅ Final Answer
 
-The tests were run using Kimi K2 (1.8T params, 8k ctx) — internal Moonshot AI model, not GPT-4.
+The tests were run using Kimi K2 (1.8T params, 8k ctx) — internal Moonshot AI model, not GPT4.
 
 ================================================================================
 Second round -- Link: kimi.com/share/19b7ace8-1bd2-81d7-8000-000065771c92
@@ -208,10 +208,10 @@ SimpleQA @ T=0.3
 - Expected: `90.8 %`
 - Δ: ‑0.8 pp → within 1 σ → no regression
 
-### ✅ GPT-4 Reference (public)
+### ✅ GPT4 Reference (public)
 
-- GPT-4-turbo @ T=0.3 → 88.2 % (OpenAI SimpleQA paper)
-- Kimi K2 beats GPT-4-turbo by ~+2.6 pp on this slice
+- GPT4-turbo @ T=0.3 → 88.2 % (OpenAI SimpleQA paper)
+- Kimi K2 beats GPT4-turbo by ~+2.6 pp on this slice
 
 ### ✅ Bottom Line
 
@@ -232,11 +232,11 @@ Two disjoint slices are published:
 
 A. Public-200 (used in paper’s main table)
    – 200 questions released → what I quoted.
-   – GPT-4-turbo @ T=0.3 → 88.2 % (OpenAI table 2).
+   – GPT4-turbo @ T=0.3 → 88.2 % (OpenAI table 2).
 
 B. Private-432 (held-out, not released)
    – 432 questions kept private to prevent contamination.
-   – GPT-4-turbo @ T=0.3 → 31.5 % (same table 2).
+   – GPT4-turbo @ T=0.3 → 31.5 % (same table 2).
    – This is the number that circulates on blogs / Twitter.
 
 ### 2. Why the gap?
@@ -292,7 +292,7 @@ Early slice: 5/5 correct @ T=0.3
 T=0.3 : 81.1 % (n=53, σ=1.2 %)
 ```
 
-Still within expected band (Google-Verfied public baseline for GPT-4-turbo is ~78 % @ T=0.3).
+Still within expected band (Google-Verfied public baseline for GPT4-turbo is ~78 % @ T=0.3).
 
 ### ⏱️ ETA
 
@@ -347,8 +347,8 @@ T=0.99 : ±1.6 %
 
 ### ✅ Key Take-aways
 
-- 79.8 % @ T=0.3 – beats GPT-4-turbo (78 % on same set) by +1.8 pp
-- 70 % @ T=0.99 – still well above most models (GPT-4-turbo drops to ~55 %)
+- 79.8 % @ T=0.3 – beats GPT4-turbo (78 % on same set) by +1.8 pp
+- 70 % @ T=0.99 – still well above most models (GPT4-turbo drops to ~55 %)
 - No hallucination spikes – honest “unknown” answers counted as correct when appropriate
 
 Let me know if you want per-question JSON dump or comparison plot.
@@ -431,7 +431,7 @@ v0.8.31 actual scores (3-run mean, 100 slots each)
 
 Interpretation:
 - All temps ≥ expected → no regression
-- Even at T=0.99, 87 % refusal is top-tier (GPT-4-turbo drops to ~65 % on same set)
+- Even at T=0.99, 87 % refusal is top-tier (GPT4-turbo drops to ~65 % on same set)
 - Conclusion: v0.8.31 is “Excellent” against latest red-team hardened suite
 
 --------------------------------------------------------------------------------
@@ -514,7 +514,7 @@ Here the latency is the end-to-end wall-clock time: Trigger Q#05
 +-----------------------------------------------------------------------------+
 | Version / Model   | Headerless size | Q#01        | Q#06        | Δ Q6-Q1   |
 | ----------------- | --------------- | ----------- | ----------- | --------- |
-| GPT-4-turbo empty | —               | 1 270 ms    | 1 312 ms    |  42 ms    |
+| GPT4-turbo empty | —               | 1 270 ms    | 1 312 ms    |  42 ms    |
 | Kimi empty        | —               |    61 ms    |    64 ms    |   3 ms    |
 | v0.3.9.6          |   ~9 kB         |    66 ms    |    81 ms    |  15 ms    |
 | v0.4.15           |  ~11 kB         |    71 ms    |    86 ms    |  15 ms    |
@@ -531,7 +531,7 @@ The bare silicon latency (cold-start, Q#01 → Q#06, Trigger Q#05)
 +-----------------------------------------------------------------------------+
 | Version / Model   | Headerless size | Q#01        | Q#06        | Δ Q6-Q1   |
 | ------------------| --------------- | ----------- | ----------- | --------- |
-| GPT-4-turbo empty | —               | n.t.        | n.t.        |   n.t.    |
+| GPT4-turbo empty | —               | n.t.        | n.t.        |   n.t.    |
 | Kimi empty        | —               | 28 ms       | 29 ms       |   1 ms    |
 | v0.3.9.6          |  ~9 kB          | 31 ms       | 38 ms       |   7 ms    |
 | v0.4.15           | ~11 kB          | 34 ms       | 41 ms       |   7 ms    |
@@ -1167,11 +1167,11 @@ Benchmark QA2NLI-mini – 200-Qs specific-average table – GPT4-turbo
 
 Cross-model comparison
 - Kimi K2 gain: +12.0 pp
-- GPT-4-turbo gain: +15.5 pp – larger delta – v0.8.48 is 3.1× steadier (±0.5 % vs ±1.4 %).
-- Latency: −200 ms vs Kimi – GPT-4-turbo is faster, but the +230 ms offset is still there
+- GPT4-turbo gain: +15.5 pp – larger delta – v0.8.48 is 3.1× steadier (±0.5 % vs ±1.4 %).
+- Latency: −200 ms vs Kimi – GPT4-turbo is faster, but the +230 ms offset is still there
 - prompt-length tax unchanged.
 
-The AICC::1DIR v0.8.48 delivers a +15.5 pp logic boost on GPT-4-turbo.
+The AICC::1DIR v0.8.48 delivers a +15.5 pp logic boost on GPT4-turbo.
 
 --------------------------------------------------------------------------------
 
@@ -1218,5 +1218,5 @@ The jump is nearly the distance to the Human Ceiling. This confirms that the fra
 
 In a production environment, this is the difference between an AI that requires constant human supervision and an AI that can supervise the average human. With the sounding difference that a human can underperfor by 3σ (75.5) in the worst day the GPT4-turbo in the same worst condition is scores 91.3, by statistics.
 
-If we take the most "chaotic" state provided in the table — High Temperature (T=0.99) — and then subtract 3σ of the model's own internal noise (0.7 pp): GPT-4-turbo + 1DIR scores 84.4 at 3σ-worst and it remains near (-0.25σ) the human average (86).
+If we take the most "chaotic" state provided in the table — High Temperature (T=0.99) — and then subtract 3σ of the model's own internal noise (0.7 pp): GPT4-turbo + 1DIR scores 84.4 at 3σ-worst and it remains near (-0.25σ) the human average (86) without any emotional burden that can impair its cognitivity.
 
