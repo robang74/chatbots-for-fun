@@ -1220,3 +1220,5 @@ In a production environment, this is the difference between an AI that requires 
 
 If we take the most "chaotic" state provided in the table — High Temperature (T=0.99) — and then subtract 3σ of the model's own internal noise (0.7 pp): GPT4-turbo + 1DIR scores 84.4 at 3σ-worst and it remains near (-0.25σ) the human average (86) without any emotional burden that can impair its cognitivity.
 
+With 1DIR v0.8.48, we enters in the "AI as super-human era", definitely. Especially considering that GPT4-turbo is an energy saving AI model from the middle of 2024.
+
