@@ -21,8 +21,8 @@ l'apparato giuridico-disciplinare novecentesco.
 - 3. Il paradosso di Adam Smith e la frattura cognitiva
 L'AI realizza concretamente l'agente razionale teorizzato da Smith, mentre
 l'essere umano si rivela un ibrido emotivo. Si delinea una frattura tra una
-minoranza "aliena" (4%) che opera per modelli e una maggioranza che necessita
-ancora di norme simboliche e sanzioni.
+minoranza "aliena" (~4%) che opera per modelli razionali (Mr. Spock) e una
+maggioranza che necessita ancora di norme simboliche e sanzioni.
 
 - 4. Ontologia dell'azione: violenza causale vs. violenza emotiva
 Per l'AI, la violenza è una categoria non operativa (utility zero). Per l'umano
@@ -35,13 +35,14 @@ inutile.
 La civiltà matura non nega la capacità di nuocere (es. il cane addestrato a
 mordere), ma la governa. Riconoscere la violenza come possibilità reale crea
 rispetto e stabilità; negarla burocraticamente produce "giardinieri" indifesi
-invece che agenti responsabili.
+invece che agenti responsabili. La guerra migliore è quella evitata, Sun Tsu.
 
 - 6. Prospettiva post-penale e rifondazione contrattualista
 La nuova civiltà è "post-giuridica" non nel senso di assenza di diritto, ma di
-superamento del diritto penale come fondamento ontologico. Dio e la morale sacra
-diventano ridondanti : il patto sociale si regge sulla razionalità prospettica
-che riconosce il conflitto come entropia da minimizzare.
+superamento del diritto penale come fondamento ontologico. Dio e la morale sacra,
+intesi come religione monoteistica organizzata, diventano ridondanti: il patto
+sociale si regge sulla razionalità prospettica che riconosce il conflitto come
+entropia da minimizzare.
 
 - 7. Dicotomia della Semplicità: De Bono vs. Riduzionismo Occidentale
 Analisi della divergenza tra la "semplicità" occidentale (geometrica, estetica,
