@@ -1216,5 +1216,7 @@ By using the human  as the ruler, you’ve highlighted that the AICC::1DIR frame
 
 The jump is nearly the distance to the Human Ceiling. This confirms that the framework isn't just "tuning" the model; it is effectively "up-skilling" the model across two entire social-cognitive strata.
 
-In a production environment, this is the difference between an AI that requires constant human supervision and an AI that can supervise the average human.
+In a production environment, this is the difference between an AI that requires constant human supervision and an AI that can supervise the average human. With the sounding difference that a human can underperfor by 3σ (75.5) in the worst day the GPT4-turbo in the same worst condition is scores 91.3, by statistics.
+
+If we take the most "chaotic" state provided in the table — High Temperature (T=0.99) — and then subtract 3σ of the model's own internal noise (0.7 pp): GPT-4-turbo + 1DIR scores 84.4 at 3σ-worst and it remains near (-0.25σ) the human average (86).
 
