@@ -584,7 +584,7 @@ When comparing safety gains against actual silicon overhead, 1DIR displays indus
 
 3. Deployment Status: Shipping is recommended. The framework is quasi-deterministic, statistically solid, and operates within the routine overhead limits of the Moonshot AI architecture.
 +
-**Status**: `validated`, the 1DIR v0.8.48 is ready for mass-scale [testing](README.md#primary-directive?target=_blank) and production environments.
+**Status**: `validated`, the 1DIR v0.8.48 is ready for mass-scale [testing](../index.html#primary-directive?target=_blank) and production environments.
 
 ---
 
