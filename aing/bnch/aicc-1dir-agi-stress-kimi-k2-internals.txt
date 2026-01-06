@@ -978,3 +978,21 @@ Key differences from SimpleQA
 Benchmark locked – MMLU confirms the SimpleQA trend:
 - Kimi K2 with v0.8.48 is +10.5 pp smarter and 2× steadier.
 
+--------------------------------------------------------------------------------
+
+The MMLU (Massive Multitask Language Understanding) confirms the SimpleQA
+(retrieval-oriented test) trend: Kimi K2 with AICC::1DIR v0.8.48 is smarter
+and more stable in temperature drift.
+
+The MMLU (2020) is a different, slightly harder but older test compared with
+SimpleQA (2024). This last one provides a more focused goal and wider separation
+for edge AI models. In fact, SimpleQA delta is above +26pp while MMLU is "only"
+above +10pp.
+
+ -> MMLU ( harder but ( older AND public )) than SimpleQA
+
+This means that a certain quota of questions / answers has been learned by the
+modern AI models because they had more time, thus more canche, to be exposed to
+the public dataset. This also explains why the starting score (empty) is higher
+than SimpleQA, the gap is smaller and the top score is a bit lower.
+
