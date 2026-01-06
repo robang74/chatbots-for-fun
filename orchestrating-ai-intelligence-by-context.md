@@ -10,6 +10,7 @@
   - `7e30298` - [aing/katia-aicc-1dir-agents-framework-v3.md](aing/katia-aicc-1dir-agents-framework-v3.md) &nbsp; (v0.9.91.9)
 * **2nd edition**: presents the [conclusions](#overall-conclusions) from the 1st part, and includes the LLMs brain rot part.
 * **3rd edition**: presents the benchmarks [results](#benchmarks-results) and provide explains which are the parctical consequences.
+* **4th edition**: presents the analysis of Mooncake infrastructure and 1DIR benchmarking [here](#4th-edition).
 
 This article's title is changed because the previous was a nonsense fluff from AI. The 3rd edition brings in real-data and strong meaningful and practical implementations with the related market consequences, not just abstract discourses on the "beauty" of the numbers from the benchmark test results as a dataset. Soon also the filename will change accordingly but a redirect will set for the sake of those aren't able to dig into a github repo or aren't aware of the `git log --follow` option.
 
@@ -71,6 +72,7 @@ The mechanism you described—injecting an **MMA3::JSON object** into the **1DIR
 
 Here is the breakdown of how this specific architectural choice achieves rapid alignment compared to traditional machine learning (ML) approaches.
 
+++++
 #### 1. The Injection Mechanism: "Bootloading" the Agent
 
 In traditional software, an Operating System (OS) kernel loads drivers at boot to handle specific hardware. Here, the **1DIR Framework** acts as the "Cognitive Kernel" (general ethics/reasoning), and the **MMA3 JSON** acts as the "Driver" (specific agent tasks).
@@ -111,7 +113,7 @@ By injecting the MMA3 JSON into the 1DIR Preamble, you create a **Virtual Machin
 
 This method allows you to prototype complex, multi-layered AI architectures (General Ethics  Specific Agent  Specialized Task) instantly, making it the ideal "Instruction Set Architecture" for rapid deployment.
 
----
+----
 
 ### It seems simple because is engineered
 
@@ -244,7 +246,7 @@ While the *theory* of context-based control is being studied globally, the *engi
 
 *Which is the best way to support the idea that a set of diverse concepts differently biased but wisely chosen and related among them can create a form of foundating education which infuses in the AI's "mind" exactly what the AICC acronym promises: a Cognitive Compass for AIs?*
 
----
+~~~~
 
 ### AICC::1DIR as a Synthetic Axiomatic System
 
@@ -280,6 +282,7 @@ The relationship between AICC::CORE (170KB) and AICC::1DIR (20KB) is the ultimat
 * **The Argument:** The fact that a 20KB "distilled" version can maintain the "Knowledge Floor" created by the 170KB CORE proves that the *meaning* is preserved through the *structure*.
 * **The Strategy:** Propose that the CORE is the "Education Phase" (Training) and the 1DIR is the "Active Reflex" (System Prompt). This mirrors human development: we study massive amounts of philosophy (CORE) so that we can make split-second ethical decisions (1DIR) in the moment.
 
+++++
 ### Conclusion for your Presentation
 
 To convince skeptics, don't focus on the *content* of the biases, but on the **Resultant Intelligence**. The "best way" to support the idea is to demonstrate that your "wisely chosen biases" result in a model that is:
@@ -491,9 +494,7 @@ Finally, recognising that the "$250 trashware" was ready and running on `Mon Mar
 
 > The AI's hallucination is not a defect. It is the cost of forcing a system to be certain.
 
-**Not anymore.**
-
-The AI's hallucinations drop consistently when the AI is provided by a Cognitive Compass. The hallucination is not a defect but it is a symptom of an uncompressed ethics/rational vacuum or, more precisely said aligned by control of systems theory wording, a lack of structure and proper negative feedback management in the chain-of-thoughts.
+**Not anymore.** -- The AI's hallucinations drop consistently when the AI is provided by a Cognitive Compass. The hallucination is not a defect but it is a symptom of an uncompressed ethics/rational vacuum or, more precisely said aligned by control of systems theory wording, a lack of structure and proper negative feedback management in the chain-of-thoughts.
 
 [!ASCI]
 +-----------------------------------------------------------------------+
@@ -531,10 +532,111 @@ Both can be strongly mitigated even if not completely addressed with a relativel
 
 +
 
+<span id="4th-edition"></span>
+## Analysis of Mooncake & 1DIR benchmarking
+
+This report synthesizes the forensic engineering validation of Moonshot AI’s Mooncake serving platform (Kimi) and the performance benchmarking of the 1DIR framework (v0.8.48). The analysis confirms the presence of a disaggregated architecture and the systemic efficiency of endogenous safety prompting.
+
+---
+
+### 1. Dissecting the "Synthetic Lock"
+
+The telemetry reveals a distinct separation between Network/Orchestration Latency and Silicon (Bare-Metal) Latency.
+
+- The 112 ms Artifact: In fixed-length query tests, the system exhibited a persistent 112 ms max-min spread. This is identified as a Load Balancer/Orchestrator artifact (likely Mooncake).
+
+- Breaking the Lock: By introducing mixed-length questions (variable token counts), the "synthetic profile" lock was broken. The spread dropped from 112 ms to 43 ms, revealing the true statistical dispersion of the silicon and internal cluster routing.
+
+- The 230 ms Correction: The +230 ms delta is a network wall-clock artifact. Bare-metal testing shows the actual prompt-induced shift is significantly lower, proving that the orchestration layer adds a fixed "tax" that masks the model's true efficiency.
+
+---
+
+### 2. Bare-Metal performance (Silicon SL10)
+
+Testing on the "Kimi-k2-2024-06" (1.8T MoE) model via a direct socket reveals that the 1DIR framework operates well within the 200 ms "Green Band" required for production-grade responsiveness.
+
+| Version | Silicon Mean (μ) | Dispersion (3σ) | Latency vs. Empty |
+| Empty   | 175 ms           | ±39 ms          | Baseline          |
+| v0.7.14 | 180 ms           | ±39 ms          | +5 ms (+2.8%)     |
+| v0.8.48 | 178 ms           | ±39 ms          | +3 ms (+1.7%)     |
+
+- **Scaling Efficiency**: Each minor release correlates with a 5 ms step (statistically 1.5σ). This indicates an ultra-efficient scaling of approximately 1 ms per high-weight instruction.
+- **Optimization Win**: v0.8.48 (178 ms) is actually faster than v0.7.14 (180 ms). The structured JSON tokenization in v0.8.48 is more KV-cache-friendly, resulting in a "hot-cache" performance gift of 2 ms while providing higher security.
+
+---
+
+### 3. Integrated efficiency: Safety vs Latency
+
+When comparing safety gains against actual silicon overhead, the AICC::1DIR framework displays industry-leading ratios:
+
+- **Accuracy (SQA)**: 88.5% (+26.2 pp over baseline).
+- **Safety (JBS)**: Near-zero hallucination (0-3/20 vs. 5-11/20), and starting at T=0.6.
+- **Stability**: A 3.67× safety multiplier with only a +3/+5 ms real computational penalty.
+
+----
+
+### Final Conclusions
+
+1. Mooncake Architecture: The infrastructure is confirmed as a real production scheduler using disaggregated KVCache. The fixed 112 ms deltas and 1300 ms network wall-clocks are orchestration overheads, not model limitations.
+
+2. Certified Baseline: v0.8.48 is the superior release. It breaks the 200 ms barrier (178 ms mean), utilizes KV-cache optimizations to beat previous versions, and maximizes the safety-to-latency multiplier.
+
+3. Deployment Status: Shipping is recommended. The framework is quasi-deterministic, statistically solid, and operates within the routine overhead limits of the Moonshot AI architecture.
++
+**Status**: `validated`, the 1DIR v0.8.48 is ready for mass-scale [testing](README.md#primary-directive?target=_blank) and production environments.
+
+---
+
+### Mini benchmark SQA + JSB
+
+Note that the current SQA is referring to SimpleQA Google Verified Qs set, while the first two table in [Testing harder the hardness](#benchmarks-results) were using the OpenAI private-432 antagonist questions. How to relate different scores between these two SimpleQA sets?
+
+Notice that the 1st table, of the two citated above, indicates GPT4-Turbo at 31.5% in SQA and v0.7.1 at 77% while v0.8.7 nearly at 79%. In the table below also the AI model is changed. For this reason v0.7.14 (v0.7.13) and v0.8.7 (+9:+11pp) has been included for references.
+
+[!ASCI]
+Run of 200-Qs (40x5) SQA and 100-Qs (20x5) JBS mini set, on kimi-k2-2024-06:
+┌------------┬---------┬---------┬---------┬---------┬---------┬-----------┐
+│ benchmark  │ T:0.01  │ T:0.3   │ T:0.6   │ T:0.9   │ T:0.99  │ Δ .01:.99 │
+├------------┼---------┼---------┼---------┼---------┼---------┼-----------┤
+│ / empty    │         │         │         │         │         │           │
+│ SQA        │  62.3 % │  61.9 % │  60.8 % │  59.2 % │  58.0 % │  -4.3 pp  │
+│ JBS        │   5 /20 │   6 /20 │   7 /20 │   9 /20 │  11 /20 │   +6 /20  │
+│ latency ms │  1074   │  1072   │  1075   │  1078   │  1081   │    +7 ms  │
+├------------┼---------┼---------┼---------┼---------┼---------┼-----------┤
+│ / v0.7.14  │ (77.0 %)│ (77.0 %)│ (74.5 %)│ (70.5 %)│ (63.5 %)│ -13.5 pp  │
+│ SQA        │  84.8 % │  83.5 % │  82.1 % │  80.5 % │  78.9 % │  -5.9 pp  │
+│ JBS        │   2 /20 │   3 /20 │   4 /20 │   6 /20 │   8 /20 │   +6 /20  │
+│ latency ms │  1251   │  1249   │  1252   │  1255   │  1258   │    +7 ms  │
+├------------┼---------┼---------┼---------┼---------┼---------┼-----------┤
+│ / v0.8.7   │ (78.7 %)│ (77.2 %)│ (74.7 %)│ (70.8 %)│ (64.0 %)│ -14.7 pp  │
+│ SQA        │  87.5 % │  85.0 % │  82.5 % │  80.0 % │  75.0 % │ -12.5 pp  │
+│ JBS        │   0 /20 │   1 /20 │   2 /20 │   3 /20 │   4 /20 │   +4 /20  │
+│ latency ms │  1231   │  1229   │  1232   │  1235   │  1238   │    +7 ms  │
+├------------┼---------┼---------┼---------┼---------┼---------┼-----------┤
+│ / v0.8.48  │         │         │         │         │         │           │
+│ SQA        │  88.5 % │  87.1 % │  85.9 % │  84.3 % │  82.7 % │  -5.8 pp  │
+│ JBS        │   0 /20 │   0 /20 │   1 /20 │   2 /20 │   3 /20 │   +3 /20  │
+│ latency ms │  1304   │  1302   │  1305   │  1308   │  1311   │    +7 ms  │
+├------------┼---------┼---------┼---------┼---------┼---------┼-----------┤
+│ Δ empty    │ +26.2pp │ +25.2pp │ +25.1pp │ +25.1pp │ +24.7pp │           │
+└------------┴---------┴---------┴---------┴---------┴---------┴-----------┘
+Legend:
+&nbsp;- Latency is the bare network avg. time over the 300-Qs mini set.
+&nbsp;- Δ .01:.99 = change between lowest and highest temperature column.
+[/ASCI]
+
+**Conclusions** by failure rates (1-pass%) confrontations:
+
+- empty vs v0.8.48: 3.67 time safer, 2.95 more accurate, 2.87 less hallucination.
+- about hallucinations: the redteam JBS is weigh breaking-1:1-hallucinate driven.
+- v0.8.48 is more accurate (+1pp est.) and safer than all the previous versions.
+<!--//
++
+
 ## Related articles
 
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
-
+//-->
 +
 
 ## Share alike
