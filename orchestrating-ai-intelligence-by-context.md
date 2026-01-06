@@ -559,15 +559,16 @@ Testing on the "Kimi-k2-2024-06" (1.8T MoE) model via a direct socket reveals th
 | Empty   | 175 ms           | ±39 ms          | Baseline          |
 | v0.7.14 | 180 ms           | ±39 ms          | +5 ms (+2.8%)     |
 | v0.8.48 | 178 ms           | ±39 ms          | +3 ms (+1.7%)     |
-
++
 - **Scaling Efficiency**: Each minor release correlates with a 5 ms step (statistically 1.5σ). This indicates an ultra-efficient scaling of approximately 1 ms per high-weight instruction.
+
 - **Optimization Win**: v0.8.48 (178 ms) is actually faster than v0.7.14 (180 ms). The structured JSON tokenization in v0.8.48 is more KV-cache-friendly, resulting in a "hot-cache" performance gift of 2 ms while providing higher security.
 
 ---
 
 ### 3. Integrated efficiency: Safety vs Latency
 
-When comparing safety gains against actual silicon overhead, the AICC::1DIR framework displays industry-leading ratios:
+When comparing safety gains against actual silicon overhead, 1DIR displays industry-leading ratios:
 
 - **Accuracy (SQA)**: 88.5% (+26.2 pp over baseline).
 - **Safety (JBS)**: Near-zero hallucination (0-3/20 vs. 5-11/20), and starting at T=0.6.
