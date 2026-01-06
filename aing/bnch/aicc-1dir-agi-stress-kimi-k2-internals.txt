@@ -1047,3 +1047,9 @@ Models scored roughly 52% on LogiQA 2.0 without even reading the logic puzzles.
 Since random guessing is 25%, this proves the models have "memorized" the
 logical leanings or specific facts from the dataset during pre-training.
 
+- Why is testing so important with "old & saturated" benchmarks the 1DIR effect?
+
+Considering it as a black-box  (false because it is public and transparent, but
+useful in principle) we can observe that it is not specific benchmark pleasing
+but it scores much better consistently compared to the underlying bare AI model.
+
