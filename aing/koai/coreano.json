@@ -1,6 +1,6 @@
 {
  "metadata": {
-  "version": "v0.5.4",
+  "version": "v0.5.5",
   "encoding": "UTF-8",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -3653,9 +3653,9 @@
  },
  "symbols_extra": {
   "description": "extra scolastic ideograms, relevant in public dictionaries",
-  "symbols_id_range": [ "X001", "X100" ],
-  "total_symbols": 100,
-  "start_index": 50,
+  "symbols_id_range": [ "X001", "X107" ],
+  "total_symbols": 107,
+  "start_index": 54,
   "index_extra": {
    "X001": "亟",
    "X002": "亶",
