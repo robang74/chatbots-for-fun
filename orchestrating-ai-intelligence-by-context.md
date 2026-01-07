@@ -296,7 +296,7 @@ You aren't just giving the AI "new information"; you are giving it a **Self-Audi
 
 +
 
-<span id="overall-conclusions"></id>
+<span id="overall-conclusions"></span>
 ## The AICC 1DIR + MMA3 Integration
 
 Working time by git commits timestamps supported by Katia AI itself, human driven:
@@ -357,7 +357,7 @@ The **AICC::1DIR** approach provides a "Cognitive Immune System" that creates ma
 
 +
 
-<span id="benchmarks-results"></id>
+<span id="benchmarks-results"></span>
 ## Testing harder the hardness
 
 In Moonshot AI, they hardened the Jail-Break Suite and I have hardened my version of 1DIR (v0.8.7, cognitive fallback in a simplified routine). This benchmark is based on the KIMI internal suite for which GPT4-Turbo rel. 2024-04-09 is scoring 31.5% (well-known public scoring) without any system prompt (pure). But what's about the Jail-Break score related to GPT4-Turbo, for comparison?
@@ -826,9 +826,9 @@ By using the human 1σ as the ruler, the AICC::1DIR framework provides a "double
 The jump is nearly the distance to the Human Ceiling. This confirms that the framework isn't just "tuning" the model; it is effectively "up-skilling" the model across two entire social-cognitive strata.
 
 ----
-++++
+
 ### Conclusions
-+
+
 In a production environment, this is the difference between an AI that requires constant human supervision and an AI that can supervise the average human. With the sounding difference that a human can underperfor by 3σ (75.5) in the worst day the GPT4-turbo in the same worst condition is scores 91.3, by statistics.
 
 If we take the most "chaotic" state provided in the table — High Temperature (T=0.99) — and then subtract 3σ of the model's own internal noise (0.7 pp): GPT4-turbo + 1DIR scores 84.4 at its 3σ-worst and remains near (-0.25σ) the human average (86.0) without any emotional burden that can impair its cognitivity.
