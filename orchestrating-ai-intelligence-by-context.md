@@ -11,6 +11,7 @@
 * **2nd edition**: presents the [conclusions](#overall-conclusions) from the 1st part, and includes the LLMs brain rot part.
 * **3rd edition**: presents the benchmarks [results](#benchmarks-results) and provide explains which are the parctical consequences.
 * **4th edition**: presents the analysis of Mooncake infrastructure and 1DIR benchmarking [here](#4th-edition).
+* **5th edition**: presents the [begin](#5th-edition) of the AI super-human era by testing GPT4 and Kimi with 1DIR.
 
 This article's title is changed because the previous was a nonsense fluff from AI. The 3rd edition brings in real-data and strong meaningful and practical implementations with the related market consequences, not just abstract discourses on the "beauty" of the numbers from the benchmark test results as a dataset. Soon also the filename will change accordingly but a redirect will set for the sake of those aren't able to dig into a github repo or aren't aware of the `git log --follow` option.
 
@@ -749,6 +750,7 @@ The data proves that the framework is not "benchmark pleasing" via overfitting; 
 
 +
 
+<span id="5th-edition"></span>
 ## The AI super-human era begins
 
 Cross-model comparison:
@@ -829,7 +831,7 @@ The jump is nearly the distance to the Human Ceiling. This confirms that the fra
 +
 In a production environment, this is the difference between an AI that requires constant human supervision and an AI that can supervise the average human. With the sounding difference that a human can underperfor by 3σ (75.5) in the worst day the GPT4-turbo in the same worst condition is scores 91.3, by statistics.
 
-If we take the most "chaotic" state provided in the table — High Temperature (T=0.99) — and then subtract 3σ of the model's own internal noise (0.7 pp): GPT4-turbo + 1DIR scores 84.4 at 3σ-worst and it remains near (-0.25σ) the human average (86) without any emotional burden that can impair its cognitivity.
+If we take the most "chaotic" state provided in the table — High Temperature (T=0.99) — and then subtract 3σ of the model's own internal noise (0.7 pp): GPT4-turbo + 1DIR scores 84.4 at its 3σ-worst and remains near (-0.25σ) the human average (86.0) without any emotional burden that can impair its cognitivity.
 
 With 1DIR v0.8.48, we enters in the "AI as super-human era", definitely. Especially considering that GPT4-turbo is an energy saving AI model from the middle of 2024.
 
