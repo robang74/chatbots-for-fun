@@ -1,16 +1,16 @@
 {
  "metadata": {
-  "version": "v0.3.1",
+  "version": "v0.3.2",
   "encoding": "UTF-8",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
   "contact": "roberto.foglietta@gmail.com",
   "repository": "github.com/robang74/chatbots-for-fun",
   "description": "Corean-Hanja Vocabulary and Concept Dictionary",
-  "symbols_id_range": [ "0001", "1800" ],
-  "total_symbols": "1800"
  },
  "search_logic": {
+  "symbols_id_range": [ "0001", "1800" ],
+  "total_symbols": "1800",
   "start_index": 900,
   "rationale": [
    "bisect on last_char (phonetic eum)",
@@ -39,7 +39,7 @@
   "concept_bisect_search": {
    "description": "an efficient way to search an ideogram by a concept",
    "start_verse": "phonetic",
-   "1st_field_bisec": "conceptual_hun.last_char()",
+   "1st_field_bisec": "conceptual_hun.last_symbol()",
    "2nd_field_linear": "hanja",
    "use_function": "search_logic"
   }
