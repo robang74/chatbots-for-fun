@@ -1,6 +1,6 @@
 {
  "metadata": {
-  "version": "v0.5.9",
+  "version": "v0.5.10",
   "encoding": "UTF-8",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -20,28 +20,26 @@
   "procedure": [ "bisec until first_match", "annotate first_match_index",
    "walk(start_verse, +1) to find range_upper_bound", "goto first_match_index",
    "walk(start_verse, -1) to find range_lower_bound", "choose best_match in range"
-  ]
+  ],
+   "1st_field_bisec": "index.hangeul_eum",
+   "2nd_field_linear": "index.hanja"
  },
  "vocabulary": {
   "symbols_list": "ideograms_index",
   "fields": [ "id", "hanja", "hangeul_eum" ],
-  "alfabetic_bisect_search": {
-   "description": "an efficient way to search an ideogram by a word",
-   "start_verse": "alphabetic",
-   "1st_field_bisec": "hangeul_eum",
-   "2nd_field_linear": "hanja",
-   "use_function": "search_logic"
+  "alfabetic_bisect_id_search": {
+   "description": "an efficient way to search an ideogram id by a symbol",
+   "use_function": "search_logic",
+   "start_verse": "alphabetic"
   }
  },
  "dictionary": {
   "concepts_list": "conceptual_huns",
   "fields": [ "id", "hanja", "conceptual_hun" ],
-  "concept_bisect_search": {
-   "description": "an efficient way to search an ideogram by a concept",
-   "start_verse": "phonetic",
-   "1st_field_bisec": "conceptual_hun.last_symbol()",
-   "2nd_field_linear": "hanja",
-   "use_function": "search_logic"
+  "concept_bisect_id_search": {
+   "description": "an efficient way to search an ideogram id by a concept",
+   "use_function": "search_logic",
+   "start_verse": "phonetic"
   }
  },
  "access_logic": "by id",
