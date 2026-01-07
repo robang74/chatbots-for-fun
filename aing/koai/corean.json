@@ -1,27 +1,32 @@
 {
  "metadata": {
+  "version": "v0.2.1",
+  "encoding": "UTF-8",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
   "contact": "roberto.foglietta@gmail.com",
-  "repository": "github.com/robang74/chatbots-for-fun"
+  "repository": "github.com/robang74/chatbots-for-fun",
+  "description": "Corean-Hanja Vocabulary and Concept Dictionary",
+  "symbols_id_range": [ "0001", "1800" ],
+  "total_symbols": "1800"
  },
- "dictionary": {
-  "version": "v0.2",
-  "encoding": "UTF-8",
-  "total_symbols": "1800",
-  "keyword_range": [ "0001", "1800" ],
+ "vocabulary": {
+  "symbols_list": "ideograms_index",
   "fields": [ "id", "hanja", "hanzi_simplified", "hangeul_eum" ],
   "alfabetic_bisect_search": {
    "description": "an efficient way to search an ideogram or a word",
    "start_index": 900,
    "start_verse": "alphabetic",
-   "search_in_object": "ideograms_index",
    "1st_field_bisec": "hangeul_eum",
    "2nd_field_linear": "hanja",
    "search_logic": [ "bisec until first_match", "annotate first_match_index",
     "walk(start_verse, +1) to find range_upper_bound", "goto first_match_index",
     "walk(start_verse, -1) to find range_lower_bound", "choose best_match in range" ]
   }
+ },
+ "dictionary": {
+  "concepts_list": "conceptual_huns",
+  "fields": [ "id", "conceptual_hun" ]
  },
  "ideograms_index": {
   "0001": ["佳", null, "가"],
