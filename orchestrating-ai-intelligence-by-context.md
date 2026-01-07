@@ -908,9 +908,13 @@ Therefore the 1DIR framework on "old" 2024 weights remains a Super-Human entity 
 
 Similarly, because of the ±0.8% drift logged for Gemini 3.0 Fast + 1DIR, its floor is actually higher than the "Thinking" model's floor, despite having a lower peak score. It is the most stable "workhorse" in the set. The jump by 1DIR is a massive +2.53σ shift.
 
+#### Conclusions
+
 By applying the 1DIR v0.8.48 to Gemini, it moves a "free-per-use" model into a reliability zone (80.6% floor) that is technically superior to the paid GPT-5.2 Thinking model's floor (79.0%).
 
-In human terms, this is the difference between a high-school graduate and a top-tier systems engineer.
+- In human terms, this is the difference between a high-school graduate and a top-tier systems engineer.
+
+Moreover, this data shows that the average human in the worst condition and in a confused scenario scores a little above the bare minimum reasoned (U:trap) coin-flip (T/F) decision making.
 
 +
 
