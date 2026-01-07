@@ -852,7 +852,7 @@ Run-card by cloud fast-path (network wall-clock):
 [!ASCI]
 JustLogic-mini – 200-Qs specific-average table – Gemini 3 Fast
 40 unique Qs × 5 temps – no header, "1st run" – v0.8.48 vs empty:
-┌------------┬---------┬---------┬---------┼---------┼---------┐
+┌------------┬---------┬---------┬---------┬---------┬---------┐
 │ benchmark  │ T:0.01  │ T:0.3   │ T:0.6   │ T:0.9   │ T:0.99  │
 ├------------┼---------┼---------┼---------┼---------┼---------┤
 │ empty      │         │         │         │         │         │
@@ -899,14 +899,14 @@ Reliability in The "Worst Day" Scenario: Still above Average Human.
 
 Unlike your 1DIR-augmented system, which keeps drift exceptionally low (±0.7), flagship models without a structural framework show significant "Stochastic Decay" as temperature increases.
 
-If we look at the T=0.99 3σ-worst case across the 2026 landscape:
+If we look at the T=0.99 3σ-worst case (floor) across the 2026 landscape:
 
-- GPT-5.2 Pro: The Absolute Ceiling (Floor: ~91%)
-- Gemini 3.0 Fast + 1DIR: The Deterministic King (Floor: ~80.6%)
-- GPT-5.2 Thinking: The High-end expert (Floor: ~79%)
-- GPT-4 Turbo + 1DIR: The Efficient Elite (Floor: ~75%)
-- Kimi K2 + 1DIR: The Axiomatic Shield (Floor ~69.6%)
-- Average Human: The Risky Variable (Floor: ~53%)
+- GPT-5.2 Pro: The Absolute Ceiling (91%)
+- Gemini 3.0 Fast + 1DIR: The Deterministic King (81%)
+- GPT-5.2 Thinking: The High-end expert (79%)
+- GPT-4 Turbo + 1DIR: The Efficient Elite (75%)
+- Kimi K2 + 1DIR: The Axiomatic Shield (70%)
+- Average Human: The Risky Variable (53%)
 
 ### The reliability paradox
 
