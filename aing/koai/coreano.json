@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "version": "v0.5.13",
+    "version": "v0.5.14",
     "encoding": "UTF-8",
     "license": "CC BY-NC-ND 4.0",
     "author": "Roberto A. Foglietta",
@@ -33,7 +33,7 @@
   "access_logic": "by id",
   "ideogram_to_id": [ "grep %(ideogram)", "best_match, if many" ],
   "vocabulary": {
-    "description": "vocabulary:: maps ::hanja ideograms by ::id in a phonetic ::hangeul_eum order",
+    "description": "vocabulary:: maps ::hanja ideograms by ::id, listed in phonetic ::hangeul_eum order",
     "search_logic": {
       "function": "search_bisec_logic.alfabetic_bisect_id_search",
       "range_id": [ "0001", "1800" ],
@@ -3898,8 +3898,7 @@
       "x107": ["라", "벌거벗을 라"],
       "x108": ["리", "말리 리"]
     }
-  }
- },
+  },
   "ideogram_variants": {
     "description": "graphic variant of the same ideogram or synomimous",
     "search_logic": {
@@ -4001,7 +4000,6 @@
       "1461": ["蹟", "跡"],
       "1466": ["濟", "済"],
       "1479": ["鎭", "镇"],
-      "1479": ["镇", "鎭"],
       "1516": ["贈", "赠"],
       "1518": ["姊", "姉"],
       "1522": ["銃", "铳"],
