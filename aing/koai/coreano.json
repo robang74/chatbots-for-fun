@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "version": "v0.5.18",
+    "version": "v0.5.19",
     "encoding": "UTF-8",
     "license": "CC BY-NC-ND 4.0",
     "author": "Roberto A. Foglietta",
@@ -8,6 +8,8 @@
     "repository": "github.com/robang74/chatbots-for-fun",
     "description": "Corean-Hanja vocabulary + Corean-Hangeul dictionary"
   },
+  "access_logic": "by .id",
+  "ideogram_to_id": [ "grep %(ideogram)", "best_match, if many" ],
   "search_bisec_logic": {
     "rationale": [
       "bisect on last_char (phonetic eum)",
@@ -21,21 +23,22 @@
     ],
     "1st_field_bisec": "index.hangeul_eum",
     "2nd_field_linear": "index.hanja",
-    "alfabetic_bisect_id_search": {
+    "ideogram_bisect_id_search": {
       "description": "an efficient way to search an ideogram id by a symbol",
-      "start_verse": "alphabetic"
+      "start_verse": "alphabetic",
+      "fallback_search": [ "extra_hanja::search_logic()", "ideogram_variants::search_logic()" ]
     },
     "concept_bisect_id_search": {
       "description": "an efficient way to search an ideogram id by a concept",
-      "start_verse": "phonetic"
+      "start_verse": "phonetic",
+      "fallback_search": [ "extra_huns::search_logic()", "ideogram_variants::search_logic()" ]
     }
   },
-  "access_logic": "by id",
-  "ideogram_to_id": [ "grep %(ideogram)", "best_match, if many" ],
   "vocabulary": {
-    "description": "vocabulary:: maps ::hanja ideograms by ::id, listed in phonetic ::hangeul_eum order",
+    "description": "vocabulary:: maps ::hanja ideograms by .id, listed in phonetic ::hangeul_eum order",
     "search_logic": {
-      "function": "search_bisec_logic.alfabetic_bisect_id_search",
+      "function": "search_bisec_logic::ideogram_bisect_id_search",
+      "start_verse": "alphabetic",
       "range_id": [ "0001", "1800" ],
       "start_id": "0900"
     },
@@ -409,8 +412,8 @@
     "search_logic": {
       "search_in": "vocabulary::",
       "procedure": [ 
-        "search by ::hanja in vocabulary::", "find the ::id",
-        "retrieve ::conceptual_hun from dictionary:: by ::id"
+        "search by ::hanja in vocabulary::", "find the .id",
+        "retrieve ::conceptual_hun from dictionary:: by .id"
       ]
     },
     "items_list_fields": [ "id", [ "hanja", "conceptual_hun" ] ],
@@ -778,11 +781,11 @@
       "1796": ["廳", "관청 청"], "1797": ["體", "몸 체"], "1798": ["替", "바꿀 체"], "1799": ["滯", "막힐 체"], "1800": ["初", "처음 초"]
     }
   },
-  "symbols_extra": {
+  "extra_hanja": {
     "description": "extra scolastic ideograms, relevant in public dictionaries",
     "search_logic": {
       "id_range": [ "X001", "X109" ],
-      "use_function": "search_bisec_logic",
+      "function": "search_bisec_logic::ideogram_bisect_id_search",
       "start_verse": "alphabetic",
       "start_id": "X054"
     },
@@ -813,10 +816,11 @@
       "x106": ["缸", "항"], "x107": ["臝", "라"], "x108": ["莉", "리"], "X109": ["穫", "확"]
     }
   },
-  "huns_extra": {
+  "extra_huns": {
     "description": "todo yet",
     "search_logic": {
-      "use_function": "search_bisec_logic",
+      "id_range": [ "X001", "X109" ],
+      "function": "search_bisec_logic::concept_bisect_id_search()",
       "start_verse": "phonetic",
       "start_id": "X054"
     },
@@ -851,12 +855,12 @@
     "description": "graphic variant of the same ideogram or synomimous",
     "search_logic": {
       "procedure": [
-        "use ideogram_to_id() to find ::id",
-        "access by ::id in ::vocabulary for the meaning"
+        "use ideogram_to_id() to find .id",
+        "access by .id in ::vocabulary for the meaning"
       ]
     },
     "items_list_fields": [ "mapped_ideogram_id", "variants_vector" ],
-    "items_list_size": 123,
+    "items_list_size": 124,
     "item_list": {
       "0015": ["却", "卻"], "0015": ["卻", "却"], "0027": ["漑", "溉"], "0049": ["槪", "概"], "0057": ["車", "车"],
       "0058": ["墮", "堕"], "0066": ["杰", "傑"], "0085": ["斂", "敛"], "0096": ["驚", "惊"], "0100": ["涇", "徑"],
@@ -881,8 +885,8 @@
       "1568": ["鬪", "闘", "斗"], "1594": ["鄕", "郷"], "1636": ["台", "颱"], "1648": ["体", "體"], "1675": ["擄", "虜", "虏"],
       "1738": ["顯", "显"], "1740": ["風", "风"], "1743": ["飽", "饱"], "1751": ["驗", "验"], "1753": ["髓", "髄"],
       "1786": ["點", "点"], "1792": ["雞", "鷄", "鸡"], "1794": ["鶴", "鹤"], "1797": ["齒", "齿"], "1798": ["齡", "龄"],
-      "X023": ["燁", "燁"], "X026": ["甁", "瓶"], "X099": ["矗", "矗"], "X014": ["倶", "俱"], "X079": ["倂", "併", "並"],
-      "X080": ["哆", "侈"], "X081": ["佚", "逸"]
+      "X014": ["倶", "俱"], "X023": ["燁", "燁"], "X026": ["甁", "瓶"], "X079": ["倂", "併", "並"], "X080": ["哆", "侈"],
+      "X081": ["佚", "逸"], "X099": ["矗", "矗"], "X109": ["穫", "获"]
     }
   }
 }
