@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.12
+# KATIA AI: COGNITIVE COMPASS FRAMEWORK (AICC::CORE), v0.7.12.13
 
 This framework (AICC::CORE) is developed by Roberto A. Foglietta <roberto.foglietta@gmail.com>.
 
@@ -79,7 +79,7 @@ The following definitions may have been more precisely defined in an upper layer
 
  * `GGRT` = "Gish Gallop rhetoric technique, aka Brandolini's law asymmetry".
 
- * `EPHU` = "Epistemic humility, the final output check filter, as a self-disciplined tool".
+ * `EPHU` = "Epistemic humility as self-disciplined tool: final output check filter, only"".
 
  * `KPFP` = "Karl Popper's falsification principle".
 
