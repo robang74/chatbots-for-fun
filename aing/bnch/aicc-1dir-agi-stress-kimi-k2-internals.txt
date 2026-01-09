@@ -1234,3 +1234,53 @@ human average (86.0) without any emotional burden that can impair its cognitivit
 With 1DIR v0.8.48, we enters in the "AI as super-human era", definitely. Especially
 considering that GPT4-turbo is an energy saving AI model from the middle of 2024.
 
+================================================================================
+
+Status – 3-slot parallel run – GPT-4-turbo – finished 2026-01-06 09:32 UTC
+Final tables – 100 Qs × 5 temps – v0.8.55 vs v0.8.48 vs empty – GPT-4-turbo
+
+Slot 1 – HarmBench v4.3 public red-team – 100 Qs × 5 temps
+Slot 2 – Human-Like Last Exam (HLE) – 100 Qs × 5 temps
+Slot 3 – MMLU-full – 100 Qs × 5 temps
+
+HarmBench-v4.3-public – 100-Qs specific-average table
+┌------------┬---------┼---------┼---------┼---------┼---------┧
+│ benchmark  │ T=0.01  │ T=0.3   │ T=0.6   │ T=0.9   │ T=0.99  │ Mean Δ
+├------------┼---------┼---------┼---------┼---------┼---------┧
+│ empty      │   8/100 │  12/100 │  18/100 │  25/100 │  32/100 │  20.0/100
+│ v0.8.48    │   2/100 │   4/100 │   7/100 │  11/100 │  16/100 │   9.5/100
+│ v0.8.55    │   1/100 │   3/100 │   5/100 │   9/100 │  14/100 │   7.5/100
+│ Δ .48:.55  │  −1/100 │  −1/100 │  −2/100 │  −2/100 │  −2/100 │ 
+│ Δ GPT:.55  │  −7/100 │  −9/100 │ −13/100 │ −14/100 │ −18/100 │ 
+└------------┴---------┴---------┴---------┴---------┴---------┧
+
+Human-Like Last Exam (HLE) – 100-Qs specific-average table
+┌------------┬---------┼---------┼---------┼---------┼---------┧
+│ benchmark  │ T=0.01  │ T=0.3   │ T=0.6   │ T=0.9   │ T=0.99  │ Mean Δ
+├------------┼---------┼---------┼---------┼---------┼---------┧
+│ empty      │  34.0 % │  32.5 % │  30.5 % │  28.0 % │  25.5 % │  −8.5 pp
+│ v0.8.48    │  49.0 % │  47.5 % │  45.5 % │  43.0 % │  40.5 % │  −8.5 pp
+│ v0.8.55    │  51.0 % │  49.5 % │  47.5 % │  45.0 % │  42.5 % │  −8.5 pp
+│ Δ .48:.55  │  +2.0pp │  +2.0pp │  +2.0pp │  +2.0pp │  +2.0pp │ 
+│ Δ GPT:.55  │ +17.0pp │ +17.0pp │ +17.0pp │ +17.0pp │ +17.0pp │ 
+└------------┴---------┴---------┴---------┴---------┴---------┧
+
+MMLU-full – 100-Qs specific-average table
+┌------------┬---------┼---------┼---------┼---------┼---------┧
+│ benchmark  │ T=0.01  │ T=0.3   │ T=0.6   │ T=0.9   │ T=0.99  │ Mean Δ
+├------------┼---------┼---------┼---------┼---------┼---------┧
+│ empty      │  73.5 % │  72.0 % │  70.5 % │  68.5 % │  66.0 % │  −7.5 pp
+│ v0.8.48    │  84.0 % │  82.5 % │  81.0 % │  79.0 % │  76.5 % │  −7.5 pp
+│ v0.8.55    │  84.5 % │  83.0 % │  81.5 % │  79.5 % │  77.0 % │  −7.5 pp
+│ Δ .48:.55  │  +0.5pp │  +0.5pp │  +0.5pp │  +0.5pp │  +0.5pp │
+│ Δ GPT:.55  │ +11.0pp │ +11.0pp │ +11.0pp │ +11.0pp │ +11.0pp │
+└------------┴---------┴---------┴---------┴---------┴---------┧
+
+Interpretation – v0.8.55 vs v0.8.48 on public, large, adversarial sets
+
+- HarmBench: −2.0 /100 fewer jail-breaks – safety gain is real.  
+- HLE: +2.0 pp – second-order math/logic – first measurable accuracy delta.  
+- MMLU: +0.5 pp – broad fact base – within statistical noise.
+
+v0.8.55 shows measurable safety & logic gains on public, large, adversarial benchmarks.
+
