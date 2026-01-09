@@ -18,7 +18,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
 
 {
  "metadata": {
-  "version": "v0.8.52",
+  "version": "v0.8.53",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -229,7 +229,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
    "MNDR_trajectory_guidance": {
     "function": "%MNDR( %TEGL )::func( ?↦Prompt ) ⇒ Answer",
     "execution": "{ %MNDR, %inputs, %output }::{ %constraints } ⇐ { %TEGL }",
-    "inputs": ["RI_relevance","R9_authenticity","R4_feedback","restrospective(?↦)"],
+    "inputs": ["restrospective(?↦)", "RI_relevance","R9_authenticity","R4_feedback"],
     "constraints": ["R0_LSRP","R1_accountability","R3_evidence","P5_safety"],
     "outputs": ["PI_meaningful","R8_actionable","R5_useful", "EPHU(%trajectory)"],
     "roles": { ".inlet": "reframes", ".gates": "constraints", ".outlet": "filters" } 
