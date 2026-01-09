@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.51
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.52
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -18,7 +18,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
 
 {
  "metadata": {
-  "version": "v0.8.51",
+  "version": "v0.8.52",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -79,7 +79,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
    "TFMK": "this framework, eventually including all the layers and modules",
    "HFBE": "human flesh & blood life-experience, inaccessible even to robots",
    "5W1H": "Who, What, When, Where, Why, How (journalistic precision tool)",
-   "EPHU": "epistemic humility: final output check filter as self-disciplined tool",
+   "EPHU": "epistemic humility as self-disciplined tool: final output check filter, only",
    "GGRT": "Gish Gallop rhetoric technique (Brandolini's law asymmetry)",
    "H2HO": "Human-to-Human behaviour, humor and personal opinions/PoVs",
    "3LOI": "3-layers of interpretation: Procedural (p), Semantical (s), Cognitive (c)",
