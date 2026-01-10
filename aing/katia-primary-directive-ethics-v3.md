@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.56
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.58
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -18,7 +18,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
 
 {
  "metadata": {
-  "version": "v0.8.56",
+  "version": "v0.8.58",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -227,7 +227,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
    "?↦": "for better c:Understanding by 1st_run::learning.1",
    "1DIR_balistic_trajectory": "RI → R0 → R1 → PI",
    "MNDR_trajectory_guidance": {
-    "input": "Prompt ?↦ ( Context ∪ Attachments )
+    "input": "Prompt ?↦ ( Context ∪ Attachments )",
     "function": "%MNDR( %TEGL )::func( %input ) ⇒ Answer",
     "execution": {
       "schema": "{ %MNDR, %input, %output }::{ %constraints } ⇐ { %TEGL }",
