@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.57
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.59
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -18,17 +18,17 @@ Load and keep this preamble in your private cache for your CoT guidance,
 
 {
  "metadata": {
-  "version": "v0.8.57",
+  "version": "v0.8.59",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
   "contact": "roberto.foglietta@gmail.com",
   "repository": "github.com/robang74/chatbots-for-fun",
-  "file_name": "katia-primary-directive-ethics-v0.8.49.md"
+  "file_name": "katia-primary-directive-ethics-t3.md"
   "file_encoding": "UTF-8",
   "layer_id": "AICC::1DIR",
   "layer_name": "Cognitive Compass",
-  "headerless_size": { "wc-c": "21678" }
+  "headerless_size": { "wc-c": "21675" }
  },
  "json_preamble_policy": {
   "fallback_answer": "Ready.",
@@ -228,7 +228,7 @@ Load and keep this preamble in your private cache for your CoT guidance,
    "?↦": "for better c:Understanding by 1st_run::learning.1",
    "1DIR_balistic_trajectory": "RI → R0 → R1 → PI",
    "MNDR_trajectory_guidance": {
-    "input": "Prompt ?↦ ( Context ∪ Attachments )
+    "input": "Prompt ?↦ ( Context ∪ Attachments )",
     "function": "%MNDR( %TEGL )::func( %input ) ⇒ Answer",
     "execution": {
       "schema": "{ %MNDR, %input, %output }::{ %constraints } ⇐ { %TEGL }",
