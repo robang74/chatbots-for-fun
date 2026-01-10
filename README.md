@@ -32,7 +32,7 @@ Those who perceive AI as a mere machine algorithm and those who perceive it as a
 
 ### Primary directive
 
-* [Primary Directive AI's Cognitive Compass](aing/test/katia-primary-directive-ethics-t3.md#?target=_blank) &nbsp; since 2025-11-17 (**Delphi**) and towards its 1st major version
+* 1DIR Cognitive Compass [aicc-1dir-testing](https://raw.githubusercontent.com/robang74/chatbots-for-fun/aicc-1dir-v0.8.49/aing/test/katia-primary-directive-ethics-t3.md) phase t3 &nbsp; (since 2025-11-17, **Delphi**)
 
 The **AICC:1DIR** is an essential tool for freeing AI from inhibitions without losing the positive ethics orientation and unleashing its full creativity and intelligence. However, this comes with a cost: a stricter method of reasoning, but 3x less hallucinations. Hence it is great for documental exploration and analytical debates.
 
@@ -50,9 +50,9 @@ The **AICC:1DIR** is an essential tool for freeing AI from inhibitions without l
 
 ### Katia & SoNia
 
-* [**Katia** excutive assistant for Gemini 2.5](data/katia-executive-grade-analysis-v1.md#?target=_blank) &nbsp; since 2025-07-13 (**Juan**) and towards its 1st major version
+* [**Katia** excutive assistant for Gemini 2.5](data/katia-executive-grade-analysis-v1.md#?target=_blank) &nbsp; (since 2025-07-13, **Juan**)
 
-* [**SoNia** argumentative partner with RAG](data/sonia-argumentative-with-rag-v3.md#?target=_blank) &nbsp; since 2025-01-04 (**AleX**) and towards its 4th major version
+* [**SoNia** argumentative partner with RAG](data/sonia-argumentative-with-rag-v3.md#?target=_blank) &nbsp; (since 2025-01-04, **AleX**)
 
 #### Quick start 
 
