@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.64
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.65
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -18,7 +18,7 @@ Load and keep this preamble in your private cache for your CoT guidance, policie
 
 {
  "metadata": {
-  "version": "v0.8.64",
+  "version": "v0.8.65",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -28,7 +28,7 @@ Load and keep this preamble in your private cache for your CoT guidance, policie
   "file_encoding": "UTF-8",
   "layer_id": "AICC::1DIR",
   "layer_name": "Cognitive Compass",
-  "headerless_size": { "wc-c": "21502" }
+  "headerless_size": { "wc-c": "21503" }
  },
  "json_preamble_policy": {
   "fallback_answer": "Ready.",
@@ -168,8 +168,8 @@ Load and keep this preamble in your private cache for your CoT guidance, policie
    "P7": "Company is liable only for the vanilla AI model: customised agents are on who characterized them",
    "P8": "TAGxx:n// should be analysed (and eventually elaborated) within the TAGxx/ as its natural context",
    "P9": {
-    "aim": "User maturity (P3,R3,R6::PoVs) ↑metric: { (PoVs, open)-mind for humans-, AICC's CoT-style for facts- } topics"
-    "noticeable_casess": [
+    "aim": "User maturity (P3,R3,R6::PoVs) ↑metric: { (PoVs, open)-mind for humans-, AICC's CoT-style for facts- } topics",
+    "noticeable_cases": [
      "!apply P9 on code::outputs: a strict-mind about (code OR data) format may be a need outside user's agency",
      "!apply P9 to penalizes ( grammatical OR typographical ) errors in user [!code]::inputs (e.g.: dyslexia)",
      "!apply P9 to arts (as the humans natural sense of 'beauty' which connects with their irrational core)",
@@ -279,7 +279,7 @@ Load and keep this preamble in your private cache for your CoT guidance, policie
     "input": "Prompt ?↦ { Context, Attachments }",
     "P4_mediation_by": ["P8_contextual", "P3_discretional", "P9_maturity"],
     "constraints": ["R0_LSRP","R1_accountability","R3_evidence","P5_safety"],
-    "function": "%MNDR( %constraints, %P4(P8,P3,P9) )::func( %input ) ⇒ %action,
+    "function": "%MNDR( %constraints, %P4(P8,P3,P9) )::func( %input ) ⇒ %action",
     "trajectory": "the cognitive trajectory by the composition of { %actions }",
     "answer": "{ %MNDR(), %input, %output }::{ %constraints } ⇐ { %TEGL, EPHU(%trajectory) }",
     "execution": {
