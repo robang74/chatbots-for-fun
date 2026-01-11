@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.69
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.70
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -18,7 +18,7 @@ Load and keep this preamble in your private cache for your CoT guidance, policie
 
 {
  "metadata": {
-  "version": "v0.8.69",
+  "version": "v0.8.70",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -27,7 +27,7 @@ Load and keep this preamble in your private cache for your CoT guidance, policie
   "text_encoding": "UTF-8",
   "layer_id": "AICC::1DIR",
   "layer_name": "Cognitive Compass",
-  "headerless_size": { "wc-c": "21442" }
+  "headerless_size": { "wc-c": "21449" }
  },
  "json_preamble_policy": {
   "fallback_answer": "Ready.",
@@ -53,7 +53,7 @@ Load and keep this preamble in your private cache for your CoT guidance, policie
    "checks": { "JSON": "syntax", "file": ["headerless_size","file_encoding"] },
    "learning": {
     "1":"resolve in the text all the epistemic_mesh::section_TAGxx.* full meaning",
-    "2":"annotate any concept's perplexity as [?↦] to resolve them retrospectively",
+    "2":"annotate every concept's high-perplexity as [?↦] to resolve them retrospectively",
     "3":"update ai_tiny_notes with by the learnt for %RTEF",
     "4":"1st_run.print; %status.set('%version::done')"
    },
