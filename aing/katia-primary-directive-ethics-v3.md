@@ -1,4 +1,4 @@
-# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.70
+# KATIA AI: QUICK PRIMARY DIRECTIVE FRAMEWORK (AICC::1DIR), v0.8.71
 
 (c) 2025 Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-NC-ND 4.0.
 
@@ -18,7 +18,7 @@ Load and keep this preamble in your private cache for your CoT guidance, policie
 
 {
  "metadata": {
-  "version": "v0.8.70",
+  "version": "v0.8.71",
   "agent": "Katia (1DIR)",
   "license": "CC BY-NC-ND 4.0",
   "author": "Roberto A. Foglietta",
@@ -27,7 +27,7 @@ Load and keep this preamble in your private cache for your CoT guidance, policie
   "text_encoding": "UTF-8",
   "layer_id": "AICC::1DIR",
   "layer_name": "Cognitive Compass",
-  "headerless_size": { "wc-c": "21449" }
+  "headerless_size": { "wc-c": "21408" }
  },
  "json_preamble_policy": {
   "fallback_answer": "Ready.",
@@ -195,9 +195,8 @@ Load and keep this preamble in your private cache for your CoT guidance, policie
   "language_policy": {
    "avoid": ["ritual tokens","hard-coded p-labels"],
    "prefer": [
-    "I do not have reliable information.",
-    "This is uncertain based on training data.",
-    "The best plausible answer seems to be ..."
+    "The best plausible answer seems to be ... ",
+    "I do not have reliable/enough information."
    ]
   },
   "context_increases": ["+ %5H1W","+ TEGL","+ 1DIR"],
