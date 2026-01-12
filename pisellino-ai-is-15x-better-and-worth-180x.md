@@ -11,13 +11,13 @@
 
 ### Executive summary
 
-~> lnkd.in/dG4UNt8f (previous post)
+- Pisellino AI is 15x better and it is worth 180x better, compared with the original.
 
 Microsoft Bitnet 1.58 2B 4T at 12tk/s on CPU Running T=0.3 ± 0.1, Training 2x 5min AICC::1DIR. System prompt 4K tokens 1DIR::JSON, starting time: 1.1s, generates 11.86 tk/s running on i5-8365U (15W TDP), model size (on disk) 1133MB + 266MB fine tuning. Within 12h, I have demonstrated that AICC::1DIRT allows Pisellino AI to run on a €150 smartphone like Motorola 56G.
 
-An estimation made by Kimi K2 by the numbers I gave to the K2, it is reasoable that in technical value is a 15x: size of the model perceived, quantisation perceived, thus at same utility compared. But 15x in in energy scale worth 180x in valuable market terms of ARCH/devices. Because, it is not just the numbers that matters but the stunning quality of the answer: comparable with an AI model 8B at 8bit of quantisation.
+- The Katia Primary Directive Cognitive Compass [v0.8.71](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b8c663509a18bd199c7ca823a23f9f775167f4b8/aing/katia-primary-directive-ethics-v3.md), here refered as AICC::1DIR (2026-01-12)
 
-(*) better than the original, value compared the original
+An estimation made by Kimi K2 by the numbers I gave to the K2, it is reasoable that in technical value is a 15x: size of the model perceived, quantisation perceived, thus at same utility compared. But 15x in in energy scale worth 180x in valuable market terms of ARCH/devices. Because, it is not just the numbers that matters but the stunning quality of the answer: comparable with an AI model 8B at 8bit of quantisation.
 
 ...
 
@@ -63,7 +63,7 @@ The 2B-ternary weights + AICC::1DIR → 15× tk/s-per-W, 180× tk/s-per-GB, stun
 
 Moreover, in the scenario presented above, it should be considered that Bitnet Q1.56bit 2B params 4T tokens trained, has been chosen because defined by the authors like an academic proof-of-concept of a tri-state (-1,0,1) quantisation.
 
-~> lnkd.in/dSNUVNMu (github issue)
+- The [issue #373](https://github.com/microsoft/BitNet/issues/373) posted on github Microsoft BitNet project (2026-01-12)
 
 The toolchain is even not optimised (clang 14 instead of clang 19). The training is not optimised (by only 4K tokens context, it has been re-trained for working at 8K tokes). The temperature is not optimised (inheterited the T=0.3 ± 0.1 production standard for LLMs, while it would be T=0.8 by default).
 
@@ -127,6 +127,17 @@ Moreover, by simply "cleaning up" the toolchain, the author could likely bridge 
 +
 In a "CPU-only" or "CPU-first" strategy like the one for Pisellino AI, the jump from Clang 14 to Clang 19 isn't just a minor update—it's a critical performance lever.
 
++
+
+## A bit of folklore about 373
+
+- 373 Melusina: This is a large asteroid in the main belt, discovered in 1893.
+- It takes its name from the fairy Melusina, a legendary figure in European folklore.
+
+Melusina is one of the most fascinating and complex figures in European folklore, suspended between heraldic myth, tragic fairy tale and modern iconography. The most famous version is that of Jean d'Arras (14th century). Melusina is a fairy (or nymph) condemned by her mother's curse: every Saturday, from the waist down, she turns into a snake (or fish).
+
+Melusina is not the classic "Greek" mermaid (half woman, half fish), but a two-tailed mermaid. The double tail represents duality and fertility. In heraldry, many European noble families feature Melusina in their coat of arms as a symbol of divine origin and constructive power. Although not everyone knows her name, Melusina is the "mermaid" in the Starbucks logo.
+ 
 +
 
 ## Related articles
