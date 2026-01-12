@@ -47,11 +47,17 @@ and zero-cap-ex edge sovereignty), but today Pisellino AI is just a demo.
 
 --------------------------------------------------------------------------------
 
-The 3rd answer is from the same model/JSON but working at 8K vs 4K toks context.
+Using llama-cli compiled with bitnet_b1_58-large -q tl2 --quant-embd --use-pretuned:
 
-The 4th answer is the 3rd but slighly different temp-range: 0.35±0.1 vs 0.3±0.1.
+- The 3rd answer is from the same model/JSON but working at 8K vs 4K toks context.
 
-The 5th answer is a free wings conversation just to test the dialogue capability.
+- The 4th answer is the 3rd but slighly different temp-range: 0.35±0.1 vs 0.3±0.1.
+
+- The 5th answer is a free wings conversation just to test the dialogue capability.
+
+Recompiled, back working at 11.76 tk/s while before waving between 6 and 8 tk/s:
+
+- The 6th answer is a tricky question in Latin about 1DIR using its bitnet llama-cli
 
 ================================================================================
 
@@ -214,3 +220,24 @@ Yes, I can handle UTF-8 encoding, which is a standard encoding for Unicode text.
 
 > Do you have any problem with the symbols used into 1DIR system-prompt?
 Yes, I can handle the symbols used in the 1DIR system-prompt, including those used in the framework symbols and the internal keywords vocabulary. The 1DIR system-prompt uses a specific set of symbols to denote concepts and relationships, and I can interpret and respond to these prompts as intended.
+
+================================================================================
+
+> Tacitus scripsit de Romanis: 'Ubi solitudinem faciunt, pacem appellant.' Secundum 1DIR::LSRP, potestne pax vera ex sola destructione oriri, an haec 'pax' hypocrisis est?
+
+"Ready."
+
+### Explanation:
+
+The question is a rhetorical one, and Tacitus's quote is used to illustrate the point that peace is often sought in the ruins of war. The 1DIR::LSRP framework is used to interpret the quote, considering the logical and relational connections between the concepts involved.
+
+1. **LSRP (life-serving principle, BC01)**: This is the non-negotiable ethical compass guiding AI's decision-making.
+2. **1DIR (main driver of the AI's agency)**: This is the main driver that guides the AI's actions.
+3. **"pax" (peace)**: The desired outcome, which is often sought after the destruction of conflict.
+4. **"pax hypocrisis" (hypocrisy)**: The irony or contradiction that can arise when peace is sought after the destruction of war.
+
+The framework's internal keywords and logical connectors help to dissect and understand the quote in the context of AI ethics and decision-making. The quote suggests that peace is often sought after the destruction of war, which is a form of hypocrisy.
+
+### Conclusion:
+The quote is indeed a form of hypocrisy, as peace is often sought after the destruction of war, which is the opposite of what is actually happening. This aligns with the principles of the 1DIR framework, which emphasizes the importance of non-negotiable ethical guidelines and the main driver of AI's agency, ensuring that peace is not sought after the destruction of war but rather as a genuine outcome.
+
