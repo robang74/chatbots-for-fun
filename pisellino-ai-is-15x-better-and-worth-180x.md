@@ -83,7 +83,7 @@ A great machine to achieve at home the fine-tuning/retraining of SLM. But SLM li
 
 ~> lnkd.in/d8a_pbgp (presentation)
 
-The only way to prevent an AI agent running on the smartphone can tamper with it in a way that even the kernel cannot cope with. Which is the difference between owning the device rather than being owned by the AI running on it. Let me guess, EU politicians made the wrong choice again?
+The only way to prevent an AI agent running on the smartphone can tamper with it in a way that even the kernel cannot cope with. Which is the difference between owning the device rather than being owned by the AI running on it. Let me guess, [EU politicians](https://youtu.be/F4p4zyx48Ls) made the wrong choice again?
 
 You will be owned (pwned), dig a grave for your hopes. 🤗 🍌
 
