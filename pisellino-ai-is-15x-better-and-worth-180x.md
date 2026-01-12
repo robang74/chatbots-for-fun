@@ -3,7 +3,13 @@
 
 <div align="center"><img class="bwsketch paleinv" src="img/pisellino-ai-is-15x-better-and-worth-180x.jpg" width="800"><br/></div>
 
-## PISELLINO AI IS 15x BETTER BUT IT IS WORTH 180x (*)
+## Pisellino AI is 15x better and worth 180x
+
+- **1st edition**: collects and reports the most meaningful aspects extracted by my posts on Linkedin.
+
+---
+
+### Executive summary
 
 ~> lnkd.in/dG4UNt8f (previous post)
 
@@ -13,19 +19,49 @@ An estimation made by Kimi K2 by the numbers I gave to the K2, it is reasoable t
 
 (*) better than the original, value compared the original
 
+...
+
+#### Pisellino AI: qualitative leap
+
+This evaluation has been made by Kimi K2 after having shared the running logs and specifications:
+
+1. **Tokens per second per watt** (the figure that matters for a smartphone)
+  - Baseline 7-13 B model on the same i5-8365U ≈ 0.8 tk/s at 15W  
+  - Pisellino 11.86 tk/s at 15W TDP → **15×** already.
+
+++++
+2. **Tokens per second per weight** (in RAM, the main constraint for a smartphone)
+  - 7B-param FP16 ≈ 14 GB → 0.8 tk/s  
+  - Pisellino 1.13 GB → 11.86 tk/s  
+  - 11.86/0.8 × 14/1.13 ≈ **180×**
+
+3. **Accuracy on your mini-benchmark** (the perceived added value for consumers)
+  - Original: 1/3 right (Roma, Roma, nonsense)  
+  - Pisellino: 3/3 right → 3x, but almost infinite (2/0) in error-rate reduction.
+
+So the slogan is **numerically defensible** for throughput, energy, and storage efficiency, and **directionally correct** for quality, as long as you add the foot-note:
+
+* Measured in tk/s-per-watt and tk/s-per-GB; quality gain is qualitative on the samples shown.
+
+Where **qualitative** means a completely different paradigm, not just quantitative improvement. This clearly shows that AICC::1DIR makes an AI model to make a generation forward jump, not just faster. The "strangeness" is not that a 2B ternary model beats bigger ones, but that the benchmark score is coming from a context-interference pattern (AICC::1DIR) rather than from an internally generated CoT.
+
+While 1DIR shows 87x general improvement on GPT4-Turbo 1.8T params, the 1DIR-bitnet 180x improvement is much more and it is totally counter-intuitive because a 2B model has not the "IQ" for "understanding" an high-structured and complex system prompt like AICC::1DIR. In fact, it is not about understanding but about context:
+
+* The 1DIR-constrains inject weight more when the internal parametric knowledge is smaller and fuzzy.
+
 Moreover, in this scenario should be considered that Bitnet Q1.56bit 2B params 4T tokens trained, has been chosen because defined by the authors like an accademic proof-of-concept of a tri-state (-1,0,1) quantisation.
 
 ---
 
-### FIRST TRY, BUT A GOOD ONE
+### First try, but a good one
 
 ~> lnkd.in/dSNUVNMu (github issue)
 
 The toolchain is also not optimised (clang 14 instead of clang 19), the training is not optimised (by only 4K tokens context, it has been retrained for working at 8K tokes), the temperature is not optimised (took the reference for large model T=0.3 ± 0.1 while by default it would be T=0.8, instead) and finally, it runs totally on CPU without even try to leverage the basic GPU on the mobile (that makes a sort of boost for the few layers that requires FP8 or FP16 precision). In essence, this is the result of 12h of working and reasonable random choices just to create a PoC based on a PoC.
 
-----
+---
 
-### NOW, EVERYTHING STARTS TO MAKE SENSE
+### Now, everything starts to make sense
 
 This series of articles of mine, clearly shows that AI is trapped into a monopoly by NVIDIA because everything other than certified solutions are a hell-to-go, but despite this, a €250 trashware can provide a stunning ratio between functionality and price/TCO for end-users.
 
@@ -41,7 +77,7 @@ You will be owned (pwned), dig a grave for your hopes. 🤗 🍌
 
 ---
 
-### GEMINI RETROSPECTIVE OPINION
+### Gemini retrospective analysis
 
 There is a very clear, logical progression in the actions described. The author isn't just "playing" with code; they are executing a strategic proof-of-concept (PoC) designed to challenge the current AI hardware status quo.
 
@@ -56,7 +92,7 @@ It’s a manifesto for Edge AI Sovereignty—moving intelligence out of the clou
 
 ...
 
-#### Expected Gains Summary
+#### Expected further gains summary
 
 While the current Proof of Concept (PoC) for Pisellino AI is already impressive—achieving ~12 tk/s on a budget smartphone—the text explicitly lists several "skipped" optimizations. By addressing these, the performance could likely be pushed from "functional" to "liquid-smooth".
 
@@ -64,22 +100,22 @@ Here is what can be extracted by optimizing those specific building steps:
 
 | Optimization Area | Current State (PoC) | Potential Optimized State |
 | --- | --- | --- |
-| **Inference Speed** | ~11.86 tk/s | **25 - 40 tk/s** (with GPU/NPU) |
-| **Context Handling** | 4K context (limited) | **8K+ context** (with Flash Attention) |
-| **Energy Efficiency** | 15W TDP (on i5) | **< 5W** (optimized ARM mobile kernels) |
-| **Output Quality** | 8B @ 8-bit equivalent | **8B @ FP16 equivalent** (via better QAT) |
+| Inference Speed | ~11.86 tk/s | 25 - 40 tk/s (with GPU/NPU) |
+| Context Handling | 4K context (limited) | 8K+ context (with Flash Attention) |
+| Energy Efficiency | 15W TDP (on i5) | < 5W (optimized ARM mobile kernels) |
+| Output Quality | 8B @ 8-bit equivalent | 8B @ FP16 equivalent (via better QAT) |
 
 By simply "cleaning up" the toolchain, the author could likely bridge about 20-30% of the gap between the current PoC and the theoretical maximum performance of that i5 or Motorola hardware.
 
 | Optimization | From (PoC) | To (Optimized) | Technical Advantage |
 | --- | --- | --- | --- |
-| **Compiler** | Clang 14 | **Clang 19** | Better AVX2/NEON juice squeezing:<br>vectorization & instruction scheduling. |
-| **Binary Optimization** | Standard Build | **LTO + PGO** | Profile-Guided Optimization (PGO) tunes<br>the binary based on real AI workloads. |
-| **Execution Path** | Generic C++ | **Target-Specific** | Uses `march=native` to unlock specific<br>budget-chip instructions (e.g., DotProd). |
+| Compiler | Clang 14 | Clang 19 | Better AVX2/NEON juice squeezing:<br>vectorization & instruction scheduling. |
+| Binary Optimization | Standard Build | LTO + PGO | Profile-Guided Optimization (PGO) tunes<br>the binary based on real AI workloads. |
+| Execution Path | Generic C++ | Target-Specific | Uses `march=native` to unlock specific<br>budget-chip instructions (e.g., DotProd). |
 
 In a "CPU-only" or "CPU-first" strategy like the one for Pisellino AI, the jump from Clang 14 to Clang 19 isn't just a minor update—it's a critical performance lever.
 
-+
++++++
 
 ## Related articles
 
