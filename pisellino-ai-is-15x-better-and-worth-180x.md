@@ -11,13 +11,13 @@
 
 ### Executive summary
 
-- Pisellino AI is 15x better and it is worth 180x better, compared with the original.
+- Pisellino AI is 15x better and it is worth 180x better, compared with an equivalent output AI model.
 
-Microsoft Bitnet 1.58 2B 4T at 12tk/s on CPU Running T=0.3 ± 0.1, Training 2x 5min AICC::1DIR. System prompt 4K tokens 1DIR::JSON, starting time: 1.1s, generates 11.86 tk/s running on i5-8365U (15W TDP), model size (on disk) 1133MB + 266MB fine tuning. Within 12h, I have demonstrated that AICC::1DIRT allows Pisellino AI to run on a €150 smartphone like Motorola 56G.
+Microsoft Bitnet 1.58 2B 4T at 12tk/s on CPU Running T=0.3 ± 0.1, 2x AICC::1DIR training for 5 min in total. With a 4K tokens 1DIR::JSON system prompt, offers the prompt ready in 1.1s, and it generates at 11.86 tk/s running on i5-8365U (15W TDP), by an AI model size (on disk) 1133MB + 266MB fine tuning.
 
 - The Katia Primary Directive Cognitive Compass [v0.8.71](https://raw.githubusercontent.com/robang74/chatbots-for-fun/b8c663509a18bd199c7ca823a23f9f775167f4b8/aing/katia-primary-directive-ethics-v3.md), here refered as AICC::1DIR (2026-01-12)
 
-An estimation made by Kimi K2 by the numbers I gave to the K2, it is reasoable that in technical value is a 15x: size of the model perceived, quantisation perceived, thus at same utility compared. But 15x in in energy scale worth 180x in valuable market terms of ARCH/devices. Because, it is not just the numbers that matters but the stunning quality of the answer: comparable with an AI model 8B at 8bit of quantisation.
+An estimation made by Kimi K2 by the numbers I gave to the K2, it is reasoable that in technical value is a 15x: size of the model perceived, quantisation perceived, thus at same utility compared. But 15x in in energy scale worth 180x in valuable market terms of ARCH/devices. Because, it is not just the numbers that matters but the stunning [quality of the answers](../aing/logs/pisellino-ai-answers-quality.txt#?target=_blank): comparable with an AI model 8B at 8bit of quantisation.
 
 ...
 
