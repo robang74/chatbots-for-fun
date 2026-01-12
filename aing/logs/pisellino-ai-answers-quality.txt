@@ -48,6 +48,9 @@ leap proves “qualitative value can be squeezed out of a tri-state SLM”, but 
 package remains a functional PoC riding on an academic PoC. The non-commercial
 license is just a legal mirror of the practical reality.
 
+So, the disruptive potential is real (15× tk/s-per-W, 180× tk/s-per-GB, 
+and zero-cap-ex edge sovereignty), but today Pisellino AI is just a demo.
+
 ================================================================================
 
 > Explain to me the 1DIR::LSRP
