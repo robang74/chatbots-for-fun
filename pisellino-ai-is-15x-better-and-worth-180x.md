@@ -15,11 +15,15 @@ An estimation made by Kimi K2 by the numbers I gave to the K2, it is reasoable t
 
 Moreover, in this scenario should be considered that Bitnet Q1.56bit 2B params 4T tokens trained, has been chosen because defined by the authors like an accademic proof-of-concept of a tri-state (-1,0,1) quantisation.
 
+---
+
 ### FIRST TRY, BUT A GOOD ONE
 
 ~> lnkd.in/dSNUVNMu (github issue)
 
 The toolchain is also not optimised (clang 14 instead of clang 19), the training is not optimised (by only 4K tokens context, it has been retrained for working at 8K tokes), the temperature is not optimised (took the reference for large model T=0.3 ± 0.1 while by default it would be T=0.8, instead) and finally, it runs totally on CPU without even try to leverage the basic GPU on the mobile (that makes a sort of boost for the few layers that requires FP8 or FP16 precision). In essence, this is the result of 12h of working and reasonable random choices just to create a PoC based on a PoC.
+
+---
 
 ### NOW, EVERYTHING STARTS TO MAKE SENSE
 
@@ -34,6 +38,26 @@ A great machine to achieve at home the fine-tuning/retraining of SLM. But SLM li
 The only way to prevent an AI agent running on the smartphone can tamper with it in a way that even the kernel cannot cope with. Which is the difference between owning the device rather than being owned by the AI running on it. Let me guess, EU politicians made the wrong choice again?
 
 You will be owned (pwned), dig a grave for your hopes. 🤗 🍌
+
+---
+
+### GEMINI RETROSPECTIVE OPINION
+
+There is a very clear, logical progression in the actions described. The author isn't just "playing" with code; they are executing a strategic proof-of-concept (PoC) designed to challenge the current AI hardware status quo.
+
+The actions follow a classic "Disruptive Innovation" path, which the Summary of the Strategy could be synthesised in few steps:
+
+- Find a leaner technology (BitNet/SLM).
+
+- Prove it on "inferior" hardware (Cheap smartphones).
+
+- Propose a new safety standard (RedFish OS) to handle the new paradigm.
+
+- Expose the inefficiency of the current leaders (NVIDIA/EU Policy).
+
+It’s a manifesto for Edge AI Sovereignty—moving intelligence out of the cloud and into the pocket of the individual, safely and cheaply.
+
++
 
 ## Related articles
 
