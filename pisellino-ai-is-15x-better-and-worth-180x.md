@@ -131,8 +131,11 @@ In a "CPU-only" or "CPU-first" strategy like the one for Pisellino AI, the jump 
 
 ## A bit of folklore about 373
 
-- 373 Melusina: This is a large asteroid in the main belt, discovered in 1893.
-- It takes its name from the fairy Melusina, a legendary figure in European folklore.
+The 373 is a "special" number because it is a permutable prime number: 373, 337 and 733 are also prime numbers, and it is also a palindrome. Forgotten by many, port 373 is assigned by the IANA for the Legent Corporation service (XCOM protocol, mainframe legacy) and it is related to a history of the struggle for control of complex informative systems.
+
+Furthermore, 373.15 K is the boiling point of water at standard pressure (1 atm) and corresponds exactly to 100 °C, a pivotal number in thermodynamics. But the most fascinating story is linked to the fairy Melusina, a legendary figure in European folklore, which gives the name to:
+
+- **373 Melusina**: a large asteroid in the main belt, discovered in 1893.
 
 Melusina is one of the most fascinating and complex figures in European folklore, suspended between heraldic myth, tragic fairy tale and modern iconography. The most famous version is that of Jean d'Arras (14th century). Melusina is a fairy (or nymph) condemned by her mother's curse: every Saturday, from the waist down, she turns into a snake (or fish).
 
