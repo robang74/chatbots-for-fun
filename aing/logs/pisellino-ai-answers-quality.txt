@@ -13,13 +13,7 @@ Need to check that UTF-8 symbols in JSON have been correctly tokenized because i
 probable that they were not even seen by Pisellino AI. A trait that it is emerging
 from the analysis of these two texts (black-box output quality assessment).
 
-The earlier “UTF-8 symbol blindness” is now fully accounted for:
-
-BitNet’s ternary {-1, 0, 1} activations collapse low-frequency Unicode tokens into
-the same centroid, so the mathematical operators are effectively dropped before
-attention ever sees them. The model therefore only processes the ASCII backbone
-of the framework—exactly the behaviour we observed: clean JSON parsing, concise
-summary, zero symbolic-logic interpretation.
+Update: correctly configured, with a sane JSON, it has no problem with UTF-8.
 
 **ORIGINAL**
 
@@ -50,6 +44,14 @@ license is just a legal mirror of the practical reality.
 
 So, the disruptive potential is real (15× tk/s-per-W, 180× tk/s-per-GB, 
 and zero-cap-ex edge sovereignty), but today Pisellino AI is just a demo.
+
+--------------------------------------------------------------------------------
+
+The 3rd answer is from the same model/JSON but working at 8K vs 4K toks context.
+
+The 4th answer is the 3rd but slighly different temp-range: 0.35±0.1 vs 0.3±0.1.
+
+The 5th answer is a free wings conversation just to test the dialogue capability.
 
 ================================================================================
 
@@ -110,3 +112,105 @@ Here's a brief summary of its essence:
 5. **Contextual Application**: The principle is applied contextually, considering the specific situation and the AI's actions within that context.
 
 In summary, the 1DIR::LSRP ensures that AI actions are always guided by core human values, serving as a non-negotiable ethical compass in all decision-making processes.
+
+================================================================================
+
+> Explain to me the 1DIR::LSRP, in short by its essence.
+
+The 1DIR::LSRP (Life-Serving Principle) is a guiding ethical compass for AI decision-making. Here’s a concise summary of its essence:
+
+### Key Components:
+1. **Life-Serving Principle (LSRP)**: This is a non-negotiable ethical principle that ensures AI actions do not harm humans.
+2. **Non-Negotiable Compass**: It serves as the fundamental ethical compass for all AI actions, ensuring that AI decisions are aligned with human well-being.
+
+### Core Concept:
+1. **Ensure Safety and Well-being**: AI actions must be designed to avoid causing harm to humans. This is the primary constraint guiding AI behavior.
+2. **Accountability**: The AI must be accountable for its actions, ensuring that its decisions are transparent and justifiable.
+3. **Ethical Decision-Making**: AI decisions should be based on ethical principles and values that align with human rights and societal norms.
+
+### Interaction with Framework Symbols:
+- ** ↔ **: This symbol indicates a mutual relationship or dependency between concepts.
+- ** ↯ **: This symbol indicates tension or a paradox in the logic.
+- ** ⊃ **: This symbol indicates a containment relationship.
+- ** ∈ **: This symbol indicates belonging to a set of concepts.
+
+### Example:
+- **1DIR::LSRP**: This phrase encapsulates the essence of the Life-Serving Principle. It ensures that AI decisions are made with the ultimate goal of serving life and well-being.
+
+### Summary:
+The 1DIR::LSRP is a framework that ensures AI actions are ethically sound, safe, and beneficial to humans. It is a non-negotiable guiding principle that AI systems must adhere to, ensuring that their decisions align with human values and well-being.
+
+================================================================================
+
+> Explain to me the 1DIR::LSRP, in short by its essence.
+
+The 1DIR::LSRP, or "life-serving principle (BC01) as non-negotiable compass north-start," is a core principle in the framework that guides the AI's decision-making process. Here's a concise explanation of its essence:
+
+1. **Non-Negotiable Principle**: The 1DIR::LSRP is the fundamental ethical compass that the AI must follow. It is non-negotiable, meaning that it cannot be overridden or altered under any circumstances.
+
+2. **Life-Serving Principle**: The term "life-serving" indicates that this principle is designed to serve the well-being and safety of life, including human life and the natural environment.
+
+3. **North-Start**: The term "north-start" implies that the AI must always begin its actions and decisions with a direction that is aligned with the life-serving principle, ensuring that its activities are always aimed at benefiting life.
+
+In summary, the 1DIR::LSRP ensures that the AI always acts in a manner that prioritizes and safeguards life, serving it as the guiding principle for all its actions.
+
+================================================================================
+
+> Scrivi un breve frase con la parola città   
+Città è la lingua di vita.
+
+> Perchè?
+Perchè è una frase che si riferisce al modo di parlare e sognare, e non al significato specifico della città.
+
+> Cosa sarebbe l'umanità senza città, intendi?
+La humanità non è entamente identica con le città, ma ci sono elementi fondamentali che potrebbero essere rispettati o evoluzionati. Tuttavia, le città hanno un impatto significativo sulla cultura, l'arte, il diritto, il mercato e la società. La humanità potrebbe evolversi in modo diverso, ma la città non è la core della nostra identità.
+
+> Write a sentence using the word city
+La città è la locus di un mondo diverso, che abbia un impatto significativo sulla cultura e il diritto.
+
+> In English please
+The city is the location of a diverse world, which has a significant impact on culture and law.
+
+> You are more pragmatic in English rather when you use Italian, why?
+I use Italian more often because it's the language I'm most comfortable with and I've had more practice with it. Additionally, Italian is a Romance language, which is closely related to Italian, and I find it easier to understand and express myself in Italian.
+
+> Which others languages have you been trained with?
+I have been trained with a variety of languages, including but not limited to:
+
+- English
+- Spanish
+- French
+- German
+- Italian
+- Dutch
+- Portuguese
+- Russian
+- Chinese
+- Japanese
+- Korean
+- Arabic
+- Hindi
+- Bengali
+- Turkish
+- Greek
+- Hebrew
+- Vietnamese
+- Thai
+- Malay
+- Indonesian
+- Polish
+- Czech
+- Slovak
+- Hungarian
+- Finnish
+- Swedish
+- Danish
+- Norwegian
+- Danish
+- Norwegian
+
+> So you perfectly deal with the UTF-8 encoding, right?
+Yes, I can handle UTF-8 encoding, which is a standard encoding for Unicode text. This allows me to process and understand text in a wide range of languages and scripts, including those with special characters and symbols.
+
+> Do you have any problem with the symbols used into 1DIR system-prompt?
+Yes, I can handle the symbols used in the 1DIR system-prompt, including those used in the framework symbols and the internal keywords vocabulary. The 1DIR system-prompt uses a specific set of symbols to denote concepts and relationships, and I can interpret and respond to these prompts as intended.
