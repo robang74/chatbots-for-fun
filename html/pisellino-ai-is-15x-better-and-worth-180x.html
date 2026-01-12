@@ -18,7 +18,7 @@
 <style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
 <p class='topbar'></p>
 <div class='topbar' width='800px' translate='no'><b id='menu' onClick='nextStylesheet()'>&thinsp;&#9783;&thinsp;&Ropf;</b> &thinsp;&mdash;&thinsp; &#8543;&#8239;release: <b class='topbar'>2026-01-12&nbsp;<sup class='date-type topbar' id='datenote'>(&hairsp;<a href='#date-legenda' class='date-type topbar'>2</a>&hairsp;)</sup></b>  &thinsp;&mdash;&thinsp; rev.: <b class='topbar
-'>9</b rev_num='
+'>10</b rev_num='
 '> &thinsp;&mdash;&thinsp; transl.:&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/pisellino-ai-is-15x-better-and-worth-180x?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it-IT&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>IT</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/pisellino-ai-is-15x-better-and-worth-180x?_x_tr_sl=en&_x_tr_tl=de&_x_tr_hl=de-DE&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>DE</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/pisellino-ai-is-15x-better-and-worth-180x?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr-FR&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>FR</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='https://robang74-github-io.translate.goog/chatbots-for-fun/html/pisellino-ai-is-15x-better-and-worth-180x?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-ES&_x_tr_pto=wapp' target='_blank' rel='noopener noreferrer'>ES</a> &thinsp;&mdash;&thinsp; goto:&nbsp; <a class='topbar' href='../index.html#index'>.&#x27F0;.</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../roberto-a-foglietta/index.html'target=_blank>RAF</a> &nbsp;<b>&middot;</b>&nbsp; <a class='topbar' href='../../chatgpt-answered-prompts/index.html'target=_blank>Q&A</a> <span id='printlink'>&thinsp;&mdash;&thinsp; <b>⎙</b>&hairsp;: <a aria-label='print this page' class='topbar' href='javascript:window.print()'>PDF</a></span>&nbsp;</div>
 <div id="firstdiv">
 <p class='topbar'></p>
@@ -98,11 +98,12 @@ In essence, this is the result of 12h of working combined with a reasonable and 
 <p></p>
 This series of articles of mine, clearly shows that AI is trapped into a monopoly by NVIDIA because everything other than certified solutions are a hell-to-go, but despite this, a €250 trashware can provide a stunning ratio between functionality and price/TCO for end-users.
 <p></p>
-~> lnkd.in/dShrywUd (BoM HP440 + K80)
+<li><a href="https://robang74.github.io/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80.html#too-many-unknowns-to-face" target='_blank' rel='noopener noreferrer'>Nvidia Tesla K80 SW stack installation</a> , the €250 BoM HP440 / K80 workstation (2025-02-18)</li>
 <p></p>
 A great machine to achieve at home the fine-tuning/retraining of SLM. But SLM like Pisellino AI for what? For the edge devices, obviously. Suddenly, it starts to make sense separate the HW firmware (kernel + drivers) from the userland/applications level, which was the aim of RedFish OS:
 <p></p>
-~> lnkd.in/d8a_pbgp (presentation)
+<li><b>RedFish OS</b>, the business presentation in <a href="https://github.com/robang74/redfishos/blob/main/RedFishOS-presentation-A4.pdf" target='_blank' rel='noopener noreferrer'>PDF</a> &nbsp; (2023-09-24)</li>
+<li><b>RedFish OS</b> architecture presentation in <a href="https://github.com/robang74/redfishos/blob/main/sfsconf-2023/Linux-Android-and-RedFish-OS.pdf" target='_blank' rel='noopener noreferrer'>PDF</a> &nbsp; (2024-10-13)</li>
 <p></p>
 The only way to prevent an AI agent running on the smartphone can tamper with it in a way that even the kernel cannot cope with. Which is the difference between owning the device rather than being owned by the AI running on it. Let me guess, <a href="https://youtu.be/F4p4zyx48Ls" target='_blank' rel='noopener noreferrer'>EU politicians</a> made the wrong choice again?
 <p></p>
@@ -148,7 +149,7 @@ Moreover, by simply "cleaning up" the toolchain, the author could likely bridge 
 <tr><td class='td1stcol'> Execution Path </td><td> Generic C++ </td><td> Target-Specific </td><td> Uses <tt>march=native</tt> to unlock specific<br>budget-chip instructions (e.g., DotProd). </td></tr>
 </table>
 </div><br>
-In a "CPU-only" or "CPU-first" strategy like the one for Pisellino AI, the jump from Clang 14 to Clang 19 isn't just a minor update—it's a critical performance lever.
+In a "CPU-only" or "CPU-first" strategy like the one for Pisellino AI, the jump from Clang 14 to Clang 19 isn't just a minor update: it's a critical performance lever.
 <p></p>
 <br>
 <p></p>
@@ -169,7 +170,7 @@ Melusina is not the classic "Greek" mermaid (half woman, half fish), but a two-t
 <H2 id="related-articles">Related articles</H2>
 <p></p>
 <li><a href="orchestrating-ai-intelligence-by-context.html#" target='_blank' rel='noopener noreferrer'>The results from structuring AI's CoT</a> &nbsp; (2025-12-27)</li>
-<p></p>
+<br class="pagebreak">
 <li><a href="attenzione-e-contesto-nei-chatbot.html#" target='_blank' rel='noopener noreferrer'>Attenzione e contesto nei chatbot</a> &nbsp; (2025-07-20)</li>
 <p></p>
 <br>

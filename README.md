@@ -108,9 +108,11 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="prompt-engineering"></span>
-* **Prompt engineering for peer-reviewing with RAG support** &nbsp; (12 pz.)
+* **Prompt engineering for peer-reviewing with RAG support** &nbsp; (13 pz.)
 
-   - 2025-12-27 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/orchestrating-ai-intelligence-by-context.md.md)] - [Results from structuring AI's CoT](orchestrating-ai-intelligence-by-context.md) &nbsp; (5th edt.)
+   - 2026-01-12 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/pisellino-ai-is-15x-better-and-worth-180x.md)] - [Pisellino AI is 15x better and worth 180x](pisellino-ai-is-15x-better-and-worth-180x.md)
+
+   - 2025-12-27 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/orchestrating-ai-intelligence-by-context.md)] - [Results from structuring AI's CoT](orchestrating-ai-intelligence-by-context.md) &nbsp; (5th edt.)
 
    - 2025-12-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/collection-of-useful-prompts-by-raf.md)] - [A collection of useful prompts](collection-of-useful-prompts-by-raf.md) &nbsp; (3rd edt.)
 

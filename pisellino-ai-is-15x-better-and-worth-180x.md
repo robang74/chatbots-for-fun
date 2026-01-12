@@ -77,11 +77,12 @@ In essence, this is the result of 12h of working combined with a reasonable and 
 
 This series of articles of mine, clearly shows that AI is trapped into a monopoly by NVIDIA because everything other than certified solutions are a hell-to-go, but despite this, a €250 trashware can provide a stunning ratio between functionality and price/TCO for end-users.
 
-~> lnkd.in/dShrywUd (BoM HP440 + K80)
+- [Nvidia Tesla K80 SW stack installation](https://robang74.github.io/chatbots-for-fun/html/nvidia-sw-stack-installation-for-k80.html#too-many-unknowns-to-face) , the €250 BoM HP440 / K80 workstation (2025-02-18)
 
 A great machine to achieve at home the fine-tuning/retraining of SLM. But SLM like Pisellino AI for what? For the edge devices, obviously. Suddenly, it starts to make sense separate the HW firmware (kernel + drivers) from the userland/applications level, which was the aim of RedFish OS:
 
-~> lnkd.in/d8a_pbgp (presentation)
+- **RedFish OS**, the business presentation in [PDF](https://github.com/robang74/redfishos/blob/main/RedFishOS-presentation-A4.pdf) &nbsp; (2023-09-24)
+- **RedFish OS** architecture presentation in [PDF](https://github.com/robang74/redfishos/blob/main/sfsconf-2023/Linux-Android-and-RedFish-OS.pdf) &nbsp; (2024-10-13)
 
 The only way to prevent an AI agent running on the smartphone can tamper with it in a way that even the kernel cannot cope with. Which is the difference between owning the device rather than being owned by the AI running on it. Let me guess, [EU politicians](https://youtu.be/F4p4zyx48Ls) made the wrong choice again?
 
@@ -125,7 +126,7 @@ Moreover, by simply "cleaning up" the toolchain, the author could likely bridge 
 | Binary Optimization | Standard Build | LTO + PGO | Profile-Guided Optimization (PGO) tunes<br>the binary based on real AI workloads. |
 | Execution Path | Generic C++ | Target-Specific | Uses `march=native` to unlock specific<br>budget-chip instructions (e.g., DotProd). |
 +
-In a "CPU-only" or "CPU-first" strategy like the one for Pisellino AI, the jump from Clang 14 to Clang 19 isn't just a minor update—it's a critical performance lever.
+In a "CPU-only" or "CPU-first" strategy like the one for Pisellino AI, the jump from Clang 14 to Clang 19 isn't just a minor update: it's a critical performance lever.
 
 +
 
@@ -146,7 +147,7 @@ Melusina is not the classic "Greek" mermaid (half woman, half fish), but a two-t
 ## Related articles
 
 - [The results from structuring AI's CoT](orchestrating-ai-intelligence-by-context.md#?target=_blank) &nbsp; (2025-12-27)
-
++++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
 +
