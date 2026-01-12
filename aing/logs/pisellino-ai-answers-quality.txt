@@ -1,5 +1,10 @@
 Pisellino AI, based on Microsoft BitNet 1.58 2B 4T + AICC::DIR v0.8.71, answers 
 
+In the first case the JSON was not properly formatted and it was missing of a 
+string  clousure, plus others errors. The most meaningful reference answer is 
+the shorter in terms of understanding and JSON parsing. Despite the flawed JSON,
+the first is provided for a mere language analysis (comparative).
+
 ================================================================================
 
 > Explain to me the 1DIR::LSRP
