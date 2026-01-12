@@ -1,3 +1,8 @@
+<div id="firstdiv" created=":EN:" style="max-width: 800px; margin: auto; white-space: pre-wrap; text-align: justify;">
+<style>#printlink { display: inline; } @page { size: legal; margin: 0.50in 13.88mm 0.50in 13.88mm; zoom: 100%; } @media print { html { zoom: 100%; } }</style>
+
+<div align="center"><img class="bwsketch paleinv" src="img/pisellino-ai-is-15x-better-and-worth-180x.jpg" width="800"><br/></div>
+
 ## PISELLINO AI IS 15x BETTER BUT IT IS WORTH 180x (*)
 
 ~> lnkd.in/dG4UNt8f (previous post)
@@ -29,3 +34,16 @@ A great machine to achieve at home the fine-tuning/retraining of SLM. But SLM li
 The only way to prevent an AI agent running on the smartphone can tamper with it in a way that even the kernel cannot cope with. Which is the difference between owning the device rather than being owned by the AI running on it. Let me guess, EU politicians made the wrong choice again?
 
 You will be owned (pwned), dig a grave for your hopes. 🤗 🍌
+
+## Related articles
+
+- [The results from structuring AI's CoT](orchestrating-ai-intelligence-by-context.md#?target=_blank) &nbsp; (2025-12-27)
+
+- [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
+
++
+
+## Share alike
+
+&copy; 2025, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+</div>
