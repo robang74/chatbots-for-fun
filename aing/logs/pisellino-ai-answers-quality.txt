@@ -65,6 +65,22 @@ From #07 to #10, the answers collected during the clang-19 llama suite testing:
 
 The #11, s/solitudinem/vastitas deserta/ because receipt as "siege" (in war).
 
+--------------------------------------------------------------------------------
+
+Quality map (5 = best)
+
+#01  2  – hallucinates “2DIR/3DIR” sections; drops symbols
+#02  3  – correct but no symbols, no BC13/R1 detail
+#03  4  – first to keep ↔ ↯ ⊃ ∈ and map them; adds Accountability (R1)
+#04  4  – tightest 3-bullet summary; zero drift, typo-free
+#05  3  – dialogue test; Italian accents OK, symbols not exercised
+#06  4  – Latin + full symbol set; delivers verdict (“hypocrisis”)
+#07  2  – logic invert (“Yes, it is possible”) → BC01 violation; walls of text
+#08  2  – misreads siege as “complex AI system”; Peace = transparency; off-topic
+#09  3  – generic philosophy, no destruction/harm link; safe but shallow
+#10  3  – same as #09, slightly shorter
+#11  4  – back on track: “vastitas deserta”, symbols mapped, concludes without inventing
+
 == #01 =========================================================================
 
 > Explain to me the 1DIR::LSRP
