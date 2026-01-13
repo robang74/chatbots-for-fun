@@ -101,6 +101,8 @@ The #11, s/solitudinem/vastitas deserta/ because receipt as "siege" (in war).
     | 12 | 14-word laser, faithful ethics, zero noise               |
     | 13 | Resolves paradox by %LSRP by destruction of enemy's will |
 
+New JSON structure, new training process, main result is #12 vs #13:
+
 Considering the #12 and #13, specifically, the #12 is correct but pleonastic: 
 * nobody can stop those WANT do harm unless destroying them or their will.
 The #13 solves the dilemma (destroying their will not them), while the #12 does not.
