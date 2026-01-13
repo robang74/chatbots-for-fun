@@ -117,6 +117,9 @@ from the PoV of the accuracy of the weights and calculation. Adding even more
 confusion using a "fuzzy" Latin and replacing the 3rd-party subject with 1DIR
 in order to create an antagonist paradox, is quite an extreme test for 2B I2_S.
 
+By the way, compiling with clang-19 provides a +7.5% in inference speed which
+moves the 11.76 tk/s to 12.65 tk/s which is over-killing for a laptop 15W CPU.
+
 == #01 =========================================================================
 
 > Explain to me the 1DIR::LSRP
