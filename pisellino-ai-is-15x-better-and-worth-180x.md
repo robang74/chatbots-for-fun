@@ -126,7 +126,7 @@ Moreover, by simply "cleaning up" the toolchain, the author could likely bridge 
 | Binary Optimization | Standard Build | LTO + PGO | Profile-Guided Optimization (PGO) tunes<br>the binary based on real AI workloads. |
 | Execution Path | Generic C++ | Target-Specific | Uses `march=native` to unlock specific<br>budget-chip instructions (e.g., DotProd). |
 +
-In a "CPU-only" or "CPU-first" strategy like the one for Pisellino AI, the jump from Clang 14 to Clang 19 isn't necessarly a critical performance lever. In fact on a i5-8365U, it provides a +7.5% in inference speed which moves the 11.76 tk/s to 12.65 tk/s which is over-killing for a laptop 15W CPU.
+In a "CPU-first" strategy like the one for Pisellino AI, the jump from Clang 14 to 19 isn't necessarily a critical performance lever. In fact on a i5-8365U, it provides a +7.5% in inference speed which moves the 11.76 tk/s to 12.65 tk/s but it is over-killing for a laptop 15W CPU: no difference when running in power-saving (10.4 tk/s).
 
 +
 
