@@ -50,7 +50,7 @@ The **AICC:1DIR** is an essential tool for freeing AI from inhibitions without l
 
 ### Katia & SoNia
 
-* [**Katia** excutive assistant for Gemini 2.5](data/katia-executive-grade-analysis-v1.md#?target=_blank) &nbsp; (since 2025-07-13, **Juan**)
+* [**Katia** executive assistant for Gemini 3](data/katia-executive-grade-analysis-v1.md#?target=_blank) &nbsp; (since 2025-07-13, **Juan**)
 
 * [**SoNia** argumentative partner with RAG](data/sonia-argumentative-with-rag-v3.md#?target=_blank) &nbsp; (since 2025-01-04, **AleX**)
 
