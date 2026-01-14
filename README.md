@@ -79,6 +79,7 @@ I think Katia (v0.9.58.1) represents a thoughtful attempt to impose structure on
 - EU iban: `DE46700700240524862000`
 - Italian fiscal code: `FGLRRT74C26D969F`
 - Reason: private donation (fiscal code)
+- or by [github.com/sponsors/robang74](https://github.com/sponsors/robang74)
 
 ++++
 #### In a short summary
