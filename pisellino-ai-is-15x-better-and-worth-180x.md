@@ -141,7 +141,7 @@ Furthermore, 373.15 K is the boiling point of water at standard pressure (1 atm)
 Melusina is one of the most fascinating and complex figures in European folklore, suspended between heraldic myth, tragic fairy tale and modern iconography. The most famous version is that of Jean d'Arras (14th century). Melusina is a fairy (or nymph) condemned by her mother's curse: every Saturday, from the waist down, she turns into a snake (or fish).
 
 Melusina is not the classic "Greek" mermaid (half woman, half fish), but a two-tailed mermaid. The double tail represents duality and fertility. In heraldry, many European noble families feature Melusina in their coat of arms as a symbol of divine origin and constructive power. Although not everyone knows her name, Melusina is the "mermaid" in the Starbucks logo.
- 
+
 +
 
 ## Related articles
