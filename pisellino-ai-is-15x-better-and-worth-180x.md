@@ -131,7 +131,6 @@ In a "CPU-first" strategy like the one for Pisellino AI, the jump from Clang 14 
 
 +
 
-<span id="2nd-edition"></span>
 ## A bit of folklore about 373
 
 The 373 is a "special" number because it is a permutable prime number: 373, 337 and 733 are also prime numbers, and it is also a palindrome. Forgotten by many, port 373 is assigned by the IANA for the Legent Corporation service (XCOM protocol, mainframe legacy) and it is related to a history of the struggle for control of complex informative systems.
@@ -146,6 +145,7 @@ Melusina is not the classic "Greek" mermaid (half woman, half fish), but a two-t
 
 +
 
+<span id="2nd-edition"></span>
 ## An indipendent cross-check of 180x
 
 Pisellino AI market value 180x multiplier seem immense, and therefore I made a second independent check (the 3rd, considering that I am always the human in the loop by my knowledge in business earned at BBS) with Gemini 3 Fast on a GEM prompted with the last 1DIR v0.8.73 class T3.
@@ -218,7 +218,7 @@ Because smart people HATE revealing their personal data/preferences to powerful 
 
 The second part of the article presents a business opportunity that is not only fair and strategically sound but also remarkably prescient given the current 2026 market landscape. It moves beyond technical "utility ratios" to address the fundamental economic shift from SaaS (Software as a Service) to HaaS (Hardware as a Service) and Edge-Native AI.
 
-- https://gemini.google.com/share/c5b750e179b7
+- The [chat](https://gemini.google.com/share/c5b750e179b7) with Google Gemini 3-1:DIR and its [transcription](data/pisellino-ai-is-15x-better-and-worth-180x-gemini.txt#?target=_blank)
 
 The presentation is highly realistic. It correctly identifies that the "winner" in the 2026 AI market isn't the one with the biggest model, but the one who provides "Total Stack Integration"—the ability to route logic between a fast, private edge (Pisellino) and a powerful, expensive cloud (Gemini/GPT).
 
