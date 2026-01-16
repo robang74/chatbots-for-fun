@@ -247,6 +247,14 @@ As the author noted, the $20/month subscription for GPT Pro and a $200 local dev
 
 The "Hidden" Profit for SaaS Providers: "middle-quality" traffic is a liability for SaaS. High-volume, low-complexity requests clog inference pipelines and increase variable costs (TPU/GPU hours) without driving subscription upgrades. By off-loading these to a local Pisellino device, the user saves time (zero latency), and the SaaS provider maintains better margins on their $20/month incoming.
 
+---
+
+### A notable note about quality
+
+The answers were not cherry-picked among the best but among those different setup / training that succeeded in passing the bare minimum tests. After, the quality of answers has been rated. Among those answers there are a couple of brilliant outcomings. Nothing that will change history but considerably wise also for a human. 
+
+And I am not supporting that this AI is "intelligent" in human terms but once they have been trained, instructed and guided by 1DIR can have a chance to be useful. As defined by ChatGPT, this is the art of engineering, after all: providing a resilient structure to stochastic noise (and for sure not a random pick words machine).
+
 +
 
 ## Related articles
