@@ -182,7 +182,9 @@ Just to recall about the economy of scale: the RAM price on the tier-1 market ha
 
 Where is the great deal between Pisellino AI and GPT5.2 Pro pay-per-use $20 account? A three year subscription ($720) pays also for a $240 device which can off-load 50% of the traffic which would be wasted. Probably Microsoft and OpenAI aren't the best business party for this deal but Google, which produces and sells their own smartphones, are those in the sweet-spot.
 
-Under this PoV, people would pay the $20/month as usual but adhering to a 3-years offer they will receive for free an AI dedicated devices (whatever it would be, a smartphone, a tablet or a netbook) and the classic 3-year warranty coverage which is used to be given when somebody buys a plan with a credit card. In technical terms it is a leasing which is a well-known pay-per-month sales strategy in the car market.
+Under this PoV, people would pay the $20/month as usual but adhering to a 3-years offer they will receive for free an AI dedicated devices (whatever it would be, a smartphone, a tablet or a netbook) and the classic 3-year warranty coverage which is used to be given when somebody buys a plan with a credit card.
+
+In technical terms it is a leasing which is a well-known pay-per-month sales strategy in the car market.
 
 As you can imagine Gooogle with their cloud-based devices both netbook and smartphone are in that market with a slightly nuanced strategy of sales. Customers buy their devices like Pixel smartphones and the month-paying plan is issued by the credit card company, and with the device they receive a for-free plan to use services that would be priced otherwise or not even available like their VPN.
 
@@ -192,7 +194,7 @@ In technical terms is the cloud-hybrid paradigm (local data and business logic, 
 
 ### A user case that makes the deal
 
-So, where is the key feature for which the customer would like to buy?
+So, what is the key feature for which the customer would like to buy?
 
 - Pisellino makes a 5-slide presentation of this business opportunity
 - Sure, but this task is above my abilities. Can I outsource it to Gemini Pro?
@@ -204,7 +206,11 @@ So, where is the key feature for which the customer would like to buy?
 - The Starbuck will be here in 10m, would you like to review the presentation 1st draft?
 - Let me see.
 
-In the background Pisellino AI knows WHAT the customer wants to make deals with the AI in the cloud by API which knows HOW to provide the service or goods. That's the feature: a smart enough local AI agent to understand the "as-usual" needs and provide a tier-1 grade service relating with advanced SaaS included into subscriptions like Netflix or Amazon Prime. Because smart people HATE revealing their personal data/preferences to powerful AIs, Pisellino is tiny by design.
+In the background Pisellino AI knows WHAT the customer wants to make deals with the AI in the cloud by API which knows HOW to provide the service or goods. 
+
+That's the feature: a smart enough local AI agent to understand the "as-usual" needs and provide a tier-1 grade service relating with advanced SaaS included into subscriptions like Netflix or Amazon Prime.
+
+Because smart people HATE revealing their personal data/preferences to powerful AIs, Pisellino AI is tiny by (yes-for-you) design.
 
 +
 
