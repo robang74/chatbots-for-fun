@@ -6,6 +6,7 @@
 ## Pisellino AI is 15x better and worth 180x
 
 - **1st edition**: collects and reports the most meaningful aspects extracted by my posts on Linkedin.
+- **2nd edition**: presents the market impact and business [opportunity](#2nd-edition) related to Pisellino-class AIs.
 
 ---
 
@@ -130,6 +131,7 @@ In a "CPU-first" strategy like the one for Pisellino AI, the jump from Clang 14 
 
 +
 
+<span id="2nd-edition"></span>
 ## A bit of folklore about 373
 
 The 373 is a "special" number because it is a permutable prime number: 373, 337 and 733 are also prime numbers, and it is also a palindrome. Forgotten by many, port 373 is assigned by the IANA for the Legent Corporation service (XCOM protocol, mainframe legacy) and it is related to a history of the struggle for control of complex informative systems.
@@ -144,13 +146,75 @@ Melusina is not the classic "Greek" mermaid (half woman, half fish), but a two-t
 
 +
 
+## An indipendent cross-check of 180x
+
+Pisellino AI market value 180x multiplier seem immense, and therefore I made a second independent check (the 3rd, considering that I am always the human in the loop by my knowledge in business earned at BBS) with Gemini 3 Fast on a GEM prompted with the last 1DIR v0.8.73 class T3.
+
+Let me explain very quickly where 180x comes from. There are three hard metrics in the AI / device field: tk/s (speed), tk/W (efficiency) and tk/$. The first two are pretty simple to understand but still nuanced. While the third is a little more tricky. We will see for the last.
+
+People read in English at 4-5 tk/s. This means that in terms of user experience anything below 2.5 tk/s is a waiting experience while everything above 7.5 tk/s is a reading experience. At 15 tk/s, it allows a full "skipping" reading experience: just visualise the text during creation to detect which parts are worth to be examined first and those go into a second pass of reading.
+
+---
+
+### Adding a minimal GPU support 
+
+Without any GPU support, Pisellino AI set for 7.5 - 12.5 tk/s band on a 15W TDP CPU (as reference the human brain consumes 12W). At the same energy power consumption of a human brain (which at its best is extremely efficient compared also with the most advanced AI nowadays) it can deliver 10 tk/s (average) which is great. It has more than 1/3 of layers in FP32:
+
+- `f32: 121 tensors, f16: 1 tensors, i2_s: 210 tensors`
+
+This means that a GPU with a 5W TDP can boost the model by 1.6x allowing Pisellino AI to reach the 20 tk/s into ANY mobile device and i5 core laptop using the 45W power cord and power-saving mode for keeping the CPU/GPU at reasonable working temperature. At 20tk/s (80 cps on average, 32s for writing this full post in full) in generations and 40 (possibly 80 tk/s with Vulkan GPU support) in reading can quickly deal with AIs on cloud.
+
+About tk/W, it is obvious that a 20W TDP device can be a pocket-size one while a 250W cannot be. Utility scales much faster than linearity. This is even more extreme when economies at scale kick in into the tk/$ metric.
+
+---
+
+### Efficiency is the AI driver
+
+The data centers are extremely efficient but also extremely costly to buy, install and run which is the reason for which AI hype is a HUGE burning cash today rather than being a cow cash (which explains the fight for a US military contract that Grok seems to have won by recent news).
+
+However, data centers are an immobilisation at risk plus their value degrades with time and free accounts drains money but data centers fixed costs and their amortization in time pushes the companies to "buy" users rather than simply hopelessly waste money.
+
+Just to recall about the economy of scale: the RAM price on the tier-1 market has risen by 6.3x since ChatGPT went on-line. Up at the point for which Samsung Electronics refused to provide RAM to Samsung Mobile Devices because the data centers pay more than end-users. Meanwhile Crucial did a strategic production and sales shift in deciding to abandon the consumer market and produce only and sell directly to the datacenter suppliers.
+
+---
+
+### A great business opportunity
+
+Where is the great deal between Pisellino AI and GPT5.2 Pro pay-per-use $20 account? A three year subscription ($720) pays also for a $240 device which can off-load 50% of the traffic which would be wasted. Probably Microsoft and OpenAI aren't the best business party for this deal but Google, which produces and sells their own smartphones, are those in the sweet-spot.
+
+Under this PoV, people would pay the $20/month as usual but adhering to a 3-years offer they will receive for free an AI dedicated devices (whatever it would be, a smartphone, a tablet or a netbook) and the classic 3-year warranty coverage which is used to be given when somebody buys a plan with a credit card. In technical terms it is a leasing which is a well-known pay-per-month sales strategy in the car market.
+
+As you can imagine Gooogle with their cloud-based devices both netbook and smartphone are in that market with a slightly nuanced strategy of sales. Customers buy their devices like Pixel smartphones and the month-paying plan is issued by the credit card company, and with the device they receive a for-free plan to use services that would be priced otherwise or not even available like their VPN.
+
+In technical terms is the cloud-hybrid paradigm (local data and business logic, cloud back-up and processing boost as optional) but on the edge-class devices instead of server / back-end infrastructure. 
+
+---
+
+### A user case that makes the deal
+
+So, where is the key feature for which the customer would like to buy?
+
+- Pisellino makes a 5-slide presentation of this business opportunity
+- Sure, but this task is above my abilities. Can I outsource it to Gemini Pro?
+- Yes, and leverage the Nano Banana option. I want a nice picture on the 1st page.
+- Agree, business style and font, blue-gray colors, company logo and what else?
+- Order a cup of Italian Cappuccino at Starbuck.
+- The same Starbuck order that you are used to taking?
+- Yes, that's it.
+- The Starbuck will be here in 10m, would you like to review the presentation 1st draft?
+- Let me see.
+
+In the background Pisellino AI knows WHAT the customer wants to make deals with the AI in the cloud by API which knows HOW to provide the service or goods. That's the feature: a smart enough local AI agent to understand the "as-usual" needs and provide a tier-1 grade service relating with advanced SaaS included into subscriptions like Netflix or Amazon Prime. Because smart people HATE revealing their personal data/preferences to powerful AIs, Pisellino is tiny by design.
+
++
+
 ## Related articles
 
 - [The results from structuring AI's CoT](orchestrating-ai-intelligence-by-context.md#?target=_blank) &nbsp; (2025-12-27)
 +++++
 - [Attenzione e contesto nei chatbot](attenzione-e-contesto-nei-chatbot.md#?target=_blank) &nbsp; (2025-07-20)
 
-+++++
++
 
 ## Share alike
 
