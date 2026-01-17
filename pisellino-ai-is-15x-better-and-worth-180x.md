@@ -151,9 +151,11 @@ Melusina is not the classic "Greek" mermaid (half woman, half fish), but a two-t
 
 Pisellino AI market value 180x multiplier seem immense, and therefore I made a second independent check (the 3rd, considering that I am always the human in the loop by my knowledge in business earned at BBS) with Gemini 3 Fast on a GEM prompted with the last 1DIR v0.8.73 class T3.
 
-Let me explain very quickly where 180x comes from. There are three hard metrics in the AI / device field: tk/s (speed), tk/W (efficiency) and tk/$. The first two are pretty simple to understand but still nuanced. While the third is a little more tricky. We will see for the last.
+Let me explain very quickly where 180x comes from. There are three hard metrics in the AI / device field: tk/s (speed), tk/W (efficiency) and tk/$. The first two are pretty simple to understand but still nuanced. While the third is a little more tricky. We will see it for the last.
 
-People read in English at 4-5 tk/s. This means that in terms of user experience anything below 2.5 tk/s is a waiting experience while everything above 7.5 tk/s is a reading experience. At 15 tk/s, it allows a full "skipping" reading experience: just visualise the text during creation to detect which parts are worth to be examined first and those go into a second pass of reading.
+People read in English at 5 tk/s. This means that in terms of user experience anything below 5 tk/s is a waiting experience while everything above is a reading experience. At 15 tk/s, it allows a full "skipping" reading experience: just visualise the text during creation to detect which parts are worth to be examined first and those go into a second pass of reading.
+
+- The original model w/o 1DIR performs does r: 88.6, w: 16.5, e:±2 on a i5-8365U 4-threads power-saving.
 
 ---
 
