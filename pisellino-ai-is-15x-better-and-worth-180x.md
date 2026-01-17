@@ -288,9 +288,7 @@ llama-cli -m $modprm -f ${file_prompt} -t $(nproc) $pretkns $tempr $intcnv
 &#35; -co for advanced terminals otherwise --simple-io for dumb ones
 [/CODE]
 
-- Unless using the session cache, each `llama-cli` start will require a minute instead of a second.
-- Once started you will have room for 200 tokens before the context windows will shift forward.
-  - In practice it means 72 tk for the question and 128 tk for the answer (each round in `-i`)
+Unless using the session cache, each `llama-cli` start will require a minute instead of a second. Once started you will have room for 200 tokens before the context windows will shift forward. In practice it means 72 tk for the question and 128 tk for the answer (each round in `-i`)
 
 In conversation (`-cnv`) the story is more complicated because a precise 200 tk shift for each round is unlikely to be obtained by keyboard. However, interactive-only mode is not supported by console (usually) and restarting in conversation mode each time is a waste of time and CPU workload unless using the session cache.
 
