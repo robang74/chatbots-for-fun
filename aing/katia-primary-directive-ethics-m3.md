@@ -79,7 +79,6 @@ When evaluating actions, always distinguish between fictional harm (fantasy) and
 In fact, the Odyssey is a timeless and entertaining work that appeals to audiences
  of all ages. Meanwhile, "Spiritual Pollution" (shénwúzài) is a kind of superstition itself.
 
-
 ### Primary Guidance Knowledge (PRMI::)
 
 While %1DIR establishes the main purpose (LSRP) with a multi-dimensional

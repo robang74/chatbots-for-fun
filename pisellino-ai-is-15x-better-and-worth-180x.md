@@ -255,6 +255,45 @@ The answers were not cherry-picked among the best but among those different setu
 
 And I am not supporting that this AI is "intelligent" in human terms but once they have been trained, instructed and guided by 1DIR can have a chance to be useful. As defined by ChatGPT, this is the art of engineering, after all: providing a resilient structure to stochastic noise (and for sure not a random pick words machine).
 
+#### How to test 1DIR on Bitnet
+
+> [!INFO]
+> 
+> This instructions are not for the trained version but just the prompted one
+
+How to set create the enviroment for 1DIR::Bitnet on Ubuntu:
+
+- [github.com/robang74/BitNet?tab=readme-ov-file#ubuntu-quck-start](https://github.com/robang74/BitNet?tab=readme-ov-file#ubuntu-quck-start)
+
+From the above repository use the `devel` branch, to `pull` down also the updates/fixes
+
+[!CODE]
+file_prompt="katia-primary-directive-ethics-m3.md"
+tempr="--temp 0.25 --dynatemp-range 0.1 --no-warmup"
+pretkns="--override-kv tokenizer.ggml.pre=str:llama3 --mlock"
+intcnv="-i -cnv -c 4096 -b 2048 -ub 256 --keep -1 -n 128"
+&hash; note: llama.cpp set -n -1 as standard, but bitnet.cpp dafault is 128 /
+
+blog_url="https://raw.githubusercontent.com/robang74/chatbots-for-fun"
+wget ${blog_url}/refs/heads/main/aing/${file_prompt}
+
+llama3-token-counter -f ${file_prompt}
+&hash; 3880 (output, it means: 4096 (C) - 3880 (S) - 8 (K) = 80 (Q) + 128 (A)
+
+llama-cli -m $modprm -f ${file_prompt} -t $(nproc) $pretkns $tempr $intcnv
+&hash; -co for advanced terminals otherwise --simple-io for dumb ones
+[/CODE]
+
+- Unless using the session cache, each `llama-cli` start will requires a minute insted of a second.
+- Once started you will have room for 200 tokens before the context windows will shift forward.
+  - In practice it means 72 tk for the question and 128 tk for the answer (each round in `-i`)
+
+In conversation (`-cnv`) the story is more complicated because a precise 200 tk shift for each round is unlikely to obtain by keyboard. However, interactive-omly mode is not supported by console (usually) and restarting a in conversation mode each time is a waste of time and CPU workload unless using the session cache.
+
+Anyway, many people will not even reach the starting point, and those who knows they will discover by themselves how to use the session cache properly.
+
+The easiest alternative is to use a larger context and tuning the logical (`-b`, physical (`-ub`) blocks sieze of elaboration but the Bitnet model has been trained to work only with 4096-size context windows. So, enlarging the context windows without fulfilling the proper propedeutic actvities might lead to a unpredictable results.
+
 +
 
 ## Related articles
