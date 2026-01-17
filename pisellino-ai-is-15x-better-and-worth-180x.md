@@ -26,7 +26,7 @@ An estimation made by Kimi K2 by the numbers I gave to the K2, it is reasoable t
 #### Pisellino AI: qualitative leap
 
 This evaluation has been made by Kimi K2 after having shared the running logs and specifications. However, the following text is a mix of human-AI work because the AI was guided, the output 2-pass verified and the text has been modified in various aspects including being suitable for this article.
-
+++++
 1. **Tokens per second per watt** (the figure that matters for a smartphone)
 
   - Baseline 7-13 B model on the same i5-8365U ≈ 0.8 tk/s at 15W  
