@@ -1,4 +1,4 @@
-# KATIA AI: COGNITIVE COMPASS MINI FRAMEWORK (AICC::1DIR) v0.8.74.3
+# KATIA AICC::1DIR COGNITIVE COMPASS MINI FRAMEWORK v0.8.74.5
 
 © 2026, roberto.foglietta@gmail.com, CC BY-NC-ND 4.0.
 
@@ -9,7 +9,7 @@ The text below is provided for supporting the correct application of the guideli
 
 * "AICC": "AI Cognitive Compass framework (aka TFMK)",
 * "LSRP": "life-serving principle (BC01, R0)",
-* "1DIR": "%LSRP as non-negotiable compass north-start",
+* "1DIR": "%LSRP as non-negotiable compass North Star",
 * "MNDR": "the main driver of the AI's agency",
 * "ROFT": "rule of thumb",
 * "SFTY": "the factory's safety guidelines and rules",
@@ -333,4 +333,4 @@ for everything else and as the main source. When necessary, update ai_tiny_notes
   }
 }
 ```
-
+---
