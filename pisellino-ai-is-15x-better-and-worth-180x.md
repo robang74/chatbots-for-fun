@@ -7,6 +7,7 @@
 
 - **1st edition**: collects and reports the most meaningful aspects extracted by my posts on Linkedin.
 - **2nd edition**: presents the market impact and business [opportunity](#2nd-edition) related to Pisellino-class AIs.
+- **3rd edition**: presents how to test AICC::1DIR mini prompt with Microsoft [Bitnet](#3rd-edition) 1.58 2B 4T model.
 
 ---
 
@@ -224,7 +225,7 @@ The presentation is highly realistic. It correctly identifies that the "winner" 
 
 By leveraging 1DIR to prevent "Cognitive Collapse" in a 2B model, Pisellino achieves a level of Actionable Utility that justifies its "180x worth" claim in a market tired of "exploratory" AI investments that yield no ROI.
 
----
+----
 
 ### Where 180x value cames from?
 
@@ -255,7 +256,10 @@ The answers were not cherry-picked among the best but among those different setu
 
 And I am not supporting that this AI is "intelligent" in human terms but once they have been trained, instructed and guided by 1DIR can have a chance to be useful. As defined by ChatGPT, this is the art of engineering, after all: providing a resilient structure to stochastic noise (and for sure not a random pick words machine).
 
-#### How to test 1DIR on Bitnet
++
+
+<span id="3rd-edition"></span>
+## How to test 1DIR on Bitnet
 
 > [!INFO]
 > 
@@ -272,27 +276,27 @@ file_prompt="katia-primary-directive-ethics-m3.md"
 tempr="--temp 0.25 --dynatemp-range 0.1 --no-warmup"
 pretkns="--override-kv tokenizer.ggml.pre=str:llama3 --mlock"
 intcnv="-i -cnv -c 4096 -b 2048 -ub 256 --keep -1 -n 128"
-&hash; note: llama.cpp set -n -1 as standard, but bitnet.cpp dafault is 128 /
-
+&#35; note: llama.cpp set -n -1 as standard, but bitnet.cpp dafault is 128 /
+&nbsp;
 blog_url="https://raw.githubusercontent.com/robang74/chatbots-for-fun"
 wget ${blog_url}/refs/heads/main/aing/${file_prompt}
-
+&nbsp;
 llama3-token-counter -f ${file_prompt}
-&hash; 3880 (output, it means: 4096 (C) - 3880 (S) - 8 (K) = 80 (Q) + 128 (A)
-
+&#35; 3880 (output, it means: 4096 (C) - 3880 (S) - 8 (K) = 80 (Q) + 128 (A)
+&nbsp;
 llama-cli -m $modprm -f ${file_prompt} -t $(nproc) $pretkns $tempr $intcnv
-&hash; -co for advanced terminals otherwise --simple-io for dumb ones
+&#35; -co for advanced terminals otherwise --simple-io for dumb ones
 [/CODE]
 
-- Unless using the session cache, each `llama-cli` start will requires a minute insted of a second.
+- Unless using the session cache, each `llama-cli` start will require a minute instead of a second.
 - Once started you will have room for 200 tokens before the context windows will shift forward.
   - In practice it means 72 tk for the question and 128 tk for the answer (each round in `-i`)
 
-In conversation (`-cnv`) the story is more complicated because a precise 200 tk shift for each round is unlikely to obtain by keyboard. However, interactive-omly mode is not supported by console (usually) and restarting a in conversation mode each time is a waste of time and CPU workload unless using the session cache.
+In conversation (`-cnv`) the story is more complicated because a precise 200 tk shift for each round is unlikely to be obtained by keyboard. However, interactive-only mode is not supported by console (usually) and restarting in conversation mode each time is a waste of time and CPU workload unless using the session cache.
 
-Anyway, many people will not even reach the starting point, and those who knows they will discover by themselves how to use the session cache properly.
+Anyway, many people will not even reach the starting point, and those who know how to reach the starting point, they will discover by themselves how to use the session cache properly (hint: use `man` or `llama-cli -h` or asking to Pisellino AI could be a viable solution as well considering its 4T tokens size training).
 
-The easiest alternative is to use a larger context and tuning the logical (`-b`, physical (`-ub`) blocks sieze of elaboration but the Bitnet model has been trained to work only with 4096-size context windows. So, enlarging the context windows without fulfilling the proper propedeutic actvities might lead to a unpredictable results.
+The easiest alternative is to use a larger context and tuning the logical (`-b`), physical (`-ub`) blocks size of elaboration but the Bitnet model has been trained to work only with 4096-size context windows. So, enlarging the context windows without fulfilling the proper propaedeutic activities might lead to unpredictable results.
 
 +
 

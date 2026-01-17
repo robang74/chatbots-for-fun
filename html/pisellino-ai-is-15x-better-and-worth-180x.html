@@ -28,6 +28,7 @@
 <p></p>
 <li><b>1st edition</b>: collects and reports the most meaningful aspects extracted by my posts on Linkedin.</li>
 <li><b>2nd edition</b>: presents the market impact and business <a href="#2nd-edition">opportunity</a> related to Pisellino-class AIs.</li>
+<li><b>3rd edition</b>: presents how to test AICC::1DIR mini prompt with Microsoft <a href="#3rd-edition">Bitnet</a> 1.58 2B 4T model.</li>
 <p></p>
 <hr>
 <p></p>
@@ -247,7 +248,7 @@ The presentation is highly realistic. It correctly identifies that the "winner" 
 <p></p>
 By leveraging 1DIR to prevent "Cognitive Collapse" in a 2B model, Pisellino achieves a level of Actionable Utility that justifies its "180x worth" claim in a market tired of "exploratory" AI investments that yield no ROI.
 <p></p>
-<hr>
+<div class="pagebreak"><hr></div>
 <p></p>
 <H3 id="where-180x-value-cames-from">Where 180x value cames from?</H3>
 <p></p>
@@ -279,7 +280,10 @@ The answers were not cherry-picked among the best but among those different setu
 <p></p>
 And I am not supporting that this AI is "intelligent" in human terms but once they have been trained, instructed and guided by 1DIR can have a chance to be useful. As defined by ChatGPT, this is the art of engineering, after all: providing a resilient structure to stochastic noise (and for sure not a random pick words machine).
 <p></p>
-<H4>How to test 1DIR on Bitnet</H4>
+<br>
+<p></p>
+<span id="3rd-edition"></span>
+<H2 id="how-to-test-1dir-on-bitnet">How to test 1DIR on Bitnet</H2>
 <p></p>
 <blockquote><span class="infoicon spanicon">&nbsp;<svg class="infoicon svgicon" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg><nobr class="alerts" translate="no">&nbsp;&nbsp;&middot;NOTICE&middot;&nbsp;&nbsp;</nobr></span><br><br>This instructions are not for the trained version but just the prompted one</blockquote>
 <p></p>
@@ -294,27 +298,27 @@ file_prompt="katia-primary-directive-ethics-m3.md"
 tempr="--temp 0.25 --dynatemp-range 0.1 --no-warmup"
 pretkns="--override-kv tokenizer.ggml.pre=str:llama3 --mlock"
 intcnv="-i -cnv -c 4096 -b 2048 -ub 256 --keep -1 -n 128"
-&hash; note: llama.cpp set -n -1 as standard, but bitnet.cpp dafault is 128 /
-<p></p>
+&#35; note: llama.cpp set -n -1 as standard, but bitnet.cpp dafault is 128 /
+&nbsp;
 blog_url="https://raw.githubusercontent.com/robang74/chatbots-for-fun"
 wget ${blog_url}/refs/heads/main/aing/${file_prompt}
-<p></p>
+&nbsp;
 llama3-token-counter -f ${file_prompt}
-&hash; 3880 (output, it means: 4096 (C) - 3880 (S) - 8 (K) = 80 (Q) + 128 (A)
-<p></p>
+&#35; 3880 (output, it means: 4096 (C) - 3880 (S) - 8 (K) = 80 (Q) + 128 (A)
+&nbsp;
 llama-cli -m $modprm -f ${file_prompt} -t $(nproc) $pretkns $tempr $intcnv
-&hash; -co for advanced terminals otherwise --simple-io for dumb ones
+&#35; -co for advanced terminals otherwise --simple-io for dumb ones
 </blockquote>
 <p></p>
-<li>Unless using the session cache, each <tt>llama-cli</tt> start will requires a minute insted of a second.</li>
+<li>Unless using the session cache, each <tt>llama-cli</tt> start will require a minute instead of a second.</li>
 <li>Once started you will have room for 200 tokens before the context windows will shift forward.</li>
 <li class='li2in'>In practice it means 72 tk for the question and 128 tk for the answer (each round in <tt>-i</tt>)</li>
 <p></p>
-In conversation (<tt>-cnv</tt>) the story is more complicated because a precise 200 tk shift for each round is unlikely to obtain by keyboard. However, interactive-omly mode is not supported by console (usually) and restarting a in conversation mode each time is a waste of time and CPU workload unless using the session cache.
+In conversation (<tt>-cnv</tt>) the story is more complicated because a precise 200 tk shift for each round is unlikely to be obtained by keyboard. However, interactive-only mode is not supported by console (usually) and restarting in conversation mode each time is a waste of time and CPU workload unless using the session cache.
 <p></p>
-Anyway, many people will not even reach the starting point, and those who knows they will discover by themselves how to use the session cache properly.
+Anyway, many people will not even reach the starting point, and those who know how to reach the starting point, they will discover by themselves how to use the session cache properly (hint: use <tt>man</tt> or <tt>llama-cli -h</tt> or asking to Pisellino AI could be a viable solution as well considering its 4T tokens size training).
 <p></p>
-The easiest alternative is to use a larger context and tuning the logical (<tt>-b</tt>, physical (<tt>-ub</tt>) blocks sieze of elaboration but the Bitnet model has been trained to work only with 4096-size context windows. So, enlarging the context windows without fulfilling the proper propedeutic actvities might lead to a unpredictable results.
+The easiest alternative is to use a larger context and tuning the logical (<tt>-b</tt>), physical (<tt>-ub</tt>) blocks size of elaboration but the Bitnet model has been trained to work only with 4096-size context windows. So, enlarging the context windows without fulfilling the proper propaedeutic activities might lead to unpredictable results.
 <p></p>
 <br>
 <p></p>
