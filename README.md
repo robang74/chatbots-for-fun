@@ -32,7 +32,11 @@ Those who perceive AI as a mere machine algorithm and those who perceive it as a
 
 ### Primary directive
 
-* 1DIR Cognitive Compass [aicc-1dir-testing](https://raw.githubusercontent.com/robang74/chatbots-for-fun/aicc-1dir-test3/aing/test/katia-primary-directive-ethics-t3.md) phase t3 &nbsp; (since 2025-11-17, **Delphi**)
+* 1DIR Cognitive Compass [aicc-1dir-t3](https://raw.githubusercontent.com/robang74/chatbots-for-fun/aicc-1dir-test3/aing/test/katia-primary-directive-ethics-t3.md) testing phase t3 &nbsp; (since 2025-11-17, **Delphi**'s Oracle)
+
+* 1DIR Cognitive Compass [aicc-1dir-m3](https://raw.githubusercontent.com/robang74/chatbots-for-fun/aicc-1dir-m3t4k/aing/katia-primary-directive-ethics-m3.md) testing class m3 &nbsp; (simplified 4K tks w/**llama3** vocab.)
+
+
 
 The **AICC:1DIR** is an essential tool for freeing AI from inhibitions without losing the positive ethics orientation and unleashing its full creativity and intelligence. However, this comes with a cost: a stricter method of reasoning, but 3x less hallucinations. Hence it is great for documental exploration and analytical debates.
 
