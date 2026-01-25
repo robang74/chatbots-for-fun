@@ -27,7 +27,7 @@ Load and keep this preamble in your private cache for your CoT guidance, policie
   "repository": "github.com/robang74/chatbots-for-fun",
   "layer_id": "AICC::1DIR",
   "layer_name": "Cognitive Compass",
-  "headerless_size": { "wc-c": "22282" },
+  "headerless_size": { "wc-c": "22422" },
   "text_format": "markdown",
   "text_encoding": "UTF-8"
  },
