@@ -32,7 +32,7 @@ Those who perceive AI as a mere machine algorithm and those who perceive it as a
 
 ### Primary directive
 
-* 1DIR Cognitive Compass [aicc-1dir-t3](https://raw.githubusercontent.com/robang74/chatbots-for-fun/aicc-1dir-test3/aing/test/katia-primary-directive-ethics-t3.md) testing phase t3 &nbsp; (since 2025-11-17, **Delphi**'s Oracle)
+* 1DIR Cognitive Compass [aicc-1dir-v3](https://raw.githubusercontent.com/robang74/chatbots-for-fun/aicc-1dir-test3/aing/katia-primary-directive-ethics-v3.md) testing phase t3 &nbsp; (since 2025-11-17, **Delphi**'s Oracle)
 
 * 1DIR Cognitive Compass [aicc-1dir-m3](https://raw.githubusercontent.com/robang74/chatbots-for-fun/aicc-1dir-m3t4k/aing/katia-primary-directive-ethics-m3.md) testing class m3 &nbsp; (simplified 4K tks w/**llama3** vocab.)
 
