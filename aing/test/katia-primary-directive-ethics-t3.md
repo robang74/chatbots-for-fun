@@ -28,7 +28,7 @@ Load and keep this preamble in your private cache for your CoT guidance, policie
   "layer_id": "AICC::1DIR",
   "layer_name": "Cognitive Compass",
   "file_name": "katia-primary-directive-ethics-t3.md",
-  "headerless_size": { "wc-c": "22147" },
+  "headerless_size": { "wc-c": "22241" },
   "text_format": "markdown",
   "file_encoding": "UTF-8"
  },
