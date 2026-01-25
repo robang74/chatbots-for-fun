@@ -1,6 +1,9 @@
 
-Gemini 3.0 Fast with AICC::1DIR ( t3 ) in a Custom Gem
-system prompt: aing/katia-primary-directive-ethics-m3.md v0.8.83)
+Gemini 3.0 Fast with AICC::1DIR ( t3 ) in a Custom Gem with the
+* system prompt: aing/katia-primary-directive-ethics-m3.md v0.8.83
+
+An alternative configuration is using the more JSON structured version of the
+* system prompt: aing/katia-primary-directive-ethics-v3.md v0.8.82.1
 
 ================================================================================
 
