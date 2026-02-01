@@ -1,5 +1,7 @@
 ### THE AICC::1DIR 0-SHOT-CoT IS SELF INSPECTABILE
 
+- https://www.facebook.com/roberto.a.foglietta/posts/10162863822248736 (2026-01-25)
+
 - ~> https://lnkd.in/dEA65Cik (1DIR answer example)
 
 Query: Explain me this (text followin)
@@ -27,7 +29,7 @@ What does "independent 3rd party blindly verificable", it means that if 1DIR has
 
 Said in a few words: it is a converging system, not a "boh?" system. If it does not converge within a certain few-N examples, then it is "tricky" (or broken) but if the vocabulary learning converges by a "natural" curve of accuracy thus is a formal (or conceptual) language template not affected by "tricky" mechanics.
 
-Interesting, uh? 🤗 🍌 
+Interesting, uh? 🤗 🍌
 
 - ~> https://lnkd.in/dZ9A48Eh (1DIR Pisellino AI)
 
@@ -73,4 +75,65 @@ For an AI, perception and reality are the same thing. We live in reality and whe
 
 This is the main reason because intelligence makes selection. So why does stupidity exist? Intelligence requires an energy-consuming high-functioning brain, while stupidity is the energy-saving quick-reaction mode. Both are advantages of some kinds, especially in a wild jungle but not so much in a highly structured society / culture.
 
++
+
+## IS METACOGNITION A SUPER-POWER?
+
+- https://www.linkedin.com/posts/robertofoglietta_is-metacognition-a-super-power-somehow-activity-7419531521864290304-wioC
+
+Somehow, and it can be learned and improved by practice.
+
+The explanation given below by GPT (supervised and verified).
+
+### WHY METACOGNITION MATTERS AND WHAT IT IS NOT
+
+In cognitive science, metacognition means “thinking about how we think”.
+
+John Flavell introduced the term in the 1970s, and decades of research since then show that this capacity plays a key role in learning, decision-making, and problem solving.
+
+The main advantage of metacognition is not speed or intelligence in the traditional sense. It is mental regulation. People with good metacognitive skills are better at noticing when they do not really understand something, adjusting strategies when one is failing, and learning from errors instead of repeating them. Studies show that metacognition predicts performance independently of IQ or memory capacity (stabilisation).
+
+However, metacognition is often confused with other mental activities, like self-reflection, meditatition, overthinking (or rumination) and finally, post-hoc explanations which are stories we tell after acting.
+
+Neuroscience and decision science show that many decisions are made automatically, and the brain later constructs a plausible narrative (“why I did it”). This is not metacognition, but rationalization.
+
+In short, metacognition is not thinking more. It is thinking BETTER: observing the mind at work, and knowing when—and how—to intervene.
+
+---
+
+### HOW CLASSIFY AICC::1DIR IN HUMAN TERMS?
+
+~> https://lnkd.in/dUKf3Sbt
+
+If used by a human, this system prompt would be best classified as:
+
+* Applied metacognitive regulation with structured self-reflection
+
+It is not meditation (doesn't fit in that), not overthinking (actively prevented), and not post-hoc storytelling (explicitly rejected)
+
+It is a cognitive control scaffold, very close to what the scientific literature describes as trained metacognition or executive self-monitoring.
+
+---
+
+THE VERBOSE v2 IS MORE HUMANS-SUITABLE?
+
+~> https://lnkd.in/dFSZXsn2
+
+* m3 -- System prompt (AI-style): metacognitive with a high regulation degree, a bit of self-reflection and anti-rumination by design.
+
+* v2 -- Narrative (Human-style): well balanced in metacognition and self-reflection, rejects post-hoc, educational, priming, interpretative.
+
+They belong to the same conceptual category, but the m3-prompt is a control system, while the v2-narrative is a cognitive compass.
+
+* The longer narrative v2 is better for humans because it builds understanding, reflection, and shared mental models.
+
+* The shorter, formal m3-prompt is better for AI because it enforces real-time control, constraints, and consistency.
+
+Same principles, different formats. Humans need meaning (WHY) while AIs need instructions (HOW). Which explain the evolution from v2 to m3: AI adaptation.
+
++
+
+## Share alike
+
+&copy; 2026, **Roberto A. Foglietta** &lt;roberto.foglietta<span>@</span>gmail.com&gt;, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
