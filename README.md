@@ -119,7 +119,7 @@ The articles are listed here below, grouped by topic:
 
    - 2025-12-27 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/orchestrating-ai-intelligence-by-context.md)] - [Results from structuring AI's CoT](orchestrating-ai-intelligence-by-context.md) &nbsp; (5th edt.)
 
-   - 2025-12-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/collection-of-useful-prompts-by-raf.md)] - [A collection of useful prompts](collection-of-useful-prompts-by-raf.md) &nbsp; (3rd edt.)
+   - 2025-12-23 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/collection-of-useful-prompts-by-raf.md)] - [A collection of useful prompts](collection-of-useful-prompts-by-raf.md) &nbsp; (4th edt.)
 
    - 2025-10-28 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/how-to-use-katia-for-educating-katia.md)] - [How to use Katia for educating Katia](how-to-use-katia-for-educating-katia.md) &nbsp; (2nd edt.)
 
