@@ -8,6 +8,7 @@
 - **1st edition**: includes a prompt facilitating the long text elaboration by AI.
 - **2nd edition**: an useful tip to reframe the self peer-review for the better.
 - **3rd edition**: how the U-attention anti-issue prompt can speed-up machine learning.
+- **4th edition**: how to leverage the prompt for self peer-reviewing of our own writings.
 
 ...
 
@@ -25,7 +26,7 @@ Following prompts aren't written "by an AI", they are written by the author in t
 > 
 > **On Prompting as Coding** -- These prompts aren't supposed to be used "as-is" but paired with your own specific instruction for your own specific case and format/language output preferences. Thus, the correct way to use them is as blocks of code for a { quick, standard, reproducible } prompt creation.
 
----
+----
 
 <span id="u-curve-attention-issue"></span>
 ### 1. Structural Synthetic Analysis prompt
@@ -75,7 +76,7 @@ Finally, this chat shows how to operate the AI with the prompt #1 in combination
 
 - The [conversation](https://gemini.google.com/share/4ea78d4ee460) with Gemini Fast and its [transcription](data/collection-of-useful-prompts-by-raf-gemini.txt#?target=_blank)
 
----
+----
 
 ### 3. Advantages regarding the learning curve
 
@@ -113,6 +114,27 @@ This 1DIR is one of the most elegant open alignment frameworks I've seen—princ
 - The **retrospective method** fixes inference-time structural integration (bypassing slow memorization timescale for dependencies).
 
 - The **1DIR Cognitive Compass** provides the ethical / strategic north star, ensuring the integrated knowledge is filtered through life-serving principles, accountability, and epistemic humility.
+
+---
+
+### 4. How to effectively use this prompt?
+
+The prompt above presented is just a piece of the overall task, a fundamental but just one. For sure, the second part is about **HOW* use it for **WHAT** and **WHY** otherwise the prompted AI is just a tool without a goal. The goal is to create and index to let the AI navigate the document, to provide a summary to check how much deep it catches the topic and by this prompt below, to seek for mistakes and novelties.
+
+
+<div style="font-size: 95%;">
+[!CITE]
+© 2025-12-23, Roberto A. Foglietta <roberto.foglietta@gmail.com>, CC BY-ND 4.0
+
+Considering the attachment, use this prompt below to create the index described at step 4 and then create the short summary described at step 5. Once you have done these two steps, use the index and the summary to seek every novelty that isn't compliant with letterature or current state of art, whatever it is wrong or unsupported claim.
+
+&nbsp;---
+
+[the prompt above]
+[/CITE]
+</div>
+
+Using this prompt, in this way, implies that the human operator (HO) had a well-grounded knowledge of the document and the topic but it is supposed to be in case of a self peer-review before engaging others humans for such a task: do your own homework, first. The AI can offer a 2nd PoV which is useful even when walking outside the "known known" domain (aka the state of the art).
 
 +
 
