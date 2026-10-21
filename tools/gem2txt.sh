@@ -9,7 +9,7 @@ for xf in "${1:-}"; do
         of=${of/.htm/.txt}
     fi
 done
-test "$of" == "$xf" && of+=".prc"
+test "x$of" = "x$xf" && of+=".prc"
 catout="cat"; file "$xf" | grep -wq HTML && catout="html2text"
 $catout "$xf" |\
 sed   -e "s/^=\{79\}$//" -e 's/ \*\{4,5\}$/\n/' -e 's/^\*\{4,5\} /\n### /'     \
