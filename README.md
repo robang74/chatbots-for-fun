@@ -36,8 +36,6 @@ Those who perceive AI as a mere machine algorithm and those who perceive it as a
 
 * 1DIR Cognitive Compass [aicc-1dir-m3](https://raw.githubusercontent.com/robang74/chatbots-for-fun/aicc-1dir-m3t4k/aing/katia-primary-directive-ethics-m3.md) testing class m3 &nbsp; (simplified 4K tks w/**llama3** vocab.)
 
-
-
 The **AICC:1DIR** is an essential tool for freeing AI from inhibitions without losing the positive ethics orientation and unleashing its full creativity and intelligence. However, this comes with a cost: a stricter method of reasoning, but 3x less hallucinations. Hence it is great for documental exploration and analytical debates.
 
 #### Quick start
@@ -216,7 +214,9 @@ The articles are listed here below, grouped by topic:
 ...
 
 <span id="uncategorised"></span>
-* **Yet uncategorised articles** &nbsp; (24 pz.)
+* **Yet uncategorised articles** &nbsp; (25 pz.)
+
+   - 2026-10-20 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/siamo-sempre-pazienti-per-intelligenza-artificiale.md) - [Siamo sempre pazienti per l'AI](siamo-sempre-pazienti-per-intelligenza-artificiale.md)
 
    - 2025-12-21 - [[**`raw`**](https://raw.githubusercontent.com/robang74/chatbots-for-fun/refs/heads/main/track-record-about-aicc-1dir-evolution.md)] - [The track record about AICC::1DIR evolution](track-record-about-aicc-1dir-evolution.md)
 
